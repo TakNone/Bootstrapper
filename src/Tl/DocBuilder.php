@@ -90,7 +90,7 @@ abstract class DocBuilder {
 			$all->writeNewLine('---');
 			$all->writeNewLine();
 			$type = current($items)['type'];
-			$all->writeNewLine('###### :link: '.chr(91).$type.chr(93).chr(40).'type'.chr(47).$type.chr(41));
+			$all->writeNewLine('###### '.$type);
 			$info = self::extractPageInfoFromUrl('https://core.telegram.org/type/'.$type);
 			$stream = new Builder($folderTypes.DIRECTORY_SEPARATOR.$type.'.md');
 			$stream->write('# '.$type);
@@ -98,9 +98,11 @@ abstract class DocBuilder {
 				$stream->writeNewLine();
 				$desc = trim($info['description'],chr(46));
 				$stream->writeNewLine('**Description** : *'.$desc.'*');
-				$all->writeNewLine();
-				$all->writeNewLine('  - *'.$desc.'*');
+			else:
+				$desc = 'NOTHING';
 			endif;
+			$all->writeNewLine();
+			$all->writeNewLine(':link: [*'.$desc.'*]'.chr(40).'type'.chr(47).$type.chr(41));
 			$stream->writeNewLine();
 			$stream->writeNewLine('**Layer** : '.$layer);
 			$stream->writeNewLine();
@@ -131,7 +133,7 @@ abstract class DocBuilder {
 				$all->writeNewLine();
 				$all->writeNewLine('---');
 				$all->writeNewLine();
-				$all->writeNewLine('###### :link: '.chr(91).$item['predicate'].chr(93).chr(40).'constructor'.chr(47).$item['predicate'].chr(41));
+				$all->writeNewLine('###### '.$item['predicate']);
 				$info = self::extractPageInfoFromUrl('https://core.telegram.org/constructor/'.$item['predicate']);
 				$stream = new Builder($folderConstructors.DIRECTORY_SEPARATOR.$item['predicate'].'.md');
 				$stream->write('# '.$item['predicate']);
@@ -139,9 +141,11 @@ abstract class DocBuilder {
 					$stream->writeNewLine();
 					$desc = trim($info['description'],chr(46));
 					$stream->writeNewLine('**Description** : *'.$desc.'*');
-					$all->writeNewLine();
-					$all->writeNewLine('  - *'.$desc.'*');
+				else:
+					$desc = 'NOTHING';
 				endif;
+				$all->writeNewLine();
+				$all->writeNewLine(':link: [*'.$desc.'*]'.chr(40).'constructor'.chr(47).$item['predicate'].chr(41));
 				$stream->writeNewLine();
 				$stream->writeNewLine('**Layer** : '.$layer);
 				$stream->writeNewLine();
@@ -193,7 +197,7 @@ abstract class DocBuilder {
 				$all->writeNewLine();
 				$all->writeNewLine('---');
 				$all->writeNewLine();
-				$all->writeNewLine('###### :link: '.chr(91).$item['method'].chr(93).chr(40).'method'.chr(47).$item['method'].chr(41));
+				$all->writeNewLine('###### '.$item['method']);
 				$info = self::extractPageInfoFromUrl('https://core.telegram.org/method/'.$item['method']);
 				$stream = new Builder($folderMethods.DIRECTORY_SEPARATOR.$item['method'].'.md');
 				$stream->write('# '.$item['method']);
@@ -201,9 +205,11 @@ abstract class DocBuilder {
 					$stream->writeNewLine();
 					$desc = trim($info['description'],chr(46));
 					$stream->writeNewLine('**Description** : *'.$desc.'*');
-					$all->writeNewLine();
-					$all->writeNewLine('  - *'.$desc.'*');
+				else:
+					$desc = 'NOTHING';
 				endif;
+				$all->writeNewLine();
+				$all->writeNewLine(':link: [*'.$desc.'*]'.chr(40).'method'.chr(47).$item['method'].chr(41));
 				$stream->writeNewLine();
 				$stream->writeNewLine('**Layer** : '.$layer);
 				$stream->writeNewLine();
