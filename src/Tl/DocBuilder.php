@@ -17,6 +17,9 @@ use function Amp\File\read;
 define('PATH',getenv('DOCPATH') ?: ($_ENV['DOCPATH'] ?? __DIR__));
 
 abstract class DocBuilder {
+	static public function mdSafe(string $string) : string {
+		return htmlentities(preg_replace('/([\\\\`*_{}\[\]\(\)#\+\-\.!\|])/','\\\\$1',$string));
+	}
 	static public function layer(string $TLFile) : int {
 		$layer = read($TLFile);
 		if(preg_match('~\/\/\sLAYER\s(?<layer>\d+)~i',$layer,$match)):
@@ -96,7 +99,7 @@ abstract class DocBuilder {
 			$stream->write('# '.$type);
 			if(empty($info['description']) === false):
 				$stream->writeNewLine();
-				$desc = trim($info['description'],chr(46));
+				$desc = self::mdSafe(trim($info['description'],chr(46)));
 				$stream->writeNewLine('**Description** : *'.$desc.'*');
 			else:
 				$desc = 'NOTHING';
@@ -139,7 +142,7 @@ abstract class DocBuilder {
 				$stream->write('# '.$item['predicate']);
 				if(empty($info['description']) === false):
 					$stream->writeNewLine();
-					$desc = trim($info['description'],chr(46));
+					$desc = self::mdSafe(trim($info['description'],chr(46)));
 					$stream->writeNewLine('**Description** : *'.$desc.'*');
 				else:
 					$desc = 'NOTHING';
@@ -203,7 +206,7 @@ abstract class DocBuilder {
 				$stream->write('# '.$item['method']);
 				if(empty($info['description']) === false):
 					$stream->writeNewLine();
-					$desc = trim($info['description'],chr(46));
+					$desc = self::mdSafe(trim($info['description'],chr(46)));
 					$stream->writeNewLine('**Description** : *'.$desc.'*');
 				else:
 					$desc = 'NOTHING';
@@ -280,17 +283,18 @@ abstract class DocBuilder {
 				$type = $param['type'];
 				$parsed = Tl::parseType($type,false);
 				if($parsed['flag_indicator'] === false):
-					$randomValue = match($parsed['type']){
+					$randomValue = match(strtolower($parsed['type'])){
 						'int' => random_int(0,100), // random_int(-0x80000000,0x7fffffff) //
 						'int128' => Helper::generateRandomLargeInt(128),
 						'int256' => Helper::generateRandomLargeInt(256),
 						'int512' => Helper::generateRandomLargeInt(512),
 						'long' => Helper::generateRandomLong(),
 						'double' => random_int(-0x80000000,0x7fffffff) / 0x400,
-						'string' => Helper::generateRandomString(),true,
+						'string' => Helper::generateRandomString(),
 						'bytes' => mb_convert_encoding(random_bytes(5).'LiveProto'.random_bytes(5),'UTF-8'),
 						'true' => true,
 						'bool' => boolval(random_int(0,1)),
+						'x' => '$client->help->getConfig(raw : true)',
 						default => null
 					};
 					if(is_null($randomValue)):
