@@ -3,4232 +3,4326 @@
 
 ---
 
-###### :link: [invokeAfterMsg](method/invokeAfterMsg)
+###### invokeAfterMsg
 
-  - *Invokes a query after successful completion of one of the previous queries*
+:link: [*Invokes a query after successful completion of one of the previous queries*](method/invokeAfterMsg)
 
 ---
 
-###### :link: [invokeAfterMsgs](method/invokeAfterMsgs)
+###### invokeAfterMsgs
 
-  - *Invokes a query after a successful completion of previous queries*
+:link: [*Invokes a query after a successful completion of previous queries*](method/invokeAfterMsgs)
 
 ---
 
-###### :link: [initConnection](method/initConnection)
+###### initConnection
 
-  - *Initialize connection*
+:link: [*Initialize connection*](method/initConnection)
 
 ---
 
-###### :link: [invokeWithLayer](method/invokeWithLayer)
+###### invokeWithLayer
 
-  - *Invoke the specified query using the specified API layer*
+:link: [*Invoke the specified query using the specified API layer*](method/invokeWithLayer)
 
 ---
 
-###### :link: [invokeWithoutUpdates](method/invokeWithoutUpdates)
+###### invokeWithoutUpdates
 
-  - *Invoke a request without subscribing the used connection for updates (this is enabled by default for file queries)*
+:link: [*Invoke a request without subscribing the used connection for updates (this is enabled by default for file queries)*](method/invokeWithoutUpdates)
 
 ---
 
-###### :link: [invokeWithMessagesRange](method/invokeWithMessagesRange)
+###### invokeWithMessagesRange
 
-  - *Invoke with the given message range*
+:link: [*Invoke with the given message range*](method/invokeWithMessagesRange)
 
 ---
 
-###### :link: [invokeWithTakeout](method/invokeWithTakeout)
+###### invokeWithTakeout
 
-  - *Invoke a method within a takeout session, see here » for more info*
+:link: [*Invoke a method within a takeout session, see here » for more info*](method/invokeWithTakeout)
 
 ---
 
-###### :link: [invokeWithBusinessConnection](method/invokeWithBusinessConnection)
+###### invokeWithBusinessConnection
 
-  - *Invoke a method using a Telegram Business Bot connection, see here » for more info, including a list of the methods that can be wrapped in this constructor*
+:link: [*Invoke a method using a Telegram Business Bot connection, see here » for more info, including a list of the methods that can be wrapped in this constructor*](method/invokeWithBusinessConnection)
 
 ---
 
-###### :link: [invokeWithGooglePlayIntegrity](method/invokeWithGooglePlayIntegrity)
+###### invokeWithGooglePlayIntegrity
 
-  - *Official clients only, invoke with Google Play Integrity token*
+:link: [*Official clients only, invoke with Google Play Integrity token*](method/invokeWithGooglePlayIntegrity)
 
 ---
 
-###### :link: [invokeWithApnsSecret](method/invokeWithApnsSecret)
+###### invokeWithApnsSecret
 
-  - *Official clients only, invoke with Apple push verification*
+:link: [*Official clients only, invoke with Apple push verification*](method/invokeWithApnsSecret)
 
 ---
 
-###### :link: [invokeWithReCaptcha](method/invokeWithReCaptcha)
+###### invokeWithReCaptcha
 
+:link: [*NOTHING*](method/invokeWithReCaptcha)
+
 ---
 
-###### :link: [auth.sendCode](method/auth.sendCode)
+###### auth.sendCode
 
-  - *Send the verification code for login*
+:link: [*Send the verification code for login*](method/auth.sendCode)
 
 ---
 
-###### :link: [auth.signUp](method/auth.signUp)
+###### auth.signUp
 
-  - *Registers a validated phone number in the system*
+:link: [*Registers a validated phone number in the system*](method/auth.signUp)
 
 ---
 
-###### :link: [auth.signIn](method/auth.signIn)
+###### auth.signIn
 
-  - *Signs in a user with a validated phone number*
+:link: [*Signs in a user with a validated phone number*](method/auth.signIn)
 
 ---
 
-###### :link: [auth.logOut](method/auth.logOut)
+###### auth.logOut
 
-  - *Logs out the user*
+:link: [*Logs out the user*](method/auth.logOut)
 
 ---
 
-###### :link: [auth.resetAuthorizations](method/auth.resetAuthorizations)
+###### auth.resetAuthorizations
 
-  - *Terminates all user's authorized sessions except for the current one*
+:link: [*Terminates all user's authorized sessions except for the current one*](method/auth.resetAuthorizations)
 
 ---
 
-###### :link: [auth.exportAuthorization](method/auth.exportAuthorization)
+###### auth.exportAuthorization
 
-  - *Returns data for copying authorization to another data-center*
+:link: [*Returns data for copying authorization to another data-center*](method/auth.exportAuthorization)
 
 ---
 
-###### :link: [auth.importAuthorization](method/auth.importAuthorization)
+###### auth.importAuthorization
 
-  - *Logs in a user using a key transmitted from his native data-center*
+:link: [*Logs in a user using a key transmitted from his native data-center*](method/auth.importAuthorization)
 
 ---
 
-###### :link: [auth.bindTempAuthKey](method/auth.bindTempAuthKey)
+###### auth.bindTempAuthKey
 
-  - *Binds a temporary authorization key temp_auth_key_id to the permanent authorization key perm_auth_key_id. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one*
+:link: [*Binds a temporary authorization key temp_auth_key_id to the permanent authorization key perm_auth_key_id. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one*](method/auth.bindTempAuthKey)
 
 ---
 
-###### :link: [auth.importBotAuthorization](method/auth.importBotAuthorization)
+###### auth.importBotAuthorization
 
-  - *Login as a bot*
+:link: [*Login as a bot*](method/auth.importBotAuthorization)
 
 ---
 
-###### :link: [auth.checkPassword](method/auth.checkPassword)
+###### auth.checkPassword
 
-  - *Try logging to an account protected by a 2FA password*
+:link: [*Try logging to an account protected by a 2FA password*](method/auth.checkPassword)
 
 ---
 
-###### :link: [auth.requestPasswordRecovery](method/auth.requestPasswordRecovery)
+###### auth.requestPasswordRecovery
 
-  - *Request recovery code of a 2FA password, only for accounts with a recovery email configured*
+:link: [*Request recovery code of a 2FA password, only for accounts with a recovery email configured*](method/auth.requestPasswordRecovery)
 
 ---
 
-###### :link: [auth.recoverPassword](method/auth.recoverPassword)
+###### auth.recoverPassword
 
-  - *Reset the 2FA password using the recovery code sent using auth.requestPasswordRecovery*
+:link: [*Reset the 2FA password using the recovery code sent using auth.requestPasswordRecovery*](method/auth.recoverPassword)
 
 ---
 
-###### :link: [auth.resendCode](method/auth.resendCode)
+###### auth.resendCode
 
-  - *Resend the login code via another medium, the phone code type is determined by the return value of the previous auth.sendCode/auth.resendCode: see login for more info*
+:link: [*Resend the login code via another medium, the phone code type is determined by the return value of the previous auth.sendCode/auth.resendCode: see login for more info*](method/auth.resendCode)
 
 ---
 
-###### :link: [auth.cancelCode](method/auth.cancelCode)
+###### auth.cancelCode
 
-  - *Cancel the login verification code*
+:link: [*Cancel the login verification code*](method/auth.cancelCode)
 
 ---
 
-###### :link: [auth.dropTempAuthKeys](method/auth.dropTempAuthKeys)
+###### auth.dropTempAuthKeys
 
-  - *Delete all temporary authorization keys except for the ones specified*
+:link: [*Delete all temporary authorization keys except for the ones specified*](method/auth.dropTempAuthKeys)
 
 ---
 
-###### :link: [auth.exportLoginToken](method/auth.exportLoginToken)
+###### auth.exportLoginToken
 
-  - *Generate a login token, for login via QR code.
-The generated login token should be encoded using base64url, then shown as a tg://login?token=base64encodedtoken deep link » in the QR code*
+:link: [*Generate a login token, for login via QR code.
+The generated login token should be encoded using base64url, then shown as a tg://login?token=base64encodedtoken deep link » in the QR code*](method/auth.exportLoginToken)
 
 ---
 
-###### :link: [auth.importLoginToken](method/auth.importLoginToken)
+###### auth.importLoginToken
 
-  - *Login using a redirected login token, generated in case of DC mismatch during QR code login*
+:link: [*Login using a redirected login token, generated in case of DC mismatch during QR code login*](method/auth.importLoginToken)
 
 ---
 
-###### :link: [auth.acceptLoginToken](method/auth.acceptLoginToken)
+###### auth.acceptLoginToken
 
-  - *Accept QR code login token, logging in the app that generated it*
+:link: [*Accept QR code login token, logging in the app that generated it*](method/auth.acceptLoginToken)
 
 ---
 
-###### :link: [auth.checkRecoveryPassword](method/auth.checkRecoveryPassword)
+###### auth.checkRecoveryPassword
 
-  - *Check if the 2FA recovery code sent using auth.requestPasswordRecovery is valid, before passing it to auth.recoverPassword*
+:link: [*Check if the 2FA recovery code sent using auth.requestPasswordRecovery is valid, before passing it to auth.recoverPassword*](method/auth.checkRecoveryPassword)
 
 ---
 
-###### :link: [auth.importWebTokenAuthorization](method/auth.importWebTokenAuthorization)
+###### auth.importWebTokenAuthorization
 
-  - *Login by importing an authorization token*
+:link: [*Login by importing an authorization token*](method/auth.importWebTokenAuthorization)
 
 ---
 
-###### :link: [auth.requestFirebaseSms](method/auth.requestFirebaseSms)
+###### auth.requestFirebaseSms
 
-  - *Request an SMS code via Firebase*
+:link: [*Request an SMS code via Firebase*](method/auth.requestFirebaseSms)
 
 ---
 
-###### :link: [auth.resetLoginEmail](method/auth.resetLoginEmail)
+###### auth.resetLoginEmail
 
-  - *Reset the login email »*
+:link: [*Reset the login email »*](method/auth.resetLoginEmail)
 
 ---
 
-###### :link: [auth.reportMissingCode](method/auth.reportMissingCode)
+###### auth.reportMissingCode
 
-  - *Official apps only, reports that the SMS authentication code wasn't delivered*
+:link: [*Official apps only, reports that the SMS authentication code wasn't delivered*](method/auth.reportMissingCode)
 
 ---
 
-###### :link: [account.registerDevice](method/account.registerDevice)
+###### account.registerDevice
 
-  - *Register device to receive PUSH notifications*
+:link: [*Register device to receive PUSH notifications*](method/account.registerDevice)
 
 ---
 
-###### :link: [account.unregisterDevice](method/account.unregisterDevice)
+###### account.unregisterDevice
 
-  - *Deletes a device by its token, stops sending PUSH-notifications to it*
+:link: [*Deletes a device by its token, stops sending PUSH-notifications to it*](method/account.unregisterDevice)
 
 ---
 
-###### :link: [account.updateNotifySettings](method/account.updateNotifySettings)
+###### account.updateNotifySettings
 
-  - *Edits notification settings from a given user/group, from all users/all groups*
+:link: [*Edits notification settings from a given user/group, from all users/all groups*](method/account.updateNotifySettings)
 
 ---
 
-###### :link: [account.getNotifySettings](method/account.getNotifySettings)
+###### account.getNotifySettings
 
-  - *Gets current notification settings for a given user/group, from all users/all groups*
+:link: [*Gets current notification settings for a given user/group, from all users/all groups*](method/account.getNotifySettings)
 
 ---
 
-###### :link: [account.resetNotifySettings](method/account.resetNotifySettings)
+###### account.resetNotifySettings
 
-  - *Resets all notification settings from users and groups*
+:link: [*Resets all notification settings from users and groups*](method/account.resetNotifySettings)
 
 ---
 
-###### :link: [account.updateProfile](method/account.updateProfile)
+###### account.updateProfile
 
-  - *Updates user profile*
+:link: [*Updates user profile*](method/account.updateProfile)
 
 ---
 
-###### :link: [account.updateStatus](method/account.updateStatus)
+###### account.updateStatus
 
-  - *Updates online user status*
+:link: [*Updates online user status*](method/account.updateStatus)
 
 ---
 
-###### :link: [account.getWallPapers](method/account.getWallPapers)
+###### account.getWallPapers
 
-  - *Returns a list of available wallpapers*
+:link: [*Returns a list of available wallpapers*](method/account.getWallPapers)
 
 ---
 
-###### :link: [account.reportPeer](method/account.reportPeer)
+###### account.reportPeer
 
-  - *Report a peer for violation of telegram's Terms of Service*
+:link: [*Report a peer for violation of telegram's Terms of Service*](method/account.reportPeer)
 
 ---
 
-###### :link: [account.checkUsername](method/account.checkUsername)
+###### account.checkUsername
 
-  - *Validates a username and checks availability*
+:link: [*Validates a username and checks availability*](method/account.checkUsername)
 
 ---
 
-###### :link: [account.updateUsername](method/account.updateUsername)
+###### account.updateUsername
 
-  - *Changes username for the current user*
+:link: [*Changes username for the current user*](method/account.updateUsername)
 
 ---
 
-###### :link: [account.getPrivacy](method/account.getPrivacy)
+###### account.getPrivacy
 
-  - *Get privacy settings of current account*
+:link: [*Get privacy settings of current account*](method/account.getPrivacy)
 
 ---
 
-###### :link: [account.setPrivacy](method/account.setPrivacy)
+###### account.setPrivacy
 
-  - *Change privacy settings of current account*
+:link: [*Change privacy settings of current account*](method/account.setPrivacy)
 
 ---
 
-###### :link: [account.deleteAccount](method/account.deleteAccount)
+###### account.deleteAccount
 
-  - *Delete the user's account from the telegram servers*
+:link: [*Delete the user's account from the telegram servers*](method/account.deleteAccount)
 
 ---
 
-###### :link: [account.getAccountTTL](method/account.getAccountTTL)
+###### account.getAccountTTL
 
-  - *Get days to live of account*
+:link: [*Get days to live of account*](method/account.getAccountTTL)
 
 ---
 
-###### :link: [account.setAccountTTL](method/account.setAccountTTL)
+###### account.setAccountTTL
 
-  - *Set account self-destruction period*
+:link: [*Set account self-destruction period*](method/account.setAccountTTL)
 
 ---
 
-###### :link: [account.sendChangePhoneCode](method/account.sendChangePhoneCode)
+###### account.sendChangePhoneCode
 
-  - *Verify a new phone number to associate to the current account*
+:link: [*Verify a new phone number to associate to the current account*](method/account.sendChangePhoneCode)
 
 ---
 
-###### :link: [account.changePhone](method/account.changePhone)
+###### account.changePhone
 
-  - *Change the phone number of the current account*
+:link: [*Change the phone number of the current account*](method/account.changePhone)
 
 ---
 
-###### :link: [account.updateDeviceLocked](method/account.updateDeviceLocked)
+###### account.updateDeviceLocked
 
-  - *When client-side passcode lock feature is enabled, will not show message texts in incoming PUSH notifications*
+:link: [*When client-side passcode lock feature is enabled, will not show message texts in incoming PUSH notifications*](method/account.updateDeviceLocked)
 
 ---
 
-###### :link: [account.getAuthorizations](method/account.getAuthorizations)
+###### account.getAuthorizations
 
-  - *Get logged-in sessions*
+:link: [*Get logged-in sessions*](method/account.getAuthorizations)
 
 ---
 
-###### :link: [account.resetAuthorization](method/account.resetAuthorization)
+###### account.resetAuthorization
 
-  - *Log out an active authorized session by its hash*
+:link: [*Log out an active authorized session by its hash*](method/account.resetAuthorization)
 
 ---
 
-###### :link: [account.getPassword](method/account.getPassword)
+###### account.getPassword
 
-  - *Obtain configuration for two-factor authorization with password*
+:link: [*Obtain configuration for two-factor authorization with password*](method/account.getPassword)
 
 ---
 
-###### :link: [account.getPasswordSettings](method/account.getPasswordSettings)
+###### account.getPasswordSettings
 
-  - *Get private info associated to the password info (recovery email, telegram passport info & so on)*
+:link: [*Get private info associated to the password info (recovery email, telegram passport info & so on)*](method/account.getPasswordSettings)
 
 ---
 
-###### :link: [account.updatePasswordSettings](method/account.updatePasswordSettings)
+###### account.updatePasswordSettings
 
-  - *Set a new 2FA password*
+:link: [*Set a new 2FA password*](method/account.updatePasswordSettings)
 
 ---
 
-###### :link: [account.sendConfirmPhoneCode](method/account.sendConfirmPhoneCode)
+###### account.sendConfirmPhoneCode
 
-  - *Send confirmation code to cancel account deletion, for more info click here »*
+:link: [*Send confirmation code to cancel account deletion, for more info click here »*](method/account.sendConfirmPhoneCode)
 
 ---
 
-###### :link: [account.confirmPhone](method/account.confirmPhone)
+###### account.confirmPhone
 
-  - *Confirm a phone number to cancel account deletion, for more info click here »*
+:link: [*Confirm a phone number to cancel account deletion, for more info click here »*](method/account.confirmPhone)
 
 ---
 
-###### :link: [account.getTmpPassword](method/account.getTmpPassword)
+###### account.getTmpPassword
 
-  - *Get temporary payment password*
+:link: [*Get temporary payment password*](method/account.getTmpPassword)
 
 ---
 
-###### :link: [account.getWebAuthorizations](method/account.getWebAuthorizations)
+###### account.getWebAuthorizations
 
-  - *Get web login widget authorizations*
+:link: [*Get web login widget authorizations*](method/account.getWebAuthorizations)
 
 ---
 
-###### :link: [account.resetWebAuthorization](method/account.resetWebAuthorization)
+###### account.resetWebAuthorization
 
-  - *Log out an active web telegram login session*
+:link: [*Log out an active web telegram login session*](method/account.resetWebAuthorization)
 
 ---
 
-###### :link: [account.resetWebAuthorizations](method/account.resetWebAuthorizations)
+###### account.resetWebAuthorizations
 
-  - *Reset all active web telegram login sessions*
+:link: [*Reset all active web telegram login sessions*](method/account.resetWebAuthorizations)
 
 ---
 
-###### :link: [account.getAllSecureValues](method/account.getAllSecureValues)
+###### account.getAllSecureValues
 
-  - *Get all saved Telegram Passport documents, for more info see the passport docs »*
+:link: [*Get all saved Telegram Passport documents, for more info see the passport docs »*](method/account.getAllSecureValues)
 
 ---
 
-###### :link: [account.getSecureValue](method/account.getSecureValue)
+###### account.getSecureValue
 
-  - *Get saved Telegram Passport document, for more info see the passport docs »*
+:link: [*Get saved Telegram Passport document, for more info see the passport docs »*](method/account.getSecureValue)
 
 ---
 
-###### :link: [account.saveSecureValue](method/account.saveSecureValue)
+###### account.saveSecureValue
 
-  - *Securely save Telegram Passport document, for more info see the passport docs »*
+:link: [*Securely save Telegram Passport document, for more info see the passport docs »*](method/account.saveSecureValue)
 
 ---
 
-###### :link: [account.deleteSecureValue](method/account.deleteSecureValue)
+###### account.deleteSecureValue
 
-  - *Delete stored Telegram Passport documents, for more info see the passport docs »*
+:link: [*Delete stored Telegram Passport documents, for more info see the passport docs »*](method/account.deleteSecureValue)
 
 ---
 
-###### :link: [account.getAuthorizationForm](method/account.getAuthorizationForm)
+###### account.getAuthorizationForm
 
-  - *Returns a Telegram Passport authorization form for sharing data with a service*
+:link: [*Returns a Telegram Passport authorization form for sharing data with a service*](method/account.getAuthorizationForm)
 
 ---
 
-###### :link: [account.acceptAuthorization](method/account.acceptAuthorization)
+###### account.acceptAuthorization
 
-  - *Sends a Telegram Passport authorization form, effectively sharing data with the service*
+:link: [*Sends a Telegram Passport authorization form, effectively sharing data with the service*](method/account.acceptAuthorization)
 
 ---
 
-###### :link: [account.sendVerifyPhoneCode](method/account.sendVerifyPhoneCode)
+###### account.sendVerifyPhoneCode
 
-  - *Send the verification phone code for telegram passport*
+:link: [*Send the verification phone code for telegram passport*](method/account.sendVerifyPhoneCode)
 
 ---
 
-###### :link: [account.verifyPhone](method/account.verifyPhone)
+###### account.verifyPhone
 
-  - *Verify a phone number for telegram passport*
+:link: [*Verify a phone number for telegram passport*](method/account.verifyPhone)
 
 ---
 
-###### :link: [account.sendVerifyEmailCode](method/account.sendVerifyEmailCode)
+###### account.sendVerifyEmailCode
 
-  - *Send an email verification code*
+:link: [*Send an email verification code*](method/account.sendVerifyEmailCode)
 
 ---
 
-###### :link: [account.verifyEmail](method/account.verifyEmail)
+###### account.verifyEmail
 
-  - *Verify an email address*
+:link: [*Verify an email address*](method/account.verifyEmail)
 
 ---
 
-###### :link: [account.initTakeoutSession](method/account.initTakeoutSession)
+###### account.initTakeoutSession
 
-  - *Initialize a takeout session, see here » for more info*
+:link: [*Initialize a takeout session, see here » for more info*](method/account.initTakeoutSession)
 
 ---
 
-###### :link: [account.finishTakeoutSession](method/account.finishTakeoutSession)
+###### account.finishTakeoutSession
 
-  - *Terminate a takeout session, see here » for more info*
+:link: [*Terminate a takeout session, see here » for more info*](method/account.finishTakeoutSession)
 
 ---
 
-###### :link: [account.confirmPasswordEmail](method/account.confirmPasswordEmail)
+###### account.confirmPasswordEmail
 
-  - *Verify an email to use as 2FA recovery method*
+:link: [*Verify an email to use as 2FA recovery method*](method/account.confirmPasswordEmail)
 
 ---
 
-###### :link: [account.resendPasswordEmail](method/account.resendPasswordEmail)
+###### account.resendPasswordEmail
 
-  - *Resend the code to verify an email to use as 2FA recovery method*
+:link: [*Resend the code to verify an email to use as 2FA recovery method*](method/account.resendPasswordEmail)
 
 ---
 
-###### :link: [account.cancelPasswordEmail](method/account.cancelPasswordEmail)
+###### account.cancelPasswordEmail
 
-  - *Cancel the code that was sent to verify an email to use as 2FA recovery method*
+:link: [*Cancel the code that was sent to verify an email to use as 2FA recovery method*](method/account.cancelPasswordEmail)
 
 ---
 
-###### :link: [account.getContactSignUpNotification](method/account.getContactSignUpNotification)
+###### account.getContactSignUpNotification
 
-  - *Whether the user will receive notifications when contacts sign up*
+:link: [*Whether the user will receive notifications when contacts sign up*](method/account.getContactSignUpNotification)
 
 ---
 
-###### :link: [account.setContactSignUpNotification](method/account.setContactSignUpNotification)
+###### account.setContactSignUpNotification
 
-  - *Toggle contact sign up notifications*
+:link: [*Toggle contact sign up notifications*](method/account.setContactSignUpNotification)
 
 ---
 
-###### :link: [account.getNotifyExceptions](method/account.getNotifyExceptions)
+###### account.getNotifyExceptions
 
-  - *Returns list of chats with non-default notification settings*
+:link: [*Returns list of chats with non-default notification settings*](method/account.getNotifyExceptions)
 
 ---
 
-###### :link: [account.getWallPaper](method/account.getWallPaper)
+###### account.getWallPaper
 
-  - *Get info about a certain wallpaper*
+:link: [*Get info about a certain wallpaper*](method/account.getWallPaper)
 
 ---
 
-###### :link: [account.uploadWallPaper](method/account.uploadWallPaper)
+###### account.uploadWallPaper
 
-  - *Create and upload a new wallpaper*
+:link: [*Create and upload a new wallpaper*](method/account.uploadWallPaper)
 
 ---
 
-###### :link: [account.saveWallPaper](method/account.saveWallPaper)
+###### account.saveWallPaper
 
-  - *Install/uninstall wallpaper*
+:link: [*Install/uninstall wallpaper*](method/account.saveWallPaper)
 
 ---
 
-###### :link: [account.installWallPaper](method/account.installWallPaper)
+###### account.installWallPaper
 
-  - *Install wallpaper*
+:link: [*Install wallpaper*](method/account.installWallPaper)
 
 ---
 
-###### :link: [account.resetWallPapers](method/account.resetWallPapers)
+###### account.resetWallPapers
 
-  - *Delete all installed wallpapers, reverting to the default wallpaper set*
+:link: [*Delete all installed wallpapers, reverting to the default wallpaper set*](method/account.resetWallPapers)
 
 ---
 
-###### :link: [account.getAutoDownloadSettings](method/account.getAutoDownloadSettings)
+###### account.getAutoDownloadSettings
 
-  - *Get media autodownload settings*
+:link: [*Get media autodownload settings*](method/account.getAutoDownloadSettings)
 
 ---
 
-###### :link: [account.saveAutoDownloadSettings](method/account.saveAutoDownloadSettings)
+###### account.saveAutoDownloadSettings
 
-  - *Change media autodownload settings*
+:link: [*Change media autodownload settings*](method/account.saveAutoDownloadSettings)
 
 ---
 
-###### :link: [account.uploadTheme](method/account.uploadTheme)
+###### account.uploadTheme
 
-  - *Upload theme*
+:link: [*Upload theme*](method/account.uploadTheme)
 
 ---
 
-###### :link: [account.createTheme](method/account.createTheme)
+###### account.createTheme
 
-  - *Create a theme*
+:link: [*Create a theme*](method/account.createTheme)
 
 ---
 
-###### :link: [account.updateTheme](method/account.updateTheme)
+###### account.updateTheme
 
-  - *Update theme*
+:link: [*Update theme*](method/account.updateTheme)
 
 ---
 
-###### :link: [account.saveTheme](method/account.saveTheme)
+###### account.saveTheme
 
-  - *Save a theme*
+:link: [*Save a theme*](method/account.saveTheme)
 
 ---
 
-###### :link: [account.installTheme](method/account.installTheme)
+###### account.installTheme
 
-  - *Install a theme*
+:link: [*Install a theme*](method/account.installTheme)
 
 ---
 
-###### :link: [account.getTheme](method/account.getTheme)
+###### account.getTheme
 
-  - *Get theme information*
+:link: [*Get theme information*](method/account.getTheme)
 
 ---
 
-###### :link: [account.getThemes](method/account.getThemes)
+###### account.getThemes
 
-  - *Get installed themes*
+:link: [*Get installed themes*](method/account.getThemes)
 
 ---
 
-###### :link: [account.setContentSettings](method/account.setContentSettings)
+###### account.setContentSettings
 
-  - *Set sensitive content settings (for viewing or hiding NSFW content)*
+:link: [*Set sensitive content settings (for viewing or hiding NSFW content)*](method/account.setContentSettings)
 
 ---
 
-###### :link: [account.getContentSettings](method/account.getContentSettings)
+###### account.getContentSettings
 
-  - *Get sensitive content settings*
+:link: [*Get sensitive content settings*](method/account.getContentSettings)
 
 ---
 
-###### :link: [account.getMultiWallPapers](method/account.getMultiWallPapers)
+###### account.getMultiWallPapers
 
-  - *Get info about multiple wallpapers*
+:link: [*Get info about multiple wallpapers*](method/account.getMultiWallPapers)
 
 ---
 
-###### :link: [account.getGlobalPrivacySettings](method/account.getGlobalPrivacySettings)
+###### account.getGlobalPrivacySettings
 
-  - *Get global privacy settings*
+:link: [*Get global privacy settings*](method/account.getGlobalPrivacySettings)
 
 ---
 
-###### :link: [account.setGlobalPrivacySettings](method/account.setGlobalPrivacySettings)
+###### account.setGlobalPrivacySettings
 
-  - *Set global privacy settings*
+:link: [*Set global privacy settings*](method/account.setGlobalPrivacySettings)
 
 ---
 
-###### :link: [account.reportProfilePhoto](method/account.reportProfilePhoto)
+###### account.reportProfilePhoto
 
-  - *Report a profile photo of a dialog*
+:link: [*Report a profile photo of a dialog*](method/account.reportProfilePhoto)
 
 ---
 
-###### :link: [account.resetPassword](method/account.resetPassword)
+###### account.resetPassword
 
-  - *Initiate a 2FA password reset: can only be used if the user is already logged-in, see here for more info »*
+:link: [*Initiate a 2FA password reset: can only be used if the user is already logged-in, see here for more info »*](method/account.resetPassword)
 
 ---
 
-###### :link: [account.declinePasswordReset](method/account.declinePasswordReset)
+###### account.declinePasswordReset
 
-  - *Abort a pending 2FA password reset, see here for more info »*
+:link: [*Abort a pending 2FA password reset, see here for more info »*](method/account.declinePasswordReset)
 
 ---
 
-###### :link: [account.getChatThemes](method/account.getChatThemes)
+###### account.getChatThemes
 
-  - *Get all available chat themes »*
+:link: [*Get all available chat themes »*](method/account.getChatThemes)
 
 ---
 
-###### :link: [account.setAuthorizationTTL](method/account.setAuthorizationTTL)
+###### account.setAuthorizationTTL
 
-  - *Set time-to-live of current session*
+:link: [*Set time-to-live of current session*](method/account.setAuthorizationTTL)
 
 ---
 
-###### :link: [account.changeAuthorizationSettings](method/account.changeAuthorizationSettings)
+###### account.changeAuthorizationSettings
 
-  - *Change settings related to a session*
+:link: [*Change settings related to a session*](method/account.changeAuthorizationSettings)
 
 ---
 
-###### :link: [account.getSavedRingtones](method/account.getSavedRingtones)
+###### account.getSavedRingtones
 
-  - *Fetch saved notification sounds*
+:link: [*Fetch saved notification sounds*](method/account.getSavedRingtones)
 
 ---
 
-###### :link: [account.saveRingtone](method/account.saveRingtone)
+###### account.saveRingtone
 
-  - *Save or remove saved notification sound*
+:link: [*Save or remove saved notification sound*](method/account.saveRingtone)
 
 ---
 
-###### :link: [account.uploadRingtone](method/account.uploadRingtone)
+###### account.uploadRingtone
 
-  - *Upload notification sound, use account.saveRingtone to convert it and add it to the list of saved notification sounds*
+:link: [*Upload notification sound, use account.saveRingtone to convert it and add it to the list of saved notification sounds*](method/account.uploadRingtone)
 
 ---
 
-###### :link: [account.updateEmojiStatus](method/account.updateEmojiStatus)
+###### account.updateEmojiStatus
 
-  - *Set an emoji status*
+:link: [*Set an emoji status*](method/account.updateEmojiStatus)
 
 ---
 
-###### :link: [account.getDefaultEmojiStatuses](method/account.getDefaultEmojiStatuses)
+###### account.getDefaultEmojiStatuses
 
-  - *Get a list of default suggested emoji statuses*
+:link: [*Get a list of default suggested emoji statuses*](method/account.getDefaultEmojiStatuses)
 
 ---
 
-###### :link: [account.getRecentEmojiStatuses](method/account.getRecentEmojiStatuses)
+###### account.getRecentEmojiStatuses
 
-  - *Get recently used emoji statuses*
+:link: [*Get recently used emoji statuses*](method/account.getRecentEmojiStatuses)
 
 ---
 
-###### :link: [account.clearRecentEmojiStatuses](method/account.clearRecentEmojiStatuses)
+###### account.clearRecentEmojiStatuses
 
-  - *Clears list of recently used emoji statuses*
+:link: [*Clears list of recently used emoji statuses*](method/account.clearRecentEmojiStatuses)
 
 ---
 
-###### :link: [account.reorderUsernames](method/account.reorderUsernames)
+###### account.reorderUsernames
 
-  - *Reorder usernames associated with the currently logged-in user*
+:link: [*Reorder usernames associated with the currently logged-in user*](method/account.reorderUsernames)
 
 ---
 
-###### :link: [account.toggleUsername](method/account.toggleUsername)
+###### account.toggleUsername
 
-  - *Activate or deactivate a purchased fragment.com username associated to the currently logged-in user*
+:link: [*Activate or deactivate a purchased fragment.com username associated to the currently logged-in user*](method/account.toggleUsername)
 
 ---
 
-###### :link: [account.getDefaultProfilePhotoEmojis](method/account.getDefaultProfilePhotoEmojis)
+###### account.getDefaultProfilePhotoEmojis
 
-  - *Get a set of suggested custom emoji stickers that can be used as profile picture*
+:link: [*Get a set of suggested custom emoji stickers that can be used as profile picture*](method/account.getDefaultProfilePhotoEmojis)
 
 ---
 
-###### :link: [account.getDefaultGroupPhotoEmojis](method/account.getDefaultGroupPhotoEmojis)
+###### account.getDefaultGroupPhotoEmojis
 
-  - *Get a set of suggested custom emoji stickers that can be used as group picture*
+:link: [*Get a set of suggested custom emoji stickers that can be used as group picture*](method/account.getDefaultGroupPhotoEmojis)
 
 ---
 
-###### :link: [account.getAutoSaveSettings](method/account.getAutoSaveSettings)
+###### account.getAutoSaveSettings
 
-  - *Get autosave settings*
+:link: [*Get autosave settings*](method/account.getAutoSaveSettings)
 
 ---
 
-###### :link: [account.saveAutoSaveSettings](method/account.saveAutoSaveSettings)
+###### account.saveAutoSaveSettings
 
-  - *Modify autosave settings*
+:link: [*Modify autosave settings*](method/account.saveAutoSaveSettings)
 
 ---
 
-###### :link: [account.deleteAutoSaveExceptions](method/account.deleteAutoSaveExceptions)
+###### account.deleteAutoSaveExceptions
 
-  - *Clear all peer-specific autosave settings*
+:link: [*Clear all peer-specific autosave settings*](method/account.deleteAutoSaveExceptions)
 
 ---
 
-###### :link: [account.invalidateSignInCodes](method/account.invalidateSignInCodes)
+###### account.invalidateSignInCodes
 
-  - *Invalidate the specified login codes, see here » for more info*
+:link: [*Invalidate the specified login codes, see here » for more info*](method/account.invalidateSignInCodes)
 
 ---
 
-###### :link: [account.updateColor](method/account.updateColor)
+###### account.updateColor
 
-  - *Update the accent color and background custom emoji » of the current account*
+:link: [*Update the accent color and background custom emoji » of the current account*](method/account.updateColor)
 
 ---
 
-###### :link: [account.getDefaultBackgroundEmojis](method/account.getDefaultBackgroundEmojis)
+###### account.getDefaultBackgroundEmojis
 
-  - *Get a set of suggested custom emoji stickers that can be used in an accent color pattern*
+:link: [*Get a set of suggested custom emoji stickers that can be used in an accent color pattern*](method/account.getDefaultBackgroundEmojis)
 
 ---
 
-###### :link: [account.getChannelDefaultEmojiStatuses](method/account.getChannelDefaultEmojiStatuses)
+###### account.getChannelDefaultEmojiStatuses
 
-  - *Get a list of default suggested channel emoji statuses*
+:link: [*Get a list of default suggested channel emoji statuses*](method/account.getChannelDefaultEmojiStatuses)
 
 ---
 
-###### :link: [account.getChannelRestrictedStatusEmojis](method/account.getChannelRestrictedStatusEmojis)
+###### account.getChannelRestrictedStatusEmojis
 
-  - *Returns fetch the full list of custom emoji IDs » that cannot be used in channel emoji statuses »*
+:link: [*Returns fetch the full list of custom emoji IDs » that cannot be used in channel emoji statuses »*](method/account.getChannelRestrictedStatusEmojis)
 
 ---
 
-###### :link: [account.updateBusinessWorkHours](method/account.updateBusinessWorkHours)
+###### account.updateBusinessWorkHours
 
-  - *Specify a set of Telegram Business opening hours.
-This info will be contained in userFull.business_work_hours*
+:link: [*Specify a set of Telegram Business opening hours.
+This info will be contained in userFull.business_work_hours*](method/account.updateBusinessWorkHours)
 
 ---
 
-###### :link: [account.updateBusinessLocation](method/account.updateBusinessLocation)
+###### account.updateBusinessLocation
 
-  - *Businesses » may advertise their location using this method, see here » for more info*
+:link: [*Businesses » may advertise their location using this method, see here » for more info*](method/account.updateBusinessLocation)
 
 ---
 
-###### :link: [account.updateBusinessGreetingMessage](method/account.updateBusinessGreetingMessage)
+###### account.updateBusinessGreetingMessage
 
-  - *Set a list of Telegram Business greeting messages*
+:link: [*Set a list of Telegram Business greeting messages*](method/account.updateBusinessGreetingMessage)
 
 ---
 
-###### :link: [account.updateBusinessAwayMessage](method/account.updateBusinessAwayMessage)
+###### account.updateBusinessAwayMessage
 
-  - *Set a list of Telegram Business away messages*
+:link: [*Set a list of Telegram Business away messages*](method/account.updateBusinessAwayMessage)
 
 ---
 
-###### :link: [account.updateConnectedBot](method/account.updateConnectedBot)
+###### account.updateConnectedBot
 
-  - *Connect a business bot » to the current account, or to change the current connection settings*
+:link: [*Connect a business bot » to the current account, or to change the current connection settings*](method/account.updateConnectedBot)
 
 ---
 
-###### :link: [account.getConnectedBots](method/account.getConnectedBots)
+###### account.getConnectedBots
 
-  - *List all currently connected business bots »*
+:link: [*List all currently connected business bots »*](method/account.getConnectedBots)
 
 ---
 
-###### :link: [account.getBotBusinessConnection](method/account.getBotBusinessConnection)
+###### account.getBotBusinessConnection
 
-  - *Bots may invoke this method to re-fetch the updateBotBusinessConnect constructor associated with a specific business connection_id, see here » for more info on connected business bots.
+:link: [*Bots may invoke this method to re-fetch the updateBotBusinessConnect constructor associated with a specific business connection_id, see here » for more info on connected business bots.
 This is needed for example for freshly logged in bots that are receiving some updateBotNewBusinessMessage, etc. updates because some users have already connected to the bot before it could login.
 In this case, the bot is receiving messages from the business connection, but it hasn't cached the associated updateBotBusinessConnect with info about the connection (can it reply to messages? etc.) yet, and cannot receive the old ones because they were sent when the bot wasn't logged into the session yet.
-This method can be used to fetch info about a not-yet-cached business connection, and should not be invoked if the info is already cached or to fetch changes, as eventual changes will automatically be sent as new updateBotBusinessConnect updates to the bot using the usual update delivery methods »*
+This method can be used to fetch info about a not-yet-cached business connection, and should not be invoked if the info is already cached or to fetch changes, as eventual changes will automatically be sent as new updateBotBusinessConnect updates to the bot using the usual update delivery methods »*](method/account.getBotBusinessConnection)
 
 ---
 
-###### :link: [account.updateBusinessIntro](method/account.updateBusinessIntro)
+###### account.updateBusinessIntro
 
-  - *Set or remove the Telegram Business introduction »*
+:link: [*Set or remove the Telegram Business introduction »*](method/account.updateBusinessIntro)
 
 ---
 
-###### :link: [account.toggleConnectedBotPaused](method/account.toggleConnectedBotPaused)
+###### account.toggleConnectedBotPaused
 
-  - *Pause or unpause a specific chat, temporarily disconnecting it from all business bots »*
+:link: [*Pause or unpause a specific chat, temporarily disconnecting it from all business bots »*](method/account.toggleConnectedBotPaused)
 
 ---
 
-###### :link: [account.disablePeerConnectedBot](method/account.disablePeerConnectedBot)
+###### account.disablePeerConnectedBot
 
-  - *Permanently disconnect a specific chat from all business bots » (equivalent to specifying it in recipients.exclude_users during initial configuration with account.updateConnectedBot »); to reconnect of a chat disconnected using this method the user must reconnect the entire bot by invoking account.updateConnectedBot »*
+:link: [*Permanently disconnect a specific chat from all business bots » (equivalent to specifying it in recipients.exclude_users during initial configuration with account.updateConnectedBot »); to reconnect of a chat disconnected using this method the user must reconnect the entire bot by invoking account.updateConnectedBot »*](method/account.disablePeerConnectedBot)
 
 ---
 
-###### :link: [account.updateBirthday](method/account.updateBirthday)
+###### account.updateBirthday
 
-  - *Update our birthday, see here » for more info*
+:link: [*Update our birthday, see here » for more info*](method/account.updateBirthday)
 
 ---
 
-###### :link: [account.createBusinessChatLink](method/account.createBusinessChatLink)
+###### account.createBusinessChatLink
 
-  - *Create a business chat deep link »*
+:link: [*Create a business chat deep link »*](method/account.createBusinessChatLink)
 
 ---
 
-###### :link: [account.editBusinessChatLink](method/account.editBusinessChatLink)
+###### account.editBusinessChatLink
 
-  - *Edit a created business chat deep link »*
+:link: [*Edit a created business chat deep link »*](method/account.editBusinessChatLink)
 
 ---
 
-###### :link: [account.deleteBusinessChatLink](method/account.deleteBusinessChatLink)
+###### account.deleteBusinessChatLink
 
-  - *Delete a business chat deep link »*
+:link: [*Delete a business chat deep link »*](method/account.deleteBusinessChatLink)
 
 ---
 
-###### :link: [account.getBusinessChatLinks](method/account.getBusinessChatLinks)
+###### account.getBusinessChatLinks
 
-  - *List all created business chat deep links »*
+:link: [*List all created business chat deep links »*](method/account.getBusinessChatLinks)
 
 ---
 
-###### :link: [account.resolveBusinessChatLink](method/account.resolveBusinessChatLink)
+###### account.resolveBusinessChatLink
 
-  - *Resolve a business chat deep link »*
+:link: [*Resolve a business chat deep link »*](method/account.resolveBusinessChatLink)
 
 ---
 
-###### :link: [account.updatePersonalChannel](method/account.updatePersonalChannel)
+###### account.updatePersonalChannel
 
-  - *Associate (or remove) a personal channel », that will be listed on our personal profile page »*
+:link: [*Associate (or remove) a personal channel », that will be listed on our personal profile page »*](method/account.updatePersonalChannel)
 
 ---
 
-###### :link: [account.toggleSponsoredMessages](method/account.toggleSponsoredMessages)
+###### account.toggleSponsoredMessages
 
-  - *Disable or re-enable Telegram ads for the current Premium account*
+:link: [*Disable or re-enable Telegram ads for the current Premium account*](method/account.toggleSponsoredMessages)
 
 ---
 
-###### :link: [account.getReactionsNotifySettings](method/account.getReactionsNotifySettings)
+###### account.getReactionsNotifySettings
 
-  - *Get the current reaction notification settings »*
+:link: [*Get the current reaction notification settings »*](method/account.getReactionsNotifySettings)
 
 ---
 
-###### :link: [account.setReactionsNotifySettings](method/account.setReactionsNotifySettings)
+###### account.setReactionsNotifySettings
 
-  - *Change the reaction notification settings »*
+:link: [*Change the reaction notification settings »*](method/account.setReactionsNotifySettings)
 
 ---
 
-###### :link: [account.getCollectibleEmojiStatuses](method/account.getCollectibleEmojiStatuses)
+###### account.getCollectibleEmojiStatuses
 
+:link: [*NOTHING*](method/account.getCollectibleEmojiStatuses)
+
 ---
+
+###### account.getPaidMessagesRevenue
 
-###### :link: [account.getPaidMessagesRevenue](method/account.getPaidMessagesRevenue)
+:link: [*NOTHING*](method/account.getPaidMessagesRevenue)
 
 ---
 
-###### :link: [account.toggleNoPaidMessagesException](method/account.toggleNoPaidMessagesException)
+###### account.toggleNoPaidMessagesException
 
+:link: [*NOTHING*](method/account.toggleNoPaidMessagesException)
+
 ---
 
-###### :link: [users.getUsers](method/users.getUsers)
+###### users.getUsers
 
-  - *Returns basic user info according to their identifiers*
+:link: [*Returns basic user info according to their identifiers*](method/users.getUsers)
 
 ---
 
-###### :link: [users.getFullUser](method/users.getFullUser)
+###### users.getFullUser
 
-  - *Returns extended user info by ID*
+:link: [*Returns extended user info by ID*](method/users.getFullUser)
 
 ---
 
-###### :link: [users.setSecureValueErrors](method/users.setSecureValueErrors)
+###### users.setSecureValueErrors
 
-  - *Notify the user that the sent passport data contains some errors The user will not be able to re-submit their Passport data to you until the errors are fixed (the contents of the field for which you returned the error must change)*
+:link: [*Notify the user that the sent passport data contains some errors The user will not be able to re-submit their Passport data to you until the errors are fixed (the contents of the field for which you returned the error must change)*](method/users.setSecureValueErrors)
 
 ---
 
-###### :link: [users.getRequirementsToContact](method/users.getRequirementsToContact)
+###### users.getRequirementsToContact
 
+:link: [*NOTHING*](method/users.getRequirementsToContact)
+
 ---
 
-###### :link: [contacts.getContactIDs](method/contacts.getContactIDs)
+###### contacts.getContactIDs
 
-  - *Get the telegram IDs of all contacts.
-Returns an array of Telegram user IDs for all contacts (0 if a contact does not have an associated Telegram account or have hidden their account using privacy settings)*
+:link: [*Get the telegram IDs of all contacts.
+Returns an array of Telegram user IDs for all contacts (0 if a contact does not have an associated Telegram account or have hidden their account using privacy settings)*](method/contacts.getContactIDs)
 
 ---
 
-###### :link: [contacts.getStatuses](method/contacts.getStatuses)
+###### contacts.getStatuses
 
-  - *Use this method to obtain the online statuses of all contacts with an accessible Telegram account*
+:link: [*Use this method to obtain the online statuses of all contacts with an accessible Telegram account*](method/contacts.getStatuses)
 
 ---
 
-###### :link: [contacts.getContacts](method/contacts.getContacts)
+###### contacts.getContacts
 
-  - *Returns the current user's contact list*
+:link: [*Returns the current user's contact list*](method/contacts.getContacts)
 
 ---
 
-###### :link: [contacts.importContacts](method/contacts.importContacts)
+###### contacts.importContacts
 
-  - *Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info*
+:link: [*Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info*](method/contacts.importContacts)
 
 ---
 
-###### :link: [contacts.deleteContacts](method/contacts.deleteContacts)
+###### contacts.deleteContacts
 
-  - *Deletes several contacts from the list*
+:link: [*Deletes several contacts from the list*](method/contacts.deleteContacts)
 
 ---
 
-###### :link: [contacts.deleteByPhones](method/contacts.deleteByPhones)
+###### contacts.deleteByPhones
 
-  - *Delete contacts by phone number*
+:link: [*Delete contacts by phone number*](method/contacts.deleteByPhones)
 
 ---
 
-###### :link: [contacts.block](method/contacts.block)
+###### contacts.block
 
-  - *Adds a peer to a blocklist, see here » for more info*
+:link: [*Adds a peer to a blocklist, see here » for more info*](method/contacts.block)
 
 ---
 
-###### :link: [contacts.unblock](method/contacts.unblock)
+###### contacts.unblock
 
-  - *Deletes a peer from a blocklist, see here » for more info*
+:link: [*Deletes a peer from a blocklist, see here » for more info*](method/contacts.unblock)
 
 ---
 
-###### :link: [contacts.getBlocked](method/contacts.getBlocked)
+###### contacts.getBlocked
 
-  - *Returns the list of blocked users*
+:link: [*Returns the list of blocked users*](method/contacts.getBlocked)
 
 ---
 
-###### :link: [contacts.search](method/contacts.search)
+###### contacts.search
 
-  - *Returns users found by username substring*
+:link: [*Returns users found by username substring*](method/contacts.search)
 
 ---
 
-###### :link: [contacts.resolveUsername](method/contacts.resolveUsername)
+###### contacts.resolveUsername
 
-  - *Resolve a @username to get peer info*
+:link: [*Resolve a @username to get peer info*](method/contacts.resolveUsername)
 
 ---
 
-###### :link: [contacts.getTopPeers](method/contacts.getTopPeers)
+###### contacts.getTopPeers
 
-  - *Get most used peers*
+:link: [*Get most used peers*](method/contacts.getTopPeers)
 
 ---
 
-###### :link: [contacts.resetTopPeerRating](method/contacts.resetTopPeerRating)
+###### contacts.resetTopPeerRating
 
-  - *Reset rating of top peer*
+:link: [*Reset rating of top peer*](method/contacts.resetTopPeerRating)
 
 ---
 
-###### :link: [contacts.resetSaved](method/contacts.resetSaved)
+###### contacts.resetSaved
 
-  - *Removes all contacts without an associated Telegram account*
+:link: [*Removes all contacts without an associated Telegram account*](method/contacts.resetSaved)
 
 ---
 
-###### :link: [contacts.getSaved](method/contacts.getSaved)
+###### contacts.getSaved
 
-  - *Get all contacts, requires a takeout session, see here » for more info*
+:link: [*Get all contacts, requires a takeout session, see here » for more info*](method/contacts.getSaved)
 
 ---
 
-###### :link: [contacts.toggleTopPeers](method/contacts.toggleTopPeers)
+###### contacts.toggleTopPeers
 
-  - *Enable/disable top peers*
+:link: [*Enable/disable top peers*](method/contacts.toggleTopPeers)
 
 ---
 
-###### :link: [contacts.addContact](method/contacts.addContact)
+###### contacts.addContact
 
-  - *Add an existing telegram user as contact*
+:link: [*Add an existing telegram user as contact*](method/contacts.addContact)
 
 ---
 
-###### :link: [contacts.acceptContact](method/contacts.acceptContact)
+###### contacts.acceptContact
 
-  - *If the add contact action bar is active, add that user as contact*
+:link: [*If the add contact action bar is active, add that user as contact*](method/contacts.acceptContact)
 
 ---
 
-###### :link: [contacts.getLocated](method/contacts.getLocated)
+###### contacts.getLocated
 
-  - *Get users and geochats near you, see here » for more info*
+:link: [*Get users and geochats near you, see here » for more info*](method/contacts.getLocated)
 
 ---
 
-###### :link: [contacts.blockFromReplies](method/contacts.blockFromReplies)
+###### contacts.blockFromReplies
 
-  - *Stop getting notifications about discussion replies of a certain user in @replies*
+:link: [*Stop getting notifications about discussion replies of a certain user in @replies*](method/contacts.blockFromReplies)
 
 ---
 
-###### :link: [contacts.resolvePhone](method/contacts.resolvePhone)
+###### contacts.resolvePhone
 
-  - *Resolve a phone number to get user info, if their privacy settings allow it*
+:link: [*Resolve a phone number to get user info, if their privacy settings allow it*](method/contacts.resolvePhone)
 
 ---
 
-###### :link: [contacts.exportContactToken](method/contacts.exportContactToken)
+###### contacts.exportContactToken
 
-  - *Generates a temporary profile link for the currently logged-in user*
+:link: [*Generates a temporary profile link for the currently logged-in user*](method/contacts.exportContactToken)
 
 ---
 
-###### :link: [contacts.importContactToken](method/contacts.importContactToken)
+###### contacts.importContactToken
 
-  - *Obtain user info from a temporary profile link*
+:link: [*Obtain user info from a temporary profile link*](method/contacts.importContactToken)
 
 ---
 
-###### :link: [contacts.editCloseFriends](method/contacts.editCloseFriends)
+###### contacts.editCloseFriends
 
-  - *Edit the close friends list, see here » for more info*
+:link: [*Edit the close friends list, see here » for more info*](method/contacts.editCloseFriends)
 
 ---
 
-###### :link: [contacts.setBlocked](method/contacts.setBlocked)
+###### contacts.setBlocked
 
-  - *Replace the contents of an entire blocklist, see here for more info »*
+:link: [*Replace the contents of an entire blocklist, see here for more info »*](method/contacts.setBlocked)
 
 ---
 
-###### :link: [contacts.getBirthdays](method/contacts.getBirthdays)
+###### contacts.getBirthdays
 
-  - *Fetch all users with birthdays that fall within +1/-1 days, relative to the current day: this method should be invoked by clients every 6-8 hours, and if the result is non-empty, it should be used to appropriately update locally cached birthday information in user.birthday*
+:link: [*Fetch all users with birthdays that fall within +1/-1 days, relative to the current day: this method should be invoked by clients every 6-8 hours, and if the result is non-empty, it should be used to appropriately update locally cached birthday information in user.birthday*](method/contacts.getBirthdays)
 
 ---
+
+###### contacts.getSponsoredPeers
 
-###### :link: [contacts.getSponsoredPeers](method/contacts.getSponsoredPeers)
+:link: [*NOTHING*](method/contacts.getSponsoredPeers)
 
 ---
 
-###### :link: [messages.getMessages](method/messages.getMessages)
+###### messages.getMessages
 
-  - *Returns the list of messages by their IDs*
+:link: [*Returns the list of messages by their IDs*](method/messages.getMessages)
 
 ---
 
-###### :link: [messages.getDialogs](method/messages.getDialogs)
+###### messages.getDialogs
 
-  - *Returns the current user dialog list*
+:link: [*Returns the current user dialog list*](method/messages.getDialogs)
 
 ---
 
-###### :link: [messages.getHistory](method/messages.getHistory)
+###### messages.getHistory
 
-  - *Returns the conversation history with one interlocutor / within a chat*
+:link: [*Returns the conversation history with one interlocutor / within a chat*](method/messages.getHistory)
 
 ---
 
-###### :link: [messages.search](method/messages.search)
+###### messages.search
 
-  - *Search for messages*
+:link: [*Search for messages*](method/messages.search)
 
 ---
 
-###### :link: [messages.readHistory](method/messages.readHistory)
+###### messages.readHistory
 
-  - *Marks message history as read*
+:link: [*Marks message history as read*](method/messages.readHistory)
 
 ---
 
-###### :link: [messages.deleteHistory](method/messages.deleteHistory)
+###### messages.deleteHistory
 
-  - *Deletes communication history*
+:link: [*Deletes communication history*](method/messages.deleteHistory)
 
 ---
 
-###### :link: [messages.deleteMessages](method/messages.deleteMessages)
+###### messages.deleteMessages
 
-  - *Deletes messages by their identifiers*
+:link: [*Deletes messages by their identifiers*](method/messages.deleteMessages)
 
 ---
 
-###### :link: [messages.receivedMessages](method/messages.receivedMessages)
+###### messages.receivedMessages
 
-  - *Confirms receipt of messages by a client, cancels PUSH-notification sending*
+:link: [*Confirms receipt of messages by a client, cancels PUSH-notification sending*](method/messages.receivedMessages)
 
 ---
 
-###### :link: [messages.setTyping](method/messages.setTyping)
+###### messages.setTyping
 
-  - *Sends a current user typing event (see SendMessageAction for all event types) to a conversation partner or group*
+:link: [*Sends a current user typing event (see SendMessageAction for all event types) to a conversation partner or group*](method/messages.setTyping)
 
 ---
 
-###### :link: [messages.sendMessage](method/messages.sendMessage)
+###### messages.sendMessage
 
-  - *Sends a message to a chat*
+:link: [*Sends a message to a chat*](method/messages.sendMessage)
 
 ---
 
-###### :link: [messages.sendMedia](method/messages.sendMedia)
+###### messages.sendMedia
 
-  - *Send a media*
+:link: [*Send a media*](method/messages.sendMedia)
 
 ---
 
-###### :link: [messages.forwardMessages](method/messages.forwardMessages)
+###### messages.forwardMessages
 
-  - *Forwards messages by their IDs*
+:link: [*Forwards messages by their IDs*](method/messages.forwardMessages)
 
 ---
 
-###### :link: [messages.reportSpam](method/messages.reportSpam)
+###### messages.reportSpam
 
-  - *Report a new incoming chat for spam, if the peer settings of the chat allow us to do that*
+:link: [*Report a new incoming chat for spam, if the peer settings of the chat allow us to do that*](method/messages.reportSpam)
 
 ---
 
-###### :link: [messages.getPeerSettings](method/messages.getPeerSettings)
+###### messages.getPeerSettings
 
-  - *Get peer settings*
+:link: [*Get peer settings*](method/messages.getPeerSettings)
 
 ---
 
-###### :link: [messages.report](method/messages.report)
+###### messages.report
 
-  - *Report a message in a chat for violation of telegram's Terms of Service*
+:link: [*Report a message in a chat for violation of telegram's Terms of Service*](method/messages.report)
 
 ---
 
-###### :link: [messages.getChats](method/messages.getChats)
+###### messages.getChats
 
-  - *Returns chat basic info on their IDs*
+:link: [*Returns chat basic info on their IDs*](method/messages.getChats)
 
 ---
 
-###### :link: [messages.getFullChat](method/messages.getFullChat)
+###### messages.getFullChat
 
-  - *Get full info about a basic group*
+:link: [*Get full info about a basic group*](method/messages.getFullChat)
 
 ---
 
-###### :link: [messages.editChatTitle](method/messages.editChatTitle)
+###### messages.editChatTitle
 
-  - *Changes chat name and sends a service message on it*
+:link: [*Changes chat name and sends a service message on it*](method/messages.editChatTitle)
 
 ---
 
-###### :link: [messages.editChatPhoto](method/messages.editChatPhoto)
+###### messages.editChatPhoto
 
-  - *Changes chat photo and sends a service message on it*
+:link: [*Changes chat photo and sends a service message on it*](method/messages.editChatPhoto)
 
 ---
 
-###### :link: [messages.addChatUser](method/messages.addChatUser)
+###### messages.addChatUser
 
-  - *Adds a user to a chat and sends a service message on it*
+:link: [*Adds a user to a chat and sends a service message on it*](method/messages.addChatUser)
 
 ---
 
-###### :link: [messages.deleteChatUser](method/messages.deleteChatUser)
+###### messages.deleteChatUser
 
-  - *Deletes a user from a chat and sends a service message on it*
+:link: [*Deletes a user from a chat and sends a service message on it*](method/messages.deleteChatUser)
 
 ---
 
-###### :link: [messages.createChat](method/messages.createChat)
+###### messages.createChat
 
-  - *Creates a new chat*
+:link: [*Creates a new chat*](method/messages.createChat)
 
 ---
 
-###### :link: [messages.getDhConfig](method/messages.getDhConfig)
+###### messages.getDhConfig
 
-  - *Returns configuration parameters for Diffie-Hellman key generation. Can also return a random sequence of bytes of required length*
+:link: [*Returns configuration parameters for Diffie-Hellman key generation. Can also return a random sequence of bytes of required length*](method/messages.getDhConfig)
 
 ---
 
-###### :link: [messages.requestEncryption](method/messages.requestEncryption)
+###### messages.requestEncryption
 
-  - *Sends a request to start a secret chat to the user*
+:link: [*Sends a request to start a secret chat to the user*](method/messages.requestEncryption)
 
 ---
 
-###### :link: [messages.acceptEncryption](method/messages.acceptEncryption)
+###### messages.acceptEncryption
 
-  - *Confirms creation of a secret chat*
+:link: [*Confirms creation of a secret chat*](method/messages.acceptEncryption)
 
 ---
 
-###### :link: [messages.discardEncryption](method/messages.discardEncryption)
+###### messages.discardEncryption
 
-  - *Cancels a request for creation and/or delete info on secret chat*
+:link: [*Cancels a request for creation and/or delete info on secret chat*](method/messages.discardEncryption)
 
 ---
 
-###### :link: [messages.setEncryptedTyping](method/messages.setEncryptedTyping)
+###### messages.setEncryptedTyping
 
-  - *Send typing event by the current user to a secret chat*
+:link: [*Send typing event by the current user to a secret chat*](method/messages.setEncryptedTyping)
 
 ---
 
-###### :link: [messages.readEncryptedHistory](method/messages.readEncryptedHistory)
+###### messages.readEncryptedHistory
 
-  - *Marks message history within a secret chat as read*
+:link: [*Marks message history within a secret chat as read*](method/messages.readEncryptedHistory)
 
 ---
 
-###### :link: [messages.sendEncrypted](method/messages.sendEncrypted)
+###### messages.sendEncrypted
 
-  - *Sends a text message to a secret chat*
+:link: [*Sends a text message to a secret chat*](method/messages.sendEncrypted)
 
 ---
 
-###### :link: [messages.sendEncryptedFile](method/messages.sendEncryptedFile)
+###### messages.sendEncryptedFile
 
-  - *Sends a message with a file attachment to a secret chat*
+:link: [*Sends a message with a file attachment to a secret chat*](method/messages.sendEncryptedFile)
 
 ---
 
-###### :link: [messages.sendEncryptedService](method/messages.sendEncryptedService)
+###### messages.sendEncryptedService
 
-  - *Sends a service message to a secret chat*
+:link: [*Sends a service message to a secret chat*](method/messages.sendEncryptedService)
 
 ---
 
-###### :link: [messages.receivedQueue](method/messages.receivedQueue)
+###### messages.receivedQueue
 
-  - *Confirms receipt of messages in a secret chat by client, cancels push notifications.
-The method returns a list of random_ids of messages for which push notifications were cancelled*
+:link: [*Confirms receipt of messages in a secret chat by client, cancels push notifications.
+The method returns a list of random_ids of messages for which push notifications were cancelled*](method/messages.receivedQueue)
 
 ---
 
-###### :link: [messages.reportEncryptedSpam](method/messages.reportEncryptedSpam)
+###### messages.reportEncryptedSpam
 
-  - *Report a secret chat for spam*
+:link: [*Report a secret chat for spam*](method/messages.reportEncryptedSpam)
 
 ---
 
-###### :link: [messages.readMessageContents](method/messages.readMessageContents)
+###### messages.readMessageContents
 
-  - *Notifies the sender about the recipient having listened a voice message or watched a video*
+:link: [*Notifies the sender about the recipient having listened a voice message or watched a video*](method/messages.readMessageContents)
 
 ---
 
-###### :link: [messages.getStickers](method/messages.getStickers)
+###### messages.getStickers
 
-  - *Get stickers by emoji*
+:link: [*Get stickers by emoji*](method/messages.getStickers)
 
 ---
 
-###### :link: [messages.getAllStickers](method/messages.getAllStickers)
+###### messages.getAllStickers
 
-  - *Get all installed stickers*
+:link: [*Get all installed stickers*](method/messages.getAllStickers)
 
 ---
 
-###### :link: [messages.getWebPagePreview](method/messages.getWebPagePreview)
+###### messages.getWebPagePreview
 
-  - *Get preview of webpage*
+:link: [*Get preview of webpage*](method/messages.getWebPagePreview)
 
 ---
 
-###### :link: [messages.exportChatInvite](method/messages.exportChatInvite)
+###### messages.exportChatInvite
 
-  - *Export an invite link for a chat*
+:link: [*Export an invite link for a chat*](method/messages.exportChatInvite)
 
 ---
 
-###### :link: [messages.checkChatInvite](method/messages.checkChatInvite)
+###### messages.checkChatInvite
 
-  - *Check the validity of a chat invite link and get basic info about it*
+:link: [*Check the validity of a chat invite link and get basic info about it*](method/messages.checkChatInvite)
 
 ---
 
-###### :link: [messages.importChatInvite](method/messages.importChatInvite)
+###### messages.importChatInvite
 
-  - *Import a chat invite and join a private chat/supergroup/channel*
+:link: [*Import a chat invite and join a private chat/supergroup/channel*](method/messages.importChatInvite)
 
 ---
 
-###### :link: [messages.getStickerSet](method/messages.getStickerSet)
+###### messages.getStickerSet
 
-  - *Get info about a stickerset*
+:link: [*Get info about a stickerset*](method/messages.getStickerSet)
 
 ---
 
-###### :link: [messages.installStickerSet](method/messages.installStickerSet)
+###### messages.installStickerSet
 
-  - *Install a stickerset*
+:link: [*Install a stickerset*](method/messages.installStickerSet)
 
 ---
 
-###### :link: [messages.uninstallStickerSet](method/messages.uninstallStickerSet)
+###### messages.uninstallStickerSet
 
-  - *Uninstall a stickerset*
+:link: [*Uninstall a stickerset*](method/messages.uninstallStickerSet)
 
 ---
 
-###### :link: [messages.startBot](method/messages.startBot)
+###### messages.startBot
 
-  - *Start a conversation with a bot using a deep linking parameter*
+:link: [*Start a conversation with a bot using a deep linking parameter*](method/messages.startBot)
 
 ---
 
-###### :link: [messages.getMessagesViews](method/messages.getMessagesViews)
+###### messages.getMessagesViews
 
-  - *Get and increase the view counter of a message sent or forwarded from a channel*
+:link: [*Get and increase the view counter of a message sent or forwarded from a channel*](method/messages.getMessagesViews)
 
 ---
 
-###### :link: [messages.editChatAdmin](method/messages.editChatAdmin)
+###### messages.editChatAdmin
 
-  - *Make a user admin in a basic group*
+:link: [*Make a user admin in a basic group*](method/messages.editChatAdmin)
 
 ---
 
-###### :link: [messages.migrateChat](method/messages.migrateChat)
+###### messages.migrateChat
 
-  - *Turn a basic group into a supergroup*
+:link: [*Turn a basic group into a supergroup*](method/messages.migrateChat)
 
 ---
 
-###### :link: [messages.searchGlobal](method/messages.searchGlobal)
+###### messages.searchGlobal
 
-  - *Search for messages and peers globally*
+:link: [*Search for messages and peers globally*](method/messages.searchGlobal)
 
 ---
 
-###### :link: [messages.reorderStickerSets](method/messages.reorderStickerSets)
+###### messages.reorderStickerSets
 
-  - *Reorder installed stickersets*
+:link: [*Reorder installed stickersets*](method/messages.reorderStickerSets)
 
 ---
 
-###### :link: [messages.getDocumentByHash](method/messages.getDocumentByHash)
+###### messages.getDocumentByHash
 
-  - *Get a document by its SHA256 hash, mainly used for gifs*
+:link: [*Get a document by its SHA256 hash, mainly used for gifs*](method/messages.getDocumentByHash)
 
 ---
 
-###### :link: [messages.getSavedGifs](method/messages.getSavedGifs)
+###### messages.getSavedGifs
 
-  - *Get saved GIFs*
+:link: [*Get saved GIFs*](method/messages.getSavedGifs)
 
 ---
 
-###### :link: [messages.saveGif](method/messages.saveGif)
+###### messages.saveGif
 
-  - *Add GIF to saved gifs list*
+:link: [*Add GIF to saved gifs list*](method/messages.saveGif)
 
 ---
 
-###### :link: [messages.getInlineBotResults](method/messages.getInlineBotResults)
+###### messages.getInlineBotResults
 
-  - *Query an inline bot*
+:link: [*Query an inline bot*](method/messages.getInlineBotResults)
 
 ---
 
-###### :link: [messages.setInlineBotResults](method/messages.setInlineBotResults)
+###### messages.setInlineBotResults
 
-  - *Answer an inline query, for bots only*
+:link: [*Answer an inline query, for bots only*](method/messages.setInlineBotResults)
 
 ---
 
-###### :link: [messages.sendInlineBotResult](method/messages.sendInlineBotResult)
+###### messages.sendInlineBotResult
 
-  - *Send a result obtained using messages.getInlineBotResults*
+:link: [*Send a result obtained using messages.getInlineBotResults*](method/messages.sendInlineBotResult)
 
 ---
 
-###### :link: [messages.getMessageEditData](method/messages.getMessageEditData)
+###### messages.getMessageEditData
 
-  - *Find out if a media message's caption can be edited*
+:link: [*Find out if a media message's caption can be edited*](method/messages.getMessageEditData)
 
 ---
 
-###### :link: [messages.editMessage](method/messages.editMessage)
+###### messages.editMessage
 
-  - *Edit message*
+:link: [*Edit message*](method/messages.editMessage)
 
 ---
 
-###### :link: [messages.editInlineBotMessage](method/messages.editInlineBotMessage)
+###### messages.editInlineBotMessage
 
-  - *Edit an inline bot message*
+:link: [*Edit an inline bot message*](method/messages.editInlineBotMessage)
 
 ---
 
-###### :link: [messages.getBotCallbackAnswer](method/messages.getBotCallbackAnswer)
+###### messages.getBotCallbackAnswer
 
-  - *Press an inline callback button and get a callback answer from the bot*
+:link: [*Press an inline callback button and get a callback answer from the bot*](method/messages.getBotCallbackAnswer)
 
 ---
 
-###### :link: [messages.setBotCallbackAnswer](method/messages.setBotCallbackAnswer)
+###### messages.setBotCallbackAnswer
 
-  - *Set the callback answer to a user button press (bots only)*
+:link: [*Set the callback answer to a user button press (bots only)*](method/messages.setBotCallbackAnswer)
 
 ---
 
-###### :link: [messages.getPeerDialogs](method/messages.getPeerDialogs)
+###### messages.getPeerDialogs
 
-  - *Get dialog info of specified peers*
+:link: [*Get dialog info of specified peers*](method/messages.getPeerDialogs)
 
 ---
 
-###### :link: [messages.saveDraft](method/messages.saveDraft)
+###### messages.saveDraft
 
-  - *Save a message draft associated to a chat*
+:link: [*Save a message draft associated to a chat*](method/messages.saveDraft)
 
 ---
 
-###### :link: [messages.getAllDrafts](method/messages.getAllDrafts)
+###### messages.getAllDrafts
 
-  - *Return all message drafts.
-Returns all the latest updateDraftMessage updates related to all chats with drafts*
+:link: [*Return all message drafts.
+Returns all the latest updateDraftMessage updates related to all chats with drafts*](method/messages.getAllDrafts)
 
 ---
 
-###### :link: [messages.getFeaturedStickers](method/messages.getFeaturedStickers)
+###### messages.getFeaturedStickers
 
-  - *Get featured stickers*
+:link: [*Get featured stickers*](method/messages.getFeaturedStickers)
 
 ---
 
-###### :link: [messages.readFeaturedStickers](method/messages.readFeaturedStickers)
+###### messages.readFeaturedStickers
 
-  - *Mark new featured stickers as read*
+:link: [*Mark new featured stickers as read*](method/messages.readFeaturedStickers)
 
 ---
 
-###### :link: [messages.getRecentStickers](method/messages.getRecentStickers)
+###### messages.getRecentStickers
 
-  - *Get recent stickers*
+:link: [*Get recent stickers*](method/messages.getRecentStickers)
 
 ---
 
-###### :link: [messages.saveRecentSticker](method/messages.saveRecentSticker)
+###### messages.saveRecentSticker
 
-  - *Add/remove sticker from recent stickers list*
+:link: [*Add/remove sticker from recent stickers list*](method/messages.saveRecentSticker)
 
 ---
 
-###### :link: [messages.clearRecentStickers](method/messages.clearRecentStickers)
+###### messages.clearRecentStickers
 
-  - *Clear recent stickers*
+:link: [*Clear recent stickers*](method/messages.clearRecentStickers)
 
 ---
 
-###### :link: [messages.getArchivedStickers](method/messages.getArchivedStickers)
+###### messages.getArchivedStickers
 
-  - *Get all archived stickers*
+:link: [*Get all archived stickers*](method/messages.getArchivedStickers)
 
 ---
 
-###### :link: [messages.getMaskStickers](method/messages.getMaskStickers)
+###### messages.getMaskStickers
 
-  - *Get installed mask stickers*
+:link: [*Get installed mask stickers*](method/messages.getMaskStickers)
 
 ---
 
-###### :link: [messages.getAttachedStickers](method/messages.getAttachedStickers)
+###### messages.getAttachedStickers
 
-  - *Get stickers attached to a photo or video*
+:link: [*Get stickers attached to a photo or video*](method/messages.getAttachedStickers)
 
 ---
 
-###### :link: [messages.setGameScore](method/messages.setGameScore)
+###### messages.setGameScore
 
-  - *Use this method to set the score of the specified user in a game sent as a normal message (bots only)*
+:link: [*Use this method to set the score of the specified user in a game sent as a normal message (bots only)*](method/messages.setGameScore)
 
 ---
 
-###### :link: [messages.setInlineGameScore](method/messages.setInlineGameScore)
+###### messages.setInlineGameScore
 
-  - *Use this method to set the score of the specified user in a game sent as an inline message (bots only)*
+:link: [*Use this method to set the score of the specified user in a game sent as an inline message (bots only)*](method/messages.setInlineGameScore)
 
 ---
 
-###### :link: [messages.getGameHighScores](method/messages.getGameHighScores)
+###### messages.getGameHighScores
 
-  - *Get highscores of a game*
+:link: [*Get highscores of a game*](method/messages.getGameHighScores)
 
 ---
 
-###### :link: [messages.getInlineGameHighScores](method/messages.getInlineGameHighScores)
+###### messages.getInlineGameHighScores
 
-  - *Get highscores of a game sent using an inline bot*
+:link: [*Get highscores of a game sent using an inline bot*](method/messages.getInlineGameHighScores)
 
 ---
 
-###### :link: [messages.getCommonChats](method/messages.getCommonChats)
+###### messages.getCommonChats
 
-  - *Get chats in common with a user*
+:link: [*Get chats in common with a user*](method/messages.getCommonChats)
 
 ---
 
-###### :link: [messages.getWebPage](method/messages.getWebPage)
+###### messages.getWebPage
 
-  - *Get instant view page*
+:link: [*Get instant view page*](method/messages.getWebPage)
 
 ---
 
-###### :link: [messages.toggleDialogPin](method/messages.toggleDialogPin)
+###### messages.toggleDialogPin
 
-  - *Pin/unpin a dialog*
+:link: [*Pin/unpin a dialog*](method/messages.toggleDialogPin)
 
 ---
 
-###### :link: [messages.reorderPinnedDialogs](method/messages.reorderPinnedDialogs)
+###### messages.reorderPinnedDialogs
 
-  - *Reorder pinned dialogs*
+:link: [*Reorder pinned dialogs*](method/messages.reorderPinnedDialogs)
 
 ---
 
-###### :link: [messages.getPinnedDialogs](method/messages.getPinnedDialogs)
+###### messages.getPinnedDialogs
 
-  - *Get pinned dialogs*
+:link: [*Get pinned dialogs*](method/messages.getPinnedDialogs)
 
 ---
 
-###### :link: [messages.setBotShippingResults](method/messages.setBotShippingResults)
+###### messages.setBotShippingResults
 
-  - *If you sent an invoice requesting a shipping address and the parameter is_flexible was specified, the bot will receive an updateBotShippingQuery update. Use this method to reply to shipping queries*
+:link: [*If you sent an invoice requesting a shipping address and the parameter is_flexible was specified, the bot will receive an updateBotShippingQuery update. Use this method to reply to shipping queries*](method/messages.setBotShippingResults)
 
 ---
 
-###### :link: [messages.setBotPrecheckoutResults](method/messages.setBotPrecheckoutResults)
+###### messages.setBotPrecheckoutResults
 
-  - *Once the user has confirmed their payment and shipping details, the bot receives an updateBotPrecheckoutQuery update.
+:link: [*Once the user has confirmed their payment and shipping details, the bot receives an updateBotPrecheckoutQuery update.
 Use this method to respond to such pre-checkout queries.
-Note: Telegram must receive an answer within 10 seconds after the pre-checkout query was sent*
+Note: Telegram must receive an answer within 10 seconds after the pre-checkout query was sent*](method/messages.setBotPrecheckoutResults)
 
 ---
 
-###### :link: [messages.uploadMedia](method/messages.uploadMedia)
+###### messages.uploadMedia
 
-  - *Upload a file and associate it to a chat (without actually sending it to the chat)*
+:link: [*Upload a file and associate it to a chat (without actually sending it to the chat)*](method/messages.uploadMedia)
 
 ---
 
-###### :link: [messages.sendScreenshotNotification](method/messages.sendScreenshotNotification)
+###### messages.sendScreenshotNotification
 
-  - *Notify the other user in a private chat that a screenshot of the chat was taken*
+:link: [*Notify the other user in a private chat that a screenshot of the chat was taken*](method/messages.sendScreenshotNotification)
 
 ---
 
-###### :link: [messages.getFavedStickers](method/messages.getFavedStickers)
+###### messages.getFavedStickers
 
-  - *Get faved stickers*
+:link: [*Get faved stickers*](method/messages.getFavedStickers)
 
 ---
 
-###### :link: [messages.faveSticker](method/messages.faveSticker)
+###### messages.faveSticker
 
-  - *Mark or unmark a sticker as favorite*
+:link: [*Mark or unmark a sticker as favorite*](method/messages.faveSticker)
 
 ---
 
-###### :link: [messages.getUnreadMentions](method/messages.getUnreadMentions)
+###### messages.getUnreadMentions
 
-  - *Get unread messages where we were mentioned*
+:link: [*Get unread messages where we were mentioned*](method/messages.getUnreadMentions)
 
 ---
 
-###### :link: [messages.readMentions](method/messages.readMentions)
+###### messages.readMentions
 
-  - *Mark mentions as read*
+:link: [*Mark mentions as read*](method/messages.readMentions)
 
 ---
 
-###### :link: [messages.getRecentLocations](method/messages.getRecentLocations)
+###### messages.getRecentLocations
 
-  - *Get live location history of a certain user*
+:link: [*Get live location history of a certain user*](method/messages.getRecentLocations)
 
 ---
 
-###### :link: [messages.sendMultiMedia](method/messages.sendMultiMedia)
+###### messages.sendMultiMedia
 
-  - *Send an album or grouped media*
+:link: [*Send an album or grouped media*](method/messages.sendMultiMedia)
 
 ---
 
-###### :link: [messages.uploadEncryptedFile](method/messages.uploadEncryptedFile)
+###### messages.uploadEncryptedFile
 
-  - *Upload encrypted file and associate it to a secret chat*
+:link: [*Upload encrypted file and associate it to a secret chat*](method/messages.uploadEncryptedFile)
 
 ---
 
-###### :link: [messages.searchStickerSets](method/messages.searchStickerSets)
+###### messages.searchStickerSets
 
-  - *Search for stickersets*
+:link: [*Search for stickersets*](method/messages.searchStickerSets)
 
 ---
 
-###### :link: [messages.getSplitRanges](method/messages.getSplitRanges)
+###### messages.getSplitRanges
 
-  - *Get message ranges for saving the user's chat history*
+:link: [*Get message ranges for saving the user's chat history*](method/messages.getSplitRanges)
 
 ---
 
-###### :link: [messages.markDialogUnread](method/messages.markDialogUnread)
+###### messages.markDialogUnread
 
-  - *Manually mark dialog as unread*
+:link: [*Manually mark dialog as unread*](method/messages.markDialogUnread)
 
 ---
 
-###### :link: [messages.getDialogUnreadMarks](method/messages.getDialogUnreadMarks)
+###### messages.getDialogUnreadMarks
 
-  - *Get dialogs manually marked as unread*
+:link: [*Get dialogs manually marked as unread*](method/messages.getDialogUnreadMarks)
 
 ---
 
-###### :link: [messages.clearAllDrafts](method/messages.clearAllDrafts)
+###### messages.clearAllDrafts
 
-  - *Clear all drafts*
+:link: [*Clear all drafts*](method/messages.clearAllDrafts)
 
 ---
 
-###### :link: [messages.updatePinnedMessage](method/messages.updatePinnedMessage)
+###### messages.updatePinnedMessage
 
-  - *Pin a message*
+:link: [*Pin a message*](method/messages.updatePinnedMessage)
 
 ---
 
-###### :link: [messages.sendVote](method/messages.sendVote)
+###### messages.sendVote
 
-  - *Vote in a poll*
+:link: [*Vote in a poll*](method/messages.sendVote)
 
 ---
 
-###### :link: [messages.getPollResults](method/messages.getPollResults)
+###### messages.getPollResults
 
-  - *Get poll results*
+:link: [*Get poll results*](method/messages.getPollResults)
 
 ---
 
-###### :link: [messages.getOnlines](method/messages.getOnlines)
+###### messages.getOnlines
 
-  - *Get count of online users in a chat*
+:link: [*Get count of online users in a chat*](method/messages.getOnlines)
 
 ---
 
-###### :link: [messages.editChatAbout](method/messages.editChatAbout)
+###### messages.editChatAbout
 
-  - *Edit the description of a group/supergroup/channel*
+:link: [*Edit the description of a group/supergroup/channel*](method/messages.editChatAbout)
 
 ---
 
-###### :link: [messages.editChatDefaultBannedRights](method/messages.editChatDefaultBannedRights)
+###### messages.editChatDefaultBannedRights
 
-  - *Edit the default banned rights of a channel/supergroup/group*
+:link: [*Edit the default banned rights of a channel/supergroup/group*](method/messages.editChatDefaultBannedRights)
 
 ---
 
-###### :link: [messages.getEmojiKeywords](method/messages.getEmojiKeywords)
+###### messages.getEmojiKeywords
 
-  - *Get localized emoji keywords »*
+:link: [*Get localized emoji keywords »*](method/messages.getEmojiKeywords)
 
 ---
 
-###### :link: [messages.getEmojiKeywordsDifference](method/messages.getEmojiKeywordsDifference)
+###### messages.getEmojiKeywordsDifference
 
-  - *Get changed emoji keywords »*
+:link: [*Get changed emoji keywords »*](method/messages.getEmojiKeywordsDifference)
 
 ---
 
-###### :link: [messages.getEmojiKeywordsLanguages](method/messages.getEmojiKeywordsLanguages)
+###### messages.getEmojiKeywordsLanguages
 
-  - *Obtain a list of related languages that must be used when fetching emoji keyword lists »*
+:link: [*Obtain a list of related languages that must be used when fetching emoji keyword lists »*](method/messages.getEmojiKeywordsLanguages)
 
 ---
 
-###### :link: [messages.getEmojiURL](method/messages.getEmojiURL)
+###### messages.getEmojiURL
 
-  - *Returns an HTTP URL which can be used to automatically log in into translation platform and suggest new emoji keywords ». The URL will be valid for 30 seconds after generation*
+:link: [*Returns an HTTP URL which can be used to automatically log in into translation platform and suggest new emoji keywords ». The URL will be valid for 30 seconds after generation*](method/messages.getEmojiURL)
 
 ---
 
-###### :link: [messages.getSearchCounters](method/messages.getSearchCounters)
+###### messages.getSearchCounters
 
-  - *Get the number of results that would be found by a messages.search call with the same parameters*
+:link: [*Get the number of results that would be found by a messages.search call with the same parameters*](method/messages.getSearchCounters)
 
 ---
 
-###### :link: [messages.requestUrlAuth](method/messages.requestUrlAuth)
+###### messages.requestUrlAuth
 
-  - *Get more info about a Seamless Telegram Login authorization request, for more info click here »*
+:link: [*Get more info about a Seamless Telegram Login authorization request, for more info click here »*](method/messages.requestUrlAuth)
 
 ---
 
-###### :link: [messages.acceptUrlAuth](method/messages.acceptUrlAuth)
+###### messages.acceptUrlAuth
 
-  - *Use this to accept a Seamless Telegram Login authorization request, for more info click here »*
+:link: [*Use this to accept a Seamless Telegram Login authorization request, for more info click here »*](method/messages.acceptUrlAuth)
 
 ---
 
-###### :link: [messages.hidePeerSettingsBar](method/messages.hidePeerSettingsBar)
+###### messages.hidePeerSettingsBar
 
-  - *Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the action bar »*
+:link: [*Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the action bar »*](method/messages.hidePeerSettingsBar)
 
 ---
 
-###### :link: [messages.getScheduledHistory](method/messages.getScheduledHistory)
+###### messages.getScheduledHistory
 
-  - *Get scheduled messages*
+:link: [*Get scheduled messages*](method/messages.getScheduledHistory)
 
 ---
 
-###### :link: [messages.getScheduledMessages](method/messages.getScheduledMessages)
+###### messages.getScheduledMessages
 
-  - *Get scheduled messages*
+:link: [*Get scheduled messages*](method/messages.getScheduledMessages)
 
 ---
 
-###### :link: [messages.sendScheduledMessages](method/messages.sendScheduledMessages)
+###### messages.sendScheduledMessages
 
-  - *Send scheduled messages right away*
+:link: [*Send scheduled messages right away*](method/messages.sendScheduledMessages)
 
 ---
 
-###### :link: [messages.deleteScheduledMessages](method/messages.deleteScheduledMessages)
+###### messages.deleteScheduledMessages
 
-  - *Delete scheduled messages*
+:link: [*Delete scheduled messages*](method/messages.deleteScheduledMessages)
 
 ---
 
-###### :link: [messages.getPollVotes](method/messages.getPollVotes)
+###### messages.getPollVotes
 
-  - *Get poll results for non-anonymous polls*
+:link: [*Get poll results for non-anonymous polls*](method/messages.getPollVotes)
 
 ---
 
-###### :link: [messages.toggleStickerSets](method/messages.toggleStickerSets)
+###### messages.toggleStickerSets
 
-  - *Apply changes to multiple stickersets*
+:link: [*Apply changes to multiple stickersets*](method/messages.toggleStickerSets)
 
 ---
 
-###### :link: [messages.getDialogFilters](method/messages.getDialogFilters)
+###### messages.getDialogFilters
 
-  - *Get folders*
+:link: [*Get folders*](method/messages.getDialogFilters)
 
 ---
 
-###### :link: [messages.getSuggestedDialogFilters](method/messages.getSuggestedDialogFilters)
+###### messages.getSuggestedDialogFilters
 
-  - *Get suggested folders*
+:link: [*Get suggested folders*](method/messages.getSuggestedDialogFilters)
 
 ---
 
-###### :link: [messages.updateDialogFilter](method/messages.updateDialogFilter)
+###### messages.updateDialogFilter
 
-  - *Update folder*
+:link: [*Update folder*](method/messages.updateDialogFilter)
 
 ---
 
-###### :link: [messages.updateDialogFiltersOrder](method/messages.updateDialogFiltersOrder)
+###### messages.updateDialogFiltersOrder
 
-  - *Reorder folders*
+:link: [*Reorder folders*](method/messages.updateDialogFiltersOrder)
 
 ---
 
-###### :link: [messages.getOldFeaturedStickers](method/messages.getOldFeaturedStickers)
+###### messages.getOldFeaturedStickers
 
-  - *Method for fetching previously featured stickers*
+:link: [*Method for fetching previously featured stickers*](method/messages.getOldFeaturedStickers)
 
 ---
 
-###### :link: [messages.getReplies](method/messages.getReplies)
+###### messages.getReplies
 
-  - *Get messages in a reply thread*
+:link: [*Get messages in a reply thread*](method/messages.getReplies)
 
 ---
 
-###### :link: [messages.getDiscussionMessage](method/messages.getDiscussionMessage)
+###### messages.getDiscussionMessage
 
-  - *Get discussion message from the associated discussion group of a channel to show it on top of the comment section, without actually joining the group*
+:link: [*Get discussion message from the associated discussion group of a channel to show it on top of the comment section, without actually joining the group*](method/messages.getDiscussionMessage)
 
 ---
 
-###### :link: [messages.readDiscussion](method/messages.readDiscussion)
+###### messages.readDiscussion
 
-  - *Mark a thread as read*
+:link: [*Mark a thread as read*](method/messages.readDiscussion)
 
 ---
 
-###### :link: [messages.unpinAllMessages](method/messages.unpinAllMessages)
+###### messages.unpinAllMessages
 
-  - *Unpin all pinned messages*
+:link: [*Unpin all pinned messages*](method/messages.unpinAllMessages)
 
 ---
 
-###### :link: [messages.deleteChat](method/messages.deleteChat)
+###### messages.deleteChat
 
-  - *Delete a chat*
+:link: [*Delete a chat*](method/messages.deleteChat)
 
 ---
 
-###### :link: [messages.deletePhoneCallHistory](method/messages.deletePhoneCallHistory)
+###### messages.deletePhoneCallHistory
 
-  - *Delete the entire phone call history*
+:link: [*Delete the entire phone call history*](method/messages.deletePhoneCallHistory)
 
 ---
 
-###### :link: [messages.checkHistoryImport](method/messages.checkHistoryImport)
+###### messages.checkHistoryImport
 
-  - *Obtains information about a chat export file, generated by a foreign chat app, click here for more info about imported chats »*
+:link: [*Obtains information about a chat export file, generated by a foreign chat app, click here for more info about imported chats »*](method/messages.checkHistoryImport)
 
 ---
 
-###### :link: [messages.initHistoryImport](method/messages.initHistoryImport)
+###### messages.initHistoryImport
 
-  - *Import chat history from a foreign chat app into a specific Telegram chat, click here for more info about imported chats »*
+:link: [*Import chat history from a foreign chat app into a specific Telegram chat, click here for more info about imported chats »*](method/messages.initHistoryImport)
 
 ---
 
-###### :link: [messages.uploadImportedMedia](method/messages.uploadImportedMedia)
+###### messages.uploadImportedMedia
 
-  - *Upload a media file associated with an imported chat, click here for more info »*
+:link: [*Upload a media file associated with an imported chat, click here for more info »*](method/messages.uploadImportedMedia)
 
 ---
 
-###### :link: [messages.startHistoryImport](method/messages.startHistoryImport)
+###### messages.startHistoryImport
 
-  - *Complete the history import process, importing all messages into the chat.
-To be called only after initializing the import with messages.initHistoryImport and uploading all files using messages.uploadImportedMedia*
+:link: [*Complete the history import process, importing all messages into the chat.
+To be called only after initializing the import with messages.initHistoryImport and uploading all files using messages.uploadImportedMedia*](method/messages.startHistoryImport)
 
 ---
 
-###### :link: [messages.getExportedChatInvites](method/messages.getExportedChatInvites)
+###### messages.getExportedChatInvites
 
-  - *Get info about the chat invites of a specific chat*
+:link: [*Get info about the chat invites of a specific chat*](method/messages.getExportedChatInvites)
 
 ---
 
-###### :link: [messages.getExportedChatInvite](method/messages.getExportedChatInvite)
+###### messages.getExportedChatInvite
 
-  - *Get info about a chat invite*
+:link: [*Get info about a chat invite*](method/messages.getExportedChatInvite)
 
 ---
 
-###### :link: [messages.editExportedChatInvite](method/messages.editExportedChatInvite)
+###### messages.editExportedChatInvite
 
-  - *Edit an exported chat invite*
+:link: [*Edit an exported chat invite*](method/messages.editExportedChatInvite)
 
 ---
 
-###### :link: [messages.deleteRevokedExportedChatInvites](method/messages.deleteRevokedExportedChatInvites)
+###### messages.deleteRevokedExportedChatInvites
 
-  - *Delete all revoked chat invites*
+:link: [*Delete all revoked chat invites*](method/messages.deleteRevokedExportedChatInvites)
 
 ---
 
-###### :link: [messages.deleteExportedChatInvite](method/messages.deleteExportedChatInvite)
+###### messages.deleteExportedChatInvite
 
-  - *Delete a chat invite*
+:link: [*Delete a chat invite*](method/messages.deleteExportedChatInvite)
 
 ---
 
-###### :link: [messages.getAdminsWithInvites](method/messages.getAdminsWithInvites)
+###### messages.getAdminsWithInvites
 
-  - *Get info about chat invites generated by admins*
+:link: [*Get info about chat invites generated by admins*](method/messages.getAdminsWithInvites)
 
 ---
 
-###### :link: [messages.getChatInviteImporters](method/messages.getChatInviteImporters)
+###### messages.getChatInviteImporters
 
-  - *Get info about the users that joined the chat using a specific chat invite*
+:link: [*Get info about the users that joined the chat using a specific chat invite*](method/messages.getChatInviteImporters)
 
 ---
 
-###### :link: [messages.setHistoryTTL](method/messages.setHistoryTTL)
+###### messages.setHistoryTTL
 
-  - *Set maximum Time-To-Live of all messages in the specified chat*
+:link: [*Set maximum Time-To-Live of all messages in the specified chat*](method/messages.setHistoryTTL)
 
 ---
 
-###### :link: [messages.checkHistoryImportPeer](method/messages.checkHistoryImportPeer)
+###### messages.checkHistoryImportPeer
 
-  - *Check whether chat history exported from another chat app can be imported into a specific Telegram chat, click here for more info »*
+:link: [*Check whether chat history exported from another chat app can be imported into a specific Telegram chat, click here for more info »*](method/messages.checkHistoryImportPeer)
 
 ---
 
-###### :link: [messages.setChatTheme](method/messages.setChatTheme)
+###### messages.setChatTheme
 
-  - *Change the chat theme of a certain chat*
+:link: [*Change the chat theme of a certain chat*](method/messages.setChatTheme)
 
 ---
 
-###### :link: [messages.getMessageReadParticipants](method/messages.getMessageReadParticipants)
+###### messages.getMessageReadParticipants
 
-  - *Get which users read a specific message: only available for groups and supergroups with less than chat_read_mark_size_threshold members, read receipts will be stored for chat_read_mark_expire_period seconds after the message was sent, see client configuration for more info »*
+:link: [*Get which users read a specific message: only available for groups and supergroups with less than chat_read_mark_size_threshold members, read receipts will be stored for chat_read_mark_expire_period seconds after the message was sent, see client configuration for more info »*](method/messages.getMessageReadParticipants)
 
 ---
 
-###### :link: [messages.getSearchResultsCalendar](method/messages.getSearchResultsCalendar)
+###### messages.getSearchResultsCalendar
 
-  - *Returns information about the next messages of the specified type in the chat split by days*
+:link: [*Returns information about the next messages of the specified type in the chat split by days*](method/messages.getSearchResultsCalendar)
 
 ---
 
-###### :link: [messages.getSearchResultsPositions](method/messages.getSearchResultsPositions)
+###### messages.getSearchResultsPositions
 
-  - *Returns sparse positions of messages of the specified type in the chat to be used for shared media scroll implementation*
+:link: [*Returns sparse positions of messages of the specified type in the chat to be used for shared media scroll implementation*](method/messages.getSearchResultsPositions)
 
 ---
 
-###### :link: [messages.hideChatJoinRequest](method/messages.hideChatJoinRequest)
+###### messages.hideChatJoinRequest
 
-  - *Dismiss or approve a chat join request related to a specific chat or channel*
+:link: [*Dismiss or approve a chat join request related to a specific chat or channel*](method/messages.hideChatJoinRequest)
 
 ---
 
-###### :link: [messages.hideAllChatJoinRequests](method/messages.hideAllChatJoinRequests)
+###### messages.hideAllChatJoinRequests
 
-  - *Dismiss or approve all join requests related to a specific chat or channel*
+:link: [*Dismiss or approve all join requests related to a specific chat or channel*](method/messages.hideAllChatJoinRequests)
 
 ---
 
-###### :link: [messages.toggleNoForwards](method/messages.toggleNoForwards)
+###### messages.toggleNoForwards
 
-  - *Enable or disable content protection on a channel or chat*
+:link: [*Enable or disable content protection on a channel or chat*](method/messages.toggleNoForwards)
 
 ---
 
-###### :link: [messages.saveDefaultSendAs](method/messages.saveDefaultSendAs)
+###### messages.saveDefaultSendAs
 
-  - *Change the default peer that should be used when sending messages, reactions, poll votes to a specific group*
+:link: [*Change the default peer that should be used when sending messages, reactions, poll votes to a specific group*](method/messages.saveDefaultSendAs)
 
 ---
 
-###### :link: [messages.sendReaction](method/messages.sendReaction)
+###### messages.sendReaction
 
-  - *React to message*
+:link: [*React to message*](method/messages.sendReaction)
 
 ---
 
-###### :link: [messages.getMessagesReactions](method/messages.getMessagesReactions)
+###### messages.getMessagesReactions
 
-  - *Get message reactions »*
+:link: [*Get message reactions »*](method/messages.getMessagesReactions)
 
 ---
 
-###### :link: [messages.getMessageReactionsList](method/messages.getMessageReactionsList)
+###### messages.getMessageReactionsList
 
-  - *Get message reaction list, along with the sender of each reaction*
+:link: [*Get message reaction list, along with the sender of each reaction*](method/messages.getMessageReactionsList)
 
 ---
 
-###### :link: [messages.setChatAvailableReactions](method/messages.setChatAvailableReactions)
+###### messages.setChatAvailableReactions
 
-  - *Change the set of message reactions » that can be used in a certain group, supergroup or channel*
+:link: [*Change the set of message reactions » that can be used in a certain group, supergroup or channel*](method/messages.setChatAvailableReactions)
 
 ---
 
-###### :link: [messages.getAvailableReactions](method/messages.getAvailableReactions)
+###### messages.getAvailableReactions
 
-  - *Obtain available message reactions »*
+:link: [*Obtain available message reactions »*](method/messages.getAvailableReactions)
 
 ---
 
-###### :link: [messages.setDefaultReaction](method/messages.setDefaultReaction)
+###### messages.setDefaultReaction
 
-  - *Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using help.getConfig, reactions_default field*
+:link: [*Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using help.getConfig, reactions_default field*](method/messages.setDefaultReaction)
 
 ---
 
-###### :link: [messages.translateText](method/messages.translateText)
+###### messages.translateText
 
-  - *Translate a given text*
+:link: [*Translate a given text*](method/messages.translateText)
 
 ---
 
-###### :link: [messages.getUnreadReactions](method/messages.getUnreadReactions)
+###### messages.getUnreadReactions
 
-  - *Get unread reactions to messages you sent*
+:link: [*Get unread reactions to messages you sent*](method/messages.getUnreadReactions)
 
 ---
 
-###### :link: [messages.readReactions](method/messages.readReactions)
+###### messages.readReactions
 
-  - *Mark message reactions » as read*
+:link: [*Mark message reactions » as read*](method/messages.readReactions)
 
 ---
 
-###### :link: [messages.searchSentMedia](method/messages.searchSentMedia)
+###### messages.searchSentMedia
 
-  - *View and search recently sent media.
-This method does not support pagination*
+:link: [*View and search recently sent media.
+This method does not support pagination*](method/messages.searchSentMedia)
 
 ---
 
-###### :link: [messages.getAttachMenuBots](method/messages.getAttachMenuBots)
+###### messages.getAttachMenuBots
 
-  - *Returns installed attachment menu bot mini apps »*
+:link: [*Returns installed attachment menu bot mini apps »*](method/messages.getAttachMenuBots)
 
 ---
 
-###### :link: [messages.getAttachMenuBot](method/messages.getAttachMenuBot)
+###### messages.getAttachMenuBot
 
-  - *Returns attachment menu entry for a bot mini app that can be launched from the attachment menu »*
+:link: [*Returns attachment menu entry for a bot mini app that can be launched from the attachment menu »*](method/messages.getAttachMenuBot)
 
 ---
 
-###### :link: [messages.toggleBotInAttachMenu](method/messages.toggleBotInAttachMenu)
+###### messages.toggleBotInAttachMenu
 
-  - *Enable or disable web bot attachment menu »*
+:link: [*Enable or disable web bot attachment menu »*](method/messages.toggleBotInAttachMenu)
 
 ---
 
-###### :link: [messages.requestWebView](method/messages.requestWebView)
+###### messages.requestWebView
 
-  - *Open a bot mini app, sending over user information after user confirmation*
+:link: [*Open a bot mini app, sending over user information after user confirmation*](method/messages.requestWebView)
 
 ---
 
-###### :link: [messages.prolongWebView](method/messages.prolongWebView)
+###### messages.prolongWebView
 
-  - *Indicate to the server (from the user side) that the user is still using a web app*
+:link: [*Indicate to the server (from the user side) that the user is still using a web app*](method/messages.prolongWebView)
 
 ---
 
-###### :link: [messages.requestSimpleWebView](method/messages.requestSimpleWebView)
+###### messages.requestSimpleWebView
 
-  - *Open a bot mini app*
+:link: [*Open a bot mini app*](method/messages.requestSimpleWebView)
 
 ---
 
-###### :link: [messages.sendWebViewResultMessage](method/messages.sendWebViewResultMessage)
+###### messages.sendWebViewResultMessage
 
-  - *Terminate webview interaction started with messages.requestWebView, sending the specified message to the chat on behalf of the user*
+:link: [*Terminate webview interaction started with messages.requestWebView, sending the specified message to the chat on behalf of the user*](method/messages.sendWebViewResultMessage)
 
 ---
 
-###### :link: [messages.sendWebViewData](method/messages.sendWebViewData)
+###### messages.sendWebViewData
 
-  - *Used by the user to relay data from an opened reply keyboard bot mini app to the bot that owns it*
+:link: [*Used by the user to relay data from an opened reply keyboard bot mini app to the bot that owns it*](method/messages.sendWebViewData)
 
 ---
 
-###### :link: [messages.transcribeAudio](method/messages.transcribeAudio)
+###### messages.transcribeAudio
 
-  - *Transcribe voice message*
+:link: [*Transcribe voice message*](method/messages.transcribeAudio)
 
 ---
 
-###### :link: [messages.rateTranscribedAudio](method/messages.rateTranscribedAudio)
+###### messages.rateTranscribedAudio
 
-  - *Rate transcribed voice message*
+:link: [*Rate transcribed voice message*](method/messages.rateTranscribedAudio)
 
 ---
 
-###### :link: [messages.getCustomEmojiDocuments](method/messages.getCustomEmojiDocuments)
+###### messages.getCustomEmojiDocuments
 
-  - *Fetch custom emoji stickers »*
+:link: [*Fetch custom emoji stickers »*](method/messages.getCustomEmojiDocuments)
 
 ---
 
-###### :link: [messages.getEmojiStickers](method/messages.getEmojiStickers)
+###### messages.getEmojiStickers
 
-  - *Gets the list of currently installed custom emoji stickersets*
+:link: [*Gets the list of currently installed custom emoji stickersets*](method/messages.getEmojiStickers)
 
 ---
 
-###### :link: [messages.getFeaturedEmojiStickers](method/messages.getFeaturedEmojiStickers)
+###### messages.getFeaturedEmojiStickers
 
-  - *Gets featured custom emoji stickersets*
+:link: [*Gets featured custom emoji stickersets*](method/messages.getFeaturedEmojiStickers)
 
 ---
 
-###### :link: [messages.reportReaction](method/messages.reportReaction)
+###### messages.reportReaction
 
-  - *Report a message reaction*
+:link: [*Report a message reaction*](method/messages.reportReaction)
 
 ---
 
-###### :link: [messages.getTopReactions](method/messages.getTopReactions)
+###### messages.getTopReactions
 
-  - *Got popular message reactions*
+:link: [*Got popular message reactions*](method/messages.getTopReactions)
 
 ---
 
-###### :link: [messages.getRecentReactions](method/messages.getRecentReactions)
+###### messages.getRecentReactions
 
-  - *Get recently used message reactions*
+:link: [*Get recently used message reactions*](method/messages.getRecentReactions)
 
 ---
 
-###### :link: [messages.clearRecentReactions](method/messages.clearRecentReactions)
+###### messages.clearRecentReactions
 
-  - *Clear recently used message reactions*
+:link: [*Clear recently used message reactions*](method/messages.clearRecentReactions)
 
 ---
 
-###### :link: [messages.getExtendedMedia](method/messages.getExtendedMedia)
+###### messages.getExtendedMedia
 
-  - *Fetch updated information about paid media, see here » for the full flow*
+:link: [*Fetch updated information about paid media, see here » for the full flow*](method/messages.getExtendedMedia)
 
 ---
 
-###### :link: [messages.setDefaultHistoryTTL](method/messages.setDefaultHistoryTTL)
+###### messages.setDefaultHistoryTTL
 
-  - *Changes the default value of the Time-To-Live setting, applied to all new chats*
+:link: [*Changes the default value of the Time-To-Live setting, applied to all new chats*](method/messages.setDefaultHistoryTTL)
 
 ---
 
-###### :link: [messages.getDefaultHistoryTTL](method/messages.getDefaultHistoryTTL)
+###### messages.getDefaultHistoryTTL
 
-  - *Gets the default value of the Time-To-Live setting, applied to all new chats*
+:link: [*Gets the default value of the Time-To-Live setting, applied to all new chats*](method/messages.getDefaultHistoryTTL)
 
 ---
 
-###### :link: [messages.sendBotRequestedPeer](method/messages.sendBotRequestedPeer)
+###### messages.sendBotRequestedPeer
 
-  - *Send one or more chosen peers, as requested by a keyboardButtonRequestPeer button*
+:link: [*Send one or more chosen peers, as requested by a keyboardButtonRequestPeer button*](method/messages.sendBotRequestedPeer)
 
 ---
 
-###### :link: [messages.getEmojiGroups](method/messages.getEmojiGroups)
+###### messages.getEmojiGroups
 
-  - *Represents a list of emoji categories*
+:link: [*Represents a list of emoji categories*](method/messages.getEmojiGroups)
 
 ---
 
-###### :link: [messages.getEmojiStatusGroups](method/messages.getEmojiStatusGroups)
+###### messages.getEmojiStatusGroups
 
-  - *Represents a list of emoji categories, to be used when selecting custom emojis to set as custom emoji status*
+:link: [*Represents a list of emoji categories, to be used when selecting custom emojis to set as custom emoji status*](method/messages.getEmojiStatusGroups)
 
 ---
 
-###### :link: [messages.getEmojiProfilePhotoGroups](method/messages.getEmojiProfilePhotoGroups)
+###### messages.getEmojiProfilePhotoGroups
 
-  - *Represents a list of emoji categories, to be used when selecting custom emojis to set as profile picture*
+:link: [*Represents a list of emoji categories, to be used when selecting custom emojis to set as profile picture*](method/messages.getEmojiProfilePhotoGroups)
 
 ---
 
-###### :link: [messages.searchCustomEmoji](method/messages.searchCustomEmoji)
+###### messages.searchCustomEmoji
 
-  - *Look for custom emojis associated to a UTF8 emoji*
+:link: [*Look for custom emojis associated to a UTF8 emoji*](method/messages.searchCustomEmoji)
 
 ---
 
-###### :link: [messages.togglePeerTranslations](method/messages.togglePeerTranslations)
+###### messages.togglePeerTranslations
 
-  - *Show or hide the real-time chat translation popup for a certain chat*
+:link: [*Show or hide the real-time chat translation popup for a certain chat*](method/messages.togglePeerTranslations)
 
 ---
 
-###### :link: [messages.getBotApp](method/messages.getBotApp)
+###### messages.getBotApp
 
-  - *Obtain information about a direct link Mini App*
+:link: [*Obtain information about a direct link Mini App*](method/messages.getBotApp)
 
 ---
 
-###### :link: [messages.requestAppWebView](method/messages.requestAppWebView)
+###### messages.requestAppWebView
 
-  - *Open a bot mini app from a direct Mini App deep link, sending over user information after user confirmation*
+:link: [*Open a bot mini app from a direct Mini App deep link, sending over user information after user confirmation*](method/messages.requestAppWebView)
 
 ---
 
-###### :link: [messages.setChatWallPaper](method/messages.setChatWallPaper)
+###### messages.setChatWallPaper
 
-  - *Set a custom wallpaper » in a specific private chat with another user*
+:link: [*Set a custom wallpaper » in a specific private chat with another user*](method/messages.setChatWallPaper)
 
 ---
 
-###### :link: [messages.searchEmojiStickerSets](method/messages.searchEmojiStickerSets)
+###### messages.searchEmojiStickerSets
 
-  - *Search for custom emoji stickersets »*
+:link: [*Search for custom emoji stickersets »*](method/messages.searchEmojiStickerSets)
 
 ---
 
-###### :link: [messages.getSavedDialogs](method/messages.getSavedDialogs)
+###### messages.getSavedDialogs
 
-  - *Returns the current saved dialog list, see here » for more info*
+:link: [*Returns the current saved dialog list, see here » for more info*](method/messages.getSavedDialogs)
 
 ---
 
-###### :link: [messages.getSavedHistory](method/messages.getSavedHistory)
+###### messages.getSavedHistory
 
-  - *Returns saved messages » forwarded from a specific peer*
+:link: [*Returns saved messages » forwarded from a specific peer*](method/messages.getSavedHistory)
 
 ---
 
-###### :link: [messages.deleteSavedHistory](method/messages.deleteSavedHistory)
+###### messages.deleteSavedHistory
 
-  - *Deletes messages forwarded from a specific peer to saved messages »*
+:link: [*Deletes messages forwarded from a specific peer to saved messages »*](method/messages.deleteSavedHistory)
 
 ---
 
-###### :link: [messages.getPinnedSavedDialogs](method/messages.getPinnedSavedDialogs)
+###### messages.getPinnedSavedDialogs
 
-  - *Get pinned saved dialogs, see here » for more info*
+:link: [*Get pinned saved dialogs, see here » for more info*](method/messages.getPinnedSavedDialogs)
 
 ---
 
-###### :link: [messages.toggleSavedDialogPin](method/messages.toggleSavedDialogPin)
+###### messages.toggleSavedDialogPin
 
-  - *Pin or unpin a saved message dialog »*
+:link: [*Pin or unpin a saved message dialog »*](method/messages.toggleSavedDialogPin)
 
 ---
 
-###### :link: [messages.reorderPinnedSavedDialogs](method/messages.reorderPinnedSavedDialogs)
+###### messages.reorderPinnedSavedDialogs
 
-  - *Reorder pinned saved message dialogs »*
+:link: [*Reorder pinned saved message dialogs »*](method/messages.reorderPinnedSavedDialogs)
 
 ---
 
-###### :link: [messages.getSavedReactionTags](method/messages.getSavedReactionTags)
+###### messages.getSavedReactionTags
 
-  - *Fetch the full list of saved message tags created by the user*
+:link: [*Fetch the full list of saved message tags created by the user*](method/messages.getSavedReactionTags)
 
 ---
 
-###### :link: [messages.updateSavedReactionTag](method/messages.updateSavedReactionTag)
+###### messages.updateSavedReactionTag
 
-  - *Update the description of a saved message tag »*
+:link: [*Update the description of a saved message tag »*](method/messages.updateSavedReactionTag)
 
 ---
 
-###### :link: [messages.getDefaultTagReactions](method/messages.getDefaultTagReactions)
+###### messages.getDefaultTagReactions
 
-  - *Fetch a default recommended list of saved message tag reactions*
+:link: [*Fetch a default recommended list of saved message tag reactions*](method/messages.getDefaultTagReactions)
 
 ---
 
-###### :link: [messages.getOutboxReadDate](method/messages.getOutboxReadDate)
+###### messages.getOutboxReadDate
 
-  - *Get the exact read date of one of our messages, sent to a private chat with another user*
+:link: [*Get the exact read date of one of our messages, sent to a private chat with another user*](method/messages.getOutboxReadDate)
 
 ---
 
-###### :link: [messages.getQuickReplies](method/messages.getQuickReplies)
+###### messages.getQuickReplies
 
-  - *Fetch basic info about all existing quick reply shortcuts*
+:link: [*Fetch basic info about all existing quick reply shortcuts*](method/messages.getQuickReplies)
 
 ---
 
-###### :link: [messages.reorderQuickReplies](method/messages.reorderQuickReplies)
+###### messages.reorderQuickReplies
 
-  - *Reorder quick reply shortcuts*
+:link: [*Reorder quick reply shortcuts*](method/messages.reorderQuickReplies)
 
 ---
 
-###### :link: [messages.checkQuickReplyShortcut](method/messages.checkQuickReplyShortcut)
+###### messages.checkQuickReplyShortcut
 
-  - *Before offering the user the choice to add a message to a quick reply shortcut, to make sure that none of the limits specified here » were reached*
+:link: [*Before offering the user the choice to add a message to a quick reply shortcut, to make sure that none of the limits specified here » were reached*](method/messages.checkQuickReplyShortcut)
 
 ---
 
-###### :link: [messages.editQuickReplyShortcut](method/messages.editQuickReplyShortcut)
+###### messages.editQuickReplyShortcut
 
-  - *Rename a quick reply shortcut.
-This will emit an updateQuickReplies update to other logged-in sessions*
+:link: [*Rename a quick reply shortcut.
+This will emit an updateQuickReplies update to other logged-in sessions*](method/messages.editQuickReplyShortcut)
 
 ---
 
-###### :link: [messages.deleteQuickReplyShortcut](method/messages.deleteQuickReplyShortcut)
+###### messages.deleteQuickReplyShortcut
 
-  - *Completely delete a quick reply shortcut.
-This will also emit an updateDeleteQuickReply update to other logged-in sessions (and no updateDeleteQuickReplyMessages updates, even if all the messages in the shortcuts are also deleted by this method)*
+:link: [*Completely delete a quick reply shortcut.
+This will also emit an updateDeleteQuickReply update to other logged-in sessions (and no updateDeleteQuickReplyMessages updates, even if all the messages in the shortcuts are also deleted by this method)*](method/messages.deleteQuickReplyShortcut)
 
 ---
 
-###### :link: [messages.getQuickReplyMessages](method/messages.getQuickReplyMessages)
+###### messages.getQuickReplyMessages
 
-  - *Fetch (a subset or all) messages in a quick reply shortcut »*
+:link: [*Fetch (a subset or all) messages in a quick reply shortcut »*](method/messages.getQuickReplyMessages)
 
 ---
 
-###### :link: [messages.sendQuickReplyMessages](method/messages.sendQuickReplyMessages)
+###### messages.sendQuickReplyMessages
 
-  - *Send a quick reply shortcut »*
+:link: [*Send a quick reply shortcut »*](method/messages.sendQuickReplyMessages)
 
 ---
 
-###### :link: [messages.deleteQuickReplyMessages](method/messages.deleteQuickReplyMessages)
+###### messages.deleteQuickReplyMessages
 
-  - *Delete one or more messages from a quick reply shortcut. This will also emit an updateDeleteQuickReplyMessages update*
+:link: [*Delete one or more messages from a quick reply shortcut. This will also emit an updateDeleteQuickReplyMessages update*](method/messages.deleteQuickReplyMessages)
 
 ---
 
-###### :link: [messages.toggleDialogFilterTags](method/messages.toggleDialogFilterTags)
+###### messages.toggleDialogFilterTags
 
-  - *Enable or disable folder tags »*
+:link: [*Enable or disable folder tags »*](method/messages.toggleDialogFilterTags)
 
 ---
 
-###### :link: [messages.getMyStickers](method/messages.getMyStickers)
+###### messages.getMyStickers
 
-  - *Fetch all stickersets » owned by the current user*
+:link: [*Fetch all stickersets » owned by the current user*](method/messages.getMyStickers)
 
 ---
 
-###### :link: [messages.getEmojiStickerGroups](method/messages.getEmojiStickerGroups)
+###### messages.getEmojiStickerGroups
 
-  - *Represents a list of emoji categories, to be used when choosing a sticker*
+:link: [*Represents a list of emoji categories, to be used when choosing a sticker*](method/messages.getEmojiStickerGroups)
 
 ---
 
-###### :link: [messages.getAvailableEffects](method/messages.getAvailableEffects)
+###### messages.getAvailableEffects
 
-  - *Fetch the full list of usable animated message effects »*
+:link: [*Fetch the full list of usable animated message effects »*](method/messages.getAvailableEffects)
 
 ---
 
-###### :link: [messages.editFactCheck](method/messages.editFactCheck)
+###### messages.editFactCheck
 
-  - *Edit/create a fact-check on a message*
+:link: [*Edit/create a fact-check on a message*](method/messages.editFactCheck)
 
 ---
 
-###### :link: [messages.deleteFactCheck](method/messages.deleteFactCheck)
+###### messages.deleteFactCheck
 
-  - *Delete a fact-check from a message*
+:link: [*Delete a fact-check from a message*](method/messages.deleteFactCheck)
 
 ---
 
-###### :link: [messages.getFactCheck](method/messages.getFactCheck)
+###### messages.getFactCheck
 
-  - *Fetch one or more factchecks, see here » for the full flow*
+:link: [*Fetch one or more factchecks, see here » for the full flow*](method/messages.getFactCheck)
 
 ---
 
-###### :link: [messages.requestMainWebView](method/messages.requestMainWebView)
+###### messages.requestMainWebView
 
-  - *Open a Main Mini App*
+:link: [*Open a Main Mini App*](method/messages.requestMainWebView)
 
 ---
 
-###### :link: [messages.sendPaidReaction](method/messages.sendPaidReaction)
+###### messages.sendPaidReaction
 
-  - *Sends one or more paid Telegram Star reactions », transferring Telegram Stars » to a channel's balance*
+:link: [*Sends one or more paid Telegram Star reactions », transferring Telegram Stars » to a channel's balance*](method/messages.sendPaidReaction)
 
 ---
 
-###### :link: [messages.togglePaidReactionPrivacy](method/messages.togglePaidReactionPrivacy)
+###### messages.togglePaidReactionPrivacy
 
-  - *Changes the privacy of already sent paid reactions on a specific message*
+:link: [*Changes the privacy of already sent paid reactions on a specific message*](method/messages.togglePaidReactionPrivacy)
 
 ---
 
-###### :link: [messages.getPaidReactionPrivacy](method/messages.getPaidReactionPrivacy)
+###### messages.getPaidReactionPrivacy
 
-  - *Fetches an updatePaidReactionPrivacy update with the current default paid reaction privacy, see here » for more info*
+:link: [*Fetches an updatePaidReactionPrivacy update with the current default paid reaction privacy, see here » for more info*](method/messages.getPaidReactionPrivacy)
 
 ---
 
-###### :link: [messages.viewSponsoredMessage](method/messages.viewSponsoredMessage)
+###### messages.viewSponsoredMessage
 
-  - *Mark a specific sponsored message » as read*
+:link: [*Mark a specific sponsored message » as read*](method/messages.viewSponsoredMessage)
 
 ---
 
-###### :link: [messages.clickSponsoredMessage](method/messages.clickSponsoredMessage)
+###### messages.clickSponsoredMessage
 
-  - *Informs the server that the user has interacted with a sponsored message in one of the ways listed here »*
+:link: [*Informs the server that the user has interacted with a sponsored message in one of the ways listed here »*](method/messages.clickSponsoredMessage)
 
 ---
 
-###### :link: [messages.reportSponsoredMessage](method/messages.reportSponsoredMessage)
+###### messages.reportSponsoredMessage
 
-  - *Report a sponsored message », see here » for more info on the full flow*
+:link: [*Report a sponsored message », see here » for more info on the full flow*](method/messages.reportSponsoredMessage)
 
 ---
 
-###### :link: [messages.getSponsoredMessages](method/messages.getSponsoredMessages)
+###### messages.getSponsoredMessages
 
-  - *Get a list of sponsored messages for a peer, see here » for more info*
+:link: [*Get a list of sponsored messages for a peer, see here » for more info*](method/messages.getSponsoredMessages)
 
 ---
 
-###### :link: [messages.savePreparedInlineMessage](method/messages.savePreparedInlineMessage)
+###### messages.savePreparedInlineMessage
 
-  - *Save a prepared inline message, to be shared by the user of the mini app using a web_app_send_prepared_message event*
+:link: [*Save a prepared inline message, to be shared by the user of the mini app using a web_app_send_prepared_message event*](method/messages.savePreparedInlineMessage)
 
 ---
 
-###### :link: [messages.getPreparedInlineMessage](method/messages.getPreparedInlineMessage)
+###### messages.getPreparedInlineMessage
 
-  - *Obtain a prepared inline message generated by a mini app: invoked when handling web_app_send_prepared_message events*
+:link: [*Obtain a prepared inline message generated by a mini app: invoked when handling web_app_send_prepared_message events*](method/messages.getPreparedInlineMessage)
 
 ---
 
-###### :link: [messages.searchStickers](method/messages.searchStickers)
+###### messages.searchStickers
 
-  - *Search for stickers using AI-powered keyword search*
+:link: [*Search for stickers using AI-powered keyword search*](method/messages.searchStickers)
 
 ---
 
-###### :link: [messages.reportMessagesDelivery](method/messages.reportMessagesDelivery)
+###### messages.reportMessagesDelivery
 
+:link: [*NOTHING*](method/messages.reportMessagesDelivery)
+
 ---
 
-###### :link: [messages.getSavedDialogsByID](method/messages.getSavedDialogsByID)
+###### messages.getSavedDialogsByID
 
+:link: [*NOTHING*](method/messages.getSavedDialogsByID)
+
 ---
+
+###### messages.readSavedHistory
 
-###### :link: [messages.readSavedHistory](method/messages.readSavedHistory)
+:link: [*NOTHING*](method/messages.readSavedHistory)
 
 ---
 
-###### :link: [messages.toggleTodoCompleted](method/messages.toggleTodoCompleted)
+###### messages.toggleTodoCompleted
 
+:link: [*NOTHING*](method/messages.toggleTodoCompleted)
+
 ---
+
+###### messages.appendTodoList
 
-###### :link: [messages.appendTodoList](method/messages.appendTodoList)
+:link: [*NOTHING*](method/messages.appendTodoList)
 
 ---
 
-###### :link: [messages.toggleSuggestedPostApproval](method/messages.toggleSuggestedPostApproval)
+###### messages.toggleSuggestedPostApproval
 
+:link: [*NOTHING*](method/messages.toggleSuggestedPostApproval)
+
 ---
 
-###### :link: [updates.getState](method/updates.getState)
+###### updates.getState
 
-  - *Returns a current state of updates*
+:link: [*Returns a current state of updates*](method/updates.getState)
 
 ---
 
-###### :link: [updates.getDifference](method/updates.getDifference)
+###### updates.getDifference
 
-  - *Get new updates*
+:link: [*Get new updates*](method/updates.getDifference)
 
 ---
 
-###### :link: [updates.getChannelDifference](method/updates.getChannelDifference)
+###### updates.getChannelDifference
 
-  - *Returns the difference between the current state of updates of a certain channel and transmitted*
+:link: [*Returns the difference between the current state of updates of a certain channel and transmitted*](method/updates.getChannelDifference)
 
 ---
 
-###### :link: [photos.updateProfilePhoto](method/photos.updateProfilePhoto)
+###### photos.updateProfilePhoto
 
-  - *Installs a previously uploaded photo as a profile photo*
+:link: [*Installs a previously uploaded photo as a profile photo*](method/photos.updateProfilePhoto)
 
 ---
 
-###### :link: [photos.uploadProfilePhoto](method/photos.uploadProfilePhoto)
+###### photos.uploadProfilePhoto
 
-  - *Updates current user profile photo*
+:link: [*Updates current user profile photo*](method/photos.uploadProfilePhoto)
 
 ---
 
-###### :link: [photos.deletePhotos](method/photos.deletePhotos)
+###### photos.deletePhotos
 
-  - *Deletes profile photos. The method returns a list of successfully deleted photo IDs*
+:link: [*Deletes profile photos. The method returns a list of successfully deleted photo IDs*](method/photos.deletePhotos)
 
 ---
 
-###### :link: [photos.getUserPhotos](method/photos.getUserPhotos)
+###### photos.getUserPhotos
 
-  - *Returns the list of user photos*
+:link: [*Returns the list of user photos*](method/photos.getUserPhotos)
 
 ---
 
-###### :link: [photos.uploadContactProfilePhoto](method/photos.uploadContactProfilePhoto)
+###### photos.uploadContactProfilePhoto
 
-  - *Upload a custom profile picture for a contact, or suggest a new profile picture to a contact*
+:link: [*Upload a custom profile picture for a contact, or suggest a new profile picture to a contact*](method/photos.uploadContactProfilePhoto)
 
 ---
 
-###### :link: [upload.saveFilePart](method/upload.saveFilePart)
+###### upload.saveFilePart
 
-  - *Saves a part of file for further sending to one of the methods*
+:link: [*Saves a part of file for further sending to one of the methods*](method/upload.saveFilePart)
 
 ---
 
-###### :link: [upload.getFile](method/upload.getFile)
+###### upload.getFile
 
-  - *Returns content of a whole file or its part*
+:link: [*Returns content of a whole file or its part*](method/upload.getFile)
 
 ---
 
-###### :link: [upload.saveBigFilePart](method/upload.saveBigFilePart)
+###### upload.saveBigFilePart
 
-  - *Saves a part of a large file (over 10 MB in size) to be later passed to one of the methods*
+:link: [*Saves a part of a large file (over 10 MB in size) to be later passed to one of the methods*](method/upload.saveBigFilePart)
 
 ---
 
-###### :link: [upload.getWebFile](method/upload.getWebFile)
+###### upload.getWebFile
 
-  - *Returns content of a web file, by proxying the request through telegram, see the webfile docs for more info*
+:link: [*Returns content of a web file, by proxying the request through telegram, see the webfile docs for more info*](method/upload.getWebFile)
 
 ---
 
-###### :link: [upload.getCdnFile](method/upload.getCdnFile)
+###### upload.getCdnFile
 
-  - *Download a CDN file*
+:link: [*Download a CDN file*](method/upload.getCdnFile)
 
 ---
 
-###### :link: [upload.reuploadCdnFile](method/upload.reuploadCdnFile)
+###### upload.reuploadCdnFile
 
-  - *Request a reupload of a certain file to a CDN DC*
+:link: [*Request a reupload of a certain file to a CDN DC*](method/upload.reuploadCdnFile)
 
 ---
 
-###### :link: [upload.getCdnFileHashes](method/upload.getCdnFileHashes)
+###### upload.getCdnFileHashes
 
-  - *Get SHA256 hashes for verifying downloaded CDN files*
+:link: [*Get SHA256 hashes for verifying downloaded CDN files*](method/upload.getCdnFileHashes)
 
 ---
 
-###### :link: [upload.getFileHashes](method/upload.getFileHashes)
+###### upload.getFileHashes
 
-  - *Get SHA256 hashes for verifying downloaded files*
+:link: [*Get SHA256 hashes for verifying downloaded files*](method/upload.getFileHashes)
 
 ---
 
-###### :link: [help.getConfig](method/help.getConfig)
+###### help.getConfig
 
-  - *Returns current configuration, including data center configuration*
+:link: [*Returns current configuration, including data center configuration*](method/help.getConfig)
 
 ---
 
-###### :link: [help.getNearestDc](method/help.getNearestDc)
+###### help.getNearestDc
 
-  - *Returns info on data center nearest to the user*
+:link: [*Returns info on data center nearest to the user*](method/help.getNearestDc)
 
 ---
 
-###### :link: [help.getAppUpdate](method/help.getAppUpdate)
+###### help.getAppUpdate
 
-  - *Returns information on update availability for the current application*
+:link: [*Returns information on update availability for the current application*](method/help.getAppUpdate)
 
 ---
 
-###### :link: [help.getInviteText](method/help.getInviteText)
+###### help.getInviteText
 
-  - *Returns localized text of a text message with an invitation*
+:link: [*Returns localized text of a text message with an invitation*](method/help.getInviteText)
 
 ---
 
-###### :link: [help.getSupport](method/help.getSupport)
+###### help.getSupport
 
-  - *Returns the support user for the "ask a question" feature*
+:link: [*Returns the support user for the "ask a question" feature*](method/help.getSupport)
 
 ---
 
-###### :link: [help.setBotUpdatesStatus](method/help.setBotUpdatesStatus)
+###### help.setBotUpdatesStatus
 
-  - *Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only*
+:link: [*Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only*](method/help.setBotUpdatesStatus)
 
 ---
 
-###### :link: [help.getCdnConfig](method/help.getCdnConfig)
+###### help.getCdnConfig
 
-  - *Get configuration for CDN file downloads*
+:link: [*Get configuration for CDN file downloads*](method/help.getCdnConfig)
 
 ---
 
-###### :link: [help.getRecentMeUrls](method/help.getRecentMeUrls)
+###### help.getRecentMeUrls
 
-  - *Get recently used t.me links*
+:link: [*Get recently used t.me links*](method/help.getRecentMeUrls)
 
 ---
 
-###### :link: [help.getTermsOfServiceUpdate](method/help.getTermsOfServiceUpdate)
+###### help.getTermsOfServiceUpdate
 
-  - *Look for updates of telegram's terms of service*
+:link: [*Look for updates of telegram's terms of service*](method/help.getTermsOfServiceUpdate)
 
 ---
 
-###### :link: [help.acceptTermsOfService](method/help.acceptTermsOfService)
+###### help.acceptTermsOfService
 
-  - *Accept the new terms of service*
+:link: [*Accept the new terms of service*](method/help.acceptTermsOfService)
 
 ---
 
-###### :link: [help.getDeepLinkInfo](method/help.getDeepLinkInfo)
+###### help.getDeepLinkInfo
 
-  - *Get info about an unsupported deep link, see here for more info »*
+:link: [*Get info about an unsupported deep link, see here for more info »*](method/help.getDeepLinkInfo)
 
 ---
 
-###### :link: [help.getAppConfig](method/help.getAppConfig)
+###### help.getAppConfig
 
-  - *Get app-specific configuration, see client configuration for more info on the result*
+:link: [*Get app-specific configuration, see client configuration for more info on the result*](method/help.getAppConfig)
 
 ---
 
-###### :link: [help.saveAppLog](method/help.saveAppLog)
+###### help.saveAppLog
 
-  - *Saves logs of application on the server*
+:link: [*Saves logs of application on the server*](method/help.saveAppLog)
 
 ---
 
-###### :link: [help.getPassportConfig](method/help.getPassportConfig)
+###### help.getPassportConfig
 
-  - *Get passport configuration*
+:link: [*Get passport configuration*](method/help.getPassportConfig)
 
 ---
 
-###### :link: [help.getSupportName](method/help.getSupportName)
+###### help.getSupportName
 
-  - *Get localized name of the telegram support user*
+:link: [*Get localized name of the telegram support user*](method/help.getSupportName)
 
 ---
 
-###### :link: [help.getUserInfo](method/help.getUserInfo)
+###### help.getUserInfo
 
-  - *Can only be used by TSF members to obtain internal information*
+:link: [*Can only be used by TSF members to obtain internal information*](method/help.getUserInfo)
 
 ---
 
-###### :link: [help.editUserInfo](method/help.editUserInfo)
+###### help.editUserInfo
 
-  - *Internal use*
+:link: [*Internal use*](method/help.editUserInfo)
 
 ---
 
-###### :link: [help.getPromoData](method/help.getPromoData)
+###### help.getPromoData
 
-  - *Get MTProxy/Public Service Announcement information*
+:link: [*Get MTProxy/Public Service Announcement information*](method/help.getPromoData)
 
 ---
 
-###### :link: [help.hidePromoData](method/help.hidePromoData)
+###### help.hidePromoData
 
-  - *Hide MTProxy/Public Service Announcement information*
+:link: [*Hide MTProxy/Public Service Announcement information*](method/help.hidePromoData)
 
 ---
 
-###### :link: [help.dismissSuggestion](method/help.dismissSuggestion)
+###### help.dismissSuggestion
 
-  - *Dismiss a suggestion, see here for more info »*
+:link: [*Dismiss a suggestion, see here for more info »*](method/help.dismissSuggestion)
 
 ---
 
-###### :link: [help.getCountriesList](method/help.getCountriesList)
+###### help.getCountriesList
 
-  - *Get name, ISO code, localized name and phone codes/patterns of all available countries*
+:link: [*Get name, ISO code, localized name and phone codes/patterns of all available countries*](method/help.getCountriesList)
 
 ---
 
-###### :link: [help.getPremiumPromo](method/help.getPremiumPromo)
+###### help.getPremiumPromo
 
-  - *Get Telegram Premium promotion information*
+:link: [*Get Telegram Premium promotion information*](method/help.getPremiumPromo)
 
 ---
 
-###### :link: [help.getPeerColors](method/help.getPeerColors)
+###### help.getPeerColors
 
-  - *Get the set of accent color palettes » that can be used for message accents*
+:link: [*Get the set of accent color palettes » that can be used for message accents*](method/help.getPeerColors)
 
 ---
 
-###### :link: [help.getPeerProfileColors](method/help.getPeerProfileColors)
+###### help.getPeerProfileColors
 
-  - *Get the set of accent color palettes » that can be used in profile page backgrounds*
+:link: [*Get the set of accent color palettes » that can be used in profile page backgrounds*](method/help.getPeerProfileColors)
 
 ---
 
-###### :link: [help.getTimezonesList](method/help.getTimezonesList)
+###### help.getTimezonesList
 
-  - *Returns timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »*
+:link: [*Returns timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »*](method/help.getTimezonesList)
 
 ---
 
-###### :link: [channels.readHistory](method/channels.readHistory)
+###### channels.readHistory
 
-  - *Mark channel/supergroup history as read*
+:link: [*Mark channel/supergroup history as read*](method/channels.readHistory)
 
 ---
 
-###### :link: [channels.deleteMessages](method/channels.deleteMessages)
+###### channels.deleteMessages
 
-  - *Delete messages in a channel/supergroup*
+:link: [*Delete messages in a channel/supergroup*](method/channels.deleteMessages)
 
 ---
 
-###### :link: [channels.reportSpam](method/channels.reportSpam)
+###### channels.reportSpam
 
-  - *Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup*
+:link: [*Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup*](method/channels.reportSpam)
 
 ---
 
-###### :link: [channels.getMessages](method/channels.getMessages)
+###### channels.getMessages
 
-  - *Get channel/supergroup messages*
+:link: [*Get channel/supergroup messages*](method/channels.getMessages)
 
 ---
 
-###### :link: [channels.getParticipants](method/channels.getParticipants)
+###### channels.getParticipants
 
-  - *Get the participants of a supergroup/channel*
+:link: [*Get the participants of a supergroup/channel*](method/channels.getParticipants)
 
 ---
 
-###### :link: [channels.getParticipant](method/channels.getParticipant)
+###### channels.getParticipant
 
-  - *Get info about a channel/supergroup participant*
+:link: [*Get info about a channel/supergroup participant*](method/channels.getParticipant)
 
 ---
 
-###### :link: [channels.getChannels](method/channels.getChannels)
+###### channels.getChannels
 
-  - *Get info about channels/supergroups*
+:link: [*Get info about channels/supergroups*](method/channels.getChannels)
 
 ---
 
-###### :link: [channels.getFullChannel](method/channels.getFullChannel)
+###### channels.getFullChannel
 
-  - *Get full info about a supergroup, gigagroup or channel*
+:link: [*Get full info about a supergroup, gigagroup or channel*](method/channels.getFullChannel)
 
 ---
 
-###### :link: [channels.createChannel](method/channels.createChannel)
+###### channels.createChannel
 
-  - *Create a supergroup/channel*
+:link: [*Create a supergroup/channel*](method/channels.createChannel)
 
 ---
 
-###### :link: [channels.editAdmin](method/channels.editAdmin)
+###### channels.editAdmin
 
-  - *Modify the admin rights of a user in a supergroup/channel*
+:link: [*Modify the admin rights of a user in a supergroup/channel*](method/channels.editAdmin)
 
 ---
 
-###### :link: [channels.editTitle](method/channels.editTitle)
+###### channels.editTitle
 
-  - *Edit the name of a channel/supergroup*
+:link: [*Edit the name of a channel/supergroup*](method/channels.editTitle)
 
 ---
 
-###### :link: [channels.editPhoto](method/channels.editPhoto)
+###### channels.editPhoto
 
-  - *Change the photo of a channel/supergroup*
+:link: [*Change the photo of a channel/supergroup*](method/channels.editPhoto)
 
 ---
 
-###### :link: [channels.checkUsername](method/channels.checkUsername)
+###### channels.checkUsername
 
-  - *Check if a username is free and can be assigned to a channel/supergroup*
+:link: [*Check if a username is free and can be assigned to a channel/supergroup*](method/channels.checkUsername)
 
 ---
 
-###### :link: [channels.updateUsername](method/channels.updateUsername)
+###### channels.updateUsername
 
-  - *Change or remove the username of a supergroup/channel*
+:link: [*Change or remove the username of a supergroup/channel*](method/channels.updateUsername)
 
 ---
 
-###### :link: [channels.joinChannel](method/channels.joinChannel)
+###### channels.joinChannel
 
-  - *Join a channel/supergroup*
+:link: [*Join a channel/supergroup*](method/channels.joinChannel)
 
 ---
 
-###### :link: [channels.leaveChannel](method/channels.leaveChannel)
+###### channels.leaveChannel
 
-  - *Leave a channel/supergroup*
+:link: [*Leave a channel/supergroup*](method/channels.leaveChannel)
 
 ---
 
-###### :link: [channels.inviteToChannel](method/channels.inviteToChannel)
+###### channels.inviteToChannel
 
-  - *Invite users to a channel/supergroup*
+:link: [*Invite users to a channel/supergroup*](method/channels.inviteToChannel)
 
 ---
 
-###### :link: [channels.deleteChannel](method/channels.deleteChannel)
+###### channels.deleteChannel
 
-  - *Delete a channel/supergroup*
+:link: [*Delete a channel/supergroup*](method/channels.deleteChannel)
 
 ---
 
-###### :link: [channels.exportMessageLink](method/channels.exportMessageLink)
+###### channels.exportMessageLink
 
-  - *Get link and embed info of a message in a channel/supergroup*
+:link: [*Get link and embed info of a message in a channel/supergroup*](method/channels.exportMessageLink)
 
 ---
 
-###### :link: [channels.toggleSignatures](method/channels.toggleSignatures)
+###### channels.toggleSignatures
 
-  - *Enable/disable message signatures in channels*
+:link: [*Enable/disable message signatures in channels*](method/channels.toggleSignatures)
 
 ---
 
-###### :link: [channels.getAdminedPublicChannels](method/channels.getAdminedPublicChannels)
+###### channels.getAdminedPublicChannels
 
-  - *Get channels/supergroups/geogroups we're admin in. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups*
+:link: [*Get channels/supergroups/geogroups we're admin in. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups*](method/channels.getAdminedPublicChannels)
 
 ---
 
-###### :link: [channels.editBanned](method/channels.editBanned)
+###### channels.editBanned
 
-  - *Ban/unban/kick a user in a supergroup/channel*
+:link: [*Ban/unban/kick a user in a supergroup/channel*](method/channels.editBanned)
 
 ---
 
-###### :link: [channels.getAdminLog](method/channels.getAdminLog)
+###### channels.getAdminLog
 
-  - *Get the admin log of a channel/supergroup*
+:link: [*Get the admin log of a channel/supergroup*](method/channels.getAdminLog)
 
 ---
 
-###### :link: [channels.setStickers](method/channels.setStickers)
+###### channels.setStickers
 
-  - *Associate a stickerset to the supergroup*
+:link: [*Associate a stickerset to the supergroup*](method/channels.setStickers)
 
 ---
 
-###### :link: [channels.readMessageContents](method/channels.readMessageContents)
+###### channels.readMessageContents
 
-  - *Mark channel/supergroup message contents as read*
+:link: [*Mark channel/supergroup message contents as read*](method/channels.readMessageContents)
 
 ---
 
-###### :link: [channels.deleteHistory](method/channels.deleteHistory)
+###### channels.deleteHistory
 
-  - *Delete the history of a supergroup*
+:link: [*Delete the history of a supergroup*](method/channels.deleteHistory)
 
 ---
 
-###### :link: [channels.togglePreHistoryHidden](method/channels.togglePreHistoryHidden)
+###### channels.togglePreHistoryHidden
 
-  - *Hide/unhide message history for new channel/supergroup users*
+:link: [*Hide/unhide message history for new channel/supergroup users*](method/channels.togglePreHistoryHidden)
 
 ---
 
-###### :link: [channels.getLeftChannels](method/channels.getLeftChannels)
+###### channels.getLeftChannels
 
-  - *Get a list of channels/supergroups we left, requires a takeout session, see here » for more info*
+:link: [*Get a list of channels/supergroups we left, requires a takeout session, see here » for more info*](method/channels.getLeftChannels)
 
 ---
 
-###### :link: [channels.getGroupsForDiscussion](method/channels.getGroupsForDiscussion)
+###### channels.getGroupsForDiscussion
 
-  - *Get all groups that can be used as discussion groups*
+:link: [*Get all groups that can be used as discussion groups*](method/channels.getGroupsForDiscussion)
 
 ---
 
-###### :link: [channels.setDiscussionGroup](method/channels.setDiscussionGroup)
+###### channels.setDiscussionGroup
 
-  - *Associate a group to a channel as discussion group for that channel*
+:link: [*Associate a group to a channel as discussion group for that channel*](method/channels.setDiscussionGroup)
 
 ---
 
-###### :link: [channels.editCreator](method/channels.editCreator)
+###### channels.editCreator
 
-  - *Transfer channel ownership*
+:link: [*Transfer channel ownership*](method/channels.editCreator)
 
 ---
 
-###### :link: [channels.editLocation](method/channels.editLocation)
+###### channels.editLocation
 
-  - *Edit location of geogroup, see here » for more info on geogroups*
+:link: [*Edit location of geogroup, see here » for more info on geogroups*](method/channels.editLocation)
 
 ---
 
-###### :link: [channels.toggleSlowMode](method/channels.toggleSlowMode)
+###### channels.toggleSlowMode
 
-  - *Toggle supergroup slow mode: if enabled, users will only be able to send one message every seconds seconds*
+:link: [*Toggle supergroup slow mode: if enabled, users will only be able to send one message every seconds seconds*](method/channels.toggleSlowMode)
 
 ---
 
-###### :link: [channels.getInactiveChannels](method/channels.getInactiveChannels)
+###### channels.getInactiveChannels
 
-  - *Get inactive channels and supergroups*
+:link: [*Get inactive channels and supergroups*](method/channels.getInactiveChannels)
 
 ---
 
-###### :link: [channels.convertToGigagroup](method/channels.convertToGigagroup)
+###### channels.convertToGigagroup
 
-  - *Convert a supergroup to a gigagroup, when requested by channel suggestions*
+:link: [*Convert a supergroup to a gigagroup, when requested by channel suggestions*](method/channels.convertToGigagroup)
 
 ---
 
-###### :link: [channels.getSendAs](method/channels.getSendAs)
+###### channels.getSendAs
 
-  - *Obtains a list of peers that can be used to send messages in a specific group*
+:link: [*Obtains a list of peers that can be used to send messages in a specific group*](method/channels.getSendAs)
 
 ---
 
-###### :link: [channels.deleteParticipantHistory](method/channels.deleteParticipantHistory)
+###### channels.deleteParticipantHistory
 
-  - *Delete all messages sent by a specific participant of a given supergroup*
+:link: [*Delete all messages sent by a specific participant of a given supergroup*](method/channels.deleteParticipantHistory)
 
 ---
 
-###### :link: [channels.toggleJoinToSend](method/channels.toggleJoinToSend)
+###### channels.toggleJoinToSend
 
-  - *Set whether all users should join a discussion group in order to comment on a post »*
+:link: [*Set whether all users should join a discussion group in order to comment on a post »*](method/channels.toggleJoinToSend)
 
 ---
 
-###### :link: [channels.toggleJoinRequest](method/channels.toggleJoinRequest)
+###### channels.toggleJoinRequest
 
-  - *Set whether all users should request admin approval to join the group »*
+:link: [*Set whether all users should request admin approval to join the group »*](method/channels.toggleJoinRequest)
 
 ---
 
-###### :link: [channels.reorderUsernames](method/channels.reorderUsernames)
+###### channels.reorderUsernames
 
-  - *Reorder active usernames*
+:link: [*Reorder active usernames*](method/channels.reorderUsernames)
 
 ---
 
-###### :link: [channels.toggleUsername](method/channels.toggleUsername)
+###### channels.toggleUsername
 
-  - *Activate or deactivate a purchased fragment.com username associated to a supergroup or channel we own*
+:link: [*Activate or deactivate a purchased fragment.com username associated to a supergroup or channel we own*](method/channels.toggleUsername)
 
 ---
 
-###### :link: [channels.deactivateAllUsernames](method/channels.deactivateAllUsernames)
+###### channels.deactivateAllUsernames
 
-  - *Disable all purchased usernames of a supergroup or channel*
+:link: [*Disable all purchased usernames of a supergroup or channel*](method/channels.deactivateAllUsernames)
 
 ---
 
-###### :link: [channels.toggleForum](method/channels.toggleForum)
+###### channels.toggleForum
 
-  - *Enable or disable forum functionality in a supergroup*
+:link: [*Enable or disable forum functionality in a supergroup*](method/channels.toggleForum)
 
 ---
 
-###### :link: [channels.createForumTopic](method/channels.createForumTopic)
+###### channels.createForumTopic
 
-  - *Create a forum topic; requires manage_topics rights*
+:link: [*Create a forum topic; requires manage_topics rights*](method/channels.createForumTopic)
 
 ---
 
-###### :link: [channels.getForumTopics](method/channels.getForumTopics)
+###### channels.getForumTopics
 
-  - *Get topics of a forum*
+:link: [*Get topics of a forum*](method/channels.getForumTopics)
 
 ---
 
-###### :link: [channels.getForumTopicsByID](method/channels.getForumTopicsByID)
+###### channels.getForumTopicsByID
 
-  - *Get forum topics by their ID*
+:link: [*Get forum topics by their ID*](method/channels.getForumTopicsByID)
 
 ---
 
-###### :link: [channels.editForumTopic](method/channels.editForumTopic)
+###### channels.editForumTopic
 
-  - *Edit forum topic; requires manage_topics rights*
+:link: [*Edit forum topic; requires manage_topics rights*](method/channels.editForumTopic)
 
 ---
 
-###### :link: [channels.updatePinnedForumTopic](method/channels.updatePinnedForumTopic)
+###### channels.updatePinnedForumTopic
 
-  - *Pin or unpin forum topics*
+:link: [*Pin or unpin forum topics*](method/channels.updatePinnedForumTopic)
 
 ---
 
-###### :link: [channels.deleteTopicHistory](method/channels.deleteTopicHistory)
+###### channels.deleteTopicHistory
 
-  - *Delete message history of a forum topic*
+:link: [*Delete message history of a forum topic*](method/channels.deleteTopicHistory)
 
 ---
 
-###### :link: [channels.reorderPinnedForumTopics](method/channels.reorderPinnedForumTopics)
+###### channels.reorderPinnedForumTopics
 
-  - *Reorder pinned forum topics*
+:link: [*Reorder pinned forum topics*](method/channels.reorderPinnedForumTopics)
 
 ---
 
-###### :link: [channels.toggleAntiSpam](method/channels.toggleAntiSpam)
+###### channels.toggleAntiSpam
 
-  - *Enable or disable the native antispam system*
+:link: [*Enable or disable the native antispam system*](method/channels.toggleAntiSpam)
 
 ---
 
-###### :link: [channels.reportAntiSpamFalsePositive](method/channels.reportAntiSpamFalsePositive)
+###### channels.reportAntiSpamFalsePositive
 
-  - *Report a native antispam false positive*
+:link: [*Report a native antispam false positive*](method/channels.reportAntiSpamFalsePositive)
 
 ---
 
-###### :link: [channels.toggleParticipantsHidden](method/channels.toggleParticipantsHidden)
+###### channels.toggleParticipantsHidden
 
-  - *Hide or display the participants list in a supergroup*
+:link: [*Hide or display the participants list in a supergroup*](method/channels.toggleParticipantsHidden)
 
 ---
 
-###### :link: [channels.updateColor](method/channels.updateColor)
+###### channels.updateColor
 
-  - *Update the accent color and background custom emoji » of a channel*
+:link: [*Update the accent color and background custom emoji » of a channel*](method/channels.updateColor)
 
 ---
 
-###### :link: [channels.toggleViewForumAsMessages](method/channels.toggleViewForumAsMessages)
+###### channels.toggleViewForumAsMessages
 
-  - *Users may also choose to display messages from all topics of a forum as if they were sent to a normal group, using a "View as messages" setting in the local client: this setting only affects the current account, and is synced to other logged in sessions using this method*
+:link: [*Users may also choose to display messages from all topics of a forum as if they were sent to a normal group, using a "View as messages" setting in the local client: this setting only affects the current account, and is synced to other logged in sessions using this method*](method/channels.toggleViewForumAsMessages)
 
 ---
 
-###### :link: [channels.getChannelRecommendations](method/channels.getChannelRecommendations)
+###### channels.getChannelRecommendations
 
-  - *Obtain a list of similarly themed public channels, selected based on similarities in their subscriber bases*
+:link: [*Obtain a list of similarly themed public channels, selected based on similarities in their subscriber bases*](method/channels.getChannelRecommendations)
 
 ---
 
-###### :link: [channels.updateEmojiStatus](method/channels.updateEmojiStatus)
+###### channels.updateEmojiStatus
 
-  - *Set an emoji status for a channel or supergroup*
+:link: [*Set an emoji status for a channel or supergroup*](method/channels.updateEmojiStatus)
 
 ---
 
-###### :link: [channels.setBoostsToUnblockRestrictions](method/channels.setBoostsToUnblockRestrictions)
+###### channels.setBoostsToUnblockRestrictions
 
-  - *Admins with ban_users admin rights » may allow users that apply a certain number of booosts » to the group to bypass slow mode » and other » supergroup restrictions, see here » for more info*
+:link: [*Admins with ban_users admin rights » may allow users that apply a certain number of booosts » to the group to bypass slow mode » and other » supergroup restrictions, see here » for more info*](method/channels.setBoostsToUnblockRestrictions)
 
 ---
 
-###### :link: [channels.setEmojiStickers](method/channels.setEmojiStickers)
+###### channels.setEmojiStickers
 
-  - *Set a custom emoji stickerset for supergroups. Only usable after reaching at least the boost level » specified in the group_emoji_stickers_level_min » config parameter*
+:link: [*Set a custom emoji stickerset for supergroups. Only usable after reaching at least the boost level » specified in the group_emoji_stickers_level_min » config parameter*](method/channels.setEmojiStickers)
 
 ---
 
-###### :link: [channels.restrictSponsoredMessages](method/channels.restrictSponsoredMessages)
+###### channels.restrictSponsoredMessages
 
-  - *Disable ads on the specified channel, for all users*
+:link: [*Disable ads on the specified channel, for all users*](method/channels.restrictSponsoredMessages)
 
 ---
 
-###### :link: [channels.searchPosts](method/channels.searchPosts)
+###### channels.searchPosts
 
-  - *Globally search for posts from public channels » (including those we aren't a member of) containing a specific hashtag*
+:link: [*Globally search for posts from public channels » (including those we aren't a member of) containing a specific hashtag*](method/channels.searchPosts)
 
 ---
+
+###### channels.updatePaidMessagesPrice
 
-###### :link: [channels.updatePaidMessagesPrice](method/channels.updatePaidMessagesPrice)
+:link: [*NOTHING*](method/channels.updatePaidMessagesPrice)
 
 ---
 
-###### :link: [channels.toggleAutotranslation](method/channels.toggleAutotranslation)
+###### channels.toggleAutotranslation
 
+:link: [*NOTHING*](method/channels.toggleAutotranslation)
+
 ---
 
-###### :link: [channels.getMessageAuthor](method/channels.getMessageAuthor)
+###### channels.getMessageAuthor
 
+:link: [*NOTHING*](method/channels.getMessageAuthor)
+
 ---
+
+###### channels.checkSearchPostsFlood
 
-###### :link: [channels.checkSearchPostsFlood](method/channels.checkSearchPostsFlood)
+:link: [*NOTHING*](method/channels.checkSearchPostsFlood)
 
 ---
 
-###### :link: [bots.sendCustomRequest](method/bots.sendCustomRequest)
+###### bots.sendCustomRequest
 
-  - *Sends a custom request; for bots only*
+:link: [*Sends a custom request; for bots only*](method/bots.sendCustomRequest)
 
 ---
 
-###### :link: [bots.answerWebhookJSONQuery](method/bots.answerWebhookJSONQuery)
+###### bots.answerWebhookJSONQuery
 
-  - *Answers a custom query; for bots only*
+:link: [*Answers a custom query; for bots only*](method/bots.answerWebhookJSONQuery)
 
 ---
 
-###### :link: [bots.setBotCommands](method/bots.setBotCommands)
+###### bots.setBotCommands
 
-  - *Set bot command list*
+:link: [*Set bot command list*](method/bots.setBotCommands)
 
 ---
 
-###### :link: [bots.resetBotCommands](method/bots.resetBotCommands)
+###### bots.resetBotCommands
 
-  - *Clear bot commands for the specified bot scope and language code*
+:link: [*Clear bot commands for the specified bot scope and language code*](method/bots.resetBotCommands)
 
 ---
 
-###### :link: [bots.getBotCommands](method/bots.getBotCommands)
+###### bots.getBotCommands
 
-  - *Obtain a list of bot commands for the specified bot scope and language code*
+:link: [*Obtain a list of bot commands for the specified bot scope and language code*](method/bots.getBotCommands)
 
 ---
 
-###### :link: [bots.setBotMenuButton](method/bots.setBotMenuButton)
+###### bots.setBotMenuButton
 
-  - *Sets the menu button action » for a given user or for all users*
+:link: [*Sets the menu button action » for a given user or for all users*](method/bots.setBotMenuButton)
 
 ---
 
-###### :link: [bots.getBotMenuButton](method/bots.getBotMenuButton)
+###### bots.getBotMenuButton
 
-  - *Gets the menu button action for a given user or for all users, previously set using bots.setBotMenuButton; users can see this information in the botInfo constructor*
+:link: [*Gets the menu button action for a given user or for all users, previously set using bots.setBotMenuButton; users can see this information in the botInfo constructor*](method/bots.getBotMenuButton)
 
 ---
 
-###### :link: [bots.setBotBroadcastDefaultAdminRights](method/bots.setBotBroadcastDefaultAdminRights)
+###### bots.setBotBroadcastDefaultAdminRights
 
-  - *Set the default suggested admin rights for bots being added as admins to channels, see here for more info on how to handle them »*
+:link: [*Set the default suggested admin rights for bots being added as admins to channels, see here for more info on how to handle them »*](method/bots.setBotBroadcastDefaultAdminRights)
 
 ---
 
-###### :link: [bots.setBotGroupDefaultAdminRights](method/bots.setBotGroupDefaultAdminRights)
+###### bots.setBotGroupDefaultAdminRights
 
-  - *Set the default suggested admin rights for bots being added as admins to groups, see here for more info on how to handle them »*
+:link: [*Set the default suggested admin rights for bots being added as admins to groups, see here for more info on how to handle them »*](method/bots.setBotGroupDefaultAdminRights)
 
 ---
 
-###### :link: [bots.setBotInfo](method/bots.setBotInfo)
+###### bots.setBotInfo
 
-  - *Set localized name, about text and description of a bot (or of the current account, if called by a bot)*
+:link: [*Set localized name, about text and description of a bot (or of the current account, if called by a bot)*](method/bots.setBotInfo)
 
 ---
 
-###### :link: [bots.getBotInfo](method/bots.getBotInfo)
+###### bots.getBotInfo
 
-  - *Get localized name, about text and description of a bot (or of the current account, if called by a bot)*
+:link: [*Get localized name, about text and description of a bot (or of the current account, if called by a bot)*](method/bots.getBotInfo)
 
 ---
 
-###### :link: [bots.reorderUsernames](method/bots.reorderUsernames)
+###### bots.reorderUsernames
 
-  - *Reorder usernames associated to a bot we own*
+:link: [*Reorder usernames associated to a bot we own*](method/bots.reorderUsernames)
 
 ---
 
-###### :link: [bots.toggleUsername](method/bots.toggleUsername)
+###### bots.toggleUsername
 
-  - *Activate or deactivate a purchased fragment.com username associated to a bot we own*
+:link: [*Activate or deactivate a purchased fragment.com username associated to a bot we own*](method/bots.toggleUsername)
 
 ---
 
-###### :link: [bots.canSendMessage](method/bots.canSendMessage)
+###### bots.canSendMessage
 
-  - *Check whether the specified bot can send us messages*
+:link: [*Check whether the specified bot can send us messages*](method/bots.canSendMessage)
 
 ---
 
-###### :link: [bots.allowSendMessage](method/bots.allowSendMessage)
+###### bots.allowSendMessage
 
-  - *Allow the specified bot to send us messages*
+:link: [*Allow the specified bot to send us messages*](method/bots.allowSendMessage)
 
 ---
 
-###### :link: [bots.invokeWebViewCustomMethod](method/bots.invokeWebViewCustomMethod)
+###### bots.invokeWebViewCustomMethod
 
-  - *Send a custom request from a mini bot app, triggered by a web_app_invoke_custom_method event »*
+:link: [*Send a custom request from a mini bot app, triggered by a web_app_invoke_custom_method event »*](method/bots.invokeWebViewCustomMethod)
 
 ---
 
-###### :link: [bots.getPopularAppBots](method/bots.getPopularAppBots)
+###### bots.getPopularAppBots
 
-  - *Fetch popular Main Mini Apps, to be used in the apps tab of global search »*
+:link: [*Fetch popular Main Mini Apps, to be used in the apps tab of global search »*](method/bots.getPopularAppBots)
 
 ---
 
-###### :link: [bots.addPreviewMedia](method/bots.addPreviewMedia)
+###### bots.addPreviewMedia
 
-  - *Add a main mini app preview, see here » for more info*
+:link: [*Add a main mini app preview, see here » for more info*](method/bots.addPreviewMedia)
 
 ---
 
-###### :link: [bots.editPreviewMedia](method/bots.editPreviewMedia)
+###### bots.editPreviewMedia
 
-  - *Edit a main mini app preview, see here » for more info*
+:link: [*Edit a main mini app preview, see here » for more info*](method/bots.editPreviewMedia)
 
 ---
 
-###### :link: [bots.deletePreviewMedia](method/bots.deletePreviewMedia)
+###### bots.deletePreviewMedia
 
-  - *Delete a main mini app preview, see here » for more info*
+:link: [*Delete a main mini app preview, see here » for more info*](method/bots.deletePreviewMedia)
 
 ---
 
-###### :link: [bots.reorderPreviewMedias](method/bots.reorderPreviewMedias)
+###### bots.reorderPreviewMedias
 
-  - *Reorder a main mini app previews, see here » for more info*
+:link: [*Reorder a main mini app previews, see here » for more info*](method/bots.reorderPreviewMedias)
 
 ---
 
-###### :link: [bots.getPreviewInfo](method/bots.getPreviewInfo)
+###### bots.getPreviewInfo
 
-  - *Bot owners only, fetch main mini app preview information, see here » for more info*
+:link: [*Bot owners only, fetch main mini app preview information, see here » for more info*](method/bots.getPreviewInfo)
 
 ---
 
-###### :link: [bots.getPreviewMedias](method/bots.getPreviewMedias)
+###### bots.getPreviewMedias
 
-  - *Fetch main mini app previews, see here » for more info*
+:link: [*Fetch main mini app previews, see here » for more info*](method/bots.getPreviewMedias)
 
 ---
 
-###### :link: [bots.updateUserEmojiStatus](method/bots.updateUserEmojiStatus)
+###### bots.updateUserEmojiStatus
 
-  - *Change the emoji status of a user (invoked by bots, see here » for more info on the full flow)*
+:link: [*Change the emoji status of a user (invoked by bots, see here » for more info on the full flow)*](method/bots.updateUserEmojiStatus)
 
 ---
 
-###### :link: [bots.toggleUserEmojiStatusPermission](method/bots.toggleUserEmojiStatusPermission)
+###### bots.toggleUserEmojiStatusPermission
 
-  - *Allow or prevent a bot from changing our emoji status »*
+:link: [*Allow or prevent a bot from changing our emoji status »*](method/bots.toggleUserEmojiStatusPermission)
 
 ---
 
-###### :link: [bots.checkDownloadFileParams](method/bots.checkDownloadFileParams)
+###### bots.checkDownloadFileParams
 
-  - *Check if a mini app can request the download of a specific file: called when handling web_app_request_file_download events »*
+:link: [*Check if a mini app can request the download of a specific file: called when handling web_app_request_file_download events »*](method/bots.checkDownloadFileParams)
 
 ---
 
-###### :link: [bots.getAdminedBots](method/bots.getAdminedBots)
+###### bots.getAdminedBots
 
-  - *Get a list of bots owned by the current user*
+:link: [*Get a list of bots owned by the current user*](method/bots.getAdminedBots)
 
 ---
 
-###### :link: [bots.updateStarRefProgram](method/bots.updateStarRefProgram)
+###### bots.updateStarRefProgram
 
-  - *Create, edit or delete the affiliate program of a bot we own*
+:link: [*Create, edit or delete the affiliate program of a bot we own*](method/bots.updateStarRefProgram)
 
 ---
 
-###### :link: [bots.setCustomVerification](method/bots.setCustomVerification)
+###### bots.setCustomVerification
 
+:link: [*NOTHING*](method/bots.setCustomVerification)
+
 ---
+
+###### bots.getBotRecommendations
 
-###### :link: [bots.getBotRecommendations](method/bots.getBotRecommendations)
+:link: [*NOTHING*](method/bots.getBotRecommendations)
 
 ---
 
-###### :link: [payments.getPaymentForm](method/payments.getPaymentForm)
+###### payments.getPaymentForm
 
-  - *Get a payment form*
+:link: [*Get a payment form*](method/payments.getPaymentForm)
 
 ---
 
-###### :link: [payments.getPaymentReceipt](method/payments.getPaymentReceipt)
+###### payments.getPaymentReceipt
 
-  - *Get payment receipt*
+:link: [*Get payment receipt*](method/payments.getPaymentReceipt)
 
 ---
 
-###### :link: [payments.validateRequestedInfo](method/payments.validateRequestedInfo)
+###### payments.validateRequestedInfo
 
-  - *Submit requested order information for validation*
+:link: [*Submit requested order information for validation*](method/payments.validateRequestedInfo)
 
 ---
 
-###### :link: [payments.sendPaymentForm](method/payments.sendPaymentForm)
+###### payments.sendPaymentForm
 
-  - *Send compiled payment form*
+:link: [*Send compiled payment form*](method/payments.sendPaymentForm)
 
 ---
 
-###### :link: [payments.getSavedInfo](method/payments.getSavedInfo)
+###### payments.getSavedInfo
 
-  - *Get saved payment information*
+:link: [*Get saved payment information*](method/payments.getSavedInfo)
 
 ---
 
-###### :link: [payments.clearSavedInfo](method/payments.clearSavedInfo)
+###### payments.clearSavedInfo
 
-  - *Clear saved payment information*
+:link: [*Clear saved payment information*](method/payments.clearSavedInfo)
 
 ---
 
-###### :link: [payments.getBankCardData](method/payments.getBankCardData)
+###### payments.getBankCardData
 
-  - *Get info about a credit card*
+:link: [*Get info about a credit card*](method/payments.getBankCardData)
 
 ---
 
-###### :link: [payments.exportInvoice](method/payments.exportInvoice)
+###### payments.exportInvoice
 
-  - *Generate an invoice deep link*
+:link: [*Generate an invoice deep link*](method/payments.exportInvoice)
 
 ---
 
-###### :link: [payments.assignAppStoreTransaction](method/payments.assignAppStoreTransaction)
+###### payments.assignAppStoreTransaction
 
-  - *Informs server about a purchase made through the App Store: for official applications only*
+:link: [*Informs server about a purchase made through the App Store: for official applications only*](method/payments.assignAppStoreTransaction)
 
 ---
 
-###### :link: [payments.assignPlayMarketTransaction](method/payments.assignPlayMarketTransaction)
+###### payments.assignPlayMarketTransaction
 
-  - *Informs server about a purchase made through the Play Store: for official applications only*
+:link: [*Informs server about a purchase made through the Play Store: for official applications only*](method/payments.assignPlayMarketTransaction)
 
 ---
 
-###### :link: [payments.getPremiumGiftCodeOptions](method/payments.getPremiumGiftCodeOptions)
+###### payments.getPremiumGiftCodeOptions
 
-  - *Obtain a list of Telegram Premium giveaway/gift code » options*
+:link: [*Obtain a list of Telegram Premium giveaway/gift code » options*](method/payments.getPremiumGiftCodeOptions)
 
 ---
 
-###### :link: [payments.checkGiftCode](method/payments.checkGiftCode)
+###### payments.checkGiftCode
 
-  - *Obtain information about a Telegram Premium giftcode »*
+:link: [*Obtain information about a Telegram Premium giftcode »*](method/payments.checkGiftCode)
 
 ---
 
-###### :link: [payments.applyGiftCode](method/payments.applyGiftCode)
+###### payments.applyGiftCode
 
-  - *Apply a Telegram Premium giftcode »*
+:link: [*Apply a Telegram Premium giftcode »*](method/payments.applyGiftCode)
 
 ---
 
-###### :link: [payments.getGiveawayInfo](method/payments.getGiveawayInfo)
+###### payments.getGiveawayInfo
 
-  - *Obtain information about a Telegram Premium giveaway »*
+:link: [*Obtain information about a Telegram Premium giveaway »*](method/payments.getGiveawayInfo)
 
 ---
 
-###### :link: [payments.launchPrepaidGiveaway](method/payments.launchPrepaidGiveaway)
+###### payments.launchPrepaidGiveaway
 
-  - *Launch a prepaid giveaway »*
+:link: [*Launch a prepaid giveaway »*](method/payments.launchPrepaidGiveaway)
 
 ---
 
-###### :link: [payments.getStarsTopupOptions](method/payments.getStarsTopupOptions)
+###### payments.getStarsTopupOptions
 
-  - *Obtain a list of Telegram Stars topup options » as starsTopupOption constructors*
+:link: [*Obtain a list of Telegram Stars topup options » as starsTopupOption constructors*](method/payments.getStarsTopupOptions)
 
 ---
 
-###### :link: [payments.getStarsStatus](method/payments.getStarsStatus)
+###### payments.getStarsStatus
 
-  - *Get the current Telegram Stars balance of the current account (with peer=inputPeerSelf), or the stars balance of the bot specified in peer*
+:link: [*Get the current Telegram Stars balance of the current account (with peer=inputPeerSelf), or the stars balance of the bot specified in peer*](method/payments.getStarsStatus)
 
 ---
 
-###### :link: [payments.getStarsTransactions](method/payments.getStarsTransactions)
+###### payments.getStarsTransactions
 
-  - *Fetch Telegram Stars transactions*
+:link: [*Fetch Telegram Stars transactions*](method/payments.getStarsTransactions)
 
 ---
 
-###### :link: [payments.sendStarsForm](method/payments.sendStarsForm)
+###### payments.sendStarsForm
 
-  - *Make a payment using Telegram Stars, see here » for more info*
+:link: [*Make a payment using Telegram Stars, see here » for more info*](method/payments.sendStarsForm)
 
 ---
 
-###### :link: [payments.refundStarsCharge](method/payments.refundStarsCharge)
+###### payments.refundStarsCharge
 
-  - *Refund a Telegram Stars transaction, see here » for more info*
+:link: [*Refund a Telegram Stars transaction, see here » for more info*](method/payments.refundStarsCharge)
 
 ---
 
-###### :link: [payments.getStarsRevenueStats](method/payments.getStarsRevenueStats)
+###### payments.getStarsRevenueStats
 
-  - *Get Telegram Star revenue statistics »*
+:link: [*Get Telegram Star revenue statistics »*](method/payments.getStarsRevenueStats)
 
 ---
 
-###### :link: [payments.getStarsRevenueWithdrawalUrl](method/payments.getStarsRevenueWithdrawalUrl)
+###### payments.getStarsRevenueWithdrawalUrl
 
-  - *Withdraw funds from a channel or bot's star balance »*
+:link: [*Withdraw funds from a channel or bot's star balance »*](method/payments.getStarsRevenueWithdrawalUrl)
 
 ---
 
-###### :link: [payments.getStarsRevenueAdsAccountUrl](method/payments.getStarsRevenueAdsAccountUrl)
+###### payments.getStarsRevenueAdsAccountUrl
 
-  - *Returns a URL for a Telegram Ad platform account that can be used to set up advertisements for channel/bot in peer, paid using the Telegram Stars owned by the specified peer, see here » for more info*
+:link: [*Returns a URL for a Telegram Ad platform account that can be used to set up advertisements for channel/bot in peer, paid using the Telegram Stars owned by the specified peer, see here » for more info*](method/payments.getStarsRevenueAdsAccountUrl)
 
 ---
 
-###### :link: [payments.getStarsTransactionsByID](method/payments.getStarsTransactionsByID)
+###### payments.getStarsTransactionsByID
 
-  - *Obtain info about Telegram Star transactions » using specific transaction IDs*
+:link: [*Obtain info about Telegram Star transactions » using specific transaction IDs*](method/payments.getStarsTransactionsByID)
 
 ---
 
-###### :link: [payments.getStarsGiftOptions](method/payments.getStarsGiftOptions)
+###### payments.getStarsGiftOptions
 
-  - *Obtain a list of Telegram Stars gift options » as starsGiftOption constructors*
+:link: [*Obtain a list of Telegram Stars gift options » as starsGiftOption constructors*](method/payments.getStarsGiftOptions)
 
 ---
 
-###### :link: [payments.getStarsSubscriptions](method/payments.getStarsSubscriptions)
+###### payments.getStarsSubscriptions
 
-  - *Obtain a list of active, expired or cancelled Telegram Star subscriptions »*
+:link: [*Obtain a list of active, expired or cancelled Telegram Star subscriptions »*](method/payments.getStarsSubscriptions)
 
 ---
 
-###### :link: [payments.changeStarsSubscription](method/payments.changeStarsSubscription)
+###### payments.changeStarsSubscription
 
-  - *Activate or deactivate a Telegram Star subscription »*
+:link: [*Activate or deactivate a Telegram Star subscription »*](method/payments.changeStarsSubscription)
 
 ---
 
-###### :link: [payments.fulfillStarsSubscription](method/payments.fulfillStarsSubscription)
+###### payments.fulfillStarsSubscription
 
-  - *Re-join a private channel associated to an active Telegram Star subscription »*
+:link: [*Re-join a private channel associated to an active Telegram Star subscription »*](method/payments.fulfillStarsSubscription)
 
 ---
 
-###### :link: [payments.getStarsGiveawayOptions](method/payments.getStarsGiveawayOptions)
+###### payments.getStarsGiveawayOptions
 
-  - *Fetch a list of star giveaway options »*
+:link: [*Fetch a list of star giveaway options »*](method/payments.getStarsGiveawayOptions)
 
 ---
 
-###### :link: [payments.getStarGifts](method/payments.getStarGifts)
+###### payments.getStarGifts
 
-  - *Get a list of available gifts, see here » for more info*
+:link: [*Get a list of available gifts, see here » for more info*](method/payments.getStarGifts)
 
 ---
 
-###### :link: [payments.saveStarGift](method/payments.saveStarGift)
+###### payments.saveStarGift
 
-  - *Display or remove a received gift » from our profile*
+:link: [*Display or remove a received gift » from our profile*](method/payments.saveStarGift)
 
 ---
 
-###### :link: [payments.convertStarGift](method/payments.convertStarGift)
+###### payments.convertStarGift
 
-  - *Convert a received gift » into Telegram Stars: this will permanently destroy the gift, converting it into starGift.convert_stars Telegram Stars, added to the user's balance*
+:link: [*Convert a received gift » into Telegram Stars: this will permanently destroy the gift, converting it into starGift.convert_stars Telegram Stars, added to the user's balance*](method/payments.convertStarGift)
 
 ---
 
-###### :link: [payments.botCancelStarsSubscription](method/payments.botCancelStarsSubscription)
+###### payments.botCancelStarsSubscription
 
-  - *Cancel a bot subscription*
+:link: [*Cancel a bot subscription*](method/payments.botCancelStarsSubscription)
 
 ---
 
-###### :link: [payments.getConnectedStarRefBots](method/payments.getConnectedStarRefBots)
+###### payments.getConnectedStarRefBots
 
-  - *Fetch all affiliations we have created for a certain peer*
+:link: [*Fetch all affiliations we have created for a certain peer*](method/payments.getConnectedStarRefBots)
 
 ---
 
-###### :link: [payments.getConnectedStarRefBot](method/payments.getConnectedStarRefBot)
+###### payments.getConnectedStarRefBot
 
-  - *Fetch info about a specific bot affiliation »*
+:link: [*Fetch info about a specific bot affiliation »*](method/payments.getConnectedStarRefBot)
 
 ---
 
-###### :link: [payments.getSuggestedStarRefBots](method/payments.getSuggestedStarRefBots)
+###### payments.getSuggestedStarRefBots
 
-  - *Obtain a list of suggested mini apps with available affiliate programs*
+:link: [*Obtain a list of suggested mini apps with available affiliate programs*](method/payments.getSuggestedStarRefBots)
 
 ---
 
-###### :link: [payments.connectStarRefBot](method/payments.connectStarRefBot)
+###### payments.connectStarRefBot
 
-  - *Join a bot's affiliate program, becoming an affiliate »*
+:link: [*Join a bot's affiliate program, becoming an affiliate »*](method/payments.connectStarRefBot)
 
 ---
 
-###### :link: [payments.editConnectedStarRefBot](method/payments.editConnectedStarRefBot)
+###### payments.editConnectedStarRefBot
 
-  - *Leave a bot's affiliate program »*
+:link: [*Leave a bot's affiliate program »*](method/payments.editConnectedStarRefBot)
 
 ---
 
-###### :link: [payments.getStarGiftUpgradePreview](method/payments.getStarGiftUpgradePreview)
+###### payments.getStarGiftUpgradePreview
 
+:link: [*NOTHING*](method/payments.getStarGiftUpgradePreview)
+
 ---
+
+###### payments.upgradeStarGift
 
-###### :link: [payments.upgradeStarGift](method/payments.upgradeStarGift)
+:link: [*NOTHING*](method/payments.upgradeStarGift)
 
 ---
 
-###### :link: [payments.transferStarGift](method/payments.transferStarGift)
+###### payments.transferStarGift
 
+:link: [*NOTHING*](method/payments.transferStarGift)
+
 ---
 
-###### :link: [payments.getUniqueStarGift](method/payments.getUniqueStarGift)
+###### payments.getUniqueStarGift
 
+:link: [*NOTHING*](method/payments.getUniqueStarGift)
+
 ---
+
+###### payments.getSavedStarGifts
 
-###### :link: [payments.getSavedStarGifts](method/payments.getSavedStarGifts)
+:link: [*NOTHING*](method/payments.getSavedStarGifts)
 
 ---
 
-###### :link: [payments.getSavedStarGift](method/payments.getSavedStarGift)
+###### payments.getSavedStarGift
 
+:link: [*NOTHING*](method/payments.getSavedStarGift)
+
 ---
+
+###### payments.getStarGiftWithdrawalUrl
 
-###### :link: [payments.getStarGiftWithdrawalUrl](method/payments.getStarGiftWithdrawalUrl)
+:link: [*NOTHING*](method/payments.getStarGiftWithdrawalUrl)
 
 ---
 
-###### :link: [payments.toggleChatStarGiftNotifications](method/payments.toggleChatStarGiftNotifications)
+###### payments.toggleChatStarGiftNotifications
 
+:link: [*NOTHING*](method/payments.toggleChatStarGiftNotifications)
+
 ---
+
+###### payments.toggleStarGiftsPinnedToTop
 
-###### :link: [payments.toggleStarGiftsPinnedToTop](method/payments.toggleStarGiftsPinnedToTop)
+:link: [*NOTHING*](method/payments.toggleStarGiftsPinnedToTop)
 
 ---
 
-###### :link: [payments.canPurchaseStore](method/payments.canPurchaseStore)
+###### payments.canPurchaseStore
 
+:link: [*NOTHING*](method/payments.canPurchaseStore)
+
 ---
+
+###### payments.getResaleStarGifts
 
-###### :link: [payments.getResaleStarGifts](method/payments.getResaleStarGifts)
+:link: [*NOTHING*](method/payments.getResaleStarGifts)
 
 ---
 
-###### :link: [payments.updateStarGiftPrice](method/payments.updateStarGiftPrice)
+###### payments.updateStarGiftPrice
 
+:link: [*NOTHING*](method/payments.updateStarGiftPrice)
+
 ---
+
+###### payments.createStarGiftCollection
 
-###### :link: [payments.createStarGiftCollection](method/payments.createStarGiftCollection)
+:link: [*NOTHING*](method/payments.createStarGiftCollection)
 
 ---
 
-###### :link: [payments.updateStarGiftCollection](method/payments.updateStarGiftCollection)
+###### payments.updateStarGiftCollection
 
+:link: [*NOTHING*](method/payments.updateStarGiftCollection)
+
 ---
+
+###### payments.reorderStarGiftCollections
 
-###### :link: [payments.reorderStarGiftCollections](method/payments.reorderStarGiftCollections)
+:link: [*NOTHING*](method/payments.reorderStarGiftCollections)
 
 ---
 
-###### :link: [payments.deleteStarGiftCollection](method/payments.deleteStarGiftCollection)
+###### payments.deleteStarGiftCollection
 
+:link: [*NOTHING*](method/payments.deleteStarGiftCollection)
+
 ---
+
+###### payments.getStarGiftCollections
 
-###### :link: [payments.getStarGiftCollections](method/payments.getStarGiftCollections)
+:link: [*NOTHING*](method/payments.getStarGiftCollections)
 
 ---
 
-###### :link: [stickers.createStickerSet](method/stickers.createStickerSet)
+###### stickers.createStickerSet
 
-  - *Create a stickerset*
+:link: [*Create a stickerset*](method/stickers.createStickerSet)
 
 ---
 
-###### :link: [stickers.removeStickerFromSet](method/stickers.removeStickerFromSet)
+###### stickers.removeStickerFromSet
 
-  - *Remove a sticker from the set where it belongs. The sticker set must have been created by the current user/bot*
+:link: [*Remove a sticker from the set where it belongs. The sticker set must have been created by the current user/bot*](method/stickers.removeStickerFromSet)
 
 ---
 
-###### :link: [stickers.changeStickerPosition](method/stickers.changeStickerPosition)
+###### stickers.changeStickerPosition
 
-  - *Changes the absolute position of a sticker in the set to which it belongs. The sticker set must have been created by the current user/bot*
+:link: [*Changes the absolute position of a sticker in the set to which it belongs. The sticker set must have been created by the current user/bot*](method/stickers.changeStickerPosition)
 
 ---
 
-###### :link: [stickers.addStickerToSet](method/stickers.addStickerToSet)
+###### stickers.addStickerToSet
 
-  - *Add a sticker to a stickerset. The sticker set must have been created by the current user/bot*
+:link: [*Add a sticker to a stickerset. The sticker set must have been created by the current user/bot*](method/stickers.addStickerToSet)
 
 ---
 
-###### :link: [stickers.setStickerSetThumb](method/stickers.setStickerSetThumb)
+###### stickers.setStickerSetThumb
 
-  - *Set stickerset thumbnail*
+:link: [*Set stickerset thumbnail*](method/stickers.setStickerSetThumb)
 
 ---
 
-###### :link: [stickers.checkShortName](method/stickers.checkShortName)
+###### stickers.checkShortName
 
-  - *Check whether the given short name is available*
+:link: [*Check whether the given short name is available*](method/stickers.checkShortName)
 
 ---
 
-###### :link: [stickers.suggestShortName](method/stickers.suggestShortName)
+###### stickers.suggestShortName
 
-  - *Suggests a short name for a given stickerpack name*
+:link: [*Suggests a short name for a given stickerpack name*](method/stickers.suggestShortName)
 
 ---
 
-###### :link: [stickers.changeSticker](method/stickers.changeSticker)
+###### stickers.changeSticker
 
-  - *Update the keywords, emojis or mask coordinates of a sticker*
+:link: [*Update the keywords, emojis or mask coordinates of a sticker*](method/stickers.changeSticker)
 
 ---
 
-###### :link: [stickers.renameStickerSet](method/stickers.renameStickerSet)
+###### stickers.renameStickerSet
 
-  - *Renames a stickerset*
+:link: [*Renames a stickerset*](method/stickers.renameStickerSet)
 
 ---
 
-###### :link: [stickers.deleteStickerSet](method/stickers.deleteStickerSet)
+###### stickers.deleteStickerSet
 
-  - *Deletes a stickerset we created*
+:link: [*Deletes a stickerset we created*](method/stickers.deleteStickerSet)
 
 ---
 
-###### :link: [stickers.replaceSticker](method/stickers.replaceSticker)
+###### stickers.replaceSticker
 
-  - *Replace a sticker in a stickerset »*
+:link: [*Replace a sticker in a stickerset »*](method/stickers.replaceSticker)
 
 ---
 
-###### :link: [phone.getCallConfig](method/phone.getCallConfig)
+###### phone.getCallConfig
 
-  - *Get phone call configuration to be passed to libtgvoip's shared config*
+:link: [*Get phone call configuration to be passed to libtgvoip's shared config*](method/phone.getCallConfig)
 
 ---
 
-###### :link: [phone.requestCall](method/phone.requestCall)
+###### phone.requestCall
 
-  - *Start a telegram phone call*
+:link: [*Start a telegram phone call*](method/phone.requestCall)
 
 ---
 
-###### :link: [phone.acceptCall](method/phone.acceptCall)
+###### phone.acceptCall
 
-  - *Accept incoming call*
+:link: [*Accept incoming call*](method/phone.acceptCall)
 
 ---
 
-###### :link: [phone.confirmCall](method/phone.confirmCall)
+###### phone.confirmCall
 
-  - *Complete phone call E2E encryption key exchange »*
+:link: [*Complete phone call E2E encryption key exchange »*](method/phone.confirmCall)
 
 ---
 
-###### :link: [phone.receivedCall](method/phone.receivedCall)
+###### phone.receivedCall
 
-  - *Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended*
+:link: [*Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended*](method/phone.receivedCall)
 
 ---
 
-###### :link: [phone.discardCall](method/phone.discardCall)
+###### phone.discardCall
 
-  - *Refuse or end running call*
+:link: [*Refuse or end running call*](method/phone.discardCall)
 
 ---
 
-###### :link: [phone.setCallRating](method/phone.setCallRating)
+###### phone.setCallRating
 
-  - *Rate a call, returns info about the rating message sent to the official VoIP bot*
+:link: [*Rate a call, returns info about the rating message sent to the official VoIP bot*](method/phone.setCallRating)
 
 ---
 
-###### :link: [phone.saveCallDebug](method/phone.saveCallDebug)
+###### phone.saveCallDebug
 
-  - *Send phone call debug data to server*
+:link: [*Send phone call debug data to server*](method/phone.saveCallDebug)
 
 ---
 
-###### :link: [phone.sendSignalingData](method/phone.sendSignalingData)
+###### phone.sendSignalingData
 
-  - *Send VoIP signaling data*
+:link: [*Send VoIP signaling data*](method/phone.sendSignalingData)
 
 ---
 
-###### :link: [phone.createGroupCall](method/phone.createGroupCall)
+###### phone.createGroupCall
 
-  - *Create a group call or livestream*
+:link: [*Create a group call or livestream*](method/phone.createGroupCall)
 
 ---
 
-###### :link: [phone.joinGroupCall](method/phone.joinGroupCall)
+###### phone.joinGroupCall
 
-  - *Join a group call*
+:link: [*Join a group call*](method/phone.joinGroupCall)
 
 ---
 
-###### :link: [phone.leaveGroupCall](method/phone.leaveGroupCall)
+###### phone.leaveGroupCall
 
-  - *Leave a group call*
+:link: [*Leave a group call*](method/phone.leaveGroupCall)
 
 ---
 
-###### :link: [phone.inviteToGroupCall](method/phone.inviteToGroupCall)
+###### phone.inviteToGroupCall
 
-  - *Invite a set of users to a group call*
+:link: [*Invite a set of users to a group call*](method/phone.inviteToGroupCall)
 
 ---
 
-###### :link: [phone.discardGroupCall](method/phone.discardGroupCall)
+###### phone.discardGroupCall
 
-  - *Terminate a group call*
+:link: [*Terminate a group call*](method/phone.discardGroupCall)
 
 ---
 
-###### :link: [phone.toggleGroupCallSettings](method/phone.toggleGroupCallSettings)
+###### phone.toggleGroupCallSettings
 
-  - *Change group call settings*
+:link: [*Change group call settings*](method/phone.toggleGroupCallSettings)
 
 ---
 
-###### :link: [phone.getGroupCall](method/phone.getGroupCall)
+###### phone.getGroupCall
 
-  - *Get info about a group call*
+:link: [*Get info about a group call*](method/phone.getGroupCall)
 
 ---
 
-###### :link: [phone.getGroupParticipants](method/phone.getGroupParticipants)
+###### phone.getGroupParticipants
 
-  - *Get group call participants*
+:link: [*Get group call participants*](method/phone.getGroupParticipants)
 
 ---
 
-###### :link: [phone.checkGroupCall](method/phone.checkGroupCall)
+###### phone.checkGroupCall
 
-  - *Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs.
-Returns an intersection of the source IDs specified in sources, and the source IDs currently being forwarded by the SFU*
+:link: [*Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs.
+Returns an intersection of the source IDs specified in sources, and the source IDs currently being forwarded by the SFU*](method/phone.checkGroupCall)
 
 ---
 
-###### :link: [phone.toggleGroupCallRecord](method/phone.toggleGroupCallRecord)
+###### phone.toggleGroupCallRecord
 
-  - *Start or stop recording a group call: the recorded audio and video streams will be automatically sent to Saved messages (the chat with ourselves)*
+:link: [*Start or stop recording a group call: the recorded audio and video streams will be automatically sent to Saved messages (the chat with ourselves)*](method/phone.toggleGroupCallRecord)
 
 ---
 
-###### :link: [phone.editGroupCallParticipant](method/phone.editGroupCallParticipant)
+###### phone.editGroupCallParticipant
 
-  - *Edit information about a given group call participant*
+:link: [*Edit information about a given group call participant*](method/phone.editGroupCallParticipant)
 
 ---
 
-###### :link: [phone.editGroupCallTitle](method/phone.editGroupCallTitle)
+###### phone.editGroupCallTitle
 
-  - *Edit the title of a group call or livestream*
+:link: [*Edit the title of a group call or livestream*](method/phone.editGroupCallTitle)
 
 ---
 
-###### :link: [phone.getGroupCallJoinAs](method/phone.getGroupCallJoinAs)
+###### phone.getGroupCallJoinAs
 
-  - *Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel*
+:link: [*Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel*](method/phone.getGroupCallJoinAs)
 
 ---
 
-###### :link: [phone.exportGroupCallInvite](method/phone.exportGroupCallInvite)
+###### phone.exportGroupCallInvite
 
-  - *Get an invite link for a group call or livestream*
+:link: [*Get an invite link for a group call or livestream*](method/phone.exportGroupCallInvite)
 
 ---
 
-###### :link: [phone.toggleGroupCallStartSubscription](method/phone.toggleGroupCallStartSubscription)
+###### phone.toggleGroupCallStartSubscription
 
-  - *Subscribe or unsubscribe to a scheduled group call*
+:link: [*Subscribe or unsubscribe to a scheduled group call*](method/phone.toggleGroupCallStartSubscription)
 
 ---
 
-###### :link: [phone.startScheduledGroupCall](method/phone.startScheduledGroupCall)
+###### phone.startScheduledGroupCall
 
-  - *Start a scheduled group call*
+:link: [*Start a scheduled group call*](method/phone.startScheduledGroupCall)
 
 ---
 
-###### :link: [phone.saveDefaultGroupCallJoinAs](method/phone.saveDefaultGroupCallJoinAs)
+###### phone.saveDefaultGroupCallJoinAs
 
-  - *Set the default peer that will be used to join a group call in a specific dialog*
+:link: [*Set the default peer that will be used to join a group call in a specific dialog*](method/phone.saveDefaultGroupCallJoinAs)
 
 ---
 
-###### :link: [phone.joinGroupCallPresentation](method/phone.joinGroupCallPresentation)
+###### phone.joinGroupCallPresentation
 
-  - *Start screen sharing in a call*
+:link: [*Start screen sharing in a call*](method/phone.joinGroupCallPresentation)
 
 ---
 
-###### :link: [phone.leaveGroupCallPresentation](method/phone.leaveGroupCallPresentation)
+###### phone.leaveGroupCallPresentation
 
-  - *Stop screen sharing in a group call*
+:link: [*Stop screen sharing in a group call*](method/phone.leaveGroupCallPresentation)
 
 ---
 
-###### :link: [phone.getGroupCallStreamChannels](method/phone.getGroupCallStreamChannels)
+###### phone.getGroupCallStreamChannels
 
-  - *Get info about RTMP streams in a group call or livestream.
+:link: [*Get info about RTMP streams in a group call or livestream.
 This method should be invoked to the same group/channel-related DC used for downloading livestream chunks.
-As usual, the media DC is preferred, if available*
+As usual, the media DC is preferred, if available*](method/phone.getGroupCallStreamChannels)
 
 ---
 
-###### :link: [phone.getGroupCallStreamRtmpUrl](method/phone.getGroupCallStreamRtmpUrl)
+###### phone.getGroupCallStreamRtmpUrl
 
-  - *Get RTMP URL and stream key for RTMP livestreams. Can be used even before creating the actual RTMP livestream with phone.createGroupCall (the rtmp_stream flag must be set)*
+:link: [*Get RTMP URL and stream key for RTMP livestreams. Can be used even before creating the actual RTMP livestream with phone.createGroupCall (the rtmp_stream flag must be set)*](method/phone.getGroupCallStreamRtmpUrl)
 
 ---
 
-###### :link: [phone.saveCallLog](method/phone.saveCallLog)
+###### phone.saveCallLog
 
-  - *Save phone call debug information*
+:link: [*Save phone call debug information*](method/phone.saveCallLog)
 
 ---
 
-###### :link: [phone.createConferenceCall](method/phone.createConferenceCall)
+###### phone.createConferenceCall
 
+:link: [*NOTHING*](method/phone.createConferenceCall)
+
 ---
 
-###### :link: [phone.deleteConferenceCallParticipants](method/phone.deleteConferenceCallParticipants)
+###### phone.deleteConferenceCallParticipants
 
+:link: [*NOTHING*](method/phone.deleteConferenceCallParticipants)
+
 ---
+
+###### phone.sendConferenceCallBroadcast
 
-###### :link: [phone.sendConferenceCallBroadcast](method/phone.sendConferenceCallBroadcast)
+:link: [*NOTHING*](method/phone.sendConferenceCallBroadcast)
 
 ---
 
-###### :link: [phone.inviteConferenceCallParticipant](method/phone.inviteConferenceCallParticipant)
+###### phone.inviteConferenceCallParticipant
 
+:link: [*NOTHING*](method/phone.inviteConferenceCallParticipant)
+
 ---
 
-###### :link: [phone.declineConferenceCallInvite](method/phone.declineConferenceCallInvite)
+###### phone.declineConferenceCallInvite
 
+:link: [*NOTHING*](method/phone.declineConferenceCallInvite)
+
 ---
+
+###### phone.getGroupCallChainBlocks
 
-###### :link: [phone.getGroupCallChainBlocks](method/phone.getGroupCallChainBlocks)
+:link: [*NOTHING*](method/phone.getGroupCallChainBlocks)
 
 ---
 
-###### :link: [langpack.getLangPack](method/langpack.getLangPack)
+###### langpack.getLangPack
 
-  - *Get localization pack strings*
+:link: [*Get localization pack strings*](method/langpack.getLangPack)
 
 ---
 
-###### :link: [langpack.getStrings](method/langpack.getStrings)
+###### langpack.getStrings
 
-  - *Get strings from a language pack*
+:link: [*Get strings from a language pack*](method/langpack.getStrings)
 
 ---
 
-###### :link: [langpack.getDifference](method/langpack.getDifference)
+###### langpack.getDifference
 
-  - *Get new strings in language pack*
+:link: [*Get new strings in language pack*](method/langpack.getDifference)
 
 ---
 
-###### :link: [langpack.getLanguages](method/langpack.getLanguages)
+###### langpack.getLanguages
 
-  - *Get information about all languages in a localization pack*
+:link: [*Get information about all languages in a localization pack*](method/langpack.getLanguages)
 
 ---
 
-###### :link: [langpack.getLanguage](method/langpack.getLanguage)
+###### langpack.getLanguage
 
-  - *Get information about a language in a localization pack*
+:link: [*Get information about a language in a localization pack*](method/langpack.getLanguage)
 
 ---
 
-###### :link: [folders.editPeerFolders](method/folders.editPeerFolders)
+###### folders.editPeerFolders
 
-  - *Edit peers in peer folder*
+:link: [*Edit peers in peer folder*](method/folders.editPeerFolders)
 
 ---
 
-###### :link: [stats.getBroadcastStats](method/stats.getBroadcastStats)
+###### stats.getBroadcastStats
 
-  - *Get channel statistics*
+:link: [*Get channel statistics*](method/stats.getBroadcastStats)
 
 ---
 
-###### :link: [stats.loadAsyncGraph](method/stats.loadAsyncGraph)
+###### stats.loadAsyncGraph
 
-  - *Load channel statistics graph asynchronously*
+:link: [*Load channel statistics graph asynchronously*](method/stats.loadAsyncGraph)
 
 ---
 
-###### :link: [stats.getMegagroupStats](method/stats.getMegagroupStats)
+###### stats.getMegagroupStats
 
-  - *Get supergroup statistics*
+:link: [*Get supergroup statistics*](method/stats.getMegagroupStats)
 
 ---
 
-###### :link: [stats.getMessagePublicForwards](method/stats.getMessagePublicForwards)
+###### stats.getMessagePublicForwards
 
-  - *Obtains a list of messages, indicating to which other public channels was a channel message forwarded.
-Will return a list of messages with peer_id equal to the public channel to which this message was forwarded*
+:link: [*Obtains a list of messages, indicating to which other public channels was a channel message forwarded.
+Will return a list of messages with peer_id equal to the public channel to which this message was forwarded*](method/stats.getMessagePublicForwards)
 
 ---
 
-###### :link: [stats.getMessageStats](method/stats.getMessageStats)
+###### stats.getMessageStats
 
-  - *Get message statistics*
+:link: [*Get message statistics*](method/stats.getMessageStats)
 
 ---
 
-###### :link: [stats.getStoryStats](method/stats.getStoryStats)
+###### stats.getStoryStats
 
-  - *Get statistics for a certain story*
+:link: [*Get statistics for a certain story*](method/stats.getStoryStats)
 
 ---
 
-###### :link: [stats.getStoryPublicForwards](method/stats.getStoryPublicForwards)
+###### stats.getStoryPublicForwards
 
-  - *Obtain forwards of a story as a message to public chats and reposts by public channels*
+:link: [*Obtain forwards of a story as a message to public chats and reposts by public channels*](method/stats.getStoryPublicForwards)
 
 ---
 
-###### :link: [chatlists.exportChatlistInvite](method/chatlists.exportChatlistInvite)
+###### chatlists.exportChatlistInvite
 
-  - *Export a folder », creating a chat folder deep link »*
+:link: [*Export a folder », creating a chat folder deep link »*](method/chatlists.exportChatlistInvite)
 
 ---
 
-###### :link: [chatlists.deleteExportedInvite](method/chatlists.deleteExportedInvite)
+###### chatlists.deleteExportedInvite
 
-  - *Delete a previously created chat folder deep link »*
+:link: [*Delete a previously created chat folder deep link »*](method/chatlists.deleteExportedInvite)
 
 ---
 
-###### :link: [chatlists.editExportedInvite](method/chatlists.editExportedInvite)
+###### chatlists.editExportedInvite
 
-  - *Edit a chat folder deep link »*
+:link: [*Edit a chat folder deep link »*](method/chatlists.editExportedInvite)
 
 ---
 
-###### :link: [chatlists.getExportedInvites](method/chatlists.getExportedInvites)
+###### chatlists.getExportedInvites
 
-  - *List all chat folder deep links » associated to a folder*
+:link: [*List all chat folder deep links » associated to a folder*](method/chatlists.getExportedInvites)
 
 ---
 
-###### :link: [chatlists.checkChatlistInvite](method/chatlists.checkChatlistInvite)
+###### chatlists.checkChatlistInvite
 
-  - *Obtain information about a chat folder deep link »*
+:link: [*Obtain information about a chat folder deep link »*](method/chatlists.checkChatlistInvite)
 
 ---
 
-###### :link: [chatlists.joinChatlistInvite](method/chatlists.joinChatlistInvite)
+###### chatlists.joinChatlistInvite
 
-  - *Import a chat folder deep link », joining some or all the chats in the folder*
+:link: [*Import a chat folder deep link », joining some or all the chats in the folder*](method/chatlists.joinChatlistInvite)
 
 ---
 
-###### :link: [chatlists.getChatlistUpdates](method/chatlists.getChatlistUpdates)
+###### chatlists.getChatlistUpdates
 
-  - *Fetch new chats associated with an imported chat folder deep link ». Must be invoked at most every chatlist_update_period seconds (as per the related client configuration parameter »)*
+:link: [*Fetch new chats associated with an imported chat folder deep link ». Must be invoked at most every chatlist_update_period seconds (as per the related client configuration parameter »)*](method/chatlists.getChatlistUpdates)
 
 ---
 
-###### :link: [chatlists.joinChatlistUpdates](method/chatlists.joinChatlistUpdates)
+###### chatlists.joinChatlistUpdates
 
-  - *Join channels and supergroups recently added to a chat folder deep link »*
+:link: [*Join channels and supergroups recently added to a chat folder deep link »*](method/chatlists.joinChatlistUpdates)
 
 ---
 
-###### :link: [chatlists.hideChatlistUpdates](method/chatlists.hideChatlistUpdates)
+###### chatlists.hideChatlistUpdates
 
-  - *Dismiss new pending peers recently added to a chat folder deep link »*
+:link: [*Dismiss new pending peers recently added to a chat folder deep link »*](method/chatlists.hideChatlistUpdates)
 
 ---
 
-###### :link: [chatlists.getLeaveChatlistSuggestions](method/chatlists.getLeaveChatlistSuggestions)
+###### chatlists.getLeaveChatlistSuggestions
 
-  - *Returns identifiers of pinned or always included chats from a chat folder imported using a chat folder deep link », which are suggested to be left when the chat folder is deleted*
+:link: [*Returns identifiers of pinned or always included chats from a chat folder imported using a chat folder deep link », which are suggested to be left when the chat folder is deleted*](method/chatlists.getLeaveChatlistSuggestions)
 
 ---
 
-###### :link: [chatlists.leaveChatlist](method/chatlists.leaveChatlist)
+###### chatlists.leaveChatlist
 
-  - *Delete a folder imported using a chat folder deep link »*
+:link: [*Delete a folder imported using a chat folder deep link »*](method/chatlists.leaveChatlist)
 
 ---
 
-###### :link: [stories.canSendStory](method/stories.canSendStory)
+###### stories.canSendStory
 
-  - *Check whether we can post stories as the specified peer*
+:link: [*Check whether we can post stories as the specified peer*](method/stories.canSendStory)
 
 ---
 
-###### :link: [stories.sendStory](method/stories.sendStory)
+###### stories.sendStory
 
-  - *Uploads a Telegram Story*
+:link: [*Uploads a Telegram Story*](method/stories.sendStory)
 
 ---
 
-###### :link: [stories.editStory](method/stories.editStory)
+###### stories.editStory
 
-  - *Edit an uploaded story*
+:link: [*Edit an uploaded story*](method/stories.editStory)
 
 ---
 
-###### :link: [stories.deleteStories](method/stories.deleteStories)
+###### stories.deleteStories
 
-  - *Deletes some posted stories*
+:link: [*Deletes some posted stories*](method/stories.deleteStories)
 
 ---
 
-###### :link: [stories.togglePinned](method/stories.togglePinned)
+###### stories.togglePinned
 
-  - *Pin or unpin one or more stories*
+:link: [*Pin or unpin one or more stories*](method/stories.togglePinned)
 
 ---
 
-###### :link: [stories.getAllStories](method/stories.getAllStories)
+###### stories.getAllStories
 
-  - *Fetch the List of active (or active and hidden) stories, see here » for more info on watching stories*
+:link: [*Fetch the List of active (or active and hidden) stories, see here » for more info on watching stories*](method/stories.getAllStories)
 
 ---
 
-###### :link: [stories.getPinnedStories](method/stories.getPinnedStories)
+###### stories.getPinnedStories
 
-  - *Fetch the stories pinned on a peer's profile*
+:link: [*Fetch the stories pinned on a peer's profile*](method/stories.getPinnedStories)
 
 ---
 
-###### :link: [stories.getStoriesArchive](method/stories.getStoriesArchive)
+###### stories.getStoriesArchive
 
-  - *Fetch the story archive » of a peer we control*
+:link: [*Fetch the story archive » of a peer we control*](method/stories.getStoriesArchive)
 
 ---
 
-###### :link: [stories.getStoriesByID](method/stories.getStoriesByID)
+###### stories.getStoriesByID
 
-  - *Obtain full info about a set of stories by their IDs*
+:link: [*Obtain full info about a set of stories by their IDs*](method/stories.getStoriesByID)
 
 ---
 
-###### :link: [stories.toggleAllStoriesHidden](method/stories.toggleAllStoriesHidden)
+###### stories.toggleAllStoriesHidden
 
-  - *Hide the active stories of a specific peer, preventing them from being displayed on the action bar on the homescreen*
+:link: [*Hide the active stories of a specific peer, preventing them from being displayed on the action bar on the homescreen*](method/stories.toggleAllStoriesHidden)
 
 ---
 
-###### :link: [stories.readStories](method/stories.readStories)
+###### stories.readStories
 
-  - *Mark all stories up to a certain ID as read, for a given peer; will emit an updateReadStories update to all logged-in sessions*
+:link: [*Mark all stories up to a certain ID as read, for a given peer; will emit an updateReadStories update to all logged-in sessions*](method/stories.readStories)
 
 ---
 
-###### :link: [stories.incrementStoryViews](method/stories.incrementStoryViews)
+###### stories.incrementStoryViews
 
-  - *Increment the view counter of one or more stories*
+:link: [*Increment the view counter of one or more stories*](method/stories.incrementStoryViews)
 
 ---
 
-###### :link: [stories.getStoryViewsList](method/stories.getStoryViewsList)
+###### stories.getStoryViewsList
 
-  - *Obtain the list of users that have viewed a specific story we posted*
+:link: [*Obtain the list of users that have viewed a specific story we posted*](method/stories.getStoryViewsList)
 
 ---
 
-###### :link: [stories.getStoriesViews](method/stories.getStoriesViews)
+###### stories.getStoriesViews
 
-  - *Obtain info about the view count, forward count, reactions and recent viewers of one or more stories*
+:link: [*Obtain info about the view count, forward count, reactions and recent viewers of one or more stories*](method/stories.getStoriesViews)
 
 ---
 
-###### :link: [stories.exportStoryLink](method/stories.exportStoryLink)
+###### stories.exportStoryLink
 
-  - *Generate a story deep link for a specific story*
+:link: [*Generate a story deep link for a specific story*](method/stories.exportStoryLink)
 
 ---
 
-###### :link: [stories.report](method/stories.report)
+###### stories.report
 
-  - *Report a story*
+:link: [*Report a story*](method/stories.report)
 
 ---
 
-###### :link: [stories.activateStealthMode](method/stories.activateStealthMode)
+###### stories.activateStealthMode
 
-  - *Activates stories stealth mode, see here » for more info*
+:link: [*Activates stories stealth mode, see here » for more info*](method/stories.activateStealthMode)
 
 ---
 
-###### :link: [stories.sendReaction](method/stories.sendReaction)
+###### stories.sendReaction
 
-  - *React to a story*
+:link: [*React to a story*](method/stories.sendReaction)
 
 ---
 
-###### :link: [stories.getPeerStories](method/stories.getPeerStories)
+###### stories.getPeerStories
 
-  - *Fetch the full active story list of a specific peer*
+:link: [*Fetch the full active story list of a specific peer*](method/stories.getPeerStories)
 
 ---
 
-###### :link: [stories.getAllReadPeerStories](method/stories.getAllReadPeerStories)
+###### stories.getAllReadPeerStories
 
-  - *Obtain the latest read story ID for all peers when first logging in, returned as a list of updateReadStories updates, see here » for more info*
+:link: [*Obtain the latest read story ID for all peers when first logging in, returned as a list of updateReadStories updates, see here » for more info*](method/stories.getAllReadPeerStories)
 
 ---
 
-###### :link: [stories.getPeerMaxIDs](method/stories.getPeerMaxIDs)
+###### stories.getPeerMaxIDs
 
-  - *Get the IDs of the maximum read stories for a set of peers*
+:link: [*Get the IDs of the maximum read stories for a set of peers*](method/stories.getPeerMaxIDs)
 
 ---
 
-###### :link: [stories.getChatsToSend](method/stories.getChatsToSend)
+###### stories.getChatsToSend
 
-  - *Obtain a list of channels where the user can post stories*
+:link: [*Obtain a list of channels where the user can post stories*](method/stories.getChatsToSend)
 
 ---
 
-###### :link: [stories.togglePeerStoriesHidden](method/stories.togglePeerStoriesHidden)
+###### stories.togglePeerStoriesHidden
 
-  - *Hide the active stories of a user, preventing them from being displayed on the action bar on the homescreen, see here » for more info*
+:link: [*Hide the active stories of a user, preventing them from being displayed on the action bar on the homescreen, see here » for more info*](method/stories.togglePeerStoriesHidden)
 
 ---
 
-###### :link: [stories.getStoryReactionsList](method/stories.getStoryReactionsList)
+###### stories.getStoryReactionsList
 
-  - *Get the reaction and interaction list of a story posted to a channel, along with the sender of each reaction*
+:link: [*Get the reaction and interaction list of a story posted to a channel, along with the sender of each reaction*](method/stories.getStoryReactionsList)
 
 ---
 
-###### :link: [stories.togglePinnedToTop](method/stories.togglePinnedToTop)
+###### stories.togglePinnedToTop
 
-  - *Pin some stories to the top of the profile, see here » for more info*
+:link: [*Pin some stories to the top of the profile, see here » for more info*](method/stories.togglePinnedToTop)
 
 ---
 
-###### :link: [stories.searchPosts](method/stories.searchPosts)
+###### stories.searchPosts
 
-  - *Globally search for stories using a hashtag or a location media area, see here » for more info on the full flow*
+:link: [*Globally search for stories using a hashtag or a location media area, see here » for more info on the full flow*](method/stories.searchPosts)
 
 ---
 
-###### :link: [stories.createAlbum](method/stories.createAlbum)
+###### stories.createAlbum
 
+:link: [*NOTHING*](method/stories.createAlbum)
+
 ---
 
-###### :link: [stories.updateAlbum](method/stories.updateAlbum)
+###### stories.updateAlbum
 
+:link: [*NOTHING*](method/stories.updateAlbum)
+
 ---
+
+###### stories.reorderAlbums
 
-###### :link: [stories.reorderAlbums](method/stories.reorderAlbums)
+:link: [*NOTHING*](method/stories.reorderAlbums)
 
 ---
 
-###### :link: [stories.deleteAlbum](method/stories.deleteAlbum)
+###### stories.deleteAlbum
 
+:link: [*NOTHING*](method/stories.deleteAlbum)
+
 ---
 
-###### :link: [stories.getAlbums](method/stories.getAlbums)
+###### stories.getAlbums
 
+:link: [*NOTHING*](method/stories.getAlbums)
+
 ---
+
+###### stories.getAlbumStories
 
-###### :link: [stories.getAlbumStories](method/stories.getAlbumStories)
+:link: [*NOTHING*](method/stories.getAlbumStories)
 
 ---
 
-###### :link: [premium.getBoostsList](method/premium.getBoostsList)
+###### premium.getBoostsList
 
-  - *Obtains info about the boosts that were applied to a certain channel or supergroup (admins only)*
+:link: [*Obtains info about the boosts that were applied to a certain channel or supergroup (admins only)*](method/premium.getBoostsList)
 
 ---
 
-###### :link: [premium.getMyBoosts](method/premium.getMyBoosts)
+###### premium.getMyBoosts
 
-  - *Obtain which peers are we currently boosting, and how many boost slots we have left*
+:link: [*Obtain which peers are we currently boosting, and how many boost slots we have left*](method/premium.getMyBoosts)
 
 ---
 
-###### :link: [premium.applyBoost](method/premium.applyBoost)
+###### premium.applyBoost
 
-  - *Apply one or more boosts » to a peer*
+:link: [*Apply one or more boosts » to a peer*](method/premium.applyBoost)
 
 ---
 
-###### :link: [premium.getBoostsStatus](method/premium.getBoostsStatus)
+###### premium.getBoostsStatus
 
-  - *Gets the current number of boosts of a channel/supergroup*
+:link: [*Gets the current number of boosts of a channel/supergroup*](method/premium.getBoostsStatus)
 
 ---
 
-###### :link: [premium.getUserBoosts](method/premium.getUserBoosts)
+###### premium.getUserBoosts
 
-  - *Returns the lists of boost that were applied to a channel/supergroup by a specific user (admins only)*
+:link: [*Returns the lists of boost that were applied to a channel/supergroup by a specific user (admins only)*](method/premium.getUserBoosts)
 
 ---
 
-###### :link: [smsjobs.isEligibleToJoin](method/smsjobs.isEligibleToJoin)
+###### smsjobs.isEligibleToJoin
 
-  - *Check if we can process SMS jobs (official clients only)*
+:link: [*Check if we can process SMS jobs (official clients only)*](method/smsjobs.isEligibleToJoin)
 
 ---
 
-###### :link: [smsjobs.join](method/smsjobs.join)
+###### smsjobs.join
 
-  - *Enable SMS jobs (official clients only)*
+:link: [*Enable SMS jobs (official clients only)*](method/smsjobs.join)
 
 ---
 
-###### :link: [smsjobs.leave](method/smsjobs.leave)
+###### smsjobs.leave
 
-  - *Disable SMS jobs (official clients only)*
+:link: [*Disable SMS jobs (official clients only)*](method/smsjobs.leave)
 
 ---
 
-###### :link: [smsjobs.updateSettings](method/smsjobs.updateSettings)
+###### smsjobs.updateSettings
 
-  - *Update SMS job settings (official clients only)*
+:link: [*Update SMS job settings (official clients only)*](method/smsjobs.updateSettings)
 
 ---
 
-###### :link: [smsjobs.getStatus](method/smsjobs.getStatus)
+###### smsjobs.getStatus
 
-  - *Get SMS jobs status (official clients only)*
+:link: [*Get SMS jobs status (official clients only)*](method/smsjobs.getStatus)
 
 ---
 
-###### :link: [smsjobs.getSmsJob](method/smsjobs.getSmsJob)
+###### smsjobs.getSmsJob
 
-  - *Get info about an SMS job (official clients only)*
+:link: [*Get info about an SMS job (official clients only)*](method/smsjobs.getSmsJob)
 
 ---
 
-###### :link: [smsjobs.finishJob](method/smsjobs.finishJob)
+###### smsjobs.finishJob
 
-  - *Finish an SMS job (official clients only)*
+:link: [*Finish an SMS job (official clients only)*](method/smsjobs.finishJob)
 
 ---
 
-###### :link: [fragment.getCollectibleInfo](method/fragment.getCollectibleInfo)
+###### fragment.getCollectibleInfo
 
-  - *Fetch information about a fragment collectible, see here » for more info on the full flow*
+:link: [*Fetch information about a fragment collectible, see here » for more info on the full flow*](method/fragment.getCollectibleInfo)
