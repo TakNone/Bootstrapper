@@ -294,10 +294,13 @@ abstract class DocBuilder {
 						'bytes' => mb_convert_encoding(random_bytes(5).'LiveProto'.random_bytes(5),'UTF-8'),
 						'true' => true,
 						'bool' => boolval(random_int(0,1)),
+						default => null
+					};
+					$constValue = match(strtolower($parsed['type'])){
 						'x' => '$client->help->getConfig(raw : true)',
 						default => null
 					};
-					if(is_null($randomValue)):
+					if(is_null($randomValue) and is_null($constValue)):
 						$parsed['params'] = $types[$parsed['type']] ?? array();
 						if($parsed['is_vector']):
 							$stream->writeNewLine($name.' : array(');
@@ -327,7 +330,8 @@ abstract class DocBuilder {
 							str_starts_with($name,'ip') and $isString => '127.0.0.1',
 							default => $randomValue
 						};
-						$stream->writeNewLine($name.' : '.($parsed['is_vector'] ? 'array('.var_export($formatValue,true).')' : var_export($formatValue,true)));
+						$exported = is_null($randomValue) ? $constValue : var_export($formatValue,true);
+						$stream->writeNewLine($name.' : '.($parsed['is_vector'] ? 'array('.$exported.')' : $exported));
 					endif;
 					$stream->write(chr(44));
 				endif;
