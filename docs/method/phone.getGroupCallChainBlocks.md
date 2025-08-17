@@ -1,0 +1,40 @@
+# phone.getGroupCallChainBlocks
+
+**Layer** : 211
+
+```tl
+phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offset:int limit:int = Updates;
+```
+
+---
+
+## Parameters
+
+| Name | Type | Description |
+| :---: | :---: | :--- |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
+| <mark>sub_chain_id</mark> | [`int`](type/int) | NOTHING |
+| <mark>offset</mark> | [`int`](type/int) | NOTHING |
+| <mark>limit</mark> | [`int`](type/int) | NOTHING |
+
+---
+
+## Result
+
+[Updates](type/Updates)
+
+---
+
+## Example
+
+```php
+$updates = $client->phone->getGroupCallChainBlocks(
+	call : $client->inputGroupCall(
+		id : 335357848632765150,
+		access_hash : 6745230288794677853,
+	),
+	sub_chain_id : 24,
+	offset : 23,
+	limit : 78,
+);
+```
