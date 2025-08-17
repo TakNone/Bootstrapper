@@ -3,3228 +3,3294 @@
 
 ---
 
-###### :link: [Bool](type/Bool)
+###### Bool
 
-  - *Boolean type*
+:link: [*Boolean type*](type/Bool)
 
 ---
 
-###### :link: [True](type/True)
+###### True
 
-  - *See predefined identifiers*
+:link: [*See predefined identifiers*](type/True)
 
 ---
 
-###### :link: [Error](type/Error)
+###### Error
 
-  - *An object containing a query error*
+:link: [*An object containing a query error*](type/Error)
 
 ---
 
-###### :link: [Null](type/Null)
+###### Null
 
-  - *Object corresponds to an arbitrary empty object*
+:link: [*Object corresponds to an arbitrary empty object*](type/Null)
 
 ---
 
-###### :link: [InputPeer](type/InputPeer)
+###### InputPeer
 
-  - *Peer*
+:link: [*Peer*](type/InputPeer)
 
 ---
 
-###### :link: [InputUser](type/InputUser)
+###### InputUser
 
-  - *Defines a user for subsequent interaction*
+:link: [*Defines a user for subsequent interaction*](type/InputUser)
 
 ---
 
-###### :link: [InputContact](type/InputContact)
+###### InputContact
 
-  - *Object defines a contact from the user's phone book*
+:link: [*Object defines a contact from the user's phone book*](type/InputContact)
 
 ---
 
-###### :link: [InputFile](type/InputFile)
+###### InputFile
 
-  - *Defines a file uploaded by the client*
+:link: [*Defines a file uploaded by the client*](type/InputFile)
 
 ---
 
-###### :link: [InputMedia](type/InputMedia)
+###### InputMedia
 
-  - *Defines media content of a message*
+:link: [*Defines media content of a message*](type/InputMedia)
 
 ---
 
-###### :link: [InputChatPhoto](type/InputChatPhoto)
+###### InputChatPhoto
 
-  - *Defines a new group profile photo*
+:link: [*Defines a new group profile photo*](type/InputChatPhoto)
 
 ---
 
-###### :link: [InputGeoPoint](type/InputGeoPoint)
+###### InputGeoPoint
 
-  - *Defines a GeoPoint*
+:link: [*Defines a GeoPoint*](type/InputGeoPoint)
 
 ---
 
-###### :link: [InputPhoto](type/InputPhoto)
+###### InputPhoto
 
-  - *Defines a photo for further interaction*
+:link: [*Defines a photo for further interaction*](type/InputPhoto)
 
 ---
 
-###### :link: [InputFileLocation](type/InputFileLocation)
+###### InputFileLocation
 
-  - *Defines the location of a file for download*
+:link: [*Defines the location of a file for download*](type/InputFileLocation)
 
 ---
 
-###### :link: [Peer](type/Peer)
+###### Peer
 
-  - *Identifier of a private chat, basic group, group or channel (see here » for more info)*
+:link: [*Identifier of a private chat, basic group, group or channel (see here » for more info)*](type/Peer)
 
 ---
 
-###### :link: [storage.FileType](type/storage.FileType)
+###### storage.FileType
 
-  - *Object describes the file type*
+:link: [*Object describes the file type*](type/storage.FileType)
 
 ---
 
-###### :link: [User](type/User)
+###### User
 
-  - *Object defines a user*
+:link: [*Object defines a user*](type/User)
 
 ---
 
-###### :link: [UserProfilePhoto](type/UserProfilePhoto)
+###### UserProfilePhoto
 
-  - *Object contains info on the user's profile photo*
+:link: [*Object contains info on the user's profile photo*](type/UserProfilePhoto)
 
 ---
 
-###### :link: [UserStatus](type/UserStatus)
+###### UserStatus
 
-  - *User online status*
+:link: [*User online status*](type/UserStatus)
 
 ---
 
-###### :link: [Chat](type/Chat)
+###### Chat
 
-  - *Object defines a group*
+:link: [*Object defines a group*](type/Chat)
 
 ---
 
-###### :link: [ChatFull](type/ChatFull)
+###### ChatFull
 
-  - *Full info about a channel, supergroup, gigagroup or basic group*
+:link: [*Full info about a channel, supergroup, gigagroup or basic group*](type/ChatFull)
 
 ---
 
-###### :link: [ChatParticipant](type/ChatParticipant)
+###### ChatParticipant
 
-  - *Details of a group member*
+:link: [*Details of a group member*](type/ChatParticipant)
 
 ---
 
-###### :link: [ChatParticipants](type/ChatParticipants)
+###### ChatParticipants
 
-  - *Object contains info on group members*
+:link: [*Object contains info on group members*](type/ChatParticipants)
 
 ---
 
-###### :link: [ChatPhoto](type/ChatPhoto)
+###### ChatPhoto
 
-  - *Object defines a group profile photo*
+:link: [*Object defines a group profile photo*](type/ChatPhoto)
 
 ---
 
-###### :link: [Message](type/Message)
+###### Message
 
-  - *Object describing a message*
+:link: [*Object describing a message*](type/Message)
 
 ---
 
-###### :link: [MessageMedia](type/MessageMedia)
+###### MessageMedia
 
-  - *Media*
+:link: [*Media*](type/MessageMedia)
 
 ---
 
-###### :link: [MessageAction](type/MessageAction)
+###### MessageAction
 
-  - *Object describing actions connected to a service message*
+:link: [*Object describing actions connected to a service message*](type/MessageAction)
 
 ---
 
-###### :link: [Dialog](type/Dialog)
+###### Dialog
 
-  - *Chat info*
+:link: [*Chat info*](type/Dialog)
 
 ---
 
-###### :link: [Photo](type/Photo)
+###### Photo
 
-  - *Object describes a photo*
+:link: [*Object describes a photo*](type/Photo)
 
 ---
 
-###### :link: [PhotoSize](type/PhotoSize)
+###### PhotoSize
 
-  - *Location of a certain size of a picture*
+:link: [*Location of a certain size of a picture*](type/PhotoSize)
 
 ---
 
-###### :link: [GeoPoint](type/GeoPoint)
+###### GeoPoint
 
-  - *Object defines a GeoPoint*
+:link: [*Object defines a GeoPoint*](type/GeoPoint)
 
 ---
 
-###### :link: [auth.SentCode](type/auth.SentCode)
+###### auth.SentCode
 
-  - *Contains info on a confirmation code message sent via SMS, phone call or Telegram*
+:link: [*Contains info on a confirmation code message sent via SMS, phone call or Telegram*](type/auth.SentCode)
 
 ---
 
-###### :link: [auth.Authorization](type/auth.Authorization)
+###### auth.Authorization
 
-  - *Object contains info on user authorization*
+:link: [*Object contains info on user authorization*](type/auth.Authorization)
 
 ---
 
-###### :link: [auth.ExportedAuthorization](type/auth.ExportedAuthorization)
+###### auth.ExportedAuthorization
 
-  - *Exported authorization*
+:link: [*Exported authorization*](type/auth.ExportedAuthorization)
 
 ---
 
-###### :link: [InputNotifyPeer](type/InputNotifyPeer)
+###### InputNotifyPeer
 
-  - *Object defines the set of users and/or groups that generate notifications*
+:link: [*Object defines the set of users and/or groups that generate notifications*](type/InputNotifyPeer)
 
 ---
 
-###### :link: [InputPeerNotifySettings](type/InputPeerNotifySettings)
+###### InputPeerNotifySettings
 
-  - *Notifications settings*
+:link: [*Notifications settings*](type/InputPeerNotifySettings)
 
 ---
 
-###### :link: [PeerNotifySettings](type/PeerNotifySettings)
+###### PeerNotifySettings
 
-  - *Notification settings*
+:link: [*Notification settings*](type/PeerNotifySettings)
 
 ---
 
-###### :link: [PeerSettings](type/PeerSettings)
+###### PeerSettings
 
-  - *List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat bar*
+:link: [*List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat bar*](type/PeerSettings)
 
 ---
 
-###### :link: [WallPaper](type/WallPaper)
+###### WallPaper
 
-  - *Object contains info on a wallpaper*
+:link: [*Object contains info on a wallpaper*](type/WallPaper)
 
 ---
 
-###### :link: [ReportReason](type/ReportReason)
+###### ReportReason
 
-  - *Report reason*
+:link: [*Report reason*](type/ReportReason)
 
 ---
 
-###### :link: [UserFull](type/UserFull)
+###### UserFull
 
-  - *Object contains extended user info*
+:link: [*Object contains extended user info*](type/UserFull)
 
 ---
 
-###### :link: [Contact](type/Contact)
+###### Contact
 
-  - *A contact of the current user*
+:link: [*A contact of the current user*](type/Contact)
 
 ---
 
-###### :link: [ImportedContact](type/ImportedContact)
+###### ImportedContact
 
-  - *Object contains info on a successfully imported contact*
+:link: [*Object contains info on a successfully imported contact*](type/ImportedContact)
 
 ---
 
-###### :link: [ContactStatus](type/ContactStatus)
+###### ContactStatus
 
-  - *Contact status: online / offline*
+:link: [*Contact status: online / offline*](type/ContactStatus)
 
 ---
 
-###### :link: [contacts.Contacts](type/contacts.Contacts)
+###### contacts.Contacts
 
-  - *Info on the current user's contact list*
+:link: [*Info on the current user's contact list*](type/contacts.Contacts)
 
 ---
 
-###### :link: [contacts.ImportedContacts](type/contacts.ImportedContacts)
+###### contacts.ImportedContacts
 
-  - *Object contains info on successfully imported contacts*
+:link: [*Object contains info on successfully imported contacts*](type/contacts.ImportedContacts)
 
 ---
 
-###### :link: [contacts.Blocked](type/contacts.Blocked)
+###### contacts.Blocked
 
-  - *Info on users from the current user's black list*
+:link: [*Info on users from the current user's black list*](type/contacts.Blocked)
 
 ---
 
-###### :link: [messages.Dialogs](type/messages.Dialogs)
+###### messages.Dialogs
 
-  - *Object contains a list of chats with messages and auxiliary data*
+:link: [*Object contains a list of chats with messages and auxiliary data*](type/messages.Dialogs)
 
 ---
 
-###### :link: [messages.Messages](type/messages.Messages)
+###### messages.Messages
 
-  - *Object contains information on list of messages with auxiliary data*
+:link: [*Object contains information on list of messages with auxiliary data*](type/messages.Messages)
 
 ---
 
-###### :link: [messages.Chats](type/messages.Chats)
+###### messages.Chats
 
-  - *Object contains list of chats with auxiliary data*
+:link: [*Object contains list of chats with auxiliary data*](type/messages.Chats)
 
 ---
 
-###### :link: [messages.ChatFull](type/messages.ChatFull)
+###### messages.ChatFull
 
-  - *Full info about a channel, supergroup, gigagroup or basic group*
+:link: [*Full info about a channel, supergroup, gigagroup or basic group*](type/messages.ChatFull)
 
 ---
 
-###### :link: [messages.AffectedHistory](type/messages.AffectedHistory)
+###### messages.AffectedHistory
 
-  - *Object contains info on affected part of communication history with the user or in a chat*
+:link: [*Object contains info on affected part of communication history with the user or in a chat*](type/messages.AffectedHistory)
 
 ---
 
-###### :link: [MessagesFilter](type/MessagesFilter)
+###### MessagesFilter
 
-  - *Object describes message filter*
+:link: [*Object describes message filter*](type/MessagesFilter)
 
 ---
 
-###### :link: [Update](type/Update)
+###### Update
 
-  - *Object contains info on events occurred*
+:link: [*Object contains info on events occurred*](type/Update)
 
 ---
 
-###### :link: [updates.State](type/updates.State)
+###### updates.State
 
-  - *Object contains info on state for further updates*
+:link: [*Object contains info on state for further updates*](type/updates.State)
 
 ---
 
-###### :link: [updates.Difference](type/updates.Difference)
+###### updates.Difference
 
-  - *Occurred changes*
+:link: [*Occurred changes*](type/updates.Difference)
 
 ---
 
-###### :link: [Updates](type/Updates)
+###### Updates
 
-  - *Object which is perceived by the client without a call on its part when an event occurs*
+:link: [*Object which is perceived by the client without a call on its part when an event occurs*](type/Updates)
 
 ---
 
-###### :link: [photos.Photos](type/photos.Photos)
+###### photos.Photos
 
-  - *Object contains list of photos with auxiliary data*
+:link: [*Object contains list of photos with auxiliary data*](type/photos.Photos)
 
 ---
 
-###### :link: [photos.Photo](type/photos.Photo)
+###### photos.Photo
 
-  - *Photo with auxiliary data*
+:link: [*Photo with auxiliary data*](type/photos.Photo)
 
 ---
 
-###### :link: [upload.File](type/upload.File)
+###### upload.File
 
-  - *Contains info on file*
+:link: [*Contains info on file*](type/upload.File)
 
 ---
 
-###### :link: [DcOption](type/DcOption)
+###### DcOption
 
-  - *Information for connection to data center*
+:link: [*Information for connection to data center*](type/DcOption)
 
 ---
 
-###### :link: [Config](type/Config)
+###### Config
 
-  - *Object contains info on API configuring parameters*
+:link: [*Object contains info on API configuring parameters*](type/Config)
 
 ---
 
-###### :link: [NearestDc](type/NearestDc)
+###### NearestDc
 
-  - *Object contains info on nearest data center*
+:link: [*Object contains info on nearest data center*](type/NearestDc)
 
 ---
 
-###### :link: [help.AppUpdate](type/help.AppUpdate)
+###### help.AppUpdate
 
-  - *Contains info on app update availability*
+:link: [*Contains info on app update availability*](type/help.AppUpdate)
 
 ---
 
-###### :link: [help.InviteText](type/help.InviteText)
+###### help.InviteText
 
-  - *Object contains info on the text of a message with an invitation*
+:link: [*Object contains info on the text of a message with an invitation*](type/help.InviteText)
 
 ---
 
-###### :link: [EncryptedChat](type/EncryptedChat)
+###### EncryptedChat
 
-  - *Object contains info on an encrypted chat*
+:link: [*Object contains info on an encrypted chat*](type/EncryptedChat)
 
 ---
 
-###### :link: [InputEncryptedChat](type/InputEncryptedChat)
+###### InputEncryptedChat
 
-  - *Object sets an encrypted chat ID*
+:link: [*Object sets an encrypted chat ID*](type/InputEncryptedChat)
 
 ---
 
-###### :link: [EncryptedFile](type/EncryptedFile)
+###### EncryptedFile
 
-  - *Seta an encrypted file*
+:link: [*Seta an encrypted file*](type/EncryptedFile)
 
 ---
 
-###### :link: [InputEncryptedFile](type/InputEncryptedFile)
+###### InputEncryptedFile
 
-  - *Object sets encrypted file for attachment*
+:link: [*Object sets encrypted file for attachment*](type/InputEncryptedFile)
 
 ---
 
-###### :link: [EncryptedMessage](type/EncryptedMessage)
+###### EncryptedMessage
 
-  - *Object contains encrypted message*
+:link: [*Object contains encrypted message*](type/EncryptedMessage)
 
 ---
 
-###### :link: [messages.DhConfig](type/messages.DhConfig)
+###### messages.DhConfig
 
-  - *Contains Diffie-Hellman key generation protocol parameters*
+:link: [*Contains Diffie-Hellman key generation protocol parameters*](type/messages.DhConfig)
 
 ---
 
-###### :link: [messages.SentEncryptedMessage](type/messages.SentEncryptedMessage)
+###### messages.SentEncryptedMessage
 
-  - *Contains info on message sent to an encrypted chat*
+:link: [*Contains info on message sent to an encrypted chat*](type/messages.SentEncryptedMessage)
 
 ---
 
-###### :link: [InputDocument](type/InputDocument)
+###### InputDocument
 
-  - *Defines a document for subsequent interaction*
+:link: [*Defines a document for subsequent interaction*](type/InputDocument)
 
 ---
 
-###### :link: [Document](type/Document)
+###### Document
 
-  - *A document*
+:link: [*A document*](type/Document)
 
 ---
 
-###### :link: [help.Support](type/help.Support)
+###### help.Support
 
-  - *Info about the support user, relevant to the current user*
+:link: [*Info about the support user, relevant to the current user*](type/help.Support)
 
 ---
 
-###### :link: [NotifyPeer](type/NotifyPeer)
+###### NotifyPeer
 
-  - *Object defines the set of users and/or groups that generate notifications*
+:link: [*Object defines the set of users and/or groups that generate notifications*](type/NotifyPeer)
 
 ---
 
-###### :link: [SendMessageAction](type/SendMessageAction)
+###### SendMessageAction
 
-  - *User actions. Use this to provide users with detailed info about their chat partner's actions: typing or sending attachments of all kinds*
+:link: [*User actions. Use this to provide users with detailed info about their chat partner's actions: typing or sending attachments of all kinds*](type/SendMessageAction)
 
 ---
 
-###### :link: [contacts.Found](type/contacts.Found)
+###### contacts.Found
 
-  - *Object contains info on users found by name substring and auxiliary data*
+:link: [*Object contains info on users found by name substring and auxiliary data*](type/contacts.Found)
 
 ---
 
-###### :link: [InputPrivacyKey](type/InputPrivacyKey)
+###### InputPrivacyKey
 
-  - *Privacy keys together with privacy rules » indicate what can or can't someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*
+:link: [*Privacy keys together with privacy rules » indicate what can or can't someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*](type/InputPrivacyKey)
 
 ---
 
-###### :link: [PrivacyKey](type/PrivacyKey)
+###### PrivacyKey
 
-  - *Privacy keys together with privacy rules » indicate what can or can't someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*
+:link: [*Privacy keys together with privacy rules » indicate what can or can't someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*](type/PrivacyKey)
 
 ---
 
-###### :link: [InputPrivacyRule](type/InputPrivacyRule)
+###### InputPrivacyRule
 
-  - *Privacy rules indicate who can or can't do something and are specified by a PrivacyRule, and its input counterpart InputPrivacyRule*
+:link: [*Privacy rules indicate who can or can't do something and are specified by a PrivacyRule, and its input counterpart InputPrivacyRule*](type/InputPrivacyRule)
 
 ---
 
-###### :link: [PrivacyRule](type/PrivacyRule)
+###### PrivacyRule
 
-  - *Privacy rules together with privacy keys indicate what can or can't someone do and are specified by a PrivacyRule constructor, and its input counterpart InputPrivacyRule*
+:link: [*Privacy rules together with privacy keys indicate what can or can't someone do and are specified by a PrivacyRule constructor, and its input counterpart InputPrivacyRule*](type/PrivacyRule)
 
 ---
 
-###### :link: [account.PrivacyRules](type/account.PrivacyRules)
+###### account.PrivacyRules
 
-  - *Privacy rules*
+:link: [*Privacy rules*](type/account.PrivacyRules)
 
 ---
 
-###### :link: [AccountDaysTTL](type/AccountDaysTTL)
+###### AccountDaysTTL
 
-  - *Time-to-live of current account*
+:link: [*Time-to-live of current account*](type/AccountDaysTTL)
 
 ---
 
-###### :link: [DocumentAttribute](type/DocumentAttribute)
+###### DocumentAttribute
 
-  - *Various possible attributes of a document (used to define if it's a sticker, a GIF, a video, a mask sticker, an image, an audio, and so on)*
+:link: [*Various possible attributes of a document (used to define if it's a sticker, a GIF, a video, a mask sticker, an image, an audio, and so on)*](type/DocumentAttribute)
 
 ---
 
-###### :link: [messages.Stickers](type/messages.Stickers)
+###### messages.Stickers
 
-  - *Stickers*
+:link: [*Stickers*](type/messages.Stickers)
 
 ---
 
-###### :link: [StickerPack](type/StickerPack)
+###### StickerPack
 
-  - *Stickerpack*
+:link: [*Stickerpack*](type/StickerPack)
 
 ---
 
-###### :link: [messages.AllStickers](type/messages.AllStickers)
+###### messages.AllStickers
 
-  - *All stickers*
+:link: [*All stickers*](type/messages.AllStickers)
 
 ---
 
-###### :link: [messages.AffectedMessages](type/messages.AffectedMessages)
+###### messages.AffectedMessages
 
-  - *Messages affected by changes*
+:link: [*Messages affected by changes*](type/messages.AffectedMessages)
 
 ---
 
-###### :link: [WebPage](type/WebPage)
+###### WebPage
 
-  - *Instant View webpage preview*
+:link: [*Instant View webpage preview*](type/WebPage)
 
 ---
 
-###### :link: [Authorization](type/Authorization)
+###### Authorization
 
-  - *Represents a logged-in session*
+:link: [*Represents a logged-in session*](type/Authorization)
 
 ---
 
-###### :link: [account.Authorizations](type/account.Authorizations)
+###### account.Authorizations
 
-  - *Logged-in sessions*
+:link: [*Logged-in sessions*](type/account.Authorizations)
 
 ---
 
-###### :link: [account.Password](type/account.Password)
+###### account.Password
 
-  - *Configuration for two-factor authorization*
+:link: [*Configuration for two-factor authorization*](type/account.Password)
 
 ---
 
-###### :link: [account.PasswordSettings](type/account.PasswordSettings)
+###### account.PasswordSettings
 
-  - *Private info associated to the password info (recovery email, telegram passport info & so on)*
+:link: [*Private info associated to the password info (recovery email, telegram passport info & so on)*](type/account.PasswordSettings)
 
 ---
 
-###### :link: [account.PasswordInputSettings](type/account.PasswordInputSettings)
+###### account.PasswordInputSettings
 
-  - *Constructor for setting up a new 2FA SRP password*
+:link: [*Constructor for setting up a new 2FA SRP password*](type/account.PasswordInputSettings)
 
 ---
 
-###### :link: [auth.PasswordRecovery](type/auth.PasswordRecovery)
+###### auth.PasswordRecovery
 
-  - *Recovery info of a 2FA password, only for accounts with a recovery email configured*
+:link: [*Recovery info of a 2FA password, only for accounts with a recovery email configured*](type/auth.PasswordRecovery)
 
 ---
 
-###### :link: [ReceivedNotifyMessage](type/ReceivedNotifyMessage)
+###### ReceivedNotifyMessage
 
-  - *Confirmation of message receipt*
+:link: [*Confirmation of message receipt*](type/ReceivedNotifyMessage)
 
 ---
 
-###### :link: [ExportedChatInvite](type/ExportedChatInvite)
+###### ExportedChatInvite
 
-  - *Exported chat invite*
+:link: [*Exported chat invite*](type/ExportedChatInvite)
 
 ---
 
-###### :link: [ChatInvite](type/ChatInvite)
+###### ChatInvite
 
-  - *Chat invite*
+:link: [*Chat invite*](type/ChatInvite)
 
 ---
 
-###### :link: [InputStickerSet](type/InputStickerSet)
+###### InputStickerSet
 
-  - *Represents a stickerset*
+:link: [*Represents a stickerset*](type/InputStickerSet)
 
 ---
 
-###### :link: [StickerSet](type/StickerSet)
+###### StickerSet
 
-  - *Represents a stickerset (stickerpack)*
+:link: [*Represents a stickerset (stickerpack)*](type/StickerSet)
 
 ---
 
-###### :link: [messages.StickerSet](type/messages.StickerSet)
+###### messages.StickerSet
 
-  - *Stickerset*
+:link: [*Stickerset*](type/messages.StickerSet)
 
 ---
 
-###### :link: [BotCommand](type/BotCommand)
+###### BotCommand
 
-  - *Describes a bot command that can be used in a chat*
+:link: [*Describes a bot command that can be used in a chat*](type/BotCommand)
 
 ---
 
-###### :link: [BotInfo](type/BotInfo)
+###### BotInfo
 
-  - *Info about bots (available bot commands, etc)*
+:link: [*Info about bots (available bot commands, etc)*](type/BotInfo)
 
 ---
 
-###### :link: [KeyboardButton](type/KeyboardButton)
+###### KeyboardButton
 
-  - *Bot or inline keyboard buttons*
+:link: [*Bot or inline keyboard buttons*](type/KeyboardButton)
 
 ---
 
-###### :link: [KeyboardButtonRow](type/KeyboardButtonRow)
+###### KeyboardButtonRow
 
-  - *Bot or inline keyboard rows*
+:link: [*Bot or inline keyboard rows*](type/KeyboardButtonRow)
 
 ---
 
-###### :link: [ReplyMarkup](type/ReplyMarkup)
+###### ReplyMarkup
 
-  - *Reply markup for bot and inline keyboards*
+:link: [*Reply markup for bot and inline keyboards*](type/ReplyMarkup)
 
 ---
 
-###### :link: [MessageEntity](type/MessageEntity)
+###### MessageEntity
 
-  - *Message entities, representing styled text in a message*
+:link: [*Message entities, representing styled text in a message*](type/MessageEntity)
 
 ---
 
-###### :link: [InputChannel](type/InputChannel)
+###### InputChannel
 
-  - *Represents a channel*
+:link: [*Represents a channel*](type/InputChannel)
 
 ---
 
-###### :link: [contacts.ResolvedPeer](type/contacts.ResolvedPeer)
+###### contacts.ResolvedPeer
 
-  - *Peer returned after resolving a @username*
+:link: [*Peer returned after resolving a @username*](type/contacts.ResolvedPeer)
 
 ---
 
-###### :link: [MessageRange](type/MessageRange)
+###### MessageRange
 
-  - *Indicates a range of chat messages*
+:link: [*Indicates a range of chat messages*](type/MessageRange)
 
 ---
 
-###### :link: [updates.ChannelDifference](type/updates.ChannelDifference)
+###### updates.ChannelDifference
 
-  - *Contains the difference (new messages) between our local channel state and the remote state*
+:link: [*Contains the difference (new messages) between our local channel state and the remote state*](type/updates.ChannelDifference)
 
 ---
 
-###### :link: [ChannelMessagesFilter](type/ChannelMessagesFilter)
+###### ChannelMessagesFilter
 
-  - *Filter for fetching only certain types of channel messages*
+:link: [*Filter for fetching only certain types of channel messages*](type/ChannelMessagesFilter)
 
 ---
 
-###### :link: [ChannelParticipant](type/ChannelParticipant)
+###### ChannelParticipant
 
-  - *Channel participant*
+:link: [*Channel participant*](type/ChannelParticipant)
 
 ---
 
-###### :link: [ChannelParticipantsFilter](type/ChannelParticipantsFilter)
+###### ChannelParticipantsFilter
 
-  - *Filter for fetching channel participants*
+:link: [*Filter for fetching channel participants*](type/ChannelParticipantsFilter)
 
 ---
 
-###### :link: [channels.ChannelParticipants](type/channels.ChannelParticipants)
+###### channels.ChannelParticipants
 
-  - *Channel/supergroup participants*
+:link: [*Channel/supergroup participants*](type/channels.ChannelParticipants)
 
 ---
 
-###### :link: [channels.ChannelParticipant](type/channels.ChannelParticipant)
+###### channels.ChannelParticipant
 
-  - *Channel participant*
+:link: [*Channel participant*](type/channels.ChannelParticipant)
 
 ---
 
-###### :link: [help.TermsOfService](type/help.TermsOfService)
+###### help.TermsOfService
 
-  - *Contains info about the latest telegram Terms Of Service*
+:link: [*Contains info about the latest telegram Terms Of Service*](type/help.TermsOfService)
 
 ---
 
-###### :link: [messages.SavedGifs](type/messages.SavedGifs)
+###### messages.SavedGifs
 
-  - *Saved GIFs*
+:link: [*Saved GIFs*](type/messages.SavedGifs)
 
 ---
 
-###### :link: [InputBotInlineMessage](type/InputBotInlineMessage)
+###### InputBotInlineMessage
 
-  - *Represents a sent inline message from the perspective of a bot*
+:link: [*Represents a sent inline message from the perspective of a bot*](type/InputBotInlineMessage)
 
 ---
 
-###### :link: [InputBotInlineResult](type/InputBotInlineResult)
+###### InputBotInlineResult
 
-  - *Inline bot result*
+:link: [*Inline bot result*](type/InputBotInlineResult)
 
 ---
 
-###### :link: [BotInlineMessage](type/BotInlineMessage)
+###### BotInlineMessage
 
-  - *Inline message*
+:link: [*Inline message*](type/BotInlineMessage)
 
 ---
 
-###### :link: [BotInlineResult](type/BotInlineResult)
+###### BotInlineResult
 
-  - *Results of an inline query*
+:link: [*Results of an inline query*](type/BotInlineResult)
 
 ---
 
-###### :link: [messages.BotResults](type/messages.BotResults)
+###### messages.BotResults
 
-  - *Result of a query to an inline bot*
+:link: [*Result of a query to an inline bot*](type/messages.BotResults)
 
 ---
 
-###### :link: [ExportedMessageLink](type/ExportedMessageLink)
+###### ExportedMessageLink
 
-  - *HTTP link and embed info of channel message*
+:link: [*HTTP link and embed info of channel message*](type/ExportedMessageLink)
 
 ---
 
-###### :link: [MessageFwdHeader](type/MessageFwdHeader)
+###### MessageFwdHeader
 
-  - *Info about a forwarded message*
+:link: [*Info about a forwarded message*](type/MessageFwdHeader)
 
 ---
 
-###### :link: [auth.CodeType](type/auth.CodeType)
+###### auth.CodeType
 
-  - *Type of verification code that will be sent next if you call the resendCode method*
+:link: [*Type of verification code that will be sent next if you call the resendCode method*](type/auth.CodeType)
 
 ---
 
-###### :link: [auth.SentCodeType](type/auth.SentCodeType)
+###### auth.SentCodeType
 
-  - *Type of the verification code that was sent*
+:link: [*Type of the verification code that was sent*](type/auth.SentCodeType)
 
 ---
 
-###### :link: [messages.BotCallbackAnswer](type/messages.BotCallbackAnswer)
+###### messages.BotCallbackAnswer
 
-  - *Callback answer of bot*
+:link: [*Callback answer of bot*](type/messages.BotCallbackAnswer)
 
 ---
 
-###### :link: [messages.MessageEditData](type/messages.MessageEditData)
+###### messages.MessageEditData
 
-  - *Message edit data for media*
+:link: [*Message edit data for media*](type/messages.MessageEditData)
 
 ---
 
-###### :link: [InputBotInlineMessageID](type/InputBotInlineMessageID)
+###### InputBotInlineMessageID
 
-  - *Represents a sent inline message from the perspective of a bot*
+:link: [*Represents a sent inline message from the perspective of a bot*](type/InputBotInlineMessageID)
 
 ---
 
-###### :link: [InlineBotSwitchPM](type/InlineBotSwitchPM)
+###### InlineBotSwitchPM
 
-  - *The bot requested the user to message them in private*
+:link: [*The bot requested the user to message them in private*](type/InlineBotSwitchPM)
 
 ---
 
-###### :link: [messages.PeerDialogs](type/messages.PeerDialogs)
+###### messages.PeerDialogs
 
-  - *List of dialogs*
+:link: [*List of dialogs*](type/messages.PeerDialogs)
 
 ---
 
-###### :link: [TopPeer](type/TopPeer)
+###### TopPeer
 
-  - *Top peer*
+:link: [*Top peer*](type/TopPeer)
 
 ---
 
-###### :link: [TopPeerCategory](type/TopPeerCategory)
+###### TopPeerCategory
 
-  - *Top peer category*
+:link: [*Top peer category*](type/TopPeerCategory)
 
 ---
 
-###### :link: [TopPeerCategoryPeers](type/TopPeerCategoryPeers)
+###### TopPeerCategoryPeers
 
-  - *Top peers by top peer category*
+:link: [*Top peers by top peer category*](type/TopPeerCategoryPeers)
 
 ---
 
-###### :link: [contacts.TopPeers](type/contacts.TopPeers)
+###### contacts.TopPeers
 
-  - *Top peers*
+:link: [*Top peers*](type/contacts.TopPeers)
 
 ---
 
-###### :link: [DraftMessage](type/DraftMessage)
+###### DraftMessage
 
-  - *Represents a message draft*
+:link: [*Represents a message draft*](type/DraftMessage)
 
 ---
 
-###### :link: [messages.FeaturedStickers](type/messages.FeaturedStickers)
+###### messages.FeaturedStickers
 
-  - *Featured stickers*
+:link: [*Featured stickers*](type/messages.FeaturedStickers)
 
 ---
 
-###### :link: [messages.RecentStickers](type/messages.RecentStickers)
+###### messages.RecentStickers
 
-  - *Recent stickers*
+:link: [*Recent stickers*](type/messages.RecentStickers)
 
 ---
 
-###### :link: [messages.ArchivedStickers](type/messages.ArchivedStickers)
+###### messages.ArchivedStickers
 
-  - *Archived stickers*
+:link: [*Archived stickers*](type/messages.ArchivedStickers)
 
 ---
 
-###### :link: [messages.StickerSetInstallResult](type/messages.StickerSetInstallResult)
+###### messages.StickerSetInstallResult
 
-  - *Result of stickerset installation process*
+:link: [*Result of stickerset installation process*](type/messages.StickerSetInstallResult)
 
 ---
 
-###### :link: [StickerSetCovered](type/StickerSetCovered)
+###### StickerSetCovered
 
-  - *Stickerset preview*
+:link: [*Stickerset preview*](type/StickerSetCovered)
 
 ---
 
-###### :link: [MaskCoords](type/MaskCoords)
+###### MaskCoords
 
-  - *Mask coordinates (if this is a mask sticker, attached to a photo)*
+:link: [*Mask coordinates (if this is a mask sticker, attached to a photo)*](type/MaskCoords)
 
 ---
 
-###### :link: [InputStickeredMedia](type/InputStickeredMedia)
+###### InputStickeredMedia
 
-  - *Represents a media with attached stickers*
+:link: [*Represents a media with attached stickers*](type/InputStickeredMedia)
 
 ---
 
-###### :link: [Game](type/Game)
+###### Game
 
-  - *Indicates an already sent game*
+:link: [*Indicates an already sent game*](type/Game)
 
 ---
 
-###### :link: [InputGame](type/InputGame)
+###### InputGame
 
-  - *A game to send*
+:link: [*A game to send*](type/InputGame)
 
 ---
 
-###### :link: [HighScore](type/HighScore)
+###### HighScore
 
-  - *Game high score*
+:link: [*Game high score*](type/HighScore)
 
 ---
 
-###### :link: [messages.HighScores](type/messages.HighScores)
+###### messages.HighScores
 
-  - *High scores (in games)*
+:link: [*High scores (in games)*](type/messages.HighScores)
 
 ---
 
-###### :link: [RichText](type/RichText)
+###### RichText
 
-  - *Rich text*
+:link: [*Rich text*](type/RichText)
 
 ---
 
-###### :link: [PageBlock](type/PageBlock)
+###### PageBlock
 
-  - *Represents an instant view page element*
+:link: [*Represents an instant view page element*](type/PageBlock)
 
 ---
 
-###### :link: [PhoneCallDiscardReason](type/PhoneCallDiscardReason)
+###### PhoneCallDiscardReason
 
-  - *Why was the phone call discarded?*
+:link: [*Why was the phone call discarded?*](type/PhoneCallDiscardReason)
 
 ---
 
-###### :link: [DataJSON](type/DataJSON)
+###### DataJSON
 
-  - *Represent a JSON-encoded object*
+:link: [*Represent a JSON-encoded object*](type/DataJSON)
 
 ---
 
-###### :link: [LabeledPrice](type/LabeledPrice)
+###### LabeledPrice
 
-  - *Labeled pricetag*
+:link: [*Labeled pricetag*](type/LabeledPrice)
 
 ---
 
-###### :link: [Invoice](type/Invoice)
+###### Invoice
 
-  - *Invoice*
+:link: [*Invoice*](type/Invoice)
 
 ---
 
-###### :link: [PaymentCharge](type/PaymentCharge)
+###### PaymentCharge
 
-  - *Charged payment*
+:link: [*Charged payment*](type/PaymentCharge)
 
 ---
 
-###### :link: [PostAddress](type/PostAddress)
+###### PostAddress
 
-  - *Shipping address*
+:link: [*Shipping address*](type/PostAddress)
 
 ---
 
-###### :link: [PaymentRequestedInfo](type/PaymentRequestedInfo)
+###### PaymentRequestedInfo
 
-  - *Requested payment info*
+:link: [*Requested payment info*](type/PaymentRequestedInfo)
 
 ---
 
-###### :link: [PaymentSavedCredentials](type/PaymentSavedCredentials)
+###### PaymentSavedCredentials
 
-  - *Saved payment credentials*
+:link: [*Saved payment credentials*](type/PaymentSavedCredentials)
 
 ---
 
-###### :link: [WebDocument](type/WebDocument)
+###### WebDocument
 
-  - *Remote document*
+:link: [*Remote document*](type/WebDocument)
 
 ---
 
-###### :link: [InputWebDocument](type/InputWebDocument)
+###### InputWebDocument
 
-  - *Specifies a document that will have to be downloaded from the URL by the telegram servers*
+:link: [*Specifies a document that will have to be downloaded from the URL by the telegram servers*](type/InputWebDocument)
 
 ---
 
-###### :link: [InputWebFileLocation](type/InputWebFileLocation)
+###### InputWebFileLocation
 
-  - *Location of remote file*
+:link: [*Location of remote file*](type/InputWebFileLocation)
 
 ---
 
-###### :link: [upload.WebFile](type/upload.WebFile)
+###### upload.WebFile
 
-  - *Remote file*
+:link: [*Remote file*](type/upload.WebFile)
 
 ---
 
-###### :link: [payments.PaymentForm](type/payments.PaymentForm)
+###### payments.PaymentForm
 
-  - *Payment form*
+:link: [*Payment form*](type/payments.PaymentForm)
 
 ---
 
-###### :link: [payments.ValidatedRequestedInfo](type/payments.ValidatedRequestedInfo)
+###### payments.ValidatedRequestedInfo
 
-  - *Validated requested info*
+:link: [*Validated requested info*](type/payments.ValidatedRequestedInfo)
 
 ---
 
-###### :link: [payments.PaymentResult](type/payments.PaymentResult)
+###### payments.PaymentResult
 
-  - *Payment result*
+:link: [*Payment result*](type/payments.PaymentResult)
 
 ---
 
-###### :link: [payments.PaymentReceipt](type/payments.PaymentReceipt)
+###### payments.PaymentReceipt
 
-  - *Payment receipt*
+:link: [*Payment receipt*](type/payments.PaymentReceipt)
 
 ---
 
-###### :link: [payments.SavedInfo](type/payments.SavedInfo)
+###### payments.SavedInfo
 
-  - *Saved payment info*
+:link: [*Saved payment info*](type/payments.SavedInfo)
 
 ---
 
-###### :link: [InputPaymentCredentials](type/InputPaymentCredentials)
+###### InputPaymentCredentials
 
-  - *Payment credentials*
+:link: [*Payment credentials*](type/InputPaymentCredentials)
 
 ---
 
-###### :link: [account.TmpPassword](type/account.TmpPassword)
+###### account.TmpPassword
 
-  - *Temporary password*
+:link: [*Temporary password*](type/account.TmpPassword)
 
 ---
 
-###### :link: [ShippingOption](type/ShippingOption)
+###### ShippingOption
 
-  - *Shipping options*
+:link: [*Shipping options*](type/ShippingOption)
 
 ---
 
-###### :link: [InputStickerSetItem](type/InputStickerSetItem)
+###### InputStickerSetItem
 
-  - *Sticker*
+:link: [*Sticker*](type/InputStickerSetItem)
 
 ---
 
-###### :link: [InputPhoneCall](type/InputPhoneCall)
+###### InputPhoneCall
 
-  - *Phone call*
+:link: [*Phone call*](type/InputPhoneCall)
 
 ---
 
-###### :link: [PhoneCall](type/PhoneCall)
+###### PhoneCall
 
-  - *Phone call*
+:link: [*Phone call*](type/PhoneCall)
 
 ---
 
-###### :link: [PhoneConnection](type/PhoneConnection)
+###### PhoneConnection
 
-  - *Phone call connection*
+:link: [*Phone call connection*](type/PhoneConnection)
 
 ---
 
-###### :link: [PhoneCallProtocol](type/PhoneCallProtocol)
+###### PhoneCallProtocol
 
-  - *Phone call protocol*
+:link: [*Phone call protocol*](type/PhoneCallProtocol)
 
 ---
 
-###### :link: [phone.PhoneCall](type/phone.PhoneCall)
+###### phone.PhoneCall
 
-  - *Phone call*
+:link: [*Phone call*](type/phone.PhoneCall)
 
 ---
 
-###### :link: [upload.CdnFile](type/upload.CdnFile)
+###### upload.CdnFile
 
-  - *Represents the download status of a CDN file*
+:link: [*Represents the download status of a CDN file*](type/upload.CdnFile)
 
 ---
 
-###### :link: [CdnPublicKey](type/CdnPublicKey)
+###### CdnPublicKey
 
-  - *Public key to use only during handshakes to CDN DCs*
+:link: [*Public key to use only during handshakes to CDN DCs*](type/CdnPublicKey)
 
 ---
 
-###### :link: [CdnConfig](type/CdnConfig)
+###### CdnConfig
 
-  - *Configuration for CDN file downloads*
+:link: [*Configuration for CDN file downloads*](type/CdnConfig)
 
 ---
 
-###### :link: [LangPackString](type/LangPackString)
+###### LangPackString
 
-  - *Language pack string*
+:link: [*Language pack string*](type/LangPackString)
 
 ---
 
-###### :link: [LangPackDifference](type/LangPackDifference)
+###### LangPackDifference
 
-  - *Language pack changes*
+:link: [*Language pack changes*](type/LangPackDifference)
 
 ---
 
-###### :link: [LangPackLanguage](type/LangPackLanguage)
+###### LangPackLanguage
 
-  - *Language pack language*
+:link: [*Language pack language*](type/LangPackLanguage)
 
 ---
 
-###### :link: [ChannelAdminLogEventAction](type/ChannelAdminLogEventAction)
+###### ChannelAdminLogEventAction
 
-  - *Channel admin log event*
+:link: [*Channel admin log event*](type/ChannelAdminLogEventAction)
 
 ---
 
-###### :link: [ChannelAdminLogEvent](type/ChannelAdminLogEvent)
+###### ChannelAdminLogEvent
 
-  - *An event in a channel admin log*
+:link: [*An event in a channel admin log*](type/ChannelAdminLogEvent)
 
 ---
 
-###### :link: [channels.AdminLogResults](type/channels.AdminLogResults)
+###### channels.AdminLogResults
 
-  - *Admin log events*
+:link: [*Admin log events*](type/channels.AdminLogResults)
 
 ---
 
-###### :link: [ChannelAdminLogEventsFilter](type/ChannelAdminLogEventsFilter)
+###### ChannelAdminLogEventsFilter
 
-  - *Filter for fetching events in the channel admin log*
+:link: [*Filter for fetching events in the channel admin log*](type/ChannelAdminLogEventsFilter)
 
 ---
 
-###### :link: [PopularContact](type/PopularContact)
+###### PopularContact
 
-  - *Popular contact*
+:link: [*Popular contact*](type/PopularContact)
 
 ---
 
-###### :link: [messages.FavedStickers](type/messages.FavedStickers)
+###### messages.FavedStickers
 
-  - *Favorited stickers*
+:link: [*Favorited stickers*](type/messages.FavedStickers)
 
 ---
 
-###### :link: [RecentMeUrl](type/RecentMeUrl)
+###### RecentMeUrl
 
-  - *Recent t.me urls*
+:link: [*Recent t.me urls*](type/RecentMeUrl)
 
 ---
 
-###### :link: [help.RecentMeUrls](type/help.RecentMeUrls)
+###### help.RecentMeUrls
 
-  - *Recent t.me URLs*
+:link: [*Recent t.me URLs*](type/help.RecentMeUrls)
 
 ---
 
-###### :link: [InputSingleMedia](type/InputSingleMedia)
+###### InputSingleMedia
 
-  - *A single media in an album or grouped media sent with messages.sendMultiMedia*
+:link: [*A single media in an album or grouped media sent with messages.sendMultiMedia*](type/InputSingleMedia)
 
 ---
 
-###### :link: [WebAuthorization](type/WebAuthorization)
+###### WebAuthorization
 
-  - *Web authorization*
+:link: [*Web authorization*](type/WebAuthorization)
 
 ---
 
-###### :link: [account.WebAuthorizations](type/account.WebAuthorizations)
+###### account.WebAuthorizations
 
-  - *Web authorizations*
+:link: [*Web authorizations*](type/account.WebAuthorizations)
 
 ---
 
-###### :link: [InputMessage](type/InputMessage)
+###### InputMessage
 
-  - *A message*
+:link: [*A message*](type/InputMessage)
 
 ---
 
-###### :link: [InputDialogPeer](type/InputDialogPeer)
+###### InputDialogPeer
 
-  - *Peer, or all peers in a certain folder*
+:link: [*Peer, or all peers in a certain folder*](type/InputDialogPeer)
 
 ---
 
-###### :link: [DialogPeer](type/DialogPeer)
+###### DialogPeer
 
-  - *Peer, or all peers in a folder*
+:link: [*Peer, or all peers in a folder*](type/DialogPeer)
 
 ---
 
-###### :link: [messages.FoundStickerSets](type/messages.FoundStickerSets)
+###### messages.FoundStickerSets
 
-  - *Found stickersets*
+:link: [*Found stickersets*](type/messages.FoundStickerSets)
 
 ---
 
-###### :link: [FileHash](type/FileHash)
+###### FileHash
 
-  - *Hash of an uploaded file, to be checked for validity after download*
+:link: [*Hash of an uploaded file, to be checked for validity after download*](type/FileHash)
 
 ---
 
-###### :link: [InputClientProxy](type/InputClientProxy)
+###### InputClientProxy
 
-  - *Info about an MTProxy used to connect*
+:link: [*Info about an MTProxy used to connect*](type/InputClientProxy)
 
 ---
 
-###### :link: [help.TermsOfServiceUpdate](type/help.TermsOfServiceUpdate)
+###### help.TermsOfServiceUpdate
 
-  - *Update of Telegram's terms of service*
+:link: [*Update of Telegram's terms of service*](type/help.TermsOfServiceUpdate)
 
 ---
 
-###### :link: [InputSecureFile](type/InputSecureFile)
+###### InputSecureFile
 
-  - *Secure passport file, for more info see the passport docs »*
+:link: [*Secure passport file, for more info see the passport docs »*](type/InputSecureFile)
 
 ---
 
-###### :link: [SecureFile](type/SecureFile)
+###### SecureFile
 
-  - *Secure passport file, for more info see the passport docs »*
+:link: [*Secure passport file, for more info see the passport docs »*](type/SecureFile)
 
 ---
 
-###### :link: [SecureData](type/SecureData)
+###### SecureData
 
-  - *Secure passport data, for more info see the passport docs »*
+:link: [*Secure passport data, for more info see the passport docs »*](type/SecureData)
 
 ---
 
-###### :link: [SecurePlainData](type/SecurePlainData)
+###### SecurePlainData
 
-  - *Plaintext verified passport data*
+:link: [*Plaintext verified passport data*](type/SecurePlainData)
 
 ---
 
-###### :link: [SecureValueType](type/SecureValueType)
+###### SecureValueType
 
-  - *Secure value type*
+:link: [*Secure value type*](type/SecureValueType)
 
 ---
 
-###### :link: [SecureValue](type/SecureValue)
+###### SecureValue
 
-  - *Secure Telegram Passport value*
+:link: [*Secure Telegram Passport value*](type/SecureValue)
 
 ---
 
-###### :link: [InputSecureValue](type/InputSecureValue)
+###### InputSecureValue
 
-  - *Secure value, for more info see the passport docs »*
+:link: [*Secure value, for more info see the passport docs »*](type/InputSecureValue)
 
 ---
 
-###### :link: [SecureValueHash](type/SecureValueHash)
+###### SecureValueHash
 
-  - *Secure value hash*
+:link: [*Secure value hash*](type/SecureValueHash)
 
 ---
 
-###### :link: [SecureValueError](type/SecureValueError)
+###### SecureValueError
 
-  - *Secure value error*
+:link: [*Secure value error*](type/SecureValueError)
 
 ---
 
-###### :link: [SecureCredentialsEncrypted](type/SecureCredentialsEncrypted)
+###### SecureCredentialsEncrypted
 
-  - *Encrypted secure credentials*
+:link: [*Encrypted secure credentials*](type/SecureCredentialsEncrypted)
 
 ---
 
-###### :link: [account.AuthorizationForm](type/account.AuthorizationForm)
+###### account.AuthorizationForm
 
-  - *Authorization form*
+:link: [*Authorization form*](type/account.AuthorizationForm)
 
 ---
 
-###### :link: [account.SentEmailCode](type/account.SentEmailCode)
+###### account.SentEmailCode
 
-  - *The email code that was sent*
+:link: [*The email code that was sent*](type/account.SentEmailCode)
 
 ---
 
-###### :link: [help.DeepLinkInfo](type/help.DeepLinkInfo)
+###### help.DeepLinkInfo
 
-  - *Contains information about an unsupported deep link »*
+:link: [*Contains information about an unsupported deep link »*](type/help.DeepLinkInfo)
 
 ---
 
-###### :link: [SavedContact](type/SavedContact)
+###### SavedContact
 
-  - *Saved contact*
+:link: [*Saved contact*](type/SavedContact)
 
 ---
 
-###### :link: [account.Takeout](type/account.Takeout)
+###### account.Takeout
 
-  - *Takeout info*
+:link: [*Takeout info*](type/account.Takeout)
 
 ---
 
-###### :link: [PasswordKdfAlgo](type/PasswordKdfAlgo)
+###### PasswordKdfAlgo
 
-  - *Key derivation function to use when generating the password hash for SRP two-factor authorization*
+:link: [*Key derivation function to use when generating the password hash for SRP two-factor authorization*](type/PasswordKdfAlgo)
 
 ---
 
-###### :link: [SecurePasswordKdfAlgo](type/SecurePasswordKdfAlgo)
+###### SecurePasswordKdfAlgo
 
-  - *KDF algorithm to use for computing telegram passport hash*
+:link: [*KDF algorithm to use for computing telegram passport hash*](type/SecurePasswordKdfAlgo)
 
 ---
 
-###### :link: [SecureSecretSettings](type/SecureSecretSettings)
+###### SecureSecretSettings
 
-  - *Telegram passport settings*
+:link: [*Telegram passport settings*](type/SecureSecretSettings)
 
 ---
 
-###### :link: [InputCheckPasswordSRP](type/InputCheckPasswordSRP)
+###### InputCheckPasswordSRP
 
-  - *Constructors for checking the validity of a 2FA SRP password*
+:link: [*Constructors for checking the validity of a 2FA SRP password*](type/InputCheckPasswordSRP)
 
 ---
 
-###### :link: [SecureRequiredType](type/SecureRequiredType)
+###### SecureRequiredType
 
-  - *Required secure file type*
+:link: [*Required secure file type*](type/SecureRequiredType)
 
 ---
 
-###### :link: [help.PassportConfig](type/help.PassportConfig)
+###### help.PassportConfig
 
-  - *Telegram passport configuration*
+:link: [*Telegram passport configuration*](type/help.PassportConfig)
 
 ---
 
-###### :link: [InputAppEvent](type/InputAppEvent)
+###### InputAppEvent
 
-  - *Object contains info about an event that occurred in the application*
+:link: [*Object contains info about an event that occurred in the application*](type/InputAppEvent)
 
 ---
 
-###### :link: [JSONObjectValue](type/JSONObjectValue)
+###### JSONObjectValue
 
-  - *JSON key: value pair*
+:link: [*JSON key: value pair*](type/JSONObjectValue)
 
 ---
 
-###### :link: [JSONValue](type/JSONValue)
+###### JSONValue
 
-  - *JSON value*
+:link: [*JSON value*](type/JSONValue)
 
 ---
 
-###### :link: [PageTableCell](type/PageTableCell)
+###### PageTableCell
 
-  - *Represents a table in an instant view table*
+:link: [*Represents a table in an instant view table*](type/PageTableCell)
 
 ---
 
-###### :link: [PageTableRow](type/PageTableRow)
+###### PageTableRow
 
-  - *Table row*
+:link: [*Table row*](type/PageTableRow)
 
 ---
 
-###### :link: [PageCaption](type/PageCaption)
+###### PageCaption
 
-  - *Page caption*
+:link: [*Page caption*](type/PageCaption)
 
 ---
 
-###### :link: [PageListItem](type/PageListItem)
+###### PageListItem
 
-  - *Item in block list*
+:link: [*Item in block list*](type/PageListItem)
 
 ---
 
-###### :link: [PageListOrderedItem](type/PageListOrderedItem)
+###### PageListOrderedItem
 
-  - *Represents an instant view ordered list*
+:link: [*Represents an instant view ordered list*](type/PageListOrderedItem)
 
 ---
 
-###### :link: [PageRelatedArticle](type/PageRelatedArticle)
+###### PageRelatedArticle
 
-  - *Related articles*
+:link: [*Related articles*](type/PageRelatedArticle)
 
 ---
 
-###### :link: [Page](type/Page)
+###### Page
 
-  - *Instant view page*
+:link: [*Instant view page*](type/Page)
 
 ---
 
-###### :link: [help.SupportName](type/help.SupportName)
+###### help.SupportName
 
-  - *Get localized name for support user*
+:link: [*Get localized name for support user*](type/help.SupportName)
 
 ---
 
-###### :link: [help.UserInfo](type/help.UserInfo)
+###### help.UserInfo
 
-  - *User info*
+:link: [*User info*](type/help.UserInfo)
 
 ---
 
-###### :link: [PollAnswer](type/PollAnswer)
+###### PollAnswer
 
-  - *Indicates a possible answer to a poll*
+:link: [*Indicates a possible answer to a poll*](type/PollAnswer)
 
 ---
 
-###### :link: [Poll](type/Poll)
+###### Poll
 
-  - *Indicates a poll message*
+:link: [*Indicates a poll message*](type/Poll)
 
 ---
 
-###### :link: [PollAnswerVoters](type/PollAnswerVoters)
+###### PollAnswerVoters
 
-  - *How users voted on a certain poll answer*
+:link: [*How users voted on a certain poll answer*](type/PollAnswerVoters)
 
 ---
 
-###### :link: [PollResults](type/PollResults)
+###### PollResults
 
-  - *Results of poll*
+:link: [*Results of poll*](type/PollResults)
 
 ---
 
-###### :link: [ChatOnlines](type/ChatOnlines)
+###### ChatOnlines
 
-  - *Number of online users in a chat*
+:link: [*Number of online users in a chat*](type/ChatOnlines)
 
 ---
 
-###### :link: [StatsURL](type/StatsURL)
+###### StatsURL
 
-  - *URL with chat statistics*
+:link: [*URL with chat statistics*](type/StatsURL)
 
 ---
 
-###### :link: [ChatAdminRights](type/ChatAdminRights)
+###### ChatAdminRights
 
-  - *Represents the rights of an admin in a channel/supergroup*
+:link: [*Represents the rights of an admin in a channel/supergroup*](type/ChatAdminRights)
 
 ---
 
-###### :link: [ChatBannedRights](type/ChatBannedRights)
+###### ChatBannedRights
 
-  - *Represents the rights of a normal user in a supergroup/channel/chat*
+:link: [*Represents the rights of a normal user in a supergroup/channel/chat*](type/ChatBannedRights)
 
 ---
 
-###### :link: [InputWallPaper](type/InputWallPaper)
+###### InputWallPaper
 
-  - *Wallpaper*
+:link: [*Wallpaper*](type/InputWallPaper)
 
 ---
 
-###### :link: [account.WallPapers](type/account.WallPapers)
+###### account.WallPapers
 
-  - *Wallpapers*
+:link: [*Wallpapers*](type/account.WallPapers)
 
 ---
 
-###### :link: [CodeSettings](type/CodeSettings)
+###### CodeSettings
 
-  - *Settings for the code type to send*
+:link: [*Settings for the code type to send*](type/CodeSettings)
 
 ---
 
-###### :link: [WallPaperSettings](type/WallPaperSettings)
+###### WallPaperSettings
 
-  - *Wallpaper rendering information*
+:link: [*Wallpaper rendering information*](type/WallPaperSettings)
 
 ---
 
-###### :link: [AutoDownloadSettings](type/AutoDownloadSettings)
+###### AutoDownloadSettings
 
-  - *Media autodownload settings*
+:link: [*Media autodownload settings*](type/AutoDownloadSettings)
 
 ---
 
-###### :link: [account.AutoDownloadSettings](type/account.AutoDownloadSettings)
+###### account.AutoDownloadSettings
 
-  - *Media autodownload settings*
+:link: [*Media autodownload settings*](type/account.AutoDownloadSettings)
 
 ---
 
-###### :link: [EmojiKeyword](type/EmojiKeyword)
+###### EmojiKeyword
 
-  - *Emoji keyword*
+:link: [*Emoji keyword*](type/EmojiKeyword)
 
 ---
 
-###### :link: [EmojiKeywordsDifference](type/EmojiKeywordsDifference)
+###### EmojiKeywordsDifference
 
-  - *New emoji keywords*
+:link: [*New emoji keywords*](type/EmojiKeywordsDifference)
 
 ---
 
-###### :link: [EmojiURL](type/EmojiURL)
+###### EmojiURL
 
-  - *Emoji URL*
+:link: [*Emoji URL*](type/EmojiURL)
 
 ---
 
-###### :link: [EmojiLanguage](type/EmojiLanguage)
+###### EmojiLanguage
 
-  - *Emoji language*
+:link: [*Emoji language*](type/EmojiLanguage)
 
 ---
 
-###### :link: [Folder](type/Folder)
+###### Folder
 
-  - *A folder*
+:link: [*A folder*](type/Folder)
 
 ---
 
-###### :link: [InputFolderPeer](type/InputFolderPeer)
+###### InputFolderPeer
 
-  - *Peer in a folder*
+:link: [*Peer in a folder*](type/InputFolderPeer)
 
 ---
 
-###### :link: [FolderPeer](type/FolderPeer)
+###### FolderPeer
 
-  - *Peer associated to folder*
+:link: [*Peer associated to folder*](type/FolderPeer)
 
 ---
 
-###### :link: [messages.SearchCounter](type/messages.SearchCounter)
+###### messages.SearchCounter
 
-  - *Number of results that would be returned by a search*
+:link: [*Number of results that would be returned by a search*](type/messages.SearchCounter)
 
 ---
 
-###### :link: [UrlAuthResult](type/UrlAuthResult)
+###### UrlAuthResult
 
-  - *URL authorization result*
+:link: [*URL authorization result*](type/UrlAuthResult)
 
 ---
 
-###### :link: [ChannelLocation](type/ChannelLocation)
+###### ChannelLocation
 
-  - *Geographical location of supergroup (geogroups)*
+:link: [*Geographical location of supergroup (geogroups)*](type/ChannelLocation)
 
 ---
 
-###### :link: [PeerLocated](type/PeerLocated)
+###### PeerLocated
 
-  - *Geolocated peer*
+:link: [*Geolocated peer*](type/PeerLocated)
 
 ---
 
-###### :link: [RestrictionReason](type/RestrictionReason)
+###### RestrictionReason
 
-  - *Restriction reason*
+:link: [*Restriction reason*](type/RestrictionReason)
 
 ---
 
-###### :link: [InputTheme](type/InputTheme)
+###### InputTheme
 
-  - *Cloud theme*
+:link: [*Cloud theme*](type/InputTheme)
 
 ---
 
-###### :link: [Theme](type/Theme)
+###### Theme
 
-  - *Cloud theme*
+:link: [*Cloud theme*](type/Theme)
 
 ---
 
-###### :link: [account.Themes](type/account.Themes)
+###### account.Themes
 
-  - *Installed themes*
+:link: [*Installed themes*](type/account.Themes)
 
 ---
 
-###### :link: [auth.LoginToken](type/auth.LoginToken)
+###### auth.LoginToken
 
-  - *Login token (for QR code login)*
+:link: [*Login token (for QR code login)*](type/auth.LoginToken)
 
 ---
 
-###### :link: [account.ContentSettings](type/account.ContentSettings)
+###### account.ContentSettings
 
-  - *Sensitive content settings*
+:link: [*Sensitive content settings*](type/account.ContentSettings)
 
 ---
 
-###### :link: [messages.InactiveChats](type/messages.InactiveChats)
+###### messages.InactiveChats
 
-  - *Inactive chat list*
+:link: [*Inactive chat list*](type/messages.InactiveChats)
 
 ---
 
-###### :link: [BaseTheme](type/BaseTheme)
+###### BaseTheme
 
-  - *Basic theme settings*
+:link: [*Basic theme settings*](type/BaseTheme)
 
 ---
 
-###### :link: [InputThemeSettings](type/InputThemeSettings)
+###### InputThemeSettings
 
-  - *Theme settings*
+:link: [*Theme settings*](type/InputThemeSettings)
 
 ---
 
-###### :link: [ThemeSettings](type/ThemeSettings)
+###### ThemeSettings
 
-  - *Theme settings*
+:link: [*Theme settings*](type/ThemeSettings)
 
 ---
 
-###### :link: [WebPageAttribute](type/WebPageAttribute)
+###### WebPageAttribute
 
-  - *Webpage attributes*
+:link: [*Webpage attributes*](type/WebPageAttribute)
 
 ---
 
-###### :link: [messages.VotesList](type/messages.VotesList)
+###### messages.VotesList
 
-  - *How users voted in a poll*
+:link: [*How users voted in a poll*](type/messages.VotesList)
 
 ---
 
-###### :link: [BankCardOpenUrl](type/BankCardOpenUrl)
+###### BankCardOpenUrl
 
-  - *Credit card info URL provided by the bank*
+:link: [*Credit card info URL provided by the bank*](type/BankCardOpenUrl)
 
 ---
 
-###### :link: [payments.BankCardData](type/payments.BankCardData)
+###### payments.BankCardData
 
-  - *Credit card info, provided by the card's bank(s)*
+:link: [*Credit card info, provided by the card's bank(s)*](type/payments.BankCardData)
 
 ---
 
-###### :link: [DialogFilter](type/DialogFilter)
+###### DialogFilter
 
-  - *Dialog filter (folder »)*
+:link: [*Dialog filter (folder »)*](type/DialogFilter)
 
 ---
 
-###### :link: [DialogFilterSuggested](type/DialogFilterSuggested)
+###### DialogFilterSuggested
 
-  - *Suggested dialog filters (folder »)*
+:link: [*Suggested dialog filters (folder »)*](type/DialogFilterSuggested)
 
 ---
 
-###### :link: [StatsDateRangeDays](type/StatsDateRangeDays)
+###### StatsDateRangeDays
 
-  - *Channel statistics date range*
+:link: [*Channel statistics date range*](type/StatsDateRangeDays)
 
 ---
 
-###### :link: [StatsAbsValueAndPrev](type/StatsAbsValueAndPrev)
+###### StatsAbsValueAndPrev
 
-  - *Channel statistics value pair*
+:link: [*Channel statistics value pair*](type/StatsAbsValueAndPrev)
 
 ---
 
-###### :link: [StatsPercentValue](type/StatsPercentValue)
+###### StatsPercentValue
 
-  - *Channel statistics percentage*
+:link: [*Channel statistics percentage*](type/StatsPercentValue)
 
 ---
 
-###### :link: [StatsGraph](type/StatsGraph)
+###### StatsGraph
 
-  - *Channel statistics graph*
+:link: [*Channel statistics graph*](type/StatsGraph)
 
 ---
 
-###### :link: [stats.BroadcastStats](type/stats.BroadcastStats)
+###### stats.BroadcastStats
 
-  - *Channel statistics*
+:link: [*Channel statistics*](type/stats.BroadcastStats)
 
 ---
 
-###### :link: [help.PromoData](type/help.PromoData)
+###### help.PromoData
 
-  - *Info about pinned MTProxy or Public Service Announcement peers*
+:link: [*Info about pinned MTProxy or Public Service Announcement peers*](type/help.PromoData)
 
 ---
 
-###### :link: [VideoSize](type/VideoSize)
+###### VideoSize
 
-  - *Represents an animated video thumbnail*
+:link: [*Represents an animated video thumbnail*](type/VideoSize)
 
 ---
 
-###### :link: [StatsGroupTopPoster](type/StatsGroupTopPoster)
+###### StatsGroupTopPoster
 
-  - *Most active user in a supergroup*
+:link: [*Most active user in a supergroup*](type/StatsGroupTopPoster)
 
 ---
 
-###### :link: [StatsGroupTopAdmin](type/StatsGroupTopAdmin)
+###### StatsGroupTopAdmin
 
-  - *Most active admin in a supergroup*
+:link: [*Most active admin in a supergroup*](type/StatsGroupTopAdmin)
 
 ---
 
-###### :link: [StatsGroupTopInviter](type/StatsGroupTopInviter)
+###### StatsGroupTopInviter
 
-  - *Most active inviter in a supergroup*
+:link: [*Most active inviter in a supergroup*](type/StatsGroupTopInviter)
 
 ---
 
-###### :link: [stats.MegagroupStats](type/stats.MegagroupStats)
+###### stats.MegagroupStats
 
-  - *Supergroup statistics*
+:link: [*Supergroup statistics*](type/stats.MegagroupStats)
 
 ---
 
-###### :link: [GlobalPrivacySettings](type/GlobalPrivacySettings)
+###### GlobalPrivacySettings
 
-  - *Global privacy settings*
+:link: [*Global privacy settings*](type/GlobalPrivacySettings)
 
 ---
 
-###### :link: [help.CountryCode](type/help.CountryCode)
+###### help.CountryCode
 
-  - *Country code and phone number pattern of a specific country*
+:link: [*Country code and phone number pattern of a specific country*](type/help.CountryCode)
 
 ---
 
-###### :link: [help.Country](type/help.Country)
+###### help.Country
 
-  - *Name, ISO code, localized name and phone codes/patterns of a specific country*
+:link: [*Name, ISO code, localized name and phone codes/patterns of a specific country*](type/help.Country)
 
 ---
 
-###### :link: [help.CountriesList](type/help.CountriesList)
+###### help.CountriesList
 
-  - *Name, ISO code, localized name and phone codes/patterns of all available countries*
+:link: [*Name, ISO code, localized name and phone codes/patterns of all available countries*](type/help.CountriesList)
 
 ---
 
-###### :link: [MessageViews](type/MessageViews)
+###### MessageViews
 
-  - *View, forward counter + info about replies of a specific message*
+:link: [*View, forward counter + info about replies of a specific message*](type/MessageViews)
 
 ---
 
-###### :link: [messages.MessageViews](type/messages.MessageViews)
+###### messages.MessageViews
 
-  - *View, forward counter + info about replies*
+:link: [*View, forward counter + info about replies*](type/messages.MessageViews)
 
 ---
 
-###### :link: [messages.DiscussionMessage](type/messages.DiscussionMessage)
+###### messages.DiscussionMessage
 
-  - *Info about a message thread*
+:link: [*Info about a message thread*](type/messages.DiscussionMessage)
 
 ---
 
-###### :link: [MessageReplyHeader](type/MessageReplyHeader)
+###### MessageReplyHeader
 
-  - *Reply information*
+:link: [*Reply information*](type/MessageReplyHeader)
 
 ---
 
-###### :link: [MessageReplies](type/MessageReplies)
+###### MessageReplies
 
-  - *Info about post comments (for channels) or message replies (for groups)*
+:link: [*Info about post comments (for channels) or message replies (for groups)*](type/MessageReplies)
 
 ---
 
-###### :link: [PeerBlocked](type/PeerBlocked)
+###### PeerBlocked
 
-  - *Info about a blocked user*
+:link: [*Info about a blocked user*](type/PeerBlocked)
 
 ---
 
-###### :link: [stats.MessageStats](type/stats.MessageStats)
+###### stats.MessageStats
 
-  - *Message statistics*
+:link: [*Message statistics*](type/stats.MessageStats)
 
 ---
 
-###### :link: [GroupCall](type/GroupCall)
+###### GroupCall
 
-  - *A group call*
+:link: [*A group call*](type/GroupCall)
 
 ---
 
-###### :link: [InputGroupCall](type/InputGroupCall)
+###### InputGroupCall
 
-  - *Indicates a group call*
+:link: [*Indicates a group call*](type/InputGroupCall)
 
 ---
 
-###### :link: [GroupCallParticipant](type/GroupCallParticipant)
+###### GroupCallParticipant
 
-  - *Info about a group call participant*
+:link: [*Info about a group call participant*](type/GroupCallParticipant)
 
 ---
 
-###### :link: [phone.GroupCall](type/phone.GroupCall)
+###### phone.GroupCall
 
-  - *Contains info about a group call, and partial info about its participants*
+:link: [*Contains info about a group call, and partial info about its participants*](type/phone.GroupCall)
 
 ---
 
-###### :link: [phone.GroupParticipants](type/phone.GroupParticipants)
+###### phone.GroupParticipants
 
-  - *Info about the participants of a group call or livestream*
+:link: [*Info about the participants of a group call or livestream*](type/phone.GroupParticipants)
 
 ---
 
-###### :link: [InlineQueryPeerType](type/InlineQueryPeerType)
+###### InlineQueryPeerType
 
-  - *Inline query peer type*
+:link: [*Inline query peer type*](type/InlineQueryPeerType)
 
 ---
 
-###### :link: [messages.HistoryImport](type/messages.HistoryImport)
+###### messages.HistoryImport
 
-  - *Identifier of a history import session, click here for more info »*
+:link: [*Identifier of a history import session, click here for more info »*](type/messages.HistoryImport)
 
 ---
 
-###### :link: [messages.HistoryImportParsed](type/messages.HistoryImportParsed)
+###### messages.HistoryImportParsed
 
-  - *Contains information about a chat export file, generated by a foreign chat app*
+:link: [*Contains information about a chat export file, generated by a foreign chat app*](type/messages.HistoryImportParsed)
 
 ---
 
-###### :link: [messages.AffectedFoundMessages](type/messages.AffectedFoundMessages)
+###### messages.AffectedFoundMessages
 
-  - *Messages found and affected by changes*
+:link: [*Messages found and affected by changes*](type/messages.AffectedFoundMessages)
 
 ---
 
-###### :link: [ChatInviteImporter](type/ChatInviteImporter)
+###### ChatInviteImporter
 
-  - *When and which user joined the chat using a chat invite*
+:link: [*When and which user joined the chat using a chat invite*](type/ChatInviteImporter)
 
 ---
 
-###### :link: [messages.ExportedChatInvites](type/messages.ExportedChatInvites)
+###### messages.ExportedChatInvites
 
-  - *Info about chat invites exported by a certain admin*
+:link: [*Info about chat invites exported by a certain admin*](type/messages.ExportedChatInvites)
 
 ---
 
-###### :link: [messages.ExportedChatInvite](type/messages.ExportedChatInvite)
+###### messages.ExportedChatInvite
 
-  - *Contains info about a chat invite, and eventually a pointer to the newest chat invite*
+:link: [*Contains info about a chat invite, and eventually a pointer to the newest chat invite*](type/messages.ExportedChatInvite)
 
 ---
 
-###### :link: [messages.ChatInviteImporters](type/messages.ChatInviteImporters)
+###### messages.ChatInviteImporters
 
-  - *List of users that imported a chat invitation link*
+:link: [*List of users that imported a chat invitation link*](type/messages.ChatInviteImporters)
 
 ---
 
-###### :link: [ChatAdminWithInvites](type/ChatAdminWithInvites)
+###### ChatAdminWithInvites
 
-  - *Info about chat invites generated by admins*
+:link: [*Info about chat invites generated by admins*](type/ChatAdminWithInvites)
 
 ---
 
-###### :link: [messages.ChatAdminsWithInvites](type/messages.ChatAdminsWithInvites)
+###### messages.ChatAdminsWithInvites
 
-  - *Info about chat invites generated by admins*
+:link: [*Info about chat invites generated by admins*](type/messages.ChatAdminsWithInvites)
 
 ---
 
-###### :link: [messages.CheckedHistoryImportPeer](type/messages.CheckedHistoryImportPeer)
+###### messages.CheckedHistoryImportPeer
 
-  - *Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info »*
+:link: [*Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info »*](type/messages.CheckedHistoryImportPeer)
 
 ---
 
-###### :link: [phone.JoinAsPeers](type/phone.JoinAsPeers)
+###### phone.JoinAsPeers
 
-  - *A list of peers that can be used to join a group call, presenting yourself as a specific user/channel*
+:link: [*A list of peers that can be used to join a group call, presenting yourself as a specific user/channel*](type/phone.JoinAsPeers)
 
 ---
 
-###### :link: [phone.ExportedGroupCallInvite](type/phone.ExportedGroupCallInvite)
+###### phone.ExportedGroupCallInvite
 
-  - *An exported group call invitation*
+:link: [*An exported group call invitation*](type/phone.ExportedGroupCallInvite)
 
 ---
 
-###### :link: [GroupCallParticipantVideoSourceGroup](type/GroupCallParticipantVideoSourceGroup)
+###### GroupCallParticipantVideoSourceGroup
 
-  - *Describes a group of video synchronization source identifiers*
+:link: [*Describes a group of video synchronization source identifiers*](type/GroupCallParticipantVideoSourceGroup)
 
 ---
 
-###### :link: [GroupCallParticipantVideo](type/GroupCallParticipantVideo)
+###### GroupCallParticipantVideo
 
-  - *Info about a video stream*
+:link: [*Info about a video stream*](type/GroupCallParticipantVideo)
 
 ---
 
-###### :link: [stickers.SuggestedShortName](type/stickers.SuggestedShortName)
+###### stickers.SuggestedShortName
 
-  - *A suggested short name for the specified stickerpack*
+:link: [*A suggested short name for the specified stickerpack*](type/stickers.SuggestedShortName)
 
 ---
 
-###### :link: [BotCommandScope](type/BotCommandScope)
+###### BotCommandScope
 
-  - *Represents a scope where the bot commands, specified using bots.setBotCommands will be valid*
+:link: [*Represents a scope where the bot commands, specified using bots.setBotCommands will be valid*](type/BotCommandScope)
 
 ---
 
-###### :link: [account.ResetPasswordResult](type/account.ResetPasswordResult)
+###### account.ResetPasswordResult
 
-  - *Result of an account.resetPassword request*
+:link: [*Result of an account.resetPassword request*](type/account.ResetPasswordResult)
 
 ---
 
-###### :link: [SponsoredMessage](type/SponsoredMessage)
+###### SponsoredMessage
 
-  - *A sponsored message*
+:link: [*A sponsored message*](type/SponsoredMessage)
 
 ---
 
-###### :link: [messages.SponsoredMessages](type/messages.SponsoredMessages)
+###### messages.SponsoredMessages
 
-  - *A set of sponsored messages associated with a channel*
+:link: [*A set of sponsored messages associated with a channel*](type/messages.SponsoredMessages)
 
 ---
 
-###### :link: [SearchResultsCalendarPeriod](type/SearchResultsCalendarPeriod)
+###### SearchResultsCalendarPeriod
 
-  - *Information about found messages sent on a specific day, used to split the messages in messages.searchResultsCalendar constructors by days*
+:link: [*Information about found messages sent on a specific day, used to split the messages in messages.searchResultsCalendar constructors by days*](type/SearchResultsCalendarPeriod)
 
 ---
 
-###### :link: [messages.SearchResultsCalendar](type/messages.SearchResultsCalendar)
+###### messages.SearchResultsCalendar
 
-  - *Information about found messages sent on a specific day*
+:link: [*Information about found messages sent on a specific day*](type/messages.SearchResultsCalendar)
 
 ---
 
-###### :link: [SearchResultsPosition](type/SearchResultsPosition)
+###### SearchResultsPosition
 
-  - *Information about a message in a specific position*
+:link: [*Information about a message in a specific position*](type/SearchResultsPosition)
 
 ---
 
-###### :link: [messages.SearchResultsPositions](type/messages.SearchResultsPositions)
+###### messages.SearchResultsPositions
 
-  - *Information about sparse positions of messages*
+:link: [*Information about sparse positions of messages*](type/messages.SearchResultsPositions)
 
 ---
 
-###### :link: [channels.SendAsPeers](type/channels.SendAsPeers)
+###### channels.SendAsPeers
 
-  - *A list of peers that can be used to send messages in a specific group*
+:link: [*A list of peers that can be used to send messages in a specific group*](type/channels.SendAsPeers)
 
 ---
 
-###### :link: [users.UserFull](type/users.UserFull)
+###### users.UserFull
 
-  - *Full user information, with attached context peers for reactions*
+:link: [*Full user information, with attached context peers for reactions*](type/users.UserFull)
 
 ---
 
-###### :link: [messages.PeerSettings](type/messages.PeerSettings)
+###### messages.PeerSettings
 
-  - *Peer settings*
+:link: [*Peer settings*](type/messages.PeerSettings)
 
 ---
 
-###### :link: [auth.LoggedOut](type/auth.LoggedOut)
+###### auth.LoggedOut
 
-  - *Future auth token » to be used on subsequent authorizations*
+:link: [*Future auth token » to be used on subsequent authorizations*](type/auth.LoggedOut)
 
 ---
 
-###### :link: [ReactionCount](type/ReactionCount)
+###### ReactionCount
 
-  - *Number of users that reacted with a certain emoji*
+:link: [*Number of users that reacted with a certain emoji*](type/ReactionCount)
 
 ---
 
-###### :link: [MessageReactions](type/MessageReactions)
+###### MessageReactions
 
-  - *Message reactions »*
+:link: [*Message reactions »*](type/MessageReactions)
 
 ---
 
-###### :link: [messages.MessageReactionsList](type/messages.MessageReactionsList)
+###### messages.MessageReactionsList
 
-  - *List of peers that reacted to a specific message*
+:link: [*List of peers that reacted to a specific message*](type/messages.MessageReactionsList)
 
 ---
 
-###### :link: [AvailableReaction](type/AvailableReaction)
+###### AvailableReaction
 
-  - *Animations associated with a message reaction*
+:link: [*Animations associated with a message reaction*](type/AvailableReaction)
 
 ---
 
-###### :link: [messages.AvailableReactions](type/messages.AvailableReactions)
+###### messages.AvailableReactions
 
-  - *Animations and metadata associated with message reactions »*
+:link: [*Animations and metadata associated with message reactions »*](type/messages.AvailableReactions)
 
 ---
 
-###### :link: [MessagePeerReaction](type/MessagePeerReaction)
+###### MessagePeerReaction
 
-  - *How a certain peer reacted to the message*
+:link: [*How a certain peer reacted to the message*](type/MessagePeerReaction)
 
 ---
 
-###### :link: [GroupCallStreamChannel](type/GroupCallStreamChannel)
+###### GroupCallStreamChannel
 
-  - *Info about an RTMP stream in a group call or livestream*
+:link: [*Info about an RTMP stream in a group call or livestream*](type/GroupCallStreamChannel)
 
 ---
 
-###### :link: [phone.GroupCallStreamChannels](type/phone.GroupCallStreamChannels)
+###### phone.GroupCallStreamChannels
 
-  - *Info about RTMP streams in a group call or livestream*
+:link: [*Info about RTMP streams in a group call or livestream*](type/phone.GroupCallStreamChannels)
 
 ---
 
-###### :link: [phone.GroupCallStreamRtmpUrl](type/phone.GroupCallStreamRtmpUrl)
+###### phone.GroupCallStreamRtmpUrl
 
-  - *RTMP URL and stream key to be used in streaming software*
+:link: [*RTMP URL and stream key to be used in streaming software*](type/phone.GroupCallStreamRtmpUrl)
 
 ---
 
-###### :link: [AttachMenuBotIconColor](type/AttachMenuBotIconColor)
+###### AttachMenuBotIconColor
 
-  - *Represents an attachment menu icon color for bot mini apps »*
+:link: [*Represents an attachment menu icon color for bot mini apps »*](type/AttachMenuBotIconColor)
 
 ---
 
-###### :link: [AttachMenuBotIcon](type/AttachMenuBotIcon)
+###### AttachMenuBotIcon
 
-  - *Represents an attachment menu icon for bot mini apps »*
+:link: [*Represents an attachment menu icon for bot mini apps »*](type/AttachMenuBotIcon)
 
 ---
 
-###### :link: [AttachMenuBot](type/AttachMenuBot)
+###### AttachMenuBot
 
-  - *Represents a bot mini app that can be launched from the attachment menu »*
+:link: [*Represents a bot mini app that can be launched from the attachment menu »*](type/AttachMenuBot)
 
 ---
 
-###### :link: [AttachMenuBots](type/AttachMenuBots)
+###### AttachMenuBots
 
-  - *Represents a list of bot mini apps that can be launched from the attachment menu »*
+:link: [*Represents a list of bot mini apps that can be launched from the attachment menu »*](type/AttachMenuBots)
 
 ---
 
-###### :link: [AttachMenuBotsBot](type/AttachMenuBotsBot)
+###### AttachMenuBotsBot
 
-  - *Represents a bot mini app that can be launched from the attachment menu »*
+:link: [*Represents a bot mini app that can be launched from the attachment menu »*](type/AttachMenuBotsBot)
 
 ---
 
-###### :link: [WebViewResult](type/WebViewResult)
+###### WebViewResult
 
-  - *Contains the webview URL with appropriate theme and user info parameters added*
+:link: [*Contains the webview URL with appropriate theme and user info parameters added*](type/WebViewResult)
 
 ---
 
-###### :link: [WebViewMessageSent](type/WebViewMessageSent)
+###### WebViewMessageSent
 
-  - *Contains information about an inline message sent by a Web App on behalf of a user*
+:link: [*Contains information about an inline message sent by a Web App on behalf of a user*](type/WebViewMessageSent)
 
 ---
 
-###### :link: [BotMenuButton](type/BotMenuButton)
+###### BotMenuButton
 
-  - *Indicates the action to execute when pressing the in-UI menu button for bots*
+:link: [*Indicates the action to execute when pressing the in-UI menu button for bots*](type/BotMenuButton)
 
 ---
 
-###### :link: [account.SavedRingtones](type/account.SavedRingtones)
+###### account.SavedRingtones
 
-  - *Contains a list of saved notification sounds*
+:link: [*Contains a list of saved notification sounds*](type/account.SavedRingtones)
 
 ---
 
-###### :link: [NotificationSound](type/NotificationSound)
+###### NotificationSound
 
-  - *Represents a notification sound*
+:link: [*Represents a notification sound*](type/NotificationSound)
 
 ---
 
-###### :link: [account.SavedRingtone](type/account.SavedRingtone)
+###### account.SavedRingtone
 
-  - *Contains information about a saved notification sound*
+:link: [*Contains information about a saved notification sound*](type/account.SavedRingtone)
 
 ---
 
-###### :link: [AttachMenuPeerType](type/AttachMenuPeerType)
+###### AttachMenuPeerType
 
-  - *Indicates a supported peer type for a bot mini app attachment menu*
+:link: [*Indicates a supported peer type for a bot mini app attachment menu*](type/AttachMenuPeerType)
 
 ---
 
-###### :link: [InputInvoice](type/InputInvoice)
+###### InputInvoice
 
-  - *An invoice*
+:link: [*An invoice*](type/InputInvoice)
 
 ---
 
-###### :link: [payments.ExportedInvoice](type/payments.ExportedInvoice)
+###### payments.ExportedInvoice
 
-  - *Exported invoice*
+:link: [*Exported invoice*](type/payments.ExportedInvoice)
 
 ---
 
-###### :link: [messages.TranscribedAudio](type/messages.TranscribedAudio)
+###### messages.TranscribedAudio
 
-  - *Transcribed text from a voice message*
+:link: [*Transcribed text from a voice message*](type/messages.TranscribedAudio)
 
 ---
 
-###### :link: [help.PremiumPromo](type/help.PremiumPromo)
+###### help.PremiumPromo
 
-  - *Telegram Premium promotion information*
+:link: [*Telegram Premium promotion information*](type/help.PremiumPromo)
 
 ---
 
-###### :link: [InputStorePaymentPurpose](type/InputStorePaymentPurpose)
+###### InputStorePaymentPurpose
 
-  - *Info about a Telegram Premium purchase*
+:link: [*Info about a Telegram Premium purchase*](type/InputStorePaymentPurpose)
 
 ---
 
-###### :link: [PaymentFormMethod](type/PaymentFormMethod)
+###### PaymentFormMethod
 
-  - *Represents a payment method*
+:link: [*Represents a payment method*](type/PaymentFormMethod)
 
 ---
 
-###### :link: [EmojiStatus](type/EmojiStatus)
+###### EmojiStatus
 
-  - *Emoji status*
+:link: [*Emoji status*](type/EmojiStatus)
 
 ---
 
-###### :link: [account.EmojiStatuses](type/account.EmojiStatuses)
+###### account.EmojiStatuses
 
-  - *A list of emoji statuses*
+:link: [*A list of emoji statuses*](type/account.EmojiStatuses)
 
 ---
 
-###### :link: [Reaction](type/Reaction)
+###### Reaction
 
-  - *Message reaction*
+:link: [*Message reaction*](type/Reaction)
 
 ---
 
-###### :link: [ChatReactions](type/ChatReactions)
+###### ChatReactions
 
-  - *Available chat reactions*
+:link: [*Available chat reactions*](type/ChatReactions)
 
 ---
 
-###### :link: [messages.Reactions](type/messages.Reactions)
+###### messages.Reactions
 
-  - *A set of message reactions*
+:link: [*A set of message reactions*](type/messages.Reactions)
 
 ---
 
-###### :link: [EmailVerifyPurpose](type/EmailVerifyPurpose)
+###### EmailVerifyPurpose
 
-  - *Email verification purpose*
+:link: [*Email verification purpose*](type/EmailVerifyPurpose)
 
 ---
 
-###### :link: [EmailVerification](type/EmailVerification)
+###### EmailVerification
 
-  - *Email verification code or token*
+:link: [*Email verification code or token*](type/EmailVerification)
 
 ---
 
-###### :link: [account.EmailVerified](type/account.EmailVerified)
+###### account.EmailVerified
 
-  - *Email verification status*
+:link: [*Email verification status*](type/account.EmailVerified)
 
 ---
 
-###### :link: [PremiumSubscriptionOption](type/PremiumSubscriptionOption)
+###### PremiumSubscriptionOption
 
-  - *Telegram Premium subscription option*
+:link: [*Telegram Premium subscription option*](type/PremiumSubscriptionOption)
 
 ---
 
-###### :link: [SendAsPeer](type/SendAsPeer)
+###### SendAsPeer
 
-  - *Indicates a peer that can be used to send messages*
+:link: [*Indicates a peer that can be used to send messages*](type/SendAsPeer)
 
 ---
 
-###### :link: [MessageExtendedMedia](type/MessageExtendedMedia)
+###### MessageExtendedMedia
 
-  - *Paid media, see here » for more info*
+:link: [*Paid media, see here » for more info*](type/MessageExtendedMedia)
 
 ---
 
-###### :link: [StickerKeyword](type/StickerKeyword)
+###### StickerKeyword
 
-  - *Keywords for a certain sticker*
+:link: [*Keywords for a certain sticker*](type/StickerKeyword)
 
 ---
 
-###### :link: [Username](type/Username)
+###### Username
 
-  - *Contains information about a username*
+:link: [*Contains information about a username*](type/Username)
 
 ---
 
-###### :link: [ForumTopic](type/ForumTopic)
+###### ForumTopic
 
-  - *Contains information about a forum topic*
+:link: [*Contains information about a forum topic*](type/ForumTopic)
 
 ---
 
-###### :link: [messages.ForumTopics](type/messages.ForumTopics)
+###### messages.ForumTopics
 
-  - *Contains information about multiple forum topics*
+:link: [*Contains information about multiple forum topics*](type/messages.ForumTopics)
 
 ---
 
-###### :link: [DefaultHistoryTTL](type/DefaultHistoryTTL)
+###### DefaultHistoryTTL
 
-  - *Contains info about the default value of the Time-To-Live setting, applied to all new chats*
+:link: [*Contains info about the default value of the Time-To-Live setting, applied to all new chats*](type/DefaultHistoryTTL)
 
 ---
 
-###### :link: [ExportedContactToken](type/ExportedContactToken)
+###### ExportedContactToken
 
-  - *Describes a temporary profile link*
+:link: [*Describes a temporary profile link*](type/ExportedContactToken)
 
 ---
 
-###### :link: [RequestPeerType](type/RequestPeerType)
+###### RequestPeerType
 
-  - *Filtering criteria to use for the peer selection list shown to the user*
+:link: [*Filtering criteria to use for the peer selection list shown to the user*](type/RequestPeerType)
 
 ---
 
-###### :link: [EmojiList](type/EmojiList)
+###### EmojiList
 
-  - *Represents a list of custom emojis*
+:link: [*Represents a list of custom emojis*](type/EmojiList)
 
 ---
 
-###### :link: [EmojiGroup](type/EmojiGroup)
+###### EmojiGroup
 
-  - *Represents an emoji category*
+:link: [*Represents an emoji category*](type/EmojiGroup)
 
 ---
 
-###### :link: [messages.EmojiGroups](type/messages.EmojiGroups)
+###### messages.EmojiGroups
 
-  - *Represents a list of emoji categories*
+:link: [*Represents a list of emoji categories*](type/messages.EmojiGroups)
 
 ---
 
-###### :link: [TextWithEntities](type/TextWithEntities)
+###### TextWithEntities
 
-  - *Styled text with message entities*
+:link: [*Styled text with message entities*](type/TextWithEntities)
 
 ---
 
-###### :link: [messages.TranslatedText](type/messages.TranslatedText)
+###### messages.TranslatedText
 
-  - *Translated text with entities*
+:link: [*Translated text with entities*](type/messages.TranslatedText)
 
 ---
 
-###### :link: [AutoSaveSettings](type/AutoSaveSettings)
+###### AutoSaveSettings
 
-  - *Media autosave settings*
+:link: [*Media autosave settings*](type/AutoSaveSettings)
 
 ---
 
-###### :link: [AutoSaveException](type/AutoSaveException)
+###### AutoSaveException
 
-  - *Peer-specific autosave settings*
+:link: [*Peer-specific autosave settings*](type/AutoSaveException)
 
 ---
 
-###### :link: [account.AutoSaveSettings](type/account.AutoSaveSettings)
+###### account.AutoSaveSettings
 
-  - *Contains media autosave settings*
+:link: [*Contains media autosave settings*](type/account.AutoSaveSettings)
 
 ---
 
-###### :link: [help.AppConfig](type/help.AppConfig)
+###### help.AppConfig
 
-  - *Contains various client configuration parameters*
+:link: [*Contains various client configuration parameters*](type/help.AppConfig)
 
 ---
 
-###### :link: [InputBotApp](type/InputBotApp)
+###### InputBotApp
 
-  - *Used to fetch information about a direct link Mini App*
+:link: [*Used to fetch information about a direct link Mini App*](type/InputBotApp)
 
 ---
 
-###### :link: [BotApp](type/BotApp)
+###### BotApp
 
-  - *Contains information about a direct link Mini App*
+:link: [*Contains information about a direct link Mini App*](type/BotApp)
 
 ---
 
-###### :link: [messages.BotApp](type/messages.BotApp)
+###### messages.BotApp
 
-  - *Contains information about a direct link Mini App*
+:link: [*Contains information about a direct link Mini App*](type/messages.BotApp)
 
 ---
 
-###### :link: [InlineBotWebView](type/InlineBotWebView)
+###### InlineBotWebView
 
-  - *Specifies an inline mode mini app button, shown on top of the inline query results list*
+:link: [*Specifies an inline mode mini app button, shown on top of the inline query results list*](type/InlineBotWebView)
 
 ---
 
-###### :link: [ReadParticipantDate](type/ReadParticipantDate)
+###### ReadParticipantDate
 
-  - *Contains info about when a certain participant has read a message*
+:link: [*Contains info about when a certain participant has read a message*](type/ReadParticipantDate)
 
 ---
 
-###### :link: [InputChatlist](type/InputChatlist)
+###### InputChatlist
 
-  - *Represents a folder*
+:link: [*Represents a folder*](type/InputChatlist)
 
 ---
 
-###### :link: [ExportedChatlistInvite](type/ExportedChatlistInvite)
+###### ExportedChatlistInvite
 
-  - *An exported chat folder deep link »*
+:link: [*An exported chat folder deep link »*](type/ExportedChatlistInvite)
 
 ---
 
-###### :link: [chatlists.ExportedChatlistInvite](type/chatlists.ExportedChatlistInvite)
+###### chatlists.ExportedChatlistInvite
 
-  - *Exported chat folder deep link »*
+:link: [*Exported chat folder deep link »*](type/chatlists.ExportedChatlistInvite)
 
 ---
 
-###### :link: [chatlists.ExportedInvites](type/chatlists.ExportedInvites)
+###### chatlists.ExportedInvites
 
-  - *A list of exported chat folder deep links »*
+:link: [*A list of exported chat folder deep links »*](type/chatlists.ExportedInvites)
 
 ---
 
-###### :link: [chatlists.ChatlistInvite](type/chatlists.ChatlistInvite)
+###### chatlists.ChatlistInvite
 
-  - *Info about a chat folder deep link »*
+:link: [*Info about a chat folder deep link »*](type/chatlists.ChatlistInvite)
 
 ---
 
-###### :link: [chatlists.ChatlistUpdates](type/chatlists.ChatlistUpdates)
+###### chatlists.ChatlistUpdates
 
-  - *Updated info about a chat folder deep link »*
+:link: [*Updated info about a chat folder deep link »*](type/chatlists.ChatlistUpdates)
 
 ---
 
-###### :link: [bots.BotInfo](type/bots.BotInfo)
+###### bots.BotInfo
 
-  - *Localized name, about text and description of a bot*
+:link: [*Localized name, about text and description of a bot*](type/bots.BotInfo)
 
 ---
 
-###### :link: [MessagePeerVote](type/MessagePeerVote)
+###### MessagePeerVote
 
-  - *How a user voted in a poll*
+:link: [*How a user voted in a poll*](type/MessagePeerVote)
 
 ---
 
-###### :link: [StoryViews](type/StoryViews)
+###### StoryViews
 
-  - *Aggregated view and reaction information of a story*
+:link: [*Aggregated view and reaction information of a story*](type/StoryViews)
 
 ---
 
-###### :link: [StoryItem](type/StoryItem)
+###### StoryItem
 
-  - *Represents a Telegram Story*
+:link: [*Represents a Telegram Story*](type/StoryItem)
 
 ---
 
-###### :link: [stories.AllStories](type/stories.AllStories)
+###### stories.AllStories
 
-  - *Full list of active (or active and hidden) stories*
+:link: [*Full list of active (or active and hidden) stories*](type/stories.AllStories)
 
 ---
 
-###### :link: [stories.Stories](type/stories.Stories)
+###### stories.Stories
 
-  - *List of stories*
+:link: [*List of stories*](type/stories.Stories)
 
 ---
 
-###### :link: [StoryView](type/StoryView)
+###### StoryView
 
-  - *Story view date and reaction information*
+:link: [*Story view date and reaction information*](type/StoryView)
 
 ---
 
-###### :link: [stories.StoryViewsList](type/stories.StoryViewsList)
+###### stories.StoryViewsList
 
-  - *Reaction and view counters for a story*
+:link: [*Reaction and view counters for a story*](type/stories.StoryViewsList)
 
 ---
 
-###### :link: [stories.StoryViews](type/stories.StoryViews)
+###### stories.StoryViews
 
-  - *Reaction and view counters for a list of stories*
+:link: [*Reaction and view counters for a list of stories*](type/stories.StoryViews)
 
 ---
 
-###### :link: [InputReplyTo](type/InputReplyTo)
+###### InputReplyTo
 
-  - *Contains info about a message or story to reply to*
+:link: [*Contains info about a message or story to reply to*](type/InputReplyTo)
 
 ---
 
-###### :link: [ExportedStoryLink](type/ExportedStoryLink)
+###### ExportedStoryLink
 
-  - *Represents a story deep link*
+:link: [*Represents a story deep link*](type/ExportedStoryLink)
 
 ---
 
-###### :link: [StoriesStealthMode](type/StoriesStealthMode)
+###### StoriesStealthMode
 
-  - *Story stealth mode status*
+:link: [*Story stealth mode status*](type/StoriesStealthMode)
 
 ---
 
-###### :link: [MediaAreaCoordinates](type/MediaAreaCoordinates)
+###### MediaAreaCoordinates
 
-  - *Coordinates and size of a clicable rectangular area on top of a story*
+:link: [*Coordinates and size of a clicable rectangular area on top of a story*](type/MediaAreaCoordinates)
 
 ---
 
-###### :link: [MediaArea](type/MediaArea)
+###### MediaArea
 
-  - *Represents a story media area »*
+:link: [*Represents a story media area »*](type/MediaArea)
 
 ---
 
-###### :link: [PeerStories](type/PeerStories)
+###### PeerStories
 
-  - *Stories associated to a peer*
+:link: [*Stories associated to a peer*](type/PeerStories)
 
 ---
 
-###### :link: [stories.PeerStories](type/stories.PeerStories)
+###### stories.PeerStories
 
-  - *Active story list of a specific peer*
+:link: [*Active story list of a specific peer*](type/stories.PeerStories)
 
 ---
 
-###### :link: [messages.WebPage](type/messages.WebPage)
+###### messages.WebPage
 
-  - *Contains an instant view webpage*
+:link: [*Contains an instant view webpage*](type/messages.WebPage)
 
 ---
 
-###### :link: [PremiumGiftCodeOption](type/PremiumGiftCodeOption)
+###### PremiumGiftCodeOption
 
-  - *Giveaway option*
+:link: [*Giveaway option*](type/PremiumGiftCodeOption)
 
 ---
 
-###### :link: [payments.CheckedGiftCode](type/payments.CheckedGiftCode)
+###### payments.CheckedGiftCode
 
-  - *Info about a Telegram Premium Giftcode*
+:link: [*Info about a Telegram Premium Giftcode*](type/payments.CheckedGiftCode)
 
 ---
 
-###### :link: [payments.GiveawayInfo](type/payments.GiveawayInfo)
+###### payments.GiveawayInfo
 
-  - *Info about a Telegram Premium Giveaway*
+:link: [*Info about a Telegram Premium Giveaway*](type/payments.GiveawayInfo)
 
 ---
 
-###### :link: [PrepaidGiveaway](type/PrepaidGiveaway)
+###### PrepaidGiveaway
 
-  - *Contains info about a prepaid giveaway »*
+:link: [*Contains info about a prepaid giveaway »*](type/PrepaidGiveaway)
 
 ---
 
-###### :link: [Boost](type/Boost)
+###### Boost
 
-  - *Info about one or more boosts applied by a specific user*
+:link: [*Info about one or more boosts applied by a specific user*](type/Boost)
 
 ---
 
-###### :link: [premium.BoostsList](type/premium.BoostsList)
+###### premium.BoostsList
 
-  - *List of boosts that were applied to a peer by multiple users*
+:link: [*List of boosts that were applied to a peer by multiple users*](type/premium.BoostsList)
 
 ---
 
-###### :link: [MyBoost](type/MyBoost)
+###### MyBoost
 
-  - *Contains information about a single boost slot »*
+:link: [*Contains information about a single boost slot »*](type/MyBoost)
 
 ---
 
-###### :link: [premium.MyBoosts](type/premium.MyBoosts)
+###### premium.MyBoosts
 
-  - *A list of peers we are currently boosting, and how many boost slots we have left*
+:link: [*A list of peers we are currently boosting, and how many boost slots we have left*](type/premium.MyBoosts)
 
 ---
 
-###### :link: [premium.BoostsStatus](type/premium.BoostsStatus)
+###### premium.BoostsStatus
 
-  - *Contains info about the current boost status of a peer*
+:link: [*Contains info about the current boost status of a peer*](type/premium.BoostsStatus)
 
 ---
 
-###### :link: [StoryFwdHeader](type/StoryFwdHeader)
+###### StoryFwdHeader
 
-  - *Contains info about the original poster of a reposted story*
+:link: [*Contains info about the original poster of a reposted story*](type/StoryFwdHeader)
 
 ---
 
-###### :link: [PostInteractionCounters](type/PostInteractionCounters)
+###### PostInteractionCounters
 
-  - *Interaction counters*
+:link: [*Interaction counters*](type/PostInteractionCounters)
 
 ---
 
-###### :link: [stats.StoryStats](type/stats.StoryStats)
+###### stats.StoryStats
 
-  - *Contains statistics about a story*
+:link: [*Contains statistics about a story*](type/stats.StoryStats)
 
 ---
 
-###### :link: [PublicForward](type/PublicForward)
+###### PublicForward
 
-  - *Contains info about the forwards of a story as a message to public chats and reposts by public channels*
+:link: [*Contains info about the forwards of a story as a message to public chats and reposts by public channels*](type/PublicForward)
 
 ---
 
-###### :link: [stats.PublicForwards](type/stats.PublicForwards)
+###### stats.PublicForwards
 
-  - *Contains info about the forwards of a story as a message to public chats and reposts by public channels*
+:link: [*Contains info about the forwards of a story as a message to public chats and reposts by public channels*](type/stats.PublicForwards)
 
 ---
 
-###### :link: [PeerColor](type/PeerColor)
+###### PeerColor
 
-  - *Represents a color palette »*
+:link: [*Represents a color palette »*](type/PeerColor)
 
 ---
 
-###### :link: [help.PeerColorSet](type/help.PeerColorSet)
+###### help.PeerColorSet
 
-  - *Contains info about a color palette »*
+:link: [*Contains info about a color palette »*](type/help.PeerColorSet)
 
 ---
 
-###### :link: [help.PeerColorOption](type/help.PeerColorOption)
+###### help.PeerColorOption
 
-  - *Contains info about a color palette »*
+:link: [*Contains info about a color palette »*](type/help.PeerColorOption)
 
 ---
 
-###### :link: [help.PeerColors](type/help.PeerColors)
+###### help.PeerColors
 
-  - *Contains info about multiple color palettes »*
+:link: [*Contains info about multiple color palettes »*](type/help.PeerColors)
 
 ---
 
-###### :link: [StoryReaction](type/StoryReaction)
+###### StoryReaction
 
-  - *How a certain peer reacted to or interacted with a story*
+:link: [*How a certain peer reacted to or interacted with a story*](type/StoryReaction)
 
 ---
 
-###### :link: [stories.StoryReactionsList](type/stories.StoryReactionsList)
+###### stories.StoryReactionsList
 
-  - *List of peers that reacted to a specific story*
+:link: [*List of peers that reacted to a specific story*](type/stories.StoryReactionsList)
 
 ---
 
-###### :link: [SavedDialog](type/SavedDialog)
+###### SavedDialog
 
-  - *Represents a saved message dialog »*
+:link: [*Represents a saved message dialog »*](type/SavedDialog)
 
 ---
 
-###### :link: [messages.SavedDialogs](type/messages.SavedDialogs)
+###### messages.SavedDialogs
 
-  - *Represents some saved message dialogs »*
+:link: [*Represents some saved message dialogs »*](type/messages.SavedDialogs)
 
 ---
 
-###### :link: [SavedReactionTag](type/SavedReactionTag)
+###### SavedReactionTag
 
-  - *Info about a saved message reaction tag »*
+:link: [*Info about a saved message reaction tag »*](type/SavedReactionTag)
 
 ---
 
-###### :link: [messages.SavedReactionTags](type/messages.SavedReactionTags)
+###### messages.SavedReactionTags
 
-  - *List of reaction tag » names assigned by the user*
+:link: [*List of reaction tag » names assigned by the user*](type/messages.SavedReactionTags)
 
 ---
 
-###### :link: [OutboxReadDate](type/OutboxReadDate)
+###### OutboxReadDate
 
-  - *Exact read date of a private message we sent to another user*
+:link: [*Exact read date of a private message we sent to another user*](type/OutboxReadDate)
 
 ---
 
-###### :link: [smsjobs.EligibilityToJoin](type/smsjobs.EligibilityToJoin)
+###### smsjobs.EligibilityToJoin
 
-  - *SMS jobs eligibility*
+:link: [*SMS jobs eligibility*](type/smsjobs.EligibilityToJoin)
 
 ---
 
-###### :link: [smsjobs.Status](type/smsjobs.Status)
+###### smsjobs.Status
 
-  - *Status*
+:link: [*Status*](type/smsjobs.Status)
 
 ---
 
-###### :link: [SmsJob](type/SmsJob)
+###### SmsJob
 
-  - *Info about an SMS job*
+:link: [*Info about an SMS job*](type/SmsJob)
 
 ---
 
-###### :link: [BusinessWeeklyOpen](type/BusinessWeeklyOpen)
+###### BusinessWeeklyOpen
 
-  - *A time interval, indicating the opening hours of a Telegram Business*
+:link: [*A time interval, indicating the opening hours of a Telegram Business*](type/BusinessWeeklyOpen)
 
 ---
 
-###### :link: [BusinessWorkHours](type/BusinessWorkHours)
+###### BusinessWorkHours
 
-  - *Specifies a set of Telegram Business opening hours*
+:link: [*Specifies a set of Telegram Business opening hours*](type/BusinessWorkHours)
 
 ---
 
-###### :link: [BusinessLocation](type/BusinessLocation)
+###### BusinessLocation
 
-  - *Represents the location of a Telegram Business »*
+:link: [*Represents the location of a Telegram Business »*](type/BusinessLocation)
 
 ---
 
-###### :link: [InputBusinessRecipients](type/InputBusinessRecipients)
+###### InputBusinessRecipients
 
-  - *Specifies the chats that can receive Telegram Business away » and greeting » messages*
+:link: [*Specifies the chats that can receive Telegram Business away » and greeting » messages*](type/InputBusinessRecipients)
 
 ---
 
-###### :link: [BusinessRecipients](type/BusinessRecipients)
+###### BusinessRecipients
 
-  - *Specifies the chats that can receive Telegram Business away » and greeting » messages*
+:link: [*Specifies the chats that can receive Telegram Business away » and greeting » messages*](type/BusinessRecipients)
 
 ---
 
-###### :link: [BusinessAwayMessageSchedule](type/BusinessAwayMessageSchedule)
+###### BusinessAwayMessageSchedule
 
-  - *Specifies when should the Telegram Business away messages be sent*
+:link: [*Specifies when should the Telegram Business away messages be sent*](type/BusinessAwayMessageSchedule)
 
 ---
 
-###### :link: [InputBusinessGreetingMessage](type/InputBusinessGreetingMessage)
+###### InputBusinessGreetingMessage
 
-  - *Describes a Telegram Business greeting, automatically sent to new users writing to us in private for the first time, or after a certain inactivity period*
+:link: [*Describes a Telegram Business greeting, automatically sent to new users writing to us in private for the first time, or after a certain inactivity period*](type/InputBusinessGreetingMessage)
 
 ---
 
-###### :link: [BusinessGreetingMessage](type/BusinessGreetingMessage)
+###### BusinessGreetingMessage
 
-  - *Describes a Telegram Business greeting, automatically sent to new users writing to us in private for the first time, or after a certain inactivity period*
+:link: [*Describes a Telegram Business greeting, automatically sent to new users writing to us in private for the first time, or after a certain inactivity period*](type/BusinessGreetingMessage)
 
 ---
 
-###### :link: [InputBusinessAwayMessage](type/InputBusinessAwayMessage)
+###### InputBusinessAwayMessage
 
-  - *Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*
+:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*](type/InputBusinessAwayMessage)
 
 ---
 
-###### :link: [BusinessAwayMessage](type/BusinessAwayMessage)
+###### BusinessAwayMessage
 
-  - *Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*
+:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*](type/BusinessAwayMessage)
 
 ---
 
-###### :link: [Timezone](type/Timezone)
+###### Timezone
 
-  - *Timezone information*
+:link: [*Timezone information*](type/Timezone)
 
 ---
 
-###### :link: [help.TimezonesList](type/help.TimezonesList)
+###### help.TimezonesList
 
-  - *Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »*
+:link: [*Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »*](type/help.TimezonesList)
 
 ---
 
-###### :link: [QuickReply](type/QuickReply)
+###### QuickReply
 
-  - *A quick reply shortcut*
+:link: [*A quick reply shortcut*](type/QuickReply)
 
 ---
 
-###### :link: [InputQuickReplyShortcut](type/InputQuickReplyShortcut)
+###### InputQuickReplyShortcut
 
-  - *Represents a quick reply shortcut »*
+:link: [*Represents a quick reply shortcut »*](type/InputQuickReplyShortcut)
 
 ---
 
-###### :link: [messages.QuickReplies](type/messages.QuickReplies)
+###### messages.QuickReplies
 
-  - *Info about quick reply shortcuts »*
+:link: [*Info about quick reply shortcuts »*](type/messages.QuickReplies)
 
 ---
 
-###### :link: [ConnectedBot](type/ConnectedBot)
+###### ConnectedBot
 
-  - *Contains info about a connected business bot »*
+:link: [*Contains info about a connected business bot »*](type/ConnectedBot)
 
 ---
 
-###### :link: [account.ConnectedBots](type/account.ConnectedBots)
+###### account.ConnectedBots
 
-  - *Info about currently connected business bots*
+:link: [*Info about currently connected business bots*](type/account.ConnectedBots)
 
 ---
 
-###### :link: [messages.DialogFilters](type/messages.DialogFilters)
+###### messages.DialogFilters
 
-  - *Folder information*
+:link: [*Folder information*](type/messages.DialogFilters)
 
 ---
 
-###### :link: [Birthday](type/Birthday)
+###### Birthday
 
-  - *Birthday information for a user*
+:link: [*Birthday information for a user*](type/Birthday)
 
 ---
 
-###### :link: [BotBusinessConnection](type/BotBusinessConnection)
+###### BotBusinessConnection
 
-  - *Contains info about a bot business connection*
+:link: [*Contains info about a bot business connection*](type/BotBusinessConnection)
 
 ---
 
-###### :link: [InputBusinessIntro](type/InputBusinessIntro)
+###### InputBusinessIntro
 
-  - *Telegram Business introduction »*
+:link: [*Telegram Business introduction »*](type/InputBusinessIntro)
 
 ---
 
-###### :link: [BusinessIntro](type/BusinessIntro)
+###### BusinessIntro
 
-  - *Telegram Business introduction »*
+:link: [*Telegram Business introduction »*](type/BusinessIntro)
 
 ---
 
-###### :link: [messages.MyStickers](type/messages.MyStickers)
+###### messages.MyStickers
 
-  - *The list of stickersets owned by the current account »*
+:link: [*The list of stickersets owned by the current account »*](type/messages.MyStickers)
 
 ---
 
-###### :link: [InputCollectible](type/InputCollectible)
+###### InputCollectible
 
-  - *Represents a Fragment collectible »*
+:link: [*Represents a Fragment collectible »*](type/InputCollectible)
 
 ---
 
-###### :link: [fragment.CollectibleInfo](type/fragment.CollectibleInfo)
+###### fragment.CollectibleInfo
 
-  - *Info about a fragment collectible*
+:link: [*Info about a fragment collectible*](type/fragment.CollectibleInfo)
 
 ---
 
-###### :link: [InputBusinessBotRecipients](type/InputBusinessBotRecipients)
+###### InputBusinessBotRecipients
 
-  - *Specifies the private chats that a connected business bot » may interact with*
+:link: [*Specifies the private chats that a connected business bot » may interact with*](type/InputBusinessBotRecipients)
 
 ---
 
-###### :link: [BusinessBotRecipients](type/BusinessBotRecipients)
+###### BusinessBotRecipients
 
-  - *Specifies the private chats that a connected business bot » may receive messages and interact with*
+:link: [*Specifies the private chats that a connected business bot » may receive messages and interact with*](type/BusinessBotRecipients)
 
 ---
 
-###### :link: [ContactBirthday](type/ContactBirthday)
+###### ContactBirthday
 
-  - *Birthday information of a contact*
+:link: [*Birthday information of a contact*](type/ContactBirthday)
 
 ---
 
-###### :link: [contacts.ContactBirthdays](type/contacts.ContactBirthdays)
+###### contacts.ContactBirthdays
 
-  - *Birthday information of our contacts*
+:link: [*Birthday information of our contacts*](type/contacts.ContactBirthdays)
 
 ---
 
-###### :link: [MissingInvitee](type/MissingInvitee)
+###### MissingInvitee
 
-  - *Info about why a specific user could not be invited »*
+:link: [*Info about why a specific user could not be invited »*](type/MissingInvitee)
 
 ---
 
-###### :link: [messages.InvitedUsers](type/messages.InvitedUsers)
+###### messages.InvitedUsers
 
-  - *Contains info about successfully or unsuccessfully invited » users*
+:link: [*Contains info about successfully or unsuccessfully invited » users*](type/messages.InvitedUsers)
 
 ---
 
-###### :link: [InputBusinessChatLink](type/InputBusinessChatLink)
+###### InputBusinessChatLink
 
-  - *Contains info about a business chat deep link » to be created by the current account*
+:link: [*Contains info about a business chat deep link » to be created by the current account*](type/InputBusinessChatLink)
 
 ---
 
-###### :link: [BusinessChatLink](type/BusinessChatLink)
+###### BusinessChatLink
 
-  - *Contains info about a business chat deep link » created by the current account*
+:link: [*Contains info about a business chat deep link » created by the current account*](type/BusinessChatLink)
 
 ---
 
-###### :link: [account.BusinessChatLinks](type/account.BusinessChatLinks)
+###### account.BusinessChatLinks
 
-  - *Contains info about business chat deep links » created by the current account*
+:link: [*Contains info about business chat deep links » created by the current account*](type/account.BusinessChatLinks)
 
 ---
 
-###### :link: [account.ResolvedBusinessChatLinks](type/account.ResolvedBusinessChatLinks)
+###### account.ResolvedBusinessChatLinks
 
-  - *Contains info about a single resolved business chat deep link »*
+:link: [*Contains info about a single resolved business chat deep link »*](type/account.ResolvedBusinessChatLinks)
 
 ---
 
-###### :link: [RequestedPeer](type/RequestedPeer)
+###### RequestedPeer
 
-  - *Info about a peer, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*
+:link: [*Info about a peer, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*](type/RequestedPeer)
 
 ---
 
-###### :link: [SponsoredMessageReportOption](type/SponsoredMessageReportOption)
+###### SponsoredMessageReportOption
 
-  - *A report option for a sponsored message »*
+:link: [*A report option for a sponsored message »*](type/SponsoredMessageReportOption)
 
 ---
 
-###### :link: [channels.SponsoredMessageReportResult](type/channels.SponsoredMessageReportResult)
+###### channels.SponsoredMessageReportResult
 
-  - *Status of the method call used to report a sponsored message »*
+:link: [*Status of the method call used to report a sponsored message »*](type/channels.SponsoredMessageReportResult)
 
 ---
 
-###### :link: [ReactionNotificationsFrom](type/ReactionNotificationsFrom)
+###### ReactionNotificationsFrom
 
-  - *Reaction notification settings*
+:link: [*Reaction notification settings*](type/ReactionNotificationsFrom)
 
 ---
 
-###### :link: [ReactionsNotifySettings](type/ReactionsNotifySettings)
+###### ReactionsNotifySettings
 
-  - *Reaction notification settings, see here » for more info*
+:link: [*Reaction notification settings, see here » for more info*](type/ReactionsNotifySettings)
 
 ---
 
-###### :link: [AvailableEffect](type/AvailableEffect)
+###### AvailableEffect
 
-  - *Describes a message effect »*
+:link: [*Describes a message effect »*](type/AvailableEffect)
 
 ---
 
-###### :link: [messages.AvailableEffects](type/messages.AvailableEffects)
+###### messages.AvailableEffects
 
-  - *Full list of usable animated message effects »*
+:link: [*Full list of usable animated message effects »*](type/messages.AvailableEffects)
 
 ---
 
-###### :link: [FactCheck](type/FactCheck)
+###### FactCheck
 
-  - *Represents a fact-check » created by an independent fact-checker*
+:link: [*Represents a fact-check » created by an independent fact-checker*](type/FactCheck)
 
 ---
 
-###### :link: [StarsTransactionPeer](type/StarsTransactionPeer)
+###### StarsTransactionPeer
 
-  - *Source of an incoming Telegram Star transaction, or its recipient for outgoing Telegram Star transactions*
+:link: [*Source of an incoming Telegram Star transaction, or its recipient for outgoing Telegram Star transactions*](type/StarsTransactionPeer)
 
 ---
 
-###### :link: [StarsTopupOption](type/StarsTopupOption)
+###### StarsTopupOption
 
-  - *Telegram Stars topup option*
+:link: [*Telegram Stars topup option*](type/StarsTopupOption)
 
 ---
 
-###### :link: [StarsTransaction](type/StarsTransaction)
+###### StarsTransaction
 
-  - *Represents a Telegram Stars transaction »*
+:link: [*Represents a Telegram Stars transaction »*](type/StarsTransaction)
 
 ---
 
-###### :link: [payments.StarsStatus](type/payments.StarsStatus)
+###### payments.StarsStatus
 
-  - *Info about the current Telegram Star subscriptions, balance and transaction history »*
+:link: [*Info about the current Telegram Star subscriptions, balance and transaction history »*](type/payments.StarsStatus)
 
 ---
 
-###### :link: [FoundStory](type/FoundStory)
+###### FoundStory
 
-  - *A story found using global story search »*
+:link: [*A story found using global story search »*](type/FoundStory)
 
 ---
 
-###### :link: [stories.FoundStories](type/stories.FoundStories)
+###### stories.FoundStories
 
-  - *Stories found using global story search »*
+:link: [*Stories found using global story search »*](type/stories.FoundStories)
 
 ---
 
-###### :link: [GeoPointAddress](type/GeoPointAddress)
+###### GeoPointAddress
 
-  - *Address optionally associated to a geoPoint*
+:link: [*Address optionally associated to a geoPoint*](type/GeoPointAddress)
 
 ---
 
-###### :link: [StarsRevenueStatus](type/StarsRevenueStatus)
+###### StarsRevenueStatus
 
-  - *Describes Telegram Star revenue balances »*
+:link: [*Describes Telegram Star revenue balances »*](type/StarsRevenueStatus)
 
 ---
 
-###### :link: [payments.StarsRevenueStats](type/payments.StarsRevenueStats)
+###### payments.StarsRevenueStats
 
-  - *Star revenue statistics, see here » for more info*
+:link: [*Star revenue statistics, see here » for more info*](type/payments.StarsRevenueStats)
 
 ---
 
-###### :link: [payments.StarsRevenueWithdrawalUrl](type/payments.StarsRevenueWithdrawalUrl)
+###### payments.StarsRevenueWithdrawalUrl
 
-  - *Contains the URL to use to withdraw Telegram Star revenue*
+:link: [*Contains the URL to use to withdraw Telegram Star revenue*](type/payments.StarsRevenueWithdrawalUrl)
 
 ---
 
-###### :link: [payments.StarsRevenueAdsAccountUrl](type/payments.StarsRevenueAdsAccountUrl)
+###### payments.StarsRevenueAdsAccountUrl
 
-  - *Contains a URL leading to a page where the user will be able to place ads for the channel/bot, paying using Telegram Stars*
+:link: [*Contains a URL leading to a page where the user will be able to place ads for the channel/bot, paying using Telegram Stars*](type/payments.StarsRevenueAdsAccountUrl)
 
 ---
 
-###### :link: [InputStarsTransaction](type/InputStarsTransaction)
+###### InputStarsTransaction
 
-  - *Used to fetch info about a Telegram Star transaction »*
+:link: [*Used to fetch info about a Telegram Star transaction »*](type/InputStarsTransaction)
 
 ---
 
-###### :link: [StarsGiftOption](type/StarsGiftOption)
+###### StarsGiftOption
 
-  - *Telegram Stars gift option*
+:link: [*Telegram Stars gift option*](type/StarsGiftOption)
 
 ---
 
-###### :link: [bots.PopularAppBots](type/bots.PopularAppBots)
+###### bots.PopularAppBots
 
-  - *Popular Main Mini Apps, to be used in the apps tab of global search »*
+:link: [*Popular Main Mini Apps, to be used in the apps tab of global search »*](type/bots.PopularAppBots)
 
 ---
 
-###### :link: [BotPreviewMedia](type/BotPreviewMedia)
+###### BotPreviewMedia
 
-  - *Represents a Main Mini App preview media, see here » for more info*
+:link: [*Represents a Main Mini App preview media, see here » for more info*](type/BotPreviewMedia)
 
 ---
 
-###### :link: [bots.PreviewInfo](type/bots.PreviewInfo)
+###### bots.PreviewInfo
 
-  - *Contains info about Main Mini App previews, see here » for more info*
+:link: [*Contains info about Main Mini App previews, see here » for more info*](type/bots.PreviewInfo)
 
 ---
 
-###### :link: [StarsSubscriptionPricing](type/StarsSubscriptionPricing)
+###### StarsSubscriptionPricing
 
-  - *Pricing of a Telegram Star subscription »*
+:link: [*Pricing of a Telegram Star subscription »*](type/StarsSubscriptionPricing)
 
 ---
 
-###### :link: [StarsSubscription](type/StarsSubscription)
+###### StarsSubscription
 
-  - *Represents a Telegram Star subscription »*
+:link: [*Represents a Telegram Star subscription »*](type/StarsSubscription)
 
 ---
 
-###### :link: [MessageReactor](type/MessageReactor)
+###### MessageReactor
 
-  - *Info about a user in the paid Star reactions leaderboard for a message*
+:link: [*Info about a user in the paid Star reactions leaderboard for a message*](type/MessageReactor)
 
 ---
 
-###### :link: [StarsGiveawayOption](type/StarsGiveawayOption)
+###### StarsGiveawayOption
 
-  - *Contains info about a Telegram Star giveaway option*
+:link: [*Contains info about a Telegram Star giveaway option*](type/StarsGiveawayOption)
 
 ---
 
-###### :link: [StarsGiveawayWinnersOption](type/StarsGiveawayWinnersOption)
+###### StarsGiveawayWinnersOption
 
-  - *Represents a possible option for the number of winners in a star giveaway*
+:link: [*Represents a possible option for the number of winners in a star giveaway*](type/StarsGiveawayWinnersOption)
 
 ---
 
-###### :link: [StarGift](type/StarGift)
+###### StarGift
 
-  - *Represents a star gift, see here » for more info*
+:link: [*Represents a star gift, see here » for more info*](type/StarGift)
 
 ---
 
-###### :link: [payments.StarGifts](type/payments.StarGifts)
+###### payments.StarGifts
 
-  - *Available gifts »*
+:link: [*Available gifts »*](type/payments.StarGifts)
 
 ---
 
-###### :link: [MessageReportOption](type/MessageReportOption)
+###### MessageReportOption
 
-  - *Report menu option*
+:link: [*Report menu option*](type/MessageReportOption)
 
 ---
 
-###### :link: [ReportResult](type/ReportResult)
+###### ReportResult
 
-  - *Represents a report menu or result*
+:link: [*Represents a report menu or result*](type/ReportResult)
 
 ---
 
-###### :link: [messages.BotPreparedInlineMessage](type/messages.BotPreparedInlineMessage)
+###### messages.BotPreparedInlineMessage
 
-  - *Represents a prepared inline message saved by a bot, to be sent to the user via a web app »*
+:link: [*Represents a prepared inline message saved by a bot, to be sent to the user via a web app »*](type/messages.BotPreparedInlineMessage)
 
 ---
 
-###### :link: [messages.PreparedInlineMessage](type/messages.PreparedInlineMessage)
+###### messages.PreparedInlineMessage
 
-  - *Represents a prepared inline message received via a bot's mini app, that can be sent to some chats »*
+:link: [*Represents a prepared inline message received via a bot's mini app, that can be sent to some chats »*](type/messages.PreparedInlineMessage)
 
 ---
 
-###### :link: [BotAppSettings](type/BotAppSettings)
+###### BotAppSettings
 
-  - *Mini app » settings*
+:link: [*Mini app » settings*](type/BotAppSettings)
 
 ---
 
-###### :link: [StarRefProgram](type/StarRefProgram)
+###### StarRefProgram
 
-  - *Indo about an affiliate program offered by a bot*
+:link: [*Indo about an affiliate program offered by a bot*](type/StarRefProgram)
 
 ---
 
-###### :link: [ConnectedBotStarRef](type/ConnectedBotStarRef)
+###### ConnectedBotStarRef
 
-  - *Info about an active affiliate program we have with a Mini App*
+:link: [*Info about an active affiliate program we have with a Mini App*](type/ConnectedBotStarRef)
 
 ---
 
-###### :link: [payments.ConnectedStarRefBots](type/payments.ConnectedStarRefBots)
+###### payments.ConnectedStarRefBots
 
-  - *Active affiliations*
+:link: [*Active affiliations*](type/payments.ConnectedStarRefBots)
 
 ---
 
-###### :link: [payments.SuggestedStarRefBots](type/payments.SuggestedStarRefBots)
+###### payments.SuggestedStarRefBots
 
-  - *A list of suggested mini apps with available affiliate programs*
+:link: [*A list of suggested mini apps with available affiliate programs*](type/payments.SuggestedStarRefBots)
 
 ---
 
-###### :link: [StarsAmount](type/StarsAmount)
+###### StarsAmount
 
-  - *Describes a real (i.e. possibly decimal) amount of Telegram Stars*
+:link: [*Describes a real (i.e. possibly decimal) amount of Telegram Stars*](type/StarsAmount)
 
 ---
 
-###### :link: [messages.FoundStickers](type/messages.FoundStickers)
+###### messages.FoundStickers
 
-  - *Found stickers*
+:link: [*Found stickers*](type/messages.FoundStickers)
 
 ---
 
-###### :link: [BotVerifierSettings](type/BotVerifierSettings)
+###### BotVerifierSettings
 
+:link: [*NOTHING*](type/BotVerifierSettings)
+
 ---
+
+###### BotVerification
 
-###### :link: [BotVerification](type/BotVerification)
+:link: [*NOTHING*](type/BotVerification)
 
 ---
 
-###### :link: [StarGiftAttribute](type/StarGiftAttribute)
+###### StarGiftAttribute
 
+:link: [*NOTHING*](type/StarGiftAttribute)
+
 ---
+
+###### payments.StarGiftUpgradePreview
 
-###### :link: [payments.StarGiftUpgradePreview](type/payments.StarGiftUpgradePreview)
+:link: [*NOTHING*](type/payments.StarGiftUpgradePreview)
 
 ---
 
-###### :link: [users.Users](type/users.Users)
+###### users.Users
 
+:link: [*NOTHING*](type/users.Users)
+
 ---
+
+###### payments.UniqueStarGift
 
-###### :link: [payments.UniqueStarGift](type/payments.UniqueStarGift)
+:link: [*NOTHING*](type/payments.UniqueStarGift)
 
 ---
 
-###### :link: [messages.WebPagePreview](type/messages.WebPagePreview)
+###### messages.WebPagePreview
 
+:link: [*NOTHING*](type/messages.WebPagePreview)
+
 ---
+
+###### SavedStarGift
 
-###### :link: [SavedStarGift](type/SavedStarGift)
+:link: [*NOTHING*](type/SavedStarGift)
 
 ---
 
-###### :link: [payments.SavedStarGifts](type/payments.SavedStarGifts)
+###### payments.SavedStarGifts
 
+:link: [*NOTHING*](type/payments.SavedStarGifts)
+
 ---
+
+###### InputSavedStarGift
 
-###### :link: [InputSavedStarGift](type/InputSavedStarGift)
+:link: [*NOTHING*](type/InputSavedStarGift)
 
 ---
 
-###### :link: [payments.StarGiftWithdrawalUrl](type/payments.StarGiftWithdrawalUrl)
+###### payments.StarGiftWithdrawalUrl
 
+:link: [*NOTHING*](type/payments.StarGiftWithdrawalUrl)
+
 ---
+
+###### PaidReactionPrivacy
 
-###### :link: [PaidReactionPrivacy](type/PaidReactionPrivacy)
+:link: [*NOTHING*](type/PaidReactionPrivacy)
 
 ---
 
-###### :link: [account.PaidMessagesRevenue](type/account.PaidMessagesRevenue)
+###### account.PaidMessagesRevenue
 
+:link: [*NOTHING*](type/account.PaidMessagesRevenue)
+
 ---
+
+###### RequirementToContact
 
-###### :link: [RequirementToContact](type/RequirementToContact)
+:link: [*NOTHING*](type/RequirementToContact)
 
 ---
 
-###### :link: [BusinessBotRights](type/BusinessBotRights)
+###### BusinessBotRights
 
+:link: [*NOTHING*](type/BusinessBotRights)
+
 ---
+
+###### DisallowedGiftsSettings
 
-###### :link: [DisallowedGiftsSettings](type/DisallowedGiftsSettings)
+:link: [*NOTHING*](type/DisallowedGiftsSettings)
 
 ---
 
-###### :link: [SponsoredPeer](type/SponsoredPeer)
+###### SponsoredPeer
 
+:link: [*NOTHING*](type/SponsoredPeer)
+
 ---
+
+###### contacts.SponsoredPeers
 
-###### :link: [contacts.SponsoredPeers](type/contacts.SponsoredPeers)
+:link: [*NOTHING*](type/contacts.SponsoredPeers)
 
 ---
 
-###### :link: [StarGiftAttributeId](type/StarGiftAttributeId)
+###### StarGiftAttributeId
 
+:link: [*NOTHING*](type/StarGiftAttributeId)
+
 ---
+
+###### StarGiftAttributeCounter
 
-###### :link: [StarGiftAttributeCounter](type/StarGiftAttributeCounter)
+:link: [*NOTHING*](type/StarGiftAttributeCounter)
 
 ---
 
-###### :link: [payments.ResaleStarGifts](type/payments.ResaleStarGifts)
+###### payments.ResaleStarGifts
 
+:link: [*NOTHING*](type/payments.ResaleStarGifts)
+
 ---
+
+###### stories.CanSendStoryCount
 
-###### :link: [stories.CanSendStoryCount](type/stories.CanSendStoryCount)
+:link: [*NOTHING*](type/stories.CanSendStoryCount)
 
 ---
 
-###### :link: [PendingSuggestion](type/PendingSuggestion)
+###### PendingSuggestion
 
+:link: [*NOTHING*](type/PendingSuggestion)
+
 ---
+
+###### TodoItem
 
-###### :link: [TodoItem](type/TodoItem)
+:link: [*NOTHING*](type/TodoItem)
 
 ---
 
-###### :link: [TodoList](type/TodoList)
+###### TodoList
 
+:link: [*NOTHING*](type/TodoList)
+
 ---
+
+###### TodoCompletion
 
-###### :link: [TodoCompletion](type/TodoCompletion)
+:link: [*NOTHING*](type/TodoCompletion)
 
 ---
 
-###### :link: [SuggestedPost](type/SuggestedPost)
+###### SuggestedPost
 
+:link: [*NOTHING*](type/SuggestedPost)
+
 ---
+
+###### StarsRating
 
-###### :link: [StarsRating](type/StarsRating)
+:link: [*NOTHING*](type/StarsRating)
 
 ---
 
-###### :link: [StarGiftCollection](type/StarGiftCollection)
+###### StarGiftCollection
 
+:link: [*NOTHING*](type/StarGiftCollection)
+
 ---
+
+###### payments.StarGiftCollections
 
-###### :link: [payments.StarGiftCollections](type/payments.StarGiftCollections)
+:link: [*NOTHING*](type/payments.StarGiftCollections)
 
 ---
 
-###### :link: [StoryAlbum](type/StoryAlbum)
+###### StoryAlbum
 
+:link: [*NOTHING*](type/StoryAlbum)
+
 ---
 
-###### :link: [stories.Albums](type/stories.Albums)
+###### stories.Albums
 
+:link: [*NOTHING*](type/stories.Albums)
+
 ---
+
+###### SearchPostsFlood
 
-###### :link: [SearchPostsFlood](type/SearchPostsFlood)
+:link: [*NOTHING*](type/SearchPostsFlood)

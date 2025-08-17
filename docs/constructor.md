@@ -3,8562 +3,8738 @@
 
 ---
 
-###### :link: [boolFalse](constructor/boolFalse)
+###### boolFalse
 
-  - *Constructor may be interpreted as a booleanfalse value*
+:link: [*Constructor may be interpreted as a booleanfalse value*](constructor/boolFalse)
 
 ---
 
-###### :link: [boolTrue](constructor/boolTrue)
+###### boolTrue
 
-  - *The constructor can be interpreted as a booleantrue value*
+:link: [*The constructor can be interpreted as a booleantrue value*](constructor/boolTrue)
 
 ---
 
-###### :link: [true](constructor/true)
+###### true
 
-  - *See predefined identifiers*
+:link: [*See predefined identifiers*](constructor/true)
 
 ---
 
-###### :link: [error](constructor/error)
+###### error
 
-  - *Error*
+:link: [*Error*](constructor/error)
 
 ---
 
-###### :link: [null](constructor/null)
+###### null
 
-  - *Corresponds to an arbitrary empty object*
+:link: [*Corresponds to an arbitrary empty object*](constructor/null)
 
 ---
 
-###### :link: [inputPeerEmpty](constructor/inputPeerEmpty)
+###### inputPeerEmpty
 
-  - *An empty constructor, no user or chat is defined*
+:link: [*An empty constructor, no user or chat is defined*](constructor/inputPeerEmpty)
 
 ---
 
-###### :link: [inputPeerSelf](constructor/inputPeerSelf)
+###### inputPeerSelf
 
-  - *Defines the current user*
+:link: [*Defines the current user*](constructor/inputPeerSelf)
 
 ---
 
-###### :link: [inputPeerChat](constructor/inputPeerChat)
+###### inputPeerChat
 
-  - *Defines a chat for further interaction*
+:link: [*Defines a chat for further interaction*](constructor/inputPeerChat)
 
 ---
 
-###### :link: [inputPeerUser](constructor/inputPeerUser)
+###### inputPeerUser
 
-  - *Defines a user for further interaction*
+:link: [*Defines a user for further interaction*](constructor/inputPeerUser)
 
 ---
 
-###### :link: [inputPeerChannel](constructor/inputPeerChannel)
+###### inputPeerChannel
 
-  - *Defines a channel for further interaction*
+:link: [*Defines a channel for further interaction*](constructor/inputPeerChannel)
 
 ---
 
-###### :link: [inputPeerUserFromMessage](constructor/inputPeerUserFromMessage)
+###### inputPeerUserFromMessage
 
-  - *Defines a min user that was seen in a certain message of a certain chat*
+:link: [*Defines a min user that was seen in a certain message of a certain chat*](constructor/inputPeerUserFromMessage)
 
 ---
 
-###### :link: [inputPeerChannelFromMessage](constructor/inputPeerChannelFromMessage)
+###### inputPeerChannelFromMessage
 
-  - *Defines a min channel that was seen in a certain message of a certain chat*
+:link: [*Defines a min channel that was seen in a certain message of a certain chat*](constructor/inputPeerChannelFromMessage)
 
 ---
 
-###### :link: [inputUserEmpty](constructor/inputUserEmpty)
+###### inputUserEmpty
 
-  - *Empty constructor, does not define a user*
+:link: [*Empty constructor, does not define a user*](constructor/inputUserEmpty)
 
 ---
 
-###### :link: [inputUserSelf](constructor/inputUserSelf)
+###### inputUserSelf
 
-  - *Defines the current user*
+:link: [*Defines the current user*](constructor/inputUserSelf)
 
 ---
 
-###### :link: [inputUser](constructor/inputUser)
+###### inputUser
 
-  - *Defines a user for further interaction*
+:link: [*Defines a user for further interaction*](constructor/inputUser)
 
 ---
 
-###### :link: [inputUserFromMessage](constructor/inputUserFromMessage)
+###### inputUserFromMessage
 
-  - *Defines a min user that was seen in a certain message of a certain chat*
+:link: [*Defines a min user that was seen in a certain message of a certain chat*](constructor/inputUserFromMessage)
 
 ---
 
-###### :link: [inputPhoneContact](constructor/inputPhoneContact)
+###### inputPhoneContact
 
-  - *Phone contact*
+:link: [*Phone contact*](constructor/inputPhoneContact)
 
 ---
 
-###### :link: [inputFile](constructor/inputFile)
+###### inputFile
 
-  - *Defines a file saved in parts using the method upload.saveFilePart*
+:link: [*Defines a file saved in parts using the method upload.saveFilePart*](constructor/inputFile)
 
 ---
 
-###### :link: [inputFileBig](constructor/inputFileBig)
+###### inputFileBig
 
-  - *Assigns a big file (over 10 MB in size), saved in part using the method upload.saveBigFilePart*
+:link: [*Assigns a big file (over 10 MB in size), saved in part using the method upload.saveBigFilePart*](constructor/inputFileBig)
 
 ---
 
-###### :link: [inputFileStoryDocument](constructor/inputFileStoryDocument)
+###### inputFileStoryDocument
 
-  - *Used to edit the thumbnail/static preview of a story, see here » for more info on the full flow*
+:link: [*Used to edit the thumbnail/static preview of a story, see here » for more info on the full flow*](constructor/inputFileStoryDocument)
 
 ---
 
-###### :link: [inputMediaEmpty](constructor/inputMediaEmpty)
+###### inputMediaEmpty
 
-  - *Empty media content of a message*
+:link: [*Empty media content of a message*](constructor/inputMediaEmpty)
 
 ---
 
-###### :link: [inputMediaUploadedPhoto](constructor/inputMediaUploadedPhoto)
+###### inputMediaUploadedPhoto
 
-  - *Photo*
+:link: [*Photo*](constructor/inputMediaUploadedPhoto)
 
 ---
 
-###### :link: [inputMediaPhoto](constructor/inputMediaPhoto)
+###### inputMediaPhoto
 
-  - *Forwarded photo*
+:link: [*Forwarded photo*](constructor/inputMediaPhoto)
 
 ---
 
-###### :link: [inputMediaGeoPoint](constructor/inputMediaGeoPoint)
+###### inputMediaGeoPoint
 
-  - *Map*
+:link: [*Map*](constructor/inputMediaGeoPoint)
 
 ---
 
-###### :link: [inputMediaContact](constructor/inputMediaContact)
+###### inputMediaContact
 
-  - *Phone book contact*
+:link: [*Phone book contact*](constructor/inputMediaContact)
 
 ---
 
-###### :link: [inputMediaUploadedDocument](constructor/inputMediaUploadedDocument)
+###### inputMediaUploadedDocument
 
-  - *New document*
+:link: [*New document*](constructor/inputMediaUploadedDocument)
 
 ---
 
-###### :link: [inputMediaDocument](constructor/inputMediaDocument)
+###### inputMediaDocument
 
-  - *Forwarded document*
+:link: [*Forwarded document*](constructor/inputMediaDocument)
 
 ---
 
-###### :link: [inputMediaVenue](constructor/inputMediaVenue)
+###### inputMediaVenue
 
-  - *Can be used to send a venue geolocation*
+:link: [*Can be used to send a venue geolocation*](constructor/inputMediaVenue)
 
 ---
 
-###### :link: [inputMediaPhotoExternal](constructor/inputMediaPhotoExternal)
+###### inputMediaPhotoExternal
 
-  - *New photo that will be uploaded by the server using the specified URL*
+:link: [*New photo that will be uploaded by the server using the specified URL*](constructor/inputMediaPhotoExternal)
 
 ---
 
-###### :link: [inputMediaDocumentExternal](constructor/inputMediaDocumentExternal)
+###### inputMediaDocumentExternal
 
-  - *Document that will be downloaded by the telegram servers*
+:link: [*Document that will be downloaded by the telegram servers*](constructor/inputMediaDocumentExternal)
 
 ---
 
-###### :link: [inputMediaGame](constructor/inputMediaGame)
+###### inputMediaGame
 
-  - *A game*
+:link: [*A game*](constructor/inputMediaGame)
 
 ---
 
-###### :link: [inputMediaInvoice](constructor/inputMediaInvoice)
+###### inputMediaInvoice
 
-  - *Generated invoice of a bot payment*
+:link: [*Generated invoice of a bot payment*](constructor/inputMediaInvoice)
 
 ---
 
-###### :link: [inputMediaGeoLive](constructor/inputMediaGeoLive)
+###### inputMediaGeoLive
 
-  - *Live geolocation*
+:link: [*Live geolocation*](constructor/inputMediaGeoLive)
 
 ---
 
-###### :link: [inputMediaPoll](constructor/inputMediaPoll)
+###### inputMediaPoll
 
-  - *A poll*
+:link: [*A poll*](constructor/inputMediaPoll)
 
 ---
 
-###### :link: [inputMediaDice](constructor/inputMediaDice)
+###### inputMediaDice
 
-  - *Send a dice-based animated sticker*
+:link: [*Send a dice-based animated sticker*](constructor/inputMediaDice)
 
 ---
 
-###### :link: [inputMediaStory](constructor/inputMediaStory)
+###### inputMediaStory
 
-  - *Forwarded story*
+:link: [*Forwarded story*](constructor/inputMediaStory)
 
 ---
 
-###### :link: [inputMediaWebPage](constructor/inputMediaWebPage)
+###### inputMediaWebPage
 
-  - *Specifies options that will be used to generate the link preview for the caption, or even a standalone link preview without an attached message*
+:link: [*Specifies options that will be used to generate the link preview for the caption, or even a standalone link preview without an attached message*](constructor/inputMediaWebPage)
 
 ---
 
-###### :link: [inputMediaPaidMedia](constructor/inputMediaPaidMedia)
+###### inputMediaPaidMedia
 
-  - *Paid media, see here » for more info*
+:link: [*Paid media, see here » for more info*](constructor/inputMediaPaidMedia)
 
 ---
 
-###### :link: [inputMediaTodo](constructor/inputMediaTodo)
+###### inputMediaTodo
 
+:link: [*NOTHING*](constructor/inputMediaTodo)
+
 ---
 
-###### :link: [inputChatPhotoEmpty](constructor/inputChatPhotoEmpty)
+###### inputChatPhotoEmpty
 
-  - *Empty constructor, remove group photo*
+:link: [*Empty constructor, remove group photo*](constructor/inputChatPhotoEmpty)
 
 ---
 
-###### :link: [inputChatUploadedPhoto](constructor/inputChatUploadedPhoto)
+###### inputChatUploadedPhoto
 
-  - *New photo to be set as group profile photo*
+:link: [*New photo to be set as group profile photo*](constructor/inputChatUploadedPhoto)
 
 ---
 
-###### :link: [inputChatPhoto](constructor/inputChatPhoto)
+###### inputChatPhoto
 
-  - *Existing photo to be set as a chat profile photo*
+:link: [*Existing photo to be set as a chat profile photo*](constructor/inputChatPhoto)
 
 ---
 
-###### :link: [inputGeoPointEmpty](constructor/inputGeoPointEmpty)
+###### inputGeoPointEmpty
 
-  - *Empty GeoPoint constructor*
+:link: [*Empty GeoPoint constructor*](constructor/inputGeoPointEmpty)
 
 ---
 
-###### :link: [inputGeoPoint](constructor/inputGeoPoint)
+###### inputGeoPoint
 
-  - *Defines a GeoPoint by its coordinates*
+:link: [*Defines a GeoPoint by its coordinates*](constructor/inputGeoPoint)
 
 ---
 
-###### :link: [inputPhotoEmpty](constructor/inputPhotoEmpty)
+###### inputPhotoEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/inputPhotoEmpty)
 
 ---
 
-###### :link: [inputPhoto](constructor/inputPhoto)
+###### inputPhoto
 
-  - *Defines a photo for further interaction*
+:link: [*Defines a photo for further interaction*](constructor/inputPhoto)
 
 ---
 
-###### :link: [inputFileLocation](constructor/inputFileLocation)
+###### inputFileLocation
 
-  - *DEPRECATED location of a photo*
+:link: [*DEPRECATED location of a photo*](constructor/inputFileLocation)
 
 ---
 
-###### :link: [inputEncryptedFileLocation](constructor/inputEncryptedFileLocation)
+###### inputEncryptedFileLocation
 
-  - *Location of encrypted secret chat file*
+:link: [*Location of encrypted secret chat file*](constructor/inputEncryptedFileLocation)
 
 ---
 
-###### :link: [inputDocumentFileLocation](constructor/inputDocumentFileLocation)
+###### inputDocumentFileLocation
 
-  - *Document location (video, voice, audio, basically every type except photo)*
+:link: [*Document location (video, voice, audio, basically every type except photo)*](constructor/inputDocumentFileLocation)
 
 ---
 
-###### :link: [inputSecureFileLocation](constructor/inputSecureFileLocation)
+###### inputSecureFileLocation
 
-  - *Location of encrypted telegram passport file*
+:link: [*Location of encrypted telegram passport file*](constructor/inputSecureFileLocation)
 
 ---
 
-###### :link: [inputTakeoutFileLocation](constructor/inputTakeoutFileLocation)
+###### inputTakeoutFileLocation
 
-  - *Used to download a JSON file that will contain all personal data related to features that do not have a specialized takeout method yet, see here » for more info on the takeout API*
+:link: [*Used to download a JSON file that will contain all personal data related to features that do not have a specialized takeout method yet, see here » for more info on the takeout API*](constructor/inputTakeoutFileLocation)
 
 ---
 
-###### :link: [inputPhotoFileLocation](constructor/inputPhotoFileLocation)
+###### inputPhotoFileLocation
 
-  - *Use this object to download a photo with upload.getFile method*
+:link: [*Use this object to download a photo with upload.getFile method*](constructor/inputPhotoFileLocation)
 
 ---
 
-###### :link: [inputPhotoLegacyFileLocation](constructor/inputPhotoLegacyFileLocation)
+###### inputPhotoLegacyFileLocation
 
-  - *DEPRECATED legacy photo file location*
+:link: [*DEPRECATED legacy photo file location*](constructor/inputPhotoLegacyFileLocation)
 
 ---
 
-###### :link: [inputPeerPhotoFileLocation](constructor/inputPeerPhotoFileLocation)
+###### inputPeerPhotoFileLocation
 
-  - *Location of profile photo of channel/group/supergroup/user*
+:link: [*Location of profile photo of channel/group/supergroup/user*](constructor/inputPeerPhotoFileLocation)
 
 ---
 
-###### :link: [inputStickerSetThumb](constructor/inputStickerSetThumb)
+###### inputStickerSetThumb
 
-  - *Location of stickerset thumbnail (see files)*
+:link: [*Location of stickerset thumbnail (see files)*](constructor/inputStickerSetThumb)
 
 ---
 
-###### :link: [inputGroupCallStream](constructor/inputGroupCallStream)
+###### inputGroupCallStream
 
-  - *Chunk of a livestream*
+:link: [*Chunk of a livestream*](constructor/inputGroupCallStream)
 
 ---
 
-###### :link: [peerUser](constructor/peerUser)
+###### peerUser
 
-  - *Chat partner*
+:link: [*Chat partner*](constructor/peerUser)
 
 ---
 
-###### :link: [peerChat](constructor/peerChat)
+###### peerChat
 
-  - *Group*
+:link: [*Group*](constructor/peerChat)
 
 ---
 
-###### :link: [peerChannel](constructor/peerChannel)
+###### peerChannel
 
-  - *Channel/supergroup*
+:link: [*Channel/supergroup*](constructor/peerChannel)
 
 ---
 
-###### :link: [storage.fileUnknown](constructor/storage.fileUnknown)
+###### storage.fileUnknown
 
-  - *Unknown type*
+:link: [*Unknown type*](constructor/storage.fileUnknown)
 
 ---
 
-###### :link: [storage.filePartial](constructor/storage.filePartial)
+###### storage.filePartial
 
-  - *Part of a bigger file*
+:link: [*Part of a bigger file*](constructor/storage.filePartial)
 
 ---
 
-###### :link: [storage.fileJpeg](constructor/storage.fileJpeg)
+###### storage.fileJpeg
 
-  - *JPEG image. MIME type: image/jpeg*
+:link: [*JPEG image. MIME type: image/jpeg*](constructor/storage.fileJpeg)
 
 ---
 
-###### :link: [storage.fileGif](constructor/storage.fileGif)
+###### storage.fileGif
 
-  - *GIF image. MIME type: image/gif*
+:link: [*GIF image. MIME type: image/gif*](constructor/storage.fileGif)
 
 ---
 
-###### :link: [storage.filePng](constructor/storage.filePng)
+###### storage.filePng
 
-  - *PNG image. MIME type: image/png*
+:link: [*PNG image. MIME type: image/png*](constructor/storage.filePng)
 
 ---
 
-###### :link: [storage.filePdf](constructor/storage.filePdf)
+###### storage.filePdf
 
-  - *PDF document image. MIME type: application/pdf*
+:link: [*PDF document image. MIME type: application/pdf*](constructor/storage.filePdf)
 
 ---
 
-###### :link: [storage.fileMp3](constructor/storage.fileMp3)
+###### storage.fileMp3
 
-  - *Mp3 audio. MIME type: audio/mpeg*
+:link: [*Mp3 audio. MIME type: audio/mpeg*](constructor/storage.fileMp3)
 
 ---
 
-###### :link: [storage.fileMov](constructor/storage.fileMov)
+###### storage.fileMov
 
-  - *Quicktime video. MIME type: video/quicktime*
+:link: [*Quicktime video. MIME type: video/quicktime*](constructor/storage.fileMov)
 
 ---
 
-###### :link: [storage.fileMp4](constructor/storage.fileMp4)
+###### storage.fileMp4
 
-  - *MPEG-4 video. MIME type: video/mp4*
+:link: [*MPEG-4 video. MIME type: video/mp4*](constructor/storage.fileMp4)
 
 ---
 
-###### :link: [storage.fileWebp](constructor/storage.fileWebp)
+###### storage.fileWebp
 
-  - *WEBP image. MIME type: image/webp*
+:link: [*WEBP image. MIME type: image/webp*](constructor/storage.fileWebp)
 
 ---
 
-###### :link: [userEmpty](constructor/userEmpty)
+###### userEmpty
 
-  - *Empty constructor, non-existent user*
+:link: [*Empty constructor, non-existent user*](constructor/userEmpty)
 
 ---
 
-###### :link: [user](constructor/user)
+###### user
 
-  - *Indicates info about a certain user*
+:link: [*Indicates info about a certain user*](constructor/user)
 
 ---
 
-###### :link: [userProfilePhotoEmpty](constructor/userProfilePhotoEmpty)
+###### userProfilePhotoEmpty
 
-  - *Profile photo has not been set, or was hidden*
+:link: [*Profile photo has not been set, or was hidden*](constructor/userProfilePhotoEmpty)
 
 ---
 
-###### :link: [userProfilePhoto](constructor/userProfilePhoto)
+###### userProfilePhoto
 
-  - *User profile photo*
+:link: [*User profile photo*](constructor/userProfilePhoto)
 
 ---
 
-###### :link: [userStatusEmpty](constructor/userStatusEmpty)
+###### userStatusEmpty
 
-  - *User status has not been set yet*
+:link: [*User status has not been set yet*](constructor/userStatusEmpty)
 
 ---
 
-###### :link: [userStatusOnline](constructor/userStatusOnline)
+###### userStatusOnline
 
-  - *Online status of the user*
+:link: [*Online status of the user*](constructor/userStatusOnline)
 
 ---
 
-###### :link: [userStatusOffline](constructor/userStatusOffline)
+###### userStatusOffline
 
-  - *The user's offline status*
+:link: [*The user's offline status*](constructor/userStatusOffline)
 
 ---
 
-###### :link: [userStatusRecently](constructor/userStatusRecently)
+###### userStatusRecently
 
-  - *Online status: last seen recently*
+:link: [*Online status: last seen recently*](constructor/userStatusRecently)
 
 ---
 
-###### :link: [userStatusLastWeek](constructor/userStatusLastWeek)
+###### userStatusLastWeek
 
-  - *Online status: last seen last week*
+:link: [*Online status: last seen last week*](constructor/userStatusLastWeek)
 
 ---
 
-###### :link: [userStatusLastMonth](constructor/userStatusLastMonth)
+###### userStatusLastMonth
 
-  - *Online status: last seen last month*
+:link: [*Online status: last seen last month*](constructor/userStatusLastMonth)
 
 ---
 
-###### :link: [chatEmpty](constructor/chatEmpty)
+###### chatEmpty
 
-  - *Empty constructor, group doesn't exist*
+:link: [*Empty constructor, group doesn't exist*](constructor/chatEmpty)
 
 ---
 
-###### :link: [chat](constructor/chat)
+###### chat
 
-  - *Info about a group*
+:link: [*Info about a group*](constructor/chat)
 
 ---
 
-###### :link: [chatForbidden](constructor/chatForbidden)
+###### chatForbidden
 
-  - *A group to which the user has no access. E.g., because the user was kicked from the group*
+:link: [*A group to which the user has no access. E.g., because the user was kicked from the group*](constructor/chatForbidden)
 
 ---
 
-###### :link: [channel](constructor/channel)
+###### channel
 
-  - *Channel/supergroup info*
+:link: [*Channel/supergroup info*](constructor/channel)
 
 ---
 
-###### :link: [channelForbidden](constructor/channelForbidden)
+###### channelForbidden
 
-  - *Indicates a channel/supergroup we can't access because we were banned, or for some other reason*
+:link: [*Indicates a channel/supergroup we can't access because we were banned, or for some other reason*](constructor/channelForbidden)
 
 ---
 
-###### :link: [chatFull](constructor/chatFull)
+###### chatFull
 
-  - *Full info about a basic group*
+:link: [*Full info about a basic group*](constructor/chatFull)
 
 ---
 
-###### :link: [channelFull](constructor/channelFull)
+###### channelFull
 
-  - *Full info about a channel, supergroup or gigagroup*
+:link: [*Full info about a channel, supergroup or gigagroup*](constructor/channelFull)
 
 ---
 
-###### :link: [chatParticipant](constructor/chatParticipant)
+###### chatParticipant
 
-  - *Group member*
+:link: [*Group member*](constructor/chatParticipant)
 
 ---
 
-###### :link: [chatParticipantCreator](constructor/chatParticipantCreator)
+###### chatParticipantCreator
 
-  - *Represents the creator of the group*
+:link: [*Represents the creator of the group*](constructor/chatParticipantCreator)
 
 ---
 
-###### :link: [chatParticipantAdmin](constructor/chatParticipantAdmin)
+###### chatParticipantAdmin
 
-  - *Chat admin*
+:link: [*Chat admin*](constructor/chatParticipantAdmin)
 
 ---
 
-###### :link: [chatParticipantsForbidden](constructor/chatParticipantsForbidden)
+###### chatParticipantsForbidden
 
-  - *Info on members is unavailable*
+:link: [*Info on members is unavailable*](constructor/chatParticipantsForbidden)
 
 ---
 
-###### :link: [chatParticipants](constructor/chatParticipants)
+###### chatParticipants
 
-  - *Group members*
+:link: [*Group members*](constructor/chatParticipants)
 
 ---
 
-###### :link: [chatPhotoEmpty](constructor/chatPhotoEmpty)
+###### chatPhotoEmpty
 
-  - *Group photo is not set*
+:link: [*Group photo is not set*](constructor/chatPhotoEmpty)
 
 ---
 
-###### :link: [chatPhoto](constructor/chatPhoto)
+###### chatPhoto
 
-  - *Group profile photo*
+:link: [*Group profile photo*](constructor/chatPhoto)
 
 ---
 
-###### :link: [messageEmpty](constructor/messageEmpty)
+###### messageEmpty
 
-  - *Empty constructor, non-existent message*
+:link: [*Empty constructor, non-existent message*](constructor/messageEmpty)
 
 ---
 
-###### :link: [message](constructor/message)
+###### message
 
-  - *A message*
+:link: [*A message*](constructor/message)
 
 ---
 
-###### :link: [messageService](constructor/messageService)
+###### messageService
 
-  - *Indicates a service message*
+:link: [*Indicates a service message*](constructor/messageService)
 
 ---
 
-###### :link: [messageMediaEmpty](constructor/messageMediaEmpty)
+###### messageMediaEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/messageMediaEmpty)
 
 ---
 
-###### :link: [messageMediaPhoto](constructor/messageMediaPhoto)
+###### messageMediaPhoto
 
-  - *Attached photo*
+:link: [*Attached photo*](constructor/messageMediaPhoto)
 
 ---
 
-###### :link: [messageMediaGeo](constructor/messageMediaGeo)
+###### messageMediaGeo
 
-  - *Attached map*
+:link: [*Attached map*](constructor/messageMediaGeo)
 
 ---
 
-###### :link: [messageMediaContact](constructor/messageMediaContact)
+###### messageMediaContact
 
-  - *Attached contact*
+:link: [*Attached contact*](constructor/messageMediaContact)
 
 ---
 
-###### :link: [messageMediaUnsupported](constructor/messageMediaUnsupported)
+###### messageMediaUnsupported
 
-  - *Current version of the client does not support this media type*
+:link: [*Current version of the client does not support this media type*](constructor/messageMediaUnsupported)
 
 ---
 
-###### :link: [messageMediaDocument](constructor/messageMediaDocument)
+###### messageMediaDocument
 
-  - *Document (video, audio, voice, sticker, any media type except photo)*
+:link: [*Document (video, audio, voice, sticker, any media type except photo)*](constructor/messageMediaDocument)
 
 ---
 
-###### :link: [messageMediaWebPage](constructor/messageMediaWebPage)
+###### messageMediaWebPage
 
-  - *Preview of webpage*
+:link: [*Preview of webpage*](constructor/messageMediaWebPage)
 
 ---
 
-###### :link: [messageMediaVenue](constructor/messageMediaVenue)
+###### messageMediaVenue
 
-  - *Venue*
+:link: [*Venue*](constructor/messageMediaVenue)
 
 ---
 
-###### :link: [messageMediaGame](constructor/messageMediaGame)
+###### messageMediaGame
 
-  - *Telegram game*
+:link: [*Telegram game*](constructor/messageMediaGame)
 
 ---
 
-###### :link: [messageMediaInvoice](constructor/messageMediaInvoice)
+###### messageMediaInvoice
 
-  - *Invoice*
+:link: [*Invoice*](constructor/messageMediaInvoice)
 
 ---
 
-###### :link: [messageMediaGeoLive](constructor/messageMediaGeoLive)
+###### messageMediaGeoLive
 
-  - *Indicates a live geolocation*
+:link: [*Indicates a live geolocation*](constructor/messageMediaGeoLive)
 
 ---
 
-###### :link: [messageMediaPoll](constructor/messageMediaPoll)
+###### messageMediaPoll
 
-  - *Poll*
+:link: [*Poll*](constructor/messageMediaPoll)
 
 ---
 
-###### :link: [messageMediaDice](constructor/messageMediaDice)
+###### messageMediaDice
 
-  - *Dice-based animated sticker*
+:link: [*Dice-based animated sticker*](constructor/messageMediaDice)
 
 ---
 
-###### :link: [messageMediaStory](constructor/messageMediaStory)
+###### messageMediaStory
 
-  - *Represents a forwarded story or a story mention*
+:link: [*Represents a forwarded story or a story mention*](constructor/messageMediaStory)
 
 ---
 
-###### :link: [messageMediaGiveaway](constructor/messageMediaGiveaway)
+###### messageMediaGiveaway
 
-  - *Contains info about a giveaway, see here » for more info*
+:link: [*Contains info about a giveaway, see here » for more info*](constructor/messageMediaGiveaway)
 
 ---
 
-###### :link: [messageMediaGiveawayResults](constructor/messageMediaGiveawayResults)
+###### messageMediaGiveawayResults
 
-  - *A giveaway with public winners has finished, this constructor contains info about the winners*
+:link: [*A giveaway with public winners has finished, this constructor contains info about the winners*](constructor/messageMediaGiveawayResults)
 
 ---
 
-###### :link: [messageMediaPaidMedia](constructor/messageMediaPaidMedia)
+###### messageMediaPaidMedia
 
-  - *Paid media, see here » for more info*
+:link: [*Paid media, see here » for more info*](constructor/messageMediaPaidMedia)
 
 ---
+
+###### messageMediaToDo
 
-###### :link: [messageMediaToDo](constructor/messageMediaToDo)
+:link: [*NOTHING*](constructor/messageMediaToDo)
 
 ---
 
-###### :link: [messageActionEmpty](constructor/messageActionEmpty)
+###### messageActionEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/messageActionEmpty)
 
 ---
 
-###### :link: [messageActionChatCreate](constructor/messageActionChatCreate)
+###### messageActionChatCreate
 
-  - *Group created*
+:link: [*Group created*](constructor/messageActionChatCreate)
 
 ---
 
-###### :link: [messageActionChatEditTitle](constructor/messageActionChatEditTitle)
+###### messageActionChatEditTitle
 
-  - *Group name changed*
+:link: [*Group name changed*](constructor/messageActionChatEditTitle)
 
 ---
 
-###### :link: [messageActionChatEditPhoto](constructor/messageActionChatEditPhoto)
+###### messageActionChatEditPhoto
 
-  - *Group profile changed*
+:link: [*Group profile changed*](constructor/messageActionChatEditPhoto)
 
 ---
 
-###### :link: [messageActionChatDeletePhoto](constructor/messageActionChatDeletePhoto)
+###### messageActionChatDeletePhoto
 
-  - *Group profile photo removed*
+:link: [*Group profile photo removed*](constructor/messageActionChatDeletePhoto)
 
 ---
 
-###### :link: [messageActionChatAddUser](constructor/messageActionChatAddUser)
+###### messageActionChatAddUser
 
-  - *New member in the group*
+:link: [*New member in the group*](constructor/messageActionChatAddUser)
 
 ---
 
-###### :link: [messageActionChatDeleteUser](constructor/messageActionChatDeleteUser)
+###### messageActionChatDeleteUser
 
-  - *User left the group*
+:link: [*User left the group*](constructor/messageActionChatDeleteUser)
 
 ---
 
-###### :link: [messageActionChatJoinedByLink](constructor/messageActionChatJoinedByLink)
+###### messageActionChatJoinedByLink
 
-  - *A user joined the chat via an invite link*
+:link: [*A user joined the chat via an invite link*](constructor/messageActionChatJoinedByLink)
 
 ---
 
-###### :link: [messageActionChannelCreate](constructor/messageActionChannelCreate)
+###### messageActionChannelCreate
 
-  - *The channel was created*
+:link: [*The channel was created*](constructor/messageActionChannelCreate)
 
 ---
 
-###### :link: [messageActionChatMigrateTo](constructor/messageActionChatMigrateTo)
+###### messageActionChatMigrateTo
 
-  - *Indicates the chat was migrated to the specified supergroup*
+:link: [*Indicates the chat was migrated to the specified supergroup*](constructor/messageActionChatMigrateTo)
 
 ---
 
-###### :link: [messageActionChannelMigrateFrom](constructor/messageActionChannelMigrateFrom)
+###### messageActionChannelMigrateFrom
 
-  - *Indicates the channel was migrated from the specified chat*
+:link: [*Indicates the channel was migrated from the specified chat*](constructor/messageActionChannelMigrateFrom)
 
 ---
 
-###### :link: [messageActionPinMessage](constructor/messageActionPinMessage)
+###### messageActionPinMessage
 
-  - *A message was pinned*
+:link: [*A message was pinned*](constructor/messageActionPinMessage)
 
 ---
 
-###### :link: [messageActionHistoryClear](constructor/messageActionHistoryClear)
+###### messageActionHistoryClear
 
-  - *Chat history was cleared*
+:link: [*Chat history was cleared*](constructor/messageActionHistoryClear)
 
 ---
 
-###### :link: [messageActionGameScore](constructor/messageActionGameScore)
+###### messageActionGameScore
 
-  - *Someone scored in a game*
+:link: [*Someone scored in a game*](constructor/messageActionGameScore)
 
 ---
 
-###### :link: [messageActionPaymentSentMe](constructor/messageActionPaymentSentMe)
+###### messageActionPaymentSentMe
 
-  - *A user just sent a payment to me (a bot)*
+:link: [*A user just sent a payment to me (a bot)*](constructor/messageActionPaymentSentMe)
 
 ---
 
-###### :link: [messageActionPaymentSent](constructor/messageActionPaymentSent)
+###### messageActionPaymentSent
 
-  - *A payment was sent*
+:link: [*A payment was sent*](constructor/messageActionPaymentSent)
 
 ---
 
-###### :link: [messageActionPhoneCall](constructor/messageActionPhoneCall)
+###### messageActionPhoneCall
 
-  - *A phone call*
+:link: [*A phone call*](constructor/messageActionPhoneCall)
 
 ---
 
-###### :link: [messageActionScreenshotTaken](constructor/messageActionScreenshotTaken)
+###### messageActionScreenshotTaken
 
-  - *A screenshot of the chat was taken*
+:link: [*A screenshot of the chat was taken*](constructor/messageActionScreenshotTaken)
 
 ---
 
-###### :link: [messageActionCustomAction](constructor/messageActionCustomAction)
+###### messageActionCustomAction
 
-  - *Custom action (most likely not supported by the current layer, an upgrade might be needed)*
+:link: [*Custom action (most likely not supported by the current layer, an upgrade might be needed)*](constructor/messageActionCustomAction)
 
 ---
 
-###### :link: [messageActionBotAllowed](constructor/messageActionBotAllowed)
+###### messageActionBotAllowed
 
-  - *We have given the bot permission to send us direct messages*
+:link: [*We have given the bot permission to send us direct messages*](constructor/messageActionBotAllowed)
 
 ---
 
-###### :link: [messageActionSecureValuesSentMe](constructor/messageActionSecureValuesSentMe)
+###### messageActionSecureValuesSentMe
 
-  - *Secure telegram passport values were received*
+:link: [*Secure telegram passport values were received*](constructor/messageActionSecureValuesSentMe)
 
 ---
 
-###### :link: [messageActionSecureValuesSent](constructor/messageActionSecureValuesSent)
+###### messageActionSecureValuesSent
 
-  - *Request for secure telegram passport values was sent*
+:link: [*Request for secure telegram passport values was sent*](constructor/messageActionSecureValuesSent)
 
 ---
 
-###### :link: [messageActionContactSignUp](constructor/messageActionContactSignUp)
+###### messageActionContactSignUp
 
-  - *A contact just signed up to telegram*
+:link: [*A contact just signed up to telegram*](constructor/messageActionContactSignUp)
 
 ---
 
-###### :link: [messageActionGeoProximityReached](constructor/messageActionGeoProximityReached)
+###### messageActionGeoProximityReached
 
-  - *A user of the chat is now in proximity of another user*
+:link: [*A user of the chat is now in proximity of another user*](constructor/messageActionGeoProximityReached)
 
 ---
 
-###### :link: [messageActionGroupCall](constructor/messageActionGroupCall)
+###### messageActionGroupCall
 
-  - *The group call has ended*
+:link: [*The group call has ended*](constructor/messageActionGroupCall)
 
 ---
 
-###### :link: [messageActionInviteToGroupCall](constructor/messageActionInviteToGroupCall)
+###### messageActionInviteToGroupCall
 
-  - *A set of users was invited to the group call*
+:link: [*A set of users was invited to the group call*](constructor/messageActionInviteToGroupCall)
 
 ---
 
-###### :link: [messageActionSetMessagesTTL](constructor/messageActionSetMessagesTTL)
+###### messageActionSetMessagesTTL
 
-  - *The Time-To-Live of messages in this chat was changed*
+:link: [*The Time-To-Live of messages in this chat was changed*](constructor/messageActionSetMessagesTTL)
 
 ---
 
-###### :link: [messageActionGroupCallScheduled](constructor/messageActionGroupCallScheduled)
+###### messageActionGroupCallScheduled
 
-  - *A group call was scheduled*
+:link: [*A group call was scheduled*](constructor/messageActionGroupCallScheduled)
 
 ---
 
-###### :link: [messageActionSetChatTheme](constructor/messageActionSetChatTheme)
+###### messageActionSetChatTheme
 
-  - *The chat theme was changed*
+:link: [*The chat theme was changed*](constructor/messageActionSetChatTheme)
 
 ---
 
-###### :link: [messageActionChatJoinedByRequest](constructor/messageActionChatJoinedByRequest)
+###### messageActionChatJoinedByRequest
 
-  - *A user was accepted into the group by an admin*
+:link: [*A user was accepted into the group by an admin*](constructor/messageActionChatJoinedByRequest)
 
 ---
 
-###### :link: [messageActionWebViewDataSentMe](constructor/messageActionWebViewDataSentMe)
+###### messageActionWebViewDataSentMe
 
-  - *Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (bot side service message)*
+:link: [*Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (bot side service message)*](constructor/messageActionWebViewDataSentMe)
 
 ---
 
-###### :link: [messageActionWebViewDataSent](constructor/messageActionWebViewDataSent)
+###### messageActionWebViewDataSent
 
-  - *Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (user side service message)*
+:link: [*Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (user side service message)*](constructor/messageActionWebViewDataSent)
 
 ---
 
-###### :link: [messageActionGiftPremium](constructor/messageActionGiftPremium)
+###### messageActionGiftPremium
 
-  - *Info about a gifted Telegram Premium subscription*
+:link: [*Info about a gifted Telegram Premium subscription*](constructor/messageActionGiftPremium)
 
 ---
 
-###### :link: [messageActionTopicCreate](constructor/messageActionTopicCreate)
+###### messageActionTopicCreate
 
-  - *A forum topic was created*
+:link: [*A forum topic was created*](constructor/messageActionTopicCreate)
 
 ---
 
-###### :link: [messageActionTopicEdit](constructor/messageActionTopicEdit)
+###### messageActionTopicEdit
 
-  - *Forum topic information was edited*
+:link: [*Forum topic information was edited*](constructor/messageActionTopicEdit)
 
 ---
 
-###### :link: [messageActionSuggestProfilePhoto](constructor/messageActionSuggestProfilePhoto)
+###### messageActionSuggestProfilePhoto
 
-  - *A new profile picture was suggested using photos.uploadContactProfilePhoto*
+:link: [*A new profile picture was suggested using photos.uploadContactProfilePhoto*](constructor/messageActionSuggestProfilePhoto)
 
 ---
 
-###### :link: [messageActionRequestedPeer](constructor/messageActionRequestedPeer)
+###### messageActionRequestedPeer
 
-  - *Contains info about one or more peers that the we (the user) shared with the bot after clicking on a keyboardButtonRequestPeer button (service message sent by the user)*
+:link: [*Contains info about one or more peers that the we (the user) shared with the bot after clicking on a keyboardButtonRequestPeer button (service message sent by the user)*](constructor/messageActionRequestedPeer)
 
 ---
 
-###### :link: [messageActionSetChatWallPaper](constructor/messageActionSetChatWallPaper)
+###### messageActionSetChatWallPaper
 
-  - *The wallpaper » of the current chat was changed*
+:link: [*The wallpaper » of the current chat was changed*](constructor/messageActionSetChatWallPaper)
 
 ---
 
-###### :link: [messageActionGiftCode](constructor/messageActionGiftCode)
+###### messageActionGiftCode
 
-  - *Contains a Telegram Premium giftcode link*
+:link: [*Contains a Telegram Premium giftcode link*](constructor/messageActionGiftCode)
 
 ---
 
-###### :link: [messageActionGiveawayLaunch](constructor/messageActionGiveawayLaunch)
+###### messageActionGiveawayLaunch
 
-  - *A giveaway was started*
+:link: [*A giveaway was started*](constructor/messageActionGiveawayLaunch)
 
 ---
 
-###### :link: [messageActionGiveawayResults](constructor/messageActionGiveawayResults)
+###### messageActionGiveawayResults
 
-  - *A giveaway has ended*
+:link: [*A giveaway has ended*](constructor/messageActionGiveawayResults)
 
 ---
 
-###### :link: [messageActionBoostApply](constructor/messageActionBoostApply)
+###### messageActionBoostApply
 
-  - *Some boosts » were applied to the channel or supergroup*
+:link: [*Some boosts » were applied to the channel or supergroup*](constructor/messageActionBoostApply)
 
 ---
 
-###### :link: [messageActionRequestedPeerSentMe](constructor/messageActionRequestedPeerSentMe)
+###### messageActionRequestedPeerSentMe
 
-  - *Contains info about one or more peers that the a user shared with the me (the bot) after clicking on a keyboardButtonRequestPeer button (service message received by the bot)*
+:link: [*Contains info about one or more peers that the a user shared with the me (the bot) after clicking on a keyboardButtonRequestPeer button (service message received by the bot)*](constructor/messageActionRequestedPeerSentMe)
 
 ---
 
-###### :link: [messageActionPaymentRefunded](constructor/messageActionPaymentRefunded)
+###### messageActionPaymentRefunded
 
-  - *Describes a payment refund (service message received by both users and bots)*
+:link: [*Describes a payment refund (service message received by both users and bots)*](constructor/messageActionPaymentRefunded)
 
 ---
 
-###### :link: [messageActionGiftStars](constructor/messageActionGiftStars)
+###### messageActionGiftStars
 
-  - *You gifted or were gifted some Telegram Stars*
+:link: [*You gifted or were gifted some Telegram Stars*](constructor/messageActionGiftStars)
 
 ---
 
-###### :link: [messageActionPrizeStars](constructor/messageActionPrizeStars)
+###### messageActionPrizeStars
 
-  - *You won some Telegram Stars in a Telegram Star giveaway »*
+:link: [*You won some Telegram Stars in a Telegram Star giveaway »*](constructor/messageActionPrizeStars)
 
 ---
 
-###### :link: [messageActionStarGift](constructor/messageActionStarGift)
+###### messageActionStarGift
 
-  - *You received a gift, see here » for more info*
+:link: [*You received a gift, see here » for more info*](constructor/messageActionStarGift)
 
 ---
 
-###### :link: [messageActionStarGiftUnique](constructor/messageActionStarGiftUnique)
+###### messageActionStarGiftUnique
 
+:link: [*NOTHING*](constructor/messageActionStarGiftUnique)
+
 ---
 
-###### :link: [messageActionPaidMessagesRefunded](constructor/messageActionPaidMessagesRefunded)
+###### messageActionPaidMessagesRefunded
 
+:link: [*NOTHING*](constructor/messageActionPaidMessagesRefunded)
+
 ---
+
+###### messageActionPaidMessagesPrice
 
-###### :link: [messageActionPaidMessagesPrice](constructor/messageActionPaidMessagesPrice)
+:link: [*NOTHING*](constructor/messageActionPaidMessagesPrice)
 
 ---
 
-###### :link: [messageActionConferenceCall](constructor/messageActionConferenceCall)
+###### messageActionConferenceCall
 
+:link: [*NOTHING*](constructor/messageActionConferenceCall)
+
 ---
 
-###### :link: [messageActionTodoCompletions](constructor/messageActionTodoCompletions)
+###### messageActionTodoCompletions
 
+:link: [*NOTHING*](constructor/messageActionTodoCompletions)
+
 ---
+
+###### messageActionTodoAppendTasks
 
-###### :link: [messageActionTodoAppendTasks](constructor/messageActionTodoAppendTasks)
+:link: [*NOTHING*](constructor/messageActionTodoAppendTasks)
 
 ---
 
-###### :link: [messageActionSuggestedPostApproval](constructor/messageActionSuggestedPostApproval)
+###### messageActionSuggestedPostApproval
 
+:link: [*NOTHING*](constructor/messageActionSuggestedPostApproval)
+
 ---
 
-###### :link: [messageActionSuggestedPostSuccess](constructor/messageActionSuggestedPostSuccess)
+###### messageActionSuggestedPostSuccess
 
+:link: [*NOTHING*](constructor/messageActionSuggestedPostSuccess)
+
 ---
+
+###### messageActionSuggestedPostRefund
 
-###### :link: [messageActionSuggestedPostRefund](constructor/messageActionSuggestedPostRefund)
+:link: [*NOTHING*](constructor/messageActionSuggestedPostRefund)
 
 ---
 
-###### :link: [messageActionGiftTon](constructor/messageActionGiftTon)
+###### messageActionGiftTon
 
+:link: [*NOTHING*](constructor/messageActionGiftTon)
+
 ---
 
-###### :link: [dialog](constructor/dialog)
+###### dialog
 
-  - *Chat*
+:link: [*Chat*](constructor/dialog)
 
 ---
 
-###### :link: [dialogFolder](constructor/dialogFolder)
+###### dialogFolder
 
-  - *Dialog in folder*
+:link: [*Dialog in folder*](constructor/dialogFolder)
 
 ---
 
-###### :link: [photoEmpty](constructor/photoEmpty)
+###### photoEmpty
 
-  - *Empty constructor, non-existent photo*
+:link: [*Empty constructor, non-existent photo*](constructor/photoEmpty)
 
 ---
 
-###### :link: [photo](constructor/photo)
+###### photo
 
-  - *Photo*
+:link: [*Photo*](constructor/photo)
 
 ---
 
-###### :link: [photoSizeEmpty](constructor/photoSizeEmpty)
+###### photoSizeEmpty
 
-  - *Empty constructor. Image with this thumbnail is unavailable*
+:link: [*Empty constructor. Image with this thumbnail is unavailable*](constructor/photoSizeEmpty)
 
 ---
 
-###### :link: [photoSize](constructor/photoSize)
+###### photoSize
 
-  - *Image description*
+:link: [*Image description*](constructor/photoSize)
 
 ---
 
-###### :link: [photoCachedSize](constructor/photoCachedSize)
+###### photoCachedSize
 
-  - *Description of an image and its content*
+:link: [*Description of an image and its content*](constructor/photoCachedSize)
 
 ---
 
-###### :link: [photoStrippedSize](constructor/photoStrippedSize)
+###### photoStrippedSize
 
-  - *A low-resolution compressed JPG payload*
+:link: [*A low-resolution compressed JPG payload*](constructor/photoStrippedSize)
 
 ---
 
-###### :link: [photoSizeProgressive](constructor/photoSizeProgressive)
+###### photoSizeProgressive
 
-  - *Progressively encoded photosize*
+:link: [*Progressively encoded photosize*](constructor/photoSizeProgressive)
 
 ---
 
-###### :link: [photoPathSize](constructor/photoPathSize)
+###### photoPathSize
 
-  - *Messages with animated stickers can have a compressed svg (< 300 bytes) to show the outline of the sticker before fetching the actual lottie animation*
+:link: [*Messages with animated stickers can have a compressed svg (< 300 bytes) to show the outline of the sticker before fetching the actual lottie animation*](constructor/photoPathSize)
 
 ---
 
-###### :link: [geoPointEmpty](constructor/geoPointEmpty)
+###### geoPointEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/geoPointEmpty)
 
 ---
 
-###### :link: [geoPoint](constructor/geoPoint)
+###### geoPoint
 
-  - *GeoPoint*
+:link: [*GeoPoint*](constructor/geoPoint)
 
 ---
 
-###### :link: [auth.sentCode](constructor/auth.sentCode)
+###### auth.sentCode
 
-  - *Contains info about a sent verification code*
+:link: [*Contains info about a sent verification code*](constructor/auth.sentCode)
 
 ---
 
-###### :link: [auth.sentCodeSuccess](constructor/auth.sentCodeSuccess)
+###### auth.sentCodeSuccess
 
-  - *The user successfully authorized using future auth tokens*
+:link: [*The user successfully authorized using future auth tokens*](constructor/auth.sentCodeSuccess)
 
 ---
+
+###### auth.sentCodePaymentRequired
 
-###### :link: [auth.sentCodePaymentRequired](constructor/auth.sentCodePaymentRequired)
+:link: [*NOTHING*](constructor/auth.sentCodePaymentRequired)
 
 ---
 
-###### :link: [auth.authorization](constructor/auth.authorization)
+###### auth.authorization
 
-  - *Contains user authorization info*
+:link: [*Contains user authorization info*](constructor/auth.authorization)
 
 ---
 
-###### :link: [auth.authorizationSignUpRequired](constructor/auth.authorizationSignUpRequired)
+###### auth.authorizationSignUpRequired
 
-  - *An account with this phone number doesn't exist on telegram: the user has to enter basic information and sign up*
+:link: [*An account with this phone number doesn't exist on telegram: the user has to enter basic information and sign up*](constructor/auth.authorizationSignUpRequired)
 
 ---
 
-###### :link: [auth.exportedAuthorization](constructor/auth.exportedAuthorization)
+###### auth.exportedAuthorization
 
-  - *Data for copying of authorization between data centers*
+:link: [*Data for copying of authorization between data centers*](constructor/auth.exportedAuthorization)
 
 ---
 
-###### :link: [inputNotifyPeer](constructor/inputNotifyPeer)
+###### inputNotifyPeer
 
-  - *Notifications generated by a certain user or group*
+:link: [*Notifications generated by a certain user or group*](constructor/inputNotifyPeer)
 
 ---
 
-###### :link: [inputNotifyUsers](constructor/inputNotifyUsers)
+###### inputNotifyUsers
 
-  - *Notifications generated by all users*
+:link: [*Notifications generated by all users*](constructor/inputNotifyUsers)
 
 ---
 
-###### :link: [inputNotifyChats](constructor/inputNotifyChats)
+###### inputNotifyChats
 
-  - *Notifications generated by all groups*
+:link: [*Notifications generated by all groups*](constructor/inputNotifyChats)
 
 ---
 
-###### :link: [inputNotifyBroadcasts](constructor/inputNotifyBroadcasts)
+###### inputNotifyBroadcasts
 
-  - *All channels*
+:link: [*All channels*](constructor/inputNotifyBroadcasts)
 
 ---
 
-###### :link: [inputNotifyForumTopic](constructor/inputNotifyForumTopic)
+###### inputNotifyForumTopic
 
-  - *Notifications generated by a topic in a forum*
+:link: [*Notifications generated by a topic in a forum*](constructor/inputNotifyForumTopic)
 
 ---
 
-###### :link: [inputPeerNotifySettings](constructor/inputPeerNotifySettings)
+###### inputPeerNotifySettings
 
-  - *Notification settings*
+:link: [*Notification settings*](constructor/inputPeerNotifySettings)
 
 ---
 
-###### :link: [peerNotifySettings](constructor/peerNotifySettings)
+###### peerNotifySettings
 
-  - *Notification settings*
+:link: [*Notification settings*](constructor/peerNotifySettings)
 
 ---
 
-###### :link: [peerSettings](constructor/peerSettings)
+###### peerSettings
 
-  - *List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat action bar », see here » for more info*
+:link: [*List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat action bar », see here » for more info*](constructor/peerSettings)
 
 ---
 
-###### :link: [wallPaper](constructor/wallPaper)
+###### wallPaper
 
-  - *Represents a wallpaper based on an image*
+:link: [*Represents a wallpaper based on an image*](constructor/wallPaper)
 
 ---
 
-###### :link: [wallPaperNoFile](constructor/wallPaperNoFile)
+###### wallPaperNoFile
 
-  - *Represents a wallpaper only based on colors/gradients*
+:link: [*Represents a wallpaper only based on colors/gradients*](constructor/wallPaperNoFile)
 
 ---
 
-###### :link: [inputReportReasonSpam](constructor/inputReportReasonSpam)
+###### inputReportReasonSpam
 
-  - *Report for spam*
+:link: [*Report for spam*](constructor/inputReportReasonSpam)
 
 ---
 
-###### :link: [inputReportReasonViolence](constructor/inputReportReasonViolence)
+###### inputReportReasonViolence
 
-  - *Report for violence*
+:link: [*Report for violence*](constructor/inputReportReasonViolence)
 
 ---
 
-###### :link: [inputReportReasonPornography](constructor/inputReportReasonPornography)
+###### inputReportReasonPornography
 
-  - *Report for pornography*
+:link: [*Report for pornography*](constructor/inputReportReasonPornography)
 
 ---
 
-###### :link: [inputReportReasonChildAbuse](constructor/inputReportReasonChildAbuse)
+###### inputReportReasonChildAbuse
 
-  - *Report for child abuse*
+:link: [*Report for child abuse*](constructor/inputReportReasonChildAbuse)
 
 ---
 
-###### :link: [inputReportReasonOther](constructor/inputReportReasonOther)
+###### inputReportReasonOther
 
-  - *Other*
+:link: [*Other*](constructor/inputReportReasonOther)
 
 ---
 
-###### :link: [inputReportReasonCopyright](constructor/inputReportReasonCopyright)
+###### inputReportReasonCopyright
 
-  - *Report for copyrighted content*
+:link: [*Report for copyrighted content*](constructor/inputReportReasonCopyright)
 
 ---
 
-###### :link: [inputReportReasonGeoIrrelevant](constructor/inputReportReasonGeoIrrelevant)
+###### inputReportReasonGeoIrrelevant
 
-  - *Report an irrelevant geogroup*
+:link: [*Report an irrelevant geogroup*](constructor/inputReportReasonGeoIrrelevant)
 
 ---
 
-###### :link: [inputReportReasonFake](constructor/inputReportReasonFake)
+###### inputReportReasonFake
 
-  - *Report for impersonation*
+:link: [*Report for impersonation*](constructor/inputReportReasonFake)
 
 ---
 
-###### :link: [inputReportReasonIllegalDrugs](constructor/inputReportReasonIllegalDrugs)
+###### inputReportReasonIllegalDrugs
 
-  - *Report for illegal drugs*
+:link: [*Report for illegal drugs*](constructor/inputReportReasonIllegalDrugs)
 
 ---
 
-###### :link: [inputReportReasonPersonalDetails](constructor/inputReportReasonPersonalDetails)
+###### inputReportReasonPersonalDetails
 
-  - *Report for divulgation of personal details*
+:link: [*Report for divulgation of personal details*](constructor/inputReportReasonPersonalDetails)
 
 ---
 
-###### :link: [userFull](constructor/userFull)
+###### userFull
 
-  - *Extended user info*
+:link: [*Extended user info*](constructor/userFull)
 
 ---
 
-###### :link: [contact](constructor/contact)
+###### contact
 
-  - *A contact of the current user that is registered in the system*
+:link: [*A contact of the current user that is registered in the system*](constructor/contact)
 
 ---
 
-###### :link: [importedContact](constructor/importedContact)
+###### importedContact
 
-  - *Successfully imported contact*
+:link: [*Successfully imported contact*](constructor/importedContact)
 
 ---
 
-###### :link: [contactStatus](constructor/contactStatus)
+###### contactStatus
 
-  - *Contact status: online / offline*
+:link: [*Contact status: online / offline*](constructor/contactStatus)
 
 ---
 
-###### :link: [contacts.contactsNotModified](constructor/contacts.contactsNotModified)
+###### contacts.contactsNotModified
 
-  - *Contact list on the server is the same as the list on the client*
+:link: [*Contact list on the server is the same as the list on the client*](constructor/contacts.contactsNotModified)
 
 ---
 
-###### :link: [contacts.contacts](constructor/contacts.contacts)
+###### contacts.contacts
 
-  - *The current user's contact list and info on users*
+:link: [*The current user's contact list and info on users*](constructor/contacts.contacts)
 
 ---
 
-###### :link: [contacts.importedContacts](constructor/contacts.importedContacts)
+###### contacts.importedContacts
 
-  - *Info on successfully imported contacts*
+:link: [*Info on successfully imported contacts*](constructor/contacts.importedContacts)
 
 ---
 
-###### :link: [contacts.blocked](constructor/contacts.blocked)
+###### contacts.blocked
 
-  - *Full list of blocked users*
+:link: [*Full list of blocked users*](constructor/contacts.blocked)
 
 ---
 
-###### :link: [contacts.blockedSlice](constructor/contacts.blockedSlice)
+###### contacts.blockedSlice
 
-  - *Incomplete list of blocked users*
+:link: [*Incomplete list of blocked users*](constructor/contacts.blockedSlice)
 
 ---
 
-###### :link: [messages.dialogs](constructor/messages.dialogs)
+###### messages.dialogs
 
-  - *Full list of chats with messages and auxiliary data*
+:link: [*Full list of chats with messages and auxiliary data*](constructor/messages.dialogs)
 
 ---
 
-###### :link: [messages.dialogsSlice](constructor/messages.dialogsSlice)
+###### messages.dialogsSlice
 
-  - *Incomplete list of dialogs with messages and auxiliary data*
+:link: [*Incomplete list of dialogs with messages and auxiliary data*](constructor/messages.dialogsSlice)
 
 ---
 
-###### :link: [messages.dialogsNotModified](constructor/messages.dialogsNotModified)
+###### messages.dialogsNotModified
 
-  - *Dialogs haven't changed*
+:link: [*Dialogs haven't changed*](constructor/messages.dialogsNotModified)
 
 ---
 
-###### :link: [messages.messages](constructor/messages.messages)
+###### messages.messages
 
-  - *Full list of messages with auxiliary data*
+:link: [*Full list of messages with auxiliary data*](constructor/messages.messages)
 
 ---
 
-###### :link: [messages.messagesSlice](constructor/messages.messagesSlice)
+###### messages.messagesSlice
 
-  - *Incomplete list of messages and auxiliary data*
+:link: [*Incomplete list of messages and auxiliary data*](constructor/messages.messagesSlice)
 
 ---
 
-###### :link: [messages.channelMessages](constructor/messages.channelMessages)
+###### messages.channelMessages
 
-  - *Channel messages*
+:link: [*Channel messages*](constructor/messages.channelMessages)
 
 ---
 
-###### :link: [messages.messagesNotModified](constructor/messages.messagesNotModified)
+###### messages.messagesNotModified
 
-  - *No new messages matching the query were found*
+:link: [*No new messages matching the query were found*](constructor/messages.messagesNotModified)
 
 ---
 
-###### :link: [messages.chats](constructor/messages.chats)
+###### messages.chats
 
-  - *List of chats with auxiliary data*
+:link: [*List of chats with auxiliary data*](constructor/messages.chats)
 
 ---
 
-###### :link: [messages.chatsSlice](constructor/messages.chatsSlice)
+###### messages.chatsSlice
 
-  - *Partial list of chats, more would have to be fetched with pagination*
+:link: [*Partial list of chats, more would have to be fetched with pagination*](constructor/messages.chatsSlice)
 
 ---
 
-###### :link: [messages.chatFull](constructor/messages.chatFull)
+###### messages.chatFull
 
-  - *Full info about a channel, supergroup, gigagroup or basic group*
+:link: [*Full info about a channel, supergroup, gigagroup or basic group*](constructor/messages.chatFull)
 
 ---
 
-###### :link: [messages.affectedHistory](constructor/messages.affectedHistory)
+###### messages.affectedHistory
 
-  - *Affected part of communication history with the user or in a chat*
+:link: [*Affected part of communication history with the user or in a chat*](constructor/messages.affectedHistory)
 
 ---
 
-###### :link: [inputMessagesFilterEmpty](constructor/inputMessagesFilterEmpty)
+###### inputMessagesFilterEmpty
 
-  - *Filter is absent*
+:link: [*Filter is absent*](constructor/inputMessagesFilterEmpty)
 
 ---
 
-###### :link: [inputMessagesFilterPhotos](constructor/inputMessagesFilterPhotos)
+###### inputMessagesFilterPhotos
 
-  - *Filter for messages containing photos*
+:link: [*Filter for messages containing photos*](constructor/inputMessagesFilterPhotos)
 
 ---
 
-###### :link: [inputMessagesFilterVideo](constructor/inputMessagesFilterVideo)
+###### inputMessagesFilterVideo
 
-  - *Filter for messages containing videos*
+:link: [*Filter for messages containing videos*](constructor/inputMessagesFilterVideo)
 
 ---
 
-###### :link: [inputMessagesFilterPhotoVideo](constructor/inputMessagesFilterPhotoVideo)
+###### inputMessagesFilterPhotoVideo
 
-  - *Filter for messages containing photos or videos*
+:link: [*Filter for messages containing photos or videos*](constructor/inputMessagesFilterPhotoVideo)
 
 ---
 
-###### :link: [inputMessagesFilterDocument](constructor/inputMessagesFilterDocument)
+###### inputMessagesFilterDocument
 
-  - *Filter for messages containing documents*
+:link: [*Filter for messages containing documents*](constructor/inputMessagesFilterDocument)
 
 ---
 
-###### :link: [inputMessagesFilterUrl](constructor/inputMessagesFilterUrl)
+###### inputMessagesFilterUrl
 
-  - *Return only messages containing URLs*
+:link: [*Return only messages containing URLs*](constructor/inputMessagesFilterUrl)
 
 ---
 
-###### :link: [inputMessagesFilterGif](constructor/inputMessagesFilterGif)
+###### inputMessagesFilterGif
 
-  - *Return only messages containing gifs*
+:link: [*Return only messages containing gifs*](constructor/inputMessagesFilterGif)
 
 ---
 
-###### :link: [inputMessagesFilterVoice](constructor/inputMessagesFilterVoice)
+###### inputMessagesFilterVoice
 
-  - *Return only messages containing voice notes*
+:link: [*Return only messages containing voice notes*](constructor/inputMessagesFilterVoice)
 
 ---
 
-###### :link: [inputMessagesFilterMusic](constructor/inputMessagesFilterMusic)
+###### inputMessagesFilterMusic
 
-  - *Return only messages containing audio files*
+:link: [*Return only messages containing audio files*](constructor/inputMessagesFilterMusic)
 
 ---
 
-###### :link: [inputMessagesFilterChatPhotos](constructor/inputMessagesFilterChatPhotos)
+###### inputMessagesFilterChatPhotos
 
-  - *Return only chat photo changes*
+:link: [*Return only chat photo changes*](constructor/inputMessagesFilterChatPhotos)
 
 ---
 
-###### :link: [inputMessagesFilterPhoneCalls](constructor/inputMessagesFilterPhoneCalls)
+###### inputMessagesFilterPhoneCalls
 
-  - *Return only phone calls*
+:link: [*Return only phone calls*](constructor/inputMessagesFilterPhoneCalls)
 
 ---
 
-###### :link: [inputMessagesFilterRoundVoice](constructor/inputMessagesFilterRoundVoice)
+###### inputMessagesFilterRoundVoice
 
-  - *Return only round videos and voice notes*
+:link: [*Return only round videos and voice notes*](constructor/inputMessagesFilterRoundVoice)
 
 ---
 
-###### :link: [inputMessagesFilterRoundVideo](constructor/inputMessagesFilterRoundVideo)
+###### inputMessagesFilterRoundVideo
 
-  - *Return only round videos*
+:link: [*Return only round videos*](constructor/inputMessagesFilterRoundVideo)
 
 ---
 
-###### :link: [inputMessagesFilterMyMentions](constructor/inputMessagesFilterMyMentions)
+###### inputMessagesFilterMyMentions
 
-  - *Return only messages where the current user was mentioned*
+:link: [*Return only messages where the current user was mentioned*](constructor/inputMessagesFilterMyMentions)
 
 ---
 
-###### :link: [inputMessagesFilterGeo](constructor/inputMessagesFilterGeo)
+###### inputMessagesFilterGeo
 
-  - *Return only messages containing geolocations*
+:link: [*Return only messages containing geolocations*](constructor/inputMessagesFilterGeo)
 
 ---
 
-###### :link: [inputMessagesFilterContacts](constructor/inputMessagesFilterContacts)
+###### inputMessagesFilterContacts
 
-  - *Return only messages containing contacts*
+:link: [*Return only messages containing contacts*](constructor/inputMessagesFilterContacts)
 
 ---
 
-###### :link: [inputMessagesFilterPinned](constructor/inputMessagesFilterPinned)
+###### inputMessagesFilterPinned
 
-  - *Fetch only pinned messages*
+:link: [*Fetch only pinned messages*](constructor/inputMessagesFilterPinned)
 
 ---
 
-###### :link: [updateNewMessage](constructor/updateNewMessage)
+###### updateNewMessage
 
-  - *New message in a private chat or in a basic group*
+:link: [*New message in a private chat or in a basic group*](constructor/updateNewMessage)
 
 ---
 
-###### :link: [updateMessageID](constructor/updateMessageID)
+###### updateMessageID
 
-  - *Sent message with random_id client identifier was assigned an identifier*
+:link: [*Sent message with random_id client identifier was assigned an identifier*](constructor/updateMessageID)
 
 ---
 
-###### :link: [updateDeleteMessages](constructor/updateDeleteMessages)
+###### updateDeleteMessages
 
-  - *Messages were deleted*
+:link: [*Messages were deleted*](constructor/updateDeleteMessages)
 
 ---
 
-###### :link: [updateUserTyping](constructor/updateUserTyping)
+###### updateUserTyping
 
-  - *The user is preparing a message; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*
+:link: [*The user is preparing a message; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*](constructor/updateUserTyping)
 
 ---
 
-###### :link: [updateChatUserTyping](constructor/updateChatUserTyping)
+###### updateChatUserTyping
 
-  - *The user is preparing a message in a group; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*
+:link: [*The user is preparing a message in a group; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*](constructor/updateChatUserTyping)
 
 ---
 
-###### :link: [updateChatParticipants](constructor/updateChatParticipants)
+###### updateChatParticipants
 
-  - *Composition of chat participants changed*
+:link: [*Composition of chat participants changed*](constructor/updateChatParticipants)
 
 ---
 
-###### :link: [updateUserStatus](constructor/updateUserStatus)
+###### updateUserStatus
 
-  - *Contact status update*
+:link: [*Contact status update*](constructor/updateUserStatus)
 
 ---
 
-###### :link: [updateUserName](constructor/updateUserName)
+###### updateUserName
 
-  - *Changes the user's first name, last name and username*
+:link: [*Changes the user's first name, last name and username*](constructor/updateUserName)
 
 ---
 
-###### :link: [updateNewAuthorization](constructor/updateNewAuthorization)
+###### updateNewAuthorization
 
-  - *A new session logged into the current user's account through an unknown device*
+:link: [*A new session logged into the current user's account through an unknown device*](constructor/updateNewAuthorization)
 
 ---
 
-###### :link: [updateNewEncryptedMessage](constructor/updateNewEncryptedMessage)
+###### updateNewEncryptedMessage
 
-  - *New encrypted message*
+:link: [*New encrypted message*](constructor/updateNewEncryptedMessage)
 
 ---
 
-###### :link: [updateEncryptedChatTyping](constructor/updateEncryptedChatTyping)
+###### updateEncryptedChatTyping
 
-  - *Interlocutor is typing a message in an encrypted chat. Update period is 6 second. If upon this time there is no repeated update, it shall be considered that the interlocutor stopped typing*
+:link: [*Interlocutor is typing a message in an encrypted chat. Update period is 6 second. If upon this time there is no repeated update, it shall be considered that the interlocutor stopped typing*](constructor/updateEncryptedChatTyping)
 
 ---
 
-###### :link: [updateEncryption](constructor/updateEncryption)
+###### updateEncryption
 
-  - *Change of state in an encrypted chat*
+:link: [*Change of state in an encrypted chat*](constructor/updateEncryption)
 
 ---
 
-###### :link: [updateEncryptedMessagesRead](constructor/updateEncryptedMessagesRead)
+###### updateEncryptedMessagesRead
 
-  - *Communication history in an encrypted chat was marked as read*
+:link: [*Communication history in an encrypted chat was marked as read*](constructor/updateEncryptedMessagesRead)
 
 ---
 
-###### :link: [updateChatParticipantAdd](constructor/updateChatParticipantAdd)
+###### updateChatParticipantAdd
 
-  - *New group member*
+:link: [*New group member*](constructor/updateChatParticipantAdd)
 
 ---
 
-###### :link: [updateChatParticipantDelete](constructor/updateChatParticipantDelete)
+###### updateChatParticipantDelete
 
-  - *A member has left the group*
+:link: [*A member has left the group*](constructor/updateChatParticipantDelete)
 
 ---
 
-###### :link: [updateDcOptions](constructor/updateDcOptions)
+###### updateDcOptions
 
-  - *Changes in the data center configuration options*
+:link: [*Changes in the data center configuration options*](constructor/updateDcOptions)
 
 ---
 
-###### :link: [updateNotifySettings](constructor/updateNotifySettings)
+###### updateNotifySettings
 
-  - *Changes in notification settings*
+:link: [*Changes in notification settings*](constructor/updateNotifySettings)
 
 ---
 
-###### :link: [updateServiceNotification](constructor/updateServiceNotification)
+###### updateServiceNotification
 
-  - *A service message for the user*
+:link: [*A service message for the user*](constructor/updateServiceNotification)
 
 ---
 
-###### :link: [updatePrivacy](constructor/updatePrivacy)
+###### updatePrivacy
 
-  - *Privacy rules were changed*
+:link: [*Privacy rules were changed*](constructor/updatePrivacy)
 
 ---
 
-###### :link: [updateUserPhone](constructor/updateUserPhone)
+###### updateUserPhone
 
-  - *A user's phone number was changed*
+:link: [*A user's phone number was changed*](constructor/updateUserPhone)
 
 ---
 
-###### :link: [updateReadHistoryInbox](constructor/updateReadHistoryInbox)
+###### updateReadHistoryInbox
 
-  - *Incoming messages were read*
+:link: [*Incoming messages were read*](constructor/updateReadHistoryInbox)
 
 ---
 
-###### :link: [updateReadHistoryOutbox](constructor/updateReadHistoryOutbox)
+###### updateReadHistoryOutbox
 
-  - *Outgoing messages were read*
+:link: [*Outgoing messages were read*](constructor/updateReadHistoryOutbox)
 
 ---
 
-###### :link: [updateWebPage](constructor/updateWebPage)
+###### updateWebPage
 
-  - *An instant view webpage preview was generated*
+:link: [*An instant view webpage preview was generated*](constructor/updateWebPage)
 
 ---
 
-###### :link: [updateReadMessagesContents](constructor/updateReadMessagesContents)
+###### updateReadMessagesContents
 
-  - *Contents of messages in the common message box were read*
+:link: [*Contents of messages in the common message box were read*](constructor/updateReadMessagesContents)
 
 ---
 
-###### :link: [updateChannelTooLong](constructor/updateChannelTooLong)
+###### updateChannelTooLong
 
-  - *There are new updates in the specified channel, the client must fetch them.
-If the difference is too long or if the channel isn't currently in the states, start fetching from the specified pts*
+:link: [*There are new updates in the specified channel, the client must fetch them.
+If the difference is too long or if the channel isn't currently in the states, start fetching from the specified pts*](constructor/updateChannelTooLong)
 
 ---
 
-###### :link: [updateChannel](constructor/updateChannel)
+###### updateChannel
 
-  - *Channel/supergroup (channel and/or channelFull) information was updated*
+:link: [*Channel/supergroup (channel and/or channelFull) information was updated*](constructor/updateChannel)
 
 ---
 
-###### :link: [updateNewChannelMessage](constructor/updateNewChannelMessage)
+###### updateNewChannelMessage
 
-  - *A new message was sent in a channel/supergroup*
+:link: [*A new message was sent in a channel/supergroup*](constructor/updateNewChannelMessage)
 
 ---
 
-###### :link: [updateReadChannelInbox](constructor/updateReadChannelInbox)
+###### updateReadChannelInbox
 
-  - *Incoming messages in a channel/supergroup were read*
+:link: [*Incoming messages in a channel/supergroup were read*](constructor/updateReadChannelInbox)
 
 ---
 
-###### :link: [updateDeleteChannelMessages](constructor/updateDeleteChannelMessages)
+###### updateDeleteChannelMessages
 
-  - *Some messages in a supergroup/channel were deleted*
+:link: [*Some messages in a supergroup/channel were deleted*](constructor/updateDeleteChannelMessages)
 
 ---
 
-###### :link: [updateChannelMessageViews](constructor/updateChannelMessageViews)
+###### updateChannelMessageViews
 
-  - *The view counter of a message in a channel has changed*
+:link: [*The view counter of a message in a channel has changed*](constructor/updateChannelMessageViews)
 
 ---
 
-###### :link: [updateChatParticipantAdmin](constructor/updateChatParticipantAdmin)
+###### updateChatParticipantAdmin
 
-  - *Admin permissions of a user in a basic group were changed*
+:link: [*Admin permissions of a user in a basic group were changed*](constructor/updateChatParticipantAdmin)
 
 ---
 
-###### :link: [updateNewStickerSet](constructor/updateNewStickerSet)
+###### updateNewStickerSet
 
-  - *A new stickerset was installed*
+:link: [*A new stickerset was installed*](constructor/updateNewStickerSet)
 
 ---
 
-###### :link: [updateStickerSetsOrder](constructor/updateStickerSetsOrder)
+###### updateStickerSetsOrder
 
-  - *The order of stickersets was changed*
+:link: [*The order of stickersets was changed*](constructor/updateStickerSetsOrder)
 
 ---
 
-###### :link: [updateStickerSets](constructor/updateStickerSets)
+###### updateStickerSets
 
-  - *Installed stickersets have changed, the client should refetch them as described in the docs*
+:link: [*Installed stickersets have changed, the client should refetch them as described in the docs*](constructor/updateStickerSets)
 
 ---
 
-###### :link: [updateSavedGifs](constructor/updateSavedGifs)
+###### updateSavedGifs
 
-  - *The saved gif list has changed, the client should refetch it using messages.getSavedGifs*
+:link: [*The saved gif list has changed, the client should refetch it using messages.getSavedGifs*](constructor/updateSavedGifs)
 
 ---
 
-###### :link: [updateBotInlineQuery](constructor/updateBotInlineQuery)
+###### updateBotInlineQuery
 
-  - *An incoming inline query*
+:link: [*An incoming inline query*](constructor/updateBotInlineQuery)
 
 ---
 
-###### :link: [updateBotInlineSend](constructor/updateBotInlineSend)
+###### updateBotInlineSend
 
-  - *The result of an inline query that was chosen by a user and sent to their chat partner. Please see our documentation on the feedback collecting for details on how to enable these updates for your bot*
+:link: [*The result of an inline query that was chosen by a user and sent to their chat partner. Please see our documentation on the feedback collecting for details on how to enable these updates for your bot*](constructor/updateBotInlineSend)
 
 ---
 
-###### :link: [updateEditChannelMessage](constructor/updateEditChannelMessage)
+###### updateEditChannelMessage
 
-  - *A message was edited in a channel/supergroup*
+:link: [*A message was edited in a channel/supergroup*](constructor/updateEditChannelMessage)
 
 ---
 
-###### :link: [updateBotCallbackQuery](constructor/updateBotCallbackQuery)
+###### updateBotCallbackQuery
 
-  - *A callback button was pressed, and the button data was sent to the bot that created the button*
+:link: [*A callback button was pressed, and the button data was sent to the bot that created the button*](constructor/updateBotCallbackQuery)
 
 ---
 
-###### :link: [updateEditMessage](constructor/updateEditMessage)
+###### updateEditMessage
 
-  - *A message was edited*
+:link: [*A message was edited*](constructor/updateEditMessage)
 
 ---
 
-###### :link: [updateInlineBotCallbackQuery](constructor/updateInlineBotCallbackQuery)
+###### updateInlineBotCallbackQuery
 
-  - *This notification is received by bots when a button is pressed*
+:link: [*This notification is received by bots when a button is pressed*](constructor/updateInlineBotCallbackQuery)
 
 ---
 
-###### :link: [updateReadChannelOutbox](constructor/updateReadChannelOutbox)
+###### updateReadChannelOutbox
 
-  - *Outgoing messages in a channel/supergroup were read*
+:link: [*Outgoing messages in a channel/supergroup were read*](constructor/updateReadChannelOutbox)
 
 ---
 
-###### :link: [updateDraftMessage](constructor/updateDraftMessage)
+###### updateDraftMessage
 
-  - *Notifies a change of a message draft*
+:link: [*Notifies a change of a message draft*](constructor/updateDraftMessage)
 
 ---
 
-###### :link: [updateReadFeaturedStickers](constructor/updateReadFeaturedStickers)
+###### updateReadFeaturedStickers
 
-  - *Some featured stickers were marked as read*
+:link: [*Some featured stickers were marked as read*](constructor/updateReadFeaturedStickers)
 
 ---
 
-###### :link: [updateRecentStickers](constructor/updateRecentStickers)
+###### updateRecentStickers
 
-  - *The recent sticker list was updated*
+:link: [*The recent sticker list was updated*](constructor/updateRecentStickers)
 
 ---
 
-###### :link: [updateConfig](constructor/updateConfig)
+###### updateConfig
 
-  - *The server-side configuration has changed; the client should re-fetch the config using help.getConfig and help.getAppConfig*
+:link: [*The server-side configuration has changed; the client should re-fetch the config using help.getConfig and help.getAppConfig*](constructor/updateConfig)
 
 ---
 
-###### :link: [updatePtsChanged](constructor/updatePtsChanged)
+###### updatePtsChanged
 
-  - *Common message box sequence PTS has changed, state has to be refetched using updates.getState*
+:link: [*Common message box sequence PTS has changed, state has to be refetched using updates.getState*](constructor/updatePtsChanged)
 
 ---
 
-###### :link: [updateChannelWebPage](constructor/updateChannelWebPage)
+###### updateChannelWebPage
 
-  - *A webpage preview of a link in a channel/supergroup message was generated*
+:link: [*A webpage preview of a link in a channel/supergroup message was generated*](constructor/updateChannelWebPage)
 
 ---
 
-###### :link: [updateDialogPinned](constructor/updateDialogPinned)
+###### updateDialogPinned
 
-  - *A dialog was pinned/unpinned*
+:link: [*A dialog was pinned/unpinned*](constructor/updateDialogPinned)
 
 ---
 
-###### :link: [updatePinnedDialogs](constructor/updatePinnedDialogs)
+###### updatePinnedDialogs
 
-  - *Pinned dialogs were updated*
+:link: [*Pinned dialogs were updated*](constructor/updatePinnedDialogs)
 
 ---
 
-###### :link: [updateBotWebhookJSON](constructor/updateBotWebhookJSON)
+###### updateBotWebhookJSON
 
-  - *A new incoming event; for bots only*
+:link: [*A new incoming event; for bots only*](constructor/updateBotWebhookJSON)
 
 ---
 
-###### :link: [updateBotWebhookJSONQuery](constructor/updateBotWebhookJSONQuery)
+###### updateBotWebhookJSONQuery
 
-  - *A new incoming query; for bots only*
+:link: [*A new incoming query; for bots only*](constructor/updateBotWebhookJSONQuery)
 
 ---
 
-###### :link: [updateBotShippingQuery](constructor/updateBotShippingQuery)
+###### updateBotShippingQuery
 
-  - *This object contains information about an incoming shipping query*
+:link: [*This object contains information about an incoming shipping query*](constructor/updateBotShippingQuery)
 
 ---
 
-###### :link: [updateBotPrecheckoutQuery](constructor/updateBotPrecheckoutQuery)
+###### updateBotPrecheckoutQuery
 
-  - *This object contains information about an incoming pre-checkout query*
+:link: [*This object contains information about an incoming pre-checkout query*](constructor/updateBotPrecheckoutQuery)
 
 ---
 
-###### :link: [updatePhoneCall](constructor/updatePhoneCall)
+###### updatePhoneCall
 
-  - *An incoming phone call*
+:link: [*An incoming phone call*](constructor/updatePhoneCall)
 
 ---
 
-###### :link: [updateLangPackTooLong](constructor/updateLangPackTooLong)
+###### updateLangPackTooLong
 
-  - *A language pack has changed, the client should manually fetch the changed strings using langpack.getDifference*
+:link: [*A language pack has changed, the client should manually fetch the changed strings using langpack.getDifference*](constructor/updateLangPackTooLong)
 
 ---
 
-###### :link: [updateLangPack](constructor/updateLangPack)
+###### updateLangPack
 
-  - *Language pack updated*
+:link: [*Language pack updated*](constructor/updateLangPack)
 
 ---
 
-###### :link: [updateFavedStickers](constructor/updateFavedStickers)
+###### updateFavedStickers
 
-  - *The list of favorited stickers was changed, the client should call messages.getFavedStickers to refetch the new list*
+:link: [*The list of favorited stickers was changed, the client should call messages.getFavedStickers to refetch the new list*](constructor/updateFavedStickers)
 
 ---
 
-###### :link: [updateChannelReadMessagesContents](constructor/updateChannelReadMessagesContents)
+###### updateChannelReadMessagesContents
 
-  - *The specified channel/supergroup messages were read*
+:link: [*The specified channel/supergroup messages were read*](constructor/updateChannelReadMessagesContents)
 
 ---
 
-###### :link: [updateContactsReset](constructor/updateContactsReset)
+###### updateContactsReset
 
-  - *All contacts were deleted*
+:link: [*All contacts were deleted*](constructor/updateContactsReset)
 
 ---
 
-###### :link: [updateChannelAvailableMessages](constructor/updateChannelAvailableMessages)
+###### updateChannelAvailableMessages
 
-  - *The history of a channel/supergroup was hidden*
+:link: [*The history of a channel/supergroup was hidden*](constructor/updateChannelAvailableMessages)
 
 ---
 
-###### :link: [updateDialogUnreadMark](constructor/updateDialogUnreadMark)
+###### updateDialogUnreadMark
 
-  - *The manual unread mark of a chat was changed*
+:link: [*The manual unread mark of a chat was changed*](constructor/updateDialogUnreadMark)
 
 ---
 
-###### :link: [updateMessagePoll](constructor/updateMessagePoll)
+###### updateMessagePoll
 
-  - *The results of a poll have changed*
+:link: [*The results of a poll have changed*](constructor/updateMessagePoll)
 
 ---
 
-###### :link: [updateChatDefaultBannedRights](constructor/updateChatDefaultBannedRights)
+###### updateChatDefaultBannedRights
 
-  - *Default banned rights in a normal chat were updated*
+:link: [*Default banned rights in a normal chat were updated*](constructor/updateChatDefaultBannedRights)
 
 ---
 
-###### :link: [updateFolderPeers](constructor/updateFolderPeers)
+###### updateFolderPeers
 
-  - *The peer list of a peer folder was updated*
+:link: [*The peer list of a peer folder was updated*](constructor/updateFolderPeers)
 
 ---
 
-###### :link: [updatePeerSettings](constructor/updatePeerSettings)
+###### updatePeerSettings
 
-  - *Settings of a certain peer have changed*
+:link: [*Settings of a certain peer have changed*](constructor/updatePeerSettings)
 
 ---
 
-###### :link: [updatePeerLocated](constructor/updatePeerLocated)
+###### updatePeerLocated
 
-  - *List of peers near you was updated*
+:link: [*List of peers near you was updated*](constructor/updatePeerLocated)
 
 ---
 
-###### :link: [updateNewScheduledMessage](constructor/updateNewScheduledMessage)
+###### updateNewScheduledMessage
 
-  - *A message was added to the schedule queue of a chat*
+:link: [*A message was added to the schedule queue of a chat*](constructor/updateNewScheduledMessage)
 
 ---
 
-###### :link: [updateDeleteScheduledMessages](constructor/updateDeleteScheduledMessages)
+###### updateDeleteScheduledMessages
 
-  - *Some scheduled messages were deleted (or sent) from the schedule queue of a chat*
+:link: [*Some scheduled messages were deleted (or sent) from the schedule queue of a chat*](constructor/updateDeleteScheduledMessages)
 
 ---
 
-###### :link: [updateTheme](constructor/updateTheme)
+###### updateTheme
 
-  - *A cloud theme was updated*
+:link: [*A cloud theme was updated*](constructor/updateTheme)
 
 ---
 
-###### :link: [updateGeoLiveViewed](constructor/updateGeoLiveViewed)
+###### updateGeoLiveViewed
 
-  - *Live geoposition message was viewed*
+:link: [*Live geoposition message was viewed*](constructor/updateGeoLiveViewed)
 
 ---
 
-###### :link: [updateLoginToken](constructor/updateLoginToken)
+###### updateLoginToken
 
-  - *A login token (for login via QR code) was accepted*
+:link: [*A login token (for login via QR code) was accepted*](constructor/updateLoginToken)
 
 ---
 
-###### :link: [updateMessagePollVote](constructor/updateMessagePollVote)
+###### updateMessagePollVote
 
-  - *A specific peer has voted in a poll*
+:link: [*A specific peer has voted in a poll*](constructor/updateMessagePollVote)
 
 ---
 
-###### :link: [updateDialogFilter](constructor/updateDialogFilter)
+###### updateDialogFilter
 
-  - *A new folder was added*
+:link: [*A new folder was added*](constructor/updateDialogFilter)
 
 ---
 
-###### :link: [updateDialogFilterOrder](constructor/updateDialogFilterOrder)
+###### updateDialogFilterOrder
 
-  - *New folder order*
+:link: [*New folder order*](constructor/updateDialogFilterOrder)
 
 ---
 
-###### :link: [updateDialogFilters](constructor/updateDialogFilters)
+###### updateDialogFilters
 
-  - *Clients should update folder info*
+:link: [*Clients should update folder info*](constructor/updateDialogFilters)
 
 ---
 
-###### :link: [updatePhoneCallSignalingData](constructor/updatePhoneCallSignalingData)
+###### updatePhoneCallSignalingData
 
-  - *Incoming phone call signaling payload*
+:link: [*Incoming phone call signaling payload*](constructor/updatePhoneCallSignalingData)
 
 ---
 
-###### :link: [updateChannelMessageForwards](constructor/updateChannelMessageForwards)
+###### updateChannelMessageForwards
 
-  - *The forward counter of a message in a channel has changed*
+:link: [*The forward counter of a message in a channel has changed*](constructor/updateChannelMessageForwards)
 
 ---
 
-###### :link: [updateReadChannelDiscussionInbox](constructor/updateReadChannelDiscussionInbox)
+###### updateReadChannelDiscussionInbox
 
-  - *Incoming comments in a discussion thread were marked as read*
+:link: [*Incoming comments in a discussion thread were marked as read*](constructor/updateReadChannelDiscussionInbox)
 
 ---
 
-###### :link: [updateReadChannelDiscussionOutbox](constructor/updateReadChannelDiscussionOutbox)
+###### updateReadChannelDiscussionOutbox
 
-  - *Outgoing comments in a discussion thread were marked as read*
+:link: [*Outgoing comments in a discussion thread were marked as read*](constructor/updateReadChannelDiscussionOutbox)
 
 ---
 
-###### :link: [updatePeerBlocked](constructor/updatePeerBlocked)
+###### updatePeerBlocked
 
-  - *We blocked a peer, see here » for more info on blocklists*
+:link: [*We blocked a peer, see here » for more info on blocklists*](constructor/updatePeerBlocked)
 
 ---
 
-###### :link: [updateChannelUserTyping](constructor/updateChannelUserTyping)
+###### updateChannelUserTyping
 
-  - *A user is typing in a supergroup, channel or message thread*
+:link: [*A user is typing in a supergroup, channel or message thread*](constructor/updateChannelUserTyping)
 
 ---
 
-###### :link: [updatePinnedMessages](constructor/updatePinnedMessages)
+###### updatePinnedMessages
 
-  - *Some messages were pinned in a chat*
+:link: [*Some messages were pinned in a chat*](constructor/updatePinnedMessages)
 
 ---
 
-###### :link: [updatePinnedChannelMessages](constructor/updatePinnedChannelMessages)
+###### updatePinnedChannelMessages
 
-  - *Messages were pinned/unpinned in a channel/supergroup*
+:link: [*Messages were pinned/unpinned in a channel/supergroup*](constructor/updatePinnedChannelMessages)
 
 ---
 
-###### :link: [updateChat](constructor/updateChat)
+###### updateChat
 
-  - *Chat (chat and/or chatFull) information was updated*
+:link: [*Chat (chat and/or chatFull) information was updated*](constructor/updateChat)
 
 ---
 
-###### :link: [updateGroupCallParticipants](constructor/updateGroupCallParticipants)
+###### updateGroupCallParticipants
 
-  - *The participant list of a certain group call has changed*
+:link: [*The participant list of a certain group call has changed*](constructor/updateGroupCallParticipants)
 
 ---
 
-###### :link: [updateGroupCall](constructor/updateGroupCall)
+###### updateGroupCall
 
-  - *A new groupcall was started*
+:link: [*A new groupcall was started*](constructor/updateGroupCall)
 
 ---
 
-###### :link: [updatePeerHistoryTTL](constructor/updatePeerHistoryTTL)
+###### updatePeerHistoryTTL
 
-  - *The Time-To-Live for messages sent by the current user in a specific chat has changed*
+:link: [*The Time-To-Live for messages sent by the current user in a specific chat has changed*](constructor/updatePeerHistoryTTL)
 
 ---
 
-###### :link: [updateChatParticipant](constructor/updateChatParticipant)
+###### updateChatParticipant
 
-  - *A user has joined or left a specific chat*
+:link: [*A user has joined or left a specific chat*](constructor/updateChatParticipant)
 
 ---
 
-###### :link: [updateChannelParticipant](constructor/updateChannelParticipant)
+###### updateChannelParticipant
 
-  - *A participant has left, joined, was banned or admined in a channel or supergroup*
+:link: [*A participant has left, joined, was banned or admined in a channel or supergroup*](constructor/updateChannelParticipant)
 
 ---
 
-###### :link: [updateBotStopped](constructor/updateBotStopped)
+###### updateBotStopped
 
-  - *A bot was stopped or re-started*
+:link: [*A bot was stopped or re-started*](constructor/updateBotStopped)
 
 ---
 
-###### :link: [updateGroupCallConnection](constructor/updateGroupCallConnection)
+###### updateGroupCallConnection
 
-  - *New WebRTC parameters*
+:link: [*New WebRTC parameters*](constructor/updateGroupCallConnection)
 
 ---
 
-###### :link: [updateBotCommands](constructor/updateBotCommands)
+###### updateBotCommands
 
-  - *The command set of a certain bot in a certain chat has changed*
+:link: [*The command set of a certain bot in a certain chat has changed*](constructor/updateBotCommands)
 
 ---
 
-###### :link: [updatePendingJoinRequests](constructor/updatePendingJoinRequests)
+###### updatePendingJoinRequests
 
-  - *Someone has requested to join a chat or channel*
+:link: [*Someone has requested to join a chat or channel*](constructor/updatePendingJoinRequests)
 
 ---
 
-###### :link: [updateBotChatInviteRequester](constructor/updateBotChatInviteRequester)
+###### updateBotChatInviteRequester
 
-  - *Someone has requested to join a chat or channel (bots only, users will receive an updatePendingJoinRequests, instead)*
+:link: [*Someone has requested to join a chat or channel (bots only, users will receive an updatePendingJoinRequests, instead)*](constructor/updateBotChatInviteRequester)
 
 ---
 
-###### :link: [updateMessageReactions](constructor/updateMessageReactions)
+###### updateMessageReactions
 
-  - *New message reactions » are available*
+:link: [*New message reactions » are available*](constructor/updateMessageReactions)
 
 ---
 
-###### :link: [updateAttachMenuBots](constructor/updateAttachMenuBots)
+###### updateAttachMenuBots
 
-  - *The list of installed attachment menu entries » has changed, use messages.getAttachMenuBots to fetch the updated list*
+:link: [*The list of installed attachment menu entries » has changed, use messages.getAttachMenuBots to fetch the updated list*](constructor/updateAttachMenuBots)
 
 ---
 
-###### :link: [updateWebViewResultSent](constructor/updateWebViewResultSent)
+###### updateWebViewResultSent
 
-  - *Indicates to a bot that a webview was closed and an inline message was sent on behalf of the user using messages.sendWebViewResultMessage*
+:link: [*Indicates to a bot that a webview was closed and an inline message was sent on behalf of the user using messages.sendWebViewResultMessage*](constructor/updateWebViewResultSent)
 
 ---
 
-###### :link: [updateBotMenuButton](constructor/updateBotMenuButton)
+###### updateBotMenuButton
 
-  - *The menu button behavior for the specified bot has changed*
+:link: [*The menu button behavior for the specified bot has changed*](constructor/updateBotMenuButton)
 
 ---
 
-###### :link: [updateSavedRingtones](constructor/updateSavedRingtones)
+###### updateSavedRingtones
 
-  - *The list of saved notification sounds has changed, use account.getSavedRingtones to fetch the new list*
+:link: [*The list of saved notification sounds has changed, use account.getSavedRingtones to fetch the new list*](constructor/updateSavedRingtones)
 
 ---
 
-###### :link: [updateTranscribedAudio](constructor/updateTranscribedAudio)
+###### updateTranscribedAudio
 
-  - *A pending voice message transcription » initiated with messages.transcribeAudio was updated*
+:link: [*A pending voice message transcription » initiated with messages.transcribeAudio was updated*](constructor/updateTranscribedAudio)
 
 ---
 
-###### :link: [updateReadFeaturedEmojiStickers](constructor/updateReadFeaturedEmojiStickers)
+###### updateReadFeaturedEmojiStickers
 
-  - *Some featured custom emoji stickers were marked as read*
+:link: [*Some featured custom emoji stickers were marked as read*](constructor/updateReadFeaturedEmojiStickers)
 
 ---
 
-###### :link: [updateUserEmojiStatus](constructor/updateUserEmojiStatus)
+###### updateUserEmojiStatus
 
-  - *The emoji status of a certain user has changed*
+:link: [*The emoji status of a certain user has changed*](constructor/updateUserEmojiStatus)
 
 ---
 
-###### :link: [updateRecentEmojiStatuses](constructor/updateRecentEmojiStatuses)
+###### updateRecentEmojiStatuses
 
-  - *The list of recent emoji statuses has changed*
+:link: [*The list of recent emoji statuses has changed*](constructor/updateRecentEmojiStatuses)
 
 ---
 
-###### :link: [updateRecentReactions](constructor/updateRecentReactions)
+###### updateRecentReactions
 
-  - *The list of recent message reactions has changed*
+:link: [*The list of recent message reactions has changed*](constructor/updateRecentReactions)
 
 ---
 
-###### :link: [updateMoveStickerSetToTop](constructor/updateMoveStickerSetToTop)
+###### updateMoveStickerSetToTop
 
-  - *A stickerset was just moved to top, see here for more info »*
+:link: [*A stickerset was just moved to top, see here for more info »*](constructor/updateMoveStickerSetToTop)
 
 ---
 
-###### :link: [updateMessageExtendedMedia](constructor/updateMessageExtendedMedia)
+###### updateMessageExtendedMedia
 
-  - *You bought a paid media »: this update contains the revealed media*
+:link: [*You bought a paid media »: this update contains the revealed media*](constructor/updateMessageExtendedMedia)
 
 ---
 
-###### :link: [updateChannelPinnedTopic](constructor/updateChannelPinnedTopic)
+###### updateChannelPinnedTopic
 
-  - *A forum topic » was pinned or unpinned*
+:link: [*A forum topic » was pinned or unpinned*](constructor/updateChannelPinnedTopic)
 
 ---
 
-###### :link: [updateChannelPinnedTopics](constructor/updateChannelPinnedTopics)
+###### updateChannelPinnedTopics
 
-  - *The pinned topics of a forum have changed*
+:link: [*The pinned topics of a forum have changed*](constructor/updateChannelPinnedTopics)
 
 ---
 
-###### :link: [updateUser](constructor/updateUser)
+###### updateUser
 
-  - *User (user and/or userFull) information was updated*
+:link: [*User (user and/or userFull) information was updated*](constructor/updateUser)
 
 ---
 
-###### :link: [updateAutoSaveSettings](constructor/updateAutoSaveSettings)
+###### updateAutoSaveSettings
 
-  - *Media autosave settings have changed and must be refetched using account.getAutoSaveSettings*
+:link: [*Media autosave settings have changed and must be refetched using account.getAutoSaveSettings*](constructor/updateAutoSaveSettings)
 
 ---
 
-###### :link: [updateStory](constructor/updateStory)
+###### updateStory
 
-  - *A new story was posted*
+:link: [*A new story was posted*](constructor/updateStory)
 
 ---
 
-###### :link: [updateReadStories](constructor/updateReadStories)
+###### updateReadStories
 
-  - *Stories of a specific peer were marked as read*
+:link: [*Stories of a specific peer were marked as read*](constructor/updateReadStories)
 
 ---
 
-###### :link: [updateStoryID](constructor/updateStoryID)
+###### updateStoryID
 
-  - *A story was successfully uploaded*
+:link: [*A story was successfully uploaded*](constructor/updateStoryID)
 
 ---
 
-###### :link: [updateStoriesStealthMode](constructor/updateStoriesStealthMode)
+###### updateStoriesStealthMode
 
-  - *Indicates that stories stealth mode was activated*
+:link: [*Indicates that stories stealth mode was activated*](constructor/updateStoriesStealthMode)
 
 ---
 
-###### :link: [updateSentStoryReaction](constructor/updateSentStoryReaction)
+###### updateSentStoryReaction
 
-  - *Indicates we reacted to a story »*
+:link: [*Indicates we reacted to a story »*](constructor/updateSentStoryReaction)
 
 ---
 
-###### :link: [updateBotChatBoost](constructor/updateBotChatBoost)
+###### updateBotChatBoost
 
-  - *A channel/supergroup boost has changed (bots only)*
+:link: [*A channel/supergroup boost has changed (bots only)*](constructor/updateBotChatBoost)
 
 ---
 
-###### :link: [updateChannelViewForumAsMessages](constructor/updateChannelViewForumAsMessages)
+###### updateChannelViewForumAsMessages
 
-  - *Users may also choose to display messages from all topics as if they were sent to a normal group, using a "View as messages" setting in the local client.
-This setting only affects the current account, and is synced to other logged in sessions using the channels.toggleViewForumAsMessages method; invoking this method will update the value of the view_forum_as_messages flag of channelFull or dialog and emit an updateChannelViewForumAsMessages*
+:link: [*Users may also choose to display messages from all topics as if they were sent to a normal group, using a "View as messages" setting in the local client.
+This setting only affects the current account, and is synced to other logged in sessions using the channels.toggleViewForumAsMessages method; invoking this method will update the value of the view_forum_as_messages flag of channelFull or dialog and emit an updateChannelViewForumAsMessages*](constructor/updateChannelViewForumAsMessages)
 
 ---
 
-###### :link: [updatePeerWallpaper](constructor/updatePeerWallpaper)
+###### updatePeerWallpaper
 
-  - *The wallpaper » of a given peer has changed*
+:link: [*The wallpaper » of a given peer has changed*](constructor/updatePeerWallpaper)
 
 ---
 
-###### :link: [updateBotMessageReaction](constructor/updateBotMessageReaction)
+###### updateBotMessageReaction
 
-  - *Bots only: a user has changed their reactions on a message with public reactions*
+:link: [*Bots only: a user has changed their reactions on a message with public reactions*](constructor/updateBotMessageReaction)
 
 ---
 
-###### :link: [updateBotMessageReactions](constructor/updateBotMessageReactions)
+###### updateBotMessageReactions
 
-  - *Bots only: the number of reactions on a message with anonymous reactions has changed*
+:link: [*Bots only: the number of reactions on a message with anonymous reactions has changed*](constructor/updateBotMessageReactions)
 
 ---
 
-###### :link: [updateSavedDialogPinned](constructor/updateSavedDialogPinned)
+###### updateSavedDialogPinned
 
-  - *A saved message dialog was pinned/unpinned*
+:link: [*A saved message dialog was pinned/unpinned*](constructor/updateSavedDialogPinned)
 
 ---
 
-###### :link: [updatePinnedSavedDialogs](constructor/updatePinnedSavedDialogs)
+###### updatePinnedSavedDialogs
 
-  - *Pinned saved dialogs » were updated*
+:link: [*Pinned saved dialogs » were updated*](constructor/updatePinnedSavedDialogs)
 
 ---
 
-###### :link: [updateSavedReactionTags](constructor/updateSavedReactionTags)
+###### updateSavedReactionTags
 
-  - *The list of reaction tag » names assigned by the user has changed and should be refetched using messages.getSavedReactionTags »*
+:link: [*The list of reaction tag » names assigned by the user has changed and should be refetched using messages.getSavedReactionTags »*](constructor/updateSavedReactionTags)
 
 ---
 
-###### :link: [updateSmsJob](constructor/updateSmsJob)
+###### updateSmsJob
 
-  - *A new SMS job was received*
+:link: [*A new SMS job was received*](constructor/updateSmsJob)
 
 ---
 
-###### :link: [updateQuickReplies](constructor/updateQuickReplies)
+###### updateQuickReplies
 
-  - *Info about or the order of quick reply shortcuts » was changed*
+:link: [*Info about or the order of quick reply shortcuts » was changed*](constructor/updateQuickReplies)
 
 ---
 
-###### :link: [updateNewQuickReply](constructor/updateNewQuickReply)
+###### updateNewQuickReply
 
-  - *A new quick reply shortcut » was created*
+:link: [*A new quick reply shortcut » was created*](constructor/updateNewQuickReply)
 
 ---
 
-###### :link: [updateDeleteQuickReply](constructor/updateDeleteQuickReply)
+###### updateDeleteQuickReply
 
-  - *A quick reply shortcut » was deleted. This will not emit updateDeleteQuickReplyMessages updates, even if all the messages in the shortcut are also deleted by this update*
+:link: [*A quick reply shortcut » was deleted. This will not emit updateDeleteQuickReplyMessages updates, even if all the messages in the shortcut are also deleted by this update*](constructor/updateDeleteQuickReply)
 
 ---
 
-###### :link: [updateQuickReplyMessage](constructor/updateQuickReplyMessage)
+###### updateQuickReplyMessage
 
-  - *A new message was added to a quick reply shortcut »*
+:link: [*A new message was added to a quick reply shortcut »*](constructor/updateQuickReplyMessage)
 
 ---
 
-###### :link: [updateDeleteQuickReplyMessages](constructor/updateDeleteQuickReplyMessages)
+###### updateDeleteQuickReplyMessages
 
-  - *One or more messages in a quick reply shortcut » were deleted*
+:link: [*One or more messages in a quick reply shortcut » were deleted*](constructor/updateDeleteQuickReplyMessages)
 
 ---
 
-###### :link: [updateBotBusinessConnect](constructor/updateBotBusinessConnect)
+###### updateBotBusinessConnect
 
-  - *Connecting or disconnecting a business bot or changing the connection settings will emit an updateBotBusinessConnect update to the bot, with the new settings and a connection_id that will be used by the bot to handle updates from and send messages as the user*
+:link: [*Connecting or disconnecting a business bot or changing the connection settings will emit an updateBotBusinessConnect update to the bot, with the new settings and a connection_id that will be used by the bot to handle updates from and send messages as the user*](constructor/updateBotBusinessConnect)
 
 ---
 
-###### :link: [updateBotNewBusinessMessage](constructor/updateBotNewBusinessMessage)
+###### updateBotNewBusinessMessage
 
-  - *A message was received via a connected business chat »*
+:link: [*A message was received via a connected business chat »*](constructor/updateBotNewBusinessMessage)
 
 ---
 
-###### :link: [updateBotEditBusinessMessage](constructor/updateBotEditBusinessMessage)
+###### updateBotEditBusinessMessage
 
-  - *A message was edited in a connected business chat »*
+:link: [*A message was edited in a connected business chat »*](constructor/updateBotEditBusinessMessage)
 
 ---
 
-###### :link: [updateBotDeleteBusinessMessage](constructor/updateBotDeleteBusinessMessage)
+###### updateBotDeleteBusinessMessage
 
-  - *A message was deleted in a connected business chat »*
+:link: [*A message was deleted in a connected business chat »*](constructor/updateBotDeleteBusinessMessage)
 
 ---
 
-###### :link: [updateNewStoryReaction](constructor/updateNewStoryReaction)
+###### updateNewStoryReaction
 
-  - *Represents a new reaction to a story*
+:link: [*Represents a new reaction to a story*](constructor/updateNewStoryReaction)
 
 ---
 
-###### :link: [updateStarsBalance](constructor/updateStarsBalance)
+###### updateStarsBalance
 
-  - *The current account's Telegram Stars balance » has changed*
+:link: [*The current account's Telegram Stars balance » has changed*](constructor/updateStarsBalance)
 
 ---
 
-###### :link: [updateBusinessBotCallbackQuery](constructor/updateBusinessBotCallbackQuery)
+###### updateBusinessBotCallbackQuery
 
-  - *A callback button sent via a business connection was pressed, and the button data was sent to the bot that created the button*
+:link: [*A callback button sent via a business connection was pressed, and the button data was sent to the bot that created the button*](constructor/updateBusinessBotCallbackQuery)
 
 ---
 
-###### :link: [updateStarsRevenueStatus](constructor/updateStarsRevenueStatus)
+###### updateStarsRevenueStatus
 
-  - *The Telegram Star balance of a channel/bot we own has changed »*
+:link: [*The Telegram Star balance of a channel/bot we own has changed »*](constructor/updateStarsRevenueStatus)
 
 ---
 
-###### :link: [updateBotPurchasedPaidMedia](constructor/updateBotPurchasedPaidMedia)
+###### updateBotPurchasedPaidMedia
 
-  - *Bots only: a user has purchased a paid media*
+:link: [*Bots only: a user has purchased a paid media*](constructor/updateBotPurchasedPaidMedia)
 
 ---
 
-###### :link: [updatePaidReactionPrivacy](constructor/updatePaidReactionPrivacy)
+###### updatePaidReactionPrivacy
 
-  - *Contains the current default paid reaction privacy, see here » for more info*
+:link: [*Contains the current default paid reaction privacy, see here » for more info*](constructor/updatePaidReactionPrivacy)
 
 ---
 
-###### :link: [updateSentPhoneCode](constructor/updateSentPhoneCode)
+###### updateSentPhoneCode
 
+:link: [*NOTHING*](constructor/updateSentPhoneCode)
+
 ---
 
-###### :link: [updateGroupCallChainBlocks](constructor/updateGroupCallChainBlocks)
+###### updateGroupCallChainBlocks
 
+:link: [*NOTHING*](constructor/updateGroupCallChainBlocks)
+
 ---
+
+###### updateReadMonoForumInbox
 
-###### :link: [updateReadMonoForumInbox](constructor/updateReadMonoForumInbox)
+:link: [*NOTHING*](constructor/updateReadMonoForumInbox)
 
 ---
 
-###### :link: [updateReadMonoForumOutbox](constructor/updateReadMonoForumOutbox)
+###### updateReadMonoForumOutbox
 
+:link: [*NOTHING*](constructor/updateReadMonoForumOutbox)
+
 ---
 
-###### :link: [updateMonoForumNoPaidException](constructor/updateMonoForumNoPaidException)
+###### updateMonoForumNoPaidException
 
+:link: [*NOTHING*](constructor/updateMonoForumNoPaidException)
+
 ---
 
-###### :link: [updates.state](constructor/updates.state)
+###### updates.state
 
-  - *Updates state*
+:link: [*Updates state*](constructor/updates.state)
 
 ---
 
-###### :link: [updates.differenceEmpty](constructor/updates.differenceEmpty)
+###### updates.differenceEmpty
 
-  - *No events*
+:link: [*No events*](constructor/updates.differenceEmpty)
 
 ---
 
-###### :link: [updates.difference](constructor/updates.difference)
+###### updates.difference
 
-  - *Full list of occurred events*
+:link: [*Full list of occurred events*](constructor/updates.difference)
 
 ---
 
-###### :link: [updates.differenceSlice](constructor/updates.differenceSlice)
+###### updates.differenceSlice
 
-  - *Incomplete list of occurred events*
+:link: [*Incomplete list of occurred events*](constructor/updates.differenceSlice)
 
 ---
 
-###### :link: [updates.differenceTooLong](constructor/updates.differenceTooLong)
+###### updates.differenceTooLong
 
-  - *The difference is too long, and the specified state must be used to refetch updates*
+:link: [*The difference is too long, and the specified state must be used to refetch updates*](constructor/updates.differenceTooLong)
 
 ---
 
-###### :link: [updatesTooLong](constructor/updatesTooLong)
+###### updatesTooLong
 
-  - *Too many updates, it is necessary to execute updates.getDifference*
+:link: [*Too many updates, it is necessary to execute updates.getDifference*](constructor/updatesTooLong)
 
 ---
 
-###### :link: [updateShortMessage](constructor/updateShortMessage)
+###### updateShortMessage
 
-  - *Info about a message sent to (received from) another user*
+:link: [*Info about a message sent to (received from) another user*](constructor/updateShortMessage)
 
 ---
 
-###### :link: [updateShortChatMessage](constructor/updateShortChatMessage)
+###### updateShortChatMessage
 
-  - *Shortened constructor containing info on one new incoming text message from a chat*
+:link: [*Shortened constructor containing info on one new incoming text message from a chat*](constructor/updateShortChatMessage)
 
 ---
 
-###### :link: [updateShort](constructor/updateShort)
+###### updateShort
 
-  - *Shortened constructor containing info on one update not requiring auxiliary data*
+:link: [*Shortened constructor containing info on one update not requiring auxiliary data*](constructor/updateShort)
 
 ---
 
-###### :link: [updatesCombined](constructor/updatesCombined)
+###### updatesCombined
 
-  - *Constructor for a group of updates*
+:link: [*Constructor for a group of updates*](constructor/updatesCombined)
 
 ---
 
-###### :link: [updates](constructor/updates)
+###### updates
 
-  - *Full constructor of updates*
+:link: [*Full constructor of updates*](constructor/updates)
 
 ---
 
-###### :link: [updateShortSentMessage](constructor/updateShortSentMessage)
+###### updateShortSentMessage
 
-  - *Shortened constructor containing info on one outgoing message to a contact (the destination chat has to be extracted from the method call that returned this object)*
+:link: [*Shortened constructor containing info on one outgoing message to a contact (the destination chat has to be extracted from the method call that returned this object)*](constructor/updateShortSentMessage)
 
 ---
 
-###### :link: [photos.photos](constructor/photos.photos)
+###### photos.photos
 
-  - *Full list of photos with auxiliary data*
+:link: [*Full list of photos with auxiliary data*](constructor/photos.photos)
 
 ---
 
-###### :link: [photos.photosSlice](constructor/photos.photosSlice)
+###### photos.photosSlice
 
-  - *Incomplete list of photos with auxiliary data*
+:link: [*Incomplete list of photos with auxiliary data*](constructor/photos.photosSlice)
 
 ---
 
-###### :link: [photos.photo](constructor/photos.photo)
+###### photos.photo
 
-  - *Photo with auxiliary data*
+:link: [*Photo with auxiliary data*](constructor/photos.photo)
 
 ---
 
-###### :link: [upload.file](constructor/upload.file)
+###### upload.file
 
-  - *File content*
+:link: [*File content*](constructor/upload.file)
 
 ---
 
-###### :link: [upload.fileCdnRedirect](constructor/upload.fileCdnRedirect)
+###### upload.fileCdnRedirect
 
-  - *The file must be downloaded from a CDN DC*
+:link: [*The file must be downloaded from a CDN DC*](constructor/upload.fileCdnRedirect)
 
 ---
 
-###### :link: [dcOption](constructor/dcOption)
+###### dcOption
 
-  - *Data center*
+:link: [*Data center*](constructor/dcOption)
 
 ---
 
-###### :link: [config](constructor/config)
+###### config
 
-  - *Current configuration*
+:link: [*Current configuration*](constructor/config)
 
 ---
 
-###### :link: [nearestDc](constructor/nearestDc)
+###### nearestDc
 
-  - *Nearest data center, according to geo-ip*
+:link: [*Nearest data center, according to geo-ip*](constructor/nearestDc)
 
 ---
 
-###### :link: [help.appUpdate](constructor/help.appUpdate)
+###### help.appUpdate
 
-  - *An update is available for the application*
+:link: [*An update is available for the application*](constructor/help.appUpdate)
 
 ---
 
-###### :link: [help.noAppUpdate](constructor/help.noAppUpdate)
+###### help.noAppUpdate
 
-  - *No updates are available for the application*
+:link: [*No updates are available for the application*](constructor/help.noAppUpdate)
 
 ---
 
-###### :link: [help.inviteText](constructor/help.inviteText)
+###### help.inviteText
 
-  - *Text of a text message with an invitation to install Telegram*
+:link: [*Text of a text message with an invitation to install Telegram*](constructor/help.inviteText)
 
 ---
 
-###### :link: [encryptedChatEmpty](constructor/encryptedChatEmpty)
+###### encryptedChatEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/encryptedChatEmpty)
 
 ---
 
-###### :link: [encryptedChatWaiting](constructor/encryptedChatWaiting)
+###### encryptedChatWaiting
 
-  - *Chat waiting for approval of second participant*
+:link: [*Chat waiting for approval of second participant*](constructor/encryptedChatWaiting)
 
 ---
 
-###### :link: [encryptedChatRequested](constructor/encryptedChatRequested)
+###### encryptedChatRequested
 
-  - *Request to create an encrypted chat*
+:link: [*Request to create an encrypted chat*](constructor/encryptedChatRequested)
 
 ---
 
-###### :link: [encryptedChat](constructor/encryptedChat)
+###### encryptedChat
 
-  - *Encrypted chat*
+:link: [*Encrypted chat*](constructor/encryptedChat)
 
 ---
 
-###### :link: [encryptedChatDiscarded](constructor/encryptedChatDiscarded)
+###### encryptedChatDiscarded
 
-  - *Discarded or deleted chat*
+:link: [*Discarded or deleted chat*](constructor/encryptedChatDiscarded)
 
 ---
 
-###### :link: [inputEncryptedChat](constructor/inputEncryptedChat)
+###### inputEncryptedChat
 
-  - *Creates an encrypted chat*
+:link: [*Creates an encrypted chat*](constructor/inputEncryptedChat)
 
 ---
 
-###### :link: [encryptedFileEmpty](constructor/encryptedFileEmpty)
+###### encryptedFileEmpty
 
-  - *Empty constructor, non-existing file*
+:link: [*Empty constructor, non-existing file*](constructor/encryptedFileEmpty)
 
 ---
 
-###### :link: [encryptedFile](constructor/encryptedFile)
+###### encryptedFile
 
-  - *Encrypted file*
+:link: [*Encrypted file*](constructor/encryptedFile)
 
 ---
 
-###### :link: [inputEncryptedFileEmpty](constructor/inputEncryptedFileEmpty)
+###### inputEncryptedFileEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/inputEncryptedFileEmpty)
 
 ---
 
-###### :link: [inputEncryptedFileUploaded](constructor/inputEncryptedFileUploaded)
+###### inputEncryptedFileUploaded
 
-  - *Sets new encrypted file saved by parts using upload.saveFilePart method*
+:link: [*Sets new encrypted file saved by parts using upload.saveFilePart method*](constructor/inputEncryptedFileUploaded)
 
 ---
 
-###### :link: [inputEncryptedFile](constructor/inputEncryptedFile)
+###### inputEncryptedFile
 
-  - *Sets forwarded encrypted file for attachment*
+:link: [*Sets forwarded encrypted file for attachment*](constructor/inputEncryptedFile)
 
 ---
 
-###### :link: [inputEncryptedFileBigUploaded](constructor/inputEncryptedFileBigUploaded)
+###### inputEncryptedFileBigUploaded
 
-  - *Assigns a new big encrypted file (over 10 MB in size), saved in parts using the method upload.saveBigFilePart*
+:link: [*Assigns a new big encrypted file (over 10 MB in size), saved in parts using the method upload.saveBigFilePart*](constructor/inputEncryptedFileBigUploaded)
 
 ---
 
-###### :link: [encryptedMessage](constructor/encryptedMessage)
+###### encryptedMessage
 
-  - *Encrypted message*
+:link: [*Encrypted message*](constructor/encryptedMessage)
 
 ---
 
-###### :link: [encryptedMessageService](constructor/encryptedMessageService)
+###### encryptedMessageService
 
-  - *Encrypted service message*
+:link: [*Encrypted service message*](constructor/encryptedMessageService)
 
 ---
 
-###### :link: [messages.dhConfigNotModified](constructor/messages.dhConfigNotModified)
+###### messages.dhConfigNotModified
 
-  - *Configuring parameters did not change*
+:link: [*Configuring parameters did not change*](constructor/messages.dhConfigNotModified)
 
 ---
 
-###### :link: [messages.dhConfig](constructor/messages.dhConfig)
+###### messages.dhConfig
 
-  - *New set of configuring parameters*
+:link: [*New set of configuring parameters*](constructor/messages.dhConfig)
 
 ---
 
-###### :link: [messages.sentEncryptedMessage](constructor/messages.sentEncryptedMessage)
+###### messages.sentEncryptedMessage
 
-  - *Message without file attachments sent to an encrypted file*
+:link: [*Message without file attachments sent to an encrypted file*](constructor/messages.sentEncryptedMessage)
 
 ---
 
-###### :link: [messages.sentEncryptedFile](constructor/messages.sentEncryptedFile)
+###### messages.sentEncryptedFile
 
-  - *Message with a file enclosure sent to a protected chat*
+:link: [*Message with a file enclosure sent to a protected chat*](constructor/messages.sentEncryptedFile)
 
 ---
 
-###### :link: [inputDocumentEmpty](constructor/inputDocumentEmpty)
+###### inputDocumentEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/inputDocumentEmpty)
 
 ---
 
-###### :link: [inputDocument](constructor/inputDocument)
+###### inputDocument
 
-  - *Defines a document for subsequent interaction*
+:link: [*Defines a document for subsequent interaction*](constructor/inputDocument)
 
 ---
 
-###### :link: [documentEmpty](constructor/documentEmpty)
+###### documentEmpty
 
-  - *Empty constructor, document doesn't exist*
+:link: [*Empty constructor, document doesn't exist*](constructor/documentEmpty)
 
 ---
 
-###### :link: [document](constructor/document)
+###### document
 
-  - *Document*
+:link: [*Document*](constructor/document)
 
 ---
 
-###### :link: [help.support](constructor/help.support)
+###### help.support
 
-  - *Info on support user*
+:link: [*Info on support user*](constructor/help.support)
 
 ---
 
-###### :link: [notifyPeer](constructor/notifyPeer)
+###### notifyPeer
 
-  - *Notifications generated by a certain user or group*
+:link: [*Notifications generated by a certain user or group*](constructor/notifyPeer)
 
 ---
 
-###### :link: [notifyUsers](constructor/notifyUsers)
+###### notifyUsers
 
-  - *Notifications generated by all users*
+:link: [*Notifications generated by all users*](constructor/notifyUsers)
 
 ---
 
-###### :link: [notifyChats](constructor/notifyChats)
+###### notifyChats
 
-  - *Notifications generated by all groups*
+:link: [*Notifications generated by all groups*](constructor/notifyChats)
 
 ---
 
-###### :link: [notifyBroadcasts](constructor/notifyBroadcasts)
+###### notifyBroadcasts
 
-  - *Channel notification settings*
+:link: [*Channel notification settings*](constructor/notifyBroadcasts)
 
 ---
 
-###### :link: [notifyForumTopic](constructor/notifyForumTopic)
+###### notifyForumTopic
 
-  - *Notifications generated by a topic in a forum*
+:link: [*Notifications generated by a topic in a forum*](constructor/notifyForumTopic)
 
 ---
 
-###### :link: [sendMessageTypingAction](constructor/sendMessageTypingAction)
+###### sendMessageTypingAction
 
-  - *User is typing*
+:link: [*User is typing*](constructor/sendMessageTypingAction)
 
 ---
 
-###### :link: [sendMessageCancelAction](constructor/sendMessageCancelAction)
+###### sendMessageCancelAction
 
-  - *Invalidate all previous action updates. E.g. when user deletes entered text or aborts a video upload*
+:link: [*Invalidate all previous action updates. E.g. when user deletes entered text or aborts a video upload*](constructor/sendMessageCancelAction)
 
 ---
 
-###### :link: [sendMessageRecordVideoAction](constructor/sendMessageRecordVideoAction)
+###### sendMessageRecordVideoAction
 
-  - *User is recording a video*
+:link: [*User is recording a video*](constructor/sendMessageRecordVideoAction)
 
 ---
 
-###### :link: [sendMessageUploadVideoAction](constructor/sendMessageUploadVideoAction)
+###### sendMessageUploadVideoAction
 
-  - *User is uploading a video*
+:link: [*User is uploading a video*](constructor/sendMessageUploadVideoAction)
 
 ---
 
-###### :link: [sendMessageRecordAudioAction](constructor/sendMessageRecordAudioAction)
+###### sendMessageRecordAudioAction
 
-  - *User is recording a voice message*
+:link: [*User is recording a voice message*](constructor/sendMessageRecordAudioAction)
 
 ---
 
-###### :link: [sendMessageUploadAudioAction](constructor/sendMessageUploadAudioAction)
+###### sendMessageUploadAudioAction
 
-  - *User is uploading a voice message*
+:link: [*User is uploading a voice message*](constructor/sendMessageUploadAudioAction)
 
 ---
 
-###### :link: [sendMessageUploadPhotoAction](constructor/sendMessageUploadPhotoAction)
+###### sendMessageUploadPhotoAction
 
-  - *User is uploading a photo*
+:link: [*User is uploading a photo*](constructor/sendMessageUploadPhotoAction)
 
 ---
 
-###### :link: [sendMessageUploadDocumentAction](constructor/sendMessageUploadDocumentAction)
+###### sendMessageUploadDocumentAction
 
-  - *User is uploading a file*
+:link: [*User is uploading a file*](constructor/sendMessageUploadDocumentAction)
 
 ---
 
-###### :link: [sendMessageGeoLocationAction](constructor/sendMessageGeoLocationAction)
+###### sendMessageGeoLocationAction
 
-  - *User is selecting a location to share*
+:link: [*User is selecting a location to share*](constructor/sendMessageGeoLocationAction)
 
 ---
 
-###### :link: [sendMessageChooseContactAction](constructor/sendMessageChooseContactAction)
+###### sendMessageChooseContactAction
 
-  - *User is selecting a contact to share*
+:link: [*User is selecting a contact to share*](constructor/sendMessageChooseContactAction)
 
 ---
 
-###### :link: [sendMessageGamePlayAction](constructor/sendMessageGamePlayAction)
+###### sendMessageGamePlayAction
 
-  - *User is playing a game*
+:link: [*User is playing a game*](constructor/sendMessageGamePlayAction)
 
 ---
 
-###### :link: [sendMessageRecordRoundAction](constructor/sendMessageRecordRoundAction)
+###### sendMessageRecordRoundAction
 
-  - *User is recording a round video to share*
+:link: [*User is recording a round video to share*](constructor/sendMessageRecordRoundAction)
 
 ---
 
-###### :link: [sendMessageUploadRoundAction](constructor/sendMessageUploadRoundAction)
+###### sendMessageUploadRoundAction
 
-  - *User is uploading a round video*
+:link: [*User is uploading a round video*](constructor/sendMessageUploadRoundAction)
 
 ---
 
-###### :link: [speakingInGroupCallAction](constructor/speakingInGroupCallAction)
+###### speakingInGroupCallAction
 
-  - *User is currently speaking in the group call*
+:link: [*User is currently speaking in the group call*](constructor/speakingInGroupCallAction)
 
 ---
 
-###### :link: [sendMessageHistoryImportAction](constructor/sendMessageHistoryImportAction)
+###### sendMessageHistoryImportAction
 
-  - *Chat history is being imported*
+:link: [*Chat history is being imported*](constructor/sendMessageHistoryImportAction)
 
 ---
 
-###### :link: [sendMessageChooseStickerAction](constructor/sendMessageChooseStickerAction)
+###### sendMessageChooseStickerAction
 
-  - *User is choosing a sticker*
+:link: [*User is choosing a sticker*](constructor/sendMessageChooseStickerAction)
 
 ---
 
-###### :link: [sendMessageEmojiInteraction](constructor/sendMessageEmojiInteraction)
+###### sendMessageEmojiInteraction
 
-  - *User has clicked on an animated emoji triggering a reaction, click here for more info »*
+:link: [*User has clicked on an animated emoji triggering a reaction, click here for more info »*](constructor/sendMessageEmojiInteraction)
 
 ---
 
-###### :link: [sendMessageEmojiInteractionSeen](constructor/sendMessageEmojiInteractionSeen)
+###### sendMessageEmojiInteractionSeen
 
-  - *User is watching an animated emoji reaction triggered by another user, click here for more info »*
+:link: [*User is watching an animated emoji reaction triggered by another user, click here for more info »*](constructor/sendMessageEmojiInteractionSeen)
 
 ---
 
-###### :link: [contacts.found](constructor/contacts.found)
+###### contacts.found
 
-  - *Users found by name substring and auxiliary data*
+:link: [*Users found by name substring and auxiliary data*](constructor/contacts.found)
 
 ---
 
-###### :link: [inputPrivacyKeyStatusTimestamp](constructor/inputPrivacyKeyStatusTimestamp)
+###### inputPrivacyKeyStatusTimestamp
 
-  - *Whether people will be able to see our exact last online timestamp*
+:link: [*Whether people will be able to see our exact last online timestamp*](constructor/inputPrivacyKeyStatusTimestamp)
 
 ---
 
-###### :link: [inputPrivacyKeyChatInvite](constructor/inputPrivacyKeyChatInvite)
+###### inputPrivacyKeyChatInvite
 
-  - *Whether people will be able to invite you to chats*
+:link: [*Whether people will be able to invite you to chats*](constructor/inputPrivacyKeyChatInvite)
 
 ---
 
-###### :link: [inputPrivacyKeyPhoneCall](constructor/inputPrivacyKeyPhoneCall)
+###### inputPrivacyKeyPhoneCall
 
-  - *Whether you will accept phone calls*
+:link: [*Whether you will accept phone calls*](constructor/inputPrivacyKeyPhoneCall)
 
 ---
 
-###### :link: [inputPrivacyKeyPhoneP2P](constructor/inputPrivacyKeyPhoneP2P)
+###### inputPrivacyKeyPhoneP2P
 
-  - *Whether to allow P2P communication during VoIP calls*
+:link: [*Whether to allow P2P communication during VoIP calls*](constructor/inputPrivacyKeyPhoneP2P)
 
 ---
 
-###### :link: [inputPrivacyKeyForwards](constructor/inputPrivacyKeyForwards)
+###### inputPrivacyKeyForwards
 
-  - *Whether messages forwarded from you will be anonymous*
+:link: [*Whether messages forwarded from you will be anonymous*](constructor/inputPrivacyKeyForwards)
 
 ---
 
-###### :link: [inputPrivacyKeyProfilePhoto](constructor/inputPrivacyKeyProfilePhoto)
+###### inputPrivacyKeyProfilePhoto
 
-  - *Whether people will be able to see your profile picture*
+:link: [*Whether people will be able to see your profile picture*](constructor/inputPrivacyKeyProfilePhoto)
 
 ---
 
-###### :link: [inputPrivacyKeyPhoneNumber](constructor/inputPrivacyKeyPhoneNumber)
+###### inputPrivacyKeyPhoneNumber
 
-  - *Whether people will be able to see your phone number*
+:link: [*Whether people will be able to see your phone number*](constructor/inputPrivacyKeyPhoneNumber)
 
 ---
 
-###### :link: [inputPrivacyKeyAddedByPhone](constructor/inputPrivacyKeyAddedByPhone)
+###### inputPrivacyKeyAddedByPhone
 
-  - *Whether people can add you to their contact list by your phone number*
+:link: [*Whether people can add you to their contact list by your phone number*](constructor/inputPrivacyKeyAddedByPhone)
 
 ---
 
-###### :link: [inputPrivacyKeyVoiceMessages](constructor/inputPrivacyKeyVoiceMessages)
+###### inputPrivacyKeyVoiceMessages
 
-  - *Whether people can send you voice messages or round videos (Premium users only)*
+:link: [*Whether people can send you voice messages or round videos (Premium users only)*](constructor/inputPrivacyKeyVoiceMessages)
 
 ---
 
-###### :link: [inputPrivacyKeyAbout](constructor/inputPrivacyKeyAbout)
+###### inputPrivacyKeyAbout
 
-  - *Whether people can see your bio*
+:link: [*Whether people can see your bio*](constructor/inputPrivacyKeyAbout)
 
 ---
 
-###### :link: [inputPrivacyKeyBirthday](constructor/inputPrivacyKeyBirthday)
+###### inputPrivacyKeyBirthday
 
-  - *Whether the user can see our birthday*
+:link: [*Whether the user can see our birthday*](constructor/inputPrivacyKeyBirthday)
 
 ---
 
-###### :link: [inputPrivacyKeyStarGiftsAutoSave](constructor/inputPrivacyKeyStarGiftsAutoSave)
+###### inputPrivacyKeyStarGiftsAutoSave
 
-  - *Whether received gifts will be automatically displayed on our profile*
+:link: [*Whether received gifts will be automatically displayed on our profile*](constructor/inputPrivacyKeyStarGiftsAutoSave)
 
 ---
+
+###### inputPrivacyKeyNoPaidMessages
 
-###### :link: [inputPrivacyKeyNoPaidMessages](constructor/inputPrivacyKeyNoPaidMessages)
+:link: [*NOTHING*](constructor/inputPrivacyKeyNoPaidMessages)
 
 ---
 
-###### :link: [privacyKeyStatusTimestamp](constructor/privacyKeyStatusTimestamp)
+###### privacyKeyStatusTimestamp
 
-  - *Whether we can see the last online timestamp of this user*
+:link: [*Whether we can see the last online timestamp of this user*](constructor/privacyKeyStatusTimestamp)
 
 ---
 
-###### :link: [privacyKeyChatInvite](constructor/privacyKeyChatInvite)
+###### privacyKeyChatInvite
 
-  - *Whether the user can be invited to chats*
+:link: [*Whether the user can be invited to chats*](constructor/privacyKeyChatInvite)
 
 ---
 
-###### :link: [privacyKeyPhoneCall](constructor/privacyKeyPhoneCall)
+###### privacyKeyPhoneCall
 
-  - *Whether the user accepts phone calls*
+:link: [*Whether the user accepts phone calls*](constructor/privacyKeyPhoneCall)
 
 ---
 
-###### :link: [privacyKeyPhoneP2P](constructor/privacyKeyPhoneP2P)
+###### privacyKeyPhoneP2P
 
-  - *Whether P2P connections in phone calls with this user are allowed*
+:link: [*Whether P2P connections in phone calls with this user are allowed*](constructor/privacyKeyPhoneP2P)
 
 ---
 
-###### :link: [privacyKeyForwards](constructor/privacyKeyForwards)
+###### privacyKeyForwards
 
-  - *Whether messages forwarded from the user will be anonymously forwarded*
+:link: [*Whether messages forwarded from the user will be anonymously forwarded*](constructor/privacyKeyForwards)
 
 ---
 
-###### :link: [privacyKeyProfilePhoto](constructor/privacyKeyProfilePhoto)
+###### privacyKeyProfilePhoto
 
-  - *Whether the profile picture of the user is visible*
+:link: [*Whether the profile picture of the user is visible*](constructor/privacyKeyProfilePhoto)
 
 ---
 
-###### :link: [privacyKeyPhoneNumber](constructor/privacyKeyPhoneNumber)
+###### privacyKeyPhoneNumber
 
-  - *Whether the user allows us to see his phone number*
+:link: [*Whether the user allows us to see his phone number*](constructor/privacyKeyPhoneNumber)
 
 ---
 
-###### :link: [privacyKeyAddedByPhone](constructor/privacyKeyAddedByPhone)
+###### privacyKeyAddedByPhone
 
-  - *Whether this user can be added to our contact list by their phone number*
+:link: [*Whether this user can be added to our contact list by their phone number*](constructor/privacyKeyAddedByPhone)
 
 ---
 
-###### :link: [privacyKeyVoiceMessages](constructor/privacyKeyVoiceMessages)
+###### privacyKeyVoiceMessages
 
-  - *Whether the user accepts voice messages*
+:link: [*Whether the user accepts voice messages*](constructor/privacyKeyVoiceMessages)
 
 ---
 
-###### :link: [privacyKeyAbout](constructor/privacyKeyAbout)
+###### privacyKeyAbout
 
-  - *Whether people can see your bio*
+:link: [*Whether people can see your bio*](constructor/privacyKeyAbout)
 
 ---
 
-###### :link: [privacyKeyBirthday](constructor/privacyKeyBirthday)
+###### privacyKeyBirthday
 
-  - *Whether the user can see our birthday*
+:link: [*Whether the user can see our birthday*](constructor/privacyKeyBirthday)
 
 ---
 
-###### :link: [privacyKeyStarGiftsAutoSave](constructor/privacyKeyStarGiftsAutoSave)
+###### privacyKeyStarGiftsAutoSave
 
-  - *Whether received gifts will be automatically displayed on our profile*
+:link: [*Whether received gifts will be automatically displayed on our profile*](constructor/privacyKeyStarGiftsAutoSave)
 
 ---
 
-###### :link: [privacyKeyNoPaidMessages](constructor/privacyKeyNoPaidMessages)
+###### privacyKeyNoPaidMessages
 
+:link: [*NOTHING*](constructor/privacyKeyNoPaidMessages)
+
 ---
 
-###### :link: [inputPrivacyValueAllowContacts](constructor/inputPrivacyValueAllowContacts)
+###### inputPrivacyValueAllowContacts
 
-  - *Allow only contacts*
+:link: [*Allow only contacts*](constructor/inputPrivacyValueAllowContacts)
 
 ---
 
-###### :link: [inputPrivacyValueAllowAll](constructor/inputPrivacyValueAllowAll)
+###### inputPrivacyValueAllowAll
 
-  - *Allow all users*
+:link: [*Allow all users*](constructor/inputPrivacyValueAllowAll)
 
 ---
 
-###### :link: [inputPrivacyValueAllowUsers](constructor/inputPrivacyValueAllowUsers)
+###### inputPrivacyValueAllowUsers
 
-  - *Allow only certain users*
+:link: [*Allow only certain users*](constructor/inputPrivacyValueAllowUsers)
 
 ---
 
-###### :link: [inputPrivacyValueDisallowContacts](constructor/inputPrivacyValueDisallowContacts)
+###### inputPrivacyValueDisallowContacts
 
-  - *Disallow only contacts*
+:link: [*Disallow only contacts*](constructor/inputPrivacyValueDisallowContacts)
 
 ---
 
-###### :link: [inputPrivacyValueDisallowAll](constructor/inputPrivacyValueDisallowAll)
+###### inputPrivacyValueDisallowAll
 
-  - *Disallow all*
+:link: [*Disallow all*](constructor/inputPrivacyValueDisallowAll)
 
 ---
 
-###### :link: [inputPrivacyValueDisallowUsers](constructor/inputPrivacyValueDisallowUsers)
+###### inputPrivacyValueDisallowUsers
 
-  - *Disallow only certain users*
+:link: [*Disallow only certain users*](constructor/inputPrivacyValueDisallowUsers)
 
 ---
 
-###### :link: [inputPrivacyValueAllowChatParticipants](constructor/inputPrivacyValueAllowChatParticipants)
+###### inputPrivacyValueAllowChatParticipants
 
-  - *Allow only participants of certain chats*
+:link: [*Allow only participants of certain chats*](constructor/inputPrivacyValueAllowChatParticipants)
 
 ---
 
-###### :link: [inputPrivacyValueDisallowChatParticipants](constructor/inputPrivacyValueDisallowChatParticipants)
+###### inputPrivacyValueDisallowChatParticipants
 
-  - *Disallow only participants of certain chats*
+:link: [*Disallow only participants of certain chats*](constructor/inputPrivacyValueDisallowChatParticipants)
 
 ---
 
-###### :link: [inputPrivacyValueAllowCloseFriends](constructor/inputPrivacyValueAllowCloseFriends)
+###### inputPrivacyValueAllowCloseFriends
 
-  - *Allow only close friends »*
+:link: [*Allow only close friends »*](constructor/inputPrivacyValueAllowCloseFriends)
 
 ---
 
-###### :link: [inputPrivacyValueAllowPremium](constructor/inputPrivacyValueAllowPremium)
+###### inputPrivacyValueAllowPremium
 
-  - *Allow only users with a Premium subscription », currently only usable for inputPrivacyKeyChatInvite*
+:link: [*Allow only users with a Premium subscription », currently only usable for inputPrivacyKeyChatInvite*](constructor/inputPrivacyValueAllowPremium)
 
 ---
 
-###### :link: [inputPrivacyValueAllowBots](constructor/inputPrivacyValueAllowBots)
+###### inputPrivacyValueAllowBots
 
-  - *Allow bots and mini apps*
+:link: [*Allow bots and mini apps*](constructor/inputPrivacyValueAllowBots)
 
 ---
 
-###### :link: [inputPrivacyValueDisallowBots](constructor/inputPrivacyValueDisallowBots)
+###### inputPrivacyValueDisallowBots
 
-  - *Disallow bots and mini apps*
+:link: [*Disallow bots and mini apps*](constructor/inputPrivacyValueDisallowBots)
 
 ---
 
-###### :link: [privacyValueAllowContacts](constructor/privacyValueAllowContacts)
+###### privacyValueAllowContacts
 
-  - *Allow all contacts*
+:link: [*Allow all contacts*](constructor/privacyValueAllowContacts)
 
 ---
 
-###### :link: [privacyValueAllowAll](constructor/privacyValueAllowAll)
+###### privacyValueAllowAll
 
-  - *Allow all users*
+:link: [*Allow all users*](constructor/privacyValueAllowAll)
 
 ---
 
-###### :link: [privacyValueAllowUsers](constructor/privacyValueAllowUsers)
+###### privacyValueAllowUsers
 
-  - *Allow only certain users*
+:link: [*Allow only certain users*](constructor/privacyValueAllowUsers)
 
 ---
 
-###### :link: [privacyValueDisallowContacts](constructor/privacyValueDisallowContacts)
+###### privacyValueDisallowContacts
 
-  - *Disallow only contacts*
+:link: [*Disallow only contacts*](constructor/privacyValueDisallowContacts)
 
 ---
 
-###### :link: [privacyValueDisallowAll](constructor/privacyValueDisallowAll)
+###### privacyValueDisallowAll
 
-  - *Disallow all users*
+:link: [*Disallow all users*](constructor/privacyValueDisallowAll)
 
 ---
 
-###### :link: [privacyValueDisallowUsers](constructor/privacyValueDisallowUsers)
+###### privacyValueDisallowUsers
 
-  - *Disallow only certain users*
+:link: [*Disallow only certain users*](constructor/privacyValueDisallowUsers)
 
 ---
 
-###### :link: [privacyValueAllowChatParticipants](constructor/privacyValueAllowChatParticipants)
+###### privacyValueAllowChatParticipants
 
-  - *Allow all participants of certain chats*
+:link: [*Allow all participants of certain chats*](constructor/privacyValueAllowChatParticipants)
 
 ---
 
-###### :link: [privacyValueDisallowChatParticipants](constructor/privacyValueDisallowChatParticipants)
+###### privacyValueDisallowChatParticipants
 
-  - *Disallow only participants of certain chats*
+:link: [*Disallow only participants of certain chats*](constructor/privacyValueDisallowChatParticipants)
 
 ---
 
-###### :link: [privacyValueAllowCloseFriends](constructor/privacyValueAllowCloseFriends)
+###### privacyValueAllowCloseFriends
 
-  - *Allow only close friends »*
+:link: [*Allow only close friends »*](constructor/privacyValueAllowCloseFriends)
 
 ---
 
-###### :link: [privacyValueAllowPremium](constructor/privacyValueAllowPremium)
+###### privacyValueAllowPremium
 
-  - *Allow only users with a Premium subscription », currently only usable for inputPrivacyKeyChatInvite*
+:link: [*Allow only users with a Premium subscription », currently only usable for inputPrivacyKeyChatInvite*](constructor/privacyValueAllowPremium)
 
 ---
 
-###### :link: [privacyValueAllowBots](constructor/privacyValueAllowBots)
+###### privacyValueAllowBots
 
-  - *Allow bots and mini apps*
+:link: [*Allow bots and mini apps*](constructor/privacyValueAllowBots)
 
 ---
 
-###### :link: [privacyValueDisallowBots](constructor/privacyValueDisallowBots)
+###### privacyValueDisallowBots
 
-  - *Disallow bots and mini apps*
+:link: [*Disallow bots and mini apps*](constructor/privacyValueDisallowBots)
 
 ---
 
-###### :link: [account.privacyRules](constructor/account.privacyRules)
+###### account.privacyRules
 
-  - *Privacy rules*
+:link: [*Privacy rules*](constructor/account.privacyRules)
 
 ---
 
-###### :link: [accountDaysTTL](constructor/accountDaysTTL)
+###### accountDaysTTL
 
-  - *Time to live in days of the current account*
+:link: [*Time to live in days of the current account*](constructor/accountDaysTTL)
 
 ---
 
-###### :link: [documentAttributeImageSize](constructor/documentAttributeImageSize)
+###### documentAttributeImageSize
 
-  - *Defines the width and height of an image uploaded as document*
+:link: [*Defines the width and height of an image uploaded as document*](constructor/documentAttributeImageSize)
 
 ---
 
-###### :link: [documentAttributeAnimated](constructor/documentAttributeAnimated)
+###### documentAttributeAnimated
 
-  - *Defines an animated GIF*
+:link: [*Defines an animated GIF*](constructor/documentAttributeAnimated)
 
 ---
 
-###### :link: [documentAttributeSticker](constructor/documentAttributeSticker)
+###### documentAttributeSticker
 
-  - *Defines a sticker*
+:link: [*Defines a sticker*](constructor/documentAttributeSticker)
 
 ---
 
-###### :link: [documentAttributeVideo](constructor/documentAttributeVideo)
+###### documentAttributeVideo
 
-  - *Defines a video*
+:link: [*Defines a video*](constructor/documentAttributeVideo)
 
 ---
 
-###### :link: [documentAttributeAudio](constructor/documentAttributeAudio)
+###### documentAttributeAudio
 
-  - *Represents an audio file*
+:link: [*Represents an audio file*](constructor/documentAttributeAudio)
 
 ---
 
-###### :link: [documentAttributeFilename](constructor/documentAttributeFilename)
+###### documentAttributeFilename
 
-  - *A simple document with a file name*
+:link: [*A simple document with a file name*](constructor/documentAttributeFilename)
 
 ---
 
-###### :link: [documentAttributeHasStickers](constructor/documentAttributeHasStickers)
+###### documentAttributeHasStickers
 
-  - *Whether the current document has stickers attached*
+:link: [*Whether the current document has stickers attached*](constructor/documentAttributeHasStickers)
 
 ---
 
-###### :link: [documentAttributeCustomEmoji](constructor/documentAttributeCustomEmoji)
+###### documentAttributeCustomEmoji
 
-  - *Info about a custom emoji*
+:link: [*Info about a custom emoji*](constructor/documentAttributeCustomEmoji)
 
 ---
 
-###### :link: [messages.stickersNotModified](constructor/messages.stickersNotModified)
+###### messages.stickersNotModified
 
-  - *No new stickers were found for the given query*
+:link: [*No new stickers were found for the given query*](constructor/messages.stickersNotModified)
 
 ---
 
-###### :link: [messages.stickers](constructor/messages.stickers)
+###### messages.stickers
 
-  - *Found stickers*
+:link: [*Found stickers*](constructor/messages.stickers)
 
 ---
 
-###### :link: [stickerPack](constructor/stickerPack)
+###### stickerPack
 
-  - *A stickerpack is a group of stickers associated to the same emoji.
-It is not a sticker pack the way it is usually intended, you may be looking for a StickerSet*
+:link: [*A stickerpack is a group of stickers associated to the same emoji.
+It is not a sticker pack the way it is usually intended, you may be looking for a StickerSet*](constructor/stickerPack)
 
 ---
 
-###### :link: [messages.allStickersNotModified](constructor/messages.allStickersNotModified)
+###### messages.allStickersNotModified
 
-  - *Info about all installed stickers hasn't changed*
+:link: [*Info about all installed stickers hasn't changed*](constructor/messages.allStickersNotModified)
 
 ---
 
-###### :link: [messages.allStickers](constructor/messages.allStickers)
+###### messages.allStickers
 
-  - *Info about all installed stickers*
+:link: [*Info about all installed stickers*](constructor/messages.allStickers)
 
 ---
 
-###### :link: [messages.affectedMessages](constructor/messages.affectedMessages)
+###### messages.affectedMessages
 
-  - *Events affected by operation*
+:link: [*Events affected by operation*](constructor/messages.affectedMessages)
 
 ---
 
-###### :link: [webPageEmpty](constructor/webPageEmpty)
+###### webPageEmpty
 
-  - *No preview is available for the webpage*
+:link: [*No preview is available for the webpage*](constructor/webPageEmpty)
 
 ---
 
-###### :link: [webPagePending](constructor/webPagePending)
+###### webPagePending
 
-  - *A preview of the webpage is currently being generated*
+:link: [*A preview of the webpage is currently being generated*](constructor/webPagePending)
 
 ---
 
-###### :link: [webPage](constructor/webPage)
+###### webPage
 
-  - *Webpage preview*
+:link: [*Webpage preview*](constructor/webPage)
 
 ---
 
-###### :link: [webPageNotModified](constructor/webPageNotModified)
+###### webPageNotModified
 
-  - *The preview of the webpage hasn't changed*
+:link: [*The preview of the webpage hasn't changed*](constructor/webPageNotModified)
 
 ---
 
-###### :link: [authorization](constructor/authorization)
+###### authorization
 
-  - *Logged-in session*
+:link: [*Logged-in session*](constructor/authorization)
 
 ---
 
-###### :link: [account.authorizations](constructor/account.authorizations)
+###### account.authorizations
 
-  - *Logged-in sessions*
+:link: [*Logged-in sessions*](constructor/account.authorizations)
 
 ---
 
-###### :link: [account.password](constructor/account.password)
+###### account.password
 
-  - *Configuration for two-factor authorization*
+:link: [*Configuration for two-factor authorization*](constructor/account.password)
 
 ---
 
-###### :link: [account.passwordSettings](constructor/account.passwordSettings)
+###### account.passwordSettings
 
-  - *Private info associated to the password info (recovery email, telegram passport info & so on)*
+:link: [*Private info associated to the password info (recovery email, telegram passport info & so on)*](constructor/account.passwordSettings)
 
 ---
 
-###### :link: [account.passwordInputSettings](constructor/account.passwordInputSettings)
+###### account.passwordInputSettings
 
-  - *Settings for setting up a new password*
+:link: [*Settings for setting up a new password*](constructor/account.passwordInputSettings)
 
 ---
 
-###### :link: [auth.passwordRecovery](constructor/auth.passwordRecovery)
+###### auth.passwordRecovery
 
-  - *Recovery info of a 2FA password, only for accounts with a recovery email configured*
+:link: [*Recovery info of a 2FA password, only for accounts with a recovery email configured*](constructor/auth.passwordRecovery)
 
 ---
 
-###### :link: [receivedNotifyMessage](constructor/receivedNotifyMessage)
+###### receivedNotifyMessage
 
-  - *Message ID, for which PUSH-notifications were cancelled*
+:link: [*Message ID, for which PUSH-notifications were cancelled*](constructor/receivedNotifyMessage)
 
 ---
 
-###### :link: [chatInviteExported](constructor/chatInviteExported)
+###### chatInviteExported
 
-  - *Exported chat invite*
+:link: [*Exported chat invite*](constructor/chatInviteExported)
 
 ---
 
-###### :link: [chatInvitePublicJoinRequests](constructor/chatInvitePublicJoinRequests)
+###### chatInvitePublicJoinRequests
 
-  - *Used in updates and in the channel log to indicate when a user is requesting to join or has joined a discussion group*
+:link: [*Used in updates and in the channel log to indicate when a user is requesting to join or has joined a discussion group*](constructor/chatInvitePublicJoinRequests)
 
 ---
 
-###### :link: [chatInviteAlready](constructor/chatInviteAlready)
+###### chatInviteAlready
 
-  - *The user has already joined this chat*
+:link: [*The user has already joined this chat*](constructor/chatInviteAlready)
 
 ---
 
-###### :link: [chatInvite](constructor/chatInvite)
+###### chatInvite
 
-  - *Chat invite info*
+:link: [*Chat invite info*](constructor/chatInvite)
 
 ---
 
-###### :link: [chatInvitePeek](constructor/chatInvitePeek)
+###### chatInvitePeek
 
-  - *A chat invitation that also allows peeking into the group to read messages without joining it*
+:link: [*A chat invitation that also allows peeking into the group to read messages without joining it*](constructor/chatInvitePeek)
 
 ---
 
-###### :link: [inputStickerSetEmpty](constructor/inputStickerSetEmpty)
+###### inputStickerSetEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/inputStickerSetEmpty)
 
 ---
 
-###### :link: [inputStickerSetID](constructor/inputStickerSetID)
+###### inputStickerSetID
 
-  - *Stickerset by ID*
+:link: [*Stickerset by ID*](constructor/inputStickerSetID)
 
 ---
 
-###### :link: [inputStickerSetShortName](constructor/inputStickerSetShortName)
+###### inputStickerSetShortName
 
-  - *Stickerset by short name, from a stickerset deep link »*
+:link: [*Stickerset by short name, from a stickerset deep link »*](constructor/inputStickerSetShortName)
 
 ---
 
-###### :link: [inputStickerSetAnimatedEmoji](constructor/inputStickerSetAnimatedEmoji)
+###### inputStickerSetAnimatedEmoji
 
-  - *Animated emojis stickerset*
+:link: [*Animated emojis stickerset*](constructor/inputStickerSetAnimatedEmoji)
 
 ---
 
-###### :link: [inputStickerSetDice](constructor/inputStickerSetDice)
+###### inputStickerSetDice
 
-  - *Used for fetching animated dice stickers*
+:link: [*Used for fetching animated dice stickers*](constructor/inputStickerSetDice)
 
 ---
 
-###### :link: [inputStickerSetAnimatedEmojiAnimations](constructor/inputStickerSetAnimatedEmojiAnimations)
+###### inputStickerSetAnimatedEmojiAnimations
 
-  - *Animated emoji reaction stickerset (contains animations to play when a user clicks on a given animated emoji)*
+:link: [*Animated emoji reaction stickerset (contains animations to play when a user clicks on a given animated emoji)*](constructor/inputStickerSetAnimatedEmojiAnimations)
 
 ---
 
-###### :link: [inputStickerSetPremiumGifts](constructor/inputStickerSetPremiumGifts)
+###### inputStickerSetPremiumGifts
 
-  - *Stickers to show when receiving a gifted Telegram Premium subscription*
+:link: [*Stickers to show when receiving a gifted Telegram Premium subscription*](constructor/inputStickerSetPremiumGifts)
 
 ---
 
-###### :link: [inputStickerSetEmojiGenericAnimations](constructor/inputStickerSetEmojiGenericAnimations)
+###### inputStickerSetEmojiGenericAnimations
 
-  - *Generic animation stickerset containing animations to play when reacting to messages using a normal emoji without a custom animation*
+:link: [*Generic animation stickerset containing animations to play when reacting to messages using a normal emoji without a custom animation*](constructor/inputStickerSetEmojiGenericAnimations)
 
 ---
 
-###### :link: [inputStickerSetEmojiDefaultStatuses](constructor/inputStickerSetEmojiDefaultStatuses)
+###### inputStickerSetEmojiDefaultStatuses
 
-  - *Default custom emoji status stickerset*
+:link: [*Default custom emoji status stickerset*](constructor/inputStickerSetEmojiDefaultStatuses)
 
 ---
 
-###### :link: [inputStickerSetEmojiDefaultTopicIcons](constructor/inputStickerSetEmojiDefaultTopicIcons)
+###### inputStickerSetEmojiDefaultTopicIcons
 
-  - *Default custom emoji stickerset for forum topic icons*
+:link: [*Default custom emoji stickerset for forum topic icons*](constructor/inputStickerSetEmojiDefaultTopicIcons)
 
 ---
 
-###### :link: [inputStickerSetEmojiChannelDefaultStatuses](constructor/inputStickerSetEmojiChannelDefaultStatuses)
+###### inputStickerSetEmojiChannelDefaultStatuses
 
-  - *Default custom emoji status stickerset for channel statuses*
+:link: [*Default custom emoji status stickerset for channel statuses*](constructor/inputStickerSetEmojiChannelDefaultStatuses)
 
 ---
 
-###### :link: [inputStickerSetTonGifts](constructor/inputStickerSetTonGifts)
+###### inputStickerSetTonGifts
 
+:link: [*NOTHING*](constructor/inputStickerSetTonGifts)
+
 ---
 
-###### :link: [stickerSet](constructor/stickerSet)
+###### stickerSet
 
-  - *Represents a stickerset (stickerpack)*
+:link: [*Represents a stickerset (stickerpack)*](constructor/stickerSet)
 
 ---
 
-###### :link: [messages.stickerSet](constructor/messages.stickerSet)
+###### messages.stickerSet
 
-  - *Stickerset and stickers inside it*
+:link: [*Stickerset and stickers inside it*](constructor/messages.stickerSet)
 
 ---
 
-###### :link: [messages.stickerSetNotModified](constructor/messages.stickerSetNotModified)
+###### messages.stickerSetNotModified
 
-  - *The stickerset hasn't changed*
+:link: [*The stickerset hasn't changed*](constructor/messages.stickerSetNotModified)
 
 ---
 
-###### :link: [botCommand](constructor/botCommand)
+###### botCommand
 
-  - *Describes a bot command that can be used in a chat*
+:link: [*Describes a bot command that can be used in a chat*](constructor/botCommand)
 
 ---
 
-###### :link: [botInfo](constructor/botInfo)
+###### botInfo
 
-  - *Info about bots (available bot commands, etc)*
+:link: [*Info about bots (available bot commands, etc)*](constructor/botInfo)
 
 ---
 
-###### :link: [keyboardButton](constructor/keyboardButton)
+###### keyboardButton
 
-  - *Bot keyboard button*
+:link: [*Bot keyboard button*](constructor/keyboardButton)
 
 ---
 
-###### :link: [keyboardButtonUrl](constructor/keyboardButtonUrl)
+###### keyboardButtonUrl
 
-  - *URL button*
+:link: [*URL button*](constructor/keyboardButtonUrl)
 
 ---
 
-###### :link: [keyboardButtonCallback](constructor/keyboardButtonCallback)
+###### keyboardButtonCallback
 
-  - *Callback button*
+:link: [*Callback button*](constructor/keyboardButtonCallback)
 
 ---
 
-###### :link: [keyboardButtonRequestPhone](constructor/keyboardButtonRequestPhone)
+###### keyboardButtonRequestPhone
 
-  - *Button to request a user's phone number*
+:link: [*Button to request a user's phone number*](constructor/keyboardButtonRequestPhone)
 
 ---
 
-###### :link: [keyboardButtonRequestGeoLocation](constructor/keyboardButtonRequestGeoLocation)
+###### keyboardButtonRequestGeoLocation
 
-  - *Button to request a user's geolocation*
+:link: [*Button to request a user's geolocation*](constructor/keyboardButtonRequestGeoLocation)
 
 ---
 
-###### :link: [keyboardButtonSwitchInline](constructor/keyboardButtonSwitchInline)
+###### keyboardButtonSwitchInline
 
-  - *Button to force a user to switch to inline mode: pressing the button will prompt the user to select one of their chats, open that chat and insert the bot's username and the specified inline query in the input field*
+:link: [*Button to force a user to switch to inline mode: pressing the button will prompt the user to select one of their chats, open that chat and insert the bot's username and the specified inline query in the input field*](constructor/keyboardButtonSwitchInline)
 
 ---
 
-###### :link: [keyboardButtonGame](constructor/keyboardButtonGame)
+###### keyboardButtonGame
 
-  - *Button to start a game*
+:link: [*Button to start a game*](constructor/keyboardButtonGame)
 
 ---
 
-###### :link: [keyboardButtonBuy](constructor/keyboardButtonBuy)
+###### keyboardButtonBuy
 
-  - *Button to buy a product*
+:link: [*Button to buy a product*](constructor/keyboardButtonBuy)
 
 ---
 
-###### :link: [keyboardButtonUrlAuth](constructor/keyboardButtonUrlAuth)
+###### keyboardButtonUrlAuth
 
-  - *Button to request a user to authorize via URL using Seamless Telegram Login. When the user clicks on such a button, messages.requestUrlAuth should be called, providing the button_id and the ID of the container message. The returned urlAuthResultRequest object will contain more details about the authorization request (request_write_access if the bot would like to send messages to the user along with the username of the bot which will be used for user authorization). Finally, the user can choose to call messages.acceptUrlAuth to get a urlAuthResultAccepted with the URL to open instead of the url of this constructor, or a urlAuthResultDefault, in which case the url of this constructor must be opened, instead. If the user refuses the authorization request but still wants to open the link, the url of this constructor must be used*
+:link: [*Button to request a user to authorize via URL using Seamless Telegram Login. When the user clicks on such a button, messages.requestUrlAuth should be called, providing the button_id and the ID of the container message. The returned urlAuthResultRequest object will contain more details about the authorization request (request_write_access if the bot would like to send messages to the user along with the username of the bot which will be used for user authorization). Finally, the user can choose to call messages.acceptUrlAuth to get a urlAuthResultAccepted with the URL to open instead of the url of this constructor, or a urlAuthResultDefault, in which case the url of this constructor must be opened, instead. If the user refuses the authorization request but still wants to open the link, the url of this constructor must be used*](constructor/keyboardButtonUrlAuth)
 
 ---
 
-###### :link: [inputKeyboardButtonUrlAuth](constructor/inputKeyboardButtonUrlAuth)
+###### inputKeyboardButtonUrlAuth
 
-  - *Button to request a user to authorize via URL using Seamless Telegram Login*
+:link: [*Button to request a user to authorize via URL using Seamless Telegram Login*](constructor/inputKeyboardButtonUrlAuth)
 
 ---
 
-###### :link: [keyboardButtonRequestPoll](constructor/keyboardButtonRequestPoll)
+###### keyboardButtonRequestPoll
 
-  - *A button that allows the user to create and send a poll when pressed; available only in private*
+:link: [*A button that allows the user to create and send a poll when pressed; available only in private*](constructor/keyboardButtonRequestPoll)
 
 ---
 
-###### :link: [inputKeyboardButtonUserProfile](constructor/inputKeyboardButtonUserProfile)
+###### inputKeyboardButtonUserProfile
 
-  - *Button that links directly to a user profile*
+:link: [*Button that links directly to a user profile*](constructor/inputKeyboardButtonUserProfile)
 
 ---
 
-###### :link: [keyboardButtonUserProfile](constructor/keyboardButtonUserProfile)
+###### keyboardButtonUserProfile
 
-  - *Button that links directly to a user profile*
+:link: [*Button that links directly to a user profile*](constructor/keyboardButtonUserProfile)
 
 ---
 
-###### :link: [keyboardButtonWebView](constructor/keyboardButtonWebView)
+###### keyboardButtonWebView
 
-  - *Button to open a bot mini app using messages.requestWebView, sending over user information after user confirmation*
+:link: [*Button to open a bot mini app using messages.requestWebView, sending over user information after user confirmation*](constructor/keyboardButtonWebView)
 
 ---
 
-###### :link: [keyboardButtonSimpleWebView](constructor/keyboardButtonSimpleWebView)
+###### keyboardButtonSimpleWebView
 
-  - *Button to open a bot mini app using messages.requestSimpleWebView, without sending user information to the web app*
+:link: [*Button to open a bot mini app using messages.requestSimpleWebView, without sending user information to the web app*](constructor/keyboardButtonSimpleWebView)
 
 ---
 
-###### :link: [keyboardButtonRequestPeer](constructor/keyboardButtonRequestPeer)
+###### keyboardButtonRequestPeer
 
-  - *Prompts the user to select and share one or more peers with the bot using messages.sendBotRequestedPeer*
+:link: [*Prompts the user to select and share one or more peers with the bot using messages.sendBotRequestedPeer*](constructor/keyboardButtonRequestPeer)
 
 ---
 
-###### :link: [inputKeyboardButtonRequestPeer](constructor/inputKeyboardButtonRequestPeer)
+###### inputKeyboardButtonRequestPeer
 
-  - *Prompts the user to select and share one or more peers with the bot using messages.sendBotRequestedPeer*
+:link: [*Prompts the user to select and share one or more peers with the bot using messages.sendBotRequestedPeer*](constructor/inputKeyboardButtonRequestPeer)
 
 ---
 
-###### :link: [keyboardButtonCopy](constructor/keyboardButtonCopy)
+###### keyboardButtonCopy
 
-  - *Clipboard button: when clicked, the attached text must be copied to the clipboard*
+:link: [*Clipboard button: when clicked, the attached text must be copied to the clipboard*](constructor/keyboardButtonCopy)
 
 ---
 
-###### :link: [keyboardButtonRow](constructor/keyboardButtonRow)
+###### keyboardButtonRow
 
-  - *Inline keyboard row*
+:link: [*Inline keyboard row*](constructor/keyboardButtonRow)
 
 ---
 
-###### :link: [replyKeyboardHide](constructor/replyKeyboardHide)
+###### replyKeyboardHide
 
-  - *Hide sent bot keyboard*
+:link: [*Hide sent bot keyboard*](constructor/replyKeyboardHide)
 
 ---
 
-###### :link: [replyKeyboardForceReply](constructor/replyKeyboardForceReply)
+###### replyKeyboardForceReply
 
-  - *Force the user to send a reply*
+:link: [*Force the user to send a reply*](constructor/replyKeyboardForceReply)
 
 ---
 
-###### :link: [replyKeyboardMarkup](constructor/replyKeyboardMarkup)
+###### replyKeyboardMarkup
 
-  - *Bot keyboard*
+:link: [*Bot keyboard*](constructor/replyKeyboardMarkup)
 
 ---
 
-###### :link: [replyInlineMarkup](constructor/replyInlineMarkup)
+###### replyInlineMarkup
 
-  - *Bot or inline keyboard*
+:link: [*Bot or inline keyboard*](constructor/replyInlineMarkup)
 
 ---
 
-###### :link: [messageEntityUnknown](constructor/messageEntityUnknown)
+###### messageEntityUnknown
 
-  - *Unknown message entity*
+:link: [*Unknown message entity*](constructor/messageEntityUnknown)
 
 ---
 
-###### :link: [messageEntityMention](constructor/messageEntityMention)
+###### messageEntityMention
 
-  - *Message entity mentioning a user by @username; messageEntityMentionName can also be used to mention users by their ID*
+:link: [*Message entity mentioning a user by @username; messageEntityMentionName can also be used to mention users by their ID*](constructor/messageEntityMention)
 
 ---
 
-###### :link: [messageEntityHashtag](constructor/messageEntityHashtag)
+###### messageEntityHashtag
 
-  - *#hashtag message entity*
+:link: [*#hashtag message entity*](constructor/messageEntityHashtag)
 
 ---
 
-###### :link: [messageEntityBotCommand](constructor/messageEntityBotCommand)
+###### messageEntityBotCommand
 
-  - *Message entity representing a bot /command*
+:link: [*Message entity representing a bot /command*](constructor/messageEntityBotCommand)
 
 ---
 
-###### :link: [messageEntityUrl](constructor/messageEntityUrl)
+###### messageEntityUrl
 
-  - *Message entity representing an in-text url: https://google.com; for text urls, use messageEntityTextUrl*
+:link: [*Message entity representing an in-text url: https://google.com; for text urls, use messageEntityTextUrl*](constructor/messageEntityUrl)
 
 ---
 
-###### :link: [messageEntityEmail](constructor/messageEntityEmail)
+###### messageEntityEmail
 
-  - *Message entity representing an email@example.com*
+:link: [*Message entity representing an email@example.com*](constructor/messageEntityEmail)
 
 ---
 
-###### :link: [messageEntityBold](constructor/messageEntityBold)
+###### messageEntityBold
 
-  - *Message entity representing bold text*
+:link: [*Message entity representing bold text*](constructor/messageEntityBold)
 
 ---
 
-###### :link: [messageEntityItalic](constructor/messageEntityItalic)
+###### messageEntityItalic
 
-  - *Message entity representing italic text*
+:link: [*Message entity representing italic text*](constructor/messageEntityItalic)
 
 ---
 
-###### :link: [messageEntityCode](constructor/messageEntityCode)
+###### messageEntityCode
 
-  - *Message entity representing a codeblock*
+:link: [*Message entity representing a codeblock*](constructor/messageEntityCode)
 
 ---
 
-###### :link: [messageEntityPre](constructor/messageEntityPre)
+###### messageEntityPre
 
-  - *Message entity representing a preformatted codeblock, allowing the user to specify a programming language for the codeblock*
+:link: [*Message entity representing a preformatted codeblock, allowing the user to specify a programming language for the codeblock*](constructor/messageEntityPre)
 
 ---
 
-###### :link: [messageEntityTextUrl](constructor/messageEntityTextUrl)
+###### messageEntityTextUrl
 
-  - *Message entity representing a text url: for in-text urls like https://google.com use messageEntityUrl*
+:link: [*Message entity representing a text url: for in-text urls like https://google.com use messageEntityUrl*](constructor/messageEntityTextUrl)
 
 ---
 
-###### :link: [messageEntityMentionName](constructor/messageEntityMentionName)
+###### messageEntityMentionName
 
-  - *Message entity representing a user mention: for creating a mention use inputMessageEntityMentionName*
+:link: [*Message entity representing a user mention: for creating a mention use inputMessageEntityMentionName*](constructor/messageEntityMentionName)
 
 ---
 
-###### :link: [inputMessageEntityMentionName](constructor/inputMessageEntityMentionName)
+###### inputMessageEntityMentionName
 
-  - *Message entity that can be used to create a user user mention: received mentions use the messageEntityMentionName constructor, instead*
+:link: [*Message entity that can be used to create a user user mention: received mentions use the messageEntityMentionName constructor, instead*](constructor/inputMessageEntityMentionName)
 
 ---
 
-###### :link: [messageEntityPhone](constructor/messageEntityPhone)
+###### messageEntityPhone
 
-  - *Message entity representing a phone number*
+:link: [*Message entity representing a phone number*](constructor/messageEntityPhone)
 
 ---
 
-###### :link: [messageEntityCashtag](constructor/messageEntityCashtag)
+###### messageEntityCashtag
 
-  - *Message entity representing a $cashtag*
+:link: [*Message entity representing a $cashtag*](constructor/messageEntityCashtag)
 
 ---
 
-###### :link: [messageEntityUnderline](constructor/messageEntityUnderline)
+###### messageEntityUnderline
 
-  - *Message entity representing underlined text*
+:link: [*Message entity representing underlined text*](constructor/messageEntityUnderline)
 
 ---
 
-###### :link: [messageEntityStrike](constructor/messageEntityStrike)
+###### messageEntityStrike
 
-  - *Message entity representing strikethrough text*
+:link: [*Message entity representing strikethrough text*](constructor/messageEntityStrike)
 
 ---
 
-###### :link: [messageEntityBankCard](constructor/messageEntityBankCard)
+###### messageEntityBankCard
 
-  - *Indicates a credit card number*
+:link: [*Indicates a credit card number*](constructor/messageEntityBankCard)
 
 ---
 
-###### :link: [messageEntitySpoiler](constructor/messageEntitySpoiler)
+###### messageEntitySpoiler
 
-  - *Message entity representing a spoiler*
+:link: [*Message entity representing a spoiler*](constructor/messageEntitySpoiler)
 
 ---
 
-###### :link: [messageEntityCustomEmoji](constructor/messageEntityCustomEmoji)
+###### messageEntityCustomEmoji
 
-  - *Represents a custom emoji.
-Note that this entity must wrap exactly one regular emoji (the one contained in documentAttributeCustomEmoji.alt) in the related text, otherwise the server will ignore it*
+:link: [*Represents a custom emoji.
+Note that this entity must wrap exactly one regular emoji (the one contained in documentAttributeCustomEmoji.alt) in the related text, otherwise the server will ignore it*](constructor/messageEntityCustomEmoji)
 
 ---
 
-###### :link: [messageEntityBlockquote](constructor/messageEntityBlockquote)
+###### messageEntityBlockquote
 
-  - *Message entity representing a block quote*
+:link: [*Message entity representing a block quote*](constructor/messageEntityBlockquote)
 
 ---
 
-###### :link: [inputChannelEmpty](constructor/inputChannelEmpty)
+###### inputChannelEmpty
 
-  - *Represents the absence of a channel*
+:link: [*Represents the absence of a channel*](constructor/inputChannelEmpty)
 
 ---
 
-###### :link: [inputChannel](constructor/inputChannel)
+###### inputChannel
 
-  - *Represents a channel*
+:link: [*Represents a channel*](constructor/inputChannel)
 
 ---
 
-###### :link: [inputChannelFromMessage](constructor/inputChannelFromMessage)
+###### inputChannelFromMessage
 
-  - *Defines a min channel that was seen in a certain message of a certain chat*
+:link: [*Defines a min channel that was seen in a certain message of a certain chat*](constructor/inputChannelFromMessage)
 
 ---
 
-###### :link: [contacts.resolvedPeer](constructor/contacts.resolvedPeer)
+###### contacts.resolvedPeer
 
-  - *Resolved peer*
+:link: [*Resolved peer*](constructor/contacts.resolvedPeer)
 
 ---
 
-###### :link: [messageRange](constructor/messageRange)
+###### messageRange
 
-  - *Indicates a range of chat messages*
+:link: [*Indicates a range of chat messages*](constructor/messageRange)
 
 ---
 
-###### :link: [updates.channelDifferenceEmpty](constructor/updates.channelDifferenceEmpty)
+###### updates.channelDifferenceEmpty
 
-  - *There are no new updates*
+:link: [*There are no new updates*](constructor/updates.channelDifferenceEmpty)
 
 ---
 
-###### :link: [updates.channelDifferenceTooLong](constructor/updates.channelDifferenceTooLong)
+###### updates.channelDifferenceTooLong
 
-  - *The provided pts + limit < remote pts. Simply, there are too many updates to be fetched (more than limit), the client has to resolve the update gap in one of the following ways (assuming the existence of a persistent database to locally store messages):*
+:link: [*The provided pts + limit < remote pts. Simply, there are too many updates to be fetched (more than limit), the client has to resolve the update gap in one of the following ways (assuming the existence of a persistent database to locally store messages):*](constructor/updates.channelDifferenceTooLong)
 
 ---
 
-###### :link: [updates.channelDifference](constructor/updates.channelDifference)
+###### updates.channelDifference
 
-  - *The new updates*
+:link: [*The new updates*](constructor/updates.channelDifference)
 
 ---
 
-###### :link: [channelMessagesFilterEmpty](constructor/channelMessagesFilterEmpty)
+###### channelMessagesFilterEmpty
 
-  - *No filter*
+:link: [*No filter*](constructor/channelMessagesFilterEmpty)
 
 ---
 
-###### :link: [channelMessagesFilter](constructor/channelMessagesFilter)
+###### channelMessagesFilter
 
-  - *Filter for getting only certain types of channel messages*
+:link: [*Filter for getting only certain types of channel messages*](constructor/channelMessagesFilter)
 
 ---
 
-###### :link: [channelParticipant](constructor/channelParticipant)
+###### channelParticipant
 
-  - *Channel/supergroup participant*
+:link: [*Channel/supergroup participant*](constructor/channelParticipant)
 
 ---
 
-###### :link: [channelParticipantSelf](constructor/channelParticipantSelf)
+###### channelParticipantSelf
 
-  - *Myself*
+:link: [*Myself*](constructor/channelParticipantSelf)
 
 ---
 
-###### :link: [channelParticipantCreator](constructor/channelParticipantCreator)
+###### channelParticipantCreator
 
-  - *Channel/supergroup creator*
+:link: [*Channel/supergroup creator*](constructor/channelParticipantCreator)
 
 ---
 
-###### :link: [channelParticipantAdmin](constructor/channelParticipantAdmin)
+###### channelParticipantAdmin
 
-  - *Admin*
+:link: [*Admin*](constructor/channelParticipantAdmin)
 
 ---
 
-###### :link: [channelParticipantBanned](constructor/channelParticipantBanned)
+###### channelParticipantBanned
 
-  - *Banned/kicked user*
+:link: [*Banned/kicked user*](constructor/channelParticipantBanned)
 
 ---
 
-###### :link: [channelParticipantLeft](constructor/channelParticipantLeft)
+###### channelParticipantLeft
 
-  - *A participant that left the channel/supergroup*
+:link: [*A participant that left the channel/supergroup*](constructor/channelParticipantLeft)
 
 ---
 
-###### :link: [channelParticipantsRecent](constructor/channelParticipantsRecent)
+###### channelParticipantsRecent
 
-  - *Fetch only recent participants*
+:link: [*Fetch only recent participants*](constructor/channelParticipantsRecent)
 
 ---
 
-###### :link: [channelParticipantsAdmins](constructor/channelParticipantsAdmins)
+###### channelParticipantsAdmins
 
-  - *Fetch only admin participants*
+:link: [*Fetch only admin participants*](constructor/channelParticipantsAdmins)
 
 ---
 
-###### :link: [channelParticipantsKicked](constructor/channelParticipantsKicked)
+###### channelParticipantsKicked
 
-  - *Fetch only kicked participants*
+:link: [*Fetch only kicked participants*](constructor/channelParticipantsKicked)
 
 ---
 
-###### :link: [channelParticipantsBots](constructor/channelParticipantsBots)
+###### channelParticipantsBots
 
-  - *Fetch only bot participants*
+:link: [*Fetch only bot participants*](constructor/channelParticipantsBots)
 
 ---
 
-###### :link: [channelParticipantsBanned](constructor/channelParticipantsBanned)
+###### channelParticipantsBanned
 
-  - *Fetch only banned participants*
+:link: [*Fetch only banned participants*](constructor/channelParticipantsBanned)
 
 ---
 
-###### :link: [channelParticipantsSearch](constructor/channelParticipantsSearch)
+###### channelParticipantsSearch
 
-  - *Query participants by name*
+:link: [*Query participants by name*](constructor/channelParticipantsSearch)
 
 ---
 
-###### :link: [channelParticipantsContacts](constructor/channelParticipantsContacts)
+###### channelParticipantsContacts
 
-  - *Fetch only participants that are also contacts*
+:link: [*Fetch only participants that are also contacts*](constructor/channelParticipantsContacts)
 
 ---
 
-###### :link: [channelParticipantsMentions](constructor/channelParticipantsMentions)
+###### channelParticipantsMentions
 
-  - *This filter is used when looking for supergroup members to mention.
-This filter will automatically remove anonymous admins, and return even non-participant users that replied to a specific thread through the comment section of a channel*
+:link: [*This filter is used when looking for supergroup members to mention.
+This filter will automatically remove anonymous admins, and return even non-participant users that replied to a specific thread through the comment section of a channel*](constructor/channelParticipantsMentions)
 
 ---
 
-###### :link: [channels.channelParticipants](constructor/channels.channelParticipants)
+###### channels.channelParticipants
 
-  - *Represents multiple channel participants*
+:link: [*Represents multiple channel participants*](constructor/channels.channelParticipants)
 
 ---
 
-###### :link: [channels.channelParticipantsNotModified](constructor/channels.channelParticipantsNotModified)
+###### channels.channelParticipantsNotModified
 
-  - *No new participant info could be found*
+:link: [*No new participant info could be found*](constructor/channels.channelParticipantsNotModified)
 
 ---
 
-###### :link: [channels.channelParticipant](constructor/channels.channelParticipant)
+###### channels.channelParticipant
 
-  - *Represents a channel participant*
+:link: [*Represents a channel participant*](constructor/channels.channelParticipant)
 
 ---
 
-###### :link: [help.termsOfService](constructor/help.termsOfService)
+###### help.termsOfService
 
-  - *Info about the latest telegram Terms Of Service*
+:link: [*Info about the latest telegram Terms Of Service*](constructor/help.termsOfService)
 
 ---
 
-###### :link: [messages.savedGifsNotModified](constructor/messages.savedGifsNotModified)
+###### messages.savedGifsNotModified
 
-  - *No new saved gifs were found*
+:link: [*No new saved gifs were found*](constructor/messages.savedGifsNotModified)
 
 ---
 
-###### :link: [messages.savedGifs](constructor/messages.savedGifs)
+###### messages.savedGifs
 
-  - *Saved gifs*
+:link: [*Saved gifs*](constructor/messages.savedGifs)
 
 ---
 
-###### :link: [inputBotInlineMessageMediaAuto](constructor/inputBotInlineMessageMediaAuto)
+###### inputBotInlineMessageMediaAuto
 
-  - *A media*
+:link: [*A media*](constructor/inputBotInlineMessageMediaAuto)
 
 ---
 
-###### :link: [inputBotInlineMessageText](constructor/inputBotInlineMessageText)
+###### inputBotInlineMessageText
 
-  - *Simple text message*
+:link: [*Simple text message*](constructor/inputBotInlineMessageText)
 
 ---
 
-###### :link: [inputBotInlineMessageMediaGeo](constructor/inputBotInlineMessageMediaGeo)
+###### inputBotInlineMessageMediaGeo
 
-  - *Geolocation*
+:link: [*Geolocation*](constructor/inputBotInlineMessageMediaGeo)
 
 ---
 
-###### :link: [inputBotInlineMessageMediaVenue](constructor/inputBotInlineMessageMediaVenue)
+###### inputBotInlineMessageMediaVenue
 
-  - *Venue*
+:link: [*Venue*](constructor/inputBotInlineMessageMediaVenue)
 
 ---
 
-###### :link: [inputBotInlineMessageMediaContact](constructor/inputBotInlineMessageMediaContact)
+###### inputBotInlineMessageMediaContact
 
-  - *A contact*
+:link: [*A contact*](constructor/inputBotInlineMessageMediaContact)
 
 ---
 
-###### :link: [inputBotInlineMessageGame](constructor/inputBotInlineMessageGame)
+###### inputBotInlineMessageGame
 
-  - *A game*
+:link: [*A game*](constructor/inputBotInlineMessageGame)
 
 ---
 
-###### :link: [inputBotInlineMessageMediaInvoice](constructor/inputBotInlineMessageMediaInvoice)
+###### inputBotInlineMessageMediaInvoice
 
-  - *An invoice*
+:link: [*An invoice*](constructor/inputBotInlineMessageMediaInvoice)
 
 ---
 
-###### :link: [inputBotInlineMessageMediaWebPage](constructor/inputBotInlineMessageMediaWebPage)
+###### inputBotInlineMessageMediaWebPage
 
-  - *Specifies options that will be used to generate the link preview for the message, or even a standalone link preview without an attached message*
+:link: [*Specifies options that will be used to generate the link preview for the message, or even a standalone link preview without an attached message*](constructor/inputBotInlineMessageMediaWebPage)
 
 ---
 
-###### :link: [inputBotInlineResult](constructor/inputBotInlineResult)
+###### inputBotInlineResult
 
-  - *An inline bot result*
+:link: [*An inline bot result*](constructor/inputBotInlineResult)
 
 ---
 
-###### :link: [inputBotInlineResultPhoto](constructor/inputBotInlineResultPhoto)
+###### inputBotInlineResultPhoto
 
-  - *Photo*
+:link: [*Photo*](constructor/inputBotInlineResultPhoto)
 
 ---
 
-###### :link: [inputBotInlineResultDocument](constructor/inputBotInlineResultDocument)
+###### inputBotInlineResultDocument
 
-  - *Document (media of any type except for photos)*
+:link: [*Document (media of any type except for photos)*](constructor/inputBotInlineResultDocument)
 
 ---
 
-###### :link: [inputBotInlineResultGame](constructor/inputBotInlineResultGame)
+###### inputBotInlineResultGame
 
-  - *Game*
+:link: [*Game*](constructor/inputBotInlineResultGame)
 
 ---
 
-###### :link: [botInlineMessageMediaAuto](constructor/botInlineMessageMediaAuto)
+###### botInlineMessageMediaAuto
 
-  - *Send whatever media is attached to the botInlineMediaResult*
+:link: [*Send whatever media is attached to the botInlineMediaResult*](constructor/botInlineMessageMediaAuto)
 
 ---
 
-###### :link: [botInlineMessageText](constructor/botInlineMessageText)
+###### botInlineMessageText
 
-  - *Send a simple text message*
+:link: [*Send a simple text message*](constructor/botInlineMessageText)
 
 ---
 
-###### :link: [botInlineMessageMediaGeo](constructor/botInlineMessageMediaGeo)
+###### botInlineMessageMediaGeo
 
-  - *Send a geolocation*
+:link: [*Send a geolocation*](constructor/botInlineMessageMediaGeo)
 
 ---
 
-###### :link: [botInlineMessageMediaVenue](constructor/botInlineMessageMediaVenue)
+###### botInlineMessageMediaVenue
 
-  - *Send a venue*
+:link: [*Send a venue*](constructor/botInlineMessageMediaVenue)
 
 ---
 
-###### :link: [botInlineMessageMediaContact](constructor/botInlineMessageMediaContact)
+###### botInlineMessageMediaContact
 
-  - *Send a contact*
+:link: [*Send a contact*](constructor/botInlineMessageMediaContact)
 
 ---
 
-###### :link: [botInlineMessageMediaInvoice](constructor/botInlineMessageMediaInvoice)
+###### botInlineMessageMediaInvoice
 
-  - *Send an invoice*
+:link: [*Send an invoice*](constructor/botInlineMessageMediaInvoice)
 
 ---
 
-###### :link: [botInlineMessageMediaWebPage](constructor/botInlineMessageMediaWebPage)
+###### botInlineMessageMediaWebPage
 
-  - *Specifies options that must be used to generate the link preview for the message, or even a standalone link preview without an attached message*
+:link: [*Specifies options that must be used to generate the link preview for the message, or even a standalone link preview without an attached message*](constructor/botInlineMessageMediaWebPage)
 
 ---
 
-###### :link: [botInlineResult](constructor/botInlineResult)
+###### botInlineResult
 
-  - *Generic result*
+:link: [*Generic result*](constructor/botInlineResult)
 
 ---
 
-###### :link: [botInlineMediaResult](constructor/botInlineMediaResult)
+###### botInlineMediaResult
 
-  - *Media result*
+:link: [*Media result*](constructor/botInlineMediaResult)
 
 ---
 
-###### :link: [messages.botResults](constructor/messages.botResults)
+###### messages.botResults
 
-  - *Result of a query to an inline bot*
+:link: [*Result of a query to an inline bot*](constructor/messages.botResults)
 
 ---
 
-###### :link: [exportedMessageLink](constructor/exportedMessageLink)
+###### exportedMessageLink
 
-  - *Link to a message in a supergroup/channel*
+:link: [*Link to a message in a supergroup/channel*](constructor/exportedMessageLink)
 
 ---
 
-###### :link: [messageFwdHeader](constructor/messageFwdHeader)
+###### messageFwdHeader
 
-  - *Info about a forwarded message*
+:link: [*Info about a forwarded message*](constructor/messageFwdHeader)
 
 ---
 
-###### :link: [auth.codeTypeSms](constructor/auth.codeTypeSms)
+###### auth.codeTypeSms
 
-  - *The next time, the authentication code will be delivered via an immediately canceled incoming call*
+:link: [*The next time, the authentication code will be delivered via an immediately canceled incoming call*](constructor/auth.codeTypeSms)
 
 ---
 
-###### :link: [auth.codeTypeCall](constructor/auth.codeTypeCall)
+###### auth.codeTypeCall
 
-  - *The next time, the authentication code is to be delivered via an outgoing phone call*
+:link: [*The next time, the authentication code is to be delivered via an outgoing phone call*](constructor/auth.codeTypeCall)
 
 ---
 
-###### :link: [auth.codeTypeFlashCall](constructor/auth.codeTypeFlashCall)
+###### auth.codeTypeFlashCall
 
-  - *The next time, the authentication code will be delivered via an immediately canceled incoming call*
+:link: [*The next time, the authentication code will be delivered via an immediately canceled incoming call*](constructor/auth.codeTypeFlashCall)
 
 ---
 
-###### :link: [auth.codeTypeMissedCall](constructor/auth.codeTypeMissedCall)
+###### auth.codeTypeMissedCall
 
-  - *The next time, the authentication code will be delivered via an immediately canceled incoming call, handled manually by the user*
+:link: [*The next time, the authentication code will be delivered via an immediately canceled incoming call, handled manually by the user*](constructor/auth.codeTypeMissedCall)
 
 ---
 
-###### :link: [auth.codeTypeFragmentSms](constructor/auth.codeTypeFragmentSms)
+###### auth.codeTypeFragmentSms
 
-  - *The next time, the authentication code will be delivered via fragment.com*
+:link: [*The next time, the authentication code will be delivered via fragment.com*](constructor/auth.codeTypeFragmentSms)
 
 ---
 
-###### :link: [auth.sentCodeTypeApp](constructor/auth.sentCodeTypeApp)
+###### auth.sentCodeTypeApp
 
-  - *The code was sent through the telegram app*
+:link: [*The code was sent through the telegram app*](constructor/auth.sentCodeTypeApp)
 
 ---
 
-###### :link: [auth.sentCodeTypeSms](constructor/auth.sentCodeTypeSms)
+###### auth.sentCodeTypeSms
 
-  - *The code was sent via SMS*
+:link: [*The code was sent via SMS*](constructor/auth.sentCodeTypeSms)
 
 ---
 
-###### :link: [auth.sentCodeTypeCall](constructor/auth.sentCodeTypeCall)
+###### auth.sentCodeTypeCall
 
-  - *The code will be sent via a phone call: a synthesized voice will tell the user which verification code to input*
+:link: [*The code will be sent via a phone call: a synthesized voice will tell the user which verification code to input*](constructor/auth.sentCodeTypeCall)
 
 ---
 
-###### :link: [auth.sentCodeTypeFlashCall](constructor/auth.sentCodeTypeFlashCall)
+###### auth.sentCodeTypeFlashCall
 
-  - *The code will be sent via a flash phone call, that will be closed immediately. The phone code will then be the phone number itself, just make sure that the phone number matches the specified pattern*
+:link: [*The code will be sent via a flash phone call, that will be closed immediately. The phone code will then be the phone number itself, just make sure that the phone number matches the specified pattern*](constructor/auth.sentCodeTypeFlashCall)
 
 ---
 
-###### :link: [auth.sentCodeTypeMissedCall](constructor/auth.sentCodeTypeMissedCall)
+###### auth.sentCodeTypeMissedCall
 
-  - *The code will be sent via a flash phone call, that will be closed immediately. The last digits of the phone number that calls are the code that must be entered manually by the user*
+:link: [*The code will be sent via a flash phone call, that will be closed immediately. The last digits of the phone number that calls are the code that must be entered manually by the user*](constructor/auth.sentCodeTypeMissedCall)
 
 ---
 
-###### :link: [auth.sentCodeTypeEmailCode](constructor/auth.sentCodeTypeEmailCode)
+###### auth.sentCodeTypeEmailCode
 
-  - *The code was sent via the previously configured login email »*
+:link: [*The code was sent via the previously configured login email »*](constructor/auth.sentCodeTypeEmailCode)
 
 ---
 
-###### :link: [auth.sentCodeTypeSetUpEmailRequired](constructor/auth.sentCodeTypeSetUpEmailRequired)
+###### auth.sentCodeTypeSetUpEmailRequired
 
-  - *The user should add and verify an email address in order to login as described here »*
+:link: [*The user should add and verify an email address in order to login as described here »*](constructor/auth.sentCodeTypeSetUpEmailRequired)
 
 ---
 
-###### :link: [auth.sentCodeTypeFragmentSms](constructor/auth.sentCodeTypeFragmentSms)
+###### auth.sentCodeTypeFragmentSms
 
-  - *The code was delivered via fragment.com*
+:link: [*The code was delivered via fragment.com*](constructor/auth.sentCodeTypeFragmentSms)
 
 ---
 
-###### :link: [auth.sentCodeTypeFirebaseSms](constructor/auth.sentCodeTypeFirebaseSms)
+###### auth.sentCodeTypeFirebaseSms
 
-  - *An authentication code should be delivered via SMS after Firebase attestation, as described in the auth documentation »*
+:link: [*An authentication code should be delivered via SMS after Firebase attestation, as described in the auth documentation »*](constructor/auth.sentCodeTypeFirebaseSms)
 
 ---
 
-###### :link: [auth.sentCodeTypeSmsWord](constructor/auth.sentCodeTypeSmsWord)
+###### auth.sentCodeTypeSmsWord
 
-  - *The code was sent via SMS as a secret word, starting with the letter specified in beginning*
+:link: [*The code was sent via SMS as a secret word, starting with the letter specified in beginning*](constructor/auth.sentCodeTypeSmsWord)
 
 ---
 
-###### :link: [auth.sentCodeTypeSmsPhrase](constructor/auth.sentCodeTypeSmsPhrase)
+###### auth.sentCodeTypeSmsPhrase
 
-  - *The code was sent via SMS as a secret phrase starting with the word specified in beginning*
+:link: [*The code was sent via SMS as a secret phrase starting with the word specified in beginning*](constructor/auth.sentCodeTypeSmsPhrase)
 
 ---
 
-###### :link: [messages.botCallbackAnswer](constructor/messages.botCallbackAnswer)
+###### messages.botCallbackAnswer
 
-  - *Callback answer sent by the bot in response to a button press*
+:link: [*Callback answer sent by the bot in response to a button press*](constructor/messages.botCallbackAnswer)
 
 ---
 
-###### :link: [messages.messageEditData](constructor/messages.messageEditData)
+###### messages.messageEditData
 
-  - *Message edit data for media*
+:link: [*Message edit data for media*](constructor/messages.messageEditData)
 
 ---
 
-###### :link: [inputBotInlineMessageID](constructor/inputBotInlineMessageID)
+###### inputBotInlineMessageID
 
-  - *Represents a sent inline message from the perspective of a bot (legacy constructor)*
+:link: [*Represents a sent inline message from the perspective of a bot (legacy constructor)*](constructor/inputBotInlineMessageID)
 
 ---
 
-###### :link: [inputBotInlineMessageID64](constructor/inputBotInlineMessageID64)
+###### inputBotInlineMessageID64
 
-  - *Represents a sent inline message from the perspective of a bot*
+:link: [*Represents a sent inline message from the perspective of a bot*](constructor/inputBotInlineMessageID64)
 
 ---
 
-###### :link: [inlineBotSwitchPM](constructor/inlineBotSwitchPM)
+###### inlineBotSwitchPM
 
-  - *The bot requested the user to message them in private*
+:link: [*The bot requested the user to message them in private*](constructor/inlineBotSwitchPM)
 
 ---
 
-###### :link: [messages.peerDialogs](constructor/messages.peerDialogs)
+###### messages.peerDialogs
 
-  - *Dialog info of multiple peers*
+:link: [*Dialog info of multiple peers*](constructor/messages.peerDialogs)
 
 ---
 
-###### :link: [topPeer](constructor/topPeer)
+###### topPeer
 
-  - *Top peer*
+:link: [*Top peer*](constructor/topPeer)
 
 ---
 
-###### :link: [topPeerCategoryBotsPM](constructor/topPeerCategoryBotsPM)
+###### topPeerCategoryBotsPM
 
-  - *Most used bots*
+:link: [*Most used bots*](constructor/topPeerCategoryBotsPM)
 
 ---
 
-###### :link: [topPeerCategoryBotsInline](constructor/topPeerCategoryBotsInline)
+###### topPeerCategoryBotsInline
 
-  - *Most used inline bots*
+:link: [*Most used inline bots*](constructor/topPeerCategoryBotsInline)
 
 ---
 
-###### :link: [topPeerCategoryCorrespondents](constructor/topPeerCategoryCorrespondents)
+###### topPeerCategoryCorrespondents
 
-  - *Users we've chatted most frequently with*
+:link: [*Users we've chatted most frequently with*](constructor/topPeerCategoryCorrespondents)
 
 ---
 
-###### :link: [topPeerCategoryGroups](constructor/topPeerCategoryGroups)
+###### topPeerCategoryGroups
 
-  - *Often-opened groups and supergroups*
+:link: [*Often-opened groups and supergroups*](constructor/topPeerCategoryGroups)
 
 ---
 
-###### :link: [topPeerCategoryChannels](constructor/topPeerCategoryChannels)
+###### topPeerCategoryChannels
 
-  - *Most frequently visited channels*
+:link: [*Most frequently visited channels*](constructor/topPeerCategoryChannels)
 
 ---
 
-###### :link: [topPeerCategoryPhoneCalls](constructor/topPeerCategoryPhoneCalls)
+###### topPeerCategoryPhoneCalls
 
-  - *Most frequently called users*
+:link: [*Most frequently called users*](constructor/topPeerCategoryPhoneCalls)
 
 ---
 
-###### :link: [topPeerCategoryForwardUsers](constructor/topPeerCategoryForwardUsers)
+###### topPeerCategoryForwardUsers
 
-  - *Users to which the users often forwards messages to*
+:link: [*Users to which the users often forwards messages to*](constructor/topPeerCategoryForwardUsers)
 
 ---
 
-###### :link: [topPeerCategoryForwardChats](constructor/topPeerCategoryForwardChats)
+###### topPeerCategoryForwardChats
 
-  - *Chats to which the users often forwards messages to*
+:link: [*Chats to which the users often forwards messages to*](constructor/topPeerCategoryForwardChats)
 
 ---
 
-###### :link: [topPeerCategoryBotsApp](constructor/topPeerCategoryBotsApp)
+###### topPeerCategoryBotsApp
 
-  - *Most frequently used Main Mini Bot Apps*
+:link: [*Most frequently used Main Mini Bot Apps*](constructor/topPeerCategoryBotsApp)
 
 ---
 
-###### :link: [topPeerCategoryPeers](constructor/topPeerCategoryPeers)
+###### topPeerCategoryPeers
 
-  - *Top peer category*
+:link: [*Top peer category*](constructor/topPeerCategoryPeers)
 
 ---
 
-###### :link: [contacts.topPeersNotModified](constructor/contacts.topPeersNotModified)
+###### contacts.topPeersNotModified
 
-  - *Top peer info hasn't changed*
+:link: [*Top peer info hasn't changed*](constructor/contacts.topPeersNotModified)
 
 ---
 
-###### :link: [contacts.topPeers](constructor/contacts.topPeers)
+###### contacts.topPeers
 
-  - *Top peers*
+:link: [*Top peers*](constructor/contacts.topPeers)
 
 ---
 
-###### :link: [contacts.topPeersDisabled](constructor/contacts.topPeersDisabled)
+###### contacts.topPeersDisabled
 
-  - *Top peers disabled*
+:link: [*Top peers disabled*](constructor/contacts.topPeersDisabled)
 
 ---
 
-###### :link: [draftMessageEmpty](constructor/draftMessageEmpty)
+###### draftMessageEmpty
 
-  - *Empty draft*
+:link: [*Empty draft*](constructor/draftMessageEmpty)
 
 ---
 
-###### :link: [draftMessage](constructor/draftMessage)
+###### draftMessage
 
-  - *Represents a message draft*
+:link: [*Represents a message draft*](constructor/draftMessage)
 
 ---
 
-###### :link: [messages.featuredStickersNotModified](constructor/messages.featuredStickersNotModified)
+###### messages.featuredStickersNotModified
 
-  - *Featured stickers haven't changed*
+:link: [*Featured stickers haven't changed*](constructor/messages.featuredStickersNotModified)
 
 ---
 
-###### :link: [messages.featuredStickers](constructor/messages.featuredStickers)
+###### messages.featuredStickers
 
-  - *Featured stickersets*
+:link: [*Featured stickersets*](constructor/messages.featuredStickers)
 
 ---
 
-###### :link: [messages.recentStickersNotModified](constructor/messages.recentStickersNotModified)
+###### messages.recentStickersNotModified
 
-  - *No new recent sticker was found*
+:link: [*No new recent sticker was found*](constructor/messages.recentStickersNotModified)
 
 ---
 
-###### :link: [messages.recentStickers](constructor/messages.recentStickers)
+###### messages.recentStickers
 
-  - *Recently used stickers*
+:link: [*Recently used stickers*](constructor/messages.recentStickers)
 
 ---
 
-###### :link: [messages.archivedStickers](constructor/messages.archivedStickers)
+###### messages.archivedStickers
 
-  - *Archived stickersets*
+:link: [*Archived stickersets*](constructor/messages.archivedStickers)
 
 ---
 
-###### :link: [messages.stickerSetInstallResultSuccess](constructor/messages.stickerSetInstallResultSuccess)
+###### messages.stickerSetInstallResultSuccess
 
-  - *The stickerset was installed successfully*
+:link: [*The stickerset was installed successfully*](constructor/messages.stickerSetInstallResultSuccess)
 
 ---
 
-###### :link: [messages.stickerSetInstallResultArchive](constructor/messages.stickerSetInstallResultArchive)
+###### messages.stickerSetInstallResultArchive
 
-  - *The stickerset was installed, but since there are too many stickersets some were archived*
+:link: [*The stickerset was installed, but since there are too many stickersets some were archived*](constructor/messages.stickerSetInstallResultArchive)
 
 ---
 
-###### :link: [stickerSetCovered](constructor/stickerSetCovered)
+###### stickerSetCovered
 
-  - *Stickerset with a single sticker as preview*
+:link: [*Stickerset with a single sticker as preview*](constructor/stickerSetCovered)
 
 ---
 
-###### :link: [stickerSetMultiCovered](constructor/stickerSetMultiCovered)
+###### stickerSetMultiCovered
 
-  - *Stickerset, with multiple stickers as preview*
+:link: [*Stickerset, with multiple stickers as preview*](constructor/stickerSetMultiCovered)
 
 ---
 
-###### :link: [stickerSetFullCovered](constructor/stickerSetFullCovered)
+###### stickerSetFullCovered
 
-  - *Stickerset preview with all stickers of the stickerset included.
-Currently used only for custom emoji stickersets, to avoid a further call to messages.getStickerSet*
+:link: [*Stickerset preview with all stickers of the stickerset included.
+Currently used only for custom emoji stickersets, to avoid a further call to messages.getStickerSet*](constructor/stickerSetFullCovered)
 
 ---
 
-###### :link: [stickerSetNoCovered](constructor/stickerSetNoCovered)
+###### stickerSetNoCovered
 
-  - *Just the stickerset information, with no previews*
+:link: [*Just the stickerset information, with no previews*](constructor/stickerSetNoCovered)
 
 ---
 
-###### :link: [maskCoords](constructor/maskCoords)
+###### maskCoords
 
-  - *Position on a photo where a mask should be placed when attaching stickers to media »*
+:link: [*Position on a photo where a mask should be placed when attaching stickers to media »*](constructor/maskCoords)
 
 ---
 
-###### :link: [inputStickeredMediaPhoto](constructor/inputStickeredMediaPhoto)
+###### inputStickeredMediaPhoto
 
-  - *A photo with stickers attached*
+:link: [*A photo with stickers attached*](constructor/inputStickeredMediaPhoto)
 
 ---
 
-###### :link: [inputStickeredMediaDocument](constructor/inputStickeredMediaDocument)
+###### inputStickeredMediaDocument
 
-  - *A document with stickers attached*
+:link: [*A document with stickers attached*](constructor/inputStickeredMediaDocument)
 
 ---
 
-###### :link: [game](constructor/game)
+###### game
 
-  - *Indicates an already sent game*
+:link: [*Indicates an already sent game*](constructor/game)
 
 ---
 
-###### :link: [inputGameID](constructor/inputGameID)
+###### inputGameID
 
-  - *Indicates an already sent game*
+:link: [*Indicates an already sent game*](constructor/inputGameID)
 
 ---
 
-###### :link: [inputGameShortName](constructor/inputGameShortName)
+###### inputGameShortName
 
-  - *Game by short name*
+:link: [*Game by short name*](constructor/inputGameShortName)
 
 ---
 
-###### :link: [highScore](constructor/highScore)
+###### highScore
 
-  - *Game highscore*
+:link: [*Game highscore*](constructor/highScore)
 
 ---
 
-###### :link: [messages.highScores](constructor/messages.highScores)
+###### messages.highScores
 
-  - *Highscores in a game*
+:link: [*Highscores in a game*](constructor/messages.highScores)
 
 ---
 
-###### :link: [textEmpty](constructor/textEmpty)
+###### textEmpty
 
-  - *Empty rich text element*
+:link: [*Empty rich text element*](constructor/textEmpty)
 
 ---
 
-###### :link: [textPlain](constructor/textPlain)
+###### textPlain
 
-  - *Plain text*
+:link: [*Plain text*](constructor/textPlain)
 
 ---
 
-###### :link: [textBold](constructor/textBold)
+###### textBold
 
-  - *Bold text*
+:link: [*Bold text*](constructor/textBold)
 
 ---
 
-###### :link: [textItalic](constructor/textItalic)
+###### textItalic
 
-  - *Italic text*
+:link: [*Italic text*](constructor/textItalic)
 
 ---
 
-###### :link: [textUnderline](constructor/textUnderline)
+###### textUnderline
 
-  - *Underlined text*
+:link: [*Underlined text*](constructor/textUnderline)
 
 ---
 
-###### :link: [textStrike](constructor/textStrike)
+###### textStrike
 
-  - *Strikethrough text*
+:link: [*Strikethrough text*](constructor/textStrike)
 
 ---
 
-###### :link: [textFixed](constructor/textFixed)
+###### textFixed
 
-  - *fixed-width rich text*
+:link: [*fixed-width rich text*](constructor/textFixed)
 
 ---
 
-###### :link: [textUrl](constructor/textUrl)
+###### textUrl
 
-  - *Link*
+:link: [*Link*](constructor/textUrl)
 
 ---
 
-###### :link: [textEmail](constructor/textEmail)
+###### textEmail
 
-  - *Rich text email link*
+:link: [*Rich text email link*](constructor/textEmail)
 
 ---
 
-###### :link: [textConcat](constructor/textConcat)
+###### textConcat
 
-  - *Concatenation of rich texts*
+:link: [*Concatenation of rich texts*](constructor/textConcat)
 
 ---
 
-###### :link: [textSubscript](constructor/textSubscript)
+###### textSubscript
 
-  - *Subscript text*
+:link: [*Subscript text*](constructor/textSubscript)
 
 ---
 
-###### :link: [textSuperscript](constructor/textSuperscript)
+###### textSuperscript
 
-  - *Superscript text*
+:link: [*Superscript text*](constructor/textSuperscript)
 
 ---
 
-###### :link: [textMarked](constructor/textMarked)
+###### textMarked
 
-  - *Highlighted text*
+:link: [*Highlighted text*](constructor/textMarked)
 
 ---
 
-###### :link: [textPhone](constructor/textPhone)
+###### textPhone
 
-  - *Rich text linked to a phone number*
+:link: [*Rich text linked to a phone number*](constructor/textPhone)
 
 ---
 
-###### :link: [textImage](constructor/textImage)
+###### textImage
 
-  - *Inline image*
+:link: [*Inline image*](constructor/textImage)
 
 ---
 
-###### :link: [textAnchor](constructor/textAnchor)
+###### textAnchor
 
-  - *Text linking to another section of the page*
+:link: [*Text linking to another section of the page*](constructor/textAnchor)
 
 ---
 
-###### :link: [pageBlockUnsupported](constructor/pageBlockUnsupported)
+###### pageBlockUnsupported
 
-  - *Unsupported IV element*
+:link: [*Unsupported IV element*](constructor/pageBlockUnsupported)
 
 ---
 
-###### :link: [pageBlockTitle](constructor/pageBlockTitle)
+###### pageBlockTitle
 
-  - *Title*
+:link: [*Title*](constructor/pageBlockTitle)
 
 ---
 
-###### :link: [pageBlockSubtitle](constructor/pageBlockSubtitle)
+###### pageBlockSubtitle
 
-  - *Subtitle*
+:link: [*Subtitle*](constructor/pageBlockSubtitle)
 
 ---
 
-###### :link: [pageBlockAuthorDate](constructor/pageBlockAuthorDate)
+###### pageBlockAuthorDate
 
-  - *Author and date of creation of article*
+:link: [*Author and date of creation of article*](constructor/pageBlockAuthorDate)
 
 ---
 
-###### :link: [pageBlockHeader](constructor/pageBlockHeader)
+###### pageBlockHeader
 
-  - *Page header*
+:link: [*Page header*](constructor/pageBlockHeader)
 
 ---
 
-###### :link: [pageBlockSubheader](constructor/pageBlockSubheader)
+###### pageBlockSubheader
 
-  - *Subheader*
+:link: [*Subheader*](constructor/pageBlockSubheader)
 
 ---
 
-###### :link: [pageBlockParagraph](constructor/pageBlockParagraph)
+###### pageBlockParagraph
 
-  - *A paragraph*
+:link: [*A paragraph*](constructor/pageBlockParagraph)
 
 ---
 
-###### :link: [pageBlockPreformatted](constructor/pageBlockPreformatted)
+###### pageBlockPreformatted
 
-  - *Preformatted (<pre> text)*
+:link: [*Preformatted (<pre> text)*](constructor/pageBlockPreformatted)
 
 ---
 
-###### :link: [pageBlockFooter](constructor/pageBlockFooter)
+###### pageBlockFooter
 
-  - *Page footer*
+:link: [*Page footer*](constructor/pageBlockFooter)
 
 ---
 
-###### :link: [pageBlockDivider](constructor/pageBlockDivider)
+###### pageBlockDivider
 
-  - *An empty block separating a page*
+:link: [*An empty block separating a page*](constructor/pageBlockDivider)
 
 ---
 
-###### :link: [pageBlockAnchor](constructor/pageBlockAnchor)
+###### pageBlockAnchor
 
-  - *Link to section within the page itself (like <a href="#target">anchor</a>)*
+:link: [*Link to section within the page itself (like <a href="#target">anchor</a>)*](constructor/pageBlockAnchor)
 
 ---
 
-###### :link: [pageBlockList](constructor/pageBlockList)
+###### pageBlockList
 
-  - *Unordered list of IV blocks*
+:link: [*Unordered list of IV blocks*](constructor/pageBlockList)
 
 ---
 
-###### :link: [pageBlockBlockquote](constructor/pageBlockBlockquote)
+###### pageBlockBlockquote
 
-  - *Quote (equivalent to the HTML <blockquote>)*
+:link: [*Quote (equivalent to the HTML <blockquote>)*](constructor/pageBlockBlockquote)
 
 ---
 
-###### :link: [pageBlockPullquote](constructor/pageBlockPullquote)
+###### pageBlockPullquote
 
-  - *Pullquote*
+:link: [*Pullquote*](constructor/pageBlockPullquote)
 
 ---
 
-###### :link: [pageBlockPhoto](constructor/pageBlockPhoto)
+###### pageBlockPhoto
 
-  - *A photo*
+:link: [*A photo*](constructor/pageBlockPhoto)
 
 ---
 
-###### :link: [pageBlockVideo](constructor/pageBlockVideo)
+###### pageBlockVideo
 
-  - *Video*
+:link: [*Video*](constructor/pageBlockVideo)
 
 ---
 
-###### :link: [pageBlockCover](constructor/pageBlockCover)
+###### pageBlockCover
 
-  - *A page cover*
+:link: [*A page cover*](constructor/pageBlockCover)
 
 ---
 
-###### :link: [pageBlockEmbed](constructor/pageBlockEmbed)
+###### pageBlockEmbed
 
-  - *An embedded webpage*
+:link: [*An embedded webpage*](constructor/pageBlockEmbed)
 
 ---
 
-###### :link: [pageBlockEmbedPost](constructor/pageBlockEmbedPost)
+###### pageBlockEmbedPost
 
-  - *An embedded post*
+:link: [*An embedded post*](constructor/pageBlockEmbedPost)
 
 ---
 
-###### :link: [pageBlockCollage](constructor/pageBlockCollage)
+###### pageBlockCollage
 
-  - *Collage of media*
+:link: [*Collage of media*](constructor/pageBlockCollage)
 
 ---
 
-###### :link: [pageBlockSlideshow](constructor/pageBlockSlideshow)
+###### pageBlockSlideshow
 
-  - *Slideshow*
+:link: [*Slideshow*](constructor/pageBlockSlideshow)
 
 ---
 
-###### :link: [pageBlockChannel](constructor/pageBlockChannel)
+###### pageBlockChannel
 
-  - *Reference to a telegram channel*
+:link: [*Reference to a telegram channel*](constructor/pageBlockChannel)
 
 ---
 
-###### :link: [pageBlockAudio](constructor/pageBlockAudio)
+###### pageBlockAudio
 
-  - *Audio*
+:link: [*Audio*](constructor/pageBlockAudio)
 
 ---
 
-###### :link: [pageBlockKicker](constructor/pageBlockKicker)
+###### pageBlockKicker
 
-  - *Kicker*
+:link: [*Kicker*](constructor/pageBlockKicker)
 
 ---
 
-###### :link: [pageBlockTable](constructor/pageBlockTable)
+###### pageBlockTable
 
-  - *Table*
+:link: [*Table*](constructor/pageBlockTable)
 
 ---
 
-###### :link: [pageBlockOrderedList](constructor/pageBlockOrderedList)
+###### pageBlockOrderedList
 
-  - *Ordered list of IV blocks*
+:link: [*Ordered list of IV blocks*](constructor/pageBlockOrderedList)
 
 ---
 
-###### :link: [pageBlockDetails](constructor/pageBlockDetails)
+###### pageBlockDetails
 
-  - *A collapsible details block*
+:link: [*A collapsible details block*](constructor/pageBlockDetails)
 
 ---
 
-###### :link: [pageBlockRelatedArticles](constructor/pageBlockRelatedArticles)
+###### pageBlockRelatedArticles
 
-  - *Related articles*
+:link: [*Related articles*](constructor/pageBlockRelatedArticles)
 
 ---
 
-###### :link: [pageBlockMap](constructor/pageBlockMap)
+###### pageBlockMap
 
-  - *A map*
+:link: [*A map*](constructor/pageBlockMap)
 
 ---
 
-###### :link: [phoneCallDiscardReasonMissed](constructor/phoneCallDiscardReasonMissed)
+###### phoneCallDiscardReasonMissed
 
-  - *The phone call was missed*
+:link: [*The phone call was missed*](constructor/phoneCallDiscardReasonMissed)
 
 ---
 
-###### :link: [phoneCallDiscardReasonDisconnect](constructor/phoneCallDiscardReasonDisconnect)
+###### phoneCallDiscardReasonDisconnect
 
-  - *The phone call was disconnected*
+:link: [*The phone call was disconnected*](constructor/phoneCallDiscardReasonDisconnect)
 
 ---
 
-###### :link: [phoneCallDiscardReasonHangup](constructor/phoneCallDiscardReasonHangup)
+###### phoneCallDiscardReasonHangup
 
-  - *The phone call was ended normally*
+:link: [*The phone call was ended normally*](constructor/phoneCallDiscardReasonHangup)
 
 ---
 
-###### :link: [phoneCallDiscardReasonBusy](constructor/phoneCallDiscardReasonBusy)
+###### phoneCallDiscardReasonBusy
 
-  - *The phone call was discarded because the user is busy in another call*
+:link: [*The phone call was discarded because the user is busy in another call*](constructor/phoneCallDiscardReasonBusy)
 
 ---
+
+###### phoneCallDiscardReasonMigrateConferenceCall
 
-###### :link: [phoneCallDiscardReasonMigrateConferenceCall](constructor/phoneCallDiscardReasonMigrateConferenceCall)
+:link: [*NOTHING*](constructor/phoneCallDiscardReasonMigrateConferenceCall)
 
 ---
 
-###### :link: [dataJSON](constructor/dataJSON)
+###### dataJSON
 
-  - *Represents a json-encoded object*
+:link: [*Represents a json-encoded object*](constructor/dataJSON)
 
 ---
 
-###### :link: [labeledPrice](constructor/labeledPrice)
+###### labeledPrice
 
-  - *This object represents a portion of the price for goods or services*
+:link: [*This object represents a portion of the price for goods or services*](constructor/labeledPrice)
 
 ---
 
-###### :link: [invoice](constructor/invoice)
+###### invoice
 
-  - *Invoice*
+:link: [*Invoice*](constructor/invoice)
 
 ---
 
-###### :link: [paymentCharge](constructor/paymentCharge)
+###### paymentCharge
 
-  - *Payment identifier*
+:link: [*Payment identifier*](constructor/paymentCharge)
 
 ---
 
-###### :link: [postAddress](constructor/postAddress)
+###### postAddress
 
-  - *Shipping address*
+:link: [*Shipping address*](constructor/postAddress)
 
 ---
 
-###### :link: [paymentRequestedInfo](constructor/paymentRequestedInfo)
+###### paymentRequestedInfo
 
-  - *Order info provided by the user*
+:link: [*Order info provided by the user*](constructor/paymentRequestedInfo)
 
 ---
 
-###### :link: [paymentSavedCredentialsCard](constructor/paymentSavedCredentialsCard)
+###### paymentSavedCredentialsCard
 
-  - *Saved credit card*
+:link: [*Saved credit card*](constructor/paymentSavedCredentialsCard)
 
 ---
 
-###### :link: [webDocument](constructor/webDocument)
+###### webDocument
 
-  - *Remote document*
+:link: [*Remote document*](constructor/webDocument)
 
 ---
 
-###### :link: [webDocumentNoProxy](constructor/webDocumentNoProxy)
+###### webDocumentNoProxy
 
-  - *Remote document that can be downloaded without proxying through telegram*
+:link: [*Remote document that can be downloaded without proxying through telegram*](constructor/webDocumentNoProxy)
 
 ---
 
-###### :link: [inputWebDocument](constructor/inputWebDocument)
+###### inputWebDocument
 
-  - *The document*
+:link: [*The document*](constructor/inputWebDocument)
 
 ---
 
-###### :link: [inputWebFileLocation](constructor/inputWebFileLocation)
+###### inputWebFileLocation
 
-  - *Location of a remote HTTP(s) file*
+:link: [*Location of a remote HTTP(s) file*](constructor/inputWebFileLocation)
 
 ---
 
-###### :link: [inputWebFileGeoPointLocation](constructor/inputWebFileGeoPointLocation)
+###### inputWebFileGeoPointLocation
 
-  - *Used to download a server-generated image with the map preview from a geoPoint, see the webfile docs for more info »*
+:link: [*Used to download a server-generated image with the map preview from a geoPoint, see the webfile docs for more info »*](constructor/inputWebFileGeoPointLocation)
 
 ---
 
-###### :link: [inputWebFileAudioAlbumThumbLocation](constructor/inputWebFileAudioAlbumThumbLocation)
+###### inputWebFileAudioAlbumThumbLocation
 
-  - *Used to download an album cover for any music file using upload.getWebFile, see the webfile docs for more info »*
+:link: [*Used to download an album cover for any music file using upload.getWebFile, see the webfile docs for more info »*](constructor/inputWebFileAudioAlbumThumbLocation)
 
 ---
 
-###### :link: [upload.webFile](constructor/upload.webFile)
+###### upload.webFile
 
-  - *Represents a chunk of an HTTP webfile downloaded through telegram's secure MTProto servers*
+:link: [*Represents a chunk of an HTTP webfile downloaded through telegram's secure MTProto servers*](constructor/upload.webFile)
 
 ---
 
-###### :link: [payments.paymentForm](constructor/payments.paymentForm)
+###### payments.paymentForm
 
-  - *Payment form*
+:link: [*Payment form*](constructor/payments.paymentForm)
 
 ---
 
-###### :link: [payments.paymentFormStars](constructor/payments.paymentFormStars)
+###### payments.paymentFormStars
 
-  - *Represents a payment form, for payments to be using Telegram Stars, see here » for more info*
+:link: [*Represents a payment form, for payments to be using Telegram Stars, see here » for more info*](constructor/payments.paymentFormStars)
 
 ---
 
-###### :link: [payments.paymentFormStarGift](constructor/payments.paymentFormStarGift)
+###### payments.paymentFormStarGift
 
-  - *Represents a payment form for a gift, see here » for more info*
+:link: [*Represents a payment form for a gift, see here » for more info*](constructor/payments.paymentFormStarGift)
 
 ---
 
-###### :link: [payments.validatedRequestedInfo](constructor/payments.validatedRequestedInfo)
+###### payments.validatedRequestedInfo
 
-  - *Validated user-provided info*
+:link: [*Validated user-provided info*](constructor/payments.validatedRequestedInfo)
 
 ---
 
-###### :link: [payments.paymentResult](constructor/payments.paymentResult)
+###### payments.paymentResult
 
-  - *Payment result*
+:link: [*Payment result*](constructor/payments.paymentResult)
 
 ---
 
-###### :link: [payments.paymentVerificationNeeded](constructor/payments.paymentVerificationNeeded)
+###### payments.paymentVerificationNeeded
 
-  - *Payment was not successful, additional verification is needed*
+:link: [*Payment was not successful, additional verification is needed*](constructor/payments.paymentVerificationNeeded)
 
 ---
 
-###### :link: [payments.paymentReceipt](constructor/payments.paymentReceipt)
+###### payments.paymentReceipt
 
-  - *Receipt*
+:link: [*Receipt*](constructor/payments.paymentReceipt)
 
 ---
 
-###### :link: [payments.paymentReceiptStars](constructor/payments.paymentReceiptStars)
+###### payments.paymentReceiptStars
 
-  - *Receipt for payment made using Telegram Stars*
+:link: [*Receipt for payment made using Telegram Stars*](constructor/payments.paymentReceiptStars)
 
 ---
 
-###### :link: [payments.savedInfo](constructor/payments.savedInfo)
+###### payments.savedInfo
 
-  - *Saved server-side order information*
+:link: [*Saved server-side order information*](constructor/payments.savedInfo)
 
 ---
 
-###### :link: [inputPaymentCredentialsSaved](constructor/inputPaymentCredentialsSaved)
+###### inputPaymentCredentialsSaved
 
-  - *Saved payment credentials*
+:link: [*Saved payment credentials*](constructor/inputPaymentCredentialsSaved)
 
 ---
 
-###### :link: [inputPaymentCredentials](constructor/inputPaymentCredentials)
+###### inputPaymentCredentials
 
-  - *Payment credentials*
+:link: [*Payment credentials*](constructor/inputPaymentCredentials)
 
 ---
 
-###### :link: [inputPaymentCredentialsApplePay](constructor/inputPaymentCredentialsApplePay)
+###### inputPaymentCredentialsApplePay
 
-  - *Apple pay payment credentials*
+:link: [*Apple pay payment credentials*](constructor/inputPaymentCredentialsApplePay)
 
 ---
 
-###### :link: [inputPaymentCredentialsGooglePay](constructor/inputPaymentCredentialsGooglePay)
+###### inputPaymentCredentialsGooglePay
 
-  - *Google Pay payment credentials*
+:link: [*Google Pay payment credentials*](constructor/inputPaymentCredentialsGooglePay)
 
 ---
 
-###### :link: [account.tmpPassword](constructor/account.tmpPassword)
+###### account.tmpPassword
 
-  - *Temporary payment password*
+:link: [*Temporary payment password*](constructor/account.tmpPassword)
 
 ---
 
-###### :link: [shippingOption](constructor/shippingOption)
+###### shippingOption
 
-  - *Shipping option*
+:link: [*Shipping option*](constructor/shippingOption)
 
 ---
 
-###### :link: [inputStickerSetItem](constructor/inputStickerSetItem)
+###### inputStickerSetItem
 
-  - *Sticker in a stickerset*
+:link: [*Sticker in a stickerset*](constructor/inputStickerSetItem)
 
 ---
 
-###### :link: [inputPhoneCall](constructor/inputPhoneCall)
+###### inputPhoneCall
 
-  - *Phone call*
+:link: [*Phone call*](constructor/inputPhoneCall)
 
 ---
 
-###### :link: [phoneCallEmpty](constructor/phoneCallEmpty)
+###### phoneCallEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/phoneCallEmpty)
 
 ---
 
-###### :link: [phoneCallWaiting](constructor/phoneCallWaiting)
+###### phoneCallWaiting
 
-  - *Incoming phone call*
+:link: [*Incoming phone call*](constructor/phoneCallWaiting)
 
 ---
 
-###### :link: [phoneCallRequested](constructor/phoneCallRequested)
+###### phoneCallRequested
 
-  - *Requested phone call*
+:link: [*Requested phone call*](constructor/phoneCallRequested)
 
 ---
 
-###### :link: [phoneCallAccepted](constructor/phoneCallAccepted)
+###### phoneCallAccepted
 
-  - *An accepted phone call*
+:link: [*An accepted phone call*](constructor/phoneCallAccepted)
 
 ---
 
-###### :link: [phoneCall](constructor/phoneCall)
+###### phoneCall
 
-  - *Phone call*
+:link: [*Phone call*](constructor/phoneCall)
 
 ---
 
-###### :link: [phoneCallDiscarded](constructor/phoneCallDiscarded)
+###### phoneCallDiscarded
 
-  - *Indicates a discarded phone call*
+:link: [*Indicates a discarded phone call*](constructor/phoneCallDiscarded)
 
 ---
 
-###### :link: [phoneConnection](constructor/phoneConnection)
+###### phoneConnection
 
-  - *Identifies an endpoint that can be used to connect to the other user in a phone call*
+:link: [*Identifies an endpoint that can be used to connect to the other user in a phone call*](constructor/phoneConnection)
 
 ---
 
-###### :link: [phoneConnectionWebrtc](constructor/phoneConnectionWebrtc)
+###### phoneConnectionWebrtc
 
-  - *WebRTC connection parameters*
+:link: [*WebRTC connection parameters*](constructor/phoneConnectionWebrtc)
 
 ---
 
-###### :link: [phoneCallProtocol](constructor/phoneCallProtocol)
+###### phoneCallProtocol
 
-  - *Protocol info for libtgvoip*
+:link: [*Protocol info for libtgvoip*](constructor/phoneCallProtocol)
 
 ---
 
-###### :link: [phone.phoneCall](constructor/phone.phoneCall)
+###### phone.phoneCall
 
-  - *A VoIP phone call*
+:link: [*A VoIP phone call*](constructor/phone.phoneCall)
 
 ---
 
-###### :link: [upload.cdnFileReuploadNeeded](constructor/upload.cdnFileReuploadNeeded)
+###### upload.cdnFileReuploadNeeded
 
-  - *The file was cleared from the temporary RAM cache of the CDN and has to be re-uploaded*
+:link: [*The file was cleared from the temporary RAM cache of the CDN and has to be re-uploaded*](constructor/upload.cdnFileReuploadNeeded)
 
 ---
 
-###### :link: [upload.cdnFile](constructor/upload.cdnFile)
+###### upload.cdnFile
 
-  - *Represent a chunk of a CDN file*
+:link: [*Represent a chunk of a CDN file*](constructor/upload.cdnFile)
 
 ---
 
-###### :link: [cdnPublicKey](constructor/cdnPublicKey)
+###### cdnPublicKey
 
-  - *Public key to use only during handshakes to CDN DCs*
+:link: [*Public key to use only during handshakes to CDN DCs*](constructor/cdnPublicKey)
 
 ---
 
-###### :link: [cdnConfig](constructor/cdnConfig)
+###### cdnConfig
 
-  - *Configuration for CDN file downloads*
+:link: [*Configuration for CDN file downloads*](constructor/cdnConfig)
 
 ---
 
-###### :link: [langPackString](constructor/langPackString)
+###### langPackString
 
-  - *Translated localization string*
+:link: [*Translated localization string*](constructor/langPackString)
 
 ---
 
-###### :link: [langPackStringPluralized](constructor/langPackStringPluralized)
+###### langPackStringPluralized
 
-  - *A language pack string which has different forms based on the number of some object it mentions. See https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html for more info*
+:link: [*A language pack string which has different forms based on the number of some object it mentions. See https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html for more info*](constructor/langPackStringPluralized)
 
 ---
 
-###### :link: [langPackStringDeleted](constructor/langPackStringDeleted)
+###### langPackStringDeleted
 
-  - *Deleted localization string*
+:link: [*Deleted localization string*](constructor/langPackStringDeleted)
 
 ---
 
-###### :link: [langPackDifference](constructor/langPackDifference)
+###### langPackDifference
 
-  - *Changes to the app's localization pack*
+:link: [*Changes to the app's localization pack*](constructor/langPackDifference)
 
 ---
 
-###### :link: [langPackLanguage](constructor/langPackLanguage)
+###### langPackLanguage
 
-  - *Identifies a localization pack*
+:link: [*Identifies a localization pack*](constructor/langPackLanguage)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeTitle](constructor/channelAdminLogEventActionChangeTitle)
+###### channelAdminLogEventActionChangeTitle
 
-  - *Channel/supergroup title was changed*
+:link: [*Channel/supergroup title was changed*](constructor/channelAdminLogEventActionChangeTitle)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeAbout](constructor/channelAdminLogEventActionChangeAbout)
+###### channelAdminLogEventActionChangeAbout
 
-  - *The description was changed*
+:link: [*The description was changed*](constructor/channelAdminLogEventActionChangeAbout)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeUsername](constructor/channelAdminLogEventActionChangeUsername)
+###### channelAdminLogEventActionChangeUsername
 
-  - *Channel/supergroup username was changed*
+:link: [*Channel/supergroup username was changed*](constructor/channelAdminLogEventActionChangeUsername)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangePhoto](constructor/channelAdminLogEventActionChangePhoto)
+###### channelAdminLogEventActionChangePhoto
 
-  - *The channel/supergroup's picture was changed*
+:link: [*The channel/supergroup's picture was changed*](constructor/channelAdminLogEventActionChangePhoto)
 
 ---
 
-###### :link: [channelAdminLogEventActionToggleInvites](constructor/channelAdminLogEventActionToggleInvites)
+###### channelAdminLogEventActionToggleInvites
 
-  - *Invites were enabled/disabled*
+:link: [*Invites were enabled/disabled*](constructor/channelAdminLogEventActionToggleInvites)
 
 ---
 
-###### :link: [channelAdminLogEventActionToggleSignatures](constructor/channelAdminLogEventActionToggleSignatures)
+###### channelAdminLogEventActionToggleSignatures
 
-  - *Channel signatures were enabled/disabled*
+:link: [*Channel signatures were enabled/disabled*](constructor/channelAdminLogEventActionToggleSignatures)
 
 ---
 
-###### :link: [channelAdminLogEventActionUpdatePinned](constructor/channelAdminLogEventActionUpdatePinned)
+###### channelAdminLogEventActionUpdatePinned
 
-  - *A message was pinned*
+:link: [*A message was pinned*](constructor/channelAdminLogEventActionUpdatePinned)
 
 ---
 
-###### :link: [channelAdminLogEventActionEditMessage](constructor/channelAdminLogEventActionEditMessage)
+###### channelAdminLogEventActionEditMessage
 
-  - *A message was edited*
+:link: [*A message was edited*](constructor/channelAdminLogEventActionEditMessage)
 
 ---
 
-###### :link: [channelAdminLogEventActionDeleteMessage](constructor/channelAdminLogEventActionDeleteMessage)
+###### channelAdminLogEventActionDeleteMessage
 
-  - *A message was deleted*
+:link: [*A message was deleted*](constructor/channelAdminLogEventActionDeleteMessage)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantJoin](constructor/channelAdminLogEventActionParticipantJoin)
+###### channelAdminLogEventActionParticipantJoin
 
-  - *A user has joined the group (in the case of big groups, info of the user that has joined isn't shown)*
+:link: [*A user has joined the group (in the case of big groups, info of the user that has joined isn't shown)*](constructor/channelAdminLogEventActionParticipantJoin)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantLeave](constructor/channelAdminLogEventActionParticipantLeave)
+###### channelAdminLogEventActionParticipantLeave
 
-  - *A user left the channel/supergroup (in the case of big groups, info of the user that has joined isn't shown)*
+:link: [*A user left the channel/supergroup (in the case of big groups, info of the user that has joined isn't shown)*](constructor/channelAdminLogEventActionParticipantLeave)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantInvite](constructor/channelAdminLogEventActionParticipantInvite)
+###### channelAdminLogEventActionParticipantInvite
 
-  - *A user was invited to the group*
+:link: [*A user was invited to the group*](constructor/channelAdminLogEventActionParticipantInvite)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantToggleBan](constructor/channelAdminLogEventActionParticipantToggleBan)
+###### channelAdminLogEventActionParticipantToggleBan
 
-  - *The banned rights of a user were changed*
+:link: [*The banned rights of a user were changed*](constructor/channelAdminLogEventActionParticipantToggleBan)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantToggleAdmin](constructor/channelAdminLogEventActionParticipantToggleAdmin)
+###### channelAdminLogEventActionParticipantToggleAdmin
 
-  - *The admin rights of a user were changed*
+:link: [*The admin rights of a user were changed*](constructor/channelAdminLogEventActionParticipantToggleAdmin)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeStickerSet](constructor/channelAdminLogEventActionChangeStickerSet)
+###### channelAdminLogEventActionChangeStickerSet
 
-  - *The supergroup's stickerset was changed*
+:link: [*The supergroup's stickerset was changed*](constructor/channelAdminLogEventActionChangeStickerSet)
 
 ---
 
-###### :link: [channelAdminLogEventActionTogglePreHistoryHidden](constructor/channelAdminLogEventActionTogglePreHistoryHidden)
+###### channelAdminLogEventActionTogglePreHistoryHidden
 
-  - *The hidden prehistory setting was changed*
+:link: [*The hidden prehistory setting was changed*](constructor/channelAdminLogEventActionTogglePreHistoryHidden)
 
 ---
 
-###### :link: [channelAdminLogEventActionDefaultBannedRights](constructor/channelAdminLogEventActionDefaultBannedRights)
+###### channelAdminLogEventActionDefaultBannedRights
 
-  - *The default banned rights were modified*
+:link: [*The default banned rights were modified*](constructor/channelAdminLogEventActionDefaultBannedRights)
 
 ---
 
-###### :link: [channelAdminLogEventActionStopPoll](constructor/channelAdminLogEventActionStopPoll)
+###### channelAdminLogEventActionStopPoll
 
-  - *A poll was stopped*
+:link: [*A poll was stopped*](constructor/channelAdminLogEventActionStopPoll)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeLinkedChat](constructor/channelAdminLogEventActionChangeLinkedChat)
+###### channelAdminLogEventActionChangeLinkedChat
 
-  - *The linked chat was changed*
+:link: [*The linked chat was changed*](constructor/channelAdminLogEventActionChangeLinkedChat)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeLocation](constructor/channelAdminLogEventActionChangeLocation)
+###### channelAdminLogEventActionChangeLocation
 
-  - *The geogroup location was changed*
+:link: [*The geogroup location was changed*](constructor/channelAdminLogEventActionChangeLocation)
 
 ---
 
-###### :link: [channelAdminLogEventActionToggleSlowMode](constructor/channelAdminLogEventActionToggleSlowMode)
+###### channelAdminLogEventActionToggleSlowMode
 
-  - *Slow mode setting for supergroups was changed*
+:link: [*Slow mode setting for supergroups was changed*](constructor/channelAdminLogEventActionToggleSlowMode)
 
 ---
 
-###### :link: [channelAdminLogEventActionStartGroupCall](constructor/channelAdminLogEventActionStartGroupCall)
+###### channelAdminLogEventActionStartGroupCall
 
-  - *A group call was started*
+:link: [*A group call was started*](constructor/channelAdminLogEventActionStartGroupCall)
 
 ---
 
-###### :link: [channelAdminLogEventActionDiscardGroupCall](constructor/channelAdminLogEventActionDiscardGroupCall)
+###### channelAdminLogEventActionDiscardGroupCall
 
-  - *A group call was terminated*
+:link: [*A group call was terminated*](constructor/channelAdminLogEventActionDiscardGroupCall)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantMute](constructor/channelAdminLogEventActionParticipantMute)
+###### channelAdminLogEventActionParticipantMute
 
-  - *A group call participant was muted*
+:link: [*A group call participant was muted*](constructor/channelAdminLogEventActionParticipantMute)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantUnmute](constructor/channelAdminLogEventActionParticipantUnmute)
+###### channelAdminLogEventActionParticipantUnmute
 
-  - *A group call participant was unmuted*
+:link: [*A group call participant was unmuted*](constructor/channelAdminLogEventActionParticipantUnmute)
 
 ---
 
-###### :link: [channelAdminLogEventActionToggleGroupCallSetting](constructor/channelAdminLogEventActionToggleGroupCallSetting)
+###### channelAdminLogEventActionToggleGroupCallSetting
 
-  - *Group call settings were changed*
+:link: [*Group call settings were changed*](constructor/channelAdminLogEventActionToggleGroupCallSetting)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantJoinByInvite](constructor/channelAdminLogEventActionParticipantJoinByInvite)
+###### channelAdminLogEventActionParticipantJoinByInvite
 
-  - *A user joined the supergroup/channel using a specific invite link*
+:link: [*A user joined the supergroup/channel using a specific invite link*](constructor/channelAdminLogEventActionParticipantJoinByInvite)
 
 ---
 
-###### :link: [channelAdminLogEventActionExportedInviteDelete](constructor/channelAdminLogEventActionExportedInviteDelete)
+###### channelAdminLogEventActionExportedInviteDelete
 
-  - *A chat invite was deleted*
+:link: [*A chat invite was deleted*](constructor/channelAdminLogEventActionExportedInviteDelete)
 
 ---
 
-###### :link: [channelAdminLogEventActionExportedInviteRevoke](constructor/channelAdminLogEventActionExportedInviteRevoke)
+###### channelAdminLogEventActionExportedInviteRevoke
 
-  - *A specific invite link was revoked*
+:link: [*A specific invite link was revoked*](constructor/channelAdminLogEventActionExportedInviteRevoke)
 
 ---
 
-###### :link: [channelAdminLogEventActionExportedInviteEdit](constructor/channelAdminLogEventActionExportedInviteEdit)
+###### channelAdminLogEventActionExportedInviteEdit
 
-  - *A chat invite was edited*
+:link: [*A chat invite was edited*](constructor/channelAdminLogEventActionExportedInviteEdit)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantVolume](constructor/channelAdminLogEventActionParticipantVolume)
+###### channelAdminLogEventActionParticipantVolume
 
-  - *channelAdminLogEvent.user_id has set the volume of participant.peer to participant.volume*
+:link: [*channelAdminLogEvent.user_id has set the volume of participant.peer to participant.volume*](constructor/channelAdminLogEventActionParticipantVolume)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeHistoryTTL](constructor/channelAdminLogEventActionChangeHistoryTTL)
+###### channelAdminLogEventActionChangeHistoryTTL
 
-  - *The Time-To-Live of messages in this chat was changed*
+:link: [*The Time-To-Live of messages in this chat was changed*](constructor/channelAdminLogEventActionChangeHistoryTTL)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantJoinByRequest](constructor/channelAdminLogEventActionParticipantJoinByRequest)
+###### channelAdminLogEventActionParticipantJoinByRequest
 
-  - *A new member was accepted to the chat by an admin*
+:link: [*A new member was accepted to the chat by an admin*](constructor/channelAdminLogEventActionParticipantJoinByRequest)
 
 ---
 
-###### :link: [channelAdminLogEventActionToggleNoForwards](constructor/channelAdminLogEventActionToggleNoForwards)
+###### channelAdminLogEventActionToggleNoForwards
 
-  - *Forwards were enabled or disabled*
+:link: [*Forwards were enabled or disabled*](constructor/channelAdminLogEventActionToggleNoForwards)
 
 ---
 
-###### :link: [channelAdminLogEventActionSendMessage](constructor/channelAdminLogEventActionSendMessage)
+###### channelAdminLogEventActionSendMessage
 
-  - *A message was posted in a channel*
+:link: [*A message was posted in a channel*](constructor/channelAdminLogEventActionSendMessage)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeAvailableReactions](constructor/channelAdminLogEventActionChangeAvailableReactions)
+###### channelAdminLogEventActionChangeAvailableReactions
 
-  - *The set of allowed message reactions » for this channel has changed*
+:link: [*The set of allowed message reactions » for this channel has changed*](constructor/channelAdminLogEventActionChangeAvailableReactions)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeUsernames](constructor/channelAdminLogEventActionChangeUsernames)
+###### channelAdminLogEventActionChangeUsernames
 
-  - *The list of usernames associated with the channel was changed*
+:link: [*The list of usernames associated with the channel was changed*](constructor/channelAdminLogEventActionChangeUsernames)
 
 ---
 
-###### :link: [channelAdminLogEventActionToggleForum](constructor/channelAdminLogEventActionToggleForum)
+###### channelAdminLogEventActionToggleForum
 
-  - *Forum functionality was enabled or disabled*
+:link: [*Forum functionality was enabled or disabled*](constructor/channelAdminLogEventActionToggleForum)
 
 ---
 
-###### :link: [channelAdminLogEventActionCreateTopic](constructor/channelAdminLogEventActionCreateTopic)
+###### channelAdminLogEventActionCreateTopic
 
-  - *A forum topic was created*
+:link: [*A forum topic was created*](constructor/channelAdminLogEventActionCreateTopic)
 
 ---
 
-###### :link: [channelAdminLogEventActionEditTopic](constructor/channelAdminLogEventActionEditTopic)
+###### channelAdminLogEventActionEditTopic
 
-  - *A forum topic was edited*
+:link: [*A forum topic was edited*](constructor/channelAdminLogEventActionEditTopic)
 
 ---
 
-###### :link: [channelAdminLogEventActionDeleteTopic](constructor/channelAdminLogEventActionDeleteTopic)
+###### channelAdminLogEventActionDeleteTopic
 
-  - *A forum topic was deleted*
+:link: [*A forum topic was deleted*](constructor/channelAdminLogEventActionDeleteTopic)
 
 ---
 
-###### :link: [channelAdminLogEventActionPinTopic](constructor/channelAdminLogEventActionPinTopic)
+###### channelAdminLogEventActionPinTopic
 
-  - *A forum topic was pinned or unpinned*
+:link: [*A forum topic was pinned or unpinned*](constructor/channelAdminLogEventActionPinTopic)
 
 ---
 
-###### :link: [channelAdminLogEventActionToggleAntiSpam](constructor/channelAdminLogEventActionToggleAntiSpam)
+###### channelAdminLogEventActionToggleAntiSpam
 
-  - *Native antispam functionality was enabled or disabled*
+:link: [*Native antispam functionality was enabled or disabled*](constructor/channelAdminLogEventActionToggleAntiSpam)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangePeerColor](constructor/channelAdminLogEventActionChangePeerColor)
+###### channelAdminLogEventActionChangePeerColor
 
-  - *The message accent color was changed*
+:link: [*The message accent color was changed*](constructor/channelAdminLogEventActionChangePeerColor)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeProfilePeerColor](constructor/channelAdminLogEventActionChangeProfilePeerColor)
+###### channelAdminLogEventActionChangeProfilePeerColor
 
-  - *The profile accent color was changed*
+:link: [*The profile accent color was changed*](constructor/channelAdminLogEventActionChangeProfilePeerColor)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeWallpaper](constructor/channelAdminLogEventActionChangeWallpaper)
+###### channelAdminLogEventActionChangeWallpaper
 
-  - *The wallpaper was changed*
+:link: [*The wallpaper was changed*](constructor/channelAdminLogEventActionChangeWallpaper)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeEmojiStatus](constructor/channelAdminLogEventActionChangeEmojiStatus)
+###### channelAdminLogEventActionChangeEmojiStatus
 
-  - *The emoji status was changed*
+:link: [*The emoji status was changed*](constructor/channelAdminLogEventActionChangeEmojiStatus)
 
 ---
 
-###### :link: [channelAdminLogEventActionChangeEmojiStickerSet](constructor/channelAdminLogEventActionChangeEmojiStickerSet)
+###### channelAdminLogEventActionChangeEmojiStickerSet
 
-  - *The supergroup's custom emoji stickerset was changed*
+:link: [*The supergroup's custom emoji stickerset was changed*](constructor/channelAdminLogEventActionChangeEmojiStickerSet)
 
 ---
 
-###### :link: [channelAdminLogEventActionToggleSignatureProfiles](constructor/channelAdminLogEventActionToggleSignatureProfiles)
+###### channelAdminLogEventActionToggleSignatureProfiles
 
-  - *Channel signature profiles were enabled/disabled*
+:link: [*Channel signature profiles were enabled/disabled*](constructor/channelAdminLogEventActionToggleSignatureProfiles)
 
 ---
 
-###### :link: [channelAdminLogEventActionParticipantSubExtend](constructor/channelAdminLogEventActionParticipantSubExtend)
+###### channelAdminLogEventActionParticipantSubExtend
 
-  - *A paid subscriber has extended their Telegram Star subscription »*
+:link: [*A paid subscriber has extended their Telegram Star subscription »*](constructor/channelAdminLogEventActionParticipantSubExtend)
 
 ---
 
-###### :link: [channelAdminLogEventActionToggleAutotranslation](constructor/channelAdminLogEventActionToggleAutotranslation)
+###### channelAdminLogEventActionToggleAutotranslation
 
+:link: [*NOTHING*](constructor/channelAdminLogEventActionToggleAutotranslation)
+
 ---
 
-###### :link: [channelAdminLogEvent](constructor/channelAdminLogEvent)
+###### channelAdminLogEvent
 
-  - *Admin log event*
+:link: [*Admin log event*](constructor/channelAdminLogEvent)
 
 ---
 
-###### :link: [channels.adminLogResults](constructor/channels.adminLogResults)
+###### channels.adminLogResults
 
-  - *Admin log events*
+:link: [*Admin log events*](constructor/channels.adminLogResults)
 
 ---
 
-###### :link: [channelAdminLogEventsFilter](constructor/channelAdminLogEventsFilter)
+###### channelAdminLogEventsFilter
 
-  - *Filter only certain admin log events*
+:link: [*Filter only certain admin log events*](constructor/channelAdminLogEventsFilter)
 
 ---
 
-###### :link: [popularContact](constructor/popularContact)
+###### popularContact
 
-  - *Popular contact*
+:link: [*Popular contact*](constructor/popularContact)
 
 ---
 
-###### :link: [messages.favedStickersNotModified](constructor/messages.favedStickersNotModified)
+###### messages.favedStickersNotModified
 
-  - *No new favorited stickers were found*
+:link: [*No new favorited stickers were found*](constructor/messages.favedStickersNotModified)
 
 ---
 
-###### :link: [messages.favedStickers](constructor/messages.favedStickers)
+###### messages.favedStickers
 
-  - *Favorited stickers*
+:link: [*Favorited stickers*](constructor/messages.favedStickers)
 
 ---
 
-###### :link: [recentMeUrlUnknown](constructor/recentMeUrlUnknown)
+###### recentMeUrlUnknown
 
-  - *Unknown t.me url*
+:link: [*Unknown t.me url*](constructor/recentMeUrlUnknown)
 
 ---
 
-###### :link: [recentMeUrlUser](constructor/recentMeUrlUser)
+###### recentMeUrlUser
 
-  - *Recent t.me link to a user*
+:link: [*Recent t.me link to a user*](constructor/recentMeUrlUser)
 
 ---
 
-###### :link: [recentMeUrlChat](constructor/recentMeUrlChat)
+###### recentMeUrlChat
 
-  - *Recent t.me link to a chat*
+:link: [*Recent t.me link to a chat*](constructor/recentMeUrlChat)
 
 ---
 
-###### :link: [recentMeUrlChatInvite](constructor/recentMeUrlChatInvite)
+###### recentMeUrlChatInvite
 
-  - *Recent t.me invite link to a chat*
+:link: [*Recent t.me invite link to a chat*](constructor/recentMeUrlChatInvite)
 
 ---
 
-###### :link: [recentMeUrlStickerSet](constructor/recentMeUrlStickerSet)
+###### recentMeUrlStickerSet
 
-  - *Recent t.me stickerset installation URL*
+:link: [*Recent t.me stickerset installation URL*](constructor/recentMeUrlStickerSet)
 
 ---
 
-###### :link: [help.recentMeUrls](constructor/help.recentMeUrls)
+###### help.recentMeUrls
 
-  - *Recent t.me URLs*
+:link: [*Recent t.me URLs*](constructor/help.recentMeUrls)
 
 ---
 
-###### :link: [inputSingleMedia](constructor/inputSingleMedia)
+###### inputSingleMedia
 
-  - *A single media in an album or grouped media sent with messages.sendMultiMedia*
+:link: [*A single media in an album or grouped media sent with messages.sendMultiMedia*](constructor/inputSingleMedia)
 
 ---
 
-###### :link: [webAuthorization](constructor/webAuthorization)
+###### webAuthorization
 
-  - *Represents a bot logged in using the Telegram login widget*
+:link: [*Represents a bot logged in using the Telegram login widget*](constructor/webAuthorization)
 
 ---
 
-###### :link: [account.webAuthorizations](constructor/account.webAuthorizations)
+###### account.webAuthorizations
 
-  - *Web authorizations*
+:link: [*Web authorizations*](constructor/account.webAuthorizations)
 
 ---
 
-###### :link: [inputMessageID](constructor/inputMessageID)
+###### inputMessageID
 
-  - *Message by ID*
+:link: [*Message by ID*](constructor/inputMessageID)
 
 ---
 
-###### :link: [inputMessageReplyTo](constructor/inputMessageReplyTo)
+###### inputMessageReplyTo
 
-  - *Message to which the specified message replies to*
+:link: [*Message to which the specified message replies to*](constructor/inputMessageReplyTo)
 
 ---
 
-###### :link: [inputMessagePinned](constructor/inputMessagePinned)
+###### inputMessagePinned
 
-  - *Pinned message*
+:link: [*Pinned message*](constructor/inputMessagePinned)
 
 ---
 
-###### :link: [inputMessageCallbackQuery](constructor/inputMessageCallbackQuery)
+###### inputMessageCallbackQuery
 
-  - *Used by bots for fetching information about the message that originated a callback query*
+:link: [*Used by bots for fetching information about the message that originated a callback query*](constructor/inputMessageCallbackQuery)
 
 ---
 
-###### :link: [inputDialogPeer](constructor/inputDialogPeer)
+###### inputDialogPeer
 
-  - *A peer*
+:link: [*A peer*](constructor/inputDialogPeer)
 
 ---
 
-###### :link: [inputDialogPeerFolder](constructor/inputDialogPeerFolder)
+###### inputDialogPeerFolder
 
-  - *All peers in a peer folder*
+:link: [*All peers in a peer folder*](constructor/inputDialogPeerFolder)
 
 ---
 
-###### :link: [dialogPeer](constructor/dialogPeer)
+###### dialogPeer
 
-  - *Peer*
+:link: [*Peer*](constructor/dialogPeer)
 
 ---
 
-###### :link: [dialogPeerFolder](constructor/dialogPeerFolder)
+###### dialogPeerFolder
 
-  - *Peer folder*
+:link: [*Peer folder*](constructor/dialogPeerFolder)
 
 ---
 
-###### :link: [messages.foundStickerSetsNotModified](constructor/messages.foundStickerSetsNotModified)
+###### messages.foundStickerSetsNotModified
 
-  - *No further results were found*
+:link: [*No further results were found*](constructor/messages.foundStickerSetsNotModified)
 
 ---
 
-###### :link: [messages.foundStickerSets](constructor/messages.foundStickerSets)
+###### messages.foundStickerSets
 
-  - *Found stickersets*
+:link: [*Found stickersets*](constructor/messages.foundStickerSets)
 
 ---
 
-###### :link: [fileHash](constructor/fileHash)
+###### fileHash
 
-  - *SHA256 Hash of an uploaded file, to be checked for validity after download*
+:link: [*SHA256 Hash of an uploaded file, to be checked for validity after download*](constructor/fileHash)
 
 ---
 
-###### :link: [inputClientProxy](constructor/inputClientProxy)
+###### inputClientProxy
 
-  - *Info about an MTProxy used to connect*
+:link: [*Info about an MTProxy used to connect*](constructor/inputClientProxy)
 
 ---
 
-###### :link: [help.termsOfServiceUpdateEmpty](constructor/help.termsOfServiceUpdateEmpty)
+###### help.termsOfServiceUpdateEmpty
 
-  - *No changes were made to telegram's terms of service*
+:link: [*No changes were made to telegram's terms of service*](constructor/help.termsOfServiceUpdateEmpty)
 
 ---
 
-###### :link: [help.termsOfServiceUpdate](constructor/help.termsOfServiceUpdate)
+###### help.termsOfServiceUpdate
 
-  - *Info about an update of telegram's terms of service. If the terms of service are declined, then the account.deleteAccount method should be called with the reason "Decline ToS update"*
+:link: [*Info about an update of telegram's terms of service. If the terms of service are declined, then the account.deleteAccount method should be called with the reason "Decline ToS update"*](constructor/help.termsOfServiceUpdate)
 
 ---
 
-###### :link: [inputSecureFileUploaded](constructor/inputSecureFileUploaded)
+###### inputSecureFileUploaded
 
-  - *Uploaded secure file, for more info see the passport docs »*
+:link: [*Uploaded secure file, for more info see the passport docs »*](constructor/inputSecureFileUploaded)
 
 ---
 
-###### :link: [inputSecureFile](constructor/inputSecureFile)
+###### inputSecureFile
 
-  - *Pre-uploaded passport file, for more info see the passport docs »*
+:link: [*Pre-uploaded passport file, for more info see the passport docs »*](constructor/inputSecureFile)
 
 ---
 
-###### :link: [secureFileEmpty](constructor/secureFileEmpty)
+###### secureFileEmpty
 
-  - *Empty constructor*
+:link: [*Empty constructor*](constructor/secureFileEmpty)
 
 ---
 
-###### :link: [secureFile](constructor/secureFile)
+###### secureFile
 
-  - *Secure passport file, for more info see the passport docs »*
+:link: [*Secure passport file, for more info see the passport docs »*](constructor/secureFile)
 
 ---
 
-###### :link: [secureData](constructor/secureData)
+###### secureData
 
-  - *Secure passport data, for more info see the passport docs »*
+:link: [*Secure passport data, for more info see the passport docs »*](constructor/secureData)
 
 ---
 
-###### :link: [securePlainPhone](constructor/securePlainPhone)
+###### securePlainPhone
 
-  - *Phone number to use in telegram passport: it must be verified, first »*
+:link: [*Phone number to use in telegram passport: it must be verified, first »*](constructor/securePlainPhone)
 
 ---
 
-###### :link: [securePlainEmail](constructor/securePlainEmail)
+###### securePlainEmail
 
-  - *Email address to use in telegram passport: it must be verified, first »*
+:link: [*Email address to use in telegram passport: it must be verified, first »*](constructor/securePlainEmail)
 
 ---
 
-###### :link: [secureValueTypePersonalDetails](constructor/secureValueTypePersonalDetails)
+###### secureValueTypePersonalDetails
 
-  - *Personal details*
+:link: [*Personal details*](constructor/secureValueTypePersonalDetails)
 
 ---
 
-###### :link: [secureValueTypePassport](constructor/secureValueTypePassport)
+###### secureValueTypePassport
 
-  - *Passport*
+:link: [*Passport*](constructor/secureValueTypePassport)
 
 ---
 
-###### :link: [secureValueTypeDriverLicense](constructor/secureValueTypeDriverLicense)
+###### secureValueTypeDriverLicense
 
-  - *Driver's license*
+:link: [*Driver's license*](constructor/secureValueTypeDriverLicense)
 
 ---
 
-###### :link: [secureValueTypeIdentityCard](constructor/secureValueTypeIdentityCard)
+###### secureValueTypeIdentityCard
 
-  - *Identity card*
+:link: [*Identity card*](constructor/secureValueTypeIdentityCard)
 
 ---
 
-###### :link: [secureValueTypeInternalPassport](constructor/secureValueTypeInternalPassport)
+###### secureValueTypeInternalPassport
 
-  - *Internal passport*
+:link: [*Internal passport*](constructor/secureValueTypeInternalPassport)
 
 ---
 
-###### :link: [secureValueTypeAddress](constructor/secureValueTypeAddress)
+###### secureValueTypeAddress
 
-  - *Address*
+:link: [*Address*](constructor/secureValueTypeAddress)
 
 ---
 
-###### :link: [secureValueTypeUtilityBill](constructor/secureValueTypeUtilityBill)
+###### secureValueTypeUtilityBill
 
-  - *Utility bill*
+:link: [*Utility bill*](constructor/secureValueTypeUtilityBill)
 
 ---
 
-###### :link: [secureValueTypeBankStatement](constructor/secureValueTypeBankStatement)
+###### secureValueTypeBankStatement
 
-  - *Bank statement*
+:link: [*Bank statement*](constructor/secureValueTypeBankStatement)
 
 ---
 
-###### :link: [secureValueTypeRentalAgreement](constructor/secureValueTypeRentalAgreement)
+###### secureValueTypeRentalAgreement
 
-  - *Rental agreement*
+:link: [*Rental agreement*](constructor/secureValueTypeRentalAgreement)
 
 ---
 
-###### :link: [secureValueTypePassportRegistration](constructor/secureValueTypePassportRegistration)
+###### secureValueTypePassportRegistration
 
-  - *Internal registration passport*
+:link: [*Internal registration passport*](constructor/secureValueTypePassportRegistration)
 
 ---
 
-###### :link: [secureValueTypeTemporaryRegistration](constructor/secureValueTypeTemporaryRegistration)
+###### secureValueTypeTemporaryRegistration
 
-  - *Temporary registration*
+:link: [*Temporary registration*](constructor/secureValueTypeTemporaryRegistration)
 
 ---
 
-###### :link: [secureValueTypePhone](constructor/secureValueTypePhone)
+###### secureValueTypePhone
 
-  - *Phone*
+:link: [*Phone*](constructor/secureValueTypePhone)
 
 ---
 
-###### :link: [secureValueTypeEmail](constructor/secureValueTypeEmail)
+###### secureValueTypeEmail
 
-  - *Email*
+:link: [*Email*](constructor/secureValueTypeEmail)
 
 ---
 
-###### :link: [secureValue](constructor/secureValue)
+###### secureValue
 
-  - *Secure value*
+:link: [*Secure value*](constructor/secureValue)
 
 ---
 
-###### :link: [inputSecureValue](constructor/inputSecureValue)
+###### inputSecureValue
 
-  - *Secure value, for more info see the passport docs »*
+:link: [*Secure value, for more info see the passport docs »*](constructor/inputSecureValue)
 
 ---
 
-###### :link: [secureValueHash](constructor/secureValueHash)
+###### secureValueHash
 
-  - *Secure value hash*
+:link: [*Secure value hash*](constructor/secureValueHash)
 
 ---
 
-###### :link: [secureValueErrorData](constructor/secureValueErrorData)
+###### secureValueErrorData
 
-  - *Represents an issue in one of the data fields that was provided by the user. The error is considered resolved when the field's value changes*
+:link: [*Represents an issue in one of the data fields that was provided by the user. The error is considered resolved when the field's value changes*](constructor/secureValueErrorData)
 
 ---
 
-###### :link: [secureValueErrorFrontSide](constructor/secureValueErrorFrontSide)
+###### secureValueErrorFrontSide
 
-  - *Represents an issue with the front side of a document. The error is considered resolved when the file with the front side of the document changes*
+:link: [*Represents an issue with the front side of a document. The error is considered resolved when the file with the front side of the document changes*](constructor/secureValueErrorFrontSide)
 
 ---
 
-###### :link: [secureValueErrorReverseSide](constructor/secureValueErrorReverseSide)
+###### secureValueErrorReverseSide
 
-  - *Represents an issue with the reverse side of a document. The error is considered resolved when the file with reverse side of the document changes*
+:link: [*Represents an issue with the reverse side of a document. The error is considered resolved when the file with reverse side of the document changes*](constructor/secureValueErrorReverseSide)
 
 ---
 
-###### :link: [secureValueErrorSelfie](constructor/secureValueErrorSelfie)
+###### secureValueErrorSelfie
 
-  - *Represents an issue with the selfie with a document. The error is considered resolved when the file with the selfie changes*
+:link: [*Represents an issue with the selfie with a document. The error is considered resolved when the file with the selfie changes*](constructor/secureValueErrorSelfie)
 
 ---
 
-###### :link: [secureValueErrorFile](constructor/secureValueErrorFile)
+###### secureValueErrorFile
 
-  - *Represents an issue with a document scan. The error is considered resolved when the file with the document scan changes*
+:link: [*Represents an issue with a document scan. The error is considered resolved when the file with the document scan changes*](constructor/secureValueErrorFile)
 
 ---
 
-###### :link: [secureValueErrorFiles](constructor/secureValueErrorFiles)
+###### secureValueErrorFiles
 
-  - *Represents an issue with a list of scans. The error is considered resolved when the list of files containing the scans changes*
+:link: [*Represents an issue with a list of scans. The error is considered resolved when the list of files containing the scans changes*](constructor/secureValueErrorFiles)
 
 ---
 
-###### :link: [secureValueError](constructor/secureValueError)
+###### secureValueError
 
-  - *Secure value error*
+:link: [*Secure value error*](constructor/secureValueError)
 
 ---
 
-###### :link: [secureValueErrorTranslationFile](constructor/secureValueErrorTranslationFile)
+###### secureValueErrorTranslationFile
 
-  - *Represents an issue with one of the files that constitute the translation of a document. The error is considered resolved when the file changes*
+:link: [*Represents an issue with one of the files that constitute the translation of a document. The error is considered resolved when the file changes*](constructor/secureValueErrorTranslationFile)
 
 ---
 
-###### :link: [secureValueErrorTranslationFiles](constructor/secureValueErrorTranslationFiles)
+###### secureValueErrorTranslationFiles
 
-  - *Represents an issue with the translated version of a document. The error is considered resolved when a file with the document translation changes*
+:link: [*Represents an issue with the translated version of a document. The error is considered resolved when a file with the document translation changes*](constructor/secureValueErrorTranslationFiles)
 
 ---
 
-###### :link: [secureCredentialsEncrypted](constructor/secureCredentialsEncrypted)
+###### secureCredentialsEncrypted
 
-  - *Encrypted credentials required to decrypt telegram passport data*
+:link: [*Encrypted credentials required to decrypt telegram passport data*](constructor/secureCredentialsEncrypted)
 
 ---
 
-###### :link: [account.authorizationForm](constructor/account.authorizationForm)
+###### account.authorizationForm
 
-  - *Telegram Passport authorization form*
+:link: [*Telegram Passport authorization form*](constructor/account.authorizationForm)
 
 ---
 
-###### :link: [account.sentEmailCode](constructor/account.sentEmailCode)
+###### account.sentEmailCode
 
-  - *The sent email code*
+:link: [*The sent email code*](constructor/account.sentEmailCode)
 
 ---
 
-###### :link: [help.deepLinkInfoEmpty](constructor/help.deepLinkInfoEmpty)
+###### help.deepLinkInfoEmpty
 
-  - *Deep link info empty*
+:link: [*Deep link info empty*](constructor/help.deepLinkInfoEmpty)
 
 ---
 
-###### :link: [help.deepLinkInfo](constructor/help.deepLinkInfo)
+###### help.deepLinkInfo
 
-  - *Deep link info, see the here for more details*
+:link: [*Deep link info, see the here for more details*](constructor/help.deepLinkInfo)
 
 ---
 
-###### :link: [savedPhoneContact](constructor/savedPhoneContact)
+###### savedPhoneContact
 
-  - *Saved contact*
+:link: [*Saved contact*](constructor/savedPhoneContact)
 
 ---
 
-###### :link: [account.takeout](constructor/account.takeout)
+###### account.takeout
 
-  - *Takeout info*
+:link: [*Takeout info*](constructor/account.takeout)
 
 ---
 
-###### :link: [passwordKdfAlgoUnknown](constructor/passwordKdfAlgoUnknown)
+###### passwordKdfAlgoUnknown
 
-  - *Unknown KDF (most likely, the client is outdated and does not support the specified KDF algorithm)*
+:link: [*Unknown KDF (most likely, the client is outdated and does not support the specified KDF algorithm)*](constructor/passwordKdfAlgoUnknown)
 
 ---
 
-###### :link: [passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow](constructor/passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow)
+###### passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow
 
-  - *This key derivation algorithm defines that SRP 2FA login must be used*
+:link: [*This key derivation algorithm defines that SRP 2FA login must be used*](constructor/passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow)
 
 ---
 
-###### :link: [securePasswordKdfAlgoUnknown](constructor/securePasswordKdfAlgoUnknown)
+###### securePasswordKdfAlgoUnknown
 
-  - *Unknown KDF algo (most likely the client has to be updated)*
+:link: [*Unknown KDF algo (most likely the client has to be updated)*](constructor/securePasswordKdfAlgoUnknown)
 
 ---
 
-###### :link: [securePasswordKdfAlgoPBKDF2HMACSHA512iter100000](constructor/securePasswordKdfAlgoPBKDF2HMACSHA512iter100000)
+###### securePasswordKdfAlgoPBKDF2HMACSHA512iter100000
 
-  - *PBKDF2 with SHA512 and 100000 iterations KDF algo*
+:link: [*PBKDF2 with SHA512 and 100000 iterations KDF algo*](constructor/securePasswordKdfAlgoPBKDF2HMACSHA512iter100000)
 
 ---
 
-###### :link: [securePasswordKdfAlgoSHA512](constructor/securePasswordKdfAlgoSHA512)
+###### securePasswordKdfAlgoSHA512
 
-  - *SHA512 KDF algo*
+:link: [*SHA512 KDF algo*](constructor/securePasswordKdfAlgoSHA512)
 
 ---
 
-###### :link: [secureSecretSettings](constructor/secureSecretSettings)
+###### secureSecretSettings
 
-  - *Secure settings*
+:link: [*Secure settings*](constructor/secureSecretSettings)
 
 ---
 
-###### :link: [inputCheckPasswordEmpty](constructor/inputCheckPasswordEmpty)
+###### inputCheckPasswordEmpty
 
-  - *There is no password*
+:link: [*There is no password*](constructor/inputCheckPasswordEmpty)
 
 ---
 
-###### :link: [inputCheckPasswordSRP](constructor/inputCheckPasswordSRP)
+###### inputCheckPasswordSRP
 
-  - *Constructor for checking the validity of a 2FA SRP password (see SRP)*
+:link: [*Constructor for checking the validity of a 2FA SRP password (see SRP)*](constructor/inputCheckPasswordSRP)
 
 ---
 
-###### :link: [secureRequiredType](constructor/secureRequiredType)
+###### secureRequiredType
 
-  - *Required type*
+:link: [*Required type*](constructor/secureRequiredType)
 
 ---
 
-###### :link: [secureRequiredTypeOneOf](constructor/secureRequiredTypeOneOf)
+###### secureRequiredTypeOneOf
 
-  - *One of*
+:link: [*One of*](constructor/secureRequiredTypeOneOf)
 
 ---
 
-###### :link: [help.passportConfigNotModified](constructor/help.passportConfigNotModified)
+###### help.passportConfigNotModified
 
-  - *Password configuration not modified*
+:link: [*Password configuration not modified*](constructor/help.passportConfigNotModified)
 
 ---
 
-###### :link: [help.passportConfig](constructor/help.passportConfig)
+###### help.passportConfig
 
-  - *Telegram passport configuration*
+:link: [*Telegram passport configuration*](constructor/help.passportConfig)
 
 ---
 
-###### :link: [inputAppEvent](constructor/inputAppEvent)
+###### inputAppEvent
 
-  - *Event that occurred in the application*
+:link: [*Event that occurred in the application*](constructor/inputAppEvent)
 
 ---
 
-###### :link: [jsonObjectValue](constructor/jsonObjectValue)
+###### jsonObjectValue
 
-  - *JSON key: value pair*
+:link: [*JSON key: value pair*](constructor/jsonObjectValue)
 
 ---
 
-###### :link: [jsonNull](constructor/jsonNull)
+###### jsonNull
 
-  - *null JSON value*
+:link: [*null JSON value*](constructor/jsonNull)
 
 ---
 
-###### :link: [jsonBool](constructor/jsonBool)
+###### jsonBool
 
-  - *JSON boolean value*
+:link: [*JSON boolean value*](constructor/jsonBool)
 
 ---
 
-###### :link: [jsonNumber](constructor/jsonNumber)
+###### jsonNumber
 
-  - *JSON numeric value*
+:link: [*JSON numeric value*](constructor/jsonNumber)
 
 ---
 
-###### :link: [jsonString](constructor/jsonString)
+###### jsonString
 
-  - *JSON string*
+:link: [*JSON string*](constructor/jsonString)
 
 ---
 
-###### :link: [jsonArray](constructor/jsonArray)
+###### jsonArray
 
-  - *JSON array*
+:link: [*JSON array*](constructor/jsonArray)
 
 ---
 
-###### :link: [jsonObject](constructor/jsonObject)
+###### jsonObject
 
-  - *JSON object value*
+:link: [*JSON object value*](constructor/jsonObject)
 
 ---
 
-###### :link: [pageTableCell](constructor/pageTableCell)
+###### pageTableCell
 
-  - *Table cell*
+:link: [*Table cell*](constructor/pageTableCell)
 
 ---
 
-###### :link: [pageTableRow](constructor/pageTableRow)
+###### pageTableRow
 
-  - *Table row*
+:link: [*Table row*](constructor/pageTableRow)
 
 ---
 
-###### :link: [pageCaption](constructor/pageCaption)
+###### pageCaption
 
-  - *Page caption*
+:link: [*Page caption*](constructor/pageCaption)
 
 ---
 
-###### :link: [pageListItemText](constructor/pageListItemText)
+###### pageListItemText
 
-  - *List item*
+:link: [*List item*](constructor/pageListItemText)
 
 ---
 
-###### :link: [pageListItemBlocks](constructor/pageListItemBlocks)
+###### pageListItemBlocks
 
-  - *List item*
+:link: [*List item*](constructor/pageListItemBlocks)
 
 ---
 
-###### :link: [pageListOrderedItemText](constructor/pageListOrderedItemText)
+###### pageListOrderedItemText
 
-  - *Ordered list of text items*
+:link: [*Ordered list of text items*](constructor/pageListOrderedItemText)
 
 ---
 
-###### :link: [pageListOrderedItemBlocks](constructor/pageListOrderedItemBlocks)
+###### pageListOrderedItemBlocks
 
-  - *Ordered list of IV blocks*
+:link: [*Ordered list of IV blocks*](constructor/pageListOrderedItemBlocks)
 
 ---
 
-###### :link: [pageRelatedArticle](constructor/pageRelatedArticle)
+###### pageRelatedArticle
 
-  - *Related article*
+:link: [*Related article*](constructor/pageRelatedArticle)
 
 ---
 
-###### :link: [page](constructor/page)
+###### page
 
-  - *Instant view page*
+:link: [*Instant view page*](constructor/page)
 
 ---
 
-###### :link: [help.supportName](constructor/help.supportName)
+###### help.supportName
 
-  - *Localized name for telegram support*
+:link: [*Localized name for telegram support*](constructor/help.supportName)
 
 ---
 
-###### :link: [help.userInfoEmpty](constructor/help.userInfoEmpty)
+###### help.userInfoEmpty
 
-  - *Internal use*
+:link: [*Internal use*](constructor/help.userInfoEmpty)
 
 ---
 
-###### :link: [help.userInfo](constructor/help.userInfo)
+###### help.userInfo
 
-  - *Internal use*
+:link: [*Internal use*](constructor/help.userInfo)
 
 ---
 
-###### :link: [pollAnswer](constructor/pollAnswer)
+###### pollAnswer
 
-  - *A possible answer of a poll*
+:link: [*A possible answer of a poll*](constructor/pollAnswer)
 
 ---
 
-###### :link: [poll](constructor/poll)
+###### poll
 
-  - *Poll*
+:link: [*Poll*](constructor/poll)
 
 ---
 
-###### :link: [pollAnswerVoters](constructor/pollAnswerVoters)
+###### pollAnswerVoters
 
-  - *A poll answer, and how users voted on it*
+:link: [*A poll answer, and how users voted on it*](constructor/pollAnswerVoters)
 
 ---
 
-###### :link: [pollResults](constructor/pollResults)
+###### pollResults
 
-  - *Results of poll*
+:link: [*Results of poll*](constructor/pollResults)
 
 ---
 
-###### :link: [chatOnlines](constructor/chatOnlines)
+###### chatOnlines
 
-  - *Number of online users in a chat*
+:link: [*Number of online users in a chat*](constructor/chatOnlines)
 
 ---
 
-###### :link: [statsURL](constructor/statsURL)
+###### statsURL
 
-  - *URL with chat statistics*
+:link: [*URL with chat statistics*](constructor/statsURL)
 
 ---
 
-###### :link: [chatAdminRights](constructor/chatAdminRights)
+###### chatAdminRights
 
-  - *Represents the rights of an admin in a channel/supergroup*
+:link: [*Represents the rights of an admin in a channel/supergroup*](constructor/chatAdminRights)
 
 ---
 
-###### :link: [chatBannedRights](constructor/chatBannedRights)
+###### chatBannedRights
 
-  - *Represents the rights of a normal user in a supergroup/channel/chat. In this case, the flags are inverted: if set, a flag does not allow a user to do X*
+:link: [*Represents the rights of a normal user in a supergroup/channel/chat. In this case, the flags are inverted: if set, a flag does not allow a user to do X*](constructor/chatBannedRights)
 
 ---
 
-###### :link: [inputWallPaper](constructor/inputWallPaper)
+###### inputWallPaper
 
-  - *Wallpaper*
+:link: [*Wallpaper*](constructor/inputWallPaper)
 
 ---
 
-###### :link: [inputWallPaperSlug](constructor/inputWallPaperSlug)
+###### inputWallPaperSlug
 
-  - *Wallpaper by slug (a unique ID, obtained from a wallpaper link »)*
+:link: [*Wallpaper by slug (a unique ID, obtained from a wallpaper link »)*](constructor/inputWallPaperSlug)
 
 ---
 
-###### :link: [inputWallPaperNoFile](constructor/inputWallPaperNoFile)
+###### inputWallPaperNoFile
 
-  - *Wallpaper with no file access hash, used for example when deleting (unsave=true) wallpapers using account.saveWallPaper, specifying just the wallpaper ID*
+:link: [*Wallpaper with no file access hash, used for example when deleting (unsave=true) wallpapers using account.saveWallPaper, specifying just the wallpaper ID*](constructor/inputWallPaperNoFile)
 
 ---
 
-###### :link: [account.wallPapersNotModified](constructor/account.wallPapersNotModified)
+###### account.wallPapersNotModified
 
-  - *No new wallpapers were found*
+:link: [*No new wallpapers were found*](constructor/account.wallPapersNotModified)
 
 ---
 
-###### :link: [account.wallPapers](constructor/account.wallPapers)
+###### account.wallPapers
 
-  - *Installed wallpapers*
+:link: [*Installed wallpapers*](constructor/account.wallPapers)
 
 ---
 
-###### :link: [codeSettings](constructor/codeSettings)
+###### codeSettings
 
-  - *Settings used by telegram servers for sending the confirm code*
+:link: [*Settings used by telegram servers for sending the confirm code*](constructor/codeSettings)
 
 ---
 
-###### :link: [wallPaperSettings](constructor/wallPaperSettings)
+###### wallPaperSettings
 
-  - *Wallpaper rendering information*
+:link: [*Wallpaper rendering information*](constructor/wallPaperSettings)
 
 ---
 
-###### :link: [autoDownloadSettings](constructor/autoDownloadSettings)
+###### autoDownloadSettings
 
-  - *Autodownload settings*
+:link: [*Autodownload settings*](constructor/autoDownloadSettings)
 
 ---
 
-###### :link: [account.autoDownloadSettings](constructor/account.autoDownloadSettings)
+###### account.autoDownloadSettings
 
-  - *Media autodownload settings*
+:link: [*Media autodownload settings*](constructor/account.autoDownloadSettings)
 
 ---
 
-###### :link: [emojiKeyword](constructor/emojiKeyword)
+###### emojiKeyword
 
-  - *Emoji keyword*
+:link: [*Emoji keyword*](constructor/emojiKeyword)
 
 ---
 
-###### :link: [emojiKeywordDeleted](constructor/emojiKeywordDeleted)
+###### emojiKeywordDeleted
 
-  - *Deleted emoji keyword*
+:link: [*Deleted emoji keyword*](constructor/emojiKeywordDeleted)
 
 ---
 
-###### :link: [emojiKeywordsDifference](constructor/emojiKeywordsDifference)
+###### emojiKeywordsDifference
 
-  - *Changes to emoji keywords*
+:link: [*Changes to emoji keywords*](constructor/emojiKeywordsDifference)
 
 ---
 
-###### :link: [emojiURL](constructor/emojiURL)
+###### emojiURL
 
-  - *An HTTP URL which can be used to automatically log in into translation platform and suggest new emoji replacements. The URL will be valid for 30 seconds after generation*
+:link: [*An HTTP URL which can be used to automatically log in into translation platform and suggest new emoji replacements. The URL will be valid for 30 seconds after generation*](constructor/emojiURL)
 
 ---
 
-###### :link: [emojiLanguage](constructor/emojiLanguage)
+###### emojiLanguage
 
-  - *Emoji language*
+:link: [*Emoji language*](constructor/emojiLanguage)
 
 ---
 
-###### :link: [folder](constructor/folder)
+###### folder
 
-  - *Folder*
+:link: [*Folder*](constructor/folder)
 
 ---
 
-###### :link: [inputFolderPeer](constructor/inputFolderPeer)
+###### inputFolderPeer
 
-  - *Peer in a folder*
+:link: [*Peer in a folder*](constructor/inputFolderPeer)
 
 ---
 
-###### :link: [folderPeer](constructor/folderPeer)
+###### folderPeer
 
-  - *Peer in a folder*
+:link: [*Peer in a folder*](constructor/folderPeer)
 
 ---
 
-###### :link: [messages.searchCounter](constructor/messages.searchCounter)
+###### messages.searchCounter
 
-  - *Indicates how many results would be found by a messages.search call with the same parameters*
+:link: [*Indicates how many results would be found by a messages.search call with the same parameters*](constructor/messages.searchCounter)
 
 ---
 
-###### :link: [urlAuthResultRequest](constructor/urlAuthResultRequest)
+###### urlAuthResultRequest
 
-  - *Details about the authorization request, for more info click here »*
+:link: [*Details about the authorization request, for more info click here »*](constructor/urlAuthResultRequest)
 
 ---
 
-###### :link: [urlAuthResultAccepted](constructor/urlAuthResultAccepted)
+###### urlAuthResultAccepted
 
-  - *Details about an accepted authorization request, for more info click here »*
+:link: [*Details about an accepted authorization request, for more info click here »*](constructor/urlAuthResultAccepted)
 
 ---
 
-###### :link: [urlAuthResultDefault](constructor/urlAuthResultDefault)
+###### urlAuthResultDefault
 
-  - *Details about an accepted authorization request, for more info click here »*
+:link: [*Details about an accepted authorization request, for more info click here »*](constructor/urlAuthResultDefault)
 
 ---
 
-###### :link: [channelLocationEmpty](constructor/channelLocationEmpty)
+###### channelLocationEmpty
 
-  - *No location (normal supergroup)*
+:link: [*No location (normal supergroup)*](constructor/channelLocationEmpty)
 
 ---
 
-###### :link: [channelLocation](constructor/channelLocation)
+###### channelLocation
 
-  - *Geographical location of supergroup (geogroups)*
+:link: [*Geographical location of supergroup (geogroups)*](constructor/channelLocation)
 
 ---
 
-###### :link: [peerLocated](constructor/peerLocated)
+###### peerLocated
 
-  - *Peer geolocated nearby*
+:link: [*Peer geolocated nearby*](constructor/peerLocated)
 
 ---
 
-###### :link: [peerSelfLocated](constructor/peerSelfLocated)
+###### peerSelfLocated
 
-  - *Current peer*
+:link: [*Current peer*](constructor/peerSelfLocated)
 
 ---
 
-###### :link: [restrictionReason](constructor/restrictionReason)
+###### restrictionReason
 
-  - *Restriction reason*
+:link: [*Restriction reason*](constructor/restrictionReason)
 
 ---
 
-###### :link: [inputTheme](constructor/inputTheme)
+###### inputTheme
 
-  - *Theme*
+:link: [*Theme*](constructor/inputTheme)
 
 ---
 
-###### :link: [inputThemeSlug](constructor/inputThemeSlug)
+###### inputThemeSlug
 
-  - *Theme by theme ID*
+:link: [*Theme by theme ID*](constructor/inputThemeSlug)
 
 ---
 
-###### :link: [theme](constructor/theme)
+###### theme
 
-  - *Theme*
+:link: [*Theme*](constructor/theme)
 
 ---
 
-###### :link: [account.themesNotModified](constructor/account.themesNotModified)
+###### account.themesNotModified
 
-  - *No new themes were installed*
+:link: [*No new themes were installed*](constructor/account.themesNotModified)
 
 ---
 
-###### :link: [account.themes](constructor/account.themes)
+###### account.themes
 
-  - *Installed themes*
+:link: [*Installed themes*](constructor/account.themes)
 
 ---
 
-###### :link: [auth.loginToken](constructor/auth.loginToken)
+###### auth.loginToken
 
-  - *Login token (for QR code login)*
+:link: [*Login token (for QR code login)*](constructor/auth.loginToken)
 
 ---
 
-###### :link: [auth.loginTokenMigrateTo](constructor/auth.loginTokenMigrateTo)
+###### auth.loginTokenMigrateTo
 
-  - *Repeat the query to the specified DC*
+:link: [*Repeat the query to the specified DC*](constructor/auth.loginTokenMigrateTo)
 
 ---
 
-###### :link: [auth.loginTokenSuccess](constructor/auth.loginTokenSuccess)
+###### auth.loginTokenSuccess
 
-  - *Login via token (QR code) succeeded!*
+:link: [*Login via token (QR code) succeeded!*](constructor/auth.loginTokenSuccess)
 
 ---
 
-###### :link: [account.contentSettings](constructor/account.contentSettings)
+###### account.contentSettings
 
-  - *Sensitive content settings*
+:link: [*Sensitive content settings*](constructor/account.contentSettings)
 
 ---
 
-###### :link: [messages.inactiveChats](constructor/messages.inactiveChats)
+###### messages.inactiveChats
 
-  - *Inactive chat list*
+:link: [*Inactive chat list*](constructor/messages.inactiveChats)
 
 ---
 
-###### :link: [baseThemeClassic](constructor/baseThemeClassic)
+###### baseThemeClassic
 
-  - *Classic theme*
+:link: [*Classic theme*](constructor/baseThemeClassic)
 
 ---
 
-###### :link: [baseThemeDay](constructor/baseThemeDay)
+###### baseThemeDay
 
-  - *Day theme*
+:link: [*Day theme*](constructor/baseThemeDay)
 
 ---
 
-###### :link: [baseThemeNight](constructor/baseThemeNight)
+###### baseThemeNight
 
-  - *Night theme*
+:link: [*Night theme*](constructor/baseThemeNight)
 
 ---
 
-###### :link: [baseThemeTinted](constructor/baseThemeTinted)
+###### baseThemeTinted
 
-  - *Tinted theme*
+:link: [*Tinted theme*](constructor/baseThemeTinted)
 
 ---
 
-###### :link: [baseThemeArctic](constructor/baseThemeArctic)
+###### baseThemeArctic
 
-  - *Arctic theme*
+:link: [*Arctic theme*](constructor/baseThemeArctic)
 
 ---
 
-###### :link: [inputThemeSettings](constructor/inputThemeSettings)
+###### inputThemeSettings
 
-  - *Theme settings*
+:link: [*Theme settings*](constructor/inputThemeSettings)
 
 ---
 
-###### :link: [themeSettings](constructor/themeSettings)
+###### themeSettings
 
-  - *Theme settings*
+:link: [*Theme settings*](constructor/themeSettings)
 
 ---
 
-###### :link: [webPageAttributeTheme](constructor/webPageAttributeTheme)
+###### webPageAttributeTheme
 
-  - *Page theme*
+:link: [*Page theme*](constructor/webPageAttributeTheme)
 
 ---
 
-###### :link: [webPageAttributeStory](constructor/webPageAttributeStory)
+###### webPageAttributeStory
 
-  - *Webpage preview of a Telegram story*
+:link: [*Webpage preview of a Telegram story*](constructor/webPageAttributeStory)
 
 ---
 
-###### :link: [webPageAttributeStickerSet](constructor/webPageAttributeStickerSet)
+###### webPageAttributeStickerSet
 
-  - *Contains info about a stickerset », for a webPage preview of a stickerset deep link » (the webPage will have a type of telegram_stickerset)*
+:link: [*Contains info about a stickerset », for a webPage preview of a stickerset deep link » (the webPage will have a type of telegram_stickerset)*](constructor/webPageAttributeStickerSet)
 
 ---
+
+###### webPageAttributeUniqueStarGift
 
-###### :link: [webPageAttributeUniqueStarGift](constructor/webPageAttributeUniqueStarGift)
+:link: [*NOTHING*](constructor/webPageAttributeUniqueStarGift)
 
 ---
 
-###### :link: [webPageAttributeStarGiftCollection](constructor/webPageAttributeStarGiftCollection)
+###### webPageAttributeStarGiftCollection
 
+:link: [*NOTHING*](constructor/webPageAttributeStarGiftCollection)
+
 ---
 
-###### :link: [messages.votesList](constructor/messages.votesList)
+###### messages.votesList
 
-  - *How users voted in a poll*
+:link: [*How users voted in a poll*](constructor/messages.votesList)
 
 ---
 
-###### :link: [bankCardOpenUrl](constructor/bankCardOpenUrl)
+###### bankCardOpenUrl
 
-  - *Credit card info URL provided by the bank*
+:link: [*Credit card info URL provided by the bank*](constructor/bankCardOpenUrl)
 
 ---
 
-###### :link: [payments.bankCardData](constructor/payments.bankCardData)
+###### payments.bankCardData
 
-  - *Credit card info, provided by the card's bank(s)*
+:link: [*Credit card info, provided by the card's bank(s)*](constructor/payments.bankCardData)
 
 ---
 
-###### :link: [dialogFilter](constructor/dialogFilter)
+###### dialogFilter
 
-  - *Dialog filter AKA folder*
+:link: [*Dialog filter AKA folder*](constructor/dialogFilter)
 
 ---
 
-###### :link: [dialogFilterDefault](constructor/dialogFilterDefault)
+###### dialogFilterDefault
 
-  - *Used only when reordering folders to indicate the default (all chats) folder*
+:link: [*Used only when reordering folders to indicate the default (all chats) folder*](constructor/dialogFilterDefault)
 
 ---
 
-###### :link: [dialogFilterChatlist](constructor/dialogFilterChatlist)
+###### dialogFilterChatlist
 
-  - *A folder imported using a chat folder deep link »*
+:link: [*A folder imported using a chat folder deep link »*](constructor/dialogFilterChatlist)
 
 ---
 
-###### :link: [dialogFilterSuggested](constructor/dialogFilterSuggested)
+###### dialogFilterSuggested
 
-  - *Suggested folders*
+:link: [*Suggested folders*](constructor/dialogFilterSuggested)
 
 ---
 
-###### :link: [statsDateRangeDays](constructor/statsDateRangeDays)
+###### statsDateRangeDays
 
-  - *Channel statistics date range*
+:link: [*Channel statistics date range*](constructor/statsDateRangeDays)
 
 ---
 
-###### :link: [statsAbsValueAndPrev](constructor/statsAbsValueAndPrev)
+###### statsAbsValueAndPrev
 
-  - *Statistics value couple; initial and final value for period of time currently in consideration*
+:link: [*Statistics value couple; initial and final value for period of time currently in consideration*](constructor/statsAbsValueAndPrev)
 
 ---
 
-###### :link: [statsPercentValue](constructor/statsPercentValue)
+###### statsPercentValue
 
-  - *Channel statistics percentage.
-Compute the percentage simply by doing part * total / 100*
+:link: [*Channel statistics percentage.
+Compute the percentage simply by doing part * total / 100*](constructor/statsPercentValue)
 
 ---
 
-###### :link: [statsGraphAsync](constructor/statsGraphAsync)
+###### statsGraphAsync
 
-  - *This channel statistics graph must be generated asynchronously using stats.loadAsyncGraph to reduce server load*
+:link: [*This channel statistics graph must be generated asynchronously using stats.loadAsyncGraph to reduce server load*](constructor/statsGraphAsync)
 
 ---
 
-###### :link: [statsGraphError](constructor/statsGraphError)
+###### statsGraphError
 
-  - *An error occurred while generating the statistics graph*
+:link: [*An error occurred while generating the statistics graph*](constructor/statsGraphError)
 
 ---
 
-###### :link: [statsGraph](constructor/statsGraph)
+###### statsGraph
 
-  - *Channel statistics graph*
+:link: [*Channel statistics graph*](constructor/statsGraph)
 
 ---
 
-###### :link: [stats.broadcastStats](constructor/stats.broadcastStats)
+###### stats.broadcastStats
 
-  - *Channel statistics*
+:link: [*Channel statistics*](constructor/stats.broadcastStats)
 
 ---
 
-###### :link: [help.promoDataEmpty](constructor/help.promoDataEmpty)
+###### help.promoDataEmpty
 
-  - *No PSA/MTProxy info is available*
+:link: [*No PSA/MTProxy info is available*](constructor/help.promoDataEmpty)
 
 ---
 
-###### :link: [help.promoData](constructor/help.promoData)
+###### help.promoData
 
-  - *MTProxy/Public Service Announcement information*
+:link: [*MTProxy/Public Service Announcement information*](constructor/help.promoData)
 
 ---
 
-###### :link: [videoSize](constructor/videoSize)
+###### videoSize
 
-  - *An animated profile picture in MPEG4 format*
+:link: [*An animated profile picture in MPEG4 format*](constructor/videoSize)
 
 ---
 
-###### :link: [videoSizeEmojiMarkup](constructor/videoSizeEmojiMarkup)
+###### videoSizeEmojiMarkup
 
-  - *An animated profile picture based on a custom emoji sticker*
+:link: [*An animated profile picture based on a custom emoji sticker*](constructor/videoSizeEmojiMarkup)
 
 ---
 
-###### :link: [videoSizeStickerMarkup](constructor/videoSizeStickerMarkup)
+###### videoSizeStickerMarkup
 
-  - *An animated profile picture based on a sticker*
+:link: [*An animated profile picture based on a sticker*](constructor/videoSizeStickerMarkup)
 
 ---
 
-###### :link: [statsGroupTopPoster](constructor/statsGroupTopPoster)
+###### statsGroupTopPoster
 
-  - *Information about an active user in a supergroup*
+:link: [*Information about an active user in a supergroup*](constructor/statsGroupTopPoster)
 
 ---
 
-###### :link: [statsGroupTopAdmin](constructor/statsGroupTopAdmin)
+###### statsGroupTopAdmin
 
-  - *Information about an active admin in a supergroup*
+:link: [*Information about an active admin in a supergroup*](constructor/statsGroupTopAdmin)
 
 ---
 
-###### :link: [statsGroupTopInviter](constructor/statsGroupTopInviter)
+###### statsGroupTopInviter
 
-  - *Information about an active supergroup inviter*
+:link: [*Information about an active supergroup inviter*](constructor/statsGroupTopInviter)
 
 ---
 
-###### :link: [stats.megagroupStats](constructor/stats.megagroupStats)
+###### stats.megagroupStats
 
-  - *Supergroup statistics*
+:link: [*Supergroup statistics*](constructor/stats.megagroupStats)
 
 ---
 
-###### :link: [globalPrivacySettings](constructor/globalPrivacySettings)
+###### globalPrivacySettings
 
-  - *Global privacy settings*
+:link: [*Global privacy settings*](constructor/globalPrivacySettings)
 
 ---
 
-###### :link: [help.countryCode](constructor/help.countryCode)
+###### help.countryCode
 
-  - *Country code and phone number pattern of a specific country*
+:link: [*Country code and phone number pattern of a specific country*](constructor/help.countryCode)
 
 ---
 
-###### :link: [help.country](constructor/help.country)
+###### help.country
 
-  - *Name, ISO code, localized name and phone codes/patterns of a specific country*
+:link: [*Name, ISO code, localized name and phone codes/patterns of a specific country*](constructor/help.country)
 
 ---
 
-###### :link: [help.countriesListNotModified](constructor/help.countriesListNotModified)
+###### help.countriesListNotModified
 
-  - *The country list has not changed*
+:link: [*The country list has not changed*](constructor/help.countriesListNotModified)
 
 ---
 
-###### :link: [help.countriesList](constructor/help.countriesList)
+###### help.countriesList
 
-  - *Name, ISO code, localized name and phone codes/patterns of all available countries*
+:link: [*Name, ISO code, localized name and phone codes/patterns of all available countries*](constructor/help.countriesList)
 
 ---
 
-###### :link: [messageViews](constructor/messageViews)
+###### messageViews
 
-  - *View, forward counter + info about replies of a specific message*
+:link: [*View, forward counter + info about replies of a specific message*](constructor/messageViews)
 
 ---
 
-###### :link: [messages.messageViews](constructor/messages.messageViews)
+###### messages.messageViews
 
-  - *View, forward counter + info about replies*
+:link: [*View, forward counter + info about replies*](constructor/messages.messageViews)
 
 ---
 
-###### :link: [messages.discussionMessage](constructor/messages.discussionMessage)
+###### messages.discussionMessage
 
-  - *Information about a message thread*
+:link: [*Information about a message thread*](constructor/messages.discussionMessage)
 
 ---
 
-###### :link: [messageReplyHeader](constructor/messageReplyHeader)
+###### messageReplyHeader
 
-  - *Message replies and thread information*
+:link: [*Message replies and thread information*](constructor/messageReplyHeader)
 
 ---
 
-###### :link: [messageReplyStoryHeader](constructor/messageReplyStoryHeader)
+###### messageReplyStoryHeader
 
-  - *Represents a reply to a story*
+:link: [*Represents a reply to a story*](constructor/messageReplyStoryHeader)
 
 ---
 
-###### :link: [messageReplies](constructor/messageReplies)
+###### messageReplies
 
-  - *Info about the comment section of a channel post, or a simple message thread*
+:link: [*Info about the comment section of a channel post, or a simple message thread*](constructor/messageReplies)
 
 ---
 
-###### :link: [peerBlocked](constructor/peerBlocked)
+###### peerBlocked
 
-  - *Information about a blocked peer*
+:link: [*Information about a blocked peer*](constructor/peerBlocked)
 
 ---
 
-###### :link: [stats.messageStats](constructor/stats.messageStats)
+###### stats.messageStats
 
-  - *Message statistics*
+:link: [*Message statistics*](constructor/stats.messageStats)
 
 ---
 
-###### :link: [groupCallDiscarded](constructor/groupCallDiscarded)
+###### groupCallDiscarded
 
-  - *An ended group call*
+:link: [*An ended group call*](constructor/groupCallDiscarded)
 
 ---
 
-###### :link: [groupCall](constructor/groupCall)
+###### groupCall
 
-  - *Info about a group call or livestream*
+:link: [*Info about a group call or livestream*](constructor/groupCall)
 
 ---
 
-###### :link: [inputGroupCall](constructor/inputGroupCall)
+###### inputGroupCall
 
-  - *Points to a specific group call*
+:link: [*Points to a specific group call*](constructor/inputGroupCall)
 
 ---
 
-###### :link: [inputGroupCallSlug](constructor/inputGroupCallSlug)
+###### inputGroupCallSlug
 
+:link: [*NOTHING*](constructor/inputGroupCallSlug)
+
 ---
+
+###### inputGroupCallInviteMessage
 
-###### :link: [inputGroupCallInviteMessage](constructor/inputGroupCallInviteMessage)
+:link: [*NOTHING*](constructor/inputGroupCallInviteMessage)
 
 ---
 
-###### :link: [groupCallParticipant](constructor/groupCallParticipant)
+###### groupCallParticipant
 
-  - *Info about a group call participant*
+:link: [*Info about a group call participant*](constructor/groupCallParticipant)
 
 ---
 
-###### :link: [phone.groupCall](constructor/phone.groupCall)
+###### phone.groupCall
 
-  - *Contains info about a group call, and partial info about its participants*
+:link: [*Contains info about a group call, and partial info about its participants*](constructor/phone.groupCall)
 
 ---
 
-###### :link: [phone.groupParticipants](constructor/phone.groupParticipants)
+###### phone.groupParticipants
 
-  - *Info about the participants of a group call or livestream*
+:link: [*Info about the participants of a group call or livestream*](constructor/phone.groupParticipants)
 
 ---
 
-###### :link: [inlineQueryPeerTypeSameBotPM](constructor/inlineQueryPeerTypeSameBotPM)
+###### inlineQueryPeerTypeSameBotPM
 
-  - *Peer type: private chat with the bot itself*
+:link: [*Peer type: private chat with the bot itself*](constructor/inlineQueryPeerTypeSameBotPM)
 
 ---
 
-###### :link: [inlineQueryPeerTypePM](constructor/inlineQueryPeerTypePM)
+###### inlineQueryPeerTypePM
 
-  - *Peer type: private chat*
+:link: [*Peer type: private chat*](constructor/inlineQueryPeerTypePM)
 
 ---
 
-###### :link: [inlineQueryPeerTypeChat](constructor/inlineQueryPeerTypeChat)
+###### inlineQueryPeerTypeChat
 
-  - *Peer type: chat*
+:link: [*Peer type: chat*](constructor/inlineQueryPeerTypeChat)
 
 ---
 
-###### :link: [inlineQueryPeerTypeMegagroup](constructor/inlineQueryPeerTypeMegagroup)
+###### inlineQueryPeerTypeMegagroup
 
-  - *Peer type: supergroup*
+:link: [*Peer type: supergroup*](constructor/inlineQueryPeerTypeMegagroup)
 
 ---
 
-###### :link: [inlineQueryPeerTypeBroadcast](constructor/inlineQueryPeerTypeBroadcast)
+###### inlineQueryPeerTypeBroadcast
 
-  - *Peer type: channel*
+:link: [*Peer type: channel*](constructor/inlineQueryPeerTypeBroadcast)
 
 ---
 
-###### :link: [inlineQueryPeerTypeBotPM](constructor/inlineQueryPeerTypeBotPM)
+###### inlineQueryPeerTypeBotPM
 
-  - *Peer type: private chat with a bot*
+:link: [*Peer type: private chat with a bot*](constructor/inlineQueryPeerTypeBotPM)
 
 ---
 
-###### :link: [messages.historyImport](constructor/messages.historyImport)
+###### messages.historyImport
 
-  - *ID of a specific chat import session, click here for more info »*
+:link: [*ID of a specific chat import session, click here for more info »*](constructor/messages.historyImport)
 
 ---
 
-###### :link: [messages.historyImportParsed](constructor/messages.historyImportParsed)
+###### messages.historyImportParsed
 
-  - *Contains information about a chat export file generated by a foreign chat app, click here for more info.
-If neither the pm or group flags are set, the specified chat export was generated from a chat of unknown type*
+:link: [*Contains information about a chat export file generated by a foreign chat app, click here for more info.
+If neither the pm or group flags are set, the specified chat export was generated from a chat of unknown type*](constructor/messages.historyImportParsed)
 
 ---
 
-###### :link: [messages.affectedFoundMessages](constructor/messages.affectedFoundMessages)
+###### messages.affectedFoundMessages
 
-  - *Messages found and affected by changes*
+:link: [*Messages found and affected by changes*](constructor/messages.affectedFoundMessages)
 
 ---
 
-###### :link: [chatInviteImporter](constructor/chatInviteImporter)
+###### chatInviteImporter
 
-  - *When and which user joined the chat using a chat invite*
+:link: [*When and which user joined the chat using a chat invite*](constructor/chatInviteImporter)
 
 ---
 
-###### :link: [messages.exportedChatInvites](constructor/messages.exportedChatInvites)
+###### messages.exportedChatInvites
 
-  - *Info about chat invites exported by a certain admin*
+:link: [*Info about chat invites exported by a certain admin*](constructor/messages.exportedChatInvites)
 
 ---
 
-###### :link: [messages.exportedChatInvite](constructor/messages.exportedChatInvite)
+###### messages.exportedChatInvite
 
-  - *Info about a chat invite*
+:link: [*Info about a chat invite*](constructor/messages.exportedChatInvite)
 
 ---
 
-###### :link: [messages.exportedChatInviteReplaced](constructor/messages.exportedChatInviteReplaced)
+###### messages.exportedChatInviteReplaced
 
-  - *The specified chat invite was replaced with another one*
+:link: [*The specified chat invite was replaced with another one*](constructor/messages.exportedChatInviteReplaced)
 
 ---
 
-###### :link: [messages.chatInviteImporters](constructor/messages.chatInviteImporters)
+###### messages.chatInviteImporters
 
-  - *Info about the users that joined the chat using a specific chat invite*
+:link: [*Info about the users that joined the chat using a specific chat invite*](constructor/messages.chatInviteImporters)
 
 ---
 
-###### :link: [chatAdminWithInvites](constructor/chatAdminWithInvites)
+###### chatAdminWithInvites
 
-  - *Info about chat invites generated by admins*
+:link: [*Info about chat invites generated by admins*](constructor/chatAdminWithInvites)
 
 ---
 
-###### :link: [messages.chatAdminsWithInvites](constructor/messages.chatAdminsWithInvites)
+###### messages.chatAdminsWithInvites
 
-  - *Info about chat invites generated by admins*
+:link: [*Info about chat invites generated by admins*](constructor/messages.chatAdminsWithInvites)
 
 ---
 
-###### :link: [messages.checkedHistoryImportPeer](constructor/messages.checkedHistoryImportPeer)
+###### messages.checkedHistoryImportPeer
 
-  - *Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info »*
+:link: [*Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info »*](constructor/messages.checkedHistoryImportPeer)
 
 ---
 
-###### :link: [phone.joinAsPeers](constructor/phone.joinAsPeers)
+###### phone.joinAsPeers
 
-  - *A list of peers that can be used to join a group call, presenting yourself as a specific user/channel*
+:link: [*A list of peers that can be used to join a group call, presenting yourself as a specific user/channel*](constructor/phone.joinAsPeers)
 
 ---
 
-###### :link: [phone.exportedGroupCallInvite](constructor/phone.exportedGroupCallInvite)
+###### phone.exportedGroupCallInvite
 
-  - *An invite to a group call or livestream*
+:link: [*An invite to a group call or livestream*](constructor/phone.exportedGroupCallInvite)
 
 ---
 
-###### :link: [groupCallParticipantVideoSourceGroup](constructor/groupCallParticipantVideoSourceGroup)
+###### groupCallParticipantVideoSourceGroup
 
-  - *Describes a group of video synchronization source identifiers*
+:link: [*Describes a group of video synchronization source identifiers*](constructor/groupCallParticipantVideoSourceGroup)
 
 ---
 
-###### :link: [groupCallParticipantVideo](constructor/groupCallParticipantVideo)
+###### groupCallParticipantVideo
 
-  - *Info about a video stream*
+:link: [*Info about a video stream*](constructor/groupCallParticipantVideo)
 
 ---
 
-###### :link: [stickers.suggestedShortName](constructor/stickers.suggestedShortName)
+###### stickers.suggestedShortName
 
-  - *A suggested short name for a stickerpack*
+:link: [*A suggested short name for a stickerpack*](constructor/stickers.suggestedShortName)
 
 ---
 
-###### :link: [botCommandScopeDefault](constructor/botCommandScopeDefault)
+###### botCommandScopeDefault
 
-  - *The commands will be valid in all dialogs*
+:link: [*The commands will be valid in all dialogs*](constructor/botCommandScopeDefault)
 
 ---
 
-###### :link: [botCommandScopeUsers](constructor/botCommandScopeUsers)
+###### botCommandScopeUsers
 
-  - *The specified bot commands will only be valid in all private chats with users*
+:link: [*The specified bot commands will only be valid in all private chats with users*](constructor/botCommandScopeUsers)
 
 ---
 
-###### :link: [botCommandScopeChats](constructor/botCommandScopeChats)
+###### botCommandScopeChats
 
-  - *The specified bot commands will be valid in all groups and supergroups*
+:link: [*The specified bot commands will be valid in all groups and supergroups*](constructor/botCommandScopeChats)
 
 ---
 
-###### :link: [botCommandScopeChatAdmins](constructor/botCommandScopeChatAdmins)
+###### botCommandScopeChatAdmins
 
-  - *The specified bot commands will be valid only for chat administrators, in all groups and supergroups*
+:link: [*The specified bot commands will be valid only for chat administrators, in all groups and supergroups*](constructor/botCommandScopeChatAdmins)
 
 ---
 
-###### :link: [botCommandScopePeer](constructor/botCommandScopePeer)
+###### botCommandScopePeer
 
-  - *The specified bot commands will be valid only in a specific dialog*
+:link: [*The specified bot commands will be valid only in a specific dialog*](constructor/botCommandScopePeer)
 
 ---
 
-###### :link: [botCommandScopePeerAdmins](constructor/botCommandScopePeerAdmins)
+###### botCommandScopePeerAdmins
 
-  - *The specified bot commands will be valid for all admins of the specified group or supergroup*
+:link: [*The specified bot commands will be valid for all admins of the specified group or supergroup*](constructor/botCommandScopePeerAdmins)
 
 ---
 
-###### :link: [botCommandScopePeerUser](constructor/botCommandScopePeerUser)
+###### botCommandScopePeerUser
 
-  - *The specified bot commands will be valid only for a specific user in the specified group or supergroup*
+:link: [*The specified bot commands will be valid only for a specific user in the specified group or supergroup*](constructor/botCommandScopePeerUser)
 
 ---
 
-###### :link: [account.resetPasswordFailedWait](constructor/account.resetPasswordFailedWait)
+###### account.resetPasswordFailedWait
 
-  - *You recently requested a password reset that was canceled, please wait until the specified date before requesting another reset*
+:link: [*You recently requested a password reset that was canceled, please wait until the specified date before requesting another reset*](constructor/account.resetPasswordFailedWait)
 
 ---
 
-###### :link: [account.resetPasswordRequestedWait](constructor/account.resetPasswordRequestedWait)
+###### account.resetPasswordRequestedWait
 
-  - *You successfully requested a password reset, please wait until the specified date before finalizing the reset*
+:link: [*You successfully requested a password reset, please wait until the specified date before finalizing the reset*](constructor/account.resetPasswordRequestedWait)
 
 ---
 
-###### :link: [account.resetPasswordOk](constructor/account.resetPasswordOk)
+###### account.resetPasswordOk
 
-  - *The 2FA password was reset successfully*
+:link: [*The 2FA password was reset successfully*](constructor/account.resetPasswordOk)
 
 ---
 
-###### :link: [sponsoredMessage](constructor/sponsoredMessage)
+###### sponsoredMessage
 
-  - *A sponsored message*
+:link: [*A sponsored message*](constructor/sponsoredMessage)
 
 ---
 
-###### :link: [messages.sponsoredMessages](constructor/messages.sponsoredMessages)
+###### messages.sponsoredMessages
 
-  - *A set of sponsored messages associated to a channel*
+:link: [*A set of sponsored messages associated to a channel*](constructor/messages.sponsoredMessages)
 
 ---
 
-###### :link: [messages.sponsoredMessagesEmpty](constructor/messages.sponsoredMessagesEmpty)
+###### messages.sponsoredMessagesEmpty
 
-  - *No sponsored messages are available*
+:link: [*No sponsored messages are available*](constructor/messages.sponsoredMessagesEmpty)
 
 ---
 
-###### :link: [searchResultsCalendarPeriod](constructor/searchResultsCalendarPeriod)
+###### searchResultsCalendarPeriod
 
-  - *Information about found messages sent on a specific day, used to split the messages in messages.searchResultsCalendar constructors by days*
+:link: [*Information about found messages sent on a specific day, used to split the messages in messages.searchResultsCalendar constructors by days*](constructor/searchResultsCalendarPeriod)
 
 ---
 
-###### :link: [messages.searchResultsCalendar](constructor/messages.searchResultsCalendar)
+###### messages.searchResultsCalendar
 
-  - *Information about found messages sent on a specific day*
+:link: [*Information about found messages sent on a specific day*](constructor/messages.searchResultsCalendar)
 
 ---
 
-###### :link: [searchResultPosition](constructor/searchResultPosition)
+###### searchResultPosition
 
-  - *Information about a message in a specific position*
+:link: [*Information about a message in a specific position*](constructor/searchResultPosition)
 
 ---
 
-###### :link: [messages.searchResultsPositions](constructor/messages.searchResultsPositions)
+###### messages.searchResultsPositions
 
-  - *Information about sparse positions of messages*
+:link: [*Information about sparse positions of messages*](constructor/messages.searchResultsPositions)
 
 ---
 
-###### :link: [channels.sendAsPeers](constructor/channels.sendAsPeers)
+###### channels.sendAsPeers
 
-  - *A list of peers that can be used to send messages in a specific group*
+:link: [*A list of peers that can be used to send messages in a specific group*](constructor/channels.sendAsPeers)
 
 ---
 
-###### :link: [users.userFull](constructor/users.userFull)
+###### users.userFull
 
-  - *Full user information*
+:link: [*Full user information*](constructor/users.userFull)
 
 ---
 
-###### :link: [messages.peerSettings](constructor/messages.peerSettings)
+###### messages.peerSettings
 
-  - *Peer settings*
+:link: [*Peer settings*](constructor/messages.peerSettings)
 
 ---
 
-###### :link: [auth.loggedOut](constructor/auth.loggedOut)
+###### auth.loggedOut
 
-  - *Future auth token » to be used on subsequent authorizations*
+:link: [*Future auth token » to be used on subsequent authorizations*](constructor/auth.loggedOut)
 
 ---
 
-###### :link: [reactionCount](constructor/reactionCount)
+###### reactionCount
 
-  - *Reactions*
+:link: [*Reactions*](constructor/reactionCount)
 
 ---
 
-###### :link: [messageReactions](constructor/messageReactions)
+###### messageReactions
 
-  - *Message reactions »*
+:link: [*Message reactions »*](constructor/messageReactions)
 
 ---
 
-###### :link: [messages.messageReactionsList](constructor/messages.messageReactionsList)
+###### messages.messageReactionsList
 
-  - *List of peers that reacted to a specific message*
+:link: [*List of peers that reacted to a specific message*](constructor/messages.messageReactionsList)
 
 ---
 
-###### :link: [availableReaction](constructor/availableReaction)
+###### availableReaction
 
-  - *Animations associated with a message reaction*
+:link: [*Animations associated with a message reaction*](constructor/availableReaction)
 
 ---
 
-###### :link: [messages.availableReactionsNotModified](constructor/messages.availableReactionsNotModified)
+###### messages.availableReactionsNotModified
 
-  - *No new reactions are available*
+:link: [*No new reactions are available*](constructor/messages.availableReactionsNotModified)
 
 ---
 
-###### :link: [messages.availableReactions](constructor/messages.availableReactions)
+###### messages.availableReactions
 
-  - *Animations and metadata associated with message reactions »*
+:link: [*Animations and metadata associated with message reactions »*](constructor/messages.availableReactions)
 
 ---
 
-###### :link: [messagePeerReaction](constructor/messagePeerReaction)
+###### messagePeerReaction
 
-  - *How a certain peer reacted to the message*
+:link: [*How a certain peer reacted to the message*](constructor/messagePeerReaction)
 
 ---
 
-###### :link: [groupCallStreamChannel](constructor/groupCallStreamChannel)
+###### groupCallStreamChannel
 
-  - *Info about an RTMP stream in a group call or livestream*
+:link: [*Info about an RTMP stream in a group call or livestream*](constructor/groupCallStreamChannel)
 
 ---
 
-###### :link: [phone.groupCallStreamChannels](constructor/phone.groupCallStreamChannels)
+###### phone.groupCallStreamChannels
 
-  - *Info about RTMP streams in a group call or livestream*
+:link: [*Info about RTMP streams in a group call or livestream*](constructor/phone.groupCallStreamChannels)
 
 ---
 
-###### :link: [phone.groupCallStreamRtmpUrl](constructor/phone.groupCallStreamRtmpUrl)
+###### phone.groupCallStreamRtmpUrl
 
-  - *RTMP URL and stream key to be used in streaming software*
+:link: [*RTMP URL and stream key to be used in streaming software*](constructor/phone.groupCallStreamRtmpUrl)
 
 ---
 
-###### :link: [attachMenuBotIconColor](constructor/attachMenuBotIconColor)
+###### attachMenuBotIconColor
 
-  - *Represents an attachment menu icon color for bot mini apps »*
+:link: [*Represents an attachment menu icon color for bot mini apps »*](constructor/attachMenuBotIconColor)
 
 ---
 
-###### :link: [attachMenuBotIcon](constructor/attachMenuBotIcon)
+###### attachMenuBotIcon
 
-  - *Represents an attachment menu icon for bot mini apps »*
+:link: [*Represents an attachment menu icon for bot mini apps »*](constructor/attachMenuBotIcon)
 
 ---
 
-###### :link: [attachMenuBot](constructor/attachMenuBot)
+###### attachMenuBot
 
-  - *Represents a bot mini app that can be launched from the attachment/side menu »*
+:link: [*Represents a bot mini app that can be launched from the attachment/side menu »*](constructor/attachMenuBot)
 
 ---
 
-###### :link: [attachMenuBotsNotModified](constructor/attachMenuBotsNotModified)
+###### attachMenuBotsNotModified
 
-  - *The list of bot mini apps hasn't changed*
+:link: [*The list of bot mini apps hasn't changed*](constructor/attachMenuBotsNotModified)
 
 ---
 
-###### :link: [attachMenuBots](constructor/attachMenuBots)
+###### attachMenuBots
 
-  - *Represents a list of bot mini apps that can be launched from the attachment menu »*
+:link: [*Represents a list of bot mini apps that can be launched from the attachment menu »*](constructor/attachMenuBots)
 
 ---
 
-###### :link: [attachMenuBotsBot](constructor/attachMenuBotsBot)
+###### attachMenuBotsBot
 
-  - *Represents a bot mini app that can be launched from the attachment menu »*
+:link: [*Represents a bot mini app that can be launched from the attachment menu »*](constructor/attachMenuBotsBot)
 
 ---
 
-###### :link: [webViewResultUrl](constructor/webViewResultUrl)
+###### webViewResultUrl
 
-  - *Contains the webview URL with appropriate theme and user info parameters added*
+:link: [*Contains the webview URL with appropriate theme and user info parameters added*](constructor/webViewResultUrl)
 
 ---
 
-###### :link: [webViewMessageSent](constructor/webViewMessageSent)
+###### webViewMessageSent
 
-  - *Info about a sent inline webview message*
+:link: [*Info about a sent inline webview message*](constructor/webViewMessageSent)
 
 ---
 
-###### :link: [botMenuButtonDefault](constructor/botMenuButtonDefault)
+###### botMenuButtonDefault
 
-  - *Placeholder bot menu button never returned to users: see the docs for more info*
+:link: [*Placeholder bot menu button never returned to users: see the docs for more info*](constructor/botMenuButtonDefault)
 
 ---
 
-###### :link: [botMenuButtonCommands](constructor/botMenuButtonCommands)
+###### botMenuButtonCommands
 
-  - *Bot menu button that opens the bot command list when clicked*
+:link: [*Bot menu button that opens the bot command list when clicked*](constructor/botMenuButtonCommands)
 
 ---
 
-###### :link: [botMenuButton](constructor/botMenuButton)
+###### botMenuButton
 
-  - *Bot menu button that opens a web app when clicked*
+:link: [*Bot menu button that opens a web app when clicked*](constructor/botMenuButton)
 
 ---
 
-###### :link: [account.savedRingtonesNotModified](constructor/account.savedRingtonesNotModified)
+###### account.savedRingtonesNotModified
 
-  - *The notification sound list hasn't changed*
+:link: [*The notification sound list hasn't changed*](constructor/account.savedRingtonesNotModified)
 
 ---
 
-###### :link: [account.savedRingtones](constructor/account.savedRingtones)
+###### account.savedRingtones
 
-  - *A list of saved notification sounds*
+:link: [*A list of saved notification sounds*](constructor/account.savedRingtones)
 
 ---
 
-###### :link: [notificationSoundDefault](constructor/notificationSoundDefault)
+###### notificationSoundDefault
 
-  - *Indicates the default notification sound should be used*
+:link: [*Indicates the default notification sound should be used*](constructor/notificationSoundDefault)
 
 ---
 
-###### :link: [notificationSoundNone](constructor/notificationSoundNone)
+###### notificationSoundNone
 
-  - *No notification sound should be used*
+:link: [*No notification sound should be used*](constructor/notificationSoundNone)
 
 ---
 
-###### :link: [notificationSoundLocal](constructor/notificationSoundLocal)
+###### notificationSoundLocal
 
-  - *Indicates a specific local notification sound should be used*
+:link: [*Indicates a specific local notification sound should be used*](constructor/notificationSoundLocal)
 
 ---
 
-###### :link: [notificationSoundRingtone](constructor/notificationSoundRingtone)
+###### notificationSoundRingtone
 
-  - *A specific previously uploaded notification sound should be used*
+:link: [*A specific previously uploaded notification sound should be used*](constructor/notificationSoundRingtone)
 
 ---
 
-###### :link: [account.savedRingtone](constructor/account.savedRingtone)
+###### account.savedRingtone
 
-  - *The notification sound was already in MP3 format and was saved without any modification*
+:link: [*The notification sound was already in MP3 format and was saved without any modification*](constructor/account.savedRingtone)
 
 ---
 
-###### :link: [account.savedRingtoneConverted](constructor/account.savedRingtoneConverted)
+###### account.savedRingtoneConverted
 
-  - *The notification sound was not in MP3 format and was successfully converted and saved, use the returned Document to refer to the notification sound from now on*
+:link: [*The notification sound was not in MP3 format and was successfully converted and saved, use the returned Document to refer to the notification sound from now on*](constructor/account.savedRingtoneConverted)
 
 ---
 
-###### :link: [attachMenuPeerTypeSameBotPM](constructor/attachMenuPeerTypeSameBotPM)
+###### attachMenuPeerTypeSameBotPM
 
-  - *The bot attachment menu entry is available in the chat with the bot that offers it*
+:link: [*The bot attachment menu entry is available in the chat with the bot that offers it*](constructor/attachMenuPeerTypeSameBotPM)
 
 ---
 
-###### :link: [attachMenuPeerTypeBotPM](constructor/attachMenuPeerTypeBotPM)
+###### attachMenuPeerTypeBotPM
 
-  - *The bot attachment menu entry is available in private chats with other bots (excluding the bot that offers the current attachment menu)*
+:link: [*The bot attachment menu entry is available in private chats with other bots (excluding the bot that offers the current attachment menu)*](constructor/attachMenuPeerTypeBotPM)
 
 ---
 
-###### :link: [attachMenuPeerTypePM](constructor/attachMenuPeerTypePM)
+###### attachMenuPeerTypePM
 
-  - *The bot attachment menu entry is available in private chats with other users (not bots)*
+:link: [*The bot attachment menu entry is available in private chats with other users (not bots)*](constructor/attachMenuPeerTypePM)
 
 ---
 
-###### :link: [attachMenuPeerTypeChat](constructor/attachMenuPeerTypeChat)
+###### attachMenuPeerTypeChat
 
-  - *The bot attachment menu entry is available in groups and supergroups*
+:link: [*The bot attachment menu entry is available in groups and supergroups*](constructor/attachMenuPeerTypeChat)
 
 ---
 
-###### :link: [attachMenuPeerTypeBroadcast](constructor/attachMenuPeerTypeBroadcast)
+###### attachMenuPeerTypeBroadcast
 
-  - *The bot attachment menu entry is available in channels*
+:link: [*The bot attachment menu entry is available in channels*](constructor/attachMenuPeerTypeBroadcast)
 
 ---
 
-###### :link: [inputInvoiceMessage](constructor/inputInvoiceMessage)
+###### inputInvoiceMessage
 
-  - *An invoice contained in a messageMediaInvoice message or paid media »*
+:link: [*An invoice contained in a messageMediaInvoice message or paid media »*](constructor/inputInvoiceMessage)
 
 ---
 
-###### :link: [inputInvoiceSlug](constructor/inputInvoiceSlug)
+###### inputInvoiceSlug
 
-  - *An invoice slug taken from an invoice deep link or from the premium_invoice_slug app config parameter »*
+:link: [*An invoice slug taken from an invoice deep link or from the premium_invoice_slug app config parameter »*](constructor/inputInvoiceSlug)
 
 ---
 
-###### :link: [inputInvoicePremiumGiftCode](constructor/inputInvoicePremiumGiftCode)
+###### inputInvoicePremiumGiftCode
 
-  - *Used if the user wishes to start a channel/supergroup giveaway or send some giftcodes to members of a channel/supergroup, in exchange for boosts*
+:link: [*Used if the user wishes to start a channel/supergroup giveaway or send some giftcodes to members of a channel/supergroup, in exchange for boosts*](constructor/inputInvoicePremiumGiftCode)
 
 ---
 
-###### :link: [inputInvoiceStars](constructor/inputInvoiceStars)
+###### inputInvoiceStars
 
-  - *Used to top up the Telegram Stars balance of the current account or someone else's account, or to start a Telegram Star giveaway »*
+:link: [*Used to top up the Telegram Stars balance of the current account or someone else's account, or to start a Telegram Star giveaway »*](constructor/inputInvoiceStars)
 
 ---
 
-###### :link: [inputInvoiceChatInviteSubscription](constructor/inputInvoiceChatInviteSubscription)
+###### inputInvoiceChatInviteSubscription
 
-  - *Used to pay for a Telegram Star subscription »*
+:link: [*Used to pay for a Telegram Star subscription »*](constructor/inputInvoiceChatInviteSubscription)
 
 ---
 
-###### :link: [inputInvoiceStarGift](constructor/inputInvoiceStarGift)
+###### inputInvoiceStarGift
 
-  - *Used to buy a Telegram Star Gift, see here » for more info*
+:link: [*Used to buy a Telegram Star Gift, see here » for more info*](constructor/inputInvoiceStarGift)
 
 ---
 
-###### :link: [inputInvoiceStarGiftUpgrade](constructor/inputInvoiceStarGiftUpgrade)
+###### inputInvoiceStarGiftUpgrade
 
+:link: [*NOTHING*](constructor/inputInvoiceStarGiftUpgrade)
+
 ---
 
-###### :link: [inputInvoiceStarGiftTransfer](constructor/inputInvoiceStarGiftTransfer)
+###### inputInvoiceStarGiftTransfer
 
+:link: [*NOTHING*](constructor/inputInvoiceStarGiftTransfer)
+
 ---
+
+###### inputInvoicePremiumGiftStars
 
-###### :link: [inputInvoicePremiumGiftStars](constructor/inputInvoicePremiumGiftStars)
+:link: [*NOTHING*](constructor/inputInvoicePremiumGiftStars)
 
 ---
 
-###### :link: [inputInvoiceBusinessBotTransferStars](constructor/inputInvoiceBusinessBotTransferStars)
+###### inputInvoiceBusinessBotTransferStars
 
+:link: [*NOTHING*](constructor/inputInvoiceBusinessBotTransferStars)
+
 ---
 
-###### :link: [inputInvoiceStarGiftResale](constructor/inputInvoiceStarGiftResale)
+###### inputInvoiceStarGiftResale
 
+:link: [*NOTHING*](constructor/inputInvoiceStarGiftResale)
+
 ---
 
-###### :link: [payments.exportedInvoice](constructor/payments.exportedInvoice)
+###### payments.exportedInvoice
 
-  - *Exported invoice deep link*
+:link: [*Exported invoice deep link*](constructor/payments.exportedInvoice)
 
 ---
 
-###### :link: [messages.transcribedAudio](constructor/messages.transcribedAudio)
+###### messages.transcribedAudio
 
-  - *Transcribed text from a voice message »*
+:link: [*Transcribed text from a voice message »*](constructor/messages.transcribedAudio)
 
 ---
 
-###### :link: [help.premiumPromo](constructor/help.premiumPromo)
+###### help.premiumPromo
 
-  - *Telegram Premium promotion information*
+:link: [*Telegram Premium promotion information*](constructor/help.premiumPromo)
 
 ---
 
-###### :link: [inputStorePaymentPremiumSubscription](constructor/inputStorePaymentPremiumSubscription)
+###### inputStorePaymentPremiumSubscription
 
-  - *Info about a Telegram Premium purchase*
+:link: [*Info about a Telegram Premium purchase*](constructor/inputStorePaymentPremiumSubscription)
 
 ---
 
-###### :link: [inputStorePaymentGiftPremium](constructor/inputStorePaymentGiftPremium)
+###### inputStorePaymentGiftPremium
 
-  - *Info about a gifted Telegram Premium purchase*
+:link: [*Info about a gifted Telegram Premium purchase*](constructor/inputStorePaymentGiftPremium)
 
 ---
 
-###### :link: [inputStorePaymentPremiumGiftCode](constructor/inputStorePaymentPremiumGiftCode)
+###### inputStorePaymentPremiumGiftCode
 
-  - *Used to gift Telegram Premium subscriptions only to some specific subscribers of a channel/supergroup or to some of our contacts, see here » for more info on giveaways and gifts*
+:link: [*Used to gift Telegram Premium subscriptions only to some specific subscribers of a channel/supergroup or to some of our contacts, see here » for more info on giveaways and gifts*](constructor/inputStorePaymentPremiumGiftCode)
 
 ---
 
-###### :link: [inputStorePaymentPremiumGiveaway](constructor/inputStorePaymentPremiumGiveaway)
+###### inputStorePaymentPremiumGiveaway
 
-  - *Used to pay for a giveaway, see here » for more info*
+:link: [*Used to pay for a giveaway, see here » for more info*](constructor/inputStorePaymentPremiumGiveaway)
 
 ---
 
-###### :link: [inputStorePaymentStarsTopup](constructor/inputStorePaymentStarsTopup)
+###### inputStorePaymentStarsTopup
 
-  - *Used to top up the Telegram Stars balance of the current account*
+:link: [*Used to top up the Telegram Stars balance of the current account*](constructor/inputStorePaymentStarsTopup)
 
 ---
 
-###### :link: [inputStorePaymentStarsGift](constructor/inputStorePaymentStarsGift)
+###### inputStorePaymentStarsGift
 
-  - *Used to gift Telegram Stars to a friend*
+:link: [*Used to gift Telegram Stars to a friend*](constructor/inputStorePaymentStarsGift)
 
 ---
 
-###### :link: [inputStorePaymentStarsGiveaway](constructor/inputStorePaymentStarsGiveaway)
+###### inputStorePaymentStarsGiveaway
 
-  - *Used to pay for a star giveaway, see here » for more info*
+:link: [*Used to pay for a star giveaway, see here » for more info*](constructor/inputStorePaymentStarsGiveaway)
 
 ---
+
+###### inputStorePaymentAuthCode
 
-###### :link: [inputStorePaymentAuthCode](constructor/inputStorePaymentAuthCode)
+:link: [*NOTHING*](constructor/inputStorePaymentAuthCode)
 
 ---
 
-###### :link: [paymentFormMethod](constructor/paymentFormMethod)
+###### paymentFormMethod
 
-  - *Represents an additional payment method*
+:link: [*Represents an additional payment method*](constructor/paymentFormMethod)
 
 ---
 
-###### :link: [emojiStatusEmpty](constructor/emojiStatusEmpty)
+###### emojiStatusEmpty
 
-  - *No emoji status is set*
+:link: [*No emoji status is set*](constructor/emojiStatusEmpty)
 
 ---
 
-###### :link: [emojiStatus](constructor/emojiStatus)
+###### emojiStatus
 
-  - *An emoji status*
+:link: [*An emoji status*](constructor/emojiStatus)
 
 ---
 
-###### :link: [emojiStatusCollectible](constructor/emojiStatusCollectible)
+###### emojiStatusCollectible
 
+:link: [*NOTHING*](constructor/emojiStatusCollectible)
+
 ---
+
+###### inputEmojiStatusCollectible
 
-###### :link: [inputEmojiStatusCollectible](constructor/inputEmojiStatusCollectible)
+:link: [*NOTHING*](constructor/inputEmojiStatusCollectible)
 
 ---
 
-###### :link: [account.emojiStatusesNotModified](constructor/account.emojiStatusesNotModified)
+###### account.emojiStatusesNotModified
 
-  - *The server-side list of emoji statuses hasn't changed*
+:link: [*The server-side list of emoji statuses hasn't changed*](constructor/account.emojiStatusesNotModified)
 
 ---
 
-###### :link: [account.emojiStatuses](constructor/account.emojiStatuses)
+###### account.emojiStatuses
 
-  - *A list of emoji statuses*
+:link: [*A list of emoji statuses*](constructor/account.emojiStatuses)
 
 ---
 
-###### :link: [reactionEmpty](constructor/reactionEmpty)
+###### reactionEmpty
 
-  - *No reaction*
+:link: [*No reaction*](constructor/reactionEmpty)
 
 ---
 
-###### :link: [reactionEmoji](constructor/reactionEmoji)
+###### reactionEmoji
 
-  - *Normal emoji message reaction*
+:link: [*Normal emoji message reaction*](constructor/reactionEmoji)
 
 ---
 
-###### :link: [reactionCustomEmoji](constructor/reactionCustomEmoji)
+###### reactionCustomEmoji
 
-  - *Custom emoji message reaction*
+:link: [*Custom emoji message reaction*](constructor/reactionCustomEmoji)
 
 ---
 
-###### :link: [reactionPaid](constructor/reactionPaid)
+###### reactionPaid
 
-  - *Represents a paid Telegram Star reaction »*
+:link: [*Represents a paid Telegram Star reaction »*](constructor/reactionPaid)
 
 ---
 
-###### :link: [chatReactionsNone](constructor/chatReactionsNone)
+###### chatReactionsNone
 
-  - *No reactions are allowed*
+:link: [*No reactions are allowed*](constructor/chatReactionsNone)
 
 ---
 
-###### :link: [chatReactionsAll](constructor/chatReactionsAll)
+###### chatReactionsAll
 
-  - *All reactions or all non-custom reactions are allowed*
+:link: [*All reactions or all non-custom reactions are allowed*](constructor/chatReactionsAll)
 
 ---
 
-###### :link: [chatReactionsSome](constructor/chatReactionsSome)
+###### chatReactionsSome
 
-  - *Some reactions are allowed*
+:link: [*Some reactions are allowed*](constructor/chatReactionsSome)
 
 ---
 
-###### :link: [messages.reactionsNotModified](constructor/messages.reactionsNotModified)
+###### messages.reactionsNotModified
 
-  - *The server-side list of message reactions hasn't changed*
+:link: [*The server-side list of message reactions hasn't changed*](constructor/messages.reactionsNotModified)
 
 ---
 
-###### :link: [messages.reactions](constructor/messages.reactions)
+###### messages.reactions
 
-  - *List of message reactions*
+:link: [*List of message reactions*](constructor/messages.reactions)
 
 ---
 
-###### :link: [emailVerifyPurposeLoginSetup](constructor/emailVerifyPurposeLoginSetup)
+###### emailVerifyPurposeLoginSetup
 
-  - *Email verification purpose: setup login email*
+:link: [*Email verification purpose: setup login email*](constructor/emailVerifyPurposeLoginSetup)
 
 ---
 
-###### :link: [emailVerifyPurposeLoginChange](constructor/emailVerifyPurposeLoginChange)
+###### emailVerifyPurposeLoginChange
 
-  - *Email verification purpose: change login email*
+:link: [*Email verification purpose: change login email*](constructor/emailVerifyPurposeLoginChange)
 
 ---
 
-###### :link: [emailVerifyPurposePassport](constructor/emailVerifyPurposePassport)
+###### emailVerifyPurposePassport
 
-  - *Verify an email for use in telegram passport*
+:link: [*Verify an email for use in telegram passport*](constructor/emailVerifyPurposePassport)
 
 ---
 
-###### :link: [emailVerificationCode](constructor/emailVerificationCode)
+###### emailVerificationCode
 
-  - *Email verification code*
+:link: [*Email verification code*](constructor/emailVerificationCode)
 
 ---
 
-###### :link: [emailVerificationGoogle](constructor/emailVerificationGoogle)
+###### emailVerificationGoogle
 
-  - *Google ID email verification token*
+:link: [*Google ID email verification token*](constructor/emailVerificationGoogle)
 
 ---
 
-###### :link: [emailVerificationApple](constructor/emailVerificationApple)
+###### emailVerificationApple
 
-  - *Apple ID email verification token*
+:link: [*Apple ID email verification token*](constructor/emailVerificationApple)
 
 ---
 
-###### :link: [account.emailVerified](constructor/account.emailVerified)
+###### account.emailVerified
 
-  - *The email was verified correctly*
+:link: [*The email was verified correctly*](constructor/account.emailVerified)
 
 ---
 
-###### :link: [account.emailVerifiedLogin](constructor/account.emailVerifiedLogin)
+###### account.emailVerifiedLogin
 
-  - *The email was verified correctly, and a login code was just sent to it*
+:link: [*The email was verified correctly, and a login code was just sent to it*](constructor/account.emailVerifiedLogin)
 
 ---
 
-###### :link: [premiumSubscriptionOption](constructor/premiumSubscriptionOption)
+###### premiumSubscriptionOption
 
-  - *Describes a Telegram Premium subscription option*
+:link: [*Describes a Telegram Premium subscription option*](constructor/premiumSubscriptionOption)
 
 ---
 
-###### :link: [sendAsPeer](constructor/sendAsPeer)
+###### sendAsPeer
 
-  - *Indicates a peer that can be used to send messages*
+:link: [*Indicates a peer that can be used to send messages*](constructor/sendAsPeer)
 
 ---
 
-###### :link: [messageExtendedMediaPreview](constructor/messageExtendedMediaPreview)
+###### messageExtendedMediaPreview
 
-  - *Paid media preview for not yet purchased paid media, see here » for more info*
+:link: [*Paid media preview for not yet purchased paid media, see here » for more info*](constructor/messageExtendedMediaPreview)
 
 ---
 
-###### :link: [messageExtendedMedia](constructor/messageExtendedMedia)
+###### messageExtendedMedia
 
-  - *Already purchased paid media, see here » for more info*
+:link: [*Already purchased paid media, see here » for more info*](constructor/messageExtendedMedia)
 
 ---
 
-###### :link: [stickerKeyword](constructor/stickerKeyword)
+###### stickerKeyword
 
-  - *Keywords for a certain sticker*
+:link: [*Keywords for a certain sticker*](constructor/stickerKeyword)
 
 ---
 
-###### :link: [username](constructor/username)
+###### username
 
-  - *Contains information about a username*
+:link: [*Contains information about a username*](constructor/username)
 
 ---
 
-###### :link: [forumTopicDeleted](constructor/forumTopicDeleted)
+###### forumTopicDeleted
 
-  - *Represents a deleted forum topic*
+:link: [*Represents a deleted forum topic*](constructor/forumTopicDeleted)
 
 ---
 
-###### :link: [forumTopic](constructor/forumTopic)
+###### forumTopic
 
-  - *Represents a forum topic*
+:link: [*Represents a forum topic*](constructor/forumTopic)
 
 ---
 
-###### :link: [messages.forumTopics](constructor/messages.forumTopics)
+###### messages.forumTopics
 
-  - *Contains information about multiple forum topics*
+:link: [*Contains information about multiple forum topics*](constructor/messages.forumTopics)
 
 ---
 
-###### :link: [defaultHistoryTTL](constructor/defaultHistoryTTL)
+###### defaultHistoryTTL
 
-  - *Contains info about the default value of the Time-To-Live setting, applied to all new chats*
+:link: [*Contains info about the default value of the Time-To-Live setting, applied to all new chats*](constructor/defaultHistoryTTL)
 
 ---
 
-###### :link: [exportedContactToken](constructor/exportedContactToken)
+###### exportedContactToken
 
-  - *Describes a temporary profile link*
+:link: [*Describes a temporary profile link*](constructor/exportedContactToken)
 
 ---
 
-###### :link: [requestPeerTypeUser](constructor/requestPeerTypeUser)
+###### requestPeerTypeUser
 
-  - *Choose a user*
+:link: [*Choose a user*](constructor/requestPeerTypeUser)
 
 ---
 
-###### :link: [requestPeerTypeChat](constructor/requestPeerTypeChat)
+###### requestPeerTypeChat
 
-  - *Choose a chat or supergroup*
+:link: [*Choose a chat or supergroup*](constructor/requestPeerTypeChat)
 
 ---
 
-###### :link: [requestPeerTypeBroadcast](constructor/requestPeerTypeBroadcast)
+###### requestPeerTypeBroadcast
 
-  - *Choose a channel*
+:link: [*Choose a channel*](constructor/requestPeerTypeBroadcast)
 
 ---
 
-###### :link: [emojiListNotModified](constructor/emojiListNotModified)
+###### emojiListNotModified
 
-  - *The list of custom emojis hasn't changed*
+:link: [*The list of custom emojis hasn't changed*](constructor/emojiListNotModified)
 
 ---
 
-###### :link: [emojiList](constructor/emojiList)
+###### emojiList
 
-  - *Represents a list of custom emojis*
+:link: [*Represents a list of custom emojis*](constructor/emojiList)
 
 ---
 
-###### :link: [emojiGroup](constructor/emojiGroup)
+###### emojiGroup
 
-  - *Represents an emoji category*
+:link: [*Represents an emoji category*](constructor/emojiGroup)
 
 ---
 
-###### :link: [emojiGroupGreeting](constructor/emojiGroupGreeting)
+###### emojiGroupGreeting
 
-  - *Represents an emoji category, that should be moved to the top of the list when choosing a sticker for a business introduction*
+:link: [*Represents an emoji category, that should be moved to the top of the list when choosing a sticker for a business introduction*](constructor/emojiGroupGreeting)
 
 ---
 
-###### :link: [emojiGroupPremium](constructor/emojiGroupPremium)
+###### emojiGroupPremium
 
-  - *An emoji category, used to select all Premium-only stickers (i.e. those with a Premium effect »)/Premium-only custom emojis (i.e. those where the documentAttributeCustomEmoji.free flag is not set)*
+:link: [*An emoji category, used to select all Premium-only stickers (i.e. those with a Premium effect »)/Premium-only custom emojis (i.e. those where the documentAttributeCustomEmoji.free flag is not set)*](constructor/emojiGroupPremium)
 
 ---
 
-###### :link: [messages.emojiGroupsNotModified](constructor/messages.emojiGroupsNotModified)
+###### messages.emojiGroupsNotModified
 
-  - *The list of emoji categories hasn't changed*
+:link: [*The list of emoji categories hasn't changed*](constructor/messages.emojiGroupsNotModified)
 
 ---
 
-###### :link: [messages.emojiGroups](constructor/messages.emojiGroups)
+###### messages.emojiGroups
 
-  - *Represents a list of emoji categories*
+:link: [*Represents a list of emoji categories*](constructor/messages.emojiGroups)
 
 ---
 
-###### :link: [textWithEntities](constructor/textWithEntities)
+###### textWithEntities
 
-  - *Styled text with message entities*
+:link: [*Styled text with message entities*](constructor/textWithEntities)
 
 ---
 
-###### :link: [messages.translateResult](constructor/messages.translateResult)
+###### messages.translateResult
 
-  - *Translated text with entities*
+:link: [*Translated text with entities*](constructor/messages.translateResult)
 
 ---
 
-###### :link: [autoSaveSettings](constructor/autoSaveSettings)
+###### autoSaveSettings
 
-  - *Media autosave settings*
+:link: [*Media autosave settings*](constructor/autoSaveSettings)
 
 ---
 
-###### :link: [autoSaveException](constructor/autoSaveException)
+###### autoSaveException
 
-  - *Peer-specific media autosave settings*
+:link: [*Peer-specific media autosave settings*](constructor/autoSaveException)
 
 ---
 
-###### :link: [account.autoSaveSettings](constructor/account.autoSaveSettings)
+###### account.autoSaveSettings
 
-  - *Contains media autosave settings*
+:link: [*Contains media autosave settings*](constructor/account.autoSaveSettings)
 
 ---
 
-###### :link: [help.appConfigNotModified](constructor/help.appConfigNotModified)
+###### help.appConfigNotModified
 
-  - *The client configuration parameters haven't changed*
+:link: [*The client configuration parameters haven't changed*](constructor/help.appConfigNotModified)
 
 ---
 
-###### :link: [help.appConfig](constructor/help.appConfig)
+###### help.appConfig
 
-  - *Contains various client configuration parameters*
+:link: [*Contains various client configuration parameters*](constructor/help.appConfig)
 
 ---
 
-###### :link: [inputBotAppID](constructor/inputBotAppID)
+###### inputBotAppID
 
-  - *Used to fetch information about a direct link Mini App by its ID*
+:link: [*Used to fetch information about a direct link Mini App by its ID*](constructor/inputBotAppID)
 
 ---
 
-###### :link: [inputBotAppShortName](constructor/inputBotAppShortName)
+###### inputBotAppShortName
 
-  - *Used to fetch information about a direct link Mini App by its short name*
+:link: [*Used to fetch information about a direct link Mini App by its short name*](constructor/inputBotAppShortName)
 
 ---
 
-###### :link: [botAppNotModified](constructor/botAppNotModified)
+###### botAppNotModified
 
-  - *Bot app info hasn't changed*
+:link: [*Bot app info hasn't changed*](constructor/botAppNotModified)
 
 ---
 
-###### :link: [botApp](constructor/botApp)
+###### botApp
 
-  - *Contains information about a direct link Mini App*
+:link: [*Contains information about a direct link Mini App*](constructor/botApp)
 
 ---
 
-###### :link: [messages.botApp](constructor/messages.botApp)
+###### messages.botApp
 
-  - *Contains information about a direct link Mini App*
+:link: [*Contains information about a direct link Mini App*](constructor/messages.botApp)
 
 ---
 
-###### :link: [inlineBotWebView](constructor/inlineBotWebView)
+###### inlineBotWebView
 
-  - *Specifies an inline mode mini app button, shown on top of the inline query results list*
+:link: [*Specifies an inline mode mini app button, shown on top of the inline query results list*](constructor/inlineBotWebView)
 
 ---
 
-###### :link: [readParticipantDate](constructor/readParticipantDate)
+###### readParticipantDate
 
-  - *Contains info about when a certain participant has read a message*
+:link: [*Contains info about when a certain participant has read a message*](constructor/readParticipantDate)
 
 ---
 
-###### :link: [inputChatlistDialogFilter](constructor/inputChatlistDialogFilter)
+###### inputChatlistDialogFilter
 
-  - *Folder ID*
+:link: [*Folder ID*](constructor/inputChatlistDialogFilter)
 
 ---
 
-###### :link: [exportedChatlistInvite](constructor/exportedChatlistInvite)
+###### exportedChatlistInvite
 
-  - *Exported chat folder deep link »*
+:link: [*Exported chat folder deep link »*](constructor/exportedChatlistInvite)
 
 ---
 
-###### :link: [chatlists.exportedChatlistInvite](constructor/chatlists.exportedChatlistInvite)
+###### chatlists.exportedChatlistInvite
 
-  - *Info about an exported chat folder deep link »*
+:link: [*Info about an exported chat folder deep link »*](constructor/chatlists.exportedChatlistInvite)
 
 ---
 
-###### :link: [chatlists.exportedInvites](constructor/chatlists.exportedInvites)
+###### chatlists.exportedInvites
 
-  - *Info about multiple chat folder deep links »*
+:link: [*Info about multiple chat folder deep links »*](constructor/chatlists.exportedInvites)
 
 ---
 
-###### :link: [chatlists.chatlistInviteAlready](constructor/chatlists.chatlistInviteAlready)
+###### chatlists.chatlistInviteAlready
 
-  - *Updated info about a chat folder deep link » we already imported*
+:link: [*Updated info about a chat folder deep link » we already imported*](constructor/chatlists.chatlistInviteAlready)
 
 ---
 
-###### :link: [chatlists.chatlistInvite](constructor/chatlists.chatlistInvite)
+###### chatlists.chatlistInvite
 
-  - *Info about a chat folder deep link »*
+:link: [*Info about a chat folder deep link »*](constructor/chatlists.chatlistInvite)
 
 ---
 
-###### :link: [chatlists.chatlistUpdates](constructor/chatlists.chatlistUpdates)
+###### chatlists.chatlistUpdates
 
-  - *Updated information about a chat folder deep link »*
+:link: [*Updated information about a chat folder deep link »*](constructor/chatlists.chatlistUpdates)
 
 ---
 
-###### :link: [bots.botInfo](constructor/bots.botInfo)
+###### bots.botInfo
 
-  - *Localized information about a bot*
+:link: [*Localized information about a bot*](constructor/bots.botInfo)
 
 ---
 
-###### :link: [messagePeerVote](constructor/messagePeerVote)
+###### messagePeerVote
 
-  - *How a peer voted in a poll*
+:link: [*How a peer voted in a poll*](constructor/messagePeerVote)
 
 ---
 
-###### :link: [messagePeerVoteInputOption](constructor/messagePeerVoteInputOption)
+###### messagePeerVoteInputOption
 
-  - *How a peer voted in a poll (reduced constructor, returned if an option was provided to messages.getPollVotes)*
+:link: [*How a peer voted in a poll (reduced constructor, returned if an option was provided to messages.getPollVotes)*](constructor/messagePeerVoteInputOption)
 
 ---
 
-###### :link: [messagePeerVoteMultiple](constructor/messagePeerVoteMultiple)
+###### messagePeerVoteMultiple
 
-  - *How a peer voted in a multiple-choice poll*
+:link: [*How a peer voted in a multiple-choice poll*](constructor/messagePeerVoteMultiple)
 
 ---
 
-###### :link: [storyViews](constructor/storyViews)
+###### storyViews
 
-  - *Aggregated view and reaction information of a story*
+:link: [*Aggregated view and reaction information of a story*](constructor/storyViews)
 
 ---
 
-###### :link: [storyItemDeleted](constructor/storyItemDeleted)
+###### storyItemDeleted
 
-  - *Represents a previously active story, that was deleted*
+:link: [*Represents a previously active story, that was deleted*](constructor/storyItemDeleted)
 
 ---
 
-###### :link: [storyItemSkipped](constructor/storyItemSkipped)
+###### storyItemSkipped
 
-  - *Represents an active story, whose full information was omitted for space and performance reasons; use stories.getStoriesByID to fetch full info about the skipped story when and if needed*
+:link: [*Represents an active story, whose full information was omitted for space and performance reasons; use stories.getStoriesByID to fetch full info about the skipped story when and if needed*](constructor/storyItemSkipped)
 
 ---
 
-###### :link: [storyItem](constructor/storyItem)
+###### storyItem
 
-  - *Represents a story*
+:link: [*Represents a story*](constructor/storyItem)
 
 ---
 
-###### :link: [stories.allStoriesNotModified](constructor/stories.allStoriesNotModified)
+###### stories.allStoriesNotModified
 
-  - *The list of active (or active and hidden) stories has not changed*
+:link: [*The list of active (or active and hidden) stories has not changed*](constructor/stories.allStoriesNotModified)
 
 ---
 
-###### :link: [stories.allStories](constructor/stories.allStories)
+###### stories.allStories
 
-  - *Full list of active (or active and hidden) stories*
+:link: [*Full list of active (or active and hidden) stories*](constructor/stories.allStories)
 
 ---
 
-###### :link: [stories.stories](constructor/stories.stories)
+###### stories.stories
 
-  - *List of stories*
+:link: [*List of stories*](constructor/stories.stories)
 
 ---
 
-###### :link: [storyView](constructor/storyView)
+###### storyView
 
-  - *Story view date and reaction information*
+:link: [*Story view date and reaction information*](constructor/storyView)
 
 ---
 
-###### :link: [storyViewPublicForward](constructor/storyViewPublicForward)
+###### storyViewPublicForward
 
-  - *A certain peer has forwarded the story as a message to a public chat or channel*
+:link: [*A certain peer has forwarded the story as a message to a public chat or channel*](constructor/storyViewPublicForward)
 
 ---
 
-###### :link: [storyViewPublicRepost](constructor/storyViewPublicRepost)
+###### storyViewPublicRepost
 
-  - *A certain peer has reposted the story*
+:link: [*A certain peer has reposted the story*](constructor/storyViewPublicRepost)
 
 ---
 
-###### :link: [stories.storyViewsList](constructor/stories.storyViewsList)
+###### stories.storyViewsList
 
-  - *Reaction and view counters for a story*
+:link: [*Reaction and view counters for a story*](constructor/stories.storyViewsList)
 
 ---
 
-###### :link: [stories.storyViews](constructor/stories.storyViews)
+###### stories.storyViews
 
-  - *Reaction and view counters for a list of stories*
+:link: [*Reaction and view counters for a list of stories*](constructor/stories.storyViews)
 
 ---
 
-###### :link: [inputReplyToMessage](constructor/inputReplyToMessage)
+###### inputReplyToMessage
 
-  - *Reply to a message*
+:link: [*Reply to a message*](constructor/inputReplyToMessage)
 
 ---
 
-###### :link: [inputReplyToStory](constructor/inputReplyToStory)
+###### inputReplyToStory
 
-  - *Reply to a story*
+:link: [*Reply to a story*](constructor/inputReplyToStory)
 
 ---
 
-###### :link: [inputReplyToMonoForum](constructor/inputReplyToMonoForum)
+###### inputReplyToMonoForum
 
+:link: [*NOTHING*](constructor/inputReplyToMonoForum)
+
 ---
 
-###### :link: [exportedStoryLink](constructor/exportedStoryLink)
+###### exportedStoryLink
 
-  - *Represents a story deep link*
+:link: [*Represents a story deep link*](constructor/exportedStoryLink)
 
 ---
 
-###### :link: [storiesStealthMode](constructor/storiesStealthMode)
+###### storiesStealthMode
 
-  - *Information about the current stealth mode session*
+:link: [*Information about the current stealth mode session*](constructor/storiesStealthMode)
 
 ---
 
-###### :link: [mediaAreaCoordinates](constructor/mediaAreaCoordinates)
+###### mediaAreaCoordinates
 
-  - *Coordinates and size of a clicable rectangular area on top of a story*
+:link: [*Coordinates and size of a clicable rectangular area on top of a story*](constructor/mediaAreaCoordinates)
 
 ---
 
-###### :link: [mediaAreaVenue](constructor/mediaAreaVenue)
+###### mediaAreaVenue
 
-  - *Represents a location tag attached to a story, with additional venue information*
+:link: [*Represents a location tag attached to a story, with additional venue information*](constructor/mediaAreaVenue)
 
 ---
 
-###### :link: [inputMediaAreaVenue](constructor/inputMediaAreaVenue)
+###### inputMediaAreaVenue
 
-  - *Represents a location tag attached to a story, with additional venue information*
+:link: [*Represents a location tag attached to a story, with additional venue information*](constructor/inputMediaAreaVenue)
 
 ---
 
-###### :link: [mediaAreaGeoPoint](constructor/mediaAreaGeoPoint)
+###### mediaAreaGeoPoint
 
-  - *Represents a geolocation tag attached to a story*
+:link: [*Represents a geolocation tag attached to a story*](constructor/mediaAreaGeoPoint)
 
 ---
 
-###### :link: [mediaAreaSuggestedReaction](constructor/mediaAreaSuggestedReaction)
+###### mediaAreaSuggestedReaction
 
-  - *Represents a reaction bubble*
+:link: [*Represents a reaction bubble*](constructor/mediaAreaSuggestedReaction)
 
 ---
 
-###### :link: [mediaAreaChannelPost](constructor/mediaAreaChannelPost)
+###### mediaAreaChannelPost
 
-  - *Represents a channel post*
+:link: [*Represents a channel post*](constructor/mediaAreaChannelPost)
 
 ---
 
-###### :link: [inputMediaAreaChannelPost](constructor/inputMediaAreaChannelPost)
+###### inputMediaAreaChannelPost
 
-  - *Represents a channel post*
+:link: [*Represents a channel post*](constructor/inputMediaAreaChannelPost)
 
 ---
 
-###### :link: [mediaAreaUrl](constructor/mediaAreaUrl)
+###### mediaAreaUrl
 
-  - *Represents a URL media area*
+:link: [*Represents a URL media area*](constructor/mediaAreaUrl)
 
 ---
 
-###### :link: [mediaAreaWeather](constructor/mediaAreaWeather)
+###### mediaAreaWeather
 
-  - *Represents a weather widget »*
+:link: [*Represents a weather widget »*](constructor/mediaAreaWeather)
 
 ---
 
-###### :link: [mediaAreaStarGift](constructor/mediaAreaStarGift)
+###### mediaAreaStarGift
 
+:link: [*NOTHING*](constructor/mediaAreaStarGift)
+
 ---
 
-###### :link: [peerStories](constructor/peerStories)
+###### peerStories
 
-  - *Stories associated to a peer*
+:link: [*Stories associated to a peer*](constructor/peerStories)
 
 ---
 
-###### :link: [stories.peerStories](constructor/stories.peerStories)
+###### stories.peerStories
 
-  - *Active story list of a specific peer*
+:link: [*Active story list of a specific peer*](constructor/stories.peerStories)
 
 ---
 
-###### :link: [messages.webPage](constructor/messages.webPage)
+###### messages.webPage
 
-  - *Represents an Instant View webpage*
+:link: [*Represents an Instant View webpage*](constructor/messages.webPage)
 
 ---
 
-###### :link: [premiumGiftCodeOption](constructor/premiumGiftCodeOption)
+###### premiumGiftCodeOption
 
-  - *Contains info about a giveaway/gift option*
+:link: [*Contains info about a giveaway/gift option*](constructor/premiumGiftCodeOption)
 
 ---
 
-###### :link: [payments.checkedGiftCode](constructor/payments.checkedGiftCode)
+###### payments.checkedGiftCode
 
-  - *Contains info about a Telegram Premium giftcode link*
+:link: [*Contains info about a Telegram Premium giftcode link*](constructor/payments.checkedGiftCode)
 
 ---
 
-###### :link: [payments.giveawayInfo](constructor/payments.giveawayInfo)
+###### payments.giveawayInfo
 
-  - *Contains info about an ongoing giveaway*
+:link: [*Contains info about an ongoing giveaway*](constructor/payments.giveawayInfo)
 
 ---
 
-###### :link: [payments.giveawayInfoResults](constructor/payments.giveawayInfoResults)
+###### payments.giveawayInfoResults
 
-  - *A giveaway has ended*
+:link: [*A giveaway has ended*](constructor/payments.giveawayInfoResults)
 
 ---
 
-###### :link: [prepaidGiveaway](constructor/prepaidGiveaway)
+###### prepaidGiveaway
 
-  - *Contains info about a prepaid giveaway »*
+:link: [*Contains info about a prepaid giveaway »*](constructor/prepaidGiveaway)
 
 ---
 
-###### :link: [prepaidStarsGiveaway](constructor/prepaidStarsGiveaway)
+###### prepaidStarsGiveaway
 
-  - *Contains info about a prepaid Telegram Star giveaway »*
+:link: [*Contains info about a prepaid Telegram Star giveaway »*](constructor/prepaidStarsGiveaway)
 
 ---
 
-###### :link: [boost](constructor/boost)
+###### boost
 
-  - *Info about one or more boosts applied by a specific user*
+:link: [*Info about one or more boosts applied by a specific user*](constructor/boost)
 
 ---
 
-###### :link: [premium.boostsList](constructor/premium.boostsList)
+###### premium.boostsList
 
-  - *List of boosts that were applied to a peer by multiple users*
+:link: [*List of boosts that were applied to a peer by multiple users*](constructor/premium.boostsList)
 
 ---
 
-###### :link: [myBoost](constructor/myBoost)
+###### myBoost
 
-  - *Contains information about a single boost slot »*
+:link: [*Contains information about a single boost slot »*](constructor/myBoost)
 
 ---
 
-###### :link: [premium.myBoosts](constructor/premium.myBoosts)
+###### premium.myBoosts
 
-  - *A list of peers we are currently boosting, and how many boost slots we have left*
+:link: [*A list of peers we are currently boosting, and how many boost slots we have left*](constructor/premium.myBoosts)
 
 ---
 
-###### :link: [premium.boostsStatus](constructor/premium.boostsStatus)
+###### premium.boostsStatus
 
-  - *Contains info about the current boost status of a peer*
+:link: [*Contains info about the current boost status of a peer*](constructor/premium.boostsStatus)
 
 ---
 
-###### :link: [storyFwdHeader](constructor/storyFwdHeader)
+###### storyFwdHeader
 
-  - *Contains info about the original poster of a reposted story*
+:link: [*Contains info about the original poster of a reposted story*](constructor/storyFwdHeader)
 
 ---
 
-###### :link: [postInteractionCountersMessage](constructor/postInteractionCountersMessage)
+###### postInteractionCountersMessage
 
-  - *Interaction counters for a message*
+:link: [*Interaction counters for a message*](constructor/postInteractionCountersMessage)
 
 ---
 
-###### :link: [postInteractionCountersStory](constructor/postInteractionCountersStory)
+###### postInteractionCountersStory
 
-  - *Interaction counters for a story*
+:link: [*Interaction counters for a story*](constructor/postInteractionCountersStory)
 
 ---
 
-###### :link: [stats.storyStats](constructor/stats.storyStats)
+###### stats.storyStats
 
-  - *Contains statistics about a story*
+:link: [*Contains statistics about a story*](constructor/stats.storyStats)
 
 ---
 
-###### :link: [publicForwardMessage](constructor/publicForwardMessage)
+###### publicForwardMessage
 
-  - *Contains info about a forward of a story as a message*
+:link: [*Contains info about a forward of a story as a message*](constructor/publicForwardMessage)
 
 ---
 
-###### :link: [publicForwardStory](constructor/publicForwardStory)
+###### publicForwardStory
 
-  - *Contains info about a forward of a story as a repost by a public channel*
+:link: [*Contains info about a forward of a story as a repost by a public channel*](constructor/publicForwardStory)
 
 ---
 
-###### :link: [stats.publicForwards](constructor/stats.publicForwards)
+###### stats.publicForwards
 
-  - *Contains info about the forwards of a story as a message to public chats and reposts by public channels*
+:link: [*Contains info about the forwards of a story as a message to public chats and reposts by public channels*](constructor/stats.publicForwards)
 
 ---
 
-###### :link: [peerColor](constructor/peerColor)
+###### peerColor
 
-  - *Represents a color palette »*
+:link: [*Represents a color palette »*](constructor/peerColor)
 
 ---
 
-###### :link: [help.peerColorSet](constructor/help.peerColorSet)
+###### help.peerColorSet
 
-  - *Represents a color palette that can be used in message accents »*
+:link: [*Represents a color palette that can be used in message accents »*](constructor/help.peerColorSet)
 
 ---
 
-###### :link: [help.peerColorProfileSet](constructor/help.peerColorProfileSet)
+###### help.peerColorProfileSet
 
-  - *Represents a color palette that can be used in profile pages »*
+:link: [*Represents a color palette that can be used in profile pages »*](constructor/help.peerColorProfileSet)
 
 ---
 
-###### :link: [help.peerColorOption](constructor/help.peerColorOption)
+###### help.peerColorOption
 
-  - *Contains info about a color palette »*
+:link: [*Contains info about a color palette »*](constructor/help.peerColorOption)
 
 ---
 
-###### :link: [help.peerColorsNotModified](constructor/help.peerColorsNotModified)
+###### help.peerColorsNotModified
 
-  - *The list of color palettes has not changed*
+:link: [*The list of color palettes has not changed*](constructor/help.peerColorsNotModified)
 
 ---
 
-###### :link: [help.peerColors](constructor/help.peerColors)
+###### help.peerColors
 
-  - *Contains info about multiple color palettes »*
+:link: [*Contains info about multiple color palettes »*](constructor/help.peerColors)
 
 ---
 
-###### :link: [storyReaction](constructor/storyReaction)
+###### storyReaction
 
-  - *How a certain peer reacted to a story*
+:link: [*How a certain peer reacted to a story*](constructor/storyReaction)
 
 ---
 
-###### :link: [storyReactionPublicForward](constructor/storyReactionPublicForward)
+###### storyReactionPublicForward
 
-  - *A certain peer has forwarded the story as a message to a public chat or channel*
+:link: [*A certain peer has forwarded the story as a message to a public chat or channel*](constructor/storyReactionPublicForward)
 
 ---
 
-###### :link: [storyReactionPublicRepost](constructor/storyReactionPublicRepost)
+###### storyReactionPublicRepost
 
-  - *A certain peer has reposted the story*
+:link: [*A certain peer has reposted the story*](constructor/storyReactionPublicRepost)
 
 ---
 
-###### :link: [stories.storyReactionsList](constructor/stories.storyReactionsList)
+###### stories.storyReactionsList
 
-  - *List of peers that reacted to or intercated with a specific story*
+:link: [*List of peers that reacted to or intercated with a specific story*](constructor/stories.storyReactionsList)
 
 ---
 
-###### :link: [savedDialog](constructor/savedDialog)
+###### savedDialog
 
-  - *Represents a saved dialog »*
+:link: [*Represents a saved dialog »*](constructor/savedDialog)
 
 ---
+
+###### monoForumDialog
 
-###### :link: [monoForumDialog](constructor/monoForumDialog)
+:link: [*NOTHING*](constructor/monoForumDialog)
 
 ---
 
-###### :link: [messages.savedDialogs](constructor/messages.savedDialogs)
+###### messages.savedDialogs
 
-  - *Represents some saved message dialogs »*
+:link: [*Represents some saved message dialogs »*](constructor/messages.savedDialogs)
 
 ---
 
-###### :link: [messages.savedDialogsSlice](constructor/messages.savedDialogsSlice)
+###### messages.savedDialogsSlice
 
-  - *Incomplete list of saved message dialogs » with messages and auxiliary data*
+:link: [*Incomplete list of saved message dialogs » with messages and auxiliary data*](constructor/messages.savedDialogsSlice)
 
 ---
 
-###### :link: [messages.savedDialogsNotModified](constructor/messages.savedDialogsNotModified)
+###### messages.savedDialogsNotModified
 
-  - *The saved dialogs haven't changed*
+:link: [*The saved dialogs haven't changed*](constructor/messages.savedDialogsNotModified)
 
 ---
 
-###### :link: [savedReactionTag](constructor/savedReactionTag)
+###### savedReactionTag
 
-  - *Info about a saved message reaction tag »*
+:link: [*Info about a saved message reaction tag »*](constructor/savedReactionTag)
 
 ---
 
-###### :link: [messages.savedReactionTagsNotModified](constructor/messages.savedReactionTagsNotModified)
+###### messages.savedReactionTagsNotModified
 
-  - *The list of reaction tag » names assigned by the user hasn't changed*
+:link: [*The list of reaction tag » names assigned by the user hasn't changed*](constructor/messages.savedReactionTagsNotModified)
 
 ---
 
-###### :link: [messages.savedReactionTags](constructor/messages.savedReactionTags)
+###### messages.savedReactionTags
 
-  - *List of reaction tag » names assigned by the user*
+:link: [*List of reaction tag » names assigned by the user*](constructor/messages.savedReactionTags)
 
 ---
 
-###### :link: [outboxReadDate](constructor/outboxReadDate)
+###### outboxReadDate
 
-  - *Exact read date of a private message we sent to another user*
+:link: [*Exact read date of a private message we sent to another user*](constructor/outboxReadDate)
 
 ---
 
-###### :link: [smsjobs.eligibleToJoin](constructor/smsjobs.eligibleToJoin)
+###### smsjobs.eligibleToJoin
 
-  - *SMS jobs eligibility*
+:link: [*SMS jobs eligibility*](constructor/smsjobs.eligibleToJoin)
 
 ---
 
-###### :link: [smsjobs.status](constructor/smsjobs.status)
+###### smsjobs.status
 
-  - *Status*
+:link: [*Status*](constructor/smsjobs.status)
 
 ---
 
-###### :link: [smsJob](constructor/smsJob)
+###### smsJob
 
-  - *Info about an SMS job*
+:link: [*Info about an SMS job*](constructor/smsJob)
 
 ---
 
-###### :link: [businessWeeklyOpen](constructor/businessWeeklyOpen)
+###### businessWeeklyOpen
 
-  - *A time interval, indicating the opening hours of a business*
+:link: [*A time interval, indicating the opening hours of a business*](constructor/businessWeeklyOpen)
 
 ---
 
-###### :link: [businessWorkHours](constructor/businessWorkHours)
+###### businessWorkHours
 
-  - *Specifies a set of Telegram Business opening hours*
+:link: [*Specifies a set of Telegram Business opening hours*](constructor/businessWorkHours)
 
 ---
 
-###### :link: [businessLocation](constructor/businessLocation)
+###### businessLocation
 
-  - *Represents the location of a Telegram Business »*
+:link: [*Represents the location of a Telegram Business »*](constructor/businessLocation)
 
 ---
 
-###### :link: [inputBusinessRecipients](constructor/inputBusinessRecipients)
+###### inputBusinessRecipients
 
-  - *Specifies the chats that can receive Telegram Business away » and greeting » messages*
+:link: [*Specifies the chats that can receive Telegram Business away » and greeting » messages*](constructor/inputBusinessRecipients)
 
 ---
 
-###### :link: [businessRecipients](constructor/businessRecipients)
+###### businessRecipients
 
-  - *Specifies the chats that can receive Telegram Business away » and greeting » messages*
+:link: [*Specifies the chats that can receive Telegram Business away » and greeting » messages*](constructor/businessRecipients)
 
 ---
 
-###### :link: [businessAwayMessageScheduleAlways](constructor/businessAwayMessageScheduleAlways)
+###### businessAwayMessageScheduleAlways
 
-  - *Always send Telegram Business away messages to users writing to us in private*
+:link: [*Always send Telegram Business away messages to users writing to us in private*](constructor/businessAwayMessageScheduleAlways)
 
 ---
 
-###### :link: [businessAwayMessageScheduleOutsideWorkHours](constructor/businessAwayMessageScheduleOutsideWorkHours)
+###### businessAwayMessageScheduleOutsideWorkHours
 
-  - *Send Telegram Business away messages to users writing to us in private outside of the configured Telegram Business working hours*
+:link: [*Send Telegram Business away messages to users writing to us in private outside of the configured Telegram Business working hours*](constructor/businessAwayMessageScheduleOutsideWorkHours)
 
 ---
 
-###### :link: [businessAwayMessageScheduleCustom](constructor/businessAwayMessageScheduleCustom)
+###### businessAwayMessageScheduleCustom
 
-  - *Send Telegram Business away messages to users writing to us in private in the specified time span*
+:link: [*Send Telegram Business away messages to users writing to us in private in the specified time span*](constructor/businessAwayMessageScheduleCustom)
 
 ---
 
-###### :link: [inputBusinessGreetingMessage](constructor/inputBusinessGreetingMessage)
+###### inputBusinessGreetingMessage
 
-  - *Describes a Telegram Business greeting, automatically sent to new users writing to us in private for the first time, or after a certain inactivity period*
+:link: [*Describes a Telegram Business greeting, automatically sent to new users writing to us in private for the first time, or after a certain inactivity period*](constructor/inputBusinessGreetingMessage)
 
 ---
 
-###### :link: [businessGreetingMessage](constructor/businessGreetingMessage)
+###### businessGreetingMessage
 
-  - *Describes a Telegram Business greeting, automatically sent to new users writing to us in private for the first time, or after a certain inactivity period*
+:link: [*Describes a Telegram Business greeting, automatically sent to new users writing to us in private for the first time, or after a certain inactivity period*](constructor/businessGreetingMessage)
 
 ---
 
-###### :link: [inputBusinessAwayMessage](constructor/inputBusinessAwayMessage)
+###### inputBusinessAwayMessage
 
-  - *Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*
+:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*](constructor/inputBusinessAwayMessage)
 
 ---
 
-###### :link: [businessAwayMessage](constructor/businessAwayMessage)
+###### businessAwayMessage
 
-  - *Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*
+:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*](constructor/businessAwayMessage)
 
 ---
 
-###### :link: [timezone](constructor/timezone)
+###### timezone
 
-  - *Timezone information*
+:link: [*Timezone information*](constructor/timezone)
 
 ---
 
-###### :link: [help.timezonesListNotModified](constructor/help.timezonesListNotModified)
+###### help.timezonesListNotModified
 
-  - *The timezone list has not changed*
+:link: [*The timezone list has not changed*](constructor/help.timezonesListNotModified)
 
 ---
 
-###### :link: [help.timezonesList](constructor/help.timezonesList)
+###### help.timezonesList
 
-  - *Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »*
+:link: [*Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »*](constructor/help.timezonesList)
 
 ---
 
-###### :link: [quickReply](constructor/quickReply)
+###### quickReply
 
-  - *A quick reply shortcut*
+:link: [*A quick reply shortcut*](constructor/quickReply)
 
 ---
 
-###### :link: [inputQuickReplyShortcut](constructor/inputQuickReplyShortcut)
+###### inputQuickReplyShortcut
 
-  - *Selects a quick reply shortcut by name*
+:link: [*Selects a quick reply shortcut by name*](constructor/inputQuickReplyShortcut)
 
 ---
 
-###### :link: [inputQuickReplyShortcutId](constructor/inputQuickReplyShortcutId)
+###### inputQuickReplyShortcutId
 
-  - *Selects a quick reply shortcut by its numeric ID*
+:link: [*Selects a quick reply shortcut by its numeric ID*](constructor/inputQuickReplyShortcutId)
 
 ---
 
-###### :link: [messages.quickReplies](constructor/messages.quickReplies)
+###### messages.quickReplies
 
-  - *Info about quick reply shortcuts »*
+:link: [*Info about quick reply shortcuts »*](constructor/messages.quickReplies)
 
 ---
 
-###### :link: [messages.quickRepliesNotModified](constructor/messages.quickRepliesNotModified)
+###### messages.quickRepliesNotModified
 
-  - *Info about quick reply shortcuts » hasn't changed*
+:link: [*Info about quick reply shortcuts » hasn't changed*](constructor/messages.quickRepliesNotModified)
 
 ---
 
-###### :link: [connectedBot](constructor/connectedBot)
+###### connectedBot
 
-  - *Contains info about a connected business bot »*
+:link: [*Contains info about a connected business bot »*](constructor/connectedBot)
 
 ---
 
-###### :link: [account.connectedBots](constructor/account.connectedBots)
+###### account.connectedBots
 
-  - *Info about currently connected business bots*
+:link: [*Info about currently connected business bots*](constructor/account.connectedBots)
 
 ---
 
-###### :link: [messages.dialogFilters](constructor/messages.dialogFilters)
+###### messages.dialogFilters
 
-  - *Folder and folder tags information*
+:link: [*Folder and folder tags information*](constructor/messages.dialogFilters)
 
 ---
 
-###### :link: [birthday](constructor/birthday)
+###### birthday
 
-  - *Birthday information for a user*
+:link: [*Birthday information for a user*](constructor/birthday)
 
 ---
 
-###### :link: [botBusinessConnection](constructor/botBusinessConnection)
+###### botBusinessConnection
 
-  - *Contains info about a bot business connection*
+:link: [*Contains info about a bot business connection*](constructor/botBusinessConnection)
 
 ---
 
-###### :link: [inputBusinessIntro](constructor/inputBusinessIntro)
+###### inputBusinessIntro
 
-  - *Telegram Business introduction »*
+:link: [*Telegram Business introduction »*](constructor/inputBusinessIntro)
 
 ---
 
-###### :link: [businessIntro](constructor/businessIntro)
+###### businessIntro
 
-  - *Telegram Business introduction »*
+:link: [*Telegram Business introduction »*](constructor/businessIntro)
 
 ---
 
-###### :link: [messages.myStickers](constructor/messages.myStickers)
+###### messages.myStickers
 
-  - *The list of stickersets owned by the current account »*
+:link: [*The list of stickersets owned by the current account »*](constructor/messages.myStickers)
 
 ---
 
-###### :link: [inputCollectibleUsername](constructor/inputCollectibleUsername)
+###### inputCollectibleUsername
 
-  - *Represents a username fragment collectible*
+:link: [*Represents a username fragment collectible*](constructor/inputCollectibleUsername)
 
 ---
 
-###### :link: [inputCollectiblePhone](constructor/inputCollectiblePhone)
+###### inputCollectiblePhone
 
-  - *Represents a phone number fragment collectible*
+:link: [*Represents a phone number fragment collectible*](constructor/inputCollectiblePhone)
 
 ---
 
-###### :link: [fragment.collectibleInfo](constructor/fragment.collectibleInfo)
+###### fragment.collectibleInfo
 
-  - *Info about a fragment collectible*
+:link: [*Info about a fragment collectible*](constructor/fragment.collectibleInfo)
 
 ---
 
-###### :link: [inputBusinessBotRecipients](constructor/inputBusinessBotRecipients)
+###### inputBusinessBotRecipients
 
-  - *Specifies the private chats that a connected business bot » may interact with*
+:link: [*Specifies the private chats that a connected business bot » may interact with*](constructor/inputBusinessBotRecipients)
 
 ---
 
-###### :link: [businessBotRecipients](constructor/businessBotRecipients)
+###### businessBotRecipients
 
-  - *Specifies the private chats that a connected business bot » may receive messages and interact with*
+:link: [*Specifies the private chats that a connected business bot » may receive messages and interact with*](constructor/businessBotRecipients)
 
 ---
 
-###### :link: [contactBirthday](constructor/contactBirthday)
+###### contactBirthday
 
-  - *Birthday information of a contact*
+:link: [*Birthday information of a contact*](constructor/contactBirthday)
 
 ---
 
-###### :link: [contacts.contactBirthdays](constructor/contacts.contactBirthdays)
+###### contacts.contactBirthdays
 
-  - *Birthday information of our contacts*
+:link: [*Birthday information of our contacts*](constructor/contacts.contactBirthdays)
 
 ---
 
-###### :link: [missingInvitee](constructor/missingInvitee)
+###### missingInvitee
 
-  - *Info about why a specific user could not be invited »*
+:link: [*Info about why a specific user could not be invited »*](constructor/missingInvitee)
 
 ---
 
-###### :link: [messages.invitedUsers](constructor/messages.invitedUsers)
+###### messages.invitedUsers
 
-  - *Contains info about successfully or unsuccessfully invited » users*
+:link: [*Contains info about successfully or unsuccessfully invited » users*](constructor/messages.invitedUsers)
 
 ---
 
-###### :link: [inputBusinessChatLink](constructor/inputBusinessChatLink)
+###### inputBusinessChatLink
 
-  - *Contains info about a business chat deep link » to be created by the current account*
+:link: [*Contains info about a business chat deep link » to be created by the current account*](constructor/inputBusinessChatLink)
 
 ---
 
-###### :link: [businessChatLink](constructor/businessChatLink)
+###### businessChatLink
 
-  - *Contains info about a business chat deep link » created by the current account*
+:link: [*Contains info about a business chat deep link » created by the current account*](constructor/businessChatLink)
 
 ---
 
-###### :link: [account.businessChatLinks](constructor/account.businessChatLinks)
+###### account.businessChatLinks
 
-  - *Contains info about business chat deep links » created by the current account*
+:link: [*Contains info about business chat deep links » created by the current account*](constructor/account.businessChatLinks)
 
 ---
 
-###### :link: [account.resolvedBusinessChatLinks](constructor/account.resolvedBusinessChatLinks)
+###### account.resolvedBusinessChatLinks
 
-  - *Contains info about a single resolved business chat deep link »*
+:link: [*Contains info about a single resolved business chat deep link »*](constructor/account.resolvedBusinessChatLinks)
 
 ---
 
-###### :link: [requestedPeerUser](constructor/requestedPeerUser)
+###### requestedPeerUser
 
-  - *Info about a user, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*
+:link: [*Info about a user, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*](constructor/requestedPeerUser)
 
 ---
 
-###### :link: [requestedPeerChat](constructor/requestedPeerChat)
+###### requestedPeerChat
 
-  - *Info about a chat, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*
+:link: [*Info about a chat, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*](constructor/requestedPeerChat)
 
 ---
 
-###### :link: [requestedPeerChannel](constructor/requestedPeerChannel)
+###### requestedPeerChannel
 
-  - *Info about a channel/supergroup, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*
+:link: [*Info about a channel/supergroup, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*](constructor/requestedPeerChannel)
 
 ---
 
-###### :link: [sponsoredMessageReportOption](constructor/sponsoredMessageReportOption)
+###### sponsoredMessageReportOption
 
-  - *A report option for a sponsored message »*
+:link: [*A report option for a sponsored message »*](constructor/sponsoredMessageReportOption)
 
 ---
 
-###### :link: [channels.sponsoredMessageReportResultChooseOption](constructor/channels.sponsoredMessageReportResultChooseOption)
+###### channels.sponsoredMessageReportResultChooseOption
 
-  - *The user must choose a report option from the localized options available in options, and after selection, channels.reportSponsoredMessage must be invoked again, passing the option's option field to the option param of the method*
+:link: [*The user must choose a report option from the localized options available in options, and after selection, channels.reportSponsoredMessage must be invoked again, passing the option's option field to the option param of the method*](constructor/channels.sponsoredMessageReportResultChooseOption)
 
 ---
 
-###### :link: [channels.sponsoredMessageReportResultAdsHidden](constructor/channels.sponsoredMessageReportResultAdsHidden)
+###### channels.sponsoredMessageReportResultAdsHidden
 
-  - *Sponsored messages were hidden for the user in all chats*
+:link: [*Sponsored messages were hidden for the user in all chats*](constructor/channels.sponsoredMessageReportResultAdsHidden)
 
 ---
 
-###### :link: [channels.sponsoredMessageReportResultReported](constructor/channels.sponsoredMessageReportResultReported)
+###### channels.sponsoredMessageReportResultReported
 
-  - *The sponsored message was reported successfully*
+:link: [*The sponsored message was reported successfully*](constructor/channels.sponsoredMessageReportResultReported)
 
 ---
 
-###### :link: [reactionNotificationsFromContacts](constructor/reactionNotificationsFromContacts)
+###### reactionNotificationsFromContacts
 
-  - *Receive notifications about reactions made only by our contacts*
+:link: [*Receive notifications about reactions made only by our contacts*](constructor/reactionNotificationsFromContacts)
 
 ---
 
-###### :link: [reactionNotificationsFromAll](constructor/reactionNotificationsFromAll)
+###### reactionNotificationsFromAll
 
-  - *Receive notifications about reactions made by any user*
+:link: [*Receive notifications about reactions made by any user*](constructor/reactionNotificationsFromAll)
 
 ---
 
-###### :link: [reactionsNotifySettings](constructor/reactionsNotifySettings)
+###### reactionsNotifySettings
 
-  - *Reaction notification settings, see here » for more info*
+:link: [*Reaction notification settings, see here » for more info*](constructor/reactionsNotifySettings)
 
 ---
 
-###### :link: [availableEffect](constructor/availableEffect)
+###### availableEffect
 
-  - *Represents a message effect »*
+:link: [*Represents a message effect »*](constructor/availableEffect)
 
 ---
 
-###### :link: [messages.availableEffectsNotModified](constructor/messages.availableEffectsNotModified)
+###### messages.availableEffectsNotModified
 
-  - *The full list of usable animated message effects » hasn't changed*
+:link: [*The full list of usable animated message effects » hasn't changed*](constructor/messages.availableEffectsNotModified)
 
 ---
 
-###### :link: [messages.availableEffects](constructor/messages.availableEffects)
+###### messages.availableEffects
 
-  - *The full list of usable animated message effects »*
+:link: [*The full list of usable animated message effects »*](constructor/messages.availableEffects)
 
 ---
 
-###### :link: [factCheck](constructor/factCheck)
+###### factCheck
 
-  - *Represents a fact-check » created by an independent fact-checker*
+:link: [*Represents a fact-check » created by an independent fact-checker*](constructor/factCheck)
 
 ---
 
-###### :link: [starsTransactionPeerUnsupported](constructor/starsTransactionPeerUnsupported)
+###### starsTransactionPeerUnsupported
 
-  - *Describes a Telegram Star transaction that cannot be described using the current layer*
+:link: [*Describes a Telegram Star transaction that cannot be described using the current layer*](constructor/starsTransactionPeerUnsupported)
 
 ---
 
-###### :link: [starsTransactionPeerAppStore](constructor/starsTransactionPeerAppStore)
+###### starsTransactionPeerAppStore
 
-  - *Describes a Telegram Star transaction with the App Store, used when purchasing Telegram Stars through the App Store*
+:link: [*Describes a Telegram Star transaction with the App Store, used when purchasing Telegram Stars through the App Store*](constructor/starsTransactionPeerAppStore)
 
 ---
 
-###### :link: [starsTransactionPeerPlayMarket](constructor/starsTransactionPeerPlayMarket)
+###### starsTransactionPeerPlayMarket
 
-  - *Describes a Telegram Star transaction with the Play Store, used when purchasing Telegram Stars through the Play Store*
+:link: [*Describes a Telegram Star transaction with the Play Store, used when purchasing Telegram Stars through the Play Store*](constructor/starsTransactionPeerPlayMarket)
 
 ---
 
-###### :link: [starsTransactionPeerPremiumBot](constructor/starsTransactionPeerPremiumBot)
+###### starsTransactionPeerPremiumBot
 
-  - *Describes a Telegram Star transaction made using @PremiumBot (i.e. using the inputInvoiceStars flow described here »)*
+:link: [*Describes a Telegram Star transaction made using @PremiumBot (i.e. using the inputInvoiceStars flow described here »)*](constructor/starsTransactionPeerPremiumBot)
 
 ---
 
-###### :link: [starsTransactionPeerFragment](constructor/starsTransactionPeerFragment)
+###### starsTransactionPeerFragment
 
-  - *Describes a Telegram Star transaction with Fragment, used when purchasing Telegram Stars through Fragment*
+:link: [*Describes a Telegram Star transaction with Fragment, used when purchasing Telegram Stars through Fragment*](constructor/starsTransactionPeerFragment)
 
 ---
 
-###### :link: [starsTransactionPeer](constructor/starsTransactionPeer)
+###### starsTransactionPeer
 
-  - *Describes a Telegram Star transaction with another peer*
+:link: [*Describes a Telegram Star transaction with another peer*](constructor/starsTransactionPeer)
 
 ---
 
-###### :link: [starsTransactionPeerAds](constructor/starsTransactionPeerAds)
+###### starsTransactionPeerAds
 
-  - *Describes a Telegram Star transaction used to pay for Telegram ads as specified here »*
+:link: [*Describes a Telegram Star transaction used to pay for Telegram ads as specified here »*](constructor/starsTransactionPeerAds)
 
 ---
 
-###### :link: [starsTransactionPeerAPI](constructor/starsTransactionPeerAPI)
+###### starsTransactionPeerAPI
 
-  - *Describes a Telegram Star transaction used to pay for paid API usage, such as paid bot broadcasts*
+:link: [*Describes a Telegram Star transaction used to pay for paid API usage, such as paid bot broadcasts*](constructor/starsTransactionPeerAPI)
 
 ---
 
-###### :link: [starsTopupOption](constructor/starsTopupOption)
+###### starsTopupOption
 
-  - *Telegram Stars topup option*
+:link: [*Telegram Stars topup option*](constructor/starsTopupOption)
 
 ---
 
-###### :link: [starsTransaction](constructor/starsTransaction)
+###### starsTransaction
 
-  - *Represents a Telegram Stars transaction »*
+:link: [*Represents a Telegram Stars transaction »*](constructor/starsTransaction)
 
 ---
 
-###### :link: [payments.starsStatus](constructor/payments.starsStatus)
+###### payments.starsStatus
 
-  - *Info about the current Telegram Star subscriptions, balance and transaction history »*
+:link: [*Info about the current Telegram Star subscriptions, balance and transaction history »*](constructor/payments.starsStatus)
 
 ---
 
-###### :link: [foundStory](constructor/foundStory)
+###### foundStory
 
-  - *A story found using global story search »*
+:link: [*A story found using global story search »*](constructor/foundStory)
 
 ---
 
-###### :link: [stories.foundStories](constructor/stories.foundStories)
+###### stories.foundStories
 
-  - *Stories found using global story search »*
+:link: [*Stories found using global story search »*](constructor/stories.foundStories)
 
 ---
 
-###### :link: [geoPointAddress](constructor/geoPointAddress)
+###### geoPointAddress
 
-  - *Address optionally associated to a geoPoint*
+:link: [*Address optionally associated to a geoPoint*](constructor/geoPointAddress)
 
 ---
 
-###### :link: [starsRevenueStatus](constructor/starsRevenueStatus)
+###### starsRevenueStatus
 
-  - *Describes Telegram Star revenue balances »*
+:link: [*Describes Telegram Star revenue balances »*](constructor/starsRevenueStatus)
 
 ---
 
-###### :link: [payments.starsRevenueStats](constructor/payments.starsRevenueStats)
+###### payments.starsRevenueStats
 
-  - *Star revenue statistics, see here » for more info*
+:link: [*Star revenue statistics, see here » for more info*](constructor/payments.starsRevenueStats)
 
 ---
 
-###### :link: [payments.starsRevenueWithdrawalUrl](constructor/payments.starsRevenueWithdrawalUrl)
+###### payments.starsRevenueWithdrawalUrl
 
-  - *Contains the URL to use to withdraw Telegram Star revenue*
+:link: [*Contains the URL to use to withdraw Telegram Star revenue*](constructor/payments.starsRevenueWithdrawalUrl)
 
 ---
 
-###### :link: [payments.starsRevenueAdsAccountUrl](constructor/payments.starsRevenueAdsAccountUrl)
+###### payments.starsRevenueAdsAccountUrl
 
-  - *Contains a URL leading to a page where the user will be able to place ads for the channel/bot, paying using Telegram Stars*
+:link: [*Contains a URL leading to a page where the user will be able to place ads for the channel/bot, paying using Telegram Stars*](constructor/payments.starsRevenueAdsAccountUrl)
 
 ---
 
-###### :link: [inputStarsTransaction](constructor/inputStarsTransaction)
+###### inputStarsTransaction
 
-  - *Used to fetch info about a Telegram Star transaction »*
+:link: [*Used to fetch info about a Telegram Star transaction »*](constructor/inputStarsTransaction)
 
 ---
 
-###### :link: [starsGiftOption](constructor/starsGiftOption)
+###### starsGiftOption
 
-  - *Telegram Stars gift option*
+:link: [*Telegram Stars gift option*](constructor/starsGiftOption)
 
 ---
 
-###### :link: [bots.popularAppBots](constructor/bots.popularAppBots)
+###### bots.popularAppBots
 
-  - *Popular Main Mini Apps, to be used in the apps tab of global search »*
+:link: [*Popular Main Mini Apps, to be used in the apps tab of global search »*](constructor/bots.popularAppBots)
 
 ---
 
-###### :link: [botPreviewMedia](constructor/botPreviewMedia)
+###### botPreviewMedia
 
-  - *Represents a Main Mini App preview media, see here » for more info*
+:link: [*Represents a Main Mini App preview media, see here » for more info*](constructor/botPreviewMedia)
 
 ---
 
-###### :link: [bots.previewInfo](constructor/bots.previewInfo)
+###### bots.previewInfo
 
-  - *Contains info about Main Mini App previews, see here » for more info*
+:link: [*Contains info about Main Mini App previews, see here » for more info*](constructor/bots.previewInfo)
 
 ---
 
-###### :link: [starsSubscriptionPricing](constructor/starsSubscriptionPricing)
+###### starsSubscriptionPricing
 
-  - *Pricing of a Telegram Star subscription »*
+:link: [*Pricing of a Telegram Star subscription »*](constructor/starsSubscriptionPricing)
 
 ---
 
-###### :link: [starsSubscription](constructor/starsSubscription)
+###### starsSubscription
 
-  - *Represents a Telegram Star subscription »*
+:link: [*Represents a Telegram Star subscription »*](constructor/starsSubscription)
 
 ---
 
-###### :link: [messageReactor](constructor/messageReactor)
+###### messageReactor
 
-  - *Info about a user in the paid Star reactions leaderboard for a message*
+:link: [*Info about a user in the paid Star reactions leaderboard for a message*](constructor/messageReactor)
 
 ---
 
-###### :link: [starsGiveawayOption](constructor/starsGiveawayOption)
+###### starsGiveawayOption
 
-  - *Contains info about a Telegram Star giveaway option*
+:link: [*Contains info about a Telegram Star giveaway option*](constructor/starsGiveawayOption)
 
 ---
 
-###### :link: [starsGiveawayWinnersOption](constructor/starsGiveawayWinnersOption)
+###### starsGiveawayWinnersOption
 
-  - *Allowed options for the number of giveaway winners*
+:link: [*Allowed options for the number of giveaway winners*](constructor/starsGiveawayWinnersOption)
 
 ---
 
-###### :link: [starGift](constructor/starGift)
+###### starGift
 
-  - *Represents a star gift, see here » for more info*
+:link: [*Represents a star gift, see here » for more info*](constructor/starGift)
 
 ---
 
-###### :link: [starGiftUnique](constructor/starGiftUnique)
+###### starGiftUnique
 
+:link: [*NOTHING*](constructor/starGiftUnique)
+
 ---
 
-###### :link: [payments.starGiftsNotModified](constructor/payments.starGiftsNotModified)
+###### payments.starGiftsNotModified
 
-  - *The list of available gifts » hasn't changed*
+:link: [*The list of available gifts » hasn't changed*](constructor/payments.starGiftsNotModified)
 
 ---
 
-###### :link: [payments.starGifts](constructor/payments.starGifts)
+###### payments.starGifts
 
-  - *Available gifts »*
+:link: [*Available gifts »*](constructor/payments.starGifts)
 
 ---
 
-###### :link: [messageReportOption](constructor/messageReportOption)
+###### messageReportOption
 
-  - *Report menu option*
+:link: [*Report menu option*](constructor/messageReportOption)
 
 ---
 
-###### :link: [reportResultChooseOption](constructor/reportResultChooseOption)
+###### reportResultChooseOption
 
-  - *The user must choose one of the following options, and then messages.report must be re-invoked, passing the option's option identifier to messages.report.option*
+:link: [*The user must choose one of the following options, and then messages.report must be re-invoked, passing the option's option identifier to messages.report.option*](constructor/reportResultChooseOption)
 
 ---
 
-###### :link: [reportResultAddComment](constructor/reportResultAddComment)
+###### reportResultAddComment
 
-  - *The user should enter an additional comment for the moderators, and then messages.report must be re-invoked, passing the comment to messages.report.message*
+:link: [*The user should enter an additional comment for the moderators, and then messages.report must be re-invoked, passing the comment to messages.report.message*](constructor/reportResultAddComment)
 
 ---
 
-###### :link: [reportResultReported](constructor/reportResultReported)
+###### reportResultReported
 
-  - *The report was sent successfully, no further actions are required*
+:link: [*The report was sent successfully, no further actions are required*](constructor/reportResultReported)
 
 ---
 
-###### :link: [messages.botPreparedInlineMessage](constructor/messages.botPreparedInlineMessage)
+###### messages.botPreparedInlineMessage
 
-  - *Represents a prepared inline message saved by a bot, to be sent to the user via a web app »*
+:link: [*Represents a prepared inline message saved by a bot, to be sent to the user via a web app »*](constructor/messages.botPreparedInlineMessage)
 
 ---
 
-###### :link: [messages.preparedInlineMessage](constructor/messages.preparedInlineMessage)
+###### messages.preparedInlineMessage
 
-  - *Represents a prepared inline message received via a bot's mini app, that can be sent to some chats »*
+:link: [*Represents a prepared inline message received via a bot's mini app, that can be sent to some chats »*](constructor/messages.preparedInlineMessage)
 
 ---
 
-###### :link: [botAppSettings](constructor/botAppSettings)
+###### botAppSettings
 
-  - *Mini app » settings*
+:link: [*Mini app » settings*](constructor/botAppSettings)
 
 ---
 
-###### :link: [starRefProgram](constructor/starRefProgram)
+###### starRefProgram
 
-  - *Indo about an affiliate program offered by a bot*
+:link: [*Indo about an affiliate program offered by a bot*](constructor/starRefProgram)
 
 ---
 
-###### :link: [connectedBotStarRef](constructor/connectedBotStarRef)
+###### connectedBotStarRef
 
-  - *Info about an active affiliate program we have with a Mini App*
+:link: [*Info about an active affiliate program we have with a Mini App*](constructor/connectedBotStarRef)
 
 ---
 
-###### :link: [payments.connectedStarRefBots](constructor/payments.connectedStarRefBots)
+###### payments.connectedStarRefBots
 
-  - *Active affiliations*
+:link: [*Active affiliations*](constructor/payments.connectedStarRefBots)
 
 ---
 
-###### :link: [payments.suggestedStarRefBots](constructor/payments.suggestedStarRefBots)
+###### payments.suggestedStarRefBots
 
-  - *A list of suggested mini apps with available affiliate programs*
+:link: [*A list of suggested mini apps with available affiliate programs*](constructor/payments.suggestedStarRefBots)
 
 ---
 
-###### :link: [starsAmount](constructor/starsAmount)
+###### starsAmount
 
-  - *Describes a real (i.e. possibly decimal) amount of Telegram Stars*
+:link: [*Describes a real (i.e. possibly decimal) amount of Telegram Stars*](constructor/starsAmount)
 
 ---
 
-###### :link: [starsTonAmount](constructor/starsTonAmount)
+###### starsTonAmount
 
+:link: [*NOTHING*](constructor/starsTonAmount)
+
 ---
 
-###### :link: [messages.foundStickersNotModified](constructor/messages.foundStickersNotModified)
+###### messages.foundStickersNotModified
 
-  - *No new stickers were found for the specified query*
+:link: [*No new stickers were found for the specified query*](constructor/messages.foundStickersNotModified)
 
 ---
 
-###### :link: [messages.foundStickers](constructor/messages.foundStickers)
+###### messages.foundStickers
 
-  - *Found stickers*
+:link: [*Found stickers*](constructor/messages.foundStickers)
 
 ---
+
+###### botVerifierSettings
 
-###### :link: [botVerifierSettings](constructor/botVerifierSettings)
+:link: [*NOTHING*](constructor/botVerifierSettings)
 
 ---
 
-###### :link: [botVerification](constructor/botVerification)
+###### botVerification
 
+:link: [*NOTHING*](constructor/botVerification)
+
 ---
 
-###### :link: [starGiftAttributeModel](constructor/starGiftAttributeModel)
+###### starGiftAttributeModel
 
+:link: [*NOTHING*](constructor/starGiftAttributeModel)
+
 ---
+
+###### starGiftAttributePattern
 
-###### :link: [starGiftAttributePattern](constructor/starGiftAttributePattern)
+:link: [*NOTHING*](constructor/starGiftAttributePattern)
 
 ---
 
-###### :link: [starGiftAttributeBackdrop](constructor/starGiftAttributeBackdrop)
+###### starGiftAttributeBackdrop
 
+:link: [*NOTHING*](constructor/starGiftAttributeBackdrop)
+
 ---
+
+###### starGiftAttributeOriginalDetails
 
-###### :link: [starGiftAttributeOriginalDetails](constructor/starGiftAttributeOriginalDetails)
+:link: [*NOTHING*](constructor/starGiftAttributeOriginalDetails)
 
 ---
 
-###### :link: [payments.starGiftUpgradePreview](constructor/payments.starGiftUpgradePreview)
+###### payments.starGiftUpgradePreview
 
+:link: [*NOTHING*](constructor/payments.starGiftUpgradePreview)
+
 ---
 
-###### :link: [users.users](constructor/users.users)
+###### users.users
 
+:link: [*NOTHING*](constructor/users.users)
+
 ---
+
+###### users.usersSlice
 
-###### :link: [users.usersSlice](constructor/users.usersSlice)
+:link: [*NOTHING*](constructor/users.usersSlice)
 
 ---
 
-###### :link: [payments.uniqueStarGift](constructor/payments.uniqueStarGift)
+###### payments.uniqueStarGift
 
+:link: [*NOTHING*](constructor/payments.uniqueStarGift)
+
 ---
 
-###### :link: [messages.webPagePreview](constructor/messages.webPagePreview)
+###### messages.webPagePreview
 
+:link: [*NOTHING*](constructor/messages.webPagePreview)
+
 ---
+
+###### savedStarGift
 
-###### :link: [savedStarGift](constructor/savedStarGift)
+:link: [*NOTHING*](constructor/savedStarGift)
 
 ---
 
-###### :link: [payments.savedStarGifts](constructor/payments.savedStarGifts)
+###### payments.savedStarGifts
 
+:link: [*NOTHING*](constructor/payments.savedStarGifts)
+
 ---
 
-###### :link: [inputSavedStarGiftUser](constructor/inputSavedStarGiftUser)
+###### inputSavedStarGiftUser
 
+:link: [*NOTHING*](constructor/inputSavedStarGiftUser)
+
 ---
+
+###### inputSavedStarGiftChat
 
-###### :link: [inputSavedStarGiftChat](constructor/inputSavedStarGiftChat)
+:link: [*NOTHING*](constructor/inputSavedStarGiftChat)
 
 ---
 
-###### :link: [inputSavedStarGiftSlug](constructor/inputSavedStarGiftSlug)
+###### inputSavedStarGiftSlug
 
+:link: [*NOTHING*](constructor/inputSavedStarGiftSlug)
+
 ---
+
+###### payments.starGiftWithdrawalUrl
 
-###### :link: [payments.starGiftWithdrawalUrl](constructor/payments.starGiftWithdrawalUrl)
+:link: [*NOTHING*](constructor/payments.starGiftWithdrawalUrl)
 
 ---
 
-###### :link: [paidReactionPrivacyDefault](constructor/paidReactionPrivacyDefault)
+###### paidReactionPrivacyDefault
 
+:link: [*NOTHING*](constructor/paidReactionPrivacyDefault)
+
 ---
 
-###### :link: [paidReactionPrivacyAnonymous](constructor/paidReactionPrivacyAnonymous)
+###### paidReactionPrivacyAnonymous
 
+:link: [*NOTHING*](constructor/paidReactionPrivacyAnonymous)
+
 ---
+
+###### paidReactionPrivacyPeer
 
-###### :link: [paidReactionPrivacyPeer](constructor/paidReactionPrivacyPeer)
+:link: [*NOTHING*](constructor/paidReactionPrivacyPeer)
 
 ---
 
-###### :link: [account.paidMessagesRevenue](constructor/account.paidMessagesRevenue)
+###### account.paidMessagesRevenue
 
+:link: [*NOTHING*](constructor/account.paidMessagesRevenue)
+
 ---
 
-###### :link: [requirementToContactEmpty](constructor/requirementToContactEmpty)
+###### requirementToContactEmpty
 
+:link: [*NOTHING*](constructor/requirementToContactEmpty)
+
 ---
+
+###### requirementToContactPremium
 
-###### :link: [requirementToContactPremium](constructor/requirementToContactPremium)
+:link: [*NOTHING*](constructor/requirementToContactPremium)
 
 ---
 
-###### :link: [requirementToContactPaidMessages](constructor/requirementToContactPaidMessages)
+###### requirementToContactPaidMessages
 
+:link: [*NOTHING*](constructor/requirementToContactPaidMessages)
+
 ---
 
-###### :link: [businessBotRights](constructor/businessBotRights)
+###### businessBotRights
 
+:link: [*NOTHING*](constructor/businessBotRights)
+
 ---
+
+###### disallowedGiftsSettings
 
-###### :link: [disallowedGiftsSettings](constructor/disallowedGiftsSettings)
+:link: [*NOTHING*](constructor/disallowedGiftsSettings)
 
 ---
 
-###### :link: [sponsoredPeer](constructor/sponsoredPeer)
+###### sponsoredPeer
 
+:link: [*NOTHING*](constructor/sponsoredPeer)
+
 ---
+
+###### contacts.sponsoredPeersEmpty
 
-###### :link: [contacts.sponsoredPeersEmpty](constructor/contacts.sponsoredPeersEmpty)
+:link: [*NOTHING*](constructor/contacts.sponsoredPeersEmpty)
 
 ---
 
-###### :link: [contacts.sponsoredPeers](constructor/contacts.sponsoredPeers)
+###### contacts.sponsoredPeers
 
+:link: [*NOTHING*](constructor/contacts.sponsoredPeers)
+
 ---
 
-###### :link: [starGiftAttributeIdModel](constructor/starGiftAttributeIdModel)
+###### starGiftAttributeIdModel
 
+:link: [*NOTHING*](constructor/starGiftAttributeIdModel)
+
 ---
+
+###### starGiftAttributeIdPattern
 
-###### :link: [starGiftAttributeIdPattern](constructor/starGiftAttributeIdPattern)
+:link: [*NOTHING*](constructor/starGiftAttributeIdPattern)
 
 ---
 
-###### :link: [starGiftAttributeIdBackdrop](constructor/starGiftAttributeIdBackdrop)
+###### starGiftAttributeIdBackdrop
 
+:link: [*NOTHING*](constructor/starGiftAttributeIdBackdrop)
+
 ---
 
-###### :link: [starGiftAttributeCounter](constructor/starGiftAttributeCounter)
+###### starGiftAttributeCounter
 
+:link: [*NOTHING*](constructor/starGiftAttributeCounter)
+
 ---
+
+###### payments.resaleStarGifts
 
-###### :link: [payments.resaleStarGifts](constructor/payments.resaleStarGifts)
+:link: [*NOTHING*](constructor/payments.resaleStarGifts)
 
 ---
 
-###### :link: [stories.canSendStoryCount](constructor/stories.canSendStoryCount)
+###### stories.canSendStoryCount
 
+:link: [*NOTHING*](constructor/stories.canSendStoryCount)
+
 ---
 
-###### :link: [pendingSuggestion](constructor/pendingSuggestion)
+###### pendingSuggestion
 
+:link: [*NOTHING*](constructor/pendingSuggestion)
+
 ---
+
+###### todoItem
 
-###### :link: [todoItem](constructor/todoItem)
+:link: [*NOTHING*](constructor/todoItem)
 
 ---
 
-###### :link: [todoList](constructor/todoList)
+###### todoList
 
+:link: [*NOTHING*](constructor/todoList)
+
 ---
+
+###### todoCompletion
 
-###### :link: [todoCompletion](constructor/todoCompletion)
+:link: [*NOTHING*](constructor/todoCompletion)
 
 ---
 
-###### :link: [suggestedPost](constructor/suggestedPost)
+###### suggestedPost
 
+:link: [*NOTHING*](constructor/suggestedPost)
+
 ---
 
-###### :link: [starsRating](constructor/starsRating)
+###### starsRating
 
+:link: [*NOTHING*](constructor/starsRating)
+
 ---
+
+###### starGiftCollection
 
-###### :link: [starGiftCollection](constructor/starGiftCollection)
+:link: [*NOTHING*](constructor/starGiftCollection)
 
 ---
 
-###### :link: [payments.starGiftCollectionsNotModified](constructor/payments.starGiftCollectionsNotModified)
+###### payments.starGiftCollectionsNotModified
 
+:link: [*NOTHING*](constructor/payments.starGiftCollectionsNotModified)
+
 ---
 
-###### :link: [payments.starGiftCollections](constructor/payments.starGiftCollections)
+###### payments.starGiftCollections
 
+:link: [*NOTHING*](constructor/payments.starGiftCollections)
+
 ---
+
+###### storyAlbum
 
-###### :link: [storyAlbum](constructor/storyAlbum)
+:link: [*NOTHING*](constructor/storyAlbum)
 
 ---
 
-###### :link: [stories.albumsNotModified](constructor/stories.albumsNotModified)
+###### stories.albumsNotModified
 
+:link: [*NOTHING*](constructor/stories.albumsNotModified)
+
 ---
 
-###### :link: [stories.albums](constructor/stories.albums)
+###### stories.albums
 
+:link: [*NOTHING*](constructor/stories.albums)
+
 ---
+
+###### searchPostsFlood
 
-###### :link: [searchPostsFlood](constructor/searchPostsFlood)
+:link: [*NOTHING*](constructor/searchPostsFlood)
