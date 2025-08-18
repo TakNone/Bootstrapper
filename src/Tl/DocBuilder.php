@@ -20,8 +20,8 @@ abstract class DocBuilder {
 	static public function mdSafe(string $string) : string {
 		return htmlentities(preg_replace('/([\\\\`*_{}\[\]\(\)#\+\-\.!\|])/','\\\\$1',$string));
 	}
-	static public function layer(string $TLFile) : int {
-		$layer = read($TLFile);
+	static public function layer(bool $secret = false) : int {
+		$layer = read(__DIR__.DIRECTORY_SEPARATOR.($secret ? 'secret.tl' : 'api.tl'));
 		if(preg_match('~\/\/\sLAYER\s(?<layer>\d+)~i',$layer,$match)):
 			return intval($match['layer']);
 		else:
@@ -291,12 +291,12 @@ abstract class DocBuilder {
 						'long' => Helper::generateRandomLong(),
 						'double' => random_int(-0x80000000,0x7fffffff) / 0x400,
 						'string' => Helper::generateRandomString(),
-						'bytes' => mb_convert_encoding(random_bytes(5).'LiveProto'.random_bytes(5),'UTF-8'),
 						'true' => true,
 						'bool' => boolval(random_int(0,1)),
 						default => null
 					};
 					$constValue = match(strtolower($parsed['type'])){
+						'bytes' => '"\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"', // mb_convert_encoding(random_bytes(5).'LiveProto'.random_bytes(5),'UTF-8') //
 						'x' => '$client->help->getConfig(raw : true)',
 						default => null
 					};
@@ -346,7 +346,7 @@ abstract class DocBuilder {
 		$json = array();
 		$tls = array(__DIR__.DIRECTORY_SEPARATOR.'api.tl');
 		foreach($tls as $tl):
-			$layer = self::layer($tl);
+			$layer = self::layer(str_contains($tl,'secret.tl'));
 			$json[$layer] = Tl::parseFile($tl);
 		endforeach;
 		self::create($json);
