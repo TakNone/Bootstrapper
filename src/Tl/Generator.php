@@ -246,7 +246,11 @@ abstract class Generator {
 				$flagtype = $flags['type'];
 				if($flagtype['is_flag']):
 					if(str_ends_with(strlen($name) === 0x5 ? $name.chr(49) : $name,strval($flagtype['flag_number']))):
-						$stream->writeNewLine(chr(36).$name.' |= is_null('.chr(36).$flagname.') ? 0 : (1 << '.$flagtype['flag_index'].');');
+						if($flagtype['type'] != 'true'):
+							$stream->writeNewLine(chr(36).$name.' |= is_null('.chr(36).$flagname.') ? 0 : (1 << '.$flagtype['flag_index'].');');
+						else:
+							$stream->writeNewLine(chr(36).$name.' |= '.chr(36).$flagname.' ? 0 : (1 << '.$flagtype['flag_index'].');');
+						endif;
 					endif;
 				endif;
 			endforeach;
@@ -342,7 +346,7 @@ abstract class Generator {
 			'double' => 'float',
 			'string' => 'string',
 			'bytes' => 'string',
-			'true' => 'true',
+			'true' => 'bool',
 			'bool' => 'bool',
 			default => 'object'
 		};
