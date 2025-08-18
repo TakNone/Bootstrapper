@@ -1,6 +1,6 @@
 # attachMenuBot
 
-**Description** : *Represents a bot mini app that can be launched from the attachment/side menu »*
+**Description** : *Represents a bot mini app that can be launched from the attachment/side menu &raquo;*
 
 **Layer** : 211
 
@@ -44,8 +44,8 @@ $attachMenuBot = $client->attachMenuBot(
 	show_in_attach_menu : true,
 	show_in_side_menu : true,
 	side_menu_disclaimer_needed : true,
-	bot_id : -8647126026713128545,
-	short_name : 'rG30giST8MYdxbq2',
+	bot_id : 5142399176518465011,
+	short_name : 'gI8Jm3rHC4ebfu76',
 	peer_types : array(
 		$client->attachMenuPeerTypeSameBotPM(),
 		$client->attachMenuPeerTypeBotPM(),
@@ -55,14 +55,14 @@ $attachMenuBot = $client->attachMenuBot(
 	),
 	icons : array(
 		$client->attachMenuBotIcon(
-			name : 'OZwfmpiEndlR2rDK',
+			name : 'AVpvfrOZRhiN46Kq',
 			icon : $client->documentEmpty(
-				id : 5171343918236441645,
+				id : -5615293895402548731,
 			),
 			colors : array(
 				$client->attachMenuBotIconColor(
-					name : 'S51HBAt0Yn7RfVg2',
-					color : 93,
+					name : 'pmrsWLbFKf4Mzg9k',
+					color : 35,
 				),
 			),
 		),

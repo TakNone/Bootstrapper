@@ -1,6 +1,6 @@
 # stickers.removeStickerFromSet
 
-**Description** : *Remove a sticker from the set where it belongs. The sticker set must have been created by the current user/bot*
+**Description** : *Remove a sticker from the set where it belongs\. The sticker set must have been created by the current user/bot*
 
 **Layer** : 211
 

@@ -30,8 +30,9 @@ fileHash#f39b035c offset:long limit:int hash:bytes = FileHash;
 
 ```php
 $fileHash = $client->fileHash(
-	offset : -1114490307374795194,
-	limit : 14,
-	hash : 'Y?u?LiveProto??x?',
+	offset : -7782687788525987217,
+	limit : 12,
+	hash : '̯?
+"LiveProtoN/l]',
 );
 ```

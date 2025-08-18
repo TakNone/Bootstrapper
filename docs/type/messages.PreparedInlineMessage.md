@@ -1,6 +1,6 @@
 # messages.PreparedInlineMessage
 
-**Description** : *Represents a prepared inline message received via a bot's mini app, that can be sent to some chats »*
+**Description** : *Represents a prepared inline message received via a bot&#039;s mini app, that can be sent to some chats &raquo;*
 
 **Layer** : 211
 

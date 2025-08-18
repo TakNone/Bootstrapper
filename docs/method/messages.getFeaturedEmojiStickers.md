@@ -28,6 +28,6 @@ messages.getFeaturedEmojiStickers#ecf6736 hash:long = messages.FeaturedStickers;
 
 ```php
 $messagesFeaturedStickers = $client->messages->getFeaturedEmojiStickers(
-	hash : 5846489828474607607,
+	hash : -4941138151866765469,
 );
 ```

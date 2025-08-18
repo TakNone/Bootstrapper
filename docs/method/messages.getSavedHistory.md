@@ -1,6 +1,6 @@
 # messages.getSavedHistory
 
-**Description** : *Returns saved messages » forwarded from a specific peer*
+**Description** : *Returns saved messages &raquo; forwarded from a specific peer*
 
 **Layer** : 211
 
@@ -47,12 +47,12 @@ messages.getSavedHistory#998ab009 flags:# parent_peer:flags.0?InputPeer peer:Inp
 $messagesMessages = $client->messages->getSavedHistory(
 	parent_peer : $client->inputPeerEmpty(),
 	peer : $client->inputPeerEmpty(),
-	offset_id : 40,
-	offset_date : 99,
-	add_offset : 47,
-	limit : 16,
-	max_id : 90,
-	min_id : 81,
-	hash : 6451190367859121013,
+	offset_id : 74,
+	offset_date : 79,
+	add_offset : 9,
+	limit : 49,
+	max_id : 1,
+	min_id : 89,
+	hash : -8901255617522992739,
 );
 ```

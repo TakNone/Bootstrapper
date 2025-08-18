@@ -1,6 +1,6 @@
 # DialogFilterSuggested
 
-**Description** : *Suggested dialog filters (folder »)*
+**Description** : *Suggested dialog filters \(folder &raquo;\)*
 
 **Layer** : 211
 

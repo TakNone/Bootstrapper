@@ -29,7 +29,7 @@ updateBotWebhookJSON#8317c0c3 data:DataJSON = Update;
 ```php
 $update = $client->updateBotWebhookJSON(
 	data : $client->dataJSON(
-		data : 'BoEivnX5H1hNqfS0',
+		data : '3BFIsMdnD4Pre6tN',
 	),
 );
 ```

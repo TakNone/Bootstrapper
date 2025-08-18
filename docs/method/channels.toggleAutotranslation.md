@@ -28,6 +28,6 @@ channels.toggleAutotranslation#167fc0a1 channel:InputChannel enabled:Bool = Upda
 ```php
 $updates = $client->channels->toggleAutotranslation(
 	channel : $client->inputChannelEmpty(),
-	enabled : $client->boolFalse(),
+	enabled : false,
 );
 ```

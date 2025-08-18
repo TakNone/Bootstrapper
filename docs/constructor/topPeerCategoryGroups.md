@@ -1,6 +1,6 @@
 # topPeerCategoryGroups
 
-**Description** : *Often-opened groups and supergroups*
+**Description** : *Often\-opened groups and supergroups*
 
 **Layer** : 211
 

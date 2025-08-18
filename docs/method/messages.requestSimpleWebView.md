@@ -52,10 +52,10 @@ $webViewResult = $client->messages->requestSimpleWebView(
 	fullscreen : true,
 	bot : $client->inputUserEmpty(),
 	url : 'https://docs.liveproto.dev',
-	start_param : 'eriyOAgEz6SCNnMl',
+	start_param : 'G7EQFY4uetkobgZP',
 	theme_params : $client->dataJSON(
-		data : '2eKor6LHplFibd7S',
+		data : 'Cx2AVEtbXwozMhPd',
 	),
-	platform : 'nqh13IQWAzFxye0s',
+	platform : '9gDdxNYa7FIyCUG4',
 );
 ```

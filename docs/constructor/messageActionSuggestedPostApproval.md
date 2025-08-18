@@ -33,11 +33,11 @@ messageActionSuggestedPostApproval#ee7a1596 flags:# rejected:flags.0?true balanc
 $messageAction = $client->messageActionSuggestedPostApproval(
 	rejected : true,
 	balance_too_low : true,
-	reject_comment : '8F9Z5q3JWkUNnmoC',
-	schedule_date : 92,
+	reject_comment : '9OYP7syAV1qvJRLr',
+	schedule_date : 21,
 	price : $client->starsAmount(
-		amount : -7539469163690917096,
-		nanos : 28,
+		amount : 3763222589033416364,
+		nanos : 68,
 	),
 );
 ```

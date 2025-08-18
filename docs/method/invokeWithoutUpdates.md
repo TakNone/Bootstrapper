@@ -1,6 +1,6 @@
 # invokeWithoutUpdates
 
-**Description** : *Invoke a request without subscribing the used connection for updates (this is enabled by default for file queries)*
+**Description** : *Invoke a request without subscribing the used connection for updates \(this is enabled by default for file queries\)*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ invokeWithoutUpdates#bf9459b7 {X:Type} query:!X = X;
 
 ```php
 $x = $client->invokeWithoutUpdates(
-	query : $client->X(),
+	query : $client->help->getConfig(raw : true),
 );
 ```

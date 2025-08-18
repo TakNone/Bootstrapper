@@ -1,6 +1,6 @@
 # inputPhotoFileLocation
 
-**Description** : *Use this object to download a photo with upload.getFile method*
+**Description** : *Use this object to download a photo with upload\.getFile method*
 
 **Layer** : 211
 
@@ -31,9 +31,9 @@ inputPhotoFileLocation#40181ffe id:long access_hash:long file_reference:bytes th
 
 ```php
 $inputFileLocation = $client->inputPhotoFileLocation(
-	id : -1741027574928090257,
-	access_hash : -2708615757829558997,
-	file_reference : 'T???LiveProto?R+?',
-	thumb_size : 'br17LfwhRYI5aB48',
+	id : 4908765635630911707,
+	access_hash : -2124510337846360139,
+	file_reference : '??h?LiveProto?l???',
+	thumb_size : '3sGS7UOvmIN5PeuK',
 );
 ```

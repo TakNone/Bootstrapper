@@ -1,6 +1,6 @@
 # StarsSubscriptionPricing
 
-**Description** : *Pricing of a Telegram Star subscription »*
+**Description** : *Pricing of a Telegram Star subscription &raquo;*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # Authorization
 
-**Description** : *Represents a logged-in session*
+**Description** : *Represents a logged\-in session*
 
 **Layer** : 211
 

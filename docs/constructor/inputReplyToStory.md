@@ -30,6 +30,6 @@ inputReplyToStory#5881323a peer:InputPeer story_id:int = InputReplyTo;
 ```php
 $inputReplyTo = $client->inputReplyToStory(
 	peer : $client->inputPeerEmpty(),
-	story_id : 84,
+	story_id : 88,
 );
 ```

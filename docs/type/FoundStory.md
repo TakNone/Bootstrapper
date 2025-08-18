@@ -1,6 +1,6 @@
 # FoundStory
 
-**Description** : *A story found using global story search »*
+**Description** : *A story found using global story search &raquo;*
 
 **Layer** : 211
 

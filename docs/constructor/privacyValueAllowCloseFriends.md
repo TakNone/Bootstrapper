@@ -1,6 +1,6 @@
 # privacyValueAllowCloseFriends
 
-**Description** : *Allow only close friends »*
+**Description** : *Allow only close friends &raquo;*
 
 **Layer** : 211
 

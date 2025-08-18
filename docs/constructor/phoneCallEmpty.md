@@ -28,6 +28,6 @@ phoneCallEmpty#5366c915 id:long = PhoneCall;
 
 ```php
 $phoneCall = $client->phoneCallEmpty(
-	id : 5668736316229192173,
+	id : 7545971102911039516,
 );
 ```

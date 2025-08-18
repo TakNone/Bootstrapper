@@ -45,7 +45,7 @@ $messagesSearchResultsCalendar = $client->messages->getSearchResultsCalendar(
 	peer : $client->inputPeerEmpty(),
 	saved_peer_id : $client->inputPeerEmpty(),
 	filter : $client->inputMessagesFilterEmpty(),
-	offset_id : 94,
-	offset_date : 2,
+	offset_id : 43,
+	offset_date : 14,
 );
 ```

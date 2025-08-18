@@ -1,6 +1,6 @@
 # pageBlockBlockquote
 
-**Description** : *Quote (equivalent to the HTML <blockquote>)*
+**Description** : *Quote \(equivalent to the HTML &lt;blockquote&gt;\)*
 
 **Layer** : 211
 

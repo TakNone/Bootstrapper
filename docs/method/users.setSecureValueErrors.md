@@ -1,6 +1,6 @@
 # users.setSecureValueErrors
 
-**Description** : *Notify the user that the sent passport data contains some errors The user will not be able to re-submit their Passport data to you until the errors are fixed (the contents of the field for which you returned the error must change)*
+**Description** : *Notify the user that the sent passport data contains some errors The user will not be able to re\-submit their Passport data to you until the errors are fixed \(the contents of the field for which you returned the error must change\)*
 
 **Layer** : 211
 
@@ -43,49 +43,49 @@ $bool = $client->users->setSecureValueErrors(
 	errors : array(
 		$client->secureValueErrorData(
 			type : $client->secureValueTypePersonalDetails(),
-			data_hash : 'O???hLiveProto?L?	',
-			field : '5mKTut2FDwxWEqdI',
-			text : 'bYW2OEpLqQDeXG3d',
+			data_hash : '??,CLiveProto?`???',
+			field : 'Q3korePAwWSBMqF1',
+			text : 'mJbqga1VwpWNt2D9',
 		),
 		$client->secureValueErrorFrontSide(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '?Qq*LiveProto):??',
-			text : 'D5lCyNt2Wgfq94wd',
+			file_hash : 'p?B?LiveProtoV?$?',
+			text : 'ebUyTF82cphWsoj4',
 		),
 		$client->secureValueErrorReverseSide(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '?|???LiveProto???.?',
-			text : 'aLVnCtfhjAJes2lD',
+			file_hash : 'aXN?oLiveProto?PԻy',
+			text : 'iYkXrzT1wfca820D',
 		),
 		$client->secureValueErrorSelfie(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : 'KfBK.LiveProto?YA?',
-			text : 'Ke3wt91NFypqci5f',
+			file_hash : '???2`LiveProto?6?',
+			text : '3q5u4sU7XQpjw0EV',
 		),
 		$client->secureValueErrorFile(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '???+)LiveProto??ƥ?',
-			text : 'hl5k7JXOzbmqfIdC',
+			file_hash : '????LiveProto!>?',
+			text : 'hcTCY8Kmwoy5XrDI',
 		),
 		$client->secureValueErrorFiles(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : array('}?1??LiveProto=???:'),
-			text : 'qBZ3aQswrIcgYAzK',
+			file_hash : array('????LiveProto??M?L'),
+			text : 'SYGZRjonHJbs79lc',
 		),
 		$client->secureValueError(
 			type : $client->secureValueTypePersonalDetails(),
-			hash : '?1??LiveProto5?\\?-',
-			text : 'ON5w1kL4rGmj82xa',
+			hash : 'N' . "\0" . '3??LiveProto?\'???',
+			text : 'rSBe2Gyuq1CMazc5',
 		),
 		$client->secureValueErrorTranslationFile(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '??=?LiveProtoL̤??',
-			text : 'CevbfOHF1TLkBS9x',
+			file_hash : '?*?jrLiveProto?4oZ8',
+			text : 'bzfpQvMxnwE6ZeG3',
 		),
 		$client->secureValueErrorTranslationFiles(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : array('/7??ALiveProto?V?%B'),
-			text : '7hGWbaYVyLI5sHJM',
+			file_hash : array('J???LiveProto?UiE'),
+			text : 'A7RK1L6Q2GIUMT0Z',
 		),
 	),
 );

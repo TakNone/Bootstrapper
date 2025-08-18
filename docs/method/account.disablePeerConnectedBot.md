@@ -1,6 +1,6 @@
 # account.disablePeerConnectedBot
 
-**Description** : *Permanently disconnect a specific chat from all business bots » (equivalent to specifying it in recipients.exclude_users during initial configuration with account.updateConnectedBot »); to reconnect of a chat disconnected using this method the user must reconnect the entire bot by invoking account.updateConnectedBot »*
+**Description** : *Permanently disconnect a specific chat from all business bots &raquo; \(equivalent to specifying it in recipients\.exclude\_users during initial configuration with account\.updateConnectedBot &raquo;\); to reconnect of a chat disconnected using this method the user must reconnect the entire bot by invoking account\.updateConnectedBot &raquo;*
 
 **Layer** : 211
 

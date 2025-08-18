@@ -31,9 +31,9 @@ updateChatParticipantAdmin#d7ca61a2 chat_id:long user_id:long is_admin:Bool vers
 
 ```php
 $update = $client->updateChatParticipantAdmin(
-	chat_id : -9217749766579427071,
-	user_id : 3868890305677050092,
-	is_admin : $client->boolFalse(),
-	version : 40,
+	chat_id : 2215489260666256603,
+	user_id : 5649115439900359759,
+	is_admin : false,
+	version : 33,
 );
 ```

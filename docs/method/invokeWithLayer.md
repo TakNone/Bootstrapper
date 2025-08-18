@@ -41,7 +41,7 @@ invokeWithLayer#da9b0d0d {X:Type} layer:int query:!X = X;
 
 ```php
 $x = $client->invokeWithLayer(
-	layer : 95,
-	query : $client->X(),
+	layer : 66,
+	query : $client->help->getConfig(raw : true),
 );
 ```

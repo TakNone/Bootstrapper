@@ -36,6 +36,6 @@ langpack.getLanguages#42c6978f lang_pack:string = Vector<LangPackLanguage>;
 
 ```php
 $langPackLanguage = $client->langpack->getLanguages(
-	lang_pack : 'nBNICS18oVmrWQPz',
+	lang_pack : 'DnqKr0op9xZy4Fw7',
 );
 ```

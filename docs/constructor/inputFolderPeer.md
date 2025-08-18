@@ -30,6 +30,6 @@ inputFolderPeer#fbd2c296 peer:InputPeer folder_id:int = InputFolderPeer;
 ```php
 $inputFolderPeer = $client->inputFolderPeer(
 	peer : $client->inputPeerEmpty(),
-	folder_id : 23,
+	folder_id : 52,
 );
 ```

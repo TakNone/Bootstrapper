@@ -1,6 +1,6 @@
 # help.peerColorOption
 
-**Description** : *Contains info about a color palette »*
+**Description** : *Contains info about a color palette &raquo;*
 
 **Layer** : 211
 
@@ -35,14 +35,14 @@ help.peerColorOption#adec6ebe flags:# hidden:flags.0?true color_id:int colors:fl
 ```php
 $helpPeerColorOption = $client->help->peerColorOption(
 	hidden : true,
-	color_id : 61,
+	color_id : 14,
 	colors : $client->help->peerColorSet(
-		colors : array(67),
+		colors : array(14),
 	),
 	dark_colors : $client->help->peerColorSet(
-		colors : array(67),
+		colors : array(82),
 	),
-	channel_min_level : 37,
-	group_min_level : 20,
+	channel_min_level : 28,
+	group_min_level : 93,
 );
 ```

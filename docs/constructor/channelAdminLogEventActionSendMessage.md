@@ -29,9 +29,9 @@ channelAdminLogEventActionSendMessage#278f2868 message:Message = ChannelAdminLog
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionSendMessage(
 	message : $client->messageEmpty(
-		id : 99,
+		id : 89,
 		peer_id : $client->peerUser(
-			user_id : 3597480267674685208,
+			user_id : -939350684577590472,
 		),
 	),
 );

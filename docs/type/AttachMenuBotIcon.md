@@ -1,6 +1,6 @@
 # AttachMenuBotIcon
 
-**Description** : *Represents an attachment menu icon for bot mini apps »*
+**Description** : *Represents an attachment menu icon for bot mini apps &raquo;*
 
 **Layer** : 211
 

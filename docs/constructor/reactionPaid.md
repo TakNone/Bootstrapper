@@ -1,6 +1,6 @@
 # reactionPaid
 
-**Description** : *Represents a paid Telegram Star reaction »*
+**Description** : *Represents a paid Telegram Star reaction &raquo;*
 
 **Layer** : 211
 

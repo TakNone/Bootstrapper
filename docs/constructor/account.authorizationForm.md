@@ -61,9 +61,9 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 		$client->secureValue(
 			type : $client->secureValueTypePersonalDetails(),
 			data : $client->secureData(
-				data : '?¢D?LiveProtocB߱',
-				data_hash : '?????LiveProto.<??L',
-				secret : '???5LiveProto?N?',
+				data : ']?l~?LiveProtoAW?a',
+				data_hash : '_K/(7LiveProto"?c',
+				secret : 'Iӕ4LiveProtoȐ2',
 			),
 			front_side : $client->secureFileEmpty(),
 			reverse_side : $client->secureFileEmpty(),
@@ -71,84 +71,85 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 			translation : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : 4185274314292940557,
-					access_hash : -3119216223650430315,
-					size : -2469484863443236615,
-					dc_id : 16,
-					date : 37,
-					file_hash : '?fL.LiveProto?Z_4',
-					secret : '/???LiveProto?r',
+					id : -1293658806468941072,
+					access_hash : 5005056842954740544,
+					size : 7809395206697932370,
+					dc_id : 12,
+					date : 24,
+					file_hash : '?/LiveProto?
+T??',
+					secret : '?g<?LiveProtob??Û',
 				),
 			),
 			files : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : 4938417309668833355,
-					access_hash : -7233315498583373437,
-					size : 7713200980376809298,
-					dc_id : 73,
-					date : 65,
-					file_hash : '??BCLiveProto$??T6',
-					secret : 'at?LiveProto??]?\\',
+					id : 3832307423037771502,
+					access_hash : -2084469580020966581,
+					size : 8604000355509096762,
+					dc_id : 46,
+					date : 66,
+					file_hash : 'i/' . "\0" . 'LiveProto?n',
+					secret : '?t?Q{LiveProto???xk',
 				),
 			),
 			plain_data : $client->securePlainPhone(
 				phone : '+1234567890',
 			),
-			hash : 'X???LiveProto?>H?F',
+			hash : '???LiveProtoR??M?',
 		),
 	),
 	errors : array(
 		$client->secureValueErrorData(
 			type : $client->secureValueTypePersonalDetails(),
-			data_hash : 'L?z}LiveProto???T/',
-			field : 'RyZ4uAdJzEBTfjK9',
-			text : 'I4vLzTaSl7RPDFNo',
+			data_hash : 'sK?ѦLiveProto??)x',
+			field : 'ZbyhtDTamiAqUQJr',
+			text : 'n6VrOlYzFU35oWGP',
 		),
 		$client->secureValueErrorFrontSide(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : 'X/??LiveProto1S??_',
-			text : 'tCv3lbI8SzuJ2fyX',
+			file_hash : 'D??}#LiveProto??׳',
+			text : 'UkHFbipe7SyuEXNT',
 		),
 		$client->secureValueErrorReverseSide(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '?((??LiveProto??{?',
-			text : 'u7gJc2bsHGFro409',
+			file_hash : 'A?^?[LiveProto;?j?',
+			text : '9DXIJq6gfHtZAuRz',
 		),
 		$client->secureValueErrorSelfie(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '?3e;?LiveProto+?g˜',
-			text : 'dntCSJjqWhE0r6LH',
+			file_hash : '??f?LiveProtom?{',
+			text : 'ZrU4HMn03RuSxvVl',
 		),
 		$client->secureValueErrorFile(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '?W?|LLiveProtob4;?',
-			text : 'dvq5ybeAiKEUx3X1',
+			file_hash : '????LiveProto?-S??',
+			text : 'YdBoC6l4XaZhn9vs',
 		),
 		$client->secureValueErrorFiles(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : array('h[?LiveProtonz\\??'),
-			text : 'Kgu8JEHsbly3nTRY',
+			file_hash : array('?y?6?LiveProto?N)??'),
+			text : 'DfxySX7gp39Rct6L',
 		),
 		$client->secureValueError(
 			type : $client->secureValueTypePersonalDetails(),
-			hash : 'C?7?,LiveProto:2Ǻ',
-			text : 'UlxBHa2t8NrncpeT',
+			hash : '??ϭLiveProtoAPMg?',
+			text : 'LYZehftb0drzlEs8',
 		),
 		$client->secureValueErrorTranslationFile(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '?J95?LiveProtok??F?',
-			text : 'kbFmQyMdiUPtZAX4',
+			file_hash : '???aLiveProtoƟD??',
+			text : 'e1PJDI7LVMCYi4aO',
 		),
 		$client->secureValueErrorTranslationFiles(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : array('?k?ȅLiveProto??:~'),
-			text : '39ERwQdVax2jzP7t',
+			file_hash : array('_º?LiveProto???W'),
+			text : 'jOBhFGfWcY59vQ30',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 5776949275374987020,
+			id : -8330885044052167521,
 		),
 		$client->user(
 			self : true,
@@ -176,24 +177,24 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 2920177896460802052,
-			access_hash : -2877214769109013180,
+			id : 2730116014913515038,
+			access_hash : 7348424529605554984,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 75,
+			bot_info_version : 16,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'G0bkiOcIpTu6rgLS',
-					reason : '1YCAu5gpnbcHo8Q7',
-					text : 'Xfctb4vjeEGYDawO',
+					platform : 'xfnPdC8u9BjM7g2o',
+					reason : 'UEf8JdImYPBvAalq',
+					text : 'xy7vt3DLE0ugVYjz',
 				),
 			),
-			bot_inline_placeholder : 'mFDBOYRnZAi01d4K',
-			lang_code : 'S37P0ZtAUoCOFLyc',
+			bot_inline_placeholder : 'dNZKRB5a8Tflt1J0',
+			lang_code : 'LNDzuxVUSXP42vgB',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -202,18 +203,18 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 92,
+			stories_max_id : 42,
 			color : $client->peerColor(
-				color : 49,
-				background_emoji_id : -8059992902639820492,
+				color : 11,
+				background_emoji_id : 5650333406789309152,
 			),
 			profile_color : $client->peerColor(
-				color : 42,
-				background_emoji_id : -1238342141715745073,
+				color : 94,
+				background_emoji_id : -521943296140250295,
 			),
-			bot_active_users : 23,
-			bot_verification_icon : -638357542769210466,
-			send_paid_messages_stars : -6299609058059434561,
+			bot_active_users : 4,
+			bot_verification_icon : -8173848288626104058,
+			send_paid_messages_stars : -7282277945567104609,
 		),
 	),
 	privacy_policy_url : 'https://docs.liveproto.dev',

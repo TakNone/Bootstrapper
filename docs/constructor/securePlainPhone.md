@@ -1,6 +1,6 @@
 # securePlainPhone
 
-**Description** : *Phone number to use in telegram passport: it must be verified, first »*
+**Description** : *Phone number to use in telegram passport: it must be verified, first &raquo;*
 
 **Layer** : 211
 

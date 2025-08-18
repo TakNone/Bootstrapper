@@ -1,6 +1,6 @@
 # account.updateConnectedBot
 
-**Description** : *Connect a business bot » to the current account, or to change the current connection settings*
+**Description** : *Connect a business bot &raquo; to the current account, or to change the current connection settings*
 
 **Layer** : 211
 
@@ -70,26 +70,26 @@ $updates = $client->account->updateConnectedBot(
 			$client->inputUserEmpty(),
 			$client->inputUserSelf(),
 			$client->inputUser(
-				user_id : 693142807904114948,
-				access_hash : 796274386956289314,
+				user_id : -1215370992793841510,
+				access_hash : -2380384568187356926,
 			),
 			$client->inputUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 54,
-				user_id : 911747408343637480,
+				msg_id : 22,
+				user_id : 73494711120587864,
 			),
 		),
 		exclude_users : array(
 			$client->inputUserEmpty(),
 			$client->inputUserSelf(),
 			$client->inputUser(
-				user_id : 905862590587875839,
-				access_hash : -8464976406082979448,
+				user_id : -1997125695973952090,
+				access_hash : -7834325241498627972,
 			),
 			$client->inputUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 85,
-				user_id : 7379902185001731163,
+				msg_id : 38,
+				user_id : -2296747777151347139,
 			),
 		),
 	),

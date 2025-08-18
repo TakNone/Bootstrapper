@@ -1,6 +1,6 @@
 # account.updateDeviceLocked
 
-**Description** : *When client-side passcode lock feature is enabled, will not show message texts in incoming PUSH notifications*
+**Description** : *When client\-side passcode lock feature is enabled, will not show message texts in incoming PUSH notifications*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ account.updateDeviceLocked#38df3532 period:int = Bool;
 
 ```php
 $bool = $client->account->updateDeviceLocked(
-	period : 42,
+	period : 76,
 );
 ```

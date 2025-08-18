@@ -30,6 +30,6 @@ inputNotifyForumTopic#5c467992 peer:InputPeer top_msg_id:int = InputNotifyPeer;
 ```php
 $inputNotifyPeer = $client->inputNotifyForumTopic(
 	peer : $client->inputPeerEmpty(),
-	top_msg_id : 96,
+	top_msg_id : 12,
 );
 ```

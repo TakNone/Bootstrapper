@@ -1,6 +1,6 @@
 # pageBlockAnchor
 
-**Description** : *Link to section within the page itself (like <a href="#target">anchor</a>)*
+**Description** : *Link to section within the page itself \(like &lt;a href=&quot;\#target&quot;&gt;anchor&lt;/a&gt;\)*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ pageBlockAnchor#ce0d37b0 name:string = PageBlock;
 
 ```php
 $pageBlock = $client->pageBlockAnchor(
-	name : '9xDlCgzdomK6skHQ',
+	name : 'SuBmMikor5dJPnz6',
 );
 ```

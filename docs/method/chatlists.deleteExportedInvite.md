@@ -1,6 +1,6 @@
 # chatlists.deleteExportedInvite
 
-**Description** : *Delete a previously created chat folder deep link »*
+**Description** : *Delete a previously created chat folder deep link &raquo;*
 
 **Layer** : 211
 
@@ -41,8 +41,8 @@ chatlists.deleteExportedInvite#719c5c5e chatlist:InputChatlist slug:string = Boo
 ```php
 $bool = $client->chatlists->deleteExportedInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 86,
+		filter_id : 68,
 	),
-	slug : 'mawBFlRX295UsrpC',
+	slug : 'CDjOWIKt0AkLNUgu',
 );
 ```

@@ -29,7 +29,7 @@ auth.loginTokenMigrateTo#68e9916 dc_id:int token:bytes = auth.LoginToken;
 
 ```php
 $authLoginToken = $client->auth->loginTokenMigrateTo(
-	dc_id : 63,
-	token : '?r?aLiveProto??n}S',
+	dc_id : 24,
+	token : '???:,LiveProto?}?&',
 );
 ```

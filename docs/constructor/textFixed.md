@@ -1,6 +1,6 @@
 # textFixed
 
-**Description** : *fixed-width rich text*
+**Description** : *fixed\-width rich text*
 
 **Layer** : 211
 

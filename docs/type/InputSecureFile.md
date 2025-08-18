@@ -1,6 +1,6 @@
 # InputSecureFile
 
-**Description** : *Secure passport file, for more info see the passport docs »*
+**Description** : *Secure passport file, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 

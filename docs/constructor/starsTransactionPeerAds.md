@@ -1,6 +1,6 @@
 # starsTransactionPeerAds
 
-**Description** : *Describes a Telegram Star transaction used to pay for Telegram ads as specified here »*
+**Description** : *Describes a Telegram Star transaction used to pay for Telegram ads as specified here &raquo;*
 
 **Layer** : 211
 

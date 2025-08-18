@@ -1,6 +1,6 @@
 # stories.getStoriesArchive
 
-**Description** : *Fetch the story archive » of a peer we control*
+**Description** : *Fetch the story archive &raquo; of a peer we control*
 
 **Layer** : 211
 
@@ -40,7 +40,7 @@ stories.getStoriesArchive#b4352016 peer:InputPeer offset_id:int limit:int = stor
 ```php
 $storiesStories = $client->stories->getStoriesArchive(
 	peer : $client->inputPeerEmpty(),
-	offset_id : 19,
-	limit : 58,
+	offset_id : 22,
+	limit : 48,
 );
 ```

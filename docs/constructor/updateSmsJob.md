@@ -28,6 +28,6 @@ updateSmsJob#f16269d4 job_id:string = Update;
 
 ```php
 $update = $client->updateSmsJob(
-	job_id : '2msVqg8d3w5ehzQn',
+	job_id : 'BVrOgXifbL72kMHE',
 );
 ```

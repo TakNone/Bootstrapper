@@ -32,19 +32,19 @@ mediaAreaGeoPoint#cad5452d flags:# coordinates:MediaAreaCoordinates geo:GeoPoint
 ```php
 $mediaArea = $client->mediaAreaGeoPoint(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 1230512.787109375,
-		y : 652057.935546875,
-		w : 645272.0810546875,
-		h : 2009871.2998046875,
-		rotation : -593941.7041015625,
-		radius : -3411.7197265625,
+		x : 765907.2509765625,
+		y : 1637457.255859375,
+		w : 1380193.6357421875,
+		h : -631665.4453125,
+		rotation : 1043855.376953125,
+		radius : -766625.6328125,
 	),
 	geo : $client->geoPointEmpty(),
 	address : $client->geoPointAddress(
-		country_iso2 : '59ufQ1gVhcNi672W',
-		state : '8wSzEl4FnCmfVxQH',
-		city : 'OzYdKnaU5piBe2EJ',
-		street : 'E43G7UezaoIhp6lW',
+		country_iso2 : '1JOl8Swt2NPDWvQ0',
+		state : 'BKNt0Qq1lWi3rVw2',
+		city : 'yD1XA5YvujTga0zN',
+		street : 'WaonupmXHiLU0IBe',
 	),
 );
 ```

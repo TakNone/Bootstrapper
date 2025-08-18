@@ -1,6 +1,6 @@
 # messages.searchStickers
 
-**Description** : *Search for stickers using AI-powered keyword search*
+**Description** : *Search for stickers using AI\-powered keyword search*
 
 **Layer** : 211
 
@@ -36,11 +36,11 @@ messages.searchStickers#29b1c66a flags:# emojis:flags.0?true q:string emoticon:s
 ```php
 $messagesFoundStickers = $client->messages->searchStickers(
 	emojis : true,
-	q : 'Ly9u7QXvG3ipgrAf',
-	emoticon : 'XZBQ4KtJNi89I0gb',
-	lang_code : array('vuZcrfAKNjkY2SBi'),
-	offset : 22,
-	limit : 98,
-	hash : -1041959422143314462,
+	q : '9xTU2qJbzIL3AtsR',
+	emoticon : 'fukQjOGv5P6349qY',
+	lang_code : array('S0ruBbtk8igxDEjq'),
+	offset : 80,
+	limit : 34,
+	hash : 2610872328009319207,
 );
 ```

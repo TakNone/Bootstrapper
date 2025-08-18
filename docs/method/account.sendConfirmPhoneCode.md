@@ -1,6 +1,6 @@
 # account.sendConfirmPhoneCode
 
-**Description** : *Send confirmation code to cancel account deletion, for more info click here »*
+**Description** : *Send confirmation code to cancel account deletion, for more info click here &raquo;*
 
 **Layer** : 211
 
@@ -37,7 +37,7 @@ account.sendConfirmPhoneCode#1b3faa88 hash:string settings:CodeSettings = auth.S
 
 ```php
 $authSentCode = $client->account->sendConfirmPhoneCode(
-	hash : 'mwHVYhSWg49azNeO',
+	hash : 'FrkY8fgxZDRe0416',
 	settings : $client->codeSettings(
 		allow_flashcall : true,
 		current_number : true,
@@ -45,9 +45,9 @@ $authSentCode = $client->account->sendConfirmPhoneCode(
 		allow_missed_call : true,
 		allow_firebase : true,
 		unknown_number : true,
-		logout_tokens : array('??PHLiveProto?R?{3'),
-		token : '457PsFtpyBGaeYdK',
-		app_sandbox : $client->boolFalse(),
+		logout_tokens : array('ÿG?LiveProto0???'),
+		token : 'dMTf17E2yODaj6IA',
+		app_sandbox : false,
 	),
 );
 ```

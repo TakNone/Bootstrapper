@@ -1,6 +1,6 @@
 # RequestedPeer
 
-**Description** : *Info about a peer, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*
+**Description** : *Info about a peer, shared by a user with the currently logged in bot using messages\.sendBotRequestedPeer*
 
 **Layer** : 211
 

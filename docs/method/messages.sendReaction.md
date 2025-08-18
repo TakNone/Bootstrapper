@@ -58,14 +58,14 @@ $updates = $client->messages->sendReaction(
 	big : true,
 	add_to_recent : true,
 	peer : $client->inputPeerEmpty(),
-	msg_id : 5,
+	msg_id : 10,
 	reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'yMf1x5UKtrV97l0H',
+			emoticon : 'JMmrWHoxaivkw4YO',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -3790556489848074041,
+			document_id : 1045548997080027577,
 		),
 		$client->reactionPaid(),
 	),

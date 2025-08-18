@@ -1,6 +1,6 @@
 # payments.connectStarRefBot
 
-**Description** : *Join a bot's affiliate program, becoming an affiliate »*
+**Description** : *Join a bot&#039;s affiliate program, becoming an affiliate &raquo;*
 
 **Layer** : 211
 

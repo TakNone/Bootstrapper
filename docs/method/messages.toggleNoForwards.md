@@ -40,6 +40,6 @@ messages.toggleNoForwards#b11eafa2 peer:InputPeer enabled:Bool = Updates;
 ```php
 $updates = $client->messages->toggleNoForwards(
 	peer : $client->inputPeerEmpty(),
-	enabled : $client->boolFalse(),
+	enabled : true,
 );
 ```

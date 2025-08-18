@@ -1,6 +1,6 @@
 # chatReactionsAll
 
-**Description** : *All reactions or all non-custom reactions are allowed*
+**Description** : *All reactions or all non\-custom reactions are allowed*
 
 **Layer** : 211
 

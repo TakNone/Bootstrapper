@@ -1,6 +1,6 @@
 # auth.LoginToken
 
-**Description** : *Login token (for QR code login)*
+**Description** : *Login token \(for QR code login\)*
 
 **Layer** : 211
 

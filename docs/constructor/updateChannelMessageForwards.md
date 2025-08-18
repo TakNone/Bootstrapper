@@ -30,8 +30,8 @@ updateChannelMessageForwards#d29a27f4 channel_id:long id:int forwards:int = Upda
 
 ```php
 $update = $client->updateChannelMessageForwards(
-	channel_id : -149416631635325412,
-	id : 45,
-	forwards : 26,
+	channel_id : -4729269517247804657,
+	id : 7,
+	forwards : 66,
 );
 ```

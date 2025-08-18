@@ -1,6 +1,6 @@
 # BotCommandScope
 
-**Description** : *Represents a scope where the bot commands, specified using bots.setBotCommands will be valid*
+**Description** : *Represents a scope where the bot commands, specified using bots\.setBotCommands will be valid*
 
 **Layer** : 211
 

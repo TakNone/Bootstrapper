@@ -1,6 +1,6 @@
 # messages.invitedUsers
 
-**Description** : *Contains info about successfully or unsuccessfully invited » users*
+**Description** : *Contains info about successfully or unsuccessfully invited &raquo; users*
 
 **Layer** : 211
 
@@ -34,7 +34,7 @@ $messagesInvitedUsers = $client->messages->invitedUsers(
 		$client->missingInvitee(
 			premium_would_allow_invite : true,
 			premium_required_for_pm : true,
-			user_id : -732985114556956346,
+			user_id : -8995322262506355327,
 		),
 	),
 );

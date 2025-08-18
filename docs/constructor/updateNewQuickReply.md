@@ -1,6 +1,6 @@
 # updateNewQuickReply
 
-**Description** : *A new quick reply shortcut » was created*
+**Description** : *A new quick reply shortcut &raquo; was created*
 
 **Layer** : 211
 
@@ -29,10 +29,10 @@ updateNewQuickReply#f53da717 quick_reply:QuickReply = Update;
 ```php
 $update = $client->updateNewQuickReply(
 	quick_reply : $client->quickReply(
-		shortcut_id : 99,
-		shortcut : 'ifDenLhBvOZw4RUQ',
-		top_message : 98,
-		count : 40,
+		shortcut_id : 50,
+		shortcut : 'HWj34dnoiLGRXxAl',
+		top_message : 13,
+		count : 87,
 	),
 );
 ```

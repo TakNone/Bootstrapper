@@ -41,6 +41,6 @@ payments.botCancelStarsSubscription#6dfa0622 flags:# restore:flags.0?true user_i
 $bool = $client->payments->botCancelStarsSubscription(
 	restore : true,
 	user_id : $client->inputUserEmpty(),
-	charge_id : 'Okd4bcZipfq0KJeS',
+	charge_id : '6gSVnp4AfJsPGUQ8',
 );
 ```

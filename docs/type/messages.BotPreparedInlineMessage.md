@@ -1,6 +1,6 @@
 # messages.BotPreparedInlineMessage
 
-**Description** : *Represents a prepared inline message saved by a bot, to be sent to the user via a web app »*
+**Description** : *Represents a prepared inline message saved by a bot, to be sent to the user via a web app &raquo;*
 
 **Layer** : 211
 

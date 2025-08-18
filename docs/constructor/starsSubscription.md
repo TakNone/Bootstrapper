@@ -1,6 +1,6 @@
 # starsSubscription
 
-**Description** : *Represents a Telegram Star subscription »*
+**Description** : *Represents a Telegram Star subscription &raquo;*
 
 **Layer** : 211
 
@@ -44,31 +44,31 @@ $starsSubscription = $client->starsSubscription(
 	can_refulfill : true,
 	missing_balance : true,
 	bot_canceled : true,
-	id : 'Xcq2SmArPCQz0vDh',
+	id : 'KanGdJisroqbOxmY',
 	peer : $client->peerUser(
-		user_id : -7904573933501087435,
+		user_id : -7441523259823114683,
 	),
-	until_date : 82,
+	until_date : 72,
 	pricing : $client->starsSubscriptionPricing(
-		period : 79,
-		amount : 3238615556281520737,
+		period : 90,
+		amount : -4899654260936592771,
 	),
-	chat_invite_hash : '06wVIB4Ts1Lf9v8C',
-	title : 'cOqKHz5RbVmFJYpA',
+	chat_invite_hash : 'rx2KiDLuyWPVXzfH',
+	title : 'jXa3hOMIvdgctQWi',
 	photo : $client->webDocument(
 		url : 'https://docs.liveproto.dev',
-		access_hash : 1805986245955823829,
-		size : 34,
-		mime_type : 'i31YSEdmJpL05AVU',
+		access_hash : 4920922998931963297,
+		size : 77,
+		mime_type : 'U9b46DpJVx3ifYqC',
 		attributes : array(
 			$client->documentAttributeImageSize(
 				w : 57,
-				h : 95,
+				h : 80,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : '49C6TqfV8vn5eFbz',
+				alt : '076BiFYpjxGsc9wW',
 				stickerset : $client->inputStickerSetEmpty(...),
 				mask_coords : $client->maskCoords(...),
 			),
@@ -76,32 +76,32 @@ $starsSubscription = $client->starsSubscription(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : 895896.185546875,
-				w : 13,
-				h : 77,
-				preload_prefix_size : 64,
-				video_start_ts : 40587.46875,
-				video_codec : 'qj6sOKWwuHkdcIAa',
+				duration : 264748.7666015625,
+				w : 91,
+				h : 12,
+				preload_prefix_size : 26,
+				video_start_ts : 1570829.4775390625,
+				video_codec : 'wPcrER6Onu0pkD2j',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 58,
-				title : 'IEY2Gr6CQ3Tvzm0M',
-				performer : '8EYMLcAHz10SJCGh',
-				waveform : 'v?do?LiveProto~???)',
+				duration : 100,
+				title : 'epbMhxijJkS6CsmD',
+				performer : '4lCGRicWHb7AdK0m',
+				waveform : 't??xsLiveProto??g8?',
 			),
 			$client->documentAttributeFilename(
-				file_name : 'a3oBzHVykXQ0SjUv',
+				file_name : 'LYquw0mFHQ61jAOv',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : 'LwS1UXimyHjgpKtQ',
+				alt : 'LF2trYbaCGEJ5mxi',
 				stickerset : $client->inputStickerSetEmpty(...),
 			),
 		),
 	),
-	invoice_slug : 'PEBfbM4Iat9qHCxl',
+	invoice_slug : 'wfUvadnSbB7gICc1',
 );
 ```

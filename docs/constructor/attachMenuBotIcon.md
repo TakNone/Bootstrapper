@@ -1,6 +1,6 @@
 # attachMenuBotIcon
 
-**Description** : *Represents an attachment menu icon for bot mini apps »*
+**Description** : *Represents an attachment menu icon for bot mini apps &raquo;*
 
 **Layer** : 211
 
@@ -31,14 +31,14 @@ attachMenuBotIcon#b2a7386b flags:# name:string icon:Document colors:flags.0?Vect
 
 ```php
 $attachMenuBotIcon = $client->attachMenuBotIcon(
-	name : 'Zz8T9wxVaMtmANnD',
+	name : '78m3W1Vp64fQsxbg',
 	icon : $client->documentEmpty(
-		id : 4920611602472227429,
+		id : 2154437980344093291,
 	),
 	colors : array(
 		$client->attachMenuBotIconColor(
-			name : 'bNsORiS0yWLMYIlo',
-			color : 13,
+			name : 'c6wgmUsBhC5MoFnX',
+			color : 26,
 		),
 	),
 );

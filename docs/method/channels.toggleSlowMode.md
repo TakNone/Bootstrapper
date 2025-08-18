@@ -42,6 +42,6 @@ channels.toggleSlowMode#edd49ef0 channel:InputChannel seconds:int = Updates;
 ```php
 $updates = $client->channels->toggleSlowMode(
 	channel : $client->inputChannelEmpty(),
-	seconds : 62,
+	seconds : 70,
 );
 ```

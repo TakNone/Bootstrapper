@@ -1,6 +1,6 @@
 # inputWebFileAudioAlbumThumbLocation
 
-**Description** : *Used to download an album cover for any music file using upload.getWebFile, see the webfile docs for more info »*
+**Description** : *Used to download an album cover for any music file using upload\.getWebFile, see the webfile docs for more info &raquo;*
 
 **Layer** : 211
 
@@ -34,7 +34,7 @@ inputWebFileAudioAlbumThumbLocation#f46fe924 flags:# small:flags.2?true document
 $inputWebFileLocation = $client->inputWebFileAudioAlbumThumbLocation(
 	small : true,
 	document : $client->inputDocumentEmpty(),
-	title : 'tHlKXWod3VZ8v09N',
-	performer : '6B7TayOPkZAYxcV0',
+	title : '8viUSltsEV32f76D',
+	performer : 'YB1r5HgVj4IlupoZ',
 );
 ```

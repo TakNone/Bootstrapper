@@ -30,8 +30,8 @@ messages.getOldFeaturedStickers#7ed094a1 offset:int limit:int hash:long = messag
 
 ```php
 $messagesFeaturedStickers = $client->messages->getOldFeaturedStickers(
-	offset : 90,
-	limit : 68,
-	hash : -4493372963225357878,
+	offset : 24,
+	limit : 40,
+	hash : -470591457101590355,
 );
 ```

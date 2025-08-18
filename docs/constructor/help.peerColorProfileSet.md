@@ -1,6 +1,6 @@
 # help.peerColorProfileSet
 
-**Description** : *Represents a color palette that can be used in profile pages »*
+**Description** : *Represents a color palette that can be used in profile pages &raquo;*
 
 **Layer** : 211
 
@@ -30,8 +30,8 @@ help.peerColorProfileSet#767d61eb palette_colors:Vector<int> bg_colors:Vector<in
 
 ```php
 $helpPeerColorSet = $client->help->peerColorProfileSet(
-	palette_colors : array(79),
-	bg_colors : array(58),
-	story_colors : array(65),
+	palette_colors : array(68),
+	bg_colors : array(47),
+	story_colors : array(3),
 );
 ```

@@ -29,7 +29,7 @@ messageEntityPhone#9b69e34b offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityPhone(
-	offset : 72,
-	length : 61,
+	offset : 14,
+	length : 29,
 );
 ```

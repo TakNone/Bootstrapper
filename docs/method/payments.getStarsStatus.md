@@ -1,6 +1,6 @@
 # payments.getStarsStatus
 
-**Description** : *Get the current Telegram Stars balance of the current account (with peer=inputPeerSelf), or the stars balance of the bot specified in peer*
+**Description** : *Get the current Telegram Stars balance of the current account \(with peer=inputPeerSelf\), or the stars balance of the bot specified in peer*
 
 **Layer** : 211
 

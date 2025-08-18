@@ -1,6 +1,6 @@
 # updateSentStoryReaction
 
-**Description** : *Indicates we reacted to a story »*
+**Description** : *Indicates we reacted to a story &raquo;*
 
 **Layer** : 211
 
@@ -31,9 +31,9 @@ updateSentStoryReaction#7d627683 peer:Peer story_id:int reaction:Reaction = Upda
 ```php
 $update = $client->updateSentStoryReaction(
 	peer : $client->peerUser(
-		user_id : 5319535211879748746,
+		user_id : -2178084011762001257,
 	),
-	story_id : 33,
+	story_id : 89,
 	reaction : $client->reactionEmpty(),
 );
 ```

@@ -29,7 +29,7 @@ paymentCharge#ea02c27e id:string provider_charge_id:string = PaymentCharge;
 
 ```php
 $paymentCharge = $client->paymentCharge(
-	id : 'bk51roxuqmvI2VLZ',
-	provider_charge_id : 'eGxEYr3MHXIFzPfn',
+	id : 'tDhn1dfVY6gZCXw5',
+	provider_charge_id : '4p0tgmINFJQnOxay',
 );
 ```

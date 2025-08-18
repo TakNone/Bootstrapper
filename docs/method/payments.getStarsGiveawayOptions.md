@@ -1,6 +1,6 @@
 # payments.getStarsGiveawayOptions
 
-**Description** : *Fetch a list of star giveaway options »*
+**Description** : *Fetch a list of star giveaway options &raquo;*
 
 **Layer** : 211
 

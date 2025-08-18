@@ -29,7 +29,7 @@ inputGameID#32c3e77 id:long access_hash:long = InputGame;
 
 ```php
 $inputGame = $client->inputGameID(
-	id : 301013981436651053,
-	access_hash : 3753003482370665697,
+	id : -6999183586242730200,
+	access_hash : -2859303395285246838,
 );
 ```

@@ -36,6 +36,6 @@ payments.getBankCardData#2e79d779 number:string = payments.BankCardData;
 
 ```php
 $paymentsBankCardData = $client->payments->getBankCardData(
-	number : 'Q0wrscxPy87XKOZp',
+	number : '5H2w3X1qiTZK6Bpx',
 );
 ```

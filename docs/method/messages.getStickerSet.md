@@ -39,6 +39,6 @@ messages.getStickerSet#c8a0ec74 stickerset:InputStickerSet hash:int = messages.S
 ```php
 $messagesStickerSet = $client->messages->getStickerSet(
 	stickerset : $client->inputStickerSetEmpty(),
-	hash : 30,
+	hash : 2,
 );
 ```

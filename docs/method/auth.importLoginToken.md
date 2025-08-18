@@ -39,6 +39,6 @@ auth.importLoginToken#95ac5ce4 token:bytes = auth.LoginToken;
 
 ```php
 $authLoginToken = $client->auth->importLoginToken(
-	token : '43q?LiveProtoK??',
+	token : '-0??LiveProto\\)?' . "\0" . '',
 );
 ```

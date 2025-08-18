@@ -34,10 +34,10 @@ messageMediaVenue#2ec0533f geo:GeoPoint title:string address:string provider:str
 ```php
 $messageMedia = $client->messageMediaVenue(
 	geo : $client->geoPointEmpty(),
-	title : 'pSlujb64WPHJmToQ',
-	address : '6qP1ovwBaIAYQcG2',
-	provider : 'MWqXz9UbTeaukiBK',
-	venue_id : 'YWIFhxgNwy05mBSo',
-	venue_type : 'oCsTtJeN2xvdZKu4',
+	title : 'fKOPrw5aDeZxG0Xb',
+	address : 'w5N8H2lBoZtc9edW',
+	provider : 'yNoVT6Lg4RCxJqDk',
+	venue_id : 'EsB5gcUbiOWYHXC6',
+	venue_type : 'Z1sObc6u9kagV3A8',
 );
 ```

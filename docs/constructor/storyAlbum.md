@@ -30,13 +30,13 @@ storyAlbum#9325705a flags:# album_id:int title:string icon_photo:flags.0?Photo i
 
 ```php
 $storyAlbum = $client->storyAlbum(
-	album_id : 99,
-	title : 'fjl7yQNkomn4JKqu',
+	album_id : 2,
+	title : '0r7niGbTMe5AcwgY',
 	icon_photo : $client->photoEmpty(
-		id : 3132430507479338087,
+		id : -4318224037699429960,
 	),
 	icon_video : $client->documentEmpty(
-		id : 6267427385642949602,
+		id : -6310868556111253428,
 	),
 );
 ```

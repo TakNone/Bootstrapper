@@ -28,6 +28,6 @@ payments.deleteStarGiftCollection#ad5648e8 peer:InputPeer collection_id:int = Bo
 ```php
 $bool = $client->payments->deleteStarGiftCollection(
 	peer : $client->inputPeerEmpty(),
-	collection_id : 85,
+	collection_id : 61,
 );
 ```

@@ -31,12 +31,12 @@ starGiftCollection#9d6b13b0 flags:# collection_id:int title:string icon:flags.0?
 
 ```php
 $starGiftCollection = $client->starGiftCollection(
-	collection_id : 4,
-	title : 'rg8yDL6ocE3adhv1',
+	collection_id : 42,
+	title : '1ZrKqSXFaNOh30UD',
 	icon : $client->documentEmpty(
-		id : -875118477757109240,
+		id : 355912408420435390,
 	),
-	gifts_count : 48,
-	hash : 799806899348322782,
+	gifts_count : 72,
+	hash : 959023395778414313,
 );
 ```

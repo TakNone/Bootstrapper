@@ -1,6 +1,6 @@
 # storage.filePng
 
-**Description** : *PNG image. MIME type: image/png*
+**Description** : *PNG image\. MIME type: image/png*
 
 **Layer** : 211
 

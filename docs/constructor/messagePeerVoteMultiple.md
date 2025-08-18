@@ -1,6 +1,6 @@
 # messagePeerVoteMultiple
 
-**Description** : *How a peer voted in a multiple-choice poll*
+**Description** : *How a peer voted in a multiple\-choice poll*
 
 **Layer** : 211
 
@@ -31,9 +31,9 @@ messagePeerVoteMultiple#4628f6e6 peer:Peer options:Vector<bytes> date:int = Mess
 ```php
 $messagePeerVote = $client->messagePeerVoteMultiple(
 	peer : $client->peerUser(
-		user_id : -8937676922035529990,
+		user_id : 4189534721103074317,
 	),
-	options : array('?}p?LiveProto?^]m '),
-	date : 45,
+	options : array('?+`LiveProto5 >?'),
+	date : 56,
 );
 ```

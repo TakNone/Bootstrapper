@@ -1,6 +1,6 @@
 # secureFile
 
-**Description** : *Secure passport file, for more info see the passport docs »*
+**Description** : *Secure passport file, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 
@@ -34,12 +34,12 @@ secureFile#7d09c27e id:long access_hash:long size:long dc_id:int date:int file_h
 
 ```php
 $secureFile = $client->secureFile(
-	id : -853570050019795255,
-	access_hash : -7517319079946690318,
-	size : 3184812544169311695,
-	dc_id : 91,
-	date : 97,
-	file_hash : 'SExzLiveProtoԁ???',
-	secret : ' (??dLiveProto?(?}?',
+	id : -4325440782121205042,
+	access_hash : -4980874733962677032,
+	size : -3458396051754562544,
+	dc_id : 15,
+	date : 98,
+	file_hash : 'E??LiveProto?8`?',
+	secret : 'h~??KLiveProto?????',
 );
 ```

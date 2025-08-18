@@ -30,6 +30,6 @@ inputGameShortName#c331e80a bot_id:InputUser short_name:string = InputGame;
 ```php
 $inputGame = $client->inputGameShortName(
 	bot_id : $client->inputUserEmpty(),
-	short_name : 'do9CM0i2fp41ec7G',
+	short_name : 'bOCK5MEudYDegFnf',
 );
 ```

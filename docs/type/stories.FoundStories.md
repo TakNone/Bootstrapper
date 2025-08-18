@@ -1,6 +1,6 @@
 # stories.FoundStories
 
-**Description** : *Stories found using global story search »*
+**Description** : *Stories found using global story search &raquo;*
 
 **Layer** : 211
 

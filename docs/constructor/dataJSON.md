@@ -1,6 +1,6 @@
 # dataJSON
 
-**Description** : *Represents a json-encoded object*
+**Description** : *Represents a json\-encoded object*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ dataJSON#7d748d04 data:string = DataJSON;
 
 ```php
 $dataJSON = $client->dataJSON(
-	data : 'YqgwBJ3uA6eFdo1P',
+	data : 'vqZtrFf5ae7GDXPs',
 );
 ```

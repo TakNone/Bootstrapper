@@ -1,6 +1,6 @@
 # bots.setBotMenuButton
 
-**Description** : *Sets the menu button action » for a given user or for all users*
+**Description** : *Sets the menu button action &raquo; for a given user or for all users*
 
 **Layer** : 211
 

@@ -34,8 +34,8 @@ inputKeyboardButtonUrlAuth#d02e7fd4 flags:# request_write_access:flags.0?true te
 ```php
 $keyboardButton = $client->inputKeyboardButtonUrlAuth(
 	request_write_access : true,
-	text : '42ScrVkK7RjO1bUH',
-	fwd_text : 'OMp71E6qNHhmkGrX',
+	text : 'OSvMHm5cfrnKpFRT',
+	fwd_text : 's9CjYDewHlExVbtZ',
 	url : 'https://docs.liveproto.dev',
 	bot : $client->inputUserEmpty(),
 );

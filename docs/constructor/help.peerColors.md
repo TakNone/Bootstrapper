@@ -1,6 +1,6 @@
 # help.peerColors
 
-**Description** : *Contains info about multiple color palettes »*
+**Description** : *Contains info about multiple color palettes &raquo;*
 
 **Layer** : 211
 
@@ -29,19 +29,19 @@ help.peerColors#f8ed08 hash:int colors:Vector<help.PeerColorOption> = help.PeerC
 
 ```php
 $helpPeerColors = $client->help->peerColors(
-	hash : 91,
+	hash : 64,
 	colors : array(
 		$client->help->peerColorOption(
 			hidden : true,
-			color_id : 27,
+			color_id : 36,
 			colors : $client->help->peerColorSet(
-				colors : array(54),
+				colors : array(30),
 			),
 			dark_colors : $client->help->peerColorSet(
-				colors : array(66),
+				colors : array(21),
 			),
-			channel_min_level : 22,
-			group_min_level : 55,
+			channel_min_level : 92,
+			group_min_level : 69,
 		),
 	),
 );

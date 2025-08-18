@@ -1,6 +1,6 @@
 # payments.sendStarsForm
 
-**Description** : *Make a payment using Telegram Stars, see here » for more info*
+**Description** : *Make a payment using Telegram Stars, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -43,10 +43,10 @@ payments.sendStarsForm#7998c914 form_id:long invoice:InputInvoice = payments.Pay
 
 ```php
 $paymentsPaymentResult = $client->payments->sendStarsForm(
-	form_id : -6318709787509742162,
+	form_id : -6621462089094823274,
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->inputPeerEmpty(),
-		msg_id : 54,
+		msg_id : 26,
 	),
 );
 ```

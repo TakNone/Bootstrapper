@@ -29,7 +29,7 @@ messageEntityCode#28a20571 offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityCode(
-	offset : 90,
-	length : 28,
+	offset : 89,
+	length : 63,
 );
 ```

@@ -1,6 +1,6 @@
 # messages.MessageViews
 
-**Description** : *View, forward counter + info about replies*
+**Description** : *View, forward counter \+ info about replies*
 
 **Layer** : 211
 

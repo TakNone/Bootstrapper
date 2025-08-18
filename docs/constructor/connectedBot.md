@@ -1,6 +1,6 @@
 # connectedBot
 
-**Description** : *Contains info about a connected business bot »*
+**Description** : *Contains info about a connected business bot &raquo;*
 
 **Layer** : 211
 
@@ -31,15 +31,15 @@ connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients right
 
 ```php
 $connectedBot = $client->connectedBot(
-	bot_id : 86175658263217447,
+	bot_id : 7851045936600972616,
 	recipients : $client->businessBotRecipients(
 		existing_chats : true,
 		new_chats : true,
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(6154910158316890110),
-		exclude_users : array(-955287273101075722),
+		users : array(3658060272590393094),
+		exclude_users : array(6299725969307232031),
 	),
 	rights : $client->businessBotRights(
 		reply : true,

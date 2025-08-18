@@ -41,8 +41,8 @@ account.changeAuthorizationSettings#40f48462 flags:# confirmed:flags.3?true hash
 ```php
 $bool = $client->account->changeAuthorizationSettings(
 	confirmed : true,
-	hash : 2358032353579443619,
-	encrypted_requests_disabled : $client->boolFalse(),
-	call_requests_disabled : $client->boolFalse(),
+	hash : -8620926313576399234,
+	encrypted_requests_disabled : false,
+	call_requests_disabled : false,
 );
 ```

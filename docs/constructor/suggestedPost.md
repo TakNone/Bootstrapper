@@ -33,8 +33,8 @@ $suggestedPost = $client->suggestedPost(
 	accepted : true,
 	rejected : true,
 	price : $client->starsAmount(
-		amount : 5268450505965476684,
-		nanos : 17,
+		amount : -4997497103981268672,
+		nanos : 93,
 	),
 	schedule_date : 35,
 );

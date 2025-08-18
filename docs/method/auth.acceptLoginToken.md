@@ -39,6 +39,6 @@ auth.acceptLoginToken#e894ad4d token:bytes = Authorization;
 
 ```php
 $authorization = $client->auth->acceptLoginToken(
-	token : 'e>?uLiveProto??&?',
+	token : '>?FzLiveProto???',
 );
 ```

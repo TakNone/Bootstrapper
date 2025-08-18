@@ -28,6 +28,6 @@ account.getWallPapers#7967d36 hash:long = account.WallPapers;
 
 ```php
 $accountWallPapers = $client->account->getWallPapers(
-	hash : 8672217353291578889,
+	hash : 8581730665487991325,
 );
 ```

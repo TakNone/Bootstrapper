@@ -29,7 +29,7 @@ help.appConfig#dd18782e hash:int config:JSONValue = help.AppConfig;
 
 ```php
 $helpAppConfig = $client->help->appConfig(
-	hash : 3,
+	hash : 92,
 	config : $client->jsonNull(),
 );
 ```

@@ -1,6 +1,6 @@
 # messages.report
 
-**Description** : *Report a message in a chat for violation of telegram's Terms of Service*
+**Description** : *Report a message in a chat for violation of telegram&#039;s Terms of Service*
 
 **Layer** : 211
 
@@ -42,8 +42,8 @@ messages.report#fc78af9b peer:InputPeer id:Vector<int> option:bytes message:stri
 ```php
 $reportResult = $client->messages->report(
 	peer : $client->inputPeerEmpty(),
-	id : array(89),
-	option : '???LiveProto?7??@',
-	message : 'LMngZ6Wi2DwBUt54',
+	id : array(77),
+	option : '???x?LiveProtoN?)?',
+	message : 'eBigRYCFV36sxrzh',
 );
 ```

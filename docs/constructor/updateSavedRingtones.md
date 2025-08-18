@@ -1,6 +1,6 @@
 # updateSavedRingtones
 
-**Description** : *The list of saved notification sounds has changed, use account.getSavedRingtones to fetch the new list*
+**Description** : *The list of saved notification sounds has changed, use account\.getSavedRingtones to fetch the new list*
 
 **Layer** : 211
 

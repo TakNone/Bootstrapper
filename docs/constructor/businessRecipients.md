@@ -1,6 +1,6 @@
 # businessRecipients
 
-**Description** : *Specifies the chats that can receive Telegram Business away » and greeting » messages*
+**Description** : *Specifies the chats that can receive Telegram Business away &raquo; and greeting &raquo; messages*
 
 **Layer** : 211
 
@@ -39,6 +39,6 @@ $businessRecipients = $client->businessRecipients(
 	contacts : true,
 	non_contacts : true,
 	exclude_selected : true,
-	users : array(1567677849174594743),
+	users : array(1837858154809126249),
 );
 ```

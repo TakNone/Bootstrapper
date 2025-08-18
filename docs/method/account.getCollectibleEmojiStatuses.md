@@ -26,6 +26,6 @@ account.getCollectibleEmojiStatuses#2e7b4543 hash:long = account.EmojiStatuses;
 
 ```php
 $accountEmojiStatuses = $client->account->getCollectibleEmojiStatuses(
-	hash : -6710345026828716181,
+	hash : 5927919255715566137,
 );
 ```

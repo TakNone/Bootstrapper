@@ -1,6 +1,6 @@
 # bots.PopularAppBots
 
-**Description** : *Popular Main Mini Apps, to be used in the apps tab of global search »*
+**Description** : *Popular Main Mini Apps, to be used in the apps tab of global search &raquo;*
 
 **Layer** : 211
 

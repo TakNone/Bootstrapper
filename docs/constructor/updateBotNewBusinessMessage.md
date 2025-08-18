@@ -1,6 +1,6 @@
 # updateBotNewBusinessMessage
 
-**Description** : *A message was received via a connected business chat »*
+**Description** : *A message was received via a connected business chat &raquo;*
 
 **Layer** : 211
 
@@ -32,19 +32,19 @@ updateBotNewBusinessMessage#9ddb347c flags:# connection_id:string message:Messag
 
 ```php
 $update = $client->updateBotNewBusinessMessage(
-	connection_id : 'l5kuQdCFj7bNPyvr',
+	connection_id : 'Zz10CXgGEi7FTrQ3',
 	message : $client->messageEmpty(
-		id : 77,
+		id : 44,
 		peer_id : $client->peerUser(
-			user_id : -1992937275126932297,
+			user_id : -7577757550894805731,
 		),
 	),
 	reply_to_message : $client->messageEmpty(
-		id : 65,
+		id : 73,
 		peer_id : $client->peerUser(
-			user_id : -4049822356374661927,
+			user_id : -2138733343008336229,
 		),
 	),
-	qts : 4,
+	qts : 80,
 );
 ```

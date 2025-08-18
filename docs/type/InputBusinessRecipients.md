@@ -1,6 +1,6 @@
 # InputBusinessRecipients
 
-**Description** : *Specifies the chats that can receive Telegram Business away » and greeting » messages*
+**Description** : *Specifies the chats that can receive Telegram Business away &raquo; and greeting &raquo; messages*
 
 **Layer** : 211
 

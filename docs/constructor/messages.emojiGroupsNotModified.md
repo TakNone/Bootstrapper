@@ -1,6 +1,6 @@
 # messages.emojiGroupsNotModified
 
-**Description** : *The list of emoji categories hasn't changed*
+**Description** : *The list of emoji categories hasn&#039;t changed*
 
 **Layer** : 211
 

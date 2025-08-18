@@ -30,9 +30,9 @@ starsRating#1b0e4f07 flags:# level:int current_level_stars:long stars:long next_
 
 ```php
 $starsRating = $client->starsRating(
-	level : 76,
-	current_level_stars : -7163842061374137976,
-	stars : -8724262281536001947,
-	next_level_stars : 7699759407066025486,
+	level : 78,
+	current_level_stars : 1274205739667278961,
+	stars : -8053292105770803051,
+	next_level_stars : -1494539803079122374,
 );
 ```

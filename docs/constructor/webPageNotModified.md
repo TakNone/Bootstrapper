@@ -1,6 +1,6 @@
 # webPageNotModified
 
-**Description** : *The preview of the webpage hasn't changed*
+**Description** : *The preview of the webpage hasn&#039;t changed*
 
 **Layer** : 211
 
@@ -29,6 +29,6 @@ webPageNotModified#7311ca11 flags:# cached_page_views:flags.0?int = WebPage;
 
 ```php
 $webPage = $client->webPageNotModified(
-	cached_page_views : 23,
+	cached_page_views : 18,
 );
 ```

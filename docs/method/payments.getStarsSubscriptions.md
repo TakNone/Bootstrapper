@@ -1,6 +1,6 @@
 # payments.getStarsSubscriptions
 
-**Description** : *Obtain a list of active, expired or cancelled Telegram Star subscriptions »*
+**Description** : *Obtain a list of active, expired or cancelled Telegram Star subscriptions &raquo;*
 
 **Layer** : 211
 
@@ -41,6 +41,6 @@ payments.getStarsSubscriptions#32512c5 flags:# missing_balance:flags.0?true peer
 $paymentsStarsStatus = $client->payments->getStarsSubscriptions(
 	missing_balance : true,
 	peer : $client->inputPeerEmpty(),
-	offset : 'qFoCiYnj6XJd9Myt',
+	offset : '92DpjXVBIToAcmYs',
 );
 ```

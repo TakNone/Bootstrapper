@@ -28,6 +28,6 @@ messageActionSetChatTheme#aa786345 emoticon:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionSetChatTheme(
-	emoticon : '7apIHzXwGUintKkC',
+	emoticon : 'Tz7vUq2HnxOCtGFs',
 );
 ```

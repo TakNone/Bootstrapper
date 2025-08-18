@@ -1,6 +1,6 @@
 # messages.savedReactionTagsNotModified
 
-**Description** : *The list of reaction tag » names assigned by the user hasn't changed*
+**Description** : *The list of reaction tag &raquo; names assigned by the user hasn&#039;t changed*
 
 **Layer** : 211
 

@@ -43,6 +43,6 @@ channels.editTitle#566decd0 channel:InputChannel title:string = Updates;
 ```php
 $updates = $client->channels->editTitle(
 	channel : $client->inputChannelEmpty(),
-	title : 'DjOBeWvIQ5NokP2U',
+	title : 'unS10CPpoTDZL7Nd',
 );
 ```

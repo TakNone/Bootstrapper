@@ -1,6 +1,6 @@
 # inputWallPaperSlug
 
-**Description** : *Wallpaper by slug (a unique ID, obtained from a wallpaper link »)*
+**Description** : *Wallpaper by slug \(a unique ID, obtained from a wallpaper link &raquo;\)*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ inputWallPaperSlug#72091c80 slug:string = InputWallPaper;
 
 ```php
 $inputWallPaper = $client->inputWallPaperSlug(
-	slug : 'M4HRy9ESGaTglb6B',
+	slug : 'EvOj5uKy9nR4UGX7',
 );
 ```

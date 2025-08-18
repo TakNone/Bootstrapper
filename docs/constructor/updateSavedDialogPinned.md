@@ -33,7 +33,7 @@ $update = $client->updateSavedDialogPinned(
 	pinned : true,
 	peer : $client->dialogPeer(
 		peer : $client->peerUser(
-			user_id : 6118375836483321609,
+			user_id : -2144209018606760373,
 		),
 	),
 );

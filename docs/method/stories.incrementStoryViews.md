@@ -39,6 +39,6 @@ stories.incrementStoryViews#b2028afb peer:InputPeer id:Vector<int> = Bool;
 ```php
 $bool = $client->stories->incrementStoryViews(
 	peer : $client->inputPeerEmpty(),
-	id : array(36),
+	id : array(68),
 );
 ```

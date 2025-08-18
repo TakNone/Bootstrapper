@@ -1,6 +1,6 @@
 # chatlists.editExportedInvite
 
-**Description** : *Edit a chat folder deep link »*
+**Description** : *Edit a chat folder deep link &raquo;*
 
 **Layer** : 211
 
@@ -46,33 +46,33 @@ chatlists.editExportedInvite#653db63d flags:# chatlist:InputChatlist slug:string
 ```php
 $exportedChatlistInvite = $client->chatlists->editExportedInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 38,
+		filter_id : 66,
 	),
-	slug : 'lQ9zuXctCns75dB8',
-	title : 'LJIerChXHdTZWYBw',
+	slug : 'ViR3xmjro6TGlFBh',
+	title : 'oTEVUJpZBQgHCYtw',
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -5257429479589859005,
+			chat_id : -1015353540947646582,
 		),
 		$client->inputPeerUser(
-			user_id : -8001124236649676710,
-			access_hash : 856664884151751446,
+			user_id : -7728119497927199186,
+			access_hash : 6291714544021741100,
 		),
 		$client->inputPeerChannel(
-			channel_id : 8874150965951110742,
-			access_hash : -322164026626843669,
+			channel_id : -1694549093289174214,
+			access_hash : -8680897201321621594,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 88,
-			user_id : -4324781186655779793,
+			msg_id : 44,
+			user_id : -7979556126724856114,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 89,
-			channel_id : 4937764078983093615,
+			msg_id : 21,
+			channel_id : 7069889855895280686,
 		),
 	),
 );

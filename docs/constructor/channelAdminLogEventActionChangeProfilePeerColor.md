@@ -30,12 +30,12 @@ channelAdminLogEventActionChangeProfilePeerColor#5e477b25 prev_value:PeerColor n
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeProfilePeerColor(
 	prev_value : $client->peerColor(
-		color : 94,
-		background_emoji_id : 8563549449418581938,
+		color : 13,
+		background_emoji_id : 9212685919381513689,
 	),
 	new_value : $client->peerColor(
-		color : 87,
-		background_emoji_id : -2077248058817175486,
+		color : 72,
+		background_emoji_id : -2918550896908291481,
 	),
 );
 ```

@@ -1,6 +1,6 @@
 # account.ResetPasswordResult
 
-**Description** : *Result of an account.resetPassword request*
+**Description** : *Result of an account\.resetPassword request*
 
 **Layer** : 211
 

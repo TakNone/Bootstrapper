@@ -1,7 +1,7 @@
 # messages.receivedQueue
 
-**Description** : *Confirms receipt of messages in a secret chat by client, cancels push notifications.
-The method returns a list of random_ids of messages for which push notifications were cancelled*
+**Description** : *Confirms receipt of messages in a secret chat by client, cancels push notifications\.
+The method returns a list of random\_ids of messages for which push notifications were cancelled*
 
 **Layer** : 211
 
@@ -38,6 +38,6 @@ messages.receivedQueue#55a5bb66 max_qts:int = Vector<long>;
 
 ```php
 $long = $client->messages->receivedQueue(
-	max_qts : 70,
+	max_qts : 65,
 );
 ```

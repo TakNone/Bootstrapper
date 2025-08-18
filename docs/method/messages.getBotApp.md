@@ -40,9 +40,9 @@ messages.getBotApp#34fdc5c3 app:InputBotApp hash:long = messages.BotApp;
 ```php
 $messagesBotApp = $client->messages->getBotApp(
 	app : $client->inputBotAppID(
-		id : 4797876646624471043,
-		access_hash : 3735167066583737114,
+		id : -9011054062426588940,
+		access_hash : -4282674457854861021,
 	),
-	hash : 3743483079369090793,
+	hash : -156230621505585149,
 );
 ```

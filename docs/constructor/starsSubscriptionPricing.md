@@ -1,6 +1,6 @@
 # starsSubscriptionPricing
 
-**Description** : *Pricing of a Telegram Star subscription »*
+**Description** : *Pricing of a Telegram Star subscription &raquo;*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ starsSubscriptionPricing#5416d58 period:int amount:long = StarsSubscriptionPrici
 
 ```php
 $starsSubscriptionPricing = $client->starsSubscriptionPricing(
-	period : 57,
-	amount : 4087734737734507416,
+	period : 6,
+	amount : 3027175653415803258,
 );
 ```

@@ -1,6 +1,6 @@
 # storage.fileGif
 
-**Description** : *GIF image. MIME type: image/gif*
+**Description** : *GIF image\. MIME type: image/gif*
 
 **Layer** : 211
 

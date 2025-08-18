@@ -31,8 +31,8 @@ statsGraph#8ea464b6 flags:# json:DataJSON zoom_token:flags.0?string = StatsGraph
 ```php
 $statsGraph = $client->statsGraph(
 	json : $client->dataJSON(
-		data : 'MdASBaD3yvKTHN2F',
+		data : '7qMT6em5VpBRZ0rK',
 	),
-	zoom_token : 'OM4fE3GDnb86J9pT',
+	zoom_token : 'zApPxkjhXZ3QnmE0',
 );
 ```

@@ -38,8 +38,8 @@ upload.getCdnFile#395f69da file_token:bytes offset:long limit:int = upload.CdnFi
 
 ```php
 $uploadCdnFile = $client->upload->getCdnFile(
-	file_token : '?H?LiveProto?Q??',
-	offset : -3438014748117717863,
-	limit : 76,
+	file_token : 'uN6yrLiveProto?6?]?',
+	offset : 512425726489841465,
+	limit : 6,
 );
 ```

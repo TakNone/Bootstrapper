@@ -37,7 +37,7 @@ payments.assignAppStoreTransaction#80ed747d receipt:bytes purpose:InputStorePaym
 
 ```php
 $updates = $client->payments->assignAppStoreTransaction(
-	receipt : '??TzLiveProtog?Q?K',
+	receipt : 'a???{LiveProton???',
 	purpose : $client->inputStorePaymentPremiumSubscription(
 		restore : true,
 		upgrade : true,

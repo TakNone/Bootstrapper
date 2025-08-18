@@ -1,6 +1,6 @@
 # messages.availableEffectsNotModified
 
-**Description** : *The full list of usable animated message effects » hasn't changed*
+**Description** : *The full list of usable animated message effects &raquo; hasn&#039;t changed*
 
 **Layer** : 211
 

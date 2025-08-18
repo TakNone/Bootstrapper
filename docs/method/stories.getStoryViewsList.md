@@ -49,9 +49,9 @@ $storiesStoryViewsList = $client->stories->getStoryViewsList(
 	reactions_first : true,
 	forwards_first : true,
 	peer : $client->inputPeerEmpty(),
-	q : 'bNwX3OyTGLru4nVA',
-	id : 91,
-	offset : 'FYfU7eSN9d3xGIB5',
-	limit : 53,
+	q : 'ryzZU42xCqST9IpE',
+	id : 96,
+	offset : 'Yz7xDdRZTGrvgwU9',
+	limit : 16,
 );
 ```

@@ -28,9 +28,9 @@ phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Upd
 ```php
 $updates = $client->phone->sendConferenceCallBroadcast(
 	call : $client->inputGroupCall(
-		id : -6044996043033543755,
-		access_hash : -1441917458959680078,
+		id : -2395449690432676761,
+		access_hash : -6849670146040924475,
 	),
-	block : '??4LiveProto??Dd',
+	block : '?Wh?LiveProto??O?',
 );
 ```

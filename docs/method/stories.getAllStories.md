@@ -1,6 +1,6 @@
 # stories.getAllStories
 
-**Description** : *Fetch the List of active (or active and hidden) stories, see here » for more info on watching stories*
+**Description** : *Fetch the List of active \(or active and hidden\) stories, see here &raquo; for more info on watching stories*
 
 **Layer** : 211
 
@@ -33,6 +33,6 @@ stories.getAllStories#eeb0d625 flags:# next:flags.1?true hidden:flags.2?true sta
 $storiesAllStories = $client->stories->getAllStories(
 	next : true,
 	hidden : true,
-	state : 'xqy5bUIHkgumoWvc',
+	state : 'JwcTx2O4DSapm0i7',
 );
 ```

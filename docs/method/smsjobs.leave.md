@@ -1,6 +1,6 @@
 # smsjobs.leave
 
-**Description** : *Disable SMS jobs (official clients only)*
+**Description** : *Disable SMS jobs \(official clients only\)*
 
 **Layer** : 211
 

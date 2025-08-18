@@ -1,6 +1,6 @@
 # updateSavedReactionTags
 
-**Description** : *The list of reaction tag » names assigned by the user has changed and should be refetched using messages.getSavedReactionTags »*
+**Description** : *The list of reaction tag &raquo; names assigned by the user has changed and should be refetched using messages\.getSavedReactionTags &raquo;*
 
 **Layer** : 211
 

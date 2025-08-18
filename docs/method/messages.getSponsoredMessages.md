@@ -1,6 +1,6 @@
 # messages.getSponsoredMessages
 
-**Description** : *Get a list of sponsored messages for a peer, see here » for more info*
+**Description** : *Get a list of sponsored messages for a peer, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -31,6 +31,6 @@ messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int
 ```php
 $messagesSponsoredMessages = $client->messages->getSponsoredMessages(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 90,
+	msg_id : 53,
 );
 ```

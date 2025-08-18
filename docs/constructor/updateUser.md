@@ -1,6 +1,6 @@
 # updateUser
 
-**Description** : *User (user and/or userFull) information was updated*
+**Description** : *User \(user and/or userFull\) information was updated*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ updateUser#20529438 user_id:long = Update;
 
 ```php
 $update = $client->updateUser(
-	user_id : -8131781510455950602,
+	user_id : -958755781031110915,
 );
 ```

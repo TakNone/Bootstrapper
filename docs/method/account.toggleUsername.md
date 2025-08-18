@@ -1,6 +1,6 @@
 # account.toggleUsername
 
-**Description** : *Activate or deactivate a purchased fragment.com username associated to the currently logged-in user*
+**Description** : *Activate or deactivate a purchased fragment\.com username associated to the currently logged\-in user*
 
 **Layer** : 211
 
@@ -40,6 +40,6 @@ account.toggleUsername#58d6b376 username:string active:Bool = Bool;
 ```php
 $bool = $client->account->toggleUsername(
 	username : 'TakNone',
-	active : $client->boolFalse(),
+	active : false,
 );
 ```

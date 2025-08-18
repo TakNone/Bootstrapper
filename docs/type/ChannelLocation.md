@@ -1,6 +1,6 @@
 # ChannelLocation
 
-**Description** : *Geographical location of supergroup (geogroups)*
+**Description** : *Geographical location of supergroup \(geogroups\)*
 
 **Layer** : 211
 

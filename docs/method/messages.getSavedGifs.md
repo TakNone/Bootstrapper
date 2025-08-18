@@ -28,6 +28,6 @@ messages.getSavedGifs#5cf09635 hash:long = messages.SavedGifs;
 
 ```php
 $messagesSavedGifs = $client->messages->getSavedGifs(
-	hash : -6354093401889251389,
+	hash : -3812597124084239158,
 );
 ```

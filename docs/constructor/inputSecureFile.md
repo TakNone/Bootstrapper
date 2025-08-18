@@ -1,6 +1,6 @@
 # inputSecureFile
 
-**Description** : *Pre-uploaded passport file, for more info see the passport docs »*
+**Description** : *Pre\-uploaded passport file, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ inputSecureFile#5367e5be id:long access_hash:long = InputSecureFile;
 
 ```php
 $inputSecureFile = $client->inputSecureFile(
-	id : 7116272596335621848,
-	access_hash : -5883105221765672515,
+	id : 4975931554620507464,
+	access_hash : -8005246321854754928,
 );
 ```

@@ -1,6 +1,6 @@
 # account.PasswordSettings
 
-**Description** : *Private info associated to the password info (recovery email, telegram passport info & so on)*
+**Description** : *Private info associated to the password info \(recovery email, telegram passport info &amp; so on\)*
 
 **Layer** : 211
 

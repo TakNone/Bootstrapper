@@ -29,7 +29,7 @@ messageEntityCashtag#4c4e743f offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityCashtag(
-	offset : 46,
-	length : 52,
+	offset : 4,
+	length : 26,
 );
 ```

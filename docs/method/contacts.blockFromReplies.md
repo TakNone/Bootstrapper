@@ -43,6 +43,6 @@ $updates = $client->contacts->blockFromReplies(
 	delete_message : true,
 	delete_history : true,
 	report_spam : true,
-	msg_id : 27,
+	msg_id : 97,
 );
 ```

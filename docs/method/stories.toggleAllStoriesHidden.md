@@ -28,6 +28,6 @@ stories.toggleAllStoriesHidden#7c2557c4 hidden:Bool = Bool;
 
 ```php
 $bool = $client->stories->toggleAllStoriesHidden(
-	hidden : $client->boolFalse(),
+	hidden : true,
 );
 ```

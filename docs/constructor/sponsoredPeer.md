@@ -30,11 +30,11 @@ sponsoredPeer#c69708d3 flags:# random_id:bytes peer:Peer sponsor_info:flags.0?st
 
 ```php
 $sponsoredPeer = $client->sponsoredPeer(
-	random_id : '????LiveProto\\4Y5',
+	random_id : 'I9?8LiveProtoHp=',
 	peer : $client->peerUser(
-		user_id : -4124962238877355323,
+		user_id : 3243038425360186408,
 	),
-	sponsor_info : 'r2JBCyEDXSsikOje',
-	additional_info : '8LRnQmb9pys7OTwx',
+	sponsor_info : 'zBW69H4rKDiYfSCu',
+	additional_info : 'RpfdTHWvKq53zFQ2',
 );
 ```

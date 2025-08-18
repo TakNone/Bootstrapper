@@ -1,6 +1,6 @@
 # updateLoginToken
 
-**Description** : *A login token (for login via QR code) was accepted*
+**Description** : *A login token \(for login via QR code\) was accepted*
 
 **Layer** : 211
 

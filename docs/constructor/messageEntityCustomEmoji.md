@@ -1,7 +1,7 @@
 # messageEntityCustomEmoji
 
-**Description** : *Represents a custom emoji.
-Note that this entity must wrap exactly one regular emoji (the one contained in documentAttributeCustomEmoji.alt) in the related text, otherwise the server will ignore it*
+**Description** : *Represents a custom emoji\.
+Note that this entity must wrap exactly one regular emoji \(the one contained in documentAttributeCustomEmoji\.alt\) in the related text, otherwise the server will ignore it*
 
 **Layer** : 211
 
@@ -31,8 +31,8 @@ messageEntityCustomEmoji#c8cf05f8 offset:int length:int document_id:long = Messa
 
 ```php
 $messageEntity = $client->messageEntityCustomEmoji(
-	offset : 90,
-	length : 63,
-	document_id : 1610154915627931241,
+	offset : 46,
+	length : 46,
+	document_id : 3379742204405098801,
 );
 ```

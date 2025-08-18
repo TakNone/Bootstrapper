@@ -29,9 +29,9 @@ publicForwardMessage#1f2bf4a message:Message = PublicForward;
 ```php
 $publicForward = $client->publicForwardMessage(
 	message : $client->messageEmpty(
-		id : 73,
+		id : 49,
 		peer_id : $client->peerUser(
-			user_id : 5676916870031770061,
+			user_id : 6251472787832555947,
 		),
 	),
 );

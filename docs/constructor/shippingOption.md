@@ -30,12 +30,12 @@ shippingOption#b6213cdf id:string title:string prices:Vector<LabeledPrice> = Shi
 
 ```php
 $shippingOption = $client->shippingOption(
-	id : 'TvbiO14G6QmNHKud',
-	title : 'Znysx8F9bDSX0WQV',
+	id : 'DzSOP9hZtVji0HE6',
+	title : 'vajh2PxGWglZrewt',
 	prices : array(
 		$client->labeledPrice(
-			label : '59A1SwLIHEicrv3Q',
-			amount : -469161481536458645,
+			label : 'Jzkidf83BLlryQNo',
+			amount : 3281238531494136973,
 		),
 	),
 );

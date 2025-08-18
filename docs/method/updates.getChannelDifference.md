@@ -55,7 +55,7 @@ $updatesChannelDifference = $client->updates->getChannelDifference(
 	force : true,
 	channel : $client->inputChannelEmpty(),
 	filter : $client->channelMessagesFilterEmpty(),
-	pts : 28,
-	limit : 42,
+	pts : 78,
+	limit : 66,
 );
 ```

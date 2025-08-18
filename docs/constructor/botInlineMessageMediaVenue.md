@@ -36,11 +36,11 @@ botInlineMessageMediaVenue#8a86659c flags:# geo:GeoPoint title:string address:st
 ```php
 $botInlineMessage = $client->botInlineMessageMediaVenue(
 	geo : $client->geoPointEmpty(),
-	title : 'ipbzUe4NSfF9P1RI',
-	address : 'qXOc3HILjDKoYEti',
-	provider : 'Pkre9h0Wj8SxfXuG',
-	venue_id : 'rFmf87oEsSaKie2Z',
-	venue_type : '42njwdbuMcs1EFtB',
+	title : 'dMz46XHuFeoPRgfS',
+	address : 'Yh8tEk54qvF0dpbT',
+	provider : 'E2hVfNwXvkxrbCa5',
+	venue_id : 'WkDLv2QEo56TqYg9',
+	venue_type : 'wuDrWh7BNjx9FXcb',
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

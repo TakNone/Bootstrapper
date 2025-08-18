@@ -40,8 +40,8 @@ stories.report#19d8eb45 peer:InputPeer id:Vector<int> option:bytes message:strin
 ```php
 $reportResult = $client->stories->report(
 	peer : $client->inputPeerEmpty(),
-	id : array(17),
-	option : '?J?|?LiveProto>7r??',
-	message : 'RmGbuxlypwcPaq8Q',
+	id : array(56),
+	option : '?VLiveProtoH?K??',
+	message : '3NVHzXpug09SqQBd',
 );
 ```

@@ -1,6 +1,6 @@
 # auth.checkRecoveryPassword
 
-**Description** : *Check if the 2FA recovery code sent using auth.requestPasswordRecovery is valid, before passing it to auth.recoverPassword*
+**Description** : *Check if the 2FA recovery code sent using auth\.requestPasswordRecovery is valid, before passing it to auth\.recoverPassword*
 
 **Layer** : 211
 
@@ -37,6 +37,6 @@ auth.checkRecoveryPassword#d36bf79 code:string = Bool;
 
 ```php
 $bool = $client->auth->checkRecoveryPassword(
-	code : '1bhyztMcliCwuWNF',
+	code : 'sFLeqxAQbm6Vn1ck',
 );
 ```

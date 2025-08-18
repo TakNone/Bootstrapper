@@ -1,6 +1,6 @@
 # upload.webFile
 
-**Description** : *Represents a chunk of an HTTP webfile downloaded through telegram's secure MTProto servers*
+**Description** : *Represents a chunk of an HTTP webfile downloaded through telegram&#039;s secure MTProto servers*
 
 **Layer** : 211
 
@@ -32,10 +32,10 @@ upload.webFile#21e753bc size:int mime_type:string file_type:storage.FileType mti
 
 ```php
 $uploadWebFile = $client->upload->webFile(
-	size : 70,
-	mime_type : 'skbBRx72oAlnvTSN',
+	size : 15,
+	mime_type : '2HtPvnwkToD3VOmW',
 	file_type : $client->storage->fileUnknown(),
-	mtime : 15,
-	bytes : 'E?\\??LiveProto(?OR',
+	mtime : 12,
+	bytes : '??#?LiveProtorYǣ',
 );
 ```

@@ -1,6 +1,6 @@
 # updateBotInlineSend
 
-**Description** : *The result of an inline query that was chosen by a user and sent to their chat partner. Please see our documentation on the feedback collecting for details on how to enable these updates for your bot*
+**Description** : *The result of an inline query that was chosen by a user and sent to their chat partner\. Please see our documentation on the feedback collecting for details on how to enable these updates for your bot*
 
 **Layer** : 211
 
@@ -33,14 +33,14 @@ updateBotInlineSend#12f12a07 flags:# user_id:long query:string geo:flags.0?GeoPo
 
 ```php
 $update = $client->updateBotInlineSend(
-	user_id : 6414250528355968077,
-	query : 'xaELjM3X1A9TmVbn',
+	user_id : 4904097252367889345,
+	query : 'XNP5IOonVdfjvlZe',
 	geo : $client->geoPointEmpty(),
-	id : 'LX6kzFAEsgGlyPYK',
+	id : '4tzj8LibSRGopyNT',
 	msg_id : $client->inputBotInlineMessageID(
-		dc_id : 44,
-		id : -2561113701344819986,
-		access_hash : -2936503420997842690,
+		dc_id : 83,
+		id : -9005671293137880569,
+		access_hash : -2200719264744417009,
 	),
 );
 ```

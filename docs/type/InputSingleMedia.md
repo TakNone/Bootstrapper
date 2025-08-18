@@ -1,6 +1,6 @@
 # InputSingleMedia
 
-**Description** : *A single media in an album or grouped media sent with messages.sendMultiMedia*
+**Description** : *A single media in an album or grouped media sent with messages\.sendMultiMedia*
 
 **Layer** : 211
 

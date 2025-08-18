@@ -32,18 +32,18 @@ $helpCountriesList = $client->help->countriesList(
 	countries : array(
 		$client->help->country(
 			hidden : true,
-			iso2 : 'zJLc1Eib5CqZpaBg',
-			default_name : 'VWYon62qFrMwmRyi',
-			name : 'JKvZaF8sAI3VmSXu',
+			iso2 : '4RLbCeI65pnh1ZJr',
+			default_name : 'eT8UCSofHgrhLIiJ',
+			name : 'iPuLS7rotpAXgHx0',
 			country_codes : array(
 				$client->help->countryCode(
-					country_code : '3X7MrqfE4jgLPY9W',
-					prefixes : array('kaHARlSCgQqtfb73'),
-					patterns : array('LZvR1XD2fiyHMBsr'),
+					country_code : 'cCtvm6QzRb0IqL3P',
+					prefixes : array('w4OyfdSMHZN6Do7I'),
+					patterns : array('ZjW21rsuPaX6Cqk3'),
 				),
 			),
 		),
 	),
-	hash : 63,
+	hash : 37,
 );
 ```

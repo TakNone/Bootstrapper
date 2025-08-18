@@ -1,6 +1,6 @@
 # channels.setBoostsToUnblockRestrictions
 
-**Description** : *Admins with ban_users admin rights » may allow users that apply a certain number of booosts » to the group to bypass slow mode » and other » supergroup restrictions, see here » for more info*
+**Description** : *Admins with ban\_users admin rights &raquo; may allow users that apply a certain number of booosts &raquo; to the group to bypass slow mode &raquo; and other &raquo; supergroup restrictions, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -38,6 +38,6 @@ channels.setBoostsToUnblockRestrictions#ad399cee channel:InputChannel boosts:int
 ```php
 $updates = $client->channels->setBoostsToUnblockRestrictions(
 	channel : $client->inputChannelEmpty(),
-	boosts : 88,
+	boosts : 3,
 );
 ```

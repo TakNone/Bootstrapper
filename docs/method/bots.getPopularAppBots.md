@@ -1,6 +1,6 @@
 # bots.getPopularAppBots
 
-**Description** : *Fetch popular Main Mini Apps, to be used in the apps tab of global search »*
+**Description** : *Fetch popular Main Mini Apps, to be used in the apps tab of global search &raquo;*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ bots.getPopularAppBots#c2510192 offset:string limit:int = bots.PopularAppBots;
 
 ```php
 $botsPopularAppBots = $client->bots->getPopularAppBots(
-	offset : 'LDcvl5sJOIyTmEkg',
-	limit : 97,
+	offset : '9wvbpZgMNTHYKES3',
+	limit : 33,
 );
 ```

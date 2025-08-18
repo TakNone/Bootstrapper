@@ -1,7 +1,7 @@
 # messages.editQuickReplyShortcut
 
-**Description** : *Rename a quick reply shortcut.
-This will emit an updateQuickReplies update to other logged-in sessions*
+**Description** : *Rename a quick reply shortcut\.
+This will emit an updateQuickReplies update to other logged\-in sessions*
 
 **Layer** : 211
 
@@ -39,7 +39,7 @@ messages.editQuickReplyShortcut#5c003cef shortcut_id:int shortcut:string = Bool;
 
 ```php
 $bool = $client->messages->editQuickReplyShortcut(
-	shortcut_id : 27,
-	shortcut : 'rqEzNMG5yvhkFn7g',
+	shortcut_id : 2,
+	shortcut : 'AjnW4LathzvZDFR7',
 );
 ```

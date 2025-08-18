@@ -1,6 +1,6 @@
 # auth.sentCodeTypeFragmentSms
 
-**Description** : *The code was delivered via fragment.com*
+**Description** : *The code was delivered via fragment\.com*
 
 **Layer** : 211
 
@@ -30,6 +30,6 @@ auth.sentCodeTypeFragmentSms#d9565c39 url:string length:int = auth.SentCodeType;
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeFragmentSms(
 	url : 'https://docs.liveproto.dev',
-	length : 99,
+	length : 6,
 );
 ```

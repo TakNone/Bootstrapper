@@ -31,12 +31,12 @@ updateChannelWebPage#2f2ba99f channel_id:long webpage:WebPage pts:int pts_count:
 
 ```php
 $update = $client->updateChannelWebPage(
-	channel_id : -2371182518027780420,
+	channel_id : -7489498935108516400,
 	webpage : $client->webPageEmpty(
-		id : -8600340452075094779,
+		id : 4468170932654097276,
 		url : 'https://docs.liveproto.dev',
 	),
-	pts : 58,
-	pts_count : 71,
+	pts : 26,
+	pts_count : 100,
 );
 ```

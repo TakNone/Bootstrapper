@@ -1,6 +1,6 @@
 # sponsoredMessageReportOption
 
-**Description** : *A report option for a sponsored message »*
+**Description** : *A report option for a sponsored message &raquo;*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ sponsoredMessageReportOption#430d3150 text:string option:bytes = SponsoredMessag
 
 ```php
 $sponsoredMessageReportOption = $client->sponsoredMessageReportOption(
-	text : 'gd9VXW3B1voYTMFf',
-	option : '1???LiveProtoL?r??',
+	text : 'McIk9y6rKUnYJevi',
+	option : '????LiveProto?Z?E?',
 );
 ```

@@ -28,6 +28,6 @@ help.getPassportConfig#c661ad08 hash:int = help.PassportConfig;
 
 ```php
 $helpPassportConfig = $client->help->getPassportConfig(
-	hash : 1,
+	hash : 22,
 );
 ```

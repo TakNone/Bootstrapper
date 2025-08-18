@@ -40,6 +40,6 @@ channels.deleteTopicHistory#34435f2d channel:InputChannel top_msg_id:int = messa
 ```php
 $messagesAffectedHistory = $client->channels->deleteTopicHistory(
 	channel : $client->inputChannelEmpty(),
-	top_msg_id : 37,
+	top_msg_id : 52,
 );
 ```

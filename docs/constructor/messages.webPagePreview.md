@@ -30,7 +30,7 @@ $messagesWebPagePreview = $client->messages->webPagePreview(
 	media : $client->messageMediaEmpty(),
 	users : array(
 		$client->userEmpty(
-			id : 6575088707618150824,
+			id : 5527114742494118861,
 		),
 		$client->user(
 			self : true,
@@ -58,24 +58,24 @@ $messagesWebPagePreview = $client->messages->webPagePreview(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 4705587795326957344,
-			access_hash : -4795636126775393899,
+			id : 6225366557695219092,
+			access_hash : -361247041230496896,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 24,
+			bot_info_version : 60,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'bLSAFvaHV2su301y',
-					reason : 'UkG8DazIs6hPHS2p',
-					text : 'UzMXpQovjHgNJRFV',
+					platform : 'akibI8wu6yKf4R3e',
+					reason : '1D2BCpTKzf95ySYe',
+					text : 'vJqQWGkrFUhCZ6AD',
 				),
 			),
-			bot_inline_placeholder : 'vf0gjF1pTEDdocJa',
-			lang_code : 'LAsHlYURK6oEBc8i',
+			bot_inline_placeholder : 'yq4g6TEpKIsYna38',
+			lang_code : 'lFgEq90J6NA5GQYS',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -84,18 +84,18 @@ $messagesWebPagePreview = $client->messages->webPagePreview(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 58,
+			stories_max_id : 46,
 			color : $client->peerColor(
-				color : 40,
-				background_emoji_id : 2687049514249262342,
+				color : 20,
+				background_emoji_id : 1989360234176332244,
 			),
 			profile_color : $client->peerColor(
-				color : 54,
-				background_emoji_id : -8405646197090596827,
+				color : 7,
+				background_emoji_id : 1456110410835701590,
 			),
-			bot_active_users : 69,
-			bot_verification_icon : 8877152977049922783,
-			send_paid_messages_stars : -5192588502143207921,
+			bot_active_users : 97,
+			bot_verification_icon : -3674050369141348698,
+			send_paid_messages_stars : -6369861284123689332,
 		),
 	),
 );

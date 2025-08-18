@@ -1,6 +1,6 @@
 # InputQuickReplyShortcut
 
-**Description** : *Represents a quick reply shortcut »*
+**Description** : *Represents a quick reply shortcut &raquo;*
 
 **Layer** : 211
 

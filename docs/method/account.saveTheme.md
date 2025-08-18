@@ -38,9 +38,9 @@ account.saveTheme#f257106c theme:InputTheme unsave:Bool = Bool;
 ```php
 $bool = $client->account->saveTheme(
 	theme : $client->inputTheme(
-		id : 4810482113958035546,
-		access_hash : 220466624277843175,
+		id : -4056896491010646006,
+		access_hash : -4299161158364689294,
 	),
-	unsave : $client->boolFalse(),
+	unsave : true,
 );
 ```

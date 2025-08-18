@@ -1,6 +1,6 @@
 # bots.updateUserEmojiStatus
 
-**Description** : *Change the emoji status of a user (invoked by bots, see here » for more info on the full flow)*
+**Description** : *Change the emoji status of a user \(invoked by bots, see here &raquo; for more info on the full flow\)*
 
 **Layer** : 211
 

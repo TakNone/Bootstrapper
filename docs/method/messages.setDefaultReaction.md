@@ -1,6 +1,6 @@
 # messages.setDefaultReaction
 
-**Description** : *Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using help.getConfig, reactions_default field*
+**Description** : *Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using help\.getConfig, reactions\_default field*
 
 **Layer** : 211
 

@@ -38,6 +38,6 @@ channels.reportAntiSpamFalsePositive#a850a693 channel:InputChannel msg_id:int = 
 ```php
 $bool = $client->channels->reportAntiSpamFalsePositive(
 	channel : $client->inputChannelEmpty(),
-	msg_id : 45,
+	msg_id : 75,
 );
 ```

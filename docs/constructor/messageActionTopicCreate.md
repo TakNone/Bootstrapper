@@ -31,8 +31,8 @@ messageActionTopicCreate#d999256 flags:# title:string icon_color:int icon_emoji_
 
 ```php
 $messageAction = $client->messageActionTopicCreate(
-	title : 'vYKbzENGV5ChR3gu',
-	icon_color : 10,
-	icon_emoji_id : -2028185716137277339,
+	title : '4K6DoWk3InQH5Nzd',
+	icon_color : 34,
+	icon_emoji_id : 265178815111558953,
 );
 ```

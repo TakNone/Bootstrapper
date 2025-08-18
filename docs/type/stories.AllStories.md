@@ -1,6 +1,6 @@
 # stories.AllStories
 
-**Description** : *Full list of active (or active and hidden) stories*
+**Description** : *Full list of active \(or active and hidden\) stories*
 
 **Layer** : 211
 

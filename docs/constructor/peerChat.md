@@ -28,6 +28,6 @@ peerChat#36c6019a chat_id:long = Peer;
 
 ```php
 $peer = $client->peerChat(
-	chat_id : -7071893977959903224,
+	chat_id : -7124380549185896210,
 );
 ```

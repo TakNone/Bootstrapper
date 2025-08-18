@@ -1,6 +1,6 @@
 # messages.sendInlineBotResult
 
-**Description** : *Send a result obtained using messages.getInlineBotResults*
+**Description** : *Send a result obtained using messages\.getInlineBotResults*
 
 **Layer** : 211
 
@@ -91,114 +91,114 @@ $updates = $client->messages->sendInlineBotResult(
 	hide_via : true,
 	peer : $client->inputPeerEmpty(),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 5,
-		top_msg_id : 83,
+		reply_to_msg_id : 69,
+		top_msg_id : 33,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'BCGl3HTY8E6W1sXj',
+		quote_text : 'AP0uy4mZFNLqa9zv',
 		quote_entities : array(
 			$client->messageEntityUnknown(
-				offset : 61,
-				length : 50,
+				offset : 81,
+				length : 42,
 			),
 			$client->messageEntityMention(
 				offset : 51,
-				length : 9,
-			),
-			$client->messageEntityHashtag(
-				offset : 86,
 				length : 57,
 			),
-			$client->messageEntityBotCommand(
-				offset : 95,
-				length : 4,
+			$client->messageEntityHashtag(
+				offset : 28,
+				length : 46,
 			),
-			$client->messageEntityUrl(
-				offset : 86,
+			$client->messageEntityBotCommand(
+				offset : 69,
 				length : 100,
 			),
+			$client->messageEntityUrl(
+				offset : 81,
+				length : 76,
+			),
 			$client->messageEntityEmail(
-				offset : 50,
-				length : 21,
+				offset : 57,
+				length : 78,
 			),
 			$client->messageEntityBold(
-				offset : 63,
-				length : 98,
+				offset : 83,
+				length : 62,
 			),
 			$client->messageEntityItalic(
-				offset : 89,
-				length : 17,
+				offset : 96,
+				length : 66,
 			),
 			$client->messageEntityCode(
-				offset : 29,
-				length : 24,
+				offset : 24,
+				length : 60,
 			),
 			$client->messageEntityPre(
-				offset : 1,
-				length : 33,
-				language : '8EIMPyOSfA2irND5',
+				offset : 7,
+				length : 78,
+				language : 'e1gPof6VFLC8rlMn',
 			),
 			$client->messageEntityTextUrl(
-				offset : 16,
-				length : 22,
+				offset : 50,
+				length : 96,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
-				offset : 53,
-				length : 89,
-				user_id : -5866982474702434457,
+				offset : 62,
+				length : 14,
+				user_id : -200753397639195339,
 			),
 			$client->inputMessageEntityMentionName(
-				offset : 39,
-				length : 84,
+				offset : 77,
+				length : 51,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
-				offset : 6,
-				length : 7,
+				offset : 75,
+				length : 79,
 			),
 			$client->messageEntityCashtag(
-				offset : 95,
-				length : 54,
+				offset : 79,
+				length : 37,
 			),
 			$client->messageEntityUnderline(
-				offset : 47,
-				length : 0,
+				offset : 31,
+				length : 61,
 			),
 			$client->messageEntityStrike(
-				offset : 80,
-				length : 80,
+				offset : 90,
+				length : 10,
 			),
 			$client->messageEntityBankCard(
-				offset : 96,
-				length : 27,
+				offset : 43,
+				length : 61,
 			),
 			$client->messageEntitySpoiler(
-				offset : 81,
-				length : 18,
+				offset : 68,
+				length : 86,
 			),
 			$client->messageEntityCustomEmoji(
-				offset : 87,
-				length : 90,
-				document_id : 774129862874803235,
+				offset : 98,
+				length : 70,
+				document_id : -1164126635614226908,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
-				offset : 5,
-				length : 68,
+				offset : 56,
+				length : 48,
 			),
 		),
-		quote_offset : 2,
+		quote_offset : 80,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 86,
+		todo_item_id : 59,
 	),
-	random_id : 1808960735092180639,
-	query_id : -6766468889953631378,
-	id : 'O6EAMwk0dWuP2Uc9',
-	schedule_date : 63,
+	random_id : -3714815732769919517,
+	query_id : 7240031044495979631,
+	id : 'VHkvljxKwfL9IM2g',
+	schedule_date : 73,
 	send_as : $client->inputPeerEmpty(),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'Ro2HQkFP64Ou0lvt',
+		shortcut : 'vGxOyuAb68FQIcZ0',
 	),
-	allow_paid_stars : 4373370198129089818,
+	allow_paid_stars : 8472023662989492656,
 );
 ```

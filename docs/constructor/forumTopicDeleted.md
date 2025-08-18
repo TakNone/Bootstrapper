@@ -28,6 +28,6 @@ forumTopicDeleted#23f109b id:int = ForumTopic;
 
 ```php
 $forumTopic = $client->forumTopicDeleted(
-	id : 58,
+	id : 99,
 );
 ```

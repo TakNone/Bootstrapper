@@ -1,6 +1,6 @@
 # updateUserPhone
 
-**Description** : *A user's phone number was changed*
+**Description** : *A user&#039;s phone number was changed*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ updateUserPhone#5492a13 user_id:long phone:string = Update;
 
 ```php
 $update = $client->updateUserPhone(
-	user_id : -2479602177223081738,
+	user_id : -5186464862639823054,
 	phone : '+1234567890',
 );
 ```

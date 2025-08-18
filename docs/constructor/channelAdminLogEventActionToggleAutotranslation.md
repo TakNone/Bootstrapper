@@ -26,6 +26,6 @@ channelAdminLogEventActionToggleAutotranslation#c517f77e new_value:Bool = Channe
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleAutotranslation(
-	new_value : $client->boolFalse(),
+	new_value : true,
 );
 ```

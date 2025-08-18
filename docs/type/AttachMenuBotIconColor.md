@@ -1,6 +1,6 @@
 # AttachMenuBotIconColor
 
-**Description** : *Represents an attachment menu icon color for bot mini apps »*
+**Description** : *Represents an attachment menu icon color for bot mini apps &raquo;*
 
 **Layer** : 211
 

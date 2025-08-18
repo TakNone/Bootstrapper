@@ -1,6 +1,6 @@
 # bots.editPreviewMedia
 
-**Description** : *Edit a main mini app preview, see here » for more info*
+**Description** : *Edit a main mini app preview, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -40,7 +40,7 @@ bots.editPreviewMedia#8525606f bot:InputUser lang_code:string media:InputMedia n
 ```php
 $botPreviewMedia = $client->bots->editPreviewMedia(
 	bot : $client->inputUserEmpty(),
-	lang_code : 'wKLGOhB07RkoVSyr',
+	lang_code : 'QcRw1D2Pmu9ZrLEK',
 	media : $client->inputMediaEmpty(),
 	new_media : $client->inputMediaEmpty(),
 );

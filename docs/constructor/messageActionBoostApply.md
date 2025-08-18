@@ -1,6 +1,6 @@
 # messageActionBoostApply
 
-**Description** : *Some boosts » were applied to the channel or supergroup*
+**Description** : *Some boosts &raquo; were applied to the channel or supergroup*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messageActionBoostApply#cc02aa6d boosts:int = MessageAction;
 
 ```php
 $messageAction = $client->messageActionBoostApply(
-	boosts : 99,
+	boosts : 76,
 );
 ```

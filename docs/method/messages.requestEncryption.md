@@ -41,7 +41,8 @@ messages.requestEncryption#f64daf43 user_id:InputUser random_id:int g_a:bytes = 
 ```php
 $encryptedChat = $client->messages->requestEncryption(
 	user_id : $client->inputUserEmpty(),
-	random_id : 39,
-	g_a : '??X?fLiveProto??Uŷ',
+	random_id : 32,
+	g_a : '
+3?1@LiveProto???,y',
 );
 ```

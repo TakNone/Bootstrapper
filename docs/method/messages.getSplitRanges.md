@@ -1,6 +1,6 @@
 # messages.getSplitRanges
 
-**Description** : *Get message ranges for saving the user's chat history*
+**Description** : *Get message ranges for saving the user&#039;s chat history*
 
 **Layer** : 211
 

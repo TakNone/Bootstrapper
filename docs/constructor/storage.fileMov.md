@@ -1,6 +1,6 @@
 # storage.fileMov
 
-**Description** : *Quicktime video. MIME type: video/quicktime*
+**Description** : *Quicktime video\. MIME type: video/quicktime*
 
 **Layer** : 211
 

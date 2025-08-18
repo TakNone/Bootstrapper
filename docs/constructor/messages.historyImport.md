@@ -1,6 +1,6 @@
 # messages.historyImport
 
-**Description** : *ID of a specific chat import session, click here for more info »*
+**Description** : *ID of a specific chat import session, click here for more info &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messages.historyImport#1662af0b id:long = messages.HistoryImport;
 
 ```php
 $messagesHistoryImport = $client->messages->historyImport(
-	id : -2497577220067500890,
+	id : -689735461884560124,
 );
 ```

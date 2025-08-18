@@ -32,10 +32,10 @@ updateReadHistoryOutbox#2f2f21bf peer:Peer max_id:int pts:int pts_count:int = Up
 ```php
 $update = $client->updateReadHistoryOutbox(
 	peer : $client->peerUser(
-		user_id : -7594878785086789749,
+		user_id : 7239781802861743988,
 	),
-	max_id : 22,
-	pts : 74,
-	pts_count : 54,
+	max_id : 69,
+	pts : 85,
+	pts_count : 50,
 );
 ```

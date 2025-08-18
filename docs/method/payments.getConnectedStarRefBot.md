@@ -1,6 +1,6 @@
 # payments.getConnectedStarRefBot
 
-**Description** : *Fetch info about a specific bot affiliation »*
+**Description** : *Fetch info about a specific bot affiliation &raquo;*
 
 **Layer** : 211
 

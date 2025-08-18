@@ -1,6 +1,6 @@
 # account.getPassword
 
-**Description** : *Obtain configuration for two-factor authorization with password*
+**Description** : *Obtain configuration for two\-factor authorization with password*
 
 **Layer** : 211
 

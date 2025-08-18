@@ -1,6 +1,6 @@
 # messages.getSavedDialogs
 
-**Description** : *Returns the current saved dialog list, see here » for more info*
+**Description** : *Returns the current saved dialog list, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -37,10 +37,10 @@ messages.getSavedDialogs#1e91fc99 flags:# exclude_pinned:flags.0?true parent_pee
 $messagesSavedDialogs = $client->messages->getSavedDialogs(
 	exclude_pinned : true,
 	parent_peer : $client->inputPeerEmpty(),
-	offset_date : 8,
-	offset_id : 97,
+	offset_date : 31,
+	offset_id : 32,
 	offset_peer : $client->inputPeerEmpty(),
-	limit : 8,
-	hash : -9087010922880209013,
+	limit : 44,
+	hash : -3624444163258437267,
 );
 ```

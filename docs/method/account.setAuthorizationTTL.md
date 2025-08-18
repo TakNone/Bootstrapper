@@ -1,6 +1,6 @@
 # account.setAuthorizationTTL
 
-**Description** : *Set time-to-live of current session*
+**Description** : *Set time\-to\-live of current session*
 
 **Layer** : 211
 
@@ -37,6 +37,6 @@ account.setAuthorizationTTL#bf899aa0 authorization_ttl_days:int = Bool;
 
 ```php
 $bool = $client->account->setAuthorizationTTL(
-	authorization_ttl_days : 55,
+	authorization_ttl_days : 24,
 );
 ```

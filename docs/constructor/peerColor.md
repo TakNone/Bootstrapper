@@ -1,6 +1,6 @@
 # peerColor
 
-**Description** : *Represents a color palette »*
+**Description** : *Represents a color palette &raquo;*
 
 **Layer** : 211
 
@@ -30,7 +30,7 @@ peerColor#b54b5acf flags:# color:flags.0?int background_emoji_id:flags.1?long = 
 
 ```php
 $peerColor = $client->peerColor(
-	color : 64,
-	background_emoji_id : -9075046897909290255,
+	color : 51,
+	background_emoji_id : 593136186042950559,
 );
 ```

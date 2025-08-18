@@ -32,7 +32,7 @@ updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJ
 $update = $client->updateGroupCallConnection(
 	presentation : true,
 	params : $client->dataJSON(
-		data : 'DN0lLaEVM6s4WY9J',
+		data : 'AMS8IiNecLqbH0Zm',
 	),
 );
 ```

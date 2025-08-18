@@ -1,6 +1,6 @@
 # sendMessageEmojiInteractionSeen
 
-**Description** : *User is watching an animated emoji reaction triggered by another user, click here for more info »*
+**Description** : *User is watching an animated emoji reaction triggered by another user, click here for more info &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ sendMessageEmojiInteractionSeen#b665902e emoticon:string = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageEmojiInteractionSeen(
-	emoticon : 'UEjSMDF3ZcdrLeQk',
+	emoticon : 'pXCP8GneQLWh3Zd1',
 );
 ```

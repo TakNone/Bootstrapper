@@ -1,6 +1,6 @@
 # messages.getMessageEditData
 
-**Description** : *Find out if a media message's caption can be edited*
+**Description** : *Find out if a media message&#039;s caption can be edited*
 
 **Layer** : 211
 
@@ -42,6 +42,6 @@ messages.getMessageEditData#fda68d36 peer:InputPeer id:int = messages.MessageEdi
 ```php
 $messagesMessageEditData = $client->messages->getMessageEditData(
 	peer : $client->inputPeerEmpty(),
-	id : 10,
+	id : 43,
 );
 ```

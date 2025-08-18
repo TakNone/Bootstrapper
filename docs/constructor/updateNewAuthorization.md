@@ -1,6 +1,6 @@
 # updateNewAuthorization
 
-**Description** : *A new session logged into the current user's account through an unknown device*
+**Description** : *A new session logged into the current user&#039;s account through an unknown device*
 
 **Layer** : 211
 
@@ -34,9 +34,9 @@ updateNewAuthorization#8951abef flags:# unconfirmed:flags.0?true hash:long date:
 ```php
 $update = $client->updateNewAuthorization(
 	unconfirmed : true,
-	hash : 8662436567121856316,
-	date : 33,
-	device : '5jAygvZeO6WkEisF',
-	location : 'SVs1A0BaeLnOoXhI',
+	hash : 6740118957918877648,
+	date : 97,
+	device : 'Bjp7iMD08OfI5xbC',
+	location : 'tKLZoNculTv5jreG',
 );
 ```

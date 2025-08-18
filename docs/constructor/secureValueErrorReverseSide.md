@@ -1,6 +1,6 @@
 # secureValueErrorReverseSide
 
-**Description** : *Represents an issue with the reverse side of a document. The error is considered resolved when the file with reverse side of the document changes*
+**Description** : *Represents an issue with the reverse side of a document\. The error is considered resolved when the file with reverse side of the document changes*
 
 **Layer** : 211
 
@@ -31,7 +31,7 @@ secureValueErrorReverseSide#868a2aa5 type:SecureValueType file_hash:bytes text:s
 ```php
 $secureValueError = $client->secureValueErrorReverseSide(
 	type : $client->secureValueTypePersonalDetails(),
-	file_hash : 'C???LiveProto??SCw',
-	text : 'fJPC1o8a9ZxNKUzu',
+	file_hash : '싥?LiveProto?v?',
+	text : '48dnvz2hitTDuwWS',
 );
 ```

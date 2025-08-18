@@ -31,8 +31,8 @@ updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<Gro
 ```php
 $update = $client->updateGroupCallParticipants(
 	call : $client->inputGroupCall(
-		id : 2727594774303601348,
-		access_hash : -3928351882809348936,
+		id : 5748136126635086017,
+		access_hash : 4783126613859722639,
 	),
 	participants : array(
 		$client->groupCallParticipant(
@@ -47,32 +47,32 @@ $update = $client->updateGroupCallParticipants(
 			self : true,
 			video_joined : true,
 			peer : $client->peerUser(
-				user_id : -2001214555808785956,
+				user_id : -641152084417037741,
 			),
-			date : 28,
-			active_date : 9,
-			source : 31,
-			volume : 18,
-			about : 'N1K56AVrzXtCgsEb',
-			raise_hand_rating : 2557469910174730964,
+			date : 87,
+			active_date : 77,
+			source : 67,
+			volume : 32,
+			about : '9pnZk4c7tUvjJwiB',
+			raise_hand_rating : -8444237014327967177,
 			video : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'RJ6yUaGYScCs29TX',
+				endpoint : 'ILudHgf4UPsAD6cw',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(...),
 				),
-				audio_source : 100,
+				audio_source : 71,
 			),
 			presentation : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'CldxwSKaj5RPVvNg',
+				endpoint : 'Oyn07GfgmRY9IZ3d',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(...),
 				),
-				audio_source : 35,
+				audio_source : 6,
 			),
 		),
 	),
-	version : 99,
+	version : 80,
 );
 ```

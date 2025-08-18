@@ -28,6 +28,6 @@ privacyValueAllowUsers#b8905fb2 users:Vector<long> = PrivacyRule;
 
 ```php
 $privacyRule = $client->privacyValueAllowUsers(
-	users : array(4731229075839661713),
+	users : array(-6461466383664786220),
 );
 ```

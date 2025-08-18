@@ -28,6 +28,6 @@ contacts.toggleTopPeers#8514bdda enabled:Bool = Bool;
 
 ```php
 $bool = $client->contacts->toggleTopPeers(
-	enabled : $client->boolFalse(),
+	enabled : false,
 );
 ```

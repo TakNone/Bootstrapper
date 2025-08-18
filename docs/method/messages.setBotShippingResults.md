@@ -1,6 +1,6 @@
 # messages.setBotShippingResults
 
-**Description** : *If you sent an invoice requesting a shipping address and the parameter is_flexible was specified, the bot will receive an updateBotShippingQuery update. Use this method to reply to shipping queries*
+**Description** : *If you sent an invoice requesting a shipping address and the parameter is\_flexible was specified, the bot will receive an updateBotShippingQuery update\. Use this method to reply to shipping queries*
 
 **Layer** : 211
 
@@ -40,16 +40,16 @@ messages.setBotShippingResults#e5f672fa flags:# query_id:long error:flags.0?stri
 
 ```php
 $bool = $client->messages->setBotShippingResults(
-	query_id : 7864434005790813141,
-	error : '7rpqU4eLdanF2SDO',
+	query_id : 5095661752983956139,
+	error : 'FbnsGmBv9tSf0alg',
 	shipping_options : array(
 		$client->shippingOption(
-			id : 'UKmv1SwxgqlkBLjp',
-			title : 'RbteklvL7gf31aQu',
+			id : 'Fj3xm2UTMkL6CIlK',
+			title : 'lx0j1rbZInuiTLcs',
 			prices : array(
 				$client->labeledPrice(
-					label : 'eJrcZyLwmTGxHEpN',
-					amount : -2425558388639359898,
+					label : 'lAOTFomZVSvw6xJ2',
+					amount : 1161551902540144078,
 				),
 			),
 		),

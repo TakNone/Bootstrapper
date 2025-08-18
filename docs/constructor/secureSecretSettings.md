@@ -31,7 +31,7 @@ secureSecretSettings#1527bcac secure_algo:SecurePasswordKdfAlgo secure_secret:by
 ```php
 $secureSecretSettings = $client->secureSecretSettings(
 	secure_algo : $client->securePasswordKdfAlgoUnknown(),
-	secure_secret : '6n??LiveProto????',
-	secure_secret_id : 5705487572017349877,
+	secure_secret : 'o?7?wLiveProto??' . "\0" . '?',
+	secure_secret_id : -4303503048311678683,
 );
 ```

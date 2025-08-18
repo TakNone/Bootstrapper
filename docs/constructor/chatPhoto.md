@@ -33,8 +33,8 @@ chatPhoto#1c6e1c11 flags:# has_video:flags.0?true photo_id:long stripped_thumb:f
 ```php
 $chatPhoto = $client->chatPhoto(
 	has_video : true,
-	photo_id : -8213845356363999830,
-	stripped_thumb : '?<r?LiveProto??%P?',
-	dc_id : 55,
+	photo_id : 7311005689442134289,
+	stripped_thumb : '¡?G?LiveProto??)??',
+	dc_id : 68,
 );
 ```

@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleNoForwards#cb2ac766 new_value:Bool = ChannelAdmi
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleNoForwards(
-	new_value : $client->boolFalse(),
+	new_value : true,
 );
 ```

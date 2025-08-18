@@ -1,6 +1,6 @@
 # help.PeerColors
 
-**Description** : *Contains info about multiple color palettes »*
+**Description** : *Contains info about multiple color palettes &raquo;*
 
 **Layer** : 211
 

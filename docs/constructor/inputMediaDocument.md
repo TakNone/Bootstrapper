@@ -37,8 +37,8 @@ $inputMedia = $client->inputMediaDocument(
 	spoiler : true,
 	id : $client->inputDocumentEmpty(),
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 93,
-	ttl_seconds : 63,
-	query : 'ComOQKM3tZ05BEdF',
+	video_timestamp : 95,
+	ttl_seconds : 16,
+	query : 'CQq5ZWRSpB70LrFV',
 );
 ```

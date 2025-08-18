@@ -1,6 +1,6 @@
 # help.RecentMeUrls
 
-**Description** : *Recent t.me URLs*
+**Description** : *Recent t\.me URLs*
 
 **Layer** : 211
 

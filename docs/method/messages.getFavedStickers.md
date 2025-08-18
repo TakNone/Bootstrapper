@@ -28,6 +28,6 @@ messages.getFavedStickers#4f1aaa9 hash:long = messages.FavedStickers;
 
 ```php
 $messagesFavedStickers = $client->messages->getFavedStickers(
-	hash : 5811160522946560951,
+	hash : -377045255025127644,
 );
 ```

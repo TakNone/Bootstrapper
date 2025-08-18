@@ -28,6 +28,6 @@ privacyValueDisallowChatParticipants#41c87565 chats:Vector<long> = PrivacyRule;
 
 ```php
 $privacyRule = $client->privacyValueDisallowChatParticipants(
-	chats : array(-4076725206181395802),
+	chats : array(4802884975952116219),
 );
 ```

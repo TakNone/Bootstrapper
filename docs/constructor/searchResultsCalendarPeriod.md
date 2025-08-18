@@ -1,6 +1,6 @@
 # searchResultsCalendarPeriod
 
-**Description** : *Information about found messages sent on a specific day, used to split the messages in messages.searchResultsCalendar constructors by days*
+**Description** : *Information about found messages sent on a specific day, used to split the messages in messages\.searchResultsCalendar constructors by days*
 
 **Layer** : 211
 
@@ -31,9 +31,9 @@ searchResultsCalendarPeriod#c9b0539f date:int min_msg_id:int max_msg_id:int coun
 
 ```php
 $searchResultsCalendarPeriod = $client->searchResultsCalendarPeriod(
-	date : 59,
-	min_msg_id : 73,
-	max_msg_id : 61,
-	count : 86,
+	date : 65,
+	min_msg_id : 17,
+	max_msg_id : 0,
+	count : 81,
 );
 ```

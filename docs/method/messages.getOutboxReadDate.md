@@ -43,6 +43,6 @@ messages.getOutboxReadDate#8c4bfe5d peer:InputPeer msg_id:int = OutboxReadDate;
 ```php
 $outboxReadDate = $client->messages->getOutboxReadDate(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 5,
+	msg_id : 59,
 );
 ```

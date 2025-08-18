@@ -1,6 +1,6 @@
 # help.TimezonesList
 
-**Description** : *Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »*
+**Description** : *Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours &raquo;*
 
 **Layer** : 211
 

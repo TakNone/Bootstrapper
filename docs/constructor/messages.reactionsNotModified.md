@@ -1,6 +1,6 @@
 # messages.reactionsNotModified
 
-**Description** : *The server-side list of message reactions hasn't changed*
+**Description** : *The server\-side list of message reactions hasn&#039;t changed*
 
 **Layer** : 211
 

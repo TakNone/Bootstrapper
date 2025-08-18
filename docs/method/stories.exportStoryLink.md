@@ -40,6 +40,6 @@ stories.exportStoryLink#7b8def20 peer:InputPeer id:int = ExportedStoryLink;
 ```php
 $exportedStoryLink = $client->stories->exportStoryLink(
 	peer : $client->inputPeerEmpty(),
-	id : 51,
+	id : 60,
 );
 ```

@@ -41,19 +41,20 @@ account.acceptAuthorization#f3ed4c73 bot_id:long scope:string public_key:string 
 
 ```php
 $bool = $client->account->acceptAuthorization(
-	bot_id : -5808841076932717227,
-	scope : 'tEgA32UeGp6dYC4o',
-	public_key : 'vKqYDpEzFBa89fTQ',
+	bot_id : 4277033191716543159,
+	scope : 'WuiVywOvJcUsgIAB',
+	public_key : 'iGdWrXJqRgMEC4yL',
 	value_hashes : array(
 		$client->secureValueHash(
 			type : $client->secureValueTypePersonalDetails(),
-			hash : '/?$?{LiveProto?P?-?',
+			hash : '??lP#LiveProto??%?',
 		),
 	),
 	credentials : $client->secureCredentialsEncrypted(
-		data : '??ԑLiveProto?????',
-		hash : '4N?3}LiveProto?߰??',
-		secret : '?=?g{LiveProto5(T??',
+		data : 'T?LiveProto
+0?3+',
+		hash : '??w?LiveProto?w?.',
+		secret : '??@LiveProto???[?',
 	),
 );
 ```

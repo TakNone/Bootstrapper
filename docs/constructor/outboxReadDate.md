@@ -28,6 +28,6 @@ outboxReadDate#3bb842ac date:int = OutboxReadDate;
 
 ```php
 $outboxReadDate = $client->outboxReadDate(
-	date : 32,
+	date : 94,
 );
 ```

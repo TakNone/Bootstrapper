@@ -1,6 +1,6 @@
 # BotAppSettings
 
-**Description** : *Mini app » settings*
+**Description** : *Mini app &raquo; settings*
 
 **Layer** : 211
 

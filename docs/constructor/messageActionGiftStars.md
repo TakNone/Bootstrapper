@@ -34,11 +34,11 @@ messageActionGiftStars#45d5b021 flags:# currency:string amount:long stars:long c
 
 ```php
 $messageAction = $client->messageActionGiftStars(
-	currency : 'hJcCY57A4M8FaEW6',
-	amount : 2860972045348990806,
-	stars : -3859497887396415578,
-	crypto_currency : 'it4YqkWOPATUGjd6',
-	crypto_amount : 7531755048611987732,
-	transaction_id : 'JOsXp3lRqjQeirEV',
+	currency : 'OkzEHoxhrGJcMpF7',
+	amount : 7316412334443508510,
+	stars : -8388267569765400237,
+	crypto_currency : 'T5OmKCtwUN7Ff6oW',
+	crypto_amount : 7718045365798125650,
+	transaction_id : 'pH8bAkYFs3ShZry0',
 );
 ```

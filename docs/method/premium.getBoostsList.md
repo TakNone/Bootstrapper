@@ -1,6 +1,6 @@
 # premium.getBoostsList
 
-**Description** : *Obtains info about the boosts that were applied to a certain channel or supergroup (admins only)*
+**Description** : *Obtains info about the boosts that were applied to a certain channel or supergroup \(admins only\)*
 
 **Layer** : 211
 
@@ -43,7 +43,7 @@ premium.getBoostsList#60f67660 flags:# gifts:flags.0?true peer:InputPeer offset:
 $premiumBoostsList = $client->premium->getBoostsList(
 	gifts : true,
 	peer : $client->inputPeerEmpty(),
-	offset : '4R3XwQi9WKErTZkG',
-	limit : 27,
+	offset : 'AgeqjorPJtCliYKw',
+	limit : 42,
 );
 ```

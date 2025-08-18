@@ -1,6 +1,6 @@
 # auth.loggedOut
 
-**Description** : *Future auth token » to be used on subsequent authorizations*
+**Description** : *Future auth token &raquo; to be used on subsequent authorizations*
 
 **Layer** : 211
 
@@ -29,6 +29,6 @@ auth.loggedOut#c3a2835f flags:# future_auth_token:flags.0?bytes = auth.LoggedOut
 
 ```php
 $authLoggedOut = $client->auth->loggedOut(
-	future_auth_token : '??U<?LiveProto??',
+	future_auth_token : 'R??y?LiveProtop??',
 );
 ```

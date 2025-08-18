@@ -39,7 +39,7 @@ stories.togglePinned#9a75a1ef peer:InputPeer id:Vector<int> pinned:Bool = Vector
 ```php
 $int = $client->stories->togglePinned(
 	peer : $client->inputPeerEmpty(),
-	id : array(75),
-	pinned : $client->boolFalse(),
+	id : array(10),
+	pinned : false,
 );
 ```

@@ -1,6 +1,6 @@
 # channels.setEmojiStickers
 
-**Description** : *Set a custom emoji stickerset for supergroups. Only usable after reaching at least the boost level » specified in the group_emoji_stickers_level_min » config parameter*
+**Description** : *Set a custom emoji stickerset for supergroups\. Only usable after reaching at least the boost level &raquo; specified in the group\_emoji\_stickers\_level\_min &raquo; config parameter*
 
 **Layer** : 211
 

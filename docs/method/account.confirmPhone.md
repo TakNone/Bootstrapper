@@ -1,6 +1,6 @@
 # account.confirmPhone
 
-**Description** : *Confirm a phone number to cancel account deletion, for more info click here »*
+**Description** : *Confirm a phone number to cancel account deletion, for more info click here &raquo;*
 
 **Layer** : 211
 

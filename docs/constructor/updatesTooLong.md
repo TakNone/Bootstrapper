@@ -1,6 +1,6 @@
 # updatesTooLong
 
-**Description** : *Too many updates, it is necessary to execute updates.getDifference*
+**Description** : *Too many updates, it is necessary to execute updates\.getDifference*
 
 **Layer** : 211
 

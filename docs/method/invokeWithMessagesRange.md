@@ -30,9 +30,9 @@ invokeWithMessagesRange#365275f2 {X:Type} range:MessageRange query:!X = X;
 ```php
 $x = $client->invokeWithMessagesRange(
 	range : $client->messageRange(
-		min_id : 10,
-		max_id : 90,
+		min_id : 92,
+		max_id : 87,
 	),
-	query : $client->X(),
+	query : $client->help->getConfig(raw : true),
 );
 ```

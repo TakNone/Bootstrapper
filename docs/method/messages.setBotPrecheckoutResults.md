@@ -1,8 +1,8 @@
 # messages.setBotPrecheckoutResults
 
-**Description** : *Once the user has confirmed their payment and shipping details, the bot receives an updateBotPrecheckoutQuery update.
-Use this method to respond to such pre-checkout queries.
-Note: Telegram must receive an answer within 10 seconds after the pre-checkout query was sent*
+**Description** : *Once the user has confirmed their payment and shipping details, the bot receives an updateBotPrecheckoutQuery update\.
+Use this method to respond to such pre\-checkout queries\.
+Note: Telegram must receive an answer within 10 seconds after the pre\-checkout query was sent*
 
 **Layer** : 211
 
@@ -43,7 +43,7 @@ messages.setBotPrecheckoutResults#9c2dd95 flags:# success:flags.1?true query_id:
 ```php
 $bool = $client->messages->setBotPrecheckoutResults(
 	success : true,
-	query_id : -8995754763684436368,
-	error : 'hM6ECHgRpy5tFNkK',
+	query_id : -1743371968526639520,
+	error : '8z7XgrWlJDxphOM1',
 );
 ```

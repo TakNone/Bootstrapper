@@ -1,6 +1,6 @@
 # messages.toggleSavedDialogPin
 
-**Description** : *Pin or unpin a saved message dialog »*
+**Description** : *Pin or unpin a saved message dialog &raquo;*
 
 **Layer** : 211
 

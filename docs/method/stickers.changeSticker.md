@@ -41,13 +41,13 @@ stickers.changeSticker#f5537ebc flags:# sticker:InputDocument emoji:flags.0?stri
 ```php
 $messagesStickerSet = $client->stickers->changeSticker(
 	sticker : $client->inputDocumentEmpty(),
-	emoji : 's8faOinNFLG2YuTK',
+	emoji : 'gDpTlvdMRJIhrs4i',
 	mask_coords : $client->maskCoords(
-		n : 15,
-		x : -124282.9140625,
-		y : -594888.7109375,
-		zoom : -1497929.2919921875,
+		n : 12,
+		x : 384445.9736328125,
+		y : 257912,
+		zoom : 1632514.728515625,
 	),
-	keywords : '3ouTYWG9Qf4xbmdJ',
+	keywords : 'gY7h5O2sRCX4JSq3',
 );
 ```

@@ -29,6 +29,6 @@ messageActionGiveawayLaunch#a80f51e4 flags:# stars:flags.0?long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionGiveawayLaunch(
-	stars : -8156320467510630191,
+	stars : -4355625265228365410,
 );
 ```

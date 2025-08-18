@@ -1,6 +1,6 @@
 # MessageReactions
 
-**Description** : *Message reactions »*
+**Description** : *Message reactions &raquo;*
 
 **Layer** : 211
 

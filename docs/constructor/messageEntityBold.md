@@ -29,7 +29,7 @@ messageEntityBold#bd610bc9 offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityBold(
-	offset : 28,
-	length : 90,
+	offset : 5,
+	length : 71,
 );
 ```

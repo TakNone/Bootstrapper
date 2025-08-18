@@ -1,6 +1,6 @@
 # payments.starsRevenueStats
 
-**Description** : *Star revenue statistics, see here » for more info*
+**Description** : *Star revenue statistics, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -33,27 +33,27 @@ payments.starsRevenueStats#6c207376 flags:# top_hours_graph:flags.0?StatsGraph r
 ```php
 $paymentsStarsRevenueStats = $client->payments->starsRevenueStats(
 	top_hours_graph : $client->statsGraphAsync(
-		token : 'drQhWlnOGJ0C42iH',
+		token : 'YWawkCPnFyZbOtE6',
 	),
 	revenue_graph : $client->statsGraphAsync(
-		token : 'YMsk4GPtC03zulq7',
+		token : 'Bf495TDXFzCnodtE',
 	),
 	status : $client->starsRevenueStatus(
 		withdrawal_enabled : true,
 		current_balance : $client->starsAmount(
-			amount : 5512208133828010908,
-			nanos : 89,
+			amount : 7168855997098054685,
+			nanos : 31,
 		),
 		available_balance : $client->starsAmount(
-			amount : -3683678466458353584,
-			nanos : 43,
+			amount : 6395275896768213581,
+			nanos : 65,
 		),
 		overall_revenue : $client->starsAmount(
-			amount : 7601597707616145751,
-			nanos : 10,
+			amount : -3315974767522195112,
+			nanos : 49,
 		),
-		next_withdrawal_at : 97,
+		next_withdrawal_at : 74,
 	),
-	usd_rate : -250199.267578125,
+	usd_rate : -1093193.9208984375,
 );
 ```

@@ -1,6 +1,6 @@
 # phone.toggleGroupCallRecord
 
-**Description** : *Start or stop recording a group call: the recorded audio and video streams will be automatically sent to Saved messages (the chat with ourselves)*
+**Description** : *Start or stop recording a group call: the recorded audio and video streams will be automatically sent to Saved messages \(the chat with ourselves\)*
 
 **Layer** : 211
 
@@ -46,10 +46,10 @@ $updates = $client->phone->toggleGroupCallRecord(
 	start : true,
 	video : true,
 	call : $client->inputGroupCall(
-		id : -3002473388828971308,
-		access_hash : -9222568249002706102,
+		id : 3042077478118441498,
+		access_hash : -1592740742926670613,
 	),
-	title : '7TMO1pqlmojEwdRQ',
-	video_portrait : $client->boolFalse(),
+	title : 'GymdU91Q2Y57IEti',
+	video_portrait : false,
 );
 ```

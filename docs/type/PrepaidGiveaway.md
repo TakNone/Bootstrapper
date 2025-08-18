@@ -1,6 +1,6 @@
 # PrepaidGiveaway
 
-**Description** : *Contains info about a prepaid giveaway »*
+**Description** : *Contains info about a prepaid giveaway &raquo;*
 
 **Layer** : 211
 

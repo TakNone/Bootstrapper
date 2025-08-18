@@ -1,6 +1,6 @@
 # recentMeUrlUser
 
-**Description** : *Recent t.me link to a user*
+**Description** : *Recent t\.me link to a user*
 
 **Layer** : 211
 
@@ -30,6 +30,6 @@ recentMeUrlUser#b92c09e2 url:string user_id:long = RecentMeUrl;
 ```php
 $recentMeUrl = $client->recentMeUrlUser(
 	url : 'https://docs.liveproto.dev',
-	user_id : 7259100704470471064,
+	user_id : 2735532292162758647,
 );
 ```

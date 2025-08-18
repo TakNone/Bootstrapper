@@ -1,6 +1,6 @@
 # SearchResultsCalendarPeriod
 
-**Description** : *Information about found messages sent on a specific day, used to split the messages in messages.searchResultsCalendar constructors by days*
+**Description** : *Information about found messages sent on a specific day, used to split the messages in messages\.searchResultsCalendar constructors by days*
 
 **Layer** : 211
 

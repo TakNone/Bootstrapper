@@ -1,6 +1,6 @@
 # help.TermsOfServiceUpdate
 
-**Description** : *Update of Telegram's terms of service*
+**Description** : *Update of Telegram&#039;s terms of service*
 
 **Layer** : 211
 

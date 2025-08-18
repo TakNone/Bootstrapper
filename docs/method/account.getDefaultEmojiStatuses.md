@@ -28,6 +28,6 @@ account.getDefaultEmojiStatuses#d6753386 hash:long = account.EmojiStatuses;
 
 ```php
 $accountEmojiStatuses = $client->account->getDefaultEmojiStatuses(
-	hash : -8644038404936761600,
+	hash : 5423832382739207090,
 );
 ```

@@ -1,6 +1,6 @@
 # secureValueErrorFrontSide
 
-**Description** : *Represents an issue with the front side of a document. The error is considered resolved when the file with the front side of the document changes*
+**Description** : *Represents an issue with the front side of a document\. The error is considered resolved when the file with the front side of the document changes*
 
 **Layer** : 211
 
@@ -31,7 +31,7 @@ secureValueErrorFrontSide#be3dfa type:SecureValueType file_hash:bytes text:strin
 ```php
 $secureValueError = $client->secureValueErrorFrontSide(
 	type : $client->secureValueTypePersonalDetails(),
-	file_hash : '<??УLiveProto???,',
-	text : '8sBvSDUwLlFtu4an',
+	file_hash : 'A<H?=LiveProto??G?',
+	text : 'FHZYCuyQGLsalOoz',
 );
 ```

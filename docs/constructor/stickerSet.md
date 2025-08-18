@@ -1,6 +1,6 @@
 # stickerSet
 
-**Description** : *Represents a stickerset (stickerpack)*
+**Description** : *Represents a stickerset \(stickerpack\)*
 
 **Layer** : 211
 
@@ -53,47 +53,46 @@ $stickerSet = $client->stickerSet(
 	text_color : true,
 	channel_emoji_status : true,
 	creator : true,
-	installed_date : 34,
-	id : -4640081163886427128,
-	access_hash : -7528592191498495676,
-	title : '3JWLYvG7hnFVuPe9',
-	short_name : 'HmxLICFwqtrlavWG',
+	installed_date : 68,
+	id : -2912381311767214435,
+	access_hash : -4372061235639761699,
+	title : 'LHKJxTdyzUmiCqug',
+	short_name : 'uBv9HFxfV3bKWTz0',
 	thumbs : array(
 		$client->photoSizeEmpty(
-			type : 'q2cZs5Tf9gVnbUkE',
+			type : '7VRrpyhAIYguoTDZ',
 		),
 		$client->photoSize(
-			type : 'gwbyZhvW9F0XCcHK',
-			w : 93,
-			h : 10,
-			size : 85,
+			type : 'KimSvORL0n9kbH8t',
+			w : 22,
+			h : 60,
+			size : 64,
 		),
 		$client->photoCachedSize(
-			type : 'kbpzloxnwXWDmTPQ',
-			w : 23,
-			h : 99,
-			bytes : '?PLiveProtoZ?J??',
+			type : 'UWmJCntEiba8pg27',
+			w : 84,
+			h : 17,
+			bytes : 'a???OLiveProtow	LO',
 		),
 		$client->photoStrippedSize(
-			type : '3vbNtBe4zIPSnU7O',
-			bytes : '
-S]?5LiveProto?z?1',
+			type : 'exYpZiHTtMBjVGEl',
+			bytes : '??n$TLiveProto-挙<',
 		),
 		$client->photoSizeProgressive(
-			type : 'OthN2nZYaMU98Sy5',
-			w : 70,
-			h : 80,
-			sizes : array(78),
+			type : '6lzwdNvKStmra8Oi',
+			w : 49,
+			h : 10,
+			sizes : array(65),
 		),
 		$client->photoPathSize(
-			type : '1shMKZkNceuOxgtC',
-			bytes : 'PE<?LiveProto"A?D',
+			type : 'QKe4d3RB1pi8w2kc',
+			bytes : '?"͙LiveProto??Ֆ?',
 		),
 	),
-	thumb_dc_id : 30,
-	thumb_version : 80,
-	thumb_document_id : 3068412854647120990,
-	count : 63,
-	hash : 14,
+	thumb_dc_id : 34,
+	thumb_version : 7,
+	thumb_document_id : -9222305146483892739,
+	count : 73,
+	hash : 72,
 );
 ```

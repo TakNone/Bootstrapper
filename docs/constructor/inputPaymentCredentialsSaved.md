@@ -29,8 +29,7 @@ inputPaymentCredentialsSaved#c10eb2cf id:string tmp_password:bytes = InputPaymen
 
 ```php
 $inputPaymentCredentials = $client->inputPaymentCredentialsSaved(
-	id : 'uKtvQNyUgT8LOZcw',
-	tmp_password : '?N?
-LiveProtom[R]%',
+	id : 'Fa4WEclj1RNyVHS5',
+	tmp_password : 'D?n?LiveProto??W?',
 );
 ```

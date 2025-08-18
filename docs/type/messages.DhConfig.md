@@ -1,6 +1,6 @@
 # messages.DhConfig
 
-**Description** : *Contains Diffie-Hellman key generation protocol parameters*
+**Description** : *Contains Diffie\-Hellman key generation protocol parameters*
 
 **Layer** : 211
 

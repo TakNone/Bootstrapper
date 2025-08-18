@@ -1,6 +1,6 @@
 # account.getNotifyExceptions
 
-**Description** : *Returns list of chats with non-default notification settings*
+**Description** : *Returns list of chats with non\-default notification settings*
 
 **Layer** : 211
 

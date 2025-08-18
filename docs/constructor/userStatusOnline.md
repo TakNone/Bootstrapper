@@ -28,6 +28,6 @@ userStatusOnline#edb93949 expires:int = UserStatus;
 
 ```php
 $userStatus = $client->userStatusOnline(
-	expires : 0,
+	expires : 92,
 );
 ```

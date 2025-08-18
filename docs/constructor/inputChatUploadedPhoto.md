@@ -33,24 +33,24 @@ inputChatUploadedPhoto#bdcdaec0 flags:# file:flags.0?InputFile video:flags.1?Inp
 ```php
 $inputChatPhoto = $client->inputChatUploadedPhoto(
 	file : $client->inputFile(
-		id : 3046504109266925898,
-		parts : 8,
-		name : 'i5GsF7RBgckOf2yz',
+		id : -8363401201529886241,
+		parts : 7,
+		name : 'WJ08AnEGNMaxibIw',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
 	video : $client->inputFile(
-		id : 9115312953532891852,
-		parts : 71,
-		name : 'N8gfedEbH1h7vmCZ',
+		id : -2497084504505083240,
+		parts : 69,
+		name : 'jgIpHwhBVE3QeZkK',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	video_start_ts : -537183.900390625,
+	video_start_ts : 446850.4423828125,
 	video_emoji_markup : $client->videoSize(
-		type : 'zeWPuw0RLJkIoiOb',
-		w : 51,
-		h : 95,
-		size : 22,
-		video_start_ts : 897458.267578125,
+		type : 'G67yqN4njS1LJTXC',
+		w : 13,
+		h : 31,
+		size : 37,
+		video_start_ts : 1907425.953125,
 	),
 );
 ```

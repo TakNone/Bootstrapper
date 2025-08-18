@@ -1,6 +1,6 @@
 # messageActionWebViewDataSentMe
 
-**Description** : *Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (bot side service message)*
+**Description** : *Data from an opened reply keyboard bot mini app was relayed to the bot that owns it \(bot side service message\)*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ messageActionWebViewDataSentMe#47dd8079 text:string data:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionWebViewDataSentMe(
-	text : 'xZXD7lRonp986YrJ',
-	data : 'rIhCZ8ycJaVb42Fd',
+	text : 'JZVcokdipNDLnTA2',
+	data : 'Dk5eEXxCZFvotMLg',
 );
 ```

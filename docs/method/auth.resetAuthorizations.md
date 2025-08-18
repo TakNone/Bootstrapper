@@ -1,6 +1,6 @@
 # auth.resetAuthorizations
 
-**Description** : *Terminates all user's authorized sessions except for the current one*
+**Description** : *Terminates all user&#039;s authorized sessions except for the current one*
 
 **Layer** : 211
 

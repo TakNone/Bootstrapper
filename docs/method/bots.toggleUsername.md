@@ -1,6 +1,6 @@
 # bots.toggleUsername
 
-**Description** : *Activate or deactivate a purchased fragment.com username associated to a bot we own*
+**Description** : *Activate or deactivate a purchased fragment\.com username associated to a bot we own*
 
 **Layer** : 211
 
@@ -41,6 +41,6 @@ bots.toggleUsername#53ca973 bot:InputUser username:string active:Bool = Bool;
 $bool = $client->bots->toggleUsername(
 	bot : $client->inputUserEmpty(),
 	username : 'TakNone',
-	active : $client->boolFalse(),
+	active : true,
 );
 ```

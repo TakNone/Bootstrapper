@@ -31,9 +31,10 @@ passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow#3a912d4a salt1
 
 ```php
 $passwordKdfAlgo = $client->passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow(
-	salt1 : 'u	??LiveProto???6E',
-	salt2 : '?????LiveProtou??ں',
-	g : 19,
-	p : '?' . "\0" . '??LiveProto?ӠJ',
+	salt1 : '?c??LiveProtoکZ\\z',
+	salt2 : '?
+\\?<LiveProto????',
+	g : 97,
+	p : '?]?LiveProto?U??',
 );
 ```

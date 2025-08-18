@@ -1,6 +1,6 @@
 # bots.setBotBroadcastDefaultAdminRights
 
-**Description** : *Set the default suggested admin rights for bots being added as admins to channels, see here for more info on how to handle them »*
+**Description** : *Set the default suggested admin rights for bots being added as admins to channels, see here for more info on how to handle them &raquo;*
 
 **Layer** : 211
 

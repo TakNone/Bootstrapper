@@ -40,7 +40,7 @@ stats.loadAsyncGraph#621d5fa0 flags:# token:string x:flags.0?long = StatsGraph;
 
 ```php
 $statsGraph = $client->stats->loadAsyncGraph(
-	token : 'Nk61a98PgARXwDom',
-	x : -1577524656553566837,
+	token : '5M9K2ZVFPA1fv8yo',
+	x : -7922189793427449694,
 );
 ```

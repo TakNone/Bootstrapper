@@ -45,7 +45,7 @@ stories.sendReaction#7fd736b2 flags:# add_to_recent:flags.0?true peer:InputPeer 
 $updates = $client->stories->sendReaction(
 	add_to_recent : true,
 	peer : $client->inputPeerEmpty(),
-	story_id : 42,
+	story_id : 56,
 	reaction : $client->reactionEmpty(),
 );
 ```

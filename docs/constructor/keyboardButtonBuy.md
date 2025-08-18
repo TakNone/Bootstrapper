@@ -28,6 +28,6 @@ keyboardButtonBuy#afd93fbb text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonBuy(
-	text : 'VE7pxyvIATln16tH',
+	text : 'OGaZIMgx97npiU4l',
 );
 ```

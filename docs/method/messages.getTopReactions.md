@@ -29,7 +29,7 @@ messages.getTopReactions#bb8125ba limit:int hash:long = messages.Reactions;
 
 ```php
 $messagesReactions = $client->messages->getTopReactions(
-	limit : 51,
-	hash : 8742703202079640057,
+	limit : 14,
+	hash : 6395870394186585811,
 );
 ```

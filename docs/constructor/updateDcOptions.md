@@ -36,10 +36,10 @@ $update = $client->updateDcOptions(
 			cdn : true,
 			static : true,
 			this_port_only : true,
-			id : 76,
+			id : 13,
 			ip_address : '127.0.0.1',
-			port : 20,
-			secret : '-????LiveProtoV?K??',
+			port : 68,
+			secret : '?J?<sLiveProto/?c',
 		),
 	),
 );

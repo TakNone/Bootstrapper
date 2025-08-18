@@ -1,6 +1,6 @@
 # account.emojiStatusesNotModified
 
-**Description** : *The server-side list of emoji statuses hasn't changed*
+**Description** : *The server\-side list of emoji statuses hasn&#039;t changed*
 
 **Layer** : 211
 

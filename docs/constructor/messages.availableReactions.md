@@ -1,6 +1,6 @@
 # messages.availableReactions
 
-**Description** : *Animations and metadata associated with message reactions »*
+**Description** : *Animations and metadata associated with message reactions &raquo;*
 
 **Layer** : 211
 
@@ -29,33 +29,33 @@ messages.availableReactions#768e3aad hash:int reactions:Vector<AvailableReaction
 
 ```php
 $messagesAvailableReactions = $client->messages->availableReactions(
-	hash : 71,
+	hash : 93,
 	reactions : array(
 		$client->availableReaction(
 			inactive : true,
 			premium : true,
-			reaction : 'LlcIf3idgCov0UpW',
-			title : 'ugHoSAXFxsiKvpQr',
+			reaction : '5n1bAtNHsuP08UmI',
+			title : 'P9w4YRaX3h7pHLgu',
 			static_icon : $client->documentEmpty(
-				id : -2206665362436220902,
+				id : -3486950746541407015,
 			),
 			appear_animation : $client->documentEmpty(
-				id : -5834847679976007406,
+				id : 8730619069368344422,
 			),
 			select_animation : $client->documentEmpty(
-				id : 5000123316294122573,
+				id : 6181957716436047022,
 			),
 			activate_animation : $client->documentEmpty(
-				id : -2668772094610411721,
+				id : 316482055124787164,
 			),
 			effect_animation : $client->documentEmpty(
-				id : -6595845702383711707,
+				id : -3076325070142489194,
 			),
 			around_animation : $client->documentEmpty(
-				id : 3555403237462058741,
+				id : -1776787492426578360,
 			),
 			center_icon : $client->documentEmpty(
-				id : 6826641303657613796,
+				id : -8141202237161697883,
 			),
 		),
 	),

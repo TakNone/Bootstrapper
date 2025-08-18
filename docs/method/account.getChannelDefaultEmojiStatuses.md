@@ -28,6 +28,6 @@ account.getChannelDefaultEmojiStatuses#7727a7d5 hash:long = account.EmojiStatuse
 
 ```php
 $accountEmojiStatuses = $client->account->getChannelDefaultEmojiStatuses(
-	hash : 8401933137693585952,
+	hash : -1998308271276958620,
 );
 ```

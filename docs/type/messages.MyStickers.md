@@ -1,6 +1,6 @@
 # messages.MyStickers
 
-**Description** : *The list of stickersets owned by the current account »*
+**Description** : *The list of stickersets owned by the current account &raquo;*
 
 **Layer** : 211
 

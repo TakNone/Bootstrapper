@@ -1,6 +1,6 @@
 # account.Password
 
-**Description** : *Configuration for two-factor authorization*
+**Description** : *Configuration for two\-factor authorization*
 
 **Layer** : 211
 

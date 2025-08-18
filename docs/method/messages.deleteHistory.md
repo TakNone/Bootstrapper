@@ -53,8 +53,8 @@ $messagesAffectedHistory = $client->messages->deleteHistory(
 	just_clear : true,
 	revoke : true,
 	peer : $client->inputPeerEmpty(),
-	max_id : 22,
-	min_date : 68,
-	max_date : 40,
+	max_id : 15,
+	min_date : 47,
+	max_date : 41,
 );
 ```

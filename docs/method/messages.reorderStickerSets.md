@@ -33,6 +33,6 @@ messages.reorderStickerSets#78337739 flags:# masks:flags.0?true emojis:flags.1?t
 $bool = $client->messages->reorderStickerSets(
 	masks : true,
 	emojis : true,
-	order : array(-1892406514401027935),
+	order : array(2937968441778265285),
 );
 ```

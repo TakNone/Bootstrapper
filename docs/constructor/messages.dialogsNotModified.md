@@ -1,6 +1,6 @@
 # messages.dialogsNotModified
 
-**Description** : *Dialogs haven't changed*
+**Description** : *Dialogs haven&#039;t changed*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messages.dialogsNotModified#f0e3e596 count:int = messages.Dialogs;
 
 ```php
 $messagesDialogs = $client->messages->dialogsNotModified(
-	count : 24,
+	count : 46,
 );
 ```

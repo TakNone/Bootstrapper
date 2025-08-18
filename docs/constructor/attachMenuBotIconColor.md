@@ -1,6 +1,6 @@
 # attachMenuBotIconColor
 
-**Description** : *Represents an attachment menu icon color for bot mini apps »*
+**Description** : *Represents an attachment menu icon color for bot mini apps &raquo;*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ attachMenuBotIconColor#4576f3f0 name:string color:int = AttachMenuBotIconColor;
 
 ```php
 $attachMenuBotIconColor = $client->attachMenuBotIconColor(
-	name : 'vQOER1CTBmzYbe74',
-	color : 76,
+	name : 'gClsV9YaIUjkh7Ky',
+	color : 21,
 );
 ```

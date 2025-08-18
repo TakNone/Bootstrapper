@@ -1,6 +1,6 @@
 # bots.getPreviewMedias
 
-**Description** : *Fetch main mini app previews, see here » for more info*
+**Description** : *Fetch main mini app previews, see here &raquo; for more info*
 
 **Layer** : 211
 

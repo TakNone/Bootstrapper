@@ -1,6 +1,6 @@
 # availableEffect
 
-**Description** : *Represents a message effect »*
+**Description** : *Represents a message effect &raquo;*
 
 **Layer** : 211
 
@@ -35,10 +35,10 @@ availableEffect#93c3e27e flags:# premium_required:flags.2?true id:long emoticon:
 ```php
 $availableEffect = $client->availableEffect(
 	premium_required : true,
-	id : 7594250772812115896,
-	emoticon : '7DKnsgdAv5CqtjIl',
-	static_icon_id : 6432113787985615808,
-	effect_sticker_id : -8431802344161643168,
-	effect_animation_id : 5405094594585065137,
+	id : -5976339068608227127,
+	emoticon : 'FgWV07v8PdfiNlcB',
+	static_icon_id : 7249110020967953827,
+	effect_sticker_id : 2323390363219258324,
+	effect_animation_id : 1600055595999287365,
 );
 ```

@@ -48,9 +48,9 @@ $authSentCode = $client->account->sendChangePhoneCode(
 		allow_missed_call : true,
 		allow_firebase : true,
 		unknown_number : true,
-		logout_tokens : array('6k{?1LiveProtoM?TGq'),
-		token : 'FIrDasKzyu6G8o9i',
-		app_sandbox : $client->boolFalse(),
+		logout_tokens : array('h?h?LiveProtoP??e?'),
+		token : 'nbjE1GCQWmxDwe8U',
+		app_sandbox : false,
 	),
 );
 ```

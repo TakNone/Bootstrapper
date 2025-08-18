@@ -32,7 +32,7 @@ $messageMedia = $client->messageMediaToDo(
 		others_can_append : true,
 		others_can_complete : true,
 		title : $client->textWithEntities(
-			text : 'n3R46atA7jDYrzeu',
+			text : '1US6E45pMwDZrKA7',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -59,16 +59,16 @@ $messageMedia = $client->messageMediaToDo(
 		),
 		list : array(
 			$client->todoItem(
-				id : 48,
+				id : 36,
 				title : $client->textWithEntities(...),
 			),
 		),
 	),
 	completions : array(
 		$client->todoCompletion(
-			id : 53,
-			completed_by : -3898262626902977542,
-			date : 90,
+			id : 11,
+			completed_by : 5279775406814318312,
+			date : 2,
 		),
 	),
 );

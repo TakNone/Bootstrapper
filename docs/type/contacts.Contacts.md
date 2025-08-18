@@ -1,6 +1,6 @@
 # contacts.Contacts
 
-**Description** : *Info on the current user's contact list*
+**Description** : *Info on the current user&#039;s contact list*
 
 **Layer** : 211
 

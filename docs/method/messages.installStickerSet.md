@@ -38,6 +38,6 @@ messages.installStickerSet#c78fe460 stickerset:InputStickerSet archived:Bool = m
 ```php
 $messagesStickerSetInstallResult = $client->messages->installStickerSet(
 	stickerset : $client->inputStickerSetEmpty(),
-	archived : $client->boolFalse(),
+	archived : false,
 );
 ```

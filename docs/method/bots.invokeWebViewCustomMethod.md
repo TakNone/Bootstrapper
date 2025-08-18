@@ -1,6 +1,6 @@
 # bots.invokeWebViewCustomMethod
 
-**Description** : *Send a custom request from a mini bot app, triggered by a web_app_invoke_custom_method event »*
+**Description** : *Send a custom request from a mini bot app, triggered by a web\_app\_invoke\_custom\_method event &raquo;*
 
 **Layer** : 211
 
@@ -40,9 +40,9 @@ bots.invokeWebViewCustomMethod#87fc5e7 bot:InputUser custom_method:string params
 ```php
 $dataJSON = $client->bots->invokeWebViewCustomMethod(
 	bot : $client->inputUserEmpty(),
-	custom_method : 'Vjxf4DY6aRGnHLd8',
+	custom_method : 'kP5yMn8XUqTDbxsf',
 	params : $client->dataJSON(
-		data : 'tYq9VSl3byhmPi1J',
+		data : 'Q3EX7hRVJ4aLqzdN',
 	),
 );
 ```

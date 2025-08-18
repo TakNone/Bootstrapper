@@ -1,6 +1,6 @@
 # account.saveSecureValue
 
-**Description** : *Securely save Telegram Passport document, for more info see the passport docs »*
+**Description** : *Securely save Telegram Passport document, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 
@@ -41,61 +41,63 @@ $secureValue = $client->account->saveSecureValue(
 	value : $client->inputSecureValue(
 		type : $client->secureValueTypePersonalDetails(),
 		data : $client->secureData(
-			data : '?|?<TLiveProto????a',
-			data_hash : '????LiveProto?K??u',
-			secret : '????LiveProto?ca?',
+			data : '-?lSLiveProto?|߃',
+			data_hash : '?y?g$LiveProto?nƪ',
+			secret : '[a<?PLiveProto?oww',
 		),
 		front_side : $client->inputSecureFileUploaded(
-			id : 6957680266741659058,
-			parts : 98,
+			id : 8374006829579932108,
+			parts : 55,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-			file_hash : 'u ??LiveProtos???',
-			secret : 'A{5f?LiveProtox	?A',
+			file_hash : '?L1LiveProtoY??',
+			secret : 'G6?{?LiveProtoء?\'?',
 		),
 		reverse_side : $client->inputSecureFileUploaded(
-			id : -1511664965140399293,
-			parts : 7,
+			id : 7363571406099617564,
+			parts : 77,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-			file_hash : '?P\'?LiveProto?E̫|',
-			secret : '4:?$LiveProtol?' . "\0" . 'T\\',
+			file_hash : '????eLiveProtoǅ)?P',
+			secret : '(?4' . "\0" . 'LiveProto
+@?',
 		),
 		selfie : $client->inputSecureFileUploaded(
-			id : 5961738351657258317,
-			parts : 27,
+			id : 4091956289245762343,
+			parts : 41,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-			file_hash : ' ??LiveProtoٚ?9?',
-			secret : 'kʈpLiveProtoP??',
+			file_hash : '?
+2s?LiveProto?6?&?',
+			secret : '??<??LiveProtoc=,Lo',
 		),
 		translation : array(
 			$client->inputSecureFileUploaded(
-				id : 6413290551873201437,
-				parts : 88,
+				id : 5601436146483660668,
+				parts : 38,
 				md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-				file_hash : 'p^V?LiveProto.?',
-				secret : 'H{2?LiveProto?C3',
+				file_hash : '?6KD?LiveProto??\'?',
+				secret : '?????LiveProtocd??`',
 			),
 			$client->inputSecureFile(
-				id : -5217993174345136875,
-				access_hash : -1914550666879031347,
+				id : -4003558432214607447,
+				access_hash : 4415266239679104107,
 			),
 		),
 		files : array(
 			$client->inputSecureFileUploaded(
-				id : 8629400690247115294,
-				parts : 20,
+				id : 1694531684693057455,
+				parts : 16,
 				md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-				file_hash : 'k`tLiveProto ????',
-				secret : '@?z??LiveProto#???',
+				file_hash : 'Ͽ??LiveProto?f1?',
+				secret : 'E??ZLiveProto=?a?',
 			),
 			$client->inputSecureFile(
-				id : 878327284421375735,
-				access_hash : 3027644009867110237,
+				id : -2210470766219388736,
+				access_hash : -1385983878335564573,
 			),
 		),
 		plain_data : $client->securePlainPhone(
 			phone : '+1234567890',
 		),
 	),
-	secure_secret_id : 4476241883582378944,
+	secure_secret_id : -4326395588646342023,
 );
 ```

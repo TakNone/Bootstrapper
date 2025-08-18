@@ -1,6 +1,6 @@
 # payments.BankCardData
 
-**Description** : *Credit card info, provided by the card's bank(s)*
+**Description** : *Credit card info, provided by the card&#039;s bank\(s\)*
 
 **Layer** : 211
 

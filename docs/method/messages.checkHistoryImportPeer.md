@@ -1,6 +1,6 @@
 # messages.checkHistoryImportPeer
 
-**Description** : *Check whether chat history exported from another chat app can be imported into a specific Telegram chat, click here for more info »*
+**Description** : *Check whether chat history exported from another chat app can be imported into a specific Telegram chat, click here for more info &raquo;*
 
 **Layer** : 211
 

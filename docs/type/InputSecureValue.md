@@ -1,6 +1,6 @@
 # InputSecureValue
 
-**Description** : *Secure value, for more info see the passport docs »*
+**Description** : *Secure value, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 

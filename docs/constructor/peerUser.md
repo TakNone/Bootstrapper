@@ -28,6 +28,6 @@ peerUser#59511722 user_id:long = Peer;
 
 ```php
 $peer = $client->peerUser(
-	user_id : 8427529479383269826,
+	user_id : 1295502367475398138,
 );
 ```

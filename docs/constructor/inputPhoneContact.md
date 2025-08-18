@@ -31,7 +31,7 @@ inputPhoneContact#f392b7f4 client_id:long phone:string first_name:string last_na
 
 ```php
 $inputContact = $client->inputPhoneContact(
-	client_id : -6737514214557689302,
+	client_id : 2846514820825751138,
 	phone : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',

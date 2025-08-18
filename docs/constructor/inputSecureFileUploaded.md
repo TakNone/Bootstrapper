@@ -1,6 +1,6 @@
 # inputSecureFileUploaded
 
-**Description** : *Uploaded secure file, for more info see the passport docs »*
+**Description** : *Uploaded secure file, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 
@@ -32,10 +32,10 @@ inputSecureFileUploaded#3334b0f0 id:long parts:int md5_checksum:string file_hash
 
 ```php
 $inputSecureFile = $client->inputSecureFileUploaded(
-	id : -355037585401490366,
-	parts : 81,
+	id : 7353472529787628706,
+	parts : 97,
 	md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-	file_hash : '??/?LiveProto?i???',
-	secret : '?d??uLiveProto??Q?',
+	file_hash : '\'5?LiveProto?FG?',
+	secret : '?u@7LiveProto?&?l',
 );
 ```

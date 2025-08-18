@@ -31,7 +31,7 @@ inputPeerUserFromMessage#a87b0a1c peer:InputPeer msg_id:int user_id:long = Input
 ```php
 $inputPeer = $client->inputPeerUserFromMessage(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 89,
-	user_id : -2675232327116213535,
+	msg_id : 40,
+	user_id : -8365536856954584948,
 );
 ```

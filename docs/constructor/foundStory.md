@@ -1,6 +1,6 @@
 # foundStory
 
-**Description** : *A story found using global story search »*
+**Description** : *A story found using global story search &raquo;*
 
 **Layer** : 211
 
@@ -30,10 +30,10 @@ foundStory#e87acbc0 peer:Peer story:StoryItem = FoundStory;
 ```php
 $foundStory = $client->foundStory(
 	peer : $client->peerUser(
-		user_id : 3121694549157969762,
+		user_id : 2281738110385345422,
 	),
 	story : $client->storyItemDeleted(
-		id : 87,
+		id : 22,
 	),
 );
 ```

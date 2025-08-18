@@ -1,6 +1,6 @@
 # secureValueErrorFiles
 
-**Description** : *Represents an issue with a list of scans. The error is considered resolved when the list of files containing the scans changes*
+**Description** : *Represents an issue with a list of scans\. The error is considered resolved when the list of files containing the scans changes*
 
 **Layer** : 211
 
@@ -31,7 +31,7 @@ secureValueErrorFiles#666220e9 type:SecureValueType file_hash:Vector<bytes> text
 ```php
 $secureValueError = $client->secureValueErrorFiles(
 	type : $client->secureValueTypePersonalDetails(),
-	file_hash : array('2?<LiveProto????'),
-	text : 'w5rvzY2Fq0LDhBRi',
+	file_hash : array('J??)?LiveProto' . "\0" . 'y??'),
+	text : 'aLrGDumISgyHUFJ0',
 );
 ```

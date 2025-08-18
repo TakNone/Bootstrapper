@@ -1,6 +1,6 @@
 # PeerColor
 
-**Description** : *Represents a color palette »*
+**Description** : *Represents a color palette &raquo;*
 
 **Layer** : 211
 

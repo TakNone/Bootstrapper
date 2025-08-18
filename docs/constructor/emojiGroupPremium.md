@@ -1,6 +1,6 @@
 # emojiGroupPremium
 
-**Description** : *An emoji category, used to select all Premium-only stickers (i.e. those with a Premium effect »)/Premium-only custom emojis (i.e. those where the documentAttributeCustomEmoji.free flag is not set)*
+**Description** : *An emoji category, used to select all Premium\-only stickers \(i\.e\. those with a Premium effect &raquo;\)/Premium\-only custom emojis \(i\.e\. those where the documentAttributeCustomEmoji\.free flag is not set\)*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ emojiGroupPremium#93bcf34 title:string icon_emoji_id:long = EmojiGroup;
 
 ```php
 $emojiGroup = $client->emojiGroupPremium(
-	title : 'xHqbX7emKGUoJBi6',
-	icon_emoji_id : -7329685734312077930,
+	title : 'MFmVZjBnw9XdlH6E',
+	icon_emoji_id : -4978838764732268938,
 );
 ```

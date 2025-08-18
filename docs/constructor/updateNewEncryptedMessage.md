@@ -30,12 +30,12 @@ updateNewEncryptedMessage#12bcbd9a message:EncryptedMessage qts:int = Update;
 ```php
 $update = $client->updateNewEncryptedMessage(
 	message : $client->encryptedMessage(
-		random_id : 2400227542882137193,
-		chat_id : 78,
-		date : 90,
-		bytes : ':?RL>LiveProto??)?$',
+		random_id : -9197108603435879913,
+		chat_id : 18,
+		date : 75,
+		bytes : '?3NX?LiveProtooU??m',
 		file : $client->encryptedFileEmpty(),
 	),
-	qts : 98,
+	qts : 59,
 );
 ```

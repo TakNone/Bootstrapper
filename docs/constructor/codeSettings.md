@@ -43,8 +43,8 @@ $codeSettings = $client->codeSettings(
 	allow_missed_call : true,
 	allow_firebase : true,
 	unknown_number : true,
-	logout_tokens : array('x?0?LiveProto?GwC'),
-	token : 'csVA8qJZDz02igOW',
-	app_sandbox : $client->boolFalse(),
+	logout_tokens : array('?~?LiveProto????{'),
+	token : '9Cw7HJKYSnk3Qu60',
+	app_sandbox : false,
 );
 ```

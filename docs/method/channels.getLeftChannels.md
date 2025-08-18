@@ -1,6 +1,6 @@
 # channels.getLeftChannels
 
-**Description** : *Get a list of channels/supergroups we left, requires a takeout session, see here » for more info*
+**Description** : *Get a list of channels/supergroups we left, requires a takeout session, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -36,6 +36,6 @@ channels.getLeftChannels#8341ecc0 offset:int = messages.Chats;
 
 ```php
 $messagesChats = $client->channels->getLeftChannels(
-	offset : 84,
+	offset : 46,
 );
 ```

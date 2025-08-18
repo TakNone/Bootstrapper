@@ -1,6 +1,6 @@
 # messageActionSetChatWallPaper
 
-**Description** : *The wallpaper » of the current chat was changed*
+**Description** : *The wallpaper &raquo; of the current chat was changed*
 
 **Layer** : 211
 
@@ -34,26 +34,26 @@ $messageAction = $client->messageActionSetChatWallPaper(
 	same : true,
 	for_both : true,
 	wallpaper : $client->wallPaper(
-		id : -2898338962503251899,
+		id : -2748307873114762577,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : 448966416666841746,
-		slug : 'LFqgWQ387GH9AkPi',
+		access_hash : 5119201104536658494,
+		slug : 'T4UJEBbVY07MHf3d',
 		document : $client->documentEmpty(
-			id : -5005308862949088130,
+			id : -5317379055845186374,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 11,
-			second_background_color : 4,
-			third_background_color : 47,
-			fourth_background_color : 76,
-			intensity : 17,
-			rotation : 41,
-			emoticon : 'gbTqudRO3x8UDLYC',
+			background_color : 18,
+			second_background_color : 70,
+			third_background_color : 82,
+			fourth_background_color : 25,
+			intensity : 57,
+			rotation : 100,
+			emoticon : 'o2CMD90iSh58KjWr',
 		),
 	),
 );

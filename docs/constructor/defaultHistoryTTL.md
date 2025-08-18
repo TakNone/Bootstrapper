@@ -1,6 +1,6 @@
 # defaultHistoryTTL
 
-**Description** : *Contains info about the default value of the Time-To-Live setting, applied to all new chats*
+**Description** : *Contains info about the default value of the Time\-To\-Live setting, applied to all new chats*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ defaultHistoryTTL#43b46b20 period:int = DefaultHistoryTTL;
 
 ```php
 $defaultHistoryTTL = $client->defaultHistoryTTL(
-	period : 3,
+	period : 15,
 );
 ```

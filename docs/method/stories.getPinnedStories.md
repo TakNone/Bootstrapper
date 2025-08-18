@@ -1,6 +1,6 @@
 # stories.getPinnedStories
 
-**Description** : *Fetch the stories pinned on a peer's profile*
+**Description** : *Fetch the stories pinned on a peer&#039;s profile*
 
 **Layer** : 211
 
@@ -40,7 +40,7 @@ stories.getPinnedStories#5821a5dc peer:InputPeer offset_id:int limit:int = stori
 ```php
 $storiesStories = $client->stories->getPinnedStories(
 	peer : $client->inputPeerEmpty(),
-	offset_id : 53,
-	limit : 48,
+	offset_id : 54,
+	limit : 47,
 );
 ```

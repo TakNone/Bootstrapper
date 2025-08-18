@@ -1,6 +1,6 @@
 # keyboardButtonWebView
 
-**Description** : *Button to open a bot mini app using messages.requestWebView, sending over user information after user confirmation*
+**Description** : *Button to open a bot mini app using messages\.requestWebView, sending over user information after user confirmation*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ keyboardButtonWebView#13767230 text:string url:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonWebView(
-	text : 'ucQ7eiI0kmTjzfUy',
+	text : 'HPfb9QixN4m12GMJ',
 	url : 'https://docs.liveproto.dev',
 );
 ```

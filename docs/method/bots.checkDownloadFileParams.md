@@ -1,6 +1,6 @@
 # bots.checkDownloadFileParams
 
-**Description** : *Check if a mini app can request the download of a specific file: called when handling web_app_request_file_download events »*
+**Description** : *Check if a mini app can request the download of a specific file: called when handling web\_app\_request\_file\_download events &raquo;*
 
 **Layer** : 211
 
@@ -39,7 +39,7 @@ bots.checkDownloadFileParams#50077589 bot:InputUser file_name:string url:string 
 ```php
 $bool = $client->bots->checkDownloadFileParams(
 	bot : $client->inputUserEmpty(),
-	file_name : 'HyB4CmU76bSLaetI',
+	file_name : 'BvR5IkaY3etjFOUp',
 	url : 'https://docs.liveproto.dev',
 );
 ```

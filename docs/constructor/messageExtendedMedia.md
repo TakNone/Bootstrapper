@@ -1,6 +1,6 @@
 # messageExtendedMedia
 
-**Description** : *Already purchased paid media, see here » for more info*
+**Description** : *Already purchased paid media, see here &raquo; for more info*
 
 **Layer** : 211
 

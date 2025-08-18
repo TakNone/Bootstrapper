@@ -37,8 +37,8 @@ messages.reportEncryptedSpam#4b0c8c0f peer:InputEncryptedChat = Bool;
 ```php
 $bool = $client->messages->reportEncryptedSpam(
 	peer : $client->inputEncryptedChat(
-		chat_id : 57,
-		access_hash : -8489395522378798975,
+		chat_id : 84,
+		access_hash : -3796029507470533653,
 	),
 );
 ```

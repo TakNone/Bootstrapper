@@ -46,10 +46,10 @@ payments.getPaymentForm#37148dbb flags:# invoice:InputInvoice theme_params:flags
 $paymentsPaymentForm = $client->payments->getPaymentForm(
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->inputPeerEmpty(),
-		msg_id : 90,
+		msg_id : 32,
 	),
 	theme_params : $client->dataJSON(
-		data : 'z8DtUswBRf4i7V1N',
+		data : 'L4Gs2Yv71r9IDu60',
 	),
 );
 ```

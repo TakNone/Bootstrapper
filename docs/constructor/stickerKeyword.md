@@ -29,7 +29,7 @@ stickerKeyword#fcfeb29c document_id:long keyword:Vector<string> = StickerKeyword
 
 ```php
 $stickerKeyword = $client->stickerKeyword(
-	document_id : -2787147941627589709,
-	keyword : array('3ldBJMAjXWN6iqwK'),
+	document_id : -5068086334635617504,
+	keyword : array('GuS0EJLeyr5oQcZF'),
 );
 ```

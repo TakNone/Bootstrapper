@@ -30,8 +30,8 @@ chatInvitePeek#61695cb0 chat:Chat expires:int = ChatInvite;
 ```php
 $chatInvite = $client->chatInvitePeek(
 	chat : $client->chatEmpty(
-		id : 3508525479542055712,
+		id : 659444190713889431,
 	),
-	expires : 64,
+	expires : 67,
 );
 ```

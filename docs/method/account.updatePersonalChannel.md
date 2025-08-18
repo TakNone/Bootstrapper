@@ -1,6 +1,6 @@
 # account.updatePersonalChannel
 
-**Description** : *Associate (or remove) a personal channel », that will be listed on our personal profile page »*
+**Description** : *Associate \(or remove\) a personal channel &raquo;, that will be listed on our personal profile page &raquo;*
 
 **Layer** : 211
 

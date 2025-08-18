@@ -28,7 +28,7 @@ payments.transferStarGift#7f18176a stargift:InputSavedStarGift to_id:InputPeer =
 ```php
 $updates = $client->payments->transferStarGift(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 56,
+		msg_id : 22,
 	),
 	to_id : $client->inputPeerEmpty(),
 );

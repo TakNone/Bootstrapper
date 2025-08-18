@@ -1,7 +1,7 @@
 # stats.getMessagePublicForwards
 
-**Description** : *Obtains a list of messages, indicating to which other public channels was a channel message forwarded.
-Will return a list of messages with peer_id equal to the public channel to which this message was forwarded*
+**Description** : *Obtains a list of messages, indicating to which other public channels was a channel message forwarded\.
+Will return a list of messages with peer\_id equal to the public channel to which this message was forwarded*
 
 **Layer** : 211
 
@@ -44,8 +44,8 @@ stats.getMessagePublicForwards#5f150144 channel:InputChannel msg_id:int offset:s
 ```php
 $statsPublicForwards = $client->stats->getMessagePublicForwards(
 	channel : $client->inputChannelEmpty(),
-	msg_id : 82,
-	offset : 'v8tanfwJEiTSNKGD',
-	limit : 20,
+	msg_id : 57,
+	offset : 'GqiXTm4J2vUhkMf5',
+	limit : 5,
 );
 ```

@@ -1,6 +1,6 @@
 # payments.StarGifts
 
-**Description** : *Available gifts »*
+**Description** : *Available gifts &raquo;*
 
 **Layer** : 211
 

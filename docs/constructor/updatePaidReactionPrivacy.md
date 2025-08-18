@@ -1,6 +1,6 @@
 # updatePaidReactionPrivacy
 
-**Description** : *Contains the current default paid reaction privacy, see here » for more info*
+**Description** : *Contains the current default paid reaction privacy, see here &raquo; for more info*
 
 **Layer** : 211
 

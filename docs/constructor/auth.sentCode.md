@@ -33,10 +33,10 @@ auth.sentCode#5e002502 flags:# type:auth.SentCodeType phone_code_hash:string nex
 ```php
 $authSentCode = $client->auth->sentCode(
 	type : $client->auth->sentCodeTypeApp(
-		length : 14,
+		length : 68,
 	),
 	phone_code_hash : '+1234567890',
 	next_type : $client->auth->codeTypeSms(),
-	timeout : 1,
+	timeout : 46,
 );
 ```

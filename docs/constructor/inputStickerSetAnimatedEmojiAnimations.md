@@ -1,6 +1,6 @@
 # inputStickerSetAnimatedEmojiAnimations
 
-**Description** : *Animated emoji reaction stickerset (contains animations to play when a user clicks on a given animated emoji)*
+**Description** : *Animated emoji reaction stickerset \(contains animations to play when a user clicks on a given animated emoji\)*
 
 **Layer** : 211
 

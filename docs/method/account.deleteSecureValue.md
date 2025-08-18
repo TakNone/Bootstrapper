@@ -1,6 +1,6 @@
 # account.deleteSecureValue
 
-**Description** : *Delete stored Telegram Passport documents, for more info see the passport docs »*
+**Description** : *Delete stored Telegram Passport documents, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 

@@ -39,6 +39,6 @@ stories.deleteStories#ae59db5f peer:InputPeer id:Vector<int> = Vector<int>;
 ```php
 $int = $client->stories->deleteStories(
 	peer : $client->inputPeerEmpty(),
-	id : array(82),
+	id : array(64),
 );
 ```

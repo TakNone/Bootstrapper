@@ -1,6 +1,6 @@
 # inputInvoiceMessage
 
-**Description** : *An invoice contained in a messageMediaInvoice message or paid media »*
+**Description** : *An invoice contained in a messageMediaInvoice message or paid media &raquo;*
 
 **Layer** : 211
 
@@ -30,6 +30,6 @@ inputInvoiceMessage#c5b56859 peer:InputPeer msg_id:int = InputInvoice;
 ```php
 $inputInvoice = $client->inputInvoiceMessage(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 25,
+	msg_id : 17,
 );
 ```

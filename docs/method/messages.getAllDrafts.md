@@ -1,6 +1,6 @@
 # messages.getAllDrafts
 
-**Description** : *Return all message drafts.
+**Description** : *Return all message drafts\.
 Returns all the latest updateDraftMessage updates related to all chats with drafts*
 
 **Layer** : 211

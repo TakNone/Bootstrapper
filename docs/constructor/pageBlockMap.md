@@ -33,9 +33,9 @@ pageBlockMap#a44f3ef6 geo:GeoPoint zoom:int w:int h:int caption:PageCaption = Pa
 ```php
 $pageBlock = $client->pageBlockMap(
 	geo : $client->geoPointEmpty(),
-	zoom : 54,
-	w : 45,
-	h : 65,
+	zoom : 1,
+	w : 69,
+	h : 37,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

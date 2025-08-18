@@ -30,8 +30,8 @@ statsGroupTopPoster#9d04af9b user_id:long messages:int avg_chars:int = StatsGrou
 
 ```php
 $statsGroupTopPoster = $client->statsGroupTopPoster(
-	user_id : -4873048056416507359,
-	messages : 55,
-	avg_chars : 83,
+	user_id : 784081368724729820,
+	messages : 96,
+	avg_chars : 26,
 );
 ```

@@ -1,6 +1,6 @@
 # updateBotStopped
 
-**Description** : *A bot was stopped or re-started*
+**Description** : *A bot was stopped or re\-started*
 
 **Layer** : 211
 
@@ -31,9 +31,9 @@ updateBotStopped#c4870a49 user_id:long date:int stopped:Bool qts:int = Update;
 
 ```php
 $update = $client->updateBotStopped(
-	user_id : 1319465905079807204,
-	date : 45,
-	stopped : $client->boolFalse(),
-	qts : 30,
+	user_id : -8404724255212276915,
+	date : 9,
+	stopped : false,
+	qts : 41,
 );
 ```

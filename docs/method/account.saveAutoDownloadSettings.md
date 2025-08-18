@@ -39,12 +39,12 @@ $bool = $client->account->saveAutoDownloadSettings(
 		audio_preload_next : true,
 		phonecalls_less_data : true,
 		stories_preload : true,
-		photo_size_max : 83,
-		video_size_max : -7317933649931116665,
-		file_size_max : -7622716894473168569,
-		video_upload_maxbitrate : 91,
-		small_queue_active_operations_max : 64,
-		large_queue_active_operations_max : 44,
+		photo_size_max : 11,
+		video_size_max : 8602571603717770718,
+		file_size_max : 5824987915099727459,
+		video_upload_maxbitrate : 24,
+		small_queue_active_operations_max : 79,
+		large_queue_active_operations_max : 31,
 	),
 );
 ```

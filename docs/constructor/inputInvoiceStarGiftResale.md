@@ -30,7 +30,7 @@ inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:I
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftResale(
 	ton : true,
-	slug : 'mKQ6bptHS4XyEclW',
+	slug : 'l6baq5yNRoZgjH7P',
 	to_id : $client->inputPeerEmpty(),
 );
 ```

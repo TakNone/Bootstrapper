@@ -31,9 +31,9 @@ messageActionGroupCall#7a0d7f42 flags:# call:InputGroupCall duration:flags.0?int
 ```php
 $messageAction = $client->messageActionGroupCall(
 	call : $client->inputGroupCall(
-		id : 1281807965120270867,
-		access_hash : 1934969804978339461,
+		id : 8736647176014570603,
+		access_hash : -4151937002329980909,
 	),
-	duration : 7,
+	duration : 14,
 );
 ```

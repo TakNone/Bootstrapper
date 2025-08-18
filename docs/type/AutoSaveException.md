@@ -1,6 +1,6 @@
 # AutoSaveException
 
-**Description** : *Peer-specific autosave settings*
+**Description** : *Peer\-specific autosave settings*
 
 **Layer** : 211
 

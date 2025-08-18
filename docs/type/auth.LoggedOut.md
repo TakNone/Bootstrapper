@@ -1,6 +1,6 @@
 # auth.LoggedOut
 
-**Description** : *Future auth token » to be used on subsequent authorizations*
+**Description** : *Future auth token &raquo; to be used on subsequent authorizations*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # messages.receivedMessages
 
-**Description** : *Confirms receipt of messages by a client, cancels PUSH-notification sending*
+**Description** : *Confirms receipt of messages by a client, cancels PUSH\-notification sending*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messages.receivedMessages#5a954c0 max_id:int = Vector<ReceivedNotifyMessage>;
 
 ```php
 $receivedNotifyMessage = $client->messages->receivedMessages(
-	max_id : 89,
+	max_id : 81,
 );
 ```

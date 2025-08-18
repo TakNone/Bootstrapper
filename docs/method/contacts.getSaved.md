@@ -1,6 +1,6 @@
 # contacts.getSaved
 
-**Description** : *Get all contacts, requires a takeout session, see here » for more info*
+**Description** : *Get all contacts, requires a takeout session, see here &raquo; for more info*
 
 **Layer** : 211
 

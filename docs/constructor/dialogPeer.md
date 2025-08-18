@@ -29,7 +29,7 @@ dialogPeer#e56dbf05 peer:Peer = DialogPeer;
 ```php
 $dialogPeer = $client->dialogPeer(
 	peer : $client->peerUser(
-		user_id : 2928380847153207687,
+		user_id : -4391674613732510617,
 	),
 );
 ```

@@ -1,6 +1,6 @@
 # payments.getStarsGiftOptions
 
-**Description** : *Obtain a list of Telegram Stars gift options » as starsGiftOption constructors*
+**Description** : *Obtain a list of Telegram Stars gift options &raquo; as starsGiftOption constructors*
 
 **Layer** : 211
 

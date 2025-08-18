@@ -1,6 +1,6 @@
 # messages.HistoryImport
 
-**Description** : *Identifier of a history import session, click here for more info »*
+**Description** : *Identifier of a history import session, click here for more info &raquo;*
 
 **Layer** : 211
 

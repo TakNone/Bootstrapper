@@ -42,7 +42,7 @@ messages.unpinAllMessages#62dd747 flags:# peer:InputPeer top_msg_id:flags.0?int 
 ```php
 $messagesAffectedHistory = $client->messages->unpinAllMessages(
 	peer : $client->inputPeerEmpty(),
-	top_msg_id : 69,
+	top_msg_id : 92,
 	saved_peer_id : $client->inputPeerEmpty(),
 );
 ```

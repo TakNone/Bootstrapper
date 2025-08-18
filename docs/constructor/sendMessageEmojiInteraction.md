@@ -1,6 +1,6 @@
 # sendMessageEmojiInteraction
 
-**Description** : *User has clicked on an animated emoji triggering a reaction, click here for more info »*
+**Description** : *User has clicked on an animated emoji triggering a reaction, click here for more info &raquo;*
 
 **Layer** : 211
 
@@ -30,10 +30,10 @@ sendMessageEmojiInteraction#25972bcb emoticon:string msg_id:int interaction:Data
 
 ```php
 $sendMessageAction = $client->sendMessageEmojiInteraction(
-	emoticon : 'Isu3TSD5nEMgcvQq',
-	msg_id : 99,
+	emoticon : 'TeW4GbwnirMyDS1A',
+	msg_id : 73,
 	interaction : $client->dataJSON(
-		data : 'GuSP2FY3MbLwnQky',
+		data : 'mf9OPDQ8hWVcuMkq',
 	),
 );
 ```

@@ -1,6 +1,6 @@
 # channels.toggleJoinRequest
 
-**Description** : *Set whether all users should request admin approval to join the group »*
+**Description** : *Set whether all users should request admin approval to join the group &raquo;*
 
 **Layer** : 211
 
@@ -42,6 +42,6 @@ channels.toggleJoinRequest#4c2985b6 channel:InputChannel enabled:Bool = Updates;
 ```php
 $updates = $client->channels->toggleJoinRequest(
 	channel : $client->inputChannelEmpty(),
-	enabled : $client->boolFalse(),
+	enabled : true,
 );
 ```

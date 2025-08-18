@@ -1,6 +1,6 @@
 # sendMessageCancelAction
 
-**Description** : *Invalidate all previous action updates. E.g. when user deletes entered text or aborts a video upload*
+**Description** : *Invalidate all previous action updates\. E\.g\. when user deletes entered text or aborts a video upload*
 
 **Layer** : 211
 

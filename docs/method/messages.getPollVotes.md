@@ -1,6 +1,6 @@
 # messages.getPollVotes
 
-**Description** : *Get poll results for non-anonymous polls*
+**Description** : *Get poll results for non\-anonymous polls*
 
 **Layer** : 211
 
@@ -44,9 +44,9 @@ messages.getPollVotes#b86e380e flags:# peer:InputPeer id:int option:flags.0?byte
 ```php
 $messagesVotesList = $client->messages->getPollVotes(
 	peer : $client->inputPeerEmpty(),
-	id : 60,
-	option : '=c???LiveProto?m&v?',
-	offset : 'hPN20gvFSUrKp6oi',
-	limit : 13,
+	id : 61,
+	option : 'E??{LiveProto?bK,F',
+	offset : '1pwB4WLiaAujbQo5',
+	limit : 39,
 );
 ```

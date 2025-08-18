@@ -1,6 +1,6 @@
 # AttachMenuBotsBot
 
-**Description** : *Represents a bot mini app that can be launched from the attachment menu »*
+**Description** : *Represents a bot mini app that can be launched from the attachment menu &raquo;*
 
 **Layer** : 211
 

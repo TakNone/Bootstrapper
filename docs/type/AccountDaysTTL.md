@@ -1,6 +1,6 @@
 # AccountDaysTTL
 
-**Description** : *Time-to-live of current account*
+**Description** : *Time\-to\-live of current account*
 
 **Layer** : 211
 

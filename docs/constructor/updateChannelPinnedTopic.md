@@ -1,6 +1,6 @@
 # updateChannelPinnedTopic
 
-**Description** : *A forum topic » was pinned or unpinned*
+**Description** : *A forum topic &raquo; was pinned or unpinned*
 
 **Layer** : 211
 
@@ -32,7 +32,7 @@ updateChannelPinnedTopic#192efbe3 flags:# pinned:flags.0?true channel_id:long to
 ```php
 $update = $client->updateChannelPinnedTopic(
 	pinned : true,
-	channel_id : 7089255207229777456,
-	topic_id : 42,
+	channel_id : 1443572144448189150,
+	topic_id : 71,
 );
 ```

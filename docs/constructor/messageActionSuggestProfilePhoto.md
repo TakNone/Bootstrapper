@@ -1,6 +1,6 @@
 # messageActionSuggestProfilePhoto
 
-**Description** : *A new profile picture was suggested using photos.uploadContactProfilePhoto*
+**Description** : *A new profile picture was suggested using photos\.uploadContactProfilePhoto*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ messageActionSuggestProfilePhoto#57de635e photo:Photo = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestProfilePhoto(
 	photo : $client->photoEmpty(
-		id : -8025360009047546665,
+		id : 945306266310341838,
 	),
 );
 ```

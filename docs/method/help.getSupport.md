@@ -1,6 +1,6 @@
 # help.getSupport
 
-**Description** : *Returns the support user for the "ask a question" feature*
+**Description** : *Returns the support user for the &quot;ask a question&quot; feature*
 
 **Layer** : 211
 

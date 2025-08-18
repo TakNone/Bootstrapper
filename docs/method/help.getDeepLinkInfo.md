@@ -1,6 +1,6 @@
 # help.getDeepLinkInfo
 
-**Description** : *Get info about an unsupported deep link, see here for more info »*
+**Description** : *Get info about an unsupported deep link, see here for more info &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ help.getDeepLinkInfo#3fedc75f path:string = help.DeepLinkInfo;
 
 ```php
 $helpDeepLinkInfo = $client->help->getDeepLinkInfo(
-	path : 'KJD4kFa6TOMqtIoP',
+	path : 'OLckWgsQX7vVRAlC',
 );
 ```

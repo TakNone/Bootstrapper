@@ -1,6 +1,6 @@
 # prepaidGiveaway
 
-**Description** : *Contains info about a prepaid giveaway »*
+**Description** : *Contains info about a prepaid giveaway &raquo;*
 
 **Layer** : 211
 
@@ -31,9 +31,9 @@ prepaidGiveaway#b2539d54 id:long months:int quantity:int date:int = PrepaidGivea
 
 ```php
 $prepaidGiveaway = $client->prepaidGiveaway(
-	id : -2344016308964141193,
-	months : 78,
-	quantity : 84,
-	date : 85,
+	id : 1423295004696276383,
+	months : 57,
+	quantity : 97,
+	date : 73,
 );
 ```

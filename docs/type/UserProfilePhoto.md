@@ -1,6 +1,6 @@
 # UserProfilePhoto
 
-**Description** : *Object contains info on the user's profile photo*
+**Description** : *Object contains info on the user&#039;s profile photo*
 
 **Layer** : 211
 

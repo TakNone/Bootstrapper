@@ -1,6 +1,6 @@
 # BotPreviewMedia
 
-**Description** : *Represents a Main Mini App preview media, see here » for more info*
+**Description** : *Represents a Main Mini App preview media, see here &raquo; for more info*
 
 **Layer** : 211
 

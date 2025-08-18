@@ -30,8 +30,8 @@ highScore#73a379eb pos:int user_id:long score:int = HighScore;
 
 ```php
 $highScore = $client->highScore(
-	pos : 27,
-	user_id : 8711205200385681338,
-	score : 50,
+	pos : 9,
+	user_id : -8803027734340900585,
+	score : 66,
 );
 ```

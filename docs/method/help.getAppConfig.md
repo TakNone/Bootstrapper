@@ -1,6 +1,6 @@
 # help.getAppConfig
 
-**Description** : *Get app-specific configuration, see client configuration for more info on the result*
+**Description** : *Get app\-specific configuration, see client configuration for more info on the result*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ help.getAppConfig#61e3f854 hash:int = help.AppConfig;
 
 ```php
 $helpAppConfig = $client->help->getAppConfig(
-	hash : 63,
+	hash : 66,
 );
 ```

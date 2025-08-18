@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleForum#2cc6383 new_value:Bool = ChannelAdminLogEv
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleForum(
-	new_value : $client->boolFalse(),
+	new_value : true,
 );
 ```

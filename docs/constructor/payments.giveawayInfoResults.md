@@ -38,11 +38,11 @@ payments.giveawayInfoResults#e175e66f flags:# winner:flags.0?true refunded:flags
 $paymentsGiveawayInfo = $client->payments->giveawayInfoResults(
 	winner : true,
 	refunded : true,
-	start_date : 94,
-	gift_code_slug : 'Bq6WoQ1DXTRKIAce',
-	stars_prize : 4197515260228408529,
-	finish_date : 30,
-	winners_count : 57,
-	activated_count : 74,
+	start_date : 21,
+	gift_code_slug : 'rS7pAT2jf3t9Ns4q',
+	stars_prize : 6991425667975122771,
+	finish_date : 85,
+	winners_count : 11,
+	activated_count : 94,
 );
 ```

@@ -40,6 +40,6 @@ channels.readHistory#cc104937 channel:InputChannel max_id:int = Bool;
 ```php
 $bool = $client->channels->readHistory(
 	channel : $client->inputChannelEmpty(),
-	max_id : 7,
+	max_id : 1,
 );
 ```

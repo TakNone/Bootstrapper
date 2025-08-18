@@ -1,6 +1,6 @@
 # messages.SavedReactionTags
 
-**Description** : *List of reaction tag » names assigned by the user*
+**Description** : *List of reaction tag &raquo; names assigned by the user*
 
 **Layer** : 211
 

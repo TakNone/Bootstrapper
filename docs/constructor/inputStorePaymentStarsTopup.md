@@ -30,8 +30,8 @@ inputStorePaymentStarsTopup#dddd0f56 stars:long currency:string amount:long = In
 
 ```php
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsTopup(
-	stars : -5325948912225155499,
-	currency : 'IfqF6NOX1pQzR2MU',
-	amount : -2840767547004420995,
+	stars : -4662162463742516049,
+	currency : 'sGYcINvbpVRAg9UH',
+	amount : -2900314594169660360,
 );
 ```

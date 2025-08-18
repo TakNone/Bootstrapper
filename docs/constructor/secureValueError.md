@@ -31,7 +31,7 @@ secureValueError#869d758f type:SecureValueType hash:bytes text:string = SecureVa
 ```php
 $secureValueError = $client->secureValueError(
 	type : $client->secureValueTypePersonalDetails(),
-	hash : 'x,s=LiveProto]??fw',
-	text : 'Rn4z3JDaIefmc6Y1',
+	hash : '?#?m?LiveProto??<',
+	text : '8pyFgIOsCT6kdDZa',
 );
 ```

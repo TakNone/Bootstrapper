@@ -31,7 +31,7 @@ upload.file#96a18d5 type:storage.FileType mtime:int bytes:bytes = upload.File;
 ```php
 $uploadFile = $client->upload->file(
 	type : $client->storage->fileUnknown(),
-	mtime : 89,
-	bytes : 'A!???LiveProto????',
+	mtime : 64,
+	bytes : 'T????LiveProtoaN??+',
 );
 ```

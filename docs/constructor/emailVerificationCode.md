@@ -28,6 +28,6 @@ emailVerificationCode#922e55a9 code:string = EmailVerification;
 
 ```php
 $emailVerification = $client->emailVerificationCode(
-	code : 'EKkP9r0tU5l64Dnh',
+	code : 'jGFgJV8OAMNiICpv',
 );
 ```

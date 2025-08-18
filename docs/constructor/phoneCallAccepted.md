@@ -37,18 +37,18 @@ phoneCallAccepted#3660c311 flags:# video:flags.6?true id:long access_hash:long d
 ```php
 $phoneCall = $client->phoneCallAccepted(
 	video : true,
-	id : 6846010877125891662,
-	access_hash : 303851587285201151,
-	date : 83,
-	admin_id : -5959493351372622460,
-	participant_id : 6772344921830833118,
-	g_b : '??b??LiveProtoz?F??',
+	id : 6572997328056285519,
+	access_hash : 8640822694191035644,
+	date : 58,
+	admin_id : 3568810815247856621,
+	participant_id : -5920218016187886190,
+	g_b : '????LiveProtoaz?Q5',
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 87,
-		max_layer : 63,
-		library_versions : array('pLPvI0VqUi4NwHBh'),
+		min_layer : 79,
+		max_layer : 89,
+		library_versions : array('exJTwDYqzN0ME3CW'),
 	),
 );
 ```

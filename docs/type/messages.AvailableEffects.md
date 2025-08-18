@@ -1,6 +1,6 @@
 # messages.AvailableEffects
 
-**Description** : *Full list of usable animated message effects »*
+**Description** : *Full list of usable animated message effects &raquo;*
 
 **Layer** : 211
 

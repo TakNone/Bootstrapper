@@ -43,8 +43,8 @@ $paymentsSavedStarGifts = $client->payments->getSavedStarGifts(
 	exclude_unique : true,
 	sort_by_value : true,
 	peer : $client->inputPeerEmpty(),
-	collection_id : 3,
-	offset : 'lDuTkrdyqmVHbhsK',
-	limit : 70,
+	collection_id : 59,
+	offset : '1w0eMWDUvxTpzuKa',
+	limit : 53,
 );
 ```

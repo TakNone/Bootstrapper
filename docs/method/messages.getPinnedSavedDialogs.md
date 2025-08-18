@@ -1,6 +1,6 @@
 # messages.getPinnedSavedDialogs
 
-**Description** : *Get pinned saved dialogs, see here » for more info*
+**Description** : *Get pinned saved dialogs, see here &raquo; for more info*
 
 **Layer** : 211
 

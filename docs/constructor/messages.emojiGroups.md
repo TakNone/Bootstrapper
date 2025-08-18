@@ -29,21 +29,21 @@ messages.emojiGroups#881fb94b hash:int groups:Vector<EmojiGroup> = messages.Emoj
 
 ```php
 $messagesEmojiGroups = $client->messages->emojiGroups(
-	hash : 61,
+	hash : 94,
 	groups : array(
 		$client->emojiGroup(
-			title : '4XCVUeiZ7DumSnsF',
-			icon_emoji_id : 4670361136049810272,
-			emoticons : array('SyXvao3RNpOlLKmW'),
+			title : 'KlB1ONwi2XazfMTo',
+			icon_emoji_id : -4307406139836522937,
+			emoticons : array('rBx3NuIaUPjckJh0'),
 		),
 		$client->emojiGroupGreeting(
-			title : 'NgKWVYi1tOhIPFor',
-			icon_emoji_id : -7560298002019068999,
-			emoticons : array('EMbuNYRWTsG0tw9d'),
+			title : 'PFHYm1i75LfXxSuD',
+			icon_emoji_id : -206892463567106255,
+			emoticons : array('smNh3wbqQznycu9l'),
 		),
 		$client->emojiGroupPremium(
-			title : 'L5KTziW0eFJkRIsG',
-			icon_emoji_id : -8408370109562170369,
+			title : 'nERYVrMJ3IL1KeT0',
+			icon_emoji_id : 1831914992840210355,
 		),
 	),
 );

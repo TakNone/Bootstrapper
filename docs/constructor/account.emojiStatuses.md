@@ -29,28 +29,28 @@ account.emojiStatuses#90c467d1 hash:long statuses:Vector<EmojiStatus> = account.
 
 ```php
 $accountEmojiStatuses = $client->account->emojiStatuses(
-	hash : -9118679831415820816,
+	hash : -1410442831683571210,
 	statuses : array(
 		$client->emojiStatusEmpty(),
 		$client->emojiStatus(
-			document_id : 522688134555040276,
-			until : 28,
+			document_id : -2144272364617196369,
+			until : 88,
 		),
 		$client->emojiStatusCollectible(
-			collectible_id : 6809506486357711041,
-			document_id : -1066293243627673657,
-			title : 'sQEfYKvpMum9aytz',
-			slug : 'O4vakJxRLoFerlHw',
-			pattern_document_id : -8051055673303604387,
-			center_color : 9,
-			edge_color : 91,
-			pattern_color : 10,
-			text_color : 35,
-			until : 96,
+			collectible_id : 1398469150148172819,
+			document_id : 5586989544339786619,
+			title : 'EKQNVBId9ycP75uG',
+			slug : 'tfCZh3eA6LvRdwoB',
+			pattern_document_id : -1968834780012984482,
+			center_color : 60,
+			edge_color : 32,
+			pattern_color : 76,
+			text_color : 65,
+			until : 95,
 		),
 		$client->inputEmojiStatusCollectible(
-			collectible_id : 3293291621956029427,
-			until : 69,
+			collectible_id : 4098838735077463409,
+			until : 83,
 		),
 	),
 );

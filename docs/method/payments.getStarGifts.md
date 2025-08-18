@@ -1,6 +1,6 @@
 # payments.getStarGifts
 
-**Description** : *Get a list of available gifts, see here » for more info*
+**Description** : *Get a list of available gifts, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ payments.getStarGifts#c4563590 hash:int = payments.StarGifts;
 
 ```php
 $paymentsStarGifts = $client->payments->getStarGifts(
-	hash : 73,
+	hash : 29,
 );
 ```

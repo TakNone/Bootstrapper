@@ -1,6 +1,6 @@
 # payments.StarsStatus
 
-**Description** : *Info about the current Telegram Star subscriptions, balance and transaction history »*
+**Description** : *Info about the current Telegram Star subscriptions, balance and transaction history &raquo;*
 
 **Layer** : 211
 

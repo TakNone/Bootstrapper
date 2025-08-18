@@ -1,6 +1,6 @@
 # account.deleteAccount
 
-**Description** : *Delete the user's account from the telegram servers*
+**Description** : *Delete the user&#039;s account from the telegram servers*
 
 **Layer** : 211
 
@@ -39,7 +39,7 @@ account.deleteAccount#a2c0cf74 flags:# reason:string password:flags.0?InputCheck
 
 ```php
 $bool = $client->account->deleteAccount(
-	reason : 'q71OfzuRyltCZsag',
+	reason : 'HtLe0UIGzQOfDASu',
 	password : $client->inputCheckPasswordEmpty(),
 );
 ```

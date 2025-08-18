@@ -1,6 +1,6 @@
 # bots.getPreviewInfo
 
-**Description** : *Bot owners only, fetch main mini app preview information, see here » for more info*
+**Description** : *Bot owners only, fetch main mini app preview information, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -38,6 +38,6 @@ bots.getPreviewInfo#423ab3ad bot:InputUser lang_code:string = bots.PreviewInfo;
 ```php
 $botsPreviewInfo = $client->bots->getPreviewInfo(
 	bot : $client->inputUserEmpty(),
-	lang_code : 'j5n2WOABfYiTpxUH',
+	lang_code : 'UpZA1sOuqIgmQCYH',
 );
 ```

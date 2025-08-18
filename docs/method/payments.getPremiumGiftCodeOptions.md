@@ -1,6 +1,6 @@
 # payments.getPremiumGiftCodeOptions
 
-**Description** : *Obtain a list of Telegram Premium giveaway/gift code » options*
+**Description** : *Obtain a list of Telegram Premium giveaway/gift code &raquo; options*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # premium.applyBoost
 
-**Description** : *Apply one or more boosts » to a peer*
+**Description** : *Apply one or more boosts &raquo; to a peer*
 
 **Layer** : 211
 
@@ -40,7 +40,7 @@ premium.applyBoost#6b7da746 flags:# slots:flags.0?Vector<int> peer:InputPeer = p
 
 ```php
 $premiumMyBoosts = $client->premium->applyBoost(
-	slots : array(27),
+	slots : array(3),
 	peer : $client->inputPeerEmpty(),
 );
 ```

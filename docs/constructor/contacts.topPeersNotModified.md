@@ -1,6 +1,6 @@
 # contacts.topPeersNotModified
 
-**Description** : *Top peer info hasn't changed*
+**Description** : *Top peer info hasn&#039;t changed*
 
 **Layer** : 211
 

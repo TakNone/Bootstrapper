@@ -1,6 +1,6 @@
 # messages.CheckedHistoryImportPeer
 
-**Description** : *Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info »*
+**Description** : *Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info &raquo;*
 
 **Layer** : 211
 

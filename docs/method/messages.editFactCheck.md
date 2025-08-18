@@ -1,6 +1,6 @@
 # messages.editFactCheck
 
-**Description** : *Edit/create a fact-check on a message*
+**Description** : *Edit/create a fact\-check on a message*
 
 **Layer** : 211
 
@@ -40,99 +40,99 @@ messages.editFactCheck#589ee75 peer:InputPeer msg_id:int text:TextWithEntities =
 ```php
 $updates = $client->messages->editFactCheck(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 66,
+	msg_id : 12,
 	text : $client->textWithEntities(
-		text : '8eUnBdgHCyD59XJm',
+		text : 'XDkCSyQAZUY8E5oj',
 		entities : array(
 			$client->messageEntityUnknown(
-				offset : 30,
-				length : 23,
+				offset : 84,
+				length : 95,
 			),
 			$client->messageEntityMention(
-				offset : 52,
-				length : 84,
+				offset : 41,
+				length : 12,
 			),
 			$client->messageEntityHashtag(
-				offset : 4,
-				length : 36,
+				offset : 68,
+				length : 91,
 			),
 			$client->messageEntityBotCommand(
-				offset : 87,
-				length : 21,
+				offset : 69,
+				length : 37,
 			),
 			$client->messageEntityUrl(
-				offset : 34,
-				length : 75,
+				offset : 50,
+				length : 17,
 			),
 			$client->messageEntityEmail(
-				offset : 52,
-				length : 26,
+				offset : 64,
+				length : 65,
 			),
 			$client->messageEntityBold(
-				offset : 90,
+				offset : 97,
 				length : 86,
 			),
 			$client->messageEntityItalic(
-				offset : 31,
-				length : 81,
+				offset : 53,
+				length : 16,
 			),
 			$client->messageEntityCode(
-				offset : 71,
-				length : 45,
+				offset : 5,
+				length : 69,
 			),
 			$client->messageEntityPre(
-				offset : 82,
-				length : 75,
-				language : 'VvEgm0Co167zsPRF',
+				offset : 66,
+				length : 34,
+				language : 'opKf2X96I5umih3t',
 			),
 			$client->messageEntityTextUrl(
-				offset : 59,
-				length : 92,
+				offset : 24,
+				length : 28,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
-				offset : 60,
-				length : 4,
-				user_id : 732553116128625188,
+				offset : 66,
+				length : 70,
+				user_id : -4904720609278198781,
 			),
 			$client->inputMessageEntityMentionName(
-				offset : 6,
-				length : 49,
+				offset : 66,
+				length : 34,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
-				offset : 84,
-				length : 31,
+				offset : 71,
+				length : 29,
 			),
 			$client->messageEntityCashtag(
-				offset : 92,
-				length : 68,
+				offset : 21,
+				length : 6,
 			),
 			$client->messageEntityUnderline(
-				offset : 39,
-				length : 40,
+				offset : 64,
+				length : 6,
 			),
 			$client->messageEntityStrike(
-				offset : 78,
-				length : 58,
+				offset : 86,
+				length : 45,
 			),
 			$client->messageEntityBankCard(
-				offset : 31,
-				length : 66,
+				offset : 85,
+				length : 26,
 			),
 			$client->messageEntitySpoiler(
-				offset : 23,
-				length : 15,
+				offset : 34,
+				length : 84,
 			),
 			$client->messageEntityCustomEmoji(
-				offset : 3,
-				length : 5,
-				document_id : -9174446810982072299,
+				offset : 45,
+				length : 42,
+				document_id : -5250306661425240735,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
-				offset : 37,
-				length : 31,
+				offset : 61,
+				length : 25,
 			),
 		),
 	),

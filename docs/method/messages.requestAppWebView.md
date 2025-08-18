@@ -51,13 +51,13 @@ $webViewResult = $client->messages->requestAppWebView(
 	fullscreen : true,
 	peer : $client->inputPeerEmpty(),
 	app : $client->inputBotAppID(
-		id : 2458481366720622406,
-		access_hash : -705397377525171288,
+		id : 1106659012192569542,
+		access_hash : 3460980583943122401,
 	),
-	start_param : 'AGRe3BmCOUEx4Y0c',
+	start_param : 'QSUKrmytvBCh1p8G',
 	theme_params : $client->dataJSON(
-		data : 'gnpq0I8xhdToHDiZ',
+		data : 'oPVdThWixjLZ1frn',
 	),
-	platform : '179YmRGeTxKXDU0N',
+	platform : 'f9Uo7M0G1Zl2Vpxc',
 );
 ```

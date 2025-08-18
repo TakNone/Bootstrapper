@@ -1,6 +1,6 @@
 # inputFileBig
 
-**Description** : *Assigns a big file (over 10 MB in size), saved in part using the method upload.saveBigFilePart*
+**Description** : *Assigns a big file \(over 10 MB in size\), saved in part using the method upload\.saveBigFilePart*
 
 **Layer** : 211
 
@@ -30,8 +30,8 @@ inputFileBig#fa4f0bb5 id:long parts:int name:string = InputFile;
 
 ```php
 $inputFile = $client->inputFileBig(
-	id : 5675221846241295658,
-	parts : 74,
-	name : 'E6Ybp4A8DltKI9MR',
+	id : -285080616918052886,
+	parts : 26,
+	name : 'iJRgTC0B9QuN3Mp6',
 );
 ```

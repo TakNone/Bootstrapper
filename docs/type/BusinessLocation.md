@@ -1,6 +1,6 @@
 # BusinessLocation
 
-**Description** : *Represents the location of a Telegram Business »*
+**Description** : *Represents the location of a Telegram Business &raquo;*
 
 **Layer** : 211
 

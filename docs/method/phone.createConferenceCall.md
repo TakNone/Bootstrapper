@@ -36,11 +36,11 @@ $updates = $client->phone->createConferenceCall(
 	muted : true,
 	video_stopped : true,
 	join : true,
-	random_id : 66,
-	public_key : '10904616926128008958866687242584087364779736024299788738147628407817507739293',
-	block : 'h?м?LiveProtoP???5',
+	random_id : 8,
+	public_key : '30536798102624500705716222441362668918127414994016535686129498892313187494762',
+	block : 's??LiveProtoCM_k?',
 	params : $client->dataJSON(
-		data : 'tbgdO1qr8uBJXSHk',
+		data : '7yIYVdauXviq2HEN',
 	),
 );
 ```

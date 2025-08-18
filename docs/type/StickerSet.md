@@ -1,6 +1,6 @@
 # StickerSet
 
-**Description** : *Represents a stickerset (stickerpack)*
+**Description** : *Represents a stickerset \(stickerpack\)*
 
 **Layer** : 211
 

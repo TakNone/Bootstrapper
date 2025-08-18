@@ -1,6 +1,6 @@
 # ExportedChatlistInvite
 
-**Description** : *An exported chat folder deep link »*
+**Description** : *An exported chat folder deep link &raquo;*
 
 **Layer** : 211
 

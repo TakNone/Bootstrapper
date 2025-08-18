@@ -34,7 +34,7 @@ $inputStorePaymentPurpose = $client->inputStorePaymentAuthCode(
 	restore : true,
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	currency : 'HPOvsCZ3nU9YcEpS',
-	amount : 1211954546694179079,
+	currency : 'l5D7nGxHNTfWVEBL',
+	amount : 174877691384175268,
 );
 ```

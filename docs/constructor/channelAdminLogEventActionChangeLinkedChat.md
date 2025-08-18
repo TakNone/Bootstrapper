@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeLinkedChat#50c7ac8 prev_value:long new_value:lon
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeLinkedChat(
-	prev_value : -4260506001683517778,
-	new_value : 4917717036919702345,
+	prev_value : 8033267933903855978,
+	new_value : -6030317989798419386,
 );
 ```

@@ -29,7 +29,7 @@ pageBlockChannel#ef1751b5 channel:Chat = PageBlock;
 ```php
 $pageBlock = $client->pageBlockChannel(
 	channel : $client->chatEmpty(
-		id : -5050485098178190156,
+		id : 1184985869787788089,
 	),
 );
 ```

@@ -30,6 +30,6 @@ secureValueHash#ed1ecdb0 type:SecureValueType hash:bytes = SecureValueHash;
 ```php
 $secureValueHash = $client->secureValueHash(
 	type : $client->secureValueTypePersonalDetails(),
-	hash : '?f?$?LiveProto6t?$',
+	hash : '?@8LiveProto??n?',
 );
 ```

@@ -1,6 +1,6 @@
 # channels.editLocation
 
-**Description** : *Edit location of geogroup, see here » for more info on geogroups*
+**Description** : *Edit location of geogroup, see here &raquo; for more info on geogroups*
 
 **Layer** : 211
 
@@ -44,6 +44,6 @@ channels.editLocation#58e63f6d channel:InputChannel geo_point:InputGeoPoint addr
 $bool = $client->channels->editLocation(
 	channel : $client->inputChannelEmpty(),
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'HOi4Qz38JMfIwWAR',
+	address : '4gQRJOXP8ouf7nwb',
 );
 ```

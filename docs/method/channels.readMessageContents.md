@@ -40,6 +40,6 @@ channels.readMessageContents#eab5dc38 channel:InputChannel id:Vector<int> = Bool
 ```php
 $bool = $client->channels->readMessageContents(
 	channel : $client->inputChannelEmpty(),
-	id : array(60),
+	id : array(35),
 );
 ```

@@ -1,6 +1,6 @@
 # messageActionCustomAction
 
-**Description** : *Custom action (most likely not supported by the current layer, an upgrade might be needed)*
+**Description** : *Custom action \(most likely not supported by the current layer, an upgrade might be needed\)*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messageActionCustomAction#fae69f56 message:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionCustomAction(
-	message : 'pl3v0rbh256MCHNd',
+	message : 'RqMQlrUOVuB1k5so',
 );
 ```

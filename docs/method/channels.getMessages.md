@@ -44,15 +44,15 @@ $messagesMessages = $client->channels->getMessages(
 	channel : $client->inputChannelEmpty(),
 	id : array(
 		$client->inputMessageID(
-			id : 24,
+			id : 1,
 		),
 		$client->inputMessageReplyTo(
-			id : 97,
+			id : 49,
 		),
 		$client->inputMessagePinned(),
 		$client->inputMessageCallbackQuery(
-			id : 13,
-			query_id : -9195642466119453089,
+			id : 88,
+			query_id : -7543890668518136304,
 		),
 	),
 );

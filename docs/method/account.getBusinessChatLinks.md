@@ -1,6 +1,6 @@
 # account.getBusinessChatLinks
 
-**Description** : *List all created business chat deep links »*
+**Description** : *List all created business chat deep links &raquo;*
 
 **Layer** : 211
 

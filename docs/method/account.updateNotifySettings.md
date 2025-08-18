@@ -45,12 +45,12 @@ $bool = $client->account->updateNotifySettings(
 		peer : $client->inputPeerEmpty(),
 	),
 	settings : $client->inputPeerNotifySettings(
-		show_previews : $client->boolFalse(),
-		silent : $client->boolFalse(),
-		mute_until : 49,
+		show_previews : false,
+		silent : true,
+		mute_until : 56,
 		sound : $client->notificationSoundDefault(),
-		stories_muted : $client->boolFalse(),
-		stories_hide_sender : $client->boolFalse(),
+		stories_muted : true,
+		stories_hide_sender : false,
 		stories_sound : $client->notificationSoundDefault(),
 	),
 );

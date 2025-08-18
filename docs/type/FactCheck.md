@@ -1,6 +1,6 @@
 # FactCheck
 
-**Description** : *Represents a fact-check » created by an independent fact-checker*
+**Description** : *Represents a fact\-check &raquo; created by an independent fact\-checker*
 
 **Layer** : 211
 

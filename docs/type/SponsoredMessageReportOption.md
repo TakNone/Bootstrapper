@@ -1,6 +1,6 @@
 # SponsoredMessageReportOption
 
-**Description** : *A report option for a sponsored message »*
+**Description** : *A report option for a sponsored message &raquo;*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # messageEntityHashtag
 
-**Description** : *#hashtag message entity*
+**Description** : *\#hashtag message entity*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ messageEntityHashtag#6f635b0d offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityHashtag(
-	offset : 10,
-	length : 37,
+	offset : 36,
+	length : 83,
 );
 ```

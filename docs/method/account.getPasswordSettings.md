@@ -1,6 +1,6 @@
 # account.getPasswordSettings
 
-**Description** : *Get private info associated to the password info (recovery email, telegram passport info & so on)*
+**Description** : *Get private info associated to the password info \(recovery email, telegram passport info &amp; so on\)*
 
 **Layer** : 211
 

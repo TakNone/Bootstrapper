@@ -1,6 +1,6 @@
 # channelLocation
 
-**Description** : *Geographical location of supergroup (geogroups)*
+**Description** : *Geographical location of supergroup \(geogroups\)*
 
 **Layer** : 211
 
@@ -30,6 +30,6 @@ channelLocation#209b82db geo_point:GeoPoint address:string = ChannelLocation;
 ```php
 $channelLocation = $client->channelLocation(
 	geo_point : $client->geoPointEmpty(),
-	address : 'KBl2CYjQDUc7L30N',
+	address : 'KYXATJ8RhOpuCZ49',
 );
 ```

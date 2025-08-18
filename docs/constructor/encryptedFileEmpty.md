@@ -1,6 +1,6 @@
 # encryptedFileEmpty
 
-**Description** : *Empty constructor, non-existing file*
+**Description** : *Empty constructor, non\-existing file*
 
 **Layer** : 211
 

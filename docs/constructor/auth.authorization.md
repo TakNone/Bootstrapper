@@ -34,11 +34,11 @@ auth.authorization#2ea2c0d4 flags:# setup_password_required:flags.1?true otherwi
 ```php
 $authAuthorization = $client->auth->authorization(
 	setup_password_required : true,
-	otherwise_relogin_days : 40,
-	tmp_sessions : 91,
-	future_auth_token : ';????LiveProtor?a??',
+	otherwise_relogin_days : 96,
+	tmp_sessions : 6,
+	future_auth_token : '??=LiveProtot!??}',
 	user : $client->userEmpty(
-		id : 5706142487465779754,
+		id : -5442938711400981045,
 	),
 );
 ```

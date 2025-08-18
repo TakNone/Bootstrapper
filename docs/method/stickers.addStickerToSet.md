@@ -1,6 +1,6 @@
 # stickers.addStickerToSet
 
-**Description** : *Add a sticker to a stickerset. The sticker set must have been created by the current user/bot*
+**Description** : *Add a sticker to a stickerset\. The sticker set must have been created by the current user/bot*
 
 **Layer** : 211
 
@@ -44,14 +44,14 @@ $messagesStickerSet = $client->stickers->addStickerToSet(
 	stickerset : $client->inputStickerSetEmpty(),
 	sticker : $client->inputStickerSetItem(
 		document : $client->inputDocumentEmpty(),
-		emoji : 'hwuOZNqaDH2IybzC',
+		emoji : 'jzDsipQvKZNfcBnR',
 		mask_coords : $client->maskCoords(
-			n : 58,
-			x : 82152.9921875,
-			y : 1922382.8515625,
-			zoom : 1011099.9970703125,
+			n : 83,
+			x : -1503416.9111328125,
+			y : 760602.2939453125,
+			zoom : -705485.3046875,
 		),
-		keywords : 'z2tGYrJekAUDREPp',
+		keywords : '7YtzGP4DXfSuKbH1',
 	),
 );
 ```

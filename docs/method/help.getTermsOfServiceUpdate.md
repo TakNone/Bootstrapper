@@ -1,6 +1,6 @@
 # help.getTermsOfServiceUpdate
 
-**Description** : *Look for updates of telegram's terms of service*
+**Description** : *Look for updates of telegram&#039;s terms of service*
 
 **Layer** : 211
 

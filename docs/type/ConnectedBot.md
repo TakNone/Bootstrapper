@@ -1,6 +1,6 @@
 # ConnectedBot
 
-**Description** : *Contains info about a connected business bot »*
+**Description** : *Contains info about a connected business bot &raquo;*
 
 **Layer** : 211
 

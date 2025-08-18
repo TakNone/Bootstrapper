@@ -29,7 +29,7 @@ account.tmpPassword#db64fd34 tmp_password:bytes valid_until:int = account.TmpPas
 
 ```php
 $accountTmpPassword = $client->account->tmpPassword(
-	tmp_password : '?`?nFLiveProtoIw??',
-	valid_until : 71,
+	tmp_password : '?4Q?LiveProto????<',
+	valid_until : 66,
 );
 ```

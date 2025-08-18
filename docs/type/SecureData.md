@@ -1,6 +1,6 @@
 # SecureData
 
-**Description** : *Secure passport data, for more info see the passport docs »*
+**Description** : *Secure passport data, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 

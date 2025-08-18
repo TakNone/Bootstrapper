@@ -39,31 +39,31 @@ premium.boostsStatus#4959427a flags:# my_boost:flags.2?true level:int current_le
 ```php
 $premiumBoostsStatus = $client->premium->boostsStatus(
 	my_boost : true,
-	level : 73,
-	current_level_boosts : 70,
-	boosts : 71,
-	gift_boosts : 53,
-	next_level_boosts : 99,
+	level : 41,
+	current_level_boosts : 10,
+	boosts : 30,
+	gift_boosts : 12,
+	next_level_boosts : 57,
 	premium_audience : $client->statsPercentValue(
-		part : -972059.4716796875,
-		total : -2009505.1728515625,
+		part : -34758.89453125,
+		total : 646537.271484375,
 	),
 	boost_url : 'https://docs.liveproto.dev',
 	prepaid_giveaways : array(
 		$client->prepaidGiveaway(
-			id : -2763409718113564871,
-			months : 14,
-			quantity : 1,
-			date : 48,
+			id : -9015594853747348100,
+			months : 42,
+			quantity : 73,
+			date : 71,
 		),
 		$client->prepaidStarsGiveaway(
-			id : 1477346959487206008,
-			stars : 6171627340820432801,
-			quantity : 87,
-			boosts : 82,
-			date : 4,
+			id : 5359205355865953210,
+			stars : -8252783527285950208,
+			quantity : 98,
+			boosts : 80,
+			date : 5,
 		),
 	),
-	my_boost_slots : array(85),
+	my_boost_slots : array(29),
 );
 ```

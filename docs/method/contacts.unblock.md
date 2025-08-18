@@ -1,6 +1,6 @@
 # contacts.unblock
 
-**Description** : *Deletes a peer from a blocklist, see here » for more info*
+**Description** : *Deletes a peer from a blocklist, see here &raquo; for more info*
 
 **Layer** : 211
 

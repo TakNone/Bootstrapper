@@ -30,13 +30,13 @@ $requirementToContact = $client->users->getRequirementsToContact(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 3031546483912223798,
-			access_hash : -2194497631802381435,
+			user_id : -6410317416893913467,
+			access_hash : 7927083889551386643,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 93,
-			user_id : 4236987818488336569,
+			msg_id : 29,
+			user_id : -1720664493371335723,
 		),
 	),
 );

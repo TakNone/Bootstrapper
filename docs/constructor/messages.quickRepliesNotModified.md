@@ -1,6 +1,6 @@
 # messages.quickRepliesNotModified
 
-**Description** : *Info about quick reply shortcuts » hasn't changed*
+**Description** : *Info about quick reply shortcuts &raquo; hasn&#039;t changed*
 
 **Layer** : 211
 

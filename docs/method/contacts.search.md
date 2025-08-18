@@ -38,7 +38,7 @@ contacts.search#11f812d8 q:string limit:int = contacts.Found;
 
 ```php
 $contactsFound = $client->contacts->search(
-	q : 'vpmolZxDKk1YI6C9',
-	limit : 46,
+	q : 'xXvWGo7QUHwrRizu',
+	limit : 75,
 );
 ```
