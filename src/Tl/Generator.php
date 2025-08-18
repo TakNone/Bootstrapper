@@ -233,11 +233,9 @@ abstract class Generator {
 		$all->close();
 	}
 	static private function writeRequest(Builder $stream,array $params,string $name,array $type) : void {
-		if($type['is_flag']):
-			if($type['type'] != 'true'):
-				$stream->writeNewLine('if(is_null('.chr(36).$name.') === false):');
-				$stream->addIndent();
-			endif;
+		if($type['is_flag'] and $type['type'] != 'true'):
+			$stream->writeNewLine('if(is_null('.chr(36).$name.') === false):');
+			$stream->addIndent();
 		endif;
 		if($type['flag_indicator']):
 			$stream->writeNewLine(chr(36).$name.' = 0;');
@@ -280,15 +278,13 @@ abstract class Generator {
 		else:
 			$stream->writeNewLine('$writer->write('.chr(36).$name.'->read());');
 		endif;
-		if($type['is_flag']):
-			if($type['type'] != 'true'):
-				$stream->deleteIndent();
-				$stream->writeNewLine('endif;');
-			endif;
+		if($type['is_flag'] and $type['type'] != 'true'):
+			$stream->deleteIndent();
+			$stream->writeNewLine('endif;');
 		endif;
 	}
 	static private function writeResponse(Builder $stream,array $params,string $name,array $type) : void {
-		if($type['is_flag']):
+		if($type['is_flag'] and $type['type'] != 'true'):
 			$stream->writeNewLine('if($flags'.($type['flag_number'] === 1 ? null : $type['flag_number']).' & (1 << '.$type['flag_index'].')):');
 			$stream->addIndent();
 		endif;
@@ -313,25 +309,17 @@ abstract class Generator {
 		elseif($type['type'] == 'bytes'):
 			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->tgreadBytes();');
 		elseif($type['type'] == 'true'):
-			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = true;');
+			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = boolval($flags'.($type['flag_number'] === 1 ? null : $type['flag_number']).' & (1 << '.$type['flag_index'].'));');
 		elseif($type['type'] == 'bool'):
 			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->tgreadBool();');
 		else:
 			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->tgreadObject();');
 		endif;
-		if($type['is_flag']):
+		if($type['is_flag'] and $type['type'] != 'true'):
 			$stream->deleteIndent();
 			$stream->writeNewLine('else:');
 			$stream->addIndent();
-			/*
-			 * I wanted to add a boolean,
-			 * but I didn't know if its default could be false or true
-			 */
-			$flagDefault = match($type['type']){
-				'true' => 'false',
-				default => 'null'
-			};
-			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = '.$flagDefault.';');
+			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = null;');
 			$stream->deleteIndent();
 			$stream->writeNewLine('endif;');
 		endif;
