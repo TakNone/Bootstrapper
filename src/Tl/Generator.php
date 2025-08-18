@@ -249,7 +249,7 @@ abstract class Generator {
 						if($flagtype['type'] != 'true'):
 							$stream->writeNewLine(chr(36).$name.' |= is_null('.chr(36).$flagname.') ? 0 : (1 << '.$flagtype['flag_index'].');');
 						else:
-							$stream->writeNewLine(chr(36).$name.' |= '.chr(36).$flagname.' ? 0 : (1 << '.$flagtype['flag_index'].');');
+							$stream->writeNewLine(chr(36).$name.' |= '.chr(36).$flagname.' ? (1 << '.$flagtype['flag_index'].') : 0;');
 						endif;
 					endif;
 				endif;
