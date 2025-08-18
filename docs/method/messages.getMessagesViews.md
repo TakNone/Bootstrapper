@@ -43,7 +43,7 @@ messages.getMessagesViews#5784d3e1 peer:InputPeer id:Vector<int> increment:Bool 
 ```php
 $messagesMessageViews = $client->messages->getMessagesViews(
 	peer : $client->inputPeerEmpty(),
-	id : array(32),
-	increment : $client->boolFalse(),
+	id : array(71),
+	increment : true,
 );
 ```

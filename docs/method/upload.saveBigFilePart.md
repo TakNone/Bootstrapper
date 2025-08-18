@@ -1,6 +1,6 @@
 # upload.saveBigFilePart
 
-**Description** : *Saves a part of a large file (over 10 MB in size) to be later passed to one of the methods*
+**Description** : *Saves a part of a large file \(over 10 MB in size\) to be later passed to one of the methods*
 
 **Layer** : 211
 
@@ -45,9 +45,9 @@ upload.saveBigFilePart#de7b673d file_id:long file_part:int file_total_parts:int 
 
 ```php
 $bool = $client->upload->saveBigFilePart(
-	file_id : -528792458855643556,
-	file_part : 9,
-	file_total_parts : 38,
-	bytes : 'd?-??LiveProto?\\?ª',
+	file_id : 3825178565570913959,
+	file_part : 97,
+	file_total_parts : 93,
+	bytes : 'I????LiveProto?$??E',
 );
 ```

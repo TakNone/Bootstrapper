@@ -1,6 +1,6 @@
 # stories.togglePinnedToTop
 
-**Description** : *Pin some stories to the top of the profile, see here » for more info*
+**Description** : *Pin some stories to the top of the profile, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -39,6 +39,6 @@ stories.togglePinnedToTop#b297e9b peer:InputPeer id:Vector<int> = Bool;
 ```php
 $bool = $client->stories->togglePinnedToTop(
 	peer : $client->inputPeerEmpty(),
-	id : array(9),
+	id : array(19),
 );
 ```

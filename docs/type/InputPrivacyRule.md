@@ -1,6 +1,6 @@
 # InputPrivacyRule
 
-**Description** : *Privacy rules indicate who can or can't do something and are specified by a PrivacyRule, and its input counterpart InputPrivacyRule*
+**Description** : *Privacy rules indicate who can or can&#039;t do something and are specified by a PrivacyRule, and its input counterpart InputPrivacyRule*
 
 **Layer** : 211
 

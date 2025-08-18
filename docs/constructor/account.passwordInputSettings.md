@@ -34,13 +34,13 @@ account.passwordInputSettings#c23727c9 flags:# new_algo:flags.0?PasswordKdfAlgo 
 ```php
 $accountPasswordInputSettings = $client->account->passwordInputSettings(
 	new_algo : $client->passwordKdfAlgoUnknown(),
-	new_password_hash : 'p?op?LiveProto&??',
-	hint : 'wdteEHCgPN7nLVYJ',
+	new_password_hash : '3?.1?LiveProto?k??',
+	hint : 'QTE4ysrUPM3g7IRe',
 	email : 'reply@liveproto.dev',
 	new_secure_settings : $client->secureSecretSettings(
 		secure_algo : $client->securePasswordKdfAlgoUnknown(),
-		secure_secret : '??.?LiveProto?????',
-		secure_secret_id : 3176562334509321730,
+		secure_secret : '?*?U?LiveProto%?B??',
+		secure_secret_id : -3101195378541886248,
 	),
 );
 ```

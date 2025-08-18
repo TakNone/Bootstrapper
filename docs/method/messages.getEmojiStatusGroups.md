@@ -28,6 +28,6 @@ messages.getEmojiStatusGroups#2ecd56cd hash:int = messages.EmojiGroups;
 
 ```php
 $messagesEmojiGroups = $client->messages->getEmojiStatusGroups(
-	hash : 94,
+	hash : 100,
 );
 ```

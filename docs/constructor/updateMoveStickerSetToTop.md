@@ -1,6 +1,6 @@
 # updateMoveStickerSetToTop
 
-**Description** : *A stickerset was just moved to top, see here for more info »*
+**Description** : *A stickerset was just moved to top, see here for more info &raquo;*
 
 **Layer** : 211
 
@@ -33,6 +33,6 @@ updateMoveStickerSetToTop#86fccf85 flags:# masks:flags.0?true emojis:flags.1?tru
 $update = $client->updateMoveStickerSetToTop(
 	masks : true,
 	emojis : true,
-	stickerset : 3149860917692347607,
+	stickerset : 2348841454952204162,
 );
 ```

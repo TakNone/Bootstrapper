@@ -1,6 +1,6 @@
 # payments.getStarsTransactionsByID
 
-**Description** : *Obtain info about Telegram Star transactions » using specific transaction IDs*
+**Description** : *Obtain info about Telegram Star transactions &raquo; using specific transaction IDs*
 
 **Layer** : 211
 
@@ -45,7 +45,7 @@ $paymentsStarsStatus = $client->payments->getStarsTransactionsByID(
 	id : array(
 		$client->inputStarsTransaction(
 			refund : true,
-			id : '1soEB0L3d4PVZlHf',
+			id : 'PIl4m8shROzq2E0i',
 		),
 	),
 );

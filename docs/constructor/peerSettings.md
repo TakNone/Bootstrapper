@@ -1,6 +1,6 @@
 # peerSettings
 
-**Description** : *List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat action bar », see here » for more info*
+**Description** : *List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat action bar &raquo;, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -60,15 +60,15 @@ $peerSettings = $client->peerSettings(
 	request_chat_broadcast : true,
 	business_bot_paused : true,
 	business_bot_can_reply : true,
-	geo_distance : 39,
-	request_chat_title : '2gEFqlwWnUX6zoj4',
-	request_chat_date : 18,
-	business_bot_id : -3298922388751669514,
+	geo_distance : 7,
+	request_chat_title : 'okbP8ahtu6d2nmNW',
+	request_chat_date : 16,
+	business_bot_id : 7680316664562392763,
 	business_bot_manage_url : 'https://docs.liveproto.dev',
-	charge_paid_message_stars : -264510274562142216,
-	registration_month : '3oWjp5LblZAX8PaO',
+	charge_paid_message_stars : 4397424789008207748,
+	registration_month : 'n07Sb2LCkpwXPz6r',
 	phone_country : '+1234567890',
-	name_change_date : 67,
-	photo_change_date : 25,
+	name_change_date : 76,
+	photo_change_date : 34,
 );
 ```

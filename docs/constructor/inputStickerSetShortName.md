@@ -1,6 +1,6 @@
 # inputStickerSetShortName
 
-**Description** : *Stickerset by short name, from a stickerset deep link »*
+**Description** : *Stickerset by short name, from a stickerset deep link &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ inputStickerSetShortName#861cc8a0 short_name:string = InputStickerSet;
 
 ```php
 $inputStickerSet = $client->inputStickerSetShortName(
-	short_name : '4GeJLEaBAkzoSTZd',
+	short_name : 'q3hJoumyTdlEWKMp',
 );
 ```

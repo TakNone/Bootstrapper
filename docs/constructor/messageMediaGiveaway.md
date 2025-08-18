@@ -1,6 +1,6 @@
 # messageMediaGiveaway
 
-**Description** : *Contains info about a giveaway, see here » for more info*
+**Description** : *Contains info about a giveaway, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -39,12 +39,12 @@ messageMediaGiveaway#aa073beb flags:# only_new_subscribers:flags.0?true winners_
 $messageMedia = $client->messageMediaGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	channels : array(-2274169178356906679),
-	countries_iso2 : array('TdXezsLUiNfbDASF'),
-	prize_description : '4pPZRnbd68i9yLlv',
-	quantity : 47,
-	months : 28,
-	stars : -8414903183255168488,
-	until_date : 60,
+	channels : array(5648079172901452904),
+	countries_iso2 : array('3gaCUHwn7EjO6Jb2'),
+	prize_description : 'OfxtzQBmkKVFnybo',
+	quantity : 25,
+	months : 24,
+	stars : 4197290930436769167,
+	until_date : 16,
 );
 ```

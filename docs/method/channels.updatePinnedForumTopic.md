@@ -40,7 +40,7 @@ channels.updatePinnedForumTopic#6c2d9026 channel:InputChannel topic_id:int pinne
 ```php
 $updates = $client->channels->updatePinnedForumTopic(
 	channel : $client->inputChannelEmpty(),
-	topic_id : 53,
-	pinned : $client->boolFalse(),
+	topic_id : 100,
+	pinned : false,
 );
 ```

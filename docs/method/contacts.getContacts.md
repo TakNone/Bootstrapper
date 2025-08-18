@@ -1,6 +1,6 @@
 # contacts.getContacts
 
-**Description** : *Returns the current user's contact list*
+**Description** : *Returns the current user&#039;s contact list*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ contacts.getContacts#5dd69e12 hash:long = contacts.Contacts;
 
 ```php
 $contactsContacts = $client->contacts->getContacts(
-	hash : -9088433056799782831,
+	hash : 4974497770552881280,
 );
 ```

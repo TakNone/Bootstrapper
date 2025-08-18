@@ -29,7 +29,7 @@ starsTransactionPeer#d80da15d peer:Peer = StarsTransactionPeer;
 ```php
 $starsTransactionPeer = $client->starsTransactionPeer(
 	peer : $client->peerUser(
-		user_id : -8453948960094226855,
+		user_id : 2628699149851120665,
 	),
 );
 ```

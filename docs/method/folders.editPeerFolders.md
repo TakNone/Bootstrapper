@@ -41,7 +41,7 @@ $updates = $client->folders->editPeerFolders(
 	folder_peers : array(
 		$client->inputFolderPeer(
 			peer : $client->inputPeerEmpty(),
-			folder_id : 24,
+			folder_id : 87,
 		),
 	),
 );

@@ -1,6 +1,6 @@
 # messages.reorderPinnedSavedDialogs
 
-**Description** : *Reorder pinned saved message dialogs »*
+**Description** : *Reorder pinned saved message dialogs &raquo;*
 
 **Layer** : 211
 
@@ -36,7 +36,7 @@ $bool = $client->messages->reorderPinnedSavedDialogs(
 			peer : $client->inputPeerEmpty(),
 		),
 		$client->inputDialogPeerFolder(
-			folder_id : 80,
+			folder_id : 57,
 		),
 	),
 );

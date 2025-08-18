@@ -40,6 +40,6 @@ messages.setChatTheme#e63be13f peer:InputPeer emoticon:string = Updates;
 ```php
 $updates = $client->messages->setChatTheme(
 	peer : $client->inputPeerEmpty(),
-	emoticon : 'AbO5LQsXVgIWziqv',
+	emoticon : 'gukX1UflxTSdHVry',
 );
 ```

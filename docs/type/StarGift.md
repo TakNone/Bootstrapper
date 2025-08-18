@@ -1,6 +1,6 @@
 # StarGift
 
-**Description** : *Represents a star gift, see here » for more info*
+**Description** : *Represents a star gift, see here &raquo; for more info*
 
 **Layer** : 211
 

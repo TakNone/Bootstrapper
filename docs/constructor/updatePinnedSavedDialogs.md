@@ -1,6 +1,6 @@
 # updatePinnedSavedDialogs
 
-**Description** : *Pinned saved dialogs » were updated*
+**Description** : *Pinned saved dialogs &raquo; were updated*
 
 **Layer** : 211
 
@@ -32,11 +32,11 @@ $update = $client->updatePinnedSavedDialogs(
 	order : array(
 		$client->dialogPeer(
 			peer : $client->peerUser(
-				user_id : 5672614014769356631,
+				user_id : -2307849329209914663,
 			),
 		),
 		$client->dialogPeerFolder(
-			folder_id : 77,
+			folder_id : 61,
 		),
 	),
 );

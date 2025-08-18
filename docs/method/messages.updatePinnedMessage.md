@@ -53,6 +53,6 @@ $updates = $client->messages->updatePinnedMessage(
 	unpin : true,
 	pm_oneside : true,
 	peer : $client->inputPeerEmpty(),
-	id : 9,
+	id : 37,
 );
 ```

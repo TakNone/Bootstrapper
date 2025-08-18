@@ -29,7 +29,7 @@ groupCallParticipantVideoSourceGroup#dcb118b7 semantics:string sources:Vector<in
 
 ```php
 $groupCallParticipantVideoSourceGroup = $client->groupCallParticipantVideoSourceGroup(
-	semantics : 'mjyBPFwd3k0Z8GEs',
-	sources : array(99),
+	semantics : 'mOCEYzt81SZd94eR',
+	sources : array(2),
 );
 ```

@@ -1,6 +1,6 @@
 # chatBannedRights
 
-**Description** : *Represents the rights of a normal user in a supergroup/channel/chat. In this case, the flags are inverted: if set, a flag does not allow a user to do X*
+**Description** : *Represents the rights of a normal user in a supergroup/channel/chat\. In this case, the flags are inverted: if set, a flag does not allow a user to do X*
 
 **Layer** : 211
 
@@ -69,6 +69,6 @@ $chatBannedRights = $client->chatBannedRights(
 	send_voices : true,
 	send_docs : true,
 	send_plain : true,
-	until_date : 22,
+	until_date : 86,
 );
 ```

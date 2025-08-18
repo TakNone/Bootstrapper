@@ -28,6 +28,6 @@ channelParticipantsBanned#1427a5e1 q:string = ChannelParticipantsFilter;
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsBanned(
-	q : 'O3kPBTjinm6ytlaC',
+	q : '1uPmz2G75rL6QSKA',
 );
 ```

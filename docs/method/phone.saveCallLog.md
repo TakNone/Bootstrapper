@@ -38,13 +38,13 @@ phone.saveCallLog#41248786 peer:InputPhoneCall file:InputFile = Bool;
 ```php
 $bool = $client->phone->saveCallLog(
 	peer : $client->inputPhoneCall(
-		id : -841418485624606937,
-		access_hash : -2062518094338632174,
+		id : -6812515728871084398,
+		access_hash : -5060057509844070173,
 	),
 	file : $client->inputFile(
-		id : -1945096356661786104,
-		parts : 2,
-		name : 'sqWgwz7Hd30IZi2N',
+		id : 5410804271343904669,
+		parts : 0,
+		name : 'FaC2r1QczvOseuIt',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
 );

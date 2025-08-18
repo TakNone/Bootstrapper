@@ -1,6 +1,6 @@
 # secureData
 
-**Description** : *Secure passport data, for more info see the passport docs »*
+**Description** : *Secure passport data, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 
@@ -30,8 +30,9 @@ secureData#8aeabec3 data:bytes data_hash:bytes secret:bytes = SecureData;
 
 ```php
 $secureData = $client->secureData(
-	data : 'g???LiveProtowd??~',
-	data_hash : '?m?&?LiveProto??',
-	secret : 'b?	?LiveProto?Ï',
+	data : '?
+g?LiveProto??b?@',
+	data_hash : '???LiveProtoַ?d?',
+	secret : ')???ALiveProtoF???',
 );
 ```

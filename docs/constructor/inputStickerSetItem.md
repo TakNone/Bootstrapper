@@ -33,13 +33,13 @@ inputStickerSetItem#32da9e9c flags:# document:InputDocument emoji:string mask_co
 ```php
 $inputStickerSetItem = $client->inputStickerSetItem(
 	document : $client->inputDocumentEmpty(),
-	emoji : 'YZFBf53OglbJKApV',
+	emoji : 'CXZWolBqTdJODM18',
 	mask_coords : $client->maskCoords(
-		n : 72,
-		x : -211034.203125,
-		y : -1310315.35546875,
-		zoom : -302980.458984375,
+		n : 50,
+		x : 1540032.84375,
+		y : -1768670.400390625,
+		zoom : -1114662.4345703125,
 	),
-	keywords : '7TdMmV2syvUpfgQn',
+	keywords : 'W45XMijfzeH6oSlC',
 );
 ```

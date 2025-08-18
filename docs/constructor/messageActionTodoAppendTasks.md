@@ -28,9 +28,9 @@ messageActionTodoAppendTasks#c7edbc83 list:Vector<TodoItem> = MessageAction;
 $messageAction = $client->messageActionTodoAppendTasks(
 	list : array(
 		$client->todoItem(
-			id : 39,
+			id : 94,
 			title : $client->textWithEntities(
-				text : 'ALtrJz4l9OR7Tg6x',
+				text : 'v8pAqSegy6c4M1Ui',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),

@@ -1,6 +1,6 @@
 # chatEmpty
 
-**Description** : *Empty constructor, group doesn't exist*
+**Description** : *Empty constructor, group doesn&#039;t exist*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ chatEmpty#29562865 id:long = Chat;
 
 ```php
 $chat = $client->chatEmpty(
-	id : 10744212652145564,
+	id : -1390138578810941594,
 );
 ```

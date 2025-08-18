@@ -1,6 +1,6 @@
 # botPreviewMedia
 
-**Description** : *Represents a Main Mini App preview media, see here » for more info*
+**Description** : *Represents a Main Mini App preview media, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ botPreviewMedia#23e91ba3 date:int media:MessageMedia = BotPreviewMedia;
 
 ```php
 $botPreviewMedia = $client->botPreviewMedia(
-	date : 50,
+	date : 10,
 	media : $client->messageMediaEmpty(),
 );
 ```

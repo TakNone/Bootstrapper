@@ -37,6 +37,6 @@ account.resetAuthorization#df77f3bc hash:long = Bool;
 
 ```php
 $bool = $client->account->resetAuthorization(
-	hash : -3924383698218690863,
+	hash : -7182715300620237904,
 );
 ```

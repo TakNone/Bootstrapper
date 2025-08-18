@@ -29,7 +29,7 @@ messageEntityBankCard#761e6af4 offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityBankCard(
-	offset : 98,
-	length : 43,
+	offset : 41,
+	length : 71,
 );
 ```

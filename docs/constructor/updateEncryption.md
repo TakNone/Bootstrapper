@@ -30,8 +30,8 @@ updateEncryption#b4a2e88d chat:EncryptedChat date:int = Update;
 ```php
 $update = $client->updateEncryption(
 	chat : $client->encryptedChatEmpty(
-		id : 94,
+		id : 1,
 	),
-	date : 89,
+	date : 19,
 );
 ```

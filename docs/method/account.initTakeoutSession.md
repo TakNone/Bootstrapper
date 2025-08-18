@@ -1,6 +1,6 @@
 # account.initTakeoutSession
 
-**Description** : *Initialize a takeout session, see here » for more info*
+**Description** : *Initialize a takeout session, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -49,6 +49,6 @@ $accountTakeout = $client->account->initTakeoutSession(
 	message_megagroups : true,
 	message_channels : true,
 	files : true,
-	file_max_size : 670259265607362029,
+	file_max_size : 2373874183505900586,
 );
 ```

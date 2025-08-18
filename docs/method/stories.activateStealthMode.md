@@ -1,6 +1,6 @@
 # stories.activateStealthMode
 
-**Description** : *Activates stories stealth mode, see here » for more info*
+**Description** : *Activates stories stealth mode, see here &raquo; for more info*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # inputInvoiceSlug
 
-**Description** : *An invoice slug taken from an invoice deep link or from the premium_invoice_slug app config parameter »*
+**Description** : *An invoice slug taken from an invoice deep link or from the premium\_invoice\_slug app config parameter &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ inputInvoiceSlug#c326caef slug:string = InputInvoice;
 
 ```php
 $inputInvoice = $client->inputInvoiceSlug(
-	slug : '2thL1o0FrmIPne4U',
+	slug : 'DaHVPecfGgUEL0h2',
 );
 ```

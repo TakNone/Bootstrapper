@@ -34,10 +34,10 @@ inputMediaVenue#c13d1c11 geo_point:InputGeoPoint title:string address:string pro
 ```php
 $inputMedia = $client->inputMediaVenue(
 	geo_point : $client->inputGeoPointEmpty(),
-	title : 'TfcuwYzHRPknMste',
-	address : '6rCz15yS8f7EqYU3',
-	provider : 'z5r8q2BQNuIExkvs',
-	venue_id : '9qy35iMPpzTxlBOo',
-	venue_type : 'X0lJkTwKsRMfqWSY',
+	title : 'NH7iOGFT3WtwQcqg',
+	address : 'qEQxpOtom2ZCkscS',
+	provider : 'UJxiFAM3fjtrTZud',
+	venue_id : 'SJ9qfL3gDRFM1pYe',
+	venue_type : 'O5WnZ3Kz1XlpjeqE',
 );
 ```

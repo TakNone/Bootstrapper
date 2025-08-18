@@ -1,6 +1,6 @@
 # payments.getStarsTopupOptions
 
-**Description** : *Obtain a list of Telegram Stars topup options » as starsTopupOption constructors*
+**Description** : *Obtain a list of Telegram Stars topup options &raquo; as starsTopupOption constructors*
 
 **Layer** : 211
 

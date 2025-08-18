@@ -28,6 +28,6 @@ messages.getQuickReplies#d483f2a8 hash:long = messages.QuickReplies;
 
 ```php
 $messagesQuickReplies = $client->messages->getQuickReplies(
-	hash : 5947237087927316366,
+	hash : -5552316691079798593,
 );
 ```

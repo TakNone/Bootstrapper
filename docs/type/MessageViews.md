@@ -1,6 +1,6 @@
 # MessageViews
 
-**Description** : *View, forward counter + info about replies of a specific message*
+**Description** : *View, forward counter \+ info about replies of a specific message*
 
 **Layer** : 211
 

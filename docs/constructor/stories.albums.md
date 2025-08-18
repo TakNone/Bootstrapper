@@ -27,16 +27,16 @@ stories.albums#c3987a3a hash:long albums:Vector<StoryAlbum> = stories.Albums;
 
 ```php
 $storiesAlbums = $client->stories->albums(
-	hash : -3303675743457498977,
+	hash : 880561358628683841,
 	albums : array(
 		$client->storyAlbum(
-			album_id : 32,
-			title : 'Ii5pFEz9GjnfNS4Q',
+			album_id : 87,
+			title : 'FqhmwLsZXbxl7uSP',
 			icon_photo : $client->photoEmpty(
-				id : 1305530413144492676,
+				id : 2839395692847878232,
 			),
 			icon_video : $client->documentEmpty(
-				id : 7751086853238741507,
+				id : 4013850579324063296,
 			),
 		),
 	),

@@ -1,6 +1,6 @@
 # authorization
 
-**Description** : *Logged-in session*
+**Description** : *Logged\-in session*
 
 **Layer** : 211
 
@@ -52,17 +52,17 @@ $authorization = $client->authorization(
 	encrypted_requests_disabled : true,
 	call_requests_disabled : true,
 	unconfirmed : true,
-	hash : 2673599226182889044,
-	device_model : 'YsK1cdXb8tv6SLTy',
-	platform : 'ZICJekHoQSxb3GmY',
-	system_version : 'mb1nHqY5auKr2E36',
-	api_id : 74,
-	app_name : 'BXcTpZPHoUKM73a2',
-	app_version : 'VoislYSMFXkxREmv',
-	date_created : 93,
-	date_active : 51,
+	hash : 898215883204063176,
+	device_model : 'qECndJlHQXFtWx7y',
+	platform : 'kIwXT13ql8sdbojH',
+	system_version : 'xfLk4pwaFRiJ1oHh',
+	api_id : 18,
+	app_name : '4uSd5rZXPp3KCYaA',
+	app_version : 'XnKwEbMhPxuIksd5',
+	date_created : 96,
+	date_active : 55,
 	ip : '127.0.0.1',
-	country : 'GVoIu0AKDQCg1Sa7',
-	region : 'p9lEvXrIzxDR8WYn',
+	country : 'UyWdEfj7atOc41eI',
+	region : 'UPmerj5uo83vyHG9',
 );
 ```

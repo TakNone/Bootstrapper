@@ -1,6 +1,6 @@
 # channelAdminLogEventActionChangePhoto
 
-**Description** : *The channel/supergroup's picture was changed*
+**Description** : *The channel/supergroup&#039;s picture was changed*
 
 **Layer** : 211
 
@@ -30,10 +30,10 @@ channelAdminLogEventActionChangePhoto#434bd2af prev_photo:Photo new_photo:Photo 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangePhoto(
 	prev_photo : $client->photoEmpty(
-		id : 5085582287187947246,
+		id : -7594533667003974831,
 	),
 	new_photo : $client->photoEmpty(
-		id : -864082896156128296,
+		id : 3181396620361408358,
 	),
 );
 ```

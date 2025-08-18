@@ -1,6 +1,6 @@
 # messages.SavedDialogs
 
-**Description** : *Represents some saved message dialogs »*
+**Description** : *Represents some saved message dialogs &raquo;*
 
 **Layer** : 211
 

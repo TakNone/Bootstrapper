@@ -1,6 +1,6 @@
 # account.setReactionsNotifySettings
 
-**Description** : *Change the reaction notification settings »*
+**Description** : *Change the reaction notification settings &raquo;*
 
 **Layer** : 211
 
@@ -32,7 +32,7 @@ $reactionsNotifySettings = $client->account->setReactionsNotifySettings(
 		messages_notify_from : $client->reactionNotificationsFromContacts(),
 		stories_notify_from : $client->reactionNotificationsFromContacts(),
 		sound : $client->notificationSoundDefault(),
-		show_previews : $client->boolFalse(),
+		show_previews : false,
 	),
 );
 ```

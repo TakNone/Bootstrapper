@@ -48,7 +48,7 @@ channels.getAdminLog#33ddf480 flags:# channel:InputChannel q:string events_filte
 ```php
 $channelsAdminLogResults = $client->channels->getAdminLog(
 	channel : $client->inputChannelEmpty(),
-	q : 'RhESMgwbt5LXK9QV',
+	q : '918JrtlufUnxN2vL',
 	events_filter : $client->channelAdminLogEventsFilter(
 		join : true,
 		leave : true,
@@ -74,17 +74,17 @@ $channelsAdminLogResults = $client->channels->getAdminLog(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -6706617618409063466,
-			access_hash : -8323544149761076894,
+			user_id : -7102973323536048367,
+			access_hash : 1440982535668786168,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 59,
-			user_id : 3503176910531307834,
+			msg_id : 15,
+			user_id : 6219711045887741729,
 		),
 	),
-	max_id : 4094326809595994619,
-	min_id : -5857106989379740659,
-	limit : 20,
+	max_id : -5525847399710262,
+	min_id : -2480151948644402893,
+	limit : 92,
 );
 ```

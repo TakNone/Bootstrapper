@@ -33,6 +33,6 @@ autoSaveSettings#c84834ce flags:# photos:flags.0?true videos:flags.1?true video_
 $autoSaveSettings = $client->autoSaveSettings(
 	photos : true,
 	videos : true,
-	video_max_size : -3781434806147551507,
+	video_max_size : 3407221569128824909,
 );
 ```

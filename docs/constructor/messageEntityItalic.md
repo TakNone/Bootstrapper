@@ -29,7 +29,7 @@ messageEntityItalic#826f8b60 offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityItalic(
-	offset : 87,
-	length : 36,
+	offset : 42,
+	length : 48,
 );
 ```

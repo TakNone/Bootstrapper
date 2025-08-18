@@ -29,7 +29,7 @@ messageEntityMention#fa04579d offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityMention(
-	offset : 23,
-	length : 12,
+	offset : 63,
+	length : 74,
 );
 ```

@@ -1,6 +1,6 @@
 # storage.fileMp4
 
-**Description** : *MPEG-4 video. MIME type: video/mp4*
+**Description** : *MPEG\-4 video\. MIME type: video/mp4*
 
 **Layer** : 211
 

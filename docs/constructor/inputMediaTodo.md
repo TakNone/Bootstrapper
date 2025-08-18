@@ -30,7 +30,7 @@ $inputMedia = $client->inputMediaTodo(
 		others_can_append : true,
 		others_can_complete : true,
 		title : $client->textWithEntities(
-			text : 'VvUn7hkSbZTrWoL6',
+			text : 'CmNaBuT60Fnvt8Hd',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -57,7 +57,7 @@ $inputMedia = $client->inputMediaTodo(
 		),
 		list : array(
 			$client->todoItem(
-				id : 50,
+				id : 78,
 				title : $client->textWithEntities(...),
 			),
 		),

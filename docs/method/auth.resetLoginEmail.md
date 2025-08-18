@@ -1,6 +1,6 @@
 # auth.resetLoginEmail
 
-**Description** : *Reset the login email »*
+**Description** : *Reset the login email &raquo;*
 
 **Layer** : 211
 

@@ -48,14 +48,14 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 $phonePhoneCall = $client->phone->requestCall(
 	video : true,
 	user_id : $client->inputUserEmpty(),
-	random_id : 93,
-	g_a_hash : '?	?lLiveProto??[',
+	random_id : 50,
+	g_a_hash : 'e?A??LiveProto?`?ǜ',
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 5,
-		max_layer : 70,
-		library_versions : array('JpRIUn0mdWqzQoyN'),
+		min_layer : 67,
+		max_layer : 81,
+		library_versions : array('PeifWR6MkgsIjF8Q'),
 	),
 );
 ```

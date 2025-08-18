@@ -1,6 +1,6 @@
 # channels.createForumTopic
 
-**Description** : *Create a forum topic; requires manage_topics rights*
+**Description** : *Create a forum topic; requires manage\_topics rights*
 
 **Layer** : 211
 
@@ -47,10 +47,10 @@ channels.createForumTopic#f40c0224 flags:# channel:InputChannel title:string ico
 ```php
 $updates = $client->channels->createForumTopic(
 	channel : $client->inputChannelEmpty(),
-	title : 'Q1LG7tB9TYD5NgWj',
-	icon_color : 28,
-	icon_emoji_id : 7019260955841214624,
-	random_id : 7152263618557787249,
+	title : 'tMqNG7B64VgTIsAW',
+	icon_color : 33,
+	icon_emoji_id : -91095900795166164,
+	random_id : -6419263639601658708,
 	send_as : $client->inputPeerEmpty(),
 );
 ```

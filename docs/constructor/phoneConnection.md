@@ -35,10 +35,10 @@ phoneConnection#9cc123c7 flags:# tcp:flags.0?true id:long ip:string ipv6:string 
 ```php
 $phoneConnection = $client->phoneConnection(
 	tcp : true,
-	id : -8636519173127554044,
+	id : 1112700664673705869,
 	ip : '127.0.0.1',
 	ipv6 : '127.0.0.1',
-	port : 73,
-	peer_tag : '??H)LiveProto?g?nU',
+	port : 70,
+	peer_tag : '??$??LiveProtoJ???',
 );
 ```

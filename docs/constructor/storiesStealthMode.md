@@ -30,7 +30,7 @@ storiesStealthMode#712e27fd flags:# active_until_date:flags.0?int cooldown_until
 
 ```php
 $storiesStealthMode = $client->storiesStealthMode(
-	active_until_date : 22,
-	cooldown_until_date : 72,
+	active_until_date : 85,
+	cooldown_until_date : 75,
 );
 ```

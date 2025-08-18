@@ -1,6 +1,6 @@
 # updateBotDeleteBusinessMessage
 
-**Description** : *A message was deleted in a connected business chat »*
+**Description** : *A message was deleted in a connected business chat &raquo;*
 
 **Layer** : 211
 
@@ -31,11 +31,11 @@ updateBotDeleteBusinessMessage#a02a982e connection_id:string peer:Peer messages:
 
 ```php
 $update = $client->updateBotDeleteBusinessMessage(
-	connection_id : 'LafENp2DO6B7d0W9',
+	connection_id : '2aJZ7QLNcCTSsUnh',
 	peer : $client->peerUser(
-		user_id : -6026346139445617262,
+		user_id : 2536182537306989145,
 	),
-	messages : array(66),
-	qts : 53,
+	messages : array(74),
+	qts : 81,
 );
 ```

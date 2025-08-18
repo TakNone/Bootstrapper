@@ -29,14 +29,14 @@ messages.reactions#eafdf716 hash:long reactions:Vector<Reaction> = messages.Reac
 
 ```php
 $messagesReactions = $client->messages->reactions(
-	hash : 5600150204919174021,
+	hash : -4824143078810413925,
 	reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'z7rCSNYB5JG0T6kP',
+			emoticon : '1mV3wcslRyKk2YCZ',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 4974199111563277543,
+			document_id : 8595140980065569443,
 		),
 		$client->reactionPaid(),
 	),

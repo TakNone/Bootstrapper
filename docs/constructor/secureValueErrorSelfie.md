@@ -1,6 +1,6 @@
 # secureValueErrorSelfie
 
-**Description** : *Represents an issue with the selfie with a document. The error is considered resolved when the file with the selfie changes*
+**Description** : *Represents an issue with the selfie with a document\. The error is considered resolved when the file with the selfie changes*
 
 **Layer** : 211
 
@@ -31,7 +31,7 @@ secureValueErrorSelfie#e537ced6 type:SecureValueType file_hash:bytes text:string
 ```php
 $secureValueError = $client->secureValueErrorSelfie(
 	type : $client->secureValueTypePersonalDetails(),
-	file_hash : '??B?`LiveProto1n???',
-	text : 'yeAuY9dknZl4iErQ',
+	file_hash : 'ƺF??LiveProto???)?',
+	text : 'vEtQpduXOJ16rUVk',
 );
 ```

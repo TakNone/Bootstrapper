@@ -1,6 +1,6 @@
 # storage.fileWebp
 
-**Description** : *WEBP image. MIME type: image/webp*
+**Description** : *WEBP image\. MIME type: image/webp*
 
 **Layer** : 211
 

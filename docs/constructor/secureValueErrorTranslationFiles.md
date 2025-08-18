@@ -1,6 +1,6 @@
 # secureValueErrorTranslationFiles
 
-**Description** : *Represents an issue with the translated version of a document. The error is considered resolved when a file with the document translation changes*
+**Description** : *Represents an issue with the translated version of a document\. The error is considered resolved when a file with the document translation changes*
 
 **Layer** : 211
 
@@ -31,7 +31,7 @@ secureValueErrorTranslationFiles#34636dd8 type:SecureValueType file_hash:Vector<
 ```php
 $secureValueError = $client->secureValueErrorTranslationFiles(
 	type : $client->secureValueTypePersonalDetails(),
-	file_hash : array('?????LiveProto???o'),
-	text : '5WSNiIoVBTJ0uzYD',
+	file_hash : array('AL7?4LiveProtobW?Ù'),
+	text : 'jS3QifmcZdCR5Moy',
 );
 ```

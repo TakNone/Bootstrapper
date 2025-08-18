@@ -1,6 +1,6 @@
 # messages.AvailableReactions
 
-**Description** : *Animations and metadata associated with message reactions »*
+**Description** : *Animations and metadata associated with message reactions &raquo;*
 
 **Layer** : 211
 

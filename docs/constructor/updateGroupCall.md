@@ -30,11 +30,11 @@ updateGroupCall#97d64341 flags:# chat_id:flags.0?long call:GroupCall = Update;
 
 ```php
 $update = $client->updateGroupCall(
-	chat_id : -4447970239275490072,
+	chat_id : 3354862958735691510,
 	call : $client->groupCallDiscarded(
-		id : -1660219952883051779,
-		access_hash : -3123948198456640117,
-		duration : 88,
+		id : -467168216503356380,
+		access_hash : 6498270587380629637,
+		duration : 91,
 	),
 );
 ```

@@ -40,6 +40,6 @@ channels.getForumTopicsByID#b0831eb9 channel:InputChannel topics:Vector<int> = m
 ```php
 $messagesForumTopics = $client->channels->getForumTopicsByID(
 	channel : $client->inputChannelEmpty(),
-	topics : array(37),
+	topics : array(26),
 );
 ```

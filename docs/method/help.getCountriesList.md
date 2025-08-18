@@ -29,7 +29,7 @@ help.getCountriesList#735787a8 lang_code:string hash:int = help.CountriesList;
 
 ```php
 $helpCountriesList = $client->help->getCountriesList(
-	lang_code : 'OqTAKsWdknPCXaH7',
-	hash : 90,
+	lang_code : 'K58IRX9AqO6z4DjQ',
+	hash : 0,
 );
 ```

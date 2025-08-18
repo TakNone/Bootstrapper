@@ -1,6 +1,6 @@
 # inputBusinessRecipients
 
-**Description** : *Specifies the chats that can receive Telegram Business away » and greeting » messages*
+**Description** : *Specifies the chats that can receive Telegram Business away &raquo; and greeting &raquo; messages*
 
 **Layer** : 211
 
@@ -43,13 +43,13 @@ $inputBusinessRecipients = $client->inputBusinessRecipients(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -4195942098720980371,
-			access_hash : 1005038282326422172,
+			user_id : 2259866394910159128,
+			access_hash : 8161912868484342615,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 14,
-			user_id : -7125977671061288259,
+			msg_id : 75,
+			user_id : 453025425069843021,
 		),
 	),
 );

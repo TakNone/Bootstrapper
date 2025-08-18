@@ -26,6 +26,6 @@ inputSavedStarGiftUser#69279795 msg_id:int = InputSavedStarGift;
 
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftUser(
-	msg_id : 0,
+	msg_id : 41,
 );
 ```

@@ -36,8 +36,8 @@ requestPeerTypeChat#c9f06e1b flags:# creator:flags.0?true bot_participant:flags.
 $requestPeerType = $client->requestPeerTypeChat(
 	creator : true,
 	bot_participant : true,
-	has_username : $client->boolFalse(),
-	forum : $client->boolFalse(),
+	has_username : true,
+	forum : true,
 	user_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,

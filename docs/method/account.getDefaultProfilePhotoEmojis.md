@@ -28,6 +28,6 @@ account.getDefaultProfilePhotoEmojis#e2750328 hash:long = EmojiList;
 
 ```php
 $emojiList = $client->account->getDefaultProfilePhotoEmojis(
-	hash : -2679169320453506080,
+	hash : 6390655014258340164,
 );
 ```

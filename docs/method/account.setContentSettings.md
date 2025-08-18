@@ -1,6 +1,6 @@
 # account.setContentSettings
 
-**Description** : *Set sensitive content settings (for viewing or hiding NSFW content)*
+**Description** : *Set sensitive content settings \(for viewing or hiding NSFW content\)*
 
 **Layer** : 211
 

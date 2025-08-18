@@ -1,6 +1,6 @@
 # messages.getMyStickers
 
-**Description** : *Fetch all stickersets » owned by the current user*
+**Description** : *Fetch all stickersets &raquo; owned by the current user*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ messages.getMyStickers#d0b5e1fc offset_id:long limit:int = messages.MyStickers;
 
 ```php
 $messagesMyStickers = $client->messages->getMyStickers(
-	offset_id : -7094159993302726779,
-	limit : 49,
+	offset_id : -1045993961698639726,
+	limit : 83,
 );
 ```

@@ -1,6 +1,6 @@
 # help.setBotUpdatesStatus
 
-**Description** : *Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only*
+**Description** : *Informs the server about the number of pending bot updates if they haven&#039;t been processed for a long time; for bots only*
 
 **Layer** : 211
 
@@ -37,7 +37,7 @@ help.setBotUpdatesStatus#ec22cfcd pending_updates_count:int message:string = Boo
 
 ```php
 $bool = $client->help->setBotUpdatesStatus(
-	pending_updates_count : 45,
-	message : 'kZryTwBosRJx01jq',
+	pending_updates_count : 10,
+	message : 'LMR6Pf9YxqzpBcJA',
 );
 ```

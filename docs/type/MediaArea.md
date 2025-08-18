@@ -1,6 +1,6 @@
 # MediaArea
 
-**Description** : *Represents a story media area »*
+**Description** : *Represents a story media area &raquo;*
 
 **Layer** : 211
 

@@ -45,10 +45,10 @@ channels.getForumTopics#de560d1 flags:# channel:InputChannel q:flags.0?string of
 ```php
 $messagesForumTopics = $client->channels->getForumTopics(
 	channel : $client->inputChannelEmpty(),
-	q : 'PYfEiU0A7BbcJNGe',
-	offset_date : 61,
-	offset_id : 39,
-	offset_topic : 1,
-	limit : 54,
+	q : 'bseKQug5wcSWXOIL',
+	offset_date : 47,
+	offset_id : 36,
+	offset_topic : 65,
+	limit : 92,
 );
 ```

@@ -28,6 +28,6 @@ chatParticipantCreator#e46bcee4 user_id:long = ChatParticipant;
 
 ```php
 $chatParticipant = $client->chatParticipantCreator(
-	user_id : 8594652008649502412,
+	user_id : 3967449516833626780,
 );
 ```

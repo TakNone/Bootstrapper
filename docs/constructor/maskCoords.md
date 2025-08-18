@@ -1,6 +1,6 @@
 # maskCoords
 
-**Description** : *Position on a photo where a mask should be placed when attaching stickers to media »*
+**Description** : *Position on a photo where a mask should be placed when attaching stickers to media &raquo;*
 
 **Layer** : 211
 
@@ -31,9 +31,9 @@ maskCoords#aed6dbb2 n:int x:double y:double zoom:double = MaskCoords;
 
 ```php
 $maskCoords = $client->maskCoords(
-	n : 45,
-	x : 1172476.951171875,
-	y : -281047.111328125,
-	zoom : 348649.349609375,
+	n : 86,
+	x : -2020486.3984375,
+	y : -118763.5078125,
+	zoom : -465749.53515625,
 );
 ```

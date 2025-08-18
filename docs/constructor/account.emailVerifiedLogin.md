@@ -32,11 +32,11 @@ $accountEmailVerified = $client->account->emailVerifiedLogin(
 	email : 'reply@liveproto.dev',
 	sent_code : $client->auth->sentCode(
 		type : $client->auth->sentCodeTypeApp(
-			length : 77,
+			length : 5,
 		),
 		phone_code_hash : '+1234567890',
 		next_type : $client->auth->codeTypeSms(),
-		timeout : 80,
+		timeout : 77,
 	),
 );
 ```

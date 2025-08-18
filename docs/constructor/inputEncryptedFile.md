@@ -29,7 +29,7 @@ inputEncryptedFile#5a17b5e5 id:long access_hash:long = InputEncryptedFile;
 
 ```php
 $inputEncryptedFile = $client->inputEncryptedFile(
-	id : -8772941243391253033,
-	access_hash : -6848228843516953013,
+	id : 3636546845503587165,
+	access_hash : -2347754138534905728,
 );
 ```

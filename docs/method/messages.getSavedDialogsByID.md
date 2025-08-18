@@ -33,25 +33,25 @@ $messagesSavedDialogs = $client->messages->getSavedDialogsByID(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 6154665734745221789,
+			chat_id : -8075767149716665739,
 		),
 		$client->inputPeerUser(
-			user_id : -7743085139450146869,
-			access_hash : -210090734530830014,
+			user_id : -1458481147326357070,
+			access_hash : 8068462540357159642,
 		),
 		$client->inputPeerChannel(
-			channel_id : -8464612771742644415,
-			access_hash : 1882153428660313718,
+			channel_id : 7554094527795804624,
+			access_hash : -7022118404041291605,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 94,
-			user_id : -5296143450676562050,
+			msg_id : 2,
+			user_id : 2264942080909233913,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 26,
-			channel_id : 3220560750651841428,
+			msg_id : 92,
+			channel_id : -4978767306487507703,
 		),
 	),
 );

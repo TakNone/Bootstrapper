@@ -32,10 +32,10 @@ encryptedFile#a8008cd8 id:long access_hash:long size:long dc_id:int key_fingerpr
 
 ```php
 $encryptedFile = $client->encryptedFile(
-	id : 7232093686292942711,
-	access_hash : -6111666148824198557,
-	size : 8795830851535669116,
-	dc_id : 54,
-	key_fingerprint : 76,
+	id : -9214110793901136692,
+	access_hash : -4756079508993835421,
+	size : -7412037177265813156,
+	dc_id : 82,
+	key_fingerprint : 70,
 );
 ```

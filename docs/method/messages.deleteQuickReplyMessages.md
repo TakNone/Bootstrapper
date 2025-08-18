@@ -1,6 +1,6 @@
 # messages.deleteQuickReplyMessages
 
-**Description** : *Delete one or more messages from a quick reply shortcut. This will also emit an updateDeleteQuickReplyMessages update*
+**Description** : *Delete one or more messages from a quick reply shortcut\. This will also emit an updateDeleteQuickReplyMessages update*
 
 **Layer** : 211
 
@@ -37,7 +37,7 @@ messages.deleteQuickReplyMessages#e105e910 shortcut_id:int id:Vector<int> = Upda
 
 ```php
 $updates = $client->messages->deleteQuickReplyMessages(
-	shortcut_id : 2,
-	id : array(41),
+	shortcut_id : 53,
+	id : array(17),
 );
 ```

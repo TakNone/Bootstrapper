@@ -49,6 +49,6 @@ messages.hideAllChatJoinRequests#e085f4ea flags:# approved:flags.0?true peer:Inp
 $updates = $client->messages->hideAllChatJoinRequests(
 	approved : true,
 	peer : $client->inputPeerEmpty(),
-	link : 'zayTtY9ZpjqIhk8g',
+	link : '82ZW975T3SVPdGMD',
 );
 ```

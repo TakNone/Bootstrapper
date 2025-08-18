@@ -35,14 +35,14 @@ updateBotCallbackQuery#b9cfc48d flags:# query_id:long user_id:long peer:Peer msg
 
 ```php
 $update = $client->updateBotCallbackQuery(
-	query_id : -7899323585903704811,
-	user_id : 4383751846486489278,
+	query_id : 1460623535311307389,
+	user_id : -3723253991126846439,
 	peer : $client->peerUser(
-		user_id : 6933659295569424647,
+		user_id : 6150897017942673917,
 	),
-	msg_id : 85,
-	chat_instance : -6745680108568482069,
-	data : '[~???LiveProto?(?n',
-	game_short_name : 'NTeRA72dzHnotXiL',
+	msg_id : 7,
+	chat_instance : 6877220133695931384,
+	data : 'M??8LiveProto\'??R!',
+	game_short_name : '4dgnoht8NZsJ2Pfy',
 );
 ```

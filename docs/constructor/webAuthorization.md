@@ -36,14 +36,14 @@ webAuthorization#a6f8f452 hash:long bot_id:long domain:string browser:string pla
 
 ```php
 $webAuthorization = $client->webAuthorization(
-	hash : -3559710713292577735,
-	bot_id : 6529040680437608346,
-	domain : 'wISimrkFjPgq0QEn',
-	browser : 'NqiRHJ5krWoE8C3y',
-	platform : '4sDPBFnzYkiS87Qy',
-	date_created : 11,
-	date_active : 95,
+	hash : 120149989824704804,
+	bot_id : -4793757442500419062,
+	domain : 'Nv6TjKDIJB3dHeEO',
+	browser : 'Io0wTUHCchDVkv9K',
+	platform : '0e7K2ZVMNqWEBvih',
+	date_created : 49,
+	date_active : 70,
 	ip : '127.0.0.1',
-	region : 'SxfpYH4yPeVuOI8F',
+	region : '497nafC1edvSWuYK',
 );
 ```

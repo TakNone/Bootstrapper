@@ -1,6 +1,6 @@
 # account.Authorizations
 
-**Description** : *Logged-in sessions*
+**Description** : *Logged\-in sessions*
 
 **Layer** : 211
 

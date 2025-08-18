@@ -1,6 +1,6 @@
 # updateEncryptedChatTyping
 
-**Description** : *Interlocutor is typing a message in an encrypted chat. Update period is 6 second. If upon this time there is no repeated update, it shall be considered that the interlocutor stopped typing*
+**Description** : *Interlocutor is typing a message in an encrypted chat\. Update period is 6 second\. If upon this time there is no repeated update, it shall be considered that the interlocutor stopped typing*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ updateEncryptedChatTyping#1710f156 chat_id:int = Update;
 
 ```php
 $update = $client->updateEncryptedChatTyping(
-	chat_id : 86,
+	chat_id : 67,
 );
 ```

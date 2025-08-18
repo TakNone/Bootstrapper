@@ -42,8 +42,8 @@ photos.getUserPhotos#91cd32a8 user_id:InputUser offset:int max_id:long limit:int
 ```php
 $photosPhotos = $client->photos->getUserPhotos(
 	user_id : $client->inputUserEmpty(),
-	offset : 16,
-	max_id : -3327572930623479669,
-	limit : 12,
+	offset : 47,
+	max_id : 7867833536104848516,
+	limit : 69,
 );
 ```

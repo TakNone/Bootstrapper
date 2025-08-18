@@ -1,6 +1,6 @@
 # keyboardButtonUrlAuth
 
-**Description** : *Button to request a user to authorize via URL using Seamless Telegram Login. When the user clicks on such a button, messages.requestUrlAuth should be called, providing the button_id and the ID of the container message. The returned urlAuthResultRequest object will contain more details about the authorization request (request_write_access if the bot would like to send messages to the user along with the username of the bot which will be used for user authorization). Finally, the user can choose to call messages.acceptUrlAuth to get a urlAuthResultAccepted with the URL to open instead of the url of this constructor, or a urlAuthResultDefault, in which case the url of this constructor must be opened, instead. If the user refuses the authorization request but still wants to open the link, the url of this constructor must be used*
+**Description** : *Button to request a user to authorize via URL using Seamless Telegram Login\. When the user clicks on such a button, messages\.requestUrlAuth should be called, providing the button\_id and the ID of the container message\. The returned urlAuthResultRequest object will contain more details about the authorization request \(request\_write\_access if the bot would like to send messages to the user along with the username of the bot which will be used for user authorization\)\. Finally, the user can choose to call messages\.acceptUrlAuth to get a urlAuthResultAccepted with the URL to open instead of the url of this constructor, or a urlAuthResultDefault, in which case the url of this constructor must be opened, instead\. If the user refuses the authorization request but still wants to open the link, the url of this constructor must be used*
 
 **Layer** : 211
 
@@ -32,9 +32,9 @@ keyboardButtonUrlAuth#10b78d29 flags:# text:string fwd_text:flags.0?string url:s
 
 ```php
 $keyboardButton = $client->keyboardButtonUrlAuth(
-	text : 'Hk7jsqiwxDlE0gZb',
-	fwd_text : 'oms3n1cLifhUPa7R',
+	text : 'e4zwpxXo5UCSJ1MY',
+	fwd_text : '4IniCjFzZcWYLs3u',
 	url : 'https://docs.liveproto.dev',
-	button_id : 69,
+	button_id : 40,
 );
 ```

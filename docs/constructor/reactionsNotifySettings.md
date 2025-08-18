@@ -1,6 +1,6 @@
 # reactionsNotifySettings
 
-**Description** : *Reaction notification settings, see here » for more info*
+**Description** : *Reaction notification settings, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -35,6 +35,6 @@ $reactionsNotifySettings = $client->reactionsNotifySettings(
 	messages_notify_from : $client->reactionNotificationsFromContacts(),
 	stories_notify_from : $client->reactionNotificationsFromContacts(),
 	sound : $client->notificationSoundDefault(),
-	show_previews : $client->boolFalse(),
+	show_previews : false,
 );
 ```

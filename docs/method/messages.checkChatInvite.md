@@ -39,6 +39,6 @@ messages.checkChatInvite#3eadb1bb hash:string = ChatInvite;
 
 ```php
 $chatInvite = $client->messages->checkChatInvite(
-	hash : 'tV43lsvCxYF6ueWf',
+	hash : 'tW0exbTiP75O4Ikq',
 );
 ```

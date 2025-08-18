@@ -1,6 +1,6 @@
 # account.updateColor
 
-**Description** : *Update the accent color and background custom emoji » of the current account*
+**Description** : *Update the accent color and background custom emoji &raquo; of the current account*
 
 **Layer** : 211
 
@@ -41,7 +41,7 @@ account.updateColor#7cefa15d flags:# for_profile:flags.1?true color:flags.2?int 
 ```php
 $bool = $client->account->updateColor(
 	for_profile : true,
-	color : 84,
-	background_emoji_id : 1143565629031518200,
+	color : 49,
+	background_emoji_id : 4345724014015027134,
 );
 ```

@@ -1,6 +1,6 @@
 # updates.ChannelDifference
 
-**Description** : *Contains the difference (new messages) between our local channel state and the remote state*
+**Description** : *Contains the difference \(new messages\) between our local channel state and the remote state*
 
 **Layer** : 211
 

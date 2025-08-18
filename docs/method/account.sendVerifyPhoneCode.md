@@ -45,9 +45,9 @@ $authSentCode = $client->account->sendVerifyPhoneCode(
 		allow_missed_call : true,
 		allow_firebase : true,
 		unknown_number : true,
-		logout_tokens : array('y??WpLiveProto?޿'),
-		token : 'VkZ9IaD3H5yqwubo',
-		app_sandbox : $client->boolFalse(),
+		logout_tokens : array('ִ!??LiveProto?5?f?'),
+		token : 'd7OQrpHP1LIAz02e',
+		app_sandbox : false,
 	),
 );
 ```

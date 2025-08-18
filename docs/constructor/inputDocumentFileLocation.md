@@ -1,6 +1,6 @@
 # inputDocumentFileLocation
 
-**Description** : *Document location (video, voice, audio, basically every type except photo)*
+**Description** : *Document location \(video, voice, audio, basically every type except photo\)*
 
 **Layer** : 211
 
@@ -31,9 +31,9 @@ inputDocumentFileLocation#bad07584 id:long access_hash:long file_reference:bytes
 
 ```php
 $inputFileLocation = $client->inputDocumentFileLocation(
-	id : -5689346059014413720,
-	access_hash : -3834902631124872635,
-	file_reference : '$ْ??LiveProtoTG??4',
-	thumb_size : 'sAdVcOBEkl1uHjwR',
+	id : 5848469062820479959,
+	access_hash : 6602697246485267855,
+	file_reference : '????LiveProto??u_?',
+	thumb_size : 'DqpZbsURl3tfFOM0',
 );
 ```

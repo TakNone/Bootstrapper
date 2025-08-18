@@ -1,6 +1,6 @@
 # BotInfo
 
-**Description** : *Info about bots (available bot commands, etc)*
+**Description** : *Info about bots \(available bot commands, etc\)*
 
 **Layer** : 211
 

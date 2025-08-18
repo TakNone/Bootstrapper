@@ -31,9 +31,10 @@ messages.dhConfig#2c221edd g:int p:bytes version:int random:bytes = messages.DhC
 
 ```php
 $messagesDhConfig = $client->messages->dhConfig(
-	g : 8,
-	p : '???ڂLiveProto??a?Q',
-	version : 80,
-	random : '???LiveProto??{S?',
+	g : 82,
+	p : '???nLiveProto?q)??',
+	version : 12,
+	random : '?obF7LiveProto?
+P?',
 );
 ```

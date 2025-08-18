@@ -1,6 +1,6 @@
 # keyboardButtonRequestGeoLocation
 
-**Description** : *Button to request a user's geolocation*
+**Description** : *Button to request a user&#039;s geolocation*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ keyboardButtonRequestGeoLocation#fc796b3f text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestGeoLocation(
-	text : 'uKZwvIxBXEm7zGdP',
+	text : 'QkcyY5mXabW0tOMs',
 );
 ```

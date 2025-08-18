@@ -34,12 +34,12 @@ inputGroupCallStream#598a92a flags:# call:InputGroupCall time_ms:long scale:int 
 ```php
 $inputFileLocation = $client->inputGroupCallStream(
 	call : $client->inputGroupCall(
-		id : 7676215970364873023,
-		access_hash : -3093349375130217697,
+		id : 195011860453179997,
+		access_hash : -4878025147236573870,
 	),
-	time_ms : -2003571548509554657,
-	scale : 96,
-	video_channel : 22,
-	video_quality : 77,
+	time_ms : -4601903262430871865,
+	scale : 87,
+	video_channel : 29,
+	video_quality : 13,
 );
 ```

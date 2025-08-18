@@ -28,6 +28,6 @@ jsonBool#c7345e6a value:Bool = JSONValue;
 
 ```php
 $jSONValue = $client->jsonBool(
-	value : $client->boolFalse(),
+	value : false,
 );
 ```

@@ -1,6 +1,6 @@
 # starGift
 
-**Description** : *Represents a star gift, see here » for more info*
+**Description** : *Represents a star gift, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -53,24 +53,24 @@ $starGift = $client->starGift(
 	birthday : true,
 	require_premium : true,
 	limited_per_user : true,
-	id : -3354695778561157384,
+	id : -7314082399487314178,
 	sticker : $client->documentEmpty(
-		id : 7818792399176432525,
+		id : -4187768818255952452,
 	),
-	stars : -2637879627577047128,
-	availability_remains : 56,
-	availability_total : 54,
-	availability_resale : -9133984739256049311,
-	convert_stars : 279528766119046505,
-	first_sale_date : 80,
-	last_sale_date : 77,
-	upgrade_stars : -895235471076113105,
-	resell_min_stars : -7636279760267771863,
-	title : 'GfdPR4FaECx1q6Sn',
+	stars : 1879093944801097425,
+	availability_remains : 80,
+	availability_total : 17,
+	availability_resale : -4899445167799543390,
+	convert_stars : 1637959159672407989,
+	first_sale_date : 99,
+	last_sale_date : 64,
+	upgrade_stars : -6160765167042413547,
+	resell_min_stars : 6294111954133758584,
+	title : '2Y4873M1hqftFoSa',
 	released_by : $client->peerUser(
-		user_id : -1737538465557087989,
+		user_id : 8918511555357766483,
 	),
-	per_user_total : 41,
-	per_user_remains : 69,
+	per_user_total : 48,
+	per_user_remains : 0,
 );
 ```

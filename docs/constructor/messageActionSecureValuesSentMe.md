@@ -33,11 +33,10 @@ $messageAction = $client->messageActionSecureValuesSentMe(
 		$client->secureValue(
 			type : $client->secureValueTypePersonalDetails(),
 			data : $client->secureData(
-				data : '????LiveProto?
-?X?',
-				data_hash : '0J???LiveProto?
-?',
-				secret : '????DLiveProtoZ????',
+				data : '
+Kg?LiveProto???F',
+				data_hash : 'G???LiveProto???',
+				secret : ',????LiveProto???U',
 			),
 			front_side : $client->secureFileEmpty(),
 			reverse_side : $client->secureFileEmpty(),
@@ -45,37 +44,39 @@ $messageAction = $client->messageActionSecureValuesSentMe(
 			translation : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : 8554105617219107573,
-					access_hash : 8022206298255403033,
-					size : -3378667181342686109,
-					dc_id : 54,
-					date : 78,
-					file_hash : 'v!?WLiveProto?A??',
-					secret : '@????LiveProtod)=?k',
+					id : -2377584886017148415,
+					access_hash : 4890634848218898493,
+					size : -4334198814542161009,
+					dc_id : 30,
+					date : 42,
+					file_hash : 'nO]LiveProto-?',
+					secret : '2X??LiveProto?AX
+',
 				),
 			),
 			files : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : 9003629953862890942,
-					access_hash : 6529360289035039434,
-					size : -5562291567080299316,
-					dc_id : 20,
-					date : 22,
-					file_hash : 'F2ILiveProto[???',
-					secret : '??A??LiveProto?}`',
+					id : 162327878236500036,
+					access_hash : -5989252561058492074,
+					size : 5719165322858393900,
+					dc_id : 7,
+					date : 47,
+					file_hash : 'в0?RLiveProto]]?uT',
+					secret : ']?P??LiveProto ?ſ?',
 				),
 			),
 			plain_data : $client->securePlainPhone(
 				phone : '+1234567890',
 			),
-			hash : '!{?\'LiveProto? ??3',
+			hash : '?
+DrLiveProto-??',
 		),
 	),
 	credentials : $client->secureCredentialsEncrypted(
-		data : 'N?6\\LiveProto?????',
-		hash : '???LiveProtoaF*?',
-		secret : '1r?:LiveProto;?O?7',
+		data : '?P??LiveProto???v',
+		hash : 'm?@ULiveProto?m',
+		secret : '?$??LiveProto;???',
 	),
 );
 ```

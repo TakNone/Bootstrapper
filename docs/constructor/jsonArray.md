@@ -31,25 +31,25 @@ $jSONValue = $client->jsonArray(
 	value : array(
 		$client->jsonNull(),
 		$client->jsonBool(
-			value : $client->boolFalse(),
+			value : false,
 		),
 		$client->jsonNumber(
-			value : 1271437.9931640625,
+			value : -71759.884765625,
 		),
 		$client->jsonString(
-			value : 'KaPjcGhxvtFOLdAn',
+			value : 'OpLg7dQc3qyGnki8',
 		),
 		$client->jsonArray(
 			value : array(
 				$client->jsonNull(),
 				$client->jsonBool(
-					value : $client->boolFalse(...),
+					value : true,
 				),
 				$client->jsonNumber(
-					value : 1007419.298828125,
+					value : -612240.666015625,
 				),
 				$client->jsonString(
-					value : 'XLr2SgNpEdHwtoYM',
+					value : 'VbBGRpmAjhw6q07L',
 				),
 				$client->jsonArray(
 					value : array(
@@ -71,7 +71,7 @@ $jSONValue = $client->jsonArray(
 		$client->jsonObject(
 			value : array(
 				$client->jsonObjectValue(
-					key : 'IJlaXQxepT6Nb4fc',
+					key : '75BuhnrMsoGjQPbq',
 					value : $client->jsonNull(...),
 				),
 			),

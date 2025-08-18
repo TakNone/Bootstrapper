@@ -29,6 +29,6 @@ draftMessageEmpty#1b0c841a flags:# date:flags.0?int = DraftMessage;
 
 ```php
 $draftMessage = $client->draftMessageEmpty(
-	date : 85,
+	date : 34,
 );
 ```

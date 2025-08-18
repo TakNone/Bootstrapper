@@ -28,6 +28,6 @@ messageActionChannelCreate#95d2ac92 title:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChannelCreate(
-	title : 'RzNy5I04F8Qelxa7',
+	title : 'NCtYD56fF4bcT2yd',
 );
 ```

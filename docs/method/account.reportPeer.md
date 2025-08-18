@@ -1,6 +1,6 @@
 # account.reportPeer
 
-**Description** : *Report a peer for violation of telegram's Terms of Service*
+**Description** : *Report a peer for violation of telegram&#039;s Terms of Service*
 
 **Layer** : 211
 
@@ -41,6 +41,6 @@ account.reportPeer#c5ba3d86 peer:InputPeer reason:ReportReason message:string = 
 $bool = $client->account->reportPeer(
 	peer : $client->inputPeerEmpty(),
 	reason : $client->inputReportReasonSpam(),
-	message : 'dNtLcqx5S4nJkweH',
+	message : 'l1vsW8yqdauVEeU5',
 );
 ```

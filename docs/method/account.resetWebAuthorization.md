@@ -36,6 +36,6 @@ account.resetWebAuthorization#2d01b9ef hash:long = Bool;
 
 ```php
 $bool = $client->account->resetWebAuthorization(
-	hash : 3499917995045616918,
+	hash : -4989369666834481447,
 );
 ```

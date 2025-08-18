@@ -28,6 +28,6 @@ securePasswordKdfAlgoSHA512#86471d92 salt:bytes = SecurePasswordKdfAlgo;
 
 ```php
 $securePasswordKdfAlgo = $client->securePasswordKdfAlgoSHA512(
-	salt : 'k?`?LiveProto????',
+	salt : 'J8?0?LiveProto???ؤ',
 );
 ```

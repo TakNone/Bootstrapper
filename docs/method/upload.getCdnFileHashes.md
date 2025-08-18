@@ -39,7 +39,7 @@ upload.getCdnFileHashes#91dc3f31 file_token:bytes offset:long = Vector<FileHash>
 
 ```php
 $fileHash = $client->upload->getCdnFileHashes(
-	file_token : '?6?g?LiveProtoG&?',
-	offset : 5895367328956276352,
+	file_token : 'zrJLiveProto2??X',
+	offset : -7690751044495986023,
 );
 ```

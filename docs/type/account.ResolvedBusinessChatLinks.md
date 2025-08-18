@@ -1,6 +1,6 @@
 # account.ResolvedBusinessChatLinks
 
-**Description** : *Contains info about a single resolved business chat deep link »*
+**Description** : *Contains info about a single resolved business chat deep link &raquo;*
 
 **Layer** : 211
 

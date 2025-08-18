@@ -46,6 +46,6 @@ $exportedMessageLink = $client->channels->exportMessageLink(
 	grouped : true,
 	thread : true,
 	channel : $client->inputChannelEmpty(),
-	id : 36,
+	id : 90,
 );
 ```

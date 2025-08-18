@@ -28,6 +28,6 @@ emailVerificationGoogle#db909ec2 token:string = EmailVerification;
 
 ```php
 $emailVerification = $client->emailVerificationGoogle(
-	token : 'ojlKZPpF8OiAhtrg',
+	token : 'hAZmMBcYU7k93nOI',
 );
 ```

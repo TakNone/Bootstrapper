@@ -38,11 +38,11 @@ connectedBotStarRef#19a13f71 flags:# revoked:flags.1?true url:string date:int bo
 $connectedBotStarRef = $client->connectedBotStarRef(
 	revoked : true,
 	url : 'https://docs.liveproto.dev',
-	date : 18,
-	bot_id : 3996574988179076649,
-	commission_permille : 76,
-	duration_months : 100,
-	participants : 3496593630641945891,
-	revenue : -324659530850361359,
+	date : 36,
+	bot_id : -5620517600929767829,
+	commission_permille : 44,
+	duration_months : 11,
+	participants : 1295111448956714301,
+	revenue : -3538190266997937090,
 );
 ```

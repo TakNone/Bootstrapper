@@ -28,6 +28,6 @@ account.getSavedRingtones#e1902288 hash:long = account.SavedRingtones;
 
 ```php
 $accountSavedRingtones = $client->account->getSavedRingtones(
-	hash : -4236004703892847107,
+	hash : -8427506724675814599,
 );
 ```

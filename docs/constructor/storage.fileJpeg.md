@@ -1,6 +1,6 @@
 # storage.fileJpeg
 
-**Description** : *JPEG image. MIME type: image/jpeg*
+**Description** : *JPEG image\. MIME type: image/jpeg*
 
 **Layer** : 211
 

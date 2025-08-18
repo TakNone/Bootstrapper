@@ -43,49 +43,49 @@ starGiftUnique#3a274d50 flags:# require_premium:flags.6?true resale_ton_only:fla
 $starGift = $client->starGiftUnique(
 	require_premium : true,
 	resale_ton_only : true,
-	id : -1666459501403786936,
-	title : 'lvhKSjwbY5TUcXQ3',
-	slug : 'EXpyZKjfD5IeTGBQ',
-	num : 48,
+	id : -4622955905806273281,
+	title : 'A9S5Noc3CKvTFljZ',
+	slug : 'oIH9CVlvAqTukiat',
+	num : 91,
 	owner_id : $client->peerUser(
-		user_id : 4499061017986418685,
+		user_id : -8115949490502223459,
 	),
-	owner_name : '6gl0IpSVJQ2DPhX5',
-	owner_address : 'WtcBbNVgML9Sp7ET',
+	owner_name : 'GPAC5HXbghs0ywIp',
+	owner_address : 'yj3Q8sULxr4RoWzm',
 	attributes : array(
 		$client->starGiftAttributeModel(
-			name : '1EBU3S4OMvfCb7wj',
+			name : 'sIuTLAfyEnkhQGV1',
 			document : $client->documentEmpty(
-				id : -1691479462346081998,
+				id : -5380629663440896744,
 			),
-			rarity_permille : 21,
+			rarity_permille : 56,
 		),
 		$client->starGiftAttributePattern(
-			name : 'Vhm1t60ZxIBNS3gU',
+			name : 'ew9B5K7xzpovPJmA',
 			document : $client->documentEmpty(
-				id : -3426867839250603033,
+				id : 4197706081267959583,
 			),
-			rarity_permille : 50,
+			rarity_permille : 84,
 		),
 		$client->starGiftAttributeBackdrop(
-			name : '5A8jo40N6IwkyvM2',
-			backdrop_id : 54,
-			center_color : 49,
-			edge_color : 85,
-			pattern_color : 88,
-			text_color : 47,
-			rarity_permille : 52,
+			name : 'Jhcejm9Sfu824pRY',
+			backdrop_id : 83,
+			center_color : 58,
+			edge_color : 88,
+			pattern_color : 20,
+			text_color : 86,
+			rarity_permille : 90,
 		),
 		$client->starGiftAttributeOriginalDetails(
 			sender_id : $client->peerUser(
-				user_id : -2243261265027659299,
+				user_id : -1889685944314268039,
 			),
 			recipient_id : $client->peerUser(
-				user_id : -2526293021963688106,
+				user_id : 7405860751242565887,
 			),
-			date : 62,
+			date : 29,
 			message : $client->textWithEntities(
-				text : '2OLxT18wBd5Vn6m9',
+				text : 'OYLfyloeTdpcXHix',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -112,20 +112,20 @@ $starGift = $client->starGiftUnique(
 			),
 		),
 	),
-	availability_issued : 84,
-	availability_total : 7,
-	gift_address : 'dq34v1oeQWJbTaB0',
+	availability_issued : 7,
+	availability_total : 94,
+	gift_address : 'W4gJhGfnBZc8xqtv',
 	resell_amount : array(
 		$client->starsAmount(
-			amount : 5538737631877657790,
-			nanos : 35,
+			amount : -4959337683573019477,
+			nanos : 49,
 		),
 		$client->starsTonAmount(
-			amount : 6928628687818232265,
+			amount : -7206356426031849577,
 		),
 	),
 	released_by : $client->peerUser(
-		user_id : 593780128246529443,
+		user_id : 1212867475167061256,
 	),
 );
 ```

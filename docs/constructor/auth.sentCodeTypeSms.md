@@ -28,6 +28,6 @@ auth.sentCodeTypeSms#c000bba2 length:int = auth.SentCodeType;
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeSms(
-	length : 17,
+	length : 70,
 );
 ```

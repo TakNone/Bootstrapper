@@ -1,6 +1,6 @@
 # messages.getAvailableReactions
 
-**Description** : *Obtain available message reactions »*
+**Description** : *Obtain available message reactions &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messages.getAvailableReactions#18dea0ac hash:int = messages.AvailableReactions;
 
 ```php
 $messagesAvailableReactions = $client->messages->getAvailableReactions(
-	hash : 59,
+	hash : 36,
 );
 ```

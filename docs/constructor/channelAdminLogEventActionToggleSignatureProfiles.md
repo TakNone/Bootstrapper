@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleSignatureProfiles#60a79c79 new_value:Bool = Chan
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleSignatureProfiles(
-	new_value : $client->boolFalse(),
+	new_value : false,
 );
 ```

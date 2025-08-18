@@ -40,13 +40,13 @@ messages.reorderPinnedDialogs#3b1adf37 flags:# force:flags.0?true folder_id:int 
 ```php
 $bool = $client->messages->reorderPinnedDialogs(
 	force : true,
-	folder_id : 17,
+	folder_id : 2,
 	order : array(
 		$client->inputDialogPeer(
 			peer : $client->inputPeerEmpty(),
 		),
 		$client->inputDialogPeerFolder(
-			folder_id : 93,
+			folder_id : 50,
 		),
 	),
 );

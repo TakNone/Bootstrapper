@@ -42,6 +42,6 @@ channels.toggleParticipantsHidden#6a6e7854 channel:InputChannel enabled:Bool = U
 ```php
 $updates = $client->channels->toggleParticipantsHidden(
 	channel : $client->inputChannelEmpty(),
-	enabled : $client->boolFalse(),
+	enabled : false,
 );
 ```

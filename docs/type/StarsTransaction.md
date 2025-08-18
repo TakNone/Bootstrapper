@@ -1,6 +1,6 @@
 # StarsTransaction
 
-**Description** : *Represents a Telegram Stars transaction »*
+**Description** : *Represents a Telegram Stars transaction &raquo;*
 
 **Layer** : 211
 

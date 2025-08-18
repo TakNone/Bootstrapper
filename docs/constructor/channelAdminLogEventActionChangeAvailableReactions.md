@@ -1,6 +1,6 @@
 # channelAdminLogEventActionChangeAvailableReactions
 
-**Description** : *The set of allowed message reactions » for this channel has changed*
+**Description** : *The set of allowed message reactions &raquo; for this channel has changed*
 
 **Layer** : 211
 

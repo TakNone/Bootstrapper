@@ -1,6 +1,6 @@
 # updateDeleteScheduledMessages
 
-**Description** : *Some scheduled messages were deleted (or sent) from the schedule queue of a chat*
+**Description** : *Some scheduled messages were deleted \(or sent\) from the schedule queue of a chat*
 
 **Layer** : 211
 
@@ -32,9 +32,9 @@ updateDeleteScheduledMessages#f2a71983 flags:# peer:Peer messages:Vector<int> se
 ```php
 $update = $client->updateDeleteScheduledMessages(
 	peer : $client->peerUser(
-		user_id : 3117631537520496453,
+		user_id : -4596018699504405765,
 	),
-	messages : array(71),
-	sent_messages : array(37),
+	messages : array(32),
+	sent_messages : array(41),
 );
 ```

@@ -42,8 +42,7 @@ upload.reuploadCdnFile#9b2754a8 file_token:bytes request_token:bytes = Vector<Fi
 
 ```php
 $fileHash = $client->upload->reuploadCdnFile(
-	file_token : '
-?r?LiveProtoӮ??x',
-	request_token : '???mLiveProto?ѹ?',
+	file_token : 'U?MT?LiveProto?\'#',
+	request_token : 'Ċ?ڱLiveProto??d?',
 );
 ```

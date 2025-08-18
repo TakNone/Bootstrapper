@@ -41,7 +41,7 @@ channels.toggleForum#3ff75734 channel:InputChannel enabled:Bool tabs:Bool = Upda
 ```php
 $updates = $client->channels->toggleForum(
 	channel : $client->inputChannelEmpty(),
-	enabled : $client->boolFalse(),
-	tabs : $client->boolFalse(),
+	enabled : false,
+	tabs : true,
 );
 ```

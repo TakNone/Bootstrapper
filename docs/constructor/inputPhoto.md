@@ -30,8 +30,8 @@ inputPhoto#3bb3b94a id:long access_hash:long file_reference:bytes = InputPhoto;
 
 ```php
 $inputPhoto = $client->inputPhoto(
-	id : -8696859713291873095,
-	access_hash : -7905544943289892717,
-	file_reference : '$?' . "\0" . '?3LiveProtoN???',
+	id : -8481055432183690367,
+	access_hash : -5170852214216052525,
+	file_reference : '?E?0?LiveProto?u>Sv',
 );
 ```

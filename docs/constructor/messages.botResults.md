@@ -37,28 +37,28 @@ messages.botResults#e021f2f6 flags:# gallery:flags.0?true query_id:long next_off
 ```php
 $messagesBotResults = $client->messages->botResults(
 	gallery : true,
-	query_id : -7272811516580192997,
-	next_offset : 'vBVgXyKwFOAZqW8t',
+	query_id : 4693597872840489659,
+	next_offset : 'BGSyV28P4pvNIE50',
 	switch_pm : $client->inlineBotSwitchPM(
-		text : 'Ci2DzTIvoAcJPHKR',
-		start_param : 'XU6EJNRcKvbmtkSy',
+		text : 'qaSyKBUf4e037XlR',
+		start_param : 'XEzy5xIdjcRL9aCk',
 	),
 	switch_webview : $client->inlineBotWebView(
-		text : 'o7KuG1wbQC2UXsmF',
+		text : 'hxqk06dmA92fDYup',
 		url : 'https://docs.liveproto.dev',
 	),
 	results : array(
 		$client->botInlineResult(
-			id : 'V9PsZipFKueaf2qh',
-			type : 'WQ9laqKMpNfSRHBP',
-			title : 'BXg6dFry5iJWpVZz',
-			description : '14mbJsolyZaDMAKR',
+			id : 'PgbCKQdaR672Ie4i',
+			type : 'RZYmosiwLCTgUcJ3',
+			title : 'QPEqrvjWxtk9FBG6',
+			description : 'RyVi5CkaGWl6DSwr',
 			url : 'https://docs.liveproto.dev',
 			thumb : $client->webDocument(
 				url : 'https://docs.liveproto.dev',
-				access_hash : 3671592935403756241,
-				size : 82,
-				mime_type : '5jvf4p6FbQUzTIS9',
+				access_hash : -8836489309185063564,
+				size : 22,
+				mime_type : 'vzIo2PVG7TEMknHN',
 				attributes : array(
 					$client->documentAttributeImageSize(...),
 					$client->documentAttributeAnimated(...),
@@ -72,9 +72,9 @@ $messagesBotResults = $client->messages->botResults(
 			),
 			content : $client->webDocument(
 				url : 'https://docs.liveproto.dev',
-				access_hash : 2010069366143049876,
-				size : 79,
-				mime_type : 'W6KXhJgUEVxMNzkI',
+				access_hash : -4782846533194617710,
+				size : 92,
+				mime_type : 'k1o9FySARxLIzECX',
 				attributes : array(
 					$client->documentAttributeImageSize(...),
 					$client->documentAttributeAnimated(...),
@@ -88,7 +88,7 @@ $messagesBotResults = $client->messages->botResults(
 			),
 			send_message : $client->botInlineMessageMediaAuto(
 				invert_media : true,
-				message : 'gUcfXOwKlQ2HR7M0',
+				message : 'HJ4ZRjWI6QtVdliv',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -116,19 +116,19 @@ $messagesBotResults = $client->messages->botResults(
 			),
 		),
 		$client->botInlineMediaResult(
-			id : 'RAFJswiQjZG4qk26',
-			type : 'GJN9Hb87VdlzR2tA',
+			id : 'yYDXjQo93E7pquPz',
+			type : 'QZ6Ic8zvqeiDnVbL',
 			photo : $client->photoEmpty(
-				id : 1240970591618678395,
+				id : 5747513462988125539,
 			),
 			document : $client->documentEmpty(
-				id : 573325300409223547,
+				id : 8393909541171560332,
 			),
-			title : 'Wzc57sSgRPQIxZE0',
-			description : 'Wp3QSI85CFvagzAG',
+			title : 'Ci5e1zYLN08awWFX',
+			description : 'f82NX3S70a5IAwzE',
 			send_message : $client->botInlineMessageMediaAuto(
 				invert_media : true,
-				message : 'S73C46Uv0gaBIHDQ',
+				message : 'EbTWxaK4ydIm1O0i',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -156,10 +156,10 @@ $messagesBotResults = $client->messages->botResults(
 			),
 		),
 	),
-	cache_time : 65,
+	cache_time : 11,
 	users : array(
 		$client->userEmpty(
-			id : 4653366575342049271,
+			id : -3132263253940140865,
 		),
 		$client->user(
 			self : true,
@@ -187,24 +187,24 @@ $messagesBotResults = $client->messages->botResults(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -1593130980775788844,
-			access_hash : 7464336607455757750,
+			id : -6824372017425557216,
+			access_hash : -4376701514867422065,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 34,
+			bot_info_version : 7,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '4qijIe6nf2zLW8Gw',
-					reason : 'Yh69EVkHPLm7gvn8',
-					text : 'pAbnkm9GSJysBVIN',
+					platform : 'wpoNf0xUiVlKsIgy',
+					reason : 'aY6lRCdOk8WqowXt',
+					text : 'Nwo5yfkY9613eqvi',
 				),
 			),
-			bot_inline_placeholder : 'kH6vJACr87FPEKgy',
-			lang_code : 'XHD1hiVejCKLI4l3',
+			bot_inline_placeholder : 'lIPXWFuOCegBxDZj',
+			lang_code : 'Dy7JdXVzkmqMGeIZ',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -213,18 +213,18 @@ $messagesBotResults = $client->messages->botResults(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 19,
+			stories_max_id : 52,
 			color : $client->peerColor(
-				color : 16,
-				background_emoji_id : -2812067441527929718,
+				color : 99,
+				background_emoji_id : -8329514952121944733,
 			),
 			profile_color : $client->peerColor(
-				color : 80,
-				background_emoji_id : -8771621184282378559,
+				color : 91,
+				background_emoji_id : -4982409812890642510,
 			),
-			bot_active_users : 34,
-			bot_verification_icon : 134197734196167699,
-			send_paid_messages_stars : 374790102577914976,
+			bot_active_users : 36,
+			bot_verification_icon : -2594745617666595178,
+			send_paid_messages_stars : 2801412681415543090,
 		),
 	),
 );

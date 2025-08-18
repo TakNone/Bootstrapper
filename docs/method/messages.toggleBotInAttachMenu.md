@@ -1,6 +1,6 @@
 # messages.toggleBotInAttachMenu
 
-**Description** : *Enable or disable web bot attachment menu »*
+**Description** : *Enable or disable web bot attachment menu &raquo;*
 
 **Layer** : 211
 
@@ -41,6 +41,6 @@ messages.toggleBotInAttachMenu#69f59d69 flags:# write_allowed:flags.0?true bot:I
 $bool = $client->messages->toggleBotInAttachMenu(
 	write_allowed : true,
 	bot : $client->inputUserEmpty(),
-	enabled : $client->boolFalse(),
+	enabled : false,
 );
 ```

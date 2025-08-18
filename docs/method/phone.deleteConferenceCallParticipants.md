@@ -34,10 +34,10 @@ $updates = $client->phone->deleteConferenceCallParticipants(
 	only_left : true,
 	kick : true,
 	call : $client->inputGroupCall(
-		id : -573473575124309830,
-		access_hash : -4070685178355956002,
+		id : -1896200661947538986,
+		access_hash : -2910118293122805308,
 	),
-	ids : array(9190544971730915641),
-	block : '?C?c?LiveProtoI5??)',
+	ids : array(1427340924545249079),
+	block : 'o	??LiveProto??PN',
 );
 ```

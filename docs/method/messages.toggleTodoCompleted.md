@@ -30,8 +30,8 @@ messages.toggleTodoCompleted#d3e03124 peer:InputPeer msg_id:int completed:Vector
 ```php
 $updates = $client->messages->toggleTodoCompleted(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 24,
-	completed : array(18),
-	incompleted : array(19),
+	msg_id : 67,
+	completed : array(40),
+	incompleted : array(68),
 );
 ```

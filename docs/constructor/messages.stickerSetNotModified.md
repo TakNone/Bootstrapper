@@ -1,6 +1,6 @@
 # messages.stickerSetNotModified
 
-**Description** : *The stickerset hasn't changed*
+**Description** : *The stickerset hasn&#039;t changed*
 
 **Layer** : 211
 

@@ -28,6 +28,6 @@ payments.getStarGiftCollections#981b91dd peer:InputPeer hash:long = payments.Sta
 ```php
 $paymentsStarGiftCollections = $client->payments->getStarGiftCollections(
 	peer : $client->inputPeerEmpty(),
-	hash : -5516653339954228760,
+	hash : 3583454389021955744,
 );
 ```

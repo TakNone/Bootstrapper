@@ -1,6 +1,6 @@
 # chatForbidden
 
-**Description** : *A group to which the user has no access. E.g., because the user was kicked from the group*
+**Description** : *A group to which the user has no access\. E\.g\., because the user was kicked from the group*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ chatForbidden#6592a1a7 id:long title:string = Chat;
 
 ```php
 $chat = $client->chatForbidden(
-	id : 5051583474721083459,
-	title : 'ZV4fFj06wRzlsruD',
+	id : 6844305687238191064,
+	title : 'F9eMDPXlif8yVkId',
 );
 ```

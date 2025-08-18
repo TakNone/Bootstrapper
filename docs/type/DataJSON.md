@@ -1,6 +1,6 @@
 # DataJSON
 
-**Description** : *Represent a JSON-encoded object*
+**Description** : *Represent a JSON\-encoded object*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # updateDeleteQuickReplyMessages
 
-**Description** : *One or more messages in a quick reply shortcut » were deleted*
+**Description** : *One or more messages in a quick reply shortcut &raquo; were deleted*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ updateDeleteQuickReplyMessages#566fe7cd shortcut_id:int messages:Vector<int> = U
 
 ```php
 $update = $client->updateDeleteQuickReplyMessages(
-	shortcut_id : 50,
-	messages : array(44),
+	shortcut_id : 88,
+	messages : array(26),
 );
 ```

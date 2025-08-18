@@ -1,6 +1,6 @@
 # contacts.block
 
-**Description** : *Adds a peer to a blocklist, see here » for more info*
+**Description** : *Adds a peer to a blocklist, see here &raquo; for more info*
 
 **Layer** : 211
 

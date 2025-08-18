@@ -1,6 +1,6 @@
 # account.reorderUsernames
 
-**Description** : *Reorder usernames associated with the currently logged-in user*
+**Description** : *Reorder usernames associated with the currently logged\-in user*
 
 **Layer** : 211
 
@@ -37,6 +37,6 @@ account.reorderUsernames#ef500eab order:Vector<string> = Bool;
 
 ```php
 $bool = $client->account->reorderUsernames(
-	order : array('VcdWB64T2QRONMvY'),
+	order : array('2cuoLjiJ3tOmqHXF'),
 );
 ```

@@ -1,6 +1,6 @@
 # MessageReplies
 
-**Description** : *Info about post comments (for channels) or message replies (for groups)*
+**Description** : *Info about post comments \(for channels\) or message replies \(for groups\)*
 
 **Layer** : 211
 

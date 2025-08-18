@@ -1,6 +1,6 @@
 # account.getAllSecureValues
 
-**Description** : *Get all saved Telegram Passport documents, for more info see the passport docs »*
+**Description** : *Get all saved Telegram Passport documents, for more info see the passport docs &raquo;*
 
 **Layer** : 211
 

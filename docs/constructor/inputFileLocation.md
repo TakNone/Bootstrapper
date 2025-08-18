@@ -31,9 +31,9 @@ inputFileLocation#dfdaabe1 volume_id:long local_id:int secret:long file_referenc
 
 ```php
 $inputFileLocation = $client->inputFileLocation(
-	volume_id : 8766713948435112727,
-	local_id : 23,
-	secret : -3392350817066580147,
-	file_reference : '??"??LiveProto@?ذ:',
+	volume_id : -5553694106008192505,
+	local_id : 92,
+	secret : 3411466876764053560,
+	file_reference : '$?&?*LiveProtowQP??',
 );
 ```

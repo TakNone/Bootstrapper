@@ -30,6 +30,6 @@ paymentFormMethod#88f8f21b url:string title:string = PaymentFormMethod;
 ```php
 $paymentFormMethod = $client->paymentFormMethod(
 	url : 'https://docs.liveproto.dev',
-	title : 'Z0Nknqto84Xglwh9',
+	title : 'jU0freGX62hAk5Wn',
 );
 ```

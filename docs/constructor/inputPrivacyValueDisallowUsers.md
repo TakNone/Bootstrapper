@@ -32,13 +32,13 @@ $inputPrivacyRule = $client->inputPrivacyValueDisallowUsers(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -2701810258527151611,
-			access_hash : -8666759826699323674,
+			user_id : -1518947501682269209,
+			access_hash : -2169785591252205995,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 64,
-			user_id : 7346058857897364830,
+			msg_id : 88,
+			user_id : -3301386584881543585,
 		),
 	),
 );

@@ -29,7 +29,7 @@ stories.createAlbum#a36396e5 peer:InputPeer title:string stories:Vector<int> = S
 ```php
 $storyAlbum = $client->stories->createAlbum(
 	peer : $client->inputPeerEmpty(),
-	title : 'nWFCftcmX739M8Po',
-	stories : array(78),
+	title : 'mvJtrcx03IAG7Ske',
+	stories : array(70),
 );
 ```

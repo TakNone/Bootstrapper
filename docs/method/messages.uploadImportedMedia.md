@@ -1,6 +1,6 @@
 # messages.uploadImportedMedia
 
-**Description** : *Upload a media file associated with an imported chat, click here for more info »*
+**Description** : *Upload a media file associated with an imported chat, click here for more info &raquo;*
 
 **Layer** : 211
 
@@ -42,8 +42,8 @@ messages.uploadImportedMedia#2a862092 peer:InputPeer import_id:long file_name:st
 ```php
 $messageMedia = $client->messages->uploadImportedMedia(
 	peer : $client->inputPeerEmpty(),
-	import_id : 2835768278296034174,
-	file_name : 'p7ZUnEFJTGrDQgx0',
+	import_id : -3800214732956097541,
+	file_name : 'gZfqUG2k4PDTp5b1',
 	media : $client->inputMediaEmpty(),
 );
 ```

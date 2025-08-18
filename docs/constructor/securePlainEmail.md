@@ -1,6 +1,6 @@
 # securePlainEmail
 
-**Description** : *Email address to use in telegram passport: it must be verified, first »*
+**Description** : *Email address to use in telegram passport: it must be verified, first &raquo;*
 
 **Layer** : 211
 

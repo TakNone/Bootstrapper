@@ -1,6 +1,6 @@
 # fragment.getCollectibleInfo
 
-**Description** : *Fetch information about a fragment collectible, see here » for more info on the full flow*
+**Description** : *Fetch information about a fragment collectible, see here &raquo; for more info on the full flow*
 
 **Layer** : 211
 

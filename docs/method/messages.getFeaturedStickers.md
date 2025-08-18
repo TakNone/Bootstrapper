@@ -28,6 +28,6 @@ messages.getFeaturedStickers#64780b14 hash:long = messages.FeaturedStickers;
 
 ```php
 $messagesFeaturedStickers = $client->messages->getFeaturedStickers(
-	hash : 2574862533190543664,
+	hash : -346197974994426487,
 );
 ```

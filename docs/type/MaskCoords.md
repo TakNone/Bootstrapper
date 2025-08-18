@@ -1,6 +1,6 @@
 # MaskCoords
 
-**Description** : *Mask coordinates (if this is a mask sticker, attached to a photo)*
+**Description** : *Mask coordinates \(if this is a mask sticker, attached to a photo\)*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # messages.setGameScore
 
-**Description** : *Use this method to set the score of the specified user in a game sent as a normal message (bots only)*
+**Description** : *Use this method to set the score of the specified user in a game sent as a normal message \(bots only\)*
 
 **Layer** : 211
 
@@ -49,8 +49,8 @@ $updates = $client->messages->setGameScore(
 	edit_message : true,
 	force : true,
 	peer : $client->inputPeerEmpty(),
-	id : 73,
+	id : 7,
 	user_id : $client->inputUserEmpty(),
-	score : 34,
+	score : 72,
 );
 ```

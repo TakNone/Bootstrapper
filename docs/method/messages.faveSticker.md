@@ -38,6 +38,6 @@ messages.faveSticker#b9ffc55b id:InputDocument unfave:Bool = Bool;
 ```php
 $bool = $client->messages->faveSticker(
 	id : $client->inputDocumentEmpty(),
-	unfave : $client->boolFalse(),
+	unfave : true,
 );
 ```

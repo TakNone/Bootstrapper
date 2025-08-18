@@ -28,6 +28,6 @@ account.getDefaultGroupPhotoEmojis#915860ae hash:long = EmojiList;
 
 ```php
 $emojiList = $client->account->getDefaultGroupPhotoEmojis(
-	hash : -6932752941877021190,
+	hash : -7885005517505469294,
 );
 ```

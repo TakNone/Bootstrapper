@@ -1,6 +1,6 @@
 # channelAdminLogEventActionChangeStickerSet
 
-**Description** : *The supergroup's stickerset was changed*
+**Description** : *The supergroup&#039;s stickerset was changed*
 
 **Layer** : 211
 

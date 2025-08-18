@@ -1,6 +1,6 @@
 # auth.sentCodeTypeEmailCode
 
-**Description** : *The code was sent via the previously configured login email »*
+**Description** : *The code was sent via the previously configured login email &raquo;*
 
 **Layer** : 211
 
@@ -37,8 +37,8 @@ $authSentCodeType = $client->auth->sentCodeTypeEmailCode(
 	apple_signin_allowed : true,
 	google_signin_allowed : true,
 	email_pattern : 'reply@liveproto.dev',
-	length : 43,
-	reset_available_period : 18,
-	reset_pending_date : 4,
+	length : 7,
+	reset_available_period : 46,
+	reset_pending_date : 77,
 );
 ```

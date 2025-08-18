@@ -1,6 +1,6 @@
 # nearestDc
 
-**Description** : *Nearest data center, according to geo-ip*
+**Description** : *Nearest data center, according to geo\-ip*
 
 **Layer** : 211
 
@@ -30,8 +30,8 @@ nearestDc#8e1a1775 country:string this_dc:int nearest_dc:int = NearestDc;
 
 ```php
 $nearestDc = $client->nearestDc(
-	country : 'PY0xEqyfsLGw952W',
-	this_dc : 63,
-	nearest_dc : 59,
+	country : 'Pedgv4uXHktFASfq',
+	this_dc : 64,
+	nearest_dc : 95,
 );
 ```

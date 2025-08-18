@@ -1,6 +1,6 @@
 # messages.getAttachMenuBot
 
-**Description** : *Returns attachment menu entry for a bot mini app that can be launched from the attachment menu »*
+**Description** : *Returns attachment menu entry for a bot mini app that can be launched from the attachment menu &raquo;*
 
 **Layer** : 211
 

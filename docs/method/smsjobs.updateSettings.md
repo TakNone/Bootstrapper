@@ -1,6 +1,6 @@
 # smsjobs.updateSettings
 
-**Description** : *Update SMS job settings (official clients only)*
+**Description** : *Update SMS job settings \(official clients only\)*
 
 **Layer** : 211
 

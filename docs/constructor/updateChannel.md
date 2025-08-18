@@ -1,6 +1,6 @@
 # updateChannel
 
-**Description** : *Channel/supergroup (channel and/or channelFull) information was updated*
+**Description** : *Channel/supergroup \(channel and/or channelFull\) information was updated*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ updateChannel#635b4c09 channel_id:long = Update;
 
 ```php
 $update = $client->updateChannel(
-	channel_id : -2724242191836587134,
+	channel_id : 3992873484111516037,
 );
 ```

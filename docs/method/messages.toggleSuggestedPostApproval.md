@@ -33,8 +33,8 @@ messages.toggleSuggestedPostApproval#8107455c flags:# reject:flags.1?true peer:I
 $updates = $client->messages->toggleSuggestedPostApproval(
 	reject : true,
 	peer : $client->inputPeerEmpty(),
-	msg_id : 63,
-	schedule_date : 24,
-	reject_comment : 'ZPnfWY2edciGSALJ',
+	msg_id : 12,
+	schedule_date : 40,
+	reject_comment : 'iHraAKl9uWx8LbzQ',
 );
 ```

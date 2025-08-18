@@ -1,6 +1,6 @@
 # messages.QuickReplies
 
-**Description** : *Info about quick reply shortcuts »*
+**Description** : *Info about quick reply shortcuts &raquo;*
 
 **Layer** : 211
 

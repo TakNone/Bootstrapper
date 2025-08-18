@@ -1,6 +1,6 @@
 # payments.getGiveawayInfo
 
-**Description** : *Obtain information about a Telegram Premium giveaway »*
+**Description** : *Obtain information about a Telegram Premium giveaway &raquo;*
 
 **Layer** : 211
 
@@ -38,6 +38,6 @@ payments.getGiveawayInfo#f4239425 peer:InputPeer msg_id:int = payments.GiveawayI
 ```php
 $paymentsGiveawayInfo = $client->payments->getGiveawayInfo(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 86,
+	msg_id : 76,
 );
 ```

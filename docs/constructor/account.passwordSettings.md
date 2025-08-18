@@ -1,6 +1,6 @@
 # account.passwordSettings
 
-**Description** : *Private info associated to the password info (recovery email, telegram passport info & so on)*
+**Description** : *Private info associated to the password info \(recovery email, telegram passport info &amp; so on\)*
 
 **Layer** : 211
 
@@ -33,8 +33,8 @@ $accountPasswordSettings = $client->account->passwordSettings(
 	email : 'reply@liveproto.dev',
 	secure_settings : $client->secureSecretSettings(
 		secure_algo : $client->securePasswordKdfAlgoUnknown(),
-		secure_secret : '??f?lLiveProto???N?',
-		secure_secret_id : -8152564270987909831,
+		secure_secret : 'o??FgLiveProto??8?',
+		secure_secret_id : -4933386466032183852,
 	),
 );
 ```

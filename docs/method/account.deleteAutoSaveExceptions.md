@@ -1,6 +1,6 @@
 # account.deleteAutoSaveExceptions
 
-**Description** : *Clear all peer-specific autosave settings*
+**Description** : *Clear all peer\-specific autosave settings*
 
 **Layer** : 211
 

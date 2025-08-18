@@ -1,6 +1,6 @@
 # InputContact
 
-**Description** : *Object defines a contact from the user's phone book*
+**Description** : *Object defines a contact from the user&#039;s phone book*
 
 **Layer** : 211
 

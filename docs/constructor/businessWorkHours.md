@@ -32,11 +32,11 @@ businessWorkHours#8c92b098 flags:# open_now:flags.0?true timezone_id:string week
 ```php
 $businessWorkHours = $client->businessWorkHours(
 	open_now : true,
-	timezone_id : 'Fh9GpWzA1y5JCL6t',
+	timezone_id : 'kfKWPw5GIlQZM6x8',
 	weekly_open : array(
 		$client->businessWeeklyOpen(
-			start_minute : 2,
-			end_minute : 67,
+			start_minute : 95,
+			end_minute : 92,
 		),
 	),
 );

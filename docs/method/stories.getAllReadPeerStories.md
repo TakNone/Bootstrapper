@@ -1,6 +1,6 @@
 # stories.getAllReadPeerStories
 
-**Description** : *Obtain the latest read story ID for all peers when first logging in, returned as a list of updateReadStories updates, see here » for more info*
+**Description** : *Obtain the latest read story ID for all peers when first logging in, returned as a list of updateReadStories updates, see here &raquo; for more info*
 
 **Layer** : 211
 

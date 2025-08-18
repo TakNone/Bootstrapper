@@ -30,8 +30,8 @@ updateEncryptedMessagesRead#38fe25b7 chat_id:int max_date:int date:int = Update;
 
 ```php
 $update = $client->updateEncryptedMessagesRead(
-	chat_id : 34,
-	max_date : 31,
-	date : 71,
+	chat_id : 84,
+	max_date : 38,
+	date : 25,
 );
 ```

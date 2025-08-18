@@ -1,6 +1,6 @@
 # account.getChatThemes
 
-**Description** : *Get all available chat themes »*
+**Description** : *Get all available chat themes &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ account.getChatThemes#d638de89 hash:long = account.Themes;
 
 ```php
 $accountThemes = $client->account->getChatThemes(
-	hash : 5666004361796808957,
+	hash : -1629010078826299153,
 );
 ```

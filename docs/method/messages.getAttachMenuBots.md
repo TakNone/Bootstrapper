@@ -1,6 +1,6 @@
 # messages.getAttachMenuBots
 
-**Description** : *Returns installed attachment menu bot mini apps »*
+**Description** : *Returns installed attachment menu bot mini apps &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messages.getAttachMenuBots#16fcc2cb hash:long = AttachMenuBots;
 
 ```php
 $attachMenuBots = $client->messages->getAttachMenuBots(
-	hash : -989223484315731792,
+	hash : 5281327145318663808,
 );
 ```

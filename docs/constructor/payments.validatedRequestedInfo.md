@@ -1,6 +1,6 @@
 # payments.validatedRequestedInfo
 
-**Description** : *Validated user-provided info*
+**Description** : *Validated user\-provided info*
 
 **Layer** : 211
 
@@ -30,15 +30,15 @@ payments.validatedRequestedInfo#d1451883 flags:# id:flags.0?string shipping_opti
 
 ```php
 $paymentsValidatedRequestedInfo = $client->payments->validatedRequestedInfo(
-	id : 'iDygELhJav6UpfwK',
+	id : '2tBJceY0zqy5oSPb',
 	shipping_options : array(
 		$client->shippingOption(
-			id : '0UnPqOeICLzwiGZf',
-			title : 'CeGkB9qVv78fgEI5',
+			id : 'mRdDa8MsnBQwPb60',
+			title : '7mCuS6BIsxNzekoE',
 			prices : array(
 				$client->labeledPrice(
-					label : 'jqwXL5h2KR3IptWD',
-					amount : 1015872939059166673,
+					label : '9MS68AZv7kfaersm',
+					amount : 7399350821067875579,
 				),
 			),
 		),

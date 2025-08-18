@@ -30,9 +30,8 @@ secureCredentialsEncrypted#33f0ea47 data:bytes hash:bytes secret:bytes = SecureC
 
 ```php
 $secureCredentialsEncrypted = $client->secureCredentialsEncrypted(
-	data : '?y?o?LiveProto?9~O',
-	hash : '????LiveProto\\\\?~?',
-	secret : '
-ɛr?LiveProtor?J?',
+	data : '?U?gLiveProto?h0?1',
+	hash : '?*0?LiveProto???2h',
+	secret : 'K:@u?LiveProto?A۔?',
 );
 ```

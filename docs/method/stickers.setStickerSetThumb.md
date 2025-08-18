@@ -43,6 +43,6 @@ stickers.setStickerSetThumb#a76a5392 flags:# stickerset:InputStickerSet thumb:fl
 $messagesStickerSet = $client->stickers->setStickerSetThumb(
 	stickerset : $client->inputStickerSetEmpty(),
 	thumb : $client->inputDocumentEmpty(),
-	thumb_document_id : 6248578595879068181,
+	thumb_document_id : 5874248854008952122,
 );
 ```

@@ -41,8 +41,8 @@ phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:I
 $phoneExportedGroupCallInvite = $client->phone->exportGroupCallInvite(
 	can_self_unmute : true,
 	call : $client->inputGroupCall(
-		id : -3454169976715495528,
-		access_hash : -7668053057077976571,
+		id : 1944206732420292111,
+		access_hash : -3608606069031974641,
 	),
 );
 ```

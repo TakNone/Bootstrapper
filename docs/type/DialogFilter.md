@@ -1,6 +1,6 @@
 # DialogFilter
 
-**Description** : *Dialog filter (folder »)*
+**Description** : *Dialog filter \(folder &raquo;\)*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # channels.SponsoredMessageReportResult
 
-**Description** : *Status of the method call used to report a sponsored message »*
+**Description** : *Status of the method call used to report a sponsored message &raquo;*
 
 **Layer** : 211
 

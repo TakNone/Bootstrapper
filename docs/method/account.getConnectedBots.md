@@ -1,6 +1,6 @@
 # account.getConnectedBots
 
-**Description** : *List all currently connected business bots »*
+**Description** : *List all currently connected business bots &raquo;*
 
 **Layer** : 211
 

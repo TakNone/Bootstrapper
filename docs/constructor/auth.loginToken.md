@@ -1,6 +1,6 @@
 # auth.loginToken
 
-**Description** : *Login token (for QR code login)*
+**Description** : *Login token \(for QR code login\)*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ auth.loginToken#629f1980 expires:int token:bytes = auth.LoginToken;
 
 ```php
 $authLoginToken = $client->auth->loginToken(
-	expires : 34,
-	token : '? LiveProto???',
+	expires : 29,
+	token : '???LiveProto%?#aH',
 );
 ```

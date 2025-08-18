@@ -1,6 +1,6 @@
 # messages.clickSponsoredMessage
 
-**Description** : *Informs the server that the user has interacted with a sponsored message in one of the ways listed here »*
+**Description** : *Informs the server that the user has interacted with a sponsored message in one of the ways listed here &raquo;*
 
 **Layer** : 211
 
@@ -33,6 +33,6 @@ messages.clickSponsoredMessage#8235057e flags:# media:flags.0?true fullscreen:fl
 $bool = $client->messages->clickSponsoredMessage(
 	media : true,
 	fullscreen : true,
-	random_id : '`1?I LiveProto?PH??',
+	random_id : 'I??ELiveProto]9??w',
 );
 ```

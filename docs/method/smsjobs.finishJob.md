@@ -1,6 +1,6 @@
 # smsjobs.finishJob
 
-**Description** : *Finish an SMS job (official clients only)*
+**Description** : *Finish an SMS job \(official clients only\)*
 
 **Layer** : 211
 
@@ -38,7 +38,7 @@ smsjobs.finishJob#4f1ebf24 flags:# job_id:string error:flags.0?string = Bool;
 
 ```php
 $bool = $client->smsjobs->finishJob(
-	job_id : 'FVbZHtKm5NeoBgD9',
-	error : '0linJ7W2vVZfMse9',
+	job_id : 'xLpKdFB5sVE6l2vO',
+	error : 'TCYuQ5DAg6OvFwBs',
 );
 ```

@@ -1,6 +1,6 @@
 # documentEmpty
 
-**Description** : *Empty constructor, document doesn't exist*
+**Description** : *Empty constructor, document doesn&#039;t exist*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ documentEmpty#36f8c871 id:long = Document;
 
 ```php
 $document = $client->documentEmpty(
-	id : -5231237067925680136,
+	id : 4784860399033077491,
 );
 ```

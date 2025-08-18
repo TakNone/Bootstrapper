@@ -28,8 +28,8 @@ todoCompletion#4cc120b7 id:int completed_by:long date:int = TodoCompletion;
 
 ```php
 $todoCompletion = $client->todoCompletion(
-	id : 84,
-	completed_by : -4765579735720090031,
-	date : 36,
+	id : 46,
+	completed_by : -5915777238477435619,
+	date : 43,
 );
 ```

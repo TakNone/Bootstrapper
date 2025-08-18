@@ -1,6 +1,6 @@
 # auth.sentCodeTypeFirebaseSms
 
-**Description** : *An authentication code should be delivered via SMS after Firebase attestation, as described in the auth documentation »*
+**Description** : *An authentication code should be delivered via SMS after Firebase attestation, as described in the auth documentation &raquo;*
 
 **Layer** : 211
 
@@ -34,11 +34,11 @@ auth.sentCodeTypeFirebaseSms#9fd736 flags:# nonce:flags.0?bytes play_integrity_p
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeFirebaseSms(
-	nonce : '?xB?sLiveProto??#??',
-	play_integrity_project_id : 2732318640472394493,
-	play_integrity_nonce : '?????LiveProto?"?',
-	receipt : 'XcVLI1z8eKtbg2s9',
-	push_timeout : 33,
-	length : 98,
+	nonce : '?gϙ?LiveProto?X?ۋ',
+	play_integrity_project_id : -8611730931387330797,
+	play_integrity_nonce : 'M??l?LiveProtoQٌ?"',
+	receipt : '5ZWqNuMYDxw4Qfrc',
+	push_timeout : 62,
+	length : 17,
 );
 ```

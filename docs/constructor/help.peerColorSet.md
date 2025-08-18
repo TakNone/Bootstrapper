@@ -1,6 +1,6 @@
 # help.peerColorSet
 
-**Description** : *Represents a color palette that can be used in message accents »*
+**Description** : *Represents a color palette that can be used in message accents &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ help.peerColorSet#26219a58 colors:Vector<int> = help.PeerColorSet;
 
 ```php
 $helpPeerColorSet = $client->help->peerColorSet(
-	colors : array(70),
+	colors : array(31),
 );
 ```

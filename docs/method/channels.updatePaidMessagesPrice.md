@@ -31,6 +31,6 @@ channels.updatePaidMessagesPrice#4b12327b flags:# broadcast_messages_allowed:fla
 $updates = $client->channels->updatePaidMessagesPrice(
 	broadcast_messages_allowed : true,
 	channel : $client->inputChannelEmpty(),
-	send_paid_messages_stars : -2010074572491121829,
+	send_paid_messages_stars : 1010123463942223809,
 );
 ```

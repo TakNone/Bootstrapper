@@ -29,7 +29,7 @@ channelAdminLogEventActionCreateTopic#58707d28 topic:ForumTopic = ChannelAdminLo
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionCreateTopic(
 	topic : $client->forumTopicDeleted(
-		id : 63,
+		id : 97,
 	),
 );
 ```

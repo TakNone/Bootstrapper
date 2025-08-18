@@ -28,6 +28,6 @@ stories.reorderAlbums#8535fbd9 peer:InputPeer order:Vector<int> = Bool;
 ```php
 $bool = $client->stories->reorderAlbums(
 	peer : $client->inputPeerEmpty(),
-	order : array(82),
+	order : array(63),
 );
 ```

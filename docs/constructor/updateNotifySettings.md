@@ -31,18 +31,18 @@ updateNotifySettings#bec268ef peer:NotifyPeer notify_settings:PeerNotifySettings
 $update = $client->updateNotifySettings(
 	peer : $client->notifyPeer(
 		peer : $client->peerUser(
-			user_id : -7251674803075418853,
+			user_id : 3008179570355383064,
 		),
 	),
 	notify_settings : $client->peerNotifySettings(
-		show_previews : $client->boolFalse(),
-		silent : $client->boolFalse(),
-		mute_until : 18,
+		show_previews : true,
+		silent : false,
+		mute_until : 69,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
-		stories_muted : $client->boolFalse(),
-		stories_hide_sender : $client->boolFalse(),
+		stories_muted : true,
+		stories_hide_sender : true,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),

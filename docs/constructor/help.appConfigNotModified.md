@@ -1,6 +1,6 @@
 # help.appConfigNotModified
 
-**Description** : *The client configuration parameters haven't changed*
+**Description** : *The client configuration parameters haven&#039;t changed*
 
 **Layer** : 211
 

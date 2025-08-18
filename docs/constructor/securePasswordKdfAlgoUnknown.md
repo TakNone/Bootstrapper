@@ -1,6 +1,6 @@
 # securePasswordKdfAlgoUnknown
 
-**Description** : *Unknown KDF algo (most likely the client has to be updated)*
+**Description** : *Unknown KDF algo \(most likely the client has to be updated\)*
 
 **Layer** : 211
 

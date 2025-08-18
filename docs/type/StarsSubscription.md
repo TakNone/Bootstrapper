@@ -1,6 +1,6 @@
 # StarsSubscription
 
-**Description** : *Represents a Telegram Star subscription »*
+**Description** : *Represents a Telegram Star subscription &raquo;*
 
 **Layer** : 211
 

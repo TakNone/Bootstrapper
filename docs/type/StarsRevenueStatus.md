@@ -1,6 +1,6 @@
 # StarsRevenueStatus
 
-**Description** : *Describes Telegram Star revenue balances »*
+**Description** : *Describes Telegram Star revenue balances &raquo;*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # botAppNotModified
 
-**Description** : *Bot app info hasn't changed*
+**Description** : *Bot app info hasn&#039;t changed*
 
 **Layer** : 211
 

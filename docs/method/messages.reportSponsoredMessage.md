@@ -1,6 +1,6 @@
 # messages.reportSponsoredMessage
 
-**Description** : *Report a sponsored message », see here » for more info on the full flow*
+**Description** : *Report a sponsored message &raquo;, see here &raquo; for more info on the full flow*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ messages.reportSponsoredMessage#12cbf0c4 random_id:bytes option:bytes = channels
 
 ```php
 $channelsSponsoredMessageReportResult = $client->messages->reportSponsoredMessage(
-	random_id : '2$?LiveProtoD?놜',
-	option : '?c&?>LiveProto0j?I	',
+	random_id : '8[?LiveProto?3??',
+	option : '?SJ?~LiveProtoM????',
 );
 ```

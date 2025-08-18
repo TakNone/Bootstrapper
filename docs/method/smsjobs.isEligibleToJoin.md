@@ -1,6 +1,6 @@
 # smsjobs.isEligibleToJoin
 
-**Description** : *Check if we can process SMS jobs (official clients only)*
+**Description** : *Check if we can process SMS jobs \(official clients only\)*
 
 **Layer** : 211
 

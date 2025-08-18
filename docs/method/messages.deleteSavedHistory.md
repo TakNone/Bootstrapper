@@ -1,6 +1,6 @@
 # messages.deleteSavedHistory
 
-**Description** : *Deletes messages forwarded from a specific peer to saved messages »*
+**Description** : *Deletes messages forwarded from a specific peer to saved messages &raquo;*
 
 **Layer** : 211
 
@@ -43,8 +43,8 @@ messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:
 $messagesAffectedHistory = $client->messages->deleteSavedHistory(
 	parent_peer : $client->inputPeerEmpty(),
 	peer : $client->inputPeerEmpty(),
-	max_id : 1,
-	min_date : 77,
-	max_date : 93,
+	max_id : 37,
+	min_date : 52,
+	max_date : 89,
 );
 ```

@@ -29,7 +29,7 @@ auth.exportedAuthorization#b434e2b8 id:long bytes:bytes = auth.ExportedAuthoriza
 
 ```php
 $authExportedAuthorization = $client->auth->exportedAuthorization(
-	id : 7607012043226456401,
-	bytes : 'ܕ+&LiveProto????',
+	id : -4888196720471199418,
+	bytes : 'L8??LiveProto?_??',
 );
 ```

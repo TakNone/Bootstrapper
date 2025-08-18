@@ -33,6 +33,6 @@ inputPeerPhotoFileLocation#37257e99 flags:# big:flags.0?true peer:InputPeer phot
 $inputFileLocation = $client->inputPeerPhotoFileLocation(
 	big : true,
 	peer : $client->inputPeerEmpty(),
-	photo_id : -6763410424095988674,
+	photo_id : 7841366670697046164,
 );
 ```

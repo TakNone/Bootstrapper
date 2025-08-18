@@ -1,6 +1,6 @@
 # smsjobs.join
 
-**Description** : *Enable SMS jobs (official clients only)*
+**Description** : *Enable SMS jobs \(official clients only\)*
 
 **Layer** : 211
 

@@ -1,6 +1,6 @@
 # InputStarsTransaction
 
-**Description** : *Used to fetch info about a Telegram Star transaction »*
+**Description** : *Used to fetch info about a Telegram Star transaction &raquo;*
 
 **Layer** : 211
 

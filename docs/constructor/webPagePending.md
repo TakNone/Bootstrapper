@@ -31,8 +31,8 @@ webPagePending#b0d13e47 flags:# id:long url:flags.0?string date:int = WebPage;
 
 ```php
 $webPage = $client->webPagePending(
-	id : -8719488423803172178,
+	id : 1325815333656948176,
 	url : 'https://docs.liveproto.dev',
-	date : 59,
+	date : 27,
 );
 ```

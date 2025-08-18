@@ -29,31 +29,31 @@ account.themes#9a3d8c6d hash:long themes:Vector<Theme> = account.Themes;
 
 ```php
 $accountThemes = $client->account->themes(
-	hash : 4290924052686092872,
+	hash : -6476359970841705321,
 	themes : array(
 		$client->theme(
 			creator : true,
 			default : true,
 			for_chat : true,
-			id : 7246472825923101092,
-			access_hash : 6550248655504775506,
-			slug : 'lLZPEW7fcOe3wJ51',
-			title : 'nSGclsJATQ2ZyFgk',
+			id : 7072539692027974606,
+			access_hash : 4024428389862282005,
+			slug : 'DIyjrbN5cqPS8hfE',
+			title : '6n9V0GMwhYRoND1b',
 			document : $client->documentEmpty(
-				id : 4162868145557681128,
+				id : 5260181793244491906,
 			),
 			settings : array(
 				$client->themeSettings(
 					message_colors_animated : true,
 					base_theme : $client->baseThemeClassic(...),
-					accent_color : 23,
-					outbox_accent_color : 27,
-					message_colors : array(89),
+					accent_color : 90,
+					outbox_accent_color : 16,
+					message_colors : array(69),
 					wallpaper : $client->wallPaper(...),
 				),
 			),
-			emoticon : 'KDsTquhHpFalJZbi',
-			installs_count : 96,
+			emoticon : 'OkUMVDmvEqoBFsG0',
+			installs_count : 27,
 		),
 	),
 );

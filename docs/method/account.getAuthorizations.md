@@ -1,6 +1,6 @@
 # account.getAuthorizations
 
-**Description** : *Get logged-in sessions*
+**Description** : *Get logged\-in sessions*
 
 **Layer** : 211
 

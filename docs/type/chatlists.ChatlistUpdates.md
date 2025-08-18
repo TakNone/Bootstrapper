@@ -1,6 +1,6 @@
 # chatlists.ChatlistUpdates
 
-**Description** : *Updated info about a chat folder deep link »*
+**Description** : *Updated info about a chat folder deep link &raquo;*
 
 **Layer** : 211
 

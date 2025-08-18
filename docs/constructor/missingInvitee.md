@@ -1,6 +1,6 @@
 # missingInvitee
 
-**Description** : *Info about why a specific user could not be invited »*
+**Description** : *Info about why a specific user could not be invited &raquo;*
 
 **Layer** : 211
 
@@ -33,6 +33,6 @@ missingInvitee#628c9224 flags:# premium_would_allow_invite:flags.0?true premium_
 $missingInvitee = $client->missingInvitee(
 	premium_would_allow_invite : true,
 	premium_required_for_pm : true,
-	user_id : 659833517013668592,
+	user_id : 2082329760424529311,
 );
 ```

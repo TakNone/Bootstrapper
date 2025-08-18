@@ -1,6 +1,6 @@
 # channels.updateColor
 
-**Description** : *Update the accent color and background custom emoji » of a channel*
+**Description** : *Update the accent color and background custom emoji &raquo; of a channel*
 
 **Layer** : 211
 
@@ -43,7 +43,7 @@ channels.updateColor#d8aa3671 flags:# for_profile:flags.1?true channel:InputChan
 $updates = $client->channels->updateColor(
 	for_profile : true,
 	channel : $client->inputChannelEmpty(),
-	color : 80,
-	background_emoji_id : 2878559736800911473,
+	color : 86,
+	background_emoji_id : 2407426406165958048,
 );
 ```

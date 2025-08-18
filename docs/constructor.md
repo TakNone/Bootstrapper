@@ -107,19 +107,19 @@
 
 ###### inputFile
 
-:link: [*Defines a file saved in parts using the method upload.saveFilePart*](constructor/inputFile)
+:link: [*Defines a file saved in parts using the method upload\.saveFilePart*](constructor/inputFile)
 
 ---
 
 ###### inputFileBig
 
-:link: [*Assigns a big file (over 10 MB in size), saved in part using the method upload.saveBigFilePart*](constructor/inputFileBig)
+:link: [*Assigns a big file \(over 10 MB in size\), saved in part using the method upload\.saveBigFilePart*](constructor/inputFileBig)
 
 ---
 
 ###### inputFileStoryDocument
 
-:link: [*Used to edit the thumbnail/static preview of a story, see here » for more info on the full flow*](constructor/inputFileStoryDocument)
+:link: [*Used to edit the thumbnail/static preview of a story, see here &raquo; for more info on the full flow*](constructor/inputFileStoryDocument)
 
 ---
 
@@ -209,7 +209,7 @@
 
 ###### inputMediaDice
 
-:link: [*Send a dice-based animated sticker*](constructor/inputMediaDice)
+:link: [*Send a dice\-based animated sticker*](constructor/inputMediaDice)
 
 ---
 
@@ -227,7 +227,7 @@
 
 ###### inputMediaPaidMedia
 
-:link: [*Paid media, see here » for more info*](constructor/inputMediaPaidMedia)
+:link: [*Paid media, see here &raquo; for more info*](constructor/inputMediaPaidMedia)
 
 ---
 
@@ -293,7 +293,7 @@
 
 ###### inputDocumentFileLocation
 
-:link: [*Document location (video, voice, audio, basically every type except photo)*](constructor/inputDocumentFileLocation)
+:link: [*Document location \(video, voice, audio, basically every type except photo\)*](constructor/inputDocumentFileLocation)
 
 ---
 
@@ -305,13 +305,13 @@
 
 ###### inputTakeoutFileLocation
 
-:link: [*Used to download a JSON file that will contain all personal data related to features that do not have a specialized takeout method yet, see here » for more info on the takeout API*](constructor/inputTakeoutFileLocation)
+:link: [*Used to download a JSON file that will contain all personal data related to features that do not have a specialized takeout method yet, see here &raquo; for more info on the takeout API*](constructor/inputTakeoutFileLocation)
 
 ---
 
 ###### inputPhotoFileLocation
 
-:link: [*Use this object to download a photo with upload.getFile method*](constructor/inputPhotoFileLocation)
+:link: [*Use this object to download a photo with upload\.getFile method*](constructor/inputPhotoFileLocation)
 
 ---
 
@@ -329,7 +329,7 @@
 
 ###### inputStickerSetThumb
 
-:link: [*Location of stickerset thumbnail (see files)*](constructor/inputStickerSetThumb)
+:link: [*Location of stickerset thumbnail \(see files\)*](constructor/inputStickerSetThumb)
 
 ---
 
@@ -371,55 +371,55 @@
 
 ###### storage.fileJpeg
 
-:link: [*JPEG image. MIME type: image/jpeg*](constructor/storage.fileJpeg)
+:link: [*JPEG image\. MIME type: image/jpeg*](constructor/storage.fileJpeg)
 
 ---
 
 ###### storage.fileGif
 
-:link: [*GIF image. MIME type: image/gif*](constructor/storage.fileGif)
+:link: [*GIF image\. MIME type: image/gif*](constructor/storage.fileGif)
 
 ---
 
 ###### storage.filePng
 
-:link: [*PNG image. MIME type: image/png*](constructor/storage.filePng)
+:link: [*PNG image\. MIME type: image/png*](constructor/storage.filePng)
 
 ---
 
 ###### storage.filePdf
 
-:link: [*PDF document image. MIME type: application/pdf*](constructor/storage.filePdf)
+:link: [*PDF document image\. MIME type: application/pdf*](constructor/storage.filePdf)
 
 ---
 
 ###### storage.fileMp3
 
-:link: [*Mp3 audio. MIME type: audio/mpeg*](constructor/storage.fileMp3)
+:link: [*Mp3 audio\. MIME type: audio/mpeg*](constructor/storage.fileMp3)
 
 ---
 
 ###### storage.fileMov
 
-:link: [*Quicktime video. MIME type: video/quicktime*](constructor/storage.fileMov)
+:link: [*Quicktime video\. MIME type: video/quicktime*](constructor/storage.fileMov)
 
 ---
 
 ###### storage.fileMp4
 
-:link: [*MPEG-4 video. MIME type: video/mp4*](constructor/storage.fileMp4)
+:link: [*MPEG\-4 video\. MIME type: video/mp4*](constructor/storage.fileMp4)
 
 ---
 
 ###### storage.fileWebp
 
-:link: [*WEBP image. MIME type: image/webp*](constructor/storage.fileWebp)
+:link: [*WEBP image\. MIME type: image/webp*](constructor/storage.fileWebp)
 
 ---
 
 ###### userEmpty
 
-:link: [*Empty constructor, non-existent user*](constructor/userEmpty)
+:link: [*Empty constructor, non\-existent user*](constructor/userEmpty)
 
 ---
 
@@ -455,7 +455,7 @@
 
 ###### userStatusOffline
 
-:link: [*The user's offline status*](constructor/userStatusOffline)
+:link: [*The user&#039;s offline status*](constructor/userStatusOffline)
 
 ---
 
@@ -479,7 +479,7 @@
 
 ###### chatEmpty
 
-:link: [*Empty constructor, group doesn't exist*](constructor/chatEmpty)
+:link: [*Empty constructor, group doesn&#039;t exist*](constructor/chatEmpty)
 
 ---
 
@@ -491,7 +491,7 @@
 
 ###### chatForbidden
 
-:link: [*A group to which the user has no access. E.g., because the user was kicked from the group*](constructor/chatForbidden)
+:link: [*A group to which the user has no access\. E\.g\., because the user was kicked from the group*](constructor/chatForbidden)
 
 ---
 
@@ -503,7 +503,7 @@
 
 ###### channelForbidden
 
-:link: [*Indicates a channel/supergroup we can't access because we were banned, or for some other reason*](constructor/channelForbidden)
+:link: [*Indicates a channel/supergroup we can&#039;t access because we were banned, or for some other reason*](constructor/channelForbidden)
 
 ---
 
@@ -563,7 +563,7 @@
 
 ###### messageEmpty
 
-:link: [*Empty constructor, non-existent message*](constructor/messageEmpty)
+:link: [*Empty constructor, non\-existent message*](constructor/messageEmpty)
 
 ---
 
@@ -611,7 +611,7 @@
 
 ###### messageMediaDocument
 
-:link: [*Document (video, audio, voice, sticker, any media type except photo)*](constructor/messageMediaDocument)
+:link: [*Document \(video, audio, voice, sticker, any media type except photo\)*](constructor/messageMediaDocument)
 
 ---
 
@@ -653,7 +653,7 @@
 
 ###### messageMediaDice
 
-:link: [*Dice-based animated sticker*](constructor/messageMediaDice)
+:link: [*Dice\-based animated sticker*](constructor/messageMediaDice)
 
 ---
 
@@ -665,7 +665,7 @@
 
 ###### messageMediaGiveaway
 
-:link: [*Contains info about a giveaway, see here » for more info*](constructor/messageMediaGiveaway)
+:link: [*Contains info about a giveaway, see here &raquo; for more info*](constructor/messageMediaGiveaway)
 
 ---
 
@@ -677,7 +677,7 @@
 
 ###### messageMediaPaidMedia
 
-:link: [*Paid media, see here » for more info*](constructor/messageMediaPaidMedia)
+:link: [*Paid media, see here &raquo; for more info*](constructor/messageMediaPaidMedia)
 
 ---
 
@@ -773,7 +773,7 @@
 
 ###### messageActionPaymentSentMe
 
-:link: [*A user just sent a payment to me (a bot)*](constructor/messageActionPaymentSentMe)
+:link: [*A user just sent a payment to me \(a bot\)*](constructor/messageActionPaymentSentMe)
 
 ---
 
@@ -797,7 +797,7 @@
 
 ###### messageActionCustomAction
 
-:link: [*Custom action (most likely not supported by the current layer, an upgrade might be needed)*](constructor/messageActionCustomAction)
+:link: [*Custom action \(most likely not supported by the current layer, an upgrade might be needed\)*](constructor/messageActionCustomAction)
 
 ---
 
@@ -845,7 +845,7 @@
 
 ###### messageActionSetMessagesTTL
 
-:link: [*The Time-To-Live of messages in this chat was changed*](constructor/messageActionSetMessagesTTL)
+:link: [*The Time\-To\-Live of messages in this chat was changed*](constructor/messageActionSetMessagesTTL)
 
 ---
 
@@ -869,13 +869,13 @@
 
 ###### messageActionWebViewDataSentMe
 
-:link: [*Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (bot side service message)*](constructor/messageActionWebViewDataSentMe)
+:link: [*Data from an opened reply keyboard bot mini app was relayed to the bot that owns it \(bot side service message\)*](constructor/messageActionWebViewDataSentMe)
 
 ---
 
 ###### messageActionWebViewDataSent
 
-:link: [*Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (user side service message)*](constructor/messageActionWebViewDataSent)
+:link: [*Data from an opened reply keyboard bot mini app was relayed to the bot that owns it \(user side service message\)*](constructor/messageActionWebViewDataSent)
 
 ---
 
@@ -899,19 +899,19 @@
 
 ###### messageActionSuggestProfilePhoto
 
-:link: [*A new profile picture was suggested using photos.uploadContactProfilePhoto*](constructor/messageActionSuggestProfilePhoto)
+:link: [*A new profile picture was suggested using photos\.uploadContactProfilePhoto*](constructor/messageActionSuggestProfilePhoto)
 
 ---
 
 ###### messageActionRequestedPeer
 
-:link: [*Contains info about one or more peers that the we (the user) shared with the bot after clicking on a keyboardButtonRequestPeer button (service message sent by the user)*](constructor/messageActionRequestedPeer)
+:link: [*Contains info about one or more peers that the we \(the user\) shared with the bot after clicking on a keyboardButtonRequestPeer button \(service message sent by the user\)*](constructor/messageActionRequestedPeer)
 
 ---
 
 ###### messageActionSetChatWallPaper
 
-:link: [*The wallpaper » of the current chat was changed*](constructor/messageActionSetChatWallPaper)
+:link: [*The wallpaper &raquo; of the current chat was changed*](constructor/messageActionSetChatWallPaper)
 
 ---
 
@@ -935,19 +935,19 @@
 
 ###### messageActionBoostApply
 
-:link: [*Some boosts » were applied to the channel or supergroup*](constructor/messageActionBoostApply)
+:link: [*Some boosts &raquo; were applied to the channel or supergroup*](constructor/messageActionBoostApply)
 
 ---
 
 ###### messageActionRequestedPeerSentMe
 
-:link: [*Contains info about one or more peers that the a user shared with the me (the bot) after clicking on a keyboardButtonRequestPeer button (service message received by the bot)*](constructor/messageActionRequestedPeerSentMe)
+:link: [*Contains info about one or more peers that the a user shared with the me \(the bot\) after clicking on a keyboardButtonRequestPeer button \(service message received by the bot\)*](constructor/messageActionRequestedPeerSentMe)
 
 ---
 
 ###### messageActionPaymentRefunded
 
-:link: [*Describes a payment refund (service message received by both users and bots)*](constructor/messageActionPaymentRefunded)
+:link: [*Describes a payment refund \(service message received by both users and bots\)*](constructor/messageActionPaymentRefunded)
 
 ---
 
@@ -959,13 +959,13 @@
 
 ###### messageActionPrizeStars
 
-:link: [*You won some Telegram Stars in a Telegram Star giveaway »*](constructor/messageActionPrizeStars)
+:link: [*You won some Telegram Stars in a Telegram Star giveaway &raquo;*](constructor/messageActionPrizeStars)
 
 ---
 
 ###### messageActionStarGift
 
-:link: [*You received a gift, see here » for more info*](constructor/messageActionStarGift)
+:link: [*You received a gift, see here &raquo; for more info*](constructor/messageActionStarGift)
 
 ---
 
@@ -1043,7 +1043,7 @@
 
 ###### photoEmpty
 
-:link: [*Empty constructor, non-existent photo*](constructor/photoEmpty)
+:link: [*Empty constructor, non\-existent photo*](constructor/photoEmpty)
 
 ---
 
@@ -1055,7 +1055,7 @@
 
 ###### photoSizeEmpty
 
-:link: [*Empty constructor. Image with this thumbnail is unavailable*](constructor/photoSizeEmpty)
+:link: [*Empty constructor\. Image with this thumbnail is unavailable*](constructor/photoSizeEmpty)
 
 ---
 
@@ -1073,7 +1073,7 @@
 
 ###### photoStrippedSize
 
-:link: [*A low-resolution compressed JPG payload*](constructor/photoStrippedSize)
+:link: [*A low\-resolution compressed JPG payload*](constructor/photoStrippedSize)
 
 ---
 
@@ -1085,7 +1085,7 @@
 
 ###### photoPathSize
 
-:link: [*Messages with animated stickers can have a compressed svg (< 300 bytes) to show the outline of the sticker before fetching the actual lottie animation*](constructor/photoPathSize)
+:link: [*Messages with animated stickers can have a compressed svg \(&lt; 300 bytes\) to show the outline of the sticker before fetching the actual lottie animation*](constructor/photoPathSize)
 
 ---
 
@@ -1127,7 +1127,7 @@
 
 ###### auth.authorizationSignUpRequired
 
-:link: [*An account with this phone number doesn't exist on telegram: the user has to enter basic information and sign up*](constructor/auth.authorizationSignUpRequired)
+:link: [*An account with this phone number doesn&#039;t exist on telegram: the user has to enter basic information and sign up*](constructor/auth.authorizationSignUpRequired)
 
 ---
 
@@ -1181,7 +1181,7 @@
 
 ###### peerSettings
 
-:link: [*List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat action bar », see here » for more info*](constructor/peerSettings)
+:link: [*List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat action bar &raquo;, see here &raquo; for more info*](constructor/peerSettings)
 
 ---
 
@@ -1289,7 +1289,7 @@
 
 ###### contacts.contacts
 
-:link: [*The current user's contact list and info on users*](constructor/contacts.contacts)
+:link: [*The current user&#039;s contact list and info on users*](constructor/contacts.contacts)
 
 ---
 
@@ -1325,7 +1325,7 @@
 
 ###### messages.dialogsNotModified
 
-:link: [*Dialogs haven't changed*](constructor/messages.dialogsNotModified)
+:link: [*Dialogs haven&#039;t changed*](constructor/messages.dialogsNotModified)
 
 ---
 
@@ -1487,7 +1487,7 @@
 
 ###### updateMessageID
 
-:link: [*Sent message with random_id client identifier was assigned an identifier*](constructor/updateMessageID)
+:link: [*Sent message with random\_id client identifier was assigned an identifier*](constructor/updateMessageID)
 
 ---
 
@@ -1499,13 +1499,13 @@
 
 ###### updateUserTyping
 
-:link: [*The user is preparing a message; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*](constructor/updateUserTyping)
+:link: [*The user is preparing a message; typing, recording, uploading, etc\. This update is valid for 6 seconds\. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*](constructor/updateUserTyping)
 
 ---
 
 ###### updateChatUserTyping
 
-:link: [*The user is preparing a message in a group; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*](constructor/updateChatUserTyping)
+:link: [*The user is preparing a message in a group; typing, recording, uploading, etc\. This update is valid for 6 seconds\. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*](constructor/updateChatUserTyping)
 
 ---
 
@@ -1523,13 +1523,13 @@
 
 ###### updateUserName
 
-:link: [*Changes the user's first name, last name and username*](constructor/updateUserName)
+:link: [*Changes the user&#039;s first name, last name and username*](constructor/updateUserName)
 
 ---
 
 ###### updateNewAuthorization
 
-:link: [*A new session logged into the current user's account through an unknown device*](constructor/updateNewAuthorization)
+:link: [*A new session logged into the current user&#039;s account through an unknown device*](constructor/updateNewAuthorization)
 
 ---
 
@@ -1541,7 +1541,7 @@
 
 ###### updateEncryptedChatTyping
 
-:link: [*Interlocutor is typing a message in an encrypted chat. Update period is 6 second. If upon this time there is no repeated update, it shall be considered that the interlocutor stopped typing*](constructor/updateEncryptedChatTyping)
+:link: [*Interlocutor is typing a message in an encrypted chat\. Update period is 6 second\. If upon this time there is no repeated update, it shall be considered that the interlocutor stopped typing*](constructor/updateEncryptedChatTyping)
 
 ---
 
@@ -1595,7 +1595,7 @@
 
 ###### updateUserPhone
 
-:link: [*A user's phone number was changed*](constructor/updateUserPhone)
+:link: [*A user&#039;s phone number was changed*](constructor/updateUserPhone)
 
 ---
 
@@ -1625,14 +1625,14 @@
 
 ###### updateChannelTooLong
 
-:link: [*There are new updates in the specified channel, the client must fetch them.
-If the difference is too long or if the channel isn't currently in the states, start fetching from the specified pts*](constructor/updateChannelTooLong)
+:link: [*There are new updates in the specified channel, the client must fetch them\.
+If the difference is too long or if the channel isn&#039;t currently in the states, start fetching from the specified pts*](constructor/updateChannelTooLong)
 
 ---
 
 ###### updateChannel
 
-:link: [*Channel/supergroup (channel and/or channelFull) information was updated*](constructor/updateChannel)
+:link: [*Channel/supergroup \(channel and/or channelFull\) information was updated*](constructor/updateChannel)
 
 ---
 
@@ -1686,7 +1686,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateSavedGifs
 
-:link: [*The saved gif list has changed, the client should refetch it using messages.getSavedGifs*](constructor/updateSavedGifs)
+:link: [*The saved gif list has changed, the client should refetch it using messages\.getSavedGifs*](constructor/updateSavedGifs)
 
 ---
 
@@ -1698,7 +1698,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateBotInlineSend
 
-:link: [*The result of an inline query that was chosen by a user and sent to their chat partner. Please see our documentation on the feedback collecting for details on how to enable these updates for your bot*](constructor/updateBotInlineSend)
+:link: [*The result of an inline query that was chosen by a user and sent to their chat partner\. Please see our documentation on the feedback collecting for details on how to enable these updates for your bot*](constructor/updateBotInlineSend)
 
 ---
 
@@ -1752,13 +1752,13 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateConfig
 
-:link: [*The server-side configuration has changed; the client should re-fetch the config using help.getConfig and help.getAppConfig*](constructor/updateConfig)
+:link: [*The server\-side configuration has changed; the client should re\-fetch the config using help\.getConfig and help\.getAppConfig*](constructor/updateConfig)
 
 ---
 
 ###### updatePtsChanged
 
-:link: [*Common message box sequence PTS has changed, state has to be refetched using updates.getState*](constructor/updatePtsChanged)
+:link: [*Common message box sequence PTS has changed, state has to be refetched using updates\.getState*](constructor/updatePtsChanged)
 
 ---
 
@@ -1800,7 +1800,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateBotPrecheckoutQuery
 
-:link: [*This object contains information about an incoming pre-checkout query*](constructor/updateBotPrecheckoutQuery)
+:link: [*This object contains information about an incoming pre\-checkout query*](constructor/updateBotPrecheckoutQuery)
 
 ---
 
@@ -1812,7 +1812,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateLangPackTooLong
 
-:link: [*A language pack has changed, the client should manually fetch the changed strings using langpack.getDifference*](constructor/updateLangPackTooLong)
+:link: [*A language pack has changed, the client should manually fetch the changed strings using langpack\.getDifference*](constructor/updateLangPackTooLong)
 
 ---
 
@@ -1824,7 +1824,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateFavedStickers
 
-:link: [*The list of favorited stickers was changed, the client should call messages.getFavedStickers to refetch the new list*](constructor/updateFavedStickers)
+:link: [*The list of favorited stickers was changed, the client should call messages\.getFavedStickers to refetch the new list*](constructor/updateFavedStickers)
 
 ---
 
@@ -1890,7 +1890,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateDeleteScheduledMessages
 
-:link: [*Some scheduled messages were deleted (or sent) from the schedule queue of a chat*](constructor/updateDeleteScheduledMessages)
+:link: [*Some scheduled messages were deleted \(or sent\) from the schedule queue of a chat*](constructor/updateDeleteScheduledMessages)
 
 ---
 
@@ -1908,7 +1908,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateLoginToken
 
-:link: [*A login token (for login via QR code) was accepted*](constructor/updateLoginToken)
+:link: [*A login token \(for login via QR code\) was accepted*](constructor/updateLoginToken)
 
 ---
 
@@ -1962,7 +1962,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updatePeerBlocked
 
-:link: [*We blocked a peer, see here » for more info on blocklists*](constructor/updatePeerBlocked)
+:link: [*We blocked a peer, see here &raquo; for more info on blocklists*](constructor/updatePeerBlocked)
 
 ---
 
@@ -1986,7 +1986,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateChat
 
-:link: [*Chat (chat and/or chatFull) information was updated*](constructor/updateChat)
+:link: [*Chat \(chat and/or chatFull\) information was updated*](constructor/updateChat)
 
 ---
 
@@ -2004,7 +2004,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updatePeerHistoryTTL
 
-:link: [*The Time-To-Live for messages sent by the current user in a specific chat has changed*](constructor/updatePeerHistoryTTL)
+:link: [*The Time\-To\-Live for messages sent by the current user in a specific chat has changed*](constructor/updatePeerHistoryTTL)
 
 ---
 
@@ -2022,7 +2022,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateBotStopped
 
-:link: [*A bot was stopped or re-started*](constructor/updateBotStopped)
+:link: [*A bot was stopped or re\-started*](constructor/updateBotStopped)
 
 ---
 
@@ -2046,25 +2046,25 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateBotChatInviteRequester
 
-:link: [*Someone has requested to join a chat or channel (bots only, users will receive an updatePendingJoinRequests, instead)*](constructor/updateBotChatInviteRequester)
+:link: [*Someone has requested to join a chat or channel \(bots only, users will receive an updatePendingJoinRequests, instead\)*](constructor/updateBotChatInviteRequester)
 
 ---
 
 ###### updateMessageReactions
 
-:link: [*New message reactions » are available*](constructor/updateMessageReactions)
+:link: [*New message reactions &raquo; are available*](constructor/updateMessageReactions)
 
 ---
 
 ###### updateAttachMenuBots
 
-:link: [*The list of installed attachment menu entries » has changed, use messages.getAttachMenuBots to fetch the updated list*](constructor/updateAttachMenuBots)
+:link: [*The list of installed attachment menu entries &raquo; has changed, use messages\.getAttachMenuBots to fetch the updated list*](constructor/updateAttachMenuBots)
 
 ---
 
 ###### updateWebViewResultSent
 
-:link: [*Indicates to a bot that a webview was closed and an inline message was sent on behalf of the user using messages.sendWebViewResultMessage*](constructor/updateWebViewResultSent)
+:link: [*Indicates to a bot that a webview was closed and an inline message was sent on behalf of the user using messages\.sendWebViewResultMessage*](constructor/updateWebViewResultSent)
 
 ---
 
@@ -2076,13 +2076,13 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateSavedRingtones
 
-:link: [*The list of saved notification sounds has changed, use account.getSavedRingtones to fetch the new list*](constructor/updateSavedRingtones)
+:link: [*The list of saved notification sounds has changed, use account\.getSavedRingtones to fetch the new list*](constructor/updateSavedRingtones)
 
 ---
 
 ###### updateTranscribedAudio
 
-:link: [*A pending voice message transcription » initiated with messages.transcribeAudio was updated*](constructor/updateTranscribedAudio)
+:link: [*A pending voice message transcription &raquo; initiated with messages\.transcribeAudio was updated*](constructor/updateTranscribedAudio)
 
 ---
 
@@ -2112,19 +2112,19 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateMoveStickerSetToTop
 
-:link: [*A stickerset was just moved to top, see here for more info »*](constructor/updateMoveStickerSetToTop)
+:link: [*A stickerset was just moved to top, see here for more info &raquo;*](constructor/updateMoveStickerSetToTop)
 
 ---
 
 ###### updateMessageExtendedMedia
 
-:link: [*You bought a paid media »: this update contains the revealed media*](constructor/updateMessageExtendedMedia)
+:link: [*You bought a paid media &raquo;: this update contains the revealed media*](constructor/updateMessageExtendedMedia)
 
 ---
 
 ###### updateChannelPinnedTopic
 
-:link: [*A forum topic » was pinned or unpinned*](constructor/updateChannelPinnedTopic)
+:link: [*A forum topic &raquo; was pinned or unpinned*](constructor/updateChannelPinnedTopic)
 
 ---
 
@@ -2136,13 +2136,13 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateUser
 
-:link: [*User (user and/or userFull) information was updated*](constructor/updateUser)
+:link: [*User \(user and/or userFull\) information was updated*](constructor/updateUser)
 
 ---
 
 ###### updateAutoSaveSettings
 
-:link: [*Media autosave settings have changed and must be refetched using account.getAutoSaveSettings*](constructor/updateAutoSaveSettings)
+:link: [*Media autosave settings have changed and must be refetched using account\.getAutoSaveSettings*](constructor/updateAutoSaveSettings)
 
 ---
 
@@ -2172,26 +2172,26 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 ###### updateSentStoryReaction
 
-:link: [*Indicates we reacted to a story »*](constructor/updateSentStoryReaction)
+:link: [*Indicates we reacted to a story &raquo;*](constructor/updateSentStoryReaction)
 
 ---
 
 ###### updateBotChatBoost
 
-:link: [*A channel/supergroup boost has changed (bots only)*](constructor/updateBotChatBoost)
+:link: [*A channel/supergroup boost has changed \(bots only\)*](constructor/updateBotChatBoost)
 
 ---
 
 ###### updateChannelViewForumAsMessages
 
-:link: [*Users may also choose to display messages from all topics as if they were sent to a normal group, using a "View as messages" setting in the local client.
-This setting only affects the current account, and is synced to other logged in sessions using the channels.toggleViewForumAsMessages method; invoking this method will update the value of the view_forum_as_messages flag of channelFull or dialog and emit an updateChannelViewForumAsMessages*](constructor/updateChannelViewForumAsMessages)
+:link: [*Users may also choose to display messages from all topics as if they were sent to a normal group, using a &quot;View as messages&quot; setting in the local client\.
+This setting only affects the current account, and is synced to other logged in sessions using the channels\.toggleViewForumAsMessages method; invoking this method will update the value of the view\_forum\_as\_messages flag of channelFull or dialog and emit an updateChannelViewForumAsMessages*](constructor/updateChannelViewForumAsMessages)
 
 ---
 
 ###### updatePeerWallpaper
 
-:link: [*The wallpaper » of a given peer has changed*](constructor/updatePeerWallpaper)
+:link: [*The wallpaper &raquo; of a given peer has changed*](constructor/updatePeerWallpaper)
 
 ---
 
@@ -2215,13 +2215,13 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### updatePinnedSavedDialogs
 
-:link: [*Pinned saved dialogs » were updated*](constructor/updatePinnedSavedDialogs)
+:link: [*Pinned saved dialogs &raquo; were updated*](constructor/updatePinnedSavedDialogs)
 
 ---
 
 ###### updateSavedReactionTags
 
-:link: [*The list of reaction tag » names assigned by the user has changed and should be refetched using messages.getSavedReactionTags »*](constructor/updateSavedReactionTags)
+:link: [*The list of reaction tag &raquo; names assigned by the user has changed and should be refetched using messages\.getSavedReactionTags &raquo;*](constructor/updateSavedReactionTags)
 
 ---
 
@@ -2233,55 +2233,55 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### updateQuickReplies
 
-:link: [*Info about or the order of quick reply shortcuts » was changed*](constructor/updateQuickReplies)
+:link: [*Info about or the order of quick reply shortcuts &raquo; was changed*](constructor/updateQuickReplies)
 
 ---
 
 ###### updateNewQuickReply
 
-:link: [*A new quick reply shortcut » was created*](constructor/updateNewQuickReply)
+:link: [*A new quick reply shortcut &raquo; was created*](constructor/updateNewQuickReply)
 
 ---
 
 ###### updateDeleteQuickReply
 
-:link: [*A quick reply shortcut » was deleted. This will not emit updateDeleteQuickReplyMessages updates, even if all the messages in the shortcut are also deleted by this update*](constructor/updateDeleteQuickReply)
+:link: [*A quick reply shortcut &raquo; was deleted\. This will not emit updateDeleteQuickReplyMessages updates, even if all the messages in the shortcut are also deleted by this update*](constructor/updateDeleteQuickReply)
 
 ---
 
 ###### updateQuickReplyMessage
 
-:link: [*A new message was added to a quick reply shortcut »*](constructor/updateQuickReplyMessage)
+:link: [*A new message was added to a quick reply shortcut &raquo;*](constructor/updateQuickReplyMessage)
 
 ---
 
 ###### updateDeleteQuickReplyMessages
 
-:link: [*One or more messages in a quick reply shortcut » were deleted*](constructor/updateDeleteQuickReplyMessages)
+:link: [*One or more messages in a quick reply shortcut &raquo; were deleted*](constructor/updateDeleteQuickReplyMessages)
 
 ---
 
 ###### updateBotBusinessConnect
 
-:link: [*Connecting or disconnecting a business bot or changing the connection settings will emit an updateBotBusinessConnect update to the bot, with the new settings and a connection_id that will be used by the bot to handle updates from and send messages as the user*](constructor/updateBotBusinessConnect)
+:link: [*Connecting or disconnecting a business bot or changing the connection settings will emit an updateBotBusinessConnect update to the bot, with the new settings and a connection\_id that will be used by the bot to handle updates from and send messages as the user*](constructor/updateBotBusinessConnect)
 
 ---
 
 ###### updateBotNewBusinessMessage
 
-:link: [*A message was received via a connected business chat »*](constructor/updateBotNewBusinessMessage)
+:link: [*A message was received via a connected business chat &raquo;*](constructor/updateBotNewBusinessMessage)
 
 ---
 
 ###### updateBotEditBusinessMessage
 
-:link: [*A message was edited in a connected business chat »*](constructor/updateBotEditBusinessMessage)
+:link: [*A message was edited in a connected business chat &raquo;*](constructor/updateBotEditBusinessMessage)
 
 ---
 
 ###### updateBotDeleteBusinessMessage
 
-:link: [*A message was deleted in a connected business chat »*](constructor/updateBotDeleteBusinessMessage)
+:link: [*A message was deleted in a connected business chat &raquo;*](constructor/updateBotDeleteBusinessMessage)
 
 ---
 
@@ -2293,7 +2293,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### updateStarsBalance
 
-:link: [*The current account's Telegram Stars balance » has changed*](constructor/updateStarsBalance)
+:link: [*The current account&#039;s Telegram Stars balance &raquo; has changed*](constructor/updateStarsBalance)
 
 ---
 
@@ -2305,7 +2305,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### updateStarsRevenueStatus
 
-:link: [*The Telegram Star balance of a channel/bot we own has changed »*](constructor/updateStarsRevenueStatus)
+:link: [*The Telegram Star balance of a channel/bot we own has changed &raquo;*](constructor/updateStarsRevenueStatus)
 
 ---
 
@@ -2317,7 +2317,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### updatePaidReactionPrivacy
 
-:link: [*Contains the current default paid reaction privacy, see here » for more info*](constructor/updatePaidReactionPrivacy)
+:link: [*Contains the current default paid reaction privacy, see here &raquo; for more info*](constructor/updatePaidReactionPrivacy)
 
 ---
 
@@ -2383,13 +2383,13 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### updatesTooLong
 
-:link: [*Too many updates, it is necessary to execute updates.getDifference*](constructor/updatesTooLong)
+:link: [*Too many updates, it is necessary to execute updates\.getDifference*](constructor/updatesTooLong)
 
 ---
 
 ###### updateShortMessage
 
-:link: [*Info about a message sent to (received from) another user*](constructor/updateShortMessage)
+:link: [*Info about a message sent to \(received from\) another user*](constructor/updateShortMessage)
 
 ---
 
@@ -2419,7 +2419,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### updateShortSentMessage
 
-:link: [*Shortened constructor containing info on one outgoing message to a contact (the destination chat has to be extracted from the method call that returned this object)*](constructor/updateShortSentMessage)
+:link: [*Shortened constructor containing info on one outgoing message to a contact \(the destination chat has to be extracted from the method call that returned this object\)*](constructor/updateShortSentMessage)
 
 ---
 
@@ -2467,7 +2467,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### nearestDc
 
-:link: [*Nearest data center, according to geo-ip*](constructor/nearestDc)
+:link: [*Nearest data center, according to geo\-ip*](constructor/nearestDc)
 
 ---
 
@@ -2527,7 +2527,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### encryptedFileEmpty
 
-:link: [*Empty constructor, non-existing file*](constructor/encryptedFileEmpty)
+:link: [*Empty constructor, non\-existing file*](constructor/encryptedFileEmpty)
 
 ---
 
@@ -2545,7 +2545,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### inputEncryptedFileUploaded
 
-:link: [*Sets new encrypted file saved by parts using upload.saveFilePart method*](constructor/inputEncryptedFileUploaded)
+:link: [*Sets new encrypted file saved by parts using upload\.saveFilePart method*](constructor/inputEncryptedFileUploaded)
 
 ---
 
@@ -2557,7 +2557,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### inputEncryptedFileBigUploaded
 
-:link: [*Assigns a new big encrypted file (over 10 MB in size), saved in parts using the method upload.saveBigFilePart*](constructor/inputEncryptedFileBigUploaded)
+:link: [*Assigns a new big encrypted file \(over 10 MB in size\), saved in parts using the method upload\.saveBigFilePart*](constructor/inputEncryptedFileBigUploaded)
 
 ---
 
@@ -2611,7 +2611,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### documentEmpty
 
-:link: [*Empty constructor, document doesn't exist*](constructor/documentEmpty)
+:link: [*Empty constructor, document doesn&#039;t exist*](constructor/documentEmpty)
 
 ---
 
@@ -2665,7 +2665,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### sendMessageCancelAction
 
-:link: [*Invalidate all previous action updates. E.g. when user deletes entered text or aborts a video upload*](constructor/sendMessageCancelAction)
+:link: [*Invalidate all previous action updates\. E\.g\. when user deletes entered text or aborts a video upload*](constructor/sendMessageCancelAction)
 
 ---
 
@@ -2755,13 +2755,13 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### sendMessageEmojiInteraction
 
-:link: [*User has clicked on an animated emoji triggering a reaction, click here for more info »*](constructor/sendMessageEmojiInteraction)
+:link: [*User has clicked on an animated emoji triggering a reaction, click here for more info &raquo;*](constructor/sendMessageEmojiInteraction)
 
 ---
 
 ###### sendMessageEmojiInteractionSeen
 
-:link: [*User is watching an animated emoji reaction triggered by another user, click here for more info »*](constructor/sendMessageEmojiInteractionSeen)
+:link: [*User is watching an animated emoji reaction triggered by another user, click here for more info &raquo;*](constructor/sendMessageEmojiInteractionSeen)
 
 ---
 
@@ -2821,7 +2821,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### inputPrivacyKeyVoiceMessages
 
-:link: [*Whether people can send you voice messages or round videos (Premium users only)*](constructor/inputPrivacyKeyVoiceMessages)
+:link: [*Whether people can send you voice messages or round videos \(Premium users only\)*](constructor/inputPrivacyKeyVoiceMessages)
 
 ---
 
@@ -2977,13 +2977,13 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### inputPrivacyValueAllowCloseFriends
 
-:link: [*Allow only close friends »*](constructor/inputPrivacyValueAllowCloseFriends)
+:link: [*Allow only close friends &raquo;*](constructor/inputPrivacyValueAllowCloseFriends)
 
 ---
 
 ###### inputPrivacyValueAllowPremium
 
-:link: [*Allow only users with a Premium subscription », currently only usable for inputPrivacyKeyChatInvite*](constructor/inputPrivacyValueAllowPremium)
+:link: [*Allow only users with a Premium subscription &raquo;, currently only usable for inputPrivacyKeyChatInvite*](constructor/inputPrivacyValueAllowPremium)
 
 ---
 
@@ -3049,13 +3049,13 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### privacyValueAllowCloseFriends
 
-:link: [*Allow only close friends »*](constructor/privacyValueAllowCloseFriends)
+:link: [*Allow only close friends &raquo;*](constructor/privacyValueAllowCloseFriends)
 
 ---
 
 ###### privacyValueAllowPremium
 
-:link: [*Allow only users with a Premium subscription », currently only usable for inputPrivacyKeyChatInvite*](constructor/privacyValueAllowPremium)
+:link: [*Allow only users with a Premium subscription &raquo;, currently only usable for inputPrivacyKeyChatInvite*](constructor/privacyValueAllowPremium)
 
 ---
 
@@ -3145,14 +3145,14 @@ This setting only affects the current account, and is synced to other logged in 
 
 ###### stickerPack
 
-:link: [*A stickerpack is a group of stickers associated to the same emoji.
+:link: [*A stickerpack is a group of stickers associated to the same emoji\.
 It is not a sticker pack the way it is usually intended, you may be looking for a StickerSet*](constructor/stickerPack)
 
 ---
 
 ###### messages.allStickersNotModified
 
-:link: [*Info about all installed stickers hasn't changed*](constructor/messages.allStickersNotModified)
+:link: [*Info about all installed stickers hasn&#039;t changed*](constructor/messages.allStickersNotModified)
 
 ---
 
@@ -3188,31 +3188,31 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### webPageNotModified
 
-:link: [*The preview of the webpage hasn't changed*](constructor/webPageNotModified)
+:link: [*The preview of the webpage hasn&#039;t changed*](constructor/webPageNotModified)
 
 ---
 
 ###### authorization
 
-:link: [*Logged-in session*](constructor/authorization)
+:link: [*Logged\-in session*](constructor/authorization)
 
 ---
 
 ###### account.authorizations
 
-:link: [*Logged-in sessions*](constructor/account.authorizations)
+:link: [*Logged\-in sessions*](constructor/account.authorizations)
 
 ---
 
 ###### account.password
 
-:link: [*Configuration for two-factor authorization*](constructor/account.password)
+:link: [*Configuration for two\-factor authorization*](constructor/account.password)
 
 ---
 
 ###### account.passwordSettings
 
-:link: [*Private info associated to the password info (recovery email, telegram passport info & so on)*](constructor/account.passwordSettings)
+:link: [*Private info associated to the password info \(recovery email, telegram passport info &amp; so on\)*](constructor/account.passwordSettings)
 
 ---
 
@@ -3230,7 +3230,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### receivedNotifyMessage
 
-:link: [*Message ID, for which PUSH-notifications were cancelled*](constructor/receivedNotifyMessage)
+:link: [*Message ID, for which PUSH\-notifications were cancelled*](constructor/receivedNotifyMessage)
 
 ---
 
@@ -3278,7 +3278,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### inputStickerSetShortName
 
-:link: [*Stickerset by short name, from a stickerset deep link »*](constructor/inputStickerSetShortName)
+:link: [*Stickerset by short name, from a stickerset deep link &raquo;*](constructor/inputStickerSetShortName)
 
 ---
 
@@ -3296,7 +3296,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### inputStickerSetAnimatedEmojiAnimations
 
-:link: [*Animated emoji reaction stickerset (contains animations to play when a user clicks on a given animated emoji)*](constructor/inputStickerSetAnimatedEmojiAnimations)
+:link: [*Animated emoji reaction stickerset \(contains animations to play when a user clicks on a given animated emoji\)*](constructor/inputStickerSetAnimatedEmojiAnimations)
 
 ---
 
@@ -3338,7 +3338,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### stickerSet
 
-:link: [*Represents a stickerset (stickerpack)*](constructor/stickerSet)
+:link: [*Represents a stickerset \(stickerpack\)*](constructor/stickerSet)
 
 ---
 
@@ -3350,7 +3350,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### messages.stickerSetNotModified
 
-:link: [*The stickerset hasn't changed*](constructor/messages.stickerSetNotModified)
+:link: [*The stickerset hasn&#039;t changed*](constructor/messages.stickerSetNotModified)
 
 ---
 
@@ -3362,7 +3362,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### botInfo
 
-:link: [*Info about bots (available bot commands, etc)*](constructor/botInfo)
+:link: [*Info about bots \(available bot commands, etc\)*](constructor/botInfo)
 
 ---
 
@@ -3386,19 +3386,19 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### keyboardButtonRequestPhone
 
-:link: [*Button to request a user's phone number*](constructor/keyboardButtonRequestPhone)
+:link: [*Button to request a user&#039;s phone number*](constructor/keyboardButtonRequestPhone)
 
 ---
 
 ###### keyboardButtonRequestGeoLocation
 
-:link: [*Button to request a user's geolocation*](constructor/keyboardButtonRequestGeoLocation)
+:link: [*Button to request a user&#039;s geolocation*](constructor/keyboardButtonRequestGeoLocation)
 
 ---
 
 ###### keyboardButtonSwitchInline
 
-:link: [*Button to force a user to switch to inline mode: pressing the button will prompt the user to select one of their chats, open that chat and insert the bot's username and the specified inline query in the input field*](constructor/keyboardButtonSwitchInline)
+:link: [*Button to force a user to switch to inline mode: pressing the button will prompt the user to select one of their chats, open that chat and insert the bot&#039;s username and the specified inline query in the input field*](constructor/keyboardButtonSwitchInline)
 
 ---
 
@@ -3416,7 +3416,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### keyboardButtonUrlAuth
 
-:link: [*Button to request a user to authorize via URL using Seamless Telegram Login. When the user clicks on such a button, messages.requestUrlAuth should be called, providing the button_id and the ID of the container message. The returned urlAuthResultRequest object will contain more details about the authorization request (request_write_access if the bot would like to send messages to the user along with the username of the bot which will be used for user authorization). Finally, the user can choose to call messages.acceptUrlAuth to get a urlAuthResultAccepted with the URL to open instead of the url of this constructor, or a urlAuthResultDefault, in which case the url of this constructor must be opened, instead. If the user refuses the authorization request but still wants to open the link, the url of this constructor must be used*](constructor/keyboardButtonUrlAuth)
+:link: [*Button to request a user to authorize via URL using Seamless Telegram Login\. When the user clicks on such a button, messages\.requestUrlAuth should be called, providing the button\_id and the ID of the container message\. The returned urlAuthResultRequest object will contain more details about the authorization request \(request\_write\_access if the bot would like to send messages to the user along with the username of the bot which will be used for user authorization\)\. Finally, the user can choose to call messages\.acceptUrlAuth to get a urlAuthResultAccepted with the URL to open instead of the url of this constructor, or a urlAuthResultDefault, in which case the url of this constructor must be opened, instead\. If the user refuses the authorization request but still wants to open the link, the url of this constructor must be used*](constructor/keyboardButtonUrlAuth)
 
 ---
 
@@ -3446,25 +3446,25 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### keyboardButtonWebView
 
-:link: [*Button to open a bot mini app using messages.requestWebView, sending over user information after user confirmation*](constructor/keyboardButtonWebView)
+:link: [*Button to open a bot mini app using messages\.requestWebView, sending over user information after user confirmation*](constructor/keyboardButtonWebView)
 
 ---
 
 ###### keyboardButtonSimpleWebView
 
-:link: [*Button to open a bot mini app using messages.requestSimpleWebView, without sending user information to the web app*](constructor/keyboardButtonSimpleWebView)
+:link: [*Button to open a bot mini app using messages\.requestSimpleWebView, without sending user information to the web app*](constructor/keyboardButtonSimpleWebView)
 
 ---
 
 ###### keyboardButtonRequestPeer
 
-:link: [*Prompts the user to select and share one or more peers with the bot using messages.sendBotRequestedPeer*](constructor/keyboardButtonRequestPeer)
+:link: [*Prompts the user to select and share one or more peers with the bot using messages\.sendBotRequestedPeer*](constructor/keyboardButtonRequestPeer)
 
 ---
 
 ###### inputKeyboardButtonRequestPeer
 
-:link: [*Prompts the user to select and share one or more peers with the bot using messages.sendBotRequestedPeer*](constructor/inputKeyboardButtonRequestPeer)
+:link: [*Prompts the user to select and share one or more peers with the bot using messages\.sendBotRequestedPeer*](constructor/inputKeyboardButtonRequestPeer)
 
 ---
 
@@ -3518,7 +3518,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### messageEntityHashtag
 
-:link: [*#hashtag message entity*](constructor/messageEntityHashtag)
+:link: [*\#hashtag message entity*](constructor/messageEntityHashtag)
 
 ---
 
@@ -3530,13 +3530,13 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### messageEntityUrl
 
-:link: [*Message entity representing an in-text url: https://google.com; for text urls, use messageEntityTextUrl*](constructor/messageEntityUrl)
+:link: [*Message entity representing an in\-text url: https://google\.com; for text urls, use messageEntityTextUrl*](constructor/messageEntityUrl)
 
 ---
 
 ###### messageEntityEmail
 
-:link: [*Message entity representing an email@example.com*](constructor/messageEntityEmail)
+:link: [*Message entity representing an email@example\.com*](constructor/messageEntityEmail)
 
 ---
 
@@ -3566,7 +3566,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### messageEntityTextUrl
 
-:link: [*Message entity representing a text url: for in-text urls like https://google.com use messageEntityUrl*](constructor/messageEntityTextUrl)
+:link: [*Message entity representing a text url: for in\-text urls like https://google\.com use messageEntityUrl*](constructor/messageEntityTextUrl)
 
 ---
 
@@ -3620,8 +3620,8 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ###### messageEntityCustomEmoji
 
-:link: [*Represents a custom emoji.
-Note that this entity must wrap exactly one regular emoji (the one contained in documentAttributeCustomEmoji.alt) in the related text, otherwise the server will ignore it*](constructor/messageEntityCustomEmoji)
+:link: [*Represents a custom emoji\.
+Note that this entity must wrap exactly one regular emoji \(the one contained in documentAttributeCustomEmoji\.alt\) in the related text, otherwise the server will ignore it*](constructor/messageEntityCustomEmoji)
 
 ---
 
@@ -3669,7 +3669,7 @@ Note that this entity must wrap exactly one regular emoji (the one contained in 
 
 ###### updates.channelDifferenceTooLong
 
-:link: [*The provided pts + limit < remote pts. Simply, there are too many updates to be fetched (more than limit), the client has to resolve the update gap in one of the following ways (assuming the existence of a persistent database to locally store messages):*](constructor/updates.channelDifferenceTooLong)
+:link: [*The provided pts \+ limit &lt; remote pts\. Simply, there are too many updates to be fetched \(more than limit\), the client has to resolve the update gap in one of the following ways \(assuming the existence of a persistent database to locally store messages\):*](constructor/updates.channelDifferenceTooLong)
 
 ---
 
@@ -3771,8 +3771,8 @@ Note that this entity must wrap exactly one regular emoji (the one contained in 
 
 ###### channelParticipantsMentions
 
-:link: [*This filter is used when looking for supergroup members to mention.
-This filter will automatically remove anonymous admins, and return even non-participant users that replied to a specific thread through the comment section of a channel*](constructor/channelParticipantsMentions)
+:link: [*This filter is used when looking for supergroup members to mention\.
+This filter will automatically remove anonymous admins, and return even non\-participant users that replied to a specific thread through the comment section of a channel*](constructor/channelParticipantsMentions)
 
 ---
 
@@ -3874,7 +3874,7 @@ This filter will automatically remove anonymous admins, and return even non-part
 
 ###### inputBotInlineResultDocument
 
-:link: [*Document (media of any type except for photos)*](constructor/inputBotInlineResultDocument)
+:link: [*Document \(media of any type except for photos\)*](constructor/inputBotInlineResultDocument)
 
 ---
 
@@ -3982,7 +3982,7 @@ This filter will automatically remove anonymous admins, and return even non-part
 
 ###### auth.codeTypeFragmentSms
 
-:link: [*The next time, the authentication code will be delivered via fragment.com*](constructor/auth.codeTypeFragmentSms)
+:link: [*The next time, the authentication code will be delivered via fragment\.com*](constructor/auth.codeTypeFragmentSms)
 
 ---
 
@@ -4006,37 +4006,37 @@ This filter will automatically remove anonymous admins, and return even non-part
 
 ###### auth.sentCodeTypeFlashCall
 
-:link: [*The code will be sent via a flash phone call, that will be closed immediately. The phone code will then be the phone number itself, just make sure that the phone number matches the specified pattern*](constructor/auth.sentCodeTypeFlashCall)
+:link: [*The code will be sent via a flash phone call, that will be closed immediately\. The phone code will then be the phone number itself, just make sure that the phone number matches the specified pattern*](constructor/auth.sentCodeTypeFlashCall)
 
 ---
 
 ###### auth.sentCodeTypeMissedCall
 
-:link: [*The code will be sent via a flash phone call, that will be closed immediately. The last digits of the phone number that calls are the code that must be entered manually by the user*](constructor/auth.sentCodeTypeMissedCall)
+:link: [*The code will be sent via a flash phone call, that will be closed immediately\. The last digits of the phone number that calls are the code that must be entered manually by the user*](constructor/auth.sentCodeTypeMissedCall)
 
 ---
 
 ###### auth.sentCodeTypeEmailCode
 
-:link: [*The code was sent via the previously configured login email »*](constructor/auth.sentCodeTypeEmailCode)
+:link: [*The code was sent via the previously configured login email &raquo;*](constructor/auth.sentCodeTypeEmailCode)
 
 ---
 
 ###### auth.sentCodeTypeSetUpEmailRequired
 
-:link: [*The user should add and verify an email address in order to login as described here »*](constructor/auth.sentCodeTypeSetUpEmailRequired)
+:link: [*The user should add and verify an email address in order to login as described here &raquo;*](constructor/auth.sentCodeTypeSetUpEmailRequired)
 
 ---
 
 ###### auth.sentCodeTypeFragmentSms
 
-:link: [*The code was delivered via fragment.com*](constructor/auth.sentCodeTypeFragmentSms)
+:link: [*The code was delivered via fragment\.com*](constructor/auth.sentCodeTypeFragmentSms)
 
 ---
 
 ###### auth.sentCodeTypeFirebaseSms
 
-:link: [*An authentication code should be delivered via SMS after Firebase attestation, as described in the auth documentation »*](constructor/auth.sentCodeTypeFirebaseSms)
+:link: [*An authentication code should be delivered via SMS after Firebase attestation, as described in the auth documentation &raquo;*](constructor/auth.sentCodeTypeFirebaseSms)
 
 ---
 
@@ -4066,7 +4066,7 @@ This filter will automatically remove anonymous admins, and return even non-part
 
 ###### inputBotInlineMessageID
 
-:link: [*Represents a sent inline message from the perspective of a bot (legacy constructor)*](constructor/inputBotInlineMessageID)
+:link: [*Represents a sent inline message from the perspective of a bot \(legacy constructor\)*](constructor/inputBotInlineMessageID)
 
 ---
 
@@ -4108,13 +4108,13 @@ This filter will automatically remove anonymous admins, and return even non-part
 
 ###### topPeerCategoryCorrespondents
 
-:link: [*Users we've chatted most frequently with*](constructor/topPeerCategoryCorrespondents)
+:link: [*Users we&#039;ve chatted most frequently with*](constructor/topPeerCategoryCorrespondents)
 
 ---
 
 ###### topPeerCategoryGroups
 
-:link: [*Often-opened groups and supergroups*](constructor/topPeerCategoryGroups)
+:link: [*Often\-opened groups and supergroups*](constructor/topPeerCategoryGroups)
 
 ---
 
@@ -4156,7 +4156,7 @@ This filter will automatically remove anonymous admins, and return even non-part
 
 ###### contacts.topPeersNotModified
 
-:link: [*Top peer info hasn't changed*](constructor/contacts.topPeersNotModified)
+:link: [*Top peer info hasn&#039;t changed*](constructor/contacts.topPeersNotModified)
 
 ---
 
@@ -4186,7 +4186,7 @@ This filter will automatically remove anonymous admins, and return even non-part
 
 ###### messages.featuredStickersNotModified
 
-:link: [*Featured stickers haven't changed*](constructor/messages.featuredStickersNotModified)
+:link: [*Featured stickers haven&#039;t changed*](constructor/messages.featuredStickersNotModified)
 
 ---
 
@@ -4240,8 +4240,8 @@ This filter will automatically remove anonymous admins, and return even non-part
 
 ###### stickerSetFullCovered
 
-:link: [*Stickerset preview with all stickers of the stickerset included.
-Currently used only for custom emoji stickersets, to avoid a further call to messages.getStickerSet*](constructor/stickerSetFullCovered)
+:link: [*Stickerset preview with all stickers of the stickerset included\.
+Currently used only for custom emoji stickersets, to avoid a further call to messages\.getStickerSet*](constructor/stickerSetFullCovered)
 
 ---
 
@@ -4253,7 +4253,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### maskCoords
 
-:link: [*Position on a photo where a mask should be placed when attaching stickers to media »*](constructor/maskCoords)
+:link: [*Position on a photo where a mask should be placed when attaching stickers to media &raquo;*](constructor/maskCoords)
 
 ---
 
@@ -4337,7 +4337,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### textFixed
 
-:link: [*fixed-width rich text*](constructor/textFixed)
+:link: [*fixed\-width rich text*](constructor/textFixed)
 
 ---
 
@@ -4439,7 +4439,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### pageBlockPreformatted
 
-:link: [*Preformatted (<pre> text)*](constructor/pageBlockPreformatted)
+:link: [*Preformatted \(&lt;pre&gt; text\)*](constructor/pageBlockPreformatted)
 
 ---
 
@@ -4457,7 +4457,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### pageBlockAnchor
 
-:link: [*Link to section within the page itself (like <a href="#target">anchor</a>)*](constructor/pageBlockAnchor)
+:link: [*Link to section within the page itself \(like &lt;a href=&quot;\#target&quot;&gt;anchor&lt;/a&gt;\)*](constructor/pageBlockAnchor)
 
 ---
 
@@ -4469,7 +4469,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### pageBlockBlockquote
 
-:link: [*Quote (equivalent to the HTML <blockquote>)*](constructor/pageBlockBlockquote)
+:link: [*Quote \(equivalent to the HTML &lt;blockquote&gt;\)*](constructor/pageBlockBlockquote)
 
 ---
 
@@ -4601,7 +4601,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### dataJSON
 
-:link: [*Represents a json-encoded object*](constructor/dataJSON)
+:link: [*Represents a json\-encoded object*](constructor/dataJSON)
 
 ---
 
@@ -4661,25 +4661,25 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### inputWebFileLocation
 
-:link: [*Location of a remote HTTP(s) file*](constructor/inputWebFileLocation)
+:link: [*Location of a remote HTTP\(s\) file*](constructor/inputWebFileLocation)
 
 ---
 
 ###### inputWebFileGeoPointLocation
 
-:link: [*Used to download a server-generated image with the map preview from a geoPoint, see the webfile docs for more info »*](constructor/inputWebFileGeoPointLocation)
+:link: [*Used to download a server\-generated image with the map preview from a geoPoint, see the webfile docs for more info &raquo;*](constructor/inputWebFileGeoPointLocation)
 
 ---
 
 ###### inputWebFileAudioAlbumThumbLocation
 
-:link: [*Used to download an album cover for any music file using upload.getWebFile, see the webfile docs for more info »*](constructor/inputWebFileAudioAlbumThumbLocation)
+:link: [*Used to download an album cover for any music file using upload\.getWebFile, see the webfile docs for more info &raquo;*](constructor/inputWebFileAudioAlbumThumbLocation)
 
 ---
 
 ###### upload.webFile
 
-:link: [*Represents a chunk of an HTTP webfile downloaded through telegram's secure MTProto servers*](constructor/upload.webFile)
+:link: [*Represents a chunk of an HTTP webfile downloaded through telegram&#039;s secure MTProto servers*](constructor/upload.webFile)
 
 ---
 
@@ -4691,19 +4691,19 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### payments.paymentFormStars
 
-:link: [*Represents a payment form, for payments to be using Telegram Stars, see here » for more info*](constructor/payments.paymentFormStars)
+:link: [*Represents a payment form, for payments to be using Telegram Stars, see here &raquo; for more info*](constructor/payments.paymentFormStars)
 
 ---
 
 ###### payments.paymentFormStarGift
 
-:link: [*Represents a payment form for a gift, see here » for more info*](constructor/payments.paymentFormStarGift)
+:link: [*Represents a payment form for a gift, see here &raquo; for more info*](constructor/payments.paymentFormStarGift)
 
 ---
 
 ###### payments.validatedRequestedInfo
 
-:link: [*Validated user-provided info*](constructor/payments.validatedRequestedInfo)
+:link: [*Validated user\-provided info*](constructor/payments.validatedRequestedInfo)
 
 ---
 
@@ -4733,7 +4733,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### payments.savedInfo
 
-:link: [*Saved server-side order information*](constructor/payments.savedInfo)
+:link: [*Saved server\-side order information*](constructor/payments.savedInfo)
 
 ---
 
@@ -4847,7 +4847,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### upload.cdnFileReuploadNeeded
 
-:link: [*The file was cleared from the temporary RAM cache of the CDN and has to be re-uploaded*](constructor/upload.cdnFileReuploadNeeded)
+:link: [*The file was cleared from the temporary RAM cache of the CDN and has to be re\-uploaded*](constructor/upload.cdnFileReuploadNeeded)
 
 ---
 
@@ -4877,7 +4877,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### langPackStringPluralized
 
-:link: [*A language pack string which has different forms based on the number of some object it mentions. See https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html for more info*](constructor/langPackStringPluralized)
+:link: [*A language pack string which has different forms based on the number of some object it mentions\. See https://www\.unicode\.org/cldr/charts/latest/supplemental/language\_plural\_rules\.html for more info*](constructor/langPackStringPluralized)
 
 ---
 
@@ -4889,7 +4889,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### langPackDifference
 
-:link: [*Changes to the app's localization pack*](constructor/langPackDifference)
+:link: [*Changes to the app&#039;s localization pack*](constructor/langPackDifference)
 
 ---
 
@@ -4919,7 +4919,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### channelAdminLogEventActionChangePhoto
 
-:link: [*The channel/supergroup's picture was changed*](constructor/channelAdminLogEventActionChangePhoto)
+:link: [*The channel/supergroup&#039;s picture was changed*](constructor/channelAdminLogEventActionChangePhoto)
 
 ---
 
@@ -4955,13 +4955,13 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### channelAdminLogEventActionParticipantJoin
 
-:link: [*A user has joined the group (in the case of big groups, info of the user that has joined isn't shown)*](constructor/channelAdminLogEventActionParticipantJoin)
+:link: [*A user has joined the group \(in the case of big groups, info of the user that has joined isn&#039;t shown\)*](constructor/channelAdminLogEventActionParticipantJoin)
 
 ---
 
 ###### channelAdminLogEventActionParticipantLeave
 
-:link: [*A user left the channel/supergroup (in the case of big groups, info of the user that has joined isn't shown)*](constructor/channelAdminLogEventActionParticipantLeave)
+:link: [*A user left the channel/supergroup \(in the case of big groups, info of the user that has joined isn&#039;t shown\)*](constructor/channelAdminLogEventActionParticipantLeave)
 
 ---
 
@@ -4985,7 +4985,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### channelAdminLogEventActionChangeStickerSet
 
-:link: [*The supergroup's stickerset was changed*](constructor/channelAdminLogEventActionChangeStickerSet)
+:link: [*The supergroup&#039;s stickerset was changed*](constructor/channelAdminLogEventActionChangeStickerSet)
 
 ---
 
@@ -5081,13 +5081,13 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### channelAdminLogEventActionParticipantVolume
 
-:link: [*channelAdminLogEvent.user_id has set the volume of participant.peer to participant.volume*](constructor/channelAdminLogEventActionParticipantVolume)
+:link: [*channelAdminLogEvent\.user\_id has set the volume of participant\.peer to participant\.volume*](constructor/channelAdminLogEventActionParticipantVolume)
 
 ---
 
 ###### channelAdminLogEventActionChangeHistoryTTL
 
-:link: [*The Time-To-Live of messages in this chat was changed*](constructor/channelAdminLogEventActionChangeHistoryTTL)
+:link: [*The Time\-To\-Live of messages in this chat was changed*](constructor/channelAdminLogEventActionChangeHistoryTTL)
 
 ---
 
@@ -5111,7 +5111,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### channelAdminLogEventActionChangeAvailableReactions
 
-:link: [*The set of allowed message reactions » for this channel has changed*](constructor/channelAdminLogEventActionChangeAvailableReactions)
+:link: [*The set of allowed message reactions &raquo; for this channel has changed*](constructor/channelAdminLogEventActionChangeAvailableReactions)
 
 ---
 
@@ -5183,7 +5183,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### channelAdminLogEventActionChangeEmojiStickerSet
 
-:link: [*The supergroup's custom emoji stickerset was changed*](constructor/channelAdminLogEventActionChangeEmojiStickerSet)
+:link: [*The supergroup&#039;s custom emoji stickerset was changed*](constructor/channelAdminLogEventActionChangeEmojiStickerSet)
 
 ---
 
@@ -5195,7 +5195,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### channelAdminLogEventActionParticipantSubExtend
 
-:link: [*A paid subscriber has extended their Telegram Star subscription »*](constructor/channelAdminLogEventActionParticipantSubExtend)
+:link: [*A paid subscriber has extended their Telegram Star subscription &raquo;*](constructor/channelAdminLogEventActionParticipantSubExtend)
 
 ---
 
@@ -5243,43 +5243,43 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### recentMeUrlUnknown
 
-:link: [*Unknown t.me url*](constructor/recentMeUrlUnknown)
+:link: [*Unknown t\.me url*](constructor/recentMeUrlUnknown)
 
 ---
 
 ###### recentMeUrlUser
 
-:link: [*Recent t.me link to a user*](constructor/recentMeUrlUser)
+:link: [*Recent t\.me link to a user*](constructor/recentMeUrlUser)
 
 ---
 
 ###### recentMeUrlChat
 
-:link: [*Recent t.me link to a chat*](constructor/recentMeUrlChat)
+:link: [*Recent t\.me link to a chat*](constructor/recentMeUrlChat)
 
 ---
 
 ###### recentMeUrlChatInvite
 
-:link: [*Recent t.me invite link to a chat*](constructor/recentMeUrlChatInvite)
+:link: [*Recent t\.me invite link to a chat*](constructor/recentMeUrlChatInvite)
 
 ---
 
 ###### recentMeUrlStickerSet
 
-:link: [*Recent t.me stickerset installation URL*](constructor/recentMeUrlStickerSet)
+:link: [*Recent t\.me stickerset installation URL*](constructor/recentMeUrlStickerSet)
 
 ---
 
 ###### help.recentMeUrls
 
-:link: [*Recent t.me URLs*](constructor/help.recentMeUrls)
+:link: [*Recent t\.me URLs*](constructor/help.recentMeUrls)
 
 ---
 
 ###### inputSingleMedia
 
-:link: [*A single media in an album or grouped media sent with messages.sendMultiMedia*](constructor/inputSingleMedia)
+:link: [*A single media in an album or grouped media sent with messages\.sendMultiMedia*](constructor/inputSingleMedia)
 
 ---
 
@@ -5369,25 +5369,25 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### help.termsOfServiceUpdateEmpty
 
-:link: [*No changes were made to telegram's terms of service*](constructor/help.termsOfServiceUpdateEmpty)
+:link: [*No changes were made to telegram&#039;s terms of service*](constructor/help.termsOfServiceUpdateEmpty)
 
 ---
 
 ###### help.termsOfServiceUpdate
 
-:link: [*Info about an update of telegram's terms of service. If the terms of service are declined, then the account.deleteAccount method should be called with the reason "Decline ToS update"*](constructor/help.termsOfServiceUpdate)
+:link: [*Info about an update of telegram&#039;s terms of service\. If the terms of service are declined, then the account\.deleteAccount method should be called with the reason &quot;Decline ToS update&quot;*](constructor/help.termsOfServiceUpdate)
 
 ---
 
 ###### inputSecureFileUploaded
 
-:link: [*Uploaded secure file, for more info see the passport docs »*](constructor/inputSecureFileUploaded)
+:link: [*Uploaded secure file, for more info see the passport docs &raquo;*](constructor/inputSecureFileUploaded)
 
 ---
 
 ###### inputSecureFile
 
-:link: [*Pre-uploaded passport file, for more info see the passport docs »*](constructor/inputSecureFile)
+:link: [*Pre\-uploaded passport file, for more info see the passport docs &raquo;*](constructor/inputSecureFile)
 
 ---
 
@@ -5399,25 +5399,25 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### secureFile
 
-:link: [*Secure passport file, for more info see the passport docs »*](constructor/secureFile)
+:link: [*Secure passport file, for more info see the passport docs &raquo;*](constructor/secureFile)
 
 ---
 
 ###### secureData
 
-:link: [*Secure passport data, for more info see the passport docs »*](constructor/secureData)
+:link: [*Secure passport data, for more info see the passport docs &raquo;*](constructor/secureData)
 
 ---
 
 ###### securePlainPhone
 
-:link: [*Phone number to use in telegram passport: it must be verified, first »*](constructor/securePlainPhone)
+:link: [*Phone number to use in telegram passport: it must be verified, first &raquo;*](constructor/securePlainPhone)
 
 ---
 
 ###### securePlainEmail
 
-:link: [*Email address to use in telegram passport: it must be verified, first »*](constructor/securePlainEmail)
+:link: [*Email address to use in telegram passport: it must be verified, first &raquo;*](constructor/securePlainEmail)
 
 ---
 
@@ -5435,7 +5435,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### secureValueTypeDriverLicense
 
-:link: [*Driver's license*](constructor/secureValueTypeDriverLicense)
+:link: [*Driver&#039;s license*](constructor/secureValueTypeDriverLicense)
 
 ---
 
@@ -5507,7 +5507,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### inputSecureValue
 
-:link: [*Secure value, for more info see the passport docs »*](constructor/inputSecureValue)
+:link: [*Secure value, for more info see the passport docs &raquo;*](constructor/inputSecureValue)
 
 ---
 
@@ -5519,37 +5519,37 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### secureValueErrorData
 
-:link: [*Represents an issue in one of the data fields that was provided by the user. The error is considered resolved when the field's value changes*](constructor/secureValueErrorData)
+:link: [*Represents an issue in one of the data fields that was provided by the user\. The error is considered resolved when the field&#039;s value changes*](constructor/secureValueErrorData)
 
 ---
 
 ###### secureValueErrorFrontSide
 
-:link: [*Represents an issue with the front side of a document. The error is considered resolved when the file with the front side of the document changes*](constructor/secureValueErrorFrontSide)
+:link: [*Represents an issue with the front side of a document\. The error is considered resolved when the file with the front side of the document changes*](constructor/secureValueErrorFrontSide)
 
 ---
 
 ###### secureValueErrorReverseSide
 
-:link: [*Represents an issue with the reverse side of a document. The error is considered resolved when the file with reverse side of the document changes*](constructor/secureValueErrorReverseSide)
+:link: [*Represents an issue with the reverse side of a document\. The error is considered resolved when the file with reverse side of the document changes*](constructor/secureValueErrorReverseSide)
 
 ---
 
 ###### secureValueErrorSelfie
 
-:link: [*Represents an issue with the selfie with a document. The error is considered resolved when the file with the selfie changes*](constructor/secureValueErrorSelfie)
+:link: [*Represents an issue with the selfie with a document\. The error is considered resolved when the file with the selfie changes*](constructor/secureValueErrorSelfie)
 
 ---
 
 ###### secureValueErrorFile
 
-:link: [*Represents an issue with a document scan. The error is considered resolved when the file with the document scan changes*](constructor/secureValueErrorFile)
+:link: [*Represents an issue with a document scan\. The error is considered resolved when the file with the document scan changes*](constructor/secureValueErrorFile)
 
 ---
 
 ###### secureValueErrorFiles
 
-:link: [*Represents an issue with a list of scans. The error is considered resolved when the list of files containing the scans changes*](constructor/secureValueErrorFiles)
+:link: [*Represents an issue with a list of scans\. The error is considered resolved when the list of files containing the scans changes*](constructor/secureValueErrorFiles)
 
 ---
 
@@ -5561,13 +5561,13 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### secureValueErrorTranslationFile
 
-:link: [*Represents an issue with one of the files that constitute the translation of a document. The error is considered resolved when the file changes*](constructor/secureValueErrorTranslationFile)
+:link: [*Represents an issue with one of the files that constitute the translation of a document\. The error is considered resolved when the file changes*](constructor/secureValueErrorTranslationFile)
 
 ---
 
 ###### secureValueErrorTranslationFiles
 
-:link: [*Represents an issue with the translated version of a document. The error is considered resolved when a file with the document translation changes*](constructor/secureValueErrorTranslationFiles)
+:link: [*Represents an issue with the translated version of a document\. The error is considered resolved when a file with the document translation changes*](constructor/secureValueErrorTranslationFiles)
 
 ---
 
@@ -5615,7 +5615,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### passwordKdfAlgoUnknown
 
-:link: [*Unknown KDF (most likely, the client is outdated and does not support the specified KDF algorithm)*](constructor/passwordKdfAlgoUnknown)
+:link: [*Unknown KDF \(most likely, the client is outdated and does not support the specified KDF algorithm\)*](constructor/passwordKdfAlgoUnknown)
 
 ---
 
@@ -5627,7 +5627,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### securePasswordKdfAlgoUnknown
 
-:link: [*Unknown KDF algo (most likely the client has to be updated)*](constructor/securePasswordKdfAlgoUnknown)
+:link: [*Unknown KDF algo \(most likely the client has to be updated\)*](constructor/securePasswordKdfAlgoUnknown)
 
 ---
 
@@ -5657,7 +5657,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### inputCheckPasswordSRP
 
-:link: [*Constructor for checking the validity of a 2FA SRP password (see SRP)*](constructor/inputCheckPasswordSRP)
+:link: [*Constructor for checking the validity of a 2FA SRP password \(see SRP\)*](constructor/inputCheckPasswordSRP)
 
 ---
 
@@ -5849,7 +5849,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### chatBannedRights
 
-:link: [*Represents the rights of a normal user in a supergroup/channel/chat. In this case, the flags are inverted: if set, a flag does not allow a user to do X*](constructor/chatBannedRights)
+:link: [*Represents the rights of a normal user in a supergroup/channel/chat\. In this case, the flags are inverted: if set, a flag does not allow a user to do X*](constructor/chatBannedRights)
 
 ---
 
@@ -5861,13 +5861,13 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### inputWallPaperSlug
 
-:link: [*Wallpaper by slug (a unique ID, obtained from a wallpaper link »)*](constructor/inputWallPaperSlug)
+:link: [*Wallpaper by slug \(a unique ID, obtained from a wallpaper link &raquo;\)*](constructor/inputWallPaperSlug)
 
 ---
 
 ###### inputWallPaperNoFile
 
-:link: [*Wallpaper with no file access hash, used for example when deleting (unsave=true) wallpapers using account.saveWallPaper, specifying just the wallpaper ID*](constructor/inputWallPaperNoFile)
+:link: [*Wallpaper with no file access hash, used for example when deleting \(unsave=true\) wallpapers using account\.saveWallPaper, specifying just the wallpaper ID*](constructor/inputWallPaperNoFile)
 
 ---
 
@@ -5927,7 +5927,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### emojiURL
 
-:link: [*An HTTP URL which can be used to automatically log in into translation platform and suggest new emoji replacements. The URL will be valid for 30 seconds after generation*](constructor/emojiURL)
+:link: [*An HTTP URL which can be used to automatically log in into translation platform and suggest new emoji replacements\. The URL will be valid for 30 seconds after generation*](constructor/emojiURL)
 
 ---
 
@@ -5957,37 +5957,37 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### messages.searchCounter
 
-:link: [*Indicates how many results would be found by a messages.search call with the same parameters*](constructor/messages.searchCounter)
+:link: [*Indicates how many results would be found by a messages\.search call with the same parameters*](constructor/messages.searchCounter)
 
 ---
 
 ###### urlAuthResultRequest
 
-:link: [*Details about the authorization request, for more info click here »*](constructor/urlAuthResultRequest)
+:link: [*Details about the authorization request, for more info click here &raquo;*](constructor/urlAuthResultRequest)
 
 ---
 
 ###### urlAuthResultAccepted
 
-:link: [*Details about an accepted authorization request, for more info click here »*](constructor/urlAuthResultAccepted)
+:link: [*Details about an accepted authorization request, for more info click here &raquo;*](constructor/urlAuthResultAccepted)
 
 ---
 
 ###### urlAuthResultDefault
 
-:link: [*Details about an accepted authorization request, for more info click here »*](constructor/urlAuthResultDefault)
+:link: [*Details about an accepted authorization request, for more info click here &raquo;*](constructor/urlAuthResultDefault)
 
 ---
 
 ###### channelLocationEmpty
 
-:link: [*No location (normal supergroup)*](constructor/channelLocationEmpty)
+:link: [*No location \(normal supergroup\)*](constructor/channelLocationEmpty)
 
 ---
 
 ###### channelLocation
 
-:link: [*Geographical location of supergroup (geogroups)*](constructor/channelLocation)
+:link: [*Geographical location of supergroup \(geogroups\)*](constructor/channelLocation)
 
 ---
 
@@ -6041,7 +6041,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### auth.loginToken
 
-:link: [*Login token (for QR code login)*](constructor/auth.loginToken)
+:link: [*Login token \(for QR code login\)*](constructor/auth.loginToken)
 
 ---
 
@@ -6053,7 +6053,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### auth.loginTokenSuccess
 
-:link: [*Login via token (QR code) succeeded!*](constructor/auth.loginTokenSuccess)
+:link: [*Login via token \(QR code\) succeeded\!*](constructor/auth.loginTokenSuccess)
 
 ---
 
@@ -6125,7 +6125,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### webPageAttributeStickerSet
 
-:link: [*Contains info about a stickerset », for a webPage preview of a stickerset deep link » (the webPage will have a type of telegram_stickerset)*](constructor/webPageAttributeStickerSet)
+:link: [*Contains info about a stickerset &raquo;, for a webPage preview of a stickerset deep link &raquo; \(the webPage will have a type of telegram\_stickerset\)*](constructor/webPageAttributeStickerSet)
 
 ---
 
@@ -6155,7 +6155,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### payments.bankCardData
 
-:link: [*Credit card info, provided by the card's bank(s)*](constructor/payments.bankCardData)
+:link: [*Credit card info, provided by the card&#039;s bank\(s\)*](constructor/payments.bankCardData)
 
 ---
 
@@ -6167,13 +6167,13 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### dialogFilterDefault
 
-:link: [*Used only when reordering folders to indicate the default (all chats) folder*](constructor/dialogFilterDefault)
+:link: [*Used only when reordering folders to indicate the default \(all chats\) folder*](constructor/dialogFilterDefault)
 
 ---
 
 ###### dialogFilterChatlist
 
-:link: [*A folder imported using a chat folder deep link »*](constructor/dialogFilterChatlist)
+:link: [*A folder imported using a chat folder deep link &raquo;*](constructor/dialogFilterChatlist)
 
 ---
 
@@ -6197,14 +6197,14 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### statsPercentValue
 
-:link: [*Channel statistics percentage.
-Compute the percentage simply by doing part * total / 100*](constructor/statsPercentValue)
+:link: [*Channel statistics percentage\.
+Compute the percentage simply by doing part \* total / 100*](constructor/statsPercentValue)
 
 ---
 
 ###### statsGraphAsync
 
-:link: [*This channel statistics graph must be generated asynchronously using stats.loadAsyncGraph to reduce server load*](constructor/statsGraphAsync)
+:link: [*This channel statistics graph must be generated asynchronously using stats\.loadAsyncGraph to reduce server load*](constructor/statsGraphAsync)
 
 ---
 
@@ -6312,13 +6312,13 @@ Compute the percentage simply by doing part * total / 100*](constructor/statsPer
 
 ###### messageViews
 
-:link: [*View, forward counter + info about replies of a specific message*](constructor/messageViews)
+:link: [*View, forward counter \+ info about replies of a specific message*](constructor/messageViews)
 
 ---
 
 ###### messages.messageViews
 
-:link: [*View, forward counter + info about replies*](constructor/messages.messageViews)
+:link: [*View, forward counter \+ info about replies*](constructor/messages.messageViews)
 
 ---
 
@@ -6444,13 +6444,13 @@ Compute the percentage simply by doing part * total / 100*](constructor/statsPer
 
 ###### messages.historyImport
 
-:link: [*ID of a specific chat import session, click here for more info »*](constructor/messages.historyImport)
+:link: [*ID of a specific chat import session, click here for more info &raquo;*](constructor/messages.historyImport)
 
 ---
 
 ###### messages.historyImportParsed
 
-:link: [*Contains information about a chat export file generated by a foreign chat app, click here for more info.
+:link: [*Contains information about a chat export file generated by a foreign chat app, click here for more info\.
 If neither the pm or group flags are set, the specified chat export was generated from a chat of unknown type*](constructor/messages.historyImportParsed)
 
 ---
@@ -6505,7 +6505,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messages.checkedHistoryImportPeer
 
-:link: [*Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info »*](constructor/messages.checkedHistoryImportPeer)
+:link: [*Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info &raquo;*](constructor/messages.checkedHistoryImportPeer)
 
 ---
 
@@ -6619,7 +6619,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### searchResultsCalendarPeriod
 
-:link: [*Information about found messages sent on a specific day, used to split the messages in messages.searchResultsCalendar constructors by days*](constructor/searchResultsCalendarPeriod)
+:link: [*Information about found messages sent on a specific day, used to split the messages in messages\.searchResultsCalendar constructors by days*](constructor/searchResultsCalendarPeriod)
 
 ---
 
@@ -6661,7 +6661,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### auth.loggedOut
 
-:link: [*Future auth token » to be used on subsequent authorizations*](constructor/auth.loggedOut)
+:link: [*Future auth token &raquo; to be used on subsequent authorizations*](constructor/auth.loggedOut)
 
 ---
 
@@ -6673,7 +6673,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messageReactions
 
-:link: [*Message reactions »*](constructor/messageReactions)
+:link: [*Message reactions &raquo;*](constructor/messageReactions)
 
 ---
 
@@ -6697,7 +6697,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messages.availableReactions
 
-:link: [*Animations and metadata associated with message reactions »*](constructor/messages.availableReactions)
+:link: [*Animations and metadata associated with message reactions &raquo;*](constructor/messages.availableReactions)
 
 ---
 
@@ -6727,37 +6727,37 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### attachMenuBotIconColor
 
-:link: [*Represents an attachment menu icon color for bot mini apps »*](constructor/attachMenuBotIconColor)
+:link: [*Represents an attachment menu icon color for bot mini apps &raquo;*](constructor/attachMenuBotIconColor)
 
 ---
 
 ###### attachMenuBotIcon
 
-:link: [*Represents an attachment menu icon for bot mini apps »*](constructor/attachMenuBotIcon)
+:link: [*Represents an attachment menu icon for bot mini apps &raquo;*](constructor/attachMenuBotIcon)
 
 ---
 
 ###### attachMenuBot
 
-:link: [*Represents a bot mini app that can be launched from the attachment/side menu »*](constructor/attachMenuBot)
+:link: [*Represents a bot mini app that can be launched from the attachment/side menu &raquo;*](constructor/attachMenuBot)
 
 ---
 
 ###### attachMenuBotsNotModified
 
-:link: [*The list of bot mini apps hasn't changed*](constructor/attachMenuBotsNotModified)
+:link: [*The list of bot mini apps hasn&#039;t changed*](constructor/attachMenuBotsNotModified)
 
 ---
 
 ###### attachMenuBots
 
-:link: [*Represents a list of bot mini apps that can be launched from the attachment menu »*](constructor/attachMenuBots)
+:link: [*Represents a list of bot mini apps that can be launched from the attachment menu &raquo;*](constructor/attachMenuBots)
 
 ---
 
 ###### attachMenuBotsBot
 
-:link: [*Represents a bot mini app that can be launched from the attachment menu »*](constructor/attachMenuBotsBot)
+:link: [*Represents a bot mini app that can be launched from the attachment menu &raquo;*](constructor/attachMenuBotsBot)
 
 ---
 
@@ -6793,7 +6793,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### account.savedRingtonesNotModified
 
-:link: [*The notification sound list hasn't changed*](constructor/account.savedRingtonesNotModified)
+:link: [*The notification sound list hasn&#039;t changed*](constructor/account.savedRingtonesNotModified)
 
 ---
 
@@ -6847,13 +6847,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### attachMenuPeerTypeBotPM
 
-:link: [*The bot attachment menu entry is available in private chats with other bots (excluding the bot that offers the current attachment menu)*](constructor/attachMenuPeerTypeBotPM)
+:link: [*The bot attachment menu entry is available in private chats with other bots \(excluding the bot that offers the current attachment menu\)*](constructor/attachMenuPeerTypeBotPM)
 
 ---
 
 ###### attachMenuPeerTypePM
 
-:link: [*The bot attachment menu entry is available in private chats with other users (not bots)*](constructor/attachMenuPeerTypePM)
+:link: [*The bot attachment menu entry is available in private chats with other users \(not bots\)*](constructor/attachMenuPeerTypePM)
 
 ---
 
@@ -6871,13 +6871,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### inputInvoiceMessage
 
-:link: [*An invoice contained in a messageMediaInvoice message or paid media »*](constructor/inputInvoiceMessage)
+:link: [*An invoice contained in a messageMediaInvoice message or paid media &raquo;*](constructor/inputInvoiceMessage)
 
 ---
 
 ###### inputInvoiceSlug
 
-:link: [*An invoice slug taken from an invoice deep link or from the premium_invoice_slug app config parameter »*](constructor/inputInvoiceSlug)
+:link: [*An invoice slug taken from an invoice deep link or from the premium\_invoice\_slug app config parameter &raquo;*](constructor/inputInvoiceSlug)
 
 ---
 
@@ -6889,19 +6889,19 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### inputInvoiceStars
 
-:link: [*Used to top up the Telegram Stars balance of the current account or someone else's account, or to start a Telegram Star giveaway »*](constructor/inputInvoiceStars)
+:link: [*Used to top up the Telegram Stars balance of the current account or someone else&#039;s account, or to start a Telegram Star giveaway &raquo;*](constructor/inputInvoiceStars)
 
 ---
 
 ###### inputInvoiceChatInviteSubscription
 
-:link: [*Used to pay for a Telegram Star subscription »*](constructor/inputInvoiceChatInviteSubscription)
+:link: [*Used to pay for a Telegram Star subscription &raquo;*](constructor/inputInvoiceChatInviteSubscription)
 
 ---
 
 ###### inputInvoiceStarGift
 
-:link: [*Used to buy a Telegram Star Gift, see here » for more info*](constructor/inputInvoiceStarGift)
+:link: [*Used to buy a Telegram Star Gift, see here &raquo; for more info*](constructor/inputInvoiceStarGift)
 
 ---
 
@@ -6943,7 +6943,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messages.transcribedAudio
 
-:link: [*Transcribed text from a voice message »*](constructor/messages.transcribedAudio)
+:link: [*Transcribed text from a voice message &raquo;*](constructor/messages.transcribedAudio)
 
 ---
 
@@ -6967,13 +6967,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### inputStorePaymentPremiumGiftCode
 
-:link: [*Used to gift Telegram Premium subscriptions only to some specific subscribers of a channel/supergroup or to some of our contacts, see here » for more info on giveaways and gifts*](constructor/inputStorePaymentPremiumGiftCode)
+:link: [*Used to gift Telegram Premium subscriptions only to some specific subscribers of a channel/supergroup or to some of our contacts, see here &raquo; for more info on giveaways and gifts*](constructor/inputStorePaymentPremiumGiftCode)
 
 ---
 
 ###### inputStorePaymentPremiumGiveaway
 
-:link: [*Used to pay for a giveaway, see here » for more info*](constructor/inputStorePaymentPremiumGiveaway)
+:link: [*Used to pay for a giveaway, see here &raquo; for more info*](constructor/inputStorePaymentPremiumGiveaway)
 
 ---
 
@@ -6991,7 +6991,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### inputStorePaymentStarsGiveaway
 
-:link: [*Used to pay for a star giveaway, see here » for more info*](constructor/inputStorePaymentStarsGiveaway)
+:link: [*Used to pay for a star giveaway, see here &raquo; for more info*](constructor/inputStorePaymentStarsGiveaway)
 
 ---
 
@@ -7033,7 +7033,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### account.emojiStatusesNotModified
 
-:link: [*The server-side list of emoji statuses hasn't changed*](constructor/account.emojiStatusesNotModified)
+:link: [*The server\-side list of emoji statuses hasn&#039;t changed*](constructor/account.emojiStatusesNotModified)
 
 ---
 
@@ -7063,7 +7063,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### reactionPaid
 
-:link: [*Represents a paid Telegram Star reaction »*](constructor/reactionPaid)
+:link: [*Represents a paid Telegram Star reaction &raquo;*](constructor/reactionPaid)
 
 ---
 
@@ -7075,7 +7075,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### chatReactionsAll
 
-:link: [*All reactions or all non-custom reactions are allowed*](constructor/chatReactionsAll)
+:link: [*All reactions or all non\-custom reactions are allowed*](constructor/chatReactionsAll)
 
 ---
 
@@ -7087,7 +7087,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messages.reactionsNotModified
 
-:link: [*The server-side list of message reactions hasn't changed*](constructor/messages.reactionsNotModified)
+:link: [*The server\-side list of message reactions hasn&#039;t changed*](constructor/messages.reactionsNotModified)
 
 ---
 
@@ -7159,13 +7159,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messageExtendedMediaPreview
 
-:link: [*Paid media preview for not yet purchased paid media, see here » for more info*](constructor/messageExtendedMediaPreview)
+:link: [*Paid media preview for not yet purchased paid media, see here &raquo; for more info*](constructor/messageExtendedMediaPreview)
 
 ---
 
 ###### messageExtendedMedia
 
-:link: [*Already purchased paid media, see here » for more info*](constructor/messageExtendedMedia)
+:link: [*Already purchased paid media, see here &raquo; for more info*](constructor/messageExtendedMedia)
 
 ---
 
@@ -7201,7 +7201,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### defaultHistoryTTL
 
-:link: [*Contains info about the default value of the Time-To-Live setting, applied to all new chats*](constructor/defaultHistoryTTL)
+:link: [*Contains info about the default value of the Time\-To\-Live setting, applied to all new chats*](constructor/defaultHistoryTTL)
 
 ---
 
@@ -7231,7 +7231,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### emojiListNotModified
 
-:link: [*The list of custom emojis hasn't changed*](constructor/emojiListNotModified)
+:link: [*The list of custom emojis hasn&#039;t changed*](constructor/emojiListNotModified)
 
 ---
 
@@ -7255,13 +7255,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### emojiGroupPremium
 
-:link: [*An emoji category, used to select all Premium-only stickers (i.e. those with a Premium effect »)/Premium-only custom emojis (i.e. those where the documentAttributeCustomEmoji.free flag is not set)*](constructor/emojiGroupPremium)
+:link: [*An emoji category, used to select all Premium\-only stickers \(i\.e\. those with a Premium effect &raquo;\)/Premium\-only custom emojis \(i\.e\. those where the documentAttributeCustomEmoji\.free flag is not set\)*](constructor/emojiGroupPremium)
 
 ---
 
 ###### messages.emojiGroupsNotModified
 
-:link: [*The list of emoji categories hasn't changed*](constructor/messages.emojiGroupsNotModified)
+:link: [*The list of emoji categories hasn&#039;t changed*](constructor/messages.emojiGroupsNotModified)
 
 ---
 
@@ -7291,7 +7291,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### autoSaveException
 
-:link: [*Peer-specific media autosave settings*](constructor/autoSaveException)
+:link: [*Peer\-specific media autosave settings*](constructor/autoSaveException)
 
 ---
 
@@ -7303,7 +7303,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### help.appConfigNotModified
 
-:link: [*The client configuration parameters haven't changed*](constructor/help.appConfigNotModified)
+:link: [*The client configuration parameters haven&#039;t changed*](constructor/help.appConfigNotModified)
 
 ---
 
@@ -7327,7 +7327,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### botAppNotModified
 
-:link: [*Bot app info hasn't changed*](constructor/botAppNotModified)
+:link: [*Bot app info hasn&#039;t changed*](constructor/botAppNotModified)
 
 ---
 
@@ -7363,37 +7363,37 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### exportedChatlistInvite
 
-:link: [*Exported chat folder deep link »*](constructor/exportedChatlistInvite)
+:link: [*Exported chat folder deep link &raquo;*](constructor/exportedChatlistInvite)
 
 ---
 
 ###### chatlists.exportedChatlistInvite
 
-:link: [*Info about an exported chat folder deep link »*](constructor/chatlists.exportedChatlistInvite)
+:link: [*Info about an exported chat folder deep link &raquo;*](constructor/chatlists.exportedChatlistInvite)
 
 ---
 
 ###### chatlists.exportedInvites
 
-:link: [*Info about multiple chat folder deep links »*](constructor/chatlists.exportedInvites)
+:link: [*Info about multiple chat folder deep links &raquo;*](constructor/chatlists.exportedInvites)
 
 ---
 
 ###### chatlists.chatlistInviteAlready
 
-:link: [*Updated info about a chat folder deep link » we already imported*](constructor/chatlists.chatlistInviteAlready)
+:link: [*Updated info about a chat folder deep link &raquo; we already imported*](constructor/chatlists.chatlistInviteAlready)
 
 ---
 
 ###### chatlists.chatlistInvite
 
-:link: [*Info about a chat folder deep link »*](constructor/chatlists.chatlistInvite)
+:link: [*Info about a chat folder deep link &raquo;*](constructor/chatlists.chatlistInvite)
 
 ---
 
 ###### chatlists.chatlistUpdates
 
-:link: [*Updated information about a chat folder deep link »*](constructor/chatlists.chatlistUpdates)
+:link: [*Updated information about a chat folder deep link &raquo;*](constructor/chatlists.chatlistUpdates)
 
 ---
 
@@ -7411,13 +7411,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messagePeerVoteInputOption
 
-:link: [*How a peer voted in a poll (reduced constructor, returned if an option was provided to messages.getPollVotes)*](constructor/messagePeerVoteInputOption)
+:link: [*How a peer voted in a poll \(reduced constructor, returned if an option was provided to messages\.getPollVotes\)*](constructor/messagePeerVoteInputOption)
 
 ---
 
 ###### messagePeerVoteMultiple
 
-:link: [*How a peer voted in a multiple-choice poll*](constructor/messagePeerVoteMultiple)
+:link: [*How a peer voted in a multiple\-choice poll*](constructor/messagePeerVoteMultiple)
 
 ---
 
@@ -7435,7 +7435,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### storyItemSkipped
 
-:link: [*Represents an active story, whose full information was omitted for space and performance reasons; use stories.getStoriesByID to fetch full info about the skipped story when and if needed*](constructor/storyItemSkipped)
+:link: [*Represents an active story, whose full information was omitted for space and performance reasons; use stories\.getStoriesByID to fetch full info about the skipped story when and if needed*](constructor/storyItemSkipped)
 
 ---
 
@@ -7447,13 +7447,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### stories.allStoriesNotModified
 
-:link: [*The list of active (or active and hidden) stories has not changed*](constructor/stories.allStoriesNotModified)
+:link: [*The list of active \(or active and hidden\) stories has not changed*](constructor/stories.allStoriesNotModified)
 
 ---
 
 ###### stories.allStories
 
-:link: [*Full list of active (or active and hidden) stories*](constructor/stories.allStories)
+:link: [*Full list of active \(or active and hidden\) stories*](constructor/stories.allStories)
 
 ---
 
@@ -7573,7 +7573,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### mediaAreaWeather
 
-:link: [*Represents a weather widget »*](constructor/mediaAreaWeather)
+:link: [*Represents a weather widget &raquo;*](constructor/mediaAreaWeather)
 
 ---
 
@@ -7627,13 +7627,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### prepaidGiveaway
 
-:link: [*Contains info about a prepaid giveaway »*](constructor/prepaidGiveaway)
+:link: [*Contains info about a prepaid giveaway &raquo;*](constructor/prepaidGiveaway)
 
 ---
 
 ###### prepaidStarsGiveaway
 
-:link: [*Contains info about a prepaid Telegram Star giveaway »*](constructor/prepaidStarsGiveaway)
+:link: [*Contains info about a prepaid Telegram Star giveaway &raquo;*](constructor/prepaidStarsGiveaway)
 
 ---
 
@@ -7651,7 +7651,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### myBoost
 
-:link: [*Contains information about a single boost slot »*](constructor/myBoost)
+:link: [*Contains information about a single boost slot &raquo;*](constructor/myBoost)
 
 ---
 
@@ -7711,25 +7711,25 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### peerColor
 
-:link: [*Represents a color palette »*](constructor/peerColor)
+:link: [*Represents a color palette &raquo;*](constructor/peerColor)
 
 ---
 
 ###### help.peerColorSet
 
-:link: [*Represents a color palette that can be used in message accents »*](constructor/help.peerColorSet)
+:link: [*Represents a color palette that can be used in message accents &raquo;*](constructor/help.peerColorSet)
 
 ---
 
 ###### help.peerColorProfileSet
 
-:link: [*Represents a color palette that can be used in profile pages »*](constructor/help.peerColorProfileSet)
+:link: [*Represents a color palette that can be used in profile pages &raquo;*](constructor/help.peerColorProfileSet)
 
 ---
 
 ###### help.peerColorOption
 
-:link: [*Contains info about a color palette »*](constructor/help.peerColorOption)
+:link: [*Contains info about a color palette &raquo;*](constructor/help.peerColorOption)
 
 ---
 
@@ -7741,7 +7741,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### help.peerColors
 
-:link: [*Contains info about multiple color palettes »*](constructor/help.peerColors)
+:link: [*Contains info about multiple color palettes &raquo;*](constructor/help.peerColors)
 
 ---
 
@@ -7771,7 +7771,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### savedDialog
 
-:link: [*Represents a saved dialog »*](constructor/savedDialog)
+:link: [*Represents a saved dialog &raquo;*](constructor/savedDialog)
 
 ---
 
@@ -7783,37 +7783,37 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messages.savedDialogs
 
-:link: [*Represents some saved message dialogs »*](constructor/messages.savedDialogs)
+:link: [*Represents some saved message dialogs &raquo;*](constructor/messages.savedDialogs)
 
 ---
 
 ###### messages.savedDialogsSlice
 
-:link: [*Incomplete list of saved message dialogs » with messages and auxiliary data*](constructor/messages.savedDialogsSlice)
+:link: [*Incomplete list of saved message dialogs &raquo; with messages and auxiliary data*](constructor/messages.savedDialogsSlice)
 
 ---
 
 ###### messages.savedDialogsNotModified
 
-:link: [*The saved dialogs haven't changed*](constructor/messages.savedDialogsNotModified)
+:link: [*The saved dialogs haven&#039;t changed*](constructor/messages.savedDialogsNotModified)
 
 ---
 
 ###### savedReactionTag
 
-:link: [*Info about a saved message reaction tag »*](constructor/savedReactionTag)
+:link: [*Info about a saved message reaction tag &raquo;*](constructor/savedReactionTag)
 
 ---
 
 ###### messages.savedReactionTagsNotModified
 
-:link: [*The list of reaction tag » names assigned by the user hasn't changed*](constructor/messages.savedReactionTagsNotModified)
+:link: [*The list of reaction tag &raquo; names assigned by the user hasn&#039;t changed*](constructor/messages.savedReactionTagsNotModified)
 
 ---
 
 ###### messages.savedReactionTags
 
-:link: [*List of reaction tag » names assigned by the user*](constructor/messages.savedReactionTags)
+:link: [*List of reaction tag &raquo; names assigned by the user*](constructor/messages.savedReactionTags)
 
 ---
 
@@ -7855,19 +7855,19 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### businessLocation
 
-:link: [*Represents the location of a Telegram Business »*](constructor/businessLocation)
+:link: [*Represents the location of a Telegram Business &raquo;*](constructor/businessLocation)
 
 ---
 
 ###### inputBusinessRecipients
 
-:link: [*Specifies the chats that can receive Telegram Business away » and greeting » messages*](constructor/inputBusinessRecipients)
+:link: [*Specifies the chats that can receive Telegram Business away &raquo; and greeting &raquo; messages*](constructor/inputBusinessRecipients)
 
 ---
 
 ###### businessRecipients
 
-:link: [*Specifies the chats that can receive Telegram Business away » and greeting » messages*](constructor/businessRecipients)
+:link: [*Specifies the chats that can receive Telegram Business away &raquo; and greeting &raquo; messages*](constructor/businessRecipients)
 
 ---
 
@@ -7903,13 +7903,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### inputBusinessAwayMessage
 
-:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*](constructor/inputBusinessAwayMessage)
+:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we&#039;re offline, during closing hours, while we&#039;re on vacation, or in some other custom time period when we cannot immediately answer to the user*](constructor/inputBusinessAwayMessage)
 
 ---
 
 ###### businessAwayMessage
 
-:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*](constructor/businessAwayMessage)
+:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we&#039;re offline, during closing hours, while we&#039;re on vacation, or in some other custom time period when we cannot immediately answer to the user*](constructor/businessAwayMessage)
 
 ---
 
@@ -7927,7 +7927,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### help.timezonesList
 
-:link: [*Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »*](constructor/help.timezonesList)
+:link: [*Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours &raquo;*](constructor/help.timezonesList)
 
 ---
 
@@ -7951,19 +7951,19 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messages.quickReplies
 
-:link: [*Info about quick reply shortcuts »*](constructor/messages.quickReplies)
+:link: [*Info about quick reply shortcuts &raquo;*](constructor/messages.quickReplies)
 
 ---
 
 ###### messages.quickRepliesNotModified
 
-:link: [*Info about quick reply shortcuts » hasn't changed*](constructor/messages.quickRepliesNotModified)
+:link: [*Info about quick reply shortcuts &raquo; hasn&#039;t changed*](constructor/messages.quickRepliesNotModified)
 
 ---
 
 ###### connectedBot
 
-:link: [*Contains info about a connected business bot »*](constructor/connectedBot)
+:link: [*Contains info about a connected business bot &raquo;*](constructor/connectedBot)
 
 ---
 
@@ -7993,19 +7993,19 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### inputBusinessIntro
 
-:link: [*Telegram Business introduction »*](constructor/inputBusinessIntro)
+:link: [*Telegram Business introduction &raquo;*](constructor/inputBusinessIntro)
 
 ---
 
 ###### businessIntro
 
-:link: [*Telegram Business introduction »*](constructor/businessIntro)
+:link: [*Telegram Business introduction &raquo;*](constructor/businessIntro)
 
 ---
 
 ###### messages.myStickers
 
-:link: [*The list of stickersets owned by the current account »*](constructor/messages.myStickers)
+:link: [*The list of stickersets owned by the current account &raquo;*](constructor/messages.myStickers)
 
 ---
 
@@ -8029,13 +8029,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### inputBusinessBotRecipients
 
-:link: [*Specifies the private chats that a connected business bot » may interact with*](constructor/inputBusinessBotRecipients)
+:link: [*Specifies the private chats that a connected business bot &raquo; may interact with*](constructor/inputBusinessBotRecipients)
 
 ---
 
 ###### businessBotRecipients
 
-:link: [*Specifies the private chats that a connected business bot » may receive messages and interact with*](constructor/businessBotRecipients)
+:link: [*Specifies the private chats that a connected business bot &raquo; may receive messages and interact with*](constructor/businessBotRecipients)
 
 ---
 
@@ -8053,67 +8053,67 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### missingInvitee
 
-:link: [*Info about why a specific user could not be invited »*](constructor/missingInvitee)
+:link: [*Info about why a specific user could not be invited &raquo;*](constructor/missingInvitee)
 
 ---
 
 ###### messages.invitedUsers
 
-:link: [*Contains info about successfully or unsuccessfully invited » users*](constructor/messages.invitedUsers)
+:link: [*Contains info about successfully or unsuccessfully invited &raquo; users*](constructor/messages.invitedUsers)
 
 ---
 
 ###### inputBusinessChatLink
 
-:link: [*Contains info about a business chat deep link » to be created by the current account*](constructor/inputBusinessChatLink)
+:link: [*Contains info about a business chat deep link &raquo; to be created by the current account*](constructor/inputBusinessChatLink)
 
 ---
 
 ###### businessChatLink
 
-:link: [*Contains info about a business chat deep link » created by the current account*](constructor/businessChatLink)
+:link: [*Contains info about a business chat deep link &raquo; created by the current account*](constructor/businessChatLink)
 
 ---
 
 ###### account.businessChatLinks
 
-:link: [*Contains info about business chat deep links » created by the current account*](constructor/account.businessChatLinks)
+:link: [*Contains info about business chat deep links &raquo; created by the current account*](constructor/account.businessChatLinks)
 
 ---
 
 ###### account.resolvedBusinessChatLinks
 
-:link: [*Contains info about a single resolved business chat deep link »*](constructor/account.resolvedBusinessChatLinks)
+:link: [*Contains info about a single resolved business chat deep link &raquo;*](constructor/account.resolvedBusinessChatLinks)
 
 ---
 
 ###### requestedPeerUser
 
-:link: [*Info about a user, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*](constructor/requestedPeerUser)
+:link: [*Info about a user, shared by a user with the currently logged in bot using messages\.sendBotRequestedPeer*](constructor/requestedPeerUser)
 
 ---
 
 ###### requestedPeerChat
 
-:link: [*Info about a chat, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*](constructor/requestedPeerChat)
+:link: [*Info about a chat, shared by a user with the currently logged in bot using messages\.sendBotRequestedPeer*](constructor/requestedPeerChat)
 
 ---
 
 ###### requestedPeerChannel
 
-:link: [*Info about a channel/supergroup, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*](constructor/requestedPeerChannel)
+:link: [*Info about a channel/supergroup, shared by a user with the currently logged in bot using messages\.sendBotRequestedPeer*](constructor/requestedPeerChannel)
 
 ---
 
 ###### sponsoredMessageReportOption
 
-:link: [*A report option for a sponsored message »*](constructor/sponsoredMessageReportOption)
+:link: [*A report option for a sponsored message &raquo;*](constructor/sponsoredMessageReportOption)
 
 ---
 
 ###### channels.sponsoredMessageReportResultChooseOption
 
-:link: [*The user must choose a report option from the localized options available in options, and after selection, channels.reportSponsoredMessage must be invoked again, passing the option's option field to the option param of the method*](constructor/channels.sponsoredMessageReportResultChooseOption)
+:link: [*The user must choose a report option from the localized options available in options, and after selection, channels\.reportSponsoredMessage must be invoked again, passing the option&#039;s option field to the option param of the method*](constructor/channels.sponsoredMessageReportResultChooseOption)
 
 ---
 
@@ -8143,31 +8143,31 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### reactionsNotifySettings
 
-:link: [*Reaction notification settings, see here » for more info*](constructor/reactionsNotifySettings)
+:link: [*Reaction notification settings, see here &raquo; for more info*](constructor/reactionsNotifySettings)
 
 ---
 
 ###### availableEffect
 
-:link: [*Represents a message effect »*](constructor/availableEffect)
+:link: [*Represents a message effect &raquo;*](constructor/availableEffect)
 
 ---
 
 ###### messages.availableEffectsNotModified
 
-:link: [*The full list of usable animated message effects » hasn't changed*](constructor/messages.availableEffectsNotModified)
+:link: [*The full list of usable animated message effects &raquo; hasn&#039;t changed*](constructor/messages.availableEffectsNotModified)
 
 ---
 
 ###### messages.availableEffects
 
-:link: [*The full list of usable animated message effects »*](constructor/messages.availableEffects)
+:link: [*The full list of usable animated message effects &raquo;*](constructor/messages.availableEffects)
 
 ---
 
 ###### factCheck
 
-:link: [*Represents a fact-check » created by an independent fact-checker*](constructor/factCheck)
+:link: [*Represents a fact\-check &raquo; created by an independent fact\-checker*](constructor/factCheck)
 
 ---
 
@@ -8191,7 +8191,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### starsTransactionPeerPremiumBot
 
-:link: [*Describes a Telegram Star transaction made using @PremiumBot (i.e. using the inputInvoiceStars flow described here »)*](constructor/starsTransactionPeerPremiumBot)
+:link: [*Describes a Telegram Star transaction made using @PremiumBot \(i\.e\. using the inputInvoiceStars flow described here &raquo;\)*](constructor/starsTransactionPeerPremiumBot)
 
 ---
 
@@ -8209,7 +8209,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### starsTransactionPeerAds
 
-:link: [*Describes a Telegram Star transaction used to pay for Telegram ads as specified here »*](constructor/starsTransactionPeerAds)
+:link: [*Describes a Telegram Star transaction used to pay for Telegram ads as specified here &raquo;*](constructor/starsTransactionPeerAds)
 
 ---
 
@@ -8227,25 +8227,25 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### starsTransaction
 
-:link: [*Represents a Telegram Stars transaction »*](constructor/starsTransaction)
+:link: [*Represents a Telegram Stars transaction &raquo;*](constructor/starsTransaction)
 
 ---
 
 ###### payments.starsStatus
 
-:link: [*Info about the current Telegram Star subscriptions, balance and transaction history »*](constructor/payments.starsStatus)
+:link: [*Info about the current Telegram Star subscriptions, balance and transaction history &raquo;*](constructor/payments.starsStatus)
 
 ---
 
 ###### foundStory
 
-:link: [*A story found using global story search »*](constructor/foundStory)
+:link: [*A story found using global story search &raquo;*](constructor/foundStory)
 
 ---
 
 ###### stories.foundStories
 
-:link: [*Stories found using global story search »*](constructor/stories.foundStories)
+:link: [*Stories found using global story search &raquo;*](constructor/stories.foundStories)
 
 ---
 
@@ -8257,13 +8257,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### starsRevenueStatus
 
-:link: [*Describes Telegram Star revenue balances »*](constructor/starsRevenueStatus)
+:link: [*Describes Telegram Star revenue balances &raquo;*](constructor/starsRevenueStatus)
 
 ---
 
 ###### payments.starsRevenueStats
 
-:link: [*Star revenue statistics, see here » for more info*](constructor/payments.starsRevenueStats)
+:link: [*Star revenue statistics, see here &raquo; for more info*](constructor/payments.starsRevenueStats)
 
 ---
 
@@ -8281,7 +8281,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### inputStarsTransaction
 
-:link: [*Used to fetch info about a Telegram Star transaction »*](constructor/inputStarsTransaction)
+:link: [*Used to fetch info about a Telegram Star transaction &raquo;*](constructor/inputStarsTransaction)
 
 ---
 
@@ -8293,31 +8293,31 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### bots.popularAppBots
 
-:link: [*Popular Main Mini Apps, to be used in the apps tab of global search »*](constructor/bots.popularAppBots)
+:link: [*Popular Main Mini Apps, to be used in the apps tab of global search &raquo;*](constructor/bots.popularAppBots)
 
 ---
 
 ###### botPreviewMedia
 
-:link: [*Represents a Main Mini App preview media, see here » for more info*](constructor/botPreviewMedia)
+:link: [*Represents a Main Mini App preview media, see here &raquo; for more info*](constructor/botPreviewMedia)
 
 ---
 
 ###### bots.previewInfo
 
-:link: [*Contains info about Main Mini App previews, see here » for more info*](constructor/bots.previewInfo)
+:link: [*Contains info about Main Mini App previews, see here &raquo; for more info*](constructor/bots.previewInfo)
 
 ---
 
 ###### starsSubscriptionPricing
 
-:link: [*Pricing of a Telegram Star subscription »*](constructor/starsSubscriptionPricing)
+:link: [*Pricing of a Telegram Star subscription &raquo;*](constructor/starsSubscriptionPricing)
 
 ---
 
 ###### starsSubscription
 
-:link: [*Represents a Telegram Star subscription »*](constructor/starsSubscription)
+:link: [*Represents a Telegram Star subscription &raquo;*](constructor/starsSubscription)
 
 ---
 
@@ -8341,7 +8341,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### starGift
 
-:link: [*Represents a star gift, see here » for more info*](constructor/starGift)
+:link: [*Represents a star gift, see here &raquo; for more info*](constructor/starGift)
 
 ---
 
@@ -8353,13 +8353,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### payments.starGiftsNotModified
 
-:link: [*The list of available gifts » hasn't changed*](constructor/payments.starGiftsNotModified)
+:link: [*The list of available gifts &raquo; hasn&#039;t changed*](constructor/payments.starGiftsNotModified)
 
 ---
 
 ###### payments.starGifts
 
-:link: [*Available gifts »*](constructor/payments.starGifts)
+:link: [*Available gifts &raquo;*](constructor/payments.starGifts)
 
 ---
 
@@ -8371,13 +8371,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### reportResultChooseOption
 
-:link: [*The user must choose one of the following options, and then messages.report must be re-invoked, passing the option's option identifier to messages.report.option*](constructor/reportResultChooseOption)
+:link: [*The user must choose one of the following options, and then messages\.report must be re\-invoked, passing the option&#039;s option identifier to messages\.report\.option*](constructor/reportResultChooseOption)
 
 ---
 
 ###### reportResultAddComment
 
-:link: [*The user should enter an additional comment for the moderators, and then messages.report must be re-invoked, passing the comment to messages.report.message*](constructor/reportResultAddComment)
+:link: [*The user should enter an additional comment for the moderators, and then messages\.report must be re\-invoked, passing the comment to messages\.report\.message*](constructor/reportResultAddComment)
 
 ---
 
@@ -8389,19 +8389,19 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### messages.botPreparedInlineMessage
 
-:link: [*Represents a prepared inline message saved by a bot, to be sent to the user via a web app »*](constructor/messages.botPreparedInlineMessage)
+:link: [*Represents a prepared inline message saved by a bot, to be sent to the user via a web app &raquo;*](constructor/messages.botPreparedInlineMessage)
 
 ---
 
 ###### messages.preparedInlineMessage
 
-:link: [*Represents a prepared inline message received via a bot's mini app, that can be sent to some chats »*](constructor/messages.preparedInlineMessage)
+:link: [*Represents a prepared inline message received via a bot&#039;s mini app, that can be sent to some chats &raquo;*](constructor/messages.preparedInlineMessage)
 
 ---
 
 ###### botAppSettings
 
-:link: [*Mini app » settings*](constructor/botAppSettings)
+:link: [*Mini app &raquo; settings*](constructor/botAppSettings)
 
 ---
 
@@ -8431,7 +8431,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ###### starsAmount
 
-:link: [*Describes a real (i.e. possibly decimal) amount of Telegram Stars*](constructor/starsAmount)
+:link: [*Describes a real \(i\.e\. possibly decimal\) amount of Telegram Stars*](constructor/starsAmount)
 
 ---
 

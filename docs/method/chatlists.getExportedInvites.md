@@ -1,6 +1,6 @@
 # chatlists.getExportedInvites
 
-**Description** : *List all chat folder deep links » associated to a folder*
+**Description** : *List all chat folder deep links &raquo; associated to a folder*
 
 **Layer** : 211
 
@@ -37,7 +37,7 @@ chatlists.getExportedInvites#ce03da83 chatlist:InputChatlist = chatlists.Exporte
 ```php
 $chatlistsExportedInvites = $client->chatlists->getExportedInvites(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 42,
+		filter_id : 0,
 	),
 );
 ```

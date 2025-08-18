@@ -33,7 +33,7 @@ requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true has_username:flag
 ```php
 $requestPeerType = $client->requestPeerTypeBroadcast(
 	creator : true,
-	has_username : $client->boolFalse(),
+	has_username : false,
 	user_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,

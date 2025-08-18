@@ -32,12 +32,12 @@ starGiftAttributeBackdrop#d93d859c name:string backdrop_id:int center_color:int 
 
 ```php
 $starGiftAttribute = $client->starGiftAttributeBackdrop(
-	name : 'xiKeXUHTOp97Zu0C',
-	backdrop_id : 58,
-	center_color : 49,
-	edge_color : 72,
-	pattern_color : 9,
-	text_color : 4,
-	rarity_permille : 37,
+	name : '2IQ47e9YNLkVg08v',
+	backdrop_id : 27,
+	center_color : 89,
+	edge_color : 61,
+	pattern_color : 51,
+	text_color : 79,
+	rarity_permille : 99,
 );
 ```

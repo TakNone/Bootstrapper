@@ -38,7 +38,7 @@ $messageMedia = $client->messageMediaWebPage(
 	manual : true,
 	safe : true,
 	webpage : $client->webPageEmpty(
-		id : -2988256300847180323,
+		id : 8527812751644268842,
 		url : 'https://docs.liveproto.dev',
 	),
 );

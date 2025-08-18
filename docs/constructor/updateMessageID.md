@@ -1,6 +1,6 @@
 # updateMessageID
 
-**Description** : *Sent message with random_id client identifier was assigned an identifier*
+**Description** : *Sent message with random\_id client identifier was assigned an identifier*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ updateMessageID#4e90bfd6 id:int random_id:long = Update;
 
 ```php
 $update = $client->updateMessageID(
-	id : 99,
-	random_id : 7044063419748644660,
+	id : 13,
+	random_id : -7097520124150902555,
 );
 ```

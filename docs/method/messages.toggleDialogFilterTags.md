@@ -1,6 +1,6 @@
 # messages.toggleDialogFilterTags
 
-**Description** : *Enable or disable folder tags »*
+**Description** : *Enable or disable folder tags &raquo;*
 
 **Layer** : 211
 
@@ -36,6 +36,6 @@ messages.toggleDialogFilterTags#fd2dda49 enabled:Bool = Bool;
 
 ```php
 $bool = $client->messages->toggleDialogFilterTags(
-	enabled : $client->boolFalse(),
+	enabled : true,
 );
 ```

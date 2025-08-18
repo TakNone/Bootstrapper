@@ -49,16 +49,16 @@ $messagesInvitedUsers = $client->messages->createChat(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 6554924136247348477,
-			access_hash : 7903404963221273154,
+			user_id : 4055180646034228084,
+			access_hash : 2331384485679096206,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 65,
-			user_id : 6720194352009040308,
+			msg_id : 53,
+			user_id : 4380383404162416003,
 		),
 	),
-	title : 'mot3ixWOwYVH4nyf',
-	ttl_period : 30,
+	title : 'BNMdkOG80ntAHyox',
+	ttl_period : 31,
 );
 ```

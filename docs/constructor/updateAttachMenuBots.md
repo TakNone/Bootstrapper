@@ -1,6 +1,6 @@
 # updateAttachMenuBots
 
-**Description** : *The list of installed attachment menu entries » has changed, use messages.getAttachMenuBots to fetch the updated list*
+**Description** : *The list of installed attachment menu entries &raquo; has changed, use messages\.getAttachMenuBots to fetch the updated list*
 
 **Layer** : 211
 

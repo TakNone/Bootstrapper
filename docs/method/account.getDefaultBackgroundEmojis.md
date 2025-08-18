@@ -28,6 +28,6 @@ account.getDefaultBackgroundEmojis#a60ab9ce hash:long = EmojiList;
 
 ```php
 $emojiList = $client->account->getDefaultBackgroundEmojis(
-	hash : 6071251652237744076,
+	hash : 6349738966786865939,
 );
 ```

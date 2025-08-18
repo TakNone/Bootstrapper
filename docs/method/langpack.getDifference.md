@@ -38,8 +38,8 @@ langpack.getDifference#cd984aa5 lang_pack:string lang_code:string from_version:i
 
 ```php
 $langPackDifference = $client->langpack->getDifference(
-	lang_pack : 'WdVHSTM2rU6fZQPN',
-	lang_code : 'NGxwCvRZh9Tu32DV',
-	from_version : 19,
+	lang_pack : 'BE5cAZo80gwNGq4r',
+	lang_code : 'wjun1IycMqmFJ0f7',
+	from_version : 83,
 );
 ```

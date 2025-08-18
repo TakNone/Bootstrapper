@@ -1,6 +1,6 @@
 # messages.featuredStickersNotModified
 
-**Description** : *Featured stickers haven't changed*
+**Description** : *Featured stickers haven&#039;t changed*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messages.featuredStickersNotModified#c6dc0c66 count:int = messages.FeaturedStick
 
 ```php
 $messagesFeaturedStickers = $client->messages->featuredStickersNotModified(
-	count : 47,
+	count : 29,
 );
 ```

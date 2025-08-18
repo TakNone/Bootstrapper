@@ -1,6 +1,6 @@
 # ReactionsNotifySettings
 
-**Description** : *Reaction notification settings, see here » for more info*
+**Description** : *Reaction notification settings, see here &raquo; for more info*
 
 **Layer** : 211
 

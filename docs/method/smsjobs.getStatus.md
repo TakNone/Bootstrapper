@@ -1,6 +1,6 @@
 # smsjobs.getStatus
 
-**Description** : *Get SMS jobs status (official clients only)*
+**Description** : *Get SMS jobs status \(official clients only\)*
 
 **Layer** : 211
 

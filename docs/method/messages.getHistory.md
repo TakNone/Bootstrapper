@@ -49,12 +49,12 @@ messages.getHistory#4423e6c5 peer:InputPeer offset_id:int offset_date:int add_of
 ```php
 $messagesMessages = $client->messages->getHistory(
 	peer : $client->inputPeerEmpty(),
-	offset_id : 13,
-	offset_date : 20,
-	add_offset : 81,
-	limit : 8,
-	max_id : 86,
-	min_id : 64,
-	hash : -35896843842300859,
+	offset_id : 47,
+	offset_date : 59,
+	add_offset : 0,
+	limit : 69,
+	max_id : 29,
+	min_id : 27,
+	hash : 1091959473183875000,
 );
 ```

@@ -31,12 +31,12 @@ channelAdminLogEvent#1fad68cd id:long date:int user_id:long action:ChannelAdminL
 
 ```php
 $channelAdminLogEvent = $client->channelAdminLogEvent(
-	id : 2764533404086738657,
-	date : 48,
-	user_id : -6469945994205241626,
+	id : -1543021464331359296,
+	date : 78,
+	user_id : -1889542380320028200,
 	action : $client->channelAdminLogEventActionChangeTitle(
-		prev_value : '6BdJRImcaAh48TDv',
-		new_value : 'jT4BJuCbL1RQ3WrM',
+		prev_value : 'LPSBalHEy5Vds7Ye',
+		new_value : 'x4a1Vc0R7z2Yq9Di',
 	),
 );
 ```

@@ -1,6 +1,6 @@
 # payments.starGiftsNotModified
 
-**Description** : *The list of available gifts » hasn't changed*
+**Description** : *The list of available gifts &raquo; hasn&#039;t changed*
 
 **Layer** : 211
 

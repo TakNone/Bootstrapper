@@ -1,6 +1,6 @@
 # attachMenuBotsNotModified
 
-**Description** : *The list of bot mini apps hasn't changed*
+**Description** : *The list of bot mini apps hasn&#039;t changed*
 
 **Layer** : 211
 

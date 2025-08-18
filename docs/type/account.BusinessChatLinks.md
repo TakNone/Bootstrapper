@@ -1,6 +1,6 @@
 # account.BusinessChatLinks
 
-**Description** : *Contains info about business chat deep links » created by the current account*
+**Description** : *Contains info about business chat deep links &raquo; created by the current account*
 
 **Layer** : 211
 

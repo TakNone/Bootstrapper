@@ -1,6 +1,6 @@
 # messages.allStickersNotModified
 
-**Description** : *Info about all installed stickers hasn't changed*
+**Description** : *Info about all installed stickers hasn&#039;t changed*
 
 **Layer** : 211
 

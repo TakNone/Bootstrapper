@@ -1,6 +1,6 @@
 # messages.deleteFactCheck
 
-**Description** : *Delete a fact-check from a message*
+**Description** : *Delete a fact\-check from a message*
 
 **Layer** : 211
 
@@ -39,6 +39,6 @@ messages.deleteFactCheck#d1da940c peer:InputPeer msg_id:int = Updates;
 ```php
 $updates = $client->messages->deleteFactCheck(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 58,
+	msg_id : 71,
 );
 ```

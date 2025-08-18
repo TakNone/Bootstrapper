@@ -1,6 +1,6 @@
 # invokeWithTakeout
 
-**Description** : *Invoke a method within a takeout session, see here » for more info*
+**Description** : *Invoke a method within a takeout session, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ invokeWithTakeout#aca9fd2e {X:Type} takeout_id:long query:!X = X;
 
 ```php
 $x = $client->invokeWithTakeout(
-	takeout_id : 4091316876308789671,
-	query : $client->X(),
+	takeout_id : -994414261056360245,
+	query : $client->help->getConfig(raw : true),
 );
 ```

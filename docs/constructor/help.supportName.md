@@ -28,6 +28,6 @@ help.supportName#8c05f1c9 name:string = help.SupportName;
 
 ```php
 $helpSupportName = $client->help->supportName(
-	name : 'MyqAiHh3xDV9tkR7',
+	name : 'DTEbekUP0IKRcdAJ',
 );
 ```

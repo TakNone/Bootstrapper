@@ -49,12 +49,12 @@ $chat = $client->chat(
 	call_active : true,
 	call_not_empty : true,
 	noforwards : true,
-	id : 1093074524139653230,
-	title : 'HupQPEOl8mqSNIox',
+	id : 5388813809887616840,
+	title : 'YWEwv0jJGgcd41BF',
 	photo : $client->chatPhotoEmpty(),
-	participants_count : 81,
-	date : 63,
-	version : 20,
+	participants_count : 26,
+	date : 13,
+	version : 65,
 	migrated_to : $client->inputChannelEmpty(),
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
@@ -95,7 +95,7 @@ $chat = $client->chat(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 26,
+		until_date : 39,
 	),
 );
 ```

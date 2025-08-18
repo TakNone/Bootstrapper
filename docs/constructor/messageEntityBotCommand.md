@@ -29,7 +29,7 @@ messageEntityBotCommand#6cef8ac7 offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityBotCommand(
-	offset : 1,
-	length : 69,
+	offset : 71,
+	length : 41,
 );
 ```

@@ -1,6 +1,6 @@
 # messages.sendQuickReplyMessages
 
-**Description** : *Send a quick reply shortcut »*
+**Description** : *Send a quick reply shortcut &raquo;*
 
 **Layer** : 211
 
@@ -41,8 +41,8 @@ messages.sendQuickReplyMessages#6c750de1 peer:InputPeer shortcut_id:int id:Vecto
 ```php
 $updates = $client->messages->sendQuickReplyMessages(
 	peer : $client->inputPeerEmpty(),
-	shortcut_id : 70,
-	id : array(62),
-	random_id : array(3264549974261961976),
+	shortcut_id : 25,
+	id : array(77),
+	random_id : array(8127439423535653347),
 );
 ```

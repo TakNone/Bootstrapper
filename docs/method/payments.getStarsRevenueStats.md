@@ -1,6 +1,6 @@
 # payments.getStarsRevenueStats
 
-**Description** : *Get Telegram Star revenue statistics »*
+**Description** : *Get Telegram Star revenue statistics &raquo;*
 
 **Layer** : 211
 

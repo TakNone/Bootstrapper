@@ -28,6 +28,6 @@ messages.getMaskStickers#640f82b8 hash:long = messages.AllStickers;
 
 ```php
 $messagesAllStickers = $client->messages->getMaskStickers(
-	hash : -3563787209141416624,
+	hash : -3808596441658508448,
 );
 ```

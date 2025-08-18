@@ -29,7 +29,7 @@ inputPeerChannel#27bcbbfc channel_id:long access_hash:long = InputPeer;
 
 ```php
 $inputPeer = $client->inputPeerChannel(
-	channel_id : 5504161917006883493,
-	access_hash : -1308043983151011597,
+	channel_id : 2144166473808674796,
+	access_hash : -5163401292733199715,
 );
 ```

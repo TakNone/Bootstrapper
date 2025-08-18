@@ -39,9 +39,9 @@ phone.toggleGroupCallStartSubscription#219c34e6 call:InputGroupCall subscribed:B
 ```php
 $updates = $client->phone->toggleGroupCallStartSubscription(
 	call : $client->inputGroupCall(
-		id : -3447937380921794509,
-		access_hash : 81805330053042535,
+		id : 2109898234647861354,
+		access_hash : -5078482682591357592,
 	),
-	subscribed : $client->boolFalse(),
+	subscribed : false,
 );
 ```

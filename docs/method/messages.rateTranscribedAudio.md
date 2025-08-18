@@ -32,8 +32,8 @@ messages.rateTranscribedAudio#7f1d072f peer:InputPeer msg_id:int transcription_i
 ```php
 $bool = $client->messages->rateTranscribedAudio(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 1,
-	transcription_id : -6013101749736878020,
-	good : $client->boolFalse(),
+	msg_id : 65,
+	transcription_id : 6066070911750653276,
+	good : false,
 );
 ```

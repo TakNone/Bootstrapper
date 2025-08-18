@@ -28,6 +28,6 @@ upload.cdnFile#a99fca4f bytes:bytes = upload.CdnFile;
 
 ```php
 $uploadCdnFile = $client->upload->cdnFile(
-	bytes : 'C2+?{LiveProto??-?',
+	bytes : '????LiveProto?Wj\\',
 );
 ```

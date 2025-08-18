@@ -1,6 +1,6 @@
 # BotMenuButton
 
-**Description** : *Indicates the action to execute when pressing the in-UI menu button for bots*
+**Description** : *Indicates the action to execute when pressing the in\-UI menu button for bots*
 
 **Layer** : 211
 

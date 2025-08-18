@@ -1,6 +1,6 @@
 # messages.setChatAvailableReactions
 
-**Description** : *Change the set of message reactions » that can be used in a certain group, supergroup or channel*
+**Description** : *Change the set of message reactions &raquo; that can be used in a certain group, supergroup or channel*
 
 **Layer** : 211
 
@@ -44,7 +44,7 @@ messages.setChatAvailableReactions#864b2581 flags:# peer:InputPeer available_rea
 $updates = $client->messages->setChatAvailableReactions(
 	peer : $client->inputPeerEmpty(),
 	available_reactions : $client->chatReactionsNone(),
-	reactions_limit : 62,
-	paid_enabled : $client->boolFalse(),
+	reactions_limit : 21,
+	paid_enabled : false,
 );
 ```

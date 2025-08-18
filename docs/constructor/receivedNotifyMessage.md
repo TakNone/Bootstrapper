@@ -1,6 +1,6 @@
 # receivedNotifyMessage
 
-**Description** : *Message ID, for which PUSH-notifications were cancelled*
+**Description** : *Message ID, for which PUSH\-notifications were cancelled*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ receivedNotifyMessage#a384b779 id:int flags:int = ReceivedNotifyMessage;
 
 ```php
 $receivedNotifyMessage = $client->receivedNotifyMessage(
-	id : 36,
-	flags : 60,
+	id : 3,
+	flags : 2,
 );
 ```

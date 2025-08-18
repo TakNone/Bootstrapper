@@ -1,6 +1,6 @@
 # payments.launchPrepaidGiveaway
 
-**Description** : *Launch a prepaid giveaway »*
+**Description** : *Launch a prepaid giveaway &raquo;*
 
 **Layer** : 211
 
@@ -39,7 +39,7 @@ payments.launchPrepaidGiveaway#5ff58f20 peer:InputPeer giveaway_id:long purpose:
 ```php
 $updates = $client->payments->launchPrepaidGiveaway(
 	peer : $client->inputPeerEmpty(),
-	giveaway_id : -1892646510530416034,
+	giveaway_id : 194440374929997212,
 	purpose : $client->inputStorePaymentPremiumSubscription(
 		restore : true,
 		upgrade : true,

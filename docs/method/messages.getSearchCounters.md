@@ -1,6 +1,6 @@
 # messages.getSearchCounters
 
-**Description** : *Get the number of results that would be found by a messages.search call with the same parameters*
+**Description** : *Get the number of results that would be found by a messages\.search call with the same parameters*
 
 **Layer** : 211
 
@@ -42,7 +42,7 @@ messages.getSearchCounters#1bbcf300 flags:# peer:InputPeer saved_peer_id:flags.2
 $messagesSearchCounter = $client->messages->getSearchCounters(
 	peer : $client->inputPeerEmpty(),
 	saved_peer_id : $client->inputPeerEmpty(),
-	top_msg_id : 20,
+	top_msg_id : 44,
 	filters : array(
 		$client->inputMessagesFilterEmpty(),
 		$client->inputMessagesFilterPhotos(),

@@ -45,7 +45,7 @@ $messagesPeerDialogs = $client->messages->getPeerDialogs(
 			peer : $client->inputPeerEmpty(),
 		),
 		$client->inputDialogPeerFolder(
-			folder_id : 65,
+			folder_id : 5,
 		),
 	),
 );

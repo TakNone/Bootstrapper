@@ -1,6 +1,6 @@
 # inputStarsTransaction
 
-**Description** : *Used to fetch info about a Telegram Star transaction »*
+**Description** : *Used to fetch info about a Telegram Star transaction &raquo;*
 
 **Layer** : 211
 
@@ -31,6 +31,6 @@ inputStarsTransaction#206ae6d1 flags:# refund:flags.0?true id:string = InputStar
 ```php
 $inputStarsTransaction = $client->inputStarsTransaction(
 	refund : true,
-	id : 'qnIlXo781fF9rtUj',
+	id : '09pKohvMcXqmTG2C',
 );
 ```

@@ -1,6 +1,6 @@
 # account.resolveBusinessChatLink
 
-**Description** : *Resolve a business chat deep link »*
+**Description** : *Resolve a business chat deep link &raquo;*
 
 **Layer** : 211
 
@@ -37,6 +37,6 @@ account.resolveBusinessChatLink#5492e5ee slug:string = account.ResolvedBusinessC
 
 ```php
 $accountResolvedBusinessChatLinks = $client->account->resolveBusinessChatLink(
-	slug : '8PyL67wOKoAekNqJ',
+	slug : 'f6rKJgOEqSnm90o2',
 );
 ```

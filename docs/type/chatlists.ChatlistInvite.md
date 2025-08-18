@@ -1,6 +1,6 @@
 # chatlists.ChatlistInvite
 
-**Description** : *Info about a chat folder deep link »*
+**Description** : *Info about a chat folder deep link &raquo;*
 
 **Layer** : 211
 

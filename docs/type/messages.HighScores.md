@@ -1,6 +1,6 @@
 # messages.HighScores
 
-**Description** : *High scores (in games)*
+**Description** : *High scores \(in games\)*
 
 **Layer** : 211
 

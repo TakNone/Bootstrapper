@@ -27,6 +27,6 @@ channels.checkSearchPostsFlood#22567115 flags:# query:flags.0?string = SearchPos
 
 ```php
 $searchPostsFlood = $client->channels->checkSearchPostsFlood(
-	query : '518VlC4e9Xi3gLNH',
+	query : '6rzmLl28OJb1q0UD',
 );
 ```

@@ -1,6 +1,6 @@
 # chatlists.checkChatlistInvite
 
-**Description** : *Obtain information about a chat folder deep link »*
+**Description** : *Obtain information about a chat folder deep link &raquo;*
 
 **Layer** : 211
 
@@ -37,6 +37,6 @@ chatlists.checkChatlistInvite#41c10fff slug:string = chatlists.ChatlistInvite;
 
 ```php
 $chatlistsChatlistInvite = $client->chatlists->checkChatlistInvite(
-	slug : 'kzwhQWiTa4LfKIsu',
+	slug : 'DpSXPzxTlYR1edCo',
 );
 ```

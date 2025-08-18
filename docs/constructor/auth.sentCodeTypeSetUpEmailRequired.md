@@ -1,6 +1,6 @@
 # auth.sentCodeTypeSetUpEmailRequired
 
-**Description** : *The user should add and verify an email address in order to login as described here »*
+**Description** : *The user should add and verify an email address in order to login as described here &raquo;*
 
 **Layer** : 211
 

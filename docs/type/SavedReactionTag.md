@@ -1,6 +1,6 @@
 # SavedReactionTag
 
-**Description** : *Info about a saved message reaction tag »*
+**Description** : *Info about a saved message reaction tag &raquo;*
 
 **Layer** : 211
 

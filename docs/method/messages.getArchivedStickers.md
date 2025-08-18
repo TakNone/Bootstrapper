@@ -34,7 +34,7 @@ messages.getArchivedStickers#57f17692 flags:# masks:flags.0?true emojis:flags.1?
 $messagesArchivedStickers = $client->messages->getArchivedStickers(
 	masks : true,
 	emojis : true,
-	offset_id : 5764427205025072013,
-	limit : 22,
+	offset_id : 3975027700866593415,
+	limit : 27,
 );
 ```

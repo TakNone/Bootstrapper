@@ -37,59 +37,59 @@ photo#fb197a65 flags:# has_stickers:flags.0?true id:long access_hash:long file_r
 ```php
 $photo = $client->photo(
 	has_stickers : true,
-	id : -7472821096807874101,
-	access_hash : 5095386707154307679,
-	file_reference : '???@LiveProto?k?',
-	date : 95,
+	id : -8281929665643220982,
+	access_hash : -7439574778574380882,
+	file_reference : '????LiveProto??kG5',
+	date : 27,
 	sizes : array(
 		$client->photoSizeEmpty(
-			type : 'KWNXUsufSFbzqYcl',
+			type : 'chrmCBFT2fYkMV06',
 		),
 		$client->photoSize(
-			type : '5bcOyDmYvoU7a0V6',
-			w : 94,
-			h : 99,
-			size : 1,
+			type : 'za2xnK8q0tByQUM4',
+			w : 99,
+			h : 18,
+			size : 26,
 		),
 		$client->photoCachedSize(
-			type : 'Yob7LhgJ0dQFeMar',
-			w : 92,
-			h : 45,
-			bytes : 'd4???LiveProto?*??',
+			type : 'GYbfjlNwpnuZFAhg',
+			w : 67,
+			h : 29,
+			bytes : '?3?LiveProtoB?x??',
 		),
 		$client->photoStrippedSize(
-			type : '2sMgBayfHcV7teIz',
-			bytes : 'z??bLiveProto}V?c5',
+			type : 'ofjKHy4pm2PYkWOw',
+			bytes : '?4\\?LiveProtoE0C0',
 		),
 		$client->photoSizeProgressive(
-			type : 'gjweYA1NFIOxP0H6',
-			w : 57,
-			h : 45,
-			sizes : array(16),
+			type : 'LaQ9KdVjnUbArwoC',
+			w : 94,
+			h : 21,
+			sizes : array(81),
 		),
 		$client->photoPathSize(
-			type : 'Zy1hAElR2rGWfQ6L',
-			bytes : 'Y??5LiveProto???',
+			type : 'Ec6SdXgDr5uNpivM',
+			bytes : '?Yܛ?LiveProto?~ycT',
 		),
 	),
 	video_sizes : array(
 		$client->videoSize(
-			type : 'w27seSlhYjGqITrf',
-			w : 96,
-			h : 42,
-			size : 73,
-			video_start_ts : -474850.845703125,
+			type : 'EIsTz4WlPHDwyvB9',
+			w : 25,
+			h : 38,
+			size : 39,
+			video_start_ts : -151481.888671875,
 		),
 		$client->videoSizeEmojiMarkup(
-			emoji_id : 6210941275537678984,
-			background_colors : array(18),
+			emoji_id : 1511777849766889061,
+			background_colors : array(43),
 		),
 		$client->videoSizeStickerMarkup(
 			stickerset : $client->inputStickerSetEmpty(),
-			sticker_id : 7510328297892276414,
-			background_colors : array(73),
+			sticker_id : 157973846338312444,
+			background_colors : array(54),
 		),
 	),
-	dc_id : 79,
+	dc_id : 43,
 );
 ```

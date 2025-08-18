@@ -1,6 +1,6 @@
 # userStatusOffline
 
-**Description** : *The user's offline status*
+**Description** : *The user&#039;s offline status*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ userStatusOffline#8c703f was_online:int = UserStatus;
 
 ```php
 $userStatus = $client->userStatusOffline(
-	was_online : 93,
+	was_online : 42,
 );
 ```

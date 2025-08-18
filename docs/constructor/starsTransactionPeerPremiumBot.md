@@ -1,6 +1,6 @@
 # starsTransactionPeerPremiumBot
 
-**Description** : *Describes a Telegram Star transaction made using @PremiumBot (i.e. using the inputInvoiceStars flow described here »)*
+**Description** : *Describes a Telegram Star transaction made using @PremiumBot \(i\.e\. using the inputInvoiceStars flow described here &raquo;\)*
 
 **Layer** : 211
 

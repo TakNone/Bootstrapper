@@ -27,10 +27,10 @@ users.usersSlice#315a4974 count:int users:Vector<User> = users.Users;
 
 ```php
 $usersUsers = $client->users->usersSlice(
-	count : 87,
+	count : 81,
 	users : array(
 		$client->userEmpty(
-			id : 4401517408355794979,
+			id : -5428787490481179104,
 		),
 		$client->user(
 			self : true,
@@ -58,24 +58,24 @@ $usersUsers = $client->users->usersSlice(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 6184734712594373027,
-			access_hash : -1690288403131543905,
+			id : -1674510805002579539,
+			access_hash : 697849676387046843,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 30,
+			bot_info_version : 86,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'Yc4AOpw0mhStlQxj',
-					reason : 'JQsR1kCoMIdpj0qB',
-					text : 'jwARs5zIY93Mq7FT',
+					platform : 'vn6BjgOoPlGJu80q',
+					reason : '834JwFpg2moIGHB6',
+					text : 'h2Jma4w6ocOdfGzW',
 				),
 			),
-			bot_inline_placeholder : '32vHeCjarFtN0cTi',
-			lang_code : 'jQl3fwh6HVvGZoi8',
+			bot_inline_placeholder : 'GVqLKYjDQEXyaMRH',
+			lang_code : '8EABktzvd9LQ7VrP',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -84,18 +84,18 @@ $usersUsers = $client->users->usersSlice(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 89,
+			stories_max_id : 87,
 			color : $client->peerColor(
-				color : 94,
-				background_emoji_id : -2341892330036648135,
+				color : 4,
+				background_emoji_id : -5272833985877947165,
 			),
 			profile_color : $client->peerColor(
-				color : 67,
-				background_emoji_id : 7765658329540480099,
+				color : 9,
+				background_emoji_id : 8339609113626407756,
 			),
-			bot_active_users : 25,
-			bot_verification_icon : 8162793801323008687,
-			send_paid_messages_stars : 4816881616306457893,
+			bot_active_users : 59,
+			bot_verification_icon : 6632693315545420400,
+			send_paid_messages_stars : 3011735161330074685,
 		),
 	),
 );

@@ -48,7 +48,7 @@ $bool = $client->account->saveAutoSaveSettings(
 	settings : $client->autoSaveSettings(
 		photos : true,
 		videos : true,
-		video_max_size : -2094295707270319427,
+		video_max_size : -5017386381554842069,
 	),
 );
 ```

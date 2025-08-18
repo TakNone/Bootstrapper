@@ -1,6 +1,6 @@
 # contacts.exportContactToken
 
-**Description** : *Generates a temporary profile link for the currently logged-in user*
+**Description** : *Generates a temporary profile link for the currently logged\-in user*
 
 **Layer** : 211
 

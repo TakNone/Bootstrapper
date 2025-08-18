@@ -1,6 +1,6 @@
 # account.declinePasswordReset
 
-**Description** : *Abort a pending 2FA password reset, see here for more info »*
+**Description** : *Abort a pending 2FA password reset, see here for more info &raquo;*
 
 **Layer** : 211
 

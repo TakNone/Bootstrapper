@@ -1,6 +1,6 @@
 # InputBusinessChatLink
 
-**Description** : *Contains info about a business chat deep link » to be created by the current account*
+**Description** : *Contains info about a business chat deep link &raquo; to be created by the current account*
 
 **Layer** : 211
 

@@ -32,7 +32,7 @@ contacts.getBlocked#9a868f80 flags:# my_stories_from:flags.0?true offset:int lim
 ```php
 $contactsBlocked = $client->contacts->getBlocked(
 	my_stories_from : true,
-	offset : 4,
-	limit : 70,
+	offset : 32,
+	limit : 55,
 );
 ```

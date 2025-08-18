@@ -39,9 +39,9 @@ phone.getGroupCall#41845db call:InputGroupCall limit:int = phone.GroupCall;
 ```php
 $phoneGroupCall = $client->phone->getGroupCall(
 	call : $client->inputGroupCall(
-		id : -5570142091837613020,
-		access_hash : 185712757715848469,
+		id : -1531541742654652980,
+		access_hash : 4010265888199293060,
 	),
-	limit : 61,
+	limit : 43,
 );
 ```

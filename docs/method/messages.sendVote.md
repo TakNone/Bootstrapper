@@ -47,7 +47,7 @@ messages.sendVote#10ea6184 peer:InputPeer msg_id:int options:Vector<bytes> = Upd
 ```php
 $updates = $client->messages->sendVote(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 74,
-	options : array('5???LiveProto?%?'),
+	msg_id : 79,
+	options : array('???LiveProto???['),
 );
 ```

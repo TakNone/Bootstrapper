@@ -1,6 +1,6 @@
 # photoSizeEmpty
 
-**Description** : *Empty constructor. Image with this thumbnail is unavailable*
+**Description** : *Empty constructor\. Image with this thumbnail is unavailable*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ photoSizeEmpty#e17e23c type:string = PhotoSize;
 
 ```php
 $photoSize = $client->photoSizeEmpty(
-	type : 'sH7YvjXzPtuC6OiG',
+	type : 'vO9UJtqLmiyubaKf',
 );
 ```

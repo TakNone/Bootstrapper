@@ -45,13 +45,13 @@ $user = $client->users->getUsers(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -3516130358051599184,
-			access_hash : 2515786329980390470,
+			user_id : 7461411549401855749,
+			access_hash : -3349032137793075492,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 43,
-			user_id : 7135736029977122389,
+			msg_id : 54,
+			user_id : 3225342732710628769,
 		),
 	),
 );

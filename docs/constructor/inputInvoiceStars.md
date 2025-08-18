@@ -1,6 +1,6 @@
 # inputInvoiceStars
 
-**Description** : *Used to top up the Telegram Stars balance of the current account or someone else's account, or to start a Telegram Star giveaway »*
+**Description** : *Used to top up the Telegram Stars balance of the current account or someone else&#039;s account, or to start a Telegram Star giveaway &raquo;*
 
 **Layer** : 211
 

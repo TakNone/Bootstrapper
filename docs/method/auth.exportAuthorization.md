@@ -1,6 +1,6 @@
 # auth.exportAuthorization
 
-**Description** : *Returns data for copying authorization to another data-center*
+**Description** : *Returns data for copying authorization to another data\-center*
 
 **Layer** : 211
 
@@ -36,6 +36,6 @@ auth.exportAuthorization#e5bfffcd dc_id:int = auth.ExportedAuthorization;
 
 ```php
 $authExportedAuthorization = $client->auth->exportAuthorization(
-	dc_id : 19,
+	dc_id : 8,
 );
 ```

@@ -28,8 +28,8 @@ botVerification#f93cd45c bot_id:long icon:long description:string = BotVerificat
 
 ```php
 $botVerification = $client->botVerification(
-	bot_id : 2627249447346367761,
-	icon : -6639251871832689965,
-	description : '1nWcoyg5hkCS7BQ2',
+	bot_id : -5249429185158028800,
+	icon : 6507923314317455977,
+	description : 'NFXLinSxzPd7QrIM',
 );
 ```

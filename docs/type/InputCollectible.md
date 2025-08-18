@@ -1,6 +1,6 @@
 # InputCollectible
 
-**Description** : *Represents a Fragment collectible »*
+**Description** : *Represents a Fragment collectible &raquo;*
 
 **Layer** : 211
 

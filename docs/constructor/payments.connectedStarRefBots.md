@@ -30,22 +30,22 @@ payments.connectedStarRefBots#98d5ea1d count:int connected_bots:Vector<Connected
 
 ```php
 $paymentsConnectedStarRefBots = $client->payments->connectedStarRefBots(
-	count : 7,
+	count : 66,
 	connected_bots : array(
 		$client->connectedBotStarRef(
 			revoked : true,
 			url : 'https://docs.liveproto.dev',
-			date : 51,
-			bot_id : 1392089681238852506,
-			commission_permille : 75,
-			duration_months : 44,
-			participants : 2569452580213214981,
-			revenue : -777164324911238589,
+			date : 14,
+			bot_id : 8001288605104513871,
+			commission_permille : 55,
+			duration_months : 2,
+			participants : -1360257803126921022,
+			revenue : -6698045514707070240,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -248473699330149776,
+			id : 6516232362471499889,
 		),
 		$client->user(
 			self : true,
@@ -73,24 +73,24 @@ $paymentsConnectedStarRefBots = $client->payments->connectedStarRefBots(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 3932424029191438198,
-			access_hash : -5364743466346744510,
+			id : 5636225431200710367,
+			access_hash : -1882133518220319440,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 54,
+			bot_info_version : 50,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '2nSumIyZlUPqFBrE',
-					reason : 'gNXVW0nHZcvwfhr4',
-					text : 'ItE8S67M1dAGuDxf',
+					platform : 'TFhDZQ7jqASnlgaX',
+					reason : 'PBefDAvHiRVa3xqT',
+					text : 'Zb7K8rXETzWes3q0',
 				),
 			),
-			bot_inline_placeholder : 'rTudGELHeN7KCy0S',
-			lang_code : '3kafhFAzRo0nKIMC',
+			bot_inline_placeholder : 'DFNcmZGeMjVPSRdE',
+			lang_code : 'W5wEIOX7Ljyi0d91',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -99,18 +99,18 @@ $paymentsConnectedStarRefBots = $client->payments->connectedStarRefBots(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 19,
+			stories_max_id : 64,
 			color : $client->peerColor(
-				color : 50,
-				background_emoji_id : -5852605069003407542,
+				color : 57,
+				background_emoji_id : -7767523080493995743,
 			),
 			profile_color : $client->peerColor(
-				color : 12,
-				background_emoji_id : -2883033094317059177,
+				color : 79,
+				background_emoji_id : 4845586201526573330,
 			),
-			bot_active_users : 57,
-			bot_verification_icon : -5197937559792467365,
-			send_paid_messages_stars : -2232943918453153566,
+			bot_active_users : 14,
+			bot_verification_icon : 4820148273648311130,
+			send_paid_messages_stars : -2679453929127649341,
 		),
 	),
 );

@@ -1,6 +1,6 @@
 # inputStorePaymentPremiumGiveaway
 
-**Description** : *Used to pay for a giveaway, see here » for more info*
+**Description** : *Used to pay for a giveaway, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -45,32 +45,32 @@ $inputStorePaymentPurpose = $client->inputStorePaymentPremiumGiveaway(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -1149508051921163939,
+			chat_id : 4011993154054699190,
 		),
 		$client->inputPeerUser(
-			user_id : 5564843539320299303,
-			access_hash : 674171816333091525,
+			user_id : 1243681594039701541,
+			access_hash : 3441372668817727377,
 		),
 		$client->inputPeerChannel(
-			channel_id : -1216609749963921746,
-			access_hash : 6494930743123174997,
+			channel_id : -4807414201660907032,
+			access_hash : 3377598003313098096,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 77,
-			user_id : 8639654682610559125,
+			msg_id : 39,
+			user_id : 7963739806346467516,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 100,
-			channel_id : 8249261808972357287,
+			msg_id : 12,
+			channel_id : 2674067994011488222,
 		),
 	),
-	countries_iso2 : array('qzRphc923OXwM4IF'),
-	prize_description : 'jOgUWH186SdpAh9e',
-	random_id : 7417910833134326976,
-	until_date : 67,
-	currency : 'pLWyFbmeqdVrgAtT',
-	amount : 5073237477376178472,
+	countries_iso2 : array('v5dH4rkEest2D1bY'),
+	prize_description : 'M5vj6dgEyAUmaNXc',
+	random_id : -5426211758423576353,
+	until_date : 51,
+	currency : 'I153DCjrxEJbyHan',
+	amount : 5674688457933150521,
 );
 ```

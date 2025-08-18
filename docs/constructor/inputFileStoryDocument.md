@@ -1,6 +1,6 @@
 # inputFileStoryDocument
 
-**Description** : *Used to edit the thumbnail/static preview of a story, see here » for more info on the full flow*
+**Description** : *Used to edit the thumbnail/static preview of a story, see here &raquo; for more info on the full flow*
 
 **Layer** : 211
 

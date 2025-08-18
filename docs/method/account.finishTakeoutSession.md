@@ -1,6 +1,6 @@
 # account.finishTakeoutSession
 
-**Description** : *Terminate a takeout session, see here » for more info*
+**Description** : *Terminate a takeout session, see here &raquo; for more info*
 
 **Layer** : 211
 

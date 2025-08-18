@@ -28,6 +28,6 @@ messages.getEmojiStickers#fbfca18f hash:long = messages.AllStickers;
 
 ```php
 $messagesAllStickers = $client->messages->getEmojiStickers(
-	hash : 6751436205060739030,
+	hash : -6645371511049233581,
 );
 ```

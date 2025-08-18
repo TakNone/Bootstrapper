@@ -29,7 +29,7 @@ inlineBotWebView#b57295d5 text:string url:string = InlineBotWebView;
 
 ```php
 $inlineBotWebView = $client->inlineBotWebView(
-	text : 'fOhtom4R8QNJckX3',
+	text : 'AqLpGjnaKogJkY7H',
 	url : 'https://docs.liveproto.dev',
 );
 ```

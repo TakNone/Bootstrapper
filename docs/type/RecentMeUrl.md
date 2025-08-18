@@ -1,6 +1,6 @@
 # RecentMeUrl
 
-**Description** : *Recent t.me urls*
+**Description** : *Recent t\.me urls*
 
 **Layer** : 211
 

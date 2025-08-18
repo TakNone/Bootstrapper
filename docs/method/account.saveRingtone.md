@@ -38,6 +38,6 @@ account.saveRingtone#3dea5b03 id:InputDocument unsave:Bool = account.SavedRingto
 ```php
 $accountSavedRingtone = $client->account->saveRingtone(
 	id : $client->inputDocumentEmpty(),
-	unsave : $client->boolFalse(),
+	unsave : true,
 );
 ```

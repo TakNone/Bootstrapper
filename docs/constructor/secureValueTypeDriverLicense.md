@@ -1,6 +1,6 @@
 # secureValueTypeDriverLicense
 
-**Description** : *Driver's license*
+**Description** : *Driver&#039;s license*
 
 **Layer** : 211
 

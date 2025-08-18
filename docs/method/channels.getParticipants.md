@@ -45,8 +45,8 @@ channels.getParticipants#77ced9d0 channel:InputChannel filter:ChannelParticipant
 $channelsChannelParticipants = $client->channels->getParticipants(
 	channel : $client->inputChannelEmpty(),
 	filter : $client->channelParticipantsRecent(),
-	offset : 44,
-	limit : 68,
-	hash : -136816562880759322,
+	offset : 86,
+	limit : 28,
+	hash : 189455113095752653,
 );
 ```

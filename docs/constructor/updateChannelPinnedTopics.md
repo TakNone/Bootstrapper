@@ -30,7 +30,7 @@ updateChannelPinnedTopics#fe198602 flags:# channel_id:long order:flags.0?Vector<
 
 ```php
 $update = $client->updateChannelPinnedTopics(
-	channel_id : -8082097384697056198,
-	order : array(40),
+	channel_id : -1306982110161000915,
+	order : array(63),
 );
 ```

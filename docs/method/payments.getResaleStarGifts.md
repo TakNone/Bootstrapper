@@ -35,20 +35,20 @@ payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_
 $paymentsResaleStarGifts = $client->payments->getResaleStarGifts(
 	sort_by_price : true,
 	sort_by_num : true,
-	attributes_hash : 7968180925710362981,
-	gift_id : -6227976942141755515,
+	attributes_hash : 1361094733731995284,
+	gift_id : -5885546494997748297,
 	attributes : array(
 		$client->starGiftAttributeIdModel(
-			document_id : -6365175829756342007,
+			document_id : -1377279036793977072,
 		),
 		$client->starGiftAttributeIdPattern(
-			document_id : -6389065243742117733,
+			document_id : -2696653335612120457,
 		),
 		$client->starGiftAttributeIdBackdrop(
-			backdrop_id : 64,
+			backdrop_id : 32,
 		),
 	),
-	offset : 'jNc9CGb2o6YWFfz0',
-	limit : 36,
+	offset : 'V2DkNcB7I0CKZaOF',
+	limit : 41,
 );
 ```

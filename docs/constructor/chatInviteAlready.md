@@ -29,7 +29,7 @@ chatInviteAlready#5a686d7c chat:Chat = ChatInvite;
 ```php
 $chatInvite = $client->chatInviteAlready(
 	chat : $client->chatEmpty(
-		id : 4451957698526482575,
+		id : -3505313692995866793,
 	),
 );
 ```

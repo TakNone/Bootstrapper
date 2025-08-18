@@ -1,6 +1,6 @@
 # reportResultAddComment
 
-**Description** : *The user should enter an additional comment for the moderators, and then messages.report must be re-invoked, passing the comment to messages.report.message*
+**Description** : *The user should enter an additional comment for the moderators, and then messages\.report must be re\-invoked, passing the comment to messages\.report\.message*
 
 **Layer** : 211
 
@@ -31,6 +31,6 @@ reportResultAddComment#6f09ac31 flags:# optional:flags.0?true option:bytes = Rep
 ```php
 $reportResult = $client->reportResultAddComment(
 	optional : true,
-	option : '\'' . "\0" . 'XLLiveProto???',
+	option : '??leLiveProto!?7J?',
 );
 ```

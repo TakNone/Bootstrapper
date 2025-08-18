@@ -1,6 +1,6 @@
 # auth.importAuthorization
 
-**Description** : *Logs in a user using a key transmitted from his native data-center*
+**Description** : *Logs in a user using a key transmitted from his native data\-center*
 
 **Layer** : 211
 
@@ -38,7 +38,7 @@ auth.importAuthorization#a57a7dad id:long bytes:bytes = auth.Authorization;
 
 ```php
 $authAuthorization = $client->auth->importAuthorization(
-	id : -3495038798331414079,
-	bytes : 'پ??LiveProto>u',
+	id : -5163649104753571168,
+	bytes : 'G??LLiveProtoi???',
 );
 ```

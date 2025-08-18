@@ -28,13 +28,13 @@ mediaAreaStarGift#5787686d coordinates:MediaAreaCoordinates slug:string = MediaA
 ```php
 $mediaArea = $client->mediaAreaStarGift(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 285983.16796875,
-		y : 1348109.2021484375,
-		w : -460340.767578125,
-		h : 606469.8720703125,
-		rotation : 1072286.8388671875,
-		radius : -1599548.5615234375,
+		x : -1189117.001953125,
+		y : 1774826.345703125,
+		w : 1847138.8701171875,
+		h : 633623.9365234375,
+		rotation : 1383451.3408203125,
+		radius : -1732477.8369140625,
 	),
-	slug : 'Q3soJPh8ZLkfWpmB',
+	slug : 'ZHDptPdQRjLSkYEz',
 );
 ```

@@ -1,6 +1,6 @@
 # updateAutoSaveSettings
 
-**Description** : *Media autosave settings have changed and must be refetched using account.getAutoSaveSettings*
+**Description** : *Media autosave settings have changed and must be refetched using account\.getAutoSaveSettings*
 
 **Layer** : 211
 

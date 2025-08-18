@@ -1,6 +1,6 @@
 # bots.previewInfo
 
-**Description** : *Contains info about Main Mini App previews, see here » for more info*
+**Description** : *Contains info about Main Mini App previews, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -31,10 +31,10 @@ bots.previewInfo#ca71d64 media:Vector<BotPreviewMedia> lang_codes:Vector<string>
 $botsPreviewInfo = $client->bots->previewInfo(
 	media : array(
 		$client->botPreviewMedia(
-			date : 66,
+			date : 52,
 			media : $client->messageMediaEmpty(),
 		),
 	),
-	lang_codes : array('aBzo536WrVfLKxSc'),
+	lang_codes : array('nGqVzY2Xx3FkiomW'),
 );
 ```

@@ -1,6 +1,6 @@
 # updateQuickReplyMessage
 
-**Description** : *A new message was added to a quick reply shortcut »*
+**Description** : *A new message was added to a quick reply shortcut &raquo;*
 
 **Layer** : 211
 
@@ -29,9 +29,9 @@ updateQuickReplyMessage#3e050d0f message:Message = Update;
 ```php
 $update = $client->updateQuickReplyMessage(
 	message : $client->messageEmpty(
-		id : 61,
+		id : 1,
 		peer_id : $client->peerUser(
-			user_id : -8141658770006280356,
+			user_id : -2210776915708024423,
 		),
 	),
 );

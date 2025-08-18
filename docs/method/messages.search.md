@@ -63,28 +63,28 @@ messages.search#29ee847a flags:# peer:InputPeer q:string from_id:flags.0?InputPe
 ```php
 $messagesMessages = $client->messages->search(
 	peer : $client->inputPeerEmpty(),
-	q : 'xcjEkKVdt1Mo8iFH',
+	q : '0eFz1HgMcvpZu5Vs',
 	from_id : $client->inputPeerEmpty(),
 	saved_peer_id : $client->inputPeerEmpty(),
 	saved_reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'xjWikGBh5KEDpMZN',
+			emoticon : '2D6ew5W7Jo3GazAB',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 7583328790863261055,
+			document_id : 6461816538800456042,
 		),
 		$client->reactionPaid(),
 	),
-	top_msg_id : 9,
+	top_msg_id : 52,
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 16,
-	max_date : 58,
-	offset_id : 82,
-	add_offset : 33,
-	limit : 24,
-	max_id : 2,
-	min_id : 0,
-	hash : -3909178303212057048,
+	min_date : 66,
+	max_date : 84,
+	offset_id : 10,
+	add_offset : 55,
+	limit : 8,
+	max_id : 59,
+	min_id : 44,
+	hash : 6544916541133725678,
 );
 ```

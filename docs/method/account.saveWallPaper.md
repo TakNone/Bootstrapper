@@ -39,20 +39,20 @@ account.saveWallPaper#6c5a5b37 wallpaper:InputWallPaper unsave:Bool settings:Wal
 ```php
 $bool = $client->account->saveWallPaper(
 	wallpaper : $client->inputWallPaper(
-		id : -7519961314321438837,
-		access_hash : 356692716939102124,
+		id : 2897958739456788101,
+		access_hash : 5403432721828414808,
 	),
-	unsave : $client->boolFalse(),
+	unsave : false,
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 34,
-		second_background_color : 4,
-		third_background_color : 75,
-		fourth_background_color : 50,
-		intensity : 96,
-		rotation : 79,
-		emoticon : 'XeTIbRxFPskZLDqn',
+		background_color : 30,
+		second_background_color : 18,
+		third_background_color : 85,
+		fourth_background_color : 25,
+		intensity : 18,
+		rotation : 56,
+		emoticon : 'uWrzCXhI1jpeK48N',
 	),
 );
 ```

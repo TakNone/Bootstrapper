@@ -38,10 +38,10 @@ channelParticipantAdmin#34c3bb53 flags:# can_edit:flags.0?true self:flags.1?true
 $channelParticipant = $client->channelParticipantAdmin(
 	can_edit : true,
 	self : true,
-	user_id : 7067538135770421939,
-	inviter_id : 1464425870035616510,
-	promoted_by : -9168613605678224692,
-	date : 13,
+	user_id : -1118230473826151004,
+	inviter_id : -7896139298119166341,
+	promoted_by : 1340033136532979441,
+	date : 28,
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -60,6 +60,6 @@ $channelParticipant = $client->channelParticipantAdmin(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : '7bOtYUEXTAkJxHeB',
+	rank : 'vc7Uz93fMhbDaSWm',
 );
 ```

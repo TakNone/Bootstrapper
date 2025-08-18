@@ -31,6 +31,6 @@ messages.reportMessagesDelivery#5a6d7395 flags:# push:flags.0?true peer:InputPee
 $bool = $client->messages->reportMessagesDelivery(
 	push : true,
 	peer : $client->inputPeerEmpty(),
-	id : array(49),
+	id : array(22),
 );
 ```

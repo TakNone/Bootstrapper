@@ -1,6 +1,6 @@
 # chatlists.ExportedChatlistInvite
 
-**Description** : *Exported chat folder deep link »*
+**Description** : *Exported chat folder deep link &raquo;*
 
 **Layer** : 211
 

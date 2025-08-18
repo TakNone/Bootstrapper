@@ -50,7 +50,7 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionDefaultBannedRi
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 71,
+		until_date : 17,
 	),
 	new_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -73,7 +73,7 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionDefaultBannedRi
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 89,
+		until_date : 93,
 	),
 );
 ```

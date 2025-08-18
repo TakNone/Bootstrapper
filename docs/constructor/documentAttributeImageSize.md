@@ -29,7 +29,7 @@ documentAttributeImageSize#6c37c15c w:int h:int = DocumentAttribute;
 
 ```php
 $documentAttribute = $client->documentAttributeImageSize(
-	w : 69,
-	h : 37,
+	w : 58,
+	h : 47,
 );
 ```

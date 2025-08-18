@@ -39,6 +39,6 @@ messages.getScheduledHistory#f516760b peer:InputPeer hash:long = messages.Messag
 ```php
 $messagesMessages = $client->messages->getScheduledHistory(
 	peer : $client->inputPeerEmpty(),
-	hash : -6737234282262754261,
+	hash : -3701348536451459263,
 );
 ```

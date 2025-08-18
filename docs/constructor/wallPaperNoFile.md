@@ -32,19 +32,19 @@ wallPaperNoFile#e0804116 id:long flags:# default:flags.1?true dark:flags.4?true 
 
 ```php
 $wallPaper = $client->wallPaperNoFile(
-	id : -998956263413901044,
+	id : 7170046560166919619,
 	default : true,
 	dark : true,
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 86,
-		second_background_color : 59,
-		third_background_color : 65,
-		fourth_background_color : 11,
-		intensity : 47,
-		rotation : 65,
-		emoticon : 'xVLcp96nQGs287iF',
+		background_color : 82,
+		second_background_color : 44,
+		third_background_color : 73,
+		fourth_background_color : 14,
+		intensity : 21,
+		rotation : 49,
+		emoticon : 'pMvJbH5cSs72KYfC',
 	),
 );
 ```

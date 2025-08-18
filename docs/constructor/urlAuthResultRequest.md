@@ -1,6 +1,6 @@
 # urlAuthResultRequest
 
-**Description** : *Details about the authorization request, for more info click here »*
+**Description** : *Details about the authorization request, for more info click here &raquo;*
 
 **Layer** : 211
 
@@ -33,8 +33,8 @@ urlAuthResultRequest#92d33a0e flags:# request_write_access:flags.0?true bot:User
 $urlAuthResult = $client->urlAuthResultRequest(
 	request_write_access : true,
 	bot : $client->userEmpty(
-		id : 6898812660987085545,
+		id : -3755623265064502539,
 	),
-	domain : 'ABUq5YkHcwhILWEj',
+	domain : '9dxQrENO8Wse12XT',
 );
 ```

@@ -30,8 +30,8 @@ inputDocument#1abfb575 id:long access_hash:long file_reference:bytes = InputDocu
 
 ```php
 $inputDocument = $client->inputDocument(
-	id : -1548969556941880820,
-	access_hash : 3037648107085459617,
-	file_reference : 'o?G?LiveProto_?W}',
+	id : -1408711194655957761,
+	access_hash : -7512422954725763286,
+	file_reference : '?@??LiveProto?R?',
 );
 ```

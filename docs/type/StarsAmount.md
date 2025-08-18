@@ -1,6 +1,6 @@
 # StarsAmount
 
-**Description** : *Describes a real (i.e. possibly decimal) amount of Telegram Stars*
+**Description** : *Describes a real \(i\.e\. possibly decimal\) amount of Telegram Stars*
 
 **Layer** : 211
 

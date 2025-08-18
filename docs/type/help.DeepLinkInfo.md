@@ -1,6 +1,6 @@
 # help.DeepLinkInfo
 
-**Description** : *Contains information about an unsupported deep link »*
+**Description** : *Contains information about an unsupported deep link &raquo;*
 
 **Layer** : 211
 

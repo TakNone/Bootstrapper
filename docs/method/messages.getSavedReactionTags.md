@@ -31,6 +31,6 @@ messages.getSavedReactionTags#3637e05b flags:# peer:flags.0?InputPeer hash:long 
 ```php
 $messagesSavedReactionTags = $client->messages->getSavedReactionTags(
 	peer : $client->inputPeerEmpty(),
-	hash : -2614520168189484084,
+	hash : -2886903535498117344,
 );
 ```

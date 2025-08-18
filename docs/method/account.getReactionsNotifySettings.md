@@ -1,6 +1,6 @@
 # account.getReactionsNotifySettings
 
-**Description** : *Get the current reaction notification settings »*
+**Description** : *Get the current reaction notification settings &raquo;*
 
 **Layer** : 211
 

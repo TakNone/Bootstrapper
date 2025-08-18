@@ -1,6 +1,6 @@
 # MyBoost
 
-**Description** : *Contains information about a single boost slot »*
+**Description** : *Contains information about a single boost slot &raquo;*
 
 **Layer** : 211
 

@@ -50,8 +50,8 @@ $messagesExportedChatInvites = $client->messages->getExportedChatInvites(
 	revoked : true,
 	peer : $client->inputPeerEmpty(),
 	admin_id : $client->inputUserEmpty(),
-	offset_date : 3,
-	offset_link : 'jEb0rWnNMzQVPgmv',
-	limit : 3,
+	offset_date : 68,
+	offset_link : 'EzCDoX5fNLeB9ba1',
+	limit : 78,
 );
 ```

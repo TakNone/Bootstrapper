@@ -33,12 +33,12 @@ $pageBlock = $client->pageBlockRelatedArticles(
 	articles : array(
 		$client->pageRelatedArticle(
 			url : 'https://docs.liveproto.dev',
-			webpage_id : 1972468960416712462,
-			title : 'onJf8WvdGDRhs42p',
-			description : '7muFxcaUlZTBdgkt',
-			photo_id : -8805431389971504331,
-			author : 'G4OAZr5yf0VwMt3a',
-			published_date : 45,
+			webpage_id : 3651893810889393728,
+			title : 'Zo0sMcS9XDPKzBQ4',
+			description : 'qeU36w0XukRyWjBT',
+			photo_id : 1120618244133352807,
+			author : 'tndpG1DxuWMhq9e3',
+			published_date : 9,
 		),
 	),
 );

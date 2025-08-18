@@ -1,6 +1,6 @@
 # messages.setChatWallPaper
 
-**Description** : *Set a custom wallpaper » in a specific private chat with another user*
+**Description** : *Set a custom wallpaper &raquo; in a specific private chat with another user*
 
 **Layer** : 211
 
@@ -48,20 +48,20 @@ $updates = $client->messages->setChatWallPaper(
 	revert : true,
 	peer : $client->inputPeerEmpty(),
 	wallpaper : $client->inputWallPaper(
-		id : 8007291805125530414,
-		access_hash : -144099816167260847,
+		id : 6691691007721519455,
+		access_hash : 3841972860594022014,
 	),
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 65,
-		second_background_color : 43,
-		third_background_color : 25,
-		fourth_background_color : 58,
-		intensity : 47,
-		rotation : 76,
-		emoticon : 'Ft4YkHW27sEuQqZ9',
+		background_color : 90,
+		second_background_color : 16,
+		third_background_color : 37,
+		fourth_background_color : 24,
+		intensity : 0,
+		rotation : 37,
+		emoticon : 'YCZm0LfJ6is2h3yt',
 	),
-	id : 87,
+	id : 63,
 );
 ```

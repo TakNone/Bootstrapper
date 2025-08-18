@@ -47,11 +47,11 @@ messages.getDialogs#a0f4cb4f flags:# exclude_pinned:flags.0?true folder_id:flags
 ```php
 $messagesDialogs = $client->messages->getDialogs(
 	exclude_pinned : true,
-	folder_id : 0,
-	offset_date : 81,
-	offset_id : 16,
+	folder_id : 5,
+	offset_date : 28,
+	offset_id : 59,
 	offset_peer : $client->inputPeerEmpty(),
-	limit : 66,
-	hash : 4777482214366479959,
+	limit : 92,
+	hash : -6585405690217662198,
 );
 ```

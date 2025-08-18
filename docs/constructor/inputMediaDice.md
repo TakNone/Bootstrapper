@@ -1,6 +1,6 @@
 # inputMediaDice
 
-**Description** : *Send a dice-based animated sticker*
+**Description** : *Send a dice\-based animated sticker*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ inputMediaDice#e66fbf7b emoticon:string = InputMedia;
 
 ```php
 $inputMedia = $client->inputMediaDice(
-	emoticon : 'aonkQCWtfGdXqrz6',
+	emoticon : '4TDedYMxiQZsRtAj',
 );
 ```

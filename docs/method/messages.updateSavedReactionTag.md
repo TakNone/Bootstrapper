@@ -1,6 +1,6 @@
 # messages.updateSavedReactionTag
 
-**Description** : *Update the description of a saved message tag »*
+**Description** : *Update the description of a saved message tag &raquo;*
 
 **Layer** : 211
 
@@ -40,6 +40,6 @@ messages.updateSavedReactionTag#60297dec flags:# reaction:Reaction title:flags.0
 ```php
 $bool = $client->messages->updateSavedReactionTag(
 	reaction : $client->reactionEmpty(),
-	title : 'qDCEHOTBa3LsJ7Uh',
+	title : '2Mhjs96YocIJdRrL',
 );
 ```

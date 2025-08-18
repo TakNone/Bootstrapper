@@ -1,6 +1,6 @@
 # help.PeerColorSet
 
-**Description** : *Contains info about a color palette »*
+**Description** : *Contains info about a color palette &raquo;*
 
 **Layer** : 211
 

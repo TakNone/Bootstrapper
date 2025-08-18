@@ -1,6 +1,6 @@
 # help.getPeerProfileColors
 
-**Description** : *Get the set of accent color palettes » that can be used in profile page backgrounds*
+**Description** : *Get the set of accent color palettes &raquo; that can be used in profile page backgrounds*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ help.getPeerProfileColors#abcfa9fd hash:int = help.PeerColors;
 
 ```php
 $helpPeerColors = $client->help->getPeerProfileColors(
-	hash : 79,
+	hash : 44,
 );
 ```

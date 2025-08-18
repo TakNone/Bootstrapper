@@ -1,6 +1,6 @@
 # messages.getDefaultHistoryTTL
 
-**Description** : *Gets the default value of the Time-To-Live setting, applied to all new chats*
+**Description** : *Gets the default value of the Time\-To\-Live setting, applied to all new chats*
 
 **Layer** : 211
 

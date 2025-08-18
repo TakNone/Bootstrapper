@@ -29,7 +29,7 @@ updatePhoneCallSignalingData#2661bf09 phone_call_id:long data:bytes = Update;
 
 ```php
 $update = $client->updatePhoneCallSignalingData(
-	phone_call_id : 8497621306304445172,
-	data : '??F1bLiveProtoY??u?',
+	phone_call_id : -5114328943652687349,
+	data : '??? LiveProto??Ç?',
 );
 ```

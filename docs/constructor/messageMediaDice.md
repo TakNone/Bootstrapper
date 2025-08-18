@@ -1,6 +1,6 @@
 # messageMediaDice
 
-**Description** : *Dice-based animated sticker*
+**Description** : *Dice\-based animated sticker*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ messageMediaDice#3f7ee58b value:int emoticon:string = MessageMedia;
 
 ```php
 $messageMedia = $client->messageMediaDice(
-	value : 58,
-	emoticon : '0Lzy8afogsCU4jcA',
+	value : 6,
+	emoticon : 'dnCoJ4V9i8DgB7Ex',
 );
 ```

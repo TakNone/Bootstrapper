@@ -44,6 +44,6 @@ channels.reportSpam#f44a8315 channel:InputChannel participant:InputPeer id:Vecto
 $bool = $client->channels->reportSpam(
 	channel : $client->inputChannelEmpty(),
 	participant : $client->inputPeerEmpty(),
-	id : array(84),
+	id : array(93),
 );
 ```

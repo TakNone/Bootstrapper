@@ -1,6 +1,6 @@
 # updateLangPackTooLong
 
-**Description** : *A language pack has changed, the client should manually fetch the changed strings using langpack.getDifference*
+**Description** : *A language pack has changed, the client should manually fetch the changed strings using langpack\.getDifference*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ updateLangPackTooLong#46560264 lang_code:string = Update;
 
 ```php
 $update = $client->updateLangPackTooLong(
-	lang_code : 'TnzmRft3EvQFLgUi',
+	lang_code : 'cgiqsr4BJ5kzMaUe',
 );
 ```

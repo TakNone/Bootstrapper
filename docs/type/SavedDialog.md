@@ -1,6 +1,6 @@
 # SavedDialog
 
-**Description** : *Represents a saved message dialog »*
+**Description** : *Represents a saved message dialog &raquo;*
 
 **Layer** : 211
 

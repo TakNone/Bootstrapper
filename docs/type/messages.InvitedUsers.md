@@ -1,6 +1,6 @@
 # messages.InvitedUsers
 
-**Description** : *Contains info about successfully or unsuccessfully invited » users*
+**Description** : *Contains info about successfully or unsuccessfully invited &raquo; users*
 
 **Layer** : 211
 

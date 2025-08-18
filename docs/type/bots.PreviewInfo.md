@@ -1,6 +1,6 @@
 # bots.PreviewInfo
 
-**Description** : *Contains info about Main Mini App previews, see here » for more info*
+**Description** : *Contains info about Main Mini App previews, see here &raquo; for more info*
 
 **Layer** : 211
 

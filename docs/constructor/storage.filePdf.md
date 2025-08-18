@@ -1,6 +1,6 @@
 # storage.filePdf
 
-**Description** : *PDF document image. MIME type: application/pdf*
+**Description** : *PDF document image\. MIME type: application/pdf*
 
 **Layer** : 211
 

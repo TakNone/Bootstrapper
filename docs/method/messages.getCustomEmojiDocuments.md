@@ -1,6 +1,6 @@
 # messages.getCustomEmojiDocuments
 
-**Description** : *Fetch custom emoji stickers »*
+**Description** : *Fetch custom emoji stickers &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messages.getCustomEmojiDocuments#d9ab0f54 document_id:Vector<long> = Vector<Docu
 
 ```php
 $document = $client->messages->getCustomEmojiDocuments(
-	document_id : array(6912359273293967389),
+	document_id : array(5192114412804741094),
 );
 ```

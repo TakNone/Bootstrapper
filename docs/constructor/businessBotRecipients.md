@@ -1,6 +1,6 @@
 # businessBotRecipients
 
-**Description** : *Specifies the private chats that a connected business bot » may receive messages and interact with*
+**Description** : *Specifies the private chats that a connected business bot &raquo; may receive messages and interact with*
 
 **Layer** : 211
 
@@ -40,7 +40,7 @@ $businessBotRecipients = $client->businessBotRecipients(
 	contacts : true,
 	non_contacts : true,
 	exclude_selected : true,
-	users : array(3715031787709074976),
-	exclude_users : array(1156282017458581054),
+	users : array(-3870593687977458322),
+	exclude_users : array(932590819833187950),
 );
 ```

@@ -31,10 +31,10 @@ $chatReactions = $client->chatReactionsSome(
 	reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'xu60QmWiLP3lG48U',
+			emoticon : 'rz1yc30BjeDMZakV',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 6269962985803987789,
+			document_id : 4033747740006195366,
 		),
 		$client->reactionPaid(),
 	),

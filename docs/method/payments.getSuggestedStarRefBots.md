@@ -44,7 +44,7 @@ $paymentsSuggestedStarRefBots = $client->payments->getSuggestedStarRefBots(
 	order_by_revenue : true,
 	order_by_date : true,
 	peer : $client->inputPeerEmpty(),
-	offset : 'M2BnN081qxOQf4Yr',
-	limit : 50,
+	offset : 'DKhlsx2puo3zga50',
+	limit : 94,
 );
 ```

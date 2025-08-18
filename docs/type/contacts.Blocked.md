@@ -1,6 +1,6 @@
 # contacts.Blocked
 
-**Description** : *Info on users from the current user's black list*
+**Description** : *Info on users from the current user&#039;s black list*
 
 **Layer** : 211
 

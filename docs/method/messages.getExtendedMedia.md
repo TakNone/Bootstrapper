@@ -1,6 +1,6 @@
 # messages.getExtendedMedia
 
-**Description** : *Fetch updated information about paid media, see here » for the full flow*
+**Description** : *Fetch updated information about paid media, see here &raquo; for the full flow*
 
 **Layer** : 211
 
@@ -30,6 +30,6 @@ messages.getExtendedMedia#84f80814 peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->getExtendedMedia(
 	peer : $client->inputPeerEmpty(),
-	id : array(96),
+	id : array(98),
 );
 ```

@@ -42,6 +42,6 @@ $bool = $client->account->reportProfilePhoto(
 	peer : $client->inputPeerEmpty(),
 	photo_id : $client->inputPhotoEmpty(),
 	reason : $client->inputReportReasonSpam(),
-	message : 'B5m2sjnuoZNzRQ0Y',
+	message : 'RyOU3DvfXQ0j7e4B',
 );
 ```

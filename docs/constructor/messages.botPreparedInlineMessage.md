@@ -1,6 +1,6 @@
 # messages.botPreparedInlineMessage
 
-**Description** : *Represents a prepared inline message saved by a bot, to be sent to the user via a web app »*
+**Description** : *Represents a prepared inline message saved by a bot, to be sent to the user via a web app &raquo;*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ messages.botPreparedInlineMessage#8ecf0511 id:string expire_date:int = messages.
 
 ```php
 $messagesBotPreparedInlineMessage = $client->messages->botPreparedInlineMessage(
-	id : 'GEY5taQkr4zC89Th',
-	expire_date : 9,
+	id : 'DIHuzXYrljdWLq7e',
+	expire_date : 98,
 );
 ```

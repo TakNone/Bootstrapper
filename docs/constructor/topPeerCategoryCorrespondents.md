@@ -1,6 +1,6 @@
 # topPeerCategoryCorrespondents
 
-**Description** : *Users we've chatted most frequently with*
+**Description** : *Users we&#039;ve chatted most frequently with*
 
 **Layer** : 211
 

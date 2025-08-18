@@ -1,6 +1,6 @@
 # messages.transcribedAudio
 
-**Description** : *Transcribed text from a voice message »*
+**Description** : *Transcribed text from a voice message &raquo;*
 
 **Layer** : 211
 
@@ -34,9 +34,9 @@ messages.transcribedAudio#cfb9d957 flags:# pending:flags.0?true transcription_id
 ```php
 $messagesTranscribedAudio = $client->messages->transcribedAudio(
 	pending : true,
-	transcription_id : -4136678153548858018,
-	text : 'dbeUFLaCWv67PZXm',
-	trial_remains_num : 34,
-	trial_remains_until_date : 9,
+	transcription_id : -670356725351666745,
+	text : '5VECcNUvmnbHpMrx',
+	trial_remains_num : 53,
+	trial_remains_until_date : 7,
 );
 ```

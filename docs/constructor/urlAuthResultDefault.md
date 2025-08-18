@@ -1,6 +1,6 @@
 # urlAuthResultDefault
 
-**Description** : *Details about an accepted authorization request, for more info click here »*
+**Description** : *Details about an accepted authorization request, for more info click here &raquo;*
 
 **Layer** : 211
 

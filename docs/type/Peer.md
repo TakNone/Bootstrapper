@@ -1,6 +1,6 @@
 # Peer
 
-**Description** : *Identifier of a private chat, basic group, group or channel (see here » for more info)*
+**Description** : *Identifier of a private chat, basic group, group or channel \(see here &raquo; for more info\)*
 
 **Layer** : 211
 

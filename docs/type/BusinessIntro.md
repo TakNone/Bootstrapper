@@ -1,6 +1,6 @@
 # BusinessIntro
 
-**Description** : *Telegram Business introduction »*
+**Description** : *Telegram Business introduction &raquo;*
 
 **Layer** : 211
 

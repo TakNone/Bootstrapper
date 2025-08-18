@@ -36,6 +36,6 @@ messages.getPinnedDialogs#d6b94df2 folder_id:int = messages.PeerDialogs;
 
 ```php
 $messagesPeerDialogs = $client->messages->getPinnedDialogs(
-	folder_id : 18,
+	folder_id : 99,
 );
 ```

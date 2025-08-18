@@ -1,6 +1,6 @@
 # inputPrivacyKeyVoiceMessages
 
-**Description** : *Whether people can send you voice messages or round videos (Premium users only)*
+**Description** : *Whether people can send you voice messages or round videos \(Premium users only\)*
 
 **Layer** : 211
 

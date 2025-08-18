@@ -27,7 +27,7 @@ auth.sentCodePaymentRequired#d7cef980 store_product:string phone_code_hash:strin
 
 ```php
 $authSentCode = $client->auth->sentCodePaymentRequired(
-	store_product : 'nwhQJCymPWgVipX4',
+	store_product : 'T9XzQbotPmRKU3v0',
 	phone_code_hash : '+1234567890',
 );
 ```

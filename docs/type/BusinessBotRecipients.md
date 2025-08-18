@@ -1,6 +1,6 @@
 # BusinessBotRecipients
 
-**Description** : *Specifies the private chats that a connected business bot » may receive messages and interact with*
+**Description** : *Specifies the private chats that a connected business bot &raquo; may receive messages and interact with*
 
 **Layer** : 211
 

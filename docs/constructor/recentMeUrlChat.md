@@ -1,6 +1,6 @@
 # recentMeUrlChat
 
-**Description** : *Recent t.me link to a chat*
+**Description** : *Recent t\.me link to a chat*
 
 **Layer** : 211
 
@@ -30,6 +30,6 @@ recentMeUrlChat#b2da71d2 url:string chat_id:long = RecentMeUrl;
 ```php
 $recentMeUrl = $client->recentMeUrlChat(
 	url : 'https://docs.liveproto.dev',
-	chat_id : 160099403132730043,
+	chat_id : 7855049596584583324,
 );
 ```

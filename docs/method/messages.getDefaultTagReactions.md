@@ -28,6 +28,6 @@ messages.getDefaultTagReactions#bdf93428 hash:long = messages.Reactions;
 
 ```php
 $messagesReactions = $client->messages->getDefaultTagReactions(
-	hash : -5882953893796457627,
+	hash : 2236606279247457559,
 );
 ```

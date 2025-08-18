@@ -1,6 +1,6 @@
 # keyboardButtonSwitchInline
 
-**Description** : *Button to force a user to switch to inline mode: pressing the button will prompt the user to select one of their chats, open that chat and insert the bot's username and the specified inline query in the input field*
+**Description** : *Button to force a user to switch to inline mode: pressing the button will prompt the user to select one of their chats, open that chat and insert the bot&#039;s username and the specified inline query in the input field*
 
 **Layer** : 211
 
@@ -33,8 +33,8 @@ keyboardButtonSwitchInline#93b9fbb5 flags:# same_peer:flags.0?true text:string q
 ```php
 $keyboardButton = $client->keyboardButtonSwitchInline(
 	same_peer : true,
-	text : 'fnPUHL5CxZIE2s3W',
-	query : 'yvGmbrt8pSWsf5Jw',
+	text : 'fhjI7lc6MH0aWgTU',
+	query : 'GAe0cVqt8Poa3KTD',
 	peer_types : array(
 		$client->inlineQueryPeerTypeSameBotPM(),
 		$client->inlineQueryPeerTypePM(),

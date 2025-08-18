@@ -1,6 +1,6 @@
 # messages.savedReactionTags
 
-**Description** : *List of reaction tag » names assigned by the user*
+**Description** : *List of reaction tag &raquo; names assigned by the user*
 
 **Layer** : 211
 
@@ -32,10 +32,10 @@ $messagesSavedReactionTags = $client->messages->savedReactionTags(
 	tags : array(
 		$client->savedReactionTag(
 			reaction : $client->reactionEmpty(),
-			title : 'KM50inxNakQBLA3v',
-			count : 14,
+			title : 'lnBqdLoVZmTWMbki',
+			count : 5,
 		),
 	),
-	hash : -1963203506300548502,
+	hash : 4852406711608922777,
 );
 ```

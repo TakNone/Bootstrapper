@@ -1,6 +1,6 @@
 # premium.getUserBoosts
 
-**Description** : *Returns the lists of boost that were applied to a channel/supergroup by a specific user (admins only)*
+**Description** : *Returns the lists of boost that were applied to a channel/supergroup by a specific user \(admins only\)*
 
 **Layer** : 211
 

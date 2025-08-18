@@ -1,6 +1,6 @@
 # account.toggleSponsoredMessages
 
-**Description** : *Disable or re-enable Telegram ads for the current Premium account*
+**Description** : *Disable or re\-enable Telegram ads for the current Premium account*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ account.toggleSponsoredMessages#b9d9a38d enabled:Bool = Bool;
 
 ```php
 $bool = $client->account->toggleSponsoredMessages(
-	enabled : $client->boolFalse(),
+	enabled : true,
 );
 ```

@@ -32,7 +32,7 @@ messageEntityBlockquote#f1ccaaac flags:# collapsed:flags.0?true offset:int lengt
 ```php
 $messageEntity = $client->messageEntityBlockquote(
 	collapsed : true,
-	offset : 87,
-	length : 41,
+	offset : 6,
+	length : 59,
 );
 ```

@@ -1,6 +1,6 @@
 # channelAdminLogEventActionChangeEmojiStickerSet
 
-**Description** : *The supergroup's custom emoji stickerset was changed*
+**Description** : *The supergroup&#039;s custom emoji stickerset was changed*
 
 **Layer** : 211
 

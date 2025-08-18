@@ -1,6 +1,6 @@
 # messages.getEmojiKeywordsLanguages
 
-**Description** : *Obtain a list of related languages that must be used when fetching emoji keyword lists »*
+**Description** : *Obtain a list of related languages that must be used when fetching emoji keyword lists &raquo;*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ messages.getEmojiKeywordsLanguages#4e9963b2 lang_codes:Vector<string> = Vector<E
 
 ```php
 $emojiLanguage = $client->messages->getEmojiKeywordsLanguages(
-	lang_codes : array('wVR3h9AxQtWgfl1d'),
+	lang_codes : array('sDkrXP93gG4fKTe0'),
 );
 ```

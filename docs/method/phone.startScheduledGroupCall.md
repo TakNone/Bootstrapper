@@ -38,8 +38,8 @@ phone.startScheduledGroupCall#5680e342 call:InputGroupCall = Updates;
 ```php
 $updates = $client->phone->startScheduledGroupCall(
 	call : $client->inputGroupCall(
-		id : -4607937812103411535,
-		access_hash : -4884406223728828840,
+		id : -4475540937999806250,
+		access_hash : 4576019379435786912,
 	),
 );
 ```

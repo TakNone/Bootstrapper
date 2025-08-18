@@ -29,7 +29,7 @@ messageEntityStrike#bf0693d4 offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityStrike(
-	offset : 100,
-	length : 72,
+	offset : 47,
+	length : 30,
 );
 ```

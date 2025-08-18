@@ -1,6 +1,6 @@
 # chatlists.joinChatlistInvite
 
-**Description** : *Import a chat folder deep link », joining some or all the chats in the folder*
+**Description** : *Import a chat folder deep link &raquo;, joining some or all the chats in the folder*
 
 **Layer** : 211
 
@@ -39,30 +39,30 @@ chatlists.joinChatlistInvite#a6b1e39a slug:string peers:Vector<InputPeer> = Upda
 
 ```php
 $updates = $client->chatlists->joinChatlistInvite(
-	slug : 'ZsH4o2rONWqVECyP',
+	slug : 'x3LEzqIPDUOSK9Yj',
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 7418998261815404872,
+			chat_id : -4143281599239324787,
 		),
 		$client->inputPeerUser(
-			user_id : 8799407077385548237,
-			access_hash : 8295385492758676721,
+			user_id : -6175192504326495114,
+			access_hash : -7785296571500059792,
 		),
 		$client->inputPeerChannel(
-			channel_id : -3062299465422549720,
-			access_hash : 2355182279952734026,
+			channel_id : -633613299185018732,
+			access_hash : 7985034476788637736,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 99,
-			user_id : -6876087607681191879,
+			msg_id : 95,
+			user_id : 3032692554909029787,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 24,
-			channel_id : -580772694087471714,
+			msg_id : 99,
+			channel_id : 6443165242049551759,
 		),
 	),
 );

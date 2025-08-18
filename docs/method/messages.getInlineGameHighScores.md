@@ -39,9 +39,9 @@ messages.getInlineGameHighScores#f635e1b id:InputBotInlineMessageID user_id:Inpu
 ```php
 $messagesHighScores = $client->messages->getInlineGameHighScores(
 	id : $client->inputBotInlineMessageID(
-		dc_id : 66,
-		id : 3489826693264330236,
-		access_hash : -8661600780942552206,
+		dc_id : 28,
+		id : 5592663778366531353,
+		access_hash : -42724624186994240,
 	),
 	user_id : $client->inputUserEmpty(),
 );

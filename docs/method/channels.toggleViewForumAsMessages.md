@@ -1,6 +1,6 @@
 # channels.toggleViewForumAsMessages
 
-**Description** : *Users may also choose to display messages from all topics of a forum as if they were sent to a normal group, using a "View as messages" setting in the local client: this setting only affects the current account, and is synced to other logged in sessions using this method*
+**Description** : *Users may also choose to display messages from all topics of a forum as if they were sent to a normal group, using a &quot;View as messages&quot; setting in the local client: this setting only affects the current account, and is synced to other logged in sessions using this method*
 
 **Layer** : 211
 
@@ -38,6 +38,6 @@ channels.toggleViewForumAsMessages#9738bb15 channel:InputChannel enabled:Bool = 
 ```php
 $updates = $client->channels->toggleViewForumAsMessages(
 	channel : $client->inputChannelEmpty(),
-	enabled : $client->boolFalse(),
+	enabled : true,
 );
 ```

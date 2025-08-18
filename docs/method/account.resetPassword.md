@@ -1,6 +1,6 @@
 # account.resetPassword
 
-**Description** : *Initiate a 2FA password reset: can only be used if the user is already logged-in, see here for more info »*
+**Description** : *Initiate a 2FA password reset: can only be used if the user is already logged\-in, see here for more info &raquo;*
 
 **Layer** : 211
 

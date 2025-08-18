@@ -29,7 +29,7 @@ statsGroupTopInviter#535f779d user_id:long invitations:int = StatsGroupTopInvite
 
 ```php
 $statsGroupTopInviter = $client->statsGroupTopInviter(
-	user_id : 7766090508367565098,
-	invitations : 26,
+	user_id : -8631453368902488025,
+	invitations : 94,
 );
 ```

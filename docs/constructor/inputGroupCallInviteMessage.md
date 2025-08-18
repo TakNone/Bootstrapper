@@ -26,6 +26,6 @@ inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallInviteMessage(
-	msg_id : 13,
+	msg_id : 94,
 );
 ```

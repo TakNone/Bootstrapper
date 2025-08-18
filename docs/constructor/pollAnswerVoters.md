@@ -34,8 +34,7 @@ pollAnswerVoters#3b6ddad2 flags:# chosen:flags.0?true correct:flags.1?true optio
 $pollAnswerVoters = $client->pollAnswerVoters(
 	chosen : true,
 	correct : true,
-	option : '??߿LiveProto
-}ݣ?',
-	voters : 67,
+	option : '??02LiveProto???	' . "\0" . '',
+	voters : 6,
 );
 ```

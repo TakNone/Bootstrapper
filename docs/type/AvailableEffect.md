@@ -1,6 +1,6 @@
 # AvailableEffect
 
-**Description** : *Describes a message effect »*
+**Description** : *Describes a message effect &raquo;*
 
 **Layer** : 211
 

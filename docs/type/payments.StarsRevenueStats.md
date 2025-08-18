@@ -1,6 +1,6 @@
 # payments.StarsRevenueStats
 
-**Description** : *Star revenue statistics, see here » for more info*
+**Description** : *Star revenue statistics, see here &raquo; for more info*
 
 **Layer** : 211
 

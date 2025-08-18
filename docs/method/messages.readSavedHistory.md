@@ -30,6 +30,6 @@ messages.readSavedHistory#ba4a3b5b parent_peer:InputPeer peer:InputPeer max_id:i
 $bool = $client->messages->readSavedHistory(
 	parent_peer : $client->inputPeerEmpty(),
 	peer : $client->inputPeerEmpty(),
-	max_id : 79,
+	max_id : 65,
 );
 ```

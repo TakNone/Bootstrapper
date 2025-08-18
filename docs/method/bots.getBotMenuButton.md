@@ -1,6 +1,6 @@
 # bots.getBotMenuButton
 
-**Description** : *Gets the menu button action for a given user or for all users, previously set using bots.setBotMenuButton; users can see this information in the botInfo constructor*
+**Description** : *Gets the menu button action for a given user or for all users, previously set using bots\.setBotMenuButton; users can see this information in the botInfo constructor*
 
 **Layer** : 211
 

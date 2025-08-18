@@ -1,6 +1,6 @@
 # channelLocationEmpty
 
-**Description** : *No location (normal supergroup)*
+**Description** : *No location \(normal supergroup\)*
 
 **Layer** : 211
 

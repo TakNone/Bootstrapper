@@ -31,6 +31,6 @@ messages.getRecentStickers#9da9403b flags:# attached:flags.0?true hash:long = me
 ```php
 $messagesRecentStickers = $client->messages->getRecentStickers(
 	attached : true,
-	hash : 3461415058481375886,
+	hash : 3595564803306521989,
 );
 ```

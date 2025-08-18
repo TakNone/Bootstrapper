@@ -32,15 +32,15 @@ upload.fileCdnRedirect#f18cda44 dc_id:int file_token:bytes encryption_key:bytes 
 
 ```php
 $uploadFile = $client->upload->fileCdnRedirect(
-	dc_id : 21,
-	file_token : 'c?WhLiveProto:??\'?',
-	encryption_key : '}?Ȋ?LiveProtoO?(y',
-	encryption_iv : '*q???LiveProto?Rj??',
+	dc_id : 75,
+	file_token : '???]"LiveProtox?6?)',
+	encryption_key : '?Y??LiveProtoF??1?',
+	encryption_iv : 'fݳ??LiveProto?v??b',
 	file_hashes : array(
 		$client->fileHash(
-			offset : -7099536357093228061,
-			limit : 15,
-			hash : '??l?LiveProtocTk/',
+			offset : 5526848514267060357,
+			limit : 35,
+			hash : '?ČMGLiveProto??Mn?',
 		),
 	),
 );

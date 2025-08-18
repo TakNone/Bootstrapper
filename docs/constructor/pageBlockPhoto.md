@@ -32,12 +32,12 @@ pageBlockPhoto#1759c560 flags:# photo_id:long caption:PageCaption url:flags.0?st
 
 ```php
 $pageBlock = $client->pageBlockPhoto(
-	photo_id : -6791384789173528158,
+	photo_id : -758205330396932660,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),
 	),
 	url : 'https://docs.liveproto.dev',
-	webpage_id : 295571518155302464,
+	webpage_id : 3960721186676069865,
 );
 ```

@@ -1,6 +1,6 @@
 # channels.getAdminedPublicChannels
 
-**Description** : *Get channels/supergroups/geogroups we're admin in. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups*
+**Description** : *Get channels/supergroups/geogroups we&#039;re admin in\. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups*
 
 **Layer** : 211
 

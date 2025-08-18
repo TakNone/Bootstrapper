@@ -1,6 +1,6 @@
 # inputCheckPasswordSRP
 
-**Description** : *Constructor for checking the validity of a 2FA SRP password (see SRP)*
+**Description** : *Constructor for checking the validity of a 2FA SRP password \(see SRP\)*
 
 **Layer** : 211
 
@@ -30,9 +30,8 @@ inputCheckPasswordSRP#d27ff082 srp_id:long A:bytes M1:bytes = InputCheckPassword
 
 ```php
 $inputCheckPasswordSRP = $client->inputCheckPasswordSRP(
-	srp_id : -289086148781213316,
-	A : '??Ti' . "\0" . 'LiveProto?q???',
-	M1 : '?%??LiveProtob?6
-@',
+	srp_id : 2527354171234754974,
+	A : '???~LiveProto?)?',
+	M1 : 'pH???LiveProtot??\\',
 );
 ```

@@ -48,13 +48,14 @@ $bool = $client->account->updatePasswordSettings(
 	password : $client->inputCheckPasswordEmpty(),
 	new_settings : $client->account->passwordInputSettings(
 		new_algo : $client->passwordKdfAlgoUnknown(),
-		new_password_hash : '~?,eLiveProtod??',
-		hint : 'Yh8SNOUFcx0mVDLQ',
+		new_password_hash : '|6e?LiveProto?dB?',
+		hint : 'bJ6MBNizt3aZS2Fu',
 		email : 'reply@liveproto.dev',
 		new_secure_settings : $client->secureSecretSettings(
 			secure_algo : $client->securePasswordKdfAlgoUnknown(...),
-			secure_secret : '????LiveProto?踀',
-			secure_secret_id : 9195441238496519779,
+			secure_secret : '?j?
+?LiveProtoF??',
+			secure_secret_id : 3374665946545947037,
 		),
 	),
 );

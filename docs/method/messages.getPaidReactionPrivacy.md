@@ -1,6 +1,6 @@
 # messages.getPaidReactionPrivacy
 
-**Description** : *Fetches an updatePaidReactionPrivacy update with the current default paid reaction privacy, see here » for more info*
+**Description** : *Fetches an updatePaidReactionPrivacy update with the current default paid reaction privacy, see here &raquo; for more info*
 
 **Layer** : 211
 

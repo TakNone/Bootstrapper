@@ -40,6 +40,6 @@ messages.deleteExportedChatInvite#d464a42b peer:InputPeer link:string = Bool;
 ```php
 $bool = $client->messages->deleteExportedChatInvite(
 	peer : $client->inputPeerEmpty(),
-	link : 'f4lTADIx2XENqrtp',
+	link : '7wjRgTm1fvht0QFC',
 );
 ```

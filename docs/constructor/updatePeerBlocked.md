@@ -1,6 +1,6 @@
 # updatePeerBlocked
 
-**Description** : *We blocked a peer, see here » for more info on blocklists*
+**Description** : *We blocked a peer, see here &raquo; for more info on blocklists*
 
 **Layer** : 211
 
@@ -34,7 +34,7 @@ $update = $client->updatePeerBlocked(
 	blocked : true,
 	blocked_my_stories_from : true,
 	peer_id : $client->peerUser(
-		user_id : 7299353697641077856,
+		user_id : -2357520853702350901,
 	),
 );
 ```

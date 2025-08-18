@@ -41,7 +41,7 @@
 
 ###### InputContact
 
-:link: [*Object defines a contact from the user's phone book*](type/InputContact)
+:link: [*Object defines a contact from the user&#039;s phone book*](type/InputContact)
 
 ---
 
@@ -83,7 +83,7 @@
 
 ###### Peer
 
-:link: [*Identifier of a private chat, basic group, group or channel (see here » for more info)*](type/Peer)
+:link: [*Identifier of a private chat, basic group, group or channel \(see here &raquo; for more info\)*](type/Peer)
 
 ---
 
@@ -101,7 +101,7 @@
 
 ###### UserProfilePhoto
 
-:link: [*Object contains info on the user's profile photo*](type/UserProfilePhoto)
+:link: [*Object contains info on the user&#039;s profile photo*](type/UserProfilePhoto)
 
 ---
 
@@ -263,7 +263,7 @@
 
 ###### contacts.Contacts
 
-:link: [*Info on the current user's contact list*](type/contacts.Contacts)
+:link: [*Info on the current user&#039;s contact list*](type/contacts.Contacts)
 
 ---
 
@@ -275,7 +275,7 @@
 
 ###### contacts.Blocked
 
-:link: [*Info on users from the current user's black list*](type/contacts.Blocked)
+:link: [*Info on users from the current user&#039;s black list*](type/contacts.Blocked)
 
 ---
 
@@ -419,7 +419,7 @@
 
 ###### messages.DhConfig
 
-:link: [*Contains Diffie-Hellman key generation protocol parameters*](type/messages.DhConfig)
+:link: [*Contains Diffie\-Hellman key generation protocol parameters*](type/messages.DhConfig)
 
 ---
 
@@ -455,7 +455,7 @@
 
 ###### SendMessageAction
 
-:link: [*User actions. Use this to provide users with detailed info about their chat partner's actions: typing or sending attachments of all kinds*](type/SendMessageAction)
+:link: [*User actions\. Use this to provide users with detailed info about their chat partner&#039;s actions: typing or sending attachments of all kinds*](type/SendMessageAction)
 
 ---
 
@@ -467,25 +467,25 @@
 
 ###### InputPrivacyKey
 
-:link: [*Privacy keys together with privacy rules » indicate what can or can't someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*](type/InputPrivacyKey)
+:link: [*Privacy keys together with privacy rules &raquo; indicate what can or can&#039;t someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*](type/InputPrivacyKey)
 
 ---
 
 ###### PrivacyKey
 
-:link: [*Privacy keys together with privacy rules » indicate what can or can't someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*](type/PrivacyKey)
+:link: [*Privacy keys together with privacy rules &raquo; indicate what can or can&#039;t someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*](type/PrivacyKey)
 
 ---
 
 ###### InputPrivacyRule
 
-:link: [*Privacy rules indicate who can or can't do something and are specified by a PrivacyRule, and its input counterpart InputPrivacyRule*](type/InputPrivacyRule)
+:link: [*Privacy rules indicate who can or can&#039;t do something and are specified by a PrivacyRule, and its input counterpart InputPrivacyRule*](type/InputPrivacyRule)
 
 ---
 
 ###### PrivacyRule
 
-:link: [*Privacy rules together with privacy keys indicate what can or can't someone do and are specified by a PrivacyRule constructor, and its input counterpart InputPrivacyRule*](type/PrivacyRule)
+:link: [*Privacy rules together with privacy keys indicate what can or can&#039;t someone do and are specified by a PrivacyRule constructor, and its input counterpart InputPrivacyRule*](type/PrivacyRule)
 
 ---
 
@@ -497,13 +497,13 @@
 
 ###### AccountDaysTTL
 
-:link: [*Time-to-live of current account*](type/AccountDaysTTL)
+:link: [*Time\-to\-live of current account*](type/AccountDaysTTL)
 
 ---
 
 ###### DocumentAttribute
 
-:link: [*Various possible attributes of a document (used to define if it's a sticker, a GIF, a video, a mask sticker, an image, an audio, and so on)*](type/DocumentAttribute)
+:link: [*Various possible attributes of a document \(used to define if it&#039;s a sticker, a GIF, a video, a mask sticker, an image, an audio, and so on\)*](type/DocumentAttribute)
 
 ---
 
@@ -539,25 +539,25 @@
 
 ###### Authorization
 
-:link: [*Represents a logged-in session*](type/Authorization)
+:link: [*Represents a logged\-in session*](type/Authorization)
 
 ---
 
 ###### account.Authorizations
 
-:link: [*Logged-in sessions*](type/account.Authorizations)
+:link: [*Logged\-in sessions*](type/account.Authorizations)
 
 ---
 
 ###### account.Password
 
-:link: [*Configuration for two-factor authorization*](type/account.Password)
+:link: [*Configuration for two\-factor authorization*](type/account.Password)
 
 ---
 
 ###### account.PasswordSettings
 
-:link: [*Private info associated to the password info (recovery email, telegram passport info & so on)*](type/account.PasswordSettings)
+:link: [*Private info associated to the password info \(recovery email, telegram passport info &amp; so on\)*](type/account.PasswordSettings)
 
 ---
 
@@ -599,7 +599,7 @@
 
 ###### StickerSet
 
-:link: [*Represents a stickerset (stickerpack)*](type/StickerSet)
+:link: [*Represents a stickerset \(stickerpack\)*](type/StickerSet)
 
 ---
 
@@ -617,7 +617,7 @@
 
 ###### BotInfo
 
-:link: [*Info about bots (available bot commands, etc)*](type/BotInfo)
+:link: [*Info about bots \(available bot commands, etc\)*](type/BotInfo)
 
 ---
 
@@ -665,7 +665,7 @@
 
 ###### updates.ChannelDifference
 
-:link: [*Contains the difference (new messages) between our local channel state and the remote state*](type/updates.ChannelDifference)
+:link: [*Contains the difference \(new messages\) between our local channel state and the remote state*](type/updates.ChannelDifference)
 
 ---
 
@@ -857,7 +857,7 @@
 
 ###### MaskCoords
 
-:link: [*Mask coordinates (if this is a mask sticker, attached to a photo)*](type/MaskCoords)
+:link: [*Mask coordinates \(if this is a mask sticker, attached to a photo\)*](type/MaskCoords)
 
 ---
 
@@ -887,7 +887,7 @@
 
 ###### messages.HighScores
 
-:link: [*High scores (in games)*](type/messages.HighScores)
+:link: [*High scores \(in games\)*](type/messages.HighScores)
 
 ---
 
@@ -911,7 +911,7 @@
 
 ###### DataJSON
 
-:link: [*Represent a JSON-encoded object*](type/DataJSON)
+:link: [*Represent a JSON\-encoded object*](type/DataJSON)
 
 ---
 
@@ -1133,19 +1133,19 @@
 
 ###### RecentMeUrl
 
-:link: [*Recent t.me urls*](type/RecentMeUrl)
+:link: [*Recent t\.me urls*](type/RecentMeUrl)
 
 ---
 
 ###### help.RecentMeUrls
 
-:link: [*Recent t.me URLs*](type/help.RecentMeUrls)
+:link: [*Recent t\.me URLs*](type/help.RecentMeUrls)
 
 ---
 
 ###### InputSingleMedia
 
-:link: [*A single media in an album or grouped media sent with messages.sendMultiMedia*](type/InputSingleMedia)
+:link: [*A single media in an album or grouped media sent with messages\.sendMultiMedia*](type/InputSingleMedia)
 
 ---
 
@@ -1199,25 +1199,25 @@
 
 ###### help.TermsOfServiceUpdate
 
-:link: [*Update of Telegram's terms of service*](type/help.TermsOfServiceUpdate)
+:link: [*Update of Telegram&#039;s terms of service*](type/help.TermsOfServiceUpdate)
 
 ---
 
 ###### InputSecureFile
 
-:link: [*Secure passport file, for more info see the passport docs »*](type/InputSecureFile)
+:link: [*Secure passport file, for more info see the passport docs &raquo;*](type/InputSecureFile)
 
 ---
 
 ###### SecureFile
 
-:link: [*Secure passport file, for more info see the passport docs »*](type/SecureFile)
+:link: [*Secure passport file, for more info see the passport docs &raquo;*](type/SecureFile)
 
 ---
 
 ###### SecureData
 
-:link: [*Secure passport data, for more info see the passport docs »*](type/SecureData)
+:link: [*Secure passport data, for more info see the passport docs &raquo;*](type/SecureData)
 
 ---
 
@@ -1241,7 +1241,7 @@
 
 ###### InputSecureValue
 
-:link: [*Secure value, for more info see the passport docs »*](type/InputSecureValue)
+:link: [*Secure value, for more info see the passport docs &raquo;*](type/InputSecureValue)
 
 ---
 
@@ -1277,7 +1277,7 @@
 
 ###### help.DeepLinkInfo
 
-:link: [*Contains information about an unsupported deep link »*](type/help.DeepLinkInfo)
+:link: [*Contains information about an unsupported deep link &raquo;*](type/help.DeepLinkInfo)
 
 ---
 
@@ -1295,7 +1295,7 @@
 
 ###### PasswordKdfAlgo
 
-:link: [*Key derivation function to use when generating the password hash for SRP two-factor authorization*](type/PasswordKdfAlgo)
+:link: [*Key derivation function to use when generating the password hash for SRP two\-factor authorization*](type/PasswordKdfAlgo)
 
 ---
 
@@ -1541,7 +1541,7 @@
 
 ###### ChannelLocation
 
-:link: [*Geographical location of supergroup (geogroups)*](type/ChannelLocation)
+:link: [*Geographical location of supergroup \(geogroups\)*](type/ChannelLocation)
 
 ---
 
@@ -1577,7 +1577,7 @@
 
 ###### auth.LoginToken
 
-:link: [*Login token (for QR code login)*](type/auth.LoginToken)
+:link: [*Login token \(for QR code login\)*](type/auth.LoginToken)
 
 ---
 
@@ -1631,19 +1631,19 @@
 
 ###### payments.BankCardData
 
-:link: [*Credit card info, provided by the card's bank(s)*](type/payments.BankCardData)
+:link: [*Credit card info, provided by the card&#039;s bank\(s\)*](type/payments.BankCardData)
 
 ---
 
 ###### DialogFilter
 
-:link: [*Dialog filter (folder »)*](type/DialogFilter)
+:link: [*Dialog filter \(folder &raquo;\)*](type/DialogFilter)
 
 ---
 
 ###### DialogFilterSuggested
 
-:link: [*Suggested dialog filters (folder »)*](type/DialogFilterSuggested)
+:link: [*Suggested dialog filters \(folder &raquo;\)*](type/DialogFilterSuggested)
 
 ---
 
@@ -1739,13 +1739,13 @@
 
 ###### MessageViews
 
-:link: [*View, forward counter + info about replies of a specific message*](type/MessageViews)
+:link: [*View, forward counter \+ info about replies of a specific message*](type/MessageViews)
 
 ---
 
 ###### messages.MessageViews
 
-:link: [*View, forward counter + info about replies*](type/messages.MessageViews)
+:link: [*View, forward counter \+ info about replies*](type/messages.MessageViews)
 
 ---
 
@@ -1763,7 +1763,7 @@
 
 ###### MessageReplies
 
-:link: [*Info about post comments (for channels) or message replies (for groups)*](type/MessageReplies)
+:link: [*Info about post comments \(for channels\) or message replies \(for groups\)*](type/MessageReplies)
 
 ---
 
@@ -1817,7 +1817,7 @@
 
 ###### messages.HistoryImport
 
-:link: [*Identifier of a history import session, click here for more info »*](type/messages.HistoryImport)
+:link: [*Identifier of a history import session, click here for more info &raquo;*](type/messages.HistoryImport)
 
 ---
 
@@ -1871,7 +1871,7 @@
 
 ###### messages.CheckedHistoryImportPeer
 
-:link: [*Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info »*](type/messages.CheckedHistoryImportPeer)
+:link: [*Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info &raquo;*](type/messages.CheckedHistoryImportPeer)
 
 ---
 
@@ -1907,13 +1907,13 @@
 
 ###### BotCommandScope
 
-:link: [*Represents a scope where the bot commands, specified using bots.setBotCommands will be valid*](type/BotCommandScope)
+:link: [*Represents a scope where the bot commands, specified using bots\.setBotCommands will be valid*](type/BotCommandScope)
 
 ---
 
 ###### account.ResetPasswordResult
 
-:link: [*Result of an account.resetPassword request*](type/account.ResetPasswordResult)
+:link: [*Result of an account\.resetPassword request*](type/account.ResetPasswordResult)
 
 ---
 
@@ -1931,7 +1931,7 @@
 
 ###### SearchResultsCalendarPeriod
 
-:link: [*Information about found messages sent on a specific day, used to split the messages in messages.searchResultsCalendar constructors by days*](type/SearchResultsCalendarPeriod)
+:link: [*Information about found messages sent on a specific day, used to split the messages in messages\.searchResultsCalendar constructors by days*](type/SearchResultsCalendarPeriod)
 
 ---
 
@@ -1973,7 +1973,7 @@
 
 ###### auth.LoggedOut
 
-:link: [*Future auth token » to be used on subsequent authorizations*](type/auth.LoggedOut)
+:link: [*Future auth token &raquo; to be used on subsequent authorizations*](type/auth.LoggedOut)
 
 ---
 
@@ -1985,7 +1985,7 @@
 
 ###### MessageReactions
 
-:link: [*Message reactions »*](type/MessageReactions)
+:link: [*Message reactions &raquo;*](type/MessageReactions)
 
 ---
 
@@ -2003,7 +2003,7 @@
 
 ###### messages.AvailableReactions
 
-:link: [*Animations and metadata associated with message reactions »*](type/messages.AvailableReactions)
+:link: [*Animations and metadata associated with message reactions &raquo;*](type/messages.AvailableReactions)
 
 ---
 
@@ -2033,31 +2033,31 @@
 
 ###### AttachMenuBotIconColor
 
-:link: [*Represents an attachment menu icon color for bot mini apps »*](type/AttachMenuBotIconColor)
+:link: [*Represents an attachment menu icon color for bot mini apps &raquo;*](type/AttachMenuBotIconColor)
 
 ---
 
 ###### AttachMenuBotIcon
 
-:link: [*Represents an attachment menu icon for bot mini apps »*](type/AttachMenuBotIcon)
+:link: [*Represents an attachment menu icon for bot mini apps &raquo;*](type/AttachMenuBotIcon)
 
 ---
 
 ###### AttachMenuBot
 
-:link: [*Represents a bot mini app that can be launched from the attachment menu »*](type/AttachMenuBot)
+:link: [*Represents a bot mini app that can be launched from the attachment menu &raquo;*](type/AttachMenuBot)
 
 ---
 
 ###### AttachMenuBots
 
-:link: [*Represents a list of bot mini apps that can be launched from the attachment menu »*](type/AttachMenuBots)
+:link: [*Represents a list of bot mini apps that can be launched from the attachment menu &raquo;*](type/AttachMenuBots)
 
 ---
 
 ###### AttachMenuBotsBot
 
-:link: [*Represents a bot mini app that can be launched from the attachment menu »*](type/AttachMenuBotsBot)
+:link: [*Represents a bot mini app that can be launched from the attachment menu &raquo;*](type/AttachMenuBotsBot)
 
 ---
 
@@ -2075,7 +2075,7 @@
 
 ###### BotMenuButton
 
-:link: [*Indicates the action to execute when pressing the in-UI menu button for bots*](type/BotMenuButton)
+:link: [*Indicates the action to execute when pressing the in\-UI menu button for bots*](type/BotMenuButton)
 
 ---
 
@@ -2201,7 +2201,7 @@
 
 ###### MessageExtendedMedia
 
-:link: [*Paid media, see here » for more info*](type/MessageExtendedMedia)
+:link: [*Paid media, see here &raquo; for more info*](type/MessageExtendedMedia)
 
 ---
 
@@ -2231,7 +2231,7 @@
 
 ###### DefaultHistoryTTL
 
-:link: [*Contains info about the default value of the Time-To-Live setting, applied to all new chats*](type/DefaultHistoryTTL)
+:link: [*Contains info about the default value of the Time\-To\-Live setting, applied to all new chats*](type/DefaultHistoryTTL)
 
 ---
 
@@ -2285,7 +2285,7 @@
 
 ###### AutoSaveException
 
-:link: [*Peer-specific autosave settings*](type/AutoSaveException)
+:link: [*Peer\-specific autosave settings*](type/AutoSaveException)
 
 ---
 
@@ -2339,31 +2339,31 @@
 
 ###### ExportedChatlistInvite
 
-:link: [*An exported chat folder deep link »*](type/ExportedChatlistInvite)
+:link: [*An exported chat folder deep link &raquo;*](type/ExportedChatlistInvite)
 
 ---
 
 ###### chatlists.ExportedChatlistInvite
 
-:link: [*Exported chat folder deep link »*](type/chatlists.ExportedChatlistInvite)
+:link: [*Exported chat folder deep link &raquo;*](type/chatlists.ExportedChatlistInvite)
 
 ---
 
 ###### chatlists.ExportedInvites
 
-:link: [*A list of exported chat folder deep links »*](type/chatlists.ExportedInvites)
+:link: [*A list of exported chat folder deep links &raquo;*](type/chatlists.ExportedInvites)
 
 ---
 
 ###### chatlists.ChatlistInvite
 
-:link: [*Info about a chat folder deep link »*](type/chatlists.ChatlistInvite)
+:link: [*Info about a chat folder deep link &raquo;*](type/chatlists.ChatlistInvite)
 
 ---
 
 ###### chatlists.ChatlistUpdates
 
-:link: [*Updated info about a chat folder deep link »*](type/chatlists.ChatlistUpdates)
+:link: [*Updated info about a chat folder deep link &raquo;*](type/chatlists.ChatlistUpdates)
 
 ---
 
@@ -2393,7 +2393,7 @@
 
 ###### stories.AllStories
 
-:link: [*Full list of active (or active and hidden) stories*](type/stories.AllStories)
+:link: [*Full list of active \(or active and hidden\) stories*](type/stories.AllStories)
 
 ---
 
@@ -2447,7 +2447,7 @@
 
 ###### MediaArea
 
-:link: [*Represents a story media area »*](type/MediaArea)
+:link: [*Represents a story media area &raquo;*](type/MediaArea)
 
 ---
 
@@ -2489,7 +2489,7 @@
 
 ###### PrepaidGiveaway
 
-:link: [*Contains info about a prepaid giveaway »*](type/PrepaidGiveaway)
+:link: [*Contains info about a prepaid giveaway &raquo;*](type/PrepaidGiveaway)
 
 ---
 
@@ -2507,7 +2507,7 @@
 
 ###### MyBoost
 
-:link: [*Contains information about a single boost slot »*](type/MyBoost)
+:link: [*Contains information about a single boost slot &raquo;*](type/MyBoost)
 
 ---
 
@@ -2555,25 +2555,25 @@
 
 ###### PeerColor
 
-:link: [*Represents a color palette »*](type/PeerColor)
+:link: [*Represents a color palette &raquo;*](type/PeerColor)
 
 ---
 
 ###### help.PeerColorSet
 
-:link: [*Contains info about a color palette »*](type/help.PeerColorSet)
+:link: [*Contains info about a color palette &raquo;*](type/help.PeerColorSet)
 
 ---
 
 ###### help.PeerColorOption
 
-:link: [*Contains info about a color palette »*](type/help.PeerColorOption)
+:link: [*Contains info about a color palette &raquo;*](type/help.PeerColorOption)
 
 ---
 
 ###### help.PeerColors
 
-:link: [*Contains info about multiple color palettes »*](type/help.PeerColors)
+:link: [*Contains info about multiple color palettes &raquo;*](type/help.PeerColors)
 
 ---
 
@@ -2591,25 +2591,25 @@
 
 ###### SavedDialog
 
-:link: [*Represents a saved message dialog »*](type/SavedDialog)
+:link: [*Represents a saved message dialog &raquo;*](type/SavedDialog)
 
 ---
 
 ###### messages.SavedDialogs
 
-:link: [*Represents some saved message dialogs »*](type/messages.SavedDialogs)
+:link: [*Represents some saved message dialogs &raquo;*](type/messages.SavedDialogs)
 
 ---
 
 ###### SavedReactionTag
 
-:link: [*Info about a saved message reaction tag »*](type/SavedReactionTag)
+:link: [*Info about a saved message reaction tag &raquo;*](type/SavedReactionTag)
 
 ---
 
 ###### messages.SavedReactionTags
 
-:link: [*List of reaction tag » names assigned by the user*](type/messages.SavedReactionTags)
+:link: [*List of reaction tag &raquo; names assigned by the user*](type/messages.SavedReactionTags)
 
 ---
 
@@ -2651,19 +2651,19 @@
 
 ###### BusinessLocation
 
-:link: [*Represents the location of a Telegram Business »*](type/BusinessLocation)
+:link: [*Represents the location of a Telegram Business &raquo;*](type/BusinessLocation)
 
 ---
 
 ###### InputBusinessRecipients
 
-:link: [*Specifies the chats that can receive Telegram Business away » and greeting » messages*](type/InputBusinessRecipients)
+:link: [*Specifies the chats that can receive Telegram Business away &raquo; and greeting &raquo; messages*](type/InputBusinessRecipients)
 
 ---
 
 ###### BusinessRecipients
 
-:link: [*Specifies the chats that can receive Telegram Business away » and greeting » messages*](type/BusinessRecipients)
+:link: [*Specifies the chats that can receive Telegram Business away &raquo; and greeting &raquo; messages*](type/BusinessRecipients)
 
 ---
 
@@ -2687,13 +2687,13 @@
 
 ###### InputBusinessAwayMessage
 
-:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*](type/InputBusinessAwayMessage)
+:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we&#039;re offline, during closing hours, while we&#039;re on vacation, or in some other custom time period when we cannot immediately answer to the user*](type/InputBusinessAwayMessage)
 
 ---
 
 ###### BusinessAwayMessage
 
-:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we're offline, during closing hours, while we're on vacation, or in some other custom time period when we cannot immediately answer to the user*](type/BusinessAwayMessage)
+:link: [*Describes a Telegram Business away message, automatically sent to users writing to us when we&#039;re offline, during closing hours, while we&#039;re on vacation, or in some other custom time period when we cannot immediately answer to the user*](type/BusinessAwayMessage)
 
 ---
 
@@ -2705,7 +2705,7 @@
 
 ###### help.TimezonesList
 
-:link: [*Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »*](type/help.TimezonesList)
+:link: [*Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours &raquo;*](type/help.TimezonesList)
 
 ---
 
@@ -2717,19 +2717,19 @@
 
 ###### InputQuickReplyShortcut
 
-:link: [*Represents a quick reply shortcut »*](type/InputQuickReplyShortcut)
+:link: [*Represents a quick reply shortcut &raquo;*](type/InputQuickReplyShortcut)
 
 ---
 
 ###### messages.QuickReplies
 
-:link: [*Info about quick reply shortcuts »*](type/messages.QuickReplies)
+:link: [*Info about quick reply shortcuts &raquo;*](type/messages.QuickReplies)
 
 ---
 
 ###### ConnectedBot
 
-:link: [*Contains info about a connected business bot »*](type/ConnectedBot)
+:link: [*Contains info about a connected business bot &raquo;*](type/ConnectedBot)
 
 ---
 
@@ -2759,25 +2759,25 @@
 
 ###### InputBusinessIntro
 
-:link: [*Telegram Business introduction »*](type/InputBusinessIntro)
+:link: [*Telegram Business introduction &raquo;*](type/InputBusinessIntro)
 
 ---
 
 ###### BusinessIntro
 
-:link: [*Telegram Business introduction »*](type/BusinessIntro)
+:link: [*Telegram Business introduction &raquo;*](type/BusinessIntro)
 
 ---
 
 ###### messages.MyStickers
 
-:link: [*The list of stickersets owned by the current account »*](type/messages.MyStickers)
+:link: [*The list of stickersets owned by the current account &raquo;*](type/messages.MyStickers)
 
 ---
 
 ###### InputCollectible
 
-:link: [*Represents a Fragment collectible »*](type/InputCollectible)
+:link: [*Represents a Fragment collectible &raquo;*](type/InputCollectible)
 
 ---
 
@@ -2789,13 +2789,13 @@
 
 ###### InputBusinessBotRecipients
 
-:link: [*Specifies the private chats that a connected business bot » may interact with*](type/InputBusinessBotRecipients)
+:link: [*Specifies the private chats that a connected business bot &raquo; may interact with*](type/InputBusinessBotRecipients)
 
 ---
 
 ###### BusinessBotRecipients
 
-:link: [*Specifies the private chats that a connected business bot » may receive messages and interact with*](type/BusinessBotRecipients)
+:link: [*Specifies the private chats that a connected business bot &raquo; may receive messages and interact with*](type/BusinessBotRecipients)
 
 ---
 
@@ -2813,55 +2813,55 @@
 
 ###### MissingInvitee
 
-:link: [*Info about why a specific user could not be invited »*](type/MissingInvitee)
+:link: [*Info about why a specific user could not be invited &raquo;*](type/MissingInvitee)
 
 ---
 
 ###### messages.InvitedUsers
 
-:link: [*Contains info about successfully or unsuccessfully invited » users*](type/messages.InvitedUsers)
+:link: [*Contains info about successfully or unsuccessfully invited &raquo; users*](type/messages.InvitedUsers)
 
 ---
 
 ###### InputBusinessChatLink
 
-:link: [*Contains info about a business chat deep link » to be created by the current account*](type/InputBusinessChatLink)
+:link: [*Contains info about a business chat deep link &raquo; to be created by the current account*](type/InputBusinessChatLink)
 
 ---
 
 ###### BusinessChatLink
 
-:link: [*Contains info about a business chat deep link » created by the current account*](type/BusinessChatLink)
+:link: [*Contains info about a business chat deep link &raquo; created by the current account*](type/BusinessChatLink)
 
 ---
 
 ###### account.BusinessChatLinks
 
-:link: [*Contains info about business chat deep links » created by the current account*](type/account.BusinessChatLinks)
+:link: [*Contains info about business chat deep links &raquo; created by the current account*](type/account.BusinessChatLinks)
 
 ---
 
 ###### account.ResolvedBusinessChatLinks
 
-:link: [*Contains info about a single resolved business chat deep link »*](type/account.ResolvedBusinessChatLinks)
+:link: [*Contains info about a single resolved business chat deep link &raquo;*](type/account.ResolvedBusinessChatLinks)
 
 ---
 
 ###### RequestedPeer
 
-:link: [*Info about a peer, shared by a user with the currently logged in bot using messages.sendBotRequestedPeer*](type/RequestedPeer)
+:link: [*Info about a peer, shared by a user with the currently logged in bot using messages\.sendBotRequestedPeer*](type/RequestedPeer)
 
 ---
 
 ###### SponsoredMessageReportOption
 
-:link: [*A report option for a sponsored message »*](type/SponsoredMessageReportOption)
+:link: [*A report option for a sponsored message &raquo;*](type/SponsoredMessageReportOption)
 
 ---
 
 ###### channels.SponsoredMessageReportResult
 
-:link: [*Status of the method call used to report a sponsored message »*](type/channels.SponsoredMessageReportResult)
+:link: [*Status of the method call used to report a sponsored message &raquo;*](type/channels.SponsoredMessageReportResult)
 
 ---
 
@@ -2873,25 +2873,25 @@
 
 ###### ReactionsNotifySettings
 
-:link: [*Reaction notification settings, see here » for more info*](type/ReactionsNotifySettings)
+:link: [*Reaction notification settings, see here &raquo; for more info*](type/ReactionsNotifySettings)
 
 ---
 
 ###### AvailableEffect
 
-:link: [*Describes a message effect »*](type/AvailableEffect)
+:link: [*Describes a message effect &raquo;*](type/AvailableEffect)
 
 ---
 
 ###### messages.AvailableEffects
 
-:link: [*Full list of usable animated message effects »*](type/messages.AvailableEffects)
+:link: [*Full list of usable animated message effects &raquo;*](type/messages.AvailableEffects)
 
 ---
 
 ###### FactCheck
 
-:link: [*Represents a fact-check » created by an independent fact-checker*](type/FactCheck)
+:link: [*Represents a fact\-check &raquo; created by an independent fact\-checker*](type/FactCheck)
 
 ---
 
@@ -2909,25 +2909,25 @@
 
 ###### StarsTransaction
 
-:link: [*Represents a Telegram Stars transaction »*](type/StarsTransaction)
+:link: [*Represents a Telegram Stars transaction &raquo;*](type/StarsTransaction)
 
 ---
 
 ###### payments.StarsStatus
 
-:link: [*Info about the current Telegram Star subscriptions, balance and transaction history »*](type/payments.StarsStatus)
+:link: [*Info about the current Telegram Star subscriptions, balance and transaction history &raquo;*](type/payments.StarsStatus)
 
 ---
 
 ###### FoundStory
 
-:link: [*A story found using global story search »*](type/FoundStory)
+:link: [*A story found using global story search &raquo;*](type/FoundStory)
 
 ---
 
 ###### stories.FoundStories
 
-:link: [*Stories found using global story search »*](type/stories.FoundStories)
+:link: [*Stories found using global story search &raquo;*](type/stories.FoundStories)
 
 ---
 
@@ -2939,13 +2939,13 @@
 
 ###### StarsRevenueStatus
 
-:link: [*Describes Telegram Star revenue balances »*](type/StarsRevenueStatus)
+:link: [*Describes Telegram Star revenue balances &raquo;*](type/StarsRevenueStatus)
 
 ---
 
 ###### payments.StarsRevenueStats
 
-:link: [*Star revenue statistics, see here » for more info*](type/payments.StarsRevenueStats)
+:link: [*Star revenue statistics, see here &raquo; for more info*](type/payments.StarsRevenueStats)
 
 ---
 
@@ -2963,7 +2963,7 @@
 
 ###### InputStarsTransaction
 
-:link: [*Used to fetch info about a Telegram Star transaction »*](type/InputStarsTransaction)
+:link: [*Used to fetch info about a Telegram Star transaction &raquo;*](type/InputStarsTransaction)
 
 ---
 
@@ -2975,31 +2975,31 @@
 
 ###### bots.PopularAppBots
 
-:link: [*Popular Main Mini Apps, to be used in the apps tab of global search »*](type/bots.PopularAppBots)
+:link: [*Popular Main Mini Apps, to be used in the apps tab of global search &raquo;*](type/bots.PopularAppBots)
 
 ---
 
 ###### BotPreviewMedia
 
-:link: [*Represents a Main Mini App preview media, see here » for more info*](type/BotPreviewMedia)
+:link: [*Represents a Main Mini App preview media, see here &raquo; for more info*](type/BotPreviewMedia)
 
 ---
 
 ###### bots.PreviewInfo
 
-:link: [*Contains info about Main Mini App previews, see here » for more info*](type/bots.PreviewInfo)
+:link: [*Contains info about Main Mini App previews, see here &raquo; for more info*](type/bots.PreviewInfo)
 
 ---
 
 ###### StarsSubscriptionPricing
 
-:link: [*Pricing of a Telegram Star subscription »*](type/StarsSubscriptionPricing)
+:link: [*Pricing of a Telegram Star subscription &raquo;*](type/StarsSubscriptionPricing)
 
 ---
 
 ###### StarsSubscription
 
-:link: [*Represents a Telegram Star subscription »*](type/StarsSubscription)
+:link: [*Represents a Telegram Star subscription &raquo;*](type/StarsSubscription)
 
 ---
 
@@ -3023,13 +3023,13 @@
 
 ###### StarGift
 
-:link: [*Represents a star gift, see here » for more info*](type/StarGift)
+:link: [*Represents a star gift, see here &raquo; for more info*](type/StarGift)
 
 ---
 
 ###### payments.StarGifts
 
-:link: [*Available gifts »*](type/payments.StarGifts)
+:link: [*Available gifts &raquo;*](type/payments.StarGifts)
 
 ---
 
@@ -3047,19 +3047,19 @@
 
 ###### messages.BotPreparedInlineMessage
 
-:link: [*Represents a prepared inline message saved by a bot, to be sent to the user via a web app »*](type/messages.BotPreparedInlineMessage)
+:link: [*Represents a prepared inline message saved by a bot, to be sent to the user via a web app &raquo;*](type/messages.BotPreparedInlineMessage)
 
 ---
 
 ###### messages.PreparedInlineMessage
 
-:link: [*Represents a prepared inline message received via a bot's mini app, that can be sent to some chats »*](type/messages.PreparedInlineMessage)
+:link: [*Represents a prepared inline message received via a bot&#039;s mini app, that can be sent to some chats &raquo;*](type/messages.PreparedInlineMessage)
 
 ---
 
 ###### BotAppSettings
 
-:link: [*Mini app » settings*](type/BotAppSettings)
+:link: [*Mini app &raquo; settings*](type/BotAppSettings)
 
 ---
 
@@ -3089,7 +3089,7 @@
 
 ###### StarsAmount
 
-:link: [*Describes a real (i.e. possibly decimal) amount of Telegram Stars*](type/StarsAmount)
+:link: [*Describes a real \(i\.e\. possibly decimal\) amount of Telegram Stars*](type/StarsAmount)
 
 ---
 

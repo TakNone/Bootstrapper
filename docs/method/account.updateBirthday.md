@@ -1,6 +1,6 @@
 # account.updateBirthday
 
-**Description** : *Update our birthday, see here » for more info*
+**Description** : *Update our birthday, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -38,9 +38,9 @@ account.updateBirthday#cc6e0c11 flags:# birthday:flags.0?Birthday = Bool;
 ```php
 $bool = $client->account->updateBirthday(
 	birthday : $client->birthday(
-		day : 40,
-		month : 82,
-		year : 9,
+		day : 91,
+		month : 68,
+		year : 32,
 	),
 );
 ```

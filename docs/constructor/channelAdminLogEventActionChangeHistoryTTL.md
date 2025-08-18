@@ -1,6 +1,6 @@
 # channelAdminLogEventActionChangeHistoryTTL
 
-**Description** : *The Time-To-Live of messages in this chat was changed*
+**Description** : *The Time\-To\-Live of messages in this chat was changed*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeHistoryTTL#6e941a38 prev_value:int new_value:int
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeHistoryTTL(
-	prev_value : 48,
-	new_value : 88,
+	prev_value : 12,
+	new_value : 48,
 );
 ```

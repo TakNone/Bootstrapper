@@ -1,6 +1,6 @@
 # account.password
 
-**Description** : *Configuration for two-factor authorization*
+**Description** : *Configuration for two\-factor authorization*
 
 **Layer** : 211
 
@@ -45,14 +45,14 @@ $accountPassword = $client->account->password(
 	has_secure_values : true,
 	has_password : true,
 	current_algo : $client->passwordKdfAlgoUnknown(),
-	srp_B : '`?ߪ?LiveProtots?ɲ',
-	srp_id : 1937711348871838168,
-	hint : 'dm9NtwJb5uSOWaUM',
+	srp_B : '?\'?LiveProto":o7E',
+	srp_id : 1030600926244607986,
+	hint : 'KmbREDOiQ48ctX5w',
 	email_unconfirmed_pattern : 'reply@liveproto.dev',
 	new_algo : $client->passwordKdfAlgoUnknown(),
 	new_secure_algo : $client->securePasswordKdfAlgoUnknown(),
-	secure_random : '?c2?LiveProto??',
-	pending_reset_date : 71,
+	secure_random : '??ܚ?LiveProtoM?^?',
+	pending_reset_date : 53,
 	login_email_pattern : 'reply@liveproto.dev',
 );
 ```

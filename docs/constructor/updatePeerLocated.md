@@ -31,13 +31,13 @@ $update = $client->updatePeerLocated(
 	peers : array(
 		$client->peerLocated(
 			peer : $client->peerUser(
-				user_id : 4305101272200038287,
+				user_id : 7694308143717340596,
 			),
-			expires : 78,
-			distance : 59,
+			expires : 69,
+			distance : 92,
 		),
 		$client->peerSelfLocated(
-			expires : 37,
+			expires : 54,
 		),
 	),
 );

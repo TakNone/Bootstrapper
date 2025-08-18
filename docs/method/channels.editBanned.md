@@ -71,7 +71,7 @@ $updates = $client->channels->editBanned(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 95,
+		until_date : 75,
 	),
 );
 ```

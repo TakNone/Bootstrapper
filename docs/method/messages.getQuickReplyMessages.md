@@ -1,6 +1,6 @@
 # messages.getQuickReplyMessages
 
-**Description** : *Fetch (a subset or all) messages in a quick reply shortcut »*
+**Description** : *Fetch \(a subset or all\) messages in a quick reply shortcut &raquo;*
 
 **Layer** : 211
 
@@ -39,8 +39,8 @@ messages.getQuickReplyMessages#94a495c3 flags:# shortcut_id:int id:flags.0?Vecto
 
 ```php
 $messagesMessages = $client->messages->getQuickReplyMessages(
-	shortcut_id : 90,
-	id : array(19),
-	hash : -8713540432379365174,
+	shortcut_id : 10,
+	id : array(43),
+	hash : 7942747904304153516,
 );
 ```

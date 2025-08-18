@@ -1,6 +1,6 @@
 # chatlists.hideChatlistUpdates
 
-**Description** : *Dismiss new pending peers recently added to a chat folder deep link »*
+**Description** : *Dismiss new pending peers recently added to a chat folder deep link &raquo;*
 
 **Layer** : 211
 
@@ -38,7 +38,7 @@ chatlists.hideChatlistUpdates#66e486fb chatlist:InputChatlist = Bool;
 ```php
 $bool = $client->chatlists->hideChatlistUpdates(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 92,
+		filter_id : 17,
 	),
 );
 ```

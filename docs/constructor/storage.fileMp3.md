@@ -1,6 +1,6 @@
 # storage.fileMp3
 
-**Description** : *Mp3 audio. MIME type: audio/mpeg*
+**Description** : *Mp3 audio\. MIME type: audio/mpeg*
 
 **Layer** : 211
 

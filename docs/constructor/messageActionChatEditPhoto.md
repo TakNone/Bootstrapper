@@ -29,7 +29,7 @@ messageActionChatEditPhoto#7fcb13a8 photo:Photo = MessageAction;
 ```php
 $messageAction = $client->messageActionChatEditPhoto(
 	photo : $client->photoEmpty(
-		id : 6462955160804024093,
+		id : -1328785980688135882,
 	),
 );
 ```

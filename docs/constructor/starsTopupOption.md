@@ -34,9 +34,9 @@ starsTopupOption#bd915c0 flags:# extended:flags.1?true stars:long store_product:
 ```php
 $starsTopupOption = $client->starsTopupOption(
 	extended : true,
-	stars : 5966284362750358801,
-	store_product : 'e5vbocjWRwKCZNuF',
-	currency : 'yZcXNPrxMAOqE3T9',
-	amount : 1795840288500052109,
+	stars : -556448671843415123,
+	store_product : 'JV6YFjWeSik8m1uN',
+	currency : '2T9RqE1aImLcSKQk',
+	amount : -7756269469866800542,
 );
 ```

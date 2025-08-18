@@ -1,6 +1,6 @@
 # updateSavedGifs
 
-**Description** : *The saved gif list has changed, the client should refetch it using messages.getSavedGifs*
+**Description** : *The saved gif list has changed, the client should refetch it using messages\.getSavedGifs*
 
 **Layer** : 211
 

@@ -27,7 +27,7 @@ messageActionPaidMessagesRefunded#ac1f1fcd count:int stars:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionPaidMessagesRefunded(
-	count : 33,
-	stars : -7056707618223198591,
+	count : 57,
+	stars : 1295121013176513320,
 );
 ```

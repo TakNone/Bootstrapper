@@ -1,6 +1,6 @@
 # bots.addPreviewMedia
 
-**Description** : *Add a main mini app preview, see here » for more info*
+**Description** : *Add a main mini app preview, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -39,7 +39,7 @@ bots.addPreviewMedia#17aeb75a bot:InputUser lang_code:string media:InputMedia = 
 ```php
 $botPreviewMedia = $client->bots->addPreviewMedia(
 	bot : $client->inputUserEmpty(),
-	lang_code : 'soQ3dpJ5kGhiOI96',
+	lang_code : 'Bm6ZGVD3d2Otjnol',
 	media : $client->inputMediaEmpty(),
 );
 ```

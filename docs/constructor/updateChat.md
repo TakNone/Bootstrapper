@@ -1,6 +1,6 @@
 # updateChat
 
-**Description** : *Chat (chat and/or chatFull) information was updated*
+**Description** : *Chat \(chat and/or chatFull\) information was updated*
 
 **Layer** : 211
 
@@ -28,6 +28,6 @@ updateChat#f89a6a4e chat_id:long = Update;
 
 ```php
 $update = $client->updateChat(
-	chat_id : -295513423360342953,
+	chat_id : 2248922504851858574,
 );
 ```

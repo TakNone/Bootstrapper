@@ -33,6 +33,6 @@ $bool = $client->bots->setCustomVerification(
 	enabled : true,
 	bot : $client->inputUserEmpty(),
 	peer : $client->inputPeerEmpty(),
-	custom_description : 'XwzW6ULrIQc45lM9',
+	custom_description : 'OXLj6UYBTVz15cFd',
 );
 ```

@@ -29,7 +29,8 @@ messageReportOption#7903e3d9 text:string option:bytes = MessageReportOption;
 
 ```php
 $messageReportOption = $client->messageReportOption(
-	text : 'bQ5CUqXBmpeoAuhE',
-	option : '??д?LiveProtoB9O7',
+	text : 'FD3NAC716sr0qQnl',
+	option : ':?0~?LiveProto
+?}{L',
 );
 ```

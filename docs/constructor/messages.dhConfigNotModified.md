@@ -28,6 +28,6 @@ messages.dhConfigNotModified#c0e24635 random:bytes = messages.DhConfig;
 
 ```php
 $messagesDhConfig = $client->messages->dhConfigNotModified(
-	random : '?I?3?LiveProto???p',
+	random : '~n?d"LiveProto??#?',
 );
 ```

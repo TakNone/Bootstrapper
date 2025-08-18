@@ -1,6 +1,6 @@
 # dialogFilterDefault
 
-**Description** : *Used only when reordering folders to indicate the default (all chats) folder*
+**Description** : *Used only when reordering folders to indicate the default \(all chats\) folder*
 
 **Layer** : 211
 

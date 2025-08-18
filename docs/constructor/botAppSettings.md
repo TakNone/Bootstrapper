@@ -1,6 +1,6 @@
 # botAppSettings
 
-**Description** : *Mini app » settings*
+**Description** : *Mini app &raquo; settings*
 
 **Layer** : 211
 
@@ -33,10 +33,10 @@ botAppSettings#c99b1950 flags:# placeholder_path:flags.0?bytes background_color:
 
 ```php
 $botAppSettings = $client->botAppSettings(
-	placeholder_path : '>???LiveProto?)???',
-	background_color : 70,
-	background_dark_color : 66,
-	header_color : 46,
-	header_dark_color : 38,
+	placeholder_path : 'ñ??LiveProtoUH?Ҍ',
+	background_color : 94,
+	background_dark_color : 68,
+	header_color : 96,
+	header_dark_color : 95,
 );
 ```

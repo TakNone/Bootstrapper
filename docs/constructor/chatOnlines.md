@@ -28,6 +28,6 @@ chatOnlines#f041e250 onlines:int = ChatOnlines;
 
 ```php
 $chatOnlines = $client->chatOnlines(
-	onlines : 37,
+	onlines : 36,
 );
 ```

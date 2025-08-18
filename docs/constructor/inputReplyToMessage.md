@@ -36,104 +36,104 @@ inputReplyToMessage#869fbe10 flags:# reply_to_msg_id:int top_msg_id:flags.0?int 
 
 ```php
 $inputReplyTo = $client->inputReplyToMessage(
-	reply_to_msg_id : 22,
-	top_msg_id : 28,
+	reply_to_msg_id : 3,
+	top_msg_id : 94,
 	reply_to_peer_id : $client->inputPeerEmpty(),
-	quote_text : 'Bj3GrLiMsceOSwfH',
+	quote_text : 'mbGi5M1KdBVwuTlo',
 	quote_entities : array(
 		$client->messageEntityUnknown(
-			offset : 12,
-			length : 40,
+			offset : 44,
+			length : 67,
 		),
 		$client->messageEntityMention(
-			offset : 35,
-			length : 20,
+			offset : 11,
+			length : 81,
 		),
 		$client->messageEntityHashtag(
-			offset : 25,
-			length : 3,
+			offset : 29,
+			length : 42,
 		),
 		$client->messageEntityBotCommand(
-			offset : 16,
-			length : 12,
+			offset : 79,
+			length : 23,
 		),
 		$client->messageEntityUrl(
-			offset : 23,
-			length : 79,
+			offset : 13,
+			length : 23,
 		),
 		$client->messageEntityEmail(
-			offset : 22,
-			length : 61,
+			offset : 64,
+			length : 24,
 		),
 		$client->messageEntityBold(
-			offset : 38,
-			length : 52,
-		),
-		$client->messageEntityItalic(
-			offset : 18,
-			length : 85,
-		),
-		$client->messageEntityCode(
-			offset : 96,
-			length : 54,
-		),
-		$client->messageEntityPre(
-			offset : 46,
-			length : 50,
-			language : 'QHkt1E4SDbYjLM7a',
-		),
-		$client->messageEntityTextUrl(
-			offset : 53,
-			length : 11,
-			url : 'https://docs.liveproto.dev',
-		),
-		$client->messageEntityMentionName(
-			offset : 37,
-			length : 67,
-			user_id : -1716657746060202057,
-		),
-		$client->inputMessageEntityMentionName(
-			offset : 91,
-			length : 35,
-			user_id : $client->inputUserEmpty(),
-		),
-		$client->messageEntityPhone(
-			offset : 89,
-			length : 15,
-		),
-		$client->messageEntityCashtag(
-			offset : 30,
-			length : 83,
-		),
-		$client->messageEntityUnderline(
 			offset : 34,
 			length : 95,
 		),
+		$client->messageEntityItalic(
+			offset : 96,
+			length : 18,
+		),
+		$client->messageEntityCode(
+			offset : 36,
+			length : 11,
+		),
+		$client->messageEntityPre(
+			offset : 40,
+			length : 61,
+			language : '08LEPCo2pUKJYDVy',
+		),
+		$client->messageEntityTextUrl(
+			offset : 49,
+			length : 19,
+			url : 'https://docs.liveproto.dev',
+		),
+		$client->messageEntityMentionName(
+			offset : 2,
+			length : 83,
+			user_id : -3585753802562312722,
+		),
+		$client->inputMessageEntityMentionName(
+			offset : 60,
+			length : 48,
+			user_id : $client->inputUserEmpty(),
+		),
+		$client->messageEntityPhone(
+			offset : 51,
+			length : 18,
+		),
+		$client->messageEntityCashtag(
+			offset : 43,
+			length : 19,
+		),
+		$client->messageEntityUnderline(
+			offset : 59,
+			length : 37,
+		),
 		$client->messageEntityStrike(
-			offset : 13,
-			length : 49,
+			offset : 88,
+			length : 5,
 		),
 		$client->messageEntityBankCard(
-			offset : 95,
-			length : 74,
+			offset : 58,
+			length : 20,
 		),
 		$client->messageEntitySpoiler(
-			offset : 26,
-			length : 31,
+			offset : 86,
+			length : 2,
 		),
 		$client->messageEntityCustomEmoji(
-			offset : 54,
-			length : 4,
-			document_id : -3154517249138387864,
+			offset : 5,
+			length : 26,
+			document_id : 4361925751923134829,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
-			offset : 27,
-			length : 74,
+			offset : 3,
+			length : 16,
 		),
 	),
-	quote_offset : 40,
+	quote_offset : 88,
 	monoforum_peer_id : $client->inputPeerEmpty(),
-	todo_item_id : 65,
+	todo_item_id : 97,
 );
 ```

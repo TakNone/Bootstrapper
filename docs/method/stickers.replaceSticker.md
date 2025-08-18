@@ -1,6 +1,6 @@
 # stickers.replaceSticker
 
-**Description** : *Replace a sticker in a stickerset »*
+**Description** : *Replace a sticker in a stickerset &raquo;*
 
 **Layer** : 211
 
@@ -40,14 +40,14 @@ $messagesStickerSet = $client->stickers->replaceSticker(
 	sticker : $client->inputDocumentEmpty(),
 	new_sticker : $client->inputStickerSetItem(
 		document : $client->inputDocumentEmpty(),
-		emoji : 'EwpI9zt2QGWTFrNK',
+		emoji : 'pkJn73RvFAMIt6Yz',
 		mask_coords : $client->maskCoords(
-			n : 14,
-			x : 1009573.9521484375,
-			y : -175032.5556640625,
-			zoom : 401984.2216796875,
+			n : 71,
+			x : -1661724.0341796875,
+			y : -1922206.3466796875,
+			zoom : 876693.4970703125,
 		),
-		keywords : 'Zce3Jz7GF8Tky5Ai',
+		keywords : 'oQk2cU0Z7m9erVIK',
 	),
 );
 ```

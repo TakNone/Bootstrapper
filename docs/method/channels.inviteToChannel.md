@@ -60,13 +60,13 @@ $messagesInvitedUsers = $client->channels->inviteToChannel(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 957264655131811957,
-			access_hash : 2582137302119301405,
+			user_id : -4386050911422595789,
+			access_hash : -5878521379134585091,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 80,
-			user_id : 5589962505079584463,
+			msg_id : 7,
+			user_id : -7038925501119810867,
 		),
 	),
 );

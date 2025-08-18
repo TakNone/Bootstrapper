@@ -1,6 +1,6 @@
 # account.updateBusinessLocation
 
-**Description** : *Businesses » may advertise their location using this method, see here » for more info*
+**Description** : *Businesses &raquo; may advertise their location using this method, see here &raquo; for more info*
 
 **Layer** : 211
 
@@ -31,6 +31,6 @@ account.updateBusinessLocation#9e6b131a flags:# geo_point:flags.1?InputGeoPoint 
 ```php
 $bool = $client->account->updateBusinessLocation(
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'kDaPYFwziE7c3Vjn',
+	address : 'hJ8vXLakgIG0Hfp3',
 );
 ```

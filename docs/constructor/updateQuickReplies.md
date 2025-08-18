@@ -1,6 +1,6 @@
 # updateQuickReplies
 
-**Description** : *Info about or the order of quick reply shortcuts » was changed*
+**Description** : *Info about or the order of quick reply shortcuts &raquo; was changed*
 
 **Layer** : 211
 
@@ -30,10 +30,10 @@ updateQuickReplies#f9470ab2 quick_replies:Vector<QuickReply> = Update;
 $update = $client->updateQuickReplies(
 	quick_replies : array(
 		$client->quickReply(
-			shortcut_id : 100,
-			shortcut : 'ebicMgZF05yvJsj6',
-			top_message : 10,
-			count : 17,
+			shortcut_id : 45,
+			shortcut : 'tnWORjzIxdom8FEL',
+			top_message : 5,
+			count : 62,
 		),
 	),
 );

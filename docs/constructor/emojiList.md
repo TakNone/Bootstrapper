@@ -29,7 +29,7 @@ emojiList#7a1e11d1 hash:long document_id:Vector<long> = EmojiList;
 
 ```php
 $emojiList = $client->emojiList(
-	hash : 6699549576626974201,
-	document_id : array(-4947819120497633876),
+	hash : 2839787951316463115,
+	document_id : array(2026732596240313112),
 );
 ```

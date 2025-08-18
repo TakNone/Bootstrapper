@@ -1,6 +1,6 @@
 # inputKeyboardButtonRequestPeer
 
-**Description** : *Prompts the user to select and share one or more peers with the bot using messages.sendBotRequestedPeer*
+**Description** : *Prompts the user to select and share one or more peers with the bot using messages\.sendBotRequestedPeer*
 
 **Layer** : 211
 
@@ -38,12 +38,12 @@ $keyboardButton = $client->inputKeyboardButtonRequestPeer(
 	name_requested : true,
 	username_requested : true,
 	photo_requested : true,
-	text : 'J7nSlw931X50IdZj',
-	button_id : 21,
+	text : 'Qnb2xoRPpNmYdJDf',
+	button_id : 74,
 	peer_type : $client->requestPeerTypeUser(
-		bot : $client->boolFalse(),
-		premium : $client->boolFalse(),
+		bot : false,
+		premium : false,
 	),
-	max_quantity : 0,
+	max_quantity : 51,
 );
 ```

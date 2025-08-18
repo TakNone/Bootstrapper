@@ -1,6 +1,6 @@
 # MissingInvitee
 
-**Description** : *Info about why a specific user could not be invited »*
+**Description** : *Info about why a specific user could not be invited &raquo;*
 
 **Layer** : 211
 

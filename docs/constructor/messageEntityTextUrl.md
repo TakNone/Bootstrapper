@@ -1,6 +1,6 @@
 # messageEntityTextUrl
 
-**Description** : *Message entity representing a text url: for in-text urls like https://google.com use messageEntityUrl*
+**Description** : *Message entity representing a text url: for in\-text urls like https://google\.com use messageEntityUrl*
 
 **Layer** : 211
 
@@ -30,8 +30,8 @@ messageEntityTextUrl#76a6d327 offset:int length:int url:string = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityTextUrl(
-	offset : 9,
-	length : 60,
+	offset : 79,
+	length : 12,
 	url : 'https://docs.liveproto.dev',
 );
 ```

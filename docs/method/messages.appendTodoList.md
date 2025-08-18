@@ -29,12 +29,12 @@ messages.appendTodoList#21a61057 peer:InputPeer msg_id:int list:Vector<TodoItem>
 ```php
 $updates = $client->messages->appendTodoList(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 71,
+	msg_id : 54,
 	list : array(
 		$client->todoItem(
-			id : 62,
+			id : 5,
 			title : $client->textWithEntities(
-				text : 'BQDAiZptIRys6W5m',
+				text : 'ySaoq9uT7YO16m4b',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),

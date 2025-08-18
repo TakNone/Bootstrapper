@@ -28,6 +28,6 @@ payments.reorderStarGiftCollections#c32af4cc peer:InputPeer order:Vector<int> = 
 ```php
 $bool = $client->payments->reorderStarGiftCollections(
 	peer : $client->inputPeerEmpty(),
-	order : array(63),
+	order : array(91),
 );
 ```

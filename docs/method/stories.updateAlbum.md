@@ -33,10 +33,10 @@ stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?s
 ```php
 $storyAlbum = $client->stories->updateAlbum(
 	peer : $client->inputPeerEmpty(),
-	album_id : 26,
-	title : 'X8VxcT7Fie69luOB',
-	delete_stories : array(54),
-	add_stories : array(75),
-	order : array(6),
+	album_id : 20,
+	title : 'QXwfrJP7C0e1OcZ5',
+	delete_stories : array(50),
+	add_stories : array(14),
+	order : array(48),
 );
 ```

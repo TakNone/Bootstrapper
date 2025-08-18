@@ -28,6 +28,6 @@ securePasswordKdfAlgoPBKDF2HMACSHA512iter100000#bbf2dda0 salt:bytes = SecurePass
 
 ```php
 $securePasswordKdfAlgo = $client->securePasswordKdfAlgoPBKDF2HMACSHA512iter100000(
-	salt : 'A?	?rLiveProto?Jˠ/',
+	salt : '???)LiveProtoϦW',
 );
 ```

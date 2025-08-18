@@ -1,6 +1,6 @@
 # auth.loginTokenSuccess
 
-**Description** : *Login via token (QR code) succeeded!*
+**Description** : *Login via token \(QR code\) succeeded\!*
 
 **Layer** : 211
 
@@ -30,11 +30,11 @@ auth.loginTokenSuccess#390d5c5e authorization:auth.Authorization = auth.LoginTok
 $authLoginToken = $client->auth->loginTokenSuccess(
 	authorization : $client->auth->authorization(
 		setup_password_required : true,
-		otherwise_relogin_days : 23,
-		tmp_sessions : 59,
-		future_auth_token : '?L(m?LiveProto??xo@',
+		otherwise_relogin_days : 43,
+		tmp_sessions : 92,
+		future_auth_token : '#z_?JLiveProtoK s ',
 		user : $client->userEmpty(
-			id : 2662181274370786997,
+			id : -3336407144007813089,
 		),
 	),
 );

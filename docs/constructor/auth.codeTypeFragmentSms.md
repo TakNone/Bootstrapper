@@ -1,6 +1,6 @@
 # auth.codeTypeFragmentSms
 
-**Description** : *The next time, the authentication code will be delivered via fragment.com*
+**Description** : *The next time, the authentication code will be delivered via fragment\.com*
 
 **Layer** : 211
 

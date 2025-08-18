@@ -39,7 +39,7 @@ messages.togglePaidReactionPrivacy#435885b5 peer:InputPeer msg_id:int private:Pa
 ```php
 $bool = $client->messages->togglePaidReactionPrivacy(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 64,
+	msg_id : 10,
 	private : $client->paidReactionPrivacyDefault(),
 );
 ```

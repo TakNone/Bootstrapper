@@ -32,7 +32,7 @@ inputPaymentCredentials#3417d728 flags:# save:flags.0?true data:DataJSON = Input
 $inputPaymentCredentials = $client->inputPaymentCredentials(
 	save : true,
 	data : $client->dataJSON(
-		data : 'bJ5VgzTjBY8cNSEa',
+		data : '8u4sag7BIjYvLSNq',
 	),
 );
 ```

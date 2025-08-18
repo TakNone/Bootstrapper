@@ -1,6 +1,6 @@
 # photoStrippedSize
 
-**Description** : *A low-resolution compressed JPG payload*
+**Description** : *A low\-resolution compressed JPG payload*
 
 **Layer** : 211
 
@@ -29,7 +29,7 @@ photoStrippedSize#e0b0bc2e type:string bytes:bytes = PhotoSize;
 
 ```php
 $photoSize = $client->photoStrippedSize(
-	type : 'j6uSdbreJ3KtIzRx',
-	bytes : '?9n??LiveProto?????',
+	type : 'P5t4IAsMjfEKv7rT',
+	bytes : '?2?LiveProto??T??',
 );
 ```

@@ -1,6 +1,6 @@
 # messages.searchSentMedia
 
-**Description** : *View and search recently sent media.
+**Description** : *View and search recently sent media\.
 This method does not support pagination*
 
 **Layer** : 211
@@ -39,8 +39,8 @@ messages.searchSentMedia#107e31a0 q:string filter:MessagesFilter limit:int = mes
 
 ```php
 $messagesMessages = $client->messages->searchSentMedia(
-	q : 'n6YXgWaoCUdOf5MS',
+	q : 'MdCOuEF4pT8gK5jR',
 	filter : $client->inputMessagesFilterEmpty(),
-	limit : 51,
+	limit : 15,
 );
 ```

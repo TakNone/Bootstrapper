@@ -1,6 +1,6 @@
 # channelAdminLogEventActionParticipantSubExtend
 
-**Description** : *A paid subscriber has extended their Telegram Star subscription »*
+**Description** : *A paid subscriber has extended their Telegram Star subscription &raquo;*
 
 **Layer** : 211
 
@@ -30,14 +30,14 @@ channelAdminLogEventActionParticipantSubExtend#64642db3 prev_participant:Channel
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantSubExtend(
 	prev_participant : $client->channelParticipant(
-		user_id : -7561517830092761656,
-		date : 65,
-		subscription_until_date : 22,
+		user_id : -5621846993678324547,
+		date : 34,
+		subscription_until_date : 14,
 	),
 	new_participant : $client->channelParticipant(
-		user_id : 4931252461221168953,
-		date : 44,
-		subscription_until_date : 100,
+		user_id : 1768441179326705760,
+		date : 23,
+		subscription_until_date : 11,
 	),
 );
 ```

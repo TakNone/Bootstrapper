@@ -1,6 +1,6 @@
 # inputBusinessBotRecipients
 
-**Description** : *Specifies the private chats that a connected business bot » may interact with*
+**Description** : *Specifies the private chats that a connected business bot &raquo; may interact with*
 
 **Layer** : 211
 
@@ -44,26 +44,26 @@ $inputBusinessBotRecipients = $client->inputBusinessBotRecipients(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -6653933219790770069,
-			access_hash : 7087271798631561450,
+			user_id : 5224170608797071207,
+			access_hash : -5433069225468522428,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 6,
-			user_id : 2359375215499445515,
+			msg_id : 51,
+			user_id : -8563060936876716949,
 		),
 	),
 	exclude_users : array(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -2069407244599009419,
-			access_hash : -7085050148092498028,
+			user_id : 6651188958753115826,
+			access_hash : 6635634114593811556,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 95,
-			user_id : -1344260904638360530,
+			msg_id : 56,
+			user_id : -3239647763031341055,
 		),
 	),
 );

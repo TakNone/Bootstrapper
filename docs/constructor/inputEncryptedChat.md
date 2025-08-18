@@ -29,7 +29,7 @@ inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;
 
 ```php
 $inputEncryptedChat = $client->inputEncryptedChat(
-	chat_id : 94,
-	access_hash : -2608474091616190367,
+	chat_id : 32,
+	access_hash : -4197373195131279503,
 );
 ```

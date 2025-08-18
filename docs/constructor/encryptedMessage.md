@@ -32,10 +32,10 @@ encryptedMessage#ed18c118 random_id:long chat_id:int date:int bytes:bytes file:E
 
 ```php
 $encryptedMessage = $client->encryptedMessage(
-	random_id : 5274395827333337431,
-	chat_id : 25,
-	date : 44,
-	bytes : 'u/b8?LiveProto2?,??',
+	random_id : -7539539025882313867,
+	chat_id : 10,
+	date : 18,
+	bytes : 'u??ILiveProto\\?TR?',
 	file : $client->encryptedFileEmpty(),
 );
 ```

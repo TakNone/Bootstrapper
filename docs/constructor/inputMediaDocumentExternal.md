@@ -35,8 +35,8 @@ inputMediaDocumentExternal#779600f9 flags:# spoiler:flags.1?true url:string ttl_
 $inputMedia = $client->inputMediaDocumentExternal(
 	spoiler : true,
 	url : 'https://docs.liveproto.dev',
-	ttl_seconds : 14,
+	ttl_seconds : 28,
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 58,
+	video_timestamp : 76,
 );
 ```

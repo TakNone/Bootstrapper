@@ -1,6 +1,6 @@
 # updateTranscribedAudio
 
-**Description** : *A pending voice message transcription » initiated with messages.transcribeAudio was updated*
+**Description** : *A pending voice message transcription &raquo; initiated with messages\.transcribeAudio was updated*
 
 **Layer** : 211
 
@@ -35,10 +35,10 @@ updateTranscribedAudio#84cd5a flags:# pending:flags.0?true peer:Peer msg_id:int 
 $update = $client->updateTranscribedAudio(
 	pending : true,
 	peer : $client->peerUser(
-		user_id : -8235833437852896180,
+		user_id : -3709618614390618155,
 	),
-	msg_id : 56,
-	transcription_id : 8683318367989114861,
-	text : 'VK2ePqLX1xtmzZwh',
+	msg_id : 71,
+	transcription_id : -3855298762303740692,
+	text : 'HYiAjySUGope9xZN',
 );
 ```

@@ -1,7 +1,7 @@
 # account.updateBusinessWorkHours
 
-**Description** : *Specify a set of Telegram Business opening hours.
-This info will be contained in userFull.business_work_hours*
+**Description** : *Specify a set of Telegram Business opening hours\.
+This info will be contained in userFull\.business\_work\_hours*
 
 **Layer** : 211
 
@@ -42,11 +42,11 @@ account.updateBusinessWorkHours#4b00e066 flags:# business_work_hours:flags.0?Bus
 $bool = $client->account->updateBusinessWorkHours(
 	business_work_hours : $client->businessWorkHours(
 		open_now : true,
-		timezone_id : 'ackMq5BserT8RZwb',
+		timezone_id : 'mQLVTZfjWOklhPuD',
 		weekly_open : array(
 			$client->businessWeeklyOpen(
-				start_minute : 68,
-				end_minute : 50,
+				start_minute : 83,
+				end_minute : 69,
 			),
 		),
 	),

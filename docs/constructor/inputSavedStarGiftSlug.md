@@ -26,6 +26,6 @@ inputSavedStarGiftSlug#2085c238 slug:string = InputSavedStarGift;
 
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftSlug(
-	slug : 'ef61XRoBWyJYDlcp',
+	slug : 'gZhJF2TwSteKR1lG',
 );
 ```

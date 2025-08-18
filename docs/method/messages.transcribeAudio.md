@@ -40,6 +40,6 @@ messages.transcribeAudio#269e9a49 peer:InputPeer msg_id:int = messages.Transcrib
 ```php
 $messagesTranscribedAudio = $client->messages->transcribeAudio(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 41,
+	msg_id : 50,
 );
 ```

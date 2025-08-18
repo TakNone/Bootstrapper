@@ -1,6 +1,6 @@
 # smsjobs.getSmsJob
 
-**Description** : *Get info about an SMS job (official clients only)*
+**Description** : *Get info about an SMS job \(official clients only\)*
 
 **Layer** : 211
 
@@ -36,6 +36,6 @@ smsjobs.getSmsJob#778d902f job_id:string = SmsJob;
 
 ```php
 $smsJob = $client->smsjobs->getSmsJob(
-	job_id : '9eFZyICGQSowKDba',
+	job_id : '6sybulvZIXJ4oGWp',
 );
 ```

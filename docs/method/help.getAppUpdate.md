@@ -28,6 +28,6 @@ help.getAppUpdate#522d5a7d source:string = help.AppUpdate;
 
 ```php
 $helpAppUpdate = $client->help->getAppUpdate(
-	source : 'vxfE1SXzn3FCpM76',
+	source : '6EKFr0cOfbRtJa2d',
 );
 ```

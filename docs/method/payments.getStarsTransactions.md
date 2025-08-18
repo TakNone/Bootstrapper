@@ -49,9 +49,9 @@ $paymentsStarsStatus = $client->payments->getStarsTransactions(
 	outbound : true,
 	ascending : true,
 	ton : true,
-	subscription_id : '9VZPzlsJ5Ok7aURF',
+	subscription_id : '1d6aX4LVyuSc3qNv',
 	peer : $client->inputPeerEmpty(),
-	offset : 'agCTun9AYMyU6J4w',
-	limit : 5,
+	offset : '8YxlfnbiOvD05Ice',
+	limit : 32,
 );
 ```

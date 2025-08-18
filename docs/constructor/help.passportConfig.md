@@ -29,9 +29,9 @@ help.passportConfig#a098d6af hash:int countries_langs:DataJSON = help.PassportCo
 
 ```php
 $helpPassportConfig = $client->help->passportConfig(
-	hash : 4,
+	hash : 49,
 	countries_langs : $client->dataJSON(
-		data : 'bU0pgT5sxdF8qtaC',
+		data : 'Bqe6uzoHpEMnkJwA',
 	),
 );
 ```
