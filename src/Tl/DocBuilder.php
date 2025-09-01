@@ -14,7 +14,7 @@ use function Amp\File\createDirectoryRecursively;
 
 use function Amp\File\read;
 
-define('PATH',getenv('DOCPATH') ?: ($_ENV['DOCPATH'] ?? __DIR__));
+defined('DOCPATH') || define('DOCPATH',getenv('DOCPATH') ?: ($_ENV['DOCPATH'] ?? __DIR__));
 
 abstract class DocBuilder {
 	static public function mdSafe(string $string) : string {
@@ -72,13 +72,13 @@ abstract class DocBuilder {
 		return $results;
 	}
 	static private function create(array $tls) : void {
-		$folderTypes = PATH.DIRECTORY_SEPARATOR.'type';
+		$folderTypes = DOCPATH.DIRECTORY_SEPARATOR.'type';
 		createDirectoryRecursively($folderTypes);
-		$folderConstructors = PATH.DIRECTORY_SEPARATOR.'constructor';
+		$folderConstructors = DOCPATH.DIRECTORY_SEPARATOR.'constructor';
 		createDirectoryRecursively($folderConstructors);
-		$folderMethods = PATH.DIRECTORY_SEPARATOR.'method';
+		$folderMethods = DOCPATH.DIRECTORY_SEPARATOR.'method';
 		createDirectoryRecursively($folderMethods);
-		$readme = PATH.DIRECTORY_SEPARATOR.'README.md';
+		$readme = DOCPATH.DIRECTORY_SEPARATOR.'README.md';
 		$all = new Builder($folderTypes.'.md');
 		$all->writeNewLine('# Types');
 		$types = array();

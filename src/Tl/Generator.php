@@ -22,7 +22,7 @@ use function Amp\File\isDirectory;
 
 use function Amp\File\createDirectoryRecursively;
 
-define('PATH',getenv('TLPATH') ?: ($_ENV['TLPATH'] ?? __DIR__));
+defined('TLPATH') || define('TLPATH',getenv('TLPATH') ?: ($_ENV['TLPATH'] ?? __DIR__));
 
 define('Tak\Liveproto\Tl\PHP_TAG_START',base64_decode('PD9waHA'));
 
@@ -42,14 +42,14 @@ abstract class Generator {
 		endif;
 	}
 	static private function cleanFiles() : void {
-		if(isDirectory(PATH.DIRECTORY_SEPARATOR.'Types')) self::deleteFolder(PATH.DIRECTORY_SEPARATOR.'Types');
-		if(isDirectory(PATH.DIRECTORY_SEPARATOR.'Functions')) self::deleteFolder(PATH.DIRECTORY_SEPARATOR.'Functions');
+		if(isDirectory(TLPATH.DIRECTORY_SEPARATOR.'Types')) self::deleteFolder(TLPATH.DIRECTORY_SEPARATOR.'Types');
+		if(isDirectory(TLPATH.DIRECTORY_SEPARATOR.'Functions')) self::deleteFolder(TLPATH.DIRECTORY_SEPARATOR.'Functions');
 	}
 	static private function create(array | string ...$tls) : void {
 		self::cleanFiles();
-		createDirectoryRecursively(PATH.DIRECTORY_SEPARATOR.'Types');
-		createDirectoryRecursively(PATH.DIRECTORY_SEPARATOR.'Functions');
-		$filename = PATH.DIRECTORY_SEPARATOR.'All.php';
+		createDirectoryRecursively(TLPATH.DIRECTORY_SEPARATOR.'Types');
+		createDirectoryRecursively(TLPATH.DIRECTORY_SEPARATOR.'Functions');
+		$filename = TLPATH.DIRECTORY_SEPARATOR.'All.php';
 		$all = new Builder($filename);
 		$all->write(PHP_TAG_START);
 		$all->writeNewLine();
@@ -82,7 +82,7 @@ abstract class Generator {
 			return $carry;
 		},array());
 		foreach($result as $space => $methods):
-			$folder = PATH.DIRECTORY_SEPARATOR.('Functions').DIRECTORY_SEPARATOR.$space;
+			$folder = TLPATH.DIRECTORY_SEPARATOR.('Functions').DIRECTORY_SEPARATOR.$space;
 			createDirectoryRecursively($folder);
 			foreach($methods as $method):
 				$id = '0x'.($method['id'] < 0 ? substr(dechex(intval($method['id'])),8) : dechex(intval($method['id'])));
@@ -158,7 +158,7 @@ abstract class Generator {
 			return $carry;
 		},array());
 		foreach($result as $space => $constructors):
-			$folder = PATH.DIRECTORY_SEPARATOR.('Types').DIRECTORY_SEPARATOR.$space;
+			$folder = TLPATH.DIRECTORY_SEPARATOR.('Types').DIRECTORY_SEPARATOR.$space;
 			createDirectoryRecursively($folder);
 			foreach($constructors as $constructor):
 				$id = '0x'.($constructor['id'] < 0 ? substr(dechex(intval($constructor['id'])),8) : dechex(intval($constructor['id'])));
