@@ -2,7 +2,7 @@
 
 **Description** : *Get message reactions &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getMessagesReactions#8bba90e6 peer:InputPeer id:Vector<int> = Updates;
@@ -39,6 +39,6 @@ messages.getMessagesReactions#8bba90e6 peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->getMessagesReactions(
 	peer : $client->inputPeerEmpty(),
-	id : array(81),
+	id : array(17),
 );
 ```

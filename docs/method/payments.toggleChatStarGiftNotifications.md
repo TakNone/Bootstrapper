@@ -1,6 +1,6 @@
 # payments.toggleChatStarGiftNotifications
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.toggleChatStarGiftNotifications#60eaefa1 flags:# enabled:flags.0?true peer:InputPeer = Bool;

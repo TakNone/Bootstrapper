@@ -2,7 +2,7 @@
 
 **Description** : *Reset all active web telegram login sessions*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.resetWebAuthorizations#682d2594 = Bool;

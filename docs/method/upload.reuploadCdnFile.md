@@ -2,7 +2,7 @@
 
 **Description** : *Request a reupload of a certain file to a CDN DC*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 upload.reuploadCdnFile#9b2754a8 file_token:bytes request_token:bytes = Vector<FileHash>;
@@ -42,7 +42,7 @@ upload.reuploadCdnFile#9b2754a8 file_token:bytes request_token:bytes = Vector<Fi
 
 ```php
 $fileHash = $client->upload->reuploadCdnFile(
-	file_token : 'U?MT?LiveProto?\'#',
-	request_token : 'Ċ?ڱLiveProto??d?',
+	file_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	request_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

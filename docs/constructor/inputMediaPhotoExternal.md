@@ -2,7 +2,7 @@
 
 **Description** : *New photo that will be uploaded by the server using the specified URL*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputMediaPhotoExternal#e5bbfe1a flags:# spoiler:flags.1?true url:string ttl_seconds:flags.0?int = InputMedia;
@@ -33,6 +33,6 @@ inputMediaPhotoExternal#e5bbfe1a flags:# spoiler:flags.1?true url:string ttl_sec
 $inputMedia = $client->inputMediaPhotoExternal(
 	spoiler : true,
 	url : 'https://docs.liveproto.dev',
-	ttl_seconds : 87,
+	ttl_seconds : 66,
 );
 ```

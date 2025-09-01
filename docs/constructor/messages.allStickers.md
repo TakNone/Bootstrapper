@@ -2,7 +2,7 @@
 
 **Description** : *Info about all installed stickers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.allStickers#cdbbcebb hash:long sets:Vector<StickerSet> = messages.AllStickers;
@@ -29,7 +29,7 @@ messages.allStickers#cdbbcebb hash:long sets:Vector<StickerSet> = messages.AllSt
 
 ```php
 $messagesAllStickers = $client->messages->allStickers(
-	hash : 2021305852138334162,
+	hash : -3177457182909234951,
 	sets : array(
 		$client->stickerSet(
 			archived : true,
@@ -39,48 +39,47 @@ $messagesAllStickers = $client->messages->allStickers(
 			text_color : true,
 			channel_emoji_status : true,
 			creator : true,
-			installed_date : 67,
-			id : 4475327408612831616,
-			access_hash : 5476964879567308776,
-			title : 'ONgPhZux83MRdYJD',
-			short_name : 'c2PpTO0lSDxUnQ1E',
+			installed_date : 18,
+			id : -6448395232913259722,
+			access_hash : -2845622276786674363,
+			title : 'gekSr9avb3OQJxMh',
+			short_name : 'dbvumK4lpEo1s8tN',
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'oesXDr3ZigSy5E4J',
+					type : 'KTBIrxzi3yJNdYDV',
 				),
 				$client->photoSize(
-					type : '86l7Qu2yS4IoZ3ix',
-					w : 10,
-					h : 10,
-					size : 13,
+					type : 'A0WiHvUcSCIDzYQ6',
+					w : 81,
+					h : 46,
+					size : 32,
 				),
 				$client->photoCachedSize(
-					type : 'XDbgWaR0Fh3xIEk8',
-					w : 82,
-					h : 16,
-					bytes : '????LiveProto?ͦQ',
+					type : 'ZWXGvReqB9b43TUf',
+					w : 89,
+					h : 22,
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'FyLzBgwfq5OidjEx',
-					bytes : '??^1?LiveProtot
-(?',
+					type : 'bh7JmSNGdXFeuq6l',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : '8utVlno5Hs74A29v',
-					w : 93,
-					h : 27,
-					sizes : array(80),
+					type : 'wBMdg6H4NO7YCVZf',
+					w : 55,
+					h : 13,
+					sizes : array(60),
 				),
 				$client->photoPathSize(
-					type : 'uTpMZqnXefhFo3QV',
-					bytes : 'q????LiveProto?u$+',
+					type : 'h5xcTWkXnQFM38sm',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
-			thumb_dc_id : 62,
-			thumb_version : 80,
-			thumb_document_id : -5687708702616616262,
-			count : 83,
-			hash : 39,
+			thumb_dc_id : 81,
+			thumb_version : 49,
+			thumb_document_id : 3764057210460244446,
+			count : 56,
+			hash : 32,
 		),
 	),
 );

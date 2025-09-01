@@ -2,7 +2,7 @@
 
 **Description** : *Found stickersets*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.foundStickerSetsNotModified#d54b65d = messages.FoundStickerSets;

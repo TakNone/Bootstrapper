@@ -2,7 +2,7 @@
 
 **Description** : *The code will be sent via a phone call: a synthesized voice will tell the user which verification code to input*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.sentCodeTypeCall#5353e5a7 length:int = auth.SentCodeType;
@@ -28,6 +28,6 @@ auth.sentCodeTypeCall#5353e5a7 length:int = auth.SentCodeType;
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeCall(
-	length : 7,
+	length : 47,
 );
 ```

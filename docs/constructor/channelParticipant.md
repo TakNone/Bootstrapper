@@ -2,7 +2,7 @@
 
 **Description** : *Channel/supergroup participant*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channelParticipant#cb397619 flags:# user_id:long date:int subscription_until_date:flags.0?int = ChannelParticipant;
@@ -31,8 +31,8 @@ channelParticipant#cb397619 flags:# user_id:long date:int subscription_until_dat
 
 ```php
 $channelParticipant = $client->channelParticipant(
-	user_id : 1524216520341912474,
-	date : 26,
-	subscription_until_date : 99,
+	user_id : 4114072586955116704,
+	date : 49,
+	subscription_until_date : 59,
 );
 ```

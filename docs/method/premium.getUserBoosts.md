@@ -2,7 +2,7 @@
 
 **Description** : *Returns the lists of boost that were applied to a channel/supergroup by a specific user \(admins only\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 premium.getUserBoosts#39854d1f peer:InputPeer user_id:InputUser = premium.BoostsList;

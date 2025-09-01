@@ -1,6 +1,6 @@
 # payments.getStarGiftCollections
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.getStarGiftCollections#981b91dd peer:InputPeer hash:long = payments.StarGiftCollections;
@@ -28,6 +28,6 @@ payments.getStarGiftCollections#981b91dd peer:InputPeer hash:long = payments.Sta
 ```php
 $paymentsStarGiftCollections = $client->payments->getStarGiftCollections(
 	peer : $client->inputPeerEmpty(),
-	hash : 3583454389021955744,
+	hash : -4321794021589701707,
 );
 ```

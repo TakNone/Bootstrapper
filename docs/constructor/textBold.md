@@ -2,7 +2,7 @@
 
 **Description** : *Bold text*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 textBold#6724abc4 text:RichText = RichText;

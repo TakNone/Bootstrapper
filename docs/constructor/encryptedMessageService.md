@@ -2,7 +2,7 @@
 
 **Description** : *Encrypted service message*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 encryptedMessageService#23734b06 random_id:long chat_id:int date:int bytes:bytes = EncryptedMessage;
@@ -31,9 +31,9 @@ encryptedMessageService#23734b06 random_id:long chat_id:int date:int bytes:bytes
 
 ```php
 $encryptedMessage = $client->encryptedMessageService(
-	random_id : 7169406779455468721,
-	chat_id : 69,
-	date : 50,
-	bytes : '?1?+?LiveProto?e' . "\0" . '',
+	random_id : 9149902772268461604,
+	chat_id : 67,
+	date : 96,
+	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

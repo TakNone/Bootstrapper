@@ -2,7 +2,7 @@
 
 **Description** : *Top peer category*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 topPeerCategoryPeers#fb834291 category:TopPeerCategory count:int peers:Vector<TopPeer> = TopPeerCategoryPeers;
@@ -31,13 +31,13 @@ topPeerCategoryPeers#fb834291 category:TopPeerCategory count:int peers:Vector<To
 ```php
 $topPeerCategoryPeers = $client->topPeerCategoryPeers(
 	category : $client->topPeerCategoryBotsPM(),
-	count : 22,
+	count : 70,
 	peers : array(
 		$client->topPeer(
 			peer : $client->peerUser(
-				user_id : 4752506042415039755,
+				user_id : 4180656365406420699,
 			),
-			rating : -727877.1298828125,
+			rating : -2025619.2119140625,
 		),
 	),
 );

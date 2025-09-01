@@ -2,7 +2,7 @@
 
 **Description** : *The report was sent successfully, no further actions are required*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 reportResultReported#8db33c4b = ReportResult;

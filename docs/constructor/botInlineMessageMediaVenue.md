@@ -2,7 +2,7 @@
 
 **Description** : *Send a venue*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 botInlineMessageMediaVenue#8a86659c flags:# geo:GeoPoint title:string address:string provider:string venue_id:string venue_type:string reply_markup:flags.2?ReplyMarkup = BotInlineMessage;
@@ -36,11 +36,11 @@ botInlineMessageMediaVenue#8a86659c flags:# geo:GeoPoint title:string address:st
 ```php
 $botInlineMessage = $client->botInlineMessageMediaVenue(
 	geo : $client->geoPointEmpty(),
-	title : 'dMz46XHuFeoPRgfS',
-	address : 'Yh8tEk54qvF0dpbT',
-	provider : 'E2hVfNwXvkxrbCa5',
-	venue_id : 'WkDLv2QEo56TqYg9',
-	venue_type : 'wuDrWh7BNjx9FXcb',
+	title : 'B0qZK5V9JYSzvTxy',
+	address : 'alWv3jQsx5yGSiw0',
+	provider : 'u1xKHjBzU8wWorT4',
+	venue_id : 'nxywfUTkqELXGYDN',
+	venue_type : 'ki3Fp0AJvStBHQeM',
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

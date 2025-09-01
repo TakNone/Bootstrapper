@@ -2,7 +2,7 @@
 
 **Description** : *Accept QR code login token, logging in the app that generated it*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.acceptLoginToken#e894ad4d token:bytes = Authorization;
@@ -39,6 +39,6 @@ auth.acceptLoginToken#e894ad4d token:bytes = Authorization;
 
 ```php
 $authorization = $client->auth->acceptLoginToken(
-	token : '>?FzLiveProto???',
+	token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

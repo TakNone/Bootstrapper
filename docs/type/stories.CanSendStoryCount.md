@@ -1,6 +1,6 @@
 # stories.CanSendStoryCount
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.canSendStoryCount#c387c04e count_remains:int = stories.CanSendStoryCount;

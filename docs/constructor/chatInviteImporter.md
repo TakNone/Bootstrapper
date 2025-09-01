@@ -2,7 +2,7 @@
 
 **Description** : *When and which user joined the chat using a chat invite*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 chatInviteImporter#8c5adfd9 flags:# requested:flags.0?true via_chatlist:flags.3?true user_id:long date:int about:flags.2?string approved_by:flags.1?long = ChatInviteImporter;
@@ -36,9 +36,9 @@ chatInviteImporter#8c5adfd9 flags:# requested:flags.0?true via_chatlist:flags.3?
 $chatInviteImporter = $client->chatInviteImporter(
 	requested : true,
 	via_chatlist : true,
-	user_id : -3643774475045857114,
-	date : 40,
-	about : 'g7eowVycBqhaC0v8',
-	approved_by : -3476380863888794488,
+	user_id : -942427530041966269,
+	date : 81,
+	about : '59PkgyrxAU8dSDfL',
+	approved_by : -187598681952263298,
 );
 ```

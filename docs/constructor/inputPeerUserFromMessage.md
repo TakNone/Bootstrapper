@@ -2,7 +2,7 @@
 
 **Description** : *Defines a min user that was seen in a certain message of a certain chat*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputPeerUserFromMessage#a87b0a1c peer:InputPeer msg_id:int user_id:long = InputPeer;
@@ -31,7 +31,7 @@ inputPeerUserFromMessage#a87b0a1c peer:InputPeer msg_id:int user_id:long = Input
 ```php
 $inputPeer = $client->inputPeerUserFromMessage(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 40,
-	user_id : -8365536856954584948,
+	msg_id : 18,
+	user_id : -4483680893426205339,
 );
 ```

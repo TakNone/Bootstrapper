@@ -1,6 +1,6 @@
 # payments.starGiftUpgradePreview
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.starGiftUpgradePreview#167bd90b sample_attributes:Vector<StarGiftAttribute> = payments.StarGiftUpgradePreview;
@@ -28,38 +28,38 @@ payments.starGiftUpgradePreview#167bd90b sample_attributes:Vector<StarGiftAttrib
 $paymentsStarGiftUpgradePreview = $client->payments->starGiftUpgradePreview(
 	sample_attributes : array(
 		$client->starGiftAttributeModel(
-			name : 'NQCcXqxlS1LeWz7E',
+			name : 'dGEwsZWXCtQxmPKI',
 			document : $client->documentEmpty(
-				id : -2041976333682116238,
+				id : 6350953327801917874,
 			),
-			rarity_permille : 79,
+			rarity_permille : 83,
 		),
 		$client->starGiftAttributePattern(
-			name : 'fvN4tEMygQX3jBpu',
+			name : 'jBxvqiLIP80zeaEd',
 			document : $client->documentEmpty(
-				id : -7096001607870716247,
+				id : -7006370453025329607,
 			),
-			rarity_permille : 89,
+			rarity_permille : 86,
 		),
 		$client->starGiftAttributeBackdrop(
-			name : '70kSsrGL1UdNmIJ8',
-			backdrop_id : 36,
-			center_color : 22,
+			name : 'dsH6D28xZrzvElyV',
+			backdrop_id : 67,
+			center_color : 47,
 			edge_color : 86,
-			pattern_color : 78,
-			text_color : 100,
-			rarity_permille : 59,
+			pattern_color : 49,
+			text_color : 80,
+			rarity_permille : 35,
 		),
 		$client->starGiftAttributeOriginalDetails(
 			sender_id : $client->peerUser(
-				user_id : 8650160199528136987,
+				user_id : -2821932601293895224,
 			),
 			recipient_id : $client->peerUser(
-				user_id : -4825814501592801080,
+				user_id : -6394349356277837761,
 			),
-			date : 5,
+			date : 16,
 			message : $client->textWithEntities(
-				text : 'NEem43g69Kz8DTds',
+				text : 'BrWJKcpzPj6Uas2q',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),

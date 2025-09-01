@@ -1,6 +1,6 @@
 # inputGroupCallInviteMessage
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
@@ -26,6 +26,6 @@ inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallInviteMessage(
-	msg_id : 94,
+	msg_id : 63,
 );
 ```

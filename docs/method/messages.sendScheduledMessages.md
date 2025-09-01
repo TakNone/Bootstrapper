@@ -2,7 +2,7 @@
 
 **Description** : *Send scheduled messages right away*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.sendScheduledMessages#bd38850a peer:InputPeer id:Vector<int> = Updates;
@@ -40,6 +40,6 @@ messages.sendScheduledMessages#bd38850a peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->sendScheduledMessages(
 	peer : $client->inputPeerEmpty(),
-	id : array(88),
+	id : array(92),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Report menu option*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageReportOption#7903e3d9 text:string option:bytes = MessageReportOption;
@@ -29,8 +29,7 @@ messageReportOption#7903e3d9 text:string option:bytes = MessageReportOption;
 
 ```php
 $messageReportOption = $client->messageReportOption(
-	text : 'FD3NAC716sr0qQnl',
-	option : ':?0~?LiveProto
-?}{L',
+	text : 'WgezQM3PSrOqLuoD',
+	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

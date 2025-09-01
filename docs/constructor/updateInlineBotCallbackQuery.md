@@ -2,7 +2,7 @@
 
 **Description** : *This notification is received by bots when a button is pressed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateInlineBotCallbackQuery#691e9052 flags:# query_id:long user_id:long msg_id:InputBotInlineMessageID chat_instance:long data:flags.0?bytes game_short_name:flags.1?string = Update;
@@ -34,15 +34,15 @@ updateInlineBotCallbackQuery#691e9052 flags:# query_id:long user_id:long msg_id:
 
 ```php
 $update = $client->updateInlineBotCallbackQuery(
-	query_id : -7532172937536417755,
-	user_id : 2684142408177785929,
+	query_id : -2999452990742318998,
+	user_id : 529994840450855065,
 	msg_id : $client->inputBotInlineMessageID(
-		dc_id : 20,
-		id : 6352491369612094013,
-		access_hash : 4155554193680316020,
+		dc_id : 68,
+		id : 5619481695741819495,
+		access_hash : -8371498300957861191,
 	),
-	chat_instance : 6412052670488304253,
-	data : '?묬"LiveProto&???I',
-	game_short_name : 'BNrCb6Vp5S9X1PMg',
+	chat_instance : 7058939159812527127,
+	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	game_short_name : 'pw3byBV2O16dLQzn',
 );
 ```

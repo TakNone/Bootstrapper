@@ -2,7 +2,7 @@
 
 **Description** : *Get strings from a language pack*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 langpack.getStrings#efea3803 lang_pack:string lang_code:string keys:Vector<string> = Vector<LangPackString>;
@@ -39,8 +39,8 @@ langpack.getStrings#efea3803 lang_pack:string lang_code:string keys:Vector<strin
 
 ```php
 $langPackString = $client->langpack->getStrings(
-	lang_pack : 'rQtyLJSFHlVqjdcu',
-	lang_code : 'BDvObS5Q2TiWREy8',
-	keys : array('ZBxULv5gIQC7kb1Y'),
+	lang_pack : 'jqp2swT1BSb4kLat',
+	lang_code : 'iRYfqB4JPOjDvASt',
+	keys : array('9VzIqP8JEuZncDR4'),
 );
 ```

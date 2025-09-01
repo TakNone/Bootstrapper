@@ -2,7 +2,7 @@
 
 **Description** : *Represents an issue in one of the data fields that was provided by the user\. The error is considered resolved when the field&#039;s value changes*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureValueErrorData#e8a40bd9 type:SecureValueType data_hash:bytes field:string text:string = SecureValueError;
@@ -32,8 +32,8 @@ secureValueErrorData#e8a40bd9 type:SecureValueType data_hash:bytes field:string 
 ```php
 $secureValueError = $client->secureValueErrorData(
 	type : $client->secureValueTypePersonalDetails(),
-	data_hash : 'Kp?XlLiveProtoCVB/',
-	field : '7AiWUMN6tQZhrwuT',
-	text : 'wRZiaUOF9DgtlBqC',
+	data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	field : 'PsrwtxJEKUGC13cO',
+	text : 'yxPcj2WbzRNhAw9T',
 );
 ```

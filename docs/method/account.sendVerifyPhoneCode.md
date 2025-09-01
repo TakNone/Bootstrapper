@@ -2,7 +2,7 @@
 
 **Description** : *Send the verification phone code for telegram passport*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.sendVerifyPhoneCode#a5a356f9 phone_number:string settings:CodeSettings = auth.SentCode;
@@ -45,8 +45,8 @@ $authSentCode = $client->account->sendVerifyPhoneCode(
 		allow_missed_call : true,
 		allow_firebase : true,
 		unknown_number : true,
-		logout_tokens : array('ִ!??LiveProto?5?f?'),
-		token : 'd7OQrpHP1LIAz02e',
+		logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
+		token : 'zX7qPY6Uapd1kj8W',
 		app_sandbox : false,
 	),
 );

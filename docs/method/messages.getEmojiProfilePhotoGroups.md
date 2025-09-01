@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of emoji categories, to be used when selecting custom emojis to set as profile picture*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getEmojiProfilePhotoGroups#21a548f3 hash:int = messages.EmojiGroups;
@@ -28,6 +28,6 @@ messages.getEmojiProfilePhotoGroups#21a548f3 hash:int = messages.EmojiGroups;
 
 ```php
 $messagesEmojiGroups = $client->messages->getEmojiProfilePhotoGroups(
-	hash : 21,
+	hash : 19,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Edit information about a given group call participant*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 phone.editGroupCallParticipant#a5273abf flags:# call:InputGroupCall participant:InputPeer muted:flags.0?Bool volume:flags.1?int raise_hand:flags.2?Bool video_stopped:flags.3?Bool video_paused:flags.4?Bool presentation_paused:flags.5?Bool = Updates;
@@ -51,15 +51,15 @@ phone.editGroupCallParticipant#a5273abf flags:# call:InputGroupCall participant:
 ```php
 $updates = $client->phone->editGroupCallParticipant(
 	call : $client->inputGroupCall(
-		id : 5910323725427280700,
-		access_hash : -4801393951038779089,
+		id : 7722315645278501596,
+		access_hash : -5872546341055762340,
 	),
 	participant : $client->inputPeerEmpty(),
-	muted : false,
-	volume : 60,
+	muted : true,
+	volume : 57,
 	raise_hand : true,
 	video_stopped : true,
-	video_paused : false,
-	presentation_paused : true,
+	video_paused : true,
+	presentation_paused : false,
 );
 ```

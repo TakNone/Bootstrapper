@@ -1,8 +1,6 @@
 # updateBotPrecheckoutQuery
 
-**Description** : *This object contains information about an incoming pre\-checkout query*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateBotPrecheckoutQuery#8caa9a96 flags:# query_id:long user_id:long payload:bytes info:flags.0?PaymentRequestedInfo shipping_option_id:flags.1?string currency:string total_amount:long = Update;
@@ -14,14 +12,14 @@ updateBotPrecheckoutQuery#8caa9a96 flags:# query_id:long user_id:long payload:by
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
-| <mark>query_id</mark> | [`long`](type/long) | Unique query identifier |
-| <mark>user_id</mark> | [`long`](type/long) | User who sent the query |
-| <mark>payload</mark> | [`bytes`](type/bytes) | Bot specified invoice payload |
-| **info** | [`flags.0?PaymentRequestedInfo`](type/PaymentRequestedInfo) | Order info provided by the user |
-| **shipping_option_id** | [`flags.1?string`](type/string) | Identifier of the shipping option chosen by the user |
-| <mark>currency</mark> | [`string`](type/string) | Three-letter ISO 4217 currency code, or XTR for Telegram Stars |
-| <mark>total_amount</mark> | [`long`](type/long) | Total amount in the smallest units of the currency (integer, not float/double). For example, for a price of US$ 1.45 pass amount = 145. See the exp parameter in currencies.json, it shows the number of digits past the decimal point for each currency (2 for the majority of currencies) |
+| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <mark>query_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>user_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>payload</mark> | [`bytes`](type/bytes) | NOTHING |
+| **info** | [`flags.0?PaymentRequestedInfo`](type/PaymentRequestedInfo) | NOTHING |
+| **shipping_option_id** | [`flags.1?string`](type/string) | NOTHING |
+| <mark>currency</mark> | [`string`](type/string) | NOTHING |
+| <mark>total_amount</mark> | [`long`](type/long) | NOTHING |
 
 ---
 
@@ -35,24 +33,24 @@ updateBotPrecheckoutQuery#8caa9a96 flags:# query_id:long user_id:long payload:by
 
 ```php
 $update = $client->updateBotPrecheckoutQuery(
-	query_id : 3642643128580476923,
-	user_id : 3996810485310669470,
-	payload : '*\'?ALiveProto=??(?',
+	query_id : 3258178629606117789,
+	user_id : -7154486865861974971,
+	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	info : $client->paymentRequestedInfo(
-		name : 'pDqXOA26NTlij8KF',
+		name : 'jdoKpev49BrwHksE',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : 'kQgOfs0UNwrMcIxh',
-			street_line2 : 'zti8GKoSu452wB3J',
-			city : 'tcge82DdSikHVNJ0',
-			state : 'XF8xzenWdcNjuPT0',
-			country_iso2 : 'JRDT3z4oUnBKG1YH',
-			post_code : 'gVNBhMTK8klEjHCx',
+			street_line1 : '6g2dl1mMuwG7Cbpz',
+			street_line2 : 'f1naT3JK7iscEN4L',
+			city : 'W6I0PzXaN5wRjYGO',
+			state : '7KSZyjazNI325EUp',
+			country_iso2 : 'O59hF8NEYyqt7x06',
+			post_code : 'mSYOk8htop1Gd6Ty',
 		),
 	),
-	shipping_option_id : 'fGqgucOmHA5n87Ik',
-	currency : '9LDreY2f5VMnHvIC',
-	total_amount : 4694143470173304465,
+	shipping_option_id : 'KqANj06z7HPtnMxO',
+	currency : 'v8y5A3D7Zeb6aGXJ',
+	total_amount : -7547734748862276379,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Delete message history of a forum topic*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.deleteTopicHistory#34435f2d channel:InputChannel top_msg_id:int = messages.AffectedHistory;
@@ -40,6 +40,6 @@ channels.deleteTopicHistory#34435f2d channel:InputChannel top_msg_id:int = messa
 ```php
 $messagesAffectedHistory = $client->channels->deleteTopicHistory(
 	channel : $client->inputChannelEmpty(),
-	top_msg_id : 52,
+	top_msg_id : 78,
 );
 ```

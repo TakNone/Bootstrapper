@@ -2,7 +2,7 @@
 
 **Description** : *Get passport configuration*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.getPassportConfig#c661ad08 hash:int = help.PassportConfig;
@@ -28,6 +28,6 @@ help.getPassportConfig#c661ad08 hash:int = help.PassportConfig;
 
 ```php
 $helpPassportConfig = $client->help->getPassportConfig(
-	hash : 22,
+	hash : 10,
 );
 ```

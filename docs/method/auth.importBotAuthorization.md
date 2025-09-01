@@ -2,7 +2,7 @@
 
 **Description** : *Login as a bot*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.importBotAuthorization#67a3ff2c flags:int api_id:int api_hash:string bot_auth_token:string = auth.Authorization;
@@ -42,9 +42,9 @@ auth.importBotAuthorization#67a3ff2c flags:int api_id:int api_hash:string bot_au
 
 ```php
 $authAuthorization = $client->auth->importBotAuthorization(
-	flags : 97,
-	api_id : 28,
-	api_hash : 'XxzAub57BnNEiL9T',
-	bot_auth_token : 'Pa2KwlCnbHjkxyJD',
+	flags : 0,
+	api_id : 5,
+	api_hash : 'l5c0QsyK8mh9nWJN',
+	bot_auth_token : 'UbYx3QRE5dgokt7I',
 );
 ```

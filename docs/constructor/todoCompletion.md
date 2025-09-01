@@ -1,6 +1,6 @@
 # todoCompletion
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 todoCompletion#4cc120b7 id:int completed_by:long date:int = TodoCompletion;
@@ -28,8 +28,8 @@ todoCompletion#4cc120b7 id:int completed_by:long date:int = TodoCompletion;
 
 ```php
 $todoCompletion = $client->todoCompletion(
-	id : 46,
-	completed_by : -5915777238477435619,
-	date : 43,
+	id : 79,
+	completed_by : 1329251600610965237,
+	date : 3,
 );
 ```

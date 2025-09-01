@@ -2,7 +2,7 @@
 
 **Description** : *Indicates the chat was migrated to the specified supergroup*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageActionChatMigrateTo#e1037f92 channel_id:long = MessageAction;
@@ -28,6 +28,6 @@ messageActionChatMigrateTo#e1037f92 channel_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatMigrateTo(
-	channel_id : 8556971318501587874,
+	channel_id : 6721980257356532812,
 );
 ```

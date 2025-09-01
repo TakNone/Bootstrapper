@@ -2,10 +2,10 @@
 
 **Description** : *Info about a group*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
-chat#41cbf256 flags:# creator:flags.0?true left:flags.2?true deactivated:flags.5?true call_active:flags.23?true call_not_empty:flags.24?true noforwards:flags.25?true id:long title:string photo:ChatPhoto participants_count:int date:int version:int migrated_to:flags.6?InputChannel admin_rights:flags.14?ChatAdminRights default_banned_rights:flags.18?ChatBannedRights = Chat;
+chat#41cbf256 flags:# creator:flags.0?true kicked:flags.1?true left:flags.2?true deactivated:flags.5?true call_active:flags.23?true call_not_empty:flags.24?true noforwards:flags.25?true id:long title:string photo:ChatPhoto participants_count:int date:int version:int migrated_to:flags.6?InputChannel admin_rights:flags.14?ChatAdminRights default_banned_rights:flags.18?ChatBannedRights = Chat;
 ```
 
 ---
@@ -16,6 +16,7 @@ chat#41cbf256 flags:# creator:flags.0?true left:flags.2?true deactivated:flags.5
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **creator** | [`flags.0?true`](type/true) | Whether the current user is the creator of the group |
+| **kicked** | [`flags.1?true`](type/true) | NOTHING |
 | **left** | [`flags.2?true`](type/true) | Whether the current user has left the group |
 | **deactivated** | [`flags.5?true`](type/true) | Whether the group was migrated |
 | **call_active** | [`flags.23?true`](type/true) | Whether a group call is currently active |
@@ -44,17 +45,18 @@ chat#41cbf256 flags:# creator:flags.0?true left:flags.2?true deactivated:flags.5
 ```php
 $chat = $client->chat(
 	creator : true,
+	kicked : true,
 	left : true,
 	deactivated : true,
 	call_active : true,
 	call_not_empty : true,
 	noforwards : true,
-	id : 5388813809887616840,
-	title : 'YWEwv0jJGgcd41BF',
+	id : -4279818912038892880,
+	title : '6wtnzSJro5L8HVku',
 	photo : $client->chatPhotoEmpty(),
-	participants_count : 26,
-	date : 13,
-	version : 65,
+	participants_count : 19,
+	date : 25,
+	version : 30,
 	migrated_to : $client->inputChannelEmpty(),
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
@@ -95,7 +97,7 @@ $chat = $client->chat(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 39,
+		until_date : 2,
 	),
 );
 ```

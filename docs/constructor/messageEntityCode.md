@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing a codeblock*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageEntityCode#28a20571 offset:int length:int = MessageEntity;
@@ -29,7 +29,7 @@ messageEntityCode#28a20571 offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityCode(
-	offset : 89,
-	length : 63,
+	offset : 36,
+	length : 68,
 );
 ```

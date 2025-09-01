@@ -2,7 +2,7 @@
 
 **Description** : *Represents the creator of the group*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 chatParticipantCreator#e46bcee4 user_id:long = ChatParticipant;
@@ -28,6 +28,6 @@ chatParticipantCreator#e46bcee4 user_id:long = ChatParticipant;
 
 ```php
 $chatParticipant = $client->chatParticipantCreator(
-	user_id : 3967449516833626780,
+	user_id : 2402242080889626614,
 );
 ```

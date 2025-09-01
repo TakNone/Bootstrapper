@@ -2,7 +2,7 @@
 
 **Description** : *Informs server about a purchase made through the App Store: for official applications only*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.assignAppStoreTransaction#80ed747d receipt:bytes purpose:InputStorePaymentPurpose = Updates;
@@ -37,7 +37,7 @@ payments.assignAppStoreTransaction#80ed747d receipt:bytes purpose:InputStorePaym
 
 ```php
 $updates = $client->payments->assignAppStoreTransaction(
-	receipt : 'a???{LiveProton???',
+	receipt : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	purpose : $client->inputStorePaymentPremiumSubscription(
 		restore : true,
 		upgrade : true,

@@ -2,7 +2,7 @@
 
 **Description** : *Invoke a method using a Telegram Business Bot connection, see here &raquo; for more info, including a list of the methods that can be wrapped in this constructor*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 invokeWithBusinessConnection#dd289f8e {X:Type} connection_id:string query:!X = X;
@@ -29,7 +29,7 @@ invokeWithBusinessConnection#dd289f8e {X:Type} connection_id:string query:!X = X
 
 ```php
 $x = $client->invokeWithBusinessConnection(
-	connection_id : 'ogrIkX1UYZ8FENi7',
+	connection_id : 'gPMvUQAamtjJqebV',
 	query : $client->help->getConfig(raw : true),
 );
 ```

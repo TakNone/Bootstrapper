@@ -2,7 +2,7 @@
 
 **Description** : *You successfully requested a password reset, please wait until the specified date before finalizing the reset*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.resetPasswordRequestedWait#e9effc7d until_date:int = account.ResetPasswordResult;
@@ -28,6 +28,6 @@ account.resetPasswordRequestedWait#e9effc7d until_date:int = account.ResetPasswo
 
 ```php
 $accountResetPasswordResult = $client->account->resetPasswordRequestedWait(
-	until_date : 2,
+	until_date : 8,
 );
 ```

@@ -1,9 +1,9 @@
 # payments.getSavedStarGifts
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
-payments.getSavedStarGifts#a319e569 flags:# exclude_unsaved:flags.0?true exclude_saved:flags.1?true exclude_unlimited:flags.2?true exclude_limited:flags.3?true exclude_unique:flags.4?true sort_by_value:flags.5?true peer:InputPeer collection_id:flags.6?int offset:string limit:int = payments.SavedStarGifts;
+payments.getSavedStarGifts#a319e569 flags:# exclude_unsaved:flags.0?true exclude_saved:flags.1?true exclude_unlimited:flags.2?true exclude_limited:flags.3?true exclude_unique:flags.4?true sort_by_value:flags.5?true exclude_upgradable:flags.7?true exclude_unupgradable:flags.8?true peer:InputPeer collection_id:flags.6?int offset:string limit:int = payments.SavedStarGifts;
 ```
 
 ---
@@ -19,6 +19,8 @@ payments.getSavedStarGifts#a319e569 flags:# exclude_unsaved:flags.0?true exclude
 | **exclude_limited** | [`flags.3?true`](type/true) | NOTHING |
 | **exclude_unique** | [`flags.4?true`](type/true) | NOTHING |
 | **sort_by_value** | [`flags.5?true`](type/true) | NOTHING |
+| **exclude_upgradable** | [`flags.7?true`](type/true) | NOTHING |
+| **exclude_unupgradable** | [`flags.8?true`](type/true) | NOTHING |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
 | **collection_id** | [`flags.6?int`](type/int) | NOTHING |
 | <mark>offset</mark> | [`string`](type/string) | NOTHING |
@@ -42,9 +44,11 @@ $paymentsSavedStarGifts = $client->payments->getSavedStarGifts(
 	exclude_limited : true,
 	exclude_unique : true,
 	sort_by_value : true,
+	exclude_upgradable : true,
+	exclude_unupgradable : true,
 	peer : $client->inputPeerEmpty(),
-	collection_id : 59,
-	offset : '1w0eMWDUvxTpzuKa',
-	limit : 53,
+	collection_id : 82,
+	offset : 'ByfteHFcQLWdV9hS',
+	limit : 47,
 );
 ```

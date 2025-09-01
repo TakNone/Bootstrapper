@@ -2,7 +2,7 @@
 
 **Description** : *Fetch a default recommended list of saved message tag reactions*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getDefaultTagReactions#bdf93428 hash:long = messages.Reactions;
@@ -28,6 +28,6 @@ messages.getDefaultTagReactions#bdf93428 hash:long = messages.Reactions;
 
 ```php
 $messagesReactions = $client->messages->getDefaultTagReactions(
-	hash : 2236606279247457559,
+	hash : 4539346098827655726,
 );
 ```

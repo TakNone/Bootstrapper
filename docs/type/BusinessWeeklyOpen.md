@@ -2,7 +2,7 @@
 
 **Description** : *A time interval, indicating the opening hours of a Telegram Business*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 businessWeeklyOpen#120b1ab9 start_minute:int end_minute:int = BusinessWeeklyOpen;

@@ -2,7 +2,7 @@
 
 **Description** : *Get all installed stickers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getAllStickers#b8a0a1a8 hash:long = messages.AllStickers;
@@ -28,6 +28,6 @@ messages.getAllStickers#b8a0a1a8 hash:long = messages.AllStickers;
 
 ```php
 $messagesAllStickers = $client->messages->getAllStickers(
-	hash : -6084680944175632928,
+	hash : -5836026601982602669,
 );
 ```

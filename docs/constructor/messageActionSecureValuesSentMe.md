@@ -2,7 +2,7 @@
 
 **Description** : *Secure telegram passport values were received*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageActionSecureValuesSentMe#1b287353 values:Vector<SecureValue> credentials:SecureCredentialsEncrypted = MessageAction;
@@ -33,10 +33,9 @@ $messageAction = $client->messageActionSecureValuesSentMe(
 		$client->secureValue(
 			type : $client->secureValueTypePersonalDetails(),
 			data : $client->secureData(
-				data : '
-Kg?LiveProto???F',
-				data_hash : 'G???LiveProto???',
-				secret : ',????LiveProto???U',
+				data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+				data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+				secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			front_side : $client->secureFileEmpty(),
 			reverse_side : $client->secureFileEmpty(),
@@ -44,39 +43,37 @@ Kg?LiveProto???F',
 			translation : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : -2377584886017148415,
-					access_hash : 4890634848218898493,
-					size : -4334198814542161009,
-					dc_id : 30,
-					date : 42,
-					file_hash : 'nO]LiveProto-?',
-					secret : '2X??LiveProto?AX
-',
+					id : -1905327027636587877,
+					access_hash : 7677446219920279780,
+					size : -7035815275306409206,
+					dc_id : 75,
+					date : 57,
+					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			files : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : 162327878236500036,
-					access_hash : -5989252561058492074,
-					size : 5719165322858393900,
-					dc_id : 7,
-					date : 47,
-					file_hash : 'в0?RLiveProto]]?uT',
-					secret : ']?P??LiveProto ?ſ?',
+					id : 3208274815806798279,
+					access_hash : -5802287686990320064,
+					size : 5690141366040070998,
+					dc_id : 20,
+					date : 79,
+					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			plain_data : $client->securePlainPhone(
 				phone : '+1234567890',
 			),
-			hash : '?
-DrLiveProto-??',
+			hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	credentials : $client->secureCredentialsEncrypted(
-		data : '?P??LiveProto???v',
-		hash : 'm?@ULiveProto?m',
-		secret : '?$??LiveProto;???',
+		data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 );
 ```

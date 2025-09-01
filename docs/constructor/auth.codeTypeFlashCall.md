@@ -2,7 +2,7 @@
 
 **Description** : *The next time, the authentication code will be delivered via an immediately canceled incoming call*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.codeTypeFlashCall#226ccefb = auth.CodeType;

@@ -2,7 +2,7 @@
 
 **Description** : *An invoice contained in a messageMediaInvoice message or paid media &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputInvoiceMessage#c5b56859 peer:InputPeer msg_id:int = InputInvoice;
@@ -30,6 +30,6 @@ inputInvoiceMessage#c5b56859 peer:InputPeer msg_id:int = InputInvoice;
 ```php
 $inputInvoice = $client->inputInvoiceMessage(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 17,
+	msg_id : 69,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Get channels/supergroups/geogroups we&#039;re admin in\. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.getAdminedPublicChannels#f8b036af flags:# by_location:flags.0?true check_limit:flags.1?true for_personal:flags.2?true = messages.Chats;

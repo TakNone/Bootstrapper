@@ -1,6 +1,6 @@
 # inputSavedStarGiftUser
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputSavedStarGiftUser#69279795 msg_id:int = InputSavedStarGift;
@@ -26,6 +26,6 @@ inputSavedStarGiftUser#69279795 msg_id:int = InputSavedStarGift;
 
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftUser(
-	msg_id : 41,
+	msg_id : 46,
 );
 ```

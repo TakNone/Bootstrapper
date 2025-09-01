@@ -1,6 +1,6 @@
 # messages.toggleTodoCompleted
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.toggleTodoCompleted#d3e03124 peer:InputPeer msg_id:int completed:Vector<int> incompleted:Vector<int> = Updates;
@@ -30,8 +30,8 @@ messages.toggleTodoCompleted#d3e03124 peer:InputPeer msg_id:int completed:Vector
 ```php
 $updates = $client->messages->toggleTodoCompleted(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 67,
-	completed : array(40),
-	incompleted : array(68),
+	msg_id : 66,
+	completed : array(86),
+	incompleted : array(67),
 );
 ```

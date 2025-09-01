@@ -2,7 +2,7 @@
 
 **Description** : *Stickerpack*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stickerPack#12b299d4 emoticon:string documents:Vector<long> = StickerPack;

@@ -2,7 +2,7 @@
 
 **Description** : *Defines a min channel that was seen in a certain message of a certain chat*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputPeerChannelFromMessage#bd2a0840 peer:InputPeer msg_id:int channel_id:long = InputPeer;
@@ -31,7 +31,7 @@ inputPeerChannelFromMessage#bd2a0840 peer:InputPeer msg_id:int channel_id:long =
 ```php
 $inputPeer = $client->inputPeerChannelFromMessage(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 17,
-	channel_id : 8139152216223394321,
+	msg_id : 97,
+	channel_id : -5674231430170321163,
 );
 ```

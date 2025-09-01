@@ -2,7 +2,7 @@
 
 **Description** : *Get pinned dialogs*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getPinnedDialogs#d6b94df2 folder_id:int = messages.PeerDialogs;
@@ -36,6 +36,6 @@ messages.getPinnedDialogs#d6b94df2 folder_id:int = messages.PeerDialogs;
 
 ```php
 $messagesPeerDialogs = $client->messages->getPinnedDialogs(
-	folder_id : 99,
+	folder_id : 8,
 );
 ```

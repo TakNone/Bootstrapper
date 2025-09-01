@@ -2,7 +2,7 @@
 
 **Description** : *Represents a story deep link*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 exportedStoryLink#3fc9053b link:string = ExportedStoryLink;

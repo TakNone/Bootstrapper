@@ -2,7 +2,7 @@
 
 **Description** : *Returns users found by username substring*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.search#11f812d8 q:string limit:int = contacts.Found;
@@ -38,7 +38,7 @@ contacts.search#11f812d8 q:string limit:int = contacts.Found;
 
 ```php
 $contactsFound = $client->contacts->search(
-	q : 'xXvWGo7QUHwrRizu',
-	limit : 75,
+	q : 'hym1V4FfDHp30kZq',
+	limit : 67,
 );
 ```

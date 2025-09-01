@@ -1,6 +1,6 @@
 # webPageAttributeUniqueStarGift
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 webPageAttributeUniqueStarGift#cf6f6db8 gift:StarGift = WebPageAttribute;
@@ -30,27 +30,29 @@ $webPageAttribute = $client->webPageAttributeUniqueStarGift(
 		limited : true,
 		sold_out : true,
 		birthday : true,
+		can_upgrade : true,
 		require_premium : true,
 		limited_per_user : true,
-		id : 9142774042560036728,
+		id : -4395527041914207441,
 		sticker : $client->documentEmpty(
-			id : -4384478355477014102,
+			id : 8199559189400798278,
 		),
-		stars : 2152827211273955319,
-		availability_remains : 50,
-		availability_total : 57,
-		availability_resale : -3835569000044934714,
-		convert_stars : 3537806148138376588,
-		first_sale_date : 93,
-		last_sale_date : 33,
-		upgrade_stars : -3042214643145427269,
-		resell_min_stars : 2094932073818984270,
-		title : 'o3PGBr4Z1IhJgvSC',
+		stars : -3001847184787432030,
+		availability_remains : 46,
+		availability_total : 55,
+		availability_resale : -5764315386479616976,
+		convert_stars : 4441370585119749394,
+		first_sale_date : 31,
+		last_sale_date : 75,
+		upgrade_stars : 7565268769953229421,
+		resell_min_stars : 8973524099596535557,
+		title : 'bV2yQKTRPsEWJlXD',
 		released_by : $client->peerUser(
-			user_id : -2893353927946663427,
+			user_id : 2428748731047474781,
 		),
-		per_user_total : 53,
-		per_user_remains : 76,
+		per_user_total : 51,
+		per_user_remains : 56,
+		locked_until_date : 44,
 	),
 );
 ```

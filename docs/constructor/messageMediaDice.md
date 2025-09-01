@@ -2,7 +2,7 @@
 
 **Description** : *Dice\-based animated sticker*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageMediaDice#3f7ee58b value:int emoticon:string = MessageMedia;
@@ -29,7 +29,7 @@ messageMediaDice#3f7ee58b value:int emoticon:string = MessageMedia;
 
 ```php
 $messageMedia = $client->messageMediaDice(
-	value : 6,
-	emoticon : 'dnCoJ4V9i8DgB7Ex',
+	value : 5,
+	emoticon : 'iCDpcZzSn8NqO1d0',
 );
 ```

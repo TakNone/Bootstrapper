@@ -2,7 +2,7 @@
 
 **Description** : *Highlighted text*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 textMarked#34b8621 text:RichText = RichText;

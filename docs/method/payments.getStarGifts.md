@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of available gifts, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.getStarGifts#c4563590 hash:int = payments.StarGifts;
@@ -28,6 +28,6 @@ payments.getStarGifts#c4563590 hash:int = payments.StarGifts;
 
 ```php
 $paymentsStarGifts = $client->payments->getStarGifts(
-	hash : 29,
+	hash : 1,
 );
 ```

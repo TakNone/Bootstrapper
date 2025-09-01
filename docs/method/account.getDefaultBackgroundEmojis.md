@@ -2,7 +2,7 @@
 
 **Description** : *Get a set of suggested custom emoji stickers that can be used in an accent color pattern*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getDefaultBackgroundEmojis#a60ab9ce hash:long = EmojiList;
@@ -28,6 +28,6 @@ account.getDefaultBackgroundEmojis#a60ab9ce hash:long = EmojiList;
 
 ```php
 $emojiList = $client->account->getDefaultBackgroundEmojis(
-	hash : 6349738966786865939,
+	hash : -8000218349620238136,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Upload a file and associate it to a chat \(without actually sending it to the chat\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.uploadMedia#14967978 flags:# business_connection_id:flags.0?string peer:InputPeer media:InputMedia = MessageMedia;
@@ -57,7 +57,7 @@ messages.uploadMedia#14967978 flags:# business_connection_id:flags.0?string peer
 
 ```php
 $messageMedia = $client->messages->uploadMedia(
-	business_connection_id : 'CAre971Wk3J4coPO',
+	business_connection_id : 'PMfmFuHBw7R0DGTj',
 	peer : $client->inputPeerEmpty(),
 	media : $client->inputMediaEmpty(),
 );

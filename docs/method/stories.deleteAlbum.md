@@ -1,6 +1,6 @@
 # stories.deleteAlbum
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.deleteAlbum#8d3456d0 peer:InputPeer album_id:int = Bool;
@@ -28,6 +28,6 @@ stories.deleteAlbum#8d3456d0 peer:InputPeer album_id:int = Bool;
 ```php
 $bool = $client->stories->deleteAlbum(
 	peer : $client->inputPeerEmpty(),
-	album_id : 27,
+	album_id : 72,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on events occurred*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
@@ -150,6 +150,9 @@ updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:
 updateReadMonoForumInbox#77b0e372 channel_id:long saved_peer_id:Peer read_max_id:int = Update;
 updateReadMonoForumOutbox#a4a79376 channel_id:long saved_peer_id:Peer read_max_id:int = Update;
 updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_id:long saved_peer_id:Peer = Update;
+updateTranscribeAudio#88617090 flags:# final:flags.0?true transcription_id:long text:string = Update;
+updateBotSubscriptionExpire#a8ae3eb1 user_id:long payload:string until_date:int qts:int = Update;
+updateUserPhoto#f227868c user_id:long date:int photo:UserProfilePhoto previous:Bool = Update;
 ```
 
 ---
@@ -303,3 +306,6 @@ updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_i
 | [**updateReadMonoForumInbox**](constructor/updateReadMonoForumInbox) | NOTHING |
 | [**updateReadMonoForumOutbox**](constructor/updateReadMonoForumOutbox) | NOTHING |
 | [**updateMonoForumNoPaidException**](constructor/updateMonoForumNoPaidException) | NOTHING |
+| [**updateTranscribeAudio**](constructor/updateTranscribeAudio) | NOTHING |
+| [**updateBotSubscriptionExpire**](constructor/updateBotSubscriptionExpire) | NOTHING |
+| [**updateUserPhoto**](constructor/updateUserPhoto) | NOTHING |

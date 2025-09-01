@@ -2,7 +2,7 @@
 
 **Description** : *Discarded or deleted chat*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 encryptedChatDiscarded#1e1c7c45 flags:# history_deleted:flags.0?true id:int = EncryptedChat;
@@ -31,6 +31,6 @@ encryptedChatDiscarded#1e1c7c45 flags:# history_deleted:flags.0?true id:int = En
 ```php
 $encryptedChat = $client->encryptedChatDiscarded(
 	history_deleted : true,
-	id : 88,
+	id : 5,
 );
 ```

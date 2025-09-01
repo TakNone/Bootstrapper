@@ -2,7 +2,7 @@
 
 **Description** : *Chat waiting for approval of second participant*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 encryptedChatWaiting#66b25953 id:int access_hash:long date:int admin_id:long participant_id:long = EncryptedChat;
@@ -32,10 +32,10 @@ encryptedChatWaiting#66b25953 id:int access_hash:long date:int admin_id:long par
 
 ```php
 $encryptedChat = $client->encryptedChatWaiting(
-	id : 24,
-	access_hash : -1740318102662564041,
-	date : 12,
-	admin_id : -2451995603800226503,
-	participant_id : -811998944514498552,
+	id : 12,
+	access_hash : -5388919437992402299,
+	date : 91,
+	admin_id : 4833888342652068160,
+	participant_id : -72902967102000664,
 );
 ```

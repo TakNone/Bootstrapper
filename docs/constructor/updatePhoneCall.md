@@ -1,8 +1,6 @@
 # updatePhoneCall
 
-**Description** : *An incoming phone call*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updatePhoneCall#ab0f6b1e phone_call:PhoneCall = Update;
@@ -14,7 +12,7 @@ updatePhoneCall#ab0f6b1e phone_call:PhoneCall = Update;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>phone_call</mark> | [`PhoneCall`](type/PhoneCall) | Phone call |
+| <mark>phone_call</mark> | [`PhoneCall`](type/PhoneCall) | NOTHING |
 
 ---
 
@@ -29,7 +27,7 @@ updatePhoneCall#ab0f6b1e phone_call:PhoneCall = Update;
 ```php
 $update = $client->updatePhoneCall(
 	phone_call : $client->phoneCallEmpty(
-		id : -7488510817635727301,
+		id : 5046939723548311163,
 	),
 );
 ```

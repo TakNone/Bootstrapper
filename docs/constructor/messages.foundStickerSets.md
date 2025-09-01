@@ -2,7 +2,7 @@
 
 **Description** : *Found stickersets*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.foundStickerSets#8af09dd2 hash:long sets:Vector<StickerSetCovered> = messages.FoundStickerSets;
@@ -29,7 +29,7 @@ messages.foundStickerSets#8af09dd2 hash:long sets:Vector<StickerSetCovered> = me
 
 ```php
 $messagesFoundStickerSets = $client->messages->foundStickerSets(
-	hash : 546469522873182896,
+	hash : -409839675843580122,
 	sets : array(
 		$client->stickerSetCovered(
 			set : $client->stickerSet(
@@ -40,11 +40,11 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 				text_color : true,
 				channel_emoji_status : true,
 				creator : true,
-				installed_date : 0,
-				id : -295749053664751339,
-				access_hash : -5913926174703163270,
-				title : 'CnbcgwYmTRPhMl6D',
-				short_name : '6DKn8lE2rCAkqLae',
+				installed_date : 81,
+				id : 3582040503390786897,
+				access_hash : 8872158987618105636,
+				title : 'UfvMT6wOHqdYLF38',
+				short_name : '1zIQYTZmP28tg0NR',
 				thumbs : array(
 					$client->photoSizeEmpty(...),
 					$client->photoSize(...),
@@ -53,14 +53,14 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 					$client->photoSizeProgressive(...),
 					$client->photoPathSize(...),
 				),
-				thumb_dc_id : 82,
-				thumb_version : 78,
-				thumb_document_id : -8361985014994388776,
-				count : 37,
-				hash : 24,
+				thumb_dc_id : 15,
+				thumb_version : 51,
+				thumb_document_id : 7152729729334036026,
+				count : 14,
+				hash : 19,
 			),
 			cover : $client->documentEmpty(
-				id : -6347499100689034403,
+				id : 5732177172315874981,
 			),
 		),
 		$client->stickerSetMultiCovered(
@@ -72,11 +72,11 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 				text_color : true,
 				channel_emoji_status : true,
 				creator : true,
-				installed_date : 14,
-				id : 8998348358797574757,
-				access_hash : -6797803122396543846,
-				title : '2YoQmWfHgUOJVjPN',
-				short_name : 'Zy9HIMGAr5uUL0vz',
+				installed_date : 56,
+				id : 6158720063306940321,
+				access_hash : 6920387839781352114,
+				title : '9q3iYlWAhLMcSGID',
+				short_name : 'kAPIH0LEcfdgGwNU',
 				thumbs : array(
 					$client->photoSizeEmpty(...),
 					$client->photoSize(...),
@@ -85,23 +85,23 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 					$client->photoSizeProgressive(...),
 					$client->photoPathSize(...),
 				),
-				thumb_dc_id : 56,
-				thumb_version : 48,
-				thumb_document_id : 8007560794835818892,
-				count : 77,
-				hash : 1,
+				thumb_dc_id : 99,
+				thumb_version : 6,
+				thumb_document_id : 5704217560610959385,
+				count : 47,
+				hash : 99,
 			),
 			covers : array(
 				$client->documentEmpty(
-					id : 5853308765648432901,
+					id : 2832455810730891943,
 				),
 				$client->document(
-					id : 6284577209193986009,
-					access_hash : 2262545137697478554,
-					file_reference : 'N?BғLiveProtoȦ?z?',
-					date : 27,
-					mime_type : 'EL4h9IO1pWd3TuJZ',
-					size : 6092568816283831349,
+					id : -5520814928429681234,
+					access_hash : 2454477790421487752,
+					file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+					date : 62,
+					mime_type : 'ogI9i4CYH7OuV86w',
+					size : 5742743380161969315,
 					thumbs : array(
 						$client->photoSizeEmpty(...),
 						$client->photoSize(...),
@@ -115,7 +115,7 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 						$client->videoSizeEmojiMarkup(...),
 						$client->videoSizeStickerMarkup(...),
 					),
-					dc_id : 15,
+					dc_id : 76,
 					attributes : array(
 						$client->documentAttributeImageSize(...),
 						$client->documentAttributeAnimated(...),
@@ -138,11 +138,11 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 				text_color : true,
 				channel_emoji_status : true,
 				creator : true,
-				installed_date : 41,
-				id : -6888651479600261950,
-				access_hash : -7755734382877825865,
-				title : 'dTtSsGLg1QVFDpU9',
-				short_name : 'kwhnMLA6C1cRTmO0',
+				installed_date : 97,
+				id : 1899075220894481969,
+				access_hash : 8620932368825961162,
+				title : 'mjOvDoFM4yBPniKU',
+				short_name : 'R21NqOnsw3DE7oil',
 				thumbs : array(
 					$client->photoSizeEmpty(...),
 					$client->photoSize(...),
@@ -151,35 +151,35 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 					$client->photoSizeProgressive(...),
 					$client->photoPathSize(...),
 				),
-				thumb_dc_id : 4,
-				thumb_version : 98,
-				thumb_document_id : 2818165787422261515,
-				count : 58,
-				hash : 100,
+				thumb_dc_id : 7,
+				thumb_version : 72,
+				thumb_document_id : -3224478653872911463,
+				count : 93,
+				hash : 71,
 			),
 			packs : array(
 				$client->stickerPack(
-					emoticon : 'cQk9Cn1whdqBSJle',
-					documents : array(4526738197320187625),
+					emoticon : 'QBZTpestIRgN9yOc',
+					documents : array(-3093472669700749194),
 				),
 			),
 			keywords : array(
 				$client->stickerKeyword(
-					document_id : -8513658671506770563,
-					keyword : array('RY8HwhSkWf4C7ouz'),
+					document_id : -3796472133618267483,
+					keyword : array('k4tv2e9iJEzIpC8l'),
 				),
 			),
 			documents : array(
 				$client->documentEmpty(
-					id : -2550558110543678987,
+					id : 8600792889029154692,
 				),
 				$client->document(
-					id : 2649079658640280284,
-					access_hash : 4425717450395177507,
-					file_reference : 'a?x??LiveProto?I??',
-					date : 73,
-					mime_type : 'V5r0yktY4ue1GbJs',
-					size : -1059267657275345691,
+					id : 8226045805178656887,
+					access_hash : 1069942777584122487,
+					file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+					date : 9,
+					mime_type : '3aqY2UPGubpQeZHA',
+					size : -8470238415159935644,
 					thumbs : array(
 						$client->photoSizeEmpty(...),
 						$client->photoSize(...),
@@ -193,7 +193,7 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 						$client->videoSizeEmojiMarkup(...),
 						$client->videoSizeStickerMarkup(...),
 					),
-					dc_id : 66,
+					dc_id : 67,
 					attributes : array(
 						$client->documentAttributeImageSize(...),
 						$client->documentAttributeAnimated(...),
@@ -216,11 +216,11 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 				text_color : true,
 				channel_emoji_status : true,
 				creator : true,
-				installed_date : 96,
-				id : -5030019558656810092,
-				access_hash : -5200057481918744515,
-				title : 'fGoVSDFRpdKrYOk7',
-				short_name : 'fca61h7gm3sSt2kx',
+				installed_date : 89,
+				id : 899260360421994311,
+				access_hash : -2828269229201442832,
+				title : '1shbS6jwalAMBZT7',
+				short_name : 'bGdUNhX3ng5AulvJ',
 				thumbs : array(
 					$client->photoSizeEmpty(...),
 					$client->photoSize(...),
@@ -229,11 +229,11 @@ $messagesFoundStickerSets = $client->messages->foundStickerSets(
 					$client->photoSizeProgressive(...),
 					$client->photoPathSize(...),
 				),
-				thumb_dc_id : 99,
-				thumb_version : 6,
-				thumb_document_id : -2393422540281594505,
-				count : 56,
-				hash : 40,
+				thumb_dc_id : 22,
+				thumb_version : 17,
+				thumb_document_id : -1248948964946925025,
+				count : 63,
+				hash : 18,
 			),
 		),
 	),

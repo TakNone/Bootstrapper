@@ -2,7 +2,7 @@
 
 **Description** : *Set a custom emoji stickerset for supergroups\. Only usable after reaching at least the boost level &raquo; specified in the group\_emoji\_stickers\_level\_min &raquo; config parameter*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.setEmojiStickers#3cd930b7 channel:InputChannel stickerset:InputStickerSet = Bool;

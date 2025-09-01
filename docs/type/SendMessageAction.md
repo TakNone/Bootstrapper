@@ -2,7 +2,7 @@
 
 **Description** : *User actions\. Use this to provide users with detailed info about their chat partner&#039;s actions: typing or sending attachments of all kinds*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 sendMessageTypingAction#16bf744e = SendMessageAction;

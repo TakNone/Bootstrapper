@@ -1,6 +1,6 @@
 # searchPostsFlood
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 searchPostsFlood#3e0b5b6a flags:# query_is_free:flags.0?true total_daily:int remains:int wait_till:flags.1?int stars_amount:long = SearchPostsFlood;
@@ -32,9 +32,9 @@ searchPostsFlood#3e0b5b6a flags:# query_is_free:flags.0?true total_daily:int rem
 ```php
 $searchPostsFlood = $client->searchPostsFlood(
 	query_is_free : true,
-	total_daily : 46,
-	remains : 10,
-	wait_till : 9,
-	stars_amount : 568203801271547897,
+	total_daily : 2,
+	remains : 9,
+	wait_till : 89,
+	stars_amount : 3012891822209530592,
 );
 ```

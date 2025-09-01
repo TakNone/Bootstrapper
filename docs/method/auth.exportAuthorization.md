@@ -2,7 +2,7 @@
 
 **Description** : *Returns data for copying authorization to another data\-center*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.exportAuthorization#e5bfffcd dc_id:int = auth.ExportedAuthorization;
@@ -36,6 +36,6 @@ auth.exportAuthorization#e5bfffcd dc_id:int = auth.ExportedAuthorization;
 
 ```php
 $authExportedAuthorization = $client->auth->exportAuthorization(
-	dc_id : 8,
+	dc_id : 69,
 );
 ```

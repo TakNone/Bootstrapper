@@ -2,7 +2,7 @@
 
 **Description** : *Returns basic user info according to their identifiers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 users.getUsers#d91a548 id:Vector<InputUser> = Vector<User>;
@@ -45,13 +45,13 @@ $user = $client->users->getUsers(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 7461411549401855749,
-			access_hash : -3349032137793075492,
+			user_id : 5799531641166985727,
+			access_hash : -5733326225524296931,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 54,
-			user_id : 3225342732710628769,
+			msg_id : 14,
+			user_id : -5337957517630480660,
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of emoji categories*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getEmojiGroups#7488ce5b hash:int = messages.EmojiGroups;
@@ -28,6 +28,6 @@ messages.getEmojiGroups#7488ce5b hash:int = messages.EmojiGroups;
 
 ```php
 $messagesEmojiGroups = $client->messages->getEmojiGroups(
-	hash : 97,
+	hash : 63,
 );
 ```

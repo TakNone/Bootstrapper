@@ -2,7 +2,7 @@
 
 **Description** : *Send a result obtained using messages\.getInlineBotResults*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.sendInlineBotResult#c0cf7646 flags:# silent:flags.5?true background:flags.6?true clear_draft:flags.7?true hide_via:flags.11?true peer:InputPeer reply_to:flags.0?InputReplyTo random_id:long query_id:long id:string schedule_date:flags.10?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut allow_paid_stars:flags.21?long = Updates;
@@ -91,114 +91,114 @@ $updates = $client->messages->sendInlineBotResult(
 	hide_via : true,
 	peer : $client->inputPeerEmpty(),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 69,
-		top_msg_id : 33,
+		reply_to_msg_id : 58,
+		top_msg_id : 84,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'AP0uy4mZFNLqa9zv',
+		quote_text : 'nOdiu9a05c6fYv12',
 		quote_entities : array(
 			$client->messageEntityUnknown(
-				offset : 81,
-				length : 42,
+				offset : 5,
+				length : 5,
 			),
 			$client->messageEntityMention(
-				offset : 51,
-				length : 57,
+				offset : 96,
+				length : 2,
 			),
 			$client->messageEntityHashtag(
-				offset : 28,
-				length : 46,
+				offset : 27,
+				length : 25,
 			),
 			$client->messageEntityBotCommand(
 				offset : 69,
-				length : 100,
+				length : 75,
 			),
 			$client->messageEntityUrl(
-				offset : 81,
-				length : 76,
+				offset : 47,
+				length : 2,
 			),
 			$client->messageEntityEmail(
-				offset : 57,
-				length : 78,
+				offset : 100,
+				length : 61,
 			),
 			$client->messageEntityBold(
-				offset : 83,
-				length : 62,
+				offset : 68,
+				length : 24,
 			),
 			$client->messageEntityItalic(
-				offset : 96,
-				length : 66,
+				offset : 26,
+				length : 55,
 			),
 			$client->messageEntityCode(
-				offset : 24,
-				length : 60,
+				offset : 54,
+				length : 4,
 			),
 			$client->messageEntityPre(
-				offset : 7,
-				length : 78,
-				language : 'e1gPof6VFLC8rlMn',
+				offset : 21,
+				length : 81,
+				language : '6vNYxCKypJh0STzn',
 			),
 			$client->messageEntityTextUrl(
-				offset : 50,
-				length : 96,
+				offset : 3,
+				length : 93,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
-				offset : 62,
-				length : 14,
-				user_id : -200753397639195339,
+				offset : 52,
+				length : 10,
+				user_id : 6495152360554893280,
 			),
 			$client->inputMessageEntityMentionName(
-				offset : 77,
-				length : 51,
+				offset : 81,
+				length : 46,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
-				offset : 75,
-				length : 79,
+				offset : 100,
+				length : 60,
 			),
 			$client->messageEntityCashtag(
-				offset : 79,
-				length : 37,
+				offset : 11,
+				length : 62,
 			),
 			$client->messageEntityUnderline(
-				offset : 31,
-				length : 61,
+				offset : 69,
+				length : 51,
 			),
 			$client->messageEntityStrike(
-				offset : 90,
-				length : 10,
+				offset : 37,
+				length : 59,
 			),
 			$client->messageEntityBankCard(
-				offset : 43,
-				length : 61,
+				offset : 32,
+				length : 56,
 			),
 			$client->messageEntitySpoiler(
-				offset : 68,
-				length : 86,
+				offset : 95,
+				length : 26,
 			),
 			$client->messageEntityCustomEmoji(
-				offset : 98,
-				length : 70,
-				document_id : -1164126635614226908,
+				offset : 16,
+				length : 19,
+				document_id : 9127082213263987383,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
-				offset : 56,
-				length : 48,
+				offset : 85,
+				length : 29,
 			),
 		),
-		quote_offset : 80,
+		quote_offset : 90,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 59,
+		todo_item_id : 92,
 	),
-	random_id : -3714815732769919517,
-	query_id : 7240031044495979631,
-	id : 'VHkvljxKwfL9IM2g',
-	schedule_date : 73,
+	random_id : 6095574769202919272,
+	query_id : -2407124474419244554,
+	id : 'ZJOwuc7AITx2Wq0N',
+	schedule_date : 2,
 	send_as : $client->inputPeerEmpty(),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'vGxOyuAb68FQIcZ0',
+		shortcut : 'XYzUnSpwJQ9uWIst',
 	),
-	allow_paid_stars : 8472023662989492656,
+	allow_paid_stars : 7554387433067487872,
 );
 ```

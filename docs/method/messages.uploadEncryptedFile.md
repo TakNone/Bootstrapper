@@ -2,7 +2,7 @@
 
 **Description** : *Upload encrypted file and associate it to a secret chat*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.uploadEncryptedFile#5057c497 peer:InputEncryptedChat file:InputEncryptedFile = EncryptedFile;
@@ -38,8 +38,8 @@ messages.uploadEncryptedFile#5057c497 peer:InputEncryptedChat file:InputEncrypte
 ```php
 $encryptedFile = $client->messages->uploadEncryptedFile(
 	peer : $client->inputEncryptedChat(
-		chat_id : 47,
-		access_hash : -3692617087703184988,
+		chat_id : 49,
+		access_hash : -790716978135518850,
 	),
 	file : $client->inputEncryptedFileEmpty(),
 );

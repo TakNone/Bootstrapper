@@ -2,7 +2,7 @@
 
 **Description** : *Report a sponsored message &raquo;, see here &raquo; for more info on the full flow*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.reportSponsoredMessage#12cbf0c4 random_id:bytes option:bytes = channels.SponsoredMessageReportResult;
@@ -29,7 +29,7 @@ messages.reportSponsoredMessage#12cbf0c4 random_id:bytes option:bytes = channels
 
 ```php
 $channelsSponsoredMessageReportResult = $client->messages->reportSponsoredMessage(
-	random_id : '8[?LiveProto?3??',
-	option : '?SJ?~LiveProtoM????',
+	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *The wallpaper &raquo; of a given peer has changed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updatePeerWallpaper#ae3f101d flags:# wallpaper_overridden:flags.1?true peer:Peer wallpaper:flags.0?WallPaper = Update;
@@ -33,29 +33,29 @@ updatePeerWallpaper#ae3f101d flags:# wallpaper_overridden:flags.1?true peer:Peer
 $update = $client->updatePeerWallpaper(
 	wallpaper_overridden : true,
 	peer : $client->peerUser(
-		user_id : 5128149925128176122,
+		user_id : 1534034169544058147,
 	),
 	wallpaper : $client->wallPaper(
-		id : 4380830120353026741,
+		id : 3669016791088934212,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : -634157416428269712,
-		slug : 'jSgV8OXmpew5G9cM',
+		access_hash : 8559500068466977056,
+		slug : 'nb6rvif9JU0PMDxq',
 		document : $client->documentEmpty(
-			id : -5643439904531538726,
+			id : -4121607507972146711,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 75,
-			second_background_color : 48,
-			third_background_color : 25,
-			fourth_background_color : 78,
-			intensity : 17,
-			rotation : 18,
-			emoticon : 'Pewhj4bmZxW3z2VX',
+			background_color : 20,
+			second_background_color : 54,
+			third_background_color : 30,
+			fourth_background_color : 100,
+			intensity : 62,
+			rotation : 89,
+			emoticon : 'AGCpEdkPy6hFRxQr',
 		),
 	),
 );

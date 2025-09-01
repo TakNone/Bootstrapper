@@ -2,7 +2,7 @@
 
 **Description** : *Delete all messages sent by a specific participant of a given supergroup*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.deleteParticipantHistory#367544db channel:InputChannel participant:InputPeer = messages.AffectedHistory;

@@ -2,7 +2,7 @@
 
 **Description** : *Shortened constructor containing info on one update not requiring auxiliary data*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateShort#78d4dec1 update:Update date:int = Updates;
@@ -31,12 +31,12 @@ updateShort#78d4dec1 update:Update date:int = Updates;
 $updates = $client->updateShort(
 	update : $client->updateNewMessage(
 		message : $client->messageEmpty(
-			id : 84,
+			id : 79,
 			peer_id : $client->peerUser(...),
 		),
-		pts : 39,
-		pts_count : 70,
+		pts : 61,
+		pts_count : 82,
 	),
-	date : 11,
+	date : 5,
 );
 ```

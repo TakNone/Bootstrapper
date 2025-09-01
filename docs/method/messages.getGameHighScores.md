@@ -2,7 +2,7 @@
 
 **Description** : *Get highscores of a game*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getGameHighScores#e822649d peer:InputPeer id:int user_id:InputUser = messages.HighScores;
@@ -41,7 +41,7 @@ messages.getGameHighScores#e822649d peer:InputPeer id:int user_id:InputUser = me
 ```php
 $messagesHighScores = $client->messages->getGameHighScores(
 	peer : $client->inputPeerEmpty(),
-	id : 51,
+	id : 35,
 	user_id : $client->inputUserEmpty(),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Myself*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channelParticipantSelf#4f607bef flags:# via_request:flags.0?true user_id:long inviter_id:long date:int subscription_until_date:flags.1?int = ChannelParticipant;
@@ -34,9 +34,9 @@ channelParticipantSelf#4f607bef flags:# via_request:flags.0?true user_id:long in
 ```php
 $channelParticipant = $client->channelParticipantSelf(
 	via_request : true,
-	user_id : 4307229932495788803,
-	inviter_id : 7809304576582087497,
-	date : 84,
-	subscription_until_date : 7,
+	user_id : 7973485423169636014,
+	inviter_id : -3442249205129255353,
+	date : 76,
+	subscription_until_date : 50,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Refund a Telegram Stars transaction, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.refundStarsCharge#25ae8f4a user_id:InputUser charge_id:string = Updates;
@@ -40,6 +40,6 @@ payments.refundStarsCharge#25ae8f4a user_id:InputUser charge_id:string = Updates
 ```php
 $updates = $client->payments->refundStarsCharge(
 	user_id : $client->inputUserEmpty(),
-	charge_id : 'kbj1f7QS0TN6dx3Y',
+	charge_id : 'S4t6fJMWNgirhPHB',
 );
 ```

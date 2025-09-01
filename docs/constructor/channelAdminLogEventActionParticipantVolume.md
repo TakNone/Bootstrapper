@@ -2,7 +2,7 @@
 
 **Description** : *channelAdminLogEvent\.user\_id has set the volume of participant\.peer to participant\.volume*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channelAdminLogEventActionParticipantVolume#3e7f6847 participant:GroupCallParticipant = ChannelAdminLogEventAction;
@@ -40,29 +40,29 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantVolu
 		self : true,
 		video_joined : true,
 		peer : $client->peerUser(
-			user_id : -2220577714157683225,
+			user_id : 2550487430468974070,
 		),
-		date : 2,
-		active_date : 79,
-		source : 47,
-		volume : 55,
-		about : 'Z3MdOSq9cPfQHnk5',
-		raise_hand_rating : -3457882410255087538,
+		date : 31,
+		active_date : 69,
+		source : 15,
+		volume : 12,
+		about : '2vVBAzwj6O9UHbqm',
+		raise_hand_rating : 6614007658554154614,
 		video : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : 'QWxaXFyCYB5dmuvU',
+			endpoint : '9kIoOWCcExeJlhbA',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(...),
 			),
-			audio_source : 63,
+			audio_source : 7,
 		),
 		presentation : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : '96wOoWLZQey01jf8',
+			endpoint : 'wXnztj3CvWIbyZVK',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(...),
 			),
-			audio_source : 17,
+			audio_source : 48,
 		),
 	),
 );

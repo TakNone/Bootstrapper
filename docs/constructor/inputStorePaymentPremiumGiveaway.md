@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for a giveaway, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputStorePaymentPremiumGiveaway#160544ca flags:# only_new_subscribers:flags.0?true winners_are_visible:flags.3?true boost_peer:InputPeer additional_peers:flags.1?Vector<InputPeer> countries_iso2:flags.2?Vector<string> prize_description:flags.4?string random_id:long until_date:int currency:string amount:long = InputStorePaymentPurpose;
@@ -45,32 +45,32 @@ $inputStorePaymentPurpose = $client->inputStorePaymentPremiumGiveaway(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 4011993154054699190,
+			chat_id : -4052665326583160073,
 		),
 		$client->inputPeerUser(
-			user_id : 1243681594039701541,
-			access_hash : 3441372668817727377,
+			user_id : -4684334744252128362,
+			access_hash : 1881211878897314562,
 		),
 		$client->inputPeerChannel(
-			channel_id : -4807414201660907032,
-			access_hash : 3377598003313098096,
+			channel_id : 7662254684082272269,
+			access_hash : 4466739689621679734,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 39,
-			user_id : 7963739806346467516,
+			msg_id : 91,
+			user_id : -8181115477856059272,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 12,
-			channel_id : 2674067994011488222,
+			msg_id : 2,
+			channel_id : -7107672953809092233,
 		),
 	),
-	countries_iso2 : array('v5dH4rkEest2D1bY'),
-	prize_description : 'M5vj6dgEyAUmaNXc',
-	random_id : -5426211758423576353,
-	until_date : 51,
-	currency : 'I153DCjrxEJbyHan',
-	amount : 5674688457933150521,
+	countries_iso2 : array('f1Tql7tZH56WkcdI'),
+	prize_description : 'jyt4SrT0vbkWoKFC',
+	random_id : 4885387689315903164,
+	until_date : 99,
+	currency : '7HnIiKxsF1kUwo6S',
+	amount : 4300767244840717766,
 );
 ```

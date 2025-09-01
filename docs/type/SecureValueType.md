@@ -2,7 +2,7 @@
 
 **Description** : *Secure value type*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureValueTypePersonalDetails#9d2a81e3 = SecureValueType;

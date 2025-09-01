@@ -1,6 +1,6 @@
 # messages.appendTodoList
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.appendTodoList#21a61057 peer:InputPeer msg_id:int list:Vector<TodoItem> = Updates;
@@ -29,12 +29,12 @@ messages.appendTodoList#21a61057 peer:InputPeer msg_id:int list:Vector<TodoItem>
 ```php
 $updates = $client->messages->appendTodoList(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 54,
+	msg_id : 20,
 	list : array(
 		$client->todoItem(
-			id : 5,
+			id : 78,
 			title : $client->textWithEntities(
-				text : 'ySaoq9uT7YO16m4b',
+				text : 'tASp2CwoKX5iRF6H',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),

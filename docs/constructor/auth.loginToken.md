@@ -2,7 +2,7 @@
 
 **Description** : *Login token \(for QR code login\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.loginToken#629f1980 expires:int token:bytes = auth.LoginToken;
@@ -29,7 +29,7 @@ auth.loginToken#629f1980 expires:int token:bytes = auth.LoginToken;
 
 ```php
 $authLoginToken = $client->auth->loginToken(
-	expires : 29,
-	token : '???LiveProto%?#aH',
+	expires : 18,
+	token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

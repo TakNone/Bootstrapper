@@ -2,7 +2,7 @@
 
 **Description** : *Info about a group call or livestream*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 groupCall#553b0ba1 flags:# join_muted:flags.1?true can_change_join_muted:flags.2?true join_date_asc:flags.6?true schedule_start_subscribed:flags.8?true can_start_video:flags.9?true record_video_active:flags.11?true rtmp_stream:flags.12?true listeners_hidden:flags.13?true conference:flags.14?true creator:flags.15?true id:long access_hash:long participants_count:int title:flags.3?string stream_dc_id:flags.4?int record_start_date:flags.5?int schedule_date:flags.7?int unmuted_video_count:flags.10?int unmuted_video_limit:int version:int invite_link:flags.16?string = GroupCall;
@@ -59,16 +59,16 @@ $groupCall = $client->groupCall(
 	listeners_hidden : true,
 	conference : true,
 	creator : true,
-	id : 933565010086704365,
-	access_hash : 206644611742874835,
-	participants_count : 77,
-	title : 'JY1o6kGDAlqXm8a0',
-	stream_dc_id : 41,
-	record_start_date : 27,
-	schedule_date : 36,
-	unmuted_video_count : 45,
-	unmuted_video_limit : 49,
-	version : 23,
-	invite_link : 'fXiWvUTJIxhGmPsp',
+	id : 5660884682493059020,
+	access_hash : -3650452391640926949,
+	participants_count : 11,
+	title : 'HDeg2NJq4TVlI1fG',
+	stream_dc_id : 7,
+	record_start_date : 22,
+	schedule_date : 37,
+	unmuted_video_count : 19,
+	unmuted_video_limit : 92,
+	version : 77,
+	invite_link : 'rHpLqG6umwC3Ae9U',
 );
 ```

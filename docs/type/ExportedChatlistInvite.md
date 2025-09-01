@@ -2,10 +2,10 @@
 
 **Description** : *An exported chat folder deep link &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
-exportedChatlistInvite#c5181ac flags:# title:string url:string peers:Vector<Peer> = ExportedChatlistInvite;
+exportedChatlistInvite#c5181ac flags:# revoked:flags.0?true title:string url:string peers:Vector<Peer> = ExportedChatlistInvite;
 ```
 
 ---

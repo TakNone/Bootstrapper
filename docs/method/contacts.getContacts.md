@@ -2,7 +2,7 @@
 
 **Description** : *Returns the current user&#039;s contact list*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.getContacts#5dd69e12 hash:long = contacts.Contacts;
@@ -28,6 +28,6 @@ contacts.getContacts#5dd69e12 hash:long = contacts.Contacts;
 
 ```php
 $contactsContacts = $client->contacts->getContacts(
-	hash : 4974497770552881280,
+	hash : -6538920449916331508,
 );
 ```

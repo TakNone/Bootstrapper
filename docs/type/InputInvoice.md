@@ -2,7 +2,7 @@
 
 **Description** : *An invoice*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputInvoiceMessage#c5b56859 peer:InputPeer msg_id:int = InputInvoice;
@@ -16,6 +16,7 @@ inputInvoiceStarGiftTransfer#4a5f5bd9 stargift:InputSavedStarGift to_id:InputPee
 inputInvoicePremiumGiftStars#dabab2ef flags:# user_id:InputUser months:int message:flags.0?TextWithEntities = InputInvoice;
 inputInvoiceBusinessBotTransferStars#f4997e42 bot:InputUser stars:long = InputInvoice;
 inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:InputPeer = InputInvoice;
+inputInvoiceStarGiftPrepaidUpgrade#9a0b48b8 peer:InputPeer hash:string = InputInvoice;
 ```
 
 ---
@@ -35,3 +36,4 @@ inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:I
 | [**inputInvoicePremiumGiftStars**](constructor/inputInvoicePremiumGiftStars) | NOTHING |
 | [**inputInvoiceBusinessBotTransferStars**](constructor/inputInvoiceBusinessBotTransferStars) | NOTHING |
 | [**inputInvoiceStarGiftResale**](constructor/inputInvoiceStarGiftResale) | NOTHING |
+| [**inputInvoiceStarGiftPrepaidUpgrade**](constructor/inputInvoiceStarGiftPrepaidUpgrade) | NOTHING |

@@ -2,7 +2,7 @@
 
 **Description** : *A dialog was pinned/unpinned*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateDialogPinned#6e6fe51c flags:# pinned:flags.0?true folder_id:flags.1?int peer:DialogPeer = Update;
@@ -32,10 +32,10 @@ updateDialogPinned#6e6fe51c flags:# pinned:flags.0?true folder_id:flags.1?int pe
 ```php
 $update = $client->updateDialogPinned(
 	pinned : true,
-	folder_id : 31,
+	folder_id : 50,
 	peer : $client->dialogPeer(
 		peer : $client->peerUser(
-			user_id : -6272967548882276978,
+			user_id : -509405179159531770,
 		),
 	),
 );

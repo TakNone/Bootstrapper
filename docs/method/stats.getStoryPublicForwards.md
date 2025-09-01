@@ -2,7 +2,7 @@
 
 **Description** : *Obtain forwards of a story as a message to public chats and reposts by public channels*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stats.getStoryPublicForwards#a6437ef6 peer:InputPeer id:int offset:string limit:int = stats.PublicForwards;
@@ -40,8 +40,8 @@ stats.getStoryPublicForwards#a6437ef6 peer:InputPeer id:int offset:string limit:
 ```php
 $statsPublicForwards = $client->stats->getStoryPublicForwards(
 	peer : $client->inputPeerEmpty(),
-	id : 4,
-	offset : 'PNpvu5OfAEWoKcVx',
-	limit : 53,
+	id : 5,
+	offset : 'S3WBDvcjwzeHaC2Y',
+	limit : 91,
 );
 ```

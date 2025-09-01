@@ -2,7 +2,7 @@
 
 **Description** : *Returns the list of blocked users*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.getBlocked#9a868f80 flags:# my_stories_from:flags.0?true offset:int limit:int = contacts.Blocked;
@@ -33,6 +33,6 @@ contacts.getBlocked#9a868f80 flags:# my_stories_from:flags.0?true offset:int lim
 $contactsBlocked = $client->contacts->getBlocked(
 	my_stories_from : true,
 	offset : 32,
-	limit : 55,
+	limit : 89,
 );
 ```

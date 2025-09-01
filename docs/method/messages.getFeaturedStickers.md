@@ -2,7 +2,7 @@
 
 **Description** : *Get featured stickers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getFeaturedStickers#64780b14 hash:long = messages.FeaturedStickers;
@@ -28,6 +28,6 @@ messages.getFeaturedStickers#64780b14 hash:long = messages.FeaturedStickers;
 
 ```php
 $messagesFeaturedStickers = $client->messages->getFeaturedStickers(
-	hash : -346197974994426487,
+	hash : 3670888109301172881,
 );
 ```

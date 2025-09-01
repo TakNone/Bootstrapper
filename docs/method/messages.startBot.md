@@ -2,7 +2,7 @@
 
 **Description** : *Start a conversation with a bot using a deep linking parameter*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.startBot#e6df7378 bot:InputUser peer:InputPeer random_id:long start_param:string = Updates;
@@ -50,7 +50,7 @@ messages.startBot#e6df7378 bot:InputUser peer:InputPeer random_id:long start_par
 $updates = $client->messages->startBot(
 	bot : $client->inputUserEmpty(),
 	peer : $client->inputPeerEmpty(),
-	random_id : -4360212383654441714,
-	start_param : 'MFYitOGoCA0a9cUb',
+	random_id : 3049815960742808842,
+	start_param : 'zQu0JjMt2IUDo19F',
 );
 ```

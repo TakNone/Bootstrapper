@@ -2,7 +2,7 @@
 
 **Description** : *A paid subscriber has extended their Telegram Star subscription &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channelAdminLogEventActionParticipantSubExtend#64642db3 prev_participant:ChannelParticipant new_participant:ChannelParticipant = ChannelAdminLogEventAction;
@@ -30,14 +30,14 @@ channelAdminLogEventActionParticipantSubExtend#64642db3 prev_participant:Channel
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantSubExtend(
 	prev_participant : $client->channelParticipant(
-		user_id : -5621846993678324547,
-		date : 34,
-		subscription_until_date : 14,
+		user_id : -4497946696759287362,
+		date : 23,
+		subscription_until_date : 29,
 	),
 	new_participant : $client->channelParticipant(
-		user_id : 1768441179326705760,
-		date : 23,
-		subscription_until_date : 11,
+		user_id : 1342711057855888029,
+		date : 56,
+		subscription_until_date : 47,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Used if the user wishes to start a channel/supergroup giveaway or send some giftcodes to members of a channel/supergroup, in exchange for boosts*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputInvoicePremiumGiftCode#98986c0d purpose:InputStorePaymentPurpose option:PremiumGiftCodeOption = InputInvoice;
@@ -34,12 +34,12 @@ $inputInvoice = $client->inputInvoicePremiumGiftCode(
 		upgrade : true,
 	),
 	option : $client->premiumGiftCodeOption(
-		users : 58,
-		months : 46,
-		store_product : 'MYoI71PVU2xyTiQh',
-		store_quantity : 46,
-		currency : 'a4OwQdiNescCkFIg',
-		amount : 4485226221051889729,
+		users : 74,
+		months : 10,
+		store_product : 'krR2iu93Zvx50zNP',
+		store_quantity : 65,
+		currency : 'cnAyojZYJ23xhmUX',
+		amount : -3574553616045424755,
 	),
 );
 ```

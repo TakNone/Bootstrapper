@@ -1,8 +1,6 @@
 # help.passportConfigNotModified
 
-**Description** : *Password configuration not modified*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.passportConfigNotModified#bfb9f457 = help.PassportConfig;

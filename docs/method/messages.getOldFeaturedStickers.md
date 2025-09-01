@@ -2,7 +2,7 @@
 
 **Description** : *Method for fetching previously featured stickers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getOldFeaturedStickers#7ed094a1 offset:int limit:int hash:long = messages.FeaturedStickers;
@@ -30,8 +30,8 @@ messages.getOldFeaturedStickers#7ed094a1 offset:int limit:int hash:long = messag
 
 ```php
 $messagesFeaturedStickers = $client->messages->getOldFeaturedStickers(
-	offset : 24,
-	limit : 40,
-	hash : -470591457101590355,
+	offset : 33,
+	limit : 95,
+	hash : -6543174002717510518,
 );
 ```

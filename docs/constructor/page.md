@@ -2,7 +2,7 @@
 
 **Description** : *Instant view page*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 page#98657f0d flags:# part:flags.0?true rtl:flags.1?true v2:flags.2?true url:string blocks:Vector<PageBlock> photos:Vector<Photo> documents:Vector<Document> views:flags.3?int = Page;
@@ -50,7 +50,7 @@ $page = $client->page(
 		),
 		$client->pageBlockAuthorDate(
 			author : $client->textEmpty(),
-			published_date : 64,
+			published_date : 15,
 		),
 		$client->pageBlockHeader(
 			text : $client->textEmpty(),
@@ -63,14 +63,14 @@ $page = $client->page(
 		),
 		$client->pageBlockPreformatted(
 			text : $client->textEmpty(),
-			language : 'FjzGtivR47E3MnsP',
+			language : 'pcTxtkgQXBoL0S8H',
 		),
 		$client->pageBlockFooter(
 			text : $client->textEmpty(),
 		),
 		$client->pageBlockDivider(),
 		$client->pageBlockAnchor(
-			name : 'gWw8vCAs7y0UTGkD',
+			name : 'ImR8jz0uaMU5TCqQ',
 		),
 		$client->pageBlockList(
 			items : array(
@@ -121,18 +121,18 @@ $page = $client->page(
 			caption : $client->textEmpty(),
 		),
 		$client->pageBlockPhoto(
-			photo_id : 8555330770913081780,
+			photo_id : -1496864666566878002,
 			caption : $client->pageCaption(
 				text : $client->textEmpty(...),
 				credit : $client->textEmpty(...),
 			),
 			url : 'https://docs.liveproto.dev',
-			webpage_id : -6689188302770142812,
+			webpage_id : 4110147683296631102,
 		),
 		$client->pageBlockVideo(
 			autoplay : true,
 			loop : true,
-			video_id : -4092753886064498420,
+			video_id : -8963337988900915042,
 			caption : $client->pageCaption(
 				text : $client->textEmpty(...),
 				credit : $client->textEmpty(...),
@@ -145,10 +145,10 @@ $page = $client->page(
 			full_width : true,
 			allow_scrolling : true,
 			url : 'https://docs.liveproto.dev',
-			html : 'CD0knHRSm8i4sW6h',
-			poster_photo_id : 3223649502129876188,
-			w : 25,
-			h : 35,
+			html : 'RYSaHlZXQPjWhDVz',
+			poster_photo_id : -5574260138658675365,
+			w : 68,
+			h : 9,
 			caption : $client->pageCaption(
 				text : $client->textEmpty(...),
 				credit : $client->textEmpty(...),
@@ -156,10 +156,10 @@ $page = $client->page(
 		),
 		$client->pageBlockEmbedPost(
 			url : 'https://docs.liveproto.dev',
-			webpage_id : -9193815137790540440,
-			author_photo_id : 8422583096164343800,
-			author : 'Aj7VXOtG1ZMfqoEH',
-			date : 100,
+			webpage_id : 6591232210641854876,
+			author_photo_id : 5842890263317011853,
+			author : 'fIOYipvkB2tHAQzL',
+			date : 33,
 			blocks : array(
 				$client->pageBlockUnsupported(),
 				$client->pageBlockTitle(
@@ -170,7 +170,7 @@ $page = $client->page(
 				),
 				$client->pageBlockAuthorDate(
 					author : $client->textEmpty(...),
-					published_date : 45,
+					published_date : 4,
 				),
 				$client->pageBlockHeader(
 					text : $client->textEmpty(...),
@@ -183,14 +183,14 @@ $page = $client->page(
 				),
 				$client->pageBlockPreformatted(
 					text : $client->textEmpty(...),
-					language : 'cKs3WxPAT4CLkyRJ',
+					language : 'w18OPldiIkSbEWo7',
 				),
 				$client->pageBlockFooter(
 					text : $client->textEmpty(...),
 				),
 				$client->pageBlockDivider(),
 				$client->pageBlockAnchor(
-					name : 'EzBe1ol0x8qivt4W',
+					name : '1xPHW4iT2nRMjFOh',
 				),
 				$client->pageBlockList(
 					items : array(
@@ -207,15 +207,15 @@ $page = $client->page(
 					caption : $client->textEmpty(...),
 				),
 				$client->pageBlockPhoto(
-					photo_id : -9188616082933076671,
+					photo_id : -1177026762094497091,
 					caption : $client->pageCaption(...),
 					url : 'https://docs.liveproto.dev',
-					webpage_id : -6069029356964851119,
+					webpage_id : -2481984907600935915,
 				),
 				$client->pageBlockVideo(
 					autoplay : true,
 					loop : true,
-					video_id : 5456298022664354752,
+					video_id : -366232468729948832,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockCover(
@@ -225,18 +225,18 @@ $page = $client->page(
 					full_width : true,
 					allow_scrolling : true,
 					url : 'https://docs.liveproto.dev',
-					html : 'BjA2Izo7fsDlvGWF',
-					poster_photo_id : 4595376522954320553,
-					w : 37,
-					h : 84,
+					html : 'D9f38Ewt1jVZhgPG',
+					poster_photo_id : -4091868856441279483,
+					w : 20,
+					h : 1,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockEmbedPost(
 					url : 'https://docs.liveproto.dev',
-					webpage_id : -1159529299894806236,
-					author_photo_id : 8563808302668115986,
-					author : '6PRTvAMK1q0pnzfN',
-					date : 64,
+					webpage_id : 617934831284765602,
+					author_photo_id : 4061212310419247928,
+					author : 'B134TSyAOwocRkM7',
+					date : 77,
 					blocks : array(
 						$client->pageBlockUnsupported(...),
 						$client->pageBlockTitle(...),
@@ -342,7 +342,7 @@ $page = $client->page(
 					channel : $client->chatEmpty(...),
 				),
 				$client->pageBlockAudio(
-					audio_id : -1814679837985420680,
+					audio_id : -4960789095863163448,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockKicker(
@@ -405,9 +405,9 @@ $page = $client->page(
 				),
 				$client->pageBlockMap(
 					geo : $client->geoPointEmpty(...),
-					zoom : 76,
-					w : 51,
-					h : 9,
+					zoom : 78,
+					w : 2,
+					h : 100,
 					caption : $client->pageCaption(...),
 				),
 			),
@@ -427,7 +427,7 @@ $page = $client->page(
 				),
 				$client->pageBlockAuthorDate(
 					author : $client->textEmpty(...),
-					published_date : 89,
+					published_date : 70,
 				),
 				$client->pageBlockHeader(
 					text : $client->textEmpty(...),
@@ -440,14 +440,14 @@ $page = $client->page(
 				),
 				$client->pageBlockPreformatted(
 					text : $client->textEmpty(...),
-					language : 'IxNs9UGSD45meR0M',
+					language : 'ehBbOfpaMK6wVgrm',
 				),
 				$client->pageBlockFooter(
 					text : $client->textEmpty(...),
 				),
 				$client->pageBlockDivider(),
 				$client->pageBlockAnchor(
-					name : 'KgiCr6bjG5h9qseA',
+					name : 'I89HlaLDrbyKfdQu',
 				),
 				$client->pageBlockList(
 					items : array(
@@ -464,15 +464,15 @@ $page = $client->page(
 					caption : $client->textEmpty(...),
 				),
 				$client->pageBlockPhoto(
-					photo_id : 8118059513742614937,
+					photo_id : 4555511142833942911,
 					caption : $client->pageCaption(...),
 					url : 'https://docs.liveproto.dev',
-					webpage_id : -7466203718919989798,
+					webpage_id : 7385454671194258053,
 				),
 				$client->pageBlockVideo(
 					autoplay : true,
 					loop : true,
-					video_id : -5645616942337001937,
+					video_id : -2168676219443380080,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockCover(
@@ -482,18 +482,18 @@ $page = $client->page(
 					full_width : true,
 					allow_scrolling : true,
 					url : 'https://docs.liveproto.dev',
-					html : 'n2tad7JABCUhfu1o',
-					poster_photo_id : -8350941019160915145,
-					w : 40,
-					h : 97,
+					html : 'hKLAJ5IXVqQoEzMR',
+					poster_photo_id : -6329234587250441652,
+					w : 69,
+					h : 26,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockEmbedPost(
 					url : 'https://docs.liveproto.dev',
-					webpage_id : -8016702426425474190,
-					author_photo_id : 3317189490561487500,
-					author : 'eOiWuThp7tU4fsod',
-					date : 66,
+					webpage_id : 159149312524512319,
+					author_photo_id : -1329315925398767751,
+					author : 'TcEtfivnPq98ClGW',
+					date : 98,
 					blocks : array(
 						$client->pageBlockUnsupported(...),
 						$client->pageBlockTitle(...),
@@ -599,7 +599,7 @@ $page = $client->page(
 					channel : $client->chatEmpty(...),
 				),
 				$client->pageBlockAudio(
-					audio_id : 1231539904528410220,
+					audio_id : 8452361103828048522,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockKicker(
@@ -662,9 +662,9 @@ $page = $client->page(
 				),
 				$client->pageBlockMap(
 					geo : $client->geoPointEmpty(...),
-					zoom : 71,
-					w : 76,
-					h : 98,
+					zoom : 55,
+					w : 64,
+					h : 86,
 					caption : $client->pageCaption(...),
 				),
 			),
@@ -684,7 +684,7 @@ $page = $client->page(
 				),
 				$client->pageBlockAuthorDate(
 					author : $client->textEmpty(...),
-					published_date : 40,
+					published_date : 99,
 				),
 				$client->pageBlockHeader(
 					text : $client->textEmpty(...),
@@ -697,14 +697,14 @@ $page = $client->page(
 				),
 				$client->pageBlockPreformatted(
 					text : $client->textEmpty(...),
-					language : 'sz0nUj9iqZODRE6H',
+					language : 'bjvlnsVdFSJI6R8T',
 				),
 				$client->pageBlockFooter(
 					text : $client->textEmpty(...),
 				),
 				$client->pageBlockDivider(),
 				$client->pageBlockAnchor(
-					name : 'oNQ9H3b1TRL0JWi4',
+					name : 'bkM3nSKC6iWB7UcP',
 				),
 				$client->pageBlockList(
 					items : array(
@@ -721,15 +721,15 @@ $page = $client->page(
 					caption : $client->textEmpty(...),
 				),
 				$client->pageBlockPhoto(
-					photo_id : -3466676797074977923,
+					photo_id : -3079373669598315479,
 					caption : $client->pageCaption(...),
 					url : 'https://docs.liveproto.dev',
-					webpage_id : -6843375030400609740,
+					webpage_id : -1164504566461325393,
 				),
 				$client->pageBlockVideo(
 					autoplay : true,
 					loop : true,
-					video_id : 4473462957239131612,
+					video_id : 3198682324443883215,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockCover(
@@ -739,18 +739,18 @@ $page = $client->page(
 					full_width : true,
 					allow_scrolling : true,
 					url : 'https://docs.liveproto.dev',
-					html : 's8h2cGPTCDfIX7We',
-					poster_photo_id : 7548543454950715726,
-					w : 92,
-					h : 10,
+					html : 'NHxYdyj8lJ3iXgSv',
+					poster_photo_id : 7315697111632116410,
+					w : 41,
+					h : 7,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockEmbedPost(
 					url : 'https://docs.liveproto.dev',
-					webpage_id : 521248891885395886,
-					author_photo_id : -7197741996498885327,
-					author : 'S9brhjFaPqY5TuxR',
-					date : 93,
+					webpage_id : 5926003940327861932,
+					author_photo_id : 1137040559126027719,
+					author : 'PwX0Zel2GvJHbzdR',
+					date : 5,
 					blocks : array(
 						$client->pageBlockUnsupported(...),
 						$client->pageBlockTitle(...),
@@ -856,7 +856,7 @@ $page = $client->page(
 					channel : $client->chatEmpty(...),
 				),
 				$client->pageBlockAudio(
-					audio_id : -4892229678246578806,
+					audio_id : -7961306903276490611,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockKicker(
@@ -919,9 +919,9 @@ $page = $client->page(
 				),
 				$client->pageBlockMap(
 					geo : $client->geoPointEmpty(...),
-					zoom : 98,
-					w : 55,
-					h : 74,
+					zoom : 74,
+					w : 3,
+					h : 10,
 					caption : $client->pageCaption(...),
 				),
 			),
@@ -932,11 +932,11 @@ $page = $client->page(
 		),
 		$client->pageBlockChannel(
 			channel : $client->chatEmpty(
-				id : 7467600427828374557,
+				id : -4924088755577249918,
 			),
 		),
 		$client->pageBlockAudio(
-			audio_id : 6968602809824219045,
+			audio_id : 4006352753640502812,
 			caption : $client->pageCaption(
 				text : $client->textEmpty(...),
 				credit : $client->textEmpty(...),
@@ -960,11 +960,11 @@ $page = $client->page(
 		$client->pageBlockOrderedList(
 			items : array(
 				$client->pageListOrderedItemText(
-					num : 'j57QJZqKYSpWy19L',
+					num : 'OkIuClwZ9UazPbTv',
 					text : $client->textEmpty(...),
 				),
 				$client->pageListOrderedItemBlocks(
-					num : 'tUFyjBvJGDI65srN',
+					num : 'JOaHnRY8PVAWsQ6T',
 					blocks : array(
 						$client->pageBlockUnsupported(...),
 						$client->pageBlockTitle(...),
@@ -1011,7 +1011,7 @@ $page = $client->page(
 				),
 				$client->pageBlockAuthorDate(
 					author : $client->textEmpty(...),
-					published_date : 42,
+					published_date : 39,
 				),
 				$client->pageBlockHeader(
 					text : $client->textEmpty(...),
@@ -1024,14 +1024,14 @@ $page = $client->page(
 				),
 				$client->pageBlockPreformatted(
 					text : $client->textEmpty(...),
-					language : 'LqgIX6emJAn7vlsC',
+					language : 'd2QviD0q4pbo3RtL',
 				),
 				$client->pageBlockFooter(
 					text : $client->textEmpty(...),
 				),
 				$client->pageBlockDivider(),
 				$client->pageBlockAnchor(
-					name : 'R3PeKxAyjdGsFQJ5',
+					name : 'HDB3ZhV6bgGL4ru5',
 				),
 				$client->pageBlockList(
 					items : array(
@@ -1048,15 +1048,15 @@ $page = $client->page(
 					caption : $client->textEmpty(...),
 				),
 				$client->pageBlockPhoto(
-					photo_id : 7122603527471754784,
+					photo_id : 1645589208895691592,
 					caption : $client->pageCaption(...),
 					url : 'https://docs.liveproto.dev',
-					webpage_id : 4747138651538773723,
+					webpage_id : -5856664979173663218,
 				),
 				$client->pageBlockVideo(
 					autoplay : true,
 					loop : true,
-					video_id : 7727712063360854865,
+					video_id : -1931840129661077353,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockCover(
@@ -1066,18 +1066,18 @@ $page = $client->page(
 					full_width : true,
 					allow_scrolling : true,
 					url : 'https://docs.liveproto.dev',
-					html : 'jb0lqiFUv3Ls5OS7',
-					poster_photo_id : 5468738424946379080,
-					w : 56,
-					h : 95,
+					html : 'nWr5qIyGu1oOmASH',
+					poster_photo_id : -5962807275085008380,
+					w : 93,
+					h : 50,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockEmbedPost(
 					url : 'https://docs.liveproto.dev',
-					webpage_id : -5189681016858617602,
-					author_photo_id : -4454936292141525958,
-					author : 'USjc7BQIwLE96gd4',
-					date : 84,
+					webpage_id : -5497051646364081611,
+					author_photo_id : 5201696256064771831,
+					author : 'E7TZesfrRjYbdk60',
+					date : 82,
 					blocks : array(
 						$client->pageBlockUnsupported(...),
 						$client->pageBlockTitle(...),
@@ -1183,7 +1183,7 @@ $page = $client->page(
 					channel : $client->chatEmpty(...),
 				),
 				$client->pageBlockAudio(
-					audio_id : 7443275259903097384,
+					audio_id : 2459193458026959515,
 					caption : $client->pageCaption(...),
 				),
 				$client->pageBlockKicker(
@@ -1246,9 +1246,9 @@ $page = $client->page(
 				),
 				$client->pageBlockMap(
 					geo : $client->geoPointEmpty(...),
-					zoom : 70,
-					w : 17,
-					h : 28,
+					zoom : 79,
+					w : 95,
+					h : 37,
 					caption : $client->pageCaption(...),
 				),
 			),
@@ -1259,20 +1259,20 @@ $page = $client->page(
 			articles : array(
 				$client->pageRelatedArticle(
 					url : 'https://docs.liveproto.dev',
-					webpage_id : -1105333694997316315,
-					title : 'XKRdTG0mhtwFekWD',
-					description : '5MIqZPzXwbj4ASnQ',
-					photo_id : -485840400791859777,
-					author : 'm0TME81XLUxBzJ6S',
-					published_date : 27,
+					webpage_id : 4234069760193113839,
+					title : 'F3TsEKZV4QpIOYfh',
+					description : 'sSYCqHXxuOki6hry',
+					photo_id : -8996432140736568796,
+					author : 'pMdjS1KOBw74EbRc',
+					published_date : 4,
 				),
 			),
 		),
 		$client->pageBlockMap(
 			geo : $client->geoPointEmpty(),
-			zoom : 9,
-			w : 66,
-			h : 36,
+			zoom : 29,
+			w : 65,
+			h : 24,
 			caption : $client->pageCaption(
 				text : $client->textEmpty(...),
 				credit : $client->textEmpty(...),
@@ -1281,136 +1281,136 @@ $page = $client->page(
 	),
 	photos : array(
 		$client->photoEmpty(
-			id : -3370168763834894844,
+			id : 5886014084214248226,
 		),
 		$client->photo(
 			has_stickers : true,
-			id : -8712639320185698679,
-			access_hash : 3325827851614545063,
-			file_reference : '?t??LiveProto???Ѯ',
-			date : 3,
+			id : -8793802365583676283,
+			access_hash : 484189567932516198,
+			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			date : 4,
 			sizes : array(
 				$client->photoSizeEmpty(
-					type : 'aRDhpku0BCcsAoSI',
+					type : 'TRCiZMsVpwGoKLSn',
 				),
 				$client->photoSize(
-					type : 'PKeBIYsLhk65xSXa',
-					w : 74,
-					h : 28,
-					size : 15,
+					type : 'pOZ1deG0MU8QCFxh',
+					w : 7,
+					h : 78,
+					size : 71,
 				),
 				$client->photoCachedSize(
-					type : 'YPfNqx6COIj1FSDd',
-					w : 11,
-					h : 56,
-					bytes : '¹y?!LiveProto??FL',
+					type : 'CRVrp7uj0h1mJxPa',
+					w : 90,
+					h : 61,
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'tb8CyOcBh6MVseqv',
-					bytes : '}`??VLiveProto??o',
+					type : 'YBHg6qfoU3V41tCN',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'rh7iuzTGwVEkjbgI',
-					w : 33,
-					h : 85,
-					sizes : array(21),
+					type : 'Wu5i2qbg46OefmvV',
+					w : 14,
+					h : 74,
+					sizes : array(50),
 				),
 				$client->photoPathSize(
-					type : 'NI1zm7CAMKsgLBxk',
-					bytes : '??q)?LiveProtoV???',
+					type : 'WbCZUTzumvkoFi5s',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_sizes : array(
 				$client->videoSize(
-					type : '8x1XHLD0j6oQVMzh',
-					w : 64,
-					h : 53,
-					size : 90,
-					video_start_ts : -2030137.287109375,
+					type : 'bmhoJDr8klKAnfFZ',
+					w : 75,
+					h : 65,
+					size : 9,
+					video_start_ts : 1284322.671875,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : -5506934083763011345,
-					background_colors : array(42),
+					emoji_id : 3195034978518534171,
+					background_colors : array(35),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(...),
-					sticker_id : -2988719164441218021,
-					background_colors : array(40),
+					sticker_id : 2430063430079091786,
+					background_colors : array(30),
 				),
 			),
-			dc_id : 96,
+			dc_id : 76,
 		),
 	),
 	documents : array(
 		$client->documentEmpty(
-			id : -195439860240452656,
+			id : 857522135198811785,
 		),
 		$client->document(
-			id : -6965566667326846689,
-			access_hash : -1772960872267571940,
-			file_reference : '????LiveProto`ߪz?',
-			date : 38,
-			mime_type : '2nJFWrIxvgmUXcPp',
-			size : 6271017250228526525,
+			id : -579698420639075120,
+			access_hash : 1059376290258809849,
+			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			date : 26,
+			mime_type : 'Rp74P9Bsuqvamt0F',
+			size : -1323806896644568366,
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'A56zQFrG4lpcRYvI',
+					type : '81oWx5pn3Gg4B0JU',
 				),
 				$client->photoSize(
-					type : 'sK8cI5Bb7PSeaR04',
-					w : 59,
-					h : 76,
-					size : 47,
+					type : 'eAuxcXSMT7zLQhk0',
+					w : 52,
+					h : 70,
+					size : 76,
 				),
 				$client->photoCachedSize(
-					type : 'oTcCtJuUdh21GYrV',
-					w : 77,
-					h : 66,
-					bytes : '??M?{LiveProto)?$2?',
+					type : 'Ur1bj9n3BJfoNSew',
+					w : 37,
+					h : 64,
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'xOVWsvQ6ltMJDawC',
-					bytes : '?????LiveProto??A-',
+					type : 'hpMxuZ5GCVFDs83t',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'gG3ETB65pUDO7rLb',
-					w : 55,
-					h : 60,
-					sizes : array(78),
+					type : '9TnKXHJeOmy0rlVa',
+					w : 73,
+					h : 27,
+					sizes : array(36),
 				),
 				$client->photoPathSize(
-					type : 'wPspxTe6Nq2dUSlD',
-					bytes : '' . "\0" . 'ƴ?(LiveProto??8?L',
+					type : 'XjKY8ZBn3p5fqWRN',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_thumbs : array(
 				$client->videoSize(
-					type : 'fZoDiguc1Cper4Tt',
-					w : 16,
-					h : 37,
-					size : 94,
-					video_start_ts : -316225.9091796875,
+					type : 'rzSE4ZcyL839vDQg',
+					w : 46,
+					h : 87,
+					size : 24,
+					video_start_ts : 1387530.0078125,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : -3412577342462489390,
-					background_colors : array(68),
+					emoji_id : -4684475912078888749,
+					background_colors : array(55),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(...),
-					sticker_id : -3398634793190531471,
-					background_colors : array(39),
+					sticker_id : 1201766654164635785,
+					background_colors : array(55),
 				),
 			),
-			dc_id : 6,
+			dc_id : 16,
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 54,
-					h : 40,
+					w : 74,
+					h : 4,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'CybWH6s24J8PpXLz',
+					alt : 'c0vGHTnXWOExiMR5',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -1418,33 +1418,33 @@ $page = $client->page(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : -1930775.30859375,
-					w : 67,
-					h : 66,
-					preload_prefix_size : 77,
-					video_start_ts : -667171.7470703125,
-					video_codec : 'rg8UnpPN74T1Jujs',
+					duration : -1675596.4716796875,
+					w : 1,
+					h : 18,
+					preload_prefix_size : 31,
+					video_start_ts : 1874275.169921875,
+					video_codec : 'eRk9oa4NdxlH0hnM',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 64,
-					title : 'zqyhTDemYUiLC6co',
-					performer : 'BlQD8UV9eHgs7WkI',
-					waveform : '9?E??LiveProtoB???"',
+					duration : 84,
+					title : 'oXqMaZSjfWyQHFmN',
+					performer : 'nkWRYPEyG29sqOJU',
+					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'IsgqKoMPTaUBYhpG',
+					file_name : 'IDORpgu4LoBSvJrj',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'RJEK91gh4fLnCS3X',
+					alt : 'n2YwVcQRg1oW5A0C',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),
 		),
 	),
-	views : 83,
+	views : 64,
 );
 ```

@@ -3294,3 +3294,123 @@
 ###### SearchPostsFlood
 
 :link: [*NOTHING*](type/SearchPostsFlood)
+
+---
+
+###### ChatThemes
+
+:link: [*NOTHING*](type/ChatThemes)
+
+---
+
+###### ChatTheme
+
+:link: [*A chat theme*](type/ChatTheme)
+
+---
+
+###### SavedMusic
+
+:link: [*NOTHING*](type/SavedMusic)
+
+---
+
+###### CheckCanSendGiftResult
+
+:link: [*NOTHING*](type/CheckCanSendGiftResult)
+
+---
+
+###### AppWebViewResultUrl
+
+:link: [*NOTHING*](type/AppWebViewResultUrl)
+
+---
+
+###### messages.MessageEmpty
+
+:link: [*NOTHING*](type/messages.MessageEmpty)
+
+---
+
+###### BroadcastRevenueTransaction
+
+:link: [*A channel ad revenue &raquo; transaction*](type/BroadcastRevenueTransaction)
+
+---
+
+###### SavedMusicIds
+
+:link: [*NOTHING*](type/SavedMusicIds)
+
+---
+
+###### UniqueStarGiftValueInfo
+
+:link: [*NOTHING*](type/UniqueStarGiftValueInfo)
+
+---
+
+###### BroadcastRevenueStats
+
+:link: [*NOTHING*](type/BroadcastRevenueStats)
+
+---
+
+###### PremiumGiftOption
+
+:link: [*Telegram Premium gift option*](type/PremiumGiftOption)
+
+---
+
+###### FileLocation
+
+:link: [*Indicates the location of a photo, will be deprecated soon*](type/FileLocation)
+
+---
+
+###### InputChatTheme
+
+:link: [*NOTHING*](type/InputChatTheme)
+
+---
+
+###### BroadcastRevenueTransactions
+
+:link: [*NOTHING*](type/BroadcastRevenueTransactions)
+
+---
+
+###### SimpleWebViewResultUrl
+
+:link: [*NOTHING*](type/SimpleWebViewResultUrl)
+
+---
+
+###### WebPagePreview
+
+:link: [*NOTHING*](type/WebPagePreview)
+
+---
+
+###### messages.WebViewResult
+
+:link: [*NOTHING*](type/messages.WebViewResult)
+
+---
+
+###### BroadcastRevenueBalances
+
+:link: [*Channel ad revenue balance &raquo; information*](type/BroadcastRevenueBalances)
+
+---
+
+###### BroadcastRevenueWithdrawalUrl
+
+:link: [*NOTHING*](type/BroadcastRevenueWithdrawalUrl)
+
+---
+
+###### ProfileTab
+
+:link: [*NOTHING*](type/ProfileTab)

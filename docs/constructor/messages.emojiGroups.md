@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of emoji categories*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.emojiGroups#881fb94b hash:int groups:Vector<EmojiGroup> = messages.EmojiGroups;
@@ -29,21 +29,21 @@ messages.emojiGroups#881fb94b hash:int groups:Vector<EmojiGroup> = messages.Emoj
 
 ```php
 $messagesEmojiGroups = $client->messages->emojiGroups(
-	hash : 94,
+	hash : 96,
 	groups : array(
 		$client->emojiGroup(
-			title : 'KlB1ONwi2XazfMTo',
-			icon_emoji_id : -4307406139836522937,
-			emoticons : array('rBx3NuIaUPjckJh0'),
+			title : 'Dq1NoZYs9apmczLF',
+			icon_emoji_id : -4104070671275957457,
+			emoticons : array('wDQCau2Aok17ryN5'),
 		),
 		$client->emojiGroupGreeting(
-			title : 'PFHYm1i75LfXxSuD',
-			icon_emoji_id : -206892463567106255,
-			emoticons : array('smNh3wbqQznycu9l'),
+			title : 'OzitmPgdyhBC3qo4',
+			icon_emoji_id : 7232687334202410334,
+			emoticons : array('5vXnfPZ6hpqA70QW'),
 		),
 		$client->emojiGroupPremium(
-			title : 'nERYVrMJ3IL1KeT0',
-			icon_emoji_id : 1831914992840210355,
+			title : '5bpz7kqOlLwfR0Ed',
+			icon_emoji_id : -2773942564643390952,
 		),
 	),
 );

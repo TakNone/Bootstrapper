@@ -2,7 +2,7 @@
 
 **Description** : *Get saved GIFs*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getSavedGifs#5cf09635 hash:long = messages.SavedGifs;
@@ -28,6 +28,6 @@ messages.getSavedGifs#5cf09635 hash:long = messages.SavedGifs;
 
 ```php
 $messagesSavedGifs = $client->messages->getSavedGifs(
-	hash : -3812597124084239158,
+	hash : -356441570671617840,
 );
 ```

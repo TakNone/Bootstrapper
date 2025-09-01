@@ -2,7 +2,7 @@
 
 **Description** : *Secure value hash*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureValueHash#ed1ecdb0 type:SecureValueType hash:bytes = SecureValueHash;
@@ -30,6 +30,6 @@ secureValueHash#ed1ecdb0 type:SecureValueType hash:bytes = SecureValueHash;
 ```php
 $secureValueHash = $client->secureValueHash(
 	type : $client->secureValueTypePersonalDetails(),
-	hash : '?@8LiveProto??n?',
+	hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

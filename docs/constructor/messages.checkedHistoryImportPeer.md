@@ -2,7 +2,7 @@
 
 **Description** : *Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.checkedHistoryImportPeer#a24de717 confirm_text:string = messages.CheckedHistoryImportPeer;
@@ -28,6 +28,6 @@ messages.checkedHistoryImportPeer#a24de717 confirm_text:string = messages.Checke
 
 ```php
 $messagesCheckedHistoryImportPeer = $client->messages->checkedHistoryImportPeer(
-	confirm_text : '581uFwoc26UZBfOs',
+	confirm_text : 'wrC4P5eZbmghH83U',
 );
 ```

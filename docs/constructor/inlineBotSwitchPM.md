@@ -2,7 +2,7 @@
 
 **Description** : *The bot requested the user to message them in private*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inlineBotSwitchPM#3c20629f text:string start_param:string = InlineBotSwitchPM;
@@ -29,7 +29,7 @@ inlineBotSwitchPM#3c20629f text:string start_param:string = InlineBotSwitchPM;
 
 ```php
 $inlineBotSwitchPM = $client->inlineBotSwitchPM(
-	text : 'RBFKfc0XxQ5ANrEq',
-	start_param : 'uyDZwAsmtEXnfTxd',
+	text : 'q5w6XadNHlsYJAoF',
+	start_param : '4OSt713rXM09Jkqb',
 );
 ```

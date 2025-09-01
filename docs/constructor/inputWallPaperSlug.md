@@ -2,7 +2,7 @@
 
 **Description** : *Wallpaper by slug \(a unique ID, obtained from a wallpaper link &raquo;\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputWallPaperSlug#72091c80 slug:string = InputWallPaper;
@@ -28,6 +28,6 @@ inputWallPaperSlug#72091c80 slug:string = InputWallPaper;
 
 ```php
 $inputWallPaper = $client->inputWallPaperSlug(
-	slug : 'EvOj5uKy9nR4UGX7',
+	slug : '1ZpckEamW6T4SKHy',
 );
 ```

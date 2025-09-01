@@ -1,6 +1,6 @@
 # payments.getStarGiftUpgradePreview
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.getStarGiftUpgradePreview#9c9abcb1 gift_id:long = payments.StarGiftUpgradePreview;
@@ -26,6 +26,6 @@ payments.getStarGiftUpgradePreview#9c9abcb1 gift_id:long = payments.StarGiftUpgr
 
 ```php
 $paymentsStarGiftUpgradePreview = $client->payments->getStarGiftUpgradePreview(
-	gift_id : 8807481257848912806,
+	gift_id : 5995602247013081443,
 );
 ```

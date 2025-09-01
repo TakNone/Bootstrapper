@@ -2,7 +2,7 @@
 
 **Description** : *PBKDF2 with SHA512 and 100000 iterations KDF algo*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 securePasswordKdfAlgoPBKDF2HMACSHA512iter100000#bbf2dda0 salt:bytes = SecurePasswordKdfAlgo;
@@ -28,6 +28,6 @@ securePasswordKdfAlgoPBKDF2HMACSHA512iter100000#bbf2dda0 salt:bytes = SecurePass
 
 ```php
 $securePasswordKdfAlgo = $client->securePasswordKdfAlgoPBKDF2HMACSHA512iter100000(
-	salt : '???)LiveProtoϦW',
+	salt : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -477,6 +477,12 @@
 
 ---
 
+###### userStatusHidden
+
+:link: [*NOTHING*](constructor/userStatusHidden)
+
+---
+
 ###### chatEmpty
 
 :link: [*Empty constructor, group doesn&#039;t exist*](constructor/chatEmpty)
@@ -1029,6 +1035,54 @@
 
 ---
 
+###### messageActionPhoneNumberRequest
+
+:link: [*NOTHING*](constructor/messageActionPhoneNumberRequest)
+
+---
+
+###### messageActionUserJoined
+
+:link: [*NOTHING*](constructor/messageActionUserJoined)
+
+---
+
+###### messageActionUserUpdatedPhoto
+
+:link: [*NOTHING*](constructor/messageActionUserUpdatedPhoto)
+
+---
+
+###### messageActionTTLChange
+
+:link: [*NOTHING*](constructor/messageActionTTLChange)
+
+---
+
+###### messageActionCreatedBroadcastList
+
+:link: [*NOTHING*](constructor/messageActionCreatedBroadcastList)
+
+---
+
+###### messageActionLoginUnknownLocation
+
+:link: [*NOTHING*](constructor/messageActionLoginUnknownLocation)
+
+---
+
+###### messageActionSetSameChatWallPaper
+
+:link: [*The user applied a wallpaper &raquo; previously sent by the other user in a messageActionSetChatWallPaper message*](constructor/messageActionSetSameChatWallPaper)
+
+---
+
+###### messageActionAttachMenuBotAllowed
+
+:link: [*NOTHING*](constructor/messageActionAttachMenuBotAllowed)
+
+---
+
 ###### dialog
 
 :link: [*Chat*](constructor/dialog)
@@ -1479,6 +1533,12 @@
 
 ---
 
+###### inputMessagesFilterPhotoVideoDocuments
+
+:link: [*NOTHING*](constructor/inputMessagesFilterPhotoVideoDocuments)
+
+---
+
 ###### updateNewMessage
 
 :link: [*New message in a private chat or in a basic group*](constructor/updateNewMessage)
@@ -1776,115 +1836,115 @@ If the difference is too long or if the channel isn&#039;t currently in the stat
 
 ###### updatePinnedDialogs
 
-:link: [*Pinned dialogs were updated*](constructor/updatePinnedDialogs)
+:link: [*NOTHING*](constructor/updatePinnedDialogs)
 
 ---
 
 ###### updateBotWebhookJSON
 
-:link: [*A new incoming event; for bots only*](constructor/updateBotWebhookJSON)
+:link: [*NOTHING*](constructor/updateBotWebhookJSON)
 
 ---
 
 ###### updateBotWebhookJSONQuery
 
-:link: [*A new incoming query; for bots only*](constructor/updateBotWebhookJSONQuery)
+:link: [*NOTHING*](constructor/updateBotWebhookJSONQuery)
 
 ---
 
 ###### updateBotShippingQuery
 
-:link: [*This object contains information about an incoming shipping query*](constructor/updateBotShippingQuery)
+:link: [*NOTHING*](constructor/updateBotShippingQuery)
 
 ---
 
 ###### updateBotPrecheckoutQuery
 
-:link: [*This object contains information about an incoming pre\-checkout query*](constructor/updateBotPrecheckoutQuery)
+:link: [*NOTHING*](constructor/updateBotPrecheckoutQuery)
 
 ---
 
 ###### updatePhoneCall
 
-:link: [*An incoming phone call*](constructor/updatePhoneCall)
+:link: [*NOTHING*](constructor/updatePhoneCall)
 
 ---
 
 ###### updateLangPackTooLong
 
-:link: [*A language pack has changed, the client should manually fetch the changed strings using langpack\.getDifference*](constructor/updateLangPackTooLong)
+:link: [*NOTHING*](constructor/updateLangPackTooLong)
 
 ---
 
 ###### updateLangPack
 
-:link: [*Language pack updated*](constructor/updateLangPack)
+:link: [*NOTHING*](constructor/updateLangPack)
 
 ---
 
 ###### updateFavedStickers
 
-:link: [*The list of favorited stickers was changed, the client should call messages\.getFavedStickers to refetch the new list*](constructor/updateFavedStickers)
+:link: [*NOTHING*](constructor/updateFavedStickers)
 
 ---
 
 ###### updateChannelReadMessagesContents
 
-:link: [*The specified channel/supergroup messages were read*](constructor/updateChannelReadMessagesContents)
+:link: [*NOTHING*](constructor/updateChannelReadMessagesContents)
 
 ---
 
 ###### updateContactsReset
 
-:link: [*All contacts were deleted*](constructor/updateContactsReset)
+:link: [*NOTHING*](constructor/updateContactsReset)
 
 ---
 
 ###### updateChannelAvailableMessages
 
-:link: [*The history of a channel/supergroup was hidden*](constructor/updateChannelAvailableMessages)
+:link: [*NOTHING*](constructor/updateChannelAvailableMessages)
 
 ---
 
 ###### updateDialogUnreadMark
 
-:link: [*The manual unread mark of a chat was changed*](constructor/updateDialogUnreadMark)
+:link: [*NOTHING*](constructor/updateDialogUnreadMark)
 
 ---
 
 ###### updateMessagePoll
 
-:link: [*The results of a poll have changed*](constructor/updateMessagePoll)
+:link: [*NOTHING*](constructor/updateMessagePoll)
 
 ---
 
 ###### updateChatDefaultBannedRights
 
-:link: [*Default banned rights in a normal chat were updated*](constructor/updateChatDefaultBannedRights)
+:link: [*NOTHING*](constructor/updateChatDefaultBannedRights)
 
 ---
 
 ###### updateFolderPeers
 
-:link: [*The peer list of a peer folder was updated*](constructor/updateFolderPeers)
+:link: [*NOTHING*](constructor/updateFolderPeers)
 
 ---
 
 ###### updatePeerSettings
 
-:link: [*Settings of a certain peer have changed*](constructor/updatePeerSettings)
+:link: [*NOTHING*](constructor/updatePeerSettings)
 
 ---
 
 ###### updatePeerLocated
 
-:link: [*List of peers near you was updated*](constructor/updatePeerLocated)
+:link: [*NOTHING*](constructor/updatePeerLocated)
 
 ---
 
 ###### updateNewScheduledMessage
 
-:link: [*A message was added to the schedule queue of a chat*](constructor/updateNewScheduledMessage)
+:link: [*NOTHING*](constructor/updateNewScheduledMessage)
 
 ---
 
@@ -1902,7 +1962,7 @@ If the difference is too long or if the channel isn&#039;t currently in the stat
 
 ###### updateGeoLiveViewed
 
-:link: [*Live geoposition message was viewed*](constructor/updateGeoLiveViewed)
+:link: [*NOTHING*](constructor/updateGeoLiveViewed)
 
 ---
 
@@ -2348,6 +2408,24 @@ This setting only affects the current account, and is synced to other logged in 
 ###### updateMonoForumNoPaidException
 
 :link: [*NOTHING*](constructor/updateMonoForumNoPaidException)
+
+---
+
+###### updateTranscribeAudio
+
+:link: [*NOTHING*](constructor/updateTranscribeAudio)
+
+---
+
+###### updateBotSubscriptionExpire
+
+:link: [*NOTHING*](constructor/updateBotSubscriptionExpire)
+
+---
+
+###### updateUserPhoto
+
+:link: [*Change of contact&#039;s profile photo*](constructor/updateUserPhoto)
 
 ---
 
@@ -3189,6 +3267,12 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 ###### webPageNotModified
 
 :link: [*The preview of the webpage hasn&#039;t changed*](constructor/webPageNotModified)
+
+---
+
+###### webPageUrlPending
+
+:link: [*NOTHING*](constructor/webPageUrlPending)
 
 ---
 
@@ -5205,6 +5289,24 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ---
 
+###### channelAdminLogEventActionChangeColor
+
+:link: [*The background profile color &raquo; of a channel was changed*](constructor/channelAdminLogEventActionChangeColor)
+
+---
+
+###### channelAdminLogEventActionChangeBackgroundEmoji
+
+:link: [*The custom emoji used to generate the pattern of the background profile color &raquo; of a channel was changed*](constructor/channelAdminLogEventActionChangeBackgroundEmoji)
+
+---
+
+###### channelAdminLogEventActionChangeTheme
+
+:link: [*The chat theme was changed*](constructor/channelAdminLogEventActionChangeTheme)
+
+---
+
 ###### channelAdminLogEvent
 
 :link: [*Admin log event*](constructor/channelAdminLogEvent)
@@ -5669,13 +5771,13 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ###### secureRequiredTypeOneOf
 
-:link: [*One of*](constructor/secureRequiredTypeOneOf)
+:link: [*NOTHING*](constructor/secureRequiredTypeOneOf)
 
 ---
 
 ###### help.passportConfigNotModified
 
-:link: [*Password configuration not modified*](constructor/help.passportConfigNotModified)
+:link: [*NOTHING*](constructor/help.passportConfigNotModified)
 
 ---
 
@@ -6932,6 +7034,12 @@ If neither the pm or group flags are set, the specified chat export was generate
 ###### inputInvoiceStarGiftResale
 
 :link: [*NOTHING*](constructor/inputInvoiceStarGiftResale)
+
+---
+
+###### inputInvoiceStarGiftPrepaidUpgrade
+
+:link: [*NOTHING*](constructor/inputInvoiceStarGiftPrepaidUpgrade)
 
 ---
 
@@ -8738,3 +8846,219 @@ If neither the pm or group flags are set, the specified chat export was generate
 ###### searchPostsFlood
 
 :link: [*NOTHING*](constructor/searchPostsFlood)
+
+---
+
+###### chatThemes
+
+:link: [*NOTHING*](constructor/chatThemes)
+
+---
+
+###### chatThemesNotModified
+
+:link: [*NOTHING*](constructor/chatThemesNotModified)
+
+---
+
+###### chatThemeUniqueGift
+
+:link: [*NOTHING*](constructor/chatThemeUniqueGift)
+
+---
+
+###### chatTheme
+
+:link: [*A chat theme*](constructor/chatTheme)
+
+---
+
+###### savedMusic
+
+:link: [*NOTHING*](constructor/savedMusic)
+
+---
+
+###### savedMusicNotModified
+
+:link: [*NOTHING*](constructor/savedMusicNotModified)
+
+---
+
+###### checkCanSendGiftResultOk
+
+:link: [*NOTHING*](constructor/checkCanSendGiftResultOk)
+
+---
+
+###### checkCanSendGiftResultFail
+
+:link: [*NOTHING*](constructor/checkCanSendGiftResultFail)
+
+---
+
+###### appWebViewResultUrl
+
+:link: [*Contains the link that must be used to open a direct link Mini App*](constructor/appWebViewResultUrl)
+
+---
+
+###### messages.messageEmpty
+
+:link: [*Empty constructor\. Can be used, for example, in case when an action did not require to create a service message*](constructor/messages.messageEmpty)
+
+---
+
+###### broadcastRevenueTransactionRefund
+
+:link: [*Describes a refund for failed withdrawal of ad earnings &raquo;*](constructor/broadcastRevenueTransactionRefund)
+
+---
+
+###### broadcastRevenueTransactionProceeds
+
+:link: [*Describes earnings from sponsored messages in a channel in some time frame, see here &raquo; for more info*](constructor/broadcastRevenueTransactionProceeds)
+
+---
+
+###### broadcastRevenueTransactionWithdrawal
+
+:link: [*Describes a withdrawal of ad earnings &raquo;*](constructor/broadcastRevenueTransactionWithdrawal)
+
+---
+
+###### savedMusicIdsNotModified
+
+:link: [*NOTHING*](constructor/savedMusicIdsNotModified)
+
+---
+
+###### savedMusicIds
+
+:link: [*NOTHING*](constructor/savedMusicIds)
+
+---
+
+###### uniqueStarGiftValueInfo
+
+:link: [*NOTHING*](constructor/uniqueStarGiftValueInfo)
+
+---
+
+###### broadcastRevenueStats
+
+:link: [*NOTHING*](constructor/broadcastRevenueStats)
+
+---
+
+###### premiumGiftOption
+
+:link: [*Telegram Premium gift option*](constructor/premiumGiftOption)
+
+---
+
+###### fileLocationUnavailable
+
+:link: [*File is currently unavailable*](constructor/fileLocationUnavailable)
+
+---
+
+###### inputChatThemeEmpty
+
+:link: [*NOTHING*](constructor/inputChatThemeEmpty)
+
+---
+
+###### inputChatThemeUniqueGift
+
+:link: [*NOTHING*](constructor/inputChatThemeUniqueGift)
+
+---
+
+###### inputChatTheme
+
+:link: [*NOTHING*](constructor/inputChatTheme)
+
+---
+
+###### broadcastRevenueTransactions
+
+:link: [*NOTHING*](constructor/broadcastRevenueTransactions)
+
+---
+
+###### simpleWebViewResultUrl
+
+:link: [*Contains the webview URL with appropriate theme parameters added*](constructor/simpleWebViewResultUrl)
+
+---
+
+###### webPagePreview
+
+:link: [*NOTHING*](constructor/webPagePreview)
+
+---
+
+###### messages.webViewResult
+
+:link: [*NOTHING*](constructor/messages.webViewResult)
+
+---
+
+###### broadcastRevenueBalances
+
+:link: [*Describes channel ad revenue balances &raquo;*](constructor/broadcastRevenueBalances)
+
+---
+
+###### broadcastRevenueWithdrawalUrl
+
+:link: [*NOTHING*](constructor/broadcastRevenueWithdrawalUrl)
+
+---
+
+###### profileTabGifts
+
+:link: [*NOTHING*](constructor/profileTabGifts)
+
+---
+
+###### profileTabMedia
+
+:link: [*NOTHING*](constructor/profileTabMedia)
+
+---
+
+###### profileTabMusic
+
+:link: [*NOTHING*](constructor/profileTabMusic)
+
+---
+
+###### profileTabGifs
+
+:link: [*NOTHING*](constructor/profileTabGifs)
+
+---
+
+###### profileTabFiles
+
+:link: [*NOTHING*](constructor/profileTabFiles)
+
+---
+
+###### profileTabPosts
+
+:link: [*NOTHING*](constructor/profileTabPosts)
+
+---
+
+###### profileTabLinks
+
+:link: [*NOTHING*](constructor/profileTabLinks)
+
+---
+
+###### profileTabVoice
+
+:link: [*NOTHING*](constructor/profileTabVoice)

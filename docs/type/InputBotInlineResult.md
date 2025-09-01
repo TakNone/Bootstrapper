@@ -2,7 +2,7 @@
 
 **Description** : *Inline bot result*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputBotInlineResult#88bf9319 flags:# id:string type:string title:flags.1?string description:flags.2?string url:flags.3?string thumb:flags.4?InputWebDocument content:flags.5?InputWebDocument send_message:InputBotInlineMessage = InputBotInlineResult;

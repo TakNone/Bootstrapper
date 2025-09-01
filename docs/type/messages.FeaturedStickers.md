@@ -2,7 +2,7 @@
 
 **Description** : *Featured stickers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.featuredStickersNotModified#c6dc0c66 count:int = messages.FeaturedStickers;

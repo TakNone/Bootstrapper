@@ -2,7 +2,7 @@
 
 **Description** : *Name, ISO code, localized name and phone codes/patterns of all available countries*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.countriesList#87d0759e countries:Vector<help.Country> hash:int = help.CountriesList;
@@ -32,18 +32,18 @@ $helpCountriesList = $client->help->countriesList(
 	countries : array(
 		$client->help->country(
 			hidden : true,
-			iso2 : '4RLbCeI65pnh1ZJr',
-			default_name : 'eT8UCSofHgrhLIiJ',
-			name : 'iPuLS7rotpAXgHx0',
+			iso2 : 'dwjxFmCAqX4Y2u1k',
+			default_name : 'p3dQNmDFB7Pa2Z5M',
+			name : 'KMUosqhyBZI7kixR',
 			country_codes : array(
 				$client->help->countryCode(
-					country_code : 'cCtvm6QzRb0IqL3P',
-					prefixes : array('w4OyfdSMHZN6Do7I'),
-					patterns : array('ZjW21rsuPaX6Cqk3'),
+					country_code : 'paS7TsRonABDLQhU',
+					prefixes : array('fWugcUSzNl25yvJH'),
+					patterns : array('4gDejI1CLr2cRMHY'),
 				),
 			),
 		),
 	),
-	hash : 37,
+	hash : 9,
 );
 ```

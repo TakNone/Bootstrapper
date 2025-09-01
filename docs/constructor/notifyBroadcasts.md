@@ -2,7 +2,7 @@
 
 **Description** : *Channel notification settings*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 notifyBroadcasts#d612e8ef = NotifyPeer;

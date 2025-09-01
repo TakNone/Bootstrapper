@@ -2,7 +2,7 @@
 
 **Description** : *Get a set of suggested custom emoji stickers that can be used as group picture*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getDefaultGroupPhotoEmojis#915860ae hash:long = EmojiList;
@@ -28,6 +28,6 @@ account.getDefaultGroupPhotoEmojis#915860ae hash:long = EmojiList;
 
 ```php
 $emojiList = $client->account->getDefaultGroupPhotoEmojis(
-	hash : -7885005517505469294,
+	hash : 3790444697033518018,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Fetch all stickersets &raquo; owned by the current user*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getMyStickers#d0b5e1fc offset_id:long limit:int = messages.MyStickers;
@@ -29,7 +29,7 @@ messages.getMyStickers#d0b5e1fc offset_id:long limit:int = messages.MyStickers;
 
 ```php
 $messagesMyStickers = $client->messages->getMyStickers(
-	offset_id : -1045993961698639726,
-	limit : 83,
+	offset_id : -9025676585101696678,
+	limit : 26,
 );
 ```

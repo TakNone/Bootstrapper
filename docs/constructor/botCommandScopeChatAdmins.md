@@ -2,7 +2,7 @@
 
 **Description** : *The specified bot commands will be valid only for chat administrators, in all groups and supergroups*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 botCommandScopeChatAdmins#b9aa606a = BotCommandScope;

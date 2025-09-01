@@ -2,7 +2,7 @@
 
 **Description** : *Deletes communication history*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.deleteHistory#b08f922a flags:# just_clear:flags.0?true revoke:flags.1?true peer:InputPeer max_id:int min_date:flags.2?int max_date:flags.3?int = messages.AffectedHistory;
@@ -53,8 +53,8 @@ $messagesAffectedHistory = $client->messages->deleteHistory(
 	just_clear : true,
 	revoke : true,
 	peer : $client->inputPeerEmpty(),
-	max_id : 15,
-	min_date : 47,
-	max_date : 41,
+	max_id : 46,
+	min_date : 45,
+	max_date : 90,
 );
 ```

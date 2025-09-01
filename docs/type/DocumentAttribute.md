@@ -2,7 +2,7 @@
 
 **Description** : *Various possible attributes of a document \(used to define if it&#039;s a sticker, a GIF, a video, a mask sticker, an image, an audio, and so on\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 documentAttributeImageSize#6c37c15c w:int h:int = DocumentAttribute;

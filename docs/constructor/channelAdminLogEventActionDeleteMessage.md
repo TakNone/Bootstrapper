@@ -2,7 +2,7 @@
 
 **Description** : *A message was deleted*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channelAdminLogEventActionDeleteMessage#42e047bb message:Message = ChannelAdminLogEventAction;
@@ -29,9 +29,9 @@ channelAdminLogEventActionDeleteMessage#42e047bb message:Message = ChannelAdminL
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionDeleteMessage(
 	message : $client->messageEmpty(
-		id : 20,
+		id : 65,
 		peer_id : $client->peerUser(
-			user_id : -8966111785421866445,
+			user_id : 8141118134529381973,
 		),
 	),
 );

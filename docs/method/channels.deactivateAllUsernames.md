@@ -2,7 +2,7 @@
 
 **Description** : *Disable all purchased usernames of a supergroup or channel*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.deactivateAllUsernames#a245dd3 channel:InputChannel = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Get all archived stickers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getArchivedStickers#57f17692 flags:# masks:flags.0?true emojis:flags.1?true offset_id:long limit:int = messages.ArchivedStickers;
@@ -34,7 +34,7 @@ messages.getArchivedStickers#57f17692 flags:# masks:flags.0?true emojis:flags.1?
 $messagesArchivedStickers = $client->messages->getArchivedStickers(
 	masks : true,
 	emojis : true,
-	offset_id : 3975027700866593415,
-	limit : 27,
+	offset_id : 2577514681584656054,
+	limit : 29,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Changes chat name and sends a service message on it*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.editChatTitle#73783ffd chat_id:long title:string = Updates;
@@ -41,7 +41,7 @@ messages.editChatTitle#73783ffd chat_id:long title:string = Updates;
 
 ```php
 $updates = $client->messages->editChatTitle(
-	chat_id : -5159935707144282792,
-	title : 'vEk6thd1Oj37BR0i',
+	chat_id : 7978470379551392544,
+	title : 'SaiPsRAgTW9138dx',
 );
 ```

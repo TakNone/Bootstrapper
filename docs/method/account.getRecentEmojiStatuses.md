@@ -2,7 +2,7 @@
 
 **Description** : *Get recently used emoji statuses*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getRecentEmojiStatuses#f578105 hash:long = account.EmojiStatuses;
@@ -28,6 +28,6 @@ account.getRecentEmojiStatuses#f578105 hash:long = account.EmojiStatuses;
 
 ```php
 $accountEmojiStatuses = $client->account->getRecentEmojiStatuses(
-	hash : 1093551208271996775,
+	hash : 813978459995611167,
 );
 ```

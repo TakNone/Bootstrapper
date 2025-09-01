@@ -2,7 +2,7 @@
 
 **Description** : *Defines a file saved in parts using the method upload\.saveFilePart*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputFile#f52ff27f id:long parts:int name:string md5_checksum:string = InputFile;
@@ -31,9 +31,9 @@ inputFile#f52ff27f id:long parts:int name:string md5_checksum:string = InputFile
 
 ```php
 $inputFile = $client->inputFile(
-	id : -5703191521922417503,
-	parts : 98,
-	name : 'joOE9hRXivbp83wD',
+	id : -3383814812065136074,
+	parts : 100,
+	name : 'wxcKgBb3CzUvliN9',
 	md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 );
 ```

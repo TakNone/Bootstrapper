@@ -2,7 +2,7 @@
 
 **Description** : *Represents the download status of a CDN file*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 upload.cdnFileReuploadNeeded#eea8e46e request_token:bytes = upload.CdnFile;

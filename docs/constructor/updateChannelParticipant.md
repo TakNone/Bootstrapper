@@ -2,7 +2,7 @@
 
 **Description** : *A participant has left, joined, was banned or admined in a channel or supergroup*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:long date:int actor_id:long user_id:long prev_participant:flags.0?ChannelParticipant new_participant:flags.1?ChannelParticipant invite:flags.2?ExportedChatInvite qts:int = Update;
@@ -38,39 +38,39 @@ updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:l
 ```php
 $update = $client->updateChannelParticipant(
 	via_chatlist : true,
-	channel_id : -3549722516317222764,
-	date : 99,
-	actor_id : -5870434097843580215,
-	user_id : -9198512637289630816,
+	channel_id : -2151913375224399041,
+	date : 69,
+	actor_id : -2379751439719078865,
+	user_id : 6219993831846230704,
 	prev_participant : $client->channelParticipant(
-		user_id : -4286017203338113368,
-		date : 51,
-		subscription_until_date : 60,
+		user_id : -3631102060581820134,
+		date : 4,
+		subscription_until_date : 84,
 	),
 	new_participant : $client->channelParticipant(
-		user_id : 6623347136068308207,
-		date : 72,
-		subscription_until_date : 33,
+		user_id : -7507988573752693943,
+		date : 23,
+		subscription_until_date : 40,
 	),
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'VZz8dAjh4qaDBMtP',
-		admin_id : 6931584785723557681,
-		date : 57,
-		start_date : 56,
-		expire_date : 20,
-		usage_limit : 45,
-		usage : 41,
-		requested : 24,
-		subscription_expired : 18,
-		title : 'AFZURuxHnCv38hPk',
+		link : 'at9AI8HvM0CNjSbG',
+		admin_id : -6356899617049123227,
+		date : 68,
+		start_date : 98,
+		expire_date : 50,
+		usage_limit : 48,
+		usage : 28,
+		requested : 12,
+		subscription_expired : 24,
+		title : 'GidT2IMzbAwsDPx0',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 81,
-			amount : -2042357384640650243,
+			period : 77,
+			amount : -3820995871973004588,
 		),
 	),
-	qts : 67,
+	qts : 10,
 );
 ```

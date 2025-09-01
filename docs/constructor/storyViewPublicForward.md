@@ -2,7 +2,7 @@
 
 **Description** : *A certain peer has forwarded the story as a message to a public chat or channel*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 storyViewPublicForward#9083670b flags:# blocked:flags.0?true blocked_my_stories_from:flags.1?true message:Message = StoryView;
@@ -34,9 +34,9 @@ $storyView = $client->storyViewPublicForward(
 	blocked : true,
 	blocked_my_stories_from : true,
 	message : $client->messageEmpty(
-		id : 11,
+		id : 34,
 		peer_id : $client->peerUser(
-			user_id : -3244320626399658113,
+			user_id : -5399692784363036436,
 		),
 	),
 );

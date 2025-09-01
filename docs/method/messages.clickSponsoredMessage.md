@@ -2,7 +2,7 @@
 
 **Description** : *Informs the server that the user has interacted with a sponsored message in one of the ways listed here &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.clickSponsoredMessage#8235057e flags:# media:flags.0?true fullscreen:flags.1?true random_id:bytes = Bool;
@@ -33,6 +33,6 @@ messages.clickSponsoredMessage#8235057e flags:# media:flags.0?true fullscreen:fl
 $bool = $client->messages->clickSponsoredMessage(
 	media : true,
 	fullscreen : true,
-	random_id : 'I??ELiveProto]9??w',
+	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -1,6 +1,6 @@
 # starsTonAmount
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 starsTonAmount#74aee3e0 amount:long = StarsAmount;
@@ -26,6 +26,6 @@ starsTonAmount#74aee3e0 amount:long = StarsAmount;
 
 ```php
 $starsAmount = $client->starsTonAmount(
-	amount : -2983694823050877858,
+	amount : 5544372111785264951,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *New message in a private chat or in a basic group*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
@@ -31,12 +31,12 @@ updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
 ```php
 $update = $client->updateNewMessage(
 	message : $client->messageEmpty(
-		id : 67,
+		id : 72,
 		peer_id : $client->peerUser(
-			user_id : 3985884256653429072,
+			user_id : 6015310214804339517,
 		),
 	),
-	pts : 47,
-	pts_count : 82,
+	pts : 59,
+	pts_count : 4,
 );
 ```

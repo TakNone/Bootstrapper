@@ -2,7 +2,7 @@
 
 **Description** : *Reorder pinned forum topics*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.reorderPinnedForumTopics#2950a18f flags:# force:flags.0?true channel:InputChannel order:Vector<int> = Updates;
@@ -41,6 +41,6 @@ channels.reorderPinnedForumTopics#2950a18f flags:# force:flags.0?true channel:In
 $updates = $client->channels->reorderPinnedForumTopics(
 	force : true,
 	channel : $client->inputChannelEmpty(),
-	order : array(69),
+	order : array(14),
 );
 ```

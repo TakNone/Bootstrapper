@@ -2,7 +2,7 @@
 
 **Description** : *Phone book contact*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputMediaContact#f8ab7dfb phone_number:string first_name:string last_name:string vcard:string = InputMedia;
@@ -34,6 +34,6 @@ $inputMedia = $client->inputMediaContact(
 	phone_number : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
-	vcard : 'HdCPfNci9zwOBEF4',
+	vcard : '0lYhfjQ5x8Pvyu4g',
 );
 ```

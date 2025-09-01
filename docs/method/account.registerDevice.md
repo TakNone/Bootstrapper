@@ -2,7 +2,7 @@
 
 **Description** : *Register device to receive PUSH notifications*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.registerDevice#ec86017a flags:# no_muted:flags.0?true token_type:int token:string app_sandbox:Bool secret:bytes other_uids:Vector<long> = Bool;
@@ -48,10 +48,10 @@ account.registerDevice#ec86017a flags:# no_muted:flags.0?true token_type:int tok
 ```php
 $bool = $client->account->registerDevice(
 	no_muted : true,
-	token_type : 65,
-	token : 'H8MxB0421OLXdK6b',
+	token_type : 74,
+	token : 'C5gOQT8dqWBVGoXz',
 	app_sandbox : false,
-	secret : 'vm3~oLiveProtoo??3?',
-	other_uids : array(3811736876930255710),
+	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	other_uids : array(1908616661287423692),
 );
 ```

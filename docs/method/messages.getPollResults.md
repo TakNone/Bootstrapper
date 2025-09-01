@@ -2,7 +2,7 @@
 
 **Description** : *Get poll results*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getPollResults#73bb643b peer:InputPeer msg_id:int = Updates;
@@ -39,6 +39,6 @@ messages.getPollResults#73bb643b peer:InputPeer msg_id:int = Updates;
 ```php
 $updates = $client->messages->getPollResults(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 3,
+	msg_id : 0,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Returns sparse positions of messages of the specified type in the chat to be used for shared media scroll implementation*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getSearchResultsPositions#9c7f2f10 flags:# peer:InputPeer saved_peer_id:flags.2?InputPeer filter:MessagesFilter offset_id:int limit:int = messages.SearchResultsPositions;
@@ -44,7 +44,7 @@ $messagesSearchResultsPositions = $client->messages->getSearchResultsPositions(
 	peer : $client->inputPeerEmpty(),
 	saved_peer_id : $client->inputPeerEmpty(),
 	filter : $client->inputMessagesFilterEmpty(),
-	offset_id : 4,
-	limit : 15,
+	offset_id : 19,
+	limit : 78,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Info about a forwarded message*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageFwdHeader#4e4df4bb flags:# imported:flags.7?true saved_out:flags.11?true from_id:flags.0?Peer from_name:flags.5?string date:int channel_post:flags.2?int post_author:flags.3?string saved_from_peer:flags.4?Peer saved_from_msg_id:flags.4?int saved_from_id:flags.8?Peer saved_from_name:flags.9?string saved_date:flags.10?int psa_type:flags.6?string = MessageFwdHeader;
@@ -44,21 +44,21 @@ $messageFwdHeader = $client->messageFwdHeader(
 	imported : true,
 	saved_out : true,
 	from_id : $client->peerUser(
-		user_id : -4155833605843961968,
+		user_id : 150252670731445942,
 	),
-	from_name : '1u2LD5ZmRfxs9IK4',
-	date : 12,
-	channel_post : 72,
-	post_author : 'pzKUSxi896qadsFt',
+	from_name : '284CMwPtR59d7osc',
+	date : 53,
+	channel_post : 37,
+	post_author : 's9Izc8TiXpb3DyhU',
 	saved_from_peer : $client->peerUser(
-		user_id : -2859353369830341112,
+		user_id : 7652139022885693947,
 	),
-	saved_from_msg_id : 28,
+	saved_from_msg_id : 76,
 	saved_from_id : $client->peerUser(
-		user_id : -4744764599330168699,
+		user_id : -4115275912726084833,
 	),
-	saved_from_name : '8CMbslIP6kxcOADg',
-	saved_date : 31,
-	psa_type : 'BA3I6p81XkLWDxOy',
+	saved_from_name : 'dtFsAVoURhpbNC1e',
+	saved_date : 32,
+	psa_type : 'lVPgUzHQ1BEI6RXN',
 );
 ```

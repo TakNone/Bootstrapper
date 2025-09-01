@@ -2,7 +2,7 @@
 
 **Description** : *Stop getting notifications about discussion replies of a certain user in @replies*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.blockFromReplies#29a8962c flags:# delete_message:flags.0?true delete_history:flags.1?true report_spam:flags.2?true msg_id:int = Updates;
@@ -43,6 +43,6 @@ $updates = $client->contacts->blockFromReplies(
 	delete_message : true,
 	delete_history : true,
 	report_spam : true,
-	msg_id : 97,
+	msg_id : 71,
 );
 ```

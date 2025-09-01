@@ -2,7 +2,7 @@
 
 **Description** : *Answer an inline query, for bots only*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.setInlineBotResults#bb12a419 flags:# gallery:flags.0?true private:flags.1?true query_id:long results:Vector<InputBotInlineResult> cache_time:int next_offset:flags.2?string switch_pm:flags.3?InlineBotSwitchPM switch_webview:flags.4?InlineBotWebView = Bool;
@@ -85,18 +85,18 @@ messages.setInlineBotResults#bb12a419 flags:# gallery:flags.0?true private:flags
 $bool = $client->messages->setInlineBotResults(
 	gallery : true,
 	private : true,
-	query_id : 591201069200785754,
+	query_id : -8224367564571406157,
 	results : array(
 		$client->inputBotInlineResult(
-			id : 'nKsMHratDjpufBC8',
-			type : 'qu2sIGPH3rn58Kl1',
-			title : 'Gzg5AB0kuMcbK8LN',
-			description : 'klYpdoQAPfxw6Fn3',
+			id : '0D1h5EGapBJj27Vx',
+			type : '8FebUJhLvlYtPop9',
+			title : 'k6P8cmXEuglnNb2a',
+			description : 'cIOlNq5UEtodDFz1',
 			url : 'https://docs.liveproto.dev',
 			thumb : $client->inputWebDocument(
 				url : 'https://docs.liveproto.dev',
-				size : 69,
-				mime_type : 'CpqrlKYIkyTZ0waL',
+				size : 58,
+				mime_type : 'a1nQLbpuyNhVFE46',
 				attributes : array(
 					$client->documentAttributeImageSize(...),
 					$client->documentAttributeAnimated(...),
@@ -110,8 +110,8 @@ $bool = $client->messages->setInlineBotResults(
 			),
 			content : $client->inputWebDocument(
 				url : 'https://docs.liveproto.dev',
-				size : 64,
-				mime_type : 'cmy48hJ3ndNAaLtb',
+				size : 49,
+				mime_type : 'HYBmKkEab4JMROol',
 				attributes : array(
 					$client->documentAttributeImageSize(...),
 					$client->documentAttributeAnimated(...),
@@ -125,7 +125,7 @@ $bool = $client->messages->setInlineBotResults(
 			),
 			send_message : $client->inputBotInlineMessageMediaAuto(
 				invert_media : true,
-				message : 'ju5lEkUZCtTaQ2zJ',
+				message : '6QHE0rwUtdL5B8ka',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -153,12 +153,12 @@ $bool = $client->messages->setInlineBotResults(
 			),
 		),
 		$client->inputBotInlineResultPhoto(
-			id : '2mIA1thfKSyWZqOD',
-			type : 'bRLMAcVCynae0358',
+			id : 'WiH42kmgXFMEz68u',
+			type : 'WVzSpv95XYohPkeN',
 			photo : $client->inputPhotoEmpty(),
 			send_message : $client->inputBotInlineMessageMediaAuto(
 				invert_media : true,
-				message : 'JVoAvn7PqNK1Hjth',
+				message : 'p5AXYN8tUG2PB79x',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -186,14 +186,14 @@ $bool = $client->messages->setInlineBotResults(
 			),
 		),
 		$client->inputBotInlineResultDocument(
-			id : 'Jx0ePlR7YKptGiSA',
-			type : 'Dljte4SkzbF3WRpU',
-			title : '6wzE51sXWrgQ0UpZ',
-			description : '0EOrcHQvANq5TKp8',
+			id : 'v1Ayl7nYZm9qdisQ',
+			type : '7qL4sKo1AeuU3jYG',
+			title : 'aeWQ7BFDJszfu0gO',
+			description : 'w8ud2LhFtQebPoCA',
 			document : $client->inputDocumentEmpty(),
 			send_message : $client->inputBotInlineMessageMediaAuto(
 				invert_media : true,
-				message : 'pneokUv9zYTx5f1H',
+				message : '0y9ISCiXvKW6qmtn',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -221,11 +221,11 @@ $bool = $client->messages->setInlineBotResults(
 			),
 		),
 		$client->inputBotInlineResultGame(
-			id : 'F7jmgU3WfzKGRMoV',
-			short_name : 'NGZEhMw78XyvnDJH',
+			id : '3WExn6v5IRC1Fq2H',
+			short_name : 'fz4XIy3siDrqVxgn',
 			send_message : $client->inputBotInlineMessageMediaAuto(
 				invert_media : true,
-				message : 'ZRa53Q9tKm1SMb6E',
+				message : 'ajq6RxPIfkZvHTdz',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -253,14 +253,14 @@ $bool = $client->messages->setInlineBotResults(
 			),
 		),
 	),
-	cache_time : 75,
-	next_offset : '37HodxOhpAKgQ9Ca',
+	cache_time : 48,
+	next_offset : 'we4yvOIoKAfjVrFG',
 	switch_pm : $client->inlineBotSwitchPM(
-		text : 'ACx38p1XSV6vsWtU',
-		start_param : 'Jtn07ZqjoD8CEr1p',
+		text : '6DhBsodEHfvZIyAP',
+		start_param : '2b6azIDkC8oOd7vx',
 	),
 	switch_webview : $client->inlineBotWebView(
-		text : 'MgZbfHEyn21aoUOS',
+		text : 'kBipEM34WxqYAlDL',
 		url : 'https://docs.liveproto.dev',
 	),
 );

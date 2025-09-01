@@ -2,7 +2,7 @@
 
 **Description** : *Peer in a folder*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputFolderPeer#fbd2c296 peer:InputPeer folder_id:int = InputFolderPeer;
@@ -30,6 +30,6 @@ inputFolderPeer#fbd2c296 peer:InputPeer folder_id:int = InputFolderPeer;
 ```php
 $inputFolderPeer = $client->inputFolderPeer(
 	peer : $client->inputPeerEmpty(),
-	folder_id : 52,
+	folder_id : 31,
 );
 ```

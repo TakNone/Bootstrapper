@@ -1,6 +1,6 @@
 # inputInvoiceStarGiftResale
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:InputPeer = InputInvoice;
@@ -30,7 +30,7 @@ inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:I
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftResale(
 	ton : true,
-	slug : 'l6baq5yNRoZgjH7P',
+	slug : 'sgJMqu4NRQZpLY7O',
 	to_id : $client->inputPeerEmpty(),
 );
 ```

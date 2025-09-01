@@ -2,7 +2,7 @@
 
 **Description** : *The next time, the authentication code will be delivered via fragment\.com*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.codeTypeFragmentSms#6ed998c = auth.CodeType;

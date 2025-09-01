@@ -2,7 +2,7 @@
 
 **Description** : *Pin or unpin a saved message dialog &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.toggleSavedDialogPin#ac81bbde flags:# pinned:flags.0?true peer:InputDialogPeer = Bool;

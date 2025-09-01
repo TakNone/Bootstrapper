@@ -3,7 +3,7 @@
 **Description** : *Generate a login token, for login via QR code\.
 The generated login token should be encoded using base64url, then shown as a tg://login?token=base64encodedtoken deep link &raquo; in the QR code*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.exportLoginToken#b7e085fe api_id:int api_hash:string except_ids:Vector<long> = auth.LoginToken;
@@ -40,8 +40,8 @@ auth.exportLoginToken#b7e085fe api_id:int api_hash:string except_ids:Vector<long
 
 ```php
 $authLoginToken = $client->auth->exportLoginToken(
-	api_id : 7,
-	api_hash : '4gGXLnkhsIHFEzym',
-	except_ids : array(-2021789226293786987),
+	api_id : 4,
+	api_hash : 'PMhIgocZYAmQWaxT',
+	except_ids : array(-8302950938353902142),
 );
 ```

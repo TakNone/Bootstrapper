@@ -2,7 +2,7 @@
 
 **Description** : *Allow or prevent a bot from changing our emoji status &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 bots.toggleUserEmojiStatusPermission#6de6392 bot:InputUser enabled:Bool = Bool;

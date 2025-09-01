@@ -2,7 +2,7 @@
 
 **Description** : *Get discussion message from the associated discussion group of a channel to show it on top of the comment section, without actually joining the group*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getDiscussionMessage#446972fd peer:InputPeer msg_id:int = messages.DiscussionMessage;
@@ -42,6 +42,6 @@ messages.getDiscussionMessage#446972fd peer:InputPeer msg_id:int = messages.Disc
 ```php
 $messagesDiscussionMessage = $client->messages->getDiscussionMessage(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 93,
+	msg_id : 22,
 );
 ```

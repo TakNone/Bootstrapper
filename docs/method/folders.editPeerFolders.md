@@ -2,7 +2,7 @@
 
 **Description** : *Edit peers in peer folder*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 folders.editPeerFolders#6847d0ab folder_peers:Vector<InputFolderPeer> = Updates;
@@ -41,7 +41,7 @@ $updates = $client->folders->editPeerFolders(
 	folder_peers : array(
 		$client->inputFolderPeer(
 			peer : $client->inputPeerEmpty(),
-			folder_id : 87,
+			folder_id : 52,
 		),
 	),
 );

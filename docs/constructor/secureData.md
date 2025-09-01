@@ -2,7 +2,7 @@
 
 **Description** : *Secure passport data, for more info see the passport docs &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureData#8aeabec3 data:bytes data_hash:bytes secret:bytes = SecureData;
@@ -30,9 +30,8 @@ secureData#8aeabec3 data:bytes data_hash:bytes secret:bytes = SecureData;
 
 ```php
 $secureData = $client->secureData(
-	data : '?
-g?LiveProto??b?@',
-	data_hash : '???LiveProtoַ?d?',
-	secret : ')???ALiveProtoF???',
+	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

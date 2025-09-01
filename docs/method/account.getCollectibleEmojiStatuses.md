@@ -1,6 +1,6 @@
 # account.getCollectibleEmojiStatuses
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getCollectibleEmojiStatuses#2e7b4543 hash:long = account.EmojiStatuses;
@@ -26,6 +26,6 @@ account.getCollectibleEmojiStatuses#2e7b4543 hash:long = account.EmojiStatuses;
 
 ```php
 $accountEmojiStatuses = $client->account->getCollectibleEmojiStatuses(
-	hash : 5927919255715566137,
+	hash : 1707749466044343291,
 );
 ```

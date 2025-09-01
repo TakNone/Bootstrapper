@@ -2,7 +2,7 @@
 
 **Description** : *Deletes messages by their identifiers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.deleteMessages#e58e95d2 flags:# revoke:flags.0?true id:Vector<int> = messages.AffectedMessages;
@@ -40,6 +40,6 @@ messages.deleteMessages#e58e95d2 flags:# revoke:flags.0?true id:Vector<int> = me
 ```php
 $messagesAffectedMessages = $client->messages->deleteMessages(
 	revoke : true,
-	id : array(95),
+	id : array(18),
 );
 ```

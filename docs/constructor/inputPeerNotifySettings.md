@@ -2,7 +2,7 @@
 
 **Description** : *Notification settings*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputPeerNotifySettings#cacb6ae2 flags:# show_previews:flags.0?Bool silent:flags.1?Bool mute_until:flags.2?int sound:flags.3?NotificationSound stories_muted:flags.6?Bool stories_hide_sender:flags.7?Bool stories_sound:flags.8?NotificationSound = InputPeerNotifySettings;
@@ -35,11 +35,11 @@ inputPeerNotifySettings#cacb6ae2 flags:# show_previews:flags.0?Bool silent:flags
 
 ```php
 $inputPeerNotifySettings = $client->inputPeerNotifySettings(
-	show_previews : false,
+	show_previews : true,
 	silent : false,
-	mute_until : 75,
+	mute_until : 47,
 	sound : $client->notificationSoundDefault(),
-	stories_muted : false,
+	stories_muted : true,
 	stories_hide_sender : false,
 	stories_sound : $client->notificationSoundDefault(),
 );

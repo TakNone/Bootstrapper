@@ -1,8 +1,6 @@
 # updatePinnedDialogs
 
-**Description** : *Pinned dialogs were updated*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updatePinnedDialogs#fa0f3ca2 flags:# folder_id:flags.1?int order:flags.0?Vector<DialogPeer> = Update;
@@ -14,9 +12,9 @@ updatePinnedDialogs#fa0f3ca2 flags:# folder_id:flags.1?int order:flags.0?Vector<
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
-| **folder_id** | [`flags.1?int`](type/int) | Peer folder ID, for more info click here |
-| **order** | [`flags.0?Vector<DialogPeer>`](type/DialogPeer) | New order of pinned dialogs |
+| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| **folder_id** | [`flags.1?int`](type/int) | NOTHING |
+| **order** | [`flags.0?Vector<DialogPeer>`](type/DialogPeer) | NOTHING |
 
 ---
 
@@ -30,15 +28,15 @@ updatePinnedDialogs#fa0f3ca2 flags:# folder_id:flags.1?int order:flags.0?Vector<
 
 ```php
 $update = $client->updatePinnedDialogs(
-	folder_id : 46,
+	folder_id : 1,
 	order : array(
 		$client->dialogPeer(
 			peer : $client->peerUser(
-				user_id : 3724570252063249620,
+				user_id : -4575073900112289955,
 			),
 		),
 		$client->dialogPeerFolder(
-			folder_id : 67,
+			folder_id : 7,
 		),
 	),
 );

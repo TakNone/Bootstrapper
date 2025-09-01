@@ -1,6 +1,6 @@
 # inputInvoiceBusinessBotTransferStars
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputInvoiceBusinessBotTransferStars#f4997e42 bot:InputUser stars:long = InputInvoice;
@@ -28,6 +28,6 @@ inputInvoiceBusinessBotTransferStars#f4997e42 bot:InputUser stars:long = InputIn
 ```php
 $inputInvoice = $client->inputInvoiceBusinessBotTransferStars(
 	bot : $client->inputUserEmpty(),
-	stars : 2360008629221035255,
+	stars : -367400728485816895,
 );
 ```

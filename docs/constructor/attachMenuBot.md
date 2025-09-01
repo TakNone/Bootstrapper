@@ -2,7 +2,7 @@
 
 **Description** : *Represents a bot mini app that can be launched from the attachment/side menu &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 attachMenuBot#d90d8dfe flags:# inactive:flags.0?true has_settings:flags.1?true request_write_access:flags.2?true show_in_attach_menu:flags.3?true show_in_side_menu:flags.4?true side_menu_disclaimer_needed:flags.5?true bot_id:long short_name:string peer_types:flags.3?Vector<AttachMenuPeerType> icons:Vector<AttachMenuBotIcon> = AttachMenuBot;
@@ -44,8 +44,8 @@ $attachMenuBot = $client->attachMenuBot(
 	show_in_attach_menu : true,
 	show_in_side_menu : true,
 	side_menu_disclaimer_needed : true,
-	bot_id : 5142399176518465011,
-	short_name : 'gI8Jm3rHC4ebfu76',
+	bot_id : 2834751159323121970,
+	short_name : 'eNdzEM2DvlFXcrVq',
 	peer_types : array(
 		$client->attachMenuPeerTypeSameBotPM(),
 		$client->attachMenuPeerTypeBotPM(),
@@ -55,14 +55,14 @@ $attachMenuBot = $client->attachMenuBot(
 	),
 	icons : array(
 		$client->attachMenuBotIcon(
-			name : 'AVpvfrOZRhiN46Kq',
+			name : 'x7PpAfgZmXGHCqQF',
 			icon : $client->documentEmpty(
-				id : -5615293895402548731,
+				id : -6898179329677239533,
 			),
 			colors : array(
 				$client->attachMenuBotIconColor(
-					name : 'pmrsWLbFKf4Mzg9k',
-					color : 35,
+					name : 'Klrq5XOTb7AxZias',
+					color : 70,
 				),
 			),
 		),

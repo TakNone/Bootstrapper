@@ -2,7 +2,7 @@
 
 **Description** : *Mark a specific sponsored message &raquo; as read*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.viewSponsoredMessage#269e3643 random_id:bytes = Bool;
@@ -28,6 +28,6 @@ messages.viewSponsoredMessage#269e3643 random_id:bytes = Bool;
 
 ```php
 $bool = $client->messages->viewSponsoredMessage(
-	random_id : '?v??LiveProtok?0?',
+	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a forward of a story as a message*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 publicForwardMessage#1f2bf4a message:Message = PublicForward;
@@ -29,9 +29,9 @@ publicForwardMessage#1f2bf4a message:Message = PublicForward;
 ```php
 $publicForward = $client->publicForwardMessage(
 	message : $client->messageEmpty(
-		id : 49,
+		id : 67,
 		peer_id : $client->peerUser(
-			user_id : 6251472787832555947,
+			user_id : 5902755354150840100,
 		),
 	),
 );

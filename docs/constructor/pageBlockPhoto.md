@@ -2,7 +2,7 @@
 
 **Description** : *A photo*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 pageBlockPhoto#1759c560 flags:# photo_id:long caption:PageCaption url:flags.0?string webpage_id:flags.0?long = PageBlock;
@@ -32,12 +32,12 @@ pageBlockPhoto#1759c560 flags:# photo_id:long caption:PageCaption url:flags.0?st
 
 ```php
 $pageBlock = $client->pageBlockPhoto(
-	photo_id : -758205330396932660,
+	photo_id : 8267120709710014060,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),
 	),
 	url : 'https://docs.liveproto.dev',
-	webpage_id : 3960721186676069865,
+	webpage_id : 250405740174248308,
 );
 ```

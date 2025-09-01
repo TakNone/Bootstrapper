@@ -2,7 +2,7 @@
 
 **Description** : *Activate or deactivate a purchased fragment\.com username associated to the currently logged\-in user*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.toggleUsername#58d6b376 username:string active:Bool = Bool;
@@ -40,6 +40,6 @@ account.toggleUsername#58d6b376 username:string active:Bool = Bool;
 ```php
 $bool = $client->account->toggleUsername(
 	username : 'TakNone',
-	active : false,
+	active : true,
 );
 ```

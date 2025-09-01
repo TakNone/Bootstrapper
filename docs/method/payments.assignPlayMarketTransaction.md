@@ -2,7 +2,7 @@
 
 **Description** : *Informs server about a purchase made through the Play Store: for official applications only*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.assignPlayMarketTransaction#dffd50d3 receipt:DataJSON purpose:InputStorePaymentPurpose = Updates;
@@ -38,7 +38,7 @@ payments.assignPlayMarketTransaction#dffd50d3 receipt:DataJSON purpose:InputStor
 ```php
 $updates = $client->payments->assignPlayMarketTransaction(
 	receipt : $client->dataJSON(
-		data : 'ncj1YAVMIlGKhW5N',
+		data : 'YeHbi5vEGuS4Py6X',
 	),
 	purpose : $client->inputStorePaymentPremiumSubscription(
 		restore : true,

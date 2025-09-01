@@ -2,7 +2,7 @@
 
 **Description** : *Get app\-specific configuration, see client configuration for more info on the result*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.getAppConfig#61e3f854 hash:int = help.AppConfig;
@@ -28,6 +28,6 @@ help.getAppConfig#61e3f854 hash:int = help.AppConfig;
 
 ```php
 $helpAppConfig = $client->help->getAppConfig(
-	hash : 66,
+	hash : 80,
 );
 ```

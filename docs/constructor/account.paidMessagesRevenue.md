@@ -1,6 +1,6 @@
 # account.paidMessagesRevenue
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.paidMessagesRevenue#1e109708 stars_amount:long = account.PaidMessagesRevenue;
@@ -26,6 +26,6 @@ account.paidMessagesRevenue#1e109708 stars_amount:long = account.PaidMessagesRev
 
 ```php
 $accountPaidMessagesRevenue = $client->account->paidMessagesRevenue(
-	stars_amount : 6157183140428807275,
+	stars_amount : -2006882784100375197,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Progressively encoded photosize*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 photoSizeProgressive#fa3efb95 type:string w:int h:int sizes:Vector<int> = PhotoSize;
@@ -31,9 +31,9 @@ photoSizeProgressive#fa3efb95 type:string w:int h:int sizes:Vector<int> = PhotoS
 
 ```php
 $photoSize = $client->photoSizeProgressive(
-	type : 'EkHGL9nOdQyFrfxN',
-	w : 14,
-	h : 90,
-	sizes : array(91),
+	type : 'w0LIXqTgN67dk15p',
+	w : 93,
+	h : 54,
+	sizes : array(95),
 );
 ```

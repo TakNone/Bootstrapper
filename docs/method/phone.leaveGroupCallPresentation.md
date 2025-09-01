@@ -2,7 +2,7 @@
 
 **Description** : *Stop screen sharing in a group call*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 phone.leaveGroupCallPresentation#1c50d144 call:InputGroupCall = Updates;
@@ -37,8 +37,8 @@ phone.leaveGroupCallPresentation#1c50d144 call:InputGroupCall = Updates;
 ```php
 $updates = $client->phone->leaveGroupCallPresentation(
 	call : $client->inputGroupCall(
-		id : -4236338007992469554,
-		access_hash : -2092337243783903246,
+		id : 6684340928964480496,
+		access_hash : 5889185606685295736,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a giveaway, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageMediaGiveaway#aa073beb flags:# only_new_subscribers:flags.0?true winners_are_visible:flags.2?true channels:Vector<long> countries_iso2:flags.1?Vector<string> prize_description:flags.3?string quantity:int months:flags.4?int stars:flags.5?long until_date:int = MessageMedia;
@@ -39,12 +39,12 @@ messageMediaGiveaway#aa073beb flags:# only_new_subscribers:flags.0?true winners_
 $messageMedia = $client->messageMediaGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	channels : array(5648079172901452904),
-	countries_iso2 : array('3gaCUHwn7EjO6Jb2'),
-	prize_description : 'OfxtzQBmkKVFnybo',
-	quantity : 25,
-	months : 24,
-	stars : 4197290930436769167,
-	until_date : 16,
+	channels : array(-4869889368747312347),
+	countries_iso2 : array('ct8HfECOlLQ34U0Z'),
+	prize_description : 'zgywGN72hjx3o8Wm',
+	quantity : 61,
+	months : 64,
+	stars : -197373422437325768,
+	until_date : 72,
 );
 ```

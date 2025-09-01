@@ -2,7 +2,7 @@
 
 **Description** : *Get stickers attached to a photo or video*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getAttachedStickers#cc5b67cc media:InputStickeredMedia = Vector<StickerSetCovered>;

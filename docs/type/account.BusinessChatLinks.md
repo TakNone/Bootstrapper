@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about business chat deep links &raquo; created by the current account*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.businessChatLinks#ec43a2d1 links:Vector<BusinessChatLink> chats:Vector<Chat> users:Vector<User> = account.BusinessChatLinks;

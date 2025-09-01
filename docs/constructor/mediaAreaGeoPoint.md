@@ -2,7 +2,7 @@
 
 **Description** : *Represents a geolocation tag attached to a story*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 mediaAreaGeoPoint#cad5452d flags:# coordinates:MediaAreaCoordinates geo:GeoPoint address:flags.0?GeoPointAddress = MediaArea;
@@ -32,19 +32,19 @@ mediaAreaGeoPoint#cad5452d flags:# coordinates:MediaAreaCoordinates geo:GeoPoint
 ```php
 $mediaArea = $client->mediaAreaGeoPoint(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 765907.2509765625,
-		y : 1637457.255859375,
-		w : 1380193.6357421875,
-		h : -631665.4453125,
-		rotation : 1043855.376953125,
-		radius : -766625.6328125,
+		x : -743238.7548828125,
+		y : 15129.0595703125,
+		w : 1701181.4970703125,
+		h : 23574.8349609375,
+		rotation : -1283494.3310546875,
+		radius : 1292959.228515625,
 	),
 	geo : $client->geoPointEmpty(),
 	address : $client->geoPointAddress(
-		country_iso2 : '1JOl8Swt2NPDWvQ0',
-		state : 'BKNt0Qq1lWi3rVw2',
-		city : 'yD1XA5YvujTga0zN',
-		street : 'WaonupmXHiLU0IBe',
+		country_iso2 : 'KWtVmiXou2wfgPUZ',
+		state : 'BZ3Abn0SrYQoi5Xh',
+		city : '6blyMEKIiztjvoD5',
+		street : 'PLgOQr1vi5JKjhDp',
 	),
 );
 ```

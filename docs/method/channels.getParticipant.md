@@ -2,7 +2,7 @@
 
 **Description** : *Get info about a channel/supergroup participant*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.getParticipant#a0ab6cc6 channel:InputChannel participant:InputPeer = channels.ChannelParticipant;

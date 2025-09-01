@@ -2,7 +2,7 @@
 
 **Description** : *Get installed mask stickers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getMaskStickers#640f82b8 hash:long = messages.AllStickers;
@@ -28,6 +28,6 @@ messages.getMaskStickers#640f82b8 hash:long = messages.AllStickers;
 
 ```php
 $messagesAllStickers = $client->messages->getMaskStickers(
-	hash : -3808596441658508448,
+	hash : 5114054975922085019,
 );
 ```

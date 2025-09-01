@@ -1,6 +1,6 @@
 # paidReactionPrivacyAnonymous
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 paidReactionPrivacyAnonymous#1f0c1ad9 = PaidReactionPrivacy;

@@ -2,7 +2,7 @@
 
 **Description** : *SHA512 KDF algo*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 securePasswordKdfAlgoSHA512#86471d92 salt:bytes = SecurePasswordKdfAlgo;
@@ -28,6 +28,6 @@ securePasswordKdfAlgoSHA512#86471d92 salt:bytes = SecurePasswordKdfAlgo;
 
 ```php
 $securePasswordKdfAlgo = $client->securePasswordKdfAlgoSHA512(
-	salt : 'J8?0?LiveProto???ؤ',
+	salt : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

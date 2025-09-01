@@ -3,7 +3,7 @@
 **Description** : *Get the telegram IDs of all contacts\.
 Returns an array of Telegram user IDs for all contacts \(0 if a contact does not have an associated Telegram account or have hidden their account using privacy settings\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.getContactIDs#7adc669d hash:long = Vector<int>;
@@ -29,6 +29,6 @@ contacts.getContactIDs#7adc669d hash:long = Vector<int>;
 
 ```php
 $int = $client->contacts->getContactIDs(
-	hash : 5907615227036139060,
+	hash : -4996757037604774060,
 );
 ```

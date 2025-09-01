@@ -2,7 +2,7 @@
 
 **Description** : *Info about an exported chat folder deep link &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 chatlists.exportedChatlistInvite#10e6e3a6 filter:DialogFilter invite:ExportedChatlistInvite = chatlists.ExportedChatlistInvite;
@@ -39,9 +39,9 @@ $chatlistsExportedChatlistInvite = $client->chatlists->exportedChatlistInvite(
 		exclude_read : true,
 		exclude_archived : true,
 		title_noanimate : true,
-		id : 3,
+		id : 46,
 		title : $client->textWithEntities(
-			text : 'mEiHscO9x84ulNUJ',
+			text : 'xkyizajM29OcY6n3',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -66,96 +66,97 @@ $chatlistsExportedChatlistInvite = $client->chatlists->exportedChatlistInvite(
 				$client->messageEntityBlockquote(...),
 			),
 		),
-		emoticon : 'ikqC0BFNzKraXdUW',
-		color : 98,
+		emoticon : 'DxZR0OBtLPgnfh1J',
+		color : 81,
 		pinned_peers : array(
 			$client->inputPeerEmpty(),
 			$client->inputPeerSelf(),
 			$client->inputPeerChat(
-				chat_id : -5891394809679190009,
+				chat_id : 5996310650921969530,
 			),
 			$client->inputPeerUser(
-				user_id : 1529888439770051263,
-				access_hash : -8058337691811232649,
+				user_id : 408851502881661487,
+				access_hash : -7212269614044288634,
 			),
 			$client->inputPeerChannel(
-				channel_id : 613645382595767841,
-				access_hash : 6094908985383532333,
+				channel_id : 9034170574853732399,
+				access_hash : -1647342085051364930,
 			),
 			$client->inputPeerUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 82,
-				user_id : -1557173074881839259,
+				msg_id : 72,
+				user_id : 4614981452050461627,
 			),
 			$client->inputPeerChannelFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 30,
-				channel_id : 8101316235074317696,
+				msg_id : 48,
+				channel_id : 1174311084244406982,
 			),
 		),
 		include_peers : array(
 			$client->inputPeerEmpty(),
 			$client->inputPeerSelf(),
 			$client->inputPeerChat(
-				chat_id : -463631829939424537,
+				chat_id : -8535090772079628473,
 			),
 			$client->inputPeerUser(
-				user_id : 1511872205615886183,
-				access_hash : -2092750223845184283,
+				user_id : 7172468886183401323,
+				access_hash : -8823701254651161665,
 			),
 			$client->inputPeerChannel(
-				channel_id : -9137272838259064282,
-				access_hash : 5652809244926214249,
+				channel_id : 3942234337461389126,
+				access_hash : 4192515516954048587,
 			),
 			$client->inputPeerUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 41,
-				user_id : -5833518789774827123,
+				msg_id : 46,
+				user_id : 2851193001904250629,
 			),
 			$client->inputPeerChannelFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 74,
-				channel_id : 266642851171789681,
+				msg_id : 71,
+				channel_id : 1761862818504879337,
 			),
 		),
 		exclude_peers : array(
 			$client->inputPeerEmpty(),
 			$client->inputPeerSelf(),
 			$client->inputPeerChat(
-				chat_id : -5803843741964508357,
+				chat_id : -4319656368182681314,
 			),
 			$client->inputPeerUser(
-				user_id : -9188222912311789559,
-				access_hash : 5733936443445934160,
+				user_id : 4173791392485009912,
+				access_hash : -4027737579314267003,
 			),
 			$client->inputPeerChannel(
-				channel_id : -8921706125417888983,
-				access_hash : 6960944903825037802,
+				channel_id : -260227033018940409,
+				access_hash : 1341168217894371426,
 			),
 			$client->inputPeerUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 60,
-				user_id : -7511943380451687579,
+				msg_id : 23,
+				user_id : 3909970983120494081,
 			),
 			$client->inputPeerChannelFromMessage(
 				peer : $client->inputPeerEmpty(...),
 				msg_id : 60,
-				channel_id : 3060626157062227785,
+				channel_id : 6771605087927859137,
 			),
 		),
 	),
 	invite : $client->exportedChatlistInvite(
-		title : 'uFdc1YQZy0MeDICv',
+		revoked : true,
+		title : 'dAP6sZeSvkwYGIqT',
 		url : 'https://docs.liveproto.dev',
 		peers : array(
 			$client->peerUser(
-				user_id : 3903293780590969345,
+				user_id : -7618306362373825477,
 			),
 			$client->peerChat(
-				chat_id : -1552131744415728830,
+				chat_id : 4824255920614205079,
 			),
 			$client->peerChannel(
-				channel_id : -506332885459060849,
+				channel_id : -2277119878811402048,
 			),
 		),
 	),

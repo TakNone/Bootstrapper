@@ -2,7 +2,7 @@
 
 **Description** : *Returns fetch the full list of custom emoji IDs &raquo; that cannot be used in channel emoji statuses &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getChannelRestrictedStatusEmojis#35a9e0d5 hash:long = EmojiList;
@@ -28,6 +28,6 @@ account.getChannelRestrictedStatusEmojis#35a9e0d5 hash:long = EmojiList;
 
 ```php
 $emojiList = $client->account->getChannelRestrictedStatusEmojis(
-	hash : 1022016377956575527,
+	hash : -2855129012210129007,
 );
 ```

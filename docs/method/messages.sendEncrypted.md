@@ -2,7 +2,7 @@
 
 **Description** : *Sends a text message to a secret chat*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.sendEncrypted#44fa7a15 flags:# silent:flags.0?true peer:InputEncryptedChat random_id:long data:bytes = messages.SentEncryptedMessage;
@@ -47,10 +47,10 @@ messages.sendEncrypted#44fa7a15 flags:# silent:flags.0?true peer:InputEncryptedC
 $messagesSentEncryptedMessage = $client->messages->sendEncrypted(
 	silent : true,
 	peer : $client->inputEncryptedChat(
-		chat_id : 79,
-		access_hash : -4190599530675093774,
+		chat_id : 100,
+		access_hash : 4966118929666876172,
 	),
-	random_id : 2783326790831717348,
-	data : 'q???uLiveProto??eP',
+	random_id : -3949225228417794667,
+	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

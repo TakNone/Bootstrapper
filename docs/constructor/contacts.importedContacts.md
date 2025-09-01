@@ -2,7 +2,7 @@
 
 **Description** : *Info on successfully imported contacts*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.importedContacts#77d01c3b imported:Vector<ImportedContact> popular_invites:Vector<PopularContact> retry_contacts:Vector<long> users:Vector<User> = contacts.ImportedContacts;
@@ -33,20 +33,20 @@ contacts.importedContacts#77d01c3b imported:Vector<ImportedContact> popular_invi
 $contactsImportedContacts = $client->contacts->importedContacts(
 	imported : array(
 		$client->importedContact(
-			user_id : 6876579679947278329,
-			client_id : -4812444662181472643,
+			user_id : 7292880710665584519,
+			client_id : 2218299839586018382,
 		),
 	),
 	popular_invites : array(
 		$client->popularContact(
-			client_id : 6045309133712038259,
-			importers : 67,
+			client_id : 8340182920835038394,
+			importers : 29,
 		),
 	),
-	retry_contacts : array(-5818886381978098999),
+	retry_contacts : array(-8399177639104649568),
 	users : array(
 		$client->userEmpty(
-			id : -1010296435303275774,
+			id : -4806829106018883339,
 		),
 		$client->user(
 			self : true,
@@ -74,24 +74,24 @@ $contactsImportedContacts = $client->contacts->importedContacts(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 1869285405678340635,
-			access_hash : -538720151252159036,
+			id : -2353756409366972748,
+			access_hash : -7011643840923180200,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 7,
+			bot_info_version : 75,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'EoYqMzOtRDUHC7WI',
-					reason : 'uCj0l8PJL6bK2hd9',
-					text : '2Qh8uDECjxN9rXld',
+					platform : 'BMkgShbEVspHdZYi',
+					reason : 'OAmTcEJpIsbGftrq',
+					text : '2KNcTbUumePpsCni',
 				),
 			),
-			bot_inline_placeholder : 'UYiFHqZbvEAJrWIj',
-			lang_code : 'nwRyoXkHr13OzG06',
+			bot_inline_placeholder : 'OIY3V8a5gFXK4uPA',
+			lang_code : 'voqw0KG5MgNBjn49',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -100,18 +100,18 @@ $contactsImportedContacts = $client->contacts->importedContacts(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 10,
+			stories_max_id : 81,
 			color : $client->peerColor(
-				color : 4,
-				background_emoji_id : -3022561686905176386,
+				color : 68,
+				background_emoji_id : -8674865901492490098,
 			),
 			profile_color : $client->peerColor(
-				color : 9,
-				background_emoji_id : 4013352016457503920,
+				color : 54,
+				background_emoji_id : -5056293698166213864,
 			),
-			bot_active_users : 17,
-			bot_verification_icon : -323000205898969053,
-			send_paid_messages_stars : 4917092769269335024,
+			bot_active_users : 93,
+			bot_verification_icon : -389686551161748004,
+			send_paid_messages_stars : -1522901409350925239,
 		),
 	),
 );

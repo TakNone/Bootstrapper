@@ -2,7 +2,7 @@
 
 **Description** : *Represents a paid Telegram Star reaction &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 reactionPaid#523da4eb = Reaction;

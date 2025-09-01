@@ -2,7 +2,7 @@
 
 **Description** : *Obtain available message reactions &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getAvailableReactions#18dea0ac hash:int = messages.AvailableReactions;
@@ -28,6 +28,6 @@ messages.getAvailableReactions#18dea0ac hash:int = messages.AvailableReactions;
 
 ```php
 $messagesAvailableReactions = $client->messages->getAvailableReactions(
-	hash : 36,
+	hash : 95,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Channel signatures were enabled/disabled*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channelAdminLogEventActionToggleSignatures#26ae0971 new_value:Bool = ChannelAdminLogEventAction;

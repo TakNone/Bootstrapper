@@ -2,7 +2,7 @@
 
 **Description** : *No new favorited stickers were found*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.favedStickersNotModified#9e8fa6d3 = messages.FavedStickers;

@@ -2,7 +2,7 @@
 
 **Description** : *Reaction and view counters for a story*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.storyViewsList#59d78fc5 flags:# count:int views_count:int forwards_count:int reactions_count:int views:Vector<StoryView> chats:Vector<Chat> users:Vector<User> next_offset:flags.0?string = stories.StoryViewsList;
@@ -36,23 +36,23 @@ stories.storyViewsList#59d78fc5 flags:# count:int views_count:int forwards_count
 
 ```php
 $storiesStoryViewsList = $client->stories->storyViewsList(
-	count : 58,
-	views_count : 42,
-	forwards_count : 36,
-	reactions_count : 69,
+	count : 78,
+	views_count : 47,
+	forwards_count : 96,
+	reactions_count : 12,
 	views : array(
 		$client->storyView(
 			blocked : true,
 			blocked_my_stories_from : true,
-			user_id : 9146980158801951499,
-			date : 81,
+			user_id : 963627116298073786,
+			date : 61,
 			reaction : $client->reactionEmpty(),
 		),
 		$client->storyViewPublicForward(
 			blocked : true,
 			blocked_my_stories_from : true,
 			message : $client->messageEmpty(
-				id : 11,
+				id : 6,
 				peer_id : $client->peerUser(...),
 			),
 		),
@@ -60,30 +60,31 @@ $storiesStoryViewsList = $client->stories->storyViewsList(
 			blocked : true,
 			blocked_my_stories_from : true,
 			peer_id : $client->peerUser(
-				user_id : 3318327293793344306,
+				user_id : -8040254473359434068,
 			),
 			story : $client->storyItemDeleted(
-				id : 18,
+				id : 54,
 			),
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : -4408296085976066638,
+			id : 3206896947865614374,
 		),
 		$client->chat(
 			creator : true,
+			kicked : true,
 			left : true,
 			deactivated : true,
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -8504625572922085363,
-			title : 'gEUFbLepxAI1KHDj',
+			id : 9022886635807522239,
+			title : 'mpwVeL9YvFQU3CEJ',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 95,
-			date : 92,
-			version : 34,
+			participants_count : 43,
+			date : 86,
+			version : 37,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -124,12 +125,12 @@ $storiesStoryViewsList = $client->stories->storyViewsList(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 30,
+				until_date : 75,
 			),
 		),
 		$client->chatForbidden(
-			id : -2573050070646167516,
-			title : 'PnXx2bFGNU8lTv4g',
+			id : -2749116256639604121,
+			title : 'BdLJGaONmvyI14kE',
 		),
 		$client->channel(
 			creator : true,
@@ -160,17 +161,17 @@ $storiesStoryViewsList = $client->stories->storyViewsList(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 3598607376203038104,
-			access_hash : -3250855727034740382,
-			title : 'zvSByUjM6egaZkmG',
+			id : -599784197175039096,
+			access_hash : 8984125023827219043,
+			title : 'CdWFDJweLHY3G2yv',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 64,
+			date : 56,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '65hzai1J8Qq2WBIr',
-					reason : 'GzqRawl3BrXyKQsP',
-					text : 'GSA08beYvQXjo6iy',
+					platform : 'LvxhUXMmJ1r7w8FK',
+					reason : 'MKcwiZotNlqaSbWR',
+					text : 'PToixF6OlQVSa1jz',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -212,7 +213,7 @@ $storiesStoryViewsList = $client->stories->storyViewsList(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 72,
+				until_date : 7,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -235,9 +236,9 @@ $storiesStoryViewsList = $client->stories->storyViewsList(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 30,
+				until_date : 15,
 			),
-			participants_count : 57,
+			participants_count : 42,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -245,34 +246,34 @@ $storiesStoryViewsList = $client->stories->storyViewsList(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 54,
+			stories_max_id : 36,
 			color : $client->peerColor(
-				color : 55,
-				background_emoji_id : 1494610954490169730,
+				color : 65,
+				background_emoji_id : -6342994230782700169,
 			),
 			profile_color : $client->peerColor(
-				color : 63,
-				background_emoji_id : -1886724460534952743,
+				color : 83,
+				background_emoji_id : -3584349206026783341,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 99,
-			subscription_until_date : 61,
-			bot_verification_icon : -4639994720626699645,
-			send_paid_messages_stars : -4284608119274493290,
-			linked_monoforum_id : -2347124388507846824,
+			level : 2,
+			subscription_until_date : 82,
+			bot_verification_icon : 1004129805902749405,
+			send_paid_messages_stars : 5025086880782236597,
+			linked_monoforum_id : -3659298068325615107,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -6879867438469703271,
-			access_hash : -8049848562858009746,
-			title : 'ptxw0z9QSkKDhMJ4',
-			until_date : 36,
+			id : 8567246294483735882,
+			access_hash : -9201849571791642013,
+			title : 'irF74895huPbqAaU',
+			until_date : 21,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 2585642611384189162,
+			id : 8521237289079897395,
 		),
 		$client->user(
 			self : true,
@@ -300,24 +301,24 @@ $storiesStoryViewsList = $client->stories->storyViewsList(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 3464383581193177438,
-			access_hash : -512019027552848281,
+			id : -1329613277926906555,
+			access_hash : 5856676174847585864,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 95,
+			bot_info_version : 10,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'hDNBcQL8EgdP4po3',
-					reason : '7r2Tk6HDmQwePXys',
-					text : 'O0MIFn9uqydRwV2B',
+					platform : 'T0AcrSqJYeZylbUR',
+					reason : 'MPA7lfBV8F5XIrRS',
+					text : 'kHt574fDJP3MwiET',
 				),
 			),
-			bot_inline_placeholder : '1ikHGXKgqDmbz4e6',
-			lang_code : '0u5cInC1LKHhAW2G',
+			bot_inline_placeholder : 'lbPRZronUgw59K1f',
+			lang_code : '5aDU6GuBACvLTgSn',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -326,20 +327,20 @@ $storiesStoryViewsList = $client->stories->storyViewsList(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 71,
+			stories_max_id : 59,
 			color : $client->peerColor(
-				color : 60,
-				background_emoji_id : -3330758630318974371,
+				color : 83,
+				background_emoji_id : 7163409332967765543,
 			),
 			profile_color : $client->peerColor(
-				color : 68,
-				background_emoji_id : 3966510664254193906,
+				color : 50,
+				background_emoji_id : -6148017733773403382,
 			),
-			bot_active_users : 68,
-			bot_verification_icon : 6267540837320255706,
-			send_paid_messages_stars : -4925683386273890963,
+			bot_active_users : 53,
+			bot_verification_icon : -3769949835252741893,
+			send_paid_messages_stars : 2835015967779591875,
 		),
 	),
-	next_offset : 'mesyx3A9D6t7452a',
+	next_offset : 'bAjnFNxBULgJaPOs',
 );
 ```

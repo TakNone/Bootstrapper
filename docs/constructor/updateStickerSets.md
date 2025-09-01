@@ -2,7 +2,7 @@
 
 **Description** : *Installed stickersets have changed, the client should refetch them as described in the docs*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateStickerSets#31c24808 flags:# masks:flags.0?true emojis:flags.1?true = Update;

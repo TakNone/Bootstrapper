@@ -2,7 +2,7 @@
 
 **Description** : *Top peers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.topPeersNotModified#de266ef5 = contacts.TopPeers;

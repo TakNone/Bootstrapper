@@ -1,6 +1,6 @@
 # starGiftAttributeIdBackdrop
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 starGiftAttributeIdBackdrop#1f01c757 backdrop_id:int = StarGiftAttributeId;
@@ -26,6 +26,6 @@ starGiftAttributeIdBackdrop#1f01c757 backdrop_id:int = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdBackdrop(
-	backdrop_id : 70,
+	backdrop_id : 9,
 );
 ```

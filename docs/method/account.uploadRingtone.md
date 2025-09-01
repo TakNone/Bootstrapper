@@ -2,7 +2,7 @@
 
 **Description** : *Upload notification sound, use account\.saveRingtone to convert it and add it to the list of saved notification sounds*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.uploadRingtone#831a83a2 file:InputFile file_name:string mime_type:string = Document;
@@ -39,12 +39,12 @@ account.uploadRingtone#831a83a2 file:InputFile file_name:string mime_type:string
 ```php
 $document = $client->account->uploadRingtone(
 	file : $client->inputFile(
-		id : 6047312234551623637,
-		parts : 39,
-		name : 'AR6pN1075jhnfHW4',
+		id : 335524341101246515,
+		parts : 36,
+		name : 'acmw7xyWtA6RJT9z',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	file_name : 'NLd8XAFzW9Zkfl2g',
-	mime_type : 'yjCZdRt5izXrU6P8',
+	file_name : 'Pcw4TSN9ARkG0nFl',
+	mime_type : 'klv36OXdzyp7WuIo',
 );
 ```

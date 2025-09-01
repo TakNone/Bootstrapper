@@ -2,7 +2,7 @@
 
 **Description** : *Rich text*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 textEmpty#dc3d824f = RichText;

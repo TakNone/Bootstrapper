@@ -2,7 +2,7 @@
 
 **Description** : *Hide or display the participants list in a supergroup*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.toggleParticipantsHidden#6a6e7854 channel:InputChannel enabled:Bool = Updates;

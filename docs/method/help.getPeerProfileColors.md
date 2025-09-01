@@ -2,7 +2,7 @@
 
 **Description** : *Get the set of accent color palettes &raquo; that can be used in profile page backgrounds*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.getPeerProfileColors#abcfa9fd hash:int = help.PeerColors;
@@ -28,6 +28,6 @@ help.getPeerProfileColors#abcfa9fd hash:int = help.PeerColors;
 
 ```php
 $helpPeerColors = $client->help->getPeerProfileColors(
-	hash : 44,
+	hash : 87,
 );
 ```

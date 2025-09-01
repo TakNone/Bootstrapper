@@ -2,7 +2,7 @@
 
 **Description** : *Returns current configuration, including data center configuration*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.getConfig#c4f9186b = Config;

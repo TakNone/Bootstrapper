@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing a spoiler*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageEntitySpoiler#32ca960f offset:int length:int = MessageEntity;
@@ -29,7 +29,7 @@ messageEntitySpoiler#32ca960f offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntitySpoiler(
-	offset : 79,
-	length : 12,
+	offset : 31,
+	length : 45,
 );
 ```

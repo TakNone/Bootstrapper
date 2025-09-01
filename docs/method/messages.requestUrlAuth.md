@@ -2,7 +2,7 @@
 
 **Description** : *Get more info about a Seamless Telegram Login authorization request, for more info click here &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.requestUrlAuth#198fb446 flags:# peer:flags.1?InputPeer msg_id:flags.1?int button_id:flags.1?int url:flags.2?string = UrlAuthResult;
@@ -33,8 +33,8 @@ messages.requestUrlAuth#198fb446 flags:# peer:flags.1?InputPeer msg_id:flags.1?i
 ```php
 $urlAuthResult = $client->messages->requestUrlAuth(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 61,
-	button_id : 24,
+	msg_id : 14,
+	button_id : 15,
 	url : 'https://docs.liveproto.dev',
 );
 ```

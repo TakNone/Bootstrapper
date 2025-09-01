@@ -2,7 +2,7 @@
 
 **Description** : *Get the set of accent color palettes &raquo; that can be used for message accents*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.getPeerColors#da80f42f hash:int = help.PeerColors;
@@ -28,6 +28,6 @@ help.getPeerColors#da80f42f hash:int = help.PeerColors;
 
 ```php
 $helpPeerColors = $client->help->getPeerColors(
-	hash : 86,
+	hash : 76,
 );
 ```

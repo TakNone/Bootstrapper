@@ -2,7 +2,7 @@
 
 **Description** : *Get saved Telegram Passport document, for more info see the passport docs &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getSecureValue#73665bc2 types:Vector<SecureValueType> = Vector<SecureValue>;

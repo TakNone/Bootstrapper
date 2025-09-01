@@ -1,6 +1,6 @@
 # botVerification
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 botVerification#f93cd45c bot_id:long icon:long description:string = BotVerification;
@@ -28,8 +28,8 @@ botVerification#f93cd45c bot_id:long icon:long description:string = BotVerificat
 
 ```php
 $botVerification = $client->botVerification(
-	bot_id : -5249429185158028800,
-	icon : 6507923314317455977,
-	description : 'NFXLinSxzPd7QrIM',
+	bot_id : 3116234907416706349,
+	icon : 2373750307102805754,
+	description : 's57HUm8yJpbGTQ1M',
 );
 ```

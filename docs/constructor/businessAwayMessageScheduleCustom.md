@@ -2,7 +2,7 @@
 
 **Description** : *Send Telegram Business away messages to users writing to us in private in the specified time span*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 businessAwayMessageScheduleCustom#cc4d9ecc start_date:int end_date:int = BusinessAwayMessageSchedule;
@@ -29,7 +29,7 @@ businessAwayMessageScheduleCustom#cc4d9ecc start_date:int end_date:int = Busines
 
 ```php
 $businessAwayMessageSchedule = $client->businessAwayMessageScheduleCustom(
-	start_date : 32,
-	end_date : 83,
+	start_date : 61,
+	end_date : 95,
 );
 ```

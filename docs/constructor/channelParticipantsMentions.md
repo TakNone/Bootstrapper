@@ -3,7 +3,7 @@
 **Description** : *This filter is used when looking for supergroup members to mention\.
 This filter will automatically remove anonymous admins, and return even non\-participant users that replied to a specific thread through the comment section of a channel*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channelParticipantsMentions#e04b5ceb flags:# q:flags.0?string top_msg_id:flags.1?int = ChannelParticipantsFilter;
@@ -31,7 +31,7 @@ channelParticipantsMentions#e04b5ceb flags:# q:flags.0?string top_msg_id:flags.1
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsMentions(
-	q : 'Cgo7z6L89p3SnlRG',
-	top_msg_id : 67,
+	q : 'MQF0mswEtnR9hdpi',
+	top_msg_id : 28,
 );
 ```

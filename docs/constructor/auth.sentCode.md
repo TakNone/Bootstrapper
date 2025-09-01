@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a sent verification code*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.sentCode#5e002502 flags:# type:auth.SentCodeType phone_code_hash:string next_type:flags.1?auth.CodeType timeout:flags.2?int = auth.SentCode;
@@ -33,10 +33,10 @@ auth.sentCode#5e002502 flags:# type:auth.SentCodeType phone_code_hash:string nex
 ```php
 $authSentCode = $client->auth->sentCode(
 	type : $client->auth->sentCodeTypeApp(
-		length : 68,
+		length : 14,
 	),
 	phone_code_hash : '+1234567890',
 	next_type : $client->auth->codeTypeSms(),
-	timeout : 46,
+	timeout : 53,
 );
 ```

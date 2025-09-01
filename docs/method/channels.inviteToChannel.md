@@ -2,7 +2,7 @@
 
 **Description** : *Invite users to a channel/supergroup*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.inviteToChannel#c9e33d54 channel:InputChannel users:Vector<InputUser> = messages.InvitedUsers;
@@ -60,13 +60,13 @@ $messagesInvitedUsers = $client->channels->inviteToChannel(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -4386050911422595789,
-			access_hash : -5878521379134585091,
+			user_id : 7522525086122055285,
+			access_hash : -837640284316699621,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 7,
-			user_id : -7038925501119810867,
+			msg_id : 46,
+			user_id : -1234913755762210173,
 		),
 	),
 );

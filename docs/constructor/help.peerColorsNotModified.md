@@ -2,7 +2,7 @@
 
 **Description** : *The list of color palettes has not changed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.peerColorsNotModified#2ba1f5ce = help.PeerColors;

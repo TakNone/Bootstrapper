@@ -2,7 +2,7 @@
 
 **Description** : *Returns saved messages &raquo; forwarded from a specific peer*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getSavedHistory#998ab009 flags:# parent_peer:flags.0?InputPeer peer:InputPeer offset_id:int offset_date:int add_offset:int limit:int max_id:int min_id:int hash:long = messages.Messages;
@@ -47,12 +47,12 @@ messages.getSavedHistory#998ab009 flags:# parent_peer:flags.0?InputPeer peer:Inp
 $messagesMessages = $client->messages->getSavedHistory(
 	parent_peer : $client->inputPeerEmpty(),
 	peer : $client->inputPeerEmpty(),
-	offset_id : 74,
-	offset_date : 79,
-	add_offset : 9,
-	limit : 49,
-	max_id : 1,
-	min_id : 89,
-	hash : -8901255617522992739,
+	offset_id : 36,
+	offset_date : 55,
+	add_offset : 22,
+	limit : 87,
+	max_id : 26,
+	min_id : 75,
+	hash : -9136562684376350865,
 );
 ```

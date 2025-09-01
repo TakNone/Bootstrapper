@@ -2,7 +2,7 @@
 
 **Description** : *Mark message reactions &raquo; as read*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.readReactions#9ec44f93 flags:# peer:InputPeer top_msg_id:flags.0?int saved_peer_id:flags.1?InputPeer = messages.AffectedHistory;
@@ -40,7 +40,7 @@ messages.readReactions#9ec44f93 flags:# peer:InputPeer top_msg_id:flags.0?int sa
 ```php
 $messagesAffectedHistory = $client->messages->readReactions(
 	peer : $client->inputPeerEmpty(),
-	top_msg_id : 24,
+	top_msg_id : 51,
 	saved_peer_id : $client->inputPeerEmpty(),
 );
 ```

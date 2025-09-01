@@ -1,6 +1,6 @@
 # payments.reorderStarGiftCollections
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.reorderStarGiftCollections#c32af4cc peer:InputPeer order:Vector<int> = Bool;
@@ -28,6 +28,6 @@ payments.reorderStarGiftCollections#c32af4cc peer:InputPeer order:Vector<int> = 
 ```php
 $bool = $client->payments->reorderStarGiftCollections(
 	peer : $client->inputPeerEmpty(),
-	order : array(91),
+	order : array(69),
 );
 ```

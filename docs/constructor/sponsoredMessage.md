@@ -2,7 +2,7 @@
 
 **Description** : *A sponsored message*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 sponsoredMessage#7dbf8673 flags:# recommended:flags.5?true can_report:flags.12?true random_id:bytes url:string title:string message:string entities:flags.1?Vector<MessageEntity> photo:flags.6?Photo media:flags.14?MessageMedia color:flags.13?PeerColor button_text:string sponsor_info:flags.7?string additional_info:flags.8?string min_display_duration:flags.15?int max_display_duration:flags.15?int = SponsoredMessage;
@@ -45,114 +45,114 @@ sponsoredMessage#7dbf8673 flags:# recommended:flags.5?true can_report:flags.12?t
 $sponsoredMessage = $client->sponsoredMessage(
 	recommended : true,
 	can_report : true,
-	random_id : 'ў???LiveProto??3}',
+	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	url : 'https://docs.liveproto.dev',
-	title : 'SuYcvEMQOGZgmR95',
-	message : 'lJkBGCyYwn7R9UDi',
+	title : 'tlc6A2uexganKz8j',
+	message : 'rthcz68yAC1D05qP',
 	entities : array(
 		$client->messageEntityUnknown(
-			offset : 29,
-			length : 33,
+			offset : 8,
+			length : 81,
 		),
 		$client->messageEntityMention(
-			offset : 55,
-			length : 40,
+			offset : 94,
+			length : 68,
 		),
 		$client->messageEntityHashtag(
-			offset : 16,
-			length : 39,
+			offset : 34,
+			length : 100,
 		),
 		$client->messageEntityBotCommand(
-			offset : 77,
-			length : 46,
+			offset : 70,
+			length : 29,
 		),
 		$client->messageEntityUrl(
-			offset : 21,
-			length : 74,
+			offset : 60,
+			length : 13,
 		),
 		$client->messageEntityEmail(
-			offset : 44,
-			length : 41,
+			offset : 1,
+			length : 71,
 		),
 		$client->messageEntityBold(
-			offset : 19,
-			length : 31,
+			offset : 75,
+			length : 67,
 		),
 		$client->messageEntityItalic(
-			offset : 42,
-			length : 3,
+			offset : 0,
+			length : 62,
 		),
 		$client->messageEntityCode(
-			offset : 38,
-			length : 26,
+			offset : 18,
+			length : 18,
 		),
 		$client->messageEntityPre(
-			offset : 55,
-			length : 9,
-			language : 'AEhZjQN2a6yreLnM',
+			offset : 6,
+			length : 64,
+			language : 'S5CAJ7tRBrnMqjIK',
 		),
 		$client->messageEntityTextUrl(
-			offset : 22,
-			length : 100,
+			offset : 29,
+			length : 3,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
-			offset : 73,
-			length : 35,
-			user_id : -3860301695525673686,
+			offset : 33,
+			length : 61,
+			user_id : 113871704412361819,
 		),
 		$client->inputMessageEntityMentionName(
-			offset : 24,
-			length : 78,
+			offset : 73,
+			length : 8,
 			user_id : $client->inputUserEmpty(),
 		),
 		$client->messageEntityPhone(
-			offset : 42,
-			length : 84,
+			offset : 22,
+			length : 66,
 		),
 		$client->messageEntityCashtag(
-			offset : 97,
-			length : 17,
+			offset : 27,
+			length : 97,
 		),
 		$client->messageEntityUnderline(
-			offset : 86,
-			length : 27,
+			offset : 62,
+			length : 31,
 		),
 		$client->messageEntityStrike(
-			offset : 91,
-			length : 64,
+			offset : 79,
+			length : 13,
 		),
 		$client->messageEntityBankCard(
-			offset : 22,
-			length : 76,
+			offset : 79,
+			length : 66,
 		),
 		$client->messageEntitySpoiler(
-			offset : 39,
-			length : 49,
+			offset : 58,
+			length : 76,
 		),
 		$client->messageEntityCustomEmoji(
-			offset : 14,
-			length : 77,
-			document_id : -7699698213546113645,
+			offset : 53,
+			length : 76,
+			document_id : 4265152683380505424,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
-			offset : 74,
-			length : 83,
+			offset : 34,
+			length : 8,
 		),
 	),
 	photo : $client->photoEmpty(
-		id : 1201790328161655985,
+		id : 6092678042281732638,
 	),
 	media : $client->messageMediaEmpty(),
 	color : $client->peerColor(
-		color : 0,
-		background_emoji_id : 2072407174258576351,
+		color : 81,
+		background_emoji_id : 8196490575734382182,
 	),
-	button_text : '6Ea0MAx2nlQ7pzOd',
-	sponsor_info : 'LgqNyUPz4mjB2c5Y',
-	additional_info : '2ISv5MTBGfRwL1sQ',
-	min_display_duration : 98,
-	max_display_duration : 75,
+	button_text : 'bGm8L5ONl2QxSoX6',
+	sponsor_info : '5cptdL0JflqUK9Hj',
+	additional_info : 'ZIlXjoPtOEkGqJaD',
+	min_display_duration : 0,
+	max_display_duration : 31,
 );
 ```

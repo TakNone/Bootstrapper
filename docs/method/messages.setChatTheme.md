@@ -2,10 +2,10 @@
 
 **Description** : *Change the chat theme of a certain chat*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
-messages.setChatTheme#e63be13f peer:InputPeer emoticon:string = Updates;
+messages.setChatTheme#81202c9 peer:InputPeer theme:InputChatTheme = Updates;
 ```
 
 ---
@@ -15,7 +15,7 @@ messages.setChatTheme#e63be13f peer:InputPeer emoticon:string = Updates;
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Private chat where to change theme |
-| <mark>emoticon</mark> | [`string`](type/string) | Emoji, identifying a specific chat theme; a list of chat themes can be fetched using account.getChatThemes |
+| <mark>theme</mark> | [`InputChatTheme`](type/InputChatTheme) | NOTHING |
 
 ---
 
@@ -40,6 +40,6 @@ messages.setChatTheme#e63be13f peer:InputPeer emoticon:string = Updates;
 ```php
 $updates = $client->messages->setChatTheme(
 	peer : $client->inputPeerEmpty(),
-	emoticon : 'gukX1UflxTSdHVry',
+	theme : $client->inputChatThemeEmpty(),
 );
 ```

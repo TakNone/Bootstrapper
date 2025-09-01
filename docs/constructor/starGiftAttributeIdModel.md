@@ -1,6 +1,6 @@
 # starGiftAttributeIdModel
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 starGiftAttributeIdModel#48aaae3c document_id:long = StarGiftAttributeId;
@@ -26,6 +26,6 @@ starGiftAttributeIdModel#48aaae3c document_id:long = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdModel(
-	document_id : 4160942608756450020,
+	document_id : -9178108523410292238,
 );
 ```

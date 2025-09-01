@@ -2,7 +2,7 @@
 
 **Description** : *Invoice*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 invoice#49ee584 flags:# test:flags.0?true name_requested:flags.1?true phone_requested:flags.2?true email_requested:flags.3?true shipping_address_requested:flags.4?true flexible:flags.5?true phone_to_provider:flags.6?true email_to_provider:flags.7?true recurring:flags.9?true currency:string prices:Vector<LabeledPrice> max_tip_amount:flags.8?long suggested_tip_amounts:flags.8?Vector<long> terms_url:flags.10?string subscription_period:flags.11?int = Invoice;
@@ -52,16 +52,16 @@ $invoice = $client->invoice(
 	phone_to_provider : true,
 	email_to_provider : true,
 	recurring : true,
-	currency : 'xWSD1snK6tuplJBP',
+	currency : 'epJlaOS4FMs1wgbc',
 	prices : array(
 		$client->labeledPrice(
-			label : 'DOZVKEFg1lPwbHU2',
-			amount : 2759125849705124454,
+			label : 'hQ7fs5TLCo1BItzG',
+			amount : 6533614119134924566,
 		),
 	),
-	max_tip_amount : 1158987268644838203,
-	suggested_tip_amounts : array(1742068385833147402),
+	max_tip_amount : -89531979662089900,
+	suggested_tip_amounts : array(6986340520999200902),
 	terms_url : 'https://docs.liveproto.dev',
-	subscription_period : 45,
+	subscription_period : 64,
 );
 ```

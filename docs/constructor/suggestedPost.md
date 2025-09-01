@@ -1,6 +1,6 @@
 # suggestedPost
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 suggestedPost#e8e37e5 flags:# accepted:flags.1?true rejected:flags.2?true price:flags.3?StarsAmount schedule_date:flags.0?int = SuggestedPost;
@@ -33,9 +33,9 @@ $suggestedPost = $client->suggestedPost(
 	accepted : true,
 	rejected : true,
 	price : $client->starsAmount(
-		amount : -4997497103981268672,
-		nanos : 93,
+		amount : -4325081523916923624,
+		nanos : 36,
 	),
-	schedule_date : 35,
+	schedule_date : 51,
 );
 ```

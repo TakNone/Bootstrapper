@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about a forum topic*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 forumTopicDeleted#23f109b id:int = ForumTopic;

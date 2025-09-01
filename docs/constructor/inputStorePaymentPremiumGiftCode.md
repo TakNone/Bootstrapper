@@ -2,7 +2,7 @@
 
 **Description** : *Used to gift Telegram Premium subscriptions only to some specific subscribers of a channel/supergroup or to some of our contacts, see here &raquo; for more info on giveaways and gifts*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputStorePaymentPremiumGiftCode#fb790393 flags:# users:Vector<InputUser> boost_peer:flags.0?InputPeer currency:string amount:long message:flags.1?TextWithEntities = InputStorePaymentPurpose;
@@ -37,110 +37,110 @@ $inputStorePaymentPurpose = $client->inputStorePaymentPremiumGiftCode(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -4032275036561890388,
-			access_hash : 1763672397424321583,
+			user_id : -5165535385820956010,
+			access_hash : 7332000673160452781,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 75,
-			user_id : -1847649336183130564,
+			msg_id : 47,
+			user_id : -403404495778054873,
 		),
 	),
 	boost_peer : $client->inputPeerEmpty(),
-	currency : 'JrySQXuogLITRG5Z',
-	amount : 1908791333476041606,
+	currency : 'l3X8QO6PTIKgcrwL',
+	amount : -3389746714780720383,
 	message : $client->textWithEntities(
-		text : 'dnaEbpZvUMy6N4Pi',
+		text : 'V4CE5cvR6hAtuezi',
 		entities : array(
 			$client->messageEntityUnknown(
-				offset : 19,
-				length : 4,
+				offset : 78,
+				length : 91,
 			),
 			$client->messageEntityMention(
-				offset : 87,
-				length : 43,
+				offset : 34,
+				length : 93,
 			),
 			$client->messageEntityHashtag(
-				offset : 10,
-				length : 86,
+				offset : 78,
+				length : 90,
 			),
 			$client->messageEntityBotCommand(
-				offset : 33,
-				length : 20,
+				offset : 76,
+				length : 22,
 			),
 			$client->messageEntityUrl(
-				offset : 12,
-				length : 21,
+				offset : 5,
+				length : 33,
 			),
 			$client->messageEntityEmail(
-				offset : 10,
-				length : 97,
+				offset : 25,
+				length : 8,
 			),
 			$client->messageEntityBold(
-				offset : 89,
-				length : 84,
+				offset : 33,
+				length : 43,
 			),
 			$client->messageEntityItalic(
-				offset : 90,
-				length : 74,
+				offset : 5,
+				length : 78,
 			),
 			$client->messageEntityCode(
-				offset : 95,
-				length : 92,
+				offset : 97,
+				length : 38,
 			),
 			$client->messageEntityPre(
-				offset : 0,
-				length : 61,
-				language : '9oEAaMYxsF36KJPp',
+				offset : 79,
+				length : 54,
+				language : 'LptDGdYgA8lq5wjR',
 			),
 			$client->messageEntityTextUrl(
-				offset : 46,
-				length : 75,
+				offset : 2,
+				length : 77,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
-				offset : 74,
-				length : 89,
-				user_id : 4310661779759576613,
+				offset : 90,
+				length : 50,
+				user_id : 8656238303164210811,
 			),
 			$client->inputMessageEntityMentionName(
-				offset : 84,
-				length : 14,
+				offset : 90,
+				length : 92,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
-				offset : 90,
-				length : 40,
+				offset : 4,
+				length : 37,
 			),
 			$client->messageEntityCashtag(
-				offset : 39,
-				length : 82,
+				offset : 67,
+				length : 96,
 			),
 			$client->messageEntityUnderline(
-				offset : 49,
-				length : 70,
+				offset : 85,
+				length : 48,
 			),
 			$client->messageEntityStrike(
-				offset : 2,
-				length : 44,
+				offset : 28,
+				length : 30,
 			),
 			$client->messageEntityBankCard(
-				offset : 84,
-				length : 72,
+				offset : 75,
+				length : 88,
 			),
 			$client->messageEntitySpoiler(
-				offset : 52,
-				length : 95,
+				offset : 32,
+				length : 31,
 			),
 			$client->messageEntityCustomEmoji(
-				offset : 36,
-				length : 22,
-				document_id : -8119871213743227332,
+				offset : 21,
+				length : 43,
+				document_id : 393234046244498698,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
-				offset : 85,
-				length : 33,
+				offset : 25,
+				length : 11,
 			),
 		),
 	),

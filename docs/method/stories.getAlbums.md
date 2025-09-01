@@ -1,6 +1,6 @@
 # stories.getAlbums
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.getAlbums#25b3eac7 peer:InputPeer hash:long = stories.Albums;
@@ -28,6 +28,6 @@ stories.getAlbums#25b3eac7 peer:InputPeer hash:long = stories.Albums;
 ```php
 $storiesAlbums = $client->stories->getAlbums(
 	peer : $client->inputPeerEmpty(),
-	hash : 1033506837488720672,
+	hash : -528154112015852854,
 );
 ```

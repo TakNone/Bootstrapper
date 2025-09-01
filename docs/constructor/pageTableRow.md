@@ -2,7 +2,7 @@
 
 **Description** : *Table row*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 pageTableRow#e0c0c5e5 cells:Vector<PageTableCell> = PageTableRow;
@@ -36,8 +36,8 @@ $pageTableRow = $client->pageTableRow(
 			valign_middle : true,
 			valign_bottom : true,
 			text : $client->textEmpty(),
-			colspan : 8,
-			rowspan : 7,
+			colspan : 11,
+			rowspan : 86,
 		),
 	),
 );

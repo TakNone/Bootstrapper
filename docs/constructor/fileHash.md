@@ -2,7 +2,7 @@
 
 **Description** : *SHA256 Hash of an uploaded file, to be checked for validity after download*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 fileHash#f39b035c offset:long limit:int hash:bytes = FileHash;
@@ -30,9 +30,8 @@ fileHash#f39b035c offset:long limit:int hash:bytes = FileHash;
 
 ```php
 $fileHash = $client->fileHash(
-	offset : -7782687788525987217,
-	limit : 12,
-	hash : '̯?
-"LiveProtoN/l]',
+	offset : -2941692784245354810,
+	limit : 96,
+	hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

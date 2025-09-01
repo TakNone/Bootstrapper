@@ -2,7 +2,7 @@
 
 **Description** : *The participant list of a certain group call has changed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<GroupCallParticipant> version:int = Update;
@@ -31,8 +31,8 @@ updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<Gro
 ```php
 $update = $client->updateGroupCallParticipants(
 	call : $client->inputGroupCall(
-		id : 5748136126635086017,
-		access_hash : 4783126613859722639,
+		id : -4456574479007315233,
+		access_hash : 7161911007162094584,
 	),
 	participants : array(
 		$client->groupCallParticipant(
@@ -47,32 +47,32 @@ $update = $client->updateGroupCallParticipants(
 			self : true,
 			video_joined : true,
 			peer : $client->peerUser(
-				user_id : -641152084417037741,
+				user_id : -4356589345607227043,
 			),
-			date : 87,
-			active_date : 77,
-			source : 67,
-			volume : 32,
-			about : '9pnZk4c7tUvjJwiB',
-			raise_hand_rating : -8444237014327967177,
+			date : 1,
+			active_date : 60,
+			source : 6,
+			volume : 56,
+			about : 'oCX9wNIMVTtnJZbg',
+			raise_hand_rating : -4506022707711971308,
 			video : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'ILudHgf4UPsAD6cw',
+				endpoint : 'AQf3DRgbhFrz4x9B',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(...),
 				),
-				audio_source : 71,
+				audio_source : 94,
 			),
 			presentation : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'Oyn07GfgmRY9IZ3d',
+				endpoint : 'zueytWDRpLlVJsX8',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(...),
 				),
-				audio_source : 6,
+				audio_source : 92,
 			),
 		),
 	),
-	version : 80,
+	version : 4,
 );
 ```

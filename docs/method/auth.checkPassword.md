@@ -2,7 +2,7 @@
 
 **Description** : *Try logging to an account protected by a 2FA password*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.checkPassword#d18b4d16 password:InputCheckPasswordSRP = auth.Authorization;

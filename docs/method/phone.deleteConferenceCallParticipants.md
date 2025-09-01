@@ -1,6 +1,6 @@
 # phone.deleteConferenceCallParticipants
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 phone.deleteConferenceCallParticipants#8ca60525 flags:# only_left:flags.0?true kick:flags.1?true call:InputGroupCall ids:Vector<long> block:bytes = Updates;
@@ -34,10 +34,10 @@ $updates = $client->phone->deleteConferenceCallParticipants(
 	only_left : true,
 	kick : true,
 	call : $client->inputGroupCall(
-		id : -1896200661947538986,
-		access_hash : -2910118293122805308,
+		id : 230740792476313832,
+		access_hash : 1410892928039517223,
 	),
-	ids : array(1427340924545249079),
-	block : 'o	??LiveProto??PN',
+	ids : array(9057056373455071151),
+	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

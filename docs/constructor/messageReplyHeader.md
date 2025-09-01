@@ -2,7 +2,7 @@
 
 **Description** : *Message replies and thread information*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageReplyHeader#6917560b flags:# reply_to_scheduled:flags.2?true forum_topic:flags.3?true quote:flags.9?true reply_to_msg_id:flags.4?int reply_to_peer_id:flags.0?Peer reply_from:flags.5?MessageFwdHeader reply_media:flags.8?MessageMedia reply_to_top_id:flags.1?int quote_text:flags.6?string quote_entities:flags.7?Vector<MessageEntity> quote_offset:flags.10?int todo_item_id:flags.11?int = MessageReplyHeader;
@@ -43,127 +43,127 @@ $messageReplyHeader = $client->messageReplyHeader(
 	reply_to_scheduled : true,
 	forum_topic : true,
 	quote : true,
-	reply_to_msg_id : 22,
+	reply_to_msg_id : 81,
 	reply_to_peer_id : $client->peerUser(
-		user_id : -8600071575267923559,
+		user_id : 1086069634651447980,
 	),
 	reply_from : $client->messageFwdHeader(
 		imported : true,
 		saved_out : true,
 		from_id : $client->peerUser(
-			user_id : -2381365233919124287,
+			user_id : -5056500613247304484,
 		),
-		from_name : 'hPfvxKzTtiZ502CL',
-		date : 70,
-		channel_post : 25,
-		post_author : 'ZvPHexiJy8sX7kjf',
+		from_name : 'OEqXi6QdIeFJAx47',
+		date : 25,
+		channel_post : 10,
+		post_author : 'rIivujcm2UPadAJn',
 		saved_from_peer : $client->peerUser(
-			user_id : -8223598961294866627,
+			user_id : -7070655708548279877,
 		),
-		saved_from_msg_id : 30,
+		saved_from_msg_id : 6,
 		saved_from_id : $client->peerUser(
-			user_id : -7959662205796423019,
+			user_id : 7498267776472388790,
 		),
-		saved_from_name : 'd8tBFmJ370ylsVbf',
-		saved_date : 87,
-		psa_type : 'gHVJAORy0wrFhQSp',
+		saved_from_name : 'Yq9liP1fdnOxWTwb',
+		saved_date : 94,
+		psa_type : 'YlShPGEfcNux5nCU',
 	),
 	reply_media : $client->messageMediaEmpty(),
-	reply_to_top_id : 54,
-	quote_text : 'Efmes4Gah3jPwtQc',
+	reply_to_top_id : 56,
+	quote_text : '4BbYE9vHlUJZGxAs',
 	quote_entities : array(
 		$client->messageEntityUnknown(
-			offset : 4,
-			length : 78,
+			offset : 64,
+			length : 9,
 		),
 		$client->messageEntityMention(
-			offset : 63,
-			length : 41,
+			offset : 84,
+			length : 9,
 		),
 		$client->messageEntityHashtag(
-			offset : 48,
-			length : 57,
+			offset : 67,
+			length : 0,
 		),
 		$client->messageEntityBotCommand(
-			offset : 99,
-			length : 55,
+			offset : 74,
+			length : 20,
 		),
 		$client->messageEntityUrl(
-			offset : 46,
-			length : 40,
+			offset : 57,
+			length : 15,
 		),
 		$client->messageEntityEmail(
-			offset : 56,
-			length : 71,
+			offset : 98,
+			length : 3,
 		),
 		$client->messageEntityBold(
-			offset : 51,
-			length : 84,
+			offset : 5,
+			length : 74,
 		),
 		$client->messageEntityItalic(
-			offset : 27,
-			length : 68,
+			offset : 13,
+			length : 19,
 		),
 		$client->messageEntityCode(
-			offset : 33,
-			length : 60,
+			offset : 56,
+			length : 79,
 		),
 		$client->messageEntityPre(
-			offset : 28,
-			length : 38,
-			language : 'z2TM7vCDOaSgUW4k',
+			offset : 82,
+			length : 70,
+			language : 'jRJ9b51LtPZx7fcV',
 		),
 		$client->messageEntityTextUrl(
-			offset : 18,
-			length : 69,
+			offset : 28,
+			length : 63,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
-			offset : 47,
-			length : 87,
-			user_id : 4006487060256340228,
+			offset : 64,
+			length : 85,
+			user_id : -8031921490528738839,
 		),
 		$client->inputMessageEntityMentionName(
-			offset : 43,
-			length : 16,
+			offset : 44,
+			length : 9,
 			user_id : $client->inputUserEmpty(),
 		),
 		$client->messageEntityPhone(
-			offset : 44,
-			length : 37,
+			offset : 32,
+			length : 28,
 		),
 		$client->messageEntityCashtag(
-			offset : 98,
-			length : 52,
+			offset : 18,
+			length : 55,
 		),
 		$client->messageEntityUnderline(
-			offset : 79,
-			length : 79,
+			offset : 75,
+			length : 35,
 		),
 		$client->messageEntityStrike(
-			offset : 98,
-			length : 87,
+			offset : 11,
+			length : 18,
 		),
 		$client->messageEntityBankCard(
-			offset : 14,
-			length : 17,
+			offset : 7,
+			length : 99,
 		),
 		$client->messageEntitySpoiler(
-			offset : 89,
-			length : 87,
+			offset : 69,
+			length : 55,
 		),
 		$client->messageEntityCustomEmoji(
-			offset : 28,
-			length : 28,
-			document_id : 6589103162307746805,
+			offset : 96,
+			length : 3,
+			document_id : -1784314026955183772,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
-			offset : 18,
-			length : 16,
+			offset : 70,
+			length : 83,
 		),
 	),
-	quote_offset : 46,
-	todo_item_id : 22,
+	quote_offset : 6,
+	todo_item_id : 32,
 );
 ```

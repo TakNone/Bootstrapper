@@ -2,7 +2,7 @@
 
 **Description** : *Outgoing comments in a discussion thread were marked as read*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateReadChannelDiscussionOutbox#695c9e7c channel_id:long top_msg_id:int read_max_id:int = Update;
@@ -30,8 +30,8 @@ updateReadChannelDiscussionOutbox#695c9e7c channel_id:long top_msg_id:int read_m
 
 ```php
 $update = $client->updateReadChannelDiscussionOutbox(
-	channel_id : 7708074826193555558,
-	top_msg_id : 2,
-	read_max_id : 80,
+	channel_id : -4293557328796074672,
+	top_msg_id : 98,
+	read_max_id : 12,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Profile photo has not been set, or was hidden*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 userProfilePhotoEmpty#4f11bae1 = UserProfilePhoto;

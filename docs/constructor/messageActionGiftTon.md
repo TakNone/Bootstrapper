@@ -1,6 +1,6 @@
 # messageActionGiftTon
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currency:string crypto_amount:long transaction_id:flags.0?string = MessageAction;
@@ -31,10 +31,10 @@ messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currenc
 
 ```php
 $messageAction = $client->messageActionGiftTon(
-	currency : 'btu0BpM59HqPzQG7',
-	amount : 2707861512411639893,
-	crypto_currency : 'wkXu8roKPZ1LqDRI',
-	crypto_amount : 3184204891040771458,
-	transaction_id : '2GV1IdXDbR39CrJF',
+	currency : 'HvfBbU51goQ2D0nr',
+	amount : -3160013720694826954,
+	crypto_currency : '6CxvHOGgNZBbkjQi',
+	crypto_amount : -169589266971879155,
+	transaction_id : 'F16mwJbjYkWGE8Ki',
 );
 ```

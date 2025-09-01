@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a credit card number*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageEntityBankCard#761e6af4 offset:int length:int = MessageEntity;
@@ -29,7 +29,7 @@ messageEntityBankCard#761e6af4 offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityBankCard(
-	offset : 41,
-	length : 71,
+	offset : 91,
+	length : 26,
 );
 ```

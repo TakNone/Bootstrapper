@@ -1,8 +1,6 @@
 # updateChatDefaultBannedRights
 
-**Description** : *Default banned rights in a normal chat were updated*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBannedRights version:int = Update;
@@ -14,9 +12,9 @@ updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBanne
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`Peer`](type/Peer) | The chat |
-| <mark>default_banned_rights</mark> | [`ChatBannedRights`](type/ChatBannedRights) | New default banned rights |
-| <mark>version</mark> | [`int`](type/int) | Version |
+| <mark>peer</mark> | [`Peer`](type/Peer) | NOTHING |
+| <mark>default_banned_rights</mark> | [`ChatBannedRights`](type/ChatBannedRights) | NOTHING |
+| <mark>version</mark> | [`int`](type/int) | NOTHING |
 
 ---
 
@@ -31,7 +29,7 @@ updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBanne
 ```php
 $update = $client->updateChatDefaultBannedRights(
 	peer : $client->peerUser(
-		user_id : -451616246628524504,
+		user_id : 8058123206382520522,
 	),
 	default_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -54,8 +52,8 @@ $update = $client->updateChatDefaultBannedRights(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 69,
+		until_date : 97,
 	),
-	version : 85,
+	version : 57,
 );
 ```

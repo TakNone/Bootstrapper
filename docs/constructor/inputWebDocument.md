@@ -2,7 +2,7 @@
 
 **Description** : *The document*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputWebDocument#9bed434d url:string size:int mime_type:string attributes:Vector<DocumentAttribute> = InputWebDocument;
@@ -32,51 +32,51 @@ inputWebDocument#9bed434d url:string size:int mime_type:string attributes:Vector
 ```php
 $inputWebDocument = $client->inputWebDocument(
 	url : 'https://docs.liveproto.dev',
-	size : 20,
-	mime_type : 'uUZo1Hfr3Pn0gLK9',
+	size : 3,
+	mime_type : 'sEZhz3ag9xQlJMcK',
 	attributes : array(
 		$client->documentAttributeImageSize(
-			w : 78,
-			h : 7,
+			w : 46,
+			h : 10,
 		),
 		$client->documentAttributeAnimated(),
 		$client->documentAttributeSticker(
 			mask : true,
-			alt : '6Fz8IMwkaYD2Lnyd',
+			alt : 'HnZi4zX3uDkReFBw',
 			stickerset : $client->inputStickerSetEmpty(),
 			mask_coords : $client->maskCoords(
-				n : 58,
-				x : -415325.234375,
-				y : -1283690.384765625,
-				zoom : -506497.8173828125,
+				n : 50,
+				x : 1517332.9375,
+				y : 700996.8701171875,
+				zoom : -7913.3857421875,
 			),
 		),
 		$client->documentAttributeVideo(
 			round_message : true,
 			supports_streaming : true,
 			nosound : true,
-			duration : 1317601.1123046875,
-			w : 0,
-			h : 82,
-			preload_prefix_size : 38,
-			video_start_ts : -1850571.470703125,
-			video_codec : 'cgzt1YVNepGPFBTH',
+			duration : -1820521.0029296875,
+			w : 32,
+			h : 74,
+			preload_prefix_size : 49,
+			video_start_ts : -188392.66796875,
+			video_codec : 'oer9jSDiCTasgbEW',
 		),
 		$client->documentAttributeAudio(
 			voice : true,
-			duration : 48,
-			title : 'mn5CfL02OZ7VEpDz',
-			performer : '4L3Fx1OGkgcdrmq8',
-			waveform : 'Lcb?LiveProto?x?',
+			duration : 88,
+			title : 'v8scSdGwat63hZWC',
+			performer : '0MFbA19HxJcUiozK',
+			waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->documentAttributeFilename(
-			file_name : 'xl7NdBXeHqnjC325',
+			file_name : '5h3PE0ylcJOzmL1o',
 		),
 		$client->documentAttributeHasStickers(),
 		$client->documentAttributeCustomEmoji(
 			free : true,
 			text_color : true,
-			alt : 'zIJ60FVLeluTXm5j',
+			alt : 'olDjtrcibezBNgwY',
 			stickerset : $client->inputStickerSetEmpty(),
 		),
 	),

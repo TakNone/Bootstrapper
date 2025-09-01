@@ -2,7 +2,7 @@
 
 **Description** : *The user should enter an additional comment for the moderators, and then messages\.report must be re\-invoked, passing the comment to messages\.report\.message*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 reportResultAddComment#6f09ac31 flags:# optional:flags.0?true option:bytes = ReportResult;
@@ -31,6 +31,6 @@ reportResultAddComment#6f09ac31 flags:# optional:flags.0?true option:bytes = Rep
 ```php
 $reportResult = $client->reportResultAddComment(
 	optional : true,
-	option : '??leLiveProto!?7J?',
+	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Download a CDN file*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 upload.getCdnFile#395f69da file_token:bytes offset:long limit:int = upload.CdnFile;
@@ -38,8 +38,8 @@ upload.getCdnFile#395f69da file_token:bytes offset:long limit:int = upload.CdnFi
 
 ```php
 $uploadCdnFile = $client->upload->getCdnFile(
-	file_token : 'uN6yrLiveProto?6?]?',
-	offset : 512425726489841465,
-	limit : 6,
+	file_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	offset : -7370853935285401948,
+	limit : 14,
 );
 ```

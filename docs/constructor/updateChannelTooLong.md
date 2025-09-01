@@ -3,7 +3,7 @@
 **Description** : *There are new updates in the specified channel, the client must fetch them\.
 If the difference is too long or if the channel isn&#039;t currently in the states, start fetching from the specified pts*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateChannelTooLong#108d941f flags:# channel_id:long pts:flags.0?int = Update;
@@ -31,7 +31,7 @@ updateChannelTooLong#108d941f flags:# channel_id:long pts:flags.0?int = Update;
 
 ```php
 $update = $client->updateChannelTooLong(
-	channel_id : -5752004725686120580,
-	pts : 69,
+	channel_id : -3692509438494497813,
+	pts : 70,
 );
 ```

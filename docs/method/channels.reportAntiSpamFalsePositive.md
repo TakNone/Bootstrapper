@@ -2,7 +2,7 @@
 
 **Description** : *Report a native antispam false positive*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.reportAntiSpamFalsePositive#a850a693 channel:InputChannel msg_id:int = Bool;
@@ -38,6 +38,6 @@ channels.reportAntiSpamFalsePositive#a850a693 channel:InputChannel msg_id:int = 
 ```php
 $bool = $client->channels->reportAntiSpamFalsePositive(
 	channel : $client->inputChannelEmpty(),
-	msg_id : 75,
+	msg_id : 53,
 );
 ```

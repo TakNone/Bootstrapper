@@ -2,7 +2,7 @@
 
 **Description** : *Represents an issue with a document scan\. The error is considered resolved when the file with the document scan changes*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureValueErrorFile#7a700873 type:SecureValueType file_hash:bytes text:string = SecureValueError;
@@ -31,7 +31,7 @@ secureValueErrorFile#7a700873 type:SecureValueType file_hash:bytes text:string =
 ```php
 $secureValueError = $client->secureValueErrorFile(
 	type : $client->secureValueTypePersonalDetails(),
-	file_hash : '??@ݒLiveProto0-Z ',
-	text : '1AcWOaSjxptFh8ko',
+	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	text : 'qFsabnYZxf076WE4',
 );
 ```

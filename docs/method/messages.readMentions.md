@@ -2,7 +2,7 @@
 
 **Description** : *Mark mentions as read*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.readMentions#36e5bf4d flags:# peer:InputPeer top_msg_id:flags.0?int = messages.AffectedHistory;
@@ -42,6 +42,6 @@ messages.readMentions#36e5bf4d flags:# peer:InputPeer top_msg_id:flags.0?int = m
 ```php
 $messagesAffectedHistory = $client->messages->readMentions(
 	peer : $client->inputPeerEmpty(),
-	top_msg_id : 13,
+	top_msg_id : 75,
 );
 ```

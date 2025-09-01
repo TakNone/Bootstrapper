@@ -2,7 +2,7 @@
 
 **Description** : *Button to request a user to authorize via URL using Seamless Telegram Login*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputKeyboardButtonUrlAuth#d02e7fd4 flags:# request_write_access:flags.0?true text:string fwd_text:flags.1?string url:string bot:InputUser = KeyboardButton;
@@ -34,8 +34,8 @@ inputKeyboardButtonUrlAuth#d02e7fd4 flags:# request_write_access:flags.0?true te
 ```php
 $keyboardButton = $client->inputKeyboardButtonUrlAuth(
 	request_write_access : true,
-	text : 'OSvMHm5cfrnKpFRT',
-	fwd_text : 's9CjYDewHlExVbtZ',
+	text : 'kfv7WTgO2AMNlhQp',
+	fwd_text : 'LqDQxgmI4ypYudHz',
 	url : 'https://docs.liveproto.dev',
 	bot : $client->inputUserEmpty(),
 );

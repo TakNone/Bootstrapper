@@ -1,6 +1,6 @@
 # inputInvoiceStarGiftTransfer
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputInvoiceStarGiftTransfer#4a5f5bd9 stargift:InputSavedStarGift to_id:InputPeer = InputInvoice;
@@ -28,7 +28,7 @@ inputInvoiceStarGiftTransfer#4a5f5bd9 stargift:InputSavedStarGift to_id:InputPee
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftTransfer(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 83,
+		msg_id : 42,
 	),
 	to_id : $client->inputPeerEmpty(),
 );

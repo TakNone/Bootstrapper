@@ -1,6 +1,6 @@
 # phone.createConferenceCall
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 phone.createConferenceCall#7d0444bb flags:# muted:flags.0?true video_stopped:flags.2?true join:flags.3?true random_id:int public_key:flags.3?int256 block:flags.3?bytes params:flags.3?DataJSON = Updates;
@@ -36,11 +36,11 @@ $updates = $client->phone->createConferenceCall(
 	muted : true,
 	video_stopped : true,
 	join : true,
-	random_id : 8,
-	public_key : '30536798102624500705716222441362668918127414994016535686129498892313187494762',
-	block : 's??LiveProtoCM_k?',
+	random_id : 41,
+	public_key : '20831346458978041645831554627400394911014936598400459814077969401888465131574',
+	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	params : $client->dataJSON(
-		data : '7yIYVdauXviq2HEN',
+		data : 'Bx8JRiaIDXFOEPYj',
 	),
 );
 ```

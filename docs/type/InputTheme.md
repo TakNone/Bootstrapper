@@ -2,7 +2,7 @@
 
 **Description** : *Cloud theme*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputTheme#3c5693e9 id:long access_hash:long = InputTheme;

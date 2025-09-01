@@ -2,7 +2,7 @@
 
 **Description** : *Get logged\-in sessions*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getAuthorizations#e320c158 = account.Authorizations;
