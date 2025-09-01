@@ -24,9 +24,9 @@ use function Amp\File\createDirectoryRecursively;
 
 define('PATH',getenv('TLPATH') ?: ($_ENV['TLPATH'] ?? __DIR__));
 
-define('PHP_TAG_START',base64_decode('PD9waHA'));
+define('Tak\Liveproto\Tl\PHP_TAG_START',base64_decode('PD9waHA'));
 
-define('PHP_TAG_END',base64_decode('Pz4'));
+define('Tak\Liveproto\Tl\PHP_TAG_END',base64_decode('Pz4'));
 
 abstract class Generator {
 	static private function deleteFolder(string $directory) : void {
@@ -129,7 +129,7 @@ abstract class Generator {
 				$stream->writeNewLine('public function response(Binary $reader) : object {');
 				$stream->addIndent();
 				$stream->writeNewLine('$result = array();');
-				$stream->writeNewLine('$result[\'result\'] = $reader->tgreadObject();');
+				$stream->writeNewLine('$result[\'result\'] = $reader->readObject();');
 				$stream->writeNewLine('return new self($result);');
 				$stream->deleteIndent();
 				$stream->writeNewLine('}');
@@ -221,7 +221,7 @@ abstract class Generator {
 				$all->writeNewLine($id.' => new \\Tak\\Liveproto\\Tl\\Types\\'.$space.'\\'.$predicate.chr(44));
 			endforeach;
 		endforeach;
-		$all->writeNewLine('default => throw new \Exception(\'Constructor \'.$constructorId.\' not found !\')');
+		$all->writeNewLine('default => throw new \Exception(\'Constructor \'.dechex($constructorId).\' not found ( layer : '.DocBuilder::layer().' ) !\')');
 		$all->deleteIndent();
 		$all->writeNewLine('};');
 		$all->deleteIndent();
@@ -254,7 +254,7 @@ abstract class Generator {
 			endforeach;
 			$stream->writeNewLine('$writer->writeInt('.chr(36).$name.');');
 		elseif($type['is_vector']):
-			$stream->writeNewLine('$writer->tgwriteVector('.chr(36).$name.','.chr(39).$type['type'].chr(39).');');
+			$stream->writeNewLine('$writer->writeVector('.chr(36).$name.','.chr(39).$type['type'].chr(39).');');
 		elseif($type['type'] == 'int'):
 			$stream->writeNewLine('$writer->writeInt('.chr(36).$name.');');
 		elseif($type['type'] == 'int128'):
@@ -268,15 +268,15 @@ abstract class Generator {
 		elseif($type['type'] == 'double'):
 			$stream->writeNewLine('$writer->writeDouble('.chr(36).$name.');');
 		elseif($type['type'] == 'string'):
-			$stream->writeNewLine('$writer->tgwriteBytes('.chr(36).$name.');');
+			$stream->writeNewLine('$writer->writeBytes('.chr(36).$name.');');
 		elseif($type['type'] == 'bytes'):
-			$stream->writeNewLine('$writer->tgwriteBytes('.chr(36).$name.');');
+			$stream->writeNewLine('$writer->writeBytes('.chr(36).$name.');');
 		elseif($type['type'] == 'true'):
 			# It's just a type of flag ! We don't need to write a single byte to it #
 		elseif($type['type'] == 'bool'):
-			$stream->writeNewLine('$writer->tgwriteBool('.chr(36).$name.');');
+			$stream->writeNewLine('$writer->writeBool('.chr(36).$name.');');
 		else:
-			$stream->writeNewLine('$writer->write('.chr(36).$name.'->read());');
+			$stream->writeNewLine('$writer->writeObject('.chr(36).$name.');');
 		endif;
 		if($type['is_flag'] and $type['type'] != 'true'):
 			$stream->deleteIndent();
@@ -291,7 +291,7 @@ abstract class Generator {
 		if($type['flag_indicator']):
 			$stream->writeNewLine(chr(36).$name.' = $reader->readInt();');
 		elseif($type['is_vector']):
-			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->tgreadVector('.chr(39).$type['type'].chr(39).');');
+			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->readVector('.chr(39).$type['type'].chr(39).');');
 		elseif($type['type'] == 'int'):
 			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->readInt();');
 		elseif($type['type'] == 'int128'):
@@ -305,15 +305,15 @@ abstract class Generator {
 		elseif($type['type'] == 'double'):
 			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->readDouble();');
 		elseif($type['type'] == 'string'):
-			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->tgreadBytes();');
+			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->readBytes();');
 		elseif($type['type'] == 'bytes'):
-			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->tgreadBytes();');
+			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->readBytes();');
 		elseif($type['type'] == 'true'):
 			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = boolval($flags'.($type['flag_number'] === 1 ? null : $type['flag_number']).' & (1 << '.$type['flag_index'].'));');
 		elseif($type['type'] == 'bool'):
-			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->tgreadBool();');
+			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->readBool();');
 		else:
-			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->tgreadObject();');
+			$stream->writeNewLine('$result['.chr(39).$name.chr(39).'] = $reader->readObject();');
 		endif;
 		if($type['is_flag'] and $type['type'] != 'true'):
 			$stream->deleteIndent();
