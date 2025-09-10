@@ -2,7 +2,7 @@
 
 **Description** : *Accept incoming call*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 phone.acceptCall#3bd2b4a0 peer:InputPhoneCall g_b:bytes protocol:PhoneCallProtocol = phone.PhoneCall;
@@ -44,16 +44,16 @@ phone.acceptCall#3bd2b4a0 peer:InputPhoneCall g_b:bytes protocol:PhoneCallProtoc
 ```php
 $phonePhoneCall = $client->phone->acceptCall(
 	peer : $client->inputPhoneCall(
-		id : 3251083470976087293,
-		access_hash : -568387734087651160,
+		id : 8091329999901137019,
+		access_hash : -4904619886450277419,
 	),
-	g_b : '?9,]LiveProto??mM?',
+	g_b : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 29,
-		max_layer : 27,
-		library_versions : array('CpeXzt6AugGIMq3n'),
+		min_layer : 39,
+		max_layer : 46,
+		library_versions : array('NPUJZB09Vodh8DCp'),
 	),
 );
 ```

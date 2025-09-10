@@ -1,6 +1,6 @@
 # updateReadMonoForumOutbox
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateReadMonoForumOutbox#a4a79376 channel_id:long saved_peer_id:Peer read_max_id:int = Update;
@@ -28,10 +28,10 @@ updateReadMonoForumOutbox#a4a79376 channel_id:long saved_peer_id:Peer read_max_i
 
 ```php
 $update = $client->updateReadMonoForumOutbox(
-	channel_id : -7201040410715755975,
+	channel_id : -2577532026599235186,
 	saved_peer_id : $client->peerUser(
-		user_id : 2353051192145518485,
+		user_id : -4113418308736988807,
 	),
-	read_max_id : 50,
+	read_max_id : 44,
 );
 ```

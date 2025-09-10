@@ -2,10 +2,10 @@
 
 **Description** : *Extended user info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
-userFull#7e63ce1f flags:# blocked:flags.0?true phone_calls_available:flags.4?true phone_calls_private:flags.5?true can_pin_message:flags.7?true has_scheduled:flags.12?true video_calls_available:flags.13?true voice_messages_forbidden:flags.20?true translations_disabled:flags.23?true stories_pinned_available:flags.26?true blocked_my_stories_from:flags.27?true wallpaper_overridden:flags.28?true contact_require_premium:flags.29?true read_dates_private:flags.30?true flags2:# sponsored_enabled:flags2.7?true can_view_revenue:flags2.9?true bot_can_manage_emoji_status:flags2.10?true display_gifts_button:flags2.16?true id:long about:flags.1?string settings:PeerSettings personal_photo:flags.21?Photo profile_photo:flags.2?Photo fallback_photo:flags.22?Photo notify_settings:PeerNotifySettings bot_info:flags.3?BotInfo pinned_msg_id:flags.6?int common_chats_count:int folder_id:flags.11?int ttl_period:flags.14?int theme_emoticon:flags.15?string private_forward_name:flags.16?string bot_group_admin_rights:flags.17?ChatAdminRights bot_broadcast_admin_rights:flags.18?ChatAdminRights wallpaper:flags.24?WallPaper stories:flags.25?PeerStories business_work_hours:flags2.0?BusinessWorkHours business_location:flags2.1?BusinessLocation business_greeting_message:flags2.2?BusinessGreetingMessage business_away_message:flags2.3?BusinessAwayMessage business_intro:flags2.4?BusinessIntro birthday:flags2.5?Birthday personal_channel_id:flags2.6?long personal_channel_message:flags2.6?int stargifts_count:flags2.8?int starref_program:flags2.11?StarRefProgram bot_verification:flags2.12?BotVerification send_paid_messages_stars:flags2.14?long disallowed_gifts:flags2.15?DisallowedGiftsSettings stars_rating:flags2.17?StarsRating stars_my_pending_rating:flags2.18?StarsRating stars_my_pending_rating_date:flags2.18?int = UserFull;
+userFull#c577b5ad flags:# blocked:flags.0?true phone_calls_available:flags.4?true phone_calls_private:flags.5?true can_pin_message:flags.7?true has_scheduled:flags.12?true video_calls_available:flags.13?true voice_messages_forbidden:flags.20?true translations_disabled:flags.23?true stories_pinned_available:flags.26?true blocked_my_stories_from:flags.27?true wallpaper_overridden:flags.28?true contact_require_premium:flags.29?true read_dates_private:flags.30?true flags2:# sponsored_enabled:flags2.7?true can_view_revenue:flags2.9?true bot_can_manage_emoji_status:flags2.10?true display_gifts_button:flags2.16?true id:long about:flags.1?string settings:PeerSettings personal_photo:flags.21?Photo profile_photo:flags.2?Photo fallback_photo:flags.22?Photo notify_settings:PeerNotifySettings bot_info:flags.3?BotInfo pinned_msg_id:flags.6?int common_chats_count:int folder_id:flags.11?int ttl_period:flags.14?int theme:flags.15?ChatTheme private_forward_name:flags.16?string bot_group_admin_rights:flags.17?ChatAdminRights bot_broadcast_admin_rights:flags.18?ChatAdminRights wallpaper:flags.24?WallPaper stories:flags.25?PeerStories business_work_hours:flags2.0?BusinessWorkHours business_location:flags2.1?BusinessLocation business_greeting_message:flags2.2?BusinessGreetingMessage business_away_message:flags2.3?BusinessAwayMessage business_intro:flags2.4?BusinessIntro birthday:flags2.5?Birthday personal_channel_id:flags2.6?long personal_channel_message:flags2.6?int stargifts_count:flags2.8?int starref_program:flags2.11?StarRefProgram bot_verification:flags2.12?BotVerification send_paid_messages_stars:flags2.14?long disallowed_stargifts:flags2.15?DisallowedGiftsSettings stars_rating:flags2.17?StarsRating stars_my_pending_rating:flags2.18?StarsRating stars_my_pending_rating_date:flags2.18?int main_tab:flags2.20?ProfileTab saved_music:flags2.21?Document = UserFull;
 ```
 
 ---
@@ -45,7 +45,7 @@ userFull#7e63ce1f flags:# blocked:flags.0?true phone_calls_available:flags.4?tru
 | <mark>common_chats_count</mark> | [`int`](type/int) | Chats in common with this user |
 | **folder_id** | [`flags.11?int`](type/int) | Peer folder ID, for more info click here |
 | **ttl_period** | [`flags.14?int`](type/int) | Time To Live of all messages in this chat; once a message is this many seconds old, it must be deleted |
-| **theme_emoticon** | [`flags.15?string`](type/string) | Emoji associated with chat theme |
+| **theme** | [`flags.15?ChatTheme`](type/ChatTheme) | NOTHING |
 | **private_forward_name** | [`flags.16?string`](type/string) | Anonymized text to be shown instead of the user's name on forwarded messages |
 | **bot_group_admin_rights** | [`flags.17?ChatAdminRights`](type/ChatAdminRights) | A suggested set of administrator rights for the bot, to be shown when adding the bot as admin to a group, see here for more info on how to handle them » |
 | **bot_broadcast_admin_rights** | [`flags.18?ChatAdminRights`](type/ChatAdminRights) | A suggested set of administrator rights for the bot, to be shown when adding the bot as admin to a channel, see here for more info on how to handle them » |
@@ -63,10 +63,12 @@ userFull#7e63ce1f flags:# blocked:flags.0?true phone_calls_available:flags.4?tru
 | **starref_program** | [`flags2.11?StarRefProgram`](type/StarRefProgram) | This bot has an active referral program » |
 | **bot_verification** | [`flags2.12?BotVerification`](type/BotVerification) | NOTHING |
 | **send_paid_messages_stars** | [`flags2.14?long`](type/long) | NOTHING |
-| **disallowed_gifts** | [`flags2.15?DisallowedGiftsSettings`](type/DisallowedGiftsSettings) | NOTHING |
+| **disallowed_stargifts** | [`flags2.15?DisallowedGiftsSettings`](type/DisallowedGiftsSettings) | NOTHING |
 | **stars_rating** | [`flags2.17?StarsRating`](type/StarsRating) | NOTHING |
 | **stars_my_pending_rating** | [`flags2.18?StarsRating`](type/StarsRating) | NOTHING |
 | **stars_my_pending_rating_date** | [`flags2.18?int`](type/int) | NOTHING |
+| **main_tab** | [`flags2.20?ProfileTab`](type/ProfileTab) | NOTHING |
+| **saved_music** | [`flags2.21?Document`](type/Document) | NOTHING |
 
 ---
 
@@ -97,8 +99,8 @@ $userFull = $client->userFull(
 	can_view_revenue : true,
 	bot_can_manage_emoji_status : true,
 	display_gifts_button : true,
-	id : 1515558081668008202,
-	about : '6hDS18qEwiNsT3BQ',
+	id : 7931941394921289454,
+	about : '0WCm7gRJE2nudzej',
 	settings : $client->peerSettings(
 		report_spam : true,
 		add_contact : true,
@@ -111,77 +113,112 @@ $userFull = $client->userFull(
 		request_chat_broadcast : true,
 		business_bot_paused : true,
 		business_bot_can_reply : true,
-		geo_distance : 98,
-		request_chat_title : 'hO2Ct8E4pL6WwrSo',
-		request_chat_date : 100,
-		business_bot_id : 7296413997982736492,
+		geo_distance : 57,
+		request_chat_title : 'jAzr93LmMNwIe8xl',
+		request_chat_date : 83,
+		business_bot_id : -1957927248859155470,
 		business_bot_manage_url : 'https://docs.liveproto.dev',
-		charge_paid_message_stars : 6594548298143239003,
-		registration_month : 'aZ3Tdz4Yh1IWb5nC',
+		charge_paid_message_stars : -8269581140072939405,
+		registration_month : 't2wNA5bUzqQxjXKH',
 		phone_country : '+1234567890',
-		name_change_date : 42,
-		photo_change_date : 64,
+		name_change_date : 16,
+		photo_change_date : 78,
 	),
 	personal_photo : $client->photoEmpty(
-		id : 1919823099676940994,
+		id : -8515296683065820389,
 	),
 	profile_photo : $client->photoEmpty(
-		id : 7303079072988570355,
+		id : -7639288711767793888,
 	),
 	fallback_photo : $client->photoEmpty(
-		id : -5039782286388947446,
+		id : 8540055688012792998,
 	),
 	notify_settings : $client->peerNotifySettings(
 		show_previews : false,
 		silent : true,
-		mute_until : 58,
+		mute_until : 55,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
-		stories_muted : true,
-		stories_hide_sender : false,
+		stories_muted : false,
+		stories_hide_sender : true,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	bot_info : $client->botInfo(
 		has_preview_medias : true,
-		user_id : 318477137734095872,
-		description : '0LlSxuUhYZnvawoA',
+		user_id : -8210616935799981603,
+		description : '7EdOYtHFoM8IpZ0n',
 		description_photo : $client->photoEmpty(
-			id : -4624591025599586933,
+			id : 5642035451319603414,
 		),
 		description_document : $client->documentEmpty(
-			id : 421173801785854925,
+			id : -8134523335069194529,
 		),
 		commands : array(
 			$client->botCommand(
-				command : 'taL5n1hjkq8Tzi3I',
-				description : 'id3DuZt81UBMT9qG',
+				command : 'cu8ENbgZqC52H7lS',
+				description : 'zRqmrH1ycO2U65TW',
 			),
 		),
 		menu_button : $client->botMenuButtonDefault(),
 		privacy_policy_url : 'https://docs.liveproto.dev',
 		app_settings : $client->botAppSettings(
-			placeholder_path : '@??t?LiveProto?' . "\0" . 'ϋ?',
-			background_color : 7,
-			background_dark_color : 82,
-			header_color : 98,
-			header_dark_color : 96,
+			placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			background_color : 69,
+			background_dark_color : 70,
+			header_color : 8,
+			header_dark_color : 78,
 		),
 		verifier_settings : $client->botVerifierSettings(
 			can_modify_custom_description : true,
-			icon : 3104186063089455332,
-			company : '2H4cPOo3NERFC7vZ',
-			custom_description : 'EkV6CB4pYyXTwa8I',
+			icon : 7112370990617317833,
+			company : 'WTsG3xnyKQfSzELa',
+			custom_description : 'mE6Dop4wUvGiR3de',
 		),
 	),
-	pinned_msg_id : 100,
-	common_chats_count : 81,
-	folder_id : 61,
-	ttl_period : 86,
-	theme_emoticon : '7vVQdi8fyXPZYKx0',
-	private_forward_name : 'AuRsOMJW6XefvKwD',
+	pinned_msg_id : 53,
+	common_chats_count : 59,
+	folder_id : 28,
+	ttl_period : 94,
+	theme : $client->chatThemeUniqueGift(
+		gift : $client->starGift(
+			limited : true,
+			sold_out : true,
+			birthday : true,
+			can_upgrade : true,
+			require_premium : true,
+			limited_per_user : true,
+			id : 6008839959148744644,
+			sticker : $client->documentEmpty(...),
+			stars : -7413801716672752815,
+			availability_remains : 79,
+			availability_total : 8,
+			availability_resale : -7647282097195364698,
+			convert_stars : -7398225369844742650,
+			first_sale_date : 78,
+			last_sale_date : 76,
+			upgrade_stars : 4085233105958319388,
+			resell_min_stars : 7762752671656355528,
+			title : 'LbjX5coQBAwTskIl',
+			released_by : $client->peerUser(...),
+			per_user_total : 52,
+			per_user_remains : 82,
+			locked_until_date : 3,
+		),
+		theme_settings : array(
+			$client->themeSettings(
+				message_colors_animated : true,
+				base_theme : $client->baseThemeClassic(...),
+				accent_color : 60,
+				outbox_accent_color : 62,
+				message_colors : array(34),
+				wallpaper : $client->wallPaper(...),
+			),
+		),
+	),
+	private_forward_name : 'MF43lWesgo895Kzt',
 	bot_group_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -219,42 +256,42 @@ $userFull = $client->userFull(
 		manage_direct_messages : true,
 	),
 	wallpaper : $client->wallPaper(
-		id : -7048645608185154906,
+		id : 7173716344342322878,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : 136463379861331397,
-		slug : 'Z2RGrgOsKSWJePcm',
+		access_hash : 7627387475396507075,
+		slug : 'U0PxiEZwICK6XOBJ',
 		document : $client->documentEmpty(
-			id : 5232575993912273861,
+			id : 5567074428550679162,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 9,
-			second_background_color : 21,
-			third_background_color : 41,
-			fourth_background_color : 100,
-			intensity : 27,
-			rotation : 94,
-			emoticon : 'Jt3gU5D1mFcs2Xza',
+			background_color : 79,
+			second_background_color : 8,
+			third_background_color : 55,
+			fourth_background_color : 51,
+			intensity : 77,
+			rotation : 63,
+			emoticon : '8GFvirL6qm5gVWRe',
 		),
 	),
 	stories : $client->peerStories(
 		peer : $client->peerUser(
-			user_id : 3681892270961966603,
+			user_id : -5938331136803017488,
 		),
-		max_read_id : 55,
+		max_read_id : 40,
 		stories : array(
 			$client->storyItemDeleted(
-				id : 51,
+				id : 28,
 			),
 			$client->storyItemSkipped(
 				close_friends : true,
-				id : 9,
-				date : 76,
-				expire_date : 54,
+				id : 90,
+				date : 90,
+				expire_date : 43,
 			),
 			$client->storyItem(
 				pinned : true,
@@ -266,12 +303,12 @@ $userFull = $client->userFull(
 				contacts : true,
 				selected_contacts : true,
 				out : true,
-				id : 39,
-				date : 4,
+				id : 80,
+				date : 52,
 				from_id : $client->peerUser(...),
 				fwd_from : $client->storyFwdHeader(...),
-				expire_date : 23,
-				caption : 'RafzVF4YH2dhKJTy',
+				expire_date : 73,
+				caption : 'AzwPLkTbt04Rrgqh',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -323,39 +360,39 @@ $userFull = $client->userFull(
 				),
 				views : $client->storyViews(...),
 				sent_reaction : $client->reactionEmpty(...),
-				albums : array(69),
+				albums : array(19),
 			),
 		),
 	),
 	business_work_hours : $client->businessWorkHours(
 		open_now : true,
-		timezone_id : 'TYgqFNdRf2jGBUao',
+		timezone_id : 'YhyMaXmicTfHtBde',
 		weekly_open : array(
 			$client->businessWeeklyOpen(
-				start_minute : 50,
-				end_minute : 81,
+				start_minute : 57,
+				end_minute : 82,
 			),
 		),
 	),
 	business_location : $client->businessLocation(
 		geo_point : $client->geoPointEmpty(),
-		address : 'yWZamjvlux5tgwB4',
+		address : '80A2elgNOyExXLJi',
 	),
 	business_greeting_message : $client->businessGreetingMessage(
-		shortcut_id : 6,
+		shortcut_id : 84,
 		recipients : $client->businessRecipients(
 			existing_chats : true,
 			new_chats : true,
 			contacts : true,
 			non_contacts : true,
 			exclude_selected : true,
-			users : array(-3990333359929684978),
+			users : array(2605870461907645384),
 		),
-		no_activity_days : 36,
+		no_activity_days : 72,
 	),
 	business_away_message : $client->businessAwayMessage(
 		offline_only : true,
-		shortcut_id : 48,
+		shortcut_id : 53,
 		schedule : $client->businessAwayMessageScheduleAlways(),
 		recipients : $client->businessRecipients(
 			existing_chats : true,
@@ -363,58 +400,62 @@ $userFull = $client->userFull(
 			contacts : true,
 			non_contacts : true,
 			exclude_selected : true,
-			users : array(659413784617556125),
+			users : array(-4270545038385340723),
 		),
 	),
 	business_intro : $client->businessIntro(
-		title : 'VTYOR127l3InQeZU',
-		description : 'eTpkm9awzu8LqvxE',
+		title : 'W9C7mf01wKsYEu6n',
+		description : 'eCwzpQV7kPGbyjKc',
 		sticker : $client->documentEmpty(
-			id : -8168526104090237586,
+			id : 2477573723507349676,
 		),
 	),
 	birthday : $client->birthday(
-		day : 64,
-		month : 79,
-		year : 63,
+		day : 38,
+		month : 7,
+		year : 3,
 	),
-	personal_channel_id : 8758315450548445676,
-	personal_channel_message : 17,
-	stargifts_count : 13,
+	personal_channel_id : -3912427445701824901,
+	personal_channel_message : 11,
+	stargifts_count : 0,
 	starref_program : $client->starRefProgram(
-		bot_id : -3337385734307394137,
-		commission_permille : 75,
-		duration_months : 87,
-		end_date : 1,
+		bot_id : -5486260873108183686,
+		commission_permille : 53,
+		duration_months : 88,
+		end_date : 82,
 		daily_revenue_per_user : $client->starsAmount(
-			amount : 2657699924267536098,
-			nanos : 37,
+			amount : -3862975381169430351,
+			nanos : 61,
 		),
 	),
 	bot_verification : $client->botVerification(
-		bot_id : 2858493005848163114,
-		icon : -5464033314474238052,
-		description : 'MhBDNSkVU2euniW5',
+		bot_id : 421454691439725231,
+		icon : 5352346978262917725,
+		description : 'y8todTwCROA9jipm',
 	),
-	send_paid_messages_stars : 6537270460714058525,
-	disallowed_gifts : $client->disallowedGiftsSettings(
+	send_paid_messages_stars : 7555878258895983367,
+	disallowed_stargifts : $client->disallowedGiftsSettings(
 		disallow_unlimited_stargifts : true,
 		disallow_limited_stargifts : true,
 		disallow_unique_stargifts : true,
 		disallow_premium_gifts : true,
 	),
 	stars_rating : $client->starsRating(
-		level : 64,
-		current_level_stars : -3869404797400195392,
-		stars : 4543203527974704631,
-		next_level_stars : 6332147616920445307,
+		level : 21,
+		current_level_stars : 5341568225013797224,
+		stars : -679469740235688528,
+		next_level_stars : 2336975157209391299,
 	),
 	stars_my_pending_rating : $client->starsRating(
-		level : 98,
-		current_level_stars : 5707918745496909395,
-		stars : 5927872472461508729,
-		next_level_stars : -4033876100149685552,
+		level : 78,
+		current_level_stars : 8376407581520928861,
+		stars : 7236525752885376186,
+		next_level_stars : -5264414985745614881,
 	),
-	stars_my_pending_rating_date : 22,
+	stars_my_pending_rating_date : 11,
+	main_tab : $client->profileTabGifts(),
+	saved_music : $client->documentEmpty(
+		id : 949350614877589820,
+	),
 );
 ```

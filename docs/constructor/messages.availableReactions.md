@@ -2,7 +2,7 @@
 
 **Description** : *Animations and metadata associated with message reactions &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.availableReactions#768e3aad hash:int reactions:Vector<AvailableReaction> = messages.AvailableReactions;
@@ -29,33 +29,33 @@ messages.availableReactions#768e3aad hash:int reactions:Vector<AvailableReaction
 
 ```php
 $messagesAvailableReactions = $client->messages->availableReactions(
-	hash : 93,
+	hash : 27,
 	reactions : array(
 		$client->availableReaction(
 			inactive : true,
 			premium : true,
-			reaction : '5n1bAtNHsuP08UmI',
-			title : 'P9w4YRaX3h7pHLgu',
+			reaction : 'J451mnj9UQTrpXcO',
+			title : 'GwEycTmr058guUP4',
 			static_icon : $client->documentEmpty(
-				id : -3486950746541407015,
+				id : 3330669102916424001,
 			),
 			appear_animation : $client->documentEmpty(
-				id : 8730619069368344422,
+				id : 5857415813940585797,
 			),
 			select_animation : $client->documentEmpty(
-				id : 6181957716436047022,
+				id : 3638546797313801427,
 			),
 			activate_animation : $client->documentEmpty(
-				id : 316482055124787164,
+				id : -3265354518203189562,
 			),
 			effect_animation : $client->documentEmpty(
-				id : -3076325070142489194,
+				id : -4115128473684732911,
 			),
 			around_animation : $client->documentEmpty(
-				id : -1776787492426578360,
+				id : -7237574247312234518,
 			),
 			center_icon : $client->documentEmpty(
-				id : -8141202237161697883,
+				id : 5442354273172799454,
 			),
 		),
 	),

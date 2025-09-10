@@ -2,7 +2,7 @@
 
 **Description** : *Add an existing telegram user as contact*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.addContact#e8f463d0 flags:# add_phone_privacy_exception:flags.0?true id:InputUser first_name:string last_name:string phone:string = Updates;

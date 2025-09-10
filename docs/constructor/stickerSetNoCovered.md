@@ -2,7 +2,7 @@
 
 **Description** : *Just the stickerset information, with no previews*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stickerSetNoCovered#77b15d1c set:StickerSet = StickerSetCovered;
@@ -36,47 +36,47 @@ $stickerSetCovered = $client->stickerSetNoCovered(
 		text_color : true,
 		channel_emoji_status : true,
 		creator : true,
-		installed_date : 5,
-		id : 5179075328878586947,
-		access_hash : -1910550412233346067,
-		title : 'ZkGNSYhcoe7MRvL3',
-		short_name : 'oPqAQaceb26Wy1BR',
+		installed_date : 23,
+		id : -5795849582939258334,
+		access_hash : -7739931521334239732,
+		title : 'oPUSx6FAihkveZX3',
+		short_name : 'wS9JglvIHnU72u1s',
 		thumbs : array(
 			$client->photoSizeEmpty(
-				type : 'HL0bvBzywrsRjKAt',
+				type : 'b41CXYAODP5IeBZG',
 			),
 			$client->photoSize(
-				type : 'WBJkn1rQx4CT6qEs',
-				w : 96,
-				h : 18,
-				size : 84,
+				type : 'YNKFkePo9nIRug3Z',
+				w : 55,
+				h : 8,
+				size : 79,
 			),
 			$client->photoCachedSize(
-				type : 'oja7OEUyVBI6GJlN',
-				w : 85,
-				h : 69,
-				bytes : '???@.LiveProtoY?[?',
+				type : 'ECsJeVNy6QdlFiHp',
+				w : 27,
+				h : 97,
+				bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->photoStrippedSize(
-				type : 'dy4coQipkfOulHNZ',
-				bytes : '?lZ?)LiveProto??a?=',
+				type : 'THomFJOqxAua6b9G',
+				bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->photoSizeProgressive(
-				type : 'dIp81ncXfEKagPSq',
-				w : 42,
-				h : 50,
-				sizes : array(87),
+				type : 'BO7w64Qqt59rYXHu',
+				w : 86,
+				h : 73,
+				sizes : array(61),
 			),
 			$client->photoPathSize(
-				type : 'If4iBvN1zhLFx7nY',
-				bytes : '??RWLiveProto?մ?',
+				type : 'NZIOQrsqmLWA05HP',
+				bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),
-		thumb_dc_id : 17,
-		thumb_version : 29,
-		thumb_document_id : -1035733555832185294,
-		count : 49,
-		hash : 48,
+		thumb_dc_id : 24,
+		thumb_version : 88,
+		thumb_document_id : 5242341536931248865,
+		count : 9,
+		hash : 59,
 	),
 );
 ```

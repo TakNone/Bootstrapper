@@ -1,8 +1,6 @@
 # updateBotWebhookJSON
 
-**Description** : *A new incoming event; for bots only*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateBotWebhookJSON#8317c0c3 data:DataJSON = Update;
@@ -14,7 +12,7 @@ updateBotWebhookJSON#8317c0c3 data:DataJSON = Update;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>data</mark> | [`DataJSON`](type/DataJSON) | The event |
+| <mark>data</mark> | [`DataJSON`](type/DataJSON) | NOTHING |
 
 ---
 
@@ -29,7 +27,7 @@ updateBotWebhookJSON#8317c0c3 data:DataJSON = Update;
 ```php
 $update = $client->updateBotWebhookJSON(
 	data : $client->dataJSON(
-		data : '3BFIsMdnD4Pre6tN',
+		data : 'yW8ViboAEpvszePO',
 	),
 );
 ```

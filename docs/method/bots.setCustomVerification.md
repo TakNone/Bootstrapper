@@ -1,6 +1,6 @@
 # bots.setCustomVerification
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 bots.setCustomVerification#8b89dfbd flags:# enabled:flags.1?true bot:flags.0?InputUser peer:InputPeer custom_description:flags.2?string = Bool;
@@ -33,6 +33,6 @@ $bool = $client->bots->setCustomVerification(
 	enabled : true,
 	bot : $client->inputUserEmpty(),
 	peer : $client->inputPeerEmpty(),
-	custom_description : 'OXLj6UYBTVz15cFd',
+	custom_description : 'ju8dy4iwoxcbsCAM',
 );
 ```

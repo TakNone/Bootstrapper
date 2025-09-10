@@ -2,7 +2,7 @@
 
 **Description** : *Secure value*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureValue#187fa0ca flags:# type:SecureValueType data:flags.0?SecureData front_side:flags.1?SecureFile reverse_side:flags.2?SecureFile selfie:flags.3?SecureFile translation:flags.6?Vector<SecureFile> files:flags.4?Vector<SecureFile> plain_data:flags.5?SecurePlainData hash:bytes = SecureValue;
@@ -39,9 +39,9 @@ secureValue#187fa0ca flags:# type:SecureValueType data:flags.0?SecureData front_
 $secureValue = $client->secureValue(
 	type : $client->secureValueTypePersonalDetails(),
 	data : $client->secureData(
-		data : 'qU???LiveProto??o?',
-		data_hash : 'w(?H?LiveProto?կ|?',
-		secret : '?{?DLiveProtoB5y:?',
+		data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	front_side : $client->secureFileEmpty(),
 	reverse_side : $client->secureFileEmpty(),
@@ -49,30 +49,30 @@ $secureValue = $client->secureValue(
 	translation : array(
 		$client->secureFileEmpty(),
 		$client->secureFile(
-			id : -5364292579559702407,
-			access_hash : 7396558606995076521,
-			size : 252967680965552832,
-			dc_id : 50,
-			date : 79,
-			file_hash : '??*JLiveProtoL?>?',
-			secret : '?#??LiveProto?8?5',
+			id : 3884793120933534655,
+			access_hash : -4379934218811750984,
+			size : -4160989150686558735,
+			dc_id : 61,
+			date : 93,
+			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	files : array(
 		$client->secureFileEmpty(),
 		$client->secureFile(
-			id : -8724857185174331868,
-			access_hash : 1055593144674208032,
-			size : -175138369084645436,
-			dc_id : 78,
-			date : 19,
-			file_hash : 'j?2>?LiveProto=D??',
-			secret : '~?O\'?LiveProto??I?u',
+			id : 950977032216791890,
+			access_hash : -4366812679843861172,
+			size : -6413290632878611463,
+			dc_id : 25,
+			date : 78,
+			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	plain_data : $client->securePlainPhone(
 		phone : '+1234567890',
 	),
-	hash : 'ʞ^bLiveProto<?\'??',
+	hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

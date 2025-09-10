@@ -2,7 +2,7 @@
 
 **Description** : *Returns list of chats with non\-default notification settings*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getNotifyExceptions#53577479 flags:# compare_sound:flags.1?true compare_stories:flags.2?true peer:flags.0?InputNotifyPeer = Updates;

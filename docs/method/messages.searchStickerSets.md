@@ -2,7 +2,7 @@
 
 **Description** : *Search for stickersets*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.searchStickerSets#35705b8a flags:# exclude_featured:flags.0?true q:string hash:long = messages.FoundStickerSets;
@@ -32,7 +32,7 @@ messages.searchStickerSets#35705b8a flags:# exclude_featured:flags.0?true q:stri
 ```php
 $messagesFoundStickerSets = $client->messages->searchStickerSets(
 	exclude_featured : true,
-	q : 'NuJS8GojrcMZRKv0',
-	hash : 3689601374248362299,
+	q : 'eTCRKUac5xoushd1',
+	hash : 8516091283544099710,
 );
 ```

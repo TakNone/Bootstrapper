@@ -2,7 +2,7 @@
 
 **Description** : *Dialog filter AKA folder*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 dialogFilter#aa472651 flags:# contacts:flags.0?true non_contacts:flags.1?true groups:flags.2?true broadcasts:flags.3?true bots:flags.4?true exclude_muted:flags.11?true exclude_read:flags.12?true exclude_archived:flags.13?true title_noanimate:flags.28?true id:int title:TextWithEntities emoticon:flags.25?string color:flags.27?int pinned_peers:Vector<InputPeer> include_peers:Vector<InputPeer> exclude_peers:Vector<InputPeer> = DialogFilter;
@@ -53,177 +53,177 @@ $dialogFilter = $client->dialogFilter(
 	exclude_read : true,
 	exclude_archived : true,
 	title_noanimate : true,
-	id : 59,
+	id : 44,
 	title : $client->textWithEntities(
-		text : 'eKgXzbORvdiQhG6w',
+		text : 'LzC4pcV0KniUXe9I',
 		entities : array(
 			$client->messageEntityUnknown(
-				offset : 43,
-				length : 8,
+				offset : 30,
+				length : 54,
 			),
 			$client->messageEntityMention(
-				offset : 2,
-				length : 19,
+				offset : 57,
+				length : 92,
 			),
 			$client->messageEntityHashtag(
-				offset : 28,
-				length : 45,
+				offset : 66,
+				length : 18,
 			),
 			$client->messageEntityBotCommand(
-				offset : 31,
-				length : 90,
+				offset : 60,
+				length : 69,
 			),
 			$client->messageEntityUrl(
-				offset : 42,
-				length : 66,
+				offset : 88,
+				length : 61,
 			),
 			$client->messageEntityEmail(
-				offset : 91,
-				length : 88,
+				offset : 2,
+				length : 94,
 			),
 			$client->messageEntityBold(
-				offset : 83,
-				length : 50,
+				offset : 4,
+				length : 55,
 			),
 			$client->messageEntityItalic(
-				offset : 44,
-				length : 82,
+				offset : 63,
+				length : 91,
 			),
 			$client->messageEntityCode(
 				offset : 81,
-				length : 10,
+				length : 74,
 			),
 			$client->messageEntityPre(
-				offset : 82,
-				length : 37,
-				language : 'JjNauyUz39eKtwD8',
+				offset : 44,
+				length : 55,
+				language : 'sbOHBLikTU8W2vAj',
 			),
 			$client->messageEntityTextUrl(
-				offset : 0,
-				length : 24,
+				offset : 12,
+				length : 97,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
-				offset : 46,
-				length : 9,
-				user_id : 1341827896644266349,
+				offset : 80,
+				length : 34,
+				user_id : 3288883574203527279,
 			),
 			$client->inputMessageEntityMentionName(
-				offset : 78,
-				length : 91,
+				offset : 55,
+				length : 34,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
-				offset : 40,
-				length : 26,
+				offset : 7,
+				length : 76,
 			),
 			$client->messageEntityCashtag(
-				offset : 19,
-				length : 24,
+				offset : 66,
+				length : 60,
 			),
 			$client->messageEntityUnderline(
-				offset : 86,
-				length : 28,
+				offset : 64,
+				length : 97,
 			),
 			$client->messageEntityStrike(
-				offset : 62,
-				length : 34,
+				offset : 15,
+				length : 65,
 			),
 			$client->messageEntityBankCard(
-				offset : 89,
-				length : 90,
+				offset : 19,
+				length : 40,
 			),
 			$client->messageEntitySpoiler(
-				offset : 60,
-				length : 50,
+				offset : 69,
+				length : 24,
 			),
 			$client->messageEntityCustomEmoji(
-				offset : 83,
-				length : 59,
-				document_id : 2187469500335788829,
+				offset : 86,
+				length : 41,
+				document_id : 1909854837250928492,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
-				offset : 17,
-				length : 74,
+				offset : 31,
+				length : 46,
 			),
 		),
 	),
-	emoticon : 'T3NOqmiFS80yojnt',
-	color : 96,
+	emoticon : 'JQC4MXKyju3YbmtV',
+	color : 88,
 	pinned_peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -1206347451589896386,
+			chat_id : 7057835596824173270,
 		),
 		$client->inputPeerUser(
-			user_id : 8964609973491566705,
-			access_hash : 1448427470536577724,
+			user_id : -7558372078465132615,
+			access_hash : 6460385771237460903,
 		),
 		$client->inputPeerChannel(
-			channel_id : 2658752172121990243,
-			access_hash : -8908876175318397108,
+			channel_id : 6179820593125355367,
+			access_hash : 5817677103414088263,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 77,
-			user_id : 6578198732145513325,
+			msg_id : 65,
+			user_id : 7249780287501942872,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 76,
-			channel_id : -8988217947516669706,
+			msg_id : 22,
+			channel_id : -5112502732354024256,
 		),
 	),
 	include_peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -523428514473627666,
+			chat_id : -7762918945540802849,
 		),
 		$client->inputPeerUser(
-			user_id : 2472094983127153489,
-			access_hash : 4833305472111030846,
+			user_id : 2265473445784247174,
+			access_hash : 1152173795581651443,
 		),
 		$client->inputPeerChannel(
-			channel_id : 6279222526618684040,
-			access_hash : -4221319686609730327,
+			channel_id : 3174831757044633014,
+			access_hash : -5801158223515025295,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 63,
-			user_id : -5642842160302465249,
+			msg_id : 3,
+			user_id : -778648862736280667,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 81,
-			channel_id : -4976220991966409715,
+			msg_id : 9,
+			channel_id : 8121787876496835310,
 		),
 	),
 	exclude_peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 5678228208297007535,
+			chat_id : 4730340822473699225,
 		),
 		$client->inputPeerUser(
-			user_id : -7151205769905195501,
-			access_hash : 6366896956331040963,
+			user_id : 6034379620340929359,
+			access_hash : -4137456914339548849,
 		),
 		$client->inputPeerChannel(
-			channel_id : 2925146012756217549,
-			access_hash : 1054897499793749688,
+			channel_id : -9053656030659282295,
+			access_hash : -591945460155933654,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 9,
-			user_id : 300172272420209085,
+			msg_id : 90,
+			user_id : 8156952811329084615,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 55,
-			channel_id : 39280734388248659,
+			msg_id : 96,
+			channel_id : -1490741476131765240,
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing bold text*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageEntityBold#bd610bc9 offset:int length:int = MessageEntity;
@@ -29,7 +29,7 @@ messageEntityBold#bd610bc9 offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityBold(
-	offset : 5,
-	length : 71,
+	offset : 50,
+	length : 31,
 );
 ```

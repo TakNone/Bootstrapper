@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of Telegram Stars gift options &raquo; as starsGiftOption constructors*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.getStarsGiftOptions#d3c96bc8 flags:# user_id:flags.0?InputUser = Vector<StarsGiftOption>;

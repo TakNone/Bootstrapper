@@ -2,7 +2,7 @@
 
 **Description** : *Secure value, for more info see the passport docs &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputSecureValue#db21d0a7 flags:# type:SecureValueType data:flags.0?SecureData front_side:flags.1?InputSecureFile reverse_side:flags.2?InputSecureFile selfie:flags.3?InputSecureFile translation:flags.6?Vector<InputSecureFile> files:flags.4?Vector<InputSecureFile> plain_data:flags.5?SecurePlainData = InputSecureValue;
@@ -38,55 +38,55 @@ inputSecureValue#db21d0a7 flags:# type:SecureValueType data:flags.0?SecureData f
 $inputSecureValue = $client->inputSecureValue(
 	type : $client->secureValueTypePersonalDetails(),
 	data : $client->secureData(
-		data : '???j?LiveProto?i???',
-		data_hash : '9?6nLiveProtokh??k',
-		secret : '??՜LiveProto^?j',
+		data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	front_side : $client->inputSecureFileUploaded(
-		id : 3679770107296884515,
-		parts : 21,
+		id : -1902526050086056516,
+		parts : 32,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-		file_hash : '4Z?LiveProto???P?',
-		secret : '݄r??LiveProtoE??',
+		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	reverse_side : $client->inputSecureFileUploaded(
-		id : 3480804008991875229,
-		parts : 45,
+		id : 8284467083017942168,
+		parts : 1,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-		file_hash : '\'?.?QLiveProto???RB',
-		secret : '??LiveProto?ܑ?',
+		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	selfie : $client->inputSecureFileUploaded(
-		id : -3801354610363035396,
-		parts : 14,
+		id : 8388547210392581579,
+		parts : 61,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-		file_hash : '?@??LiveProto???j',
-		secret : '?#??LiveProto9?{?3',
+		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	translation : array(
 		$client->inputSecureFileUploaded(
-			id : -6445233328326594638,
-			parts : 74,
+			id : -9008107871166914870,
+			parts : 97,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-			file_hash : '?1???LiveProto??' . "\0" . '',
-			secret : '???WLiveProto0?36t',
+			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->inputSecureFile(
-			id : -3893165589834604925,
-			access_hash : 245676664479325254,
+			id : 7635671059219507421,
+			access_hash : -2155706539299856856,
 		),
 	),
 	files : array(
 		$client->inputSecureFileUploaded(
-			id : -8022439234208402408,
-			parts : 25,
+			id : -4766420160383786694,
+			parts : 62,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-			file_hash : '+.?LiveProto??Dէ',
-			secret : '??G?MLiveProtoWc?',
+			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->inputSecureFile(
-			id : -6286857382418005312,
-			access_hash : -545104832426505672,
+			id : -2468722638075413666,
+			access_hash : -434362991875985965,
 		),
 	),
 	plain_data : $client->securePlainPhone(

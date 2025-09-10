@@ -2,7 +2,7 @@
 
 **Description** : *Transfer channel ownership*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.editCreator#8f38cd1f channel:InputChannel user_id:InputUser password:InputCheckPasswordSRP = Updates;

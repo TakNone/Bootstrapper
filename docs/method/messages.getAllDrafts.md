@@ -3,7 +3,7 @@
 **Description** : *Return all message drafts\.
 Returns all the latest updateDraftMessage updates related to all chats with drafts*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getAllDrafts#6a3f8d65 = Updates;

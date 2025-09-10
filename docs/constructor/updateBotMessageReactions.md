@@ -2,7 +2,7 @@
 
 **Description** : *Bots only: the number of reactions on a message with anonymous reactions has changed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateBotMessageReactions#9cb7759 peer:Peer msg_id:int date:int reactions:Vector<ReactionCount> qts:int = Update;
@@ -33,17 +33,17 @@ updateBotMessageReactions#9cb7759 peer:Peer msg_id:int date:int reactions:Vector
 ```php
 $update = $client->updateBotMessageReactions(
 	peer : $client->peerUser(
-		user_id : -2970927150754187089,
+		user_id : -4381291365579119627,
 	),
-	msg_id : 52,
-	date : 42,
+	msg_id : 25,
+	date : 81,
 	reactions : array(
 		$client->reactionCount(
-			chosen_order : 13,
+			chosen_order : 4,
 			reaction : $client->reactionEmpty(),
-			count : 57,
+			count : 64,
 		),
 	),
-	qts : 97,
+	qts : 11,
 );
 ```

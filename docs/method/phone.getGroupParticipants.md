@@ -2,7 +2,7 @@
 
 **Description** : *Get group call participants*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 phone.getGroupParticipants#c558d8ab call:InputGroupCall ids:Vector<InputPeer> sources:Vector<int> offset:string limit:int = phone.GroupParticipants;
@@ -41,36 +41,36 @@ phone.getGroupParticipants#c558d8ab call:InputGroupCall ids:Vector<InputPeer> so
 ```php
 $phoneGroupParticipants = $client->phone->getGroupParticipants(
 	call : $client->inputGroupCall(
-		id : 1338290504382983382,
-		access_hash : 7799124778194620418,
+		id : -8744480294578850747,
+		access_hash : 7044450841962679928,
 	),
 	ids : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -5438149446334286816,
+			chat_id : -7559894333471466392,
 		),
 		$client->inputPeerUser(
-			user_id : -2245310905470202296,
-			access_hash : -941551624234967377,
+			user_id : 6211785359984384919,
+			access_hash : 1113000622545809567,
 		),
 		$client->inputPeerChannel(
-			channel_id : 4065840368862308804,
-			access_hash : 7895040756561836367,
+			channel_id : 708318346318517532,
+			access_hash : -9107196659862586994,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 32,
-			user_id : 7972546608416948458,
+			msg_id : 71,
+			user_id : -8069310226075898951,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 57,
-			channel_id : 8395747192687376311,
+			msg_id : 11,
+			channel_id : 3509549584338914307,
 		),
 	),
-	sources : array(82),
-	offset : '2ZLJKrUkuTYSa7Gp',
-	limit : 1,
+	sources : array(48),
+	offset : 'XwAJVU61CedHKIi4',
+	limit : 34,
 );
 ```

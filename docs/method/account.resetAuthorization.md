@@ -2,7 +2,7 @@
 
 **Description** : *Log out an active authorized session by its hash*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.resetAuthorization#df77f3bc hash:long = Bool;
@@ -37,6 +37,6 @@ account.resetAuthorization#df77f3bc hash:long = Bool;
 
 ```php
 $bool = $client->account->resetAuthorization(
-	hash : -7182715300620237904,
+	hash : -6063710712758464882,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Details about an accepted authorization request, for more info click here &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 urlAuthResultDefault#a9d6db1f = UrlAuthResult;

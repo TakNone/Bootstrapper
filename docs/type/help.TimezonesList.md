@@ -2,7 +2,7 @@
 
 **Description** : *Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.timezonesListNotModified#970708cc = help.TimezonesList;

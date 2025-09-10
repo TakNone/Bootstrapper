@@ -2,7 +2,7 @@
 
 **Description** : *Clear bot commands for the specified bot scope and language code*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 bots.resetBotCommands#3d8de0f9 scope:BotCommandScope lang_code:string = Bool;
@@ -39,6 +39,6 @@ bots.resetBotCommands#3d8de0f9 scope:BotCommandScope lang_code:string = Bool;
 ```php
 $bool = $client->bots->resetBotCommands(
 	scope : $client->botCommandScopeDefault(),
-	lang_code : 'eK763RudLNrqoYFt',
+	lang_code : 'kRgtiyQ27KjP3FpE',
 );
 ```

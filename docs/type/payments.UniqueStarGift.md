@@ -1,9 +1,9 @@
 # payments.UniqueStarGift
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
-payments.uniqueStarGift#caa2f60b gift:StarGift users:Vector<User> = payments.UniqueStarGift;
+payments.uniqueStarGift#416c56e8 gift:StarGift chats:Vector<Chat> users:Vector<User> = payments.UniqueStarGift;
 ```
 
 ---

@@ -2,7 +2,7 @@
 
 **Description** : *A user of the chat is now in proximity of another user*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageActionGeoProximityReached#98e0d697 from_id:Peer to_id:Peer distance:int = MessageAction;
@@ -31,11 +31,11 @@ messageActionGeoProximityReached#98e0d697 from_id:Peer to_id:Peer distance:int =
 ```php
 $messageAction = $client->messageActionGeoProximityReached(
 	from_id : $client->peerUser(
-		user_id : 2048492497775980180,
+		user_id : 1245600860157416817,
 	),
 	to_id : $client->peerUser(
-		user_id : 4678380705361207036,
+		user_id : 8465799588871685029,
 	),
-	distance : 21,
+	distance : 5,
 );
 ```

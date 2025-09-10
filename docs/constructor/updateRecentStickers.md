@@ -2,7 +2,7 @@
 
 **Description** : *The recent sticker list was updated*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateRecentStickers#9a422c20 = Update;

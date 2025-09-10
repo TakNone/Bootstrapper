@@ -2,7 +2,7 @@
 
 **Description** : *Forwarded photo*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputMediaPhoto#b3ba0635 flags:# spoiler:flags.1?true id:InputPhoto ttl_seconds:flags.0?int = InputMedia;
@@ -33,6 +33,6 @@ inputMediaPhoto#b3ba0635 flags:# spoiler:flags.1?true id:InputPhoto ttl_seconds:
 $inputMedia = $client->inputMediaPhoto(
 	spoiler : true,
 	id : $client->inputPhotoEmpty(),
-	ttl_seconds : 68,
+	ttl_seconds : 95,
 );
 ```

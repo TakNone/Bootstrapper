@@ -2,7 +2,7 @@
 
 **Description** : *Deletes several contacts from the list*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.deleteContacts#96a0e00 id:Vector<InputUser> = Updates;
@@ -40,13 +40,13 @@ $updates = $client->contacts->deleteContacts(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -6937048568348933269,
-			access_hash : 3420362838139206405,
+			user_id : -3638921547655782316,
+			access_hash : -5283319554746576376,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 6,
-			user_id : -12707904694730710,
+			msg_id : 82,
+			user_id : 969158215144096403,
 		),
 	),
 );

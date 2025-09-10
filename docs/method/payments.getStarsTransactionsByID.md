@@ -2,7 +2,7 @@
 
 **Description** : *Obtain info about Telegram Star transactions &raquo; using specific transaction IDs*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.getStarsTransactionsByID#2dca16b8 flags:# ton:flags.0?true peer:InputPeer id:Vector<InputStarsTransaction> = payments.StarsStatus;
@@ -45,7 +45,7 @@ $paymentsStarsStatus = $client->payments->getStarsTransactionsByID(
 	id : array(
 		$client->inputStarsTransaction(
 			refund : true,
-			id : 'PIl4m8shROzq2E0i',
+			id : 'Gjcdu7iaCVYBZ1pk',
 		),
 	),
 );

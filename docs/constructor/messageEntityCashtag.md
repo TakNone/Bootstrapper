@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing a $cashtag*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageEntityCashtag#4c4e743f offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityCashtag#4c4e743f offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityCashtag(
 	offset : 4,
-	length : 26,
+	length : 40,
 );
 ```

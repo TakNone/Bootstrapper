@@ -2,7 +2,7 @@
 
 **Description** : *Peer folder*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 dialogPeerFolder#514519e2 folder_id:int = DialogPeer;
@@ -28,6 +28,6 @@ dialogPeerFolder#514519e2 folder_id:int = DialogPeer;
 
 ```php
 $dialogPeer = $client->dialogPeerFolder(
-	folder_id : 1,
+	folder_id : 46,
 );
 ```

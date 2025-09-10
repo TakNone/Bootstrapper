@@ -2,7 +2,7 @@
 
 **Description** : *Activates stories stealth mode, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.activateStealthMode#57bbd166 flags:# past:flags.0?true future:flags.1?true = Updates;

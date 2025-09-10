@@ -2,7 +2,7 @@
 
 **Description** : *Enable or disable web bot attachment menu &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.toggleBotInAttachMenu#69f59d69 flags:# write_allowed:flags.0?true bot:InputUser enabled:Bool = Bool;

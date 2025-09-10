@@ -2,7 +2,7 @@
 
 **Description** : *Stickerset by short name, from a stickerset deep link &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputStickerSetShortName#861cc8a0 short_name:string = InputStickerSet;
@@ -28,6 +28,6 @@ inputStickerSetShortName#861cc8a0 short_name:string = InputStickerSet;
 
 ```php
 $inputStickerSet = $client->inputStickerSetShortName(
-	short_name : 'q3hJoumyTdlEWKMp',
+	short_name : 'EGsDMw03LnBJVFdP',
 );
 ```

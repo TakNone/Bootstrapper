@@ -3,7 +3,7 @@
 **Description** : *A stickerpack is a group of stickers associated to the same emoji\.
 It is not a sticker pack the way it is usually intended, you may be looking for a StickerSet*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stickerPack#12b299d4 emoticon:string documents:Vector<long> = StickerPack;
@@ -30,7 +30,7 @@ stickerPack#12b299d4 emoticon:string documents:Vector<long> = StickerPack;
 
 ```php
 $stickerPack = $client->stickerPack(
-	emoticon : 'lRGH0oLfBwEJ6piD',
-	documents : array(-1062034034700710343),
+	emoticon : 'QVd6J0tzpKCTDBk1',
+	documents : array(-312407968433260503),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Resend the login code via another medium, the phone code type is determined by the return value of the previous auth\.sendCode/auth\.resendCode: see login for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.resendCode#cae47523 flags:# phone_number:string phone_code_hash:string reason:flags.0?string = auth.SentCode;
@@ -45,6 +45,6 @@ auth.resendCode#cae47523 flags:# phone_number:string phone_code_hash:string reas
 $authSentCode = $client->auth->resendCode(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	reason : '5ignBVCG1ThHafNx',
+	reason : 'b43WdQhIV9vqPZJ5',
 );
 ```

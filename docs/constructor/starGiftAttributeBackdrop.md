@@ -1,6 +1,6 @@
 # starGiftAttributeBackdrop
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 starGiftAttributeBackdrop#d93d859c name:string backdrop_id:int center_color:int edge_color:int pattern_color:int text_color:int rarity_permille:int = StarGiftAttribute;
@@ -32,12 +32,12 @@ starGiftAttributeBackdrop#d93d859c name:string backdrop_id:int center_color:int 
 
 ```php
 $starGiftAttribute = $client->starGiftAttributeBackdrop(
-	name : '2IQ47e9YNLkVg08v',
-	backdrop_id : 27,
-	center_color : 89,
-	edge_color : 61,
-	pattern_color : 51,
-	text_color : 79,
-	rarity_permille : 99,
+	name : 't7Ho8MQTcvkWUFSb',
+	backdrop_id : 24,
+	center_color : 92,
+	edge_color : 35,
+	pattern_color : 19,
+	text_color : 33,
+	rarity_permille : 33,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Saved contact*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 savedPhoneContact#1142bd56 phone:string first_name:string last_name:string date:int = SavedContact;
@@ -34,6 +34,6 @@ $savedContact = $client->savedPhoneContact(
 	phone : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
-	date : 87,
+	date : 72,
 );
 ```

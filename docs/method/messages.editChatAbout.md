@@ -2,7 +2,7 @@
 
 **Description** : *Edit the description of a group/supergroup/channel*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.editChatAbout#def60797 peer:InputPeer about:string = Bool;
@@ -46,6 +46,6 @@ messages.editChatAbout#def60797 peer:InputPeer about:string = Bool;
 ```php
 $bool = $client->messages->editChatAbout(
 	peer : $client->inputPeerEmpty(),
-	about : 'OjtM1mU9yiz7Adbp',
+	about : 'Pv097GbiTF8muXID',
 );
 ```

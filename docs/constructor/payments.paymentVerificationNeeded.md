@@ -2,7 +2,7 @@
 
 **Description** : *Payment was not successful, additional verification is needed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.paymentVerificationNeeded#d8411139 url:string = payments.PaymentResult;

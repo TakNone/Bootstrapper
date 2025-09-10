@@ -2,7 +2,7 @@
 
 **Description** : *Info about a Telegram Premium Giveaway*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.giveawayInfo#4367daa0 flags:# participating:flags.0?true preparing_results:flags.3?true start_date:int joined_too_early_date:flags.1?int admin_disallowed_chat_id:flags.2?long disallowed_country:flags.4?string = payments.GiveawayInfo;

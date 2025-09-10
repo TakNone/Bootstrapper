@@ -2,7 +2,7 @@
 
 **Description** : *Group created*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageActionChatCreate#bd47cbad title:string users:Vector<long> = MessageAction;
@@ -29,7 +29,7 @@ messageActionChatCreate#bd47cbad title:string users:Vector<long> = MessageAction
 
 ```php
 $messageAction = $client->messageActionChatCreate(
-	title : 'qDavC7yS5XzHGdpJ',
-	users : array(-7782332227833275067),
+	title : '94GH2wfvVDXuRBnT',
+	users : array(-5069272168767135652),
 );
 ```

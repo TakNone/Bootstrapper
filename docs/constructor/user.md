@@ -2,7 +2,7 @@
 
 **Description** : *Indicates info about a certain user*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 user#20b1422 flags:# self:flags.10?true contact:flags.11?true mutual_contact:flags.12?true deleted:flags.13?true bot:flags.14?true bot_chat_history:flags.15?true bot_nochats:flags.16?true verified:flags.17?true restricted:flags.18?true min:flags.20?true bot_inline_geo:flags.21?true support:flags.23?true scam:flags.24?true apply_min_photo:flags.25?true fake:flags.26?true bot_attach_menu:flags.27?true premium:flags.28?true attach_menu_enabled:flags.29?true flags2:# bot_can_edit:flags2.1?true close_friend:flags2.2?true stories_hidden:flags2.3?true stories_unavailable:flags2.4?true contact_require_premium:flags2.10?true bot_business:flags2.11?true bot_has_main_app:flags2.13?true id:long access_hash:flags.0?long first_name:flags.1?string last_name:flags.2?string username:flags.3?string phone:flags.4?string photo:flags.5?UserProfilePhoto status:flags.6?UserStatus bot_info_version:flags.14?int restriction_reason:flags.18?Vector<RestrictionReason> bot_inline_placeholder:flags.19?string lang_code:flags.22?string emoji_status:flags.30?EmojiStatus usernames:flags2.0?Vector<Username> stories_max_id:flags2.5?int color:flags2.8?PeerColor profile_color:flags2.9?PeerColor bot_active_users:flags2.12?int bot_verification_icon:flags2.14?long send_paid_messages_stars:flags2.15?long = User;
@@ -99,24 +99,24 @@ $user = $client->user(
 	contact_require_premium : true,
 	bot_business : true,
 	bot_has_main_app : true,
-	id : 7090469157123526498,
-	access_hash : 9069594677019373150,
+	id : -7767385115631470426,
+	access_hash : -916694310776773861,
 	first_name : 'Tak',
 	last_name : 'None',
 	username : 'TakNone',
 	phone : '+1234567890',
 	photo : $client->userProfilePhotoEmpty(),
 	status : $client->userStatusEmpty(),
-	bot_info_version : 70,
+	bot_info_version : 30,
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : 'TjavqtzbReVM9irl',
-			reason : 'DQrLVAn4g3vWwbqx',
-			text : '6LxYaI9R2BCJKrUX',
+			platform : 'jdKCrz61ovRl53cX',
+			reason : 'h0iqfdVOEpcBKGLS',
+			text : 'Q4CkmjUged196Loh',
 		),
 	),
-	bot_inline_placeholder : 'uTrcBji5VnsE4kCv',
-	lang_code : 'hPvDSQ7HrwzbYCuB',
+	bot_inline_placeholder : 't2FCufoRmv7q5k6b',
+	lang_code : '4qkpEoH5aD1sLgF6',
 	emoji_status : $client->emojiStatusEmpty(),
 	usernames : array(
 		$client->username(
@@ -125,17 +125,17 @@ $user = $client->user(
 			username : 'TakNone',
 		),
 	),
-	stories_max_id : 31,
+	stories_max_id : 10,
 	color : $client->peerColor(
-		color : 21,
-		background_emoji_id : -3610583105967714374,
+		color : 43,
+		background_emoji_id : 2894397671424886072,
 	),
 	profile_color : $client->peerColor(
-		color : 41,
-		background_emoji_id : -3250302375624549725,
+		color : 24,
+		background_emoji_id : -1763372395809039914,
 	),
-	bot_active_users : 50,
-	bot_verification_icon : 9028415323061114509,
-	send_paid_messages_stars : 5937954245818478280,
+	bot_active_users : 8,
+	bot_verification_icon : 9219472446838974340,
+	send_paid_messages_stars : -1050511401281186304,
 );
 ```

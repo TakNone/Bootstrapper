@@ -2,7 +2,7 @@
 
 **Description** : *Save a prepared inline message, to be shared by the user of the mini app using a web\_app\_send\_prepared\_message event*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.savePreparedInlineMessage#f21f7f2f flags:# result:InputBotInlineResult user_id:InputUser peer_types:flags.0?Vector<InlineQueryPeerType> = messages.BotPreparedInlineMessage;
@@ -42,15 +42,15 @@ messages.savePreparedInlineMessage#f21f7f2f flags:# result:InputBotInlineResult 
 ```php
 $messagesBotPreparedInlineMessage = $client->messages->savePreparedInlineMessage(
 	result : $client->inputBotInlineResult(
-		id : 'eXbAWRtm8IHlGwBF',
-		type : '9pdKsYahXQ3jUxBn',
-		title : 'C4x10YcT8bOSMNoB',
-		description : 'HgFXV12h8LjKnek0',
+		id : '9851HyuBUAsMTmcI',
+		type : '1HbKnpfSDP6xyNMZ',
+		title : 'YS1mP3vDL5khUa8B',
+		description : 'iO0nwr1puglPhyMX',
 		url : 'https://docs.liveproto.dev',
 		thumb : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 78,
-			mime_type : 'GMPAJ81wRlL3ImHN',
+			size : 46,
+			mime_type : 'NagopuIRGZXlOFhq',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -64,8 +64,8 @@ $messagesBotPreparedInlineMessage = $client->messages->savePreparedInlineMessage
 		),
 		content : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 99,
-			mime_type : 'SNvA8HlFXydrbO6g',
+			size : 29,
+			mime_type : 'UpGymVvEk6dbuaN0',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -79,7 +79,7 @@ $messagesBotPreparedInlineMessage = $client->messages->savePreparedInlineMessage
 		),
 		send_message : $client->inputBotInlineMessageMediaAuto(
 			invert_media : true,
-			message : '9P5HzGFpU8sSlwrj',
+			message : 'x7ajpAhHPOm5bo1E',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),

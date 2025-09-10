@@ -2,7 +2,7 @@
 
 **Description** : *Gets the list of currently installed custom emoji stickersets*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getEmojiStickers#fbfca18f hash:long = messages.AllStickers;
@@ -28,6 +28,6 @@ messages.getEmojiStickers#fbfca18f hash:long = messages.AllStickers;
 
 ```php
 $messagesAllStickers = $client->messages->getEmojiStickers(
-	hash : -6645371511049233581,
+	hash : -7149562121450559073,
 );
 ```

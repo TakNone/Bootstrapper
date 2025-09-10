@@ -2,7 +2,7 @@
 
 **Description** : *The code will be sent via a flash phone call, that will be closed immediately\. The phone code will then be the phone number itself, just make sure that the phone number matches the specified pattern*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.sentCodeTypeFlashCall#ab03c6d9 pattern:string = auth.SentCodeType;
@@ -28,6 +28,6 @@ auth.sentCodeTypeFlashCall#ab03c6d9 pattern:string = auth.SentCodeType;
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeFlashCall(
-	pattern : 'QxerAFOpK0cTBmWI',
+	pattern : 'VDyYR4WgI50pwuA1',
 );
 ```

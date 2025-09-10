@@ -2,7 +2,7 @@
 
 **Description** : *Disable SMS jobs \(official clients only\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 smsjobs.leave#9898ad73 = Bool;

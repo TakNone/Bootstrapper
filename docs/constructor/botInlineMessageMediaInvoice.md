@@ -2,7 +2,7 @@
 
 **Description** : *Send an invoice*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 botInlineMessageMediaInvoice#354a9b09 flags:# shipping_address_requested:flags.1?true test:flags.3?true title:string description:string photo:flags.0?WebDocument currency:string total_amount:long reply_markup:flags.2?ReplyMarkup = BotInlineMessage;
@@ -38,22 +38,22 @@ botInlineMessageMediaInvoice#354a9b09 flags:# shipping_address_requested:flags.1
 $botInlineMessage = $client->botInlineMessageMediaInvoice(
 	shipping_address_requested : true,
 	test : true,
-	title : 'M1QEau3ghfmzc6r5',
-	description : '6uWSLnvTA3hKYa0c',
+	title : 'gyV5XWMtko2ml6Ij',
+	description : '8jIykVHlr0chwAC2',
 	photo : $client->webDocument(
 		url : 'https://docs.liveproto.dev',
-		access_hash : 5859221963743579383,
-		size : 35,
-		mime_type : 's6gT9HtQGJfiFj5B',
+		access_hash : -835047386995113543,
+		size : 44,
+		mime_type : 'rHjiayc0Z21UBM4s',
 		attributes : array(
 			$client->documentAttributeImageSize(
-				w : 91,
-				h : 0,
+				w : 65,
+				h : 84,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : 'XBGEa3NAwQRjUHKc',
+				alt : '7NdvPsTiALHfwUR1',
 				stickerset : $client->inputStickerSetEmpty(...),
 				mask_coords : $client->maskCoords(...),
 			),
@@ -61,34 +61,34 @@ $botInlineMessage = $client->botInlineMessageMediaInvoice(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : -636710.28515625,
-				w : 50,
-				h : 100,
-				preload_prefix_size : 7,
-				video_start_ts : -830729.943359375,
-				video_codec : '1qr2nIbAPLuZEFJW',
+				duration : -806356.54296875,
+				w : 95,
+				h : 82,
+				preload_prefix_size : 12,
+				video_start_ts : 424430.5185546875,
+				video_codec : 'xfINdyF9MoS2qRGa',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 28,
-				title : 'hMPJVwqCLxAWpzyG',
-				performer : 'Muc4dxTNAHn5b8wF',
-				waveform : 'ʿY3}LiveProto??y?',
+				duration : 96,
+				title : '59I2WUGJqTmsyL1x',
+				performer : '3c5wfPtmKiSW7Mr4',
+				waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->documentAttributeFilename(
-				file_name : 'byRtL64CQE5iKhve',
+				file_name : 't74IeMDbJmafix03',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : 'JMEyhfe1XkpWaO2x',
+				alt : 'CXgZERThIQpSvYOD',
 				stickerset : $client->inputStickerSetEmpty(...),
 			),
 		),
 	),
-	currency : '1KRHyXJQYDmz0Nh4',
-	total_amount : 6413433133386373760,
+	currency : 'RUTCrEJzptKZWLAc',
+	total_amount : -18874946562624404,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

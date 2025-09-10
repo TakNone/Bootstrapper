@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Passport authorization form*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.authorizationForm#ad2e1cd8 flags:# required_types:Vector<SecureRequiredType> values:Vector<SecureValue> errors:Vector<SecureValueError> users:Vector<User> privacy_policy_url:flags.0?string = account.AuthorizationForm;
@@ -61,9 +61,9 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 		$client->secureValue(
 			type : $client->secureValueTypePersonalDetails(),
 			data : $client->secureData(
-				data : ']?l~?LiveProtoAW?a',
-				data_hash : '_K/(7LiveProto"?c',
-				secret : 'Iӕ4LiveProtoȐ2',
+				data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+				data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+				secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			front_side : $client->secureFileEmpty(),
 			reverse_side : $client->secureFileEmpty(),
@@ -71,85 +71,84 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 			translation : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : -1293658806468941072,
-					access_hash : 5005056842954740544,
-					size : 7809395206697932370,
-					dc_id : 12,
-					date : 24,
-					file_hash : '?/LiveProto?
-T??',
-					secret : '?g<?LiveProtob??Û',
+					id : -8520889479383739414,
+					access_hash : -2821465692704900378,
+					size : -4646468285136967194,
+					dc_id : 3,
+					date : 3,
+					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			files : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : 3832307423037771502,
-					access_hash : -2084469580020966581,
-					size : 8604000355509096762,
-					dc_id : 46,
-					date : 66,
-					file_hash : 'i/' . "\0" . 'LiveProto?n',
-					secret : '?t?Q{LiveProto???xk',
+					id : 579169662702384180,
+					access_hash : -6837454006549426885,
+					size : 7423334172076165271,
+					dc_id : 52,
+					date : 21,
+					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			plain_data : $client->securePlainPhone(
 				phone : '+1234567890',
 			),
-			hash : '???LiveProtoR??M?',
+			hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	errors : array(
 		$client->secureValueErrorData(
 			type : $client->secureValueTypePersonalDetails(),
-			data_hash : 'sK?ѦLiveProto??)x',
-			field : 'ZbyhtDTamiAqUQJr',
-			text : 'n6VrOlYzFU35oWGP',
+			data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			field : 'wn4UWQPvjRuYDsqZ',
+			text : 'dH2rbRm6uPqtFSyM',
 		),
 		$client->secureValueErrorFrontSide(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : 'D??}#LiveProto??׳',
-			text : 'UkHFbipe7SyuEXNT',
+			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			text : '42139LGTBkVOYQiM',
 		),
 		$client->secureValueErrorReverseSide(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : 'A?^?[LiveProto;?j?',
-			text : '9DXIJq6gfHtZAuRz',
+			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			text : 'wrqFNb3VZOox14nK',
 		),
 		$client->secureValueErrorSelfie(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '??f?LiveProtom?{',
-			text : 'ZrU4HMn03RuSxvVl',
+			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			text : 'TZcqInuh6mge9AUW',
 		),
 		$client->secureValueErrorFile(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '????LiveProto?-S??',
-			text : 'YdBoC6l4XaZhn9vs',
+			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			text : 'KHC23gW5XT1ShfU7',
 		),
 		$client->secureValueErrorFiles(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : array('?y?6?LiveProto?N)??'),
-			text : 'DfxySX7gp39Rct6L',
+			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
+			text : 'UstkKwrvYmDVEfWC',
 		),
 		$client->secureValueError(
 			type : $client->secureValueTypePersonalDetails(),
-			hash : '??ϭLiveProtoAPMg?',
-			text : 'LYZehftb0drzlEs8',
+			hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			text : 'tTlgfHvoRVmrMkJi',
 		),
 		$client->secureValueErrorTranslationFile(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : '???aLiveProtoƟD??',
-			text : 'e1PJDI7LVMCYi4aO',
+			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			text : '36Wxrl25F8BzGKmS',
 		),
 		$client->secureValueErrorTranslationFiles(
 			type : $client->secureValueTypePersonalDetails(),
-			file_hash : array('_º?LiveProto???W'),
-			text : 'jOBhFGfWcY59vQ30',
+			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
+			text : 'oL1wuGJAgfsnHFmX',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -8330885044052167521,
+			id : -2922973997035703585,
 		),
 		$client->user(
 			self : true,
@@ -177,24 +176,24 @@ T??',
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 2730116014913515038,
-			access_hash : 7348424529605554984,
+			id : -2308950099770416552,
+			access_hash : 7823724502753551748,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 16,
+			bot_info_version : 36,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'xfnPdC8u9BjM7g2o',
-					reason : 'UEf8JdImYPBvAalq',
-					text : 'xy7vt3DLE0ugVYjz',
+					platform : 'k4CgGNxuXAs3eJ2w',
+					reason : '6ab91d0cYZ3kAWtw',
+					text : 'sh1o7edREn3u59qW',
 				),
 			),
-			bot_inline_placeholder : 'dNZKRB5a8Tflt1J0',
-			lang_code : 'LNDzuxVUSXP42vgB',
+			bot_inline_placeholder : 'xUwfWQAIHoerp5GZ',
+			lang_code : 'zrswHxFS0W2e1Ebh',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -203,18 +202,18 @@ T??',
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 42,
+			stories_max_id : 87,
 			color : $client->peerColor(
-				color : 11,
-				background_emoji_id : 5650333406789309152,
+				color : 59,
+				background_emoji_id : -3767658611873280166,
 			),
 			profile_color : $client->peerColor(
-				color : 94,
-				background_emoji_id : -521943296140250295,
+				color : 80,
+				background_emoji_id : 3532690946901036908,
 			),
-			bot_active_users : 4,
-			bot_verification_icon : -8173848288626104058,
-			send_paid_messages_stars : -7282277945567104609,
+			bot_active_users : 76,
+			bot_verification_icon : 8776445155597697740,
+			send_paid_messages_stars : 6592675455187161529,
 		),
 	),
 	privacy_policy_url : 'https://docs.liveproto.dev',

@@ -1,6 +1,6 @@
 # bots.getBotRecommendations
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 bots.getBotRecommendations#a1b70815 bot:InputUser = users.Users;

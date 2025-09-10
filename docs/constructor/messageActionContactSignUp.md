@@ -2,7 +2,7 @@
 
 **Description** : *A contact just signed up to telegram*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageActionContactSignUp#f3f25f76 = MessageAction;

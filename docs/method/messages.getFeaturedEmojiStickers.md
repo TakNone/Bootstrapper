@@ -2,7 +2,7 @@
 
 **Description** : *Gets featured custom emoji stickersets*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getFeaturedEmojiStickers#ecf6736 hash:long = messages.FeaturedStickers;
@@ -28,6 +28,6 @@ messages.getFeaturedEmojiStickers#ecf6736 hash:long = messages.FeaturedStickers;
 
 ```php
 $messagesFeaturedStickers = $client->messages->getFeaturedEmojiStickers(
-	hash : -4941138151866765469,
+	hash : -4902086349638484380,
 );
 ```

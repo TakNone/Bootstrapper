@@ -2,7 +2,7 @@
 
 **Description** : *Deletes some posted stories*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.deleteStories#ae59db5f peer:InputPeer id:Vector<int> = Vector<int>;
@@ -39,6 +39,6 @@ stories.deleteStories#ae59db5f peer:InputPeer id:Vector<int> = Vector<int>;
 ```php
 $int = $client->stories->deleteStories(
 	peer : $client->inputPeerEmpty(),
-	id : array(64),
+	id : array(7),
 );
 ```

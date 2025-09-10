@@ -2,7 +2,7 @@
 
 **Description** : *Represents a color palette that can be used in message accents &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.peerColorSet#26219a58 colors:Vector<int> = help.PeerColorSet;
@@ -28,6 +28,6 @@ help.peerColorSet#26219a58 colors:Vector<int> = help.PeerColorSet;
 
 ```php
 $helpPeerColorSet = $client->help->peerColorSet(
-	colors : array(31),
+	colors : array(74),
 );
 ```

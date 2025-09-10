@@ -2,7 +2,7 @@
 
 **Description** : *Button that links directly to a user profile*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 keyboardButtonUserProfile#308660c1 text:string user_id:long = KeyboardButton;
@@ -29,7 +29,7 @@ keyboardButtonUserProfile#308660c1 text:string user_id:long = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonUserProfile(
-	text : 'av4VguUd0e5TtCJW',
-	user_id : -2280622927047594727,
+	text : 'pYxcJNIgmkPT4qWO',
+	user_id : 1263824361125911780,
 );
 ```

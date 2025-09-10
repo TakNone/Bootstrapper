@@ -2,7 +2,7 @@
 
 **Description** : *Secure value error*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureValueError#869d758f type:SecureValueType hash:bytes text:string = SecureValueError;
@@ -31,7 +31,7 @@ secureValueError#869d758f type:SecureValueType hash:bytes text:string = SecureVa
 ```php
 $secureValueError = $client->secureValueError(
 	type : $client->secureValueTypePersonalDetails(),
-	hash : '?#?m?LiveProto??<',
-	text : '8pyFgIOsCT6kdDZa',
+	hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	text : 'o805UuGRVAqcaT4d',
 );
 ```

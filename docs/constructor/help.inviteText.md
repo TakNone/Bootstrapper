@@ -2,7 +2,7 @@
 
 **Description** : *Text of a text message with an invitation to install Telegram*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.inviteText#18cb9f78 message:string = help.InviteText;
@@ -28,6 +28,6 @@ help.inviteText#18cb9f78 message:string = help.InviteText;
 
 ```php
 $helpInviteText = $client->help->inviteText(
-	message : 'MFiLC2DPX9VUmJbe',
+	message : 'FnpGRjiSxL1C9mK5',
 );
 ```

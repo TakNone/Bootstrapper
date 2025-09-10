@@ -1,6 +1,6 @@
 # stories.reorderAlbums
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.reorderAlbums#8535fbd9 peer:InputPeer order:Vector<int> = Bool;
@@ -28,6 +28,6 @@ stories.reorderAlbums#8535fbd9 peer:InputPeer order:Vector<int> = Bool;
 ```php
 $bool = $client->stories->reorderAlbums(
 	peer : $client->inputPeerEmpty(),
-	order : array(63),
+	order : array(76),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Open a bot mini app, sending over user information after user confirmation*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.requestWebView#269dc2c1 flags:# from_bot_menu:flags.4?true silent:flags.5?true compact:flags.7?true fullscreen:flags.8?true peer:InputPeer bot:InputUser url:flags.1?string start_param:flags.3?string theme_params:flags.2?DataJSON platform:string reply_to:flags.0?InputReplyTo send_as:flags.13?InputPeer = WebViewResult;
@@ -64,111 +64,111 @@ $webViewResult = $client->messages->requestWebView(
 	peer : $client->inputPeerEmpty(),
 	bot : $client->inputUserEmpty(),
 	url : 'https://docs.liveproto.dev',
-	start_param : '7YN1rclIyxeUFVLO',
+	start_param : 'oOKZl7eHtkVJQhvb',
 	theme_params : $client->dataJSON(
-		data : 'EdWI2j5ytXzOD3xq',
+		data : 'RujcnA3pwrXf26N0',
 	),
-	platform : 'BcJomNXQ7OL0Dn2K',
+	platform : 'lCR9PtakVhz0ryHd',
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 85,
-		top_msg_id : 7,
+		reply_to_msg_id : 81,
+		top_msg_id : 29,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : '8eo4bMsFOclBYRSg',
+		quote_text : 'Y1JtMChkzjrfWA6E',
 		quote_entities : array(
 			$client->messageEntityUnknown(
-				offset : 31,
-				length : 34,
+				offset : 70,
+				length : 71,
 			),
 			$client->messageEntityMention(
-				offset : 49,
-				length : 1,
+				offset : 53,
+				length : 25,
 			),
 			$client->messageEntityHashtag(
-				offset : 80,
-				length : 46,
+				offset : 32,
+				length : 90,
 			),
 			$client->messageEntityBotCommand(
-				offset : 67,
-				length : 81,
+				offset : 82,
+				length : 84,
 			),
 			$client->messageEntityUrl(
-				offset : 7,
-				length : 85,
+				offset : 73,
+				length : 21,
 			),
 			$client->messageEntityEmail(
-				offset : 91,
-				length : 58,
+				offset : 72,
+				length : 52,
 			),
 			$client->messageEntityBold(
-				offset : 36,
-				length : 43,
+				offset : 46,
+				length : 72,
 			),
 			$client->messageEntityItalic(
-				offset : 8,
-				length : 60,
+				offset : 40,
+				length : 76,
 			),
 			$client->messageEntityCode(
-				offset : 82,
-				length : 2,
+				offset : 95,
+				length : 16,
 			),
 			$client->messageEntityPre(
-				offset : 61,
-				length : 97,
-				language : 'uvqNmLPEOA9gMlF7',
+				offset : 97,
+				length : 28,
+				language : '3wDvj9Lcm0IJAUeE',
 			),
 			$client->messageEntityTextUrl(
-				offset : 94,
-				length : 93,
+				offset : 78,
+				length : 48,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
-				offset : 69,
-				length : 65,
-				user_id : 2053428966383254790,
+				offset : 55,
+				length : 79,
+				user_id : 2334796694449244391,
 			),
 			$client->inputMessageEntityMentionName(
-				offset : 56,
-				length : 61,
+				offset : 62,
+				length : 78,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
-				offset : 66,
-				length : 98,
+				offset : 6,
+				length : 56,
 			),
 			$client->messageEntityCashtag(
-				offset : 65,
-				length : 2,
+				offset : 4,
+				length : 89,
 			),
 			$client->messageEntityUnderline(
-				offset : 35,
-				length : 53,
+				offset : 86,
+				length : 66,
 			),
 			$client->messageEntityStrike(
-				offset : 96,
-				length : 85,
+				offset : 43,
+				length : 77,
 			),
 			$client->messageEntityBankCard(
-				offset : 60,
-				length : 21,
+				offset : 78,
+				length : 77,
 			),
 			$client->messageEntitySpoiler(
-				offset : 85,
-				length : 20,
+				offset : 84,
+				length : 7,
 			),
 			$client->messageEntityCustomEmoji(
-				offset : 58,
-				length : 50,
-				document_id : 5011312388883878137,
+				offset : 66,
+				length : 33,
+				document_id : 2820039357494901898,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
-				offset : 42,
-				length : 17,
+				offset : 6,
+				length : 59,
 			),
 		),
-		quote_offset : 65,
+		quote_offset : 41,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 84,
+		todo_item_id : 3,
 	),
 	send_as : $client->inputPeerEmpty(),
 );

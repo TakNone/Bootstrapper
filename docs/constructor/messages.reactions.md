@@ -2,7 +2,7 @@
 
 **Description** : *List of message reactions*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.reactions#eafdf716 hash:long reactions:Vector<Reaction> = messages.Reactions;
@@ -29,14 +29,14 @@ messages.reactions#eafdf716 hash:long reactions:Vector<Reaction> = messages.Reac
 
 ```php
 $messagesReactions = $client->messages->reactions(
-	hash : -4824143078810413925,
+	hash : -433834436036764392,
 	reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : '1mV3wcslRyKk2YCZ',
+			emoticon : '0cZnXlNWqYFVHLrS',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 8595140980065569443,
+			document_id : 3196268069743254236,
 		),
 		$client->reactionPaid(),
 	),

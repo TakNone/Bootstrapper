@@ -2,7 +2,7 @@
 
 **Description** : *Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the action bar &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.hidePeerSettingsBar#4facb138 peer:InputPeer = Bool;

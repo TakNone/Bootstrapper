@@ -1,6 +1,6 @@
 # stories.albums
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.albums#c3987a3a hash:long albums:Vector<StoryAlbum> = stories.Albums;
@@ -27,16 +27,16 @@ stories.albums#c3987a3a hash:long albums:Vector<StoryAlbum> = stories.Albums;
 
 ```php
 $storiesAlbums = $client->stories->albums(
-	hash : 880561358628683841,
+	hash : -2770764241783402826,
 	albums : array(
 		$client->storyAlbum(
-			album_id : 87,
-			title : 'FqhmwLsZXbxl7uSP',
+			album_id : 75,
+			title : 'XcAziB9DsMGRg4Nj',
 			icon_photo : $client->photoEmpty(
-				id : 2839395692847878232,
+				id : 6939959080941155472,
 			),
 			icon_video : $client->documentEmpty(
-				id : 4013850579324063296,
+				id : 7362296525518233866,
 			),
 		),
 	),

@@ -2,7 +2,7 @@
 
 **Description** : *Stickerset with a single sticker as preview*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stickerSetCovered#6410a5d2 set:StickerSet cover:Document = StickerSetCovered;
@@ -37,50 +37,50 @@ $stickerSetCovered = $client->stickerSetCovered(
 		text_color : true,
 		channel_emoji_status : true,
 		creator : true,
-		installed_date : 82,
-		id : -7906344817205159760,
-		access_hash : 8594628348676577305,
-		title : 'IPChgFvL2wztGYom',
-		short_name : 'DbX8CIopSH9smNc7',
+		installed_date : 91,
+		id : 1769372108008222680,
+		access_hash : -2117600511764891739,
+		title : 'Kk8f1yzCmHsiAoNB',
+		short_name : 'IcvVdWA3R2C0rhTt',
 		thumbs : array(
 			$client->photoSizeEmpty(
-				type : 'V9nGotRDIbcx4Jgp',
+				type : 'Dq2lcFXCNzj5t6dR',
 			),
 			$client->photoSize(
-				type : '12jZmMFfa0LJ8GBz',
-				w : 27,
-				h : 53,
-				size : 18,
+				type : 'mzuiXE1w3sIHUWaA',
+				w : 65,
+				h : 36,
+				size : 54,
 			),
 			$client->photoCachedSize(
-				type : 'olO5e6agju0HvzEF',
-				w : 64,
-				h : 30,
-				bytes : 'U??LiveProto?T??',
+				type : '4bKg6MzdLumfN3vk',
+				w : 38,
+				h : 39,
+				bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->photoStrippedSize(
-				type : 'hVUZgC2mynFQIcNk',
-				bytes : 'WDfWLiveProto@???@',
+				type : 'LvNjAfFa7X8bB9U2',
+				bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->photoSizeProgressive(
-				type : '7WX54hZCxiSnLpmI',
-				w : 56,
-				h : 16,
-				sizes : array(64),
+				type : 'PcDrFfRzv7V1pgne',
+				w : 41,
+				h : 93,
+				sizes : array(22),
 			),
 			$client->photoPathSize(
-				type : 'oMxHbVG2WzuyBNdL',
-				bytes : '{?.tLiveProtoپ??E',
+				type : 'xKSp3AiYfD8s6mck',
+				bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),
-		thumb_dc_id : 39,
-		thumb_version : 7,
-		thumb_document_id : 8779012545822693509,
-		count : 9,
-		hash : 20,
+		thumb_dc_id : 42,
+		thumb_version : 77,
+		thumb_document_id : -1303415438218099836,
+		count : 93,
+		hash : 50,
 	),
 	cover : $client->documentEmpty(
-		id : 8710608163627568602,
+		id : 7132606426231339173,
 	),
 );
 ```

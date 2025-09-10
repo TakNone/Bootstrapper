@@ -2,7 +2,7 @@
 
 **Description** : *Get most used peers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.getTopPeers#973478b6 flags:# correspondents:flags.0?true bots_pm:flags.1?true bots_inline:flags.2?true phone_calls:flags.3?true forward_users:flags.4?true forward_chats:flags.5?true groups:flags.10?true channels:flags.15?true bots_app:flags.16?true offset:int limit:int hash:long = contacts.TopPeers;
@@ -57,8 +57,8 @@ $contactsTopPeers = $client->contacts->getTopPeers(
 	groups : true,
 	channels : true,
 	bots_app : true,
-	offset : 96,
-	limit : 6,
-	hash : 3328329433482273098,
+	offset : 38,
+	limit : 8,
+	hash : 5456368845877701064,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Mini app &raquo; settings*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 botAppSettings#c99b1950 flags:# placeholder_path:flags.0?bytes background_color:flags.1?int background_dark_color:flags.2?int header_color:flags.3?int header_dark_color:flags.4?int = BotAppSettings;
@@ -33,10 +33,10 @@ botAppSettings#c99b1950 flags:# placeholder_path:flags.0?bytes background_color:
 
 ```php
 $botAppSettings = $client->botAppSettings(
-	placeholder_path : 'ñ??LiveProtoUH?Ҍ',
-	background_color : 94,
-	background_dark_color : 68,
-	header_color : 96,
+	placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	background_color : 76,
+	background_dark_color : 6,
+	header_color : 53,
 	header_dark_color : 95,
 );
 ```

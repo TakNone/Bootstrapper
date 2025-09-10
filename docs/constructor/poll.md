@@ -2,7 +2,7 @@
 
 **Description** : *Poll*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 poll#58747131 id:long flags:# closed:flags.0?true public_voters:flags.1?true multiple_choice:flags.2?true quiz:flags.3?true question:TextWithEntities answers:Vector<PollAnswer> close_period:flags.4?int close_date:flags.5?int = Poll;
@@ -37,110 +37,110 @@ poll#58747131 id:long flags:# closed:flags.0?true public_voters:flags.1?true mul
 
 ```php
 $poll = $client->poll(
-	id : -7401037201988640021,
+	id : 7328479993415348696,
 	closed : true,
 	public_voters : true,
 	multiple_choice : true,
 	quiz : true,
 	question : $client->textWithEntities(
-		text : 'BwH1AcKF8kylTpgU',
+		text : 'hx0DTSWYnkigGfQa',
 		entities : array(
 			$client->messageEntityUnknown(
-				offset : 53,
-				length : 80,
+				offset : 69,
+				length : 16,
 			),
 			$client->messageEntityMention(
-				offset : 85,
-				length : 29,
+				offset : 17,
+				length : 59,
 			),
 			$client->messageEntityHashtag(
-				offset : 67,
-				length : 57,
-			),
-			$client->messageEntityBotCommand(
-				offset : 95,
-				length : 49,
-			),
-			$client->messageEntityUrl(
-				offset : 19,
-				length : 25,
-			),
-			$client->messageEntityEmail(
-				offset : 100,
-				length : 2,
-			),
-			$client->messageEntityBold(
-				offset : 31,
+				offset : 64,
 				length : 97,
 			),
+			$client->messageEntityBotCommand(
+				offset : 4,
+				length : 95,
+			),
+			$client->messageEntityUrl(
+				offset : 37,
+				length : 18,
+			),
+			$client->messageEntityEmail(
+				offset : 21,
+				length : 78,
+			),
+			$client->messageEntityBold(
+				offset : 11,
+				length : 84,
+			),
 			$client->messageEntityItalic(
-				offset : 36,
-				length : 87,
+				offset : 19,
+				length : 51,
 			),
 			$client->messageEntityCode(
-				offset : 5,
-				length : 50,
+				offset : 8,
+				length : 16,
 			),
 			$client->messageEntityPre(
-				offset : 28,
-				length : 38,
-				language : 'eimyWSXUBE6CuOZ1',
+				offset : 33,
+				length : 55,
+				language : 'ano5dJ8HFKyxDleT',
 			),
 			$client->messageEntityTextUrl(
-				offset : 97,
-				length : 34,
+				offset : 45,
+				length : 11,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
-				offset : 22,
-				length : 90,
-				user_id : -8056062918642918651,
+				offset : 56,
+				length : 51,
+				user_id : 9126332750981793394,
 			),
 			$client->inputMessageEntityMentionName(
-				offset : 62,
-				length : 81,
+				offset : 35,
+				length : 67,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
-				offset : 26,
-				length : 38,
+				offset : 58,
+				length : 51,
 			),
 			$client->messageEntityCashtag(
-				offset : 13,
-				length : 68,
+				offset : 63,
+				length : 80,
 			),
 			$client->messageEntityUnderline(
-				offset : 14,
-				length : 91,
+				offset : 89,
+				length : 5,
 			),
 			$client->messageEntityStrike(
-				offset : 83,
-				length : 72,
+				offset : 10,
+				length : 77,
 			),
 			$client->messageEntityBankCard(
 				offset : 68,
-				length : 8,
+				length : 87,
 			),
 			$client->messageEntitySpoiler(
-				offset : 19,
-				length : 21,
+				offset : 40,
+				length : 23,
 			),
 			$client->messageEntityCustomEmoji(
-				offset : 97,
-				length : 9,
-				document_id : -6937506816903707814,
+				offset : 94,
+				length : 7,
+				document_id : -2381125367429770668,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
-				offset : 35,
-				length : 74,
+				offset : 84,
+				length : 82,
 			),
 		),
 	),
 	answers : array(
 		$client->pollAnswer(
 			text : $client->textWithEntities(
-				text : 'Ab9GSHw8pI1ryZjF',
+				text : 'akUrC9mRyDjwgBpu',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -165,10 +165,10 @@ $poll = $client->poll(
 					$client->messageEntityBlockquote(...),
 				),
 			),
-			option : 'K???LiveProtoi??	',
+			option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	close_period : 85,
-	close_date : 67,
+	close_period : 18,
+	close_date : 83,
 );
 ```

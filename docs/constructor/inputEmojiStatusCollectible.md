@@ -1,6 +1,6 @@
 # inputEmojiStatusCollectible
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputEmojiStatusCollectible#7141dbf flags:# collectible_id:long until:flags.0?int = EmojiStatus;
@@ -28,7 +28,7 @@ inputEmojiStatusCollectible#7141dbf flags:# collectible_id:long until:flags.0?in
 
 ```php
 $emojiStatus = $client->inputEmojiStatusCollectible(
-	collectible_id : 7244005973261856184,
-	until : 68,
+	collectible_id : -2468735009409255379,
+	until : 52,
 );
 ```

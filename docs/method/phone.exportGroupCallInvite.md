@@ -2,7 +2,7 @@
 
 **Description** : *Get an invite link for a group call or livestream*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:InputGroupCall = phone.ExportedGroupCallInvite;
@@ -41,8 +41,8 @@ phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:I
 $phoneExportedGroupCallInvite = $client->phone->exportGroupCallInvite(
 	can_self_unmute : true,
 	call : $client->inputGroupCall(
-		id : 1944206732420292111,
-		access_hash : -3608606069031974641,
+		id : -713222203679351649,
+		access_hash : 169746352223031865,
 	),
 );
 ```

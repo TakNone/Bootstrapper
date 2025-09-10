@@ -2,7 +2,7 @@
 
 **Description** : *Increment the view counter of one or more stories*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.incrementStoryViews#b2028afb peer:InputPeer id:Vector<int> = Bool;
@@ -39,6 +39,6 @@ stories.incrementStoryViews#b2028afb peer:InputPeer id:Vector<int> = Bool;
 ```php
 $bool = $client->stories->incrementStoryViews(
 	peer : $client->inputPeerEmpty(),
-	id : array(68),
+	id : array(78),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Superscript text*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 textSuperscript#c7fb5e01 text:RichText = RichText;

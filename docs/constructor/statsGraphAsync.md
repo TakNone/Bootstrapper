@@ -2,7 +2,7 @@
 
 **Description** : *This channel statistics graph must be generated asynchronously using stats\.loadAsyncGraph to reduce server load*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 statsGraphAsync#4a27eb2d token:string = StatsGraph;
@@ -28,6 +28,6 @@ statsGraphAsync#4a27eb2d token:string = StatsGraph;
 
 ```php
 $statsGraph = $client->statsGraphAsync(
-	token : 'TC0wnkcQ3KFpbL5j',
+	token : 'Bpa3CEiFkdm5Jlny',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Search for messages and peers globally*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.searchGlobal#4bc6589a flags:# broadcasts_only:flags.1?true groups_only:flags.2?true users_only:flags.3?true folder_id:flags.0?int q:string filter:MessagesFilter min_date:int max_date:int offset_rate:int offset_peer:InputPeer offset_id:int limit:int = messages.Messages;
@@ -53,14 +53,14 @@ $messagesMessages = $client->messages->searchGlobal(
 	broadcasts_only : true,
 	groups_only : true,
 	users_only : true,
-	folder_id : 11,
-	q : 'PCpj9qEJdyWrvazK',
+	folder_id : 5,
+	q : '9ITpxsjMNvBOdeWA',
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 90,
-	max_date : 71,
-	offset_rate : 76,
+	min_date : 86,
+	max_date : 23,
+	offset_rate : 71,
 	offset_peer : $client->inputPeerEmpty(),
-	offset_id : 86,
-	limit : 4,
+	offset_id : 98,
+	limit : 5,
 );
 ```

@@ -1,6 +1,6 @@
 # StarGiftAttribute
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 starGiftAttributeModel#39d99013 name:string document:Document rarity_permille:int = StarGiftAttribute;

@@ -2,7 +2,7 @@
 
 **Description** : *Get instant view page*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getWebPage#8d9692a3 url:string hash:int = messages.WebPage;
@@ -38,6 +38,6 @@ messages.getWebPage#8d9692a3 url:string hash:int = messages.WebPage;
 ```php
 $messagesWebPage = $client->messages->getWebPage(
 	url : 'https://docs.liveproto.dev',
-	hash : 65,
+	hash : 80,
 );
 ```

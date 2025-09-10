@@ -2,7 +2,7 @@
 
 **Description** : *Get info about a stickerset*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getStickerSet#c8a0ec74 stickerset:InputStickerSet hash:int = messages.StickerSet;
@@ -39,6 +39,6 @@ messages.getStickerSet#c8a0ec74 stickerset:InputStickerSet hash:int = messages.S
 ```php
 $messagesStickerSet = $client->messages->getStickerSet(
 	stickerset : $client->inputStickerSetEmpty(),
-	hash : 2,
+	hash : 19,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Login using a redirected login token, generated in case of DC mismatch during QR code login*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.importLoginToken#95ac5ce4 token:bytes = auth.LoginToken;
@@ -39,6 +39,6 @@ auth.importLoginToken#95ac5ce4 token:bytes = auth.LoginToken;
 
 ```php
 $authLoginToken = $client->auth->importLoginToken(
-	token : '-0??LiveProto\\)?' . "\0" . '',
+	token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

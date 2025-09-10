@@ -2,7 +2,7 @@
 
 **Description** : *Returns timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.getTimezonesList#49b30240 hash:int = help.TimezonesList;
@@ -28,6 +28,6 @@ help.getTimezonesList#49b30240 hash:int = help.TimezonesList;
 
 ```php
 $helpTimezonesList = $client->help->getTimezonesList(
-	hash : 59,
+	hash : 37,
 );
 ```

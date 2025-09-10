@@ -2,7 +2,7 @@
 
 **Description** : *Returns attachment menu entry for a bot mini app that can be launched from the attachment menu &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getAttachMenuBot#77216192 bot:InputUser = AttachMenuBotsBot;

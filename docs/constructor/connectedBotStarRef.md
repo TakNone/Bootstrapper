@@ -2,7 +2,7 @@
 
 **Description** : *Info about an active affiliate program we have with a Mini App*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 connectedBotStarRef#19a13f71 flags:# revoked:flags.1?true url:string date:int bot_id:long commission_permille:int duration_months:flags.0?int participants:long revenue:long = ConnectedBotStarRef;
@@ -38,11 +38,11 @@ connectedBotStarRef#19a13f71 flags:# revoked:flags.1?true url:string date:int bo
 $connectedBotStarRef = $client->connectedBotStarRef(
 	revoked : true,
 	url : 'https://docs.liveproto.dev',
-	date : 36,
-	bot_id : -5620517600929767829,
-	commission_permille : 44,
-	duration_months : 11,
-	participants : 1295111448956714301,
-	revenue : -3538190266997937090,
+	date : 63,
+	bot_id : -97006345393753079,
+	commission_permille : 94,
+	duration_months : 43,
+	participants : 1815148107188594615,
+	revenue : 3624867923297539736,
 );
 ```

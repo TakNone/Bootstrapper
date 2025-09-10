@@ -2,7 +2,7 @@
 
 **Description** : *Represents a prepared inline message received via a bot&#039;s mini app, that can be sent to some chats &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.preparedInlineMessage#ff57708d query_id:long result:BotInlineResult peer_types:Vector<InlineQueryPeerType> cache_time:int users:Vector<User> = messages.PreparedInlineMessage;
@@ -32,18 +32,18 @@ messages.preparedInlineMessage#ff57708d query_id:long result:BotInlineResult pee
 
 ```php
 $messagesPreparedInlineMessage = $client->messages->preparedInlineMessage(
-	query_id : 3141944884959699269,
+	query_id : 5152185826754601995,
 	result : $client->botInlineResult(
-		id : '7Yn3FZBIubecT0R1',
-		type : 'kxK67QLh8GD0i2Ys',
-		title : 'Sj4Fb8PK5nwdI12J',
-		description : 'FScrxmn2CDwXRjzW',
+		id : 'QJgCiTh1NjR4a9fw',
+		type : '97DqXjmH2n0PgNiZ',
+		title : 'seP7WrNM24tpuLgz',
+		description : '8g7djRarvK106VoQ',
 		url : 'https://docs.liveproto.dev',
 		thumb : $client->webDocument(
 			url : 'https://docs.liveproto.dev',
-			access_hash : 4451811557230075411,
-			size : 15,
-			mime_type : 'as5zwtLbPuJKZYho',
+			access_hash : -3620035044615551894,
+			size : 34,
+			mime_type : 'es6ayhZwGQtS5dDM',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -57,9 +57,9 @@ $messagesPreparedInlineMessage = $client->messages->preparedInlineMessage(
 		),
 		content : $client->webDocument(
 			url : 'https://docs.liveproto.dev',
-			access_hash : 3377112944084130827,
-			size : 17,
-			mime_type : 'EUHdmcAq60Z1w3Og',
+			access_hash : -2292774374809235410,
+			size : 21,
+			mime_type : 'ifxzsN7SnJo5ld9h',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -73,7 +73,7 @@ $messagesPreparedInlineMessage = $client->messages->preparedInlineMessage(
 		),
 		send_message : $client->botInlineMessageMediaAuto(
 			invert_media : true,
-			message : 'VSsPeCvX4RZgBI9h',
+			message : 'bYZf6UHda7SE9gGw',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -108,10 +108,10 @@ $messagesPreparedInlineMessage = $client->messages->preparedInlineMessage(
 		$client->inlineQueryPeerTypeBroadcast(),
 		$client->inlineQueryPeerTypeBotPM(),
 	),
-	cache_time : 38,
+	cache_time : 58,
 	users : array(
 		$client->userEmpty(
-			id : 6899507949741750849,
+			id : 6114675095504958490,
 		),
 		$client->user(
 			self : true,
@@ -139,24 +139,24 @@ $messagesPreparedInlineMessage = $client->messages->preparedInlineMessage(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -4482759625598853067,
-			access_hash : 6033956879631763339,
+			id : -3352418344531548413,
+			access_hash : -5376427448140867579,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 88,
+			bot_info_version : 42,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'V8b3oy5NiQO0TpFv',
-					reason : 's4dnIYr06uovJR9T',
-					text : 'WmlN4G2DstjY8hXO',
+					platform : '73c8O6Q2y0CRmvlE',
+					reason : 'NsZJLGdWM8qojc0v',
+					text : 'oidk0rGf4jNeZqmz',
 				),
 			),
-			bot_inline_placeholder : 'vm51xHUETsVcrWZ7',
-			lang_code : 'TPkcmieYVy9u4r0O',
+			bot_inline_placeholder : 'ns7YpS2vrCBuAFM6',
+			lang_code : 'kQBoME9DtTcGlePZ',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -165,18 +165,18 @@ $messagesPreparedInlineMessage = $client->messages->preparedInlineMessage(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 44,
+			stories_max_id : 22,
 			color : $client->peerColor(
-				color : 35,
-				background_emoji_id : -1606743648012481021,
+				color : 25,
+				background_emoji_id : -9147169411495803446,
 			),
 			profile_color : $client->peerColor(
-				color : 40,
-				background_emoji_id : 4993756797320264455,
+				color : 80,
+				background_emoji_id : 6447939740366182245,
 			),
-			bot_active_users : 33,
-			bot_verification_icon : -5753638591346420745,
-			send_paid_messages_stars : -1401121691885681926,
+			bot_active_users : 2,
+			bot_verification_icon : 8542281824612917007,
+			send_paid_messages_stars : 5487233088730566957,
 		),
 	),
 );

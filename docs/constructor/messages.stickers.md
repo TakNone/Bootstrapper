@@ -2,7 +2,7 @@
 
 **Description** : *Found stickers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.stickers#30a6ec7e hash:long stickers:Vector<Document> = messages.Stickers;
@@ -29,77 +29,77 @@ messages.stickers#30a6ec7e hash:long stickers:Vector<Document> = messages.Sticke
 
 ```php
 $messagesStickers = $client->messages->stickers(
-	hash : -7816408834858664796,
+	hash : 8510324525479029933,
 	stickers : array(
 		$client->documentEmpty(
-			id : -5976850867142696295,
+			id : 2728833132717449811,
 		),
 		$client->document(
-			id : -175039049465279395,
-			access_hash : 1540522355571919705,
-			file_reference : '??#?yLiveProto?#?H?',
-			date : 71,
-			mime_type : '3Z8ldRSKqcn7riQJ',
-			size : 979320899294307662,
+			id : -2430234509969796170,
+			access_hash : 7495792429294055797,
+			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			date : 90,
+			mime_type : 'vqhNHkIoQ7XdL8Cy',
+			size : 235636087027121667,
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'OTzxAhIp8mufP5Wt',
+					type : 'RDSnEkHeilQw3oqI',
 				),
 				$client->photoSize(
-					type : 'DAXQKbJvhfCGUoOx',
-					w : 92,
-					h : 0,
-					size : 67,
+					type : 'b4vxZhXm6KMpIqJj',
+					w : 2,
+					h : 96,
+					size : 75,
 				),
 				$client->photoCachedSize(
-					type : 'BNGQoX4dOSICMk2l',
-					w : 25,
-					h : 86,
-					bytes : '?T?h?LiveProto?k?#',
+					type : 'v9fxLGbsk08Rul1g',
+					w : 58,
+					h : 78,
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'AvKXbm1ruCZDIxEd',
-					bytes : '?T?LiveProto??2??',
+					type : 'oXcDpx3EBRzad1KT',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'kxp1o0wfglu9SsLy',
-					w : 39,
-					h : 90,
-					sizes : array(11),
+					type : 'uTnlDksjMRSbBIcw',
+					w : 93,
+					h : 86,
+					sizes : array(72),
 				),
 				$client->photoPathSize(
-					type : 'E3yci7O9MB4xJ0au',
-					bytes : '?m???LiveProto.??h',
+					type : 'l75Cm6dQNFUEqVzT',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_thumbs : array(
 				$client->videoSize(
-					type : 'dqF8eRUjJ1KDV03p',
-					w : 36,
-					h : 94,
-					size : 94,
-					video_start_ts : 1919705.6875,
+					type : 'ngaiORvjUAbGdtmF',
+					w : 100,
+					h : 18,
+					size : 83,
+					video_start_ts : 675882.05859375,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : -511514969536801445,
-					background_colors : array(35),
+					emoji_id : -5726651980278179225,
+					background_colors : array(7),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(...),
-					sticker_id : -1101841203770169951,
-					background_colors : array(61),
+					sticker_id : -6125926927633245593,
+					background_colors : array(69),
 				),
 			),
-			dc_id : 68,
+			dc_id : 21,
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 86,
-					h : 69,
+					w : 75,
+					h : 97,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : '3BFcaLgs4e8YqElu',
+					alt : 'tBjvrSfzZpuR6lVG',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -107,28 +107,28 @@ $messagesStickers = $client->messages->stickers(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : 1632522.8818359375,
-					w : 18,
-					h : 70,
-					preload_prefix_size : 40,
-					video_start_ts : -1690090.4521484375,
-					video_codec : 'CzK1gYwxAhbvDrfI',
+					duration : -1058602.2431640625,
+					w : 71,
+					h : 71,
+					preload_prefix_size : 71,
+					video_start_ts : -882474.5224609375,
+					video_codec : 'inmBC5ZwxH2QRKGb',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 49,
-					title : 'DGn4AXRWiIKrd5Ve',
-					performer : 'zMRs5eFu2jidAgJ1',
-					waveform : '???LiveProto*{|?(',
+					duration : 13,
+					title : '2fyaNerb5EvozkRF',
+					performer : 'Ubwu83lSzMVAyr2q',
+					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : '1s8gDih3FbvjArJo',
+					file_name : 'G3LTb5DP2frV4eti',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : '7X20BM8OWbVZna1m',
+					alt : '9TXgNiVFcl1GYvsn',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),

@@ -2,7 +2,7 @@
 
 **Description** : *View, forward counter \+ info about replies of a specific message*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageViews#455b853d flags:# views:flags.0?int forwards:flags.1?int replies:flags.2?MessageReplies = MessageViews;
@@ -31,26 +31,26 @@ messageViews#455b853d flags:# views:flags.0?int forwards:flags.1?int replies:fla
 
 ```php
 $messageViews = $client->messageViews(
-	views : 94,
-	forwards : 43,
+	views : 98,
+	forwards : 25,
 	replies : $client->messageReplies(
 		comments : true,
-		replies : 74,
-		replies_pts : 76,
+		replies : 21,
+		replies_pts : 82,
 		recent_repliers : array(
 			$client->peerUser(
-				user_id : 8600817785838623324,
+				user_id : 5302062072723317673,
 			),
 			$client->peerChat(
-				chat_id : 398347548316431913,
+				chat_id : 2995480753340297405,
 			),
 			$client->peerChannel(
-				channel_id : 3890848281874898944,
+				channel_id : -2666789938517005312,
 			),
 		),
-		channel_id : 5816177484529013823,
-		max_id : 53,
-		read_max_id : 96,
+		channel_id : -6451498549349351029,
+		max_id : 47,
+		read_max_id : 87,
 	),
 );
 ```

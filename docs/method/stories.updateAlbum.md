@@ -1,6 +1,6 @@
 # stories.updateAlbum
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?string delete_stories:flags.1?Vector<int> add_stories:flags.2?Vector<int> order:flags.3?Vector<int> = StoryAlbum;
@@ -33,10 +33,10 @@ stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?s
 ```php
 $storyAlbum = $client->stories->updateAlbum(
 	peer : $client->inputPeerEmpty(),
-	album_id : 20,
-	title : 'QXwfrJP7C0e1OcZ5',
-	delete_stories : array(50),
-	add_stories : array(14),
-	order : array(48),
+	album_id : 76,
+	title : 'ut63IZgJBie5WPCG',
+	delete_stories : array(61),
+	add_stories : array(71),
+	order : array(84),
 );
 ```

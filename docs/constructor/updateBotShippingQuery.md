@@ -1,8 +1,6 @@
 # updateBotShippingQuery
 
-**Description** : *This object contains information about an incoming shipping query*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateBotShippingQuery#b5aefd7d query_id:long user_id:long payload:bytes shipping_address:PostAddress = Update;
@@ -14,10 +12,10 @@ updateBotShippingQuery#b5aefd7d query_id:long user_id:long payload:bytes shippin
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>query_id</mark> | [`long`](type/long) | Unique query identifier |
-| <mark>user_id</mark> | [`long`](type/long) | User who sent the query |
-| <mark>payload</mark> | [`bytes`](type/bytes) | Bot specified invoice payload |
-| <mark>shipping_address</mark> | [`PostAddress`](type/PostAddress) | User specified shipping address |
+| <mark>query_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>user_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>payload</mark> | [`bytes`](type/bytes) | NOTHING |
+| <mark>shipping_address</mark> | [`PostAddress`](type/PostAddress) | NOTHING |
 
 ---
 
@@ -31,16 +29,16 @@ updateBotShippingQuery#b5aefd7d query_id:long user_id:long payload:bytes shippin
 
 ```php
 $update = $client->updateBotShippingQuery(
-	query_id : -8340278174223269330,
-	user_id : -6877431447243395271,
-	payload : '???akLiveProto?7?? ',
+	query_id : -174611405624477835,
+	user_id : -1233831555862413372,
+	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	shipping_address : $client->postAddress(
-		street_line1 : 'OP2krKjn9pNSAJsF',
-		street_line2 : 'RWV2ZYLSolef5xB4',
-		city : 'PmypzubZtx7aTKhG',
-		state : 'eyAFtQ0MJUfbCL3v',
-		country_iso2 : 'm46beP2lixH7ULKN',
-		post_code : 'uEqa6Tywj05XdMNg',
+		street_line1 : 'Y0PKuFOc2zkBL9WM',
+		street_line2 : 'V2GlvCQFj9xiZuR0',
+		city : 'Kmfl7Lx3dNJW02Ma',
+		state : '5NcxoElFJWhPmgsV',
+		country_iso2 : 'uNyO0AUW4qG95wrM',
+		post_code : 'IABn9pOh57WKLiGR',
 	),
 );
 ```

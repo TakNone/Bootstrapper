@@ -2,7 +2,7 @@
 
 **Description** : *Connect a business bot &raquo; to the current account, or to change the current connection settings*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.updateConnectedBot#66a08c7e flags:# deleted:flags.1?true rights:flags.0?BusinessBotRights bot:InputUser recipients:InputBusinessBotRecipients = Updates;
@@ -70,26 +70,26 @@ $updates = $client->account->updateConnectedBot(
 			$client->inputUserEmpty(),
 			$client->inputUserSelf(),
 			$client->inputUser(
-				user_id : -1215370992793841510,
-				access_hash : -2380384568187356926,
+				user_id : -1721552900359211639,
+				access_hash : 2135334387269611099,
 			),
 			$client->inputUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 22,
-				user_id : 73494711120587864,
+				msg_id : 34,
+				user_id : 8199011997545012245,
 			),
 		),
 		exclude_users : array(
 			$client->inputUserEmpty(),
 			$client->inputUserSelf(),
 			$client->inputUser(
-				user_id : -1997125695973952090,
-				access_hash : -7834325241498627972,
+				user_id : 7727707249385451088,
+				access_hash : -8528685646007655826,
 			),
 			$client->inputUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 38,
-				user_id : -2296747777151347139,
+				msg_id : 48,
+				user_id : -1772411040846480170,
 			),
 		),
 	),

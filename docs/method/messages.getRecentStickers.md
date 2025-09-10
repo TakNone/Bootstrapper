@@ -2,7 +2,7 @@
 
 **Description** : *Get recent stickers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getRecentStickers#9da9403b flags:# attached:flags.0?true hash:long = messages.RecentStickers;
@@ -31,6 +31,6 @@ messages.getRecentStickers#9da9403b flags:# attached:flags.0?true hash:long = me
 ```php
 $messagesRecentStickers = $client->messages->getRecentStickers(
 	attached : true,
-	hash : 3595564803306521989,
+	hash : -9144250384086259811,
 );
 ```

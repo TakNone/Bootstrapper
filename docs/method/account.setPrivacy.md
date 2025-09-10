@@ -2,7 +2,7 @@
 
 **Description** : *Change privacy settings of current account*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.setPrivacy#c9f81ce8 key:InputPrivacyKey rules:Vector<InputPrivacyRule> = account.PrivacyRules;
@@ -48,13 +48,13 @@ $accountPrivacyRules = $client->account->setPrivacy(
 				$client->inputUserEmpty(),
 				$client->inputUserSelf(),
 				$client->inputUser(
-					user_id : 6735322170419295951,
-					access_hash : 5723834908633744177,
+					user_id : -7142237917271937680,
+					access_hash : 2871184424653042261,
 				),
 				$client->inputUserFromMessage(
 					peer : $client->inputPeerEmpty(...),
-					msg_id : 18,
-					user_id : 2826429520727374904,
+					msg_id : 25,
+					user_id : -3788814969431881566,
 				),
 			),
 		),
@@ -65,21 +65,21 @@ $accountPrivacyRules = $client->account->setPrivacy(
 				$client->inputUserEmpty(),
 				$client->inputUserSelf(),
 				$client->inputUser(
-					user_id : 4869520229341579415,
-					access_hash : -459615617614246626,
+					user_id : -9182203856963650705,
+					access_hash : 2056163051763252741,
 				),
 				$client->inputUserFromMessage(
 					peer : $client->inputPeerEmpty(...),
-					msg_id : 28,
-					user_id : 2561943971684209332,
+					msg_id : 20,
+					user_id : -1594937055965354709,
 				),
 			),
 		),
 		$client->inputPrivacyValueAllowChatParticipants(
-			chats : array(-5570685236167505100),
+			chats : array(1410325246978765807),
 		),
 		$client->inputPrivacyValueDisallowChatParticipants(
-			chats : array(-5107134824376039386),
+			chats : array(-3070565526618946804),
 		),
 		$client->inputPrivacyValueAllowCloseFriends(),
 		$client->inputPrivacyValueAllowPremium(),

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a Telegram Story*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 storyItemDeleted#51e6ee4f id:int = StoryItem;

@@ -2,7 +2,7 @@
 
 **Description** : *Returns installed attachment menu bot mini apps &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getAttachMenuBots#16fcc2cb hash:long = AttachMenuBots;
@@ -28,6 +28,6 @@ messages.getAttachMenuBots#16fcc2cb hash:long = AttachMenuBots;
 
 ```php
 $attachMenuBots = $client->messages->getAttachMenuBots(
-	hash : 5281327145318663808,
+	hash : 3297632019671447174,
 );
 ```

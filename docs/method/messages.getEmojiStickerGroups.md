@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of emoji categories, to be used when choosing a sticker*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getEmojiStickerGroups#1dd840f5 hash:int = messages.EmojiGroups;
@@ -28,6 +28,6 @@ messages.getEmojiStickerGroups#1dd840f5 hash:int = messages.EmojiGroups;
 
 ```php
 $messagesEmojiGroups = $client->messages->getEmojiStickerGroups(
-	hash : 45,
+	hash : 36,
 );
 ```

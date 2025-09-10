@@ -2,7 +2,7 @@
 
 **Description** : *The next time, the authentication code will be delivered via an immediately canceled incoming call, handled manually by the user*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.codeTypeMissedCall#d61ad6ee = auth.CodeType;

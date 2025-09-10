@@ -2,7 +2,7 @@
 
 **Description** : *Change the phone number of the current account*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.changePhone#70c32edb phone_number:string phone_code_hash:string phone_code:string = User;

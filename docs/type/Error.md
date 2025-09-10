@@ -2,7 +2,7 @@
 
 **Description** : *An object containing a query error*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 error#c4b9f9bb code:int text:string = Error;

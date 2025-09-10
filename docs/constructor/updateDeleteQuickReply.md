@@ -2,7 +2,7 @@
 
 **Description** : *A quick reply shortcut &raquo; was deleted\. This will not emit updateDeleteQuickReplyMessages updates, even if all the messages in the shortcut are also deleted by this update*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateDeleteQuickReply#53e6f1ec shortcut_id:int = Update;
@@ -28,6 +28,6 @@ updateDeleteQuickReply#53e6f1ec shortcut_id:int = Update;
 
 ```php
 $update = $client->updateDeleteQuickReply(
-	shortcut_id : 88,
+	shortcut_id : 1,
 );
 ```

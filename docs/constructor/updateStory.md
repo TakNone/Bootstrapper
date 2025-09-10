@@ -2,7 +2,7 @@
 
 **Description** : *A new story was posted*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateStory#75b3b798 peer:Peer story:StoryItem = Update;
@@ -30,10 +30,10 @@ updateStory#75b3b798 peer:Peer story:StoryItem = Update;
 ```php
 $update = $client->updateStory(
 	peer : $client->peerUser(
-		user_id : 4316788236696291345,
+		user_id : 946623051558632128,
 	),
 	story : $client->storyItemDeleted(
-		id : 50,
+		id : 19,
 	),
 );
 ```

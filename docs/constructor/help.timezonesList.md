@@ -2,7 +2,7 @@
 
 **Description** : *Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.timezonesList#7b74ed71 timezones:Vector<Timezone> hash:int = help.TimezonesList;
@@ -31,11 +31,11 @@ help.timezonesList#7b74ed71 timezones:Vector<Timezone> hash:int = help.Timezones
 $helpTimezonesList = $client->help->timezonesList(
 	timezones : array(
 		$client->timezone(
-			id : 'VsJl8H2bu9LvEnwi',
-			name : 'usL29ohtQkD5MAZ6',
-			utc_offset : 50,
+			id : 't0niOYUBAr935VWK',
+			name : 'jEmr5SuxZkgHONP1',
+			utc_offset : 34,
 		),
 	),
-	hash : 47,
+	hash : 24,
 );
 ```

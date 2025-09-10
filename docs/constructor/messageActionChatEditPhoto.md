@@ -2,7 +2,7 @@
 
 **Description** : *Group profile changed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageActionChatEditPhoto#7fcb13a8 photo:Photo = MessageAction;
@@ -29,7 +29,7 @@ messageActionChatEditPhoto#7fcb13a8 photo:Photo = MessageAction;
 ```php
 $messageAction = $client->messageActionChatEditPhoto(
 	photo : $client->photoEmpty(
-		id : -1328785980688135882,
+		id : 414615454073303319,
 	),
 );
 ```

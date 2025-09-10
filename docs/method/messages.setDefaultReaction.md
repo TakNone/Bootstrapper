@@ -2,7 +2,7 @@
 
 **Description** : *Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using help\.getConfig, reactions\_default field*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.setDefaultReaction#4f47a016 reaction:Reaction = Bool;

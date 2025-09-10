@@ -2,7 +2,7 @@
 
 **Description** : *Get a set of suggested custom emoji stickers that can be used as profile picture*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getDefaultProfilePhotoEmojis#e2750328 hash:long = EmojiList;
@@ -28,6 +28,6 @@ account.getDefaultProfilePhotoEmojis#e2750328 hash:long = EmojiList;
 
 ```php
 $emojiList = $client->account->getDefaultProfilePhotoEmojis(
-	hash : 6390655014258340164,
+	hash : 2258355307899333397,
 );
 ```

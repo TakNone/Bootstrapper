@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about one or more peers that the we \(the user\) shared with the bot after clicking on a keyboardButtonRequestPeer button \(service message sent by the user\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageActionRequestedPeer#31518e9b button_id:int peers:Vector<Peer> = MessageAction;
@@ -29,16 +29,16 @@ messageActionRequestedPeer#31518e9b button_id:int peers:Vector<Peer> = MessageAc
 
 ```php
 $messageAction = $client->messageActionRequestedPeer(
-	button_id : 39,
+	button_id : 75,
 	peers : array(
 		$client->peerUser(
-			user_id : 2598382421613576023,
+			user_id : 4061293123055477094,
 		),
 		$client->peerChat(
-			chat_id : -9179506539283857178,
+			chat_id : -6179420126474992033,
 		),
 		$client->peerChannel(
-			channel_id : 6459536649458336732,
+			channel_id : 9216285264687809794,
 		),
 	),
 );

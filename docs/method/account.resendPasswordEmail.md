@@ -2,7 +2,7 @@
 
 **Description** : *Resend the code to verify an email to use as 2FA recovery method*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.resendPasswordEmail#7a7f2a15 = Bool;

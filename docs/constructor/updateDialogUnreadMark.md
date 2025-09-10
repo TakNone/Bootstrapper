@@ -1,8 +1,6 @@
 # updateDialogUnreadMark
 
-**Description** : *The manual unread mark of a chat was changed*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateDialogUnreadMark#b658f23e flags:# unread:flags.0?true peer:DialogPeer saved_peer_id:flags.1?Peer = Update;
@@ -14,9 +12,9 @@ updateDialogUnreadMark#b658f23e flags:# unread:flags.0?true peer:DialogPeer save
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
-| **unread** | [`flags.0?true`](type/true) | Was the chat marked or unmarked as read |
-| <mark>peer</mark> | [`DialogPeer`](type/DialogPeer) | The dialog |
+| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| **unread** | [`flags.0?true`](type/true) | NOTHING |
+| <mark>peer</mark> | [`DialogPeer`](type/DialogPeer) | NOTHING |
 | **saved_peer_id** | [`flags.1?Peer`](type/Peer) | NOTHING |
 
 ---
@@ -34,11 +32,11 @@ $update = $client->updateDialogUnreadMark(
 	unread : true,
 	peer : $client->dialogPeer(
 		peer : $client->peerUser(
-			user_id : -912822719425537325,
+			user_id : 906534176476733352,
 		),
 	),
 	saved_peer_id : $client->peerUser(
-		user_id : 1101978327520066492,
+		user_id : -1757791584115893256,
 	),
 );
 ```

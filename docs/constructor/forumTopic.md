@@ -2,7 +2,7 @@
 
 **Description** : *Represents a forum topic*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 forumTopic#71701da9 flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true id:int date:int title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
@@ -52,35 +52,35 @@ $forumTopic = $client->forumTopic(
 	pinned : true,
 	short : true,
 	hidden : true,
-	id : 86,
-	date : 9,
-	title : 'pVsHX9uDdnJqQtgx',
-	icon_color : 100,
-	icon_emoji_id : -109744247216669125,
-	top_message : 78,
-	read_inbox_max_id : 31,
-	read_outbox_max_id : 40,
-	unread_count : 51,
-	unread_mentions_count : 97,
-	unread_reactions_count : 80,
+	id : 88,
+	date : 8,
+	title : 'syX76jKaUHTpNLEA',
+	icon_color : 17,
+	icon_emoji_id : -5342303337346465765,
+	top_message : 82,
+	read_inbox_max_id : 97,
+	read_outbox_max_id : 95,
+	unread_count : 74,
+	unread_mentions_count : 14,
+	unread_reactions_count : 94,
 	from_id : $client->peerUser(
-		user_id : -5872538236276105650,
+		user_id : -2665373763379896396,
 	),
 	notify_settings : $client->peerNotifySettings(
-		show_previews : false,
+		show_previews : true,
 		silent : true,
-		mute_until : 35,
+		mute_until : 5,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
 		stories_muted : false,
-		stories_hide_sender : false,
+		stories_hide_sender : true,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	draft : $client->draftMessageEmpty(
-		date : 76,
+		date : 85,
 	),
 );
 ```

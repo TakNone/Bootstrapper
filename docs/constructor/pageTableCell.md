@@ -2,7 +2,7 @@
 
 **Description** : *Table cell*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 pageTableCell#34566b6a flags:# header:flags.0?true align_center:flags.3?true align_right:flags.4?true valign_middle:flags.5?true valign_bottom:flags.6?true text:flags.7?RichText colspan:flags.1?int rowspan:flags.2?int = PageTableCell;
@@ -42,7 +42,7 @@ $pageTableCell = $client->pageTableCell(
 	valign_middle : true,
 	valign_bottom : true,
 	text : $client->textEmpty(),
-	colspan : 40,
-	rowspan : 23,
+	colspan : 58,
+	rowspan : 8,
 );
 ```

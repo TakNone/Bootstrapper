@@ -2,7 +2,7 @@
 
 **Description** : *The preview of the webpage hasn&#039;t changed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 webPageNotModified#7311ca11 flags:# cached_page_views:flags.0?int = WebPage;
@@ -29,6 +29,6 @@ webPageNotModified#7311ca11 flags:# cached_page_views:flags.0?int = WebPage;
 
 ```php
 $webPage = $client->webPageNotModified(
-	cached_page_views : 18,
+	cached_page_views : 15,
 );
 ```

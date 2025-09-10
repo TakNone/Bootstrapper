@@ -2,7 +2,7 @@
 
 **Description** : *Object describes message filter*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputMessagesFilterEmpty#57e2f66c = MessagesFilter;
@@ -22,6 +22,7 @@ inputMessagesFilterMyMentions#c1f8e69a = MessagesFilter;
 inputMessagesFilterGeo#e7026d0d = MessagesFilter;
 inputMessagesFilterContacts#e062db83 = MessagesFilter;
 inputMessagesFilterPinned#1bb00451 = MessagesFilter;
+inputMessagesFilterPhotoVideoDocuments#d95e73bb = MessagesFilter;
 ```
 
 ---
@@ -47,3 +48,4 @@ inputMessagesFilterPinned#1bb00451 = MessagesFilter;
 | [**inputMessagesFilterGeo**](constructor/inputMessagesFilterGeo) | Return only messages containing geolocations |
 | [**inputMessagesFilterContacts**](constructor/inputMessagesFilterContacts) | Return only messages containing contacts |
 | [**inputMessagesFilterPinned**](constructor/inputMessagesFilterPinned) | Fetch only pinned messages |
+| [**inputMessagesFilterPhotoVideoDocuments**](constructor/inputMessagesFilterPhotoVideoDocuments) | NOTHING |

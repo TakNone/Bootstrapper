@@ -2,7 +2,7 @@
 
 **Description** : *Allow all contacts*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 privacyValueAllowContacts#fffe1bac = PrivacyRule;

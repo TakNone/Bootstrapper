@@ -2,7 +2,7 @@
 
 **Description** : *Export a folder &raquo;, creating a chat folder deep link &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 chatlists.exportChatlistInvite#8472478e chatlist:InputChatlist title:string peers:Vector<InputPeer> = chatlists.ExportedChatlistInvite;
@@ -46,32 +46,32 @@ chatlists.exportChatlistInvite#8472478e chatlist:InputChatlist title:string peer
 ```php
 $chatlistsExportedChatlistInvite = $client->chatlists->exportChatlistInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 0,
+		filter_id : 17,
 	),
-	title : '5wzmd02XLcASn8bT',
+	title : 'QOcMH19mLvFYSxXC',
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 2618715344657724372,
+			chat_id : -479795464066022429,
 		),
 		$client->inputPeerUser(
-			user_id : -5213836654580665734,
-			access_hash : -7324358465023817576,
+			user_id : -2757225413023135513,
+			access_hash : -4215262077952828772,
 		),
 		$client->inputPeerChannel(
-			channel_id : 4818726413476339717,
-			access_hash : -1819448573366080594,
+			channel_id : -4023009573476357735,
+			access_hash : -8585918907154110970,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 47,
-			user_id : 1599356465197482675,
+			msg_id : 26,
+			user_id : -8466511395031156544,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 60,
-			channel_id : -9223244375715949,
+			msg_id : 19,
+			channel_id : -2594801596231623676,
 		),
 	),
 );

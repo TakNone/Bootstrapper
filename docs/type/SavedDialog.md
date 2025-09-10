@@ -2,7 +2,7 @@
 
 **Description** : *Represents a saved message dialog &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 savedDialog#bd87cb6c flags:# pinned:flags.2?true peer:Peer top_message:int = SavedDialog;

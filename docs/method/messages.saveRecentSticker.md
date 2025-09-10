@@ -2,7 +2,7 @@
 
 **Description** : *Add/remove sticker from recent stickers list*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.saveRecentSticker#392718f8 flags:# attached:flags.0?true id:InputDocument unsave:Bool = Bool;

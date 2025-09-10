@@ -2,7 +2,7 @@
 
 **Description** : *Indicate to the server \(from the user side\) that the user is still using a web app*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.prolongWebView#b0d81a83 flags:# silent:flags.5?true peer:InputPeer bot:InputUser query_id:long reply_to:flags.0?InputReplyTo send_as:flags.13?InputPeer = Bool;
@@ -45,107 +45,107 @@ $bool = $client->messages->prolongWebView(
 	silent : true,
 	peer : $client->inputPeerEmpty(),
 	bot : $client->inputUserEmpty(),
-	query_id : -5533646129302995118,
+	query_id : -3408400428712596244,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 96,
-		top_msg_id : 66,
+		reply_to_msg_id : 10,
+		top_msg_id : 63,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'ToDd05GY7egASf2u',
+		quote_text : 'MQbTc34ZUr7hyRL5',
 		quote_entities : array(
 			$client->messageEntityUnknown(
-				offset : 98,
-				length : 4,
+				offset : 69,
+				length : 78,
 			),
 			$client->messageEntityMention(
-				offset : 65,
-				length : 47,
+				offset : 9,
+				length : 4,
 			),
 			$client->messageEntityHashtag(
-				offset : 40,
-				length : 57,
+				offset : 69,
+				length : 4,
 			),
 			$client->messageEntityBotCommand(
-				offset : 44,
-				length : 73,
+				offset : 79,
+				length : 1,
 			),
 			$client->messageEntityUrl(
-				offset : 100,
-				length : 49,
+				offset : 79,
+				length : 76,
 			),
 			$client->messageEntityEmail(
-				offset : 22,
-				length : 45,
+				offset : 41,
+				length : 52,
 			),
 			$client->messageEntityBold(
-				offset : 16,
-				length : 44,
+				offset : 82,
+				length : 30,
 			),
 			$client->messageEntityItalic(
-				offset : 87,
-				length : 10,
+				offset : 5,
+				length : 77,
 			),
 			$client->messageEntityCode(
-				offset : 47,
-				length : 100,
+				offset : 33,
+				length : 92,
 			),
 			$client->messageEntityPre(
-				offset : 61,
-				length : 16,
-				language : 'nSAcoqGX2Or8EwpB',
+				offset : 96,
+				length : 34,
+				language : 'xUJr18tOszynpFKq',
 			),
 			$client->messageEntityTextUrl(
-				offset : 67,
-				length : 62,
+				offset : 30,
+				length : 91,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
-				offset : 60,
-				length : 26,
-				user_id : -2186556600155655447,
+				offset : 94,
+				length : 29,
+				user_id : -4647980303225308592,
 			),
 			$client->inputMessageEntityMentionName(
-				offset : 27,
-				length : 91,
+				offset : 41,
+				length : 50,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
-				offset : 60,
+				offset : 9,
 				length : 95,
 			),
 			$client->messageEntityCashtag(
-				offset : 45,
-				length : 36,
+				offset : 22,
+				length : 96,
 			),
 			$client->messageEntityUnderline(
-				offset : 82,
-				length : 18,
+				offset : 0,
+				length : 29,
 			),
 			$client->messageEntityStrike(
-				offset : 46,
-				length : 61,
+				offset : 100,
+				length : 3,
 			),
 			$client->messageEntityBankCard(
-				offset : 22,
-				length : 47,
+				offset : 62,
+				length : 27,
 			),
 			$client->messageEntitySpoiler(
 				offset : 88,
-				length : 48,
+				length : 3,
 			),
 			$client->messageEntityCustomEmoji(
-				offset : 1,
-				length : 52,
-				document_id : 791446103284614845,
+				offset : 77,
+				length : 51,
+				document_id : -5973222671490091674,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
-				offset : 12,
-				length : 88,
+				offset : 55,
+				length : 57,
 			),
 		),
-		quote_offset : 75,
+		quote_offset : 16,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 29,
+		todo_item_id : 21,
 	),
 	send_as : $client->inputPeerEmpty(),
 );

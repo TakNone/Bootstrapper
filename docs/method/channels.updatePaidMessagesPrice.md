@@ -1,6 +1,6 @@
 # channels.updatePaidMessagesPrice
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.updatePaidMessagesPrice#4b12327b flags:# broadcast_messages_allowed:flags.0?true channel:InputChannel send_paid_messages_stars:long = Updates;
@@ -31,6 +31,6 @@ channels.updatePaidMessagesPrice#4b12327b flags:# broadcast_messages_allowed:fla
 $updates = $client->channels->updatePaidMessagesPrice(
 	broadcast_messages_allowed : true,
 	channel : $client->inputChannelEmpty(),
-	send_paid_messages_stars : 1010123463942223809,
+	send_paid_messages_stars : -4941523577776036910,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Import a chat invite and join a private chat/supergroup/channel*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.importChatInvite#6c50051c hash:string = Updates;
@@ -49,6 +49,6 @@ messages.importChatInvite#6c50051c hash:string = Updates;
 
 ```php
 $updates = $client->messages->importChatInvite(
-	hash : 'I5Ztj0QbYPB7vlNh',
+	hash : 'KiO03UZxH1u7MYAd',
 );
 ```

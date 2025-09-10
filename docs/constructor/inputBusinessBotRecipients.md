@@ -2,7 +2,7 @@
 
 **Description** : *Specifies the private chats that a connected business bot &raquo; may interact with*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputBusinessBotRecipients#c4e5921e flags:# existing_chats:flags.0?true new_chats:flags.1?true contacts:flags.2?true non_contacts:flags.3?true exclude_selected:flags.5?true users:flags.4?Vector<InputUser> exclude_users:flags.6?Vector<InputUser> = InputBusinessBotRecipients;
@@ -44,26 +44,26 @@ $inputBusinessBotRecipients = $client->inputBusinessBotRecipients(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 5224170608797071207,
-			access_hash : -5433069225468522428,
+			user_id : 159478883330619495,
+			access_hash : -1829409304991178226,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 51,
-			user_id : -8563060936876716949,
+			msg_id : 13,
+			user_id : -3582274575899117882,
 		),
 	),
 	exclude_users : array(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 6651188958753115826,
-			access_hash : 6635634114593811556,
+			user_id : -8897411708154198224,
+			access_hash : -6890688920408629962,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 56,
-			user_id : -3239647763031341055,
+			msg_id : 26,
+			user_id : -3106579092211828282,
 		),
 	),
 );

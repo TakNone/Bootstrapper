@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about successfully or unsuccessfully invited &raquo; users*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.invitedUsers#7f5defa6 updates:Updates missing_invitees:Vector<MissingInvitee> = messages.InvitedUsers;
@@ -34,7 +34,7 @@ $messagesInvitedUsers = $client->messages->invitedUsers(
 		$client->missingInvitee(
 			premium_would_allow_invite : true,
 			premium_required_for_pm : true,
-			user_id : -8995322262506355327,
+			user_id : -1484239930333308841,
 		),
 	),
 );

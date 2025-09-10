@@ -2,7 +2,7 @@
 
 **Description** : *Object contains list of chats with auxiliary data*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.chats#64ff9fd5 chats:Vector<Chat> = messages.Chats;

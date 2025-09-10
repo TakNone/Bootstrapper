@@ -2,7 +2,7 @@
 
 **Description** : *A giveaway with public winners has finished, this constructor contains info about the winners*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageMediaGiveawayResults#ceaa3ea1 flags:# only_new_subscribers:flags.0?true refunded:flags.2?true channel_id:long additional_peers_count:flags.3?int launch_msg_id:int winners_count:int unclaimed_count:int winners:Vector<long> months:flags.4?int stars:flags.5?long prize_description:flags.1?string until_date:int = MessageMedia;
@@ -42,15 +42,15 @@ messageMediaGiveawayResults#ceaa3ea1 flags:# only_new_subscribers:flags.0?true r
 $messageMedia = $client->messageMediaGiveawayResults(
 	only_new_subscribers : true,
 	refunded : true,
-	channel_id : -402703883573682019,
-	additional_peers_count : 43,
-	launch_msg_id : 96,
-	winners_count : 56,
-	unclaimed_count : 85,
-	winners : array(-3865812990328237291),
-	months : 60,
-	stars : -1238378067422417821,
-	prize_description : 'GcEzY9VXigKHhZ65',
-	until_date : 73,
+	channel_id : -5067388889910265523,
+	additional_peers_count : 64,
+	launch_msg_id : 40,
+	winners_count : 36,
+	unclaimed_count : 77,
+	winners : array(7250843618774930819),
+	months : 52,
+	stars : -471183800617631989,
+	prize_description : 'uIasrERj3JPzSkfN',
+	until_date : 35,
 );
 ```

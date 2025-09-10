@@ -2,7 +2,7 @@
 
 **Description** : *Hide sent bot keyboard*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 replyKeyboardHide#a03e5b85 flags:# selective:flags.2?true = ReplyMarkup;

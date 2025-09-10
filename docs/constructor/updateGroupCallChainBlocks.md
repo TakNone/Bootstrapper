@@ -1,6 +1,6 @@
 # updateGroupCallChainBlocks
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:Vector<bytes> next_offset:int = Update;
@@ -30,11 +30,11 @@ updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:
 ```php
 $update = $client->updateGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : -1528757614158015117,
-		access_hash : -5687957263084729328,
+		id : -5182618430100225206,
+		access_hash : 8428834931459210379,
 	),
-	sub_chain_id : 43,
-	blocks : array('?j?7?LiveProto6?B??'),
-	next_offset : 63,
+	sub_chain_id : 28,
+	blocks : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
+	next_offset : 76,
 );
 ```

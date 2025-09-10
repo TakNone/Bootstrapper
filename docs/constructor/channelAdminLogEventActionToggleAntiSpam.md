@@ -2,7 +2,7 @@
 
 **Description** : *Native antispam functionality was enabled or disabled*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channelAdminLogEventActionToggleAntiSpam#64f36dfc new_value:Bool = ChannelAdminLogEventAction;

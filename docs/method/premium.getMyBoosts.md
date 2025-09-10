@@ -2,7 +2,7 @@
 
 **Description** : *Obtain which peers are we currently boosting, and how many boost slots we have left*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 premium.getMyBoosts#be77b4a = premium.MyBoosts;

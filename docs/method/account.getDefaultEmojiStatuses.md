@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of default suggested emoji statuses*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getDefaultEmojiStatuses#d6753386 hash:long = account.EmojiStatuses;
@@ -28,6 +28,6 @@ account.getDefaultEmojiStatuses#d6753386 hash:long = account.EmojiStatuses;
 
 ```php
 $accountEmojiStatuses = $client->account->getDefaultEmojiStatuses(
-	hash : 5423832382739207090,
+	hash : 3947408345124935222,
 );
 ```

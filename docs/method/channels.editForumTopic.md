@@ -2,7 +2,7 @@
 
 **Description** : *Edit forum topic; requires manage\_topics rights*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.editForumTopic#f4dfa185 flags:# channel:InputChannel topic_id:int title:flags.0?string icon_emoji_id:flags.1?long closed:flags.2?Bool hidden:flags.3?Bool = Updates;
@@ -51,10 +51,10 @@ channels.editForumTopic#f4dfa185 flags:# channel:InputChannel topic_id:int title
 ```php
 $updates = $client->channels->editForumTopic(
 	channel : $client->inputChannelEmpty(),
-	topic_id : 17,
-	title : 'DeN8dvTzbSEq6Rs7',
-	icon_emoji_id : -4432719449216682499,
+	topic_id : 39,
+	title : 'ytRvYcKZWihXzU0k',
+	icon_emoji_id : -5469604304278640783,
 	closed : true,
-	hidden : true,
+	hidden : false,
 );
 ```

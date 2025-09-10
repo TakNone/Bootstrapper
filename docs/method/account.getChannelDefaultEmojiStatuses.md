@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of default suggested channel emoji statuses*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getChannelDefaultEmojiStatuses#7727a7d5 hash:long = account.EmojiStatuses;
@@ -28,6 +28,6 @@ account.getChannelDefaultEmojiStatuses#7727a7d5 hash:long = account.EmojiStatuse
 
 ```php
 $accountEmojiStatuses = $client->account->getChannelDefaultEmojiStatuses(
-	hash : -1998308271276958620,
+	hash : 5614113748849535653,
 );
 ```

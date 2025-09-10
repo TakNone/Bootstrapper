@@ -1,6 +1,6 @@
 # account.getPaidMessagesRevenue
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getPaidMessagesRevenue#19ba4a67 flags:# parent_peer:flags.0?InputPeer user_id:InputUser = account.PaidMessagesRevenue;

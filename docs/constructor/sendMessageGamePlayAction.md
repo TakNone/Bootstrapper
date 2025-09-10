@@ -2,7 +2,7 @@
 
 **Description** : *User is playing a game*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 sendMessageGamePlayAction#dd6a8f48 = SendMessageAction;

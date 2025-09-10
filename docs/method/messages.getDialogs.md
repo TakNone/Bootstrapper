@@ -2,7 +2,7 @@
 
 **Description** : *Returns the current user dialog list*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getDialogs#a0f4cb4f flags:# exclude_pinned:flags.0?true folder_id:flags.1?int offset_date:int offset_id:int offset_peer:InputPeer limit:int hash:long = messages.Dialogs;
@@ -47,11 +47,11 @@ messages.getDialogs#a0f4cb4f flags:# exclude_pinned:flags.0?true folder_id:flags
 ```php
 $messagesDialogs = $client->messages->getDialogs(
 	exclude_pinned : true,
-	folder_id : 5,
-	offset_date : 28,
-	offset_id : 59,
+	folder_id : 12,
+	offset_date : 12,
+	offset_id : 43,
 	offset_peer : $client->inputPeerEmpty(),
-	limit : 92,
-	hash : -6585405690217662198,
+	limit : 9,
+	hash : 5983811675276960572,
 );
 ```

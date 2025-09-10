@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about a single boost slot &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 myBoost#c448415c flags:# slot:int peer:flags.0?Peer date:int expires:int cooldown_until_date:flags.1?int = MyBoost;
@@ -33,12 +33,12 @@ myBoost#c448415c flags:# slot:int peer:flags.0?Peer date:int expires:int cooldow
 
 ```php
 $myBoost = $client->myBoost(
-	slot : 11,
+	slot : 44,
 	peer : $client->peerUser(
-		user_id : 3797630805435828657,
+		user_id : 7687202481123781466,
 	),
-	date : 91,
-	expires : 8,
-	cooldown_until_date : 55,
+	date : 43,
+	expires : 23,
+	cooldown_until_date : 32,
 );
 ```

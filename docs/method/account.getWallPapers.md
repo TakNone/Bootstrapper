@@ -2,7 +2,7 @@
 
 **Description** : *Returns a list of available wallpapers*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getWallPapers#7967d36 hash:long = account.WallPapers;
@@ -28,6 +28,6 @@ account.getWallPapers#7967d36 hash:long = account.WallPapers;
 
 ```php
 $accountWallPapers = $client->account->getWallPapers(
-	hash : 8581730665487991325,
+	hash : 5600924247970526101,
 );
 ```

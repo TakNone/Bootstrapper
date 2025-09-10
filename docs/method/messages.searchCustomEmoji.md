@@ -2,7 +2,7 @@
 
 **Description** : *Look for custom emojis associated to a UTF8 emoji*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.searchCustomEmoji#2c11c0d7 emoticon:string hash:long = EmojiList;
@@ -37,7 +37,7 @@ messages.searchCustomEmoji#2c11c0d7 emoticon:string hash:long = EmojiList;
 
 ```php
 $emojiList = $client->messages->searchCustomEmoji(
-	emoticon : 'DLh4kwWmH7QiyqGT',
-	hash : 2771993818656565293,
+	emoticon : '6zpGfaRjoMsVQtrb',
+	hash : -39986742954909427,
 );
 ```

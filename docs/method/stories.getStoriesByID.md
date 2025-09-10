@@ -2,7 +2,7 @@
 
 **Description** : *Obtain full info about a set of stories by their IDs*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.getStoriesByID#5774ca74 peer:InputPeer id:Vector<int> = stories.Stories;
@@ -42,6 +42,6 @@ stories.getStoriesByID#5774ca74 peer:InputPeer id:Vector<int> = stories.Stories;
 ```php
 $storiesStories = $client->stories->getStoriesByID(
 	peer : $client->inputPeerEmpty(),
-	id : array(75),
+	id : array(97),
 );
 ```

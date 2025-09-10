@@ -902,6 +902,18 @@ This method can be used to fetch info about a not\-yet\-cached business connecti
 
 ---
 
+###### account.setMainProfileTab
+
+:link: [*NOTHING*](method/account.setMainProfileTab)
+
+---
+
+###### account.saveMusic
+
+:link: [*NOTHING*](method/account.saveMusic)
+
+---
+
 ###### users.getUsers
 
 :link: [*Returns basic user info according to their identifiers*](method/users.getUsers)
@@ -1086,6 +1098,12 @@ Returns an array of Telegram user IDs for all contacts \(0 if a contact does not
 ###### contacts.getSponsoredPeers
 
 :link: [*NOTHING*](method/contacts.getSponsoredPeers)
+
+---
+
+###### contacts.importCard
+
+:link: [*Returns general information on a user using his previously exported card as input\.The app may use it to open a conversation without knowing the user&#039;s phone number*](method/contacts.importCard)
 
 ---
 
@@ -2477,6 +2495,108 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
+###### messages.getWebViewResult
+
+:link: [*NOTHING*](method/messages.getWebViewResult)
+
+---
+
+###### messages.forwardMessage
+
+:link: [*Forwards single messages*](method/messages.forwardMessage)
+
+---
+
+###### messages.deleteAccount
+
+:link: [*NOTHING*](method/messages.deleteAccount)
+
+---
+
+###### messages.getUniqueStarGiftValueInfo
+
+:link: [*NOTHING*](method/messages.getUniqueStarGiftValueInfo)
+
+---
+
+###### messages.updateTheme
+
+:link: [*NOTHING*](method/messages.updateTheme)
+
+---
+
+###### messages.getSavedMusicByID
+
+:link: [*NOTHING*](method/messages.getSavedMusicByID)
+
+---
+
+###### messages.getSavedMusic
+
+:link: [*NOTHING*](method/messages.getSavedMusic)
+
+---
+
+###### messages.installTheme
+
+:link: [*NOTHING*](method/messages.installTheme)
+
+---
+
+###### messages.getStatsURL
+
+:link: [*Returns URL with the chat statistics\. Currently this method can be used only for channels*](method/messages.getStatsURL)
+
+---
+
+###### messages.createTheme
+
+:link: [*NOTHING*](method/messages.createTheme)
+
+---
+
+###### messages.getAllChats
+
+:link: [*Get all chats, channels and supergroups*](method/messages.getAllChats)
+
+---
+
+###### messages.getTheme
+
+:link: [*NOTHING*](method/messages.getTheme)
+
+---
+
+###### messages.checkCanSendGift
+
+:link: [*NOTHING*](method/messages.checkCanSendGift)
+
+---
+
+###### messages.uploadWallPaper
+
+:link: [*NOTHING*](method/messages.uploadWallPaper)
+
+---
+
+###### messages.getSavedMusicIds
+
+:link: [*NOTHING*](method/messages.getSavedMusicIds)
+
+---
+
+###### messages.setWebViewResult
+
+:link: [*NOTHING*](method/messages.setWebViewResult)
+
+---
+
+###### messages.getUniqueGiftChatThemes
+
+:link: [*NOTHING*](method/messages.getUniqueGiftChatThemes)
+
+---
+
 ###### updates.getState
 
 :link: [*Returns a current state of updates*](method/updates.getState)
@@ -2720,6 +2840,13 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 ###### help.getTimezonesList
 
 :link: [*Returns timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours &raquo;*](method/help.getTimezonesList)
+
+---
+
+###### help.getAppChangelog
+
+:link: [*Get changelog of current app\.
+Typically, an updates constructor will be returned, containing one or more updateServiceNotification updates with app\-specific changelogs*](method/help.getAppChangelog)
 
 ---
 
@@ -3110,6 +3237,12 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 ###### channels.checkSearchPostsFlood
 
 :link: [*NOTHING*](method/channels.checkSearchPostsFlood)
+
+---
+
+###### channels.setMainProfileTab
+
+:link: [*NOTHING*](method/channels.setMainProfileTab)
 
 ---
 
@@ -3623,6 +3756,12 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
+###### payments.requestRecurringPayment
+
+:link: [*NOTHING*](method/payments.requestRecurringPayment)
+
+---
+
 ###### stickers.createStickerSet
 
 :link: [*Create a stickerset*](method/stickers.createStickerSet)
@@ -3947,6 +4086,12 @@ As usual, the media DC is preferred, if available*](method/phone.getGroupCallStr
 ###### folders.editPeerFolders
 
 :link: [*Edit peers in peer folder*](method/folders.editPeerFolders)
+
+---
+
+###### folders.deleteFolder
+
+:link: [*Delete a peer folder*](method/folders.deleteFolder)
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Description** : *Group profile photo removed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageActionChatDeletePhoto#95e3fbef = MessageAction;

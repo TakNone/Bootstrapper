@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Stars topup option*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 starsTopupOption#bd915c0 flags:# extended:flags.1?true stars:long store_product:flags.0?string currency:string amount:long = StarsTopupOption;
@@ -34,9 +34,9 @@ starsTopupOption#bd915c0 flags:# extended:flags.1?true stars:long store_product:
 ```php
 $starsTopupOption = $client->starsTopupOption(
 	extended : true,
-	stars : -556448671843415123,
-	store_product : 'JV6YFjWeSik8m1uN',
-	currency : '2T9RqE1aImLcSKQk',
-	amount : -7756269469866800542,
+	stars : 7947674602699805443,
+	store_product : 'Fx83cqv0XmZCoKA2',
+	currency : 'P0XC5mzUKAxEafRD',
+	amount : 1617576198297389807,
 );
 ```

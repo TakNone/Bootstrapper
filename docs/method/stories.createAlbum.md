@@ -1,6 +1,6 @@
 # stories.createAlbum
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stories.createAlbum#a36396e5 peer:InputPeer title:string stories:Vector<int> = StoryAlbum;
@@ -29,7 +29,7 @@ stories.createAlbum#a36396e5 peer:InputPeer title:string stories:Vector<int> = S
 ```php
 $storyAlbum = $client->stories->createAlbum(
 	peer : $client->inputPeerEmpty(),
-	title : 'mvJtrcx03IAG7Ske',
-	stories : array(70),
+	title : 'KT6cRPz4xwVvO5f8',
+	stories : array(6),
 );
 ```

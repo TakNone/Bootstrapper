@@ -2,7 +2,7 @@
 
 **Description** : *GeoPoint*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 geoPoint#b2a2f663 flags:# long:double lat:double access_hash:long accuracy_radius:flags.0?int = GeoPoint;
@@ -32,9 +32,9 @@ geoPoint#b2a2f663 flags:# long:double lat:double access_hash:long accuracy_radiu
 
 ```php
 $geoPoint = $client->geoPoint(
-	long : -1656721.625,
-	lat : -1873832.55859375,
-	access_hash : -7492925361075773759,
-	accuracy_radius : 61,
+	long : -417072.5283203125,
+	lat : 806521.0908203125,
+	access_hash : -5027627374292986842,
+	accuracy_radius : 76,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Game highscore*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 highScore#73a379eb pos:int user_id:long score:int = HighScore;
@@ -30,8 +30,8 @@ highScore#73a379eb pos:int user_id:long score:int = HighScore;
 
 ```php
 $highScore = $client->highScore(
-	pos : 9,
-	user_id : -8803027734340900585,
-	score : 66,
+	pos : 55,
+	user_id : -3247847786940033989,
+	score : 35,
 );
 ```

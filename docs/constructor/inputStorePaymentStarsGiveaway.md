@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for a star giveaway, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?true winners_are_visible:flags.3?true stars:long boost_peer:InputPeer additional_peers:flags.1?Vector<InputPeer> countries_iso2:flags.2?Vector<string> prize_description:flags.4?string random_id:long until_date:int currency:string amount:long users:int = InputStorePaymentPurpose;
@@ -42,39 +42,39 @@ inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?tru
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	stars : 4692440387293920722,
+	stars : -4537773174173493842,
 	boost_peer : $client->inputPeerEmpty(),
 	additional_peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -4786673170649020518,
+			chat_id : 6549126989314521252,
 		),
 		$client->inputPeerUser(
-			user_id : 3352390335099231419,
-			access_hash : -2037345794940050559,
+			user_id : -7385776965380436927,
+			access_hash : -3701542418252331158,
 		),
 		$client->inputPeerChannel(
-			channel_id : -5303218321488418205,
-			access_hash : -7815574737844413358,
+			channel_id : -3875408386905014972,
+			access_hash : -5300547534769520736,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 98,
-			user_id : 658171482474434703,
+			msg_id : 36,
+			user_id : 7234361441707259942,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 16,
-			channel_id : -1082497551437816205,
+			msg_id : 69,
+			channel_id : -7693610750219002909,
 		),
 	),
-	countries_iso2 : array('41wgFTu0hYGU7xQW'),
-	prize_description : 'Ze0xnt9JOrzmpcH1',
-	random_id : -8664600521706257193,
-	until_date : 98,
-	currency : 'lJnu2x93hawIXciU',
-	amount : 2578383034335695579,
-	users : 99,
+	countries_iso2 : array('9OrsufbqZFRWvQnD'),
+	prize_description : 'KCPg2xBMJoEm7hAV',
+	random_id : 7096224372589874386,
+	until_date : 35,
+	currency : 'pzF7jhwsdi9OPRrn',
+	amount : -3403568437189951469,
+	users : 47,
 );
 ```

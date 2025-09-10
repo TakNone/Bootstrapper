@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the full list of usable animated message effects &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getAvailableEffects#dea20a39 hash:int = messages.AvailableEffects;
@@ -28,6 +28,6 @@ messages.getAvailableEffects#dea20a39 hash:int = messages.AvailableEffects;
 
 ```php
 $messagesAvailableEffects = $client->messages->getAvailableEffects(
-	hash : 32,
+	hash : 82,
 );
 ```

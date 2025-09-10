@@ -1,6 +1,6 @@
 # updateMonoForumNoPaidException
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_id:long saved_peer_id:Peer = Update;
@@ -30,9 +30,9 @@ updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_i
 ```php
 $update = $client->updateMonoForumNoPaidException(
 	exception : true,
-	channel_id : 9222685179519524449,
+	channel_id : -426675684958170687,
 	saved_peer_id : $client->peerUser(
-		user_id : -2183779020115655151,
+		user_id : -732395449381143695,
 	),
 );
 ```

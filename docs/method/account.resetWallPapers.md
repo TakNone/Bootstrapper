@@ -2,7 +2,7 @@
 
 **Description** : *Delete all installed wallpapers, reverting to the default wallpaper set*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.resetWallPapers#bb3b9804 = Bool;

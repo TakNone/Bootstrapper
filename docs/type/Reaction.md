@@ -2,7 +2,7 @@
 
 **Description** : *Message reaction*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 reactionEmpty#79f5d419 = Reaction;

@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a supported peer type for a bot mini app attachment menu*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 attachMenuPeerTypeSameBotPM#7d6be90e = AttachMenuPeerType;

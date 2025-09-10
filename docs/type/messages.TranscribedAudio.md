@@ -2,7 +2,7 @@
 
 **Description** : *Transcribed text from a voice message*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.transcribedAudio#cfb9d957 flags:# pending:flags.0?true transcription_id:long text:string trial_remains_num:flags.1?int trial_remains_until_date:flags.1?int = messages.TranscribedAudio;

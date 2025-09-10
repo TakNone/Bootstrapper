@@ -2,7 +2,7 @@
 
 **Description** : *Sends a request to start a secret chat to the user*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.requestEncryption#f64daf43 user_id:InputUser random_id:int g_a:bytes = EncryptedChat;
@@ -41,8 +41,7 @@ messages.requestEncryption#f64daf43 user_id:InputUser random_id:int g_a:bytes = 
 ```php
 $encryptedChat = $client->messages->requestEncryption(
 	user_id : $client->inputUserEmpty(),
-	random_id : 32,
-	g_a : '
-3?1@LiveProto???,y',
+	random_id : 61,
+	g_a : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

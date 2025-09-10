@@ -2,7 +2,7 @@
 
 **Description** : *Get users and geochats near you, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.getLocated#d348bc44 flags:# background:flags.1?true geo_point:InputGeoPoint self_expires:flags.0?int = Updates;
@@ -44,6 +44,6 @@ contacts.getLocated#d348bc44 flags:# background:flags.1?true geo_point:InputGeoP
 $updates = $client->contacts->getLocated(
 	background : true,
 	geo_point : $client->inputGeoPointEmpty(),
-	self_expires : 53,
+	self_expires : 39,
 );
 ```

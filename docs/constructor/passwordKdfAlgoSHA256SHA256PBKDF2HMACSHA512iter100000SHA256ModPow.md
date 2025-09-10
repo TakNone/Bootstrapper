@@ -2,7 +2,7 @@
 
 **Description** : *This key derivation algorithm defines that SRP 2FA login must be used*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow#3a912d4a salt1:bytes salt2:bytes g:int p:bytes = PasswordKdfAlgo;
@@ -31,10 +31,9 @@ passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow#3a912d4a salt1
 
 ```php
 $passwordKdfAlgo = $client->passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow(
-	salt1 : '?c??LiveProtoکZ\\z',
-	salt2 : '?
-\\?<LiveProto????',
-	g : 97,
-	p : '?]?LiveProto?U??',
+	salt1 : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	salt2 : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	g : 56,
+	p : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

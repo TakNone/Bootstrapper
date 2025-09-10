@@ -2,7 +2,7 @@
 
 **Description** : *User is choosing a sticker*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 sendMessageChooseStickerAction#b05ac6b1 = SendMessageAction;

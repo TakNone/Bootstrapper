@@ -2,7 +2,7 @@
 
 **Description** : *The admin rights of a user were changed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channelAdminLogEventActionParticipantToggleAdmin#d5676710 prev_participant:ChannelParticipant new_participant:ChannelParticipant = ChannelAdminLogEventAction;
@@ -30,14 +30,14 @@ channelAdminLogEventActionParticipantToggleAdmin#d5676710 prev_participant:Chann
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantToggleAdmin(
 	prev_participant : $client->channelParticipant(
-		user_id : -5607153459405367749,
-		date : 85,
-		subscription_until_date : 91,
+		user_id : 283388475121485484,
+		date : 5,
+		subscription_until_date : 73,
 	),
 	new_participant : $client->channelParticipant(
-		user_id : -8237641763833586469,
-		date : 22,
-		subscription_until_date : 14,
+		user_id : 3826655169339147538,
+		date : 80,
+		subscription_until_date : 70,
 	),
 );
 ```

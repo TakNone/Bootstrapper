@@ -2,7 +2,7 @@
 
 **Description** : *The full list of usable animated message effects &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.availableEffects#bddb616e hash:int effects:Vector<AvailableEffect> documents:Vector<Document> = messages.AvailableEffects;
@@ -30,87 +30,87 @@ messages.availableEffects#bddb616e hash:int effects:Vector<AvailableEffect> docu
 
 ```php
 $messagesAvailableEffects = $client->messages->availableEffects(
-	hash : 100,
+	hash : 51,
 	effects : array(
 		$client->availableEffect(
 			premium_required : true,
-			id : 5419456833590446928,
-			emoticon : 'xqk7F0zvVYuHBtXc',
-			static_icon_id : -1802991598252857377,
-			effect_sticker_id : 633085037782099724,
-			effect_animation_id : -1864525558092791057,
+			id : -9015899589098567820,
+			emoticon : 'eaBM4xnfbyv7hA9O',
+			static_icon_id : 8876386789833765852,
+			effect_sticker_id : 2857199566714539301,
+			effect_animation_id : 6980095990735031323,
 		),
 	),
 	documents : array(
 		$client->documentEmpty(
-			id : -7829876771578696051,
+			id : -1231899714562465098,
 		),
 		$client->document(
-			id : 4802053540534156861,
-			access_hash : -448772811831594420,
-			file_reference : 'j?fK?LiveProto?2|n',
-			date : 34,
-			mime_type : 'qEncy7AaJC460Gpi',
-			size : -706327402551140073,
+			id : -1848550856601599957,
+			access_hash : 4115976924201926949,
+			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			date : 100,
+			mime_type : 'phT6NoOtRqQvDiWZ',
+			size : 2391704598506668328,
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'q9lRLi8z0u2Prw3y',
+					type : 'vGuKiOYca7Vd4LPl',
 				),
 				$client->photoSize(
-					type : '5oHGF7cukpzT0yNi',
-					w : 45,
-					h : 41,
-					size : 67,
+					type : 'LzigsIfw50Rr2YXV',
+					w : 85,
+					h : 24,
+					size : 30,
 				),
 				$client->photoCachedSize(
-					type : 'hP9ZtgYwKiXUcq70',
-					w : 10,
-					h : 63,
-					bytes : 'dy?LiveProto`U?i?',
+					type : 'JaXYAunKGRrdO67Q',
+					w : 95,
+					h : 84,
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'zpiqNwtEn9a5u3Yd',
-					bytes : '?????LiveProto????n',
+					type : 'wZY7obKVnz50dFWs',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'nBrYGy5iPevQWbwM',
-					w : 65,
-					h : 56,
-					sizes : array(75),
+					type : 'zcqK71MDwUPu6oJF',
+					w : 83,
+					h : 7,
+					sizes : array(98),
 				),
 				$client->photoPathSize(
-					type : 'QoyazlSYT3Xhfm8L',
-					bytes : '?B{?RLiveProto{t἟',
+					type : 'q1ngMYIw5lVO48c0',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_thumbs : array(
 				$client->videoSize(
-					type : 'dZ0V1cjAJmYiM7wh',
-					w : 30,
-					h : 31,
-					size : 3,
-					video_start_ts : 688689.158203125,
+					type : 'iUd2mM8u6RjVaF54',
+					w : 38,
+					h : 82,
+					size : 57,
+					video_start_ts : -132957.1572265625,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : -1897838877826505243,
-					background_colors : array(23),
+					emoji_id : -4865664907434743409,
+					background_colors : array(92),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(...),
-					sticker_id : 380948205952026295,
-					background_colors : array(12),
+					sticker_id : -2652688387327771125,
+					background_colors : array(2),
 				),
 			),
-			dc_id : 89,
+			dc_id : 9,
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 42,
-					h : 40,
+					w : 55,
+					h : 65,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'hY9Hk2rRAyNIs7Ko',
+					alt : 'xI7ndNTulzv8kgJY',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -118,28 +118,28 @@ $messagesAvailableEffects = $client->messages->availableEffects(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : 1322486.2607421875,
-					w : 45,
-					h : 12,
-					preload_prefix_size : 39,
-					video_start_ts : 674324.9716796875,
-					video_codec : 'RPqZ2I5GJOSUYcBn',
+					duration : 707916.8935546875,
+					w : 10,
+					h : 92,
+					preload_prefix_size : 29,
+					video_start_ts : 230874.953125,
+					video_codec : 'KzQMNwfLl6a1uqeZ',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 49,
-					title : 'x4XrAvENRUnzSp7M',
-					performer : 'E8XK5a2elMo6FrDt',
-					waveform : 'ٰ??LiveProto?O??',
+					duration : 63,
+					title : 'd05TFz27uAxDUsgC',
+					performer : 'ljRZH1POqtsQKn5M',
+					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'TavlxL6COAgtU0H9',
+					file_name : 'DmadhNMBGVKA5ey7',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'SgtfsbH7YD5Koz0v',
+					alt : 'WM0c6f9b7BrdmieL',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),

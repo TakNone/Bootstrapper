@@ -2,7 +2,7 @@
 
 **Description** : *Associate a stickerset to the supergroup*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.setStickers#ea8ca4f9 channel:InputChannel stickerset:InputStickerSet = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *A new groupcall was started*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateGroupCall#97d64341 flags:# chat_id:flags.0?long call:GroupCall = Update;
@@ -30,11 +30,11 @@ updateGroupCall#97d64341 flags:# chat_id:flags.0?long call:GroupCall = Update;
 
 ```php
 $update = $client->updateGroupCall(
-	chat_id : 3354862958735691510,
+	chat_id : 1251976162669290394,
 	call : $client->groupCallDiscarded(
-		id : -467168216503356380,
-		access_hash : 6498270587380629637,
-		duration : 91,
+		id : 5976594775645403230,
+		access_hash : 5065707576181335410,
+		duration : 95,
 	),
 );
 ```

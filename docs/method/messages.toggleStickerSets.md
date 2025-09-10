@@ -2,7 +2,7 @@
 
 **Description** : *Apply changes to multiple stickersets*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.toggleStickerSets#b5052fea flags:# uninstall:flags.0?true archive:flags.1?true unarchive:flags.2?true stickersets:Vector<InputStickerSet> = Bool;
@@ -38,15 +38,15 @@ $bool = $client->messages->toggleStickerSets(
 	stickersets : array(
 		$client->inputStickerSetEmpty(),
 		$client->inputStickerSetID(
-			id : -8973258396230295913,
-			access_hash : 8359728543981117595,
+			id : -1911010013518286016,
+			access_hash : 4932044106573782942,
 		),
 		$client->inputStickerSetShortName(
-			short_name : 'HJ2njVCURWkDcFaY',
+			short_name : 'O1dmK4q2zXhreplG',
 		),
 		$client->inputStickerSetAnimatedEmoji(),
 		$client->inputStickerSetDice(
-			emoticon : 'kcvTwShsXDx7g2Ua',
+			emoticon : 'nGys7Pih4ABj3ILv',
 		),
 		$client->inputStickerSetAnimatedEmojiAnimations(),
 		$client->inputStickerSetPremiumGifts(),

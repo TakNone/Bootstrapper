@@ -2,7 +2,7 @@
 
 **Description** : *Data center*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 dcOption#18b7a10d flags:# ipv6:flags.0?true media_only:flags.1?true tcpo_only:flags.2?true cdn:flags.3?true static:flags.4?true this_port_only:flags.5?true id:int ip_address:string port:int secret:flags.10?bytes = DcOption;
@@ -44,9 +44,9 @@ $dcOption = $client->dcOption(
 	cdn : true,
 	static : true,
 	this_port_only : true,
-	id : 87,
+	id : 58,
 	ip_address : '127.0.0.1',
-	port : 80,
-	secret : 'z?Q\'?LiveProto?"?8',
+	port : 27,
+	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

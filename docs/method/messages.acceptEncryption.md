@@ -2,7 +2,7 @@
 
 **Description** : *Confirms creation of a secret chat*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.acceptEncryption#3dbc0415 peer:InputEncryptedChat g_b:bytes key_fingerprint:long = EncryptedChat;
@@ -41,10 +41,10 @@ messages.acceptEncryption#3dbc0415 peer:InputEncryptedChat g_b:bytes key_fingerp
 ```php
 $encryptedChat = $client->messages->acceptEncryption(
 	peer : $client->inputEncryptedChat(
-		chat_id : 2,
-		access_hash : -5292969869618616185,
+		chat_id : 68,
+		access_hash : 6249438587982127607,
 	),
-	g_b : '?0C?LiveProto????',
-	key_fingerprint : -7399083386871604621,
+	g_b : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	key_fingerprint : 1204152172068312819,
 );
 ```

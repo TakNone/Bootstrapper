@@ -2,7 +2,7 @@
 
 **Description** : *Marks message history as read*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessages;
@@ -41,6 +41,6 @@ messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessag
 ```php
 $messagesAffectedMessages = $client->messages->readHistory(
 	peer : $client->inputPeerEmpty(),
-	max_id : 23,
+	max_id : 86,
 );
 ```

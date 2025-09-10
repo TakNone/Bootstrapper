@@ -2,7 +2,7 @@
 
 **Description** : *Configuring parameters did not change*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.dhConfigNotModified#c0e24635 random:bytes = messages.DhConfig;
@@ -28,6 +28,6 @@ messages.dhConfigNotModified#c0e24635 random:bytes = messages.DhConfig;
 
 ```php
 $messagesDhConfig = $client->messages->dhConfigNotModified(
-	random : '~n?d"LiveProto??#?',
+	random : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

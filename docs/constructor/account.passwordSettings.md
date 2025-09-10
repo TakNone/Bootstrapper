@@ -2,7 +2,7 @@
 
 **Description** : *Private info associated to the password info \(recovery email, telegram passport info &amp; so on\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.passwordSettings#9a5c33e5 flags:# email:flags.0?string secure_settings:flags.1?SecureSecretSettings = account.PasswordSettings;
@@ -33,8 +33,8 @@ $accountPasswordSettings = $client->account->passwordSettings(
 	email : 'reply@liveproto.dev',
 	secure_settings : $client->secureSecretSettings(
 		secure_algo : $client->securePasswordKdfAlgoUnknown(),
-		secure_secret : 'o??FgLiveProto??8?',
-		secure_secret_id : -4933386466032183852,
+		secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		secure_secret_id : -3883775192342671405,
 	),
 );
 ```

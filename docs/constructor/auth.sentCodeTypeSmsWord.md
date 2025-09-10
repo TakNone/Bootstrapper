@@ -2,7 +2,7 @@
 
 **Description** : *The code was sent via SMS as a secret word, starting with the letter specified in beginning*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 auth.sentCodeTypeSmsWord#a416ac81 flags:# beginning:flags.0?string = auth.SentCodeType;
@@ -29,6 +29,6 @@ auth.sentCodeTypeSmsWord#a416ac81 flags:# beginning:flags.0?string = auth.SentCo
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeSmsWord(
-	beginning : 'NKOJjcqzELpvXoI1',
+	beginning : '7p1mwWTYOR58a9tC',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Button to force a user to switch to inline mode: pressing the button will prompt the user to select one of their chats, open that chat and insert the bot&#039;s username and the specified inline query in the input field*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 keyboardButtonSwitchInline#93b9fbb5 flags:# same_peer:flags.0?true text:string query:string peer_types:flags.1?Vector<InlineQueryPeerType> = KeyboardButton;
@@ -33,8 +33,8 @@ keyboardButtonSwitchInline#93b9fbb5 flags:# same_peer:flags.0?true text:string q
 ```php
 $keyboardButton = $client->keyboardButtonSwitchInline(
 	same_peer : true,
-	text : 'fhjI7lc6MH0aWgTU',
-	query : 'GAe0cVqt8Poa3KTD',
+	text : 'KeMTG2FfmnJUI9XC',
+	query : 'GhtNaYfTlnm9W2wr',
 	peer_types : array(
 		$client->inlineQueryPeerTypeSameBotPM(),
 		$client->inlineQueryPeerTypePM(),

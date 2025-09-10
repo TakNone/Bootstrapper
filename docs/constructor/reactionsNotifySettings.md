@@ -2,7 +2,7 @@
 
 **Description** : *Reaction notification settings, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 reactionsNotifySettings#56e34970 flags:# messages_notify_from:flags.0?ReactionNotificationsFrom stories_notify_from:flags.1?ReactionNotificationsFrom sound:NotificationSound show_previews:Bool = ReactionsNotifySettings;
@@ -35,6 +35,6 @@ $reactionsNotifySettings = $client->reactionsNotifySettings(
 	messages_notify_from : $client->reactionNotificationsFromContacts(),
 	stories_notify_from : $client->reactionNotificationsFromContacts(),
 	sound : $client->notificationSoundDefault(),
-	show_previews : false,
+	show_previews : true,
 );
 ```

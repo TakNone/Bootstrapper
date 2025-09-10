@@ -2,7 +2,7 @@
 
 **Description** : *New photo to be set as group profile photo*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputChatUploadedPhoto#bdcdaec0 flags:# file:flags.0?InputFile video:flags.1?InputFile video_start_ts:flags.2?double video_emoji_markup:flags.3?VideoSize = InputChatPhoto;
@@ -33,24 +33,24 @@ inputChatUploadedPhoto#bdcdaec0 flags:# file:flags.0?InputFile video:flags.1?Inp
 ```php
 $inputChatPhoto = $client->inputChatUploadedPhoto(
 	file : $client->inputFile(
-		id : -8363401201529886241,
-		parts : 7,
-		name : 'WJ08AnEGNMaxibIw',
+		id : -8943225302674647588,
+		parts : 98,
+		name : 'weajvQ2Uq6rADhxM',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
 	video : $client->inputFile(
-		id : -2497084504505083240,
-		parts : 69,
-		name : 'jgIpHwhBVE3QeZkK',
+		id : -1700375651242962715,
+		parts : 62,
+		name : '5djmITi1BSLyZ87r',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	video_start_ts : 446850.4423828125,
+	video_start_ts : 353803.1015625,
 	video_emoji_markup : $client->videoSize(
-		type : 'G67yqN4njS1LJTXC',
-		w : 13,
-		h : 31,
-		size : 37,
-		video_start_ts : 1907425.953125,
+		type : 'IjBx23tOuWJnGzNq',
+		w : 91,
+		h : 65,
+		size : 69,
+		video_start_ts : -453426.0966796875,
 	),
 );
 ```

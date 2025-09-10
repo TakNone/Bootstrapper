@@ -2,7 +2,7 @@
 
 **Description** : *A list of saved notification sounds*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.savedRingtones#c1e92cc5 hash:long ringtones:Vector<Document> = account.SavedRingtones;
@@ -29,77 +29,77 @@ account.savedRingtones#c1e92cc5 hash:long ringtones:Vector<Document> = account.S
 
 ```php
 $accountSavedRingtones = $client->account->savedRingtones(
-	hash : -309789784258882833,
+	hash : -3677092024502693932,
 	ringtones : array(
 		$client->documentEmpty(
-			id : 5996380851394142228,
+			id : 7826343201178486870,
 		),
 		$client->document(
-			id : 1039727666146474181,
-			access_hash : 7706733235570664154,
-			file_reference : 'I?RLiveProto??9?W',
-			date : 8,
-			mime_type : 'wYJbPopFlmBWr1u2',
-			size : -121216336229344297,
+			id : 7248461852274440436,
+			access_hash : 7689606101178393197,
+			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			date : 59,
+			mime_type : 'QNR3EDxpkedKw4JO',
+			size : -2750130429734692416,
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'bzn3TIgW7pyaxLrC',
+					type : 'o2CANVgR6IBOXzFf',
 				),
 				$client->photoSize(
-					type : 'EAnLsyuQ47eGlmb6',
-					w : 10,
-					h : 68,
-					size : 12,
+					type : 'a3TxEytDkKoF4XH8',
+					w : 57,
+					h : 84,
+					size : 68,
 				),
 				$client->photoCachedSize(
-					type : 'qBzYePbDKGiMSrJU',
-					w : 65,
-					h : 82,
-					bytes : ' =JLiveProto?t7??',
+					type : '0RJ3ZH2yIKpsXNoj',
+					w : 1,
+					h : 96,
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'pY6ic10dTX9ru8Nj',
-					bytes : '??LiveProto????I',
+					type : '7YdgWZAbqOJi1K6N',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'wpRiLEyvz7sxIVmF',
-					w : 42,
-					h : 11,
-					sizes : array(14),
+					type : 'UhBgxwHq1NkTI6bp',
+					w : 50,
+					h : 61,
+					sizes : array(85),
 				),
 				$client->photoPathSize(
-					type : 'nOgZ7GkwLyorRNtx',
-					bytes : 'TU???LiveProto?ԟ?',
+					type : '4qx7AOlSV9rvTZeQ',
+					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_thumbs : array(
 				$client->videoSize(
-					type : 'BdwWNlQgMFAUeZL4',
-					w : 7,
-					h : 17,
-					size : 64,
-					video_start_ts : -1402803.0654296875,
+					type : 'lNIosRxKHdXhS4J8',
+					w : 40,
+					h : 12,
+					size : 32,
+					video_start_ts : 935881.6103515625,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : -2891425703711537733,
-					background_colors : array(42),
+					emoji_id : -2547893181036382244,
+					background_colors : array(64),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(...),
-					sticker_id : 5747042465968640323,
-					background_colors : array(82),
+					sticker_id : 6551090791515747,
+					background_colors : array(23),
 				),
 			),
-			dc_id : 47,
+			dc_id : 96,
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 45,
-					h : 91,
+					w : 86,
+					h : 79,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'qbQsw8CWPn6zjYy0',
+					alt : 'dRrqzc1eoZ8bTYBu',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -107,28 +107,28 @@ $accountSavedRingtones = $client->account->savedRingtones(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : 1038825.0478515625,
-					w : 45,
-					h : 68,
-					preload_prefix_size : 62,
-					video_start_ts : 1376778.9072265625,
-					video_codec : 'GH3cJk4xwroPE5U7',
+					duration : 287414.5966796875,
+					w : 28,
+					h : 74,
+					preload_prefix_size : 40,
+					video_start_ts : 399593.888671875,
+					video_codec : 'N8qi5JQHIuz7mMn0',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 77,
-					title : 'NIy5GkKsaPW4Jx7D',
-					performer : 'B4odOW3MZVEiz6Pl',
-					waveform : 'U???SLiveProtoA???',
+					duration : 32,
+					title : 'D1iy8qmPbCYo2TNL',
+					performer : 'sWXeGSziby0LD1RC',
+					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'loOayxSBXhEqNMYt',
+					file_name : 'IXpx5RvCAwE27OSz',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'fZ9GsmzY3FhKWcRk',
+					alt : 'YQT2ndBsVhaSK8gi',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),

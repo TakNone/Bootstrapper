@@ -1,6 +1,6 @@
 # StarGiftAttributeId
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 starGiftAttributeIdModel#48aaae3c document_id:long = StarGiftAttributeId;

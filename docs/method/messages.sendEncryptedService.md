@@ -2,7 +2,7 @@
 
 **Description** : *Sends a service message to a secret chat*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.sendEncryptedService#32d439a4 peer:InputEncryptedChat random_id:long data:bytes = messages.SentEncryptedMessage;
@@ -45,10 +45,10 @@ messages.sendEncryptedService#32d439a4 peer:InputEncryptedChat random_id:long da
 ```php
 $messagesSentEncryptedMessage = $client->messages->sendEncryptedService(
 	peer : $client->inputEncryptedChat(
-		chat_id : 93,
-		access_hash : 3467353596317004173,
+		chat_id : 27,
+		access_hash : -464237941533436552,
 	),
-	random_id : -3840035219003709024,
-	data : '?5???LiveProtoB????',
+	random_id : 396961213676440036,
+	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

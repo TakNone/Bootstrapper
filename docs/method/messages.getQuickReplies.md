@@ -2,7 +2,7 @@
 
 **Description** : *Fetch basic info about all existing quick reply shortcuts*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getQuickReplies#d483f2a8 hash:long = messages.QuickReplies;
@@ -28,6 +28,6 @@ messages.getQuickReplies#d483f2a8 hash:long = messages.QuickReplies;
 
 ```php
 $messagesQuickReplies = $client->messages->getQuickReplies(
-	hash : -5552316691079798593,
+	hash : 6489926386408337299,
 );
 ```

@@ -1,6 +1,6 @@
 # contacts.getSponsoredPeers
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.getSponsoredPeers#b6c8c393 q:string = contacts.SponsoredPeers;
@@ -26,6 +26,6 @@ contacts.getSponsoredPeers#b6c8c393 q:string = contacts.SponsoredPeers;
 
 ```php
 $contactsSponsoredPeers = $client->contacts->getSponsoredPeers(
-	q : '17MtuRYSlLiAbdXx',
+	q : 'L4cVFUMaH86n7N5r',
 );
 ```

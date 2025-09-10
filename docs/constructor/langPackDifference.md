@@ -2,7 +2,7 @@
 
 **Description** : *Changes to the app&#039;s localization pack*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 langPackDifference#f385c1f6 lang_code:string from_version:int version:int strings:Vector<LangPackString> = LangPackDifference;
@@ -31,25 +31,25 @@ langPackDifference#f385c1f6 lang_code:string from_version:int version:int string
 
 ```php
 $langPackDifference = $client->langPackDifference(
-	lang_code : 'OV4P1G5jiMCBwkHL',
-	from_version : 33,
-	version : 19,
+	lang_code : 'lKf1Aveyh6T8q3Ii',
+	from_version : 40,
+	version : 100,
 	strings : array(
 		$client->langPackString(
-			key : '5fQuTM3KhD4vPVRa',
-			value : 'BhdiM6Pqvs9n8cY1',
+			key : '1nYoCmxJODSF8Uk7',
+			value : '7dsE24Vth1FrzcbA',
 		),
 		$client->langPackStringPluralized(
-			key : '4akGuYW0DpnxgP5U',
-			zero_value : 'iQOxdgmKupan8Y0J',
-			one_value : 'mREuLb64MOelvH7I',
-			two_value : '9EKIRyiZuGB1F47L',
-			few_value : '3x8FqBpoumsZ5cfM',
-			many_value : 'qODuNHWPxt0538BQ',
-			other_value : 'qa6FfkjH3DJYvpTz',
+			key : 'EFOjJGfT4a8bR0zy',
+			zero_value : '5OWAbIqdvR81oDNk',
+			one_value : 'GORv19TlzdiuLCwc',
+			two_value : 'E2IPc3sDjnFXYHyK',
+			few_value : 'Db1HP9dUTrpgxK6J',
+			many_value : 'i7DuRISK6Hkwpz8T',
+			other_value : 'JnGgA51iEqDbPBUo',
 		),
 		$client->langPackStringDeleted(
-			key : 'jlYGiwS1EWAgTkvX',
+			key : 'c34mz0HeT5NXKG62',
 		),
 	),
 );

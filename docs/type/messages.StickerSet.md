@@ -2,7 +2,7 @@
 
 **Description** : *Stickerset*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.stickerSet#6e153f16 set:StickerSet packs:Vector<StickerPack> keywords:Vector<StickerKeyword> documents:Vector<Document> = messages.StickerSet;

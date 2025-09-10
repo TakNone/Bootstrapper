@@ -2,7 +2,7 @@
 
 **Description** : *A cloud theme was updated*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateTheme#8216fba3 theme:Theme = Update;
@@ -32,25 +32,25 @@ $update = $client->updateTheme(
 		creator : true,
 		default : true,
 		for_chat : true,
-		id : -4957608913014405974,
-		access_hash : 6459886171288109040,
-		slug : 'Fh6YmlypOJqiEotX',
-		title : 'umgf96XQn84y0jhB',
+		id : -2010948287663817885,
+		access_hash : -6412125601639375623,
+		slug : 'eQvizoJR5KE7Ch8T',
+		title : '9deI2wX1ZF37VKYm',
 		document : $client->documentEmpty(
-			id : 3250257058964477474,
+			id : -3484007295790679931,
 		),
 		settings : array(
 			$client->themeSettings(
 				message_colors_animated : true,
 				base_theme : $client->baseThemeClassic(...),
-				accent_color : 80,
-				outbox_accent_color : 99,
-				message_colors : array(51),
+				accent_color : 58,
+				outbox_accent_color : 28,
+				message_colors : array(15),
 				wallpaper : $client->wallPaper(...),
 			),
 		),
-		emoticon : '31t2krIEjYs45yGH',
-		installs_count : 30,
+		emoticon : 'l21Yn48jDchIpx0J',
+		installs_count : 89,
 	),
 );
 ```

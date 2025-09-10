@@ -2,7 +2,7 @@
 
 **Description** : *Story view date and reaction information*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 storyView#b0bdeac5 flags:# blocked:flags.0?true blocked_my_stories_from:flags.1?true user_id:long date:int reaction:flags.2?Reaction = StoryView;

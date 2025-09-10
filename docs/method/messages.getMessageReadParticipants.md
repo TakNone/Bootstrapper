@@ -2,7 +2,7 @@
 
 **Description** : *Get which users read a specific message: only available for groups and supergroups with less than chat\_read\_mark\_size\_threshold members, read receipts will be stored for chat\_read\_mark\_expire\_period seconds after the message was sent, see client configuration for more info &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getMessageReadParticipants#31c1c44f peer:InputPeer msg_id:int = Vector<ReadParticipantDate>;
@@ -41,6 +41,6 @@ messages.getMessageReadParticipants#31c1c44f peer:InputPeer msg_id:int = Vector<
 ```php
 $readParticipantDate = $client->messages->getMessageReadParticipants(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 41,
+	msg_id : 39,
 );
 ```

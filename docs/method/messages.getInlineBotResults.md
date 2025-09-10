@@ -2,7 +2,7 @@
 
 **Description** : *Query an inline bot*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getInlineBotResults#514e999d flags:# bot:InputUser peer:InputPeer geo_point:flags.0?InputGeoPoint query:string offset:string = messages.BotResults;
@@ -51,7 +51,7 @@ $messagesBotResults = $client->messages->getInlineBotResults(
 	bot : $client->inputUserEmpty(),
 	peer : $client->inputPeerEmpty(),
 	geo_point : $client->inputGeoPointEmpty(),
-	query : 'vT1CLtzyArsGZMSE',
-	offset : 'LfyH2EYpo8F67KeX',
+	query : 'QSYBnWO7ithxKEA6',
+	offset : 'ZVgjn4pJRNu1Bi9P',
 );
 ```

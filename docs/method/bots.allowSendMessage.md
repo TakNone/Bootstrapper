@@ -2,7 +2,7 @@
 
 **Description** : *Allow the specified bot to send us messages*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 bots.allowSendMessage#f132e3ef bot:InputUser = Updates;

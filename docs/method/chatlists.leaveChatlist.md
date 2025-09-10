@@ -2,7 +2,7 @@
 
 **Description** : *Delete a folder imported using a chat folder deep link &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 chatlists.leaveChatlist#74fae13a chatlist:InputChatlist peers:Vector<InputPeer> = Updates;
@@ -38,31 +38,31 @@ chatlists.leaveChatlist#74fae13a chatlist:InputChatlist peers:Vector<InputPeer> 
 ```php
 $updates = $client->chatlists->leaveChatlist(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 85,
+		filter_id : 48,
 	),
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -1743699749593040412,
+			chat_id : 5617417862827130334,
 		),
 		$client->inputPeerUser(
-			user_id : -4157513626165057541,
-			access_hash : 8963302695736115187,
+			user_id : 5436901962380519932,
+			access_hash : 1907278546837320612,
 		),
 		$client->inputPeerChannel(
-			channel_id : -3969281154928151180,
-			access_hash : 533745782384990466,
+			channel_id : -8952689043711451294,
+			access_hash : -2873423854655345902,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 40,
-			user_id : 6119244739681197365,
+			msg_id : 90,
+			user_id : 2785458982167234883,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 8,
-			channel_id : -7650335952416086891,
+			msg_id : 96,
+			channel_id : -6777956171032702930,
 		),
 	),
 );

@@ -1,8 +1,6 @@
 # updatePeerSettings
 
-**Description** : *Settings of a certain peer have changed*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updatePeerSettings#6a7e7366 peer:Peer settings:PeerSettings = Update;
@@ -14,8 +12,8 @@ updatePeerSettings#6a7e7366 peer:Peer settings:PeerSettings = Update;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`Peer`](type/Peer) | The peer |
-| <mark>settings</mark> | [`PeerSettings`](type/PeerSettings) | Associated peer settings |
+| <mark>peer</mark> | [`Peer`](type/Peer) | NOTHING |
+| <mark>settings</mark> | [`PeerSettings`](type/PeerSettings) | NOTHING |
 
 ---
 
@@ -30,7 +28,7 @@ updatePeerSettings#6a7e7366 peer:Peer settings:PeerSettings = Update;
 ```php
 $update = $client->updatePeerSettings(
 	peer : $client->peerUser(
-		user_id : 3595211942915415548,
+		user_id : -5497224157407563286,
 	),
 	settings : $client->peerSettings(
 		report_spam : true,
@@ -44,16 +42,16 @@ $update = $client->updatePeerSettings(
 		request_chat_broadcast : true,
 		business_bot_paused : true,
 		business_bot_can_reply : true,
-		geo_distance : 79,
-		request_chat_title : 'g06xOYhzL1bcKapF',
-		request_chat_date : 19,
-		business_bot_id : 3226361468730758346,
+		geo_distance : 64,
+		request_chat_title : 'fxBUeJ1ohCDWp8Lz',
+		request_chat_date : 29,
+		business_bot_id : -4189671109943828569,
 		business_bot_manage_url : 'https://docs.liveproto.dev',
-		charge_paid_message_stars : -7927423423911537639,
-		registration_month : 'HCKkf6xY1JAS9mZW',
+		charge_paid_message_stars : 8461026627564931206,
+		registration_month : 'vxiNQVsh3Bywbrl0',
 		phone_country : '+1234567890',
-		name_change_date : 39,
-		photo_change_date : 30,
+		name_change_date : 48,
+		photo_change_date : 65,
 	),
 );
 ```

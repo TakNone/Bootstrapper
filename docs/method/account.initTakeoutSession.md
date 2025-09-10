@@ -2,7 +2,7 @@
 
 **Description** : *Initialize a takeout session, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.initTakeoutSession#8ef3eab0 flags:# contacts:flags.0?true message_users:flags.1?true message_chats:flags.2?true message_megagroups:flags.3?true message_channels:flags.4?true files:flags.5?true file_max_size:flags.5?long = account.Takeout;
@@ -49,6 +49,6 @@ $accountTakeout = $client->account->initTakeoutSession(
 	message_megagroups : true,
 	message_channels : true,
 	files : true,
-	file_max_size : 2373874183505900586,
+	file_max_size : 5932664264340109552,
 );
 ```

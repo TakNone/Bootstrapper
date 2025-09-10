@@ -2,7 +2,7 @@
 
 **Description** : *Fetch saved notification sounds*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.getSavedRingtones#e1902288 hash:long = account.SavedRingtones;
@@ -28,6 +28,6 @@ account.getSavedRingtones#e1902288 hash:long = account.SavedRingtones;
 
 ```php
 $accountSavedRingtones = $client->account->getSavedRingtones(
-	hash : -8427506724675814599,
+	hash : 6390649037286349995,
 );
 ```

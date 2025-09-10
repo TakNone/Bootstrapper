@@ -2,7 +2,7 @@
 
 **Description** : *Get message statistics*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stats.getMessageStats#b6e0a3f5 flags:# dark:flags.0?true channel:InputChannel msg_id:int = stats.MessageStats;
@@ -44,6 +44,6 @@ stats.getMessageStats#b6e0a3f5 flags:# dark:flags.0?true channel:InputChannel ms
 $statsMessageStats = $client->stats->getMessageStats(
 	dark : true,
 	channel : $client->inputChannelEmpty(),
-	msg_id : 90,
+	msg_id : 67,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *No changes were made to telegram&#039;s terms of service*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.termsOfServiceUpdateEmpty#e3309f7f expires:int = help.TermsOfServiceUpdate;
@@ -28,6 +28,6 @@ help.termsOfServiceUpdateEmpty#e3309f7f expires:int = help.TermsOfServiceUpdate;
 
 ```php
 $helpTermsOfServiceUpdate = $client->help->termsOfServiceUpdateEmpty(
-	expires : 65,
+	expires : 46,
 );
 ```

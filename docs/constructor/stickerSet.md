@@ -2,7 +2,7 @@
 
 **Description** : *Represents a stickerset \(stickerpack\)*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 stickerSet#2dd14edc flags:# archived:flags.1?true official:flags.2?true masks:flags.3?true emojis:flags.7?true text_color:flags.9?true channel_emoji_status:flags.10?true creator:flags.11?true installed_date:flags.0?int id:long access_hash:long title:string short_name:string thumbs:flags.4?Vector<PhotoSize> thumb_dc_id:flags.4?int thumb_version:flags.4?int thumb_document_id:flags.8?long count:int hash:int = StickerSet;
@@ -53,46 +53,46 @@ $stickerSet = $client->stickerSet(
 	text_color : true,
 	channel_emoji_status : true,
 	creator : true,
-	installed_date : 68,
-	id : -2912381311767214435,
-	access_hash : -4372061235639761699,
-	title : 'LHKJxTdyzUmiCqug',
-	short_name : 'uBv9HFxfV3bKWTz0',
+	installed_date : 49,
+	id : 8025848151353233776,
+	access_hash : -4479773050636424006,
+	title : 'ZFucx4JQN1tk8SM6',
+	short_name : 'XMIWktpHQ3RqNU7L',
 	thumbs : array(
 		$client->photoSizeEmpty(
-			type : '7VRrpyhAIYguoTDZ',
+			type : 'K8HcUb7xvNBPSEpY',
 		),
 		$client->photoSize(
-			type : 'KimSvORL0n9kbH8t',
-			w : 22,
-			h : 60,
-			size : 64,
+			type : 'UToh8wdsqxiWZHgy',
+			w : 17,
+			h : 10,
+			size : 92,
 		),
 		$client->photoCachedSize(
-			type : 'UWmJCntEiba8pg27',
-			w : 84,
-			h : 17,
-			bytes : 'a???OLiveProtow	LO',
+			type : 'J1tgB7WSG6XA5PFm',
+			w : 26,
+			h : 79,
+			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->photoStrippedSize(
-			type : 'exYpZiHTtMBjVGEl',
-			bytes : '??n$TLiveProto-挙<',
+			type : '3d2n4TWqeSA0phKZ',
+			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->photoSizeProgressive(
-			type : '6lzwdNvKStmra8Oi',
-			w : 49,
-			h : 10,
-			sizes : array(65),
+			type : 'g4iLlZfDTd0ySmcp',
+			w : 44,
+			h : 78,
+			sizes : array(77),
 		),
 		$client->photoPathSize(
-			type : 'QKe4d3RB1pi8w2kc',
-			bytes : '?"͙LiveProto??Ֆ?',
+			type : 'LqPRD1OFv4EotVHG',
+			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	thumb_dc_id : 34,
-	thumb_version : 7,
-	thumb_document_id : -9222305146483892739,
-	count : 73,
-	hash : 72,
+	thumb_dc_id : 33,
+	thumb_version : 24,
+	thumb_document_id : 592733906472794850,
+	count : 48,
+	hash : 38,
 );
 ```

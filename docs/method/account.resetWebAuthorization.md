@@ -2,7 +2,7 @@
 
 **Description** : *Log out an active web telegram login session*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.resetWebAuthorization#2d01b9ef hash:long = Bool;
@@ -36,6 +36,6 @@ account.resetWebAuthorization#2d01b9ef hash:long = Bool;
 
 ```php
 $bool = $client->account->resetWebAuthorization(
-	hash : -4989369666834481447,
+	hash : 1577923931161277142,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Represents an issue with the front side of a document\. The error is considered resolved when the file with the front side of the document changes*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureValueErrorFrontSide#be3dfa type:SecureValueType file_hash:bytes text:string = SecureValueError;
@@ -31,7 +31,7 @@ secureValueErrorFrontSide#be3dfa type:SecureValueType file_hash:bytes text:strin
 ```php
 $secureValueError = $client->secureValueErrorFrontSide(
 	type : $client->secureValueTypePersonalDetails(),
-	file_hash : 'A<H?=LiveProto??G?',
-	text : 'FHZYCuyQGLsalOoz',
+	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	text : 'cd0XLgsIWw4FOjVU',
 );
 ```

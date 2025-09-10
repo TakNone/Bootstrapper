@@ -2,7 +2,7 @@
 
 **Description** : *Strikethrough text*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 textStrike#9bf8bb95 text:RichText = RichText;

@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of suggested mini apps with available affiliate programs*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 payments.getSuggestedStarRefBots#d6b48f7 flags:# order_by_revenue:flags.0?true order_by_date:flags.1?true peer:InputPeer offset:string limit:int = payments.SuggestedStarRefBots;
@@ -44,7 +44,7 @@ $paymentsSuggestedStarRefBots = $client->payments->getSuggestedStarRefBots(
 	order_by_revenue : true,
 	order_by_date : true,
 	peer : $client->inputPeerEmpty(),
-	offset : 'DKhlsx2puo3zga50',
-	limit : 94,
+	offset : 'slIE5P8XARfez2yF',
+	limit : 29,
 );
 ```

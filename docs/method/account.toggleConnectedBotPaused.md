@@ -2,7 +2,7 @@
 
 **Description** : *Pause or unpause a specific chat, temporarily disconnecting it from all business bots &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.toggleConnectedBotPaused#646e1097 peer:InputPeer paused:Bool = Bool;
@@ -38,6 +38,6 @@ account.toggleConnectedBotPaused#646e1097 peer:InputPeer paused:Bool = Bool;
 ```php
 $bool = $client->account->toggleConnectedBotPaused(
 	peer : $client->inputPeerEmpty(),
-	paused : false,
+	paused : true,
 );
 ```

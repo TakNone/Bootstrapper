@@ -2,7 +2,7 @@
 
 **Description** : *Contains various client configuration parameters*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 help.appConfig#dd18782e hash:int config:JSONValue = help.AppConfig;
@@ -29,7 +29,7 @@ help.appConfig#dd18782e hash:int config:JSONValue = help.AppConfig;
 
 ```php
 $helpAppConfig = $client->help->appConfig(
-	hash : 92,
+	hash : 27,
 	config : $client->jsonNull(),
 );
 ```

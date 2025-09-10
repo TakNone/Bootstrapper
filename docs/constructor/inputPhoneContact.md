@@ -2,7 +2,7 @@
 
 **Description** : *Phone contact*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputPhoneContact#f392b7f4 client_id:long phone:string first_name:string last_name:string = InputContact;
@@ -31,7 +31,7 @@ inputPhoneContact#f392b7f4 client_id:long phone:string first_name:string last_na
 
 ```php
 $inputContact = $client->inputPhoneContact(
-	client_id : 2846514820825751138,
+	client_id : 7462527152793872470,
 	phone : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',

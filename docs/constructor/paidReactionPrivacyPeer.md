@@ -1,6 +1,6 @@
 # paidReactionPrivacyPeer
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 paidReactionPrivacyPeer#dc6cfcf0 peer:InputPeer = PaidReactionPrivacy;

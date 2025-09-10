@@ -2,7 +2,7 @@
 
 **Description** : *The full list of usable animated message effects &raquo; hasn&#039;t changed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.availableEffectsNotModified#d1ed9a5b = messages.AvailableEffects;

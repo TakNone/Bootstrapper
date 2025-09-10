@@ -2,7 +2,7 @@
 
 **Description** : *Prompts the user to select and share one or more peers with the bot using messages\.sendBotRequestedPeer*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 keyboardButtonRequestPeer#53d7bfd8 text:string button_id:int peer_type:RequestPeerType max_quantity:int = KeyboardButton;
@@ -31,12 +31,12 @@ keyboardButtonRequestPeer#53d7bfd8 text:string button_id:int peer_type:RequestPe
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestPeer(
-	text : 'UNGgCLBoqyIRmDdX',
-	button_id : 84,
+	text : 'sFb8aUDtTZpP7j5w',
+	button_id : 4,
 	peer_type : $client->requestPeerTypeUser(
-		bot : false,
-		premium : true,
+		bot : true,
+		premium : false,
 	),
-	max_quantity : 56,
+	max_quantity : 45,
 );
 ```

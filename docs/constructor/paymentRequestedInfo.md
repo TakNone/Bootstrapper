@@ -2,7 +2,7 @@
 
 **Description** : *Order info provided by the user*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 paymentRequestedInfo#909c3f94 flags:# name:flags.0?string phone:flags.1?string email:flags.2?string shipping_address:flags.3?PostAddress = PaymentRequestedInfo;
@@ -32,16 +32,16 @@ paymentRequestedInfo#909c3f94 flags:# name:flags.0?string phone:flags.1?string e
 
 ```php
 $paymentRequestedInfo = $client->paymentRequestedInfo(
-	name : '4hziBk70OYoEsugq',
+	name : 'f9jU7c0DIXBRiu6V',
 	phone : '+1234567890',
 	email : 'reply@liveproto.dev',
 	shipping_address : $client->postAddress(
-		street_line1 : 'g16MOyeJiKCbFLal',
-		street_line2 : '50mKSLRycB6UWJnZ',
-		city : 'aYS0MhJdcBLpyVvC',
-		state : '27MDBNgXfx8ECKQd',
-		country_iso2 : 'IZawWJYQtnx21XHh',
-		post_code : 'z9uEGR1vNgPF4opX',
+		street_line1 : '7LmWPd0sYNTM95SU',
+		street_line2 : 'Q5CPes8mwIpRytGn',
+		city : 'SfhvA6Ks4UmWIlJq',
+		state : 'HQFUZo2LnBwuy4Pp',
+		country_iso2 : 'C3XcbAUeQ6EqtPxS',
+		post_code : 'MuoN8kOAWEC9ysSQ',
 	),
 );
 ```

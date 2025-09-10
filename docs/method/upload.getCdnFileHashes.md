@@ -2,7 +2,7 @@
 
 **Description** : *Get SHA256 hashes for verifying downloaded CDN files*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 upload.getCdnFileHashes#91dc3f31 file_token:bytes offset:long = Vector<FileHash>;
@@ -39,7 +39,7 @@ upload.getCdnFileHashes#91dc3f31 file_token:bytes offset:long = Vector<FileHash>
 
 ```php
 $fileHash = $client->upload->getCdnFileHashes(
-	file_token : 'zrJLiveProto2??X',
-	offset : -7690751044495986023,
+	file_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	offset : 4390203132628223689,
 );
 ```

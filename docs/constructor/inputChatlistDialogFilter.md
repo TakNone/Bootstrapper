@@ -2,7 +2,7 @@
 
 **Description** : *Folder ID*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputChatlistDialogFilter#f3e0da33 filter_id:int = InputChatlist;
@@ -28,6 +28,6 @@ inputChatlistDialogFilter#f3e0da33 filter_id:int = InputChatlist;
 
 ```php
 $inputChatlist = $client->inputChatlistDialogFilter(
-	filter_id : 89,
+	filter_id : 59,
 );
 ```

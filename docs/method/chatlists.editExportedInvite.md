@@ -2,10 +2,10 @@
 
 **Description** : *Edit a chat folder deep link &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
-chatlists.editExportedInvite#653db63d flags:# chatlist:InputChatlist slug:string title:flags.1?string peers:flags.2?Vector<InputPeer> = ExportedChatlistInvite;
+chatlists.editExportedInvite#653db63d flags:# revoked:flags.0?true chatlist:InputChatlist slug:string title:flags.1?string peers:flags.2?Vector<InputPeer> = ExportedChatlistInvite;
 ```
 
 ---
@@ -15,6 +15,7 @@ chatlists.editExportedInvite#653db63d flags:# chatlist:InputChatlist slug:string
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **revoked** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>chatlist</mark> | [`InputChatlist`](type/InputChatlist) | Folder ID |
 | <mark>slug</mark> | [`string`](type/string) | slug obtained from the chat folder deep link » |
 | **title** | [`flags.1?string`](type/string) | If set, sets a new name for the link |
@@ -45,34 +46,35 @@ chatlists.editExportedInvite#653db63d flags:# chatlist:InputChatlist slug:string
 
 ```php
 $exportedChatlistInvite = $client->chatlists->editExportedInvite(
+	revoked : true,
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 66,
+		filter_id : 47,
 	),
-	slug : 'ViR3xmjro6TGlFBh',
-	title : 'oTEVUJpZBQgHCYtw',
+	slug : 'avq6OCsp5Hi1gLzc',
+	title : '9aTXf4yelmINPich',
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -1015353540947646582,
+			chat_id : 4863289208223707776,
 		),
 		$client->inputPeerUser(
-			user_id : -7728119497927199186,
-			access_hash : 6291714544021741100,
+			user_id : -7797913274279460816,
+			access_hash : 6507691187287982169,
 		),
 		$client->inputPeerChannel(
-			channel_id : -1694549093289174214,
-			access_hash : -8680897201321621594,
+			channel_id : -5015900992776727951,
+			access_hash : -1851765373114587714,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 44,
-			user_id : -7979556126724856114,
+			msg_id : 38,
+			user_id : -8651592508558030026,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 21,
-			channel_id : 7069889855895280686,
+			msg_id : 17,
+			channel_id : 148742265200642880,
 		),
 	),
 );

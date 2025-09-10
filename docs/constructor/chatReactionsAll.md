@@ -2,7 +2,7 @@
 
 **Description** : *All reactions or all non\-custom reactions are allowed*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 chatReactionsAll#52928bca flags:# allow_custom:flags.0?true = ChatReactions;

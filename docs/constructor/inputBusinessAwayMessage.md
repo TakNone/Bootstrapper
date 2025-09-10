@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Business away message, automatically sent to users writing to us when we&#039;re offline, during closing hours, while we&#039;re on vacation, or in some other custom time period when we cannot immediately answer to the user*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 inputBusinessAwayMessage#832175e0 flags:# offline_only:flags.0?true shortcut_id:int schedule:BusinessAwayMessageSchedule recipients:InputBusinessRecipients = InputBusinessAwayMessage;
@@ -45,13 +45,13 @@ $inputBusinessAwayMessage = $client->inputBusinessAwayMessage(
 			$client->inputUserEmpty(),
 			$client->inputUserSelf(),
 			$client->inputUser(
-				user_id : 391334297359967853,
-				access_hash : -738045854119807337,
+				user_id : 7675012202199778443,
+				access_hash : -8940661707319880178,
 			),
 			$client->inputUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 50,
-				user_id : 1198164216456776066,
+				msg_id : 53,
+				user_id : -8469722925362456925,
 			),
 		),
 	),

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of emoji categories, to be used when selecting custom emojis to set as custom emoji status*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.getEmojiStatusGroups#2ecd56cd hash:int = messages.EmojiGroups;
@@ -28,6 +28,6 @@ messages.getEmojiStatusGroups#2ecd56cd hash:int = messages.EmojiGroups;
 
 ```php
 $messagesEmojiGroups = $client->messages->getEmojiStatusGroups(
-	hash : 100,
+	hash : 43,
 );
 ```

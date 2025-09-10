@@ -1,8 +1,6 @@
 # updateFolderPeers
 
-**Description** : *The peer list of a peer folder was updated*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateFolderPeers#19360dc0 folder_peers:Vector<FolderPeer> pts:int pts_count:int = Update;
@@ -14,9 +12,9 @@ updateFolderPeers#19360dc0 folder_peers:Vector<FolderPeer> pts:int pts_count:int
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>folder_peers</mark> | [`Vector<FolderPeer>`](type/FolderPeer) | New peer list |
-| <mark>pts</mark> | [`int`](type/int) | Event count after generation |
-| <mark>pts_count</mark> | [`int`](type/int) | Number of events that were generated |
+| <mark>folder_peers</mark> | [`Vector<FolderPeer>`](type/FolderPeer) | NOTHING |
+| <mark>pts</mark> | [`int`](type/int) | NOTHING |
+| <mark>pts_count</mark> | [`int`](type/int) | NOTHING |
 
 ---
 
@@ -33,12 +31,12 @@ $update = $client->updateFolderPeers(
 	folder_peers : array(
 		$client->folderPeer(
 			peer : $client->peerUser(
-				user_id : 2160206872790045593,
+				user_id : -1048653612154360727,
 			),
-			folder_id : 63,
+			folder_id : 40,
 		),
 	),
-	pts : 58,
-	pts_count : 27,
+	pts : 0,
+	pts_count : 11,
 );
 ```

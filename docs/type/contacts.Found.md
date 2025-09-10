@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on users found by name substring and auxiliary data*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 contacts.found#b3134d9d my_results:Vector<Peer> results:Vector<Peer> chats:Vector<Chat> users:Vector<User> = contacts.Found;

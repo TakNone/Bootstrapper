@@ -1,8 +1,6 @@
 # secureRequiredTypeOneOf
 
-**Description** : *One of*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureRequiredTypeOneOf#27477b4 types:Vector<SecureRequiredType> = SecureRequiredType;
@@ -14,7 +12,7 @@ secureRequiredTypeOneOf#27477b4 types:Vector<SecureRequiredType> = SecureRequire
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>types</mark> | [`Vector<SecureRequiredType>`](type/SecureRequiredType) | Secure required value types |
+| <mark>types</mark> | [`Vector<SecureRequiredType>`](type/SecureRequiredType) | NOTHING |
 
 ---
 

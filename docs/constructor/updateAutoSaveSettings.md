@@ -2,7 +2,7 @@
 
 **Description** : *Media autosave settings have changed and must be refetched using account\.getAutoSaveSettings*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateAutoSaveSettings#ec05b097 = Update;

@@ -2,7 +2,7 @@
 
 **Description** : *Sends a Telegram Passport authorization form, effectively sharing data with the service*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.acceptAuthorization#f3ed4c73 bot_id:long scope:string public_key:string value_hashes:Vector<SecureValueHash> credentials:SecureCredentialsEncrypted = Bool;
@@ -41,20 +41,19 @@ account.acceptAuthorization#f3ed4c73 bot_id:long scope:string public_key:string 
 
 ```php
 $bool = $client->account->acceptAuthorization(
-	bot_id : 4277033191716543159,
-	scope : 'WuiVywOvJcUsgIAB',
-	public_key : 'iGdWrXJqRgMEC4yL',
+	bot_id : -7440317716365123531,
+	scope : 'oC5JUnhz2IaSLZQj',
+	public_key : 'shN7ceVgT6Wi3G9u',
 	value_hashes : array(
 		$client->secureValueHash(
 			type : $client->secureValueTypePersonalDetails(),
-			hash : '??lP#LiveProto??%?',
+			hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	credentials : $client->secureCredentialsEncrypted(
-		data : 'T?LiveProto
-0?3+',
-		hash : '??w?LiveProto?w?.',
-		secret : '??@LiveProto???[?',
+		data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *A forum topic &raquo; was pinned or unpinned*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateChannelPinnedTopic#192efbe3 flags:# pinned:flags.0?true channel_id:long topic_id:int = Update;
@@ -32,7 +32,7 @@ updateChannelPinnedTopic#192efbe3 flags:# pinned:flags.0?true channel_id:long to
 ```php
 $update = $client->updateChannelPinnedTopic(
 	pinned : true,
-	channel_id : 1443572144448189150,
-	topic_id : 71,
+	channel_id : -2161929671726044794,
+	topic_id : 37,
 );
 ```

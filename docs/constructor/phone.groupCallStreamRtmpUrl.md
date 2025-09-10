@@ -2,7 +2,7 @@
 
 **Description** : *RTMP URL and stream key to be used in streaming software*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 phone.groupCallStreamRtmpUrl#2dbf3432 url:string key:string = phone.GroupCallStreamRtmpUrl;
@@ -30,6 +30,6 @@ phone.groupCallStreamRtmpUrl#2dbf3432 url:string key:string = phone.GroupCallStr
 ```php
 $phoneGroupCallStreamRtmpUrl = $client->phone->groupCallStreamRtmpUrl(
 	url : 'https://docs.liveproto.dev',
-	key : 'zoFQrmCu0VGg628e',
+	key : 'xGdK2Uzp6tXfqnIs',
 );
 ```

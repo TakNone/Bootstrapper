@@ -2,7 +2,7 @@
 
 **Description** : *Partial list of chats, more would have to be fetched with pagination*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messages.chatsSlice#9cd81144 count:int chats:Vector<Chat> = messages.Chats;
@@ -29,24 +29,25 @@ messages.chatsSlice#9cd81144 count:int chats:Vector<Chat> = messages.Chats;
 
 ```php
 $messagesChats = $client->messages->chatsSlice(
-	count : 21,
+	count : 51,
 	chats : array(
 		$client->chatEmpty(
-			id : 2257239035957039972,
+			id : 4752215387458230441,
 		),
 		$client->chat(
 			creator : true,
+			kicked : true,
 			left : true,
 			deactivated : true,
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 1377098424281393737,
-			title : 'DS9ajRMsz5rLPymu',
+			id : -3114116203969098288,
+			title : 'VSlEhnIvcpgRCWu6',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 81,
-			date : 77,
-			version : 58,
+			participants_count : 71,
+			date : 95,
+			version : 75,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -87,12 +88,12 @@ $messagesChats = $client->messages->chatsSlice(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 39,
+				until_date : 85,
 			),
 		),
 		$client->chatForbidden(
-			id : 3241193216797806252,
-			title : '3YLKcE4mUveb286F',
+			id : -8539661800900524516,
+			title : '4NdIGlEgMHKmAL72',
 		),
 		$client->channel(
 			creator : true,
@@ -123,17 +124,17 @@ $messagesChats = $client->messages->chatsSlice(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 3645830169532370543,
-			access_hash : 9158879762295381449,
-			title : 'xEgBIKv3kVzDWqPf',
+			id : -3967694800567656833,
+			access_hash : -4913259465095307215,
+			title : 'SI8j37Gs21wWymnz',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 31,
+			date : 75,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'mU9ikcoZbpxCsnw7',
-					reason : 'F1om9AMEZUQW3P7g',
-					text : 'SsRBHNfiAl9hrLD1',
+					platform : 'hqboQeN5EYAwmkX6',
+					reason : 'uz4Vy9dlkPReASx7',
+					text : 'Sha2WmeOvGlqPVkH',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -175,7 +176,7 @@ $messagesChats = $client->messages->chatsSlice(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 51,
+				until_date : 39,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -198,9 +199,9 @@ $messagesChats = $client->messages->chatsSlice(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 0,
+				until_date : 63,
 			),
-			participants_count : 5,
+			participants_count : 60,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -208,29 +209,29 @@ $messagesChats = $client->messages->chatsSlice(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 92,
+			stories_max_id : 69,
 			color : $client->peerColor(
-				color : 70,
-				background_emoji_id : -7026356969338944460,
+				color : 24,
+				background_emoji_id : -8846072866471458093,
 			),
 			profile_color : $client->peerColor(
-				color : 16,
-				background_emoji_id : -4063324716917182411,
+				color : 0,
+				background_emoji_id : -4277945391980764324,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 73,
-			subscription_until_date : 57,
-			bot_verification_icon : 4242089486868819595,
-			send_paid_messages_stars : -5523895117997620579,
-			linked_monoforum_id : 8929633519929599658,
+			level : 15,
+			subscription_until_date : 77,
+			bot_verification_icon : 1584016874900043788,
+			send_paid_messages_stars : 5347857479741961385,
+			linked_monoforum_id : 7741090606206913142,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 1015468313848434050,
-			access_hash : -3472948912467948254,
-			title : 'fAcwMV2XHTUSJFnN',
-			until_date : 81,
+			id : -6389113801971338777,
+			access_hash : 4925495631861712224,
+			title : '8PDUzsfTAynjoJN3',
+			until_date : 36,
 		),
 	),
 );

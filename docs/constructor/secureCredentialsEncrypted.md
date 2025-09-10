@@ -2,7 +2,7 @@
 
 **Description** : *Encrypted credentials required to decrypt telegram passport data*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 secureCredentialsEncrypted#33f0ea47 data:bytes hash:bytes secret:bytes = SecureCredentialsEncrypted;
@@ -30,8 +30,8 @@ secureCredentialsEncrypted#33f0ea47 data:bytes hash:bytes secret:bytes = SecureC
 
 ```php
 $secureCredentialsEncrypted = $client->secureCredentialsEncrypted(
-	data : '?U?gLiveProto?h0?1',
-	hash : '?*0?LiveProto???2h',
-	secret : 'K:@u?LiveProto?A۔?',
+	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

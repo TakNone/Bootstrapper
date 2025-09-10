@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing a phone number*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 messageEntityPhone#9b69e34b offset:int length:int = MessageEntity;
@@ -29,7 +29,7 @@ messageEntityPhone#9b69e34b offset:int length:int = MessageEntity;
 
 ```php
 $messageEntity = $client->messageEntityPhone(
-	offset : 14,
-	length : 29,
+	offset : 70,
+	length : 45,
 );
 ```

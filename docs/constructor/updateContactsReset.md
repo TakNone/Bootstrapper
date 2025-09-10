@@ -1,8 +1,6 @@
 # updateContactsReset
 
-**Description** : *All contacts were deleted*
-
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 updateContactsReset#7084a7be = Update;

@@ -2,7 +2,7 @@
 
 **Description** : *Associate \(or remove\) a personal channel &raquo;, that will be listed on our personal profile page &raquo;*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.updatePersonalChannel#d94305e0 channel:InputChannel = Bool;

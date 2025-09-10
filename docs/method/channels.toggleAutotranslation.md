@@ -1,6 +1,6 @@
 # channels.toggleAutotranslation
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.toggleAutotranslation#167fc0a1 channel:InputChannel enabled:Bool = Updates;
@@ -28,6 +28,6 @@ channels.toggleAutotranslation#167fc0a1 channel:InputChannel enabled:Bool = Upda
 ```php
 $updates = $client->channels->toggleAutotranslation(
 	channel : $client->inputChannelEmpty(),
-	enabled : false,
+	enabled : true,
 );
 ```

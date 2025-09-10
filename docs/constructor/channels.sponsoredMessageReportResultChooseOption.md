@@ -2,7 +2,7 @@
 
 **Description** : *The user must choose a report option from the localized options available in options, and after selection, channels\.reportSponsoredMessage must be invoked again, passing the option&#039;s option field to the option param of the method*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.sponsoredMessageReportResultChooseOption#846f9e42 title:string options:Vector<SponsoredMessageReportOption> = channels.SponsoredMessageReportResult;
@@ -29,11 +29,11 @@ channels.sponsoredMessageReportResultChooseOption#846f9e42 title:string options:
 
 ```php
 $channelsSponsoredMessageReportResult = $client->channels->sponsoredMessageReportResultChooseOption(
-	title : 'BMmQTj78D4hZdLvq',
+	title : 'l7mVdOkrJEFR4zwy',
 	options : array(
 		$client->sponsoredMessageReportOption(
-			text : 'ArlvX0F7ImkNyxQj',
-			option : '?i??LiveProtoC?C?g',
+			text : 'y9MXiJdZLOW6p43k',
+			option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 );

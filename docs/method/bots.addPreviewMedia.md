@@ -2,7 +2,7 @@
 
 **Description** : *Add a main mini app preview, see here &raquo; for more info*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 bots.addPreviewMedia#17aeb75a bot:InputUser lang_code:string media:InputMedia = BotPreviewMedia;
@@ -39,7 +39,7 @@ bots.addPreviewMedia#17aeb75a bot:InputUser lang_code:string media:InputMedia = 
 ```php
 $botPreviewMedia = $client->bots->addPreviewMedia(
 	bot : $client->inputUserEmpty(),
-	lang_code : 'Bm6ZGVD3d2Otjnol',
+	lang_code : 'UyriMOgoQxlZkYuL',
 	media : $client->inputMediaEmpty(),
 );
 ```

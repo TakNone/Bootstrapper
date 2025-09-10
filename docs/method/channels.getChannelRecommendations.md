@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of similarly themed public channels, selected based on similarities in their subscriber bases*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 channels.getChannelRecommendations#25a71742 flags:# channel:flags.0?InputChannel = messages.Chats;

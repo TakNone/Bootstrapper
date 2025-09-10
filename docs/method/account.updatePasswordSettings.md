@@ -2,7 +2,7 @@
 
 **Description** : *Set a new 2FA password*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 account.updatePasswordSettings#a59b102f password:InputCheckPasswordSRP new_settings:account.PasswordInputSettings = Bool;
@@ -48,14 +48,13 @@ $bool = $client->account->updatePasswordSettings(
 	password : $client->inputCheckPasswordEmpty(),
 	new_settings : $client->account->passwordInputSettings(
 		new_algo : $client->passwordKdfAlgoUnknown(),
-		new_password_hash : '|6e?LiveProto?dB?',
-		hint : 'bJ6MBNizt3aZS2Fu',
+		new_password_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		hint : '6HAoKVehuRTEvUcb',
 		email : 'reply@liveproto.dev',
 		new_secure_settings : $client->secureSecretSettings(
 			secure_algo : $client->securePasswordKdfAlgoUnknown(...),
-			secure_secret : '?j?
-?LiveProtoF??',
-			secure_secret_id : 3374665946545947037,
+			secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+			secure_secret_id : 3390601674293284251,
 		),
 	),
 );

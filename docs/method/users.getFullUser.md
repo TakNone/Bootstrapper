@@ -2,7 +2,7 @@
 
 **Description** : *Returns extended user info by ID*
 
-**Layer** : 211
+**Layer** : 214
 
 ```tl
 users.getFullUser#b60f5918 id:InputUser = users.UserFull;
