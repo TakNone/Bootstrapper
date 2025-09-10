@@ -7,7 +7,7 @@
 - Schema LP
 
   - [types](type.md)
-  - [constructord](constructor.md)
+  - [constructors](constructor.md)
   - [methods](method.md)
 
 - Raw API
