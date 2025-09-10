@@ -1,0 +1,330 @@
+# account.privacyRules
+
+**Description** : *Privacy rules*
+
+**Layer** : 214
+
+```tl
+account.privacyRules#50a04e45 rules:Vector<PrivacyRule> chats:Vector<Chat> users:Vector<User> = account.PrivacyRules;
+```
+
+---
+
+## Parameters
+
+| Name | Type | Description |
+| :---: | :---: | :--- |
+| <mark>rules</mark> | [`Vector<PrivacyRule>`](type/PrivacyRule) | Privacy rules |
+| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | Chats to which the rules apply |
+| <mark>users</mark> | [`Vector<User>`](type/User) | Users to which the rules apply |
+
+---
+
+## Type
+
+[account.PrivacyRules](type/account.PrivacyRules)
+
+---
+
+## Example
+
+```php
+$accountPrivacyRules = $client->account->privacyRules(
+	rules : array(
+		$client->privacyValueAllowContacts(),
+		$client->privacyValueAllowAll(),
+		$client->privacyValueAllowUsers(
+			users : array(-6995022048018394632),
+		),
+		$client->privacyValueDisallowContacts(),
+		$client->privacyValueDisallowAll(),
+		$client->privacyValueDisallowUsers(
+			users : array(-3588442008919672963),
+		),
+		$client->privacyValueAllowChatParticipants(
+			chats : array(-1697008267907862286),
+		),
+		$client->privacyValueDisallowChatParticipants(
+			chats : array(-4464601895638609470),
+		),
+		$client->privacyValueAllowCloseFriends(),
+		$client->privacyValueAllowPremium(),
+		$client->privacyValueAllowBots(),
+		$client->privacyValueDisallowBots(),
+	),
+	chats : array(
+		$client->chatEmpty(
+			id : -6922912394117564388,
+		),
+		$client->chat(
+			creator : true,
+			kicked : true,
+			left : true,
+			deactivated : true,
+			call_active : true,
+			call_not_empty : true,
+			noforwards : true,
+			id : 265682870114273018,
+			title : 'oX3b4YphynjA0WIe',
+			photo : $client->chatPhotoEmpty(),
+			participants_count : 74,
+			date : 15,
+			version : 37,
+			migrated_to : $client->inputChannelEmpty(),
+			admin_rights : $client->chatAdminRights(
+				change_info : true,
+				post_messages : true,
+				edit_messages : true,
+				delete_messages : true,
+				ban_users : true,
+				invite_users : true,
+				pin_messages : true,
+				add_admins : true,
+				anonymous : true,
+				manage_call : true,
+				other : true,
+				manage_topics : true,
+				post_stories : true,
+				edit_stories : true,
+				delete_stories : true,
+				manage_direct_messages : true,
+			),
+			default_banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				until_date : 74,
+			),
+		),
+		$client->chatForbidden(
+			id : -2344497456190945445,
+			title : 'gwMubNtP6DLW7ohl',
+		),
+		$client->channel(
+			creator : true,
+			left : true,
+			broadcast : true,
+			verified : true,
+			megagroup : true,
+			restricted : true,
+			signatures : true,
+			min : true,
+			scam : true,
+			has_link : true,
+			has_geo : true,
+			slowmode_enabled : true,
+			call_active : true,
+			call_not_empty : true,
+			fake : true,
+			gigagroup : true,
+			noforwards : true,
+			join_to_send : true,
+			join_request : true,
+			forum : true,
+			stories_hidden : true,
+			stories_hidden_min : true,
+			stories_unavailable : true,
+			signature_profiles : true,
+			autotranslation : true,
+			broadcast_messages_allowed : true,
+			monoforum : true,
+			forum_tabs : true,
+			id : -1451271157838559208,
+			access_hash : -8749839265172375572,
+			title : 'C0Zo5RiGlSFNkOWE',
+			username : 'TakNone',
+			photo : $client->chatPhotoEmpty(),
+			date : 77,
+			restriction_reason : array(
+				$client->restrictionReason(
+					platform : 'inx7jSe14l3Iv8b9',
+					reason : 'QBCvyU5zViALobxn',
+					text : 'Q9BqiIV1xJLXGzmg',
+				),
+			),
+			admin_rights : $client->chatAdminRights(
+				change_info : true,
+				post_messages : true,
+				edit_messages : true,
+				delete_messages : true,
+				ban_users : true,
+				invite_users : true,
+				pin_messages : true,
+				add_admins : true,
+				anonymous : true,
+				manage_call : true,
+				other : true,
+				manage_topics : true,
+				post_stories : true,
+				edit_stories : true,
+				delete_stories : true,
+				manage_direct_messages : true,
+			),
+			banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				until_date : 71,
+			),
+			default_banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				until_date : 59,
+			),
+			participants_count : 25,
+			usernames : array(
+				$client->username(
+					editable : true,
+					active : true,
+					username : 'TakNone',
+				),
+			),
+			stories_max_id : 9,
+			color : $client->peerColor(
+				color : 33,
+				background_emoji_id : 460143610489450822,
+			),
+			profile_color : $client->peerColor(
+				color : 85,
+				background_emoji_id : -2424696883736615116,
+			),
+			emoji_status : $client->emojiStatusEmpty(),
+			level : 57,
+			subscription_until_date : 49,
+			bot_verification_icon : 2224870874814975197,
+			send_paid_messages_stars : -1293651495504295718,
+			linked_monoforum_id : 7596077834249677069,
+		),
+		$client->channelForbidden(
+			broadcast : true,
+			megagroup : true,
+			id : -4946814736941216284,
+			access_hash : -4711199355686370154,
+			title : 'h0gVtEfiPkSL2ZG1',
+			until_date : 17,
+		),
+	),
+	users : array(
+		$client->userEmpty(
+			id : -5317276132220229098,
+		),
+		$client->user(
+			self : true,
+			contact : true,
+			mutual_contact : true,
+			deleted : true,
+			bot : true,
+			bot_chat_history : true,
+			bot_nochats : true,
+			verified : true,
+			restricted : true,
+			min : true,
+			bot_inline_geo : true,
+			support : true,
+			scam : true,
+			apply_min_photo : true,
+			fake : true,
+			bot_attach_menu : true,
+			premium : true,
+			attach_menu_enabled : true,
+			bot_can_edit : true,
+			close_friend : true,
+			stories_hidden : true,
+			stories_unavailable : true,
+			contact_require_premium : true,
+			bot_business : true,
+			bot_has_main_app : true,
+			id : 4787728373132559243,
+			access_hash : -4754882583379953236,
+			first_name : 'Tak',
+			last_name : 'None',
+			username : 'TakNone',
+			phone : '+1234567890',
+			photo : $client->userProfilePhotoEmpty(),
+			status : $client->userStatusEmpty(),
+			bot_info_version : 4,
+			restriction_reason : array(
+				$client->restrictionReason(
+					platform : 'BDTyLfRwhvNWz1bp',
+					reason : 'HqZX85eh6zwA2Bl7',
+					text : 't8cFwRnQSEaVuHBK',
+				),
+			),
+			bot_inline_placeholder : '6f1m5sq7NFJLuEn2',
+			lang_code : 'yxCVGie5mXB0a1JN',
+			emoji_status : $client->emojiStatusEmpty(),
+			usernames : array(
+				$client->username(
+					editable : true,
+					active : true,
+					username : 'TakNone',
+				),
+			),
+			stories_max_id : 14,
+			color : $client->peerColor(
+				color : 18,
+				background_emoji_id : -2101412443582200500,
+			),
+			profile_color : $client->peerColor(
+				color : 68,
+				background_emoji_id : -1250886329096847646,
+			),
+			bot_active_users : 1,
+			bot_verification_icon : -6742419695153589066,
+			send_paid_messages_stars : 5572859655691198328,
+		),
+	),
+);
+```

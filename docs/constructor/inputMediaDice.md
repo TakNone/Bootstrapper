@@ -1,0 +1,33 @@
+# inputMediaDice
+
+**Description** : *Send a dice\-based animated sticker*
+
+**Layer** : 214
+
+```tl
+inputMediaDice#e66fbf7b emoticon:string = InputMedia;
+```
+
+---
+
+## Parameters
+
+| Name | Type | Description |
+| :---: | :---: | :--- |
+| <mark>emoticon</mark> | [`string`](type/string) | The emoji, for now ,  and  are supported |
+
+---
+
+## Type
+
+[InputMedia](type/InputMedia)
+
+---
+
+## Example
+
+```php
+$inputMedia = $client->inputMediaDice(
+	emoticon : 'TtOiJa4mvCs6gl0d',
+);
+```
