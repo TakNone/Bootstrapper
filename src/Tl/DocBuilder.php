@@ -93,7 +93,7 @@ abstract class DocBuilder {
 			$all->writeNewLine('---');
 			$all->writeNewLine();
 			$type = current($items)['type'];
-			$all->writeNewLine('###### '.$type);
+			$all->writeNewLine('###### '.str_replace(chr(46),chr(32),$type));
 			$info = self::extractPageInfoFromUrl('https://core.telegram.org/type/'.$type);
 			$stream = new Builder($folderTypes.DIRECTORY_SEPARATOR.$type.'.md');
 			$stream->write('# '.$type);
@@ -136,7 +136,7 @@ abstract class DocBuilder {
 				$all->writeNewLine();
 				$all->writeNewLine('---');
 				$all->writeNewLine();
-				$all->writeNewLine('###### '.$item['predicate']);
+				$all->writeNewLine('###### '.str_replace(chr(46),chr(32),$item['predicate']));
 				$info = self::extractPageInfoFromUrl('https://core.telegram.org/constructor/'.$item['predicate']);
 				$stream = new Builder($folderConstructors.DIRECTORY_SEPARATOR.$item['predicate'].'.md');
 				$stream->write('# '.$item['predicate']);
@@ -200,7 +200,7 @@ abstract class DocBuilder {
 				$all->writeNewLine();
 				$all->writeNewLine('---');
 				$all->writeNewLine();
-				$all->writeNewLine('###### '.$item['method']);
+				$all->writeNewLine('###### '.str_replace(chr(46),chr(32),$item['method']));
 				$info = self::extractPageInfoFromUrl('https://core.telegram.org/method/'.$item['method']);
 				$stream = new Builder($folderMethods.DIRECTORY_SEPARATOR.$item['method'].'.md');
 				$stream->write('# '.$item['method']);
@@ -319,6 +319,7 @@ abstract class DocBuilder {
 						endif;
 					else:
 						$isString = in_array($parsed['type'],['string','bytes']);
+						$isInteger = in_array($parsed['type'],['int','int128','int256','int512','long']);
 						$formatValue = match(true){
 							str_contains($name,'md5') and $isString => md5('LiveProto'),
 							str_contains($name,'url') and $isString => 'https://docs.liveproto.dev',
@@ -328,6 +329,8 @@ abstract class DocBuilder {
 							str_contains($name,'last_name') and $isString => 'None',
 							str_contains($name,'username') and $isString => 'TakNone',
 							str_starts_with($name,'ip') and $isString => '127.0.0.1',
+							str_starts_with($name,'hash') and $isInteger => 0,
+							str_starts_with($name,'offset') and $isInteger => 0,
 							default => $randomValue
 						};
 						$exported = is_null($randomValue) ? $constValue : var_export($formatValue,true);

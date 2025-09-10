@@ -68,6 +68,14 @@ readonly class Tl {
 		endif;
 		return $array;
 	}
+	static function parseReturn(object $class) : string {
+		$parsed = self::parseDocComment($class);
+		return $parsed['return'] ?? throw new \RuntimeException('The return of object not found');
+	}
+	static function parseParam(object $class) : array {
+		$parsed = self::parseDocComment($class);
+		return $parsed['param'] ?? throw new \RuntimeException('The parameters of object not found');
+	}
 }
 
 ?>
