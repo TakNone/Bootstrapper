@@ -1,0 +1,327 @@
+# messages.messageViews
+
+**Description** : *View, forward counter \+ info about replies*
+
+**Layer** : 214
+
+```tl
+messages.messageViews#b6c4f543 views:Vector<MessageViews> chats:Vector<Chat> users:Vector<User> = messages.MessageViews;
+```
+
+---
+
+## Parameters
+
+| Name | Type | Description |
+| :---: | :---: | :--- |
+| <mark>views</mark> | [`Vector<MessageViews>`](type/MessageViews) | View, forward counter + info about replies |
+| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | Chats mentioned in constructor |
+| <mark>users</mark> | [`Vector<User>`](type/User) | Users mentioned in constructor |
+
+---
+
+## Type
+
+[messages.MessageViews](type/messages.MessageViews)
+
+---
+
+## Example
+
+```php
+$messagesMessageViews = $client->messages->messageViews(
+	views : array(
+		$client->messageViews(
+			views : 77,
+			forwards : 16,
+			replies : $client->messageReplies(
+				comments : true,
+				replies : 72,
+				replies_pts : 60,
+				recent_repliers : array(
+					$client->peerUser(...),
+					$client->peerChat(...),
+					$client->peerChannel(...),
+				),
+				channel_id : -5724323367748785425,
+				max_id : 74,
+				read_max_id : 33,
+			),
+		),
+	),
+	chats : array(
+		$client->chatEmpty(
+			id : 7545996518930071131,
+		),
+		$client->chat(
+			creator : true,
+			kicked : true,
+			left : true,
+			deactivated : true,
+			call_active : true,
+			call_not_empty : true,
+			noforwards : true,
+			id : -1849895549436789106,
+			title : 'yWK3vAXoYTBgqSec',
+			photo : $client->chatPhotoEmpty(),
+			participants_count : 41,
+			date : 23,
+			version : 7,
+			migrated_to : $client->inputChannelEmpty(),
+			admin_rights : $client->chatAdminRights(
+				change_info : true,
+				post_messages : true,
+				edit_messages : true,
+				delete_messages : true,
+				ban_users : true,
+				invite_users : true,
+				pin_messages : true,
+				add_admins : true,
+				anonymous : true,
+				manage_call : true,
+				other : true,
+				manage_topics : true,
+				post_stories : true,
+				edit_stories : true,
+				delete_stories : true,
+				manage_direct_messages : true,
+			),
+			default_banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				until_date : 56,
+			),
+		),
+		$client->chatForbidden(
+			id : 4989204729975351190,
+			title : 'NfhOdrgvS41nptC5',
+		),
+		$client->channel(
+			creator : true,
+			left : true,
+			broadcast : true,
+			verified : true,
+			megagroup : true,
+			restricted : true,
+			signatures : true,
+			min : true,
+			scam : true,
+			has_link : true,
+			has_geo : true,
+			slowmode_enabled : true,
+			call_active : true,
+			call_not_empty : true,
+			fake : true,
+			gigagroup : true,
+			noforwards : true,
+			join_to_send : true,
+			join_request : true,
+			forum : true,
+			stories_hidden : true,
+			stories_hidden_min : true,
+			stories_unavailable : true,
+			signature_profiles : true,
+			autotranslation : true,
+			broadcast_messages_allowed : true,
+			monoforum : true,
+			forum_tabs : true,
+			id : 2563958044022343915,
+			access_hash : 3134921718579852549,
+			title : 'Qsa1FP4z87g0tieX',
+			username : 'TakNone',
+			photo : $client->chatPhotoEmpty(),
+			date : 66,
+			restriction_reason : array(
+				$client->restrictionReason(
+					platform : 'CRgKLOP7veUEmo9Z',
+					reason : 'tl2fdi7PYkv64wDQ',
+					text : 'Cg4oQhucJSqfbknU',
+				),
+			),
+			admin_rights : $client->chatAdminRights(
+				change_info : true,
+				post_messages : true,
+				edit_messages : true,
+				delete_messages : true,
+				ban_users : true,
+				invite_users : true,
+				pin_messages : true,
+				add_admins : true,
+				anonymous : true,
+				manage_call : true,
+				other : true,
+				manage_topics : true,
+				post_stories : true,
+				edit_stories : true,
+				delete_stories : true,
+				manage_direct_messages : true,
+			),
+			banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				until_date : 39,
+			),
+			default_banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				until_date : 87,
+			),
+			participants_count : 39,
+			usernames : array(
+				$client->username(
+					editable : true,
+					active : true,
+					username : 'TakNone',
+				),
+			),
+			stories_max_id : 49,
+			color : $client->peerColor(
+				color : 1,
+				background_emoji_id : 6894676738396527792,
+			),
+			profile_color : $client->peerColor(
+				color : 69,
+				background_emoji_id : 6038724767259746131,
+			),
+			emoji_status : $client->emojiStatusEmpty(),
+			level : 49,
+			subscription_until_date : 33,
+			bot_verification_icon : 6457752292573218774,
+			send_paid_messages_stars : 8027691357157437051,
+			linked_monoforum_id : -2662472069607121041,
+		),
+		$client->channelForbidden(
+			broadcast : true,
+			megagroup : true,
+			id : -2455700627673010768,
+			access_hash : 2325478495576342692,
+			title : 'L5hj8fngJCZqlsyV',
+			until_date : 24,
+		),
+	),
+	users : array(
+		$client->userEmpty(
+			id : 1999374442359123762,
+		),
+		$client->user(
+			self : true,
+			contact : true,
+			mutual_contact : true,
+			deleted : true,
+			bot : true,
+			bot_chat_history : true,
+			bot_nochats : true,
+			verified : true,
+			restricted : true,
+			min : true,
+			bot_inline_geo : true,
+			support : true,
+			scam : true,
+			apply_min_photo : true,
+			fake : true,
+			bot_attach_menu : true,
+			premium : true,
+			attach_menu_enabled : true,
+			bot_can_edit : true,
+			close_friend : true,
+			stories_hidden : true,
+			stories_unavailable : true,
+			contact_require_premium : true,
+			bot_business : true,
+			bot_has_main_app : true,
+			id : -4920563038777764268,
+			access_hash : 4951052578905840803,
+			first_name : 'Tak',
+			last_name : 'None',
+			username : 'TakNone',
+			phone : '+1234567890',
+			photo : $client->userProfilePhotoEmpty(),
+			status : $client->userStatusEmpty(),
+			bot_info_version : 30,
+			restriction_reason : array(
+				$client->restrictionReason(
+					platform : 'GJpPhum8fg0ctxIM',
+					reason : 'aurLmy2xUDjXWV8T',
+					text : 'm4bLSEFrtu9k263W',
+				),
+			),
+			bot_inline_placeholder : 'jIUTOVg5BmuCzfNo',
+			lang_code : 'qut1SgLDmepGxzHd',
+			emoji_status : $client->emojiStatusEmpty(),
+			usernames : array(
+				$client->username(
+					editable : true,
+					active : true,
+					username : 'TakNone',
+				),
+			),
+			stories_max_id : 16,
+			color : $client->peerColor(
+				color : 60,
+				background_emoji_id : -473990379363961597,
+			),
+			profile_color : $client->peerColor(
+				color : 24,
+				background_emoji_id : -7035408121782529016,
+			),
+			bot_active_users : 36,
+			bot_verification_icon : 8879236895044336705,
+			send_paid_messages_stars : 6046046156626492664,
+		),
+	),
+);
+```

@@ -1,0 +1,34 @@
+# messageActionPaidMessagesPrice
+
+**Layer** : 214
+
+```tl
+messageActionPaidMessagesPrice#84b88578 flags:# broadcast_messages_allowed:flags.0?true stars:long = MessageAction;
+```
+
+---
+
+## Parameters
+
+| Name | Type | Description |
+| :---: | :---: | :--- |
+| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| **broadcast_messages_allowed** | [`flags.0?true`](type/true) | NOTHING |
+| <mark>stars</mark> | [`long`](type/long) | NOTHING |
+
+---
+
+## Type
+
+[MessageAction](type/MessageAction)
+
+---
+
+## Example
+
+```php
+$messageAction = $client->messageActionPaidMessagesPrice(
+	broadcast_messages_allowed : true,
+	stars : -6988349366887614946,
+);
+```

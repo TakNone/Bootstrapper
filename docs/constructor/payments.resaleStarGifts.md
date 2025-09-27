@@ -1,0 +1,475 @@
+# payments.resaleStarGifts
+
+**Layer** : 214
+
+```tl
+payments.resaleStarGifts#947a12df flags:# count:int gifts:Vector<StarGift> next_offset:flags.0?string attributes:flags.1?Vector<StarGiftAttribute> attributes_hash:flags.1?long chats:Vector<Chat> counters:flags.2?Vector<StarGiftAttributeCounter> users:Vector<User> = payments.ResaleStarGifts;
+```
+
+---
+
+## Parameters
+
+| Name | Type | Description |
+| :---: | :---: | :--- |
+| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <mark>count</mark> | [`int`](type/int) | NOTHING |
+| <mark>gifts</mark> | [`Vector<StarGift>`](type/StarGift) | NOTHING |
+| **next_offset** | [`flags.0?string`](type/string) | NOTHING |
+| **attributes** | [`flags.1?Vector<StarGiftAttribute>`](type/StarGiftAttribute) | NOTHING |
+| **attributes_hash** | [`flags.1?long`](type/long) | NOTHING |
+| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | NOTHING |
+| **counters** | [`flags.2?Vector<StarGiftAttributeCounter>`](type/StarGiftAttributeCounter) | NOTHING |
+| <mark>users</mark> | [`Vector<User>`](type/User) | NOTHING |
+
+---
+
+## Type
+
+[payments.ResaleStarGifts](type/payments.ResaleStarGifts)
+
+---
+
+## Example
+
+```php
+$paymentsResaleStarGifts = $client->payments->resaleStarGifts(
+	count : 43,
+	gifts : array(
+		$client->starGift(
+			limited : true,
+			sold_out : true,
+			birthday : true,
+			can_upgrade : true,
+			require_premium : true,
+			limited_per_user : true,
+			id : 518601286319571240,
+			sticker : $client->documentEmpty(
+				id : 6890286140977400192,
+			),
+			stars : -6220258442425075770,
+			availability_remains : 79,
+			availability_total : 41,
+			availability_resale : -6119657752976712324,
+			convert_stars : -1218333213178905534,
+			first_sale_date : 81,
+			last_sale_date : 3,
+			upgrade_stars : 2879165539312707132,
+			resell_min_stars : 1082182335943167487,
+			title : 'ukvB6URCT3oSt0Vn',
+			released_by : $client->peerUser(
+				user_id : 4605662511523590568,
+			),
+			per_user_total : 6,
+			per_user_remains : 66,
+			locked_until_date : 52,
+		),
+		$client->starGiftUnique(
+			require_premium : true,
+			resale_ton_only : true,
+			theme_available : true,
+			id : 6202665265011428926,
+			gift_id : -6348702707072440401,
+			title : 'MRiTYVZXLHtrhIad',
+			slug : 'qonK7bhJF0ueVmi2',
+			num : 10,
+			owner_id : $client->peerUser(
+				user_id : 1739324965083034105,
+			),
+			owner_name : 'yrgRK6xtBTq9GnXD',
+			owner_address : 'gJ5BifOVzkSUvleT',
+			attributes : array(
+				$client->starGiftAttributeModel(
+					name : 'yazsfIFAmjYTvUDe',
+					document : $client->documentEmpty(...),
+					rarity_permille : 16,
+				),
+				$client->starGiftAttributePattern(
+					name : 'kIWvXAsxnOcyfoQT',
+					document : $client->documentEmpty(...),
+					rarity_permille : 64,
+				),
+				$client->starGiftAttributeBackdrop(
+					name : 'HpCWSknYc8eIoBJ5',
+					backdrop_id : 94,
+					center_color : 31,
+					edge_color : 42,
+					pattern_color : 95,
+					text_color : 44,
+					rarity_permille : 3,
+				),
+				$client->starGiftAttributeOriginalDetails(
+					sender_id : $client->peerUser(...),
+					recipient_id : $client->peerUser(...),
+					date : 83,
+					message : $client->textWithEntities(...),
+				),
+			),
+			availability_issued : 78,
+			availability_total : 91,
+			gift_address : 'JFh4WQT20BdiKtVm',
+			resell_amount : array(
+				$client->starsAmount(
+					amount : -2284134326521800087,
+					nanos : 24,
+				),
+				$client->starsTonAmount(
+					amount : 1930043765717082687,
+				),
+			),
+			released_by : $client->peerUser(
+				user_id : -927690667526799353,
+			),
+			value_amount : 4557515591278642571,
+			value_currency : 'snjElp3HScOzP5rI',
+			theme_peer : $client->peerUser(
+				user_id : -4046700699992146996,
+			),
+		),
+	),
+	next_offset : 'coXaZAy8xER2VtwG',
+	attributes : array(
+		$client->starGiftAttributeModel(
+			name : 'j9GZ1E2x0VnI6X3u',
+			document : $client->documentEmpty(
+				id : -3675124503417334227,
+			),
+			rarity_permille : 90,
+		),
+		$client->starGiftAttributePattern(
+			name : '46tuZqja1F9UpXHs',
+			document : $client->documentEmpty(
+				id : -6059928463531377089,
+			),
+			rarity_permille : 66,
+		),
+		$client->starGiftAttributeBackdrop(
+			name : 'LWfCjgUIBNotMnhZ',
+			backdrop_id : 82,
+			center_color : 74,
+			edge_color : 81,
+			pattern_color : 38,
+			text_color : 90,
+			rarity_permille : 19,
+		),
+		$client->starGiftAttributeOriginalDetails(
+			sender_id : $client->peerUser(
+				user_id : -6670316495418941547,
+			),
+			recipient_id : $client->peerUser(
+				user_id : 3002657812603450461,
+			),
+			date : 44,
+			message : $client->textWithEntities(
+				text : 'BX0H9hRTZ73zgjis',
+				entities : array(
+					$client->messageEntityUnknown(...),
+					$client->messageEntityMention(...),
+					$client->messageEntityHashtag(...),
+					$client->messageEntityBotCommand(...),
+					$client->messageEntityUrl(...),
+					$client->messageEntityEmail(...),
+					$client->messageEntityBold(...),
+					$client->messageEntityItalic(...),
+					$client->messageEntityCode(...),
+					$client->messageEntityPre(...),
+					$client->messageEntityTextUrl(...),
+					$client->messageEntityMentionName(...),
+					$client->inputMessageEntityMentionName(...),
+					$client->messageEntityPhone(...),
+					$client->messageEntityCashtag(...),
+					$client->messageEntityUnderline(...),
+					$client->messageEntityStrike(...),
+					$client->messageEntityBankCard(...),
+					$client->messageEntitySpoiler(...),
+					$client->messageEntityCustomEmoji(...),
+					$client->messageEntityBlockquote(...),
+				),
+			),
+		),
+	),
+	attributes_hash : -4789938706464420880,
+	chats : array(
+		$client->chatEmpty(
+			id : 8223475979213422703,
+		),
+		$client->chat(
+			creator : true,
+			kicked : true,
+			left : true,
+			deactivated : true,
+			call_active : true,
+			call_not_empty : true,
+			noforwards : true,
+			id : 5883646820213711821,
+			title : 'kx6oJlwZgeYvz3i9',
+			photo : $client->chatPhotoEmpty(),
+			participants_count : 52,
+			date : 16,
+			version : 95,
+			migrated_to : $client->inputChannelEmpty(),
+			admin_rights : $client->chatAdminRights(
+				change_info : true,
+				post_messages : true,
+				edit_messages : true,
+				delete_messages : true,
+				ban_users : true,
+				invite_users : true,
+				pin_messages : true,
+				add_admins : true,
+				anonymous : true,
+				manage_call : true,
+				other : true,
+				manage_topics : true,
+				post_stories : true,
+				edit_stories : true,
+				delete_stories : true,
+				manage_direct_messages : true,
+			),
+			default_banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				until_date : 21,
+			),
+		),
+		$client->chatForbidden(
+			id : 2283093340770403384,
+			title : 'K28X7E0zNfWgxADH',
+		),
+		$client->channel(
+			creator : true,
+			left : true,
+			broadcast : true,
+			verified : true,
+			megagroup : true,
+			restricted : true,
+			signatures : true,
+			min : true,
+			scam : true,
+			has_link : true,
+			has_geo : true,
+			slowmode_enabled : true,
+			call_active : true,
+			call_not_empty : true,
+			fake : true,
+			gigagroup : true,
+			noforwards : true,
+			join_to_send : true,
+			join_request : true,
+			forum : true,
+			stories_hidden : true,
+			stories_hidden_min : true,
+			stories_unavailable : true,
+			signature_profiles : true,
+			autotranslation : true,
+			broadcast_messages_allowed : true,
+			monoforum : true,
+			forum_tabs : true,
+			id : -5566849521792995263,
+			access_hash : -6972254464754628963,
+			title : '2bg1oWIHDqOCBKvE',
+			username : 'TakNone',
+			photo : $client->chatPhotoEmpty(),
+			date : 42,
+			restriction_reason : array(
+				$client->restrictionReason(
+					platform : 'kx5R7a8D60JKYT2e',
+					reason : 'jITvm5XRexcVHlyr',
+					text : 'tI7EaYoyHdZKFGXP',
+				),
+			),
+			admin_rights : $client->chatAdminRights(
+				change_info : true,
+				post_messages : true,
+				edit_messages : true,
+				delete_messages : true,
+				ban_users : true,
+				invite_users : true,
+				pin_messages : true,
+				add_admins : true,
+				anonymous : true,
+				manage_call : true,
+				other : true,
+				manage_topics : true,
+				post_stories : true,
+				edit_stories : true,
+				delete_stories : true,
+				manage_direct_messages : true,
+			),
+			banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				until_date : 5,
+			),
+			default_banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				until_date : 37,
+			),
+			participants_count : 66,
+			usernames : array(
+				$client->username(
+					editable : true,
+					active : true,
+					username : 'TakNone',
+				),
+			),
+			stories_max_id : 99,
+			color : $client->peerColor(
+				color : 3,
+				background_emoji_id : -7749524167530525132,
+			),
+			profile_color : $client->peerColor(
+				color : 86,
+				background_emoji_id : 2998840991945515474,
+			),
+			emoji_status : $client->emojiStatusEmpty(),
+			level : 30,
+			subscription_until_date : 77,
+			bot_verification_icon : 5035068428189356463,
+			send_paid_messages_stars : -4565091013286284387,
+			linked_monoforum_id : 3590828280251826556,
+		),
+		$client->channelForbidden(
+			broadcast : true,
+			megagroup : true,
+			id : 7628813143292281927,
+			access_hash : 3691523501504837483,
+			title : 'z4OHX0EiS1sG37Ra',
+			until_date : 82,
+		),
+	),
+	counters : array(
+		$client->starGiftAttributeCounter(
+			attribute : $client->starGiftAttributeIdModel(
+				document_id : 2458342141208726688,
+			),
+			count : 53,
+		),
+	),
+	users : array(
+		$client->userEmpty(
+			id : -6408343661652776537,
+		),
+		$client->user(
+			self : true,
+			contact : true,
+			mutual_contact : true,
+			deleted : true,
+			bot : true,
+			bot_chat_history : true,
+			bot_nochats : true,
+			verified : true,
+			restricted : true,
+			min : true,
+			bot_inline_geo : true,
+			support : true,
+			scam : true,
+			apply_min_photo : true,
+			fake : true,
+			bot_attach_menu : true,
+			premium : true,
+			attach_menu_enabled : true,
+			bot_can_edit : true,
+			close_friend : true,
+			stories_hidden : true,
+			stories_unavailable : true,
+			contact_require_premium : true,
+			bot_business : true,
+			bot_has_main_app : true,
+			id : -1242083740883788,
+			access_hash : -7831242100578104672,
+			first_name : 'Tak',
+			last_name : 'None',
+			username : 'TakNone',
+			phone : '+1234567890',
+			photo : $client->userProfilePhotoEmpty(),
+			status : $client->userStatusEmpty(),
+			bot_info_version : 61,
+			restriction_reason : array(
+				$client->restrictionReason(
+					platform : 'Gx8YjI0WOKJCMcka',
+					reason : 'JH4od7xAMbkK0Zie',
+					text : '8vxcYfbtadGoUT0M',
+				),
+			),
+			bot_inline_placeholder : 'Yh8yEwp1qQDtACPz',
+			lang_code : 'EClKhAYLSzw7d2OP',
+			emoji_status : $client->emojiStatusEmpty(),
+			usernames : array(
+				$client->username(
+					editable : true,
+					active : true,
+					username : 'TakNone',
+				),
+			),
+			stories_max_id : 97,
+			color : $client->peerColor(
+				color : 56,
+				background_emoji_id : -2660448944118098474,
+			),
+			profile_color : $client->peerColor(
+				color : 8,
+				background_emoji_id : -5849776250198507180,
+			),
+			bot_active_users : 65,
+			bot_verification_icon : 301420283869809686,
+			send_paid_messages_stars : 7066814909487286574,
+		),
+	),
+);
+```
