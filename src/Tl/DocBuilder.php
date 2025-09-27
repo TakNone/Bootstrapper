@@ -93,7 +93,7 @@ abstract class DocBuilder {
 			$all->writeNewLine('---');
 			$all->writeNewLine();
 			$type = current($items)['type'];
-			$all->writeNewLine('###### '.str_replace(chr(46),chr(32),$type));
+			$all->writeNewLine('##### '.str_replace(chr(46),chr(32),$type));
 			$info = self::extractPageInfoFromUrl('https://core.telegram.org/type/'.$type);
 			$stream = new Builder($folderTypes.DIRECTORY_SEPARATOR.$type.'.md');
 			$stream->write('# '.$type);
@@ -136,7 +136,7 @@ abstract class DocBuilder {
 				$all->writeNewLine();
 				$all->writeNewLine('---');
 				$all->writeNewLine();
-				$all->writeNewLine('###### '.str_replace(chr(46),chr(32),$item['predicate']));
+				$all->writeNewLine('##### '.str_replace(chr(46),chr(32),$item['predicate']));
 				$info = self::extractPageInfoFromUrl('https://core.telegram.org/constructor/'.$item['predicate']);
 				$stream = new Builder($folderConstructors.DIRECTORY_SEPARATOR.$item['predicate'].'.md');
 				$stream->write('# '.$item['predicate']);
@@ -200,7 +200,7 @@ abstract class DocBuilder {
 				$all->writeNewLine();
 				$all->writeNewLine('---');
 				$all->writeNewLine();
-				$all->writeNewLine('###### '.str_replace(chr(46),chr(32),$item['method']));
+				$all->writeNewLine('##### '.str_replace(chr(46),chr(32),$item['method']));
 				$info = self::extractPageInfoFromUrl('https://core.telegram.org/method/'.$item['method']);
 				$stream = new Builder($folderMethods.DIRECTORY_SEPARATOR.$item['method'].'.md');
 				$stream->write('# '.$item['method']);
