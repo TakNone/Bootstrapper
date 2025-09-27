@@ -2,7 +2,7 @@
 
 **Description** : *Represents a story media area &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 mediaAreaVenue#be82db9c coordinates:MediaAreaCoordinates geo:GeoPoint title:string address:string provider:string venue_id:string venue_type:string = MediaArea;

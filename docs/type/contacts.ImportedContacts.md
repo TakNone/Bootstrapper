@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on successfully imported contacts*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 contacts.importedContacts#77d01c3b imported:Vector<ImportedContact> popular_invites:Vector<PopularContact> retry_contacts:Vector<long> users:Vector<User> = contacts.ImportedContacts;

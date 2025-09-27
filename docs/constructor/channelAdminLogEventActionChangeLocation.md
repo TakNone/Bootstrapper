@@ -2,7 +2,7 @@
 
 **Description** : *The geogroup location was changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionChangeLocation#e6b76ae prev_value:ChannelLocation new_value:ChannelLocation = ChannelAdminLogEventAction;

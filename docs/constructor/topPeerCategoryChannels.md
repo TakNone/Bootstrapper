@@ -2,7 +2,7 @@
 
 **Description** : *Most frequently visited channels*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 topPeerCategoryChannels#161d9628 = TopPeerCategory;

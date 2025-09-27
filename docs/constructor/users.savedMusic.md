@@ -1,6 +1,6 @@
 # users.savedMusic
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 users.savedMusic#34a2f297 count:int documents:Vector<Document> = users.SavedMusic;
@@ -27,77 +27,77 @@ users.savedMusic#34a2f297 count:int documents:Vector<Document> = users.SavedMusi
 
 ```php
 $usersSavedMusic = $client->users->savedMusic(
-	count : 44,
+	count : 26,
 	documents : array(
 		$client->documentEmpty(
-			id : 5908847277431668128,
+			id : 7500076839296895891,
 		),
 		$client->document(
-			id : -138186014589701621,
-			access_hash : 3484080627293475232,
+			id : 57701306674980693,
+			access_hash : -7179685670455118156,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			date : 65,
-			mime_type : 'DgqvsTwky8HbU0tV',
-			size : 666678167774216381,
+			date : 10,
+			mime_type : 'Tp5U31KEtMlQvnNZ',
+			size : 3934387152111261875,
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'hadX5C8HeVxzMlf2',
+					type : 'hW5r3EdT7cYy4ptU',
 				),
 				$client->photoSize(
-					type : '549hM3ZQCVuJRg6E',
-					w : 2,
-					h : 58,
-					size : 34,
+					type : 'SUYoEQMZH8k2JrDb',
+					w : 74,
+					h : 50,
+					size : 63,
 				),
 				$client->photoCachedSize(
-					type : 'sPDvIdWCo8eqRSzt',
-					w : 76,
-					h : 59,
+					type : 'xAW41h86piX9ZNUS',
+					w : 82,
+					h : 88,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'lgCvQMKVLRyqcmGN',
+					type : 'tvr9Xi2USL5qH4dk',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'C5HBr0yjwp89WUkT',
-					w : 90,
-					h : 13,
-					sizes : array(71),
+					type : 'wxnJIBFP42O7eKQM',
+					w : 10,
+					h : 82,
+					sizes : array(16),
 				),
 				$client->photoPathSize(
-					type : 'U4CFsrXGHMoOLjDp',
+					type : '3PIO9lLMTj5Qiv86',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_thumbs : array(
 				$client->videoSize(
-					type : 'XN6l4mM2yOGPAxDf',
-					w : 52,
-					h : 52,
-					size : 7,
-					video_start_ts : 1664909.8857421875,
+					type : 'QEIW4ATqXRs9F30M',
+					w : 86,
+					h : 84,
+					size : 39,
+					video_start_ts : 904052.1943359375,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : -3684043932199955934,
+					emoji_id : 8015402933386845058,
 					background_colors : array(59),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(...),
-					sticker_id : 2382576457251796206,
-					background_colors : array(2),
+					sticker_id : -7890105368717589393,
+					background_colors : array(25),
 				),
 			),
-			dc_id : 73,
+			dc_id : 58,
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 70,
-					h : 54,
+					w : 48,
+					h : 10,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'QXgIKHwVhJU17Mq9',
+					alt : 'Pl2ASjdG71ToF8OU',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -105,28 +105,28 @@ $usersSavedMusic = $client->users->savedMusic(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : 1516879.05859375,
-					w : 81,
-					h : 36,
-					preload_prefix_size : 70,
-					video_start_ts : -762531.740234375,
-					video_codec : 'oNQTfXk27EYuga8q',
+					duration : 793376.599609375,
+					w : 63,
+					h : 40,
+					preload_prefix_size : 52,
+					video_start_ts : -160269.59375,
+					video_codec : 'pTao7xLjDQG3t0wE',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 4,
-					title : 'CfQmiqSglALvHE9y',
-					performer : 'owtlMV6c2snvYuPA',
+					duration : 31,
+					title : 'XN6GMpE2SBlxTcAZ',
+					performer : 'e1YWiFkAbnLouqgQ',
 					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'PY6xvOTQp0A4k5Kc',
+					file_name : 'jgfoDqLHxGK125t7',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'eavpoYLdKynWjkz9',
+					alt : '1QeZqbKgFn2Niak9',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),

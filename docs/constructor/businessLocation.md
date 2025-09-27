@@ -2,7 +2,7 @@
 
 **Description** : *Represents the location of a Telegram Business &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 businessLocation#ac5c1af7 flags:# geo_point:flags.0?GeoPoint address:string = BusinessLocation;
@@ -31,6 +31,6 @@ businessLocation#ac5c1af7 flags:# geo_point:flags.0?GeoPoint address:string = Bu
 ```php
 $businessLocation = $client->businessLocation(
 	geo_point : $client->geoPointEmpty(),
-	address : 'VmbJ1tICiFMpv38O',
+	address : '1XsxeOh7InrlWAD4',
 );
 ```

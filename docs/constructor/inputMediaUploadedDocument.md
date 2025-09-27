@@ -2,7 +2,7 @@
 
 **Description** : *New document*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputMediaUploadedDocument#37c9330 flags:# nosound_video:flags.3?true force_file:flags.4?true spoiler:flags.5?true file:InputFile thumb:flags.2?InputFile mime_type:string attributes:Vector<DocumentAttribute> stickers:flags.0?Vector<InputDocument> video_cover:flags.6?InputPhoto video_timestamp:flags.7?int ttl_seconds:flags.1?int = InputMedia;
@@ -43,74 +43,74 @@ $inputMedia = $client->inputMediaUploadedDocument(
 	force_file : true,
 	spoiler : true,
 	file : $client->inputFile(
-		id : 5926320202553587105,
-		parts : 15,
-		name : 'h62X4yselKZLmqd0',
+		id : -2377490513327343624,
+		parts : 48,
+		name : 'yn9p0a32AEJusUZv',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
 	thumb : $client->inputFile(
-		id : 87556232257194479,
-		parts : 39,
-		name : 'mf8JxVgjMkrKOChP',
+		id : -5822631691426522690,
+		parts : 72,
+		name : 'uhgbS2Gtfqlr6kWj',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	mime_type : 'm0J52HlBKdjZOfvi',
+	mime_type : 'mtIurYqPl7yC5vUk',
 	attributes : array(
 		$client->documentAttributeImageSize(
-			w : 46,
-			h : 4,
+			w : 6,
+			h : 17,
 		),
 		$client->documentAttributeAnimated(),
 		$client->documentAttributeSticker(
 			mask : true,
-			alt : 'aTbwpBAJi4mRhrke',
+			alt : 'QYzlT7ZKLSIBUbMg',
 			stickerset : $client->inputStickerSetEmpty(),
 			mask_coords : $client->maskCoords(
-				n : 25,
-				x : -497068.705078125,
-				y : -970821.4033203125,
-				zoom : -149495.0556640625,
+				n : 19,
+				x : 731665.0107421875,
+				y : 310890.8203125,
+				zoom : -1024021.4248046875,
 			),
 		),
 		$client->documentAttributeVideo(
 			round_message : true,
 			supports_streaming : true,
 			nosound : true,
-			duration : 1091411.8544921875,
-			w : 94,
-			h : 89,
-			preload_prefix_size : 44,
-			video_start_ts : -517685.7197265625,
-			video_codec : 'GPBFm0vALdYqJKRT',
+			duration : 2095009.8134765625,
+			w : 69,
+			h : 94,
+			preload_prefix_size : 50,
+			video_start_ts : -1077007.275390625,
+			video_codec : 'SMEa9xKAZitT1XPo',
 		),
 		$client->documentAttributeAudio(
 			voice : true,
-			duration : 42,
-			title : '6Sl0TcVkHtgneON9',
-			performer : 'rHnhZfCbUzSyFqus',
+			duration : 70,
+			title : 'nPNo19W0LaRT654c',
+			performer : 'mL4VF7HZ2Y6BK5yu',
 			waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->documentAttributeFilename(
-			file_name : '2roD4FBEtL1djwGS',
+			file_name : 'ylYA6QTx7GMmOFnD',
 		),
 		$client->documentAttributeHasStickers(),
 		$client->documentAttributeCustomEmoji(
 			free : true,
 			text_color : true,
-			alt : 'CeGPUXb0ios5haux',
+			alt : 'Ug4BlR2v3ipnLujE',
 			stickerset : $client->inputStickerSetEmpty(),
 		),
 	),
 	stickers : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : -6319199222451882963,
-			access_hash : -2877810176880270413,
+			id : -4353285674276914475,
+			access_hash : -271632966071985067,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 100,
-	ttl_seconds : 38,
+	video_timestamp : 68,
+	ttl_seconds : 44,
 );
 ```

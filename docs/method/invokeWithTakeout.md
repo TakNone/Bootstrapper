@@ -2,7 +2,7 @@
 
 **Description** : *Invoke a method within a takeout session, see here &raquo; for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 invokeWithTakeout#aca9fd2e {X:Type} takeout_id:long query:!X = X;
@@ -29,7 +29,7 @@ invokeWithTakeout#aca9fd2e {X:Type} takeout_id:long query:!X = X;
 
 ```php
 $x = $client->invokeWithTakeout(
-	takeout_id : 7732784755516121716,
+	takeout_id : 1711704291193860351,
 	query : $client->help->getConfig(raw : true),
 );
 ```

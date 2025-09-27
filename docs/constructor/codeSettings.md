@@ -2,7 +2,7 @@
 
 **Description** : *Settings used by telegram servers for sending the confirm code*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 codeSettings#ad253d78 flags:# allow_flashcall:flags.0?true current_number:flags.1?true allow_app_hash:flags.4?true allow_missed_call:flags.5?true allow_firebase:flags.7?true unknown_number:flags.9?true logout_tokens:flags.6?Vector<bytes> token:flags.8?string app_sandbox:flags.8?Bool = CodeSettings;
@@ -44,7 +44,7 @@ $codeSettings = $client->codeSettings(
 	allow_firebase : true,
 	unknown_number : true,
 	logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	token : 'kz8TRPu7tIKcsprg',
+	token : 'PJFdvKp7MUce9XnD',
 	app_sandbox : true,
 );
 ```

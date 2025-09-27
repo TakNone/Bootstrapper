@@ -2,7 +2,7 @@
 
 **Description** : *Points to a specific group call*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputGroupCall#d8aa840f id:long access_hash:long = InputGroupCall;
@@ -29,7 +29,7 @@ inputGroupCall#d8aa840f id:long access_hash:long = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCall(
-	id : 1937765616101072743,
-	access_hash : 1257867289615108726,
+	id : 920579188065077853,
+	access_hash : 1039257101460786749,
 );
 ```

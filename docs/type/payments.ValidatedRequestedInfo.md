@@ -2,7 +2,7 @@
 
 **Description** : *Validated requested info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.validatedRequestedInfo#d1451883 flags:# id:flags.0?string shipping_options:flags.1?Vector<ShippingOption> = payments.ValidatedRequestedInfo;

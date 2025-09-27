@@ -2,7 +2,7 @@
 
 **Description** : *Stories associated to a peer*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 peerStories#9a35e999 flags:# peer:Peer max_read_id:flags.0?int stories:Vector<StoryItem> = PeerStories;

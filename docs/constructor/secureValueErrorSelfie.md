@@ -2,7 +2,7 @@
 
 **Description** : *Represents an issue with the selfie with a document\. The error is considered resolved when the file with the selfie changes*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 secureValueErrorSelfie#e537ced6 type:SecureValueType file_hash:bytes text:string = SecureValueError;
@@ -32,6 +32,6 @@ secureValueErrorSelfie#e537ced6 type:SecureValueType file_hash:bytes text:string
 $secureValueError = $client->secureValueErrorSelfie(
 	type : $client->secureValueTypePersonalDetails(),
 	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	text : 'RO7QLVrasPJge6ic',
+	text : 'kJbGK6tPd9SUlI8p',
 );
 ```

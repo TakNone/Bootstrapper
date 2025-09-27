@@ -2,7 +2,7 @@
 
 **Description** : *The sponsored message was reported successfully*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.sponsoredMessageReportResultReported#ad798849 = channels.SponsoredMessageReportResult;

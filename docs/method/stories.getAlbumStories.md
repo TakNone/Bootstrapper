@@ -1,6 +1,6 @@
 # stories.getAlbumStories
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.getAlbumStories#ac806d61 peer:InputPeer album_id:int offset:int limit:int = stories.Stories;
@@ -30,8 +30,8 @@ stories.getAlbumStories#ac806d61 peer:InputPeer album_id:int offset:int limit:in
 ```php
 $storiesStories = $client->stories->getAlbumStories(
 	peer : $client->inputPeerEmpty(),
-	album_id : 80,
+	album_id : 7,
 	offset : 0,
-	limit : 28,
+	limit : 16,
 );
 ```

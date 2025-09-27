@@ -2,7 +2,7 @@
 
 **Description** : *Fetch updated information about paid media, see here &raquo; for the full flow*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getExtendedMedia#84f80814 peer:InputPeer id:Vector<int> = Updates;
@@ -30,6 +30,6 @@ messages.getExtendedMedia#84f80814 peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->getExtendedMedia(
 	peer : $client->inputPeerEmpty(),
-	id : array(14),
+	id : array(18),
 );
 ```

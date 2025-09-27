@@ -2,7 +2,7 @@
 
 **Description** : *Activate or deactivate a Telegram Star subscription &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.changeStarsSubscription#c7770878 flags:# peer:InputPeer subscription_id:string canceled:flags.0?Bool = Bool;
@@ -40,7 +40,7 @@ payments.changeStarsSubscription#c7770878 flags:# peer:InputPeer subscription_id
 ```php
 $bool = $client->payments->changeStarsSubscription(
 	peer : $client->inputPeerEmpty(),
-	subscription_id : 'D05ik4dGvQuHxbRt',
+	subscription_id : 'OQbpcsjUB6R4Y7iH',
 	canceled : false,
 );
 ```

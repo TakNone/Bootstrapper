@@ -2,7 +2,7 @@
 
 **Description** : *Selects a quick reply shortcut by its numeric ID*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputQuickReplyShortcutId#1190cf1 shortcut_id:int = InputQuickReplyShortcut;

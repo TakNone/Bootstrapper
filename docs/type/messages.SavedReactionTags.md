@@ -2,7 +2,7 @@
 
 **Description** : *List of reaction tag &raquo; names assigned by the user*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.savedReactionTagsNotModified#889b59ef = messages.SavedReactionTags;

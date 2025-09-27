@@ -2,7 +2,7 @@
 
 **Description** : *Hide/unhide message history for new channel/supergroup users*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.togglePreHistoryHidden#eabbb94c channel:InputChannel enabled:Bool = Updates;

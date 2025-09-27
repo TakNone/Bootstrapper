@@ -2,7 +2,7 @@
 
 **Description** : *Can only be used by TSF members to obtain internal information*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 help.getUserInfo#38a08d3 user_id:InputUser = help.UserInfo;

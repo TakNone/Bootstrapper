@@ -2,7 +2,7 @@
 
 **Description** : *Sets new encrypted file saved by parts using upload\.saveFilePart method*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputEncryptedFileUploaded#64bd0306 id:long parts:int md5_checksum:string key_fingerprint:int = InputEncryptedFile;
@@ -31,9 +31,9 @@ inputEncryptedFileUploaded#64bd0306 id:long parts:int md5_checksum:string key_fi
 
 ```php
 $inputEncryptedFile = $client->inputEncryptedFileUploaded(
-	id : -1847842406021855359,
-	parts : 69,
+	id : 5800898430032881720,
+	parts : 53,
 	md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-	key_fingerprint : 5,
+	key_fingerprint : 87,
 );
 ```

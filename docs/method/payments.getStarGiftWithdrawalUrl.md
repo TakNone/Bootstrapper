@@ -1,6 +1,6 @@
 # payments.getStarGiftWithdrawalUrl
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.getStarGiftWithdrawalUrl#d06e93a8 stargift:InputSavedStarGift password:InputCheckPasswordSRP = payments.StarGiftWithdrawalUrl;
@@ -28,7 +28,7 @@ payments.getStarGiftWithdrawalUrl#d06e93a8 stargift:InputSavedStarGift password:
 ```php
 $paymentsStarGiftWithdrawalUrl = $client->payments->getStarGiftWithdrawalUrl(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 43,
+		msg_id : 29,
 	),
 	password : $client->inputCheckPasswordEmpty(),
 );

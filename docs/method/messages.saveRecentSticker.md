@@ -2,7 +2,7 @@
 
 **Description** : *Add/remove sticker from recent stickers list*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.saveRecentSticker#392718f8 flags:# attached:flags.0?true id:InputDocument unsave:Bool = Bool;
@@ -41,6 +41,6 @@ messages.saveRecentSticker#392718f8 flags:# attached:flags.0?true id:InputDocume
 $bool = $client->messages->saveRecentSticker(
 	attached : true,
 	id : $client->inputDocumentEmpty(),
-	unsave : false,
+	unsave : true,
 );
 ```

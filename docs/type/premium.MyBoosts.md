@@ -2,7 +2,7 @@
 
 **Description** : *A list of peers we are currently boosting, and how many boost slots we have left*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 premium.myBoosts#9ae228e2 my_boosts:Vector<MyBoost> chats:Vector<Chat> users:Vector<User> = premium.MyBoosts;

@@ -2,7 +2,7 @@
 
 **Description** : *Info about pinned MTProxy or Public Service Announcement peers*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 help.promoDataEmpty#98f6ac75 expires:int = help.PromoData;

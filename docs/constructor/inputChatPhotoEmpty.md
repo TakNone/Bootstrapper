@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor, remove group photo*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputChatPhotoEmpty#1ca48f57 = InputChatPhoto;

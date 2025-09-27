@@ -2,7 +2,7 @@
 
 **Description** : *No sponsored messages are available*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.sponsoredMessagesEmpty#1839490f = messages.SponsoredMessages;

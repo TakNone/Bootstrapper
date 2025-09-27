@@ -2,7 +2,7 @@
 
 **Description** : *Contains the current default paid reaction privacy, see here &raquo; for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updatePaidReactionPrivacy#8b725fce private:PaidReactionPrivacy = Update;

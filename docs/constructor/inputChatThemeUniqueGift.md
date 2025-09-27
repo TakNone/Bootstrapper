@@ -1,6 +1,6 @@
 # inputChatThemeUniqueGift
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputChatThemeUniqueGift#87e5dfe4 slug:string = InputChatTheme;
@@ -26,6 +26,6 @@ inputChatThemeUniqueGift#87e5dfe4 slug:string = InputChatTheme;
 
 ```php
 $inputChatTheme = $client->inputChatThemeUniqueGift(
-	slug : 'q4CS6NIk1OpiVyHc',
+	slug : 'ksEotjIdvhzir2N7',
 );
 ```

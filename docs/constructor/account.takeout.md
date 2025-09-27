@@ -2,7 +2,7 @@
 
 **Description** : *Takeout info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.takeout#4dba4501 id:long = account.Takeout;
@@ -28,6 +28,6 @@ account.takeout#4dba4501 id:long = account.Takeout;
 
 ```php
 $accountTakeout = $client->account->takeout(
-	id : 2234626284159606894,
+	id : 6751798196182941988,
 );
 ```

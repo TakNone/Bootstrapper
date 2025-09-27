@@ -1,6 +1,6 @@
 # contacts.SponsoredPeers
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 contacts.sponsoredPeersEmpty#ea32b4b1 = contacts.SponsoredPeers;

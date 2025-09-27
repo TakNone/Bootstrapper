@@ -2,7 +2,7 @@
 
 **Description** : *Describes a real \(i\.e\. possibly decimal\) amount of Telegram Stars*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 starsAmount#bbb6b4a3 amount:long nanos:int = StarsAmount;
@@ -29,7 +29,7 @@ starsAmount#bbb6b4a3 amount:long nanos:int = StarsAmount;
 
 ```php
 $starsAmount = $client->starsAmount(
-	amount : -8998812756672601300,
-	nanos : 35,
+	amount : 7689009908794092977,
+	nanos : 84,
 );
 ```

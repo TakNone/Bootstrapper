@@ -2,7 +2,7 @@
 
 **Description** : *Set global privacy settings*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.setGlobalPrivacySettings#1edaaac2 settings:GlobalPrivacySettings = GlobalPrivacySettings;
@@ -44,7 +44,7 @@ $globalPrivacySettings = $client->account->setGlobalPrivacySettings(
 		hide_read_marks : true,
 		new_noncontact_peers_require_premium : true,
 		display_gifts_button : true,
-		noncontact_peers_paid_stars : 4285646955138481939,
+		noncontact_peers_paid_stars : -8759352703430877666,
 		disallowed_gifts : $client->disallowedGiftsSettings(
 			disallow_unlimited_stargifts : true,
 			disallow_limited_stargifts : true,

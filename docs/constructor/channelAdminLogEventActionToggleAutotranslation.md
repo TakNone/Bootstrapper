@@ -1,6 +1,6 @@
 # channelAdminLogEventActionToggleAutotranslation
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionToggleAutotranslation#c517f77e new_value:Bool = ChannelAdminLogEventAction;
@@ -26,6 +26,6 @@ channelAdminLogEventActionToggleAutotranslation#c517f77e new_value:Bool = Channe
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleAutotranslation(
-	new_value : false,
+	new_value : true,
 );
 ```

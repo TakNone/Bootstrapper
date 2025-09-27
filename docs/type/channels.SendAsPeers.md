@@ -2,7 +2,7 @@
 
 **Description** : *A list of peers that can be used to send messages in a specific group*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.sendAsPeers#f496b0c6 peers:Vector<SendAsPeer> chats:Vector<Chat> users:Vector<User> = channels.SendAsPeers;

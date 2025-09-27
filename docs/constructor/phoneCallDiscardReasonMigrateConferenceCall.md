@@ -1,6 +1,6 @@
 # phoneCallDiscardReasonMigrateConferenceCall
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phoneCallDiscardReasonMigrateConferenceCall#9fbbf1f7 slug:string = PhoneCallDiscardReason;
@@ -26,6 +26,6 @@ phoneCallDiscardReasonMigrateConferenceCall#9fbbf1f7 slug:string = PhoneCallDisc
 
 ```php
 $phoneCallDiscardReason = $client->phoneCallDiscardReasonMigrateConferenceCall(
-	slug : 'OMxB4vfQpbcS3XWF',
+	slug : 'UJ8gj3s1qavZQ42P',
 );
 ```

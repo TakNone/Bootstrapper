@@ -2,7 +2,7 @@
 
 **Description** : *Specifies the chats that can receive Telegram Business away &raquo; and greeting &raquo; messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 businessRecipients#21108ff7 flags:# existing_chats:flags.0?true new_chats:flags.1?true contacts:flags.2?true non_contacts:flags.3?true exclude_selected:flags.5?true users:flags.4?Vector<long> = BusinessRecipients;
@@ -39,6 +39,6 @@ $businessRecipients = $client->businessRecipients(
 	contacts : true,
 	non_contacts : true,
 	exclude_selected : true,
-	users : array(-672266300996551519),
+	users : array(-7822875841622699227),
 );
 ```

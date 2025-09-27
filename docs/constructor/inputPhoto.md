@@ -2,7 +2,7 @@
 
 **Description** : *Defines a photo for further interaction*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputPhoto#3bb3b94a id:long access_hash:long file_reference:bytes = InputPhoto;
@@ -30,8 +30,8 @@ inputPhoto#3bb3b94a id:long access_hash:long file_reference:bytes = InputPhoto;
 
 ```php
 $inputPhoto = $client->inputPhoto(
-	id : -4855403638882383844,
-	access_hash : -2455180206439210766,
+	id : 819654962735422536,
+	access_hash : -228024770304124273,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

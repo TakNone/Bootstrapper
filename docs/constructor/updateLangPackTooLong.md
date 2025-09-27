@@ -2,7 +2,7 @@
 
 **Description** : *A language pack has changed, the client should manually fetch the changed strings using langpack\.getDifference*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateLangPackTooLong#46560264 lang_code:string = Update;
@@ -28,6 +28,6 @@ updateLangPackTooLong#46560264 lang_code:string = Update;
 
 ```php
 $update = $client->updateLangPackTooLong(
-	lang_code : 'wLPrqYb5ikMozIVB',
+	lang_code : 'wqNYMUeyD7Hrl3fh',
 );
 ```

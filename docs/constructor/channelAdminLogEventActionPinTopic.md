@@ -2,7 +2,7 @@
 
 **Description** : *A forum topic was pinned or unpinned*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionPinTopic#5d8d353b flags:# prev_topic:flags.0?ForumTopic new_topic:flags.1?ForumTopic = ChannelAdminLogEventAction;
@@ -31,10 +31,10 @@ channelAdminLogEventActionPinTopic#5d8d353b flags:# prev_topic:flags.0?ForumTopi
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionPinTopic(
 	prev_topic : $client->forumTopicDeleted(
-		id : 6,
+		id : 12,
 	),
 	new_topic : $client->forumTopicDeleted(
-		id : 82,
+		id : 93,
 	),
 );
 ```

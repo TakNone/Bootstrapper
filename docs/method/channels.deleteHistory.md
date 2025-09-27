@@ -2,7 +2,7 @@
 
 **Description** : *Delete the history of a supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.deleteHistory#9baa9647 flags:# for_everyone:flags.0?true channel:InputChannel max_id:int = Updates;
@@ -45,6 +45,6 @@ channels.deleteHistory#9baa9647 flags:# for_everyone:flags.0?true channel:InputC
 $updates = $client->channels->deleteHistory(
 	for_everyone : true,
 	channel : $client->inputChannelEmpty(),
-	max_id : 40,
+	max_id : 21,
 );
 ```

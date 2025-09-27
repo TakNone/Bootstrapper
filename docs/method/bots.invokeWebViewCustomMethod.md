@@ -2,7 +2,7 @@
 
 **Description** : *Send a custom request from a mini bot app, triggered by a web\_app\_invoke\_custom\_method event &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 bots.invokeWebViewCustomMethod#87fc5e7 bot:InputUser custom_method:string params:DataJSON = DataJSON;
@@ -40,9 +40,9 @@ bots.invokeWebViewCustomMethod#87fc5e7 bot:InputUser custom_method:string params
 ```php
 $dataJSON = $client->bots->invokeWebViewCustomMethod(
 	bot : $client->inputUserEmpty(),
-	custom_method : 'jU2qCrydLN9abRDe',
+	custom_method : 'bYL617l4C9yxdWHZ',
 	params : $client->dataJSON(
-		data : 'olFGgkHPBMjdUTJn',
+		data : 'ZNFGnQbdeoVSuEOc',
 	),
 );
 ```

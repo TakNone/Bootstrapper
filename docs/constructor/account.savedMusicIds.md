@@ -1,6 +1,6 @@
 # account.savedMusicIds
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.savedMusicIds#998d6636 ids:Vector<long> = account.SavedMusicIds;
@@ -26,6 +26,6 @@ account.savedMusicIds#998d6636 ids:Vector<long> = account.SavedMusicIds;
 
 ```php
 $accountSavedMusicIds = $client->account->savedMusicIds(
-	ids : array(988866738574380405),
+	ids : array(-2835833954280489127),
 );
 ```

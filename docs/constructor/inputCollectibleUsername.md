@@ -2,7 +2,7 @@
 
 **Description** : *Represents a username fragment collectible*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputCollectibleUsername#e39460a9 username:string = InputCollectible;

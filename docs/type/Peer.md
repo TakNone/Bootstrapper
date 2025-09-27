@@ -2,7 +2,7 @@
 
 **Description** : *Identifier of a private chat, basic group, group or channel \(see here &raquo; for more info\)*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 peerUser#59511722 user_id:long = Peer;

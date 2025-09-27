@@ -1,6 +1,6 @@
 # starGiftAttributeCounter
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 starGiftAttributeCounter#2eb1b658 attribute:StarGiftAttributeId count:int = StarGiftAttributeCounter;
@@ -28,8 +28,8 @@ starGiftAttributeCounter#2eb1b658 attribute:StarGiftAttributeId count:int = Star
 ```php
 $starGiftAttributeCounter = $client->starGiftAttributeCounter(
 	attribute : $client->starGiftAttributeIdModel(
-		document_id : -1007182207201091169,
+		document_id : -906833665235438920,
 	),
-	count : 14,
+	count : 62,
 );
 ```

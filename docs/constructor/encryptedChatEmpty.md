@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 encryptedChatEmpty#ab7ec0a0 id:int = EncryptedChat;
@@ -28,6 +28,6 @@ encryptedChatEmpty#ab7ec0a0 id:int = EncryptedChat;
 
 ```php
 $encryptedChat = $client->encryptedChatEmpty(
-	id : 84,
+	id : 63,
 );
 ```

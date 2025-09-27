@@ -2,7 +2,7 @@
 
 **Description** : *Informs the server that the user has interacted with a sponsored message in one of the ways listed here &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.clickSponsoredMessage#8235057e flags:# media:flags.0?true fullscreen:flags.1?true random_id:bytes = Bool;

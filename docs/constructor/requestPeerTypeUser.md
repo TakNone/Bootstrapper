@@ -2,7 +2,7 @@
 
 **Description** : *Choose a user*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 requestPeerTypeUser#5f3b8a00 flags:# bot:flags.0?Bool premium:flags.1?Bool = RequestPeerType;
@@ -30,7 +30,7 @@ requestPeerTypeUser#5f3b8a00 flags:# bot:flags.0?Bool premium:flags.1?Bool = Req
 
 ```php
 $requestPeerType = $client->requestPeerTypeUser(
-	bot : false,
+	bot : true,
 	premium : false,
 );
 ```

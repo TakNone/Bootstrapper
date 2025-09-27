@@ -2,7 +2,7 @@
 
 **Description** : *Native antispam functionality was enabled or disabled*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionToggleAntiSpam#64f36dfc new_value:Bool = ChannelAdminLogEventAction;
@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleAntiSpam#64f36dfc new_value:Bool = ChannelAdminL
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleAntiSpam(
-	new_value : false,
+	new_value : true,
 );
 ```

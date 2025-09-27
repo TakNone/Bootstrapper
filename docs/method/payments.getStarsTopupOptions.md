@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of Telegram Stars topup options &raquo; as starsTopupOption constructors*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.getStarsTopupOptions#c00ec7d3 = Vector<StarsTopupOption>;

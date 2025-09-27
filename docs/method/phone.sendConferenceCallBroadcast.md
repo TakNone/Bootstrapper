@@ -1,6 +1,6 @@
 # phone.sendConferenceCallBroadcast
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Updates;
@@ -28,8 +28,8 @@ phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Upd
 ```php
 $updates = $client->phone->sendConferenceCallBroadcast(
 	call : $client->inputGroupCall(
-		id : 7427544582390240997,
-		access_hash : 1833983415750315099,
+		id : -1550374073207159744,
+		access_hash : -3817637230350089401,
 	),
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

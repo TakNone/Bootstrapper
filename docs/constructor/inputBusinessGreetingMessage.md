@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Business greeting, automatically sent to new users writing to us in private for the first time, or after a certain inactivity period*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputBusinessGreetingMessage#194cb3b shortcut_id:int recipients:InputBusinessRecipients no_activity_days:int = InputBusinessGreetingMessage;
@@ -30,7 +30,7 @@ inputBusinessGreetingMessage#194cb3b shortcut_id:int recipients:InputBusinessRec
 
 ```php
 $inputBusinessGreetingMessage = $client->inputBusinessGreetingMessage(
-	shortcut_id : 6,
+	shortcut_id : 65,
 	recipients : $client->inputBusinessRecipients(
 		existing_chats : true,
 		new_chats : true,
@@ -41,16 +41,16 @@ $inputBusinessGreetingMessage = $client->inputBusinessGreetingMessage(
 			$client->inputUserEmpty(),
 			$client->inputUserSelf(),
 			$client->inputUser(
-				user_id : 2285758939009754732,
-				access_hash : 5450887787929782634,
+				user_id : 3395949556458028520,
+				access_hash : 1887876023782244453,
 			),
 			$client->inputUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 35,
-				user_id : 4185506469205032574,
+				msg_id : 99,
+				user_id : -1564127367084853884,
 			),
 		),
 	),
-	no_activity_days : 75,
+	no_activity_days : 10,
 );
 ```

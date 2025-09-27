@@ -2,7 +2,7 @@
 
 **Description** : *Change the set of message reactions &raquo; that can be used in a certain group, supergroup or channel*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.setChatAvailableReactions#864b2581 flags:# peer:InputPeer available_reactions:ChatReactions reactions_limit:flags.0?int paid_enabled:flags.1?Bool = Updates;
@@ -44,7 +44,7 @@ messages.setChatAvailableReactions#864b2581 flags:# peer:InputPeer available_rea
 $updates = $client->messages->setChatAvailableReactions(
 	peer : $client->inputPeerEmpty(),
 	available_reactions : $client->chatReactionsNone(),
-	reactions_limit : 87,
-	paid_enabled : false,
+	reactions_limit : 44,
+	paid_enabled : true,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Defines the location of a file for download*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputFileLocation#dfdaabe1 volume_id:long local_id:int secret:long file_reference:bytes = InputFileLocation;

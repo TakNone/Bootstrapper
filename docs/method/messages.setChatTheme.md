@@ -2,7 +2,7 @@
 
 **Description** : *Change the chat theme of a certain chat*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.setChatTheme#81202c9 peer:InputPeer theme:InputChatTheme = Updates;

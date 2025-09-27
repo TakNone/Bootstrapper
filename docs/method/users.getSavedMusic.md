@@ -1,6 +1,6 @@
 # users.getSavedMusic
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 users.getSavedMusic#788d7fe3 id:InputUser offset:int limit:int hash:long = users.SavedMusic;
@@ -31,7 +31,7 @@ users.getSavedMusic#788d7fe3 id:InputUser offset:int limit:int hash:long = users
 $usersSavedMusic = $client->users->getSavedMusic(
 	id : $client->inputUserEmpty(),
 	offset : 0,
-	limit : 93,
+	limit : 62,
 	hash : 0,
 );
 ```

@@ -1,6 +1,6 @@
 # account.PaidMessagesRevenue
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.paidMessagesRevenue#1e109708 stars_amount:long = account.PaidMessagesRevenue;

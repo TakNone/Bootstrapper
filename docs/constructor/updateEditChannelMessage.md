@@ -2,7 +2,7 @@
 
 **Description** : *A message was edited in a channel/supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateEditChannelMessage#1b3f4df7 message:Message pts:int pts_count:int = Update;
@@ -31,12 +31,12 @@ updateEditChannelMessage#1b3f4df7 message:Message pts:int pts_count:int = Update
 ```php
 $update = $client->updateEditChannelMessage(
 	message : $client->messageEmpty(
-		id : 23,
+		id : 83,
 		peer_id : $client->peerUser(
-			user_id : 388229362990969807,
+			user_id : -3949836987752143616,
 		),
 	),
-	pts : 46,
-	pts_count : 70,
+	pts : 6,
+	pts_count : 39,
 );
 ```

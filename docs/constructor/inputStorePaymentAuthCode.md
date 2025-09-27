@@ -1,6 +1,6 @@
 # inputStorePaymentAuthCode
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputStorePaymentAuthCode#9bb2636d flags:# restore:flags.0?true phone_number:string phone_code_hash:string currency:string amount:long = InputStorePaymentPurpose;
@@ -34,7 +34,7 @@ $inputStorePaymentPurpose = $client->inputStorePaymentAuthCode(
 	restore : true,
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	currency : '1C3rskjMPqYbiu4X',
-	amount : 5936898735146726688,
+	currency : 'jwoum54JUSstlTRp',
+	amount : 3839045274043758652,
 );
 ```

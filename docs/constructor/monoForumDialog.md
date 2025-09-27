@@ -1,6 +1,6 @@
 # monoForumDialog
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 monoForumDialog#64407ea7 flags:# unread_mark:flags.3?true nopaid_messages_exception:flags.4?true peer:Peer top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_reactions_count:int draft:flags.1?DraftMessage = SavedDialog;
@@ -38,15 +38,15 @@ $savedDialog = $client->monoForumDialog(
 	unread_mark : true,
 	nopaid_messages_exception : true,
 	peer : $client->peerUser(
-		user_id : -3447556267005286433,
+		user_id : -8217124968673752036,
 	),
-	top_message : 47,
-	read_inbox_max_id : 90,
-	read_outbox_max_id : 94,
-	unread_count : 87,
-	unread_reactions_count : 73,
+	top_message : 12,
+	read_inbox_max_id : 26,
+	read_outbox_max_id : 25,
+	unread_count : 32,
+	unread_reactions_count : 81,
 	draft : $client->draftMessageEmpty(
-		date : 85,
+		date : 47,
 	),
 );
 ```

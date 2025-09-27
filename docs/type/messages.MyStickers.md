@@ -2,7 +2,7 @@
 
 **Description** : *The list of stickersets owned by the current account &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.myStickers#faff629d count:int sets:Vector<StickerSetCovered> = messages.MyStickers;

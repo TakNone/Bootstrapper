@@ -2,7 +2,7 @@
 
 **Description** : *Updates online user status*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.updateStatus#6628562c offline:Bool = Bool;

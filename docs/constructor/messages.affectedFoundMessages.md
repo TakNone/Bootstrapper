@@ -2,7 +2,7 @@
 
 **Description** : *Messages found and affected by changes*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.affectedFoundMessages#ef8d3e6c pts:int pts_count:int offset:int messages:Vector<int> = messages.AffectedFoundMessages;
@@ -31,9 +31,9 @@ messages.affectedFoundMessages#ef8d3e6c pts:int pts_count:int offset:int message
 
 ```php
 $messagesAffectedFoundMessages = $client->messages->affectedFoundMessages(
-	pts : 60,
-	pts_count : 38,
+	pts : 45,
+	pts_count : 80,
 	offset : 0,
-	messages : array(8),
+	messages : array(84),
 );
 ```

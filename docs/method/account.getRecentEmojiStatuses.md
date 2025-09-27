@@ -2,7 +2,7 @@
 
 **Description** : *Get recently used emoji statuses*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getRecentEmojiStatuses#f578105 hash:long = account.EmojiStatuses;

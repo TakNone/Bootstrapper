@@ -2,7 +2,7 @@
 
 **Description** : *Users to which the users often forwards messages to*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 topPeerCategoryForwardUsers#a8406ca9 = TopPeerCategory;

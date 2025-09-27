@@ -2,7 +2,7 @@
 
 **Description** : *Contents of messages in the common message box were read*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateReadMessagesContents#f8227181 flags:# messages:Vector<int> pts:int pts_count:int date:flags.0?int = Update;
@@ -32,9 +32,9 @@ updateReadMessagesContents#f8227181 flags:# messages:Vector<int> pts:int pts_cou
 
 ```php
 $update = $client->updateReadMessagesContents(
-	messages : array(68),
-	pts : 43,
-	pts_count : 7,
-	date : 15,
+	messages : array(84),
+	pts : 50,
+	pts_count : 73,
+	date : 56,
 );
 ```

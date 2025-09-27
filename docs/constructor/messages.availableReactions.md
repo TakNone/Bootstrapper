@@ -2,7 +2,7 @@
 
 **Description** : *Animations and metadata associated with message reactions &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.availableReactions#768e3aad hash:int reactions:Vector<AvailableReaction> = messages.AvailableReactions;
@@ -34,28 +34,28 @@ $messagesAvailableReactions = $client->messages->availableReactions(
 		$client->availableReaction(
 			inactive : true,
 			premium : true,
-			reaction : 'PpU3B1WyLGol6xNa',
-			title : 'hp47lI6YgF2rKGvQ',
+			reaction : 'cdw4pA6Wk0ErQUJT',
+			title : 'sm1cQW4yAhzvqSOo',
 			static_icon : $client->documentEmpty(
-				id : -8314405406267610501,
+				id : 5884632260896978859,
 			),
 			appear_animation : $client->documentEmpty(
-				id : -7233808274433966237,
+				id : -9107433677553159053,
 			),
 			select_animation : $client->documentEmpty(
-				id : -4581326266630420695,
+				id : 3285272285017527000,
 			),
 			activate_animation : $client->documentEmpty(
-				id : 5710994538880294590,
+				id : 662485225704745304,
 			),
 			effect_animation : $client->documentEmpty(
-				id : 3698589032717779003,
+				id : 2363993546701283114,
 			),
 			around_animation : $client->documentEmpty(
-				id : -8149187800568036782,
+				id : 8116298878539474369,
 			),
 			center_icon : $client->documentEmpty(
-				id : -6272097012420132727,
+				id : 5074631681883424816,
 			),
 		),
 	),

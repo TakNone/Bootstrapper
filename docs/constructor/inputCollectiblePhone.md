@@ -2,7 +2,7 @@
 
 **Description** : *Represents a phone number fragment collectible*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputCollectiblePhone#a2e214a4 phone:string = InputCollectible;

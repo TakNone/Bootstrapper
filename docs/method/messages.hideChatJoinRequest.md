@@ -2,7 +2,7 @@
 
 **Description** : *Dismiss or approve a chat join request related to a specific chat or channel*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.hideChatJoinRequest#7fe7e815 flags:# approved:flags.0?true peer:InputPeer user_id:InputUser = Updates;

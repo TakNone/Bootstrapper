@@ -2,7 +2,7 @@
 
 **Description** : *Info about or the order of quick reply shortcuts &raquo; was changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateQuickReplies#f9470ab2 quick_replies:Vector<QuickReply> = Update;
@@ -30,10 +30,10 @@ updateQuickReplies#f9470ab2 quick_replies:Vector<QuickReply> = Update;
 $update = $client->updateQuickReplies(
 	quick_replies : array(
 		$client->quickReply(
-			shortcut_id : 17,
-			shortcut : 'nHdqk7JvwufoxD1z',
+			shortcut_id : 10,
+			shortcut : 'KnDNLTXQw2keoAS7',
 			top_message : 72,
-			count : 83,
+			count : 37,
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Reorder pinned dialogs*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.reorderPinnedDialogs#3b1adf37 flags:# force:flags.0?true folder_id:int order:Vector<InputDialogPeer> = Bool;
@@ -40,13 +40,13 @@ messages.reorderPinnedDialogs#3b1adf37 flags:# force:flags.0?true folder_id:int 
 ```php
 $bool = $client->messages->reorderPinnedDialogs(
 	force : true,
-	folder_id : 19,
+	folder_id : 42,
 	order : array(
 		$client->inputDialogPeer(
 			peer : $client->inputPeerEmpty(),
 		),
 		$client->inputDialogPeerFolder(
-			folder_id : 72,
+			folder_id : 95,
 		),
 	),
 );

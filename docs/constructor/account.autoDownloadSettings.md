@@ -2,7 +2,7 @@
 
 **Description** : *Media autodownload settings*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.autoDownloadSettings#63cacf26 low:AutoDownloadSettings medium:AutoDownloadSettings high:AutoDownloadSettings = account.AutoDownloadSettings;
@@ -36,11 +36,11 @@ $accountAutoDownloadSettings = $client->account->autoDownloadSettings(
 		audio_preload_next : true,
 		phonecalls_less_data : true,
 		stories_preload : true,
-		photo_size_max : 23,
-		video_size_max : -6871211335886801425,
-		file_size_max : -8292612254388402952,
-		video_upload_maxbitrate : 44,
-		small_queue_active_operations_max : 94,
+		photo_size_max : 49,
+		video_size_max : 1507163870060882818,
+		file_size_max : 6430973454575882345,
+		video_upload_maxbitrate : 15,
+		small_queue_active_operations_max : 1,
 		large_queue_active_operations_max : 0,
 	),
 	medium : $client->autoDownloadSettings(
@@ -49,12 +49,12 @@ $accountAutoDownloadSettings = $client->account->autoDownloadSettings(
 		audio_preload_next : true,
 		phonecalls_less_data : true,
 		stories_preload : true,
-		photo_size_max : 66,
-		video_size_max : 5284247501790038330,
-		file_size_max : 6514837157847051955,
-		video_upload_maxbitrate : 6,
-		small_queue_active_operations_max : 48,
-		large_queue_active_operations_max : 34,
+		photo_size_max : 67,
+		video_size_max : -2574399956181505142,
+		file_size_max : 3025688126437915472,
+		video_upload_maxbitrate : 75,
+		small_queue_active_operations_max : 92,
+		large_queue_active_operations_max : 81,
 	),
 	high : $client->autoDownloadSettings(
 		disabled : true,
@@ -62,12 +62,12 @@ $accountAutoDownloadSettings = $client->account->autoDownloadSettings(
 		audio_preload_next : true,
 		phonecalls_less_data : true,
 		stories_preload : true,
-		photo_size_max : 57,
-		video_size_max : 6677135629361768182,
-		file_size_max : 3177994554194736612,
-		video_upload_maxbitrate : 54,
-		small_queue_active_operations_max : 94,
-		large_queue_active_operations_max : 37,
+		photo_size_max : 0,
+		video_size_max : 8911788680587660616,
+		file_size_max : -4173725602813086192,
+		video_upload_maxbitrate : 24,
+		small_queue_active_operations_max : 44,
+		large_queue_active_operations_max : 78,
 	),
 );
 ```

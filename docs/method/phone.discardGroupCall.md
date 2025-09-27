@@ -2,7 +2,7 @@
 
 **Description** : *Terminate a group call*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.discardGroupCall#7a777135 call:InputGroupCall = Updates;
@@ -39,8 +39,8 @@ phone.discardGroupCall#7a777135 call:InputGroupCall = Updates;
 ```php
 $updates = $client->phone->discardGroupCall(
 	call : $client->inputGroupCall(
-		id : 8133841885266698625,
-		access_hash : 905869673894738595,
+		id : 3063749160564451112,
+		access_hash : -5526709727408932213,
 	),
 );
 ```

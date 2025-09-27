@@ -2,7 +2,7 @@
 
 **Description** : *Get the admin log of a channel/supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.getAdminLog#33ddf480 flags:# channel:InputChannel q:string events_filter:flags.0?ChannelAdminLogEventsFilter admins:flags.1?Vector<InputUser> max_id:long min_id:long limit:int = channels.AdminLogResults;
@@ -48,7 +48,7 @@ channels.getAdminLog#33ddf480 flags:# channel:InputChannel q:string events_filte
 ```php
 $channelsAdminLogResults = $client->channels->getAdminLog(
 	channel : $client->inputChannelEmpty(),
-	q : 'N5yCcqXnod0gMPIS',
+	q : 'bXCYAEqMf8GIe3oj',
 	events_filter : $client->channelAdminLogEventsFilter(
 		join : true,
 		leave : true,
@@ -74,17 +74,17 @@ $channelsAdminLogResults = $client->channels->getAdminLog(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 8717516294159543428,
-			access_hash : 2079938749733770908,
+			user_id : -8957576056925102246,
+			access_hash : 5876188063029057461,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 71,
-			user_id : -7485590416338518094,
+			msg_id : 46,
+			user_id : 198298164354805400,
 		),
 	),
-	max_id : 5326716880784972742,
-	min_id : -1172010532620975119,
-	limit : 9,
+	max_id : -3155129514447665189,
+	min_id : 7822737229790665041,
+	limit : 2,
 );
 ```

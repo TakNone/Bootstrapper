@@ -2,7 +2,7 @@
 
 **Description** : *Group*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 peerChat#36c6019a chat_id:long = Peer;
@@ -28,6 +28,6 @@ peerChat#36c6019a chat_id:long = Peer;
 
 ```php
 $peer = $client->peerChat(
-	chat_id : -7138136832434542166,
+	chat_id : 7195148499812741968,
 );
 ```

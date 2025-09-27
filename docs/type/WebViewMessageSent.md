@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about an inline message sent by a Web App on behalf of a user*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 webViewMessageSent#c94511c flags:# msg_id:flags.0?InputBotInlineMessageID = WebViewMessageSent;

@@ -2,7 +2,7 @@
 
 **Description** : *Invokes a query after successful completion of one of the previous queries*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 invokeAfterMsg#cb9f372d {X:Type} msg_id:long query:!X = X;
@@ -29,7 +29,7 @@ invokeAfterMsg#cb9f372d {X:Type} msg_id:long query:!X = X;
 
 ```php
 $x = $client->invokeAfterMsg(
-	msg_id : 87689412822348007,
+	msg_id : -993344570477943850,
 	query : $client->help->getConfig(raw : true),
 );
 ```

@@ -1,6 +1,6 @@
 # payments.checkCanSendGiftResultOk
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.checkCanSendGiftResultOk#374fa7ad = payments.CheckCanSendGiftResult;

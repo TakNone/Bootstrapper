@@ -2,7 +2,7 @@
 
 **Description** : *Globally search for stories using a hashtag or a location media area, see here &raquo; for more info on the full flow*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.searchPosts#d1810907 flags:# hashtag:flags.0?string area:flags.1?MediaArea peer:flags.2?InputPeer offset:string limit:int = stories.FoundStories;
@@ -41,25 +41,25 @@ stories.searchPosts#d1810907 flags:# hashtag:flags.0?string area:flags.1?MediaAr
 
 ```php
 $storiesFoundStories = $client->stories->searchPosts(
-	hashtag : 'f3dkhn8HtO69YX2L',
+	hashtag : 'FR12svz4UlT6r3NC',
 	area : $client->mediaAreaVenue(
 		coordinates : $client->mediaAreaCoordinates(
-			x : 162099.8759765625,
-			y : -1789268.26953125,
-			w : -2043270.1376953125,
-			h : -1170386.8564453125,
-			rotation : 667951.0068359375,
-			radius : -1264219.2958984375,
+			x : -644094.1318359375,
+			y : 1014724.302734375,
+			w : -1466234.1220703125,
+			h : -502677.73828125,
+			rotation : -516016.0205078125,
+			radius : 387968.8251953125,
 		),
 		geo : $client->geoPointEmpty(),
-		title : '6eYsC1FWZgi3ExDK',
-		address : 'PKMbTp72r6DklaL5',
-		provider : 'SgZs8GuCAoQIPce5',
-		venue_id : 'zCKLexuvGdHcrsjt',
-		venue_type : '9am1qu4VIpBOUlrd',
+		title : 'qKtyix7Mkm3I1UfG',
+		address : 'lvWK8HhUu7eFrIwa',
+		provider : '3uYj1woQchp9WrOn',
+		venue_id : 'BIZr0iTHQCAU7k2h',
+		venue_type : '0E1ZDkXxCylocAnz',
 	),
 	peer : $client->inputPeerEmpty(),
-	offset : 'BOEZ2qp1rTx4Hy5I',
-	limit : 25,
+	offset : 'liURJ0qu5tGgpNfY',
+	limit : 41,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Check if a username is free and can be assigned to a channel/supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.checkUsername#10e6bd2c channel:InputChannel username:string = Bool;

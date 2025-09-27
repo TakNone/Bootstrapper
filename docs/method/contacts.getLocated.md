@@ -2,7 +2,7 @@
 
 **Description** : *Get users and geochats near you, see here &raquo; for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 contacts.getLocated#d348bc44 flags:# background:flags.1?true geo_point:InputGeoPoint self_expires:flags.0?int = Updates;

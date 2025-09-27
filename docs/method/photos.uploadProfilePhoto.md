@@ -2,7 +2,7 @@
 
 **Description** : *Updates current user profile photo*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 photos.uploadProfilePhoto#388a3b5 flags:# fallback:flags.3?true bot:flags.5?InputUser file:flags.0?InputFile video:flags.1?InputFile video_start_ts:flags.2?double video_emoji_markup:flags.4?VideoSize = photos.Photo;
@@ -56,24 +56,24 @@ $photosPhoto = $client->photos->uploadProfilePhoto(
 	fallback : true,
 	bot : $client->inputUserEmpty(),
 	file : $client->inputFile(
-		id : -7049491245030604735,
-		parts : 93,
-		name : 't8UbyzrZLGfWhk26',
+		id : -1733623136391215868,
+		parts : 72,
+		name : 'cBStjvA5nRugCH7k',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
 	video : $client->inputFile(
-		id : -7151444530452345685,
-		parts : 56,
-		name : 'QIKXgiTsFDtG2LzV',
+		id : -7269150381417680462,
+		parts : 81,
+		name : 'ig36ypkMOejFQuWd',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	video_start_ts : 1678719.390625,
+	video_start_ts : -1271808.673828125,
 	video_emoji_markup : $client->videoSize(
-		type : 'KhLp1yBotfMXd9Rk',
-		w : 21,
-		h : 89,
-		size : 69,
-		video_start_ts : -840715.525390625,
+		type : 'RPUN6bFZ0x7ScsXy',
+		w : 99,
+		h : 34,
+		size : 55,
+		video_start_ts : -1091377.3173828125,
 	),
 );
 ```

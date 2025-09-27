@@ -2,7 +2,7 @@
 
 **Description** : *Get scheduled messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getScheduledHistory#f516760b peer:InputPeer hash:long = messages.Messages;

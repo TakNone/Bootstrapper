@@ -2,7 +2,7 @@
 
 **Description** : *Most active user in a supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 statsGroupTopPoster#9d04af9b user_id:long messages:int avg_chars:int = StatsGroupTopPoster;

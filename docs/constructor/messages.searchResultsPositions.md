@@ -2,7 +2,7 @@
 
 **Description** : *Information about sparse positions of messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.searchResultsPositions#53b22baf count:int positions:Vector<SearchResultsPosition> = messages.SearchResultsPositions;
@@ -29,11 +29,11 @@ messages.searchResultsPositions#53b22baf count:int positions:Vector<SearchResult
 
 ```php
 $messagesSearchResultsPositions = $client->messages->searchResultsPositions(
-	count : 59,
+	count : 36,
 	positions : array(
 		$client->searchResultPosition(
-			msg_id : 99,
-			date : 70,
+			msg_id : 17,
+			date : 44,
 			offset : 0,
 		),
 	),

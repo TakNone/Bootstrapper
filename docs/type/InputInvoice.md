@@ -2,7 +2,7 @@
 
 **Description** : *An invoice*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputInvoiceMessage#c5b56859 peer:InputPeer msg_id:int = InputInvoice;
@@ -17,6 +17,8 @@ inputInvoicePremiumGiftStars#dabab2ef flags:# user_id:InputUser months:int messa
 inputInvoiceBusinessBotTransferStars#f4997e42 bot:InputUser stars:long = InputInvoice;
 inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:InputPeer = InputInvoice;
 inputInvoiceStarGiftPrepaidUpgrade#9a0b48b8 peer:InputPeer hash:string = InputInvoice;
+inputInvoicePremiumAuthCode#3e77f614 purpose:InputStorePaymentPurpose = InputInvoice;
+inputInvoiceStarGiftDropOriginalDetails#923d8d1 stargift:InputSavedStarGift = InputInvoice;
 ```
 
 ---
@@ -37,3 +39,5 @@ inputInvoiceStarGiftPrepaidUpgrade#9a0b48b8 peer:InputPeer hash:string = InputIn
 | [**inputInvoiceBusinessBotTransferStars**](constructor/inputInvoiceBusinessBotTransferStars) | NOTHING |
 | [**inputInvoiceStarGiftResale**](constructor/inputInvoiceStarGiftResale) | NOTHING |
 | [**inputInvoiceStarGiftPrepaidUpgrade**](constructor/inputInvoiceStarGiftPrepaidUpgrade) | NOTHING |
+| [**inputInvoicePremiumAuthCode**](constructor/inputInvoicePremiumAuthCode) | NOTHING |
+| [**inputInvoiceStarGiftDropOriginalDetails**](constructor/inputInvoiceStarGiftDropOriginalDetails) | NOTHING |

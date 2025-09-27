@@ -2,7 +2,7 @@
 
 **Description** : *Information about an active supergroup inviter*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 statsGroupTopInviter#535f779d user_id:long invitations:int = StatsGroupTopInviter;
@@ -29,7 +29,7 @@ statsGroupTopInviter#535f779d user_id:long invitations:int = StatsGroupTopInvite
 
 ```php
 $statsGroupTopInviter = $client->statsGroupTopInviter(
-	user_id : -5272541077741048910,
-	invitations : 90,
+	user_id : -5264797474618858283,
+	invitations : 4,
 );
 ```

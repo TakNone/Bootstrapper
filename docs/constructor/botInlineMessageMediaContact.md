@@ -2,7 +2,7 @@
 
 **Description** : *Send a contact*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 botInlineMessageMediaContact#18d1cdc2 flags:# phone_number:string first_name:string last_name:string vcard:string reply_markup:flags.2?ReplyMarkup = BotInlineMessage;
@@ -36,7 +36,7 @@ $botInlineMessage = $client->botInlineMessageMediaContact(
 	phone_number : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
-	vcard : 'K4UIEPVCAemlWT9Z',
+	vcard : 'N4dqWlrK9uo38zBV',
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

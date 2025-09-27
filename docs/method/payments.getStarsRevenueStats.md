@@ -2,7 +2,7 @@
 
 **Description** : *Get Telegram Star revenue statistics &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.getStarsRevenueStats#d91ffad6 flags:# dark:flags.0?true ton:flags.1?true peer:InputPeer = payments.StarsRevenueStats;

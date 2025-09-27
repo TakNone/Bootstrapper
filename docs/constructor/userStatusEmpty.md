@@ -2,7 +2,7 @@
 
 **Description** : *User status has not been set yet*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 userStatusEmpty#9d05049 = UserStatus;

@@ -2,7 +2,7 @@
 
 **Description** : *Installed themes*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.themes#9a3d8c6d hash:long themes:Vector<Theme> = account.Themes;
@@ -35,25 +35,25 @@ $accountThemes = $client->account->themes(
 			creator : true,
 			default : true,
 			for_chat : true,
-			id : -1901387749104255623,
-			access_hash : -7806850025511750128,
-			slug : 'jUPbWYyDvlthBF6c',
-			title : 'Urp2oRcyPM914aim',
+			id : -8342724535224227097,
+			access_hash : 5722551522046436819,
+			slug : 'k7osumYrtKTVjhSE',
+			title : 'wvV1C0eHrm4Wf2Li',
 			document : $client->documentEmpty(
-				id : -7590227351808815863,
+				id : -103885301945192519,
 			),
 			settings : array(
 				$client->themeSettings(
 					message_colors_animated : true,
 					base_theme : $client->baseThemeClassic(...),
-					accent_color : 72,
-					outbox_accent_color : 22,
-					message_colors : array(92),
+					accent_color : 15,
+					outbox_accent_color : 74,
+					message_colors : array(45),
 					wallpaper : $client->wallPaper(...),
 				),
 			),
-			emoticon : 'XxUGFDdvBZR1Egi9',
-			installs_count : 30,
+			emoticon : 'R6wYJ78UjBixHIvb',
+			installs_count : 77,
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Credit card info URL provided by the bank*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 bankCardOpenUrl#f568028a url:string name:string = BankCardOpenUrl;

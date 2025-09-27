@@ -2,7 +2,7 @@
 
 **Description** : *Obtain the list of users that have viewed a specific story we posted*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.getStoryViewsList#7ed23c57 flags:# just_contacts:flags.0?true reactions_first:flags.2?true forwards_first:flags.3?true peer:InputPeer q:flags.1?string id:int offset:string limit:int = stories.StoryViewsList;
@@ -49,9 +49,9 @@ $storiesStoryViewsList = $client->stories->getStoryViewsList(
 	reactions_first : true,
 	forwards_first : true,
 	peer : $client->inputPeerEmpty(),
-	q : 'BAO9p5yCm6Vaxe4M',
-	id : 92,
-	offset : 'tJuog5dNIZpFXYbv',
-	limit : 80,
+	q : '6ZVBUeCpJP8Snv9c',
+	id : 72,
+	offset : 'zD8GSqQh4sduTM2f',
+	limit : 0,
 );
 ```

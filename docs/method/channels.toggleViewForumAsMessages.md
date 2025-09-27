@@ -2,7 +2,7 @@
 
 **Description** : *Users may also choose to display messages from all topics of a forum as if they were sent to a normal group, using a &quot;View as messages&quot; setting in the local client: this setting only affects the current account, and is synced to other logged in sessions using this method*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.toggleViewForumAsMessages#9738bb15 channel:InputChannel enabled:Bool = Updates;

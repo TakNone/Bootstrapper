@@ -2,7 +2,7 @@
 
 **Description** : *Gets the menu button action for a given user or for all users, previously set using bots\.setBotMenuButton; users can see this information in the botInfo constructor*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 bots.getBotMenuButton#9c60eb28 user_id:InputUser = BotMenuButton;

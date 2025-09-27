@@ -2,7 +2,7 @@
 
 **Description** : *Forwards single messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.forwardMessage#33963bf9 peer:InputPeer id:int random_id:long = Updates;
@@ -42,7 +42,7 @@ messages.forwardMessage#33963bf9 peer:InputPeer id:int random_id:long = Updates;
 ```php
 $updates = $client->messages->forwardMessage(
 	peer : $client->inputPeerEmpty(),
-	id : 53,
-	random_id : -8260409999066461877,
+	id : 23,
+	random_id : 1634268253808192937,
 );
 ```

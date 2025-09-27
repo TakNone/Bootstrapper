@@ -2,7 +2,7 @@
 
 **Description** : *Get information about all languages in a localization pack*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 langpack.getLanguages#42c6978f lang_pack:string = Vector<LangPackLanguage>;
@@ -36,6 +36,6 @@ langpack.getLanguages#42c6978f lang_pack:string = Vector<LangPackLanguage>;
 
 ```php
 $langPackLanguage = $client->langpack->getLanguages(
-	lang_pack : 'Z7HMygvR2lmGuDAw',
+	lang_pack : 'b10HFyt5wLRW7uYG',
 );
 ```

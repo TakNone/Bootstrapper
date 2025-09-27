@@ -2,7 +2,7 @@
 
 **Description** : *A forum topic was created*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionCreateTopic#58707d28 topic:ForumTopic = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionCreateTopic#58707d28 topic:ForumTopic = ChannelAdminLo
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionCreateTopic(
 	topic : $client->forumTopicDeleted(
-		id : 50,
+		id : 25,
 	),
 );
 ```

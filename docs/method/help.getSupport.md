@@ -2,7 +2,7 @@
 
 **Description** : *Returns the support user for the &quot;ask a question&quot; feature*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 help.getSupport#9cdf08cd = help.Support;

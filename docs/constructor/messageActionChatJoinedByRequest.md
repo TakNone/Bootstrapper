@@ -2,7 +2,7 @@
 
 **Description** : *A user was accepted into the group by an admin*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionChatJoinedByRequest#ebbca3cb = MessageAction;

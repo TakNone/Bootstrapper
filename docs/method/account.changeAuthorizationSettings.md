@@ -2,7 +2,7 @@
 
 **Description** : *Change settings related to a session*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.changeAuthorizationSettings#40f48462 flags:# confirmed:flags.3?true hash:long encrypted_requests_disabled:flags.0?Bool call_requests_disabled:flags.1?Bool = Bool;
@@ -42,7 +42,7 @@ account.changeAuthorizationSettings#40f48462 flags:# confirmed:flags.3?true hash
 $bool = $client->account->changeAuthorizationSettings(
 	confirmed : true,
 	hash : 0,
-	encrypted_requests_disabled : true,
+	encrypted_requests_disabled : false,
 	call_requests_disabled : true,
 );
 ```

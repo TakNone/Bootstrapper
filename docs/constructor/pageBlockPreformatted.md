@@ -2,7 +2,7 @@
 
 **Description** : *Preformatted \(&lt;pre&gt; text\)*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 pageBlockPreformatted#c070d93e text:RichText language:string = PageBlock;
@@ -30,6 +30,6 @@ pageBlockPreformatted#c070d93e text:RichText language:string = PageBlock;
 ```php
 $pageBlock = $client->pageBlockPreformatted(
 	text : $client->textEmpty(),
-	language : 'MgQR0y4Tl6e8Fk2X',
+	language : 'VXIDw1q9m8ngfopj',
 );
 ```

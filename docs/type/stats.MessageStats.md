@@ -2,7 +2,7 @@
 
 **Description** : *Message statistics*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stats.messageStats#7fe91c14 views_graph:StatsGraph reactions_by_emotion_graph:StatsGraph = stats.MessageStats;

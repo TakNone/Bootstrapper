@@ -2,7 +2,7 @@
 
 **Description** : *Localized information about a bot*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 bots.botInfo#e8a775b0 name:string about:string description:string = bots.BotInfo;
@@ -30,8 +30,8 @@ bots.botInfo#e8a775b0 name:string about:string description:string = bots.BotInfo
 
 ```php
 $botsBotInfo = $client->bots->botInfo(
-	name : '4TMRxDb3Vwaf9OgQ',
-	about : 'cZzPgwTNDQiGbpyo',
-	description : 'tzZKfB2MJVm7Pr5q',
+	name : 'cpZBWJwkS4Vm5PKo',
+	about : 'GWKioAacP2jl8DzS',
+	description : '0EfIxubULC8P9asZ',
 );
 ```

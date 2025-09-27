@@ -2,7 +2,7 @@
 
 **Description** : *Emoji keyword*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 emojiKeyword#d5b3b9f9 keyword:string emoticons:Vector<string> = EmojiKeyword;
@@ -29,7 +29,7 @@ emojiKeyword#d5b3b9f9 keyword:string emoticons:Vector<string> = EmojiKeyword;
 
 ```php
 $emojiKeyword = $client->emojiKeyword(
-	keyword : 'Ek4Y7DKbgZxzSF9G',
-	emoticons : array('IhLWKGV9pOP5jHCF'),
+	keyword : 'AFh8soO3ncCU9GW5',
+	emoticons : array('hvwiP4FaOIzf5got'),
 );
 ```

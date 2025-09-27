@@ -1,6 +1,6 @@
 # payments.transferStarGift
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.transferStarGift#7f18176a stargift:InputSavedStarGift to_id:InputPeer = Updates;
@@ -28,7 +28,7 @@ payments.transferStarGift#7f18176a stargift:InputSavedStarGift to_id:InputPeer =
 ```php
 $updates = $client->payments->transferStarGift(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 53,
+		msg_id : 29,
 	),
 	to_id : $client->inputPeerEmpty(),
 );

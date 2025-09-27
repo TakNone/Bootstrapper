@@ -2,7 +2,7 @@
 
 **Description** : *The phone call was missed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phoneCallDiscardReasonMissed#85e42301 = PhoneCallDiscardReason;

@@ -2,7 +2,7 @@
 
 **Description** : *Hide the active stories of a specific peer, preventing them from being displayed on the action bar on the homescreen*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.toggleAllStoriesHidden#7c2557c4 hidden:Bool = Bool;
@@ -28,6 +28,6 @@ stories.toggleAllStoriesHidden#7c2557c4 hidden:Bool = Bool;
 
 ```php
 $bool = $client->stories->toggleAllStoriesHidden(
-	hidden : false,
+	hidden : true,
 );
 ```

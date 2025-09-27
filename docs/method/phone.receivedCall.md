@@ -2,7 +2,7 @@
 
 **Description** : *Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.receivedCall#17d54f61 peer:InputPhoneCall = Bool;
@@ -38,8 +38,8 @@ phone.receivedCall#17d54f61 peer:InputPhoneCall = Bool;
 ```php
 $bool = $client->phone->receivedCall(
 	peer : $client->inputPhoneCall(
-		id : -2063821145310520227,
-		access_hash : -6917588428954925644,
+		id : 5429932887037962836,
+		access_hash : -2691833141011980619,
 	),
 );
 ```

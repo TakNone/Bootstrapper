@@ -2,7 +2,7 @@
 
 **Description** : *Forum topic information was edited*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionTopicEdit#c0944820 flags:# title:flags.0?string icon_emoji_id:flags.1?long closed:flags.2?Bool hidden:flags.3?Bool = MessageAction;
@@ -32,9 +32,9 @@ messageActionTopicEdit#c0944820 flags:# title:flags.0?string icon_emoji_id:flags
 
 ```php
 $messageAction = $client->messageActionTopicEdit(
-	title : 'ATv1sryOdGSKYcfQ',
-	icon_emoji_id : 9031693471875805823,
-	closed : true,
+	title : 'jVEW0Sek7h62iwNU',
+	icon_emoji_id : 7022619597925371947,
+	closed : false,
 	hidden : true,
 );
 ```

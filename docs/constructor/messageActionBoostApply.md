@@ -2,7 +2,7 @@
 
 **Description** : *Some boosts &raquo; were applied to the channel or supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionBoostApply#cc02aa6d boosts:int = MessageAction;

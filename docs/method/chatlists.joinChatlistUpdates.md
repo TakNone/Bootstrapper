@@ -2,7 +2,7 @@
 
 **Description** : *Join channels and supergroups recently added to a chat folder deep link &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 chatlists.joinChatlistUpdates#e089f8f5 chatlist:InputChatlist peers:Vector<InputPeer> = Updates;
@@ -39,31 +39,31 @@ chatlists.joinChatlistUpdates#e089f8f5 chatlist:InputChatlist peers:Vector<Input
 ```php
 $updates = $client->chatlists->joinChatlistUpdates(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 80,
+		filter_id : 22,
 	),
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -6592587955181705982,
+			chat_id : 3501655621840531325,
 		),
 		$client->inputPeerUser(
-			user_id : 4393612901095338113,
-			access_hash : 1940295931658794694,
+			user_id : -4947183109013624579,
+			access_hash : -4982193569771319616,
 		),
 		$client->inputPeerChannel(
-			channel_id : -4505150264739117710,
-			access_hash : -6663020868264524328,
+			channel_id : -3722788882347767226,
+			access_hash : 841218426153348182,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 4,
-			user_id : -6198883446920510847,
+			msg_id : 8,
+			user_id : 7866759990362505704,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 5,
-			channel_id : -5198217642693317056,
+			msg_id : 6,
+			channel_id : -5216553800589491435,
 		),
 	),
 );

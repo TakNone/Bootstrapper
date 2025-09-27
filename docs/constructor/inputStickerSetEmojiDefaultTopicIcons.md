@@ -2,7 +2,7 @@
 
 **Description** : *Default custom emoji stickerset for forum topic icons*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputStickerSetEmojiDefaultTopicIcons#44c1f8e9 = InputStickerSet;

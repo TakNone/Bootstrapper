@@ -2,7 +2,7 @@
 
 **Description** : *Returns URL with the chat statistics\. Currently this method can be used only for channels*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getStatsURL#812c2ae6 flags:# dark:flags.0?true peer:InputPeer params:string = StatsURL;
@@ -41,6 +41,6 @@ messages.getStatsURL#812c2ae6 flags:# dark:flags.0?true peer:InputPeer params:st
 $statsURL = $client->messages->getStatsURL(
 	dark : true,
 	peer : $client->inputPeerEmpty(),
-	params : 'XVYDiQ0It6pda8K5',
+	params : 'AxmaJ0F9HzPURsGK',
 );
 ```

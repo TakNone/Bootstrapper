@@ -2,7 +2,7 @@
 
 **Description** : *Verify a new phone number to associate to the current account*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.sendChangePhoneCode#82574ae5 phone_number:string settings:CodeSettings = auth.SentCode;
@@ -49,7 +49,7 @@ $authSentCode = $client->account->sendChangePhoneCode(
 		allow_firebase : true,
 		unknown_number : true,
 		logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-		token : 'iyuaAIZhgxM9Kdmk',
+		token : 'UKizcFOG2S0Ckg3R',
 		app_sandbox : false,
 	),
 );

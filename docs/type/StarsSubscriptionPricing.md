@@ -2,7 +2,7 @@
 
 **Description** : *Pricing of a Telegram Star subscription &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 starsSubscriptionPricing#5416d58 period:int amount:long = StarsSubscriptionPricing;

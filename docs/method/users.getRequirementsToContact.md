@@ -1,6 +1,6 @@
 # users.getRequirementsToContact
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 users.getRequirementsToContact#d89a83a3 id:Vector<InputUser> = Vector<RequirementToContact>;
@@ -30,13 +30,13 @@ $requirementToContact = $client->users->getRequirementsToContact(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 589143621257017009,
-			access_hash : -6328646555334833611,
+			user_id : -7625149335778468443,
+			access_hash : -2467081215132551454,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 65,
-			user_id : 1266770827541360329,
+			msg_id : 15,
+			user_id : 8130878884547136763,
 		),
 	),
 );

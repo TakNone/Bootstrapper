@@ -2,7 +2,7 @@
 
 **Description** : *Info about quick reply shortcuts &raquo; hasn&#039;t changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.quickRepliesNotModified#5f91eb5b = messages.QuickReplies;

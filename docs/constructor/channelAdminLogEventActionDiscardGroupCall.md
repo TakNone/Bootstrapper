@@ -2,7 +2,7 @@
 
 **Description** : *A group call was terminated*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionDiscardGroupCall#db9f9140 call:InputGroupCall = ChannelAdminLogEventAction;
@@ -29,8 +29,8 @@ channelAdminLogEventActionDiscardGroupCall#db9f9140 call:InputGroupCall = Channe
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionDiscardGroupCall(
 	call : $client->inputGroupCall(
-		id : -4018303730066999106,
-		access_hash : -8575495755988005373,
+		id : -8393407423915229454,
+		access_hash : -2453954881127087906,
 	),
 );
 ```

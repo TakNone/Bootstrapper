@@ -3,7 +3,7 @@
 **Description** : *Users may also choose to display messages from all topics as if they were sent to a normal group, using a &quot;View as messages&quot; setting in the local client\.
 This setting only affects the current account, and is synced to other logged in sessions using the channels\.toggleViewForumAsMessages method; invoking this method will update the value of the view\_forum\_as\_messages flag of channelFull or dialog and emit an updateChannelViewForumAsMessages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateChannelViewForumAsMessages#7b68920 channel_id:long enabled:Bool = Update;
@@ -30,7 +30,7 @@ updateChannelViewForumAsMessages#7b68920 channel_id:long enabled:Bool = Update;
 
 ```php
 $update = $client->updateChannelViewForumAsMessages(
-	channel_id : 5262725692081338745,
-	enabled : false,
+	channel_id : 7256695921548616253,
+	enabled : true,
 );
 ```

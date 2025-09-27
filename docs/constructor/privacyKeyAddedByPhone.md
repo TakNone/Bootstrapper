@@ -2,7 +2,7 @@
 
 **Description** : *Whether this user can be added to our contact list by their phone number*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 privacyKeyAddedByPhone#42ffd42b = PrivacyKey;

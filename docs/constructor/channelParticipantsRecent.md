@@ -2,7 +2,7 @@
 
 **Description** : *Fetch only recent participants*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelParticipantsRecent#de3f3c79 = ChannelParticipantsFilter;

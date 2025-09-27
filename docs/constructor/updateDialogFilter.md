@@ -2,7 +2,7 @@
 
 **Description** : *A new folder was added*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateDialogFilter#26ffde7d flags:# id:int filter:flags.0?DialogFilter = Update;
@@ -30,7 +30,7 @@ updateDialogFilter#26ffde7d flags:# id:int filter:flags.0?DialogFilter = Update;
 
 ```php
 $update = $client->updateDialogFilter(
-	id : 81,
+	id : 54,
 	filter : $client->dialogFilter(
 		contacts : true,
 		non_contacts : true,
@@ -41,9 +41,9 @@ $update = $client->updateDialogFilter(
 		exclude_read : true,
 		exclude_archived : true,
 		title_noanimate : true,
-		id : 54,
+		id : 80,
 		title : $client->textWithEntities(
-			text : 'LXxgVselnBcCuWHA',
+			text : 'eOj05lQ37y6hNH2U',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -68,81 +68,81 @@ $update = $client->updateDialogFilter(
 				$client->messageEntityBlockquote(...),
 			),
 		),
-		emoticon : 'vRlPxMfITNtJHZzw',
-		color : 46,
+		emoticon : 'a8yDFu3UWds6ntBw',
+		color : 59,
 		pinned_peers : array(
 			$client->inputPeerEmpty(),
 			$client->inputPeerSelf(),
 			$client->inputPeerChat(
-				chat_id : 4935109057517230925,
+				chat_id : -3778170358968654746,
 			),
 			$client->inputPeerUser(
-				user_id : -2461642932795391611,
-				access_hash : 7974494615304379539,
+				user_id : 3330824460246850786,
+				access_hash : -64429569947761962,
 			),
 			$client->inputPeerChannel(
-				channel_id : 1065186909239562344,
-				access_hash : -1553618290702740216,
+				channel_id : 2668266175854165780,
+				access_hash : -2889714243065205504,
 			),
 			$client->inputPeerUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 46,
-				user_id : -7827751519589155132,
+				msg_id : 51,
+				user_id : -2304094384919232268,
 			),
 			$client->inputPeerChannelFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 41,
-				channel_id : 2621927383619805162,
+				msg_id : 67,
+				channel_id : 1752435201875543870,
 			),
 		),
 		include_peers : array(
 			$client->inputPeerEmpty(),
 			$client->inputPeerSelf(),
 			$client->inputPeerChat(
-				chat_id : -6926417880498345120,
+				chat_id : 1697250115197415976,
 			),
 			$client->inputPeerUser(
-				user_id : -4159936395357332733,
-				access_hash : -5551304556662537178,
+				user_id : -4678909199791868431,
+				access_hash : -1998107923149656720,
 			),
 			$client->inputPeerChannel(
-				channel_id : 7007887320061102229,
-				access_hash : -5451611305271408194,
+				channel_id : -4293446682869959330,
+				access_hash : 4980509320768704344,
 			),
 			$client->inputPeerUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 33,
-				user_id : 7340969069883162388,
+				msg_id : 29,
+				user_id : -5521397023526503513,
 			),
 			$client->inputPeerChannelFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 91,
-				channel_id : 4407580597902847066,
+				msg_id : 59,
+				channel_id : -8248740659987987278,
 			),
 		),
 		exclude_peers : array(
 			$client->inputPeerEmpty(),
 			$client->inputPeerSelf(),
 			$client->inputPeerChat(
-				chat_id : 2688768743166032368,
+				chat_id : -4749306343200498340,
 			),
 			$client->inputPeerUser(
-				user_id : -6674083051889219037,
-				access_hash : 2054030569968376179,
+				user_id : -3542836783140782086,
+				access_hash : -2759920628653506900,
 			),
 			$client->inputPeerChannel(
-				channel_id : -5191542946105296440,
-				access_hash : -852567865645227267,
+				channel_id : -6158591051255712031,
+				access_hash : -3422061475202099476,
 			),
 			$client->inputPeerUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 25,
-				user_id : -7148862198360117446,
+				msg_id : 20,
+				user_id : -5218826755751732330,
 			),
 			$client->inputPeerChannelFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 71,
-				channel_id : -8641985878336885889,
+				msg_id : 6,
+				channel_id : 6504034285136064857,
 			),
 		),
 	),

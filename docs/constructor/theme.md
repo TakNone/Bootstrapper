@@ -2,7 +2,7 @@
 
 **Description** : *Theme*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 theme#a00e67d6 flags:# creator:flags.0?true default:flags.1?true for_chat:flags.5?true id:long access_hash:long slug:string title:string document:flags.2?Document settings:flags.3?Vector<ThemeSettings> emoticon:flags.6?string installs_count:flags.4?int = Theme;
@@ -42,34 +42,34 @@ $theme = $client->theme(
 	creator : true,
 	default : true,
 	for_chat : true,
-	id : -5495880245704068976,
-	access_hash : 442976012002653465,
-	slug : 'cWl97QRB6btC34uT',
-	title : 'nE4IbKQN8L9rqS5j',
+	id : -3976631510290654427,
+	access_hash : -7620422692218506875,
+	slug : 'u1nMl0TjeVafNkX6',
+	title : 'AJRHCFpeZDMYwPTr',
 	document : $client->documentEmpty(
-		id : -8363760782052430712,
+		id : 8844349243204077918,
 	),
 	settings : array(
 		$client->themeSettings(
 			message_colors_animated : true,
 			base_theme : $client->baseThemeClassic(),
-			accent_color : 14,
-			outbox_accent_color : 74,
-			message_colors : array(78),
+			accent_color : 42,
+			outbox_accent_color : 51,
+			message_colors : array(84),
 			wallpaper : $client->wallPaper(
-				id : -8920019620522024939,
+				id : -3774798907612762870,
 				creator : true,
 				default : true,
 				pattern : true,
 				dark : true,
-				access_hash : 841723485272911126,
-				slug : 'vIDjo5f7GH46XxsO',
+				access_hash : -3733027675047447261,
+				slug : 'pXbQlBO3VaPZJcw9',
 				document : $client->documentEmpty(...),
 				settings : $client->wallPaperSettings(...),
 			),
 		),
 	),
-	emoticon : 'V6wzZ832bY57rdcW',
-	installs_count : 35,
+	emoticon : 'vuVxb086AJQCoUa4',
+	installs_count : 77,
 );
 ```

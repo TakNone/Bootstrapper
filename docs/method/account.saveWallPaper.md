@@ -2,7 +2,7 @@
 
 **Description** : *Install/uninstall wallpaper*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.saveWallPaper#6c5a5b37 wallpaper:InputWallPaper unsave:Bool settings:WallPaperSettings = Bool;
@@ -39,20 +39,20 @@ account.saveWallPaper#6c5a5b37 wallpaper:InputWallPaper unsave:Bool settings:Wal
 ```php
 $bool = $client->account->saveWallPaper(
 	wallpaper : $client->inputWallPaper(
-		id : 2170995431256961678,
-		access_hash : 7869320969393369520,
+		id : 5121138793404051918,
+		access_hash : -6221879316235137354,
 	),
-	unsave : true,
+	unsave : false,
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 3,
-		second_background_color : 22,
-		third_background_color : 68,
-		fourth_background_color : 48,
-		intensity : 80,
-		rotation : 98,
-		emoticon : 'Cetj6prsWbxG9ZPk',
+		background_color : 50,
+		second_background_color : 61,
+		third_background_color : 72,
+		fourth_background_color : 91,
+		intensity : 57,
+		rotation : 63,
+		emoticon : 'fqFEeo2DT9HzIsb6',
 	),
 );
 ```

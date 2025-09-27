@@ -2,7 +2,7 @@
 
 **Description** : *Group member*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 chatParticipant#c02d4007 user_id:long inviter_id:long date:int = ChatParticipant;
@@ -30,8 +30,8 @@ chatParticipant#c02d4007 user_id:long inviter_id:long date:int = ChatParticipant
 
 ```php
 $chatParticipant = $client->chatParticipant(
-	user_id : 8466272732923252408,
-	inviter_id : -4914659453502318729,
-	date : 77,
+	user_id : 7550611673185359198,
+	inviter_id : -7166654507070204688,
+	date : 45,
 );
 ```

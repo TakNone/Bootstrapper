@@ -2,7 +2,7 @@
 
 **Description** : *Describes a bot command that can be used in a chat*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 botCommand#c27ac8c7 command:string description:string = BotCommand;
@@ -29,7 +29,7 @@ botCommand#c27ac8c7 command:string description:string = BotCommand;
 
 ```php
 $botCommand = $client->botCommand(
-	command : '0i3HMKBpPCkEw2Va',
-	description : 'lqvzo5uMXR91jCrg',
+	command : 'fINmSyjVFTOLvokH',
+	description : 'oN3nw4MqgJURfpxc',
 );
 ```

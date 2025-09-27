@@ -2,7 +2,7 @@
 
 **Description** : *Invites were enabled/disabled*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionToggleInvites#1b7907ae new_value:Bool = ChannelAdminLogEventAction;

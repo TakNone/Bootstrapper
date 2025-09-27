@@ -1,6 +1,6 @@
 # payments.getResaleStarGifts
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_num:flags.2?true attributes_hash:flags.0?long gift_id:long attributes:flags.3?Vector<StarGiftAttributeId> offset:string limit:int = payments.ResaleStarGifts;
@@ -35,20 +35,20 @@ payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_
 $paymentsResaleStarGifts = $client->payments->getResaleStarGifts(
 	sort_by_price : true,
 	sort_by_num : true,
-	attributes_hash : -8983221548547912214,
-	gift_id : 6849941619164443735,
+	attributes_hash : 440941975313763445,
+	gift_id : 4083466738886595581,
 	attributes : array(
 		$client->starGiftAttributeIdModel(
-			document_id : -7494223828000985351,
+			document_id : 3727923183404482317,
 		),
 		$client->starGiftAttributeIdPattern(
-			document_id : 6754426913873541140,
+			document_id : 1521005719424368648,
 		),
 		$client->starGiftAttributeIdBackdrop(
-			backdrop_id : 20,
+			backdrop_id : 27,
 		),
 	),
-	offset : 'HqMnID8TyfrLlkg6',
-	limit : 100,
+	offset : 'wP0DsU897yklL3JR',
+	limit : 23,
 );
 ```

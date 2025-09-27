@@ -2,7 +2,7 @@
 
 **Description** : *Disallow all users*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 privacyValueDisallowAll#8b73e763 = PrivacyRule;

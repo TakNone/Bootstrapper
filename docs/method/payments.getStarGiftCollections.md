@@ -1,6 +1,6 @@
 # payments.getStarGiftCollections
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.getStarGiftCollections#981b91dd peer:InputPeer hash:long = payments.StarGiftCollections;

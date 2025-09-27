@@ -1,6 +1,6 @@
 # payments.deleteStarGiftCollection
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.deleteStarGiftCollection#ad5648e8 peer:InputPeer collection_id:int = Bool;
@@ -28,6 +28,6 @@ payments.deleteStarGiftCollection#ad5648e8 peer:InputPeer collection_id:int = Bo
 ```php
 $bool = $client->payments->deleteStarGiftCollection(
 	peer : $client->inputPeerEmpty(),
-	collection_id : 25,
+	collection_id : 10,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Settings of a certain peer have changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updatePeerSettings#6a7e7366 peer:Peer settings:PeerSettings = Update;
@@ -30,7 +30,7 @@ updatePeerSettings#6a7e7366 peer:Peer settings:PeerSettings = Update;
 ```php
 $update = $client->updatePeerSettings(
 	peer : $client->peerUser(
-		user_id : -4065278018608864388,
+		user_id : -6147414845281799807,
 	),
 	settings : $client->peerSettings(
 		report_spam : true,
@@ -44,16 +44,16 @@ $update = $client->updatePeerSettings(
 		request_chat_broadcast : true,
 		business_bot_paused : true,
 		business_bot_can_reply : true,
-		geo_distance : 70,
-		request_chat_title : 'SsNny5UuT8Y1Zfm6',
-		request_chat_date : 83,
-		business_bot_id : 5749240601469544378,
+		geo_distance : 47,
+		request_chat_title : '0NDuq9EUbAGi2Zjx',
+		request_chat_date : 29,
+		business_bot_id : -5212782090158842656,
 		business_bot_manage_url : 'https://docs.liveproto.dev',
-		charge_paid_message_stars : -3631452057650335534,
-		registration_month : '7b0DlWIhcXpNxO3P',
+		charge_paid_message_stars : -1572835365585237416,
+		registration_month : '0NYpLwCUOrD58uQs',
 		phone_country : '+1234567890',
-		name_change_date : 13,
-		photo_change_date : 32,
+		name_change_date : 10,
+		photo_change_date : 69,
 	),
 );
 ```

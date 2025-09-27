@@ -2,7 +2,7 @@
 
 **Description** : *Messages found and affected by changes*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.affectedFoundMessages#ef8d3e6c pts:int pts_count:int offset:int messages:Vector<int> = messages.AffectedFoundMessages;

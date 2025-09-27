@@ -2,7 +2,7 @@
 
 **Description** : *Someone has requested to join a chat or channel*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updatePendingJoinRequests#7063c3db peer:Peer requests_pending:int recent_requesters:Vector<long> = Update;
@@ -31,9 +31,9 @@ updatePendingJoinRequests#7063c3db peer:Peer requests_pending:int recent_request
 ```php
 $update = $client->updatePendingJoinRequests(
 	peer : $client->peerUser(
-		user_id : 4398921165343173528,
+		user_id : -1621214332149327609,
 	),
-	requests_pending : 80,
-	recent_requesters : array(5934801471230060909),
+	requests_pending : 17,
+	recent_requesters : array(4828463059772176351),
 );
 ```

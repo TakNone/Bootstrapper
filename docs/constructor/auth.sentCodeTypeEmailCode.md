@@ -2,7 +2,7 @@
 
 **Description** : *The code was sent via the previously configured login email &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 auth.sentCodeTypeEmailCode#f450f59b flags:# apple_signin_allowed:flags.0?true google_signin_allowed:flags.1?true email_pattern:string length:int reset_available_period:flags.3?int reset_pending_date:flags.4?int = auth.SentCodeType;
@@ -37,8 +37,8 @@ $authSentCodeType = $client->auth->sentCodeTypeEmailCode(
 	apple_signin_allowed : true,
 	google_signin_allowed : true,
 	email_pattern : 'reply@liveproto.dev',
-	length : 62,
-	reset_available_period : 19,
-	reset_pending_date : 58,
+	length : 29,
+	reset_available_period : 42,
+	reset_pending_date : 0,
 );
 ```

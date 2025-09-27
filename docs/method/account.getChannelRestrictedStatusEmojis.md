@@ -2,7 +2,7 @@
 
 **Description** : *Returns fetch the full list of custom emoji IDs &raquo; that cannot be used in channel emoji statuses &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getChannelRestrictedStatusEmojis#35a9e0d5 hash:long = EmojiList;

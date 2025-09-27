@@ -1,6 +1,6 @@
 # messages.getWebViewResult
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getWebViewResult#22b6c214 peer:InputPeer bot:InputUser query_id:long = messages.WebViewResult;
@@ -30,6 +30,6 @@ messages.getWebViewResult#22b6c214 peer:InputPeer bot:InputUser query_id:long = 
 $messagesWebViewResult = $client->messages->getWebViewResult(
 	peer : $client->inputPeerEmpty(),
 	bot : $client->inputUserEmpty(),
-	query_id : 1937246307694809010,
+	query_id : -7074088504591820511,
 );
 ```

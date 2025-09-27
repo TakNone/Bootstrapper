@@ -1,6 +1,6 @@
 # invokeWithReCaptcha
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 invokeWithReCaptcha#adbb0f94 {X:Type} token:string query:!X = X;
@@ -27,7 +27,7 @@ invokeWithReCaptcha#adbb0f94 {X:Type} token:string query:!X = X;
 
 ```php
 $x = $client->invokeWithReCaptcha(
-	token : 'qByecSkPpzdJ2Zja',
+	token : 'yghx5vJ64Njfq29U',
 	query : $client->help->getConfig(raw : true),
 );
 ```

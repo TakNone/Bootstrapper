@@ -2,7 +2,7 @@
 
 **Description** : *Info about a custom emoji*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 documentAttributeCustomEmoji#fd149899 flags:# free:flags.0?true text_color:flags.1?true alt:string stickerset:InputStickerSet = DocumentAttribute;
@@ -34,7 +34,7 @@ documentAttributeCustomEmoji#fd149899 flags:# free:flags.0?true text_color:flags
 $documentAttribute = $client->documentAttributeCustomEmoji(
 	free : true,
 	text_color : true,
-	alt : '95aPypmhCzd1Vfeu',
+	alt : 'ZdjA8RULhm1w9T7D',
 	stickerset : $client->inputStickerSetEmpty(),
 );
 ```

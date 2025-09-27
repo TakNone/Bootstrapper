@@ -2,7 +2,7 @@
 
 **Description** : *Used to gift Telegram Stars to a friend*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputStorePaymentStarsGift#1d741ef7 user_id:InputUser stars:long currency:string amount:long = InputStorePaymentPurpose;
@@ -32,8 +32,8 @@ inputStorePaymentStarsGift#1d741ef7 user_id:InputUser stars:long currency:string
 ```php
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsGift(
 	user_id : $client->inputUserEmpty(),
-	stars : 1835544244413417878,
-	currency : 'xqY3Z9npwPzfJRuc',
-	amount : -194259725735535795,
+	stars : 1508838890186792196,
+	currency : 'k7CNa6zXQmPwoyKx',
+	amount : 4394438972469485711,
 );
 ```

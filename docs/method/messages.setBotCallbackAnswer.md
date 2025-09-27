@@ -2,7 +2,7 @@
 
 **Description** : *Set the callback answer to a user button press \(bots only\)*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.setBotCallbackAnswer#d58f130a flags:# alert:flags.1?true query_id:long message:flags.0?string url:flags.2?string cache_time:int = Bool;
@@ -45,9 +45,9 @@ messages.setBotCallbackAnswer#d58f130a flags:# alert:flags.1?true query_id:long 
 ```php
 $bool = $client->messages->setBotCallbackAnswer(
 	alert : true,
-	query_id : -3976919620988286810,
-	message : 'BTWIrmEwvl6g0oLj',
+	query_id : -783961853507229024,
+	message : 'eX8G9xjFrTQAtODb',
 	url : 'https://docs.liveproto.dev',
-	cache_time : 40,
+	cache_time : 33,
 );
 ```

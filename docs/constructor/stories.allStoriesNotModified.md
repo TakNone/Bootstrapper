@@ -2,7 +2,7 @@
 
 **Description** : *The list of active \(or active and hidden\) stories has not changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.allStoriesNotModified#1158fe3e flags:# state:string stealth_mode:StoriesStealthMode = stories.AllStories;
@@ -30,10 +30,10 @@ stories.allStoriesNotModified#1158fe3e flags:# state:string stealth_mode:Stories
 
 ```php
 $storiesAllStories = $client->stories->allStoriesNotModified(
-	state : 'Oq14i0UsghlZDE8M',
+	state : 'FzB4IkCeYSMpolam',
 	stealth_mode : $client->storiesStealthMode(
-		active_until_date : 37,
-		cooldown_until_date : 16,
+		active_until_date : 98,
+		cooldown_until_date : 84,
 	),
 );
 ```

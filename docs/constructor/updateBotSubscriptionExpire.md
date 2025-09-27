@@ -1,6 +1,6 @@
 # updateBotSubscriptionExpire
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateBotSubscriptionExpire#a8ae3eb1 user_id:long payload:string until_date:int qts:int = Update;
@@ -29,9 +29,9 @@ updateBotSubscriptionExpire#a8ae3eb1 user_id:long payload:string until_date:int 
 
 ```php
 $update = $client->updateBotSubscriptionExpire(
-	user_id : -4082010251553704700,
-	payload : 'FBni9TerkRtSbMQv',
-	until_date : 94,
-	qts : 75,
+	user_id : 1980601535173510224,
+	payload : 'HeQxfvkhtSiIsDUK',
+	until_date : 7,
+	qts : 32,
 );
 ```

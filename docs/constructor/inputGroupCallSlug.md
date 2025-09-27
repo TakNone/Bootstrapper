@@ -1,6 +1,6 @@
 # inputGroupCallSlug
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputGroupCallSlug#fe06823f slug:string = InputGroupCall;
@@ -26,6 +26,6 @@ inputGroupCallSlug#fe06823f slug:string = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallSlug(
-	slug : 'REtOpgvKb2VmWXsQ',
+	slug : 'IwzKSGoNCxPTLHku',
 );
 ```

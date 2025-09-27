@@ -1,6 +1,6 @@
 # messages.webViewResult
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.webViewResult#aadf159b result:BotInlineResult users:Vector<User> = messages.WebViewResult;
@@ -28,16 +28,16 @@ messages.webViewResult#aadf159b result:BotInlineResult users:Vector<User> = mess
 ```php
 $messagesWebViewResult = $client->messages->webViewResult(
 	result : $client->botInlineResult(
-		id : 'KwfB4XjgkiCe9dDY',
-		type : 'bBaDV4Im6nHvMUy7',
-		title : 'ztJdI8Fr6Tm3g1AO',
-		description : 'ELYmUwMRhSzk51vc',
+		id : 'NPyhWJlKO9MUfCLc',
+		type : 'x4tI2W7bvRFO3BE1',
+		title : 'c7fdwA04uF5jqNXz',
+		description : 'x7tBKzr3kYLMseQw',
 		url : 'https://docs.liveproto.dev',
 		thumb : $client->webDocument(
 			url : 'https://docs.liveproto.dev',
-			access_hash : -1063965734816811930,
-			size : 5,
-			mime_type : 'mdnrziS6tvkpYy7j',
+			access_hash : -5010145234119378057,
+			size : 43,
+			mime_type : 'GjgMyozJX8HqwTcQ',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -51,9 +51,9 @@ $messagesWebViewResult = $client->messages->webViewResult(
 		),
 		content : $client->webDocument(
 			url : 'https://docs.liveproto.dev',
-			access_hash : 2808601674706529127,
-			size : 82,
-			mime_type : '3bwtJoOXDK7RcQe4',
+			access_hash : -1747050790117770652,
+			size : 45,
+			mime_type : 'uMXfbiUW4CxwJYad',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -67,7 +67,7 @@ $messagesWebViewResult = $client->messages->webViewResult(
 		),
 		send_message : $client->botInlineMessageMediaAuto(
 			invert_media : true,
-			message : 'Jo2tWNaC39AT7fyc',
+			message : 'j4BgZGkPh8OX2W5v',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -96,7 +96,7 @@ $messagesWebViewResult = $client->messages->webViewResult(
 	),
 	users : array(
 		$client->userEmpty(
-			id : -7890348635273096864,
+			id : -517641115003802071,
 		),
 		$client->user(
 			self : true,
@@ -124,24 +124,25 @@ $messagesWebViewResult = $client->messages->webViewResult(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -1266103588687021675,
-			access_hash : -1923825586497653388,
+			bot_forum_view : true,
+			id : -3315149651855033956,
+			access_hash : 2026207696072740847,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 50,
+			bot_info_version : 86,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'aprWFKQIXv2nYfoL',
-					reason : '8mt0sLRUG6McQPTh',
-					text : '3ylKORnJp2HQAMgW',
+					platform : '5mMKdkHS98Z1EtWs',
+					reason : '06edtUglZYXqR4xH',
+					text : 'chyD3M7Kb902oQaW',
 				),
 			),
-			bot_inline_placeholder : 'a1QNFxJgLISyWiZA',
-			lang_code : '1DVrWImNkwCKGnBp',
+			bot_inline_placeholder : 'rJ0KgQYaX9PxN3V6',
+			lang_code : 'XoTGbZ9fV8HPynJz',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -150,18 +151,18 @@ $messagesWebViewResult = $client->messages->webViewResult(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 13,
+			stories_max_id : 77,
 			color : $client->peerColor(
-				color : 85,
-				background_emoji_id : 7249605624460936722,
+				color : 22,
+				background_emoji_id : -5177364061811357361,
 			),
 			profile_color : $client->peerColor(
-				color : 82,
-				background_emoji_id : -7438488167362545616,
+				color : 8,
+				background_emoji_id : -6518781803571534905,
 			),
-			bot_active_users : 82,
-			bot_verification_icon : 5362423809182280891,
-			send_paid_messages_stars : 3047989799215700986,
+			bot_active_users : 54,
+			bot_verification_icon : 1203228491961740577,
+			send_paid_messages_stars : 8560023099000724744,
 		),
 	),
 );

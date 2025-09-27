@@ -2,7 +2,7 @@
 
 **Description** : *Enable/disable message signatures in channels*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.toggleSignatures#418d549c flags:# signatures_enabled:flags.0?true profiles_enabled:flags.1?true channel:InputChannel = Updates;

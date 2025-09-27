@@ -2,7 +2,7 @@
 
 **Description** : *Changes the absolute position of a sticker in the set to which it belongs\. The sticker set must have been created by the current user/bot*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stickers.changeStickerPosition#ffb6d4ca sticker:InputDocument position:int = messages.StickerSet;
@@ -38,6 +38,6 @@ stickers.changeStickerPosition#ffb6d4ca sticker:InputDocument position:int = mes
 ```php
 $messagesStickerSet = $client->stickers->changeStickerPosition(
 	sticker : $client->inputDocumentEmpty(),
-	position : 97,
+	position : 69,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Set whether all users should join a discussion group in order to comment on a post &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.toggleJoinToSend#e4cb9580 channel:InputChannel enabled:Bool = Updates;
@@ -41,6 +41,6 @@ channels.toggleJoinToSend#e4cb9580 channel:InputChannel enabled:Bool = Updates;
 ```php
 $updates = $client->channels->toggleJoinToSend(
 	channel : $client->inputChannelEmpty(),
-	enabled : false,
+	enabled : true,
 );
 ```

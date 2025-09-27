@@ -2,7 +2,7 @@
 
 **Description** : *Story stealth mode status*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 storiesStealthMode#712e27fd flags:# active_until_date:flags.0?int cooldown_until_date:flags.1?int = StoriesStealthMode;

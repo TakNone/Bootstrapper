@@ -2,7 +2,7 @@
 
 **Description** : *Clear all drafts*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.clearAllDrafts#7e58ee9c = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Forwards messages by their IDs*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.forwardMessages#978928ca flags:# silent:flags.5?true background:flags.6?true with_my_score:flags.8?true drop_author:flags.11?true drop_media_captions:flags.12?true noforwards:flags.14?true allow_paid_floodskip:flags.19?true from_peer:InputPeer id:Vector<int> random_id:Vector<long> to_peer:InputPeer top_msg_id:flags.9?int reply_to:flags.22?InputReplyTo schedule_date:flags.10?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut video_timestamp:flags.20?int allow_paid_stars:flags.21?long suggested_post:flags.23?SuggestedPost = Updates;
@@ -110,126 +110,126 @@ $updates = $client->messages->forwardMessages(
 	noforwards : true,
 	allow_paid_floodskip : true,
 	from_peer : $client->inputPeerEmpty(),
-	id : array(14),
-	random_id : array(8687041121681649350),
+	id : array(65),
+	random_id : array(-8958602424438558785),
 	to_peer : $client->inputPeerEmpty(),
-	top_msg_id : 74,
+	top_msg_id : 86,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 18,
-		top_msg_id : 80,
+		reply_to_msg_id : 78,
+		top_msg_id : 75,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'L2DAZkJRsf7gBo6F',
+		quote_text : 'GevqiInLmzjyUhVk',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 75,
+				length : 10,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 81,
+				length : 31,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 24,
+				length : 15,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 33,
+				length : 53,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 78,
+				length : 72,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 37,
+				length : 63,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 86,
+				length : 52,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 23,
+				length : 79,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 94,
+				length : 73,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 44,
-				language : '2D07YfLZevwaur3b',
+				length : 12,
+				language : 'SEr8FAknUM3L7h1a',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 61,
+				length : 42,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 97,
-				user_id : -64658738982963146,
+				length : 68,
+				user_id : 8713441467035440010,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 6,
+				length : 36,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 22,
+				length : 38,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 37,
+				length : 3,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 96,
+				length : 19,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 34,
+				length : 43,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 68,
+				length : 31,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 8,
+				length : 92,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 94,
-				document_id : -2643778378983001432,
+				length : 58,
+				document_id : 3273689601841273673,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 15,
+				length : 65,
 			),
 		),
-		quote_offset : 49,
+		quote_offset : 31,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 63,
+		todo_item_id : 86,
 	),
-	schedule_date : 65,
+	schedule_date : 92,
 	send_as : $client->inputPeerEmpty(),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : '7EVmO0oA1P6Xl2tL',
+		shortcut : 'GcmdJ6RF1hsXSoxg',
 	),
-	video_timestamp : 86,
-	allow_paid_stars : -259290531472115855,
+	video_timestamp : 33,
+	allow_paid_stars : -4236717226412082451,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 4647447816094222573,
-			nanos : 90,
+			amount : 4606015455196446299,
+			nanos : 42,
 		),
-		schedule_date : 96,
+		schedule_date : 67,
 	),
 );
 ```

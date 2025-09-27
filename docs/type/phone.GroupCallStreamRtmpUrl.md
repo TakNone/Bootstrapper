@@ -2,7 +2,7 @@
 
 **Description** : *RTMP URL and stream key to be used in streaming software*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.groupCallStreamRtmpUrl#2dbf3432 url:string key:string = phone.GroupCallStreamRtmpUrl;

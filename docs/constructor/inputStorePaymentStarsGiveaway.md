@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for a star giveaway, see here &raquo; for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?true winners_are_visible:flags.3?true stars:long boost_peer:InputPeer additional_peers:flags.1?Vector<InputPeer> countries_iso2:flags.2?Vector<string> prize_description:flags.4?string random_id:long until_date:int currency:string amount:long users:int = InputStorePaymentPurpose;
@@ -42,39 +42,39 @@ inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?tru
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	stars : 6477290030415480709,
+	stars : 4847532180350573239,
 	boost_peer : $client->inputPeerEmpty(),
 	additional_peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 32218682047078959,
+			chat_id : -8205004189511868388,
 		),
 		$client->inputPeerUser(
-			user_id : -576631708069775699,
-			access_hash : -7937846815407494534,
+			user_id : 9058552694486409006,
+			access_hash : 7007114717294658497,
 		),
 		$client->inputPeerChannel(
-			channel_id : -969948146029628904,
-			access_hash : -2766074399047357943,
+			channel_id : 7406136834492161226,
+			access_hash : 6505463882149082,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 53,
-			user_id : 1166892679518210709,
+			msg_id : 72,
+			user_id : 216830948875960272,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 84,
-			channel_id : -6799278298426529372,
+			msg_id : 38,
+			channel_id : -6656937441772629205,
 		),
 	),
-	countries_iso2 : array('tEmxpk061FO7BgG3'),
-	prize_description : '4Sg2IP6dfDtxBaAl',
-	random_id : 1019654968628732582,
-	until_date : 31,
-	currency : 'OJn9QvCTRxfy1ANu',
-	amount : 2934759042395232307,
-	users : 36,
+	countries_iso2 : array('iSwzoueb2RQ56NMV'),
+	prize_description : 'n7myW4QUHt5IxFjS',
+	random_id : 5871826375319846797,
+	until_date : 7,
+	currency : 'LiTZ58Nu71hJPBIl',
+	amount : 4103310443939235434,
+	users : 46,
 );
 ```

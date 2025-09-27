@@ -2,7 +2,7 @@
 
 **Description** : *Theme settings*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputThemeSettings#8fde504f flags:# message_colors_animated:flags.2?true base_theme:BaseTheme accent_color:int outbox_accent_color:flags.3?int message_colors:flags.0?Vector<int> wallpaper:flags.1?InputWallPaper wallpaper_settings:flags.1?WallPaperSettings = InputThemeSettings;
@@ -37,23 +37,23 @@ inputThemeSettings#8fde504f flags:# message_colors_animated:flags.2?true base_th
 $inputThemeSettings = $client->inputThemeSettings(
 	message_colors_animated : true,
 	base_theme : $client->baseThemeClassic(),
-	accent_color : 43,
-	outbox_accent_color : 38,
-	message_colors : array(34),
+	accent_color : 49,
+	outbox_accent_color : 30,
+	message_colors : array(7),
 	wallpaper : $client->inputWallPaper(
-		id : -779861514864501259,
-		access_hash : 2195737651332681148,
+		id : -6827825930445529576,
+		access_hash : 5185280276984611084,
 	),
 	wallpaper_settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 43,
-		second_background_color : 4,
-		third_background_color : 6,
-		fourth_background_color : 14,
-		intensity : 99,
-		rotation : 72,
-		emoticon : 'qRQXUWEyeKz67oc0',
+		background_color : 73,
+		second_background_color : 91,
+		third_background_color : 14,
+		fourth_background_color : 58,
+		intensity : 59,
+		rotation : 28,
+		emoticon : 'Tth9o3ZXadYlM4yg',
 	),
 );
 ```

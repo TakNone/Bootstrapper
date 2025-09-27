@@ -2,7 +2,7 @@
 
 **Description** : *Represent a chunk of a CDN file*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 upload.cdnFile#a99fca4f bytes:bytes = upload.CdnFile;

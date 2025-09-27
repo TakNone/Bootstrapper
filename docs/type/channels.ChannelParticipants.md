@@ -2,7 +2,7 @@
 
 **Description** : *Channel/supergroup participants*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.channelParticipants#9ab0feaf count:int participants:Vector<ChannelParticipant> chats:Vector<Chat> users:Vector<User> = channels.ChannelParticipants;

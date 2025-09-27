@@ -1,6 +1,6 @@
 # account.getUniqueGiftChatThemes
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getUniqueGiftChatThemes#fe74ef9f offset:int limit:int hash:long = account.ChatThemes;
@@ -29,7 +29,7 @@ account.getUniqueGiftChatThemes#fe74ef9f offset:int limit:int hash:long = accoun
 ```php
 $accountChatThemes = $client->account->getUniqueGiftChatThemes(
 	offset : 0,
-	limit : 23,
+	limit : 90,
 	hash : 0,
 );
 ```

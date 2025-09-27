@@ -1,6 +1,6 @@
 # payments.upgradeStarGift
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.upgradeStarGift#aed6e4f5 flags:# keep_original_details:flags.0?true stargift:InputSavedStarGift = Updates;
@@ -30,7 +30,7 @@ payments.upgradeStarGift#aed6e4f5 flags:# keep_original_details:flags.0?true sta
 $updates = $client->payments->upgradeStarGift(
 	keep_original_details : true,
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 94,
+		msg_id : 23,
 	),
 );
 ```

@@ -1,6 +1,6 @@
 # InputSavedStarGift
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputSavedStarGiftUser#69279795 msg_id:int = InputSavedStarGift;

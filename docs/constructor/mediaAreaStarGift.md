@@ -1,6 +1,6 @@
 # mediaAreaStarGift
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 mediaAreaStarGift#5787686d coordinates:MediaAreaCoordinates slug:string = MediaArea;
@@ -28,13 +28,13 @@ mediaAreaStarGift#5787686d coordinates:MediaAreaCoordinates slug:string = MediaA
 ```php
 $mediaArea = $client->mediaAreaStarGift(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 904177.0908203125,
-		y : 231193.3681640625,
-		w : 83650.6611328125,
-		h : -1315735.7333984375,
-		rotation : -681681.830078125,
-		radius : -1674078.3994140625,
+		x : -1643466.4697265625,
+		y : -1321541.82421875,
+		w : 1663683.1318359375,
+		h : 805032.439453125,
+		rotation : -528966.556640625,
+		radius : -1550343.548828125,
 	),
-	slug : 'IOzygh8Sij4GHo0R',
+	slug : 'eAiMOfV3aNploqQg',
 );
 ```

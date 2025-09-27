@@ -2,7 +2,7 @@
 
 **Description** : *Returns a current state of updates*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updates.getState#edd4882a = updates.State;

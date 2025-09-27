@@ -1,6 +1,6 @@
 # messages.getSavedDialogsByID
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getSavedDialogsByID#6f6f9c96 flags:# parent_peer:flags.1?InputPeer ids:Vector<InputPeer> = messages.SavedDialogs;
@@ -33,25 +33,25 @@ $messagesSavedDialogs = $client->messages->getSavedDialogsByID(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 8684804468741548432,
+			chat_id : -1807230025529969090,
 		),
 		$client->inputPeerUser(
-			user_id : -5653803307967694904,
-			access_hash : 5890436042208647974,
+			user_id : -1847836334548783723,
+			access_hash : -3291947330492857930,
 		),
 		$client->inputPeerChannel(
-			channel_id : -5169527488453365786,
-			access_hash : 6543694137587995607,
+			channel_id : -5309350966340597787,
+			access_hash : -5374843924641011017,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 54,
-			user_id : -4125957499607308516,
+			msg_id : 39,
+			user_id : -1854411312435701809,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 17,
-			channel_id : 3823950908961291580,
+			msg_id : 58,
+			channel_id : -3715023524813335251,
 		),
 	),
 );

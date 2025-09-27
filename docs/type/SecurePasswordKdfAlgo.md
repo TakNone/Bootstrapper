@@ -2,7 +2,7 @@
 
 **Description** : *KDF algorithm to use for computing telegram passport hash*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 securePasswordKdfAlgoUnknown#4a8537 = SecurePasswordKdfAlgo;

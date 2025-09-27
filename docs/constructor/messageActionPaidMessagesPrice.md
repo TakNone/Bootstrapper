@@ -1,6 +1,6 @@
 # messageActionPaidMessagesPrice
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionPaidMessagesPrice#84b88578 flags:# broadcast_messages_allowed:flags.0?true stars:long = MessageAction;
@@ -29,6 +29,6 @@ messageActionPaidMessagesPrice#84b88578 flags:# broadcast_messages_allowed:flags
 ```php
 $messageAction = $client->messageActionPaidMessagesPrice(
 	broadcast_messages_allowed : true,
-	stars : -6988349366887614946,
+	stars : 5327216341941589893,
 );
 ```

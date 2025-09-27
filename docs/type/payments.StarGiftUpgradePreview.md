@@ -1,6 +1,6 @@
 # payments.StarGiftUpgradePreview
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.starGiftUpgradePreview#167bd90b sample_attributes:Vector<StarGiftAttribute> = payments.StarGiftUpgradePreview;

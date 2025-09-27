@@ -2,7 +2,7 @@
 
 **Description** : *Exact read date of a private message we sent to another user*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 outboxReadDate#3bb842ac date:int = OutboxReadDate;

@@ -2,7 +2,7 @@
 
 **Description** : *The specified bot commands will be valid only for a specific user in the specified group or supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 botCommandScopePeerUser#a1321f3 peer:InputPeer user_id:InputUser = BotCommandScope;

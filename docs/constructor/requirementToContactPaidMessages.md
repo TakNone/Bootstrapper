@@ -1,6 +1,6 @@
 # requirementToContactPaidMessages
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 requirementToContactPaidMessages#b4f67e93 stars_amount:long = RequirementToContact;
@@ -26,6 +26,6 @@ requirementToContactPaidMessages#b4f67e93 stars_amount:long = RequirementToConta
 
 ```php
 $requirementToContact = $client->requirementToContactPaidMessages(
-	stars_amount : -7605928952007177278,
+	stars_amount : 5777082818030909587,
 );
 ```

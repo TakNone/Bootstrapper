@@ -2,10 +2,10 @@
 
 **Description** : *Incoming messages were read*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
-updateReadHistoryInbox#9c974fdf flags:# folder_id:flags.0?int peer:Peer max_id:int still_unread_count:int pts:int pts_count:int = Update;
+updateReadHistoryInbox#9e84bc99 flags:# folder_id:flags.0?int peer:Peer top_msg_id:flags.1?int max_id:int still_unread_count:int pts:int pts_count:int = Update;
 ```
 
 ---
@@ -17,6 +17,7 @@ updateReadHistoryInbox#9c974fdf flags:# folder_id:flags.0?int peer:Peer max_id:i
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **folder_id** | [`flags.0?int`](type/int) | Peer folder ID, for more info click here |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer |
+| **top_msg_id** | [`flags.1?int`](type/int) | NOTHING |
 | <mark>max_id</mark> | [`int`](type/int) | Maximum ID of messages read |
 | <mark>still_unread_count</mark> | [`int`](type/int) | Number of messages that are still unread |
 | <mark>pts</mark> | [`int`](type/int) | Event count after generation |
@@ -34,13 +35,14 @@ updateReadHistoryInbox#9c974fdf flags:# folder_id:flags.0?int peer:Peer max_id:i
 
 ```php
 $update = $client->updateReadHistoryInbox(
-	folder_id : 45,
+	folder_id : 66,
 	peer : $client->peerUser(
-		user_id : 9097386546252282686,
+		user_id : -9150264907944925950,
 	),
-	max_id : 49,
-	still_unread_count : 30,
-	pts : 69,
-	pts_count : 88,
+	top_msg_id : 71,
+	max_id : 61,
+	still_unread_count : 48,
+	pts : 90,
+	pts_count : 33,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Resolve a @username to get peer info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 contacts.resolveUsername#725afbbc flags:# username:string referer:flags.0?string = contacts.ResolvedPeer;
@@ -41,6 +41,6 @@ contacts.resolveUsername#725afbbc flags:# username:string referer:flags.0?string
 ```php
 $contactsResolvedPeer = $client->contacts->resolveUsername(
 	username : 'TakNone',
-	referer : 'avfmTslM9d0UK4oz',
+	referer : '9ReXJPkSu8xE3trF',
 );
 ```

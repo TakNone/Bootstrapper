@@ -1,6 +1,6 @@
 # messages.toggleSuggestedPostApproval
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.toggleSuggestedPostApproval#8107455c flags:# reject:flags.1?true peer:InputPeer msg_id:int schedule_date:flags.0?int reject_comment:flags.2?string = Updates;
@@ -33,8 +33,8 @@ messages.toggleSuggestedPostApproval#8107455c flags:# reject:flags.1?true peer:I
 $updates = $client->messages->toggleSuggestedPostApproval(
 	reject : true,
 	peer : $client->inputPeerEmpty(),
-	msg_id : 13,
-	schedule_date : 59,
-	reject_comment : 'WYJ9F1yQjtcgf5Xa',
+	msg_id : 47,
+	schedule_date : 55,
+	reject_comment : 'UDQ59MFEoPVYmelG',
 );
 ```

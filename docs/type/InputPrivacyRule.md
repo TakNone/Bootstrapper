@@ -2,7 +2,7 @@
 
 **Description** : *Privacy rules indicate who can or can&#039;t do something and are specified by a PrivacyRule, and its input counterpart InputPrivacyRule*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputPrivacyValueAllowContacts#d09e07b = InputPrivacyRule;

@@ -2,7 +2,7 @@
 
 **Description** : *Folder information*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.dialogFilters#2ad93719 flags:# tags_enabled:flags.0?true filters:Vector<DialogFilter> = messages.DialogFilters;

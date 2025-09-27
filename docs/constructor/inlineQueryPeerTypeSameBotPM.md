@@ -2,7 +2,7 @@
 
 **Description** : *Peer type: private chat with the bot itself*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inlineQueryPeerTypeSameBotPM#3081ed9d = InlineQueryPeerType;

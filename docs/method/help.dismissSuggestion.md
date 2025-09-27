@@ -2,7 +2,7 @@
 
 **Description** : *Dismiss a suggestion, see here for more info &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 help.dismissSuggestion#f50dbaa1 peer:InputPeer suggestion:string = Bool;
@@ -30,6 +30,6 @@ help.dismissSuggestion#f50dbaa1 peer:InputPeer suggestion:string = Bool;
 ```php
 $bool = $client->help->dismissSuggestion(
 	peer : $client->inputPeerEmpty(),
-	suggestion : 'KYj5wHFT0r71i9ge',
+	suggestion : '9iysE5TNAhqw6PeS',
 );
 ```

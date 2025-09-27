@@ -2,7 +2,7 @@
 
 **Description** : *List of stories*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.stories#63c3dd0a flags:# count:int stories:Vector<StoryItem> pinned_to_top:flags.0?Vector<int> chats:Vector<Chat> users:Vector<User> = stories.Stories;
@@ -33,16 +33,16 @@ stories.stories#63c3dd0a flags:# count:int stories:Vector<StoryItem> pinned_to_t
 
 ```php
 $storiesStories = $client->stories->stories(
-	count : 94,
+	count : 1,
 	stories : array(
 		$client->storyItemDeleted(
-			id : 17,
+			id : 27,
 		),
 		$client->storyItemSkipped(
 			close_friends : true,
-			id : 11,
-			date : 17,
-			expire_date : 19,
+			id : 100,
+			date : 69,
+			expire_date : 12,
 		),
 		$client->storyItem(
 			pinned : true,
@@ -54,109 +54,109 @@ $storiesStories = $client->stories->stories(
 			contacts : true,
 			selected_contacts : true,
 			out : true,
-			id : 39,
-			date : 55,
+			id : 71,
+			date : 59,
 			from_id : $client->peerUser(
-				user_id : 4299499630258245062,
+				user_id : 421972201695303148,
 			),
 			fwd_from : $client->storyFwdHeader(
 				modified : true,
 				from : $client->peerUser(...),
-				from_name : 'aSBdXneFApj9hCTE',
-				story_id : 83,
+				from_name : 'bsjSznwPEJ7NeDiC',
+				story_id : 97,
 			),
-			expire_date : 68,
-			caption : 'hljtRETLq7voKcYp',
+			expire_date : 22,
+			caption : 'LWuQ1sdhP48NiHjV',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 55,
+					length : 5,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 72,
+					length : 2,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 32,
+					length : 98,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 100,
+					length : 97,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 58,
+					length : 97,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 30,
+					length : 64,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 7,
+					length : 79,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 21,
+					length : 44,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 86,
+					length : 91,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 96,
-					language : '91ptuAMbhZYRgUde',
+					length : 0,
+					language : 'CqMvwnm7JrjpWuN0',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 77,
+					length : 62,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 56,
-					user_id : -2612871328036618764,
+					length : 55,
+					user_id : -8816673494427279590,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 32,
+					length : 52,
 					user_id : $client->inputUserEmpty(...),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 1,
+					length : 90,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 2,
+					length : 30,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 65,
+					length : 20,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 31,
+					length : 49,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 28,
+					length : 77,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 61,
+					length : 26,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 51,
-					document_id : -6064127454825283364,
+					length : 47,
+					document_id : -6109952347631552347,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 72,
+					length : 23,
 				),
 			),
 			media : $client->messageMediaEmpty(),
@@ -164,16 +164,16 @@ $storiesStories = $client->stories->stories(
 				$client->mediaAreaVenue(
 					coordinates : $client->mediaAreaCoordinates(...),
 					geo : $client->geoPointEmpty(...),
-					title : 'ZtzxI0O24FQmkAGY',
-					address : 'OL2i8HKgQ3BWFfIJ',
-					provider : 'vcoRWA5tSGCBi0HQ',
-					venue_id : 'OFLYiBJaldj4SsAQ',
-					venue_type : '2LDjAcaQYHIGNi6O',
+					title : 'Q1kxfHOYGhdNl4Rj',
+					address : 'SgETFHAsueqdBwIc',
+					provider : 'yzg96fjeLloHDuZX',
+					venue_id : 'jdKMUzxlICwpT4nk',
+					venue_type : 'iyNtPowjXQUpD6fI',
 				),
 				$client->inputMediaAreaVenue(
 					coordinates : $client->mediaAreaCoordinates(...),
-					query_id : -1740943956704358955,
-					result_id : 'tbhuJM8O4jeaordz',
+					query_id : -760403247847478417,
+					result_id : 'Ij6wMCBNkcE4u25f',
 				),
 				$client->mediaAreaGeoPoint(
 					coordinates : $client->mediaAreaCoordinates(...),
@@ -188,13 +188,13 @@ $storiesStories = $client->stories->stories(
 				),
 				$client->mediaAreaChannelPost(
 					coordinates : $client->mediaAreaCoordinates(...),
-					channel_id : -374569830323741328,
-					msg_id : 93,
+					channel_id : 215363596607883878,
+					msg_id : 75,
 				),
 				$client->inputMediaAreaChannelPost(
 					coordinates : $client->mediaAreaCoordinates(...),
 					channel : $client->inputChannelEmpty(...),
-					msg_id : 34,
+					msg_id : 70,
 				),
 				$client->mediaAreaUrl(
 					coordinates : $client->mediaAreaCoordinates(...),
@@ -202,31 +202,31 @@ $storiesStories = $client->stories->stories(
 				),
 				$client->mediaAreaWeather(
 					coordinates : $client->mediaAreaCoordinates(...),
-					emoji : 'OJWqMCEdHxIe0GzT',
-					temperature_c : 1577065.2509765625,
-					color : 76,
+					emoji : '9XQgxtunGKeqFlkp',
+					temperature_c : 762078.572265625,
+					color : 52,
 				),
 				$client->mediaAreaStarGift(
 					coordinates : $client->mediaAreaCoordinates(...),
-					slug : '8ZhADULNjfwCuOPI',
+					slug : '64W91atmM5CqxcL3',
 				),
 			),
 			privacy : array(
 				$client->privacyValueAllowContacts(),
 				$client->privacyValueAllowAll(),
 				$client->privacyValueAllowUsers(
-					users : array(-7948429023872057152),
+					users : array(861306976990725066),
 				),
 				$client->privacyValueDisallowContacts(),
 				$client->privacyValueDisallowAll(),
 				$client->privacyValueDisallowUsers(
-					users : array(-6832610563291500711),
+					users : array(2376564933564589198),
 				),
 				$client->privacyValueAllowChatParticipants(
-					chats : array(7225253677119206137),
+					chats : array(6510500338119753559),
 				),
 				$client->privacyValueDisallowChatParticipants(
-					chats : array(-4747767082337761750),
+					chats : array(-5897072228313935487),
 				),
 				$client->privacyValueAllowCloseFriends(),
 				$client->privacyValueAllowPremium(),
@@ -235,22 +235,22 @@ $storiesStories = $client->stories->stories(
 			),
 			views : $client->storyViews(
 				has_viewers : true,
-				views_count : 56,
-				forwards_count : 65,
+				views_count : 76,
+				forwards_count : 33,
 				reactions : array(
 					$client->reactionCount(...),
 				),
-				reactions_count : 20,
-				recent_viewers : array(-7088205472686119737),
+				reactions_count : 60,
+				recent_viewers : array(-8824806921315289200),
 			),
 			sent_reaction : $client->reactionEmpty(),
-			albums : array(21),
+			albums : array(3),
 		),
 	),
-	pinned_to_top : array(90),
+	pinned_to_top : array(75),
 	chats : array(
 		$client->chatEmpty(
-			id : -4923690184483816108,
+			id : -8998365025710949958,
 		),
 		$client->chat(
 			creator : true,
@@ -260,12 +260,12 @@ $storiesStories = $client->stories->stories(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -3106742340911917576,
-			title : '0saoBQm8l7jDUCgH',
+			id : -3812170385694614645,
+			title : 'Ycuvlwqp03tQLsaS',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 7,
-			date : 28,
-			version : 62,
+			participants_count : 25,
+			date : 26,
+			version : 12,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -306,12 +306,12 @@ $storiesStories = $client->stories->stories(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 2,
+				until_date : 8,
 			),
 		),
 		$client->chatForbidden(
-			id : 4939128006091601039,
-			title : 'TputnHlY4r923FIg',
+			id : 2889322899688285599,
+			title : 'Tjvq1PA7clXpobw5',
 		),
 		$client->channel(
 			creator : true,
@@ -342,17 +342,17 @@ $storiesStories = $client->stories->stories(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -2878824889501995820,
-			access_hash : 1682266044794776293,
-			title : 'K70fNtwFl9dckXnm',
+			id : -6693372709239801662,
+			access_hash : 196302783032174256,
+			title : 'QfwSUb28AXCVlaiD',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 39,
+			date : 35,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'dUbYsNhx96AkjQ2C',
-					reason : 'LhiZMqBwaEdIH9yc',
-					text : '5MsEu4dvNeFIjpcS',
+					platform : 'oqLMFw6DjQ3mJYV9',
+					reason : 'aklPvYs7OI2E4uVF',
+					text : 'IQ0qY1w3XdDe9ChB',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -394,7 +394,7 @@ $storiesStories = $client->stories->stories(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 39,
+				until_date : 57,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -417,9 +417,9 @@ $storiesStories = $client->stories->stories(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 90,
+				until_date : 97,
 			),
-			participants_count : 28,
+			participants_count : 36,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -427,34 +427,34 @@ $storiesStories = $client->stories->stories(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 33,
+			stories_max_id : 37,
 			color : $client->peerColor(
-				color : 47,
-				background_emoji_id : -2963072360013116550,
+				color : 15,
+				background_emoji_id : 7756106099854854994,
 			),
 			profile_color : $client->peerColor(
-				color : 87,
-				background_emoji_id : 5539884113861643253,
+				color : 56,
+				background_emoji_id : 3978982353955589150,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 89,
-			subscription_until_date : 54,
-			bot_verification_icon : 6312956900542986688,
-			send_paid_messages_stars : -6956270076937017792,
-			linked_monoforum_id : 1109080036904675428,
+			level : 57,
+			subscription_until_date : 100,
+			bot_verification_icon : 9141567868357840990,
+			send_paid_messages_stars : 595104065984429962,
+			linked_monoforum_id : 2083450596384782301,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -2214839200059709697,
-			access_hash : 3566276500888144457,
-			title : '3mOvTyPibhn5p0jF',
-			until_date : 70,
+			id : -4123294193158336544,
+			access_hash : 9173967083428699206,
+			title : 'yPL3adHXKp0WUlVf',
+			until_date : 46,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 5906357151032136277,
+			id : 4787525530984342137,
 		),
 		$client->user(
 			self : true,
@@ -482,24 +482,25 @@ $storiesStories = $client->stories->stories(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -2897859205026876133,
-			access_hash : 1832152208434820930,
+			bot_forum_view : true,
+			id : -7071243798065801429,
+			access_hash : 5220264699459317963,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 80,
+			bot_info_version : 62,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'ykx2tS9hLswGRqiX',
-					reason : 'NUinEaAShJokxg2X',
-					text : 'iqEbL8VmUdlNvn6g',
+					platform : 'mWyRMHIbZ8Qkv7lV',
+					reason : 'SeGNlkj7OhPY86m3',
+					text : 'd90rRA7NfOZnXqml',
 				),
 			),
-			bot_inline_placeholder : 'ZiVmfgPkwrl8oQzH',
-			lang_code : 'bEVzZwufGDX8c4ve',
+			bot_inline_placeholder : 'rUROKjPBTh9J3kSZ',
+			lang_code : 'STAdqM74cZLXOwVR',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -508,18 +509,18 @@ $storiesStories = $client->stories->stories(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 98,
+			stories_max_id : 57,
 			color : $client->peerColor(
-				color : 96,
-				background_emoji_id : 4933983572008853868,
+				color : 64,
+				background_emoji_id : -8291570134854994550,
 			),
 			profile_color : $client->peerColor(
-				color : 39,
-				background_emoji_id : -5572231319133508728,
+				color : 95,
+				background_emoji_id : -7618446265731955563,
 			),
-			bot_active_users : 39,
-			bot_verification_icon : -1191516008739903412,
-			send_paid_messages_stars : 2842745203164712478,
+			bot_active_users : 38,
+			bot_verification_icon : -3891783298433962128,
+			send_paid_messages_stars : -4224235501455263179,
 		),
 	),
 );

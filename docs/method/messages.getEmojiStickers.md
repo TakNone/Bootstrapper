@@ -2,7 +2,7 @@
 
 **Description** : *Gets the list of currently installed custom emoji stickersets*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getEmojiStickers#fbfca18f hash:long = messages.AllStickers;

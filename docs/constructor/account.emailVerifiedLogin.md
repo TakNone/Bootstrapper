@@ -2,7 +2,7 @@
 
 **Description** : *The email was verified correctly, and a login code was just sent to it*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.emailVerifiedLogin#e1bb0d61 email:string sent_code:auth.SentCode = account.EmailVerified;
@@ -32,11 +32,11 @@ $accountEmailVerified = $client->account->emailVerifiedLogin(
 	email : 'reply@liveproto.dev',
 	sent_code : $client->auth->sentCode(
 		type : $client->auth->sentCodeTypeApp(
-			length : 95,
+			length : 32,
 		),
 		phone_code_hash : '+1234567890',
 		next_type : $client->auth->codeTypeSms(),
-		timeout : 1,
+		timeout : 34,
 	),
 );
 ```

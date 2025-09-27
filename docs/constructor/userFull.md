@@ -2,10 +2,10 @@
 
 **Description** : *Extended user info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
-userFull#c577b5ad flags:# blocked:flags.0?true phone_calls_available:flags.4?true phone_calls_private:flags.5?true can_pin_message:flags.7?true has_scheduled:flags.12?true video_calls_available:flags.13?true voice_messages_forbidden:flags.20?true translations_disabled:flags.23?true stories_pinned_available:flags.26?true blocked_my_stories_from:flags.27?true wallpaper_overridden:flags.28?true contact_require_premium:flags.29?true read_dates_private:flags.30?true flags2:# sponsored_enabled:flags2.7?true can_view_revenue:flags2.9?true bot_can_manage_emoji_status:flags2.10?true display_gifts_button:flags2.16?true id:long about:flags.1?string settings:PeerSettings personal_photo:flags.21?Photo profile_photo:flags.2?Photo fallback_photo:flags.22?Photo notify_settings:PeerNotifySettings bot_info:flags.3?BotInfo pinned_msg_id:flags.6?int common_chats_count:int folder_id:flags.11?int ttl_period:flags.14?int theme:flags.15?ChatTheme private_forward_name:flags.16?string bot_group_admin_rights:flags.17?ChatAdminRights bot_broadcast_admin_rights:flags.18?ChatAdminRights wallpaper:flags.24?WallPaper stories:flags.25?PeerStories business_work_hours:flags2.0?BusinessWorkHours business_location:flags2.1?BusinessLocation business_greeting_message:flags2.2?BusinessGreetingMessage business_away_message:flags2.3?BusinessAwayMessage business_intro:flags2.4?BusinessIntro birthday:flags2.5?Birthday personal_channel_id:flags2.6?long personal_channel_message:flags2.6?int stargifts_count:flags2.8?int starref_program:flags2.11?StarRefProgram bot_verification:flags2.12?BotVerification send_paid_messages_stars:flags2.14?long disallowed_gifts:flags2.15?DisallowedGiftsSettings stars_rating:flags2.17?StarsRating stars_my_pending_rating:flags2.18?StarsRating stars_my_pending_rating_date:flags2.18?int main_tab:flags2.20?ProfileTab saved_music:flags2.21?Document = UserFull;
+userFull#a02bc13e flags:# blocked:flags.0?true phone_calls_available:flags.4?true phone_calls_private:flags.5?true can_pin_message:flags.7?true has_scheduled:flags.12?true video_calls_available:flags.13?true voice_messages_forbidden:flags.20?true translations_disabled:flags.23?true stories_pinned_available:flags.26?true blocked_my_stories_from:flags.27?true wallpaper_overridden:flags.28?true contact_require_premium:flags.29?true read_dates_private:flags.30?true flags2:# sponsored_enabled:flags2.7?true can_view_revenue:flags2.9?true bot_can_manage_emoji_status:flags2.10?true display_gifts_button:flags2.16?true id:long about:flags.1?string settings:PeerSettings personal_photo:flags.21?Photo profile_photo:flags.2?Photo fallback_photo:flags.22?Photo notify_settings:PeerNotifySettings bot_info:flags.3?BotInfo pinned_msg_id:flags.6?int common_chats_count:int folder_id:flags.11?int ttl_period:flags.14?int theme:flags.15?ChatTheme private_forward_name:flags.16?string bot_group_admin_rights:flags.17?ChatAdminRights bot_broadcast_admin_rights:flags.18?ChatAdminRights wallpaper:flags.24?WallPaper stories:flags.25?PeerStories business_work_hours:flags2.0?BusinessWorkHours business_location:flags2.1?BusinessLocation business_greeting_message:flags2.2?BusinessGreetingMessage business_away_message:flags2.3?BusinessAwayMessage business_intro:flags2.4?BusinessIntro birthday:flags2.5?Birthday personal_channel_id:flags2.6?long personal_channel_message:flags2.6?int stargifts_count:flags2.8?int starref_program:flags2.11?StarRefProgram bot_verification:flags2.12?BotVerification send_paid_messages_stars:flags2.14?long disallowed_stargifts:flags2.15?DisallowedGiftsSettings stars_rating:flags2.17?StarsRating stars_my_pending_rating:flags2.18?StarsRating stars_my_pending_rating_date:flags2.18?int main_tab:flags2.20?ProfileTab saved_music:flags2.21?Document note:flags2.22?TextWithEntities = UserFull;
 ```
 
 ---
@@ -63,12 +63,13 @@ userFull#c577b5ad flags:# blocked:flags.0?true phone_calls_available:flags.4?tru
 | **starref_program** | [`flags2.11?StarRefProgram`](type/StarRefProgram) | This bot has an active referral program » |
 | **bot_verification** | [`flags2.12?BotVerification`](type/BotVerification) | NOTHING |
 | **send_paid_messages_stars** | [`flags2.14?long`](type/long) | NOTHING |
-| **disallowed_gifts** | [`flags2.15?DisallowedGiftsSettings`](type/DisallowedGiftsSettings) | NOTHING |
+| **disallowed_stargifts** | [`flags2.15?DisallowedGiftsSettings`](type/DisallowedGiftsSettings) | NOTHING |
 | **stars_rating** | [`flags2.17?StarsRating`](type/StarsRating) | NOTHING |
 | **stars_my_pending_rating** | [`flags2.18?StarsRating`](type/StarsRating) | NOTHING |
 | **stars_my_pending_rating_date** | [`flags2.18?int`](type/int) | NOTHING |
 | **main_tab** | [`flags2.20?ProfileTab`](type/ProfileTab) | NOTHING |
 | **saved_music** | [`flags2.21?Document`](type/Document) | NOTHING |
+| **note** | [`flags2.22?TextWithEntities`](type/TextWithEntities) | NOTHING |
 
 ---
 
@@ -99,8 +100,8 @@ $userFull = $client->userFull(
 	can_view_revenue : true,
 	bot_can_manage_emoji_status : true,
 	display_gifts_button : true,
-	id : 9003055488963452525,
-	about : '3HILAGthF0SEBrme',
+	id : -1783200254582240432,
+	about : 'uSovPf1Wdkl7436h',
 	settings : $client->peerSettings(
 		report_spam : true,
 		add_contact : true,
@@ -113,79 +114,79 @@ $userFull = $client->userFull(
 		request_chat_broadcast : true,
 		business_bot_paused : true,
 		business_bot_can_reply : true,
-		geo_distance : 52,
-		request_chat_title : 'w8FBkSyd4Jms59WN',
-		request_chat_date : 29,
-		business_bot_id : 7183597107258082478,
+		geo_distance : 44,
+		request_chat_title : '3WtNx16yZnaRw2Dz',
+		request_chat_date : 16,
+		business_bot_id : -5465315737464899962,
 		business_bot_manage_url : 'https://docs.liveproto.dev',
-		charge_paid_message_stars : 3500887544222795496,
-		registration_month : 'HZxlEu67SwUfKjTn',
+		charge_paid_message_stars : -5680044304582102585,
+		registration_month : 'yA84xg6ZvdiQOfz1',
 		phone_country : '+1234567890',
-		name_change_date : 50,
-		photo_change_date : 38,
+		name_change_date : 55,
+		photo_change_date : 51,
 	),
 	personal_photo : $client->photoEmpty(
-		id : 6985428544105703211,
+		id : -2478969999275127822,
 	),
 	profile_photo : $client->photoEmpty(
-		id : -7389988319709066579,
+		id : 1977229904154289449,
 	),
 	fallback_photo : $client->photoEmpty(
-		id : 1805384775386960171,
+		id : -5076002129383671928,
 	),
 	notify_settings : $client->peerNotifySettings(
-		show_previews : false,
+		show_previews : true,
 		silent : false,
-		mute_until : 31,
+		mute_until : 11,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
 		stories_muted : true,
-		stories_hide_sender : false,
+		stories_hide_sender : true,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	bot_info : $client->botInfo(
 		has_preview_medias : true,
-		user_id : -6989772595588291670,
-		description : '1LHDcapdQterfu3o',
+		user_id : 6378724349984049219,
+		description : 'YWmNKBp9Xq0LGdhe',
 		description_photo : $client->photoEmpty(
-			id : 3734167763466175018,
+			id : 3459317011324102168,
 		),
 		description_document : $client->documentEmpty(
-			id : 9161182785736610408,
+			id : 7649211140431506669,
 		),
 		commands : array(
 			$client->botCommand(
-				command : '0jNdkfiDPmyYqnuS',
-				description : 'smqUkLA93bGpFONZ',
+				command : 'UHLYWKzFx4yhkoDP',
+				description : 'BrG35UhEfnAJPYZo',
 			),
 		),
 		menu_button : $client->botMenuButtonDefault(),
 		privacy_policy_url : 'https://docs.liveproto.dev',
 		app_settings : $client->botAppSettings(
 			placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			background_color : 43,
-			background_dark_color : 17,
-			header_color : 67,
-			header_dark_color : 9,
+			background_color : 44,
+			background_dark_color : 60,
+			header_color : 42,
+			header_dark_color : 78,
 		),
 		verifier_settings : $client->botVerifierSettings(
 			can_modify_custom_description : true,
-			icon : -6887639529971994568,
-			company : 'Nnr7h5TtX391DPky',
-			custom_description : 'lKjObTVimh1CpUtB',
+			icon : 34992883080850528,
+			company : '1RCbQ3tudsHozFKq',
+			custom_description : 'TrmdOH9APsp3lVaU',
 		),
 	),
-	pinned_msg_id : 38,
-	common_chats_count : 62,
-	folder_id : 69,
-	ttl_period : 78,
+	pinned_msg_id : 94,
+	common_chats_count : 48,
+	folder_id : 81,
+	ttl_period : 3,
 	theme : $client->chatTheme(
-		emoticon : 'ZvrKhY1uJSMGIwN8',
+		emoticon : 'I0AlkaGoshHzrWci',
 	),
-	private_forward_name : 'LKUQ16X9oNjOETMa',
+	private_forward_name : 'YQa0xItTAfX5RUDN',
 	bot_group_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -223,42 +224,42 @@ $userFull = $client->userFull(
 		manage_direct_messages : true,
 	),
 	wallpaper : $client->wallPaper(
-		id : -1060456236167557987,
+		id : -2706408588511555785,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : 94740485504141050,
-		slug : 'cgmU8djaWCMorSIY',
+		access_hash : -3215334680396920354,
+		slug : 'f5vNe6SgP3UD4iyX',
 		document : $client->documentEmpty(
-			id : -8594323330682248219,
+			id : 8448648657688876020,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 71,
-			second_background_color : 15,
-			third_background_color : 61,
-			fourth_background_color : 22,
-			intensity : 50,
-			rotation : 52,
-			emoticon : 'pqIowyFLkZz9rgsA',
+			background_color : 48,
+			second_background_color : 48,
+			third_background_color : 74,
+			fourth_background_color : 98,
+			intensity : 45,
+			rotation : 73,
+			emoticon : 'aytkxvhgZ0cYRTHq',
 		),
 	),
 	stories : $client->peerStories(
 		peer : $client->peerUser(
-			user_id : -5612447428980797954,
+			user_id : 7115410745344091451,
 		),
-		max_read_id : 22,
+		max_read_id : 35,
 		stories : array(
 			$client->storyItemDeleted(
-				id : 15,
+				id : 45,
 			),
 			$client->storyItemSkipped(
 				close_friends : true,
-				id : 34,
-				date : 24,
-				expire_date : 87,
+				id : 35,
+				date : 3,
+				expire_date : 63,
 			),
 			$client->storyItem(
 				pinned : true,
@@ -270,12 +271,12 @@ $userFull = $client->userFull(
 				contacts : true,
 				selected_contacts : true,
 				out : true,
-				id : 59,
-				date : 83,
+				id : 18,
+				date : 91,
 				from_id : $client->peerUser(...),
 				fwd_from : $client->storyFwdHeader(...),
-				expire_date : 38,
-				caption : 'WQs2An8vVa73eBTx',
+				expire_date : 80,
+				caption : 'WFou6erAGNPOb1TS',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -327,39 +328,39 @@ $userFull = $client->userFull(
 				),
 				views : $client->storyViews(...),
 				sent_reaction : $client->reactionEmpty(...),
-				albums : array(0),
+				albums : array(75),
 			),
 		),
 	),
 	business_work_hours : $client->businessWorkHours(
 		open_now : true,
-		timezone_id : 'oMt7EPwXDFBk4ONY',
+		timezone_id : 'VmtROxIdlPYbc8GC',
 		weekly_open : array(
 			$client->businessWeeklyOpen(
-				start_minute : 65,
+				start_minute : 58,
 				end_minute : 12,
 			),
 		),
 	),
 	business_location : $client->businessLocation(
 		geo_point : $client->geoPointEmpty(),
-		address : 'OqMT9URXt75E26D8',
+		address : 'BU5eqnEJwLsFb1KS',
 	),
 	business_greeting_message : $client->businessGreetingMessage(
-		shortcut_id : 12,
+		shortcut_id : 41,
 		recipients : $client->businessRecipients(
 			existing_chats : true,
 			new_chats : true,
 			contacts : true,
 			non_contacts : true,
 			exclude_selected : true,
-			users : array(2953966164633929773),
+			users : array(7427981545811732109),
 		),
-		no_activity_days : 33,
+		no_activity_days : 74,
 	),
 	business_away_message : $client->businessAwayMessage(
 		offline_only : true,
-		shortcut_id : 17,
+		shortcut_id : 83,
 		schedule : $client->businessAwayMessageScheduleAlways(),
 		recipients : $client->businessRecipients(
 			existing_chats : true,
@@ -367,62 +368,157 @@ $userFull = $client->userFull(
 			contacts : true,
 			non_contacts : true,
 			exclude_selected : true,
-			users : array(-4874631928111134069),
+			users : array(4461432882145340050),
 		),
 	),
 	business_intro : $client->businessIntro(
-		title : 'zB7Z50vaoArRy926',
-		description : 'LCQu0OSDX5TbeErd',
+		title : 'jgkh72umKeZaGvrJ',
+		description : 'rEx3oXSnM1FRfGJ0',
 		sticker : $client->documentEmpty(
-			id : -169312975309781689,
+			id : -577997165496972002,
 		),
 	),
 	birthday : $client->birthday(
-		day : 92,
-		month : 80,
-		year : 72,
+		day : 96,
+		month : 42,
+		year : 94,
 	),
-	personal_channel_id : 7645744085848974494,
-	personal_channel_message : 25,
-	stargifts_count : 7,
+	personal_channel_id : 3772750653063935505,
+	personal_channel_message : 32,
+	stargifts_count : 32,
 	starref_program : $client->starRefProgram(
-		bot_id : 7232312956837136293,
-		commission_permille : 22,
-		duration_months : 12,
-		end_date : 66,
+		bot_id : -2028985861547050994,
+		commission_permille : 47,
+		duration_months : 14,
+		end_date : 14,
 		daily_revenue_per_user : $client->starsAmount(
-			amount : -525274544949230690,
-			nanos : 87,
+			amount : -2090868724322449234,
+			nanos : 22,
 		),
 	),
 	bot_verification : $client->botVerification(
-		bot_id : -8615807900229399539,
-		icon : 8078068567418202268,
-		description : 'wcnYPg2HjvZIhE9W',
+		bot_id : 5265048466589050081,
+		icon : 5262685843815751296,
+		description : 'YJQykWzlSnabeF8g',
 	),
-	send_paid_messages_stars : -2838666308766614037,
-	disallowed_gifts : $client->disallowedGiftsSettings(
+	send_paid_messages_stars : -8407201788058271091,
+	disallowed_stargifts : $client->disallowedGiftsSettings(
 		disallow_unlimited_stargifts : true,
 		disallow_limited_stargifts : true,
 		disallow_unique_stargifts : true,
 		disallow_premium_gifts : true,
 	),
 	stars_rating : $client->starsRating(
-		level : 48,
-		current_level_stars : 1365162183496372910,
-		stars : -7337944207779278873,
-		next_level_stars : -381357235597768865,
+		level : 2,
+		current_level_stars : 2745208808715525050,
+		stars : -1734371521586016489,
+		next_level_stars : 3803149992605881924,
 	),
 	stars_my_pending_rating : $client->starsRating(
-		level : 33,
-		current_level_stars : 6768060902470983323,
-		stars : 1097422848631839866,
-		next_level_stars : 7665338049995586013,
+		level : 24,
+		current_level_stars : 7654328940625703049,
+		stars : 8023101998015602200,
+		next_level_stars : 8481157990217332479,
 	),
-	stars_my_pending_rating_date : 14,
+	stars_my_pending_rating_date : 7,
 	main_tab : $client->profileTabPosts(),
 	saved_music : $client->documentEmpty(
-		id : 8818299634877644867,
+		id : -5991146407151926091,
+	),
+	note : $client->textWithEntities(
+		text : 'Ku1B6YNc84lPCTAF',
+		entities : array(
+			$client->messageEntityUnknown(
+				offset : 0,
+				length : 25,
+			),
+			$client->messageEntityMention(
+				offset : 0,
+				length : 60,
+			),
+			$client->messageEntityHashtag(
+				offset : 0,
+				length : 38,
+			),
+			$client->messageEntityBotCommand(
+				offset : 0,
+				length : 14,
+			),
+			$client->messageEntityUrl(
+				offset : 0,
+				length : 38,
+			),
+			$client->messageEntityEmail(
+				offset : 0,
+				length : 36,
+			),
+			$client->messageEntityBold(
+				offset : 0,
+				length : 31,
+			),
+			$client->messageEntityItalic(
+				offset : 0,
+				length : 71,
+			),
+			$client->messageEntityCode(
+				offset : 0,
+				length : 55,
+			),
+			$client->messageEntityPre(
+				offset : 0,
+				length : 74,
+				language : 'CGNZy2PhbxK9LfnB',
+			),
+			$client->messageEntityTextUrl(
+				offset : 0,
+				length : 31,
+				url : 'https://docs.liveproto.dev',
+			),
+			$client->messageEntityMentionName(
+				offset : 0,
+				length : 57,
+				user_id : 3441340349401303736,
+			),
+			$client->inputMessageEntityMentionName(
+				offset : 0,
+				length : 57,
+				user_id : $client->inputUserEmpty(...),
+			),
+			$client->messageEntityPhone(
+				offset : 0,
+				length : 9,
+			),
+			$client->messageEntityCashtag(
+				offset : 0,
+				length : 99,
+			),
+			$client->messageEntityUnderline(
+				offset : 0,
+				length : 91,
+			),
+			$client->messageEntityStrike(
+				offset : 0,
+				length : 87,
+			),
+			$client->messageEntityBankCard(
+				offset : 0,
+				length : 3,
+			),
+			$client->messageEntitySpoiler(
+				offset : 0,
+				length : 96,
+			),
+			$client->messageEntityCustomEmoji(
+				offset : 0,
+				length : 29,
+				document_id : 3952902649977174488,
+			),
+			$client->messageEntityBlockquote(
+				collapsed : true,
+				offset : 0,
+				length : 22,
+			),
+		),
 	),
 );
 ```

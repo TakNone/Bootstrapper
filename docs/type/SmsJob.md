@@ -2,7 +2,7 @@
 
 **Description** : *Info about an SMS job*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 smsJob#e6a1eeb8 job_id:string phone_number:string text:string = SmsJob;

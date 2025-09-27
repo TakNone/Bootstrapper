@@ -2,7 +2,7 @@
 
 **Description** : *Globally search for posts from public channels &raquo; \(including those we aren&#039;t a member of\) containing a specific hashtag*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?string offset_rate:int offset_peer:InputPeer offset_id:int limit:int allow_paid_stars:flags.2?long = messages.Messages;
@@ -35,12 +35,12 @@ channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?strin
 
 ```php
 $messagesMessages = $client->channels->searchPosts(
-	hashtag : 'dRfnQ17xptSv2WL6',
-	query : 'acngGDBX0HUxmtvk',
+	hashtag : 'CYasQOiw8p5mBDgn',
+	query : '3XsahP8p9tLlf6EF',
 	offset_rate : 0,
 	offset_peer : $client->inputPeerEmpty(),
 	offset_id : 0,
-	limit : 97,
-	allow_paid_stars : 8705940544415505669,
+	limit : 27,
+	allow_paid_stars : 926490107186671058,
 );
 ```

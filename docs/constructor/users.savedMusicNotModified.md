@@ -1,6 +1,6 @@
 # users.savedMusicNotModified
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 users.savedMusicNotModified#e3878aa4 count:int = users.SavedMusic;
@@ -26,6 +26,6 @@ users.savedMusicNotModified#e3878aa4 count:int = users.SavedMusic;
 
 ```php
 $usersSavedMusic = $client->users->savedMusicNotModified(
-	count : 81,
+	count : 94,
 );
 ```

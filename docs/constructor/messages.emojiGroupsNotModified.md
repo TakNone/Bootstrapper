@@ -2,7 +2,7 @@
 
 **Description** : *The list of emoji categories hasn&#039;t changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.emojiGroupsNotModified#6fb4ad87 = messages.EmojiGroups;

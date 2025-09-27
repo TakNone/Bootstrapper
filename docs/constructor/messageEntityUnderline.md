@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing underlined text*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageEntityUnderline#9c4e7e8b offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityUnderline#9c4e7e8b offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityUnderline(
 	offset : 0,
-	length : 50,
+	length : 91,
 );
 ```

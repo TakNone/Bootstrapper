@@ -1,6 +1,6 @@
 # channels.checkSearchPostsFlood
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.checkSearchPostsFlood#22567115 flags:# query:flags.0?string = SearchPostsFlood;
@@ -27,6 +27,6 @@ channels.checkSearchPostsFlood#22567115 flags:# query:flags.0?string = SearchPos
 
 ```php
 $searchPostsFlood = $client->channels->checkSearchPostsFlood(
-	query : '9ivlq467eFf3oL2y',
+	query : 'RXBT6lYZU0oz1S8W',
 );
 ```

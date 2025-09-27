@@ -2,7 +2,7 @@
 
 **Description** : *Exported chat invite*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 chatInviteExported#a22cbd96 flags:# revoked:flags.0?true permanent:flags.5?true request_needed:flags.6?true link:string admin_id:long date:int start_date:flags.4?int expire_date:flags.1?int usage_limit:flags.2?int usage:flags.3?int requested:flags.7?int subscription_expired:flags.10?int title:flags.8?string subscription_pricing:flags.9?StarsSubscriptionPricing = ExportedChatInvite;
@@ -45,19 +45,19 @@ $exportedChatInvite = $client->chatInviteExported(
 	revoked : true,
 	permanent : true,
 	request_needed : true,
-	link : 'EfJ1Rt83pVbkCGN4',
-	admin_id : -684531547102798321,
-	date : 54,
-	start_date : 66,
-	expire_date : 9,
-	usage_limit : 75,
-	usage : 64,
-	requested : 84,
+	link : 'k4WY0VFhr29xEoei',
+	admin_id : 7736736815976754701,
+	date : 78,
+	start_date : 64,
+	expire_date : 88,
+	usage_limit : 23,
+	usage : 2,
+	requested : 85,
 	subscription_expired : 54,
-	title : 'qdHox6tSfnZyLwvh',
+	title : 'HMlwvyADQTXx3Gdh',
 	subscription_pricing : $client->starsSubscriptionPricing(
-		period : 94,
-		amount : 4990287117403307680,
+		period : 42,
+		amount : -729394563849199659,
 	),
 );
 ```

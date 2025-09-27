@@ -2,7 +2,7 @@
 
 **Description** : *Fetch a list of star giveaway options &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.getStarsGiveawayOptions#bd1efd3e = Vector<StarsGiveawayOption>;

@@ -2,7 +2,7 @@
 
 **Description** : *Info about a group*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 chat#41cbf256 flags:# creator:flags.0?true kicked:flags.1?true left:flags.2?true deactivated:flags.5?true call_active:flags.23?true call_not_empty:flags.24?true noforwards:flags.25?true id:long title:string photo:ChatPhoto participants_count:int date:int version:int migrated_to:flags.6?InputChannel admin_rights:flags.14?ChatAdminRights default_banned_rights:flags.18?ChatBannedRights = Chat;
@@ -51,12 +51,12 @@ $chat = $client->chat(
 	call_active : true,
 	call_not_empty : true,
 	noforwards : true,
-	id : 3355611758672836286,
-	title : '5VrBdY6mtnoADsvC',
+	id : -3272164507319159666,
+	title : 'VmqIKGLxWhbEndJe',
 	photo : $client->chatPhotoEmpty(),
-	participants_count : 21,
-	date : 52,
-	version : 44,
+	participants_count : 18,
+	date : 76,
+	version : 86,
 	migrated_to : $client->inputChannelEmpty(),
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
@@ -97,7 +97,7 @@ $chat = $client->chat(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 81,
+		until_date : 83,
 	),
 );
 ```

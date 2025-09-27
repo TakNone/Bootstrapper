@@ -2,7 +2,7 @@
 
 **Description** : *Get the participants of a supergroup/channel*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.getParticipants#77ced9d0 channel:InputChannel filter:ChannelParticipantsFilter offset:int limit:int hash:long = channels.ChannelParticipants;
@@ -46,7 +46,7 @@ $channelsChannelParticipants = $client->channels->getParticipants(
 	channel : $client->inputChannelEmpty(),
 	filter : $client->channelParticipantsRecent(),
 	offset : 0,
-	limit : 66,
+	limit : 71,
 	hash : 0,
 );
 ```

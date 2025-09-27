@@ -2,7 +2,7 @@
 
 **Description** : *Get a set of suggested custom emoji stickers that can be used in an accent color pattern*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getDefaultBackgroundEmojis#a60ab9ce hash:long = EmojiList;

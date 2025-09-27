@@ -1,6 +1,6 @@
 # stories.getAlbums
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.getAlbums#25b3eac7 peer:InputPeer hash:long = stories.Albums;

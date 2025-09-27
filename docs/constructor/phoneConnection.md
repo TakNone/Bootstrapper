@@ -2,7 +2,7 @@
 
 **Description** : *Identifies an endpoint that can be used to connect to the other user in a phone call*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phoneConnection#9cc123c7 flags:# tcp:flags.0?true id:long ip:string ipv6:string port:int peer_tag:bytes = PhoneConnection;
@@ -35,10 +35,10 @@ phoneConnection#9cc123c7 flags:# tcp:flags.0?true id:long ip:string ipv6:string 
 ```php
 $phoneConnection = $client->phoneConnection(
 	tcp : true,
-	id : -5341367405797039955,
+	id : 2405807071089409089,
 	ip : '127.0.0.1',
 	ipv6 : '127.0.0.1',
-	port : 48,
+	port : 45,
 	peer_tag : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

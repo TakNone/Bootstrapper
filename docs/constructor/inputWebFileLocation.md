@@ -2,7 +2,7 @@
 
 **Description** : *Location of a remote HTTP\(s\) file*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputWebFileLocation#c239d686 url:string access_hash:long = InputWebFileLocation;
@@ -30,6 +30,6 @@ inputWebFileLocation#c239d686 url:string access_hash:long = InputWebFileLocation
 ```php
 $inputWebFileLocation = $client->inputWebFileLocation(
 	url : 'https://docs.liveproto.dev',
-	access_hash : -7547918417338601638,
+	access_hash : 6878399522297404844,
 );
 ```

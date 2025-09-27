@@ -2,7 +2,7 @@
 
 **Description** : *Report menu option*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageReportOption#7903e3d9 text:string option:bytes = MessageReportOption;
@@ -29,7 +29,7 @@ messageReportOption#7903e3d9 text:string option:bytes = MessageReportOption;
 
 ```php
 $messageReportOption = $client->messageReportOption(
-	text : 'm1nIohP6EKcSAMaw',
+	text : '6ftuEeKw2F7YZMai',
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Whether the current document has stickers attached*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 documentAttributeHasStickers#9801d2f7 = DocumentAttribute;

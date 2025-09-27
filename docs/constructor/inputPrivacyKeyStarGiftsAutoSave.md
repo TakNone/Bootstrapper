@@ -2,7 +2,7 @@
 
 **Description** : *Whether received gifts will be automatically displayed on our profile*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputPrivacyKeyStarGiftsAutoSave#e1732341 = InputPrivacyKey;

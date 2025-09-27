@@ -1,6 +1,6 @@
 # inputStickerSetTonGifts
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputStickerSetTonGifts#1cf671a0 = InputStickerSet;

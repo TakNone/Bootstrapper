@@ -2,7 +2,7 @@
 
 **Description** : *Choose a channel*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true user_admin_rights:flags.1?ChatAdminRights has_username:flags.3?Bool bot_admin_rights:flags.2?ChatAdminRights = RequestPeerType;

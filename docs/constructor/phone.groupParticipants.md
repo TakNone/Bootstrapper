@@ -2,7 +2,7 @@
 
 **Description** : *Info about the participants of a group call or livestream*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.groupParticipants#f47751b6 count:int participants:Vector<GroupCallParticipant> next_offset:string chats:Vector<Chat> users:Vector<User> version:int = phone.GroupParticipants;
@@ -33,7 +33,7 @@ phone.groupParticipants#f47751b6 count:int participants:Vector<GroupCallParticip
 
 ```php
 $phoneGroupParticipants = $client->phone->groupParticipants(
-	count : 86,
+	count : 33,
 	participants : array(
 		$client->groupCallParticipant(
 			muted : true,
@@ -47,36 +47,36 @@ $phoneGroupParticipants = $client->phone->groupParticipants(
 			self : true,
 			video_joined : true,
 			peer : $client->peerUser(
-				user_id : -1176829954135278197,
+				user_id : -167377059232489909,
 			),
-			date : 25,
-			active_date : 93,
-			source : 72,
-			volume : 99,
-			about : 'ua5wIUiJGzfkHLEX',
-			raise_hand_rating : 1070073466314476121,
+			date : 54,
+			active_date : 40,
+			source : 99,
+			volume : 45,
+			about : 'Pe3Di4XBEdjAMmlo',
+			raise_hand_rating : -3617081203822873470,
 			video : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'xVEgFA5WNKbQutJh',
+				endpoint : 'TigSRDXYxm8Otjn9',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(...),
 				),
-				audio_source : 60,
+				audio_source : 91,
 			),
 			presentation : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'ObtxAeC8psTV5XQu',
+				endpoint : 'oS5iFZpvCb8BVXIH',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(...),
 				),
-				audio_source : 100,
+				audio_source : 72,
 			),
 		),
 	),
-	next_offset : 'FPucN4KOexold9fR',
+	next_offset : 'ZLHpQsNljfI6KVi8',
 	chats : array(
 		$client->chatEmpty(
-			id : 1122699975565441147,
+			id : 3728925326396644288,
 		),
 		$client->chat(
 			creator : true,
@@ -86,12 +86,12 @@ $phoneGroupParticipants = $client->phone->groupParticipants(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -5374227684416837943,
-			title : 'IXesAYyWZ2GB3Di6',
+			id : -3613107893389674060,
+			title : 'kOoE4fKBnjgs7Ubq',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 83,
-			date : 34,
-			version : 80,
+			participants_count : 72,
+			date : 44,
+			version : 45,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -132,12 +132,12 @@ $phoneGroupParticipants = $client->phone->groupParticipants(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 26,
+				until_date : 3,
 			),
 		),
 		$client->chatForbidden(
-			id : -6304277983524021572,
-			title : 'RQstNmqWoc703Vzy',
+			id : 1950030626162742899,
+			title : 'XpQHsM0OWiSnvVcI',
 		),
 		$client->channel(
 			creator : true,
@@ -168,17 +168,17 @@ $phoneGroupParticipants = $client->phone->groupParticipants(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -8478156626656773504,
-			access_hash : -4979053913279577158,
-			title : '2PMIKVTD9kguvS5x',
+			id : -1358773149763816997,
+			access_hash : -2161390848297682978,
+			title : 'b8EPtmReK3wFqcLv',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 46,
+			date : 77,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'ighvqES3XyZV82G5',
-					reason : 'T3cteXGJ9OwEvk0I',
-					text : '6dGTD0MWtsw1nVNU',
+					platform : 'SbuqaN6JDROnmxE8',
+					reason : 'mB4FnYR0OZNLz8IC',
+					text : 'X1eTmfYPGv20BSRp',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -220,7 +220,7 @@ $phoneGroupParticipants = $client->phone->groupParticipants(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 85,
+				until_date : 31,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -243,9 +243,9 @@ $phoneGroupParticipants = $client->phone->groupParticipants(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 40,
+				until_date : 42,
 			),
-			participants_count : 19,
+			participants_count : 12,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -253,34 +253,34 @@ $phoneGroupParticipants = $client->phone->groupParticipants(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 77,
+			stories_max_id : 25,
 			color : $client->peerColor(
-				color : 26,
-				background_emoji_id : 7078639849053860074,
+				color : 50,
+				background_emoji_id : 844809937591051281,
 			),
 			profile_color : $client->peerColor(
-				color : 53,
-				background_emoji_id : 692159158537429979,
+				color : 43,
+				background_emoji_id : 1354262905026741367,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 32,
-			subscription_until_date : 49,
-			bot_verification_icon : -2689509815889708266,
-			send_paid_messages_stars : -2678900834584210600,
-			linked_monoforum_id : 4387560525168803085,
+			level : 7,
+			subscription_until_date : 10,
+			bot_verification_icon : -8779203159337955546,
+			send_paid_messages_stars : 7961391659910251563,
+			linked_monoforum_id : -8496870594281617663,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -2966928807966184012,
-			access_hash : -953208136003455443,
-			title : 'nI49v6oOKAC02uj1',
-			until_date : 8,
+			id : -2943439023413970397,
+			access_hash : 8765173280843985707,
+			title : 'PMEH8NWFx9qOmQBr',
+			until_date : 27,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 4197302839263232605,
+			id : -2956217120812575242,
 		),
 		$client->user(
 			self : true,
@@ -308,24 +308,25 @@ $phoneGroupParticipants = $client->phone->groupParticipants(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 7262848950372215470,
-			access_hash : -7901304278134295328,
+			bot_forum_view : true,
+			id : -8229028296944428287,
+			access_hash : -9043916653589489530,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 51,
+			bot_info_version : 55,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'cLiOYqSzNJPAFght',
-					reason : 'FhXmEH5iKnyNkarL',
-					text : 'PNyhmOGXE07uiKHA',
+					platform : 'suby1WEcIxPmt6R2',
+					reason : 'mCN2lqUJpgMndZAD',
+					text : 'mx2iCzSQj5dDYA1I',
 				),
 			),
-			bot_inline_placeholder : 'JjIA731wVWOlbYTt',
-			lang_code : 'obmzI5hYZJWuV7cG',
+			bot_inline_placeholder : 'QeLVO51uUSACqcsY',
+			lang_code : 'UalCfwvVcs4xkd0J',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -334,20 +335,20 @@ $phoneGroupParticipants = $client->phone->groupParticipants(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 0,
+			stories_max_id : 4,
 			color : $client->peerColor(
-				color : 11,
-				background_emoji_id : 8061012361008038943,
+				color : 39,
+				background_emoji_id : 5019047485418089139,
 			),
 			profile_color : $client->peerColor(
-				color : 20,
-				background_emoji_id : -2782926107371341215,
+				color : 91,
+				background_emoji_id : -8064573521780887893,
 			),
-			bot_active_users : 82,
-			bot_verification_icon : 8282018802293531317,
-			send_paid_messages_stars : 2390754234846143353,
+			bot_active_users : 15,
+			bot_verification_icon : -6268697489663584431,
+			send_paid_messages_stars : -2311970229917487554,
 		),
 	),
-	version : 10,
+	version : 26,
 );
 ```

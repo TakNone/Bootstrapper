@@ -2,7 +2,7 @@
 
 **Description** : *Get the current reaction notification settings &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getReactionsNotifySettings#6dd654c = ReactionsNotifySettings;

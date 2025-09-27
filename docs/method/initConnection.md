@@ -2,7 +2,7 @@
 
 **Description** : *Initialize connection*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 initConnection#c1cd5ea9 {X:Type} flags:# api_id:int device_model:string system_version:string app_version:string system_lang_code:string lang_pack:string lang_code:string proxy:flags.0?InputClientProxy params:flags.1?JSONValue query:!X = X;
@@ -46,16 +46,16 @@ initConnection#c1cd5ea9 {X:Type} flags:# api_id:int device_model:string system_v
 
 ```php
 $x = $client->initConnection(
-	api_id : 1,
-	device_model : 'QfOD6AZ4edYiJR7o',
-	system_version : 'KgjldyRB9VvCP0rI',
-	app_version : 'lOhmJbVzEW84PY7N',
-	system_lang_code : 'UZ7J8MzgFbhAueSH',
-	lang_pack : 'f3mUMTokF5wp0ze1',
-	lang_code : 'ciQFYXu1kO39It07',
+	api_id : 30,
+	device_model : '1N6ve9F4LuigPwlH',
+	system_version : 'bD4G5fMCQ2iFs16w',
+	app_version : '3ikalhZVpNsI86oR',
+	system_lang_code : 'rwzPuUiXDmGJlLBv',
+	lang_pack : 'eh18vWaOXZzlgrRb',
+	lang_code : '2Ryjm9EYHMTfoUnB',
 	proxy : $client->inputClientProxy(
-		address : 'j5qcy4MnOdkLJg36',
-		port : 85,
+		address : 'tdkqMHvoInK3DuNb',
+		port : 7,
 	),
 	params : $client->jsonNull(),
 	query : $client->help->getConfig(raw : true),

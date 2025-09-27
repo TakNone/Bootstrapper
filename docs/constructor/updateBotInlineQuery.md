@@ -2,7 +2,7 @@
 
 **Description** : *An incoming inline query*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateBotInlineQuery#496f379c flags:# query_id:long user_id:long query:string geo:flags.0?GeoPoint peer_type:flags.1?InlineQueryPeerType offset:string = Update;
@@ -34,11 +34,11 @@ updateBotInlineQuery#496f379c flags:# query_id:long user_id:long query:string ge
 
 ```php
 $update = $client->updateBotInlineQuery(
-	query_id : 3939059106857037789,
-	user_id : -5089753954873851038,
-	query : 'oO4yrAIuTKp6vxQ1',
+	query_id : 8915339390877562813,
+	user_id : -1542784836310690669,
+	query : 'zg4EGv8fTHSP9qIw',
 	geo : $client->geoPointEmpty(),
 	peer_type : $client->inlineQueryPeerTypeSameBotPM(),
-	offset : 'XSQ6wlyMYjeAVZJq',
+	offset : 'MNURnLhkX7cy3zWE',
 );
 ```

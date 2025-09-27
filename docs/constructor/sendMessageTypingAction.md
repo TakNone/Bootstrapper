@@ -2,7 +2,7 @@
 
 **Description** : *User is typing*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 sendMessageTypingAction#16bf744e = SendMessageAction;

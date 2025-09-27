@@ -2,7 +2,7 @@
 
 **Description** : *Upload a custom profile picture for a contact, or suggest a new profile picture to a contact*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 photos.uploadContactProfilePhoto#e14c4a71 flags:# suggest:flags.3?true save:flags.4?true user_id:InputUser file:flags.0?InputFile video:flags.1?InputFile video_start_ts:flags.2?double video_emoji_markup:flags.5?VideoSize = photos.Photo;
@@ -48,24 +48,24 @@ $photosPhoto = $client->photos->uploadContactProfilePhoto(
 	save : true,
 	user_id : $client->inputUserEmpty(),
 	file : $client->inputFile(
-		id : -2214856850632157716,
-		parts : 42,
-		name : 'pwXOckNDZWaSItBs',
+		id : 5993193199138339779,
+		parts : 47,
+		name : 'psoI2RLwlgDQCmkh',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
 	video : $client->inputFile(
-		id : -3387125291539065407,
-		parts : 7,
-		name : 'OZnPHVpMNRjbci1G',
+		id : -1890086161119084662,
+		parts : 12,
+		name : 'thWBHA9lS5L1Xo7v',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	video_start_ts : 1766774.2861328125,
+	video_start_ts : 806687.7939453125,
 	video_emoji_markup : $client->videoSize(
-		type : 'LKNJrwc1x0DoClFa',
-		w : 86,
-		h : 23,
-		size : 15,
-		video_start_ts : -827829.6220703125,
+		type : 'av9m3WwljFRfNy7P',
+		w : 62,
+		h : 34,
+		size : 45,
+		video_start_ts : -1271846.994140625,
 	),
 );
 ```

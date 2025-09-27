@@ -2,7 +2,7 @@
 
 **Description** : *Change the emoji status of a user \(invoked by bots, see here &raquo; for more info on the full flow\)*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 bots.updateUserEmojiStatus#ed9f30c5 user_id:InputUser emoji_status:EmojiStatus = Bool;

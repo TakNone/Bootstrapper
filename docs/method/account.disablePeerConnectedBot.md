@@ -2,7 +2,7 @@
 
 **Description** : *Permanently disconnect a specific chat from all business bots &raquo; \(equivalent to specifying it in recipients\.exclude\_users during initial configuration with account\.updateConnectedBot &raquo;\); to reconnect of a chat disconnected using this method the user must reconnect the entire bot by invoking account\.updateConnectedBot &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.disablePeerConnectedBot#5e437ed9 peer:InputPeer = Bool;

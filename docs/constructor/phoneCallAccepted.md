@@ -2,7 +2,7 @@
 
 **Description** : *An accepted phone call*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phoneCallAccepted#3660c311 flags:# video:flags.6?true id:long access_hash:long date:int admin_id:long participant_id:long g_b:bytes protocol:PhoneCallProtocol = PhoneCall;
@@ -37,18 +37,18 @@ phoneCallAccepted#3660c311 flags:# video:flags.6?true id:long access_hash:long d
 ```php
 $phoneCall = $client->phoneCallAccepted(
 	video : true,
-	id : 2574278972048332929,
-	access_hash : 6057278370034965393,
-	date : 43,
-	admin_id : -2186868802257864740,
-	participant_id : -2561942992791900959,
+	id : 3795754262485239054,
+	access_hash : 1704102813868504276,
+	date : 76,
+	admin_id : 7703200606880042428,
+	participant_id : 7094297511908889199,
 	g_b : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 92,
-		max_layer : 0,
-		library_versions : array('Kt8P6HeAbUcfwsGF'),
+		min_layer : 24,
+		max_layer : 1,
+		library_versions : array('fW9wgmKuq4NVveL3'),
 	),
 );
 ```

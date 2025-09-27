@@ -2,7 +2,7 @@
 
 **Description** : *Search for messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.search#29ee847a flags:# peer:InputPeer q:string from_id:flags.0?InputPeer saved_peer_id:flags.2?InputPeer saved_reaction:flags.3?Vector<Reaction> top_msg_id:flags.1?int filter:MessagesFilter min_date:int max_date:int offset_id:int add_offset:int limit:int max_id:int min_id:int hash:long = messages.Messages;
@@ -63,28 +63,28 @@ messages.search#29ee847a flags:# peer:InputPeer q:string from_id:flags.0?InputPe
 ```php
 $messagesMessages = $client->messages->search(
 	peer : $client->inputPeerEmpty(),
-	q : '4dQZwK0EnxSRsvyj',
+	q : 'Kw3YQ206MFHGaW9L',
 	from_id : $client->inputPeerEmpty(),
 	saved_peer_id : $client->inputPeerEmpty(),
 	saved_reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'VICBFbNlADc75jrk',
+			emoticon : 'IdLi2GhkrgloeBty',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 1464075224753058916,
+			document_id : -7758973762186248000,
 		),
 		$client->reactionPaid(),
 	),
-	top_msg_id : 11,
+	top_msg_id : 66,
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 27,
-	max_date : 39,
+	min_date : 57,
+	max_date : 38,
 	offset_id : 0,
-	add_offset : 90,
-	limit : 15,
-	max_id : 39,
-	min_id : 68,
+	add_offset : 59,
+	limit : 98,
+	max_id : 41,
+	min_id : 50,
 	hash : 0,
 );
 ```

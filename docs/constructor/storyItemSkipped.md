@@ -2,7 +2,7 @@
 
 **Description** : *Represents an active story, whose full information was omitted for space and performance reasons; use stories\.getStoriesByID to fetch full info about the skipped story when and if needed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 storyItemSkipped#ffadc913 flags:# close_friends:flags.8?true id:int date:int expire_date:int = StoryItem;
@@ -33,8 +33,8 @@ storyItemSkipped#ffadc913 flags:# close_friends:flags.8?true id:int date:int exp
 ```php
 $storyItem = $client->storyItemSkipped(
 	close_friends : true,
-	id : 18,
-	date : 2,
-	expire_date : 31,
+	id : 81,
+	date : 39,
+	expire_date : 83,
 );
 ```

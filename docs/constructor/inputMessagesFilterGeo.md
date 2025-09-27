@@ -2,7 +2,7 @@
 
 **Description** : *Return only messages containing geolocations*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputMessagesFilterGeo#e7026d0d = MessagesFilter;

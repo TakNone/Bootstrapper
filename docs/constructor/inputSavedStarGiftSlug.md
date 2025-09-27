@@ -1,6 +1,6 @@
 # inputSavedStarGiftSlug
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputSavedStarGiftSlug#2085c238 slug:string = InputSavedStarGift;
@@ -26,6 +26,6 @@ inputSavedStarGiftSlug#2085c238 slug:string = InputSavedStarGift;
 
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftSlug(
-	slug : 'jCScORzigMnY0IK8',
+	slug : '7wUgRtdlDZv8c3mk',
 );
 ```

@@ -1,6 +1,6 @@
 # payments.createStarGiftCollection
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.createStarGiftCollection#1f4a0e87 peer:InputPeer title:string stargift:Vector<InputSavedStarGift> = StarGiftCollection;
@@ -29,17 +29,17 @@ payments.createStarGiftCollection#1f4a0e87 peer:InputPeer title:string stargift:
 ```php
 $starGiftCollection = $client->payments->createStarGiftCollection(
 	peer : $client->inputPeerEmpty(),
-	title : 'oh30bauPcrDZg6em',
+	title : 'lyrU3LtkBzJsEKqV',
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 94,
+			msg_id : 24,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->inputPeerEmpty(),
-			saved_id : -1202510863262161079,
+			saved_id : 2500455868980576096,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : '924bJRySsNVrljDw',
+			slug : 'rd6ypvFL0DPGbVJf',
 		),
 	),
 );

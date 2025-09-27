@@ -2,7 +2,7 @@
 
 **Description** : *The pinned topics of a forum have changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateChannelPinnedTopics#fe198602 flags:# channel_id:long order:flags.0?Vector<int> = Update;
@@ -30,7 +30,7 @@ updateChannelPinnedTopics#fe198602 flags:# channel_id:long order:flags.0?Vector<
 
 ```php
 $update = $client->updateChannelPinnedTopics(
-	channel_id : -69992071380906629,
-	order : array(42),
+	channel_id : -877817936711496897,
+	order : array(68),
 );
 ```

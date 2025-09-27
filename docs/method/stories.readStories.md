@@ -2,7 +2,7 @@
 
 **Description** : *Mark all stories up to a certain ID as read, for a given peer; will emit an updateReadStories update to all logged\-in sessions*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.readStories#a556dac8 peer:InputPeer max_id:int = Vector<int>;
@@ -40,6 +40,6 @@ stories.readStories#a556dac8 peer:InputPeer max_id:int = Vector<int>;
 ```php
 $int = $client->stories->readStories(
 	peer : $client->inputPeerEmpty(),
-	max_id : 4,
+	max_id : 69,
 );
 ```

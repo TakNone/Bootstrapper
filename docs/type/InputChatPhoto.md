@@ -2,7 +2,7 @@
 
 **Description** : *Defines a new group profile photo*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputChatPhotoEmpty#1ca48f57 = InputChatPhoto;

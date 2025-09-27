@@ -2,7 +2,7 @@
 
 **Description** : *Button to request a user&#039;s phone number*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 keyboardButtonRequestPhone#b16a6c29 text:string = KeyboardButton;
@@ -28,6 +28,6 @@ keyboardButtonRequestPhone#b16a6c29 text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestPhone(
-	text : 'BzekWp458o9PHjRJ',
+	text : 'sUw3FtmMo10lKPDc',
 );
 ```

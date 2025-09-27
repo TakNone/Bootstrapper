@@ -2,7 +2,7 @@
 
 **Description** : *Channel statistics value pair*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 statsAbsValueAndPrev#cb43acde current:double previous:double = StatsAbsValueAndPrev;

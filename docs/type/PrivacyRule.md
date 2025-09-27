@@ -2,7 +2,7 @@
 
 **Description** : *Privacy rules together with privacy keys indicate what can or can&#039;t someone do and are specified by a PrivacyRule constructor, and its input counterpart InputPrivacyRule*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 privacyValueAllowContacts#fffe1bac = PrivacyRule;

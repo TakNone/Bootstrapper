@@ -1,6 +1,6 @@
 # updateTranscribeAudio
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateTranscribeAudio#88617090 flags:# final:flags.0?true transcription_id:long text:string = Update;
@@ -30,7 +30,7 @@ updateTranscribeAudio#88617090 flags:# final:flags.0?true transcription_id:long 
 ```php
 $update = $client->updateTranscribeAudio(
 	final : true,
-	transcription_id : 1383706878380665887,
-	text : 'n0Bzl59hHydSTMgE',
+	transcription_id : -1667461302526568750,
+	text : 'IOc4gT508AGRVfK3',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Birthday information of our contacts*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 contacts.contactBirthdays#114ff30d contacts:Vector<ContactBirthday> users:Vector<User> = contacts.ContactBirthdays;
@@ -31,17 +31,17 @@ contacts.contactBirthdays#114ff30d contacts:Vector<ContactBirthday> users:Vector
 $contactsContactBirthdays = $client->contacts->contactBirthdays(
 	contacts : array(
 		$client->contactBirthday(
-			contact_id : -8678620906457209929,
+			contact_id : -3573089917764145434,
 			birthday : $client->birthday(
-				day : 3,
-				month : 66,
-				year : 24,
+				day : 83,
+				month : 78,
+				year : 86,
 			),
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 9051812406565615683,
+			id : -4934149795373326944,
 		),
 		$client->user(
 			self : true,
@@ -69,24 +69,25 @@ $contactsContactBirthdays = $client->contacts->contactBirthdays(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -6548992662904562299,
-			access_hash : 5109056625915413799,
+			bot_forum_view : true,
+			id : 2044801074307266370,
+			access_hash : -8200410141267482741,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 51,
+			bot_info_version : 27,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'ANbF6rXU71uRJQpn',
-					reason : 'pO32FYXUA7tZwaEc',
-					text : 'Av94yRUZLY6eolsJ',
+					platform : 'Qx4MgKFJBGn7Nhas',
+					reason : '7EaIJOcK2lCDmVxw',
+					text : 'HmWCMU7Q9S4Kv52x',
 				),
 			),
-			bot_inline_placeholder : 'YgCBl1jpzGniqAKy',
-			lang_code : 'Q7a1yEhOVltevzqR',
+			bot_inline_placeholder : '25PlXTcrVt7gY6hK',
+			lang_code : 'IUFz4sXWmbrL8ZxM',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -95,18 +96,18 @@ $contactsContactBirthdays = $client->contacts->contactBirthdays(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 24,
+			stories_max_id : 100,
 			color : $client->peerColor(
-				color : 12,
-				background_emoji_id : -3699473193440778449,
+				color : 53,
+				background_emoji_id : 5583380719959925964,
 			),
 			profile_color : $client->peerColor(
-				color : 0,
-				background_emoji_id : -5593298955137317961,
+				color : 60,
+				background_emoji_id : -7393491220278155968,
 			),
-			bot_active_users : 90,
-			bot_verification_icon : -9209652381965861859,
-			send_paid_messages_stars : 8780309732265698589,
+			bot_active_users : 32,
+			bot_verification_icon : 1656759405607383403,
+			send_paid_messages_stars : 7993685251191944924,
 		),
 	),
 );

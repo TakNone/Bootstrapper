@@ -2,7 +2,7 @@
 
 **Description** : *Channel/supergroup username was changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionChangeUsername#6a4afc38 prev_value:string new_value:string = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeUsername#6a4afc38 prev_value:string new_value:st
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeUsername(
-	prev_value : 'y89xmeJOvdoEA7hz',
-	new_value : 'Qb37MSLRNqweuCop',
+	prev_value : 'fCqPY489zSQRNxn7',
+	new_value : 'K5ejoDdvTq34WJam',
 );
 ```

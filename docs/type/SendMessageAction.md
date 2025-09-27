@@ -2,7 +2,7 @@
 
 **Description** : *User actions\. Use this to provide users with detailed info about their chat partner&#039;s actions: typing or sending attachments of all kinds*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 sendMessageTypingAction#16bf744e = SendMessageAction;
@@ -23,6 +23,7 @@ sendMessageHistoryImportAction#dbda9246 progress:int = SendMessageAction;
 sendMessageChooseStickerAction#b05ac6b1 = SendMessageAction;
 sendMessageEmojiInteraction#25972bcb emoticon:string msg_id:int interaction:DataJSON = SendMessageAction;
 sendMessageEmojiInteractionSeen#b665902e emoticon:string = SendMessageAction;
+sendMessageTextDraftAction#376d975c random_id:long text:TextWithEntities = SendMessageAction;
 ```
 
 ---
@@ -49,3 +50,4 @@ sendMessageEmojiInteractionSeen#b665902e emoticon:string = SendMessageAction;
 | [**sendMessageChooseStickerAction**](constructor/sendMessageChooseStickerAction) | User is choosing a sticker |
 | [**sendMessageEmojiInteraction**](constructor/sendMessageEmojiInteraction) | User has clicked on an animated emoji triggering a reaction, click here for more info » |
 | [**sendMessageEmojiInteractionSeen**](constructor/sendMessageEmojiInteractionSeen) | User is watching an animated emoji reaction triggered by another user, click here for more info » |
+| [**sendMessageTextDraftAction**](constructor/sendMessageTextDraftAction) | NOTHING |

@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the stories pinned on a peer&#039;s profile*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.getPinnedStories#5821a5dc peer:InputPeer offset_id:int limit:int = stories.Stories;
@@ -41,6 +41,6 @@ stories.getPinnedStories#5821a5dc peer:InputPeer offset_id:int limit:int = stori
 $storiesStories = $client->stories->getPinnedStories(
 	peer : $client->inputPeerEmpty(),
 	offset_id : 0,
-	limit : 8,
+	limit : 65,
 );
 ```

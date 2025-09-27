@@ -2,7 +2,7 @@
 
 **Description** : *Obtain info about the view count, forward count, reactions and recent viewers of one or more stories*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.getStoriesViews#28e16cc8 peer:InputPeer id:Vector<int> = stories.StoryViews;
@@ -41,6 +41,6 @@ stories.getStoriesViews#28e16cc8 peer:InputPeer id:Vector<int> = stories.StoryVi
 ```php
 $storiesStoryViews = $client->stories->getStoriesViews(
 	peer : $client->inputPeerEmpty(),
-	id : array(38),
+	id : array(24),
 );
 ```

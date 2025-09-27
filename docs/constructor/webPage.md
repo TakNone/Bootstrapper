@@ -2,7 +2,7 @@
 
 **Description** : *Webpage preview*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 webPage#e89c45b2 flags:# has_large_media:flags.13?true video_cover_photo:flags.14?true id:long url:string display_url:string hash:int type:flags.0?string site_name:flags.1?string title:flags.2?string description:flags.3?string photo:flags.4?Photo embed_url:flags.5?string embed_type:flags.5?string embed_width:flags.6?int embed_height:flags.6?int duration:flags.7?int author:flags.8?string document:flags.9?Document cached_page:flags.10?Page attributes:flags.12?Vector<WebPageAttribute> = WebPage;
@@ -50,25 +50,25 @@ webPage#e89c45b2 flags:# has_large_media:flags.13?true video_cover_photo:flags.1
 $webPage = $client->webPage(
 	has_large_media : true,
 	video_cover_photo : true,
-	id : 1638695894951620476,
+	id : 1875811885047337049,
 	url : 'https://docs.liveproto.dev',
 	display_url : 'https://docs.liveproto.dev',
 	hash : 0,
-	type : '5umLrwcpDhI6AZeG',
-	site_name : 'Zzgm1D7OUBJcvFuG',
-	title : 'coTNniC0PsXtLB25',
-	description : 'yrdapuoX8NST2DzR',
+	type : 'YiMrkeZp1I4C9lxN',
+	site_name : 'zuCIwj7AmtdaEqKL',
+	title : 'RO9yE07ghKUtiY6u',
+	description : 'Bo7ilW1JOXFpVzLN',
 	photo : $client->photoEmpty(
-		id : 555775792427258091,
+		id : -8680834843425325371,
 	),
 	embed_url : 'https://docs.liveproto.dev',
-	embed_type : 'JmysvhY2DK1gFScu',
-	embed_width : 56,
-	embed_height : 0,
-	duration : 88,
-	author : '7BrnYi6Z0WKcTS1o',
+	embed_type : 'DRnXQr8CsT04kxtV',
+	embed_width : 15,
+	embed_height : 76,
+	duration : 34,
+	author : 'vCAZaQkwMWP0sYdT',
 	document : $client->documentEmpty(
-		id : -6629559789532960428,
+		id : 9212784861693045586,
 	),
 	cached_page : $client->page(
 		part : true,
@@ -85,7 +85,7 @@ $webPage = $client->webPage(
 			),
 			$client->pageBlockAuthorDate(
 				author : $client->textEmpty(...),
-				published_date : 72,
+				published_date : 0,
 			),
 			$client->pageBlockHeader(
 				text : $client->textEmpty(...),
@@ -98,14 +98,14 @@ $webPage = $client->webPage(
 			),
 			$client->pageBlockPreformatted(
 				text : $client->textEmpty(...),
-				language : 's3Irg9z2haWxEmeo',
+				language : 'Nvl8Ax0rXdfkIYV5',
 			),
 			$client->pageBlockFooter(
 				text : $client->textEmpty(...),
 			),
 			$client->pageBlockDivider(),
 			$client->pageBlockAnchor(
-				name : 'sdQTr09CmvBRzNoc',
+				name : '14kb03xrY7nmuMhJ',
 			),
 			$client->pageBlockList(
 				items : array(
@@ -122,15 +122,15 @@ $webPage = $client->webPage(
 				caption : $client->textEmpty(...),
 			),
 			$client->pageBlockPhoto(
-				photo_id : -1676175504574254489,
+				photo_id : 5221968719201983550,
 				caption : $client->pageCaption(...),
 				url : 'https://docs.liveproto.dev',
-				webpage_id : -597946438997339767,
+				webpage_id : -5205785370080797002,
 			),
 			$client->pageBlockVideo(
 				autoplay : true,
 				loop : true,
-				video_id : 4810374278880043829,
+				video_id : -6950078632240198409,
 				caption : $client->pageCaption(...),
 			),
 			$client->pageBlockCover(
@@ -140,18 +140,18 @@ $webPage = $client->webPage(
 				full_width : true,
 				allow_scrolling : true,
 				url : 'https://docs.liveproto.dev',
-				html : 'PeJujNk0ygx6FtaC',
-				poster_photo_id : 2839815114605829385,
-				w : 99,
-				h : 61,
+				html : 'BsmwjHvWYg7GKuyt',
+				poster_photo_id : 6590650520820206432,
+				w : 49,
+				h : 31,
 				caption : $client->pageCaption(...),
 			),
 			$client->pageBlockEmbedPost(
 				url : 'https://docs.liveproto.dev',
-				webpage_id : 4451874436528493869,
-				author_photo_id : -5294717392215494922,
-				author : '2LR9Num7YQ4i8MBx',
-				date : 53,
+				webpage_id : 8757135153744463246,
+				author_photo_id : -4017222562105444765,
+				author : '5o8IAjEtmTXwFsDB',
+				date : 81,
 				blocks : array(
 					$client->pageBlockUnsupported(...),
 					$client->pageBlockTitle(...),
@@ -257,7 +257,7 @@ $webPage = $client->webPage(
 				channel : $client->chatEmpty(...),
 			),
 			$client->pageBlockAudio(
-				audio_id : -426339920606878325,
+				audio_id : -8778388086247806613,
 				caption : $client->pageCaption(...),
 			),
 			$client->pageBlockKicker(
@@ -320,22 +320,22 @@ $webPage = $client->webPage(
 			),
 			$client->pageBlockMap(
 				geo : $client->geoPointEmpty(...),
-				zoom : 42,
-				w : 94,
-				h : 29,
+				zoom : 71,
+				w : 27,
+				h : 39,
 				caption : $client->pageCaption(...),
 			),
 		),
 		photos : array(
 			$client->photoEmpty(
-				id : 1407898435810708123,
+				id : 6225746470418266523,
 			),
 			$client->photo(
 				has_stickers : true,
-				id : 7935103024510501437,
-				access_hash : -8174192968734648822,
+				id : 4525797769384623884,
+				access_hash : 8063027913285663990,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-				date : 94,
+				date : 0,
 				sizes : array(
 					$client->photoSizeEmpty(...),
 					$client->photoSize(...),
@@ -349,20 +349,20 @@ $webPage = $client->webPage(
 					$client->videoSizeEmojiMarkup(...),
 					$client->videoSizeStickerMarkup(...),
 				),
-				dc_id : 48,
+				dc_id : 97,
 			),
 		),
 		documents : array(
 			$client->documentEmpty(
-				id : -8974299865161110868,
+				id : 7101849503192838739,
 			),
 			$client->document(
-				id : -5210353370223640091,
-				access_hash : -6743447007535060819,
+				id : -1101871381294644922,
+				access_hash : -6225789887014273995,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-				date : 76,
-				mime_type : 'ihFelCr1HbBkWyR5',
-				size : -7036516153893990606,
+				date : 26,
+				mime_type : '8o9qCbxQ5wnXgrUf',
+				size : -2450494624197830123,
 				thumbs : array(
 					$client->photoSizeEmpty(...),
 					$client->photoSize(...),
@@ -376,7 +376,7 @@ $webPage = $client->webPage(
 					$client->videoSizeEmojiMarkup(...),
 					$client->videoSizeStickerMarkup(...),
 				),
-				dc_id : 64,
+				dc_id : 12,
 				attributes : array(
 					$client->documentAttributeImageSize(...),
 					$client->documentAttributeAnimated(...),
@@ -389,21 +389,21 @@ $webPage = $client->webPage(
 				),
 			),
 		),
-		views : 57,
+		views : 84,
 	),
 	attributes : array(
 		$client->webPageAttributeTheme(
 			documents : array(
 				$client->documentEmpty(
-					id : -1015270976041996803,
+					id : 5914663612679482709,
 				),
 				$client->document(
-					id : -3796679101138920542,
-					access_hash : 8661958263008715477,
+					id : -8583508144935231631,
+					access_hash : -1454373718312214050,
 					file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-					date : 88,
-					mime_type : 'GBKk1To5FD9UPCrx',
-					size : 7463793165508003471,
+					date : 85,
+					mime_type : '7wEodhxtPgYviHar',
+					size : 4097787821876289505,
 					thumbs : array(
 						$client->photoSizeEmpty(...),
 						$client->photoSize(...),
@@ -417,7 +417,7 @@ $webPage = $client->webPage(
 						$client->videoSizeEmojiMarkup(...),
 						$client->videoSizeStickerMarkup(...),
 					),
-					dc_id : 92,
+					dc_id : 64,
 					attributes : array(
 						$client->documentAttributeImageSize(...),
 						$client->documentAttributeAnimated(...),
@@ -433,19 +433,19 @@ $webPage = $client->webPage(
 			settings : $client->themeSettings(
 				message_colors_animated : true,
 				base_theme : $client->baseThemeClassic(...),
-				accent_color : 39,
-				outbox_accent_color : 61,
+				accent_color : 20,
+				outbox_accent_color : 19,
 				message_colors : array(57),
 				wallpaper : $client->wallPaper(...),
 			),
 		),
 		$client->webPageAttributeStory(
 			peer : $client->peerUser(
-				user_id : -7837829341845739592,
+				user_id : -9112000092544963620,
 			),
-			id : 12,
+			id : 11,
 			story : $client->storyItemDeleted(
-				id : 17,
+				id : 10,
 			),
 		),
 		$client->webPageAttributeStickerSet(
@@ -453,15 +453,15 @@ $webPage = $client->webPage(
 			text_color : true,
 			stickers : array(
 				$client->documentEmpty(
-					id : -4009351442211870966,
+					id : 6805823115460079413,
 				),
 				$client->document(
-					id : -8770741206915893121,
-					access_hash : 5073272983295296914,
+					id : -783858387524253153,
+					access_hash : -715545704276775179,
 					file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-					date : 99,
-					mime_type : 'HJISTQ4ZzaRX7Cpe',
-					size : -3884588504413240090,
+					date : 32,
+					mime_type : 'KrGxHAng5iDz6OCR',
+					size : -4568807826101912953,
 					thumbs : array(
 						$client->photoSizeEmpty(...),
 						$client->photoSize(...),
@@ -475,7 +475,7 @@ $webPage = $client->webPage(
 						$client->videoSizeEmojiMarkup(...),
 						$client->videoSizeStickerMarkup(...),
 					),
-					dc_id : 4,
+					dc_id : 43,
 					attributes : array(
 						$client->documentAttributeImageSize(...),
 						$client->documentAttributeAnimated(...),
@@ -497,36 +497,37 @@ $webPage = $client->webPage(
 				can_upgrade : true,
 				require_premium : true,
 				limited_per_user : true,
-				id : -7737320780013130907,
+				peer_color_available : true,
+				id : -7114255883004253154,
 				sticker : $client->documentEmpty(...),
-				stars : 9177414095858721126,
-				availability_remains : 36,
-				availability_total : 35,
-				availability_resale : 6314029767249776284,
-				convert_stars : 3431518175804059185,
-				first_sale_date : 38,
-				last_sale_date : 76,
-				upgrade_stars : -336190979626100629,
-				resell_min_stars : 2252947920492599694,
-				title : 'No0SVsD8bQclvYpI',
+				stars : 8093789483075135058,
+				availability_remains : 96,
+				availability_total : 59,
+				availability_resale : -8312817933582771766,
+				convert_stars : -1577912604871938686,
+				first_sale_date : 78,
+				last_sale_date : 99,
+				upgrade_stars : -4869063238559876221,
+				resell_min_stars : -1841242909821108741,
+				title : 'Zzad2Bm5MHyqgsGQ',
 				released_by : $client->peerUser(...),
-				per_user_total : 83,
-				per_user_remains : 41,
-				locked_until_date : 43,
+				per_user_total : 32,
+				per_user_remains : 60,
+				locked_until_date : 93,
 			),
 		),
 		$client->webPageAttributeStarGiftCollection(
 			icons : array(
 				$client->documentEmpty(
-					id : 5240610133357787447,
+					id : 1160390538080896661,
 				),
 				$client->document(
-					id : 6901835304250050237,
-					access_hash : 5574376016712111129,
+					id : -1726342771116522375,
+					access_hash : -2855282268483945014,
 					file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-					date : 69,
-					mime_type : 'BsoDa1f6K7ZHFIVx',
-					size : -4501111219140440903,
+					date : 64,
+					mime_type : 'yH8IlFhK4XZowYfr',
+					size : 5121345782116126757,
 					thumbs : array(
 						$client->photoSizeEmpty(...),
 						$client->photoSize(...),
@@ -540,7 +541,7 @@ $webPage = $client->webPage(
 						$client->videoSizeEmojiMarkup(...),
 						$client->videoSizeStickerMarkup(...),
 					),
-					dc_id : 15,
+					dc_id : 51,
 					attributes : array(
 						$client->documentAttributeImageSize(...),
 						$client->documentAttributeAnimated(...),

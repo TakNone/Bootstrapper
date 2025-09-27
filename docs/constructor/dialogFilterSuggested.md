@@ -2,7 +2,7 @@
 
 **Description** : *Suggested folders*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 dialogFilterSuggested#77744d4a filter:DialogFilter description:string = DialogFilterSuggested;
@@ -39,9 +39,9 @@ $dialogFilterSuggested = $client->dialogFilterSuggested(
 		exclude_read : true,
 		exclude_archived : true,
 		title_noanimate : true,
-		id : 24,
+		id : 88,
 		title : $client->textWithEntities(
-			text : 'CGVnLA325hkSX7sa',
+			text : 'IUhj7yGBcWHbAdvp',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -66,84 +66,84 @@ $dialogFilterSuggested = $client->dialogFilterSuggested(
 				$client->messageEntityBlockquote(...),
 			),
 		),
-		emoticon : 'ayc7jxFbKkE2ivLN',
-		color : 25,
+		emoticon : '30h42tpkrncsTz1A',
+		color : 13,
 		pinned_peers : array(
 			$client->inputPeerEmpty(),
 			$client->inputPeerSelf(),
 			$client->inputPeerChat(
-				chat_id : -7862418478589411011,
+				chat_id : 6307153840909267503,
 			),
 			$client->inputPeerUser(
-				user_id : -2124240782503509922,
-				access_hash : -4814748068291234443,
+				user_id : 5038873327464214687,
+				access_hash : -4094408985505499851,
 			),
 			$client->inputPeerChannel(
-				channel_id : 1132524558520507746,
-				access_hash : 8393869350257807227,
+				channel_id : -402302853056683642,
+				access_hash : 5874943405577834158,
 			),
 			$client->inputPeerUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 31,
-				user_id : 7400587170209910090,
+				msg_id : 79,
+				user_id : 3026220661344191370,
 			),
 			$client->inputPeerChannelFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 86,
-				channel_id : 2278711160420230553,
+				msg_id : 98,
+				channel_id : 5184365738972399753,
 			),
 		),
 		include_peers : array(
 			$client->inputPeerEmpty(),
 			$client->inputPeerSelf(),
 			$client->inputPeerChat(
-				chat_id : 1596052814542086557,
+				chat_id : -8176193038716372923,
 			),
 			$client->inputPeerUser(
-				user_id : 2162042620344871422,
-				access_hash : -4871360195906098064,
+				user_id : -2893663962000926300,
+				access_hash : 8239351503168605636,
 			),
 			$client->inputPeerChannel(
-				channel_id : -5788526534708137334,
-				access_hash : 646683934663004126,
+				channel_id : -455015247046814360,
+				access_hash : -6476001235388128863,
 			),
 			$client->inputPeerUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 72,
-				user_id : -7710340648558535133,
+				msg_id : 65,
+				user_id : -6471494241474226039,
 			),
 			$client->inputPeerChannelFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 16,
-				channel_id : 254015538485980603,
+				msg_id : 23,
+				channel_id : -2133680799727964710,
 			),
 		),
 		exclude_peers : array(
 			$client->inputPeerEmpty(),
 			$client->inputPeerSelf(),
 			$client->inputPeerChat(
-				chat_id : 6584238933341526826,
+				chat_id : -2917686369955164297,
 			),
 			$client->inputPeerUser(
-				user_id : 4485486964290138513,
-				access_hash : -7975920990454743115,
+				user_id : -642925760778430224,
+				access_hash : 7936006224848451764,
 			),
 			$client->inputPeerChannel(
-				channel_id : 7938787080102379980,
-				access_hash : -8839481597364576193,
+				channel_id : 9020976147639935900,
+				access_hash : 7133287238104637215,
 			),
 			$client->inputPeerUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 12,
-				user_id : -1988766182387733216,
+				msg_id : 75,
+				user_id : -4634389132261280500,
 			),
 			$client->inputPeerChannelFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 29,
-				channel_id : -8117884452002228616,
+				msg_id : 66,
+				channel_id : 2410077881239831568,
 			),
 		),
 	),
-	description : 'CSXmKg0sNVntdyAF',
+	description : '7x61kCDMmhzIpfL2',
 );
 ```

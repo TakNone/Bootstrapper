@@ -2,7 +2,7 @@
 
 **Description** : *How a user voted in a poll*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messagePeerVote#b6cc2d5c peer:Peer option:bytes date:int = MessagePeerVote;

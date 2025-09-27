@@ -2,7 +2,7 @@
 
 **Description** : *Delete all revoked chat invites*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.deleteRevokedExportedChatInvites#56987bd5 peer:InputPeer admin_id:InputUser = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing a block quote*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageEntityBlockquote#f1ccaaac flags:# collapsed:flags.0?true offset:int length:int = MessageEntity;
@@ -33,6 +33,6 @@ messageEntityBlockquote#f1ccaaac flags:# collapsed:flags.0?true offset:int lengt
 $messageEntity = $client->messageEntityBlockquote(
 	collapsed : true,
 	offset : 0,
-	length : 79,
+	length : 39,
 );
 ```

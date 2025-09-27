@@ -2,7 +2,7 @@
 
 **Description** : *Represents a URL media area*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 mediaAreaUrl#37381085 coordinates:MediaAreaCoordinates url:string = MediaArea;
@@ -30,12 +30,12 @@ mediaAreaUrl#37381085 coordinates:MediaAreaCoordinates url:string = MediaArea;
 ```php
 $mediaArea = $client->mediaAreaUrl(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 493713.0546875,
-		y : 1640106.7236328125,
-		w : -178453.1337890625,
-		h : -593320.69921875,
-		rotation : -2056474.259765625,
-		radius : -1456814.0400390625,
+		x : 1112225.5244140625,
+		y : 1833117.14453125,
+		w : -1133186.0771484375,
+		h : 321505.3701171875,
+		rotation : 1422394.73046875,
+		radius : 328687.3115234375,
 	),
 	url : 'https://docs.liveproto.dev',
 );

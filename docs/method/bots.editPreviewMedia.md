@@ -2,7 +2,7 @@
 
 **Description** : *Edit a main mini app preview, see here &raquo; for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 bots.editPreviewMedia#8525606f bot:InputUser lang_code:string media:InputMedia new_media:InputMedia = BotPreviewMedia;
@@ -40,7 +40,7 @@ bots.editPreviewMedia#8525606f bot:InputUser lang_code:string media:InputMedia n
 ```php
 $botPreviewMedia = $client->bots->editPreviewMedia(
 	bot : $client->inputUserEmpty(),
-	lang_code : 'nkJsOjeXlUQEc2AI',
+	lang_code : '5TeP7Qxqs1aKSi40',
 	media : $client->inputMediaEmpty(),
 	new_media : $client->inputMediaEmpty(),
 );

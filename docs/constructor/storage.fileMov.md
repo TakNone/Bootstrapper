@@ -2,7 +2,7 @@
 
 **Description** : *Quicktime video\. MIME type: video/quicktime*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 storage.fileMov#4b09ebbc = storage.FileType;

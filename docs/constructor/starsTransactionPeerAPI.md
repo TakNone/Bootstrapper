@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Star transaction used to pay for paid API usage, such as paid bot broadcasts*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 starsTransactionPeerAPI#f9677aad = StarsTransactionPeer;
