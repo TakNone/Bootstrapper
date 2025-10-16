@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a single resolved business chat deep link &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.resolvedBusinessChatLinks#9a23af21 flags:# peer:Peer message:string entities:flags.0?Vector<MessageEntity> chats:Vector<Chat> users:Vector<User> = account.ResolvedBusinessChatLinks;

@@ -2,7 +2,7 @@
 
 **Description** : *Leave a bot&#039;s affiliate program &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.editConnectedStarRefBot#e4fca4a3 flags:# revoked:flags.0?true peer:InputPeer link:string = payments.ConnectedStarRefBots;
@@ -41,6 +41,6 @@ payments.editConnectedStarRefBot#e4fca4a3 flags:# revoked:flags.0?true peer:Inpu
 $paymentsConnectedStarRefBots = $client->payments->editConnectedStarRefBot(
 	revoked : true,
 	peer : $client->inputPeerEmpty(),
-	link : 'AsLWmDqB85TVHZFr',
+	link : 'gmh7ir9BzTkARxPD',
 );
 ```

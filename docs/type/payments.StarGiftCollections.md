@@ -1,6 +1,6 @@
 # payments.StarGiftCollections
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.starGiftCollectionsNotModified#a0ba4f17 = payments.StarGiftCollections;

@@ -2,7 +2,7 @@
 
 **Description** : *Get private info associated to the password info \(recovery email, telegram passport info &amp; so on\)*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getPasswordSettings#9cd4eaf9 password:InputCheckPasswordSRP = account.PasswordSettings;

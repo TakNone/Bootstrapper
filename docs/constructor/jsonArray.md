@@ -2,7 +2,7 @@
 
 **Description** : *JSON array*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 jsonArray#f7444763 value:Vector<JSONValue> = JSONValue;
@@ -34,10 +34,10 @@ $jSONValue = $client->jsonArray(
 			value : true,
 		),
 		$client->jsonNumber(
-			value : 352332.4482421875,
+			value : 1986505.2763671875,
 		),
 		$client->jsonString(
-			value : '3bN1v45BqrXKlRyA',
+			value : 'THFn5pBvEs2w1Rab',
 		),
 		$client->jsonArray(
 			value : array(
@@ -46,10 +46,10 @@ $jSONValue = $client->jsonArray(
 					value : false,
 				),
 				$client->jsonNumber(
-					value : 411570.6650390625,
+					value : -966768.3544921875,
 				),
 				$client->jsonString(
-					value : 'zsvEcjgmCKUJiH9G',
+					value : 'x1p6BqSOrTRtXIDs',
 				),
 				$client->jsonArray(
 					value : array(
@@ -71,7 +71,7 @@ $jSONValue = $client->jsonArray(
 		$client->jsonObject(
 			value : array(
 				$client->jsonObjectValue(
-					key : 'ZF450yOKnogUaIGt',
+					key : '9FXikIjUfMml7byR',
 					value : $client->jsonNull(...),
 				),
 			),

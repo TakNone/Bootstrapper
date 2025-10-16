@@ -2,7 +2,7 @@
 
 **Description** : *A user&#039;s phone number was changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateUserPhone#5492a13 user_id:long phone:string = Update;
@@ -29,7 +29,7 @@ updateUserPhone#5492a13 user_id:long phone:string = Update;
 
 ```php
 $update = $client->updateUserPhone(
-	user_id : -8170196667053345393,
+	user_id : -4749091507036254991,
 	phone : '+1234567890',
 );
 ```

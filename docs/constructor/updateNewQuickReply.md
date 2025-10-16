@@ -2,7 +2,7 @@
 
 **Description** : *A new quick reply shortcut &raquo; was created*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateNewQuickReply#f53da717 quick_reply:QuickReply = Update;
@@ -29,10 +29,10 @@ updateNewQuickReply#f53da717 quick_reply:QuickReply = Update;
 ```php
 $update = $client->updateNewQuickReply(
 	quick_reply : $client->quickReply(
-		shortcut_id : 75,
-		shortcut : 'rUuB72kvnbDxZOWm',
-		top_message : 92,
-		count : 69,
+		shortcut_id : 58,
+		shortcut : 'W01fIQBZiKEh5w3z',
+		top_message : 83,
+		count : 53,
 	),
 );
 ```

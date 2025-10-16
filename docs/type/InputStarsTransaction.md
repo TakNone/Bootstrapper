@@ -2,7 +2,7 @@
 
 **Description** : *Used to fetch info about a Telegram Star transaction &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputStarsTransaction#206ae6d1 flags:# refund:flags.0?true id:string = InputStarsTransaction;

@@ -2,7 +2,7 @@
 
 **Description** : *A user was invited to the group*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionParticipantInvite#e31c34d8 participant:ChannelParticipant = ChannelAdminLogEventAction;
@@ -29,9 +29,9 @@ channelAdminLogEventActionParticipantInvite#e31c34d8 participant:ChannelParticip
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantInvite(
 	participant : $client->channelParticipant(
-		user_id : -9059582516409912225,
-		date : 50,
-		subscription_until_date : 2,
+		user_id : -233543567264658297,
+		date : 93,
+		subscription_until_date : 5,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Create a forum topic; requires manage\_topics rights*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.createForumTopic#f40c0224 flags:# channel:InputChannel title:string icon_color:flags.0?int icon_emoji_id:flags.3?long random_id:long send_as:flags.2?InputPeer = Updates;
@@ -47,10 +47,10 @@ channels.createForumTopic#f40c0224 flags:# channel:InputChannel title:string ico
 ```php
 $updates = $client->channels->createForumTopic(
 	channel : $client->inputChannelEmpty(),
-	title : 'fhR3mgZQxnLJ71cv',
-	icon_color : 97,
-	icon_emoji_id : -1254280144007125661,
-	random_id : -1664704149000872993,
+	title : 'JGHR6qbDhKkFUYy3',
+	icon_color : 94,
+	icon_emoji_id : -4984037495155185251,
+	random_id : 595994358139838146,
 	send_as : $client->inputPeerEmpty(),
 );
 ```

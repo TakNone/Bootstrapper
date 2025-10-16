@@ -2,7 +2,7 @@
 
 **Description** : *The Telegram Star balance of a channel/bot we own has changed &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateStarsRevenueStatus#a584b019 peer:Peer status:StarsRevenueStatus = Update;
@@ -30,23 +30,23 @@ updateStarsRevenueStatus#a584b019 peer:Peer status:StarsRevenueStatus = Update;
 ```php
 $update = $client->updateStarsRevenueStatus(
 	peer : $client->peerUser(
-		user_id : -1248832506402484016,
+		user_id : 5574723621935943975,
 	),
 	status : $client->starsRevenueStatus(
 		withdrawal_enabled : true,
 		current_balance : $client->starsAmount(
-			amount : -4820383547730702844,
-			nanos : 32,
+			amount : 5375224781990301651,
+			nanos : 29,
 		),
 		available_balance : $client->starsAmount(
-			amount : 9100266880235599042,
-			nanos : 53,
+			amount : -3630441504187774577,
+			nanos : 24,
 		),
 		overall_revenue : $client->starsAmount(
-			amount : -131707045582543491,
-			nanos : 87,
+			amount : 7363831989875349580,
+			nanos : 62,
 		),
-		next_withdrawal_at : 82,
+		next_withdrawal_at : 57,
 	),
 );
 ```

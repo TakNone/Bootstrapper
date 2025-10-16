@@ -2,7 +2,7 @@
 
 **Description** : *Button to buy a product*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 keyboardButtonBuy#afd93fbb text:string = KeyboardButton;
@@ -28,6 +28,6 @@ keyboardButtonBuy#afd93fbb text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonBuy(
-	text : '7Vu2SmvsodIwNWH6',
+	text : 'fDBuSziYmRTZFC0x',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Represents an Instant View webpage*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.webPage#fd5e12bd webpage:WebPage chats:Vector<Chat> users:Vector<User> = messages.WebPage;
@@ -31,12 +31,12 @@ messages.webPage#fd5e12bd webpage:WebPage chats:Vector<Chat> users:Vector<User> 
 ```php
 $messagesWebPage = $client->messages->webPage(
 	webpage : $client->webPageEmpty(
-		id : 5124395830736970107,
+		id : -5536135129565786072,
 		url : 'https://docs.liveproto.dev',
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 5778542613276163527,
+			id : -8773706954140595699,
 		),
 		$client->chat(
 			creator : true,
@@ -46,12 +46,12 @@ $messagesWebPage = $client->messages->webPage(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 1475284262000536771,
-			title : 'LH7YyzlFoic54Cpv',
+			id : -3542146547104825343,
+			title : 'PKqE8raGb7O1oQnY',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 1,
-			date : 94,
-			version : 62,
+			participants_count : 33,
+			date : 0,
+			version : 18,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -92,12 +92,12 @@ $messagesWebPage = $client->messages->webPage(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 66,
+				until_date : 75,
 			),
 		),
 		$client->chatForbidden(
-			id : 3935068739851992535,
-			title : 'lqdjRM7nvt3KiY52',
+			id : -1090679966055016539,
+			title : 'rQTsAdD6zS2RUCw7',
 		),
 		$client->channel(
 			creator : true,
@@ -128,17 +128,17 @@ $messagesWebPage = $client->messages->webPage(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -4865417325589209067,
-			access_hash : -4428901751451765818,
-			title : 'kYLMgUunQedjKFzt',
+			id : 4053557184945876992,
+			access_hash : 7305273935078022887,
+			title : 'rLhVan8YZ2doymeX',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 10,
+			date : 35,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'cbmnAklS8KIi3gpC',
-					reason : 'uFvTBpqOe40MrafZ',
-					text : 'rkizsLZh65EOKxPn',
+					platform : '9EcjX0OYAJwFzUf2',
+					reason : 'Jvzr8kEtPDxy7mjw',
+					text : 'hHuvbQO5c1BDmUqK',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -180,7 +180,7 @@ $messagesWebPage = $client->messages->webPage(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 94,
+				until_date : 71,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -203,9 +203,9 @@ $messagesWebPage = $client->messages->webPage(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 26,
+				until_date : 6,
 			),
-			participants_count : 38,
+			participants_count : 27,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -213,34 +213,34 @@ $messagesWebPage = $client->messages->webPage(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 4,
+			stories_max_id : 87,
 			color : $client->peerColor(
-				color : 69,
-				background_emoji_id : -8570816097924348619,
+				color : 96,
+				background_emoji_id : -3294668170653829756,
 			),
 			profile_color : $client->peerColor(
-				color : 19,
-				background_emoji_id : -1276261714221739599,
+				color : 23,
+				background_emoji_id : -4082609626606128823,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 12,
-			subscription_until_date : 77,
-			bot_verification_icon : 4996830619457751035,
-			send_paid_messages_stars : -1938708814847312633,
-			linked_monoforum_id : -3908864623274626520,
+			level : 96,
+			subscription_until_date : 49,
+			bot_verification_icon : -9211885797338322262,
+			send_paid_messages_stars : -3931434194266027119,
+			linked_monoforum_id : 1768632865276724217,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -8859226756862125493,
-			access_hash : 7466886791806797291,
-			title : 'kTbnxDAW7fRe5lsB',
-			until_date : 91,
+			id : -6125180168419472787,
+			access_hash : -1063426928022481023,
+			title : 'Y70fMrFCOw6t9qjK',
+			until_date : 6,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 1431367191404385706,
+			id : 5223054936534734226,
 		),
 		$client->user(
 			self : true,
@@ -268,24 +268,25 @@ $messagesWebPage = $client->messages->webPage(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -1944600811383732036,
-			access_hash : -2190749439694735730,
+			bot_forum_view : true,
+			id : 3576988172252393854,
+			access_hash : 6759687005066179912,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 43,
+			bot_info_version : 48,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'zNYGVqkmQTE3Aeyt',
-					reason : 'pQGi3KIxnfZue5WM',
-					text : 'BZfcyzb7KYeFuSpQ',
+					platform : '0gAsUunIMO9tTYK7',
+					reason : 'Zf02AD8BCULd3p6O',
+					text : 'tPwz9iHGgjOTMRlD',
 				),
 			),
-			bot_inline_placeholder : 'tcn6jkD8YbHfTUXF',
-			lang_code : '9ecrdzhg6PsYjHuD',
+			bot_inline_placeholder : 'oeXwq56V1MjJyN70',
+			lang_code : 'UvF5rYSWa3A1kjKP',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -294,18 +295,18 @@ $messagesWebPage = $client->messages->webPage(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 39,
+			stories_max_id : 27,
 			color : $client->peerColor(
-				color : 96,
-				background_emoji_id : -7362509350739375175,
+				color : 45,
+				background_emoji_id : -9005811397503012167,
 			),
 			profile_color : $client->peerColor(
-				color : 35,
-				background_emoji_id : 6259185199504901674,
+				color : 88,
+				background_emoji_id : 8793827321273772690,
 			),
-			bot_active_users : 86,
-			bot_verification_icon : 174198198391557198,
-			send_paid_messages_stars : 4645094600064273408,
+			bot_active_users : 54,
+			bot_verification_icon : -3518081203208503788,
+			send_paid_messages_stars : 7609804688397799146,
 		),
 	),
 );

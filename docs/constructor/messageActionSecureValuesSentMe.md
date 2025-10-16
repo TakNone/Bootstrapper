@@ -2,7 +2,7 @@
 
 **Description** : *Secure telegram passport values were received*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionSecureValuesSentMe#1b287353 values:Vector<SecureValue> credentials:SecureCredentialsEncrypted = MessageAction;
@@ -43,11 +43,11 @@ $messageAction = $client->messageActionSecureValuesSentMe(
 			translation : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : -6067993726123910983,
-					access_hash : 2617096905878234194,
-					size : 11584220701728579,
-					dc_id : 14,
-					date : 38,
+					id : 1871371131091370910,
+					access_hash : 7500293887347338512,
+					size : 5470239016720761572,
+					dc_id : 79,
+					date : 92,
 					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
@@ -55,11 +55,11 @@ $messageAction = $client->messageActionSecureValuesSentMe(
 			files : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : -7632553379184207422,
-					access_hash : -3984493942803922123,
-					size : 3886283407758063998,
-					dc_id : 9,
-					date : 82,
+					id : -6001874890166888860,
+					access_hash : 1119628804709900269,
+					size : 6890460953419753052,
+					dc_id : 68,
+					date : 85,
 					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),

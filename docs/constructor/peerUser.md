@@ -2,7 +2,7 @@
 
 **Description** : *Chat partner*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 peerUser#59511722 user_id:long = Peer;
@@ -28,6 +28,6 @@ peerUser#59511722 user_id:long = Peer;
 
 ```php
 $peer = $client->peerUser(
-	user_id : 851529584269246157,
+	user_id : -5925266757177347820,
 );
 ```

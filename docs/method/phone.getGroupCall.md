@@ -2,7 +2,7 @@
 
 **Description** : *Get info about a group call*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.getGroupCall#41845db call:InputGroupCall limit:int = phone.GroupCall;
@@ -39,9 +39,9 @@ phone.getGroupCall#41845db call:InputGroupCall limit:int = phone.GroupCall;
 ```php
 $phoneGroupCall = $client->phone->getGroupCall(
 	call : $client->inputGroupCall(
-		id : -7890582131365793430,
-		access_hash : -1682056684090930274,
+		id : -6686961738926143945,
+		access_hash : 2749565821123149550,
 	),
-	limit : 71,
+	limit : 64,
 );
 ```

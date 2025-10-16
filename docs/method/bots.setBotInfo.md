@@ -2,7 +2,7 @@
 
 **Description** : *Set localized name, about text and description of a bot \(or of the current account, if called by a bot\)*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 bots.setBotInfo#10cf3123 flags:# bot:flags.2?InputUser lang_code:string name:flags.3?string about:flags.0?string description:flags.1?string = Bool;
@@ -43,9 +43,9 @@ bots.setBotInfo#10cf3123 flags:# bot:flags.2?InputUser lang_code:string name:fla
 ```php
 $bool = $client->bots->setBotInfo(
 	bot : $client->inputUserEmpty(),
-	lang_code : 'gAELdcq4sMZlhuCj',
-	name : 'b5dFS0NJQWkvYc8r',
-	about : 'g94TOmx6MQuth2qd',
-	description : 'hJTygbx1UWFIsf6t',
+	lang_code : 'G7LyZbFqPvJztx1c',
+	name : 'N3ZgAJG9CkwpEO20',
+	about : 'X4izs65ZY8wvFdTQ',
+	description : 'I7ManhwRdmtSA8VK',
 );
 ```

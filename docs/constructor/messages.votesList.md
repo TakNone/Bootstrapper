@@ -2,7 +2,7 @@
 
 **Description** : *How users voted in a poll*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.votesList#4899484e flags:# count:int votes:Vector<MessagePeerVote> chats:Vector<Chat> users:Vector<User> next_offset:flags.0?string = messages.VotesList;
@@ -33,32 +33,32 @@ messages.votesList#4899484e flags:# count:int votes:Vector<MessagePeerVote> chat
 
 ```php
 $messagesVotesList = $client->messages->votesList(
-	count : 64,
+	count : 98,
 	votes : array(
 		$client->messagePeerVote(
 			peer : $client->peerUser(
-				user_id : -6937047135619029755,
+				user_id : 5424672823053573707,
 			),
 			option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			date : 18,
+			date : 56,
 		),
 		$client->messagePeerVoteInputOption(
 			peer : $client->peerUser(
-				user_id : -5209724374725775924,
+				user_id : -7854184348488451024,
 			),
-			date : 37,
+			date : 67,
 		),
 		$client->messagePeerVoteMultiple(
 			peer : $client->peerUser(
-				user_id : 1798281556455673862,
+				user_id : -6822337510129621858,
 			),
 			options : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-			date : 17,
+			date : 18,
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : -6390047806269661441,
+			id : -5390084218286385968,
 		),
 		$client->chat(
 			creator : true,
@@ -68,12 +68,12 @@ $messagesVotesList = $client->messages->votesList(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -4507646741397136076,
-			title : 'syLARIBUSu1rOt7N',
+			id : -394848016850199405,
+			title : 'kRMwdB2lHGmEeqJL',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 80,
-			date : 31,
-			version : 33,
+			participants_count : 67,
+			date : 24,
+			version : 35,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -114,12 +114,12 @@ $messagesVotesList = $client->messages->votesList(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 79,
+				until_date : 26,
 			),
 		),
 		$client->chatForbidden(
-			id : -68645079260229590,
-			title : 'Us1iImXcONCrvxM4',
+			id : -8572072030389366767,
+			title : 'KMi5pkrRTh98OSot',
 		),
 		$client->channel(
 			creator : true,
@@ -150,17 +150,17 @@ $messagesVotesList = $client->messages->votesList(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 7520304607244929446,
-			access_hash : -6545960469065095846,
-			title : '6SMP2WFtLl5m9bRq',
+			id : 6865151522696934443,
+			access_hash : 4108416348588724128,
+			title : 'HOefZWJrTnty9hLi',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 26,
+			date : 1,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'UP75ILMnR9T8FqWx',
-					reason : 'WjtYsTCvmIXAG9de',
-					text : 'AMLmv9fcYuD86WHs',
+					platform : '1ARXL8KN3HzypqWQ',
+					reason : 'mBYoLj9WKekvxq0b',
+					text : 'TNWE5x1Ct9i8b6lR',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -202,7 +202,7 @@ $messagesVotesList = $client->messages->votesList(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 21,
+				until_date : 26,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -227,7 +227,7 @@ $messagesVotesList = $client->messages->votesList(
 				send_plain : true,
 				until_date : 75,
 			),
-			participants_count : 99,
+			participants_count : 54,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -235,34 +235,34 @@ $messagesVotesList = $client->messages->votesList(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 26,
+			stories_max_id : 29,
 			color : $client->peerColor(
-				color : 13,
-				background_emoji_id : -837319683313274467,
+				color : 27,
+				background_emoji_id : 550898693273950481,
 			),
 			profile_color : $client->peerColor(
-				color : 93,
-				background_emoji_id : -5053877873213475430,
+				color : 36,
+				background_emoji_id : 969240745985315615,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 14,
-			subscription_until_date : 55,
-			bot_verification_icon : 638321069000660967,
-			send_paid_messages_stars : 4389674381494881447,
-			linked_monoforum_id : -4414556258873533034,
+			level : 89,
+			subscription_until_date : 90,
+			bot_verification_icon : -1709169174927224172,
+			send_paid_messages_stars : -4964456969107949799,
+			linked_monoforum_id : 1632727628636100765,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 5395745354714117061,
-			access_hash : 2278357541291202134,
-			title : 'znGDpPyCit71UauF',
-			until_date : 77,
+			id : -7549098826091288128,
+			access_hash : 1181941238255538959,
+			title : 'DdF5CBsSTybcl8Uv',
+			until_date : 51,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -1980285112735284420,
+			id : -2979721205551701205,
 		),
 		$client->user(
 			self : true,
@@ -290,24 +290,25 @@ $messagesVotesList = $client->messages->votesList(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -4377682650162672066,
-			access_hash : 7903184088492679675,
+			bot_forum_view : true,
+			id : -2428824460392014805,
+			access_hash : -2166938521605497576,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 45,
+			bot_info_version : 42,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'jH4wTi2ZWs0d3Rnp',
-					reason : '1jfsEWopuNx3ZDvz',
-					text : 'PGsLM36nxQdciBOC',
+					platform : '6wgTjG4dNqV2Ulk1',
+					reason : '2G5fnHmgSCyAsB1i',
+					text : 'HI283Q4nVJBFSzbU',
 				),
 			),
-			bot_inline_placeholder : 'UeaXk6tu42I5QxjN',
-			lang_code : 'mP2FolakVD1UQKsZ',
+			bot_inline_placeholder : 'IVGgqsKBEzrpfLkU',
+			lang_code : 'H6ReWNvV1DYbgfn0',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -316,20 +317,20 @@ $messagesVotesList = $client->messages->votesList(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 54,
+			stories_max_id : 59,
 			color : $client->peerColor(
-				color : 87,
-				background_emoji_id : 1468918390384260634,
+				color : 52,
+				background_emoji_id : 8930358017696466502,
 			),
 			profile_color : $client->peerColor(
-				color : 47,
-				background_emoji_id : -1118632121621747409,
+				color : 80,
+				background_emoji_id : -6143444119852905514,
 			),
-			bot_active_users : 92,
-			bot_verification_icon : -7351339429883818396,
-			send_paid_messages_stars : 2089832626990238287,
+			bot_active_users : 96,
+			bot_verification_icon : -4545015204414557025,
+			send_paid_messages_stars : -1732154851819207769,
 		),
 	),
-	next_offset : 'VD4nx2mZKhXiHW6e',
+	next_offset : 'o8iUHzT9p2mYaM6c',
 );
 ```

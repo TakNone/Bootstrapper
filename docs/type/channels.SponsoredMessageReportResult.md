@@ -2,7 +2,7 @@
 
 **Description** : *Status of the method call used to report a sponsored message &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.sponsoredMessageReportResultChooseOption#846f9e42 title:string options:Vector<SponsoredMessageReportOption> = channels.SponsoredMessageReportResult;

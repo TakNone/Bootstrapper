@@ -2,7 +2,7 @@
 
 **Description** : *Privacy rules*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.privacyRules#50a04e45 rules:Vector<PrivacyRule> chats:Vector<Chat> users:Vector<User> = account.PrivacyRules;

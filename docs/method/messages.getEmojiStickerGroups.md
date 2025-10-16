@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of emoji categories, to be used when choosing a sticker*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getEmojiStickerGroups#1dd840f5 hash:int = messages.EmojiGroups;

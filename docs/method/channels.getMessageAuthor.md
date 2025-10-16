@@ -1,6 +1,6 @@
 # channels.getMessageAuthor
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.getMessageAuthor#ece2a0e6 channel:InputChannel id:int = User;
@@ -28,6 +28,6 @@ channels.getMessageAuthor#ece2a0e6 channel:InputChannel id:int = User;
 ```php
 $user = $client->channels->getMessageAuthor(
 	channel : $client->inputChannelEmpty(),
-	id : 92,
+	id : 88,
 );
 ```

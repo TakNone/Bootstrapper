@@ -2,7 +2,7 @@
 
 **Description** : *Create a business chat deep link &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.createBusinessChatLink#8851e68e link:InputBusinessChatLink = BusinessChatLink;
@@ -38,100 +38,100 @@ account.createBusinessChatLink#8851e68e link:InputBusinessChatLink = BusinessCha
 ```php
 $businessChatLink = $client->account->createBusinessChatLink(
 	link : $client->inputBusinessChatLink(
-		message : 'M7zsrgo4jWfPtBOx',
+		message : 'wZ8jYoUbGnzSxBmh',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 45,
+				length : 80,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 60,
+				length : 53,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 90,
+				length : 2,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 12,
+				length : 89,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 79,
+				length : 53,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 1,
+				length : 55,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 49,
+				length : 47,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 44,
+				length : 77,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 60,
+				length : 72,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 35,
-				language : 'Qtjs3o8mzl5keX12',
+				length : 61,
+				language : 'LMIWVjQKhdi4Hzq3',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 58,
+				length : 85,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 64,
-				user_id : 6903340362407400144,
+				length : 27,
+				user_id : 2088466121119238817,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 51,
+				length : 79,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 76,
+				length : 19,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 45,
+				length : 100,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 98,
+				length : 29,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 41,
+				length : 1,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 43,
+				length : 1,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 48,
+				length : 11,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 99,
-				document_id : 106739264352135118,
+				length : 36,
+				document_id : 7464503774347647269,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 34,
+				length : 32,
 			),
 		),
-		title : 'nYKWh2fHV9Mwj63B',
+		title : 'FHYNW3OpPLoj40XZ',
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Full list of active \(or active and hidden\) stories*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.allStoriesNotModified#1158fe3e flags:# state:string stealth_mode:StoriesStealthMode = stories.AllStories;

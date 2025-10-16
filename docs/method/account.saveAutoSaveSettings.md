@@ -2,7 +2,7 @@
 
 **Description** : *Modify autosave settings*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.saveAutoSaveSettings#d69b8361 flags:# users:flags.0?true chats:flags.1?true broadcasts:flags.2?true peer:flags.3?InputPeer settings:AutoSaveSettings = Bool;
@@ -48,7 +48,7 @@ $bool = $client->account->saveAutoSaveSettings(
 	settings : $client->autoSaveSettings(
 		photos : true,
 		videos : true,
-		video_max_size : 4786876082273435060,
+		video_max_size : -2756175880124424955,
 	),
 );
 ```

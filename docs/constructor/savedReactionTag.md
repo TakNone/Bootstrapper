@@ -2,7 +2,7 @@
 
 **Description** : *Info about a saved message reaction tag &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 savedReactionTag#cb6ff828 flags:# reaction:Reaction title:flags.0?string count:int = SavedReactionTag;
@@ -32,7 +32,7 @@ savedReactionTag#cb6ff828 flags:# reaction:Reaction title:flags.0?string count:i
 ```php
 $savedReactionTag = $client->savedReactionTag(
 	reaction : $client->reactionEmpty(),
-	title : 'xQsHGSudB496Vn5F',
-	count : 96,
+	title : 'OdAms9Ff5x4HPSIM',
+	count : 65,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Interaction counters for a story*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 postInteractionCountersStory#8a480e27 story_id:int views:int forwards:int reactions:int = PostInteractionCounters;
@@ -31,9 +31,9 @@ postInteractionCountersStory#8a480e27 story_id:int views:int forwards:int reacti
 
 ```php
 $postInteractionCounters = $client->postInteractionCountersStory(
-	story_id : 22,
-	views : 62,
-	forwards : 35,
-	reactions : 65,
+	story_id : 34,
+	views : 21,
+	forwards : 51,
+	reactions : 69,
 );
 ```

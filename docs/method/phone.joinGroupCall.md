@@ -2,7 +2,7 @@
 
 **Description** : *Join a group call*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.joinGroupCall#8fb53057 flags:# muted:flags.0?true video_stopped:flags.2?true call:InputGroupCall join_as:InputPeer invite_hash:flags.1?string public_key:flags.3?int256 block:flags.3?bytes params:DataJSON = Updates;
@@ -51,15 +51,15 @@ $updates = $client->phone->joinGroupCall(
 	muted : true,
 	video_stopped : true,
 	call : $client->inputGroupCall(
-		id : -8291792238633197889,
-		access_hash : -4006495899038091141,
+		id : 3034411932869041908,
+		access_hash : 1504402296319494058,
 	),
 	join_as : $client->inputPeerEmpty(),
-	invite_hash : 'uWzjwHZGnCdVkq7N',
-	public_key : '77948144615357496062940308605202609814938558582944994016572177114902930069187',
+	invite_hash : 'i9xdoRDJk370w8hN',
+	public_key : '25297565471840276414600879351169595826678457695705754131486008132855712727787',
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	params : $client->dataJSON(
-		data : 'FsOAxEwbnVrcgKIe',
+		data : 'ewDua7HPlI4Av3M5',
 	),
 );
 ```

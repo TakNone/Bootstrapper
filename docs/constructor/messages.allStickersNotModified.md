@@ -2,7 +2,7 @@
 
 **Description** : *Info about all installed stickers hasn&#039;t changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.allStickersNotModified#e86602c3 = messages.AllStickers;

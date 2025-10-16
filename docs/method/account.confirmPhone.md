@@ -2,7 +2,7 @@
 
 **Description** : *Confirm a phone number to cancel account deletion, for more info click here &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.confirmPhone#5f2178c3 phone_code_hash:string phone_code:string = Bool;

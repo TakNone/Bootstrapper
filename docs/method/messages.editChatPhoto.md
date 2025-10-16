@@ -2,7 +2,7 @@
 
 **Description** : *Changes chat photo and sends a service message on it*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.editChatPhoto#35ddd674 chat_id:long photo:InputChatPhoto = Updates;
@@ -43,7 +43,7 @@ messages.editChatPhoto#35ddd674 chat_id:long photo:InputChatPhoto = Updates;
 
 ```php
 $updates = $client->messages->editChatPhoto(
-	chat_id : -4492334629877661582,
+	chat_id : 6485243666804015862,
 	photo : $client->inputChatPhotoEmpty(),
 );
 ```

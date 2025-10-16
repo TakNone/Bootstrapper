@@ -2,7 +2,7 @@
 
 **Description** : *List of stories*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.stories#63c3dd0a flags:# count:int stories:Vector<StoryItem> pinned_to_top:flags.0?Vector<int> chats:Vector<Chat> users:Vector<User> = stories.Stories;

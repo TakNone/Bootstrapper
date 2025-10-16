@@ -2,7 +2,7 @@
 
 **Description** : *User is uploading a voice message*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 sendMessageUploadAudioAction#f351d7ab progress:int = SendMessageAction;
@@ -28,6 +28,6 @@ sendMessageUploadAudioAction#f351d7ab progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageUploadAudioAction(
-	progress : 59,
+	progress : 30,
 );
 ```

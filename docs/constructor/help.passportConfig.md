@@ -2,7 +2,7 @@
 
 **Description** : *Telegram passport configuration*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 help.passportConfig#a098d6af hash:int countries_langs:DataJSON = help.PassportConfig;
@@ -31,7 +31,7 @@ help.passportConfig#a098d6af hash:int countries_langs:DataJSON = help.PassportCo
 $helpPassportConfig = $client->help->passportConfig(
 	hash : 0,
 	countries_langs : $client->dataJSON(
-		data : 'pWaqR3L8oHJBDUhm',
+		data : 'J2uZsWKe5lF6CQUy',
 	),
 );
 ```

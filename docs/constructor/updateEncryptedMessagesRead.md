@@ -2,7 +2,7 @@
 
 **Description** : *Communication history in an encrypted chat was marked as read*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateEncryptedMessagesRead#38fe25b7 chat_id:int max_date:int date:int = Update;
@@ -30,8 +30,8 @@ updateEncryptedMessagesRead#38fe25b7 chat_id:int max_date:int date:int = Update;
 
 ```php
 $update = $client->updateEncryptedMessagesRead(
-	chat_id : 1,
-	max_date : 92,
-	date : 87,
+	chat_id : 83,
+	max_date : 14,
+	date : 33,
 );
 ```

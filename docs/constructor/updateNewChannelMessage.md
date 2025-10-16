@@ -2,7 +2,7 @@
 
 **Description** : *A new message was sent in a channel/supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateNewChannelMessage#62ba04d9 message:Message pts:int pts_count:int = Update;
@@ -31,12 +31,12 @@ updateNewChannelMessage#62ba04d9 message:Message pts:int pts_count:int = Update;
 ```php
 $update = $client->updateNewChannelMessage(
 	message : $client->messageEmpty(
-		id : 2,
+		id : 46,
 		peer_id : $client->peerUser(
-			user_id : -6206837086860184750,
+			user_id : -17396915534345432,
 		),
 	),
-	pts : 48,
-	pts_count : 45,
+	pts : 59,
+	pts_count : 15,
 );
 ```

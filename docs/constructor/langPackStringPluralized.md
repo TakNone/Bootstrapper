@@ -2,7 +2,7 @@
 
 **Description** : *A language pack string which has different forms based on the number of some object it mentions\. See https://www\.unicode\.org/cldr/charts/latest/supplemental/language\_plural\_rules\.html for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 langPackStringPluralized#6c47ac9f flags:# key:string zero_value:flags.0?string one_value:flags.1?string two_value:flags.2?string few_value:flags.3?string many_value:flags.4?string other_value:string = LangPackString;
@@ -35,12 +35,12 @@ langPackStringPluralized#6c47ac9f flags:# key:string zero_value:flags.0?string o
 
 ```php
 $langPackString = $client->langPackStringPluralized(
-	key : 'cUCVXxe8iv7ZRuJ5',
-	zero_value : 'ZINFJPctK2ilhk8x',
-	one_value : 'BJ6bTWpamH72QrNo',
-	two_value : '92Bc4Le5xUtYZ7zQ',
-	few_value : 'QNoBSpwrlkI2fHTA',
-	many_value : 'FcLqP3185TmfdeKD',
-	other_value : '7pNb5wBiar0nULYF',
+	key : 'ph9x2k1HwIiUG7bX',
+	zero_value : 'iEGSTJW0ZutehmgU',
+	one_value : 'tLCGjN0QeigrA4XF',
+	two_value : 'rBQe83vZS7qJc5Ub',
+	few_value : 'uCNa2gEmr96wVxD0',
+	many_value : 'EdmeXK5pRDQaNZ4v',
+	other_value : 'MWDFgf0NwGq4XEVI',
 );
 ```

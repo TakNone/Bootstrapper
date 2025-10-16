@@ -1,6 +1,6 @@
 # PendingSuggestion
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 pendingSuggestion#e7e82e12 suggestion:string title:TextWithEntities description:TextWithEntities url:string = PendingSuggestion;

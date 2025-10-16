@@ -2,7 +2,7 @@
 
 **Description** : *Image description*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 photoSize#75c78e60 type:string w:int h:int size:int = PhotoSize;
@@ -31,9 +31,9 @@ photoSize#75c78e60 type:string w:int h:int size:int = PhotoSize;
 
 ```php
 $photoSize = $client->photoSize(
-	type : 'vpS7lXkDL6gC9rKH',
-	w : 50,
-	h : 51,
-	size : 25,
+	type : 'f3DsKG7EvM4CQ9It',
+	w : 66,
+	h : 83,
+	size : 89,
 );
 ```

@@ -1,6 +1,6 @@
 # payments.getUniqueStarGiftValueInfo
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.getUniqueStarGiftValueInfo#4365af6b slug:string = payments.UniqueStarGiftValueInfo;
@@ -26,6 +26,6 @@ payments.getUniqueStarGiftValueInfo#4365af6b slug:string = payments.UniqueStarGi
 
 ```php
 $paymentsUniqueStarGiftValueInfo = $client->payments->getUniqueStarGiftValueInfo(
-	slug : '4mfsNncXwz0yJB1F',
+	slug : 'yKzu4grFU5jtwMVp',
 );
 ```

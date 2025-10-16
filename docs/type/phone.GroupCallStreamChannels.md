@@ -2,7 +2,7 @@
 
 **Description** : *Info about RTMP streams in a group call or livestream*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.groupCallStreamChannels#d0e482b2 channels:Vector<GroupCallStreamChannel> = phone.GroupCallStreamChannels;

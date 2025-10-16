@@ -2,7 +2,7 @@
 
 **Description** : *A list of suggested mini apps with available affiliate programs*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.suggestedStarRefBots#b4d5d859 flags:# count:int suggested_bots:Vector<StarRefProgram> users:Vector<User> next_offset:flags.0?string = payments.SuggestedStarRefBots;
@@ -32,22 +32,22 @@ payments.suggestedStarRefBots#b4d5d859 flags:# count:int suggested_bots:Vector<S
 
 ```php
 $paymentsSuggestedStarRefBots = $client->payments->suggestedStarRefBots(
-	count : 92,
+	count : 66,
 	suggested_bots : array(
 		$client->starRefProgram(
-			bot_id : -4467483462454521747,
-			commission_permille : 18,
-			duration_months : 25,
-			end_date : 19,
+			bot_id : 7684008740980438448,
+			commission_permille : 76,
+			duration_months : 79,
+			end_date : 35,
 			daily_revenue_per_user : $client->starsAmount(
-				amount : -7557030179111603353,
-				nanos : 70,
+				amount : -7888463690879032288,
+				nanos : 29,
 			),
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 6844711406065716480,
+			id : 7542062720832575885,
 		),
 		$client->user(
 			self : true,
@@ -75,24 +75,25 @@ $paymentsSuggestedStarRefBots = $client->payments->suggestedStarRefBots(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -5498615842796095737,
-			access_hash : 3631409020818807784,
+			bot_forum_view : true,
+			id : 168846934986619205,
+			access_hash : -8083331491837381670,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 27,
+			bot_info_version : 83,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'Uh7v9x4XgOfcIdJF',
-					reason : 'ECRKJjdB8Y9LbMfI',
-					text : 'IvJx2Ob6Uf3zdh7g',
+					platform : 'jQwAS8bCsVOYet63',
+					reason : 'iANoDJsUrKxOQe18',
+					text : 'K429Nvzch6eBOdmF',
 				),
 			),
-			bot_inline_placeholder : 'osmqdf6vFAaLz8Dh',
-			lang_code : '964GYxqn0F1I7LkJ',
+			bot_inline_placeholder : 'Lsxo02v9ARZyHF7S',
+			lang_code : 'AqrtO2P3Rb4puiBk',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -101,20 +102,20 @@ $paymentsSuggestedStarRefBots = $client->payments->suggestedStarRefBots(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 21,
+			stories_max_id : 94,
 			color : $client->peerColor(
-				color : 70,
-				background_emoji_id : 7988588057149893638,
+				color : 57,
+				background_emoji_id : -6301713272704916154,
 			),
 			profile_color : $client->peerColor(
-				color : 27,
-				background_emoji_id : 6470098697991140466,
+				color : 40,
+				background_emoji_id : 3597252799579973773,
 			),
-			bot_active_users : 48,
-			bot_verification_icon : 6731867972146982071,
-			send_paid_messages_stars : 8020323826559786268,
+			bot_active_users : 81,
+			bot_verification_icon : 2822839210951803291,
+			send_paid_messages_stars : 3184000242158246545,
 		),
 	),
-	next_offset : 'nq5S8ygFNoHEPDUK',
+	next_offset : 'L1dS47AwB8vNPRF9',
 );
 ```

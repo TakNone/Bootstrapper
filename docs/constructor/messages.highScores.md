@@ -2,7 +2,7 @@
 
 **Description** : *Highscores in a game*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.highScores#9a3bfd99 scores:Vector<HighScore> users:Vector<User> = messages.HighScores;
@@ -31,14 +31,14 @@ messages.highScores#9a3bfd99 scores:Vector<HighScore> users:Vector<User> = messa
 $messagesHighScores = $client->messages->highScores(
 	scores : array(
 		$client->highScore(
-			pos : 36,
-			user_id : -8561598664688971269,
-			score : 8,
+			pos : 3,
+			user_id : -7391977178597146306,
+			score : 80,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -8361425094026397979,
+			id : -5362549005937678121,
 		),
 		$client->user(
 			self : true,
@@ -66,24 +66,25 @@ $messagesHighScores = $client->messages->highScores(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -2166965134336276268,
-			access_hash : -646179604440299044,
+			bot_forum_view : true,
+			id : -812729167407105437,
+			access_hash : 930099482865054077,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 73,
+			bot_info_version : 100,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'g6puMI3rUevRcm90',
-					reason : 'Na9QTM5ozd13YXmR',
-					text : 'oZOPJKzcNE0LjAQ8',
+					platform : 'lGWOeTK9y6rE1fZ7',
+					reason : 'gLTadk1EO7BpPNlb',
+					text : 'JqsUj69eYCIg3Sci',
 				),
 			),
-			bot_inline_placeholder : 'BLfbtOlEN3IT7o6z',
-			lang_code : 'fT8syRWrIJ6M3ecu',
+			bot_inline_placeholder : 'Iwvb1pQXoAk08eU5',
+			lang_code : 'aZvxS2HQU1RTXNyM',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -92,18 +93,18 @@ $messagesHighScores = $client->messages->highScores(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 86,
+			stories_max_id : 17,
 			color : $client->peerColor(
-				color : 11,
-				background_emoji_id : 1940140881954808836,
+				color : 45,
+				background_emoji_id : 7111954669325084234,
 			),
 			profile_color : $client->peerColor(
-				color : 79,
-				background_emoji_id : 5731288271331765256,
+				color : 100,
+				background_emoji_id : 5328079894845213299,
 			),
-			bot_active_users : 46,
-			bot_verification_icon : 8471210556292111355,
-			send_paid_messages_stars : 85746351508334925,
+			bot_active_users : 30,
+			bot_verification_icon : 1784273523504256852,
+			send_paid_messages_stars : -4942095359875839861,
 		),
 	),
 );

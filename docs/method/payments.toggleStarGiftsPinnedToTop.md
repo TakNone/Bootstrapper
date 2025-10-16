@@ -1,6 +1,6 @@
 # payments.toggleStarGiftsPinnedToTop
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.toggleStarGiftsPinnedToTop#1513e7b0 peer:InputPeer stargift:Vector<InputSavedStarGift> = Bool;
@@ -30,14 +30,14 @@ $bool = $client->payments->toggleStarGiftsPinnedToTop(
 	peer : $client->inputPeerEmpty(),
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 46,
+			msg_id : 85,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->inputPeerEmpty(),
-			saved_id : 3138465543732382048,
+			saved_id : 5301843816987670595,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'KfAygNn3c45oizEm',
+			slug : 'UV5isM1WHxDlIE8h',
 		),
 	),
 );

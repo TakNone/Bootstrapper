@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on user authorization*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 auth.authorization#2ea2c0d4 flags:# setup_password_required:flags.1?true otherwise_relogin_days:flags.1?int tmp_sessions:flags.0?int future_auth_token:flags.2?bytes user:User = auth.Authorization;

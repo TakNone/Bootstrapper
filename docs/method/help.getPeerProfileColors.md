@@ -2,7 +2,7 @@
 
 **Description** : *Get the set of accent color palettes &raquo; that can be used in profile page backgrounds*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 help.getPeerProfileColors#abcfa9fd hash:int = help.PeerColors;

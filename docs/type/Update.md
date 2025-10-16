@@ -2,13 +2,13 @@
 
 **Description** : *Object contains info on events occurred*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
 updateMessageID#4e90bfd6 id:int random_id:long = Update;
 updateDeleteMessages#a20db0e5 messages:Vector<int> pts:int pts_count:int = Update;
-updateUserTyping#c01e857f user_id:long action:SendMessageAction = Update;
+updateUserTyping#2a17bf5c flags:# user_id:long top_msg_id:flags.0?int action:SendMessageAction = Update;
 updateChatUserTyping#83487af0 chat_id:long from_id:Peer action:SendMessageAction = Update;
 updateChatParticipants#7761198 participants:ChatParticipants = Update;
 updateUserStatus#e5bdf8de user_id:long status:UserStatus = Update;
@@ -25,7 +25,7 @@ updateNotifySettings#bec268ef peer:NotifyPeer notify_settings:PeerNotifySettings
 updateServiceNotification#ebe46819 flags:# popup:flags.0?true invert_media:flags.2?true inbox_date:flags.1?int type:string message:string media:MessageMedia entities:Vector<MessageEntity> = Update;
 updatePrivacy#ee3b272a key:PrivacyKey rules:Vector<PrivacyRule> = Update;
 updateUserPhone#5492a13 user_id:long phone:string = Update;
-updateReadHistoryInbox#9c974fdf flags:# folder_id:flags.0?int peer:Peer max_id:int still_unread_count:int pts:int pts_count:int = Update;
+updateReadHistoryInbox#9e84bc99 flags:# folder_id:flags.0?int peer:Peer top_msg_id:flags.1?int max_id:int still_unread_count:int pts:int pts_count:int = Update;
 updateReadHistoryOutbox#2f2f21bf peer:Peer max_id:int pts:int pts_count:int = Update;
 updateWebPage#7f891213 webpage:WebPage pts:int pts_count:int = Update;
 updateReadMessagesContents#f8227181 flags:# messages:Vector<int> pts:int pts_count:int date:flags.0?int = Update;
@@ -150,8 +150,12 @@ updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:
 updateReadMonoForumInbox#77b0e372 channel_id:long saved_peer_id:Peer read_max_id:int = Update;
 updateReadMonoForumOutbox#a4a79376 channel_id:long saved_peer_id:Peer read_max_id:int = Update;
 updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_id:long saved_peer_id:Peer = Update;
+updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?int peer:Peer topic_id:int = Update;
+updateGroupCallMessage#78c314e0 call:InputGroupCall from_id:Peer random_id:long message:TextWithEntities = Update;
 updateTranscribeAudio#88617090 flags:# final:flags.0?true transcription_id:long text:string = Update;
 updateBotSubscriptionExpire#a8ae3eb1 user_id:long payload:string until_date:int qts:int = Update;
+updateGroupCallEncryptedMessage#c957a766 call:InputGroupCall from_id:Peer encrypted_message:bytes = Update;
+updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = Update;
 ```
 
 ---
@@ -305,5 +309,9 @@ updateBotSubscriptionExpire#a8ae3eb1 user_id:long payload:string until_date:int 
 | [**updateReadMonoForumInbox**](constructor/updateReadMonoForumInbox) | NOTHING |
 | [**updateReadMonoForumOutbox**](constructor/updateReadMonoForumOutbox) | NOTHING |
 | [**updateMonoForumNoPaidException**](constructor/updateMonoForumNoPaidException) | NOTHING |
+| [**updatePinnedForumTopic**](constructor/updatePinnedForumTopic) | NOTHING |
+| [**updateGroupCallMessage**](constructor/updateGroupCallMessage) | NOTHING |
 | [**updateTranscribeAudio**](constructor/updateTranscribeAudio) | NOTHING |
 | [**updateBotSubscriptionExpire**](constructor/updateBotSubscriptionExpire) | NOTHING |
+| [**updateGroupCallEncryptedMessage**](constructor/updateGroupCallEncryptedMessage) | NOTHING |
+| [**updatePinnedForumTopics**](constructor/updatePinnedForumTopics) | NOTHING |

@@ -2,7 +2,7 @@
 
 **Description** : *Object describes the file type*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 storage.fileUnknown#aa963b05 = storage.FileType;

@@ -2,7 +2,7 @@
 
 **Description** : *Report for divulgation of personal details*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputReportReasonPersonalDetails#9ec7863d = ReportReason;

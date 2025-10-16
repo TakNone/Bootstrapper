@@ -2,7 +2,7 @@
 
 **Description** : *Archived stickers*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.archivedStickers#4fcba9c8 count:int sets:Vector<StickerSetCovered> = messages.ArchivedStickers;

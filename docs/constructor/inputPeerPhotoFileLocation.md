@@ -2,7 +2,7 @@
 
 **Description** : *Location of profile photo of channel/group/supergroup/user*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputPeerPhotoFileLocation#37257e99 flags:# big:flags.0?true peer:InputPeer photo_id:long = InputFileLocation;
@@ -33,6 +33,6 @@ inputPeerPhotoFileLocation#37257e99 flags:# big:flags.0?true peer:InputPeer phot
 $inputFileLocation = $client->inputPeerPhotoFileLocation(
 	big : true,
 	peer : $client->inputPeerEmpty(),
-	photo_id : -5883327190104725813,
+	photo_id : 4164097421276266061,
 );
 ```

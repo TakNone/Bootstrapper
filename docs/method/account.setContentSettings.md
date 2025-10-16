@@ -2,7 +2,7 @@
 
 **Description** : *Set sensitive content settings \(for viewing or hiding NSFW content\)*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.setContentSettings#b574b16b flags:# sensitive_enabled:flags.0?true = Bool;

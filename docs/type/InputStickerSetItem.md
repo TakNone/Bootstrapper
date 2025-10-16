@@ -2,7 +2,7 @@
 
 **Description** : *Sticker*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputStickerSetItem#32da9e9c flags:# document:InputDocument emoji:string mask_coords:flags.0?MaskCoords keywords:flags.1?string = InputStickerSetItem;

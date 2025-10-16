@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about business chat deep links &raquo; created by the current account*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.businessChatLinks#ec43a2d1 links:Vector<BusinessChatLink> chats:Vector<Chat> users:Vector<User> = account.BusinessChatLinks;
@@ -32,107 +32,107 @@ account.businessChatLinks#ec43a2d1 links:Vector<BusinessChatLink> chats:Vector<C
 $accountBusinessChatLinks = $client->account->businessChatLinks(
 	links : array(
 		$client->businessChatLink(
-			link : 'gACqBXQwJzpn31Sb',
-			message : 'XtxgrKi81Qul6W7B',
+			link : '4KMVLIB32FfjQYcz',
+			message : 'D6AdhqElNK7mPbt1',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 15,
+					length : 49,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 28,
+					length : 62,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 22,
+					length : 72,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 5,
+					length : 72,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 5,
+					length : 21,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 28,
+					length : 38,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 14,
+					length : 69,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 98,
+					length : 95,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 2,
+					length : 68,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 48,
-					language : 'ASY6LgNJkRVeby21',
+					length : 0,
+					language : '26ZHBEzi4NGO7Jv1',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 54,
+					length : 85,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 75,
-					user_id : 8844615982334743917,
+					length : 27,
+					user_id : -130202226055903349,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 2,
+					length : 15,
 					user_id : $client->inputUserEmpty(...),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 57,
+					length : 5,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 82,
+					length : 9,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 26,
+					length : 76,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 34,
+					length : 6,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 100,
+					length : 33,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 28,
+					length : 74,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 51,
-					document_id : -8714824628512073553,
+					length : 79,
+					document_id : 2512733668877455887,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 72,
+					length : 92,
 				),
 			),
-			title : 'lwh63eAEGITPk9ZW',
-			views : 65,
+			title : '7CgYRctBPdKHFmoQ',
+			views : 60,
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 6073056252981869725,
+			id : 505434682374340332,
 		),
 		$client->chat(
 			creator : true,
@@ -142,12 +142,12 @@ $accountBusinessChatLinks = $client->account->businessChatLinks(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 1483270209985025735,
-			title : '5DGol2qksCrRPtHX',
+			id : -5768124572572547364,
+			title : 'aOxEN04rC7GbztTf',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 18,
-			date : 13,
-			version : 3,
+			participants_count : 42,
+			date : 71,
+			version : 16,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -188,12 +188,12 @@ $accountBusinessChatLinks = $client->account->businessChatLinks(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 62,
+				until_date : 74,
 			),
 		),
 		$client->chatForbidden(
-			id : -4035392568401917510,
-			title : 'im8TC2W7yVhqlxZs',
+			id : 7053299312448136955,
+			title : 'rB8TN2PkqJiLzld7',
 		),
 		$client->channel(
 			creator : true,
@@ -224,17 +224,17 @@ $accountBusinessChatLinks = $client->account->businessChatLinks(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -566940663291590434,
-			access_hash : 6970376499469434474,
-			title : 'kehYRLZ8ATJ75PnO',
+			id : -5835407967124024339,
+			access_hash : -939845258808612881,
+			title : 'ZajrCY3hdM2KtmF4',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 69,
+			date : 23,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '3KdWvSBDOlcFPIe6',
-					reason : 'oeLqTHNZIEAFcdmQ',
-					text : 'HBTd0x6K3uY2mtiW',
+					platform : 'wtOXgT8H06rPBu27',
+					reason : '6Jh701QHg3srflY8',
+					text : 'eOSNJ4FRZfmTkpXu',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -276,7 +276,7 @@ $accountBusinessChatLinks = $client->account->businessChatLinks(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 29,
+				until_date : 100,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -299,9 +299,9 @@ $accountBusinessChatLinks = $client->account->businessChatLinks(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 79,
+				until_date : 40,
 			),
-			participants_count : 61,
+			participants_count : 48,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -309,34 +309,34 @@ $accountBusinessChatLinks = $client->account->businessChatLinks(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 65,
+			stories_max_id : 39,
 			color : $client->peerColor(
-				color : 81,
-				background_emoji_id : -921726384682025632,
+				color : 63,
+				background_emoji_id : -4418051295815138723,
 			),
 			profile_color : $client->peerColor(
-				color : 81,
-				background_emoji_id : -8717487221810404476,
+				color : 77,
+				background_emoji_id : -363056419213537653,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 12,
-			subscription_until_date : 62,
-			bot_verification_icon : -6443525448835941093,
-			send_paid_messages_stars : 7861869261006190406,
-			linked_monoforum_id : 2560311393264894715,
+			level : 90,
+			subscription_until_date : 100,
+			bot_verification_icon : -4990877532590276856,
+			send_paid_messages_stars : -5556541572886757350,
+			linked_monoforum_id : -738187779176612020,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -2372359039954131680,
-			access_hash : 6164065108367693545,
-			title : '5plxj7woTAOIb4ZD',
-			until_date : 20,
+			id : -4124874309798978433,
+			access_hash : 217510837996956786,
+			title : 'G6M3fhUSQe2R94Hn',
+			until_date : 85,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -2076150066594846348,
+			id : -4539823992796263835,
 		),
 		$client->user(
 			self : true,
@@ -364,24 +364,25 @@ $accountBusinessChatLinks = $client->account->businessChatLinks(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : -8460503120791858387,
-			access_hash : -7285638424376774014,
+			bot_forum_view : true,
+			id : -3670057457830502170,
+			access_hash : 4559358991962092512,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 72,
+			bot_info_version : 79,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '57IVhbNtm4Z0vrjU',
-					reason : 'P0GvmWoC6RpkBKXN',
-					text : '0knfs8xXlCiAPmpa',
+					platform : 'qKe3785PhViEzfUB',
+					reason : 'Qvh72xgTlnC9A1Ed',
+					text : '3LHIDjOZCMzQu4o9',
 				),
 			),
-			bot_inline_placeholder : 'QSJZPL7IF8Et0uoU',
-			lang_code : 'z3B8UkmQcYy7Ci2x',
+			bot_inline_placeholder : 'ONEDUAscnXu9aJR7',
+			lang_code : 'DH39sobU1Ywl6KpO',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -390,18 +391,18 @@ $accountBusinessChatLinks = $client->account->businessChatLinks(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 100,
+			stories_max_id : 43,
 			color : $client->peerColor(
-				color : 68,
-				background_emoji_id : -5338479391559010032,
+				color : 28,
+				background_emoji_id : -8590080064396990342,
 			),
 			profile_color : $client->peerColor(
-				color : 1,
-				background_emoji_id : 577051257331585806,
+				color : 38,
+				background_emoji_id : 121711750506611270,
 			),
-			bot_active_users : 0,
-			bot_verification_icon : -6583091840073672520,
-			send_paid_messages_stars : -8361921403655492830,
+			bot_active_users : 8,
+			bot_verification_icon : 4893910541644622822,
+			send_paid_messages_stars : 1459854236213002484,
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Get scheduled messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getScheduledMessages#bdbb0464 peer:InputPeer id:Vector<int> = messages.Messages;
@@ -39,6 +39,6 @@ messages.getScheduledMessages#bdbb0464 peer:InputPeer id:Vector<int> = messages.
 ```php
 $messagesMessages = $client->messages->getScheduledMessages(
 	peer : $client->inputPeerEmpty(),
-	id : array(88),
+	id : array(4),
 );
 ```

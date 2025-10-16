@@ -2,7 +2,7 @@
 
 **Description** : *Reply to a story*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputReplyToStory#5881323a peer:InputPeer story_id:int = InputReplyTo;
@@ -30,6 +30,6 @@ inputReplyToStory#5881323a peer:InputPeer story_id:int = InputReplyTo;
 ```php
 $inputReplyTo = $client->inputReplyToStory(
 	peer : $client->inputPeerEmpty(),
-	story_id : 70,
+	story_id : 10,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Describes a message effect &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 availableEffect#93c3e27e flags:# premium_required:flags.2?true id:long emoticon:string static_icon_id:flags.0?long effect_sticker_id:long effect_animation_id:flags.1?long = AvailableEffect;

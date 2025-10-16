@@ -2,7 +2,7 @@
 
 **Description** : *A set of users was invited to the group call*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionInviteToGroupCall#502f92f7 call:InputGroupCall users:Vector<long> = MessageAction;
@@ -30,9 +30,9 @@ messageActionInviteToGroupCall#502f92f7 call:InputGroupCall users:Vector<long> =
 ```php
 $messageAction = $client->messageActionInviteToGroupCall(
 	call : $client->inputGroupCall(
-		id : -5277447936685294988,
-		access_hash : 7220201649572686324,
+		id : -232254055825208014,
+		access_hash : -2254940791506824751,
 	),
-	users : array(7819893255733163930),
+	users : array(622078142736361984),
 );
 ```

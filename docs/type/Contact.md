@@ -2,7 +2,7 @@
 
 **Description** : *A contact of the current user*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 contact#145ade0b user_id:long mutual:Bool = Contact;

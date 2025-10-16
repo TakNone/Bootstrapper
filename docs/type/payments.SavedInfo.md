@@ -2,7 +2,7 @@
 
 **Description** : *Saved payment info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.savedInfo#fb8fe43c flags:# has_saved_credentials:flags.1?true saved_info:flags.0?PaymentRequestedInfo = payments.SavedInfo;

@@ -2,7 +2,7 @@
 
 **Description** : *Update the accent color and background custom emoji &raquo; of the current account*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.updateColor#7cefa15d flags:# for_profile:flags.1?true color:flags.2?int background_emoji_id:flags.0?long = Bool;
@@ -41,7 +41,7 @@ account.updateColor#7cefa15d flags:# for_profile:flags.1?true color:flags.2?int 
 ```php
 $bool = $client->account->updateColor(
 	for_profile : true,
-	color : 15,
-	background_emoji_id : -9211764828876361458,
+	color : 26,
+	background_emoji_id : -6593943280540677192,
 );
 ```

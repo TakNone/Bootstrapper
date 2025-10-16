@@ -2,7 +2,7 @@
 
 **Description** : *Get unread messages where we were mentioned*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getUnreadMentions#f107e790 flags:# peer:InputPeer top_msg_id:flags.0?int offset_id:int add_offset:int limit:int max_id:int min_id:int = messages.Messages;
@@ -47,11 +47,11 @@ messages.getUnreadMentions#f107e790 flags:# peer:InputPeer top_msg_id:flags.0?in
 ```php
 $messagesMessages = $client->messages->getUnreadMentions(
 	peer : $client->inputPeerEmpty(),
-	top_msg_id : 80,
+	top_msg_id : 14,
 	offset_id : 0,
-	add_offset : 70,
-	limit : 86,
-	max_id : 4,
-	min_id : 45,
+	add_offset : 42,
+	limit : 84,
+	max_id : 16,
+	min_id : 82,
 );
 ```

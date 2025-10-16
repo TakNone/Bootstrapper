@@ -2,7 +2,7 @@
 
 **Description** : *Returns a list of available wallpapers*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getWallPapers#7967d36 hash:long = account.WallPapers;

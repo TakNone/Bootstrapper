@@ -2,7 +2,7 @@
 
 **Description** : *Message without file attachments sent to an encrypted file*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.sentEncryptedMessage#560f8935 date:int = messages.SentEncryptedMessage;
@@ -28,6 +28,6 @@ messages.sentEncryptedMessage#560f8935 date:int = messages.SentEncryptedMessage;
 
 ```php
 $messagesSentEncryptedMessage = $client->messages->sentEncryptedMessage(
-	date : 63,
+	date : 78,
 );
 ```

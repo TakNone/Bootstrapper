@@ -2,7 +2,7 @@
 
 **Description** : *A certain peer has reposted the story*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 storyViewPublicRepost#bd74cf49 flags:# blocked:flags.0?true blocked_my_stories_from:flags.1?true peer_id:Peer story:StoryItem = StoryView;
@@ -35,10 +35,10 @@ $storyView = $client->storyViewPublicRepost(
 	blocked : true,
 	blocked_my_stories_from : true,
 	peer_id : $client->peerUser(
-		user_id : 4725075201745996291,
+		user_id : 7862912568561138654,
 	),
 	story : $client->storyItemDeleted(
-		id : 10,
+		id : 14,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Stories found using global story search &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.foundStories#e2de7737 flags:# count:int stories:Vector<FoundStory> next_offset:flags.0?string chats:Vector<Chat> users:Vector<User> = stories.FoundStories;

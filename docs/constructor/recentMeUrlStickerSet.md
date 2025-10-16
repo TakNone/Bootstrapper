@@ -2,7 +2,7 @@
 
 **Description** : *Recent t\.me stickerset installation URL*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 recentMeUrlStickerSet#bc0a57dc url:string set:StickerSetCovered = RecentMeUrl;
@@ -39,11 +39,11 @@ $recentMeUrl = $client->recentMeUrlStickerSet(
 			text_color : true,
 			channel_emoji_status : true,
 			creator : true,
-			installed_date : 35,
-			id : -1382845522798377434,
-			access_hash : 4433278831092868915,
-			title : 'VZFR4wekyB1jnWIo',
-			short_name : 'OBiCyNAEWxPwDtl2',
+			installed_date : 0,
+			id : 5301261960501302061,
+			access_hash : 1198616055166803247,
+			title : 'MY98aRLODE37qTVQ',
+			short_name : 'pV0eFYB8XKZ267jk',
 			thumbs : array(
 				$client->photoSizeEmpty(...),
 				$client->photoSize(...),
@@ -52,14 +52,14 @@ $recentMeUrl = $client->recentMeUrlStickerSet(
 				$client->photoSizeProgressive(...),
 				$client->photoPathSize(...),
 			),
-			thumb_dc_id : 38,
-			thumb_version : 75,
-			thumb_document_id : -5231457310295530326,
-			count : 33,
+			thumb_dc_id : 72,
+			thumb_version : 79,
+			thumb_document_id : -2181826495843364878,
+			count : 96,
 			hash : 0,
 		),
 		cover : $client->documentEmpty(
-			id : 1374103907821608268,
+			id : -3370470330045030755,
 		),
 	),
 );

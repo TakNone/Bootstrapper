@@ -2,7 +2,7 @@
 
 **Description** : *Sets forwarded encrypted file for attachment*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputEncryptedFile#5a17b5e5 id:long access_hash:long = InputEncryptedFile;
@@ -29,7 +29,7 @@ inputEncryptedFile#5a17b5e5 id:long access_hash:long = InputEncryptedFile;
 
 ```php
 $inputEncryptedFile = $client->inputEncryptedFile(
-	id : 3822970526572208470,
-	access_hash : 6929125437739614834,
+	id : 6093011327281026188,
+	access_hash : 5267481100797798293,
 );
 ```

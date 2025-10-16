@@ -2,7 +2,7 @@
 
 **Description** : *A game*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputMediaGame#d33f43f3 id:InputGame = InputMedia;
@@ -29,8 +29,8 @@ inputMediaGame#d33f43f3 id:InputGame = InputMedia;
 ```php
 $inputMedia = $client->inputMediaGame(
 	id : $client->inputGameID(
-		id : -2198845766047863594,
-		access_hash : 2960927774153150335,
+		id : -7053520236039658435,
+		access_hash : -2025458367261014343,
 	),
 );
 ```

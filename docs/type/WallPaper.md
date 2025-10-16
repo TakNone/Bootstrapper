@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on a wallpaper*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 wallPaper#a437c3ed id:long flags:# creator:flags.0?true default:flags.1?true pattern:flags.3?true dark:flags.4?true access_hash:long slug:string document:Document settings:flags.2?WallPaperSettings = WallPaper;

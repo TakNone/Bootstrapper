@@ -2,7 +2,7 @@
 
 **Description** : *The difference is too long, and the specified state must be used to refetch updates*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updates.differenceTooLong#4afe8f6d pts:int = updates.Difference;
@@ -28,6 +28,6 @@ updates.differenceTooLong#4afe8f6d pts:int = updates.Difference;
 
 ```php
 $updatesDifference = $client->updates->differenceTooLong(
-	pts : 69,
+	pts : 7,
 );
 ```

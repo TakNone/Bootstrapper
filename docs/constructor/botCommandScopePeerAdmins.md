@@ -2,7 +2,7 @@
 
 **Description** : *The specified bot commands will be valid for all admins of the specified group or supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 botCommandScopePeerAdmins#3fd863d1 peer:InputPeer = BotCommandScope;

@@ -2,7 +2,7 @@
 
 **Description** : *Get forum topics by their ID*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.getForumTopicsByID#b0831eb9 channel:InputChannel topics:Vector<int> = messages.ForumTopics;
@@ -40,6 +40,6 @@ channels.getForumTopicsByID#b0831eb9 channel:InputChannel topics:Vector<int> = m
 ```php
 $messagesForumTopics = $client->channels->getForumTopicsByID(
 	channel : $client->inputChannelEmpty(),
-	topics : array(7),
+	topics : array(70),
 );
 ```

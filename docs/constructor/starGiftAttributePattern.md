@@ -1,6 +1,6 @@
 # starGiftAttributePattern
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 starGiftAttributePattern#13acff19 name:string document:Document rarity_permille:int = StarGiftAttribute;
@@ -28,10 +28,10 @@ starGiftAttributePattern#13acff19 name:string document:Document rarity_permille:
 
 ```php
 $starGiftAttribute = $client->starGiftAttributePattern(
-	name : '1ML34goUb0qkhizY',
+	name : 'rufQ0TqYFdHWzjnX',
 	document : $client->documentEmpty(
-		id : -5631048311321836057,
+		id : -6421808513892144319,
 	),
-	rarity_permille : 73,
+	rarity_permille : 30,
 );
 ```

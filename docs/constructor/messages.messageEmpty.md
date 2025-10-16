@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor\. Can be used, for example, in case when an action did not require to create a service message*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.messageEmpty#3f4e0648 = messages.MessageEmpty;

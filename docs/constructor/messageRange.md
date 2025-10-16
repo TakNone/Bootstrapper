@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a range of chat messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageRange#ae30253 min_id:int max_id:int = MessageRange;
@@ -29,7 +29,7 @@ messageRange#ae30253 min_id:int max_id:int = MessageRange;
 
 ```php
 $messageRange = $client->messageRange(
-	min_id : 57,
-	max_id : 3,
+	min_id : 90,
+	max_id : 76,
 );
 ```

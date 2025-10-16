@@ -2,7 +2,7 @@
 
 **Description** : *Notify the other user in a private chat that a screenshot of the chat was taken*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.sendScreenshotNotification#a1405817 peer:InputPeer reply_to:InputReplyTo random_id:long = Updates;
@@ -44,95 +44,95 @@ messages.sendScreenshotNotification#a1405817 peer:InputPeer reply_to:InputReplyT
 $updates = $client->messages->sendScreenshotNotification(
 	peer : $client->inputPeerEmpty(),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 84,
-		top_msg_id : 86,
+		reply_to_msg_id : 39,
+		top_msg_id : 0,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'gB3nJuxYS5MadEiQ',
+		quote_text : 'QtZkCjVRlIopSJOz',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 81,
+				length : 32,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 61,
+				length : 90,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 68,
+				length : 0,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 9,
+				length : 57,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 29,
+				length : 41,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 40,
+				length : 9,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 6,
+				length : 1,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 34,
+				length : 16,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 17,
+				length : 10,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 11,
-				language : '12cX7j3NqOgrLKtd',
+				length : 10,
+				language : 'pic7QmgOCIDYW4nN',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 67,
+				length : 35,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 25,
-				user_id : -311499485680989966,
+				length : 86,
+				user_id : -273359294487885085,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 51,
+				length : 21,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 90,
+				length : 36,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 56,
+				length : 76,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 46,
+				length : 100,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 24,
+				length : 62,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 33,
+				length : 52,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 87,
+				length : 65,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 95,
-				document_id : -1178714365296096916,
+				length : 48,
+				document_id : -1054599923568403737,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
@@ -140,10 +140,10 @@ $updates = $client->messages->sendScreenshotNotification(
 				length : 51,
 			),
 		),
-		quote_offset : 18,
+		quote_offset : 92,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 30,
+		todo_item_id : 100,
 	),
-	random_id : -5115042509339464794,
+	random_id : -9143304785100771984,
 );
 ```

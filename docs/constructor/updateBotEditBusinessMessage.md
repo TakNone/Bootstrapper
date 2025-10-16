@@ -2,7 +2,7 @@
 
 **Description** : *A message was edited in a connected business chat &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateBotEditBusinessMessage#7df587c flags:# connection_id:string message:Message reply_to_message:flags.0?Message qts:int = Update;
@@ -32,19 +32,19 @@ updateBotEditBusinessMessage#7df587c flags:# connection_id:string message:Messag
 
 ```php
 $update = $client->updateBotEditBusinessMessage(
-	connection_id : '9cNwEqXT7YCBs20O',
+	connection_id : 'AFWr68gp4j3otIx2',
 	message : $client->messageEmpty(
-		id : 26,
+		id : 40,
 		peer_id : $client->peerUser(
-			user_id : -8713923562030205017,
+			user_id : -3901398866086549897,
 		),
 	),
 	reply_to_message : $client->messageEmpty(
-		id : 23,
+		id : 89,
 		peer_id : $client->peerUser(
-			user_id : -4002375254409894156,
+			user_id : 5859631048697233479,
 		),
 	),
-	qts : 83,
+	qts : 17,
 );
 ```

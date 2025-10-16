@@ -2,7 +2,7 @@
 
 **Description** : *Pause or unpause a specific chat, temporarily disconnecting it from all business bots &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.toggleConnectedBotPaused#646e1097 peer:InputPeer paused:Bool = Bool;

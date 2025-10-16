@@ -2,7 +2,7 @@
 
 **Description** : *Set an emoji status*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.updateEmojiStatus#fbd3de6b emoji_status:EmojiStatus = Bool;

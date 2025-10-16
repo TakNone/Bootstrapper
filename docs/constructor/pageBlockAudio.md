@@ -2,7 +2,7 @@
 
 **Description** : *Audio*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 pageBlockAudio#804361ea audio_id:long caption:PageCaption = PageBlock;
@@ -29,7 +29,7 @@ pageBlockAudio#804361ea audio_id:long caption:PageCaption = PageBlock;
 
 ```php
 $pageBlock = $client->pageBlockAudio(
-	audio_id : -1648898939345386205,
+	audio_id : 3680923112737019840,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

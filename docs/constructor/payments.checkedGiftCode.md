@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a Telegram Premium giftcode link*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.checkedGiftCode#284a1096 flags:# via_giveaway:flags.2?true from_id:flags.4?Peer giveaway_msg_id:flags.3?int to_id:flags.0?long date:int months:int used_date:flags.1?int chats:Vector<Chat> users:Vector<User> = payments.CheckedGiftCode;
@@ -39,16 +39,16 @@ payments.checkedGiftCode#284a1096 flags:# via_giveaway:flags.2?true from_id:flag
 $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 	via_giveaway : true,
 	from_id : $client->peerUser(
-		user_id : 1090161999723575715,
+		user_id : 8871802546247877736,
 	),
-	giveaway_msg_id : 29,
-	to_id : -6734021401002579245,
-	date : 44,
-	months : 73,
-	used_date : 0,
+	giveaway_msg_id : 34,
+	to_id : -6687277190038892357,
+	date : 66,
+	months : 61,
+	used_date : 29,
 	chats : array(
 		$client->chatEmpty(
-			id : 4466746345926862365,
+			id : -8565602393982119384,
 		),
 		$client->chat(
 			creator : true,
@@ -58,12 +58,12 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 6492261591360288247,
-			title : 'a1V7ALGgSnuHrRpI',
+			id : -6907087285754862165,
+			title : 'KkfaZBxCEXYOqu03',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 30,
-			date : 31,
-			version : 7,
+			participants_count : 91,
+			date : 28,
+			version : 6,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -108,8 +108,8 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 			),
 		),
 		$client->chatForbidden(
-			id : -7011302220608679007,
-			title : 'ySTxwOrK8pc50MjQ',
+			id : -8726190398486886072,
+			title : 'OnFwAboDg6vf5KPY',
 		),
 		$client->channel(
 			creator : true,
@@ -140,17 +140,17 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 5174195627874064637,
-			access_hash : 4738669496076501442,
-			title : 'NBgP8apt6bVo0TFq',
+			id : 6583928346189888396,
+			access_hash : -3731890305977285194,
+			title : 'DPjow5KE4f2YMtSz',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 82,
+			date : 78,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'vlY9HUKwz1L25m7s',
-					reason : 'AntoumbTdas8pYEq',
-					text : 'S9xXMifvlJsADRtz',
+					platform : 'Sa7pJ6d1MitGEchD',
+					reason : 'o2VWJRHGl6f9LkwY',
+					text : '7m0vgGpkX8oFSrON',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -192,7 +192,7 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 32,
+				until_date : 53,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -215,9 +215,9 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 7,
+				until_date : 15,
 			),
-			participants_count : 42,
+			participants_count : 72,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -225,34 +225,34 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 32,
+			stories_max_id : 3,
 			color : $client->peerColor(
-				color : 38,
-				background_emoji_id : 921294209492629814,
+				color : 87,
+				background_emoji_id : -3171148193573343341,
 			),
 			profile_color : $client->peerColor(
-				color : 59,
-				background_emoji_id : -4586710593018218972,
+				color : 6,
+				background_emoji_id : -6480105953227403258,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 86,
-			subscription_until_date : 18,
-			bot_verification_icon : 1521788591566369552,
-			send_paid_messages_stars : -3866511363539415840,
-			linked_monoforum_id : 2382461865647323529,
+			level : 75,
+			subscription_until_date : 47,
+			bot_verification_icon : -484194358458485674,
+			send_paid_messages_stars : 2327991846470197352,
+			linked_monoforum_id : 6660040487984874474,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -7075673833378423270,
-			access_hash : -8982123993212822882,
-			title : 'tFBk381yDIiJsmLg',
-			until_date : 39,
+			id : -7934112289310087459,
+			access_hash : -7191979434440309887,
+			title : 'cgkKfsr6y37JmIlC',
+			until_date : 16,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 1154412647852496683,
+			id : -575103126251622254,
 		),
 		$client->user(
 			self : true,
@@ -280,24 +280,25 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 3555460721244285943,
-			access_hash : 1186915058792954013,
+			bot_forum_view : true,
+			id : 8323438313441983407,
+			access_hash : 7038336708507326529,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 59,
+			bot_info_version : 73,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'eZxJtwBHRp3fuP6L',
-					reason : 'DozB0Q7jYF3XwckO',
-					text : 'X71zxc0oDv4f5EN8',
+					platform : 'tzMEkDpsjZSdyivR',
+					reason : 'J01bIHoi6ZAdXfDB',
+					text : 'Hu6ONhI27SDdQAZ5',
 				),
 			),
-			bot_inline_placeholder : 'aglZFA2RHMknU5PW',
-			lang_code : 'j5gz3epP6hXaoENb',
+			bot_inline_placeholder : 'n8mILaNARCJq5YG6',
+			lang_code : '9PYLNIHuSnORdjlQ',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -306,18 +307,18 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 56,
+			stories_max_id : 52,
 			color : $client->peerColor(
-				color : 97,
-				background_emoji_id : 1785614432400048397,
+				color : 8,
+				background_emoji_id : -8317425266571207576,
 			),
 			profile_color : $client->peerColor(
-				color : 72,
-				background_emoji_id : -2015999058981914591,
+				color : 66,
+				background_emoji_id : 1678063772538968766,
 			),
-			bot_active_users : 80,
-			bot_verification_icon : -4802075912237994464,
-			send_paid_messages_stars : 4691184516093625255,
+			bot_active_users : 16,
+			bot_verification_icon : 941815553777496307,
+			send_paid_messages_stars : -3201688621216062972,
 		),
 	),
 );

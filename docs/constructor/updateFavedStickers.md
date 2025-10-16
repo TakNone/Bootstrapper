@@ -2,7 +2,7 @@
 
 **Description** : *The list of favorited stickers was changed, the client should call messages\.getFavedStickers to refetch the new list*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateFavedStickers#e511996d = Update;

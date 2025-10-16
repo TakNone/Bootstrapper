@@ -2,7 +2,7 @@
 
 **Description** : *Accept the new terms of service*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 help.acceptTermsOfService#ee72f79a id:DataJSON = Bool;
@@ -37,7 +37,7 @@ help.acceptTermsOfService#ee72f79a id:DataJSON = Bool;
 ```php
 $bool = $client->help->acceptTermsOfService(
 	id : $client->dataJSON(
-		data : 'QYDXymTq5riu3wWa',
+		data : '6I9j8D2ubRaH1vw7',
 	),
 );
 ```

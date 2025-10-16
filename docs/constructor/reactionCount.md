@@ -2,7 +2,7 @@
 
 **Description** : *Reactions*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 reactionCount#a3d1cb80 flags:# chosen_order:flags.0?int reaction:Reaction count:int = ReactionCount;
@@ -31,8 +31,8 @@ reactionCount#a3d1cb80 flags:# chosen_order:flags.0?int reaction:Reaction count:
 
 ```php
 $reactionCount = $client->reactionCount(
-	chosen_order : 46,
+	chosen_order : 20,
 	reaction : $client->reactionEmpty(),
-	count : 22,
+	count : 27,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Enable/disable top peers*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 contacts.toggleTopPeers#8514bdda enabled:Bool = Bool;
@@ -28,6 +28,6 @@ contacts.toggleTopPeers#8514bdda enabled:Bool = Bool;
 
 ```php
 $bool = $client->contacts->toggleTopPeers(
-	enabled : true,
+	enabled : false,
 );
 ```

@@ -1,6 +1,6 @@
 # inputSavedStarGiftChat
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputSavedStarGiftChat#f101aa7f peer:InputPeer saved_id:long = InputSavedStarGift;
@@ -28,6 +28,6 @@ inputSavedStarGiftChat#f101aa7f peer:InputPeer saved_id:long = InputSavedStarGif
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftChat(
 	peer : $client->inputPeerEmpty(),
-	saved_id : -785848151110597907,
+	saved_id : -7532218673836101942,
 );
 ```

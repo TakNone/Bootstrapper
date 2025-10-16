@@ -2,7 +2,7 @@
 
 **Description** : *ID of a specific chat import session, click here for more info &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.historyImport#1662af0b id:long = messages.HistoryImport;
@@ -28,6 +28,6 @@ messages.historyImport#1662af0b id:long = messages.HistoryImport;
 
 ```php
 $messagesHistoryImport = $client->messages->historyImport(
-	id : 265077473448412196,
+	id : -5656965952014005016,
 );
 ```

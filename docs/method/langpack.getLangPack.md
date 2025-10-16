@@ -2,7 +2,7 @@
 
 **Description** : *Get localization pack strings*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 langpack.getLangPack#f2f2330a lang_pack:string lang_code:string = LangPackDifference;
@@ -39,7 +39,7 @@ langpack.getLangPack#f2f2330a lang_pack:string lang_code:string = LangPackDiffer
 
 ```php
 $langPackDifference = $client->langpack->getLangPack(
-	lang_pack : 'krLpnCYE3aQgm2Gd',
-	lang_code : 'SkdD6JgmZy8RNwWn',
+	lang_pack : 'Bfd6i7jqwT1MgXp0',
+	lang_code : '2ZkBA4Mw6vtEIqLo',
 );
 ```

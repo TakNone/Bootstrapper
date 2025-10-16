@@ -2,7 +2,7 @@
 
 **Description** : *Set the default suggested admin rights for bots being added as admins to channels, see here for more info on how to handle them &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 bots.setBotBroadcastDefaultAdminRights#788464e1 admin_rights:ChatAdminRights = Bool;

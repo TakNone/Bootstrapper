@@ -2,7 +2,7 @@
 
 **Description** : *Get MTProxy/Public Service Announcement information*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 help.getPromoData#c0977421 = help.PromoData;

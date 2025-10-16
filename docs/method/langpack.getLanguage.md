@@ -2,7 +2,7 @@
 
 **Description** : *Get information about a language in a localization pack*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 langpack.getLanguage#6a596502 lang_pack:string lang_code:string = LangPackLanguage;
@@ -38,7 +38,7 @@ langpack.getLanguage#6a596502 lang_pack:string lang_code:string = LangPackLangua
 
 ```php
 $langPackLanguage = $client->langpack->getLanguage(
-	lang_pack : 'VDXuAUbI5zc3LT0k',
-	lang_code : 'k5ElFQKfdAwW6RJ1',
+	lang_pack : 'Y0keQxwgrc9JT7WN',
+	lang_code : 'w5MtGUVpkaFONRIf',
 );
 ```

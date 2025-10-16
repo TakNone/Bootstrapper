@@ -2,7 +2,7 @@
 
 **Description** : *A user is typing in a supergroup, channel or message thread*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateChannelUserTyping#8c88c923 flags:# channel_id:long top_msg_id:flags.0?int from_id:Peer action:SendMessageAction = Update;
@@ -32,10 +32,10 @@ updateChannelUserTyping#8c88c923 flags:# channel_id:long top_msg_id:flags.0?int 
 
 ```php
 $update = $client->updateChannelUserTyping(
-	channel_id : -1129271137415811178,
-	top_msg_id : 7,
+	channel_id : -6770574294533803461,
+	top_msg_id : 91,
 	from_id : $client->peerUser(
-		user_id : -922869580543293275,
+		user_id : 9154258209592217944,
 	),
 	action : $client->sendMessageTypingAction(),
 );

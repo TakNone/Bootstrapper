@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of sponsored messages for a peer, see here &raquo; for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int = messages.SponsoredMessages;
@@ -31,6 +31,6 @@ messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int
 ```php
 $messagesSponsoredMessages = $client->messages->getSponsoredMessages(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 89,
+	msg_id : 44,
 );
 ```

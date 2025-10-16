@@ -1,6 +1,6 @@
 # starsRating
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 starsRating#1b0e4f07 flags:# level:int current_level_stars:long stars:long next_level_stars:flags.0?long = StarsRating;
@@ -30,9 +30,9 @@ starsRating#1b0e4f07 flags:# level:int current_level_stars:long stars:long next_
 
 ```php
 $starsRating = $client->starsRating(
-	level : 50,
-	current_level_stars : -1296133852411536016,
-	stars : -1945190375347097596,
-	next_level_stars : -4393056436002171852,
+	level : 61,
+	current_level_stars : -2501431556830033710,
+	stars : 5380883975470839545,
+	next_level_stars : -8761963853176183150,
 );
 ```

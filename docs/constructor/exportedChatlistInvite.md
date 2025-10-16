@@ -2,7 +2,7 @@
 
 **Description** : *Exported chat folder deep link &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 exportedChatlistInvite#c5181ac flags:# revoked:flags.0?true title:string url:string peers:Vector<Peer> = ExportedChatlistInvite;
@@ -33,17 +33,17 @@ exportedChatlistInvite#c5181ac flags:# revoked:flags.0?true title:string url:str
 ```php
 $exportedChatlistInvite = $client->exportedChatlistInvite(
 	revoked : true,
-	title : 'gUlaFCZ5wPm4o2hq',
+	title : '7KTIWpDRjJ1lYZ4r',
 	url : 'https://docs.liveproto.dev',
 	peers : array(
 		$client->peerUser(
-			user_id : 2439693182891240270,
+			user_id : -2666613783340800819,
 		),
 		$client->peerChat(
-			chat_id : 7408040677615971959,
+			chat_id : -8557682356167344768,
 		),
 		$client->peerChannel(
-			channel_id : 8541998630091747087,
+			channel_id : -3268024736499125939,
 		),
 	),
 );

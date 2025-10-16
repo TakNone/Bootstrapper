@@ -2,7 +2,7 @@
 
 **Description** : *Info about a group call participant*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 groupCallParticipant#eba636fe flags:# muted:flags.0?true left:flags.1?true can_self_unmute:flags.2?true just_joined:flags.4?true versioned:flags.5?true min:flags.8?true muted_by_you:flags.9?true volume_by_admin:flags.10?true self:flags.12?true video_joined:flags.15?true peer:Peer date:int active_date:flags.3?int source:int volume:flags.7?int about:flags.11?string raise_hand_rating:flags.13?long video:flags.6?GroupCallParticipantVideo presentation:flags.14?GroupCallParticipantVideo = GroupCallParticipant;
@@ -58,35 +58,35 @@ $groupCallParticipant = $client->groupCallParticipant(
 	self : true,
 	video_joined : true,
 	peer : $client->peerUser(
-		user_id : 4646319965449505549,
+		user_id : 1017614705694671279,
 	),
-	date : 19,
-	active_date : 48,
-	source : 33,
-	volume : 60,
-	about : 'WzqF1D4vYZyhBl6X',
-	raise_hand_rating : -6083198390744739280,
+	date : 3,
+	active_date : 87,
+	source : 62,
+	volume : 49,
+	about : 'xLZr3EkmFTYyn1Oi',
+	raise_hand_rating : -3147220886032553779,
 	video : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'YNBIUc8uTth79bXW',
+		endpoint : 'XbKjUDPEI4fdyJgh',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'dN1WT4RjoSIchtOe',
-				sources : array(31),
+				semantics : 'YOp95Wkj2gUMEnqo',
+				sources : array(96),
 			),
 		),
-		audio_source : 50,
+		audio_source : 49,
 	),
 	presentation : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'OMWs3gUL8BRGYtui',
+		endpoint : 'O3VRGPh0vw246kFr',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'pEDhMTaqbYAsLcV6',
-				sources : array(52),
+				semantics : '0WxPAOgLm5Za8Ypc',
+				sources : array(76),
 			),
 		),
-		audio_source : 75,
+		audio_source : 82,
 	),
 );
 ```

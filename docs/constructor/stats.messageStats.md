@@ -2,7 +2,7 @@
 
 **Description** : *Message statistics*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stats.messageStats#7fe91c14 views_graph:StatsGraph reactions_by_emotion_graph:StatsGraph = stats.MessageStats;
@@ -30,10 +30,10 @@ stats.messageStats#7fe91c14 views_graph:StatsGraph reactions_by_emotion_graph:St
 ```php
 $statsMessageStats = $client->stats->messageStats(
 	views_graph : $client->statsGraphAsync(
-		token : 'bXaJzL9jSZPvsR1o',
+		token : '4DxGPMYIBi8of0JH',
 	),
 	reactions_by_emotion_graph : $client->statsGraphAsync(
-		token : 'oVnh5YcREKfawbWe',
+		token : '2CsNQX1gWRTmUG5y',
 	),
 );
 ```

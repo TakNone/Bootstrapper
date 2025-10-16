@@ -2,7 +2,7 @@
 
 **Description** : *Reorder quick reply shortcuts*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.reorderQuickReplies#60331907 order:Vector<int> = Bool;
@@ -36,6 +36,6 @@ messages.reorderQuickReplies#60331907 order:Vector<int> = Bool;
 
 ```php
 $bool = $client->messages->reorderQuickReplies(
-	order : array(56),
+	order : array(81),
 );
 ```

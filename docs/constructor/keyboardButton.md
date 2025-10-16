@@ -2,7 +2,7 @@
 
 **Description** : *Bot keyboard button*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 keyboardButton#a2fa4880 text:string = KeyboardButton;
@@ -28,6 +28,6 @@ keyboardButton#a2fa4880 text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButton(
-	text : 'RrUGxBMj1VJOTewL',
+	text : 'kmOM5yaoRjnUCP2Y',
 );
 ```

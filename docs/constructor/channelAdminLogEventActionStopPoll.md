@@ -2,7 +2,7 @@
 
 **Description** : *A poll was stopped*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionStopPoll#8f079643 message:Message = ChannelAdminLogEventAction;
@@ -29,9 +29,9 @@ channelAdminLogEventActionStopPoll#8f079643 message:Message = ChannelAdminLogEve
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionStopPoll(
 	message : $client->messageEmpty(
-		id : 75,
+		id : 41,
 		peer_id : $client->peerUser(
-			user_id : -6131669499044286923,
+			user_id : 4759645183999549186,
 		),
 	),
 );

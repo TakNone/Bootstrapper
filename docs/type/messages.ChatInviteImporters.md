@@ -2,7 +2,7 @@
 
 **Description** : *List of users that imported a chat invitation link*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.chatInviteImporters#81b6b00a count:int importers:Vector<ChatInviteImporter> users:Vector<User> = messages.ChatInviteImporters;

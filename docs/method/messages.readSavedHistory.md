@@ -1,6 +1,6 @@
 # messages.readSavedHistory
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.readSavedHistory#ba4a3b5b parent_peer:InputPeer peer:InputPeer max_id:int = Bool;
@@ -30,6 +30,6 @@ messages.readSavedHistory#ba4a3b5b parent_peer:InputPeer peer:InputPeer max_id:i
 $bool = $client->messages->readSavedHistory(
 	parent_peer : $client->inputPeerEmpty(),
 	peer : $client->inputPeerEmpty(),
-	max_id : 27,
+	max_id : 28,
 );
 ```

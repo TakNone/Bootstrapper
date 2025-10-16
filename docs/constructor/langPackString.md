@@ -2,7 +2,7 @@
 
 **Description** : *Translated localization string*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 langPackString#cad181f6 key:string value:string = LangPackString;
@@ -29,7 +29,7 @@ langPackString#cad181f6 key:string value:string = LangPackString;
 
 ```php
 $langPackString = $client->langPackString(
-	key : '1Q9p8lIh5YZJAt2j',
-	value : 'URXBxoZjEdKwODcg',
+	key : 'EytxOuoMfr9SHAva',
+	value : 'L2yVWNAoQ9dfzTx6',
 );
 ```

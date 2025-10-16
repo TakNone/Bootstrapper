@@ -2,7 +2,7 @@
 
 **Description** : *Get dialog info of specified peers*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getPeerDialogs#e470bcfd peers:Vector<InputDialogPeer> = messages.PeerDialogs;
@@ -45,7 +45,7 @@ $messagesPeerDialogs = $client->messages->getPeerDialogs(
 			peer : $client->inputPeerEmpty(),
 		),
 		$client->inputDialogPeerFolder(
-			folder_id : 11,
+			folder_id : 68,
 		),
 	),
 );

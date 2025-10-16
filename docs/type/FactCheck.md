@@ -2,7 +2,7 @@
 
 **Description** : *Represents a fact\-check &raquo; created by an independent fact\-checker*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 factCheck#b89bfccf flags:# need_check:flags.0?true country:flags.1?string text:flags.1?TextWithEntities hash:long = FactCheck;

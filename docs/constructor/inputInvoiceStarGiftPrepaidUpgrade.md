@@ -1,6 +1,6 @@
 # inputInvoiceStarGiftPrepaidUpgrade
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputInvoiceStarGiftPrepaidUpgrade#9a0b48b8 peer:InputPeer hash:string = InputInvoice;
@@ -28,6 +28,6 @@ inputInvoiceStarGiftPrepaidUpgrade#9a0b48b8 peer:InputPeer hash:string = InputIn
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftPrepaidUpgrade(
 	peer : $client->inputPeerEmpty(),
-	hash : 'CIYRpwr3JlfkbSOm',
+	hash : 'YjVp5r9khnJEoy0M',
 );
 ```

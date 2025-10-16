@@ -2,7 +2,7 @@
 
 **Description** : *Selects a quick reply shortcut by name*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputQuickReplyShortcut#24596d41 shortcut:string = InputQuickReplyShortcut;
@@ -28,6 +28,6 @@ inputQuickReplyShortcut#24596d41 shortcut:string = InputQuickReplyShortcut;
 
 ```php
 $inputQuickReplyShortcut = $client->inputQuickReplyShortcut(
-	shortcut : 'Ou1BdtayjwMpmCZo',
+	shortcut : 'qdmHeXIxfyhKR4FA',
 );
 ```

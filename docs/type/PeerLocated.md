@@ -2,7 +2,7 @@
 
 **Description** : *Geolocated peer*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 peerLocated#ca461b5d peer:Peer expires:int distance:int = PeerLocated;

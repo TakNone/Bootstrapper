@@ -1,9 +1,9 @@
 # savedStarGift
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
-savedStarGift#19a9b572 flags:# name_hidden:flags.0?true unsaved:flags.5?true refunded:flags.9?true can_upgrade:flags.10?true pinned_to_top:flags.12?true upgrade_separate:flags.17?true from_id:flags.1?Peer date:int gift:StarGift message:flags.2?TextWithEntities msg_id:flags.3?int saved_id:flags.11?long convert_stars:flags.4?long upgrade_stars:flags.6?long can_export_at:flags.7?int transfer_stars:flags.8?long can_transfer_at:flags.13?int can_resell_at:flags.14?int collection_id:flags.15?Vector<int> prepaid_upgrade_hash:flags.16?string = SavedStarGift;
+savedStarGift#8983a452 flags:# name_hidden:flags.0?true unsaved:flags.5?true refunded:flags.9?true can_upgrade:flags.10?true pinned_to_top:flags.12?true upgrade_separate:flags.17?true from_id:flags.1?Peer date:int gift:StarGift message:flags.2?TextWithEntities msg_id:flags.3?int saved_id:flags.11?long convert_stars:flags.4?long upgrade_stars:flags.6?long can_export_at:flags.7?int transfer_stars:flags.8?long can_transfer_at:flags.13?int can_resell_at:flags.14?int collection_id:flags.15?Vector<int> prepaid_upgrade_hash:flags.16?string drop_original_details_stars:flags.18?long = SavedStarGift;
 ```
 
 ---
@@ -33,6 +33,7 @@ savedStarGift#19a9b572 flags:# name_hidden:flags.0?true unsaved:flags.5?true ref
 | **can_resell_at** | [`flags.14?int`](type/int) | NOTHING |
 | **collection_id** | [`flags.15?Vector<int>`](type/int) | NOTHING |
 | **prepaid_upgrade_hash** | [`flags.16?string`](type/string) | NOTHING |
+| **drop_original_details_stars** | [`flags.18?long`](type/long) | NOTHING |
 
 ---
 
@@ -53,9 +54,9 @@ $savedStarGift = $client->savedStarGift(
 	pinned_to_top : true,
 	upgrade_separate : true,
 	from_id : $client->peerUser(
-		user_id : -8348090660143681884,
+		user_id : 3581576992356866978,
 	),
-	date : 73,
+	date : 0,
 	gift : $client->starGift(
 		limited : true,
 		sold_out : true,
@@ -63,131 +64,133 @@ $savedStarGift = $client->savedStarGift(
 		can_upgrade : true,
 		require_premium : true,
 		limited_per_user : true,
-		id : 5750505756358654599,
+		peer_color_available : true,
+		id : 8191050683598163854,
 		sticker : $client->documentEmpty(
-			id : 4693973754614473078,
+			id : -1745011538721483617,
 		),
-		stars : -6946781345980857940,
-		availability_remains : 79,
-		availability_total : 16,
-		availability_resale : 8049233498816204921,
-		convert_stars : -9088506288517751472,
-		first_sale_date : 22,
-		last_sale_date : 46,
-		upgrade_stars : 4354953868372847612,
-		resell_min_stars : 6584294420111981768,
-		title : 'fw5zAFNpLZUXvyle',
+		stars : 7301206247211709677,
+		availability_remains : 90,
+		availability_total : 89,
+		availability_resale : -1313520137379235517,
+		convert_stars : -803793494994783539,
+		first_sale_date : 26,
+		last_sale_date : 59,
+		upgrade_stars : -2783700967257460590,
+		resell_min_stars : -8428901025479022562,
+		title : '3smJ0C1Rp9HW8jcv',
 		released_by : $client->peerUser(
-			user_id : 1971582722709872541,
+			user_id : 5775105364134541107,
 		),
-		per_user_total : 7,
-		per_user_remains : 91,
-		locked_until_date : 95,
+		per_user_total : 35,
+		per_user_remains : 72,
+		locked_until_date : 69,
 	),
 	message : $client->textWithEntities(
-		text : 'UoJeVMdXb7nt2mCS',
+		text : 'fMpBdCjDxiLn5bkA',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 61,
+				length : 22,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 32,
+				length : 40,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 20,
+				length : 86,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 78,
+				length : 52,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 64,
+				length : 36,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 91,
+				length : 52,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 60,
+				length : 53,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 88,
+				length : 5,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 54,
+				length : 48,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 36,
-				language : 'jJQOrfI5qYGDW1d3',
+				length : 34,
+				language : 'TEgeDiFZvHBMxVA0',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 85,
+				length : 13,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 32,
-				user_id : 3833690101449040146,
+				length : 90,
+				user_id : -7842183833951520525,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 76,
+				length : 65,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 35,
+				length : 5,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 67,
+				length : 80,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 74,
+				length : 18,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 88,
+				length : 84,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 33,
+				length : 12,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 58,
+				length : 9,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 67,
-				document_id : -5530313801068939476,
+				length : 19,
+				document_id : 1445679010213945218,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 28,
+				length : 19,
 			),
 		),
 	),
-	msg_id : 72,
-	saved_id : 1072566518054661239,
-	convert_stars : 3967856065432015046,
-	upgrade_stars : -7511188467745447803,
-	can_export_at : 61,
-	transfer_stars : -2583206944487086663,
-	can_transfer_at : 50,
-	can_resell_at : 85,
-	collection_id : array(52),
-	prepaid_upgrade_hash : 'tWurObDhLnoCXiqk',
+	msg_id : 14,
+	saved_id : 3720657147696555242,
+	convert_stars : -4324821987683691854,
+	upgrade_stars : 5299260184772805423,
+	can_export_at : 96,
+	transfer_stars : -1397653618580116827,
+	can_transfer_at : 39,
+	can_resell_at : 43,
+	collection_id : array(17),
+	prepaid_upgrade_hash : 'OoZE6Ues3lqxrB2w',
+	drop_original_details_stars : -8687360085578525760,
 );
 ```

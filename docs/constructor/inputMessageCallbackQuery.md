@@ -2,7 +2,7 @@
 
 **Description** : *Used by bots for fetching information about the message that originated a callback query*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputMessageCallbackQuery#acfa1a7e id:int query_id:long = InputMessage;
@@ -29,7 +29,7 @@ inputMessageCallbackQuery#acfa1a7e id:int query_id:long = InputMessage;
 
 ```php
 $inputMessage = $client->inputMessageCallbackQuery(
-	id : 18,
-	query_id : -7020188959938578407,
+	id : 62,
+	query_id : -4853122581878754312,
 );
 ```

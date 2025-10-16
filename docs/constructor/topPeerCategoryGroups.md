@@ -2,7 +2,7 @@
 
 **Description** : *Often\-opened groups and supergroups*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 topPeerCategoryGroups#bd17a14a = TopPeerCategory;

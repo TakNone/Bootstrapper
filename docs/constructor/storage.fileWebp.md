@@ -2,7 +2,7 @@
 
 **Description** : *WEBP image\. MIME type: image/webp*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 storage.fileWebp#1081464c = storage.FileType;

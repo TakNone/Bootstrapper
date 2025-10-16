@@ -2,7 +2,7 @@
 
 **Description** : *Concatenation of rich texts*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 textConcat#7e6260d7 texts:Vector<RichText> = RichText;
@@ -31,7 +31,7 @@ $richText = $client->textConcat(
 	texts : array(
 		$client->textEmpty(),
 		$client->textPlain(
-			text : 'ka6QrAzPiXgoB1vK',
+			text : 'SIG2x4qKV0ZtLvE9',
 		),
 		$client->textBold(
 			text : $client->textEmpty(),
@@ -51,7 +51,7 @@ $richText = $client->textConcat(
 		$client->textUrl(
 			text : $client->textEmpty(),
 			url : 'https://docs.liveproto.dev',
-			webpage_id : -5206533971013598802,
+			webpage_id : 7554121949210194247,
 		),
 		$client->textEmail(
 			text : $client->textEmpty(),
@@ -61,7 +61,7 @@ $richText = $client->textConcat(
 			texts : array(
 				$client->textEmpty(),
 				$client->textPlain(
-					text : 'pYXzoJbGyrUQD4m2',
+					text : 'S82EPHbvTFrQse6y',
 				),
 				$client->textBold(
 					text : $client->textEmpty(...),
@@ -81,7 +81,7 @@ $richText = $client->textConcat(
 				$client->textUrl(
 					text : $client->textEmpty(...),
 					url : 'https://docs.liveproto.dev',
-					webpage_id : 6496614498860847777,
+					webpage_id : 7129861288709988204,
 				),
 				$client->textEmail(
 					text : $client->textEmpty(...),
@@ -121,13 +121,13 @@ $richText = $client->textConcat(
 					phone : '+1234567890',
 				),
 				$client->textImage(
-					document_id : 1259621692333530159,
-					w : 11,
-					h : 47,
+					document_id : 4456152920763193535,
+					w : 91,
+					h : 76,
 				),
 				$client->textAnchor(
 					text : $client->textEmpty(...),
-					name : 'rhXs4WtqwjOUf5pT',
+					name : 'Uzi2O8BFxHp9LGIw',
 				),
 			),
 		),
@@ -145,13 +145,13 @@ $richText = $client->textConcat(
 			phone : '+1234567890',
 		),
 		$client->textImage(
-			document_id : 2433109791336551889,
-			w : 8,
-			h : 88,
+			document_id : 2049367462455909478,
+			w : 20,
+			h : 34,
 		),
 		$client->textAnchor(
 			text : $client->textEmpty(),
-			name : 'VDpmxeR1nG3LzUdQ',
+			name : 'F9x7i3cRjvENYg4V',
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Animations associated with a message reaction*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 availableReaction#c077ec01 flags:# inactive:flags.0?true premium:flags.2?true reaction:string title:string static_icon:Document appear_animation:Document select_animation:Document activate_animation:Document effect_animation:Document around_animation:flags.1?Document center_icon:flags.1?Document = AvailableReaction;
@@ -41,28 +41,28 @@ availableReaction#c077ec01 flags:# inactive:flags.0?true premium:flags.2?true re
 $availableReaction = $client->availableReaction(
 	inactive : true,
 	premium : true,
-	reaction : 'VxnFYRlPU9jcr41s',
-	title : 't4mWy7TXd3ICQ0OR',
+	reaction : 'Stse1d83WP2okFQ5',
+	title : 'GVDqINkB2XvKbcYj',
 	static_icon : $client->documentEmpty(
-		id : 3126148566255107382,
+		id : 508583667255999193,
 	),
 	appear_animation : $client->documentEmpty(
-		id : -8867220368248607421,
+		id : 258242384299446908,
 	),
 	select_animation : $client->documentEmpty(
-		id : -1951365339117598575,
+		id : 7646656968644014350,
 	),
 	activate_animation : $client->documentEmpty(
-		id : 1040316763177824640,
+		id : 17338561970101945,
 	),
 	effect_animation : $client->documentEmpty(
-		id : 3066044081277971824,
+		id : -6531365328293595764,
 	),
 	around_animation : $client->documentEmpty(
-		id : -850256420607434030,
+		id : 9148198261101027731,
 	),
 	center_icon : $client->documentEmpty(
-		id : -4789480659673222556,
+		id : 4949416203924473826,
 	),
 );
 ```

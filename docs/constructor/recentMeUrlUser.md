@@ -2,7 +2,7 @@
 
 **Description** : *Recent t\.me link to a user*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 recentMeUrlUser#b92c09e2 url:string user_id:long = RecentMeUrl;
@@ -30,6 +30,6 @@ recentMeUrlUser#b92c09e2 url:string user_id:long = RecentMeUrl;
 ```php
 $recentMeUrl = $client->recentMeUrlUser(
 	url : 'https://docs.liveproto.dev',
-	user_id : -7499789901174360087,
+	user_id : 4389815644504276172,
 );
 ```

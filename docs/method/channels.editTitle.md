@@ -2,7 +2,7 @@
 
 **Description** : *Edit the name of a channel/supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.editTitle#566decd0 channel:InputChannel title:string = Updates;
@@ -43,6 +43,6 @@ channels.editTitle#566decd0 channel:InputChannel title:string = Updates;
 ```php
 $updates = $client->channels->editTitle(
 	channel : $client->inputChannelEmpty(),
-	title : 'WeSvfOmVA2kbLClK',
+	title : 'It8AsnkWhY7uByXM',
 );
 ```

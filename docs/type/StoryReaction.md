@@ -2,7 +2,7 @@
 
 **Description** : *How a certain peer reacted to or interacted with a story*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 storyReaction#6090d6d5 peer_id:Peer date:int reaction:Reaction = StoryReaction;

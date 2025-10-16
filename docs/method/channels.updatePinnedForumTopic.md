@@ -2,7 +2,7 @@
 
 **Description** : *Pin or unpin forum topics*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.updatePinnedForumTopic#6c2d9026 channel:InputChannel topic_id:int pinned:Bool = Updates;
@@ -40,7 +40,7 @@ channels.updatePinnedForumTopic#6c2d9026 channel:InputChannel topic_id:int pinne
 ```php
 $updates = $client->channels->updatePinnedForumTopic(
 	channel : $client->inputChannelEmpty(),
-	topic_id : 56,
+	topic_id : 16,
 	pinned : false,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Set a list of Telegram Business greeting messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.updateBusinessGreetingMessage#66cdafc4 flags:# message:flags.0?InputBusinessGreetingMessage = Bool;
@@ -30,7 +30,7 @@ account.updateBusinessGreetingMessage#66cdafc4 flags:# message:flags.0?InputBusi
 ```php
 $bool = $client->account->updateBusinessGreetingMessage(
 	message : $client->inputBusinessGreetingMessage(
-		shortcut_id : 93,
+		shortcut_id : 2,
 		recipients : $client->inputBusinessRecipients(
 			existing_chats : true,
 			new_chats : true,
@@ -44,7 +44,7 @@ $bool = $client->account->updateBusinessGreetingMessage(
 				$client->inputUserFromMessage(...),
 			),
 		),
-		no_activity_days : 71,
+		no_activity_days : 89,
 	),
 );
 ```

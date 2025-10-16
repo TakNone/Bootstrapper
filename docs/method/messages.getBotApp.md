@@ -2,7 +2,7 @@
 
 **Description** : *Obtain information about a direct link Mini App*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getBotApp#34fdc5c3 app:InputBotApp hash:long = messages.BotApp;
@@ -40,8 +40,8 @@ messages.getBotApp#34fdc5c3 app:InputBotApp hash:long = messages.BotApp;
 ```php
 $messagesBotApp = $client->messages->getBotApp(
 	app : $client->inputBotAppID(
-		id : 8215671675798719177,
-		access_hash : -6466330534927448261,
+		id : -1847493792829715550,
+		access_hash : 763006704966860556,
 	),
 	hash : 0,
 );

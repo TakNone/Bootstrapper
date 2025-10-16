@@ -1,6 +1,6 @@
 # StarGiftAttributeCounter
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 starGiftAttributeCounter#2eb1b658 attribute:StarGiftAttributeId count:int = StarGiftAttributeCounter;

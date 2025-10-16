@@ -2,7 +2,7 @@
 
 **Description** : *Identifies a localization pack*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 langPackLanguage#eeca5ce3 flags:# official:flags.0?true rtl:flags.2?true beta:flags.3?true name:string native_name:string lang_code:string base_lang_code:flags.1?string plural_code:string strings_count:int translated_count:int translations_url:string = LangPackLanguage;
@@ -42,13 +42,13 @@ $langPackLanguage = $client->langPackLanguage(
 	official : true,
 	rtl : true,
 	beta : true,
-	name : 'W7sQLBdcYok8H9hG',
-	native_name : 'XJ48iPxD1mNpH3o7',
-	lang_code : 'QH7kfvLZFVM5hWT9',
-	base_lang_code : 'xbvDnjKclsiGQ5Nf',
-	plural_code : 'FmI56VMwUn40sgAT',
-	strings_count : 27,
-	translated_count : 21,
+	name : 'qFo68GPfAWvRS7ax',
+	native_name : '5Kjc7zWyleCLTaGh',
+	lang_code : 'dOk0Y3exjivz4VIt',
+	base_lang_code : 'gGyV8REubdYj0rmk',
+	plural_code : 'CXsbSY5Je629qp3W',
+	strings_count : 70,
+	translated_count : 17,
 	translations_url : 'https://docs.liveproto.dev',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Pin/unpin a dialog*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.toggleDialogPin#a731e257 flags:# pinned:flags.0?true peer:InputDialogPeer = Bool;

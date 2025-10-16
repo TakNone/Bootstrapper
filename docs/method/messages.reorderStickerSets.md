@@ -2,7 +2,7 @@
 
 **Description** : *Reorder installed stickersets*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.reorderStickerSets#78337739 flags:# masks:flags.0?true emojis:flags.1?true order:Vector<long> = Bool;
@@ -33,6 +33,6 @@ messages.reorderStickerSets#78337739 flags:# masks:flags.0?true emojis:flags.1?t
 $bool = $client->messages->reorderStickerSets(
 	masks : true,
 	emojis : true,
-	order : array(-555906170156335569),
+	order : array(-2473565590090527583),
 );
 ```

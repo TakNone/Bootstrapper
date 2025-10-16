@@ -2,7 +2,7 @@
 
 **Description** : *Get topics of a forum*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.getForumTopics#de560d1 flags:# channel:InputChannel q:flags.0?string offset_date:int offset_id:int offset_topic:int limit:int = messages.ForumTopics;
@@ -45,10 +45,10 @@ channels.getForumTopics#de560d1 flags:# channel:InputChannel q:flags.0?string of
 ```php
 $messagesForumTopics = $client->channels->getForumTopics(
 	channel : $client->inputChannelEmpty(),
-	q : 'yQiC435Zmb7w2kYe',
+	q : 'oNC9YI3G1DeVwPBv',
 	offset_date : 0,
 	offset_id : 0,
 	offset_topic : 0,
-	limit : 45,
+	limit : 27,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *A group call participant was muted*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionParticipantMute#f92424d2 participant:GroupCallParticipant = ChannelAdminLogEventAction;
@@ -40,29 +40,29 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantMute
 		self : true,
 		video_joined : true,
 		peer : $client->peerUser(
-			user_id : -1875598257375488947,
+			user_id : -5103685701574616503,
 		),
-		date : 57,
-		active_date : 16,
-		source : 45,
-		volume : 37,
-		about : '8U6IYkRumqVpNXnt',
-		raise_hand_rating : -7431088050087413371,
+		date : 75,
+		active_date : 47,
+		source : 16,
+		volume : 0,
+		about : 'o5Lcdxyf08Dr7jNO',
+		raise_hand_rating : 5795182262145368389,
 		video : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : 'mktUuXgPAEdJaMev',
+			endpoint : 'ot0zHDxKEvyC72sP',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(...),
 			),
-			audio_source : 100,
+			audio_source : 53,
 		),
 		presentation : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : '4JLcxe9Yrw0GFEza',
+			endpoint : 'cLHlqhaUdbWXyEmM',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(...),
 			),
-			audio_source : 21,
+			audio_source : 60,
 		),
 	),
 );

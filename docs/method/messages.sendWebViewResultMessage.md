@@ -2,7 +2,7 @@
 
 **Description** : *Terminate webview interaction started with messages\.requestWebView, sending the specified message to the chat on behalf of the user*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.sendWebViewResultMessage#a4314f5 bot_query_id:string result:InputBotInlineResult = WebViewMessageSent;
@@ -38,17 +38,17 @@ messages.sendWebViewResultMessage#a4314f5 bot_query_id:string result:InputBotInl
 
 ```php
 $webViewMessageSent = $client->messages->sendWebViewResultMessage(
-	bot_query_id : '2JHq57KvoUfQyOnZ',
+	bot_query_id : 'hnT1KBAdgWkMtC0f',
 	result : $client->inputBotInlineResult(
-		id : 'NbtgAydzfimeHQVr',
-		type : 'yRBxcnz1K06sow3t',
-		title : 'SbwVGd3oKpHy5WZ1',
-		description : 'GlAEqyhaJNT1buxi',
+		id : 'bmZieMGVyEu3xsk2',
+		type : 'WxDTYdX248thgflr',
+		title : 'nvN2wirmJxk6a4gB',
+		description : 'oIWgPUQmL2ZcGsNe',
 		url : 'https://docs.liveproto.dev',
 		thumb : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 24,
-			mime_type : 'H1faxYvjyJc3IG96',
+			size : 60,
+			mime_type : 'r8jstpqXJvdwb9Kg',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -62,8 +62,8 @@ $webViewMessageSent = $client->messages->sendWebViewResultMessage(
 		),
 		content : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 22,
-			mime_type : 'lt6Ah7cjYiFkzSBC',
+			size : 48,
+			mime_type : 'uNlc6rkYEw0sDmgo',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -77,7 +77,7 @@ $webViewMessageSent = $client->messages->sendWebViewResultMessage(
 		),
 		send_message : $client->inputBotInlineMessageMediaAuto(
 			invert_media : true,
-			message : 'MOaKS5wsUj4BvI9d',
+			message : 'sSL4E6YXo8CQK0zW',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),

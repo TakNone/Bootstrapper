@@ -2,7 +2,7 @@
 
 **Description** : *A set of sponsored messages associated with a channel*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.sponsoredMessages#ffda656d flags:# posts_between:flags.0?int start_delay:flags.1?int between_delay:flags.2?int messages:Vector<SponsoredMessage> chats:Vector<Chat> users:Vector<User> = messages.SponsoredMessages;

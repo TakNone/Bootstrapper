@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about the default value of the Time\-To\-Live setting, applied to all new chats*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 defaultHistoryTTL#43b46b20 period:int = DefaultHistoryTTL;
@@ -28,6 +28,6 @@ defaultHistoryTTL#43b46b20 period:int = DefaultHistoryTTL;
 
 ```php
 $defaultHistoryTTL = $client->defaultHistoryTTL(
-	period : 97,
+	period : 18,
 );
 ```

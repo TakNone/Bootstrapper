@@ -2,7 +2,7 @@
 
 **Description** : *Get all available chat themes &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getChatThemes#d638de89 hash:long = account.Themes;

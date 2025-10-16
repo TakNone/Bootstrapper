@@ -2,7 +2,7 @@
 
 **Description** : *A message was pinned*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionUpdatePinned#e9e82c18 message:Message = ChannelAdminLogEventAction;
@@ -29,9 +29,9 @@ channelAdminLogEventActionUpdatePinned#e9e82c18 message:Message = ChannelAdminLo
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionUpdatePinned(
 	message : $client->messageEmpty(
-		id : 88,
+		id : 46,
 		peer_id : $client->peerUser(
-			user_id : 5639157708452425042,
+			user_id : -2567847848814554746,
 		),
 	),
 );

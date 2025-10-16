@@ -2,7 +2,7 @@
 
 **Description** : *Channel statistics*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stats.broadcastStats#396ca5fc period:StatsDateRangeDays followers:StatsAbsValueAndPrev views_per_post:StatsAbsValueAndPrev shares_per_post:StatsAbsValueAndPrev reactions_per_post:StatsAbsValueAndPrev views_per_story:StatsAbsValueAndPrev shares_per_story:StatsAbsValueAndPrev reactions_per_story:StatsAbsValueAndPrev enabled_notifications:StatsPercentValue growth_graph:StatsGraph followers_graph:StatsGraph mute_graph:StatsGraph top_hours_graph:StatsGraph interactions_graph:StatsGraph iv_interactions_graph:StatsGraph views_by_source_graph:StatsGraph new_followers_by_source_graph:StatsGraph languages_graph:StatsGraph reactions_by_emotion_graph:StatsGraph story_interactions_graph:StatsGraph story_reactions_by_emotion_graph:StatsGraph recent_posts_interactions:Vector<PostInteractionCounters> = stats.BroadcastStats;
@@ -50,89 +50,89 @@ stats.broadcastStats#396ca5fc period:StatsDateRangeDays followers:StatsAbsValueA
 ```php
 $statsBroadcastStats = $client->stats->broadcastStats(
 	period : $client->statsDateRangeDays(
-		min_date : 87,
-		max_date : 11,
+		min_date : 0,
+		max_date : 53,
 	),
 	followers : $client->statsAbsValueAndPrev(
-		current : 269148.9658203125,
-		previous : 1069735.7451171875,
+		current : -1206659.087890625,
+		previous : 498488.8681640625,
 	),
 	views_per_post : $client->statsAbsValueAndPrev(
-		current : -1313463.6953125,
-		previous : 1922135.115234375,
+		current : 1267884.65234375,
+		previous : 1688805.2548828125,
 	),
 	shares_per_post : $client->statsAbsValueAndPrev(
-		current : 1761299.1591796875,
-		previous : -1321605.6533203125,
+		current : -1780049.33984375,
+		previous : 539297.8642578125,
 	),
 	reactions_per_post : $client->statsAbsValueAndPrev(
-		current : -979312.9873046875,
-		previous : -592465.0224609375,
+		current : 1441917.2294921875,
+		previous : 143513.642578125,
 	),
 	views_per_story : $client->statsAbsValueAndPrev(
-		current : -1577176.306640625,
-		previous : 284039.7978515625,
+		current : 657393.20703125,
+		previous : -1618580.5751953125,
 	),
 	shares_per_story : $client->statsAbsValueAndPrev(
-		current : 293203.28515625,
-		previous : 1895452.912109375,
+		current : 98373.3662109375,
+		previous : 1407464.205078125,
 	),
 	reactions_per_story : $client->statsAbsValueAndPrev(
-		current : -765290.7744140625,
-		previous : -1797887.775390625,
+		current : -1982200.8330078125,
+		previous : 1314375.251953125,
 	),
 	enabled_notifications : $client->statsPercentValue(
-		part : 313322.283203125,
-		total : 1748586.369140625,
+		part : 908642.2021484375,
+		total : -80497.8291015625,
 	),
 	growth_graph : $client->statsGraphAsync(
-		token : '9huK47qCTcIUpZSF',
+		token : 'wKWUJyb05XEFHYp6',
 	),
 	followers_graph : $client->statsGraphAsync(
-		token : 'vNdWoPlqMCRI08SA',
+		token : 'v70gyIQXxuBrA5Hk',
 	),
 	mute_graph : $client->statsGraphAsync(
-		token : 'aK8Y0iqpLsoTANj5',
+		token : 'CQJrsLgbYItqlmKN',
 	),
 	top_hours_graph : $client->statsGraphAsync(
-		token : 'DpZQFfaslkU4JNjm',
+		token : 'UmLw67Pp9EWsclZF',
 	),
 	interactions_graph : $client->statsGraphAsync(
-		token : 'dw7BJPbvy1DqK56s',
+		token : 'Q90syt3EniA6bTRC',
 	),
 	iv_interactions_graph : $client->statsGraphAsync(
-		token : 'jKaCQzZPA6Tnk14B',
+		token : 'CRUoKwXWFP50uelH',
 	),
 	views_by_source_graph : $client->statsGraphAsync(
-		token : 'QaLwtNYF3UZCKBVS',
+		token : 'SADrGlXPWeCULhnE',
 	),
 	new_followers_by_source_graph : $client->statsGraphAsync(
-		token : 'NWpreYg7u5FTchmB',
+		token : '9kxnXO7Svsu2dtoB',
 	),
 	languages_graph : $client->statsGraphAsync(
-		token : 'bcvNKMClqYysAtuI',
+		token : 'ZgmU5p741cQkVdlW',
 	),
 	reactions_by_emotion_graph : $client->statsGraphAsync(
-		token : 'vPfU9hEKIVx5TzBY',
+		token : 'sdp30vGyXhucYafr',
 	),
 	story_interactions_graph : $client->statsGraphAsync(
-		token : 'KkO1R27zvBgsE4tX',
+		token : 'F9k2sZKPLfq8yHMD',
 	),
 	story_reactions_by_emotion_graph : $client->statsGraphAsync(
-		token : '95kvzfwyD1dUHMgT',
+		token : 'nKQsAjdvYIOwGBh7',
 	),
 	recent_posts_interactions : array(
 		$client->postInteractionCountersMessage(
-			msg_id : 84,
-			views : 4,
-			forwards : 13,
-			reactions : 56,
+			msg_id : 10,
+			views : 31,
+			forwards : 36,
+			reactions : 84,
 		),
 		$client->postInteractionCountersStory(
-			story_id : 71,
-			views : 78,
-			forwards : 61,
-			reactions : 71,
+			story_id : 4,
+			views : 77,
+			forwards : 80,
+			reactions : 9,
 		),
 	),
 );

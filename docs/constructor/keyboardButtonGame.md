@@ -2,7 +2,7 @@
 
 **Description** : *Button to start a game*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 keyboardButtonGame#50f41ccf text:string = KeyboardButton;
@@ -28,6 +28,6 @@ keyboardButtonGame#50f41ccf text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonGame(
-	text : 'JPki4T8jIBwq1GAa',
+	text : 'OzK6ZlMDvSY9wuko',
 );
 ```

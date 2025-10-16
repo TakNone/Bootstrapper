@@ -1,6 +1,6 @@
 # stories.canSendStoryCount
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.canSendStoryCount#c387c04e count_remains:int = stories.CanSendStoryCount;
@@ -26,6 +26,6 @@ stories.canSendStoryCount#c387c04e count_remains:int = stories.CanSendStoryCount
 
 ```php
 $storiesCanSendStoryCount = $client->stories->canSendStoryCount(
-	count_remains : 97,
+	count_remains : 65,
 );
 ```

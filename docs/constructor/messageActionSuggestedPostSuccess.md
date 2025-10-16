@@ -1,6 +1,6 @@
 # messageActionSuggestedPostSuccess
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionSuggestedPostSuccess#95ddcf69 price:StarsAmount = MessageAction;
@@ -27,8 +27,8 @@ messageActionSuggestedPostSuccess#95ddcf69 price:StarsAmount = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestedPostSuccess(
 	price : $client->starsAmount(
-		amount : 1795955085245047584,
-		nanos : 70,
+		amount : 6611019079651444348,
+		nanos : 69,
 	),
 );
 ```

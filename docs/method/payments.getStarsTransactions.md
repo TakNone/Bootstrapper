@@ -2,7 +2,7 @@
 
 **Description** : *Fetch Telegram Stars transactions*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.getStarsTransactions#69da4557 flags:# inbound:flags.0?true outbound:flags.1?true ascending:flags.2?true ton:flags.4?true subscription_id:flags.3?string peer:InputPeer offset:string limit:int = payments.StarsStatus;
@@ -49,9 +49,9 @@ $paymentsStarsStatus = $client->payments->getStarsTransactions(
 	outbound : true,
 	ascending : true,
 	ton : true,
-	subscription_id : 'OdDGnI9blaxuj762',
+	subscription_id : '2I48DdRJoqPa9BpU',
 	peer : $client->inputPeerEmpty(),
-	offset : 'abUrVhyZ1OGqS834',
-	limit : 38,
+	offset : 'gSX42MPkr6NQKcAT',
+	limit : 8,
 );
 ```

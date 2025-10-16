@@ -1,6 +1,6 @@
 # payments.canPurchaseStore
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.canPurchaseStore#4fdc5ea7 purpose:InputStorePaymentPurpose = Bool;

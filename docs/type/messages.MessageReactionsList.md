@@ -2,7 +2,7 @@
 
 **Description** : *List of peers that reacted to a specific message*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.messageReactionsList#31bd492d flags:# count:int reactions:Vector<MessagePeerReaction> chats:Vector<Chat> users:Vector<User> next_offset:flags.0?string = messages.MessageReactionsList;

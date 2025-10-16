@@ -2,7 +2,7 @@
 
 **Description** : *Represents an animated video thumbnail*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 videoSize#de33b094 flags:# type:string w:int h:int size:int video_start_ts:flags.0?double = VideoSize;

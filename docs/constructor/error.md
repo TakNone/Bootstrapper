@@ -2,7 +2,7 @@
 
 **Description** : *Error*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 error#c4b9f9bb code:int text:string = Error;
@@ -29,7 +29,7 @@ error#c4b9f9bb code:int text:string = Error;
 
 ```php
 $error = $client->error(
-	code : 91,
-	text : 'O3iFvK7wPHLt0Qmp',
+	code : 55,
+	text : 'lLtEiTz3RrAypIo4',
 );
 ```

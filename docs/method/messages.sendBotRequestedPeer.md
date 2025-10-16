@@ -2,7 +2,7 @@
 
 **Description** : *Send one or more chosen peers, as requested by a keyboardButtonRequestPeer button*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.sendBotRequestedPeer#91b2d060 peer:InputPeer msg_id:int button_id:int requested_peers:Vector<InputPeer> = Updates;
@@ -41,31 +41,31 @@ messages.sendBotRequestedPeer#91b2d060 peer:InputPeer msg_id:int button_id:int r
 ```php
 $updates = $client->messages->sendBotRequestedPeer(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 87,
-	button_id : 56,
+	msg_id : 90,
+	button_id : 49,
 	requested_peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -7004682330811711255,
+			chat_id : 1348932167666342390,
 		),
 		$client->inputPeerUser(
-			user_id : -959768543853732704,
-			access_hash : -8736480295234844212,
+			user_id : 7880965571418777416,
+			access_hash : -4278491964783941796,
 		),
 		$client->inputPeerChannel(
-			channel_id : -9074087765050467255,
-			access_hash : -1938027181524546853,
+			channel_id : 6626210938832233251,
+			access_hash : 4462923226576970330,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 17,
-			user_id : 741205698889207092,
+			msg_id : 33,
+			user_id : 6648525837725318628,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 51,
-			channel_id : -81703879379035709,
+			msg_id : 16,
+			channel_id : 684771816425723124,
 		),
 	),
 );

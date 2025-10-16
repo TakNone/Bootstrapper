@@ -2,7 +2,7 @@
 
 **Description** : *Activate or deactivate a purchased fragment\.com username associated to a supergroup or channel we own*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.toggleUsername#50f24105 channel:InputChannel username:string active:Bool = Bool;

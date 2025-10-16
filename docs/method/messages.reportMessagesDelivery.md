@@ -1,6 +1,6 @@
 # messages.reportMessagesDelivery
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.reportMessagesDelivery#5a6d7395 flags:# push:flags.0?true peer:InputPeer id:Vector<int> = Bool;
@@ -31,6 +31,6 @@ messages.reportMessagesDelivery#5a6d7395 flags:# push:flags.0?true peer:InputPee
 $bool = $client->messages->reportMessagesDelivery(
 	push : true,
 	peer : $client->inputPeerEmpty(),
-	id : array(28),
+	id : array(19),
 );
 ```

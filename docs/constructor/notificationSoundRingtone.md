@@ -2,7 +2,7 @@
 
 **Description** : *A specific previously uploaded notification sound should be used*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 notificationSoundRingtone#ff6c8049 id:long = NotificationSound;
@@ -28,6 +28,6 @@ notificationSoundRingtone#ff6c8049 id:long = NotificationSound;
 
 ```php
 $notificationSound = $client->notificationSoundRingtone(
-	id : 5472433690843913219,
+	id : -5847013506999926589,
 );
 ```

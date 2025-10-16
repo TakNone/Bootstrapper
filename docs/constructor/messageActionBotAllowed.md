@@ -2,7 +2,7 @@
 
 **Description** : *We have given the bot permission to send us direct messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionBotAllowed#c516d679 flags:# attach_menu:flags.1?true from_request:flags.3?true domain:flags.0?string app:flags.2?BotApp = MessageAction;
@@ -34,7 +34,7 @@ messageActionBotAllowed#c516d679 flags:# attach_menu:flags.1?true from_request:f
 $messageAction = $client->messageActionBotAllowed(
 	attach_menu : true,
 	from_request : true,
-	domain : 'myq0J2W7bTBM4jP3',
+	domain : 'HaVTmE31qrFZktM4',
 	app : $client->botAppNotModified(),
 );
 ```

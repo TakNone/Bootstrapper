@@ -2,7 +2,7 @@
 
 **Description** : *Object sets an encrypted chat ID*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;

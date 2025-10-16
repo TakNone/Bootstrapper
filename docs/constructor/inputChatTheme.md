@@ -1,6 +1,6 @@
 # inputChatTheme
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputChatTheme#c93de95c emoticon:string = InputChatTheme;
@@ -26,6 +26,6 @@ inputChatTheme#c93de95c emoticon:string = InputChatTheme;
 
 ```php
 $inputChatTheme = $client->inputChatTheme(
-	emoticon : 'nfmV5OWieXTShHEC',
+	emoticon : 'OwBbSLeAkTR4HocU',
 );
 ```

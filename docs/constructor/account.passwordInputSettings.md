@@ -2,7 +2,7 @@
 
 **Description** : *Settings for setting up a new password*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.passwordInputSettings#c23727c9 flags:# new_algo:flags.0?PasswordKdfAlgo new_password_hash:flags.0?bytes hint:flags.0?string email:flags.1?string new_secure_settings:flags.2?SecureSecretSettings = account.PasswordInputSettings;
@@ -35,12 +35,12 @@ account.passwordInputSettings#c23727c9 flags:# new_algo:flags.0?PasswordKdfAlgo 
 $accountPasswordInputSettings = $client->account->passwordInputSettings(
 	new_algo : $client->passwordKdfAlgoUnknown(),
 	new_password_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	hint : 'QWjqaK6nNDIFgPcp',
+	hint : 'd1UsnmwFbDYlgMiL',
 	email : 'reply@liveproto.dev',
 	new_secure_settings : $client->secureSecretSettings(
 		secure_algo : $client->securePasswordKdfAlgoUnknown(),
 		secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		secure_secret_id : -7149871904517206740,
+		secure_secret_id : -4588564829257646484,
 	),
 );
 ```

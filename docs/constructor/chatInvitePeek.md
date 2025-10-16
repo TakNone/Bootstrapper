@@ -2,7 +2,7 @@
 
 **Description** : *A chat invitation that also allows peeking into the group to read messages without joining it*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 chatInvitePeek#61695cb0 chat:Chat expires:int = ChatInvite;
@@ -30,8 +30,8 @@ chatInvitePeek#61695cb0 chat:Chat expires:int = ChatInvite;
 ```php
 $chatInvite = $client->chatInvitePeek(
 	chat : $client->chatEmpty(
-		id : 2511731653293156707,
+		id : -5939564522552291745,
 	),
-	expires : 35,
+	expires : 4,
 );
 ```

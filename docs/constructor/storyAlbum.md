@@ -1,6 +1,6 @@
 # storyAlbum
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 storyAlbum#9325705a flags:# album_id:int title:string icon_photo:flags.0?Photo icon_video:flags.1?Document = StoryAlbum;
@@ -30,13 +30,13 @@ storyAlbum#9325705a flags:# album_id:int title:string icon_photo:flags.0?Photo i
 
 ```php
 $storyAlbum = $client->storyAlbum(
-	album_id : 16,
-	title : '6U3CBN7QJyVzFSHr',
+	album_id : 69,
+	title : 'Vf3D41JcOvKXLEgz',
 	icon_photo : $client->photoEmpty(
-		id : 572530247497731749,
+		id : -4715433711086296435,
 	),
 	icon_video : $client->documentEmpty(
-		id : 7764470244186019322,
+		id : -7242972250955194937,
 	),
 );
 ```

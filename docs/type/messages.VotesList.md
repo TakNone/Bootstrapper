@@ -2,7 +2,7 @@
 
 **Description** : *How users voted in a poll*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.votesList#4899484e flags:# count:int votes:Vector<MessagePeerVote> chats:Vector<Chat> users:Vector<User> next_offset:flags.0?string = messages.VotesList;

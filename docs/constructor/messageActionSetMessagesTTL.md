@@ -2,7 +2,7 @@
 
 **Description** : *The Time\-To\-Live of messages in this chat was changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionSetMessagesTTL#3c134d7b flags:# period:int auto_setting_from:flags.0?long = MessageAction;
@@ -30,7 +30,7 @@ messageActionSetMessagesTTL#3c134d7b flags:# period:int auto_setting_from:flags.
 
 ```php
 $messageAction = $client->messageActionSetMessagesTTL(
-	period : 0,
-	auto_setting_from : 5707230715352711355,
+	period : 10,
+	auto_setting_from : 7642033512460120819,
 );
 ```

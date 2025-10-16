@@ -2,7 +2,7 @@
 
 **Description** : *Obtains a list of peers that can be used to send messages in a specific group*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.getSendAs#e785a43f flags:# for_paid_reactions:flags.0?true peer:InputPeer = channels.SendAsPeers;

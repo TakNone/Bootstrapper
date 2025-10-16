@@ -1,6 +1,6 @@
 # emojiStatusCollectible
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 emojiStatusCollectible#7184603b flags:# collectible_id:long document_id:long title:string slug:string pattern_document_id:long center_color:int edge_color:int pattern_color:int text_color:int until:flags.0?int = EmojiStatus;
@@ -36,15 +36,15 @@ emojiStatusCollectible#7184603b flags:# collectible_id:long document_id:long tit
 
 ```php
 $emojiStatus = $client->emojiStatusCollectible(
-	collectible_id : 4796262905053055590,
-	document_id : -2990447119515229461,
-	title : '4QOyMmcGoJSkhUNl',
-	slug : 'O5xEhfrPoV9IT7cG',
-	pattern_document_id : 6925543430417371154,
-	center_color : 90,
-	edge_color : 90,
-	pattern_color : 63,
-	text_color : 12,
-	until : 36,
+	collectible_id : -4548129908453751533,
+	document_id : 7498953081987672755,
+	title : 'Fv1iKfxQqjDhn2kI',
+	slug : 'CXduJ5kxR4IK79t2',
+	pattern_document_id : -8510617940241757165,
+	center_color : 48,
+	edge_color : 61,
+	pattern_color : 3,
+	text_color : 2,
+	until : 22,
 );
 ```

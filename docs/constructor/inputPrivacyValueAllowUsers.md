@@ -2,7 +2,7 @@
 
 **Description** : *Allow only certain users*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputPrivacyValueAllowUsers#131cc67f users:Vector<InputUser> = InputPrivacyRule;
@@ -32,13 +32,13 @@ $inputPrivacyRule = $client->inputPrivacyValueAllowUsers(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 375156233776095418,
-			access_hash : 539127121307207042,
+			user_id : 3936854843427579959,
+			access_hash : -3155578927603588368,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 12,
-			user_id : 1197637362468203262,
+			msg_id : 71,
+			user_id : -7083344283145734172,
 		),
 	),
 );

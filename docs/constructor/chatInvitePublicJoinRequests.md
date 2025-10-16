@@ -2,7 +2,7 @@
 
 **Description** : *Used in updates and in the channel log to indicate when a user is requesting to join or has joined a discussion group*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 chatInvitePublicJoinRequests#ed107ab7 = ExportedChatInvite;

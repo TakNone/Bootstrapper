@@ -2,7 +2,7 @@
 
 **Description** : *Get SMS jobs status \(official clients only\)*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 smsjobs.getStatus#10a698e8 = smsjobs.Status;

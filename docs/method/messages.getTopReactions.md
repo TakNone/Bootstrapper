@@ -2,7 +2,7 @@
 
 **Description** : *Got popular message reactions*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getTopReactions#bb8125ba limit:int hash:long = messages.Reactions;
@@ -29,7 +29,7 @@ messages.getTopReactions#bb8125ba limit:int hash:long = messages.Reactions;
 
 ```php
 $messagesReactions = $client->messages->getTopReactions(
-	limit : 96,
+	limit : 32,
 	hash : 0,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Result of a query to an inline bot*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.botResults#e021f2f6 flags:# gallery:flags.0?true query_id:long next_offset:flags.1?string switch_pm:flags.2?InlineBotSwitchPM switch_webview:flags.3?InlineBotWebView results:Vector<BotInlineResult> cache_time:int users:Vector<User> = messages.BotResults;
@@ -37,28 +37,28 @@ messages.botResults#e021f2f6 flags:# gallery:flags.0?true query_id:long next_off
 ```php
 $messagesBotResults = $client->messages->botResults(
 	gallery : true,
-	query_id : -123318654218633777,
-	next_offset : 'DoM378L12Om6dKWV',
+	query_id : 4038234792942823630,
+	next_offset : 'c1EJzsZn3geblCfT',
 	switch_pm : $client->inlineBotSwitchPM(
-		text : 'Pg8hl9DdIvCnaAf2',
-		start_param : 'mVzuDsbIt1gfvLZa',
+		text : '0KJfB1oRe6IXZM8P',
+		start_param : 'IjKmrWbM9dCwgO6P',
 	),
 	switch_webview : $client->inlineBotWebView(
-		text : 'Q9ETVt3fmgGeDKCP',
+		text : 'OyXEen1rPbkZ28o4',
 		url : 'https://docs.liveproto.dev',
 	),
 	results : array(
 		$client->botInlineResult(
-			id : 'vNnK8opJcPCL3zaQ',
-			type : 'iTduqSH9wcCyNKYl',
-			title : '8eYRZbx2CupFaJvn',
-			description : 'ZgmkOf4F2IAvHyxE',
+			id : 'gErVyms2oTWUkvCL',
+			type : 'FqnHt6eM5dJXo3Kk',
+			title : '8LVfwiq6NI5HQcj3',
+			description : 'drob0EtJpRhKLVZi',
 			url : 'https://docs.liveproto.dev',
 			thumb : $client->webDocument(
 				url : 'https://docs.liveproto.dev',
-				access_hash : -5559668938780125420,
-				size : 64,
-				mime_type : '1uC3vaYzRLHWegcZ',
+				access_hash : -1453985379601546480,
+				size : 97,
+				mime_type : 'DPrm8KudoWw2acMh',
 				attributes : array(
 					$client->documentAttributeImageSize(...),
 					$client->documentAttributeAnimated(...),
@@ -72,9 +72,9 @@ $messagesBotResults = $client->messages->botResults(
 			),
 			content : $client->webDocument(
 				url : 'https://docs.liveproto.dev',
-				access_hash : -3742857309638668478,
-				size : 59,
-				mime_type : 'wdIf6TO2FPgHNWEJ',
+				access_hash : 695756871531929062,
+				size : 2,
+				mime_type : 'WxXOrZDhnM2RuL7N',
 				attributes : array(
 					$client->documentAttributeImageSize(...),
 					$client->documentAttributeAnimated(...),
@@ -88,7 +88,7 @@ $messagesBotResults = $client->messages->botResults(
 			),
 			send_message : $client->botInlineMessageMediaAuto(
 				invert_media : true,
-				message : 'cSHy5Xqob7RQjBIg',
+				message : 'szd9FlSXn5gYT1ha',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -116,19 +116,19 @@ $messagesBotResults = $client->messages->botResults(
 			),
 		),
 		$client->botInlineMediaResult(
-			id : 'l7M9fTtRBFprmQ4n',
-			type : 'hPu1glwXGRvkpyJ5',
+			id : 'wklCHUxXDzae3ORg',
+			type : 'dZSbBrmkFfwiqWI4',
 			photo : $client->photoEmpty(
-				id : 2802203183743836348,
+				id : 1702826243921683850,
 			),
 			document : $client->documentEmpty(
-				id : -2280473833546626220,
+				id : -1732758596829218946,
 			),
-			title : 'QnedyBHWRJYjIEDr',
-			description : 'daS6VXUye4j5OBHM',
+			title : '3X9qGgVIMSpoaNbU',
+			description : 'DZwgmWeMVr0YFQ6H',
 			send_message : $client->botInlineMessageMediaAuto(
 				invert_media : true,
-				message : 'qF8KNDABTu1Y2wZl',
+				message : '8exwvYOmUiMcWIDZ',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -159,7 +159,7 @@ $messagesBotResults = $client->messages->botResults(
 	cache_time : 83,
 	users : array(
 		$client->userEmpty(
-			id : -6413677937017412740,
+			id : -6158449840305366893,
 		),
 		$client->user(
 			self : true,
@@ -187,24 +187,25 @@ $messagesBotResults = $client->messages->botResults(
 			contact_require_premium : true,
 			bot_business : true,
 			bot_has_main_app : true,
-			id : 7018156145730710840,
-			access_hash : 819743107818596037,
+			bot_forum_view : true,
+			id : 7565831159090593124,
+			access_hash : -4641160080570763187,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 78,
+			bot_info_version : 82,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'O7RgmFBwA62vQpoj',
-					reason : 'gTKAEIJYUpD6P03c',
-					text : 'Rzl6ifu4xNDtGrYn',
+					platform : 'WbP6gwoOGD3SJA2y',
+					reason : 'VLFxc9TRGyAH0WBa',
+					text : 'jJghYBEa5CQyM2pH',
 				),
 			),
-			bot_inline_placeholder : 'SgrNVCbuXafxRBwn',
-			lang_code : '2gLItjTMqWEb1hVp',
+			bot_inline_placeholder : 'euBynFwU1rPsLDaz',
+			lang_code : 'GvDhwcqTARroBNkx',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -213,18 +214,18 @@ $messagesBotResults = $client->messages->botResults(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 6,
+			stories_max_id : 32,
 			color : $client->peerColor(
-				color : 60,
-				background_emoji_id : -7688444332803410503,
+				color : 61,
+				background_emoji_id : 1261138079091950246,
 			),
 			profile_color : $client->peerColor(
-				color : 94,
-				background_emoji_id : 6100402221392816324,
+				color : 82,
+				background_emoji_id : 2874287975283516746,
 			),
-			bot_active_users : 32,
-			bot_verification_icon : -1384264472550626274,
-			send_paid_messages_stars : -3817068066995304818,
+			bot_active_users : 35,
+			bot_verification_icon : -3939530249837125233,
+			send_paid_messages_stars : 3073119434376687727,
 		),
 	),
 );

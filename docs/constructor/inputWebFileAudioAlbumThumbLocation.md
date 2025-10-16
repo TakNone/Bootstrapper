@@ -2,7 +2,7 @@
 
 **Description** : *Used to download an album cover for any music file using upload\.getWebFile, see the webfile docs for more info &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputWebFileAudioAlbumThumbLocation#f46fe924 flags:# small:flags.2?true document:flags.0?InputDocument title:flags.1?string performer:flags.1?string = InputWebFileLocation;
@@ -34,7 +34,7 @@ inputWebFileAudioAlbumThumbLocation#f46fe924 flags:# small:flags.2?true document
 $inputWebFileLocation = $client->inputWebFileAudioAlbumThumbLocation(
 	small : true,
 	document : $client->inputDocumentEmpty(),
-	title : 'nmsxbQd6YUhGS2Pf',
-	performer : 'E2OfiRCjFh7JKT09',
+	title : 'mJuEK826tzD4H0gq',
+	performer : '4vGOgx1FRNo0mZeV',
 );
 ```

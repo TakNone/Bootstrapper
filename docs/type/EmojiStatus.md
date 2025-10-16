@@ -2,7 +2,7 @@
 
 **Description** : *Emoji status*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 emojiStatusEmpty#2de11aae = EmojiStatus;

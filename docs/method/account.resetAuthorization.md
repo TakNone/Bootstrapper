@@ -2,7 +2,7 @@
 
 **Description** : *Log out an active authorized session by its hash*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.resetAuthorization#df77f3bc hash:long = Bool;

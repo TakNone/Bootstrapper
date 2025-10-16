@@ -2,7 +2,7 @@
 
 **Description** : *Deletes messages forwarded from a specific peer to saved messages &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:InputPeer max_id:int min_date:flags.2?int max_date:flags.3?int = messages.AffectedHistory;
@@ -43,8 +43,8 @@ messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:
 $messagesAffectedHistory = $client->messages->deleteSavedHistory(
 	parent_peer : $client->inputPeerEmpty(),
 	peer : $client->inputPeerEmpty(),
-	max_id : 78,
-	min_date : 93,
-	max_date : 8,
+	max_id : 31,
+	min_date : 5,
+	max_date : 51,
 );
 ```

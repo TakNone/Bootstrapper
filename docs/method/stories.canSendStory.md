@@ -2,7 +2,7 @@
 
 **Description** : *Check whether we can post stories as the specified peer*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stories.canSendStory#30eb63f0 peer:InputPeer = stories.CanSendStoryCount;

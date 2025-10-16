@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of channels/supergroups we left, requires a takeout session, see here &raquo; for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.getLeftChannels#8341ecc0 offset:int = messages.Chats;

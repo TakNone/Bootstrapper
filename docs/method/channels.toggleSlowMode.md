@@ -2,7 +2,7 @@
 
 **Description** : *Toggle supergroup slow mode: if enabled, users will only be able to send one message every seconds seconds*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.toggleSlowMode#edd49ef0 channel:InputChannel seconds:int = Updates;
@@ -42,6 +42,6 @@ channels.toggleSlowMode#edd49ef0 channel:InputChannel seconds:int = Updates;
 ```php
 $updates = $client->channels->toggleSlowMode(
 	channel : $client->inputChannelEmpty(),
-	seconds : 35,
+	seconds : 94,
 );
 ```

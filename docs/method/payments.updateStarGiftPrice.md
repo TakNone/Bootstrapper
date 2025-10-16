@@ -1,6 +1,6 @@
 # payments.updateStarGiftPrice
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.updateStarGiftPrice#edbe6ccb stargift:InputSavedStarGift resell_amount:StarsAmount = Updates;
@@ -28,11 +28,11 @@ payments.updateStarGiftPrice#edbe6ccb stargift:InputSavedStarGift resell_amount:
 ```php
 $updates = $client->payments->updateStarGiftPrice(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 21,
+		msg_id : 2,
 	),
 	resell_amount : $client->starsAmount(
-		amount : -3246927762516440765,
-		nanos : 51,
+		amount : 8674371689087386105,
+		nanos : 81,
 	),
 );
 ```

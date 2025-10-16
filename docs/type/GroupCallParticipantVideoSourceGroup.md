@@ -2,7 +2,7 @@
 
 **Description** : *Describes a group of video synchronization source identifiers*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 groupCallParticipantVideoSourceGroup#dcb118b7 semantics:string sources:Vector<int> = GroupCallParticipantVideoSourceGroup;

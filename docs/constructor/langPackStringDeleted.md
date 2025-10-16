@@ -2,7 +2,7 @@
 
 **Description** : *Deleted localization string*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 langPackStringDeleted#2979eeb2 key:string = LangPackString;
@@ -28,6 +28,6 @@ langPackStringDeleted#2979eeb2 key:string = LangPackString;
 
 ```php
 $langPackString = $client->langPackStringDeleted(
-	key : '1a47nP0sVNbjlUu5',
+	key : 'JfIyUF4g6MElkZbh',
 );
 ```

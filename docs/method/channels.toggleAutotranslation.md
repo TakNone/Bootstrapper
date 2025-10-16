@@ -1,6 +1,6 @@
 # channels.toggleAutotranslation
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channels.toggleAutotranslation#167fc0a1 channel:InputChannel enabled:Bool = Updates;

@@ -2,7 +2,7 @@
 
 **Description** : *Sends a Telegram Passport authorization form, effectively sharing data with the service*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.acceptAuthorization#f3ed4c73 bot_id:long scope:string public_key:string value_hashes:Vector<SecureValueHash> credentials:SecureCredentialsEncrypted = Bool;
@@ -41,9 +41,9 @@ account.acceptAuthorization#f3ed4c73 bot_id:long scope:string public_key:string 
 
 ```php
 $bool = $client->account->acceptAuthorization(
-	bot_id : -2529526123456555849,
-	scope : 'n2vLZa9ympJtTzVO',
-	public_key : 'YnTGlKoNrgzyCqd8',
+	bot_id : 8356630893389143825,
+	scope : '8TPbN31XYmOwVxCI',
+	public_key : 'u0XEmi1DCUFjYdRg',
 	value_hashes : array(
 		$client->secureValueHash(
 			type : $client->secureValueTypePersonalDetails(),

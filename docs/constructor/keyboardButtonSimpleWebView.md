@@ -2,7 +2,7 @@
 
 **Description** : *Button to open a bot mini app using messages\.requestSimpleWebView, without sending user information to the web app*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 keyboardButtonSimpleWebView#a0c0505c text:string url:string = KeyboardButton;
@@ -29,7 +29,7 @@ keyboardButtonSimpleWebView#a0c0505c text:string url:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonSimpleWebView(
-	text : 'JCRMWxuAGZewjOfz',
+	text : 'at1ioCY6AxmIGT0H',
 	url : 'https://docs.liveproto.dev',
 );
 ```

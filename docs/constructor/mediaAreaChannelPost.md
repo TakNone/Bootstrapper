@@ -2,7 +2,7 @@
 
 **Description** : *Represents a channel post*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 mediaAreaChannelPost#770416af coordinates:MediaAreaCoordinates channel_id:long msg_id:int = MediaArea;
@@ -31,14 +31,14 @@ mediaAreaChannelPost#770416af coordinates:MediaAreaCoordinates channel_id:long m
 ```php
 $mediaArea = $client->mediaAreaChannelPost(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 57734.353515625,
-		y : -1446427.5244140625,
-		w : -993454.021484375,
-		h : 269291.189453125,
-		rotation : -971586.2490234375,
-		radius : -813546.5224609375,
+		x : -1924347.6015625,
+		y : 1224757.5966796875,
+		w : 834214.8076171875,
+		h : -1077903.8193359375,
+		rotation : 506466.630859375,
+		radius : -1927468.873046875,
 	),
-	channel_id : 4322016632247251704,
-	msg_id : 34,
+	channel_id : 6117535728077204917,
+	msg_id : 23,
 );
 ```

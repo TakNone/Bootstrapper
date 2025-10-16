@@ -2,7 +2,7 @@
 
 **Description** : *User \(user and/or userFull\) information was updated*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateUser#20529438 user_id:long = Update;
@@ -28,6 +28,6 @@ updateUser#20529438 user_id:long = Update;
 
 ```php
 $update = $client->updateUser(
-	user_id : -4925801030617665313,
+	user_id : 7496777338277229343,
 );
 ```

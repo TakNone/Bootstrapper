@@ -2,7 +2,7 @@
 
 **Description** : *Peer type: supergroup*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inlineQueryPeerTypeMegagroup#5ec4be43 = InlineQueryPeerType;

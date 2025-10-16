@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a peer that can be used to send messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 sendAsPeer#b81c7034 flags:# premium_required:flags.0?true peer:Peer = SendAsPeer;

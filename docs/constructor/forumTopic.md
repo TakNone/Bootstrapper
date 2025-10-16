@@ -2,10 +2,10 @@
 
 **Description** : *Represents a forum topic*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
-forumTopic#71701da9 flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true id:int date:int title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
+forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true id:int date:int peer:Peer title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
 ```
 
 ---
@@ -22,6 +22,7 @@ forumTopic#71701da9 flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?t
 | **hidden** | [`flags.6?true`](type/true) | Whether the topic is hidden (only valid for the "General" topic, id=1) |
 | <mark>id</mark> | [`int`](type/int) | Topic ID |
 | <mark>date</mark> | [`int`](type/int) | Topic creation date |
+| <mark>peer</mark> | [`Peer`](type/Peer) | NOTHING |
 | <mark>title</mark> | [`string`](type/string) | Topic title |
 | <mark>icon_color</mark> | [`int`](type/int) | If no custom emoji icon is specified, specifies the color of the fallback topic icon (RGB), one of 0x6FB9F0, 0xFFD67E, 0xCB86DB, 0x8EEE98, 0xFF93B2, or 0xFB6F5F |
 | **icon_emoji_id** | [`flags.0?long`](type/long) | ID of the custom emoji used as topic icon |
@@ -52,35 +53,38 @@ $forumTopic = $client->forumTopic(
 	pinned : true,
 	short : true,
 	hidden : true,
-	id : 72,
-	date : 79,
-	title : '4OJtC8WhFbA5XPUG',
-	icon_color : 21,
-	icon_emoji_id : 8402980152142267586,
-	top_message : 92,
-	read_inbox_max_id : 23,
-	read_outbox_max_id : 96,
-	unread_count : 45,
-	unread_mentions_count : 74,
-	unread_reactions_count : 83,
+	id : 70,
+	date : 25,
+	peer : $client->peerUser(
+		user_id : 305727653835997666,
+	),
+	title : 'XcTmniwBzYO2VkCG',
+	icon_color : 50,
+	icon_emoji_id : -8074532366101596511,
+	top_message : 69,
+	read_inbox_max_id : 99,
+	read_outbox_max_id : 29,
+	unread_count : 50,
+	unread_mentions_count : 67,
+	unread_reactions_count : 98,
 	from_id : $client->peerUser(
-		user_id : 1531267039289248663,
+		user_id : -8750920819209951849,
 	),
 	notify_settings : $client->peerNotifySettings(
-		show_previews : true,
+		show_previews : false,
 		silent : false,
-		mute_until : 76,
+		mute_until : 98,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
-		stories_muted : false,
-		stories_hide_sender : true,
+		stories_muted : true,
+		stories_hide_sender : false,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	draft : $client->draftMessageEmpty(
-		date : 85,
+		date : 58,
 	),
 );
 ```

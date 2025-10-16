@@ -2,7 +2,7 @@
 
 **Description** : *Configuring parameters did not change*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.dhConfigNotModified#c0e24635 random:bytes = messages.DhConfig;

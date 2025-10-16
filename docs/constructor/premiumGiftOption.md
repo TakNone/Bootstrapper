@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Premium gift option*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 premiumGiftOption#79c059f7 flags:# months:int currency:string amount:long bot_url:flags.1?string store_product:flags.0?string = PremiumGiftOption;
@@ -33,10 +33,10 @@ premiumGiftOption#79c059f7 flags:# months:int currency:string amount:long bot_ur
 
 ```php
 $premiumGiftOption = $client->premiumGiftOption(
-	months : 23,
-	currency : 'zOB3YQDLoxrJnswp',
-	amount : -6439477795754817442,
+	months : 11,
+	currency : 'KMjOlpcaYixfQRTL',
+	amount : 1744552483182449455,
 	bot_url : 'https://docs.liveproto.dev',
-	store_product : 'lmsuvzKRf9S18cEO',
+	store_product : 'h4b8Nt01IUlMqKEe',
 );
 ```

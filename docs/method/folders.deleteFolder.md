@@ -2,7 +2,7 @@
 
 **Description** : *Delete a peer folder*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 folders.deleteFolder#1c295881 folder_id:int = Updates;
@@ -37,6 +37,6 @@ folders.deleteFolder#1c295881 folder_id:int = Updates;
 
 ```php
 $updates = $client->folders->deleteFolder(
-	folder_id : 29,
+	folder_id : 76,
 );
 ```

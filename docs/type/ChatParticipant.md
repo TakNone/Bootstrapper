@@ -2,7 +2,7 @@
 
 **Description** : *Details of a group member*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 chatParticipant#c02d4007 user_id:long inviter_id:long date:int = ChatParticipant;

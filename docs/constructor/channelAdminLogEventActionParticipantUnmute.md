@@ -2,7 +2,7 @@
 
 **Description** : *A group call participant was unmuted*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionParticipantUnmute#e64429c0 participant:GroupCallParticipant = ChannelAdminLogEventAction;
@@ -40,29 +40,29 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantUnmu
 		self : true,
 		video_joined : true,
 		peer : $client->peerUser(
-			user_id : 1562985856930316854,
+			user_id : -6325991938053144235,
 		),
-		date : 12,
-		active_date : 87,
-		source : 25,
-		volume : 47,
-		about : '9cpaWvn8IhF1XBSo',
-		raise_hand_rating : -6517074429871489690,
+		date : 28,
+		active_date : 92,
+		source : 26,
+		volume : 17,
+		about : '3sY26HPaKUSACkri',
+		raise_hand_rating : -8181131709433666850,
 		video : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : 'T59lnfKgX7C6wYRr',
+			endpoint : 'l3tF5KXsf6YjJqRx',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(...),
 			),
-			audio_source : 15,
+			audio_source : 41,
 		),
 		presentation : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : '2N1dkfnh4KeAzJI3',
+			endpoint : 'C2plcH1tOKiVArN0',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(...),
 			),
-			audio_source : 60,
+			audio_source : 35,
 		),
 	),
 );

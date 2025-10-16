@@ -2,7 +2,7 @@
 
 **Description** : *Get sensitive content settings*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getContentSettings#8b9b4dae = account.ContentSettings;

@@ -2,7 +2,7 @@
 
 **Description** : *Inline query peer type*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inlineQueryPeerTypeSameBotPM#3081ed9d = InlineQueryPeerType;

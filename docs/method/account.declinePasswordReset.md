@@ -2,7 +2,7 @@
 
 **Description** : *Abort a pending 2FA password reset, see here for more info &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.declinePasswordReset#4c9409f6 = Bool;

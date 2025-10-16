@@ -1,6 +1,6 @@
 # payments.starGiftCollections
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 payments.starGiftCollections#8a2932f3 collections:Vector<StarGiftCollection> = payments.StarGiftCollections;
@@ -28,12 +28,12 @@ payments.starGiftCollections#8a2932f3 collections:Vector<StarGiftCollection> = p
 $paymentsStarGiftCollections = $client->payments->starGiftCollections(
 	collections : array(
 		$client->starGiftCollection(
-			collection_id : 74,
-			title : 'JP0pV126onkFSxQY',
+			collection_id : 16,
+			title : 'RcknZa6fMetl0gJj',
 			icon : $client->documentEmpty(
-				id : 2368342222807071138,
+				id : 58355605594218838,
 			),
-			gifts_count : 26,
+			gifts_count : 97,
 			hash : 0,
 		),
 	),

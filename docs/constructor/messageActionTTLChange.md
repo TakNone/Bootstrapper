@@ -1,6 +1,6 @@
 # messageActionTTLChange
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionTTLChange#55555552 ttl:int = MessageAction;
@@ -26,6 +26,6 @@ messageActionTTLChange#55555552 ttl:int = MessageAction;
 
 ```php
 $messageAction = $client->messageActionTTLChange(
-	ttl : 75,
+	ttl : 14,
 );
 ```

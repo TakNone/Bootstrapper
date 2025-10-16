@@ -2,7 +2,7 @@
 
 **Description** : *Specifies the chats that can receive Telegram Business away &raquo; and greeting &raquo; messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputBusinessRecipients#6f8b32aa flags:# existing_chats:flags.0?true new_chats:flags.1?true contacts:flags.2?true non_contacts:flags.3?true exclude_selected:flags.5?true users:flags.4?Vector<InputUser> = InputBusinessRecipients;
@@ -43,13 +43,13 @@ $inputBusinessRecipients = $client->inputBusinessRecipients(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 4888965292083145848,
-			access_hash : -3858692917130160372,
+			user_id : 6323150535917941241,
+			access_hash : -727695643539750745,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 85,
-			user_id : 8538713280551826353,
+			msg_id : 42,
+			user_id : 8844184585291607140,
 		),
 	),
 );

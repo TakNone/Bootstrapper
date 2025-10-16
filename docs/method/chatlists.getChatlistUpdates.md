@@ -2,7 +2,7 @@
 
 **Description** : *Fetch new chats associated with an imported chat folder deep link &raquo;\. Must be invoked at most every chatlist\_update\_period seconds \(as per the related client configuration parameter &raquo;\)*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 chatlists.getChatlistUpdates#89419521 chatlist:InputChatlist = chatlists.ChatlistUpdates;
@@ -39,7 +39,7 @@ chatlists.getChatlistUpdates#89419521 chatlist:InputChatlist = chatlists.Chatlis
 ```php
 $chatlistsChatlistUpdates = $client->chatlists->getChatlistUpdates(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 46,
+		filter_id : 72,
 	),
 );
 ```

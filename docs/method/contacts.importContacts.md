@@ -2,7 +2,7 @@
 
 **Description** : *Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 contacts.importContacts#2c800be5 contacts:Vector<InputContact> = contacts.ImportedContacts;
@@ -30,7 +30,7 @@ contacts.importContacts#2c800be5 contacts:Vector<InputContact> = contacts.Import
 $contactsImportedContacts = $client->contacts->importContacts(
 	contacts : array(
 		$client->inputPhoneContact(
-			client_id : 1801958243171942278,
+			client_id : -4352669492222165296,
 			phone : '+1234567890',
 			first_name : 'Tak',
 			last_name : 'None',

@@ -1,6 +1,6 @@
 # messageActionPaidMessagesRefunded
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionPaidMessagesRefunded#ac1f1fcd count:int stars:long = MessageAction;
@@ -27,7 +27,7 @@ messageActionPaidMessagesRefunded#ac1f1fcd count:int stars:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionPaidMessagesRefunded(
-	count : 47,
-	stars : -352708894913669875,
+	count : 44,
+	stars : 7787994700971578967,
 );
 ```

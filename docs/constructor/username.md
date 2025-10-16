@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about a username*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 username#b4073647 flags:# editable:flags.0?true active:flags.1?true username:string = Username;

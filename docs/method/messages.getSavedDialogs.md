@@ -2,7 +2,7 @@
 
 **Description** : *Returns the current saved dialog list, see here &raquo; for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getSavedDialogs#1e91fc99 flags:# exclude_pinned:flags.0?true parent_peer:flags.1?InputPeer offset_date:int offset_id:int offset_peer:InputPeer limit:int hash:long = messages.SavedDialogs;
@@ -40,7 +40,7 @@ $messagesSavedDialogs = $client->messages->getSavedDialogs(
 	offset_date : 0,
 	offset_id : 0,
 	offset_peer : $client->inputPeerEmpty(),
-	limit : 43,
+	limit : 72,
 	hash : 0,
 );
 ```

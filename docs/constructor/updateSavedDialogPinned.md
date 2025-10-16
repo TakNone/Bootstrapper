@@ -2,7 +2,7 @@
 
 **Description** : *A saved message dialog was pinned/unpinned*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateSavedDialogPinned#aeaf9e74 flags:# pinned:flags.0?true peer:DialogPeer = Update;
@@ -33,7 +33,7 @@ $update = $client->updateSavedDialogPinned(
 	pinned : true,
 	peer : $client->dialogPeer(
 		peer : $client->peerUser(
-			user_id : -6665813068926053161,
+			user_id : 8789748581653540320,
 		),
 	),
 );

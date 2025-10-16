@@ -2,7 +2,7 @@
 
 **Description** : *Information about sparse positions of messages*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.searchResultsPositions#53b22baf count:int positions:Vector<SearchResultsPosition> = messages.SearchResultsPositions;

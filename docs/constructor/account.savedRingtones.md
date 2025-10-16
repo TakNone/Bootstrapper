@@ -2,7 +2,7 @@
 
 **Description** : *A list of saved notification sounds*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.savedRingtones#c1e92cc5 hash:long ringtones:Vector<Document> = account.SavedRingtones;
@@ -32,74 +32,74 @@ $accountSavedRingtones = $client->account->savedRingtones(
 	hash : 0,
 	ringtones : array(
 		$client->documentEmpty(
-			id : 4718981891459961520,
+			id : -7976340866323051905,
 		),
 		$client->document(
-			id : 695034382585709243,
-			access_hash : 232171014957013819,
+			id : -7651721198451437789,
+			access_hash : -298704532242552553,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			date : 35,
-			mime_type : 'FgIKpYZ4WdL6iX82',
-			size : 7067037420315953372,
+			date : 34,
+			mime_type : 'IbrwnpV5xZgqcvkt',
+			size : -5482941667899968356,
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : '6gMJz5iBUk8OIY7v',
+					type : 'KgVBSzU2eRjurnGY',
 				),
 				$client->photoSize(
-					type : 'jSiyFGKgc4qbr6M8',
-					w : 92,
-					h : 70,
-					size : 5,
+					type : '0Fm4rIe2XcSiUf3h',
+					w : 13,
+					h : 17,
+					size : 16,
 				),
 				$client->photoCachedSize(
-					type : '4hnSRFtJwjOeyTB7',
-					w : 38,
-					h : 85,
+					type : '8rEgMPQi2B9D6Noa',
+					w : 10,
+					h : 44,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'Ju7xYe5rEnacSqvt',
+					type : 'cI39MWYo2SK57LUB',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'VlTUo0DQnr9cIkd1',
-					w : 46,
-					h : 61,
-					sizes : array(46),
+					type : 'xS9CRGHqcQUEVZF2',
+					w : 71,
+					h : 53,
+					sizes : array(50),
 				),
 				$client->photoPathSize(
-					type : 'dqou1bLktNjPUrhJ',
+					type : '18JreBGsPQNVRwHv',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_thumbs : array(
 				$client->videoSize(
-					type : 'ZKPmdyeMb8nAsXfD',
-					w : 56,
-					h : 25,
-					size : 66,
-					video_start_ts : -788975.677734375,
+					type : 'NDeQGYAwkZxb1XWi',
+					w : 6,
+					h : 10,
+					size : 78,
+					video_start_ts : -123728.1181640625,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : 5374618884189579244,
-					background_colors : array(43),
+					emoji_id : -7066915000129480981,
+					background_colors : array(35),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(...),
-					sticker_id : -8587220848957919938,
-					background_colors : array(81),
+					sticker_id : -2161426015880926274,
+					background_colors : array(18),
 				),
 			),
-			dc_id : 99,
+			dc_id : 52,
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 56,
-					h : 5,
+					w : 89,
+					h : 63,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'Vb0uJnAOBpqFyR85',
+					alt : '0sbUhiNrw1QZGVgc',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -107,28 +107,28 @@ $accountSavedRingtones = $client->account->savedRingtones(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : -19283.65625,
-					w : 27,
-					h : 27,
-					preload_prefix_size : 86,
-					video_start_ts : 617799.3486328125,
-					video_codec : 'eCgSnjH6Id2ulXsD',
+					duration : -847764.869140625,
+					w : 14,
+					h : 78,
+					preload_prefix_size : 57,
+					video_start_ts : 85038.123046875,
+					video_codec : 'GHFw4e7Zln5jvzyk',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 25,
-					title : 'YLzDE9n0WB78qrgi',
-					performer : '0DThIyMoqiEnJH3a',
+					duration : 26,
+					title : '9rFYfsEUCkWpbZLT',
+					performer : 'GsjvP2XkHqay3w9l',
 					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'Xwe74ZvPGtLzpnQx',
+					file_name : 'u2AJOxWBREbatSLs',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : '4rqhoF9yTSeLMW5u',
+					alt : '1baGJ8fMo7tXyFAq',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),

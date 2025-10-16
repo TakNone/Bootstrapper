@@ -2,7 +2,7 @@
 
 **Description** : *Set the default peer that will be used to join a group call in a specific dialog*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.saveDefaultGroupCallJoinAs#575e1f8c peer:InputPeer join_as:InputPeer = Bool;

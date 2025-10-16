@@ -2,7 +2,7 @@
 
 **Description** : *Common message box sequence PTS has changed, state has to be refetched using updates\.getState*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updatePtsChanged#3354678f = Update;

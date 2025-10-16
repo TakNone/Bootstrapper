@@ -2,7 +2,7 @@
 
 **Description** : *Saved payment credentials*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 paymentSavedCredentialsCard#cdc27a1f id:string title:string = PaymentSavedCredentials;

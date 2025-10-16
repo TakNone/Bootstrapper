@@ -1,6 +1,6 @@
 # phone.getGroupCallChainBlocks
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offset:int limit:int = Updates;
@@ -30,11 +30,11 @@ phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offs
 ```php
 $updates = $client->phone->getGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : 6172986171757395704,
-		access_hash : 1289433514891040317,
+		id : 8391384781352768046,
+		access_hash : 4424685352200258479,
 	),
-	sub_chain_id : 39,
+	sub_chain_id : 48,
 	offset : 0,
-	limit : 55,
+	limit : 72,
 );
 ```

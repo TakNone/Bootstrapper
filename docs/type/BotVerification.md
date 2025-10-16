@@ -1,6 +1,6 @@
 # BotVerification
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 botVerification#f93cd45c bot_id:long icon:long description:string = BotVerification;

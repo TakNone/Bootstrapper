@@ -2,7 +2,7 @@
 
 **Description** : *An instant view webpage preview was generated*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 updateWebPage#7f891213 webpage:WebPage pts:int pts_count:int = Update;
@@ -31,10 +31,10 @@ updateWebPage#7f891213 webpage:WebPage pts:int pts_count:int = Update;
 ```php
 $update = $client->updateWebPage(
 	webpage : $client->webPageEmpty(
-		id : 1012104151705145731,
+		id : -7957354432394109783,
 		url : 'https://docs.liveproto.dev',
 	),
-	pts : 73,
-	pts_count : 93,
+	pts : 15,
+	pts_count : 30,
 );
 ```

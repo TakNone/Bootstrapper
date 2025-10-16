@@ -2,7 +2,7 @@
 
 **Description** : *Contains statistics about a story*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 stats.storyStats#50cd067c views_graph:StatsGraph reactions_by_emotion_graph:StatsGraph = stats.StoryStats;
@@ -30,10 +30,10 @@ stats.storyStats#50cd067c views_graph:StatsGraph reactions_by_emotion_graph:Stat
 ```php
 $statsStoryStats = $client->stats->storyStats(
 	views_graph : $client->statsGraphAsync(
-		token : 'lITQAZJeB52kDU7X',
+		token : 'SFtBcVzWJQwMfLDi',
 	),
 	reactions_by_emotion_graph : $client->statsGraphAsync(
-		token : '2Cc5PrjY9dIEDMGu',
+		token : 'beXOLo5TjEtuA7P4',
 	),
 );
 ```

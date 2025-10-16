@@ -2,7 +2,7 @@
 
 **Description** : *Current peer*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 peerSelfLocated#f8ec284b expires:int = PeerLocated;
@@ -28,6 +28,6 @@ peerSelfLocated#f8ec284b expires:int = PeerLocated;
 
 ```php
 $peerLocated = $client->peerSelfLocated(
-	expires : 82,
+	expires : 9,
 );
 ```

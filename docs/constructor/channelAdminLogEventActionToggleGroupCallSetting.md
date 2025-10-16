@@ -2,7 +2,7 @@
 
 **Description** : *Group call settings were changed*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 channelAdminLogEventActionToggleGroupCallSetting#56d6a247 join_muted:Bool = ChannelAdminLogEventAction;
@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleGroupCallSetting#56d6a247 join_muted:Bool = Chan
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleGroupCallSetting(
-	join_muted : false,
+	join_muted : true,
 );
 ```

@@ -1,6 +1,6 @@
 # account.getCollectibleEmojiStatuses
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 account.getCollectibleEmojiStatuses#2e7b4543 hash:long = account.EmojiStatuses;

@@ -2,7 +2,7 @@
 
 **Description** : *Identifier of a history import session, click here for more info &raquo;*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.historyImport#1662af0b id:long = messages.HistoryImport;

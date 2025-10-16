@@ -2,7 +2,7 @@
 
 **Description** : *Google ID email verification token*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 emailVerificationGoogle#db909ec2 token:string = EmailVerification;
@@ -28,6 +28,6 @@ emailVerificationGoogle#db909ec2 token:string = EmailVerification;
 
 ```php
 $emailVerification = $client->emailVerificationGoogle(
-	token : '0EpcOJs2GjmC7oqP',
+	token : 'v87YBm5f4rWSMuA2',
 );
 ```

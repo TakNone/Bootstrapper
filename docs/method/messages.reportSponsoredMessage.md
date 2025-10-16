@@ -2,7 +2,7 @@
 
 **Description** : *Report a sponsored message &raquo;, see here &raquo; for more info on the full flow*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.reportSponsoredMessage#12cbf0c4 random_id:bytes option:bytes = channels.SponsoredMessageReportResult;

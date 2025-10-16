@@ -2,7 +2,7 @@
 
 **Description** : *Press an inline callback button and get a callback answer from the bot*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getBotCallbackAnswer#9342ca07 flags:# game:flags.1?true peer:InputPeer msg_id:int data:flags.0?bytes password:flags.2?InputCheckPasswordSRP = messages.BotCallbackAnswer;
@@ -50,7 +50,7 @@ messages.getBotCallbackAnswer#9342ca07 flags:# game:flags.1?true peer:InputPeer 
 $messagesBotCallbackAnswer = $client->messages->getBotCallbackAnswer(
 	game : true,
 	peer : $client->inputPeerEmpty(),
-	msg_id : 96,
+	msg_id : 56,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	password : $client->inputCheckPasswordEmpty(),
 );

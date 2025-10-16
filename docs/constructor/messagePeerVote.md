@@ -2,7 +2,7 @@
 
 **Description** : *How a peer voted in a poll*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messagePeerVote#b6cc2d5c peer:Peer option:bytes date:int = MessagePeerVote;
@@ -31,9 +31,9 @@ messagePeerVote#b6cc2d5c peer:Peer option:bytes date:int = MessagePeerVote;
 ```php
 $messagePeerVote = $client->messagePeerVote(
 	peer : $client->peerUser(
-		user_id : 59936548520142181,
+		user_id : 3986404567131902925,
 	),
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	date : 58,
+	date : 33,
 );
 ```

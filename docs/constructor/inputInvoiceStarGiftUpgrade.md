@@ -1,6 +1,6 @@
 # inputInvoiceStarGiftUpgrade
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 inputInvoiceStarGiftUpgrade#4d818d5d flags:# keep_original_details:flags.0?true stargift:InputSavedStarGift = InputInvoice;

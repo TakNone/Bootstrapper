@@ -2,7 +2,7 @@
 
 **Description** : *A chat theme*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 chatTheme#c3dffc04 emoticon:string = ChatTheme;
@@ -28,6 +28,6 @@ chatTheme#c3dffc04 emoticon:string = ChatTheme;
 
 ```php
 $chatTheme = $client->chatTheme(
-	emoticon : 'PMQ8FoHrK7kzI2lB',
+	emoticon : '8rcdVBjCp0oQiIek',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Returns the conversation history with one interlocutor / within a chat*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messages.getHistory#4423e6c5 peer:InputPeer offset_id:int offset_date:int add_offset:int limit:int max_id:int min_id:int hash:long = messages.Messages;
@@ -51,10 +51,10 @@ $messagesMessages = $client->messages->getHistory(
 	peer : $client->inputPeerEmpty(),
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 36,
-	limit : 84,
-	max_id : 72,
-	min_id : 16,
+	add_offset : 18,
+	limit : 48,
+	max_id : 21,
+	min_id : 38,
 	hash : 0,
 );
 ```

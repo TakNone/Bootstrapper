@@ -2,7 +2,7 @@
 
 **Description** : *You received a gift, see here &raquo; for more info*
 
-**Layer** : 214
+**Layer** : 216
 
 ```tl
 messageActionStarGift#f24de7fa flags:# name_hidden:flags.0?true saved:flags.2?true converted:flags.3?true upgraded:flags.5?true transferred:flags.6?true can_upgrade:flags.10?true refunded:flags.9?true prepaid_upgrade:flags.13?true upgrade_separate:flags.16?true gift:StarGift message:flags.1?TextWithEntities convert_stars:flags.4?long upgrade_msg_id:flags.5?int upgrade_stars:flags.8?long from_id:flags.11?Peer peer:flags.12?Peer saved_id:flags.12?long prepaid_upgrade_hash:flags.14?string gift_msg_id:flags.15?int = MessageAction;
@@ -63,133 +63,134 @@ $messageAction = $client->messageActionStarGift(
 		can_upgrade : true,
 		require_premium : true,
 		limited_per_user : true,
-		id : 4600918408097287799,
+		peer_color_available : true,
+		id : -6361041563286279684,
 		sticker : $client->documentEmpty(
-			id : 3953409561964375983,
+			id : -743828870590768484,
 		),
-		stars : -3574911405580977208,
-		availability_remains : 99,
-		availability_total : 47,
-		availability_resale : 8117155497773940225,
-		convert_stars : -537217467934764610,
-		first_sale_date : 79,
-		last_sale_date : 15,
-		upgrade_stars : -1036375306056076442,
-		resell_min_stars : 8679527646003882409,
-		title : '72wrasSfvHQ56exL',
+		stars : 5428140584786318356,
+		availability_remains : 77,
+		availability_total : 66,
+		availability_resale : -4684108566047595117,
+		convert_stars : -2196499355017589758,
+		first_sale_date : 42,
+		last_sale_date : 60,
+		upgrade_stars : -7313544587239322251,
+		resell_min_stars : 1499037533886045489,
+		title : '3BZSnpwfsbxKrT7m',
 		released_by : $client->peerUser(
-			user_id : 536952943243231425,
+			user_id : 3274236077439721127,
 		),
-		per_user_total : 54,
-		per_user_remains : 91,
-		locked_until_date : 3,
+		per_user_total : 44,
+		per_user_remains : 43,
+		locked_until_date : 42,
 	),
 	message : $client->textWithEntities(
-		text : 'J9Y05UDhasRzcEkM',
+		text : 'MCzDYQ0Hxbk9NjoP',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 5,
+				length : 37,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 61,
+				length : 93,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 23,
+				length : 29,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 8,
+				length : 26,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 0,
+				length : 71,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 87,
+				length : 78,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 57,
+				length : 73,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 100,
+				length : 97,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 73,
+				length : 84,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 57,
-				language : 'ET7yBMt4bVFKJjs9',
+				length : 69,
+				language : 'YOz3HBGSda4utWn0',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 14,
+				length : 71,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 63,
-				user_id : 3853926258602487462,
+				length : 17,
+				user_id : 6322444466736102603,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 61,
+				length : 66,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 36,
+				length : 58,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 38,
+				length : 65,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 61,
+				length : 12,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 68,
+				length : 54,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 86,
+				length : 71,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 28,
+				length : 19,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 31,
-				document_id : -5799606990588002768,
+				length : 33,
+				document_id : -7642769308162932262,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 58,
+				length : 67,
 			),
 		),
 	),
-	convert_stars : 5616185722385727024,
-	upgrade_msg_id : 89,
-	upgrade_stars : -61984736601311396,
+	convert_stars : -8266591705084886704,
+	upgrade_msg_id : 50,
+	upgrade_stars : -7747840028411007206,
 	from_id : $client->peerUser(
-		user_id : 4206643965146000531,
+		user_id : -1366039117189788834,
 	),
 	peer : $client->peerUser(
-		user_id : -5454602744605353066,
+		user_id : 7276068411586163091,
 	),
-	saved_id : 1755106815164205786,
-	prepaid_upgrade_hash : 'bMmdHyY3T70wXQU8',
-	gift_msg_id : 71,
+	saved_id : 1527592419627988342,
+	prepaid_upgrade_hash : 'xeL0WBZfaHIcTudt',
+	gift_msg_id : 50,
 );
 ```
