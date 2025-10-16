@@ -40,11 +40,11 @@ channel#fe685355 flags:# creator:flags.0?true left:flags.2?true broadcast:flags.
 | **stories_hidden_min** | [`flags2.2?true`](type/true) | If set, indicates that the stories_hidden flag was not populated, and its value must cannot be relied on; use the previously cached value, or re-fetch the constructor using channels.getChannels to obtain the latest value of the stories_hidden flag |
 | **stories_unavailable** | [`flags2.3?true`](type/true) | No stories from the channel are visible |
 | **signature_profiles** | [`flags2.12?true`](type/true) | If set, messages sent by admins to this channel will link to the admin's profile (just like with groups) |
-| **autotranslation** | [`flags2.15?true`](type/true) | NOTHING |
-| **broadcast_messages_allowed** | [`flags2.16?true`](type/true) | NOTHING |
-| **monoforum** | [`flags2.17?true`](type/true) | NOTHING |
-| **forum_tabs** | [`flags2.19?true`](type/true) | NOTHING |
-| <mark>id</mark> | [`long`](type/long) | ID of the channel, see here » for more info |
+| **autotranslation** | [`flags2.15?true`](type/true) | If set, autotranslation was enabled for all users by the admin of the channel, as specified here » |
+| **broadcast_messages_allowed** | [`flags2.16?true`](type/true) | If set, this channel has an associated monoforum », and its ID is specified in the linked_monoforum_id flag |
+| **monoforum** | [`flags2.17?true`](type/true) | If set, this is a monoforum », and the ID of the associated channel is specified in the linked_monoforum_id |
+| **forum_tabs** | [`flags2.19?true`](type/true) | If set, enables the tabbed forum UI » |
+| <mark>id</mark> | [`long`](type/long) | ID of the channel, see here » for more info and the available ID range |
 | **access_hash** | [`flags.13?long`](type/long) | Access hash, see here » for more info |
 | <mark>title</mark> | [`string`](type/string) | Title |
 | **username** | [`flags.6?string`](type/string) | Main active username |
@@ -62,9 +62,9 @@ channel#fe685355 flags:# creator:flags.0?true left:flags.2?true broadcast:flags.
 | **emoji_status** | [`flags2.9?EmojiStatus`](type/EmojiStatus) | Emoji status |
 | **level** | [`flags2.10?int`](type/int) | Boost level. Changes to this flag should invalidate the local channelFull cache for this channel/supergroup ID, see here » for more info |
 | **subscription_until_date** | [`flags2.11?int`](type/int) | Expiration date of the Telegram Star subscription » the current user has bought to gain access to this channel |
-| **bot_verification_icon** | [`flags2.13?long`](type/long) | NOTHING |
-| **send_paid_messages_stars** | [`flags2.14?long`](type/long) | NOTHING |
-| **linked_monoforum_id** | [`flags2.18?long`](type/long) | NOTHING |
+| **bot_verification_icon** | [`flags2.13?long`](type/long) | Describes a bot verification icon » |
+| **send_paid_messages_stars** | [`flags2.14?long`](type/long) | If set, this supergroup or monoforum has enabled paid messages », we might need to pay the specified amount of Stars to send messages to it, depending on the configured exceptions: check channelFull.send_paid_messages_stars to see if the currently logged in user actually has to pay or not, see here » for the full flow (only set for the monoforum, not the associated channel) |
+| **linked_monoforum_id** | [`flags2.18?long`](type/long) | For channels with associated monoforums, the monoforum ID. For Monoforums, the ID of the associated channel |
 
 ---
 
@@ -106,17 +106,17 @@ $chat = $client->channel(
 	broadcast_messages_allowed : true,
 	monoforum : true,
 	forum_tabs : true,
-	id : 6168587180527292364,
-	access_hash : 5418687560007683720,
-	title : 'ujtAUVQZ5qfkdOzH',
+	id : 8642097977216867812,
+	access_hash : -2391664485338239707,
+	title : 'KwSuTdzRgC5YVI3s',
 	username : 'TakNone',
 	photo : $client->chatPhotoEmpty(),
-	date : 1,
+	date : 99,
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : 'fAHmPN47pxZjSgDc',
-			reason : '4XuGp3nN1zbyco7D',
-			text : 'eFZ6B0cjaKJhI2p7',
+			platform : '3locHPyeTq6WS9UY',
+			reason : 'wyEp6hxstCnv5TYL',
+			text : '9FQ8HlZTzOaJBc3d',
 		),
 	),
 	admin_rights : $client->chatAdminRights(
@@ -158,7 +158,7 @@ $chat = $client->channel(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 39,
+		until_date : 77,
 	),
 	default_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -181,9 +181,9 @@ $chat = $client->channel(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 22,
+		until_date : 45,
 	),
-	participants_count : 87,
+	participants_count : 11,
 	usernames : array(
 		$client->username(
 			editable : true,
@@ -191,20 +191,20 @@ $chat = $client->channel(
 			username : 'TakNone',
 		),
 	),
-	stories_max_id : 35,
+	stories_max_id : 2,
 	color : $client->peerColor(
-		color : 35,
-		background_emoji_id : 3983654137688193141,
+		color : 85,
+		background_emoji_id : -4517254317771398194,
 	),
 	profile_color : $client->peerColor(
-		color : 35,
-		background_emoji_id : 4982845510542128229,
+		color : 98,
+		background_emoji_id : 902427547464923114,
 	),
 	emoji_status : $client->emojiStatusEmpty(),
-	level : 89,
-	subscription_until_date : 88,
-	bot_verification_icon : -6100004158431950276,
-	send_paid_messages_stars : -960835570822794093,
-	linked_monoforum_id : 3223615490955447042,
+	level : 71,
+	subscription_until_date : 90,
+	bot_verification_icon : -6983613658894696879,
+	send_paid_messages_stars : 6141950548806016776,
+	linked_monoforum_id : -2399265472102855246,
 );
 ```

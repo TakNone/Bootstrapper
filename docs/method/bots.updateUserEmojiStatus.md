@@ -31,6 +31,7 @@ bots.updateUserEmojiStatus#ed9f30c5 user_id:InputUser emoji_status:EmojiStatus =
 | :---: | :---: | :--- |
 | **USER_BOT_REQUIRED** | `400` | This method can only be called by a bot |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
+| **USER_PERMISSION_DENIED** | `403` | The user hasn't granted or has revoked the bot's access to change their emoji status using bots.toggleUserEmojiStatusPermission |
 
 ---
 

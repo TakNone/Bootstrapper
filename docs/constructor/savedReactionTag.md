@@ -32,7 +32,7 @@ savedReactionTag#cb6ff828 flags:# reaction:Reaction title:flags.0?string count:i
 ```php
 $savedReactionTag = $client->savedReactionTag(
 	reaction : $client->reactionEmpty(),
-	title : 'OdAms9Ff5x4HPSIM',
-	count : 65,
+	title : 'Fgzp48dUavwTG2kC',
+	count : 40,
 );
 ```

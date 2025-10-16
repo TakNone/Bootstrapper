@@ -1,5 +1,7 @@
 # inputInvoiceStarGiftTransfer
 
+**Description** : *Used to pay to transfer a collectible gift to another peer, see the gifts &raquo; documentation for more info*
+
 **Layer** : 216
 
 ```tl
@@ -12,8 +14,8 @@ inputInvoiceStarGiftTransfer#4a5f5bd9 stargift:InputSavedStarGift to_id:InputPee
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>stargift</mark> | [`InputSavedStarGift`](type/InputSavedStarGift) | NOTHING |
-| <mark>to_id</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
+| <mark>stargift</mark> | [`InputSavedStarGift`](type/InputSavedStarGift) | The identifier of the received gift |
+| <mark>to_id</mark> | [`InputPeer`](type/InputPeer) | The destination peer |
 
 ---
 
@@ -28,7 +30,7 @@ inputInvoiceStarGiftTransfer#4a5f5bd9 stargift:InputSavedStarGift to_id:InputPee
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftTransfer(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 64,
+		msg_id : 43,
 	),
 	to_id : $client->inputPeerEmpty(),
 );

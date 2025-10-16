@@ -31,11 +31,11 @@ peerSettings#f47741f7 flags:# report_spam:flags.0?true add_contact:flags.1?true 
 | **request_chat_date** | [`flags.9?int`](type/int) | If set, this is a private chat with an administrator of a chat or channel to which the user sent a join request, and this field contains the timestamp when the join request » was sent |
 | **business_bot_id** | [`flags.13?long`](type/long) | Contains the ID of the business bot » managing this chat, used to display info about the bot in the action bar |
 | **business_bot_manage_url** | [`flags.13?string`](type/string) | Contains a deep link », used to open a management menu in the business bot. This flag is set if and only if business_bot_id is set |
-| **charge_paid_message_stars** | [`flags.14?long`](type/long) | NOTHING |
-| **registration_month** | [`flags.15?string`](type/string) | NOTHING |
-| **phone_country** | [`flags.16?string`](type/string) | NOTHING |
-| **name_change_date** | [`flags.17?int`](type/int) | NOTHING |
-| **photo_change_date** | [`flags.18?int`](type/int) | NOTHING |
+| **charge_paid_message_stars** | [`flags.14?long`](type/long) | All users that must pay us » to send us private messages will have this flag set only for us, containing the amount of required stars, see here » for more info on paid messages |
+| **registration_month** | [`flags.15?string`](type/string) | Used to display the user's registration year and month, the string is in MM.YYYY format, where MM is the registration month (1-12), and YYYY is the registration year |
+| **phone_country** | [`flags.16?string`](type/string) | The country code of the user's phone number |
+| **name_change_date** | [`flags.17?int`](type/int) | When was the user's name last changed |
+| **photo_change_date** | [`flags.18?int`](type/int) | When was the user's photo last changed |
 
 ---
 
@@ -60,15 +60,15 @@ $peerSettings = $client->peerSettings(
 	request_chat_broadcast : true,
 	business_bot_paused : true,
 	business_bot_can_reply : true,
-	geo_distance : 72,
-	request_chat_title : 'jBcXb4Sq7JCR8Nun',
-	request_chat_date : 85,
-	business_bot_id : -1017215887910968146,
+	geo_distance : 25,
+	request_chat_title : 'RS0Ig1ij2uFk7mvW',
+	request_chat_date : 58,
+	business_bot_id : -5048457042322378694,
 	business_bot_manage_url : 'https://docs.liveproto.dev',
-	charge_paid_message_stars : -2932893591334669557,
-	registration_month : 'A21TDzxJZChcrmwL',
+	charge_paid_message_stars : 146777301443018315,
+	registration_month : 'gjdnivur86OfIG5h',
 	phone_country : '+1234567890',
-	name_change_date : 88,
-	photo_change_date : 99,
+	name_change_date : 5,
+	photo_change_date : 89,
 );
 ```

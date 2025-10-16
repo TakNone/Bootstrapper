@@ -38,8 +38,8 @@ auth.importWebTokenAuthorization#2db873a9 api_id:int api_hash:string web_auth_to
 
 ```php
 $authAuthorization = $client->auth->importWebTokenAuthorization(
-	api_id : 35,
-	api_hash : 'seY1UaGC45qdDRni',
-	web_auth_token : 'KFVgQ1c8zeG25SDl',
+	api_id : 13,
+	api_hash : 'WvZmxCAGeM0LsD6V',
+	web_auth_token : 'h1lcAmLoOuCy3H7z',
 );
 ```

@@ -31,9 +31,9 @@ help.timezonesList#7b74ed71 timezones:Vector<Timezone> hash:int = help.Timezones
 $helpTimezonesList = $client->help->timezonesList(
 	timezones : array(
 		$client->timezone(
-			id : 'WY4qcDrJT2ByInvj',
-			name : 'eMSZF4J6YoT85Nr3',
-			utc_offset : 3,
+			id : 'rSRGgalpW9f24os0',
+			name : 'lDRQyOAud5Pg4LCr',
+			utc_offset : 96,
 		),
 	),
 	hash : 0,

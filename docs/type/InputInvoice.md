@@ -33,11 +33,11 @@ inputInvoiceStarGiftDropOriginalDetails#923d8d1 stargift:InputSavedStarGift = In
 | [**inputInvoiceStars**](constructor/inputInvoiceStars) | Used to top up the Telegram Stars balance of the current account or someone else's account, or to start a Telegram Star giveaway » |
 | [**inputInvoiceChatInviteSubscription**](constructor/inputInvoiceChatInviteSubscription) | Used to pay for a Telegram Star subscription » |
 | [**inputInvoiceStarGift**](constructor/inputInvoiceStarGift) | Used to buy a Telegram Star Gift, see here » for more info |
-| [**inputInvoiceStarGiftUpgrade**](constructor/inputInvoiceStarGiftUpgrade) | NOTHING |
-| [**inputInvoiceStarGiftTransfer**](constructor/inputInvoiceStarGiftTransfer) | NOTHING |
-| [**inputInvoicePremiumGiftStars**](constructor/inputInvoicePremiumGiftStars) | NOTHING |
-| [**inputInvoiceBusinessBotTransferStars**](constructor/inputInvoiceBusinessBotTransferStars) | NOTHING |
-| [**inputInvoiceStarGiftResale**](constructor/inputInvoiceStarGiftResale) | NOTHING |
-| [**inputInvoiceStarGiftPrepaidUpgrade**](constructor/inputInvoiceStarGiftPrepaidUpgrade) | NOTHING |
+| [**inputInvoiceStarGiftUpgrade**](constructor/inputInvoiceStarGiftUpgrade) | Used to pay to upgrade a Gift to a collectible gift, see the collectible gifts » documentation for more info on the full flow |
+| [**inputInvoiceStarGiftTransfer**](constructor/inputInvoiceStarGiftTransfer) | Used to pay to transfer a collectible gift to another peer, see the gifts » documentation for more info |
+| [**inputInvoicePremiumGiftStars**](constructor/inputInvoicePremiumGiftStars) | Used to gift a Telegram Premium subscription to another user, paying with Telegram Stars |
+| [**inputInvoiceBusinessBotTransferStars**](constructor/inputInvoiceBusinessBotTransferStars) | Transfer stars from the balance of a user account connected to a business bot, to the balance of the business bot, see here » for more info on the full flow |
+| [**inputInvoiceStarGiftResale**](constructor/inputInvoiceStarGiftResale) | Used to buy a collectible gift currently up on resale, see here for more info on the full flow |
+| [**inputInvoiceStarGiftPrepaidUpgrade**](constructor/inputInvoiceStarGiftPrepaidUpgrade) | Separately prepay for the upgrade of a gift » |
 | [**inputInvoicePremiumAuthCode**](constructor/inputInvoicePremiumAuthCode) | NOTHING |
 | [**inputInvoiceStarGiftDropOriginalDetails**](constructor/inputInvoiceStarGiftDropOriginalDetails) | NOTHING |

@@ -31,7 +31,7 @@ inputPeerChannelFromMessage#bd2a0840 peer:InputPeer msg_id:int channel_id:long =
 ```php
 $inputPeer = $client->inputPeerChannelFromMessage(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 71,
-	channel_id : 5197357945858703899,
+	msg_id : 74,
+	channel_id : 4330544326966012,
 );
 ```

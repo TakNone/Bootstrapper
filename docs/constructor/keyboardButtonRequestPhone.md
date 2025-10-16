@@ -28,6 +28,6 @@ keyboardButtonRequestPhone#b16a6c29 text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestPhone(
-	text : 'sUw3FtmMo10lKPDc',
+	text : 'IRvLtiebKxgBp6l2',
 );
 ```

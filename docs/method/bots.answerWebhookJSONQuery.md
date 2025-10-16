@@ -31,7 +31,6 @@ bots.answerWebhookJSONQuery#e6213f4d query_id:long data:DataJSON = Bool;
 | :---: | :---: | :--- |
 | **DATA_JSON_INVALID** | `400` | The provided JSON data is invalid |
 | **QUERY_ID_INVALID** | `400` | The query ID is invalid |
-| **USER_BOT_INVALID** | `403` | User accounts must provide the bot method parameter when calling this method. If there is no such method parameter, this method can only be invoked by bot accounts |
 | **USER_BOT_REQUIRED** | `400` | This method can only be called by a bot |
 
 ---
@@ -40,9 +39,9 @@ bots.answerWebhookJSONQuery#e6213f4d query_id:long data:DataJSON = Bool;
 
 ```php
 $bool = $client->bots->answerWebhookJSONQuery(
-	query_id : -8515670787395330649,
+	query_id : 4195701386259281061,
 	data : $client->dataJSON(
-		data : 'kVl4hIgvqQOs6a19',
+		data : 'KmyUnCaDA6ISHvbR',
 	),
 );
 ```

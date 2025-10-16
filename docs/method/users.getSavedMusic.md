@@ -1,5 +1,7 @@
 # users.getSavedMusic
 
+**Description** : *Get songs pinned to the user&#039;s profile, see here &raquo; for more info*
+
 **Layer** : 216
 
 ```tl
@@ -12,10 +14,10 @@ users.getSavedMusic#788d7fe3 id:InputUser offset:int limit:int hash:long = users
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>id</mark> | [`InputUser`](type/InputUser) | NOTHING |
-| <mark>offset</mark> | [`int`](type/int) | NOTHING |
-| <mark>limit</mark> | [`int`](type/int) | NOTHING |
-| <mark>hash</mark> | [`long`](type/long) | NOTHING |
+| <mark>id</mark> | [`InputUser`](type/InputUser) | The ID of the user |
+| <mark>offset</mark> | [`int`](type/int) | Offset for pagination |
+| <mark>limit</mark> | [`int`](type/int) | Maximum number of results to return, see pagination |
+| <mark>hash</mark> | [`long`](type/long) | Hash » of the IDs of previously added songs, to avoid returning any result if there was no change |
 
 ---
 
@@ -25,13 +27,21 @@ users.getSavedMusic#788d7fe3 id:InputUser offset:int limit:int hash:long = users
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **USER_ID_INVALID** | `400` | The provided user ID is invalid |
+
+---
+
 ## Example
 
 ```php
 $usersSavedMusic = $client->users->getSavedMusic(
 	id : $client->inputUserEmpty(),
 	offset : 0,
-	limit : 62,
+	limit : 69,
 	hash : 0,
 );
 ```

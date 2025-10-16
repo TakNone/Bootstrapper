@@ -29,9 +29,9 @@ updateBotSubscriptionExpire#a8ae3eb1 user_id:long payload:string until_date:int 
 
 ```php
 $update = $client->updateBotSubscriptionExpire(
-	user_id : 1980601535173510224,
-	payload : 'HeQxfvkhtSiIsDUK',
-	until_date : 7,
-	qts : 32,
+	user_id : -931887167282071952,
+	payload : 'SGtur02ZU4I5D8pm',
+	until_date : 24,
+	qts : 67,
 );
 ```

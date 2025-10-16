@@ -29,6 +29,7 @@ bots.setBotMenuButton#4504d54f user_id:InputUser button:BotMenuButton = Bool;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **BUTTON_INVALID** | `400` | The specified button is invalid |
 | **BUTTON_TEXT_INVALID** | `400` | The specified button text is invalid |
 | **BUTTON_URL_INVALID** | `400` | Button URL invalid |
 | **USER_BOT_REQUIRED** | `400` | This method can only be called by a bot |

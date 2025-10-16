@@ -33,11 +33,11 @@ fragment.collectibleInfo#6ebdff91 purchase_date:int currency:string amount:long 
 
 ```php
 $fragmentCollectibleInfo = $client->fragment->collectibleInfo(
-	purchase_date : 80,
-	currency : '8DxyWOuNm4EI2BPs',
-	amount : -947633597246712125,
-	crypto_currency : 'sGkEpqiOyPUYNbmH',
-	crypto_amount : -3390172578076779834,
+	purchase_date : 32,
+	currency : '0IDCd5L6iwa9oqhu',
+	amount : 7426042758682439499,
+	crypto_currency : 'JpQjTGYzx8ELkCMi',
+	crypto_amount : -4807975741494083928,
 	url : 'https://docs.liveproto.dev',
 );
 ```

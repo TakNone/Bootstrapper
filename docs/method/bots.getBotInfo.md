@@ -41,6 +41,6 @@ bots.getBotInfo#dcd914fd flags:# bot:flags.0?InputUser lang_code:string = bots.B
 ```php
 $botsBotInfo = $client->bots->getBotInfo(
 	bot : $client->inputUserEmpty(),
-	lang_code : 'G8OMXACobKJThsHr',
+	lang_code : 'wsytc0qU84I1JTv6',
 );
 ```

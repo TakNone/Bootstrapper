@@ -50,4 +50,4 @@ inputMediaTodo#9fc55fde todo:TodoList = InputMedia;
 | [**inputMediaStory**](constructor/inputMediaStory) | Forwarded story |
 | [**inputMediaWebPage**](constructor/inputMediaWebPage) | Specifies options that will be used to generate the link preview for the caption, or even a standalone link preview without an attached message |
 | [**inputMediaPaidMedia**](constructor/inputMediaPaidMedia) | Paid media, see here » for more info |
-| [**inputMediaTodo**](constructor/inputMediaTodo) | NOTHING |
+| [**inputMediaTodo**](constructor/inputMediaTodo) | Creates a todo list » |

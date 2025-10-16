@@ -29,7 +29,8 @@ users.setSecureValueErrors#90c894b5 id:InputUser errors:Vector<SecureValueError>
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
-| **USER_BOT_INVALID** | `403` | User accounts must provide the bot method parameter when calling this method. If there is no such method parameter, this method can only be invoked by bot accounts |
+| **DATA_HASH_SIZE_INVALID** | `400` | The size of the specified secureValueErrorData.data_hash is invalid |
+| **HASH_SIZE_INVALID** | `400` | The size of the specified secureValueError.hash is invalid |
 | **USER_BOT_REQUIRED** | `400` | This method can only be called by a bot |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 
@@ -44,48 +45,48 @@ $bool = $client->users->setSecureValueErrors(
 		$client->secureValueErrorData(
 			type : $client->secureValueTypePersonalDetails(),
 			data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			field : '2GToIiFqWSVLmeXJ',
-			text : 'F8CDpxWjUo56OYlq',
+			field : 'Nuilze4ZC0tbawpr',
+			text : 'VIHi2ewjx4rozpfN',
 		),
 		$client->secureValueErrorFrontSide(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'ylZoVEvJzK0wdxNT',
+			text : 'GvZafz1jmTp6iWHn',
 		),
 		$client->secureValueErrorReverseSide(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'yeWTsZdEYJk3HSNO',
+			text : 'WY4y7sqDXSCh2lx6',
 		),
 		$client->secureValueErrorSelfie(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'dR4NP5MBiZH1YWhL',
+			text : 'iI58JVtbByfK7zLm',
 		),
 		$client->secureValueErrorFile(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'yd6guJRtOoken7Sl',
+			text : '1DzFaQ8RIoSJ6bhv',
 		),
 		$client->secureValueErrorFiles(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-			text : 'abLXKH5yIYrJ8zxS',
+			text : 'hEGv0jVt641KLJkg',
 		),
 		$client->secureValueError(
 			type : $client->secureValueTypePersonalDetails(),
 			hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'mcIDdaUGNBCEPQhR',
+			text : 'THbhLpxf4OiVNmZ7',
 		),
 		$client->secureValueErrorTranslationFile(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : '8st1UIGr7QuMnbH0',
+			text : '8rgwexWGjUov1AlO',
 		),
 		$client->secureValueErrorTranslationFiles(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-			text : 'P8NK3SY5hO1ik7xM',
+			text : 'tXsnWMioDpOGK1mH',
 		),
 	),
 );

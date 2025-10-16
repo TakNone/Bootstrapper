@@ -39,6 +39,6 @@ phone.getGroupCallStreamRtmpUrl#deb3abbf peer:InputPeer revoke:Bool = phone.Grou
 ```php
 $phoneGroupCallStreamRtmpUrl = $client->phone->getGroupCallStreamRtmpUrl(
 	peer : $client->inputPeerEmpty(),
-	revoke : false,
+	revoke : true,
 );
 ```

@@ -38,15 +38,15 @@ $bool = $client->messages->toggleStickerSets(
 	stickersets : array(
 		$client->inputStickerSetEmpty(),
 		$client->inputStickerSetID(
-			id : 5963604144958056872,
-			access_hash : 1479310492483232602,
+			id : 1561057982736072867,
+			access_hash : -2381856878009911576,
 		),
 		$client->inputStickerSetShortName(
-			short_name : 'kNCawevhUs36n0LX',
+			short_name : '24piYJIKLtP8NU7c',
 		),
 		$client->inputStickerSetAnimatedEmoji(),
 		$client->inputStickerSetDice(
-			emoticon : 'S32RhjLfOvyMqw7z',
+			emoticon : 'NRQHWEyDZmULh8d4',
 		),
 		$client->inputStickerSetAnimatedEmojiAnimations(),
 		$client->inputStickerSetPremiumGifts(),

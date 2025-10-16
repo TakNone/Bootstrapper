@@ -1,5 +1,7 @@
 # profileTabVoice
 
+**Description** : *Represents the voice messages tab of a profile page*
+
 **Layer** : 216
 
 ```tl

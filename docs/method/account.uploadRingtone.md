@@ -39,12 +39,12 @@ account.uploadRingtone#831a83a2 file:InputFile file_name:string mime_type:string
 ```php
 $document = $client->account->uploadRingtone(
 	file : $client->inputFile(
-		id : 7681825467391392227,
-		parts : 28,
-		name : '2wsETYmVFR0eC1pW',
+		id : -8679823995572982084,
+		parts : 43,
+		name : 'yvrwHOFqPtnS9RkK',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	file_name : 'FwInR6cae2o0ZL8p',
-	mime_type : 'mLwx7eMzGIXtf5Qj',
+	file_name : '47ERMJNTkAvCLZgo',
+	mime_type : 'zIMyRth38oQKuZ7Y',
 );
 ```

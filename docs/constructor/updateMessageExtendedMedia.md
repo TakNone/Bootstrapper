@@ -31,17 +31,17 @@ updateMessageExtendedMedia#d5a41724 peer:Peer msg_id:int extended_media:Vector<M
 ```php
 $update = $client->updateMessageExtendedMedia(
 	peer : $client->peerUser(
-		user_id : 6743993131411900883,
+		user_id : -9141059670278010058,
 	),
-	msg_id : 29,
+	msg_id : 50,
 	extended_media : array(
 		$client->messageExtendedMediaPreview(
-			w : 65,
-			h : 31,
+			w : 5,
+			h : 85,
 			thumb : $client->photoSizeEmpty(
-				type : 'E4sj8bNtqVYDTBy3',
+				type : 'KGCkHVeYn9moXyaq',
 			),
-			video_duration : 95,
+			video_duration : 54,
 		),
 		$client->messageExtendedMedia(
 			media : $client->messageMediaEmpty(),

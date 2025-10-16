@@ -14,8 +14,8 @@ channels.getSendAs#e785a43f flags:# for_paid_reactions:flags.0?true peer:InputPe
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **for_paid_reactions** | [`flags.0?true`](type/true) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **for_paid_reactions** | [`flags.0?true`](type/true) | If set, fetches the list of peers that can be used to send paid reactions to messages of a specific peer |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The group where we intend to send messages |
 
 ---

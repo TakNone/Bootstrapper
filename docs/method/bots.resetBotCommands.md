@@ -39,6 +39,6 @@ bots.resetBotCommands#3d8de0f9 scope:BotCommandScope lang_code:string = Bool;
 ```php
 $bool = $client->bots->resetBotCommands(
 	scope : $client->botCommandScopeDefault(),
-	lang_code : 'WT3f9KLFPxsJCj84',
+	lang_code : '7Bta1SqrcoZfd5yV',
 );
 ```

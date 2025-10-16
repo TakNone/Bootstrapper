@@ -17,7 +17,7 @@ documentAttributeVideo#43c57c48 flags:# round_message:flags.0?true supports_stre
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **round_message** | [`flags.0?true`](type/true) | Whether this is a round video |
 | **supports_streaming** | [`flags.1?true`](type/true) | Whether the video supports streaming |
-| **nosound** | [`flags.3?true`](type/true) | Whether the specified document is a video file with no audio tracks (a GIF animation (even as MPEG4), for example) |
+| **nosound** | [`flags.3?true`](type/true) | Whether the specified document is a video file with no audio tracks |
 | <mark>duration</mark> | [`double`](type/double) | Duration in seconds |
 | <mark>w</mark> | [`int`](type/int) | Video width |
 | <mark>h</mark> | [`int`](type/int) | Video height |
@@ -40,11 +40,11 @@ $documentAttribute = $client->documentAttributeVideo(
 	round_message : true,
 	supports_streaming : true,
 	nosound : true,
-	duration : 798228.208984375,
-	w : 60,
-	h : 38,
-	preload_prefix_size : 59,
-	video_start_ts : 404927.8876953125,
-	video_codec : 'a6KZyj24C9oxtqIW',
+	duration : 695863.34765625,
+	w : 26,
+	h : 94,
+	preload_prefix_size : 68,
+	video_start_ts : -407155.3271484375,
+	video_codec : '7PzB0hCl1VynELIN',
 );
 ```

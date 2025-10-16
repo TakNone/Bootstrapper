@@ -16,4 +16,4 @@ monoForumDialog#64407ea7 flags:# unread_mark:flags.3?true nopaid_messages_except
 | Constructor | Description |
 | :---: | :--- |
 | [**savedDialog**](constructor/savedDialog) | Represents a saved dialog » |
-| [**monoForumDialog**](constructor/monoForumDialog) | NOTHING |
+| [**monoForumDialog**](constructor/monoForumDialog) | Represents a monoforum topic » |

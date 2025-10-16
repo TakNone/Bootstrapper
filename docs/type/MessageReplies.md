@@ -14,4 +14,4 @@ messageReplies#83d60fc2 flags:# comments:flags.0?true replies:int replies_pts:in
 
 | Constructor | Description |
 | :---: | :--- |
-| [**messageReplies**](constructor/messageReplies) | Info about the comment section of a channel post, or a simple message thread |
+| [**messageReplies**](constructor/messageReplies) | Info about the comment section of a channel post, a simple message thread, a forum topic, or a direct messages topic (all features ultimately based on message threads) |

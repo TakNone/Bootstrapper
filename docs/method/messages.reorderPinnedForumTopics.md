@@ -29,8 +29,8 @@ messages.reorderPinnedForumTopics#e7841f0 flags:# force:flags.0?int peer:InputPe
 
 ```php
 $updates = $client->messages->reorderPinnedForumTopics(
-	force : 8,
+	force : 68,
 	peer : $client->inputPeerEmpty(),
-	order : array(60),
+	order : array(7),
 );
 ```

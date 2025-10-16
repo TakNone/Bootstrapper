@@ -36,6 +36,6 @@ messages.checkQuickReplyShortcut#f1d0fbd3 shortcut:string = Bool;
 
 ```php
 $bool = $client->messages->checkQuickReplyShortcut(
-	shortcut : 'IKgVTtxanoSyCLpe',
+	shortcut : 'UdFk1x2KyhBbu0PT',
 );
 ```

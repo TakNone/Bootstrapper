@@ -39,6 +39,6 @@ messages.deleteScheduledMessages#59ae2b16 peer:InputPeer id:Vector<int> = Update
 ```php
 $updates = $client->messages->deleteScheduledMessages(
 	peer : $client->inputPeerEmpty(),
-	id : array(91),
+	id : array(76),
 );
 ```

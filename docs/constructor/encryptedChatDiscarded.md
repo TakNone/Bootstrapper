@@ -31,6 +31,6 @@ encryptedChatDiscarded#1e1c7c45 flags:# history_deleted:flags.0?true id:int = En
 ```php
 $encryptedChat = $client->encryptedChatDiscarded(
 	history_deleted : true,
-	id : 86,
+	id : 6,
 );
 ```

@@ -46,8 +46,8 @@ $authSentCode = $client->account->sendVerifyPhoneCode(
 		allow_firebase : true,
 		unknown_number : true,
 		logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-		token : 'z0Od7wGHVsUC689m',
-		app_sandbox : false,
+		token : 'RsgeZalWy6dEfCQk',
+		app_sandbox : true,
 	),
 );
 ```

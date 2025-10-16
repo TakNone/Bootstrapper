@@ -31,8 +31,8 @@ birthday#6c8e1e06 flags:# day:int month:int year:flags.0?int = Birthday;
 
 ```php
 $birthday = $client->birthday(
-	day : 73,
-	month : 79,
-	year : 64,
+	day : 19,
+	month : 67,
+	year : 33,
 );
 ```

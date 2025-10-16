@@ -28,6 +28,6 @@ jsonNumber#2be0dfa4 value:double = JSONValue;
 
 ```php
 $jSONValue = $client->jsonNumber(
-	value : -1179585.048828125,
+	value : -999771.1201171875,
 );
 ```

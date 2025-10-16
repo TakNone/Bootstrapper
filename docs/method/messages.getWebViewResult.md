@@ -30,6 +30,6 @@ messages.getWebViewResult#22b6c214 peer:InputPeer bot:InputUser query_id:long = 
 $messagesWebViewResult = $client->messages->getWebViewResult(
 	peer : $client->inputPeerEmpty(),
 	bot : $client->inputUserEmpty(),
-	query_id : -7074088504591820511,
+	query_id : 6617904359770879866,
 );
 ```

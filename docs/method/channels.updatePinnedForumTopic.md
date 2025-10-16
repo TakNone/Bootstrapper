@@ -31,6 +31,7 @@ channels.updatePinnedForumTopic#6c2d9026 channel:InputChannel topic_id:int pinne
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **PINNED_TOO_MUCH** | `400` | There are too many pinned topics, unpin some first |
 | **TOPIC_ID_INVALID** | `400` | The specified topic ID is invalid |
 
 ---
@@ -40,7 +41,7 @@ channels.updatePinnedForumTopic#6c2d9026 channel:InputChannel topic_id:int pinne
 ```php
 $updates = $client->channels->updatePinnedForumTopic(
 	channel : $client->inputChannelEmpty(),
-	topic_id : 16,
+	topic_id : 40,
 	pinned : false,
 );
 ```

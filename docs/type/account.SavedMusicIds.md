@@ -1,5 +1,7 @@
 # account.SavedMusicIds
 
+**Description** : *List of IDs of songs \(document\.ids\) currently pinned on our profile, see here &raquo; for more info*
+
 **Layer** : 216
 
 ```tl
@@ -13,5 +15,5 @@ account.savedMusicIds#998d6636 ids:Vector<long> = account.SavedMusicIds;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**account.savedMusicIdsNotModified**](constructor/account.savedMusicIdsNotModified) | NOTHING |
-| [**account.savedMusicIds**](constructor/account.savedMusicIds) | NOTHING |
+| [**account.savedMusicIdsNotModified**](constructor/account.savedMusicIdsNotModified) | The list of IDs of songs (document.ids) currently pinned on our profile hasn't changed |
+| [**account.savedMusicIds**](constructor/account.savedMusicIds) | List of IDs of songs (document.ids) currently pinned on our profile, see here » for more info |

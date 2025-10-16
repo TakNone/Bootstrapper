@@ -39,6 +39,6 @@ messages.deleteFactCheck#d1da940c peer:InputPeer msg_id:int = Updates;
 ```php
 $updates = $client->messages->deleteFactCheck(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 85,
+	msg_id : 20,
 );
 ```

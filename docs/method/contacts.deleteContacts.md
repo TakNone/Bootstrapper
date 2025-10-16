@@ -40,13 +40,13 @@ $updates = $client->contacts->deleteContacts(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 9066786213375066492,
-			access_hash : -5606224807411748958,
+			user_id : -8268786998058177283,
+			access_hash : 8004580306506449526,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 71,
-			user_id : 5419538370850746584,
+			msg_id : 21,
+			user_id : 9141580006057188136,
 		),
 	),
 );

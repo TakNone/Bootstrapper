@@ -233,7 +233,7 @@
 
 ##### inputMediaTodo
 
-:link: [*NOTHING*](constructor/inputMediaTodo)
+:link: [*Creates a todo list &raquo;*](constructor/inputMediaTodo)
 
 ---
 
@@ -689,7 +689,7 @@
 
 ##### messageMediaToDo
 
-:link: [*NOTHING*](constructor/messageMediaToDo)
+:link: [*Represents a todo list &raquo;*](constructor/messageMediaToDo)
 
 ---
 
@@ -977,61 +977,61 @@
 
 ##### messageActionStarGiftUnique
 
-:link: [*NOTHING*](constructor/messageActionStarGiftUnique)
+:link: [*A gift &raquo; was upgraded to a collectible gift &raquo;*](constructor/messageActionStarGiftUnique)
 
 ---
 
 ##### messageActionPaidMessagesRefunded
 
-:link: [*NOTHING*](constructor/messageActionPaidMessagesRefunded)
+:link: [*Sent from peer A to B, indicates that A refunded all stars B previously paid to send messages to A, see here &raquo; for more info on paid messages*](constructor/messageActionPaidMessagesRefunded)
 
 ---
 
 ##### messageActionPaidMessagesPrice
 
-:link: [*NOTHING*](constructor/messageActionPaidMessagesPrice)
+:link: [*The price of paid messages &raquo; in this chat was changed*](constructor/messageActionPaidMessagesPrice)
 
 ---
 
 ##### messageActionConferenceCall
 
-:link: [*NOTHING*](constructor/messageActionConferenceCall)
+:link: [*Represents a conference call \(or an invitation to a conference call, if neither the missed nor active flags are set\)*](constructor/messageActionConferenceCall)
 
 ---
 
 ##### messageActionTodoCompletions
 
-:link: [*NOTHING*](constructor/messageActionTodoCompletions)
+:link: [*Items were marked as completed or not completed in a todo list &raquo;*](constructor/messageActionTodoCompletions)
 
 ---
 
 ##### messageActionTodoAppendTasks
 
-:link: [*NOTHING*](constructor/messageActionTodoAppendTasks)
+:link: [*Items were appended to the todo list &raquo;*](constructor/messageActionTodoAppendTasks)
 
 ---
 
 ##### messageActionSuggestedPostApproval
 
-:link: [*NOTHING*](constructor/messageActionSuggestedPostApproval)
+:link: [*A suggested post &raquo; was approved or rejected*](constructor/messageActionSuggestedPostApproval)
 
 ---
 
 ##### messageActionSuggestedPostSuccess
 
-:link: [*NOTHING*](constructor/messageActionSuggestedPostSuccess)
+:link: [*A suggested post &raquo; was successfully posted, and payment for it was successfully received*](constructor/messageActionSuggestedPostSuccess)
 
 ---
 
 ##### messageActionSuggestedPostRefund
 
-:link: [*NOTHING*](constructor/messageActionSuggestedPostRefund)
+:link: [*A suggested post &raquo; was accepted and posted or scheduled, but either the channel deleted the posted/scheduled post before stars\_suggested\_post\_age\_min seconds have elapsed, or the user refunded the payment for the stars used to pay for the suggested post*](constructor/messageActionSuggestedPostRefund)
 
 ---
 
 ##### messageActionGiftTon
 
-:link: [*NOTHING*](constructor/messageActionGiftTon)
+:link: [*You were gifted some toncoins*](constructor/messageActionGiftTon)
 
 ---
 
@@ -1163,7 +1163,7 @@
 
 ##### auth sentCodePaymentRequired
 
-:link: [*NOTHING*](constructor/auth.sentCodePaymentRequired)
+:link: [*Official apps may receive this constructor, indicating that due to the high cost of SMS verification codes for the user&#039;s country/provider, the user must purchase a Telegram Premium subscription in order to proceed with the login/signup*](constructor/auth.sentCodePaymentRequired)
 
 ---
 
@@ -1673,7 +1673,7 @@
 
 ##### updateReadMessagesContents
 
-:link: [*Contents of messages in the common message box were read*](constructor/updateReadMessagesContents)
+:link: [*Contents of messages in the common message box were read \(emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using messages\.readMessageContents\)*](constructor/updateReadMessagesContents)
 
 ---
 
@@ -1884,7 +1884,7 @@ If the difference is too long or if the channel isn&#039;t currently in the stat
 
 ##### updateChannelReadMessagesContents
 
-:link: [*The specified channel/supergroup messages were read*](constructor/updateChannelReadMessagesContents)
+:link: [*The specified channel/supergroup messages were read \(emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using channels\.readMessageContents\)*](constructor/updateChannelReadMessagesContents)
 
 ---
 
@@ -2377,31 +2377,31 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### updateSentPhoneCode
 
-:link: [*NOTHING*](constructor/updateSentPhoneCode)
+:link: [*A paid login SMS code was successfully sent*](constructor/updateSentPhoneCode)
 
 ---
 
 ##### updateGroupCallChainBlocks
 
-:link: [*NOTHING*](constructor/updateGroupCallChainBlocks)
+:link: [*Contains updates to the blockchain of a conference call, see here &raquo; for more info*](constructor/updateGroupCallChainBlocks)
 
 ---
 
 ##### updateReadMonoForumInbox
 
-:link: [*NOTHING*](constructor/updateReadMonoForumInbox)
+:link: [*Incoming messages in a monoforum topic were read*](constructor/updateReadMonoForumInbox)
 
 ---
 
 ##### updateReadMonoForumOutbox
 
-:link: [*NOTHING*](constructor/updateReadMonoForumOutbox)
+:link: [*Outgoing messages in a monoforum were read*](constructor/updateReadMonoForumOutbox)
 
 ---
 
 ##### updateMonoForumNoPaidException
 
-:link: [*NOTHING*](constructor/updateMonoForumNoPaidException)
+:link: [*An admin has \(un\)exempted this monoforum topic &raquo; from payment to send messages using account\.toggleNoPaidMessagesException*](constructor/updateMonoForumNoPaidException)
 
 ---
 
@@ -2941,7 +2941,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### inputPrivacyKeyNoPaidMessages
 
-:link: [*NOTHING*](constructor/inputPrivacyKeyNoPaidMessages)
+:link: [*Who can send you messages without paying, if paid messages &raquo; are enabled*](constructor/inputPrivacyKeyNoPaidMessages)
 
 ---
 
@@ -3019,7 +3019,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### privacyKeyNoPaidMessages
 
-:link: [*NOTHING*](constructor/privacyKeyNoPaidMessages)
+:link: [*Who can send you messages without paying, if paid messages &raquo; are enabled*](constructor/privacyKeyNoPaidMessages)
 
 ---
 
@@ -3434,7 +3434,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ##### inputStickerSetTonGifts
 
-:link: [*NOTHING*](constructor/inputStickerSetTonGifts)
+:link: [*TON gifts stickerset*](constructor/inputStickerSetTonGifts)
 
 ---
 
@@ -4697,7 +4697,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ##### phoneCallDiscardReasonMigrateConferenceCall
 
-:link: [*NOTHING*](constructor/phoneCallDiscardReasonMigrateConferenceCall)
+:link: [*This phone call was migrated to a conference call*](constructor/phoneCallDiscardReasonMigrateConferenceCall)
 
 ---
 
@@ -5303,7 +5303,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ##### channelAdminLogEventActionToggleAutotranslation
 
-:link: [*NOTHING*](constructor/channelAdminLogEventActionToggleAutotranslation)
+:link: [*Channel autotranslation was toggled &raquo;*](constructor/channelAdminLogEventActionToggleAutotranslation)
 
 ---
 
@@ -6239,13 +6239,13 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ##### webPageAttributeUniqueStarGift
 
-:link: [*NOTHING*](constructor/webPageAttributeUniqueStarGift)
+:link: [*Contains info about collectible gift &raquo; for a webPage preview of a collectible gift &raquo; \(the webPage will have a type of telegram\_nft\)*](constructor/webPageAttributeUniqueStarGift)
 
 ---
 
 ##### webPageAttributeStarGiftCollection
 
-:link: [*NOTHING*](constructor/webPageAttributeStarGiftCollection)
+:link: [*Contains info about a gift collection &raquo; for a webPage preview of a gift collection &raquo; \(the webPage will have a type of telegram\_collection\)*](constructor/webPageAttributeStarGiftCollection)
 
 ---
 
@@ -6342,7 +6342,7 @@ Compute the percentage simply by doing part \* total / 100*](constructor/statsPe
 
 ##### help promoData
 
-:link: [*MTProxy/Public Service Announcement information*](constructor/help.promoData)
+:link: [*A set of useful suggestions and a PSA/MTProxy sponsored peer, see here &raquo; for more info*](constructor/help.promoData)
 
 ---
 
@@ -6450,7 +6450,7 @@ Compute the percentage simply by doing part \* total / 100*](constructor/statsPe
 
 ##### messageReplies
 
-:link: [*Info about the comment section of a channel post, or a simple message thread*](constructor/messageReplies)
+:link: [*Info about the comment section of a channel post, a simple message thread, a forum topic, or a direct messages topic \(all features ultimately based on message threads\)*](constructor/messageReplies)
 
 ---
 
@@ -6486,13 +6486,13 @@ Compute the percentage simply by doing part \* total / 100*](constructor/statsPe
 
 ##### inputGroupCallSlug
 
-:link: [*NOTHING*](constructor/inputGroupCallSlug)
+:link: [*Join a conference call through an invitation link &raquo;*](constructor/inputGroupCallSlug)
 
 ---
 
 ##### inputGroupCallInviteMessage
 
-:link: [*NOTHING*](constructor/inputGroupCallInviteMessage)
+:link: [*Join a group call through a messageActionConferenceCall invitation message*](constructor/inputGroupCallInviteMessage)
 
 ---
 
@@ -6715,13 +6715,19 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### chatThemeUniqueGift
 
-:link: [*NOTHING*](constructor/chatThemeUniqueGift)
+:link: [*A chat theme based on a collectible gift &raquo;*](constructor/chatThemeUniqueGift)
 
 ---
 
 ##### account chatThemes
 
 :link: [*Available chat themes*](constructor/account.chatThemes)
+
+---
+
+##### account chatThemesNotModified
+
+:link: [*The available chat themes were not modified*](constructor/account.chatThemesNotModified)
 
 ---
 
@@ -7033,37 +7039,37 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### inputInvoiceStarGiftUpgrade
 
-:link: [*NOTHING*](constructor/inputInvoiceStarGiftUpgrade)
+:link: [*Used to pay to upgrade a Gift to a collectible gift, see the collectible gifts &raquo; documentation for more info on the full flow*](constructor/inputInvoiceStarGiftUpgrade)
 
 ---
 
 ##### inputInvoiceStarGiftTransfer
 
-:link: [*NOTHING*](constructor/inputInvoiceStarGiftTransfer)
+:link: [*Used to pay to transfer a collectible gift to another peer, see the gifts &raquo; documentation for more info*](constructor/inputInvoiceStarGiftTransfer)
 
 ---
 
 ##### inputInvoicePremiumGiftStars
 
-:link: [*NOTHING*](constructor/inputInvoicePremiumGiftStars)
+:link: [*Used to gift a Telegram Premium subscription to another user, paying with Telegram Stars*](constructor/inputInvoicePremiumGiftStars)
 
 ---
 
 ##### inputInvoiceBusinessBotTransferStars
 
-:link: [*NOTHING*](constructor/inputInvoiceBusinessBotTransferStars)
+:link: [*Transfer stars from the balance of a user account connected to a business bot, to the balance of the business bot, see here &raquo; for more info on the full flow*](constructor/inputInvoiceBusinessBotTransferStars)
 
 ---
 
 ##### inputInvoiceStarGiftResale
 
-:link: [*NOTHING*](constructor/inputInvoiceStarGiftResale)
+:link: [*Used to buy a collectible gift currently up on resale, see here for more info on the full flow*](constructor/inputInvoiceStarGiftResale)
 
 ---
 
 ##### inputInvoiceStarGiftPrepaidUpgrade
 
-:link: [*NOTHING*](constructor/inputInvoiceStarGiftPrepaidUpgrade)
+:link: [*Separately prepay for the upgrade of a gift &raquo;*](constructor/inputInvoiceStarGiftPrepaidUpgrade)
 
 ---
 
@@ -7141,7 +7147,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### inputStorePaymentAuthCode
 
-:link: [*NOTHING*](constructor/inputStorePaymentAuthCode)
+:link: [*Indicates payment for a login code*](constructor/inputStorePaymentAuthCode)
 
 ---
 
@@ -7165,13 +7171,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### emojiStatusCollectible
 
-:link: [*NOTHING*](constructor/emojiStatusCollectible)
+:link: [*An owned collectible gift &raquo; as emoji status*](constructor/emojiStatusCollectible)
 
 ---
 
 ##### inputEmojiStatusCollectible
 
-:link: [*NOTHING*](constructor/inputEmojiStatusCollectible)
+:link: [*An owned collectible gift &raquo; as emoji status: can only be used in account\.updateEmojiStatus, is never returned by the API*](constructor/inputEmojiStatusCollectible)
 
 ---
 
@@ -7651,7 +7657,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### inputReplyToMonoForum
 
-:link: [*NOTHING*](constructor/inputReplyToMonoForum)
+:link: [*Used to send messages to a monoforum topic*](constructor/inputReplyToMonoForum)
 
 ---
 
@@ -7669,7 +7675,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### mediaAreaCoordinates
 
-:link: [*Coordinates and size of a clicable rectangular area on top of a story*](constructor/mediaAreaCoordinates)
+:link: [*Coordinates and size of a clickable rectangular area on top of a story*](constructor/mediaAreaCoordinates)
 
 ---
 
@@ -7723,7 +7729,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### mediaAreaStarGift
 
-:link: [*NOTHING*](constructor/mediaAreaStarGift)
+:link: [*Represents a collectible gift &raquo;*](constructor/mediaAreaStarGift)
 
 ---
 
@@ -7933,7 +7939,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### monoForumDialog
 
-:link: [*NOTHING*](constructor/monoForumDialog)
+:link: [*Represents a monoforum topic &raquo;*](constructor/monoForumDialog)
 
 ---
 
@@ -8383,7 +8389,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### starsTransaction
 
-:link: [*Represents a Telegram Stars transaction &raquo;*](constructor/starsTransaction)
+:link: [*Represents a Telegram Stars or TON transaction &raquo;*](constructor/starsTransaction)
 
 ---
 
@@ -8503,7 +8509,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### starGiftUnique
 
-:link: [*NOTHING*](constructor/starGiftUnique)
+:link: [*Represents a collectible star gift, see here &raquo; for more info*](constructor/starGiftUnique)
 
 ---
 
@@ -8593,7 +8599,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### starsTonAmount
 
-:link: [*NOTHING*](constructor/starsTonAmount)
+:link: [*Describes an amount of toncoin in nanotons \(i\.e\. 1/1\_000\_000\_000 of a toncoin\)*](constructor/starsTonAmount)
 
 ---
 
@@ -8611,397 +8617,397 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### botVerifierSettings
 
-:link: [*NOTHING*](constructor/botVerifierSettings)
+:link: [*Info about the current verifier bot &raquo;*](constructor/botVerifierSettings)
 
 ---
 
 ##### botVerification
 
-:link: [*NOTHING*](constructor/botVerification)
+:link: [*Describes a bot verification icon &raquo;*](constructor/botVerification)
 
 ---
 
 ##### starGiftAttributeModel
 
-:link: [*NOTHING*](constructor/starGiftAttributeModel)
+:link: [*The model of a collectible gift &raquo;*](constructor/starGiftAttributeModel)
 
 ---
 
 ##### starGiftAttributePattern
 
-:link: [*NOTHING*](constructor/starGiftAttributePattern)
+:link: [*A sticker applied on the backdrop of a collectible gift &raquo; using a repeating pattern*](constructor/starGiftAttributePattern)
 
 ---
 
 ##### starGiftAttributeBackdrop
 
-:link: [*NOTHING*](constructor/starGiftAttributeBackdrop)
+:link: [*The backdrop of a collectible gift &raquo;*](constructor/starGiftAttributeBackdrop)
 
 ---
 
 ##### starGiftAttributeOriginalDetails
 
-:link: [*NOTHING*](constructor/starGiftAttributeOriginalDetails)
+:link: [*Info about the sender, receiver and message attached to the original gift &raquo;, before it was upgraded to a collectible gift &raquo;*](constructor/starGiftAttributeOriginalDetails)
 
 ---
 
 ##### payments starGiftUpgradePreview
 
-:link: [*NOTHING*](constructor/payments.starGiftUpgradePreview)
+:link: [*A preview of the possible attributes \(chosen randomly\) a gift &raquo; can receive after upgrading it to a collectible gift &raquo;, see here &raquo; for more info*](constructor/payments.starGiftUpgradePreview)
 
 ---
 
 ##### users users
 
-:link: [*NOTHING*](constructor/users.users)
+:link: [*Describes a list of users \(or bots\)*](constructor/users.users)
 
 ---
 
 ##### users usersSlice
 
-:link: [*NOTHING*](constructor/users.usersSlice)
+:link: [*Describes a partial list of users*](constructor/users.usersSlice)
 
 ---
 
 ##### payments uniqueStarGift
 
-:link: [*NOTHING*](constructor/payments.uniqueStarGift)
+:link: [*Represents a collectible gift &raquo;*](constructor/payments.uniqueStarGift)
 
 ---
 
 ##### messages webPagePreview
 
-:link: [*NOTHING*](constructor/messages.webPagePreview)
+:link: [*Represents a webpage preview*](constructor/messages.webPagePreview)
 
 ---
 
 ##### savedStarGift
 
-:link: [*NOTHING*](constructor/savedStarGift)
+:link: [*Represents a gift owned by a peer*](constructor/savedStarGift)
 
 ---
 
 ##### payments savedStarGifts
 
-:link: [*NOTHING*](constructor/payments.savedStarGifts)
+:link: [*Represents a list of gifts*](constructor/payments.savedStarGifts)
 
 ---
 
 ##### inputSavedStarGiftUser
 
-:link: [*NOTHING*](constructor/inputSavedStarGiftUser)
+:link: [*A gift received in a private chat with another user*](constructor/inputSavedStarGiftUser)
 
 ---
 
 ##### inputSavedStarGiftChat
 
-:link: [*NOTHING*](constructor/inputSavedStarGiftChat)
+:link: [*A gift received by a channel we own*](constructor/inputSavedStarGiftChat)
 
 ---
 
 ##### inputSavedStarGiftSlug
 
-:link: [*NOTHING*](constructor/inputSavedStarGiftSlug)
+:link: [*Points to a collectible gift obtained from a collectible gift link &raquo;*](constructor/inputSavedStarGiftSlug)
 
 ---
 
 ##### payments starGiftWithdrawalUrl
 
-:link: [*NOTHING*](constructor/payments.starGiftWithdrawalUrl)
+:link: [*A URL that can be used to import the exported NFT on Fragment*](constructor/payments.starGiftWithdrawalUrl)
 
 ---
 
 ##### paidReactionPrivacyDefault
 
-:link: [*NOTHING*](constructor/paidReactionPrivacyDefault)
+:link: [*Uses the default reaction privacy, set using messages\.togglePaidReactionPrivacy*](constructor/paidReactionPrivacyDefault)
 
 ---
 
 ##### paidReactionPrivacyAnonymous
 
-:link: [*NOTHING*](constructor/paidReactionPrivacyAnonymous)
+:link: [*Send paid reactions anonymously*](constructor/paidReactionPrivacyAnonymous)
 
 ---
 
 ##### paidReactionPrivacyPeer
 
-:link: [*NOTHING*](constructor/paidReactionPrivacyPeer)
+:link: [*Send paid reactions as the specified peer, fetched using channels\.getSendAs*](constructor/paidReactionPrivacyPeer)
 
 ---
 
 ##### account paidMessagesRevenue
 
-:link: [*NOTHING*](constructor/account.paidMessagesRevenue)
+:link: [*Total number of non\-refunded Telegram Stars a user has spent on sending us messages either directly or through a channel, see here &raquo; for more info on paid messages*](constructor/account.paidMessagesRevenue)
 
 ---
 
 ##### requirementToContactEmpty
 
-:link: [*NOTHING*](constructor/requirementToContactEmpty)
+:link: [*This user can be freely contacted*](constructor/requirementToContactEmpty)
 
 ---
 
 ##### requirementToContactPremium
 
-:link: [*NOTHING*](constructor/requirementToContactPremium)
+:link: [*This user requires us to buy a Premium subscription in order to contact them*](constructor/requirementToContactPremium)
 
 ---
 
 ##### requirementToContactPaidMessages
 
-:link: [*NOTHING*](constructor/requirementToContactPaidMessages)
+:link: [*This user requires us to pay the specified amount of Telegram Stars to send them a message, see here &raquo; for the full flow*](constructor/requirementToContactPaidMessages)
 
 ---
 
 ##### businessBotRights
 
-:link: [*NOTHING*](constructor/businessBotRights)
+:link: [*Business bot rights*](constructor/businessBotRights)
 
 ---
 
 ##### disallowedGiftsSettings
 
-:link: [*NOTHING*](constructor/disallowedGiftsSettings)
+:link: [*Disallow the reception of specific gift types*](constructor/disallowedGiftsSettings)
 
 ---
 
 ##### sponsoredPeer
 
-:link: [*NOTHING*](constructor/sponsoredPeer)
+:link: [*A sponsored peer*](constructor/sponsoredPeer)
 
 ---
 
 ##### contacts sponsoredPeersEmpty
 
-:link: [*NOTHING*](constructor/contacts.sponsoredPeersEmpty)
+:link: [*There are no sponsored peers for this query*](constructor/contacts.sponsoredPeersEmpty)
 
 ---
 
 ##### contacts sponsoredPeers
 
-:link: [*NOTHING*](constructor/contacts.sponsoredPeers)
+:link: [*Sponsored peers*](constructor/contacts.sponsoredPeers)
 
 ---
 
 ##### starGiftAttributeIdModel
 
-:link: [*NOTHING*](constructor/starGiftAttributeIdModel)
+:link: [*The ID of a model of a collectible gift &raquo;*](constructor/starGiftAttributeIdModel)
 
 ---
 
 ##### starGiftAttributeIdPattern
 
-:link: [*NOTHING*](constructor/starGiftAttributeIdPattern)
+:link: [*The ID of a pattern of a collectible gift &raquo;*](constructor/starGiftAttributeIdPattern)
 
 ---
 
 ##### starGiftAttributeIdBackdrop
 
-:link: [*NOTHING*](constructor/starGiftAttributeIdBackdrop)
+:link: [*The ID of a backdrop of a collectible gift &raquo;*](constructor/starGiftAttributeIdBackdrop)
 
 ---
 
 ##### starGiftAttributeCounter
 
-:link: [*NOTHING*](constructor/starGiftAttributeCounter)
+:link: [*Indicates the total number of gifts that have the specified attribute*](constructor/starGiftAttributeCounter)
 
 ---
 
 ##### payments resaleStarGifts
 
-:link: [*NOTHING*](constructor/payments.resaleStarGifts)
+:link: [*List of gifts currently on resale &raquo;*](constructor/payments.resaleStarGifts)
 
 ---
 
 ##### stories canSendStoryCount
 
-:link: [*NOTHING*](constructor/stories.canSendStoryCount)
+:link: [*Contains the number of available active story slots \(equal to the value of the story\_expiring\_limit\_\* client configuration parameter minus the number of currently active stories\)*](constructor/stories.canSendStoryCount)
 
 ---
 
 ##### pendingSuggestion
 
-:link: [*NOTHING*](constructor/pendingSuggestion)
+:link: [*Represents a custom pending suggestion &raquo;*](constructor/pendingSuggestion)
 
 ---
 
 ##### todoItem
 
-:link: [*NOTHING*](constructor/todoItem)
+:link: [*An item of a todo list &raquo;*](constructor/todoItem)
 
 ---
 
 ##### todoList
 
-:link: [*NOTHING*](constructor/todoList)
+:link: [*Represents a todo list &raquo;*](constructor/todoList)
 
 ---
 
 ##### todoCompletion
 
-:link: [*NOTHING*](constructor/todoCompletion)
+:link: [*A completed todo list &raquo; item*](constructor/todoCompletion)
 
 ---
 
 ##### suggestedPost
 
-:link: [*NOTHING*](constructor/suggestedPost)
+:link: [*Contains info about a suggested post &raquo;*](constructor/suggestedPost)
 
 ---
 
 ##### starsRating
 
-:link: [*NOTHING*](constructor/starsRating)
+:link: [*Represents the profile&#039;s star rating, see here &raquo; for more info*](constructor/starsRating)
 
 ---
 
 ##### starGiftCollection
 
-:link: [*NOTHING*](constructor/starGiftCollection)
+:link: [*Represents a star gift collection &raquo;*](constructor/starGiftCollection)
 
 ---
 
 ##### payments starGiftCollectionsNotModified
 
-:link: [*NOTHING*](constructor/payments.starGiftCollectionsNotModified)
+:link: [*The list of star gift collections &raquo; hasn&#039;t changed*](constructor/payments.starGiftCollectionsNotModified)
 
 ---
 
 ##### payments starGiftCollections
 
-:link: [*NOTHING*](constructor/payments.starGiftCollections)
+:link: [*Represents a list of star gift collections &raquo;*](constructor/payments.starGiftCollections)
 
 ---
 
 ##### storyAlbum
 
-:link: [*NOTHING*](constructor/storyAlbum)
+:link: [*Represents a story album &raquo;*](constructor/storyAlbum)
 
 ---
 
 ##### stories albumsNotModified
 
-:link: [*NOTHING*](constructor/stories.albumsNotModified)
+:link: [*The story album list &raquo; hasn&#039;t changed*](constructor/stories.albumsNotModified)
 
 ---
 
 ##### stories albums
 
-:link: [*NOTHING*](constructor/stories.albums)
+:link: [*Story albums &raquo;*](constructor/stories.albums)
 
 ---
 
 ##### searchPostsFlood
 
-:link: [*NOTHING*](constructor/searchPostsFlood)
+:link: [*Indicates if the specified global post search &raquo; requires payment*](constructor/searchPostsFlood)
 
 ---
 
 ##### payments uniqueStarGiftValueInfo
 
-:link: [*NOTHING*](constructor/payments.uniqueStarGiftValueInfo)
+:link: [*Information about the value of a collectible gift &raquo;*](constructor/payments.uniqueStarGiftValueInfo)
 
 ---
 
 ##### profileTabPosts
 
-:link: [*NOTHING*](constructor/profileTabPosts)
+:link: [*Represents the stories tab of a profile page*](constructor/profileTabPosts)
 
 ---
 
 ##### profileTabGifts
 
-:link: [*NOTHING*](constructor/profileTabGifts)
+:link: [*Represents the gifts tab of a profile page*](constructor/profileTabGifts)
 
 ---
 
 ##### profileTabMedia
 
-:link: [*NOTHING*](constructor/profileTabMedia)
+:link: [*Represents the media tab of a profile page*](constructor/profileTabMedia)
 
 ---
 
 ##### profileTabFiles
 
-:link: [*NOTHING*](constructor/profileTabFiles)
+:link: [*Represents the shared files tab of a profile*](constructor/profileTabFiles)
 
 ---
 
 ##### profileTabMusic
 
-:link: [*NOTHING*](constructor/profileTabMusic)
+:link: [*Represents the music tab of a profile page*](constructor/profileTabMusic)
 
 ---
 
 ##### profileTabVoice
 
-:link: [*NOTHING*](constructor/profileTabVoice)
+:link: [*Represents the voice messages tab of a profile page*](constructor/profileTabVoice)
 
 ---
 
 ##### profileTabLinks
 
-:link: [*NOTHING*](constructor/profileTabLinks)
+:link: [*Represents the shared links tab of a profile page*](constructor/profileTabLinks)
 
 ---
 
 ##### profileTabGifs
 
-:link: [*NOTHING*](constructor/profileTabGifs)
+:link: [*Represents the gifs tab of a profile page*](constructor/profileTabGifs)
 
 ---
 
 ##### users savedMusicNotModified
 
-:link: [*NOTHING*](constructor/users.savedMusicNotModified)
+:link: [*This subset of the songs currently pinned on a user&#039;s profile hasn&#039;t changed, see here &raquo; for more info*](constructor/users.savedMusicNotModified)
 
 ---
 
 ##### users savedMusic
 
-:link: [*NOTHING*](constructor/users.savedMusic)
+:link: [*List of songs currently pinned on a user&#039;s profile, see here &raquo; for more info*](constructor/users.savedMusic)
 
 ---
 
 ##### account savedMusicIdsNotModified
 
-:link: [*NOTHING*](constructor/account.savedMusicIdsNotModified)
+:link: [*The list of IDs of songs \(document\.ids\) currently pinned on our profile hasn&#039;t changed*](constructor/account.savedMusicIdsNotModified)
 
 ---
 
 ##### account savedMusicIds
 
-:link: [*NOTHING*](constructor/account.savedMusicIds)
+:link: [*List of IDs of songs \(document\.ids\) currently pinned on our profile, see here &raquo; for more info*](constructor/account.savedMusicIds)
 
 ---
 
 ##### payments checkCanSendGiftResultOk
 
-:link: [*NOTHING*](constructor/payments.checkCanSendGiftResultOk)
+:link: [*The specified gift can be sent*](constructor/payments.checkCanSendGiftResultOk)
 
 ---
 
 ##### payments checkCanSendGiftResultFail
 
-:link: [*NOTHING*](constructor/payments.checkCanSendGiftResultFail)
+:link: [*The specified gift cannot be sent yet for the specified reason*](constructor/payments.checkCanSendGiftResultFail)
 
 ---
 
 ##### inputChatThemeEmpty
 
-:link: [*NOTHING*](constructor/inputChatThemeEmpty)
+:link: [*Remove any currently configured theme*](constructor/inputChatThemeEmpty)
 
 ---
 
 ##### inputChatTheme
 
-:link: [*NOTHING*](constructor/inputChatTheme)
+:link: [*Set an emoji\-based chat theme, returned by account\.getChatThemes*](constructor/inputChatTheme)
 
 ---
 
 ##### inputChatThemeUniqueGift
 
-:link: [*NOTHING*](constructor/inputChatThemeUniqueGift)
+:link: [*Set a theme based on an owned collectible gift &raquo;, returned by account\.getUniqueGiftChatThemes*](constructor/inputChatThemeUniqueGift)
 
 ---
 

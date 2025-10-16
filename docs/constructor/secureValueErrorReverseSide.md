@@ -32,6 +32,6 @@ secureValueErrorReverseSide#868a2aa5 type:SecureValueType file_hash:bytes text:s
 $secureValueError = $client->secureValueErrorReverseSide(
 	type : $client->secureValueTypePersonalDetails(),
 	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	text : '16JvrTkaNn2HRE3d',
+	text : '24q9tICjv8GrBugO',
 );
 ```

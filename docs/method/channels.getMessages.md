@@ -31,6 +31,8 @@ channels.getMessages#ad8c9a23 channel:InputChannel id:Vector<InputMessage> = mes
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
+| **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
+| **FROZEN_PARTICIPANT_MISSING** | `400` | The current account is frozen, and cannot access the specified peer |
 | **MESSAGE_IDS_EMPTY** | `400` | No message ids were provided |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **USER_BANNED_IN_CHANNEL** | `400` | You're banned from sending messages in supergroups/channels |
@@ -44,15 +46,15 @@ $messagesMessages = $client->channels->getMessages(
 	channel : $client->inputChannelEmpty(),
 	id : array(
 		$client->inputMessageID(
-			id : 91,
+			id : 44,
 		),
 		$client->inputMessageReplyTo(
-			id : 84,
+			id : 81,
 		),
 		$client->inputMessagePinned(),
 		$client->inputMessageCallbackQuery(
-			id : 39,
-			query_id : 1906595270668808745,
+			id : 90,
+			query_id : -5146879642895547758,
 		),
 	),
 );

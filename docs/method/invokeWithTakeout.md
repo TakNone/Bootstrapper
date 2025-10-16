@@ -29,7 +29,7 @@ invokeWithTakeout#aca9fd2e {X:Type} takeout_id:long query:!X = X;
 
 ```php
 $x = $client->invokeWithTakeout(
-	takeout_id : 1711704291193860351,
+	takeout_id : 1771757837124510986,
 	query : $client->help->getConfig(raw : true),
 );
 ```

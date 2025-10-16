@@ -1,5 +1,7 @@
 # paidReactionPrivacyDefault
 
+**Description** : *Uses the default reaction privacy, set using messages\.togglePaidReactionPrivacy*
+
 **Layer** : 216
 
 ```tl

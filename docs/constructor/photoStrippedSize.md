@@ -29,7 +29,7 @@ photoStrippedSize#e0b0bc2e type:string bytes:bytes = PhotoSize;
 
 ```php
 $photoSize = $client->photoStrippedSize(
-	type : 'pybdkPzo2WfMQYm4',
+	type : 'hl3uGnxfgyKHWNTb',
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

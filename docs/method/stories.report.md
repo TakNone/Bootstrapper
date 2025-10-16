@@ -40,8 +40,8 @@ stories.report#19d8eb45 peer:InputPeer id:Vector<int> option:bytes message:strin
 ```php
 $reportResult = $client->stories->report(
 	peer : $client->inputPeerEmpty(),
-	id : array(79),
+	id : array(28),
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	message : '8kfdclOy3VtBixmZ',
+	message : 'IPDsgfFr7tkHGpcJ',
 );
 ```

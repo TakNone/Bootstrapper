@@ -1,5 +1,7 @@
 # stories.reorderAlbums
 
+**Description** : *Reorder story albums on a profile &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,8 +14,8 @@ stories.reorderAlbums#8535fbd9 peer:InputPeer order:Vector<int> = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>order</mark> | [`Vector<int>`](type/int) | NOTHING |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer where the albums are located |
+| <mark>order</mark> | [`Vector<int>`](type/int) | New order of the albums |
 
 ---
 
@@ -23,11 +25,19 @@ stories.reorderAlbums#8535fbd9 peer:InputPeer order:Vector<int> = Bool;
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+
+---
+
 ## Example
 
 ```php
 $bool = $client->stories->reorderAlbums(
 	peer : $client->inputPeerEmpty(),
-	order : array(99),
+	order : array(92),
 );
 ```

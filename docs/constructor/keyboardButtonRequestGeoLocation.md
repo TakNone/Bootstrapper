@@ -28,6 +28,6 @@ keyboardButtonRequestGeoLocation#fc796b3f text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestGeoLocation(
-	text : 'fvnhVQtGzjqNsE9i',
+	text : 'FNzvZ3csDQxXj9GJ',
 );
 ```

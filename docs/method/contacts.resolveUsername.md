@@ -31,6 +31,7 @@ contacts.resolveUsername#725afbbc flags:# username:string referer:flags.0?string
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CONNECTION_LAYER_INVALID** | `400` | Layer invalid |
+| **STARREF_EXPIRED** | `400` | The specified referral link is invalid |
 | **USERNAME_INVALID** | `400` | The provided username is not valid |
 | **USERNAME_NOT_OCCUPIED** | `400` | The provided username is not occupied |
 
@@ -41,6 +42,6 @@ contacts.resolveUsername#725afbbc flags:# username:string referer:flags.0?string
 ```php
 $contactsResolvedPeer = $client->contacts->resolveUsername(
 	username : 'TakNone',
-	referer : '9ReXJPkSu8xE3trF',
+	referer : 'yjekC1P0fQ83dDBg',
 );
 ```

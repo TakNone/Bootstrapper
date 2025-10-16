@@ -39,6 +39,6 @@ account.getBotBusinessConnection#76a86270 connection_id:string = Updates;
 
 ```php
 $updates = $client->account->getBotBusinessConnection(
-	connection_id : 'oLI1CWzR20vf8wel',
+	connection_id : 'L38mGTMOqUF9N1P5',
 );
 ```

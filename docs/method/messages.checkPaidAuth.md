@@ -30,6 +30,6 @@ messages.checkPaidAuth#56e59f9c phone_number:string phone_code_hash:string form_
 $authSentCode = $client->messages->checkPaidAuth(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	form_id : -4340679029964617433,
+	form_id : -4004883254985316341,
 );
 ```

@@ -1,5 +1,7 @@
 # payments.checkCanSendGiftResultFail
 
+**Description** : *The specified gift cannot be sent yet for the specified reason*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ payments.checkCanSendGiftResultFail#d5e58274 reason:TextWithEntities = payments.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>reason</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
+| <mark>reason</mark> | [`TextWithEntities`](type/TextWithEntities) | The reason why it can't be sent yet |
 
 ---
 
@@ -27,97 +29,97 @@ payments.checkCanSendGiftResultFail#d5e58274 reason:TextWithEntities = payments.
 ```php
 $paymentsCheckCanSendGiftResult = $client->payments->checkCanSendGiftResultFail(
 	reason : $client->textWithEntities(
-		text : 'DO6gp92W7PEkCHyK',
+		text : 'QgjuyrxlMmVToJWX',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 22,
+				length : 4,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 26,
+				length : 22,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 72,
+				length : 78,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 73,
+				length : 70,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 65,
+				length : 26,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 40,
+				length : 75,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 18,
+				length : 68,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 1,
+				length : 87,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 85,
+				length : 83,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 16,
-				language : '3I8aH2oSg6dEsqrV',
+				length : 8,
+				language : 'RbJiTXa9IPpCzLAl',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 18,
+				length : 40,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 57,
-				user_id : 5096645102866553788,
+				length : 11,
+				user_id : -4073482958467358018,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 59,
+				length : 70,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 78,
+				length : 51,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 99,
+				length : 73,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 55,
+				length : 80,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 76,
+				length : 16,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 42,
+				length : 68,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 26,
+				length : 21,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 51,
-				document_id : -5369710517028678529,
+				length : 98,
+				document_id : -1382746506401978809,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 31,
+				length : 53,
 			),
 		),
 	),

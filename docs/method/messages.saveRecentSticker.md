@@ -41,6 +41,6 @@ messages.saveRecentSticker#392718f8 flags:# attached:flags.0?true id:InputDocume
 $bool = $client->messages->saveRecentSticker(
 	attached : true,
 	id : $client->inputDocumentEmpty(),
-	unsave : true,
+	unsave : false,
 );
 ```

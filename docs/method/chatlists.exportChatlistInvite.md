@@ -46,32 +46,32 @@ chatlists.exportChatlistInvite#8472478e chatlist:InputChatlist title:string peer
 ```php
 $chatlistsExportedChatlistInvite = $client->chatlists->exportChatlistInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 5,
+		filter_id : 45,
 	),
-	title : 'UNOwdVGsJWg14PIq',
+	title : '1SY4X8JKWZ5plVFv',
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 9175894542687558124,
+			chat_id : -2395922000893538722,
 		),
 		$client->inputPeerUser(
-			user_id : 7198445025622278289,
-			access_hash : 3740673288725322310,
+			user_id : -6354649475792976399,
+			access_hash : -9067405289079676595,
 		),
 		$client->inputPeerChannel(
-			channel_id : 6791549079026258112,
-			access_hash : 3562628093094152754,
+			channel_id : -6323397542933714454,
+			access_hash : -7095879004123084837,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 63,
-			user_id : 3432089084870554193,
+			msg_id : 90,
+			user_id : -5902638389539019812,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 81,
-			channel_id : 5648981548608939194,
+			msg_id : 95,
+			channel_id : -1363783954692972175,
 		),
 	),
 );

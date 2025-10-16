@@ -29,7 +29,7 @@ keyboardButtonUrl#258aff05 text:string url:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonUrl(
-	text : 'ZvV8FB4rGJke9AMb',
+	text : 'XPCcFzk2uj08iaRO',
 	url : 'https://docs.liveproto.dev',
 );
 ```

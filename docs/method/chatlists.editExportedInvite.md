@@ -48,33 +48,33 @@ chatlists.editExportedInvite#653db63d flags:# revoked:flags.0?true chatlist:Inpu
 $exportedChatlistInvite = $client->chatlists->editExportedInvite(
 	revoked : true,
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 84,
+		filter_id : 58,
 	),
-	slug : 'L6F7GTXsopOBxWlV',
-	title : 'JQp9PmzhjMw6yAld',
+	slug : 'VpIJTUweRZjh9Pvd',
+	title : 'LA8mGDIYgw3Oiz7T',
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 5215267018754258708,
+			chat_id : 5702184688630564808,
 		),
 		$client->inputPeerUser(
-			user_id : 7633154964275037165,
-			access_hash : 1170129026328868276,
+			user_id : -715746219032080406,
+			access_hash : -3406277256554986928,
 		),
 		$client->inputPeerChannel(
-			channel_id : -1620951428589809259,
-			access_hash : 4314689925835202944,
+			channel_id : -3561861977327838290,
+			access_hash : 4649995373899264207,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 32,
-			user_id : -2292278038542660829,
+			msg_id : 49,
+			user_id : 8975403310794845653,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 52,
-			channel_id : -662151594379722186,
+			msg_id : 85,
+			channel_id : 7684166522024314964,
 		),
 	),
 );

@@ -1,5 +1,7 @@
 # suggestedPost
 
+**Description** : *Contains info about a suggested post &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,11 +14,11 @@ suggestedPost#e8e37e5 flags:# accepted:flags.1?true rejected:flags.2?true price:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **accepted** | [`flags.1?true`](type/true) | NOTHING |
-| **rejected** | [`flags.2?true`](type/true) | NOTHING |
-| **price** | [`flags.3?StarsAmount`](type/StarsAmount) | NOTHING |
-| **schedule_date** | [`flags.0?int`](type/int) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **accepted** | [`flags.1?true`](type/true) | Whether the suggested post was accepted |
+| **rejected** | [`flags.2?true`](type/true) | Whether the suggested post was rejected |
+| **price** | [`flags.3?StarsAmount`](type/StarsAmount) | Price of the suggested post |
+| **schedule_date** | [`flags.0?int`](type/int) | Scheduling date |
 
 ---
 
@@ -33,9 +35,9 @@ $suggestedPost = $client->suggestedPost(
 	accepted : true,
 	rejected : true,
 	price : $client->starsAmount(
-		amount : -8616891989242961673,
-		nanos : 67,
+		amount : -3335385518113225673,
+		nanos : 49,
 	),
-	schedule_date : 99,
+	schedule_date : 48,
 );
 ```

@@ -42,13 +42,13 @@ $messagesChats = $client->channels->getChannels(
 	id : array(
 		$client->inputChannelEmpty(),
 		$client->inputChannel(
-			channel_id : 4547106584139533195,
-			access_hash : -7908722810982921958,
+			channel_id : 4125566754666634088,
+			access_hash : 8755045530225155790,
 		),
 		$client->inputChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 63,
-			channel_id : 7460196282079691585,
+			msg_id : 94,
+			channel_id : -328076736545597719,
 		),
 	),
 );

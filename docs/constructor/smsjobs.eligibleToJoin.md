@@ -30,6 +30,6 @@ smsjobs.eligibleToJoin#dc8b44cf terms_url:string monthly_sent_sms:int = smsjobs.
 ```php
 $smsjobsEligibilityToJoin = $client->smsjobs->eligibleToJoin(
 	terms_url : 'https://docs.liveproto.dev',
-	monthly_sent_sms : 43,
+	monthly_sent_sms : 20,
 );
 ```

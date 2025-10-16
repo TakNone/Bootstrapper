@@ -14,8 +14,8 @@ payments.getStarsStatus#4ea9b3bf flags:# ton:flags.0?true peer:InputPeer = payme
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **ton** | [`flags.0?true`](type/true) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **ton** | [`flags.0?true`](type/true) | If set, returns the channel/ad revenue balance in nanotons |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer of which to get the balance |
 
 ---
@@ -30,6 +30,8 @@ payments.getStarsStatus#4ea9b3bf flags:# ton:flags.0?true peer:InputPeer = payme
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **BOT_ACCESS_FORBIDDEN** | `403` | The specified method can be used over a business connection for some operations, but the specified query attempted an operation that is not allowed over a business connection |
+| **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---

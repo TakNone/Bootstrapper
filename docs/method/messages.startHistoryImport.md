@@ -39,6 +39,6 @@ messages.startHistoryImport#b43df344 peer:InputPeer import_id:long = Bool;
 ```php
 $bool = $client->messages->startHistoryImport(
 	peer : $client->inputPeerEmpty(),
-	import_id : 4662950115453769714,
+	import_id : 2107642185084044415,
 );
 ```

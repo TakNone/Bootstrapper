@@ -1,5 +1,7 @@
 # payments.toggleChatStarGiftNotifications
 
+**Description** : *Enables or disables the reception of notifications every time a gift &raquo; is received by the specified channel, can only be invoked by admins with post\_messages admin rights*
+
 **Layer** : 216
 
 ```tl
@@ -12,15 +14,23 @@ payments.toggleChatStarGiftNotifications#60eaefa1 flags:# enabled:flags.0?true p
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **enabled** | [`flags.0?true`](type/true) | NOTHING |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **enabled** | [`flags.0?true`](type/true) | Whether to enable or disable reception of notifications in the form of messageActionStarGiftUnique and messageActionStarGift service messages from the channel |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The channel for which to receive or not receive notifications |
 
 ---
 
 ## Result
 
 [Bool](type/Bool)
+
+---
+
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---
 

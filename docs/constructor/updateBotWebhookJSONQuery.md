@@ -30,10 +30,10 @@ updateBotWebhookJSONQuery#9b9240a6 query_id:long data:DataJSON timeout:int = Upd
 
 ```php
 $update = $client->updateBotWebhookJSONQuery(
-	query_id : 4945034347596300807,
+	query_id : -1319071823015254173,
 	data : $client->dataJSON(
-		data : 'h1JyqDLxukU0w4pM',
+		data : '2xjW5p041r6uslkI',
 	),
-	timeout : 58,
+	timeout : 88,
 );
 ```

@@ -44,6 +44,6 @@ contacts.getLocated#d348bc44 flags:# background:flags.1?true geo_point:InputGeoP
 $updates = $client->contacts->getLocated(
 	background : true,
 	geo_point : $client->inputGeoPointEmpty(),
-	self_expires : 55,
+	self_expires : 17,
 );
 ```

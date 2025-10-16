@@ -38,11 +38,11 @@ user#20b1422 flags:# self:flags.10?true contact:flags.11?true mutual_contact:fla
 | **close_friend** | [`flags2.2?true`](type/true) | Whether we marked this user as a close friend, see here » for more info. When updating the local peer database, do not apply changes to this field if the min flag is set |
 | **stories_hidden** | [`flags2.3?true`](type/true) | Whether we have hidden » all active stories of this user. When updating the local peer database, do not apply changes to this field if the min flag is set |
 | **stories_unavailable** | [`flags2.4?true`](type/true) | No stories from this user are visible |
-| **contact_require_premium** | [`flags2.10?true`](type/true) | If set, we can only write to this user if they have already sent some messages to us, if we are subscribed to Telegram Premium, or if they're a mutual contact (user.mutual_contact).  All the secondary conditions listed above must be checked separately to verify whether we can still write to the user, even if this flag is set (i.e. a mutual contact will have this flag set even if we can still write to them, and so on...); to avoid doing these extra checks if we haven't yet cached all the required information (for example while displaying the chat list in the sharing UI) the users.getIsPremiumRequiredToContact method may be invoked instead, passing the list of users currently visible in the UI, returning a list of booleans that directly specify whether we can or cannot write to each user; alternatively, the userFull.contact_require_premium flag contains the same (fully checked, i.e. it's not just a copy of this flag) info returned by users.getIsPremiumRequiredToContact. To set this flag for ourselves invoke account.setGlobalPrivacySettings, setting the settings.new_noncontact_peers_require_premium flag |
+| **contact_require_premium** | [`flags2.10?true`](type/true) | See here for more info on this flag » |
 | **bot_business** | [`flags2.11?true`](type/true) | Whether this bot can be connected to a user as specified here » |
 | **bot_has_main_app** | [`flags2.13?true`](type/true) | If set, this bot has configured a Main Mini App » |
 | **bot_forum_view** | [`flags2.16?true`](type/true) | NOTHING |
-| <mark>id</mark> | [`long`](type/long) | ID of the user, see here » for more info |
+| <mark>id</mark> | [`long`](type/long) | ID of the user, see here » for more info and the available ID range |
 | **access_hash** | [`flags.0?long`](type/long) | Access hash of the user, see here » for more info. If this flag is set, when updating the local peer database, generate a virtual flag called min_access_hash, which is: - Set to true if min is set AND -- The phone flag is not set OR -- The phone flag is set and the associated phone number string is non-empty - Set to false otherwise. Then, apply both access_hash and min_access_hash to the local database if: - min_access_hash is false OR - min_access_hash is true AND -- There is no locally cached object for this user OR -- There is no access_hash in the local cache OR -- The cached object's min_access_hash is also true If the final merged object stored to the database has the min_access_hash field set to true, the related access_hash is only suitable to use in inputPeerPhotoFileLocation », to directly download the profile pictures of users, everywhere else a inputPeer*FromMessage constructor will have to be generated as specified here ». Bots can also use min access hashes in some conditions, by passing 0 instead of the min access hash |
 | **first_name** | [`flags.1?string`](type/string) | First name. When updating the local peer database, apply changes to this field only if: - The min flag is not set OR - The min flag is set AND -- The min flag of the locally cached user entry is set |
 | **last_name** | [`flags.2?string`](type/string) | Last name. When updating the local peer database, apply changes to this field only if: - The min flag is not set OR - The min flag is set AND -- The min flag of the locally cached user entry is set |
@@ -60,8 +60,8 @@ user#20b1422 flags:# self:flags.10?true contact:flags.11?true mutual_contact:fla
 | **color** | [`flags2.8?PeerColor`](type/PeerColor) | The user's accent color |
 | **profile_color** | [`flags2.9?PeerColor`](type/PeerColor) | The user's profile color |
 | **bot_active_users** | [`flags2.12?int`](type/int) | Monthly Active Users (MAU) of this bot (may be absent for small bots) |
-| **bot_verification_icon** | [`flags2.14?long`](type/long) | NOTHING |
-| **send_paid_messages_stars** | [`flags2.15?long`](type/long) | NOTHING |
+| **bot_verification_icon** | [`flags2.14?long`](type/long) | Describes a bot verification icon » |
+| **send_paid_messages_stars** | [`flags2.15?long`](type/long) | If set, the user has enabled paid messages », we might need to pay the specified amount of Stars to send them messages, depending on the configured exceptions: check userFull.send_paid_messages_stars or users.getRequirementsToContact to see if the currently logged in user actually has to pay or not, see here » for the full flow |
 
 ---
 
@@ -101,24 +101,24 @@ $user = $client->user(
 	bot_business : true,
 	bot_has_main_app : true,
 	bot_forum_view : true,
-	id : 1134353485772601737,
-	access_hash : -497872862879677225,
+	id : -5809816190652880104,
+	access_hash : -1400344242113915659,
 	first_name : 'Tak',
 	last_name : 'None',
 	username : 'TakNone',
 	phone : '+1234567890',
 	photo : $client->userProfilePhotoEmpty(),
 	status : $client->userStatusEmpty(),
-	bot_info_version : 23,
+	bot_info_version : 48,
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : 'fjEQeqscUNAzBiDI',
-			reason : 'uwkcG1zUN0E7oj4C',
-			text : 'p08NVMmO6yvnzYAd',
+			platform : 'CUkQZ8uGcoPfX0ws',
+			reason : '1AMPDTeKzFaZgNj2',
+			text : 'Z0fT2AsQPc5GXOiV',
 		),
 	),
-	bot_inline_placeholder : 'Et7Y0nyuZi18Boxk',
-	lang_code : '2Z4KDLf79OcYVIn3',
+	bot_inline_placeholder : 'xdY2vMyhZN6AlB0c',
+	lang_code : 'LSekg1vV7DUpBlEn',
 	emoji_status : $client->emojiStatusEmpty(),
 	usernames : array(
 		$client->username(
@@ -127,17 +127,17 @@ $user = $client->user(
 			username : 'TakNone',
 		),
 	),
-	stories_max_id : 77,
+	stories_max_id : 75,
 	color : $client->peerColor(
-		color : 12,
-		background_emoji_id : 5535304143353849998,
+		color : 16,
+		background_emoji_id : -1399726856982226415,
 	),
 	profile_color : $client->peerColor(
-		color : 100,
-		background_emoji_id : -5948342393715334267,
+		color : 56,
+		background_emoji_id : 4873546350390010968,
 	),
-	bot_active_users : 4,
-	bot_verification_icon : -8551850348252818686,
-	send_paid_messages_stars : 5400350945530095127,
+	bot_active_users : 98,
+	bot_verification_icon : -1575446693697215572,
+	send_paid_messages_stars : 1251798643129703571,
 );
 ```

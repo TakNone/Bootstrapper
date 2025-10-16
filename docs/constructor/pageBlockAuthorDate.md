@@ -30,6 +30,6 @@ pageBlockAuthorDate#baafe5e0 author:RichText published_date:int = PageBlock;
 ```php
 $pageBlock = $client->pageBlockAuthorDate(
 	author : $client->textEmpty(),
-	published_date : 59,
+	published_date : 64,
 );
 ```

@@ -36,7 +36,7 @@ $botInlineMessage = $client->botInlineMessageMediaContact(
 	phone_number : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
-	vcard : 'N4dqWlrK9uo38zBV',
+	vcard : '05SsMJaPLnXjA6DR',
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

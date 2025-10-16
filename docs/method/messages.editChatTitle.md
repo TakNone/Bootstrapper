@@ -41,7 +41,7 @@ messages.editChatTitle#73783ffd chat_id:long title:string = Updates;
 
 ```php
 $updates = $client->messages->editChatTitle(
-	chat_id : 1853722988423082038,
-	title : 'gd94YUWa8VG257Xo',
+	chat_id : 605955396196021183,
+	title : 'iCQE1VMaGcUgybX4',
 );
 ```

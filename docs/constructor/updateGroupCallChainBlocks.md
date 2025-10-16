@@ -1,5 +1,7 @@
 # updateGroupCallChainBlocks
 
+**Description** : *Contains updates to the blockchain of a conference call, see here &raquo; for more info*
+
 **Layer** : 216
 
 ```tl
@@ -12,10 +14,10 @@ updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
-| <mark>sub_chain_id</mark> | [`int`](type/int) | NOTHING |
-| <mark>blocks</mark> | [`Vector<bytes>`](type/bytes) | NOTHING |
-| <mark>next_offset</mark> | [`int`](type/int) | NOTHING |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The conference call |
+| <mark>sub_chain_id</mark> | [`int`](type/int) | Subchain ID |
+| <mark>blocks</mark> | [`Vector<bytes>`](type/bytes) | Blocks |
+| <mark>next_offset</mark> | [`int`](type/int) | Offset of the next block |
 
 ---
 
@@ -30,11 +32,11 @@ updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:
 ```php
 $update = $client->updateGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : 5735362052722938140,
-		access_hash : 8614669868223378315,
+		id : 3153487325820567967,
+		access_hash : -3666120362454403437,
 	),
-	sub_chain_id : 44,
+	sub_chain_id : 90,
 	blocks : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	next_offset : 99,
+	next_offset : 82,
 );
 ```

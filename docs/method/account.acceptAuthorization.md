@@ -41,9 +41,9 @@ account.acceptAuthorization#f3ed4c73 bot_id:long scope:string public_key:string 
 
 ```php
 $bool = $client->account->acceptAuthorization(
-	bot_id : 8356630893389143825,
-	scope : '8TPbN31XYmOwVxCI',
-	public_key : 'u0XEmi1DCUFjYdRg',
+	bot_id : -672565189346466399,
+	scope : '4JMlpwcYrSx9h3jd',
+	public_key : 'qDuYnogTJMt4beQN',
 	value_hashes : array(
 		$client->secureValueHash(
 			type : $client->secureValueTypePersonalDetails(),

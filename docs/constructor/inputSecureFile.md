@@ -29,7 +29,7 @@ inputSecureFile#5367e5be id:long access_hash:long = InputSecureFile;
 
 ```php
 $inputSecureFile = $client->inputSecureFile(
-	id : 4479738282916778518,
-	access_hash : 4196653815141789437,
+	id : 4448510032175413721,
+	access_hash : 3674298996705406159,
 );
 ```

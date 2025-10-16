@@ -31,7 +31,7 @@ messages.getRecentLocations#702a40e0 peer:InputPeer limit:int hash:long = messag
 ```php
 $messagesMessages = $client->messages->getRecentLocations(
 	peer : $client->inputPeerEmpty(),
-	limit : 94,
+	limit : 82,
 	hash : 0,
 );
 ```

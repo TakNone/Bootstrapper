@@ -14,4 +14,4 @@ premiumGiftOption#79c059f7 flags:# months:int currency:string amount:long bot_ur
 
 | Constructor | Description |
 | :---: | :--- |
-| [**premiumGiftOption**](constructor/premiumGiftOption) | Telegram Premium gift option |
+| [**premiumGiftOption**](constructor/premiumGiftOption) | NOTHING |

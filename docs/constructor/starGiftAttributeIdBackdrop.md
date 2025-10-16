@@ -1,5 +1,7 @@
 # starGiftAttributeIdBackdrop
 
+**Description** : *The ID of a backdrop of a collectible gift &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ starGiftAttributeIdBackdrop#1f01c757 backdrop_id:int = StarGiftAttributeId;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>backdrop_id</mark> | [`int`](type/int) | NOTHING |
+| <mark>backdrop_id</mark> | [`int`](type/int) | Unique ID of the backdrop |
 
 ---
 
@@ -26,6 +28,6 @@ starGiftAttributeIdBackdrop#1f01c757 backdrop_id:int = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdBackdrop(
-	backdrop_id : 85,
+	backdrop_id : 30,
 );
 ```

@@ -28,6 +28,6 @@ updateEncryptedChatTyping#1710f156 chat_id:int = Update;
 
 ```php
 $update = $client->updateEncryptedChatTyping(
-	chat_id : 92,
+	chat_id : 85,
 );
 ```

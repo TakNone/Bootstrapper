@@ -20,8 +20,8 @@ phone.joinGroupCall#8fb53057 flags:# muted:flags.0?true video_stopped:flags.2?tr
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call |
 | <mark>join_as</mark> | [`InputPeer`](type/InputPeer) | Join the group call, presenting yourself as the specified user/channel |
 | **invite_hash** | [`flags.1?string`](type/string) | The invitation hash from the invite link », if provided allows speaking in a livestream or muted group chat |
-| **public_key** | [`flags.3?int256`](type/int256) | NOTHING |
-| **block** | [`flags.3?bytes`](type/bytes) | NOTHING |
+| **public_key** | [`flags.3?int256`](type/int256) | For conference calls, your public key |
+| **block** | [`flags.3?bytes`](type/bytes) | The block containing an appropriate e2e.chain.changeSetGroupState event |
 | <mark>params</mark> | [`DataJSON`](type/DataJSON) | WebRTC parameters |
 
 ---
@@ -51,15 +51,15 @@ $updates = $client->phone->joinGroupCall(
 	muted : true,
 	video_stopped : true,
 	call : $client->inputGroupCall(
-		id : 3034411932869041908,
-		access_hash : 1504402296319494058,
+		id : -3542505436856972721,
+		access_hash : -6066960411765860173,
 	),
 	join_as : $client->inputPeerEmpty(),
-	invite_hash : 'i9xdoRDJk370w8hN',
-	public_key : '25297565471840276414600879351169595826678457695705754131486008132855712727787',
+	invite_hash : 'DH4lNoV0y69quZha',
+	public_key : '89615695334250691898327822637419031516381572576636792256252849793809334809249',
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	params : $client->dataJSON(
-		data : 'ewDua7HPlI4Av3M5',
+		data : 'juBZT4dIlbNYKxza',
 	),
 );
 ```

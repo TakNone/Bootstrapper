@@ -31,6 +31,7 @@ channels.deleteTopicHistory#34435f2d channel:InputChannel top_msg_id:int = messa
 | :---: | :---: | :--- |
 | **CHANNEL_FORUM_MISSING** | `400` | This supergroup is not a forum |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **TOPIC_ID_INVALID** | `400` | The specified topic ID is invalid |
 
 ---
@@ -40,6 +41,6 @@ channels.deleteTopicHistory#34435f2d channel:InputChannel top_msg_id:int = messa
 ```php
 $messagesAffectedHistory = $client->channels->deleteTopicHistory(
 	channel : $client->inputChannelEmpty(),
-	top_msg_id : 4,
+	top_msg_id : 79,
 );
 ```

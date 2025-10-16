@@ -30,11 +30,11 @@ phone.phoneCall#ec82e140 phone_call:PhoneCall users:Vector<User> = phone.PhoneCa
 ```php
 $phonePhoneCall = $client->phone->phoneCall(
 	phone_call : $client->phoneCallEmpty(
-		id : 8720970486905454271,
+		id : -5191933421879359070,
 	),
 	users : array(
 		$client->userEmpty(
-			id : 1696377145926169999,
+			id : -2623355156776467170,
 		),
 		$client->user(
 			self : true,
@@ -63,24 +63,24 @@ $phonePhoneCall = $client->phone->phoneCall(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -2239280135863611797,
-			access_hash : -1808843525167798913,
+			id : -1040605870166144346,
+			access_hash : -1655635419824280387,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 99,
+			bot_info_version : 90,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '0pv7T8xrdLuyXSZY',
-					reason : 'K2JIrAcjRD9xysLH',
-					text : 'uSoTrikHN0BdtxQ1',
+					platform : 'O02hoPTwCydr1GRc',
+					reason : 'nb6JBTCKVPm2OEkZ',
+					text : 'uOyT4fzZIVkN6gap',
 				),
 			),
-			bot_inline_placeholder : 'tOcdxH5eRDph2CQF',
-			lang_code : 'CHVo2ZKmMdA48gRI',
+			bot_inline_placeholder : 'PpEwD6m7304sBbSH',
+			lang_code : 'IFXwVOvnxBtWyZr1',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -89,18 +89,18 @@ $phonePhoneCall = $client->phone->phoneCall(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 68,
+			stories_max_id : 27,
 			color : $client->peerColor(
-				color : 17,
-				background_emoji_id : 7700026869425564792,
+				color : 23,
+				background_emoji_id : 1046854219248818118,
 			),
 			profile_color : $client->peerColor(
-				color : 91,
-				background_emoji_id : 141730308165560229,
+				color : 62,
+				background_emoji_id : 8650627986566667265,
 			),
-			bot_active_users : 16,
-			bot_verification_icon : 7163403778487140932,
-			send_paid_messages_stars : -562588679082256377,
+			bot_active_users : 92,
+			bot_verification_icon : -2738539419186753138,
+			send_paid_messages_stars : -5740117475109688562,
 		),
 	),
 );

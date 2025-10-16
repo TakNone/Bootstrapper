@@ -41,8 +41,8 @@ messages.editChatAdmin#a85bd1c2 chat_id:long user_id:InputUser is_admin:Bool = B
 
 ```php
 $bool = $client->messages->editChatAdmin(
-	chat_id : -3064593486549059001,
+	chat_id : 7652866473256823728,
 	user_id : $client->inputUserEmpty(),
-	is_admin : true,
+	is_admin : false,
 );
 ```

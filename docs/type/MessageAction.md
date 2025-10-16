@@ -38,7 +38,7 @@ messageActionChatJoinedByRequest#ebbca3cb = MessageAction;
 messageActionWebViewDataSentMe#47dd8079 text:string data:string = MessageAction;
 messageActionWebViewDataSent#b4c38cb5 text:string = MessageAction;
 messageActionGiftPremium#6c6274fa flags:# currency:string amount:long months:int crypto_currency:flags.0?string crypto_amount:flags.0?long message:flags.1?TextWithEntities = MessageAction;
-messageActionTopicCreate#d999256 flags:# title:string icon_color:int icon_emoji_id:flags.0?long = MessageAction;
+messageActionTopicCreate#d999256 flags:# title_missing:flags.1?true title:string icon_color:int icon_emoji_id:flags.0?long = MessageAction;
 messageActionTopicEdit#c0944820 flags:# title:flags.0?string icon_emoji_id:flags.1?long closed:flags.2?Bool hidden:flags.3?Bool = MessageAction;
 messageActionSuggestProfilePhoto#57de635e photo:Photo = MessageAction;
 messageActionRequestedPeer#31518e9b button_id:int peers:Vector<Peer> = MessageAction;
@@ -51,7 +51,7 @@ messageActionRequestedPeerSentMe#93b31848 button_id:int peers:Vector<RequestedPe
 messageActionPaymentRefunded#41b3e202 flags:# peer:Peer currency:string total_amount:long payload:flags.0?bytes charge:PaymentCharge = MessageAction;
 messageActionGiftStars#45d5b021 flags:# currency:string amount:long stars:long crypto_currency:flags.0?string crypto_amount:flags.0?long transaction_id:flags.1?string = MessageAction;
 messageActionPrizeStars#b00c47a2 flags:# unclaimed:flags.0?true stars:long transaction_id:string boost_peer:Peer giveaway_msg_id:int = MessageAction;
-messageActionStarGift#f24de7fa flags:# name_hidden:flags.0?true saved:flags.2?true converted:flags.3?true upgraded:flags.5?true transferred:flags.6?true can_upgrade:flags.10?true refunded:flags.9?true prepaid_upgrade:flags.13?true upgrade_separate:flags.16?true gift:StarGift message:flags.1?TextWithEntities convert_stars:flags.4?long upgrade_msg_id:flags.5?int upgrade_stars:flags.8?long from_id:flags.11?Peer peer:flags.12?Peer saved_id:flags.12?long prepaid_upgrade_hash:flags.14?string gift_msg_id:flags.15?int = MessageAction;
+messageActionStarGift#f24de7fa flags:# name_hidden:flags.0?true saved:flags.2?true converted:flags.3?true upgraded:flags.5?true transferred:flags.6?true refunded:flags.9?true can_upgrade:flags.10?true prepaid_upgrade:flags.13?true upgrade_separate:flags.16?true gift:StarGift message:flags.1?TextWithEntities convert_stars:flags.4?long upgrade_msg_id:flags.5?int upgrade_stars:flags.8?long from_id:flags.11?Peer peer:flags.12?Peer saved_id:flags.12?long prepaid_upgrade_hash:flags.14?string gift_msg_id:flags.15?int = MessageAction;
 messageActionStarGiftUnique#95728543 flags:# upgrade:flags.0?true transferred:flags.1?true saved:flags.2?true refunded:flags.5?true prepaid_upgrade:flags.11?true assigned:flags.13?true gift:StarGift can_export_at:flags.3?int transfer_stars:flags.4?long from_id:flags.6?Peer peer:flags.7?Peer saved_id:flags.7?long resale_amount:flags.8?StarsAmount can_transfer_at:flags.9?int can_resell_at:flags.10?int drop_original_details_stars:flags.12?long = MessageAction;
 messageActionPaidMessagesRefunded#ac1f1fcd count:int stars:long = MessageAction;
 messageActionPaidMessagesPrice#84b88578 flags:# broadcast_messages_allowed:flags.0?true stars:long = MessageAction;
@@ -109,7 +109,7 @@ messageActionLoginUnknownLocation#555555f5 title:string address:string = Message
 | [**messageActionChatJoinedByRequest**](constructor/messageActionChatJoinedByRequest) | A user was accepted into the group by an admin |
 | [**messageActionWebViewDataSentMe**](constructor/messageActionWebViewDataSentMe) | Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (bot side service message) |
 | [**messageActionWebViewDataSent**](constructor/messageActionWebViewDataSent) | Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (user side service message).Clients should display a service message with the text Data from the «$text» button was transferred to the bot |
-| [**messageActionGiftPremium**](constructor/messageActionGiftPremium) | Info about a gifted Telegram Premium subscription |
+| [**messageActionGiftPremium**](constructor/messageActionGiftPremium) | Info about a gifted Telegram Premium subscriptionThis service message should be displayed below the appropriate sticker from the inputStickerSetPremiumGifts » stickerset »:- If months == 1, choose the sticker with emoji equal to ""- If months == 3, choose the sticker with emoji equal to ""- If months == 6, choose the sticker with emoji equal to ""- If months == 12, choose the sticker with emoji equal to ""- If months == 24, choose the sticker with emoji equal to ""- Otherwise, fallback to the sticker with emoji equal to "" |
 | [**messageActionTopicCreate**](constructor/messageActionTopicCreate) | A forum topic was created |
 | [**messageActionTopicEdit**](constructor/messageActionTopicEdit) | Forum topic information was edited |
 | [**messageActionSuggestProfilePhoto**](constructor/messageActionSuggestProfilePhoto) | A new profile picture was suggested using photos.uploadContactProfilePhoto |
@@ -121,19 +121,19 @@ messageActionLoginUnknownLocation#555555f5 title:string address:string = Message
 | [**messageActionBoostApply**](constructor/messageActionBoostApply) | Some boosts » were applied to the channel or supergroup |
 | [**messageActionRequestedPeerSentMe**](constructor/messageActionRequestedPeerSentMe) | Contains info about one or more peers that the a user shared with the me (the bot) after clicking on a keyboardButtonRequestPeer button (service message received by the bot) |
 | [**messageActionPaymentRefunded**](constructor/messageActionPaymentRefunded) | Describes a payment refund (service message received by both users and bots) |
-| [**messageActionGiftStars**](constructor/messageActionGiftStars) | You gifted or were gifted some Telegram Stars |
-| [**messageActionPrizeStars**](constructor/messageActionPrizeStars) | You won some Telegram Stars in a Telegram Star giveaway » |
+| [**messageActionGiftStars**](constructor/messageActionGiftStars) | You gifted or were gifted some Telegram Stars.This service message should be displayed below the appropriate sticker from the inputStickerSetPremiumGifts » stickerset »:- If stars <= 1000, choose the sticker with emoji equal to ""- If stars < 2500, choose the sticker with emoji equal to ""- Otherwise, choose the sticker with emoji equal to "" |
+| [**messageActionPrizeStars**](constructor/messageActionPrizeStars) | You won some Telegram Stars in a Telegram Star giveaway ».This service message should be displayed below the appropriate sticker from the inputStickerSetPremiumGifts » stickerset »:- If stars <= 1000, choose the sticker with emoji equal to ""- If stars < 2500, choose the sticker with emoji equal to ""- Otherwise, choose the sticker with emoji equal to "" |
 | [**messageActionStarGift**](constructor/messageActionStarGift) | You received a gift, see here » for more info |
-| [**messageActionStarGiftUnique**](constructor/messageActionStarGiftUnique) | NOTHING |
-| [**messageActionPaidMessagesRefunded**](constructor/messageActionPaidMessagesRefunded) | NOTHING |
-| [**messageActionPaidMessagesPrice**](constructor/messageActionPaidMessagesPrice) | NOTHING |
-| [**messageActionConferenceCall**](constructor/messageActionConferenceCall) | NOTHING |
-| [**messageActionTodoCompletions**](constructor/messageActionTodoCompletions) | NOTHING |
-| [**messageActionTodoAppendTasks**](constructor/messageActionTodoAppendTasks) | NOTHING |
-| [**messageActionSuggestedPostApproval**](constructor/messageActionSuggestedPostApproval) | NOTHING |
-| [**messageActionSuggestedPostSuccess**](constructor/messageActionSuggestedPostSuccess) | NOTHING |
-| [**messageActionSuggestedPostRefund**](constructor/messageActionSuggestedPostRefund) | NOTHING |
-| [**messageActionGiftTon**](constructor/messageActionGiftTon) | NOTHING |
+| [**messageActionStarGiftUnique**](constructor/messageActionStarGiftUnique) | A gift » was upgraded to a collectible gift » |
+| [**messageActionPaidMessagesRefunded**](constructor/messageActionPaidMessagesRefunded) | Sent from peer A to B, indicates that A refunded all stars B previously paid to send messages to A, see here » for more info on paid messages |
+| [**messageActionPaidMessagesPrice**](constructor/messageActionPaidMessagesPrice) | The price of paid messages » in this chat was changed |
+| [**messageActionConferenceCall**](constructor/messageActionConferenceCall) | Represents a conference call (or an invitation to a conference call, if neither the missed nor active flags are set).If call_requests_disabled is not set or false, an incoming messageActionConferenceCall with the missed and active flags not set should trigger ringing and an incoming call screen, just like for one-on-one calls |
+| [**messageActionTodoCompletions**](constructor/messageActionTodoCompletions) | Items were marked as completed or not completed in a todo list » |
+| [**messageActionTodoAppendTasks**](constructor/messageActionTodoAppendTasks) | Items were appended to the todo list » |
+| [**messageActionSuggestedPostApproval**](constructor/messageActionSuggestedPostApproval) | A suggested post » was approved or rejected |
+| [**messageActionSuggestedPostSuccess**](constructor/messageActionSuggestedPostSuccess) | A suggested post » was successfully posted, and payment for it was successfully received |
+| [**messageActionSuggestedPostRefund**](constructor/messageActionSuggestedPostRefund) | A suggested post » was accepted and posted or scheduled, but either the channel deleted the posted/scheduled post before stars_suggested_post_age_min seconds have elapsed, or the user refunded the payment for the stars used to pay for the suggested post |
+| [**messageActionGiftTon**](constructor/messageActionGiftTon) | You were gifted some toncoins.This service message should be displayed below the appropriate sticker from the inputStickerSetTonGifts » stickerset »:- If crypto_amount <= 10_000_000_000, choose the sticker with emoji equal to ""- If crypto_amount <= 50_000_000_000, choose the sticker with emoji equal to ""- Otherwise, choose the sticker with emoji equal to "" |
 | [**messageActionPhoneNumberRequest**](constructor/messageActionPhoneNumberRequest) | NOTHING |
 | [**messageActionSuggestBirthday**](constructor/messageActionSuggestBirthday) | NOTHING |
 | [**messageActionUserJoined**](constructor/messageActionUserJoined) | NOTHING |

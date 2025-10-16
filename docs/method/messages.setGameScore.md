@@ -49,8 +49,8 @@ $updates = $client->messages->setGameScore(
 	edit_message : true,
 	force : true,
 	peer : $client->inputPeerEmpty(),
-	id : 87,
+	id : 96,
 	user_id : $client->inputUserEmpty(),
-	score : 85,
+	score : 59,
 );
 ```

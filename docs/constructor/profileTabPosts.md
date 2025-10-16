@@ -1,5 +1,7 @@
 # profileTabPosts
 
+**Description** : *Represents the stories tab of a profile page*
+
 **Layer** : 216
 
 ```tl

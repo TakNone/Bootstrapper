@@ -40,8 +40,8 @@ auth.exportLoginToken#b7e085fe api_id:int api_hash:string except_ids:Vector<long
 
 ```php
 $authLoginToken = $client->auth->exportLoginToken(
-	api_id : 82,
-	api_hash : 'GHoKkwFSUqCLcdjz',
-	except_ids : array(5099391582195335476),
+	api_id : 79,
+	api_hash : 'q403U1AxR5aW7pvD',
+	except_ids : array(-4751687517414367048),
 );
 ```

@@ -36,8 +36,10 @@ updates.getChannelDifference#3173d78 flags:# force:flags.0?true channel:InputCha
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
 | **CHANNEL_PUBLIC_GROUP_NA** | `403` | channel/supergroup not available |
+| **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **FROM_MESSAGE_BOT_DISABLED** | `400` | Bots can't use fromMessage min constructors |
+| **FROZEN_PARTICIPANT_MISSING** | `400` | The current account is frozen, and cannot access the specified peer |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PERSISTENT_TIMESTAMP_EMPTY** | `400` | Persistent timestamp empty |
 | **PERSISTENT_TIMESTAMP_INVALID** | `400` | Persistent timestamp invalid |
@@ -55,7 +57,7 @@ $updatesChannelDifference = $client->updates->getChannelDifference(
 	force : true,
 	channel : $client->inputChannelEmpty(),
 	filter : $client->channelMessagesFilterEmpty(),
-	pts : 48,
-	limit : 62,
+	pts : 98,
+	limit : 53,
 );
 ```

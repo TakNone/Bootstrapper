@@ -34,12 +34,12 @@ encryptedChat#61f0d4c7 id:int access_hash:long date:int admin_id:long participan
 
 ```php
 $encryptedChat = $client->encryptedChat(
-	id : 90,
-	access_hash : 8848407475699274478,
-	date : 29,
-	admin_id : -1598623968240802096,
-	participant_id : -4287882529685006938,
+	id : 66,
+	access_hash : -8904471104806081293,
+	date : 92,
+	admin_id : 4796513625564614305,
+	participant_id : 6158691106236325475,
 	g_a_or_b : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	key_fingerprint : 8600126266288298442,
+	key_fingerprint : 4376255823401566068,
 );
 ```

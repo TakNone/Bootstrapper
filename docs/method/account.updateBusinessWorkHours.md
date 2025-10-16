@@ -42,11 +42,11 @@ account.updateBusinessWorkHours#4b00e066 flags:# business_work_hours:flags.0?Bus
 $bool = $client->account->updateBusinessWorkHours(
 	business_work_hours : $client->businessWorkHours(
 		open_now : true,
-		timezone_id : 'TQ8j06gGudm5lHwp',
+		timezone_id : 'qaw9hjCUmyHEPS8g',
 		weekly_open : array(
 			$client->businessWeeklyOpen(
-				start_minute : 99,
-				end_minute : 63,
+				start_minute : 44,
+				end_minute : 66,
 			),
 		),
 	),

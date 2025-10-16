@@ -5,7 +5,7 @@
 **Layer** : 216
 
 ```tl
-forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true id:int date:int peer:Peer title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
+forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true title_missing:flags.7?true id:int date:int peer:Peer title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
 ```
 
 ---
@@ -20,6 +20,7 @@ forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?t
 | **pinned** | [`flags.3?true`](type/true) | Whether the topic is pinned |
 | **short** | [`flags.5?true`](type/true) | Whether this constructor is a reduced version of the full topic information. If set, only the my, closed, id, date, title, icon_color, icon_emoji_id and from_id parameters will contain valid information. Reduced info is usually only returned in topic-related admin log events » and in the messages.channelMessages constructor: if needed, full information can be fetched using channels.getForumTopicsByID |
 | **hidden** | [`flags.6?true`](type/true) | Whether the topic is hidden (only valid for the "General" topic, id=1) |
+| **title_missing** | [`flags.7?true`](type/true) | NOTHING |
 | <mark>id</mark> | [`int`](type/int) | Topic ID |
 | <mark>date</mark> | [`int`](type/int) | Topic creation date |
 | <mark>peer</mark> | [`Peer`](type/Peer) | NOTHING |
@@ -53,38 +54,39 @@ $forumTopic = $client->forumTopic(
 	pinned : true,
 	short : true,
 	hidden : true,
-	id : 70,
-	date : 25,
+	title_missing : true,
+	id : 60,
+	date : 88,
 	peer : $client->peerUser(
-		user_id : 305727653835997666,
+		user_id : -2021665292402278671,
 	),
-	title : 'XcTmniwBzYO2VkCG',
-	icon_color : 50,
-	icon_emoji_id : -8074532366101596511,
-	top_message : 69,
-	read_inbox_max_id : 99,
-	read_outbox_max_id : 29,
-	unread_count : 50,
-	unread_mentions_count : 67,
-	unread_reactions_count : 98,
+	title : 'NF975hlXDvnqsBdu',
+	icon_color : 73,
+	icon_emoji_id : -8232318658836964154,
+	top_message : 89,
+	read_inbox_max_id : 12,
+	read_outbox_max_id : 24,
+	unread_count : 2,
+	unread_mentions_count : 100,
+	unread_reactions_count : 15,
 	from_id : $client->peerUser(
-		user_id : -8750920819209951849,
+		user_id : -466763776685750487,
 	),
 	notify_settings : $client->peerNotifySettings(
-		show_previews : false,
+		show_previews : true,
 		silent : false,
-		mute_until : 98,
+		mute_until : 23,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
-		stories_muted : true,
+		stories_muted : false,
 		stories_hide_sender : false,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	draft : $client->draftMessageEmpty(
-		date : 58,
+		date : 28,
 	),
 );
 ```

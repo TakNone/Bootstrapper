@@ -29,7 +29,7 @@ updatePhoneCall#ab0f6b1e phone_call:PhoneCall = Update;
 ```php
 $update = $client->updatePhoneCall(
 	phone_call : $client->phoneCallEmpty(
-		id : 5212123576554972512,
+		id : 5010262095177293994,
 	),
 );
 ```

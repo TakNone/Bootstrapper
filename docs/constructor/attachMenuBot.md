@@ -44,8 +44,8 @@ $attachMenuBot = $client->attachMenuBot(
 	show_in_attach_menu : true,
 	show_in_side_menu : true,
 	side_menu_disclaimer_needed : true,
-	bot_id : -502849888184759885,
-	short_name : 'kzMjhnoDRWZOqBAJ',
+	bot_id : 3307720914647150406,
+	short_name : 'MPiISWpjlqfxdDZR',
 	peer_types : array(
 		$client->attachMenuPeerTypeSameBotPM(),
 		$client->attachMenuPeerTypeBotPM(),
@@ -55,14 +55,14 @@ $attachMenuBot = $client->attachMenuBot(
 	),
 	icons : array(
 		$client->attachMenuBotIcon(
-			name : 'P5B9i8srGMw1bV4I',
+			name : '1uJMY9j4wWvQno8X',
 			icon : $client->documentEmpty(
-				id : -7254596022757542700,
+				id : -5366413721606634647,
 			),
 			colors : array(
 				$client->attachMenuBotIconColor(
-					name : '7mQkEg0FqIlnZC6z',
-					color : 34,
+					name : 'L3K8CmO1slANi79c',
+					color : 66,
 				),
 			),
 		),

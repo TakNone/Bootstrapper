@@ -1,5 +1,7 @@
 # pendingSuggestion
 
+**Description** : *Represents a custom pending suggestion &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,10 +14,10 @@ pendingSuggestion#e7e82e12 suggestion:string title:TextWithEntities description:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>suggestion</mark> | [`string`](type/string) | NOTHING |
-| <mark>title</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
-| <mark>description</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
-| <mark>url</mark> | [`string`](type/string) | NOTHING |
+| <mark>suggestion</mark> | [`string`](type/string) | The suggestion ID, can be passed to help.dismissSuggestion |
+| <mark>title</mark> | [`TextWithEntities`](type/TextWithEntities) | Title of the suggestion |
+| <mark>description</mark> | [`TextWithEntities`](type/TextWithEntities) | Body of the suggestion |
+| <mark>url</mark> | [`string`](type/string) | URL to open when the user clicks on the suggestion |
 
 ---
 
@@ -29,194 +31,194 @@ pendingSuggestion#e7e82e12 suggestion:string title:TextWithEntities description:
 
 ```php
 $pendingSuggestion = $client->pendingSuggestion(
-	suggestion : 'mw2NVivYuOyG96a5',
+	suggestion : 'oYsQDTFkRMXOPcSB',
 	title : $client->textWithEntities(
-		text : 'Ds6yld73gMrpObwH',
+		text : 'G06xPF41ps9dl3Mm',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 50,
+				length : 21,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 44,
+				length : 100,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 84,
+				length : 32,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 100,
+				length : 1,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 59,
+				length : 6,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 40,
+				length : 77,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 52,
+				length : 19,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 83,
+				length : 59,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 76,
+				length : 34,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 26,
-				language : 'gmUF6oeiynTZbGKc',
+				length : 44,
+				language : 'xvU9YsOajuKVo4n7',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 64,
+				length : 21,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 70,
-				user_id : -4695308322374468150,
+				length : 60,
+				user_id : 8016016108991388328,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 79,
+				length : 69,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 50,
+				length : 5,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 87,
+				length : 78,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 72,
+				length : 27,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 79,
+				length : 55,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 8,
+				length : 43,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 17,
+				length : 59,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 8,
-				document_id : -4403206562445481344,
+				length : 90,
+				document_id : 3048597187751741049,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 80,
+				length : 84,
 			),
 		),
 	),
 	description : $client->textWithEntities(
-		text : 'UN2JnEamTQj3iRrl',
+		text : 'JuKZYnGT6IzkB1Ud',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 32,
+				length : 43,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 13,
+				length : 29,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 92,
+				length : 97,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 54,
+				length : 52,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 97,
+				length : 69,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 100,
+				length : 10,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 47,
+				length : 32,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 2,
+				length : 36,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 37,
+				length : 72,
 			),
 			$client->messageEntityPre(
 				offset : 0,
 				length : 87,
-				language : '52oHUzwROdKuFGMp',
+				language : 'CkNvfpmyMA0RHlcr',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 95,
+				length : 74,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 67,
-				user_id : -5780460071093184085,
+				length : 53,
+				user_id : -8223611441328882566,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 17,
+				length : 56,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 20,
+				length : 1,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 89,
+				length : 12,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 97,
+				length : 54,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 88,
+				length : 95,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 17,
+				length : 8,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 83,
+				length : 10,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 75,
-				document_id : -7939825284943525396,
+				length : 87,
+				document_id : -1582786345830581222,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 61,
+				length : 60,
 			),
 		),
 	),

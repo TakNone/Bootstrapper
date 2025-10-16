@@ -1,5 +1,7 @@
 # invokeWithReCaptcha
 
+**Description** : *Official clients only: re\-execute a method call that required reCAPTCHA verification via a RECAPTCHA\_CHECK\_%s\_\_%s, where the first placeholder is the action, and the second one is the reCAPTCHA key ID*
+
 **Layer** : 216
 
 ```tl
@@ -12,8 +14,8 @@ invokeWithReCaptcha#adbb0f94 {X:Type} token:string query:!X = X;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>token</mark> | [`string`](type/string) | NOTHING |
-| <mark>query</mark> | [`!X`](type/X) | NOTHING |
+| <mark>token</mark> | [`string`](type/string) | reCAPTCHA token received after verification |
+| <mark>query</mark> | [`!X`](type/X) | The original method call |
 
 ---
 
@@ -27,7 +29,7 @@ invokeWithReCaptcha#adbb0f94 {X:Type} token:string query:!X = X;
 
 ```php
 $x = $client->invokeWithReCaptcha(
-	token : 'yghx5vJ64Njfq29U',
+	token : 'SNin4zrFju6fCQZP',
 	query : $client->help->getConfig(raw : true),
 );
 ```

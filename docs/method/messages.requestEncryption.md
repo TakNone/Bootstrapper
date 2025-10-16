@@ -33,6 +33,7 @@ messages.requestEncryption#f64daf43 user_id:InputUser random_id:int g_a:bytes = 
 | **DH_G_A_INVALID** | `400` | g_a invalid |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
+| **USER_IS_BLOCKED** | `403` | You were blocked by this user |
 
 ---
 
@@ -41,7 +42,7 @@ messages.requestEncryption#f64daf43 user_id:InputUser random_id:int g_a:bytes = 
 ```php
 $encryptedChat = $client->messages->requestEncryption(
 	user_id : $client->inputUserEmpty(),
-	random_id : 24,
+	random_id : 12,
 	g_a : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

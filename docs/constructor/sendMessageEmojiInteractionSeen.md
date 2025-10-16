@@ -28,6 +28,6 @@ sendMessageEmojiInteractionSeen#b665902e emoticon:string = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageEmojiInteractionSeen(
-	emoticon : 'ncChvA4J3SMPIZlL',
+	emoticon : '1GEbIqamwgVy2dAJ',
 );
 ```

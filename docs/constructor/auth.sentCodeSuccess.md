@@ -30,11 +30,11 @@ auth.sentCodeSuccess#2390fe44 authorization:auth.Authorization = auth.SentCode;
 $authSentCode = $client->auth->sentCodeSuccess(
 	authorization : $client->auth->authorization(
 		setup_password_required : true,
-		otherwise_relogin_days : 95,
-		tmp_sessions : 89,
+		otherwise_relogin_days : 61,
+		tmp_sessions : 54,
 		future_auth_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		user : $client->userEmpty(
-			id : 7379656859624406118,
+			id : -5876157557214994638,
 		),
 	),
 );

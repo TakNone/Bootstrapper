@@ -32,6 +32,7 @@ bots.invokeWebViewCustomMethod#87fc5e7 bot:InputUser custom_method:string params
 | :---: | :---: | :--- |
 | **BOT_INVALID** | `400` | This is not a valid bot |
 | **DATA_JSON_INVALID** | `400` | The provided JSON data is invalid |
+| **METHOD_INVALID** | `400` | The specified method is invalid |
 
 ---
 
@@ -40,9 +41,9 @@ bots.invokeWebViewCustomMethod#87fc5e7 bot:InputUser custom_method:string params
 ```php
 $dataJSON = $client->bots->invokeWebViewCustomMethod(
 	bot : $client->inputUserEmpty(),
-	custom_method : 'bYL617l4C9yxdWHZ',
+	custom_method : 'rsHfVX3YR0nSyFeC',
 	params : $client->dataJSON(
-		data : 'ZNFGnQbdeoVSuEOc',
+		data : 'PY5ejvmMBOo69dGS',
 	),
 );
 ```

@@ -28,6 +28,6 @@ dataJSON#7d748d04 data:string = DataJSON;
 
 ```php
 $dataJSON = $client->dataJSON(
-	data : 'QCKpWwmjdRU8TqPh',
+	data : 'j6oYOmJ8eapNfCMw',
 );
 ```

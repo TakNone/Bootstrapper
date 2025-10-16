@@ -1,5 +1,7 @@
 # messages.getSavedDialogsByID
 
+**Description** : *Obtain information about specific saved message dialogs &raquo; or monoforum topics &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,9 +14,9 @@ messages.getSavedDialogsByID#6f6f9c96 flags:# parent_peer:flags.1?InputPeer ids:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **parent_peer** | [`flags.1?InputPeer`](type/InputPeer) | NOTHING |
-| <mark>ids</mark> | [`Vector<InputPeer>`](type/InputPeer) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **parent_peer** | [`flags.1?InputPeer`](type/InputPeer) | If set, fetches monoforum topics », otherwise fetches saved message dialogs » |
+| <mark>ids</mark> | [`Vector<InputPeer>`](type/InputPeer) | IDs of dialogs (topics) to fetch |
 
 ---
 
@@ -33,25 +35,25 @@ $messagesSavedDialogs = $client->messages->getSavedDialogsByID(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -1807230025529969090,
+			chat_id : 2308855405748871677,
 		),
 		$client->inputPeerUser(
-			user_id : -1847836334548783723,
-			access_hash : -3291947330492857930,
+			user_id : -6784099381691020250,
+			access_hash : 8936811600059777008,
 		),
 		$client->inputPeerChannel(
-			channel_id : -5309350966340597787,
-			access_hash : -5374843924641011017,
+			channel_id : 3615433798097967062,
+			access_hash : 2663011622416132707,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 39,
-			user_id : -1854411312435701809,
+			msg_id : 12,
+			user_id : 5560098649197310022,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 58,
-			channel_id : -3715023524813335251,
+			msg_id : 80,
+			channel_id : -2086807823912646523,
 		),
 	),
 );

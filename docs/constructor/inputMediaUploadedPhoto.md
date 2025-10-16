@@ -34,19 +34,19 @@ inputMediaUploadedPhoto#1e287d04 flags:# spoiler:flags.2?true file:InputFile sti
 $inputMedia = $client->inputMediaUploadedPhoto(
 	spoiler : true,
 	file : $client->inputFile(
-		id : -8459602757817540441,
-		parts : 53,
-		name : 'yRPcJjoBdXSkm2Ua',
+		id : -5714153642857263221,
+		parts : 95,
+		name : 'xa6pb2LR7X5meUTQ',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
 	stickers : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : -2812537371280769216,
-			access_hash : -7534247582548290093,
+			id : -9176797935200894649,
+			access_hash : 9102774426005498449,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	ttl_seconds : 74,
+	ttl_seconds : 19,
 );
 ```

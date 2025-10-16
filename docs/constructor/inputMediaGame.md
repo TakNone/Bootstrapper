@@ -29,8 +29,8 @@ inputMediaGame#d33f43f3 id:InputGame = InputMedia;
 ```php
 $inputMedia = $client->inputMediaGame(
 	id : $client->inputGameID(
-		id : -7053520236039658435,
-		access_hash : -2025458367261014343,
+		id : 8842920107790688099,
+		access_hash : -7109788367031069714,
 	),
 );
 ```

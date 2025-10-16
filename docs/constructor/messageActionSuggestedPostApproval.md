@@ -1,5 +1,7 @@
 # messageActionSuggestedPostApproval
 
+**Description** : *A suggested post &raquo; was approved or rejected*
+
 **Layer** : 216
 
 ```tl
@@ -12,12 +14,12 @@ messageActionSuggestedPostApproval#ee7a1596 flags:# rejected:flags.0?true balanc
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **rejected** | [`flags.0?true`](type/true) | NOTHING |
-| **balance_too_low** | [`flags.1?true`](type/true) | NOTHING |
-| **reject_comment** | [`flags.2?string`](type/string) | NOTHING |
-| **schedule_date** | [`flags.3?int`](type/int) | NOTHING |
-| **price** | [`flags.4?StarsAmount`](type/StarsAmount) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **rejected** | [`flags.0?true`](type/true) | Whether the suggested post was rejected |
+| **balance_too_low** | [`flags.1?true`](type/true) | If set, the post was approved but the user's balance is too low to pay for the suggested post |
+| **reject_comment** | [`flags.2?string`](type/string) | If the suggested post was rejected, can optionally contain a rejection comment |
+| **schedule_date** | [`flags.3?int`](type/int) | Scheduling date |
+| **price** | [`flags.4?StarsAmount`](type/StarsAmount) | Price for the suggested post |
 
 ---
 
@@ -33,11 +35,11 @@ messageActionSuggestedPostApproval#ee7a1596 flags:# rejected:flags.0?true balanc
 $messageAction = $client->messageActionSuggestedPostApproval(
 	rejected : true,
 	balance_too_low : true,
-	reject_comment : '8ci25UlgrGhd7f9S',
-	schedule_date : 90,
+	reject_comment : 'v67EMPagVwY3fo8W',
+	schedule_date : 26,
 	price : $client->starsAmount(
-		amount : 1656303124213226386,
-		nanos : 85,
+		amount : -2140525021625584847,
+		nanos : 2,
 	),
 );
 ```

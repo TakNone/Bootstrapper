@@ -33,10 +33,10 @@ messages.getForumTopics#3ba47bff flags:# peer:InputPeer q:flags.0?string offset_
 ```php
 $messagesForumTopics = $client->messages->getForumTopics(
 	peer : $client->inputPeerEmpty(),
-	q : 'fQJWU0nt8HZamyqh',
+	q : 'KHGNRT9EmyXejUtB',
 	offset_date : 0,
 	offset_id : 0,
 	offset_topic : 0,
-	limit : 88,
+	limit : 53,
 );
 ```

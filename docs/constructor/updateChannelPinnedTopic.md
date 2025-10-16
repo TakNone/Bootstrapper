@@ -32,7 +32,7 @@ updateChannelPinnedTopic#192efbe3 flags:# pinned:flags.0?true channel_id:long to
 ```php
 $update = $client->updateChannelPinnedTopic(
 	pinned : true,
-	channel_id : 6678729429872822366,
-	topic_id : 6,
+	channel_id : -5077121296194876276,
+	topic_id : 53,
 );
 ```

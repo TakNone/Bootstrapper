@@ -31,11 +31,11 @@ updateMessagePollVote#24f40e77 poll_id:long peer:Peer options:Vector<bytes> qts:
 
 ```php
 $update = $client->updateMessagePollVote(
-	poll_id : -165109244230580168,
+	poll_id : -8483967534438979243,
 	peer : $client->peerUser(
-		user_id : 2565235215917065079,
+		user_id : 3728814649478188427,
 	),
 	options : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	qts : 52,
+	qts : 59,
 );
 ```

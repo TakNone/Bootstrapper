@@ -34,9 +34,9 @@ channelParticipantSelf#4f607bef flags:# via_request:flags.0?true user_id:long in
 ```php
 $channelParticipant = $client->channelParticipantSelf(
 	via_request : true,
-	user_id : 4137075543429068044,
-	inviter_id : -1354508149483714217,
-	date : 23,
-	subscription_until_date : 63,
+	user_id : -3572999635132359387,
+	inviter_id : 627501464769878637,
+	date : 2,
+	subscription_until_date : 19,
 );
 ```

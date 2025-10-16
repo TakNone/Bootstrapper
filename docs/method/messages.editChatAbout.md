@@ -46,6 +46,6 @@ messages.editChatAbout#def60797 peer:InputPeer about:string = Bool;
 ```php
 $bool = $client->messages->editChatAbout(
 	peer : $client->inputPeerEmpty(),
-	about : 'ZT7Oblq63FrUfL5S',
+	about : 'uB6AImz3KWC9w8yo',
 );
 ```

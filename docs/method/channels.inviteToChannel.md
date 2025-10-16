@@ -32,6 +32,7 @@ channels.inviteToChannel#c9e33d54 channel:InputChannel users:Vector<InputUser> =
 | **BOTS_TOO_MUCH** | `400` | There are too many bots in this chat/channel |
 | **BOT_GROUPS_BLOCKED** | `400` | This bot can't be added to groups |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_MONOFORUM_UNSUPPORTED** | `400` | Monoforums do not support this feature |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `403` | You must be an admin in this chat to do this |
 | **CHAT_INVALID** | `400` | Invalid chat |
@@ -60,13 +61,13 @@ $messagesInvitedUsers = $client->channels->inviteToChannel(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -1572005793132538239,
-			access_hash : 5063712207395220820,
+			user_id : 3209068810217806069,
+			access_hash : 7159174780591264959,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 14,
-			user_id : -9125970359823927163,
+			msg_id : 60,
+			user_id : 2775613575985415223,
 		),
 	),
 );

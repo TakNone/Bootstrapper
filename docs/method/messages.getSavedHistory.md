@@ -1,6 +1,6 @@
 # messages.getSavedHistory
 
-**Description** : *Returns saved messages &raquo; forwarded from a specific peer*
+**Description** : *Fetch saved messages &raquo; forwarded from a specific peer, or fetch messages from a monoforum topic &raquo;*
 
 **Layer** : 216
 
@@ -14,9 +14,9 @@ messages.getSavedHistory#998ab009 flags:# parent_peer:flags.0?InputPeer peer:Inp
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **parent_peer** | [`flags.0?InputPeer`](type/InputPeer) | NOTHING |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Target peer |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **parent_peer** | [`flags.0?InputPeer`](type/InputPeer) | If set, fetches messages from the specified monoforum, otherwise fetches from saved messages |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Target peer (or topic) |
 | <mark>offset_id</mark> | [`int`](type/int) | Only return messages starting from the specified message ID |
 | <mark>offset_date</mark> | [`int`](type/int) | Only return messages sent before the specified date |
 | <mark>add_offset</mark> | [`int`](type/int) | Number of list elements to be skipped, negative values are also accepted |
@@ -49,10 +49,10 @@ $messagesMessages = $client->messages->getSavedHistory(
 	peer : $client->inputPeerEmpty(),
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 31,
-	limit : 50,
-	max_id : 40,
-	min_id : 46,
+	add_offset : 7,
+	limit : 15,
+	max_id : 29,
+	min_id : 99,
 	hash : 0,
 );
 ```

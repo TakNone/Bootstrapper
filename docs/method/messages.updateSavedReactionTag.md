@@ -40,6 +40,6 @@ messages.updateSavedReactionTag#60297dec flags:# reaction:Reaction title:flags.0
 ```php
 $bool = $client->messages->updateSavedReactionTag(
 	reaction : $client->reactionEmpty(),
-	title : 'Urjzwq9unDdTy3t2',
+	title : 'fL0DcUOVqR7yZWTt',
 );
 ```

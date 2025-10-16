@@ -1,5 +1,7 @@
 # BotVerifierSettings
 
+**Description** : *Info about the current verifier bot &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ botVerifierSettings#b0cd6617 flags:# can_modify_custom_description:flags.1?true 
 
 | Constructor | Description |
 | :---: | :--- |
-| [**botVerifierSettings**](constructor/botVerifierSettings) | NOTHING |
+| [**botVerifierSettings**](constructor/botVerifierSettings) | Info about the current verifier bot » |

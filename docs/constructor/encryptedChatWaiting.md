@@ -32,10 +32,10 @@ encryptedChatWaiting#66b25953 id:int access_hash:long date:int admin_id:long par
 
 ```php
 $encryptedChat = $client->encryptedChatWaiting(
-	id : 2,
-	access_hash : 6402213367063935712,
-	date : 49,
-	admin_id : 5688446981146702991,
-	participant_id : -6034073624843524009,
+	id : 24,
+	access_hash : -4306595010633433046,
+	date : 85,
+	admin_id : -8710473510927027876,
+	participant_id : 2137101575737911500,
 );
 ```

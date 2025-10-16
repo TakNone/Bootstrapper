@@ -31,6 +31,7 @@ account.getTheme#3a5869ec format:string theme:InputTheme = Theme;
 | :---: | :---: | :--- |
 | **THEME_FORMAT_INVALID** | `400` | Invalid theme format provided |
 | **THEME_INVALID** | `400` | Invalid theme provided |
+| **THEME_SLUG_INVALID** | `400` | The specified theme slug is invalid |
 
 ---
 
@@ -38,10 +39,10 @@ account.getTheme#3a5869ec format:string theme:InputTheme = Theme;
 
 ```php
 $theme = $client->account->getTheme(
-	format : 'NBcxpICU0Wne9m3w',
+	format : 'r5XwG1KxU6SuvsWD',
 	theme : $client->inputTheme(
-		id : -6373178835542932928,
-		access_hash : -7932733759836317026,
+		id : -4701422226071360057,
+		access_hash : 8714166185985653276,
 	),
 );
 ```

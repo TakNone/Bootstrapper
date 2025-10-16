@@ -16,4 +16,4 @@ starGiftUnique#b0bf741b flags:# require_premium:flags.6?true resale_ton_only:fla
 | Constructor | Description |
 | :---: | :--- |
 | [**starGift**](constructor/starGift) | Represents a star gift, see here » for more info |
-| [**starGiftUnique**](constructor/starGiftUnique) | NOTHING |
+| [**starGiftUnique**](constructor/starGiftUnique) | Represents a collectible star gift, see here » for more info.The sticker that represents the gift is contained in a starGiftAttributeModel object in attributes |

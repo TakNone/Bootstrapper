@@ -46,16 +46,16 @@ initConnection#c1cd5ea9 {X:Type} flags:# api_id:int device_model:string system_v
 
 ```php
 $x = $client->initConnection(
-	api_id : 30,
-	device_model : '1N6ve9F4LuigPwlH',
-	system_version : 'bD4G5fMCQ2iFs16w',
-	app_version : '3ikalhZVpNsI86oR',
-	system_lang_code : 'rwzPuUiXDmGJlLBv',
-	lang_pack : 'eh18vWaOXZzlgrRb',
-	lang_code : '2Ryjm9EYHMTfoUnB',
+	api_id : 22,
+	device_model : 'eVSgs3uKxPNGBDAz',
+	system_version : 'EnKUdM4TcRD5Wfs1',
+	app_version : 'xNY4CzDFcTUk2ZM5',
+	system_lang_code : 'fWyRTmD4qzFvQ3wK',
+	lang_pack : '1FjGNCKrPYq7aiSx',
+	lang_code : 'IKPrXT4gdLU7tf38',
 	proxy : $client->inputClientProxy(
-		address : 'tdkqMHvoInK3DuNb',
-		port : 7,
+		address : 'qDZwyCkErpWAuTP2',
+		port : 80,
 	),
 	params : $client->jsonNull(),
 	query : $client->help->getConfig(raw : true),

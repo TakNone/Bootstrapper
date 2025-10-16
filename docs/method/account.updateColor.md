@@ -32,6 +32,7 @@ account.updateColor#7cefa15d flags:# for_profile:flags.1?true color:flags.2?int 
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **COLOR_INVALID** | `400` | The specified color palette ID was invalid |
+| **DOCUMENT_INVALID** | `400` | The specified document is invalid |
 | **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
 
 ---
@@ -41,7 +42,7 @@ account.updateColor#7cefa15d flags:# for_profile:flags.1?true color:flags.2?int 
 ```php
 $bool = $client->account->updateColor(
 	for_profile : true,
-	color : 26,
-	background_emoji_id : -6593943280540677192,
+	color : 3,
+	background_emoji_id : 829048318988754006,
 );
 ```

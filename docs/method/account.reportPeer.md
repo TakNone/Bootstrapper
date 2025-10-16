@@ -41,6 +41,6 @@ account.reportPeer#c5ba3d86 peer:InputPeer reason:ReportReason message:string = 
 $bool = $client->account->reportPeer(
 	peer : $client->inputPeerEmpty(),
 	reason : $client->inputReportReasonSpam(),
-	message : 'BfsxGnhQDwtAju7O',
+	message : 'ALWd73t8oTHnBGeK',
 );
 ```

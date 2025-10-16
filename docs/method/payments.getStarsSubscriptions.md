@@ -41,6 +41,6 @@ payments.getStarsSubscriptions#32512c5 flags:# missing_balance:flags.0?true peer
 $paymentsStarsStatus = $client->payments->getStarsSubscriptions(
 	missing_balance : true,
 	peer : $client->inputPeerEmpty(),
-	offset : 'y5LqhC9Fjli2XzNI',
+	offset : 'xLTFBmjfkYW4Sy85',
 );
 ```

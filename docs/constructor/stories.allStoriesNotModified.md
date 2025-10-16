@@ -30,10 +30,10 @@ stories.allStoriesNotModified#1158fe3e flags:# state:string stealth_mode:Stories
 
 ```php
 $storiesAllStories = $client->stories->allStoriesNotModified(
-	state : 'FzB4IkCeYSMpolam',
+	state : 'NKTZSbBiXmx1dgPL',
 	stealth_mode : $client->storiesStealthMode(
-		active_until_date : 98,
-		cooldown_until_date : 84,
+		active_until_date : 57,
+		cooldown_until_date : 3,
 	),
 );
 ```

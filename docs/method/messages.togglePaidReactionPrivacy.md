@@ -31,6 +31,7 @@ messages.togglePaidReactionPrivacy#435885b5 peer:InputPeer msg_id:int private:Pa
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+| **REACTION_EMPTY** | `400` | Empty reaction provided |
 
 ---
 
@@ -39,7 +40,7 @@ messages.togglePaidReactionPrivacy#435885b5 peer:InputPeer msg_id:int private:Pa
 ```php
 $bool = $client->messages->togglePaidReactionPrivacy(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 63,
+	msg_id : 67,
 	private : $client->paidReactionPrivacyDefault(),
 );
 ```

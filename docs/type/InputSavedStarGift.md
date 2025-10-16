@@ -1,5 +1,7 @@
 # InputSavedStarGift
 
+**Description** : *Points to a gift &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -14,6 +16,6 @@ inputSavedStarGiftSlug#2085c238 slug:string = InputSavedStarGift;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**inputSavedStarGiftUser**](constructor/inputSavedStarGiftUser) | NOTHING |
-| [**inputSavedStarGiftChat**](constructor/inputSavedStarGiftChat) | NOTHING |
-| [**inputSavedStarGiftSlug**](constructor/inputSavedStarGiftSlug) | NOTHING |
+| [**inputSavedStarGiftUser**](constructor/inputSavedStarGiftUser) | A gift received in a private chat with another user |
+| [**inputSavedStarGiftChat**](constructor/inputSavedStarGiftChat) | A gift received by a channel we own |
+| [**inputSavedStarGiftSlug**](constructor/inputSavedStarGiftSlug) | Points to a collectible gift obtained from a collectible gift link » |

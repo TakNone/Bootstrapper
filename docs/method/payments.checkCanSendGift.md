@@ -1,5 +1,7 @@
 # payments.checkCanSendGift
 
+**Description** : *Check if the specified gift &raquo; can be sent*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ payments.checkCanSendGift#c0c4edc9 gift_id:long = payments.CheckCanSendGiftResul
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>gift_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>gift_id</mark> | [`long`](type/long) | Gift ID |
 
 ---
 
@@ -22,10 +24,18 @@ payments.checkCanSendGift#c0c4edc9 gift_id:long = payments.CheckCanSendGiftResul
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **STARGIFT_INVALID** | `400` | The passed gift is invalid |
+
+---
+
 ## Example
 
 ```php
 $paymentsCheckCanSendGiftResult = $client->payments->checkCanSendGift(
-	gift_id : 1792885538138348240,
+	gift_id : -1159322020773448337,
 );
 ```

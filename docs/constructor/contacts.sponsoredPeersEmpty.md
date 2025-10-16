@@ -1,5 +1,7 @@
 # contacts.sponsoredPeersEmpty
 
+**Description** : *There are no sponsored peers for this query*
+
 **Layer** : 216
 
 ```tl

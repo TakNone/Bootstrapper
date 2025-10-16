@@ -40,7 +40,7 @@ bots.editPreviewMedia#8525606f bot:InputUser lang_code:string media:InputMedia n
 ```php
 $botPreviewMedia = $client->bots->editPreviewMedia(
 	bot : $client->inputUserEmpty(),
-	lang_code : '5TeP7Qxqs1aKSi40',
+	lang_code : '574vTEGtujUNhBlf',
 	media : $client->inputMediaEmpty(),
 	new_media : $client->inputMediaEmpty(),
 );

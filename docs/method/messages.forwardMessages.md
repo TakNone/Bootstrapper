@@ -27,13 +27,13 @@ messages.forwardMessages#978928ca flags:# silent:flags.5?true background:flags.6
 | <mark>random_id</mark> | [`Vector<long>`](type/long) | Random ID to prevent resending of messages |
 | <mark>to_peer</mark> | [`InputPeer`](type/InputPeer) | Destination peer |
 | **top_msg_id** | [`flags.9?int`](type/int) | Destination forum topic |
-| **reply_to** | [`flags.22?InputReplyTo`](type/InputReplyTo) | NOTHING |
+| **reply_to** | [`flags.22?InputReplyTo`](type/InputReplyTo) | Can only contain an inputReplyToMonoForum, to forward messages to a monoforum topic (mutually exclusive with top_msg_id) |
 | **schedule_date** | [`flags.10?int`](type/int) | Scheduled message date for scheduled messages |
 | **send_as** | [`flags.13?InputPeer`](type/InputPeer) | Forward the messages as the specified peer |
 | **quick_reply_shortcut** | [`flags.17?InputQuickReplyShortcut`](type/InputQuickReplyShortcut) | Add the messages to the specified quick reply shortcut », instead |
-| **video_timestamp** | [`flags.20?int`](type/int) | NOTHING |
-| **allow_paid_stars** | [`flags.21?long`](type/long) | NOTHING |
-| **suggested_post** | [`flags.23?SuggestedPost`](type/SuggestedPost) | NOTHING |
+| **video_timestamp** | [`flags.20?int`](type/int) | Start playing the video at the specified timestamp (seconds) |
+| **allow_paid_stars** | [`flags.21?long`](type/long) | For paid messages », specifies the amount of Telegram Stars the user has agreed to pay in order to send the message |
+| **suggested_post** | [`flags.23?SuggestedPost`](type/SuggestedPost) | Used to suggest a post to a channel, see here » for more info on the full flow |
 
 ---
 
@@ -47,6 +47,8 @@ messages.forwardMessages#978928ca flags:# silent:flags.5?true background:flags.6
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **ALLOW_PAYMENT_REQUIRED** | `406` | This peer only accepts paid messages »: this error is only emitted for older layers without paid messages support, so the client must be updated in order to use paid messages.   |
+| **ALLOW_PAYMENT_REQUIRED_%d** | `403` | This peer charges %d Telegram Stars per message, but the allow_paid_stars was not set or its value is smaller than %d |
 | **BROADCAST_PUBLIC_VOTERS_FORBIDDEN** | `400` | You can't forward polls with public voters |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
@@ -59,6 +61,7 @@ messages.forwardMessages#978928ca flags:# silent:flags.5?true background:flags.6
 | **CHAT_SEND_DOCS_FORBIDDEN** | `403` | You can't send documents in this chat |
 | **CHAT_SEND_GAME_FORBIDDEN** | `403` | You can't send a game to this chat |
 | **CHAT_SEND_GIFS_FORBIDDEN** | `403` | You can't send gifs in this chat |
+| **CHAT_SEND_INLINE_FORBIDDEN** | `403` | You can't send inline messages in this group |
 | **CHAT_SEND_MEDIA_FORBIDDEN** | `403` | You can't send media in this chat |
 | **CHAT_SEND_PHOTOS_FORBIDDEN** | `403` | You can't send photos in this chat |
 | **CHAT_SEND_PLAIN_FORBIDDEN** | `403` | You can't send non-media (text) messages in this chat |
@@ -66,6 +69,7 @@ messages.forwardMessages#978928ca flags:# silent:flags.5?true background:flags.6
 | **CHAT_SEND_STICKERS_FORBIDDEN** | `403` | You can't send stickers in this chat |
 | **CHAT_SEND_VIDEOS_FORBIDDEN** | `403` | You can't send videos in this chat |
 | **CHAT_SEND_VOICES_FORBIDDEN** | `403` | You can't send voice recordings in this chat |
+| **CHAT_SEND_WEBPAGE_FORBIDDEN** | `403` | You can't send webpage previews to this chat |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **GROUPED_MEDIA_INVALID** | `400` | Invalid grouped media |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
@@ -74,20 +78,23 @@ messages.forwardMessages#978928ca flags:# silent:flags.5?true background:flags.6
 | **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PAYMENT_UNSUPPORTED** | `406` | A detailed description of the error will be received separately as described here » |
-| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+| **PEER_ID_INVALID** | `406` | The provided peer id is invalid |
 | **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
-| **PRIVACY_PREMIUM_REQUIRED** | `406` | You need a Telegram Premium subscription to send a message to this user |
+| **PRIVACY_PREMIUM_REQUIRED** | `403` | You need a Telegram Premium subscription to send a message to this user |
+| **QUICK_REPLIES_BOT_NOT_ALLOWED** | `400` | Quick replies cannot be used by bots |
 | **QUICK_REPLIES_TOO_MUCH** | `400` | A maximum of appConfig.quick_replies_limit shortcuts may be created, the limit was reached |
 | **QUIZ_ANSWER_MISSING** | `400` | You can forward a quiz while hiding the original author only after choosing an option in the quiz |
 | **RANDOM_ID_DUPLICATE** | `500` | You provided a random ID that was already used |
 | **RANDOM_ID_INVALID** | `400` | A provided random ID is invalid |
 | **REPLY_MESSAGES_TOO_MUCH** | `400` | Each shortcut can contain a maximum of appConfig.quick_reply_messages_limit messages, the limit was reached |
+| **REPLY_TO_MONOFORUM_PEER_INVALID** | `400` | The specified inputReplyToMonoForum.monoforum_peer_id is invalid |
 | **SCHEDULE_BOT_NOT_ALLOWED** | `400` | Bots cannot schedule messages |
 | **SCHEDULE_DATE_TOO_LATE** | `400` | You can't schedule a message this far in the future |
 | **SCHEDULE_TOO_MUCH** | `400` | There are too many scheduled messages |
 | **SEND_AS_PEER_INVALID** | `400` | You can't send messages as the specified peer |
 | **SLOWMODE_MULTI_MSGS_DISABLED** | `400` | Slowmode is enabled, you cannot forward multiple messages to this group |
 | **SLOWMODE_WAIT_%d** | `420` | Slowmode is enabled in this chat: wait %d seconds before sending another message to this chat |
+| **SUGGESTED_POST_PEER_INVALID** | `400` | You cannot send suggested posts to non-monoforum peers |
 | **TOPIC_CLOSED** | `406` | This topic was closed, you can't send messages to it anymore |
 | **TOPIC_DELETED** | `406` | The specified topic was deleted |
 | **USER_BANNED_IN_CHANNEL** | `400` | You're banned from sending messages in supergroups/channels |
@@ -110,126 +117,126 @@ $updates = $client->messages->forwardMessages(
 	noforwards : true,
 	allow_paid_floodskip : true,
 	from_peer : $client->inputPeerEmpty(),
-	id : array(65),
-	random_id : array(-8958602424438558785),
+	id : array(14),
+	random_id : array(4053329103328546523),
 	to_peer : $client->inputPeerEmpty(),
-	top_msg_id : 86,
+	top_msg_id : 58,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 78,
-		top_msg_id : 75,
+		reply_to_msg_id : 98,
+		top_msg_id : 21,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'GevqiInLmzjyUhVk',
+		quote_text : 'horm7UfLcx6ZbHPG',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 10,
+				length : 27,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 31,
+				length : 45,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 15,
+				length : 94,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 53,
+				length : 18,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 72,
+				length : 37,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 63,
+				length : 73,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 52,
+				length : 96,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 79,
+				length : 5,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 73,
+				length : 92,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 12,
-				language : 'SEr8FAknUM3L7h1a',
+				length : 10,
+				language : 'Q365D2nxGos7yHgv',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 42,
+				length : 13,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 68,
-				user_id : 8713441467035440010,
+				length : 79,
+				user_id : 39232327098560355,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 36,
+				length : 7,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 38,
+				length : 63,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 3,
+				length : 31,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 19,
+				length : 70,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 43,
+				length : 45,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 31,
+				length : 91,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 92,
+				length : 17,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 58,
-				document_id : 3273689601841273673,
+				length : 81,
+				document_id : 3198233814865354113,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 65,
+				length : 73,
 			),
 		),
-		quote_offset : 31,
+		quote_offset : 59,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 86,
+		todo_item_id : 36,
 	),
-	schedule_date : 92,
+	schedule_date : 19,
 	send_as : $client->inputPeerEmpty(),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'GcmdJ6RF1hsXSoxg',
+		shortcut : 'M9UAHsTYoIPjL0gC',
 	),
-	video_timestamp : 33,
-	allow_paid_stars : -4236717226412082451,
+	video_timestamp : 40,
+	allow_paid_stars : 7807126427661388556,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 4606015455196446299,
-			nanos : 42,
+			amount : 1009104207498799729,
+			nanos : 31,
 		),
-		schedule_date : 67,
+		schedule_date : 34,
 	),
 );
 ```

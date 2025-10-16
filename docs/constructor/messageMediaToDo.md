@@ -1,5 +1,7 @@
 # messageMediaToDo
 
+**Description** : *Represents a todo list &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,9 +14,9 @@ messageMediaToDo#8a53b014 flags:# todo:TodoList completions:flags.0?Vector<TodoC
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| <mark>todo</mark> | [`TodoList`](type/TodoList) | NOTHING |
-| **completions** | [`flags.0?Vector<TodoCompletion>`](type/TodoCompletion) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>todo</mark> | [`TodoList`](type/TodoList) | The todo list |
+| **completions** | [`flags.0?Vector<TodoCompletion>`](type/TodoCompletion) | Completed items |
 
 ---
 
@@ -32,7 +34,7 @@ $messageMedia = $client->messageMediaToDo(
 		others_can_append : true,
 		others_can_complete : true,
 		title : $client->textWithEntities(
-			text : 'MpODhfWRlUZr7CQg',
+			text : 'SrpziqVgWfDAjQYC',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -59,16 +61,16 @@ $messageMedia = $client->messageMediaToDo(
 		),
 		list : array(
 			$client->todoItem(
-				id : 70,
+				id : 15,
 				title : $client->textWithEntities(...),
 			),
 		),
 	),
 	completions : array(
 		$client->todoCompletion(
-			id : 91,
-			completed_by : -2455057722546251429,
-			date : 95,
+			id : 31,
+			completed_by : 3289836740048156604,
+			date : 13,
 		),
 	),
 );

@@ -1,5 +1,7 @@
 # account.savedMusicIdsNotModified
 
+**Description** : *The list of IDs of songs \(document\.ids\) currently pinned on our profile hasn&#039;t changed*
+
 **Layer** : 216
 
 ```tl

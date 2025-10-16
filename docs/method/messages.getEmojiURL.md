@@ -28,6 +28,6 @@ messages.getEmojiURL#d5b10c26 lang_code:string = EmojiURL;
 
 ```php
 $emojiURL = $client->messages->getEmojiURL(
-	lang_code : 'tnyZSbHpWoJBCQM2',
+	lang_code : 'NCI5wSsy7FOBbnHL',
 );
 ```

@@ -17,8 +17,8 @@ inputMediaDocument#a8763ab5 flags:# spoiler:flags.2?true id:InputDocument video_
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **spoiler** | [`flags.2?true`](type/true) | Whether this media should be hidden behind a spoiler warning |
 | <mark>id</mark> | [`InputDocument`](type/InputDocument) | The document to be forwarded |
-| **video_cover** | [`flags.3?InputPhoto`](type/InputPhoto) | NOTHING |
-| **video_timestamp** | [`flags.4?int`](type/int) | NOTHING |
+| **video_cover** | [`flags.3?InputPhoto`](type/InputPhoto) | Custom video cover |
+| **video_timestamp** | [`flags.4?int`](type/int) | Start playing the video at the specified timestamp (seconds) |
 | **ttl_seconds** | [`flags.0?int`](type/int) | Time to live of self-destructing document |
 | **query** | [`flags.1?string`](type/string) | Text query or emoji that was used by the user to find this sticker or GIF: used to improve search result relevance |
 
@@ -37,8 +37,8 @@ $inputMedia = $client->inputMediaDocument(
 	spoiler : true,
 	id : $client->inputDocumentEmpty(),
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 12,
-	ttl_seconds : 90,
-	query : 'W7e3ERT2OhXstwVf',
+	video_timestamp : 30,
+	ttl_seconds : 9,
+	query : 'W8BsIpuxhvoAr0LE',
 );
 ```

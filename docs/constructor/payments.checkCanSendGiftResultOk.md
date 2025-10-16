@@ -1,5 +1,7 @@
 # payments.checkCanSendGiftResultOk
 
+**Description** : *The specified gift can be sent*
+
 **Layer** : 216
 
 ```tl

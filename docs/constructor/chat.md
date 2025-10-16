@@ -22,7 +22,7 @@ chat#41cbf256 flags:# creator:flags.0?true kicked:flags.1?true left:flags.2?true
 | **call_active** | [`flags.23?true`](type/true) | Whether a group call is currently active |
 | **call_not_empty** | [`flags.24?true`](type/true) | Whether there's anyone in the group call |
 | **noforwards** | [`flags.25?true`](type/true) | Whether this group is protected, thus does not allow forwarding messages from it |
-| <mark>id</mark> | [`long`](type/long) | ID of the group, see here » for more info |
+| <mark>id</mark> | [`long`](type/long) | ID of the group, see here » for more info and the available ID range |
 | <mark>title</mark> | [`string`](type/string) | Title |
 | <mark>photo</mark> | [`ChatPhoto`](type/ChatPhoto) | Chat photo |
 | <mark>participants_count</mark> | [`int`](type/int) | Participant count |
@@ -51,12 +51,12 @@ $chat = $client->chat(
 	call_active : true,
 	call_not_empty : true,
 	noforwards : true,
-	id : -3272164507319159666,
-	title : 'VmqIKGLxWhbEndJe',
+	id : 1556018331980105683,
+	title : 'BJidbTY9alPSQuNc',
 	photo : $client->chatPhotoEmpty(),
-	participants_count : 18,
-	date : 76,
-	version : 86,
+	participants_count : 41,
+	date : 9,
+	version : 38,
 	migrated_to : $client->inputChannelEmpty(),
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
@@ -97,7 +97,7 @@ $chat = $client->chat(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 83,
+		until_date : 32,
 	),
 );
 ```

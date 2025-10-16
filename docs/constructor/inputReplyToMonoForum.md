@@ -1,5 +1,7 @@
 # inputReplyToMonoForum
 
+**Description** : *Used to send messages to a monoforum topic*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ inputReplyToMonoForum#69d66c45 monoforum_peer_id:InputPeer = InputReplyTo;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>monoforum_peer_id</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
+| <mark>monoforum_peer_id</mark> | [`InputPeer`](type/InputPeer) | The topic ID |
 
 ---
 

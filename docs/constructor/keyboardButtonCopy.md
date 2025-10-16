@@ -29,7 +29,7 @@ keyboardButtonCopy#75d2698e text:string copy_text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonCopy(
-	text : 'aFGWOeI1y5RfcUSj',
-	copy_text : 'ZrCnDcOxB1w2ytgJ',
+	text : 'NsmnoBfrRXJPSbel',
+	copy_text : 'hWmZ2vx5dMCJBSNk',
 );
 ```

@@ -40,6 +40,6 @@ stories.readStories#a556dac8 peer:InputPeer max_id:int = Vector<int>;
 ```php
 $int = $client->stories->readStories(
 	peer : $client->inputPeerEmpty(),
-	max_id : 69,
+	max_id : 96,
 );
 ```

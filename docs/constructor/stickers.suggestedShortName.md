@@ -28,6 +28,6 @@ stickers.suggestedShortName#85fea03f short_name:string = stickers.SuggestedShort
 
 ```php
 $stickersSuggestedShortName = $client->stickers->suggestedShortName(
-	short_name : 'G9lOdt28DB4Lz5NE',
+	short_name : 'eKYXTG46IFa3blZm',
 );
 ```

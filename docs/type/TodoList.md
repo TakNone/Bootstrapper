@@ -1,5 +1,7 @@
 # TodoList
 
+**Description** : *Represents a todo list &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ todoList#49b92a26 flags:# others_can_append:flags.0?true others_can_complete:fla
 
 | Constructor | Description |
 | :---: | :--- |
-| [**todoList**](constructor/todoList) | NOTHING |
+| [**todoList**](constructor/todoList) | Represents a todo list » |

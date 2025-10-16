@@ -28,6 +28,6 @@ account.updateDeviceLocked#38df3532 period:int = Bool;
 
 ```php
 $bool = $client->account->updateDeviceLocked(
-	period : 70,
+	period : 23,
 );
 ```

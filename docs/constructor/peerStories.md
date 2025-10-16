@@ -32,18 +32,18 @@ peerStories#9a35e999 flags:# peer:Peer max_read_id:flags.0?int stories:Vector<St
 ```php
 $peerStories = $client->peerStories(
 	peer : $client->peerUser(
-		user_id : 2488030990064711192,
+		user_id : -1243207992084438903,
 	),
-	max_read_id : 68,
+	max_read_id : 5,
 	stories : array(
 		$client->storyItemDeleted(
-			id : 79,
+			id : 69,
 		),
 		$client->storyItemSkipped(
 			close_friends : true,
-			id : 95,
-			date : 100,
-			expire_date : 13,
+			id : 83,
+			date : 70,
+			expire_date : 7,
 		),
 		$client->storyItem(
 			pinned : true,
@@ -55,109 +55,109 @@ $peerStories = $client->peerStories(
 			contacts : true,
 			selected_contacts : true,
 			out : true,
-			id : 16,
-			date : 30,
+			id : 97,
+			date : 85,
 			from_id : $client->peerUser(
-				user_id : 6658263195378061732,
+				user_id : -6398833182086013509,
 			),
 			fwd_from : $client->storyFwdHeader(
 				modified : true,
 				from : $client->peerUser(...),
-				from_name : 'iIGfhd3y5bWZUMAo',
-				story_id : 8,
+				from_name : 'WaTk98cJqp5MrCfZ',
+				story_id : 95,
 			),
-			expire_date : 23,
-			caption : 'oHme6L2tXi8NyMlK',
+			expire_date : 6,
+			caption : 'MfKpy7StqTFliHxu',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 18,
+					length : 24,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 78,
+					length : 5,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 72,
+					length : 28,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 17,
+					length : 47,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 97,
+					length : 98,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 79,
+					length : 28,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 14,
+					length : 39,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 67,
+					length : 73,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 41,
+					length : 20,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 7,
-					language : 'KV2tjZrp3BQYXyIS',
+					length : 86,
+					language : 'nH27BsFkQ3WOge49',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 81,
+					length : 28,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 14,
-					user_id : 6340081611521157979,
+					length : 23,
+					user_id : -3130547117420216376,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 30,
+					length : 80,
 					user_id : $client->inputUserEmpty(...),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 92,
+					length : 37,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 81,
+					length : 22,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 6,
+					length : 47,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 54,
+					length : 62,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 20,
+					length : 60,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 75,
+					length : 52,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 78,
-					document_id : 8179075150468675981,
+					length : 0,
+					document_id : 5889682260938732943,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 59,
+					length : 9,
 				),
 			),
 			media : $client->messageMediaEmpty(),
@@ -165,16 +165,16 @@ $peerStories = $client->peerStories(
 				$client->mediaAreaVenue(
 					coordinates : $client->mediaAreaCoordinates(...),
 					geo : $client->geoPointEmpty(...),
-					title : 'Jk5gUhGRje4yTE9z',
-					address : 'mv2SXDGHWc3rlOZP',
-					provider : 'D5h3pe1joVwu4AHG',
-					venue_id : '3pE5rud067NZwPVh',
-					venue_type : 'g2v3EbdzZpwOxSNM',
+					title : 'N5B3OVM92zmZWkrc',
+					address : 'u64jhYH5A03snxlr',
+					provider : 'ZV3J5Uafr0RxGD4g',
+					venue_id : 'joI6bCtrg1uwTUni',
+					venue_type : 'UtGJFqMD74pgOm9W',
 				),
 				$client->inputMediaAreaVenue(
 					coordinates : $client->mediaAreaCoordinates(...),
-					query_id : -6898736166417049805,
-					result_id : '7pwJzIxQDTkKeAVa',
+					query_id : -5352417910571576565,
+					result_id : 'w5hc1Lu8eV3DUdCQ',
 				),
 				$client->mediaAreaGeoPoint(
 					coordinates : $client->mediaAreaCoordinates(...),
@@ -189,13 +189,13 @@ $peerStories = $client->peerStories(
 				),
 				$client->mediaAreaChannelPost(
 					coordinates : $client->mediaAreaCoordinates(...),
-					channel_id : 3725706140494277709,
-					msg_id : 56,
+					channel_id : 8965428518755348253,
+					msg_id : 98,
 				),
 				$client->inputMediaAreaChannelPost(
 					coordinates : $client->mediaAreaCoordinates(...),
 					channel : $client->inputChannelEmpty(...),
-					msg_id : 57,
+					msg_id : 88,
 				),
 				$client->mediaAreaUrl(
 					coordinates : $client->mediaAreaCoordinates(...),
@@ -203,31 +203,31 @@ $peerStories = $client->peerStories(
 				),
 				$client->mediaAreaWeather(
 					coordinates : $client->mediaAreaCoordinates(...),
-					emoji : 'OpFNTsGeRzniZoQr',
-					temperature_c : 1762046.169921875,
-					color : 31,
+					emoji : 'sofcJmpk3zld9CLv',
+					temperature_c : -968064.779296875,
+					color : 68,
 				),
 				$client->mediaAreaStarGift(
 					coordinates : $client->mediaAreaCoordinates(...),
-					slug : 'ut1Xjo6WBV7pR0xG',
+					slug : 'os2pFI5kxWiQnr8y',
 				),
 			),
 			privacy : array(
 				$client->privacyValueAllowContacts(),
 				$client->privacyValueAllowAll(),
 				$client->privacyValueAllowUsers(
-					users : array(-434483425775386489),
+					users : array(-7199414820125621310),
 				),
 				$client->privacyValueDisallowContacts(),
 				$client->privacyValueDisallowAll(),
 				$client->privacyValueDisallowUsers(
-					users : array(2693970463323234306),
+					users : array(-3908888643179061034),
 				),
 				$client->privacyValueAllowChatParticipants(
-					chats : array(6395634445201172368),
+					chats : array(7902627891786096053),
 				),
 				$client->privacyValueDisallowChatParticipants(
-					chats : array(921897336617171540),
+					chats : array(-9201394268871535421),
 				),
 				$client->privacyValueAllowCloseFriends(),
 				$client->privacyValueAllowPremium(),
@@ -236,16 +236,16 @@ $peerStories = $client->peerStories(
 			),
 			views : $client->storyViews(
 				has_viewers : true,
-				views_count : 68,
-				forwards_count : 99,
+				views_count : 52,
+				forwards_count : 36,
 				reactions : array(
 					$client->reactionCount(...),
 				),
-				reactions_count : 84,
-				recent_viewers : array(6190352577430402783),
+				reactions_count : 15,
+				recent_viewers : array(5785351530842794018),
 			),
 			sent_reaction : $client->reactionEmpty(),
-			albums : array(27),
+			albums : array(88),
 		),
 	),
 );

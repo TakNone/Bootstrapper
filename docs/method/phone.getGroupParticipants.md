@@ -41,36 +41,36 @@ phone.getGroupParticipants#c558d8ab call:InputGroupCall ids:Vector<InputPeer> so
 ```php
 $phoneGroupParticipants = $client->phone->getGroupParticipants(
 	call : $client->inputGroupCall(
-		id : -3300893877427945433,
-		access_hash : 3803410886378569959,
+		id : 5678623836146573583,
+		access_hash : -2136619025340823475,
 	),
 	ids : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : -4281729363996142838,
+			chat_id : 4910216760466723207,
 		),
 		$client->inputPeerUser(
-			user_id : -3226367610250390803,
-			access_hash : 4132755592188054829,
+			user_id : 4704550051045499340,
+			access_hash : -9118206262038583114,
 		),
 		$client->inputPeerChannel(
-			channel_id : -8372930004656374762,
-			access_hash : -5617346525184383134,
+			channel_id : -4809678660068608312,
+			access_hash : 3190135971106339163,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 64,
-			user_id : 8244018525258081391,
+			msg_id : 56,
+			user_id : 2083425904018097594,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 18,
-			channel_id : 4054805283232062034,
+			msg_id : 5,
+			channel_id : 4799117650596844162,
 		),
 	),
-	sources : array(76),
-	offset : '0zqLoXtPFGhJl4OV',
-	limit : 34,
+	sources : array(73),
+	offset : 'pxmuR0Pkr5J3UK4O',
+	limit : 46,
 );
 ```

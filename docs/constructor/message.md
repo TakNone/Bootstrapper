@@ -29,13 +29,13 @@ message#9815cec8 flags:# out:flags.1?true mentioned:flags.4?true media_unread:fl
 | <mark>flags2</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **offline** | [`flags2.1?true`](type/true) | If set, the message was sent because of a scheduled action by the message sender, for example, as away, or a greeting service message |
 | **video_processing_pending** | [`flags2.4?true`](type/true) | The video contained in the message is currently being processed by the server (i.e. to generate alternative qualities, that will be contained in the final messageMediaDocument.alt_document), and will be sent once the video is processed, which will happen approximately at the specified date (i.e. messages with this flag set should be treated similarly to scheduled messages, but instead of the scheduled date, date contains the estimated conversion date). See here » for more info |
-| **paid_suggested_post_stars** | [`flags2.8?true`](type/true) | NOTHING |
-| **paid_suggested_post_ton** | [`flags2.9?true`](type/true) | NOTHING |
+| **paid_suggested_post_stars** | [`flags2.8?true`](type/true) | Set if this is a suggested channel post » that was paid using Telegram Stars |
+| **paid_suggested_post_ton** | [`flags2.9?true`](type/true) | Set if this is a suggested channel post » that was paid using Toncoins |
 | <mark>id</mark> | [`int`](type/int) | ID of the message |
 | **from_id** | [`flags.8?Peer`](type/Peer) | ID of the sender of the message |
 | **from_boosts_applied** | [`flags.29?int`](type/int) | Supergroups only, contains the number of boosts this user has given the current supergroup, and should be shown in the UI in the header of the message. Only present for incoming messages from non-anonymous supergroup members that have boosted the supergroup. Note that this counter should be locally overridden for non-anonymous outgoing messages, according to the current value of channelFull.boosts_applied, to ensure the value is correct even for messages sent by the current user before a supergroup was boosted (or after a boost has expired or the number of boosts has changed); do not update this value for incoming messages from other users, even if their boosts have changed |
 | <mark>peer_id</mark> | [`Peer`](type/Peer) | Peer ID, the chat where this message was sent |
-| **saved_peer_id** | [`flags.28?Peer`](type/Peer) | Messages fetched from a saved messages dialog » will have peer=inputPeerSelf and the saved_peer_id flag set to the ID of the saved dialog |
+| **saved_peer_id** | [`flags.28?Peer`](type/Peer) | Messages from a saved messages dialog » will have peer=inputPeerSelf and the saved_peer_id flag set to the ID of the saved dialog.Messages from a monoforum » will have peer=ID of the monoforum and the saved_peer_id flag set to the ID of a topic |
 | **fwd_from** | [`flags.2?MessageFwdHeader`](type/MessageFwdHeader) | Info about forwarded messages |
 | **via_bot_id** | [`flags.11?long`](type/long) | ID of the inline bot that generated the message |
 | **via_business_bot_id** | [`flags2.0?long`](type/long) | Whether the message was sent by the business bot specified in via_bot_id on behalf of the user |
@@ -57,9 +57,9 @@ message#9815cec8 flags:# out:flags.1?true mentioned:flags.4?true media_unread:fl
 | **quick_reply_shortcut_id** | [`flags.30?int`](type/int) | If set, this message is a quick reply shortcut message » (note that quick reply shortcut messages sent to a private chat will not have this field set) |
 | **effect** | [`flags2.2?long`](type/long) | A message effect that should be played as specified here » |
 | **factcheck** | [`flags2.3?FactCheck`](type/FactCheck) | Represents a fact-check » |
-| **report_delivery_until_date** | [`flags2.5?int`](type/int) | NOTHING |
-| **paid_message_stars** | [`flags2.6?long`](type/long) | NOTHING |
-| **suggested_post** | [`flags2.7?SuggestedPost`](type/SuggestedPost) | NOTHING |
+| **report_delivery_until_date** | [`flags2.5?int`](type/int) | Used for Telegram Gateway verification messages: if set and the current unixtime is bigger than the specified unixtime, invoke messages.reportMessagesDelivery passing the ID and the peer of this message as soon as it is received by the client (optionally batching requests for the same peer) |
+| **paid_message_stars** | [`flags2.6?long`](type/long) | The amount of stars the sender has paid to send the message, see here » for more info |
+| **suggested_post** | [`flags2.7?SuggestedPost`](type/SuggestedPost) | Used to suggest a post to a channel, see here » for more info on the full flow |
 
 ---
 
@@ -88,163 +88,163 @@ $message = $client->message(
 	video_processing_pending : true,
 	paid_suggested_post_stars : true,
 	paid_suggested_post_ton : true,
-	id : 98,
+	id : 14,
 	from_id : $client->peerUser(
-		user_id : -3169148413138795170,
+		user_id : 861089397427885257,
 	),
-	from_boosts_applied : 55,
+	from_boosts_applied : 47,
 	peer_id : $client->peerUser(
-		user_id : -5230017659836388699,
+		user_id : 4443579797667665967,
 	),
 	saved_peer_id : $client->peerUser(
-		user_id : 7650681269542086230,
+		user_id : 7100728239861081020,
 	),
 	fwd_from : $client->messageFwdHeader(
 		imported : true,
 		saved_out : true,
 		from_id : $client->peerUser(
-			user_id : -5265435191538666417,
+			user_id : -8799616179053040177,
 		),
-		from_name : 'dA49K5HQM1UxvcWO',
-		date : 24,
-		channel_post : 43,
-		post_author : 'vXUP4WwhQb2SlF3z',
+		from_name : 'YAp5CtPDye9QbJiH',
+		date : 44,
+		channel_post : 73,
+		post_author : 'oRHU14IPKrmfLqOa',
 		saved_from_peer : $client->peerUser(
-			user_id : 3808885560701997589,
+			user_id : 1762602313488252753,
 		),
-		saved_from_msg_id : 42,
+		saved_from_msg_id : 0,
 		saved_from_id : $client->peerUser(
-			user_id : 7656651112078102216,
+			user_id : -187138259165929829,
 		),
-		saved_from_name : 'JnpRKXiMaTzVmcDj',
-		saved_date : 40,
-		psa_type : 'UV9hxZa1QcpXtTR0',
+		saved_from_name : 'vMluGC3awFsqbQdU',
+		saved_date : 73,
+		psa_type : 'V5gSjaZqHwiYbd3s',
 	),
-	via_bot_id : 5286258760037164140,
-	via_business_bot_id : -2356572129469151481,
+	via_bot_id : -3670988393668793330,
+	via_business_bot_id : 7225981866454183971,
 	reply_to : $client->messageReplyHeader(
 		reply_to_scheduled : true,
 		forum_topic : true,
 		quote : true,
 		reply_to_msg_id : 0,
 		reply_to_peer_id : $client->peerUser(
-			user_id : -6801868766400799770,
+			user_id : 2721817848159316051,
 		),
 		reply_from : $client->messageFwdHeader(
 			imported : true,
 			saved_out : true,
 			from_id : $client->peerUser(...),
-			from_name : '1bxen0PJ568dLARw',
-			date : 45,
-			channel_post : 16,
-			post_author : 'B2StfzMePlcQ3Lsw',
+			from_name : '2xqSdoNgatRMcQVp',
+			date : 1,
+			channel_post : 72,
+			post_author : 'gZJUFzE8pa1jkc6l',
 			saved_from_peer : $client->peerUser(...),
-			saved_from_msg_id : 77,
+			saved_from_msg_id : 99,
 			saved_from_id : $client->peerUser(...),
-			saved_from_name : 'Bm3HZJsCzW10rSxh',
-			saved_date : 97,
-			psa_type : 'Ji4mr9X8OexPQgKU',
+			saved_from_name : 'CeNztfMg3RYBuSdi',
+			saved_date : 91,
+			psa_type : '0jVHacuJqR2k8wPD',
 		),
 		reply_media : $client->messageMediaEmpty(),
-		reply_to_top_id : 49,
-		quote_text : 'BLaTwQWZgpqzrcdh',
+		reply_to_top_id : 25,
+		quote_text : '9qXRybQOa1FdjTfw',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 39,
+				length : 45,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 35,
+				length : 97,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 60,
+				length : 5,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 61,
+				length : 84,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 70,
+				length : 71,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 26,
+				length : 94,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 77,
+				length : 24,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 3,
+				length : 24,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 70,
+				length : 82,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 88,
-				language : 'QbDwLY9BUl7y3G8g',
+				length : 53,
+				language : 'hopH6mZdLWwNY2O9',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 0,
+				length : 52,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 27,
-				user_id : -6960342219185335227,
+				length : 22,
+				user_id : 1683166259437151155,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 8,
+				length : 24,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 61,
+				length : 32,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 15,
+				length : 58,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 38,
+				length : 70,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 43,
+				length : 5,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 72,
+				length : 81,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 40,
+				length : 42,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 7,
-				document_id : -2209972912095850367,
+				length : 38,
+				document_id : -4597445345605573231,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 95,
+				length : 69,
 			),
 		),
-		quote_offset : 90,
-		todo_item_id : 26,
+		quote_offset : 78,
+		todo_item_id : 28,
 	),
-	date : 23,
-	message : 'dx3nZ7LFyKD2JQVj',
+	date : 35,
+	message : 'psJ73cyX456HDkVW',
 	media : $client->messageMediaEmpty(),
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
@@ -252,128 +252,128 @@ $message = $client->message(
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 38,
+			length : 77,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 17,
+			length : 98,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 72,
+			length : 53,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 16,
+			length : 75,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 62,
+			length : 83,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 11,
+			length : 46,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 83,
+			length : 81,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 91,
+			length : 87,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 87,
+			length : 0,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 75,
-			language : '3PDZMx52Xdz9Rrck',
+			length : 38,
+			language : 'gHs6aw8YOljfStdU',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 43,
+			length : 93,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 76,
-			user_id : -3838510976235809811,
+			length : 25,
+			user_id : 5160522547218528674,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 21,
+			length : 90,
 			user_id : $client->inputUserEmpty(),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 27,
+			length : 28,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 6,
+			length : 18,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 27,
+			length : 90,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 87,
+			length : 43,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 35,
+			length : 45,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 13,
+			length : 95,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 98,
-			document_id : -6200362373754847220,
+			length : 57,
+			document_id : 849885786039371751,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 91,
+			length : 84,
 		),
 	),
-	views : 11,
-	forwards : 31,
+	views : 26,
+	forwards : 10,
 	replies : $client->messageReplies(
 		comments : true,
-		replies : 44,
-		replies_pts : 94,
+		replies : 74,
+		replies_pts : 32,
 		recent_repliers : array(
 			$client->peerUser(
-				user_id : 6091166228486398240,
+				user_id : 3484825744654633298,
 			),
 			$client->peerChat(
-				chat_id : 9071529724958681134,
+				chat_id : -4646987191228604529,
 			),
 			$client->peerChannel(
-				channel_id : -4718523674160351868,
+				channel_id : -2607377700539939218,
 			),
 		),
-		channel_id : -4659608307438839250,
-		max_id : 97,
-		read_max_id : 88,
+		channel_id : 6126117932186996633,
+		max_id : 20,
+		read_max_id : 73,
 	),
-	edit_date : 91,
-	post_author : 'Zs8a15hEI3ygxdrS',
-	grouped_id : -6315528380736564706,
+	edit_date : 78,
+	post_author : 'f90eTgamwQzDt6dl',
+	grouped_id : -8898323693426310078,
 	reactions : $client->messageReactions(
 		min : true,
 		can_see_list : true,
 		reactions_as_tags : true,
 		results : array(
 			$client->reactionCount(
-				chosen_order : 10,
+				chosen_order : 62,
 				reaction : $client->reactionEmpty(...),
-				count : 70,
+				count : 79,
 			),
 		),
 		recent_reactions : array(
@@ -382,7 +382,7 @@ $message = $client->message(
 				unread : true,
 				my : true,
 				peer_id : $client->peerUser(...),
-				date : 94,
+				date : 10,
 				reaction : $client->reactionEmpty(...),
 			),
 		),
@@ -392,25 +392,25 @@ $message = $client->message(
 				my : true,
 				anonymous : true,
 				peer_id : $client->peerUser(...),
-				count : 71,
+				count : 36,
 			),
 		),
 	),
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : '5mDWZaIGfyPcJYo0',
-			reason : '8DhOyR9Xi0KrLIHg',
-			text : 'OuNoEewR1dkHQMTs',
+			platform : 'zOf6brkEQN9LuyVU',
+			reason : '31fAMdvlzrWjE9UL',
+			text : 'FrGzf5XRhCvOWNx7',
 		),
 	),
-	ttl_period : 20,
-	quick_reply_shortcut_id : 59,
-	effect : -6488822150424069494,
+	ttl_period : 69,
+	quick_reply_shortcut_id : 79,
+	effect : -8348815378596581944,
 	factcheck : $client->factCheck(
 		need_check : true,
-		country : '41o9HuKlt8fYgcxX',
+		country : 'WJ59ezoUynv1uVw6',
 		text : $client->textWithEntities(
-			text : 'QBZsz70PAmq2wnyd',
+			text : 'wSNmryK13lPox4hZ',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -437,16 +437,16 @@ $message = $client->message(
 		),
 		hash : 0,
 	),
-	report_delivery_until_date : 41,
-	paid_message_stars : 6428351500636214313,
+	report_delivery_until_date : 88,
+	paid_message_stars : -3813978290402672051,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 2169789787809000710,
-			nanos : 70,
+			amount : -6683662791780045591,
+			nanos : 60,
 		),
-		schedule_date : 24,
+		schedule_date : 79,
 	),
 );
 ```

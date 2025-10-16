@@ -1,5 +1,7 @@
 # ProfileTab
 
+**Description** : *Represents a tab of a profile page &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -19,11 +21,11 @@ profileTabGifs#a2c0f695 = ProfileTab;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**profileTabPosts**](constructor/profileTabPosts) | NOTHING |
-| [**profileTabGifts**](constructor/profileTabGifts) | NOTHING |
-| [**profileTabMedia**](constructor/profileTabMedia) | NOTHING |
-| [**profileTabFiles**](constructor/profileTabFiles) | NOTHING |
-| [**profileTabMusic**](constructor/profileTabMusic) | NOTHING |
-| [**profileTabVoice**](constructor/profileTabVoice) | NOTHING |
-| [**profileTabLinks**](constructor/profileTabLinks) | NOTHING |
-| [**profileTabGifs**](constructor/profileTabGifs) | NOTHING |
+| [**profileTabPosts**](constructor/profileTabPosts) | Represents the stories tab of a profile page |
+| [**profileTabGifts**](constructor/profileTabGifts) | Represents the gifts tab of a profile page |
+| [**profileTabMedia**](constructor/profileTabMedia) | Represents the media tab of a profile page |
+| [**profileTabFiles**](constructor/profileTabFiles) | Represents the shared files tab of a profile |
+| [**profileTabMusic**](constructor/profileTabMusic) | Represents the music tab of a profile page |
+| [**profileTabVoice**](constructor/profileTabVoice) | Represents the voice messages tab of a profile page |
+| [**profileTabLinks**](constructor/profileTabLinks) | Represents the shared links tab of a profile page |
+| [**profileTabGifs**](constructor/profileTabGifs) | Represents the gifs tab of a profile page |

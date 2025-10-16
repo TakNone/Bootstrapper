@@ -23,7 +23,7 @@ messages.searchGlobal#4bc6589a flags:# broadcasts_only:flags.1?true groups_only:
 | <mark>filter</mark> | [`MessagesFilter`](type/MessagesFilter) | Global search filter |
 | <mark>min_date</mark> | [`int`](type/int) | If a positive value was specified, the method will return only messages with date bigger than min_date |
 | <mark>max_date</mark> | [`int`](type/int) | If a positive value was transferred, the method will return only messages with date smaller than max_date |
-| <mark>offset_rate</mark> | [`int`](type/int) | Initially 0, then set to the next_rate parameter of messages.messagesSlice |
+| <mark>offset_rate</mark> | [`int`](type/int) | Initially 0, then set to the next_rate parameter of messages.messagesSlice, or if that is absent, the date of the last returned message |
 | <mark>offset_peer</mark> | [`InputPeer`](type/InputPeer) | Offsets for pagination, for more info click here |
 | <mark>offset_id</mark> | [`int`](type/int) | Offsets for pagination, for more info click here |
 | <mark>limit</mark> | [`int`](type/int) | Offsets for pagination, for more info click here |
@@ -53,14 +53,14 @@ $messagesMessages = $client->messages->searchGlobal(
 	broadcasts_only : true,
 	groups_only : true,
 	users_only : true,
-	folder_id : 64,
-	q : 'MR3dxGu9UhQWLZkO',
+	folder_id : 32,
+	q : 'bBeNIZYnE7DKOQyr',
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 80,
-	max_date : 38,
+	min_date : 33,
+	max_date : 17,
 	offset_rate : 0,
 	offset_peer : $client->inputPeerEmpty(),
 	offset_id : 0,
-	limit : 26,
+	limit : 52,
 );
 ```

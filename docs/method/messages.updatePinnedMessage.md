@@ -34,10 +34,14 @@ messages.updatePinnedMessage#d2aaf7ec flags:# silent:flags.0?true unpin:flags.1?
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **BOT_ONESIDE_NOT_AVAIL** | `400` | Bots can't pin messages in PM just for themselves |
+| **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
+| **BUSINESS_PEER_INVALID** | `400` | Messages can't be set to the specified peer through the current business connection |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
+| **CHAT_INVALID** | `400` | Invalid chat |
 | **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
+| **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **PIN_RESTRICTED** | `400` | You can't pin messages |
@@ -53,6 +57,6 @@ $updates = $client->messages->updatePinnedMessage(
 	unpin : true,
 	pm_oneside : true,
 	peer : $client->inputPeerEmpty(),
-	id : 54,
+	id : 20,
 );
 ```

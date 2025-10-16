@@ -36,6 +36,7 @@ phone.acceptCall#3bd2b4a0 peer:InputPhoneCall g_b:bytes protocol:PhoneCallProtoc
 | **CALL_PEER_INVALID** | `400` | The provided call peer object is invalid |
 | **CALL_PROTOCOL_COMPAT_LAYER_INVALID** | `406` | The other side of the call does not support any of the VoIP protocols supported by the local client, as specified by the protocol.layer and protocol.library_versions fields |
 | **CALL_PROTOCOL_FLAGS_INVALID** | `400` | Call protocol flags invalid |
+| **CALL_PROTOCOL_LAYER_INVALID** | `400` | The specified protocol layer version range is invalid |
 
 ---
 
@@ -44,16 +45,16 @@ phone.acceptCall#3bd2b4a0 peer:InputPhoneCall g_b:bytes protocol:PhoneCallProtoc
 ```php
 $phonePhoneCall = $client->phone->acceptCall(
 	peer : $client->inputPhoneCall(
-		id : -3933573063048211040,
-		access_hash : 6554625911368213047,
+		id : -967539076252584336,
+		access_hash : -9083738054414021101,
 	),
 	g_b : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 9,
-		max_layer : 64,
-		library_versions : array('pSwH0et8NJXBzCnk'),
+		min_layer : 52,
+		max_layer : 19,
+		library_versions : array('c7CuQBO2zVEsqSyK'),
 	),
 );
 ```

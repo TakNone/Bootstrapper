@@ -14,7 +14,7 @@ privacyValueDisallowChatParticipants#41c87565 chats:Vector<long> = PrivacyRule;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>chats</mark> | [`Vector<long>`](type/long) | Disallowed chats |
+| <mark>chats</mark> | [`Vector<long>`](type/long) | Disallowed chats IDs (either a chat or a supergroup ID, verbatim the way it is received in the constructor (i.e. unlike with bot API IDs, here group and supergroup IDs should be treated in the same way)) |
 
 ---
 
@@ -28,6 +28,6 @@ privacyValueDisallowChatParticipants#41c87565 chats:Vector<long> = PrivacyRule;
 
 ```php
 $privacyRule = $client->privacyValueDisallowChatParticipants(
-	chats : array(-315728259227572054),
+	chats : array(-2229064920674323678),
 );
 ```

@@ -1,5 +1,7 @@
 # requirementToContactPaidMessages
 
+**Description** : *This user requires us to pay the specified amount of Telegram Stars to send them a message, see here &raquo; for the full flow*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ requirementToContactPaidMessages#b4f67e93 stars_amount:long = RequirementToConta
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>stars_amount</mark> | [`long`](type/long) | NOTHING |
+| <mark>stars_amount</mark> | [`long`](type/long) | The required amount of Telegram Stars |
 
 ---
 
@@ -26,6 +28,6 @@ requirementToContactPaidMessages#b4f67e93 stars_amount:long = RequirementToConta
 
 ```php
 $requirementToContact = $client->requirementToContactPaidMessages(
-	stars_amount : 5777082818030909587,
+	stars_amount : -5121385933380066248,
 );
 ```

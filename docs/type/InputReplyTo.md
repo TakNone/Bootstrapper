@@ -18,4 +18,4 @@ inputReplyToMonoForum#69d66c45 monoforum_peer_id:InputPeer = InputReplyTo;
 | :---: | :--- |
 | [**inputReplyToMessage**](constructor/inputReplyToMessage) | Reply to a message |
 | [**inputReplyToStory**](constructor/inputReplyToStory) | Reply to a story |
-| [**inputReplyToMonoForum**](constructor/inputReplyToMonoForum) | NOTHING |
+| [**inputReplyToMonoForum**](constructor/inputReplyToMonoForum) | Used to send messages to a monoforum topic |

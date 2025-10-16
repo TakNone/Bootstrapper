@@ -41,7 +41,7 @@ messages.getGameHighScores#e822649d peer:InputPeer id:int user_id:InputUser = me
 ```php
 $messagesHighScores = $client->messages->getGameHighScores(
 	peer : $client->inputPeerEmpty(),
-	id : 94,
+	id : 96,
 	user_id : $client->inputUserEmpty(),
 );
 ```

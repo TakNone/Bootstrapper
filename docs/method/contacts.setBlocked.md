@@ -36,27 +36,27 @@ $bool = $client->contacts->setBlocked(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 5595551340105106404,
+			chat_id : 3266153241293104823,
 		),
 		$client->inputPeerUser(
-			user_id : -8367818619122825290,
-			access_hash : 2709513087021066775,
+			user_id : -3415660921258418125,
+			access_hash : -1664406109113046582,
 		),
 		$client->inputPeerChannel(
-			channel_id : 6979505475879148117,
-			access_hash : -6522788838389834104,
+			channel_id : 3633450528926481182,
+			access_hash : 8707633374029125732,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 80,
-			user_id : -1301825115913956034,
+			msg_id : 14,
+			user_id : -5170481922556381638,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 82,
-			channel_id : 7896403258335480892,
+			msg_id : 40,
+			channel_id : -6196770949270752036,
 		),
 	),
-	limit : 71,
+	limit : 87,
 );
 ```

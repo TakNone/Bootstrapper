@@ -46,13 +46,13 @@ $accountPassword = $client->account->password(
 	has_password : true,
 	current_algo : $client->passwordKdfAlgoUnknown(),
 	srp_B : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	srp_id : 1653750540896313526,
-	hint : '4GbHPA8cXIo6Zwui',
+	srp_id : 4602836953495216143,
+	hint : 'dDa4zQErJp2bWxNY',
 	email_unconfirmed_pattern : 'reply@liveproto.dev',
 	new_algo : $client->passwordKdfAlgoUnknown(),
 	new_secure_algo : $client->securePasswordKdfAlgoUnknown(),
 	secure_random : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	pending_reset_date : 3,
+	pending_reset_date : 12,
 	login_email_pattern : 'reply@liveproto.dev',
 );
 ```

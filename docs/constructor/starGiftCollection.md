@@ -1,5 +1,7 @@
 # starGiftCollection
 
+**Description** : *Represents a star gift collection &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,12 +14,12 @@ starGiftCollection#9d6b13b0 flags:# collection_id:int title:string icon:flags.0?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| <mark>collection_id</mark> | [`int`](type/int) | NOTHING |
-| <mark>title</mark> | [`string`](type/string) | NOTHING |
-| **icon** | [`flags.0?Document`](type/Document) | NOTHING |
-| <mark>gifts_count</mark> | [`int`](type/int) | NOTHING |
-| <mark>hash</mark> | [`long`](type/long) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>collection_id</mark> | [`int`](type/int) | The ID of the collection |
+| <mark>title</mark> | [`string`](type/string) | Title of the collection |
+| **icon** | [`flags.0?Document`](type/Document) | Optional icon for the collection, taken from the first gift in the collection |
+| <mark>gifts_count</mark> | [`int`](type/int) | Number of gifts in the collection |
+| <mark>hash</mark> | [`long`](type/long) | Field to use instead of collection_id when generating the hash to pass to payments.getStarGiftCollections |
 
 ---
 
@@ -31,12 +33,12 @@ starGiftCollection#9d6b13b0 flags:# collection_id:int title:string icon:flags.0?
 
 ```php
 $starGiftCollection = $client->starGiftCollection(
-	collection_id : 88,
-	title : 'MpLdeQBGtby65ZsW',
+	collection_id : 20,
+	title : 'NPas24ZfwRplT8GF',
 	icon : $client->documentEmpty(
-		id : -8294250226474072409,
+		id : -7000563497232772891,
 	),
-	gifts_count : 100,
+	gifts_count : 91,
 	hash : 0,
 );
 ```

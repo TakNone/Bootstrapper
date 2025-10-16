@@ -30,14 +30,14 @@ channelAdminLogEventActionParticipantToggleAdmin#d5676710 prev_participant:Chann
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantToggleAdmin(
 	prev_participant : $client->channelParticipant(
-		user_id : 86268534439239710,
-		date : 88,
-		subscription_until_date : 17,
+		user_id : -111174758508994205,
+		date : 19,
+		subscription_until_date : 60,
 	),
 	new_participant : $client->channelParticipant(
-		user_id : -3920276159770173291,
-		date : 62,
-		subscription_until_date : 45,
+		user_id : -2801582382482864106,
+		date : 27,
+		subscription_until_date : 6,
 	),
 );
 ```

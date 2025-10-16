@@ -39,6 +39,8 @@ messages.translateText#63183030 flags:# peer:flags.0?InputPeer id:flags.0?Vector
 | **TO_LANG_INVALID** | `400` | The specified destination language is invalid |
 | **TRANSLATE_REQ_FAILED** | `500` | Translation failed, please try again later |
 | **TRANSLATE_REQ_QUOTA_EXCEEDED** | `400` | Translation is currently unavailable due to a temporary server-side lack of resources |
+| **TRANSLATIONS_DISABLED** | `406` | Translations are unavailable, a detailed and localized description for the error will be emitted via an updateServiceNotification as specified here » |
+| **TRANSLATION_TIMEOUT** | `500` | A timeout occurred while translating the specified text |
 
 ---
 
@@ -47,22 +49,22 @@ messages.translateText#63183030 flags:# peer:flags.0?InputPeer id:flags.0?Vector
 ```php
 $messagesTranslatedText = $client->messages->translateText(
 	peer : $client->inputPeerEmpty(),
-	id : array(15),
+	id : array(96),
 	text : array(
 		$client->textWithEntities(
-			text : 'QiuIbTxAEtBXpYNr',
+			text : 'lDsxf3N2SWrp0oC8',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 50,
+					length : 19,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 81,
+					length : 71,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 64,
+					length : 2,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
@@ -70,81 +72,81 @@ $messagesTranslatedText = $client->messages->translateText(
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 74,
+					length : 47,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 83,
+					length : 38,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 64,
+					length : 34,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 71,
+					length : 10,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 95,
+					length : 97,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 88,
-					language : 'kCBdDlVfWgmIY756',
+					length : 16,
+					language : 'tyxpQrVOuGT4FHNZ',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 37,
+					length : 40,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 58,
-					user_id : 2787832453283909509,
+					length : 87,
+					user_id : -1299317879766550971,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 46,
+					length : 95,
 					user_id : $client->inputUserEmpty(...),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 86,
+					length : 60,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 83,
+					length : 2,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 92,
+					length : 84,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 20,
+					length : 52,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 53,
+					length : 90,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 70,
+					length : 62,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 63,
-					document_id : 4031018867113121068,
+					length : 49,
+					document_id : -2202845264163060915,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 9,
+					length : 50,
 				),
 			),
 		),
 	),
-	to_lang : '1ZcGBs5lWn7dyUwt',
+	to_lang : '0jifEkQqWDOzgbZa',
 );
 ```

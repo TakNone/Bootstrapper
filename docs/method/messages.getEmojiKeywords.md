@@ -28,6 +28,6 @@ messages.getEmojiKeywords#35a0e062 lang_code:string = EmojiKeywordsDifference;
 
 ```php
 $emojiKeywordsDifference = $client->messages->getEmojiKeywords(
-	lang_code : 'q1rybZjos7KXvEC9',
+	lang_code : 'Y9zU14CtLQ08B5J7',
 );
 ```

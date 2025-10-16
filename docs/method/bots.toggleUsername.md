@@ -41,6 +41,6 @@ bots.toggleUsername#53ca973 bot:InputUser username:string active:Bool = Bool;
 $bool = $client->bots->toggleUsername(
 	bot : $client->inputUserEmpty(),
 	username : 'TakNone',
-	active : false,
+	active : true,
 );
 ```

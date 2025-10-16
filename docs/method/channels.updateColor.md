@@ -43,7 +43,7 @@ channels.updateColor#d8aa3671 flags:# for_profile:flags.1?true channel:InputChan
 $updates = $client->channels->updateColor(
 	for_profile : true,
 	channel : $client->inputChannelEmpty(),
-	color : 38,
-	background_emoji_id : 3218741729249800445,
+	color : 37,
+	background_emoji_id : -2843455906945592077,
 );
 ```

@@ -38,6 +38,6 @@ bots.getPreviewInfo#423ab3ad bot:InputUser lang_code:string = bots.PreviewInfo;
 ```php
 $botsPreviewInfo = $client->bots->getPreviewInfo(
 	bot : $client->inputUserEmpty(),
-	lang_code : 'tkN0Fcx6KwAQn4ar',
+	lang_code : 'qInHjocle97ObNTB',
 );
 ```

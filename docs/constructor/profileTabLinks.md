@@ -1,5 +1,7 @@
 # profileTabLinks
 
+**Description** : *Represents the shared links tab of a profile page*
+
 **Layer** : 216
 
 ```tl

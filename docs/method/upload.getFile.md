@@ -40,6 +40,7 @@ upload.getFile#be5335be flags:# precise:flags.0?true cdn_supported:flags.1?true 
 | **FILE_ID_INVALID** | `400` | The provided file id is invalid |
 | **FILE_REFERENCE_EMPTY** | `400` | An empty file reference was specified |
 | **FILE_REFERENCE_EXPIRED** | `400` | File reference expired, it must be refetched as described in the documentation |
+| **FILE_REFERENCE_INVALID** | `400` | The specified file reference is invalid |
 | **FLOOD_PREMIUM_WAIT_%d** | `420` | Please wait %d seconds before repeating the action, or purchase a Telegram Premium subscription to remove this rate limit |
 | **LIMIT_INVALID** | `400` | The provided limit is invalid |
 | **LOCATION_INVALID** | `400` | The provided location is invalid |
@@ -56,12 +57,12 @@ $uploadFile = $client->upload->getFile(
 	precise : true,
 	cdn_supported : true,
 	location : $client->inputFileLocation(
-		volume_id : -8232761797932875605,
-		local_id : 74,
-		secret : 1469276184198353426,
+		volume_id : -6794301019505217135,
+		local_id : 46,
+		secret : 1832577600849870788,
 		file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	offset : 0,
-	limit : 58,
+	limit : 47,
 );
 ```

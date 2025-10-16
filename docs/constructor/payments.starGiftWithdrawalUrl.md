@@ -1,5 +1,7 @@
 # payments.starGiftWithdrawalUrl
 
+**Description** : *A URL that can be used to import the exported NFT on Fragment*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ payments.starGiftWithdrawalUrl#84aa3a9c url:string = payments.StarGiftWithdrawal
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>url</mark> | [`string`](type/string) | NOTHING |
+| <mark>url</mark> | [`string`](type/string) | The URL to open |
 
 ---
 

@@ -42,9 +42,9 @@ auth.importBotAuthorization#67a3ff2c flags:int api_id:int api_hash:string bot_au
 
 ```php
 $authAuthorization = $client->auth->importBotAuthorization(
-	flags : 32,
-	api_id : 75,
-	api_hash : 'rs5dJnYTcOqjX40f',
-	bot_auth_token : 'fGTX0FAwjxyK25gP',
+	flags : 80,
+	api_id : 0,
+	api_hash : '7ybCUmKTAEvSnBR9',
+	bot_auth_token : 'chRzr2IxWPuHtNQU',
 );
 ```

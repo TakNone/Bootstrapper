@@ -31,7 +31,6 @@ bots.sendCustomRequest#aa2769ed custom_method:string params:DataJSON = DataJSON;
 | :---: | :---: | :--- |
 | **DATA_JSON_INVALID** | `400` | The provided JSON data is invalid |
 | **METHOD_INVALID** | `400` | The specified method is invalid |
-| **USER_BOT_INVALID** | `403` | User accounts must provide the bot method parameter when calling this method. If there is no such method parameter, this method can only be invoked by bot accounts |
 | **USER_BOT_REQUIRED** | `400` | This method can only be called by a bot |
 
 ---
@@ -40,9 +39,9 @@ bots.sendCustomRequest#aa2769ed custom_method:string params:DataJSON = DataJSON;
 
 ```php
 $dataJSON = $client->bots->sendCustomRequest(
-	custom_method : 'PIOywKLYnSMCk8cq',
+	custom_method : '9fLn5GZPtU4RevE0',
 	params : $client->dataJSON(
-		data : 'VULKmSEpFcH5eX6b',
+		data : 'Hgl02RZLqI1yOkwe',
 	),
 );
 ```

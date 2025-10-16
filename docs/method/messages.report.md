@@ -33,6 +33,7 @@ messages.report#fc78af9b peer:InputPeer id:Vector<int> option:bytes message:stri
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
+| **OPTION_INVALID** | `400` | Invalid option selected |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---
@@ -42,8 +43,8 @@ messages.report#fc78af9b peer:InputPeer id:Vector<int> option:bytes message:stri
 ```php
 $reportResult = $client->messages->report(
 	peer : $client->inputPeerEmpty(),
-	id : array(24),
+	id : array(23),
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	message : 'YfXOehljALoQ9Nvr',
+	message : 'VUQ6GxuOc9ewDFkz',
 );
 ```

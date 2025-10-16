@@ -38,4 +38,4 @@ privacyKeyNoPaidMessages#17d348d2 = PrivacyKey;
 | [**privacyKeyAbout**](constructor/privacyKeyAbout) | Whether people can see your bio |
 | [**privacyKeyBirthday**](constructor/privacyKeyBirthday) | Whether the user can see our birthday |
 | [**privacyKeyStarGiftsAutoSave**](constructor/privacyKeyStarGiftsAutoSave) | Whether received gifts will be automatically displayed on our profile |
-| [**privacyKeyNoPaidMessages**](constructor/privacyKeyNoPaidMessages) | NOTHING |
+| [**privacyKeyNoPaidMessages**](constructor/privacyKeyNoPaidMessages) | Who can send you messages without paying, if paid messages » are enabled |

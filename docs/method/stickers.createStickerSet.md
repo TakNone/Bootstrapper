@@ -40,6 +40,7 @@ stickers.createStickerSet#9021ab67 flags:# masks:flags.0?true emojis:flags.5?tru
 | **PACK_SHORT_NAME_INVALID** | `400` | Short pack name invalid |
 | **PACK_SHORT_NAME_OCCUPIED** | `400` | A stickerpack with this name already exists |
 | **PACK_TITLE_INVALID** | `400` | The stickerpack title is invalid |
+| **PACK_TYPE_INVALID** | `400` | The masks and emojis flags are mutually exclusive |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **STICKERS_EMPTY** | `400` | No sticker provided |
 | **STICKER_EMOJI_INVALID** | `400` | Sticker emoji invalid |
@@ -66,22 +67,22 @@ $messagesStickerSet = $client->stickers->createStickerSet(
 	emojis : true,
 	text_color : true,
 	user_id : $client->inputUserEmpty(),
-	title : 'NsUxy93LP6Wjld18',
-	short_name : 'd4z09tAuS7oFCNgV',
+	title : 'tJh3B0z4ydx1Rrub',
+	short_name : 'tXRhP0xCoDTQw4FS',
 	thumb : $client->inputDocumentEmpty(),
 	stickers : array(
 		$client->inputStickerSetItem(
 			document : $client->inputDocumentEmpty(),
-			emoji : '9mCBzA7IcteU4a1j',
+			emoji : 'HBYkwZ3WNpK7hGEz',
 			mask_coords : $client->maskCoords(
-				n : 49,
-				x : 193440.537109375,
-				y : 1442757.6201171875,
-				zoom : -1123209.7685546875,
+				n : 52,
+				x : 374705.546875,
+				y : -999476.1416015625,
+				zoom : 1284529.548828125,
 			),
-			keywords : 'C1HJs3Gc4WuFTAaL',
+			keywords : 'tVTAhWxXy2v87Sin',
 		),
 	),
-	software : 'HLPzWptwOkxY6E5M',
+	software : 'SmQLHuwJIjEDbBVo',
 );
 ```

@@ -1,6 +1,6 @@
 # messages.deleteSavedHistory
 
-**Description** : *Deletes messages forwarded from a specific peer to saved messages &raquo;*
+**Description** : *Deletes messages from a monoforum topic &raquo;, or deletes messages forwarded from a specific peer to saved messages &raquo;*
 
 **Layer** : 216
 
@@ -15,8 +15,8 @@ messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
-| **parent_peer** | [`flags.0?InputPeer`](type/InputPeer) | NOTHING |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer, whose messages will be deleted from saved messages » |
+| **parent_peer** | [`flags.0?InputPeer`](type/InputPeer) | If set, affects the messages of the passed monoforum topic », otherwise affects saved messages » |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer, whose messages will be deleted from saved messages », or the ID of the topic |
 | <mark>max_id</mark> | [`int`](type/int) | Maximum ID of message to delete |
 | **min_date** | [`flags.2?int`](type/int) | Delete all messages newer than this UNIX timestamp |
 | **max_date** | [`flags.3?int`](type/int) | Delete all messages older than this UNIX timestamp |
@@ -43,8 +43,8 @@ messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:
 $messagesAffectedHistory = $client->messages->deleteSavedHistory(
 	parent_peer : $client->inputPeerEmpty(),
 	peer : $client->inputPeerEmpty(),
-	max_id : 31,
-	min_date : 5,
-	max_date : 51,
+	max_id : 23,
+	min_date : 10,
+	max_date : 42,
 );
 ```

@@ -31,9 +31,9 @@ updateSentStoryReaction#7d627683 peer:Peer story_id:int reaction:Reaction = Upda
 ```php
 $update = $client->updateSentStoryReaction(
 	peer : $client->peerUser(
-		user_id : -8783736989289817354,
+		user_id : 4977357050844732814,
 	),
-	story_id : 50,
+	story_id : 53,
 	reaction : $client->reactionEmpty(),
 );
 ```

@@ -1,5 +1,7 @@
 # payments.SavedStarGifts
 
+**Description** : *Represents a list of gifts*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ payments.savedStarGifts#95f389b1 flags:# count:int chat_notifications_enabled:fl
 
 | Constructor | Description |
 | :---: | :--- |
-| [**payments.savedStarGifts**](constructor/payments.savedStarGifts) | NOTHING |
+| [**payments.savedStarGifts**](constructor/payments.savedStarGifts) | Represents a list of gifts |

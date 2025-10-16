@@ -16,4 +16,4 @@ help.promoData#8a4d87a flags:# proxy:flags.0?true expires:int peer:flags.3?Peer 
 | Constructor | Description |
 | :---: | :--- |
 | [**help.promoDataEmpty**](constructor/help.promoDataEmpty) | No PSA/MTProxy info is available |
-| [**help.promoData**](constructor/help.promoData) | MTProxy/Public Service Announcement information |
+| [**help.promoData**](constructor/help.promoData) | A set of useful suggestions and a PSA/MTProxy sponsored peer, see here » for more info |

@@ -29,6 +29,7 @@ payments.assignAppStoreTransaction#80ed747d receipt:bytes purpose:InputStorePaym
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **INPUT_PURPOSE_INVALID** | `400` | The specified payment purpose is invalid |
 | **RECEIPT_EMPTY** | `400` | The specified receipt is empty |
 
 ---

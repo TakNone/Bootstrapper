@@ -32,7 +32,7 @@ starsGiveawayWinnersOption#54236209 flags:# default:flags.0?true users:int per_u
 ```php
 $starsGiveawayWinnersOption = $client->starsGiveawayWinnersOption(
 	default : true,
-	users : 65,
-	per_user_stars : -5120322490510709018,
+	users : 54,
+	per_user_stars : 8039438182040387910,
 );
 ```

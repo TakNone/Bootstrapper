@@ -29,6 +29,7 @@ payments.getStarsGiftOptions#d3c96bc8 flags:# user_id:flags.0?InputUser = Vector
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **USER_GIFT_UNAVAILABLE** | `400` | Gifts are not available in the current region (stars_gifts_enabled is equal to false) |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 

@@ -28,6 +28,6 @@ account.resetPasswordRequestedWait#e9effc7d until_date:int = account.ResetPasswo
 
 ```php
 $accountResetPasswordResult = $client->account->resetPasswordRequestedWait(
-	until_date : 97,
+	until_date : 9,
 );
 ```

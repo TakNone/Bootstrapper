@@ -1,5 +1,7 @@
 # StoryAlbum
 
+**Description** : *Represents a story album &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ storyAlbum#9325705a flags:# album_id:int title:string icon_photo:flags.0?Photo i
 
 | Constructor | Description |
 | :---: | :--- |
-| [**storyAlbum**](constructor/storyAlbum) | NOTHING |
+| [**storyAlbum**](constructor/storyAlbum) | Represents a story album » |

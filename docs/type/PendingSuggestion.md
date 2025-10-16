@@ -1,5 +1,7 @@
 # PendingSuggestion
 
+**Description** : *Represents a custom pending suggestion &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ pendingSuggestion#e7e82e12 suggestion:string title:TextWithEntities description:
 
 | Constructor | Description |
 | :---: | :--- |
-| [**pendingSuggestion**](constructor/pendingSuggestion) | NOTHING |
+| [**pendingSuggestion**](constructor/pendingSuggestion) | Represents a custom pending suggestion » |

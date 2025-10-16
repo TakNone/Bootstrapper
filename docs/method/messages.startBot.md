@@ -50,7 +50,7 @@ messages.startBot#e6df7378 bot:InputUser peer:InputPeer random_id:long start_par
 $updates = $client->messages->startBot(
 	bot : $client->inputUserEmpty(),
 	peer : $client->inputPeerEmpty(),
-	random_id : -4894716090601551464,
-	start_param : 'FiAxhNKdG8qOscLa',
+	random_id : -6339354951545252344,
+	start_param : 'TChvGi87bDBWFEof',
 );
 ```

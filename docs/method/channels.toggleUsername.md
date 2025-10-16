@@ -46,6 +46,6 @@ channels.toggleUsername#50f24105 channel:InputChannel username:string active:Boo
 $bool = $client->channels->toggleUsername(
 	channel : $client->inputChannelEmpty(),
 	username : 'TakNone',
-	active : false,
+	active : true,
 );
 ```

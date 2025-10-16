@@ -30,6 +30,7 @@ messages.editChatDefaultBannedRights#a5866b41 peer:InputPeer banned_rights:ChatB
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **BANNED_RIGHTS_INVALID** | `400` | You provided some invalid flags in the banned rights |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
 | **CHAT_ID_INVALID** | `400` | The provided chat id is invalid |
@@ -66,7 +67,7 @@ $updates = $client->messages->editChatDefaultBannedRights(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 81,
+		until_date : 99,
 	),
 );
 ```

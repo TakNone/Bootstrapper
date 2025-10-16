@@ -30,8 +30,8 @@ messages.updateColor#684d214e flags:# for_profile:flags.1?true color:flags.2?Pee
 $bool = $client->messages->updateColor(
 	for_profile : true,
 	color : $client->peerColor(
-		color : 28,
-		background_emoji_id : -7905774630402599368,
+		color : 62,
+		background_emoji_id : -6715005302144694329,
 	),
 );
 ```

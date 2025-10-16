@@ -1,5 +1,7 @@
 # inputGroupCallSlug
 
+**Description** : *Join a conference call through an invitation link &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ inputGroupCallSlug#fe06823f slug:string = InputGroupCall;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>slug</mark> | [`string`](type/string) | NOTHING |
+| <mark>slug</mark> | [`string`](type/string) | Slug from the conference link » |
 
 ---
 
@@ -26,6 +28,6 @@ inputGroupCallSlug#fe06823f slug:string = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallSlug(
-	slug : 'IwzKSGoNCxPTLHku',
+	slug : 'fL6ke4UrqwIHYvM8',
 );
 ```

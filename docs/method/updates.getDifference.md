@@ -37,6 +37,7 @@ updates.getDifference#19c2f763 flags:# pts:int pts_limit:flags.1?int pts_total_l
 | **CDN_METHOD_INVALID** | `400` | You can't call this method in a CDN DC |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
+| **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **DATE_EMPTY** | `400` | Date empty |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
@@ -52,11 +53,11 @@ updates.getDifference#19c2f763 flags:# pts:int pts_limit:flags.1?int pts_total_l
 
 ```php
 $updatesDifference = $client->updates->getDifference(
-	pts : 39,
-	pts_limit : 44,
-	pts_total_limit : 21,
-	date : 0,
-	qts : 95,
-	qts_limit : 25,
+	pts : 32,
+	pts_limit : 69,
+	pts_total_limit : 57,
+	date : 100,
+	qts : 46,
+	qts_limit : 67,
 );
 ```

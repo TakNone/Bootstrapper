@@ -39,7 +39,7 @@ messages.editQuickReplyShortcut#5c003cef shortcut_id:int shortcut:string = Bool;
 
 ```php
 $bool = $client->messages->editQuickReplyShortcut(
-	shortcut_id : 0,
-	shortcut : 'ow8lOgsxpJhZdVvc',
+	shortcut_id : 95,
+	shortcut : '4U8F1wJxRpBq5Dab',
 );
 ```

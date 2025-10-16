@@ -47,10 +47,10 @@ channels.createForumTopic#f40c0224 flags:# channel:InputChannel title:string ico
 ```php
 $updates = $client->channels->createForumTopic(
 	channel : $client->inputChannelEmpty(),
-	title : 'JGHR6qbDhKkFUYy3',
-	icon_color : 94,
-	icon_emoji_id : -4984037495155185251,
-	random_id : 595994358139838146,
+	title : 'fxN9Rq3KuTvDar7Y',
+	icon_color : 83,
+	icon_emoji_id : 6308237906177939825,
+	random_id : 8977245057373098756,
 	send_as : $client->inputPeerEmpty(),
 );
 ```

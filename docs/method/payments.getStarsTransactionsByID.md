@@ -14,8 +14,8 @@ payments.getStarsTransactionsByID#2dca16b8 flags:# ton:flags.0?true peer:InputPe
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **ton** | [`flags.0?true`](type/true) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **ton** | [`flags.0?true`](type/true) | If set, returns channel/bot ad revenue transactions in nanotons |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Channel or bot |
 | <mark>id</mark> | [`Vector<InputStarsTransaction>`](type/InputStarsTransaction) | Transaction IDs |
 
@@ -45,7 +45,7 @@ $paymentsStarsStatus = $client->payments->getStarsTransactionsByID(
 	id : array(
 		$client->inputStarsTransaction(
 			refund : true,
-			id : 'lQGb8DjhzuXABJnm',
+			id : 'nKgd4TiYahklStxQ',
 		),
 	),
 );

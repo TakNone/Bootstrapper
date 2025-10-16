@@ -32,6 +32,7 @@ auth.bindTempAuthKey#cdd42a05 perm_auth_key_id:long nonce:long expires_at:int en
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **ENCRYPTED_MESSAGE_INVALID** | `400` | Encrypted message invalid |
+| **EXPIRES_AT_INVALID** | `400` | The specified expires_at timestamp is invalid |
 | **TEMP_AUTH_KEY_ALREADY_BOUND** | `400` | The passed temporary key is already bound to another perm_auth_key_id |
 | **TEMP_AUTH_KEY_EMPTY** | `400` | No temporary auth key provided |
 
@@ -41,9 +42,9 @@ auth.bindTempAuthKey#cdd42a05 perm_auth_key_id:long nonce:long expires_at:int en
 
 ```php
 $bool = $client->auth->bindTempAuthKey(
-	perm_auth_key_id : 2510730434866433808,
-	nonce : 3625221484049437293,
-	expires_at : 9,
+	perm_auth_key_id : 7144134988031389692,
+	nonce : -4880216500624694728,
+	expires_at : 0,
 	encrypted_message : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

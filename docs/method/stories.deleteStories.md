@@ -29,6 +29,9 @@ stories.deleteStories#ae59db5f peer:InputPeer id:Vector<int> = Vector<int>;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **BOT_ACCESS_FORBIDDEN** | `403` | The specified method can be used over a business connection for some operations, but the specified query attempted an operation that is not allowed over a business connection |
+| **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **STORY_ID_EMPTY** | `400` | You specified no story IDs |
 
@@ -39,6 +42,6 @@ stories.deleteStories#ae59db5f peer:InputPeer id:Vector<int> = Vector<int>;
 ```php
 $int = $client->stories->deleteStories(
 	peer : $client->inputPeerEmpty(),
-	id : array(1),
+	id : array(58),
 );
 ```

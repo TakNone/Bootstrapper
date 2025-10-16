@@ -43,7 +43,7 @@ bots.updateStarRefProgram#778b5ab3 flags:# bot:InputUser commission_permille:int
 ```php
 $starRefProgram = $client->bots->updateStarRefProgram(
 	bot : $client->inputUserEmpty(),
-	commission_permille : 65,
-	duration_months : 4,
+	commission_permille : 24,
+	duration_months : 52,
 );
 ```

@@ -30,6 +30,6 @@ messageEntityHashtag#6f635b0d offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityHashtag(
 	offset : 0,
-	length : 73,
+	length : 40,
 );
 ```

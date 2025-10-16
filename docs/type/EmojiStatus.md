@@ -19,5 +19,5 @@ inputEmojiStatusCollectible#7141dbf flags:# collectible_id:long until:flags.0?in
 | :---: | :--- |
 | [**emojiStatusEmpty**](constructor/emojiStatusEmpty) | No emoji status is set |
 | [**emojiStatus**](constructor/emojiStatus) | An emoji status |
-| [**emojiStatusCollectible**](constructor/emojiStatusCollectible) | NOTHING |
-| [**inputEmojiStatusCollectible**](constructor/inputEmojiStatusCollectible) | NOTHING |
+| [**emojiStatusCollectible**](constructor/emojiStatusCollectible) | An owned collectible gift » as emoji status.Cannot be passed to account.updateEmojiStatus, must be converted to an inputEmojiStatusCollectible first before passing it to that method |
+| [**inputEmojiStatusCollectible**](constructor/inputEmojiStatusCollectible) | An owned collectible gift » as emoji status: can only be used in account.updateEmojiStatus, is never returned by the API.Note that once set, the status will be returned to users as a emojiStatusCollectible constructor, instead (which cannot be passed to account.updateEmojiStatus, and must be converted to an inputEmojiStatusCollectible first) |

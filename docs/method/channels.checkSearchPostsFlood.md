@@ -1,5 +1,7 @@
 # channels.checkSearchPostsFlood
 
+**Description** : *Check if the specified global post search &raquo; requires payment*
+
 **Layer** : 216
 
 ```tl
@@ -12,8 +14,8 @@ channels.checkSearchPostsFlood#22567115 flags:# query:flags.0?string = SearchPos
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **query** | [`flags.0?string`](type/string) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **query** | [`flags.0?string`](type/string) | The query |
 
 ---
 
@@ -27,6 +29,6 @@ channels.checkSearchPostsFlood#22567115 flags:# query:flags.0?string = SearchPos
 
 ```php
 $searchPostsFlood = $client->channels->checkSearchPostsFlood(
-	query : 'RXBT6lYZU0oz1S8W',
+	query : 'UPehTvokVq0rs6AZ',
 );
 ```

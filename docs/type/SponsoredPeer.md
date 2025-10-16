@@ -1,5 +1,7 @@
 # SponsoredPeer
 
+**Description** : *A sponsored peer*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ sponsoredPeer#c69708d3 flags:# random_id:bytes peer:Peer sponsor_info:flags.0?st
 
 | Constructor | Description |
 | :---: | :--- |
-| [**sponsoredPeer**](constructor/sponsoredPeer) | NOTHING |
+| [**sponsoredPeer**](constructor/sponsoredPeer) | A sponsored peer |

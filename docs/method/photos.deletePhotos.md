@@ -31,8 +31,8 @@ $long = $client->photos->deletePhotos(
 	id : array(
 		$client->inputPhotoEmpty(),
 		$client->inputPhoto(
-			id : -204772494907488101,
-			access_hash : 7549653249857944793,
+			id : -7119186085927841911,
+			access_hash : -4717896910521537717,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

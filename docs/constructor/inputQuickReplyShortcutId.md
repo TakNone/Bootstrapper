@@ -28,6 +28,6 @@ inputQuickReplyShortcutId#1190cf1 shortcut_id:int = InputQuickReplyShortcut;
 
 ```php
 $inputQuickReplyShortcut = $client->inputQuickReplyShortcutId(
-	shortcut_id : 99,
+	shortcut_id : 65,
 );
 ```

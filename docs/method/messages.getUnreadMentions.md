@@ -47,11 +47,11 @@ messages.getUnreadMentions#f107e790 flags:# peer:InputPeer top_msg_id:flags.0?in
 ```php
 $messagesMessages = $client->messages->getUnreadMentions(
 	peer : $client->inputPeerEmpty(),
-	top_msg_id : 14,
+	top_msg_id : 38,
 	offset_id : 0,
-	add_offset : 42,
-	limit : 84,
-	max_id : 16,
-	min_id : 82,
+	add_offset : 73,
+	limit : 38,
+	max_id : 99,
+	min_id : 83,
 );
 ```

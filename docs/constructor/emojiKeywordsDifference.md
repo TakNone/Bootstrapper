@@ -31,17 +31,17 @@ emojiKeywordsDifference#5cc761bd lang_code:string from_version:int version:int k
 
 ```php
 $emojiKeywordsDifference = $client->emojiKeywordsDifference(
-	lang_code : 'N7yCRqskzrnJ3Beo',
-	from_version : 100,
-	version : 52,
+	lang_code : 'ForlAbs0TBXYcDCP',
+	from_version : 23,
+	version : 81,
 	keywords : array(
 		$client->emojiKeyword(
-			keyword : 'cL7a5duDSUwFJZ4Q',
-			emoticons : array('uAXITbcQhprPEDWt'),
+			keyword : 'A34OlVgtCK8YbDWe',
+			emoticons : array('iSrbV190PFKBd4tm'),
 		),
 		$client->emojiKeywordDeleted(
-			keyword : 'x5RLMwmhy9OoUs0b',
-			emoticons : array('GxHtLKrkqhugvN74'),
+			keyword : 'vx3GLqJt50De21Zs',
+			emoticons : array('On4FzrEtdZfA8kJX'),
 		),
 	),
 );

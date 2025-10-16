@@ -31,14 +31,14 @@ messages.highScores#9a3bfd99 scores:Vector<HighScore> users:Vector<User> = messa
 $messagesHighScores = $client->messages->highScores(
 	scores : array(
 		$client->highScore(
-			pos : 3,
-			user_id : -7391977178597146306,
-			score : 80,
+			pos : 26,
+			user_id : -5246170568789446557,
+			score : 98,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -5362549005937678121,
+			id : 5214511281985239870,
 		),
 		$client->user(
 			self : true,
@@ -67,24 +67,24 @@ $messagesHighScores = $client->messages->highScores(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -812729167407105437,
-			access_hash : 930099482865054077,
+			id : -7556854109476524952,
+			access_hash : -4444926181323020245,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 100,
+			bot_info_version : 15,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'lGWOeTK9y6rE1fZ7',
-					reason : 'gLTadk1EO7BpPNlb',
-					text : 'JqsUj69eYCIg3Sci',
+					platform : 'w8fHjO5cFxVkB9PT',
+					reason : 'EWzdKAOhISrqixUM',
+					text : 'NOpvbQyDMR5nfhsx',
 				),
 			),
-			bot_inline_placeholder : 'Iwvb1pQXoAk08eU5',
-			lang_code : 'aZvxS2HQU1RTXNyM',
+			bot_inline_placeholder : 'xMCLpNQ8rkP231Au',
+			lang_code : 'z7mDNVkiIuvhnPwO',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -93,18 +93,18 @@ $messagesHighScores = $client->messages->highScores(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 17,
+			stories_max_id : 70,
 			color : $client->peerColor(
-				color : 45,
-				background_emoji_id : 7111954669325084234,
+				color : 36,
+				background_emoji_id : -7400913017293573210,
 			),
 			profile_color : $client->peerColor(
-				color : 100,
-				background_emoji_id : 5328079894845213299,
+				color : 64,
+				background_emoji_id : -937355315565603565,
 			),
-			bot_active_users : 30,
-			bot_verification_icon : 1784273523504256852,
-			send_paid_messages_stars : -4942095359875839861,
+			bot_active_users : 74,
+			bot_verification_icon : 7810027838099227290,
+			send_paid_messages_stars : -1966287931522316676,
 		),
 	),
 );

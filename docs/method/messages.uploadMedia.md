@@ -57,7 +57,7 @@ messages.uploadMedia#14967978 flags:# business_connection_id:flags.0?string peer
 
 ```php
 $messageMedia = $client->messages->uploadMedia(
-	business_connection_id : 'QBhSdKCcEY5snIeu',
+	business_connection_id : 'vQw4AW6l9uyfk7aT',
 	peer : $client->inputPeerEmpty(),
 	media : $client->inputMediaEmpty(),
 );

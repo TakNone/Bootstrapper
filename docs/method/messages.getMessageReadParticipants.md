@@ -41,6 +41,6 @@ messages.getMessageReadParticipants#31c1c44f peer:InputPeer msg_id:int = Vector<
 ```php
 $readParticipantDate = $client->messages->getMessageReadParticipants(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 4,
+	msg_id : 0,
 );
 ```

@@ -32,6 +32,7 @@ channels.editTitle#566decd0 channel:InputChannel title:string = Updates;
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `403` | You must be an admin in this chat to do this |
+| **CHAT_INVALID** | `400` | Invalid chat |
 | **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
 | **CHAT_TITLE_EMPTY** | `400` | No chat title provided |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
@@ -43,6 +44,6 @@ channels.editTitle#566decd0 channel:InputChannel title:string = Updates;
 ```php
 $updates = $client->channels->editTitle(
 	channel : $client->inputChannelEmpty(),
-	title : 'It8AsnkWhY7uByXM',
+	title : 'nAY1acOFx2dMtXuS',
 );
 ```

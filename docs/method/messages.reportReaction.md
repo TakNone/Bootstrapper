@@ -41,7 +41,7 @@ messages.reportReaction#3f64c076 peer:InputPeer id:int reaction_peer:InputPeer =
 ```php
 $bool = $client->messages->reportReaction(
 	peer : $client->inputPeerEmpty(),
-	id : 52,
+	id : 22,
 	reaction_peer : $client->inputPeerEmpty(),
 );
 ```

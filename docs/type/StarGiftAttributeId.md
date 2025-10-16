@@ -1,5 +1,7 @@
 # StarGiftAttributeId
 
+**Description** : *Represents the identifier of a collectible gift attribute*
+
 **Layer** : 216
 
 ```tl
@@ -14,6 +16,6 @@ starGiftAttributeIdBackdrop#1f01c757 backdrop_id:int = StarGiftAttributeId;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starGiftAttributeIdModel**](constructor/starGiftAttributeIdModel) | NOTHING |
-| [**starGiftAttributeIdPattern**](constructor/starGiftAttributeIdPattern) | NOTHING |
-| [**starGiftAttributeIdBackdrop**](constructor/starGiftAttributeIdBackdrop) | NOTHING |
+| [**starGiftAttributeIdModel**](constructor/starGiftAttributeIdModel) | The ID of a model of a collectible gift » |
+| [**starGiftAttributeIdPattern**](constructor/starGiftAttributeIdPattern) | The ID of a pattern of a collectible gift » |
+| [**starGiftAttributeIdBackdrop**](constructor/starGiftAttributeIdBackdrop) | The ID of a backdrop of a collectible gift » |

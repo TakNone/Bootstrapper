@@ -1,5 +1,7 @@
 # messageActionTodoAppendTasks
 
+**Description** : *Items were appended to the todo list &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ messageActionTodoAppendTasks#c7edbc83 list:Vector<TodoItem> = MessageAction;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>list</mark> | [`Vector<TodoItem>`](type/TodoItem) | NOTHING |
+| <mark>list</mark> | [`Vector<TodoItem>`](type/TodoItem) | Appended items |
 
 ---
 
@@ -28,9 +30,9 @@ messageActionTodoAppendTasks#c7edbc83 list:Vector<TodoItem> = MessageAction;
 $messageAction = $client->messageActionTodoAppendTasks(
 	list : array(
 		$client->todoItem(
-			id : 91,
+			id : 72,
 			title : $client->textWithEntities(
-				text : 'guyjotC2qHET3V5e',
+				text : 'neLtJDroYGVcC3zI',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),

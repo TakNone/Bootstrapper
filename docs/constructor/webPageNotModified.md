@@ -29,6 +29,6 @@ webPageNotModified#7311ca11 flags:# cached_page_views:flags.0?int = WebPage;
 
 ```php
 $webPage = $client->webPageNotModified(
-	cached_page_views : 91,
+	cached_page_views : 74,
 );
 ```

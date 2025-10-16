@@ -33,6 +33,8 @@ messages.addChatUser#cbc6d107 chat_id:long user_id:InputUser fwd_limit:int = mes
 | **BOT_GROUPS_BLOCKED** | `400` | This bot can't be added to groups |
 | **CHAT_ADMIN_REQUIRED** | `403` | You must be an admin in this chat to do this |
 | **CHAT_ID_INVALID** | `400` | The provided chat id is invalid |
+| **CHAT_INVALID** | `400` | Invalid chat |
+| **CHAT_MEMBER_ADD_FAILED** | `400` | Could not add participants |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
@@ -51,8 +53,8 @@ messages.addChatUser#cbc6d107 chat_id:long user_id:InputUser fwd_limit:int = mes
 
 ```php
 $messagesInvitedUsers = $client->messages->addChatUser(
-	chat_id : 4271499772665054456,
+	chat_id : 6234034364487294634,
 	user_id : $client->inputUserEmpty(),
-	fwd_limit : 59,
+	fwd_limit : 87,
 );
 ```

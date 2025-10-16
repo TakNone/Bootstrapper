@@ -1,5 +1,7 @@
 # stories.updateAlbum
 
+**Description** : *Rename a story albums &raquo;, or add, delete or reorder stories in it*
+
 **Layer** : 216
 
 ```tl
@@ -12,13 +14,13 @@ stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>album_id</mark> | [`int`](type/int) | NOTHING |
-| **title** | [`flags.0?string`](type/string) | NOTHING |
-| **delete_stories** | [`flags.1?Vector<int>`](type/int) | NOTHING |
-| **add_stories** | [`flags.2?Vector<int>`](type/int) | NOTHING |
-| **order** | [`flags.3?Vector<int>`](type/int) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer where the album is posted |
+| <mark>album_id</mark> | [`int`](type/int) | Album ID |
+| **title** | [`flags.0?string`](type/string) | New album title |
+| **delete_stories** | [`flags.1?Vector<int>`](type/int) | If set, deletes the specified stories from the album |
+| **add_stories** | [`flags.2?Vector<int>`](type/int) | If set, adds the specified stories to the album |
+| **order** | [`flags.3?Vector<int>`](type/int) | If set, reorders the stories in the album by their IDs |
 
 ---
 
@@ -28,15 +30,23 @@ stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?s
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+
+---
+
 ## Example
 
 ```php
 $storyAlbum = $client->stories->updateAlbum(
 	peer : $client->inputPeerEmpty(),
-	album_id : 33,
-	title : 'nkCLOd7HartfFyYM',
-	delete_stories : array(12),
-	add_stories : array(83),
-	order : array(61),
+	album_id : 86,
+	title : 'WzEkrq9FXMnhlf5N',
+	delete_stories : array(38),
+	add_stories : array(65),
+	order : array(77),
 );
 ```

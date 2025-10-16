@@ -1,5 +1,7 @@
 # requirementToContactPremium
 
+**Description** : *This user requires us to buy a Premium subscription in order to contact them*
+
 **Layer** : 216
 
 ```tl

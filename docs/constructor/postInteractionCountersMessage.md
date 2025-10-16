@@ -31,9 +31,9 @@ postInteractionCountersMessage#e7058e7f msg_id:int views:int forwards:int reacti
 
 ```php
 $postInteractionCounters = $client->postInteractionCountersMessage(
-	msg_id : 41,
-	views : 10,
-	forwards : 55,
-	reactions : 73,
+	msg_id : 83,
+	views : 67,
+	forwards : 45,
+	reactions : 26,
 );
 ```

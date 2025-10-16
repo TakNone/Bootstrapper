@@ -31,9 +31,9 @@ inputDocumentFileLocation#bad07584 id:long access_hash:long file_reference:bytes
 
 ```php
 $inputFileLocation = $client->inputDocumentFileLocation(
-	id : -3185552842771704303,
-	access_hash : -535843078074779252,
+	id : 517490441767422939,
+	access_hash : 3377888191417038100,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	thumb_size : 'NpKOctFD75wbdfRP',
+	thumb_size : 'UCOmJfihHb2P5Ejp',
 );
 ```

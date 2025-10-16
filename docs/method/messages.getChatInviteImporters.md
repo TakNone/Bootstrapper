@@ -53,10 +53,10 @@ $messagesChatInviteImporters = $client->messages->getChatInviteImporters(
 	requested : true,
 	subscription_expired : true,
 	peer : $client->inputPeerEmpty(),
-	link : 'SFcaIluegXZbqjmz',
-	q : 'oBGFHRKAk0is4Il2',
+	link : 'Fs396iVaOtoUNf2J',
+	q : 'CEnpbeyQAgIurjPS',
 	offset_date : 0,
 	offset_user : $client->inputUserEmpty(),
-	limit : 8,
+	limit : 41,
 );
 ```

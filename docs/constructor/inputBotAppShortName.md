@@ -30,6 +30,6 @@ inputBotAppShortName#908c0407 bot_id:InputUser short_name:string = InputBotApp;
 ```php
 $inputBotApp = $client->inputBotAppShortName(
 	bot_id : $client->inputUserEmpty(),
-	short_name : 'DvuWrBpMfskzZPNg',
+	short_name : 'cw0B63Ql2n9ek5ij',
 );
 ```

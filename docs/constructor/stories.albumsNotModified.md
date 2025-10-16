@@ -1,5 +1,7 @@
 # stories.albumsNotModified
 
+**Description** : *The story album list &raquo; hasn&#039;t changed*
+
 **Layer** : 216
 
 ```tl

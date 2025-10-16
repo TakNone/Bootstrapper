@@ -30,6 +30,7 @@ stories.getPinnedStories#5821a5dc peer:InputPeer offset_id:int limit:int = stori
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 
@@ -41,6 +42,6 @@ stories.getPinnedStories#5821a5dc peer:InputPeer offset_id:int limit:int = stori
 $storiesStories = $client->stories->getPinnedStories(
 	peer : $client->inputPeerEmpty(),
 	offset_id : 0,
-	limit : 65,
+	limit : 36,
 );
 ```

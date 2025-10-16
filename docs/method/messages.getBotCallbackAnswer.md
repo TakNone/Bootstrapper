@@ -50,7 +50,7 @@ messages.getBotCallbackAnswer#9342ca07 flags:# game:flags.1?true peer:InputPeer 
 $messagesBotCallbackAnswer = $client->messages->getBotCallbackAnswer(
 	game : true,
 	peer : $client->inputPeerEmpty(),
-	msg_id : 56,
+	msg_id : 73,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	password : $client->inputCheckPasswordEmpty(),
 );

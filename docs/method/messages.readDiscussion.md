@@ -41,7 +41,7 @@ messages.readDiscussion#f731a9f4 peer:InputPeer msg_id:int read_max_id:int = Boo
 ```php
 $bool = $client->messages->readDiscussion(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 55,
-	read_max_id : 92,
+	msg_id : 4,
+	read_max_id : 100,
 );
 ```

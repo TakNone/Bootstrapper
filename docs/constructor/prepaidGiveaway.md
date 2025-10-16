@@ -31,9 +31,9 @@ prepaidGiveaway#b2539d54 id:long months:int quantity:int date:int = PrepaidGivea
 
 ```php
 $prepaidGiveaway = $client->prepaidGiveaway(
-	id : 4275307591073485911,
-	months : 68,
-	quantity : 12,
-	date : 67,
+	id : 4134895973803431855,
+	months : 27,
+	quantity : 29,
+	date : 94,
 );
 ```

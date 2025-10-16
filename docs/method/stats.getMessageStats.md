@@ -44,6 +44,6 @@ stats.getMessageStats#b6e0a3f5 flags:# dark:flags.0?true channel:InputChannel ms
 $statsMessageStats = $client->stats->getMessageStats(
 	dark : true,
 	channel : $client->inputChannelEmpty(),
-	msg_id : 89,
+	msg_id : 20,
 );
 ```

@@ -37,8 +37,8 @@ $messagesBotCallbackAnswer = $client->messages->botCallbackAnswer(
 	alert : true,
 	has_url : true,
 	native_ui : true,
-	message : 'GvUKNWMC6ZtIFygo',
+	message : 'mN7xEsdVfYAiPQo9',
 	url : 'https://docs.liveproto.dev',
-	cache_time : 97,
+	cache_time : 50,
 );
 ```

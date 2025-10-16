@@ -35,16 +35,16 @@ storyViews#8d595cd6 flags:# has_viewers:flags.1?true views_count:int forwards_co
 ```php
 $storyViews = $client->storyViews(
 	has_viewers : true,
-	views_count : 62,
-	forwards_count : 30,
+	views_count : 71,
+	forwards_count : 54,
 	reactions : array(
 		$client->reactionCount(
-			chosen_order : 52,
+			chosen_order : 28,
 			reaction : $client->reactionEmpty(),
-			count : 85,
+			count : 51,
 		),
 	),
-	reactions_count : 21,
-	recent_viewers : array(-6274220740491097887),
+	reactions_count : 19,
+	recent_viewers : array(6289825215675792463),
 );
 ```

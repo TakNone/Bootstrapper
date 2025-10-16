@@ -36,11 +36,11 @@ inputBotInlineMessageMediaVenue#417bbf11 flags:# geo_point:InputGeoPoint title:s
 ```php
 $inputBotInlineMessage = $client->inputBotInlineMessageMediaVenue(
 	geo_point : $client->inputGeoPointEmpty(),
-	title : 'O5nY2wQhWZvR46DK',
-	address : 'zEWTibJBgOoj72at',
-	provider : 'wJ8qsQtDjz0u2aTr',
-	venue_id : 'FP2SLGJZ7te4pM8B',
-	venue_type : 'M3SY4DvBL2xhdrVE',
+	title : 'Qkn9OB6gUPf7X5ye',
+	address : 'ZrFWHBD15disMCLO',
+	provider : '7Td5gQOFxVGYCeb1',
+	venue_id : '3NC8KcaOhi6xWIvG',
+	venue_type : 'TdUkEiGFHYb6ZCh0',
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

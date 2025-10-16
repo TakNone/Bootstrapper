@@ -18,7 +18,7 @@ payments.getStarsTransactions#69da4557 flags:# inbound:flags.0?true outbound:fla
 | **inbound** | [`flags.0?true`](type/true) | If set, fetches only incoming transactions |
 | **outbound** | [`flags.1?true`](type/true) | If set, fetches only outgoing transactions |
 | **ascending** | [`flags.2?true`](type/true) | Return transactions in ascending order by date (instead of descending order by date) |
-| **ton** | [`flags.4?true`](type/true) | NOTHING |
+| **ton** | [`flags.4?true`](type/true) | If set, returns the channel/ad revenue transactions in nanotons, instead |
 | **subscription_id** | [`flags.3?string`](type/string) | If set, fetches only transactions for the specified Telegram Star subscription » |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Fetch the transaction history of the peer (inputPeerSelf or a bot we own) |
 | <mark>offset</mark> | [`string`](type/string) | Offset for pagination, obtained from the returned next_offset, initially an empty string » |
@@ -38,6 +38,7 @@ payments.getStarsTransactions#69da4557 flags:# inbound:flags.0?true outbound:fla
 | :---: | :---: | :--- |
 | **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+| **SUBSCRIPTION_ID_INVALID** | `400` | The specified subscription_id is invalid |
 
 ---
 
@@ -49,9 +50,9 @@ $paymentsStarsStatus = $client->payments->getStarsTransactions(
 	outbound : true,
 	ascending : true,
 	ton : true,
-	subscription_id : '2I48DdRJoqPa9BpU',
+	subscription_id : 'gMGDhARU9HoYPQCX',
 	peer : $client->inputPeerEmpty(),
-	offset : 'gSX42MPkr6NQKcAT',
-	limit : 8,
+	offset : 'zM4flgc1DIT8miAj',
+	limit : 65,
 );
 ```

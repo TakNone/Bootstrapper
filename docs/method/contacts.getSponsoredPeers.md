@@ -1,5 +1,7 @@
 # contacts.getSponsoredPeers
 
+**Description** : *Obtain a list of sponsored peer search results for a given query*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ contacts.getSponsoredPeers#b6c8c393 q:string = contacts.SponsoredPeers;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>q</mark> | [`string`](type/string) | NOTHING |
+| <mark>q</mark> | [`string`](type/string) | The query |
 
 ---
 
@@ -22,10 +24,18 @@ contacts.getSponsoredPeers#b6c8c393 q:string = contacts.SponsoredPeers;
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **SEARCH_QUERY_EMPTY** | `400` | The search query is empty |
+
+---
+
 ## Example
 
 ```php
 $contactsSponsoredPeers = $client->contacts->getSponsoredPeers(
-	q : 'pJ19HAO507fQ6Ibj',
+	q : 'x2czvuIr6WXQ49YK',
 );
 ```

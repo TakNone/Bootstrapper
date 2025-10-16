@@ -30,38 +30,38 @@ starGiftUpgradePreview#3de1dfed sample_attributes:Vector<StarGiftAttribute> pric
 $starGiftUpgradePreview = $client->starGiftUpgradePreview(
 	sample_attributes : array(
 		$client->starGiftAttributeModel(
-			name : 'Zcoan5LeKR7DqmvP',
+			name : 'WqeMDZzwAB9ifoF6',
 			document : $client->documentEmpty(
-				id : -8033620609815785462,
+				id : 6637656751227092168,
 			),
-			rarity_permille : 20,
+			rarity_permille : 33,
 		),
 		$client->starGiftAttributePattern(
-			name : 'jASnX3GWHPR9KbmD',
+			name : 'BEj86LKe5QvzYkyo',
 			document : $client->documentEmpty(
-				id : -8391490142227370358,
+				id : 1898031409512160506,
 			),
-			rarity_permille : 9,
+			rarity_permille : 83,
 		),
 		$client->starGiftAttributeBackdrop(
-			name : 'SzHhaj4L7prNxYvw',
-			backdrop_id : 83,
-			center_color : 84,
-			edge_color : 45,
-			pattern_color : 54,
-			text_color : 89,
-			rarity_permille : 70,
+			name : 'l0ZQDWFYxmsu9H4b',
+			backdrop_id : 77,
+			center_color : 9,
+			edge_color : 4,
+			pattern_color : 11,
+			text_color : 94,
+			rarity_permille : 48,
 		),
 		$client->starGiftAttributeOriginalDetails(
 			sender_id : $client->peerUser(
-				user_id : -8806941101062566708,
+				user_id : 7480279811547790306,
 			),
 			recipient_id : $client->peerUser(
-				user_id : -3185563058458905301,
+				user_id : -6762093613319831663,
 			),
-			date : 46,
+			date : 68,
 			message : $client->textWithEntities(
-				text : 'DjB0bELtAVHXJ9Pg',
+				text : 'gX2rMPL4AdFQ0EjJ',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -90,14 +90,14 @@ $starGiftUpgradePreview = $client->starGiftUpgradePreview(
 	),
 	prices : array(
 		$client->starGiftUpgradePrice(
-			date : 8,
-			upgrade_stars : 3424190871663202794,
+			date : 56,
+			upgrade_stars : 7694781493184058915,
 		),
 	),
 	next_prices : array(
 		$client->starGiftUpgradePrice(
-			date : 66,
-			upgrade_stars : -2775507613774007948,
+			date : 60,
+			upgrade_stars : 3028448166924809280,
 		),
 	),
 );

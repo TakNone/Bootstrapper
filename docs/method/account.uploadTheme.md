@@ -42,18 +42,18 @@ account.uploadTheme#1c3db333 flags:# file:InputFile thumb:flags.0?InputFile file
 ```php
 $document = $client->account->uploadTheme(
 	file : $client->inputFile(
-		id : 5598858786566244619,
-		parts : 21,
-		name : 'hvyqnltxw47rmYgM',
+		id : -6546269921447489526,
+		parts : 69,
+		name : '128qy3vKDowQJfn5',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
 	thumb : $client->inputFile(
-		id : -9048841655721725254,
+		id : -4239956238302692832,
 		parts : 66,
-		name : 'MzUwF5m8L39DXgKn',
+		name : 'zxWpJ2TrFSlQaDdH',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	file_name : 'HcCQYdaoGyTjKBLX',
-	mime_type : 'tsuhdwU2A7xfayiQ',
+	file_name : '7c8F1NGV2JgiHRlE',
+	mime_type : 'EWqzxiRbThpkc16K',
 );
 ```

@@ -1,5 +1,7 @@
 # payments.UniqueStarGiftValueInfo
 
+**Description** : *Information about the value of a collectible gift &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ payments.uniqueStarGiftValueInfo#512fe446 flags:# last_sale_on_fragment:flags.1?
 
 | Constructor | Description |
 | :---: | :--- |
-| [**payments.uniqueStarGiftValueInfo**](constructor/payments.uniqueStarGiftValueInfo) | NOTHING |
+| [**payments.uniqueStarGiftValueInfo**](constructor/payments.uniqueStarGiftValueInfo) | Information about the value of a collectible gift » |

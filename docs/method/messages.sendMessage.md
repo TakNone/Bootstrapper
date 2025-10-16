@@ -33,8 +33,8 @@ messages.sendMessage#fe05dc9a flags:# no_webpage:flags.1?true silent:flags.5?tru
 | **send_as** | [`flags.13?InputPeer`](type/InputPeer) | Send this message as the specified peer |
 | **quick_reply_shortcut** | [`flags.17?InputQuickReplyShortcut`](type/InputQuickReplyShortcut) | Add the message to the specified quick reply shortcut », instead |
 | **effect** | [`flags.18?long`](type/long) | Specifies a message effect » to use for the message |
-| **allow_paid_stars** | [`flags.21?long`](type/long) | NOTHING |
-| **suggested_post** | [`flags.22?SuggestedPost`](type/SuggestedPost) | NOTHING |
+| **allow_paid_stars** | [`flags.21?long`](type/long) | For paid messages », specifies the amount of Telegram Stars the user has agreed to pay in order to send the message |
+| **suggested_post** | [`flags.22?SuggestedPost`](type/SuggestedPost) | Used to suggest a post to a channel, see here » for more info on the full flow |
 
 ---
 
@@ -49,8 +49,12 @@ messages.sendMessage#fe05dc9a flags:# no_webpage:flags.1?true silent:flags.5?tru
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **ADMIN_RIGHTS_EMPTY** | `400` | The chatAdminRights constructor passed in keyboardButtonRequestPeer.peer_type.user_admin_rights has no rights set (i.e. flags is 0) |
+| **ALLOW_PAYMENT_REQUIRED** | `406` | This peer only accepts paid messages »: this error is only emitted for older layers without paid messages support, so the client must be updated in order to use paid messages.   |
+| **ALLOW_PAYMENT_REQUIRED_%d** | `403` | This peer charges %d Telegram Stars per message, but the allow_paid_stars was not set or its value is smaller than %d |
+| **BALANCE_TOO_LOW** | `400` | The transaction cannot be completed because the current Telegram Stars balance is too low |
 | **BOT_DOMAIN_INVALID** | `400` | Bot domain invalid |
 | **BOT_INVALID** | `400` | This is not a valid bot |
+| **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
 | **BUSINESS_PEER_INVALID** | `400` | Messages can't be set to the specified peer through the current business connection |
 | **BUSINESS_PEER_USAGE_MISSING** | `400` | You cannot send a message to a user through a business connection if the user hasn't recently contacted us |
 | **BUTTON_COPY_TEXT_INVALID** | `400` | The specified keyboardButtonCopy.copy_text is invalid |
@@ -61,8 +65,10 @@ messages.sendMessage#fe05dc9a flags:# no_webpage:flags.1?true silent:flags.5?tru
 | **BUTTON_USER_INVALID** | `400` | The user_id passed to inputKeyboardButtonUserProfile is invalid! |
 | **BUTTON_USER_PRIVACY_RESTRICTED** | `400` | The privacy setting of the user specified in a inputKeyboardButtonUserProfile button do not allow creating such a button |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_MONOFORUM_UNSUPPORTED** | `400` | Monoforums do not support this feature |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `403` | You must be an admin in this chat to do this |
+| **CHAT_FORWARDS_RESTRICTED** | `400` | You can't forward messages from a protected chat |
 | **CHAT_GUEST_SEND_FORBIDDEN** | `403` | You join the discussion group before commenting, see here » for more info |
 | **CHAT_ID_INVALID** | `400` | The provided chat id is invalid |
 | **CHAT_RESTRICTED** | `400` | You can't send messages in this chat, you were restricted |
@@ -81,10 +87,12 @@ messages.sendMessage#fe05dc9a flags:# no_webpage:flags.1?true silent:flags.5?tru
 | **MSG_WAIT_FAILED** | `500` | A waiting call returned an error |
 | **PAYMENT_UNSUPPORTED** | `406` | A detailed description of the error will be received separately as described here » |
 | **PEER_ID_INVALID** | `404` | The provided peer id is invalid |
+| **PEER_TYPES_INVALID** | `400` | The passed keyboardButtonSwitchInline.peer_types field is invalid |
 | **PINNED_DIALOGS_TOO_MUCH** | `400` | Too many pinned dialogs |
 | **POLL_OPTION_INVALID** | `400` | Invalid poll option provided |
 | **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
-| **PRIVACY_PREMIUM_REQUIRED** | `406` | You need a Telegram Premium subscription to send a message to this user |
+| **PRIVACY_PREMIUM_REQUIRED** | `403` | You need a Telegram Premium subscription to send a message to this user |
+| **QUICK_REPLIES_BOT_NOT_ALLOWED** | `400` | Quick replies cannot be used by bots |
 | **QUICK_REPLIES_TOO_MUCH** | `400` | A maximum of appConfig.quick_replies_limit shortcuts may be created, the limit was reached |
 | **QUOTE_TEXT_INVALID** | `400` | The specified reply_to.quote_text field is invalid |
 | **RANDOM_ID_DUPLICATE** | `500` | You provided a random ID that was already used |
@@ -93,6 +101,7 @@ messages.sendMessage#fe05dc9a flags:# no_webpage:flags.1?true silent:flags.5?tru
 | **REPLY_MESSAGES_TOO_MUCH** | `400` | Each shortcut can contain a maximum of appConfig.quick_reply_messages_limit messages, the limit was reached |
 | **REPLY_MESSAGE_ID_INVALID** | `400` | The specified reply-to message ID is invalid |
 | **REPLY_TO_INVALID** | `400` | The specified reply_to field is invalid |
+| **REPLY_TO_MONOFORUM_PEER_INVALID** | `400` | The specified inputReplyToMonoForum.monoforum_peer_id is invalid |
 | **REPLY_TO_USER_INVALID** | `400` | The replied-to user is invalid |
 | **SCHEDULE_BOT_NOT_ALLOWED** | `400` | Bots cannot schedule messages |
 | **SCHEDULE_DATE_TOO_LATE** | `400` | You can't schedule a message this far in the future |
@@ -100,7 +109,10 @@ messages.sendMessage#fe05dc9a flags:# no_webpage:flags.1?true silent:flags.5?tru
 | **SCHEDULE_TOO_MUCH** | `400` | There are too many scheduled messages |
 | **SEND_AS_PEER_INVALID** | `400` | You can't send messages as the specified peer |
 | **SLOWMODE_WAIT_%d** | `420` | Slowmode is enabled in this chat: wait %d seconds before sending another message to this chat |
+| **STORIES_NEVER_CREATED** | `400` | This peer hasn't ever posted any stories |
 | **STORY_ID_INVALID** | `400` | The specified story ID is invalid |
+| **SUGGESTED_POST_AMOUNT_INVALID** | `400` | The specified price for the suggested post is invalid |
+| **SUGGESTED_POST_PEER_INVALID** | `400` | You cannot send suggested posts to non-monoforum peers |
 | **TOPIC_CLOSED** | `406` | This topic was closed, you can't send messages to it anymore |
 | **TOPIC_DELETED** | `406` | The specified topic was deleted |
 | **USER_BANNED_IN_CHANNEL** | `400` | You're banned from sending messages in supergroups/channels |
@@ -125,218 +137,218 @@ $updates = $client->messages->sendMessage(
 	allow_paid_floodskip : true,
 	peer : $client->inputPeerEmpty(),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 100,
-		top_msg_id : 39,
+		reply_to_msg_id : 79,
+		top_msg_id : 7,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'WAFtRrXnD7q2g1h6',
+		quote_text : 'oSiKsdgyvXpNr4Ma',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 13,
+				length : 43,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 90,
+				length : 16,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 3,
+				length : 12,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 86,
+				length : 7,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 44,
+				length : 84,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 11,
+				length : 95,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 88,
+				length : 32,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 4,
+				length : 36,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 17,
+				length : 7,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 59,
-				language : 'dA74sfvw5c0D9nbF',
+				length : 2,
+				language : 'BtxNCcjKPkH1WiTu',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 9,
+				length : 93,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 65,
-				user_id : 8709063999961142227,
+				length : 19,
+				user_id : -7700368465093512866,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 35,
+				length : 5,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 40,
+				length : 85,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 13,
+				length : 92,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 42,
+				length : 66,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 21,
+				length : 35,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 94,
+				length : 82,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 31,
+				length : 12,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 62,
-				document_id : -5824737762501403695,
+				length : 65,
+				document_id : -5423131117734957403,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 80,
+				length : 76,
 			),
 		),
-		quote_offset : 84,
+		quote_offset : 49,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 4,
+		todo_item_id : 77,
 	),
-	message : 'TZ1yECInke6Q4GaD',
-	random_id : 7757461303435324436,
+	message : 'TFc0ramSe6B4Goiv',
+	random_id : -4044824614879375598,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 13,
+			length : 63,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 84,
+			length : 56,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 33,
+			length : 60,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 65,
+			length : 86,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 54,
+			length : 50,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 3,
+			length : 94,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 30,
+			length : 64,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 82,
+			length : 59,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 28,
+			length : 30,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 4,
-			language : 'H52C7Kek4m1JtzhI',
+			length : 61,
+			language : 'phik9wuDAMqjEPNI',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 35,
+			length : 50,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 41,
-			user_id : -5269952884535959177,
+			length : 58,
+			user_id : -7169636414026058259,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 65,
+			length : 6,
 			user_id : $client->inputUserEmpty(),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 9,
+			length : 48,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 73,
+			length : 43,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 9,
+			length : 95,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 10,
+			length : 85,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 42,
+			length : 53,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 73,
+			length : 62,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 1,
-			document_id : 4318729090671740526,
+			length : 53,
+			document_id : 5104829660820848587,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 17,
+			length : 96,
 		),
 	),
-	schedule_date : 14,
+	schedule_date : 74,
 	send_as : $client->inputPeerEmpty(),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : '6uDE8OQYdNtFAZ1j',
+		shortcut : 'eQ7vgsJLSK1bptNH',
 	),
-	effect : -2001246481076088525,
-	allow_paid_stars : -7834341589816879062,
+	effect : -1494659004004476272,
+	allow_paid_stars : -7271096424367294658,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : -2236259631752059493,
-			nanos : 49,
+			amount : -532339514518957621,
+			nanos : 58,
 		),
-		schedule_date : 38,
+		schedule_date : 9,
 	),
 );
 ```
