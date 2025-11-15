@@ -58,35 +58,35 @@ $groupCallParticipant = $client->groupCallParticipant(
 	self : true,
 	video_joined : true,
 	peer : $client->peerUser(
-		user_id : 1017614705694671279,
+		user_id : -6893154910295408951,
 	),
-	date : 3,
-	active_date : 87,
-	source : 62,
-	volume : 49,
-	about : 'xLZr3EkmFTYyn1Oi',
-	raise_hand_rating : -3147220886032553779,
+	date : 77,
+	active_date : 69,
+	source : 9,
+	volume : 46,
+	about : '41xDTNSURdIz56Ey',
+	raise_hand_rating : 8465566278802074306,
 	video : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'XbKjUDPEI4fdyJgh',
+		endpoint : '7xb0kNyDi6Jnz5Qo',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'YOp95Wkj2gUMEnqo',
-				sources : array(96),
+				semantics : 'q41C3RnXsivdQEfL',
+				sources : array(56),
 			),
 		),
-		audio_source : 49,
+		audio_source : 95,
 	),
 	presentation : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'O3VRGPh0vw246kFr',
+		endpoint : 'QZzDLWqMGt4rsJFT',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : '0WxPAOgLm5Za8Ypc',
-				sources : array(76),
+				semantics : 'uvw6o9BLWyxzIhXl',
+				sources : array(23),
 			),
 		),
-		audio_source : 82,
+		audio_source : 29,
 	),
 );
 ```

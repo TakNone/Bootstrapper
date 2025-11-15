@@ -1,5 +1,7 @@
 # webPageAttributeUniqueStarGift
 
+**Description** : *Contains info about collectible gift &raquo; for a webPage preview of a collectible gift &raquo; \(the webPage will have a type of telegram\_nft\)*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ webPageAttributeUniqueStarGift#cf6f6db8 gift:StarGift = WebPageAttribute;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>gift</mark> | [`StarGift`](type/StarGift) | NOTHING |
+| <mark>gift</mark> | [`StarGift`](type/StarGift) | The starGiftUnique constructor |
 
 ---
 
@@ -34,26 +36,26 @@ $webPageAttribute = $client->webPageAttributeUniqueStarGift(
 		require_premium : true,
 		limited_per_user : true,
 		peer_color_available : true,
-		id : -4710978506465288789,
+		id : -6982323237645094221,
 		sticker : $client->documentEmpty(
-			id : -3387445533615728120,
+			id : -5431957667541152615,
 		),
-		stars : -2224201201700180111,
-		availability_remains : 59,
-		availability_total : 85,
-		availability_resale : 6406344224944169300,
-		convert_stars : -5991568851696215013,
-		first_sale_date : 8,
-		last_sale_date : 64,
-		upgrade_stars : -1289402566869329568,
-		resell_min_stars : -8252050511140617032,
-		title : 'pABNvu0iX5mQgYF6',
+		stars : 3038718522805796699,
+		availability_remains : 49,
+		availability_total : 30,
+		availability_resale : -7794455386259019106,
+		convert_stars : -2599454977667053154,
+		first_sale_date : 17,
+		last_sale_date : 94,
+		upgrade_stars : -469836774716558688,
+		resell_min_stars : -7897814358366855848,
+		title : 'pxmlb3HyoXJSLYRe',
 		released_by : $client->peerUser(
-			user_id : 1090853428707613533,
+			user_id : -7598859912947160866,
 		),
-		per_user_total : 50,
-		per_user_remains : 37,
-		locked_until_date : 73,
+		per_user_total : 55,
+		per_user_remains : 7,
+		locked_until_date : 66,
 	),
 );
 ```

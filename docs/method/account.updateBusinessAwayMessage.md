@@ -31,7 +31,7 @@ account.updateBusinessAwayMessage#a26a7fa5 flags:# message:flags.0?InputBusiness
 $bool = $client->account->updateBusinessAwayMessage(
 	message : $client->inputBusinessAwayMessage(
 		offline_only : true,
-		shortcut_id : 16,
+		shortcut_id : 90,
 		schedule : $client->businessAwayMessageScheduleAlways(),
 		recipients : $client->inputBusinessRecipients(
 			existing_chats : true,

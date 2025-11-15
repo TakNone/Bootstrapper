@@ -44,26 +44,26 @@ $inputBusinessBotRecipients = $client->inputBusinessBotRecipients(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -3276328549533185716,
-			access_hash : -3076790968801201179,
+			user_id : 7355698538495407981,
+			access_hash : -5932575821392919407,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 93,
-			user_id : 1659293594188966486,
+			msg_id : 72,
+			user_id : 8665376566508533606,
 		),
 	),
 	exclude_users : array(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -304891110354280411,
-			access_hash : 3954755060542476388,
+			user_id : 7441398844754866632,
+			access_hash : -420179630384668574,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 22,
-			user_id : -2557963985969496770,
+			msg_id : 99,
+			user_id : 6190964976870934365,
 		),
 	),
 );

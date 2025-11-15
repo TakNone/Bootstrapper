@@ -16,7 +16,7 @@ account.updateConnectedBot#66a08c7e flags:# deleted:flags.1?true rights:flags.0?
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **deleted** | [`flags.1?true`](type/true) | Whether to fully disconnect the bot from the current account |
-| **rights** | [`flags.0?BusinessBotRights`](type/BusinessBotRights) | NOTHING |
+| **rights** | [`flags.0?BusinessBotRights`](type/BusinessBotRights) | Business bot rights |
 | <mark>bot</mark> | [`InputUser`](type/InputUser) | The bot to connect or disconnect |
 | <mark>recipients</mark> | [`InputBusinessBotRecipients`](type/InputBusinessBotRecipients) | Configuration for the business connection |
 
@@ -70,26 +70,26 @@ $updates = $client->account->updateConnectedBot(
 			$client->inputUserEmpty(),
 			$client->inputUserSelf(),
 			$client->inputUser(
-				user_id : -8580469069326009593,
-				access_hash : 765830794892183553,
+				user_id : 1398018415368100131,
+				access_hash : -1869583314829642684,
 			),
 			$client->inputUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 53,
-				user_id : 7478870790411896625,
+				msg_id : 1,
+				user_id : -1244898284942013615,
 			),
 		),
 		exclude_users : array(
 			$client->inputUserEmpty(),
 			$client->inputUserSelf(),
 			$client->inputUser(
-				user_id : 7760327742522110413,
-				access_hash : 7272675346813516646,
+				user_id : 3408670483989551860,
+				access_hash : -368068122769026817,
 			),
 			$client->inputUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 20,
-				user_id : -1370336542205623021,
+				msg_id : 35,
+				user_id : -8508438860974704713,
 			),
 		),
 	),

@@ -15,5 +15,5 @@ chatThemeUniqueGift#3458f9c8 gift:StarGift theme_settings:Vector<ThemeSettings> 
 
 | Constructor | Description |
 | :---: | :--- |
-| [**chatTheme**](constructor/chatTheme) | NOTHING |
-| [**chatThemeUniqueGift**](constructor/chatThemeUniqueGift) | NOTHING |
+| [**chatTheme**](constructor/chatTheme) | A chat theme |
+| [**chatThemeUniqueGift**](constructor/chatThemeUniqueGift) | A chat theme based on a collectible gift » |

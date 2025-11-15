@@ -1,5 +1,7 @@
 # SuggestedPost
 
+**Description** : *Contains info about a suggested post &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ suggestedPost#e8e37e5 flags:# accepted:flags.1?true rejected:flags.2?true price:
 
 | Constructor | Description |
 | :---: | :--- |
-| [**suggestedPost**](constructor/suggestedPost) | NOTHING |
+| [**suggestedPost**](constructor/suggestedPost) | Contains info about a suggested post » |

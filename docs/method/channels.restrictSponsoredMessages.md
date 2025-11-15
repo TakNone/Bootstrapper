@@ -38,6 +38,6 @@ channels.restrictSponsoredMessages#9ae91519 channel:InputChannel restricted:Bool
 ```php
 $updates = $client->channels->restrictSponsoredMessages(
 	channel : $client->inputChannelEmpty(),
-	restricted : false,
+	restricted : true,
 );
 ```

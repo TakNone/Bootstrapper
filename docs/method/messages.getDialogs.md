@@ -35,9 +35,11 @@ messages.getDialogs#a0f4cb4f flags:# exclude_pinned:flags.0?true folder_id:flags
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **FOLDER_ID_INVALID** | `400` | Invalid folder ID |
 | **OFFSET_PEER_ID_INVALID** | `400` | The provided offset peer is invalid |
+| **PINNED_DIALOGS_TOO_MUCH** | `400` | Too many pinned dialogs |
 | **TAKEOUT_INVALID** | `400` | The specified takeout ID is invalid |
 
 ---
@@ -47,11 +49,11 @@ messages.getDialogs#a0f4cb4f flags:# exclude_pinned:flags.0?true folder_id:flags
 ```php
 $messagesDialogs = $client->messages->getDialogs(
 	exclude_pinned : true,
-	folder_id : 54,
+	folder_id : 71,
 	offset_date : 0,
 	offset_id : 0,
 	offset_peer : $client->inputPeerEmpty(),
-	limit : 25,
+	limit : 44,
 	hash : 0,
 );
 ```

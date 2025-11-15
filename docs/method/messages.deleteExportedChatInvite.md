@@ -29,6 +29,7 @@ messages.deleteExportedChatInvite#d464a42b peer:InputPeer link:string = Bool;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
 | **INVITE_HASH_EXPIRED** | `400` | The invite link has expired |
 | **INVITE_REVOKED_MISSING** | `400` | The specified invite link was already revoked or is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
@@ -40,6 +41,6 @@ messages.deleteExportedChatInvite#d464a42b peer:InputPeer link:string = Bool;
 ```php
 $bool = $client->messages->deleteExportedChatInvite(
 	peer : $client->inputPeerEmpty(),
-	link : '0VDQ5AGakbx7hPoI',
+	link : 'Xy1lrDqiwbxMzV5U',
 );
 ```

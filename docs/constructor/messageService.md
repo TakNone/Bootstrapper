@@ -18,18 +18,18 @@ messageService#7a800e0a flags:# out:flags.1?true mentioned:flags.4?true media_un
 | **out** | [`flags.1?true`](type/true) | Whether the message is outgoing |
 | **mentioned** | [`flags.4?true`](type/true) | Whether we were mentioned in the message |
 | **media_unread** | [`flags.5?true`](type/true) | Whether the message contains unread media |
-| **reactions_are_possible** | [`flags.9?true`](type/true) | NOTHING |
+| **reactions_are_possible** | [`flags.9?true`](type/true) | Whether you can react to this message » |
 | **silent** | [`flags.13?true`](type/true) | Whether the message is silent |
 | **post** | [`flags.14?true`](type/true) | Whether it's a channel post |
 | **legacy** | [`flags.19?true`](type/true) | This is a legacy message: it has to be refetched with the new layer |
 | <mark>id</mark> | [`int`](type/int) | Message ID |
 | **from_id** | [`flags.8?Peer`](type/Peer) | ID of the sender of this message |
 | <mark>peer_id</mark> | [`Peer`](type/Peer) | Sender of service message |
-| **saved_peer_id** | [`flags.28?Peer`](type/Peer) | NOTHING |
+| **saved_peer_id** | [`flags.28?Peer`](type/Peer) | Will only be set for service messages within a monoforum topic »: peer will be equal to the ID of the monoforum and the saved_peer_id flag will be set to the ID of a topic |
 | **reply_to** | [`flags.3?MessageReplyHeader`](type/MessageReplyHeader) | Reply (thread) information |
 | <mark>date</mark> | [`int`](type/int) | Message date |
 | <mark>action</mark> | [`MessageAction`](type/MessageAction) | Event connected with the service message |
-| **reactions** | [`flags.20?MessageReactions`](type/MessageReactions) | NOTHING |
+| **reactions** | [`flags.20?MessageReactions`](type/MessageReactions) | Reactions » |
 | **ttl_period** | [`flags.25?int`](type/int) | Time To Live of the message, once message.date+message.ttl_period === time(), the message will be deleted on the server, and must be deleted locally as well |
 
 ---
@@ -51,138 +51,138 @@ $message = $client->messageService(
 	silent : true,
 	post : true,
 	legacy : true,
-	id : 74,
+	id : 2,
 	from_id : $client->peerUser(
-		user_id : -7645531983802880429,
+		user_id : -3820961440902963437,
 	),
 	peer_id : $client->peerUser(
-		user_id : 1259937688704946804,
+		user_id : -4575352135145927987,
 	),
 	saved_peer_id : $client->peerUser(
-		user_id : 5022065521275111485,
+		user_id : 8782655387292810905,
 	),
 	reply_to : $client->messageReplyHeader(
 		reply_to_scheduled : true,
 		forum_topic : true,
 		quote : true,
-		reply_to_msg_id : 10,
+		reply_to_msg_id : 72,
 		reply_to_peer_id : $client->peerUser(
-			user_id : -6971817550709114999,
+			user_id : -1549063242746355772,
 		),
 		reply_from : $client->messageFwdHeader(
 			imported : true,
 			saved_out : true,
 			from_id : $client->peerUser(...),
-			from_name : 'l5zhL70TBFkUqcKm',
-			date : 95,
-			channel_post : 77,
-			post_author : 'BA70tnPlQupvE3ya',
+			from_name : 'Fwl4VADMhePBiXyb',
+			date : 30,
+			channel_post : 5,
+			post_author : '62T13nlzAoSjUVeR',
 			saved_from_peer : $client->peerUser(...),
-			saved_from_msg_id : 50,
+			saved_from_msg_id : 51,
 			saved_from_id : $client->peerUser(...),
-			saved_from_name : 'k21E3DNXGZlOmbVr',
-			saved_date : 71,
-			psa_type : 'qPApuvQasodeg84B',
+			saved_from_name : 'YCK7Tq41rywDBWXV',
+			saved_date : 9,
+			psa_type : 'ahHMRO8PkjpzsJuf',
 		),
 		reply_media : $client->messageMediaEmpty(),
-		reply_to_top_id : 56,
-		quote_text : 'B1MkTogYKSdRtEJ9',
+		reply_to_top_id : 25,
+		quote_text : 'aSECYQwMOcProzDN',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 24,
+				length : 1,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 16,
+				length : 26,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 41,
+				length : 61,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 82,
+				length : 100,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 12,
+				length : 47,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 42,
+				length : 24,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 55,
+				length : 6,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 4,
+				length : 62,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 12,
+				length : 87,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 74,
-				language : 'HKq1jRU8Xmny4lMa',
+				length : 34,
+				language : 'sHSY6TCKyrecomZz',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 4,
+				length : 75,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 8,
-				user_id : 712232951705599021,
+				length : 24,
+				user_id : -3523719022543751187,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 80,
+				length : 34,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 35,
+				length : 7,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 67,
+				length : 13,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 57,
+				length : 0,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 79,
+				length : 18,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 4,
+				length : 27,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 24,
+				length : 39,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 89,
-				document_id : -1529050717288408136,
+				length : 54,
+				document_id : 6658488836292813166,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 98,
+				length : 91,
 			),
 		),
-		quote_offset : 85,
-		todo_item_id : 84,
+		quote_offset : 56,
+		todo_item_id : 100,
 	),
-	date : 39,
+	date : 6,
 	action : $client->messageActionEmpty(),
 	reactions : $client->messageReactions(
 		min : true,
@@ -190,9 +190,9 @@ $message = $client->messageService(
 		reactions_as_tags : true,
 		results : array(
 			$client->reactionCount(
-				chosen_order : 49,
+				chosen_order : 57,
 				reaction : $client->reactionEmpty(...),
-				count : 4,
+				count : 64,
 			),
 		),
 		recent_reactions : array(
@@ -201,7 +201,7 @@ $message = $client->messageService(
 				unread : true,
 				my : true,
 				peer_id : $client->peerUser(...),
-				date : 57,
+				date : 52,
 				reaction : $client->reactionEmpty(...),
 			),
 		),
@@ -211,10 +211,10 @@ $message = $client->messageService(
 				my : true,
 				anonymous : true,
 				peer_id : $client->peerUser(...),
-				count : 83,
+				count : 52,
 			),
 		),
 	),
-	ttl_period : 40,
+	ttl_period : 25,
 );
 ```

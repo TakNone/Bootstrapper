@@ -22,4 +22,4 @@ phoneCallDiscardReasonMigrateConferenceCall#9fbbf1f7 slug:string = PhoneCallDisc
 | [**phoneCallDiscardReasonDisconnect**](constructor/phoneCallDiscardReasonDisconnect) | The phone call was disconnected |
 | [**phoneCallDiscardReasonHangup**](constructor/phoneCallDiscardReasonHangup) | The phone call was ended normally |
 | [**phoneCallDiscardReasonBusy**](constructor/phoneCallDiscardReasonBusy) | The phone call was discarded because the user is busy in another call |
-| [**phoneCallDiscardReasonMigrateConferenceCall**](constructor/phoneCallDiscardReasonMigrateConferenceCall) | NOTHING |
+| [**phoneCallDiscardReasonMigrateConferenceCall**](constructor/phoneCallDiscardReasonMigrateConferenceCall) | This phone call was migrated to a conference call |

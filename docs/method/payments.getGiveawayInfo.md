@@ -29,6 +29,7 @@ payments.getGiveawayInfo#f4239425 peer:InputPeer msg_id:int = payments.GiveawayI
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---
@@ -38,6 +39,6 @@ payments.getGiveawayInfo#f4239425 peer:InputPeer msg_id:int = payments.GiveawayI
 ```php
 $paymentsGiveawayInfo = $client->payments->getGiveawayInfo(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 82,
+	msg_id : 89,
 );
 ```

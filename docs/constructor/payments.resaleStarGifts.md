@@ -1,5 +1,7 @@
 # payments.resaleStarGifts
 
+**Description** : *List of gifts currently on resale &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,15 +14,15 @@ payments.resaleStarGifts#947a12df flags:# count:int gifts:Vector<StarGift> next_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| <mark>count</mark> | [`int`](type/int) | NOTHING |
-| <mark>gifts</mark> | [`Vector<StarGift>`](type/StarGift) | NOTHING |
-| **next_offset** | [`flags.0?string`](type/string) | NOTHING |
-| **attributes** | [`flags.1?Vector<StarGiftAttribute>`](type/StarGiftAttribute) | NOTHING |
-| **attributes_hash** | [`flags.1?long`](type/long) | NOTHING |
-| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | NOTHING |
-| **counters** | [`flags.2?Vector<StarGiftAttributeCounter>`](type/StarGiftAttributeCounter) | NOTHING |
-| <mark>users</mark> | [`Vector<User>`](type/User) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>count</mark> | [`int`](type/int) | Total number of results |
+| <mark>gifts</mark> | [`Vector<StarGift>`](type/StarGift) | Collectible gifts on resale (may be less than count, in which case next_offset will be set) |
+| **next_offset** | [`flags.0?string`](type/string) | Offset for pagination, pass this to payments.getResaleStarGifts.offset to fetch the next results |
+| **attributes** | [`flags.1?Vector<StarGiftAttribute>`](type/StarGiftAttribute) | Possible gift attributes, only set if payments.getResaleStarGifts.attributes_hash is set (on the first call, it must be equal to 0) |
+| **attributes_hash** | [`flags.1?long`](type/long) | Hash of the attributes field, pass this to payments.getResaleStarGifts.attributes_hash to avoid returning any attributes (flag not set) if they haven't changed |
+| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | Chats mentioned in the attributes |
+| **counters** | [`flags.2?Vector<StarGiftAttributeCounter>`](type/StarGiftAttributeCounter) | Indicates the total number of gifts that have a specific attribute, only set if payments.getResaleStarGifts.offset is empty (since this field is not related to the current result page but to all of them, it's only returned on the first page) |
+| <mark>users</mark> | [`Vector<User>`](type/User) | Users mentioned in the attributes |
 
 ---
 
@@ -34,7 +36,7 @@ payments.resaleStarGifts#947a12df flags:# count:int gifts:Vector<StarGift> next_
 
 ```php
 $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
-	count : 14,
+	count : 20,
 	gifts : array(
 		$client->starGift(
 			limited : true,
@@ -44,132 +46,132 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 			require_premium : true,
 			limited_per_user : true,
 			peer_color_available : true,
-			id : 9160666245727489551,
+			id : -4445424070938877373,
 			sticker : $client->documentEmpty(
-				id : -8283189032051138298,
+				id : -395739220675121525,
 			),
-			stars : -8905129277641026492,
-			availability_remains : 55,
-			availability_total : 75,
-			availability_resale : -651208576254483882,
-			convert_stars : 1914157936078004448,
-			first_sale_date : 32,
-			last_sale_date : 84,
-			upgrade_stars : 7056742217455108605,
-			resell_min_stars : -2908507906619766424,
-			title : 'gzcQ4G7luxhqjUF8',
+			stars : 3583290437348477728,
+			availability_remains : 36,
+			availability_total : 50,
+			availability_resale : 4304701021481277867,
+			convert_stars : -8688694929269720475,
+			first_sale_date : 11,
+			last_sale_date : 75,
+			upgrade_stars : -7458691871394004133,
+			resell_min_stars : 5753614663610855572,
+			title : 'qrEQhX8wpoYbs7lI',
 			released_by : $client->peerUser(
-				user_id : -593019142947021198,
+				user_id : 6353209172908594487,
 			),
-			per_user_total : 22,
-			per_user_remains : 55,
-			locked_until_date : 68,
+			per_user_total : 39,
+			per_user_remains : 78,
+			locked_until_date : 100,
 		),
 		$client->starGiftUnique(
 			require_premium : true,
 			resale_ton_only : true,
 			theme_available : true,
-			id : -8208618992510916463,
-			gift_id : 1668079162194961552,
-			title : 'Als2modLcv5WiE6S',
-			slug : 'vCxWUMAyOXITmz8o',
-			num : 73,
+			id : -7781683946159732817,
+			gift_id : 8085496220393590575,
+			title : 'f0aCF5YQzBde7vXj',
+			slug : 'J32HOvgzM5rKsa7d',
+			num : 84,
 			owner_id : $client->peerUser(
-				user_id : -8186217291852234378,
+				user_id : 4562928342359017833,
 			),
-			owner_name : 'zrVo6vmQHKJde0bS',
-			owner_address : 'Oicjo74ezxd1E3WG',
+			owner_name : 'efFEbpgVKxBaYDR2',
+			owner_address : 'uvGQk8h70snrjIyN',
 			attributes : array(
 				$client->starGiftAttributeModel(
-					name : 'j3a9K7g5Nyl1WVvU',
+					name : 'j0TegH4ZwYQnDGC2',
 					document : $client->documentEmpty(...),
-					rarity_permille : 69,
+					rarity_permille : 92,
 				),
 				$client->starGiftAttributePattern(
-					name : '6ZnEThcBvHkWLM8O',
+					name : 'Am0R4iWBQb9I6qZo',
 					document : $client->documentEmpty(...),
-					rarity_permille : 29,
+					rarity_permille : 41,
 				),
 				$client->starGiftAttributeBackdrop(
-					name : 'JdmBADKXsjLUCFEo',
-					backdrop_id : 51,
-					center_color : 17,
-					edge_color : 90,
-					pattern_color : 7,
-					text_color : 82,
-					rarity_permille : 5,
+					name : 'WEKlquN0erxYHcv3',
+					backdrop_id : 30,
+					center_color : 67,
+					edge_color : 44,
+					pattern_color : 25,
+					text_color : 80,
+					rarity_permille : 74,
 				),
 				$client->starGiftAttributeOriginalDetails(
 					sender_id : $client->peerUser(...),
 					recipient_id : $client->peerUser(...),
-					date : 7,
+					date : 93,
 					message : $client->textWithEntities(...),
 				),
 			),
-			availability_issued : 100,
-			availability_total : 49,
-			gift_address : 'j0LqP5NHIou16CAZ',
+			availability_issued : 46,
+			availability_total : 44,
+			gift_address : 'I2V9AuZS8nWb75QC',
 			resell_amount : array(
 				$client->starsAmount(
-					amount : 2700128708522018908,
-					nanos : 100,
+					amount : -8290170679361309650,
+					nanos : 83,
 				),
 				$client->starsTonAmount(
-					amount : -1401599738237163809,
+					amount : -4395728756644385006,
 				),
 			),
 			released_by : $client->peerUser(
-				user_id : -2693885046511937084,
+				user_id : 1992961752524608134,
 			),
-			value_amount : -8704317959480771191,
-			value_currency : '8Fqp5voXU6g2WPTM',
+			value_amount : 6405784280096200995,
+			value_currency : 'KkTEGFyd6jzb29fv',
 			theme_peer : $client->peerUser(
-				user_id : 3095530571387928483,
+				user_id : -3746942413155202681,
 			),
 			peer_color : $client->peerColor(
-				color : 38,
-				background_emoji_id : -854404732485420692,
+				color : 37,
+				background_emoji_id : 3359852445165534860,
 			),
 			host_id : $client->peerUser(
-				user_id : 586979992786110703,
+				user_id : -1247389568944714319,
 			),
 		),
 	),
-	next_offset : 'AP6zRGLyWhO40XcM',
+	next_offset : 'HnqElhvdx8gO93Fu',
 	attributes : array(
 		$client->starGiftAttributeModel(
-			name : 'Ciwb9WIljvHQygT1',
+			name : 'nSlp4hb3297yOQwe',
 			document : $client->documentEmpty(
-				id : -4326751510159146184,
+				id : 3895090118121137503,
 			),
-			rarity_permille : 77,
+			rarity_permille : 84,
 		),
 		$client->starGiftAttributePattern(
-			name : 'rvA6qfzUaF35eTtK',
+			name : 'L5CnMc8frbYdX4go',
 			document : $client->documentEmpty(
-				id : 6882753965476612567,
+				id : 1797851461782926051,
 			),
-			rarity_permille : 9,
+			rarity_permille : 36,
 		),
 		$client->starGiftAttributeBackdrop(
-			name : 'Gs2OLIHujzdFaYbV',
-			backdrop_id : 79,
-			center_color : 6,
-			edge_color : 8,
-			pattern_color : 28,
-			text_color : 2,
-			rarity_permille : 30,
+			name : 'MBjxf0RtL79bw4SQ',
+			backdrop_id : 76,
+			center_color : 89,
+			edge_color : 66,
+			pattern_color : 54,
+			text_color : 46,
+			rarity_permille : 33,
 		),
 		$client->starGiftAttributeOriginalDetails(
 			sender_id : $client->peerUser(
-				user_id : -6735547096516237432,
+				user_id : -33273146882580585,
 			),
 			recipient_id : $client->peerUser(
-				user_id : 4877203362684134241,
+				user_id : 1908611636259748786,
 			),
-			date : 79,
+			date : 99,
 			message : $client->textWithEntities(
-				text : 'hurCoswSXnLVDKNt',
+				text : '6whQI4qLF0XP1nbz',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -196,10 +198,10 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 			),
 		),
 	),
-	attributes_hash : 2601990593859784815,
+	attributes_hash : -8258877251119706939,
 	chats : array(
 		$client->chatEmpty(
-			id : 6280421303092669409,
+			id : -3693031640237326789,
 		),
 		$client->chat(
 			creator : true,
@@ -209,12 +211,12 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 9007884748402388997,
-			title : '9fM0GqT61XkrdcF3',
+			id : 749572728559781765,
+			title : 'nVugjZfwQ3xkyod4',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 65,
-			date : 47,
-			version : 0,
+			participants_count : 30,
+			date : 88,
+			version : 64,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -255,12 +257,12 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 63,
+				until_date : 23,
 			),
 		),
 		$client->chatForbidden(
-			id : -6852311806510770204,
-			title : 'u3h6OWdXPcbmVQZ2',
+			id : -9145669063276558579,
+			title : 'a5lZoUIuFLC1iY0b',
 		),
 		$client->channel(
 			creator : true,
@@ -291,17 +293,17 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 5592545838911142997,
-			access_hash : -4420083880071363948,
-			title : 'zrpbVL4OX5SEemag',
+			id : 7585149965403107632,
+			access_hash : 2818771055659009212,
+			title : 'kmulcbOP8pDNeLiS',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 93,
+			date : 96,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'niMCk25NYyIAmxPp',
-					reason : 'hTrI2WN8FodnVC6j',
-					text : 'hTDqIYUyurlFvR8b',
+					platform : 'XOk3GQIt5ZpwFWou',
+					reason : 'pXNKG0htTQLsja5k',
+					text : '4ItgiBmZyFYhLRJ5',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -343,7 +345,7 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 8,
+				until_date : 31,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -366,9 +368,9 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 0,
+				until_date : 53,
 			),
-			participants_count : 68,
+			participants_count : 93,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -376,42 +378,42 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 40,
+			stories_max_id : 59,
 			color : $client->peerColor(
-				color : 5,
-				background_emoji_id : -8444765519443787732,
+				color : 28,
+				background_emoji_id : -8752600869476347626,
 			),
 			profile_color : $client->peerColor(
-				color : 69,
-				background_emoji_id : -8092144261287459933,
+				color : 41,
+				background_emoji_id : -480960093431043895,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 99,
-			subscription_until_date : 59,
-			bot_verification_icon : -2293773772979831041,
-			send_paid_messages_stars : 7491542243894579820,
-			linked_monoforum_id : -5760453729434789168,
+			level : 83,
+			subscription_until_date : 90,
+			bot_verification_icon : -1263622782479058417,
+			send_paid_messages_stars : -4248812103909051423,
+			linked_monoforum_id : 3563347560581985353,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 7183218396425612167,
-			access_hash : -6317667820364630932,
-			title : 'EOPWTi6FvzGkMY1u',
-			until_date : 82,
+			id : 6269139042780752729,
+			access_hash : -5793484929650961480,
+			title : 'ao8XMESNBmC9jJwK',
+			until_date : 18,
 		),
 	),
 	counters : array(
 		$client->starGiftAttributeCounter(
 			attribute : $client->starGiftAttributeIdModel(
-				document_id : 5649965388000168992,
+				document_id : 6530327041957123424,
 			),
-			count : 1,
+			count : 51,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -2852756390368920645,
+			id : -4748958998351950909,
 		),
 		$client->user(
 			self : true,
@@ -440,24 +442,24 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -4500312528098661251,
-			access_hash : 2548629285336619857,
+			id : -1229512579749782436,
+			access_hash : -8017994857337849749,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 67,
+			bot_info_version : 21,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'WlE3cFbI091jxBCD',
-					reason : 'HXIPQVAsepxKWuTa',
-					text : '4pe0gPHcMFaY6KAN',
+					platform : '8bGnalVZjOWkLDem',
+					reason : 'JNVm9ZoeM2RdiahL',
+					text : 'zxws0oQ9ydR813MH',
 				),
 			),
-			bot_inline_placeholder : 'MY3TXBP67drS9cN1',
-			lang_code : 'OEjYI47nderBHcmw',
+			bot_inline_placeholder : 'Lnv7kGzpCuawiBJd',
+			lang_code : 'UVIfo9Ykag02cPF4',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -466,18 +468,18 @@ $paymentsResaleStarGifts = $client->payments->resaleStarGifts(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 88,
+			stories_max_id : 27,
 			color : $client->peerColor(
-				color : 10,
-				background_emoji_id : 5143407984412409247,
+				color : 99,
+				background_emoji_id : -136119192312637412,
 			),
 			profile_color : $client->peerColor(
-				color : 87,
-				background_emoji_id : -7833146036112925320,
+				color : 53,
+				background_emoji_id : 6262899806888650905,
 			),
-			bot_active_users : 42,
-			bot_verification_icon : 826864455754174572,
-			send_paid_messages_stars : -3777719881749909017,
+			bot_active_users : 93,
+			bot_verification_icon : -7943947798832559447,
+			send_paid_messages_stars : 672821572981577415,
 		),
 	),
 );

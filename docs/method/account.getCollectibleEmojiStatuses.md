@@ -1,5 +1,7 @@
 # account.getCollectibleEmojiStatuses
 
+**Description** : *Obtain a list of emoji statuses &raquo; for owned collectible gifts*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ account.getCollectibleEmojiStatuses#2e7b4543 hash:long = account.EmojiStatuses;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>hash</mark> | [`long`](type/long) | NOTHING |
+| <mark>hash</mark> | [`long`](type/long) | Hash for pagination |
 
 ---
 

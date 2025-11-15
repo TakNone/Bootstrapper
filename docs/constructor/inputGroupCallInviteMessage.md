@@ -1,5 +1,7 @@
 # inputGroupCallInviteMessage
 
+**Description** : *Join a group call through a messageActionConferenceCall invitation message*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>msg_id</mark> | [`int`](type/int) | NOTHING |
+| <mark>msg_id</mark> | [`int`](type/int) | ID of the messageActionConferenceCall |
 
 ---
 
@@ -26,6 +28,6 @@ inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallInviteMessage(
-	msg_id : 82,
+	msg_id : 38,
 );
 ```

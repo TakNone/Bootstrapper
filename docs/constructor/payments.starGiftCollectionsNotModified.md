@@ -1,5 +1,7 @@
 # payments.starGiftCollectionsNotModified
 
+**Description** : *The list of star gift collections &raquo; hasn&#039;t changed*
+
 **Layer** : 216
 
 ```tl

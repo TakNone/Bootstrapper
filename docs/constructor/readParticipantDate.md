@@ -29,7 +29,7 @@ readParticipantDate#4a4ff172 user_id:long date:int = ReadParticipantDate;
 
 ```php
 $readParticipantDate = $client->readParticipantDate(
-	user_id : 985291309456065856,
-	date : 49,
+	user_id : -7092377513830151598,
+	date : 99,
 );
 ```

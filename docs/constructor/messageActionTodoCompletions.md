@@ -1,5 +1,7 @@
 # messageActionTodoCompletions
 
+**Description** : *Items were marked as completed or not completed in a todo list &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,8 +14,8 @@ messageActionTodoCompletions#cc7c5c89 completed:Vector<int> incompleted:Vector<i
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>completed</mark> | [`Vector<int>`](type/int) | NOTHING |
-| <mark>incompleted</mark> | [`Vector<int>`](type/int) | NOTHING |
+| <mark>completed</mark> | [`Vector<int>`](type/int) | Items marked as completed |
+| <mark>incompleted</mark> | [`Vector<int>`](type/int) | Items marked as not completed |
 
 ---
 
@@ -27,7 +29,7 @@ messageActionTodoCompletions#cc7c5c89 completed:Vector<int> incompleted:Vector<i
 
 ```php
 $messageAction = $client->messageActionTodoCompletions(
-	completed : array(33),
-	incompleted : array(17),
+	completed : array(61),
+	incompleted : array(97),
 );
 ```

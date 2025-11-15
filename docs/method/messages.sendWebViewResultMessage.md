@@ -38,17 +38,17 @@ messages.sendWebViewResultMessage#a4314f5 bot_query_id:string result:InputBotInl
 
 ```php
 $webViewMessageSent = $client->messages->sendWebViewResultMessage(
-	bot_query_id : 'hnT1KBAdgWkMtC0f',
+	bot_query_id : 'itpBqe6AbgJk70zK',
 	result : $client->inputBotInlineResult(
-		id : 'bmZieMGVyEu3xsk2',
-		type : 'WxDTYdX248thgflr',
-		title : 'nvN2wirmJxk6a4gB',
-		description : 'oIWgPUQmL2ZcGsNe',
+		id : 'XoKhE2TM0jnv95yb',
+		type : 'p8MjowtOS6PsqVmY',
+		title : '5nREq6GaV2s3uUIY',
+		description : '1xXbAlR6GWzmMK3k',
 		url : 'https://docs.liveproto.dev',
 		thumb : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 60,
-			mime_type : 'r8jstpqXJvdwb9Kg',
+			size : 58,
+			mime_type : 'QU4hOo3g6XBlukpx',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -62,8 +62,8 @@ $webViewMessageSent = $client->messages->sendWebViewResultMessage(
 		),
 		content : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 48,
-			mime_type : 'uNlc6rkYEw0sDmgo',
+			size : 71,
+			mime_type : 'ALFCg8GS1cxTU60m',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -77,7 +77,7 @@ $webViewMessageSent = $client->messages->sendWebViewResultMessage(
 		),
 		send_message : $client->inputBotInlineMessageMediaAuto(
 			invert_media : true,
-			message : 'sSL4E6YXo8CQK0zW',
+			message : 'YfvbEMePl9kSTXVc',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),

@@ -31,7 +31,7 @@ inputMessageEntityMentionName#208e68c9 offset:int length:int user_id:InputUser =
 ```php
 $messageEntity = $client->inputMessageEntityMentionName(
 	offset : 0,
-	length : 21,
+	length : 100,
 	user_id : $client->inputUserEmpty(),
 );
 ```

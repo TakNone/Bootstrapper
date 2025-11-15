@@ -45,6 +45,6 @@ channels.deleteHistory#9baa9647 flags:# for_everyone:flags.0?true channel:InputC
 $updates = $client->channels->deleteHistory(
 	for_everyone : true,
 	channel : $client->inputChannelEmpty(),
-	max_id : 21,
+	max_id : 81,
 );
 ```

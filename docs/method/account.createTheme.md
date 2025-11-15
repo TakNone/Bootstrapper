@@ -41,30 +41,30 @@ account.createTheme#652e4400 flags:# slug:string title:string document:flags.2?I
 
 ```php
 $theme = $client->account->createTheme(
-	slug : 'R97GkD3O1CQHeoXg',
-	title : 'O51GEMtnDvRaW362',
+	slug : 'Q4TJNUmeDPIcZqMh',
+	title : 'xbNZouRgCDjXvh6q',
 	document : $client->inputDocumentEmpty(),
 	settings : array(
 		$client->inputThemeSettings(
 			message_colors_animated : true,
 			base_theme : $client->baseThemeClassic(),
-			accent_color : 76,
-			outbox_accent_color : 20,
-			message_colors : array(69),
+			accent_color : 62,
+			outbox_accent_color : 67,
+			message_colors : array(72),
 			wallpaper : $client->inputWallPaper(
-				id : -6918618266969727062,
-				access_hash : 5850809453814151405,
+				id : 8977146224841021321,
+				access_hash : 1002111087122549602,
 			),
 			wallpaper_settings : $client->wallPaperSettings(
 				blur : true,
 				motion : true,
-				background_color : 93,
-				second_background_color : 9,
-				third_background_color : 19,
-				fourth_background_color : 66,
-				intensity : 32,
+				background_color : 8,
+				second_background_color : 43,
+				third_background_color : 79,
+				fourth_background_color : 28,
+				intensity : 47,
 				rotation : 5,
-				emoticon : 'vrc6z8ebJCgtF5VA',
+				emoticon : 'OSQGeYHa62ocbZPp',
 			),
 		),
 	),

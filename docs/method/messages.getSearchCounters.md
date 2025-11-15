@@ -42,7 +42,7 @@ messages.getSearchCounters#1bbcf300 flags:# peer:InputPeer saved_peer_id:flags.2
 $messagesSearchCounter = $client->messages->getSearchCounters(
 	peer : $client->inputPeerEmpty(),
 	saved_peer_id : $client->inputPeerEmpty(),
-	top_msg_id : 59,
+	top_msg_id : 0,
 	filters : array(
 		$client->inputMessagesFilterEmpty(),
 		$client->inputMessagesFilterPhotos(),

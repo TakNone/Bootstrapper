@@ -35,10 +35,10 @@ channelParticipantBanned#6df8014e flags:# left:flags.0?true peer:Peer kicked_by:
 $channelParticipant = $client->channelParticipantBanned(
 	left : true,
 	peer : $client->peerUser(
-		user_id : -7124803733409747988,
+		user_id : -3933817642049645661,
 	),
-	kicked_by : 1432946976453436683,
-	date : 8,
+	kicked_by : 6961573019285859797,
+	date : 16,
 	banned_rights : $client->chatBannedRights(
 		view_messages : true,
 		send_messages : true,
@@ -60,7 +60,7 @@ $channelParticipant = $client->channelParticipantBanned(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 96,
+		until_date : 50,
 	),
 );
 ```

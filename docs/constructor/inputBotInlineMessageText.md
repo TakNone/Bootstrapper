@@ -35,97 +35,97 @@ inputBotInlineMessageText#3dcd7a87 flags:# no_webpage:flags.0?true invert_media:
 $inputBotInlineMessage = $client->inputBotInlineMessageText(
 	no_webpage : true,
 	invert_media : true,
-	message : 'nMAUWatx19bqYTi8',
+	message : 'xVFA87b04PznR2YC',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 66,
+			length : 38,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 31,
+			length : 91,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 33,
+			length : 100,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 85,
+			length : 51,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 43,
+			length : 10,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 32,
+			length : 84,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 48,
+			length : 78,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 87,
+			length : 12,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 21,
+			length : 18,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 0,
-			language : 'oGzOPWmwLbJfsqKg',
+			length : 42,
+			language : 'NfbD7jC6UcwpQrdR',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 55,
+			length : 45,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 68,
-			user_id : -1051162216620075412,
+			length : 1,
+			user_id : -5878696161318241369,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 19,
+			length : 45,
 			user_id : $client->inputUserEmpty(),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 21,
+			length : 42,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 13,
+			length : 49,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 7,
+			length : 49,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 69,
+			length : 53,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 14,
+			length : 52,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 29,
+			length : 10,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 69,
-			document_id : -1633234844096497473,
+			length : 22,
+			document_id : -7603992245024362788,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 97,
+			length : 37,
 		),
 	),
 	reply_markup : $client->replyKeyboardHide(

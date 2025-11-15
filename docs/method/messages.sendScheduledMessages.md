@@ -40,6 +40,6 @@ messages.sendScheduledMessages#bd38850a peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->sendScheduledMessages(
 	peer : $client->inputPeerEmpty(),
-	id : array(17),
+	id : array(13),
 );
 ```

@@ -38,8 +38,8 @@ messages.setEncryptedTyping#791451ed peer:InputEncryptedChat typing:Bool = Bool;
 ```php
 $bool = $client->messages->setEncryptedTyping(
 	peer : $client->inputEncryptedChat(
-		chat_id : 9,
-		access_hash : -6756590851229977451,
+		chat_id : 6,
+		access_hash : 2309562330039460555,
 	),
 	typing : true,
 );

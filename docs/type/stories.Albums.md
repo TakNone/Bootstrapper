@@ -1,5 +1,7 @@
 # stories.Albums
 
+**Description** : *Represents a list of story albums &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -13,5 +15,5 @@ stories.albums#c3987a3a hash:long albums:Vector<StoryAlbum> = stories.Albums;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**stories.albumsNotModified**](constructor/stories.albumsNotModified) | NOTHING |
-| [**stories.albums**](constructor/stories.albums) | NOTHING |
+| [**stories.albumsNotModified**](constructor/stories.albumsNotModified) | The story album list » hasn't changed |
+| [**stories.albums**](constructor/stories.albums) | Story albums » |

@@ -1,6 +1,6 @@
 # messages.getSavedDialogs
 
-**Description** : *Returns the current saved dialog list, see here &raquo; for more info*
+**Description** : *Returns the current saved dialog list &raquo; or monoforum topic list &raquo;*
 
 **Layer** : 216
 
@@ -16,7 +16,7 @@ messages.getSavedDialogs#1e91fc99 flags:# exclude_pinned:flags.0?true parent_pee
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **exclude_pinned** | [`flags.0?true`](type/true) | Exclude pinned dialogs |
-| **parent_peer** | [`flags.1?InputPeer`](type/InputPeer) | NOTHING |
+| **parent_peer** | [`flags.1?InputPeer`](type/InputPeer) | If set, fetches the topic list of the passed monoforum, otherwise fetches the saved dialog list |
 | <mark>offset_date</mark> | [`int`](type/int) | Offsets for pagination, for more info click here |
 | <mark>offset_id</mark> | [`int`](type/int) | Offsets for pagination, for more info click here (top_message ID used for pagination) |
 | <mark>offset_peer</mark> | [`InputPeer`](type/InputPeer) | Offset peer for pagination |
@@ -40,7 +40,7 @@ $messagesSavedDialogs = $client->messages->getSavedDialogs(
 	offset_date : 0,
 	offset_id : 0,
 	offset_peer : $client->inputPeerEmpty(),
-	limit : 72,
+	limit : 3,
 	hash : 0,
 );
 ```

@@ -33,6 +33,6 @@ updateStickerSetsOrder#bb2d201 flags:# masks:flags.0?true emojis:flags.1?true or
 $update = $client->updateStickerSetsOrder(
 	masks : true,
 	emojis : true,
-	order : array(-9192909752295718252),
+	order : array(-5385814092600591040),
 );
 ```

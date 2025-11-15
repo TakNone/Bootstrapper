@@ -28,6 +28,6 @@ auth.dropTempAuthKeys#8e48a188 except_auth_keys:Vector<long> = Bool;
 
 ```php
 $bool = $client->auth->dropTempAuthKeys(
-	except_auth_keys : array(6558206288163954465),
+	except_auth_keys : array(-7143520711031282530),
 );
 ```

@@ -38,6 +38,6 @@ payments.getPaymentReceipt#2478d1cc peer:InputPeer msg_id:int = payments.Payment
 ```php
 $paymentsPaymentReceipt = $client->payments->getPaymentReceipt(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 13,
+	msg_id : 63,
 );
 ```

@@ -28,6 +28,6 @@ messageActionChatDeleteUser#a43f30cc user_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatDeleteUser(
-	user_id : -9219052030097484908,
+	user_id : 4855926254704491462,
 );
 ```

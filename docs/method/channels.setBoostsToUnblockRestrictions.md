@@ -38,6 +38,6 @@ channels.setBoostsToUnblockRestrictions#ad399cee channel:InputChannel boosts:int
 ```php
 $updates = $client->channels->setBoostsToUnblockRestrictions(
 	channel : $client->inputChannelEmpty(),
-	boosts : 17,
+	boosts : 34,
 );
 ```

@@ -1,5 +1,7 @@
 # payments.deleteStarGiftCollection
 
+**Description** : *Delete a star gift collection &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,8 +14,8 @@ payments.deleteStarGiftCollection#ad5648e8 peer:InputPeer collection_id:int = Bo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>collection_id</mark> | [`int`](type/int) | NOTHING |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer that owns the collection |
+| <mark>collection_id</mark> | [`int`](type/int) | ID of the collection |
 
 ---
 
@@ -23,11 +25,19 @@ payments.deleteStarGiftCollection#ad5648e8 peer:InputPeer collection_id:int = Bo
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+
+---
+
 ## Example
 
 ```php
 $bool = $client->payments->deleteStarGiftCollection(
 	peer : $client->inputPeerEmpty(),
-	collection_id : 10,
+	collection_id : 2,
 );
 ```

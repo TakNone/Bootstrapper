@@ -33,12 +33,12 @@ requestedPeerUser#d62ff46a flags:# user_id:long first_name:flags.0?string last_n
 
 ```php
 $requestedPeer = $client->requestedPeerUser(
-	user_id : 4336193749871856903,
+	user_id : -2412376051108695870,
 	first_name : 'Tak',
 	last_name : 'None',
 	username : 'TakNone',
 	photo : $client->photoEmpty(
-		id : 8077274563289285693,
+		id : 2419372224689455682,
 	),
 );
 ```

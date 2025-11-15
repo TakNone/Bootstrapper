@@ -1,6 +1,6 @@
 # channels.readMessageContents
 
-**Description** : *Mark channel/supergroup message contents as read*
+**Description** : *Mark channel/supergroup message contents as read, emitting an updateChannelReadMessagesContents*
 
 **Layer** : 216
 
@@ -40,6 +40,6 @@ channels.readMessageContents#eab5dc38 channel:InputChannel id:Vector<int> = Bool
 ```php
 $bool = $client->channels->readMessageContents(
 	channel : $client->inputChannelEmpty(),
-	id : array(62),
+	id : array(42),
 );
 ```

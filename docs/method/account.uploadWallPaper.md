@@ -43,22 +43,22 @@ account.uploadWallPaper#e39a8f03 flags:# for_chat:flags.0?true file:InputFile mi
 $wallPaper = $client->account->uploadWallPaper(
 	for_chat : true,
 	file : $client->inputFile(
-		id : -7093217656559280873,
-		parts : 23,
-		name : '1T9Qgp4DCfZvlNIe',
+		id : -1730944398458098704,
+		parts : 48,
+		name : 'yVGPEA9RZfrdKeai',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	mime_type : 'rj7UyeiXfnBOaV1S',
+	mime_type : '8dX0EBt2ROUuosmL',
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 2,
-		second_background_color : 13,
-		third_background_color : 9,
-		fourth_background_color : 39,
-		intensity : 6,
-		rotation : 50,
-		emoticon : 'TbrPJht34YL2EfzZ',
+		background_color : 36,
+		second_background_color : 36,
+		third_background_color : 99,
+		fourth_background_color : 8,
+		intensity : 23,
+		rotation : 92,
+		emoticon : 'rHYCdWkOS8EqAfng',
 	),
 );
 ```

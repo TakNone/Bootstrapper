@@ -30,9 +30,9 @@ webViewMessageSent#c94511c flags:# msg_id:flags.0?InputBotInlineMessageID = WebV
 ```php
 $webViewMessageSent = $client->webViewMessageSent(
 	msg_id : $client->inputBotInlineMessageID(
-		dc_id : 2,
-		id : -1418157666569864738,
-		access_hash : 550553834496014188,
+		dc_id : 49,
+		id : -6723363035883382733,
+		access_hash : -1670630226469123667,
 	),
 );
 ```

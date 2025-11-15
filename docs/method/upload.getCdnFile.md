@@ -31,6 +31,7 @@ upload.getCdnFile#395f69da file_token:bytes offset:long limit:int = upload.CdnFi
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **FILE_TOKEN_INVALID** | `400` | The master DC did not accept the file_token (e.g., the token has expired). Continue downloading the file from the master DC using upload.getFile |
+| **METHOD_INVALID** | `404` | The specified method is invalid |
 
 ---
 
@@ -40,6 +41,6 @@ upload.getCdnFile#395f69da file_token:bytes offset:long limit:int = upload.CdnFi
 $uploadCdnFile = $client->upload->getCdnFile(
 	file_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	offset : 0,
-	limit : 58,
+	limit : 21,
 );
 ```

@@ -30,8 +30,11 @@ messages.deleteMessages#e58e95d2 flags:# revoke:flags.0?true id:Vector<int> = me
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **BOT_ACCESS_FORBIDDEN** | `403` | The specified method can be used over a business connection for some operations, but the specified query attempted an operation that is not allowed over a business connection |
+| **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
 | **MESSAGE_DELETE_FORBIDDEN** | `403` | You can't delete one of the messages you tried to delete, most likely because it is a service message |
 | **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
+| **SELF_DELETE_RESTRICTED** | `400` | Business bots can't delete messages just for the user, revoke must be set |
 
 ---
 
@@ -40,6 +43,6 @@ messages.deleteMessages#e58e95d2 flags:# revoke:flags.0?true id:Vector<int> = me
 ```php
 $messagesAffectedMessages = $client->messages->deleteMessages(
 	revoke : true,
-	id : array(2),
+	id : array(20),
 );
 ```

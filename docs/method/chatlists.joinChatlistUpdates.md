@@ -39,31 +39,31 @@ chatlists.joinChatlistUpdates#e089f8f5 chatlist:InputChatlist peers:Vector<Input
 ```php
 $updates = $client->chatlists->joinChatlistUpdates(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 22,
+		filter_id : 87,
 	),
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 3501655621840531325,
+			chat_id : -5085370999204614050,
 		),
 		$client->inputPeerUser(
-			user_id : -4947183109013624579,
-			access_hash : -4982193569771319616,
+			user_id : 3788125509044245602,
+			access_hash : 6250065282177061269,
 		),
 		$client->inputPeerChannel(
-			channel_id : -3722788882347767226,
-			access_hash : 841218426153348182,
+			channel_id : 3103622465983139694,
+			access_hash : 5071726712103761773,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 8,
-			user_id : 7866759990362505704,
+			msg_id : 50,
+			user_id : -7315151624374687410,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 6,
-			channel_id : -5216553800589491435,
+			msg_id : 74,
+			channel_id : -7912472648617973441,
 		),
 	),
 );

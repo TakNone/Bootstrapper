@@ -1,5 +1,7 @@
 # phone.inviteConferenceCallParticipant
 
+**Description** : *Invite a user to a conference call*
+
 **Layer** : 216
 
 ```tl
@@ -12,10 +14,10 @@ phone.inviteConferenceCallParticipant#bcf22685 flags:# video:flags.0?true call:I
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **video** | [`flags.0?true`](type/true) | NOTHING |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
-| <mark>user_id</mark> | [`InputUser`](type/InputUser) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **video** | [`flags.0?true`](type/true) | Invite the user to also turn on their video feed |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The conference call |
+| <mark>user_id</mark> | [`InputUser`](type/InputUser) | The user to invite |
 
 ---
 
@@ -25,14 +27,22 @@ phone.inviteConferenceCallParticipant#bcf22685 flags:# video:flags.0?true call:I
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **GROUPCALL_INVALID** | `400` | The specified group call is invalid |
+
+---
+
 ## Example
 
 ```php
 $updates = $client->phone->inviteConferenceCallParticipant(
 	video : true,
 	call : $client->inputGroupCall(
-		id : -1526265238965457628,
-		access_hash : -5270962356606017350,
+		id : 506046953618264497,
+		access_hash : -3162546201800720878,
 	),
 	user_id : $client->inputUserEmpty(),
 );

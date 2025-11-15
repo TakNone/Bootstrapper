@@ -33,11 +33,12 @@ messages.createChat#92ceddd4 flags:# users:Vector<InputUser> title:string ttl_pe
 | :---: | :---: | :--- |
 | **CHAT_ID_GENERATE_FAILED** | `500` | Failure while generating the chat ID |
 | **CHAT_INVALID** | `400` | Invalid chat |
+| **CHAT_MEMBER_ADD_FAILED** | `400` | Could not add participants |
 | **CHAT_TITLE_EMPTY** | `400` | No chat title provided |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **TTL_PERIOD_INVALID** | `400` | The specified TTL period is invalid |
 | **USERS_TOO_FEW** | `400` | Not enough users (to create a chat, for example) |
-| **USER_RESTRICTED** | `406` | You're spamreported, you can't create channels or chats |
+| **USER_RESTRICTED** | `403` | You're spamreported, you can't create channels or chats |
 
 ---
 
@@ -49,16 +50,16 @@ $messagesInvitedUsers = $client->messages->createChat(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 4050853319007798860,
-			access_hash : -5861592528581564554,
+			user_id : -9164221538215871556,
+			access_hash : -283386213473977655,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 10,
-			user_id : -7274214415150190263,
+			msg_id : 2,
+			user_id : -7115929850493022190,
 		),
 	),
-	title : 'w3JjivbVTNCXYrU7',
-	ttl_period : 78,
+	title : 'PRlGYCaUxgvKWdMX',
+	ttl_period : 92,
 );
 ```

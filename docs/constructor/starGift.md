@@ -19,25 +19,25 @@ starGift#80ac53c3 flags:# limited:flags.0?true sold_out:flags.1?true birthday:fl
 | **sold_out** | [`flags.1?true`](type/true) | Whether this gift sold out and cannot be bought anymore |
 | **birthday** | [`flags.2?true`](type/true) | Whether this is a birthday-themed gift |
 | **can_upgrade** | [`flags.3?true`](type/true) | NOTHING |
-| **require_premium** | [`flags.7?true`](type/true) | NOTHING |
-| **limited_per_user** | [`flags.8?true`](type/true) | NOTHING |
+| **require_premium** | [`flags.7?true`](type/true) | This gift can only be bought by users with a Premium subscription |
+| **limited_per_user** | [`flags.8?true`](type/true) | If set, the maximum number of gifts of this type that can be owned by a single user is limited and specified in per_user_total, and the remaining slots for the current user in per_user_remains |
 | **peer_color_available** | [`flags.10?true`](type/true) | NOTHING |
 | <mark>id</mark> | [`long`](type/long) | Identifier of the gift |
 | <mark>sticker</mark> | [`Document`](type/Document) | Sticker that represents the gift |
 | <mark>stars</mark> | [`long`](type/long) | Price of the gift in Telegram Stars |
 | **availability_remains** | [`flags.0?int`](type/int) | For limited-supply gifts: the remaining number of gifts that may be bought |
 | **availability_total** | [`flags.0?int`](type/int) | For limited-supply gifts: the total number of gifts that was available in the initial supply |
-| **availability_resale** | [`flags.4?long`](type/long) | NOTHING |
+| **availability_resale** | [`flags.4?long`](type/long) | The total number of (upgraded to collectibles) gifts of this type currently on resale |
 | <mark>convert_stars</mark> | [`long`](type/long) | The receiver of this gift may convert it to this many Telegram Stars, instead of displaying it on their profile page.convert_stars will be equal to stars only if the gift was bought using recently bought Telegram Stars, otherwise it will be less than stars |
 | **first_sale_date** | [`flags.1?int`](type/int) | For sold out gifts only: when was the gift first bought |
 | **last_sale_date** | [`flags.1?int`](type/int) | For sold out gifts only: when was the gift last bought |
-| **upgrade_stars** | [`flags.3?long`](type/long) | NOTHING |
-| **resell_min_stars** | [`flags.4?long`](type/long) | NOTHING |
-| **title** | [`flags.5?string`](type/string) | NOTHING |
-| **released_by** | [`flags.6?Peer`](type/Peer) | NOTHING |
-| **per_user_total** | [`flags.8?int`](type/int) | NOTHING |
-| **per_user_remains** | [`flags.8?int`](type/int) | NOTHING |
-| **locked_until_date** | [`flags.9?int`](type/int) | NOTHING |
+| **upgrade_stars** | [`flags.3?long`](type/long) | The number of Telegram Stars the user can pay to convert the gift into a collectible gift » |
+| **resell_min_stars** | [`flags.4?long`](type/long) | The minimum price in Stars for gifts of this type currently on resale |
+| **title** | [`flags.5?string`](type/string) | Title of the gift |
+| **released_by** | [`flags.6?Peer`](type/Peer) | This gift was released by the specified peer |
+| **per_user_total** | [`flags.8?int`](type/int) | Maximum number of gifts of this type that can be owned by any user |
+| **per_user_remains** | [`flags.8?int`](type/int) | Remaining number of gifts of this type that can be owned by the current user |
+| **locked_until_date** | [`flags.9?int`](type/int) | If set, the specified gift possibly cannot be sent until the specified date, see here » for the full flow |
 
 ---
 
@@ -58,25 +58,25 @@ $starGift = $client->starGift(
 	require_premium : true,
 	limited_per_user : true,
 	peer_color_available : true,
-	id : 8186930604966111128,
+	id : 6168933606909499660,
 	sticker : $client->documentEmpty(
-		id : 4194774205072222424,
+		id : 6312382698874051702,
 	),
-	stars : -7079145426664364510,
-	availability_remains : 1,
-	availability_total : 73,
-	availability_resale : -4509487901989708771,
-	convert_stars : -9003175481243722838,
-	first_sale_date : 87,
-	last_sale_date : 4,
-	upgrade_stars : 7594207315553653146,
-	resell_min_stars : 8610465557141501232,
-	title : 'cDNmqia7RrEJW3yG',
+	stars : 6675601541403247660,
+	availability_remains : 74,
+	availability_total : 61,
+	availability_resale : 4545216427112260514,
+	convert_stars : -4787000735875983170,
+	first_sale_date : 51,
+	last_sale_date : 5,
+	upgrade_stars : -1639242595430886917,
+	resell_min_stars : 2074296744447601189,
+	title : 'Y7RHPNCh6pmlBcnF',
 	released_by : $client->peerUser(
-		user_id : 1562713188239669721,
+		user_id : 5033583946777086115,
 	),
-	per_user_total : 82,
-	per_user_remains : 48,
-	locked_until_date : 87,
+	per_user_total : 67,
+	per_user_remains : 56,
+	locked_until_date : 17,
 );
 ```

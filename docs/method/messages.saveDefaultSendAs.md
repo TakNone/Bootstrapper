@@ -29,6 +29,7 @@ messages.saveDefaultSendAs#ccfddf96 peer:InputPeer send_as:InputPeer = Bool;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **SEND_AS_PEER_INVALID** | `400` | You can't send messages as the specified peer |
 

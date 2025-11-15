@@ -1,5 +1,7 @@
 # payments.starGiftUpgradePreview
 
+**Description** : *A preview of the possible attributes \(chosen randomly\) a gift &raquo; can receive after upgrading it to a collectible gift &raquo;, see here &raquo; for more info*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ payments.starGiftUpgradePreview#167bd90b sample_attributes:Vector<StarGiftAttrib
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>sample_attributes</mark> | [`Vector<StarGiftAttribute>`](type/StarGiftAttribute) | NOTHING |
+| <mark>sample_attributes</mark> | [`Vector<StarGiftAttribute>`](type/StarGiftAttribute) | Possible gift attributes |
 
 ---
 
@@ -28,38 +30,38 @@ payments.starGiftUpgradePreview#167bd90b sample_attributes:Vector<StarGiftAttrib
 $paymentsStarGiftUpgradePreview = $client->payments->starGiftUpgradePreview(
 	sample_attributes : array(
 		$client->starGiftAttributeModel(
-			name : 'DEKoYPQv2HzOJBGd',
+			name : 'M35aSRENteljFp4A',
 			document : $client->documentEmpty(
-				id : -4853886350807191167,
+				id : -8884390753666408010,
 			),
-			rarity_permille : 47,
+			rarity_permille : 98,
 		),
 		$client->starGiftAttributePattern(
-			name : 'qAvWIMoVslJBRYT3',
+			name : '5u1soDzaiFXwvm0E',
 			document : $client->documentEmpty(
-				id : -3797046191147736890,
+				id : 247173365048280198,
 			),
-			rarity_permille : 51,
+			rarity_permille : 72,
 		),
 		$client->starGiftAttributeBackdrop(
-			name : 'GlPDwmJnxXMhCt28',
-			backdrop_id : 16,
-			center_color : 4,
-			edge_color : 40,
-			pattern_color : 93,
+			name : 'GXoatxJjV5mpDCE3',
+			backdrop_id : 13,
+			center_color : 0,
+			edge_color : 57,
+			pattern_color : 8,
 			text_color : 17,
-			rarity_permille : 52,
+			rarity_permille : 67,
 		),
 		$client->starGiftAttributeOriginalDetails(
 			sender_id : $client->peerUser(
-				user_id : 6259400258283118064,
+				user_id : -8474001015400813613,
 			),
 			recipient_id : $client->peerUser(
-				user_id : -8068334611912552336,
+				user_id : -8674245988214606007,
 			),
-			date : 2,
+			date : 11,
 			message : $client->textWithEntities(
-				text : 'cN8EmyadfjsiYHCQ',
+				text : 'lg9KWv8QtGkCb3SE',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),

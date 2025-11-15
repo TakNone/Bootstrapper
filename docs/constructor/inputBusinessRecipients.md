@@ -43,13 +43,13 @@ $inputBusinessRecipients = $client->inputBusinessRecipients(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 6323150535917941241,
-			access_hash : -727695643539750745,
+			user_id : -5179688794118427043,
+			access_hash : 2216762719187226359,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 42,
-			user_id : 8844184585291607140,
+			msg_id : 8,
+			user_id : -2696173998322735334,
 		),
 	),
 );

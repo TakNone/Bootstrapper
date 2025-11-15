@@ -37,7 +37,7 @@ help.setBotUpdatesStatus#ec22cfcd pending_updates_count:int message:string = Boo
 
 ```php
 $bool = $client->help->setBotUpdatesStatus(
-	pending_updates_count : 20,
-	message : 'nrX5EYsBlZUQpKWS',
+	pending_updates_count : 23,
+	message : 'VPyZYQ7SOAkuTNdH',
 );
 ```

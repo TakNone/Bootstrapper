@@ -29,6 +29,6 @@ messages.foundStickersNotModified#6010c534 flags:# next_offset:flags.0?int = mes
 
 ```php
 $messagesFoundStickers = $client->messages->foundStickersNotModified(
-	next_offset : 50,
+	next_offset : 79,
 );
 ```

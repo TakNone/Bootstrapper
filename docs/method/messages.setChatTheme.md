@@ -1,6 +1,6 @@
 # messages.setChatTheme
 
-**Description** : *Change the chat theme of a certain chat*
+**Description** : *Change the chat theme of a certain chat, see here &raquo; for more info*
 
 **Layer** : 216
 
@@ -15,7 +15,7 @@ messages.setChatTheme#81202c9 peer:InputPeer theme:InputChatTheme = Updates;
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Private chat where to change theme |
-| <mark>theme</mark> | [`InputChatTheme`](type/InputChatTheme) | NOTHING |
+| <mark>theme</mark> | [`InputChatTheme`](type/InputChatTheme) | The theme to set |
 
 ---
 

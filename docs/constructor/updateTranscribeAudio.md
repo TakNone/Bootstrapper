@@ -30,7 +30,7 @@ updateTranscribeAudio#88617090 flags:# final:flags.0?true transcription_id:long 
 ```php
 $update = $client->updateTranscribeAudio(
 	final : true,
-	transcription_id : -1667461302526568750,
-	text : 'IOc4gT508AGRVfK3',
+	transcription_id : 2995356968646460794,
+	text : 'cfC7wztFeTRbB2sx',
 );
 ```

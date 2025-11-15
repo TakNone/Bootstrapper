@@ -1,5 +1,7 @@
 # starGiftAttributeIdModel
 
+**Description** : *The ID of a model of a collectible gift &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ starGiftAttributeIdModel#48aaae3c document_id:long = StarGiftAttributeId;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>document_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>document_id</mark> | [`long`](type/long) | The sticker representing the upgraded gift |
 
 ---
 
@@ -26,6 +28,6 @@ starGiftAttributeIdModel#48aaae3c document_id:long = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdModel(
-	document_id : -7737204286471976210,
+	document_id : 151466758770217860,
 );
 ```

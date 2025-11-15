@@ -30,4 +30,4 @@ mediaAreaStarGift#5787686d coordinates:MediaAreaCoordinates slug:string = MediaA
 | [**inputMediaAreaChannelPost**](constructor/inputMediaAreaChannelPost) | Represents a channel post |
 | [**mediaAreaUrl**](constructor/mediaAreaUrl) | Represents a URL media area |
 | [**mediaAreaWeather**](constructor/mediaAreaWeather) | Represents a weather widget » |
-| [**mediaAreaStarGift**](constructor/mediaAreaStarGift) | NOTHING |
+| [**mediaAreaStarGift**](constructor/mediaAreaStarGift) | Represents a collectible gift » |

@@ -35,7 +35,7 @@ $messageMedia = $client->messageMediaContact(
 	phone_number : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
-	vcard : 'RiHj8dzvqanyrQhl',
-	user_id : 899882512279870017,
+	vcard : '0FDIPmUYgMEwfsr1',
+	user_id : 8584243886428035228,
 );
 ```

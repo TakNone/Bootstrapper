@@ -27,7 +27,7 @@ messageActionLoginUnknownLocation#555555f5 title:string address:string = Message
 
 ```php
 $messageAction = $client->messageActionLoginUnknownLocation(
-	title : 'R50WH61oPLZaipeg',
-	address : 'SvfFpIz8h7ZJUnL1',
+	title : 'mF9RESrQWYnXhNcU',
+	address : 'xJVpftB4NmYeGcHI',
 );
 ```

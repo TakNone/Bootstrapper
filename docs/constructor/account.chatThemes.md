@@ -14,12 +14,12 @@ account.chatThemes#16484857 flags:# hash:long themes:Vector<ChatTheme> chats:Vec
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
-| <mark>themes</mark> | [`Vector<ChatTheme>`](type/ChatTheme) | Available chat themes |
-| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | NOTHING |
-| <mark>users</mark> | [`Vector<User>`](type/User) | NOTHING |
-| **next_offset** | [`flags.0?int`](type/int) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>hash</mark> | [`long`](type/long) | Hash to pass to the method that returned this constructor, to avoid refetching the result if it hasn't changed |
+| <mark>themes</mark> | [`Vector<ChatTheme>`](type/ChatTheme) | Themes |
+| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | Chats mentioned in the themes field |
+| <mark>users</mark> | [`Vector<User>`](type/User) | Users mentioned in the themes field |
+| **next_offset** | [`flags.0?int`](type/int) | Next offset for pagination |
 
 ---
 
@@ -36,7 +36,7 @@ $accountChatThemes = $client->account->chatThemes(
 	hash : 0,
 	themes : array(
 		$client->chatTheme(
-			emoticon : 'ykHZmuc5GF9rqP3d',
+			emoticon : 'rAqiDt9ckeOh06lS',
 		),
 		$client->chatThemeUniqueGift(
 			gift : $client->starGift(
@@ -47,30 +47,30 @@ $accountChatThemes = $client->account->chatThemes(
 				require_premium : true,
 				limited_per_user : true,
 				peer_color_available : true,
-				id : 53245232622879921,
+				id : 2869126575374824105,
 				sticker : $client->documentEmpty(...),
-				stars : 3210480144104623958,
-				availability_remains : 77,
-				availability_total : 45,
-				availability_resale : -1642587675553238421,
-				convert_stars : 3822996423751066001,
-				first_sale_date : 81,
-				last_sale_date : 73,
-				upgrade_stars : -4199101319224446052,
-				resell_min_stars : 6043114211095578156,
-				title : 'hBPJyrc84Z0pwnq3',
+				stars : -4381867211006792994,
+				availability_remains : 56,
+				availability_total : 27,
+				availability_resale : -5281311286058612031,
+				convert_stars : 5017116167365519710,
+				first_sale_date : 80,
+				last_sale_date : 98,
+				upgrade_stars : -1360129835402941079,
+				resell_min_stars : 1520965867156832914,
+				title : '1ogPzQYs30G2VCRp',
 				released_by : $client->peerUser(...),
-				per_user_total : 3,
-				per_user_remains : 16,
-				locked_until_date : 92,
+				per_user_total : 18,
+				per_user_remains : 84,
+				locked_until_date : 51,
 			),
 			theme_settings : array(
 				$client->themeSettings(
 					message_colors_animated : true,
 					base_theme : $client->baseThemeClassic(...),
-					accent_color : 96,
-					outbox_accent_color : 47,
-					message_colors : array(21),
+					accent_color : 43,
+					outbox_accent_color : 5,
+					message_colors : array(32),
 					wallpaper : $client->wallPaper(...),
 				),
 			),
@@ -78,7 +78,7 @@ $accountChatThemes = $client->account->chatThemes(
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 8005783701426932306,
+			id : -7967321763149612974,
 		),
 		$client->chat(
 			creator : true,
@@ -88,12 +88,12 @@ $accountChatThemes = $client->account->chatThemes(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 7962792135913865997,
-			title : 'fGbwAe1Q2VzvnjDr',
+			id : -1383331430729641545,
+			title : 'QKb3J2mRsuPotZn8',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 40,
-			date : 44,
-			version : 73,
+			participants_count : 86,
+			date : 92,
+			version : 75,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -134,12 +134,12 @@ $accountChatThemes = $client->account->chatThemes(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 26,
+				until_date : 94,
 			),
 		),
 		$client->chatForbidden(
-			id : -6984996490596349531,
-			title : 'PgSmhYXDQHowAGnl',
+			id : 682145342976585574,
+			title : '7MEx0TDtkCi3g2dW',
 		),
 		$client->channel(
 			creator : true,
@@ -170,17 +170,17 @@ $accountChatThemes = $client->account->chatThemes(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -7818109371490044950,
-			access_hash : -789173490744520786,
-			title : 'wsPLJpKdnoQ7vlrj',
+			id : 6444488641411593056,
+			access_hash : 4178900406654864750,
+			title : 'CdDloXLEPkqWri2O',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 30,
+			date : 100,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'fH8sJVCryFYbDeu2',
-					reason : 'F5EIrclAJmsuWdSC',
-					text : 'CyjaKSX1i6xoM79q',
+					platform : 'oTMI9U4BymjPXWHa',
+					reason : 'NAmFVKMpRZXk8tOj',
+					text : '68JiqjHmkZzUKs3Q',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -222,7 +222,7 @@ $accountChatThemes = $client->account->chatThemes(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 9,
+				until_date : 73,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -245,9 +245,9 @@ $accountChatThemes = $client->account->chatThemes(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 28,
+				until_date : 8,
 			),
-			participants_count : 47,
+			participants_count : 78,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -255,34 +255,34 @@ $accountChatThemes = $client->account->chatThemes(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 33,
+			stories_max_id : 96,
 			color : $client->peerColor(
-				color : 83,
-				background_emoji_id : -7434633191313563640,
+				color : 76,
+				background_emoji_id : -8670746229249925739,
 			),
 			profile_color : $client->peerColor(
-				color : 79,
-				background_emoji_id : 3113248254227014182,
+				color : 87,
+				background_emoji_id : -3448160248206085888,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 68,
-			subscription_until_date : 82,
-			bot_verification_icon : 5900751787884361378,
-			send_paid_messages_stars : 2036172588218648041,
-			linked_monoforum_id : 2052210409462741028,
+			level : 24,
+			subscription_until_date : 69,
+			bot_verification_icon : 8252674622877358065,
+			send_paid_messages_stars : 7557972543712254474,
+			linked_monoforum_id : -2620836589635962419,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -6335696436332677611,
-			access_hash : -8174036879014791726,
-			title : 'L8GViCoua2DthpYE',
-			until_date : 52,
+			id : 6801029631907662324,
+			access_hash : -1445745890821338980,
+			title : 'XHBjdY3mkDasbr4t',
+			until_date : 42,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 1414986828460108218,
+			id : -5069028359414853088,
 		),
 		$client->user(
 			self : true,
@@ -311,24 +311,24 @@ $accountChatThemes = $client->account->chatThemes(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 905800161842558122,
-			access_hash : -2692236975062281869,
+			id : -6204386435000985781,
+			access_hash : 6709828360991043071,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 64,
+			bot_info_version : 62,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'mrpcLUaHeJvPAWbM',
-					reason : 't1yXYv20olmIW6N3',
-					text : '2EJu1t0jMHkUBFeh',
+					platform : 'cnYuglvBQUtfbdiH',
+					reason : 'wGgPrsMZj1umRQlB',
+					text : 'XaPkWTEZBVmsRK8J',
 				),
 			),
-			bot_inline_placeholder : 'eDUvEt4mSadVgAh3',
-			lang_code : 'sB0j7Rop3HcAWNFe',
+			bot_inline_placeholder : 'stdvgxRrM4kOIynY',
+			lang_code : 'aest4VCQdPhUcfAM',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -337,20 +337,20 @@ $accountChatThemes = $client->account->chatThemes(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 67,
+			stories_max_id : 71,
 			color : $client->peerColor(
-				color : 48,
-				background_emoji_id : 1831534399561447456,
+				color : 34,
+				background_emoji_id : 9062391226123040239,
 			),
 			profile_color : $client->peerColor(
-				color : 31,
-				background_emoji_id : 2706574357827138212,
+				color : 72,
+				background_emoji_id : -5122574632515642457,
 			),
-			bot_active_users : 55,
-			bot_verification_icon : 6202125017895863661,
-			send_paid_messages_stars : -6891463920547131288,
+			bot_active_users : 69,
+			bot_verification_icon : -657204805932756394,
+			send_paid_messages_stars : 3730224293391234772,
 		),
 	),
-	next_offset : 75,
+	next_offset : 24,
 );
 ```

@@ -1,5 +1,7 @@
 # RequirementToContact
 
+**Description** : *Specifies a requirement that must be satisfied in order to contact a user*
+
 **Layer** : 216
 
 ```tl
@@ -14,6 +16,6 @@ requirementToContactPaidMessages#b4f67e93 stars_amount:long = RequirementToConta
 
 | Constructor | Description |
 | :---: | :--- |
-| [**requirementToContactEmpty**](constructor/requirementToContactEmpty) | NOTHING |
-| [**requirementToContactPremium**](constructor/requirementToContactPremium) | NOTHING |
-| [**requirementToContactPaidMessages**](constructor/requirementToContactPaidMessages) | NOTHING |
+| [**requirementToContactEmpty**](constructor/requirementToContactEmpty) | This user can be freely contacted |
+| [**requirementToContactPremium**](constructor/requirementToContactPremium) | This user requires us to buy a Premium subscription in order to contact them |
+| [**requirementToContactPaidMessages**](constructor/requirementToContactPaidMessages) | This user requires us to pay the specified amount of Telegram Stars to send them a message, see here » for the full flow |

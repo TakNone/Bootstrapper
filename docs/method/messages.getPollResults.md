@@ -39,6 +39,6 @@ messages.getPollResults#73bb643b peer:InputPeer msg_id:int = Updates;
 ```php
 $updates = $client->messages->getPollResults(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 83,
+	msg_id : 10,
 );
 ```

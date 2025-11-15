@@ -36,6 +36,7 @@ channels.getForumTopics#de560d1 flags:# channel:InputChannel q:flags.0?string of
 | :---: | :---: | :--- |
 | **CHANNEL_FORUM_MISSING** | `400` | This supergroup is not a forum |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_MONOFORUM_UNSUPPORTED** | `400` | Monoforums do not support this feature |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 
 ---
@@ -45,10 +46,10 @@ channels.getForumTopics#de560d1 flags:# channel:InputChannel q:flags.0?string of
 ```php
 $messagesForumTopics = $client->channels->getForumTopics(
 	channel : $client->inputChannelEmpty(),
-	q : 'oNC9YI3G1DeVwPBv',
+	q : 'z9F3vse2VY1yZjRQ',
 	offset_date : 0,
 	offset_id : 0,
 	offset_topic : 0,
-	limit : 27,
+	limit : 53,
 );
 ```

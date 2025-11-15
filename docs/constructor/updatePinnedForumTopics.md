@@ -29,8 +29,8 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 ```php
 $update = $client->updatePinnedForumTopics(
 	peer : $client->peerUser(
-		user_id : -4508321854961929154,
+		user_id : 2572116762981738410,
 	),
-	order : array(84),
+	order : array(76),
 );
 ```

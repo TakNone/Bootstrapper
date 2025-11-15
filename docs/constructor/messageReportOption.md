@@ -29,7 +29,7 @@ messageReportOption#7903e3d9 text:string option:bytes = MessageReportOption;
 
 ```php
 $messageReportOption = $client->messageReportOption(
-	text : '6ftuEeKw2F7YZMai',
+	text : 'pQMRUHtxJkOeKh6d',
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

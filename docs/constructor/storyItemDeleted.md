@@ -28,6 +28,6 @@ storyItemDeleted#51e6ee4f id:int = StoryItem;
 
 ```php
 $storyItem = $client->storyItemDeleted(
-	id : 93,
+	id : 45,
 );
 ```

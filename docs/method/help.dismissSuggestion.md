@@ -30,6 +30,6 @@ help.dismissSuggestion#f50dbaa1 peer:InputPeer suggestion:string = Bool;
 ```php
 $bool = $client->help->dismissSuggestion(
 	peer : $client->inputPeerEmpty(),
-	suggestion : '9iysE5TNAhqw6PeS',
+	suggestion : 'NvecbODMiCwZ5ASF',
 );
 ```

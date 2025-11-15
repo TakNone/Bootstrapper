@@ -1,5 +1,7 @@
 # payments.StarGiftCollections
 
+**Description** : *Represents a list of star gift collections &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -13,5 +15,5 @@ payments.starGiftCollections#8a2932f3 collections:Vector<StarGiftCollection> = p
 
 | Constructor | Description |
 | :---: | :--- |
-| [**payments.starGiftCollectionsNotModified**](constructor/payments.starGiftCollectionsNotModified) | NOTHING |
-| [**payments.starGiftCollections**](constructor/payments.starGiftCollections) | NOTHING |
+| [**payments.starGiftCollectionsNotModified**](constructor/payments.starGiftCollectionsNotModified) | The list of star gift collections » hasn't changed |
+| [**payments.starGiftCollections**](constructor/payments.starGiftCollections) | Represents a list of star gift collections » |

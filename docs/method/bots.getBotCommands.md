@@ -29,7 +29,6 @@ bots.getBotCommands#e34c0dd6 scope:BotCommandScope lang_code:string = Vector<Bot
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
-| **USER_BOT_INVALID** | `400` | User accounts must provide the bot method parameter when calling this method. If there is no such method parameter, this method can only be invoked by bot accounts |
 | **USER_BOT_REQUIRED** | `400` | This method can only be called by a bot |
 
 ---
@@ -39,6 +38,6 @@ bots.getBotCommands#e34c0dd6 scope:BotCommandScope lang_code:string = Vector<Bot
 ```php
 $botCommand = $client->bots->getBotCommands(
 	scope : $client->botCommandScopeDefault(),
-	lang_code : 'Q06nlc2yEFegxhmB',
+	lang_code : 'kcaeAT93Bm7wbKlf',
 );
 ```

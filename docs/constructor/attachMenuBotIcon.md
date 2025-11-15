@@ -31,14 +31,14 @@ attachMenuBotIcon#b2a7386b flags:# name:string icon:Document colors:flags.0?Vect
 
 ```php
 $attachMenuBotIcon = $client->attachMenuBotIcon(
-	name : '64ilBjVH3X0eOky5',
+	name : 'C9oK50yLNFrhTAsx',
 	icon : $client->documentEmpty(
-		id : 8315427914296099151,
+		id : -2459777673470870271,
 	),
 	colors : array(
 		$client->attachMenuBotIconColor(
-			name : '5pob3fEAxYSWgecN',
-			color : 61,
+			name : 'IboyEk50OnMcRZW1',
+			color : 50,
 		),
 	),
 );

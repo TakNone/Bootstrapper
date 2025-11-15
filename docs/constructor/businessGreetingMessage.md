@@ -37,8 +37,8 @@ $businessGreetingMessage = $client->businessGreetingMessage(
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(8101636256078433343),
+		users : array(-2724099567108740678),
 	),
-	no_activity_days : 80,
+	no_activity_days : 87,
 );
 ```

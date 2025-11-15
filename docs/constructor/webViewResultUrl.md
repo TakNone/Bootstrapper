@@ -34,7 +34,7 @@ webViewResultUrl#4d22ff98 flags:# fullsize:flags.1?true fullscreen:flags.2?true 
 $webViewResult = $client->webViewResultUrl(
 	fullsize : true,
 	fullscreen : true,
-	query_id : -8253366165681069950,
+	query_id : 6551056855504129460,
 	url : 'https://docs.liveproto.dev',
 );
 ```

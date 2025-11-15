@@ -48,4 +48,4 @@ messageMediaToDo#8a53b014 flags:# todo:TodoList completions:flags.0?Vector<TodoC
 | [**messageMediaGiveaway**](constructor/messageMediaGiveaway) | Contains info about a giveaway, see here » for more info |
 | [**messageMediaGiveawayResults**](constructor/messageMediaGiveawayResults) | A giveaway with public winners has finished, this constructor contains info about the winners |
 | [**messageMediaPaidMedia**](constructor/messageMediaPaidMedia) | Paid media, see here » for more info |
-| [**messageMediaToDo**](constructor/messageMediaToDo) | NOTHING |
+| [**messageMediaToDo**](constructor/messageMediaToDo) | Represents a todo list » |

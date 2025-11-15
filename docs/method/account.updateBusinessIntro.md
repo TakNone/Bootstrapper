@@ -30,8 +30,8 @@ account.updateBusinessIntro#a614d034 flags:# intro:flags.0?InputBusinessIntro = 
 ```php
 $bool = $client->account->updateBusinessIntro(
 	intro : $client->inputBusinessIntro(
-		title : 'GUdvsQDXJ18H2mIN',
-		description : 'GvhZT4qnskXBaRKU',
+		title : '5QJlB9v2aPzDc3TX',
+		description : '4cUAXQwdu2JNqOky',
 		sticker : $client->inputDocumentEmpty(),
 	),
 );

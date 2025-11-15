@@ -14,7 +14,7 @@ updatePaidReactionPrivacy#8b725fce private:PaidReactionPrivacy = Update;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>private</mark> | [`PaidReactionPrivacy`](type/PaidReactionPrivacy) | Whether paid reaction privacy is enabled or disabled |
+| <mark>private</mark> | [`PaidReactionPrivacy`](type/PaidReactionPrivacy) | Paid reaction privacy settings |
 
 ---
 

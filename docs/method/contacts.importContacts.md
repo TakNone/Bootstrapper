@@ -30,7 +30,7 @@ contacts.importContacts#2c800be5 contacts:Vector<InputContact> = contacts.Import
 $contactsImportedContacts = $client->contacts->importContacts(
 	contacts : array(
 		$client->inputPhoneContact(
-			client_id : -4352669492222165296,
+			client_id : 1957143429901989378,
 			phone : '+1234567890',
 			first_name : 'Tak',
 			last_name : 'None',

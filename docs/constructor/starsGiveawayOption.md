@@ -38,16 +38,16 @@ starsGiveawayOption#94ce852a flags:# extended:flags.0?true default:flags.1?true 
 $starsGiveawayOption = $client->starsGiveawayOption(
 	extended : true,
 	default : true,
-	stars : -8806008127408603372,
-	yearly_boosts : 40,
-	store_product : 'yRzqVdkK9QsAS0oU',
-	currency : 'XS4fbOVK3B1G7vNg',
-	amount : -5215032968687008467,
+	stars : -3656216551173288459,
+	yearly_boosts : 60,
+	store_product : 'wc0GUrVio1sat2bO',
+	currency : 'KfV0ZB1R7cdFAPGI',
+	amount : 2393722184069876564,
 	winners : array(
 		$client->starsGiveawayWinnersOption(
 			default : true,
-			users : 7,
-			per_user_stars : 4575898526385112001,
+			users : 40,
+			per_user_stars : -5978922373595546014,
 		),
 	),
 );

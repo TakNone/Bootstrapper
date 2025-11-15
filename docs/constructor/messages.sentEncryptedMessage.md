@@ -28,6 +28,6 @@ messages.sentEncryptedMessage#560f8935 date:int = messages.SentEncryptedMessage;
 
 ```php
 $messagesSentEncryptedMessage = $client->messages->sentEncryptedMessage(
-	date : 78,
+	date : 35,
 );
 ```

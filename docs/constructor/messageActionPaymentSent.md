@@ -36,9 +36,9 @@ messageActionPaymentSent#c624b16e flags:# recurring_init:flags.2?true recurring_
 $messageAction = $client->messageActionPaymentSent(
 	recurring_init : true,
 	recurring_used : true,
-	currency : 'QojtHFveCBEs2ph5',
-	total_amount : -1615827207844896320,
-	invoice_slug : '4zdf0tLw1g9mqiKN',
-	subscription_until_date : 89,
+	currency : 'PE43cfyx6FvgXmIp',
+	total_amount : 3044829444501097867,
+	invoice_slug : 'mQ0cxvsDah5Jup4M',
+	subscription_until_date : 53,
 );
 ```

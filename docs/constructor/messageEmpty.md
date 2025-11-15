@@ -30,9 +30,9 @@ messageEmpty#90a6ca84 flags:# id:int peer_id:flags.0?Peer = Message;
 
 ```php
 $message = $client->messageEmpty(
-	id : 81,
+	id : 29,
 	peer_id : $client->peerUser(
-		user_id : -8036246661087972164,
+		user_id : 2772860464968171206,
 	),
 );
 ```

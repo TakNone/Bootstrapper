@@ -33,7 +33,7 @@ passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow#3a912d4a salt1
 $passwordKdfAlgo = $client->passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow(
 	salt1 : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	salt2 : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	g : 4,
+	g : 54,
 	p : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

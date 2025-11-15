@@ -1,6 +1,6 @@
 # MediaAreaCoordinates
 
-**Description** : *Coordinates and size of a clicable rectangular area on top of a story*
+**Description** : *Coordinates and size of a clickable rectangular area on top of a story*
 
 **Layer** : 216
 
@@ -14,4 +14,4 @@ mediaAreaCoordinates#cfc9e002 flags:# x:double y:double w:double h:double rotati
 
 | Constructor | Description |
 | :---: | :--- |
-| [**mediaAreaCoordinates**](constructor/mediaAreaCoordinates) | Coordinates and size of a clicable rectangular area on top of a story |
+| [**mediaAreaCoordinates**](constructor/mediaAreaCoordinates) | Coordinates and size of a clickable rectangular area on top of a story |

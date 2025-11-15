@@ -42,6 +42,7 @@ messages.requestWebView#269dc2c1 flags:# from_bot_menu:flags.4?true silent:flags
 | :---: | :---: | :--- |
 | **BOT_INVALID** | `400` | This is not a valid bot |
 | **BOT_WEBVIEW_DISABLED** | `400` | A webview cannot be opened in the specified conditions: emitted for example if from_bot_menu or url are set and peer is not the chat with the bot |
+| **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
@@ -64,111 +65,111 @@ $webViewResult = $client->messages->requestWebView(
 	peer : $client->inputPeerEmpty(),
 	bot : $client->inputUserEmpty(),
 	url : 'https://docs.liveproto.dev',
-	start_param : 'B6LP53sVcGq0Nxjm',
+	start_param : 'iERbYVkfXmacLIj7',
 	theme_params : $client->dataJSON(
-		data : 'Fbr1dBhOyj5DIwYK',
+		data : '07teDfn6R9NP1pcI',
 	),
-	platform : 'OP1YXrbE506l8sST',
+	platform : 'XHK9JPyv3CZRpIDf',
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 71,
-		top_msg_id : 0,
+		reply_to_msg_id : 47,
+		top_msg_id : 87,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : '2QfwkAWXExV9bTmr',
+		quote_text : 'UbwO4Q9EqksIS2Gt',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 16,
+				length : 98,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 81,
+				length : 43,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 70,
+				length : 19,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 32,
+				length : 44,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 6,
+				length : 26,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 36,
+				length : 67,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 29,
+				length : 42,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 11,
+				length : 23,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 36,
+				length : 98,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 10,
-				language : '6bLNXRupM7gofE5t',
+				length : 90,
+				language : 'nWjSaGAVzo7NcUix',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 75,
+				length : 56,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 4,
-				user_id : -8715552873670695235,
+				length : 28,
+				user_id : 7744888632642406263,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 31,
+				length : 54,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 48,
+				length : 86,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 27,
+				length : 25,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 67,
+				length : 65,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 48,
+				length : 72,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 26,
+				length : 16,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 26,
+				length : 79,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 91,
-				document_id : 4942389687150400208,
+				length : 65,
+				document_id : -7967551354854082885,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 87,
+				length : 60,
 			),
 		),
-		quote_offset : 57,
+		quote_offset : 66,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 25,
+		todo_item_id : 41,
 	),
 	send_as : $client->inputPeerEmpty(),
 );

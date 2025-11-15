@@ -31,7 +31,7 @@ fileHash#f39b035c offset:long limit:int hash:bytes = FileHash;
 ```php
 $fileHash = $client->fileHash(
 	offset : 0,
-	limit : 67,
+	limit : 88,
 	hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

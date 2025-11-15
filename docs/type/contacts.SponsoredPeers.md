@@ -1,5 +1,7 @@
 # contacts.SponsoredPeers
 
+**Description** : *A list of sponsored peers*
+
 **Layer** : 216
 
 ```tl
@@ -13,5 +15,5 @@ contacts.sponsoredPeers#eb032884 peers:Vector<SponsoredPeer> chats:Vector<Chat> 
 
 | Constructor | Description |
 | :---: | :--- |
-| [**contacts.sponsoredPeersEmpty**](constructor/contacts.sponsoredPeersEmpty) | NOTHING |
-| [**contacts.sponsoredPeers**](constructor/contacts.sponsoredPeers) | NOTHING |
+| [**contacts.sponsoredPeersEmpty**](constructor/contacts.sponsoredPeersEmpty) | There are no sponsored peers for this query |
+| [**contacts.sponsoredPeers**](constructor/contacts.sponsoredPeers) | Sponsored peers |

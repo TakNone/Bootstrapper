@@ -1,5 +1,7 @@
 # starGiftAttributeBackdrop
 
+**Description** : *The backdrop of a collectible gift &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,13 +14,13 @@ starGiftAttributeBackdrop#d93d859c name:string backdrop_id:int center_color:int 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>name</mark> | [`string`](type/string) | NOTHING |
-| <mark>backdrop_id</mark> | [`int`](type/int) | NOTHING |
-| <mark>center_color</mark> | [`int`](type/int) | NOTHING |
-| <mark>edge_color</mark> | [`int`](type/int) | NOTHING |
-| <mark>pattern_color</mark> | [`int`](type/int) | NOTHING |
-| <mark>text_color</mark> | [`int`](type/int) | NOTHING |
-| <mark>rarity_permille</mark> | [`int`](type/int) | NOTHING |
+| <mark>name</mark> | [`string`](type/string) | Name of the backdrop |
+| <mark>backdrop_id</mark> | [`int`](type/int) | Unique ID of the backdrop |
+| <mark>center_color</mark> | [`int`](type/int) | Color of the center of the backdrop in RGB24 format |
+| <mark>edge_color</mark> | [`int`](type/int) | Color of the edges of the backdrop in RGB24 format |
+| <mark>pattern_color</mark> | [`int`](type/int) | Color of the starGiftAttributePattern applied on the backdrop in RGB24 format |
+| <mark>text_color</mark> | [`int`](type/int) | Color of the text on the backdrop in RGB24 format |
+| <mark>rarity_permille</mark> | [`int`](type/int) | The number of upgraded gifts that receive this backdrop for each 1000 gifts upgraded |
 
 ---
 
@@ -32,12 +34,12 @@ starGiftAttributeBackdrop#d93d859c name:string backdrop_id:int center_color:int 
 
 ```php
 $starGiftAttribute = $client->starGiftAttributeBackdrop(
-	name : 'zc0qNA2DLYeaIK1g',
-	backdrop_id : 56,
-	center_color : 70,
-	edge_color : 45,
-	pattern_color : 18,
-	text_color : 96,
-	rarity_permille : 72,
+	name : 'qWmUPVR1Fl2cdzpD',
+	backdrop_id : 11,
+	center_color : 74,
+	edge_color : 98,
+	pattern_color : 95,
+	text_color : 59,
+	rarity_permille : 84,
 );
 ```

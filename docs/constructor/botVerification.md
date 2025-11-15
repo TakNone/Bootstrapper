@@ -1,5 +1,7 @@
 # botVerification
 
+**Description** : *Describes a bot verification icon &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,9 +14,9 @@ botVerification#f93cd45c bot_id:long icon:long description:string = BotVerificat
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>bot_id</mark> | [`long`](type/long) | NOTHING |
-| <mark>icon</mark> | [`long`](type/long) | NOTHING |
-| <mark>description</mark> | [`string`](type/string) | NOTHING |
+| <mark>bot_id</mark> | [`long`](type/long) | ID of the bot that verified this peer |
+| <mark>icon</mark> | [`long`](type/long) | Verification icon |
+| <mark>description</mark> | [`string`](type/string) | Verification description |
 
 ---
 
@@ -28,8 +30,8 @@ botVerification#f93cd45c bot_id:long icon:long description:string = BotVerificat
 
 ```php
 $botVerification = $client->botVerification(
-	bot_id : 6417531786916823028,
-	icon : 855703775277234217,
-	description : 'vNtRoWGDpqUgawQT',
+	bot_id : 5400256086229416215,
+	icon : -3939937591984249989,
+	description : 'hi8YgwAQ059cuPbJ',
 );
 ```

@@ -1,6 +1,6 @@
 # help.promoData
 
-**Description** : *MTProxy/Public Service Announcement information*
+**Description** : *A set of useful suggestions and a PSA/MTProxy sponsored peer, see here &raquo; for more info*
 
 **Layer** : 216
 
@@ -15,14 +15,14 @@ help.promoData#8a4d87a flags:# proxy:flags.0?true expires:int peer:flags.3?Peer 
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
-| **proxy** | [`flags.0?true`](type/true) | MTProxy-related channel |
-| <mark>expires</mark> | [`int`](type/int) | Expiry of PSA/MTProxy info |
+| **proxy** | [`flags.0?true`](type/true) | Set when connecting using an MTProxy that has configured an associated peer (that will be passed in peer, i.e. the channel that sponsored the MTProxy) that should be pinned on top of the chat list |
+| <mark>expires</mark> | [`int`](type/int) | Unixtime when to re-invoke help.getPromoData |
 | **peer** | [`flags.3?Peer`](type/Peer) | MTProxy/PSA peer |
-| **psa_type** | [`flags.1?string`](type/string) | PSA type |
-| **psa_message** | [`flags.2?string`](type/string) | PSA message |
-| <mark>pending_suggestions</mark> | [`Vector<string>`](type/string) | NOTHING |
-| <mark>dismissed_suggestions</mark> | [`Vector<string>`](type/string) | NOTHING |
-| **custom_pending_suggestion** | [`flags.4?PendingSuggestion`](type/PendingSuggestion) | NOTHING |
+| **psa_type** | [`flags.1?string`](type/string) | For Public Service Announcement peers, indicates the type of the PSA |
+| **psa_message** | [`flags.2?string`](type/string) | For Public Service Announcement peers, contains the PSA itself |
+| <mark>pending_suggestions</mark> | [`Vector<string>`](type/string) | Contains a list of pending suggestions » |
+| <mark>dismissed_suggestions</mark> | [`Vector<string>`](type/string) | Contains a list of inverted suggestions » |
+| **custom_pending_suggestion** | [`flags.4?PendingSuggestion`](type/PendingSuggestion) | Contains a list of custom pending suggestions » |
 | <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | Chat info |
 | <mark>users</mark> | [`Vector<User>`](type/User) | User info |
 
@@ -39,18 +39,18 @@ help.promoData#8a4d87a flags:# proxy:flags.0?true expires:int peer:flags.3?Peer 
 ```php
 $helpPromoData = $client->help->promoData(
 	proxy : true,
-	expires : 78,
+	expires : 37,
 	peer : $client->peerUser(
-		user_id : -4216918069485964224,
+		user_id : 4266054759340290508,
 	),
-	psa_type : '2tvUHA0smNfPkE1V',
-	psa_message : 'ZSuFskqGKIrlQOJ1',
-	pending_suggestions : array('NosIHawYztSR9MO6'),
-	dismissed_suggestions : array('JAnxReiT1zZaFQDM'),
+	psa_type : 'WHcorVUqRSK9TEsA',
+	psa_message : 'W9wUXDLitJSnM5EY',
+	pending_suggestions : array('JPAh1y7ijYkLEulV'),
+	dismissed_suggestions : array('YfTAi8nSWkMIcEhb'),
 	custom_pending_suggestion : $client->pendingSuggestion(
-		suggestion : 'sx9wCdQ1fbuMIvg8',
+		suggestion : 's421fANkpbIF9Ber',
 		title : $client->textWithEntities(
-			text : 'PMdIwV7NEr0uTZeC',
+			text : 'C3JiWAuYZbnzG4H6',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -76,7 +76,7 @@ $helpPromoData = $client->help->promoData(
 			),
 		),
 		description : $client->textWithEntities(
-			text : '8qvhZmrSwJEeMyjl',
+			text : 'DsvzHcUk8Y1E0NFQ',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -105,7 +105,7 @@ $helpPromoData = $client->help->promoData(
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : -4720675326517149044,
+			id : -4087378732400311465,
 		),
 		$client->chat(
 			creator : true,
@@ -115,12 +115,12 @@ $helpPromoData = $client->help->promoData(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 6212487944370167631,
-			title : 'n59etXCqizbSRhPG',
+			id : -9139177212507265661,
+			title : 'PIa39HDEc1LKuYZj',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 47,
-			date : 34,
-			version : 82,
+			participants_count : 28,
+			date : 3,
+			version : 57,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -161,12 +161,12 @@ $helpPromoData = $client->help->promoData(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 32,
+				until_date : 22,
 			),
 		),
 		$client->chatForbidden(
-			id : 5826633625972862511,
-			title : 'tplX7TVvMOCFirI9',
+			id : -5789424347890394334,
+			title : 'DodvWKqJgbeUnF15',
 		),
 		$client->channel(
 			creator : true,
@@ -197,17 +197,17 @@ $helpPromoData = $client->help->promoData(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -4911884592212839301,
-			access_hash : 2653790008900804687,
-			title : 'eipShnAzD6vNP2Z5',
+			id : -9107514914407803627,
+			access_hash : 7839015890076893803,
+			title : 'yP27zev51VnpXagq',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 33,
+			date : 3,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'l47ovTAOyjYK0X16',
-					reason : '32cGm5vZkwhXUP7S',
-					text : 'glQLrOFvk1SXNwmp',
+					platform : 'HwSDLxbRElsAqCKc',
+					reason : 'sR9U6V2IJWnwrLHE',
+					text : 'DCKmaEevOJTZWlBo',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -249,7 +249,7 @@ $helpPromoData = $client->help->promoData(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 47,
+				until_date : 98,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -272,9 +272,9 @@ $helpPromoData = $client->help->promoData(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 14,
+				until_date : 91,
 			),
-			participants_count : 68,
+			participants_count : 95,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -282,34 +282,34 @@ $helpPromoData = $client->help->promoData(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 33,
+			stories_max_id : 56,
 			color : $client->peerColor(
-				color : 2,
-				background_emoji_id : 3904658848444458304,
+				color : 69,
+				background_emoji_id : 3321396421192826157,
 			),
 			profile_color : $client->peerColor(
-				color : 56,
-				background_emoji_id : 2641529809904578571,
+				color : 50,
+				background_emoji_id : 8932355011172507102,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 16,
-			subscription_until_date : 39,
-			bot_verification_icon : 1957823045468601036,
-			send_paid_messages_stars : 3875217864744239841,
-			linked_monoforum_id : -1712870937765435063,
+			level : 29,
+			subscription_until_date : 69,
+			bot_verification_icon : -366108791510330421,
+			send_paid_messages_stars : -1855111978892961898,
+			linked_monoforum_id : 6463159605072217562,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 9077673066636921442,
-			access_hash : 9103825673912883901,
-			title : 'wibWmnIhJpM6roTB',
-			until_date : 10,
+			id : -5026575761489772779,
+			access_hash : -3626407895457853340,
+			title : 'Ax2L1EvezF5TUrb7',
+			until_date : 4,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -7149241343679596251,
+			id : 6917738293877468791,
 		),
 		$client->user(
 			self : true,
@@ -338,24 +338,24 @@ $helpPromoData = $client->help->promoData(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 4728253110718429241,
-			access_hash : -1422220804023145849,
+			id : 847056160401863548,
+			access_hash : -652728642488835849,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 28,
+			bot_info_version : 53,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'lw4vtesJxuEfXcRH',
-					reason : 'rVid9uQPwyXhtb6T',
-					text : 'm4xGawziT8jgMlDK',
+					platform : '3p8MuCqwdXoWeN57',
+					reason : 't8IF5oVYushkMi3B',
+					text : 'WskRu23LiXzQZlKq',
 				),
 			),
-			bot_inline_placeholder : 'miRFPt5UcSBV9vD6',
-			lang_code : 'tWXom9MNVFksicyP',
+			bot_inline_placeholder : 'bt8S1osUxKF09wEe',
+			lang_code : 'eEy4bncgpXIPAHKJ',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -364,18 +364,18 @@ $helpPromoData = $client->help->promoData(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 100,
+			stories_max_id : 74,
 			color : $client->peerColor(
-				color : 56,
-				background_emoji_id : 335236799892630174,
+				color : 25,
+				background_emoji_id : -458056327787733872,
 			),
 			profile_color : $client->peerColor(
-				color : 7,
-				background_emoji_id : -6683859140058376708,
+				color : 70,
+				background_emoji_id : 7230907324431022200,
 			),
-			bot_active_users : 25,
-			bot_verification_icon : 7560576966559200369,
-			send_paid_messages_stars : -7738228249820205454,
+			bot_active_users : 43,
+			bot_verification_icon : -507169538576058794,
+			send_paid_messages_stars : 5603932906315042384,
 		),
 	),
 );

@@ -30,6 +30,6 @@ messages.getMyStickers#d0b5e1fc offset_id:long limit:int = messages.MyStickers;
 ```php
 $messagesMyStickers = $client->messages->getMyStickers(
 	offset_id : 0,
-	limit : 78,
+	limit : 21,
 );
 ```

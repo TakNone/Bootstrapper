@@ -32,6 +32,6 @@ textUrl#3c2884c1 text:RichText url:string webpage_id:long = RichText;
 $richText = $client->textUrl(
 	text : $client->textEmpty(),
 	url : 'https://docs.liveproto.dev',
-	webpage_id : -5890549955694313990,
+	webpage_id : 4053789068350251454,
 );
 ```

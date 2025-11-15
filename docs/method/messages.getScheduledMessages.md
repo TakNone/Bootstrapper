@@ -39,6 +39,6 @@ messages.getScheduledMessages#bdbb0464 peer:InputPeer id:Vector<int> = messages.
 ```php
 $messagesMessages = $client->messages->getScheduledMessages(
 	peer : $client->inputPeerEmpty(),
-	id : array(4),
+	id : array(25),
 );
 ```

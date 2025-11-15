@@ -28,6 +28,6 @@ updateDialogFilterOrder#a5d72105 order:Vector<int> = Update;
 
 ```php
 $update = $client->updateDialogFilterOrder(
-	order : array(17),
+	order : array(84),
 );
 ```

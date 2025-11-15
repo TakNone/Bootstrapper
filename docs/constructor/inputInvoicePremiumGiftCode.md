@@ -34,12 +34,12 @@ $inputInvoice = $client->inputInvoicePremiumGiftCode(
 		upgrade : true,
 	),
 	option : $client->premiumGiftCodeOption(
-		users : 96,
-		months : 46,
-		store_product : 'WdhLGSDnJMu916am',
-		store_quantity : 75,
-		currency : 'MwcuXYWvlH2pUP9i',
-		amount : -4295140583932334616,
+		users : 60,
+		months : 14,
+		store_product : 'SvRbexkhq0A6ItFN',
+		store_quantity : 35,
+		currency : 'zk5FOcZdAsoTVQP4',
+		amount : 6255626727696696455,
 	),
 );
 ```

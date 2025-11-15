@@ -16,12 +16,12 @@ webPage#e89c45b2 flags:# has_large_media:flags.13?true video_cover_photo:flags.1
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **has_large_media** | [`flags.13?true`](type/true) | Whether the size of the media in the preview can be changed |
-| **video_cover_photo** | [`flags.14?true`](type/true) | NOTHING |
+| **video_cover_photo** | [`flags.14?true`](type/true) | Represents a custom video cover |
 | <mark>id</mark> | [`long`](type/long) | Preview ID |
 | <mark>url</mark> | [`string`](type/string) | URL of previewed webpage |
 | <mark>display_url</mark> | [`string`](type/string) | Webpage URL to be displayed to the user |
 | <mark>hash</mark> | [`int`](type/int) | Hash used for caching, for more info click here |
-| **type** | [`flags.0?string`](type/string) | Type of the web page. One of the following: - video- gif- photo- document- profile- telegram_background- telegram_theme- telegram_story- telegram_channel- telegram_channel_request- telegram_megagroup- telegram_chat- telegram_megagroup_request- telegram_chat_request- telegram_album- telegram_message- telegram_bot- telegram_voicechat- telegram_livestream- telegram_user- telegram_botapp- telegram_channel_boost- telegram_group_boost- telegram_giftcode- telegram_stickerset |
+| **type** | [`flags.0?string`](type/string) | Type of the web page. One of the following: - app- article- document- gif- photo- profile- telegram_album- telegram_background- telegram_bot- telegram_botapp- telegram_call- telegram_channel- telegram_channel_boost- telegram_channel_direct- telegram_channel_request- telegram_chat- telegram_chat_request- telegram_chatlist- telegram_collection- telegram_community- telegram_giftcode- telegram_group_boost- telegram_livestream- telegram_megagroup- telegram_megagroup_request- telegram_message- telegram_nft- telegram_stickerset- telegram_story- telegram_story_album- telegram_theme- telegram_user- telegram_videochat- telegram_voicechat- video |
 | **site_name** | [`flags.1?string`](type/string) | Short name of the site (e.g., Google Docs, App Store) |
 | **title** | [`flags.2?string`](type/string) | Title of the content |
 | **description** | [`flags.3?string`](type/string) | Content description |
@@ -50,25 +50,25 @@ webPage#e89c45b2 flags:# has_large_media:flags.13?true video_cover_photo:flags.1
 $webPage = $client->webPage(
 	has_large_media : true,
 	video_cover_photo : true,
-	id : 1875811885047337049,
+	id : -7933764150335404994,
 	url : 'https://docs.liveproto.dev',
 	display_url : 'https://docs.liveproto.dev',
 	hash : 0,
-	type : 'YiMrkeZp1I4C9lxN',
-	site_name : 'zuCIwj7AmtdaEqKL',
-	title : 'RO9yE07ghKUtiY6u',
-	description : 'Bo7ilW1JOXFpVzLN',
+	type : '6cahHws8uFEU3I2M',
+	site_name : 'wmiy04FdKqRI5j2B',
+	title : 'lPheEix5pzVQA4vT',
+	description : 'T0mdq8rSM36KYflX',
 	photo : $client->photoEmpty(
-		id : -8680834843425325371,
+		id : 607512920430820460,
 	),
 	embed_url : 'https://docs.liveproto.dev',
-	embed_type : 'DRnXQr8CsT04kxtV',
-	embed_width : 15,
-	embed_height : 76,
-	duration : 34,
-	author : 'vCAZaQkwMWP0sYdT',
+	embed_type : 'uU2x6k3PcNe1GI7O',
+	embed_width : 74,
+	embed_height : 10,
+	duration : 84,
+	author : 'm8rhMwnyARG6Y14s',
 	document : $client->documentEmpty(
-		id : 9212784861693045586,
+		id : -4731178476422449731,
 	),
 	cached_page : $client->page(
 		part : true,
@@ -85,7 +85,7 @@ $webPage = $client->webPage(
 			),
 			$client->pageBlockAuthorDate(
 				author : $client->textEmpty(...),
-				published_date : 0,
+				published_date : 26,
 			),
 			$client->pageBlockHeader(
 				text : $client->textEmpty(...),
@@ -98,14 +98,14 @@ $webPage = $client->webPage(
 			),
 			$client->pageBlockPreformatted(
 				text : $client->textEmpty(...),
-				language : 'Nvl8Ax0rXdfkIYV5',
+				language : 'oipgPQmMV5E7btsN',
 			),
 			$client->pageBlockFooter(
 				text : $client->textEmpty(...),
 			),
 			$client->pageBlockDivider(),
 			$client->pageBlockAnchor(
-				name : '14kb03xrY7nmuMhJ',
+				name : 'norlPD5dAyTpkwmZ',
 			),
 			$client->pageBlockList(
 				items : array(
@@ -122,15 +122,15 @@ $webPage = $client->webPage(
 				caption : $client->textEmpty(...),
 			),
 			$client->pageBlockPhoto(
-				photo_id : 5221968719201983550,
+				photo_id : -399187337978656633,
 				caption : $client->pageCaption(...),
 				url : 'https://docs.liveproto.dev',
-				webpage_id : -5205785370080797002,
+				webpage_id : -9255788177871331,
 			),
 			$client->pageBlockVideo(
 				autoplay : true,
 				loop : true,
-				video_id : -6950078632240198409,
+				video_id : -714416062162056927,
 				caption : $client->pageCaption(...),
 			),
 			$client->pageBlockCover(
@@ -140,18 +140,18 @@ $webPage = $client->webPage(
 				full_width : true,
 				allow_scrolling : true,
 				url : 'https://docs.liveproto.dev',
-				html : 'BsmwjHvWYg7GKuyt',
-				poster_photo_id : 6590650520820206432,
-				w : 49,
-				h : 31,
+				html : 'vzrGKq5jcXgRwPbM',
+				poster_photo_id : -2629310768588516986,
+				w : 0,
+				h : 100,
 				caption : $client->pageCaption(...),
 			),
 			$client->pageBlockEmbedPost(
 				url : 'https://docs.liveproto.dev',
-				webpage_id : 8757135153744463246,
-				author_photo_id : -4017222562105444765,
-				author : '5o8IAjEtmTXwFsDB',
-				date : 81,
+				webpage_id : 2433418751874532824,
+				author_photo_id : -7671862587853484365,
+				author : 'HfnEbemvc9IMykqC',
+				date : 7,
 				blocks : array(
 					$client->pageBlockUnsupported(...),
 					$client->pageBlockTitle(...),
@@ -257,7 +257,7 @@ $webPage = $client->webPage(
 				channel : $client->chatEmpty(...),
 			),
 			$client->pageBlockAudio(
-				audio_id : -8778388086247806613,
+				audio_id : 2567000239139387301,
 				caption : $client->pageCaption(...),
 			),
 			$client->pageBlockKicker(
@@ -320,22 +320,22 @@ $webPage = $client->webPage(
 			),
 			$client->pageBlockMap(
 				geo : $client->geoPointEmpty(...),
-				zoom : 71,
-				w : 27,
-				h : 39,
+				zoom : 99,
+				w : 13,
+				h : 92,
 				caption : $client->pageCaption(...),
 			),
 		),
 		photos : array(
 			$client->photoEmpty(
-				id : 6225746470418266523,
+				id : 7028885706195155367,
 			),
 			$client->photo(
 				has_stickers : true,
-				id : 4525797769384623884,
-				access_hash : 8063027913285663990,
+				id : -8209739449792316480,
+				access_hash : 5748720201943948950,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-				date : 0,
+				date : 27,
 				sizes : array(
 					$client->photoSizeEmpty(...),
 					$client->photoSize(...),
@@ -349,20 +349,20 @@ $webPage = $client->webPage(
 					$client->videoSizeEmojiMarkup(...),
 					$client->videoSizeStickerMarkup(...),
 				),
-				dc_id : 97,
+				dc_id : 84,
 			),
 		),
 		documents : array(
 			$client->documentEmpty(
-				id : 7101849503192838739,
+				id : -7200372342448758432,
 			),
 			$client->document(
-				id : -1101871381294644922,
-				access_hash : -6225789887014273995,
+				id : -558828592279853889,
+				access_hash : 7176500981782012958,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-				date : 26,
-				mime_type : '8o9qCbxQ5wnXgrUf',
-				size : -2450494624197830123,
+				date : 17,
+				mime_type : '9kb35rDdKpVJRoHq',
+				size : 4143103296613745810,
 				thumbs : array(
 					$client->photoSizeEmpty(...),
 					$client->photoSize(...),
@@ -376,7 +376,7 @@ $webPage = $client->webPage(
 					$client->videoSizeEmojiMarkup(...),
 					$client->videoSizeStickerMarkup(...),
 				),
-				dc_id : 12,
+				dc_id : 80,
 				attributes : array(
 					$client->documentAttributeImageSize(...),
 					$client->documentAttributeAnimated(...),
@@ -389,21 +389,21 @@ $webPage = $client->webPage(
 				),
 			),
 		),
-		views : 84,
+		views : 10,
 	),
 	attributes : array(
 		$client->webPageAttributeTheme(
 			documents : array(
 				$client->documentEmpty(
-					id : 5914663612679482709,
+					id : -3224492668818283176,
 				),
 				$client->document(
-					id : -8583508144935231631,
-					access_hash : -1454373718312214050,
+					id : -414521480800805571,
+					access_hash : -6697595413694621934,
 					file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-					date : 85,
-					mime_type : '7wEodhxtPgYviHar',
-					size : 4097787821876289505,
+					date : 38,
+					mime_type : 'g1UyCKmTHj4kJB9N',
+					size : 2700210069764700964,
 					thumbs : array(
 						$client->photoSizeEmpty(...),
 						$client->photoSize(...),
@@ -417,7 +417,7 @@ $webPage = $client->webPage(
 						$client->videoSizeEmojiMarkup(...),
 						$client->videoSizeStickerMarkup(...),
 					),
-					dc_id : 64,
+					dc_id : 1,
 					attributes : array(
 						$client->documentAttributeImageSize(...),
 						$client->documentAttributeAnimated(...),
@@ -433,19 +433,19 @@ $webPage = $client->webPage(
 			settings : $client->themeSettings(
 				message_colors_animated : true,
 				base_theme : $client->baseThemeClassic(...),
-				accent_color : 20,
-				outbox_accent_color : 19,
-				message_colors : array(57),
+				accent_color : 34,
+				outbox_accent_color : 23,
+				message_colors : array(97),
 				wallpaper : $client->wallPaper(...),
 			),
 		),
 		$client->webPageAttributeStory(
 			peer : $client->peerUser(
-				user_id : -9112000092544963620,
+				user_id : -5624813799572064467,
 			),
-			id : 11,
+			id : 12,
 			story : $client->storyItemDeleted(
-				id : 10,
+				id : 12,
 			),
 		),
 		$client->webPageAttributeStickerSet(
@@ -453,15 +453,15 @@ $webPage = $client->webPage(
 			text_color : true,
 			stickers : array(
 				$client->documentEmpty(
-					id : 6805823115460079413,
+					id : 5821852323183986450,
 				),
 				$client->document(
-					id : -783858387524253153,
-					access_hash : -715545704276775179,
+					id : 7520247517816109536,
+					access_hash : 7925995250224319707,
 					file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-					date : 32,
-					mime_type : 'KrGxHAng5iDz6OCR',
-					size : -4568807826101912953,
+					date : 48,
+					mime_type : 'KbxvXu8l4qND91H3',
+					size : 5026950104247680839,
 					thumbs : array(
 						$client->photoSizeEmpty(...),
 						$client->photoSize(...),
@@ -475,7 +475,7 @@ $webPage = $client->webPage(
 						$client->videoSizeEmojiMarkup(...),
 						$client->videoSizeStickerMarkup(...),
 					),
-					dc_id : 43,
+					dc_id : 12,
 					attributes : array(
 						$client->documentAttributeImageSize(...),
 						$client->documentAttributeAnimated(...),
@@ -498,36 +498,36 @@ $webPage = $client->webPage(
 				require_premium : true,
 				limited_per_user : true,
 				peer_color_available : true,
-				id : -7114255883004253154,
+				id : -4820486184300434807,
 				sticker : $client->documentEmpty(...),
-				stars : 8093789483075135058,
-				availability_remains : 96,
-				availability_total : 59,
-				availability_resale : -8312817933582771766,
-				convert_stars : -1577912604871938686,
-				first_sale_date : 78,
-				last_sale_date : 99,
-				upgrade_stars : -4869063238559876221,
-				resell_min_stars : -1841242909821108741,
-				title : 'Zzad2Bm5MHyqgsGQ',
+				stars : -6077131612358169653,
+				availability_remains : 93,
+				availability_total : 80,
+				availability_resale : -2983682741785434721,
+				convert_stars : -565299921069783716,
+				first_sale_date : 98,
+				last_sale_date : 56,
+				upgrade_stars : 2095935634471620413,
+				resell_min_stars : -8639482267412052656,
+				title : 'pz03AOoi1S9MrgnI',
 				released_by : $client->peerUser(...),
-				per_user_total : 32,
-				per_user_remains : 60,
-				locked_until_date : 93,
+				per_user_total : 54,
+				per_user_remains : 47,
+				locked_until_date : 83,
 			),
 		),
 		$client->webPageAttributeStarGiftCollection(
 			icons : array(
 				$client->documentEmpty(
-					id : 1160390538080896661,
+					id : 3057926820458863209,
 				),
 				$client->document(
-					id : -1726342771116522375,
-					access_hash : -2855282268483945014,
+					id : -4841470843442198029,
+					access_hash : 3113960212082854374,
 					file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-					date : 64,
-					mime_type : 'yH8IlFhK4XZowYfr',
-					size : 5121345782116126757,
+					date : 49,
+					mime_type : 'bfsRmIENX7UetS2H',
+					size : -6430224937786342328,
 					thumbs : array(
 						$client->photoSizeEmpty(...),
 						$client->photoSize(...),
@@ -541,7 +541,7 @@ $webPage = $client->webPage(
 						$client->videoSizeEmojiMarkup(...),
 						$client->videoSizeStickerMarkup(...),
 					),
-					dc_id : 51,
+					dc_id : 31,
 					attributes : array(
 						$client->documentAttributeImageSize(...),
 						$client->documentAttributeAnimated(...),

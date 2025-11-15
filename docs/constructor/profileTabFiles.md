@@ -1,5 +1,7 @@
 # profileTabFiles
 
+**Description** : *Represents the shared files tab of a profile*
+
 **Layer** : 216
 
 ```tl

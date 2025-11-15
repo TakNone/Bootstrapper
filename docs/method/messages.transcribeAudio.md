@@ -29,6 +29,8 @@ messages.transcribeAudio#269e9a49 peer:InputPeer msg_id:int = messages.Transcrib
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **MSG_ID_INVALID** | `400` | Invalid message ID provided |
+| **MSG_VOICE_MISSING** | `400` | The specified message is not a voice message |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
 | **TRANSCRIPTION_FAILED** | `400` | Audio transcription failed |
@@ -40,6 +42,6 @@ messages.transcribeAudio#269e9a49 peer:InputPeer msg_id:int = messages.Transcrib
 ```php
 $messagesTranscribedAudio = $client->messages->transcribeAudio(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 57,
+	msg_id : 51,
 );
 ```

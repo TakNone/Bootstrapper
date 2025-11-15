@@ -30,7 +30,7 @@ updateChannelViewForumAsMessages#7b68920 channel_id:long enabled:Bool = Update;
 
 ```php
 $update = $client->updateChannelViewForumAsMessages(
-	channel_id : 7256695921548616253,
+	channel_id : -2468446387566188497,
 	enabled : true,
 );
 ```

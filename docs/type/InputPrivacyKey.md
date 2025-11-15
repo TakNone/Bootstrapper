@@ -38,4 +38,4 @@ inputPrivacyKeyNoPaidMessages#bdc597b4 = InputPrivacyKey;
 | [**inputPrivacyKeyAbout**](constructor/inputPrivacyKeyAbout) | Whether people can see your bio |
 | [**inputPrivacyKeyBirthday**](constructor/inputPrivacyKeyBirthday) | Whether the user can see our birthday |
 | [**inputPrivacyKeyStarGiftsAutoSave**](constructor/inputPrivacyKeyStarGiftsAutoSave) | Whether received gifts will be automatically displayed on our profile |
-| [**inputPrivacyKeyNoPaidMessages**](constructor/inputPrivacyKeyNoPaidMessages) | NOTHING |
+| [**inputPrivacyKeyNoPaidMessages**](constructor/inputPrivacyKeyNoPaidMessages) | Who can send you messages without paying, if paid messages » are enabled |

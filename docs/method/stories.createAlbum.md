@@ -1,5 +1,7 @@
 # stories.createAlbum
 
+**Description** : *Creates a story album*
+
 **Layer** : 216
 
 ```tl
@@ -12,9 +14,9 @@ stories.createAlbum#a36396e5 peer:InputPeer title:string stories:Vector<int> = S
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>title</mark> | [`string`](type/string) | NOTHING |
-| <mark>stories</mark> | [`Vector<int>`](type/int) | NOTHING |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The owned peer where to create the album |
+| <mark>title</mark> | [`string`](type/string) | Album name |
+| <mark>stories</mark> | [`Vector<int>`](type/int) | Stories to add to the album |
 
 ---
 
@@ -24,12 +26,20 @@ stories.createAlbum#a36396e5 peer:InputPeer title:string stories:Vector<int> = S
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+
+---
+
 ## Example
 
 ```php
 $storyAlbum = $client->stories->createAlbum(
 	peer : $client->inputPeerEmpty(),
-	title : 'lOeGWay1umSbvioh',
-	stories : array(70),
+	title : 'IcHylexFoaWNJ5VK',
+	stories : array(48),
 );
 ```

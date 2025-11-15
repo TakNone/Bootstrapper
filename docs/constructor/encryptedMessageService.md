@@ -31,9 +31,9 @@ encryptedMessageService#23734b06 random_id:long chat_id:int date:int bytes:bytes
 
 ```php
 $encryptedMessage = $client->encryptedMessageService(
-	random_id : 724876953473192205,
-	chat_id : 26,
-	date : 5,
+	random_id : 7603290343339464723,
+	chat_id : 27,
+	date : 90,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -20,7 +20,7 @@ botBusinessConnection#8f34b2f5 flags:# disabled:flags.1?true connection_id:strin
 | <mark>user_id</mark> | [`long`](type/long) | ID of the user that the bot is connected to via this connection |
 | <mark>dc_id</mark> | [`int`](type/int) | ID of the datacenter where to send queries wrapped in a invokeWithBusinessConnection as specified here » |
 | <mark>date</mark> | [`int`](type/int) | When was the connection created |
-| **rights** | [`flags.2?BusinessBotRights`](type/BusinessBotRights) | NOTHING |
+| **rights** | [`flags.2?BusinessBotRights`](type/BusinessBotRights) | Business bot rights |
 
 ---
 
@@ -35,10 +35,10 @@ botBusinessConnection#8f34b2f5 flags:# disabled:flags.1?true connection_id:strin
 ```php
 $botBusinessConnection = $client->botBusinessConnection(
 	disabled : true,
-	connection_id : 'qQVmbwB3HT5lsKYc',
-	user_id : -2216608972253171116,
-	dc_id : 82,
-	date : 35,
+	connection_id : 'Vu8LADxCfPm2JceW',
+	user_id : 3124822932755182753,
+	dc_id : 91,
+	date : 96,
 	rights : $client->businessBotRights(
 		reply : true,
 		read_messages : true,

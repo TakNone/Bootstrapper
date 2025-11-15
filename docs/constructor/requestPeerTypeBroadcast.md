@@ -51,7 +51,7 @@ $requestPeerType = $client->requestPeerTypeBroadcast(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	has_username : false,
+	has_username : true,
 	bot_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,

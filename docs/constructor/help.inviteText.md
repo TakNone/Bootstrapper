@@ -28,6 +28,6 @@ help.inviteText#18cb9f78 message:string = help.InviteText;
 
 ```php
 $helpInviteText = $client->help->inviteText(
-	message : '5IX4Vte6x9UOwLSz',
+	message : '3o8HlgdDcrGyJNmq',
 );
 ```

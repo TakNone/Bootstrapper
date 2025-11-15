@@ -31,6 +31,7 @@ channels.getChannelRecommendations#25a71742 flags:# channel:flags.0?InputChannel
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
+| **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
 
 ---
 

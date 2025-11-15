@@ -39,7 +39,7 @@ bots.checkDownloadFileParams#50077589 bot:InputUser file_name:string url:string 
 ```php
 $bool = $client->bots->checkDownloadFileParams(
 	bot : $client->inputUserEmpty(),
-	file_name : '3EDpHtQgrI0Jxd1u',
+	file_name : 'I8mbs1wV0Oq7Gn5d',
 	url : 'https://docs.liveproto.dev',
 );
 ```

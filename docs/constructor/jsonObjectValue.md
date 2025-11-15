@@ -29,7 +29,7 @@ jsonObjectValue#c0de1bd9 key:string value:JSONValue = JSONObjectValue;
 
 ```php
 $jSONObjectValue = $client->jsonObjectValue(
-	key : 'az93FVyoOX7dtR6b',
+	key : 'XAdDu4C7r2SYR6yN',
 	value : $client->jsonNull(),
 );
 ```

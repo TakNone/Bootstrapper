@@ -32,6 +32,7 @@ messages.savePreparedInlineMessage#f21f7f2f flags:# result:InputBotInlineResult 
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **RESULT_ID_INVALID** | `400` | One of the specified result IDs is invalid |
+| **SEND_MESSAGE_GAME_INVALID** | `400` | An inputBotInlineMessageGame can only be contained in an inputBotInlineResultGame, not in an inputBotInlineResult/inputBotInlineResultPhoto/etc |
 | **USER_BOT_REQUIRED** | `400` | This method can only be called by a bot |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 
@@ -42,15 +43,15 @@ messages.savePreparedInlineMessage#f21f7f2f flags:# result:InputBotInlineResult 
 ```php
 $messagesBotPreparedInlineMessage = $client->messages->savePreparedInlineMessage(
 	result : $client->inputBotInlineResult(
-		id : 'k4Z3hMGBu67poeXJ',
-		type : 't9beTArXBlwIgcsn',
-		title : '4Q9zfR6UwtVFxOHI',
-		description : 'ADNO1Zbt3Tn6e50k',
+		id : 'tEFpoU1bxPXSaJrh',
+		type : 'MdLgiJKS6n2f9PIE',
+		title : '4VT9orz7HvwbsPKR',
+		description : 'QdLhnsawP6tNZVHr',
 		url : 'https://docs.liveproto.dev',
 		thumb : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 62,
-			mime_type : 'I8V1fNsYa0CD4wyU',
+			size : 75,
+			mime_type : 'wye6CaIvkMofjHbR',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -64,8 +65,8 @@ $messagesBotPreparedInlineMessage = $client->messages->savePreparedInlineMessage
 		),
 		content : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 87,
-			mime_type : 'qfoEXk9Kc1yDG7JC',
+			size : 64,
+			mime_type : 'LjIyi3bBvxzh1R2q',
 			attributes : array(
 				$client->documentAttributeImageSize(...),
 				$client->documentAttributeAnimated(...),
@@ -79,7 +80,7 @@ $messagesBotPreparedInlineMessage = $client->messages->savePreparedInlineMessage
 		),
 		send_message : $client->inputBotInlineMessageMediaAuto(
 			invert_media : true,
-			message : 'tvDA1XEwmVMzoSyQ',
+			message : 'izHyqCeWOZ7KDR3v',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),

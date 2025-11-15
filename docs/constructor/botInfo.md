@@ -24,7 +24,7 @@ botInfo#4d8a0299 flags:# has_preview_medias:flags.6?true user_id:flags.0?long de
 | **menu_button** | [`flags.3?BotMenuButton`](type/BotMenuButton) | Indicates the action to execute when pressing the in-UI menu button for bots |
 | **privacy_policy_url** | [`flags.7?string`](type/string) | The HTTP link to the privacy policy of the bot. If not set, then the /privacy command must be used, if supported by the bot (i.e. if it's present in the commands vector). If it isn't supported, then https://telegram.org/privacy-tpa must be opened, instead |
 | **app_settings** | [`flags.8?BotAppSettings`](type/BotAppSettings) | Mini app » settings |
-| **verifier_settings** | [`flags.9?BotVerifierSettings`](type/BotVerifierSettings) | NOTHING |
+| **verifier_settings** | [`flags.9?BotVerifierSettings`](type/BotVerifierSettings) | This bot can verify peers: this field contains more info about the verification the bot can assign to peers |
 
 ---
 
@@ -39,34 +39,34 @@ botInfo#4d8a0299 flags:# has_preview_medias:flags.6?true user_id:flags.0?long de
 ```php
 $botInfo = $client->botInfo(
 	has_preview_medias : true,
-	user_id : 4721730449569830379,
-	description : 'vCF4cN5VJMLmIn3S',
+	user_id : 2809256952825508914,
+	description : 'ent7P2hEWTYCpzFG',
 	description_photo : $client->photoEmpty(
-		id : 3810001640367031125,
+		id : 5083668825003126156,
 	),
 	description_document : $client->documentEmpty(
-		id : 3465336725680266629,
+		id : -4795521139217172232,
 	),
 	commands : array(
 		$client->botCommand(
-			command : 'A4cLHq0ywsCeN5JW',
-			description : 'wNTQtAn4hR52fxHZ',
+			command : 'zvZ1trh8AE5iS9yH',
+			description : 'fSgRj5luJXpk8I6s',
 		),
 	),
 	menu_button : $client->botMenuButtonDefault(),
 	privacy_policy_url : 'https://docs.liveproto.dev',
 	app_settings : $client->botAppSettings(
 		placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		background_color : 13,
-		background_dark_color : 14,
-		header_color : 74,
-		header_dark_color : 63,
+		background_color : 37,
+		background_dark_color : 71,
+		header_color : 23,
+		header_dark_color : 70,
 	),
 	verifier_settings : $client->botVerifierSettings(
 		can_modify_custom_description : true,
-		icon : -4434978344008814641,
-		company : 'FjhaKQRw7sH89X3A',
-		custom_description : 'Ao3J7rnuBZsczX4R',
+		icon : -1789917333432897846,
+		company : '1UNFIad92jh5DZY8',
+		custom_description : 'v4VZd2n5hENjuIw9',
 	),
 );
 ```

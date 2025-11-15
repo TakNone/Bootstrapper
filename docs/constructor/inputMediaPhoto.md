@@ -33,6 +33,6 @@ inputMediaPhoto#b3ba0635 flags:# spoiler:flags.1?true id:InputPhoto ttl_seconds:
 $inputMedia = $client->inputMediaPhoto(
 	spoiler : true,
 	id : $client->inputPhotoEmpty(),
-	ttl_seconds : 40,
+	ttl_seconds : 62,
 );
 ```

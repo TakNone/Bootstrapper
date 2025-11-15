@@ -73,6 +73,6 @@ $requestPeerType = $client->requestPeerTypeChat(
 		manage_direct_messages : true,
 	),
 	has_username : true,
-	forum : false,
+	forum : true,
 );
 ```

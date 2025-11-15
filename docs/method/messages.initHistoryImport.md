@@ -45,11 +45,11 @@ messages.initHistoryImport#34090c3b peer:InputPeer file:InputFile media_count:in
 $messagesHistoryImport = $client->messages->initHistoryImport(
 	peer : $client->inputPeerEmpty(),
 	file : $client->inputFile(
-		id : -9092687160383790579,
-		parts : 38,
-		name : 'rLpadH9WUyxGu70e',
+		id : -8128723470831297731,
+		parts : 48,
+		name : 'qG96pPicYF0t1xjJ',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	media_count : 39,
+	media_count : 26,
 );
 ```

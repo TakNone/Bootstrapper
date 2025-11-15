@@ -30,8 +30,8 @@ smsJob#e6a1eeb8 job_id:string phone_number:string text:string = SmsJob;
 
 ```php
 $smsJob = $client->smsJob(
-	job_id : 'WTaXzroCZw8tUp6P',
+	job_id : 'OXFlEjYUR48W5Vfz',
 	phone_number : '+1234567890',
-	text : 'Y6fQJ3zF1LKtdEng',
+	text : 'OlCxoAehd0U2DNWI',
 );
 ```

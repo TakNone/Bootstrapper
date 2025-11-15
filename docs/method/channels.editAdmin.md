@@ -38,12 +38,14 @@ channels.editAdmin#d33c8902 channel:InputChannel user_id:InputUser admin_rights:
 | **BOT_CHANNELS_NA** | `400` | Bots can't edit admin privileges |
 | **BOT_GROUPS_BLOCKED** | `400` | This bot can't be added to groups |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_MONOFORUM_UNSUPPORTED** | `400` | Monoforums do not support this feature |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_INVITE_REQUIRED** | `403` | You do not have the rights to do this |
 | **CHAT_ADMIN_REQUIRED** | `403` | You must be an admin in this chat to do this |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **FRESH_CHANGE_ADMINS_FORBIDDEN** | `406` | You were just elected admin, you can't add or modify other admins yet |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
+| **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **RIGHT_FORBIDDEN** | `403` | Your admin rights do not allow you to do this |
 | **USERS_TOO_MUCH** | `400` | The maximum number of users has been exceeded (to create a chat, for example) |
@@ -81,6 +83,6 @@ $updates = $client->channels->editAdmin(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : 'ZnBKbRf4Yxoa9W6N',
+	rank : 'wGnpfvCcsymTY3KZ',
 );
 ```

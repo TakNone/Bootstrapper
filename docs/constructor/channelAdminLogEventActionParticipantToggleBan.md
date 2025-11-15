@@ -30,14 +30,14 @@ channelAdminLogEventActionParticipantToggleBan#e6d83d7e prev_participant:Channel
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantToggleBan(
 	prev_participant : $client->channelParticipant(
-		user_id : -3323875154530804571,
-		date : 47,
-		subscription_until_date : 53,
+		user_id : -2480779433092355270,
+		date : 3,
+		subscription_until_date : 49,
 	),
 	new_participant : $client->channelParticipant(
-		user_id : 5825800358824550706,
-		date : 60,
-		subscription_until_date : 1,
+		user_id : -7265440896510319122,
+		date : 2,
+		subscription_until_date : 75,
 	),
 );
 ```

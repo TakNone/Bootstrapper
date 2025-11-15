@@ -39,6 +39,6 @@ channels.reorderUsernames#b45ced1d channel:InputChannel order:Vector<string> = B
 ```php
 $bool = $client->channels->reorderUsernames(
 	channel : $client->inputChannelEmpty(),
-	order : array('zyCj6tFY851QIUow'),
+	order : array('u2xkmsgZSnOr4N6c'),
 );
 ```

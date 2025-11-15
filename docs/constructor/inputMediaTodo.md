@@ -1,5 +1,7 @@
 # inputMediaTodo
 
+**Description** : *Creates a todo list &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ inputMediaTodo#9fc55fde todo:TodoList = InputMedia;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>todo</mark> | [`TodoList`](type/TodoList) | NOTHING |
+| <mark>todo</mark> | [`TodoList`](type/TodoList) | The todo list |
 
 ---
 
@@ -30,7 +32,7 @@ $inputMedia = $client->inputMediaTodo(
 		others_can_append : true,
 		others_can_complete : true,
 		title : $client->textWithEntities(
-			text : 'C89vLieJ25sxquRT',
+			text : 'tOaTpfiDCqsrdY1k',
 			entities : array(
 				$client->messageEntityUnknown(...),
 				$client->messageEntityMention(...),
@@ -57,7 +59,7 @@ $inputMedia = $client->inputMediaTodo(
 		),
 		list : array(
 			$client->todoItem(
-				id : 91,
+				id : 68,
 				title : $client->textWithEntities(...),
 			),
 		),

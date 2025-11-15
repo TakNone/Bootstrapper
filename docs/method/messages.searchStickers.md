@@ -36,11 +36,11 @@ messages.searchStickers#29b1c66a flags:# emojis:flags.0?true q:string emoticon:s
 ```php
 $messagesFoundStickers = $client->messages->searchStickers(
 	emojis : true,
-	q : '5TirXByl3u8tfpvq',
-	emoticon : 'rXT0qOakcKNHEZwW',
-	lang_code : array('T0KIwdZiQSRBeL2P'),
+	q : 'BXqvZ1OVp0Ybj8ud',
+	emoticon : 'nH6NBAc8MbvIUmlG',
+	lang_code : array('EF25iArxuXVg9HQN'),
 	offset : 0,
-	limit : 77,
+	limit : 15,
 	hash : 0,
 );
 ```

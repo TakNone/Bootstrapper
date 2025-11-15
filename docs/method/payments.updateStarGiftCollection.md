@@ -1,5 +1,7 @@
 # payments.updateStarGiftCollection
 
+**Description** : *Add or remove gifts from a star gift collection &raquo;, or rename the collection*
+
 **Layer** : 216
 
 ```tl
@@ -12,13 +14,13 @@ payments.updateStarGiftCollection#4fddbee7 flags:# peer:InputPeer collection_id:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>collection_id</mark> | [`int`](type/int) | NOTHING |
-| **title** | [`flags.0?string`](type/string) | NOTHING |
-| **delete_stargift** | [`flags.1?Vector<InputSavedStarGift>`](type/InputSavedStarGift) | NOTHING |
-| **add_stargift** | [`flags.2?Vector<InputSavedStarGift>`](type/InputSavedStarGift) | NOTHING |
-| **order** | [`flags.3?Vector<InputSavedStarGift>`](type/InputSavedStarGift) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer that owns the collection |
+| <mark>collection_id</mark> | [`int`](type/int) | Collection ID |
+| **title** | [`flags.0?string`](type/string) | Title of the collection, to rename the collection |
+| **delete_stargift** | [`flags.1?Vector<InputSavedStarGift>`](type/InputSavedStarGift) | Can contain a list of gifts to remove from the collection |
+| **add_stargift** | [`flags.2?Vector<InputSavedStarGift>`](type/InputSavedStarGift) | Can contain a list of gifts to add to the collection |
+| **order** | [`flags.3?Vector<InputSavedStarGift>`](type/InputSavedStarGift) | Can contain the new gift order |
 
 ---
 
@@ -28,47 +30,55 @@ payments.updateStarGiftCollection#4fddbee7 flags:# peer:InputPeer collection_id:
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+
+---
+
 ## Example
 
 ```php
 $starGiftCollection = $client->payments->updateStarGiftCollection(
 	peer : $client->inputPeerEmpty(),
-	collection_id : 9,
-	title : 'tZWQIRdEz2gsvq0u',
+	collection_id : 28,
+	title : 'd1h85POULCWsYgkb',
 	delete_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 47,
+			msg_id : 0,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->inputPeerEmpty(),
-			saved_id : -3565507078513734403,
+			saved_id : -8626870539286419825,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'VYvcuWg3PqKQkxab',
+			slug : 'AmYBduTMCioJZ9Fa',
 		),
 	),
 	add_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 29,
+			msg_id : 38,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->inputPeerEmpty(),
-			saved_id : -3928834286705134421,
+			saved_id : -1262470964043039479,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : '3Ghz8WLKNgo2FcMV',
+			slug : 'EoYqp2NZGshPm8O1',
 		),
 	),
 	order : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 54,
+			msg_id : 96,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->inputPeerEmpty(),
-			saved_id : 5173774343620021476,
+			saved_id : -7213020667223642710,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : '3XtlUcBdL17iMnsW',
+			slug : 'dEkCDMsj72qGSY0l',
 		),
 	),
 );

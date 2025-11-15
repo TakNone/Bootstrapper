@@ -30,8 +30,10 @@ channels.joinChannel#24b524c5 channel:InputChannel = Updates;
 | :---: | :---: | :--- |
 | **CHANNELS_TOO_MUCH** | `400` | You have joined too many channels/supergroups |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_MONOFORUM_UNSUPPORTED** | `400` | Monoforums do not support this feature |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
 | **CHAT_INVALID** | `400` | Invalid chat |
+| **FROZEN_METHOD_INVALID** | `420` | The current account is frozen, and thus cannot execute the specified action |
 | **INVITE_HASH_EMPTY** | `400` | The invite hash is empty |
 | **INVITE_HASH_EXPIRED** | `406` | The invite link has expired |
 | **INVITE_HASH_INVALID** | `400` | The invite hash is invalid |

@@ -30,6 +30,7 @@ payments.refundStarsCharge#25ae8f4a user_id:InputUser charge_id:string = Updates
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CHARGE_ALREADY_REFUNDED** | `400` | The transaction was already refunded |
+| **CHARGE_ID_EMPTY** | `400` | The specified charge_id is empty |
 | **USER_BOT_REQUIRED** | `400` | This method can only be called by a bot |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 
@@ -40,6 +41,6 @@ payments.refundStarsCharge#25ae8f4a user_id:InputUser charge_id:string = Updates
 ```php
 $updates = $client->payments->refundStarsCharge(
 	user_id : $client->inputUserEmpty(),
-	charge_id : 'Ur0Kvs1DPS2uyLCa',
+	charge_id : '1JRU3EI2Xb4MwK9p',
 );
 ```

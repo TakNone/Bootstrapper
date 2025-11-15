@@ -17,7 +17,7 @@ messages.getQuickReplyMessages#94a495c3 flags:# shortcut_id:int id:flags.0?Vecto
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>shortcut_id</mark> | [`int`](type/int) | Quick reply shortcut ID |
 | **id** | [`flags.0?Vector<int>`](type/int) | IDs of the messages to fetch, if empty fetches all of them |
-| <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
+| <mark>hash</mark> | [`long`](type/long) | Hash for pagination, generated as specified here » (not the usual algorithm used for hash generation) |
 
 ---
 
@@ -39,8 +39,8 @@ messages.getQuickReplyMessages#94a495c3 flags:# shortcut_id:int id:flags.0?Vecto
 
 ```php
 $messagesMessages = $client->messages->getQuickReplyMessages(
-	shortcut_id : 88,
-	id : array(94),
+	shortcut_id : 5,
+	id : array(78),
 	hash : 0,
 );
 ```

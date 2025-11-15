@@ -30,6 +30,6 @@ messages.getExtendedMedia#84f80814 peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->getExtendedMedia(
 	peer : $client->inputPeerEmpty(),
-	id : array(18),
+	id : array(68),
 );
 ```

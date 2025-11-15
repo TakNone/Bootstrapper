@@ -1,5 +1,7 @@
 # botVerifierSettings
 
+**Description** : *Info about the current verifier bot &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,11 +14,11 @@ botVerifierSettings#b0cd6617 flags:# can_modify_custom_description:flags.1?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **can_modify_custom_description** | [`flags.1?true`](type/true) | NOTHING |
-| <mark>icon</mark> | [`long`](type/long) | NOTHING |
-| <mark>company</mark> | [`string`](type/string) | NOTHING |
-| **custom_description** | [`flags.0?string`](type/string) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **can_modify_custom_description** | [`flags.1?true`](type/true) | Indicates whether the bot is allowed to set a custom description field for individual verified peers, different from the custom_description provided here |
+| <mark>icon</mark> | [`long`](type/long) | Verification icon |
+| <mark>company</mark> | [`string`](type/string) | The name of the organization that provides the verification |
+| **custom_description** | [`flags.0?string`](type/string) | An optional default description for the verification |
 
 ---
 
@@ -31,8 +33,8 @@ botVerifierSettings#b0cd6617 flags:# can_modify_custom_description:flags.1?true 
 ```php
 $botVerifierSettings = $client->botVerifierSettings(
 	can_modify_custom_description : true,
-	icon : -3118271479036330106,
-	company : '9Megji80D1VxulIY',
-	custom_description : 'BaJinD5us1pLVrPb',
+	icon : -6911505390028471552,
+	company : 'te0pGc7s9VNTDRfJ',
+	custom_description : 'QsJmNXRi24GKZAfe',
 );
 ```

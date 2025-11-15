@@ -36,7 +36,7 @@ $bool = $client->messages->reorderPinnedSavedDialogs(
 			peer : $client->inputPeerEmpty(),
 		),
 		$client->inputDialogPeerFolder(
-			folder_id : 68,
+			folder_id : 97,
 		),
 	),
 );

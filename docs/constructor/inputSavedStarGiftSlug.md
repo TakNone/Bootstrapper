@@ -1,5 +1,7 @@
 # inputSavedStarGiftSlug
 
+**Description** : *Points to a collectible gift obtained from a collectible gift link &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ inputSavedStarGiftSlug#2085c238 slug:string = InputSavedStarGift;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>slug</mark> | [`string`](type/string) | NOTHING |
+| <mark>slug</mark> | [`string`](type/string) | Slug from the link |
 
 ---
 
@@ -26,6 +28,6 @@ inputSavedStarGiftSlug#2085c238 slug:string = InputSavedStarGift;
 
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftSlug(
-	slug : '7wUgRtdlDZv8c3mk',
+	slug : 'v9dEQM6GZcDqhPkz',
 );
 ```

@@ -41,6 +41,6 @@ channels.reorderPinnedForumTopics#2950a18f flags:# force:flags.0?true channel:In
 $updates = $client->channels->reorderPinnedForumTopics(
 	force : true,
 	channel : $client->inputChannelEmpty(),
-	order : array(31),
+	order : array(80),
 );
 ```

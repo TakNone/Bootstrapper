@@ -1,5 +1,7 @@
 # account.savedMusicIds
 
+**Description** : *List of IDs of songs \(document\.ids\) currently pinned on our profile, see here &raquo; for more info*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ account.savedMusicIds#998d6636 ids:Vector<long> = account.SavedMusicIds;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>ids</mark> | [`Vector<long>`](type/long) | NOTHING |
+| <mark>ids</mark> | [`Vector<long>`](type/long) | Full list of document.ids |
 
 ---
 
@@ -26,6 +28,6 @@ account.savedMusicIds#998d6636 ids:Vector<long> = account.SavedMusicIds;
 
 ```php
 $accountSavedMusicIds = $client->account->savedMusicIds(
-	ids : array(-2835833954280489127),
+	ids : array(1173834564784922993),
 );
 ```

@@ -14,7 +14,7 @@ chatTheme#c3dffc04 emoticon:string = ChatTheme;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>emoticon</mark> | [`string`](type/string) | Emoji, identifying this specific chat theme |
+| <mark>emoticon</mark> | [`string`](type/string) | The emoji identifying the chat theme |
 
 ---
 
@@ -28,6 +28,6 @@ chatTheme#c3dffc04 emoticon:string = ChatTheme;
 
 ```php
 $chatTheme = $client->chatTheme(
-	emoticon : '8rcdVBjCp0oQiIek',
+	emoticon : 'EQYtn082KcLX3Ug1',
 );
 ```

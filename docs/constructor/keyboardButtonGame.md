@@ -28,6 +28,6 @@ keyboardButtonGame#50f41ccf text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonGame(
-	text : 'OzK6ZlMDvSY9wuko',
+	text : 'pxV9JMGh4CNIR3aP',
 );
 ```

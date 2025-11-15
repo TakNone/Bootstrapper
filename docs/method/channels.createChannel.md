@@ -44,7 +44,7 @@ channels.createChannel#91006707 flags:# broadcast:flags.0?true megagroup:flags.1
 | **CHAT_INVALID** | `500` | Invalid chat |
 | **CHAT_TITLE_EMPTY** | `400` | No chat title provided |
 | **TTL_PERIOD_INVALID** | `400` | The specified TTL period is invalid |
-| **USER_RESTRICTED** | `406` | You're spamreported, you can't create channels or chats |
+| **USER_RESTRICTED** | `403` | You're spamreported, you can't create channels or chats |
 
 ---
 
@@ -56,10 +56,10 @@ $updates = $client->channels->createChannel(
 	megagroup : true,
 	for_import : true,
 	forum : true,
-	title : 'YdLMzACbWTX8NQmI',
-	about : 'twUWCM4OGHjK5SRa',
+	title : 'ZayBN8wQGn6KjRLM',
+	about : 'ZHl7RArgNdjJ3eIE',
 	geo_point : $client->inputGeoPointEmpty(),
-	address : '6J2YzHGQiosTdKUc',
-	ttl_period : 64,
+	address : 'sIyqYXPp0ahurlK5',
+	ttl_period : 13,
 );
 ```

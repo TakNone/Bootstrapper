@@ -48,10 +48,10 @@ account.registerDevice#ec86017a flags:# no_muted:flags.0?true token_type:int tok
 ```php
 $bool = $client->account->registerDevice(
 	no_muted : true,
-	token_type : 55,
-	token : 'x0yJcHLKDenUVImd',
-	app_sandbox : true,
+	token_type : 23,
+	token : 'MPzFHnORpYXQwIfe',
+	app_sandbox : false,
 	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	other_uids : array(8766345724443725943),
+	other_uids : array(8424169040690923563),
 );
 ```

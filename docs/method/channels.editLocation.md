@@ -44,6 +44,6 @@ channels.editLocation#58e63f6d channel:InputChannel geo_point:InputGeoPoint addr
 $bool = $client->channels->editLocation(
 	channel : $client->inputChannelEmpty(),
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'FwHj2cCZas87DBkq',
+	address : 'KRmUcQ6ohLsjVPeb',
 );
 ```

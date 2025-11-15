@@ -30,8 +30,8 @@ messages.affectedHistory#b45c69d1 pts:int pts_count:int offset:int = messages.Af
 
 ```php
 $messagesAffectedHistory = $client->messages->affectedHistory(
-	pts : 100,
-	pts_count : 95,
+	pts : 0,
+	pts_count : 4,
 	offset : 0,
 );
 ```

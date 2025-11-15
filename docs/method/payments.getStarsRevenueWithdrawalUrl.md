@@ -14,10 +14,10 @@ payments.getStarsRevenueWithdrawalUrl#2433dc92 flags:# ton:flags.0?true peer:Inp
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **ton** | [`flags.0?true`](type/true) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **ton** | [`flags.0?true`](type/true) | If set, withdraws channel/ad revenue in TON |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Channel or bot from which to withdraw funds |
-| **amount** | [`flags.1?long`](type/long) | NOTHING |
+| **amount** | [`flags.1?long`](type/long) | The amount of stars or nanotons to withdraw |
 | <mark>password</mark> | [`InputCheckPasswordSRP`](type/InputCheckPasswordSRP) | 2FA password, see here » for more info |
 
 ---
@@ -45,7 +45,7 @@ payments.getStarsRevenueWithdrawalUrl#2433dc92 flags:# ton:flags.0?true peer:Inp
 $paymentsStarsRevenueWithdrawalUrl = $client->payments->getStarsRevenueWithdrawalUrl(
 	ton : true,
 	peer : $client->inputPeerEmpty(),
-	amount : -272714911524318880,
+	amount : -2309503675329859088,
 	password : $client->inputCheckPasswordEmpty(),
 );
 ```

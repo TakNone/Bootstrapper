@@ -15,7 +15,7 @@ messages.savedReactionTags#3259950a tags:Vector<SavedReactionTag> hash:long = me
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>tags</mark> | [`Vector<SavedReactionTag>`](type/SavedReactionTag) | Saved reaction tags |
-| <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
+| <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here. Can also be manually regenerated, if needed, using the custom algorithm specified here » |
 
 ---
 
@@ -32,8 +32,8 @@ $messagesSavedReactionTags = $client->messages->savedReactionTags(
 	tags : array(
 		$client->savedReactionTag(
 			reaction : $client->reactionEmpty(),
-			title : 'kc02OEq4JRB6y1tx',
-			count : 66,
+			title : 'NeoM3tL58aXDSv4q',
+			count : 27,
 		),
 	),
 	hash : 0,

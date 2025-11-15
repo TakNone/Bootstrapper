@@ -38,6 +38,8 @@ messages.getHistory#4423e6c5 peer:InputPeer offset_id:int offset_date:int add_of
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
 | **CHAT_ID_INVALID** | `400` | The provided chat id is invalid |
+| **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
+| **FROZEN_PARTICIPANT_MISSING** | `400` | The current account is frozen, and cannot access the specified peer |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **TAKEOUT_INVALID** | `400` | The specified takeout ID is invalid |
@@ -51,10 +53,10 @@ $messagesMessages = $client->messages->getHistory(
 	peer : $client->inputPeerEmpty(),
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 18,
-	limit : 48,
-	max_id : 21,
-	min_id : 38,
+	add_offset : 99,
+	limit : 14,
+	max_id : 100,
+	min_id : 62,
 	hash : 0,
 );
 ```

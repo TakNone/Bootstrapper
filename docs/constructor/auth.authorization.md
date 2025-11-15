@@ -16,7 +16,7 @@ auth.authorization#2ea2c0d4 flags:# setup_password_required:flags.1?true otherwi
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **setup_password_required** | [`flags.1?true`](type/true) | Suggests the user to set up a 2-step verification password to be able to log in again |
-| **otherwise_relogin_days** | [`flags.1?int`](type/int) | Iff setup_password_required is set and the user declines to set a 2-step verification password, they will be able to log into their account via SMS again only after this many days pass |
+| **otherwise_relogin_days** | [`flags.1?int`](type/int) | If and only if setup_password_required is set and the user declines to set a 2-step verification password, they will be able to log into their account via SMS again only after this many days pass |
 | **tmp_sessions** | [`flags.0?int`](type/int) | Temporary passport sessions |
 | **future_auth_token** | [`flags.2?bytes`](type/bytes) | A future auth token |
 | <mark>user</mark> | [`User`](type/User) | Info on authorized user |
@@ -34,11 +34,11 @@ auth.authorization#2ea2c0d4 flags:# setup_password_required:flags.1?true otherwi
 ```php
 $authAuthorization = $client->auth->authorization(
 	setup_password_required : true,
-	otherwise_relogin_days : 23,
-	tmp_sessions : 4,
+	otherwise_relogin_days : 57,
+	tmp_sessions : 86,
 	future_auth_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	user : $client->userEmpty(
-		id : 8542925584234470753,
+		id : -1686273275461107262,
 	),
 );
 ```

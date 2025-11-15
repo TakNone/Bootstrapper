@@ -14,7 +14,7 @@ payments.convertStarGift#74bf076b stargift:InputSavedStarGift = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>stargift</mark> | [`InputSavedStarGift`](type/InputSavedStarGift) | NOTHING |
+| <mark>stargift</mark> | [`InputSavedStarGift`](type/InputSavedStarGift) | The gift to convert |
 
 ---
 
@@ -28,6 +28,10 @@ payments.convertStarGift#74bf076b stargift:InputSavedStarGift = Bool;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
+| **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
+| **SAVED_ID_EMPTY** | `400` | The passed inputSavedStarGiftChat.saved_id is empty |
+| **STARGIFT_PEER_INVALID** | `400` | The specified inputSavedStarGiftChat.peer is invalid |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 
 ---
@@ -37,7 +41,7 @@ payments.convertStarGift#74bf076b stargift:InputSavedStarGift = Bool;
 ```php
 $bool = $client->payments->convertStarGift(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 49,
+		msg_id : 24,
 	),
 );
 ```

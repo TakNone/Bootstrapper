@@ -1,5 +1,7 @@
 # SearchPostsFlood
 
+**Description** : *Indicates if the specified global post search &raquo; requires payment*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ searchPostsFlood#3e0b5b6a flags:# query_is_free:flags.0?true total_daily:int rem
 
 | Constructor | Description |
 | :---: | :--- |
-| [**searchPostsFlood**](constructor/searchPostsFlood) | NOTHING |
+| [**searchPostsFlood**](constructor/searchPostsFlood) | Indicates if the specified global post search » requires payment |

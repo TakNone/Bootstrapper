@@ -30,7 +30,7 @@ inputCheckPasswordSRP#d27ff082 srp_id:long A:bytes M1:bytes = InputCheckPassword
 
 ```php
 $inputCheckPasswordSRP = $client->inputCheckPasswordSRP(
-	srp_id : -4294502683113567655,
+	srp_id : -3799853134793624738,
 	A : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	M1 : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

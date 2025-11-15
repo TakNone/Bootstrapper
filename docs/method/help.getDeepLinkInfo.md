@@ -28,6 +28,6 @@ help.getDeepLinkInfo#3fedc75f path:string = help.DeepLinkInfo;
 
 ```php
 $helpDeepLinkInfo = $client->help->getDeepLinkInfo(
-	path : 'QgUG0wokXHvFi6nO',
+	path : '8gRZdkEwyHosqO4D',
 );
 ```

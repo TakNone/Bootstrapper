@@ -17,5 +17,5 @@ inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
 | Constructor | Description |
 | :---: | :--- |
 | [**inputGroupCall**](constructor/inputGroupCall) | Points to a specific group call |
-| [**inputGroupCallSlug**](constructor/inputGroupCallSlug) | NOTHING |
-| [**inputGroupCallInviteMessage**](constructor/inputGroupCallInviteMessage) | NOTHING |
+| [**inputGroupCallSlug**](constructor/inputGroupCallSlug) | Join a conference call through an invitation link » |
+| [**inputGroupCallInviteMessage**](constructor/inputGroupCallInviteMessage) | Join a group call through a messageActionConferenceCall invitation message |

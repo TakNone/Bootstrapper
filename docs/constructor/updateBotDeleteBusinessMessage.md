@@ -31,11 +31,11 @@ updateBotDeleteBusinessMessage#a02a982e connection_id:string peer:Peer messages:
 
 ```php
 $update = $client->updateBotDeleteBusinessMessage(
-	connection_id : 'nlPWuN78yXb9JMHw',
+	connection_id : 'U78Sspo2xA0TdEnI',
 	peer : $client->peerUser(
-		user_id : 5588756776881669946,
+		user_id : -8761858843315752635,
 	),
-	messages : array(15),
-	qts : 73,
+	messages : array(91),
+	qts : 65,
 );
 ```

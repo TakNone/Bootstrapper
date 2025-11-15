@@ -29,7 +29,7 @@ sponsoredMessageReportOption#430d3150 text:string option:bytes = SponsoredMessag
 
 ```php
 $sponsoredMessageReportOption = $client->sponsoredMessageReportOption(
-	text : 'nWh8XEzGJkCFj6lv',
+	text : 'dEMT0Fs6r9GS3C8w',
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

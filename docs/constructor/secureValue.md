@@ -49,11 +49,11 @@ $secureValue = $client->secureValue(
 	translation : array(
 		$client->secureFileEmpty(),
 		$client->secureFile(
-			id : -7332774943992054810,
-			access_hash : -4604341590826531833,
-			size : 4836802737261164601,
-			dc_id : 14,
-			date : 38,
+			id : 6560474681223278802,
+			access_hash : 254731543542884586,
+			size : -6661335227427798024,
+			dc_id : 32,
+			date : 86,
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
@@ -61,11 +61,11 @@ $secureValue = $client->secureValue(
 	files : array(
 		$client->secureFileEmpty(),
 		$client->secureFile(
-			id : -5289102893941565224,
-			access_hash : -1832810192398908492,
-			size : 220876362552923573,
-			dc_id : 81,
-			date : 66,
+			id : 1735657629307417891,
+			access_hash : -6144199997724366582,
+			size : -3875473951363141133,
+			dc_id : 9,
+			date : 17,
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),

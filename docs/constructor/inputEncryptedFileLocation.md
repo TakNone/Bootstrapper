@@ -29,7 +29,7 @@ inputEncryptedFileLocation#f5235d55 id:long access_hash:long = InputFileLocation
 
 ```php
 $inputFileLocation = $client->inputEncryptedFileLocation(
-	id : 2303214740906001545,
-	access_hash : -1962522788248899504,
+	id : 8928070278471306612,
+	access_hash : -3977855471018470369,
 );
 ```

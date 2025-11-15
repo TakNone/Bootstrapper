@@ -1,5 +1,7 @@
 # inputChatThemeEmpty
 
+**Description** : *Remove any currently configured theme*
+
 **Layer** : 216
 
 ```tl

@@ -39,6 +39,7 @@ channels.editForumTopic#f4dfa185 flags:# channel:InputChannel topic_id:int title
 | **CHAT_ADMIN_REQUIRED** | `403` | You must be an admin in this chat to do this |
 | **DOCUMENT_INVALID** | `400` | The specified document is invalid |
 | **GENERAL_MODIFY_ICON_FORBIDDEN** | `400` | You can't modify the icon of the "General" topic |
+| **NOGENERAL_HIDE_FORBIDDEN** | `400` | Only the "General" topic with id=1 can be hidden |
 | **TOPIC_CLOSE_SEPARATELY** | `400` | The close flag cannot be provided together with any of the other flags |
 | **TOPIC_HIDE_SEPARATELY** | `400` | The hide flag cannot be provided together with any of the other flags |
 | **TOPIC_ID_INVALID** | `400` | The specified topic ID is invalid |
@@ -51,10 +52,10 @@ channels.editForumTopic#f4dfa185 flags:# channel:InputChannel topic_id:int title
 ```php
 $updates = $client->channels->editForumTopic(
 	channel : $client->inputChannelEmpty(),
-	topic_id : 34,
-	title : 'HqNZ7zoWYi2beAvt',
-	icon_emoji_id : 7871680982792494878,
+	topic_id : 83,
+	title : 'sdU8KVQkD4GtHAbo',
+	icon_emoji_id : 2966581422532248315,
 	closed : false,
-	hidden : true,
+	hidden : false,
 );
 ```

@@ -37,8 +37,8 @@ $phoneCall = $client->phoneCallDiscarded(
 	need_rating : true,
 	need_debug : true,
 	video : true,
-	id : 7307826458525732507,
+	id : -9109228664542772269,
 	reason : $client->phoneCallDiscardReasonMissed(),
-	duration : 34,
+	duration : 98,
 );
 ```

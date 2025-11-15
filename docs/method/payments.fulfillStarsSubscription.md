@@ -38,6 +38,6 @@ payments.fulfillStarsSubscription#cc5bebb3 peer:InputPeer subscription_id:string
 ```php
 $bool = $client->payments->fulfillStarsSubscription(
 	peer : $client->inputPeerEmpty(),
-	subscription_id : 'VWXYdgPGrBQo1jqZ',
+	subscription_id : 'iAy7NRcYtsMkTPU0',
 );
 ```

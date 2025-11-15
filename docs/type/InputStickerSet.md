@@ -36,4 +36,4 @@ inputStickerSetTonGifts#1cf671a0 = InputStickerSet;
 | [**inputStickerSetEmojiDefaultStatuses**](constructor/inputStickerSetEmojiDefaultStatuses) | Default custom emoji status stickerset |
 | [**inputStickerSetEmojiDefaultTopicIcons**](constructor/inputStickerSetEmojiDefaultTopicIcons) | Default custom emoji stickerset for forum topic icons |
 | [**inputStickerSetEmojiChannelDefaultStatuses**](constructor/inputStickerSetEmojiChannelDefaultStatuses) | Default custom emoji status stickerset for channel statuses |
-| [**inputStickerSetTonGifts**](constructor/inputStickerSetTonGifts) | NOTHING |
+| [**inputStickerSetTonGifts**](constructor/inputStickerSetTonGifts) | TON gifts stickerset |

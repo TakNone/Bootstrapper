@@ -30,6 +30,6 @@ channelLocation#209b82db geo_point:GeoPoint address:string = ChannelLocation;
 ```php
 $channelLocation = $client->channelLocation(
 	geo_point : $client->geoPointEmpty(),
-	address : '9NkxEqm7no5hvPSH',
+	address : 'kK13fr6XoUFMYl5J',
 );
 ```

@@ -28,6 +28,7 @@ channels.getLeftChannels#8341ecc0 offset:int = messages.Chats;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **TAKEOUT_INVALID** | `400` | The specified takeout ID is invalid |
 | **TAKEOUT_REQUIRED** | `403` | A takeout session needs to be initialized first, see here » for more info |
 
 ---

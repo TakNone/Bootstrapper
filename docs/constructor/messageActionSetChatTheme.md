@@ -14,7 +14,7 @@ messageActionSetChatTheme#b91bbd3a theme:ChatTheme = MessageAction;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>theme</mark> | [`ChatTheme`](type/ChatTheme) | NOTHING |
+| <mark>theme</mark> | [`ChatTheme`](type/ChatTheme) | The new chat theme |
 
 ---
 
@@ -29,7 +29,7 @@ messageActionSetChatTheme#b91bbd3a theme:ChatTheme = MessageAction;
 ```php
 $messageAction = $client->messageActionSetChatTheme(
 	theme : $client->chatTheme(
-		emoticon : 'XPs1RLrSDYJKmqnA',
+		emoticon : 'R1CcgMfWGphYT08N',
 	),
 );
 ```

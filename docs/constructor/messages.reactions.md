@@ -14,7 +14,7 @@ messages.reactions#eafdf716 hash:long reactions:Vector<Reaction> = messages.Reac
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
+| <mark>hash</mark> | [`long`](type/long) | Hash used for caching, can also be locally regenerated using the algorithm specified here » |
 | <mark>reactions</mark> | [`Vector<Reaction>`](type/Reaction) | Reactions |
 
 ---
@@ -33,10 +33,10 @@ $messagesReactions = $client->messages->reactions(
 	reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : '8NGjFvPWDer97E2A',
+			emoticon : 'F29HlxkWN1vUmteM',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -6315690942725149323,
+			document_id : -4372990976087422823,
 		),
 		$client->reactionPaid(),
 	),

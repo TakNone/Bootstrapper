@@ -31,6 +31,7 @@ payments.botCancelStarsSubscription#6dfa0622 flags:# restore:flags.0?true user_i
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHARGE_ID_INVALID** | `400` | The specified charge_id is invalid |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 
 ---
@@ -41,6 +42,6 @@ payments.botCancelStarsSubscription#6dfa0622 flags:# restore:flags.0?true user_i
 $bool = $client->payments->botCancelStarsSubscription(
 	restore : true,
 	user_id : $client->inputUserEmpty(),
-	charge_id : 'wDLIa13VlQEx9rjb',
+	charge_id : 'j0sRo4AEHyFNIKmC',
 );
 ```

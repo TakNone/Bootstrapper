@@ -41,31 +41,31 @@ messages.sendBotRequestedPeer#91b2d060 peer:InputPeer msg_id:int button_id:int r
 ```php
 $updates = $client->messages->sendBotRequestedPeer(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 90,
-	button_id : 49,
+	msg_id : 43,
+	button_id : 81,
 	requested_peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 1348932167666342390,
+			chat_id : -2020538539617766103,
 		),
 		$client->inputPeerUser(
-			user_id : 7880965571418777416,
-			access_hash : -4278491964783941796,
+			user_id : 7747377667832634218,
+			access_hash : -2312577030632694737,
 		),
 		$client->inputPeerChannel(
-			channel_id : 6626210938832233251,
-			access_hash : 4462923226576970330,
+			channel_id : -2193095065856124288,
+			access_hash : -7306544264273731932,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 33,
-			user_id : 6648525837725318628,
+			msg_id : 21,
+			user_id : 3281248683160093957,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 16,
-			channel_id : 684771816425723124,
+			msg_id : 45,
+			channel_id : 4294626336370133956,
 		),
 	),
 );

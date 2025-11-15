@@ -54,6 +54,7 @@ messages.search#29ee847a flags:# peer:InputPeer q:string from_id:flags.0?InputPe
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **PEER_ID_NOT_SUPPORTED** | `400` | The provided peer ID is not supported |
 | **SEARCH_QUERY_EMPTY** | `400` | The search query is empty |
+| **TAKEOUT_INVALID** | `400` | The specified takeout ID is invalid |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 
 ---
@@ -63,28 +64,28 @@ messages.search#29ee847a flags:# peer:InputPeer q:string from_id:flags.0?InputPe
 ```php
 $messagesMessages = $client->messages->search(
 	peer : $client->inputPeerEmpty(),
-	q : 'Kw3YQ206MFHGaW9L',
+	q : 'arF9xiJBmV8uAyMN',
 	from_id : $client->inputPeerEmpty(),
 	saved_peer_id : $client->inputPeerEmpty(),
 	saved_reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'IdLi2GhkrgloeBty',
+			emoticon : 'v6CG2QZ1bBt3UOLf',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -7758973762186248000,
+			document_id : 3247220637857017157,
 		),
 		$client->reactionPaid(),
 	),
-	top_msg_id : 66,
+	top_msg_id : 75,
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 57,
-	max_date : 38,
+	min_date : 73,
+	max_date : 40,
 	offset_id : 0,
-	add_offset : 59,
-	limit : 98,
-	max_id : 41,
-	min_id : 50,
+	add_offset : 43,
+	limit : 86,
+	max_id : 81,
+	min_id : 100,
 	hash : 0,
 );
 ```

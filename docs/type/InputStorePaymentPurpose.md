@@ -28,4 +28,4 @@ inputStorePaymentAuthCode#9bb2636d flags:# restore:flags.0?true phone_number:str
 | [**inputStorePaymentStarsTopup**](constructor/inputStorePaymentStarsTopup) | Used to top up the Telegram Stars balance of the current account |
 | [**inputStorePaymentStarsGift**](constructor/inputStorePaymentStarsGift) | Used to gift Telegram Stars to a friend |
 | [**inputStorePaymentStarsGiveaway**](constructor/inputStorePaymentStarsGiveaway) | Used to pay for a star giveaway, see here » for more info |
-| [**inputStorePaymentAuthCode**](constructor/inputStorePaymentAuthCode) | NOTHING |
+| [**inputStorePaymentAuthCode**](constructor/inputStorePaymentAuthCode) | Indicates payment for a login code |

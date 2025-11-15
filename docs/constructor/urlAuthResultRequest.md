@@ -33,8 +33,8 @@ urlAuthResultRequest#92d33a0e flags:# request_write_access:flags.0?true bot:User
 $urlAuthResult = $client->urlAuthResultRequest(
 	request_write_access : true,
 	bot : $client->userEmpty(
-		id : -1532121135869029863,
+		id : -6601412326036025324,
 	),
-	domain : 'B3Xn7z6i5jJwhTfD',
+	domain : 'VuT9yxwqRBd1IvNs',
 );
 ```

@@ -39,14 +39,14 @@ peerNotifySettings#99622c0c flags:# show_previews:flags.0?Bool silent:flags.1?Bo
 
 ```php
 $peerNotifySettings = $client->peerNotifySettings(
-	show_previews : true,
+	show_previews : false,
 	silent : false,
-	mute_until : 64,
+	mute_until : 1,
 	ios_sound : $client->notificationSoundDefault(),
 	android_sound : $client->notificationSoundDefault(),
 	other_sound : $client->notificationSoundDefault(),
 	stories_muted : false,
-	stories_hide_sender : false,
+	stories_hide_sender : true,
 	stories_ios_sound : $client->notificationSoundDefault(),
 	stories_android_sound : $client->notificationSoundDefault(),
 	stories_other_sound : $client->notificationSoundDefault(),

@@ -30,8 +30,8 @@ chatAdminWithInvites#f2ecef23 admin_id:long invites_count:int revoked_invites_co
 
 ```php
 $chatAdminWithInvites = $client->chatAdminWithInvites(
-	admin_id : 2301011262270445296,
-	invites_count : 79,
-	revoked_invites_count : 4,
+	admin_id : 4069488428815694051,
+	invites_count : 71,
+	revoked_invites_count : 18,
 );
 ```

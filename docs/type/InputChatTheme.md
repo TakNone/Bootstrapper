@@ -1,5 +1,7 @@
 # InputChatTheme
 
+**Description** : *Specifies a chat theme &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -14,6 +16,6 @@ inputChatThemeUniqueGift#87e5dfe4 slug:string = InputChatTheme;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**inputChatThemeEmpty**](constructor/inputChatThemeEmpty) | NOTHING |
-| [**inputChatTheme**](constructor/inputChatTheme) | NOTHING |
-| [**inputChatThemeUniqueGift**](constructor/inputChatThemeUniqueGift) | NOTHING |
+| [**inputChatThemeEmpty**](constructor/inputChatThemeEmpty) | Remove any currently configured theme |
+| [**inputChatTheme**](constructor/inputChatTheme) | Set an emoji-based chat theme, returned by account.getChatThemes |
+| [**inputChatThemeUniqueGift**](constructor/inputChatThemeUniqueGift) | Set a theme based on an owned collectible gift », returned by account.getUniqueGiftChatThemes |

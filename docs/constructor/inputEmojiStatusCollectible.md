@@ -1,5 +1,7 @@
 # inputEmojiStatusCollectible
 
+**Description** : *An owned collectible gift &raquo; as emoji status: can only be used in account\.updateEmojiStatus, is never returned by the API*
+
 **Layer** : 216
 
 ```tl
@@ -12,9 +14,9 @@ inputEmojiStatusCollectible#7141dbf flags:# collectible_id:long until:flags.0?in
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| <mark>collectible_id</mark> | [`long`](type/long) | NOTHING |
-| **until** | [`flags.0?int`](type/int) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>collectible_id</mark> | [`long`](type/long) | ID of the collectible (from starGiftUnique.id) |
+| **until** | [`flags.0?int`](type/int) | If set, the emoji status will be active until the specified unixtime |
 
 ---
 
@@ -28,7 +30,7 @@ inputEmojiStatusCollectible#7141dbf flags:# collectible_id:long until:flags.0?in
 
 ```php
 $emojiStatus = $client->inputEmojiStatusCollectible(
-	collectible_id : -7341149914602470322,
-	until : 12,
+	collectible_id : -2290963962344852831,
+	until : 13,
 );
 ```

@@ -1,5 +1,7 @@
 # StarGiftAttribute
 
+**Description** : *An attribute of a collectible gift &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -15,7 +17,7 @@ starGiftAttributeOriginalDetails#e0bff26c flags:# sender_id:flags.0?Peer recipie
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starGiftAttributeModel**](constructor/starGiftAttributeModel) | NOTHING |
-| [**starGiftAttributePattern**](constructor/starGiftAttributePattern) | NOTHING |
-| [**starGiftAttributeBackdrop**](constructor/starGiftAttributeBackdrop) | NOTHING |
-| [**starGiftAttributeOriginalDetails**](constructor/starGiftAttributeOriginalDetails) | NOTHING |
+| [**starGiftAttributeModel**](constructor/starGiftAttributeModel) | The model of a collectible gift » |
+| [**starGiftAttributePattern**](constructor/starGiftAttributePattern) | A sticker applied on the backdrop of a collectible gift » using a repeating pattern |
+| [**starGiftAttributeBackdrop**](constructor/starGiftAttributeBackdrop) | The backdrop of a collectible gift » |
+| [**starGiftAttributeOriginalDetails**](constructor/starGiftAttributeOriginalDetails) | Info about the sender, receiver and message attached to the original gift », before it was upgraded to a collectible gift » |

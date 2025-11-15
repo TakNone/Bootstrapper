@@ -31,9 +31,9 @@ messages.affectedFoundMessages#ef8d3e6c pts:int pts_count:int offset:int message
 
 ```php
 $messagesAffectedFoundMessages = $client->messages->affectedFoundMessages(
-	pts : 45,
-	pts_count : 80,
+	pts : 69,
+	pts_count : 23,
 	offset : 0,
-	messages : array(84),
+	messages : array(51),
 );
 ```

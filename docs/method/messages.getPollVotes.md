@@ -44,9 +44,9 @@ messages.getPollVotes#b86e380e flags:# peer:InputPeer id:int option:flags.0?byte
 ```php
 $messagesVotesList = $client->messages->getPollVotes(
 	peer : $client->inputPeerEmpty(),
-	id : 44,
+	id : 63,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	offset : 'dZHJL7WPoErxN6hG',
-	limit : 60,
+	offset : 'bpR3u5HykEaCYnh4',
+	limit : 43,
 );
 ```

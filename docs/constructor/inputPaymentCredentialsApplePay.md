@@ -29,7 +29,7 @@ inputPaymentCredentialsApplePay#aa1c39f payment_data:DataJSON = InputPaymentCred
 ```php
 $inputPaymentCredentials = $client->inputPaymentCredentialsApplePay(
 	payment_data : $client->dataJSON(
-		data : 'yoHMVbAIRN4ta2Qi',
+		data : 'iSK2sE5ByFlb8uLG',
 	),
 );
 ```

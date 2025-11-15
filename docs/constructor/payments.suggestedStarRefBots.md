@@ -32,22 +32,22 @@ payments.suggestedStarRefBots#b4d5d859 flags:# count:int suggested_bots:Vector<S
 
 ```php
 $paymentsSuggestedStarRefBots = $client->payments->suggestedStarRefBots(
-	count : 66,
+	count : 82,
 	suggested_bots : array(
 		$client->starRefProgram(
-			bot_id : 7684008740980438448,
-			commission_permille : 76,
-			duration_months : 79,
-			end_date : 35,
+			bot_id : 5509149913522441225,
+			commission_permille : 74,
+			duration_months : 19,
+			end_date : 30,
 			daily_revenue_per_user : $client->starsAmount(
-				amount : -7888463690879032288,
-				nanos : 29,
+				amount : -4159684732931079472,
+				nanos : 82,
 			),
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 7542062720832575885,
+			id : 4520896317414946477,
 		),
 		$client->user(
 			self : true,
@@ -76,24 +76,24 @@ $paymentsSuggestedStarRefBots = $client->payments->suggestedStarRefBots(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 168846934986619205,
-			access_hash : -8083331491837381670,
+			id : 519300902064519623,
+			access_hash : 6901003083838221867,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 83,
+			bot_info_version : 100,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'jQwAS8bCsVOYet63',
-					reason : 'iANoDJsUrKxOQe18',
-					text : 'K429Nvzch6eBOdmF',
+					platform : 'NoRLgCxi8ra6vOMB',
+					reason : '0aFQ6Cqem5zi1V7A',
+					text : 'TSji1UmuRcdgIFva',
 				),
 			),
-			bot_inline_placeholder : 'Lsxo02v9ARZyHF7S',
-			lang_code : 'AqrtO2P3Rb4puiBk',
+			bot_inline_placeholder : '9FcBGt0P2Qwk4O36',
+			lang_code : '6K2Y7lHWRV9PdENg',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -102,20 +102,20 @@ $paymentsSuggestedStarRefBots = $client->payments->suggestedStarRefBots(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 94,
+			stories_max_id : 71,
 			color : $client->peerColor(
-				color : 57,
-				background_emoji_id : -6301713272704916154,
+				color : 31,
+				background_emoji_id : 6506366188510726,
 			),
 			profile_color : $client->peerColor(
-				color : 40,
-				background_emoji_id : 3597252799579973773,
+				color : 13,
+				background_emoji_id : -3078249619312655403,
 			),
-			bot_active_users : 81,
-			bot_verification_icon : 2822839210951803291,
-			send_paid_messages_stars : 3184000242158246545,
+			bot_active_users : 88,
+			bot_verification_icon : -4091860161550515559,
+			send_paid_messages_stars : 6591162636021020866,
 		),
 	),
-	next_offset : 'L1dS47AwB8vNPRF9',
+	next_offset : 'Z3AqcPJNO0QoKvRl',
 );
 ```

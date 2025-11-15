@@ -1,6 +1,6 @@
 # messageReplies
 
-**Description** : *Info about the comment section of a channel post, or a simple message thread*
+**Description** : *Info about the comment section of a channel post, a simple message thread, a forum topic, or a direct messages topic \(all features ultimately based on message threads\)*
 
 **Layer** : 216
 
@@ -36,21 +36,21 @@ messageReplies#83d60fc2 flags:# comments:flags.0?true replies:int replies_pts:in
 ```php
 $messageReplies = $client->messageReplies(
 	comments : true,
-	replies : 47,
-	replies_pts : 44,
+	replies : 46,
+	replies_pts : 63,
 	recent_repliers : array(
 		$client->peerUser(
-			user_id : -6821708670125975294,
+			user_id : -1179569284636256697,
 		),
 		$client->peerChat(
-			chat_id : -710864727693638998,
+			chat_id : 3681549037200731322,
 		),
 		$client->peerChannel(
-			channel_id : 8217744517338927941,
+			channel_id : 8775507476683065885,
 		),
 	),
-	channel_id : -7800856695118203329,
-	max_id : 11,
-	read_max_id : 51,
+	channel_id : -4913456954201017057,
+	max_id : 41,
+	read_max_id : 13,
 );
 ```

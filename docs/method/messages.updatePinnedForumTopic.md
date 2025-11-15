@@ -29,7 +29,7 @@ messages.updatePinnedForumTopic#175df251 peer:InputPeer topic_id:int pinned:Bool
 ```php
 $updates = $client->messages->updatePinnedForumTopic(
 	peer : $client->inputPeerEmpty(),
-	topic_id : 24,
-	pinned : false,
+	topic_id : 33,
+	pinned : true,
 );
 ```

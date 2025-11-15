@@ -32,25 +32,25 @@ $int = $client->stories->getPeerMaxIDs(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 665180529586156492,
+			chat_id : -4748605814489470906,
 		),
 		$client->inputPeerUser(
-			user_id : -6236515139684977642,
-			access_hash : -857383503346597726,
+			user_id : 7311290959474030611,
+			access_hash : 4982179619635474736,
 		),
 		$client->inputPeerChannel(
-			channel_id : 7241083988124461468,
-			access_hash : 4314773310150189920,
+			channel_id : -2164127756347675158,
+			access_hash : -2497172969581325074,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 73,
-			user_id : 5914922196542896949,
+			msg_id : 53,
+			user_id : -8258577714526800434,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 75,
-			channel_id : 1375915694064230333,
+			msg_id : 42,
+			channel_id : -6986496300987913184,
 		),
 	),
 );

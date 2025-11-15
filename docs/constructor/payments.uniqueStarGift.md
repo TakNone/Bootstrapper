@@ -1,5 +1,7 @@
 # payments.uniqueStarGift
 
+**Description** : *Represents a collectible gift &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,9 +14,9 @@ payments.uniqueStarGift#416c56e8 gift:StarGift chats:Vector<Chat> users:Vector<U
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>gift</mark> | [`StarGift`](type/StarGift) | NOTHING |
-| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | NOTHING |
-| <mark>users</mark> | [`Vector<User>`](type/User) | NOTHING |
+| <mark>gift</mark> | [`StarGift`](type/StarGift) | The starGiftUnique constructor |
+| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | Chats mentioned in the gift field |
+| <mark>users</mark> | [`Vector<User>`](type/User) | Users mentioned in the gift field |
 
 ---
 
@@ -36,30 +38,30 @@ $paymentsUniqueStarGift = $client->payments->uniqueStarGift(
 		require_premium : true,
 		limited_per_user : true,
 		peer_color_available : true,
-		id : -3663573087159721543,
+		id : 8423703383853444898,
 		sticker : $client->documentEmpty(
-			id : 8243101171664110793,
+			id : 6653396469802359879,
 		),
-		stars : -682250452675860032,
-		availability_remains : 86,
-		availability_total : 75,
-		availability_resale : 6809876674767577770,
-		convert_stars : -2383732627760025998,
-		first_sale_date : 100,
-		last_sale_date : 29,
-		upgrade_stars : 8917917247893983881,
-		resell_min_stars : -4362845368183104251,
-		title : 'qS2wjOPZ3vrMNAcl',
+		stars : 3084075499878621298,
+		availability_remains : 6,
+		availability_total : 19,
+		availability_resale : -1242110324011183684,
+		convert_stars : 7304648569831688339,
+		first_sale_date : 6,
+		last_sale_date : 61,
+		upgrade_stars : 5402298916917840711,
+		resell_min_stars : 1742345846563358221,
+		title : 'NFkUoM0uj6qJB3Zf',
 		released_by : $client->peerUser(
-			user_id : 4481627824583090007,
+			user_id : -3830894451254230367,
 		),
-		per_user_total : 55,
-		per_user_remains : 62,
-		locked_until_date : 13,
+		per_user_total : 17,
+		per_user_remains : 49,
+		locked_until_date : 37,
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : -7255875856833104661,
+			id : -3110897492654133141,
 		),
 		$client->chat(
 			creator : true,
@@ -69,12 +71,12 @@ $paymentsUniqueStarGift = $client->payments->uniqueStarGift(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 5539540384149516827,
-			title : '0Z7KpDgLCU5VmMrT',
+			id : -9125548247931811487,
+			title : 'wL2mpIuFqge7khRx',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 72,
-			date : 17,
-			version : 26,
+			participants_count : 9,
+			date : 81,
+			version : 51,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -115,12 +117,12 @@ $paymentsUniqueStarGift = $client->payments->uniqueStarGift(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 20,
+				until_date : 72,
 			),
 		),
 		$client->chatForbidden(
-			id : -5590728438669243489,
-			title : 'O4TdZRSu71qlNbhX',
+			id : -2689176407367739982,
+			title : 'p2OsS4xTr896DmGw',
 		),
 		$client->channel(
 			creator : true,
@@ -151,17 +153,17 @@ $paymentsUniqueStarGift = $client->payments->uniqueStarGift(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -7397909391206418357,
-			access_hash : 7224447090745053517,
-			title : '8EpdXtkTvBAlIisg',
+			id : -1281510262996028920,
+			access_hash : 1472862026732228698,
+			title : 'xgKI7UNpCRB5Wdnb',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 83,
+			date : 46,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'kv5KjVsUeHwpLaiP',
-					reason : 'ye8EXaAZscFnHd4U',
-					text : 'x9pPUt1n7sA5u8kQ',
+					platform : 'YHJW5LMQCvRZajAg',
+					reason : 'dKn0VEIFjNsCzW9t',
+					text : 'VhM42tfAnecErpg8',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -203,7 +205,7 @@ $paymentsUniqueStarGift = $client->payments->uniqueStarGift(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 34,
+				until_date : 26,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -226,9 +228,9 @@ $paymentsUniqueStarGift = $client->payments->uniqueStarGift(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 17,
+				until_date : 60,
 			),
-			participants_count : 72,
+			participants_count : 90,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -236,34 +238,34 @@ $paymentsUniqueStarGift = $client->payments->uniqueStarGift(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 25,
+			stories_max_id : 97,
 			color : $client->peerColor(
-				color : 55,
-				background_emoji_id : -6464437186709673644,
+				color : 39,
+				background_emoji_id : 5443981070924796703,
 			),
 			profile_color : $client->peerColor(
 				color : 10,
-				background_emoji_id : -6972444606790937801,
+				background_emoji_id : 1828471651533120779,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 20,
-			subscription_until_date : 57,
-			bot_verification_icon : -9035283731393223574,
-			send_paid_messages_stars : -622149309248217352,
-			linked_monoforum_id : -1544710101413828791,
+			level : 72,
+			subscription_until_date : 86,
+			bot_verification_icon : 5592750595939191969,
+			send_paid_messages_stars : -5106420949070661799,
+			linked_monoforum_id : -1336523354568267068,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 2079571002485180647,
-			access_hash : -6362080210457056014,
-			title : 'wjCUGvgnXs7F816E',
-			until_date : 69,
+			id : 2460149353088868742,
+			access_hash : 1763299856551343411,
+			title : 'G68Lv7BiSYNX4KC1',
+			until_date : 39,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -6001084851241975124,
+			id : -6988923067141170532,
 		),
 		$client->user(
 			self : true,
@@ -292,24 +294,24 @@ $paymentsUniqueStarGift = $client->payments->uniqueStarGift(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -6585563756747105341,
-			access_hash : 7684623216988947851,
+			id : 4382305064680024794,
+			access_hash : -6784202966771203063,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 37,
+			bot_info_version : 46,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'PN8nHULVqJEB5lwC',
-					reason : 'RE164gyDYvefwin5',
-					text : 'TF5Rj90nhQbpUA1V',
+					platform : 'IVtO0KDvL1g3U4Pc',
+					reason : 'DlktIN0BTeVLadA8',
+					text : 'XsRuyOSEr4BdQ3bf',
 				),
 			),
-			bot_inline_placeholder : '6bIeTtVXNMCQvYx3',
-			lang_code : 'asM9z8KiSPp2QC6L',
+			bot_inline_placeholder : '0Qk7aVLAPcIDElNB',
+			lang_code : 'WME1yOTNwxeU7bnF',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -318,18 +320,18 @@ $paymentsUniqueStarGift = $client->payments->uniqueStarGift(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 98,
+			stories_max_id : 94,
 			color : $client->peerColor(
-				color : 56,
-				background_emoji_id : -145686197184073620,
+				color : 67,
+				background_emoji_id : 3334870494719704799,
 			),
 			profile_color : $client->peerColor(
-				color : 15,
-				background_emoji_id : -3415308676400538863,
+				color : 77,
+				background_emoji_id : 7868498383857022884,
 			),
-			bot_active_users : 18,
-			bot_verification_icon : -1999433269976467763,
-			send_paid_messages_stars : 2546602255362752126,
+			bot_active_users : 79,
+			bot_verification_icon : -6595790127846288004,
+			send_paid_messages_stars : -1301429760431950365,
 		),
 	),
 );

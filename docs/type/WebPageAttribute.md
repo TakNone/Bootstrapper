@@ -21,5 +21,5 @@ webPageAttributeStarGiftCollection#31cad303 icons:Vector<Document> = WebPageAttr
 | [**webPageAttributeTheme**](constructor/webPageAttributeTheme) | Page theme |
 | [**webPageAttributeStory**](constructor/webPageAttributeStory) | Webpage preview of a Telegram story |
 | [**webPageAttributeStickerSet**](constructor/webPageAttributeStickerSet) | Contains info about a stickerset », for a webPage preview of a stickerset deep link » (the webPage will have a type of telegram_stickerset) |
-| [**webPageAttributeUniqueStarGift**](constructor/webPageAttributeUniqueStarGift) | NOTHING |
-| [**webPageAttributeStarGiftCollection**](constructor/webPageAttributeStarGiftCollection) | NOTHING |
+| [**webPageAttributeUniqueStarGift**](constructor/webPageAttributeUniqueStarGift) | Contains info about collectible gift » for a webPage preview of a collectible gift » (the webPage will have a type of telegram_nft) |
+| [**webPageAttributeStarGiftCollection**](constructor/webPageAttributeStarGiftCollection) | Contains info about a gift collection » for a webPage preview of a gift collection » (the webPage will have a type of telegram_collection) |

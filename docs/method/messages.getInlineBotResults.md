@@ -51,7 +51,7 @@ $messagesBotResults = $client->messages->getInlineBotResults(
 	bot : $client->inputUserEmpty(),
 	peer : $client->inputPeerEmpty(),
 	geo_point : $client->inputGeoPointEmpty(),
-	query : 'c1jdhWVKopxZ3mEt',
-	offset : 'rEetYWVSFlms8kBA',
+	query : 'j1nYLdSWBup6hPQz',
+	offset : 'KbOnNcrSqz9T80C4',
 );
 ```

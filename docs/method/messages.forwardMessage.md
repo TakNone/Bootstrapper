@@ -42,7 +42,7 @@ messages.forwardMessage#33963bf9 peer:InputPeer id:int random_id:long = Updates;
 ```php
 $updates = $client->messages->forwardMessage(
 	peer : $client->inputPeerEmpty(),
-	id : 23,
-	random_id : 1634268253808192937,
+	id : 34,
+	random_id : 2691730420574639675,
 );
 ```

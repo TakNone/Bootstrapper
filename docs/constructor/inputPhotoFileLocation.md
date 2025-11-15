@@ -31,9 +31,9 @@ inputPhotoFileLocation#40181ffe id:long access_hash:long file_reference:bytes th
 
 ```php
 $inputFileLocation = $client->inputPhotoFileLocation(
-	id : 7425934718839656537,
-	access_hash : 708032347147669725,
+	id : 7441733494948077836,
+	access_hash : 8277323409789064405,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	thumb_size : '1MOb59dRSVpxftoa',
+	thumb_size : 'kQoj3GsWYmBicP85',
 );
 ```

@@ -1,5 +1,7 @@
 # todoList
 
+**Description** : *Represents a todo list &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,11 +14,11 @@ todoList#49b92a26 flags:# others_can_append:flags.0?true others_can_complete:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **others_can_append** | [`flags.0?true`](type/true) | NOTHING |
-| **others_can_complete** | [`flags.1?true`](type/true) | NOTHING |
-| <mark>title</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
-| <mark>list</mark> | [`Vector<TodoItem>`](type/TodoItem) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **others_can_append** | [`flags.0?true`](type/true) | If set, users different from the creator of the list can append items to the list |
+| **others_can_complete** | [`flags.1?true`](type/true) | If set, users different from the creator of the list can complete items in the list |
+| <mark>title</mark> | [`TextWithEntities`](type/TextWithEntities) | Title of the todo list, maximum length equal to todo_title_length_max » |
+| <mark>list</mark> | [`Vector<TodoItem>`](type/TodoItem) | Items of the list |
 
 ---
 
@@ -33,105 +35,105 @@ $todoList = $client->todoList(
 	others_can_append : true,
 	others_can_complete : true,
 	title : $client->textWithEntities(
-		text : 'YpVWBszyQHMati4X',
+		text : 'I5tP9X3kRSViLZBz',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 14,
+				length : 33,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 7,
+				length : 53,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 34,
+				length : 25,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 9,
+				length : 74,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 80,
+				length : 97,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 31,
+				length : 88,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 35,
+				length : 52,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 4,
+				length : 15,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 24,
+				length : 22,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 18,
-				language : 'OGajp2b9xUkomVTy',
+				length : 71,
+				language : '0YwWcRHj2mUAMxJb',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 79,
+				length : 100,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 43,
-				user_id : 1250772483978715450,
+				length : 29,
+				user_id : -1379001496449425376,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 30,
+				length : 14,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 23,
+				length : 15,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 72,
+				length : 58,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 10,
+				length : 99,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 91,
+				length : 13,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 44,
+				length : 38,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 85,
+				length : 2,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 63,
-				document_id : -4349008784993143511,
+				length : 58,
+				document_id : 5618511717884306908,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 78,
+				length : 75,
 			),
 		),
 	),
 	list : array(
 		$client->todoItem(
-			id : 71,
+			id : 21,
 			title : $client->textWithEntities(
-				text : '3lteGJDRvPc9aIsY',
+				text : 'GbNylqYvficjs59n',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),

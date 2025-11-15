@@ -36,6 +36,7 @@ messages.exportChatInvite#a455de90 flags:# legacy_revoke_permanent:flags.2?true 
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_MONOFORUM_UNSUPPORTED** | `400` | Monoforums do not support this feature |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
 | **CHAT_ID_INVALID** | `400` | The provided chat id is invalid |
@@ -56,12 +57,12 @@ $exportedChatInvite = $client->messages->exportChatInvite(
 	legacy_revoke_permanent : true,
 	request_needed : true,
 	peer : $client->inputPeerEmpty(),
-	expire_date : 42,
-	usage_limit : 44,
-	title : 'BR91WIhNXDkeQw6M',
+	expire_date : 89,
+	usage_limit : 77,
+	title : 'MpLO8mfdJeo4WCqV',
 	subscription_pricing : $client->starsSubscriptionPricing(
-		period : 21,
-		amount : 2703103697062437355,
+		period : 83,
+		amount : 3920829464549124319,
 	),
 );
 ```

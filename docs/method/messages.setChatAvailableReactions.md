@@ -34,7 +34,9 @@ messages.setChatAvailableReactions#864b2581 flags:# peer:InputPeer available_rea
 | :---: | :---: | :--- |
 | **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
 | **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
+| **DOCUMENT_INVALID** | `400` | The specified document is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+| **REACTION_INVALID** | `400` | The specified reaction is invalid |
 
 ---
 
@@ -44,7 +46,7 @@ messages.setChatAvailableReactions#864b2581 flags:# peer:InputPeer available_rea
 $updates = $client->messages->setChatAvailableReactions(
 	peer : $client->inputPeerEmpty(),
 	available_reactions : $client->chatReactionsNone(),
-	reactions_limit : 44,
-	paid_enabled : true,
+	reactions_limit : 33,
+	paid_enabled : false,
 );
 ```

@@ -1,5 +1,7 @@
 # profileTabMedia
 
+**Description** : *Represents the media tab of a profile page*
+
 **Layer** : 216
 
 ```tl

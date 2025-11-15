@@ -1,5 +1,7 @@
 # users.usersSlice
 
+**Description** : *Describes a partial list of users*
+
 **Layer** : 216
 
 ```tl
@@ -12,8 +14,8 @@ users.usersSlice#315a4974 count:int users:Vector<User> = users.Users;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>count</mark> | [`int`](type/int) | NOTHING |
-| <mark>users</mark> | [`Vector<User>`](type/User) | NOTHING |
+| <mark>count</mark> | [`int`](type/int) | Total number of users (bigger than the users specified in users) |
+| <mark>users</mark> | [`Vector<User>`](type/User) | Subset of users |
 
 ---
 
@@ -27,10 +29,10 @@ users.usersSlice#315a4974 count:int users:Vector<User> = users.Users;
 
 ```php
 $usersUsers = $client->users->usersSlice(
-	count : 69,
+	count : 42,
 	users : array(
 		$client->userEmpty(
-			id : -7569921723825166153,
+			id : 2645546564414088195,
 		),
 		$client->user(
 			self : true,
@@ -59,24 +61,24 @@ $usersUsers = $client->users->usersSlice(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -957515761252457062,
-			access_hash : -1939292728049580700,
+			id : -7942585715023182807,
+			access_hash : 5918192273869428372,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 60,
+			bot_info_version : 37,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'NxLUCIVfM7WAYjig',
-					reason : 'EZjgI7uMiJ26Xky3',
-					text : 'sgb2qKGUXwAVMC7E',
+					platform : 'R1U8lmkaV9optdIF',
+					reason : '5BwMtT6RaDEnopXg',
+					text : 'AzGyHqRnL9bX6peM',
 				),
 			),
-			bot_inline_placeholder : '9QCwmlqGHBhInjvR',
-			lang_code : 'qrNkB63FLYKSRvwM',
+			bot_inline_placeholder : 'oVfI9ES083XKvzY7',
+			lang_code : 'zqmjSQJA6C429laU',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -85,18 +87,18 @@ $usersUsers = $client->users->usersSlice(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 35,
+			stories_max_id : 57,
 			color : $client->peerColor(
-				color : 62,
-				background_emoji_id : -5143407772587905137,
+				color : 100,
+				background_emoji_id : 746839435638602645,
 			),
 			profile_color : $client->peerColor(
-				color : 0,
-				background_emoji_id : 3782591220978536747,
+				color : 51,
+				background_emoji_id : 4626283153681020816,
 			),
-			bot_active_users : 3,
-			bot_verification_icon : -6039584738310106704,
-			send_paid_messages_stars : 6000109223991156695,
+			bot_active_users : 44,
+			bot_verification_icon : 7789141380070732292,
+			send_paid_messages_stars : 8795923901148331211,
 		),
 	),
 );

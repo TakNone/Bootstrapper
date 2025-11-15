@@ -1,11 +1,11 @@
 # starsTransaction
 
-**Description** : *Represents a Telegram Stars transaction &raquo;*
+**Description** : *Represents a Telegram Stars or TON transaction &raquo;*
 
 **Layer** : 216
 
 ```tl
-starsTransaction#13659eb0 flags:# refund:flags.3?true pending:flags.4?true failed:flags.6?true gift:flags.10?true reaction:flags.11?true subscription:flags.12?true floodskip:flags.15?true stargift_upgrade:flags.18?true paid_message:flags.19?true premium_gift:flags.20?true business_transfer:flags.21?true stargift_resale:flags.22?true posts_search:flags.24?true stargift_prepaid_upgrade:flags.25?true stargift_drop_original_details:flags.26?true id:string amount:StarsAmount date:int peer:StarsTransactionPeer title:flags.0?string description:flags.1?string photo:flags.2?WebDocument transaction_date:flags.5?int transaction_url:flags.5?string bot_payload:flags.7?bytes msg_id:flags.8?int extended_media:flags.9?Vector<MessageMedia> subscription_period:flags.12?int giveaway_post_id:flags.13?int stargift:flags.14?StarGift floodskip_number:flags.15?int starref_commission_permille:flags.16?int starref_peer:flags.17?Peer starref_amount:flags.17?StarsAmount paid_messages:flags.19?int premium_gift_months:flags.20?int ads_proceeds_from_date:flags.23?int ads_proceeds_to_date:flags.23?int = StarsTransaction;
+starsTransaction#13659eb0 flags:# refund:flags.3?true pending:flags.4?true failed:flags.6?true gift:flags.10?true reaction:flags.11?true subscription:flags.12?true stargift_upgrade:flags.18?true floodskip:flags.15?true business_transfer:flags.21?true stargift_resale:flags.22?true paid_message:flags.19?true posts_search:flags.24?true premium_gift:flags.20?true stargift_prepaid_upgrade:flags.25?true stargift_drop_original_details:flags.26?true id:string amount:StarsAmount date:int peer:StarsTransactionPeer title:flags.0?string description:flags.1?string photo:flags.2?WebDocument transaction_date:flags.5?int transaction_url:flags.5?string bot_payload:flags.7?bytes msg_id:flags.8?int extended_media:flags.9?Vector<MessageMedia> subscription_period:flags.12?int giveaway_post_id:flags.13?int stargift:flags.14?StarGift floodskip_number:flags.15?int starref_commission_permille:flags.16?int starref_peer:flags.17?Peer starref_amount:flags.17?StarsAmount paid_messages:flags.19?int premium_gift_months:flags.20?int ads_proceeds_from_date:flags.23?int ads_proceeds_to_date:flags.23?int = StarsTransaction;
 ```
 
 ---
@@ -21,17 +21,17 @@ starsTransaction#13659eb0 flags:# refund:flags.3?true pending:flags.4?true faile
 | **gift** | [`flags.10?true`](type/true) | This transaction was a gift from the user in peer.peer |
 | **reaction** | [`flags.11?true`](type/true) | This transaction is a paid reaction » |
 | **subscription** | [`flags.12?true`](type/true) | NOTHING |
+| **stargift_upgrade** | [`flags.18?true`](type/true) | This transaction pays for the upgrade of a gift to a collectible gift » |
 | **floodskip** | [`flags.15?true`](type/true) | NOTHING |
-| **stargift_upgrade** | [`flags.18?true`](type/true) | NOTHING |
+| **business_transfer** | [`flags.21?true`](type/true) | This transaction transfers stars from the balance of a user account connected to a business bot, to the balance of the business bot, see here » for more info |
+| **stargift_resale** | [`flags.22?true`](type/true) | This transaction is related to the resale of a collectible gift » |
 | **paid_message** | [`flags.19?true`](type/true) | NOTHING |
+| **posts_search** | [`flags.24?true`](type/true) | Represents payment for a paid global post search » |
 | **premium_gift** | [`flags.20?true`](type/true) | NOTHING |
-| **business_transfer** | [`flags.21?true`](type/true) | NOTHING |
-| **stargift_resale** | [`flags.22?true`](type/true) | NOTHING |
-| **posts_search** | [`flags.24?true`](type/true) | NOTHING |
-| **stargift_prepaid_upgrade** | [`flags.25?true`](type/true) | NOTHING |
+| **stargift_prepaid_upgrade** | [`flags.25?true`](type/true) | Represents payment for a separate prepaid upgrade of a gift |
 | **stargift_drop_original_details** | [`flags.26?true`](type/true) | NOTHING |
 | <mark>id</mark> | [`string`](type/string) | Transaction ID |
-| <mark>amount</mark> | [`StarsAmount`](type/StarsAmount) | NOTHING |
+| <mark>amount</mark> | [`StarsAmount`](type/StarsAmount) | Amount of Telegram Stars or TON |
 | <mark>date</mark> | [`int`](type/int) | Date of the transaction (unixtime) |
 | <mark>peer</mark> | [`StarsTransactionPeer`](type/StarsTransactionPeer) | Source of the incoming transaction, or its recipient for outgoing transactions |
 | **title** | [`flags.0?string`](type/string) | For transactions with bots, title of the bought product |
@@ -49,10 +49,10 @@ starsTransaction#13659eb0 flags:# refund:flags.3?true pending:flags.4?true faile
 | **starref_commission_permille** | [`flags.16?int`](type/int) | This transaction is the receival (or refund) of an affiliate commission (i.e. this is the transaction received by the peer that created the referral link, flag 17 is for transactions made by users that imported the referral link) |
 | **starref_peer** | [`flags.17?Peer`](type/Peer) | For transactions made by referred users, the peer that received the affiliate commission |
 | **starref_amount** | [`flags.17?StarsAmount`](type/StarsAmount) | For transactions made by referred users, the amount of Telegram Stars received by the affiliate, can be negative for refunds |
-| **paid_messages** | [`flags.19?int`](type/int) | NOTHING |
-| **premium_gift_months** | [`flags.20?int`](type/int) | NOTHING |
-| **ads_proceeds_from_date** | [`flags.23?int`](type/int) | NOTHING |
-| **ads_proceeds_to_date** | [`flags.23?int`](type/int) | NOTHING |
+| **paid_messages** | [`flags.19?int`](type/int) | This transaction is related to the reception or transmission of a paid message » |
+| **premium_gift_months** | [`flags.20?int`](type/int) | This transaction indicates the payment for a gifted Telegram Premium subscription » |
+| **ads_proceeds_from_date** | [`flags.23?int`](type/int) | Indicates that this is payment for ad revenue from the specified unixtime (always set together with ads_proceeds_to_date) |
+| **ads_proceeds_to_date** | [`flags.23?int`](type/int) | Indicates that this is payment for ad revenue to the specified unixtime |
 
 ---
 
@@ -72,38 +72,38 @@ $starsTransaction = $client->starsTransaction(
 	gift : true,
 	reaction : true,
 	subscription : true,
-	floodskip : true,
 	stargift_upgrade : true,
-	paid_message : true,
-	premium_gift : true,
+	floodskip : true,
 	business_transfer : true,
 	stargift_resale : true,
+	paid_message : true,
 	posts_search : true,
+	premium_gift : true,
 	stargift_prepaid_upgrade : true,
 	stargift_drop_original_details : true,
-	id : 't3do1SO8jpvnyWwq',
+	id : 'NCSWKJ82csRIVe6U',
 	amount : $client->starsAmount(
-		amount : -8219507405262056655,
-		nanos : 34,
+		amount : -221005361555684992,
+		nanos : 38,
 	),
-	date : 49,
+	date : 12,
 	peer : $client->starsTransactionPeerUnsupported(),
-	title : 'bjAET6l8uO0DeVrX',
-	description : 'spfoe7rR84kZq0au',
+	title : 'Tr1nGZjFQXfL7Uo3',
+	description : 'grtk1Aj2IuFGUS3R',
 	photo : $client->webDocument(
 		url : 'https://docs.liveproto.dev',
-		access_hash : 2401249871473315753,
-		size : 30,
-		mime_type : 'dHO8iM2X4JKBRcCu',
+		access_hash : 2843863119626686648,
+		size : 20,
+		mime_type : 'OqG5KexiLpbSP6XW',
 		attributes : array(
 			$client->documentAttributeImageSize(
-				w : 36,
-				h : 35,
+				w : 99,
+				h : 64,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : 'IgCTcHvdiB1QP8y5',
+				alt : '5LAjbgfZJ1RTWI7U',
 				stickerset : $client->inputStickerSetEmpty(...),
 				mask_coords : $client->maskCoords(...),
 			),
@@ -111,44 +111,44 @@ $starsTransaction = $client->starsTransaction(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : 1703616.39453125,
-				w : 84,
-				h : 5,
-				preload_prefix_size : 31,
-				video_start_ts : 1182308.3935546875,
-				video_codec : '1BxkN3LGFIMQDKjC',
+				duration : 1665686.1083984375,
+				w : 26,
+				h : 34,
+				preload_prefix_size : 8,
+				video_start_ts : 1813863.5009765625,
+				video_codec : 'vJrZo3tgM4UQqDjy',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 46,
-				title : 'XwPDTc0iQOCx1KlH',
-				performer : 'Ca5S09VIedy6hs4X',
+				duration : 20,
+				title : 'js3OMX0uFaeZYEWG',
+				performer : 'cYvqIDmQ5C8PTsOl',
 				waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->documentAttributeFilename(
-				file_name : 'jC97YkMgca81Pz6u',
+				file_name : 'lJqOaKufLHDowIZd',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : 'OmGF2pqZwLCSDKXs',
+				alt : 'KgA4yMJ5I3aekTin',
 				stickerset : $client->inputStickerSetEmpty(...),
 			),
 		),
 	),
-	transaction_date : 76,
+	transaction_date : 35,
 	transaction_url : 'https://docs.liveproto.dev',
 	bot_payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	msg_id : 96,
+	msg_id : 18,
 	extended_media : array(
 		$client->messageMediaEmpty(),
 		$client->messageMediaPhoto(
 			spoiler : true,
 			photo : $client->photoEmpty(
-				id : -5477984515643613010,
+				id : 5099886627142204909,
 			),
-			ttl_seconds : 3,
+			ttl_seconds : 64,
 		),
 		$client->messageMediaGeo(
 			geo : $client->geoPointEmpty(),
@@ -157,8 +157,8 @@ $starsTransaction = $client->starsTransaction(
 			phone_number : '+1234567890',
 			first_name : 'Tak',
 			last_name : 'None',
-			vcard : 'H1mrvLFe8gPCiKq6',
-			user_id : 8630030149273177149,
+			vcard : 'waVKdH9jbUs7E82o',
+			user_id : 2588151484193711933,
 		),
 		$client->messageMediaUnsupported(),
 		$client->messageMediaDocument(
@@ -168,19 +168,19 @@ $starsTransaction = $client->starsTransaction(
 			round : true,
 			voice : true,
 			document : $client->documentEmpty(
-				id : 4748351387955212405,
+				id : -8616496090234429288,
 			),
 			alt_documents : array(
 				$client->documentEmpty(
-					id : -540766158881281016,
+					id : -8168592037574943838,
 				),
 				$client->document(
-					id : -8071476908395695529,
-					access_hash : 5809077751780288478,
+					id : 9081945694493220717,
+					access_hash : -2659165379431306008,
 					file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-					date : 71,
-					mime_type : 'OaECdZKruXUJ0zAx',
-					size : 2181311583334236804,
+					date : 29,
+					mime_type : 'eSXvOCBQ06JVqrNH',
+					size : -5454157291066000834,
 					thumbs : array(
 						$client->photoSizeEmpty(...),
 						$client->photoSize(...),
@@ -194,7 +194,7 @@ $starsTransaction = $client->starsTransaction(
 						$client->videoSizeEmojiMarkup(...),
 						$client->videoSizeStickerMarkup(...),
 					),
-					dc_id : 57,
+					dc_id : 9,
 					attributes : array(
 						$client->documentAttributeImageSize(...),
 						$client->documentAttributeAnimated(...),
@@ -208,10 +208,10 @@ $starsTransaction = $client->starsTransaction(
 				),
 			),
 			video_cover : $client->photoEmpty(
-				id : 3312021361340402062,
+				id : 690960703725633364,
 			),
-			video_timestamp : 28,
-			ttl_seconds : 73,
+			video_timestamp : 94,
+			ttl_seconds : 94,
 		),
 		$client->messageMediaWebPage(
 			force_large_media : true,
@@ -219,25 +219,25 @@ $starsTransaction = $client->starsTransaction(
 			manual : true,
 			safe : true,
 			webpage : $client->webPageEmpty(
-				id : 1485152928946888272,
+				id : -8951860407911960430,
 				url : 'https://docs.liveproto.dev',
 			),
 		),
 		$client->messageMediaVenue(
 			geo : $client->geoPointEmpty(),
-			title : 'IEqLyzB1OCSPAV5F',
-			address : 'eoP1aStZO6852rVJ',
-			provider : 'fOBDXeRkPY3Tio8x',
-			venue_id : 'nhTq3fdWU0L6lNb1',
-			venue_type : 'ZBco1dWPSxsH93Tj',
+			title : 'puH7mV0SRFzEBOgo',
+			address : '85UhzNTvBbM0somK',
+			provider : 'TXDh3ftNV6cgJYQz',
+			venue_id : 'FCLoKm5Rp4M6HwB8',
+			venue_type : 'xeH6bikERNq9hLXo',
 		),
 		$client->messageMediaGame(
 			game : $client->game(
-				id : -6948178864715748339,
-				access_hash : -767274722523513552,
-				short_name : '5r7R4IoNb2FWYzjT',
-				title : 'SsW5jIiP0AzNoqD2',
-				description : 'VXE7ySlZOR9hmWLJ',
+				id : 3326816271969085954,
+				access_hash : 2010726567215253285,
+				short_name : 'KX8DwyB0H6acl3sP',
+				title : 'iW2qJrQBKL3DlCaP',
+				description : 'iT1Bv30RqdALn4pS',
 				photo : $client->photoEmpty(...),
 				document : $client->documentEmpty(...),
 			),
@@ -245,13 +245,13 @@ $starsTransaction = $client->starsTransaction(
 		$client->messageMediaInvoice(
 			shipping_address_requested : true,
 			test : true,
-			title : 'elzf3KM5nLCoJg6R',
-			description : 'WjKP1vkRaMBmgfJI',
+			title : 'x3YlkXwPQ6oUsnju',
+			description : 'xgKh04B3m6yDUbaL',
 			photo : $client->webDocument(
 				url : 'https://docs.liveproto.dev',
-				access_hash : -4803399996472717374,
-				size : 54,
-				mime_type : 'JjSsNDBq5rhHLYWZ',
+				access_hash : 6103671251007209916,
+				size : 93,
+				mime_type : 'AdPVyzEZ2N4mQLJ6',
 				attributes : array(
 					$client->documentAttributeImageSize(...),
 					$client->documentAttributeAnimated(...),
@@ -263,26 +263,26 @@ $starsTransaction = $client->starsTransaction(
 					$client->documentAttributeCustomEmoji(...),
 				),
 			),
-			receipt_msg_id : 92,
-			currency : 'xdkijuUs9NTrqVIt',
-			total_amount : 7986766686699829013,
-			start_param : 'vycLKxJRbCVIBMHh',
+			receipt_msg_id : 72,
+			currency : 'FYJSXWyKpjBLn18C',
+			total_amount : -5521260689558044026,
+			start_param : 'B2JQZX4cWxI8pHtj',
 			extended_media : $client->messageExtendedMediaPreview(
-				w : 33,
-				h : 63,
+				w : 11,
+				h : 99,
 				thumb : $client->photoSizeEmpty(...),
-				video_duration : 25,
+				video_duration : 96,
 			),
 		),
 		$client->messageMediaGeoLive(
 			geo : $client->geoPointEmpty(),
-			heading : 9,
-			period : 80,
-			proximity_notification_radius : 60,
+			heading : 86,
+			period : 93,
+			proximity_notification_radius : 78,
 		),
 		$client->messageMediaPoll(
 			poll : $client->poll(
-				id : 2383019574283317436,
+				id : -5720667770030670258,
 				closed : true,
 				public_voters : true,
 				multiple_choice : true,
@@ -291,21 +291,21 @@ $starsTransaction = $client->starsTransaction(
 				answers : array(
 					$client->pollAnswer(...),
 				),
-				close_period : 66,
-				close_date : 44,
+				close_period : 61,
+				close_date : 86,
 			),
 			results : $client->pollResults(
 				min : true,
 				results : array(
 					$client->pollAnswerVoters(...),
 				),
-				total_voters : 12,
+				total_voters : 32,
 				recent_voters : array(
 					$client->peerUser(...),
 					$client->peerChat(...),
 					$client->peerChannel(...),
 				),
-				solution : 'cQV9GWMUfuYJohB6',
+				solution : 'LVXw2larbWA06ktZ',
 				solution_entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -332,52 +332,52 @@ $starsTransaction = $client->starsTransaction(
 			),
 		),
 		$client->messageMediaDice(
-			value : 68,
-			emoticon : 'xU8VEBp6gskuQ4r7',
+			value : 79,
+			emoticon : '8muSsCJjYXcEiFRP',
 		),
 		$client->messageMediaStory(
 			via_mention : true,
 			peer : $client->peerUser(
-				user_id : 4492620877676193473,
+				user_id : 159848282504519133,
 			),
-			id : 89,
+			id : 0,
 			story : $client->storyItemDeleted(
-				id : 93,
+				id : 100,
 			),
 		),
 		$client->messageMediaGiveaway(
 			only_new_subscribers : true,
 			winners_are_visible : true,
-			channels : array(-4020640426064183131),
-			countries_iso2 : array('uM2Ir7ByxvoZG81f'),
-			prize_description : 'MGHF9XcV1D76ge3k',
-			quantity : 3,
-			months : 75,
-			stars : 927258014442843202,
-			until_date : 13,
+			channels : array(6415753587337788335),
+			countries_iso2 : array('sCq3A7Jnc1WzRIjl'),
+			prize_description : 'eZPRpOV6XcD4kLQd',
+			quantity : 83,
+			months : 25,
+			stars : 4947528734774778430,
+			until_date : 26,
 		),
 		$client->messageMediaGiveawayResults(
 			only_new_subscribers : true,
 			refunded : true,
-			channel_id : -835046633544899552,
-			additional_peers_count : 66,
-			launch_msg_id : 50,
-			winners_count : 66,
-			unclaimed_count : 19,
-			winners : array(-4459291328321417574),
-			months : 32,
-			stars : -4363634397526619601,
-			prize_description : 'ciz0g2bZK36O8xYU',
-			until_date : 93,
+			channel_id : 5603465708397872367,
+			additional_peers_count : 0,
+			launch_msg_id : 28,
+			winners_count : 39,
+			unclaimed_count : 65,
+			winners : array(-5622987409552125736),
+			months : 0,
+			stars : -5125988803125453012,
+			prize_description : 'vs0HtwNpIcb2Fqua',
+			until_date : 43,
 		),
 		$client->messageMediaPaidMedia(
-			stars_amount : -8067200050995367034,
+			stars_amount : 8674415166326399562,
 			extended_media : array(
 				$client->messageExtendedMediaPreview(
-					w : 20,
-					h : 70,
+					w : 67,
+					h : 96,
 					thumb : $client->photoSizeEmpty(...),
-					video_duration : 31,
+					video_duration : 13,
 				),
 				$client->messageExtendedMedia(
 					media : $client->messageMediaEmpty(...),
@@ -395,15 +395,15 @@ $starsTransaction = $client->starsTransaction(
 			),
 			completions : array(
 				$client->todoCompletion(
-					id : 92,
-					completed_by : 6238376193908736165,
-					date : 93,
+					id : 10,
+					completed_by : -6273652443034836059,
+					date : 4,
 				),
 			),
 		),
 	),
-	subscription_period : 51,
-	giveaway_post_id : 70,
+	subscription_period : 11,
+	giveaway_post_id : 33,
 	stargift : $client->starGift(
 		limited : true,
 		sold_out : true,
@@ -412,39 +412,39 @@ $starsTransaction = $client->starsTransaction(
 		require_premium : true,
 		limited_per_user : true,
 		peer_color_available : true,
-		id : -821461748743843142,
+		id : 4079076980300104130,
 		sticker : $client->documentEmpty(
-			id : 2120016721963009151,
+			id : 5327897757551157186,
 		),
-		stars : 392277203319924147,
-		availability_remains : 18,
-		availability_total : 20,
-		availability_resale : -8532252759716318890,
-		convert_stars : -8072281391234852123,
-		first_sale_date : 48,
-		last_sale_date : 81,
-		upgrade_stars : 8749383129628571037,
-		resell_min_stars : 4608857147171353028,
-		title : 'gDyw4zPpTxWHemRj',
+		stars : 2081555216837977331,
+		availability_remains : 57,
+		availability_total : 74,
+		availability_resale : -7117953885433129448,
+		convert_stars : 2842790987825853057,
+		first_sale_date : 26,
+		last_sale_date : 82,
+		upgrade_stars : 7725841038561578285,
+		resell_min_stars : -5868945379969253833,
+		title : 'uMTSZgv9PaidtfKs',
 		released_by : $client->peerUser(
-			user_id : 7214163014559326391,
+			user_id : -442043592985603762,
 		),
-		per_user_total : 42,
-		per_user_remains : 23,
-		locked_until_date : 36,
+		per_user_total : 98,
+		per_user_remains : 49,
+		locked_until_date : 63,
 	),
-	floodskip_number : 87,
-	starref_commission_permille : 69,
+	floodskip_number : 8,
+	starref_commission_permille : 83,
 	starref_peer : $client->peerUser(
-		user_id : -831476125037456861,
+		user_id : 2356087314787303486,
 	),
 	starref_amount : $client->starsAmount(
-		amount : -4561357045792210524,
-		nanos : 49,
+		amount : -12157277674356232,
+		nanos : 69,
 	),
-	paid_messages : 88,
-	premium_gift_months : 88,
-	ads_proceeds_from_date : 85,
-	ads_proceeds_to_date : 16,
+	paid_messages : 41,
+	premium_gift_months : 4,
+	ads_proceeds_from_date : 96,
+	ads_proceeds_to_date : 20,
 );
 ```

@@ -28,6 +28,7 @@ phone.getGroupCallJoinAs#ef7c213a peer:InputPeer = phone.JoinAsPeers;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---

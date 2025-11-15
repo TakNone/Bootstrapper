@@ -46,10 +46,10 @@ $updates = $client->phone->toggleGroupCallRecord(
 	start : true,
 	video : true,
 	call : $client->inputGroupCall(
-		id : 7980793727634986809,
-		access_hash : 6468055765287439468,
+		id : -9165879415113038673,
+		access_hash : -2343507933152746180,
 	),
-	title : '0pQf5DuUKZ3ELoaT',
+	title : 'wiRsnKx2kha9zrYp',
 	video_portrait : true,
 );
 ```

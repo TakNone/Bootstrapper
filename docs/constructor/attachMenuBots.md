@@ -39,8 +39,8 @@ $attachMenuBots = $client->attachMenuBots(
 			show_in_attach_menu : true,
 			show_in_side_menu : true,
 			side_menu_disclaimer_needed : true,
-			bot_id : -2613336269148010443,
-			short_name : 'q45ebMlKZwyOpU3t',
+			bot_id : -3087277819514194561,
+			short_name : 'l9I30iz1RGt4Jpbh',
 			peer_types : array(
 				$client->attachMenuPeerTypeSameBotPM(),
 				$client->attachMenuPeerTypeBotPM(),
@@ -50,7 +50,7 @@ $attachMenuBots = $client->attachMenuBots(
 			),
 			icons : array(
 				$client->attachMenuBotIcon(
-					name : 'hWmpoMynEBiU1GfP',
+					name : 'wAutsSDkOrFUgcNm',
 					icon : $client->documentEmpty(...),
 					colors : array(
 						$client->attachMenuBotIconColor(...),
@@ -61,7 +61,7 @@ $attachMenuBots = $client->attachMenuBots(
 	),
 	users : array(
 		$client->userEmpty(
-			id : -3860878737542740833,
+			id : -5552027438558631626,
 		),
 		$client->user(
 			self : true,
@@ -90,24 +90,24 @@ $attachMenuBots = $client->attachMenuBots(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -5939481790103852254,
-			access_hash : -1460757330885724145,
+			id : 4370594423207585462,
+			access_hash : 1174107471817757595,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 18,
+			bot_info_version : 93,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'EJ1h5Xji9IoHCWx8',
-					reason : 'nebYxRNyVPg2lMOq',
-					text : 'u4JlVgbMhjCsvGri',
+					platform : 'ykdcpUTM8rF6VaW4',
+					reason : 'r8Ow7Qq5vRIxUFEk',
+					text : 'JOXep9710dtIxrmN',
 				),
 			),
-			bot_inline_placeholder : 'y8Oed5tJiFNZ2Kc7',
-			lang_code : '09Oavp7bk1IrDxQL',
+			bot_inline_placeholder : 'yUB8X0w1T9dqfvC5',
+			lang_code : 'SOZ2zRqkH4BKrxCn',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -116,18 +116,18 @@ $attachMenuBots = $client->attachMenuBots(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 32,
+			stories_max_id : 17,
 			color : $client->peerColor(
-				color : 2,
-				background_emoji_id : -7966938167822690085,
+				color : 44,
+				background_emoji_id : -4442149212140761195,
 			),
 			profile_color : $client->peerColor(
-				color : 95,
-				background_emoji_id : 1538553066640654031,
+				color : 9,
+				background_emoji_id : 8606683001361211335,
 			),
-			bot_active_users : 50,
-			bot_verification_icon : -5749446178656855308,
-			send_paid_messages_stars : -4850069437026745026,
+			bot_active_users : 58,
+			bot_verification_icon : 3187196208660509578,
+			send_paid_messages_stars : -5393616967273940089,
 		),
 	),
 );

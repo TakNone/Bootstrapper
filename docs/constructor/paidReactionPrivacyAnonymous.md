@@ -1,5 +1,7 @@
 # paidReactionPrivacyAnonymous
 
+**Description** : *Send paid reactions anonymously*
+
 **Layer** : 216
 
 ```tl

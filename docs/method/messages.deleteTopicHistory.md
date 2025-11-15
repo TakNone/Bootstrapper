@@ -28,6 +28,6 @@ messages.deleteTopicHistory#d2816f10 peer:InputPeer top_msg_id:int = messages.Af
 ```php
 $messagesAffectedHistory = $client->messages->deleteTopicHistory(
 	peer : $client->inputPeerEmpty(),
-	top_msg_id : 4,
+	top_msg_id : 3,
 );
 ```

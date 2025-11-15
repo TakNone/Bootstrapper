@@ -38,12 +38,12 @@ $keyboardButton = $client->inputKeyboardButtonRequestPeer(
 	name_requested : true,
 	username_requested : true,
 	photo_requested : true,
-	text : 'H8EdS4LtGKgU6sfW',
-	button_id : 73,
+	text : 'eYBfdskyW6rcwQAp',
+	button_id : 50,
 	peer_type : $client->requestPeerTypeUser(
 		bot : true,
 		premium : true,
 	),
-	max_quantity : 31,
+	max_quantity : 99,
 );
 ```

@@ -29,6 +29,7 @@ messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessag
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ID_INVALID** | `400` | The provided chat id is invalid |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
@@ -41,6 +42,6 @@ messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessag
 ```php
 $messagesAffectedMessages = $client->messages->readHistory(
 	peer : $client->inputPeerEmpty(),
-	max_id : 35,
+	max_id : 78,
 );
 ```

@@ -31,7 +31,7 @@ updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBanne
 ```php
 $update = $client->updateChatDefaultBannedRights(
 	peer : $client->peerUser(
-		user_id : 7105590207850463440,
+		user_id : 7699376572200700828,
 	),
 	default_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -54,8 +54,8 @@ $update = $client->updateChatDefaultBannedRights(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 32,
+		until_date : 61,
 	),
-	version : 7,
+	version : 31,
 );
 ```

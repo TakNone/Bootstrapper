@@ -28,6 +28,6 @@ messages.getEmojiKeywordsLanguages#4e9963b2 lang_codes:Vector<string> = Vector<E
 
 ```php
 $emojiLanguage = $client->messages->getEmojiKeywordsLanguages(
-	lang_codes : array('WSVQdg2EPiAsDNTx'),
+	lang_codes : array('mQDP3Fe1lUh86Ybs'),
 );
 ```

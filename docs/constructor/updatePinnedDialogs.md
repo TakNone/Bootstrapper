@@ -30,15 +30,15 @@ updatePinnedDialogs#fa0f3ca2 flags:# folder_id:flags.1?int order:flags.0?Vector<
 
 ```php
 $update = $client->updatePinnedDialogs(
-	folder_id : 72,
+	folder_id : 75,
 	order : array(
 		$client->dialogPeer(
 			peer : $client->peerUser(
-				user_id : -3046810381243894491,
+				user_id : 4163940543597100277,
 			),
 		),
 		$client->dialogPeerFolder(
-			folder_id : 32,
+			folder_id : 13,
 		),
 	),
 );

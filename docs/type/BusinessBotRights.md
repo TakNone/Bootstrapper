@@ -1,5 +1,7 @@
 # BusinessBotRights
 
+**Description** : *Business bot rights*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ businessBotRights#a0624cf7 flags:# reply:flags.0?true read_messages:flags.1?true
 
 | Constructor | Description |
 | :---: | :--- |
-| [**businessBotRights**](constructor/businessBotRights) | NOTHING |
+| [**businessBotRights**](constructor/businessBotRights) | Business bot rights |

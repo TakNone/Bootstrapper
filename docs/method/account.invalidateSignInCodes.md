@@ -28,6 +28,6 @@ account.invalidateSignInCodes#ca8ae8ba codes:Vector<string> = Bool;
 
 ```php
 $bool = $client->account->invalidateSignInCodes(
-	codes : array('Xmkp5G0aQrn9Uvgj'),
+	codes : array('B15bwYetRfE9X7pH'),
 );
 ```

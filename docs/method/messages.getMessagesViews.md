@@ -33,6 +33,7 @@ messages.getMessagesViews#5784d3e1 peer:InputPeer id:Vector<int> increment:Bool 
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
 | **CHAT_ID_INVALID** | `400` | The provided chat id is invalid |
+| **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
@@ -43,7 +44,7 @@ messages.getMessagesViews#5784d3e1 peer:InputPeer id:Vector<int> increment:Bool 
 ```php
 $messagesMessageViews = $client->messages->getMessagesViews(
 	peer : $client->inputPeerEmpty(),
-	id : array(93),
+	id : array(57),
 	increment : true,
 );
 ```

@@ -41,6 +41,6 @@ payments.editConnectedStarRefBot#e4fca4a3 flags:# revoked:flags.0?true peer:Inpu
 $paymentsConnectedStarRefBots = $client->payments->editConnectedStarRefBot(
 	revoked : true,
 	peer : $client->inputPeerEmpty(),
-	link : 'gmh7ir9BzTkARxPD',
+	link : 'd2UfqyP6wniGWCrT',
 );
 ```

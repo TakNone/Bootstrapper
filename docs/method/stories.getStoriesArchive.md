@@ -41,6 +41,6 @@ stories.getStoriesArchive#b4352016 peer:InputPeer offset_id:int limit:int = stor
 $storiesStories = $client->stories->getStoriesArchive(
 	peer : $client->inputPeerEmpty(),
 	offset_id : 0,
-	limit : 81,
+	limit : 65,
 );
 ```

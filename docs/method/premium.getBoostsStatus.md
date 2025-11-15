@@ -29,6 +29,7 @@ premium.getBoostsStatus#42f1f61 peer:InputPeer = premium.BoostsStatus;
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---

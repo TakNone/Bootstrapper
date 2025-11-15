@@ -32,6 +32,7 @@ photos.updateProfilePhoto#9e82039 flags:# fallback:flags.0?true bot:flags.1?Inpu
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **ALBUM_PHOTOS_TOO_MANY** | `400` | You have uploaded too many profile photos, delete some before retrying |
+| **BOT_FALLBACK_UNSUPPORTED** | `400` | The fallback flag can't be set for bots |
 | **FILE_PARTS_INVALID** | `400` | The number of file parts is invalid |
 | **IMAGE_PROCESS_FAILED** | `400` | Failure while processing image |
 | **LOCATION_INVALID** | `400` | The provided location is invalid |

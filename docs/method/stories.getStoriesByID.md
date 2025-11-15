@@ -42,6 +42,6 @@ stories.getStoriesByID#5774ca74 peer:InputPeer id:Vector<int> = stories.Stories;
 ```php
 $storiesStories = $client->stories->getStoriesByID(
 	peer : $client->inputPeerEmpty(),
-	id : array(72),
+	id : array(7),
 );
 ```

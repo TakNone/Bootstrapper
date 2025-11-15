@@ -5,7 +5,7 @@
 **Layer** : 216
 
 ```tl
-payments.paymentFormStars#7bf6b15c flags:# can_save_credentials:flags.2?true password_missing:flags.3?true form_id:long bot_id:long title:string description:string photo:flags.5?WebDocument invoice:Invoice users:Vector<User> = payments.PaymentForm;
+payments.paymentFormStars#7bf6b15c flags:# can_save_credentials:flags.2?true form_id:long password_missing:flags.3?true bot_id:long title:string description:string photo:flags.5?WebDocument invoice:Invoice users:Vector<User> = payments.PaymentForm;
 ```
 
 ---
@@ -16,8 +16,8 @@ payments.paymentFormStars#7bf6b15c flags:# can_save_credentials:flags.2?true pas
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **can_save_credentials** | [`flags.2?true`](type/true) | NOTHING |
-| **password_missing** | [`flags.3?true`](type/true) | NOTHING |
 | <mark>form_id</mark> | [`long`](type/long) | Form ID |
+| **password_missing** | [`flags.3?true`](type/true) | NOTHING |
 | <mark>bot_id</mark> | [`long`](type/long) | Bot ID |
 | <mark>title</mark> | [`string`](type/string) | Form title |
 | <mark>description</mark> | [`string`](type/string) | Description |
@@ -38,25 +38,25 @@ payments.paymentFormStars#7bf6b15c flags:# can_save_credentials:flags.2?true pas
 ```php
 $paymentsPaymentForm = $client->payments->paymentFormStars(
 	can_save_credentials : true,
+	form_id : -3038936649979132069,
 	password_missing : true,
-	form_id : 2600145886104544433,
-	bot_id : 875279763796114292,
-	title : 'qE1jmr8peY0fDMav',
-	description : 'vuY1pE9yhTtwlodP',
+	bot_id : -4379504803817475505,
+	title : 'HM7Ep3kuKoWOUyrN',
+	description : 'hlz0NHxQ7a8jgR3A',
 	photo : $client->webDocument(
 		url : 'https://docs.liveproto.dev',
-		access_hash : 6534705851170050416,
-		size : 65,
-		mime_type : 'b2An5YWCwgHJDsMP',
+		access_hash : -6813469285019204351,
+		size : 40,
+		mime_type : 'SFAc38DvTIt42pyf',
 		attributes : array(
 			$client->documentAttributeImageSize(
-				w : 44,
-				h : 67,
+				w : 42,
+				h : 8,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : 'vi5ZnfAQBlGr9TaH',
+				alt : 'joRuAKHkZzX09U7C',
 				stickerset : $client->inputStickerSetEmpty(...),
 				mask_coords : $client->maskCoords(...),
 			),
@@ -64,28 +64,28 @@ $paymentsPaymentForm = $client->payments->paymentFormStars(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : 1100159.6064453125,
-				w : 6,
-				h : 64,
-				preload_prefix_size : 26,
-				video_start_ts : 1991302.0693359375,
-				video_codec : 'Nt85k9FCaUMXWQqS',
+				duration : -752600.9091796875,
+				w : 98,
+				h : 90,
+				preload_prefix_size : 70,
+				video_start_ts : -395791.576171875,
+				video_codec : 'JIoUKTBYlSW2kFQa',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 93,
-				title : 'ZDaMteFCf1NLgOBy',
-				performer : 'INUoDe6ZulAFCzfa',
+				duration : 54,
+				title : 'w0g8UQAx1J6eIH4C',
+				performer : 'YRfFKdA5iCu8DLx4',
 				waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->documentAttributeFilename(
-				file_name : 'ms9yRhiBWwt7oGNa',
+				file_name : 'tnwGEx7RQJdieF61',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : 'n7SqrYH6gibWF3os',
+				alt : 'til1qWUOoLN7vpkT',
 				stickerset : $client->inputStickerSetEmpty(...),
 			),
 		),
@@ -100,21 +100,21 @@ $paymentsPaymentForm = $client->payments->paymentFormStars(
 		phone_to_provider : true,
 		email_to_provider : true,
 		recurring : true,
-		currency : 'mjG1Kb8vf2cpY7RW',
+		currency : 'kJnO6CpIrKaFHvgo',
 		prices : array(
 			$client->labeledPrice(
-				label : 'X0ek1Ap4y8Rg3QC2',
-				amount : 8525513336360532342,
+				label : 'tgfZcPl4zmRQa1sw',
+				amount : -8344511232753625546,
 			),
 		),
-		max_tip_amount : -8784459807974839746,
-		suggested_tip_amounts : array(-1204662363684380388),
+		max_tip_amount : 3364752920640716019,
+		suggested_tip_amounts : array(2571327426469770292),
 		terms_url : 'https://docs.liveproto.dev',
-		subscription_period : 30,
+		subscription_period : 86,
 	),
 	users : array(
 		$client->userEmpty(
-			id : 2377913916130226224,
+			id : -7644330639697420386,
 		),
 		$client->user(
 			self : true,
@@ -143,24 +143,24 @@ $paymentsPaymentForm = $client->payments->paymentFormStars(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 5933049806248096014,
-			access_hash : 3841533507906470796,
+			id : 2196033724336942792,
+			access_hash : 1660571137303929744,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 75,
+			bot_info_version : 36,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '3Kte1xUAVTzDLaGY',
-					reason : 'P6Y5M0mUA9cifkLH',
-					text : 'IQxEBdXDmtjALq4Z',
+					platform : '3SqaAEkd2DX58eTx',
+					reason : 'SsmH3ChLAX76rUyj',
+					text : 'PKeisaTGq1ku08wC',
 				),
 			),
-			bot_inline_placeholder : 'AnvTD0FfXoOJ7sVb',
-			lang_code : 'T35NkuJXfr1sw4Rn',
+			bot_inline_placeholder : 'EvSZtKULq8x4sXum',
+			lang_code : 'CjfOQ72Zy3mHdegq',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -169,18 +169,18 @@ $paymentsPaymentForm = $client->payments->paymentFormStars(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 46,
+			stories_max_id : 7,
 			color : $client->peerColor(
-				color : 41,
-				background_emoji_id : 5934458744420970628,
+				color : 85,
+				background_emoji_id : 4377234960167388470,
 			),
 			profile_color : $client->peerColor(
-				color : 50,
-				background_emoji_id : 4832323459335326144,
+				color : 6,
+				background_emoji_id : 8538564774876120009,
 			),
-			bot_active_users : 38,
-			bot_verification_icon : 5916784714994198710,
-			send_paid_messages_stars : 3432253606299911085,
+			bot_active_users : 2,
+			bot_verification_icon : -3224649642446592226,
+			send_paid_messages_stars : -175385818112725182,
 		),
 	),
 );

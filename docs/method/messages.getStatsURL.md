@@ -41,6 +41,6 @@ messages.getStatsURL#812c2ae6 flags:# dark:flags.0?true peer:InputPeer params:st
 $statsURL = $client->messages->getStatsURL(
 	dark : true,
 	peer : $client->inputPeerEmpty(),
-	params : 'AxmaJ0F9HzPURsGK',
+	params : 'TbYvcl4idGKIkFjm',
 );
 ```

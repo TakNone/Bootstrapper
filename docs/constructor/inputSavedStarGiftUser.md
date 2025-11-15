@@ -1,5 +1,7 @@
 # inputSavedStarGiftUser
 
+**Description** : *A gift received in a private chat with another user*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ inputSavedStarGiftUser#69279795 msg_id:int = InputSavedStarGift;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>msg_id</mark> | [`int`](type/int) | NOTHING |
+| <mark>msg_id</mark> | [`int`](type/int) | ID of the messageService with the messageActionStarGift with the gift |
 
 ---
 
@@ -26,6 +28,6 @@ inputSavedStarGiftUser#69279795 msg_id:int = InputSavedStarGift;
 
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftUser(
-	msg_id : 70,
+	msg_id : 79,
 );
 ```

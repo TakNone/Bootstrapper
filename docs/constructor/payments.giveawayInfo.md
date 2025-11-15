@@ -36,9 +36,9 @@ payments.giveawayInfo#4367daa0 flags:# participating:flags.0?true preparing_resu
 $paymentsGiveawayInfo = $client->payments->giveawayInfo(
 	participating : true,
 	preparing_results : true,
-	start_date : 4,
-	joined_too_early_date : 4,
-	admin_disallowed_chat_id : -8390543068786174051,
-	disallowed_country : '9hU2MtZR4F8KzWeO',
+	start_date : 36,
+	joined_too_early_date : 9,
+	admin_disallowed_chat_id : 6670611634996647422,
+	disallowed_country : 'sp6EdrejWOAUiRFa',
 );
 ```

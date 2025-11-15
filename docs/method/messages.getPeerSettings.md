@@ -29,6 +29,7 @@ messages.getPeerSettings#efd9a6a2 peer:InputPeer = messages.PeerSettings;
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_MONOFORUM_UNSUPPORTED** | `400` | Monoforums do not support this feature |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |

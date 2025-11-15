@@ -19,7 +19,7 @@ messages.sendReaction#d30d78d4 flags:# big:flags.1?true add_to_recent:flags.2?tr
 | **add_to_recent** | [`flags.2?true`](type/true) | Whether to add this reaction to the recent reactions list » |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer |
 | <mark>msg_id</mark> | [`int`](type/int) | Message ID to react to |
-| **reaction** | [`flags.0?Vector<Reaction>`](type/Reaction) | A list of reactions |
+| **reaction** | [`flags.0?Vector<Reaction>`](type/Reaction) | A list of reactions (doesn't accept reactionPaid constructors, use messages.sendPaidReaction to send paid reactions, instead) |
 
 ---
 
@@ -58,14 +58,14 @@ $updates = $client->messages->sendReaction(
 	big : true,
 	add_to_recent : true,
 	peer : $client->inputPeerEmpty(),
-	msg_id : 7,
+	msg_id : 35,
 	reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'PTjm4zMos7UdEZ9b',
+			emoticon : 'gRieM3DZp1tX69TL',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -517794252297155390,
+			document_id : -1165738686984837414,
 		),
 		$client->reactionPaid(),
 	),

@@ -1,5 +1,7 @@
 # payments.savedStarGifts
 
+**Description** : *Represents a list of gifts*
+
 **Layer** : 216
 
 ```tl
@@ -12,13 +14,13 @@ payments.savedStarGifts#95f389b1 flags:# count:int chat_notifications_enabled:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| <mark>count</mark> | [`int`](type/int) | NOTHING |
-| **chat_notifications_enabled** | [`flags.1?Bool`](type/Bool) | NOTHING |
-| <mark>gifts</mark> | [`Vector<SavedStarGift>`](type/SavedStarGift) | NOTHING |
-| **next_offset** | [`flags.0?string`](type/string) | NOTHING |
-| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | NOTHING |
-| <mark>users</mark> | [`Vector<User>`](type/User) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>count</mark> | [`int`](type/int) | Total number of results (can be less than the returned gifts, in which case next_offset will be set) |
+| **chat_notifications_enabled** | [`flags.1?Bool`](type/Bool) | Ternary value: can be not set, set&true, set&false. Can only be set for channels we own: the value indicates whether we enabled gift notifications for this channel |
+| <mark>gifts</mark> | [`Vector<SavedStarGift>`](type/SavedStarGift) | Gifts |
+| **next_offset** | [`flags.0?string`](type/string) | Offset to pass to payments.getSavedStarGifts to fetch the next page of results |
+| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | Channels mentioned in gifts |
+| <mark>users</mark> | [`Vector<User>`](type/User) | Users mentioned in gifts |
 
 ---
 
@@ -32,7 +34,7 @@ payments.savedStarGifts#95f389b1 flags:# count:int chat_notifications_enabled:fl
 
 ```php
 $paymentsSavedStarGifts = $client->payments->savedStarGifts(
-	count : 3,
+	count : 20,
 	chat_notifications_enabled : false,
 	gifts : array(
 		$client->savedStarGift(
@@ -43,9 +45,9 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 			pinned_to_top : true,
 			upgrade_separate : true,
 			from_id : $client->peerUser(
-				user_id : -3142113659283239638,
+				user_id : -4863094193662663031,
 			),
-			date : 61,
+			date : 33,
 			gift : $client->starGift(
 				limited : true,
 				sold_out : true,
@@ -54,25 +56,25 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 				require_premium : true,
 				limited_per_user : true,
 				peer_color_available : true,
-				id : -538792316862373022,
+				id : 419748358098968473,
 				sticker : $client->documentEmpty(...),
-				stars : -7413881499299452507,
-				availability_remains : 52,
-				availability_total : 79,
-				availability_resale : -8658798651005564284,
-				convert_stars : -7037449377932409171,
-				first_sale_date : 74,
-				last_sale_date : 70,
-				upgrade_stars : -7182327077668559046,
-				resell_min_stars : 4196440731404222259,
-				title : 'CZ3xckjiG4bu9ySv',
+				stars : 6956384402915535803,
+				availability_remains : 31,
+				availability_total : 53,
+				availability_resale : 5619803235990063284,
+				convert_stars : 4583067432312648060,
+				first_sale_date : 36,
+				last_sale_date : 71,
+				upgrade_stars : 7158131954686796287,
+				resell_min_stars : 6499865159187368151,
+				title : 'QlDbWmKiIukxFgJ5',
 				released_by : $client->peerUser(...),
-				per_user_total : 22,
-				per_user_remains : 87,
-				locked_until_date : 36,
+				per_user_total : 84,
+				per_user_remains : 36,
+				locked_until_date : 49,
 			),
 			message : $client->textWithEntities(
-				text : 'sCDAPlyIYdSftUmJ',
+				text : 'dREv9jbIiolPYsCe',
 				entities : array(
 					$client->messageEntityUnknown(...),
 					$client->messageEntityMention(...),
@@ -98,22 +100,22 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 				),
 			),
 			msg_id : 64,
-			saved_id : 5337881785458141454,
-			convert_stars : 6985230355139551300,
-			upgrade_stars : -8636239615208604816,
-			can_export_at : 72,
-			transfer_stars : -4084669472521584821,
-			can_transfer_at : 86,
-			can_resell_at : 17,
-			collection_id : array(13),
-			prepaid_upgrade_hash : '0snzpT1dvHogNcbI',
-			drop_original_details_stars : -5136651617009268716,
+			saved_id : -8416701990734619477,
+			convert_stars : 6516021635174213728,
+			upgrade_stars : 9113671064049295737,
+			can_export_at : 60,
+			transfer_stars : -1289412864518044961,
+			can_transfer_at : 29,
+			can_resell_at : 5,
+			collection_id : array(55),
+			prepaid_upgrade_hash : 'skJaHTK5SCpt2yYb',
+			drop_original_details_stars : -4878344857920495876,
 		),
 	),
-	next_offset : 'Gk31qfBpHwC5KI0t',
+	next_offset : 'oV9wkzeBLJmsY8Fj',
 	chats : array(
 		$client->chatEmpty(
-			id : 568541400342010576,
+			id : 4308771127634533149,
 		),
 		$client->chat(
 			creator : true,
@@ -123,12 +125,12 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -9168522902391191659,
-			title : 'tqxh31aRds8DQAG2',
+			id : 4746666671113970822,
+			title : 'OZIozVDfnuaEHmK6',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 68,
-			date : 92,
-			version : 13,
+			participants_count : 21,
+			date : 61,
+			version : 25,
 			migrated_to : $client->inputChannelEmpty(),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -169,12 +171,12 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 14,
+				until_date : 74,
 			),
 		),
 		$client->chatForbidden(
-			id : 2986952613156646301,
-			title : 'QM0Jr3KwIChqcESy',
+			id : 8473930905356691223,
+			title : 'asGNuEWvlqfdcTbV',
 		),
 		$client->channel(
 			creator : true,
@@ -205,17 +207,17 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 2737332510386510432,
-			access_hash : 7249521263541196545,
-			title : '0lkRmZAaq6jiBvf2',
+			id : -8909284359336683600,
+			access_hash : 7447710088790825356,
+			title : 'COAdn3Nl6TF7tUID',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 21,
+			date : 23,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'BGaZUX24fzqOu8PA',
-					reason : 'C0ImdLN7DPU9cwJu',
-					text : 'f5gUu1nMeHD3SdTN',
+					platform : '2LgSEIFU3aXR04tG',
+					reason : 'CfpBSrZgFEujsNHh',
+					text : 'mFWAEzUR2O4kYZCc',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -257,7 +259,7 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 79,
+				until_date : 78,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -280,9 +282,9 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 21,
+				until_date : 9,
 			),
-			participants_count : 24,
+			participants_count : 99,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -290,34 +292,34 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 44,
+			stories_max_id : 11,
 			color : $client->peerColor(
-				color : 39,
-				background_emoji_id : -6702020228520513093,
+				color : 49,
+				background_emoji_id : -2474385897956858504,
 			),
 			profile_color : $client->peerColor(
-				color : 81,
-				background_emoji_id : -7562131887642995708,
+				color : 14,
+				background_emoji_id : -3840225031812238899,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 68,
-			subscription_until_date : 69,
-			bot_verification_icon : -7809922958659111162,
-			send_paid_messages_stars : 7387583937176826590,
-			linked_monoforum_id : -1114144860851743868,
+			level : 89,
+			subscription_until_date : 19,
+			bot_verification_icon : -1341600553573568039,
+			send_paid_messages_stars : 6632689538951329271,
+			linked_monoforum_id : 2986110590521145049,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 73694294577536149,
-			access_hash : -2508686351844238268,
-			title : '9vaRzJMuUm1Cnc3i',
-			until_date : 94,
+			id : 5501382893291766128,
+			access_hash : -8004910699231889237,
+			title : '183bm0MgxIuvw7rc',
+			until_date : 8,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 597064128002709122,
+			id : -7894178053434071244,
 		),
 		$client->user(
 			self : true,
@@ -346,24 +348,24 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 2427716540555244774,
-			access_hash : 4281068004342655425,
+			id : 7931561476237118336,
+			access_hash : -228782297493023009,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 17,
+			bot_info_version : 43,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '5gwVETi0qxQRbKBW',
-					reason : 'km5iEhULZCI3HaXz',
-					text : 'puhf86wBTUS79IeE',
+					platform : 'f9ZFqAhdziITJmts',
+					reason : 'lMFXRgdzWENLbUfD',
+					text : '0HiXemMsFB6OKwV8',
 				),
 			),
-			bot_inline_placeholder : 'YFRpTstAk6OXMgrf',
-			lang_code : 'yeDEgYzZ4StXRhKN',
+			bot_inline_placeholder : '9yhELTHCm4Y1kJUS',
+			lang_code : '4JwvD83Fuf9W761d',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -372,18 +374,18 @@ $paymentsSavedStarGifts = $client->payments->savedStarGifts(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 77,
+			stories_max_id : 100,
 			color : $client->peerColor(
-				color : 92,
-				background_emoji_id : -8562660010122140687,
+				color : 28,
+				background_emoji_id : 3369969709801416999,
 			),
 			profile_color : $client->peerColor(
-				color : 97,
-				background_emoji_id : -6657527651328492271,
+				color : 5,
+				background_emoji_id : 2549607509159636925,
 			),
-			bot_active_users : 15,
-			bot_verification_icon : -2580038786625353544,
-			send_paid_messages_stars : 1286136957543287696,
+			bot_active_users : 13,
+			bot_verification_icon : 141120477258911060,
+			send_paid_messages_stars : 3632737398822940510,
 		),
 	),
 );

@@ -14,8 +14,8 @@ payments.starsRevenueStats#6c207376 flags:# top_hours_graph:flags.0?StatsGraph r
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
-| **top_hours_graph** | [`flags.0?StatsGraph`](type/StatsGraph) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| **top_hours_graph** | [`flags.0?StatsGraph`](type/StatsGraph) | For ad revenue statistics, ad impressions graph |
 | <mark>revenue_graph</mark> | [`StatsGraph`](type/StatsGraph) | Star revenue graph (number of earned stars) |
 | <mark>status</mark> | [`StarsRevenueStatus`](type/StarsRevenueStatus) | Current balance, current withdrawable balance and overall earned Telegram Stars |
 | <mark>usd_rate</mark> | [`double`](type/double) | Current conversion rate of Telegram Stars to USD |
@@ -33,27 +33,27 @@ payments.starsRevenueStats#6c207376 flags:# top_hours_graph:flags.0?StatsGraph r
 ```php
 $paymentsStarsRevenueStats = $client->payments->starsRevenueStats(
 	top_hours_graph : $client->statsGraphAsync(
-		token : 'T9GRfzJUiMq5QpIl',
+		token : '1gdeDlfmsJrZHcC6',
 	),
 	revenue_graph : $client->statsGraphAsync(
-		token : 'h5M3C24HeQaVubI9',
+		token : '5mKUxS4vyCfkEWhB',
 	),
 	status : $client->starsRevenueStatus(
 		withdrawal_enabled : true,
 		current_balance : $client->starsAmount(
-			amount : -4382795564497002169,
-			nanos : 20,
+			amount : -1508870972930109136,
+			nanos : 54,
 		),
 		available_balance : $client->starsAmount(
-			amount : -3730073531458301485,
-			nanos : 95,
+			amount : 1310094073643847611,
+			nanos : 84,
 		),
 		overall_revenue : $client->starsAmount(
-			amount : 7908354261921813781,
-			nanos : 85,
+			amount : -7179556473397899498,
+			nanos : 20,
 		),
-		next_withdrawal_at : 19,
+		next_withdrawal_at : 55,
 	),
-	usd_rate : 1136030.58984375,
+	usd_rate : 770265.712890625,
 );
 ```

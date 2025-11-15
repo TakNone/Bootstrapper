@@ -36,6 +36,6 @@ stickers.suggestShortName#4dafc503 title:string = stickers.SuggestedShortName;
 
 ```php
 $stickersSuggestedShortName = $client->stickers->suggestShortName(
-	title : 'nGoNc2LCmZVg5KMU',
+	title : 'epVDryuFhUv8afLA',
 );
 ```

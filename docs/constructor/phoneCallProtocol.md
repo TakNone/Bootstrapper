@@ -35,8 +35,8 @@ phoneCallProtocol#fc878fc8 flags:# udp_p2p:flags.0?true udp_reflector:flags.1?tr
 $phoneCallProtocol = $client->phoneCallProtocol(
 	udp_p2p : true,
 	udp_reflector : true,
-	min_layer : 81,
-	max_layer : 61,
-	library_versions : array('yNc96fIRjGX8azQO'),
+	min_layer : 4,
+	max_layer : 35,
+	library_versions : array('FgzldK0kcTBCE5rs'),
 );
 ```

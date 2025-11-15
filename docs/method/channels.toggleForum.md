@@ -16,7 +16,7 @@ channels.toggleForum#3ff75734 channel:InputChannel enabled:Bool tabs:Bool = Upda
 | :---: | :---: | :--- |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | Supergroup ID |
 | <mark>enabled</mark> | [`Bool`](type/Bool) | Enable or disable forum functionality |
-| <mark>tabs</mark> | [`Bool`](type/Bool) | NOTHING |
+| <mark>tabs</mark> | [`Bool`](type/Bool) | If true enables the tabbed forum UI, otherwise enables the list-based forum UI |
 
 ---
 

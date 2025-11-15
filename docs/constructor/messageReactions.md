@@ -39,9 +39,9 @@ $messageReactions = $client->messageReactions(
 	reactions_as_tags : true,
 	results : array(
 		$client->reactionCount(
-			chosen_order : 52,
+			chosen_order : 15,
 			reaction : $client->reactionEmpty(),
-			count : 26,
+			count : 4,
 		),
 	),
 	recent_reactions : array(
@@ -50,9 +50,9 @@ $messageReactions = $client->messageReactions(
 			unread : true,
 			my : true,
 			peer_id : $client->peerUser(
-				user_id : -2097292298829203139,
+				user_id : 2903017575868533373,
 			),
-			date : 28,
+			date : 56,
 			reaction : $client->reactionEmpty(),
 		),
 	),
@@ -62,9 +62,9 @@ $messageReactions = $client->messageReactions(
 			my : true,
 			anonymous : true,
 			peer_id : $client->peerUser(
-				user_id : 7327664305974972024,
+				user_id : -8141537617617972622,
 			),
-			count : 80,
+			count : 72,
 		),
 	),
 );

@@ -39,7 +39,7 @@ bots.addPreviewMedia#17aeb75a bot:InputUser lang_code:string media:InputMedia = 
 ```php
 $botPreviewMedia = $client->bots->addPreviewMedia(
 	bot : $client->inputUserEmpty(),
-	lang_code : '5gotM0u7Gl2UnfKF',
+	lang_code : 'bgpLYIDFCe8TsvqX',
 	media : $client->inputMediaEmpty(),
 );
 ```

@@ -33,8 +33,8 @@ messages.requestUrlAuth#198fb446 flags:# peer:flags.1?InputPeer msg_id:flags.1?i
 ```php
 $urlAuthResult = $client->messages->requestUrlAuth(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 96,
-	button_id : 100,
+	msg_id : 40,
+	button_id : 46,
 	url : 'https://docs.liveproto.dev',
 );
 ```

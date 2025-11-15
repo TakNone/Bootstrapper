@@ -43,7 +43,7 @@ premium.getBoostsList#60f67660 flags:# gifts:flags.0?true peer:InputPeer offset:
 $premiumBoostsList = $client->premium->getBoostsList(
 	gifts : true,
 	peer : $client->inputPeerEmpty(),
-	offset : 'KPO0Ayi4BmubC1lJ',
-	limit : 99,
+	offset : 'raquPfH9vDFWGYOM',
+	limit : 69,
 );
 ```

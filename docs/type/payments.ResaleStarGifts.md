@@ -1,5 +1,7 @@
 # payments.ResaleStarGifts
 
+**Description** : *List of gifts currently on resale &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ payments.resaleStarGifts#947a12df flags:# count:int gifts:Vector<StarGift> next_
 
 | Constructor | Description |
 | :---: | :--- |
-| [**payments.resaleStarGifts**](constructor/payments.resaleStarGifts) | NOTHING |
+| [**payments.resaleStarGifts**](constructor/payments.resaleStarGifts) | List of gifts currently on resale » |

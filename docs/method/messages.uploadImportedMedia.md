@@ -42,8 +42,8 @@ messages.uploadImportedMedia#2a862092 peer:InputPeer import_id:long file_name:st
 ```php
 $messageMedia = $client->messages->uploadImportedMedia(
 	peer : $client->inputPeerEmpty(),
-	import_id : -9165163815203052920,
-	file_name : 'nBxjvlXRGtm9bwM0',
+	import_id : 6572351009846955351,
+	file_name : 'uVfUGCHDP1a0O6WS',
 	media : $client->inputMediaEmpty(),
 );
 ```

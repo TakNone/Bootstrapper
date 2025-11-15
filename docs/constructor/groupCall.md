@@ -5,7 +5,7 @@
 **Layer** : 216
 
 ```tl
-groupCall#553b0ba1 flags:# join_muted:flags.1?true can_change_join_muted:flags.2?true join_date_asc:flags.6?true schedule_start_subscribed:flags.8?true can_start_video:flags.9?true record_video_active:flags.11?true rtmp_stream:flags.12?true listeners_hidden:flags.13?true conference:flags.14?true creator:flags.15?true messages_enabled:Bool can_change_messages_enabled:Bool min:Bool id:long access_hash:long participants_count:int title:flags.3?string stream_dc_id:flags.4?int record_start_date:flags.5?int schedule_date:flags.7?int unmuted_video_count:flags.10?int unmuted_video_limit:int version:int invite_link:flags.16?string = GroupCall;
+groupCall#553b0ba1 flags:# join_muted:flags.1?true can_change_join_muted:flags.2?true join_date_asc:flags.6?true schedule_start_subscribed:flags.8?true can_start_video:flags.9?true record_video_active:flags.11?true rtmp_stream:flags.12?true listeners_hidden:flags.13?true conference:flags.14?true creator:flags.15?true messages_enabled:flags.17?true can_change_messages_enabled:flags.18?true min:flags.19?true id:long access_hash:long participants_count:int title:flags.3?string stream_dc_id:flags.4?int record_start_date:flags.5?int schedule_date:flags.7?int unmuted_video_count:flags.10?int unmuted_video_limit:int version:int invite_link:flags.16?string = GroupCall;
 ```
 
 ---
@@ -23,11 +23,11 @@ groupCall#553b0ba1 flags:# join_muted:flags.1?true can_change_join_muted:flags.2
 | **record_video_active** | [`flags.11?true`](type/true) | Whether the group call is currently being recorded |
 | **rtmp_stream** | [`flags.12?true`](type/true) | Whether RTMP streams are allowed |
 | **listeners_hidden** | [`flags.13?true`](type/true) | Whether the listeners list is hidden and cannot be fetched using phone.getGroupParticipants. The phone.groupParticipants.count and groupCall.participants_count counters will still include listeners |
-| **conference** | [`flags.14?true`](type/true) | NOTHING |
-| **creator** | [`flags.15?true`](type/true) | NOTHING |
-| <mark>messages_enabled</mark> | [`Bool`](type/Bool) | NOTHING |
-| <mark>can_change_messages_enabled</mark> | [`Bool`](type/Bool) | NOTHING |
-| <mark>min</mark> | [`Bool`](type/Bool) | NOTHING |
+| **conference** | [`flags.14?true`](type/true) | Whether this is an E2E conference call |
+| **creator** | [`flags.15?true`](type/true) | Whether we're created this group call |
+| **messages_enabled** | [`flags.17?true`](type/true) | NOTHING |
+| **can_change_messages_enabled** | [`flags.18?true`](type/true) | NOTHING |
+| **min** | [`flags.19?true`](type/true) | NOTHING |
 | <mark>id</mark> | [`long`](type/long) | Group call ID |
 | <mark>access_hash</mark> | [`long`](type/long) | Group call access hash |
 | <mark>participants_count</mark> | [`int`](type/int) | Participant count |
@@ -38,7 +38,7 @@ groupCall#553b0ba1 flags:# join_muted:flags.1?true can_change_join_muted:flags.2
 | **unmuted_video_count** | [`flags.10?int`](type/int) | Number of people currently streaming video into the call |
 | <mark>unmuted_video_limit</mark> | [`int`](type/int) | Maximum number of people allowed to stream video into the call |
 | <mark>version</mark> | [`int`](type/int) | Version |
-| **invite_link** | [`flags.16?string`](type/string) | NOTHING |
+| **invite_link** | [`flags.16?string`](type/string) | Invitation link for the conference |
 
 ---
 
@@ -64,17 +64,17 @@ $groupCall = $client->groupCall(
 	creator : true,
 	messages_enabled : true,
 	can_change_messages_enabled : true,
-	min : false,
-	id : 1076060218513187338,
-	access_hash : -3808246060435247948,
-	participants_count : 21,
-	title : 'hVwZNHl1zqOGY6rB',
-	stream_dc_id : 20,
-	record_start_date : 100,
-	schedule_date : 54,
-	unmuted_video_count : 29,
-	unmuted_video_limit : 53,
-	version : 79,
-	invite_link : 'TsYP8JIWhxOro1mj',
+	min : true,
+	id : -3902930233251042912,
+	access_hash : 4167055321631066431,
+	participants_count : 22,
+	title : 'tJdPIQh8bLeZDgEK',
+	stream_dc_id : 71,
+	record_start_date : 47,
+	schedule_date : 25,
+	unmuted_video_count : 6,
+	unmuted_video_limit : 31,
+	version : 89,
+	invite_link : 'a0sof7RACl4mZzeP',
 );
 ```

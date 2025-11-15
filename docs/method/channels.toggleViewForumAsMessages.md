@@ -38,6 +38,6 @@ channels.toggleViewForumAsMessages#9738bb15 channel:InputChannel enabled:Bool = 
 ```php
 $updates = $client->channels->toggleViewForumAsMessages(
 	channel : $client->inputChannelEmpty(),
-	enabled : true,
+	enabled : false,
 );
 ```

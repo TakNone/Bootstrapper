@@ -42,9 +42,9 @@ phone.toggleGroupCallSettings#74bbb43d flags:# reset_invite_hash:flags.1?true ca
 $updates = $client->phone->toggleGroupCallSettings(
 	reset_invite_hash : true,
 	call : $client->inputGroupCall(
-		id : -7409399429363257957,
-		access_hash : 4991957525425946686,
+		id : 8850413800373481947,
+		access_hash : 8715854159607489740,
 	),
-	join_muted : false,
+	join_muted : true,
 );
 ```

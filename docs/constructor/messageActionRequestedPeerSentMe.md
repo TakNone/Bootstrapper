@@ -29,30 +29,30 @@ messageActionRequestedPeerSentMe#93b31848 button_id:int peers:Vector<RequestedPe
 
 ```php
 $messageAction = $client->messageActionRequestedPeerSentMe(
-	button_id : 14,
+	button_id : 36,
 	peers : array(
 		$client->requestedPeerUser(
-			user_id : 4974326229392055728,
+			user_id : -2210167121976999912,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			photo : $client->photoEmpty(
-				id : 5343004694153222579,
+				id : -7899146932290314949,
 			),
 		),
 		$client->requestedPeerChat(
-			chat_id : 8473533589346355621,
-			title : 'HMpwDu9vnEYyamhc',
+			chat_id : 6471750849424767543,
+			title : '5XMr2pEjTbFP0ZtA',
 			photo : $client->photoEmpty(
-				id : 7876768496991386281,
+				id : 3846038136241555947,
 			),
 		),
 		$client->requestedPeerChannel(
-			channel_id : 7140174169538016077,
-			title : 'SBEI4KfMA5n2vD7V',
+			channel_id : -2889099271252140781,
+			title : 'iqTWfIAGY5LSrsC1',
 			username : 'TakNone',
 			photo : $client->photoEmpty(
-				id : -1692642015369362791,
+				id : 6462215862309132526,
 			),
 		),
 	),

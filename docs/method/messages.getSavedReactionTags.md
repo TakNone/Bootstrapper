@@ -26,6 +26,14 @@ messages.getSavedReactionTags#3637e05b flags:# peer:flags.0?InputPeer hash:long 
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+
+---
+
 ## Example
 
 ```php

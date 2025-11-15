@@ -28,8 +28,8 @@ messages.getUniqueGiftChatThemes#e42ce9c9 offset:string limit:int hash:long = Ch
 
 ```php
 $chatThemes = $client->messages->getUniqueGiftChatThemes(
-	offset : 'Z7liJBAuV9qRosgT',
-	limit : 81,
+	offset : 'kUE3VmKXTxCWHtIB',
+	limit : 89,
 	hash : 0,
 );
 ```

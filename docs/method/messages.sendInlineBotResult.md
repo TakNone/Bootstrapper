@@ -27,7 +27,7 @@ messages.sendInlineBotResult#c0cf7646 flags:# silent:flags.5?true background:fla
 | **schedule_date** | [`flags.10?int`](type/int) | Scheduled message date for scheduled messages |
 | **send_as** | [`flags.13?InputPeer`](type/InputPeer) | Send this message as the specified peer |
 | **quick_reply_shortcut** | [`flags.17?InputQuickReplyShortcut`](type/InputQuickReplyShortcut) | Add the message to the specified quick reply shortcut », instead |
-| **allow_paid_stars** | [`flags.21?long`](type/long) | NOTHING |
+| **allow_paid_stars** | [`flags.21?long`](type/long) | For paid messages », specifies the amount of Telegram Stars the user has agreed to pay in order to send the message |
 
 ---
 
@@ -41,6 +41,7 @@ messages.sendInlineBotResult#c0cf7646 flags:# silent:flags.5?true background:fla
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **ALLOW_PAYMENT_REQUIRED_%d** | `403` | This peer charges %d Telegram Stars per message, but the allow_paid_stars was not set or its value is smaller than %d |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
@@ -62,6 +63,7 @@ messages.sendInlineBotResult#c0cf7646 flags:# silent:flags.5?true background:fla
 | **MEDIA_EMPTY** | `400` | The provided media object is invalid |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+| **PRIVACY_PREMIUM_REQUIRED** | `403` | You need a Telegram Premium subscription to send a message to this user |
 | **QUERY_ID_EMPTY** | `400` | The query ID is empty |
 | **QUICK_REPLIES_TOO_MUCH** | `400` | A maximum of appConfig.quick_replies_limit shortcuts may be created, the limit was reached |
 | **RANDOM_ID_DUPLICATE** | `500` | You provided a random ID that was already used |
@@ -70,6 +72,7 @@ messages.sendInlineBotResult#c0cf7646 flags:# silent:flags.5?true background:fla
 | **RESULT_ID_INVALID** | `400` | One of the specified result IDs is invalid |
 | **SCHEDULE_DATE_TOO_LATE** | `400` | You can't schedule a message this far in the future |
 | **SCHEDULE_TOO_MUCH** | `400` | There are too many scheduled messages |
+| **SEND_AS_PEER_INVALID** | `400` | You can't send messages as the specified peer |
 | **SEND_MEDIA_INVALID** | `500` | The specified media is invalid |
 | **SLOWMODE_WAIT_%d** | `420` | Slowmode is enabled in this chat: wait %d seconds before sending another message to this chat |
 | **TOPIC_DELETED** | `400` | The specified topic was deleted |
@@ -91,114 +94,114 @@ $updates = $client->messages->sendInlineBotResult(
 	hide_via : true,
 	peer : $client->inputPeerEmpty(),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 15,
-		top_msg_id : 63,
+		reply_to_msg_id : 29,
+		top_msg_id : 81,
 		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'wViG51FgAHsBOZqY',
+		quote_text : 'pwVb0uToaG8MAzF2',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 4,
+				length : 57,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 73,
+				length : 8,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 51,
+				length : 59,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 67,
+				length : 32,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 52,
+				length : 31,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 6,
+				length : 97,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 16,
+				length : 69,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 89,
+				length : 75,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 75,
+				length : 9,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 2,
-				language : 'zrgiCxvY4soWOkB0',
+				length : 48,
+				language : '7xmy15SdCwcOzQYP',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 41,
+				length : 11,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 13,
-				user_id : 9100134359428462394,
+				length : 47,
+				user_id : -4336283368690809176,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 12,
+				length : 89,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 46,
+				length : 12,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 7,
+				length : 52,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 35,
+				length : 50,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 29,
+				length : 68,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 0,
+				length : 41,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 28,
+				length : 55,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 83,
-				document_id : -3987329974483067585,
+				length : 82,
+				document_id : -5531907395055630649,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 17,
+				length : 43,
 			),
 		),
-		quote_offset : 92,
+		quote_offset : 99,
 		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 58,
+		todo_item_id : 61,
 	),
-	random_id : -2227204011605244188,
-	query_id : -913889588195535738,
-	id : 'vMDeJ2nArmhptZY7',
-	schedule_date : 35,
+	random_id : -3619088423037485005,
+	query_id : 2677255181744426530,
+	id : '8BqKeGtDd5HJ0iap',
+	schedule_date : 55,
 	send_as : $client->inputPeerEmpty(),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'Ejo4APXcFdL3nZtS',
+		shortcut : 'B2Eta5h19ek0ijF4',
 	),
-	allow_paid_stars : -1968216295742817573,
+	allow_paid_stars : -1681454772296858921,
 );
 ```

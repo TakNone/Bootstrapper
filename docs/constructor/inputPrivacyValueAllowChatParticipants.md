@@ -14,7 +14,7 @@ inputPrivacyValueAllowChatParticipants#840649cf chats:Vector<long> = InputPrivac
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>chats</mark> | [`Vector<long>`](type/long) | Allowed chat IDs |
+| <mark>chats</mark> | [`Vector<long>`](type/long) | Allowed chat IDs (either a chat or a supergroup ID, verbatim the way it is received in the constructor (i.e. unlike with bot API IDs, here group and supergroup IDs should be treated in the same way)) |
 
 ---
 
@@ -28,6 +28,6 @@ inputPrivacyValueAllowChatParticipants#840649cf chats:Vector<long> = InputPrivac
 
 ```php
 $inputPrivacyRule = $client->inputPrivacyValueAllowChatParticipants(
-	chats : array(7248053417593857500),
+	chats : array(7893756996113765928),
 );
 ```

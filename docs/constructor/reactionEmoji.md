@@ -28,6 +28,6 @@ reactionEmoji#1b2286b8 emoticon:string = Reaction;
 
 ```php
 $reaction = $client->reactionEmoji(
-	emoticon : '1uLoM0d4Ypi3klF7',
+	emoticon : '35xaFKkHuOyG9YC6',
 );
 ```

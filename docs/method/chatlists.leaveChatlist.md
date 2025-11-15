@@ -38,31 +38,31 @@ chatlists.leaveChatlist#74fae13a chatlist:InputChatlist peers:Vector<InputPeer> 
 ```php
 $updates = $client->chatlists->leaveChatlist(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 52,
+		filter_id : 95,
 	),
 	peers : array(
 		$client->inputPeerEmpty(),
 		$client->inputPeerSelf(),
 		$client->inputPeerChat(
-			chat_id : 8867862421550031449,
+			chat_id : 9172692759036477320,
 		),
 		$client->inputPeerUser(
-			user_id : -5233977876247743544,
-			access_hash : -1027980551808161808,
+			user_id : 7646539748325716135,
+			access_hash : -8071662620929273891,
 		),
 		$client->inputPeerChannel(
-			channel_id : -679416307568643871,
-			access_hash : -2345382904654369337,
+			channel_id : -4026413003188621579,
+			access_hash : -6350905247569313484,
 		),
 		$client->inputPeerUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 66,
-			user_id : -684308076481712365,
+			msg_id : 77,
+			user_id : -806775566233353155,
 		),
 		$client->inputPeerChannelFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 84,
-			channel_id : 7274151545329548790,
+			msg_id : 87,
+			channel_id : -8658738741556361418,
 		),
 	),
 );

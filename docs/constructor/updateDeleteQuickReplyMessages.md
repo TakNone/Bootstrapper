@@ -29,7 +29,7 @@ updateDeleteQuickReplyMessages#566fe7cd shortcut_id:int messages:Vector<int> = U
 
 ```php
 $update = $client->updateDeleteQuickReplyMessages(
-	shortcut_id : 33,
-	messages : array(40),
+	shortcut_id : 11,
+	messages : array(100),
 );
 ```

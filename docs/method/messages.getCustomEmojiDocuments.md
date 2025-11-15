@@ -28,6 +28,6 @@ messages.getCustomEmojiDocuments#d9ab0f54 document_id:Vector<long> = Vector<Docu
 
 ```php
 $document = $client->messages->getCustomEmojiDocuments(
-	document_id : array(1567347761728037202),
+	document_id : array(3359888688218501383),
 );
 ```

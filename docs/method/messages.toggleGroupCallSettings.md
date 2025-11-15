@@ -3,7 +3,7 @@
 **Layer** : 216
 
 ```tl
-messages.toggleGroupCallSettings#e9723804 reset_invite_hash:Bool call:InputGroupCall join_muted:Bool messages_enabled:Bool = Updates;
+messages.toggleGroupCallSettings#e9723804 flags:# reset_invite_hash:flags.1?true call:InputGroupCall join_muted:flags.0?Bool messages_enabled:flags.2?Bool = Updates;
 ```
 
 ---
@@ -12,10 +12,11 @@ messages.toggleGroupCallSettings#e9723804 reset_invite_hash:Bool call:InputGroup
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>reset_invite_hash</mark> | [`Bool`](type/Bool) | NOTHING |
+| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| **reset_invite_hash** | [`flags.1?true`](type/true) | NOTHING |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
-| <mark>join_muted</mark> | [`Bool`](type/Bool) | NOTHING |
-| <mark>messages_enabled</mark> | [`Bool`](type/Bool) | NOTHING |
+| **join_muted** | [`flags.0?Bool`](type/Bool) | NOTHING |
+| **messages_enabled** | [`flags.2?Bool`](type/Bool) | NOTHING |
 
 ---
 
@@ -29,10 +30,10 @@ messages.toggleGroupCallSettings#e9723804 reset_invite_hash:Bool call:InputGroup
 
 ```php
 $updates = $client->messages->toggleGroupCallSettings(
-	reset_invite_hash : false,
+	reset_invite_hash : true,
 	call : $client->inputGroupCall(
-		id : 5869768002581772428,
-		access_hash : -4650422041295099571,
+		id : 3952488287836910010,
+		access_hash : 712963422447409376,
 	),
 	join_muted : false,
 	messages_enabled : true,

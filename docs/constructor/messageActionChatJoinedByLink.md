@@ -28,6 +28,6 @@ messageActionChatJoinedByLink#31224c3 inviter_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatJoinedByLink(
-	inviter_id : 7418083819499261453,
+	inviter_id : -6276686785421422907,
 );
 ```

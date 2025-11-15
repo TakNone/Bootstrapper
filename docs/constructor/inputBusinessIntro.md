@@ -31,8 +31,8 @@ inputBusinessIntro#9c469cd flags:# title:string description:string sticker:flags
 
 ```php
 $inputBusinessIntro = $client->inputBusinessIntro(
-	title : 'SFgDHau1dpvj2ke8',
-	description : 'pza6Xoe0vBUI4y2m',
+	title : 'xnFcld91VG840YSQ',
+	description : 'B3Gl0U2XIVDxremy',
 	sticker : $client->inputDocumentEmpty(),
 );
 ```

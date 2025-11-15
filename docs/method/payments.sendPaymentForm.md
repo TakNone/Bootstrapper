@@ -34,7 +34,10 @@ payments.sendPaymentForm#2d03522f flags:# form_id:long invoice:InputInvoice requ
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **FORM_UNSUPPORTED** | `400` | Please update your client |
+| **INVOICE_INVALID** | `400` | The specified invoice is invalid |
 | **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
+| **PAYMENT_CREDENTIALS_INVALID** | `400` | The specified payment credentials are invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **TMP_PASSWORD_INVALID** | `400` | The passed tmp_password is invalid |
 
@@ -44,17 +47,17 @@ payments.sendPaymentForm#2d03522f flags:# form_id:long invoice:InputInvoice requ
 
 ```php
 $paymentsPaymentResult = $client->payments->sendPaymentForm(
-	form_id : 5756397103998096264,
+	form_id : -4353199967408973519,
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->inputPeerEmpty(),
-		msg_id : 46,
+		msg_id : 38,
 	),
-	requested_info_id : '0vsOniWg1HEmXTD5',
-	shipping_option_id : 'qmyK2RaSnEMic6NW',
+	requested_info_id : '2VMxiD1rHJ4KNRPL',
+	shipping_option_id : 'r1gpyAVdlKixNhPT',
 	credentials : $client->inputPaymentCredentialsSaved(
-		id : 'Mn2QBLz9RygkAqWT',
+		id : 'gph1XnCBxeGaqZHv',
 		tmp_password : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
-	tip_amount : -1425847599078380092,
+	tip_amount : 6027273718869221770,
 );
 ```

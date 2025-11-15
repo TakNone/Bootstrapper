@@ -33,6 +33,6 @@ inputMediaPhotoExternal#e5bbfe1a flags:# spoiler:flags.1?true url:string ttl_sec
 $inputMedia = $client->inputMediaPhotoExternal(
 	spoiler : true,
 	url : 'https://docs.liveproto.dev',
-	ttl_seconds : 57,
+	ttl_seconds : 92,
 );
 ```

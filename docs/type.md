@@ -2453,7 +2453,7 @@
 
 ##### MediaAreaCoordinates
 
-:link: [*Coordinates and size of a clicable rectangular area on top of a story*](type/MediaAreaCoordinates)
+:link: [*Coordinates and size of a clickable rectangular area on top of a story*](type/MediaAreaCoordinates)
 
 ---
 
@@ -3113,235 +3113,235 @@
 
 ##### BotVerifierSettings
 
-:link: [*NOTHING*](type/BotVerifierSettings)
+:link: [*Info about the current verifier bot &raquo;*](type/BotVerifierSettings)
 
 ---
 
 ##### BotVerification
 
-:link: [*NOTHING*](type/BotVerification)
+:link: [*Describes a bot verification icon &raquo;*](type/BotVerification)
 
 ---
 
 ##### StarGiftAttribute
 
-:link: [*NOTHING*](type/StarGiftAttribute)
+:link: [*An attribute of a collectible gift &raquo;*](type/StarGiftAttribute)
 
 ---
 
 ##### payments StarGiftUpgradePreview
 
-:link: [*NOTHING*](type/payments.StarGiftUpgradePreview)
+:link: [*A preview of the possible attributes \(chosen randomly\) a gift &raquo; can receive after upgrading it to a collectible gift &raquo;, see here &raquo; for more info*](type/payments.StarGiftUpgradePreview)
 
 ---
 
 ##### users Users
 
-:link: [*NOTHING*](type/users.Users)
+:link: [*Describes a list of users \(or bots\)*](type/users.Users)
 
 ---
 
 ##### payments UniqueStarGift
 
-:link: [*NOTHING*](type/payments.UniqueStarGift)
+:link: [*Represents a collectible gift &raquo;*](type/payments.UniqueStarGift)
 
 ---
 
 ##### messages WebPagePreview
 
-:link: [*NOTHING*](type/messages.WebPagePreview)
+:link: [*Represents a webpage preview*](type/messages.WebPagePreview)
 
 ---
 
 ##### SavedStarGift
 
-:link: [*NOTHING*](type/SavedStarGift)
+:link: [*Represents a gift owned by a peer*](type/SavedStarGift)
 
 ---
 
 ##### payments SavedStarGifts
 
-:link: [*NOTHING*](type/payments.SavedStarGifts)
+:link: [*Represents a list of gifts*](type/payments.SavedStarGifts)
 
 ---
 
 ##### InputSavedStarGift
 
-:link: [*NOTHING*](type/InputSavedStarGift)
+:link: [*Points to a gift &raquo;*](type/InputSavedStarGift)
 
 ---
 
 ##### payments StarGiftWithdrawalUrl
 
-:link: [*NOTHING*](type/payments.StarGiftWithdrawalUrl)
+:link: [*A URL that can be used to import the exported NFT on Fragment*](type/payments.StarGiftWithdrawalUrl)
 
 ---
 
 ##### PaidReactionPrivacy
 
-:link: [*NOTHING*](type/PaidReactionPrivacy)
+:link: [*Paid reaction privacy settings &raquo;*](type/PaidReactionPrivacy)
 
 ---
 
 ##### account PaidMessagesRevenue
 
-:link: [*NOTHING*](type/account.PaidMessagesRevenue)
+:link: [*Total number of non\-refunded Telegram Stars a user has spent on sending us messages either directly or through a channel, see here &raquo; for more info on paid messages*](type/account.PaidMessagesRevenue)
 
 ---
 
 ##### RequirementToContact
 
-:link: [*NOTHING*](type/RequirementToContact)
+:link: [*Specifies a requirement that must be satisfied in order to contact a user*](type/RequirementToContact)
 
 ---
 
 ##### BusinessBotRights
 
-:link: [*NOTHING*](type/BusinessBotRights)
+:link: [*Business bot rights*](type/BusinessBotRights)
 
 ---
 
 ##### DisallowedGiftsSettings
 
-:link: [*NOTHING*](type/DisallowedGiftsSettings)
+:link: [*Disallow the reception of specific gift types*](type/DisallowedGiftsSettings)
 
 ---
 
 ##### SponsoredPeer
 
-:link: [*NOTHING*](type/SponsoredPeer)
+:link: [*A sponsored peer*](type/SponsoredPeer)
 
 ---
 
 ##### contacts SponsoredPeers
 
-:link: [*NOTHING*](type/contacts.SponsoredPeers)
+:link: [*A list of sponsored peers*](type/contacts.SponsoredPeers)
 
 ---
 
 ##### StarGiftAttributeId
 
-:link: [*NOTHING*](type/StarGiftAttributeId)
+:link: [*Represents the identifier of a collectible gift attribute*](type/StarGiftAttributeId)
 
 ---
 
 ##### StarGiftAttributeCounter
 
-:link: [*NOTHING*](type/StarGiftAttributeCounter)
+:link: [*Indicates the total number of gifts that have the specified attribute*](type/StarGiftAttributeCounter)
 
 ---
 
 ##### payments ResaleStarGifts
 
-:link: [*NOTHING*](type/payments.ResaleStarGifts)
+:link: [*List of gifts currently on resale &raquo;*](type/payments.ResaleStarGifts)
 
 ---
 
 ##### stories CanSendStoryCount
 
-:link: [*NOTHING*](type/stories.CanSendStoryCount)
+:link: [*Contains the number of available active story slots \(equal to the value of the story\_expiring\_limit\_\* client configuration parameter minus the number of currently active stories\)*](type/stories.CanSendStoryCount)
 
 ---
 
 ##### PendingSuggestion
 
-:link: [*NOTHING*](type/PendingSuggestion)
+:link: [*Represents a custom pending suggestion &raquo;*](type/PendingSuggestion)
 
 ---
 
 ##### TodoItem
 
-:link: [*NOTHING*](type/TodoItem)
+:link: [*An item of a todo list &raquo;*](type/TodoItem)
 
 ---
 
 ##### TodoList
 
-:link: [*NOTHING*](type/TodoList)
+:link: [*Represents a todo list &raquo;*](type/TodoList)
 
 ---
 
 ##### TodoCompletion
 
-:link: [*NOTHING*](type/TodoCompletion)
+:link: [*A completed todo list &raquo; item*](type/TodoCompletion)
 
 ---
 
 ##### SuggestedPost
 
-:link: [*NOTHING*](type/SuggestedPost)
+:link: [*Contains info about a suggested post &raquo;*](type/SuggestedPost)
 
 ---
 
 ##### StarsRating
 
-:link: [*NOTHING*](type/StarsRating)
+:link: [*Represents the profile&#039;s star rating, see here &raquo; for more info*](type/StarsRating)
 
 ---
 
 ##### StarGiftCollection
 
-:link: [*NOTHING*](type/StarGiftCollection)
+:link: [*Represents a star gift collection &raquo;*](type/StarGiftCollection)
 
 ---
 
 ##### payments StarGiftCollections
 
-:link: [*NOTHING*](type/payments.StarGiftCollections)
+:link: [*Represents a list of star gift collections &raquo;*](type/payments.StarGiftCollections)
 
 ---
 
 ##### StoryAlbum
 
-:link: [*NOTHING*](type/StoryAlbum)
+:link: [*Represents a story album &raquo;*](type/StoryAlbum)
 
 ---
 
 ##### stories Albums
 
-:link: [*NOTHING*](type/stories.Albums)
+:link: [*Represents a list of story albums &raquo;*](type/stories.Albums)
 
 ---
 
 ##### SearchPostsFlood
 
-:link: [*NOTHING*](type/SearchPostsFlood)
+:link: [*Indicates if the specified global post search &raquo; requires payment*](type/SearchPostsFlood)
 
 ---
 
 ##### payments UniqueStarGiftValueInfo
 
-:link: [*NOTHING*](type/payments.UniqueStarGiftValueInfo)
+:link: [*Information about the value of a collectible gift &raquo;*](type/payments.UniqueStarGiftValueInfo)
 
 ---
 
 ##### ProfileTab
 
-:link: [*NOTHING*](type/ProfileTab)
+:link: [*Represents a tab of a profile page &raquo;*](type/ProfileTab)
 
 ---
 
 ##### users SavedMusic
 
-:link: [*NOTHING*](type/users.SavedMusic)
+:link: [*List of songs \(document\.ids\) currently pinned on a user&#039;s profile, see here &raquo; for more info*](type/users.SavedMusic)
 
 ---
 
 ##### account SavedMusicIds
 
-:link: [*NOTHING*](type/account.SavedMusicIds)
+:link: [*List of IDs of songs \(document\.ids\) currently pinned on our profile, see here &raquo; for more info*](type/account.SavedMusicIds)
 
 ---
 
 ##### payments CheckCanSendGiftResult
 
-:link: [*NOTHING*](type/payments.CheckCanSendGiftResult)
+:link: [*Specifies if a gift can or cannot be sent*](type/payments.CheckCanSendGiftResult)
 
 ---
 
 ##### InputChatTheme
 
-:link: [*NOTHING*](type/InputChatTheme)
+:link: [*Specifies a chat theme &raquo;*](type/InputChatTheme)
 
 ---
 

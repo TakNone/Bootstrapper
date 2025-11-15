@@ -1,5 +1,7 @@
 # users.Users
 
+**Description** : *Describes a list of users \(or bots\)*
+
 **Layer** : 216
 
 ```tl
@@ -13,5 +15,5 @@ users.usersSlice#315a4974 count:int users:Vector<User> = users.Users;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**users.users**](constructor/users.users) | NOTHING |
-| [**users.usersSlice**](constructor/users.usersSlice) | NOTHING |
+| [**users.users**](constructor/users.users) | Describes a list of users (or bots) |
+| [**users.usersSlice**](constructor/users.usersSlice) | Describes a partial list of users |

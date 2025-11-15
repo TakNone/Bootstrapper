@@ -28,6 +28,7 @@ account.updateEmojiStatus#fbd3de6b emoji_status:EmojiStatus = Bool;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **COLLECTIBLE_INVALID** | `400` | The specified collectible is invalid |
 | **DOCUMENT_INVALID** | `400` | The specified document is invalid |
 
 ---

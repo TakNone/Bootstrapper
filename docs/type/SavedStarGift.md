@@ -1,5 +1,7 @@
 # SavedStarGift
 
+**Description** : *Represents a gift owned by a peer*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ savedStarGift#8983a452 flags:# name_hidden:flags.0?true unsaved:flags.5?true ref
 
 | Constructor | Description |
 | :---: | :--- |
-| [**savedStarGift**](constructor/savedStarGift) | NOTHING |
+| [**savedStarGift**](constructor/savedStarGift) | Represents a gift owned by a peer |

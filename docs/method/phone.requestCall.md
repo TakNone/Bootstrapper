@@ -34,6 +34,7 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CALL_PROTOCOL_FLAGS_INVALID** | `400` | Call protocol flags invalid |
+| **CALL_PROTOCOL_LAYER_INVALID** | `400` | The specified protocol layer version range is invalid |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **PARTICIPANT_VERSION_OUTDATED** | `400` | The other participant does not use an up to date telegram client with support for calls |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
@@ -48,14 +49,14 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 $phonePhoneCall = $client->phone->requestCall(
 	video : true,
 	user_id : $client->inputUserEmpty(),
-	random_id : 84,
+	random_id : 89,
 	g_a_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 69,
-		max_layer : 12,
-		library_versions : array('nHLi2W4PmvfA3o5a'),
+		min_layer : 97,
+		max_layer : 67,
+		library_versions : array('F0rP6fEhUTbJQZHo'),
 	),
 );
 ```

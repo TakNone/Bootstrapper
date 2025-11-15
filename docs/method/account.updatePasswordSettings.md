@@ -49,12 +49,12 @@ $bool = $client->account->updatePasswordSettings(
 	new_settings : $client->account->passwordInputSettings(
 		new_algo : $client->passwordKdfAlgoUnknown(),
 		new_password_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		hint : 'P2OQZMz75RiLpBJ6',
+		hint : 'Xp8qrlD6LamjoGT5',
 		email : 'reply@liveproto.dev',
 		new_secure_settings : $client->secureSecretSettings(
 			secure_algo : $client->securePasswordKdfAlgoUnknown(...),
 			secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			secure_secret_id : -4145678305246149335,
+			secure_secret_id : -218657926696887481,
 		),
 	),
 );

@@ -38,6 +38,7 @@ messages.getExportedChatInvites#a2b5a3f6 flags:# revoked:flags.3?true peer:Input
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
+| **CHAT_ID_INVALID** | `400` | The provided chat id is invalid |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
@@ -51,7 +52,7 @@ $messagesExportedChatInvites = $client->messages->getExportedChatInvites(
 	peer : $client->inputPeerEmpty(),
 	admin_id : $client->inputUserEmpty(),
 	offset_date : 0,
-	offset_link : 'dmkilwxvI2PrLCY1',
-	limit : 83,
+	offset_link : 'c1GY3uM9LqCXbaf2',
+	limit : 63,
 );
 ```

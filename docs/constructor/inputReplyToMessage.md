@@ -21,8 +21,8 @@ inputReplyToMessage#869fbe10 flags:# reply_to_msg_id:int top_msg_id:flags.0?int 
 | **quote_text** | [`flags.2?string`](type/string) | Used to quote-reply to only a certain section (specified here) of the original message. The maximum UTF-8 length for quotes is specified in the quote_length_max config key |
 | **quote_entities** | [`flags.3?Vector<MessageEntity>`](type/MessageEntity) | Message entities for styled text from the quote_text field |
 | **quote_offset** | [`flags.4?int`](type/int) | Offset of the message quote_text within the original message (in UTF-16 code units) |
-| **monoforum_peer_id** | [`flags.5?InputPeer`](type/InputPeer) | NOTHING |
-| **todo_item_id** | [`flags.6?int`](type/int) | NOTHING |
+| **monoforum_peer_id** | [`flags.5?InputPeer`](type/InputPeer) | Must be set to the ID of the topic when replying to a message within a monoforum topic |
+| **todo_item_id** | [`flags.6?int`](type/int) | Can be set to reply to the specified item of a todo list » |
 
 ---
 
@@ -36,104 +36,104 @@ inputReplyToMessage#869fbe10 flags:# reply_to_msg_id:int top_msg_id:flags.0?int 
 
 ```php
 $inputReplyTo = $client->inputReplyToMessage(
-	reply_to_msg_id : 4,
-	top_msg_id : 82,
+	reply_to_msg_id : 78,
+	top_msg_id : 34,
 	reply_to_peer_id : $client->inputPeerEmpty(),
-	quote_text : '1tDw9MNV0LOUgloW',
+	quote_text : '3yvZBDFe6m2MGbic',
 	quote_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 77,
+			length : 60,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 22,
+			length : 48,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 51,
+			length : 8,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 69,
+			length : 80,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 22,
+			length : 4,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 88,
+			length : 69,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 71,
+			length : 95,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 29,
+			length : 87,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 12,
+			length : 34,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 89,
-			language : '9xZ1NPQzoXfhUs8i',
+			length : 70,
+			language : '56xrKRbU3IkLqfuS',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 80,
+			length : 94,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 23,
-			user_id : -7262124082374218219,
+			length : 19,
+			user_id : 4552122789118779080,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 39,
+			length : 33,
 			user_id : $client->inputUserEmpty(),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 64,
+			length : 65,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 99,
+			length : 86,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 34,
+			length : 28,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 30,
+			length : 65,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 100,
+			length : 59,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 97,
+			length : 32,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 65,
-			document_id : 7585428160723182066,
+			length : 66,
+			document_id : 236528110603423275,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 16,
+			length : 21,
 		),
 	),
-	quote_offset : 61,
+	quote_offset : 49,
 	monoforum_peer_id : $client->inputPeerEmpty(),
-	todo_item_id : 31,
+	todo_item_id : 43,
 );
 ```

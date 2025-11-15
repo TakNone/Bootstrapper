@@ -40,6 +40,8 @@ messages.editMessage#dfd14005 flags:# no_webpage:flags.1?true invert_media:flags
 | :---: | :---: | :--- |
 | **BOT_DOMAIN_INVALID** | `400` | Bot domain invalid |
 | **BOT_INVALID** | `400` | This is not a valid bot |
+| **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
+| **BUSINESS_PEER_INVALID** | `400` | Messages can't be set to the specified peer through the current business connection |
 | **BUTTON_COPY_TEXT_INVALID** | `400` | The specified keyboardButtonCopy.copy_text is invalid |
 | **BUTTON_DATA_INVALID** | `400` | The data of one or more of the buttons you provided is invalid |
 | **BUTTON_TYPE_INVALID** | `400` | The type of one or more of the buttons you provided is invalid |
@@ -74,9 +76,13 @@ messages.editMessage#dfd14005 flags:# no_webpage:flags.1?true invert_media:flags
 | **MSG_WAIT_FAILED** | `500` | A waiting call returned an error |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **PEER_TYPES_INVALID** | `400` | The passed keyboardButtonSwitchInline.peer_types field is invalid |
+| **PHOTO_INVALID_DIMENSIONS** | `400` | The photo dimensions are invalid |
+| **PHOTO_SAVE_FILE_INVALID** | `400` | Internal issues, try again later |
 | **REPLY_MARKUP_INVALID** | `400` | The provided reply markup is invalid |
 | **REPLY_MARKUP_TOO_LONG** | `400` | The specified reply_markup is too long |
 | **SCHEDULE_DATE_INVALID** | `400` | Invalid schedule date provided |
+| **TODO_ITEMS_EMPTY** | `400` | A checklist was specified, but no checklist items were passed |
+| **TODO_ITEM_DUPLICATE** | `400` | Duplicate checklist items detected |
 | **USER_BANNED_IN_CHANNEL** | `400` | You're banned from sending messages in supergroups/channels |
 | **WEBPAGE_NOT_FOUND** | `400` | A preview for the specified webpage url could not be generated |
 
@@ -89,8 +95,8 @@ $updates = $client->messages->editMessage(
 	no_webpage : true,
 	invert_media : true,
 	peer : $client->inputPeerEmpty(),
-	id : 98,
-	message : 'iPeE3YngbXvpfKRx',
+	id : 90,
+	message : 'MHGodrKmZ65eUPk3',
 	media : $client->inputMediaEmpty(),
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
@@ -98,96 +104,96 @@ $updates = $client->messages->editMessage(
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 46,
+			length : 67,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 34,
+			length : 57,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 97,
+			length : 46,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 45,
+			length : 47,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 39,
+			length : 28,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 62,
+			length : 2,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 12,
+			length : 83,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 98,
+			length : 83,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 92,
+			length : 89,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 63,
-			language : 'hoM9PKcyF37dHkB6',
+			length : 54,
+			language : 'SOwDMIpa0bU9sc6h',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 62,
+			length : 12,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 26,
-			user_id : 6071294494984532884,
+			length : 78,
+			user_id : 7205765268218288300,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 59,
+			length : 27,
 			user_id : $client->inputUserEmpty(),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 0,
+			length : 69,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 33,
+			length : 2,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 68,
+			length : 66,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 24,
+			length : 8,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 22,
+			length : 80,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 3,
+			length : 69,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 94,
-			document_id : -4448972491777377179,
+			length : 88,
+			document_id : -3415160051326102573,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 53,
+			length : 18,
 		),
 	),
-	schedule_date : 65,
-	quick_reply_shortcut_id : 57,
+	schedule_date : 15,
+	quick_reply_shortcut_id : 29,
 );
 ```

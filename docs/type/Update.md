@@ -187,7 +187,7 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 | [**updateReadHistoryInbox**](constructor/updateReadHistoryInbox) | Incoming messages were read |
 | [**updateReadHistoryOutbox**](constructor/updateReadHistoryOutbox) | Outgoing messages were read |
 | [**updateWebPage**](constructor/updateWebPage) | An instant view webpage preview was generated |
-| [**updateReadMessagesContents**](constructor/updateReadMessagesContents) | Contents of messages in the common message box were read |
+| [**updateReadMessagesContents**](constructor/updateReadMessagesContents) | Contents of messages in the common message box were read (emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using messages.readMessageContents) |
 | [**updateChannelTooLong**](constructor/updateChannelTooLong) | There are new updates in the specified channel, the client must fetch them.  If the difference is too long or if the channel isn't currently in the states, start fetching from the specified pts |
 | [**updateChannel**](constructor/updateChannel) | Channel/supergroup (channel and/or channelFull) information was updated.This update can only be received through getDifference or in updates/updatesCombined constructors, so it will always come bundled with the updated channel, that should be applied as usual », without re-fetching the info manually.However, full peer information will not come bundled in updates, so the full peer cache (channelFull) must be invalidated for channel_id when receiving this update |
 | [**updateNewChannelMessage**](constructor/updateNewChannelMessage) | A new message was sent in a channel/supergroup |
@@ -222,7 +222,7 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 | [**updateLangPackTooLong**](constructor/updateLangPackTooLong) | A language pack has changed, the client should manually fetch the changed strings using langpack.getDifference |
 | [**updateLangPack**](constructor/updateLangPack) | Language pack updated |
 | [**updateFavedStickers**](constructor/updateFavedStickers) | The list of favorited stickers was changed, the client should call messages.getFavedStickers to refetch the new list |
-| [**updateChannelReadMessagesContents**](constructor/updateChannelReadMessagesContents) | The specified channel/supergroup messages were read |
+| [**updateChannelReadMessagesContents**](constructor/updateChannelReadMessagesContents) | The specified channel/supergroup messages were read (emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using channels.readMessageContents) |
 | [**updateContactsReset**](constructor/updateContactsReset) | All contacts were deleted |
 | [**updateChannelAvailableMessages**](constructor/updateChannelAvailableMessages) | The history of a channel/supergroup was hidden |
 | [**updateDialogUnreadMark**](constructor/updateDialogUnreadMark) | The manual unread mark of a chat was changed |
@@ -304,11 +304,11 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 | [**updateStarsRevenueStatus**](constructor/updateStarsRevenueStatus) | The Telegram Star balance of a channel/bot we own has changed » |
 | [**updateBotPurchasedPaidMedia**](constructor/updateBotPurchasedPaidMedia) | Bots only: a user has purchased a paid media |
 | [**updatePaidReactionPrivacy**](constructor/updatePaidReactionPrivacy) | Contains the current default paid reaction privacy, see here » for more info.Clients should invoke messages.getPaidReactionPrivacy on startup to fetch the current default reaction privacy because this update is only sent to currently online sessions and cannot be fetched using getDifference on client startup |
-| [**updateSentPhoneCode**](constructor/updateSentPhoneCode) | NOTHING |
-| [**updateGroupCallChainBlocks**](constructor/updateGroupCallChainBlocks) | NOTHING |
-| [**updateReadMonoForumInbox**](constructor/updateReadMonoForumInbox) | NOTHING |
-| [**updateReadMonoForumOutbox**](constructor/updateReadMonoForumOutbox) | NOTHING |
-| [**updateMonoForumNoPaidException**](constructor/updateMonoForumNoPaidException) | NOTHING |
+| [**updateSentPhoneCode**](constructor/updateSentPhoneCode) | A paid login SMS code was successfully sent |
+| [**updateGroupCallChainBlocks**](constructor/updateGroupCallChainBlocks) | Contains updates to the blockchain of a conference call, see here » for more info |
+| [**updateReadMonoForumInbox**](constructor/updateReadMonoForumInbox) | Incoming messages in a monoforum topic were read |
+| [**updateReadMonoForumOutbox**](constructor/updateReadMonoForumOutbox) | Outgoing messages in a monoforum were read |
+| [**updateMonoForumNoPaidException**](constructor/updateMonoForumNoPaidException) | An admin has (un)exempted this monoforum topic » from payment to send messages using account.toggleNoPaidMessagesException |
 | [**updatePinnedForumTopic**](constructor/updatePinnedForumTopic) | NOTHING |
 | [**updateGroupCallMessage**](constructor/updateGroupCallMessage) | NOTHING |
 | [**updateTranscribeAudio**](constructor/updateTranscribeAudio) | NOTHING |

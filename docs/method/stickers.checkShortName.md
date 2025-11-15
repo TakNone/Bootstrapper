@@ -37,6 +37,6 @@ stickers.checkShortName#284b3639 short_name:string = Bool;
 
 ```php
 $bool = $client->stickers->checkShortName(
-	short_name : 'aeUYb8nAj4CLJcxM',
+	short_name : '9Iz6qtAMRGdjwC53',
 );
 ```

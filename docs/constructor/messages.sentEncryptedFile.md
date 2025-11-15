@@ -29,7 +29,7 @@ messages.sentEncryptedFile#9493ff32 date:int file:EncryptedFile = messages.SentE
 
 ```php
 $messagesSentEncryptedMessage = $client->messages->sentEncryptedFile(
-	date : 11,
+	date : 93,
 	file : $client->encryptedFileEmpty(),
 );
 ```

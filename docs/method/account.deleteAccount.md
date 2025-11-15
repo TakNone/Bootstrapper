@@ -39,7 +39,7 @@ account.deleteAccount#a2c0cf74 flags:# reason:string password:flags.0?InputCheck
 
 ```php
 $bool = $client->account->deleteAccount(
-	reason : 'kLnslhxIuYtvJK6g',
+	reason : 'F79CdnW0eyrcZvQ2',
 	password : $client->inputCheckPasswordEmpty(),
 );
 ```

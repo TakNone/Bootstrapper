@@ -1,5 +1,7 @@
 # payments.reorderStarGiftCollections
 
+**Description** : *Reorder the star gift collections &raquo; on an owned peer&#039;s profile*
+
 **Layer** : 216
 
 ```tl
@@ -12,8 +14,8 @@ payments.reorderStarGiftCollections#c32af4cc peer:InputPeer order:Vector<int> = 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>order</mark> | [`Vector<int>`](type/int) | NOTHING |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The owned peer |
+| <mark>order</mark> | [`Vector<int>`](type/int) | New collection order |
 
 ---
 
@@ -23,11 +25,19 @@ payments.reorderStarGiftCollections#c32af4cc peer:InputPeer order:Vector<int> = 
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+
+---
+
 ## Example
 
 ```php
 $bool = $client->payments->reorderStarGiftCollections(
 	peer : $client->inputPeerEmpty(),
-	order : array(88),
+	order : array(1),
 );
 ```

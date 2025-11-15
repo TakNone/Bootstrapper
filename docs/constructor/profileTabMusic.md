@@ -1,5 +1,7 @@
 # profileTabMusic
 
+**Description** : *Represents the music tab of a profile page*
+
 **Layer** : 216
 
 ```tl

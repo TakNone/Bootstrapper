@@ -28,6 +28,6 @@ account.toggleSponsoredMessages#b9d9a38d enabled:Bool = Bool;
 
 ```php
 $bool = $client->account->toggleSponsoredMessages(
-	enabled : true,
+	enabled : false,
 );
 ```

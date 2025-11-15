@@ -18,4 +18,4 @@ auth.sentCodePaymentRequired#e0955a3c store_product:string phone_code_hash:strin
 | :---: | :--- |
 | [**auth.sentCode**](constructor/auth.sentCode) | Contains info about a sent verification code |
 | [**auth.sentCodeSuccess**](constructor/auth.sentCodeSuccess) | The user successfully authorized using future auth tokens |
-| [**auth.sentCodePaymentRequired**](constructor/auth.sentCodePaymentRequired) | NOTHING |
+| [**auth.sentCodePaymentRequired**](constructor/auth.sentCodePaymentRequired) | Official apps may receive this constructor, indicating that due to the high cost of SMS verification codes for the user's country/provider, the user must purchase a Telegram Premium subscription in order to proceed with the login/signup |

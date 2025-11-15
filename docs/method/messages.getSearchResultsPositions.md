@@ -45,6 +45,6 @@ $messagesSearchResultsPositions = $client->messages->getSearchResultsPositions(
 	saved_peer_id : $client->inputPeerEmpty(),
 	filter : $client->inputMessagesFilterEmpty(),
 	offset_id : 0,
-	limit : 3,
+	limit : 39,
 );
 ```

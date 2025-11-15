@@ -42,6 +42,6 @@ messages.getMessageEditData#fda68d36 peer:InputPeer id:int = messages.MessageEdi
 ```php
 $messagesMessageEditData = $client->messages->getMessageEditData(
 	peer : $client->inputPeerEmpty(),
-	id : 81,
+	id : 80,
 );
 ```

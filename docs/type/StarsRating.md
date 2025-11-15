@@ -1,5 +1,7 @@
 # StarsRating
 
+**Description** : *Represents the profile&#039;s star rating, see here &raquo; for more info*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ starsRating#1b0e4f07 flags:# level:int current_level_stars:long stars:long next_
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starsRating**](constructor/starsRating) | NOTHING |
+| [**starsRating**](constructor/starsRating) | Represents the profile's star rating, see here » for more info |

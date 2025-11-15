@@ -38,7 +38,7 @@ payments.assignPlayMarketTransaction#dffd50d3 receipt:DataJSON purpose:InputStor
 ```php
 $updates = $client->payments->assignPlayMarketTransaction(
 	receipt : $client->dataJSON(
-		data : 'twCBvejKzWuS3RpT',
+		data : 'wrPIdaFiy6p7fWh5',
 	),
 	purpose : $client->inputStorePaymentPremiumSubscription(
 		restore : true,

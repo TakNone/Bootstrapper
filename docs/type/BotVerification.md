@@ -1,5 +1,7 @@
 # BotVerification
 
+**Description** : *Describes a bot verification icon &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ botVerification#f93cd45c bot_id:long icon:long description:string = BotVerificat
 
 | Constructor | Description |
 | :---: | :--- |
-| [**botVerification**](constructor/botVerification) | NOTHING |
+| [**botVerification**](constructor/botVerification) | Describes a bot verification icon » |

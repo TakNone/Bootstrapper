@@ -65,7 +65,7 @@
 
 ##### invokeWithReCaptcha
 
-:link: [*NOTHING*](method/invokeWithReCaptcha)
+:link: [*Official clients only: re\-execute a method call that required reCAPTCHA verification via a RECAPTCHA\_CHECK\_%s\_\_%s, where the first placeholder is the action, and the second one is the reCAPTCHA key ID*](method/invokeWithReCaptcha)
 
 ---
 
@@ -886,43 +886,43 @@ This method can be used to fetch info about a not\-yet\-cached business connecti
 
 ##### account getCollectibleEmojiStatuses
 
-:link: [*NOTHING*](method/account.getCollectibleEmojiStatuses)
+:link: [*Obtain a list of emoji statuses &raquo; for owned collectible gifts*](method/account.getCollectibleEmojiStatuses)
 
 ---
 
 ##### account getPaidMessagesRevenue
 
-:link: [*NOTHING*](method/account.getPaidMessagesRevenue)
+:link: [*Get the number of stars we have received from the specified user thanks to paid messages &raquo;; the received amount will be equal to the sent amount multiplied by stars\_paid\_message\_commission\_permille divided by 1000*](method/account.getPaidMessagesRevenue)
 
 ---
 
 ##### account toggleNoPaidMessagesException
 
-:link: [*NOTHING*](method/account.toggleNoPaidMessagesException)
+:link: [*Allow a user to send us messages without paying if paid messages &raquo; are enabled*](method/account.toggleNoPaidMessagesException)
 
 ---
 
 ##### account setMainProfileTab
 
-:link: [*NOTHING*](method/account.setMainProfileTab)
+:link: [*Changes the main profile tab of the current user, see here &raquo; for more info*](method/account.setMainProfileTab)
 
 ---
 
 ##### account saveMusic
 
-:link: [*NOTHING*](method/account.saveMusic)
+:link: [*Adds or removes a song from the current user&#039;s profile see here &raquo; for more info on the music tab of the profile page*](method/account.saveMusic)
 
 ---
 
 ##### account getSavedMusicIds
 
-:link: [*NOTHING*](method/account.getSavedMusicIds)
+:link: [*Fetch the full list of only the IDs of songs currently added to the profile, see here &raquo; for more info*](method/account.getSavedMusicIds)
 
 ---
 
 ##### account getUniqueGiftChatThemes
 
-:link: [*NOTHING*](method/account.getUniqueGiftChatThemes)
+:link: [*Obtain all chat themes &raquo; associated to owned collectible gifts &raquo;*](method/account.getUniqueGiftChatThemes)
 
 ---
 
@@ -946,19 +946,19 @@ This method can be used to fetch info about a not\-yet\-cached business connecti
 
 ##### users getRequirementsToContact
 
-:link: [*NOTHING*](method/users.getRequirementsToContact)
+:link: [*Check whether we can write to the specified users, used to implement bulk checks for Premium\-only messages &raquo; and paid messages &raquo;*](method/users.getRequirementsToContact)
 
 ---
 
 ##### users getSavedMusic
 
-:link: [*NOTHING*](method/users.getSavedMusic)
+:link: [*Get songs pinned to the user&#039;s profile, see here &raquo; for more info*](method/users.getSavedMusic)
 
 ---
 
 ##### users getSavedMusicByID
 
-:link: [*NOTHING*](method/users.getSavedMusicByID)
+:link: [*Check if the passed songs are still pinned to the user&#039;s profile, or refresh the file references of songs pinned on a user&#039;s profile see here &raquo; for more info*](method/users.getSavedMusicByID)
 
 ---
 
@@ -1127,7 +1127,7 @@ Returns an array of Telegram user IDs for all contacts \(0 if a contact does not
 
 ##### contacts getSponsoredPeers
 
-:link: [*NOTHING*](method/contacts.getSponsoredPeers)
+:link: [*Obtain a list of sponsored peer search results for a given query*](method/contacts.getSponsoredPeers)
 
 ---
 
@@ -1338,7 +1338,7 @@ The method returns a list of random\_ids of messages for which push notification
 
 ##### messages readMessageContents
 
-:link: [*Notifies the sender about the recipient having listened a voice message or watched a video*](method/messages.readMessageContents)
+:link: [*Notifies the sender about the recipient having listened a voice message or watched a video, emitting an updateReadMessagesContents*](method/messages.readMessageContents)
 
 ---
 
@@ -1683,7 +1683,7 @@ Note: Telegram must receive an answer within 10 seconds after the pre\-checkout 
 
 ##### messages uploadEncryptedFile
 
-:link: [*Upload encrypted file and associate it to a secret chat*](method/messages.uploadEncryptedFile)
+:link: [*Upload encrypted file and associate it to a secret chat \(without actually sending it to the chat\)*](method/messages.uploadEncryptedFile)
 
 ---
 
@@ -1984,7 +1984,7 @@ To be called only after initializing the import with messages\.initHistoryImport
 
 ##### messages setChatTheme
 
-:link: [*Change the chat theme of a certain chat*](method/messages.setChatTheme)
+:link: [*Change the chat theme of a certain chat, see here &raquo; for more info*](method/messages.setChatTheme)
 
 ---
 
@@ -2273,19 +2273,19 @@ This method does not support pagination*](method/messages.searchSentMedia)
 
 ##### messages getSavedDialogs
 
-:link: [*Returns the current saved dialog list, see here &raquo; for more info*](method/messages.getSavedDialogs)
+:link: [*Returns the current saved dialog list &raquo; or monoforum topic list &raquo;*](method/messages.getSavedDialogs)
 
 ---
 
 ##### messages getSavedHistory
 
-:link: [*Returns saved messages &raquo; forwarded from a specific peer*](method/messages.getSavedHistory)
+:link: [*Fetch saved messages &raquo; forwarded from a specific peer, or fetch messages from a monoforum topic &raquo;*](method/messages.getSavedHistory)
 
 ---
 
 ##### messages deleteSavedHistory
 
-:link: [*Deletes messages forwarded from a specific peer to saved messages &raquo;*](method/messages.deleteSavedHistory)
+:link: [*Deletes messages from a monoforum topic &raquo;, or deletes messages forwarded from a specific peer to saved messages &raquo;*](method/messages.deleteSavedHistory)
 
 ---
 
@@ -2491,37 +2491,37 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### messages reportMessagesDelivery
 
-:link: [*NOTHING*](method/messages.reportMessagesDelivery)
+:link: [*Used for Telegram Gateway verification messages &raquo;: indicate to the server that one or more messages were received by the client, if requested by the message\.report\_delivery\_until\_date flag or the equivalent flag in push notifications*](method/messages.reportMessagesDelivery)
 
 ---
 
 ##### messages getSavedDialogsByID
 
-:link: [*NOTHING*](method/messages.getSavedDialogsByID)
+:link: [*Obtain information about specific saved message dialogs &raquo; or monoforum topics &raquo;*](method/messages.getSavedDialogsByID)
 
 ---
 
 ##### messages readSavedHistory
 
-:link: [*NOTHING*](method/messages.readSavedHistory)
+:link: [*Mark messages as read in a monoforum topic &raquo;*](method/messages.readSavedHistory)
 
 ---
 
 ##### messages toggleTodoCompleted
 
-:link: [*NOTHING*](method/messages.toggleTodoCompleted)
+:link: [*Mark one or more items of a todo list &raquo; as completed or not completed*](method/messages.toggleTodoCompleted)
 
 ---
 
 ##### messages appendTodoList
 
-:link: [*NOTHING*](method/messages.appendTodoList)
+:link: [*Appends one or more items to a todo list &raquo;*](method/messages.appendTodoList)
 
 ---
 
 ##### messages toggleSuggestedPostApproval
 
-:link: [*NOTHING*](method/messages.toggleSuggestedPostApproval)
+:link: [*Approve or reject a suggested post &raquo;*](method/messages.toggleSuggestedPostApproval)
 
 ---
 
@@ -2839,7 +2839,7 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### help getPromoData
 
-:link: [*Get MTProxy/Public Service Announcement information*](method/help.getPromoData)
+:link: [*Returns a set of useful suggestions and PSA/MTProxy sponsored peers, see here &raquo; for more info*](method/help.getPromoData)
 
 ---
 
@@ -3031,7 +3031,7 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### channels readMessageContents
 
-:link: [*Mark channel/supergroup message contents as read*](method/channels.readMessageContents)
+:link: [*Mark channel/supergroup message contents as read, emitting an updateChannelReadMessagesContents*](method/channels.readMessageContents)
 
 ---
 
@@ -3247,37 +3247,37 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### channels searchPosts
 
-:link: [*Globally search for posts from public channels &raquo; \(including those we aren&#039;t a member of\) containing a specific hashtag*](method/channels.searchPosts)
+:link: [*Globally search for posts from public channels &raquo; \(including those we aren&#039;t a member of\) containing either a specific hashtag, or a full text query*](method/channels.searchPosts)
 
 ---
 
 ##### channels updatePaidMessagesPrice
 
-:link: [*NOTHING*](method/channels.updatePaidMessagesPrice)
+:link: [*Enable or disable paid messages &raquo; in this supergroup or monoforum*](method/channels.updatePaidMessagesPrice)
 
 ---
 
 ##### channels toggleAutotranslation
 
-:link: [*NOTHING*](method/channels.toggleAutotranslation)
+:link: [*Toggle autotranslation in a channel, for all users: see here &raquo; for more info*](method/channels.toggleAutotranslation)
 
 ---
 
 ##### channels getMessageAuthor
 
-:link: [*NOTHING*](method/channels.getMessageAuthor)
+:link: [*Can only be invoked by non\-bot admins of a monoforum &raquo;, obtains the original sender of a message sent by other monoforum admins to the monoforum, on behalf of the channel associated to the monoforum*](method/channels.getMessageAuthor)
 
 ---
 
 ##### channels checkSearchPostsFlood
 
-:link: [*NOTHING*](method/channels.checkSearchPostsFlood)
+:link: [*Check if the specified global post search &raquo; requires payment*](method/channels.checkSearchPostsFlood)
 
 ---
 
 ##### channels setMainProfileTab
 
-:link: [*NOTHING*](method/channels.setMainProfileTab)
+:link: [*Changes the main profile tab of a channel, see here &raquo; for more info*](method/channels.setMainProfileTab)
 
 ---
 
@@ -3451,13 +3451,13 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### bots setCustomVerification
 
-:link: [*NOTHING*](method/bots.setCustomVerification)
+:link: [*Verify a user or chat on behalf of an organization &raquo;*](method/bots.setCustomVerification)
 
 ---
 
 ##### bots getBotRecommendations
 
-:link: [*NOTHING*](method/bots.getBotRecommendations)
+:link: [*Obtain a list of similarly themed bots, selected based on similarities in their subscriber bases, see here &raquo; for more info*](method/bots.getBotRecommendations)
 
 ---
 
@@ -3691,115 +3691,115 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### payments getStarGiftUpgradePreview
 
-:link: [*NOTHING*](method/payments.getStarGiftUpgradePreview)
+:link: [*Obtain a preview of the possible attributes \(chosen randomly\) a gift &raquo; can receive after upgrading it to a collectible gift &raquo;, see here &raquo; for more info*](method/payments.getStarGiftUpgradePreview)
 
 ---
 
 ##### payments upgradeStarGift
 
-:link: [*NOTHING*](method/payments.upgradeStarGift)
+:link: [*Upgrade a gift to a collectible gift: can only be used if the upgrade was already paid by the gift sender; see here &raquo; for more info on the full flow \(including the different flow to use in case the upgrade was not paid by the gift sender\)*](method/payments.upgradeStarGift)
 
 ---
 
 ##### payments transferStarGift
 
-:link: [*NOTHING*](method/payments.transferStarGift)
+:link: [*Transfer a collectible gift to another user or channel: can only be used if transfer is free \(i\.e\. messageActionStarGiftUnique\.transfer\_stars is not set\); see here &raquo; for more info on the full flow \(including the different flow to use in case the transfer isn&#039;t free\)*](method/payments.transferStarGift)
 
 ---
 
 ##### payments getUniqueStarGift
 
-:link: [*NOTHING*](method/payments.getUniqueStarGift)
+:link: [*Obtain info about a collectible gift &raquo; using a slug obtained from a collectible gift link &raquo;*](method/payments.getUniqueStarGift)
 
 ---
 
 ##### payments getSavedStarGifts
 
-:link: [*NOTHING*](method/payments.getSavedStarGifts)
+:link: [*Fetch the full list of gifts owned by a peer*](method/payments.getSavedStarGifts)
 
 ---
 
 ##### payments getSavedStarGift
 
-:link: [*NOTHING*](method/payments.getSavedStarGift)
+:link: [*Fetch info about specific gifts owned by a peer we control*](method/payments.getSavedStarGift)
 
 ---
 
 ##### payments getStarGiftWithdrawalUrl
 
-:link: [*NOTHING*](method/payments.getStarGiftWithdrawalUrl)
+:link: [*Convert a collectible gift &raquo; to an NFT on the TON blockchain*](method/payments.getStarGiftWithdrawalUrl)
 
 ---
 
 ##### payments toggleChatStarGiftNotifications
 
-:link: [*NOTHING*](method/payments.toggleChatStarGiftNotifications)
+:link: [*Enables or disables the reception of notifications every time a gift &raquo; is received by the specified channel, can only be invoked by admins with post\_messages admin rights*](method/payments.toggleChatStarGiftNotifications)
 
 ---
 
 ##### payments toggleStarGiftsPinnedToTop
 
-:link: [*NOTHING*](method/payments.toggleStarGiftsPinnedToTop)
+:link: [*Pins a received gift on top of the profile of the user or owned channels by using payments\.toggleStarGiftsPinnedToTop*](method/payments.toggleStarGiftsPinnedToTop)
 
 ---
 
 ##### payments canPurchaseStore
 
-:link: [*NOTHING*](method/payments.canPurchaseStore)
+:link: [*Checks whether a purchase is possible\. Must be called before in\-store purchase, official apps only*](method/payments.canPurchaseStore)
 
 ---
 
 ##### payments getResaleStarGifts
 
-:link: [*NOTHING*](method/payments.getResaleStarGifts)
+:link: [*Get collectible gifts of a specific type currently on resale, see here &raquo; for more info*](method/payments.getResaleStarGifts)
 
 ---
 
 ##### payments updateStarGiftPrice
 
-:link: [*NOTHING*](method/payments.updateStarGiftPrice)
+:link: [*A collectible gift we own &raquo; can be put up for sale on the gift marketplace &raquo; with this method, see here &raquo; for more info*](method/payments.updateStarGiftPrice)
 
 ---
 
 ##### payments createStarGiftCollection
 
-:link: [*NOTHING*](method/payments.createStarGiftCollection)
+:link: [*Create a star gift collection &raquo;*](method/payments.createStarGiftCollection)
 
 ---
 
 ##### payments updateStarGiftCollection
 
-:link: [*NOTHING*](method/payments.updateStarGiftCollection)
+:link: [*Add or remove gifts from a star gift collection &raquo;, or rename the collection*](method/payments.updateStarGiftCollection)
 
 ---
 
 ##### payments reorderStarGiftCollections
 
-:link: [*NOTHING*](method/payments.reorderStarGiftCollections)
+:link: [*Reorder the star gift collections &raquo; on an owned peer&#039;s profile*](method/payments.reorderStarGiftCollections)
 
 ---
 
 ##### payments deleteStarGiftCollection
 
-:link: [*NOTHING*](method/payments.deleteStarGiftCollection)
+:link: [*Delete a star gift collection &raquo;*](method/payments.deleteStarGiftCollection)
 
 ---
 
 ##### payments getStarGiftCollections
 
-:link: [*NOTHING*](method/payments.getStarGiftCollections)
+:link: [*Fetches all star gift collections &raquo; of a peer*](method/payments.getStarGiftCollections)
 
 ---
 
 ##### payments getUniqueStarGiftValueInfo
 
-:link: [*NOTHING*](method/payments.getUniqueStarGiftValueInfo)
+:link: [*Get information about the value of a collectible gift &raquo;*](method/payments.getUniqueStarGiftValueInfo)
 
 ---
 
 ##### payments checkCanSendGift
 
-:link: [*NOTHING*](method/payments.checkCanSendGift)
+:link: [*Check if the specified gift &raquo; can be sent*](method/payments.checkCanSendGift)
 
 ---
 
@@ -4066,37 +4066,37 @@ As usual, the media DC is preferred, if available*](method/phone.getGroupCallStr
 
 ##### phone createConferenceCall
 
-:link: [*NOTHING*](method/phone.createConferenceCall)
+:link: [*Create and optionally join a new conference call*](method/phone.createConferenceCall)
 
 ---
 
 ##### phone deleteConferenceCallParticipants
 
-:link: [*NOTHING*](method/phone.deleteConferenceCallParticipants)
+:link: [*Remove participants from a conference call*](method/phone.deleteConferenceCallParticipants)
 
 ---
 
 ##### phone sendConferenceCallBroadcast
 
-:link: [*NOTHING*](method/phone.sendConferenceCallBroadcast)
+:link: [*Broadcast a blockchain block to all members of a conference call, see here &raquo; for more info*](method/phone.sendConferenceCallBroadcast)
 
 ---
 
 ##### phone inviteConferenceCallParticipant
 
-:link: [*NOTHING*](method/phone.inviteConferenceCallParticipant)
+:link: [*Invite a user to a conference call*](method/phone.inviteConferenceCallParticipant)
 
 ---
 
 ##### phone declineConferenceCallInvite
 
-:link: [*NOTHING*](method/phone.declineConferenceCallInvite)
+:link: [*Declines a conference call invite*](method/phone.declineConferenceCallInvite)
 
 ---
 
 ##### phone getGroupCallChainBlocks
 
-:link: [*NOTHING*](method/phone.getGroupCallChainBlocks)
+:link: [*Fetch the blocks of a conference blockchain &raquo;*](method/phone.getGroupCallChainBlocks)
 
 ---
 
@@ -4409,37 +4409,37 @@ Will return a list of messages with peer\_id equal to the public channel to whic
 
 ##### stories createAlbum
 
-:link: [*NOTHING*](method/stories.createAlbum)
+:link: [*Creates a story album*](method/stories.createAlbum)
 
 ---
 
 ##### stories updateAlbum
 
-:link: [*NOTHING*](method/stories.updateAlbum)
+:link: [*Rename a story albums &raquo;, or add, delete or reorder stories in it*](method/stories.updateAlbum)
 
 ---
 
 ##### stories reorderAlbums
 
-:link: [*NOTHING*](method/stories.reorderAlbums)
+:link: [*Reorder story albums on a profile &raquo;*](method/stories.reorderAlbums)
 
 ---
 
 ##### stories deleteAlbum
 
-:link: [*NOTHING*](method/stories.deleteAlbum)
+:link: [*Delete a story album*](method/stories.deleteAlbum)
 
 ---
 
 ##### stories getAlbums
 
-:link: [*NOTHING*](method/stories.getAlbums)
+:link: [*Get story albums created by a peer*](method/stories.getAlbums)
 
 ---
 
 ##### stories getAlbumStories
 
-:link: [*NOTHING*](method/stories.getAlbumStories)
+:link: [*Get stories in a story album &raquo;*](method/stories.getAlbumStories)
 
 ---
 

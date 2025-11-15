@@ -30,6 +30,6 @@ inputInvoiceMessage#c5b56859 peer:InputPeer msg_id:int = InputInvoice;
 ```php
 $inputInvoice = $client->inputInvoiceMessage(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 77,
+	msg_id : 11,
 );
 ```

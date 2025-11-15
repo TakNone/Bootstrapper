@@ -1,5 +1,7 @@
 # users.getRequirementsToContact
 
+**Description** : *Check whether we can write to the specified users, used to implement bulk checks for Premium\-only messages &raquo; and paid messages &raquo;*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ users.getRequirementsToContact#d89a83a3 id:Vector<InputUser> = Vector<Requiremen
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>id</mark> | [`Vector<InputUser>`](type/InputUser) | NOTHING |
+| <mark>id</mark> | [`Vector<InputUser>`](type/InputUser) | Users to check |
 
 ---
 
@@ -30,13 +32,13 @@ $requirementToContact = $client->users->getRequirementsToContact(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : -7625149335778468443,
-			access_hash : -2467081215132551454,
+			user_id : -3242941424651901144,
+			access_hash : -5870335357094641445,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 15,
-			user_id : 8130878884547136763,
+			msg_id : 58,
+			user_id : 2315764822361360402,
 		),
 	),
 );

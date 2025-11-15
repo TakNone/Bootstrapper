@@ -1,5 +1,7 @@
 # messageActionSuggestedPostSuccess
 
+**Description** : *A suggested post &raquo; was successfully posted, and payment for it was successfully received*
+
 **Layer** : 216
 
 ```tl
@@ -12,7 +14,7 @@ messageActionSuggestedPostSuccess#95ddcf69 price:StarsAmount = MessageAction;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>price</mark> | [`StarsAmount`](type/StarsAmount) | NOTHING |
+| <mark>price</mark> | [`StarsAmount`](type/StarsAmount) | The price |
 
 ---
 
@@ -27,8 +29,8 @@ messageActionSuggestedPostSuccess#95ddcf69 price:StarsAmount = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestedPostSuccess(
 	price : $client->starsAmount(
-		amount : 6611019079651444348,
-		nanos : 69,
+		amount : 1821278402808287583,
+		nanos : 67,
 	),
 );
 ```

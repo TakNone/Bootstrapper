@@ -40,7 +40,7 @@ messages.getCommonChats#e40ca104 user_id:InputUser max_id:long limit:int = messa
 ```php
 $messagesChats = $client->messages->getCommonChats(
 	user_id : $client->inputUserEmpty(),
-	max_id : -5555824020277312788,
-	limit : 9,
+	max_id : 8091812201912186871,
+	limit : 39,
 );
 ```

@@ -29,7 +29,7 @@ receivedNotifyMessage#a384b779 id:int flags:int = ReceivedNotifyMessage;
 
 ```php
 $receivedNotifyMessage = $client->receivedNotifyMessage(
-	id : 27,
-	flags : 19,
+	id : 15,
+	flags : 80,
 );
 ```

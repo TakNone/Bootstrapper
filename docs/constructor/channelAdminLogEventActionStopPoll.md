@@ -29,9 +29,9 @@ channelAdminLogEventActionStopPoll#8f079643 message:Message = ChannelAdminLogEve
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionStopPoll(
 	message : $client->messageEmpty(
-		id : 41,
+		id : 29,
 		peer_id : $client->peerUser(
-			user_id : 4759645183999549186,
+			user_id : 5518355145260465779,
 		),
 	),
 );

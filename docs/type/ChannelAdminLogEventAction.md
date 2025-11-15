@@ -115,5 +115,5 @@ channelAdminLogEventActionChangeTheme#fe69018d prev_value:string new_value:strin
 | [**channelAdminLogEventActionChangeEmojiStickerSet**](constructor/channelAdminLogEventActionChangeEmojiStickerSet) | The supergroup's custom emoji stickerset was changed |
 | [**channelAdminLogEventActionToggleSignatureProfiles**](constructor/channelAdminLogEventActionToggleSignatureProfiles) | Channel signature profiles were enabled/disabled |
 | [**channelAdminLogEventActionParticipantSubExtend**](constructor/channelAdminLogEventActionParticipantSubExtend) | A paid subscriber has extended their Telegram Star subscription » |
-| [**channelAdminLogEventActionToggleAutotranslation**](constructor/channelAdminLogEventActionToggleAutotranslation) | NOTHING |
+| [**channelAdminLogEventActionToggleAutotranslation**](constructor/channelAdminLogEventActionToggleAutotranslation) | Channel autotranslation was toggled » |
 | [**channelAdminLogEventActionChangeTheme**](constructor/channelAdminLogEventActionChangeTheme) | NOTHING |

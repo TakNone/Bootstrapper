@@ -33,8 +33,8 @@ storyItemSkipped#ffadc913 flags:# close_friends:flags.8?true id:int date:int exp
 ```php
 $storyItem = $client->storyItemSkipped(
 	close_friends : true,
-	id : 81,
-	date : 39,
-	expire_date : 83,
+	id : 48,
+	date : 14,
+	expire_date : 100,
 );
 ```

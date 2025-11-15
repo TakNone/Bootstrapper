@@ -38,6 +38,6 @@ messages.getFactCheck#b9cdc5ee peer:InputPeer msg_id:Vector<int> = Vector<FactCh
 ```php
 $factCheck = $client->messages->getFactCheck(
 	peer : $client->inputPeerEmpty(),
-	msg_id : array(5),
+	msg_id : array(15),
 );
 ```

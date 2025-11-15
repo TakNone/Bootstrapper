@@ -29,7 +29,7 @@ payments.requestRecurringPayment#146e958d user_id:InputUser recurring_init_charg
 ```php
 $updates = $client->payments->requestRecurringPayment(
 	user_id : $client->inputUserEmpty(),
-	recurring_init_charge : 'ZDKFnBi2Rc7e53p8',
+	recurring_init_charge : '3OQk7UgxDM9Wrs86',
 	invoice_media : $client->inputMediaEmpty(),
 );
 ```

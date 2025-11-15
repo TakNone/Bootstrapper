@@ -31,9 +31,9 @@ updateDeleteChannelMessages#c32d5b12 channel_id:long messages:Vector<int> pts:in
 
 ```php
 $update = $client->updateDeleteChannelMessages(
-	channel_id : -2413707531515257876,
-	messages : array(13),
-	pts : 94,
-	pts_count : 55,
+	channel_id : -1597649404521536045,
+	messages : array(6),
+	pts : 22,
+	pts_count : 91,
 );
 ```

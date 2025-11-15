@@ -39,6 +39,8 @@ messages.requestAppWebView#53618bce flags:# write_allowed:flags.0?true compact:f
 | **BOT_APP_BOT_INVALID** | `400` | The bot_id passed in the inputBotAppShortName constructor is invalid |
 | **BOT_APP_INVALID** | `400` | The specified bot app is invalid |
 | **BOT_APP_SHORTNAME_INVALID** | `400` | The specified bot app short name is invalid |
+| **MSG_ID_INVALID** | `400` | Invalid message ID provided |
+| **THEME_PARAMS_INVALID** | `400` | The specified theme_params field is invalid |
 
 ---
 
@@ -51,13 +53,13 @@ $webViewResult = $client->messages->requestAppWebView(
 	fullscreen : true,
 	peer : $client->inputPeerEmpty(),
 	app : $client->inputBotAppID(
-		id : 5327284567121390269,
-		access_hash : -6111499179770980103,
+		id : -3345084013274376248,
+		access_hash : -915591968313114102,
 	),
-	start_param : 'f4qZec781DlHkYNP',
+	start_param : 'OK1PZDJgYslUe4Xv',
 	theme_params : $client->dataJSON(
-		data : 'QoCNOeuxGdXAsc3l',
+		data : '9tLmdGkMYTH0oEsV',
 	),
-	platform : 'uSNejtK1i6shpR0P',
+	platform : 'W8PydpcK73DezmYw',
 );
 ```

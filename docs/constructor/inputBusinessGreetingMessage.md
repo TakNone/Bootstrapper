@@ -30,7 +30,7 @@ inputBusinessGreetingMessage#194cb3b shortcut_id:int recipients:InputBusinessRec
 
 ```php
 $inputBusinessGreetingMessage = $client->inputBusinessGreetingMessage(
-	shortcut_id : 65,
+	shortcut_id : 64,
 	recipients : $client->inputBusinessRecipients(
 		existing_chats : true,
 		new_chats : true,
@@ -41,16 +41,16 @@ $inputBusinessGreetingMessage = $client->inputBusinessGreetingMessage(
 			$client->inputUserEmpty(),
 			$client->inputUserSelf(),
 			$client->inputUser(
-				user_id : 3395949556458028520,
-				access_hash : 1887876023782244453,
+				user_id : 7787214676967105280,
+				access_hash : -2943459312010730788,
 			),
 			$client->inputUserFromMessage(
 				peer : $client->inputPeerEmpty(...),
-				msg_id : 99,
-				user_id : -1564127367084853884,
+				msg_id : 82,
+				user_id : -4658435200295549782,
 			),
 		),
 	),
-	no_activity_days : 10,
+	no_activity_days : 79,
 );
 ```

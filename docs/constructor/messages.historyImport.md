@@ -28,6 +28,6 @@ messages.historyImport#1662af0b id:long = messages.HistoryImport;
 
 ```php
 $messagesHistoryImport = $client->messages->historyImport(
-	id : -5656965952014005016,
+	id : -6348739509125564324,
 );
 ```

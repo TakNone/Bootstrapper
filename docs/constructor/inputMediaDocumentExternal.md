@@ -18,8 +18,8 @@ inputMediaDocumentExternal#779600f9 flags:# spoiler:flags.1?true url:string ttl_
 | **spoiler** | [`flags.1?true`](type/true) | Whether this media should be hidden behind a spoiler warning |
 | <mark>url</mark> | [`string`](type/string) | URL of the document |
 | **ttl_seconds** | [`flags.0?int`](type/int) | Self-destruct time to live of document |
-| **video_cover** | [`flags.2?InputPhoto`](type/InputPhoto) | NOTHING |
-| **video_timestamp** | [`flags.3?int`](type/int) | NOTHING |
+| **video_cover** | [`flags.2?InputPhoto`](type/InputPhoto) | Custom video cover |
+| **video_timestamp** | [`flags.3?int`](type/int) | Start playing the video at the specified timestamp (seconds) |
 
 ---
 
@@ -35,8 +35,8 @@ inputMediaDocumentExternal#779600f9 flags:# spoiler:flags.1?true url:string ttl_
 $inputMedia = $client->inputMediaDocumentExternal(
 	spoiler : true,
 	url : 'https://docs.liveproto.dev',
-	ttl_seconds : 60,
+	ttl_seconds : 4,
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 68,
+	video_timestamp : 11,
 );
 ```

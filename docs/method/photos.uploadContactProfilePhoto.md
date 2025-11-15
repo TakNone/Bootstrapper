@@ -16,7 +16,7 @@ photos.uploadContactProfilePhoto#e14c4a71 flags:# suggest:flags.3?true save:flag
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **suggest** | [`flags.3?true`](type/true) | If set, will send a messageActionSuggestProfilePhoto service message to user_id, suggesting them to use the specified profile picture; otherwise, will set a personal profile picture for the user (only visible to the current user) |
-| **save** | [`flags.4?true`](type/true) | If set, removes a previously set personal profile picture (does not affect suggested profile pictures, to remove them simply deleted the messageActionSuggestProfilePhoto service message with messages.deleteMessages) |
+| **save** | [`flags.4?true`](type/true) | If set, removes a previously set personal profile picture (does not affect suggested profile pictures, to remove them simply delete the messageActionSuggestProfilePhoto service message with messages.deleteMessages) |
 | <mark>user_id</mark> | [`InputUser`](type/InputUser) | The contact |
 | **file** | [`flags.0?InputFile`](type/InputFile) | Profile photo |
 | **video** | [`flags.1?InputFile`](type/InputFile) | Animated profile picture video |
@@ -48,24 +48,24 @@ $photosPhoto = $client->photos->uploadContactProfilePhoto(
 	save : true,
 	user_id : $client->inputUserEmpty(),
 	file : $client->inputFile(
-		id : 5993193199138339779,
-		parts : 47,
-		name : 'psoI2RLwlgDQCmkh',
+		id : -4944957237406089134,
+		parts : 100,
+		name : 'JdwjHMGNLh7BQDgq',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
 	video : $client->inputFile(
-		id : -1890086161119084662,
-		parts : 12,
-		name : 'thWBHA9lS5L1Xo7v',
+		id : -612708727123803883,
+		parts : 55,
+		name : 'mcq1NCpDsQ5hWkME',
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	),
-	video_start_ts : 806687.7939453125,
+	video_start_ts : -513666.4140625,
 	video_emoji_markup : $client->videoSize(
-		type : 'av9m3WwljFRfNy7P',
-		w : 62,
-		h : 34,
-		size : 45,
-		video_start_ts : -1271846.994140625,
+		type : 'utcz2RUK1F3Ts9nJ',
+		w : 33,
+		h : 84,
+		size : 53,
+		video_start_ts : -1244329.9892578125,
 	),
 );
 ```

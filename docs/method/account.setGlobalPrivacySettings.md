@@ -29,6 +29,8 @@ account.setGlobalPrivacySettings#1edaaac2 settings:GlobalPrivacySettings = Globa
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **AUTOARCHIVE_NOT_AVAILABLE** | `400` | The autoarchive setting is not available at this time: please check the value of the autoarchive_setting_available field in client config » before calling this method |
+| **BOT_ACCESS_FORBIDDEN** | `403` | The specified method can be used over a business connection for some operations, but the specified query attempted an operation that is not allowed over a business connection |
+| **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
 | **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
 
 ---
@@ -44,7 +46,7 @@ $globalPrivacySettings = $client->account->setGlobalPrivacySettings(
 		hide_read_marks : true,
 		new_noncontact_peers_require_premium : true,
 		display_gifts_button : true,
-		noncontact_peers_paid_stars : -8759352703430877666,
+		noncontact_peers_paid_stars : -9102253744989406787,
 		disallowed_gifts : $client->disallowedGiftsSettings(
 			disallow_unlimited_stargifts : true,
 			disallow_limited_stargifts : true,

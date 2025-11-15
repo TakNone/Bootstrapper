@@ -1,5 +1,7 @@
 # messages.WebPagePreview
 
+**Description** : *Represents a webpage preview*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ messages.webPagePreview#8c9a88ac media:MessageMedia chats:Vector<Chat> users:Vec
 
 | Constructor | Description |
 | :---: | :--- |
-| [**messages.webPagePreview**](constructor/messages.webPagePreview) | NOTHING |
+| [**messages.webPagePreview**](constructor/messages.webPagePreview) | Represents a webpage preview |

@@ -29,7 +29,7 @@ inputStickerSetID#9de7a269 id:long access_hash:long = InputStickerSet;
 
 ```php
 $inputStickerSet = $client->inputStickerSetID(
-	id : -3342925420162351427,
-	access_hash : 5483354737719295000,
+	id : -3584268425110979167,
+	access_hash : 9152828576757631485,
 );
 ```

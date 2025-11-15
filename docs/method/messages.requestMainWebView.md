@@ -47,10 +47,10 @@ $webViewResult = $client->messages->requestMainWebView(
 	fullscreen : true,
 	peer : $client->inputPeerEmpty(),
 	bot : $client->inputUserEmpty(),
-	start_param : '5jUvQCWm0hXRYAVt',
+	start_param : '7AbZHsK65xwTPCnE',
 	theme_params : $client->dataJSON(
-		data : '3KTMqNrmH6hc1GbB',
+		data : 'amWjScbFZ3z85fPl',
 	),
-	platform : 'HxeypCvrimcQSWw2',
+	platform : 'ECQriN9me8nFTqwb',
 );
 ```

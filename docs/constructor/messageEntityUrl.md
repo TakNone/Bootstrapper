@@ -30,6 +30,6 @@ messageEntityUrl#6ed02538 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityUrl(
 	offset : 0,
-	length : 27,
+	length : 42,
 );
 ```

@@ -30,8 +30,8 @@ invokeWithGooglePlayIntegrity#1df92984 {X:Type} nonce:string token:string query:
 
 ```php
 $x = $client->invokeWithGooglePlayIntegrity(
-	nonce : 'um9ect5xSJkbCsUE',
-	token : '8wWdDBmnU7KrcELj',
+	nonce : 'WPaZmVe2YHGiLAsQ',
+	token : 'bpc8D2qrXEI1HOU7',
 	query : $client->help->getConfig(raw : true),
 );
 ```

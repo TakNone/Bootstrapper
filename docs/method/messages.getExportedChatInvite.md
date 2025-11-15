@@ -29,6 +29,7 @@ messages.getExportedChatInvite#73746f5c peer:InputPeer link:string = messages.Ex
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
@@ -42,6 +43,6 @@ messages.getExportedChatInvite#73746f5c peer:InputPeer link:string = messages.Ex
 ```php
 $messagesExportedChatInvite = $client->messages->getExportedChatInvite(
 	peer : $client->inputPeerEmpty(),
-	link : 'O67upsIg1qken5rA',
+	link : 'rWsU7d25DoPntBCF',
 );
 ```

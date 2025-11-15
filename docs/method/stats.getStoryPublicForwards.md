@@ -40,8 +40,8 @@ stats.getStoryPublicForwards#a6437ef6 peer:InputPeer id:int offset:string limit:
 ```php
 $statsPublicForwards = $client->stats->getStoryPublicForwards(
 	peer : $client->inputPeerEmpty(),
-	id : 73,
-	offset : 'rMGRCoH0YVAsfk2j',
-	limit : 78,
+	id : 63,
+	offset : 'ym9iUOhkMQsVAaPr',
+	limit : 94,
 );
 ```

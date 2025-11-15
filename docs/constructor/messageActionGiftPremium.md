@@ -34,73 +34,73 @@ messageActionGiftPremium#6c6274fa flags:# currency:string amount:long months:int
 
 ```php
 $messageAction = $client->messageActionGiftPremium(
-	currency : 'GW6IVrJOpKQd89yZ',
-	amount : 941812596668768192,
-	months : 15,
-	crypto_currency : 'YTrylAeMShvDC4gH',
-	crypto_amount : -848401385079400065,
+	currency : 'lwiFBULYQbveA273',
+	amount : -4957602429199352553,
+	months : 29,
+	crypto_currency : '5QxEi9UbSwJIHX2z',
+	crypto_amount : -4724143709960473437,
 	message : $client->textWithEntities(
-		text : 'bBwTpUiQY9hkfWen',
+		text : 'Kvqgs6n8YtoBATz5',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 38,
+				length : 63,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 41,
+				length : 49,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 74,
+				length : 25,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 46,
+				length : 92,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 83,
+				length : 64,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 22,
+				length : 68,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 31,
+				length : 73,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 65,
+				length : 41,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 89,
+				length : 4,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 72,
-				language : 'NgBLlyYX7hzTacHu',
+				length : 62,
+				language : 'SZRDhAMKYVJte1cf',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 47,
+				length : 79,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 15,
-				user_id : 4994824098353870948,
+				length : 4,
+				user_id : -4578371116362754730,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 20,
+				length : 66,
 				user_id : $client->inputUserEmpty(...),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 78,
+				length : 32,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
@@ -108,29 +108,29 @@ $messageAction = $client->messageActionGiftPremium(
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 88,
+				length : 43,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 87,
+				length : 70,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 66,
+				length : 35,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 49,
+				length : 60,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 96,
-				document_id : -2215192340868047109,
+				length : 72,
+				document_id : -5545295856510606490,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 79,
+				length : 70,
 			),
 		),
 	),

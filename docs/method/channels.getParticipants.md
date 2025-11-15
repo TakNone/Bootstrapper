@@ -33,6 +33,7 @@ channels.getParticipants#77ced9d0 channel:InputChannel filter:ChannelParticipant
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_MONOFORUM_UNSUPPORTED** | `400` | Monoforums do not support this feature |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `403` | You must be an admin in this chat to do this |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
@@ -46,7 +47,7 @@ $channelsChannelParticipants = $client->channels->getParticipants(
 	channel : $client->inputChannelEmpty(),
 	filter : $client->channelParticipantsRecent(),
 	offset : 0,
-	limit : 71,
+	limit : 1,
 	hash : 0,
 );
 ```

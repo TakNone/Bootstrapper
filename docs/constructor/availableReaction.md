@@ -41,28 +41,28 @@ availableReaction#c077ec01 flags:# inactive:flags.0?true premium:flags.2?true re
 $availableReaction = $client->availableReaction(
 	inactive : true,
 	premium : true,
-	reaction : 'Stse1d83WP2okFQ5',
-	title : 'GVDqINkB2XvKbcYj',
+	reaction : 'S0AQatVcynqjpH69',
+	title : 'qM1tIvXPWyAHLaes',
 	static_icon : $client->documentEmpty(
-		id : 508583667255999193,
+		id : -1394635696188705207,
 	),
 	appear_animation : $client->documentEmpty(
-		id : 258242384299446908,
+		id : -3519313474302362704,
 	),
 	select_animation : $client->documentEmpty(
-		id : 7646656968644014350,
+		id : -1403859003501481832,
 	),
 	activate_animation : $client->documentEmpty(
-		id : 17338561970101945,
+		id : 1762884830630354788,
 	),
 	effect_animation : $client->documentEmpty(
-		id : -6531365328293595764,
+		id : -7345106401914918448,
 	),
 	around_animation : $client->documentEmpty(
-		id : 9148198261101027731,
+		id : -3299323199904432476,
 	),
 	center_icon : $client->documentEmpty(
-		id : 4949416203924473826,
+		id : 3955001518751380229,
 	),
 );
 ```

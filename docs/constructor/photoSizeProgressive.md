@@ -31,9 +31,9 @@ photoSizeProgressive#fa3efb95 type:string w:int h:int sizes:Vector<int> = PhotoS
 
 ```php
 $photoSize = $client->photoSizeProgressive(
-	type : 'zgOt2b3BuQSYa9iX',
-	w : 3,
-	h : 19,
-	sizes : array(99),
+	type : '1pXsCJw7lSgcDI5q',
+	w : 22,
+	h : 99,
+	sizes : array(88),
 );
 ```

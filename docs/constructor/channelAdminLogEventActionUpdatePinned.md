@@ -29,9 +29,9 @@ channelAdminLogEventActionUpdatePinned#e9e82c18 message:Message = ChannelAdminLo
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionUpdatePinned(
 	message : $client->messageEmpty(
-		id : 46,
+		id : 100,
 		peer_id : $client->peerUser(
-			user_id : -2567847848814554746,
+			user_id : -1827718315057329872,
 		),
 	),
 );

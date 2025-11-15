@@ -1,6 +1,6 @@
 # help.getPromoData
 
-**Description** : *Get MTProxy/Public Service Announcement information*
+**Description** : *Returns a set of useful suggestions and PSA/MTProxy sponsored peers, see here &raquo; for more info*
 
 **Layer** : 216
 

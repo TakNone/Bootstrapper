@@ -43,20 +43,20 @@ phone.inviteToGroupCall#7b393160 call:InputGroupCall users:Vector<InputUser> = U
 ```php
 $updates = $client->phone->inviteToGroupCall(
 	call : $client->inputGroupCall(
-		id : -9018511359408606945,
-		access_hash : 966935299009150157,
+		id : 2945283242082584291,
+		access_hash : -6696446019137091,
 	),
 	users : array(
 		$client->inputUserEmpty(),
 		$client->inputUserSelf(),
 		$client->inputUser(
-			user_id : 7791288423816151361,
-			access_hash : 538370113191465648,
+			user_id : -6671313539972016279,
+			access_hash : 6859058880777640825,
 		),
 		$client->inputUserFromMessage(
 			peer : $client->inputPeerEmpty(),
-			msg_id : 53,
-			user_id : 169839956424197081,
+			msg_id : 77,
+			user_id : 53901843713477085,
 		),
 	),
 );

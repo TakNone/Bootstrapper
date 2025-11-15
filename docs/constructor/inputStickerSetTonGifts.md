@@ -1,5 +1,7 @@
 # inputStickerSetTonGifts
 
+**Description** : *TON gifts stickerset*
+
 **Layer** : 216
 
 ```tl

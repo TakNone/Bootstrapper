@@ -1,5 +1,7 @@
 # DisallowedGiftsSettings
 
+**Description** : *Disallow the reception of specific gift types*
+
 **Layer** : 216
 
 ```tl
@@ -12,4 +14,4 @@ disallowedGiftsSettings#71f276c4 flags:# disallow_unlimited_stargifts:flags.0?tr
 
 | Constructor | Description |
 | :---: | :--- |
-| [**disallowedGiftsSettings**](constructor/disallowedGiftsSettings) | NOTHING |
+| [**disallowedGiftsSettings**](constructor/disallowedGiftsSettings) | Disallow the reception of specific gift types |

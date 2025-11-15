@@ -49,13 +49,13 @@ messages.getReplies#22ddd30c peer:InputPeer msg_id:int offset_id:int offset_date
 ```php
 $messagesMessages = $client->messages->getReplies(
 	peer : $client->inputPeerEmpty(),
-	msg_id : 23,
+	msg_id : 60,
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 64,
-	limit : 54,
-	max_id : 25,
-	min_id : 76,
+	add_offset : 21,
+	limit : 80,
+	max_id : 29,
+	min_id : 21,
 	hash : 0,
 );
 ```

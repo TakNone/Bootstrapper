@@ -44,8 +44,8 @@ stats.getMessagePublicForwards#5f150144 channel:InputChannel msg_id:int offset:s
 ```php
 $statsPublicForwards = $client->stats->getMessagePublicForwards(
 	channel : $client->inputChannelEmpty(),
-	msg_id : 87,
-	offset : '8pq5eyzMDZadC6Lt',
-	limit : 85,
+	msg_id : 42,
+	offset : 'S7yRDlIJfcoxXGAe',
+	limit : 60,
 );
 ```

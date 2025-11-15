@@ -30,10 +30,10 @@ publicForwardStory#edf3add0 peer:Peer story:StoryItem = PublicForward;
 ```php
 $publicForward = $client->publicForwardStory(
 	peer : $client->peerUser(
-		user_id : -1763298662007191180,
+		user_id : -2613384361377738369,
 	),
 	story : $client->storyItemDeleted(
-		id : 42,
+		id : 71,
 	),
 );
 ```

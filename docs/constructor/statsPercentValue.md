@@ -30,7 +30,7 @@ statsPercentValue#cbce2fe0 part:double total:double = StatsPercentValue;
 
 ```php
 $statsPercentValue = $client->statsPercentValue(
-	part : -499282.068359375,
-	total : -1553747.2724609375,
+	part : 1373958.1123046875,
+	total : -1538421.7294921875,
 );
 ```

@@ -35,17 +35,17 @@ starsRevenueStatus#febe5491 flags:# withdrawal_enabled:flags.0?true current_bala
 $starsRevenueStatus = $client->starsRevenueStatus(
 	withdrawal_enabled : true,
 	current_balance : $client->starsAmount(
-		amount : 7468713233917749791,
-		nanos : 67,
+		amount : -3851642476247119594,
+		nanos : 90,
 	),
 	available_balance : $client->starsAmount(
-		amount : 4034705357832485855,
-		nanos : 61,
+		amount : -6026568939560478645,
+		nanos : 11,
 	),
 	overall_revenue : $client->starsAmount(
-		amount : 8258970027965931127,
-		nanos : 53,
+		amount : 4164905865957999212,
+		nanos : 67,
 	),
-	next_withdrawal_at : 67,
+	next_withdrawal_at : 44,
 );
 ```
