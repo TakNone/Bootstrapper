@@ -7,7 +7,6 @@
     "require": {
         "php": ">=8.2",
         "taknone/liveproto": "*",
-        "taknone/attributes": "*",
         "amphp/file": "^3.2.0",
         "composer-plugin-api": ">=2.5"
     },
