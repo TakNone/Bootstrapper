@@ -2,7 +2,7 @@
 
 **Description** : *Informs server about a purchase made through the App Store: for official applications only*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.assignAppStoreTransaction#80ed747d receipt:bytes purpose:InputStorePaymentPurpose = Updates;

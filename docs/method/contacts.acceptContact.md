@@ -2,7 +2,7 @@
 
 **Description** : *If the add contact action bar is active, add that user as contact*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 contacts.acceptContact#f831a20f id:InputUser = Updates;
@@ -39,6 +39,6 @@ contacts.acceptContact#f831a20f id:InputUser = Updates;
 
 ```php
 $updates = $client->contacts->acceptContact(
-	id : $client->inputUserEmpty(),
+	id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

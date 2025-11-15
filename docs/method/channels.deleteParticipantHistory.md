@@ -2,7 +2,7 @@
 
 **Description** : *Delete all messages sent by a specific participant of a given supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.deleteParticipantHistory#367544db channel:InputChannel participant:InputPeer = messages.AffectedHistory;
@@ -42,7 +42,7 @@ channels.deleteParticipantHistory#367544db channel:InputChannel participant:Inpu
 
 ```php
 $messagesAffectedHistory = $client->channels->deleteParticipantHistory(
-	channel : $client->inputChannelEmpty(),
-	participant : $client->inputPeerEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

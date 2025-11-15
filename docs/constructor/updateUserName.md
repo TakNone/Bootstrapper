@@ -2,7 +2,7 @@
 
 **Description** : *Changes the user&#039;s first name, last name and username*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateUserName#a7848924 user_id:long first_name:string last_name:string usernames:Vector<Username> = Update;
@@ -31,7 +31,7 @@ updateUserName#a7848924 user_id:long first_name:string last_name:string username
 
 ```php
 $update = $client->updateUserName(
-	user_id : 2361302971346688993,
+	user_id : -8561591035386242367,
 	first_name : 'Tak',
 	last_name : 'None',
 	usernames : array(

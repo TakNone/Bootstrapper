@@ -2,7 +2,7 @@
 
 **Description** : *Returns the lists of boost that were applied to a channel/supergroup by a specific user \(admins only\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 premium.getUserBoosts#39854d1f peer:InputPeer user_id:InputUser = premium.BoostsList;
@@ -37,7 +37,7 @@ premium.getUserBoosts#39854d1f peer:InputPeer user_id:InputUser = premium.Boosts
 
 ```php
 $premiumBoostsList = $client->premium->getUserBoosts(
-	peer : $client->inputPeerEmpty(),
-	user_id : $client->inputUserEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

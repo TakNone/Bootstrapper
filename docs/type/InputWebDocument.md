@@ -2,7 +2,7 @@
 
 **Description** : *Specifies a document that will have to be downloaded from the URL by the telegram servers*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputWebDocument#9bed434d url:string size:int mime_type:string attributes:Vector<DocumentAttribute> = InputWebDocument;

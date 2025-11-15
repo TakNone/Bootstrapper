@@ -2,7 +2,7 @@
 
 **Description** : *URL authorization result*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 urlAuthResultRequest#92d33a0e flags:# request_write_access:flags.0?true bot:User domain:string = UrlAuthResult;

@@ -2,7 +2,7 @@
 
 **Description** : *Geolocation*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputBotInlineMessageMediaGeo#96929a85 flags:# geo_point:InputGeoPoint heading:flags.0?int period:flags.1?int proximity_notification_radius:flags.3?int reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
@@ -34,9 +34,9 @@ inputBotInlineMessageMediaGeo#96929a85 flags:# geo_point:InputGeoPoint heading:f
 ```php
 $inputBotInlineMessage = $client->inputBotInlineMessageMediaGeo(
 	geo_point : $client->inputGeoPointEmpty(),
-	heading : 77,
-	period : 6,
-	proximity_notification_radius : 5,
+	heading : 28,
+	period : 72,
+	proximity_notification_radius : 76,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

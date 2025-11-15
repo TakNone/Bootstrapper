@@ -2,7 +2,7 @@
 
 **Description** : *Info about an RTMP stream in a group call or livestream*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 groupCallStreamChannel#80eb48af channel:int scale:int last_timestamp_ms:long = GroupCallStreamChannel;

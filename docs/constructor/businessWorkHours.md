@@ -2,7 +2,7 @@
 
 **Description** : *Specifies a set of Telegram Business opening hours*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 businessWorkHours#8c92b098 flags:# open_now:flags.0?true timezone_id:string weekly_open:Vector<BusinessWeeklyOpen> = BusinessWorkHours;
@@ -32,11 +32,11 @@ businessWorkHours#8c92b098 flags:# open_now:flags.0?true timezone_id:string week
 ```php
 $businessWorkHours = $client->businessWorkHours(
 	open_now : true,
-	timezone_id : 'hXH9kF7iSJgGwptW',
+	timezone_id : 'Gxe68fp13N59mCwI',
 	weekly_open : array(
 		$client->businessWeeklyOpen(
-			start_minute : 22,
-			end_minute : 53,
+			start_minute : 17,
+			end_minute : 20,
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *A user left the channel/supergroup \(in the case of big groups, info of the user that has joined isn&#039;t shown\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionParticipantLeave#f89777f2 = ChannelAdminLogEventAction;

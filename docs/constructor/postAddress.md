@@ -2,7 +2,7 @@
 
 **Description** : *Shipping address*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 postAddress#1e8caaeb street_line1:string street_line2:string city:string state:string country_iso2:string post_code:string = PostAddress;
@@ -33,11 +33,11 @@ postAddress#1e8caaeb street_line1:string street_line2:string city:string state:s
 
 ```php
 $postAddress = $client->postAddress(
-	street_line1 : 'fs2nOZHAILDid4SG',
-	street_line2 : '4pRIHGxdU0ZtMzBX',
-	city : 'sODC5wjJkbEu1X9R',
-	state : 'JNCbf5zrjn7Tq9vS',
-	country_iso2 : 'jNpfigQ6LZ2OwTkK',
-	post_code : 'nXiRQVyvjeGLgudq',
+	street_line1 : 'K3IrQSuxBjkOpVcP',
+	street_line2 : 'yRHxvpAI3ecCugWO',
+	city : 'YQgHXdRq3Vwly4Ct',
+	state : 'LbUieI4WQSkmpZuG',
+	country_iso2 : 'cQwE6KCVWl3JU97N',
+	post_code : 'tQ6O5kxIi42NvUrP',
 );
 ```

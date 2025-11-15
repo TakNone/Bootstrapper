@@ -2,7 +2,7 @@
 
 **Description** : *JSON object value*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 jsonObject#99c1d49d value:Vector<JSONObjectValue> = JSONValue;
@@ -30,7 +30,7 @@ jsonObject#99c1d49d value:Vector<JSONObjectValue> = JSONValue;
 $jSONValue = $client->jsonObject(
 	value : array(
 		$client->jsonObjectValue(
-			key : 'xmZ17vOBzKe4D0Us',
+			key : 'jhWE9U5YI6CNmFZg',
 			value : $client->jsonNull(),
 		),
 	),

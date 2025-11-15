@@ -2,7 +2,7 @@
 
 **Description** : *Represents a story album &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 storyAlbum#9325705a flags:# album_id:int title:string icon_photo:flags.0?Photo icon_video:flags.1?Document = StoryAlbum;

@@ -2,7 +2,7 @@
 
 **Description** : *A new session logged into the current user&#039;s account through an unknown device*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateNewAuthorization#8951abef flags:# unconfirmed:flags.0?true hash:long date:flags.0?int device:flags.0?string location:flags.0?string = Update;
@@ -35,8 +35,8 @@ updateNewAuthorization#8951abef flags:# unconfirmed:flags.0?true hash:long date:
 $update = $client->updateNewAuthorization(
 	unconfirmed : true,
 	hash : 0,
-	date : 20,
-	device : 'ey3kqQ2dc8JnPorl',
-	location : 'H29OmGU3dlKyTih4',
+	date : 85,
+	device : 'LwabTocM5yUNQxBW',
+	location : 'vwPuqYzWgKZd9Dml',
 );
 ```

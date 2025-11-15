@@ -2,7 +2,7 @@
 
 **Description** : *Check whether we can post stories as the specified peer*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stories.canSendStory#30eb63f0 peer:InputPeer = stories.CanSendStoryCount;
@@ -43,6 +43,6 @@ stories.canSendStory#30eb63f0 peer:InputPeer = stories.CanSendStoryCount;
 
 ```php
 $storiesCanSendStoryCount = $client->stories->canSendStory(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

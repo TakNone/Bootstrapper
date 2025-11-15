@@ -2,7 +2,7 @@
 
 **Description** : *Adds a peer to a blocklist, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 contacts.block#2e2e8734 flags:# my_stories_from:flags.0?true id:InputPeer = Bool;
@@ -43,6 +43,6 @@ contacts.block#2e2e8734 flags:# my_stories_from:flags.0?true id:InputPeer = Bool
 ```php
 $bool = $client->contacts->block(
 	my_stories_from : true,
-	id : $client->inputPeerEmpty(),
+	id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

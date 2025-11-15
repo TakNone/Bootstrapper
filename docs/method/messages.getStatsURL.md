@@ -2,7 +2,7 @@
 
 **Description** : *Returns URL with the chat statistics\. Currently this method can be used only for channels*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getStatsURL#812c2ae6 flags:# dark:flags.0?true peer:InputPeer params:string = StatsURL;
@@ -40,7 +40,7 @@ messages.getStatsURL#812c2ae6 flags:# dark:flags.0?true peer:InputPeer params:st
 ```php
 $statsURL = $client->messages->getStatsURL(
 	dark : true,
-	peer : $client->inputPeerEmpty(),
-	params : 'TbYvcl4idGKIkFjm',
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	params : 'f9Hn6cYJ8tBUQxqW',
 );
 ```

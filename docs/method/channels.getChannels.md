@@ -2,7 +2,7 @@
 
 **Description** : *Get info about channels/supergroups*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.getChannels#a7f6bbb id:Vector<InputChannel> = messages.Chats;
@@ -39,17 +39,6 @@ channels.getChannels#a7f6bbb id:Vector<InputChannel> = messages.Chats;
 
 ```php
 $messagesChats = $client->channels->getChannels(
-	id : array(
-		$client->inputChannelEmpty(),
-		$client->inputChannel(
-			channel_id : 4125566754666634088,
-			access_hash : 8755045530225155790,
-		),
-		$client->inputChannelFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 94,
-			channel_id : -328076736545597719,
-		),
-	),
+	id : array($client->get_input_channel(peer : '@LiveProto')),
 );
 ```

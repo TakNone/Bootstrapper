@@ -2,7 +2,7 @@
 
 **Description** : *Hash of an uploaded file, to be checked for validity after download*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 fileHash#f39b035c offset:long limit:int hash:bytes = FileHash;

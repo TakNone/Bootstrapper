@@ -2,7 +2,7 @@
 
 **Description** : *Used to download a server\-generated image with the map preview from a geoPoint, see the webfile docs for more info &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputWebFileGeoPointLocation#9f2221c9 geo_point:InputGeoPoint access_hash:long w:int h:int zoom:int scale:int = InputWebFileLocation;
@@ -34,10 +34,10 @@ inputWebFileGeoPointLocation#9f2221c9 geo_point:InputGeoPoint access_hash:long w
 ```php
 $inputWebFileLocation = $client->inputWebFileGeoPointLocation(
 	geo_point : $client->inputGeoPointEmpty(),
-	access_hash : 7612571490657509401,
-	w : 73,
-	h : 96,
-	zoom : 10,
-	scale : 55,
+	access_hash : 5458126492063691241,
+	w : 45,
+	h : 80,
+	zoom : 21,
+	scale : 31,
 );
 ```

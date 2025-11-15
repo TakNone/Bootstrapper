@@ -2,7 +2,7 @@
 
 **Description** : *Current version of the client does not support this media type*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageMediaUnsupported#9f84f49e = MessageMedia;

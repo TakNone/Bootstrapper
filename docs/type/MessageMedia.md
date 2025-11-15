@@ -2,7 +2,7 @@
 
 **Description** : *Media*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageMediaEmpty#3ded6320 = MessageMedia;
@@ -23,6 +23,7 @@ messageMediaGiveaway#aa073beb flags:# only_new_subscribers:flags.0?true winners_
 messageMediaGiveawayResults#ceaa3ea1 flags:# only_new_subscribers:flags.0?true refunded:flags.2?true channel_id:long additional_peers_count:flags.3?int launch_msg_id:int winners_count:int unclaimed_count:int winners:Vector<long> months:flags.4?int stars:flags.5?long prize_description:flags.1?string until_date:int = MessageMedia;
 messageMediaPaidMedia#a8852491 stars_amount:long extended_media:Vector<MessageExtendedMedia> = MessageMedia;
 messageMediaToDo#8a53b014 flags:# todo:TodoList completions:flags.0?Vector<TodoCompletion> = MessageMedia;
+messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGroupCall = MessageMedia;
 ```
 
 ---
@@ -49,3 +50,4 @@ messageMediaToDo#8a53b014 flags:# todo:TodoList completions:flags.0?Vector<TodoC
 | [**messageMediaGiveawayResults**](constructor/messageMediaGiveawayResults) | A giveaway with public winners has finished, this constructor contains info about the winners |
 | [**messageMediaPaidMedia**](constructor/messageMediaPaidMedia) | Paid media, see here » for more info |
 | [**messageMediaToDo**](constructor/messageMediaToDo) | Represents a todo list » |
+| [**messageMediaVideoStream**](constructor/messageMediaVideoStream) | NOTHING |

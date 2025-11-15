@@ -2,7 +2,7 @@
 
 **Description** : *Get RTMP URL and stream key for RTMP livestreams\. Can be used even before creating the actual RTMP livestream with phone\.createGroupCall \(the rtmp\_stream flag must be set\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phone.getGroupCallStreamRtmpUrl#deb3abbf peer:InputPeer revoke:Bool = phone.GroupCallStreamRtmpUrl;
@@ -38,7 +38,7 @@ phone.getGroupCallStreamRtmpUrl#deb3abbf peer:InputPeer revoke:Bool = phone.Grou
 
 ```php
 $phoneGroupCallStreamRtmpUrl = $client->phone->getGroupCallStreamRtmpUrl(
-	peer : $client->inputPeerEmpty(),
-	revoke : true,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	revoke : false,
 );
 ```

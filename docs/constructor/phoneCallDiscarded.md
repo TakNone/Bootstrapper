@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a discarded phone call*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phoneCallDiscarded#50ca4de1 flags:# need_rating:flags.2?true need_debug:flags.3?true video:flags.6?true id:long reason:flags.0?PhoneCallDiscardReason duration:flags.1?int = PhoneCall;
@@ -37,8 +37,8 @@ $phoneCall = $client->phoneCallDiscarded(
 	need_rating : true,
 	need_debug : true,
 	video : true,
-	id : -9109228664542772269,
+	id : -8031334889737074415,
 	reason : $client->phoneCallDiscardReasonMissed(),
-	duration : 98,
+	duration : 74,
 );
 ```

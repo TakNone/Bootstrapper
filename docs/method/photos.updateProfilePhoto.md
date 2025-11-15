@@ -2,7 +2,7 @@
 
 **Description** : *Installs a previously uploaded photo as a profile photo*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 photos.updateProfilePhoto#9e82039 flags:# fallback:flags.0?true bot:flags.1?InputUser id:InputPhoto = photos.Photo;
@@ -47,7 +47,7 @@ photos.updateProfilePhoto#9e82039 flags:# fallback:flags.0?true bot:flags.1?Inpu
 ```php
 $photosPhoto = $client->photos->updateProfilePhoto(
 	fallback : true,
-	bot : $client->inputUserEmpty(),
+	bot : $client->get_input_user(peer : '@TakNone'),
 	id : $client->inputPhotoEmpty(),
 );
 ```

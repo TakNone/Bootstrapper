@@ -2,7 +2,7 @@
 
 **Description** : *Check if the specified global post search &raquo; requires payment*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.checkSearchPostsFlood#22567115 flags:# query:flags.0?string = SearchPostsFlood;
@@ -29,6 +29,6 @@ channels.checkSearchPostsFlood#22567115 flags:# query:flags.0?string = SearchPos
 
 ```php
 $searchPostsFlood = $client->channels->checkSearchPostsFlood(
-	query : 'UPehTvokVq0rs6AZ',
+	query : '4Pvj6UQ5EMbC0TVw',
 );
 ```

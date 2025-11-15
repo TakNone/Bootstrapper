@@ -2,7 +2,7 @@
 
 **Description** : *Used for fetching animated dice stickers*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputStickerSetDice#e67f520e emoticon:string = InputStickerSet;
@@ -28,6 +28,6 @@ inputStickerSetDice#e67f520e emoticon:string = InputStickerSet;
 
 ```php
 $inputStickerSet = $client->inputStickerSetDice(
-	emoticon : 'Hr5uckU1Rtbz6VpP',
+	emoticon : 'HDG87sp05ndjRg9w',
 );
 ```

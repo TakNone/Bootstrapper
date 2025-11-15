@@ -2,7 +2,7 @@
 
 **Description** : *Represents a possible option for the number of winners in a star giveaway*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starsGiveawayWinnersOption#54236209 flags:# default:flags.0?true users:int per_user_stars:long = StarsGiveawayWinnersOption;

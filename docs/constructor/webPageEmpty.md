@@ -2,7 +2,7 @@
 
 **Description** : *No preview is available for the webpage*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 webPageEmpty#211a1788 flags:# id:long url:flags.0?string = WebPage;
@@ -30,7 +30,7 @@ webPageEmpty#211a1788 flags:# id:long url:flags.0?string = WebPage;
 
 ```php
 $webPage = $client->webPageEmpty(
-	id : 8576733849849906134,
+	id : 2575398009927271849,
 	url : 'https://docs.liveproto.dev',
 );
 ```

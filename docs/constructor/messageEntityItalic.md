@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing italic text*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageEntityItalic#826f8b60 offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityItalic#826f8b60 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityItalic(
 	offset : 0,
-	length : 70,
+	length : 56,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Install a stickerset*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.installStickerSet#c78fe460 stickerset:InputStickerSet archived:Bool = messages.StickerSetInstallResult;
@@ -38,6 +38,6 @@ messages.installStickerSet#c78fe460 stickerset:InputStickerSet archived:Bool = m
 ```php
 $messagesStickerSetInstallResult = $client->messages->installStickerSet(
 	stickerset : $client->inputStickerSetEmpty(),
-	archived : false,
+	archived : true,
 );
 ```

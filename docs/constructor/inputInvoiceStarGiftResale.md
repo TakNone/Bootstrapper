@@ -2,7 +2,7 @@
 
 **Description** : *Used to buy a collectible gift currently up on resale, see here for more info on the full flow*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:InputPeer = InputInvoice;
@@ -32,7 +32,7 @@ inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:I
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftResale(
 	ton : true,
-	slug : 'bZEdMvmPIRBe1O69',
-	to_id : $client->inputPeerEmpty(),
+	slug : 'ZpeSdvyPX46Ltn5O',
+	to_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

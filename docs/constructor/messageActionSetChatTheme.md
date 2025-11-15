@@ -2,7 +2,7 @@
 
 **Description** : *The chat theme was changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageActionSetChatTheme#b91bbd3a theme:ChatTheme = MessageAction;
@@ -29,7 +29,7 @@ messageActionSetChatTheme#b91bbd3a theme:ChatTheme = MessageAction;
 ```php
 $messageAction = $client->messageActionSetChatTheme(
 	theme : $client->chatTheme(
-		emoticon : 'R1CcgMfWGphYT08N',
+		emoticon : 'G1U6wHgJAuNZbmai',
 	),
 );
 ```

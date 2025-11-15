@@ -2,7 +2,7 @@
 
 **Description** : *Get SHA256 hashes for verifying downloaded files*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 upload.getFileHashes#9156982a location:InputFileLocation offset:long = Vector<FileHash>;
@@ -38,9 +38,9 @@ upload.getFileHashes#9156982a location:InputFileLocation offset:long = Vector<Fi
 ```php
 $fileHash = $client->upload->getFileHashes(
 	location : $client->inputFileLocation(
-		volume_id : -2851445842867465946,
-		local_id : 9,
-		secret : 810599119757624107,
+		volume_id : 3972121331980354472,
+		local_id : 53,
+		secret : -3044619549340806965,
 		file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	offset : 0,

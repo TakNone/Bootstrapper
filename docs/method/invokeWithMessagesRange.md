@@ -2,7 +2,7 @@
 
 **Description** : *Invoke with the given message range*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 invokeWithMessagesRange#365275f2 {X:Type} range:MessageRange query:!X = X;
@@ -30,8 +30,8 @@ invokeWithMessagesRange#365275f2 {X:Type} range:MessageRange query:!X = X;
 ```php
 $x = $client->invokeWithMessagesRange(
 	range : $client->messageRange(
-		min_id : 0,
-		max_id : 9,
+		min_id : 57,
+		max_id : 7,
 	),
 	query : $client->help->getConfig(raw : true),
 );

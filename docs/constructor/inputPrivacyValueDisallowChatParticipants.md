@@ -2,7 +2,7 @@
 
 **Description** : *Disallow only participants of certain chats*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputPrivacyValueDisallowChatParticipants#e94f0f86 chats:Vector<long> = InputPrivacyRule;
@@ -28,6 +28,6 @@ inputPrivacyValueDisallowChatParticipants#e94f0f86 chats:Vector<long> = InputPri
 
 ```php
 $inputPrivacyRule = $client->inputPrivacyValueDisallowChatParticipants(
-	chats : array(-5397917110047665454),
+	chats : array(7463467836184403513),
 );
 ```

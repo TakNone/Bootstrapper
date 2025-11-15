@@ -2,7 +2,7 @@
 
 **Description** : *Get info about the users that joined the chat using a specific chat invite*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getChatInviteImporters#df04dd4e flags:# requested:flags.0?true subscription_expired:flags.3?true peer:InputPeer link:flags.1?string q:flags.2?string offset_date:int offset_user:InputUser limit:int = messages.ChatInviteImporters;
@@ -52,11 +52,11 @@ messages.getChatInviteImporters#df04dd4e flags:# requested:flags.0?true subscrip
 $messagesChatInviteImporters = $client->messages->getChatInviteImporters(
 	requested : true,
 	subscription_expired : true,
-	peer : $client->inputPeerEmpty(),
-	link : 'Fs396iVaOtoUNf2J',
-	q : 'CEnpbeyQAgIurjPS',
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	link : 'hyLKrtJWuA6NXH1S',
+	q : 'HoBfzOlaMeQLxCPg',
 	offset_date : 0,
-	offset_user : $client->inputUserEmpty(),
-	limit : 41,
+	offset_user : $client->get_input_user(peer : '@TakNone'),
+	limit : 64,
 );
 ```

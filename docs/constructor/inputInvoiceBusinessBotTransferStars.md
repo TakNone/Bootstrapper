@@ -2,7 +2,7 @@
 
 **Description** : *Transfer stars from the balance of a user account connected to a business bot, to the balance of the business bot, see here &raquo; for more info on the full flow*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputInvoiceBusinessBotTransferStars#f4997e42 bot:InputUser stars:long = InputInvoice;
@@ -29,7 +29,7 @@ inputInvoiceBusinessBotTransferStars#f4997e42 bot:InputUser stars:long = InputIn
 
 ```php
 $inputInvoice = $client->inputInvoiceBusinessBotTransferStars(
-	bot : $client->inputUserEmpty(),
-	stars : 802757057080770184,
+	bot : $client->get_input_user(peer : '@TakNone'),
+	stars : -4714100563449077499,
 );
 ```

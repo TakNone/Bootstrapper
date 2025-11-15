@@ -2,7 +2,7 @@
 
 **Description** : *Add a sticker to a stickerset\. The sticker set must have been created by the current user/bot*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stickers.addStickerToSet#8653febe stickerset:InputStickerSet sticker:InputStickerSetItem = messages.StickerSet;
@@ -44,14 +44,14 @@ $messagesStickerSet = $client->stickers->addStickerToSet(
 	stickerset : $client->inputStickerSetEmpty(),
 	sticker : $client->inputStickerSetItem(
 		document : $client->inputDocumentEmpty(),
-		emoji : 'cAJ601Skix52Bhqj',
+		emoji : 'tgye5aTC6bfD09dp',
 		mask_coords : $client->maskCoords(
-			n : 66,
-			x : -135127.6865234375,
-			y : 1614403.486328125,
-			zoom : 451744.7578125,
+			n : 69,
+			x : 602481.3564453125,
+			y : 1507246.638671875,
+			zoom : -1321331.044921875,
 		),
-		keywords : '3SJ2EwRufDprP0Qh',
+		keywords : 'iPVxzrUm4jcFTEyp',
 	),
 );
 ```

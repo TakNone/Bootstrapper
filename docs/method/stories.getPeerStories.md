@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the full active story list of a specific peer*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stories.getPeerStories#2c4ada50 peer:InputPeer = stories.PeerStories;
@@ -39,6 +39,6 @@ stories.getPeerStories#2c4ada50 peer:InputPeer = stories.PeerStories;
 
 ```php
 $storiesPeerStories = $client->stories->getPeerStories(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

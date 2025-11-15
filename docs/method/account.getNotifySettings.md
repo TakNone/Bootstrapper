@@ -2,7 +2,7 @@
 
 **Description** : *Gets current notification settings for a given user/group, from all users/all groups*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.getNotifySettings#12b3ad31 peer:InputNotifyPeer = PeerNotifySettings;
@@ -39,7 +39,7 @@ account.getNotifySettings#12b3ad31 peer:InputNotifyPeer = PeerNotifySettings;
 ```php
 $peerNotifySettings = $client->account->getNotifySettings(
 	peer : $client->inputNotifyPeer(
-		peer : $client->inputPeerEmpty(),
+		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	),
 );
 ```

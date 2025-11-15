@@ -2,7 +2,7 @@
 
 **Description** : *Deletes a user from a chat and sends a service message on it*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.deleteChatUser#a2185cab flags:# revoke_history:flags.0?true chat_id:long user_id:InputUser = Updates;
@@ -45,7 +45,7 @@ messages.deleteChatUser#a2185cab flags:# revoke_history:flags.0?true chat_id:lon
 ```php
 $updates = $client->messages->deleteChatUser(
 	revoke_history : true,
-	chat_id : 2567060608681180955,
-	user_id : $client->inputUserEmpty(),
+	chat_id : 230698902045992265,
+	user_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

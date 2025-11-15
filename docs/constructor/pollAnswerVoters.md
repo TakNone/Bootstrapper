@@ -2,7 +2,7 @@
 
 **Description** : *A poll answer, and how users voted on it*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 pollAnswerVoters#3b6ddad2 flags:# chosen:flags.0?true correct:flags.1?true option:bytes voters:int = PollAnswerVoters;
@@ -35,6 +35,6 @@ $pollAnswerVoters = $client->pollAnswerVoters(
 	chosen : true,
 	correct : true,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	voters : 37,
+	voters : 6,
 );
 ```

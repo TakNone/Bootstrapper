@@ -2,7 +2,7 @@
 
 **Description** : *Get passport configuration*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.getPassportConfig#c661ad08 hash:int = help.PassportConfig;

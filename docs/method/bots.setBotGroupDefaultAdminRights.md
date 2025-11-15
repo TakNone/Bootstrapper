@@ -2,7 +2,7 @@
 
 **Description** : *Set the default suggested admin rights for bots being added as admins to groups, see here for more info on how to handle them &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.setBotGroupDefaultAdminRights#925ec9ea admin_rights:ChatAdminRights = Bool;

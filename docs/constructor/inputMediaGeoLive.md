@@ -2,7 +2,7 @@
 
 **Description** : *Live geolocation*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputMediaGeoLive#971fa843 flags:# stopped:flags.0?true geo_point:InputGeoPoint heading:flags.2?int period:flags.1?int proximity_notification_radius:flags.3?int = InputMedia;
@@ -35,8 +35,8 @@ inputMediaGeoLive#971fa843 flags:# stopped:flags.0?true geo_point:InputGeoPoint 
 $inputMedia = $client->inputMediaGeoLive(
 	stopped : true,
 	geo_point : $client->inputGeoPointEmpty(),
-	heading : 48,
-	period : 97,
-	proximity_notification_radius : 31,
+	heading : 78,
+	period : 15,
+	proximity_notification_radius : 70,
 );
 ```

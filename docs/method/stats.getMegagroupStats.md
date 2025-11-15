@@ -2,7 +2,7 @@
 
 **Description** : *Get supergroup statistics*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stats.getMegagroupStats#dcdf8607 flags:# dark:flags.0?true channel:InputChannel = stats.MegagroupStats;
@@ -41,6 +41,6 @@ stats.getMegagroupStats#dcdf8607 flags:# dark:flags.0?true channel:InputChannel 
 ```php
 $statsMegagroupStats = $client->stats->getMegagroupStats(
 	dark : true,
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

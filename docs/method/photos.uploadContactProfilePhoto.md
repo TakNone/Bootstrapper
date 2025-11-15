@@ -2,7 +2,7 @@
 
 **Description** : *Upload a custom profile picture for a contact, or suggest a new profile picture to a contact*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 photos.uploadContactProfilePhoto#e14c4a71 flags:# suggest:flags.3?true save:flags.4?true user_id:InputUser file:flags.0?InputFile video:flags.1?InputFile video_start_ts:flags.2?double video_emoji_markup:flags.5?VideoSize = photos.Photo;
@@ -46,26 +46,16 @@ photos.uploadContactProfilePhoto#e14c4a71 flags:# suggest:flags.3?true save:flag
 $photosPhoto = $client->photos->uploadContactProfilePhoto(
 	suggest : true,
 	save : true,
-	user_id : $client->inputUserEmpty(),
-	file : $client->inputFile(
-		id : -4944957237406089134,
-		parts : 100,
-		name : 'JdwjHMGNLh7BQDgq',
-		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-	),
-	video : $client->inputFile(
-		id : -612708727123803883,
-		parts : 55,
-		name : 'mcq1NCpDsQ5hWkME',
-		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-	),
-	video_start_ts : -513666.4140625,
+	user_id : $client->get_input_user(peer : '@TakNone'),
+	file : $client->upload_file(path : 'file.png'),
+	video : $client->upload_file(path : 'file.png'),
+	video_start_ts : -1049077.7431640625,
 	video_emoji_markup : $client->videoSize(
-		type : 'utcz2RUK1F3Ts9nJ',
-		w : 33,
-		h : 84,
-		size : 53,
-		video_start_ts : -1244329.9892578125,
+		type : 'M1csGSk2fJga5Adb',
+		w : 42,
+		h : 70,
+		size : 47,
+		video_start_ts : 1152293.03515625,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Delete a chat*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.deleteChat#5bd0ee50 chat_id:long = Bool;
@@ -38,6 +38,6 @@ messages.deleteChat#5bd0ee50 chat_id:long = Bool;
 
 ```php
 $bool = $client->messages->deleteChat(
-	chat_id : 4490850006465555676,
+	chat_id : 51349607217892954,
 );
 ```

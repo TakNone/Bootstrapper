@@ -2,7 +2,7 @@
 
 **Description** : *Set the default peer that will be used to join a group call in a specific dialog*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phone.saveDefaultGroupCallJoinAs#575e1f8c peer:InputPeer join_as:InputPeer = Bool;
@@ -38,7 +38,7 @@ phone.saveDefaultGroupCallJoinAs#575e1f8c peer:InputPeer join_as:InputPeer = Boo
 
 ```php
 $bool = $client->phone->saveDefaultGroupCallJoinAs(
-	peer : $client->inputPeerEmpty(),
-	join_as : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	join_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

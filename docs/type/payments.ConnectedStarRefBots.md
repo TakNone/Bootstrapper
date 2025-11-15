@@ -2,7 +2,7 @@
 
 **Description** : *Active affiliations*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.connectedStarRefBots#98d5ea1d count:int connected_bots:Vector<ConnectedBotStarRef> users:Vector<User> = payments.ConnectedStarRefBots;

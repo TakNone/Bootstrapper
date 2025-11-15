@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of default suggested emoji statuses*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.getDefaultEmojiStatuses#d6753386 hash:long = account.EmojiStatuses;

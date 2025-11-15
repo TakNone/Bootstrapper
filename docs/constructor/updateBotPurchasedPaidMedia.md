@@ -2,7 +2,7 @@
 
 **Description** : *Bots only: a user has purchased a paid media*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateBotPurchasedPaidMedia#283bd312 user_id:long payload:string qts:int = Update;
@@ -30,8 +30,8 @@ updateBotPurchasedPaidMedia#283bd312 user_id:long payload:string qts:int = Updat
 
 ```php
 $update = $client->updateBotPurchasedPaidMedia(
-	user_id : 3153483321432685147,
-	payload : 'tNYrBA1zJe67TUsI',
-	qts : 100,
+	user_id : 6782035292034933009,
+	payload : 'PSWeNcsGkRgqTFEv',
+	qts : 22,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of similarly themed public channels, selected based on similarities in their subscriber bases*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.getChannelRecommendations#25a71742 flags:# channel:flags.0?InputChannel = messages.Chats;
@@ -39,6 +39,6 @@ channels.getChannelRecommendations#25a71742 flags:# channel:flags.0?InputChannel
 
 ```php
 $messagesChats = $client->channels->getChannelRecommendations(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

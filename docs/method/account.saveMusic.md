@@ -2,7 +2,7 @@
 
 **Description** : *Adds or removes a song from the current user&#039;s profile see here &raquo; for more info on the music tab of the profile page*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.saveMusic#b26732a9 flags:# unsave:flags.0?true id:InputDocument after_id:flags.1?InputDocument = Bool;

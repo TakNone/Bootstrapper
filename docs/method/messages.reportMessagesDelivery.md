@@ -2,7 +2,7 @@
 
 **Description** : *Used for Telegram Gateway verification messages &raquo;: indicate to the server that one or more messages were received by the client, if requested by the message\.report\_delivery\_until\_date flag or the equivalent flag in push notifications*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.reportMessagesDelivery#5a6d7395 flags:# push:flags.0?true peer:InputPeer id:Vector<int> = Bool;
@@ -40,7 +40,7 @@ messages.reportMessagesDelivery#5a6d7395 flags:# push:flags.0?true peer:InputPee
 ```php
 $bool = $client->messages->reportMessagesDelivery(
 	push : true,
-	peer : $client->inputPeerEmpty(),
-	id : array(92),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	id : array(46),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *A document with stickers attached*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputStickeredMediaDocument#438865b id:InputDocument = InputStickeredMedia;

@@ -2,7 +2,7 @@
 
 **Description** : *Get localized name for support user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.supportName#8c05f1c9 name:string = help.SupportName;

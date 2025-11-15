@@ -2,7 +2,7 @@
 
 **Description** : *The phone call was ended normally*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phoneCallDiscardReasonHangup#57adc690 = PhoneCallDiscardReason;

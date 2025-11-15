@@ -2,7 +2,7 @@
 
 **Description** : *Rich text email link*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 textEmail#de5a0dd6 text:RichText email:string = RichText;

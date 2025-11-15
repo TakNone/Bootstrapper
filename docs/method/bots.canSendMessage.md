@@ -2,7 +2,7 @@
 
 **Description** : *Check whether the specified bot can send us messages*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.canSendMessage#1359f4e6 bot:InputUser = Bool;
@@ -36,6 +36,6 @@ bots.canSendMessage#1359f4e6 bot:InputUser = Bool;
 
 ```php
 $bool = $client->bots->canSendMessage(
-	bot : $client->inputUserEmpty(),
+	bot : $client->get_input_user(peer : '@TakNone'),
 );
 ```

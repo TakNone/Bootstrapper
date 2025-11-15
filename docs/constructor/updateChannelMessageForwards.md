@@ -2,7 +2,7 @@
 
 **Description** : *The forward counter of a message in a channel has changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateChannelMessageForwards#d29a27f4 channel_id:long id:int forwards:int = Update;
@@ -30,8 +30,8 @@ updateChannelMessageForwards#d29a27f4 channel_id:long id:int forwards:int = Upda
 
 ```php
 $update = $client->updateChannelMessageForwards(
-	channel_id : -7447566744539197898,
-	id : 92,
-	forwards : 57,
+	channel_id : -8061143882545557076,
+	id : 100,
+	forwards : 68,
 );
 ```

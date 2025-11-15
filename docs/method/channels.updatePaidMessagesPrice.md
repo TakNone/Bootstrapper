@@ -2,7 +2,7 @@
 
 **Description** : *Enable or disable paid messages &raquo; in this supergroup or monoforum*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.updatePaidMessagesPrice#4b12327b flags:# broadcast_messages_allowed:flags.0?true channel:InputChannel send_paid_messages_stars:long = Updates;
@@ -43,7 +43,7 @@ channels.updatePaidMessagesPrice#4b12327b flags:# broadcast_messages_allowed:fla
 ```php
 $updates = $client->channels->updatePaidMessagesPrice(
 	broadcast_messages_allowed : true,
-	channel : $client->inputChannelEmpty(),
-	send_paid_messages_stars : 314082531181889664,
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	send_paid_messages_stars : -6780927517292478686,
 );
 ```

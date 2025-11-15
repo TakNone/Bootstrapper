@@ -2,7 +2,7 @@
 
 **Description** : *Fetch only banned participants*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelParticipantsBanned#1427a5e1 q:string = ChannelParticipantsFilter;
@@ -28,6 +28,6 @@ channelParticipantsBanned#1427a5e1 q:string = ChannelParticipantsFilter;
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsBanned(
-	q : '0TqtbonEU3fPphIc',
+	q : 'Qqaj6VfYXd2UtgyE',
 );
 ```

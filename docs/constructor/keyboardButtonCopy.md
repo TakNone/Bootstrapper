@@ -2,7 +2,7 @@
 
 **Description** : *Clipboard button: when clicked, the attached text must be copied to the clipboard*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 keyboardButtonCopy#75d2698e text:string copy_text:string = KeyboardButton;
@@ -29,7 +29,7 @@ keyboardButtonCopy#75d2698e text:string copy_text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonCopy(
-	text : 'NsmnoBfrRXJPSbel',
-	copy_text : 'hWmZ2vx5dMCJBSNk',
+	text : 'S3Yz6m5N1ljyX7uU',
+	copy_text : 'tGQ8N5FopESPn0WV',
 );
 ```

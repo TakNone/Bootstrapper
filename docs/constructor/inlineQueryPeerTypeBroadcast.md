@@ -2,7 +2,7 @@
 
 **Description** : *Peer type: channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inlineQueryPeerTypeBroadcast#6334ee9a = InlineQueryPeerType;

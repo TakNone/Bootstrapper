@@ -2,7 +2,7 @@
 
 **Description** : *Webpage preview of a Telegram story*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 webPageAttributeStory#2e94c3e7 flags:# peer:Peer id:int story:flags.0?StoryItem = WebPageAttribute;
@@ -32,11 +32,11 @@ webPageAttributeStory#2e94c3e7 flags:# peer:Peer id:int story:flags.0?StoryItem 
 ```php
 $webPageAttribute = $client->webPageAttributeStory(
 	peer : $client->peerUser(
-		user_id : -4828460617494357780,
+		user_id : 6147602525090276958,
 	),
-	id : 63,
+	id : 23,
 	story : $client->storyItemDeleted(
-		id : 12,
+		id : 96,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *A forum topic was edited*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionEditTopic#f06fe208 prev_topic:ForumTopic new_topic:ForumTopic = ChannelAdminLogEventAction;
@@ -30,10 +30,10 @@ channelAdminLogEventActionEditTopic#f06fe208 prev_topic:ForumTopic new_topic:For
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionEditTopic(
 	prev_topic : $client->forumTopicDeleted(
-		id : 25,
+		id : 84,
 	),
 	new_topic : $client->forumTopicDeleted(
-		id : 94,
+		id : 69,
 	),
 );
 ```

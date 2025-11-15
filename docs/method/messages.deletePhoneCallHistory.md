@@ -2,7 +2,7 @@
 
 **Description** : *Delete the entire phone call history*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.deletePhoneCallHistory#f9cbe409 flags:# revoke:flags.0?true = messages.AffectedFoundMessages;

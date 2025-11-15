@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about an unsupported deep link &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.deepLinkInfoEmpty#66afa166 = help.DeepLinkInfo;

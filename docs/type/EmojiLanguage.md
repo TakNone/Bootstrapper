@@ -2,7 +2,7 @@
 
 **Description** : *Emoji language*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 emojiLanguage#b3fb5361 lang_code:string = EmojiLanguage;

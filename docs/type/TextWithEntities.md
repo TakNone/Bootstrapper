@@ -2,7 +2,7 @@
 
 **Description** : *Styled text with message entities*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 textWithEntities#751f3146 text:string entities:Vector<MessageEntity> = TextWithEntities;

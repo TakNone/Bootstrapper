@@ -2,7 +2,7 @@
 
 **Description** : *Fetch info about a specific bot affiliation &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.getConnectedStarRefBot#b7d998f0 peer:InputPeer bot:InputUser = payments.ConnectedStarRefBots;
@@ -37,7 +37,7 @@ payments.getConnectedStarRefBot#b7d998f0 peer:InputPeer bot:InputUser = payments
 
 ```php
 $paymentsConnectedStarRefBots = $client->payments->getConnectedStarRefBot(
-	peer : $client->inputPeerEmpty(),
-	bot : $client->inputUserEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	bot : $client->get_input_user(peer : '@TakNone'),
 );
 ```

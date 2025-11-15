@@ -2,7 +2,7 @@
 
 **Description** : *Send a dice\-based animated sticker*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputMediaDice#e66fbf7b emoticon:string = InputMedia;
@@ -28,6 +28,6 @@ inputMediaDice#e66fbf7b emoticon:string = InputMedia;
 
 ```php
 $inputMedia = $client->inputMediaDice(
-	emoticon : 'VKEH041FeXmo83gI',
+	emoticon : 'pWAOUXeJZ40lSDbQ',
 );
 ```

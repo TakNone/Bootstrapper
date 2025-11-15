@@ -2,7 +2,7 @@
 
 **Description** : *Used to send messages to a monoforum topic*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputReplyToMonoForum#69d66c45 monoforum_peer_id:InputPeer = InputReplyTo;
@@ -28,6 +28,6 @@ inputReplyToMonoForum#69d66c45 monoforum_peer_id:InputPeer = InputReplyTo;
 
 ```php
 $inputReplyTo = $client->inputReplyToMonoForum(
-	monoforum_peer_id : $client->inputPeerEmpty(),
+	monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

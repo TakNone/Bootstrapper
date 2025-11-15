@@ -2,7 +2,7 @@
 
 **Description** : *Info about a video stream*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 groupCallParticipantVideo#67753ac8 flags:# paused:flags.0?true endpoint:string source_groups:Vector<GroupCallParticipantVideoSourceGroup> audio_source:flags.1?int = GroupCallParticipantVideo;
@@ -33,13 +33,13 @@ groupCallParticipantVideo#67753ac8 flags:# paused:flags.0?true endpoint:string s
 ```php
 $groupCallParticipantVideo = $client->groupCallParticipantVideo(
 	paused : true,
-	endpoint : '4JNGu3r5LcZT0y7j',
+	endpoint : 'MS72pk3sVGzo4cdg',
 	source_groups : array(
 		$client->groupCallParticipantVideoSourceGroup(
-			semantics : 'wAoyiYJt7Q2XkT3v',
-			sources : array(69),
+			semantics : '02frZ9YPAWRBNCgF',
+			sources : array(24),
 		),
 	),
-	audio_source : 60,
+	audio_source : 57,
 );
 ```

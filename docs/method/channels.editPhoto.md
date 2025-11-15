@@ -2,7 +2,7 @@
 
 **Description** : *Change the photo of a channel/supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.editPhoto#f12e57c9 channel:InputChannel photo:InputChatPhoto = Updates;
@@ -49,7 +49,7 @@ channels.editPhoto#f12e57c9 channel:InputChannel photo:InputChatPhoto = Updates;
 
 ```php
 $updates = $client->channels->editPhoto(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	photo : $client->inputChatPhotoEmpty(),
 );
 ```

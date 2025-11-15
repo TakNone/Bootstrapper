@@ -2,7 +2,7 @@
 
 **Description** : *Describes a bot verification icon &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 botVerification#f93cd45c bot_id:long icon:long description:string = BotVerification;
@@ -30,8 +30,8 @@ botVerification#f93cd45c bot_id:long icon:long description:string = BotVerificat
 
 ```php
 $botVerification = $client->botVerification(
-	bot_id : 5400256086229416215,
-	icon : -3939937591984249989,
-	description : 'hi8YgwAQ059cuPbJ',
+	bot_id : -3991186052288933199,
+	icon : -4296826149816570934,
+	description : '4lf5wz0BFscOdm9W',
 );
 ```

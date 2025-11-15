@@ -2,7 +2,7 @@
 
 **Description** : *Verify an email to use as 2FA recovery method*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.confirmPasswordEmail#8fdf1920 code:string = Bool;
@@ -37,6 +37,6 @@ account.confirmPasswordEmail#8fdf1920 code:string = Bool;
 
 ```php
 $bool = $client->account->confirmPasswordEmail(
-	code : 'yIuBqwU0YVE4ZaxK',
+	code : '9ImtY14yclzEdpJb',
 );
 ```

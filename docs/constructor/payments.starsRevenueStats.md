@@ -2,7 +2,7 @@
 
 **Description** : *Star revenue statistics, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.starsRevenueStats#6c207376 flags:# top_hours_graph:flags.0?StatsGraph revenue_graph:StatsGraph status:StarsRevenueStatus usd_rate:double = payments.StarsRevenueStats;
@@ -33,27 +33,27 @@ payments.starsRevenueStats#6c207376 flags:# top_hours_graph:flags.0?StatsGraph r
 ```php
 $paymentsStarsRevenueStats = $client->payments->starsRevenueStats(
 	top_hours_graph : $client->statsGraphAsync(
-		token : '1gdeDlfmsJrZHcC6',
+		token : 'xTVj4tq0Ac3dv19E',
 	),
 	revenue_graph : $client->statsGraphAsync(
-		token : '5mKUxS4vyCfkEWhB',
+		token : 'cE7Bsd1hAqZQYeJi',
 	),
 	status : $client->starsRevenueStatus(
 		withdrawal_enabled : true,
 		current_balance : $client->starsAmount(
-			amount : -1508870972930109136,
-			nanos : 54,
+			amount : 5203449673797839418,
+			nanos : 77,
 		),
 		available_balance : $client->starsAmount(
-			amount : 1310094073643847611,
-			nanos : 84,
+			amount : -486957005573540505,
+			nanos : 83,
 		),
 		overall_revenue : $client->starsAmount(
-			amount : -7179556473397899498,
-			nanos : 20,
+			amount : 2478228841866361921,
+			nanos : 46,
 		),
-		next_withdrawal_at : 55,
+		next_withdrawal_at : 15,
 	),
-	usd_rate : 770265.712890625,
+	usd_rate : -586766.0634765625,
 );
 ```

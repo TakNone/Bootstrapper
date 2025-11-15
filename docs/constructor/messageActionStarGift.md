@@ -2,10 +2,10 @@
 
 **Description** : *You received a gift, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-messageActionStarGift#f24de7fa flags:# name_hidden:flags.0?true saved:flags.2?true converted:flags.3?true upgraded:flags.5?true transferred:flags.6?true refunded:flags.9?true can_upgrade:flags.10?true prepaid_upgrade:flags.13?true upgrade_separate:flags.16?true gift:StarGift message:flags.1?TextWithEntities convert_stars:flags.4?long upgrade_msg_id:flags.5?int upgrade_stars:flags.8?long from_id:flags.11?Peer peer:flags.12?Peer saved_id:flags.12?long prepaid_upgrade_hash:flags.14?string gift_msg_id:flags.15?int = MessageAction;
+messageActionStarGift#db596550 flags:# name_hidden:flags.0?true saved:flags.2?true converted:flags.3?true upgraded:flags.5?true transferred:flags.6?true refunded:flags.9?true can_upgrade:flags.10?true prepaid_upgrade:flags.13?true upgrade_separate:flags.16?true auction_acquired:flags.17?true gift:StarGift message:flags.1?TextWithEntities convert_stars:flags.4?long upgrade_msg_id:flags.5?int upgrade_stars:flags.8?long from_id:flags.11?Peer peer:flags.12?Peer saved_id:flags.12?long prepaid_upgrade_hash:flags.14?string gift_msg_id:flags.15?int to_id:flags.18?Peer = MessageAction;
 ```
 
 ---
@@ -24,6 +24,7 @@ messageActionStarGift#f24de7fa flags:# name_hidden:flags.0?true saved:flags.2?tr
 | **can_upgrade** | [`flags.10?true`](type/true) | If set, this gift can be upgraded to a collectible gift; can only be set for the receiver of a gift |
 | **prepaid_upgrade** | [`flags.13?true`](type/true) | The sender has already pre-paid for the upgrade of this gift to a collectible gift |
 | **upgrade_separate** | [`flags.16?true`](type/true) | This service message is the notification of a separate pre-payment for the upgrade of a gift we own |
+| **auction_acquired** | [`flags.17?true`](type/true) | NOTHING |
 | <mark>gift</mark> | [`StarGift`](type/StarGift) | Info about the gift |
 | **message** | [`flags.1?TextWithEntities`](type/TextWithEntities) | Additional message from the sender of the gift |
 | **convert_stars** | [`flags.4?long`](type/long) | The receiver of this gift may convert it to this many Telegram Stars, instead of displaying it on their profile page.convert_stars will be equal to stars only if the gift was bought using recently bought Telegram Stars, otherwise it will be less than stars |
@@ -34,6 +35,7 @@ messageActionStarGift#f24de7fa flags:# name_hidden:flags.0?true saved:flags.2?tr
 | **saved_id** | [`flags.12?long`](type/long) | For channel gifts, ID to use in inputSavedStarGiftChat constructors |
 | **prepaid_upgrade_hash** | [`flags.14?string`](type/string) | Hash to prepay for a gift upgrade separately » |
 | **gift_msg_id** | [`flags.15?int`](type/int) | For separate upgrades, the identifier of the message with the gift whose upgrade was prepaid (only valid for the receiver of the service message) |
+| **to_id** | [`flags.18?Peer`](type/Peer) | NOTHING |
 
 ---
 
@@ -56,6 +58,7 @@ $messageAction = $client->messageActionStarGift(
 	can_upgrade : true,
 	prepaid_upgrade : true,
 	upgrade_separate : true,
+	auction_acquired : true,
 	gift : $client->starGift(
 		limited : true,
 		sold_out : true,
@@ -64,133 +67,139 @@ $messageAction = $client->messageActionStarGift(
 		require_premium : true,
 		limited_per_user : true,
 		peer_color_available : true,
-		id : 6695232549044601669,
+		auction : true,
+		id : -7455451122395695669,
 		sticker : $client->documentEmpty(
-			id : -4362986960710224156,
+			id : 4078268953121419234,
 		),
-		stars : -1453301454833098858,
-		availability_remains : 37,
-		availability_total : 34,
-		availability_resale : 3268730125135046287,
-		convert_stars : 6949561609377678160,
-		first_sale_date : 14,
-		last_sale_date : 34,
-		upgrade_stars : 121665811377892393,
-		resell_min_stars : 2649010735012880379,
-		title : 'mVogrlvEFJsnGdax',
+		stars : -1889792519456347357,
+		availability_remains : 36,
+		availability_total : 83,
+		availability_resale : -8533419025222677017,
+		convert_stars : 3773157877561777911,
+		first_sale_date : 72,
+		last_sale_date : 33,
+		upgrade_stars : -350852017741048886,
+		resell_min_stars : -8992434766786096790,
+		title : 'E1Xd5sWTGrSHu0LP',
 		released_by : $client->peerUser(
-			user_id : -3461424451902970965,
+			user_id : 2948608103179551206,
 		),
-		per_user_total : 26,
-		per_user_remains : 21,
-		locked_until_date : 50,
+		per_user_total : 45,
+		per_user_remains : 3,
+		locked_until_date : 15,
+		auction_slug : 'q95l7wtiIvNLDoeH',
+		gifts_per_round : 23,
 	),
 	message : $client->textWithEntities(
-		text : 'VFbRdawJcp19meqN',
+		text : 'vXRzTPn3MagtNxkV',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 81,
+				length : 5,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 66,
+				length : 88,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 76,
+				length : 98,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 21,
+				length : 63,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 59,
+				length : 13,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 93,
+				length : 43,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 17,
+				length : 80,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 88,
+				length : 62,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 88,
+				length : 32,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 35,
-				language : 'scqO35JNWZDFteIf',
+				length : 60,
+				language : '8lWLEVosHYvU5k9N',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 82,
+				length : 6,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 66,
-				user_id : 6503840935452915121,
+				length : 84,
+				user_id : 1756623485608787910,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 47,
-				user_id : $client->inputUserEmpty(...),
+				length : 44,
+				user_id : $client->get_input_user(peer : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 59,
+				length : 45,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 29,
+				length : 22,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 6,
+				length : 59,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 42,
+				length : 34,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 61,
+				length : 58,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 12,
+				length : 98,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 81,
-				document_id : 2083008206702219510,
+				length : 90,
+				document_id : -1678531166839241384,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 30,
+				length : 95,
 			),
 		),
 	),
-	convert_stars : -2063375492085978704,
-	upgrade_msg_id : 33,
-	upgrade_stars : -7863166248739987522,
+	convert_stars : 6535108883502371016,
+	upgrade_msg_id : 4,
+	upgrade_stars : 5512277970602463378,
 	from_id : $client->peerUser(
-		user_id : 1339188911641457010,
+		user_id : 6380798218254828207,
 	),
 	peer : $client->peerUser(
-		user_id : 5739230167037947697,
+		user_id : -8944715738236304807,
 	),
-	saved_id : -1006934907672116572,
-	prepaid_upgrade_hash : 'XeLt4lDVIMQn5Gzx',
-	gift_msg_id : 81,
+	saved_id : 2456236456006951504,
+	prepaid_upgrade_hash : 'p59DAKyFsE8zwkJb',
+	gift_msg_id : 77,
+	to_id : $client->peerUser(
+		user_id : -350570925815836904,
+	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Reset the 2FA password using the recovery code sent using auth\.requestPasswordRecovery*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 auth.recoverPassword#37096c70 flags:# code:string new_settings:flags.0?account.PasswordInputSettings = auth.Authorization;
@@ -39,16 +39,16 @@ auth.recoverPassword#37096c70 flags:# code:string new_settings:flags.0?account.P
 
 ```php
 $authAuthorization = $client->auth->recoverPassword(
-	code : 'Z2hkSlntTq9A7s5U',
+	code : 'C9vlWA6j2GrHniu5',
 	new_settings : $client->account->passwordInputSettings(
 		new_algo : $client->passwordKdfAlgoUnknown(),
 		new_password_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		hint : 'ihWn7PqBZo6b4gpf',
+		hint : '1MIikh0AP3ezcg4B',
 		email : 'reply@liveproto.dev',
 		new_secure_settings : $client->secureSecretSettings(
-			secure_algo : $client->securePasswordKdfAlgoUnknown(...),
+			secure_algo : $client->securePasswordKdfAlgoUnknown(),
 			secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			secure_secret_id : 6973071305369865855,
+			secure_secret_id : 5897641020577428708,
 		),
 	),
 );

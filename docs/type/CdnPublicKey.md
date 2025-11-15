@@ -2,7 +2,7 @@
 
 **Description** : *Public key to use only during handshakes to CDN DCs*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 cdnPublicKey#c982eaba dc_id:int public_key:string = CdnPublicKey;

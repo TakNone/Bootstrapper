@@ -2,7 +2,7 @@
 
 **Description** : *Get the exact read date of one of our messages, sent to a private chat with another user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getOutboxReadDate#8c4bfe5d peer:InputPeer msg_id:int = OutboxReadDate;
@@ -42,7 +42,7 @@ messages.getOutboxReadDate#8c4bfe5d peer:InputPeer msg_id:int = OutboxReadDate;
 
 ```php
 $outboxReadDate = $client->messages->getOutboxReadDate(
-	peer : $client->inputPeerEmpty(),
-	msg_id : 90,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	msg_id : 32,
 );
 ```

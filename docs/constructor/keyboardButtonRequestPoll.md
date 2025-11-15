@@ -2,7 +2,7 @@
 
 **Description** : *A button that allows the user to create and send a poll when pressed; available only in private*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 keyboardButtonRequestPoll#bbc7515d flags:# quiz:flags.0?Bool text:string = KeyboardButton;
@@ -30,7 +30,7 @@ keyboardButtonRequestPoll#bbc7515d flags:# quiz:flags.0?Bool text:string = Keybo
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestPoll(
-	quiz : false,
-	text : 'hKElb981nFrJ3HM6',
+	quiz : true,
+	text : 'Ja8GDpQXE74HISbB',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *The bot attachment menu entry is available in groups and supergroups*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 attachMenuPeerTypeChat#509113f = AttachMenuPeerType;

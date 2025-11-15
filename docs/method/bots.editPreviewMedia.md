@@ -2,7 +2,7 @@
 
 **Description** : *Edit a main mini app preview, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.editPreviewMedia#8525606f bot:InputUser lang_code:string media:InputMedia new_media:InputMedia = BotPreviewMedia;
@@ -39,9 +39,9 @@ bots.editPreviewMedia#8525606f bot:InputUser lang_code:string media:InputMedia n
 
 ```php
 $botPreviewMedia = $client->bots->editPreviewMedia(
-	bot : $client->inputUserEmpty(),
-	lang_code : '574vTEGtujUNhBlf',
-	media : $client->inputMediaEmpty(),
-	new_media : $client->inputMediaEmpty(),
+	bot : $client->get_input_user(peer : '@TakNone'),
+	lang_code : 'NAYFvXHpZJrUKPy7',
+	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
+	new_media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );
 ```

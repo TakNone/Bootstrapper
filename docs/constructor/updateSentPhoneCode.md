@@ -2,7 +2,7 @@
 
 **Description** : *A paid login SMS code was successfully sent*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateSentPhoneCode#504aa18f sent_code:auth.SentCode = Update;
@@ -30,11 +30,11 @@ updateSentPhoneCode#504aa18f sent_code:auth.SentCode = Update;
 $update = $client->updateSentPhoneCode(
 	sent_code : $client->auth->sentCode(
 		type : $client->auth->sentCodeTypeApp(
-			length : 15,
+			length : 61,
 		),
 		phone_code_hash : '+1234567890',
 		next_type : $client->auth->codeTypeSms(),
-		timeout : 41,
+		timeout : 67,
 	),
 );
 ```

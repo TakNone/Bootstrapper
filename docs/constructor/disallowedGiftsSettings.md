@@ -2,10 +2,10 @@
 
 **Description** : *Disallow the reception of specific gift types*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-disallowedGiftsSettings#71f276c4 flags:# disallow_unlimited_stargifts:flags.0?true disallow_limited_stargifts:flags.1?true disallow_unique_stargifts:flags.2?true disallow_premium_gifts:flags.3?true = DisallowedGiftsSettings;
+disallowedGiftsSettings#71f276c4 flags:# disallow_unlimited_stargifts:flags.0?true disallow_limited_stargifts:flags.1?true disallow_unique_stargifts:flags.2?true disallow_premium_gifts:flags.3?true disallow_stargifts_from_channels:flags.4?true = DisallowedGiftsSettings;
 ```
 
 ---
@@ -19,6 +19,7 @@ disallowedGiftsSettings#71f276c4 flags:# disallow_unlimited_stargifts:flags.0?tr
 | **disallow_limited_stargifts** | [`flags.1?true`](type/true) | Disallow the reception of limited-supply gifts (those with the starGift.limited flag set) |
 | **disallow_unique_stargifts** | [`flags.2?true`](type/true) | Disallow the reception of collectible gifts » |
 | **disallow_premium_gifts** | [`flags.3?true`](type/true) | Disallow the reception of gifted Telegram Premium subscriptions » |
+| **disallow_stargifts_from_channels** | [`flags.4?true`](type/true) | NOTHING |
 
 ---
 
@@ -36,5 +37,6 @@ $disallowedGiftsSettings = $client->disallowedGiftsSettings(
 	disallow_limited_stargifts : true,
 	disallow_unique_stargifts : true,
 	disallow_premium_gifts : true,
+	disallow_stargifts_from_channels : true,
 );
 ```

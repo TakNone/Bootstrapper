@@ -2,7 +2,7 @@
 
 **Description** : *Indicates how many results would be found by a messages\.search call with the same parameters*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.searchCounter#e844ebff flags:# inexact:flags.1?true filter:MessagesFilter count:int = messages.SearchCounter;
@@ -33,6 +33,6 @@ messages.searchCounter#e844ebff flags:# inexact:flags.1?true filter:MessagesFilt
 $messagesSearchCounter = $client->messages->searchCounter(
 	inexact : true,
 	filter : $client->inputMessagesFilterEmpty(),
-	count : 26,
+	count : 67,
 );
 ```

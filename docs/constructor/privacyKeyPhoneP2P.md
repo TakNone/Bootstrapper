@@ -2,7 +2,7 @@
 
 **Description** : *Whether P2P connections in phone calls with this user are allowed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 privacyKeyPhoneP2P#39491cc8 = PrivacyKey;

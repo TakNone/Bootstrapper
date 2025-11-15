@@ -2,7 +2,7 @@
 
 **Description** : *Messages were deleted*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateDeleteMessages#a20db0e5 messages:Vector<int> pts:int pts_count:int = Update;
@@ -30,8 +30,8 @@ updateDeleteMessages#a20db0e5 messages:Vector<int> pts:int pts_count:int = Updat
 
 ```php
 $update = $client->updateDeleteMessages(
-	messages : array(36),
-	pts : 75,
-	pts_count : 77,
+	messages : array(20),
+	pts : 71,
+	pts_count : 60,
 );
 ```

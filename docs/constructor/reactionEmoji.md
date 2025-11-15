@@ -2,7 +2,7 @@
 
 **Description** : *Normal emoji message reaction*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 reactionEmoji#1b2286b8 emoticon:string = Reaction;
@@ -28,6 +28,6 @@ reactionEmoji#1b2286b8 emoticon:string = Reaction;
 
 ```php
 $reaction = $client->reactionEmoji(
-	emoticon : '35xaFKkHuOyG9YC6',
+	emoticon : 'eXyUqCHguPvNcIaj',
 );
 ```

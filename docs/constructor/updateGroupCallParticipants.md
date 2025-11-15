@@ -2,7 +2,7 @@
 
 **Description** : *The participant list of a certain group call has changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<GroupCallParticipant> version:int = Update;
@@ -31,8 +31,8 @@ updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<Gro
 ```php
 $update = $client->updateGroupCallParticipants(
 	call : $client->inputGroupCall(
-		id : -7761477113972211659,
-		access_hash : 7983348418677795557,
+		id : 1222272343088805243,
+		access_hash : 6098244756806725170,
 	),
 	participants : array(
 		$client->groupCallParticipant(
@@ -47,32 +47,39 @@ $update = $client->updateGroupCallParticipants(
 			self : true,
 			video_joined : true,
 			peer : $client->peerUser(
-				user_id : 5790693233189637785,
+				user_id : 7874779328729387482,
 			),
-			date : 47,
-			active_date : 98,
-			source : 81,
-			volume : 12,
-			about : 'QnX53E7x24swz1u8',
-			raise_hand_rating : 3239709624457458818,
+			date : 77,
+			active_date : 31,
+			source : 3,
+			volume : 27,
+			about : 'PBtA8Jkmifd5zWn2',
+			raise_hand_rating : 7050213921539910114,
 			video : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'muEY9P0KAv8DSOUp',
+				endpoint : 'yPGfJgZESUnk7K5H',
 				source_groups : array(
-					$client->groupCallParticipantVideoSourceGroup(...),
+					$client->groupCallParticipantVideoSourceGroup(
+						semantics : 'PeEQp3VwYJsIr89h',
+						sources : array(10),
+					),
 				),
-				audio_source : 59,
+				audio_source : 22,
 			),
 			presentation : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'ZfP2srTM9jeQ8ShY',
+				endpoint : 'fOPeyqtJwcCYZ17I',
 				source_groups : array(
-					$client->groupCallParticipantVideoSourceGroup(...),
+					$client->groupCallParticipantVideoSourceGroup(
+						semantics : 'JmwkRDOxLvA7uKcS',
+						sources : array(27),
+					),
 				),
-				audio_source : 33,
+				audio_source : 95,
 			),
+			paid_stars_total : -7645355111555968345,
 		),
 	),
-	version : 43,
+	version : 79,
 );
 ```

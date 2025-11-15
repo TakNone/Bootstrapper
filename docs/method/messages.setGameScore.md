@@ -2,7 +2,7 @@
 
 **Description** : *Use this method to set the score of the specified user in a game sent as a normal message \(bots only\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.setGameScore#8ef8ecc0 flags:# edit_message:flags.0?true force:flags.1?true peer:InputPeer id:int user_id:InputUser score:int = Updates;
@@ -48,9 +48,9 @@ messages.setGameScore#8ef8ecc0 flags:# edit_message:flags.0?true force:flags.1?t
 $updates = $client->messages->setGameScore(
 	edit_message : true,
 	force : true,
-	peer : $client->inputPeerEmpty(),
-	id : 96,
-	user_id : $client->inputUserEmpty(),
-	score : 59,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	id : 38,
+	user_id : $client->get_input_user(peer : '@TakNone'),
+	score : 17,
 );
 ```

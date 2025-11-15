@@ -2,7 +2,7 @@
 
 **Description** : *Inactive chat list*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.inactiveChats#a927fec5 dates:Vector<int> chats:Vector<Chat> users:Vector<User> = messages.InactiveChats;

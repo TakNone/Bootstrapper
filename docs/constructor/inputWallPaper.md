@@ -2,7 +2,7 @@
 
 **Description** : *Wallpaper*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputWallPaper#e630b979 id:long access_hash:long = InputWallPaper;
@@ -29,7 +29,7 @@ inputWallPaper#e630b979 id:long access_hash:long = InputWallPaper;
 
 ```php
 $inputWallPaper = $client->inputWallPaper(
-	id : -5720766679702271629,
-	access_hash : -1507811817595506903,
+	id : -4801158959643786105,
+	access_hash : -8220038961662468196,
 );
 ```

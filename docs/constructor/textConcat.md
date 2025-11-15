@@ -2,7 +2,7 @@
 
 **Description** : *Concatenation of rich texts*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 textConcat#7e6260d7 texts:Vector<RichText> = RichText;
@@ -31,7 +31,7 @@ $richText = $client->textConcat(
 	texts : array(
 		$client->textEmpty(),
 		$client->textPlain(
-			text : 'PlwzUnK9Y8gWILtH',
+			text : 'pwiFkev5QRCHmBKX',
 		),
 		$client->textBold(
 			text : $client->textEmpty(),
@@ -51,7 +51,7 @@ $richText = $client->textConcat(
 		$client->textUrl(
 			text : $client->textEmpty(),
 			url : 'https://docs.liveproto.dev',
-			webpage_id : -7757765047429641847,
+			webpage_id : -4399417759070467879,
 		),
 		$client->textEmail(
 			text : $client->textEmpty(),
@@ -61,73 +61,127 @@ $richText = $client->textConcat(
 			texts : array(
 				$client->textEmpty(),
 				$client->textPlain(
-					text : 'B8F1cOA76HwnRqVm',
+					text : '6Rf3clCrKW0MaIhs',
 				),
 				$client->textBold(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 				),
 				$client->textItalic(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 				),
 				$client->textUnderline(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 				),
 				$client->textStrike(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 				),
 				$client->textFixed(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 				),
 				$client->textUrl(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 					url : 'https://docs.liveproto.dev',
-					webpage_id : 6779888634837520995,
+					webpage_id : 5403906347849893731,
 				),
 				$client->textEmail(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 					email : 'reply@liveproto.dev',
 				),
 				$client->textConcat(
 					texts : array(
-						$client->textEmpty(...),
-						$client->textPlain(...),
-						$client->textBold(...),
-						$client->textItalic(...),
-						$client->textUnderline(...),
-						$client->textStrike(...),
-						$client->textFixed(...),
-						$client->textUrl(...),
-						$client->textEmail(...),
-						$client->textConcat(...),
-						$client->textSubscript(...),
-						$client->textSuperscript(...),
-						$client->textMarked(...),
-						$client->textPhone(...),
-						$client->textImage(...),
-						$client->textAnchor(...),
+						$client->textEmpty(),
+						$client->textPlain(
+							text : 'mWIf3T4cjuoagXRq',
+						),
+						$client->textBold(
+							text : $client->textEmpty(...),
+						),
+						$client->textItalic(
+							text : $client->textEmpty(...),
+						),
+						$client->textUnderline(
+							text : $client->textEmpty(...),
+						),
+						$client->textStrike(
+							text : $client->textEmpty(...),
+						),
+						$client->textFixed(
+							text : $client->textEmpty(...),
+						),
+						$client->textUrl(
+							text : $client->textEmpty(...),
+							url : 'https://docs.liveproto.dev',
+							webpage_id : -3142755614851075263,
+						),
+						$client->textEmail(
+							text : $client->textEmpty(...),
+							email : 'reply@liveproto.dev',
+						),
+						$client->textConcat(
+							texts : array(
+								$client->textEmpty(...),
+								$client->textPlain(...),
+								$client->textBold(...),
+								$client->textItalic(...),
+								$client->textUnderline(...),
+								$client->textStrike(...),
+								$client->textFixed(...),
+								$client->textUrl(...),
+								$client->textEmail(...),
+								$client->textConcat(...),
+								$client->textSubscript(...),
+								$client->textSuperscript(...),
+								$client->textMarked(...),
+								$client->textPhone(...),
+								$client->textImage(...),
+								$client->textAnchor(...),
+							),
+						),
+						$client->textSubscript(
+							text : $client->textEmpty(...),
+						),
+						$client->textSuperscript(
+							text : $client->textEmpty(...),
+						),
+						$client->textMarked(
+							text : $client->textEmpty(...),
+						),
+						$client->textPhone(
+							text : $client->textEmpty(...),
+							phone : '+1234567890',
+						),
+						$client->textImage(
+							document_id : 7896773140096096739,
+							w : 38,
+							h : 49,
+						),
+						$client->textAnchor(
+							text : $client->textEmpty(...),
+							name : 'wYtqQDkrusoN64np',
+						),
 					),
 				),
 				$client->textSubscript(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 				),
 				$client->textSuperscript(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 				),
 				$client->textMarked(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 				),
 				$client->textPhone(
-					text : $client->textEmpty(...),
+					text : $client->textEmpty(),
 					phone : '+1234567890',
 				),
 				$client->textImage(
-					document_id : 7783509741192269562,
-					w : 25,
-					h : 28,
+					document_id : 1605807482901016843,
+					w : 43,
+					h : 63,
 				),
 				$client->textAnchor(
-					text : $client->textEmpty(...),
-					name : 'NBDfdIH5ZjWJgAcy',
+					text : $client->textEmpty(),
+					name : '4B7Fo6q8pTvnbKMa',
 				),
 			),
 		),
@@ -145,13 +199,13 @@ $richText = $client->textConcat(
 			phone : '+1234567890',
 		),
 		$client->textImage(
-			document_id : -2903047953866303281,
-			w : 63,
-			h : 86,
+			document_id : 7610789393361209639,
+			w : 26,
+			h : 81,
 		),
 		$client->textAnchor(
 			text : $client->textEmpty(),
-			name : 'UGz0JdeunDPO3N7h',
+			name : 'JsaCKVhWDYlIOpeA',
 		),
 	),
 );

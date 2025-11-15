@@ -2,7 +2,7 @@
 
 **Description** : *Represents a forwarded story or a story mention*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageMediaStory#68cb6283 flags:# via_mention:flags.1?true peer:Peer id:int story:flags.0?StoryItem = MessageMedia;
@@ -34,11 +34,11 @@ messageMediaStory#68cb6283 flags:# via_mention:flags.1?true peer:Peer id:int sto
 $messageMedia = $client->messageMediaStory(
 	via_mention : true,
 	peer : $client->peerUser(
-		user_id : 3713687414783718811,
+		user_id : 7717867357491140631,
 	),
-	id : 14,
+	id : 13,
 	story : $client->storyItemDeleted(
-		id : 79,
+		id : 59,
 	),
 );
 ```

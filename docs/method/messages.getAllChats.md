@@ -2,7 +2,7 @@
 
 **Description** : *Get all chats, channels and supergroups*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getAllChats#875f74be except_ids:Vector<long> = messages.Chats;
@@ -28,6 +28,6 @@ messages.getAllChats#875f74be except_ids:Vector<long> = messages.Chats;
 
 ```php
 $messagesChats = $client->messages->getAllChats(
-	except_ids : array(-5693849320756219786),
+	except_ids : array(3288291647392171280),
 );
 ```

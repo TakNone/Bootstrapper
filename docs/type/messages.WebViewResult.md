@@ -1,6 +1,6 @@
 # messages.WebViewResult
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.webViewResult#aadf159b result:BotInlineResult users:Vector<User> = messages.WebViewResult;

@@ -2,7 +2,7 @@
 
 **Description** : *A phone call*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageActionPhoneCall#80e11a7f flags:# video:flags.2?true call_id:long reason:flags.0?PhoneCallDiscardReason duration:flags.1?int = MessageAction;
@@ -33,8 +33,8 @@ messageActionPhoneCall#80e11a7f flags:# video:flags.2?true call_id:long reason:f
 ```php
 $messageAction = $client->messageActionPhoneCall(
 	video : true,
-	call_id : 3374058829852235806,
+	call_id : 3751535970304272611,
 	reason : $client->phoneCallDiscardReasonMissed(),
-	duration : 27,
+	duration : 58,
 );
 ```

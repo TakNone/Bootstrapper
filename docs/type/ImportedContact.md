@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on a successfully imported contact*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 importedContact#c13e3c50 user_id:long client_id:long = ImportedContact;

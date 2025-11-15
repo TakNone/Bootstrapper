@@ -2,7 +2,7 @@
 
 **Description** : *Get a set of suggested custom emoji stickers that can be used as group picture*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.getDefaultGroupPhotoEmojis#915860ae hash:long = EmojiList;

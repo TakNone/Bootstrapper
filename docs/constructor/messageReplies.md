@@ -2,7 +2,7 @@
 
 **Description** : *Info about the comment section of a channel post, a simple message thread, a forum topic, or a direct messages topic \(all features ultimately based on message threads\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageReplies#83d60fc2 flags:# comments:flags.0?true replies:int replies_pts:int recent_repliers:flags.1?Vector<Peer> channel_id:flags.0?long max_id:flags.2?int read_max_id:flags.3?int = MessageReplies;
@@ -36,21 +36,21 @@ messageReplies#83d60fc2 flags:# comments:flags.0?true replies:int replies_pts:in
 ```php
 $messageReplies = $client->messageReplies(
 	comments : true,
-	replies : 46,
-	replies_pts : 63,
+	replies : 41,
+	replies_pts : 86,
 	recent_repliers : array(
 		$client->peerUser(
-			user_id : -1179569284636256697,
+			user_id : 2512871958213943014,
 		),
 		$client->peerChat(
-			chat_id : 3681549037200731322,
+			chat_id : -8979930959705306235,
 		),
 		$client->peerChannel(
-			channel_id : 8775507476683065885,
+			channel_id : 2653981244087456858,
 		),
 	),
-	channel_id : -4913456954201017057,
-	max_id : 41,
-	read_max_id : 13,
+	channel_id : 4189845485506710494,
+	max_id : 58,
+	read_max_id : 7,
 );
 ```

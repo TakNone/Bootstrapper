@@ -2,7 +2,7 @@
 
 **Description** : *Mark or unmark a sticker as favorite*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.faveSticker#b9ffc55b id:InputDocument unfave:Bool = Bool;
@@ -38,6 +38,6 @@ messages.faveSticker#b9ffc55b id:InputDocument unfave:Bool = Bool;
 ```php
 $bool = $client->messages->faveSticker(
 	id : $client->inputDocumentEmpty(),
-	unfave : true,
+	unfave : false,
 );
 ```

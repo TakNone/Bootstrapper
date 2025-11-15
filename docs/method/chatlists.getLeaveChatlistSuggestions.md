@@ -2,7 +2,7 @@
 
 **Description** : *Returns identifiers of pinned or always included chats from a chat folder imported using a chat folder deep link &raquo;, which are suggested to be left when the chat folder is deleted*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 chatlists.getLeaveChatlistSuggestions#fdbcd714 chatlist:InputChatlist = Vector<Peer>;
@@ -38,7 +38,7 @@ chatlists.getLeaveChatlistSuggestions#fdbcd714 chatlist:InputChatlist = Vector<P
 ```php
 $peer = $client->chatlists->getLeaveChatlistSuggestions(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 25,
+		filter_id : 14,
 	),
 );
 ```

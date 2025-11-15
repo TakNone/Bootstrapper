@@ -2,7 +2,7 @@
 
 **Description** : *Contact list on the server is the same as the list on the client*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 contacts.contactsNotModified#b74ba9d2 = contacts.Contacts;

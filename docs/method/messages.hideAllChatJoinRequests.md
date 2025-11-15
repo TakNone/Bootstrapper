@@ -2,7 +2,7 @@
 
 **Description** : *Dismiss or approve all join requests related to a specific chat or channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.hideAllChatJoinRequests#e085f4ea flags:# approved:flags.0?true peer:InputPeer link:flags.1?string = Updates;
@@ -48,7 +48,7 @@ messages.hideAllChatJoinRequests#e085f4ea flags:# approved:flags.0?true peer:Inp
 ```php
 $updates = $client->messages->hideAllChatJoinRequests(
 	approved : true,
-	peer : $client->inputPeerEmpty(),
-	link : 'Q7Jen34jo8BcrwiX',
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	link : '5UBKDXW7LTFHo4gs',
 );
 ```

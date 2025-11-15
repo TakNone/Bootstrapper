@@ -2,7 +2,7 @@
 
 **Description** : *Returns timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.getTimezonesList#49b30240 hash:int = help.TimezonesList;

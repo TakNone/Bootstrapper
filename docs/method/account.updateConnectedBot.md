@@ -2,7 +2,7 @@
 
 **Description** : *Connect a business bot &raquo; to the current account, or to change the current connection settings*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.updateConnectedBot#66a08c7e flags:# deleted:flags.1?true rights:flags.0?BusinessBotRights bot:InputUser recipients:InputBusinessBotRecipients = Updates;
@@ -59,39 +59,15 @@ $updates = $client->account->updateConnectedBot(
 		transfer_stars : true,
 		manage_stories : true,
 	),
-	bot : $client->inputUserEmpty(),
+	bot : $client->get_input_user(peer : '@TakNone'),
 	recipients : $client->inputBusinessBotRecipients(
 		existing_chats : true,
 		new_chats : true,
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(
-			$client->inputUserEmpty(),
-			$client->inputUserSelf(),
-			$client->inputUser(
-				user_id : 1398018415368100131,
-				access_hash : -1869583314829642684,
-			),
-			$client->inputUserFromMessage(
-				peer : $client->inputPeerEmpty(...),
-				msg_id : 1,
-				user_id : -1244898284942013615,
-			),
-		),
-		exclude_users : array(
-			$client->inputUserEmpty(),
-			$client->inputUserSelf(),
-			$client->inputUser(
-				user_id : 3408670483989551860,
-				access_hash : -368068122769026817,
-			),
-			$client->inputUserFromMessage(
-				peer : $client->inputPeerEmpty(...),
-				msg_id : 35,
-				user_id : -8508438860974704713,
-			),
-		),
+		users : array($client->get_input_user(peer : '@TakNone')),
+		exclude_users : array($client->get_input_user(peer : '@TakNone')),
 	),
 );
 ```

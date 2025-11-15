@@ -2,7 +2,7 @@
 
 **Description** : *Global privacy settings*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 globalPrivacySettings#fe41b34f flags:# archive_and_mute_new_noncontact_peers:flags.0?true keep_archived_unmuted:flags.1?true keep_archived_folders:flags.2?true hide_read_marks:flags.3?true new_noncontact_peers_require_premium:flags.4?true display_gifts_button:flags.7?true noncontact_peers_paid_stars:flags.5?long disallowed_gifts:flags.6?DisallowedGiftsSettings = GlobalPrivacySettings;
@@ -42,12 +42,13 @@ $globalPrivacySettings = $client->globalPrivacySettings(
 	hide_read_marks : true,
 	new_noncontact_peers_require_premium : true,
 	display_gifts_button : true,
-	noncontact_peers_paid_stars : 4227930257631765025,
+	noncontact_peers_paid_stars : 4488474576909108346,
 	disallowed_gifts : $client->disallowedGiftsSettings(
 		disallow_unlimited_stargifts : true,
 		disallow_limited_stargifts : true,
 		disallow_unique_stargifts : true,
 		disallow_premium_gifts : true,
+		disallow_stargifts_from_channels : true,
 	),
 );
 ```

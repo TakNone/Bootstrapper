@@ -2,7 +2,7 @@
 
 **Description** : *Represents a message draft*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 draftMessage#96eaa5eb flags:# no_webpage:flags.1?true invert_media:flags.6?true reply_to:flags.4?InputReplyTo message:string entities:flags.3?Vector<MessageEntity> media:flags.5?InputMedia date:int effect:flags.7?long suggested_post:flags.8?SuggestedPost = DraftMessage;
@@ -40,210 +40,210 @@ $draftMessage = $client->draftMessage(
 	no_webpage : true,
 	invert_media : true,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 100,
-		top_msg_id : 16,
-		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : '3p1UE8vyKZinqQo9',
+		reply_to_msg_id : 14,
+		top_msg_id : 63,
+		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
+		quote_text : 'jF2c7Q4vdlwJZ913',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 48,
+				length : 65,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 49,
+				length : 9,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 81,
+				length : 98,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 11,
+				length : 93,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 0,
+				length : 50,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 55,
+				length : 71,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 94,
+				length : 25,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 67,
+				length : 39,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 88,
+				length : 13,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 51,
-				language : 'NOHTxoCacW02sGK7',
+				length : 41,
+				language : '4cjQ8OlRygKZxiD3',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 7,
+				length : 13,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 95,
-				user_id : 5369603752833812327,
+				length : 7,
+				user_id : -1332849303650468270,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 40,
-				user_id : $client->inputUserEmpty(...),
+				length : 78,
+				user_id : $client->get_input_user(peer : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 62,
+				length : 79,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 25,
+				length : 49,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 76,
+				length : 39,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 12,
+				length : 46,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 18,
+				length : 47,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 46,
+				length : 94,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 100,
-				document_id : 4350356845120235809,
+				length : 5,
+				document_id : -910347942613635388,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 94,
+				length : 47,
 			),
 		),
-		quote_offset : 86,
-		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 94,
+		quote_offset : 52,
+		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
+		todo_item_id : 62,
 	),
-	message : 'u4yPTwV5JEWafUiX',
+	message : 'fVxuCX04pLvQsihR',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 4,
+			length : 100,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 14,
+			length : 13,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 13,
+			length : 63,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 99,
+			length : 65,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 84,
+			length : 97,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 4,
+			length : 84,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 65,
+			length : 68,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 50,
+			length : 4,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 93,
+			length : 76,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 18,
-			language : 'VQNlP0EhIsTAUY4G',
+			length : 22,
+			language : '4WsPdTgIcyKiLZzY',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 57,
+			length : 27,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 33,
-			user_id : -5828545056802090868,
+			length : 80,
+			user_id : -1705214759957681357,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 43,
-			user_id : $client->inputUserEmpty(),
+			length : 5,
+			user_id : $client->get_input_user(peer : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 48,
+			length : 82,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 9,
+			length : 6,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 23,
+			length : 97,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 46,
+			length : 44,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 43,
+			length : 39,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 74,
+			length : 85,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 86,
-			document_id : -6311043696605172547,
+			length : 89,
+			document_id : 1828369315194869521,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 72,
+			length : 75,
 		),
 	),
-	media : $client->inputMediaEmpty(),
-	date : 23,
-	effect : -6620981506209081245,
+	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
+	date : 96,
+	effect : -4752755418897569362,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : -334291431752049236,
-			nanos : 50,
+			amount : -9012752248499661363,
+			nanos : 65,
 		),
-		schedule_date : 15,
+		schedule_date : 5,
 	),
 );
 ```

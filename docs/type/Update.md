@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on events occurred*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
@@ -91,7 +91,7 @@ updatePinnedMessages#ed85eab5 flags:# pinned:flags.0?true peer:Peer messages:Vec
 updatePinnedChannelMessages#5bb98608 flags:# pinned:flags.0?true channel_id:long messages:Vector<int> pts:int pts_count:int = Update;
 updateChat#f89a6a4e chat_id:long = Update;
 updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<GroupCallParticipant> version:int = Update;
-updateGroupCall#97d64341 flags:# chat_id:flags.0?long call:GroupCall = Update;
+updateGroupCall#9d2216e0 flags:# live_story:flags.2?true peer:flags.1?Peer call:GroupCall = Update;
 updatePeerHistoryTTL#bb9bb9a5 flags:# peer:Peer ttl_period:flags.0?int = Update;
 updateChatParticipant#d087663a flags:# chat_id:long date:int actor_id:long user_id:long prev_participant:flags.0?ChatParticipant new_participant:flags.1?ChatParticipant invite:flags.2?ExportedChatInvite qts:int = Update;
 updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:long date:int actor_id:long user_id:long prev_participant:flags.0?ChannelParticipant new_participant:flags.1?ChannelParticipant invite:flags.2?ExportedChatInvite qts:int = Update;
@@ -112,8 +112,6 @@ updateRecentEmojiStatuses#30f443db = Update;
 updateRecentReactions#6f7863f4 = Update;
 updateMoveStickerSetToTop#86fccf85 flags:# masks:flags.0?true emojis:flags.1?true stickerset:long = Update;
 updateMessageExtendedMedia#d5a41724 peer:Peer msg_id:int extended_media:Vector<MessageExtendedMedia> = Update;
-updateChannelPinnedTopic#192efbe3 flags:# pinned:flags.0?true channel_id:long topic_id:int = Update;
-updateChannelPinnedTopics#fe198602 flags:# channel_id:long order:flags.0?Vector<int> = Update;
 updateUser#20529438 user_id:long = Update;
 updateAutoSaveSettings#ec05b097 = Update;
 updateStory#75b3b798 peer:Peer story:StoryItem = Update;
@@ -150,12 +148,15 @@ updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:
 updateReadMonoForumInbox#77b0e372 channel_id:long saved_peer_id:Peer read_max_id:int = Update;
 updateReadMonoForumOutbox#a4a79376 channel_id:long saved_peer_id:Peer read_max_id:int = Update;
 updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_id:long saved_peer_id:Peer = Update;
-updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?int peer:Peer topic_id:int = Update;
-updateGroupCallMessage#78c314e0 call:InputGroupCall from_id:Peer random_id:long message:TextWithEntities = Update;
+updateGroupCallMessage#d8326f0d call:InputGroupCall message:GroupCallMessage = Update;
+updateGroupCallEncryptedMessage#c957a766 call:InputGroupCall from_id:Peer encrypted_message:bytes = Update;
+updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:int = Update;
+updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = Update;
+updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> = Update;
+updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Update;
 updateTranscribeAudio#88617090 flags:# final:flags.0?true transcription_id:long text:string = Update;
 updateBotSubscriptionExpire#a8ae3eb1 user_id:long payload:string until_date:int qts:int = Update;
-updateGroupCallEncryptedMessage#c957a766 call:InputGroupCall from_id:Peer encrypted_message:bytes = Update;
-updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = Update;
+updateStarGiftAuctionUserState#dc58f31e gift_id:long user_state:StarGiftAuctionUserState = Update;
 ```
 
 ---
@@ -271,8 +272,6 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 | [**updateRecentReactions**](constructor/updateRecentReactions) | The list of recent message reactions has changed |
 | [**updateMoveStickerSetToTop**](constructor/updateMoveStickerSetToTop) | A stickerset was just moved to top, see here for more info » |
 | [**updateMessageExtendedMedia**](constructor/updateMessageExtendedMedia) | You bought a paid media »: this update contains the revealed media |
-| [**updateChannelPinnedTopic**](constructor/updateChannelPinnedTopic) | A forum topic » was pinned or unpinned |
-| [**updateChannelPinnedTopics**](constructor/updateChannelPinnedTopics) | The pinned topics of a forum have changed |
 | [**updateUser**](constructor/updateUser) | User (user and/or userFull) information was updated.This update can only be received through getDifference or in updates/updatesCombined constructors, so it will always come bundled with the updated user, that should be applied as usual », without re-fetching the info manually.However, full peer information will not come bundled in updates, so the full peer cache (userFull) must be invalidated for user_id when receiving this update |
 | [**updateAutoSaveSettings**](constructor/updateAutoSaveSettings) | Media autosave settings have changed and must be refetched using account.getAutoSaveSettings |
 | [**updateStory**](constructor/updateStory) | A new story was posted |
@@ -309,9 +308,12 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 | [**updateReadMonoForumInbox**](constructor/updateReadMonoForumInbox) | Incoming messages in a monoforum topic were read |
 | [**updateReadMonoForumOutbox**](constructor/updateReadMonoForumOutbox) | Outgoing messages in a monoforum were read |
 | [**updateMonoForumNoPaidException**](constructor/updateMonoForumNoPaidException) | An admin has (un)exempted this monoforum topic » from payment to send messages using account.toggleNoPaidMessagesException |
-| [**updatePinnedForumTopic**](constructor/updatePinnedForumTopic) | NOTHING |
 | [**updateGroupCallMessage**](constructor/updateGroupCallMessage) | NOTHING |
+| [**updateGroupCallEncryptedMessage**](constructor/updateGroupCallEncryptedMessage) | NOTHING |
+| [**updatePinnedForumTopic**](constructor/updatePinnedForumTopic) | NOTHING |
+| [**updatePinnedForumTopics**](constructor/updatePinnedForumTopics) | NOTHING |
+| [**updateDeleteGroupCallMessages**](constructor/updateDeleteGroupCallMessages) | NOTHING |
+| [**updateStarGiftAuctionState**](constructor/updateStarGiftAuctionState) | NOTHING |
 | [**updateTranscribeAudio**](constructor/updateTranscribeAudio) | NOTHING |
 | [**updateBotSubscriptionExpire**](constructor/updateBotSubscriptionExpire) | NOTHING |
-| [**updateGroupCallEncryptedMessage**](constructor/updateGroupCallEncryptedMessage) | NOTHING |
-| [**updatePinnedForumTopics**](constructor/updatePinnedForumTopics) | NOTHING |
+| [**updateStarGiftAuctionUserState**](constructor/updateStarGiftAuctionUserState) | NOTHING |

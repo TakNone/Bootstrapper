@@ -2,7 +2,7 @@
 
 **Description** : *Export a folder &raquo;, creating a chat folder deep link &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 chatlists.exportChatlistInvite#8472478e chatlist:InputChatlist title:string peers:Vector<InputPeer> = chatlists.ExportedChatlistInvite;
@@ -46,33 +46,9 @@ chatlists.exportChatlistInvite#8472478e chatlist:InputChatlist title:string peer
 ```php
 $chatlistsExportedChatlistInvite = $client->chatlists->exportChatlistInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 45,
+		filter_id : 7,
 	),
-	title : '1SY4X8JKWZ5plVFv',
-	peers : array(
-		$client->inputPeerEmpty(),
-		$client->inputPeerSelf(),
-		$client->inputPeerChat(
-			chat_id : -2395922000893538722,
-		),
-		$client->inputPeerUser(
-			user_id : -6354649475792976399,
-			access_hash : -9067405289079676595,
-		),
-		$client->inputPeerChannel(
-			channel_id : -6323397542933714454,
-			access_hash : -7095879004123084837,
-		),
-		$client->inputPeerUserFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 90,
-			user_id : -5902638389539019812,
-		),
-		$client->inputPeerChannelFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 95,
-			channel_id : -1363783954692972175,
-		),
-	),
+	title : 'FrPmJVzi2Ly6DGn8',
+	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

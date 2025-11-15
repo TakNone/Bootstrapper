@@ -2,7 +2,7 @@
 
 **Description** : *Enable/disable message signatures in channels*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.toggleSignatures#418d549c flags:# signatures_enabled:flags.0?true profiles_enabled:flags.1?true channel:InputChannel = Updates;
@@ -44,6 +44,6 @@ channels.toggleSignatures#418d549c flags:# signatures_enabled:flags.0?true profi
 $updates = $client->channels->toggleSignatures(
 	signatures_enabled : true,
 	profiles_enabled : true,
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

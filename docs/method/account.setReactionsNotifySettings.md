@@ -2,7 +2,7 @@
 
 **Description** : *Change the reaction notification settings &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.setReactionsNotifySettings#316ce548 settings:ReactionsNotifySettings = ReactionsNotifySettings;

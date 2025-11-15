@@ -2,7 +2,7 @@
 
 **Description** : *An error occurred while generating the statistics graph*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 statsGraphError#bedc9822 error:string = StatsGraph;
@@ -28,6 +28,6 @@ statsGraphError#bedc9822 error:string = StatsGraph;
 
 ```php
 $statsGraph = $client->statsGraphError(
-	error : 'Oq1PNpMAGg3Zsuar',
+	error : '5I70GtesrhYCjmXv',
 );
 ```

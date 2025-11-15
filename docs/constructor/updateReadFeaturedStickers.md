@@ -2,7 +2,7 @@
 
 **Description** : *Some featured stickers were marked as read*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateReadFeaturedStickers#571d2742 = Update;

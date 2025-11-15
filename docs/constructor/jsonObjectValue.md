@@ -2,7 +2,7 @@
 
 **Description** : *JSON key: value pair*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 jsonObjectValue#c0de1bd9 key:string value:JSONValue = JSONObjectValue;
@@ -29,7 +29,7 @@ jsonObjectValue#c0de1bd9 key:string value:JSONValue = JSONObjectValue;
 
 ```php
 $jSONObjectValue = $client->jsonObjectValue(
-	key : 'XAdDu4C7r2SYR6yN',
+	key : 'AJwHh71IZ0aQOLF6',
 	value : $client->jsonNull(),
 );
 ```

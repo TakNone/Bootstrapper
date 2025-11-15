@@ -2,7 +2,7 @@
 
 **Description** : *Info about bots \(available bot commands, etc\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 botInfo#4d8a0299 flags:# has_preview_medias:flags.6?true user_id:flags.0?long description:flags.1?string description_photo:flags.4?Photo description_document:flags.5?Document commands:flags.2?Vector<BotCommand> menu_button:flags.3?BotMenuButton privacy_policy_url:flags.7?string app_settings:flags.8?BotAppSettings verifier_settings:flags.9?BotVerifierSettings = BotInfo;
@@ -39,34 +39,34 @@ botInfo#4d8a0299 flags:# has_preview_medias:flags.6?true user_id:flags.0?long de
 ```php
 $botInfo = $client->botInfo(
 	has_preview_medias : true,
-	user_id : 2809256952825508914,
-	description : 'ent7P2hEWTYCpzFG',
+	user_id : -2047605376872533164,
+	description : '8cFyiNhW1kt9QvCX',
 	description_photo : $client->photoEmpty(
-		id : 5083668825003126156,
+		id : 2743530993635814607,
 	),
 	description_document : $client->documentEmpty(
-		id : -4795521139217172232,
+		id : -8499530658588028847,
 	),
 	commands : array(
 		$client->botCommand(
-			command : 'zvZ1trh8AE5iS9yH',
-			description : 'fSgRj5luJXpk8I6s',
+			command : 'YUGQy8KCImHkVezc',
+			description : 'qNsBLkMaSgU1iy86',
 		),
 	),
 	menu_button : $client->botMenuButtonDefault(),
 	privacy_policy_url : 'https://docs.liveproto.dev',
 	app_settings : $client->botAppSettings(
 		placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		background_color : 37,
-		background_dark_color : 71,
-		header_color : 23,
-		header_dark_color : 70,
+		background_color : 84,
+		background_dark_color : 9,
+		header_color : 0,
+		header_dark_color : 42,
 	),
 	verifier_settings : $client->botVerifierSettings(
 		can_modify_custom_description : true,
-		icon : -1789917333432897846,
-		company : '1UNFIad92jh5DZY8',
-		custom_description : 'v4VZd2n5hENjuIw9',
+		icon : -5344006603990448521,
+		company : 'uZIrJaKpzAxbT2Ld',
+		custom_description : 'zwLkGiP6VUWH81ql',
 	),
 );
 ```

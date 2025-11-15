@@ -2,7 +2,7 @@
 
 **Description** : *Email verification status*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.emailVerified#2b96cd1b email:string = account.EmailVerified;

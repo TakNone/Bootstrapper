@@ -2,7 +2,7 @@
 
 **Description** : *Represents a Main Mini App preview media, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 botPreviewMedia#23e91ba3 date:int media:MessageMedia = BotPreviewMedia;
@@ -29,7 +29,7 @@ botPreviewMedia#23e91ba3 date:int media:MessageMedia = BotPreviewMedia;
 
 ```php
 $botPreviewMedia = $client->botPreviewMedia(
-	date : 57,
+	date : 17,
 	media : $client->messageMediaEmpty(),
 );
 ```

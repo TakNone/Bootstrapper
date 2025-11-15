@@ -2,7 +2,7 @@
 
 **Description** : *Result of an account\.resetPassword request*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.resetPasswordFailedWait#e3779861 retry_date:int = account.ResetPasswordResult;

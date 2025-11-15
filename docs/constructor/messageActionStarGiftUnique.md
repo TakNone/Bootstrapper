@@ -2,7 +2,7 @@
 
 **Description** : *A gift &raquo; was upgraded to a collectible gift &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageActionStarGiftUnique#95728543 flags:# upgrade:flags.0?true transferred:flags.1?true saved:flags.2?true refunded:flags.5?true prepaid_upgrade:flags.11?true assigned:flags.13?true gift:StarGift can_export_at:flags.3?int transfer_stars:flags.4?long from_id:flags.6?Peer peer:flags.7?Peer saved_id:flags.7?long resale_amount:flags.8?StarsAmount can_transfer_at:flags.9?int can_resell_at:flags.10?int drop_original_details_stars:flags.12?long = MessageAction;
@@ -58,42 +58,45 @@ $messageAction = $client->messageActionStarGiftUnique(
 		require_premium : true,
 		limited_per_user : true,
 		peer_color_available : true,
-		id : -2755680415493824451,
+		auction : true,
+		id : -765654525840410272,
 		sticker : $client->documentEmpty(
-			id : 411627290143659027,
+			id : -6510708767608680879,
 		),
-		stars : -9096787968697883645,
-		availability_remains : 3,
-		availability_total : 59,
-		availability_resale : -7956214908399227457,
-		convert_stars : 116310695347159496,
-		first_sale_date : 99,
-		last_sale_date : 0,
-		upgrade_stars : -7275883463992401301,
-		resell_min_stars : 1044043322406581000,
-		title : 'JWXph4SzPkwlrMTe',
+		stars : -8617145212586444301,
+		availability_remains : 59,
+		availability_total : 94,
+		availability_resale : -5421370888143646009,
+		convert_stars : -629536972796388410,
+		first_sale_date : 79,
+		last_sale_date : 89,
+		upgrade_stars : 616311480544577308,
+		resell_min_stars : -7086333237619916734,
+		title : 'eQn1cCXMHw6LRZ79',
 		released_by : $client->peerUser(
-			user_id : 3185309787262904202,
+			user_id : -1711947574198184053,
 		),
-		per_user_total : 32,
-		per_user_remains : 77,
-		locked_until_date : 41,
+		per_user_total : 64,
+		per_user_remains : 80,
+		locked_until_date : 61,
+		auction_slug : 'eZR3v4s7WfgX5x0y',
+		gifts_per_round : 66,
 	),
-	can_export_at : 89,
-	transfer_stars : 165493731935682650,
+	can_export_at : 46,
+	transfer_stars : -4837907361857621673,
 	from_id : $client->peerUser(
-		user_id : 4892663449168248004,
+		user_id : 5980740412974278217,
 	),
 	peer : $client->peerUser(
-		user_id : -8934573533373386446,
+		user_id : -2076160478396105972,
 	),
-	saved_id : 2637805566933367087,
+	saved_id : 6287325947937889883,
 	resale_amount : $client->starsAmount(
-		amount : 8283266978944932233,
-		nanos : 45,
+		amount : 1717162227685865910,
+		nanos : 38,
 	),
-	can_transfer_at : 62,
-	can_resell_at : 0,
-	drop_original_details_stars : 5325093750718438571,
+	can_transfer_at : 37,
+	can_resell_at : 26,
+	drop_original_details_stars : -1620520817838279381,
 );
 ```

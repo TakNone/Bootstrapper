@@ -2,7 +2,7 @@
 
 **Description** : *Edit the title of a group call or livestream*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phone.editGroupCallTitle#1ca6ac0a call:InputGroupCall title:string = Updates;
@@ -39,9 +39,9 @@ phone.editGroupCallTitle#1ca6ac0a call:InputGroupCall title:string = Updates;
 ```php
 $updates = $client->phone->editGroupCallTitle(
 	call : $client->inputGroupCall(
-		id : -6121655278271956838,
-		access_hash : 3020539818102842885,
+		id : -2856648967760235716,
+		access_hash : 6591802837435818308,
 	),
-	title : 'pMV2iP3ZUTDsfv45',
+	title : 'DPH8kxLntz3SsQo0',
 );
 ```

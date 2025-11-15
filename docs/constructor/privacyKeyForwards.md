@@ -2,7 +2,7 @@
 
 **Description** : *Whether messages forwarded from the user will be anonymously forwarded*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 privacyKeyForwards#69ec56a3 = PrivacyKey;

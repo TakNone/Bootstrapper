@@ -2,7 +2,7 @@
 
 **Description** : *Allow a user to send us messages without paying if paid messages &raquo; are enabled*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.toggleNoPaidMessagesException#fe2eda76 flags:# refund_charged:flags.0?true require_payment:flags.2?true parent_peer:flags.1?InputPeer user_id:InputUser = Bool;
@@ -44,7 +44,7 @@ account.toggleNoPaidMessagesException#fe2eda76 flags:# refund_charged:flags.0?tr
 $bool = $client->account->toggleNoPaidMessagesException(
 	refund_charged : true,
 	require_payment : true,
-	parent_peer : $client->inputPeerEmpty(),
-	user_id : $client->inputUserEmpty(),
+	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

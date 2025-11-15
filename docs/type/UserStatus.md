@@ -2,7 +2,7 @@
 
 **Description** : *User online status*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 userStatusEmpty#9d05049 = UserStatus;

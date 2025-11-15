@@ -2,7 +2,7 @@
 
 **Description** : *Change the chat theme of a certain chat, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.setChatTheme#81202c9 peer:InputPeer theme:InputChatTheme = Updates;
@@ -39,7 +39,7 @@ messages.setChatTheme#81202c9 peer:InputPeer theme:InputChatTheme = Updates;
 
 ```php
 $updates = $client->messages->setChatTheme(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	theme : $client->inputChatThemeEmpty(),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Story view date and reaction information*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 storyView#b0bdeac5 flags:# blocked:flags.0?true blocked_my_stories_from:flags.1?true user_id:long date:int reaction:flags.2?Reaction = StoryView;
@@ -35,8 +35,8 @@ storyView#b0bdeac5 flags:# blocked:flags.0?true blocked_my_stories_from:flags.1?
 $storyView = $client->storyView(
 	blocked : true,
 	blocked_my_stories_from : true,
-	user_id : -4071078723050491249,
-	date : 14,
+	user_id : 7970389954844040881,
+	date : 41,
 	reaction : $client->reactionEmpty(),
 );
 ```

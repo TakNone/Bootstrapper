@@ -2,7 +2,7 @@
 
 **Description** : *Returns the list of user photos*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 photos.getUserPhotos#91cd32a8 user_id:InputUser offset:int max_id:long limit:int = photos.Photos;
@@ -41,9 +41,9 @@ photos.getUserPhotos#91cd32a8 user_id:InputUser offset:int max_id:long limit:int
 
 ```php
 $photosPhotos = $client->photos->getUserPhotos(
-	user_id : $client->inputUserEmpty(),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 	offset : 0,
-	max_id : -1492954378397393851,
-	limit : 94,
+	max_id : 7553777769902211360,
+	limit : 3,
 );
 ```

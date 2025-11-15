@@ -2,7 +2,7 @@
 
 **Description** : *The chat theme was changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionChangeTheme#fe69018d prev_value:string new_value:string = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeTheme#fe69018d prev_value:string new_value:strin
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeTheme(
-	prev_value : 'fHMmbnX5pwKRaqeB',
-	new_value : 'MgmvUFGOQeq6KjZY',
+	prev_value : 'pnYgaOVdmUx03ZkP',
+	new_value : 'V6yLQ2bGmxAgzclk',
 );
 ```

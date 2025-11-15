@@ -2,7 +2,7 @@
 
 **Description** : *Plain text*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 textPlain#744694e0 text:string = RichText;
@@ -28,6 +28,6 @@ textPlain#744694e0 text:string = RichText;
 
 ```php
 $richText = $client->textPlain(
-	text : '18oMJ6LKfNSxdBFk',
+	text : 'RYCzak85ZDN9spFj',
 );
 ```

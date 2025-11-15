@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a bot business connection*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 botBusinessConnection#8f34b2f5 flags:# disabled:flags.1?true connection_id:string user_id:long dc_id:int date:int rights:flags.2?BusinessBotRights = BotBusinessConnection;
@@ -35,10 +35,10 @@ botBusinessConnection#8f34b2f5 flags:# disabled:flags.1?true connection_id:strin
 ```php
 $botBusinessConnection = $client->botBusinessConnection(
 	disabled : true,
-	connection_id : 'Vu8LADxCfPm2JceW',
-	user_id : 3124822932755182753,
-	dc_id : 91,
-	date : 96,
+	connection_id : 'k61vPXdNnaOU2Cri',
+	user_id : 65029187925937908,
+	dc_id : 43,
+	date : 7,
 	rights : $client->businessBotRights(
 		reply : true,
 		read_messages : true,

@@ -2,7 +2,7 @@
 
 **Description** : *Returns extended user info by ID*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 users.getFullUser#b60f5918 id:InputUser = users.UserFull;
@@ -40,6 +40,6 @@ users.getFullUser#b60f5918 id:InputUser = users.UserFull;
 
 ```php
 $usersUserFull = $client->users->getFullUser(
-	id : $client->inputUserEmpty(),
+	id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

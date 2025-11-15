@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of similarly themed bots, selected based on similarities in their subscriber bases, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.getBotRecommendations#a1b70815 bot:InputUser = users.Users;
@@ -36,6 +36,6 @@ bots.getBotRecommendations#a1b70815 bot:InputUser = users.Users;
 
 ```php
 $usersUsers = $client->bots->getBotRecommendations(
-	bot : $client->inputUserEmpty(),
+	bot : $client->get_input_user(peer : '@TakNone'),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Hide/unhide message history for new channel/supergroup users*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.togglePreHistoryHidden#eabbb94c channel:InputChannel enabled:Bool = Updates;
@@ -43,7 +43,7 @@ channels.togglePreHistoryHidden#eabbb94c channel:InputChannel enabled:Bool = Upd
 
 ```php
 $updates = $client->channels->togglePreHistoryHidden(
-	channel : $client->inputChannelEmpty(),
-	enabled : false,
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	enabled : true,
 );
 ```

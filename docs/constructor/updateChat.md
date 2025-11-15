@@ -2,7 +2,7 @@
 
 **Description** : *Chat \(chat and/or chatFull\) information was updated*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateChat#f89a6a4e chat_id:long = Update;
@@ -28,6 +28,6 @@ updateChat#f89a6a4e chat_id:long = Update;
 
 ```php
 $update = $client->updateChat(
-	chat_id : -5912395971091933086,
+	chat_id : -9056610000392806565,
 );
 ```

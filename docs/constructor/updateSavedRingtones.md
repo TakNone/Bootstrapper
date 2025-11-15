@@ -2,7 +2,7 @@
 
 **Description** : *The list of saved notification sounds has changed, use account\.getSavedRingtones to fetch the new list*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateSavedRingtones#74d8be99 = Update;

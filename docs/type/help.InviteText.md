@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on the text of a message with an invitation*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.inviteText#18cb9f78 message:string = help.InviteText;

@@ -2,7 +2,7 @@
 
 **Description** : *Sends a message with a file attachment to a secret chat*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.sendEncryptedFile#5559481d flags:# silent:flags.0?true peer:InputEncryptedChat random_id:long data:bytes file:InputEncryptedFile = messages.SentEncryptedMessage;
@@ -48,10 +48,10 @@ messages.sendEncryptedFile#5559481d flags:# silent:flags.0?true peer:InputEncryp
 $messagesSentEncryptedMessage = $client->messages->sendEncryptedFile(
 	silent : true,
 	peer : $client->inputEncryptedChat(
-		chat_id : 68,
-		access_hash : -8324414972587463047,
+		chat_id : 65,
+		access_hash : -7529261247185631216,
 	),
-	random_id : -8611845335783739242,
+	random_id : 5871803665291148426,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	file : $client->inputEncryptedFileEmpty(),
 );

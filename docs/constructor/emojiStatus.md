@@ -2,7 +2,7 @@
 
 **Description** : *An emoji status*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 emojiStatus#e7ff068a flags:# document_id:long until:flags.0?int = EmojiStatus;
@@ -30,7 +30,7 @@ emojiStatus#e7ff068a flags:# document_id:long until:flags.0?int = EmojiStatus;
 
 ```php
 $emojiStatus = $client->emojiStatus(
-	document_id : -7721346403799944856,
-	until : 26,
+	document_id : 7505711348264961781,
+	until : 52,
 );
 ```

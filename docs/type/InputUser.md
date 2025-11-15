@@ -2,7 +2,7 @@
 
 **Description** : *Defines a user for subsequent interaction*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputUserEmpty#b98886cf = InputUser;

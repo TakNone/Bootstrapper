@@ -2,7 +2,7 @@
 
 **Description** : *A report option for a sponsored message &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 sponsoredMessageReportOption#430d3150 text:string option:bytes = SponsoredMessageReportOption;

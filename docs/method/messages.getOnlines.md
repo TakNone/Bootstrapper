@@ -2,7 +2,7 @@
 
 **Description** : *Get count of online users in a chat*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getOnlines#6e2be050 peer:InputPeer = ChatOnlines;
@@ -38,6 +38,6 @@ messages.getOnlines#6e2be050 peer:InputPeer = ChatOnlines;
 
 ```php
 $chatOnlines = $client->messages->getOnlines(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

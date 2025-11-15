@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a peer that can be used to send messages*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 sendAsPeer#b81c7034 flags:# premium_required:flags.0?true peer:Peer = SendAsPeer;
@@ -32,7 +32,7 @@ sendAsPeer#b81c7034 flags:# premium_required:flags.0?true peer:Peer = SendAsPeer
 $sendAsPeer = $client->sendAsPeer(
 	premium_required : true,
 	peer : $client->peerUser(
-		user_id : 4304484374173932156,
+		user_id : -4529446365250808429,
 	),
 );
 ```

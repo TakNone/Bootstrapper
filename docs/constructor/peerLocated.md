@@ -2,7 +2,7 @@
 
 **Description** : *Peer geolocated nearby*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 peerLocated#ca461b5d peer:Peer expires:int distance:int = PeerLocated;
@@ -31,9 +31,9 @@ peerLocated#ca461b5d peer:Peer expires:int distance:int = PeerLocated;
 ```php
 $peerLocated = $client->peerLocated(
 	peer : $client->peerUser(
-		user_id : 7982270472414610256,
+		user_id : 995255977503704715,
 	),
-	expires : 10,
-	distance : 93,
+	expires : 65,
+	distance : 83,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Toggle autotranslation in a channel, for all users: see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.toggleAutotranslation#167fc0a1 channel:InputChannel enabled:Bool = Updates;
@@ -37,7 +37,7 @@ channels.toggleAutotranslation#167fc0a1 channel:InputChannel enabled:Bool = Upda
 
 ```php
 $updates = $client->channels->toggleAutotranslation(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	enabled : false,
 );
 ```

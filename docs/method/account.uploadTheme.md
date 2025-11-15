@@ -2,7 +2,7 @@
 
 **Description** : *Upload theme*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.uploadTheme#1c3db333 flags:# file:InputFile thumb:flags.0?InputFile file_name:string mime_type:string = Document;
@@ -41,19 +41,9 @@ account.uploadTheme#1c3db333 flags:# file:InputFile thumb:flags.0?InputFile file
 
 ```php
 $document = $client->account->uploadTheme(
-	file : $client->inputFile(
-		id : -6546269921447489526,
-		parts : 69,
-		name : '128qy3vKDowQJfn5',
-		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-	),
-	thumb : $client->inputFile(
-		id : -4239956238302692832,
-		parts : 66,
-		name : 'zxWpJ2TrFSlQaDdH',
-		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-	),
-	file_name : '7c8F1NGV2JgiHRlE',
-	mime_type : 'EWqzxiRbThpkc16K',
+	file : $client->upload_file(path : 'file.png'),
+	thumb : $client->upload_file(path : 'file.png'),
+	file_name : 'T3HLpk0IqDFtnilw',
+	mime_type : 'wHuaKlRmA2f1VBhF',
 );
 ```

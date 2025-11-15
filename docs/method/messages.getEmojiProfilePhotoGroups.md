@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of emoji categories, to be used when selecting custom emojis to set as profile picture*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getEmojiProfilePhotoGroups#21a548f3 hash:int = messages.EmojiGroups;

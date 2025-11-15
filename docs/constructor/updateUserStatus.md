@@ -2,7 +2,7 @@
 
 **Description** : *Contact status update*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateUserStatus#e5bdf8de user_id:long status:UserStatus = Update;
@@ -29,7 +29,7 @@ updateUserStatus#e5bdf8de user_id:long status:UserStatus = Update;
 
 ```php
 $update = $client->updateUserStatus(
-	user_id : -8907467747581095548,
+	user_id : 7824934442987047171,
 	status : $client->userStatusEmpty(),
 );
 ```

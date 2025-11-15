@@ -2,7 +2,7 @@
 
 **Description** : *The manual unread mark of a chat was changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateDialogUnreadMark#b658f23e flags:# unread:flags.0?true peer:DialogPeer saved_peer_id:flags.1?Peer = Update;
@@ -34,11 +34,11 @@ $update = $client->updateDialogUnreadMark(
 	unread : true,
 	peer : $client->dialogPeer(
 		peer : $client->peerUser(
-			user_id : 6646219784114827722,
+			user_id : 3703329726727333177,
 		),
 	),
 	saved_peer_id : $client->peerUser(
-		user_id : 2637745593150140844,
+		user_id : 788226767692917263,
 	),
 );
 ```

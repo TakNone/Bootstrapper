@@ -2,7 +2,7 @@
 
 **Description** : *Photo*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 photo#fb197a65 flags:# has_stickers:flags.0?true id:long access_hash:long file_reference:bytes date:int sizes:Vector<PhotoSize> video_sizes:flags.1?Vector<VideoSize> dc_id:int = Photo;
@@ -37,59 +37,59 @@ photo#fb197a65 flags:# has_stickers:flags.0?true id:long access_hash:long file_r
 ```php
 $photo = $client->photo(
 	has_stickers : true,
-	id : 4730579409501838065,
-	access_hash : 8964329083355666555,
+	id : 8204345990589712371,
+	access_hash : -3493709282900354358,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	date : 1,
+	date : 54,
 	sizes : array(
 		$client->photoSizeEmpty(
-			type : 'o0mpYXZV3CWw28ar',
+			type : 'F46qS97NEX2io18a',
 		),
 		$client->photoSize(
-			type : '67rpXnGV4zgylkJh',
-			w : 97,
-			h : 90,
-			size : 60,
+			type : 'r46wIiRdj8EMHZST',
+			w : 87,
+			h : 95,
+			size : 77,
 		),
 		$client->photoCachedSize(
-			type : 'K7n1rcuUBkFZiYqg',
-			w : 70,
-			h : 97,
+			type : 'kmCTPpJxlVeq0BQK',
+			w : 98,
+			h : 33,
 			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->photoStrippedSize(
-			type : 'CpRxfm5BXzM4yKeD',
+			type : '3Kik7gdMVBzj5mPZ',
 			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->photoSizeProgressive(
-			type : 'WHezCmTEAxyPgnXw',
-			w : 24,
-			h : 26,
-			sizes : array(28),
+			type : 'Opf0l7BJhbdrtRGQ',
+			w : 96,
+			h : 78,
+			sizes : array(55),
 		),
 		$client->photoPathSize(
-			type : 'dvGMygtAN6r2aReo',
+			type : 'h3MZL4bDxVnd8BYa',
 			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	video_sizes : array(
 		$client->videoSize(
-			type : '19w5FYjL8PkTMSO2',
-			w : 28,
-			h : 76,
-			size : 49,
-			video_start_ts : -457616.7177734375,
+			type : 'uCBLsexVqTnrXt89',
+			w : 38,
+			h : 37,
+			size : 38,
+			video_start_ts : 1401473.80078125,
 		),
 		$client->videoSizeEmojiMarkup(
-			emoji_id : 2132467228010206970,
-			background_colors : array(69),
+			emoji_id : -836088700640104039,
+			background_colors : array(12),
 		),
 		$client->videoSizeStickerMarkup(
 			stickerset : $client->inputStickerSetEmpty(),
-			sticker_id : -6409495573659175339,
-			background_colors : array(68),
+			sticker_id : 1269169416590942610,
+			background_colors : array(58),
 		),
 	),
-	dc_id : 2,
+	dc_id : 80,
 );
 ```

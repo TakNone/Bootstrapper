@@ -2,7 +2,7 @@
 
 **Description** : *Edit a chat folder deep link &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 chatlists.editExportedInvite#653db63d flags:# revoked:flags.0?true chatlist:InputChatlist slug:string title:flags.1?string peers:flags.2?Vector<InputPeer> = ExportedChatlistInvite;
@@ -48,34 +48,10 @@ chatlists.editExportedInvite#653db63d flags:# revoked:flags.0?true chatlist:Inpu
 $exportedChatlistInvite = $client->chatlists->editExportedInvite(
 	revoked : true,
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 58,
+		filter_id : 86,
 	),
-	slug : 'VpIJTUweRZjh9Pvd',
-	title : 'LA8mGDIYgw3Oiz7T',
-	peers : array(
-		$client->inputPeerEmpty(),
-		$client->inputPeerSelf(),
-		$client->inputPeerChat(
-			chat_id : 5702184688630564808,
-		),
-		$client->inputPeerUser(
-			user_id : -715746219032080406,
-			access_hash : -3406277256554986928,
-		),
-		$client->inputPeerChannel(
-			channel_id : -3561861977327838290,
-			access_hash : 4649995373899264207,
-		),
-		$client->inputPeerUserFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 49,
-			user_id : 8975403310794845653,
-		),
-		$client->inputPeerChannelFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 85,
-			channel_id : 7684166522024314964,
-		),
-	),
+	slug : 'QYpUj7T9a58c4d6w',
+	title : 'FjwlP4rLYkpMHWvQ',
+	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

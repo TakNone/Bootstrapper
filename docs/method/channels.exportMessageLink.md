@@ -2,7 +2,7 @@
 
 **Description** : *Get link and embed info of a message in a channel/supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.exportMessageLink#e63fadeb flags:# grouped:flags.0?true thread:flags.1?true channel:InputChannel id:int = ExportedMessageLink;
@@ -45,7 +45,7 @@ channels.exportMessageLink#e63fadeb flags:# grouped:flags.0?true thread:flags.1?
 $exportedMessageLink = $client->channels->exportMessageLink(
 	grouped : true,
 	thread : true,
-	channel : $client->inputChannelEmpty(),
-	id : 51,
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	id : 34,
 );
 ```

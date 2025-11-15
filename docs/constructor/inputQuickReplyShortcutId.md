@@ -2,7 +2,7 @@
 
 **Description** : *Selects a quick reply shortcut by its numeric ID*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputQuickReplyShortcutId#1190cf1 shortcut_id:int = InputQuickReplyShortcut;
@@ -28,6 +28,6 @@ inputQuickReplyShortcutId#1190cf1 shortcut_id:int = InputQuickReplyShortcut;
 
 ```php
 $inputQuickReplyShortcut = $client->inputQuickReplyShortcutId(
-	shortcut_id : 65,
+	shortcut_id : 37,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Credit card info, provided by the card&#039;s bank\(s\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.bankCardData#3e24e573 title:string open_urls:Vector<BankCardOpenUrl> = payments.BankCardData;
@@ -29,11 +29,11 @@ payments.bankCardData#3e24e573 title:string open_urls:Vector<BankCardOpenUrl> = 
 
 ```php
 $paymentsBankCardData = $client->payments->bankCardData(
-	title : 'xj0eX96cYplfhG5q',
+	title : 'z1wxhU9ylqvsrWT3',
 	open_urls : array(
 		$client->bankCardOpenUrl(
 			url : 'https://docs.liveproto.dev',
-			name : 'gOaIA5Zxi9JNkDjc',
+			name : '7SMoqHtlr3AwpN6B',
 		),
 	),
 );

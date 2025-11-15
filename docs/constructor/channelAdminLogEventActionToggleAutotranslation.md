@@ -2,7 +2,7 @@
 
 **Description** : *Channel autotranslation was toggled &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionToggleAutotranslation#c517f77e new_value:Bool = ChannelAdminLogEventAction;
@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleAutotranslation#c517f77e new_value:Bool = Channe
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleAutotranslation(
-	new_value : false,
+	new_value : true,
 );
 ```

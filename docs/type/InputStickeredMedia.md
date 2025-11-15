@@ -2,7 +2,7 @@
 
 **Description** : *Represents a media with attached stickers*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputStickeredMediaPhoto#4a992157 id:InputPhoto = InputStickeredMedia;

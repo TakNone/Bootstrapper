@@ -2,7 +2,7 @@
 
 **Description** : *Represents a message draft*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 draftMessageEmpty#1b0c841a flags:# date:flags.0?int = DraftMessage;

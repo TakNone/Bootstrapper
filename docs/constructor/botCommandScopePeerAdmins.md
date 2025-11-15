@@ -2,7 +2,7 @@
 
 **Description** : *The specified bot commands will be valid for all admins of the specified group or supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 botCommandScopePeerAdmins#3fd863d1 peer:InputPeer = BotCommandScope;
@@ -28,6 +28,6 @@ botCommandScopePeerAdmins#3fd863d1 peer:InputPeer = BotCommandScope;
 
 ```php
 $botCommandScope = $client->botCommandScopePeerAdmins(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

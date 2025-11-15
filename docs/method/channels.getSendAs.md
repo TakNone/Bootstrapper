@@ -2,10 +2,10 @@
 
 **Description** : *Obtains a list of peers that can be used to send messages in a specific group*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-channels.getSendAs#e785a43f flags:# for_paid_reactions:flags.0?true peer:InputPeer = channels.SendAsPeers;
+channels.getSendAs#e785a43f flags:# for_paid_reactions:flags.0?true for_live_stories:flags.1?true peer:InputPeer = channels.SendAsPeers;
 ```
 
 ---
@@ -16,6 +16,7 @@ channels.getSendAs#e785a43f flags:# for_paid_reactions:flags.0?true peer:InputPe
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **for_paid_reactions** | [`flags.0?true`](type/true) | If set, fetches the list of peers that can be used to send paid reactions to messages of a specific peer |
+| **for_live_stories** | [`flags.1?true`](type/true) | NOTHING |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The group where we intend to send messages |
 
 ---
@@ -42,6 +43,7 @@ channels.getSendAs#e785a43f flags:# for_paid_reactions:flags.0?true peer:InputPe
 ```php
 $channelsSendAsPeers = $client->channels->getSendAs(
 	for_paid_reactions : true,
-	peer : $client->inputPeerEmpty(),
+	for_live_stories : true,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

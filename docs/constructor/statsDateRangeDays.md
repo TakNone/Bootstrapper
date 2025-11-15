@@ -2,7 +2,7 @@
 
 **Description** : *Channel statistics date range*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 statsDateRangeDays#b637edaf min_date:int max_date:int = StatsDateRangeDays;
@@ -29,7 +29,7 @@ statsDateRangeDays#b637edaf min_date:int max_date:int = StatsDateRangeDays;
 
 ```php
 $statsDateRangeDays = $client->statsDateRangeDays(
-	min_date : 9,
-	max_date : 75,
+	min_date : 16,
+	max_date : 86,
 );
 ```

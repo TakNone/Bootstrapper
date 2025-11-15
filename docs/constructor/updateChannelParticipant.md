@@ -2,7 +2,7 @@
 
 **Description** : *A participant has left, joined, was banned or admined in a channel or supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:long date:int actor_id:long user_id:long prev_participant:flags.0?ChannelParticipant new_participant:flags.1?ChannelParticipant invite:flags.2?ExportedChatInvite qts:int = Update;
@@ -38,39 +38,39 @@ updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:l
 ```php
 $update = $client->updateChannelParticipant(
 	via_chatlist : true,
-	channel_id : -6280194248584674675,
-	date : 95,
-	actor_id : 4693528549002649386,
-	user_id : 6288925830615902703,
+	channel_id : -952905862037164724,
+	date : 31,
+	actor_id : 4147996203394563684,
+	user_id : 3658078213978500244,
 	prev_participant : $client->channelParticipant(
-		user_id : -206156668069917811,
-		date : 14,
-		subscription_until_date : 42,
+		user_id : 4145992964683050750,
+		date : 94,
+		subscription_until_date : 5,
 	),
 	new_participant : $client->channelParticipant(
-		user_id : -8722382206839194802,
-		date : 37,
-		subscription_until_date : 23,
+		user_id : 1696578752676719356,
+		date : 19,
+		subscription_until_date : 68,
 	),
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'AdB6Rbe3M15IOTN0',
-		admin_id : -1402468923097696632,
-		date : 59,
-		start_date : 78,
-		expire_date : 52,
-		usage_limit : 64,
-		usage : 2,
-		requested : 44,
-		subscription_expired : 97,
-		title : 'naDWdwoPhHK1GQ4O',
+		link : 'LpAxg1OuoZ2I4vlB',
+		admin_id : 6558073144934481014,
+		date : 77,
+		start_date : 24,
+		expire_date : 69,
+		usage_limit : 88,
+		usage : 90,
+		requested : 97,
+		subscription_expired : 19,
+		title : '2Di3bBR7QaLHzEs4',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 43,
-			amount : 9053474308711839081,
+			period : 47,
+			amount : 8737058043304381050,
 		),
 	),
-	qts : 48,
+	qts : 63,
 );
 ```

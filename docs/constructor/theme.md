@@ -2,7 +2,7 @@
 
 **Description** : *Theme*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 theme#a00e67d6 flags:# creator:flags.0?true default:flags.1?true for_chat:flags.5?true id:long access_hash:long slug:string title:string document:flags.2?Document settings:flags.3?Vector<ThemeSettings> emoticon:flags.6?string installs_count:flags.4?int = Theme;
@@ -42,34 +42,46 @@ $theme = $client->theme(
 	creator : true,
 	default : true,
 	for_chat : true,
-	id : 9083206655837236241,
-	access_hash : 2092063601066628880,
-	slug : 'sPhkapY1irFV6Igw',
-	title : 'xhatLTwmNYf7b30v',
+	id : 5301846302103861496,
+	access_hash : -4804372902623935623,
+	slug : 'shJolYWrkz5aGXub',
+	title : '0BArTNDbMaYStxRo',
 	document : $client->documentEmpty(
-		id : 3382250607396257483,
+		id : -4974249995424558517,
 	),
 	settings : array(
 		$client->themeSettings(
 			message_colors_animated : true,
 			base_theme : $client->baseThemeClassic(),
-			accent_color : 3,
-			outbox_accent_color : 2,
-			message_colors : array(68),
+			accent_color : 29,
+			outbox_accent_color : 67,
+			message_colors : array(13),
 			wallpaper : $client->wallPaper(
-				id : 1081793869732682314,
+				id : -6693638374395134410,
 				creator : true,
 				default : true,
 				pattern : true,
 				dark : true,
-				access_hash : -2305044613083481887,
-				slug : 'VJMeT0sdEHUYWzPZ',
-				document : $client->documentEmpty(...),
-				settings : $client->wallPaperSettings(...),
+				access_hash : -1734887403430828100,
+				slug : 'bXncSq6N5upKykZC',
+				document : $client->documentEmpty(
+					id : -7731412614387776314,
+				),
+				settings : $client->wallPaperSettings(
+					blur : true,
+					motion : true,
+					background_color : 83,
+					second_background_color : 71,
+					third_background_color : 29,
+					fourth_background_color : 97,
+					intensity : 69,
+					rotation : 32,
+					emoticon : 'aKpbI6YF3jXCeRQJ',
+				),
 			),
 		),
 	),
-	emoticon : 'bEkudUHZ4SrqT7BV',
-	installs_count : 44,
+	emoticon : 'JjEKxlN3IVGwt8P9',
+	installs_count : 76,
 );
 ```

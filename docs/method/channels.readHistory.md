@@ -2,7 +2,7 @@
 
 **Description** : *Mark channel/supergroup history as read*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.readHistory#cc104937 channel:InputChannel max_id:int = Bool;
@@ -39,7 +39,7 @@ channels.readHistory#cc104937 channel:InputChannel max_id:int = Bool;
 
 ```php
 $bool = $client->channels->readHistory(
-	channel : $client->inputChannelEmpty(),
-	max_id : 49,
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	max_id : 83,
 );
 ```

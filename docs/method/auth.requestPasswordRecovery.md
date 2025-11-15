@@ -2,7 +2,7 @@
 
 **Description** : *Request recovery code of a 2FA password, only for accounts with a recovery email configured*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 auth.requestPasswordRecovery#d897bc66 = auth.PasswordRecovery;

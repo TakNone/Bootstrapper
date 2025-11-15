@@ -2,7 +2,7 @@
 
 **Description** : *Allow the specified bot to send us messages*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.allowSendMessage#f132e3ef bot:InputUser = Updates;
@@ -36,6 +36,6 @@ bots.allowSendMessage#f132e3ef bot:InputUser = Updates;
 
 ```php
 $updates = $client->bots->allowSendMessage(
-	bot : $client->inputUserEmpty(),
+	bot : $client->get_input_user(peer : '@TakNone'),
 );
 ```

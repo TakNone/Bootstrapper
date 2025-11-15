@@ -2,7 +2,7 @@
 
 **Description** : *Incomplete list of photos with auxiliary data*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 photos.photosSlice#15051f54 count:int photos:Vector<Photo> users:Vector<User> = photos.Photos;
@@ -30,72 +30,72 @@ photos.photosSlice#15051f54 count:int photos:Vector<Photo> users:Vector<User> = 
 
 ```php
 $photosPhotos = $client->photos->photosSlice(
-	count : 38,
+	count : 93,
 	photos : array(
 		$client->photoEmpty(
-			id : 3788744404946200865,
+			id : 18002794368745061,
 		),
 		$client->photo(
 			has_stickers : true,
-			id : -866787379499672390,
-			access_hash : -8162738638851926021,
+			id : -4662779368172491838,
+			access_hash : 4973945055865840072,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			date : 88,
+			date : 95,
 			sizes : array(
 				$client->photoSizeEmpty(
-					type : 'UR2hAdQVqz1N0rWx',
+					type : 'M9ZBNRrl50s6OuqD',
 				),
 				$client->photoSize(
-					type : '2GmYZbz10O4loLtq',
-					w : 75,
-					h : 24,
-					size : 41,
+					type : 'ZiOwU8uEV0dBD7Lp',
+					w : 83,
+					h : 8,
+					size : 92,
 				),
 				$client->photoCachedSize(
-					type : 'TZg6dp70WDKkjySe',
-					w : 61,
-					h : 55,
+					type : 'BMw5ZEL0XKIHlriP',
+					w : 67,
+					h : 13,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'qR6WmQo2VOywd9kb',
+					type : 'VlhZSYbpKg4P7zJo',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'OnNVehYd62wP8LBm',
-					w : 6,
-					h : 23,
-					sizes : array(45),
+					type : 'P9p5m0BaGt1JXUcT',
+					w : 27,
+					h : 53,
+					sizes : array(43),
 				),
 				$client->photoPathSize(
-					type : 'Wlrcgah3HDmZqC2N',
+					type : 'Y0fitc8wupGvshld',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_sizes : array(
 				$client->videoSize(
-					type : 'CgOwNiBt598e2mUc',
-					w : 48,
-					h : 3,
-					size : 28,
-					video_start_ts : -1081457.85546875,
+					type : 'VnsgDObW8kx63jeX',
+					w : 38,
+					h : 90,
+					size : 74,
+					video_start_ts : 1173848.04296875,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : -8865492203898662029,
-					background_colors : array(99),
+					emoji_id : 782821414070190378,
+					background_colors : array(39),
 				),
 				$client->videoSizeStickerMarkup(
-					stickerset : $client->inputStickerSetEmpty(...),
-					sticker_id : -7773334514226561395,
-					background_colors : array(42),
+					stickerset : $client->inputStickerSetEmpty(),
+					sticker_id : 5485702983148023992,
+					background_colors : array(62),
 				),
 			),
-			dc_id : 31,
+			dc_id : 13,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -2117980214565858366,
+			id : 981758223920555463,
 		),
 		$client->user(
 			self : true,
@@ -124,24 +124,24 @@ $photosPhotos = $client->photos->photosSlice(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 4598368220370668880,
-			access_hash : -8606799984977055452,
+			id : -9079636569495470947,
+			access_hash : 65952707625744309,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 17,
+			bot_info_version : 84,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'KUgDqYRZ2vwkGso8',
-					reason : 'ZYM4X3AqoDdVNJ5G',
-					text : 'ejvuQ5UZVO0TfpkN',
+					platform : 'erHjCksDzbcUplgf',
+					reason : 'xqCPrj3aDYKt692T',
+					text : '81vzlEUpHRew7mtJ',
 				),
 			),
-			bot_inline_placeholder : 'DgNux7nBkZ8CifF6',
-			lang_code : '78Uw0uSVTRzDjtJF',
+			bot_inline_placeholder : 'UgnbHVZGCpOaomNq',
+			lang_code : 'J7sYVztIdGFWcu5A',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -150,18 +150,21 @@ $photosPhotos = $client->photos->photosSlice(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 31,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 79,
+			),
 			color : $client->peerColor(
-				color : 20,
-				background_emoji_id : -860997134454255187,
+				color : 100,
+				background_emoji_id : 243673855755071692,
 			),
 			profile_color : $client->peerColor(
-				color : 65,
-				background_emoji_id : 2196897530997493347,
+				color : 67,
+				background_emoji_id : 5387952250714027068,
 			),
-			bot_active_users : 62,
-			bot_verification_icon : -7848133562178768353,
-			send_paid_messages_stars : -4759024601831860279,
+			bot_active_users : 15,
+			bot_verification_icon : 7933011111733268981,
+			send_paid_messages_stars : -8519785964779633496,
 		),
 	),
 );

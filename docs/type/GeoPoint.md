@@ -2,7 +2,7 @@
 
 **Description** : *Object defines a GeoPoint*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 geoPointEmpty#1117dd5f = GeoPoint;

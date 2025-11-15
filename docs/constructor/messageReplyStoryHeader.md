@@ -2,7 +2,7 @@
 
 **Description** : *Represents a reply to a story*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageReplyStoryHeader#e5af939 peer:Peer story_id:int = MessageReplyHeader;
@@ -30,8 +30,8 @@ messageReplyStoryHeader#e5af939 peer:Peer story_id:int = MessageReplyHeader;
 ```php
 $messageReplyHeader = $client->messageReplyStoryHeader(
 	peer : $client->peerUser(
-		user_id : 1383925674658415154,
+		user_id : -1968445968246529330,
 	),
-	story_id : 9,
+	story_id : 44,
 );
 ```

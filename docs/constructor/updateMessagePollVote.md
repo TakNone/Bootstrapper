@@ -2,7 +2,7 @@
 
 **Description** : *A specific peer has voted in a poll*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateMessagePollVote#24f40e77 poll_id:long peer:Peer options:Vector<bytes> qts:int = Update;
@@ -31,11 +31,11 @@ updateMessagePollVote#24f40e77 poll_id:long peer:Peer options:Vector<bytes> qts:
 
 ```php
 $update = $client->updateMessagePollVote(
-	poll_id : -8483967534438979243,
+	poll_id : -2949821285264147201,
 	peer : $client->peerUser(
-		user_id : 3728814649478188427,
+		user_id : -2539203043942511281,
 	),
 	options : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	qts : 59,
+	qts : 51,
 );
 ```

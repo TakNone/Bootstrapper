@@ -2,7 +2,7 @@
 
 **Description** : *Get message statistics*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stats.getMessageStats#b6e0a3f5 flags:# dark:flags.0?true channel:InputChannel msg_id:int = stats.MessageStats;
@@ -43,7 +43,7 @@ stats.getMessageStats#b6e0a3f5 flags:# dark:flags.0?true channel:InputChannel ms
 ```php
 $statsMessageStats = $client->stats->getMessageStats(
 	dark : true,
-	channel : $client->inputChannelEmpty(),
-	msg_id : 20,
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	msg_id : 39,
 );
 ```

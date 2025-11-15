@@ -2,7 +2,7 @@
 
 **Description** : *Fetches all star gift collections &raquo; of a peer*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.getStarGiftCollections#981b91dd peer:InputPeer hash:long = payments.StarGiftCollections;
@@ -37,7 +37,7 @@ payments.getStarGiftCollections#981b91dd peer:InputPeer hash:long = payments.Sta
 
 ```php
 $paymentsStarGiftCollections = $client->payments->getStarGiftCollections(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	hash : 0,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Mask coordinates \(if this is a mask sticker, attached to a photo\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 maskCoords#aed6dbb2 n:int x:double y:double zoom:double = MaskCoords;

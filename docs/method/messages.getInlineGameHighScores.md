@@ -2,7 +2,7 @@
 
 **Description** : *Get highscores of a game sent using an inline bot*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getInlineGameHighScores#f635e1b id:InputBotInlineMessageID user_id:InputUser = messages.HighScores;
@@ -39,10 +39,10 @@ messages.getInlineGameHighScores#f635e1b id:InputBotInlineMessageID user_id:Inpu
 ```php
 $messagesHighScores = $client->messages->getInlineGameHighScores(
 	id : $client->inputBotInlineMessageID(
-		dc_id : 97,
-		id : -3465224669025775176,
-		access_hash : 2829072667805283625,
+		dc_id : 77,
+		id : 97780836776834112,
+		access_hash : -3966845591844189546,
 	),
-	user_id : $client->inputUserEmpty(),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

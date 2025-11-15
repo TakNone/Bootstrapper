@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Premium promotion information*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.premiumPromo#5334759c status_text:string status_entities:Vector<MessageEntity> video_sections:Vector<string> videos:Vector<Document> period_options:Vector<PremiumSubscriptionOption> users:Vector<User> = help.PremiumPromo;

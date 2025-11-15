@@ -2,7 +2,7 @@
 
 **Description** : *Birthday information for a user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 birthday#6c8e1e06 flags:# day:int month:int year:flags.0?int = Birthday;
@@ -31,8 +31,8 @@ birthday#6c8e1e06 flags:# day:int month:int year:flags.0?int = Birthday;
 
 ```php
 $birthday = $client->birthday(
-	day : 19,
-	month : 67,
-	year : 33,
+	day : 10,
+	month : 89,
+	year : 12,
 );
 ```

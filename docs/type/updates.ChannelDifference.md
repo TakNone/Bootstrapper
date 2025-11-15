@@ -2,7 +2,7 @@
 
 **Description** : *Contains the difference \(new messages\) between our local channel state and the remote state*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updates.channelDifferenceEmpty#3e11affb flags:# final:flags.0?true pts:int timeout:flags.1?int = updates.ChannelDifference;

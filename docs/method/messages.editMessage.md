@@ -2,10 +2,10 @@
 
 **Description** : *Edit message*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-messages.editMessage#dfd14005 flags:# no_webpage:flags.1?true invert_media:flags.16?true peer:InputPeer id:int message:flags.11?string media:flags.14?InputMedia reply_markup:flags.2?ReplyMarkup entities:flags.3?Vector<MessageEntity> schedule_date:flags.15?int quick_reply_shortcut_id:flags.17?int = Updates;
+messages.editMessage#51e842e1 flags:# no_webpage:flags.1?true invert_media:flags.16?true peer:InputPeer id:int message:flags.11?string media:flags.14?InputMedia reply_markup:flags.2?ReplyMarkup entities:flags.3?Vector<MessageEntity> schedule_date:flags.15?int schedule_repeat_period:flags.18?int quick_reply_shortcut_id:flags.17?int = Updates;
 ```
 
 ---
@@ -24,6 +24,7 @@ messages.editMessage#dfd14005 flags:# no_webpage:flags.1?true invert_media:flags
 | **reply_markup** | [`flags.2?ReplyMarkup`](type/ReplyMarkup) | Reply markup for inline keyboards |
 | **entities** | [`flags.3?Vector<MessageEntity>`](type/MessageEntity) | Message entities for styled text |
 | **schedule_date** | [`flags.15?int`](type/int) | Scheduled message date for scheduled messages |
+| **schedule_repeat_period** | [`flags.18?int`](type/int) | NOTHING |
 | **quick_reply_shortcut_id** | [`flags.17?int`](type/int) | If specified, edits a quick reply shortcut message, instead » |
 
 ---
@@ -94,106 +95,107 @@ messages.editMessage#dfd14005 flags:# no_webpage:flags.1?true invert_media:flags
 $updates = $client->messages->editMessage(
 	no_webpage : true,
 	invert_media : true,
-	peer : $client->inputPeerEmpty(),
-	id : 90,
-	message : 'MHGodrKmZ65eUPk3',
-	media : $client->inputMediaEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	id : 44,
+	message : '7GlZeENJzf8vhkqa',
+	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 67,
+			length : 94,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 57,
+			length : 14,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 46,
+			length : 95,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 47,
+			length : 65,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 28,
+			length : 77,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 2,
+			length : 22,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 83,
+			length : 14,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 83,
+			length : 47,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 89,
+			length : 42,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 54,
-			language : 'SOwDMIpa0bU9sc6h',
+			length : 66,
+			language : '7KJUOgQFRcbpveWI',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 12,
+			length : 94,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 78,
-			user_id : 7205765268218288300,
+			length : 90,
+			user_id : 7198116769389222182,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 27,
-			user_id : $client->inputUserEmpty(),
+			length : 20,
+			user_id : $client->get_input_user(peer : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 69,
+			length : 36,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 2,
+			length : 94,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 66,
+			length : 31,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 8,
+			length : 35,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 80,
+			length : 58,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 69,
+			length : 43,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 88,
-			document_id : -3415160051326102573,
+			length : 89,
+			document_id : 4173105086236613855,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 18,
+			length : 79,
 		),
 	),
-	schedule_date : 15,
-	quick_reply_shortcut_id : 29,
+	schedule_date : 75,
+	schedule_repeat_period : 47,
+	quick_reply_shortcut_id : 36,
 );
 ```

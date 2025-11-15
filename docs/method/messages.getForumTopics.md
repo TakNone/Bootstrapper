@@ -1,6 +1,6 @@
 # messages.getForumTopics
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getForumTopics#3ba47bff flags:# peer:InputPeer q:flags.0?string offset_date:int offset_id:int offset_topic:int limit:int = messages.ForumTopics;
@@ -32,11 +32,11 @@ messages.getForumTopics#3ba47bff flags:# peer:InputPeer q:flags.0?string offset_
 
 ```php
 $messagesForumTopics = $client->messages->getForumTopics(
-	peer : $client->inputPeerEmpty(),
-	q : 'KHGNRT9EmyXejUtB',
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	q : 'kmB3qxFtADQS1RYE',
 	offset_date : 0,
 	offset_id : 0,
 	offset_topic : 0,
-	limit : 53,
+	limit : 12,
 );
 ```

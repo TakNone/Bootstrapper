@@ -2,7 +2,7 @@
 
 **Description** : *Associate a stickerset to the supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.setStickers#ea8ca4f9 channel:InputChannel stickerset:InputStickerSet = Bool;
@@ -40,7 +40,7 @@ channels.setStickers#ea8ca4f9 channel:InputChannel stickerset:InputStickerSet = 
 
 ```php
 $bool = $client->channels->setStickers(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	stickerset : $client->inputStickerSetEmpty(),
 );
 ```

@@ -99,12 +99,6 @@
 
 ---
 
-##### inputPhoneContact
-
-:link: [*Phone contact*](constructor/inputPhoneContact)
-
----
-
 ##### inputFile
 
 :link: [*Defines a file saved in parts using the method upload\.saveFilePart*](constructor/inputFile)
@@ -693,6 +687,12 @@
 
 ---
 
+##### messageMediaVideoStream
+
+:link: [*NOTHING*](constructor/messageMediaVideoStream)
+
+---
+
 ##### messageActionEmpty
 
 :link: [*Empty constructor*](constructor/messageActionEmpty)
@@ -1035,15 +1035,15 @@
 
 ---
 
-##### messageActionPhoneNumberRequest
-
-:link: [*NOTHING*](constructor/messageActionPhoneNumberRequest)
-
----
-
 ##### messageActionSuggestBirthday
 
 :link: [*NOTHING*](constructor/messageActionSuggestBirthday)
+
+---
+
+##### messageActionPhoneNumberRequest
+
+:link: [*NOTHING*](constructor/messageActionPhoneNumberRequest)
 
 ---
 
@@ -2176,18 +2176,6 @@ If the difference is too long or if the channel isn&#039;t currently in the stat
 
 ---
 
-##### updateChannelPinnedTopic
-
-:link: [*A forum topic &raquo; was pinned or unpinned*](constructor/updateChannelPinnedTopic)
-
----
-
-##### updateChannelPinnedTopics
-
-:link: [*The pinned topics of a forum have changed*](constructor/updateChannelPinnedTopics)
-
----
-
 ##### updateUser
 
 :link: [*User \(user and/or userFull\) information was updated*](constructor/updateUser)
@@ -2405,15 +2393,39 @@ This setting only affects the current account, and is synced to other logged in 
 
 ---
 
+##### updateGroupCallMessage
+
+:link: [*NOTHING*](constructor/updateGroupCallMessage)
+
+---
+
+##### updateGroupCallEncryptedMessage
+
+:link: [*NOTHING*](constructor/updateGroupCallEncryptedMessage)
+
+---
+
 ##### updatePinnedForumTopic
 
 :link: [*NOTHING*](constructor/updatePinnedForumTopic)
 
 ---
 
-##### updateGroupCallMessage
+##### updatePinnedForumTopics
 
-:link: [*NOTHING*](constructor/updateGroupCallMessage)
+:link: [*NOTHING*](constructor/updatePinnedForumTopics)
+
+---
+
+##### updateDeleteGroupCallMessages
+
+:link: [*NOTHING*](constructor/updateDeleteGroupCallMessages)
+
+---
+
+##### updateStarGiftAuctionState
+
+:link: [*NOTHING*](constructor/updateStarGiftAuctionState)
 
 ---
 
@@ -2429,15 +2441,9 @@ This setting only affects the current account, and is synced to other logged in 
 
 ---
 
-##### updateGroupCallEncryptedMessage
+##### updateStarGiftAuctionUserState
 
-:link: [*NOTHING*](constructor/updateGroupCallEncryptedMessage)
-
----
-
-##### updatePinnedForumTopics
-
-:link: [*NOTHING*](constructor/updatePinnedForumTopics)
+:link: [*NOTHING*](constructor/updateStarGiftAuctionUserState)
 
 ---
 
@@ -2945,6 +2951,12 @@ This setting only affects the current account, and is synced to other logged in 
 
 ---
 
+##### inputPrivacyKeySavedMusic
+
+:link: [*NOTHING*](constructor/inputPrivacyKeySavedMusic)
+
+---
+
 ##### privacyKeyStatusTimestamp
 
 :link: [*Whether we can see the last online timestamp of this user*](constructor/privacyKeyStatusTimestamp)
@@ -3020,6 +3032,12 @@ This setting only affects the current account, and is synced to other logged in 
 ##### privacyKeyNoPaidMessages
 
 :link: [*Who can send you messages without paying, if paid messages &raquo; are enabled*](constructor/privacyKeyNoPaidMessages)
+
+---
+
+##### privacyKeySavedMusic
+
+:link: [*NOTHING*](constructor/privacyKeySavedMusic)
 
 ---
 
@@ -6249,6 +6267,12 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ---
 
+##### webPageAttributeStarGiftAuction
+
+:link: [*NOTHING*](constructor/webPageAttributeStarGiftAuction)
+
+---
+
 ##### messages votesList
 
 :link: [*How users voted in a poll*](constructor/messages.votesList)
@@ -6719,15 +6743,15 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### account chatThemes
-
-:link: [*Available chat themes*](constructor/account.chatThemes)
-
----
-
 ##### account chatThemesNotModified
 
 :link: [*The available chat themes were not modified*](constructor/account.chatThemesNotModified)
+
+---
+
+##### account chatThemes
+
+:link: [*Available chat themes*](constructor/account.chatThemes)
 
 ---
 
@@ -7082,6 +7106,12 @@ If neither the pm or group flags are set, the specified chat export was generate
 ##### inputInvoiceStarGiftDropOriginalDetails
 
 :link: [*NOTHING*](constructor/inputInvoiceStarGiftDropOriginalDetails)
+
+---
+
+##### inputInvoiceStarGiftAuctionBid
+
+:link: [*NOTHING*](constructor/inputInvoiceStarGiftAuctionBid)
 
 ---
 
@@ -7865,15 +7895,15 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### inputPeerColorCollectible
-
-:link: [*NOTHING*](constructor/inputPeerColorCollectible)
-
----
-
 ##### peerColorCollectible
 
 :link: [*NOTHING*](constructor/peerColorCollectible)
+
+---
+
+##### inputPeerColorCollectible
+
+:link: [*NOTHING*](constructor/inputPeerColorCollectible)
 
 ---
 
@@ -9011,9 +9041,39 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### starGiftUpgradePreview
+##### starGiftUpgradePrice
 
-:link: [*NOTHING*](constructor/starGiftUpgradePreview)
+:link: [*NOTHING*](constructor/starGiftUpgradePrice)
+
+---
+
+##### groupCallMessage
+
+:link: [*NOTHING*](constructor/groupCallMessage)
+
+---
+
+##### inputStarGiftAuction
+
+:link: [*NOTHING*](constructor/inputStarGiftAuction)
+
+---
+
+##### inputStarGiftAuctionSlug
+
+:link: [*NOTHING*](constructor/inputStarGiftAuctionSlug)
+
+---
+
+##### starGiftAuctionUserState
+
+:link: [*NOTHING*](constructor/starGiftAuctionUserState)
+
+---
+
+##### auctionBidLevel
+
+:link: [*NOTHING*](constructor/auctionBidLevel)
 
 ---
 
@@ -9023,15 +9083,51 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
+##### starGiftAuctionState
+
+:link: [*NOTHING*](constructor/starGiftAuctionState)
+
+---
+
+##### starGiftAuctionStateFinished
+
+:link: [*NOTHING*](constructor/starGiftAuctionStateFinished)
+
+---
+
+##### starGiftAuctionStateNotModified
+
+:link: [*NOTHING*](constructor/starGiftAuctionStateNotModified)
+
+---
+
+##### inputPhoneContact
+
+:link: [*Phone contact*](constructor/inputPhoneContact)
+
+---
+
+##### recentStory
+
+:link: [*NOTHING*](constructor/recentStory)
+
+---
+
 ##### premiumGiftOption
 
 :link: [*Telegram Premium gift option*](constructor/premiumGiftOption)
 
 ---
 
-##### starGiftUpgradePrice
+##### starGiftActiveAuctions
 
-:link: [*NOTHING*](constructor/starGiftUpgradePrice)
+:link: [*NOTHING*](constructor/starGiftActiveAuctions)
+
+---
+
+##### starGiftActiveAuctionsNotModified
+
+:link: [*NOTHING*](constructor/starGiftActiveAuctionsNotModified)
 
 ---
 
@@ -9041,6 +9137,36 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### chatThemes
+##### starGiftAuctionAcquiredGift
 
-:link: [*NOTHING*](constructor/chatThemes)
+:link: [*NOTHING*](constructor/starGiftAuctionAcquiredGift)
+
+---
+
+##### starGiftActiveAuctionState
+
+:link: [*NOTHING*](constructor/starGiftActiveAuctionState)
+
+---
+
+##### groupCallDonor
+
+:link: [*NOTHING*](constructor/groupCallDonor)
+
+---
+
+##### payments starGiftAuctionAcquiredGifts
+
+:link: [*NOTHING*](constructor/payments.starGiftAuctionAcquiredGifts)
+
+---
+
+##### phone groupCallStars
+
+:link: [*NOTHING*](constructor/phone.groupCallStars)
+
+---
+
+##### payments starGiftAuctionState
+
+:link: [*NOTHING*](constructor/payments.starGiftAuctionState)

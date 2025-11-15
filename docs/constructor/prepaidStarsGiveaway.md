@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a prepaid Telegram Star giveaway &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 prepaidStarsGiveaway#9a9d77e0 id:long stars:long quantity:int boosts:int date:int = PrepaidGiveaway;
@@ -32,10 +32,10 @@ prepaidStarsGiveaway#9a9d77e0 id:long stars:long quantity:int boosts:int date:in
 
 ```php
 $prepaidGiveaway = $client->prepaidStarsGiveaway(
-	id : -5343612927298230801,
-	stars : 5942043754866215990,
-	quantity : 68,
-	boosts : 30,
-	date : 16,
+	id : 2662226716335610125,
+	stars : -6638524540190507411,
+	quantity : 41,
+	boosts : 19,
+	date : 20,
 );
 ```

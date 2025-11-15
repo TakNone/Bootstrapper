@@ -2,7 +2,7 @@
 
 **Description** : *Updated information about a chat folder deep link &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 chatlists.chatlistUpdates#93bd878d missing_peers:Vector<Peer> chats:Vector<Chat> users:Vector<User> = chatlists.ChatlistUpdates;
@@ -32,18 +32,18 @@ chatlists.chatlistUpdates#93bd878d missing_peers:Vector<Peer> chats:Vector<Chat>
 $chatlistsChatlistUpdates = $client->chatlists->chatlistUpdates(
 	missing_peers : array(
 		$client->peerUser(
-			user_id : 8871427377458069410,
+			user_id : -4337986308910277410,
 		),
 		$client->peerChat(
-			chat_id : 5939694094682189137,
+			chat_id : 6560270626761836482,
 		),
 		$client->peerChannel(
-			channel_id : 5219016733052866257,
+			channel_id : 4646091157145571888,
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : -852373748894086096,
+			id : 356973985130053513,
 		),
 		$client->chat(
 			creator : true,
@@ -53,13 +53,13 @@ $chatlistsChatlistUpdates = $client->chatlists->chatlistUpdates(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 4243026184134065761,
-			title : 'WLzwE0FINDUuvVjH',
+			id : -616531469111183797,
+			title : 'HFfk6OTLNzmI8ltp',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 20,
-			date : 2,
-			version : 6,
-			migrated_to : $client->inputChannelEmpty(),
+			participants_count : 96,
+			date : 49,
+			version : 91,
+			migrated_to : $client->get_input_channel(peer : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
 				post_messages : true,
@@ -99,12 +99,12 @@ $chatlistsChatlistUpdates = $client->chatlists->chatlistUpdates(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 100,
+				until_date : 59,
 			),
 		),
 		$client->chatForbidden(
-			id : -1048604257664489739,
-			title : 'WUiY8XIcxECRzVJ0',
+			id : -1492627141958330335,
+			title : 'FtDSzpsj8u9ZNPif',
 		),
 		$client->channel(
 			creator : true,
@@ -135,17 +135,17 @@ $chatlistsChatlistUpdates = $client->chatlists->chatlistUpdates(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 6629285856943589280,
-			access_hash : -3134920392225011049,
-			title : 'fFMP1EAv0K7LNO6C',
+			id : 6379574226409536961,
+			access_hash : 8507051733043429581,
+			title : 'CHTPatVFUmZNe45x',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 37,
+			date : 25,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '2XOeZQxisUt3c8Fr',
-					reason : '2U5wExXdBpF4mIyi',
-					text : 'BhzTtSdHpnb18r7U',
+					platform : '9hnsVvq5SFTXrjeP',
+					reason : 'zOd3xpw1eRQDiLhs',
+					text : 'kxl9TdW742sUVNfX',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -187,7 +187,7 @@ $chatlistsChatlistUpdates = $client->chatlists->chatlistUpdates(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 53,
+				until_date : 77,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -210,9 +210,9 @@ $chatlistsChatlistUpdates = $client->chatlists->chatlistUpdates(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 17,
+				until_date : 3,
 			),
-			participants_count : 63,
+			participants_count : 100,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -220,34 +220,37 @@ $chatlistsChatlistUpdates = $client->chatlists->chatlistUpdates(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 17,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 14,
+			),
 			color : $client->peerColor(
-				color : 69,
-				background_emoji_id : 4311194454650230262,
+				color : 29,
+				background_emoji_id : -3072498547503794745,
 			),
 			profile_color : $client->peerColor(
-				color : 58,
-				background_emoji_id : 4729695115635652767,
+				color : 66,
+				background_emoji_id : 6344293904567884577,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 0,
-			subscription_until_date : 54,
-			bot_verification_icon : 6889449084118924953,
-			send_paid_messages_stars : 7289206412329337282,
-			linked_monoforum_id : -1770536858205268014,
+			level : 84,
+			subscription_until_date : 61,
+			bot_verification_icon : -5809787075057844556,
+			send_paid_messages_stars : 350138487421448043,
+			linked_monoforum_id : 7095865595580040901,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 2850705944954471002,
-			access_hash : 3044942103156176351,
-			title : 'H05FKpQm4OeCd7cj',
-			until_date : 4,
+			id : 8024321237470276431,
+			access_hash : -798043741887251095,
+			title : 'IFMPjnRWgLCtJ6lU',
+			until_date : 93,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 8013052652158011130,
+			id : -2805116570989753410,
 		),
 		$client->user(
 			self : true,
@@ -276,24 +279,24 @@ $chatlistsChatlistUpdates = $client->chatlists->chatlistUpdates(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 7653614334785021432,
-			access_hash : 4810018964733837417,
+			id : -8037837070244144202,
+			access_hash : -4477681192709404307,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 80,
+			bot_info_version : 12,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'StLmH9g7Vhps2MJk',
-					reason : '7p14bqIXAaigmPDJ',
-					text : 'PFry04Nz2wMLG79E',
+					platform : 'Z2AfkghXwbctqIdJ',
+					reason : 'xqdOjLYyUuhH5pQm',
+					text : 'WrQbdqNFEXh3nusO',
 				),
 			),
-			bot_inline_placeholder : '5qivSw2bIBgx9foA',
-			lang_code : 'y1P7bwQCtGA3glY6',
+			bot_inline_placeholder : 'ThOt1Wf8sgao0u3K',
+			lang_code : 'VxwHS2kLTBzPCAc1',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -302,18 +305,21 @@ $chatlistsChatlistUpdates = $client->chatlists->chatlistUpdates(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 88,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 93,
+			),
 			color : $client->peerColor(
-				color : 78,
-				background_emoji_id : 5516987364821253771,
+				color : 17,
+				background_emoji_id : -3776027428151231729,
 			),
 			profile_color : $client->peerColor(
-				color : 28,
-				background_emoji_id : -7319677507430808098,
+				color : 59,
+				background_emoji_id : 7530522531556248949,
 			),
-			bot_active_users : 87,
-			bot_verification_icon : 7869181190135053065,
-			send_paid_messages_stars : 7182862828281962709,
+			bot_active_users : 2,
+			bot_verification_icon : -906853662156117953,
+			send_paid_messages_stars : 7750085626786023833,
 		),
 	),
 );

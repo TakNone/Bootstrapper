@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of emoji categories, to be used when selecting custom emojis to set as custom emoji status*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getEmojiStatusGroups#2ecd56cd hash:int = messages.EmojiGroups;

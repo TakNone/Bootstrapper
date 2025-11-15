@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for a Telegram Star subscription &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputInvoiceChatInviteSubscription#34e793f1 hash:string = InputInvoice;
@@ -28,6 +28,6 @@ inputInvoiceChatInviteSubscription#34e793f1 hash:string = InputInvoice;
 
 ```php
 $inputInvoice = $client->inputInvoiceChatInviteSubscription(
-	hash : 'XsA0Dw1N9EcqrKuo',
+	hash : '2GeaEnLjlcpOi1WT',
 );
 ```

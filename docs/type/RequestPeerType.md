@@ -2,7 +2,7 @@
 
 **Description** : *Filtering criteria to use for the peer selection list shown to the user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 requestPeerTypeUser#5f3b8a00 flags:# bot:flags.0?Bool premium:flags.1?Bool = RequestPeerType;

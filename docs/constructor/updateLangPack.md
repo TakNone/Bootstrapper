@@ -2,7 +2,7 @@
 
 **Description** : *Language pack updated*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateLangPack#56022f4d difference:LangPackDifference = Update;
@@ -29,25 +29,25 @@ updateLangPack#56022f4d difference:LangPackDifference = Update;
 ```php
 $update = $client->updateLangPack(
 	difference : $client->langPackDifference(
-		lang_code : '85o9MwHyKhfpPsua',
-		from_version : 11,
-		version : 91,
+		lang_code : 'fQXUoTHZOar5SNBP',
+		from_version : 74,
+		version : 11,
 		strings : array(
 			$client->langPackString(
-				key : 'lc7BkmPaWFdhYU68',
-				value : 'Cqy19Yhr2pXfdOF5',
+				key : '4KYFSZwICco36Qmk',
+				value : 'XPdnG8Ze1mv5LBYO',
 			),
 			$client->langPackStringPluralized(
-				key : 'WySkpYTUJbfrZOF0',
-				zero_value : 'fvCNOoc1WZd6wVzK',
-				one_value : 'MSxBk6g7wLKYDZCG',
-				two_value : 'S9j7NlEWuHpGig46',
-				few_value : 'hvnQu7BWHZlMXSUT',
-				many_value : 'iV5eJLzN3kOCyYgZ',
-				other_value : 'ma42rA7ZXPwISEWi',
+				key : 'dyEsrmtUOIDMvHu1',
+				zero_value : 'A9ExrjcyWvY76pRg',
+				one_value : 'ntgoYNpPSaH68dZ7',
+				two_value : 'p26zEFDnq3b9Y4L1',
+				few_value : 'gFCRJXm5UVadi4Hr',
+				many_value : 'gyoTuvOqGpH5wbi7',
+				other_value : 'UZcIrbkFLJGdCW4Q',
 			),
 			$client->langPackStringDeleted(
-				key : 'Th8fp1LHOVDQNBxn',
+				key : 'G74vV25LrRHwFJDU',
 			),
 		),
 	),

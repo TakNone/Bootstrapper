@@ -2,7 +2,7 @@
 
 **Description** : *Obtain information about a Telegram Premium giveaway &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.getGiveawayInfo#f4239425 peer:InputPeer msg_id:int = payments.GiveawayInfo;
@@ -38,7 +38,7 @@ payments.getGiveawayInfo#f4239425 peer:InputPeer msg_id:int = payments.GiveawayI
 
 ```php
 $paymentsGiveawayInfo = $client->payments->getGiveawayInfo(
-	peer : $client->inputPeerEmpty(),
-	msg_id : 89,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	msg_id : 82,
 );
 ```

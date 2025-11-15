@@ -2,7 +2,7 @@
 
 **Description** : *Get story albums created by a peer*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stories.getAlbums#25b3eac7 peer:InputPeer hash:long = stories.Albums;
@@ -37,7 +37,7 @@ stories.getAlbums#25b3eac7 peer:InputPeer hash:long = stories.Albums;
 
 ```php
 $storiesAlbums = $client->stories->getAlbums(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	hash : 0,
 );
 ```

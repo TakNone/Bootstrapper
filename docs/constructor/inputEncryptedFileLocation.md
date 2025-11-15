@@ -2,7 +2,7 @@
 
 **Description** : *Location of encrypted secret chat file*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputEncryptedFileLocation#f5235d55 id:long access_hash:long = InputFileLocation;
@@ -29,7 +29,7 @@ inputEncryptedFileLocation#f5235d55 id:long access_hash:long = InputFileLocation
 
 ```php
 $inputFileLocation = $client->inputEncryptedFileLocation(
-	id : 8928070278471306612,
-	access_hash : -3977855471018470369,
+	id : 4908739620496778887,
+	access_hash : 5633985251590072129,
 );
 ```

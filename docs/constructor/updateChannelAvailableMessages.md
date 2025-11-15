@@ -2,7 +2,7 @@
 
 **Description** : *The history of a channel/supergroup was hidden*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateChannelAvailableMessages#b23fc698 channel_id:long available_min_id:int = Update;
@@ -29,7 +29,7 @@ updateChannelAvailableMessages#b23fc698 channel_id:long available_min_id:int = U
 
 ```php
 $update = $client->updateChannelAvailableMessages(
-	channel_id : 2599521105414018480,
-	available_min_id : 25,
+	channel_id : -2387886798717880241,
+	available_min_id : 19,
 );
 ```

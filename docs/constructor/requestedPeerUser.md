@@ -2,7 +2,7 @@
 
 **Description** : *Info about a user, shared by a user with the currently logged in bot using messages\.sendBotRequestedPeer*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 requestedPeerUser#d62ff46a flags:# user_id:long first_name:flags.0?string last_name:flags.0?string username:flags.1?string photo:flags.2?Photo = RequestedPeer;
@@ -33,12 +33,12 @@ requestedPeerUser#d62ff46a flags:# user_id:long first_name:flags.0?string last_n
 
 ```php
 $requestedPeer = $client->requestedPeerUser(
-	user_id : -2412376051108695870,
+	user_id : -8411650954026314446,
 	first_name : 'Tak',
 	last_name : 'None',
 	username : 'TakNone',
 	photo : $client->photoEmpty(
-		id : 2419372224689455682,
+		id : -8304396778076173078,
 	),
 );
 ```

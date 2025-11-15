@@ -2,7 +2,7 @@
 
 **Description** : *A report option for a sponsored message &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 sponsoredMessageReportOption#430d3150 text:string option:bytes = SponsoredMessageReportOption;
@@ -29,7 +29,7 @@ sponsoredMessageReportOption#430d3150 text:string option:bytes = SponsoredMessag
 
 ```php
 $sponsoredMessageReportOption = $client->sponsoredMessageReportOption(
-	text : 'dEMT0Fs6r9GS3C8w',
+	text : 'dFbAxkWBiKG6p7qo',
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

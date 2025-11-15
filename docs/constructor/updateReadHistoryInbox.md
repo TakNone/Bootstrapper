@@ -2,7 +2,7 @@
 
 **Description** : *Incoming messages were read*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateReadHistoryInbox#9e84bc99 flags:# folder_id:flags.0?int peer:Peer top_msg_id:flags.1?int max_id:int still_unread_count:int pts:int pts_count:int = Update;
@@ -35,14 +35,14 @@ updateReadHistoryInbox#9e84bc99 flags:# folder_id:flags.0?int peer:Peer top_msg_
 
 ```php
 $update = $client->updateReadHistoryInbox(
-	folder_id : 0,
+	folder_id : 51,
 	peer : $client->peerUser(
-		user_id : -9061474360684493612,
+		user_id : 5472956896062405386,
 	),
-	top_msg_id : 92,
-	max_id : 52,
-	still_unread_count : 46,
-	pts : 30,
-	pts_count : 56,
+	top_msg_id : 99,
+	max_id : 16,
+	still_unread_count : 50,
+	pts : 4,
+	pts_count : 46,
 );
 ```

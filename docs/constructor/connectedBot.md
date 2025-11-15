@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a connected business bot &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients rights:BusinessBotRights = ConnectedBot;
@@ -31,15 +31,15 @@ connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients right
 
 ```php
 $connectedBot = $client->connectedBot(
-	bot_id : 1291132641619810125,
+	bot_id : 1284406849849220482,
 	recipients : $client->businessBotRecipients(
 		existing_chats : true,
 		new_chats : true,
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(-944622105623413593),
-		exclude_users : array(-5122343415710632843),
+		users : array(3772588408300970065),
+		exclude_users : array(-5141900988519100484),
 	),
 	rights : $client->businessBotRights(
 		reply : true,

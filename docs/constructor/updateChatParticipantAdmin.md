@@ -2,7 +2,7 @@
 
 **Description** : *Admin permissions of a user in a basic group were changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateChatParticipantAdmin#d7ca61a2 chat_id:long user_id:long is_admin:Bool version:int = Update;
@@ -31,9 +31,9 @@ updateChatParticipantAdmin#d7ca61a2 chat_id:long user_id:long is_admin:Bool vers
 
 ```php
 $update = $client->updateChatParticipantAdmin(
-	chat_id : -7921994080206717420,
-	user_id : 5788847809549524698,
-	is_admin : true,
-	version : 37,
+	chat_id : 7684316965785094880,
+	user_id : -2677216001805510055,
+	is_admin : false,
+	version : 61,
 );
 ```

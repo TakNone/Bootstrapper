@@ -2,7 +2,7 @@
 
 **Description** : *Delete a chat invite*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.deleteExportedChatInvite#d464a42b peer:InputPeer link:string = Bool;
@@ -40,7 +40,7 @@ messages.deleteExportedChatInvite#d464a42b peer:InputPeer link:string = Bool;
 
 ```php
 $bool = $client->messages->deleteExportedChatInvite(
-	peer : $client->inputPeerEmpty(),
-	link : 'Xy1lrDqiwbxMzV5U',
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	link : 'rOyVHk3iAjzGQ4vf',
 );
 ```

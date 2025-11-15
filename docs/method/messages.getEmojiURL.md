@@ -2,7 +2,7 @@
 
 **Description** : *Returns an HTTP URL which can be used to automatically log in into translation platform and suggest new emoji keywords &raquo;\. The URL will be valid for 30 seconds after generation*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getEmojiURL#d5b10c26 lang_code:string = EmojiURL;
@@ -28,6 +28,6 @@ messages.getEmojiURL#d5b10c26 lang_code:string = EmojiURL;
 
 ```php
 $emojiURL = $client->messages->getEmojiURL(
-	lang_code : 'NCI5wSsy7FOBbnHL',
+	lang_code : 'lWENLFe4x8t2RMky',
 );
 ```

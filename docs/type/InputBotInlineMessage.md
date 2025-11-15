@@ -2,7 +2,7 @@
 
 **Description** : *Represents a sent inline message from the perspective of a bot*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputBotInlineMessageMediaAuto#3380c786 flags:# invert_media:flags.3?true message:string entities:flags.1?Vector<MessageEntity> reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;

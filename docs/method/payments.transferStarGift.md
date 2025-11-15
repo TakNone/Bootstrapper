@@ -2,7 +2,7 @@
 
 **Description** : *Transfer a collectible gift to another user or channel: can only be used if transfer is free \(i\.e\. messageActionStarGiftUnique\.transfer\_stars is not set\); see here &raquo; for more info on the full flow \(including the different flow to use in case the transfer isn&#039;t free\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.transferStarGift#7f18176a stargift:InputSavedStarGift to_id:InputPeer = Updates;
@@ -45,8 +45,8 @@ payments.transferStarGift#7f18176a stargift:InputSavedStarGift to_id:InputPeer =
 ```php
 $updates = $client->payments->transferStarGift(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 58,
+		msg_id : 78,
 	),
-	to_id : $client->inputPeerEmpty(),
+	to_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

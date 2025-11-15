@@ -2,7 +2,7 @@
 
 **Description** : *Indicates payment for a login code*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputStorePaymentAuthCode#9bb2636d flags:# restore:flags.0?true phone_number:string phone_code_hash:string currency:string amount:long = InputStorePaymentPurpose;
@@ -36,7 +36,7 @@ $inputStorePaymentPurpose = $client->inputStorePaymentAuthCode(
 	restore : true,
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	currency : 'C3oEOA26vIFtu70y',
-	amount : 6481700226028826762,
+	currency : 'PMSp5I0XUrKsZ7QT',
+	amount : 5385981178874304697,
 );
 ```

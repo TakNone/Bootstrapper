@@ -2,7 +2,7 @@
 
 **Description** : *Whether the user allows us to see his phone number*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 privacyKeyPhoneNumber#d19ae46d = PrivacyKey;

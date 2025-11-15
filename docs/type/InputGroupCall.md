@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a group call*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputGroupCall#d8aa840f id:long access_hash:long = InputGroupCall;

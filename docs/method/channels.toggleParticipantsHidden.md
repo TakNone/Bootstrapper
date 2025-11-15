@@ -2,7 +2,7 @@
 
 **Description** : *Hide or display the participants list in a supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.toggleParticipantsHidden#6a6e7854 channel:InputChannel enabled:Bool = Updates;
@@ -41,7 +41,7 @@ channels.toggleParticipantsHidden#6a6e7854 channel:InputChannel enabled:Bool = U
 
 ```php
 $updates = $client->channels->toggleParticipantsHidden(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	enabled : true,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Disable all purchased usernames of a supergroup or channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.deactivateAllUsernames#a245dd3 channel:InputChannel = Bool;
@@ -36,6 +36,6 @@ channels.deactivateAllUsernames#a245dd3 channel:InputChannel = Bool;
 
 ```php
 $bool = $client->channels->deactivateAllUsernames(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

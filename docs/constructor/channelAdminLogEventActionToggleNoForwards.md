@@ -2,7 +2,7 @@
 
 **Description** : *Forwards were enabled or disabled*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionToggleNoForwards#cb2ac766 new_value:Bool = ChannelAdminLogEventAction;

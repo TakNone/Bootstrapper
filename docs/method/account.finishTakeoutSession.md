@@ -2,7 +2,7 @@
 
 **Description** : *Terminate a takeout session, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.finishTakeoutSession#1d2652ee flags:# success:flags.0?true = Bool;

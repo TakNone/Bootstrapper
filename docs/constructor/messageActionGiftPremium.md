@@ -2,10 +2,10 @@
 
 **Description** : *Info about a gifted Telegram Premium subscription*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-messageActionGiftPremium#6c6274fa flags:# currency:string amount:long months:int crypto_currency:flags.0?string crypto_amount:flags.0?long message:flags.1?TextWithEntities = MessageAction;
+messageActionGiftPremium#48e91302 flags:# currency:string amount:long days:int crypto_currency:flags.0?string crypto_amount:flags.0?long message:flags.1?TextWithEntities = MessageAction;
 ```
 
 ---
@@ -17,7 +17,7 @@ messageActionGiftPremium#6c6274fa flags:# currency:string amount:long months:int
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>currency</mark> | [`string`](type/string) | Three-letter ISO 4217 currency code |
 | <mark>amount</mark> | [`long`](type/long) | Price of the gift in the smallest units of the currency (integer, not float/double). For example, for a price of US$ 1.45 pass amount = 145. See the exp parameter in currencies.json, it shows the number of digits past the decimal point for each currency (2 for the majority of currencies) |
-| <mark>months</mark> | [`int`](type/int) | Duration of the gifted Telegram Premium subscription |
+| <mark>days</mark> | [`int`](type/int) | NOTHING |
 | **crypto_currency** | [`flags.0?string`](type/string) | If the gift was bought using a cryptocurrency, the cryptocurrency name |
 | **crypto_amount** | [`flags.0?long`](type/long) | If the gift was bought using a cryptocurrency, price of the gift in the smallest units of a cryptocurrency |
 | **message** | [`flags.1?TextWithEntities`](type/TextWithEntities) | Message attached with the gift |
@@ -34,103 +34,103 @@ messageActionGiftPremium#6c6274fa flags:# currency:string amount:long months:int
 
 ```php
 $messageAction = $client->messageActionGiftPremium(
-	currency : 'lwiFBULYQbveA273',
-	amount : -4957602429199352553,
-	months : 29,
-	crypto_currency : '5QxEi9UbSwJIHX2z',
-	crypto_amount : -4724143709960473437,
+	currency : 'v5Qn3yaMhlsY8gmF',
+	amount : -2175241870576788517,
+	days : 32,
+	crypto_currency : 'gOXEqbQBUCvI563m',
+	crypto_amount : 1826566950819971457,
 	message : $client->textWithEntities(
-		text : 'Kvqgs6n8YtoBATz5',
+		text : 'oULaxZYTpPhmRAtw',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 63,
+				length : 99,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 49,
+				length : 67,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 25,
+				length : 16,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 92,
+				length : 42,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 64,
+				length : 69,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 68,
+				length : 6,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 73,
+				length : 96,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 41,
+				length : 0,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 4,
+				length : 23,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 62,
-				language : 'SZRDhAMKYVJte1cf',
+				length : 69,
+				language : 'k5yWhXbNZu20B6oV',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 79,
+				length : 77,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 4,
-				user_id : -4578371116362754730,
+				length : 82,
+				user_id : 506194798065596256,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 66,
-				user_id : $client->inputUserEmpty(...),
+				length : 35,
+				user_id : $client->get_input_user(peer : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 32,
+				length : 92,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 33,
+				length : 97,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 43,
+				length : 10,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 70,
+				length : 55,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 35,
+				length : 61,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 60,
+				length : 48,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 72,
-				document_id : -5545295856510606490,
+				length : 2,
+				document_id : -3756859504294751273,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 70,
+				length : 86,
 			),
 		),
 	),

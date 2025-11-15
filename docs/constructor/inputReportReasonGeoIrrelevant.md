@@ -2,7 +2,7 @@
 
 **Description** : *Report an irrelevant geogroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputReportReasonGeoIrrelevant#dbd4feed = ReportReason;

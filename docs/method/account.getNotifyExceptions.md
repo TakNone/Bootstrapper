@@ -2,7 +2,7 @@
 
 **Description** : *Returns list of chats with non\-default notification settings*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.getNotifyExceptions#53577479 flags:# compare_sound:flags.1?true compare_stories:flags.2?true peer:flags.0?InputNotifyPeer = Updates;
@@ -34,7 +34,7 @@ $updates = $client->account->getNotifyExceptions(
 	compare_sound : true,
 	compare_stories : true,
 	peer : $client->inputNotifyPeer(
-		peer : $client->inputPeerEmpty(),
+		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	),
 );
 ```

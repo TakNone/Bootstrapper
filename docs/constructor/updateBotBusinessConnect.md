@@ -2,7 +2,7 @@
 
 **Description** : *Connecting or disconnecting a business bot or changing the connection settings will emit an updateBotBusinessConnect update to the bot, with the new settings and a connection\_id that will be used by the bot to handle updates from and send messages as the user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateBotBusinessConnect#8ae5c97a connection:BotBusinessConnection qts:int = Update;
@@ -31,10 +31,10 @@ updateBotBusinessConnect#8ae5c97a connection:BotBusinessConnection qts:int = Upd
 $update = $client->updateBotBusinessConnect(
 	connection : $client->botBusinessConnection(
 		disabled : true,
-		connection_id : 'QEgXwvkdW9SeNl4a',
-		user_id : 116653700266348299,
-		dc_id : 10,
-		date : 58,
+		connection_id : 'hMsTCakRrEfxHJ8n',
+		user_id : 4163143680273418844,
+		dc_id : 47,
+		date : 87,
 		rights : $client->businessBotRights(
 			reply : true,
 			read_messages : true,
@@ -52,6 +52,6 @@ $update = $client->updateBotBusinessConnect(
 			manage_stories : true,
 		),
 	),
-	qts : 77,
+	qts : 63,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Keywords for a certain sticker*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stickerKeyword#fcfeb29c document_id:long keyword:Vector<string> = StickerKeyword;
@@ -29,7 +29,7 @@ stickerKeyword#fcfeb29c document_id:long keyword:Vector<string> = StickerKeyword
 
 ```php
 $stickerKeyword = $client->stickerKeyword(
-	document_id : -4854344566314345009,
-	keyword : array('Xck0qDi6GE7dOgfa'),
+	document_id : -8961554259214272983,
+	keyword : array('oqtbWKQkI8GsgdeA'),
 );
 ```

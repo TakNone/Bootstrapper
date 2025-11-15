@@ -2,7 +2,7 @@
 
 **Description** : *Find out if a media message&#039;s caption can be edited*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getMessageEditData#fda68d36 peer:InputPeer id:int = messages.MessageEditData;
@@ -41,7 +41,7 @@ messages.getMessageEditData#fda68d36 peer:InputPeer id:int = messages.MessageEdi
 
 ```php
 $messagesMessageEditData = $client->messages->getMessageEditData(
-	peer : $client->inputPeerEmpty(),
-	id : 80,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	id : 14,
 );
 ```

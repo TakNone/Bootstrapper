@@ -2,7 +2,7 @@
 
 **Description** : *Paid media, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageMediaPaidMedia#a8852491 stars_amount:long extended_media:Vector<MessageExtendedMedia> = MessageMedia;
@@ -29,15 +29,15 @@ messageMediaPaidMedia#a8852491 stars_amount:long extended_media:Vector<MessageEx
 
 ```php
 $messageMedia = $client->messageMediaPaidMedia(
-	stars_amount : 7386988335322929607,
+	stars_amount : -2256029468882668514,
 	extended_media : array(
 		$client->messageExtendedMediaPreview(
-			w : 59,
-			h : 92,
+			w : 91,
+			h : 25,
 			thumb : $client->photoSizeEmpty(
-				type : 'oJMURD4fPx0gdZlE',
+				type : 'h9Ci1ErUDq3dS67W',
 			),
-			video_duration : 74,
+			video_duration : 69,
 		),
 		$client->messageExtendedMedia(
 			media : $client->messageMediaEmpty(),

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a collectible star gift, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starGiftUnique#b0bf741b flags:# require_premium:flags.6?true resale_ton_only:flags.7?true theme_available:flags.9?true id:long gift_id:long title:string slug:string num:int owner_id:flags.0?Peer owner_name:flags.1?string owner_address:flags.2?string attributes:Vector<StarGiftAttribute> availability_issued:int availability_total:int gift_address:flags.3?string resell_amount:flags.4?Vector<StarsAmount> released_by:flags.5?Peer value_amount:flags.8?long value_currency:flags.8?string theme_peer:flags.10?Peer peer_color:flags.11?PeerColor host_id:flags.12?Peer = StarGift;
@@ -53,102 +53,171 @@ $starGift = $client->starGiftUnique(
 	require_premium : true,
 	resale_ton_only : true,
 	theme_available : true,
-	id : -2813016568650444421,
-	gift_id : -6519514843317982718,
-	title : 'tZ6N2AJaOvp7nRb9',
-	slug : 'Dq6kTevBfhCnwcY9',
-	num : 52,
+	id : 1797068118246992383,
+	gift_id : 536673556696667188,
+	title : 'KBWfQOqVtFU4GlLi',
+	slug : 'IjKFWntg5YTZMxOE',
+	num : 50,
 	owner_id : $client->peerUser(
-		user_id : 6044060224063427738,
+		user_id : -1711983415617348996,
 	),
-	owner_name : 'zu5JGvVTmaO0hwxN',
-	owner_address : '0VwMC8ZmozbUrGES',
+	owner_name : 'JAYvadL54Npz6r7C',
+	owner_address : 'wSQmF2HM0EinuoAt',
 	attributes : array(
 		$client->starGiftAttributeModel(
-			name : 'ZdxGYgMumzCKjFNR',
+			name : 'H7RfzIhMY1OgPyZk',
 			document : $client->documentEmpty(
-				id : -2871595795552003623,
+				id : -6052191442349568355,
 			),
-			rarity_permille : 1,
+			rarity_permille : 20,
 		),
 		$client->starGiftAttributePattern(
-			name : 'aQiZFBwRXHoMd5lS',
+			name : 'pdH83VygJmf2RWqw',
 			document : $client->documentEmpty(
-				id : 1460379262337510441,
+				id : 3500748915781540442,
 			),
-			rarity_permille : 28,
+			rarity_permille : 88,
 		),
 		$client->starGiftAttributeBackdrop(
-			name : 'tG9R6rA5JUDxEgWd',
-			backdrop_id : 6,
-			center_color : 49,
-			edge_color : 5,
-			pattern_color : 49,
-			text_color : 14,
-			rarity_permille : 82,
+			name : 'r2qsW15RfinXemyg',
+			backdrop_id : 28,
+			center_color : 28,
+			edge_color : 26,
+			pattern_color : 29,
+			text_color : 92,
+			rarity_permille : 85,
 		),
 		$client->starGiftAttributeOriginalDetails(
 			sender_id : $client->peerUser(
-				user_id : 5979149177647622840,
+				user_id : 731249028893473207,
 			),
 			recipient_id : $client->peerUser(
-				user_id : 4484902123408188975,
+				user_id : 284766575612956920,
 			),
-			date : 5,
+			date : 36,
 			message : $client->textWithEntities(
-				text : 'TroEOtcRyP7LsWC2',
+				text : 'utzCcIS19FUgmYP4',
 				entities : array(
-					$client->messageEntityUnknown(...),
-					$client->messageEntityMention(...),
-					$client->messageEntityHashtag(...),
-					$client->messageEntityBotCommand(...),
-					$client->messageEntityUrl(...),
-					$client->messageEntityEmail(...),
-					$client->messageEntityBold(...),
-					$client->messageEntityItalic(...),
-					$client->messageEntityCode(...),
-					$client->messageEntityPre(...),
-					$client->messageEntityTextUrl(...),
-					$client->messageEntityMentionName(...),
-					$client->inputMessageEntityMentionName(...),
-					$client->messageEntityPhone(...),
-					$client->messageEntityCashtag(...),
-					$client->messageEntityUnderline(...),
-					$client->messageEntityStrike(...),
-					$client->messageEntityBankCard(...),
-					$client->messageEntitySpoiler(...),
-					$client->messageEntityCustomEmoji(...),
-					$client->messageEntityBlockquote(...),
+					$client->messageEntityUnknown(
+						offset : 0,
+						length : 46,
+					),
+					$client->messageEntityMention(
+						offset : 0,
+						length : 53,
+					),
+					$client->messageEntityHashtag(
+						offset : 0,
+						length : 100,
+					),
+					$client->messageEntityBotCommand(
+						offset : 0,
+						length : 29,
+					),
+					$client->messageEntityUrl(
+						offset : 0,
+						length : 61,
+					),
+					$client->messageEntityEmail(
+						offset : 0,
+						length : 36,
+					),
+					$client->messageEntityBold(
+						offset : 0,
+						length : 95,
+					),
+					$client->messageEntityItalic(
+						offset : 0,
+						length : 89,
+					),
+					$client->messageEntityCode(
+						offset : 0,
+						length : 74,
+					),
+					$client->messageEntityPre(
+						offset : 0,
+						length : 8,
+						language : 'BbRFVZi7T0nXKrop',
+					),
+					$client->messageEntityTextUrl(
+						offset : 0,
+						length : 84,
+						url : 'https://docs.liveproto.dev',
+					),
+					$client->messageEntityMentionName(
+						offset : 0,
+						length : 32,
+						user_id : -4321035568253623319,
+					),
+					$client->inputMessageEntityMentionName(
+						offset : 0,
+						length : 64,
+						user_id : $client->get_input_user(peer : '@TakNone'),
+					),
+					$client->messageEntityPhone(
+						offset : 0,
+						length : 1,
+					),
+					$client->messageEntityCashtag(
+						offset : 0,
+						length : 40,
+					),
+					$client->messageEntityUnderline(
+						offset : 0,
+						length : 9,
+					),
+					$client->messageEntityStrike(
+						offset : 0,
+						length : 59,
+					),
+					$client->messageEntityBankCard(
+						offset : 0,
+						length : 73,
+					),
+					$client->messageEntitySpoiler(
+						offset : 0,
+						length : 58,
+					),
+					$client->messageEntityCustomEmoji(
+						offset : 0,
+						length : 100,
+						document_id : -704505883805055612,
+					),
+					$client->messageEntityBlockquote(
+						collapsed : true,
+						offset : 0,
+						length : 87,
+					),
 				),
 			),
 		),
 	),
-	availability_issued : 14,
-	availability_total : 88,
-	gift_address : 'FLvbOhSmTceqz1Wt',
+	availability_issued : 49,
+	availability_total : 75,
+	gift_address : 'unjB1TOMQbar09ih',
 	resell_amount : array(
 		$client->starsAmount(
-			amount : 1175787889753591894,
-			nanos : 21,
+			amount : 6703762785101940817,
+			nanos : 32,
 		),
 		$client->starsTonAmount(
-			amount : -6090305230346321640,
+			amount : -961704418871766860,
 		),
 	),
 	released_by : $client->peerUser(
-		user_id : 1421217042268179208,
+		user_id : -181062135347090279,
 	),
-	value_amount : 1075097319725643558,
-	value_currency : 'sqJtcehwGzrvnVIA',
+	value_amount : -2123619769156822864,
+	value_currency : 'FQLvHG1D7BZfI60E',
 	theme_peer : $client->peerUser(
-		user_id : 3300262211856309214,
+		user_id : 2738616847456430737,
 	),
 	peer_color : $client->peerColor(
-		color : 9,
-		background_emoji_id : -7615623092456698211,
+		color : 12,
+		background_emoji_id : -7356831373422491555,
 	),
 	host_id : $client->peerUser(
-		user_id : 6536450218864108458,
+		user_id : 7900570091446613576,
 	),
 );
 ```

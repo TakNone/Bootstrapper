@@ -2,7 +2,7 @@
 
 **Description** : *Web authorizations*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.webAuthorizations#ed56c9fc authorizations:Vector<WebAuthorization> users:Vector<User> = account.WebAuthorizations;
@@ -32,19 +32,19 @@ $accountWebAuthorizations = $client->account->webAuthorizations(
 	authorizations : array(
 		$client->webAuthorization(
 			hash : 0,
-			bot_id : 6151407160739426980,
-			domain : 'R5e3IyNZxos2uwzB',
-			browser : 'g4bilEdFektjIJpa',
-			platform : 'xVBqQOknelrLUDNC',
-			date_created : 89,
-			date_active : 65,
+			bot_id : -4954370587790196993,
+			domain : '9xMBahYIGvjglKsX',
+			browser : 'uK4LSwZy96cTigrf',
+			platform : '7r0dcoKtPAFUa4wE',
+			date_created : 16,
+			date_active : 56,
 			ip : '127.0.0.1',
-			region : 'muELzMKrvXJqIaPF',
+			region : 'Lqlnkx507y6huKbs',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -7196331360841689469,
+			id : -688930968727906430,
 		),
 		$client->user(
 			self : true,
@@ -73,24 +73,24 @@ $accountWebAuthorizations = $client->account->webAuthorizations(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -5861019793797933118,
-			access_hash : -891245145538293965,
+			id : 8799540615445379495,
+			access_hash : 2163616234950412795,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 2,
+			bot_info_version : 77,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'Md792b1L0aelcjG3',
-					reason : 'RGQr2hufLPMJFySU',
-					text : 'AtgX5pDPYhqG2lEw',
+					platform : 'PhjfVp69roI5KGqY',
+					reason : 'TIrVQK85nsS9y7uo',
+					text : 'TYs3ek7uDCjyAa9B',
 				),
 			),
-			bot_inline_placeholder : '0PKzn91ENR7rqwFk',
-			lang_code : 'sYfEq9elyoKZMdaV',
+			bot_inline_placeholder : 'vZJtAKkwb5mTnl7V',
+			lang_code : 'FD7iHj1QnIWacvBq',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -99,18 +99,21 @@ $accountWebAuthorizations = $client->account->webAuthorizations(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 68,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 87,
+			),
 			color : $client->peerColor(
-				color : 22,
-				background_emoji_id : -2715434743016494279,
+				color : 59,
+				background_emoji_id : 9005242431598047883,
 			),
 			profile_color : $client->peerColor(
-				color : 64,
-				background_emoji_id : -8815334372425372718,
+				color : 87,
+				background_emoji_id : -6685849597745157759,
 			),
-			bot_active_users : 29,
-			bot_verification_icon : 6571135595152455418,
-			send_paid_messages_stars : -5472161499756100261,
+			bot_active_users : 87,
+			bot_verification_icon : 1254480723164517069,
+			send_paid_messages_stars : -8432667858805748723,
 		),
 	),
 );

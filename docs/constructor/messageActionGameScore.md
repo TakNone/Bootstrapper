@@ -2,7 +2,7 @@
 
 **Description** : *Someone scored in a game*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageActionGameScore#92a72876 game_id:long score:int = MessageAction;
@@ -29,7 +29,7 @@ messageActionGameScore#92a72876 game_id:long score:int = MessageAction;
 
 ```php
 $messageAction = $client->messageActionGameScore(
-	game_id : 486298264913151287,
-	score : 74,
+	game_id : -154840617774030850,
+	score : 78,
 );
 ```

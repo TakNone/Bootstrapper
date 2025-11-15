@@ -2,7 +2,7 @@
 
 **Description** : *Display or remove a received gift &raquo; from our profile*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.saveStarGift#2a2a697c flags:# unsave:flags.0?true stargift:InputSavedStarGift = Bool;
@@ -43,7 +43,7 @@ payments.saveStarGift#2a2a697c flags:# unsave:flags.0?true stargift:InputSavedSt
 $bool = $client->payments->saveStarGift(
 	unsave : true,
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 10,
+		msg_id : 70,
 	),
 );
 ```

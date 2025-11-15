@@ -2,7 +2,7 @@
 
 **Description** : *A user joined the supergroup/channel using a specific invite link*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionParticipantJoinByInvite#fe9fc158 flags:# via_chatlist:flags.0?true invite:ExportedChatInvite = ChannelAdminLogEventAction;
@@ -35,19 +35,19 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantJoin
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'eubKSr8EP9AIpGDU',
-		admin_id : -8050647932480808156,
-		date : 35,
-		start_date : 4,
-		expire_date : 27,
-		usage_limit : 84,
-		usage : 68,
-		requested : 99,
-		subscription_expired : 95,
-		title : 'ZKzBcF1tDru72CH4',
+		link : 's0tExfQVPD2IyaWj',
+		admin_id : -5916590305153520096,
+		date : 11,
+		start_date : 3,
+		expire_date : 39,
+		usage_limit : 43,
+		usage : 60,
+		requested : 3,
+		subscription_expired : 33,
+		title : 'tF21OGaYTxlwA3M4',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 45,
-			amount : -4596792808671032601,
+			period : 51,
+			amount : 8325327057493335847,
 		),
 	),
 );

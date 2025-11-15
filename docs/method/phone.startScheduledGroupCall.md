@@ -2,7 +2,7 @@
 
 **Description** : *Start a scheduled group call*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phone.startScheduledGroupCall#5680e342 call:InputGroupCall = Updates;
@@ -38,8 +38,8 @@ phone.startScheduledGroupCall#5680e342 call:InputGroupCall = Updates;
 ```php
 $updates = $client->phone->startScheduledGroupCall(
 	call : $client->inputGroupCall(
-		id : 4527287576463670912,
-		access_hash : 1952761832627981716,
+		id : -3237271415342331494,
+		access_hash : -1496574601279733088,
 	),
 );
 ```

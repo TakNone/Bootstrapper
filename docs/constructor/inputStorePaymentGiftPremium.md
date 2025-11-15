@@ -2,7 +2,7 @@
 
 **Description** : *Info about a gifted Telegram Premium purchase*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputStorePaymentGiftPremium#616f7fe8 user_id:InputUser currency:string amount:long = InputStorePaymentPurpose;
@@ -30,8 +30,8 @@ inputStorePaymentGiftPremium#616f7fe8 user_id:InputUser currency:string amount:l
 
 ```php
 $inputStorePaymentPurpose = $client->inputStorePaymentGiftPremium(
-	user_id : $client->inputUserEmpty(),
-	currency : 'ACjGHLnkeoSc74BJ',
-	amount : 4815821501504106785,
+	user_id : $client->get_input_user(peer : '@TakNone'),
+	currency : 'AmwSJ4xf8D3yk6hE',
+	amount : -4152253899170956737,
 );
 ```

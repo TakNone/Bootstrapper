@@ -2,7 +2,7 @@
 
 **Description** : *Google Pay payment credentials*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputPaymentCredentialsGooglePay#8ac32801 payment_token:DataJSON = InputPaymentCredentials;
@@ -29,7 +29,7 @@ inputPaymentCredentialsGooglePay#8ac32801 payment_token:DataJSON = InputPaymentC
 ```php
 $inputPaymentCredentials = $client->inputPaymentCredentialsGooglePay(
 	payment_token : $client->dataJSON(
-		data : 'zZJX1wRSle4bjNHo',
+		data : 'bZThFvUVonfQeg2i',
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Launch a prepaid giveaway &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.launchPrepaidGiveaway#5ff58f20 peer:InputPeer giveaway_id:long purpose:InputStorePaymentPurpose = Updates;
@@ -38,8 +38,8 @@ payments.launchPrepaidGiveaway#5ff58f20 peer:InputPeer giveaway_id:long purpose:
 
 ```php
 $updates = $client->payments->launchPrepaidGiveaway(
-	peer : $client->inputPeerEmpty(),
-	giveaway_id : 7827342203187760255,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	giveaway_id : 4903655454187271909,
 	purpose : $client->inputStorePaymentPremiumSubscription(
 		restore : true,
 		upgrade : true,

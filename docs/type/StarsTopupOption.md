@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Stars topup option*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starsTopupOption#bd915c0 flags:# extended:flags.1?true stars:long store_product:flags.0?string currency:string amount:long = StarsTopupOption;

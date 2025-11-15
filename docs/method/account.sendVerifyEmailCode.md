@@ -2,7 +2,7 @@
 
 **Description** : *Send an email verification code*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.sendVerifyEmailCode#98e037bb purpose:EmailVerifyPurpose email:string = account.SentEmailCode;

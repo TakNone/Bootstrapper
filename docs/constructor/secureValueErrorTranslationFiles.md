@@ -2,7 +2,7 @@
 
 **Description** : *Represents an issue with the translated version of a document\. The error is considered resolved when a file with the document translation changes*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 secureValueErrorTranslationFiles#34636dd8 type:SecureValueType file_hash:Vector<bytes> text:string = SecureValueError;
@@ -32,6 +32,6 @@ secureValueErrorTranslationFiles#34636dd8 type:SecureValueType file_hash:Vector<
 $secureValueError = $client->secureValueErrorTranslationFiles(
 	type : $client->secureValueTypePersonalDetails(),
 	file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	text : 'N2RUl1etLOapYZdh',
+	text : '9kAWKnGmqLxwHV8C',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor, non\-existent user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 userEmpty#d3bc4b7a id:long = User;
@@ -28,6 +28,6 @@ userEmpty#d3bc4b7a id:long = User;
 
 ```php
 $user = $client->userEmpty(
-	id : -1346195471483735388,
+	id : 4795725354586684307,
 );
 ```

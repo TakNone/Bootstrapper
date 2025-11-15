@@ -2,7 +2,7 @@
 
 **Description** : *Text linking to another section of the page*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 textAnchor#35553762 text:RichText name:string = RichText;
@@ -30,6 +30,6 @@ textAnchor#35553762 text:RichText name:string = RichText;
 ```php
 $richText = $client->textAnchor(
 	text : $client->textEmpty(),
-	name : 'rLbgGEikevMoDhsx',
+	name : 'gTolW7O1ZrPHGIen',
 );
 ```

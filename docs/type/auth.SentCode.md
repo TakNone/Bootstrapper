@@ -2,7 +2,7 @@
 
 **Description** : *Contains info on a confirmation code message sent via SMS, phone call or Telegram*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 auth.sentCode#5e002502 flags:# type:auth.SentCodeType phone_code_hash:string next_type:flags.1?auth.CodeType timeout:flags.2?int = auth.SentCode;

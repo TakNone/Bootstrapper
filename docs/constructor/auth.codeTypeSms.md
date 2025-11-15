@@ -2,7 +2,7 @@
 
 **Description** : *The next time, the authentication code will be delivered via an immediately canceled incoming call*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 auth.codeTypeSms#72a3158c = auth.CodeType;

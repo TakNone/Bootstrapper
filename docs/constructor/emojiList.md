@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of custom emojis*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 emojiList#7a1e11d1 hash:long document_id:Vector<long> = EmojiList;
@@ -30,6 +30,6 @@ emojiList#7a1e11d1 hash:long document_id:Vector<long> = EmojiList;
 ```php
 $emojiList = $client->emojiList(
 	hash : 0,
-	document_id : array(-1668526653440501289),
+	document_id : array(6544060073743422919),
 );
 ```

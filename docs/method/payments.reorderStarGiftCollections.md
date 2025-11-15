@@ -2,7 +2,7 @@
 
 **Description** : *Reorder the star gift collections &raquo; on an owned peer&#039;s profile*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.reorderStarGiftCollections#c32af4cc peer:InputPeer order:Vector<int> = Bool;
@@ -37,7 +37,7 @@ payments.reorderStarGiftCollections#c32af4cc peer:InputPeer order:Vector<int> = 
 
 ```php
 $bool = $client->payments->reorderStarGiftCollections(
-	peer : $client->inputPeerEmpty(),
-	order : array(1),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	order : array(61),
 );
 ```

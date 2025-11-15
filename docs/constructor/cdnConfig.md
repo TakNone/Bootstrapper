@@ -2,7 +2,7 @@
 
 **Description** : *Configuration for CDN file downloads*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 cdnConfig#5725e40a public_keys:Vector<CdnPublicKey> = CdnConfig;
@@ -30,8 +30,8 @@ cdnConfig#5725e40a public_keys:Vector<CdnPublicKey> = CdnConfig;
 $cdnConfig = $client->cdnConfig(
 	public_keys : array(
 		$client->cdnPublicKey(
-			dc_id : 85,
-			public_key : 'DRPmTB3fKeJ5U6VX',
+			dc_id : 5,
+			public_key : 'HmdcyvoVQ7zesZqD',
 		),
 	),
 );

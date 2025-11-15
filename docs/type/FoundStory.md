@@ -2,7 +2,7 @@
 
 **Description** : *A story found using global story search &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 foundStory#e87acbc0 peer:Peer story:StoryItem = FoundStory;

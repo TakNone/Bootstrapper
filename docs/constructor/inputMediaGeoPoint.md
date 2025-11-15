@@ -2,7 +2,7 @@
 
 **Description** : *Map*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputMediaGeoPoint#f9c44144 geo_point:InputGeoPoint = InputMedia;

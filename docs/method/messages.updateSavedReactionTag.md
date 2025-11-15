@@ -2,7 +2,7 @@
 
 **Description** : *Update the description of a saved message tag &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.updateSavedReactionTag#60297dec flags:# reaction:Reaction title:flags.0?string = Bool;
@@ -40,6 +40,6 @@ messages.updateSavedReactionTag#60297dec flags:# reaction:Reaction title:flags.0
 ```php
 $bool = $client->messages->updateSavedReactionTag(
 	reaction : $client->reactionEmpty(),
-	title : 'fL0DcUOVqR7yZWTt',
+	title : 'QBiURZbTVCAJmN6g',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Associate \(or remove\) a personal channel &raquo;, that will be listed on our personal profile page &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.updatePersonalChannel#d94305e0 channel:InputChannel = Bool;
@@ -28,6 +28,6 @@ account.updatePersonalChannel#d94305e0 channel:InputChannel = Bool;
 
 ```php
 $bool = $client->account->updatePersonalChannel(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

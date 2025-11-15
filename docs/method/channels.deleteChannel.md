@@ -2,7 +2,7 @@
 
 **Description** : *Delete a channel/supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.deleteChannel#c0111fe3 channel:InputChannel = Updates;
@@ -41,6 +41,6 @@ channels.deleteChannel#c0111fe3 channel:InputChannel = Updates;
 
 ```php
 $updates = $client->channels->deleteChannel(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

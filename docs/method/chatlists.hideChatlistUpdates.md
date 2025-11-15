@@ -2,7 +2,7 @@
 
 **Description** : *Dismiss new pending peers recently added to a chat folder deep link &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 chatlists.hideChatlistUpdates#66e486fb chatlist:InputChatlist = Bool;
@@ -38,7 +38,7 @@ chatlists.hideChatlistUpdates#66e486fb chatlist:InputChatlist = Bool;
 ```php
 $bool = $client->chatlists->hideChatlistUpdates(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 90,
+		filter_id : 70,
 	),
 );
 ```

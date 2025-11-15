@@ -2,7 +2,7 @@
 
 **Description** : *Change the emoji status of a user \(invoked by bots, see here &raquo; for more info on the full flow\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.updateUserEmojiStatus#ed9f30c5 user_id:InputUser emoji_status:EmojiStatus = Bool;
@@ -39,7 +39,7 @@ bots.updateUserEmojiStatus#ed9f30c5 user_id:InputUser emoji_status:EmojiStatus =
 
 ```php
 $bool = $client->bots->updateUserEmojiStatus(
-	user_id : $client->inputUserEmpty(),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 	emoji_status : $client->emojiStatusEmpty(),
 );
 ```

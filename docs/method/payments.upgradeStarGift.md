@@ -2,7 +2,7 @@
 
 **Description** : *Upgrade a gift to a collectible gift: can only be used if the upgrade was already paid by the gift sender; see here &raquo; for more info on the full flow \(including the different flow to use in case the upgrade was not paid by the gift sender\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.upgradeStarGift#aed6e4f5 flags:# keep_original_details:flags.0?true stargift:InputSavedStarGift = Updates;
@@ -46,7 +46,7 @@ payments.upgradeStarGift#aed6e4f5 flags:# keep_original_details:flags.0?true sta
 $updates = $client->payments->upgradeStarGift(
 	keep_original_details : true,
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 54,
+		msg_id : 17,
 	),
 );
 ```
