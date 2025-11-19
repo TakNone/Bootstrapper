@@ -38,104 +38,104 @@ dialogFilterChatlist#96537bd7 flags:# has_my_invites:flags.26?true title_noanima
 $dialogFilter = $client->dialogFilterChatlist(
 	has_my_invites : true,
 	title_noanimate : true,
-	id : 77,
+	id : 58,
 	title : $client->textWithEntities(
-		text : 'LnoghMOmKlXwZjs5',
+		text : 'eExNkQP4U2qG68vD',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 55,
+				length : 23,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 86,
+				length : 77,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 48,
+				length : 60,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 59,
+				length : 48,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 54,
+				length : 16,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 27,
+				length : 83,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 6,
+				length : 80,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 0,
+				length : 7,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 76,
+				length : 78,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 97,
-				language : 'LAeZCI9RymzxlPkJ',
+				length : 31,
+				language : 'rcWkiHuJmheg6MPt',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 58,
+				length : 95,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 51,
-				user_id : -4773674812287983742,
+				length : 33,
+				user_id : -4876983342620109773,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 66,
-				user_id : $client->get_input_user(peer : '@TakNone'),
+				length : 80,
+				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 63,
+				length : 31,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 52,
+				length : 6,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 50,
+				length : 81,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 41,
+				length : 73,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 41,
+				length : 11,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 15,
+				length : 36,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 64,
-				document_id : -2764659530495784600,
+				length : 87,
+				document_id : 7230125641104047367,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 12,
+				length : 25,
 			),
 		),
 	),
-	emoticon : 'AGOue7iJSm6hp1z2',
-	color : 14,
+	emoticon : '2OS1IvGVcKi9xDUj',
+	color : 37,
 	pinned_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 	include_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );

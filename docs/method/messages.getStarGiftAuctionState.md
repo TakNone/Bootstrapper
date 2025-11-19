@@ -28,8 +28,8 @@ messages.getStarGiftAuctionState#5c9ff4d6 auction:InputStarGiftAuction version:i
 ```php
 $starGiftAuctionState = $client->messages->getStarGiftAuctionState(
 	auction : $client->inputStarGiftAuction(
-		gift_id : -5957658634448300150,
+		gift_id : 2894908673119234599,
 	),
-	version : 36,
+	version : 87,
 );
 ```

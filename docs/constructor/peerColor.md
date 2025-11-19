@@ -30,7 +30,7 @@ peerColor#b54b5acf flags:# color:flags.0?int background_emoji_id:flags.1?long = 
 
 ```php
 $peerColor = $client->peerColor(
-	color : 81,
-	background_emoji_id : -1427167139566952341,
+	color : 37,
+	background_emoji_id : -5889347597374944298,
 );
 ```

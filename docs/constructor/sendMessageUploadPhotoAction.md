@@ -28,6 +28,6 @@ sendMessageUploadPhotoAction#d1d34a26 progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageUploadPhotoAction(
-	progress : 70,
+	progress : 27,
 );
 ```

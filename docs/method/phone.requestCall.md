@@ -48,15 +48,15 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 ```php
 $phonePhoneCall = $client->phone->requestCall(
 	video : true,
-	user_id : $client->get_input_user(peer : '@TakNone'),
-	random_id : 50,
+	user_id : $client->get_input_user(user : '@TakNone'),
+	random_id : 8,
 	g_a_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 33,
-		max_layer : 19,
-		library_versions : array('TYFCnzWrNZHPvibX'),
+		min_layer : 3,
+		max_layer : 93,
+		library_versions : array('oFuskpj5Y6lTJ3rv'),
 	),
 );
 ```

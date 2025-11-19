@@ -32,9 +32,9 @@ updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_i
 ```php
 $update = $client->updateMonoForumNoPaidException(
 	exception : true,
-	channel_id : 1128300419736722018,
+	channel_id : -4169457628140528555,
 	saved_peer_id : $client->peerUser(
-		user_id : 3457077243110614267,
+		user_id : -3039646564837310275,
 	),
 );
 ```

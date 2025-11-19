@@ -40,7 +40,7 @@ messages.readReactions#9ec44f93 flags:# peer:InputPeer top_msg_id:flags.0?int sa
 ```php
 $messagesAffectedHistory = $client->messages->readReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 87,
+	top_msg_id : 28,
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

@@ -31,10 +31,10 @@ bots.previewInfo#ca71d64 media:Vector<BotPreviewMedia> lang_codes:Vector<string>
 $botsPreviewInfo = $client->bots->previewInfo(
 	media : array(
 		$client->botPreviewMedia(
-			date : 77,
+			date : 37,
 			media : $client->messageMediaEmpty(),
 		),
 	),
-	lang_codes : array('Zi2ogPMvStAp8Xmx'),
+	lang_codes : array('LpBH5tyfoZ9bRGVS'),
 );
 ```

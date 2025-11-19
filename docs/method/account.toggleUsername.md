@@ -40,6 +40,6 @@ account.toggleUsername#58d6b376 username:string active:Bool = Bool;
 ```php
 $bool = $client->account->toggleUsername(
 	username : 'TakNone',
-	active : true,
+	active : false,
 );
 ```

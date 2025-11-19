@@ -44,8 +44,8 @@ auth.requestFirebaseSms#8e39261e flags:# phone_number:string phone_code_hash:str
 $bool = $client->auth->requestFirebaseSms(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	safety_net_token : 'y1hjlQmWTdUNtcSO',
-	play_integrity_token : 'tZ0uqfm3IjVznY85',
-	ios_push_secret : 'Fo23CbdtaQg4VvnX',
+	safety_net_token : 'EzI3xsCUOZiw2SXQ',
+	play_integrity_token : 'b5h3j6nJOXTimFE8',
+	ios_push_secret : 'MTUzAIogels0DO2d',
 );
 ```

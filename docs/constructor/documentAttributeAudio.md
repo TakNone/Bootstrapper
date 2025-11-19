@@ -34,9 +34,9 @@ documentAttributeAudio#9852f9c6 flags:# voice:flags.10?true duration:int title:f
 ```php
 $documentAttribute = $client->documentAttributeAudio(
 	voice : true,
-	duration : 21,
-	title : 'ZRMrU7fDhLxaXs24',
-	performer : 'MZjeP1s0xamq6OrS',
+	duration : 52,
+	title : 'ucQULkYH09Stq35P',
+	performer : 'Tau7e0KgxvwoR1Db',
 	waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

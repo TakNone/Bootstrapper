@@ -39,6 +39,6 @@ channels.getChannelRecommendations#25a71742 flags:# channel:flags.0?InputChannel
 
 ```php
 $messagesChats = $client->channels->getChannelRecommendations(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

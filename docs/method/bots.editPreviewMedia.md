@@ -39,8 +39,8 @@ bots.editPreviewMedia#8525606f bot:InputUser lang_code:string media:InputMedia n
 
 ```php
 $botPreviewMedia = $client->bots->editPreviewMedia(
-	bot : $client->get_input_user(peer : '@TakNone'),
-	lang_code : 'NAYFvXHpZJrUKPy7',
+	bot : $client->get_input_user(user : '@TakNone'),
+	lang_code : 'i2uER0S4YPZxQeml',
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 	new_media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );

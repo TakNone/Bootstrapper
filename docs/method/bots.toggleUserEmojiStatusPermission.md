@@ -37,7 +37,7 @@ bots.toggleUserEmojiStatusPermission#6de6392 bot:InputUser enabled:Bool = Bool;
 
 ```php
 $bool = $client->bots->toggleUserEmojiStatusPermission(
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 	enabled : false,
 );
 ```

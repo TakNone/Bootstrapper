@@ -35,14 +35,14 @@ updateReadHistoryInbox#9e84bc99 flags:# folder_id:flags.0?int peer:Peer top_msg_
 
 ```php
 $update = $client->updateReadHistoryInbox(
-	folder_id : 51,
+	folder_id : 9,
 	peer : $client->peerUser(
-		user_id : 5472956896062405386,
+		user_id : 7813614386412219277,
 	),
-	top_msg_id : 99,
-	max_id : 16,
-	still_unread_count : 50,
-	pts : 4,
-	pts_count : 46,
+	top_msg_id : 42,
+	max_id : 100,
+	still_unread_count : 92,
+	pts : 95,
+	pts_count : 33,
 );
 ```

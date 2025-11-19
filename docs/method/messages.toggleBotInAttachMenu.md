@@ -40,7 +40,7 @@ messages.toggleBotInAttachMenu#69f59d69 flags:# write_allowed:flags.0?true bot:I
 ```php
 $bool = $client->messages->toggleBotInAttachMenu(
 	write_allowed : true,
-	bot : $client->get_input_user(peer : '@TakNone'),
-	enabled : true,
+	bot : $client->get_input_user(user : '@TakNone'),
+	enabled : false,
 );
 ```

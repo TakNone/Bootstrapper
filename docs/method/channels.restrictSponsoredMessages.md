@@ -37,7 +37,7 @@ channels.restrictSponsoredMessages#9ae91519 channel:InputChannel restricted:Bool
 
 ```php
 $updates = $client->channels->restrictSponsoredMessages(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	restricted : false,
 );
 ```

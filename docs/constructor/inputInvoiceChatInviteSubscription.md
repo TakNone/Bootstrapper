@@ -28,6 +28,6 @@ inputInvoiceChatInviteSubscription#34e793f1 hash:string = InputInvoice;
 
 ```php
 $inputInvoice = $client->inputInvoiceChatInviteSubscription(
-	hash : '2GeaEnLjlcpOi1WT',
+	hash : 'WHhY143dXM6xAySP',
 );
 ```

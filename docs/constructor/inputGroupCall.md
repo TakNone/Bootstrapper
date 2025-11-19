@@ -29,7 +29,7 @@ inputGroupCall#d8aa840f id:long access_hash:long = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCall(
-	id : -8543589615817935137,
-	access_hash : -8176167795549323163,
+	id : 8139145756023529936,
+	access_hash : 1233775869253186665,
 );
 ```

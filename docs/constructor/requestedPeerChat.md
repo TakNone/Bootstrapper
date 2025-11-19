@@ -31,10 +31,10 @@ requestedPeerChat#7307544f flags:# chat_id:long title:flags.0?string photo:flags
 
 ```php
 $requestedPeer = $client->requestedPeerChat(
-	chat_id : 2692812669377085933,
-	title : '3t7TxUwSF6vsIu24',
+	chat_id : 444073046017188728,
+	title : '0k5phYZXFqU6aVDt',
 	photo : $client->photoEmpty(
-		id : 5719083277633055899,
+		id : -7044976547397038675,
 	),
 );
 ```

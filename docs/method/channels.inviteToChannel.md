@@ -56,7 +56,7 @@ channels.inviteToChannel#c9e33d54 channel:InputChannel users:Vector<InputUser> =
 
 ```php
 $messagesInvitedUsers = $client->channels->inviteToChannel(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	users : array($client->get_input_user(peer : '@TakNone')),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	users : array($client->get_input_user(user : '@TakNone')),
 );
 ```

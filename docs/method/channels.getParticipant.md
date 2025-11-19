@@ -43,7 +43,7 @@ channels.getParticipant#a0ab6cc6 channel:InputChannel participant:InputPeer = ch
 
 ```php
 $channelsChannelParticipant = $client->channels->getParticipant(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

@@ -34,11 +34,11 @@ messageMediaStory#68cb6283 flags:# via_mention:flags.1?true peer:Peer id:int sto
 $messageMedia = $client->messageMediaStory(
 	via_mention : true,
 	peer : $client->peerUser(
-		user_id : 7717867357491140631,
+		user_id : 8636564606738453423,
 	),
-	id : 13,
+	id : 19,
 	story : $client->storyItemDeleted(
-		id : 59,
+		id : 33,
 	),
 );
 ```

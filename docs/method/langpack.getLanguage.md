@@ -38,7 +38,7 @@ langpack.getLanguage#6a596502 lang_pack:string lang_code:string = LangPackLangua
 
 ```php
 $langPackLanguage = $client->langpack->getLanguage(
-	lang_pack : 'YUkCTjnKlau3pOIi',
-	lang_code : 'pqWDKexvTfbhOULB',
+	lang_pack : '4Z7ivmQeBwDcTSGE',
+	lang_code : 'lGF57DrzT4de0E6N',
 );
 ```

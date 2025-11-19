@@ -32,9 +32,9 @@ inputStorePaymentStarsTopup#f9a2a6cb flags:# stars:long currency:string amount:l
 
 ```php
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsTopup(
-	stars : 6766287192628194405,
-	currency : 'pGhSIYgjbk56oFRJ',
-	amount : 7091554492243724617,
+	stars : 4781286117704656499,
+	currency : 'eobJSntgRVhxWquy',
+	amount : -3727446264913236898,
 	spend_purpose_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

@@ -42,7 +42,7 @@ $updates = $client->folders->editPeerFolders(
 	folder_peers : array(
 		$client->inputFolderPeer(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			folder_id : 1,
+			folder_id : 33,
 		),
 	),
 );

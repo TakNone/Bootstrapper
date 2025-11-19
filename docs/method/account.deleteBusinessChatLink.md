@@ -37,6 +37,6 @@ account.deleteBusinessChatLink#60073674 slug:string = Bool;
 
 ```php
 $bool = $client->account->deleteBusinessChatLink(
-	slug : 'nya6MbChl93RvNA8',
+	slug : 'PAO6cVqFxTRLKaX4',
 );
 ```

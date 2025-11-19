@@ -29,7 +29,7 @@ account.getThemes#7206e458 format:string hash:long = account.Themes;
 
 ```php
 $accountThemes = $client->account->getThemes(
-	format : 'sD6mj9oY3z05P1vZ',
+	format : 'aj1hUuT3RnN0xptC',
 	hash : 0,
 );
 ```

@@ -43,7 +43,7 @@ channels.setDiscussionGroup#40582bb2 broadcast:InputChannel group:InputChannel =
 
 ```php
 $bool = $client->channels->setDiscussionGroup(
-	broadcast : $client->get_input_channel(peer : '@LiveProto'),
-	group : $client->get_input_channel(peer : '@LiveProto'),
+	broadcast : $client->get_input_channel(channel : '@LiveProto'),
+	group : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

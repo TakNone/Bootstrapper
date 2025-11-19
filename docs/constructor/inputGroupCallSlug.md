@@ -28,6 +28,6 @@ inputGroupCallSlug#fe06823f slug:string = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallSlug(
-	slug : 'jM7RNl5rk8XQws92',
+	slug : 'MDmpWkKvJibzBZnO',
 );
 ```

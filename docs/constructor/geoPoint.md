@@ -32,9 +32,9 @@ geoPoint#b2a2f663 flags:# long:double lat:double access_hash:long accuracy_radiu
 
 ```php
 $geoPoint = $client->geoPoint(
-	long : -833717.15625,
-	lat : 175044.7138671875,
-	access_hash : -5319151304577351973,
-	accuracy_radius : 4,
+	long : -1006231.8564453125,
+	lat : 1981865.447265625,
+	access_hash : -2252681785664576081,
+	accuracy_radius : 8,
 );
 ```

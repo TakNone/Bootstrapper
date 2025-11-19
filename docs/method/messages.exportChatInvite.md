@@ -57,12 +57,12 @@ $exportedChatInvite = $client->messages->exportChatInvite(
 	legacy_revoke_permanent : true,
 	request_needed : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	expire_date : 82,
-	usage_limit : 56,
-	title : 'aDsoejqINLxEtfPX',
+	expire_date : 83,
+	usage_limit : 13,
+	title : '0ji1CBOYQgsfe5IX',
 	subscription_pricing : $client->starsSubscriptionPricing(
-		period : 71,
-		amount : 2165597841816719699,
+		period : 11,
+		amount : 9071983613995347009,
 	),
 );
 ```

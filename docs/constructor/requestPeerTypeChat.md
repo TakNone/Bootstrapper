@@ -72,7 +72,7 @@ $requestPeerType = $client->requestPeerTypeChat(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	has_username : false,
-	forum : true,
+	has_username : true,
+	forum : false,
 );
 ```

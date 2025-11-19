@@ -37,7 +37,7 @@ channels.toggleViewForumAsMessages#9738bb15 channel:InputChannel enabled:Bool = 
 
 ```php
 $updates = $client->channels->toggleViewForumAsMessages(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	enabled : true,
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	enabled : false,
 );
 ```

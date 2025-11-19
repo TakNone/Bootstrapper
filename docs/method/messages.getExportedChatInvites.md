@@ -50,9 +50,9 @@ messages.getExportedChatInvites#a2b5a3f6 flags:# revoked:flags.3?true peer:Input
 $messagesExportedChatInvites = $client->messages->getExportedChatInvites(
 	revoked : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	admin_id : $client->get_input_user(peer : '@TakNone'),
+	admin_id : $client->get_input_user(user : '@TakNone'),
 	offset_date : 0,
-	offset_link : 'pwJons14rj5WYLl2',
-	limit : 43,
+	offset_link : 'mWBo2Xr40F6VAfJc',
+	limit : 26,
 );
 ```

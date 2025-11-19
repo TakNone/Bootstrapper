@@ -44,10 +44,10 @@ channels.getParticipants#77ced9d0 channel:InputChannel filter:ChannelParticipant
 
 ```php
 $channelsChannelParticipants = $client->channels->getParticipants(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	filter : $client->channelParticipantsRecent(),
 	offset : 0,
-	limit : 20,
+	limit : 37,
 	hash : 0,
 );
 ```

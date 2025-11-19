@@ -34,11 +34,11 @@ $update = $client->updateDialogUnreadMark(
 	unread : true,
 	peer : $client->dialogPeer(
 		peer : $client->peerUser(
-			user_id : 3703329726727333177,
+			user_id : 3521754546817767215,
 		),
 	),
 	saved_peer_id : $client->peerUser(
-		user_id : 788226767692917263,
+		user_id : 2216534919873667320,
 	),
 );
 ```

@@ -50,12 +50,12 @@ $webViewResult = $client->messages->requestSimpleWebView(
 	from_side_menu : true,
 	compact : true,
 	fullscreen : true,
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 	url : 'https://docs.liveproto.dev',
-	start_param : '5WGIqX084tFO2Tfb',
+	start_param : 'BtAx3FzfuEMknJor',
 	theme_params : $client->dataJSON(
-		data : 'ATiEan1hwcSBexlp',
+		data : 'N6CHgcoqfbGYUxOr',
 	),
-	platform : 'TlG34tPkN7nsVAih',
+	platform : '62OkcnSwy83lCKbv',
 );
 ```

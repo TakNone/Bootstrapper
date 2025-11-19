@@ -32,7 +32,7 @@ messageActionGiveawayResults#87e2f155 flags:# stars:flags.0?true winners_count:i
 ```php
 $messageAction = $client->messageActionGiveawayResults(
 	stars : true,
-	winners_count : 54,
-	unclaimed_count : 44,
+	winners_count : 88,
+	unclaimed_count : 98,
 );
 ```

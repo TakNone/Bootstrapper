@@ -36,6 +36,6 @@ help.getUserInfo#38a08d3 user_id:InputUser = help.UserInfo;
 
 ```php
 $helpUserInfo = $client->help->getUserInfo(
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

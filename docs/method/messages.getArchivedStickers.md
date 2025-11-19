@@ -35,6 +35,6 @@ $messagesArchivedStickers = $client->messages->getArchivedStickers(
 	masks : true,
 	emojis : true,
 	offset_id : 0,
-	limit : 3,
+	limit : 61,
 );
 ```

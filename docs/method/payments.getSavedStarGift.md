@@ -39,14 +39,14 @@ payments.getSavedStarGift#b455a106 stargift:Vector<InputSavedStarGift> = payment
 $paymentsSavedStarGifts = $client->payments->getSavedStarGift(
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 86,
+			msg_id : 38,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : -7382317325304760530,
+			saved_id : -1153761249062018518,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'GZy23CavQtds0rK6',
+			slug : 'RLrfK17gFyVqtDOj',
 		),
 	),
 );

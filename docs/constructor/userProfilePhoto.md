@@ -35,8 +35,8 @@ userProfilePhoto#82d1f706 flags:# has_video:flags.0?true personal:flags.2?true p
 $userProfilePhoto = $client->userProfilePhoto(
 	has_video : true,
 	personal : true,
-	photo_id : -6693196450981016948,
+	photo_id : 5439593694900734316,
 	stripped_thumb : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	dc_id : 13,
+	dc_id : 9,
 );
 ```

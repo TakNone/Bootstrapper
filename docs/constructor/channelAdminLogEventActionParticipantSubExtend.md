@@ -30,14 +30,14 @@ channelAdminLogEventActionParticipantSubExtend#64642db3 prev_participant:Channel
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantSubExtend(
 	prev_participant : $client->channelParticipant(
-		user_id : 8129607119514802155,
-		date : 53,
-		subscription_until_date : 14,
+		user_id : -137564851501137342,
+		date : 22,
+		subscription_until_date : 24,
 	),
 	new_participant : $client->channelParticipant(
-		user_id : 2676101727066796824,
-		date : 59,
-		subscription_until_date : 75,
+		user_id : -8004041961738034608,
+		date : 51,
+		subscription_until_date : 76,
 	),
 );
 ```

@@ -42,8 +42,8 @@ channels.reportSpam#f44a8315 channel:InputChannel participant:InputPeer id:Vecto
 
 ```php
 $bool = $client->channels->reportSpam(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(91),
+	id : array(98),
 );
 ```

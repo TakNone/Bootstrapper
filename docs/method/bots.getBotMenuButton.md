@@ -36,6 +36,6 @@ bots.getBotMenuButton#9c60eb28 user_id:InputUser = BotMenuButton;
 
 ```php
 $botMenuButton = $client->bots->getBotMenuButton(
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

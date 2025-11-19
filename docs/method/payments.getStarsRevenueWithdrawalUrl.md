@@ -45,7 +45,7 @@ payments.getStarsRevenueWithdrawalUrl#2433dc92 flags:# ton:flags.0?true peer:Inp
 $paymentsStarsRevenueWithdrawalUrl = $client->payments->getStarsRevenueWithdrawalUrl(
 	ton : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	amount : 7407481505447396144,
+	amount : 208809191218974693,
 	password : $client->inputCheckPasswordEmpty(),
 );
 ```

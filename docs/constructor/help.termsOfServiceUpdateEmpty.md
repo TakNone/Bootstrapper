@@ -28,6 +28,6 @@ help.termsOfServiceUpdateEmpty#e3309f7f expires:int = help.TermsOfServiceUpdate;
 
 ```php
 $helpTermsOfServiceUpdate = $client->help->termsOfServiceUpdateEmpty(
-	expires : 77,
+	expires : 10,
 );
 ```

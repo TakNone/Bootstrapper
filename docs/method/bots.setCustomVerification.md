@@ -43,8 +43,8 @@ bots.setCustomVerification#8b89dfbd flags:# enabled:flags.1?true bot:flags.0?Inp
 ```php
 $bool = $client->bots->setCustomVerification(
 	enabled : true,
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	custom_description : '4jyh1ucrY3JivdaQ',
+	custom_description : 'MZy3uxG7z1ae2vFY',
 );
 ```

@@ -28,6 +28,6 @@ sendMessageUploadVideoAction#e9763aec progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageUploadVideoAction(
-	progress : 94,
+	progress : 13,
 );
 ```

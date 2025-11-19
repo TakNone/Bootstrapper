@@ -44,21 +44,21 @@ $messageFwdHeader = $client->messageFwdHeader(
 	imported : true,
 	saved_out : true,
 	from_id : $client->peerUser(
-		user_id : -6620894780170807352,
+		user_id : 8480704285695863645,
 	),
-	from_name : 'LRXIskuyMaA52Tbf',
-	date : 93,
-	channel_post : 88,
-	post_author : '8KLrV0fA3QikmXZ4',
+	from_name : 'FYkrKywizqs3HV2g',
+	date : 97,
+	channel_post : 7,
+	post_author : 'WCwNuByxli13DtoV',
 	saved_from_peer : $client->peerUser(
-		user_id : 2258201523426125415,
+		user_id : -5404225867658565416,
 	),
-	saved_from_msg_id : 2,
+	saved_from_msg_id : 81,
 	saved_from_id : $client->peerUser(
-		user_id : -729187539880599774,
+		user_id : -613824176345428024,
 	),
-	saved_from_name : 'SBb7WEJOwQP64nYj',
-	saved_date : 26,
-	psa_type : 'AOnDlUtrK3YHXPTo',
+	saved_from_name : '5CU2Zn6xDrdJF9tl',
+	saved_date : 80,
+	psa_type : 'j3Fsb0ik1VQBYEeJ',
 );
 ```

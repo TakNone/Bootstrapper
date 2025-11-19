@@ -30,27 +30,27 @@ keyboardButtonRow#77608b83 buttons:Vector<KeyboardButton> = KeyboardButtonRow;
 $keyboardButtonRow = $client->keyboardButtonRow(
 	buttons : array(
 		$client->keyboardButton(
-			text : 'apDEXkgI0jMU5bCZ',
+			text : 'OCDtmSakfVxud9cG',
 		),
 		$client->keyboardButtonUrl(
-			text : 'oxkMmWGfN0rJFpqd',
+			text : 'g1ECrZfUeGMQIhlw',
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->keyboardButtonCallback(
 			requires_password : true,
-			text : 'RfzAlQdsg6N0Zi5q',
+			text : 'erVGIZ1AyDSvomnY',
 			data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->keyboardButtonRequestPhone(
-			text : 'cd6nksuFRjDqGzxr',
+			text : 'jryo14fM0Nwkmce5',
 		),
 		$client->keyboardButtonRequestGeoLocation(
-			text : 'uPt3YysBmwkohED2',
+			text : '7Hg06lUEpqdXNu2R',
 		),
 		$client->keyboardButtonSwitchInline(
 			same_peer : true,
-			text : 'uOV3WSyqTvC2Aesi',
-			query : '7qYN2jfldEICArKO',
+			text : 'zYEjthCZ0ABvNgX4',
+			query : 'yTDLqOX7wJA3zrPg',
 			peer_types : array(
 				$client->inlineQueryPeerTypeSameBotPM(),
 				$client->inlineQueryPeerTypePM(),
@@ -61,68 +61,68 @@ $keyboardButtonRow = $client->keyboardButtonRow(
 			),
 		),
 		$client->keyboardButtonGame(
-			text : 'QVgkLUDyi8T7oAeY',
+			text : 'bO9ljUgz3khZcqWy',
 		),
 		$client->keyboardButtonBuy(
-			text : 'j24XWRBfwYAskSqJ',
+			text : 'WREsuiIdorbvQCh3',
 		),
 		$client->keyboardButtonUrlAuth(
-			text : '7r2z1mdGcbYjgIyf',
-			fwd_text : '5lUwPsebXE1x7KJt',
+			text : 'Mhr6zu9i7bYk3TAE',
+			fwd_text : '5G1clIgLvfr6Ua94',
 			url : 'https://docs.liveproto.dev',
-			button_id : 18,
+			button_id : 42,
 		),
 		$client->inputKeyboardButtonUrlAuth(
 			request_write_access : true,
-			text : 'pjS0MCT6wnYrzsvy',
-			fwd_text : 'oVBp3TaD9b2KLfMi',
+			text : 'H6we5MxAJWiVCZKB',
+			fwd_text : 'nHVXO9GrCJ4MR1he',
 			url : 'https://docs.liveproto.dev',
-			bot : $client->get_input_user(peer : '@TakNone'),
+			bot : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->keyboardButtonRequestPoll(
-			quiz : true,
-			text : 'fXAi9ZuzHtmTDLkE',
+			quiz : false,
+			text : 'QoSktaJAhO1yXLxu',
 		),
 		$client->inputKeyboardButtonUserProfile(
-			text : 'FuPmVAXDGlW8zfoY',
-			user_id : $client->get_input_user(peer : '@TakNone'),
+			text : 'HW6hoyuQ9q2NLODY',
+			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->keyboardButtonUserProfile(
-			text : '8f6E0UAmXQOkjgVt',
-			user_id : 6967627641257878283,
+			text : 'pSrC8EtebF3kgHDQ',
+			user_id : 6684519128047058760,
 		),
 		$client->keyboardButtonWebView(
-			text : '2uBgpTXYebCnDLUa',
+			text : 'MvASOpIdc16zmB7k',
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->keyboardButtonSimpleWebView(
-			text : '4QMXvpE8fiagA6kF',
+			text : 'yaTzn9fO5qUbKodv',
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->keyboardButtonRequestPeer(
-			text : 'HxDWtSQRnpaGgh5J',
-			button_id : 77,
+			text : 'UVePuK4xbHsADoMZ',
+			button_id : 71,
 			peer_type : $client->requestPeerTypeUser(
 				bot : false,
-				premium : true,
+				premium : false,
 			),
-			max_quantity : 69,
+			max_quantity : 76,
 		),
 		$client->inputKeyboardButtonRequestPeer(
 			name_requested : true,
 			username_requested : true,
 			photo_requested : true,
-			text : 'U2JHqzQMF875y4EI',
-			button_id : 94,
+			text : 'JLWx38n9uvklUmQo',
+			button_id : 10,
 			peer_type : $client->requestPeerTypeUser(
 				bot : true,
 				premium : true,
 			),
-			max_quantity : 3,
+			max_quantity : 9,
 		),
 		$client->keyboardButtonCopy(
-			text : 'tgQIrHjZD0kPluqV',
-			copy_text : 'wb0ELmkB6YnPic1A',
+			text : 'X8EpwkK4ePLDiMjd',
+			copy_text : 'YXv9sgSLId83pCnF',
 		),
 	),
 );

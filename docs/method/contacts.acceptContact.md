@@ -39,6 +39,6 @@ contacts.acceptContact#f831a20f id:InputUser = Updates;
 
 ```php
 $updates = $client->contacts->acceptContact(
-	id : $client->get_input_user(peer : '@TakNone'),
+	id : $client->get_input_user(user : '@TakNone'),
 );
 ```

@@ -41,6 +41,6 @@ messages.getStatsURL#812c2ae6 flags:# dark:flags.0?true peer:InputPeer params:st
 $statsURL = $client->messages->getStatsURL(
 	dark : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	params : 'f9Hn6cYJ8tBUQxqW',
+	params : 'IC1ou8gWYQ5l9A63',
 );
 ```

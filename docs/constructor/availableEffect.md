@@ -35,10 +35,10 @@ availableEffect#93c3e27e flags:# premium_required:flags.2?true id:long emoticon:
 ```php
 $availableEffect = $client->availableEffect(
 	premium_required : true,
-	id : 3031981467287585674,
-	emoticon : 'u52TtRGJPN80C1dL',
-	static_icon_id : 557264729090992746,
-	effect_sticker_id : 8050441795436015266,
-	effect_animation_id : -7467293237454168760,
+	id : -2777322294818077139,
+	emoticon : 'CQ7ZSukbvHzYR5lc',
+	static_icon_id : -562798701773620896,
+	effect_sticker_id : 3818744879908285558,
+	effect_animation_id : -7962466667044167009,
 );
 ```

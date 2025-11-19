@@ -29,7 +29,7 @@ photoPathSize#d8214d41 type:string bytes:bytes = PhotoSize;
 
 ```php
 $photoSize = $client->photoPathSize(
-	type : 'SHIjLJN03GifR1Z5',
+	type : 'w5VsJ8jvCPABNyGe',
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -30,8 +30,8 @@ account.getUniqueGiftChatThemes#e42ce9c9 offset:string limit:int hash:long = acc
 
 ```php
 $accountChatThemes = $client->account->getUniqueGiftChatThemes(
-	offset : '3cX05K97toxNwa8i',
-	limit : 36,
+	offset : 'Q0n5L7YWEej2pk8K',
+	limit : 72,
 	hash : 0,
 );
 ```

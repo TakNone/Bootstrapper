@@ -33,14 +33,14 @@ updateDraftMessage#edfc111e flags:# peer:Peer top_msg_id:flags.0?int saved_peer_
 ```php
 $update = $client->updateDraftMessage(
 	peer : $client->peerUser(
-		user_id : 4650944759970993361,
+		user_id : 729505871614518684,
 	),
-	top_msg_id : 89,
+	top_msg_id : 77,
 	saved_peer_id : $client->peerUser(
-		user_id : -6201952733192427885,
+		user_id : -693462152344787293,
 	),
 	draft : $client->draftMessageEmpty(
-		date : 0,
+		date : 45,
 	),
 );
 ```

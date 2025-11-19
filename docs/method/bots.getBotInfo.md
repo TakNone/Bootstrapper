@@ -40,7 +40,7 @@ bots.getBotInfo#dcd914fd flags:# bot:flags.0?InputUser lang_code:string = bots.B
 
 ```php
 $botsBotInfo = $client->bots->getBotInfo(
-	bot : $client->get_input_user(peer : '@TakNone'),
-	lang_code : 'LlCYmj6qKUpFZhyw',
+	bot : $client->get_input_user(user : '@TakNone'),
+	lang_code : 'ipVIRejScustEvAN',
 );
 ```

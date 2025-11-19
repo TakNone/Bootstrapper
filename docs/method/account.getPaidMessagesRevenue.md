@@ -40,6 +40,6 @@ account.getPaidMessagesRevenue#19ba4a67 flags:# parent_peer:flags.0?InputPeer us
 ```php
 $accountPaidMessagesRevenue = $client->account->getPaidMessagesRevenue(
 	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

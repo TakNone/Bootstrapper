@@ -27,11 +27,11 @@ users.suggestBirthday#fc533372 id:InputUser birthday:Birthday = Updates;
 
 ```php
 $updates = $client->users->suggestBirthday(
-	id : $client->get_input_user(peer : '@TakNone'),
+	id : $client->get_input_user(user : '@TakNone'),
 	birthday : $client->birthday(
-		day : 64,
-		month : 95,
-		year : 42,
+		day : 55,
+		month : 7,
+		year : 65,
 	),
 );
 ```

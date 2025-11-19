@@ -34,9 +34,9 @@ inputBotInlineMessageMediaGeo#96929a85 flags:# geo_point:InputGeoPoint heading:f
 ```php
 $inputBotInlineMessage = $client->inputBotInlineMessageMediaGeo(
 	geo_point : $client->inputGeoPointEmpty(),
-	heading : 28,
-	period : 72,
-	proximity_notification_radius : 76,
+	heading : 77,
+	period : 44,
+	proximity_notification_radius : 20,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

@@ -28,8 +28,8 @@ payments.requestRecurringPayment#146e958d user_id:InputUser recurring_init_charg
 
 ```php
 $updates = $client->payments->requestRecurringPayment(
-	user_id : $client->get_input_user(peer : '@TakNone'),
-	recurring_init_charge : 'vBdc0XSZWVL7IKnl',
+	user_id : $client->get_input_user(user : '@TakNone'),
+	recurring_init_charge : 'rRWwOu8pA2gHY6n1',
 	invoice_media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );
 ```

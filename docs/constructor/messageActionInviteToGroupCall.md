@@ -30,9 +30,9 @@ messageActionInviteToGroupCall#502f92f7 call:InputGroupCall users:Vector<long> =
 ```php
 $messageAction = $client->messageActionInviteToGroupCall(
 	call : $client->inputGroupCall(
-		id : 616094852303610561,
-		access_hash : 279675529977818623,
+		id : 980052560211243118,
+		access_hash : -5937139793254735528,
 	),
-	users : array(8957167389590442561),
+	users : array(-532533125623974161),
 );
 ```

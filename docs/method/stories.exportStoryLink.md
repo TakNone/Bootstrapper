@@ -40,6 +40,6 @@ stories.exportStoryLink#7b8def20 peer:InputPeer id:int = ExportedStoryLink;
 ```php
 $exportedStoryLink = $client->stories->exportStoryLink(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 5,
+	id : 48,
 );
 ```

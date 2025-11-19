@@ -34,6 +34,6 @@ messages.historyImportParsed#5e0fb7b9 flags:# pm:flags.0?true group:flags.1?true
 $messagesHistoryImportParsed = $client->messages->historyImportParsed(
 	pm : true,
 	group : true,
-	title : 'AVtHxcf9pBGjwMo8',
+	title : '9g3reFcz1oTKiYBv',
 );
 ```

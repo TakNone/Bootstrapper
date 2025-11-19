@@ -33,6 +33,6 @@ contacts.setBlocked#94c65c76 flags:# my_stories_from:flags.0?true id:Vector<Inpu
 $bool = $client->contacts->setBlocked(
 	my_stories_from : true,
 	id : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	limit : 79,
+	limit : 64,
 );
 ```

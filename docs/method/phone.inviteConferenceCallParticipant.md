@@ -41,9 +41,9 @@ phone.inviteConferenceCallParticipant#bcf22685 flags:# video:flags.0?true call:I
 $updates = $client->phone->inviteConferenceCallParticipant(
 	video : true,
 	call : $client->inputGroupCall(
-		id : 2399531237283702781,
-		access_hash : -5955996482860323471,
+		id : 2208349762353663708,
+		access_hash : -2670201762252530732,
 	),
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

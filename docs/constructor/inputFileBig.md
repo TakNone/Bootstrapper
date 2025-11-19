@@ -30,8 +30,8 @@ inputFileBig#fa4f0bb5 id:long parts:int name:string = InputFile;
 
 ```php
 $inputFile = $client->inputFileBig(
-	id : 2425677064475251065,
-	parts : 12,
-	name : 'wC8rTBkZzWL6bKQ2',
+	id : 532019134970495862,
+	parts : 24,
+	name : 'q1cBbFJfGiKLw6Pa',
 );
 ```

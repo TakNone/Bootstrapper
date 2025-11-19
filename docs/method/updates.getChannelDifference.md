@@ -55,9 +55,9 @@ updates.getChannelDifference#3173d78 flags:# force:flags.0?true channel:InputCha
 ```php
 $updatesChannelDifference = $client->updates->getChannelDifference(
 	force : true,
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	filter : $client->channelMessagesFilterEmpty(),
-	pts : 85,
-	limit : 72,
+	pts : 48,
+	limit : 84,
 );
 ```

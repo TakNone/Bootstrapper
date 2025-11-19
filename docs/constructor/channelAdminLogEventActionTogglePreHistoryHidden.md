@@ -28,6 +28,6 @@ channelAdminLogEventActionTogglePreHistoryHidden#5f5c95f1 new_value:Bool = Chann
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionTogglePreHistoryHidden(
-	new_value : true,
+	new_value : false,
 );
 ```

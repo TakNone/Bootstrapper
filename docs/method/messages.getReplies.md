@@ -49,13 +49,13 @@ messages.getReplies#22ddd30c peer:InputPeer msg_id:int offset_id:int offset_date
 ```php
 $messagesMessages = $client->messages->getReplies(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 2,
+	msg_id : 30,
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 83,
-	limit : 74,
-	max_id : 89,
-	min_id : 65,
+	add_offset : 27,
+	limit : 57,
+	max_id : 7,
+	min_id : 52,
 	hash : 0,
 );
 ```

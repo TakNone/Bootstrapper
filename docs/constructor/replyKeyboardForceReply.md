@@ -33,6 +33,6 @@ replyKeyboardForceReply#86b40b08 flags:# single_use:flags.1?true selective:flags
 $replyMarkup = $client->replyKeyboardForceReply(
 	single_use : true,
 	selective : true,
-	placeholder : 'hasZ4gMudSRotXPb',
+	placeholder : 'XImdTHqW3fEFD6cu',
 );
 ```

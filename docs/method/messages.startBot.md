@@ -48,9 +48,9 @@ messages.startBot#e6df7378 bot:InputUser peer:InputPeer random_id:long start_par
 
 ```php
 $updates = $client->messages->startBot(
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	random_id : -8184179852197496502,
-	start_param : 'vg4Izu20Hc8oPeW9',
+	random_id : 9013138588040790018,
+	start_param : 'r9cmv1sRBVXP03Kj',
 );
 ```

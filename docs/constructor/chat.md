@@ -51,13 +51,13 @@ $chat = $client->chat(
 	call_active : true,
 	call_not_empty : true,
 	noforwards : true,
-	id : -1160017791414915392,
-	title : 'hNoL4G9aRlPyFz1c',
+	id : 3965159844915367917,
+	title : 'VyWadzkTNZI3gKUj',
 	photo : $client->chatPhotoEmpty(),
-	participants_count : 8,
-	date : 82,
-	version : 15,
-	migrated_to : $client->get_input_channel(peer : '@LiveProto'),
+	participants_count : 18,
+	date : 54,
+	version : 63,
+	migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -97,7 +97,7 @@ $chat = $client->chat(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 28,
+		until_date : 5,
 	),
 );
 ```

@@ -30,6 +30,6 @@ payments.connectStarRefBot#7ed5348a peer:InputPeer bot:InputUser = payments.Conn
 ```php
 $paymentsConnectedStarRefBots = $client->payments->connectStarRefBot(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 );
 ```

@@ -33,8 +33,8 @@ messageActionTopicCreate#d999256 flags:# title_missing:flags.1?true title:string
 ```php
 $messageAction = $client->messageActionTopicCreate(
 	title_missing : true,
-	title : 'rChQe2jPADE91gRp',
-	icon_color : 72,
-	icon_emoji_id : 714646275186817709,
+	title : 'xQhRk7GXrEPNtqT3',
+	icon_color : 75,
+	icon_emoji_id : 4621139575088898639,
 );
 ```

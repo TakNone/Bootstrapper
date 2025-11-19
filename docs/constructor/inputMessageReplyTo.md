@@ -28,6 +28,6 @@ inputMessageReplyTo#bad88395 id:int = InputMessage;
 
 ```php
 $inputMessage = $client->inputMessageReplyTo(
-	id : 46,
+	id : 97,
 );
 ```

@@ -58,14 +58,14 @@ $updates = $client->messages->sendReaction(
 	big : true,
 	add_to_recent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 16,
+	msg_id : 4,
 	reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'H3DUjQdOMZsgNb7q',
+			emoticon : 'QUIxgViOSK8Yd0tH',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -6212892520129193463,
+			document_id : -6257154365448234597,
 		),
 		$client->reactionPaid(),
 	),

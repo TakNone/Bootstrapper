@@ -30,8 +30,8 @@ restrictionReason#d072acb4 platform:string reason:string text:string = Restricti
 
 ```php
 $restrictionReason = $client->restrictionReason(
-	platform : 'szLXZ1TwIxjPdlGe',
-	reason : 'NFVkL2de1a9QwCWs',
-	text : '9kZHg0EvGmJKAdV1',
+	platform : 'ji8AutlHkQGwL9eS',
+	reason : 'HnubVGqmS2i8Od3M',
+	text : 'W1MI7mO9c6PpgQGH',
 );
 ```

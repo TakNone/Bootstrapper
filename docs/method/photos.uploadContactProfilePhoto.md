@@ -46,16 +46,16 @@ photos.uploadContactProfilePhoto#e14c4a71 flags:# suggest:flags.3?true save:flag
 $photosPhoto = $client->photos->uploadContactProfilePhoto(
 	suggest : true,
 	save : true,
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : -1049077.7431640625,
+	video_start_ts : 237044.515625,
 	video_emoji_markup : $client->videoSize(
-		type : 'M1csGSk2fJga5Adb',
-		w : 42,
-		h : 70,
-		size : 47,
-		video_start_ts : 1152293.03515625,
+		type : 'mMojKcG1Ih5SbDyp',
+		w : 30,
+		h : 7,
+		size : 45,
+		video_start_ts : -140833.3671875,
 	),
 );
 ```

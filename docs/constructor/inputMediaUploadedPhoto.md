@@ -37,11 +37,11 @@ $inputMedia = $client->inputMediaUploadedPhoto(
 	stickers : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : 2446902669373828270,
-			access_hash : 4394957062151415946,
+			id : -3614324793728962025,
+			access_hash : 6743762753277229681,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	ttl_seconds : 33,
+	ttl_seconds : 1,
 );
 ```

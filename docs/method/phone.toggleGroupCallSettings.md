@@ -43,10 +43,10 @@ phone.toggleGroupCallSettings#e9723804 flags:# reset_invite_hash:flags.1?true ca
 $updates = $client->phone->toggleGroupCallSettings(
 	reset_invite_hash : true,
 	call : $client->inputGroupCall(
-		id : 3806682800318054816,
-		access_hash : 1020285429648952750,
+		id : -1944482083840401316,
+		access_hash : 9133036939959429448,
 	),
-	join_muted : true,
-	messages_enabled : true,
+	join_muted : false,
+	messages_enabled : false,
 );
 ```

@@ -36,6 +36,6 @@ contacts.deleteContacts#96a0e00 id:Vector<InputUser> = Updates;
 
 ```php
 $updates = $client->contacts->deleteContacts(
-	id : array($client->get_input_user(peer : '@TakNone')),
+	id : array($client->get_input_user(user : '@TakNone')),
 );
 ```

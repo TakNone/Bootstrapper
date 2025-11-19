@@ -29,7 +29,7 @@ bots.getPopularAppBots#c2510192 offset:string limit:int = bots.PopularAppBots;
 
 ```php
 $botsPopularAppBots = $client->bots->getPopularAppBots(
-	offset : 'iHntWx64VK9QdOYZ',
-	limit : 91,
+	offset : 'KZP4VIaFwmuk6OvE',
+	limit : 68,
 );
 ```

@@ -53,8 +53,8 @@ $messagesAffectedHistory = $client->messages->deleteHistory(
 	just_clear : true,
 	revoke : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	max_id : 68,
-	min_date : 87,
-	max_date : 27,
+	max_id : 80,
+	min_date : 88,
+	max_date : 2,
 );
 ```

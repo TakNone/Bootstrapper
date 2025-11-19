@@ -38,8 +38,8 @@ account.unregisterDevice#6a0d3206 token_type:int token:string other_uids:Vector<
 
 ```php
 $bool = $client->account->unregisterDevice(
-	token_type : 89,
-	token : 'L1n8ElzBR6tij5QT',
-	other_uids : array(-2120573789805140035),
+	token_type : 90,
+	token : 'wntqAFWI5eCaykvQ',
+	other_uids : array(-3635723991514262748),
 );
 ```

@@ -39,6 +39,6 @@ payments.getStarsGiftOptions#d3c96bc8 flags:# user_id:flags.0?InputUser = Vector
 
 ```php
 $starsGiftOption = $client->payments->getStarsGiftOptions(
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

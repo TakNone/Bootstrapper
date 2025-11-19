@@ -31,13 +31,13 @@ topPeerCategoryPeers#fb834291 category:TopPeerCategory count:int peers:Vector<To
 ```php
 $topPeerCategoryPeers = $client->topPeerCategoryPeers(
 	category : $client->topPeerCategoryBotsPM(),
-	count : 3,
+	count : 37,
 	peers : array(
 		$client->topPeer(
 			peer : $client->peerUser(
-				user_id : -2173877785285458010,
+				user_id : 6581947963115004982,
 			),
-			rating : 423722.5615234375,
+			rating : 743997.1669921875,
 		),
 	),
 );

@@ -33,27 +33,27 @@ payments.starsRevenueStats#6c207376 flags:# top_hours_graph:flags.0?StatsGraph r
 ```php
 $paymentsStarsRevenueStats = $client->payments->starsRevenueStats(
 	top_hours_graph : $client->statsGraphAsync(
-		token : 'xTVj4tq0Ac3dv19E',
+		token : 'iO0a1yKuJ4EPWSz5',
 	),
 	revenue_graph : $client->statsGraphAsync(
-		token : 'cE7Bsd1hAqZQYeJi',
+		token : 'hLEa7dckG0xWzZbK',
 	),
 	status : $client->starsRevenueStatus(
 		withdrawal_enabled : true,
 		current_balance : $client->starsAmount(
-			amount : 5203449673797839418,
-			nanos : 77,
+			amount : 6920769401269796200,
+			nanos : 84,
 		),
 		available_balance : $client->starsAmount(
-			amount : -486957005573540505,
-			nanos : 83,
+			amount : -9060251587404510679,
+			nanos : 97,
 		),
 		overall_revenue : $client->starsAmount(
-			amount : 2478228841866361921,
-			nanos : 46,
+			amount : -2621593812585411521,
+			nanos : 75,
 		),
-		next_withdrawal_at : 15,
+		next_withdrawal_at : 85,
 	),
-	usd_rate : -586766.0634765625,
+	usd_rate : 1504557.427734375,
 );
 ```

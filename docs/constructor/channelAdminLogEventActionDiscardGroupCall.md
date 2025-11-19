@@ -29,8 +29,8 @@ channelAdminLogEventActionDiscardGroupCall#db9f9140 call:InputGroupCall = Channe
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionDiscardGroupCall(
 	call : $client->inputGroupCall(
-		id : 5913433807115835313,
-		access_hash : -3874286766018871581,
+		id : -9191157229050266053,
+		access_hash : -3794452407801666815,
 	),
 );
 ```

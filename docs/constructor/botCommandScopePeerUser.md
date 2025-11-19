@@ -30,6 +30,6 @@ botCommandScopePeerUser#a1321f3 peer:InputPeer user_id:InputUser = BotCommandSco
 ```php
 $botCommandScope = $client->botCommandScopePeerUser(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

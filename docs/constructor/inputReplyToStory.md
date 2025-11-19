@@ -30,6 +30,6 @@ inputReplyToStory#5881323a peer:InputPeer story_id:int = InputReplyTo;
 ```php
 $inputReplyTo = $client->inputReplyToStory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	story_id : 9,
+	story_id : 44,
 );
 ```

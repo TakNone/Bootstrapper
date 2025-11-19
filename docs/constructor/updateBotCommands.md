@@ -31,13 +31,13 @@ updateBotCommands#4d712f2e peer:Peer bot_id:long commands:Vector<BotCommand> = U
 ```php
 $update = $client->updateBotCommands(
 	peer : $client->peerUser(
-		user_id : 7084365121217981729,
+		user_id : -1779936146317686858,
 	),
-	bot_id : 323628865726501057,
+	bot_id : -6975052993504406535,
 	commands : array(
 		$client->botCommand(
-			command : 'V1eErM0IG6sFRgUQ',
-			description : '5P1kzWNDeVY3jixR',
+			command : 'SmlaBADcU6noH5uv',
+			description : '1l2vHzmU9WN8keCY',
 		),
 	),
 );

@@ -45,7 +45,7 @@ stories.sendReaction#7fd736b2 flags:# add_to_recent:flags.0?true peer:InputPeer 
 $updates = $client->stories->sendReaction(
 	add_to_recent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	story_id : 20,
+	story_id : 30,
 	reaction : $client->reactionEmpty(),
 );
 ```

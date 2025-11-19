@@ -40,7 +40,7 @@ channels.setStickers#ea8ca4f9 channel:InputChannel stickerset:InputStickerSet = 
 
 ```php
 $bool = $client->channels->setStickers(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	stickerset : $client->inputStickerSetEmpty(),
 );
 ```

@@ -29,7 +29,7 @@ attachMenuBotIconColor#4576f3f0 name:string color:int = AttachMenuBotIconColor;
 
 ```php
 $attachMenuBotIconColor = $client->attachMenuBotIconColor(
-	name : '89mnZgN15qdHfrUM',
-	color : 27,
+	name : 'IqisOXLd7153T40Z',
+	color : 23,
 );
 ```

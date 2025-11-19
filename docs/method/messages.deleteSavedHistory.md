@@ -43,8 +43,8 @@ messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:
 $messagesAffectedHistory = $client->messages->deleteSavedHistory(
 	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	max_id : 52,
-	min_date : 43,
-	max_date : 78,
+	max_id : 4,
+	min_date : 83,
+	max_date : 94,
 );
 ```

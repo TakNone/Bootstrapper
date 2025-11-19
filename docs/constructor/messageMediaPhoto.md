@@ -33,8 +33,8 @@ messageMediaPhoto#695150d7 flags:# spoiler:flags.3?true photo:flags.0?Photo ttl_
 $messageMedia = $client->messageMediaPhoto(
 	spoiler : true,
 	photo : $client->photoEmpty(
-		id : 3182587320363719774,
+		id : -8059583086833752451,
 	),
-	ttl_seconds : 46,
+	ttl_seconds : 45,
 );
 ```

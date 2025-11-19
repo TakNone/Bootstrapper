@@ -39,9 +39,9 @@ messages.sendWebViewData#dc0242c8 bot:InputUser random_id:long button_text:strin
 
 ```php
 $updates = $client->messages->sendWebViewData(
-	bot : $client->get_input_user(peer : '@TakNone'),
-	random_id : 2231359502998244538,
-	button_text : 'IAWYnF1yqahTjLk2',
-	data : 'nguhTqWEHmyIf1tO',
+	bot : $client->get_input_user(user : '@TakNone'),
+	random_id : 1998183532674114821,
+	button_text : '4nOgeNKRZm2fob3r',
+	data : 'i0Zx4K75Sjls1qRO',
 );
 ```

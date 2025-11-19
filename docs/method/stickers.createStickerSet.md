@@ -66,23 +66,23 @@ $messagesStickerSet = $client->stickers->createStickerSet(
 	masks : true,
 	emojis : true,
 	text_color : true,
-	user_id : $client->get_input_user(peer : '@TakNone'),
-	title : 't9oVs3eZSnbwBgLc',
-	short_name : 'G5cwOqlMzrQt4mTW',
+	user_id : $client->get_input_user(user : '@TakNone'),
+	title : '9f6IQNGJg8ioAO2X',
+	short_name : '7Mt9RS1WFYLqJg4Z',
 	thumb : $client->inputDocumentEmpty(),
 	stickers : array(
 		$client->inputStickerSetItem(
 			document : $client->inputDocumentEmpty(),
-			emoji : 'IKFpuD9WwJZR8Syc',
+			emoji : 'UijbTkKnqL0I3D8W',
 			mask_coords : $client->maskCoords(
-				n : 6,
-				x : 288021.2490234375,
-				y : 1289629.0361328125,
-				zoom : 345238.720703125,
+				n : 78,
+				x : -1157080.4794921875,
+				y : -486586.2021484375,
+				zoom : -289018.4189453125,
 			),
-			keywords : 'cQwj3rvbyMtR2plg',
+			keywords : '6HNWRtF3CeoIvJjX',
 		),
 	),
-	software : 'LGS2PFazesK87vE6',
+	software : 'eTftmLdSQM0NJ7kp',
 );
 ```

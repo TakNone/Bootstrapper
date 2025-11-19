@@ -42,6 +42,6 @@ stats.getBroadcastStats#ab42441a flags:# dark:flags.0?true channel:InputChannel 
 ```php
 $statsBroadcastStats = $client->stats->getBroadcastStats(
 	dark : true,
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

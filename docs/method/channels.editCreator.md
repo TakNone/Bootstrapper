@@ -51,8 +51,8 @@ channels.editCreator#8f38cd1f channel:InputChannel user_id:InputUser password:In
 
 ```php
 $updates = $client->channels->editCreator(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 	password : $client->inputCheckPasswordEmpty(),
 );
 ```

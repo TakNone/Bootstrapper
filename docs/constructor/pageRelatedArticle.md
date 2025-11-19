@@ -36,11 +36,11 @@ pageRelatedArticle#b390dc08 flags:# url:string webpage_id:long title:flags.0?str
 ```php
 $pageRelatedArticle = $client->pageRelatedArticle(
 	url : 'https://docs.liveproto.dev',
-	webpage_id : 676037360258082224,
-	title : 't0jdvUBzfqWh6sHo',
-	description : 'ns5uerptVRWQok49',
-	photo_id : -9154327512952164271,
-	author : 'Aq1jGJND5aQMrLZd',
-	published_date : 63,
+	webpage_id : -2561409022656712012,
+	title : 'aYZ25Xkxt9mH1gNu',
+	description : 'xVMGYD86ESZLmjeN',
+	photo_id : 5723577693694914905,
+	author : 'VE6la2BDLTWgmXuS',
+	published_date : 21,
 );
 ```

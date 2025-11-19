@@ -40,7 +40,7 @@ bots.setBotMenuButton#4504d54f user_id:InputUser button:BotMenuButton = Bool;
 
 ```php
 $bool = $client->bots->setBotMenuButton(
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 	button : $client->botMenuButtonDefault(),
 );
 ```

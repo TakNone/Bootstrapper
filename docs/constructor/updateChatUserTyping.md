@@ -30,9 +30,9 @@ updateChatUserTyping#83487af0 chat_id:long from_id:Peer action:SendMessageAction
 
 ```php
 $update = $client->updateChatUserTyping(
-	chat_id : -3123128858752075808,
+	chat_id : 6735518930327138847,
 	from_id : $client->peerUser(
-		user_id : -1182958707179478941,
+		user_id : 424727737053337062,
 	),
 	action : $client->sendMessageTypingAction(),
 );

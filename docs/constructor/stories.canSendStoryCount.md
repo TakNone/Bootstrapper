@@ -28,6 +28,6 @@ stories.canSendStoryCount#c387c04e count_remains:int = stories.CanSendStoryCount
 
 ```php
 $storiesCanSendStoryCount = $client->stories->canSendStoryCount(
-	count_remains : 21,
+	count_remains : 66,
 );
 ```

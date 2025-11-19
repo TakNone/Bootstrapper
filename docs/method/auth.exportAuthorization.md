@@ -36,6 +36,6 @@ auth.exportAuthorization#e5bfffcd dc_id:int = auth.ExportedAuthorization;
 
 ```php
 $authExportedAuthorization = $client->auth->exportAuthorization(
-	dc_id : 71,
+	dc_id : 27,
 );
 ```

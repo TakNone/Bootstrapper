@@ -32,7 +32,7 @@ messages.searchEmojiStickerSets#92b4494c flags:# exclude_featured:flags.0?true q
 ```php
 $messagesFoundStickerSets = $client->messages->searchEmojiStickerSets(
 	exclude_featured : true,
-	q : 'hjvJAi0VYMXHF6G2',
+	q : 'CeLUBGsKoOwmDtIh',
 	hash : 0,
 );
 ```

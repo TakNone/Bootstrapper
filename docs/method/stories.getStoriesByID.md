@@ -42,6 +42,6 @@ stories.getStoriesByID#5774ca74 peer:InputPeer id:Vector<int> = stories.Stories;
 ```php
 $storiesStories = $client->stories->getStoriesByID(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(23),
+	id : array(30),
 );
 ```

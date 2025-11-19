@@ -38,7 +38,7 @@ channels.toggleAntiSpam#68f3e4eb channel:InputChannel enabled:Bool = Updates;
 
 ```php
 $updates = $client->channels->toggleAntiSpam(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	enabled : false,
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	enabled : true,
 );
 ```

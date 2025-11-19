@@ -34,7 +34,7 @@ documentAttributeCustomEmoji#fd149899 flags:# free:flags.0?true text_color:flags
 $documentAttribute = $client->documentAttributeCustomEmoji(
 	free : true,
 	text_color : true,
-	alt : 'UMiWua93S6pw0gCZ',
+	alt : 'yrzPSmNxJKbU2W7o',
 	stickerset : $client->inputStickerSetEmpty(),
 );
 ```

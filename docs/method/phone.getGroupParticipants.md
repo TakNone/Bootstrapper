@@ -41,12 +41,12 @@ phone.getGroupParticipants#c558d8ab call:InputGroupCall ids:Vector<InputPeer> so
 ```php
 $phoneGroupParticipants = $client->phone->getGroupParticipants(
 	call : $client->inputGroupCall(
-		id : 9102891285255176196,
-		access_hash : 8378600011101578340,
+		id : 681390093525662212,
+		access_hash : -8789185089019673613,
 	),
 	ids : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	sources : array(8),
-	offset : 'Z0imopMBAWdsLUS2',
-	limit : 55,
+	sources : array(32),
+	offset : 'vNwTUliG3y9pVROq',
+	limit : 7,
 );
 ```

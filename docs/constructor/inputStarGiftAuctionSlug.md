@@ -26,6 +26,6 @@ inputStarGiftAuctionSlug#7ab58308 slug:string = InputStarGiftAuction;
 
 ```php
 $inputStarGiftAuction = $client->inputStarGiftAuctionSlug(
-	slug : 'npo05kxBO3N4v76Y',
+	slug : 'p2QfeXc7YCn3rDsM',
 );
 ```

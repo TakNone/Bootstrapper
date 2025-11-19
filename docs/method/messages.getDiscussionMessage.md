@@ -42,6 +42,6 @@ messages.getDiscussionMessage#446972fd peer:InputPeer msg_id:int = messages.Disc
 ```php
 $messagesDiscussionMessage = $client->messages->getDiscussionMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 51,
+	msg_id : 62,
 );
 ```

@@ -31,6 +31,6 @@ businessLocation#ac5c1af7 flags:# geo_point:flags.0?GeoPoint address:string = Bu
 ```php
 $businessLocation = $client->businessLocation(
 	geo_point : $client->geoPointEmpty(),
-	address : 'OX5ho19taQBeCgqL',
+	address : 'DNt4Uwu07YiTFQc3',
 );
 ```

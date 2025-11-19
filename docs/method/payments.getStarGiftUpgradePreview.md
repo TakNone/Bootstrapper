@@ -36,6 +36,6 @@ payments.getStarGiftUpgradePreview#9c9abcb1 gift_id:long = payments.StarGiftUpgr
 
 ```php
 $paymentsStarGiftUpgradePreview = $client->payments->getStarGiftUpgradePreview(
-	gift_id : 1207207481542043037,
+	gift_id : -8452736538061601056,
 );
 ```

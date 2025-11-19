@@ -30,16 +30,16 @@ account.updateBusinessGreetingMessage#66cdafc4 flags:# message:flags.0?InputBusi
 ```php
 $bool = $client->account->updateBusinessGreetingMessage(
 	message : $client->inputBusinessGreetingMessage(
-		shortcut_id : 92,
+		shortcut_id : 48,
 		recipients : $client->inputBusinessRecipients(
 			existing_chats : true,
 			new_chats : true,
 			contacts : true,
 			non_contacts : true,
 			exclude_selected : true,
-			users : array($client->get_input_user(peer : '@TakNone')),
+			users : array($client->get_input_user(user : '@TakNone')),
 		),
-		no_activity_days : 71,
+		no_activity_days : 24,
 	),
 );
 ```

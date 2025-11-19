@@ -38,8 +38,8 @@ phone.sendSignalingData#ff7a9383 peer:InputPhoneCall data:bytes = Bool;
 ```php
 $bool = $client->phone->sendSignalingData(
 	peer : $client->inputPhoneCall(
-		id : -7788745700229099522,
-		access_hash : 3387556796194838186,
+		id : -2190631361723411000,
+		access_hash : -1787695990817050951,
 	),
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

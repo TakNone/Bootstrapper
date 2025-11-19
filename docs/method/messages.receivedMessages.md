@@ -28,6 +28,6 @@ messages.receivedMessages#5a954c0 max_id:int = Vector<ReceivedNotifyMessage>;
 
 ```php
 $receivedNotifyMessage = $client->messages->receivedMessages(
-	max_id : 71,
+	max_id : 73,
 );
 ```

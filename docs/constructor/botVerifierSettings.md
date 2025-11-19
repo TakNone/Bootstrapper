@@ -33,8 +33,8 @@ botVerifierSettings#b0cd6617 flags:# can_modify_custom_description:flags.1?true 
 ```php
 $botVerifierSettings = $client->botVerifierSettings(
 	can_modify_custom_description : true,
-	icon : -8475069052721706178,
-	company : 'XAuxib0pRPKOYyFd',
-	custom_description : 'HGl8DriaUv6PW2Vd',
+	icon : 5129380816858336892,
+	company : 'rh1XpezolS38Fvwt',
+	custom_description : '32ohrKPicDG8NM0z',
 );
 ```

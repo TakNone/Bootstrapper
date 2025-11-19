@@ -54,16 +54,16 @@ photos.uploadProfilePhoto#388a3b5 flags:# fallback:flags.3?true bot:flags.5?Inpu
 ```php
 $photosPhoto = $client->photos->uploadProfilePhoto(
 	fallback : true,
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : -1678858.89453125,
+	video_start_ts : -2031068.5224609375,
 	video_emoji_markup : $client->videoSize(
-		type : 'D68P0gkuyRbVKdwe',
-		w : 59,
-		h : 31,
-		size : 50,
-		video_start_ts : -879317.548828125,
+		type : '0Cpq5QBJrLIUDAF1',
+		w : 57,
+		h : 9,
+		size : 92,
+		video_start_ts : -1614145.0078125,
 	),
 );
 ```

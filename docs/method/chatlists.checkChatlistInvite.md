@@ -37,6 +37,6 @@ chatlists.checkChatlistInvite#41c10fff slug:string = chatlists.ChatlistInvite;
 
 ```php
 $chatlistsChatlistInvite = $client->chatlists->checkChatlistInvite(
-	slug : 'PrCUA194VBuTvWHy',
+	slug : '6OlFYt0isTQK9XkI',
 );
 ```

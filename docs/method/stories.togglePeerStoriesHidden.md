@@ -38,6 +38,6 @@ stories.togglePeerStoriesHidden#bd0415c4 peer:InputPeer hidden:Bool = Bool;
 ```php
 $bool = $client->stories->togglePeerStoriesHidden(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	hidden : false,
+	hidden : true,
 );
 ```

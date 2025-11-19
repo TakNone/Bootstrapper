@@ -30,10 +30,10 @@ updateQuickReplies#f9470ab2 quick_replies:Vector<QuickReply> = Update;
 $update = $client->updateQuickReplies(
 	quick_replies : array(
 		$client->quickReply(
-			shortcut_id : 9,
-			shortcut : 'uUNFy1esTQ6oOiP9',
-			top_message : 20,
-			count : 85,
+			shortcut_id : 67,
+			shortcut : 'nbNsIz4uLQqpHrJj',
+			top_message : 23,
+			count : 1,
 		),
 	),
 );

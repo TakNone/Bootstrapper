@@ -31,10 +31,10 @@ businessIntro#5a0a066d flags:# title:string description:string sticker:flags.0?D
 
 ```php
 $businessIntro = $client->businessIntro(
-	title : 'OERhFl0fedYpct4C',
-	description : 'pCAywJHQNZGLV96n',
+	title : 'kFoJDi6B7ydxgZeV',
+	description : 'DE9AmZvBb4HPNWeg',
 	sticker : $client->documentEmpty(
-		id : -397171628989463165,
+		id : 3246180541738308683,
 	),
 );
 ```

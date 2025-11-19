@@ -48,10 +48,10 @@ messages.getInlineBotResults#514e999d flags:# bot:InputUser peer:InputPeer geo_p
 
 ```php
 $messagesBotResults = $client->messages->getInlineBotResults(
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	geo_point : $client->inputGeoPointEmpty(),
-	query : 'B2TakcZ3LUIDJNxe',
-	offset : '26yeqx8YClKnZj9s',
+	query : 'UFIxV0oWbS67h1g3',
+	offset : 'MloJnAyZtXBmRf9k',
 );
 ```

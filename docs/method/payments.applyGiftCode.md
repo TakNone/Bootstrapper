@@ -38,6 +38,6 @@ payments.applyGiftCode#f6e26854 slug:string = Updates;
 
 ```php
 $updates = $client->payments->applyGiftCode(
-	slug : '68BorHjAwGgetWKb',
+	slug : 'iL5zkU3sHhFEtf0G',
 );
 ```

@@ -49,7 +49,7 @@ channels.editPhoto#f12e57c9 channel:InputChannel photo:InputChatPhoto = Updates;
 
 ```php
 $updates = $client->channels->editPhoto(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	photo : $client->inputChatPhotoEmpty(),
 );
 ```

@@ -33,7 +33,7 @@ businessAwayMessage#ef156a5c flags:# offline_only:flags.0?true shortcut_id:int s
 ```php
 $businessAwayMessage = $client->businessAwayMessage(
 	offline_only : true,
-	shortcut_id : 0,
+	shortcut_id : 98,
 	schedule : $client->businessAwayMessageScheduleAlways(),
 	recipients : $client->businessRecipients(
 		existing_chats : true,
@@ -41,7 +41,7 @@ $businessAwayMessage = $client->businessAwayMessage(
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(-6300430404926548876),
+		users : array(90340815064729298),
 	),
 );
 ```

@@ -29,7 +29,7 @@ langPackString#cad181f6 key:string value:string = LangPackString;
 
 ```php
 $langPackString = $client->langPackString(
-	key : 'GTPq01zY96LdiJA3',
-	value : 'Gq3LbBsVD0HgdME5',
+	key : 'JQlLtqs0kemu8PIi',
+	value : 'QwtRpoJYxqfMb0Kk',
 );
 ```

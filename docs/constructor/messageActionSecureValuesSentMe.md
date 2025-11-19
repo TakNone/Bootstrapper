@@ -43,11 +43,11 @@ $messageAction = $client->messageActionSecureValuesSentMe(
 			translation : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : -2631923142008714063,
-					access_hash : 8983917032348516629,
-					size : 7255957194639887096,
-					dc_id : 7,
-					date : 42,
+					id : 7058777923937733803,
+					access_hash : 5227096075021658172,
+					size : 7482776591579582332,
+					dc_id : 14,
+					date : 88,
 					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
@@ -55,11 +55,11 @@ $messageAction = $client->messageActionSecureValuesSentMe(
 			files : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : 476861479439718496,
-					access_hash : 4137406624638258097,
-					size : -8685573637523370021,
-					dc_id : 24,
-					date : 72,
+					id : 6209622995630941158,
+					access_hash : -14607739829179833,
+					size : 5972285071359137478,
+					dc_id : 7,
+					date : 82,
 					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),

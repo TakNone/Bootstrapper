@@ -47,10 +47,10 @@ messages.sendEncrypted#44fa7a15 flags:# silent:flags.0?true peer:InputEncryptedC
 $messagesSentEncryptedMessage = $client->messages->sendEncrypted(
 	silent : true,
 	peer : $client->inputEncryptedChat(
-		chat_id : 66,
-		access_hash : -3581150785269425833,
+		chat_id : 38,
+		access_hash : -9197340055044251227,
 	),
-	random_id : -5460232908436443331,
+	random_id : -8283589365131189277,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

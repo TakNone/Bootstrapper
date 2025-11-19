@@ -29,7 +29,7 @@ invokeAfterMsg#cb9f372d {X:Type} msg_id:long query:!X = X;
 
 ```php
 $x = $client->invokeAfterMsg(
-	msg_id : -9025771983748268446,
+	msg_id : -1987424506316771080,
 	query : $client->help->getConfig(raw : true),
 );
 ```

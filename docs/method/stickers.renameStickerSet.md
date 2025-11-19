@@ -38,6 +38,6 @@ stickers.renameStickerSet#124b1c00 stickerset:InputStickerSet title:string = mes
 ```php
 $messagesStickerSet = $client->stickers->renameStickerSet(
 	stickerset : $client->inputStickerSetEmpty(),
-	title : 'eqwIWg4HKSZxa1DR',
+	title : 'bLe6g2OnM0vFpdTm',
 );
 ```

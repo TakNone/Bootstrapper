@@ -29,7 +29,7 @@ updateUserStatus#e5bdf8de user_id:long status:UserStatus = Update;
 
 ```php
 $update = $client->updateUserStatus(
-	user_id : 7824934442987047171,
+	user_id : 5058014189316922944,
 	status : $client->userStatusEmpty(),
 );
 ```

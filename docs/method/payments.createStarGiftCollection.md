@@ -39,17 +39,17 @@ payments.createStarGiftCollection#1f4a0e87 peer:InputPeer title:string stargift:
 ```php
 $starGiftCollection = $client->payments->createStarGiftCollection(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	title : 'Rd2DvTeMxCAPK3mk',
+	title : 'pPUoqd0lg5KIX4JZ',
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 91,
+			msg_id : 54,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : 5776133605188701647,
+			saved_id : -1853711281005485366,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'w5LRTUHQa2Bobt7Z',
+			slug : '6xeRiVplnrOXDUsC',
 		),
 	),
 );

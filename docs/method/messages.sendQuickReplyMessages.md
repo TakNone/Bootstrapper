@@ -41,8 +41,8 @@ messages.sendQuickReplyMessages#6c750de1 peer:InputPeer shortcut_id:int id:Vecto
 ```php
 $updates = $client->messages->sendQuickReplyMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	shortcut_id : 41,
-	id : array(27),
-	random_id : array(2119805094093922067),
+	shortcut_id : 13,
+	id : array(33),
+	random_id : array(4682688516483444),
 );
 ```

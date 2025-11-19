@@ -32,13 +32,13 @@ $storiesAlbums = $client->stories->albums(
 	hash : 0,
 	albums : array(
 		$client->storyAlbum(
-			album_id : 13,
-			title : 'asYdDWz0bw1H59V3',
+			album_id : 71,
+			title : 'fOwUJp5S6Ld1KXv8',
 			icon_photo : $client->photoEmpty(
-				id : 7003463046740402529,
+				id : -3868422872645633021,
 			),
 			icon_video : $client->documentEmpty(
-				id : -2750116823625456935,
+				id : 6481312124268830326,
 			),
 		),
 	),

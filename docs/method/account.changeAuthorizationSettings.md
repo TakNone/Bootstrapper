@@ -42,7 +42,7 @@ account.changeAuthorizationSettings#40f48462 flags:# confirmed:flags.3?true hash
 $bool = $client->account->changeAuthorizationSettings(
 	confirmed : true,
 	hash : 0,
-	encrypted_requests_disabled : false,
+	encrypted_requests_disabled : true,
 	call_requests_disabled : false,
 );
 ```

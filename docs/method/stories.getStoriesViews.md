@@ -41,6 +41,6 @@ stories.getStoriesViews#28e16cc8 peer:InputPeer id:Vector<int> = stories.StoryVi
 ```php
 $storiesStoryViews = $client->stories->getStoriesViews(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(96),
+	id : array(21),
 );
 ```

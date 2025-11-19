@@ -32,9 +32,9 @@ updateDeleteScheduledMessages#f2a71983 flags:# peer:Peer messages:Vector<int> se
 ```php
 $update = $client->updateDeleteScheduledMessages(
 	peer : $client->peerUser(
-		user_id : 4547676037074634152,
+		user_id : -823723695300746381,
 	),
-	messages : array(60),
-	sent_messages : array(92),
+	messages : array(13),
+	sent_messages : array(18),
 );
 ```

@@ -38,6 +38,6 @@ account.toggleConnectedBotPaused#646e1097 peer:InputPeer paused:Bool = Bool;
 ```php
 $bool = $client->account->toggleConnectedBotPaused(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	paused : false,
+	paused : true,
 );
 ```

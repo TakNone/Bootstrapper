@@ -43,6 +43,6 @@ channels.leaveChannel#f836aa95 channel:InputChannel = Updates;
 
 ```php
 $updates = $client->channels->leaveChannel(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

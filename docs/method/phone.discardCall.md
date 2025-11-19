@@ -45,11 +45,11 @@ phone.discardCall#b2cbc1c0 flags:# video:flags.0?true peer:InputPhoneCall durati
 $updates = $client->phone->discardCall(
 	video : true,
 	peer : $client->inputPhoneCall(
-		id : 4603941696759231481,
-		access_hash : 6140234051292990943,
+		id : -1933558861540351111,
+		access_hash : -4132417053665515427,
 	),
-	duration : 4,
+	duration : 33,
 	reason : $client->phoneCallDiscardReasonMissed(),
-	connection_id : -4161593287578595889,
+	connection_id : -7669457652823285442,
 );
 ```

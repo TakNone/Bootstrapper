@@ -38,7 +38,7 @@ chatlists.leaveChatlist#74fae13a chatlist:InputChatlist peers:Vector<InputPeer> 
 ```php
 $updates = $client->chatlists->leaveChatlist(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 35,
+		filter_id : 83,
 	),
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );

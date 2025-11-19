@@ -53,11 +53,11 @@ updates.getDifference#19c2f763 flags:# pts:int pts_limit:flags.1?int pts_total_l
 
 ```php
 $updatesDifference = $client->updates->getDifference(
-	pts : 39,
-	pts_limit : 75,
-	pts_total_limit : 18,
-	date : 3,
-	qts : 80,
-	qts_limit : 18,
+	pts : 57,
+	pts_limit : 35,
+	pts_total_limit : 62,
+	date : 0,
+	qts : 78,
+	qts_limit : 13,
 );
 ```

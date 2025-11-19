@@ -40,14 +40,14 @@ $messagesStickerSet = $client->stickers->replaceSticker(
 	sticker : $client->inputDocumentEmpty(),
 	new_sticker : $client->inputStickerSetItem(
 		document : $client->inputDocumentEmpty(),
-		emoji : 'WXZbvrlLEizg3kMu',
+		emoji : 'ka79qdWEMT4jyLIB',
 		mask_coords : $client->maskCoords(
-			n : 26,
-			x : 887680.919921875,
-			y : 265651.681640625,
-			zoom : 691850.1142578125,
+			n : 43,
+			x : -1730503.1572265625,
+			y : 987194.3994140625,
+			zoom : -1696410.9736328125,
 		),
-		keywords : 'YLQdf7miT86VyoCO',
+		keywords : 'kBOW5TwQx0dei7zY',
 	),
 );
 ```

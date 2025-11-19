@@ -43,7 +43,7 @@ messages.setBotPrecheckoutResults#9c2dd95 flags:# success:flags.1?true query_id:
 ```php
 $bool = $client->messages->setBotPrecheckoutResults(
 	success : true,
-	query_id : -779285888291456669,
-	error : 'KgZuJAGYpckIBR57',
+	query_id : 1361088447796325619,
+	error : 'HcvyuhLeTqlYZrS4',
 );
 ```

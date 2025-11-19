@@ -34,7 +34,7 @@ messageActionBotAllowed#c516d679 flags:# attach_menu:flags.1?true from_request:f
 $messageAction = $client->messageActionBotAllowed(
 	attach_menu : true,
 	from_request : true,
-	domain : 'HpwztFG5AiS78aBr',
+	domain : 'DYSqLnCZP7WoMHJl',
 	app : $client->botAppNotModified(),
 );
 ```

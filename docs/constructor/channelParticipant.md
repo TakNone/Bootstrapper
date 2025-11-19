@@ -31,8 +31,8 @@ channelParticipant#cb397619 flags:# user_id:long date:int subscription_until_dat
 
 ```php
 $channelParticipant = $client->channelParticipant(
-	user_id : -8549011405544847229,
-	date : 94,
-	subscription_until_date : 31,
+	user_id : -2486350848860909530,
+	date : 93,
+	subscription_until_date : 11,
 );
 ```

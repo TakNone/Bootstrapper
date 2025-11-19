@@ -29,7 +29,7 @@ emojiGroupPremium#93bcf34 title:string icon_emoji_id:long = EmojiGroup;
 
 ```php
 $emojiGroup = $client->emojiGroupPremium(
-	title : 'fXbGDnwSWuix7pRk',
-	icon_emoji_id : 5617408370177681305,
+	title : 'WMbu1ngJRZlBYKTa',
+	icon_emoji_id : -199366724369889051,
 );
 ```

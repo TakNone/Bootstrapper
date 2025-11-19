@@ -30,10 +30,10 @@ stats.messageStats#7fe91c14 views_graph:StatsGraph reactions_by_emotion_graph:St
 ```php
 $statsMessageStats = $client->stats->messageStats(
 	views_graph : $client->statsGraphAsync(
-		token : 'GDEbtoCvL38fBplw',
+		token : 'E1newW4iTy37INU5',
 	),
 	reactions_by_emotion_graph : $client->statsGraphAsync(
-		token : 'LOzWF20qXHkIuNaB',
+		token : 'cyGA49Msp5mkxD1b',
 	),
 );
 ```

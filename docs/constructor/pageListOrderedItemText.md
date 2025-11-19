@@ -29,7 +29,7 @@ pageListOrderedItemText#5e068047 num:string text:RichText = PageListOrderedItem;
 
 ```php
 $pageListOrderedItem = $client->pageListOrderedItemText(
-	num : 'C3yJtwprmu1z8XBY',
+	num : 'IeK1gucHbYEUtrvx',
 	text : $client->textEmpty(),
 );
 ```

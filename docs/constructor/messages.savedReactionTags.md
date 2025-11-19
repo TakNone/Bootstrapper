@@ -32,8 +32,8 @@ $messagesSavedReactionTags = $client->messages->savedReactionTags(
 	tags : array(
 		$client->savedReactionTag(
 			reaction : $client->reactionEmpty(),
-			title : 'uxeT3L2WdlmZrS9A',
-			count : 64,
+			title : 'HQoP2iM9OCzNxj0q',
+			count : 44,
 		),
 	),
 	hash : 0,

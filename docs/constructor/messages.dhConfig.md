@@ -31,9 +31,9 @@ messages.dhConfig#2c221edd g:int p:bytes version:int random:bytes = messages.DhC
 
 ```php
 $messagesDhConfig = $client->messages->dhConfig(
-	g : 39,
+	g : 26,
 	p : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	version : 49,
+	version : 4,
 	random : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

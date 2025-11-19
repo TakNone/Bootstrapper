@@ -44,7 +44,7 @@ channels.toggleUsername#50f24105 channel:InputChannel username:string active:Boo
 
 ```php
 $bool = $client->channels->toggleUsername(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	username : 'TakNone',
 	active : true,
 );

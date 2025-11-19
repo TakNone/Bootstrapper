@@ -34,7 +34,7 @@ inputWebFileAudioAlbumThumbLocation#f46fe924 flags:# small:flags.2?true document
 $inputWebFileLocation = $client->inputWebFileAudioAlbumThumbLocation(
 	small : true,
 	document : $client->inputDocumentEmpty(),
-	title : 'bSHgAq4skQ1MZfra',
-	performer : 'fn6GoUegJRwaN1CI',
+	title : '0OIDwHNB3iSnzmcY',
+	performer : '4UK5XnMcSGjsqiv7',
 );
 ```

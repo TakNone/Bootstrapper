@@ -29,7 +29,7 @@ auth.loginToken#629f1980 expires:int token:bytes = auth.LoginToken;
 
 ```php
 $authLoginToken = $client->auth->loginToken(
-	expires : 7,
+	expires : 20,
 	token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

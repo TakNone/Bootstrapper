@@ -37,7 +37,7 @@ messages.searchCustomEmoji#2c11c0d7 emoticon:string hash:long = EmojiList;
 
 ```php
 $emojiList = $client->messages->searchCustomEmoji(
-	emoticon : 'pzJMCG2ylvLVcFAk',
+	emoticon : '0RqQpyBWYEXtbv2U',
 	hash : 0,
 );
 ```

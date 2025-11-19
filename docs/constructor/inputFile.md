@@ -31,9 +31,9 @@ inputFile#f52ff27f id:long parts:int name:string md5_checksum:string = InputFile
 
 ```php
 $inputFile = $client->inputFile(
-	id : -6502348460441391871,
-	parts : 98,
-	name : 'CbryOBETFGjMsa6d',
+	id : 5753493346406146563,
+	parts : 0,
+	name : 'XzlQpsqF75VLv2TJ',
 	md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 );
 ```

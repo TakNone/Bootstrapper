@@ -28,6 +28,6 @@ pageBlockAnchor#ce0d37b0 name:string = PageBlock;
 
 ```php
 $pageBlock = $client->pageBlockAnchor(
-	name : 'yBjZMJistP1KzEVn',
+	name : 'HIq26tyA3zsEboB4',
 );
 ```

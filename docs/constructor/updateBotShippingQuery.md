@@ -31,16 +31,16 @@ updateBotShippingQuery#b5aefd7d query_id:long user_id:long payload:bytes shippin
 
 ```php
 $update = $client->updateBotShippingQuery(
-	query_id : -1875523689971274718,
-	user_id : -7835630677850040814,
+	query_id : 8758682494509009835,
+	user_id : -7693765981465407059,
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	shipping_address : $client->postAddress(
-		street_line1 : '9TB5AGXeNJiHL6r1',
-		street_line2 : '9QPVRq25DIdt37Zr',
-		city : 'LuzCMJrRTvsOHxoQ',
-		state : 'fcYFoHVAJtMvR1EZ',
-		country_iso2 : 'qaL1h9gPIzE0dXbj',
-		post_code : 'iwF3eAndSpOoE1Gq',
+		street_line1 : 'rUNieRQIAwtCB7P6',
+		street_line2 : 'y2zvnqDEuRTflP18',
+		city : 'GgYdz5S1xi6c2Epk',
+		state : 'f5iLkucSrU2K84OB',
+		country_iso2 : 'd9PLEmYKxilHo0uf',
+		post_code : 'wqMDbAv9IGciClBK',
 	),
 );
 ```

@@ -35,8 +35,8 @@ updateNewAuthorization#8951abef flags:# unconfirmed:flags.0?true hash:long date:
 $update = $client->updateNewAuthorization(
 	unconfirmed : true,
 	hash : 0,
-	date : 85,
-	device : 'LwabTocM5yUNQxBW',
-	location : 'vwPuqYzWgKZd9Dml',
+	date : 66,
+	device : 'wqM7dgPe2cB8mSsR',
+	location : 'iWHwVETONq1Lv2Ux',
 );
 ```

@@ -57,6 +57,6 @@ $updates = $client->messages->updatePinnedMessage(
 	unpin : true,
 	pm_oneside : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 51,
+	id : 23,
 );
 ```

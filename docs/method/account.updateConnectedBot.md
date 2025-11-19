@@ -59,15 +59,15 @@ $updates = $client->account->updateConnectedBot(
 		transfer_stars : true,
 		manage_stories : true,
 	),
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 	recipients : $client->inputBusinessBotRecipients(
 		existing_chats : true,
 		new_chats : true,
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array($client->get_input_user(peer : '@TakNone')),
-		exclude_users : array($client->get_input_user(peer : '@TakNone')),
+		users : array($client->get_input_user(user : '@TakNone')),
+		exclude_users : array($client->get_input_user(user : '@TakNone')),
 	),
 );
 ```

@@ -38,6 +38,6 @@ messages.getFactCheck#b9cdc5ee peer:InputPeer msg_id:Vector<int> = Vector<FactCh
 ```php
 $factCheck = $client->messages->getFactCheck(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : array(61),
+	msg_id : array(74),
 );
 ```

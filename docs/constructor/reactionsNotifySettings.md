@@ -35,6 +35,6 @@ $reactionsNotifySettings = $client->reactionsNotifySettings(
 	messages_notify_from : $client->reactionNotificationsFromContacts(),
 	stories_notify_from : $client->reactionNotificationsFromContacts(),
 	sound : $client->notificationSoundDefault(),
-	show_previews : true,
+	show_previews : false,
 );
 ```

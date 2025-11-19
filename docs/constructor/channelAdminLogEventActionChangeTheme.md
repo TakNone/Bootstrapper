@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeTheme#fe69018d prev_value:string new_value:strin
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeTheme(
-	prev_value : 'pnYgaOVdmUx03ZkP',
-	new_value : 'V6yLQ2bGmxAgzclk',
+	prev_value : 'I03HwDkrylOVPdEA',
+	new_value : 'QX4GkoaJzpsKDOVn',
 );
 ```

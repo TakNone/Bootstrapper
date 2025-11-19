@@ -34,9 +34,9 @@ messages.transcribedAudio#cfb9d957 flags:# pending:flags.0?true transcription_id
 ```php
 $messagesTranscribedAudio = $client->messages->transcribedAudio(
 	pending : true,
-	transcription_id : 341489606182402617,
-	text : 'OX4ijtYrJ93oeGMf',
-	trial_remains_num : 80,
-	trial_remains_until_date : 49,
+	transcription_id : -8435212563522075226,
+	text : 'HuQrYUGxO6ZTaX0n',
+	trial_remains_num : 1,
+	trial_remains_until_date : 17,
 );
 ```

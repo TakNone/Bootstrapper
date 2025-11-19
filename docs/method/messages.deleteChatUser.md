@@ -45,7 +45,7 @@ messages.deleteChatUser#a2185cab flags:# revoke_history:flags.0?true chat_id:lon
 ```php
 $updates = $client->messages->deleteChatUser(
 	revoke_history : true,
-	chat_id : 230698902045992265,
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	chat_id : -677385255968571820,
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

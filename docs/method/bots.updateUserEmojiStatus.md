@@ -39,7 +39,7 @@ bots.updateUserEmojiStatus#ed9f30c5 user_id:InputUser emoji_status:EmojiStatus =
 
 ```php
 $bool = $client->bots->updateUserEmojiStatus(
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 	emoji_status : $client->emojiStatusEmpty(),
 );
 ```

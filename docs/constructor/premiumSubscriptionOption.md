@@ -38,11 +38,11 @@ premiumSubscriptionOption#5f2d1df2 flags:# current:flags.1?true can_purchase_upg
 $premiumSubscriptionOption = $client->premiumSubscriptionOption(
 	current : true,
 	can_purchase_upgrade : true,
-	transaction : 'dgjbysqRlp2OW01A',
-	months : 69,
-	currency : 'RClacWBF9MkGKjyv',
-	amount : -6931001171532970716,
+	transaction : 'm8f15xzlgndQsNu9',
+	months : 2,
+	currency : 'HSlTUu1JF2cojeph',
+	amount : -5677736121384216555,
 	bot_url : 'https://docs.liveproto.dev',
-	store_product : 'OpWIVrGtQldLHZKx',
+	store_product : 'pxBDGMdbWsTwRv65',
 );
 ```
