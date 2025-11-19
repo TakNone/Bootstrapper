@@ -299,8 +299,8 @@ abstract class DocBuilder {
 						'bytes' => '"\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"', // mb_convert_encoding(random_bytes(5).'LiveProto'.random_bytes(5),'UTF-8') //
 						'x' => '$client->help->getConfig(raw : true)',
 						'inputpeer' => '$client->get_input_peer(peer : \'@LiveProtoChat\')',
-						'inputuser' => '$client->get_input_user(peer : \'@TakNone\')',
-						'inputchannel' => '$client->get_input_channel(peer : \'@LiveProto\')',
+						'inputuser' => '$client->get_input_user(user : \'@TakNone\')',
+						'inputchannel' => '$client->get_input_channel(channel : \'@LiveProto\')',
 						'inputfile' => '$client->upload_file(path : \'file.png\')',
 						'inputmedia' => '$client->get_input_media_uploaded(path : \'file.mp4\',file_type : Tak\\Liveproto\\Enums\\FileType::DOCUMENT)',
 						default => null
