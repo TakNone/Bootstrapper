@@ -39,12 +39,6 @@
 
 ---
 
-##### InputContact
-
-:link: [*Object defines a contact from the user&#039;s phone book*](type/InputContact)
-
----
-
 ##### InputFile
 
 :link: [*Defines a file uploaded by the client*](type/InputFile)
@@ -3345,9 +3339,33 @@
 
 ---
 
-##### StarGiftUpgradePreview
+##### StarGiftUpgradePrice
 
-:link: [*NOTHING*](type/StarGiftUpgradePreview)
+:link: [*NOTHING*](type/StarGiftUpgradePrice)
+
+---
+
+##### GroupCallMessage
+
+:link: [*NOTHING*](type/GroupCallMessage)
+
+---
+
+##### InputStarGiftAuction
+
+:link: [*NOTHING*](type/InputStarGiftAuction)
+
+---
+
+##### StarGiftAuctionUserState
+
+:link: [*NOTHING*](type/StarGiftAuctionUserState)
+
+---
+
+##### AuctionBidLevel
+
+:link: [*NOTHING*](type/AuctionBidLevel)
 
 ---
 
@@ -3357,15 +3375,33 @@
 
 ---
 
+##### StarGiftAuctionState
+
+:link: [*NOTHING*](type/StarGiftAuctionState)
+
+---
+
+##### InputPhoneContact
+
+:link: [*NOTHING*](type/InputPhoneContact)
+
+---
+
+##### RecentStory
+
+:link: [*NOTHING*](type/RecentStory)
+
+---
+
 ##### PremiumGiftOption
 
 :link: [*Telegram Premium gift option*](type/PremiumGiftOption)
 
 ---
 
-##### StarGiftUpgradePrice
+##### StarGiftActiveAuctions
 
-:link: [*NOTHING*](type/StarGiftUpgradePrice)
+:link: [*NOTHING*](type/StarGiftActiveAuctions)
 
 ---
 
@@ -3375,6 +3411,36 @@
 
 ---
 
-##### ChatThemes
+##### StarGiftAuctionAcquiredGift
 
-:link: [*NOTHING*](type/ChatThemes)
+:link: [*NOTHING*](type/StarGiftAuctionAcquiredGift)
+
+---
+
+##### StarGiftActiveAuctionState
+
+:link: [*NOTHING*](type/StarGiftActiveAuctionState)
+
+---
+
+##### GroupCallDonor
+
+:link: [*NOTHING*](type/GroupCallDonor)
+
+---
+
+##### payments StarGiftAuctionAcquiredGifts
+
+:link: [*NOTHING*](type/payments.StarGiftAuctionAcquiredGifts)
+
+---
+
+##### phone GroupCallStars
+
+:link: [*NOTHING*](type/phone.GroupCallStars)
+
+---
+
+##### payments StarGiftAuctionState
+
+:link: [*NOTHING*](type/payments.StarGiftAuctionState)

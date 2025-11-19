@@ -2,7 +2,7 @@
 
 **Description** : *Load channel statistics graph asynchronously*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stats.loadAsyncGraph#621d5fa0 flags:# token:string x:flags.0?long = StatsGraph;
@@ -40,7 +40,7 @@ stats.loadAsyncGraph#621d5fa0 flags:# token:string x:flags.0?long = StatsGraph;
 
 ```php
 $statsGraph = $client->stats->loadAsyncGraph(
-	token : 'HTjNgsm0WFoQRZ58',
-	x : -3627933595317203652,
+	token : 'n9krRHAs5BZj7ta6',
+	x : -1044311829209375001,
 );
 ```

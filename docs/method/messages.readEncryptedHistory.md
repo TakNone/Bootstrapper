@@ -2,7 +2,7 @@
 
 **Description** : *Marks message history within a secret chat as read*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.readEncryptedHistory#7f4b690a peer:InputEncryptedChat max_date:int = Bool;
@@ -40,9 +40,9 @@ messages.readEncryptedHistory#7f4b690a peer:InputEncryptedChat max_date:int = Bo
 ```php
 $bool = $client->messages->readEncryptedHistory(
 	peer : $client->inputEncryptedChat(
-		chat_id : 17,
-		access_hash : 4447808716219597023,
+		chat_id : 62,
+		access_hash : 7817635656825381349,
 	),
-	max_date : 92,
+	max_date : 8,
 );
 ```

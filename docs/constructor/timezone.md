@@ -2,7 +2,7 @@
 
 **Description** : *Timezone information*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 timezone#ff9289f5 id:string name:string utc_offset:int = Timezone;
@@ -30,8 +30,8 @@ timezone#ff9289f5 id:string name:string utc_offset:int = Timezone;
 
 ```php
 $timezone = $client->timezone(
-	id : 'H0aqwBAOREZ8Qgo6',
-	name : 'mB7qTSNiAU6xsGEL',
-	utc_offset : 30,
+	id : 'P9OnoY7m4u2HlXVM',
+	name : 'Bou1zLl9QWXcP6VT',
+	utc_offset : 33,
 );
 ```

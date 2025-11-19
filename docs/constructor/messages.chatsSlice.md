@@ -2,7 +2,7 @@
 
 **Description** : *Partial list of chats, more would have to be fetched with pagination*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.chatsSlice#9cd81144 count:int chats:Vector<Chat> = messages.Chats;
@@ -29,10 +29,10 @@ messages.chatsSlice#9cd81144 count:int chats:Vector<Chat> = messages.Chats;
 
 ```php
 $messagesChats = $client->messages->chatsSlice(
-	count : 79,
+	count : 69,
 	chats : array(
 		$client->chatEmpty(
-			id : -4761710200880953769,
+			id : 501926126701921392,
 		),
 		$client->chat(
 			creator : true,
@@ -42,13 +42,13 @@ $messagesChats = $client->messages->chatsSlice(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -4464191650285481050,
-			title : 'RzTVWrJ9wNxvhISK',
+			id : -2479970136613611366,
+			title : 'djWxgfoe3cZSpTkG',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 99,
-			date : 12,
-			version : 25,
-			migrated_to : $client->inputChannelEmpty(),
+			participants_count : 18,
+			date : 17,
+			version : 83,
+			migrated_to : $client->get_input_channel(peer : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
 				post_messages : true,
@@ -88,12 +88,12 @@ $messagesChats = $client->messages->chatsSlice(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 10,
+				until_date : 16,
 			),
 		),
 		$client->chatForbidden(
-			id : 732016064480754227,
-			title : 'Eh5TPiV7pFIWGlZk',
+			id : -5142295548020305516,
+			title : '8ZwnYIbRPAeMmj3C',
 		),
 		$client->channel(
 			creator : true,
@@ -124,17 +124,17 @@ $messagesChats = $client->messages->chatsSlice(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -392039046593802635,
-			access_hash : 525169245859118789,
-			title : 'Sc1U6VeFp4bmMQgZ',
+			id : -6696772359020494703,
+			access_hash : 3363686577766519608,
+			title : 'ITESiHj1b269gKYX',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 88,
+			date : 41,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'YwAXECfKxdLvQTk5',
-					reason : 'BMLx8Q09gb16Do2u',
-					text : 'fSo8NVZ9xjwFirRu',
+					platform : 'GRIcusSqbLE6vyHg',
+					reason : '2ByxvC6U7VKPnMhd',
+					text : 'ni3edmhHFRjp058k',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -176,7 +176,7 @@ $messagesChats = $client->messages->chatsSlice(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 1,
+				until_date : 36,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -199,9 +199,9 @@ $messagesChats = $client->messages->chatsSlice(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 78,
+				until_date : 99,
 			),
-			participants_count : 84,
+			participants_count : 75,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -209,29 +209,32 @@ $messagesChats = $client->messages->chatsSlice(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 23,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 51,
+			),
 			color : $client->peerColor(
-				color : 52,
-				background_emoji_id : -6906983140923964448,
+				color : 6,
+				background_emoji_id : -8557090684469474153,
 			),
 			profile_color : $client->peerColor(
-				color : 71,
-				background_emoji_id : -6974461686239579068,
+				color : 68,
+				background_emoji_id : -6417443337538019460,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 6,
-			subscription_until_date : 0,
-			bot_verification_icon : -8203349518897195334,
-			send_paid_messages_stars : 2308879811058121161,
-			linked_monoforum_id : 1946641774796964208,
+			level : 23,
+			subscription_until_date : 87,
+			bot_verification_icon : 7041766972813057010,
+			send_paid_messages_stars : -2355409363337964072,
+			linked_monoforum_id : -7840081282706265524,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 166590219950470332,
-			access_hash : -3647713861969068300,
-			title : 'IRfiLV6x9vclZO84',
-			until_date : 68,
+			id : -481861391886473212,
+			access_hash : 8830981667625357996,
+			title : 'WiDsQTU5y4lgBrPR',
+			until_date : 0,
 		),
 	),
 );

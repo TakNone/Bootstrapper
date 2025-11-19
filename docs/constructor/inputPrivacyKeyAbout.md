@@ -2,7 +2,7 @@
 
 **Description** : *Whether people can see your bio*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputPrivacyKeyAbout#3823cc40 = InputPrivacyKey;

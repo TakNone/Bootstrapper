@@ -2,7 +2,7 @@
 
 **Description** : *Online status: last seen last week*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 userStatusLastWeek#541a1d1a flags:# by_me:flags.0?true = UserStatus;

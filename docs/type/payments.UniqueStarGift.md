@@ -2,7 +2,7 @@
 
 **Description** : *Represents a collectible gift &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.uniqueStarGift#416c56e8 gift:StarGift chats:Vector<Chat> users:Vector<User> = payments.UniqueStarGift;

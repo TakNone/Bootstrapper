@@ -2,7 +2,7 @@
 
 **Description** : *Save or remove saved notification sound*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.saveRingtone#3dea5b03 id:InputDocument unsave:Bool = account.SavedRingtone;
@@ -38,6 +38,6 @@ account.saveRingtone#3dea5b03 id:InputDocument unsave:Bool = account.SavedRingto
 ```php
 $accountSavedRingtone = $client->account->saveRingtone(
 	id : $client->inputDocumentEmpty(),
-	unsave : false,
+	unsave : true,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Get all archived stickers*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getArchivedStickers#57f17692 flags:# masks:flags.0?true emojis:flags.1?true offset_id:long limit:int = messages.ArchivedStickers;

@@ -2,7 +2,7 @@
 
 **Description** : *Enable SMS jobs \(official clients only\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 smsjobs.join#a74ece2d = Bool;

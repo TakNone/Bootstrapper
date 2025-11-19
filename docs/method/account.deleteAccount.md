@@ -2,7 +2,7 @@
 
 **Description** : *Delete the user&#039;s account from the telegram servers*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.deleteAccount#a2c0cf74 flags:# reason:string password:flags.0?InputCheckPasswordSRP = Bool;
@@ -39,7 +39,7 @@ account.deleteAccount#a2c0cf74 flags:# reason:string password:flags.0?InputCheck
 
 ```php
 $bool = $client->account->deleteAccount(
-	reason : 'F79CdnW0eyrcZvQ2',
+	reason : '56WGahfvkwJODPIH',
 	password : $client->inputCheckPasswordEmpty(),
 );
 ```

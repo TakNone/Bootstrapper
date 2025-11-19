@@ -2,7 +2,7 @@
 
 **Description** : *Some messages in a supergroup/channel were deleted*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateDeleteChannelMessages#c32d5b12 channel_id:long messages:Vector<int> pts:int pts_count:int = Update;
@@ -31,9 +31,9 @@ updateDeleteChannelMessages#c32d5b12 channel_id:long messages:Vector<int> pts:in
 
 ```php
 $update = $client->updateDeleteChannelMessages(
-	channel_id : -1597649404521536045,
-	messages : array(6),
-	pts : 22,
-	pts_count : 91,
+	channel_id : -6008146625810351451,
+	messages : array(57),
+	pts : 99,
+	pts_count : 67,
 );
 ```

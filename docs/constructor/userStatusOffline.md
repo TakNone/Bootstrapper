@@ -2,7 +2,7 @@
 
 **Description** : *The user&#039;s offline status*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 userStatusOffline#8c703f was_online:int = UserStatus;
@@ -28,6 +28,6 @@ userStatusOffline#8c703f was_online:int = UserStatus;
 
 ```php
 $userStatus = $client->userStatusOffline(
-	was_online : 87,
+	was_online : 78,
 );
 ```

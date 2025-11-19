@@ -2,7 +2,7 @@
 
 **Description** : *Create a group call or livestream*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phone.createGroupCall#48cdc6d8 flags:# rtmp_stream:flags.2?true peer:InputPeer random_id:int title:flags.0?string schedule_date:flags.1?int = Updates;
@@ -47,9 +47,9 @@ phone.createGroupCall#48cdc6d8 flags:# rtmp_stream:flags.2?true peer:InputPeer r
 ```php
 $updates = $client->phone->createGroupCall(
 	rtmp_stream : true,
-	peer : $client->inputPeerEmpty(),
-	random_id : 80,
-	title : '03CBWhAeFNXKEu5H',
-	schedule_date : 15,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	random_id : 67,
+	title : '5tQLoTdBnkJAzgm2',
+	schedule_date : 13,
 );
 ```

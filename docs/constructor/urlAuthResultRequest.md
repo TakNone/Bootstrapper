@@ -2,7 +2,7 @@
 
 **Description** : *Details about the authorization request, for more info click here &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 urlAuthResultRequest#92d33a0e flags:# request_write_access:flags.0?true bot:User domain:string = UrlAuthResult;
@@ -33,8 +33,8 @@ urlAuthResultRequest#92d33a0e flags:# request_write_access:flags.0?true bot:User
 $urlAuthResult = $client->urlAuthResultRequest(
 	request_write_access : true,
 	bot : $client->userEmpty(
-		id : -6601412326036025324,
+		id : -8509600873681560064,
 	),
-	domain : 'VuT9yxwqRBd1IvNs',
+	domain : 'Vg3aEybdFJDBITo4',
 );
 ```

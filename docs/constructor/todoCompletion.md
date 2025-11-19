@@ -2,10 +2,10 @@
 
 **Description** : *A completed todo list &raquo; item*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-todoCompletion#4cc120b7 id:int completed_by:long date:int = TodoCompletion;
+todoCompletion#221bb5e4 id:int completed_by:Peer date:int = TodoCompletion;
 ```
 
 ---
@@ -15,7 +15,7 @@ todoCompletion#4cc120b7 id:int completed_by:long date:int = TodoCompletion;
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>id</mark> | [`int`](type/int) | The ID of the completed item |
-| <mark>completed_by</mark> | [`long`](type/long) | ID of the user that completed the item |
+| <mark>completed_by</mark> | [`Peer`](type/Peer) | ID of the user that completed the item |
 | <mark>date</mark> | [`int`](type/int) | When was the item completed |
 
 ---
@@ -30,8 +30,10 @@ todoCompletion#4cc120b7 id:int completed_by:long date:int = TodoCompletion;
 
 ```php
 $todoCompletion = $client->todoCompletion(
-	id : 16,
-	completed_by : -7589803677623982560,
-	date : 77,
+	id : 32,
+	completed_by : $client->peerUser(
+		user_id : 2090700157032440620,
+	),
+	date : 7,
 );
 ```

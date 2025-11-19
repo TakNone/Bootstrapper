@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a possible answer to a poll*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 pollAnswer#ff16e2ca text:TextWithEntities option:bytes = PollAnswer;

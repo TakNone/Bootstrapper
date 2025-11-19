@@ -2,7 +2,7 @@
 
 **Description** : *Get full info about a supergroup, gigagroup or channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.getFullChannel#8736a09 channel:InputChannel = messages.ChatFull;
@@ -40,6 +40,6 @@ channels.getFullChannel#8736a09 channel:InputChannel = messages.ChatFull;
 
 ```php
 $messagesChatFull = $client->channels->getFullChannel(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *The specified bot commands will be valid only in a specific dialog*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 botCommandScopePeer#db9d897d peer:InputPeer = BotCommandScope;
@@ -28,6 +28,6 @@ botCommandScopePeer#db9d897d peer:InputPeer = BotCommandScope;
 
 ```php
 $botCommandScope = $client->botCommandScopePeer(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

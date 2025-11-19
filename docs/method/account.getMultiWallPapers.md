@@ -2,7 +2,7 @@
 
 **Description** : *Get info about multiple wallpapers*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.getMultiWallPapers#65ad71dc wallpapers:Vector<InputWallPaper> = Vector<WallPaper>;
@@ -38,14 +38,14 @@ account.getMultiWallPapers#65ad71dc wallpapers:Vector<InputWallPaper> = Vector<W
 $wallPaper = $client->account->getMultiWallPapers(
 	wallpapers : array(
 		$client->inputWallPaper(
-			id : 5278343335602393330,
-			access_hash : -8630179247668800972,
+			id : -2510596017660931067,
+			access_hash : -5155910744311468821,
 		),
 		$client->inputWallPaperSlug(
-			slug : 'KAns806eRYkMj3Ho',
+			slug : 'VjtbF5zhZfUC6Qrd',
 		),
 		$client->inputWallPaperNoFile(
-			id : 2625591475894111424,
+			id : -5936047899085288432,
 		),
 	),
 );

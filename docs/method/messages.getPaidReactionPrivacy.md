@@ -2,7 +2,7 @@
 
 **Description** : *Fetches an updatePaidReactionPrivacy update with the current default paid reaction privacy, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getPaidReactionPrivacy#472455aa = Updates;

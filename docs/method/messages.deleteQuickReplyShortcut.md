@@ -3,7 +3,7 @@
 **Description** : *Completely delete a quick reply shortcut\.
 This will also emit an updateDeleteQuickReply update to other logged\-in sessions \(and no updateDeleteQuickReplyMessages updates, even if all the messages in the shortcuts are also deleted by this method\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.deleteQuickReplyShortcut#3cc04740 shortcut_id:int = Bool;
@@ -37,6 +37,6 @@ messages.deleteQuickReplyShortcut#3cc04740 shortcut_id:int = Bool;
 
 ```php
 $bool = $client->messages->deleteQuickReplyShortcut(
-	shortcut_id : 78,
+	shortcut_id : 20,
 );
 ```

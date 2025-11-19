@@ -1,6 +1,6 @@
 # updatePinnedForumTopics
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = Update;
@@ -29,8 +29,8 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 ```php
 $update = $client->updatePinnedForumTopics(
 	peer : $client->peerUser(
-		user_id : 2572116762981738410,
+		user_id : 5526437773734681727,
 	),
-	order : array(76),
+	order : array(63),
 );
 ```

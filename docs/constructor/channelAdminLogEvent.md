@@ -2,7 +2,7 @@
 
 **Description** : *Admin log event*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEvent#1fad68cd id:long date:int user_id:long action:ChannelAdminLogEventAction = ChannelAdminLogEvent;
@@ -31,12 +31,12 @@ channelAdminLogEvent#1fad68cd id:long date:int user_id:long action:ChannelAdminL
 
 ```php
 $channelAdminLogEvent = $client->channelAdminLogEvent(
-	id : -223227854646926026,
-	date : 68,
-	user_id : -882129789339571770,
+	id : -7135919922417982969,
+	date : 24,
+	user_id : -2244384294056298580,
 	action : $client->channelAdminLogEventActionChangeTitle(
-		prev_value : 'agWnxV9q5NbrYURX',
-		new_value : 'JYCKogneD351jmbs',
+		prev_value : 'kqixZzs7ldWGYmK1',
+		new_value : '5hpQK7afPTjZCXrY',
 	),
 );
 ```

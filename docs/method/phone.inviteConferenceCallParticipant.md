@@ -2,7 +2,7 @@
 
 **Description** : *Invite a user to a conference call*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phone.inviteConferenceCallParticipant#bcf22685 flags:# video:flags.0?true call:InputGroupCall user_id:InputUser = Updates;
@@ -41,9 +41,9 @@ phone.inviteConferenceCallParticipant#bcf22685 flags:# video:flags.0?true call:I
 $updates = $client->phone->inviteConferenceCallParticipant(
 	video : true,
 	call : $client->inputGroupCall(
-		id : 506046953618264497,
-		access_hash : -3162546201800720878,
+		id : 2399531237283702781,
+		access_hash : -5955996482860323471,
 	),
-	user_id : $client->inputUserEmpty(),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

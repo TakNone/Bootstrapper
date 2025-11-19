@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phone.getGroupCallJoinAs#ef7c213a peer:InputPeer = phone.JoinAsPeers;
@@ -37,6 +37,6 @@ phone.getGroupCallJoinAs#ef7c213a peer:InputPeer = phone.JoinAsPeers;
 
 ```php
 $phoneJoinAsPeers = $client->phone->getGroupCallJoinAs(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

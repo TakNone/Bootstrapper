@@ -2,7 +2,7 @@
 
 **Description** : *Report a message reaction*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.reportReaction#3f64c076 peer:InputPeer id:int reaction_peer:InputPeer = Bool;
@@ -40,8 +40,8 @@ messages.reportReaction#3f64c076 peer:InputPeer id:int reaction_peer:InputPeer =
 
 ```php
 $bool = $client->messages->reportReaction(
-	peer : $client->inputPeerEmpty(),
-	id : 22,
-	reaction_peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	id : 89,
+	reaction_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

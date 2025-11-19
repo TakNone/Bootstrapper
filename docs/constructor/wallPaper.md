@@ -2,7 +2,7 @@
 
 **Description** : *Represents a wallpaper based on an image*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 wallPaper#a437c3ed id:long flags:# creator:flags.0?true default:flags.1?true pattern:flags.3?true dark:flags.4?true access_hash:long slug:string document:Document settings:flags.2?WallPaperSettings = WallPaper;
@@ -37,26 +37,26 @@ wallPaper#a437c3ed id:long flags:# creator:flags.0?true default:flags.1?true pat
 
 ```php
 $wallPaper = $client->wallPaper(
-	id : -6130883730461896580,
+	id : 8849410486077936918,
 	creator : true,
 	default : true,
 	pattern : true,
 	dark : true,
-	access_hash : -6673213271763099407,
-	slug : '8Oy21ZTG7uUMFLNr',
+	access_hash : 3616653747235271756,
+	slug : 'I0j6SvqxOCwYQNdJ',
 	document : $client->documentEmpty(
-		id : 3241586686886481839,
+		id : -4527350752763740125,
 	),
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 39,
-		second_background_color : 72,
-		third_background_color : 94,
-		fourth_background_color : 8,
-		intensity : 24,
-		rotation : 4,
-		emoticon : 'yDpoG9PcISdatWxU',
+		background_color : 53,
+		second_background_color : 38,
+		third_background_color : 99,
+		fourth_background_color : 16,
+		intensity : 53,
+		rotation : 10,
+		emoticon : 'TbcLoHrgE2pvqjGe',
 	),
 );
 ```

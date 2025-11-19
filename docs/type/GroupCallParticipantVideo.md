@@ -2,7 +2,7 @@
 
 **Description** : *Info about a video stream*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 groupCallParticipantVideo#67753ac8 flags:# paused:flags.0?true endpoint:string source_groups:Vector<GroupCallParticipantVideoSourceGroup> audio_source:flags.1?int = GroupCallParticipantVideo;

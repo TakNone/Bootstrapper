@@ -2,7 +2,7 @@
 
 **Description** : *Allow all users*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputPrivacyValueAllowAll#184b35ce = InputPrivacyRule;

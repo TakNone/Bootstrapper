@@ -2,7 +2,7 @@
 
 **Description** : *Page footer*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 pageBlockFooter#48870999 text:RichText = PageBlock;

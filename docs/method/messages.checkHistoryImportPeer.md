@@ -2,7 +2,7 @@
 
 **Description** : *Check whether chat history exported from another chat app can be imported into a specific Telegram chat, click here for more info &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.checkHistoryImportPeer#5dc60f03 peer:InputPeer = messages.CheckedHistoryImportPeer;
@@ -38,6 +38,6 @@ messages.checkHistoryImportPeer#5dc60f03 peer:InputPeer = messages.CheckedHistor
 
 ```php
 $messagesCheckedHistoryImportPeer = $client->messages->checkHistoryImportPeer(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

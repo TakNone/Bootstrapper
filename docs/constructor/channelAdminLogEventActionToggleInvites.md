@@ -2,7 +2,7 @@
 
 **Description** : *Invites were enabled/disabled*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionToggleInvites#1b7907ae new_value:Bool = ChannelAdminLogEventAction;
@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleInvites#1b7907ae new_value:Bool = ChannelAdminLo
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleInvites(
-	new_value : false,
+	new_value : true,
 );
 ```

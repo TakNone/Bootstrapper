@@ -2,7 +2,7 @@
 
 **Description** : *The emoji status of a certain user has changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateUserEmojiStatus#28373599 user_id:long emoji_status:EmojiStatus = Update;
@@ -29,7 +29,7 @@ updateUserEmojiStatus#28373599 user_id:long emoji_status:EmojiStatus = Update;
 
 ```php
 $update = $client->updateUserEmojiStatus(
-	user_id : -6192627923747722293,
+	user_id : -1705152251449597739,
 	emoji_status : $client->emojiStatusEmpty(),
 );
 ```

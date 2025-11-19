@@ -1,6 +1,6 @@
 # users.suggestBirthday
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 users.suggestBirthday#fc533372 id:InputUser birthday:Birthday = Updates;
@@ -27,11 +27,11 @@ users.suggestBirthday#fc533372 id:InputUser birthday:Birthday = Updates;
 
 ```php
 $updates = $client->users->suggestBirthday(
-	id : $client->inputUserEmpty(),
+	id : $client->get_input_user(peer : '@TakNone'),
 	birthday : $client->birthday(
-		day : 98,
-		month : 33,
-		year : 53,
+		day : 64,
+		month : 95,
+		year : 42,
 	),
 );
 ```

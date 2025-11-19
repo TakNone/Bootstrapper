@@ -2,7 +2,7 @@
 
 **Description** : *Obtain the latest read story ID for all peers when first logging in, returned as a list of updateReadStories updates, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stories.getAllReadPeerStories#9b5ae7f9 = Updates;

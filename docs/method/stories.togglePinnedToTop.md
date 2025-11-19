@@ -2,7 +2,7 @@
 
 **Description** : *Pin some stories to the top of the profile, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stories.togglePinnedToTop#b297e9b peer:InputPeer id:Vector<int> = Bool;
@@ -38,7 +38,7 @@ stories.togglePinnedToTop#b297e9b peer:InputPeer id:Vector<int> = Bool;
 
 ```php
 $bool = $client->stories->togglePinnedToTop(
-	peer : $client->inputPeerEmpty(),
-	id : array(54),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	id : array(61),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Admin*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelParticipantAdmin#34c3bb53 flags:# can_edit:flags.0?true self:flags.1?true user_id:long inviter_id:flags.1?long promoted_by:long date:int admin_rights:ChatAdminRights rank:flags.2?string = ChannelParticipant;
@@ -38,10 +38,10 @@ channelParticipantAdmin#34c3bb53 flags:# can_edit:flags.0?true self:flags.1?true
 $channelParticipant = $client->channelParticipantAdmin(
 	can_edit : true,
 	self : true,
-	user_id : 113096648292947363,
-	inviter_id : -7477940886193060018,
-	promoted_by : -475536324641828825,
-	date : 76,
+	user_id : 226252791043788930,
+	inviter_id : 5523646759026250891,
+	promoted_by : -853819032868120586,
+	date : 64,
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -60,6 +60,6 @@ $channelParticipant = $client->channelParticipantAdmin(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : 'PWfcI1Uybpj8qOZ0',
+	rank : 'My4mvKIPOUwC8Y6c',
 );
 ```

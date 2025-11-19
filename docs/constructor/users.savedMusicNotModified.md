@@ -2,7 +2,7 @@
 
 **Description** : *This subset of the songs currently pinned on a user&#039;s profile hasn&#039;t changed, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 users.savedMusicNotModified#e3878aa4 count:int = users.SavedMusic;
@@ -28,6 +28,6 @@ users.savedMusicNotModified#e3878aa4 count:int = users.SavedMusic;
 
 ```php
 $usersSavedMusic = $client->users->savedMusicNotModified(
-	count : 78,
+	count : 52,
 );
 ```

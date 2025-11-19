@@ -2,7 +2,7 @@
 
 **Description** : *An animated profile picture in MPEG4 format*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 videoSize#de33b094 flags:# type:string w:int h:int size:int video_start_ts:flags.0?double = VideoSize;
@@ -33,10 +33,10 @@ videoSize#de33b094 flags:# type:string w:int h:int size:int video_start_ts:flags
 
 ```php
 $videoSize = $client->videoSize(
-	type : 'uRwi3s4XJnCzpdGl',
-	w : 96,
-	h : 50,
-	size : 96,
-	video_start_ts : 464564.0791015625,
+	type : 'T8F30XrbVMUKHRmE',
+	w : 69,
+	h : 75,
+	size : 31,
+	video_start_ts : -576195.4306640625,
 );
 ```

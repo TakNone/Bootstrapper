@@ -2,7 +2,7 @@
 
 **Description** : *Change or remove the username of a supergroup/channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.updateUsername#3514b3de channel:InputChannel username:string = Bool;
@@ -46,7 +46,7 @@ channels.updateUsername#3514b3de channel:InputChannel username:string = Bool;
 
 ```php
 $bool = $client->channels->updateUsername(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	username : 'TakNone',
 );
 ```

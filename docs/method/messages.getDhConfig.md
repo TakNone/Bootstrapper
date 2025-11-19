@@ -2,7 +2,7 @@
 
 **Description** : *Returns configuration parameters for Diffie\-Hellman key generation\. Can also return a random sequence of bytes of required length*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getDhConfig#26cf8950 version:int random_length:int = messages.DhConfig;
@@ -37,7 +37,7 @@ messages.getDhConfig#26cf8950 version:int random_length:int = messages.DhConfig;
 
 ```php
 $messagesDhConfig = $client->messages->getDhConfig(
-	version : 98,
-	random_length : 51,
+	version : 49,
+	random_length : 40,
 );
 ```

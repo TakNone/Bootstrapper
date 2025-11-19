@@ -2,7 +2,7 @@
 
 **Description** : *Message entities, representing styled text in a message*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageEntityUnknown#bb92ba95 offset:int length:int = MessageEntity;

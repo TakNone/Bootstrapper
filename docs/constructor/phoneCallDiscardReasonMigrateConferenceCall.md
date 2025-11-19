@@ -2,7 +2,7 @@
 
 **Description** : *This phone call was migrated to a conference call*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phoneCallDiscardReasonMigrateConferenceCall#9fbbf1f7 slug:string = PhoneCallDiscardReason;
@@ -28,6 +28,6 @@ phoneCallDiscardReasonMigrateConferenceCall#9fbbf1f7 slug:string = PhoneCallDisc
 
 ```php
 $phoneCallDiscardReason = $client->phoneCallDiscardReasonMigrateConferenceCall(
-	slug : 'dnaPAxzcOHVt5ECI',
+	slug : 'P658zv01OYRefu9H',
 );
 ```

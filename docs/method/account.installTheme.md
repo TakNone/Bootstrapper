@@ -2,7 +2,7 @@
 
 **Description** : *Install a theme*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.installTheme#c727bb3b flags:# dark:flags.0?true theme:flags.1?InputTheme format:flags.2?string base_theme:flags.3?BaseTheme = Bool;
@@ -34,10 +34,10 @@ account.installTheme#c727bb3b flags:# dark:flags.0?true theme:flags.1?InputTheme
 $bool = $client->account->installTheme(
 	dark : true,
 	theme : $client->inputTheme(
-		id : 3214972971610266892,
-		access_hash : 822995224022389902,
+		id : -2372414926620212220,
+		access_hash : 4807314892981891816,
 	),
-	format : '2cJP76HjMLluBKpk',
+	format : 'upWPt0vQkr13yClS',
 	base_theme : $client->baseThemeClassic(),
 );
 ```

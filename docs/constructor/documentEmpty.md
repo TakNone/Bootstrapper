@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor, document doesn&#039;t exist*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 documentEmpty#36f8c871 id:long = Document;
@@ -28,6 +28,6 @@ documentEmpty#36f8c871 id:long = Document;
 
 ```php
 $document = $client->documentEmpty(
-	id : -1397165001862787753,
+	id : -4508875418944495098,
 );
 ```

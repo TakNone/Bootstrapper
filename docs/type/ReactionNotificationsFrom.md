@@ -2,7 +2,7 @@
 
 **Description** : *Reaction notification settings*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 reactionNotificationsFromContacts#bac3a61a = ReactionNotificationsFrom;

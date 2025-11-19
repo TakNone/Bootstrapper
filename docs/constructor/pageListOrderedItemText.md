@@ -2,7 +2,7 @@
 
 **Description** : *Ordered list of text items*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 pageListOrderedItemText#5e068047 num:string text:RichText = PageListOrderedItem;
@@ -29,7 +29,7 @@ pageListOrderedItemText#5e068047 num:string text:RichText = PageListOrderedItem;
 
 ```php
 $pageListOrderedItem = $client->pageListOrderedItemText(
-	num : 'lhsU8eKvp29I3E5N',
+	num : 'C3yJtwprmu1z8XBY',
 	text : $client->textEmpty(),
 );
 ```

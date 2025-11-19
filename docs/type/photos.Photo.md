@@ -2,7 +2,7 @@
 
 **Description** : *Photo with auxiliary data*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 photos.photo#20212ca8 photo:Photo users:Vector<User> = photos.Photo;

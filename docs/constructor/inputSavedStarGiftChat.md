@@ -2,7 +2,7 @@
 
 **Description** : *A gift received by a channel we own*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputSavedStarGiftChat#f101aa7f peer:InputPeer saved_id:long = InputSavedStarGift;
@@ -29,7 +29,7 @@ inputSavedStarGiftChat#f101aa7f peer:InputPeer saved_id:long = InputSavedStarGif
 
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftChat(
-	peer : $client->inputPeerEmpty(),
-	saved_id : 2648952257760744893,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	saved_id : 8805097444353167462,
 );
 ```

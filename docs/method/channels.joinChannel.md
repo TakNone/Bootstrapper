@@ -2,7 +2,7 @@
 
 **Description** : *Join a channel/supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.joinChannel#24b524c5 channel:InputChannel = Updates;
@@ -50,6 +50,6 @@ channels.joinChannel#24b524c5 channel:InputChannel = Updates;
 
 ```php
 $updates = $client->channels->joinChannel(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

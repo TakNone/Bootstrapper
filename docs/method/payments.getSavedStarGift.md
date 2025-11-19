@@ -2,7 +2,7 @@
 
 **Description** : *Fetch info about specific gifts owned by a peer we control*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.getSavedStarGift#b455a106 stargift:Vector<InputSavedStarGift> = payments.SavedStarGifts;
@@ -39,14 +39,14 @@ payments.getSavedStarGift#b455a106 stargift:Vector<InputSavedStarGift> = payment
 $paymentsSavedStarGifts = $client->payments->getSavedStarGift(
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 89,
+			msg_id : 86,
 		),
 		$client->inputSavedStarGiftChat(
-			peer : $client->inputPeerEmpty(),
-			saved_id : 7222264001523752547,
+			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+			saved_id : -7382317325304760530,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : '4EmunCbgVj18BcdD',
+			slug : 'GZy23CavQtds0rK6',
 		),
 	),
 );

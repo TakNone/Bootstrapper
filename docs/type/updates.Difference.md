@@ -2,7 +2,7 @@
 
 **Description** : *Occurred changes*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updates.differenceEmpty#5d75a138 date:int seq:int = updates.Difference;

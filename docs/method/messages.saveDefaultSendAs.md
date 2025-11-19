@@ -2,7 +2,7 @@
 
 **Description** : *Change the default peer that should be used when sending messages, reactions, poll votes to a specific group*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.saveDefaultSendAs#ccfddf96 peer:InputPeer send_as:InputPeer = Bool;
@@ -39,7 +39,7 @@ messages.saveDefaultSendAs#ccfddf96 peer:InputPeer send_as:InputPeer = Bool;
 
 ```php
 $bool = $client->messages->saveDefaultSendAs(
-	peer : $client->inputPeerEmpty(),
-	send_as : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

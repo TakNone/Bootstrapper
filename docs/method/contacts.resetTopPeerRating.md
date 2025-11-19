@@ -2,7 +2,7 @@
 
 **Description** : *Reset rating of top peer*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 contacts.resetTopPeerRating#1ae373ac category:TopPeerCategory peer:InputPeer = Bool;
@@ -38,6 +38,6 @@ contacts.resetTopPeerRating#1ae373ac category:TopPeerCategory peer:InputPeer = B
 ```php
 $bool = $client->contacts->resetTopPeerRating(
 	category : $client->topPeerCategoryBotsPM(),
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

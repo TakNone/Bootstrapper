@@ -2,7 +2,7 @@
 
 **Description** : *Related article*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 pageRelatedArticle#b390dc08 flags:# url:string webpage_id:long title:flags.0?string description:flags.1?string photo_id:flags.2?long author:flags.3?string published_date:flags.4?int = PageRelatedArticle;
@@ -36,11 +36,11 @@ pageRelatedArticle#b390dc08 flags:# url:string webpage_id:long title:flags.0?str
 ```php
 $pageRelatedArticle = $client->pageRelatedArticle(
 	url : 'https://docs.liveproto.dev',
-	webpage_id : 8049154750797447686,
-	title : 'dh8ZCOM4YUAaq1Wz',
-	description : 'j1rfX4bxEDOCQSHo',
-	photo_id : -2940207820601749997,
-	author : 'ebE907BUw4vgWKHu',
-	published_date : 100,
+	webpage_id : 676037360258082224,
+	title : 't0jdvUBzfqWh6sHo',
+	description : 'ns5uerptVRWQok49',
+	photo_id : -9154327512952164271,
+	author : 'Aq1jGJND5aQMrLZd',
+	published_date : 63,
 );
 ```

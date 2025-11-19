@@ -2,7 +2,7 @@
 
 **Description** : *Active story list of a specific peer*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stories.peerStories#cae68768 stories:PeerStories chats:Vector<Chat> users:Vector<User> = stories.PeerStories;

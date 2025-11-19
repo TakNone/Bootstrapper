@@ -2,7 +2,7 @@
 
 **Description** : *Marks message history as read*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessages;
@@ -41,7 +41,7 @@ messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessag
 
 ```php
 $messagesAffectedMessages = $client->messages->readHistory(
-	peer : $client->inputPeerEmpty(),
-	max_id : 78,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	max_id : 40,
 );
 ```

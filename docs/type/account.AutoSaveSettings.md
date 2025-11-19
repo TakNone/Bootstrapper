@@ -2,7 +2,7 @@
 
 **Description** : *Contains media autosave settings*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.autoSaveSettings#4c3e069d users_settings:AutoSaveSettings chats_settings:AutoSaveSettings broadcasts_settings:AutoSaveSettings exceptions:Vector<AutoSaveException> chats:Vector<Chat> users:Vector<User> = account.AutoSaveSettings;

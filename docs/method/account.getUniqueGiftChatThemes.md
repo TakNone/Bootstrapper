@@ -2,10 +2,10 @@
 
 **Description** : *Obtain all chat themes &raquo; associated to owned collectible gifts &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-account.getUniqueGiftChatThemes#fe74ef9f offset:int limit:int hash:long = account.ChatThemes;
+account.getUniqueGiftChatThemes#e42ce9c9 offset:string limit:int hash:long = account.ChatThemes;
 ```
 
 ---
@@ -14,7 +14,7 @@ account.getUniqueGiftChatThemes#fe74ef9f offset:int limit:int hash:long = accoun
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>offset</mark> | [`int`](type/int) | Offset for pagination |
+| <mark>offset</mark> | [`string`](type/string) | Offset for pagination |
 | <mark>limit</mark> | [`int`](type/int) | Maximum number of results to return, see pagination |
 | <mark>hash</mark> | [`long`](type/long) | Hash from a previously returned account.chatThemes constructor, to avoid returning any result if the theme list hasn't changed |
 
@@ -30,8 +30,8 @@ account.getUniqueGiftChatThemes#fe74ef9f offset:int limit:int hash:long = accoun
 
 ```php
 $accountChatThemes = $client->account->getUniqueGiftChatThemes(
-	offset : 0,
-	limit : 98,
+	offset : '3cX05K97toxNwa8i',
+	limit : 36,
 	hash : 0,
 );
 ```

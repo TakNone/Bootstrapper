@@ -2,7 +2,7 @@
 
 **Description** : *The specified bot commands will be valid only for a specific user in the specified group or supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 botCommandScopePeerUser#a1321f3 peer:InputPeer user_id:InputUser = BotCommandScope;
@@ -29,7 +29,7 @@ botCommandScopePeerUser#a1321f3 peer:InputPeer user_id:InputUser = BotCommandSco
 
 ```php
 $botCommandScope = $client->botCommandScopePeerUser(
-	peer : $client->inputPeerEmpty(),
-	user_id : $client->inputUserEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

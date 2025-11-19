@@ -2,7 +2,7 @@
 
 **Description** : *View, forward counter \+ info about replies*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.messageViews#b6c4f543 views:Vector<MessageViews> chats:Vector<Chat> users:Vector<User> = messages.MessageViews;

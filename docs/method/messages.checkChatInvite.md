@@ -2,7 +2,7 @@
 
 **Description** : *Check the validity of a chat invite link and get basic info about it*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.checkChatInvite#3eadb1bb hash:string = ChatInvite;
@@ -39,6 +39,6 @@ messages.checkChatInvite#3eadb1bb hash:string = ChatInvite;
 
 ```php
 $chatInvite = $client->messages->checkChatInvite(
-	hash : 'rQczsR9LnqtivbdZ',
+	hash : 'G8iBt0yaU7YWfAKE',
 );
 ```

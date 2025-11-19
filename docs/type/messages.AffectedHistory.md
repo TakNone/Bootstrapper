@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on affected part of communication history with the user or in a chat*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.affectedHistory#b45c69d1 pts:int pts_count:int offset:int = messages.AffectedHistory;

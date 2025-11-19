@@ -2,7 +2,7 @@
 
 **Description** : *Remove a sticker from the set where it belongs\. The sticker set must have been created by the current user/bot*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stickers.removeStickerFromSet#f7760f51 sticker:InputDocument = messages.StickerSet;

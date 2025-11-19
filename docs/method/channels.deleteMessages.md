@@ -2,7 +2,7 @@
 
 **Description** : *Delete messages in a channel/supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.deleteMessages#84c1fd4e channel:InputChannel id:Vector<int> = messages.AffectedMessages;
@@ -41,7 +41,7 @@ channels.deleteMessages#84c1fd4e channel:InputChannel id:Vector<int> = messages.
 
 ```php
 $messagesAffectedMessages = $client->channels->deleteMessages(
-	channel : $client->inputChannelEmpty(),
-	id : array(27),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	id : array(46),
 );
 ```

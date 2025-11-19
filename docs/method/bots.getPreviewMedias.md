@@ -2,7 +2,7 @@
 
 **Description** : *Fetch main mini app previews, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.getPreviewMedias#a2a5594d bot:InputUser = Vector<BotPreviewMedia>;
@@ -36,6 +36,6 @@ bots.getPreviewMedias#a2a5594d bot:InputUser = Vector<BotPreviewMedia>;
 
 ```php
 $botPreviewMedia = $client->bots->getPreviewMedias(
-	bot : $client->inputUserEmpty(),
+	bot : $client->get_input_user(peer : '@TakNone'),
 );
 ```

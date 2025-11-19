@@ -2,7 +2,7 @@
 
 **Description** : *Placeholder bot menu button never returned to users: see the docs for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 botMenuButtonDefault#7533a588 = BotMenuButton;

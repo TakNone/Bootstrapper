@@ -2,7 +2,7 @@
 
 **Description** : *Pin or unpin a saved message dialog &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.toggleSavedDialogPin#ac81bbde flags:# pinned:flags.0?true peer:InputDialogPeer = Bool;
@@ -40,7 +40,7 @@ messages.toggleSavedDialogPin#ac81bbde flags:# pinned:flags.0?true peer:InputDia
 $bool = $client->messages->toggleSavedDialogPin(
 	pinned : true,
 	peer : $client->inputDialogPeer(
-		peer : $client->inputPeerEmpty(),
+		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	),
 );
 ```

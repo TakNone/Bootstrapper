@@ -1,6 +1,6 @@
 # messageActionUserUpdatedPhoto
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageActionUserUpdatedPhoto#55555551 new_user_photo:UserProfilePhoto = MessageAction;

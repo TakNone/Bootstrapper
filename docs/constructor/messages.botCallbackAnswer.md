@@ -2,7 +2,7 @@
 
 **Description** : *Callback answer sent by the bot in response to a button press*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.botCallbackAnswer#36585ea4 flags:# alert:flags.1?true has_url:flags.3?true native_ui:flags.4?true message:flags.0?string url:flags.2?string cache_time:int = messages.BotCallbackAnswer;
@@ -37,8 +37,8 @@ $messagesBotCallbackAnswer = $client->messages->botCallbackAnswer(
 	alert : true,
 	has_url : true,
 	native_ui : true,
-	message : 'mN7xEsdVfYAiPQo9',
+	message : 'KaA4Wf7BRSOn89Xk',
 	url : 'https://docs.liveproto.dev',
-	cache_time : 50,
+	cache_time : 93,
 );
 ```

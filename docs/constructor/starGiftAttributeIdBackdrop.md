@@ -2,7 +2,7 @@
 
 **Description** : *The ID of a backdrop of a collectible gift &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starGiftAttributeIdBackdrop#1f01c757 backdrop_id:int = StarGiftAttributeId;
@@ -28,6 +28,6 @@ starGiftAttributeIdBackdrop#1f01c757 backdrop_id:int = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdBackdrop(
-	backdrop_id : 30,
+	backdrop_id : 98,
 );
 ```

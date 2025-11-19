@@ -2,7 +2,7 @@
 
 **Description** : *fixed\-width rich text*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 textFixed#6c3f19b9 text:RichText = RichText;

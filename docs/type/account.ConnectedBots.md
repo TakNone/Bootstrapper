@@ -2,7 +2,7 @@
 
 **Description** : *Info about currently connected business bots*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.connectedBots#17d7f87b connected_bots:Vector<ConnectedBot> users:Vector<User> = account.ConnectedBots;

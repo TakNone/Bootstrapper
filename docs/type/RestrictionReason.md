@@ -2,7 +2,7 @@
 
 **Description** : *Restriction reason*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 restrictionReason#d072acb4 platform:string reason:string text:string = RestrictionReason;

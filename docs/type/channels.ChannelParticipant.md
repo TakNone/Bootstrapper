@@ -2,7 +2,7 @@
 
 **Description** : *Channel participant*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.channelParticipant#dfb80317 participant:ChannelParticipant chats:Vector<Chat> users:Vector<User> = channels.ChannelParticipant;

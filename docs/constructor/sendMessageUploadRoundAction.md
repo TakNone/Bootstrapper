@@ -2,7 +2,7 @@
 
 **Description** : *User is uploading a round video*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 sendMessageUploadRoundAction#243e1c66 progress:int = SendMessageAction;
@@ -28,6 +28,6 @@ sendMessageUploadRoundAction#243e1c66 progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageUploadRoundAction(
-	progress : 96,
+	progress : 19,
 );
 ```

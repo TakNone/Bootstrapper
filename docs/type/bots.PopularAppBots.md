@@ -2,7 +2,7 @@
 
 **Description** : *Popular Main Mini Apps, to be used in the apps tab of global search &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.popularAppBots#1991b13b flags:# next_offset:flags.0?string users:Vector<User> = bots.PopularAppBots;

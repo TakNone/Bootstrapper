@@ -2,7 +2,7 @@
 
 **Description** : *Separately prepay for the upgrade of a gift &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputInvoiceStarGiftPrepaidUpgrade#9a0b48b8 peer:InputPeer hash:string = InputInvoice;
@@ -29,7 +29,7 @@ inputInvoiceStarGiftPrepaidUpgrade#9a0b48b8 peer:InputPeer hash:string = InputIn
 
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftPrepaidUpgrade(
-	peer : $client->inputPeerEmpty(),
-	hash : 'Bf6PmwJrUgtap0eN',
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	hash : 'OSTeItZ6qF93hVsY',
 );
 ```

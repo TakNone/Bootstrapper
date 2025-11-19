@@ -2,7 +2,7 @@
 
 **Description** : *Returns general information on a user using his previously exported card as input\.The app may use it to open a conversation without knowing the user&#039;s phone number*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 contacts.importCard#4fe196fe export_card:Vector<int> = User;
@@ -28,6 +28,6 @@ contacts.importCard#4fe196fe export_card:Vector<int> = User;
 
 ```php
 $user = $client->contacts->importCard(
-	export_card : array(4),
+	export_card : array(31),
 );
 ```

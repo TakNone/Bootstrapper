@@ -2,7 +2,7 @@
 
 **Description** : *Official clients only: re\-execute a method call that required reCAPTCHA verification via a RECAPTCHA\_CHECK\_%s\_\_%s, where the first placeholder is the action, and the second one is the reCAPTCHA key ID*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 invokeWithReCaptcha#adbb0f94 {X:Type} token:string query:!X = X;
@@ -29,7 +29,7 @@ invokeWithReCaptcha#adbb0f94 {X:Type} token:string query:!X = X;
 
 ```php
 $x = $client->invokeWithReCaptcha(
-	token : 'SNin4zrFju6fCQZP',
+	token : 'IfAPEd0YOJQLpyoi',
 	query : $client->help->getConfig(raw : true),
 );
 ```

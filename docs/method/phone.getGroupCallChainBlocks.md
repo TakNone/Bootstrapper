@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the blocks of a conference blockchain &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offset:int limit:int = Updates;
@@ -40,11 +40,11 @@ phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offs
 ```php
 $updates = $client->phone->getGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : 5247834515791931841,
-		access_hash : -5967206262483703317,
+		id : -8446340384741100828,
+		access_hash : -9016586904703220967,
 	),
-	sub_chain_id : 82,
+	sub_chain_id : 51,
 	offset : 0,
-	limit : 44,
+	limit : 50,
 );
 ```

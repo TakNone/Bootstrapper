@@ -2,7 +2,7 @@
 
 **Description** : *Represents a message effect &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 availableEffect#93c3e27e flags:# premium_required:flags.2?true id:long emoticon:string static_icon_id:flags.0?long effect_sticker_id:long effect_animation_id:flags.1?long = AvailableEffect;
@@ -35,10 +35,10 @@ availableEffect#93c3e27e flags:# premium_required:flags.2?true id:long emoticon:
 ```php
 $availableEffect = $client->availableEffect(
 	premium_required : true,
-	id : -4622612522691528732,
-	emoticon : 'txMI9kWOaJi4ApnF',
-	static_icon_id : -7354496793228792065,
-	effect_sticker_id : -2392361332105064351,
-	effect_animation_id : 2025597608108861524,
+	id : 3031981467287585674,
+	emoticon : 'u52TtRGJPN80C1dL',
+	static_icon_id : 557264729090992746,
+	effect_sticker_id : 8050441795436015266,
+	effect_animation_id : -7467293237454168760,
 );
 ```

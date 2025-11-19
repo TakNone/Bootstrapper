@@ -2,7 +2,7 @@
 
 **Description** : *Get info about a chat invite*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getExportedChatInvite#73746f5c peer:InputPeer link:string = messages.ExportedChatInvite;
@@ -42,7 +42,7 @@ messages.getExportedChatInvite#73746f5c peer:InputPeer link:string = messages.Ex
 
 ```php
 $messagesExportedChatInvite = $client->messages->getExportedChatInvite(
-	peer : $client->inputPeerEmpty(),
-	link : 'rWsU7d25DoPntBCF',
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	link : 'zDYxGk2yRSQ3EWIo',
 );
 ```

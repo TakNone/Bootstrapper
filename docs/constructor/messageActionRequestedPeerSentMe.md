@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about one or more peers that the a user shared with the me \(the bot\) after clicking on a keyboardButtonRequestPeer button \(service message received by the bot\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageActionRequestedPeerSentMe#93b31848 button_id:int peers:Vector<RequestedPeer> = MessageAction;
@@ -29,30 +29,30 @@ messageActionRequestedPeerSentMe#93b31848 button_id:int peers:Vector<RequestedPe
 
 ```php
 $messageAction = $client->messageActionRequestedPeerSentMe(
-	button_id : 36,
+	button_id : 12,
 	peers : array(
 		$client->requestedPeerUser(
-			user_id : -2210167121976999912,
+			user_id : -5612085225305320888,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			photo : $client->photoEmpty(
-				id : -7899146932290314949,
+				id : 5833178778516654893,
 			),
 		),
 		$client->requestedPeerChat(
-			chat_id : 6471750849424767543,
-			title : '5XMr2pEjTbFP0ZtA',
+			chat_id : 6459906191969532153,
+			title : 'rv1h2oWs5iHnMQGK',
 			photo : $client->photoEmpty(
-				id : 3846038136241555947,
+				id : -7625918593861593469,
 			),
 		),
 		$client->requestedPeerChannel(
-			channel_id : -2889099271252140781,
-			title : 'iqTWfIAGY5LSrsC1',
+			channel_id : 1049052705603411811,
+			title : 'is2DKEHgtBzRx6o7',
 			username : 'TakNone',
 			photo : $client->photoEmpty(
-				id : 6462215862309132526,
+				id : 239941899961301718,
 			),
 		),
 	),

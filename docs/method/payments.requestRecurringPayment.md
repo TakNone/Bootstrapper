@@ -1,6 +1,6 @@
 # payments.requestRecurringPayment
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.requestRecurringPayment#146e958d user_id:InputUser recurring_init_charge:string invoice_media:InputMedia = Updates;
@@ -28,8 +28,8 @@ payments.requestRecurringPayment#146e958d user_id:InputUser recurring_init_charg
 
 ```php
 $updates = $client->payments->requestRecurringPayment(
-	user_id : $client->inputUserEmpty(),
-	recurring_init_charge : '3OQk7UgxDM9Wrs86',
-	invoice_media : $client->inputMediaEmpty(),
+	user_id : $client->get_input_user(peer : '@TakNone'),
+	recurring_init_charge : 'vBdc0XSZWVL7IKnl',
+	invoice_media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );
 ```

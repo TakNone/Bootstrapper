@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the full list of only the IDs of songs currently added to the profile, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.getSavedMusicIds#e09d5faf hash:long = account.SavedMusicIds;

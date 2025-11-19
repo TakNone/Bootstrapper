@@ -1,9 +1,9 @@
 # messages.sendGroupCallMessage
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-messages.sendGroupCallMessage#87893014 call:InputGroupCall random_id:long message:TextWithEntities = Bool;
+messages.sendGroupCallMessage#b1d11410 flags:# call:InputGroupCall random_id:long message:TextWithEntities allow_paid_stars:flags.0?long send_as:flags.1?InputPeer = Updates;
 ```
 
 ---
@@ -12,121 +12,126 @@ messages.sendGroupCallMessage#87893014 call:InputGroupCall random_id:long messag
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <mark>flags</mark> | [`#`](type/#) | NOTHING |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
 | <mark>random_id</mark> | [`long`](type/long) | NOTHING |
 | <mark>message</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
+| **allow_paid_stars** | [`flags.0?long`](type/long) | NOTHING |
+| **send_as** | [`flags.1?InputPeer`](type/InputPeer) | NOTHING |
 
 ---
 
 ## Result
 
-[Bool](type/Bool)
+[Updates](type/Updates)
 
 ---
 
 ## Example
 
 ```php
-$bool = $client->messages->sendGroupCallMessage(
+$updates = $client->messages->sendGroupCallMessage(
 	call : $client->inputGroupCall(
-		id : 4076752453784279018,
-		access_hash : 5909424079196498878,
+		id : -3381421800690160780,
+		access_hash : -3469254446714057274,
 	),
-	random_id : 2825661830242293096,
+	random_id : -3973900037615686154,
 	message : $client->textWithEntities(
-		text : 'QoIlnm20utjgR7qW',
+		text : 'W3yPZmHBobUwS0AK',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 68,
+				length : 39,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 20,
+				length : 75,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 32,
+				length : 40,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 74,
+				length : 68,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 63,
+				length : 52,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 4,
+				length : 93,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 13,
+				length : 72,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 52,
+				length : 90,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 74,
+				length : 48,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 44,
-				language : 'xyCvWHkVoO4RP7M2',
+				length : 45,
+				language : 'c8Nnba40pZqPJ1WY',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 24,
+				length : 70,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 46,
-				user_id : -9201925446683120727,
+				length : 97,
+				user_id : 5931997849383984871,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 72,
-				user_id : $client->inputUserEmpty(...),
+				length : 4,
+				user_id : $client->get_input_user(peer : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 64,
+				length : 93,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 65,
+				length : 83,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 96,
+				length : 41,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 79,
+				length : 71,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 27,
+				length : 29,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 23,
+				length : 5,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 24,
-				document_id : 3223003495360324349,
+				length : 71,
+				document_id : 4447382558441266420,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 47,
+				length : 95,
 			),
 		),
 	),
+	allow_paid_stars : 1033866180858482528,
+	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

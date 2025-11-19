@@ -2,7 +2,7 @@
 
 **Description** : *Updates online user status*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.updateStatus#6628562c offline:Bool = Bool;
@@ -28,6 +28,6 @@ account.updateStatus#6628562c offline:Bool = Bool;
 
 ```php
 $bool = $client->account->updateStatus(
-	offline : true,
+	offline : false,
 );
 ```

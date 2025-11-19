@@ -2,7 +2,7 @@
 
 **Description** : *Modify the admin rights of a user in a supergroup/channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.editAdmin#d33c8902 channel:InputChannel user_id:InputUser admin_rights:ChatAdminRights rank:string = Updates;
@@ -63,8 +63,8 @@ channels.editAdmin#d33c8902 channel:InputChannel user_id:InputUser admin_rights:
 
 ```php
 $updates = $client->channels->editAdmin(
-	channel : $client->inputChannelEmpty(),
-	user_id : $client->inputUserEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -83,6 +83,6 @@ $updates = $client->channels->editAdmin(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : 'wGnpfvCcsymTY3KZ',
+	rank : 'Y0l4HiEImQ2cONwy',
 );
 ```

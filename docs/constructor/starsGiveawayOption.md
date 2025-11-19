@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a Telegram Star giveaway option*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starsGiveawayOption#94ce852a flags:# extended:flags.0?true default:flags.1?true stars:long yearly_boosts:int store_product:flags.2?string currency:string amount:long winners:Vector<StarsGiveawayWinnersOption> = StarsGiveawayOption;
@@ -38,16 +38,16 @@ starsGiveawayOption#94ce852a flags:# extended:flags.0?true default:flags.1?true 
 $starsGiveawayOption = $client->starsGiveawayOption(
 	extended : true,
 	default : true,
-	stars : -3656216551173288459,
-	yearly_boosts : 60,
-	store_product : 'wc0GUrVio1sat2bO',
-	currency : 'KfV0ZB1R7cdFAPGI',
-	amount : 2393722184069876564,
+	stars : 6300849984899981428,
+	yearly_boosts : 57,
+	store_product : 'ROlKV5DrAe9qMtFC',
+	currency : '9fLJNmEbrdhogU70',
+	amount : 8132143742168206656,
 	winners : array(
 		$client->starsGiveawayWinnersOption(
 			default : true,
-			users : 40,
-			per_user_stars : -5978922373595546014,
+			users : 67,
+			per_user_stars : 3231241894797261844,
 		),
 	),
 );

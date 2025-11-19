@@ -2,7 +2,7 @@
 
 **Description** : *SMS jobs eligibility*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 smsjobs.eligibleToJoin#dc8b44cf terms_url:string monthly_sent_sms:int = smsjobs.EligibilityToJoin;

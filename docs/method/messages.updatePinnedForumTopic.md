@@ -1,6 +1,6 @@
 # messages.updatePinnedForumTopic
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.updatePinnedForumTopic#175df251 peer:InputPeer topic_id:int pinned:Bool = Updates;
@@ -28,8 +28,8 @@ messages.updatePinnedForumTopic#175df251 peer:InputPeer topic_id:int pinned:Bool
 
 ```php
 $updates = $client->messages->updatePinnedForumTopic(
-	peer : $client->inputPeerEmpty(),
-	topic_id : 33,
-	pinned : true,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	topic_id : 13,
+	pinned : false,
 );
 ```

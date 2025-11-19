@@ -2,7 +2,7 @@
 
 **Description** : *Set an emoji status for a channel or supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.updateEmojiStatus#f0d3e6a8 channel:InputChannel emoji_status:EmojiStatus = Updates;
@@ -37,7 +37,7 @@ channels.updateEmojiStatus#f0d3e6a8 channel:InputChannel emoji_status:EmojiStatu
 
 ```php
 $updates = $client->channels->updateEmojiStatus(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	emoji_status : $client->emojiStatusEmpty(),
 );
 ```

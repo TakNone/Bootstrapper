@@ -2,7 +2,7 @@
 
 **Description** : *Get localized name, about text and description of a bot \(or of the current account, if called by a bot\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.getBotInfo#dcd914fd flags:# bot:flags.0?InputUser lang_code:string = bots.BotInfo;
@@ -40,7 +40,7 @@ bots.getBotInfo#dcd914fd flags:# bot:flags.0?InputUser lang_code:string = bots.B
 
 ```php
 $botsBotInfo = $client->bots->getBotInfo(
-	bot : $client->inputUserEmpty(),
-	lang_code : 'wsytc0qU84I1JTv6',
+	bot : $client->get_input_user(peer : '@TakNone'),
+	lang_code : 'LlCYmj6qKUpFZhyw',
 );
 ```

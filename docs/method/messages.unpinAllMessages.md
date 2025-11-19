@@ -2,7 +2,7 @@
 
 **Description** : *Unpin all pinned messages*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.unpinAllMessages#62dd747 flags:# peer:InputPeer top_msg_id:flags.0?int saved_peer_id:flags.1?InputPeer = messages.AffectedHistory;
@@ -42,8 +42,8 @@ messages.unpinAllMessages#62dd747 flags:# peer:InputPeer top_msg_id:flags.0?int 
 
 ```php
 $messagesAffectedHistory = $client->messages->unpinAllMessages(
-	peer : $client->inputPeerEmpty(),
-	top_msg_id : 41,
-	saved_peer_id : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	top_msg_id : 49,
+	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *An event in a channel admin log*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEvent#1fad68cd id:long date:int user_id:long action:ChannelAdminLogEventAction = ChannelAdminLogEvent;

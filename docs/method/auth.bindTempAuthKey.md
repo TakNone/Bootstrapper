@@ -2,7 +2,7 @@
 
 **Description** : *Binds a temporary authorization key temp\_auth\_key\_id to the permanent authorization key perm\_auth\_key\_id\. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 auth.bindTempAuthKey#cdd42a05 perm_auth_key_id:long nonce:long expires_at:int encrypted_message:bytes = Bool;
@@ -42,9 +42,9 @@ auth.bindTempAuthKey#cdd42a05 perm_auth_key_id:long nonce:long expires_at:int en
 
 ```php
 $bool = $client->auth->bindTempAuthKey(
-	perm_auth_key_id : 7144134988031389692,
-	nonce : -4880216500624694728,
-	expires_at : 0,
+	perm_auth_key_id : -573986645997740878,
+	nonce : 127584598460655110,
+	expires_at : 97,
 	encrypted_message : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

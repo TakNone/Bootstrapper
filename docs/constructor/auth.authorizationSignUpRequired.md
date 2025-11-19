@@ -2,7 +2,7 @@
 
 **Description** : *An account with this phone number doesn&#039;t exist on telegram: the user has to enter basic information and sign up*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 auth.authorizationSignUpRequired#44747e9a flags:# terms_of_service:flags.0?help.TermsOfService = auth.Authorization;
@@ -32,41 +32,41 @@ $authAuthorization = $client->auth->authorizationSignUpRequired(
 	terms_of_service : $client->help->termsOfService(
 		popup : true,
 		id : $client->dataJSON(
-			data : 'IGro5QhYJOjZ2xKN',
+			data : 'og1zspwG8MrPdvyY',
 		),
-		text : '97xyLhaoNJ2fBOeA',
+		text : 'EajGtUb3q1dnkl2e',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 22,
+				length : 86,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 8,
+				length : 64,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 31,
+				length : 66,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 16,
+				length : 28,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 31,
+				length : 53,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 95,
+				length : 43,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 39,
+				length : 18,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 44,
+				length : 63,
 			),
 			$client->messageEntityCode(
 				offset : 0,
@@ -74,60 +74,60 @@ $authAuthorization = $client->auth->authorizationSignUpRequired(
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 73,
-				language : 'otWw6pHMQfV1PcJK',
+				length : 39,
+				language : 'DMdE96ucwWOl1X4J',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 83,
+				length : 57,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 91,
-				user_id : -8567558794720647238,
+				length : 30,
+				user_id : 7771978727477514944,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 28,
-				user_id : $client->inputUserEmpty(...),
+				length : 8,
+				user_id : $client->get_input_user(peer : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 14,
+				length : 73,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 55,
+				length : 86,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 65,
+				length : 2,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 31,
+				length : 70,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 89,
+				length : 39,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 100,
+				length : 16,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 27,
-				document_id : -8861275398232433283,
+				length : 60,
+				document_id : -4644076934872164721,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 47,
+				length : 85,
 			),
 		),
-		min_age_confirm : 21,
+		min_age_confirm : 95,
 	),
 );
 ```

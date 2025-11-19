@@ -2,7 +2,7 @@
 
 **Description** : *Set maximum Time\-To\-Live of all messages in the specified chat*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.setHistoryTTL#b80e5fe4 peer:InputPeer period:int = Updates;
@@ -39,7 +39,7 @@ messages.setHistoryTTL#b80e5fe4 peer:InputPeer period:int = Updates;
 
 ```php
 $updates = $client->messages->setHistoryTTL(
-	peer : $client->inputPeerEmpty(),
-	period : 81,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	period : 92,
 );
 ```

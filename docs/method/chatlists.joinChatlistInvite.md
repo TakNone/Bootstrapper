@@ -2,7 +2,7 @@
 
 **Description** : *Import a chat folder deep link &raquo;, joining some or all the chats in the folder*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 chatlists.joinChatlistInvite#a6b1e39a slug:string peers:Vector<InputPeer> = Updates;
@@ -41,31 +41,7 @@ chatlists.joinChatlistInvite#a6b1e39a slug:string peers:Vector<InputPeer> = Upda
 
 ```php
 $updates = $client->chatlists->joinChatlistInvite(
-	slug : '2NTLuhSgbesxZWwI',
-	peers : array(
-		$client->inputPeerEmpty(),
-		$client->inputPeerSelf(),
-		$client->inputPeerChat(
-			chat_id : 811254988781784129,
-		),
-		$client->inputPeerUser(
-			user_id : -5682933750494465548,
-			access_hash : 524310062633870815,
-		),
-		$client->inputPeerChannel(
-			channel_id : 908379334627553028,
-			access_hash : 8707977810340040571,
-		),
-		$client->inputPeerUserFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 59,
-			user_id : -2275938943026966933,
-		),
-		$client->inputPeerChannelFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 34,
-			channel_id : -5116408195747297207,
-		),
-	),
+	slug : '3OgAzVfBl52eKHZb',
+	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

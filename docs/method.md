@@ -208,6 +208,12 @@ The generated login token should be encoded using base64url, then shown as a tg:
 
 ---
 
+##### auth checkPaidAuth
+
+:link: [*NOTHING*](method/auth.checkPaidAuth)
+
+---
+
 ##### account registerDevice
 
 :link: [*Register device to receive PUSH notifications*](method/account.registerDevice)
@@ -1128,6 +1134,12 @@ Returns an array of Telegram user IDs for all contacts \(0 if a contact does not
 ##### contacts getSponsoredPeers
 
 :link: [*Obtain a list of sponsored peer search results for a given query*](method/contacts.getSponsoredPeers)
+
+---
+
+##### contacts updateContactNote
+
+:link: [*NOTHING*](method/contacts.updateContactNote)
 
 ---
 
@@ -2525,69 +2537,9 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
-##### messages updateContactNote
-
-:link: [*NOTHING*](method/messages.updateContactNote)
-
----
-
-##### messages updatePinnedForumTopic
-
-:link: [*NOTHING*](method/messages.updatePinnedForumTopic)
-
----
-
-##### messages getWebViewResult
-
-:link: [*NOTHING*](method/messages.getWebViewResult)
-
----
-
-##### messages createForumTopic
-
-:link: [*NOTHING*](method/messages.createForumTopic)
-
----
-
-##### messages forwardMessage
-
-:link: [*Forwards single messages*](method/messages.forwardMessage)
-
----
-
 ##### messages getForumTopics
 
 :link: [*NOTHING*](method/messages.getForumTopics)
-
----
-
-##### messages checkPaidAuth
-
-:link: [*NOTHING*](method/messages.checkPaidAuth)
-
----
-
-##### messages updateColor
-
-:link: [*NOTHING*](method/messages.updateColor)
-
----
-
-##### messages getStatsURL
-
-:link: [*Returns URL with the chat statistics\. Currently this method can be used only for channels*](method/messages.getStatsURL)
-
----
-
-##### messages getAllChats
-
-:link: [*Get all chats, channels and supergroups*](method/messages.getAllChats)
-
----
-
-##### messages sendGroupCallMessage
-
-:link: [*NOTHING*](method/messages.sendGroupCallMessage)
 
 ---
 
@@ -2603,27 +2555,9 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
-##### messages deleteTopicHistory
+##### messages updatePinnedForumTopic
 
-:link: [*NOTHING*](method/messages.deleteTopicHistory)
-
----
-
-##### messages setWebViewResult
-
-:link: [*NOTHING*](method/messages.setWebViewResult)
-
----
-
-##### messages getUniqueGiftChatThemes
-
-:link: [*NOTHING*](method/messages.getUniqueGiftChatThemes)
-
----
-
-##### messages sendGroupCallEncryptedMessage
-
-:link: [*NOTHING*](method/messages.sendGroupCallEncryptedMessage)
+:link: [*NOTHING*](method/messages.updatePinnedForumTopic)
 
 ---
 
@@ -2633,9 +2567,105 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
+##### messages createForumTopic
+
+:link: [*NOTHING*](method/messages.createForumTopic)
+
+---
+
+##### messages deleteTopicHistory
+
+:link: [*NOTHING*](method/messages.deleteTopicHistory)
+
+---
+
+##### messages deleteGroupCallParticipantMessages
+
+:link: [*NOTHING*](method/messages.deleteGroupCallParticipantMessages)
+
+---
+
+##### messages getWebViewResult
+
+:link: [*NOTHING*](method/messages.getWebViewResult)
+
+---
+
+##### messages forwardMessage
+
+:link: [*Forwards single messages*](method/messages.forwardMessage)
+
+---
+
+##### messages getGroupCallStreamRtmpUrl
+
+:link: [*NOTHING*](method/messages.getGroupCallStreamRtmpUrl)
+
+---
+
+##### messages getStarGiftAuctionState
+
+:link: [*NOTHING*](method/messages.getStarGiftAuctionState)
+
+---
+
+##### messages getStarGiftAuctionAcquiredGifts
+
+:link: [*NOTHING*](method/messages.getStarGiftAuctionAcquiredGifts)
+
+---
+
+##### messages getGroupCallStars
+
+:link: [*NOTHING*](method/messages.getGroupCallStars)
+
+---
+
+##### messages getStatsURL
+
+:link: [*Returns URL with the chat statistics\. Currently this method can be used only for channels*](method/messages.getStatsURL)
+
+---
+
+##### messages getAllChats
+
+:link: [*Get all chats, channels and supergroups*](method/messages.getAllChats)
+
+---
+
 ##### messages toggleGroupCallSettings
 
 :link: [*NOTHING*](method/messages.toggleGroupCallSettings)
+
+---
+
+##### messages getStarGiftActiveAuctions
+
+:link: [*NOTHING*](method/messages.getStarGiftActiveAuctions)
+
+---
+
+##### messages sendGroupCallMessage
+
+:link: [*NOTHING*](method/messages.sendGroupCallMessage)
+
+---
+
+##### messages startLive
+
+:link: [*NOTHING*](method/messages.startLive)
+
+---
+
+##### messages setWebViewResult
+
+:link: [*NOTHING*](method/messages.setWebViewResult)
+
+---
+
+##### messages deleteGroupCallMessages
+
+:link: [*NOTHING*](method/messages.deleteGroupCallMessages)
 
 ---
 
@@ -3140,48 +3170,6 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 ##### channels toggleForum
 
 :link: [*Enable or disable forum functionality in a supergroup*](method/channels.toggleForum)
-
----
-
-##### channels createForumTopic
-
-:link: [*Create a forum topic; requires manage\_topics rights*](method/channels.createForumTopic)
-
----
-
-##### channels getForumTopics
-
-:link: [*Get topics of a forum*](method/channels.getForumTopics)
-
----
-
-##### channels getForumTopicsByID
-
-:link: [*Get forum topics by their ID*](method/channels.getForumTopicsByID)
-
----
-
-##### channels editForumTopic
-
-:link: [*Edit forum topic; requires manage\_topics rights*](method/channels.editForumTopic)
-
----
-
-##### channels updatePinnedForumTopic
-
-:link: [*Pin or unpin forum topics*](method/channels.updatePinnedForumTopic)
-
----
-
-##### channels deleteTopicHistory
-
-:link: [*Delete message history of a forum topic*](method/channels.deleteTopicHistory)
-
----
-
-##### channels reorderPinnedForumTopics
-
-:link: [*Reorder pinned forum topics*](method/channels.reorderPinnedForumTopics)
 
 ---
 
@@ -4097,6 +4085,24 @@ As usual, the media DC is preferred, if available*](method/phone.getGroupCallStr
 ##### phone getGroupCallChainBlocks
 
 :link: [*Fetch the blocks of a conference blockchain &raquo;*](method/phone.getGroupCallChainBlocks)
+
+---
+
+##### phone sendGroupCallMessage
+
+:link: [*NOTHING*](method/phone.sendGroupCallMessage)
+
+---
+
+##### phone sendGroupCallEncryptedMessage
+
+:link: [*NOTHING*](method/phone.sendGroupCallEncryptedMessage)
+
+---
+
+##### phone saveDefaultSendAs
+
+:link: [*NOTHING*](method/phone.saveDefaultSendAs)
 
 ---
 

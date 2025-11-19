@@ -2,7 +2,7 @@
 
 **Description** : *Set whether all users should request admin approval to join the group &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.toggleJoinRequest#4c2985b6 channel:InputChannel enabled:Bool = Updates;
@@ -41,7 +41,7 @@ channels.toggleJoinRequest#4c2985b6 channel:InputChannel enabled:Bool = Updates;
 
 ```php
 $updates = $client->channels->toggleJoinRequest(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	enabled : true,
 );
 ```

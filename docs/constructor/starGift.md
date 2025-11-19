@@ -2,10 +2,10 @@
 
 **Description** : *Represents a star gift, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-starGift#80ac53c3 flags:# limited:flags.0?true sold_out:flags.1?true birthday:flags.2?true can_upgrade:flags.3?true require_premium:flags.7?true limited_per_user:flags.8?true peer_color_available:flags.10?true id:long sticker:Document stars:long availability_remains:flags.0?int availability_total:flags.0?int availability_resale:flags.4?long convert_stars:long first_sale_date:flags.1?int last_sale_date:flags.1?int upgrade_stars:flags.3?long resell_min_stars:flags.4?long title:flags.5?string released_by:flags.6?Peer per_user_total:flags.8?int per_user_remains:flags.8?int locked_until_date:flags.9?int = StarGift;
+starGift#1b9a4d7f flags:# limited:flags.0?true sold_out:flags.1?true birthday:flags.2?true can_upgrade:flags.3?true require_premium:flags.7?true limited_per_user:flags.8?true peer_color_available:flags.10?true auction:flags.11?true id:long sticker:Document stars:long availability_remains:flags.0?int availability_total:flags.0?int availability_resale:flags.4?long convert_stars:long first_sale_date:flags.1?int last_sale_date:flags.1?int upgrade_stars:flags.3?long resell_min_stars:flags.4?long title:flags.5?string released_by:flags.6?Peer per_user_total:flags.8?int per_user_remains:flags.8?int locked_until_date:flags.9?int auction_slug:flags.11?string gifts_per_round:flags.11?int = StarGift;
 ```
 
 ---
@@ -22,6 +22,7 @@ starGift#80ac53c3 flags:# limited:flags.0?true sold_out:flags.1?true birthday:fl
 | **require_premium** | [`flags.7?true`](type/true) | This gift can only be bought by users with a Premium subscription |
 | **limited_per_user** | [`flags.8?true`](type/true) | If set, the maximum number of gifts of this type that can be owned by a single user is limited and specified in per_user_total, and the remaining slots for the current user in per_user_remains |
 | **peer_color_available** | [`flags.10?true`](type/true) | NOTHING |
+| **auction** | [`flags.11?true`](type/true) | NOTHING |
 | <mark>id</mark> | [`long`](type/long) | Identifier of the gift |
 | <mark>sticker</mark> | [`Document`](type/Document) | Sticker that represents the gift |
 | <mark>stars</mark> | [`long`](type/long) | Price of the gift in Telegram Stars |
@@ -38,6 +39,8 @@ starGift#80ac53c3 flags:# limited:flags.0?true sold_out:flags.1?true birthday:fl
 | **per_user_total** | [`flags.8?int`](type/int) | Maximum number of gifts of this type that can be owned by any user |
 | **per_user_remains** | [`flags.8?int`](type/int) | Remaining number of gifts of this type that can be owned by the current user |
 | **locked_until_date** | [`flags.9?int`](type/int) | If set, the specified gift possibly cannot be sent until the specified date, see here » for the full flow |
+| **auction_slug** | [`flags.11?string`](type/string) | NOTHING |
+| **gifts_per_round** | [`flags.11?int`](type/int) | NOTHING |
 
 ---
 
@@ -58,25 +61,28 @@ $starGift = $client->starGift(
 	require_premium : true,
 	limited_per_user : true,
 	peer_color_available : true,
-	id : 6168933606909499660,
+	auction : true,
+	id : -2974359365131601568,
 	sticker : $client->documentEmpty(
-		id : 6312382698874051702,
+		id : 8970904308186456518,
 	),
-	stars : 6675601541403247660,
-	availability_remains : 74,
-	availability_total : 61,
-	availability_resale : 4545216427112260514,
-	convert_stars : -4787000735875983170,
-	first_sale_date : 51,
-	last_sale_date : 5,
-	upgrade_stars : -1639242595430886917,
-	resell_min_stars : 2074296744447601189,
-	title : 'Y7RHPNCh6pmlBcnF',
+	stars : 6502510804428121478,
+	availability_remains : 99,
+	availability_total : 46,
+	availability_resale : -4346668727806031433,
+	convert_stars : 6763990493651285982,
+	first_sale_date : 41,
+	last_sale_date : 26,
+	upgrade_stars : 4976997530197785776,
+	resell_min_stars : -1281276767612566168,
+	title : 'gi9IvyerGV2RNHAt',
 	released_by : $client->peerUser(
-		user_id : 5033583946777086115,
+		user_id : -8733028291011422606,
 	),
-	per_user_total : 67,
-	per_user_remains : 56,
-	locked_until_date : 17,
+	per_user_total : 72,
+	per_user_remains : 61,
+	locked_until_date : 52,
+	auction_slug : 'Ru6BSmzMiE85eJrw',
+	gifts_per_round : 56,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *The saved dialogs haven&#039;t changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.savedDialogsNotModified#c01f6fe8 count:int = messages.SavedDialogs;
@@ -28,6 +28,6 @@ messages.savedDialogsNotModified#c01f6fe8 count:int = messages.SavedDialogs;
 
 ```php
 $messagesSavedDialogs = $client->messages->savedDialogsNotModified(
-	count : 61,
+	count : 64,
 );
 ```

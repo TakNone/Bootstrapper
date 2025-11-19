@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Business introduction &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 businessIntro#5a0a066d flags:# title:string description:string sticker:flags.0?Document = BusinessIntro;
@@ -31,10 +31,10 @@ businessIntro#5a0a066d flags:# title:string description:string sticker:flags.0?D
 
 ```php
 $businessIntro = $client->businessIntro(
-	title : 'aLfAv4tMRsEW6w17',
-	description : 'ZsgQDaRt5qNw3m7j',
+	title : 'OERhFl0fedYpct4C',
+	description : 'pCAywJHQNZGLV96n',
 	sticker : $client->documentEmpty(
-		id : -4883907563330043189,
+		id : -397171628989463165,
 	),
 );
 ```

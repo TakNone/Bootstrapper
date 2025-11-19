@@ -2,7 +2,7 @@
 
 **Description** : *Live geoposition message was viewed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateGeoLiveViewed#871fb939 peer:Peer msg_id:int = Update;
@@ -30,8 +30,8 @@ updateGeoLiveViewed#871fb939 peer:Peer msg_id:int = Update;
 ```php
 $update = $client->updateGeoLiveViewed(
 	peer : $client->peerUser(
-		user_id : -8437653656891193706,
+		user_id : -3669876640628536404,
 	),
-	msg_id : 74,
+	msg_id : 25,
 );
 ```

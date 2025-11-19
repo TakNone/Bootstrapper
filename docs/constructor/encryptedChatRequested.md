@@ -2,7 +2,7 @@
 
 **Description** : *Request to create an encrypted chat*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 encryptedChatRequested#48f1d94c flags:# folder_id:flags.0?int id:int access_hash:long date:int admin_id:long participant_id:long g_a:bytes = EncryptedChat;
@@ -35,12 +35,12 @@ encryptedChatRequested#48f1d94c flags:# folder_id:flags.0?int id:int access_hash
 
 ```php
 $encryptedChat = $client->encryptedChatRequested(
-	folder_id : 83,
-	id : 58,
-	access_hash : -5224230597812479089,
-	date : 25,
-	admin_id : -5276435618186868505,
-	participant_id : -6836388130135063689,
+	folder_id : 4,
+	id : 0,
+	access_hash : 3964235954219981539,
+	date : 81,
+	admin_id : -7495655031051244737,
+	participant_id : 7606970159400738454,
 	g_a : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

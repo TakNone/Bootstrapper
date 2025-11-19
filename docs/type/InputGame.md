@@ -2,7 +2,7 @@
 
 **Description** : *A game to send*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputGameID#32c3e77 id:long access_hash:long = InputGame;

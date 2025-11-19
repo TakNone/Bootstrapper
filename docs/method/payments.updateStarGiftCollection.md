@@ -2,7 +2,7 @@
 
 **Description** : *Add or remove gifts from a star gift collection &raquo;, or rename the collection*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.updateStarGiftCollection#4fddbee7 flags:# peer:InputPeer collection_id:int title:flags.0?string delete_stargift:flags.1?Vector<InputSavedStarGift> add_stargift:flags.2?Vector<InputSavedStarGift> order:flags.3?Vector<InputSavedStarGift> = StarGiftCollection;
@@ -42,43 +42,43 @@ payments.updateStarGiftCollection#4fddbee7 flags:# peer:InputPeer collection_id:
 
 ```php
 $starGiftCollection = $client->payments->updateStarGiftCollection(
-	peer : $client->inputPeerEmpty(),
-	collection_id : 28,
-	title : 'd1h85POULCWsYgkb',
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	collection_id : 63,
+	title : 'l6CuBbh9zVHrOg2d',
 	delete_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 0,
+			msg_id : 80,
 		),
 		$client->inputSavedStarGiftChat(
-			peer : $client->inputPeerEmpty(),
-			saved_id : -8626870539286419825,
+			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+			saved_id : -9216759433404327651,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'AmYBduTMCioJZ9Fa',
+			slug : 'iXl2jbm4Lv9NU1on',
 		),
 	),
 	add_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 38,
+			msg_id : 60,
 		),
 		$client->inputSavedStarGiftChat(
-			peer : $client->inputPeerEmpty(),
-			saved_id : -1262470964043039479,
+			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+			saved_id : 3866487087617733278,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'EoYqp2NZGshPm8O1',
+			slug : 'gM2RQ379lFy0Zk1w',
 		),
 	),
 	order : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 96,
+			msg_id : 5,
 		),
 		$client->inputSavedStarGiftChat(
-			peer : $client->inputPeerEmpty(),
-			saved_id : -7213020667223642710,
+			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+			saved_id : 6944236466931036990,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'dEkCDMsj72qGSY0l',
+			slug : 'N21sjiJTyXhPc7Fz',
 		),
 	),
 );

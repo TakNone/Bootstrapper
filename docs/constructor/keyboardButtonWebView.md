@@ -2,7 +2,7 @@
 
 **Description** : *Button to open a bot mini app using messages\.requestWebView, sending over user information after user confirmation*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 keyboardButtonWebView#13767230 text:string url:string = KeyboardButton;
@@ -29,7 +29,7 @@ keyboardButtonWebView#13767230 text:string url:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonWebView(
-	text : 'skMcYLvmRbiFVX2E',
+	text : 'UPCwVaXchHd1rYs7',
 	url : 'https://docs.liveproto.dev',
 );
 ```

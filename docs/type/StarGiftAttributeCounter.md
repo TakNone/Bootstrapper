@@ -2,7 +2,7 @@
 
 **Description** : *Indicates the total number of gifts that have the specified attribute*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starGiftAttributeCounter#2eb1b658 attribute:StarGiftAttributeId count:int = StarGiftAttributeCounter;

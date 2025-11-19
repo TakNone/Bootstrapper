@@ -2,7 +2,7 @@
 
 **Description** : *Uninstall a stickerset*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.uninstallStickerSet#f96e55de stickerset:InputStickerSet = Bool;

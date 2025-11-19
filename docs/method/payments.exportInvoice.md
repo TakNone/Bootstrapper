@@ -2,7 +2,7 @@
 
 **Description** : *Generate an invoice deep link*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.exportInvoice#f91b065 invoice_media:InputMedia = payments.ExportedInvoice;
@@ -44,6 +44,6 @@ payments.exportInvoice#f91b065 invoice_media:InputMedia = payments.ExportedInvoi
 
 ```php
 $paymentsExportedInvoice = $client->payments->exportInvoice(
-	invoice_media : $client->inputMediaEmpty(),
+	invoice_media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Delete all revoked chat invites*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.deleteRevokedExportedChatInvites#56987bd5 peer:InputPeer admin_id:InputUser = Bool;
@@ -38,7 +38,7 @@ messages.deleteRevokedExportedChatInvites#56987bd5 peer:InputPeer admin_id:Input
 
 ```php
 $bool = $client->messages->deleteRevokedExportedChatInvites(
-	peer : $client->inputPeerEmpty(),
-	admin_id : $client->inputUserEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	admin_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

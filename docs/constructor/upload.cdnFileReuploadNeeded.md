@@ -2,7 +2,7 @@
 
 **Description** : *The file was cleared from the temporary RAM cache of the CDN and has to be re\-uploaded*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 upload.cdnFileReuploadNeeded#eea8e46e request_token:bytes = upload.CdnFile;

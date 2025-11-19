@@ -2,7 +2,7 @@
 
 **Description** : *Admins with ban\_users admin rights &raquo; may allow users that apply a certain number of booosts &raquo; to the group to bypass slow mode &raquo; and other &raquo; supergroup restrictions, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.setBoostsToUnblockRestrictions#ad399cee channel:InputChannel boosts:int = Updates;
@@ -37,7 +37,7 @@ channels.setBoostsToUnblockRestrictions#ad399cee channel:InputChannel boosts:int
 
 ```php
 $updates = $client->channels->setBoostsToUnblockRestrictions(
-	channel : $client->inputChannelEmpty(),
-	boosts : 34,
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	boosts : 15,
 );
 ```

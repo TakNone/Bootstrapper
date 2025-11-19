@@ -2,7 +2,7 @@
 
 **Description** : *Get Telegram Star revenue statistics &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.getStarsRevenueStats#d91ffad6 flags:# dark:flags.0?true ton:flags.1?true peer:InputPeer = payments.StarsRevenueStats;
@@ -41,6 +41,6 @@ payments.getStarsRevenueStats#d91ffad6 flags:# dark:flags.0?true ton:flags.1?tru
 $paymentsStarsRevenueStats = $client->payments->getStarsRevenueStats(
 	dark : true,
 	ton : true,
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Uploaded secure file, for more info see the passport docs &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputSecureFileUploaded#3334b0f0 id:long parts:int md5_checksum:string file_hash:bytes secret:bytes = InputSecureFile;
@@ -32,8 +32,8 @@ inputSecureFileUploaded#3334b0f0 id:long parts:int md5_checksum:string file_hash
 
 ```php
 $inputSecureFile = $client->inputSecureFileUploaded(
-	id : 4799713215485643351,
-	parts : 65,
+	id : -6056507752595426612,
+	parts : 81,
 	md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",

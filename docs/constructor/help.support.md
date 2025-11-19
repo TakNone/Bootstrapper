@@ -2,7 +2,7 @@
 
 **Description** : *Info on support user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.support#17c6b5f6 phone_number:string user:User = help.Support;
@@ -31,7 +31,7 @@ help.support#17c6b5f6 phone_number:string user:User = help.Support;
 $helpSupport = $client->help->support(
 	phone_number : '+1234567890',
 	user : $client->userEmpty(
-		id : 5641783791315586307,
+		id : -8365264717249524246,
 	),
 );
 ```

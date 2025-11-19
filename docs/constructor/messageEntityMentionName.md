@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing a user mention: for creating a mention use inputMessageEntityMentionName*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageEntityMentionName#dc7b1140 offset:int length:int user_id:long = MessageEntity;
@@ -31,7 +31,7 @@ messageEntityMentionName#dc7b1140 offset:int length:int user_id:long = MessageEn
 ```php
 $messageEntity = $client->messageEntityMentionName(
 	offset : 0,
-	length : 66,
-	user_id : -3197936444197911449,
+	length : 64,
+	user_id : 8963432851615358401,
 );
 ```

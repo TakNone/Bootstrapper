@@ -2,7 +2,7 @@
 
 **Description** : *An attribute of a collectible gift &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starGiftAttributeModel#39d99013 name:string document:Document rarity_permille:int = StarGiftAttribute;

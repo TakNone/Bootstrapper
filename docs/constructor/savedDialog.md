@@ -2,7 +2,7 @@
 
 **Description** : *Represents a saved dialog &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 savedDialog#bd87cb6c flags:# pinned:flags.2?true peer:Peer top_message:int = SavedDialog;
@@ -33,8 +33,8 @@ savedDialog#bd87cb6c flags:# pinned:flags.2?true peer:Peer top_message:int = Sav
 $savedDialog = $client->savedDialog(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : 8636361112284918556,
+		user_id : 2790710026809746694,
 	),
-	top_message : 71,
+	top_message : 20,
 );
 ```

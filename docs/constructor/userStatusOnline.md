@@ -2,7 +2,7 @@
 
 **Description** : *Online status of the user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 userStatusOnline#edb93949 expires:int = UserStatus;
@@ -28,6 +28,6 @@ userStatusOnline#edb93949 expires:int = UserStatus;
 
 ```php
 $userStatus = $client->userStatusOnline(
-	expires : 100,
+	expires : 64,
 );
 ```

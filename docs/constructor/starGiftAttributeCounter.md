@@ -2,7 +2,7 @@
 
 **Description** : *Indicates the total number of gifts that have the specified attribute*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starGiftAttributeCounter#2eb1b658 attribute:StarGiftAttributeId count:int = StarGiftAttributeCounter;
@@ -30,8 +30,8 @@ starGiftAttributeCounter#2eb1b658 attribute:StarGiftAttributeId count:int = Star
 ```php
 $starGiftAttributeCounter = $client->starGiftAttributeCounter(
 	attribute : $client->starGiftAttributeIdModel(
-		document_id : -5659379106438623854,
+		document_id : -148568480969672019,
 	),
-	count : 16,
+	count : 53,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Signs in a user with a validated phone number*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 auth.signIn#8d52a951 flags:# phone_number:string phone_code_hash:string phone_code:flags.0?string email_verification:flags.1?EmailVerification = auth.Authorization;
@@ -51,7 +51,7 @@ $authAuthorization = $client->auth->signIn(
 	phone_code_hash : '+1234567890',
 	phone_code : '+1234567890',
 	email_verification : $client->emailVerificationCode(
-		code : '9PlbBW8gSKks5qYh',
+		code : 'JZzV94wm812qrHGx',
 	),
 );
 ```

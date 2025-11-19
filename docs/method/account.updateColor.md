@@ -2,10 +2,10 @@
 
 **Description** : *Update the accent color and background custom emoji &raquo; of the current account*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-account.updateColor#7cefa15d flags:# for_profile:flags.1?true color:flags.2?int background_emoji_id:flags.0?long = Bool;
+account.updateColor#684d214e flags:# for_profile:flags.1?true color:flags.2?PeerColor = Bool;
 ```
 
 ---
@@ -16,8 +16,7 @@ account.updateColor#7cefa15d flags:# for_profile:flags.1?true color:flags.2?int 
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **for_profile** | [`flags.1?true`](type/true) | Whether to change the accent color emoji pattern of the profile page; otherwise, the accent color and emoji pattern of messages will be changed |
-| **color** | [`flags.2?int`](type/int) | ID of the accent color palette » to use (not RGB24, see here » for more info) |
-| **background_emoji_id** | [`flags.0?long`](type/long) | Custom emoji ID used in the accent color pattern |
+| **color** | [`flags.2?PeerColor`](type/PeerColor) | ID of the accent color palette » to use (not RGB24, see here » for more info) |
 
 ---
 
@@ -42,7 +41,9 @@ account.updateColor#7cefa15d flags:# for_profile:flags.1?true color:flags.2?int 
 ```php
 $bool = $client->account->updateColor(
 	for_profile : true,
-	color : 3,
-	background_emoji_id : 829048318988754006,
+	color : $client->peerColor(
+		color : 36,
+		background_emoji_id : -2911540139408952928,
+	),
 );
 ```

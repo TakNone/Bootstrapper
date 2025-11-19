@@ -2,7 +2,7 @@
 
 **Description** : *Public key to use only during handshakes to CDN DCs*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 cdnPublicKey#c982eaba dc_id:int public_key:string = CdnPublicKey;
@@ -29,7 +29,7 @@ cdnPublicKey#c982eaba dc_id:int public_key:string = CdnPublicKey;
 
 ```php
 $cdnPublicKey = $client->cdnPublicKey(
-	dc_id : 32,
-	public_key : 'tITp62l714DvqLHc',
+	dc_id : 54,
+	public_key : 'tzMLlJYIaT5p374i',
 );
 ```

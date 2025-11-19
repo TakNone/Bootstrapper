@@ -2,7 +2,7 @@
 
 **Description** : *Privacy keys together with privacy rules &raquo; indicate what can or can&#039;t someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 privacyKeyStatusTimestamp#bc2eab30 = PrivacyKey;
@@ -18,6 +18,7 @@ privacyKeyAbout#a486b761 = PrivacyKey;
 privacyKeyBirthday#2000a518 = PrivacyKey;
 privacyKeyStarGiftsAutoSave#2ca4fdf8 = PrivacyKey;
 privacyKeyNoPaidMessages#17d348d2 = PrivacyKey;
+privacyKeySavedMusic#ff7a571b = PrivacyKey;
 ```
 
 ---
@@ -39,3 +40,4 @@ privacyKeyNoPaidMessages#17d348d2 = PrivacyKey;
 | [**privacyKeyBirthday**](constructor/privacyKeyBirthday) | Whether the user can see our birthday |
 | [**privacyKeyStarGiftsAutoSave**](constructor/privacyKeyStarGiftsAutoSave) | Whether received gifts will be automatically displayed on our profile |
 | [**privacyKeyNoPaidMessages**](constructor/privacyKeyNoPaidMessages) | Who can send you messages without paying, if paid messages » are enabled |
+| [**privacyKeySavedMusic**](constructor/privacyKeySavedMusic) | NOTHING |

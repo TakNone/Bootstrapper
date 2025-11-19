@@ -2,7 +2,7 @@
 
 **Description** : *Businesses &raquo; may advertise their location using this method, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.updateBusinessLocation#9e6b131a flags:# geo_point:flags.1?InputGeoPoint address:flags.0?string = Bool;
@@ -31,6 +31,6 @@ account.updateBusinessLocation#9e6b131a flags:# geo_point:flags.1?InputGeoPoint 
 ```php
 $bool = $client->account->updateBusinessLocation(
 	geo_point : $client->inputGeoPointEmpty(),
-	address : '0OX2oIUzncqRE6gp',
+	address : 'pqQhLCASrmTa7t6X',
 );
 ```

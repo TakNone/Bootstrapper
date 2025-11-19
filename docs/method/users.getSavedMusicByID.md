@@ -2,7 +2,7 @@
 
 **Description** : *Check if the passed songs are still pinned to the user&#039;s profile, or refresh the file references of songs pinned on a user&#039;s profile see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 users.getSavedMusicByID#7573a4e9 id:InputUser documents:Vector<InputDocument> = users.SavedMusic;
@@ -37,12 +37,12 @@ users.getSavedMusicByID#7573a4e9 id:InputUser documents:Vector<InputDocument> = 
 
 ```php
 $usersSavedMusic = $client->users->getSavedMusicByID(
-	id : $client->inputUserEmpty(),
+	id : $client->get_input_user(peer : '@TakNone'),
 	documents : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : 3993572544101395771,
-			access_hash : -8835191214650007165,
+			id : 6699258455844645433,
+			access_hash : -4015818319554341220,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

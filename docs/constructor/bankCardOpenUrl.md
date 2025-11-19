@@ -2,7 +2,7 @@
 
 **Description** : *Credit card info URL provided by the bank*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bankCardOpenUrl#f568028a url:string name:string = BankCardOpenUrl;
@@ -30,6 +30,6 @@ bankCardOpenUrl#f568028a url:string name:string = BankCardOpenUrl;
 ```php
 $bankCardOpenUrl = $client->bankCardOpenUrl(
 	url : 'https://docs.liveproto.dev',
-	name : 'J1e2zRKxwunspqOm',
+	name : '86Hkh9rFdP3QXwtn',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Get temporary payment password*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.getTmpPassword#449e0b51 password:InputCheckPasswordSRP period:int = account.TmpPassword;
@@ -40,6 +40,6 @@ account.getTmpPassword#449e0b51 password:InputCheckPasswordSRP period:int = acco
 ```php
 $accountTmpPassword = $client->account->getTmpPassword(
 	password : $client->inputCheckPasswordEmpty(),
-	period : 70,
+	period : 43,
 );
 ```

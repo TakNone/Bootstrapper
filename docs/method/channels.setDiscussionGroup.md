@@ -2,7 +2,7 @@
 
 **Description** : *Associate a group to a channel as discussion group for that channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.setDiscussionGroup#40582bb2 broadcast:InputChannel group:InputChannel = Bool;
@@ -43,7 +43,7 @@ channels.setDiscussionGroup#40582bb2 broadcast:InputChannel group:InputChannel =
 
 ```php
 $bool = $client->channels->setDiscussionGroup(
-	broadcast : $client->inputChannelEmpty(),
-	group : $client->inputChannelEmpty(),
+	broadcast : $client->get_input_channel(peer : '@LiveProto'),
+	group : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

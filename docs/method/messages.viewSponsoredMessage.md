@@ -2,7 +2,7 @@
 
 **Description** : *Mark a specific sponsored message &raquo; as read*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.viewSponsoredMessage#269e3643 random_id:bytes = Bool;

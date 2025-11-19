@@ -2,7 +2,7 @@
 
 **Description** : *Returns the current user dialog list*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getDialogs#a0f4cb4f flags:# exclude_pinned:flags.0?true folder_id:flags.1?int offset_date:int offset_id:int offset_peer:InputPeer limit:int hash:long = messages.Dialogs;
@@ -49,11 +49,11 @@ messages.getDialogs#a0f4cb4f flags:# exclude_pinned:flags.0?true folder_id:flags
 ```php
 $messagesDialogs = $client->messages->getDialogs(
 	exclude_pinned : true,
-	folder_id : 71,
+	folder_id : 46,
 	offset_date : 0,
 	offset_id : 0,
-	offset_peer : $client->inputPeerEmpty(),
-	limit : 44,
+	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	limit : 80,
 	hash : 0,
 );
 ```

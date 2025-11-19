@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a channel/supergroup we can&#039;t access because we were banned, or for some other reason*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelForbidden#17d493d5 flags:# broadcast:flags.5?true megagroup:flags.8?true id:long access_hash:long title:string until_date:flags.16?int = Chat;
@@ -36,9 +36,9 @@ channelForbidden#17d493d5 flags:# broadcast:flags.5?true megagroup:flags.8?true 
 $chat = $client->channelForbidden(
 	broadcast : true,
 	megagroup : true,
-	id : 617874014101791597,
-	access_hash : 3947543951771802567,
-	title : 'UVJSrMLaAWN5fjZF',
-	until_date : 33,
+	id : -346403589974876047,
+	access_hash : -543285041016575047,
+	title : '10nHfULPgvxeAtWZ',
+	until_date : 0,
 );
 ```

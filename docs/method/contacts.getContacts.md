@@ -2,7 +2,7 @@
 
 **Description** : *Returns the current user&#039;s contact list*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 contacts.getContacts#5dd69e12 hash:long = contacts.Contacts;

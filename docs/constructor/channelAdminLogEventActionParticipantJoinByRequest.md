@@ -2,7 +2,7 @@
 
 **Description** : *A new member was accepted to the chat by an admin*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionParticipantJoinByRequest#afb6144a invite:ExportedChatInvite approved_by:long = ChannelAdminLogEventAction;
@@ -33,21 +33,21 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantJoin
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'YkBdhStV74Ogb5UA',
-		admin_id : -1183811042847424799,
-		date : 67,
-		start_date : 73,
-		expire_date : 8,
-		usage_limit : 88,
-		usage : 23,
-		requested : 98,
-		subscription_expired : 63,
-		title : 'A7haoxSQLRs1DGXI',
+		link : 'xEwIYzvJ9F5qUiur',
+		admin_id : 7340503871233693342,
+		date : 37,
+		start_date : 92,
+		expire_date : 31,
+		usage_limit : 3,
+		usage : 49,
+		requested : 26,
+		subscription_expired : 85,
+		title : 'P9UbI1iHG5qmOWDN',
 		subscription_pricing : $client->starsSubscriptionPricing(
 			period : 20,
-			amount : -2714687637134667592,
+			amount : -3561516090980548861,
 		),
 	),
-	approved_by : 462811301261214353,
+	approved_by : 1783348830212003378,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Secure value error*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 secureValueError#869d758f type:SecureValueType hash:bytes text:string = SecureValueError;
@@ -32,6 +32,6 @@ secureValueError#869d758f type:SecureValueType hash:bytes text:string = SecureVa
 $secureValueError = $client->secureValueError(
 	type : $client->secureValueTypePersonalDetails(),
 	hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	text : 'UOE1edTQ8iqzcGND',
+	text : 'Zfg5mMxUtiK1FadH',
 );
 ```

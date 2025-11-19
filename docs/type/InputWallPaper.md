@@ -2,7 +2,7 @@
 
 **Description** : *Wallpaper*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputWallPaper#e630b979 id:long access_hash:long = InputWallPaper;

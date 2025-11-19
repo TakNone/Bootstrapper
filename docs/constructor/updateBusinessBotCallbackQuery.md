@@ -2,7 +2,7 @@
 
 **Description** : *A callback button sent via a business connection was pressed, and the button data was sent to the bot that created the button*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateBusinessBotCallbackQuery#1ea2fda7 flags:# query_id:long user_id:long connection_id:string message:Message reply_to_message:flags.2?Message chat_instance:long data:flags.0?bytes = Update;
@@ -35,22 +35,22 @@ updateBusinessBotCallbackQuery#1ea2fda7 flags:# query_id:long user_id:long conne
 
 ```php
 $update = $client->updateBusinessBotCallbackQuery(
-	query_id : 7595261317779812251,
-	user_id : 2337348606188911903,
-	connection_id : 'BMlLD9juP06EIZCv',
+	query_id : 97622852794620213,
+	user_id : 7304934168703705429,
+	connection_id : '4vR1faGsTCkHFjMw',
 	message : $client->messageEmpty(
-		id : 0,
+		id : 36,
 		peer_id : $client->peerUser(
-			user_id : -965874043606517070,
+			user_id : 1759171219525565838,
 		),
 	),
 	reply_to_message : $client->messageEmpty(
-		id : 24,
+		id : 0,
 		peer_id : $client->peerUser(
-			user_id : 594035470817450085,
+			user_id : 4494736131388710817,
 		),
 	),
-	chat_instance : -6455872367461835931,
+	chat_instance : -1248392722476732994,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Create a supergroup/channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.createChannel#91006707 flags:# broadcast:flags.0?true megagroup:flags.1?true for_import:flags.3?true forum:flags.5?true title:string about:string geo_point:flags.2?InputGeoPoint address:flags.2?string ttl_period:flags.4?int = Updates;
@@ -56,10 +56,10 @@ $updates = $client->channels->createChannel(
 	megagroup : true,
 	for_import : true,
 	forum : true,
-	title : 'ZayBN8wQGn6KjRLM',
-	about : 'ZHl7RArgNdjJ3eIE',
+	title : 'l3ao9Z5f6CI2ghbP',
+	about : 'lWiv2jPg9u4IS3VF',
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'sIyqYXPp0ahurlK5',
-	ttl_period : 13,
+	address : 'SCRe2joJOUcEPn6g',
+	ttl_period : 40,
 );
 ```

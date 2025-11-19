@@ -2,7 +2,7 @@
 
 **Description** : *Info about the users that joined the chat using a specific chat invite*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.chatInviteImporters#81b6b00a count:int importers:Vector<ChatInviteImporter> users:Vector<User> = messages.ChatInviteImporters;
@@ -30,20 +30,20 @@ messages.chatInviteImporters#81b6b00a count:int importers:Vector<ChatInviteImpor
 
 ```php
 $messagesChatInviteImporters = $client->messages->chatInviteImporters(
-	count : 78,
+	count : 47,
 	importers : array(
 		$client->chatInviteImporter(
 			requested : true,
 			via_chatlist : true,
-			user_id : 7898853017010388088,
-			date : 45,
-			about : 'cGbSK2o01dErBV6w',
-			approved_by : 7902694620812813531,
+			user_id : -2641306990658567156,
+			date : 40,
+			about : 'Uhn9u5eOVbDKE8to',
+			approved_by : 5533643961337121284,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 8621927202960357344,
+			id : -3471556987551081559,
 		),
 		$client->user(
 			self : true,
@@ -72,24 +72,24 @@ $messagesChatInviteImporters = $client->messages->chatInviteImporters(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 2233656867663986772,
-			access_hash : -2066874394074610644,
+			id : -268336535194149165,
+			access_hash : -3871049107927235983,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 14,
+			bot_info_version : 50,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '6IM02mGBRacxNSCu',
-					reason : 'KoWxn1LsPjOrwcE3',
-					text : '0TfWicVdvuwE3O1J',
+					platform : 'j17uX4WMxFsOVC5A',
+					reason : 'GCEdQwDfa2oLt7HJ',
+					text : 'mtCSZQzOqFu0gwhI',
 				),
 			),
-			bot_inline_placeholder : 'i2GdveWtoExR1cXH',
-			lang_code : 'SLFJRYaxw3XQNmpf',
+			bot_inline_placeholder : '4oSEnr7OjFN3y0iP',
+			lang_code : 'DZfTj9vKO8GFXEoN',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -98,18 +98,21 @@ $messagesChatInviteImporters = $client->messages->chatInviteImporters(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 38,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 78,
+			),
 			color : $client->peerColor(
-				color : 51,
-				background_emoji_id : -4648645158538620888,
+				color : 68,
+				background_emoji_id : -7891583578028665465,
 			),
 			profile_color : $client->peerColor(
-				color : 54,
-				background_emoji_id : 6450241551220654286,
+				color : 55,
+				background_emoji_id : 7408237838008442281,
 			),
-			bot_active_users : 32,
-			bot_verification_icon : 5905560430451266523,
-			send_paid_messages_stars : 8578833910210259313,
+			bot_active_users : 73,
+			bot_verification_icon : 2589074220157966368,
+			send_paid_messages_stars : -1166893220378678385,
 		),
 	),
 );

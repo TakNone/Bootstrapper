@@ -2,7 +2,7 @@
 
 **Description** : *The hidden prehistory setting was changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionTogglePreHistoryHidden#5f5c95f1 new_value:Bool = ChannelAdminLogEventAction;
@@ -28,6 +28,6 @@ channelAdminLogEventActionTogglePreHistoryHidden#5f5c95f1 new_value:Bool = Chann
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionTogglePreHistoryHidden(
-	new_value : false,
+	new_value : true,
 );
 ```

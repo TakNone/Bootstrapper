@@ -2,7 +2,7 @@
 
 **Description** : *Message ID, for which PUSH\-notifications were cancelled*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 receivedNotifyMessage#a384b779 id:int flags:int = ReceivedNotifyMessage;
@@ -29,7 +29,7 @@ receivedNotifyMessage#a384b779 id:int flags:int = ReceivedNotifyMessage;
 
 ```php
 $receivedNotifyMessage = $client->receivedNotifyMessage(
-	id : 15,
-	flags : 80,
+	id : 14,
+	flags : 98,
 );
 ```

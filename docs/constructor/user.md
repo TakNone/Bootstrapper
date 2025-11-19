@@ -2,10 +2,10 @@
 
 **Description** : *Indicates info about a certain user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-user#20b1422 flags:# self:flags.10?true contact:flags.11?true mutual_contact:flags.12?true deleted:flags.13?true bot:flags.14?true bot_chat_history:flags.15?true bot_nochats:flags.16?true verified:flags.17?true restricted:flags.18?true min:flags.20?true bot_inline_geo:flags.21?true support:flags.23?true scam:flags.24?true apply_min_photo:flags.25?true fake:flags.26?true bot_attach_menu:flags.27?true premium:flags.28?true attach_menu_enabled:flags.29?true flags2:# bot_can_edit:flags2.1?true close_friend:flags2.2?true stories_hidden:flags2.3?true stories_unavailable:flags2.4?true contact_require_premium:flags2.10?true bot_business:flags2.11?true bot_has_main_app:flags2.13?true bot_forum_view:flags2.16?true id:long access_hash:flags.0?long first_name:flags.1?string last_name:flags.2?string username:flags.3?string phone:flags.4?string photo:flags.5?UserProfilePhoto status:flags.6?UserStatus bot_info_version:flags.14?int restriction_reason:flags.18?Vector<RestrictionReason> bot_inline_placeholder:flags.19?string lang_code:flags.22?string emoji_status:flags.30?EmojiStatus usernames:flags2.0?Vector<Username> stories_max_id:flags2.5?int color:flags2.8?PeerColor profile_color:flags2.9?PeerColor bot_active_users:flags2.12?int bot_verification_icon:flags2.14?long send_paid_messages_stars:flags2.15?long = User;
+user#31774388 flags:# self:flags.10?true contact:flags.11?true mutual_contact:flags.12?true deleted:flags.13?true bot:flags.14?true bot_chat_history:flags.15?true bot_nochats:flags.16?true verified:flags.17?true restricted:flags.18?true min:flags.20?true bot_inline_geo:flags.21?true support:flags.23?true scam:flags.24?true apply_min_photo:flags.25?true fake:flags.26?true bot_attach_menu:flags.27?true premium:flags.28?true attach_menu_enabled:flags.29?true flags2:# bot_can_edit:flags2.1?true close_friend:flags2.2?true stories_hidden:flags2.3?true stories_unavailable:flags2.4?true contact_require_premium:flags2.10?true bot_business:flags2.11?true bot_has_main_app:flags2.13?true bot_forum_view:flags2.16?true id:long access_hash:flags.0?long first_name:flags.1?string last_name:flags.2?string username:flags.3?string phone:flags.4?string photo:flags.5?UserProfilePhoto status:flags.6?UserStatus bot_info_version:flags.14?int restriction_reason:flags.18?Vector<RestrictionReason> bot_inline_placeholder:flags.19?string lang_code:flags.22?string emoji_status:flags.30?EmojiStatus usernames:flags2.0?Vector<Username> stories_max_id:flags2.5?RecentStory color:flags2.8?PeerColor profile_color:flags2.9?PeerColor bot_active_users:flags2.12?int bot_verification_icon:flags2.14?long send_paid_messages_stars:flags2.15?long = User;
 ```
 
 ---
@@ -56,7 +56,7 @@ user#20b1422 flags:# self:flags.10?true contact:flags.11?true mutual_contact:fla
 | **lang_code** | [`flags.22?string`](type/string) | Language code of the user |
 | **emoji_status** | [`flags.30?EmojiStatus`](type/EmojiStatus) | Emoji status |
 | **usernames** | [`flags2.0?Vector<Username>`](type/Username) | Additional usernames. When updating the local peer database, apply changes to this field only if: - The min flag is not set OR - The min flag is set AND -- The min flag of the locally cached user entry is set. Changes to this flag (if the above conditions are respected) should invalidate the local userFull cache for this user ID |
-| **stories_max_id** | [`flags2.5?int`](type/int) | ID of the maximum read story.  When updating the local peer database, do not apply changes to this field if the min flag of the incoming constructor is set |
+| **stories_max_id** | [`flags2.5?RecentStory`](type/RecentStory) | ID of the maximum read story.  When updating the local peer database, do not apply changes to this field if the min flag of the incoming constructor is set |
 | **color** | [`flags2.8?PeerColor`](type/PeerColor) | The user's accent color |
 | **profile_color** | [`flags2.9?PeerColor`](type/PeerColor) | The user's profile color |
 | **bot_active_users** | [`flags2.12?int`](type/int) | Monthly Active Users (MAU) of this bot (may be absent for small bots) |
@@ -101,24 +101,24 @@ $user = $client->user(
 	bot_business : true,
 	bot_has_main_app : true,
 	bot_forum_view : true,
-	id : -5809816190652880104,
-	access_hash : -1400344242113915659,
+	id : -7712063257731996837,
+	access_hash : -8758387574680703992,
 	first_name : 'Tak',
 	last_name : 'None',
 	username : 'TakNone',
 	phone : '+1234567890',
 	photo : $client->userProfilePhotoEmpty(),
 	status : $client->userStatusEmpty(),
-	bot_info_version : 48,
+	bot_info_version : 56,
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : 'CUkQZ8uGcoPfX0ws',
-			reason : '1AMPDTeKzFaZgNj2',
-			text : 'Z0fT2AsQPc5GXOiV',
+			platform : 'TBQt4zo6hl92Vye1',
+			reason : 'ytSWAYRlgKb8kGM9',
+			text : 'zQLSVGMdAwRfY410',
 		),
 	),
-	bot_inline_placeholder : 'xdY2vMyhZN6AlB0c',
-	lang_code : 'LSekg1vV7DUpBlEn',
+	bot_inline_placeholder : '4sQEMqWnybPFUwov',
+	lang_code : 'GuIfVR1j8aZJswUM',
 	emoji_status : $client->emojiStatusEmpty(),
 	usernames : array(
 		$client->username(
@@ -127,17 +127,20 @@ $user = $client->user(
 			username : 'TakNone',
 		),
 	),
-	stories_max_id : 75,
+	stories_max_id : $client->recentStory(
+		live : true,
+		max_id : 22,
+	),
 	color : $client->peerColor(
-		color : 16,
-		background_emoji_id : -1399726856982226415,
+		color : 6,
+		background_emoji_id : 425439405310837412,
 	),
 	profile_color : $client->peerColor(
-		color : 56,
-		background_emoji_id : 4873546350390010968,
+		color : 4,
+		background_emoji_id : 8646056398030145430,
 	),
-	bot_active_users : 98,
-	bot_verification_icon : -1575446693697215572,
-	send_paid_messages_stars : 1251798643129703571,
+	bot_active_users : 2,
+	bot_verification_icon : -969096384409976463,
+	send_paid_messages_stars : -4599286612217205120,
 );
 ```

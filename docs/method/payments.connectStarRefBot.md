@@ -2,7 +2,7 @@
 
 **Description** : *Join a bot&#039;s affiliate program, becoming an affiliate &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.connectStarRefBot#7ed5348a peer:InputPeer bot:InputUser = payments.ConnectedStarRefBots;
@@ -29,7 +29,7 @@ payments.connectStarRefBot#7ed5348a peer:InputPeer bot:InputUser = payments.Conn
 
 ```php
 $paymentsConnectedStarRefBots = $client->payments->connectStarRefBot(
-	peer : $client->inputPeerEmpty(),
-	bot : $client->inputUserEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	bot : $client->get_input_user(peer : '@TakNone'),
 );
 ```

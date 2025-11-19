@@ -1,6 +1,6 @@
 # inputInvoicePremiumAuthCode
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputInvoicePremiumAuthCode#3e77f614 purpose:InputStorePaymentPurpose = InputInvoice;

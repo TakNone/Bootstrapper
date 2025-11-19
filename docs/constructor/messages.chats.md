@@ -2,7 +2,7 @@
 
 **Description** : *List of chats with auxiliary data*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.chats#64ff9fd5 chats:Vector<Chat> = messages.Chats;
@@ -30,7 +30,7 @@ messages.chats#64ff9fd5 chats:Vector<Chat> = messages.Chats;
 $messagesChats = $client->messages->chats(
 	chats : array(
 		$client->chatEmpty(
-			id : 499673336545970781,
+			id : 2669551342365667372,
 		),
 		$client->chat(
 			creator : true,
@@ -40,13 +40,13 @@ $messagesChats = $client->messages->chats(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -929816772849996336,
-			title : 'LseEhivVzQI2HlYr',
+			id : -7638819037918495866,
+			title : '4OIuDQ37EWiHthRC',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 41,
-			date : 77,
-			version : 3,
-			migrated_to : $client->inputChannelEmpty(),
+			participants_count : 31,
+			date : 78,
+			version : 26,
+			migrated_to : $client->get_input_channel(peer : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
 				post_messages : true,
@@ -86,12 +86,12 @@ $messagesChats = $client->messages->chats(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 27,
+				until_date : 10,
 			),
 		),
 		$client->chatForbidden(
-			id : -5884315952982161437,
-			title : 'qYP6zEayQr9gAwN7',
+			id : -4661937292347507411,
+			title : 'DMQOvAEWj1BK8oz0',
 		),
 		$client->channel(
 			creator : true,
@@ -122,17 +122,17 @@ $messagesChats = $client->messages->chats(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 4444039731247319135,
-			access_hash : -4631426664515403882,
-			title : 'XjuIOWxbopZwUimT',
+			id : 988353990188966799,
+			access_hash : 504201189602930137,
+			title : 'I3qZsgptkPYbB7Vf',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 48,
+			date : 16,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '1hXduaJgeIzHjDlZ',
-					reason : 't2mAc8URTzyY3gWk',
-					text : 'rIiRuoEfQDF4nBqd',
+					platform : 'k4hyxEGQceov2gZP',
+					reason : 'NcTeOzBYbkQSntJ0',
+					text : 'rvOMhQ9u6Hplto1F',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -174,7 +174,7 @@ $messagesChats = $client->messages->chats(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 6,
+				until_date : 64,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -197,9 +197,9 @@ $messagesChats = $client->messages->chats(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 20,
+				until_date : 59,
 			),
-			participants_count : 1,
+			participants_count : 59,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -207,29 +207,32 @@ $messagesChats = $client->messages->chats(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 94,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 36,
+			),
 			color : $client->peerColor(
-				color : 24,
-				background_emoji_id : 7991272884310088261,
+				color : 47,
+				background_emoji_id : -8553738065106172599,
 			),
 			profile_color : $client->peerColor(
-				color : 26,
-				background_emoji_id : -2801451199107789989,
+				color : 85,
+				background_emoji_id : -6358858116994396164,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 63,
-			subscription_until_date : 8,
-			bot_verification_icon : -4984997793398406103,
-			send_paid_messages_stars : 6196285913480795901,
-			linked_monoforum_id : -7525575205266111127,
+			level : 2,
+			subscription_until_date : 1,
+			bot_verification_icon : 9105248820197188221,
+			send_paid_messages_stars : -2659028211743489627,
+			linked_monoforum_id : -1374303690795817650,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 2197726380333735707,
-			access_hash : 1238661637704489493,
-			title : 'EX1rihczUlZa2TAu',
-			until_date : 65,
+			id : 8719946569631104016,
+			access_hash : -7269483171331214152,
+			title : 'KaVy59ZJ8I4Ydgfv',
+			until_date : 80,
 		),
 	),
 );

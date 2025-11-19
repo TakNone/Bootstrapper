@@ -2,7 +2,7 @@
 
 **Description** : *Returns a set of useful suggestions and PSA/MTProxy sponsored peers, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.getPromoData#c0977421 = help.PromoData;

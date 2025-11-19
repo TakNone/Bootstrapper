@@ -2,7 +2,7 @@
 
 **Description** : *Bot menu button that opens a web app when clicked*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 botMenuButton#c7b57ce6 text:string url:string = BotMenuButton;
@@ -29,7 +29,7 @@ botMenuButton#c7b57ce6 text:string url:string = BotMenuButton;
 
 ```php
 $botMenuButton = $client->botMenuButton(
-	text : 'QV6xzIsZSE7ov0fW',
+	text : 'vVO7Y2u35xAtekUm',
 	url : 'https://docs.liveproto.dev',
 );
 ```

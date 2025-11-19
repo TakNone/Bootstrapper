@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a connected business bot &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients rights:BusinessBotRights = ConnectedBot;

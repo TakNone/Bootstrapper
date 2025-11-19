@@ -2,7 +2,7 @@
 
 **Description** : *Fetch custom emoji stickers &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getCustomEmojiDocuments#d9ab0f54 document_id:Vector<long> = Vector<Document>;
@@ -28,6 +28,6 @@ messages.getCustomEmojiDocuments#d9ab0f54 document_id:Vector<long> = Vector<Docu
 
 ```php
 $document = $client->messages->getCustomEmojiDocuments(
-	document_id : array(3359888688218501383),
+	document_id : array(2577711656275260151),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Check if a username is free and can be assigned to a channel/supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.checkUsername#10e6bd2c channel:InputChannel username:string = Bool;
@@ -45,7 +45,7 @@ channels.checkUsername#10e6bd2c channel:InputChannel username:string = Bool;
 
 ```php
 $bool = $client->channels->checkUsername(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	username : 'TakNone',
 );
 ```

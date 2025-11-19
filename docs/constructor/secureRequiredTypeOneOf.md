@@ -2,7 +2,7 @@
 
 **Description** : *One of*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 secureRequiredTypeOneOf#27477b4 types:Vector<SecureRequiredType> = SecureRequiredType;
@@ -41,12 +41,22 @@ $secureRequiredType = $client->secureRequiredTypeOneOf(
 					native_names : true,
 					selfie_required : true,
 					translation_required : true,
-					type : $client->secureValueTypePersonalDetails(...),
+					type : $client->secureValueTypePersonalDetails(),
 				),
 				$client->secureRequiredTypeOneOf(
 					types : array(
-						$client->secureRequiredType(...),
-						$client->secureRequiredTypeOneOf(...),
+						$client->secureRequiredType(
+							native_names : true,
+							selfie_required : true,
+							translation_required : true,
+							type : $client->secureValueTypePersonalDetails(...),
+						),
+						$client->secureRequiredTypeOneOf(
+							types : array(
+								$client->secureRequiredType(...),
+								$client->secureRequiredTypeOneOf(...),
+							),
+						),
 					),
 				),
 			),

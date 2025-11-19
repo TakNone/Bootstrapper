@@ -2,7 +2,7 @@
 
 **Description** : *HTTP link and embed info of channel message*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 exportedMessageLink#5dab1af4 link:string html:string = ExportedMessageLink;

@@ -2,7 +2,7 @@
 
 **Description** : *Get dialogs manually marked as unread*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getDialogUnreadMarks#21202222 flags:# parent_peer:flags.0?InputPeer = Vector<DialogPeer>;
@@ -29,6 +29,6 @@ messages.getDialogUnreadMarks#21202222 flags:# parent_peer:flags.0?InputPeer = V
 
 ```php
 $dialogPeer = $client->messages->getDialogUnreadMarks(
-	parent_peer : $client->inputPeerEmpty(),
+	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

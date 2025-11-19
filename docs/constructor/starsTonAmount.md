@@ -2,7 +2,7 @@
 
 **Description** : *Describes an amount of toncoin in nanotons \(i\.e\. 1/1\_000\_000\_000 of a toncoin\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starsTonAmount#74aee3e0 amount:long = StarsAmount;
@@ -28,6 +28,6 @@ starsTonAmount#74aee3e0 amount:long = StarsAmount;
 
 ```php
 $starsAmount = $client->starsTonAmount(
-	amount : -5999212253400844734,
+	amount : -5277219551147342182,
 );
 ```

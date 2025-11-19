@@ -2,7 +2,7 @@
 
 **Description** : *Join channels and supergroups recently added to a chat folder deep link &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 chatlists.joinChatlistUpdates#e089f8f5 chatlist:InputChatlist peers:Vector<InputPeer> = Updates;
@@ -39,32 +39,8 @@ chatlists.joinChatlistUpdates#e089f8f5 chatlist:InputChatlist peers:Vector<Input
 ```php
 $updates = $client->chatlists->joinChatlistUpdates(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 87,
+		filter_id : 10,
 	),
-	peers : array(
-		$client->inputPeerEmpty(),
-		$client->inputPeerSelf(),
-		$client->inputPeerChat(
-			chat_id : -5085370999204614050,
-		),
-		$client->inputPeerUser(
-			user_id : 3788125509044245602,
-			access_hash : 6250065282177061269,
-		),
-		$client->inputPeerChannel(
-			channel_id : 3103622465983139694,
-			access_hash : 5071726712103761773,
-		),
-		$client->inputPeerUserFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 50,
-			user_id : -7315151624374687410,
-		),
-		$client->inputPeerChannelFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 74,
-			channel_id : -7912472648617973441,
-		),
-	),
+	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

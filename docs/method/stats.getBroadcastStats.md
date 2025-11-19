@@ -2,7 +2,7 @@
 
 **Description** : *Get channel statistics*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 stats.getBroadcastStats#ab42441a flags:# dark:flags.0?true channel:InputChannel = stats.BroadcastStats;
@@ -42,6 +42,6 @@ stats.getBroadcastStats#ab42441a flags:# dark:flags.0?true channel:InputChannel 
 ```php
 $statsBroadcastStats = $client->stats->getBroadcastStats(
 	dark : true,
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

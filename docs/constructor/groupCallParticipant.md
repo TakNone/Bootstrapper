@@ -2,10 +2,10 @@
 
 **Description** : *Info about a group call participant*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-groupCallParticipant#eba636fe flags:# muted:flags.0?true left:flags.1?true can_self_unmute:flags.2?true just_joined:flags.4?true versioned:flags.5?true min:flags.8?true muted_by_you:flags.9?true volume_by_admin:flags.10?true self:flags.12?true video_joined:flags.15?true peer:Peer date:int active_date:flags.3?int source:int volume:flags.7?int about:flags.11?string raise_hand_rating:flags.13?long video:flags.6?GroupCallParticipantVideo presentation:flags.14?GroupCallParticipantVideo = GroupCallParticipant;
+groupCallParticipant#2a3dc7ac flags:# muted:flags.0?true left:flags.1?true can_self_unmute:flags.2?true just_joined:flags.4?true versioned:flags.5?true min:flags.8?true muted_by_you:flags.9?true volume_by_admin:flags.10?true self:flags.12?true video_joined:flags.15?true peer:Peer date:int active_date:flags.3?int source:int volume:flags.7?int about:flags.11?string raise_hand_rating:flags.13?long video:flags.6?GroupCallParticipantVideo presentation:flags.14?GroupCallParticipantVideo paid_stars_total:flags.16?long = GroupCallParticipant;
 ```
 
 ---
@@ -34,6 +34,7 @@ groupCallParticipant#eba636fe flags:# muted:flags.0?true left:flags.1?true can_s
 | **raise_hand_rating** | [`flags.13?long`](type/long) | Specifies the UI visualization order of peers with raised hands: peers with a higher rating should be showed first in the list |
 | **video** | [`flags.6?GroupCallParticipantVideo`](type/GroupCallParticipantVideo) | Info about the video stream the participant is currently broadcasting |
 | **presentation** | [`flags.14?GroupCallParticipantVideo`](type/GroupCallParticipantVideo) | Info about the screen sharing stream the participant is currently broadcasting |
+| **paid_stars_total** | [`flags.16?long`](type/long) | NOTHING |
 
 ---
 
@@ -58,35 +59,36 @@ $groupCallParticipant = $client->groupCallParticipant(
 	self : true,
 	video_joined : true,
 	peer : $client->peerUser(
-		user_id : -6893154910295408951,
+		user_id : -4029620544248716199,
 	),
-	date : 77,
-	active_date : 69,
-	source : 9,
-	volume : 46,
-	about : '41xDTNSURdIz56Ey',
-	raise_hand_rating : 8465566278802074306,
+	date : 85,
+	active_date : 90,
+	source : 28,
+	volume : 18,
+	about : 'g9q6OCpAZnelBs0F',
+	raise_hand_rating : 3555389693612861787,
 	video : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : '7xb0kNyDi6Jnz5Qo',
+		endpoint : '6tQLMk37eF9ZlnqB',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'q41C3RnXsivdQEfL',
-				sources : array(56),
+				semantics : '4cvzIusQDTEZJVqb',
+				sources : array(68),
 			),
 		),
-		audio_source : 95,
+		audio_source : 22,
 	),
 	presentation : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'QZzDLWqMGt4rsJFT',
+		endpoint : 'feBh3rEXyqUPvJYo',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'uvw6o9BLWyxzIhXl',
-				sources : array(23),
+				semantics : 'POb2sHgh3rAmQGzw',
+				sources : array(49),
 			),
 		),
-		audio_source : 29,
+		audio_source : 27,
 	),
+	paid_stars_total : -4825191182436228332,
 );
 ```

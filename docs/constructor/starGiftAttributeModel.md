@@ -2,7 +2,7 @@
 
 **Description** : *The model of a collectible gift &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starGiftAttributeModel#39d99013 name:string document:Document rarity_permille:int = StarGiftAttribute;
@@ -30,10 +30,10 @@ starGiftAttributeModel#39d99013 name:string document:Document rarity_permille:in
 
 ```php
 $starGiftAttribute = $client->starGiftAttributeModel(
-	name : 'UWZFN2GholiKJTyI',
+	name : 'eVjk8SLUHP6rqQNv',
 	document : $client->documentEmpty(
-		id : -2217191065175810636,
+		id : 393954706989909238,
 	),
-	rarity_permille : 31,
+	rarity_permille : 52,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Get poll results*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getPollResults#73bb643b peer:InputPeer msg_id:int = Updates;
@@ -38,7 +38,7 @@ messages.getPollResults#73bb643b peer:InputPeer msg_id:int = Updates;
 
 ```php
 $updates = $client->messages->getPollResults(
-	peer : $client->inputPeerEmpty(),
-	msg_id : 10,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	msg_id : 69,
 );
 ```

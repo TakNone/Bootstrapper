@@ -2,7 +2,7 @@
 
 **Description** : *A giveaway was started*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageActionGiveawayLaunch#a80f51e4 flags:# stars:flags.0?long = MessageAction;
@@ -29,6 +29,6 @@ messageActionGiveawayLaunch#a80f51e4 flags:# stars:flags.0?long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionGiveawayLaunch(
-	stars : -8694584401558217253,
+	stars : 958278939365703188,
 );
 ```

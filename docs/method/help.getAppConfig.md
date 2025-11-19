@@ -2,7 +2,7 @@
 
 **Description** : *Get app\-specific configuration, see client configuration for more info on the result*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.getAppConfig#61e3f854 hash:int = help.AppConfig;

@@ -2,7 +2,7 @@
 
 **Description** : *Send one or more chosen peers, as requested by a keyboardButtonRequestPeer button*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.sendBotRequestedPeer#91b2d060 peer:InputPeer msg_id:int button_id:int requested_peers:Vector<InputPeer> = Updates;
@@ -40,33 +40,9 @@ messages.sendBotRequestedPeer#91b2d060 peer:InputPeer msg_id:int button_id:int r
 
 ```php
 $updates = $client->messages->sendBotRequestedPeer(
-	peer : $client->inputPeerEmpty(),
-	msg_id : 43,
-	button_id : 81,
-	requested_peers : array(
-		$client->inputPeerEmpty(),
-		$client->inputPeerSelf(),
-		$client->inputPeerChat(
-			chat_id : -2020538539617766103,
-		),
-		$client->inputPeerUser(
-			user_id : 7747377667832634218,
-			access_hash : -2312577030632694737,
-		),
-		$client->inputPeerChannel(
-			channel_id : -2193095065856124288,
-			access_hash : -7306544264273731932,
-		),
-		$client->inputPeerUserFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 21,
-			user_id : 3281248683160093957,
-		),
-		$client->inputPeerChannelFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 45,
-			channel_id : 4294626336370133956,
-		),
-	),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	msg_id : 80,
+	button_id : 65,
+	requested_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

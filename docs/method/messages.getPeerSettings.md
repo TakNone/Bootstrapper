@@ -2,7 +2,7 @@
 
 **Description** : *Get peer settings*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getPeerSettings#efd9a6a2 peer:InputPeer = messages.PeerSettings;
@@ -40,6 +40,6 @@ messages.getPeerSettings#efd9a6a2 peer:InputPeer = messages.PeerSettings;
 
 ```php
 $messagesPeerSettings = $client->messages->getPeerSettings(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

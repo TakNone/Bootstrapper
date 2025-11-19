@@ -2,7 +2,7 @@
 
 **Description** : *List of IDs of songs \(document\.ids\) currently pinned on our profile, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.savedMusicIdsNotModified#4fc81d6e = account.SavedMusicIds;

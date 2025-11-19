@@ -2,7 +2,7 @@
 
 **Description** : *Describes a temporary profile link*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 exportedContactToken#41bf109b url:string expires:int = ExportedContactToken;
@@ -30,6 +30,6 @@ exportedContactToken#41bf109b url:string expires:int = ExportedContactToken;
 ```php
 $exportedContactToken = $client->exportedContactToken(
 	url : 'https://docs.liveproto.dev',
-	expires : 32,
+	expires : 30,
 );
 ```

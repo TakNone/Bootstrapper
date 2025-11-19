@@ -2,7 +2,7 @@
 
 **Description** : *Channel/supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 peerChannel#a2a5371e channel_id:long = Peer;
@@ -28,6 +28,6 @@ peerChannel#a2a5371e channel_id:long = Peer;
 
 ```php
 $peer = $client->peerChannel(
-	channel_id : -210141376665964135,
+	channel_id : -5748221503962236260,
 );
 ```

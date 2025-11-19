@@ -2,7 +2,7 @@
 
 **Description** : *Group members*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 chatParticipants#3cbc93f8 chat_id:long participants:Vector<ChatParticipant> version:int = ChatParticipants;
@@ -30,22 +30,22 @@ chatParticipants#3cbc93f8 chat_id:long participants:Vector<ChatParticipant> vers
 
 ```php
 $chatParticipants = $client->chatParticipants(
-	chat_id : -1948298403083467483,
+	chat_id : -5928165134401967509,
 	participants : array(
 		$client->chatParticipant(
-			user_id : 4245737459423997004,
-			inviter_id : 4530639489533026007,
-			date : 66,
+			user_id : -4754613927449144880,
+			inviter_id : -1643706612682998179,
+			date : 76,
 		),
 		$client->chatParticipantCreator(
-			user_id : -6674083018364972828,
+			user_id : -2709139444042893798,
 		),
 		$client->chatParticipantAdmin(
-			user_id : -7404854708300878868,
-			inviter_id : 2909104256348951015,
-			date : 61,
+			user_id : 2192089333149633266,
+			inviter_id : 9072908807529789200,
+			date : 49,
 		),
 	),
-	version : 35,
+	version : 39,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Gets the menu button action for a given user or for all users, previously set using bots\.setBotMenuButton; users can see this information in the botInfo constructor*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.getBotMenuButton#9c60eb28 user_id:InputUser = BotMenuButton;
@@ -36,6 +36,6 @@ bots.getBotMenuButton#9c60eb28 user_id:InputUser = BotMenuButton;
 
 ```php
 $botMenuButton = $client->bots->getBotMenuButton(
-	user_id : $client->inputUserEmpty(),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

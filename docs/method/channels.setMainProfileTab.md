@@ -2,7 +2,7 @@
 
 **Description** : *Changes the main profile tab of a channel, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.setMainProfileTab#3583fcb1 channel:InputChannel tab:ProfileTab = Bool;
@@ -37,7 +37,7 @@ channels.setMainProfileTab#3583fcb1 channel:InputChannel tab:ProfileTab = Bool;
 
 ```php
 $bool = $client->channels->setMainProfileTab(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	tab : $client->profileTabPosts(),
 );
 ```

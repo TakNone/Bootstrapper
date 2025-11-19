@@ -2,7 +2,7 @@
 
 **Description** : *Allow only close friends &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 privacyValueAllowCloseFriends#f7e8d89b = PrivacyRule;

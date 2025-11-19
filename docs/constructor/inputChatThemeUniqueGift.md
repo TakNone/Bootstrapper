@@ -2,7 +2,7 @@
 
 **Description** : *Set a theme based on an owned collectible gift &raquo;, returned by account\.getUniqueGiftChatThemes*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputChatThemeUniqueGift#87e5dfe4 slug:string = InputChatTheme;
@@ -28,6 +28,6 @@ inputChatThemeUniqueGift#87e5dfe4 slug:string = InputChatTheme;
 
 ```php
 $inputChatTheme = $client->inputChatThemeUniqueGift(
-	slug : 'HVpjk4yOeXm9rNA0',
+	slug : '64TOjF1ZhSuEVy3t',
 );
 ```

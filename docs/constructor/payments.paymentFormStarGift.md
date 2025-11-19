@@ -2,7 +2,7 @@
 
 **Description** : *Represents a payment form for a gift, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.paymentFormStarGift#b425cfe1 form_id:long invoice:Invoice = payments.PaymentForm;
@@ -29,7 +29,7 @@ payments.paymentFormStarGift#b425cfe1 form_id:long invoice:Invoice = payments.Pa
 
 ```php
 $paymentsPaymentForm = $client->payments->paymentFormStarGift(
-	form_id : -6292214986513252138,
+	form_id : 522628354322599460,
 	invoice : $client->invoice(
 		test : true,
 		name_requested : true,
@@ -40,17 +40,17 @@ $paymentsPaymentForm = $client->payments->paymentFormStarGift(
 		phone_to_provider : true,
 		email_to_provider : true,
 		recurring : true,
-		currency : 'NevMbiItoXq8rPsz',
+		currency : 'P5CfzYUosmq92w3D',
 		prices : array(
 			$client->labeledPrice(
-				label : 'xBaFKHe0NAWRVCiT',
-				amount : 8828036323259093284,
+				label : 'uSCvQ1fGDxbm4sKr',
+				amount : 5692105449430957185,
 			),
 		),
-		max_tip_amount : -6161269550557219056,
-		suggested_tip_amounts : array(-6753840036586236613),
+		max_tip_amount : -3326134494760317881,
+		suggested_tip_amounts : array(-7469809228192756723),
 		terms_url : 'https://docs.liveproto.dev',
-		subscription_period : 64,
+		subscription_period : 7,
 	),
 );
 ```

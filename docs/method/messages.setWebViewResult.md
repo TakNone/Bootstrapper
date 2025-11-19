@@ -1,6 +1,6 @@
 # messages.setWebViewResult
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.setWebViewResult#e41cd11d query_id:long = Bool;
@@ -26,6 +26,6 @@ messages.setWebViewResult#e41cd11d query_id:long = Bool;
 
 ```php
 $bool = $client->messages->setWebViewResult(
-	query_id : 7337367830105207795,
+	query_id : -1351574130863657599,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the full list of saved message tags created by the user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getSavedReactionTags#3637e05b flags:# peer:flags.0?InputPeer hash:long = messages.SavedReactionTags;
@@ -38,7 +38,7 @@ messages.getSavedReactionTags#3637e05b flags:# peer:flags.0?InputPeer hash:long 
 
 ```php
 $messagesSavedReactionTags = $client->messages->getSavedReactionTags(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	hash : 0,
 );
 ```

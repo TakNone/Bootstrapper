@@ -2,7 +2,7 @@
 
 **Description** : *Show or hide the real\-time chat translation popup for a certain chat*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.togglePeerTranslations#e47cb579 flags:# disabled:flags.0?true peer:InputPeer = Bool;
@@ -39,6 +39,6 @@ messages.togglePeerTranslations#e47cb579 flags:# disabled:flags.0?true peer:Inpu
 ```php
 $bool = $client->messages->togglePeerTranslations(
 	disabled : true,
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

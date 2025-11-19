@@ -2,7 +2,7 @@
 
 **Description** : *Returns the current saved dialog list &raquo; or monoforum topic list &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getSavedDialogs#1e91fc99 flags:# exclude_pinned:flags.0?true parent_peer:flags.1?InputPeer offset_date:int offset_id:int offset_peer:InputPeer limit:int hash:long = messages.SavedDialogs;
@@ -36,11 +36,11 @@ messages.getSavedDialogs#1e91fc99 flags:# exclude_pinned:flags.0?true parent_pee
 ```php
 $messagesSavedDialogs = $client->messages->getSavedDialogs(
 	exclude_pinned : true,
-	parent_peer : $client->inputPeerEmpty(),
+	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_date : 0,
 	offset_id : 0,
-	offset_peer : $client->inputPeerEmpty(),
-	limit : 3,
+	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	limit : 2,
 	hash : 0,
 );
 ```

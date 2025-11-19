@@ -2,7 +2,7 @@
 
 **Description** : *Get the number of stars we have received from the specified user thanks to paid messages &raquo;; the received amount will be equal to the sent amount multiplied by stars\_paid\_message\_commission\_permille divided by 1000*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.getPaidMessagesRevenue#19ba4a67 flags:# parent_peer:flags.0?InputPeer user_id:InputUser = account.PaidMessagesRevenue;
@@ -39,7 +39,7 @@ account.getPaidMessagesRevenue#19ba4a67 flags:# parent_peer:flags.0?InputPeer us
 
 ```php
 $accountPaidMessagesRevenue = $client->account->getPaidMessagesRevenue(
-	parent_peer : $client->inputPeerEmpty(),
-	user_id : $client->inputUserEmpty(),
+	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	user_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

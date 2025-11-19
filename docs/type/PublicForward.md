@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about the forwards of a story as a message to public chats and reposts by public channels*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 publicForwardMessage#1f2bf4a message:Message = PublicForward;

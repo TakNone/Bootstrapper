@@ -2,7 +2,7 @@
 
 **Description** : *Gets the current number of boosts of a channel/supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 premium.getBoostsStatus#42f1f61 peer:InputPeer = premium.BoostsStatus;
@@ -38,6 +38,6 @@ premium.getBoostsStatus#42f1f61 peer:InputPeer = premium.BoostsStatus;
 
 ```php
 $premiumBoostsStatus = $client->premium->getBoostsStatus(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

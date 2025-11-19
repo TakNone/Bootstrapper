@@ -2,7 +2,7 @@
 
 **Description** : *Report a profile photo of a dialog*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.reportProfilePhoto#fa8cc6f5 peer:InputPeer photo_id:InputPhoto reason:ReportReason message:string = Bool;
@@ -39,9 +39,9 @@ account.reportProfilePhoto#fa8cc6f5 peer:InputPeer photo_id:InputPhoto reason:Re
 
 ```php
 $bool = $client->account->reportProfilePhoto(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	photo_id : $client->inputPhotoEmpty(),
 	reason : $client->inputReportReasonSpam(),
-	message : 'dzblGXZ4kyCBRwOA',
+	message : '9b3JnDdl5YFRxgch',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Message replies and thread information*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageReplyHeader#6917560b flags:# reply_to_scheduled:flags.2?true forum_topic:flags.3?true quote:flags.9?true reply_to_msg_id:flags.4?int reply_to_peer_id:flags.0?Peer reply_from:flags.5?MessageFwdHeader reply_media:flags.8?MessageMedia reply_to_top_id:flags.1?int quote_text:flags.6?string quote_entities:flags.7?Vector<MessageEntity> quote_offset:flags.10?int todo_item_id:flags.11?int = MessageReplyHeader;
@@ -43,127 +43,127 @@ $messageReplyHeader = $client->messageReplyHeader(
 	reply_to_scheduled : true,
 	forum_topic : true,
 	quote : true,
-	reply_to_msg_id : 8,
+	reply_to_msg_id : 42,
 	reply_to_peer_id : $client->peerUser(
-		user_id : 2739150036396536050,
+		user_id : 540450362961196969,
 	),
 	reply_from : $client->messageFwdHeader(
 		imported : true,
 		saved_out : true,
 		from_id : $client->peerUser(
-			user_id : 580828756189836097,
+			user_id : -7310693711910874381,
 		),
-		from_name : 'ZC8S27xFOXkWN3QK',
-		date : 57,
-		channel_post : 75,
-		post_author : 'B9FbZtOcQY5fCUpR',
+		from_name : 'Px01O8pNe6T5MnZ4',
+		date : 20,
+		channel_post : 46,
+		post_author : 'W2aGlLRC81iNTXqp',
 		saved_from_peer : $client->peerUser(
-			user_id : -3275386159467560698,
+			user_id : 5677732009744830396,
 		),
-		saved_from_msg_id : 89,
+		saved_from_msg_id : 100,
 		saved_from_id : $client->peerUser(
-			user_id : -6695115297900258257,
+			user_id : 1395849017161185947,
 		),
-		saved_from_name : '1Thsru5cLi0yZ7Og',
-		saved_date : 97,
-		psa_type : 'UlDiCYjJtXpVyBST',
+		saved_from_name : 'CUSAImWHx2ct7s9Z',
+		saved_date : 28,
+		psa_type : '4sbTJcN3MqYxjkRB',
 	),
 	reply_media : $client->messageMediaEmpty(),
-	reply_to_top_id : 3,
-	quote_text : 'suLpeyF794rK01ZN',
+	reply_to_top_id : 57,
+	quote_text : 'gSfRpzsHjrLOWQcn',
 	quote_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 10,
+			length : 57,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 55,
+			length : 63,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 52,
+			length : 40,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 1,
+			length : 10,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 43,
+			length : 46,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 83,
+			length : 6,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 62,
+			length : 81,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 51,
+			length : 71,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 42,
+			length : 84,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 26,
-			language : 'nEqJdAmHau0j7GxQ',
+			length : 66,
+			language : 'mCjM4lngNDXoPVH3',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 6,
+			length : 98,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 88,
-			user_id : -5489098471342703051,
+			length : 17,
+			user_id : 2702844775407396215,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 22,
-			user_id : $client->inputUserEmpty(),
+			length : 10,
+			user_id : $client->get_input_user(peer : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 13,
+			length : 55,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 31,
+			length : 62,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 63,
+			length : 70,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 18,
+			length : 4,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 11,
+			length : 95,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 22,
+			length : 34,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 98,
-			document_id : -537916298579231358,
+			length : 6,
+			document_id : -9001060490082448770,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 37,
+			length : 62,
 		),
 	),
-	quote_offset : 79,
-	todo_item_id : 16,
+	quote_offset : 45,
+	todo_item_id : 97,
 );
 ```

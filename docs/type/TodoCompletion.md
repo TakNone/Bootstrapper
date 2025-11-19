@@ -2,10 +2,10 @@
 
 **Description** : *A completed todo list &raquo; item*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-todoCompletion#4cc120b7 id:int completed_by:long date:int = TodoCompletion;
+todoCompletion#221bb5e4 id:int completed_by:Peer date:int = TodoCompletion;
 ```
 
 ---

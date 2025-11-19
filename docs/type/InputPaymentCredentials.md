@@ -2,7 +2,7 @@
 
 **Description** : *Payment credentials*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputPaymentCredentialsSaved#c10eb2cf id:string tmp_password:bytes = InputPaymentCredentials;

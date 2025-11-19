@@ -2,7 +2,7 @@
 
 **Description** : *Mark a thread as read*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.readDiscussion#f731a9f4 peer:InputPeer msg_id:int read_max_id:int = Bool;
@@ -40,8 +40,8 @@ messages.readDiscussion#f731a9f4 peer:InputPeer msg_id:int read_max_id:int = Boo
 
 ```php
 $bool = $client->messages->readDiscussion(
-	peer : $client->inputPeerEmpty(),
-	msg_id : 4,
-	read_max_id : 100,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	msg_id : 52,
+	read_max_id : 60,
 );
 ```

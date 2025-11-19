@@ -2,7 +2,7 @@
 
 **Description** : *Whether to allow P2P communication during VoIP calls*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputPrivacyKeyPhoneP2P#db9e70d2 = InputPrivacyKey;

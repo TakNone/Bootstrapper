@@ -2,7 +2,7 @@
 
 **Description** : *Manually mark dialog as unread*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.markDialogUnread#8c5006f8 flags:# unread:flags.0?true parent_peer:flags.1?InputPeer peer:InputDialogPeer = Bool;
@@ -40,9 +40,9 @@ messages.markDialogUnread#8c5006f8 flags:# unread:flags.0?true parent_peer:flags
 ```php
 $bool = $client->messages->markDialogUnread(
 	unread : true,
-	parent_peer : $client->inputPeerEmpty(),
+	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	peer : $client->inputDialogPeer(
-		peer : $client->inputPeerEmpty(),
+		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	),
 );
 ```

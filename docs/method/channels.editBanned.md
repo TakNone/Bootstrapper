@@ -2,7 +2,7 @@
 
 **Description** : *Ban/unban/kick a user in a supergroup/channel*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.editBanned#96e6cd81 channel:InputChannel participant:InputPeer banned_rights:ChatBannedRights = Updates;
@@ -48,8 +48,8 @@ channels.editBanned#96e6cd81 channel:InputChannel participant:InputPeer banned_r
 
 ```php
 $updates = $client->channels->editBanned(
-	channel : $client->inputChannelEmpty(),
-	participant : $client->inputPeerEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 	banned_rights : $client->chatBannedRights(
 		view_messages : true,
 		send_messages : true,
@@ -71,7 +71,7 @@ $updates = $client->channels->editBanned(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 9,
+		until_date : 56,
 	),
 );
 ```

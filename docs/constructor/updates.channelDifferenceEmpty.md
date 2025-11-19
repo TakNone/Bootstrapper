@@ -2,7 +2,7 @@
 
 **Description** : *There are no new updates*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updates.channelDifferenceEmpty#3e11affb flags:# final:flags.0?true pts:int timeout:flags.1?int = updates.ChannelDifference;
@@ -32,7 +32,7 @@ updates.channelDifferenceEmpty#3e11affb flags:# final:flags.0?true pts:int timeo
 ```php
 $updatesChannelDifference = $client->updates->channelDifferenceEmpty(
 	final : true,
-	pts : 83,
-	timeout : 19,
+	pts : 30,
+	timeout : 57,
 );
 ```

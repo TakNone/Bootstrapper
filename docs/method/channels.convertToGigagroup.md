@@ -2,7 +2,7 @@
 
 **Description** : *Convert a supergroup to a gigagroup, when requested by channel suggestions*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.convertToGigagroup#b290c69 channel:InputChannel = Updates;
@@ -41,6 +41,6 @@ channels.convertToGigagroup#b290c69 channel:InputChannel = Updates;
 
 ```php
 $updates = $client->channels->convertToGigagroup(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

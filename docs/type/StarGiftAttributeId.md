@@ -2,7 +2,7 @@
 
 **Description** : *Represents the identifier of a collectible gift attribute*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 starGiftAttributeIdModel#48aaae3c document_id:long = StarGiftAttributeId;

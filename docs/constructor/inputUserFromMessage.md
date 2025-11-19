@@ -2,7 +2,7 @@
 
 **Description** : *Defines a min user that was seen in a certain message of a certain chat*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputUserFromMessage#1da448e2 peer:InputPeer msg_id:int user_id:long = InputUser;
@@ -30,8 +30,8 @@ inputUserFromMessage#1da448e2 peer:InputPeer msg_id:int user_id:long = InputUser
 
 ```php
 $inputUser = $client->inputUserFromMessage(
-	peer : $client->inputPeerEmpty(),
-	msg_id : 16,
-	user_id : -2473571713314725244,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	msg_id : 88,
+	user_id : 8716969694553684575,
 );
 ```

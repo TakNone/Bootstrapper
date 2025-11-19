@@ -2,7 +2,7 @@
 
 **Description** : *Fetch popular Main Mini Apps, to be used in the apps tab of global search &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.getPopularAppBots#c2510192 offset:string limit:int = bots.PopularAppBots;
@@ -29,7 +29,7 @@ bots.getPopularAppBots#c2510192 offset:string limit:int = bots.PopularAppBots;
 
 ```php
 $botsPopularAppBots = $client->bots->getPopularAppBots(
-	offset : '3Ee7K4VLUBmxtdyj',
-	limit : 100,
+	offset : 'iHntWx64VK9QdOYZ',
+	limit : 91,
 );
 ```

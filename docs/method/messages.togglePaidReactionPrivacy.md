@@ -2,7 +2,7 @@
 
 **Description** : *Changes the privacy of already sent paid reactions on a specific message*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.togglePaidReactionPrivacy#435885b5 peer:InputPeer msg_id:int private:PaidReactionPrivacy = Bool;
@@ -39,8 +39,8 @@ messages.togglePaidReactionPrivacy#435885b5 peer:InputPeer msg_id:int private:Pa
 
 ```php
 $bool = $client->messages->togglePaidReactionPrivacy(
-	peer : $client->inputPeerEmpty(),
-	msg_id : 67,
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	msg_id : 92,
 	private : $client->paidReactionPrivacyDefault(),
 );
 ```

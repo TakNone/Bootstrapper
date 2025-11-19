@@ -2,7 +2,7 @@
 
 **Description** : *Disallow only contacts*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputPrivacyValueDisallowContacts#ba52007 = InputPrivacyRule;

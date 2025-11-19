@@ -2,7 +2,7 @@
 
 **Description** : *Message entity that can be used to create a user user mention: received mentions use the messageEntityMentionName constructor, instead*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputMessageEntityMentionName#208e68c9 offset:int length:int user_id:InputUser = MessageEntity;
@@ -31,7 +31,7 @@ inputMessageEntityMentionName#208e68c9 offset:int length:int user_id:InputUser =
 ```php
 $messageEntity = $client->inputMessageEntityMentionName(
 	offset : 0,
-	length : 100,
-	user_id : $client->inputUserEmpty(),
+	length : 77,
+	user_id : $client->get_input_user(peer : '@TakNone'),
 );
 ```

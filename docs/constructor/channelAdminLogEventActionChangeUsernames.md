@@ -2,7 +2,7 @@
 
 **Description** : *The list of usernames associated with the channel was changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionChangeUsernames#f04fb3a9 prev_value:Vector<string> new_value:Vector<string> = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeUsernames#f04fb3a9 prev_value:Vector<string> new
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeUsernames(
-	prev_value : array('N4V1QXFoLCeqWR3m'),
-	new_value : array('l3ZoTf10XLKAFBCa'),
+	prev_value : array('dUgyEN9IJWneBb1m'),
+	new_value : array('C3gdENlGIMKozBt8'),
 );
 ```

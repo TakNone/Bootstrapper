@@ -2,7 +2,7 @@
 
 **Description** : *Name, ISO code, localized name and phone codes/patterns of a specific country*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 help.country#c3878e23 flags:# hidden:flags.0?true iso2:string default_name:string name:flags.1?string country_codes:Vector<help.CountryCode> = help.Country;
@@ -34,14 +34,14 @@ help.country#c3878e23 flags:# hidden:flags.0?true iso2:string default_name:strin
 ```php
 $helpCountry = $client->help->country(
 	hidden : true,
-	iso2 : 'ERSN3x48kQcGK1Dm',
-	default_name : 'pAB6XVdfjMP5tkw3',
-	name : 'mLX57ayK9fuzpGo4',
+	iso2 : 'byRYaHl0VnFTeBkU',
+	default_name : 'ULvV1Qrz4e69Nkxy',
+	name : 'ZwV4jBELdOtJRhDx',
 	country_codes : array(
 		$client->help->countryCode(
-			country_code : '8el9XDnBgtuFsTH1',
-			prefixes : array('dbfeMu9PL5cGQITr'),
-			patterns : array('GQBjfTZlHAPxwnJ3'),
+			country_code : 'FSOTkDZqlYMun2br',
+			prefixes : array('rgJYlR8U3TNiBp4j'),
+			patterns : array('lAo04mxYX8NLuKIa'),
 		),
 	),
 );

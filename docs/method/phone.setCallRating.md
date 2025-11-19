@@ -2,7 +2,7 @@
 
 **Description** : *Rate a call, returns info about the rating message sent to the official VoIP bot*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 phone.setCallRating#59ead627 flags:# user_initiative:flags.0?true peer:InputPhoneCall rating:int comment:string = Updates;
@@ -42,10 +42,10 @@ phone.setCallRating#59ead627 flags:# user_initiative:flags.0?true peer:InputPhon
 $updates = $client->phone->setCallRating(
 	user_initiative : true,
 	peer : $client->inputPhoneCall(
-		id : 2025047141356084595,
-		access_hash : 2707549830305498408,
+		id : -3326352458660189413,
+		access_hash : 1212543894274280664,
 	),
-	rating : 28,
-	comment : 'B5ITpZbYRMDVrFkz',
+	rating : 80,
+	comment : 'NxfdXIT7qpDtlzEw',
 );
 ```

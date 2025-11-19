@@ -2,7 +2,7 @@
 
 **Description** : *Secure value, for more info see the passport docs &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputSecureValue#db21d0a7 flags:# type:SecureValueType data:flags.0?SecureData front_side:flags.1?InputSecureFile reverse_side:flags.2?InputSecureFile selfie:flags.3?InputSecureFile translation:flags.6?Vector<InputSecureFile> files:flags.4?Vector<InputSecureFile> plain_data:flags.5?SecurePlainData = InputSecureValue;
@@ -43,50 +43,50 @@ $inputSecureValue = $client->inputSecureValue(
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	front_side : $client->inputSecureFileUploaded(
-		id : -5823417187523514826,
-		parts : 79,
+		id : 6752355352553637408,
+		parts : 38,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	reverse_side : $client->inputSecureFileUploaded(
-		id : 1364721831287007865,
-		parts : 61,
+		id : -623268963926615317,
+		parts : 92,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	selfie : $client->inputSecureFileUploaded(
-		id : -8693616158937148712,
-		parts : 99,
+		id : 6337781704882982973,
+		parts : 84,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	translation : array(
 		$client->inputSecureFileUploaded(
-			id : 2623203830931870927,
-			parts : 67,
+			id : -1751087458413639691,
+			parts : 64,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->inputSecureFile(
-			id : 3229819490258075156,
-			access_hash : -4674050659239982247,
+			id : -471589240269575348,
+			access_hash : 7058412573171121892,
 		),
 	),
 	files : array(
 		$client->inputSecureFileUploaded(
-			id : -1533575678929886723,
-			parts : 42,
+			id : -8059127275563945674,
+			parts : 83,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->inputSecureFile(
-			id : -4280723351986898609,
-			access_hash : 4143105674047126678,
+			id : 6395136531887062140,
+			access_hash : -1861800650294973809,
 		),
 	),
 	plain_data : $client->securePlainPhone(

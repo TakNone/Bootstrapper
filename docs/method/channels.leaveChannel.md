@@ -2,7 +2,7 @@
 
 **Description** : *Leave a channel/supergroup*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.leaveChannel#f836aa95 channel:InputChannel = Updates;
@@ -43,6 +43,6 @@ channels.leaveChannel#f836aa95 channel:InputChannel = Updates;
 
 ```php
 $updates = $client->channels->leaveChannel(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 );
 ```

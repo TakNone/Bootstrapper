@@ -2,7 +2,7 @@
 
 **Description** : *Send paid reactions as the specified peer, fetched using channels\.getSendAs*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 paidReactionPrivacyPeer#dc6cfcf0 peer:InputPeer = PaidReactionPrivacy;
@@ -28,6 +28,6 @@ paidReactionPrivacyPeer#dc6cfcf0 peer:InputPeer = PaidReactionPrivacy;
 
 ```php
 $paidReactionPrivacy = $client->paidReactionPrivacyPeer(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

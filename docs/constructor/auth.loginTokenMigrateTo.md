@@ -2,7 +2,7 @@
 
 **Description** : *Repeat the query to the specified DC*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 auth.loginTokenMigrateTo#68e9916 dc_id:int token:bytes = auth.LoginToken;
@@ -29,7 +29,7 @@ auth.loginTokenMigrateTo#68e9916 dc_id:int token:bytes = auth.LoginToken;
 
 ```php
 $authLoginToken = $client->auth->loginTokenMigrateTo(
-	dc_id : 61,
+	dc_id : 78,
 	token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

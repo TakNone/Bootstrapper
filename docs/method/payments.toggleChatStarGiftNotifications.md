@@ -2,7 +2,7 @@
 
 **Description** : *Enables or disables the reception of notifications every time a gift &raquo; is received by the specified channel, can only be invoked by admins with post\_messages admin rights*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.toggleChatStarGiftNotifications#60eaefa1 flags:# enabled:flags.0?true peer:InputPeer = Bool;
@@ -39,6 +39,6 @@ payments.toggleChatStarGiftNotifications#60eaefa1 flags:# enabled:flags.0?true p
 ```php
 $bool = $client->payments->toggleChatStarGiftNotifications(
 	enabled : true,
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

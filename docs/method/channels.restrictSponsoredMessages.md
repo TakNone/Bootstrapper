@@ -2,7 +2,7 @@
 
 **Description** : *Disable ads on the specified channel, for all users*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.restrictSponsoredMessages#9ae91519 channel:InputChannel restricted:Bool = Updates;
@@ -37,7 +37,7 @@ channels.restrictSponsoredMessages#9ae91519 channel:InputChannel restricted:Bool
 
 ```php
 $updates = $client->channels->restrictSponsoredMessages(
-	channel : $client->inputChannelEmpty(),
-	restricted : true,
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	restricted : false,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Birthday information of our contacts*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 contacts.contactBirthdays#114ff30d contacts:Vector<ContactBirthday> users:Vector<User> = contacts.ContactBirthdays;
@@ -31,17 +31,17 @@ contacts.contactBirthdays#114ff30d contacts:Vector<ContactBirthday> users:Vector
 $contactsContactBirthdays = $client->contacts->contactBirthdays(
 	contacts : array(
 		$client->contactBirthday(
-			contact_id : -5474249646064827271,
+			contact_id : 6727005725160538333,
 			birthday : $client->birthday(
-				day : 7,
-				month : 72,
-				year : 17,
+				day : 9,
+				month : 74,
+				year : 68,
 			),
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -8591855488613905494,
+			id : 4778154563443089919,
 		),
 		$client->user(
 			self : true,
@@ -70,24 +70,24 @@ $contactsContactBirthdays = $client->contacts->contactBirthdays(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -3767739354177680802,
-			access_hash : -6248621861995097303,
+			id : -8273753388292652096,
+			access_hash : -528231480287755943,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 46,
+			bot_info_version : 34,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '1FL02eDN7CucqQz6',
-					reason : 'Bk86R7I1eYmpADcn',
-					text : 'PwK3e1NkLbhZSpxQ',
+					platform : 'oT715mac2Qehsxu0',
+					reason : 'xe9dquUjCF6VzQvH',
+					text : 'tzKLEsAr9hQY5W6o',
 				),
 			),
-			bot_inline_placeholder : 'fLqFb8ypEnBGaNtH',
-			lang_code : 'p3hEuerqo6M2j7Gd',
+			bot_inline_placeholder : 'g0763hYK4nwuOtU2',
+			lang_code : 'hpXKBHScdaQ76CsI',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -96,18 +96,21 @@ $contactsContactBirthdays = $client->contacts->contactBirthdays(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 17,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 16,
+			),
 			color : $client->peerColor(
-				color : 18,
-				background_emoji_id : 5664319854764751379,
+				color : 37,
+				background_emoji_id : 4993535348344014084,
 			),
 			profile_color : $client->peerColor(
-				color : 28,
-				background_emoji_id : -4331557685984432373,
+				color : 89,
+				background_emoji_id : 1546094976906845859,
 			),
-			bot_active_users : 31,
-			bot_verification_icon : 1284399752102950744,
-			send_paid_messages_stars : -5245146789509983664,
+			bot_active_users : 67,
+			bot_verification_icon : -5218984509824825002,
+			send_paid_messages_stars : 534961120577041851,
 		),
 	),
 );

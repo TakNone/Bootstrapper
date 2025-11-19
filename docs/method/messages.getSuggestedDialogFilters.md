@@ -2,7 +2,7 @@
 
 **Description** : *Get suggested folders*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getSuggestedDialogFilters#a29cd42c = Vector<DialogFilterSuggested>;

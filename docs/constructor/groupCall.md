@@ -2,10 +2,10 @@
 
 **Description** : *Info about a group call or livestream*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-groupCall#553b0ba1 flags:# join_muted:flags.1?true can_change_join_muted:flags.2?true join_date_asc:flags.6?true schedule_start_subscribed:flags.8?true can_start_video:flags.9?true record_video_active:flags.11?true rtmp_stream:flags.12?true listeners_hidden:flags.13?true conference:flags.14?true creator:flags.15?true messages_enabled:flags.17?true can_change_messages_enabled:flags.18?true min:flags.19?true id:long access_hash:long participants_count:int title:flags.3?string stream_dc_id:flags.4?int record_start_date:flags.5?int schedule_date:flags.7?int unmuted_video_count:flags.10?int unmuted_video_limit:int version:int invite_link:flags.16?string = GroupCall;
+groupCall#efb2b617 flags:# join_muted:flags.1?true can_change_join_muted:flags.2?true join_date_asc:flags.6?true schedule_start_subscribed:flags.8?true can_start_video:flags.9?true record_video_active:flags.11?true rtmp_stream:flags.12?true listeners_hidden:flags.13?true conference:flags.14?true creator:flags.15?true messages_enabled:flags.17?true can_change_messages_enabled:flags.18?true min:flags.19?true id:long access_hash:long participants_count:int title:flags.3?string stream_dc_id:flags.4?int record_start_date:flags.5?int schedule_date:flags.7?int unmuted_video_count:flags.10?int unmuted_video_limit:int version:int invite_link:flags.16?string send_paid_messages_stars:flags.20?long default_send_as:flags.21?Peer = GroupCall;
 ```
 
 ---
@@ -39,6 +39,8 @@ groupCall#553b0ba1 flags:# join_muted:flags.1?true can_change_join_muted:flags.2
 | <mark>unmuted_video_limit</mark> | [`int`](type/int) | Maximum number of people allowed to stream video into the call |
 | <mark>version</mark> | [`int`](type/int) | Version |
 | **invite_link** | [`flags.16?string`](type/string) | Invitation link for the conference |
+| **send_paid_messages_stars** | [`flags.20?long`](type/long) | NOTHING |
+| **default_send_as** | [`flags.21?Peer`](type/Peer) | NOTHING |
 
 ---
 
@@ -65,16 +67,20 @@ $groupCall = $client->groupCall(
 	messages_enabled : true,
 	can_change_messages_enabled : true,
 	min : true,
-	id : -3902930233251042912,
-	access_hash : 4167055321631066431,
-	participants_count : 22,
-	title : 'tJdPIQh8bLeZDgEK',
-	stream_dc_id : 71,
-	record_start_date : 47,
-	schedule_date : 25,
-	unmuted_video_count : 6,
-	unmuted_video_limit : 31,
-	version : 89,
-	invite_link : 'a0sof7RACl4mZzeP',
+	id : 4915450542558499745,
+	access_hash : -7358937878164771621,
+	participants_count : 79,
+	title : 'hIJXlf0DZGOy3Eqt',
+	stream_dc_id : 18,
+	record_start_date : 64,
+	schedule_date : 98,
+	unmuted_video_count : 92,
+	unmuted_video_limit : 91,
+	version : 33,
+	invite_link : 'ipW70fjIHQgRad3z',
+	send_paid_messages_stars : -8531184796072467285,
+	default_send_as : $client->peerUser(
+		user_id : -1420202105615185616,
+	),
 );
 ```

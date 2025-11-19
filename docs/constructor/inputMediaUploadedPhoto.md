@@ -2,7 +2,7 @@
 
 **Description** : *Photo*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputMediaUploadedPhoto#1e287d04 flags:# spoiler:flags.2?true file:InputFile stickers:flags.0?Vector<InputDocument> ttl_seconds:flags.1?int = InputMedia;
@@ -33,20 +33,15 @@ inputMediaUploadedPhoto#1e287d04 flags:# spoiler:flags.2?true file:InputFile sti
 ```php
 $inputMedia = $client->inputMediaUploadedPhoto(
 	spoiler : true,
-	file : $client->inputFile(
-		id : -5714153642857263221,
-		parts : 95,
-		name : 'xa6pb2LR7X5meUTQ',
-		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-	),
+	file : $client->upload_file(path : 'file.png'),
 	stickers : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : -9176797935200894649,
-			access_hash : 9102774426005498449,
+			id : 2446902669373828270,
+			access_hash : 4394957062151415946,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	ttl_seconds : 19,
+	ttl_seconds : 33,
 );
 ```

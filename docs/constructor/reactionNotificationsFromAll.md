@@ -2,7 +2,7 @@
 
 **Description** : *Receive notifications about reactions made by any user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 reactionNotificationsFromAll#4b9e22a0 = ReactionNotificationsFrom;

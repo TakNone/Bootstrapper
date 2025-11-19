@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of bot mini apps that can be launched from the attachment menu &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 attachMenuBotsNotModified#f1d88a5c = AttachMenuBots;

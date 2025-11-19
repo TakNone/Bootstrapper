@@ -2,7 +2,7 @@
 
 **Description** : *Add a main mini app preview, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 bots.addPreviewMedia#17aeb75a bot:InputUser lang_code:string media:InputMedia = BotPreviewMedia;
@@ -38,8 +38,8 @@ bots.addPreviewMedia#17aeb75a bot:InputUser lang_code:string media:InputMedia = 
 
 ```php
 $botPreviewMedia = $client->bots->addPreviewMedia(
-	bot : $client->inputUserEmpty(),
-	lang_code : 'bgpLYIDFCe8TsvqX',
-	media : $client->inputMediaEmpty(),
+	bot : $client->get_input_user(peer : '@TakNone'),
+	lang_code : 'VZjgTEi70waCbU3h',
+	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );
 ```

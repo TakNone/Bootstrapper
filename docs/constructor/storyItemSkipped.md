@@ -2,10 +2,10 @@
 
 **Description** : *Represents an active story, whose full information was omitted for space and performance reasons; use stories\.getStoriesByID to fetch full info about the skipped story when and if needed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-storyItemSkipped#ffadc913 flags:# close_friends:flags.8?true id:int date:int expire_date:int = StoryItem;
+storyItemSkipped#ffadc913 flags:# close_friends:flags.8?true live:flags.9?true id:int date:int expire_date:int = StoryItem;
 ```
 
 ---
@@ -16,6 +16,7 @@ storyItemSkipped#ffadc913 flags:# close_friends:flags.8?true id:int date:int exp
 | :---: | :---: | :--- |
 | <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
 | **close_friends** | [`flags.8?true`](type/true) | Whether this story can only be viewed by our close friends, see here » for more info |
+| **live** | [`flags.9?true`](type/true) | NOTHING |
 | <mark>id</mark> | [`int`](type/int) | Story ID |
 | <mark>date</mark> | [`int`](type/int) | When was the story posted |
 | <mark>expire_date</mark> | [`int`](type/int) | When does the story expire |
@@ -33,8 +34,9 @@ storyItemSkipped#ffadc913 flags:# close_friends:flags.8?true id:int date:int exp
 ```php
 $storyItem = $client->storyItemSkipped(
 	close_friends : true,
-	id : 48,
-	date : 14,
-	expire_date : 100,
+	live : true,
+	id : 88,
+	date : 21,
+	expire_date : 83,
 );
 ```

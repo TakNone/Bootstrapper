@@ -2,7 +2,7 @@
 
 **Description** : *No new messages matching the query were found*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.messagesNotModified#74535f21 count:int = messages.Messages;
@@ -28,6 +28,6 @@ messages.messagesNotModified#74535f21 count:int = messages.Messages;
 
 ```php
 $messagesMessages = $client->messages->messagesNotModified(
-	count : 33,
+	count : 29,
 );
 ```

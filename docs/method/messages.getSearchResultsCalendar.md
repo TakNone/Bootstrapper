@@ -2,7 +2,7 @@
 
 **Description** : *Returns information about the next messages of the specified type in the chat split by days*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getSearchResultsCalendar#6aa3f6bd flags:# peer:InputPeer saved_peer_id:flags.2?InputPeer filter:MessagesFilter offset_id:int offset_date:int = messages.SearchResultsCalendar;
@@ -42,8 +42,8 @@ messages.getSearchResultsCalendar#6aa3f6bd flags:# peer:InputPeer saved_peer_id:
 
 ```php
 $messagesSearchResultsCalendar = $client->messages->getSearchResultsCalendar(
-	peer : $client->inputPeerEmpty(),
-	saved_peer_id : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	filter : $client->inputMessagesFilterEmpty(),
 	offset_id : 0,
 	offset_date : 0,

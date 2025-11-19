@@ -2,7 +2,7 @@
 
 **Description** : *Get info about a channel/supergroup participant*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.getParticipant#a0ab6cc6 channel:InputChannel participant:InputPeer = channels.ChannelParticipant;
@@ -43,7 +43,7 @@ channels.getParticipant#a0ab6cc6 channel:InputChannel participant:InputPeer = ch
 
 ```php
 $channelsChannelParticipant = $client->channels->getParticipant(
-	channel : $client->inputChannelEmpty(),
-	participant : $client->inputPeerEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
+	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

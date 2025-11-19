@@ -2,7 +2,7 @@
 
 **Description** : *URL button*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 keyboardButtonUrl#258aff05 text:string url:string = KeyboardButton;
@@ -29,7 +29,7 @@ keyboardButtonUrl#258aff05 text:string url:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonUrl(
-	text : 'XPCcFzk2uj08iaRO',
+	text : 'JBRkYq62ubPSDeTz',
 	url : 'https://docs.liveproto.dev',
 );
 ```

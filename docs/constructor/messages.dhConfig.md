@@ -2,7 +2,7 @@
 
 **Description** : *New set of configuring parameters*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.dhConfig#2c221edd g:int p:bytes version:int random:bytes = messages.DhConfig;
@@ -31,9 +31,9 @@ messages.dhConfig#2c221edd g:int p:bytes version:int random:bytes = messages.DhC
 
 ```php
 $messagesDhConfig = $client->messages->dhConfig(
-	g : 12,
+	g : 39,
 	p : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	version : 19,
+	version : 49,
 	random : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

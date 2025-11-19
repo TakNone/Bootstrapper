@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a preview of the possible attributes \(chosen randomly\) a gift &raquo; can receive after upgrading it to a collectible gift &raquo;, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 payments.getStarGiftUpgradePreview#9c9abcb1 gift_id:long = payments.StarGiftUpgradePreview;
@@ -36,6 +36,6 @@ payments.getStarGiftUpgradePreview#9c9abcb1 gift_id:long = payments.StarGiftUpgr
 
 ```php
 $paymentsStarGiftUpgradePreview = $client->payments->getStarGiftUpgradePreview(
-	gift_id : 40108362483948591,
+	gift_id : 1207207481542043037,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Info about quick reply shortcuts &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.quickReplies#c68d6695 quick_replies:Vector<QuickReply> messages:Vector<Message> chats:Vector<Chat> users:Vector<User> = messages.QuickReplies;

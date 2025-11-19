@@ -2,7 +2,7 @@
 
 **Description** : *Set a custom emoji stickerset for supergroups\. Only usable after reaching at least the boost level &raquo; specified in the group\_emoji\_stickers\_level\_min &raquo; config parameter*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channels.setEmojiStickers#3cd930b7 channel:InputChannel stickerset:InputStickerSet = Bool;
@@ -37,7 +37,7 @@ channels.setEmojiStickers#3cd930b7 channel:InputChannel stickerset:InputStickerS
 
 ```php
 $bool = $client->channels->setEmojiStickers(
-	channel : $client->inputChannelEmpty(),
+	channel : $client->get_input_channel(peer : '@LiveProto'),
 	stickerset : $client->inputStickerSetEmpty(),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Stories of a specific peer were marked as read*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateReadStories#f74e932b peer:Peer max_id:int = Update;
@@ -30,8 +30,8 @@ updateReadStories#f74e932b peer:Peer max_id:int = Update;
 ```php
 $update = $client->updateReadStories(
 	peer : $client->peerUser(
-		user_id : -6187341077898884661,
+		user_id : 1038683060263033242,
 	),
-	max_id : 37,
+	max_id : 99,
 );
 ```

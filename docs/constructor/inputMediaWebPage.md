@@ -2,7 +2,7 @@
 
 **Description** : *Specifies options that will be used to generate the link preview for the caption, or even a standalone link preview without an attached message*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputMediaWebPage#c21b8849 flags:# force_large_media:flags.0?true force_small_media:flags.1?true optional:flags.2?true url:string = InputMedia;

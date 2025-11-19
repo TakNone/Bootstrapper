@@ -2,7 +2,7 @@
 
 **Description** : *Message to which the specified message replies to*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputMessageReplyTo#bad88395 id:int = InputMessage;
@@ -28,6 +28,6 @@ inputMessageReplyTo#bad88395 id:int = InputMessage;
 
 ```php
 $inputMessage = $client->inputMessageReplyTo(
-	id : 21,
+	id : 46,
 );
 ```

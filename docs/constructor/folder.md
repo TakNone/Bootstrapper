@@ -2,7 +2,7 @@
 
 **Description** : *Folder*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 folder#ff544e65 flags:# autofill_new_broadcasts:flags.0?true autofill_public_groups:flags.1?true autofill_new_correspondents:flags.2?true id:int title:string photo:flags.3?ChatPhoto = Folder;
@@ -37,8 +37,8 @@ $folder = $client->folder(
 	autofill_new_broadcasts : true,
 	autofill_public_groups : true,
 	autofill_new_correspondents : true,
-	id : 68,
-	title : 'f0MUFW4xbYAIqsy2',
+	id : 18,
+	title : 'oQf1qBbekGV2L8uI',
 	photo : $client->chatPhotoEmpty(),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Returns attachment menu entry for a bot mini app that can be launched from the attachment menu &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getAttachMenuBot#77216192 bot:InputUser = AttachMenuBotsBot;
@@ -36,6 +36,6 @@ messages.getAttachMenuBot#77216192 bot:InputUser = AttachMenuBotsBot;
 
 ```php
 $attachMenuBotsBot = $client->messages->getAttachMenuBot(
-	bot : $client->inputUserEmpty(),
+	bot : $client->get_input_user(peer : '@TakNone'),
 );
 ```

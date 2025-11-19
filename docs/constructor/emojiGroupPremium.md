@@ -2,7 +2,7 @@
 
 **Description** : *An emoji category, used to select all Premium\-only stickers \(i\.e\. those with a Premium effect &raquo;\)/Premium\-only custom emojis \(i\.e\. those where the documentAttributeCustomEmoji\.free flag is not set\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 emojiGroupPremium#93bcf34 title:string icon_emoji_id:long = EmojiGroup;
@@ -29,7 +29,7 @@ emojiGroupPremium#93bcf34 title:string icon_emoji_id:long = EmojiGroup;
 
 ```php
 $emojiGroup = $client->emojiGroupPremium(
-	title : 'f2vXkCQwhjmFJOtn',
-	icon_emoji_id : 7836114224614683709,
+	title : 'fXbGDnwSWuix7pRk',
+	icon_emoji_id : 5617408370177681305,
 );
 ```

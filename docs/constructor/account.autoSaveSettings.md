@@ -2,7 +2,7 @@
 
 **Description** : *Contains media autosave settings*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 account.autoSaveSettings#4c3e069d users_settings:AutoSaveSettings chats_settings:AutoSaveSettings broadcasts_settings:AutoSaveSettings exceptions:Vector<AutoSaveException> chats:Vector<Chat> users:Vector<User> = account.AutoSaveSettings;
@@ -36,33 +36,33 @@ $accountAutoSaveSettings = $client->account->autoSaveSettings(
 	users_settings : $client->autoSaveSettings(
 		photos : true,
 		videos : true,
-		video_max_size : 109284561495689737,
+		video_max_size : 1460936290697251697,
 	),
 	chats_settings : $client->autoSaveSettings(
 		photos : true,
 		videos : true,
-		video_max_size : -2035684696610311004,
+		video_max_size : -3362357534100018064,
 	),
 	broadcasts_settings : $client->autoSaveSettings(
 		photos : true,
 		videos : true,
-		video_max_size : -2609680584533910445,
+		video_max_size : 8548399318923555851,
 	),
 	exceptions : array(
 		$client->autoSaveException(
 			peer : $client->peerUser(
-				user_id : 3357415909092972837,
+				user_id : -8858596136780993623,
 			),
 			settings : $client->autoSaveSettings(
 				photos : true,
 				videos : true,
-				video_max_size : 5669220621182140917,
+				video_max_size : -6890520233362708095,
 			),
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 3893256994208552655,
+			id : 8300499776417430138,
 		),
 		$client->chat(
 			creator : true,
@@ -72,13 +72,13 @@ $accountAutoSaveSettings = $client->account->autoSaveSettings(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -8611354479153281176,
-			title : 'zEwVWCcYDUultfAe',
+			id : 355912711315163937,
+			title : 'aGrnZjqOQ0oTyl4e',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 34,
-			date : 44,
-			version : 89,
-			migrated_to : $client->inputChannelEmpty(),
+			participants_count : 47,
+			date : 74,
+			version : 51,
+			migrated_to : $client->get_input_channel(peer : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
 				post_messages : true,
@@ -118,12 +118,12 @@ $accountAutoSaveSettings = $client->account->autoSaveSettings(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 0,
+				until_date : 67,
 			),
 		),
 		$client->chatForbidden(
-			id : 4648594571189844435,
-			title : 'PS05I2BMuyHznbXF',
+			id : 3715238741261998886,
+			title : 'jOUFDGc9LW2yM8az',
 		),
 		$client->channel(
 			creator : true,
@@ -154,17 +154,17 @@ $accountAutoSaveSettings = $client->account->autoSaveSettings(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 3602064518030675678,
-			access_hash : 1851767892238966550,
-			title : 'NMJVD3Ol917RHCBk',
+			id : 6620802143826095911,
+			access_hash : 8019716343302647426,
+			title : 'VFj7KCeA4nEtrwWR',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 80,
+			date : 32,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'V9bh6LlWUikIw48m',
-					reason : '7FnIWkDzfYQrTNAj',
-					text : 'GfxMTvuCeY4Fonld',
+					platform : 'duPzpLMGET7210NX',
+					reason : 'eUj35uAMg19ywqCz',
+					text : 'IDdq0tp9c6UhJZVB',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -206,7 +206,7 @@ $accountAutoSaveSettings = $client->account->autoSaveSettings(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 16,
+				until_date : 50,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -229,9 +229,9 @@ $accountAutoSaveSettings = $client->account->autoSaveSettings(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 28,
+				until_date : 91,
 			),
-			participants_count : 34,
+			participants_count : 6,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -239,34 +239,37 @@ $accountAutoSaveSettings = $client->account->autoSaveSettings(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 46,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 16,
+			),
 			color : $client->peerColor(
-				color : 43,
-				background_emoji_id : -483113320022813541,
+				color : 46,
+				background_emoji_id : 3992480511437578791,
 			),
 			profile_color : $client->peerColor(
-				color : 63,
-				background_emoji_id : 3430891379951728819,
+				color : 56,
+				background_emoji_id : -8723849444405100160,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 6,
-			subscription_until_date : 27,
-			bot_verification_icon : -1882791206707067083,
-			send_paid_messages_stars : 5624082175552830195,
-			linked_monoforum_id : -631327186244782553,
+			level : 47,
+			subscription_until_date : 64,
+			bot_verification_icon : 1555106227825641287,
+			send_paid_messages_stars : -4312599572255509854,
+			linked_monoforum_id : -6863252407036549547,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -4387656765580131259,
-			access_hash : -3417383652637142575,
-			title : 'O2itrSHKBQkNEa7f',
-			until_date : 10,
+			id : 5280162537807821872,
+			access_hash : -2595914060230126652,
+			title : '7KeI2CnzUc6rpgZ0',
+			until_date : 19,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -852454610377908478,
+			id : 6090928793762010567,
 		),
 		$client->user(
 			self : true,
@@ -295,24 +298,24 @@ $accountAutoSaveSettings = $client->account->autoSaveSettings(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 4687334449697092438,
-			access_hash : -5870055956743290035,
+			id : -6380235197322511210,
+			access_hash : -3645084503192712905,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 63,
+			bot_info_version : 16,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '3qgceRu0zB8piZV1',
-					reason : 'DlULgvqG8duExsn9',
-					text : 'NbsmW2V0RcIyeTha',
+					platform : 'H4WBcxrseDpY83Nt',
+					reason : 'Cv7x4zMs9tZUQJB0',
+					text : 'mCiqFyNPWOXuhAdR',
 				),
 			),
-			bot_inline_placeholder : '9zYNgfXFDLGmhsyq',
-			lang_code : 'abHpwQntO8INFloP',
+			bot_inline_placeholder : 'qbx5jY6GnkyHRXcI',
+			lang_code : 'Zn5I0S4cPAJD6kqb',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -321,18 +324,21 @@ $accountAutoSaveSettings = $client->account->autoSaveSettings(
 					username : 'TakNone',
 				),
 			),
-			stories_max_id : 13,
+			stories_max_id : $client->recentStory(
+				live : true,
+				max_id : 76,
+			),
 			color : $client->peerColor(
-				color : 71,
-				background_emoji_id : 4738623318262481332,
+				color : 54,
+				background_emoji_id : 3800007651600510214,
 			),
 			profile_color : $client->peerColor(
-				color : 41,
-				background_emoji_id : 1640271338214637576,
+				color : 27,
+				background_emoji_id : 7170830057484682410,
 			),
-			bot_active_users : 67,
-			bot_verification_icon : -925054874627961377,
-			send_paid_messages_stars : -2168243333996446650,
+			bot_active_users : 70,
+			bot_verification_icon : -3149000460693303827,
+			send_paid_messages_stars : 4637740116236153484,
 		),
 	),
 );

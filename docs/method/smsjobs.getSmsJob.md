@@ -2,7 +2,7 @@
 
 **Description** : *Get info about an SMS job \(official clients only\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 smsjobs.getSmsJob#778d902f job_id:string = SmsJob;
@@ -36,6 +36,6 @@ smsjobs.getSmsJob#778d902f job_id:string = SmsJob;
 
 ```php
 $smsJob = $client->smsjobs->getSmsJob(
-	job_id : 'LWBGmHw9FdODTokR',
+	job_id : '3EcLA20J91IT8hHY',
 );
 ```

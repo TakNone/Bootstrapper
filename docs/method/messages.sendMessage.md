@@ -2,10 +2,10 @@
 
 **Description** : *Sends a message to a chat*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-messages.sendMessage#fe05dc9a flags:# no_webpage:flags.1?true silent:flags.5?true background:flags.6?true clear_draft:flags.7?true noforwards:flags.14?true update_stickersets_order:flags.15?true invert_media:flags.16?true allow_paid_floodskip:flags.19?true peer:InputPeer reply_to:flags.0?InputReplyTo message:string random_id:long reply_markup:flags.2?ReplyMarkup entities:flags.3?Vector<MessageEntity> schedule_date:flags.10?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut effect:flags.18?long allow_paid_stars:flags.21?long suggested_post:flags.22?SuggestedPost = Updates;
+messages.sendMessage#545cd15a flags:# no_webpage:flags.1?true silent:flags.5?true background:flags.6?true clear_draft:flags.7?true noforwards:flags.14?true update_stickersets_order:flags.15?true invert_media:flags.16?true allow_paid_floodskip:flags.19?true peer:InputPeer reply_to:flags.0?InputReplyTo message:string random_id:long reply_markup:flags.2?ReplyMarkup entities:flags.3?Vector<MessageEntity> schedule_date:flags.10?int schedule_repeat_period:flags.24?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut effect:flags.18?long allow_paid_stars:flags.21?long suggested_post:flags.22?SuggestedPost = Updates;
 ```
 
 ---
@@ -30,6 +30,7 @@ messages.sendMessage#fe05dc9a flags:# no_webpage:flags.1?true silent:flags.5?tru
 | **reply_markup** | [`flags.2?ReplyMarkup`](type/ReplyMarkup) | Reply markup for sending bot buttons |
 | **entities** | [`flags.3?Vector<MessageEntity>`](type/MessageEntity) | Message entities for sending styled text |
 | **schedule_date** | [`flags.10?int`](type/int) | Scheduled message date for scheduled messages |
+| **schedule_repeat_period** | [`flags.24?int`](type/int) | NOTHING |
 | **send_as** | [`flags.13?InputPeer`](type/InputPeer) | Send this message as the specified peer |
 | **quick_reply_shortcut** | [`flags.17?InputQuickReplyShortcut`](type/InputQuickReplyShortcut) | Add the message to the specified quick reply shortcut », instead |
 | **effect** | [`flags.18?long`](type/long) | Specifies a message effect » to use for the message |
@@ -135,220 +136,221 @@ $updates = $client->messages->sendMessage(
 	update_stickersets_order : true,
 	invert_media : true,
 	allow_paid_floodskip : true,
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 79,
-		top_msg_id : 7,
-		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'oSiKsdgyvXpNr4Ma',
+		reply_to_msg_id : 15,
+		top_msg_id : 15,
+		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
+		quote_text : 'sQlEcL9VPKpoMZkG',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 43,
+				length : 75,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 16,
+				length : 5,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 12,
+				length : 74,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 7,
+				length : 33,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 84,
+				length : 74,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 95,
+				length : 54,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 32,
+				length : 97,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 36,
+				length : 26,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 7,
+				length : 27,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 2,
-				language : 'BtxNCcjKPkH1WiTu',
+				length : 11,
+				language : '1JydLSvprGRDmZQP',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 93,
+				length : 14,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 19,
-				user_id : -7700368465093512866,
+				length : 39,
+				user_id : -1398330662010935956,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 5,
-				user_id : $client->inputUserEmpty(...),
+				length : 29,
+				user_id : $client->get_input_user(peer : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 85,
+				length : 36,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 92,
+				length : 33,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 66,
+				length : 33,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 35,
+				length : 93,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 82,
+				length : 97,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 12,
+				length : 75,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 65,
-				document_id : -5423131117734957403,
+				length : 20,
+				document_id : -8968495296109755609,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 76,
+				length : 71,
 			),
 		),
-		quote_offset : 49,
-		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 77,
+		quote_offset : 60,
+		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
+		todo_item_id : 55,
 	),
-	message : 'TFc0ramSe6B4Goiv',
-	random_id : -4044824614879375598,
+	message : 'UHWktzvPBjV9woEc',
+	random_id : 339764397255958645,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 63,
+			length : 47,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 56,
+			length : 71,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 60,
+			length : 69,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 86,
+			length : 94,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 50,
+			length : 60,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 94,
+			length : 99,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 64,
+			length : 35,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 59,
+			length : 86,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 30,
+			length : 14,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 61,
-			language : 'phik9wuDAMqjEPNI',
+			length : 10,
+			language : 'GtbZxFAmvkw1QBMq',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 50,
+			length : 79,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 58,
-			user_id : -7169636414026058259,
+			length : 52,
+			user_id : -5631566280818536913,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 6,
-			user_id : $client->inputUserEmpty(),
+			length : 2,
+			user_id : $client->get_input_user(peer : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 48,
+			length : 96,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 43,
+			length : 65,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 95,
+			length : 15,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 85,
+			length : 35,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 53,
+			length : 87,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 62,
+			length : 87,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 53,
-			document_id : 5104829660820848587,
+			length : 59,
+			document_id : 6717508216581347325,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 96,
+			length : 64,
 		),
 	),
-	schedule_date : 74,
-	send_as : $client->inputPeerEmpty(),
+	schedule_date : 77,
+	schedule_repeat_period : 1,
+	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'eQ7vgsJLSK1bptNH',
+		shortcut : 'HTDOuaX16kdzmbfK',
 	),
-	effect : -1494659004004476272,
-	allow_paid_stars : -7271096424367294658,
+	effect : -1147979701080734550,
+	allow_paid_stars : 2305229388247331335,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : -532339514518957621,
-			nanos : 58,
+			amount : 1478399903734441661,
+			nanos : 31,
 		),
-		schedule_date : 9,
+		schedule_date : 85,
 	),
 );
 ```

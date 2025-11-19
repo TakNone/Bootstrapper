@@ -2,7 +2,7 @@
 
 **Description** : *A peer*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputDialogPeer#fcaafeb7 peer:InputPeer = InputDialogPeer;
@@ -28,6 +28,6 @@ inputDialogPeer#fcaafeb7 peer:InputPeer = InputDialogPeer;
 
 ```php
 $inputDialogPeer = $client->inputDialogPeer(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

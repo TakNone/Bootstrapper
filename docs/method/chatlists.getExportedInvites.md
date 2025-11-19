@@ -2,7 +2,7 @@
 
 **Description** : *List all chat folder deep links &raquo; associated to a folder*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 chatlists.getExportedInvites#ce03da83 chatlist:InputChatlist = chatlists.ExportedInvites;
@@ -37,7 +37,7 @@ chatlists.getExportedInvites#ce03da83 chatlist:InputChatlist = chatlists.Exporte
 ```php
 $chatlistsExportedInvites = $client->chatlists->getExportedInvites(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 84,
+		filter_id : 48,
 	),
 );
 ```

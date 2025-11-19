@@ -2,7 +2,7 @@
 
 **Description** : *The Time\-To\-Live of messages in this chat was changed*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 channelAdminLogEventActionChangeHistoryTTL#6e941a38 prev_value:int new_value:int = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeHistoryTTL#6e941a38 prev_value:int new_value:int
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeHistoryTTL(
-	prev_value : 89,
-	new_value : 19,
+	prev_value : 86,
+	new_value : 48,
 );
 ```

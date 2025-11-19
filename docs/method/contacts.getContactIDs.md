@@ -3,7 +3,7 @@
 **Description** : *Get the telegram IDs of all contacts\.
 Returns an array of Telegram user IDs for all contacts \(0 if a contact does not have an associated Telegram account or have hidden their account using privacy settings\)*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 contacts.getContactIDs#7adc669d hash:long = Vector<int>;

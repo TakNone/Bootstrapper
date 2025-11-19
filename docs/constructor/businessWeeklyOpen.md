@@ -2,7 +2,7 @@
 
 **Description** : *A time interval, indicating the opening hours of a business*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 businessWeeklyOpen#120b1ab9 start_minute:int end_minute:int = BusinessWeeklyOpen;
@@ -29,7 +29,7 @@ businessWeeklyOpen#120b1ab9 start_minute:int end_minute:int = BusinessWeeklyOpen
 
 ```php
 $businessWeeklyOpen = $client->businessWeeklyOpen(
-	start_minute : 13,
-	end_minute : 50,
+	start_minute : 12,
+	end_minute : 85,
 );
 ```

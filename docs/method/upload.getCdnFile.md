@@ -2,7 +2,7 @@
 
 **Description** : *Download a CDN file*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 upload.getCdnFile#395f69da file_token:bytes offset:long limit:int = upload.CdnFile;
@@ -41,6 +41,6 @@ upload.getCdnFile#395f69da file_token:bytes offset:long limit:int = upload.CdnFi
 $uploadCdnFile = $client->upload->getCdnFile(
 	file_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	offset : 0,
-	limit : 21,
+	limit : 97,
 );
 ```

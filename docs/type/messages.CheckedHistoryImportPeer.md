@@ -2,7 +2,7 @@
 
 **Description** : *Contains a confirmation text to be shown to the user, upon importing chat history, click here for more info &raquo;*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.checkedHistoryImportPeer#a24de717 confirm_text:string = messages.CheckedHistoryImportPeer;

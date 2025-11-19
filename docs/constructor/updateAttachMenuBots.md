@@ -2,7 +2,7 @@
 
 **Description** : *The list of installed attachment menu entries &raquo; has changed, use messages\.getAttachMenuBots to fetch the updated list*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 updateAttachMenuBots#17b7a20b = Update;

@@ -2,7 +2,7 @@
 
 **Description** : *Get scheduled messages*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.getScheduledHistory#f516760b peer:InputPeer hash:long = messages.Messages;
@@ -38,7 +38,7 @@ messages.getScheduledHistory#f516760b peer:InputPeer hash:long = messages.Messag
 
 ```php
 $messagesMessages = $client->messages->getScheduledHistory(
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	hash : 0,
 );
 ```

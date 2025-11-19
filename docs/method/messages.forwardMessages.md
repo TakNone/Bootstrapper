@@ -2,10 +2,10 @@
 
 **Description** : *Forwards messages by their IDs*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
-messages.forwardMessages#978928ca flags:# silent:flags.5?true background:flags.6?true with_my_score:flags.8?true drop_author:flags.11?true drop_media_captions:flags.12?true noforwards:flags.14?true allow_paid_floodskip:flags.19?true from_peer:InputPeer id:Vector<int> random_id:Vector<long> to_peer:InputPeer top_msg_id:flags.9?int reply_to:flags.22?InputReplyTo schedule_date:flags.10?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut video_timestamp:flags.20?int allow_paid_stars:flags.21?long suggested_post:flags.23?SuggestedPost = Updates;
+messages.forwardMessages#41d41ade flags:# silent:flags.5?true background:flags.6?true with_my_score:flags.8?true drop_author:flags.11?true drop_media_captions:flags.12?true noforwards:flags.14?true allow_paid_floodskip:flags.19?true from_peer:InputPeer id:Vector<int> random_id:Vector<long> to_peer:InputPeer top_msg_id:flags.9?int reply_to:flags.22?InputReplyTo schedule_date:flags.10?int schedule_repeat_period:flags.24?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut video_timestamp:flags.20?int allow_paid_stars:flags.21?long suggested_post:flags.23?SuggestedPost = Updates;
 ```
 
 ---
@@ -29,6 +29,7 @@ messages.forwardMessages#978928ca flags:# silent:flags.5?true background:flags.6
 | **top_msg_id** | [`flags.9?int`](type/int) | Destination forum topic |
 | **reply_to** | [`flags.22?InputReplyTo`](type/InputReplyTo) | Can only contain an inputReplyToMonoForum, to forward messages to a monoforum topic (mutually exclusive with top_msg_id) |
 | **schedule_date** | [`flags.10?int`](type/int) | Scheduled message date for scheduled messages |
+| **schedule_repeat_period** | [`flags.24?int`](type/int) | NOTHING |
 | **send_as** | [`flags.13?InputPeer`](type/InputPeer) | Forward the messages as the specified peer |
 | **quick_reply_shortcut** | [`flags.17?InputQuickReplyShortcut`](type/InputQuickReplyShortcut) | Add the messages to the specified quick reply shortcut », instead |
 | **video_timestamp** | [`flags.20?int`](type/int) | Start playing the video at the specified timestamp (seconds) |
@@ -116,127 +117,128 @@ $updates = $client->messages->forwardMessages(
 	drop_media_captions : true,
 	noforwards : true,
 	allow_paid_floodskip : true,
-	from_peer : $client->inputPeerEmpty(),
-	id : array(14),
-	random_id : array(4053329103328546523),
-	to_peer : $client->inputPeerEmpty(),
-	top_msg_id : 58,
+	from_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	id : array(90),
+	random_id : array(7524297431025431647),
+	to_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	top_msg_id : 90,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 98,
-		top_msg_id : 21,
-		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'horm7UfLcx6ZbHPG',
+		reply_to_msg_id : 45,
+		top_msg_id : 19,
+		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
+		quote_text : 'ALG0d3XheiZWVEgM',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 27,
+				length : 100,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 45,
+				length : 83,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 94,
+				length : 42,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 18,
+				length : 6,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 37,
+				length : 39,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 73,
+				length : 75,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 96,
+				length : 45,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 5,
+				length : 40,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 92,
+				length : 13,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 10,
-				language : 'Q365D2nxGos7yHgv',
+				length : 93,
+				language : 'ExW82kVqRClBAcF9',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 13,
+				length : 82,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 79,
-				user_id : 39232327098560355,
+				length : 31,
+				user_id : -2456061738587170083,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 7,
-				user_id : $client->inputUserEmpty(...),
+				length : 47,
+				user_id : $client->get_input_user(peer : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 63,
+				length : 28,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 31,
+				length : 32,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 70,
+				length : 59,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 45,
+				length : 66,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 91,
+				length : 61,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 17,
+				length : 36,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 81,
-				document_id : 3198233814865354113,
+				length : 76,
+				document_id : 4466493821463600390,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 73,
+				length : 70,
 			),
 		),
-		quote_offset : 59,
-		monoforum_peer_id : $client->inputPeerEmpty(),
-		todo_item_id : 36,
+		quote_offset : 0,
+		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
+		todo_item_id : 38,
 	),
-	schedule_date : 19,
-	send_as : $client->inputPeerEmpty(),
+	schedule_date : 23,
+	schedule_repeat_period : 92,
+	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'M9UAHsTYoIPjL0gC',
+		shortcut : '5tx7H9pFNZisSaQd',
 	),
-	video_timestamp : 40,
-	allow_paid_stars : 7807126427661388556,
+	video_timestamp : 71,
+	allow_paid_stars : 4972456223082454882,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 1009104207498799729,
-			nanos : 31,
+			amount : -8946489682678980029,
+			nanos : 71,
 		),
-		schedule_date : 34,
+		schedule_date : 58,
 	),
 );
 ```

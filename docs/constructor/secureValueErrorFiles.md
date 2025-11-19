@@ -2,7 +2,7 @@
 
 **Description** : *Represents an issue with a list of scans\. The error is considered resolved when the list of files containing the scans changes*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 secureValueErrorFiles#666220e9 type:SecureValueType file_hash:Vector<bytes> text:string = SecureValueError;
@@ -32,6 +32,6 @@ secureValueErrorFiles#666220e9 type:SecureValueType file_hash:Vector<bytes> text
 $secureValueError = $client->secureValueErrorFiles(
 	type : $client->secureValueTypePersonalDetails(),
 	file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	text : 'Ot8V0bTwLCrhEz6c',
+	text : '71rfJ9bBK0giCVAs',
 );
 ```

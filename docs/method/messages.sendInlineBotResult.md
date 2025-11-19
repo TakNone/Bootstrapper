@@ -2,7 +2,7 @@
 
 **Description** : *Send a result obtained using messages\.getInlineBotResults*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.sendInlineBotResult#c0cf7646 flags:# silent:flags.5?true background:flags.6?true clear_draft:flags.7?true hide_via:flags.11?true peer:InputPeer reply_to:flags.0?InputReplyTo random_id:long query_id:long id:string schedule_date:flags.10?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut allow_paid_stars:flags.21?long = Updates;
@@ -92,116 +92,116 @@ $updates = $client->messages->sendInlineBotResult(
 	background : true,
 	clear_draft : true,
 	hide_via : true,
-	peer : $client->inputPeerEmpty(),
+	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 29,
-		top_msg_id : 81,
-		reply_to_peer_id : $client->inputPeerEmpty(),
-		quote_text : 'pwVb0uToaG8MAzF2',
+		reply_to_msg_id : 100,
+		top_msg_id : 75,
+		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
+		quote_text : 'zmH9uVXhSl8PnpM5',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 57,
+				length : 100,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 8,
+				length : 61,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 59,
+				length : 85,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 32,
+				length : 82,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 31,
+				length : 2,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 97,
+				length : 60,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 69,
+				length : 17,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 75,
+				length : 12,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 9,
+				length : 64,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 48,
-				language : '7xmy15SdCwcOzQYP',
+				length : 94,
+				language : 'QieZ8N3FzjulBkP1',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 11,
+				length : 26,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 47,
-				user_id : -4336283368690809176,
+				length : 78,
+				user_id : 3489918021840897439,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 89,
-				user_id : $client->inputUserEmpty(...),
+				length : 82,
+				user_id : $client->get_input_user(peer : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 12,
+				length : 2,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 52,
+				length : 4,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 50,
+				length : 15,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 68,
+				length : 73,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 41,
+				length : 9,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 55,
+				length : 76,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 82,
-				document_id : -5531907395055630649,
+				length : 88,
+				document_id : -4298594340280196230,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 43,
+				length : 66,
 			),
 		),
-		quote_offset : 99,
-		monoforum_peer_id : $client->inputPeerEmpty(),
+		quote_offset : 32,
+		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 		todo_item_id : 61,
 	),
-	random_id : -3619088423037485005,
-	query_id : 2677255181744426530,
-	id : '8BqKeGtDd5HJ0iap',
-	schedule_date : 55,
-	send_as : $client->inputPeerEmpty(),
+	random_id : 4986903351997428522,
+	query_id : -3057734623729450036,
+	id : 'aEKUlh7OFLfgxIds',
+	schedule_date : 90,
+	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'B2Eta5h19ek0ijF4',
+		shortcut : 'SXwvFg3D6WLB05Uc',
 	),
-	allow_paid_stars : -1681454772296858921,
+	allow_paid_stars : -5973425616542325348,
 );
 ```

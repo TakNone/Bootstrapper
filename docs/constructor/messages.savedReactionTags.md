@@ -2,7 +2,7 @@
 
 **Description** : *List of reaction tag &raquo; names assigned by the user*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messages.savedReactionTags#3259950a tags:Vector<SavedReactionTag> hash:long = messages.SavedReactionTags;
@@ -32,8 +32,8 @@ $messagesSavedReactionTags = $client->messages->savedReactionTags(
 	tags : array(
 		$client->savedReactionTag(
 			reaction : $client->reactionEmpty(),
-			title : 'NeoM3tL58aXDSv4q',
-			count : 27,
+			title : 'uxeT3L2WdlmZrS9A',
+			count : 64,
 		),
 	),
 	hash : 0,

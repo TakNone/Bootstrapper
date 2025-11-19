@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing strikethrough text*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 messageEntityStrike#bf0693d4 offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityStrike#bf0693d4 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityStrike(
 	offset : 0,
-	length : 85,
+	length : 62,
 );
 ```

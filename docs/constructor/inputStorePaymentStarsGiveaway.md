@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for a star giveaway, see here &raquo; for more info*
 
-**Layer** : 216
+**Layer** : 218
 
 ```tl
 inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?true winners_are_visible:flags.3?true stars:long boost_peer:InputPeer additional_peers:flags.1?Vector<InputPeer> countries_iso2:flags.2?Vector<string> prize_description:flags.4?string random_id:long until_date:int currency:string amount:long users:int = InputStorePaymentPurpose;
@@ -42,39 +42,15 @@ inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?tru
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	stars : 3205534248291268685,
-	boost_peer : $client->inputPeerEmpty(),
-	additional_peers : array(
-		$client->inputPeerEmpty(),
-		$client->inputPeerSelf(),
-		$client->inputPeerChat(
-			chat_id : -4092297806682700347,
-		),
-		$client->inputPeerUser(
-			user_id : -6926154378306522551,
-			access_hash : -1525114696327460160,
-		),
-		$client->inputPeerChannel(
-			channel_id : 2907628450120455866,
-			access_hash : -645164097036785540,
-		),
-		$client->inputPeerUserFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 7,
-			user_id : -657058806375800907,
-		),
-		$client->inputPeerChannelFromMessage(
-			peer : $client->inputPeerEmpty(),
-			msg_id : 49,
-			channel_id : 621879318080051828,
-		),
-	),
-	countries_iso2 : array('jsoBlIkEaW1ZhzXu'),
-	prize_description : 'yZDp1QhLE5mwI9b6',
-	random_id : 6123658643913206264,
-	until_date : 37,
-	currency : 'TZsBGLQjkXV5OR80',
-	amount : 1507733957834712927,
-	users : 76,
+	stars : -325733120488215327,
+	boost_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
+	additional_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
+	countries_iso2 : array('7VcJ0MyaWCi6oFkg'),
+	prize_description : 'bGnyB256lRcYJ9mO',
+	random_id : 5406036875457017141,
+	until_date : 4,
+	currency : 'A5rGQyvTngPc3ojM',
+	amount : -7880568023441261508,
+	users : 47,
 );
 ```
