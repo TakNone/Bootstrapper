@@ -14,7 +14,7 @@ messageActionPaymentSent#c624b16e flags:# recurring_init:flags.2?true recurring_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **recurring_init** | [`flags.2?true`](type/true) | Whether this is the first payment of a recurring payment we just subscribed to |
 | **recurring_used** | [`flags.3?true`](type/true) | Whether this payment is part of a recurring payment |
 | <mark>currency</mark> | [`string`](type/string) | Three-letter ISO 4217 currency code, or XTR for Telegram Stars |
@@ -36,9 +36,9 @@ messageActionPaymentSent#c624b16e flags:# recurring_init:flags.2?true recurring_
 $messageAction = $client->messageActionPaymentSent(
 	recurring_init : true,
 	recurring_used : true,
-	currency : 'vljaxo87mEcFiduT',
-	total_amount : -7190288534845292664,
-	invoice_slug : '4gjS2Gp7x9cmEUek',
-	subscription_until_date : 20,
+	currency : 'z0PHy3rLgKeIT4Wn',
+	total_amount : -2508463360587144529,
+	invoice_slug : 'yfUSn9vu5qzNiIZV',
+	subscription_until_date : 6,
 );
 ```

@@ -14,7 +14,7 @@ dialog#d58a08c6 flags:# pinned:flags.2?true unread_mark:flags.3?true view_forum_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pinned** | [`flags.2?true`](type/true) | Is the dialog pinned |
 | **unread_mark** | [`flags.3?true`](type/true) | Whether the chat was manually marked as unread |
 | **view_forum_as_messages** | [`flags.6?true`](type/true) | Users may also choose to display messages from all topics of a forum as if they were sent to a normal group, using a "View as messages" setting in the local client.  This setting only affects the current account, and is synced to other logged in sessions using the channels.toggleViewForumAsMessages method; invoking this method will update the value of this flag |
@@ -47,32 +47,32 @@ $dialog = $client->dialog(
 	unread_mark : true,
 	view_forum_as_messages : true,
 	peer : $client->peerUser(
-		user_id : -5693474153094017951,
+		user_id : -1243520732545808922,
 	),
-	top_message : 31,
-	read_inbox_max_id : 20,
-	read_outbox_max_id : 26,
-	unread_count : 28,
-	unread_mentions_count : 69,
-	unread_reactions_count : 18,
+	top_message : 8,
+	read_inbox_max_id : 56,
+	read_outbox_max_id : 38,
+	unread_count : 47,
+	unread_mentions_count : 97,
+	unread_reactions_count : 99,
 	notify_settings : $client->peerNotifySettings(
 		show_previews : false,
 		silent : true,
-		mute_until : 5,
+		mute_until : 92,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
-		stories_muted : true,
-		stories_hide_sender : true,
+		stories_muted : false,
+		stories_hide_sender : false,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
-	pts : 12,
+	pts : 99,
 	draft : $client->draftMessageEmpty(
-		date : 58,
+		date : 22,
 	),
-	folder_id : 55,
-	ttl_period : 2,
+	folder_id : 69,
+	ttl_period : 25,
 );
 ```

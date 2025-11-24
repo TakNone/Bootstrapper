@@ -28,6 +28,6 @@ chatTheme#c3dffc04 emoticon:string = ChatTheme;
 
 ```php
 $chatTheme = $client->chatTheme(
-	emoticon : 'SYwvuOMUTrG5fPJa',
+	emoticon : 'O3dnFfk8oX16Zar7',
 );
 ```

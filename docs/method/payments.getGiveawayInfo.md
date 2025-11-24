@@ -39,6 +39,6 @@ payments.getGiveawayInfo#f4239425 peer:InputPeer msg_id:int = payments.GiveawayI
 ```php
 $paymentsGiveawayInfo = $client->payments->getGiveawayInfo(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 51,
+	msg_id : 53,
 );
 ```

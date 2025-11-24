@@ -28,6 +28,6 @@ sendMessageUploadRoundAction#243e1c66 progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageUploadRoundAction(
-	progress : 37,
+	progress : 40,
 );
 ```

@@ -14,7 +14,7 @@ payments.getStarsRevenueStats#d91ffad6 flags:# dark:flags.0?true ton:flags.1?tru
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **dark** | [`flags.0?true`](type/true) | Whether to enable dark theme for graph colors |
 | **ton** | [`flags.1?true`](type/true) | If set, fetches channel/bot ad revenue statistics in TON |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Get statistics for the specified bot, channel or ourselves (inputPeerSelf) |

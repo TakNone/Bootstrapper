@@ -30,6 +30,6 @@ inputFolderPeer#fbd2c296 peer:InputPeer folder_id:int = InputFolderPeer;
 ```php
 $inputFolderPeer = $client->inputFolderPeer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	folder_id : 8,
+	folder_id : 93,
 );
 ```

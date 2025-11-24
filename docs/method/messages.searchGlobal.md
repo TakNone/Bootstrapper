@@ -14,7 +14,7 @@ messages.searchGlobal#4bc6589a flags:# broadcasts_only:flags.1?true groups_only:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **broadcasts_only** | [`flags.1?true`](type/true) | If set, only returns results from channels (used in the global channel search tab ») |
 | **groups_only** | [`flags.2?true`](type/true) | Whether to search only in groups |
 | **users_only** | [`flags.3?true`](type/true) | Whether to search only in private chats |
@@ -53,14 +53,14 @@ $messagesMessages = $client->messages->searchGlobal(
 	broadcasts_only : true,
 	groups_only : true,
 	users_only : true,
-	folder_id : 22,
-	q : 'eNt3iGAf6RuqvZQ8',
+	folder_id : 78,
+	q : 'qrDuzN4mejRyQMSt',
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 7,
-	max_date : 74,
+	min_date : 89,
+	max_date : 8,
 	offset_rate : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	limit : 35,
+	limit : 65,
 );
 ```

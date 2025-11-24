@@ -14,7 +14,7 @@ payments.getStarsTransactions#69da4557 flags:# inbound:flags.0?true outbound:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **inbound** | [`flags.0?true`](type/true) | If set, fetches only incoming transactions |
 | **outbound** | [`flags.1?true`](type/true) | If set, fetches only outgoing transactions |
 | **ascending** | [`flags.2?true`](type/true) | Return transactions in ascending order by date (instead of descending order by date) |
@@ -50,9 +50,9 @@ $paymentsStarsStatus = $client->payments->getStarsTransactions(
 	outbound : true,
 	ascending : true,
 	ton : true,
-	subscription_id : 'OcGw2LpER0Ms6bdh',
+	subscription_id : '8jxegWNq0pQmBk9K',
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'dr2e8hiaUzsGjRZ3',
-	limit : 12,
+	offset : '0FE7NaZQyIuTYqh6',
+	limit : 63,
 );
 ```

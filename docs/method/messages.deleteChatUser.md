@@ -14,7 +14,7 @@ messages.deleteChatUser#a2185cab flags:# revoke_history:flags.0?true chat_id:lon
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoke_history** | [`flags.0?true`](type/true) | Remove the entire chat history of the specified user in this chat |
 | <mark>chat_id</mark> | [`long`](type/long) | Chat ID |
 | <mark>user_id</mark> | [`InputUser`](type/InputUser) | User ID to be deleted |
@@ -45,7 +45,7 @@ messages.deleteChatUser#a2185cab flags:# revoke_history:flags.0?true chat_id:lon
 ```php
 $updates = $client->messages->deleteChatUser(
 	revoke_history : true,
-	chat_id : -677385255968571820,
+	chat_id : -3870040744530107317,
 	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

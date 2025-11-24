@@ -41,7 +41,7 @@ users.getSavedMusic#788d7fe3 id:InputUser offset:int limit:int hash:long = users
 $usersSavedMusic = $client->users->getSavedMusic(
 	id : $client->get_input_user(user : '@TakNone'),
 	offset : 0,
-	limit : 73,
+	limit : 87,
 	hash : 0,
 );
 ```

@@ -14,7 +14,7 @@ messages.clickSponsoredMessage#8235057e flags:# media:flags.0?true fullscreen:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **media** | [`flags.0?true`](type/true) | The user clicked on the media |
 | **fullscreen** | [`flags.1?true`](type/true) | The user expanded the video to full screen, and then clicked on it |
 | <mark>random_id</mark> | [`bytes`](type/bytes) | The ad's unique ID |

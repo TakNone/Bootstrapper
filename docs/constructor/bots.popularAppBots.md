@@ -14,7 +14,7 @@ bots.popularAppBots#1991b13b flags:# next_offset:flags.0?string users:Vector<Use
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **next_offset** | [`flags.0?string`](type/string) | Offset for pagination |
 | <mark>users</mark> | [`Vector<User>`](type/User) | The bots associated to each Main Mini App, see here » for more info |
 
@@ -30,10 +30,10 @@ bots.popularAppBots#1991b13b flags:# next_offset:flags.0?string users:Vector<Use
 
 ```php
 $botsPopularAppBots = $client->bots->popularAppBots(
-	next_offset : '0FkpwZGC9dx83yT2',
+	next_offset : 'S3suqzxWkh2BT4RH',
 	users : array(
 		$client->userEmpty(
-			id : 188671087094527308,
+			id : 6979675758382279588,
 		),
 		$client->user(
 			self : true,
@@ -62,24 +62,24 @@ $botsPopularAppBots = $client->bots->popularAppBots(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -8992693838188226318,
-			access_hash : 4263535448758870037,
+			id : 2009101256408819260,
+			access_hash : -5865237426331635086,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 56,
+			bot_info_version : 36,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'q3JtCPZE9UgDGLNS',
-					reason : 'DopfXYPHTbiGvOrL',
-					text : '0gwqOTk1Ms6yo8Qp',
+					platform : 'UBa4JSLbzgj5iNln',
+					reason : 'i02ov3FENCbHKPGm',
+					text : 'lbHec7gM4hzXp0sD',
 				),
 			),
-			bot_inline_placeholder : 'd3iZLxWfSgmCjuwl',
-			lang_code : 'CyhFvGUxnDEAdSLK',
+			bot_inline_placeholder : 'oFN7AManX5OHVZSj',
+			lang_code : 'PCBNt716iKMVkbDy',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -90,19 +90,19 @@ $botsPopularAppBots = $client->bots->popularAppBots(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 14,
+				max_id : 50,
 			),
 			color : $client->peerColor(
-				color : 37,
-				background_emoji_id : -1334821301176530554,
+				color : 53,
+				background_emoji_id : -232901221952802602,
 			),
 			profile_color : $client->peerColor(
-				color : 44,
-				background_emoji_id : 6217927105361512577,
+				color : 24,
+				background_emoji_id : -4798866307584516122,
 			),
-			bot_active_users : 29,
-			bot_verification_icon : -7925400308435755782,
-			send_paid_messages_stars : 7219159865962001286,
+			bot_active_users : 95,
+			bot_verification_icon : 4452772087148030605,
+			send_paid_messages_stars : 8255461062682758045,
 		),
 	),
 );

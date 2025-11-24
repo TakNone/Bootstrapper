@@ -32,6 +32,6 @@ secureValueErrorTranslationFiles#34636dd8 type:SecureValueType file_hash:Vector<
 $secureValueError = $client->secureValueErrorTranslationFiles(
 	type : $client->secureValueTypePersonalDetails(),
 	file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	text : 'Tq6OERxeNrYgifXI',
+	text : 'y8mePDiFJHv9EQXj',
 );
 ```

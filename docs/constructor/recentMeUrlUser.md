@@ -30,6 +30,6 @@ recentMeUrlUser#b92c09e2 url:string user_id:long = RecentMeUrl;
 ```php
 $recentMeUrl = $client->recentMeUrlUser(
 	url : 'https://docs.liveproto.dev',
-	user_id : 8026062214197758111,
+	user_id : -9095085076540410248,
 );
 ```

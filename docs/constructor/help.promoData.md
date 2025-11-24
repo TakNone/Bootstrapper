@@ -14,7 +14,7 @@ help.promoData#8a4d87a flags:# proxy:flags.0?true expires:int peer:flags.3?Peer 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **proxy** | [`flags.0?true`](type/true) | Set when connecting using an MTProxy that has configured an associated peer (that will be passed in peer, i.e. the channel that sponsored the MTProxy) that should be pinned on top of the chat list |
 | <mark>expires</mark> | [`int`](type/int) | Unixtime when to re-invoke help.getPromoData |
 | **peer** | [`flags.3?Peer`](type/Peer) | MTProxy/PSA peer |
@@ -39,203 +39,203 @@ help.promoData#8a4d87a flags:# proxy:flags.0?true expires:int peer:flags.3?Peer 
 ```php
 $helpPromoData = $client->help->promoData(
 	proxy : true,
-	expires : 90,
+	expires : 15,
 	peer : $client->peerUser(
-		user_id : -2933508935098608992,
+		user_id : 3044677187012261416,
 	),
-	psa_type : 'm0IXZpH4vwgdDR9J',
-	psa_message : 'Lp1vWZMwfJzg0AEt',
-	pending_suggestions : array('4KHDQ695f0oCdI7j'),
-	dismissed_suggestions : array('1aCiBLqxV3ecfmOj'),
+	psa_type : '1SvyfDOAprWdCtl0',
+	psa_message : 'F43IBJEe2xoR7Q9S',
+	pending_suggestions : array('Jegx76Vion2rN1jL'),
+	dismissed_suggestions : array('HUJPxrg3VCNYzoIy'),
 	custom_pending_suggestion : $client->pendingSuggestion(
-		suggestion : 'PvzDkReigQHWxL63',
+		suggestion : 'WiespNyOoYtwPE5d',
 		title : $client->textWithEntities(
-			text : 'GORKb8HT5lzEcaN2',
+			text : 'dapNZDuWY0CeTl4P',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 88,
+					length : 80,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 5,
+					length : 61,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 54,
+					length : 3,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 98,
+					length : 40,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 35,
+					length : 73,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 39,
+					length : 100,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 76,
+					length : 69,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 65,
+					length : 51,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 32,
+					length : 93,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 95,
-					language : 'CgwdqycYolms5VtB',
+					length : 19,
+					language : 'iCFALhveKj0w2S7l',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 75,
+					length : 71,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 2,
-					user_id : -7386364164642916067,
+					length : 89,
+					user_id : -5462197554004144395,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 100,
+					length : 60,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 99,
+					length : 27,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 19,
+					length : 17,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 13,
+					length : 50,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 91,
+					length : 63,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 27,
+					length : 61,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 79,
+					length : 30,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 77,
-					document_id : 6718941076388953887,
+					length : 16,
+					document_id : 291037780077188278,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 86,
+					length : 15,
 				),
 			),
 		),
 		description : $client->textWithEntities(
-			text : 'OsvKR0CcLq5hrWgV',
+			text : 'NgPR1VudbtiBQWo8',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 73,
+					length : 7,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 15,
+					length : 51,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 65,
+					length : 91,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 46,
+					length : 27,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 28,
+					length : 22,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 15,
+					length : 86,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 26,
+					length : 23,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 99,
+					length : 0,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 36,
+					length : 94,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 84,
-					language : 'rp80wKQg7ICDWaZ9',
+					length : 23,
+					language : 'hw4RFmqDeofMZrB7',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 7,
+					length : 26,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 56,
-					user_id : 1161888260938773141,
+					length : 0,
+					user_id : -2148868621219593315,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 8,
+					length : 53,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 88,
+					length : 33,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 78,
+					length : 100,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 61,
+					length : 66,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 93,
+					length : 58,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 30,
+					length : 25,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 56,
+					length : 24,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 65,
-					document_id : 475372659927085400,
+					length : 44,
+					document_id : -1215704123898066949,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 41,
+					length : 59,
 				),
 			),
 		),
@@ -243,7 +243,7 @@ $helpPromoData = $client->help->promoData(
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : -8553189649300266897,
+			id : -6795399127661979648,
 		),
 		$client->chat(
 			creator : true,
@@ -253,12 +253,12 @@ $helpPromoData = $client->help->promoData(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -5172392148470304599,
-			title : '5sZW1FcNzLAMGQh4',
+			id : -3087498406460007353,
+			title : 'WlEfZO93vriIzM6Q',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 49,
-			date : 3,
-			version : 16,
+			participants_count : 74,
+			date : 27,
+			version : 75,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -299,12 +299,12 @@ $helpPromoData = $client->help->promoData(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 38,
+				until_date : 17,
 			),
 		),
 		$client->chatForbidden(
-			id : -8006729892059540855,
-			title : 'AOSo2z30ajDHd7BI',
+			id : -5641861896383296803,
+			title : 'ZasI8Q0grRz6VH5m',
 		),
 		$client->channel(
 			creator : true,
@@ -335,17 +335,17 @@ $helpPromoData = $client->help->promoData(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -3722138617230437458,
-			access_hash : 4013969591081309299,
-			title : 'kmCqKpJugH1l3YoF',
+			id : -8605572658337008974,
+			access_hash : 4493730428708674137,
+			title : 'Eincdu9W40j72HkX',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 5,
+			date : 41,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'pVbZIcTRGt2LECFi',
-					reason : 'uNzdBn8D3rTp04qk',
-					text : 'B5vZp0KCH8QsfIX2',
+					platform : 'KcHXYtZqepdxTjV5',
+					reason : 'CLZcI851jYyUrv0O',
+					text : '961OdRQNYEefxoFX',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -387,7 +387,7 @@ $helpPromoData = $client->help->promoData(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 63,
+				until_date : 57,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -410,9 +410,9 @@ $helpPromoData = $client->help->promoData(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 19,
+				until_date : 86,
 			),
-			participants_count : 61,
+			participants_count : 71,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -422,35 +422,35 @@ $helpPromoData = $client->help->promoData(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 81,
+				max_id : 29,
 			),
 			color : $client->peerColor(
-				color : 55,
-				background_emoji_id : 5773286576364406377,
+				color : 71,
+				background_emoji_id : -6164159989623237823,
 			),
 			profile_color : $client->peerColor(
-				color : 48,
-				background_emoji_id : 3192143751209083462,
+				color : 33,
+				background_emoji_id : -6486532178028096794,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 61,
-			subscription_until_date : 0,
-			bot_verification_icon : -4393940440021055127,
-			send_paid_messages_stars : -6154094444709591126,
-			linked_monoforum_id : -4720718265894079556,
+			level : 32,
+			subscription_until_date : 28,
+			bot_verification_icon : -5675611283095029597,
+			send_paid_messages_stars : -2848474186363867110,
+			linked_monoforum_id : -3273266276514514054,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 8641762790988590704,
-			access_hash : -3387965842974012299,
-			title : 'WpA0TYjvXwEbrohJ',
-			until_date : 63,
+			id : -2709745373856516423,
+			access_hash : -5913854909769065706,
+			title : 'uoBz7CbdXnT6HN84',
+			until_date : 99,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 677464155733127596,
+			id : -2170535986018446997,
 		),
 		$client->user(
 			self : true,
@@ -479,24 +479,24 @@ $helpPromoData = $client->help->promoData(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 6314194891216252561,
-			access_hash : 5601231876516106715,
+			id : 8978549938133426817,
+			access_hash : -1916344174141249061,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 73,
+			bot_info_version : 75,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'mPBxQNlGpVAr4wnX',
-					reason : 'v8k6pOTaGWXSuH1A',
-					text : 'VU1xFf6A8XGNlMzT',
+					platform : 'jSoDOil28F9rhnYg',
+					reason : 'cQtO7DMeG4gl2hzF',
+					text : 'h0jWFPo1KcVlv5uY',
 				),
 			),
-			bot_inline_placeholder : 'S6Ke0GWJsMB8wDYz',
-			lang_code : 'n4SMwNk3FClWJ6m1',
+			bot_inline_placeholder : 'vZTlFa0CGW9szgmS',
+			lang_code : '10W7RvwXxmg4jHQ5',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -507,19 +507,19 @@ $helpPromoData = $client->help->promoData(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 6,
+				max_id : 29,
 			),
 			color : $client->peerColor(
 				color : 9,
-				background_emoji_id : 6424430883032199369,
+				background_emoji_id : -8387314345036006943,
 			),
 			profile_color : $client->peerColor(
-				color : 57,
-				background_emoji_id : -4366305269185548375,
+				color : 52,
+				background_emoji_id : 173150171379935224,
 			),
-			bot_active_users : 54,
-			bot_verification_icon : -2666358431745109808,
-			send_paid_messages_stars : 8538128116280563343,
+			bot_active_users : 87,
+			bot_verification_icon : -8069147932364940671,
+			send_paid_messages_stars : -5340520966052271565,
 		),
 	),
 );

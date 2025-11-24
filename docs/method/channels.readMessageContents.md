@@ -40,6 +40,6 @@ channels.readMessageContents#eab5dc38 channel:InputChannel id:Vector<int> = Bool
 ```php
 $bool = $client->channels->readMessageContents(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	id : array(7),
+	id : array(80),
 );
 ```

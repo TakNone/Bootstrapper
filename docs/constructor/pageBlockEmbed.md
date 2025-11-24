@@ -14,7 +14,7 @@ pageBlockEmbed#a8718dc5 flags:# full_width:flags.0?true allow_scrolling:flags.3?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **full_width** | [`flags.0?true`](type/true) | Whether the block should be full width |
 | **allow_scrolling** | [`flags.3?true`](type/true) | Whether scrolling should be allowed |
 | **url** | [`flags.1?string`](type/string) | Web page URL, if available |
@@ -39,10 +39,10 @@ $pageBlock = $client->pageBlockEmbed(
 	full_width : true,
 	allow_scrolling : true,
 	url : 'https://docs.liveproto.dev',
-	html : 'EDOWP9yJI0lUbuKZ',
-	poster_photo_id : -1405140014945373620,
-	w : 11,
-	h : 76,
+	html : 'waqcxfbWtoNO6si4',
+	poster_photo_id : -4152992685300128947,
+	w : 75,
+	h : 29,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

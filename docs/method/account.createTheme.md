@@ -14,7 +14,7 @@ account.createTheme#652e4400 flags:# slug:string title:string document:flags.2?I
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>slug</mark> | [`string`](type/string) | Unique theme ID used to generate theme deep links, can be empty to autogenerate a random ID |
 | <mark>title</mark> | [`string`](type/string) | Theme name |
 | **document** | [`flags.2?InputDocument`](type/InputDocument) | Theme file |
@@ -41,30 +41,30 @@ account.createTheme#652e4400 flags:# slug:string title:string document:flags.2?I
 
 ```php
 $theme = $client->account->createTheme(
-	slug : '68SfNQ9qwkC0L2Xy',
-	title : 'maqwtcyVZ8k57J4p',
+	slug : 'tX3BksNryPqjOblV',
+	title : '19u0pDePEchntHmq',
 	document : $client->inputDocumentEmpty(),
 	settings : array(
 		$client->inputThemeSettings(
 			message_colors_animated : true,
 			base_theme : $client->baseThemeClassic(),
-			accent_color : 93,
-			outbox_accent_color : 31,
-			message_colors : array(79),
+			accent_color : 96,
+			outbox_accent_color : 10,
+			message_colors : array(36),
 			wallpaper : $client->inputWallPaper(
-				id : 3172983741092782071,
-				access_hash : 7194356631584991179,
+				id : 120550630608724658,
+				access_hash : 4149421794427248176,
 			),
 			wallpaper_settings : $client->wallPaperSettings(
 				blur : true,
 				motion : true,
-				background_color : 13,
+				background_color : 67,
 				second_background_color : 86,
-				third_background_color : 21,
-				fourth_background_color : 60,
-				intensity : 52,
-				rotation : 4,
-				emoticon : '9hzwkUs67nIV42KZ',
+				third_background_color : 34,
+				fourth_background_color : 80,
+				intensity : 87,
+				rotation : 14,
+				emoticon : 'SFjtPixvzGHlocf8',
 			),
 		),
 	),

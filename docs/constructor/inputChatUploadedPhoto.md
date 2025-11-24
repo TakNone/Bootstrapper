@@ -14,7 +14,7 @@ inputChatUploadedPhoto#bdcdaec0 flags:# file:flags.0?InputFile video:flags.1?Inp
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **file** | [`flags.0?InputFile`](type/InputFile) | File saved in parts using the method upload.saveFilePart |
 | **video** | [`flags.1?InputFile`](type/InputFile) | Square video for animated profile picture |
 | **video_start_ts** | [`flags.2?double`](type/double) | Floating point UNIX timestamp in seconds, indicating the frame of the video/sticker that should be used as static preview; can only be used if video or video_emoji_markup is set |
@@ -34,13 +34,13 @@ inputChatUploadedPhoto#bdcdaec0 flags:# file:flags.0?InputFile video:flags.1?Inp
 $inputChatPhoto = $client->inputChatUploadedPhoto(
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : -308983,
+	video_start_ts : -1841957.3193359375,
 	video_emoji_markup : $client->videoSize(
-		type : 'Ob9Qzl23WIcDX70o',
-		w : 38,
-		h : 53,
-		size : 27,
-		video_start_ts : 258101.6484375,
+		type : 'LbQz3YNp2ZfXB7h5',
+		w : 81,
+		h : 83,
+		size : 45,
+		video_start_ts : 786642.1796875,
 	),
 );
 ```

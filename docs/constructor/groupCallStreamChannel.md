@@ -30,8 +30,8 @@ groupCallStreamChannel#80eb48af channel:int scale:int last_timestamp_ms:long = G
 
 ```php
 $groupCallStreamChannel = $client->groupCallStreamChannel(
-	channel : 94,
-	scale : 73,
-	last_timestamp_ms : 8172823463306663313,
+	channel : 67,
+	scale : 9,
+	last_timestamp_ms : -7696373220560685123,
 );
 ```

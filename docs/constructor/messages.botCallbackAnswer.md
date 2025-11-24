@@ -14,7 +14,7 @@ messages.botCallbackAnswer#36585ea4 flags:# alert:flags.1?true has_url:flags.3?t
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **alert** | [`flags.1?true`](type/true) | Whether an alert should be shown to the user instead of a toast notification |
 | **has_url** | [`flags.3?true`](type/true) | Whether an URL is present |
 | **native_ui** | [`flags.4?true`](type/true) | Whether to show games in WebView or in native UI |
@@ -37,8 +37,8 @@ $messagesBotCallbackAnswer = $client->messages->botCallbackAnswer(
 	alert : true,
 	has_url : true,
 	native_ui : true,
-	message : '2fSiZo13XTNclsWI',
+	message : 'N5rdunyBgTmeho4x',
 	url : 'https://docs.liveproto.dev',
-	cache_time : 58,
+	cache_time : 70,
 );
 ```

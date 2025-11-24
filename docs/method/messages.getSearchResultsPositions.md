@@ -14,7 +14,7 @@ messages.getSearchResultsPositions#9c7f2f10 flags:# peer:InputPeer saved_peer_id
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer where to search |
 | **saved_peer_id** | [`flags.2?InputPeer`](type/InputPeer) | Search within the saved message dialog » with this ID |
 | <mark>filter</mark> | [`MessagesFilter`](type/MessagesFilter) | Message filter, inputMessagesFilterEmpty, inputMessagesFilterMyMentions filters are not supported by this method |
@@ -45,6 +45,6 @@ $messagesSearchResultsPositions = $client->messages->getSearchResultsPositions(
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	filter : $client->inputMessagesFilterEmpty(),
 	offset_id : 0,
-	limit : 14,
+	limit : 10,
 );
 ```

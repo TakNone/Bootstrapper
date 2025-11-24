@@ -14,7 +14,7 @@ stats.loadAsyncGraph#621d5fa0 flags:# token:string x:flags.0?long = StatsGraph;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>token</mark> | [`string`](type/string) | Graph token from statsGraphAsync constructor |
 | **x** | [`flags.0?long`](type/long) | Zoom value, if required |
 
@@ -40,7 +40,7 @@ stats.loadAsyncGraph#621d5fa0 flags:# token:string x:flags.0?long = StatsGraph;
 
 ```php
 $statsGraph = $client->stats->loadAsyncGraph(
-	token : 'zL1EOy56emtojRnc',
-	x : -7261502033188080553,
+	token : '7LdGESnMBW0TsY9J',
+	x : 6798328991061565181,
 );
 ```

@@ -14,7 +14,7 @@ messageReactions#a339f0b flags:# min:flags.0?true can_see_list:flags.2?true reac
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **min** | [`flags.0?true`](type/true) | Similar to min objects, used for message reaction » constructors that are the same for all users so they don't have the reactions sent by the current user (you can use messages.getMessagesReactions to get the full reaction info) |
 | **can_see_list** | [`flags.2?true`](type/true) | Whether messages.getMessageReactionsList can be used to see how each specific peer reacted to the message |
 | **reactions_as_tags** | [`flags.3?true`](type/true) | If set or if there are no reactions, all present and future reactions should be treated as message tags, see here » for more info |
@@ -39,9 +39,9 @@ $messageReactions = $client->messageReactions(
 	reactions_as_tags : true,
 	results : array(
 		$client->reactionCount(
-			chosen_order : 41,
+			chosen_order : 53,
 			reaction : $client->reactionEmpty(),
-			count : 68,
+			count : 80,
 		),
 	),
 	recent_reactions : array(
@@ -50,9 +50,9 @@ $messageReactions = $client->messageReactions(
 			unread : true,
 			my : true,
 			peer_id : $client->peerUser(
-				user_id : 3644768523890312283,
+				user_id : 4247885230874781600,
 			),
-			date : 29,
+			date : 37,
 			reaction : $client->reactionEmpty(),
 		),
 	),
@@ -62,9 +62,9 @@ $messageReactions = $client->messageReactions(
 			my : true,
 			anonymous : true,
 			peer_id : $client->peerUser(
-				user_id : 1614364912473628762,
+				user_id : -4380342276302735225,
 			),
-			count : 75,
+			count : 6,
 		),
 	),
 );

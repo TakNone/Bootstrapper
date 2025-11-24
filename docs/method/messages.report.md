@@ -43,8 +43,8 @@ messages.report#fc78af9b peer:InputPeer id:Vector<int> option:bytes message:stri
 ```php
 $reportResult = $client->messages->report(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(99),
+	id : array(14),
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	message : 'azJATiO1yxYCb8VB',
+	message : 'zx7ylQW4SFCjeM3N',
 );
 ```

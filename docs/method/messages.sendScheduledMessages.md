@@ -40,6 +40,6 @@ messages.sendScheduledMessages#bd38850a peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->sendScheduledMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(97),
+	id : array(58),
 );
 ```

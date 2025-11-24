@@ -28,6 +28,6 @@ account.resetPasswordFailedWait#e3779861 retry_date:int = account.ResetPasswordR
 
 ```php
 $accountResetPasswordResult = $client->account->resetPasswordFailedWait(
-	retry_date : 3,
+	retry_date : 26,
 );
 ```

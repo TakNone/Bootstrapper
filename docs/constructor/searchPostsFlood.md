@@ -14,7 +14,7 @@ searchPostsFlood#3e0b5b6a flags:# query_is_free:flags.0?true total_daily:int rem
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **query_is_free** | [`flags.0?true`](type/true) | The specified query is free (and it will not use up free search slots) |
 | <mark>total_daily</mark> | [`int`](type/int) | Total number of daily free search slots |
 | <mark>remains</mark> | [`int`](type/int) | Remaining number of free search slots |
@@ -34,9 +34,9 @@ searchPostsFlood#3e0b5b6a flags:# query_is_free:flags.0?true total_daily:int rem
 ```php
 $searchPostsFlood = $client->searchPostsFlood(
 	query_is_free : true,
-	total_daily : 24,
-	remains : 29,
-	wait_till : 37,
-	stars_amount : 3083292364520983940,
+	total_daily : 20,
+	remains : 37,
+	wait_till : 69,
+	stars_amount : 6101198037087292956,
 );
 ```

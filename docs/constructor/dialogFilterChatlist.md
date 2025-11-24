@@ -14,7 +14,7 @@ dialogFilterChatlist#96537bd7 flags:# has_my_invites:flags.26?true title_noanima
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **has_my_invites** | [`flags.26?true`](type/true) | Whether the current user has created some chat folder deep links » to share the folder as well |
 | **title_noanimate** | [`flags.28?true`](type/true) | If set, any animated emojis present in title should not be animated and should be instead frozen on the first frame |
 | <mark>id</mark> | [`int`](type/int) | ID of the folder |
@@ -38,60 +38,60 @@ dialogFilterChatlist#96537bd7 flags:# has_my_invites:flags.26?true title_noanima
 $dialogFilter = $client->dialogFilterChatlist(
 	has_my_invites : true,
 	title_noanimate : true,
-	id : 58,
+	id : 18,
 	title : $client->textWithEntities(
-		text : 'eExNkQP4U2qG68vD',
+		text : 'IBN9G84afbyWqsHK',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 23,
+				length : 70,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 77,
+				length : 69,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 60,
+				length : 47,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 48,
+				length : 88,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 16,
+				length : 13,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 83,
+				length : 65,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 80,
+				length : 9,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 7,
+				length : 79,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 78,
+				length : 18,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 31,
-				language : 'rcWkiHuJmheg6MPt',
+				length : 82,
+				language : 'qgI3VG468BWSOMKr',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 95,
+				length : 55,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 33,
-				user_id : -4876983342620109773,
+				length : 64,
+				user_id : -64387909739581388,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
@@ -100,42 +100,42 @@ $dialogFilter = $client->dialogFilterChatlist(
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 31,
+				length : 40,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 6,
+				length : 22,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 81,
+				length : 24,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 73,
+				length : 4,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 11,
+				length : 40,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 36,
+				length : 66,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 87,
-				document_id : 7230125641104047367,
+				length : 13,
+				document_id : 1928816332934956104,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 25,
+				length : 2,
 			),
 		),
 	),
-	emoticon : '2OS1IvGVcKi9xDUj',
-	color : 37,
+	emoticon : 'qjU7WsaCHpK1xg2v',
+	color : 53,
 	pinned_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 	include_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );

@@ -14,7 +14,7 @@ sponsoredPeer#c69708d3 flags:# random_id:bytes peer:Peer sponsor_info:flags.0?st
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>random_id</mark> | [`bytes`](type/bytes) | ID of the sponsored peer, to be passed to messages.viewSponsoredMessage, messages.clickSponsoredMessage or messages.reportSponsoredMessage (the same methods used for sponsored messages &raquo) |
 | <mark>peer</mark> | [`Peer`](type/Peer) | The sponsored peer |
 | **sponsor_info** | [`flags.0?string`](type/string) | If set, contains additional information about the sponsor to be shown along with the peer |
@@ -34,9 +34,9 @@ sponsoredPeer#c69708d3 flags:# random_id:bytes peer:Peer sponsor_info:flags.0?st
 $sponsoredPeer = $client->sponsoredPeer(
 	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	peer : $client->peerUser(
-		user_id : -4892474741907057105,
+		user_id : -3573699045989002972,
 	),
-	sponsor_info : '31G7fHwQ9lpFCOjn',
-	additional_info : 'VxjFv6KLrSleX428',
+	sponsor_info : 'qshlPnbwicNxMQy9',
+	additional_info : '4bEOjFyuWYAUicgw',
 );
 ```

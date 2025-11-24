@@ -14,7 +14,7 @@ starsGiveawayOption#94ce852a flags:# extended:flags.0?true default:flags.1?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **extended** | [`flags.0?true`](type/true) | If set, this option must only be shown in the full list of giveaway options (i.e. they must be added to the list only when the user clicks on the expand button) |
 | **default** | [`flags.1?true`](type/true) | If set, this option must be pre-selected by default in the option list |
 | <mark>stars</mark> | [`long`](type/long) | The number of Telegram Stars that will be distributed among winners |
@@ -38,16 +38,16 @@ starsGiveawayOption#94ce852a flags:# extended:flags.0?true default:flags.1?true 
 $starsGiveawayOption = $client->starsGiveawayOption(
 	extended : true,
 	default : true,
-	stars : -5835978303641112447,
-	yearly_boosts : 47,
-	store_product : 'OvC53Q4aUSbqnKBu',
-	currency : 'wlsHS13kYfhzPMCr',
-	amount : -8774026694790774253,
+	stars : -5883572778653632539,
+	yearly_boosts : 8,
+	store_product : 'gPV4zufWFHG6E8A7',
+	currency : 'jQGHiyqDW2dvKtEe',
+	amount : 3015539322276454301,
 	winners : array(
 		$client->starsGiveawayWinnersOption(
 			default : true,
-			users : 57,
-			per_user_stars : -8991434909358391435,
+			users : 47,
+			per_user_stars : 5771344300723002768,
 		),
 	),
 );

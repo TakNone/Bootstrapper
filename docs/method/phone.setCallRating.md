@@ -14,7 +14,7 @@ phone.setCallRating#59ead627 flags:# user_initiative:flags.0?true peer:InputPhon
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **user_initiative** | [`flags.0?true`](type/true) | Whether the user decided on their own initiative to rate the call |
 | <mark>peer</mark> | [`InputPhoneCall`](type/InputPhoneCall) | The call to rate |
 | <mark>rating</mark> | [`int`](type/int) | Rating in 1-5 stars |
@@ -42,10 +42,10 @@ phone.setCallRating#59ead627 flags:# user_initiative:flags.0?true peer:InputPhon
 $updates = $client->phone->setCallRating(
 	user_initiative : true,
 	peer : $client->inputPhoneCall(
-		id : 5408516655461991459,
-		access_hash : 8086847743825535761,
+		id : 3452086603583645509,
+		access_hash : 7562588730024729157,
 	),
-	rating : 11,
-	comment : 'QoBeEiHJqdlS0fuO',
+	rating : 93,
+	comment : 'CsiDSwR1MF2dvmWx',
 );
 ```

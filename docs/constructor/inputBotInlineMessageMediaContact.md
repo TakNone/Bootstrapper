@@ -14,7 +14,7 @@ inputBotInlineMessageMediaContact#a6edbffd flags:# phone_number:string first_nam
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>phone_number</mark> | [`string`](type/string) | Phone number |
 | <mark>first_name</mark> | [`string`](type/string) | First name |
 | <mark>last_name</mark> | [`string`](type/string) | Last name |
@@ -36,7 +36,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageMediaContact(
 	phone_number : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
-	vcard : 'oLtexudbSqGUYrpP',
+	vcard : 'J4ve6IS38shbnaCx',
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

@@ -14,7 +14,7 @@ messageActionGiftCode#31c48347 flags:# via_giveaway:flags.0?true unclaimed:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **via_giveaway** | [`flags.0?true`](type/true) | If set, this gift code was received from a giveaway » started by a channel/supergroup we're subscribed to |
 | **unclaimed** | [`flags.5?true`](type/true) | If set, the link was not redeemed yet |
 | **boost_peer** | [`flags.1?Peer`](type/Peer) | Identifier of the channel/supergroup that created the gift code either directly or through a giveaway: if we import this giftcode link, we will also automatically boost this channel/supergroup |
@@ -41,106 +41,106 @@ $messageAction = $client->messageActionGiftCode(
 	via_giveaway : true,
 	unclaimed : true,
 	boost_peer : $client->peerUser(
-		user_id : -4429706726857014843,
+		user_id : 602417314322049989,
 	),
-	days : 12,
-	slug : 'WRHpZwedt5PTs4Jc',
-	currency : 'BZjyrCU2h6DgnkMS',
-	amount : -4117352954231328513,
-	crypto_currency : 'ysJnHomDZWMbr5KI',
-	crypto_amount : -3974284495126853936,
+	days : 23,
+	slug : 'jJnKMbcQsp8CB3LG',
+	currency : 'adQOzwKkYBRDg4TE',
+	amount : -5247825479438038070,
+	crypto_currency : 'pJY3Ximo89uy4nze',
+	crypto_amount : 4176472693628987603,
 	message : $client->textWithEntities(
-		text : 'EnJhNxWyrgaAj0MP',
+		text : 'rYj51HzfiSP0BTMm',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 84,
+				length : 68,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 8,
+				length : 17,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 25,
+				length : 8,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 90,
+				length : 25,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 37,
+				length : 77,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 67,
+				length : 17,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 10,
+				length : 22,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 76,
+				length : 66,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 68,
+				length : 34,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 36,
-				language : '2InSo9jHbAWVFUCv',
+				length : 10,
+				language : '7b9uFhatHvM6ZWq1',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 96,
+				length : 70,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 60,
-				user_id : 3338398348382304692,
+				length : 15,
+				user_id : -8653794944034878934,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 67,
+				length : 53,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 67,
+				length : 57,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 95,
+				length : 49,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 74,
+				length : 46,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 86,
+				length : 10,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 93,
+				length : 56,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 29,
+				length : 9,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 5,
-				document_id : 7704656873655086591,
+				length : 54,
+				document_id : 7039458706435222434,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 23,
+				length : 49,
 			),
 		),
 	),

@@ -14,7 +14,7 @@ messages.deletePhoneCallHistory#f9cbe409 flags:# revoke:flags.0?true = messages.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoke** | [`flags.0?true`](type/true) | Whether to remove phone call history for participants as well |
 
 ---

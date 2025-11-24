@@ -14,7 +14,7 @@ phoneCallDiscarded#50ca4de1 flags:# need_rating:flags.2?true need_debug:flags.3?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **need_rating** | [`flags.2?true`](type/true) | Whether the server required the user to rate the call |
 | **need_debug** | [`flags.3?true`](type/true) | Whether the server required the client to send the libtgvoip call debug data |
 | **video** | [`flags.6?true`](type/true) | Whether the call was a video call |
@@ -37,8 +37,8 @@ $phoneCall = $client->phoneCallDiscarded(
 	need_rating : true,
 	need_debug : true,
 	video : true,
-	id : 617195635909714182,
+	id : 6194467616464756148,
 	reason : $client->phoneCallDiscardReasonMissed(),
-	duration : 39,
+	duration : 35,
 );
 ```

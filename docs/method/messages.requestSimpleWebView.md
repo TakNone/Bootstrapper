@@ -14,7 +14,7 @@ messages.requestSimpleWebView#413a3e73 flags:# from_switch_webview:flags.1?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **from_switch_webview** | [`flags.1?true`](type/true) | Whether the webapp was opened by clicking on the switch_webview button shown on top of the inline results list returned by messages.getInlineBotResults |
 | **from_side_menu** | [`flags.2?true`](type/true) | Set this flag if opening the Mini App from the installed side menu entry » |
 | **compact** | [`flags.7?true`](type/true) | Deprecated |
@@ -52,10 +52,10 @@ $webViewResult = $client->messages->requestSimpleWebView(
 	fullscreen : true,
 	bot : $client->get_input_user(user : '@TakNone'),
 	url : 'https://docs.liveproto.dev',
-	start_param : 'BtAx3FzfuEMknJor',
+	start_param : 'o92YItT5v1aZdxhU',
 	theme_params : $client->dataJSON(
-		data : 'N6CHgcoqfbGYUxOr',
+		data : 'XVpOCBjHc795Z8GF',
 	),
-	platform : '62OkcnSwy83lCKbv',
+	platform : 'SOEYRiaMNsW6rJpb',
 );
 ```

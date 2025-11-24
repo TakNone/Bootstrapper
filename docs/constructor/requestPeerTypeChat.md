@@ -14,7 +14,7 @@ requestPeerTypeChat#c9f06e1b flags:# creator:flags.0?true user_admin_rights:flag
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **creator** | [`flags.0?true`](type/true) | Whether to allow only choosing chats or supergroups that were created by the current user |
 | **user_admin_rights** | [`flags.1?ChatAdminRights`](type/ChatAdminRights) | If specified, allows only choosing chats or supergroups where the current user is an admin with at least the specified admin rights |
 | **bot_participant** | [`flags.5?true`](type/true) | Whether to allow only choosing chats or supergroups where the bot is a participant |

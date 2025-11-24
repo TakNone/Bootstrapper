@@ -14,7 +14,7 @@ help.countryCode#4203c5ef flags:# country_code:string prefixes:flags.0?Vector<st
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>country_code</mark> | [`string`](type/string) | ISO country code |
 | **prefixes** | [`flags.0?Vector<string>`](type/string) | Possible phone prefixes |
 | **patterns** | [`flags.1?Vector<string>`](type/string) | Phone patterns: for example, XXX XXX XXX |
@@ -31,8 +31,8 @@ help.countryCode#4203c5ef flags:# country_code:string prefixes:flags.0?Vector<st
 
 ```php
 $helpCountryCode = $client->help->countryCode(
-	country_code : 'KsYHD759IpydRlPa',
-	prefixes : array('lMTH5sjc8AWe4QfN'),
-	patterns : array('IclQugSRO7ZNxtnK'),
+	country_code : 'yKVFxt3DQcj2WJhY',
+	prefixes : array('hjTedWX0sO59wquE'),
+	patterns : array('tAfsxrlLHN5evaz7'),
 );
 ```

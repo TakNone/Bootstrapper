@@ -32,15 +32,15 @@ mediaAreaWeather#49a6549c coordinates:MediaAreaCoordinates emoji:string temperat
 ```php
 $mediaArea = $client->mediaAreaWeather(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 1595215.6591796875,
-		y : 1686822.732421875,
-		w : 1907952.87109375,
-		h : -1327048.4912109375,
-		rotation : 1722561.1826171875,
-		radius : -834493.58203125,
+		x : 294996.2841796875,
+		y : -1631915.3662109375,
+		w : 935334.7138671875,
+		h : -827689.1025390625,
+		rotation : 2059448.75,
+		radius : 1657362.7978515625,
 	),
-	emoji : 'xpngwUfCEkFM1Jzm',
-	temperature_c : 1440783.5087890625,
-	color : 88,
+	emoji : 'v4ehaG2dSyA5VjiX',
+	temperature_c : -1028978.716796875,
+	color : 22,
 );
 ```

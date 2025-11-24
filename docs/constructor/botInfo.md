@@ -14,7 +14,7 @@ botInfo#4d8a0299 flags:# has_preview_medias:flags.6?true user_id:flags.0?long de
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **has_preview_medias** | [`flags.6?true`](type/true) | If set, the bot has some preview medias for the configured Main Mini App, see here » for more info on Main Mini App preview medias |
 | **user_id** | [`flags.0?long`](type/long) | ID of the bot |
 | **description** | [`flags.1?string`](type/string) | Description of the bot |
@@ -39,34 +39,34 @@ botInfo#4d8a0299 flags:# has_preview_medias:flags.6?true user_id:flags.0?long de
 ```php
 $botInfo = $client->botInfo(
 	has_preview_medias : true,
-	user_id : -8472592530679335563,
-	description : 'PckyLOGUV9Fu3BQD',
+	user_id : 2158144699206263201,
+	description : 'Dl7cr4fvxKPgMOZ2',
 	description_photo : $client->photoEmpty(
-		id : -4339053915384116069,
+		id : -3159041210872318150,
 	),
 	description_document : $client->documentEmpty(
-		id : 1027353632224663189,
+		id : 7262710810118384708,
 	),
 	commands : array(
 		$client->botCommand(
-			command : 'Y8kyRGezldwvmAWD',
-			description : 'pyrXGYOLxsKtRaAc',
+			command : 'f7n0dpYg36oRsEak',
+			description : 'rV6qXLyxRHCSnPkK',
 		),
 	),
 	menu_button : $client->botMenuButtonDefault(),
 	privacy_policy_url : 'https://docs.liveproto.dev',
 	app_settings : $client->botAppSettings(
 		placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		background_color : 98,
-		background_dark_color : 89,
-		header_color : 2,
-		header_dark_color : 36,
+		background_color : 52,
+		background_dark_color : 21,
+		header_color : 51,
+		header_dark_color : 98,
 	),
 	verifier_settings : $client->botVerifierSettings(
 		can_modify_custom_description : true,
-		icon : -6195012959030141136,
-		company : 'rlt4fzd6x8RP2qHQ',
-		custom_description : 'G5yYZu9WDSO2NMhz',
+		icon : -7963881333529812274,
+		company : 'INgOzAFu5xhMqy9b',
+		custom_description : 'r3F1JfbGKL5l6Hk9',
 	),
 );
 ```

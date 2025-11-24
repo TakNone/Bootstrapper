@@ -14,7 +14,7 @@ messages.getBotCallbackAnswer#9342ca07 flags:# game:flags.1?true peer:InputPeer 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **game** | [`flags.1?true`](type/true) | Whether this is a "play game" button |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Where was the inline keyboard sent |
 | <mark>msg_id</mark> | [`int`](type/int) | ID of the Message with the inline keyboard |
@@ -50,7 +50,7 @@ messages.getBotCallbackAnswer#9342ca07 flags:# game:flags.1?true peer:InputPeer 
 $messagesBotCallbackAnswer = $client->messages->getBotCallbackAnswer(
 	game : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 34,
+	msg_id : 41,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	password : $client->inputCheckPasswordEmpty(),
 );

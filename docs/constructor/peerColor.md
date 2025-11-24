@@ -14,7 +14,7 @@ peerColor#b54b5acf flags:# color:flags.0?int background_emoji_id:flags.1?long = 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **color** | [`flags.0?int`](type/int) | Color palette ID, see here » for more info; if not set, the default palette should be used |
 | **background_emoji_id** | [`flags.1?long`](type/long) | Optional custom emoji ID used to generate the pattern |
 
@@ -30,7 +30,7 @@ peerColor#b54b5acf flags:# color:flags.0?int background_emoji_id:flags.1?long = 
 
 ```php
 $peerColor = $client->peerColor(
-	color : 37,
-	background_emoji_id : -5889347597374944298,
+	color : 5,
+	background_emoji_id : -5262535867200350910,
 );
 ```

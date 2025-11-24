@@ -14,7 +14,7 @@ updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJ
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **presentation** | [`flags.0?true`](type/true) | Are these parameters related to the screen capture session currently in progress? |
 | <mark>params</mark> | [`DataJSON`](type/DataJSON) | WebRTC parameters |
 
@@ -32,7 +32,7 @@ updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJ
 $update = $client->updateGroupCallConnection(
 	presentation : true,
 	params : $client->dataJSON(
-		data : '96wM7NiuAv1cadre',
+		data : 'Ik9FQgwBjouZdi8H',
 	),
 );
 ```

@@ -14,7 +14,7 @@ account.setContentSettings#b574b16b flags:# sensitive_enabled:flags.0?true = Boo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **sensitive_enabled** | [`flags.0?true`](type/true) | Enable NSFW content |
 
 ---

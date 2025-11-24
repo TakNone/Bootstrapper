@@ -14,7 +14,7 @@ phone.discardCall#b2cbc1c0 flags:# video:flags.0?true peer:InputPhoneCall durati
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **video** | [`flags.0?true`](type/true) | Whether this is a video call |
 | <mark>peer</mark> | [`InputPhoneCall`](type/InputPhoneCall) | The phone call |
 | <mark>duration</mark> | [`int`](type/int) | Call duration |
@@ -45,11 +45,11 @@ phone.discardCall#b2cbc1c0 flags:# video:flags.0?true peer:InputPhoneCall durati
 $updates = $client->phone->discardCall(
 	video : true,
 	peer : $client->inputPhoneCall(
-		id : -1933558861540351111,
-		access_hash : -4132417053665515427,
+		id : -6547686162885811031,
+		access_hash : 8040081075583689004,
 	),
-	duration : 33,
+	duration : 51,
 	reason : $client->phoneCallDiscardReasonMissed(),
-	connection_id : -7669457652823285442,
+	connection_id : -2335316711028474430,
 );
 ```

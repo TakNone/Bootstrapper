@@ -14,7 +14,7 @@ account.updateProfile#78515775 flags:# first_name:flags.0?string last_name:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **first_name** | [`flags.0?string`](type/string) | New user first name |
 | **last_name** | [`flags.1?string`](type/string) | New user last name |
 | **about** | [`flags.2?string`](type/string) | New bio |
@@ -43,6 +43,6 @@ account.updateProfile#78515775 flags:# first_name:flags.0?string last_name:flags
 $user = $client->account->updateProfile(
 	first_name : 'Tak',
 	last_name : 'None',
-	about : 'G5qNRtl4jALc8wps',
+	about : 'A7kweapgY31sEWCo',
 );
 ```

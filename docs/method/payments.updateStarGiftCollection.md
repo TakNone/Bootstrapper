@@ -14,7 +14,7 @@ payments.updateStarGiftCollection#4fddbee7 flags:# peer:InputPeer collection_id:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer that owns the collection |
 | <mark>collection_id</mark> | [`int`](type/int) | Collection ID |
 | **title** | [`flags.0?string`](type/string) | Title of the collection, to rename the collection |
@@ -43,42 +43,42 @@ payments.updateStarGiftCollection#4fddbee7 flags:# peer:InputPeer collection_id:
 ```php
 $starGiftCollection = $client->payments->updateStarGiftCollection(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	collection_id : 19,
-	title : 'oZ6yzwDFdpLbI5ir',
+	collection_id : 92,
+	title : 'KhRtSTzM1XvHGC9V',
 	delete_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 25,
+			msg_id : 58,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : 4853946998538496499,
+			saved_id : 7335047818808969001,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'CncWhvwoaDBEtYgb',
+			slug : 'Q3h01nv2Sew9pDBm',
 		),
 	),
 	add_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 61,
+			msg_id : 81,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : -336989202901226238,
+			saved_id : -3619099146887902590,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'pQgsPYBbd9ZRV4NU',
+			slug : 'w3ShHctbC7IlpW60',
 		),
 	),
 	order : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 72,
+			msg_id : 76,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : -415128424129051670,
+			saved_id : -855005135686277531,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'qlpMK89iGtNCHTZS',
+			slug : 'RO5S31wpeV2BtvqT',
 		),
 	),
 );

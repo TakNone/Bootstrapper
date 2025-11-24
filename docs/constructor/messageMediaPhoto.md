@@ -14,7 +14,7 @@ messageMediaPhoto#695150d7 flags:# spoiler:flags.3?true photo:flags.0?Photo ttl_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **spoiler** | [`flags.3?true`](type/true) | Whether this media should be hidden behind a spoiler warning |
 | **photo** | [`flags.0?Photo`](type/Photo) | Photo |
 | **ttl_seconds** | [`flags.2?int`](type/int) | Time to live in seconds of self-destructing photo |
@@ -33,8 +33,8 @@ messageMediaPhoto#695150d7 flags:# spoiler:flags.3?true photo:flags.0?Photo ttl_
 $messageMedia = $client->messageMediaPhoto(
 	spoiler : true,
 	photo : $client->photoEmpty(
-		id : -8059583086833752451,
+		id : -1482084412986888599,
 	),
-	ttl_seconds : 45,
+	ttl_seconds : 26,
 );
 ```

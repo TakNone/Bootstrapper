@@ -14,7 +14,7 @@ messages.getSavedDialogsByID#6f6f9c96 flags:# parent_peer:flags.1?InputPeer ids:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **parent_peer** | [`flags.1?InputPeer`](type/InputPeer) | If set, fetches monoforum topics », otherwise fetches saved message dialogs » |
 | <mark>ids</mark> | [`Vector<InputPeer>`](type/InputPeer) | IDs of dialogs (topics) to fetch |
 

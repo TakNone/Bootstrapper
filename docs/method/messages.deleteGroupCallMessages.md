@@ -12,7 +12,7 @@ messages.deleteGroupCallMessages#f64f54f7 flags:# report_spam:flags.0?true call:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **report_spam** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
 | <mark>messages</mark> | [`Vector<int>`](type/int) | NOTHING |
@@ -31,9 +31,9 @@ messages.deleteGroupCallMessages#f64f54f7 flags:# report_spam:flags.0?true call:
 $updates = $client->messages->deleteGroupCallMessages(
 	report_spam : true,
 	call : $client->inputGroupCall(
-		id : -1112949900287057212,
-		access_hash : 9129372786934431925,
+		id : -8516571058774191230,
+		access_hash : -8115459271550903058,
 	),
-	messages : array(97),
+	messages : array(54),
 );
 ```

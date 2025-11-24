@@ -14,7 +14,7 @@ updateBotInlineSend#12f12a07 flags:# user_id:long query:string geo:flags.0?GeoPo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>user_id</mark> | [`long`](type/long) | The user that chose the result |
 | <mark>query</mark> | [`string`](type/string) | The query that was used to obtain the result |
 | **geo** | [`flags.0?GeoPoint`](type/GeoPoint) | Optional. Sender location, only for bots that require user location |
@@ -33,14 +33,14 @@ updateBotInlineSend#12f12a07 flags:# user_id:long query:string geo:flags.0?GeoPo
 
 ```php
 $update = $client->updateBotInlineSend(
-	user_id : 2990637047119750039,
-	query : 'A8tzGK53LcjYnXsq',
+	user_id : 5407693326098457947,
+	query : '0D9OwaEv8CB7KdPJ',
 	geo : $client->geoPointEmpty(),
-	id : '8MHjEkGZDn2Y65tB',
+	id : 'GabFvXRDjtEshAdC',
 	msg_id : $client->inputBotInlineMessageID(
-		dc_id : 62,
-		id : -4574153423274339771,
-		access_hash : 5346088443048290646,
+		dc_id : 89,
+		id : 8135528789530935029,
+		access_hash : 9027477523536932930,
 	),
 );
 ```

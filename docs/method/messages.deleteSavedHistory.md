@@ -14,7 +14,7 @@ messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **parent_peer** | [`flags.0?InputPeer`](type/InputPeer) | If set, affects the messages of the passed monoforum topic », otherwise affects saved messages » |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer, whose messages will be deleted from saved messages », or the ID of the topic |
 | <mark>max_id</mark> | [`int`](type/int) | Maximum ID of message to delete |
@@ -43,8 +43,8 @@ messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:
 $messagesAffectedHistory = $client->messages->deleteSavedHistory(
 	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	max_id : 4,
-	min_date : 83,
-	max_date : 94,
+	max_id : 44,
+	min_date : 46,
+	max_date : 43,
 );
 ```

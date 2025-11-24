@@ -14,7 +14,7 @@ phoneCallAccepted#3660c311 flags:# video:flags.6?true id:long access_hash:long d
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **video** | [`flags.6?true`](type/true) | Whether this is a video call |
 | <mark>id</mark> | [`long`](type/long) | ID of accepted phone call |
 | <mark>access_hash</mark> | [`long`](type/long) | Access hash of phone call |
@@ -37,18 +37,18 @@ phoneCallAccepted#3660c311 flags:# video:flags.6?true id:long access_hash:long d
 ```php
 $phoneCall = $client->phoneCallAccepted(
 	video : true,
-	id : 677079030824614712,
-	access_hash : -9152861767292626571,
-	date : 81,
-	admin_id : 7759587706807177162,
-	participant_id : -9160106374444856925,
+	id : -3776982538563045686,
+	access_hash : 4211110580140813489,
+	date : 25,
+	admin_id : -2584438890186490413,
+	participant_id : 2254417238916042856,
 	g_b : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 68,
-		max_layer : 9,
-		library_versions : array('0jgb32Grsn4a7lyv'),
+		min_layer : 13,
+		max_layer : 61,
+		library_versions : array('20fXTRiLGAqDwjlx'),
 	),
 );
 ```

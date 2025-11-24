@@ -28,6 +28,6 @@ messages.featuredStickersNotModified#c6dc0c66 count:int = messages.FeaturedStick
 
 ```php
 $messagesFeaturedStickers = $client->messages->featuredStickersNotModified(
-	count : 44,
+	count : 41,
 );
 ```

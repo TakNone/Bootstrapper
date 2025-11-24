@@ -14,7 +14,7 @@ phoneCallWaiting#c5226f17 flags:# video:flags.6?true id:long access_hash:long da
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **video** | [`flags.6?true`](type/true) | Is this a video call |
 | <mark>id</mark> | [`long`](type/long) | Call ID |
 | <mark>access_hash</mark> | [`long`](type/long) | Access hash |
@@ -37,18 +37,18 @@ phoneCallWaiting#c5226f17 flags:# video:flags.6?true id:long access_hash:long da
 ```php
 $phoneCall = $client->phoneCallWaiting(
 	video : true,
-	id : 4161445005230756479,
-	access_hash : 6699820776663378969,
-	date : 56,
-	admin_id : 7265100712608051482,
-	participant_id : -1097850306104864675,
+	id : -8152082438887126315,
+	access_hash : 989702824030734891,
+	date : 13,
+	admin_id : -3227311767065349178,
+	participant_id : -6310749920119753292,
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 40,
-		max_layer : 97,
-		library_versions : array('chzi53DJEyxCPrG4'),
+		min_layer : 60,
+		max_layer : 28,
+		library_versions : array('EVbnPIiWTXwpZM1L'),
 	),
-	receive_date : 1,
+	receive_date : 60,
 );
 ```

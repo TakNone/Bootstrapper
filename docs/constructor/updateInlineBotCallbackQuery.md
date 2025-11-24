@@ -14,7 +14,7 @@ updateInlineBotCallbackQuery#691e9052 flags:# query_id:long user_id:long msg_id:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>query_id</mark> | [`long`](type/long) | Query ID |
 | <mark>user_id</mark> | [`long`](type/long) | ID of the user that pressed the button |
 | <mark>msg_id</mark> | [`InputBotInlineMessageID`](type/InputBotInlineMessageID) | ID of the inline message with the button |
@@ -34,15 +34,15 @@ updateInlineBotCallbackQuery#691e9052 flags:# query_id:long user_id:long msg_id:
 
 ```php
 $update = $client->updateInlineBotCallbackQuery(
-	query_id : -4228324391738102659,
-	user_id : 6373510857412763789,
+	query_id : -8551959579219544793,
+	user_id : -3113191661511198961,
 	msg_id : $client->inputBotInlineMessageID(
-		dc_id : 45,
-		id : -5958921570551111221,
-		access_hash : 4275153089179194613,
+		dc_id : 59,
+		id : 4687465715943399229,
+		access_hash : 4408569284802640725,
 	),
-	chat_instance : 2605161206706963506,
+	chat_instance : 7085986318749701072,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	game_short_name : 'lmNDbtcdTgOWxhkK',
+	game_short_name : 'AUJhQoXx2Y0yvfHB',
 );
 ```

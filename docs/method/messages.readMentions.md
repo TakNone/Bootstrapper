@@ -14,7 +14,7 @@ messages.readMentions#36e5bf4d flags:# peer:InputPeer top_msg_id:flags.0?int = m
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Dialog |
 | **top_msg_id** | [`flags.0?int`](type/int) | Mark as read only mentions within the specified forum topic |
 
@@ -42,6 +42,6 @@ messages.readMentions#36e5bf4d flags:# peer:InputPeer top_msg_id:flags.0?int = m
 ```php
 $messagesAffectedHistory = $client->messages->readMentions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 26,
+	top_msg_id : 9,
 );
 ```

@@ -28,6 +28,6 @@ chatEmpty#29562865 id:long = Chat;
 
 ```php
 $chat = $client->chatEmpty(
-	id : -7038372135609666406,
+	id : -5914338333776548637,
 );
 ```

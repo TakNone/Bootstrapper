@@ -29,7 +29,7 @@ messageMediaDice#3f7ee58b value:int emoticon:string = MessageMedia;
 
 ```php
 $messageMedia = $client->messageMediaDice(
-	value : 76,
-	emoticon : '8UDP5e0TaRyWnLVH',
+	value : 57,
+	emoticon : 'x9izhtrcCAj5DGUM',
 );
 ```

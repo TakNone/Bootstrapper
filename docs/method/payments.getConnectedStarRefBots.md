@@ -14,7 +14,7 @@ payments.getConnectedStarRefBots#5869a553 flags:# peer:InputPeer offset_date:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The affiliated peer |
 | **offset_date** | [`flags.2?int`](type/int) | If set, returns only results older than the specified unixtime |
 | **offset_link** | [`flags.2?string`](type/string) | Offset for pagination, taken from the last returned connectedBotStarRef.url (initially empty) |
@@ -34,7 +34,7 @@ payments.getConnectedStarRefBots#5869a553 flags:# peer:InputPeer offset_date:fla
 $paymentsConnectedStarRefBots = $client->payments->getConnectedStarRefBots(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_date : 0,
-	offset_link : 'a8cweU7SkEb3iAYp',
-	limit : 16,
+	offset_link : '9flpXvnHYIF86r4m',
+	limit : 24,
 );
 ```

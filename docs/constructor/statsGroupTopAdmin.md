@@ -31,9 +31,9 @@ statsGroupTopAdmin#d7584c87 user_id:long deleted:int kicked:int banned:int = Sta
 
 ```php
 $statsGroupTopAdmin = $client->statsGroupTopAdmin(
-	user_id : 3526261087810610186,
-	deleted : 6,
-	kicked : 0,
-	banned : 75,
+	user_id : -8132888197280623157,
+	deleted : 55,
+	kicked : 14,
+	banned : 5,
 );
 ```

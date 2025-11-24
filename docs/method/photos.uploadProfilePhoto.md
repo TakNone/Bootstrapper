@@ -14,7 +14,7 @@ photos.uploadProfilePhoto#388a3b5 flags:# fallback:flags.3?true bot:flags.5?Inpu
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **fallback** | [`flags.3?true`](type/true) | If set, the chosen profile photo will be shown to users that can't display your main profile photo due to your privacy settings |
 | **bot** | [`flags.5?InputUser`](type/InputUser) | Can contain info of a bot we own, to change the profile photo of that bot, instead of the current user |
 | **file** | [`flags.0?InputFile`](type/InputFile) | Profile photo |
@@ -57,13 +57,13 @@ $photosPhoto = $client->photos->uploadProfilePhoto(
 	bot : $client->get_input_user(user : '@TakNone'),
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : -2031068.5224609375,
+	video_start_ts : -112768.6474609375,
 	video_emoji_markup : $client->videoSize(
-		type : '0Cpq5QBJrLIUDAF1',
-		w : 57,
-		h : 9,
-		size : 92,
-		video_start_ts : -1614145.0078125,
+		type : 'eBn4sNdIwAzyDEVh',
+		w : 56,
+		h : 7,
+		size : 100,
+		video_start_ts : 1719309.5986328125,
 	),
 );
 ```

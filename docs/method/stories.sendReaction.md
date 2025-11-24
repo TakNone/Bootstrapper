@@ -14,7 +14,7 @@ stories.sendReaction#7fd736b2 flags:# add_to_recent:flags.0?true peer:InputPeer 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **add_to_recent** | [`flags.0?true`](type/true) | Whether to add this reaction to the recent reactions list » |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The peer that sent the story |
 | <mark>story_id</mark> | [`int`](type/int) | ID of the story to react to |
@@ -45,7 +45,7 @@ stories.sendReaction#7fd736b2 flags:# add_to_recent:flags.0?true peer:InputPeer 
 $updates = $client->stories->sendReaction(
 	add_to_recent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	story_id : 30,
+	story_id : 51,
 	reaction : $client->reactionEmpty(),
 );
 ```

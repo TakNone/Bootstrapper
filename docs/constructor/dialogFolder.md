@@ -14,7 +14,7 @@ dialogFolder#71bd134c flags:# pinned:flags.2?true folder:Folder peer:Peer top_me
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pinned** | [`flags.2?true`](type/true) | Is this folder pinned |
 | <mark>folder</mark> | [`Folder`](type/Folder) | The folder |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer in folder |
@@ -41,17 +41,17 @@ $dialog = $client->dialogFolder(
 		autofill_new_broadcasts : true,
 		autofill_public_groups : true,
 		autofill_new_correspondents : true,
-		id : 53,
-		title : 'jLZiGaW63vqV4u8e',
+		id : 74,
+		title : 'ganXtrG57R2bom0Q',
 		photo : $client->chatPhotoEmpty(),
 	),
 	peer : $client->peerUser(
-		user_id : 7607530514834148304,
+		user_id : 7064267669463067179,
 	),
-	top_message : 51,
-	unread_muted_peers_count : 22,
-	unread_unmuted_peers_count : 96,
-	unread_muted_messages_count : 3,
-	unread_unmuted_messages_count : 21,
+	top_message : 41,
+	unread_muted_peers_count : 17,
+	unread_unmuted_peers_count : 65,
+	unread_muted_messages_count : 49,
+	unread_unmuted_messages_count : 46,
 );
 ```

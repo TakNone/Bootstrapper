@@ -14,7 +14,7 @@ themeSettings#fa58b6d4 flags:# message_colors_animated:flags.2?true base_theme:B
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **message_colors_animated** | [`flags.2?true`](type/true) | If set, the freeform gradient fill needs to be animated on every sent message |
 | <mark>base_theme</mark> | [`BaseTheme`](type/BaseTheme) | Base theme |
 | <mark>accent_color</mark> | [`int`](type/int) | Accent color, ARGB format |
@@ -36,30 +36,30 @@ themeSettings#fa58b6d4 flags:# message_colors_animated:flags.2?true base_theme:B
 $themeSettings = $client->themeSettings(
 	message_colors_animated : true,
 	base_theme : $client->baseThemeClassic(),
-	accent_color : 34,
-	outbox_accent_color : 18,
-	message_colors : array(84),
+	accent_color : 93,
+	outbox_accent_color : 71,
+	message_colors : array(63),
 	wallpaper : $client->wallPaper(
-		id : 5203956652774344805,
+		id : -2178984523239758440,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : 4676475351481268993,
-		slug : 'tRh7Q51XxzNuiEMl',
+		access_hash : -4572921975109857724,
+		slug : '4758kF1wKQNEMGHr',
 		document : $client->documentEmpty(
-			id : 2465264962627451706,
+			id : 6810439217145605604,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 26,
-			second_background_color : 66,
-			third_background_color : 25,
-			fourth_background_color : 28,
-			intensity : 97,
-			rotation : 85,
-			emoticon : 'PRhgLdc3J2tiVXoF',
+			background_color : 63,
+			second_background_color : 31,
+			third_background_color : 85,
+			fourth_background_color : 34,
+			intensity : 87,
+			rotation : 63,
+			emoticon : 'E8BesXWCH7m5SpjM',
 		),
 	),
 );

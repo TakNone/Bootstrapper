@@ -29,7 +29,7 @@ error#c4b9f9bb code:int text:string = Error;
 
 ```php
 $error = $client->error(
-	code : 21,
-	text : 'FS6jrPof2eO4xL8G',
+	code : 10,
+	text : '54vu9w3GNyK1Fp6Q',
 );
 ```

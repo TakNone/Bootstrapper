@@ -26,6 +26,6 @@ messages.setWebViewResult#e41cd11d query_id:long = Bool;
 
 ```php
 $bool = $client->messages->setWebViewResult(
-	query_id : 24634080562978395,
+	query_id : 9220516496326966642,
 );
 ```

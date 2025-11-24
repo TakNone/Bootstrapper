@@ -14,7 +14,7 @@ channelParticipantBanned#6df8014e flags:# left:flags.0?true peer:Peer kicked_by:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **left** | [`flags.0?true`](type/true) | Whether the user has left the group |
 | <mark>peer</mark> | [`Peer`](type/Peer) | The banned peer |
 | <mark>kicked_by</mark> | [`long`](type/long) | User was kicked by the specified admin |
@@ -35,10 +35,10 @@ channelParticipantBanned#6df8014e flags:# left:flags.0?true peer:Peer kicked_by:
 $channelParticipant = $client->channelParticipantBanned(
 	left : true,
 	peer : $client->peerUser(
-		user_id : -1732657738384053511,
+		user_id : -2436870845020047814,
 	),
-	kicked_by : 5004922960669138792,
-	date : 35,
+	kicked_by : 9069783476974851675,
+	date : 96,
 	banned_rights : $client->chatBannedRights(
 		view_messages : true,
 		send_messages : true,
@@ -60,7 +60,7 @@ $channelParticipant = $client->channelParticipantBanned(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 26,
+		until_date : 63,
 	),
 );
 ```

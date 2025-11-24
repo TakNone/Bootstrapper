@@ -14,7 +14,7 @@ updatePeerWallpaper#ae3f101d flags:# wallpaper_overridden:flags.1?true peer:Peer
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **wallpaper_overridden** | [`flags.1?true`](type/true) | Whether the other user has chosen a custom wallpaper for us using messages.setChatWallPaper and the for_both flag, see here » for more info |
 | <mark>peer</mark> | [`Peer`](type/Peer) | The peer where the wallpaper has changed |
 | **wallpaper** | [`flags.0?WallPaper`](type/WallPaper) | The new wallpaper, if none the wallpaper was removed and the default wallpaper should be used |
@@ -33,29 +33,29 @@ updatePeerWallpaper#ae3f101d flags:# wallpaper_overridden:flags.1?true peer:Peer
 $update = $client->updatePeerWallpaper(
 	wallpaper_overridden : true,
 	peer : $client->peerUser(
-		user_id : -104508300878401144,
+		user_id : -8464804733527871255,
 	),
 	wallpaper : $client->wallPaper(
-		id : 4921083836154435675,
+		id : -7407299961752497096,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : -8445898656565084061,
-		slug : 'C3lFywzL7qfsHa9e',
+		access_hash : 7731291135998139797,
+		slug : '6YC5pzadBgMiDQyX',
 		document : $client->documentEmpty(
-			id : 4708471169995001003,
+			id : -8721164851139915619,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 67,
-			second_background_color : 23,
-			third_background_color : 11,
-			fourth_background_color : 1,
-			intensity : 59,
-			rotation : 99,
-			emoticon : '5gXSEhK9JduxzWZU',
+			background_color : 17,
+			second_background_color : 1,
+			third_background_color : 69,
+			fourth_background_color : 44,
+			intensity : 33,
+			rotation : 3,
+			emoticon : 'pBhA0X3xVoilmWfC',
 		),
 	),
 );

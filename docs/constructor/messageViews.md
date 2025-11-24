@@ -14,7 +14,7 @@ messageViews#455b853d flags:# views:flags.0?int forwards:flags.1?int replies:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **views** | [`flags.0?int`](type/int) | View count of message |
 | **forwards** | [`flags.1?int`](type/int) | Forward count of message |
 | **replies** | [`flags.2?MessageReplies`](type/MessageReplies) | Reply and thread information of message |
@@ -31,26 +31,26 @@ messageViews#455b853d flags:# views:flags.0?int forwards:flags.1?int replies:fla
 
 ```php
 $messageViews = $client->messageViews(
-	views : 55,
-	forwards : 72,
+	views : 69,
+	forwards : 70,
 	replies : $client->messageReplies(
 		comments : true,
-		replies : 64,
-		replies_pts : 79,
+		replies : 40,
+		replies_pts : 54,
 		recent_repliers : array(
 			$client->peerUser(
-				user_id : -2526338853022783010,
+				user_id : 5457527293417134035,
 			),
 			$client->peerChat(
-				chat_id : 3213492723047624764,
+				chat_id : 2984799093939800658,
 			),
 			$client->peerChannel(
-				channel_id : 1157820738993592725,
+				channel_id : 5229239370747815068,
 			),
 		),
-		channel_id : 1325097552005214559,
-		max_id : 47,
-		read_max_id : 91,
+		channel_id : -4758166864571609146,
+		max_id : 79,
+		read_max_id : 79,
 	),
 );
 ```

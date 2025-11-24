@@ -14,7 +14,7 @@ messages.getRecentStickers#9da9403b flags:# attached:flags.0?true hash:long = me
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **attached** | [`flags.0?true`](type/true) | Get stickers recently attached to photo or video files |
 | <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
 

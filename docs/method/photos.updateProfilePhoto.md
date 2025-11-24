@@ -14,7 +14,7 @@ photos.updateProfilePhoto#9e82039 flags:# fallback:flags.0?true bot:flags.1?Inpu
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **fallback** | [`flags.0?true`](type/true) | If set, the chosen profile photo will be shown to users that can't display your main profile photo due to your privacy settings |
 | **bot** | [`flags.1?InputUser`](type/InputUser) | Can contain info of a bot we own, to change the profile photo of that bot, instead of the current user |
 | <mark>id</mark> | [`InputPhoto`](type/InputPhoto) | Input photo |

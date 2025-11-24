@@ -14,7 +14,7 @@ messages.editInlineBotMessage#83557dba flags:# no_webpage:flags.1?true invert_me
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **no_webpage** | [`flags.1?true`](type/true) | Disable webpage preview |
 | **invert_media** | [`flags.16?true`](type/true) | If set, any eventual webpage preview will be shown on top of the message instead of at the bottom |
 | <mark>id</mark> | [`InputBotInlineMessageID`](type/InputBotInlineMessageID) | Sent inline message ID |
@@ -49,11 +49,11 @@ $bool = $client->messages->editInlineBotMessage(
 	no_webpage : true,
 	invert_media : true,
 	id : $client->inputBotInlineMessageID(
-		dc_id : 47,
-		id : -3435692350792268951,
-		access_hash : 4646289763776251599,
+		dc_id : 58,
+		id : -806157280699385072,
+		access_hash : 3784818352358245647,
 	),
-	message : 'GfqDB63vVWhEKtZ0',
+	message : '0rgmNByUpRZVjT9z',
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
@@ -61,93 +61,93 @@ $bool = $client->messages->editInlineBotMessage(
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 60,
+			length : 71,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 43,
+			length : 99,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 31,
+			length : 23,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 40,
+			length : 4,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 89,
+			length : 75,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 75,
+			length : 78,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 80,
+			length : 82,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 32,
+			length : 31,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 96,
+			length : 48,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 42,
-			language : 'bSoGr6T93YpkHEXB',
+			length : 57,
+			language : 'HVLmnDb91u3CTwjB',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 19,
+			length : 90,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 49,
-			user_id : 8204874555035462863,
+			length : 93,
+			user_id : 8720587460156107071,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 19,
+			length : 20,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 94,
+			length : 24,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 21,
+			length : 47,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 6,
+			length : 49,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 91,
+			length : 32,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 60,
+			length : 10,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 47,
+			length : 27,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 50,
-			document_id : -3826840460113354011,
+			length : 89,
+			document_id : -3804049853795853036,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 54,
+			length : 39,
 		),
 	),
 );

@@ -14,7 +14,7 @@ account.passwordSettings#9a5c33e5 flags:# email:flags.0?string secure_settings:f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **email** | [`flags.0?string`](type/string) | 2FA Recovery email |
 | **secure_settings** | [`flags.1?SecureSecretSettings`](type/SecureSecretSettings) | Telegram passport settings |
 
@@ -34,7 +34,7 @@ $accountPasswordSettings = $client->account->passwordSettings(
 	secure_settings : $client->secureSecretSettings(
 		secure_algo : $client->securePasswordKdfAlgoUnknown(),
 		secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		secure_secret_id : 3877826675933506695,
+		secure_secret_id : -7325437965853302956,
 	),
 );
 ```

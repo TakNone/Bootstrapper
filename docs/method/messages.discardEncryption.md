@@ -14,7 +14,7 @@ messages.discardEncryption#f393aea0 flags:# delete_history:flags.0?true chat_id:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **delete_history** | [`flags.0?true`](type/true) | Whether to delete the entire chat history for the other user as well |
 | <mark>chat_id</mark> | [`int`](type/int) | Secret chat ID |
 
@@ -42,6 +42,6 @@ messages.discardEncryption#f393aea0 flags:# delete_history:flags.0?true chat_id:
 ```php
 $bool = $client->messages->discardEncryption(
 	delete_history : true,
-	chat_id : 59,
+	chat_id : 70,
 );
 ```

@@ -45,7 +45,7 @@ payments.transferStarGift#7f18176a stargift:InputSavedStarGift to_id:InputPeer =
 ```php
 $updates = $client->payments->transferStarGift(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 59,
+		msg_id : 4,
 	),
 	to_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

@@ -14,7 +14,7 @@ pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true video_id
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **autoplay** | [`flags.0?true`](type/true) | Whether the video is set to autoplay |
 | **loop** | [`flags.1?true`](type/true) | Whether the video is set to loop |
 | <mark>video_id</mark> | [`long`](type/long) | Video ID |
@@ -34,7 +34,7 @@ pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true video_id
 $pageBlock = $client->pageBlockVideo(
 	autoplay : true,
 	loop : true,
-	video_id : 6166549932800712325,
+	video_id : 2715048695126645863,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

@@ -33,10 +33,10 @@ $messagesReactions = $client->messages->reactions(
 	reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : '0RbqnVlZDTWhwxd3',
+			emoticon : 'cekUTfbCx8iMYvJP',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -3513847961428907496,
+			document_id : 9057533191593666324,
 		),
 		$client->reactionPaid(),
 	),

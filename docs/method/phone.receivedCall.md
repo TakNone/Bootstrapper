@@ -38,8 +38,8 @@ phone.receivedCall#17d54f61 peer:InputPhoneCall = Bool;
 ```php
 $bool = $client->phone->receivedCall(
 	peer : $client->inputPhoneCall(
-		id : -6432307271291261527,
-		access_hash : -6828212208917991644,
+		id : -5190864296158562401,
+		access_hash : 525382594823877356,
 	),
 );
 ```

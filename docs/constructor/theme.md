@@ -14,7 +14,7 @@ theme#a00e67d6 flags:# creator:flags.0?true default:flags.1?true for_chat:flags.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **creator** | [`flags.0?true`](type/true) | Whether the current user is the creator of this theme |
 | **default** | [`flags.1?true`](type/true) | Whether this is the default theme |
 | **for_chat** | [`flags.5?true`](type/true) | Whether this theme is meant to be used as a chat theme |
@@ -42,46 +42,46 @@ $theme = $client->theme(
 	creator : true,
 	default : true,
 	for_chat : true,
-	id : 4442235086194968953,
-	access_hash : -1335109595370418129,
-	slug : 'BoM5Ya2XLnPE930v',
-	title : 'pKMvgELNoDYq5cwr',
+	id : -4468273156381035521,
+	access_hash : -3123133485683922218,
+	slug : 'cT86VwL0YDxlUmOn',
+	title : 'fgHPrKkQS7cRdhyp',
 	document : $client->documentEmpty(
-		id : 9081119339594879690,
+		id : 3628232471464485053,
 	),
 	settings : array(
 		$client->themeSettings(
 			message_colors_animated : true,
 			base_theme : $client->baseThemeClassic(),
-			accent_color : 17,
-			outbox_accent_color : 34,
-			message_colors : array(70),
+			accent_color : 61,
+			outbox_accent_color : 66,
+			message_colors : array(95),
 			wallpaper : $client->wallPaper(
-				id : -7057598229613851484,
+				id : -105354576069492455,
 				creator : true,
 				default : true,
 				pattern : true,
 				dark : true,
-				access_hash : 8778353799469165306,
-				slug : 'SPYAIUxnRCqy2lw3',
+				access_hash : -2999700877024484965,
+				slug : 'KGguFLIQPWDmxV8e',
 				document : $client->documentEmpty(
-					id : 2148087993677923648,
+					id : -6769525420017867992,
 				),
 				settings : $client->wallPaperSettings(
 					blur : true,
 					motion : true,
-					background_color : 20,
-					second_background_color : 100,
-					third_background_color : 21,
-					fourth_background_color : 34,
-					intensity : 57,
-					rotation : 34,
-					emoticon : 'Xc956eHmSdzu1lU4',
+					background_color : 24,
+					second_background_color : 30,
+					third_background_color : 59,
+					fourth_background_color : 41,
+					intensity : 98,
+					rotation : 39,
+					emoticon : 'hlEnVuMAD3FdwjcP',
 				),
 			),
 		),
 	),
-	emoticon : 'OaE8PFNjTUbxfcq7',
-	installs_count : 100,
+	emoticon : 'V8GRdQ7wZAr9N5tM',
+	installs_count : 11,
 );
 ```

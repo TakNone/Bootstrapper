@@ -29,7 +29,7 @@ channelAdminLogEventActionToggleSlowMode#53909779 prev_value:int new_value:int =
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleSlowMode(
-	prev_value : 63,
-	new_value : 94,
+	prev_value : 46,
+	new_value : 32,
 );
 ```

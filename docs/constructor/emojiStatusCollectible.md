@@ -14,7 +14,7 @@ emojiStatusCollectible#7184603b flags:# collectible_id:long document_id:long tit
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>collectible_id</mark> | [`long`](type/long) | ID of the collectible (from starGiftUnique.id) |
 | <mark>document_id</mark> | [`long`](type/long) | ID of the custom emoji representing the status |
 | <mark>title</mark> | [`string`](type/string) | Name of the collectible |
@@ -38,15 +38,15 @@ emojiStatusCollectible#7184603b flags:# collectible_id:long document_id:long tit
 
 ```php
 $emojiStatus = $client->emojiStatusCollectible(
-	collectible_id : 3556786575914227038,
-	document_id : 6038568195353257038,
-	title : 'i7FtPVg53CyeasYx',
-	slug : 'HpD8P4hTQSixwevE',
-	pattern_document_id : -4647560304824783384,
-	center_color : 35,
-	edge_color : 38,
-	pattern_color : 90,
-	text_color : 94,
-	until : 30,
+	collectible_id : -9138238405309194109,
+	document_id : -4066814959248407333,
+	title : 'G70dqhO3WgJZ6KlS',
+	slug : 'KVBOhYn6TxmR5bz4',
+	pattern_document_id : 4708794612098797179,
+	center_color : 14,
+	edge_color : 11,
+	pattern_color : 81,
+	text_color : 96,
+	until : 81,
 );
 ```

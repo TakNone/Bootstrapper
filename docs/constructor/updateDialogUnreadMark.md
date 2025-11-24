@@ -14,7 +14,7 @@ updateDialogUnreadMark#b658f23e flags:# unread:flags.0?true peer:DialogPeer save
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **unread** | [`flags.0?true`](type/true) | Was the chat marked or unmarked as read |
 | <mark>peer</mark> | [`DialogPeer`](type/DialogPeer) | The dialog |
 | **saved_peer_id** | [`flags.1?Peer`](type/Peer) | If set, the mark is related to the specified monoforum topic ID » |
@@ -34,11 +34,11 @@ $update = $client->updateDialogUnreadMark(
 	unread : true,
 	peer : $client->dialogPeer(
 		peer : $client->peerUser(
-			user_id : 3521754546817767215,
+			user_id : 8027897337875446659,
 		),
 	),
 	saved_peer_id : $client->peerUser(
-		user_id : 2216534919873667320,
+		user_id : -2734905484601011869,
 	),
 );
 ```

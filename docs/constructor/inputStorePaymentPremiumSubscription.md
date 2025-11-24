@@ -14,7 +14,7 @@ inputStorePaymentPremiumSubscription#a6751e66 flags:# restore:flags.0?true upgra
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **restore** | [`flags.0?true`](type/true) | Pass true if this is a restore of a Telegram Premium purchase; only for the App Store |
 | **upgrade** | [`flags.1?true`](type/true) | Pass true if this is an upgrade from a monthly subscription to a yearly subscription; only for App Store |
 

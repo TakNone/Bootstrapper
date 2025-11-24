@@ -41,7 +41,7 @@ chatlists.joinChatlistInvite#a6b1e39a slug:string peers:Vector<InputPeer> = Upda
 
 ```php
 $updates = $client->chatlists->joinChatlistInvite(
-	slug : 'ipSRg6BrwzLnOIYZ',
+	slug : 'akTmi649hjsY3HPl',
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

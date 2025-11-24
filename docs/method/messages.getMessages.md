@@ -30,15 +30,15 @@ messages.getMessages#63c66506 id:Vector<InputMessage> = messages.Messages;
 $messagesMessages = $client->messages->getMessages(
 	id : array(
 		$client->inputMessageID(
-			id : 22,
+			id : 34,
 		),
 		$client->inputMessageReplyTo(
-			id : 33,
+			id : 94,
 		),
 		$client->inputMessagePinned(),
 		$client->inputMessageCallbackQuery(
-			id : 26,
-			query_id : -4636860655424409164,
+			id : 76,
+			query_id : 6897410826206070194,
 		),
 	),
 );

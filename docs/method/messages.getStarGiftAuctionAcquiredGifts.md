@@ -26,6 +26,6 @@ messages.getStarGiftAuctionAcquiredGifts#6ba2cbec gift_id:long = StarGiftAuction
 
 ```php
 $starGiftAuctionAcquiredGifts = $client->messages->getStarGiftAuctionAcquiredGifts(
-	gift_id : -6807122445341536031,
+	gift_id : -1059069364290078304,
 );
 ```

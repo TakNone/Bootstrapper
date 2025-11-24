@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeHistoryTTL#6e941a38 prev_value:int new_value:int
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeHistoryTTL(
-	prev_value : 93,
-	new_value : 39,
+	prev_value : 15,
+	new_value : 42,
 );
 ```

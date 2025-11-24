@@ -14,7 +14,7 @@ user#31774388 flags:# self:flags.10?true contact:flags.11?true mutual_contact:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **self** | [`flags.10?true`](type/true) | Whether this user indicates the currently logged in user |
 | **contact** | [`flags.11?true`](type/true) | Whether this user is a contact When updating the local peer database, do not apply changes to this field if the min flag is set |
 | **mutual_contact** | [`flags.12?true`](type/true) | Whether this user is a mutual contact. When updating the local peer database, do not apply changes to this field if the min flag is set |
@@ -33,7 +33,7 @@ user#31774388 flags:# self:flags.10?true contact:flags.11?true mutual_contact:fl
 | **bot_attach_menu** | [`flags.27?true`](type/true) | Whether this bot offers an attachment menu web app |
 | **premium** | [`flags.28?true`](type/true) | Whether this user is a Telegram Premium user Changes to this flag should invalidate the local userFull cache for this user ID, see here » for more info. Changes to this flag if the self flag is set should also trigger the following calls, to refresh the respective caches: - The help.getConfig cache - The messages.getTopReactions cache if the bot flag is not set |
 | **attach_menu_enabled** | [`flags.29?true`](type/true) | Whether we installed the attachment menu web app offered by this bot. When updating the local peer database, do not apply changes to this field if the min flag is set |
-| <mark>flags2</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags2</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **bot_can_edit** | [`flags2.1?true`](type/true) | Whether we can edit the profile picture, name, about text and description of this bot because we own it. When updating the local peer database, do not apply changes to this field if the min flag is set. Changes to this flag (if min is not set) should invalidate the local userFull cache for this user ID |
 | **close_friend** | [`flags2.2?true`](type/true) | Whether we marked this user as a close friend, see here » for more info. When updating the local peer database, do not apply changes to this field if the min flag is set |
 | **stories_hidden** | [`flags2.3?true`](type/true) | Whether we have hidden » all active stories of this user. When updating the local peer database, do not apply changes to this field if the min flag is set |
@@ -101,24 +101,24 @@ $user = $client->user(
 	bot_business : true,
 	bot_has_main_app : true,
 	bot_forum_view : true,
-	id : -5885857906939824034,
-	access_hash : 4744008854077589165,
+	id : 8900536981105593008,
+	access_hash : 1549182818353943036,
 	first_name : 'Tak',
 	last_name : 'None',
 	username : 'TakNone',
 	phone : '+1234567890',
 	photo : $client->userProfilePhotoEmpty(),
 	status : $client->userStatusEmpty(),
-	bot_info_version : 41,
+	bot_info_version : 20,
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : 'o5RnfrNtgXa4Wcly',
-			reason : 'BGK3QefF8bsJIXpi',
-			text : 'B3J1OLlXa25hF4Rb',
+			platform : 'CsWEQrPhSl4jd8UO',
+			reason : 'uS20Dfz9erTGYUME',
+			text : 'Y63Agpwjv9TOtxZl',
 		),
 	),
-	bot_inline_placeholder : 'h8Dydj7KCs9t6Hnp',
-	lang_code : 'uVx8jdch7GUgQvXl',
+	bot_inline_placeholder : '39KNGYW2u1jZnimC',
+	lang_code : 'jaETGtDAh6p1SfKP',
 	emoji_status : $client->emojiStatusEmpty(),
 	usernames : array(
 		$client->username(
@@ -129,18 +129,18 @@ $user = $client->user(
 	),
 	stories_max_id : $client->recentStory(
 		live : true,
-		max_id : 37,
+		max_id : 49,
 	),
 	color : $client->peerColor(
-		color : 6,
-		background_emoji_id : 1894125882056201134,
+		color : 18,
+		background_emoji_id : -2450662167520622607,
 	),
 	profile_color : $client->peerColor(
-		color : 82,
-		background_emoji_id : -1796877265094433878,
+		color : 28,
+		background_emoji_id : -8099612366656028832,
 	),
-	bot_active_users : 7,
-	bot_verification_icon : 7147212441414974430,
-	send_paid_messages_stars : -6045972884006944782,
+	bot_active_users : 92,
+	bot_verification_icon : 6181967599109211031,
+	send_paid_messages_stars : 6415010394344861194,
 );
 ```

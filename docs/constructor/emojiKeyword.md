@@ -29,7 +29,7 @@ emojiKeyword#d5b3b9f9 keyword:string emoticons:Vector<string> = EmojiKeyword;
 
 ```php
 $emojiKeyword = $client->emojiKeyword(
-	keyword : '0yPXO7rImMexqz69',
-	emoticons : array('5WUJCevLFRnIhHEa'),
+	keyword : 'a96oAOBxiFTHcmEM',
+	emoticons : array('unwrHeCm0oWBRSgX'),
 );
 ```

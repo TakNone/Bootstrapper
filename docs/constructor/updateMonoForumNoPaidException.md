@@ -14,7 +14,7 @@ updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_i
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **exception** | [`flags.0?true`](type/true) | If set, an admin has exempted this peer, otherwise the peer was unexempted |
 | <mark>channel_id</mark> | [`long`](type/long) | The monoforum ID |
 | <mark>saved_peer_id</mark> | [`Peer`](type/Peer) | The peer/topic ID |
@@ -32,9 +32,9 @@ updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_i
 ```php
 $update = $client->updateMonoForumNoPaidException(
 	exception : true,
-	channel_id : -4169457628140528555,
+	channel_id : 7149811699757390811,
 	saved_peer_id : $client->peerUser(
-		user_id : -3039646564837310275,
+		user_id : -1294182804540665975,
 	),
 );
 ```

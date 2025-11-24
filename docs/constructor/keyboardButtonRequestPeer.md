@@ -31,12 +31,12 @@ keyboardButtonRequestPeer#53d7bfd8 text:string button_id:int peer_type:RequestPe
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestPeer(
-	text : 'hu5eQkpOUvNid1gG',
-	button_id : 39,
+	text : 'bMJpLd7Hj5w2TyRl',
+	button_id : 12,
 	peer_type : $client->requestPeerTypeUser(
 		bot : true,
 		premium : false,
 	),
-	max_quantity : 48,
+	max_quantity : 43,
 );
 ```

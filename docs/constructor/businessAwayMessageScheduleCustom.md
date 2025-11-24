@@ -29,7 +29,7 @@ businessAwayMessageScheduleCustom#cc4d9ecc start_date:int end_date:int = Busines
 
 ```php
 $businessAwayMessageSchedule = $client->businessAwayMessageScheduleCustom(
-	start_date : 0,
-	end_date : 57,
+	start_date : 86,
+	end_date : 81,
 );
 ```

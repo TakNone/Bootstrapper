@@ -37,6 +37,6 @@ account.reorderUsernames#ef500eab order:Vector<string> = Bool;
 
 ```php
 $bool = $client->account->reorderUsernames(
-	order : array('8Bb60vsGWPwJHV9C'),
+	order : array('CxpgAVG9Uehj3YNz'),
 );
 ```

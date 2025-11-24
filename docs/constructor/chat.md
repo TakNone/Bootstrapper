@@ -14,7 +14,7 @@ chat#41cbf256 flags:# creator:flags.0?true kicked:flags.1?true left:flags.2?true
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **creator** | [`flags.0?true`](type/true) | Whether the current user is the creator of the group |
 | **kicked** | [`flags.1?true`](type/true) | NOTHING |
 | **left** | [`flags.2?true`](type/true) | Whether the current user has left the group |
@@ -51,12 +51,12 @@ $chat = $client->chat(
 	call_active : true,
 	call_not_empty : true,
 	noforwards : true,
-	id : 3965159844915367917,
-	title : 'VyWadzkTNZI3gKUj',
+	id : 6987572925370895637,
+	title : 'sJOyAoc1I0rzpdBa',
 	photo : $client->chatPhotoEmpty(),
-	participants_count : 18,
-	date : 54,
-	version : 63,
+	participants_count : 73,
+	date : 8,
+	version : 45,
 	migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
@@ -97,7 +97,7 @@ $chat = $client->chat(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 5,
+		until_date : 27,
 	),
 );
 ```

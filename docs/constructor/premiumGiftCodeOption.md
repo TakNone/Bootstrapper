@@ -14,7 +14,7 @@ premiumGiftCodeOption#257e962b flags:# users:int months:int store_product:flags.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>users</mark> | [`int`](type/int) | Number of users which will be able to activate the gift codes |
 | <mark>months</mark> | [`int`](type/int) | Duration in months of each gifted Telegram Premium subscription |
 | **store_product** | [`flags.0?string`](type/string) | Identifier of the store product associated with the option, official apps only |
@@ -34,11 +34,11 @@ premiumGiftCodeOption#257e962b flags:# users:int months:int store_product:flags.
 
 ```php
 $premiumGiftCodeOption = $client->premiumGiftCodeOption(
-	users : 51,
-	months : 23,
-	store_product : 'Rjc5HLUgW4ATwrfp',
-	store_quantity : 81,
-	currency : 'C9vYTnP02mbMNR1a',
-	amount : -3249516437685247447,
+	users : 32,
+	months : 95,
+	store_product : 'PZpDrRyhAdMENmew',
+	store_quantity : 23,
+	currency : '69O7ENCaSo0QzgAW',
+	amount : 7851469783746855676,
 );
 ```

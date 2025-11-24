@@ -40,14 +40,14 @@ $bool = $client->payments->toggleStarGiftsPinnedToTop(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 97,
+			msg_id : 63,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : -8178163279522146975,
+			saved_id : 6843000224837199914,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'C45uiBYUEckLNS8b',
+			slug : 'm7JycoKUVjQ2xw3M',
 		),
 	),
 );

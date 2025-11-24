@@ -14,7 +14,7 @@ messages.setBotCallbackAnswer#d58f130a flags:# alert:flags.1?true query_id:long 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **alert** | [`flags.1?true`](type/true) | Whether to show the message as a popup instead of a toast notification |
 | <mark>query_id</mark> | [`long`](type/long) | Query ID |
 | **message** | [`flags.0?string`](type/string) | Popup to show |
@@ -45,9 +45,9 @@ messages.setBotCallbackAnswer#d58f130a flags:# alert:flags.1?true query_id:long 
 ```php
 $bool = $client->messages->setBotCallbackAnswer(
 	alert : true,
-	query_id : -3158604266875466289,
-	message : 'UbID0WQGvFy7XPzZ',
+	query_id : -3902690606120252753,
+	message : 'D0WLd6QpMymsqa41',
 	url : 'https://docs.liveproto.dev',
-	cache_time : 9,
+	cache_time : 54,
 );
 ```

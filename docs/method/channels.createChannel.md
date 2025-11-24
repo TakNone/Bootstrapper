@@ -14,7 +14,7 @@ channels.createChannel#91006707 flags:# broadcast:flags.0?true megagroup:flags.1
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **broadcast** | [`flags.0?true`](type/true) | Whether to create a channel |
 | **megagroup** | [`flags.1?true`](type/true) | Whether to create a supergroup |
 | **for_import** | [`flags.3?true`](type/true) | Whether the supergroup is being created to import messages from a foreign chat service using messages.initHistoryImport |
@@ -56,10 +56,10 @@ $updates = $client->channels->createChannel(
 	megagroup : true,
 	for_import : true,
 	forum : true,
-	title : 'S6vEwHWzk4LrP3IN',
-	about : 'UYVZMRDIcSdarj27',
+	title : 'kUHaywls6JDvYzSX',
+	about : 'itCZ9vQr0EGRcA53',
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'tusKCUWPy1Bxfgvw',
-	ttl_period : 72,
+	address : '284u7ezxGZLlTX9n',
+	ttl_period : 95,
 );
 ```

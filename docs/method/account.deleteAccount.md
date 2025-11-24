@@ -14,7 +14,7 @@ account.deleteAccount#a2c0cf74 flags:# reason:string password:flags.0?InputCheck
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>reason</mark> | [`string`](type/string) | Why is the account being deleted, can be empty |
 | **password** | [`flags.0?InputCheckPasswordSRP`](type/InputCheckPasswordSRP) | 2FA password: this field can be omitted even for accounts with 2FA enabled: in this case account account deletion will be delayed by 7 days as specified in the docs » |
 
@@ -39,7 +39,7 @@ account.deleteAccount#a2c0cf74 flags:# reason:string password:flags.0?InputCheck
 
 ```php
 $bool = $client->account->deleteAccount(
-	reason : '6yJeHvOj8PoASWzb',
+	reason : '4cS93FK0qamOPjLr',
 	password : $client->inputCheckPasswordEmpty(),
 );
 ```

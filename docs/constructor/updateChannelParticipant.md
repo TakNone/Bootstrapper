@@ -14,7 +14,7 @@ updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:l
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **via_chatlist** | [`flags.3?true`](type/true) | Whether the participant joined using a chat folder deep link » |
 | <mark>channel_id</mark> | [`long`](type/long) | Channel ID |
 | <mark>date</mark> | [`int`](type/int) | Date of the event |
@@ -38,39 +38,39 @@ updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:l
 ```php
 $update = $client->updateChannelParticipant(
 	via_chatlist : true,
-	channel_id : 8170053971446715232,
-	date : 1,
-	actor_id : 1094562433346020171,
-	user_id : 4662552896427593824,
+	channel_id : 3617992235948262613,
+	date : 59,
+	actor_id : -6192815020675012680,
+	user_id : -6988642769010991855,
 	prev_participant : $client->channelParticipant(
-		user_id : -5040334285029885893,
-		date : 21,
-		subscription_until_date : 95,
+		user_id : 6940688566669941493,
+		date : 55,
+		subscription_until_date : 31,
 	),
 	new_participant : $client->channelParticipant(
-		user_id : -4074101470385809798,
-		date : 23,
-		subscription_until_date : 35,
+		user_id : 6776617357566224154,
+		date : 47,
+		subscription_until_date : 1,
 	),
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'Yoc30fTqUbXjrPH7',
-		admin_id : -5191385119754833294,
-		date : 84,
-		start_date : 76,
-		expire_date : 48,
-		usage_limit : 31,
-		usage : 73,
+		link : 'd1PEFScKlqZAWIjX',
+		admin_id : 8869739392714712438,
+		date : 36,
+		start_date : 63,
+		expire_date : 77,
+		usage_limit : 59,
+		usage : 4,
 		requested : 34,
-		subscription_expired : 21,
-		title : 'EdcSpUJxzA7FNeP0',
+		subscription_expired : 51,
+		title : 'zp6kLmEK9UyP7bQO',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 20,
-			amount : 6849321266214854755,
+			period : 92,
+			amount : 2377340354373851452,
 		),
 	),
-	qts : 13,
+	qts : 67,
 );
 ```

@@ -14,7 +14,7 @@ inputMediaPaidMedia#c4103386 flags:# stars_amount:long extended_media:Vector<Inp
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>stars_amount</mark> | [`long`](type/long) | The price of the media in Telegram Stars |
 | <mark>extended_media</mark> | [`Vector<InputMedia>`](type/InputMedia) | Photos or videos |
 | **payload** | [`flags.0?string`](type/string) | Bots only, specifies a custom payload that will then be passed in updateBotPurchasedPaidMedia when a payment is made (this field will not be visible to the user) |
@@ -31,8 +31,8 @@ inputMediaPaidMedia#c4103386 flags:# stars_amount:long extended_media:Vector<Inp
 
 ```php
 $inputMedia = $client->inputMediaPaidMedia(
-	stars_amount : 3232497069335730329,
+	stars_amount : -5686558323353931342,
 	extended_media : array($client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT)),
-	payload : 'WR8Pe5blAqCEomzB',
+	payload : 'o9RiqAcDml1buST3',
 );
 ```

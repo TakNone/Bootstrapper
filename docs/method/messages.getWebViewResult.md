@@ -30,6 +30,6 @@ messages.getWebViewResult#22b6c214 peer:InputPeer bot:InputUser query_id:long = 
 $messagesWebViewResult = $client->messages->getWebViewResult(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	bot : $client->get_input_user(user : '@TakNone'),
-	query_id : -2227784695203322823,
+	query_id : 993858260843804838,
 );
 ```

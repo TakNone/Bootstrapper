@@ -29,7 +29,7 @@ keyboardButtonUserProfile#308660c1 text:string user_id:long = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonUserProfile(
-	text : 'NMYU7KwsfCSFT4ry',
-	user_id : 5433980163735575022,
+	text : 'JPB65ioVULthcWsw',
+	user_id : -2069103605084331580,
 );
 ```

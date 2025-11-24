@@ -42,6 +42,6 @@ messages.transcribeAudio#269e9a49 peer:InputPeer msg_id:int = messages.Transcrib
 ```php
 $messagesTranscribedAudio = $client->messages->transcribeAudio(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 40,
+	msg_id : 22,
 );
 ```

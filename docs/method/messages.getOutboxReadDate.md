@@ -43,6 +43,6 @@ messages.getOutboxReadDate#8c4bfe5d peer:InputPeer msg_id:int = OutboxReadDate;
 ```php
 $outboxReadDate = $client->messages->getOutboxReadDate(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 79,
+	msg_id : 35,
 );
 ```

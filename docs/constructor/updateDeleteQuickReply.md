@@ -28,6 +28,6 @@ updateDeleteQuickReply#53e6f1ec shortcut_id:int = Update;
 
 ```php
 $update = $client->updateDeleteQuickReply(
-	shortcut_id : 21,
+	shortcut_id : 94,
 );
 ```

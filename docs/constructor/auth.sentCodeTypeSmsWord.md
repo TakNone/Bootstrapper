@@ -14,7 +14,7 @@ auth.sentCodeTypeSmsWord#a416ac81 flags:# beginning:flags.0?string = auth.SentCo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **beginning** | [`flags.0?string`](type/string) | If set, the secret word in the sent SMS (which may contain multiple words) starts with this letter |
 
 ---
@@ -29,6 +29,6 @@ auth.sentCodeTypeSmsWord#a416ac81 flags:# beginning:flags.0?string = auth.SentCo
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeSmsWord(
-	beginning : 'Xa0LjnDN7sHl5dAw',
+	beginning : 'tzR3S18JyB9YVagF',
 );
 ```

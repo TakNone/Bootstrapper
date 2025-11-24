@@ -14,7 +14,7 @@ channelParticipantSelf#4f607bef flags:# via_request:flags.0?true user_id:long in
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **via_request** | [`flags.0?true`](type/true) | Whether I joined upon specific approval of an admin |
 | <mark>user_id</mark> | [`long`](type/long) | User ID |
 | <mark>inviter_id</mark> | [`long`](type/long) | User that invited me to the channel/supergroup |
@@ -34,9 +34,9 @@ channelParticipantSelf#4f607bef flags:# via_request:flags.0?true user_id:long in
 ```php
 $channelParticipant = $client->channelParticipantSelf(
 	via_request : true,
-	user_id : -3250199363924484324,
-	inviter_id : 4384443606589746947,
-	date : 46,
-	subscription_until_date : 100,
+	user_id : -901010811725016750,
+	inviter_id : -3157626699359070730,
+	date : 6,
+	subscription_until_date : 15,
 );
 ```

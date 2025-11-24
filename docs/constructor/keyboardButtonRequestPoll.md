@@ -14,7 +14,7 @@ keyboardButtonRequestPoll#bbc7515d flags:# quiz:flags.0?Bool text:string = Keybo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **quiz** | [`flags.0?Bool`](type/Bool) | If set, only quiz polls can be sent |
 | <mark>text</mark> | [`string`](type/string) | Button text |
 
@@ -30,7 +30,7 @@ keyboardButtonRequestPoll#bbc7515d flags:# quiz:flags.0?Bool text:string = Keybo
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestPoll(
-	quiz : true,
-	text : 'ukLTHJsG6PSeVAKi',
+	quiz : false,
+	text : '5174qZlfFdXRtOMU',
 );
 ```

@@ -14,7 +14,7 @@ peerNotifySettings#99622c0c flags:# show_previews:flags.0?Bool silent:flags.1?Bo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **show_previews** | [`flags.0?Bool`](type/Bool) | (Ternary value) If set, indicates whether or not to display previews of messages in notifications; otherwise the default behavior should be used |
 | **silent** | [`flags.1?Bool`](type/Bool) | (Ternary value) If set, indicates whether to mute or unmute the peer; otherwise the default behavior should be used |
 | **mute_until** | [`flags.2?int`](type/int) | Mute all notifications until this date |
@@ -40,12 +40,12 @@ peerNotifySettings#99622c0c flags:# show_previews:flags.0?Bool silent:flags.1?Bo
 ```php
 $peerNotifySettings = $client->peerNotifySettings(
 	show_previews : true,
-	silent : true,
-	mute_until : 87,
+	silent : false,
+	mute_until : 83,
 	ios_sound : $client->notificationSoundDefault(),
 	android_sound : $client->notificationSoundDefault(),
 	other_sound : $client->notificationSoundDefault(),
-	stories_muted : false,
+	stories_muted : true,
 	stories_hide_sender : true,
 	stories_ios_sound : $client->notificationSoundDefault(),
 	stories_android_sound : $client->notificationSoundDefault(),

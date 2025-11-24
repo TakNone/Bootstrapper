@@ -14,7 +14,7 @@ payments.toggleChatStarGiftNotifications#60eaefa1 flags:# enabled:flags.0?true p
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **enabled** | [`flags.0?true`](type/true) | Whether to enable or disable reception of notifications in the form of messageActionStarGiftUnique and messageActionStarGift service messages from the channel |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The channel for which to receive or not receive notifications |
 

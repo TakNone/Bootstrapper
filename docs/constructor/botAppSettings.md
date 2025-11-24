@@ -14,7 +14,7 @@ botAppSettings#c99b1950 flags:# placeholder_path:flags.0?bytes background_color:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **placeholder_path** | [`flags.0?bytes`](type/bytes) | SVG placeholder logo, compressed using the same format used for vector thumbnails » |
 | **background_color** | [`flags.1?int`](type/int) | Default light mode background color |
 | **background_dark_color** | [`flags.2?int`](type/int) | Default dark mode background color |
@@ -34,9 +34,9 @@ botAppSettings#c99b1950 flags:# placeholder_path:flags.0?bytes background_color:
 ```php
 $botAppSettings = $client->botAppSettings(
 	placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	background_color : 8,
-	background_dark_color : 34,
-	header_color : 98,
-	header_dark_color : 30,
+	background_color : 0,
+	background_dark_color : 20,
+	header_color : 35,
+	header_dark_color : 71,
 );
 ```

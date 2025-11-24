@@ -14,7 +14,7 @@ starsRating#1b0e4f07 flags:# level:int current_level_stars:long stars:long next_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>level</mark> | [`int`](type/int) | The current level, may be negative |
 | <mark>current_level_stars</mark> | [`long`](type/long) | The numerical value of the rating required for the current level |
 | <mark>stars</mark> | [`long`](type/long) | Numerical value of the current rating |
@@ -32,9 +32,9 @@ starsRating#1b0e4f07 flags:# level:int current_level_stars:long stars:long next_
 
 ```php
 $starsRating = $client->starsRating(
-	level : 96,
-	current_level_stars : 107240184379966760,
-	stars : -5005059350440782279,
-	next_level_stars : -6546696342867473380,
+	level : 74,
+	current_level_stars : -8181952729190828746,
+	stars : 7980074037885633927,
+	next_level_stars : -3330147004763149573,
 );
 ```

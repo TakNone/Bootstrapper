@@ -28,6 +28,6 @@ auth.sentCodeTypeFlashCall#ab03c6d9 pattern:string = auth.SentCodeType;
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeFlashCall(
-	pattern : 'QF4CPOorXqnN3Agi',
+	pattern : '3hxvijJSGnbty28M',
 );
 ```

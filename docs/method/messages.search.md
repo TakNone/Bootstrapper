@@ -14,7 +14,7 @@ messages.search#29ee847a flags:# peer:InputPeer q:string from_id:flags.0?InputPe
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | User or chat, histories with which are searched, or (inputPeerEmpty) constructor to search in all private chats and normal groups (not channels) ». Use messages.searchGlobal to search globally in all chats, groups, supergroups and channels |
 | <mark>q</mark> | [`string`](type/string) | Text search request |
 | **from_id** | [`flags.0?InputPeer`](type/InputPeer) | Only return messages sent by the specified user ID |
@@ -64,28 +64,28 @@ messages.search#29ee847a flags:# peer:InputPeer q:string from_id:flags.0?InputPe
 ```php
 $messagesMessages = $client->messages->search(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	q : 'I40JWVs5OBuFbAzc',
+	q : 'riVWa0X9hJjFdmOg',
 	from_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	saved_reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'GKaiFXBwM3n47Z8V',
+			emoticon : 'CGK13ZVP0TiM4Ist',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -4160251678434264767,
+			document_id : 2065214921355258065,
 		),
 		$client->reactionPaid(),
 	),
-	top_msg_id : 48,
+	top_msg_id : 99,
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 10,
+	min_date : 90,
 	max_date : 93,
 	offset_id : 0,
-	add_offset : 25,
-	limit : 49,
-	max_id : 82,
-	min_id : 43,
+	add_offset : 53,
+	limit : 84,
+	max_id : 79,
+	min_id : 31,
 	hash : 0,
 );
 ```

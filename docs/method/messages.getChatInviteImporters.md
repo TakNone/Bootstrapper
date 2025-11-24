@@ -14,7 +14,7 @@ messages.getChatInviteImporters#df04dd4e flags:# requested:flags.0?true subscrip
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **requested** | [`flags.0?true`](type/true) | If set, only returns info about users with pending join requests » |
 | **subscription_expired** | [`flags.3?true`](type/true) | Set this flag if the link is a Telegram Star subscription link » and only members with already expired subscription must be returned |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Chat |
@@ -53,10 +53,10 @@ $messagesChatInviteImporters = $client->messages->getChatInviteImporters(
 	requested : true,
 	subscription_expired : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	link : 'lFmunI39dVaYzrDH',
-	q : 'UdqhWZAmF7nGT9NL',
+	link : 'endLaWfqCVQYMwbE',
+	q : '479PqHLKf82XJzbv',
 	offset_date : 0,
 	offset_user : $client->get_input_user(user : '@TakNone'),
-	limit : 95,
+	limit : 58,
 );
 ```

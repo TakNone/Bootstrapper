@@ -14,7 +14,7 @@ updateNewAuthorization#8951abef flags:# unconfirmed:flags.0?true hash:long date:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **unconfirmed** | [`flags.0?true`](type/true) | Whether the session is unconfirmed, see here » for more info |
 | <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
 | **date** | [`flags.0?int`](type/int) | Authorization date |
@@ -35,8 +35,8 @@ updateNewAuthorization#8951abef flags:# unconfirmed:flags.0?true hash:long date:
 $update = $client->updateNewAuthorization(
 	unconfirmed : true,
 	hash : 0,
-	date : 66,
-	device : 'wqM7dgPe2cB8mSsR',
-	location : 'iWHwVETONq1Lv2Ux',
+	date : 75,
+	device : 'AVNGcZnfJYxlC4HS',
+	location : 'PxtZ1UwudnsQFLNO',
 );
 ```

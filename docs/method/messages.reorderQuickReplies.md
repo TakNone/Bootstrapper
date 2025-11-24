@@ -36,6 +36,6 @@ messages.reorderQuickReplies#60331907 order:Vector<int> = Bool;
 
 ```php
 $bool = $client->messages->reorderQuickReplies(
-	order : array(96),
+	order : array(28),
 );
 ```

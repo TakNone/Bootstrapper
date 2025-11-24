@@ -37,6 +37,6 @@ messages.getFullChat#aeb00b34 chat_id:long = messages.ChatFull;
 
 ```php
 $messagesChatFull = $client->messages->getFullChat(
-	chat_id : -8103797926177523375,
+	chat_id : -8377270159610188237,
 );
 ```

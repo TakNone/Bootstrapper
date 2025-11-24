@@ -14,7 +14,7 @@ messageFwdHeader#4e4df4bb flags:# imported:flags.7?true saved_out:flags.11?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **imported** | [`flags.7?true`](type/true) | Whether this message was imported from a foreign chat service, click here for more info » |
 | **saved_out** | [`flags.11?true`](type/true) | Only for messages forwarded to saved messages », set if the original message was outgoing (though the message may have been originally outgoing even if this flag is not set, if from_id points to the current user) |
 | **from_id** | [`flags.0?Peer`](type/Peer) | The ID of the user that originally sent the message |
@@ -44,21 +44,21 @@ $messageFwdHeader = $client->messageFwdHeader(
 	imported : true,
 	saved_out : true,
 	from_id : $client->peerUser(
-		user_id : 8480704285695863645,
+		user_id : 3399614959555490984,
 	),
-	from_name : 'FYkrKywizqs3HV2g',
-	date : 97,
-	channel_post : 7,
-	post_author : 'WCwNuByxli13DtoV',
+	from_name : 'hePcv3zModBgY2WG',
+	date : 12,
+	channel_post : 53,
+	post_author : 'CJhZ7bvtjeA5ziQW',
 	saved_from_peer : $client->peerUser(
-		user_id : -5404225867658565416,
+		user_id : 5992001880832398199,
 	),
-	saved_from_msg_id : 81,
+	saved_from_msg_id : 53,
 	saved_from_id : $client->peerUser(
-		user_id : -613824176345428024,
+		user_id : -7880870531050064611,
 	),
-	saved_from_name : '5CU2Zn6xDrdJF9tl',
-	saved_date : 80,
-	psa_type : 'j3Fsb0ik1VQBYEeJ',
+	saved_from_name : '3MFSBPnIx91tYOQG',
+	saved_date : 100,
+	psa_type : 'YbZeqyxMrWl38Aw0',
 );
 ```

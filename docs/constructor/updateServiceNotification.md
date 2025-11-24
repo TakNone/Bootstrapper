@@ -14,7 +14,7 @@ updateServiceNotification#ebe46819 flags:# popup:flags.0?true invert_media:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **popup** | [`flags.0?true`](type/true) | If set, the message must be displayed in a popup |
 | **invert_media** | [`flags.2?true`](type/true) | If set, any eventual webpage preview will be shown on top of the message instead of at the bottom |
 | **inbox_date** | [`flags.1?int`](type/int) | When was the notification receivedThe message must also be stored locally as part of the message history with the user id 777000 (Telegram Notifications) |
@@ -37,100 +37,100 @@ updateServiceNotification#ebe46819 flags:# popup:flags.0?true invert_media:flags
 $update = $client->updateServiceNotification(
 	popup : true,
 	invert_media : true,
-	inbox_date : 92,
-	type : 'S8TKqF2fwvJdVQC4',
-	message : 'voWU8FH7kTfwOGLm',
+	inbox_date : 26,
+	type : '21AebzOohVLUXRYn',
+	message : 'qTi0RWMGVsHoD7Fy',
 	media : $client->messageMediaEmpty(),
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 78,
+			length : 27,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 51,
+			length : 25,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 12,
+			length : 1,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 72,
+			length : 83,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 27,
+			length : 26,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 20,
+			length : 23,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 4,
+			length : 99,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 80,
+			length : 78,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 33,
+			length : 24,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 63,
-			language : '7AhGaObCnT5k4gip',
+			length : 33,
+			language : 'hzfNaX0witb63Opu',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 52,
+			length : 67,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 78,
-			user_id : -8892397264192699682,
+			length : 57,
+			user_id : -559342177656598709,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 37,
+			length : 58,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 81,
+			length : 17,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 14,
+			length : 4,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 94,
+			length : 85,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 55,
+			length : 1,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 38,
+			length : 45,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 99,
+			length : 27,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 64,
-			document_id : -1680576882494613540,
+			length : 91,
+			document_id : -5620981394929066724,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 42,
+			length : 46,
 		),
 	),
 );

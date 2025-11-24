@@ -14,7 +14,7 @@ contacts.unblock#b550d328 flags:# my_stories_from:flags.0?true id:InputPeer = Bo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **my_stories_from** | [`flags.0?true`](type/true) | Whether the peer should be removed from the story blocklist; if not set, the peer will be removed from the main blocklist, see here » for more info |
 | <mark>id</mark> | [`InputPeer`](type/InputPeer) | Peer |
 

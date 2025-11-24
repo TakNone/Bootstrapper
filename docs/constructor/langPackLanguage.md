@@ -14,7 +14,7 @@ langPackLanguage#eeca5ce3 flags:# official:flags.0?true rtl:flags.2?true beta:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **official** | [`flags.0?true`](type/true) | Whether the language pack is official |
 | **rtl** | [`flags.2?true`](type/true) | Is this a localization pack for an RTL language |
 | **beta** | [`flags.3?true`](type/true) | Is this a beta localization pack? |
@@ -42,12 +42,12 @@ $langPackLanguage = $client->langPackLanguage(
 	official : true,
 	rtl : true,
 	beta : true,
-	name : 'TMNdQGgfyYiPqvlj',
-	native_name : 'dHGal7SXPYyAQxqw',
-	lang_code : '74OAogQGr8dajwcL',
-	base_lang_code : 'x0VQnrqyFsckGU1I',
-	plural_code : 'jw2qGntKhmEW5fgv',
-	strings_count : 56,
+	name : 'pfiVbZmUB3PFNg6a',
+	native_name : 'udzyIq04QsharZNU',
+	lang_code : 'bMkHvAIP7tamZpVT',
+	base_lang_code : 'qgrBtbHZQD1Ejcym',
+	plural_code : 'gJv9M716eAcxQNsw',
+	strings_count : 70,
 	translated_count : 35,
 	translations_url : 'https://docs.liveproto.dev',
 );

@@ -14,7 +14,7 @@ messageActionStarGift#db596550 flags:# name_hidden:flags.0?true saved:flags.2?tr
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **name_hidden** | [`flags.0?true`](type/true) | If set, the name of the sender of the gift will be hidden if the destination user decides to display the gift on their profile |
 | **saved** | [`flags.2?true`](type/true) | Whether this gift was added to the destination user's profile (may be toggled using payments.saveStarGift and fetched using payments.getSavedStarGifts) |
 | **converted** | [`flags.3?true`](type/true) | Whether this gift was converted to Telegram Stars and cannot be displayed on the profile anymore |
@@ -68,138 +68,138 @@ $messageAction = $client->messageActionStarGift(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : 7134145893740540039,
+		id : -17985356109620880,
 		sticker : $client->documentEmpty(
-			id : -4803669352653927666,
+			id : -4587735170035779102,
 		),
-		stars : 2860765303722869166,
-		availability_remains : 89,
-		availability_total : 74,
-		availability_resale : 3362351977175794062,
-		convert_stars : 7745880339525793807,
-		first_sale_date : 68,
-		last_sale_date : 20,
-		upgrade_stars : 3016364863520628374,
-		resell_min_stars : 2865649113621826116,
-		title : 'MyonAN8dGRkl94C0',
+		stars : 7002993980753004644,
+		availability_remains : 95,
+		availability_total : 65,
+		availability_resale : 6480062928010975310,
+		convert_stars : 909441150853826910,
+		first_sale_date : 78,
+		last_sale_date : 31,
+		upgrade_stars : -425179318120910366,
+		resell_min_stars : -2750484891347229005,
+		title : 'zWefLNaRGK51Es3S',
 		released_by : $client->peerUser(
-			user_id : -1195376183784839762,
+			user_id : 5174077752948894320,
 		),
-		per_user_total : 38,
-		per_user_remains : 97,
-		locked_until_date : 53,
-		auction_slug : 'nk12ouDaRswFAp09',
-		gifts_per_round : 76,
+		per_user_total : 20,
+		per_user_remains : 77,
+		locked_until_date : 62,
+		auction_slug : 'MoFmwaSPhs9pD2GZ',
+		gifts_per_round : 9,
 	),
 	message : $client->textWithEntities(
-		text : 'B5j3M4gfUe6Dq9yA',
+		text : 'ygeQHR0raqIFDSXM',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 35,
+				length : 46,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 23,
+				length : 97,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 99,
+				length : 71,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 46,
+				length : 10,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 53,
+				length : 82,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 19,
+				length : 89,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 60,
+				length : 35,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 73,
+				length : 40,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 71,
+				length : 84,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 28,
-				language : 'Q2CPhB9cN1myoYnG',
+				length : 8,
+				language : 'E7QtBOMs8o1RzTZ9',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 26,
+				length : 99,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 13,
-				user_id : -1091110158900900542,
+				length : 41,
+				user_id : 9096116826512501117,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 31,
+				length : 95,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 40,
+				length : 2,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 78,
+				length : 13,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 81,
+				length : 83,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 47,
+				length : 44,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 58,
+				length : 65,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 73,
+				length : 3,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 97,
-				document_id : -817929426980596856,
+				length : 96,
+				document_id : 4306350833606979176,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 63,
+				length : 91,
 			),
 		),
 	),
-	convert_stars : -4923784130750972812,
-	upgrade_msg_id : 73,
-	upgrade_stars : -3258355640390791854,
+	convert_stars : -8862593519740743174,
+	upgrade_msg_id : 34,
+	upgrade_stars : -2695762914914807143,
 	from_id : $client->peerUser(
-		user_id : 8871656378153265442,
+		user_id : -3355620268161935338,
 	),
 	peer : $client->peerUser(
-		user_id : -2743952518600329831,
+		user_id : 4621361565664406144,
 	),
-	saved_id : -4890711217728894844,
-	prepaid_upgrade_hash : 'NSAc1ieE6MP2JTZw',
-	gift_msg_id : 54,
+	saved_id : 452459866774292978,
+	prepaid_upgrade_hash : '6borezTUlm1ODBaP',
+	gift_msg_id : 17,
 	to_id : $client->peerUser(
-		user_id : -3802389998943617720,
+		user_id : -5715587131285529212,
 	),
 );
 ```

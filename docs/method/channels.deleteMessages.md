@@ -42,6 +42,6 @@ channels.deleteMessages#84c1fd4e channel:InputChannel id:Vector<int> = messages.
 ```php
 $messagesAffectedMessages = $client->channels->deleteMessages(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	id : array(64),
+	id : array(13),
 );
 ```

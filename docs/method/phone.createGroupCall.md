@@ -14,7 +14,7 @@ phone.createGroupCall#48cdc6d8 flags:# rtmp_stream:flags.2?true peer:InputPeer r
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **rtmp_stream** | [`flags.2?true`](type/true) | Whether RTMP stream support should be enabled: only the group/supergroup/channel owner can use this flag |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Associate the group call or livestream to the provided group/supergroup/channel |
 | <mark>random_id</mark> | [`int`](type/int) | Unique client message ID required to prevent creation of duplicate group calls |
@@ -48,8 +48,8 @@ phone.createGroupCall#48cdc6d8 flags:# rtmp_stream:flags.2?true peer:InputPeer r
 $updates = $client->phone->createGroupCall(
 	rtmp_stream : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	random_id : 21,
-	title : 'i8wFyvUlQdPDzqcI',
-	schedule_date : 16,
+	random_id : 77,
+	title : '4JwM9lITv0REZX8i',
+	schedule_date : 79,
 );
 ```

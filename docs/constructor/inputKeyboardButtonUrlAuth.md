@@ -14,7 +14,7 @@ inputKeyboardButtonUrlAuth#d02e7fd4 flags:# request_write_access:flags.0?true te
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **request_write_access** | [`flags.0?true`](type/true) | Set this flag to request the permission for your bot to send messages to the user |
 | <mark>text</mark> | [`string`](type/string) | Button text |
 | **fwd_text** | [`flags.1?string`](type/string) | New text of the button in forwarded messages |
@@ -34,8 +34,8 @@ inputKeyboardButtonUrlAuth#d02e7fd4 flags:# request_write_access:flags.0?true te
 ```php
 $keyboardButton = $client->inputKeyboardButtonUrlAuth(
 	request_write_access : true,
-	text : 'YjGJ9karhVEdAwHU',
-	fwd_text : 'V7Dwi0yf4munKCSX',
+	text : 'sipjLIwTQUFAhvgS',
+	fwd_text : 'cJCtGgjbEQP5m1wn',
 	url : 'https://docs.liveproto.dev',
 	bot : $client->get_input_user(user : '@TakNone'),
 );

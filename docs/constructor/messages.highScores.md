@@ -31,14 +31,14 @@ messages.highScores#9a3bfd99 scores:Vector<HighScore> users:Vector<User> = messa
 $messagesHighScores = $client->messages->highScores(
 	scores : array(
 		$client->highScore(
-			pos : 56,
-			user_id : 3212803069162221900,
-			score : 60,
+			pos : 33,
+			user_id : 4064161044172640870,
+			score : 46,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -6598190512594504855,
+			id : -52988694332970334,
 		),
 		$client->user(
 			self : true,
@@ -67,24 +67,24 @@ $messagesHighScores = $client->messages->highScores(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 1844349658707229467,
-			access_hash : -4867253570793843712,
+			id : -6729957721636708656,
+			access_hash : -8421431013679099855,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 62,
+			bot_info_version : 52,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'w5g8SORxYD04KZIP',
-					reason : '4S75laCI8PsK3rR0',
-					text : 'wzv7aBKH25o8xhTg',
+					platform : 'tNX2k0IaEcTlCrJD',
+					reason : 'mwE6U2VNuxRypje8',
+					text : 'q6ozWYIkS5aGreRJ',
 				),
 			),
-			bot_inline_placeholder : 'z63QSxHpmRdn80ti',
-			lang_code : 'dXWDoTew23ryG7t8',
+			bot_inline_placeholder : 'w5qfQdElLtYhmHkA',
+			lang_code : 'pm5tv6sw7Mdq2Wg9',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -95,19 +95,19 @@ $messagesHighScores = $client->messages->highScores(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 34,
+				max_id : 77,
 			),
 			color : $client->peerColor(
-				color : 62,
-				background_emoji_id : 1857382202727737491,
+				color : 84,
+				background_emoji_id : 2746567030610929601,
 			),
 			profile_color : $client->peerColor(
-				color : 47,
-				background_emoji_id : 4288933024753140465,
+				color : 14,
+				background_emoji_id : -1864776380829513926,
 			),
-			bot_active_users : 44,
-			bot_verification_icon : -2975978197592500296,
-			send_paid_messages_stars : 3405022240822808391,
+			bot_active_users : 62,
+			bot_verification_icon : 2300684823403633479,
+			send_paid_messages_stars : -1496683046175516161,
 		),
 	),
 );

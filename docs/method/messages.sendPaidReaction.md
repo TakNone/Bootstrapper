@@ -14,7 +14,7 @@ messages.sendPaidReaction#58bbcb50 flags:# peer:InputPeer msg_id:int count:int r
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The channel |
 | <mark>msg_id</mark> | [`int`](type/int) | The message to react to |
 | <mark>count</mark> | [`int`](type/int) | The number of stars to send (each will increment the reaction counter by one) |
@@ -50,9 +50,9 @@ messages.sendPaidReaction#58bbcb50 flags:# peer:InputPeer msg_id:int count:int r
 ```php
 $updates = $client->messages->sendPaidReaction(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 51,
-	count : 69,
-	random_id : 3735853208533387320,
+	msg_id : 8,
+	count : 62,
+	random_id : 3044004569032952147,
 	private : $client->paidReactionPrivacyDefault(),
 );
 ```

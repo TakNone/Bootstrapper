@@ -14,7 +14,7 @@ messageMediaWebPage#ddf10c3b flags:# force_large_media:flags.0?true force_small_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **force_large_media** | [`flags.0?true`](type/true) | If set, specifies that a large media preview should be used |
 | **force_small_media** | [`flags.1?true`](type/true) | If set, specifies that a small media preview should be used |
 | **manual** | [`flags.3?true`](type/true) | If set, indicates that the URL used for the webpage preview was specified manually using inputMediaWebPage, and may not be related to any of the URLs specified in the message |
@@ -38,7 +38,7 @@ $messageMedia = $client->messageMediaWebPage(
 	manual : true,
 	safe : true,
 	webpage : $client->webPageEmpty(
-		id : -8662629585141125960,
+		id : 2425891996498563584,
 		url : 'https://docs.liveproto.dev',
 	),
 );

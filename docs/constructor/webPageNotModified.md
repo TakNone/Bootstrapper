@@ -14,7 +14,7 @@ webPageNotModified#7311ca11 flags:# cached_page_views:flags.0?int = WebPage;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **cached_page_views** | [`flags.0?int`](type/int) | Page view count |
 
 ---
@@ -29,6 +29,6 @@ webPageNotModified#7311ca11 flags:# cached_page_views:flags.0?int = WebPage;
 
 ```php
 $webPage = $client->webPageNotModified(
-	cached_page_views : 39,
+	cached_page_views : 66,
 );
 ```

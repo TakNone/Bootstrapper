@@ -42,6 +42,6 @@ channels.toggleSlowMode#edd49ef0 channel:InputChannel seconds:int = Updates;
 ```php
 $updates = $client->channels->toggleSlowMode(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	seconds : 92,
+	seconds : 42,
 );
 ```

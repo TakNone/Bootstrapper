@@ -14,7 +14,7 @@ payments.getStarsRevenueWithdrawalUrl#2433dc92 flags:# ton:flags.0?true peer:Inp
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **ton** | [`flags.0?true`](type/true) | If set, withdraws channel/ad revenue in TON |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Channel or bot from which to withdraw funds |
 | **amount** | [`flags.1?long`](type/long) | The amount of stars or nanotons to withdraw |
@@ -45,7 +45,7 @@ payments.getStarsRevenueWithdrawalUrl#2433dc92 flags:# ton:flags.0?true peer:Inp
 $paymentsStarsRevenueWithdrawalUrl = $client->payments->getStarsRevenueWithdrawalUrl(
 	ton : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	amount : 208809191218974693,
+	amount : 945903052238127962,
 	password : $client->inputCheckPasswordEmpty(),
 );
 ```

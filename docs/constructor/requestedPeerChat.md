@@ -14,7 +14,7 @@ requestedPeerChat#7307544f flags:# chat_id:long title:flags.0?string photo:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>chat_id</mark> | [`long`](type/long) | Chat ID |
 | **title** | [`flags.0?string`](type/string) | Chat title |
 | **photo** | [`flags.2?Photo`](type/Photo) | Chat photo |
@@ -31,10 +31,10 @@ requestedPeerChat#7307544f flags:# chat_id:long title:flags.0?string photo:flags
 
 ```php
 $requestedPeer = $client->requestedPeerChat(
-	chat_id : 444073046017188728,
-	title : '0k5phYZXFqU6aVDt',
+	chat_id : -5252059869643903117,
+	title : 'i6kYWCZRT9NXMmfa',
 	photo : $client->photoEmpty(
-		id : -7044976547397038675,
+		id : 7810185933539130167,
 	),
 );
 ```

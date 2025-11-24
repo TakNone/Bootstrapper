@@ -14,7 +14,7 @@ businessLocation#ac5c1af7 flags:# geo_point:flags.0?GeoPoint address:string = Bu
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **geo_point** | [`flags.0?GeoPoint`](type/GeoPoint) | Geographical coordinates (optional) |
 | <mark>address</mark> | [`string`](type/string) | Textual description of the address (mandatory) |
 
@@ -31,6 +31,6 @@ businessLocation#ac5c1af7 flags:# geo_point:flags.0?GeoPoint address:string = Bu
 ```php
 $businessLocation = $client->businessLocation(
 	geo_point : $client->geoPointEmpty(),
-	address : 'DNt4Uwu07YiTFQc3',
+	address : 'b4NUHTxe9w8LQCO5',
 );
 ```

@@ -14,7 +14,7 @@ help.peerColorOption#adec6ebe flags:# hidden:flags.0?true color_id:int colors:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **hidden** | [`flags.0?true`](type/true) | Whether this palette should not be displayed as an option to the user when choosing a palette to apply to profile pages or message accents |
 | <mark>color_id</mark> | [`int`](type/int) | Palette ID |
 | **colors** | [`flags.1?help.PeerColorSet`](type/help.PeerColorSet) | Light mode palette. Will be empty for IDs 0 to 6 inclusive, in which case a palette containing a single color from the following colors should be used: red, orange, violet, green, cyan, blue, pink for indexes 0 to 6 (i.e. the same colors used for randomized fallback message accent colors) |
@@ -35,14 +35,14 @@ help.peerColorOption#adec6ebe flags:# hidden:flags.0?true color_id:int colors:fl
 ```php
 $helpPeerColorOption = $client->help->peerColorOption(
 	hidden : true,
-	color_id : 55,
+	color_id : 45,
 	colors : $client->help->peerColorSet(
-		colors : array(79),
+		colors : array(77),
 	),
 	dark_colors : $client->help->peerColorSet(
-		colors : array(3),
+		colors : array(33),
 	),
-	channel_min_level : 67,
-	group_min_level : 1,
+	channel_min_level : 50,
+	group_min_level : 8,
 );
 ```

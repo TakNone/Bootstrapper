@@ -29,9 +29,9 @@ storyReactionPublicForward#bbab2643 message:Message = StoryReaction;
 ```php
 $storyReaction = $client->storyReactionPublicForward(
 	message : $client->messageEmpty(
-		id : 86,
+		id : 5,
 		peer_id : $client->peerUser(
-			user_id : -8537110895887557864,
+			user_id : -3586552117934305885,
 		),
 	),
 );

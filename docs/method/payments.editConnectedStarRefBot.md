@@ -14,7 +14,7 @@ payments.editConnectedStarRefBot#e4fca4a3 flags:# revoked:flags.0?true peer:Inpu
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoked** | [`flags.0?true`](type/true) | If set, leaves the bot's affiliate program |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The peer that was affiliated |
 | <mark>link</mark> | [`string`](type/string) | The affiliate link to revoke |
@@ -41,6 +41,6 @@ payments.editConnectedStarRefBot#e4fca4a3 flags:# revoked:flags.0?true peer:Inpu
 $paymentsConnectedStarRefBots = $client->payments->editConnectedStarRefBot(
 	revoked : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	link : 'f5TRaQL8dSIkWGuv',
+	link : 'dRtZLunh0S3MbNjC',
 );
 ```

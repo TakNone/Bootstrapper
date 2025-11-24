@@ -14,7 +14,7 @@ messages.foundStickersNotModified#6010c534 flags:# next_offset:flags.0?int = mes
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **next_offset** | [`flags.0?int`](type/int) | Offset for pagination |
 
 ---
@@ -29,6 +29,6 @@ messages.foundStickersNotModified#6010c534 flags:# next_offset:flags.0?int = mes
 
 ```php
 $messagesFoundStickers = $client->messages->foundStickersNotModified(
-	next_offset : 26,
+	next_offset : 14,
 );
 ```

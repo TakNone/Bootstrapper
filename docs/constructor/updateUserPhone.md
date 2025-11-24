@@ -29,7 +29,7 @@ updateUserPhone#5492a13 user_id:long phone:string = Update;
 
 ```php
 $update = $client->updateUserPhone(
-	user_id : 678035165651976807,
+	user_id : 8059026951273745682,
 	phone : '+1234567890',
 );
 ```

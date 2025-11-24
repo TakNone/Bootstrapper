@@ -14,7 +14,7 @@ connectedBotStarRef#19a13f71 flags:# revoked:flags.1?true url:string date:int bo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoked** | [`flags.1?true`](type/true) | If set, this affiliation was revoked by the affiliate using payments.editConnectedStarRefBot, or by the affiliation program owner using bots.updateStarRefProgram |
 | <mark>url</mark> | [`string`](type/string) | Referral link to be shared |
 | <mark>date</mark> | [`int`](type/int) | When did we affiliate with bot_id |
@@ -38,11 +38,11 @@ connectedBotStarRef#19a13f71 flags:# revoked:flags.1?true url:string date:int bo
 $connectedBotStarRef = $client->connectedBotStarRef(
 	revoked : true,
 	url : 'https://docs.liveproto.dev',
-	date : 44,
-	bot_id : -2909605755285540982,
-	commission_permille : 50,
-	duration_months : 25,
-	participants : 4145906696450396226,
-	revenue : 429110507975962946,
+	date : 70,
+	bot_id : -2024174426640536684,
+	commission_permille : 87,
+	duration_months : 46,
+	participants : -7587356558388111998,
+	revenue : 6039730047757633731,
 );
 ```

@@ -14,7 +14,7 @@ payments.saveStarGift#2a2a697c flags:# unsave:flags.0?true stargift:InputSavedSt
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **unsave** | [`flags.0?true`](type/true) | If set, hides the gift from our profile |
 | <mark>stargift</mark> | [`InputSavedStarGift`](type/InputSavedStarGift) | The gift to display or remove |
 
@@ -43,7 +43,7 @@ payments.saveStarGift#2a2a697c flags:# unsave:flags.0?true stargift:InputSavedSt
 $bool = $client->payments->saveStarGift(
 	unsave : true,
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 20,
+		msg_id : 91,
 	),
 );
 ```

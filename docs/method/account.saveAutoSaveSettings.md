@@ -14,7 +14,7 @@ account.saveAutoSaveSettings#d69b8361 flags:# users:flags.0?true chats:flags.1?t
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **users** | [`flags.0?true`](type/true) | Whether the new settings should affect all private chats |
 | **chats** | [`flags.1?true`](type/true) | Whether the new settings should affect all groups |
 | **broadcasts** | [`flags.2?true`](type/true) | Whether the new settings should affect all channels |
@@ -48,7 +48,7 @@ $bool = $client->account->saveAutoSaveSettings(
 	settings : $client->autoSaveSettings(
 		photos : true,
 		videos : true,
-		video_max_size : 8848658532640654814,
+		video_max_size : -2196730346039519701,
 	),
 );
 ```

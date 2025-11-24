@@ -30,8 +30,8 @@ invokeWithApnsSecret#dae54f8 {X:Type} nonce:string secret:string query:!X = X;
 
 ```php
 $x = $client->invokeWithApnsSecret(
-	nonce : 'IbBo3CAJOxaVvDu2',
-	secret : '8NnQIyp6UMq3udAY',
+	nonce : '2gWpCtYxfmkndDlO',
+	secret : 'sBEQ8ma2o34NXLKn',
 	query : $client->help->getConfig(raw : true),
 );
 ```

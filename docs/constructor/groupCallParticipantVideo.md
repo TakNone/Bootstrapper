@@ -14,7 +14,7 @@ groupCallParticipantVideo#67753ac8 flags:# paused:flags.0?true endpoint:string s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **paused** | [`flags.0?true`](type/true) | Whether the stream is currently paused |
 | <mark>endpoint</mark> | [`string`](type/string) | Endpoint |
 | <mark>source_groups</mark> | [`Vector<GroupCallParticipantVideoSourceGroup>`](type/GroupCallParticipantVideoSourceGroup) | Source groups |
@@ -33,13 +33,13 @@ groupCallParticipantVideo#67753ac8 flags:# paused:flags.0?true endpoint:string s
 ```php
 $groupCallParticipantVideo = $client->groupCallParticipantVideo(
 	paused : true,
-	endpoint : 'mj7rWdhiLsQc6ulg',
+	endpoint : 'HEuCzOgU3cbMXfJh',
 	source_groups : array(
 		$client->groupCallParticipantVideoSourceGroup(
-			semantics : 'hLPzHlymjqscn39V',
-			sources : array(91),
+			semantics : 'geNObKyusnkipxZ5',
+			sources : array(81),
 		),
 	),
-	audio_source : 18,
+	audio_source : 47,
 );
 ```

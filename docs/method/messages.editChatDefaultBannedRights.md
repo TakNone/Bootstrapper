@@ -67,7 +67,7 @@ $updates = $client->messages->editChatDefaultBannedRights(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 20,
+		until_date : 15,
 	),
 );
 ```

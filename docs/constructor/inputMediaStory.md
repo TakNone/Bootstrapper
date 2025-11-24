@@ -30,6 +30,6 @@ inputMediaStory#89fdd778 peer:InputPeer id:int = InputMedia;
 ```php
 $inputMedia = $client->inputMediaStory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 73,
+	id : 53,
 );
 ```

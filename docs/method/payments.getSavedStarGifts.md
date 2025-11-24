@@ -14,7 +14,7 @@ payments.getSavedStarGifts#a319e569 flags:# exclude_unsaved:flags.0?true exclude
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **exclude_unsaved** | [`flags.0?true`](type/true) | Exclude gifts not pinned on the profile |
 | **exclude_saved** | [`flags.1?true`](type/true) | Exclude gifts pinned on the profile |
 | **exclude_unlimited** | [`flags.2?true`](type/true) | Exclude gifts that do not have the starGift.limited flag set |
@@ -60,8 +60,8 @@ $paymentsSavedStarGifts = $client->payments->getSavedStarGifts(
 	peer_color_available : true,
 	exclude_hosted : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	collection_id : 18,
-	offset : 'ZoKRhjX4i9V17Txb',
-	limit : 11,
+	collection_id : 38,
+	offset : 'PfrT87nejJkwVX3C',
+	limit : 25,
 );
 ```

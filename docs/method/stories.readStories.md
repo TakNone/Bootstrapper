@@ -40,6 +40,6 @@ stories.readStories#a556dac8 peer:InputPeer max_id:int = Vector<int>;
 ```php
 $int = $client->stories->readStories(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	max_id : 7,
+	max_id : 81,
 );
 ```

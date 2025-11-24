@@ -14,7 +14,7 @@ messageReplies#83d60fc2 flags:# comments:flags.0?true replies:int replies_pts:in
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **comments** | [`flags.0?true`](type/true) | Whether this constructor contains information about the comment section of a channel post, or a simple message thread |
 | <mark>replies</mark> | [`int`](type/int) | Contains the total number of replies in this thread or comment section |
 | <mark>replies_pts</mark> | [`int`](type/int) | PTS of the message that started this thread |
@@ -36,21 +36,21 @@ messageReplies#83d60fc2 flags:# comments:flags.0?true replies:int replies_pts:in
 ```php
 $messageReplies = $client->messageReplies(
 	comments : true,
-	replies : 67,
-	replies_pts : 27,
+	replies : 49,
+	replies_pts : 2,
 	recent_repliers : array(
 		$client->peerUser(
-			user_id : 6081703839666959447,
+			user_id : -2349688093557765328,
 		),
 		$client->peerChat(
-			chat_id : -3020257301967670425,
+			chat_id : -639369367470075894,
 		),
 		$client->peerChannel(
-			channel_id : 444035360209993201,
+			channel_id : 3593424711850959088,
 		),
 	),
-	channel_id : -5014982267948776148,
-	max_id : 72,
-	read_max_id : 1,
+	channel_id : 5139782292208409768,
+	max_id : 98,
+	read_max_id : 69,
 );
 ```

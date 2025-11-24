@@ -14,7 +14,7 @@ messages.getInlineBotResults#514e999d flags:# bot:InputUser peer:InputPeer geo_p
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>bot</mark> | [`InputUser`](type/InputUser) | The bot to query |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The currently opened chat |
 | **geo_point** | [`flags.0?InputGeoPoint`](type/InputGeoPoint) | The geolocation, if requested |
@@ -51,7 +51,7 @@ $messagesBotResults = $client->messages->getInlineBotResults(
 	bot : $client->get_input_user(user : '@TakNone'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	geo_point : $client->inputGeoPointEmpty(),
-	query : 'UFIxV0oWbS67h1g3',
-	offset : 'MloJnAyZtXBmRf9k',
+	query : '2uaBgbhDzq4wct8j',
+	offset : 'LZluiNmtsSnVAX8I',
 );
 ```

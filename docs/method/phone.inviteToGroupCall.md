@@ -43,8 +43,8 @@ phone.inviteToGroupCall#7b393160 call:InputGroupCall users:Vector<InputUser> = U
 ```php
 $updates = $client->phone->inviteToGroupCall(
 	call : $client->inputGroupCall(
-		id : -4087224616490546844,
-		access_hash : 2054459087673425561,
+		id : 2594609255606012244,
+		access_hash : -230766038952137431,
 	),
 	users : array($client->get_input_user(user : '@TakNone')),
 );

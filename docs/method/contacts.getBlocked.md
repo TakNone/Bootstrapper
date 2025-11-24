@@ -14,7 +14,7 @@ contacts.getBlocked#9a868f80 flags:# my_stories_from:flags.0?true offset:int lim
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **my_stories_from** | [`flags.0?true`](type/true) | Whether to fetch the story blocklist; if not set, will fetch the main blocklist. See here » for differences between the two |
 | <mark>offset</mark> | [`int`](type/int) | The number of list elements to be skipped |
 | <mark>limit</mark> | [`int`](type/int) | The number of list elements to be returned |
@@ -33,6 +33,6 @@ contacts.getBlocked#9a868f80 flags:# my_stories_from:flags.0?true offset:int lim
 $contactsBlocked = $client->contacts->getBlocked(
 	my_stories_from : true,
 	offset : 0,
-	limit : 50,
+	limit : 91,
 );
 ```

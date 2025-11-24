@@ -15,7 +15,7 @@ updateChannelTooLong#108d941f flags:# channel_id:long pts:flags.0?int = Update;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>channel_id</mark> | [`long`](type/long) | The channel |
 | **pts** | [`flags.0?int`](type/int) | The PTS |
 
@@ -31,7 +31,7 @@ updateChannelTooLong#108d941f flags:# channel_id:long pts:flags.0?int = Update;
 
 ```php
 $update = $client->updateChannelTooLong(
-	channel_id : -2201205268032174544,
-	pts : 59,
+	channel_id : 1439254443116432140,
+	pts : 39,
 );
 ```

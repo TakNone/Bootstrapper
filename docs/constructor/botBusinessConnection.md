@@ -14,7 +14,7 @@ botBusinessConnection#8f34b2f5 flags:# disabled:flags.1?true connection_id:strin
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **disabled** | [`flags.1?true`](type/true) | Whether this business connection is currently disabled |
 | <mark>connection_id</mark> | [`string`](type/string) | Business connection ID, used to identify messages coming from the connection and to reply to them as specified here » |
 | <mark>user_id</mark> | [`long`](type/long) | ID of the user that the bot is connected to via this connection |
@@ -35,10 +35,10 @@ botBusinessConnection#8f34b2f5 flags:# disabled:flags.1?true connection_id:strin
 ```php
 $botBusinessConnection = $client->botBusinessConnection(
 	disabled : true,
-	connection_id : 'GnWSOJREPveL7V41',
-	user_id : 1416603940138814959,
-	dc_id : 17,
-	date : 92,
+	connection_id : 'InLuXEUpfHNZ54Qa',
+	user_id : -6877260914335660005,
+	dc_id : 24,
+	date : 27,
 	rights : $client->businessBotRights(
 		reply : true,
 		read_messages : true,

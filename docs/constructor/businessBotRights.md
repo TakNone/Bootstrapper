@@ -14,7 +14,7 @@ businessBotRights#a0624cf7 flags:# reply:flags.0?true read_messages:flags.1?true
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **reply** | [`flags.0?true`](type/true) | Whether the bot can send and edit messages in private chats that had incoming messages in the last 24 hours |
 | **read_messages** | [`flags.1?true`](type/true) | Whether the bot can mark incoming private messages as read |
 | **delete_sent_messages** | [`flags.2?true`](type/true) | Whether the bot can delete messages sent by the bot |

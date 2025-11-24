@@ -14,7 +14,7 @@ account.updateConnectedBot#66a08c7e flags:# deleted:flags.1?true rights:flags.0?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **deleted** | [`flags.1?true`](type/true) | Whether to fully disconnect the bot from the current account |
 | **rights** | [`flags.0?BusinessBotRights`](type/BusinessBotRights) | Business bot rights |
 | <mark>bot</mark> | [`InputUser`](type/InputUser) | The bot to connect or disconnect |

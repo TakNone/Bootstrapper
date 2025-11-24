@@ -14,7 +14,7 @@ inputReplyToMessage#869fbe10 flags:# reply_to_msg_id:int top_msg_id:flags.0?int 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>reply_to_msg_id</mark> | [`int`](type/int) | The message ID to reply to |
 | **top_msg_id** | [`flags.0?int`](type/int) | This field must contain the topic ID only when replying to messages in forum topics different from the "General" topic (i.e. reply_to_msg_id is set and reply_to_msg_id != topicID and topicID != 1).  If the replied-to message is deleted before the method finishes execution, the value in this field will be used to send the message to the correct topic, instead of the "General" topic |
 | **reply_to_peer_id** | [`flags.1?InputPeer`](type/InputPeer) | Used to reply to messages sent to another chat (specified here), can only be used for non-protected chats and messages |
@@ -36,104 +36,104 @@ inputReplyToMessage#869fbe10 flags:# reply_to_msg_id:int top_msg_id:flags.0?int 
 
 ```php
 $inputReplyTo = $client->inputReplyToMessage(
-	reply_to_msg_id : 75,
-	top_msg_id : 84,
+	reply_to_msg_id : 18,
+	top_msg_id : 2,
 	reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-	quote_text : 'JWjzNm0x4UhE3avZ',
+	quote_text : 'iU4NuEwCs06LAK1R',
 	quote_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 80,
+			length : 49,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 78,
+			length : 22,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 99,
+			length : 64,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 15,
+			length : 86,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 78,
+			length : 44,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 8,
+			length : 82,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 96,
+			length : 51,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 84,
+			length : 35,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 60,
+			length : 62,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 83,
-			language : 'MX5JDEx1kZt3s82V',
+			length : 11,
+			language : '07Jsy8w9oBTmI5Rb',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 65,
+			length : 98,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 19,
-			user_id : 4167809932544403577,
+			length : 88,
+			user_id : -5868195903898863419,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 22,
+			length : 93,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 60,
+			length : 19,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 48,
+			length : 58,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 65,
+			length : 36,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 47,
+			length : 42,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 100,
+			length : 97,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 94,
+			length : 76,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 95,
-			document_id : 4816885155434921439,
+			length : 56,
+			document_id : 8007834375739040483,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 36,
+			length : 78,
 		),
 	),
-	quote_offset : 29,
+	quote_offset : 3,
 	monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-	todo_item_id : 95,
+	todo_item_id : 22,
 );
 ```

@@ -29,16 +29,16 @@ messageActionRequestedPeer#31518e9b button_id:int peers:Vector<Peer> = MessageAc
 
 ```php
 $messageAction = $client->messageActionRequestedPeer(
-	button_id : 28,
+	button_id : 87,
 	peers : array(
 		$client->peerUser(
-			user_id : 8947822409100590163,
+			user_id : 1908519835427035003,
 		),
 		$client->peerChat(
-			chat_id : -7302867457738890706,
+			chat_id : 6509523534998092705,
 		),
 		$client->peerChannel(
-			channel_id : 6043601485876618754,
+			channel_id : -3336447527894894864,
 		),
 	),
 );

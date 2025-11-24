@@ -14,7 +14,7 @@ messages.uploadMedia#14967978 flags:# business_connection_id:flags.0?string peer
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **business_connection_id** | [`flags.0?string`](type/string) | Whether the media will be used only in the specified business connection », and not directly by the bot |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The chat, can be inputPeerEmpty for bots and inputPeerSelf for users |
 | <mark>media</mark> | [`InputMedia`](type/InputMedia) | File uploaded in chunks as described in files » |
@@ -57,7 +57,7 @@ messages.uploadMedia#14967978 flags:# business_connection_id:flags.0?string peer
 
 ```php
 $messageMedia = $client->messages->uploadMedia(
-	business_connection_id : 'aLcKnzQ3Zwe9q7D0',
+	business_connection_id : '9mAz62KhZoFIeju3',
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );

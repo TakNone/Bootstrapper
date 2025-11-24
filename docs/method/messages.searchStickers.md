@@ -14,7 +14,7 @@ messages.searchStickers#29b1c66a flags:# emojis:flags.0?true q:string emoticon:s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **emojis** | [`flags.0?true`](type/true) | If set, returns custom emoji stickers |
 | <mark>q</mark> | [`string`](type/string) | The search term |
 | <mark>emoticon</mark> | [`string`](type/string) | Space-separated list of emojis to search for |
@@ -36,11 +36,11 @@ messages.searchStickers#29b1c66a flags:# emojis:flags.0?true q:string emoticon:s
 ```php
 $messagesFoundStickers = $client->messages->searchStickers(
 	emojis : true,
-	q : 'WKma57ihGPClLNVT',
-	emoticon : 'l5930Uwx81hIAYNf',
-	lang_code : array('K9QpZJNl4DIfnqMe'),
+	q : 'Dho3ERZuBdnOfvHC',
+	emoticon : '4RWrOicvI0J9NMzy',
+	lang_code : array('EOXjepFqvU6KoDng'),
 	offset : 0,
-	limit : 17,
+	limit : 2,
 	hash : 0,
 );
 ```

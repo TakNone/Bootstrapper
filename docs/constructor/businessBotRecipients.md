@@ -14,7 +14,7 @@ businessBotRecipients#b88cf373 flags:# existing_chats:flags.0?true new_chats:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **existing_chats** | [`flags.0?true`](type/true) | Selects all existing private chats |
 | **new_chats** | [`flags.1?true`](type/true) | Selects all new private chats |
 | **contacts** | [`flags.2?true`](type/true) | Selects all private chats with contacts |
@@ -40,7 +40,7 @@ $businessBotRecipients = $client->businessBotRecipients(
 	contacts : true,
 	non_contacts : true,
 	exclude_selected : true,
-	users : array(6518657147532585570),
-	exclude_users : array(5288883948137065509),
+	users : array(-3177827210391854030),
+	exclude_users : array(5281060753578353037),
 );
 ```

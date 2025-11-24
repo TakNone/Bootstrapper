@@ -14,7 +14,7 @@ updateDeleteScheduledMessages#f2a71983 flags:# peer:Peer messages:Vector<int> se
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer |
 | <mark>messages</mark> | [`Vector<int>`](type/int) | Deleted scheduled messages |
 | **sent_messages** | [`flags.0?Vector<int>`](type/int) | If set, this update indicates that some scheduled messages were sent (not simply deleted from the schedule queue).  In this case, the messages field will contain the scheduled message IDs for the sent messages (initially returned in updateNewScheduledMessage), and sent_messages will contain the real message IDs for the sent messages |
@@ -32,9 +32,9 @@ updateDeleteScheduledMessages#f2a71983 flags:# peer:Peer messages:Vector<int> se
 ```php
 $update = $client->updateDeleteScheduledMessages(
 	peer : $client->peerUser(
-		user_id : -823723695300746381,
+		user_id : 8478869986004185123,
 	),
-	messages : array(13),
-	sent_messages : array(18),
+	messages : array(31),
+	sent_messages : array(8),
 );
 ```

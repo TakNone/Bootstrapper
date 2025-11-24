@@ -12,7 +12,7 @@ recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **live** | [`flags.0?true`](type/true) | NOTHING |
 | **max_id** | [`flags.1?int`](type/int) | NOTHING |
 
@@ -29,6 +29,6 @@ recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;
 ```php
 $recentStory = $client->recentStory(
 	live : true,
-	max_id : 32,
+	max_id : 29,
 );
 ```

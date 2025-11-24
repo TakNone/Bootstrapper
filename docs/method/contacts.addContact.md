@@ -14,7 +14,7 @@ contacts.addContact#d9ba2e54 flags:# add_phone_privacy_exception:flags.0?true id
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **add_phone_privacy_exception** | [`flags.0?true`](type/true) | Allow the other user to see our phone number? |
 | <mark>id</mark> | [`InputUser`](type/InputUser) | Telegram ID of the other user |
 | <mark>first_name</mark> | [`string`](type/string) | First name |
@@ -51,97 +51,97 @@ $updates = $client->contacts->addContact(
 	last_name : 'None',
 	phone : '+1234567890',
 	note : $client->textWithEntities(
-		text : 'a2GjKuRJnYISoAtf',
+		text : 'b0tYS6yudRFzIAn1',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 21,
+				length : 99,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 42,
+				length : 49,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 57,
+				length : 43,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 13,
+				length : 11,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 52,
+				length : 83,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 18,
+				length : 61,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 70,
+				length : 21,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 89,
+				length : 98,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 64,
+				length : 56,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 59,
-				language : 'pWy1lrvH4dN3gzjX',
+				length : 50,
+				language : 'VfbvEI9Ra6WSnYDU',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 20,
+				length : 72,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 90,
-				user_id : 8804030266652757381,
+				length : 86,
+				user_id : -3109296452672286100,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 97,
+				length : 10,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 25,
+				length : 83,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 33,
+				length : 53,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 63,
+				length : 36,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 15,
+				length : 9,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 12,
+				length : 22,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 86,
+				length : 56,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 12,
-				document_id : 1328450422038589630,
+				length : 53,
+				document_id : -1656399340118215355,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 90,
+				length : 15,
 			),
 		),
 	),

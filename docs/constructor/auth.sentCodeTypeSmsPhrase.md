@@ -14,7 +14,7 @@ auth.sentCodeTypeSmsPhrase#b37794af flags:# beginning:flags.0?string = auth.Sent
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **beginning** | [`flags.0?string`](type/string) | If set, the secret phrase (and the SMS) starts with this word |
 
 ---
@@ -29,6 +29,6 @@ auth.sentCodeTypeSmsPhrase#b37794af flags:# beginning:flags.0?string = auth.Sent
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeSmsPhrase(
-	beginning : 'VpqwPu2cmL670fYU',
+	beginning : 'Ov3nBVUR9FCxKyXS',
 );
 ```

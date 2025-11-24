@@ -40,9 +40,9 @@ messages.readEncryptedHistory#7f4b690a peer:InputEncryptedChat max_date:int = Bo
 ```php
 $bool = $client->messages->readEncryptedHistory(
 	peer : $client->inputEncryptedChat(
-		chat_id : 36,
-		access_hash : -1239591369704952311,
+		chat_id : 27,
+		access_hash : 879476169806725456,
 	),
-	max_date : 49,
+	max_date : 55,
 );
 ```

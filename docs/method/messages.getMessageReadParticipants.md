@@ -41,6 +41,6 @@ messages.getMessageReadParticipants#31c1c44f peer:InputPeer msg_id:int = Vector<
 ```php
 $readParticipantDate = $client->messages->getMessageReadParticipants(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 12,
+	msg_id : 69,
 );
 ```

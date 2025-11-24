@@ -14,7 +14,7 @@ payments.savedInfo#fb8fe43c flags:# has_saved_credentials:flags.1?true saved_inf
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **has_saved_credentials** | [`flags.1?true`](type/true) | Whether the user has some saved payment credentials |
 | **saved_info** | [`flags.0?PaymentRequestedInfo`](type/PaymentRequestedInfo) | Saved server-side order information |
 
@@ -32,16 +32,16 @@ payments.savedInfo#fb8fe43c flags:# has_saved_credentials:flags.1?true saved_inf
 $paymentsSavedInfo = $client->payments->savedInfo(
 	has_saved_credentials : true,
 	saved_info : $client->paymentRequestedInfo(
-		name : 'mcNSWk8nO9j3s7D5',
+		name : 'wqAp37G8nio4tZve',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : 'LqDTJoaEnSdgxj8V',
-			street_line2 : '2QAvo3mzUcOJnsMf',
-			city : 'XDrMWYudAtzlmJoh',
-			state : 'mRBkrxqQ9eLoMNiC',
-			country_iso2 : 'UfZR69nQE8CFLNhc',
-			post_code : 'vK7dLySVEA23Y5Fo',
+			street_line1 : 'tNABVamhz5RiQKxr',
+			street_line2 : 'hjygckPLI027rewZ',
+			city : 'LtGXlFd7wZcuyDUN',
+			state : 'P52JQxndH1Z6S4q9',
+			country_iso2 : 'qXPAsxK6hJLul5ik',
+			post_code : 'UszZ7RxFGc9jMo1m',
 		),
 	),
 );

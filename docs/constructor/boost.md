@@ -14,7 +14,7 @@ boost#4b3e14d6 flags:# gift:flags.1?true giveaway:flags.2?true unclaimed:flags.3
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **gift** | [`flags.1?true`](type/true) | Whether this boost was applied because the channel/supergroup directly gifted a subscription to the user |
 | **giveaway** | [`flags.2?true`](type/true) | Whether this boost was applied because the user was chosen in a giveaway started by the channel/supergroup |
 | **unclaimed** | [`flags.3?true`](type/true) | If set, the user hasn't yet invoked payments.applyGiftCode to claim a subscription gifted directly or in a giveaway by the channel |
@@ -42,13 +42,13 @@ $boost = $client->boost(
 	gift : true,
 	giveaway : true,
 	unclaimed : true,
-	id : 'bWHC98TD4gyAlizx',
-	user_id : -2911793357611432647,
-	giveaway_msg_id : 19,
-	date : 32,
-	expires : 43,
-	used_gift_slug : 'Czo78hyDu42GYeds',
-	multiplier : 50,
-	stars : 303143125577114111,
+	id : 'UEJspVStTiuPz9bN',
+	user_id : -3485380935143751568,
+	giveaway_msg_id : 66,
+	date : 89,
+	expires : 58,
+	used_gift_slug : 'lQn54FqUc1DjdAJI',
+	multiplier : 87,
+	stars : 8713295061056718913,
 );
 ```

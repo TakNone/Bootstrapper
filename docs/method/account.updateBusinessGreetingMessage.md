@@ -14,7 +14,7 @@ account.updateBusinessGreetingMessage#66cdafc4 flags:# message:flags.0?InputBusi
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **message** | [`flags.0?InputBusinessGreetingMessage`](type/InputBusinessGreetingMessage) | Greeting message configuration and contents |
 
 ---
@@ -30,7 +30,7 @@ account.updateBusinessGreetingMessage#66cdafc4 flags:# message:flags.0?InputBusi
 ```php
 $bool = $client->account->updateBusinessGreetingMessage(
 	message : $client->inputBusinessGreetingMessage(
-		shortcut_id : 48,
+		shortcut_id : 52,
 		recipients : $client->inputBusinessRecipients(
 			existing_chats : true,
 			new_chats : true,
@@ -39,7 +39,7 @@ $bool = $client->account->updateBusinessGreetingMessage(
 			exclude_selected : true,
 			users : array($client->get_input_user(user : '@TakNone')),
 		),
-		no_activity_days : 24,
+		no_activity_days : 5,
 	),
 );
 ```

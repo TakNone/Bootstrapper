@@ -14,7 +14,7 @@ payments.sendPaymentForm#2d03522f flags:# form_id:long invoice:InputInvoice requ
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>form_id</mark> | [`long`](type/long) | Form ID |
 | <mark>invoice</mark> | [`InputInvoice`](type/InputInvoice) | Invoice |
 | **requested_info_id** | [`flags.0?string`](type/string) | ID of saved and validated order info |
@@ -47,17 +47,17 @@ payments.sendPaymentForm#2d03522f flags:# form_id:long invoice:InputInvoice requ
 
 ```php
 $paymentsPaymentResult = $client->payments->sendPaymentForm(
-	form_id : 6487595025029330508,
+	form_id : -1300472207353476993,
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-		msg_id : 33,
+		msg_id : 44,
 	),
-	requested_info_id : 'uCJBiPjwKEGe9R7Z',
-	shipping_option_id : 'nGBpbKOYlQkUIA6L',
+	requested_info_id : '0Sd7g9nhXeYLBKts',
+	shipping_option_id : '3q6w8nS1Qt5AbDjv',
 	credentials : $client->inputPaymentCredentialsSaved(
-		id : 'MICuJKWaQA1B67rR',
+		id : 'Ngoq5E21OfkjHLST',
 		tmp_password : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
-	tip_amount : 7750638627358742131,
+	tip_amount : -5603240831142445560,
 );
 ```

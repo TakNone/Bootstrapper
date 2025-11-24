@@ -14,7 +14,7 @@ channelAdminLogEventActionPinTopic#5d8d353b flags:# prev_topic:flags.0?ForumTopi
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **prev_topic** | [`flags.0?ForumTopic`](type/ForumTopic) | Previous topic information |
 | **new_topic** | [`flags.1?ForumTopic`](type/ForumTopic) | New topic information |
 
@@ -31,10 +31,10 @@ channelAdminLogEventActionPinTopic#5d8d353b flags:# prev_topic:flags.0?ForumTopi
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionPinTopic(
 	prev_topic : $client->forumTopicDeleted(
-		id : 52,
+		id : 93,
 	),
 	new_topic : $client->forumTopicDeleted(
-		id : 88,
+		id : 18,
 	),
 );
 ```

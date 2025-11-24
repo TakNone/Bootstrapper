@@ -29,7 +29,7 @@ notifyPeer#9fd40bd8 peer:Peer = NotifyPeer;
 ```php
 $notifyPeer = $client->notifyPeer(
 	peer : $client->peerUser(
-		user_id : 5612206020421832598,
+		user_id : -3525257245412751693,
 	),
 );
 ```

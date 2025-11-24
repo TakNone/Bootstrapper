@@ -14,7 +14,7 @@ messageActionPaymentRefunded#41b3e202 flags:# peer:Peer currency:string total_am
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Identifier of the peer that returned the funds |
 | <mark>currency</mark> | [`string`](type/string) | Currency, XTR for Telegram Stars |
 | <mark>total_amount</mark> | [`long`](type/long) | Total price in the smallest units of the currency (integer, not float/double). For example, for a price of US$ 1.45 pass amount = 145. See the exp parameter in currencies.json, it shows the number of digits past the decimal point for each currency (2 for the majority of currencies) |
@@ -34,14 +34,14 @@ messageActionPaymentRefunded#41b3e202 flags:# peer:Peer currency:string total_am
 ```php
 $messageAction = $client->messageActionPaymentRefunded(
 	peer : $client->peerUser(
-		user_id : 4538046713772327468,
+		user_id : 3912785253550694201,
 	),
-	currency : 'S6yHp1VJa8fFgLYx',
-	total_amount : 2327320153142426179,
+	currency : 'PgBqnEe8XYWAR5cs',
+	total_amount : -3434410390238766467,
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	charge : $client->paymentCharge(
-		id : 'jmuNiXhTZ8O1PtJk',
-		provider_charge_id : 'sjDa5HQ9vW4OVhu2',
+		id : 'GR4JXtjKFHwpgiez',
+		provider_charge_id : 'P3F1hTwkBug02m7H',
 	),
 );
 ```

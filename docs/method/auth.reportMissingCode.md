@@ -40,6 +40,6 @@ auth.reportMissingCode#cb9deff6 phone_number:string phone_code_hash:string mnc:s
 $bool = $client->auth->reportMissingCode(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	mnc : 'x9YNMwphLafPVTGl',
+	mnc : 'UoVt84fZh3RdgaHm',
 );
 ```

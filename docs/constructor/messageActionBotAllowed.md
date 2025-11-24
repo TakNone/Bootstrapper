@@ -14,7 +14,7 @@ messageActionBotAllowed#c516d679 flags:# attach_menu:flags.1?true from_request:f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **attach_menu** | [`flags.1?true`](type/true) | We have authorized the bot to send us messages by installing the bot's attachment menu |
 | **from_request** | [`flags.3?true`](type/true) | We have allowed the bot to send us messages using bots.allowSendMessage » |
 | **domain** | [`flags.0?string`](type/string) | We have authorized the bot to send us messages by logging into a website via Telegram Login »; this field contains the domain name of the website on which the user has logged in |
@@ -34,7 +34,7 @@ messageActionBotAllowed#c516d679 flags:# attach_menu:flags.1?true from_request:f
 $messageAction = $client->messageActionBotAllowed(
 	attach_menu : true,
 	from_request : true,
-	domain : 'DYSqLnCZP7WoMHJl',
+	domain : 'CFK8DJASZYoz4NEf',
 	app : $client->botAppNotModified(),
 );
 ```

@@ -14,7 +14,7 @@ username#b4073647 flags:# editable:flags.0?true active:flags.1?true username:str
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **editable** | [`flags.0?true`](type/true) | Whether the username is editable, meaning it wasn't bought on fragment |
 | **active** | [`flags.1?true`](type/true) | Whether the username is active |
 | <mark>username</mark> | [`string`](type/string) | The username |

@@ -28,6 +28,6 @@ messages.updateDialogFiltersOrder#c563c1e4 order:Vector<int> = Bool;
 
 ```php
 $bool = $client->messages->updateDialogFiltersOrder(
-	order : array(65),
+	order : array(12),
 );
 ```

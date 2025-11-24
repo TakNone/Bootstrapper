@@ -14,7 +14,7 @@ updateReadChannelInbox#922e6e10 flags:# folder_id:flags.0?int channel_id:long ma
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **folder_id** | [`flags.0?int`](type/int) | Peer folder ID, for more info click here |
 | <mark>channel_id</mark> | [`long`](type/long) | Channel/supergroup ID |
 | <mark>max_id</mark> | [`int`](type/int) | Position up to which all incoming messages are read |
@@ -33,10 +33,10 @@ updateReadChannelInbox#922e6e10 flags:# folder_id:flags.0?int channel_id:long ma
 
 ```php
 $update = $client->updateReadChannelInbox(
-	folder_id : 94,
-	channel_id : 3546809883826349291,
-	max_id : 42,
-	still_unread_count : 58,
-	pts : 70,
+	folder_id : 75,
+	channel_id : 8593474591889787379,
+	max_id : 0,
+	still_unread_count : 51,
+	pts : 59,
 );
 ```

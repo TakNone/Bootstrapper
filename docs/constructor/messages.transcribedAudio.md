@@ -14,7 +14,7 @@ messages.transcribedAudio#cfb9d957 flags:# pending:flags.0?true transcription_id
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pending** | [`flags.0?true`](type/true) | Whether the transcription is partial because audio transcription is still in progress, if set the user may receive further updateTranscribedAudio updates with the updated transcription |
 | <mark>transcription_id</mark> | [`long`](type/long) | Transcription ID |
 | <mark>text</mark> | [`string`](type/string) | Transcripted text |
@@ -34,9 +34,9 @@ messages.transcribedAudio#cfb9d957 flags:# pending:flags.0?true transcription_id
 ```php
 $messagesTranscribedAudio = $client->messages->transcribedAudio(
 	pending : true,
-	transcription_id : -8435212563522075226,
-	text : 'HuQrYUGxO6ZTaX0n',
-	trial_remains_num : 1,
-	trial_remains_until_date : 17,
+	transcription_id : -6831838964335377110,
+	text : 'VBqvLmAZpQIjnx8C',
+	trial_remains_num : 86,
+	trial_remains_until_date : 40,
 );
 ```

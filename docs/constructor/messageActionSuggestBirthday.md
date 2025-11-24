@@ -27,9 +27,9 @@ messageActionSuggestBirthday#2c8f2a25 birthday:Birthday = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestBirthday(
 	birthday : $client->birthday(
-		day : 83,
-		month : 90,
-		year : 23,
+		day : 28,
+		month : 27,
+		year : 55,
 	),
 );
 ```

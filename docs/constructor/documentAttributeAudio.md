@@ -14,7 +14,7 @@ documentAttributeAudio#9852f9c6 flags:# voice:flags.10?true duration:int title:f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **voice** | [`flags.10?true`](type/true) | Whether this is a voice message |
 | <mark>duration</mark> | [`int`](type/int) | Duration in seconds |
 | **title** | [`flags.0?string`](type/string) | Name of song |
@@ -34,9 +34,9 @@ documentAttributeAudio#9852f9c6 flags:# voice:flags.10?true duration:int title:f
 ```php
 $documentAttribute = $client->documentAttributeAudio(
 	voice : true,
-	duration : 52,
-	title : 'ucQULkYH09Stq35P',
-	performer : 'Tau7e0KgxvwoR1Db',
+	duration : 27,
+	title : 'rGpzxvSb20JMY9Lu',
+	performer : 'DEc6xbLwjSFnGl58',
 	waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

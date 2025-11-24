@@ -14,7 +14,7 @@ botInlineMessageMediaGeo#51846fd flags:# geo:GeoPoint heading:flags.0?int period
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>geo</mark> | [`GeoPoint`](type/GeoPoint) | Geolocation |
 | **heading** | [`flags.0?int`](type/int) | For live locations, a direction in which the location moves, in degrees; 1-360 |
 | **period** | [`flags.1?int`](type/int) | Validity period |
@@ -34,9 +34,9 @@ botInlineMessageMediaGeo#51846fd flags:# geo:GeoPoint heading:flags.0?int period
 ```php
 $botInlineMessage = $client->botInlineMessageMediaGeo(
 	geo : $client->geoPointEmpty(),
-	heading : 21,
-	period : 22,
-	proximity_notification_radius : 8,
+	heading : 58,
+	period : 56,
+	proximity_notification_radius : 23,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

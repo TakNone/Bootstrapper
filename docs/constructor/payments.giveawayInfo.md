@@ -14,7 +14,7 @@ payments.giveawayInfo#4367daa0 flags:# participating:flags.0?true preparing_resu
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **participating** | [`flags.0?true`](type/true) | The current user is participating in the giveaway |
 | **preparing_results** | [`flags.3?true`](type/true) | If set, the giveaway has ended and the results are being prepared |
 | <mark>start_date</mark> | [`int`](type/int) | When was the giveaway started |
@@ -36,9 +36,9 @@ payments.giveawayInfo#4367daa0 flags:# participating:flags.0?true preparing_resu
 $paymentsGiveawayInfo = $client->payments->giveawayInfo(
 	participating : true,
 	preparing_results : true,
-	start_date : 95,
-	joined_too_early_date : 79,
-	admin_disallowed_chat_id : -8206452169025580278,
-	disallowed_country : 'JE8qUGirjfSYDP2F',
+	start_date : 3,
+	joined_too_early_date : 65,
+	admin_disallowed_chat_id : 8726491799927584861,
+	disallowed_country : 'hZBvUzqgCLM473rG',
 );
 ```

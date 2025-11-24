@@ -40,6 +40,6 @@ account.getTmpPassword#449e0b51 password:InputCheckPasswordSRP period:int = acco
 ```php
 $accountTmpPassword = $client->account->getTmpPassword(
 	password : $client->inputCheckPasswordEmpty(),
-	period : 75,
+	period : 51,
 );
 ```

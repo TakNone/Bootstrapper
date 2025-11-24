@@ -14,7 +14,7 @@ storyViews#8d595cd6 flags:# has_viewers:flags.1?true views_count:int forwards_co
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **has_viewers** | [`flags.1?true`](type/true) | If set, indicates that the viewers list is currently viewable, and was not yet deleted because the story has expired while the user didn't have a Premium account |
 | <mark>views_count</mark> | [`int`](type/int) | View counter of the story |
 | **forwards_count** | [`flags.2?int`](type/int) | Forward counter of the story |
@@ -35,16 +35,16 @@ storyViews#8d595cd6 flags:# has_viewers:flags.1?true views_count:int forwards_co
 ```php
 $storyViews = $client->storyViews(
 	has_viewers : true,
-	views_count : 60,
-	forwards_count : 24,
+	views_count : 52,
+	forwards_count : 85,
 	reactions : array(
 		$client->reactionCount(
-			chosen_order : 59,
+			chosen_order : 51,
 			reaction : $client->reactionEmpty(),
-			count : 19,
+			count : 45,
 		),
 	),
-	reactions_count : 67,
-	recent_viewers : array(6569300250935257154),
+	reactions_count : 93,
+	recent_viewers : array(-4585230206692710695),
 );
 ```

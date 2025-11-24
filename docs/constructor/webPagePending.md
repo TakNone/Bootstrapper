@@ -14,7 +14,7 @@ webPagePending#b0d13e47 flags:# id:long url:flags.0?string date:int = WebPage;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>id</mark> | [`long`](type/long) | ID of preview |
 | **url** | [`flags.0?string`](type/string) | URL of the webpage |
 | <mark>date</mark> | [`int`](type/int) | When was the processing started |
@@ -31,8 +31,8 @@ webPagePending#b0d13e47 flags:# id:long url:flags.0?string date:int = WebPage;
 
 ```php
 $webPage = $client->webPagePending(
-	id : -4140871372471982409,
+	id : 485744686848125830,
 	url : 'https://docs.liveproto.dev',
-	date : 68,
+	date : 76,
 );
 ```

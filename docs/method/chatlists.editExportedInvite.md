@@ -14,7 +14,7 @@ chatlists.editExportedInvite#653db63d flags:# revoked:flags.0?true chatlist:Inpu
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoked** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>chatlist</mark> | [`InputChatlist`](type/InputChatlist) | Folder ID |
 | <mark>slug</mark> | [`string`](type/string) | slug obtained from the chat folder deep link » |
@@ -48,10 +48,10 @@ chatlists.editExportedInvite#653db63d flags:# revoked:flags.0?true chatlist:Inpu
 $exportedChatlistInvite = $client->chatlists->editExportedInvite(
 	revoked : true,
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 4,
+		filter_id : 89,
 	),
-	slug : 'MZITrSXFBGQayhtd',
-	title : 'slADuBQIEivNfybF',
+	slug : 'rKdmkecsWPb5Eg71',
+	title : '9bnFEBxkdG6YrpQs',
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

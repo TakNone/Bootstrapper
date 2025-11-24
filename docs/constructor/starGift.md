@@ -14,7 +14,7 @@ starGift#1b9a4d7f flags:# limited:flags.0?true sold_out:flags.1?true birthday:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **limited** | [`flags.0?true`](type/true) | Whether this is a limited-supply gift |
 | **sold_out** | [`flags.1?true`](type/true) | Whether this gift sold out and cannot be bought anymore |
 | **birthday** | [`flags.2?true`](type/true) | Whether this is a birthday-themed gift |
@@ -62,27 +62,27 @@ $starGift = $client->starGift(
 	limited_per_user : true,
 	peer_color_available : true,
 	auction : true,
-	id : 4483345440219259531,
+	id : -1803761145388656485,
 	sticker : $client->documentEmpty(
-		id : -2570879053981201483,
+		id : 7808330644990921687,
 	),
-	stars : 5049641948747940289,
-	availability_remains : 50,
-	availability_total : 53,
-	availability_resale : 5315107667586933766,
-	convert_stars : -5445799771572636261,
-	first_sale_date : 7,
-	last_sale_date : 69,
-	upgrade_stars : -7071224267840708167,
-	resell_min_stars : 8553571295910995648,
-	title : 'q5enN4cOi9yMP8AR',
+	stars : -8852199520581766226,
+	availability_remains : 68,
+	availability_total : 20,
+	availability_resale : 4718391245539904276,
+	convert_stars : -4009801946125524112,
+	first_sale_date : 23,
+	last_sale_date : 97,
+	upgrade_stars : -5708243148403964490,
+	resell_min_stars : 7520345152241458730,
+	title : 't0Jcu6sVBY19ZORE',
 	released_by : $client->peerUser(
-		user_id : -8747480593533583814,
+		user_id : 1534097022981099854,
 	),
-	per_user_total : 22,
-	per_user_remains : 49,
-	locked_until_date : 79,
-	auction_slug : 'si6fePuQ5McxD8nd',
-	gifts_per_round : 93,
+	per_user_total : 53,
+	per_user_remains : 6,
+	locked_until_date : 96,
+	auction_slug : '21Hc7Y8zJLMZui5b',
+	gifts_per_round : 60,
 );
 ```

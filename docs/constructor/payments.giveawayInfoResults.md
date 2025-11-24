@@ -14,7 +14,7 @@ payments.giveawayInfoResults#e175e66f flags:# winner:flags.0?true refunded:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **winner** | [`flags.0?true`](type/true) | Whether we're one of the winners of this giveaway |
 | **refunded** | [`flags.1?true`](type/true) | Whether the giveaway was canceled and was fully refunded |
 | <mark>start_date</mark> | [`int`](type/int) | Start date of the giveaway |
@@ -38,11 +38,11 @@ payments.giveawayInfoResults#e175e66f flags:# winner:flags.0?true refunded:flags
 $paymentsGiveawayInfo = $client->payments->giveawayInfoResults(
 	winner : true,
 	refunded : true,
-	start_date : 23,
-	gift_code_slug : 'MQ7w9HbWNC6rJado',
-	stars_prize : 5703971189882149077,
-	finish_date : 41,
-	winners_count : 44,
-	activated_count : 85,
+	start_date : 93,
+	gift_code_slug : '6JnbrWeovXjtDluh',
+	stars_prize : 3987630550770238875,
+	finish_date : 26,
+	winners_count : 100,
+	activated_count : 28,
 );
 ```

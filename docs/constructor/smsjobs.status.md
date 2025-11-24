@@ -14,7 +14,7 @@ smsjobs.status#2aee9191 flags:# allow_international:flags.0?true recent_sent:int
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **allow_international** | [`flags.0?true`](type/true) | Allow international numbers |
 | <mark>recent_sent</mark> | [`int`](type/int) | Recently sent |
 | <mark>recent_since</mark> | [`int`](type/int) | Since |
@@ -37,12 +37,12 @@ smsjobs.status#2aee9191 flags:# allow_international:flags.0?true recent_sent:int
 ```php
 $smsjobsStatus = $client->smsjobs->status(
 	allow_international : true,
-	recent_sent : 83,
-	recent_since : 95,
-	recent_remains : 78,
-	total_sent : 59,
-	total_since : 35,
-	last_gift_slug : '9RQuMVbhHoiGP8jc',
+	recent_sent : 24,
+	recent_since : 31,
+	recent_remains : 67,
+	total_sent : 99,
+	total_since : 78,
+	last_gift_slug : 'DZKW7HYi1P5x4hpn',
 	terms_url : 'https://docs.liveproto.dev',
 );
 ```

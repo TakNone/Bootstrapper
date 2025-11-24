@@ -28,6 +28,6 @@ defaultHistoryTTL#43b46b20 period:int = DefaultHistoryTTL;
 
 ```php
 $defaultHistoryTTL = $client->defaultHistoryTTL(
-	period : 33,
+	period : 84,
 );
 ```

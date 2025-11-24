@@ -14,7 +14,7 @@ messageReactor#4ba3a95a flags:# top:flags.0?true my:flags.1?true anonymous:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **top** | [`flags.0?true`](type/true) | If set, the reactor is one of the most active reactors; may be unset if the reactor is the current user |
 | **my** | [`flags.1?true`](type/true) | If set, this reactor is the current user |
 | **anonymous** | [`flags.2?true`](type/true) | If set, the reactor is anonymous |
@@ -37,8 +37,8 @@ $messageReactor = $client->messageReactor(
 	my : true,
 	anonymous : true,
 	peer_id : $client->peerUser(
-		user_id : -8806950877324699655,
+		user_id : -857821967761938103,
 	),
-	count : 83,
+	count : 95,
 );
 ```

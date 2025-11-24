@@ -14,7 +14,7 @@ updateDraftMessage#edfc111e flags:# peer:Peer top_msg_id:flags.0?int saved_peer_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`Peer`](type/Peer) | The peer to which the draft is associated |
 | **top_msg_id** | [`flags.0?int`](type/int) | ID of the forum topic to which the draft is associated |
 | **saved_peer_id** | [`flags.1?Peer`](type/Peer) | If set, the draft is related to the specified monoforum topic ID » |
@@ -33,14 +33,14 @@ updateDraftMessage#edfc111e flags:# peer:Peer top_msg_id:flags.0?int saved_peer_
 ```php
 $update = $client->updateDraftMessage(
 	peer : $client->peerUser(
-		user_id : 729505871614518684,
+		user_id : 2877492319666719661,
 	),
-	top_msg_id : 77,
+	top_msg_id : 82,
 	saved_peer_id : $client->peerUser(
-		user_id : -693462152344787293,
+		user_id : -7935191600141349263,
 	),
 	draft : $client->draftMessageEmpty(
-		date : 45,
+		date : 12,
 	),
 );
 ```

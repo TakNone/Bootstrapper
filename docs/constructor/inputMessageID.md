@@ -28,6 +28,6 @@ inputMessageID#a676a322 id:int = InputMessage;
 
 ```php
 $inputMessage = $client->inputMessageID(
-	id : 55,
+	id : 84,
 );
 ```

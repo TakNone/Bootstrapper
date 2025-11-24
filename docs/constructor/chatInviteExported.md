@@ -14,7 +14,7 @@ chatInviteExported#a22cbd96 flags:# revoked:flags.0?true permanent:flags.5?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoked** | [`flags.0?true`](type/true) | Whether this chat invite was revoked |
 | **permanent** | [`flags.5?true`](type/true) | Whether this chat invite has no expiration |
 | **request_needed** | [`flags.6?true`](type/true) | Whether users importing this invite link will have to be approved to join the channel or group |
@@ -45,19 +45,19 @@ $exportedChatInvite = $client->chatInviteExported(
 	revoked : true,
 	permanent : true,
 	request_needed : true,
-	link : 'wvLsE7b6lVdYxia9',
-	admin_id : 432558047692889100,
-	date : 19,
-	start_date : 99,
-	expire_date : 91,
+	link : 'lZCjHI597Vy6ENcF',
+	admin_id : 8699577730185693935,
+	date : 51,
+	start_date : 40,
+	expire_date : 93,
 	usage_limit : 61,
-	usage : 86,
-	requested : 12,
-	subscription_expired : 22,
-	title : 'JgWL64BitvVI1XM9',
+	usage : 95,
+	requested : 76,
+	subscription_expired : 88,
+	title : 'm0HGr6sJ2xFwu1l9',
 	subscription_pricing : $client->starsSubscriptionPricing(
-		period : 56,
-		amount : 1147014711721664481,
+		period : 66,
+		amount : -5228199769740841777,
 	),
 );
 ```

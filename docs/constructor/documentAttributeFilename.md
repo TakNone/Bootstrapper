@@ -28,6 +28,6 @@ documentAttributeFilename#15590068 file_name:string = DocumentAttribute;
 
 ```php
 $documentAttribute = $client->documentAttributeFilename(
-	file_name : 'U1zJZ0CwHQPpD5ar',
+	file_name : 'n8BeCi7FVzNdSbug',
 );
 ```

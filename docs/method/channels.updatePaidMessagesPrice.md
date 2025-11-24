@@ -14,7 +14,7 @@ channels.updatePaidMessagesPrice#4b12327b flags:# broadcast_messages_allowed:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **broadcast_messages_allowed** | [`flags.0?true`](type/true) | Only usable for channels, enables or disables the associated monoforum aka direct messages |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | Pass the supergroup ID for supergroups and the ID of the channel to modify the setting in the associated monoforum |
 | <mark>send_paid_messages_stars</mark> | [`long`](type/long) | Specifies the required amount of Telegram Stars users must pay to send messages to the supergroup or monoforum |
@@ -44,6 +44,6 @@ channels.updatePaidMessagesPrice#4b12327b flags:# broadcast_messages_allowed:fla
 $updates = $client->channels->updatePaidMessagesPrice(
 	broadcast_messages_allowed : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	send_paid_messages_stars : 1372730223039919080,
+	send_paid_messages_stars : -4540350207224113755,
 );
 ```

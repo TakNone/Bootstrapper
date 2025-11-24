@@ -14,7 +14,7 @@ stories.getStoryViewsList#7ed23c57 flags:# just_contacts:flags.0?true reactions_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **just_contacts** | [`flags.0?true`](type/true) | Whether to only fetch view reaction/views made by our contacts |
 | **reactions_first** | [`flags.2?true`](type/true) | Whether to return storyView info about users that reacted to the story (i.e. if set, the server will first sort results by view date as usual, and then also additionally sort the list by putting storyViews with an associated reaction first in the list). Ignored if forwards_first is set |
 | **forwards_first** | [`flags.3?true`](type/true) | If set, returns forwards and reposts first, then reactions, then other views; otherwise returns interactions sorted just by interaction date |
@@ -49,9 +49,9 @@ $storiesStoryViewsList = $client->stories->getStoryViewsList(
 	reactions_first : true,
 	forwards_first : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	q : '4GStY87XioqgfDl9',
-	id : 4,
-	offset : 'PjD7W0wu6UHN9Ytm',
-	limit : 76,
+	q : 'Byc2x1naVZw9vDQ5',
+	id : 30,
+	offset : '2XOseH4h3UcL5n9W',
+	limit : 78,
 );
 ```

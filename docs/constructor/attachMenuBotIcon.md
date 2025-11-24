@@ -14,7 +14,7 @@ attachMenuBotIcon#b2a7386b flags:# name:string icon:Document colors:flags.0?Vect
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>name</mark> | [`string`](type/string) | One of the following values: note that animated icons must be played when the user clicks on the button, activating the bot mini app. default_static - Default attachment menu icon in SVG format placeholder_static - Default placeholder for opened Web Apps in SVG format ios_static - Attachment menu icon in SVG format for the official iOS app ios_animated - Animated attachment menu icon in TGS format for the official iOS app android_animated - Animated attachment menu icon in TGS format for the official Android app macos_animated - Animated attachment menu icon in TGS format for the official native Mac OS app ios_side_menu_static - Side menu icon in PNG format for the official iOS app android_side_menu_static - Side menu icon in SVG format for the official android app macos_side_menu_static - Side menu icon in PNG format for the official native Mac OS app |
 | <mark>icon</mark> | [`Document`](type/Document) | The actual icon file |
 | **colors** | [`flags.0?Vector<AttachMenuBotIconColor>`](type/AttachMenuBotIconColor) | Attachment menu icon colors |
@@ -31,14 +31,14 @@ attachMenuBotIcon#b2a7386b flags:# name:string icon:Document colors:flags.0?Vect
 
 ```php
 $attachMenuBotIcon = $client->attachMenuBotIcon(
-	name : 'WVF5baEnj8rG7DTk',
+	name : 'WeP15sdKLj749REk',
 	icon : $client->documentEmpty(
-		id : 621724415797935735,
+		id : 7055784016099223278,
 	),
 	colors : array(
 		$client->attachMenuBotIconColor(
-			name : 'kaouGshc9YXig8eT',
-			color : 98,
+			name : 'HnsXkoLpyjcJGDVC',
+			color : 12,
 		),
 	),
 );

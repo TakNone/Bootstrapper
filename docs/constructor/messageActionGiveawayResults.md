@@ -14,7 +14,7 @@ messageActionGiveawayResults#87e2f155 flags:# stars:flags.0?true winners_count:i
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **stars** | [`flags.0?true`](type/true) | If set, this is a Telegram Star giveaway |
 | <mark>winners_count</mark> | [`int`](type/int) | Number of winners in the giveaway |
 | <mark>unclaimed_count</mark> | [`int`](type/int) | Number of undistributed prizes |
@@ -32,7 +32,7 @@ messageActionGiveawayResults#87e2f155 flags:# stars:flags.0?true winners_count:i
 ```php
 $messageAction = $client->messageActionGiveawayResults(
 	stars : true,
-	winners_count : 88,
-	unclaimed_count : 98,
+	winners_count : 67,
+	unclaimed_count : 53,
 );
 ```

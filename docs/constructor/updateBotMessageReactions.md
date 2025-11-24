@@ -33,17 +33,17 @@ updateBotMessageReactions#9cb7759 peer:Peer msg_id:int date:int reactions:Vector
 ```php
 $update = $client->updateBotMessageReactions(
 	peer : $client->peerUser(
-		user_id : -665842538197741216,
+		user_id : 3187664204411200011,
 	),
-	msg_id : 27,
-	date : 25,
+	msg_id : 39,
+	date : 100,
 	reactions : array(
 		$client->reactionCount(
-			chosen_order : 43,
+			chosen_order : 44,
 			reaction : $client->reactionEmpty(),
-			count : 56,
+			count : 33,
 		),
 	),
-	qts : 8,
+	qts : 14,
 );
 ```

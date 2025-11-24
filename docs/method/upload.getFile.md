@@ -14,7 +14,7 @@ upload.getFile#be5335be flags:# precise:flags.0?true cdn_supported:flags.1?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **precise** | [`flags.0?true`](type/true) | Disable some checks on limit and offset values, useful for example to stream videos by keyframes |
 | **cdn_supported** | [`flags.1?true`](type/true) | Whether the current client supports CDN downloads |
 | <mark>location</mark> | [`InputFileLocation`](type/InputFileLocation) | File location |
@@ -57,12 +57,12 @@ $uploadFile = $client->upload->getFile(
 	precise : true,
 	cdn_supported : true,
 	location : $client->inputFileLocation(
-		volume_id : -1379042295557829374,
-		local_id : 75,
-		secret : 5608893444192295376,
+		volume_id : 7502743129803764201,
+		local_id : 62,
+		secret : 4854981652834445994,
 		file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	offset : 0,
-	limit : 25,
+	limit : 42,
 );
 ```

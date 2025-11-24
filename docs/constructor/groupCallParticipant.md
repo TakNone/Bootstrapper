@@ -14,7 +14,7 @@ groupCallParticipant#2a3dc7ac flags:# muted:flags.0?true left:flags.1?true can_s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **muted** | [`flags.0?true`](type/true) | Whether the participant is muted |
 | **left** | [`flags.1?true`](type/true) | Whether the participant has left |
 | **can_self_unmute** | [`flags.2?true`](type/true) | Whether the participant can unmute themselves |
@@ -59,36 +59,36 @@ $groupCallParticipant = $client->groupCallParticipant(
 	self : true,
 	video_joined : true,
 	peer : $client->peerUser(
-		user_id : -23000728174558574,
+		user_id : -1679882536842596926,
 	),
-	date : 54,
-	active_date : 88,
-	source : 14,
-	volume : 57,
-	about : 'ho2tp5b0QdFXzxDg',
-	raise_hand_rating : -2589566040927379900,
+	date : 36,
+	active_date : 56,
+	source : 71,
+	volume : 26,
+	about : 'BvYg8RKf0lGIzbac',
+	raise_hand_rating : -4786996130420812540,
 	video : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'g7840vqWykLBpzoN',
+		endpoint : 'szfAlX7bqmRLO4ig',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'Efr6hoicNmvLqb5l',
-				sources : array(59),
+				semantics : 'ayCecJpv4GlmI697',
+				sources : array(26),
 			),
 		),
-		audio_source : 21,
+		audio_source : 31,
 	),
 	presentation : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'N48P32LsfmQV0x9g',
+		endpoint : '4IvUwjCFBRtpOZEA',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'fyczGi7g2kWTh98I',
-				sources : array(20),
+				semantics : 'eV9H2Ngpv6Ucd0FD',
+				sources : array(55),
 			),
 		),
-		audio_source : 62,
+		audio_source : 55,
 	),
-	paid_stars_total : -5091719528262054988,
+	paid_stars_total : -644771938876531913,
 );
 ```

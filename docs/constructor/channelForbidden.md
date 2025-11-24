@@ -14,7 +14,7 @@ channelForbidden#17d493d5 flags:# broadcast:flags.5?true megagroup:flags.8?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **broadcast** | [`flags.5?true`](type/true) | Is this a channel |
 | **megagroup** | [`flags.8?true`](type/true) | Is this a supergroup |
 | <mark>id</mark> | [`long`](type/long) | Channel ID |
@@ -36,9 +36,9 @@ channelForbidden#17d493d5 flags:# broadcast:flags.5?true megagroup:flags.8?true 
 $chat = $client->channelForbidden(
 	broadcast : true,
 	megagroup : true,
-	id : -8021014214481648071,
-	access_hash : -2957390061653529953,
-	title : 'mD3xLZtsYKdbNRXn',
-	until_date : 25,
+	id : -4242821325164290892,
+	access_hash : 662796159203654862,
+	title : 'Q548YXTbJGfaL3vI',
+	until_date : 19,
 );
 ```

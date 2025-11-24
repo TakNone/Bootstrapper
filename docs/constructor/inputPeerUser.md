@@ -29,7 +29,7 @@ inputPeerUser#dde8a54c user_id:long access_hash:long = InputPeer;
 
 ```php
 $inputPeer = $client->inputPeerUser(
-	user_id : -7457927777879921576,
-	access_hash : 6832888306245520170,
+	user_id : 5667686593924689446,
+	access_hash : 4615020844371356701,
 );
 ```

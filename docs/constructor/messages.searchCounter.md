@@ -14,7 +14,7 @@ messages.searchCounter#e844ebff flags:# inexact:flags.1?true filter:MessagesFilt
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **inexact** | [`flags.1?true`](type/true) | If set, the results may be inexact |
 | <mark>filter</mark> | [`MessagesFilter`](type/MessagesFilter) | Provided message filter |
 | <mark>count</mark> | [`int`](type/int) | Number of results that were found server-side |
@@ -33,6 +33,6 @@ messages.searchCounter#e844ebff flags:# inexact:flags.1?true filter:MessagesFilt
 $messagesSearchCounter = $client->messages->searchCounter(
 	inexact : true,
 	filter : $client->inputMessagesFilterEmpty(),
-	count : 88,
+	count : 62,
 );
 ```

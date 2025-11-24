@@ -14,7 +14,7 @@ starsGiveawayWinnersOption#54236209 flags:# default:flags.0?true users:int per_u
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **default** | [`flags.0?true`](type/true) | If set, this option must be pre-selected by default in the option list |
 | <mark>users</mark> | [`int`](type/int) | The number of users that will be randomly chosen as winners |
 | <mark>per_user_stars</mark> | [`long`](type/long) | The number of Telegram Stars each winner will receive |
@@ -32,7 +32,7 @@ starsGiveawayWinnersOption#54236209 flags:# default:flags.0?true users:int per_u
 ```php
 $starsGiveawayWinnersOption = $client->starsGiveawayWinnersOption(
 	default : true,
-	users : 32,
-	per_user_stars : 1471289739194277968,
+	users : 57,
+	per_user_stars : 3190207466526239678,
 );
 ```

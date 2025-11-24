@@ -14,7 +14,7 @@ messages.sendEncrypted#44fa7a15 flags:# silent:flags.0?true peer:InputEncryptedC
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **silent** | [`flags.0?true`](type/true) | Send encrypted message without a notification |
 | <mark>peer</mark> | [`InputEncryptedChat`](type/InputEncryptedChat) | Secret chat ID |
 | <mark>random_id</mark> | [`long`](type/long) | Unique client message ID, necessary to avoid message resending |
@@ -47,10 +47,10 @@ messages.sendEncrypted#44fa7a15 flags:# silent:flags.0?true peer:InputEncryptedC
 $messagesSentEncryptedMessage = $client->messages->sendEncrypted(
 	silent : true,
 	peer : $client->inputEncryptedChat(
-		chat_id : 38,
-		access_hash : -9197340055044251227,
+		chat_id : 49,
+		access_hash : 2197167309537465200,
 	),
-	random_id : -8283589365131189277,
+	random_id : -1280893799754338843,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

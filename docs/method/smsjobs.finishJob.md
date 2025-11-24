@@ -14,7 +14,7 @@ smsjobs.finishJob#4f1ebf24 flags:# job_id:string error:flags.0?string = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>job_id</mark> | [`string`](type/string) | Job ID |
 | **error** | [`flags.0?string`](type/string) | If failed, the error |
 
@@ -38,7 +38,7 @@ smsjobs.finishJob#4f1ebf24 flags:# job_id:string error:flags.0?string = Bool;
 
 ```php
 $bool = $client->smsjobs->finishJob(
-	job_id : '0bZwx8QShkRc4BW6',
-	error : 'tpLIUZX0Dv1Jz72g',
+	job_id : 'OtBdIbVQxPmNkFUj',
+	error : 'dwjKuSkcMvoQmhW5',
 );
 ```

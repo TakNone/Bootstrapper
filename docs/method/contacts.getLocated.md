@@ -14,7 +14,7 @@ contacts.getLocated#d348bc44 flags:# background:flags.1?true geo_point:InputGeoP
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **background** | [`flags.1?true`](type/true) | While the geolocation of the current user is public, clients should update it in the background every half-an-hour or so, while setting this flag. Do this only if the new location is more than 1 KM away from the previous one, or if the previous location is unknown |
 | <mark>geo_point</mark> | [`InputGeoPoint`](type/InputGeoPoint) | Geolocation |
 | **self_expires** | [`flags.0?int`](type/int) | If set, the geolocation of the current user will be public for the specified number of seconds; pass 0x7fffffff to disable expiry, 0 to make the current geolocation private; if the flag isn't set, no changes will be applied |
@@ -44,6 +44,6 @@ contacts.getLocated#d348bc44 flags:# background:flags.1?true geo_point:InputGeoP
 $updates = $client->contacts->getLocated(
 	background : true,
 	geo_point : $client->inputGeoPointEmpty(),
-	self_expires : 27,
+	self_expires : 41,
 );
 ```

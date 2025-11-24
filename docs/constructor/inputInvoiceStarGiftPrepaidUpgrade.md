@@ -30,6 +30,6 @@ inputInvoiceStarGiftPrepaidUpgrade#9a0b48b8 peer:InputPeer hash:string = InputIn
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftPrepaidUpgrade(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	hash : 'HkdvlJTOZNYpu3is',
+	hash : 'Am3CyHiwXQ15bN9j',
 );
 ```

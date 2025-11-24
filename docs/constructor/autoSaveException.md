@@ -30,12 +30,12 @@ autoSaveException#81602d47 peer:Peer settings:AutoSaveSettings = AutoSaveExcepti
 ```php
 $autoSaveException = $client->autoSaveException(
 	peer : $client->peerUser(
-		user_id : 812880335888069684,
+		user_id : 6770739634187150462,
 	),
 	settings : $client->autoSaveSettings(
 		photos : true,
 		videos : true,
-		video_max_size : 2916414516838834146,
+		video_max_size : -8899170902564811242,
 	),
 );
 ```

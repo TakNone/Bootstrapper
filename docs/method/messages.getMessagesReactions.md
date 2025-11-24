@@ -39,6 +39,6 @@ messages.getMessagesReactions#8bba90e6 peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->getMessagesReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(80),
+	id : array(2),
 );
 ```

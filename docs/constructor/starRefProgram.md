@@ -14,7 +14,7 @@ starRefProgram#dd0c66f2 flags:# bot_id:long commission_permille:int duration_mon
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>bot_id</mark> | [`long`](type/long) | ID of the bot that offers the program |
 | <mark>commission_permille</mark> | [`int`](type/int) | An affiliate gets a commission of starRefProgram.commission_permille‰ Telegram Stars for every mini app transaction made by users they refer |
 | **duration_months** | [`flags.0?int`](type/int) | An affiliate gets a commission for every mini app transaction made by users they refer, for duration_months months after a referral link is imported, starting the bot for the first time |
@@ -33,13 +33,13 @@ starRefProgram#dd0c66f2 flags:# bot_id:long commission_permille:int duration_mon
 
 ```php
 $starRefProgram = $client->starRefProgram(
-	bot_id : -2305027237754553138,
-	commission_permille : 24,
-	duration_months : 97,
-	end_date : 51,
+	bot_id : 4427991409146196151,
+	commission_permille : 38,
+	duration_months : 79,
+	end_date : 38,
 	daily_revenue_per_user : $client->starsAmount(
-		amount : -7843534598273406078,
-		nanos : 96,
+		amount : 5378950769683128778,
+		nanos : 57,
 	),
 );
 ```

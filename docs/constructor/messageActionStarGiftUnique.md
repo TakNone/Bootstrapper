@@ -14,7 +14,7 @@ messageActionStarGiftUnique#95728543 flags:# upgrade:flags.0?true transferred:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **upgrade** | [`flags.0?true`](type/true) | If set, this collectible was upgraded » to a collectible gift from a previously received or sent (depending on the out flag of the containing messageService) non-collectible gift |
 | **transferred** | [`flags.1?true`](type/true) | If set, this collectible was transferred (either to the current user or by the current user to the other user in the private chat, depending on the out flag of the containing messageService) |
 | **saved** | [`flags.2?true`](type/true) | If set, this gift is visible on the user or channel's profile page; can only be set for the receiver of a gift |
@@ -59,44 +59,44 @@ $messageAction = $client->messageActionStarGiftUnique(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : 5321449597080137783,
+		id : -4939874407602394021,
 		sticker : $client->documentEmpty(
-			id : -7343898276863012475,
+			id : 1939667915278943390,
 		),
-		stars : -5388877127111803813,
-		availability_remains : 79,
-		availability_total : 29,
-		availability_resale : 8905368986045531834,
-		convert_stars : -1844447661122006851,
-		first_sale_date : 27,
-		last_sale_date : 6,
-		upgrade_stars : -4813558126429357958,
-		resell_min_stars : -3878216531481090546,
-		title : 'l3VSpfvmLTGb4eg9',
+		stars : -7032601507669666577,
+		availability_remains : 94,
+		availability_total : 58,
+		availability_resale : -2660786123199433368,
+		convert_stars : -3351927527119550057,
+		first_sale_date : 80,
+		last_sale_date : 38,
+		upgrade_stars : -2503200186799995382,
+		resell_min_stars : -6933429253950087412,
+		title : 'FRKDZxqPTO1owlIk',
 		released_by : $client->peerUser(
-			user_id : 4685794400154773635,
+			user_id : -3347685341312260963,
 		),
-		per_user_total : 67,
-		per_user_remains : 72,
-		locked_until_date : 30,
-		auction_slug : 'YZKjE8H0WGzBI94V',
-		gifts_per_round : 56,
+		per_user_total : 33,
+		per_user_remains : 75,
+		locked_until_date : 22,
+		auction_slug : 'zEYgp7b32ZlTMS06',
+		gifts_per_round : 63,
 	),
-	can_export_at : 20,
-	transfer_stars : -8819067778931381996,
+	can_export_at : 56,
+	transfer_stars : 6928822832778977281,
 	from_id : $client->peerUser(
-		user_id : -6183930281871084905,
+		user_id : 1002413411154305936,
 	),
 	peer : $client->peerUser(
-		user_id : -4416505237928296291,
+		user_id : 2556330946187676040,
 	),
-	saved_id : -3537656228652820108,
+	saved_id : 4864680472932474762,
 	resale_amount : $client->starsAmount(
-		amount : -5897738709881428732,
-		nanos : 61,
+		amount : -7057681380527114293,
+		nanos : 38,
 	),
-	can_transfer_at : 78,
-	can_resell_at : 90,
-	drop_original_details_stars : -5295215318446610284,
+	can_transfer_at : 50,
+	can_resell_at : 52,
+	drop_original_details_stars : 6945756266106040886,
 );
 ```

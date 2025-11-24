@@ -14,7 +14,7 @@ payments.changeStarsSubscription#c7770878 flags:# peer:InputPeer subscription_id
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Always pass inputPeerSelf |
 | <mark>subscription_id</mark> | [`string`](type/string) | ID of the subscription |
 | **canceled** | [`flags.0?Bool`](type/Bool) | Whether to cancel or reactivate the subscription |
@@ -40,7 +40,7 @@ payments.changeStarsSubscription#c7770878 flags:# peer:InputPeer subscription_id
 ```php
 $bool = $client->payments->changeStarsSubscription(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	subscription_id : 'mfPbq6djNJcaZC5p',
+	subscription_id : 'TjFP7BqVyRxmK146',
 	canceled : true,
 );
 ```

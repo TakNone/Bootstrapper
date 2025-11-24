@@ -14,7 +14,7 @@ requestPeerTypeUser#5f3b8a00 flags:# bot:flags.0?Bool premium:flags.1?Bool = Req
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **bot** | [`flags.0?Bool`](type/Bool) | Whether to allow choosing only bots |
 | **premium** | [`flags.1?Bool`](type/Bool) | Whether to allow choosing only Premium users |
 
@@ -31,6 +31,6 @@ requestPeerTypeUser#5f3b8a00 flags:# bot:flags.0?Bool premium:flags.1?Bool = Req
 ```php
 $requestPeerType = $client->requestPeerTypeUser(
 	bot : true,
-	premium : false,
+	premium : true,
 );
 ```

@@ -14,7 +14,7 @@ messageMediaGiveaway#aa073beb flags:# only_new_subscribers:flags.0?true winners_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **only_new_subscribers** | [`flags.0?true`](type/true) | If set, only new subscribers starting from the giveaway creation date will be able to participate to the giveaway |
 | **winners_are_visible** | [`flags.2?true`](type/true) | If set, giveaway winners are public and will be listed in a messageMediaGiveawayResults message that will be automatically sent to the channel once the giveaway ends |
 | <mark>channels</mark> | [`Vector<long>`](type/long) | The channels that the user must join to participate in the giveaway |
@@ -39,12 +39,12 @@ messageMediaGiveaway#aa073beb flags:# only_new_subscribers:flags.0?true winners_
 $messageMedia = $client->messageMediaGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	channels : array(8520877364112870260),
-	countries_iso2 : array('kNS2YBnelqmfXWiJ'),
-	prize_description : 'dpWqg6uxtwj32UYB',
-	quantity : 15,
-	months : 51,
-	stars : -664423673467907856,
-	until_date : 3,
+	channels : array(6581651073927693750),
+	countries_iso2 : array('rulSYzfDcUCWOLb2'),
+	prize_description : 'f6p0DdWvBuAxEa9M',
+	quantity : 93,
+	months : 40,
+	stars : 6536493601905637250,
+	until_date : 76,
 );
 ```

@@ -38,6 +38,6 @@ channels.getMessageAuthor#ece2a0e6 channel:InputChannel id:int = User;
 ```php
 $user = $client->channels->getMessageAuthor(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	id : 93,
+	id : 43,
 );
 ```

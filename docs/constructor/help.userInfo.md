@@ -31,48 +31,48 @@ help.userInfo#1eb3758 message:string entities:Vector<MessageEntity> author:strin
 
 ```php
 $helpUserInfo = $client->help->userInfo(
-	message : 'dqPzTi13kmQS9DBM',
+	message : 'dDYmE18lTSL3Oxhf',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 61,
+			length : 15,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 25,
+			length : 50,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 99,
+			length : 67,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 16,
+			length : 64,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 10,
+			length : 26,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 43,
+			length : 50,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 40,
+			length : 78,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 80,
+			length : 34,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 53,
+			length : 40,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 48,
-			language : 'Bqth0Xn1dlCQE2mU',
+			length : 56,
+			language : 'cH6A8lsivVbuxSY0',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
@@ -81,42 +81,42 @@ $helpUserInfo = $client->help->userInfo(
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 93,
-			user_id : -3294273196371596394,
+			length : 73,
+			user_id : -4550116291511527524,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 49,
+			length : 91,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 6,
+			length : 38,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 67,
+			length : 47,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 32,
+			length : 47,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 34,
+			length : 73,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 29,
+			length : 67,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 87,
+			length : 33,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 41,
-			document_id : 2172849614022784394,
+			length : 87,
+			document_id : -5416902980153660647,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
@@ -124,7 +124,7 @@ $helpUserInfo = $client->help->userInfo(
 			length : 49,
 		),
 	),
-	author : 's0Jfca7qj8BU5v3o',
-	date : 78,
+	author : 'p4kmQFUEo5g1lZxM',
+	date : 54,
 );
 ```

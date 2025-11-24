@@ -39,6 +39,6 @@ messages.getScheduledMessages#bdbb0464 peer:InputPeer id:Vector<int> = messages.
 ```php
 $messagesMessages = $client->messages->getScheduledMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(87),
+	id : array(74),
 );
 ```

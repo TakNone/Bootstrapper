@@ -14,7 +14,7 @@ messages.getArchivedStickers#57f17692 flags:# masks:flags.0?true emojis:flags.1?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **masks** | [`flags.0?true`](type/true) | Get mask stickers |
 | **emojis** | [`flags.1?true`](type/true) | Get custom emoji stickers |
 | <mark>offset_id</mark> | [`long`](type/long) | Offsets for pagination, for more info click here |
@@ -35,6 +35,6 @@ $messagesArchivedStickers = $client->messages->getArchivedStickers(
 	masks : true,
 	emojis : true,
 	offset_id : 0,
-	limit : 61,
+	limit : 23,
 );
 ```

@@ -14,7 +14,7 @@ emojiStatus#e7ff068a flags:# document_id:long until:flags.0?int = EmojiStatus;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>document_id</mark> | [`long`](type/long) | Custom emoji document ID |
 | **until** | [`flags.0?int`](type/int) | If set, the emoji status will be active until the specified unixtime |
 
@@ -30,7 +30,7 @@ emojiStatus#e7ff068a flags:# document_id:long until:flags.0?int = EmojiStatus;
 
 ```php
 $emojiStatus = $client->emojiStatus(
-	document_id : -4606966924342597563,
-	until : 65,
+	document_id : -3635282495051350749,
+	until : 45,
 );
 ```

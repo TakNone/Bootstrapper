@@ -41,6 +41,6 @@ account.reportPeer#c5ba3d86 peer:InputPeer reason:ReportReason message:string = 
 $bool = $client->account->reportPeer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reason : $client->inputReportReasonSpam(),
-	message : 'ZOKSfs87uRln9zrj',
+	message : 'QJtWrS2CXHpYA7Iw',
 );
 ```

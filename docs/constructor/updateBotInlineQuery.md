@@ -14,7 +14,7 @@ updateBotInlineQuery#496f379c flags:# query_id:long user_id:long query:string ge
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>query_id</mark> | [`long`](type/long) | Query ID |
 | <mark>user_id</mark> | [`long`](type/long) | User that sent the query |
 | <mark>query</mark> | [`string`](type/string) | Text of query |
@@ -34,11 +34,11 @@ updateBotInlineQuery#496f379c flags:# query_id:long user_id:long query:string ge
 
 ```php
 $update = $client->updateBotInlineQuery(
-	query_id : 8234584434299720838,
-	user_id : 3920629994258164990,
-	query : 'W6KtCTqcl1HsYkPG',
+	query_id : 7844255662168242197,
+	user_id : 7361992468613136200,
+	query : 'c9HfSY2QsV4AeP3D',
 	geo : $client->geoPointEmpty(),
 	peer_type : $client->inlineQueryPeerTypeSameBotPM(),
-	offset : 'nTPIhXto5HE4YAJC',
+	offset : 'F8NdXZixg15Drzy3',
 );
 ```

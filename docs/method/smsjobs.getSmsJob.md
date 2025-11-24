@@ -36,6 +36,6 @@ smsjobs.getSmsJob#778d902f job_id:string = SmsJob;
 
 ```php
 $smsJob = $client->smsjobs->getSmsJob(
-	job_id : 'HYliGk1h9e54JKoL',
+	job_id : 'AdN4x9oDclkqnZOp',
 );
 ```

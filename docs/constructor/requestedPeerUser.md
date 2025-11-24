@@ -14,7 +14,7 @@ requestedPeerUser#d62ff46a flags:# user_id:long first_name:flags.0?string last_n
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>user_id</mark> | [`long`](type/long) | User ID |
 | **first_name** | [`flags.0?string`](type/string) | First name |
 | **last_name** | [`flags.0?string`](type/string) | Last name |
@@ -33,12 +33,12 @@ requestedPeerUser#d62ff46a flags:# user_id:long first_name:flags.0?string last_n
 
 ```php
 $requestedPeer = $client->requestedPeerUser(
-	user_id : 1562899178675312680,
+	user_id : -3206077202806872930,
 	first_name : 'Tak',
 	last_name : 'None',
 	username : 'TakNone',
 	photo : $client->photoEmpty(
-		id : 2930072607393327867,
+		id : 678474391568335183,
 	),
 );
 ```

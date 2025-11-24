@@ -14,7 +14,7 @@ account.contentSettings#57e28221 flags:# sensitive_enabled:flags.0?true sensitiv
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **sensitive_enabled** | [`flags.0?true`](type/true) | Whether viewing of sensitive (NSFW) content is enabled |
 | **sensitive_can_change** | [`flags.1?true`](type/true) | Whether the current client can change the sensitive content settings to view NSFW content |
 

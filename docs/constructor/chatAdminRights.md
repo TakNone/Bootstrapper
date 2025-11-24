@@ -14,7 +14,7 @@ chatAdminRights#5fb224d5 flags:# change_info:flags.0?true post_messages:flags.1?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **change_info** | [`flags.0?true`](type/true) | If set, allows the admin to modify the description of the channel/supergroup |
 | **post_messages** | [`flags.1?true`](type/true) | If set, allows the admin to post messages in the channel |
 | **edit_messages** | [`flags.2?true`](type/true) | If set, allows the admin to also edit messages from other admins in the channel |

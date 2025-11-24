@@ -36,6 +36,6 @@ messages.setDefaultHistoryTTL#9eb51445 period:int = Bool;
 
 ```php
 $bool = $client->messages->setDefaultHistoryTTL(
-	period : 5,
+	period : 77,
 );
 ```

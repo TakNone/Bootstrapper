@@ -14,7 +14,7 @@ messages.getMessageReactionsList#461b3f48 flags:# peer:InputPeer id:int reaction
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer |
 | <mark>id</mark> | [`int`](type/int) | Message ID |
 | **reaction** | [`flags.0?Reaction`](type/Reaction) | Get only reactions of this type |
@@ -43,9 +43,9 @@ messages.getMessageReactionsList#461b3f48 flags:# peer:InputPeer id:int reaction
 ```php
 $messagesMessageReactionsList = $client->messages->getMessageReactionsList(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 75,
+	id : 72,
 	reaction : $client->reactionEmpty(),
-	offset : 'Pn4iyVmSugHlLY8B',
-	limit : 93,
+	offset : '9yCIYWvGnN2iQr1U',
+	limit : 89,
 );
 ```

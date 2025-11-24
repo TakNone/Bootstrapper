@@ -14,7 +14,7 @@ channelParticipantCreator#2fe601d3 flags:# user_id:long admin_rights:ChatAdminRi
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>user_id</mark> | [`long`](type/long) | User ID |
 | <mark>admin_rights</mark> | [`ChatAdminRights`](type/ChatAdminRights) | Creator admin rights |
 | **rank** | [`flags.0?string`](type/string) | The role (rank) of the group creator in the group: just an arbitrary string, admin by default |
@@ -31,7 +31,7 @@ channelParticipantCreator#2fe601d3 flags:# user_id:long admin_rights:ChatAdminRi
 
 ```php
 $channelParticipant = $client->channelParticipantCreator(
-	user_id : -310148138224741288,
+	user_id : 6043254410427104445,
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -50,6 +50,6 @@ $channelParticipant = $client->channelParticipantCreator(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : '458aWBnjrJyOQglI',
+	rank : 'iO7TQloU1R6sWce9',
 );
 ```

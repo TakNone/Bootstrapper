@@ -14,7 +14,7 @@ geoPointAddress#de4c5d93 flags:# country_iso2:string state:flags.0?string city:f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>country_iso2</mark> | [`string`](type/string) | Two-letter ISO 3166-1 alpha-2 country code |
 | **state** | [`flags.0?string`](type/string) | State |
 | **city** | [`flags.1?string`](type/string) | City |
@@ -32,9 +32,9 @@ geoPointAddress#de4c5d93 flags:# country_iso2:string state:flags.0?string city:f
 
 ```php
 $geoPointAddress = $client->geoPointAddress(
-	country_iso2 : 'RIBKHWmosP6Zy0a3',
-	state : 'SQyga8jcX5VWAwtN',
-	city : 'BwhQ2bCHRzng1xTZ',
-	street : '9ZLqobGfgBtKNQYC',
+	country_iso2 : 'eIdmR5KqaXvfxhCM',
+	state : '6utrXU8mSsvcwWTN',
+	city : 'TuI9NGrzwxgFc03k',
+	street : 'mkULDHqKfxeljnAE',
 );
 ```

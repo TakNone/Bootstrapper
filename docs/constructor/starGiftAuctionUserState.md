@@ -12,7 +12,7 @@ starGiftAuctionUserState#2eeed1c4 flags:# returned:flags.1?true bid_amount:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **returned** | [`flags.1?true`](type/true) | NOTHING |
 | **bid_amount** | [`flags.0?long`](type/long) | NOTHING |
 | **bid_date** | [`flags.0?int`](type/int) | NOTHING |
@@ -33,12 +33,12 @@ starGiftAuctionUserState#2eeed1c4 flags:# returned:flags.1?true bid_amount:flags
 ```php
 $starGiftAuctionUserState = $client->starGiftAuctionUserState(
 	returned : true,
-	bid_amount : 6670393074948212433,
-	bid_date : 46,
-	min_bid_amount : 5103991402567393463,
+	bid_amount : -6642279774080587512,
+	bid_date : 6,
+	min_bid_amount : -2406475844180983216,
 	peer : $client->peerUser(
-		user_id : -7486390553322871487,
+		user_id : -5368355934878553912,
 	),
-	acquired_count : 82,
+	acquired_count : 91,
 );
 ```

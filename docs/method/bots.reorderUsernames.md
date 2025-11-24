@@ -39,6 +39,6 @@ bots.reorderUsernames#9709b1c2 bot:InputUser order:Vector<string> = Bool;
 ```php
 $bool = $client->bots->reorderUsernames(
 	bot : $client->get_input_user(user : '@TakNone'),
-	order : array('TSIQDdHkJc3F2zV0'),
+	order : array('lLEIa7smcYgWM4BO'),
 );
 ```

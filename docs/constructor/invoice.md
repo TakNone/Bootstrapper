@@ -14,7 +14,7 @@ invoice#49ee584 flags:# test:flags.0?true name_requested:flags.1?true phone_requ
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **test** | [`flags.0?true`](type/true) | Test invoice |
 | **name_requested** | [`flags.1?true`](type/true) | Set this flag if you require the user's full name to complete the order |
 | **phone_requested** | [`flags.2?true`](type/true) | Set this flag if you require the user's phone number to complete the order |
@@ -52,16 +52,16 @@ $invoice = $client->invoice(
 	phone_to_provider : true,
 	email_to_provider : true,
 	recurring : true,
-	currency : 'sEKbhoTVCNynfYp1',
+	currency : 'lbsPYGtxqRWKLFvT',
 	prices : array(
 		$client->labeledPrice(
-			label : 'rHktIL5b03wSJ6lM',
-			amount : 5301510669104411512,
+			label : '9vVaecM7wtPfUKi1',
+			amount : 7744013519683202324,
 		),
 	),
-	max_tip_amount : -8061711665544553330,
-	suggested_tip_amounts : array(-1560350071448479477),
+	max_tip_amount : 6698326701479142007,
+	suggested_tip_amounts : array(-7336365057127448541),
 	terms_url : 'https://docs.liveproto.dev',
-	subscription_period : 13,
+	subscription_period : 70,
 );
 ```

@@ -29,7 +29,7 @@ businessWeeklyOpen#120b1ab9 start_minute:int end_minute:int = BusinessWeeklyOpen
 
 ```php
 $businessWeeklyOpen = $client->businessWeeklyOpen(
-	start_minute : 83,
-	end_minute : 46,
+	start_minute : 24,
+	end_minute : 78,
 );
 ```

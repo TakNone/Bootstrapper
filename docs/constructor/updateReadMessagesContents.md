@@ -14,7 +14,7 @@ updateReadMessagesContents#f8227181 flags:# messages:Vector<int> pts:int pts_cou
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>messages</mark> | [`Vector<int>`](type/int) | IDs of read messages |
 | <mark>pts</mark> | [`int`](type/int) | Event count after generation |
 | <mark>pts_count</mark> | [`int`](type/int) | Number of events that were generated |
@@ -32,9 +32,9 @@ updateReadMessagesContents#f8227181 flags:# messages:Vector<int> pts:int pts_cou
 
 ```php
 $update = $client->updateReadMessagesContents(
-	messages : array(78),
-	pts : 92,
-	pts_count : 62,
-	date : 66,
+	messages : array(52),
+	pts : 54,
+	pts_count : 92,
+	date : 62,
 );
 ```

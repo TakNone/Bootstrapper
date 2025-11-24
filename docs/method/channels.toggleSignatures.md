@@ -14,7 +14,7 @@ channels.toggleSignatures#418d549c flags:# signatures_enabled:flags.0?true profi
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **signatures_enabled** | [`flags.0?true`](type/true) | If set, enables message signatures |
 | **profiles_enabled** | [`flags.1?true`](type/true) | If set, messages from channel admins will link to their profiles, just like for group messages: can only be set if the signatures_enabled flag is set |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | Channel |

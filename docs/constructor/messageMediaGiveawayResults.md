@@ -14,7 +14,7 @@ messageMediaGiveawayResults#ceaa3ea1 flags:# only_new_subscribers:flags.0?true r
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **only_new_subscribers** | [`flags.0?true`](type/true) | If set, only new subscribers starting from the giveaway creation date participated in the giveaway |
 | **refunded** | [`flags.2?true`](type/true) | If set, the giveaway was canceled and was fully refunded |
 | <mark>channel_id</mark> | [`long`](type/long) | ID of the channel/supergroup that was automatically boosted by the winners of the giveaway for duration of the Premium subscription |
@@ -42,15 +42,15 @@ messageMediaGiveawayResults#ceaa3ea1 flags:# only_new_subscribers:flags.0?true r
 $messageMedia = $client->messageMediaGiveawayResults(
 	only_new_subscribers : true,
 	refunded : true,
-	channel_id : -8101343906437883024,
-	additional_peers_count : 6,
-	launch_msg_id : 86,
-	winners_count : 40,
-	unclaimed_count : 32,
-	winners : array(-5633308927875861743),
-	months : 0,
-	stars : -2534357536694343916,
-	prize_description : 'TH8ziyQWucDlPvLw',
-	until_date : 72,
+	channel_id : -3908940551523386227,
+	additional_peers_count : 28,
+	launch_msg_id : 60,
+	winners_count : 47,
+	unclaimed_count : 31,
+	winners : array(82543806120874953),
+	months : 44,
+	stars : -7993265709818158117,
+	prize_description : 'MXgmY1IFJp08fnC6',
+	until_date : 5,
 );
 ```

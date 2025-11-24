@@ -30,10 +30,10 @@ starGiftAttributeModel#39d99013 name:string document:Document rarity_permille:in
 
 ```php
 $starGiftAttribute = $client->starGiftAttributeModel(
-	name : 'unljIwfyxAH9GLDv',
+	name : 'r3Nn1PhsfiQI0GkL',
 	document : $client->documentEmpty(
-		id : -3798499740111965146,
+		id : 5035506819075847713,
 	),
-	rarity_permille : 9,
+	rarity_permille : 11,
 );
 ```

@@ -14,7 +14,7 @@ contacts.resolveUsername#725afbbc flags:# username:string referer:flags.0?string
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>username</mark> | [`string`](type/string) | @username to resolve |
 | **referer** | [`flags.0?string`](type/string) | Referrer ID from referral links » |
 
@@ -42,6 +42,6 @@ contacts.resolveUsername#725afbbc flags:# username:string referer:flags.0?string
 ```php
 $contactsResolvedPeer = $client->contacts->resolveUsername(
 	username : 'TakNone',
-	referer : 'gpZ62dhiVrTzGvLo',
+	referer : 'mei9zRjYdIrDh02f',
 );
 ```

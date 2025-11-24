@@ -14,7 +14,7 @@ contacts.getTopPeers#973478b6 flags:# correspondents:flags.0?true bots_pm:flags.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **correspondents** | [`flags.0?true`](type/true) | Users we've chatted most frequently with |
 | **bots_pm** | [`flags.1?true`](type/true) | Most used bots |
 | **bots_inline** | [`flags.2?true`](type/true) | Most used inline bots |
@@ -58,7 +58,7 @@ $contactsTopPeers = $client->contacts->getTopPeers(
 	channels : true,
 	bots_app : true,
 	offset : 0,
-	limit : 40,
+	limit : 80,
 	hash : 0,
 );
 ```

@@ -31,7 +31,7 @@ messages.getRecentLocations#702a40e0 peer:InputPeer limit:int hash:long = messag
 ```php
 $messagesMessages = $client->messages->getRecentLocations(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	limit : 15,
+	limit : 41,
 	hash : 0,
 );
 ```

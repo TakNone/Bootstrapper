@@ -14,7 +14,7 @@ phone.deleteConferenceCallParticipants#8ca60525 flags:# only_left:flags.0?true k
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **only_left** | [`flags.0?true`](type/true) | Whether this is a removal of members that already left the conference call |
 | **kick** | [`flags.1?true`](type/true) | Whether this is a forced removal of active members in a conference call |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The conference call |
@@ -44,10 +44,10 @@ $updates = $client->phone->deleteConferenceCallParticipants(
 	only_left : true,
 	kick : true,
 	call : $client->inputGroupCall(
-		id : -4167634506815804824,
-		access_hash : 6902014651042220854,
+		id : -1462402990828921864,
+		access_hash : -4442230242590044306,
 	),
-	ids : array(1391344575008718508),
+	ids : array(-1533687694991031732),
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

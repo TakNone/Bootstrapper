@@ -14,7 +14,7 @@ messages.readReactions#9ec44f93 flags:# peer:InputPeer top_msg_id:flags.0?int sa
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer |
 | **top_msg_id** | [`flags.0?int`](type/int) | Mark as read only reactions to messages within the specified forum topic |
 | **saved_peer_id** | [`flags.1?InputPeer`](type/InputPeer) | If set, must be equal to the ID of a monoforum topic: will affect that topic in the monoforum passed in peer |
@@ -40,7 +40,7 @@ messages.readReactions#9ec44f93 flags:# peer:InputPeer top_msg_id:flags.0?int sa
 ```php
 $messagesAffectedHistory = $client->messages->readReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 28,
+	top_msg_id : 56,
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

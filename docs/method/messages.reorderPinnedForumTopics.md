@@ -12,7 +12,7 @@ messages.reorderPinnedForumTopics#e7841f0 flags:# force:flags.0?true peer:InputP
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **force** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
 | <mark>order</mark> | [`Vector<int>`](type/int) | NOTHING |
@@ -31,6 +31,6 @@ messages.reorderPinnedForumTopics#e7841f0 flags:# force:flags.0?true peer:InputP
 $updates = $client->messages->reorderPinnedForumTopics(
 	force : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	order : array(15),
+	order : array(48),
 );
 ```

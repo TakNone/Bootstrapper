@@ -14,7 +14,7 @@ messages.reportMessagesDelivery#5a6d7395 flags:# push:flags.0?true peer:InputPee
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **push** | [`flags.0?true`](type/true) | Must be set if the messages were received from a push notification |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The peer where the messages were received |
 | <mark>id</mark> | [`Vector<int>`](type/int) | The IDs of the received messages |
@@ -41,6 +41,6 @@ messages.reportMessagesDelivery#5a6d7395 flags:# push:flags.0?true peer:InputPee
 $bool = $client->messages->reportMessagesDelivery(
 	push : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(23),
+	id : array(84),
 );
 ```

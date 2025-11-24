@@ -28,6 +28,6 @@ photoSizeEmpty#e17e23c type:string = PhotoSize;
 
 ```php
 $photoSize = $client->photoSizeEmpty(
-	type : 'vdupaEm07F5hIxSD',
+	type : '7FhP5bGJzVp4MsvC',
 );
 ```

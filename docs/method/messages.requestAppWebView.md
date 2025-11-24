@@ -14,7 +14,7 @@ messages.requestAppWebView#53618bce flags:# write_allowed:flags.0?true compact:f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **write_allowed** | [`flags.0?true`](type/true) | Set this flag if the bot is asking permission to send messages to the user as specified in the direct Mini App deep link docs, and the user agreed |
 | **compact** | [`flags.7?true`](type/true) | If set, requests to open the mini app in compact mode (as opposed to normal or fullscreen mode). Must be set if the mode parameter of the direct Mini App deep link is equal to compact |
 | **fullscreen** | [`flags.8?true`](type/true) | If set, requests to open the mini app in fullscreen mode (as opposed to compact or normal mode). Must be set if the mode parameter of the direct Mini App deep link is equal to fullscreen |
@@ -53,13 +53,13 @@ $webViewResult = $client->messages->requestAppWebView(
 	fullscreen : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	app : $client->inputBotAppID(
-		id : -5115622688048762735,
-		access_hash : -7341334950580416189,
+		id : -7077058801340464964,
+		access_hash : 6264606731018278471,
 	),
-	start_param : 'WnxocDOqfrgS9GYM',
+	start_param : 'q5jCfdyTNkxrVcvW',
 	theme_params : $client->dataJSON(
-		data : '9bGNYdRhZ8DLAkwO',
+		data : 'iJ7eLrKmxINuvUVl',
 	),
-	platform : 'uUoDWQPRqjYH5gvi',
+	platform : 'gO6Fj8qpA4vbJXh0',
 );
 ```

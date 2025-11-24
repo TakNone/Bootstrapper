@@ -14,7 +14,7 @@ businessAwayMessage#ef156a5c flags:# offline_only:flags.0?true shortcut_id:int s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **offline_only** | [`flags.0?true`](type/true) | If set, the messages will not be sent if the account was online in the last 10 minutes |
 | <mark>shortcut_id</mark> | [`int`](type/int) | ID of a quick reply shorcut, containing the away messages to send, see here » for more info |
 | <mark>schedule</mark> | [`BusinessAwayMessageSchedule`](type/BusinessAwayMessageSchedule) | Specifies when should the away messages be sent |
@@ -33,7 +33,7 @@ businessAwayMessage#ef156a5c flags:# offline_only:flags.0?true shortcut_id:int s
 ```php
 $businessAwayMessage = $client->businessAwayMessage(
 	offline_only : true,
-	shortcut_id : 98,
+	shortcut_id : 29,
 	schedule : $client->businessAwayMessageScheduleAlways(),
 	recipients : $client->businessRecipients(
 		existing_chats : true,
@@ -41,7 +41,7 @@ $businessAwayMessage = $client->businessAwayMessage(
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(90340815064729298),
+		users : array(-6796700341220745759),
 	),
 );
 ```

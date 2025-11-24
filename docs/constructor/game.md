@@ -14,7 +14,7 @@ game#bdf9653b flags:# id:long access_hash:long short_name:string title:string de
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>id</mark> | [`long`](type/long) | ID of the game |
 | <mark>access_hash</mark> | [`long`](type/long) | Access hash of the game |
 | <mark>short_name</mark> | [`string`](type/string) | Short name for the game |
@@ -35,16 +35,16 @@ game#bdf9653b flags:# id:long access_hash:long short_name:string title:string de
 
 ```php
 $game = $client->game(
-	id : 189263942353687013,
-	access_hash : -4741932773077755008,
-	short_name : 'PJcOaIVHkEBAuYz7',
-	title : 'AR6v3KYyepnWi4tM',
-	description : 'rISQoKn2wesAlNth',
+	id : -4073558508327716349,
+	access_hash : 5477663737223174728,
+	short_name : 'EMU8GW7Os0Ig1CVj',
+	title : 'B2KOLy76NVqPEQSI',
+	description : '8TaNHJ14xWVDkXL3',
 	photo : $client->photoEmpty(
-		id : 4009301788176516901,
+		id : 8466310585784310442,
 	),
 	document : $client->documentEmpty(
-		id : 7531007366653156318,
+		id : 3496375037636090091,
 	),
 );
 ```

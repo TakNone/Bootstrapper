@@ -14,7 +14,7 @@ messageMediaGeoLive#b940c666 flags:# geo:GeoPoint heading:flags.0?int period:int
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>geo</mark> | [`GeoPoint`](type/GeoPoint) | Geolocation |
 | **heading** | [`flags.0?int`](type/int) | For live locations, a direction in which the location moves, in degrees; 1-360 |
 | <mark>period</mark> | [`int`](type/int) | Validity period of provided geolocation |
@@ -33,8 +33,8 @@ messageMediaGeoLive#b940c666 flags:# geo:GeoPoint heading:flags.0?int period:int
 ```php
 $messageMedia = $client->messageMediaGeoLive(
 	geo : $client->geoPointEmpty(),
-	heading : 61,
-	period : 20,
-	proximity_notification_radius : 90,
+	heading : 37,
+	period : 41,
+	proximity_notification_radius : 84,
 );
 ```

@@ -28,112 +28,112 @@ updateGroupCallMessage#d8326f0d call:InputGroupCall message:GroupCallMessage = U
 ```php
 $update = $client->updateGroupCallMessage(
 	call : $client->inputGroupCall(
-		id : 2667772596456619388,
-		access_hash : 1358341078403858907,
+		id : 7926842726188263908,
+		access_hash : 2548174622453009651,
 	),
 	message : $client->groupCallMessage(
 		from_admin : true,
-		id : 19,
+		id : 11,
 		from_id : $client->peerUser(
-			user_id : -9135627432195127116,
+			user_id : -3907535041874380231,
 		),
-		date : 23,
+		date : 72,
 		message : $client->textWithEntities(
-			text : 'WMEUpBILy4svwhHG',
+			text : 'xbw7NXtYJpLrSRyT',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 5,
+					length : 18,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 81,
+					length : 50,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 5,
+					length : 3,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 6,
+					length : 99,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 3,
+					length : 35,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 67,
+					length : 89,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 57,
+					length : 35,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 4,
+					length : 64,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 87,
+					length : 80,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 55,
-					language : 'RKr63jVASFTNB7Oe',
+					length : 81,
+					language : 'q6o3TYQWijDrLP2V',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 80,
+					length : 21,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 61,
-					user_id : 3893749395960329609,
+					length : 52,
+					user_id : 2333621617217716301,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 5,
+					length : 56,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 13,
+					length : 98,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 96,
+					length : 81,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 98,
+					length : 40,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 53,
+					length : 76,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 56,
+					length : 80,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 53,
+					length : 48,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 30,
-					document_id : 5233397064843128709,
+					length : 100,
+					document_id : 4882257669194490193,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 75,
+					length : 70,
 				),
 			),
 		),
-		paid_message_stars : 48328704219005777,
+		paid_message_stars : -4360818315078487430,
 	),
 );
 ```

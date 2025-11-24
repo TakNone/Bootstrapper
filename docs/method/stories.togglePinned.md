@@ -39,7 +39,7 @@ stories.togglePinned#9a75a1ef peer:InputPeer id:Vector<int> pinned:Bool = Vector
 ```php
 $int = $client->stories->togglePinned(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(46),
+	id : array(84),
 	pinned : true,
 );
 ```

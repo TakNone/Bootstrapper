@@ -14,7 +14,7 @@ messages.messageEditData#26b5dde6 flags:# caption:flags.0?true = messages.Messag
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **caption** | [`flags.0?true`](type/true) | Media caption, if the specified media's caption can be edited |
 
 ---

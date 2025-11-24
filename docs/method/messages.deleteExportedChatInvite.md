@@ -41,6 +41,6 @@ messages.deleteExportedChatInvite#d464a42b peer:InputPeer link:string = Bool;
 ```php
 $bool = $client->messages->deleteExportedChatInvite(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	link : 'Zun2GyONXwvQeTVR',
+	link : 'CK8R3YrgzMOVPIF4',
 );
 ```

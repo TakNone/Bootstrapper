@@ -14,7 +14,7 @@ updatePeerHistoryTTL#bb9bb9a5 flags:# peer:Peer ttl_period:flags.0?int = Update;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`Peer`](type/Peer) | The chat |
 | **ttl_period** | [`flags.0?int`](type/int) | The new Time-To-Live |
 
@@ -31,8 +31,8 @@ updatePeerHistoryTTL#bb9bb9a5 flags:# peer:Peer ttl_period:flags.0?int = Update;
 ```php
 $update = $client->updatePeerHistoryTTL(
 	peer : $client->peerUser(
-		user_id : 1869207875368609866,
+		user_id : -5349557801174588810,
 	),
-	ttl_period : 24,
+	ttl_period : 100,
 );
 ```

@@ -14,7 +14,7 @@ payments.uniqueStarGiftValueInfo#512fe446 flags:# last_sale_on_fragment:flags.1?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **last_sale_on_fragment** | [`flags.1?true`](type/true) | If set, the last sale was completed on Fragment |
 | **value_is_average** | [`flags.6?true`](type/true) | If set, the value is calculated from the average value of sold gifts of the same type. Otherwise, it is based on the sale price of the gift |
 | <mark>currency</mark> | [`string`](type/string) | Three-letter ISO 4217 currency code (a localized fiat currency used to represent prices and price estimations in this constructor) |
@@ -44,17 +44,17 @@ payments.uniqueStarGiftValueInfo#512fe446 flags:# last_sale_on_fragment:flags.1?
 $paymentsUniqueStarGiftValueInfo = $client->payments->uniqueStarGiftValueInfo(
 	last_sale_on_fragment : true,
 	value_is_average : true,
-	currency : 'oc4xF9TwK5y0nAgm',
-	value : 8610491594229788191,
-	initial_sale_date : 3,
-	initial_sale_stars : 1517432173709317134,
-	initial_sale_price : -4946484063881352750,
-	last_sale_date : 68,
-	last_sale_price : 4533314209397995784,
-	floor_price : 6726454905647376703,
-	average_price : 4329598642931669799,
-	listed_count : 89,
-	fragment_listed_count : 12,
+	currency : 'KYCdnrqRt63x4fVF',
+	value : 2093623974380781313,
+	initial_sale_date : 63,
+	initial_sale_stars : 813046626226988742,
+	initial_sale_price : -6155887986919224804,
+	last_sale_date : 13,
+	last_sale_price : 2731720333746441373,
+	floor_price : -7142024833073780295,
+	average_price : 1427147858578471617,
+	listed_count : 52,
+	fragment_listed_count : 19,
 	fragment_listed_url : 'https://docs.liveproto.dev',
 );
 ```

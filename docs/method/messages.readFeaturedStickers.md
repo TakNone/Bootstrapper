@@ -28,6 +28,6 @@ messages.readFeaturedStickers#5b118126 id:Vector<long> = Bool;
 
 ```php
 $bool = $client->messages->readFeaturedStickers(
-	id : array(8596541169884391514),
+	id : array(-1061981965665826604),
 );
 ```

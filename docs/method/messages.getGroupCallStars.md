@@ -27,8 +27,8 @@ messages.getGroupCallStars#6f636302 call:InputGroupCall = GroupCallStars;
 ```php
 $groupCallStars = $client->messages->getGroupCallStars(
 	call : $client->inputGroupCall(
-		id : 5458501160633586149,
-		access_hash : -2882722951192316206,
+		id : 5129880979312263936,
+		access_hash : 2837297367876351572,
 	),
 );
 ```

@@ -14,7 +14,7 @@ reactionsNotifySettings#56e34970 flags:# messages_notify_from:flags.0?ReactionNo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **messages_notify_from** | [`flags.0?ReactionNotificationsFrom`](type/ReactionNotificationsFrom) | Message reaction notification settings, if not set completely disables notifications/updates about message reactions |
 | **stories_notify_from** | [`flags.1?ReactionNotificationsFrom`](type/ReactionNotificationsFrom) | Story reaction notification settings, if not set completely disables notifications/updates about reactions to stories |
 | <mark>sound</mark> | [`NotificationSound`](type/NotificationSound) | Notification sound for reactions » |
@@ -35,6 +35,6 @@ $reactionsNotifySettings = $client->reactionsNotifySettings(
 	messages_notify_from : $client->reactionNotificationsFromContacts(),
 	stories_notify_from : $client->reactionNotificationsFromContacts(),
 	sound : $client->notificationSoundDefault(),
-	show_previews : false,
+	show_previews : true,
 );
 ```

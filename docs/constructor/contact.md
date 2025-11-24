@@ -29,7 +29,7 @@ contact#145ade0b user_id:long mutual:Bool = Contact;
 
 ```php
 $contact = $client->contact(
-	user_id : 7185329819644536208,
+	user_id : 6011074486940780883,
 	mutual : true,
 );
 ```

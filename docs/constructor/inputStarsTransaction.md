@@ -14,7 +14,7 @@ inputStarsTransaction#206ae6d1 flags:# refund:flags.0?true id:string = InputStar
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **refund** | [`flags.0?true`](type/true) | If set, fetches info about the refund transaction for this transaction |
 | <mark>id</mark> | [`string`](type/string) | Transaction ID |
 
@@ -31,6 +31,6 @@ inputStarsTransaction#206ae6d1 flags:# refund:flags.0?true id:string = InputStar
 ```php
 $inputStarsTransaction = $client->inputStarsTransaction(
 	refund : true,
-	id : '3TLgA1Zm9YMvIx0t',
+	id : 'Tb8tsxMkJ0rNU7Z1',
 );
 ```

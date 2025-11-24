@@ -14,7 +14,7 @@ messages.reorderPinnedSavedDialogs#8b716587 flags:# force:flags.0?true order:Vec
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **force** | [`flags.0?true`](type/true) | If set, dialogs pinned server-side but not present in the order field will be unpinned |
 | <mark>order</mark> | [`Vector<InputDialogPeer>`](type/InputDialogPeer) | New dialog order |
 
@@ -36,7 +36,7 @@ $bool = $client->messages->reorderPinnedSavedDialogs(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 		),
 		$client->inputDialogPeerFolder(
-			folder_id : 90,
+			folder_id : 74,
 		),
 	),
 );

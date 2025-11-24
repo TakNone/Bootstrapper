@@ -12,7 +12,7 @@ updateTranscribeAudio#88617090 flags:# final:flags.0?true transcription_id:long 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **final** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>transcription_id</mark> | [`long`](type/long) | NOTHING |
 | <mark>text</mark> | [`string`](type/string) | NOTHING |
@@ -30,7 +30,7 @@ updateTranscribeAudio#88617090 flags:# final:flags.0?true transcription_id:long 
 ```php
 $update = $client->updateTranscribeAudio(
 	final : true,
-	transcription_id : -4253288110652096405,
-	text : '4RZvV3lwfc0tb6Xs',
+	transcription_id : 8203203846313219665,
+	text : 'FKu6Laqo7UZySmnW',
 );
 ```

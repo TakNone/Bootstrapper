@@ -14,7 +14,7 @@ inputThemeSettings#8fde504f flags:# message_colors_animated:flags.2?true base_th
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **message_colors_animated** | [`flags.2?true`](type/true) | If set, the freeform gradient fill needs to be animated on every sent message |
 | <mark>base_theme</mark> | [`BaseTheme`](type/BaseTheme) | Default theme on which this theme is based |
 | <mark>accent_color</mark> | [`int`](type/int) | Accent color, ARGB format |
@@ -37,23 +37,23 @@ inputThemeSettings#8fde504f flags:# message_colors_animated:flags.2?true base_th
 $inputThemeSettings = $client->inputThemeSettings(
 	message_colors_animated : true,
 	base_theme : $client->baseThemeClassic(),
-	accent_color : 70,
-	outbox_accent_color : 68,
-	message_colors : array(64),
+	accent_color : 91,
+	outbox_accent_color : 14,
+	message_colors : array(12),
 	wallpaper : $client->inputWallPaper(
-		id : 1410498956442674709,
-		access_hash : 2141975497468141374,
+		id : 5075075803639316480,
+		access_hash : -5262436859143644358,
 	),
 	wallpaper_settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 13,
-		second_background_color : 83,
-		third_background_color : 69,
-		fourth_background_color : 73,
-		intensity : 85,
-		rotation : 31,
-		emoticon : 'lMSpjdn0347hrLzZ',
+		background_color : 3,
+		second_background_color : 68,
+		third_background_color : 6,
+		fourth_background_color : 62,
+		intensity : 28,
+		rotation : 48,
+		emoticon : 'Vaew7H9cxQvrEY8i',
 	),
 );
 ```

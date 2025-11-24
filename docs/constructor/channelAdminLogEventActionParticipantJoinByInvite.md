@@ -14,7 +14,7 @@ channelAdminLogEventActionParticipantJoinByInvite#fe9fc158 flags:# via_chatlist:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **via_chatlist** | [`flags.0?true`](type/true) | The participant joined by importing a chat folder deep link » |
 | <mark>invite</mark> | [`ExportedChatInvite`](type/ExportedChatInvite) | The invite link used to join the supergroup/channel |
 
@@ -35,19 +35,19 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantJoin
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'qRFGULmV7lzgwK9X',
-		admin_id : -2638776106962792777,
-		date : 52,
-		start_date : 58,
-		expire_date : 41,
-		usage_limit : 26,
-		usage : 22,
-		requested : 86,
-		subscription_expired : 81,
-		title : '30HoTXwDZFQmvxM8',
+		link : '98IzhCQ6aidVul0D',
+		admin_id : -1939061099322814882,
+		date : 72,
+		start_date : 62,
+		expire_date : 48,
+		usage_limit : 2,
+		usage : 100,
+		requested : 12,
+		subscription_expired : 20,
+		title : 'a0BcUYdLCIVOwAlT',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 94,
-			amount : -7844677269538917833,
+			period : 31,
+			amount : 5108118747810028923,
 		),
 	),
 );

@@ -14,7 +14,7 @@ webViewResultUrl#4d22ff98 flags:# fullsize:flags.1?true fullscreen:flags.2?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **fullsize** | [`flags.1?true`](type/true) | If set, the app must be opened in fullsize mode instead of compact mode |
 | **fullscreen** | [`flags.2?true`](type/true) | If set, the app must be opened in fullscreen |
 | **query_id** | [`flags.0?long`](type/long) | Webview session ID (only returned by inline button mini apps, menu button mini apps, attachment menu mini apps) |
@@ -34,7 +34,7 @@ webViewResultUrl#4d22ff98 flags:# fullsize:flags.1?true fullscreen:flags.2?true 
 $webViewResult = $client->webViewResultUrl(
 	fullsize : true,
 	fullscreen : true,
-	query_id : 5505131560474085619,
+	query_id : 74610086100067615,
 	url : 'https://docs.liveproto.dev',
 );
 ```

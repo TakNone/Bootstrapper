@@ -28,6 +28,6 @@ documentEmpty#36f8c871 id:long = Document;
 
 ```php
 $document = $client->documentEmpty(
-	id : 831465867959399839,
+	id : -6392440745258589201,
 );
 ```

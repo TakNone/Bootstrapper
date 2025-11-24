@@ -14,7 +14,7 @@ payments.checkedGiftCode#eb983f8f flags:# via_giveaway:flags.2?true from_id:flag
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **via_giveaway** | [`flags.2?true`](type/true) | Whether this giftcode was created by a giveaway |
 | **from_id** | [`flags.4?Peer`](type/Peer) | The peer that created the gift code |
 | **giveaway_msg_id** | [`flags.3?int`](type/int) | Message ID of the giveaway in the channel specified in from_id |
@@ -39,16 +39,16 @@ payments.checkedGiftCode#eb983f8f flags:# via_giveaway:flags.2?true from_id:flag
 $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 	via_giveaway : true,
 	from_id : $client->peerUser(
-		user_id : -6067641593232377480,
+		user_id : -4102371144132491477,
 	),
-	giveaway_msg_id : 24,
-	to_id : 992041009068873660,
-	date : 58,
-	days : 40,
-	used_date : 16,
+	giveaway_msg_id : 42,
+	to_id : -9148894278174785179,
+	date : 77,
+	days : 28,
+	used_date : 100,
 	chats : array(
 		$client->chatEmpty(
-			id : 8998705614477739492,
+			id : -8100453506464228701,
 		),
 		$client->chat(
 			creator : true,
@@ -58,12 +58,12 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -159934700216216923,
-			title : 'EDaS7NKJ3VWhPwAM',
+			id : -30359299224820495,
+			title : 'be0NdWpATvBL9wum',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 87,
-			date : 5,
-			version : 62,
+			participants_count : 3,
+			date : 53,
+			version : 95,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -104,12 +104,12 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 54,
+				until_date : 88,
 			),
 		),
 		$client->chatForbidden(
-			id : -4809843624869405703,
-			title : '2URmZ0KjBet8xdAJ',
+			id : -1011150245620499003,
+			title : 'unN6cwDLMKvAzHxO',
 		),
 		$client->channel(
 			creator : true,
@@ -140,17 +140,17 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 455717830119556084,
-			access_hash : -969511651748375582,
-			title : 'T7CiSsa432otRpxK',
+			id : 3431794247764779337,
+			access_hash : -124528239004327130,
+			title : 'ICBEAOjv2cfbJ7Zk',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 64,
+			date : 26,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'v095B6uQUIyVJsl8',
-					reason : 'aPdNOQBke5ZSXbC3',
-					text : 'udbFmRgSY5C2ZV1O',
+					platform : '8ku7CDWSvTHNAPn6',
+					reason : 'XJZ6M2Nb9lQmgnyS',
+					text : 'MQxeYUzloTv1OtdN',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -192,7 +192,7 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 22,
+				until_date : 35,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -215,9 +215,9 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 66,
+				until_date : 75,
 			),
-			participants_count : 18,
+			participants_count : 93,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -227,35 +227,35 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 93,
+				max_id : 82,
 			),
 			color : $client->peerColor(
-				color : 96,
-				background_emoji_id : 881760661945621878,
+				color : 34,
+				background_emoji_id : -7041087185758323009,
 			),
 			profile_color : $client->peerColor(
-				color : 47,
-				background_emoji_id : 4079602007235390004,
+				color : 91,
+				background_emoji_id : 3417882523824650988,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 55,
-			subscription_until_date : 30,
-			bot_verification_icon : -1902906327896016097,
-			send_paid_messages_stars : 2841062111314084688,
-			linked_monoforum_id : 5633972118269701057,
+			level : 57,
+			subscription_until_date : 81,
+			bot_verification_icon : -618472536158013777,
+			send_paid_messages_stars : -8017078212958786404,
+			linked_monoforum_id : 1656244138188809832,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 3782432736106642854,
-			access_hash : -4638189801428480547,
-			title : 'vCm4aV6DxFJHSZhs',
-			until_date : 43,
+			id : -5838156184082703751,
+			access_hash : -7502568644479363756,
+			title : 'StOUfgCGFqoYVzJx',
+			until_date : 21,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 6259056107808550071,
+			id : -6167514390391240538,
 		),
 		$client->user(
 			self : true,
@@ -284,24 +284,24 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -5998883651309233991,
-			access_hash : -805484560818292364,
+			id : 4079697030916490891,
+			access_hash : 5663664426769206505,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 36,
+			bot_info_version : 26,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'htv721B3TzLlMFXi',
-					reason : 'dAZqLw2B7P1NuIG6',
-					text : 'kWRFKgPtTmrzNA74',
+					platform : '3rmsCfl4wBOSHGIy',
+					reason : 'fMReuPdT0Y8WpS7I',
+					text : 'TwuLGtm9pWHykPez',
 				),
 			),
-			bot_inline_placeholder : 'zTdjyBWh9JulIHr1',
-			lang_code : 'qEnr0UoIZSfdJ9lv',
+			bot_inline_placeholder : 'LGwyn0PNxW46TUKj',
+			lang_code : 'kVZxw4B3Hvdio2Pf',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -312,19 +312,19 @@ $paymentsCheckedGiftCode = $client->payments->checkedGiftCode(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 79,
+				max_id : 22,
 			),
 			color : $client->peerColor(
-				color : 48,
-				background_emoji_id : 4043747599694292547,
+				color : 40,
+				background_emoji_id : 2834457586748906995,
 			),
 			profile_color : $client->peerColor(
-				color : 50,
-				background_emoji_id : -7389287036981827168,
+				color : 14,
+				background_emoji_id : -8674769975010893433,
 			),
-			bot_active_users : 23,
-			bot_verification_icon : -8227886168785502245,
-			send_paid_messages_stars : -7054643364000810457,
+			bot_active_users : 62,
+			bot_verification_icon : 6872290463777687803,
+			send_paid_messages_stars : 4143247208733393748,
 		),
 	),
 );

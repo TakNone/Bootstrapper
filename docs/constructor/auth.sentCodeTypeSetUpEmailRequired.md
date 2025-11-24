@@ -14,7 +14,7 @@ auth.sentCodeTypeSetUpEmailRequired#a5491dea flags:# apple_signin_allowed:flags.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **apple_signin_allowed** | [`flags.0?true`](type/true) | Whether authorization through Apple ID is allowed |
 | **google_signin_allowed** | [`flags.1?true`](type/true) | Whether authorization through Google ID is allowed |
 

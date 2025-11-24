@@ -14,7 +14,7 @@ connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients right
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>bot_id</mark> | [`long`](type/long) | ID of the connected bot |
 | <mark>recipients</mark> | [`BusinessBotRecipients`](type/BusinessBotRecipients) | Specifies the private chats that a connected business bot » may receive messages and interact with |
 | <mark>rights</mark> | [`BusinessBotRights`](type/BusinessBotRights) | Business bot rights |
@@ -31,15 +31,15 @@ connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients right
 
 ```php
 $connectedBot = $client->connectedBot(
-	bot_id : 1727436808736162825,
+	bot_id : 4698810745391810438,
 	recipients : $client->businessBotRecipients(
 		existing_chats : true,
 		new_chats : true,
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(2880840485646122112),
-		exclude_users : array(2961295687069613534),
+		users : array(57940036555568655),
+		exclude_users : array(-1611553536497021944),
 	),
 	rights : $client->businessBotRights(
 		reply : true,

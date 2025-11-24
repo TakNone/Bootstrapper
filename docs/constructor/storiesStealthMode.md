@@ -14,7 +14,7 @@ storiesStealthMode#712e27fd flags:# active_until_date:flags.0?int cooldown_until
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **active_until_date** | [`flags.0?int`](type/int) | The date up to which stealth mode will be active |
 | **cooldown_until_date** | [`flags.1?int`](type/int) | The date starting from which the user will be allowed to re-enable stealth mode again |
 
@@ -30,7 +30,7 @@ storiesStealthMode#712e27fd flags:# active_until_date:flags.0?int cooldown_until
 
 ```php
 $storiesStealthMode = $client->storiesStealthMode(
-	active_until_date : 72,
-	cooldown_until_date : 36,
+	active_until_date : 23,
+	cooldown_until_date : 100,
 );
 ```

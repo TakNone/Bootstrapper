@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeTitle#e6dfb825 prev_value:string new_value:strin
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeTitle(
-	prev_value : 'f8150YQTIG4U2nhs',
-	new_value : '9PWvNRreXZbs0SQc',
+	prev_value : '7dMxkNC9RbmOw0Qr',
+	new_value : 'ACln5Km9I2afDkbe',
 );
 ```

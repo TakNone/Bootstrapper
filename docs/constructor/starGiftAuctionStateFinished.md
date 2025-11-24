@@ -28,8 +28,8 @@ starGiftAuctionStateFinished#7d967c3a start_date:int end_date:int average_price:
 
 ```php
 $starGiftAuctionState = $client->starGiftAuctionStateFinished(
-	start_date : 2,
-	end_date : 68,
-	average_price : 3202258484176054099,
+	start_date : 62,
+	end_date : 69,
+	average_price : 8587685662740531809,
 );
 ```

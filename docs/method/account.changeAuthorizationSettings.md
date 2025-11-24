@@ -14,7 +14,7 @@ account.changeAuthorizationSettings#40f48462 flags:# confirmed:flags.3?true hash
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **confirmed** | [`flags.3?true`](type/true) | If set, confirms a newly logged in session » |
 | <mark>hash</mark> | [`long`](type/long) | Session ID from the authorization constructor, fetchable using account.getAuthorizations |
 | **encrypted_requests_disabled** | [`flags.0?Bool`](type/Bool) | Whether to enable or disable receiving encrypted chats: if the flag is not set, the previous setting is not changed |
@@ -42,7 +42,7 @@ account.changeAuthorizationSettings#40f48462 flags:# confirmed:flags.3?true hash
 $bool = $client->account->changeAuthorizationSettings(
 	confirmed : true,
 	hash : 0,
-	encrypted_requests_disabled : true,
+	encrypted_requests_disabled : false,
 	call_requests_disabled : false,
 );
 ```

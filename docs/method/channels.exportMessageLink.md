@@ -14,7 +14,7 @@ channels.exportMessageLink#e63fadeb flags:# grouped:flags.0?true thread:flags.1?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **grouped** | [`flags.0?true`](type/true) | Whether to include other grouped media (for albums) |
 | **thread** | [`flags.1?true`](type/true) | Whether to also include a thread ID, if available, inside of the link |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | Channel |
@@ -46,6 +46,6 @@ $exportedMessageLink = $client->channels->exportMessageLink(
 	grouped : true,
 	thread : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	id : 6,
+	id : 78,
 );
 ```

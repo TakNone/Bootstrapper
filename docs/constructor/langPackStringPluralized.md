@@ -14,7 +14,7 @@ langPackStringPluralized#6c47ac9f flags:# key:string zero_value:flags.0?string o
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>key</mark> | [`string`](type/string) | Localization key |
 | **zero_value** | [`flags.0?string`](type/string) | Value for zero objects |
 | **one_value** | [`flags.1?string`](type/string) | Value for one object |
@@ -35,12 +35,12 @@ langPackStringPluralized#6c47ac9f flags:# key:string zero_value:flags.0?string o
 
 ```php
 $langPackString = $client->langPackStringPluralized(
-	key : 'ldHtv1h8IQUgRLsS',
-	zero_value : 'U7Yqts1xJ4WbkfyD',
-	one_value : '0LEdw5WmPkn1Zqco',
-	two_value : 'i1X8kfZOaqUghTeJ',
-	few_value : 'ZLmYp5t6seuVl1HM',
-	many_value : 'tOULBiY920NIvWuj',
-	other_value : '1PKegvT2U6AJnpXx',
+	key : 'gGSJPURs7BXaIejM',
+	zero_value : '9PK57jzgMJI6wQuH',
+	one_value : 'CXV90WcatOSxom2T',
+	two_value : 'habw1XrJR2z0ESNC',
+	few_value : 'Xlns6pxgYCUDVOdB',
+	many_value : 'BiCQsHGMYwOSzrfa',
+	other_value : 'I0nHgoY8NMUOtzQX',
 );
 ```

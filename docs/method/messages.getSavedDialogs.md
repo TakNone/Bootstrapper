@@ -14,7 +14,7 @@ messages.getSavedDialogs#1e91fc99 flags:# exclude_pinned:flags.0?true parent_pee
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **exclude_pinned** | [`flags.0?true`](type/true) | Exclude pinned dialogs |
 | **parent_peer** | [`flags.1?InputPeer`](type/InputPeer) | If set, fetches the topic list of the passed monoforum, otherwise fetches the saved dialog list |
 | <mark>offset_date</mark> | [`int`](type/int) | Offsets for pagination, for more info click here |
@@ -40,7 +40,7 @@ $messagesSavedDialogs = $client->messages->getSavedDialogs(
 	offset_date : 0,
 	offset_id : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	limit : 39,
+	limit : 44,
 	hash : 0,
 );
 ```

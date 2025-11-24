@@ -14,7 +14,7 @@ messages.searchStickerSets#35705b8a flags:# exclude_featured:flags.0?true q:stri
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **exclude_featured** | [`flags.0?true`](type/true) | Exclude featured stickersets from results |
 | <mark>q</mark> | [`string`](type/string) | Query string |
 | <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
@@ -32,7 +32,7 @@ messages.searchStickerSets#35705b8a flags:# exclude_featured:flags.0?true q:stri
 ```php
 $messagesFoundStickerSets = $client->messages->searchStickerSets(
 	exclude_featured : true,
-	q : '8Nz4Z7XKJ9rW1mTt',
+	q : 'K5xvYPqTmWhFucJ7',
 	hash : 0,
 );
 ```

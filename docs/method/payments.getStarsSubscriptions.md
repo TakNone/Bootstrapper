@@ -14,7 +14,7 @@ payments.getStarsSubscriptions#32512c5 flags:# missing_balance:flags.0?true peer
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **missing_balance** | [`flags.0?true`](type/true) | Whether to return only subscriptions expired due to an excessively low Telegram Star balance |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Always pass inputPeerSelf |
 | <mark>offset</mark> | [`string`](type/string) | Offset for pagination, taken from payments.starsStatus.subscriptions_next_offset |
@@ -41,6 +41,6 @@ payments.getStarsSubscriptions#32512c5 flags:# missing_balance:flags.0?true peer
 $paymentsStarsStatus = $client->payments->getStarsSubscriptions(
 	missing_balance : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : '2G8Jxy74jX3ImKnE',
+	offset : '1zE3SwtYm9IAeLip',
 );
 ```

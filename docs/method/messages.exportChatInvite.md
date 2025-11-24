@@ -14,7 +14,7 @@ messages.exportChatInvite#a455de90 flags:# legacy_revoke_permanent:flags.2?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **legacy_revoke_permanent** | [`flags.2?true`](type/true) | Legacy flag, reproducing legacy behavior of this method: if set, revokes all previous links before creating a new one. Kept for bot API BC, should not be used by modern clients |
 | **request_needed** | [`flags.3?true`](type/true) | Whether admin confirmation is required before admitting each separate user into the chat |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Chat |
@@ -57,12 +57,12 @@ $exportedChatInvite = $client->messages->exportChatInvite(
 	legacy_revoke_permanent : true,
 	request_needed : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	expire_date : 83,
-	usage_limit : 13,
-	title : '0ji1CBOYQgsfe5IX',
+	expire_date : 51,
+	usage_limit : 71,
+	title : 'LXJmOUFnRg30NheW',
 	subscription_pricing : $client->starsSubscriptionPricing(
-		period : 11,
-		amount : 9071983613995347009,
+		period : 6,
+		amount : 2430490274655494763,
 	),
 );
 ```

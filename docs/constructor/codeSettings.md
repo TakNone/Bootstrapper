@@ -14,7 +14,7 @@ codeSettings#ad253d78 flags:# allow_flashcall:flags.0?true current_number:flags.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **allow_flashcall** | [`flags.0?true`](type/true) | Whether to allow phone verification via phone calls |
 | **current_number** | [`flags.1?true`](type/true) | Pass true if the phone number is used on the current device. Ignored if allow_flashcall is not set |
 | **allow_app_hash** | [`flags.4?true`](type/true) | If a token that will be included in eventually sent SMSs is required: required in newer versions of android, to use the android SMS receiver APIs |
@@ -44,7 +44,7 @@ $codeSettings = $client->codeSettings(
 	allow_firebase : true,
 	unknown_number : true,
 	logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	token : 'vOpF5j7kroZLRxJu',
+	token : 'jn5lYqzwdSgLW7J6',
 	app_sandbox : false,
 );
 ```

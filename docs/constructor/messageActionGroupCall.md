@@ -14,7 +14,7 @@ messageActionGroupCall#7a0d7f42 flags:# call:InputGroupCall duration:flags.0?int
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call |
 | **duration** | [`flags.0?int`](type/int) | Group call duration |
 
@@ -31,9 +31,9 @@ messageActionGroupCall#7a0d7f42 flags:# call:InputGroupCall duration:flags.0?int
 ```php
 $messageAction = $client->messageActionGroupCall(
 	call : $client->inputGroupCall(
-		id : -8478118134529665133,
-		access_hash : -8680894547176971140,
+		id : -478108407493021067,
+		access_hash : 2306535565930901006,
 	),
-	duration : 82,
+	duration : 60,
 );
 ```

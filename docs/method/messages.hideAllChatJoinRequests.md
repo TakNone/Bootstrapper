@@ -14,7 +14,7 @@ messages.hideAllChatJoinRequests#e085f4ea flags:# approved:flags.0?true peer:Inp
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **approved** | [`flags.0?true`](type/true) | Whether to dismiss or approve all chat join requests » |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The chat or channel |
 | **link** | [`flags.1?string`](type/string) | Only dismiss or approve join requests » initiated using this invite link |
@@ -49,6 +49,6 @@ messages.hideAllChatJoinRequests#e085f4ea flags:# approved:flags.0?true peer:Inp
 $updates = $client->messages->hideAllChatJoinRequests(
 	approved : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	link : 'MqZy5Ed9XunkY6bK',
+	link : 'F7fp8OMbg2xd5Nh4',
 );
 ```

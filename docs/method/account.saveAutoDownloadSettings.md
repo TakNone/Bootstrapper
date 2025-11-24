@@ -14,7 +14,7 @@ account.saveAutoDownloadSettings#76f36233 flags:# low:flags.0?true high:flags.1?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **low** | [`flags.0?true`](type/true) | Whether to save media in the low data usage preset |
 | **high** | [`flags.1?true`](type/true) | Whether to save media in the high data usage preset |
 | <mark>settings</mark> | [`AutoDownloadSettings`](type/AutoDownloadSettings) | Media autodownload settings |
@@ -39,12 +39,12 @@ $bool = $client->account->saveAutoDownloadSettings(
 		audio_preload_next : true,
 		phonecalls_less_data : true,
 		stories_preload : true,
-		photo_size_max : 81,
-		video_size_max : -6444994850189616886,
-		file_size_max : 2549487575754838011,
-		video_upload_maxbitrate : 46,
-		small_queue_active_operations_max : 61,
-		large_queue_active_operations_max : 80,
+		photo_size_max : 100,
+		video_size_max : -7590035257641872232,
+		file_size_max : -6590738440961040656,
+		video_upload_maxbitrate : 39,
+		small_queue_active_operations_max : 5,
+		large_queue_active_operations_max : 75,
 	),
 );
 ```

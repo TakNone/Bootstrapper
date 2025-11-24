@@ -29,9 +29,9 @@ updateNewScheduledMessage#39a51dfb message:Message = Update;
 ```php
 $update = $client->updateNewScheduledMessage(
 	message : $client->messageEmpty(
-		id : 54,
+		id : 63,
 		peer_id : $client->peerUser(
-			user_id : -2941485008667958985,
+			user_id : -508299458032600919,
 		),
 	),
 );

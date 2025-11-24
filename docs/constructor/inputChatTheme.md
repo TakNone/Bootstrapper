@@ -28,6 +28,6 @@ inputChatTheme#c93de95c emoticon:string = InputChatTheme;
 
 ```php
 $inputChatTheme = $client->inputChatTheme(
-	emoticon : 'Vu1BstC9Z8F4LePw',
+	emoticon : 'Lpl92bRkOEtucMYU',
 );
 ```

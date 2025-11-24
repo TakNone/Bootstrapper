@@ -14,7 +14,7 @@ autoDownloadSettings#baa57628 flags:# disabled:flags.0?true video_preload_large:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **disabled** | [`flags.0?true`](type/true) | Disable automatic media downloads? |
 | **video_preload_large** | [`flags.1?true`](type/true) | Whether to preload the first seconds of videos larger than the specified limit |
 | **audio_preload_next** | [`flags.2?true`](type/true) | Whether to preload the next audio track when you're listening to music |
@@ -44,11 +44,11 @@ $autoDownloadSettings = $client->autoDownloadSettings(
 	audio_preload_next : true,
 	phonecalls_less_data : true,
 	stories_preload : true,
-	photo_size_max : 27,
-	video_size_max : 5732723581112456158,
-	file_size_max : 9187036989185229264,
-	video_upload_maxbitrate : 36,
-	small_queue_active_operations_max : 95,
-	large_queue_active_operations_max : 30,
+	photo_size_max : 93,
+	video_size_max : 7756626379449575103,
+	file_size_max : -5742441409675640798,
+	video_upload_maxbitrate : 71,
+	small_queue_active_operations_max : 46,
+	large_queue_active_operations_max : 23,
 );
 ```

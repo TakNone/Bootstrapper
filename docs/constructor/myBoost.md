@@ -14,7 +14,7 @@ myBoost#c448415c flags:# slot:int peer:flags.0?Peer date:int expires:int cooldow
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>slot</mark> | [`int`](type/int) | Boost slot ID » |
 | **peer** | [`flags.0?Peer`](type/Peer) | If set, indicates this slot is currently occupied, i.e. we are boosting this peer.  Note that we can assign multiple boost slots to the same peer |
 | <mark>date</mark> | [`int`](type/int) | When (unixtime) we started boosting the peer, 0 otherwise |
@@ -33,12 +33,12 @@ myBoost#c448415c flags:# slot:int peer:flags.0?Peer date:int expires:int cooldow
 
 ```php
 $myBoost = $client->myBoost(
-	slot : 57,
+	slot : 98,
 	peer : $client->peerUser(
-		user_id : -4312109632772584979,
+		user_id : -1096911012973167682,
 	),
-	date : 32,
-	expires : 35,
-	cooldown_until_date : 76,
+	date : 48,
+	expires : 88,
+	cooldown_until_date : 9,
 );
 ```

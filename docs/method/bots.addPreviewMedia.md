@@ -39,7 +39,7 @@ bots.addPreviewMedia#17aeb75a bot:InputUser lang_code:string media:InputMedia = 
 ```php
 $botPreviewMedia = $client->bots->addPreviewMedia(
 	bot : $client->get_input_user(user : '@TakNone'),
-	lang_code : '2W7UTkBwbjFyav6R',
+	lang_code : 'FnACsgVYzmOxTNqu',
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );
 ```

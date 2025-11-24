@@ -29,7 +29,7 @@ invokeWithReCaptcha#adbb0f94 {X:Type} token:string query:!X = X;
 
 ```php
 $x = $client->invokeWithReCaptcha(
-	token : 'svRDqnXCTSMlU9aH',
+	token : 'rJLRGI8muhxe0wYd',
 	query : $client->help->getConfig(raw : true),
 );
 ```

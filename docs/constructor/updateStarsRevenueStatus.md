@@ -30,23 +30,23 @@ updateStarsRevenueStatus#a584b019 peer:Peer status:StarsRevenueStatus = Update;
 ```php
 $update = $client->updateStarsRevenueStatus(
 	peer : $client->peerUser(
-		user_id : 2312571376967882874,
+		user_id : -6011980955598538445,
 	),
 	status : $client->starsRevenueStatus(
 		withdrawal_enabled : true,
 		current_balance : $client->starsAmount(
-			amount : 5843073097437183585,
-			nanos : 71,
+			amount : -3255650211587864868,
+			nanos : 34,
 		),
 		available_balance : $client->starsAmount(
-			amount : 2511739917864326332,
-			nanos : 80,
+			amount : -1930313787851222409,
+			nanos : 45,
 		),
 		overall_revenue : $client->starsAmount(
-			amount : 6728007952196777186,
-			nanos : 59,
+			amount : -1483583294673460153,
+			nanos : 100,
 		),
-		next_withdrawal_at : 91,
+		next_withdrawal_at : 54,
 	),
 );
 ```

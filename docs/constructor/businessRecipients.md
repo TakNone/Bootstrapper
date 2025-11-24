@@ -14,7 +14,7 @@ businessRecipients#21108ff7 flags:# existing_chats:flags.0?true new_chats:flags.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **existing_chats** | [`flags.0?true`](type/true) | All existing private chats |
 | **new_chats** | [`flags.1?true`](type/true) | All new private chats |
 | **contacts** | [`flags.2?true`](type/true) | All private chats with contacts |
@@ -39,6 +39,6 @@ $businessRecipients = $client->businessRecipients(
 	contacts : true,
 	non_contacts : true,
 	exclude_selected : true,
-	users : array(4962266711868716912),
+	users : array(5799768722044334152),
 );
 ```

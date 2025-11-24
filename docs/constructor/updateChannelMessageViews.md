@@ -30,8 +30,8 @@ updateChannelMessageViews#f226ac08 channel_id:long id:int views:int = Update;
 
 ```php
 $update = $client->updateChannelMessageViews(
-	channel_id : 4368270198782523183,
-	id : 18,
-	views : 42,
+	channel_id : 5999669415548224114,
+	id : 59,
+	views : 83,
 );
 ```

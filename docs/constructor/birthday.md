@@ -14,7 +14,7 @@ birthday#6c8e1e06 flags:# day:int month:int year:flags.0?int = Birthday;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>day</mark> | [`int`](type/int) | Birth day |
 | <mark>month</mark> | [`int`](type/int) | Birth month |
 | **year** | [`flags.0?int`](type/int) | (Optional) birth year |
@@ -31,8 +31,8 @@ birthday#6c8e1e06 flags:# day:int month:int year:flags.0?int = Birthday;
 
 ```php
 $birthday = $client->birthday(
-	day : 31,
-	month : 28,
-	year : 61,
+	day : 19,
+	month : 2,
+	year : 10,
 );
 ```

@@ -14,7 +14,7 @@ inputBusinessIntro#9c469cd flags:# title:string description:string sticker:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>title</mark> | [`string`](type/string) | Title of the introduction message |
 | <mark>description</mark> | [`string`](type/string) | Profile introduction |
 | **sticker** | [`flags.0?InputDocument`](type/InputDocument) | Optional introduction sticker |
@@ -31,8 +31,8 @@ inputBusinessIntro#9c469cd flags:# title:string description:string sticker:flags
 
 ```php
 $inputBusinessIntro = $client->inputBusinessIntro(
-	title : 'bom6iQxRzIwE1lgD',
-	description : '5X7gDm8dBUR6wpiE',
+	title : 'WwY3TCgkfaFbAUVi',
+	description : 'yGv3zA7bMwXYrdIc',
 	sticker : $client->inputDocumentEmpty(),
 );
 ```

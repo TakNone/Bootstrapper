@@ -14,7 +14,7 @@ phone.editGroupCallParticipant#a5273abf flags:# call:InputGroupCall participant:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call |
 | <mark>participant</mark> | [`InputPeer`](type/InputPeer) | The group call participant (can also be the user itself) |
 | **muted** | [`flags.0?Bool`](type/Bool) | Whether to mute or unmute the specified participant |
@@ -51,15 +51,15 @@ phone.editGroupCallParticipant#a5273abf flags:# call:InputGroupCall participant:
 ```php
 $updates = $client->phone->editGroupCallParticipant(
 	call : $client->inputGroupCall(
-		id : 2968646447418490756,
-		access_hash : -6948398875364030414,
+		id : 4374344802511134662,
+		access_hash : -6206847752219546433,
 	),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
-	muted : true,
-	volume : 62,
+	muted : false,
+	volume : 46,
 	raise_hand : true,
 	video_stopped : true,
-	video_paused : false,
+	video_paused : true,
 	presentation_paused : true,
 );
 ```

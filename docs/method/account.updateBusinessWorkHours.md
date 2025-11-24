@@ -15,7 +15,7 @@ account.updateBusinessWorkHours#4b00e066 flags:# business_work_hours:flags.0?Bus
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **business_work_hours** | [`flags.0?BusinessWorkHours`](type/BusinessWorkHours) | Opening hours (optional, if not set removes all opening hours) |
 
 ---
@@ -42,11 +42,11 @@ account.updateBusinessWorkHours#4b00e066 flags:# business_work_hours:flags.0?Bus
 $bool = $client->account->updateBusinessWorkHours(
 	business_work_hours : $client->businessWorkHours(
 		open_now : true,
-		timezone_id : 'Fj7vs5tPueYz9wnL',
+		timezone_id : 'WBlum2r9IVfMSjHL',
 		weekly_open : array(
 			$client->businessWeeklyOpen(
-				start_minute : 58,
-				end_minute : 98,
+				start_minute : 4,
+				end_minute : 96,
 			),
 		),
 	),

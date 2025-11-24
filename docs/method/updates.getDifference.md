@@ -14,7 +14,7 @@ updates.getDifference#19c2f763 flags:# pts:int pts_limit:flags.1?int pts_total_l
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>pts</mark> | [`int`](type/int) | PTS, see updates |
 | **pts_limit** | [`flags.1?int`](type/int) | PTS limit |
 | **pts_total_limit** | [`flags.0?int`](type/int) | For fast updating: if provided and pts + pts_total_limit < remote pts, updates.differenceTooLong will be returned.Simply tells the server to not return the difference if it is bigger than pts_total_limitIf the remote pts is too big (> ~4000000), this field will default to 1000000 |
@@ -53,11 +53,11 @@ updates.getDifference#19c2f763 flags:# pts:int pts_limit:flags.1?int pts_total_l
 
 ```php
 $updatesDifference = $client->updates->getDifference(
-	pts : 57,
-	pts_limit : 35,
-	pts_total_limit : 62,
-	date : 0,
-	qts : 78,
-	qts_limit : 13,
+	pts : 64,
+	pts_limit : 53,
+	pts_total_limit : 78,
+	date : 3,
+	qts : 80,
+	qts_limit : 23,
 );
 ```

@@ -14,7 +14,7 @@ premiumGiftOption#79c059f7 flags:# months:int currency:string amount:long bot_ur
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>months</mark> | [`int`](type/int) | NOTHING |
 | <mark>currency</mark> | [`string`](type/string) | NOTHING |
 | <mark>amount</mark> | [`long`](type/long) | NOTHING |
@@ -33,10 +33,10 @@ premiumGiftOption#79c059f7 flags:# months:int currency:string amount:long bot_ur
 
 ```php
 $premiumGiftOption = $client->premiumGiftOption(
-	months : 58,
-	currency : 'kAMH1UNfVnv3jDKe',
-	amount : 9162967014035932124,
+	months : 43,
+	currency : 'FqfOemXQlZbK9EJy',
+	amount : -5190820861047733271,
 	bot_url : 'https://docs.liveproto.dev',
-	store_product : 'DFZuI9sJOkLfgyYb',
+	store_product : 'flbI9pxd6yAjnCs4',
 );
 ```

@@ -14,7 +14,7 @@ urlAuthResultRequest#92d33a0e flags:# request_write_access:flags.0?true bot:User
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **request_write_access** | [`flags.0?true`](type/true) | Whether the bot would like to send messages to the user |
 | <mark>bot</mark> | [`User`](type/User) | Username of a bot, which will be used for user authorization. If not specified, the current bot's username will be assumed. The url's domain must be the same as the domain linked with the bot. See Linking your domain to the bot for more details |
 | <mark>domain</mark> | [`string`](type/string) | The domain name of the website on which the user will log in |
@@ -33,8 +33,8 @@ urlAuthResultRequest#92d33a0e flags:# request_write_access:flags.0?true bot:User
 $urlAuthResult = $client->urlAuthResultRequest(
 	request_write_access : true,
 	bot : $client->userEmpty(
-		id : 5646395452984710488,
+		id : -6490882204690226039,
 	),
-	domain : 'tfhvpDOloWNnB8ij',
+	domain : 'ChZ03P2gJIj7qFUa',
 );
 ```

@@ -14,7 +14,7 @@ channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?strin
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **hashtag** | [`flags.0?string`](type/string) | The hashtag to search, without the # character |
 | **query** | [`flags.1?string`](type/string) | The full text query: each user has a limited amount of free full text search slots, after which payment is required, see here » for more info on the full flow |
 | <mark>offset_rate</mark> | [`int`](type/int) | Initially 0, then set to the next_rate parameter of messages.messagesSlice, or if that is absent, the date of the last returned message |
@@ -43,12 +43,12 @@ channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?strin
 
 ```php
 $messagesMessages = $client->channels->searchPosts(
-	hashtag : 'l9n35HmT4t2NYRwB',
-	query : 'CplY1N5RdSVFZfOj',
+	hashtag : 'djE7S8CqohA5HMsg',
+	query : 'DRkJ9EAdtsqYO438',
 	offset_rate : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	limit : 65,
-	allow_paid_stars : -2711642371029828859,
+	limit : 24,
+	allow_paid_stars : 8124809234488689543,
 );
 ```

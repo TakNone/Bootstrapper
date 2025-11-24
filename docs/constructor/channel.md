@@ -14,7 +14,7 @@ channel#1c32b11c flags:# creator:flags.0?true left:flags.2?true broadcast:flags.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **creator** | [`flags.0?true`](type/true) | Whether the current user is the creator of this channel |
 | **left** | [`flags.2?true`](type/true) | Whether the current user has left or is not a member of this channel |
 | **broadcast** | [`flags.5?true`](type/true) | Is this a channel? |
@@ -35,7 +35,7 @@ channel#1c32b11c flags:# creator:flags.0?true left:flags.2?true broadcast:flags.
 | **join_to_send** | [`flags.28?true`](type/true) | Whether a user needs to join the supergroup before they can send messages: can be false only for discussion groups », toggle using channels.toggleJoinToSendChanges to this flag should invalidate the local channelFull cache for this channel/supergroup ID, see here » for more info |
 | **join_request** | [`flags.29?true`](type/true) | Whether a user's join request will have to be approved by administrators, toggle using channels.toggleJoinToSendChanges to this flag should invalidate the local channelFull cache for this channel/supergroup ID, see here » for more info |
 | **forum** | [`flags.30?true`](type/true) | Whether this supergroup is a forum. Changes to this flag should invalidate the local channelFull cache for this channel/supergroup ID, see here » for more info |
-| <mark>flags2</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags2</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **stories_hidden** | [`flags2.1?true`](type/true) | Whether we have hidden all stories posted by this channel » |
 | **stories_hidden_min** | [`flags2.2?true`](type/true) | If set, indicates that the stories_hidden flag was not populated, and its value must cannot be relied on; use the previously cached value, or re-fetch the constructor using channels.getChannels to obtain the latest value of the stories_hidden flag |
 | **stories_unavailable** | [`flags2.3?true`](type/true) | No stories from the channel are visible |
@@ -106,17 +106,17 @@ $chat = $client->channel(
 	broadcast_messages_allowed : true,
 	monoforum : true,
 	forum_tabs : true,
-	id : -5065332640727800658,
-	access_hash : 5232494680980450132,
-	title : 'ai2jVs05O3YgGQqm',
+	id : 7928053179486324081,
+	access_hash : -2780623608601199542,
+	title : '4Bbdfem6p5Mg3kQh',
 	username : 'TakNone',
 	photo : $client->chatPhotoEmpty(),
-	date : 64,
+	date : 57,
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : 'ID0Yehd6zsRFpOlk',
-			reason : '8I4knmwcYLapXJC2',
-			text : 'reaJSdWgqKovZNHx',
+			platform : 'KIuFP9VMp0ZUycWf',
+			reason : 'RFpjGB4fDwdJb3Ll',
+			text : 'znhjU6gWOcaBi0Nq',
 		),
 	),
 	admin_rights : $client->chatAdminRights(
@@ -158,7 +158,7 @@ $chat = $client->channel(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 92,
+		until_date : 0,
 	),
 	default_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -181,9 +181,9 @@ $chat = $client->channel(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 17,
+		until_date : 65,
 	),
-	participants_count : 78,
+	participants_count : 41,
 	usernames : array(
 		$client->username(
 			editable : true,
@@ -193,21 +193,21 @@ $chat = $client->channel(
 	),
 	stories_max_id : $client->recentStory(
 		live : true,
-		max_id : 68,
+		max_id : 21,
 	),
 	color : $client->peerColor(
-		color : 100,
-		background_emoji_id : 8004888703202269112,
+		color : 90,
+		background_emoji_id : -95770601074007657,
 	),
 	profile_color : $client->peerColor(
-		color : 16,
-		background_emoji_id : -8593311388936914100,
+		color : 28,
+		background_emoji_id : -6473007159714206275,
 	),
 	emoji_status : $client->emojiStatusEmpty(),
-	level : 80,
-	subscription_until_date : 39,
-	bot_verification_icon : 3773080630906407845,
-	send_paid_messages_stars : -2317471599480639827,
-	linked_monoforum_id : -13019138016840908,
+	level : 69,
+	subscription_until_date : 49,
+	bot_verification_icon : -6783280827713348323,
+	send_paid_messages_stars : -2519094774784740050,
+	linked_monoforum_id : -8199193298017563719,
 );
 ```

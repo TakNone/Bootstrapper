@@ -30,6 +30,6 @@ inputNotifyForumTopic#5c467992 peer:InputPeer top_msg_id:int = InputNotifyPeer;
 ```php
 $inputNotifyPeer = $client->inputNotifyForumTopic(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 44,
+	top_msg_id : 83,
 );
 ```

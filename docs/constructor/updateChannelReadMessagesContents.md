@@ -14,7 +14,7 @@ updateChannelReadMessagesContents#25f324f7 flags:# channel_id:long top_msg_id:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>channel_id</mark> | [`long`](type/long) | Channel/supergroup ID |
 | **top_msg_id** | [`flags.0?int`](type/int) | Forum topic ID |
 | **saved_peer_id** | [`flags.1?Peer`](type/Peer) | If set, the messages were read within the specified monoforum topic » |
@@ -32,11 +32,11 @@ updateChannelReadMessagesContents#25f324f7 flags:# channel_id:long top_msg_id:fl
 
 ```php
 $update = $client->updateChannelReadMessagesContents(
-	channel_id : -7818464857232877025,
-	top_msg_id : 26,
+	channel_id : 1977105899247389010,
+	top_msg_id : 15,
 	saved_peer_id : $client->peerUser(
-		user_id : -9112993535414858677,
+		user_id : 8563685502325937011,
 	),
-	messages : array(9),
+	messages : array(61),
 );
 ```

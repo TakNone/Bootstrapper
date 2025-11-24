@@ -14,7 +14,7 @@ updateGroupCall#9d2216e0 flags:# live_story:flags.2?true peer:flags.1?Peer call:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **live_story** | [`flags.2?true`](type/true) | NOTHING |
 | **peer** | [`flags.1?Peer`](type/Peer) | NOTHING |
 | <mark>call</mark> | [`GroupCall`](type/GroupCall) | Info about the group call or livestream |
@@ -33,12 +33,12 @@ updateGroupCall#9d2216e0 flags:# live_story:flags.2?true peer:flags.1?Peer call:
 $update = $client->updateGroupCall(
 	live_story : true,
 	peer : $client->peerUser(
-		user_id : -6154362480043133479,
+		user_id : -5285027320954142350,
 	),
 	call : $client->groupCallDiscarded(
-		id : -7556737974344978252,
-		access_hash : -1907378549453606126,
-		duration : 43,
+		id : -6954476619065221723,
+		access_hash : 300793830636485798,
+		duration : 90,
 	),
 );
 ```

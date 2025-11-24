@@ -42,7 +42,7 @@ messages.forwardMessage#33963bf9 peer:InputPeer id:int random_id:long = Updates;
 ```php
 $updates = $client->messages->forwardMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 14,
-	random_id : 7007847247813933557,
+	id : 16,
+	random_id : -8244362383164366777,
 );
 ```

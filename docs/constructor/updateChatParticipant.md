@@ -14,7 +14,7 @@ updateChatParticipant#d087663a flags:# chat_id:long date:int actor_id:long user_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>chat_id</mark> | [`long`](type/long) | Chat ID |
 | <mark>date</mark> | [`int`](type/int) | When did this event occur |
 | <mark>actor_id</mark> | [`long`](type/long) | User that triggered the change (inviter, admin that kicked the user, or the even the user_id itself) |
@@ -36,39 +36,39 @@ updateChatParticipant#d087663a flags:# chat_id:long date:int actor_id:long user_
 
 ```php
 $update = $client->updateChatParticipant(
-	chat_id : -6624806030287308907,
-	date : 2,
-	actor_id : 6543582416380251959,
-	user_id : 5889644653268542922,
+	chat_id : 4583844599288357574,
+	date : 8,
+	actor_id : -6130458829271276215,
+	user_id : 246187342579237811,
 	prev_participant : $client->chatParticipant(
-		user_id : -979651207094118744,
-		inviter_id : -5370415373897227597,
-		date : 44,
+		user_id : -8041163275342371033,
+		inviter_id : 1646723611603754211,
+		date : 27,
 	),
 	new_participant : $client->chatParticipant(
-		user_id : -6828694756320553622,
-		inviter_id : 4883452464864336952,
-		date : 19,
+		user_id : -3614525422687762556,
+		inviter_id : -5186411396553202192,
+		date : 47,
 	),
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'ip4OUTqSKLxmtZ6R',
-		admin_id : -9110799148261299901,
-		date : 93,
-		start_date : 71,
-		expire_date : 81,
-		usage_limit : 91,
-		usage : 84,
-		requested : 68,
-		subscription_expired : 54,
-		title : 'tOu2k3c6jK5SE9ri',
+		link : '6cKJUrhHF2XaqlBn',
+		admin_id : -8859580195547841480,
+		date : 25,
+		start_date : 96,
+		expire_date : 89,
+		usage_limit : 27,
+		usage : 25,
+		requested : 33,
+		subscription_expired : 36,
+		title : 'A3MLrPuG4o0bVwU9',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 75,
-			amount : 879231392838278765,
+			period : 64,
+			amount : -9131328895259823537,
 		),
 	),
-	qts : 71,
+	qts : 2,
 );
 ```

@@ -47,7 +47,7 @@ $bool = $client->account->updateNotifySettings(
 	settings : $client->inputPeerNotifySettings(
 		show_previews : false,
 		silent : false,
-		mute_until : 43,
+		mute_until : 0,
 		sound : $client->notificationSoundDefault(),
 		stories_muted : false,
 		stories_hide_sender : false,

@@ -14,7 +14,7 @@ messages.getDialogs#a0f4cb4f flags:# exclude_pinned:flags.0?true folder_id:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **exclude_pinned** | [`flags.0?true`](type/true) | Exclude pinned dialogs |
 | **folder_id** | [`flags.1?int`](type/int) | Peer folder ID, for more info click here |
 | <mark>offset_date</mark> | [`int`](type/int) | Offsets for pagination, for more info click here |
@@ -49,11 +49,11 @@ messages.getDialogs#a0f4cb4f flags:# exclude_pinned:flags.0?true folder_id:flags
 ```php
 $messagesDialogs = $client->messages->getDialogs(
 	exclude_pinned : true,
-	folder_id : 93,
+	folder_id : 95,
 	offset_date : 0,
 	offset_id : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	limit : 22,
+	limit : 94,
 	hash : 0,
 );
 ```

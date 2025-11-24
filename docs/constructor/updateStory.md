@@ -30,10 +30,10 @@ updateStory#75b3b798 peer:Peer story:StoryItem = Update;
 ```php
 $update = $client->updateStory(
 	peer : $client->peerUser(
-		user_id : -442003506680235898,
+		user_id : -4795473053432640090,
 	),
 	story : $client->storyItemDeleted(
-		id : 9,
+		id : 50,
 	),
 );
 ```

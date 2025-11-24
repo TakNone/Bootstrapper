@@ -39,7 +39,7 @@ account.uploadRingtone#831a83a2 file:InputFile file_name:string mime_type:string
 ```php
 $document = $client->account->uploadRingtone(
 	file : $client->upload_file(path : 'file.png'),
-	file_name : '4Wqaek7vDrs9HLox',
-	mime_type : '6s4TMUV28QnOyDNc',
+	file_name : 'PjyAOQvzY8Wm2R6w',
+	mime_type : '6gyBAxOlXcVtpewK',
 );
 ```

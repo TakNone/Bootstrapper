@@ -36,6 +36,6 @@ messages.checkHistoryImport#43fe19f3 import_head:string = messages.HistoryImport
 
 ```php
 $messagesHistoryImportParsed = $client->messages->checkHistoryImport(
-	import_head : 's3EygampQqXhUAYu',
+	import_head : 'dWzGnv3CHJjq9Y7e',
 );
 ```

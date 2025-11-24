@@ -14,7 +14,7 @@ messages.forwardMessages#41d41ade flags:# silent:flags.5?true background:flags.6
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **silent** | [`flags.5?true`](type/true) | Whether to send messages silently (no notification will be triggered on the destination clients) |
 | **background** | [`flags.6?true`](type/true) | Whether to send the message in background |
 | **with_my_score** | [`flags.8?true`](type/true) | When forwarding games, whether to include your score in the game |
@@ -118,127 +118,127 @@ $updates = $client->messages->forwardMessages(
 	noforwards : true,
 	allow_paid_floodskip : true,
 	from_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(94),
-	random_id : array(6964295697334592739),
+	id : array(89),
+	random_id : array(-8152672868155067451),
 	to_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 78,
+	top_msg_id : 9,
 	reply_to : $client->inputReplyToMessage(
 		reply_to_msg_id : 76,
-		top_msg_id : 45,
+		top_msg_id : 100,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'vaEWXNDyq5o9sQO8',
+		quote_text : 'r4jdNs5ACezMfcgT',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 47,
+				length : 29,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 6,
+				length : 78,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 46,
+				length : 0,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 30,
+				length : 35,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 31,
+				length : 75,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 18,
+				length : 100,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 61,
+				length : 0,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 52,
+				length : 36,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 89,
+				length : 31,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 21,
-				language : 'MVi765WflBc4yPp0',
+				length : 6,
+				language : 'XDFxhGETW3gdc2Lz',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 74,
+				length : 85,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 54,
-				user_id : -2574189743971081750,
+				length : 67,
+				user_id : 7723488918126654675,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 34,
+				length : 62,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 33,
+				length : 22,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 48,
+				length : 67,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 89,
+				length : 57,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 0,
+				length : 68,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 60,
+				length : 19,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 67,
+				length : 100,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 84,
-				document_id : 2504706793320727561,
+				length : 21,
+				document_id : -8873152932521317510,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 44,
+				length : 77,
 			),
 		),
-		quote_offset : 60,
+		quote_offset : 13,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 54,
+		todo_item_id : 31,
 	),
-	schedule_date : 62,
-	schedule_repeat_period : 0,
+	schedule_date : 40,
+	schedule_repeat_period : 58,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'EyKjbzlP2m61fihW',
+		shortcut : 'JjrEX82o0OlQZfzV',
 	),
-	video_timestamp : 96,
-	allow_paid_stars : 3308261606415747222,
+	video_timestamp : 87,
+	allow_paid_stars : -7724112867650681712,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : -5698911648645026141,
-			nanos : 21,
+			amount : 4913849415897643476,
+			nanos : 4,
 		),
-		schedule_date : 9,
+		schedule_date : 32,
 	),
 );
 ```

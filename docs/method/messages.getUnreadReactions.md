@@ -14,7 +14,7 @@ messages.getUnreadReactions#bd7f90ac flags:# peer:InputPeer top_msg_id:flags.0?i
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer |
 | **top_msg_id** | [`flags.0?int`](type/int) | If set, considers only reactions to messages within the specified forum topic |
 | **saved_peer_id** | [`flags.1?InputPeer`](type/InputPeer) | If set, must be equal to the ID of a monoforum topic: will affect that topic in the monoforum passed in peer |
@@ -45,12 +45,12 @@ messages.getUnreadReactions#bd7f90ac flags:# peer:InputPeer top_msg_id:flags.0?i
 ```php
 $messagesMessages = $client->messages->getUnreadReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 57,
+	top_msg_id : 96,
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	add_offset : 67,
-	limit : 38,
-	max_id : 38,
-	min_id : 49,
+	add_offset : 78,
+	limit : 67,
+	max_id : 69,
+	min_id : 69,
 );
 ```

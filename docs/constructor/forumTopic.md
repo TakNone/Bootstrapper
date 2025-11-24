@@ -14,7 +14,7 @@ forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?t
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **my** | [`flags.1?true`](type/true) | Whether the topic was created by the current user |
 | **closed** | [`flags.2?true`](type/true) | Whether the topic is closed (no messages can be sent to it) |
 | **pinned** | [`flags.3?true`](type/true) | Whether the topic is pinned |
@@ -55,27 +55,27 @@ $forumTopic = $client->forumTopic(
 	short : true,
 	hidden : true,
 	title_missing : true,
-	id : 23,
-	date : 68,
+	id : 67,
+	date : 2,
 	peer : $client->peerUser(
-		user_id : -9047312154434923470,
+		user_id : 7109695411485383654,
 	),
-	title : '07kDTEajrZiILwfV',
-	icon_color : 18,
-	icon_emoji_id : 4589952818670283276,
-	top_message : 42,
-	read_inbox_max_id : 8,
-	read_outbox_max_id : 4,
-	unread_count : 76,
-	unread_mentions_count : 58,
-	unread_reactions_count : 97,
+	title : 'fC56YIPvjQrVtuWb',
+	icon_color : 77,
+	icon_emoji_id : -703199536019279967,
+	top_message : 46,
+	read_inbox_max_id : 55,
+	read_outbox_max_id : 76,
+	unread_count : 25,
+	unread_mentions_count : 56,
+	unread_reactions_count : 74,
 	from_id : $client->peerUser(
-		user_id : 7522364617234976623,
+		user_id : 3143130668007785224,
 	),
 	notify_settings : $client->peerNotifySettings(
 		show_previews : false,
 		silent : true,
-		mute_until : 56,
+		mute_until : 95,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
@@ -86,7 +86,7 @@ $forumTopic = $client->forumTopic(
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	draft : $client->draftMessageEmpty(
-		date : 7,
+		date : 82,
 	),
 );
 ```

@@ -44,8 +44,8 @@ stats.getMessagePublicForwards#5f150144 channel:InputChannel msg_id:int offset:s
 ```php
 $statsPublicForwards = $client->stats->getMessagePublicForwards(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	msg_id : 16,
-	offset : '62ZBYSjUyLmMQJ7b',
-	limit : 67,
+	msg_id : 70,
+	offset : 'mREYwnJ7IiQSgeks',
+	limit : 51,
 );
 ```

@@ -14,7 +14,7 @@ keyboardButtonSwitchInline#93b9fbb5 flags:# same_peer:flags.0?true text:string q
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **same_peer** | [`flags.0?true`](type/true) | If set, pressing the button will insert the bot's username and the specified inline query in the current chat's input field |
 | <mark>text</mark> | [`string`](type/string) | Button label |
 | <mark>query</mark> | [`string`](type/string) | The inline query to use |
@@ -33,8 +33,8 @@ keyboardButtonSwitchInline#93b9fbb5 flags:# same_peer:flags.0?true text:string q
 ```php
 $keyboardButton = $client->keyboardButtonSwitchInline(
 	same_peer : true,
-	text : '7mLrFE0Ua4sRvNKh',
-	query : 'ojycTwN6WEhaQpJ2',
+	text : 'BAlIXzFYC3MGsJVd',
+	query : 'rwk23HXijbg1SD9K',
 	peer_types : array(
 		$client->inlineQueryPeerTypeSameBotPM(),
 		$client->inlineQueryPeerTypePM(),

@@ -14,7 +14,7 @@ mediaAreaCoordinates#cfc9e002 flags:# x:double y:double w:double h:double rotati
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>x</mark> | [`double`](type/double) | The abscissa of the rectangle's center, as a percentage of the media width (0-100) |
 | <mark>y</mark> | [`double`](type/double) | The ordinate of the rectangle's center, as a percentage of the media height (0-100) |
 | <mark>w</mark> | [`double`](type/double) | The width of the rectangle, as a percentage of the media width (0-100) |
@@ -34,11 +34,11 @@ mediaAreaCoordinates#cfc9e002 flags:# x:double y:double w:double h:double rotati
 
 ```php
 $mediaAreaCoordinates = $client->mediaAreaCoordinates(
-	x : 1231149.53125,
-	y : -1237539.89453125,
-	w : 718098.890625,
-	h : 353957.9716796875,
-	rotation : 1691976.771484375,
-	radius : -1282158.2568359375,
+	x : 659390.796875,
+	y : -873839.76171875,
+	w : -1732000.6923828125,
+	h : -881504.9970703125,
+	rotation : -451769.8623046875,
+	radius : -1236522.01953125,
 );
 ```

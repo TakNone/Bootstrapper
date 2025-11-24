@@ -14,7 +14,7 @@ businessWorkHours#8c92b098 flags:# open_now:flags.0?true timezone_id:string week
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **open_now** | [`flags.0?true`](type/true) | Ignored if set while invoking account.updateBusinessWorkHours, only returned by the server in userFull.business_work_hours, indicating whether the business is currently open according to the current time and the values in weekly_open and timezone |
 | <mark>timezone_id</mark> | [`string`](type/string) | An ID of one of the timezones returned by help.getTimezonesList.    The timezone ID is contained timezone.id, a human-readable, localized name of the timezone is available in timezone.name and the timezone.utc_offset field contains the UTC offset in seconds, which may be displayed in hh:mm format by the client together with the human-readable name (i.e. $name UTC -01:00) |
 | <mark>weekly_open</mark> | [`Vector<BusinessWeeklyOpen>`](type/BusinessWeeklyOpen) | A list of time intervals (max 28) represented by businessWeeklyOpen », indicating the opening hours of their business |
@@ -32,11 +32,11 @@ businessWorkHours#8c92b098 flags:# open_now:flags.0?true timezone_id:string week
 ```php
 $businessWorkHours = $client->businessWorkHours(
 	open_now : true,
-	timezone_id : 'zbeRKdrFEZpXUuHx',
+	timezone_id : 'rhCq1RIfAdy457Gg',
 	weekly_open : array(
 		$client->businessWeeklyOpen(
-			start_minute : 84,
-			end_minute : 79,
+			start_minute : 81,
+			end_minute : 51,
 		),
 	),
 );

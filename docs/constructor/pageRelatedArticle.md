@@ -14,7 +14,7 @@ pageRelatedArticle#b390dc08 flags:# url:string webpage_id:long title:flags.0?str
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>url</mark> | [`string`](type/string) | URL of article |
 | <mark>webpage_id</mark> | [`long`](type/long) | Webpage ID of generated IV preview |
 | **title** | [`flags.0?string`](type/string) | Title |
@@ -36,11 +36,11 @@ pageRelatedArticle#b390dc08 flags:# url:string webpage_id:long title:flags.0?str
 ```php
 $pageRelatedArticle = $client->pageRelatedArticle(
 	url : 'https://docs.liveproto.dev',
-	webpage_id : -2561409022656712012,
-	title : 'aYZ25Xkxt9mH1gNu',
-	description : 'xVMGYD86ESZLmjeN',
-	photo_id : 5723577693694914905,
-	author : 'VE6la2BDLTWgmXuS',
-	published_date : 21,
+	webpage_id : -7829767224558386074,
+	title : '9VG8BiECXDjkdMy1',
+	description : 'ZcVkR0g1JsdtWaGH',
+	photo_id : -6925049127297382882,
+	author : 'mF2I9kAr8bOvHyLT',
+	published_date : 78,
 );
 ```

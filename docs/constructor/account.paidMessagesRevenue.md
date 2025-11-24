@@ -28,6 +28,6 @@ account.paidMessagesRevenue#1e109708 stars_amount:long = account.PaidMessagesRev
 
 ```php
 $accountPaidMessagesRevenue = $client->account->paidMessagesRevenue(
-	stars_amount : -313538788063662288,
+	stars_amount : 7674973420476598398,
 );
 ```

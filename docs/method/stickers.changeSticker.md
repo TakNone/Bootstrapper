@@ -14,7 +14,7 @@ stickers.changeSticker#f5537ebc flags:# sticker:InputDocument emoji:flags.0?stri
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>sticker</mark> | [`InputDocument`](type/InputDocument) | The sticker |
 | **emoji** | [`flags.0?string`](type/string) | If set, updates the emoji list associated to the sticker |
 | **mask_coords** | [`flags.1?MaskCoords`](type/MaskCoords) | If set, updates the mask coordinates |
@@ -41,13 +41,13 @@ stickers.changeSticker#f5537ebc flags:# sticker:InputDocument emoji:flags.0?stri
 ```php
 $messagesStickerSet = $client->stickers->changeSticker(
 	sticker : $client->inputDocumentEmpty(),
-	emoji : 'BURpoVMOdChiyftb',
+	emoji : 'R3TOKx2W0bNyEpPr',
 	mask_coords : $client->maskCoords(
-		n : 98,
-		x : -47223.923828125,
-		y : -1791739.7783203125,
-		zoom : 2024040.970703125,
+		n : 60,
+		x : 1699371.0361328125,
+		y : 2027985.2861328125,
+		zoom : -801936.0654296875,
 	),
-	keywords : 'fp6JgjFD34PlHRTd',
+	keywords : 'tLaOkVuTnPoSjWFZ',
 );
 ```
