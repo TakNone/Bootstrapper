@@ -30,8 +30,8 @@ groupCallDiscarded#7780bcb4 id:long access_hash:long duration:int = GroupCall;
 
 ```php
 $groupCall = $client->groupCallDiscarded(
-	id : -4621262165991222102,
-	access_hash : 8686077826770907207,
-	duration : 1,
+	id : -8893165549339753906,
+	access_hash : -4121173089556086126,
+	duration : 66,
 );
 ```

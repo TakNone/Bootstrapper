@@ -28,6 +28,6 @@ messageActionWebViewDataSent#b4c38cb5 text:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionWebViewDataSent(
-	text : '4rYL2WZ6Qzl1Rjn3',
+	text : 'Bz4wlSkNWC8ZXnvP',
 );
 ```

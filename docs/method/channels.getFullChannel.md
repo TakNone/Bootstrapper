@@ -40,6 +40,6 @@ channels.getFullChannel#8736a09 channel:InputChannel = messages.ChatFull;
 
 ```php
 $messagesChatFull = $client->channels->getFullChannel(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

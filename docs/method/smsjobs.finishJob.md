@@ -38,7 +38,7 @@ smsjobs.finishJob#4f1ebf24 flags:# job_id:string error:flags.0?string = Bool;
 
 ```php
 $bool = $client->smsjobs->finishJob(
-	job_id : 'HoPEQiINktFLuUvz',
-	error : 'mNPqEwT3tUYiu7cD',
+	job_id : '0bZwx8QShkRc4BW6',
+	error : 'tpLIUZX0Dv1Jz72g',
 );
 ```

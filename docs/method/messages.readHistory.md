@@ -42,6 +42,6 @@ messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessag
 ```php
 $messagesAffectedMessages = $client->messages->readHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	max_id : 40,
+	max_id : 22,
 );
 ```

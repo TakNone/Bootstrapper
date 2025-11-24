@@ -33,13 +33,13 @@ starRefProgram#dd0c66f2 flags:# bot_id:long commission_permille:int duration_mon
 
 ```php
 $starRefProgram = $client->starRefProgram(
-	bot_id : -5125889018469678096,
-	commission_permille : 92,
-	duration_months : 58,
-	end_date : 67,
+	bot_id : -2305027237754553138,
+	commission_permille : 24,
+	duration_months : 97,
+	end_date : 51,
 	daily_revenue_per_user : $client->starsAmount(
-		amount : -3774358322756777322,
-		nanos : 45,
+		amount : -7843534598273406078,
+		nanos : 96,
 	),
 );
 ```

@@ -31,14 +31,14 @@ inputMediaAreaVenue#b282217f coordinates:MediaAreaCoordinates query_id:long resu
 ```php
 $mediaArea = $client->inputMediaAreaVenue(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 46391.1396484375,
-		y : -1898499.4912109375,
-		w : 1525431.1123046875,
-		h : -661482.48828125,
-		rotation : 1649975.7744140625,
-		radius : 2016365.3623046875,
+		x : -1416267.55078125,
+		y : 1683891.7109375,
+		w : -646893.3232421875,
+		h : -868163.8408203125,
+		rotation : 2072783.3330078125,
+		radius : 2036032.2978515625,
 	),
-	query_id : -9115363523410899887,
-	result_id : 'K2R03w1W6nQuMxhD',
+	query_id : 2371835028576200165,
+	result_id : '306P8WJOlgEa5vTI',
 );
 ```

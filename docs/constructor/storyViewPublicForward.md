@@ -34,9 +34,9 @@ $storyView = $client->storyViewPublicForward(
 	blocked : true,
 	blocked_my_stories_from : true,
 	message : $client->messageEmpty(
-		id : 61,
+		id : 64,
 		peer_id : $client->peerUser(
-			user_id : 1172744076060504710,
+			user_id : 4101006977333099888,
 		),
 	),
 );

@@ -29,7 +29,7 @@ pageBlockAudio#804361ea audio_id:long caption:PageCaption = PageBlock;
 
 ```php
 $pageBlock = $client->pageBlockAudio(
-	audio_id : -767304708946369180,
+	audio_id : 4938629891173418402,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

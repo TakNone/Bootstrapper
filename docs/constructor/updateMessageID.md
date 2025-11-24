@@ -29,7 +29,7 @@ updateMessageID#4e90bfd6 id:int random_id:long = Update;
 
 ```php
 $update = $client->updateMessageID(
-	id : 32,
-	random_id : -9175496035116918384,
+	id : 56,
+	random_id : 2290318541187871008,
 );
 ```

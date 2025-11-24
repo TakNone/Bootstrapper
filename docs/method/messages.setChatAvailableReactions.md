@@ -46,7 +46,7 @@ messages.setChatAvailableReactions#864b2581 flags:# peer:InputPeer available_rea
 $updates = $client->messages->setChatAvailableReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	available_reactions : $client->chatReactionsNone(),
-	reactions_limit : 38,
-	paid_enabled : true,
+	reactions_limit : 99,
+	paid_enabled : false,
 );
 ```

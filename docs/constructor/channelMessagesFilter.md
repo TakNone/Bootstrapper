@@ -33,8 +33,8 @@ $channelMessagesFilter = $client->channelMessagesFilter(
 	exclude_new_messages : true,
 	ranges : array(
 		$client->messageRange(
-			min_id : 45,
-			max_id : 90,
+			min_id : 83,
+			max_id : 72,
 		),
 	),
 );

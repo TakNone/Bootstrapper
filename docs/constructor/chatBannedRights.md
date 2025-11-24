@@ -69,6 +69,6 @@ $chatBannedRights = $client->chatBannedRights(
 	send_voices : true,
 	send_docs : true,
 	send_plain : true,
-	until_date : 85,
+	until_date : 40,
 );
 ```

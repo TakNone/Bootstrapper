@@ -42,6 +42,6 @@ messages.readMentions#36e5bf4d flags:# peer:InputPeer top_msg_id:flags.0?int = m
 ```php
 $messagesAffectedHistory = $client->messages->readMentions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 7,
+	top_msg_id : 26,
 );
 ```

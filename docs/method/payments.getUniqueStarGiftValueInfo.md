@@ -36,6 +36,6 @@ payments.getUniqueStarGiftValueInfo#4365af6b slug:string = payments.UniqueStarGi
 
 ```php
 $paymentsUniqueStarGiftValueInfo = $client->payments->getUniqueStarGiftValueInfo(
-	slug : 'PLbnSCTqvNIKQwk6',
+	slug : 'BbAfZITsEoajOehW',
 );
 ```

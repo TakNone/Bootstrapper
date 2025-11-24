@@ -28,6 +28,6 @@ help.getRecentMeUrls#3dc0f114 referer:string = help.RecentMeUrls;
 
 ```php
 $helpRecentMeUrls = $client->help->getRecentMeUrls(
-	referer : 'ONCI2ZXDvVa3o9z5',
+	referer : 'DF0ykXuwqm438V2G',
 );
 ```

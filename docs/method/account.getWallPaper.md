@@ -37,8 +37,8 @@ account.getWallPaper#fc8ddbea wallpaper:InputWallPaper = WallPaper;
 ```php
 $wallPaper = $client->account->getWallPaper(
 	wallpaper : $client->inputWallPaper(
-		id : 9068068907507338216,
-		access_hash : -3743384083628766424,
+		id : 8622561092260052507,
+		access_hash : -3683263339770141584,
 	),
 );
 ```

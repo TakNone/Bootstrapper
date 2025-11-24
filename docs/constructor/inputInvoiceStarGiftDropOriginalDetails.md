@@ -27,7 +27,7 @@ inputInvoiceStarGiftDropOriginalDetails#923d8d1 stargift:InputSavedStarGift = In
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftDropOriginalDetails(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 59,
+		msg_id : 42,
 	),
 );
 ```

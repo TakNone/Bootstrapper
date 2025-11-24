@@ -39,6 +39,6 @@ messages.deleteScheduledMessages#59ae2b16 peer:InputPeer id:Vector<int> = Update
 ```php
 $updates = $client->messages->deleteScheduledMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(12),
+	id : array(94),
 );
 ```

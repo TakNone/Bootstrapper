@@ -32,11 +32,11 @@ updateChannelReadMessagesContents#25f324f7 flags:# channel_id:long top_msg_id:fl
 
 ```php
 $update = $client->updateChannelReadMessagesContents(
-	channel_id : -1890137109109752548,
-	top_msg_id : 58,
+	channel_id : -7818464857232877025,
+	top_msg_id : 26,
 	saved_peer_id : $client->peerUser(
-		user_id : -512653162411691566,
+		user_id : -9112993535414858677,
 	),
-	messages : array(59),
+	messages : array(9),
 );
 ```

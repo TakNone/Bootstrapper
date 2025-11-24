@@ -32,8 +32,8 @@ messages.rateTranscribedAudio#7f1d072f peer:InputPeer msg_id:int transcription_i
 ```php
 $bool = $client->messages->rateTranscribedAudio(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 35,
-	transcription_id : 6070645354532589316,
+	msg_id : 80,
+	transcription_id : -8183564195421728763,
 	good : true,
 );
 ```

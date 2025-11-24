@@ -34,11 +34,11 @@ updateBotInlineQuery#496f379c flags:# query_id:long user_id:long query:string ge
 
 ```php
 $update = $client->updateBotInlineQuery(
-	query_id : 4830150540470195223,
-	user_id : 2633943852779503270,
-	query : 'oLYrwERaZFd6ilxy',
+	query_id : 8234584434299720838,
+	user_id : 3920629994258164990,
+	query : 'W6KtCTqcl1HsYkPG',
 	geo : $client->geoPointEmpty(),
 	peer_type : $client->inlineQueryPeerTypeSameBotPM(),
-	offset : 'P3ziu4kwxZrJS2DL',
+	offset : 'nTPIhXto5HE4YAJC',
 );
 ```

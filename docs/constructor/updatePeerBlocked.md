@@ -34,7 +34,7 @@ $update = $client->updatePeerBlocked(
 	blocked : true,
 	blocked_my_stories_from : true,
 	peer_id : $client->peerUser(
-		user_id : 1308589002772588876,
+		user_id : 3342867794093920199,
 	),
 );
 ```

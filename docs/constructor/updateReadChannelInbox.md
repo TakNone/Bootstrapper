@@ -33,10 +33,10 @@ updateReadChannelInbox#922e6e10 flags:# folder_id:flags.0?int channel_id:long ma
 
 ```php
 $update = $client->updateReadChannelInbox(
-	folder_id : 33,
-	channel_id : 8609252367732902666,
-	max_id : 38,
-	still_unread_count : 69,
-	pts : 45,
+	folder_id : 94,
+	channel_id : 3546809883826349291,
+	max_id : 42,
+	still_unread_count : 58,
+	pts : 70,
 );
 ```

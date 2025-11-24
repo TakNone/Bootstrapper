@@ -41,6 +41,6 @@ stats.getMegagroupStats#dcdf8607 flags:# dark:flags.0?true channel:InputChannel 
 ```php
 $statsMegagroupStats = $client->stats->getMegagroupStats(
 	dark : true,
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

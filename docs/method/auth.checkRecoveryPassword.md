@@ -37,6 +37,6 @@ auth.checkRecoveryPassword#d36bf79 code:string = Bool;
 
 ```php
 $bool = $client->auth->checkRecoveryPassword(
-	code : 'lazKqMY82m0RcAtN',
+	code : 'uYH9sgpOEfaXQmJb',
 );
 ```

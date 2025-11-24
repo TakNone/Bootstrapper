@@ -40,7 +40,7 @@ premium.applyBoost#6b7da746 flags:# slots:flags.0?Vector<int> peer:InputPeer = p
 
 ```php
 $premiumMyBoosts = $client->premium->applyBoost(
-	slots : array(19),
+	slots : array(32),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

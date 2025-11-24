@@ -37,7 +37,7 @@ channels.setEmojiStickers#3cd930b7 channel:InputChannel stickerset:InputStickerS
 
 ```php
 $bool = $client->channels->setEmojiStickers(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	stickerset : $client->inputStickerSetEmpty(),
 );
 ```

@@ -31,9 +31,9 @@ messagePeerVote#b6cc2d5c peer:Peer option:bytes date:int = MessagePeerVote;
 ```php
 $messagePeerVote = $client->messagePeerVote(
 	peer : $client->peerUser(
-		user_id : -7177775611340598458,
+		user_id : -7186273094202571344,
 	),
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	date : 88,
+	date : 18,
 );
 ```

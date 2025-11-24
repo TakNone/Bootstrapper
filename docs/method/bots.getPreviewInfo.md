@@ -37,7 +37,7 @@ bots.getPreviewInfo#423ab3ad bot:InputUser lang_code:string = bots.PreviewInfo;
 
 ```php
 $botsPreviewInfo = $client->bots->getPreviewInfo(
-	bot : $client->get_input_user(peer : '@TakNone'),
-	lang_code : 'nNh1CjeTcRu8KQk9',
+	bot : $client->get_input_user(user : '@TakNone'),
+	lang_code : '1KNp93S2LCB5PoMZ',
 );
 ```

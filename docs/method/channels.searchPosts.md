@@ -43,12 +43,12 @@ channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?strin
 
 ```php
 $messagesMessages = $client->channels->searchPosts(
-	hashtag : 'MgHPmW6YaxezcGbI',
-	query : '1zBSeaOA50n8xNmv',
+	hashtag : 'l9n35HmT4t2NYRwB',
+	query : 'CplY1N5RdSVFZfOj',
 	offset_rate : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	limit : 77,
-	allow_paid_stars : -8697352612969320330,
+	limit : 65,
+	allow_paid_stars : -2711642371029828859,
 );
 ```

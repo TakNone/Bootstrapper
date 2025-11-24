@@ -28,6 +28,6 @@ inputQuickReplyShortcut#24596d41 shortcut:string = InputQuickReplyShortcut;
 
 ```php
 $inputQuickReplyShortcut = $client->inputQuickReplyShortcut(
-	shortcut : 'P1YilAcVpbhgFHLw',
+	shortcut : 'XLZqilJhdVTsQ56o',
 );
 ```

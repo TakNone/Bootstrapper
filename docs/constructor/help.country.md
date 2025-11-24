@@ -34,14 +34,14 @@ help.country#c3878e23 flags:# hidden:flags.0?true iso2:string default_name:strin
 ```php
 $helpCountry = $client->help->country(
 	hidden : true,
-	iso2 : 'byRYaHl0VnFTeBkU',
-	default_name : 'ULvV1Qrz4e69Nkxy',
-	name : 'ZwV4jBELdOtJRhDx',
+	iso2 : 'Vv7WDyHTPwo6eR82',
+	default_name : '0w3jRXMOekpA8dKH',
+	name : 't3NKg6SnUYv7wEqG',
 	country_codes : array(
 		$client->help->countryCode(
-			country_code : 'FSOTkDZqlYMun2br',
-			prefixes : array('rgJYlR8U3TNiBp4j'),
-			patterns : array('lAo04mxYX8NLuKIa'),
+			country_code : 'NAlQBm0wichkGWrb',
+			prefixes : array('qlfzD3BEU9ZWe8Np'),
+			patterns : array('cmM4F7vYnUhliS5w'),
 		),
 	),
 );

@@ -39,11 +39,11 @@ phone.joinGroupCallPresentation#cbea6bc4 call:InputGroupCall params:DataJSON = U
 ```php
 $updates = $client->phone->joinGroupCallPresentation(
 	call : $client->inputGroupCall(
-		id : -7374894872377971938,
-		access_hash : 1859457883830735914,
+		id : -8156850599880011956,
+		access_hash : -3621011826324752302,
 	),
 	params : $client->dataJSON(
-		data : '5vMu0gmFUb2psWOt',
+		data : 'zTtArNsw0G9XWSPl',
 	),
 );
 ```

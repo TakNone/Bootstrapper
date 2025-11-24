@@ -36,6 +36,6 @@ bots.allowSendMessage#f132e3ef bot:InputUser = Updates;
 
 ```php
 $updates = $client->bots->allowSendMessage(
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 );
 ```

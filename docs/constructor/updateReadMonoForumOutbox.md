@@ -30,10 +30,10 @@ updateReadMonoForumOutbox#a4a79376 channel_id:long saved_peer_id:Peer read_max_i
 
 ```php
 $update = $client->updateReadMonoForumOutbox(
-	channel_id : -3419372651261531440,
+	channel_id : 7629703965861981144,
 	saved_peer_id : $client->peerUser(
-		user_id : 1991096430225970986,
+		user_id : 4195472453176889660,
 	),
-	read_max_id : 94,
+	read_max_id : 53,
 );
 ```

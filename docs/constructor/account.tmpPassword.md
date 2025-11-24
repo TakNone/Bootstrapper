@@ -30,6 +30,6 @@ account.tmpPassword#db64fd34 tmp_password:bytes valid_until:int = account.TmpPas
 ```php
 $accountTmpPassword = $client->account->tmpPassword(
 	tmp_password : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	valid_until : 54,
+	valid_until : 26,
 );
 ```

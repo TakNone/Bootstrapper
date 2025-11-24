@@ -28,6 +28,6 @@ account.updatePersonalChannel#d94305e0 channel:InputChannel = Bool;
 
 ```php
 $bool = $client->account->updatePersonalChannel(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

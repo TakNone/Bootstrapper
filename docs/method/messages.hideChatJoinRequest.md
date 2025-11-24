@@ -51,6 +51,6 @@ messages.hideChatJoinRequest#7fe7e815 flags:# approved:flags.0?true peer:InputPe
 $updates = $client->messages->hideChatJoinRequest(
 	approved : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

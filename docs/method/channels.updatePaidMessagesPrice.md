@@ -43,7 +43,7 @@ channels.updatePaidMessagesPrice#4b12327b flags:# broadcast_messages_allowed:fla
 ```php
 $updates = $client->channels->updatePaidMessagesPrice(
 	broadcast_messages_allowed : true,
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	send_paid_messages_stars : -6780927517292478686,
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	send_paid_messages_stars : 1372730223039919080,
 );
 ```

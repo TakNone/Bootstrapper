@@ -30,6 +30,6 @@ inputInvoiceMessage#c5b56859 peer:InputPeer msg_id:int = InputInvoice;
 ```php
 $inputInvoice = $client->inputInvoiceMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 58,
+	msg_id : 41,
 );
 ```

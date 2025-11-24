@@ -32,11 +32,11 @@ webPageAttributeStory#2e94c3e7 flags:# peer:Peer id:int story:flags.0?StoryItem 
 ```php
 $webPageAttribute = $client->webPageAttributeStory(
 	peer : $client->peerUser(
-		user_id : 6147602525090276958,
+		user_id : 807912013040305788,
 	),
-	id : 23,
+	id : 82,
 	story : $client->storyItemDeleted(
-		id : 96,
+		id : 8,
 	),
 );
 ```

@@ -49,11 +49,11 @@ $bool = $client->messages->editInlineBotMessage(
 	no_webpage : true,
 	invert_media : true,
 	id : $client->inputBotInlineMessageID(
-		dc_id : 56,
-		id : 2700735305925797956,
-		access_hash : -8275457893524607029,
+		dc_id : 47,
+		id : -3435692350792268951,
+		access_hash : 4646289763776251599,
 	),
-	message : 'x0PuqLkmGsBbMntF',
+	message : 'GfqDB63vVWhEKtZ0',
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
@@ -61,79 +61,79 @@ $bool = $client->messages->editInlineBotMessage(
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 52,
+			length : 60,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 71,
+			length : 43,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 15,
+			length : 31,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 9,
+			length : 40,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 100,
+			length : 89,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 9,
+			length : 75,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 40,
+			length : 80,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 86,
+			length : 32,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 91,
+			length : 96,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 78,
-			language : 'ABkeqUv0Y7HSF864',
+			length : 42,
+			language : 'bSoGr6T93YpkHEXB',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 16,
+			length : 19,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 38,
-			user_id : -2221193197476201822,
+			length : 49,
+			user_id : 8204874555035462863,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 95,
-			user_id : $client->get_input_user(peer : '@TakNone'),
+			length : 19,
+			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 24,
+			length : 94,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 46,
+			length : 21,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 66,
+			length : 6,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 61,
+			length : 91,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 36,
+			length : 60,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
@@ -141,13 +141,13 @@ $bool = $client->messages->editInlineBotMessage(
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 37,
-			document_id : 7737277298303324462,
+			length : 50,
+			document_id : -3826840460113354011,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 47,
+			length : 54,
 		),
 	),
 );

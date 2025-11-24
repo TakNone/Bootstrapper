@@ -42,6 +42,6 @@ messages.getMessageEditData#fda68d36 peer:InputPeer id:int = messages.MessageEdi
 ```php
 $messagesMessageEditData = $client->messages->getMessageEditData(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 14,
+	id : 68,
 );
 ```

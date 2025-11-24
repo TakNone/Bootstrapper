@@ -35,22 +35,22 @@ updateBusinessBotCallbackQuery#1ea2fda7 flags:# query_id:long user_id:long conne
 
 ```php
 $update = $client->updateBusinessBotCallbackQuery(
-	query_id : 97622852794620213,
-	user_id : 7304934168703705429,
-	connection_id : '4vR1faGsTCkHFjMw',
+	query_id : 2541275565663178626,
+	user_id : -8921622779765648029,
+	connection_id : 'bIRzxT0iKr6Mgqd9',
 	message : $client->messageEmpty(
-		id : 36,
+		id : 44,
 		peer_id : $client->peerUser(
-			user_id : 1759171219525565838,
+			user_id : -8087583067139026974,
 		),
 	),
 	reply_to_message : $client->messageEmpty(
-		id : 0,
+		id : 87,
 		peer_id : $client->peerUser(
-			user_id : 4494736131388710817,
+			user_id : 7827330279171597768,
 		),
 	),
-	chat_instance : -1248392722476732994,
+	chat_instance : -3758229999811461901,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -40,7 +40,7 @@ messages.togglePaidReactionPrivacy#435885b5 peer:InputPeer msg_id:int private:Pa
 ```php
 $bool = $client->messages->togglePaidReactionPrivacy(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 92,
+	msg_id : 11,
 	private : $client->paidReactionPrivacyDefault(),
 );
 ```

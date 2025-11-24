@@ -37,7 +37,7 @@ channels.reportAntiSpamFalsePositive#a850a693 channel:InputChannel msg_id:int = 
 
 ```php
 $bool = $client->channels->reportAntiSpamFalsePositive(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	msg_id : 55,
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	msg_id : 2,
 );
 ```

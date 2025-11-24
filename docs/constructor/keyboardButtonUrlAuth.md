@@ -32,9 +32,9 @@ keyboardButtonUrlAuth#10b78d29 flags:# text:string fwd_text:flags.0?string url:s
 
 ```php
 $keyboardButton = $client->keyboardButtonUrlAuth(
-	text : 'cUQe6fDKPJBRjuFX',
-	fwd_text : 'BKxoYXvSLtT0sJrf',
+	text : 'iKTep3nLbXCyJU9l',
+	fwd_text : 'c9e3oTqXfQtN0Iz5',
 	url : 'https://docs.liveproto.dev',
-	button_id : 29,
+	button_id : 57,
 );
 ```

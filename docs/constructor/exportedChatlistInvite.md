@@ -33,17 +33,17 @@ exportedChatlistInvite#c5181ac flags:# revoked:flags.0?true title:string url:str
 ```php
 $exportedChatlistInvite = $client->exportedChatlistInvite(
 	revoked : true,
-	title : 'TEzPmMubeXrQkZR6',
+	title : 'wUHj7Y3W48d2aXsJ',
 	url : 'https://docs.liveproto.dev',
 	peers : array(
 		$client->peerUser(
-			user_id : -2756120868720399694,
+			user_id : -6439683717661854651,
 		),
 		$client->peerChat(
-			chat_id : 8509093031112959227,
+			chat_id : 836135027497281042,
 		),
 		$client->peerChannel(
-			channel_id : -1292273575634090952,
+			channel_id : 7129054469051209105,
 		),
 	),
 );

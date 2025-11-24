@@ -42,7 +42,7 @@ channels.deleteParticipantHistory#367544db channel:InputChannel participant:Inpu
 
 ```php
 $messagesAffectedHistory = $client->channels->deleteParticipantHistory(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

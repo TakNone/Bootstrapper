@@ -46,7 +46,7 @@ channels.updateUsername#3514b3de channel:InputChannel username:string = Bool;
 
 ```php
 $bool = $client->channels->updateUsername(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	username : 'TakNone',
 );
 ```

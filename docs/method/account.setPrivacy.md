@@ -44,18 +44,18 @@ $accountPrivacyRules = $client->account->setPrivacy(
 		$client->inputPrivacyValueAllowContacts(),
 		$client->inputPrivacyValueAllowAll(),
 		$client->inputPrivacyValueAllowUsers(
-			users : array($client->get_input_user(peer : '@TakNone')),
+			users : array($client->get_input_user(user : '@TakNone')),
 		),
 		$client->inputPrivacyValueDisallowContacts(),
 		$client->inputPrivacyValueDisallowAll(),
 		$client->inputPrivacyValueDisallowUsers(
-			users : array($client->get_input_user(peer : '@TakNone')),
+			users : array($client->get_input_user(user : '@TakNone')),
 		),
 		$client->inputPrivacyValueAllowChatParticipants(
-			chats : array(5597358206544367742),
+			chats : array(128899572664452735),
 		),
 		$client->inputPrivacyValueDisallowChatParticipants(
-			chats : array(1444550494841041040),
+			chats : array(4391508142154481079),
 		),
 		$client->inputPrivacyValueAllowCloseFriends(),
 		$client->inputPrivacyValueAllowPremium(),

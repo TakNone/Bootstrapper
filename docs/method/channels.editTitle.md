@@ -43,7 +43,7 @@ channels.editTitle#566decd0 channel:InputChannel title:string = Updates;
 
 ```php
 $updates = $client->channels->editTitle(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	title : 'kIleMQxqrJi6F7Nj',
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	title : 'bZ4wCEgl8KGN1uWd',
 );
 ```

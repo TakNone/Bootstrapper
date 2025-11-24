@@ -32,7 +32,7 @@ keyboardButtonCallback#35bbdb6b flags:# requires_password:flags.0?true text:stri
 ```php
 $keyboardButton = $client->keyboardButtonCallback(
 	requires_password : true,
-	text : 'O1yYkqx9HwSVWGaC',
+	text : 'A74L0VIQhclbMTHK',
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

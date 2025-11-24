@@ -32,6 +32,6 @@ secureSecretSettings#1527bcac secure_algo:SecurePasswordKdfAlgo secure_secret:by
 $secureSecretSettings = $client->secureSecretSettings(
 	secure_algo : $client->securePasswordKdfAlgoUnknown(),
 	secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	secure_secret_id : 7833066810286573959,
+	secure_secret_id : -8838577294954989495,
 );
 ```

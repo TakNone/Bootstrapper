@@ -39,7 +39,7 @@ payments.launchPrepaidGiveaway#5ff58f20 peer:InputPeer giveaway_id:long purpose:
 ```php
 $updates = $client->payments->launchPrepaidGiveaway(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	giveaway_id : 4903655454187271909,
+	giveaway_id : 5106941882074352888,
 	purpose : $client->inputStorePaymentPremiumSubscription(
 		restore : true,
 		upgrade : true,

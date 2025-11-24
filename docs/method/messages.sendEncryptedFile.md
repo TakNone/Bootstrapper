@@ -48,10 +48,10 @@ messages.sendEncryptedFile#5559481d flags:# silent:flags.0?true peer:InputEncryp
 $messagesSentEncryptedMessage = $client->messages->sendEncryptedFile(
 	silent : true,
 	peer : $client->inputEncryptedChat(
-		chat_id : 65,
-		access_hash : -7529261247185631216,
+		chat_id : 43,
+		access_hash : -2128316394071636024,
 	),
-	random_id : 5871803665291148426,
+	random_id : 5891972181920388294,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	file : $client->inputEncryptedFileEmpty(),
 );

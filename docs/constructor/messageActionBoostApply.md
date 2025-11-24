@@ -28,6 +28,6 @@ messageActionBoostApply#cc02aa6d boosts:int = MessageAction;
 
 ```php
 $messageAction = $client->messageActionBoostApply(
-	boosts : 8,
+	boosts : 38,
 );
 ```

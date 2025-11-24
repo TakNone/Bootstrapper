@@ -42,6 +42,6 @@ messages.discardEncryption#f393aea0 flags:# delete_history:flags.0?true chat_id:
 ```php
 $bool = $client->messages->discardEncryption(
 	delete_history : true,
-	chat_id : 9,
+	chat_id : 59,
 );
 ```

@@ -45,6 +45,6 @@ $messagesSearchResultsPositions = $client->messages->getSearchResultsPositions(
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	filter : $client->inputMessagesFilterEmpty(),
 	offset_id : 0,
-	limit : 69,
+	limit : 14,
 );
 ```

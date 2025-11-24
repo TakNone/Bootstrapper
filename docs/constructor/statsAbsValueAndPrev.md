@@ -29,7 +29,7 @@ statsAbsValueAndPrev#cb43acde current:double previous:double = StatsAbsValueAndP
 
 ```php
 $statsAbsValueAndPrev = $client->statsAbsValueAndPrev(
-	current : 107399.6279296875,
-	previous : -548105.775390625,
+	current : -1521026.4208984375,
+	previous : -2088739.76953125,
 );
 ```

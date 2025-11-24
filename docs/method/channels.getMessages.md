@@ -43,18 +43,18 @@ channels.getMessages#ad8c9a23 channel:InputChannel id:Vector<InputMessage> = mes
 
 ```php
 $messagesMessages = $client->channels->getMessages(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	id : array(
 		$client->inputMessageID(
-			id : 22,
+			id : 83,
 		),
 		$client->inputMessageReplyTo(
-			id : 68,
+			id : 71,
 		),
 		$client->inputMessagePinned(),
 		$client->inputMessageCallbackQuery(
-			id : 13,
-			query_id : 7477290586047979863,
+			id : 26,
+			query_id : 1849248288899379512,
 		),
 	),
 );

@@ -29,7 +29,7 @@ cdnPublicKey#c982eaba dc_id:int public_key:string = CdnPublicKey;
 
 ```php
 $cdnPublicKey = $client->cdnPublicKey(
-	dc_id : 54,
-	public_key : 'tzMLlJYIaT5p374i',
+	dc_id : 60,
+	public_key : 'osIVEbnmGNYP854c',
 );
 ```

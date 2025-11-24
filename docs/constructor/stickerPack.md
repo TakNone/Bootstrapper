@@ -30,7 +30,7 @@ stickerPack#12b299d4 emoticon:string documents:Vector<long> = StickerPack;
 
 ```php
 $stickerPack = $client->stickerPack(
-	emoticon : '1z4aRHu9JYlNhbVQ',
-	documents : array(-1586400575770352092),
+	emoticon : 'qkn0yFAuTebYQoHm',
+	documents : array(76932081982940082),
 );
 ```

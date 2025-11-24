@@ -35,10 +35,10 @@ updatePinnedMessages#ed85eab5 flags:# pinned:flags.0?true peer:Peer messages:Vec
 $update = $client->updatePinnedMessages(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : 2800788976288059566,
+		user_id : 8793112336437096454,
 	),
-	messages : array(91),
-	pts : 82,
-	pts_count : 74,
+	messages : array(30),
+	pts : 23,
+	pts_count : 8,
 );
 ```

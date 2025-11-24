@@ -40,7 +40,7 @@ payments.refundStarsCharge#25ae8f4a user_id:InputUser charge_id:string = Updates
 
 ```php
 $updates = $client->payments->refundStarsCharge(
-	user_id : $client->get_input_user(peer : '@TakNone'),
-	charge_id : 'Xzerqx0AvS2KwyOc',
+	user_id : $client->get_input_user(user : '@TakNone'),
+	charge_id : 'lfNBoicAQkJWptjv',
 );
 ```

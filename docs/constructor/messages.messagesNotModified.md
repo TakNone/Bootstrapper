@@ -28,6 +28,6 @@ messages.messagesNotModified#74535f21 count:int = messages.Messages;
 
 ```php
 $messagesMessages = $client->messages->messagesNotModified(
-	count : 29,
+	count : 58,
 );
 ```

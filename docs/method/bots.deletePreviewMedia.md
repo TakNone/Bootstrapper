@@ -38,8 +38,8 @@ bots.deletePreviewMedia#2d0135b3 bot:InputUser lang_code:string media:Vector<Inp
 
 ```php
 $bool = $client->bots->deletePreviewMedia(
-	bot : $client->get_input_user(peer : '@TakNone'),
-	lang_code : 'pDcfYuCNtSwd586J',
+	bot : $client->get_input_user(user : '@TakNone'),
+	lang_code : '6g5iVQeXuZKybx7S',
 	media : array($client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT)),
 );
 ```

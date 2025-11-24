@@ -36,6 +36,6 @@ bots.getPreviewMedias#a2a5594d bot:InputUser = Vector<BotPreviewMedia>;
 
 ```php
 $botPreviewMedia = $client->bots->getPreviewMedias(
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 );
 ```

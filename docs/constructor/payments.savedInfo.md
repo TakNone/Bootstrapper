@@ -32,16 +32,16 @@ payments.savedInfo#fb8fe43c flags:# has_saved_credentials:flags.1?true saved_inf
 $paymentsSavedInfo = $client->payments->savedInfo(
 	has_saved_credentials : true,
 	saved_info : $client->paymentRequestedInfo(
-		name : 'K3a0ECrkD7zvdHOM',
+		name : 'mcNSWk8nO9j3s7D5',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : 'T8t6yHqDOlS9kx5X',
-			street_line2 : '1fZaCpxMqA7iSVoj',
-			city : 'XEWyus4UcpSM3d6q',
-			state : 'BVNI4CxmYvw65qUW',
-			country_iso2 : '8J4lLmsxCXGPkdoq',
-			post_code : 'azvw7fln9VQhpUtd',
+			street_line1 : 'LqDTJoaEnSdgxj8V',
+			street_line2 : '2QAvo3mzUcOJnsMf',
+			city : 'XDrMWYudAtzlmJoh',
+			state : 'mRBkrxqQ9eLoMNiC',
+			country_iso2 : 'UfZR69nQE8CFLNhc',
+			post_code : 'vK7dLySVEA23Y5Fo',
 		),
 	),
 );

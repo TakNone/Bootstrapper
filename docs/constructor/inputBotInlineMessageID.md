@@ -30,8 +30,8 @@ inputBotInlineMessageID#890c3d89 dc_id:int id:long access_hash:long = InputBotIn
 
 ```php
 $inputBotInlineMessageID = $client->inputBotInlineMessageID(
-	dc_id : 41,
-	id : 2346087915312843185,
-	access_hash : -6482231905040937374,
+	dc_id : 69,
+	id : 1451419290526072063,
+	access_hash : 3718751488500430498,
 );
 ```

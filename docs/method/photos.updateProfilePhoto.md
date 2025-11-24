@@ -47,7 +47,7 @@ photos.updateProfilePhoto#9e82039 flags:# fallback:flags.0?true bot:flags.1?Inpu
 ```php
 $photosPhoto = $client->photos->updateProfilePhoto(
 	fallback : true,
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 	id : $client->inputPhotoEmpty(),
 );
 ```

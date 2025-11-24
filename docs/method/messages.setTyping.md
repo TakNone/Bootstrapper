@@ -54,7 +54,7 @@ messages.setTyping#58943ee2 flags:# peer:InputPeer top_msg_id:flags.0?int action
 ```php
 $bool = $client->messages->setTyping(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 7,
+	top_msg_id : 33,
 	action : $client->sendMessageTypingAction(),
 );
 ```

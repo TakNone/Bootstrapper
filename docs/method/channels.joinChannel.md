@@ -50,6 +50,6 @@ channels.joinChannel#24b524c5 channel:InputChannel = Updates;
 
 ```php
 $updates = $client->channels->joinChannel(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

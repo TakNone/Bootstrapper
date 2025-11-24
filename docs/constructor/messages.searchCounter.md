@@ -33,6 +33,6 @@ messages.searchCounter#e844ebff flags:# inexact:flags.1?true filter:MessagesFilt
 $messagesSearchCounter = $client->messages->searchCounter(
 	inexact : true,
 	filter : $client->inputMessagesFilterEmpty(),
-	count : 67,
+	count : 88,
 );
 ```

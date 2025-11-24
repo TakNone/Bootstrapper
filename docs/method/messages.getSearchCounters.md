@@ -42,7 +42,7 @@ messages.getSearchCounters#1bbcf300 flags:# peer:InputPeer saved_peer_id:flags.2
 $messagesSearchCounter = $client->messages->getSearchCounters(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 94,
+	top_msg_id : 93,
 	filters : array(
 		$client->inputMessagesFilterEmpty(),
 		$client->inputMessagesFilterPhotos(),

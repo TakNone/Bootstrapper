@@ -48,10 +48,10 @@ chatlists.editExportedInvite#653db63d flags:# revoked:flags.0?true chatlist:Inpu
 $exportedChatlistInvite = $client->chatlists->editExportedInvite(
 	revoked : true,
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 86,
+		filter_id : 4,
 	),
-	slug : 'QYpUj7T9a58c4d6w',
-	title : 'FjwlP4rLYkpMHWvQ',
+	slug : 'MZITrSXFBGQayhtd',
+	title : 'slADuBQIEivNfybF',
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

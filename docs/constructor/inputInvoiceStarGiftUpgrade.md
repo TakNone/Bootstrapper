@@ -32,7 +32,7 @@ inputInvoiceStarGiftUpgrade#4d818d5d flags:# keep_original_details:flags.0?true 
 $inputInvoice = $client->inputInvoiceStarGiftUpgrade(
 	keep_original_details : true,
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 20,
+		msg_id : 13,
 	),
 );
 ```

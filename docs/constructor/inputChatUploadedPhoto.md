@@ -34,13 +34,13 @@ inputChatUploadedPhoto#bdcdaec0 flags:# file:flags.0?InputFile video:flags.1?Inp
 $inputChatPhoto = $client->inputChatUploadedPhoto(
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : -2004759.8876953125,
+	video_start_ts : -308983,
 	video_emoji_markup : $client->videoSize(
-		type : 'BqJjKYeTQFsNvDHX',
-		w : 32,
-		h : 52,
-		size : 10,
-		video_start_ts : -1734099.380859375,
+		type : 'Ob9Qzl23WIcDX70o',
+		w : 38,
+		h : 53,
+		size : 27,
+		video_start_ts : 258101.6484375,
 	),
 );
 ```

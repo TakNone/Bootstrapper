@@ -28,6 +28,6 @@ starsTonAmount#74aee3e0 amount:long = StarsAmount;
 
 ```php
 $starsAmount = $client->starsTonAmount(
-	amount : -5277219551147342182,
+	amount : 5616744462801874563,
 );
 ```

@@ -38,14 +38,14 @@ account.getMultiWallPapers#65ad71dc wallpapers:Vector<InputWallPaper> = Vector<W
 $wallPaper = $client->account->getMultiWallPapers(
 	wallpapers : array(
 		$client->inputWallPaper(
-			id : -2510596017660931067,
-			access_hash : -5155910744311468821,
+			id : -4313249617780834597,
+			access_hash : -1948163600636830800,
 		),
 		$client->inputWallPaperSlug(
-			slug : 'VjtbF5zhZfUC6Qrd',
+			slug : '9Me8tnajr0wVUZy4',
 		),
 		$client->inputWallPaperNoFile(
-			id : -5936047899085288432,
+			id : -5446413287270157837,
 		),
 	),
 );

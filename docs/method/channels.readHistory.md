@@ -39,7 +39,7 @@ channels.readHistory#cc104937 channel:InputChannel max_id:int = Bool;
 
 ```php
 $bool = $client->channels->readHistory(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	max_id : 83,
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	max_id : 46,
 );
 ```

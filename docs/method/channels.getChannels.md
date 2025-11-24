@@ -39,6 +39,6 @@ channels.getChannels#a7f6bbb id:Vector<InputChannel> = messages.Chats;
 
 ```php
 $messagesChats = $client->channels->getChannels(
-	id : array($client->get_input_channel(peer : '@LiveProto')),
+	id : array($client->get_input_channel(channel : '@LiveProto')),
 );
 ```

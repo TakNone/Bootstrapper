@@ -33,11 +33,11 @@ messages.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true
 $updates = $client->messages->toggleGroupCallSettings(
 	reset_invite_hash : true,
 	call : $client->inputGroupCall(
-		id : -3003483950493793023,
-		access_hash : -5482831143421179182,
+		id : -3277002202987501896,
+		access_hash : 246969839626815776,
 	),
 	join_muted : false,
-	messages_enabled : false,
-	send_paid_messages_stars : -3931531635125772842,
+	messages_enabled : true,
+	send_paid_messages_stars : -9177801670448920029,
 );
 ```

@@ -27,16 +27,16 @@ updateStarGiftAuctionUserState#dc58f31e gift_id:long user_state:StarGiftAuctionU
 
 ```php
 $update = $client->updateStarGiftAuctionUserState(
-	gift_id : -7869756253739162157,
+	gift_id : 8746661892622102470,
 	user_state : $client->starGiftAuctionUserState(
 		returned : true,
-		bid_amount : -4109944594625144018,
-		bid_date : 87,
-		min_bid_amount : -4839437592642872009,
+		bid_amount : -1585574001763006196,
+		bid_date : 1,
+		min_bid_amount : -8022409630432101947,
 		peer : $client->peerUser(
-			user_id : 7859325149378730163,
+			user_id : 3104075762960506367,
 		),
-		acquired_count : 59,
+		acquired_count : 95,
 	),
 );
 ```

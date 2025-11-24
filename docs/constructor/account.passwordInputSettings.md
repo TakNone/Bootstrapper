@@ -35,12 +35,12 @@ account.passwordInputSettings#c23727c9 flags:# new_algo:flags.0?PasswordKdfAlgo 
 $accountPasswordInputSettings = $client->account->passwordInputSettings(
 	new_algo : $client->passwordKdfAlgoUnknown(),
 	new_password_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	hint : 'O4DvT1d7fucQIXim',
+	hint : 'lESBrOYJfRkIbT1V',
 	email : 'reply@liveproto.dev',
 	new_secure_settings : $client->secureSecretSettings(
 		secure_algo : $client->securePasswordKdfAlgoUnknown(),
 		secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		secure_secret_id : -1692366509774802090,
+		secure_secret_id : 6265117609636377602,
 	),
 );
 ```

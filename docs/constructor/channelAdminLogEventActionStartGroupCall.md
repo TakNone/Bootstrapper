@@ -29,8 +29,8 @@ channelAdminLogEventActionStartGroupCall#23209745 call:InputGroupCall = ChannelA
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionStartGroupCall(
 	call : $client->inputGroupCall(
-		id : 6373153845471912452,
-		access_hash : -2586285036288373815,
+		id : 6652913768542678764,
+		access_hash : 3696851966910556202,
 	),
 );
 ```

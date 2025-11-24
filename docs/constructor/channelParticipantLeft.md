@@ -29,7 +29,7 @@ channelParticipantLeft#1b03f006 peer:Peer = ChannelParticipant;
 ```php
 $channelParticipant = $client->channelParticipantLeft(
 	peer : $client->peerUser(
-		user_id : -1645712229877533897,
+		user_id : -3679294527272638949,
 	),
 );
 ```

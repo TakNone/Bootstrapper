@@ -28,6 +28,6 @@ inputWallPaperSlug#72091c80 slug:string = InputWallPaper;
 
 ```php
 $inputWallPaper = $client->inputWallPaperSlug(
-	slug : '0sGE2rlXIgoVpu3h',
+	slug : 'XPG4FUo3yTnkwpEq',
 );
 ```

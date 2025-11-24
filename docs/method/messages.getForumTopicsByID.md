@@ -28,6 +28,6 @@ messages.getForumTopicsByID#af0a4a08 peer:InputPeer topics:Vector<int> = message
 ```php
 $messagesForumTopics = $client->messages->getForumTopicsByID(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	topics : array(82),
+	topics : array(30),
 );
 ```

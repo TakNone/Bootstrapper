@@ -30,6 +30,6 @@ inputStickerSetThumb#9d84f3db stickerset:InputStickerSet thumb_version:int = Inp
 ```php
 $inputFileLocation = $client->inputStickerSetThumb(
 	stickerset : $client->inputStickerSetEmpty(),
-	thumb_version : 49,
+	thumb_version : 14,
 );
 ```

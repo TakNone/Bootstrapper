@@ -41,6 +41,6 @@ channels.deleteChannel#c0111fe3 channel:InputChannel = Updates;
 
 ```php
 $updates = $client->channels->deleteChannel(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

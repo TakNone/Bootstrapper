@@ -41,7 +41,7 @@ payments.convertStarGift#74bf076b stargift:InputSavedStarGift = Bool;
 ```php
 $bool = $client->payments->convertStarGift(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 8,
+		msg_id : 75,
 	),
 );
 ```

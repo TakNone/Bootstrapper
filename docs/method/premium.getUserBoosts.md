@@ -38,6 +38,6 @@ premium.getUserBoosts#39854d1f peer:InputPeer user_id:InputUser = premium.Boosts
 ```php
 $premiumBoostsList = $client->premium->getUserBoosts(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

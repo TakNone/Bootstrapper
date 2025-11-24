@@ -39,6 +39,6 @@ messages.startHistoryImport#b43df344 peer:InputPeer import_id:long = Bool;
 ```php
 $bool = $client->messages->startHistoryImport(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	import_id : -2709981521227725118,
+	import_id : 3668655993502546893,
 );
 ```

@@ -44,9 +44,9 @@ $dcOption = $client->dcOption(
 	cdn : true,
 	static : true,
 	this_port_only : true,
-	id : 78,
+	id : 90,
 	ip_address : '127.0.0.1',
-	port : 5,
+	port : 18,
 	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

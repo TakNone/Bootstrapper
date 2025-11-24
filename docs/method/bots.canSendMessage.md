@@ -36,6 +36,6 @@ bots.canSendMessage#1359f4e6 bot:InputUser = Bool;
 
 ```php
 $bool = $client->bots->canSendMessage(
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 );
 ```

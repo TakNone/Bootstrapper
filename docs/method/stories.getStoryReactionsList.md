@@ -44,9 +44,9 @@ stories.getStoryReactionsList#b9b2881f flags:# forwards_first:flags.2?true peer:
 $storiesStoryReactionsList = $client->stories->getStoryReactionsList(
 	forwards_first : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 27,
+	id : 34,
 	reaction : $client->reactionEmpty(),
-	offset : 'aewsHgvr3J8bcNd9',
-	limit : 53,
+	offset : '8SYuPBU6TkiRvapN',
+	limit : 60,
 );
 ```

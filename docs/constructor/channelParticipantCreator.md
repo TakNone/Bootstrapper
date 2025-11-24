@@ -31,7 +31,7 @@ channelParticipantCreator#2fe601d3 flags:# user_id:long admin_rights:ChatAdminRi
 
 ```php
 $channelParticipant = $client->channelParticipantCreator(
-	user_id : -2475426053476698658,
+	user_id : -310148138224741288,
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -50,6 +50,6 @@ $channelParticipant = $client->channelParticipantCreator(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : 'UC8N5oFSyvZlrAKi',
+	rank : '458aWBnjrJyOQglI',
 );
 ```

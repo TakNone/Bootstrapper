@@ -36,7 +36,7 @@ $accountEmailVerified = $client->account->emailVerifiedLogin(
 		),
 		phone_code_hash : '+1234567890',
 		next_type : $client->auth->codeTypeSms(),
-		timeout : 89,
+		timeout : 99,
 	),
 );
 ```

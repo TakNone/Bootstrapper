@@ -32,7 +32,7 @@ $recentMeUrl = $client->recentMeUrlChatInvite(
 	url : 'https://docs.liveproto.dev',
 	chat_invite : $client->chatInviteAlready(
 		chat : $client->chatEmpty(
-			id : -7410409341275610947,
+			id : 5442306534686696337,
 		),
 	),
 );

@@ -28,6 +28,6 @@ notificationSoundRingtone#ff6c8049 id:long = NotificationSound;
 
 ```php
 $notificationSound = $client->notificationSoundRingtone(
-	id : -2574999714050780398,
+	id : -5624082752420367894,
 );
 ```

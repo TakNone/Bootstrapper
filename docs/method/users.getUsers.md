@@ -41,6 +41,6 @@ users.getUsers#d91a548 id:Vector<InputUser> = Vector<User>;
 
 ```php
 $user = $client->users->getUsers(
-	id : array($client->get_input_user(peer : '@TakNone')),
+	id : array($client->get_input_user(user : '@TakNone')),
 );
 ```

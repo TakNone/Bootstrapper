@@ -38,6 +38,6 @@ bots.getBotCommands#e34c0dd6 scope:BotCommandScope lang_code:string = Vector<Bot
 ```php
 $botCommand = $client->bots->getBotCommands(
 	scope : $client->botCommandScopeDefault(),
-	lang_code : '9XUOt7rwuC52lhLy',
+	lang_code : 'rAwZfRJMVpPqiF4T',
 );
 ```

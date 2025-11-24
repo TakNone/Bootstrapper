@@ -28,6 +28,6 @@ messageActionChatEditTitle#b5a1ce5a title:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatEditTitle(
-	title : 'wWjGdobLF6ecaEpf',
+	title : 'zSsTr5Z1yPfYhaOl',
 );
 ```

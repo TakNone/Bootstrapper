@@ -30,15 +30,15 @@ channelAdminLogEventActionEditMessage#709b2405 prev_message:Message new_message:
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionEditMessage(
 	prev_message : $client->messageEmpty(
-		id : 18,
+		id : 43,
 		peer_id : $client->peerUser(
-			user_id : -7904202858514377982,
+			user_id : -6207615518302925062,
 		),
 	),
 	new_message : $client->messageEmpty(
-		id : 26,
+		id : 4,
 		peer_id : $client->peerUser(
-			user_id : -7216912771220902138,
+			user_id : 8390083734516133370,
 		),
 	),
 );

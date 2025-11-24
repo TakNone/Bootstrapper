@@ -32,11 +32,11 @@ messageExtendedMediaPreview#ad628cc8 flags:# w:flags.0?int h:flags.0?int thumb:f
 
 ```php
 $messageExtendedMedia = $client->messageExtendedMediaPreview(
-	w : 96,
-	h : 10,
+	w : 69,
+	h : 33,
 	thumb : $client->photoSizeEmpty(
-		type : 'taKl1zPwJ5cYIiHV',
+		type : 'PTV2QUMzKbuqIZxf',
 	),
-	video_duration : 91,
+	video_duration : 94,
 );
 ```

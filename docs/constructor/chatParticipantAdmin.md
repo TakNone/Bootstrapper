@@ -30,8 +30,8 @@ chatParticipantAdmin#a0933f5b user_id:long inviter_id:long date:int = ChatPartic
 
 ```php
 $chatParticipant = $client->chatParticipantAdmin(
-	user_id : 283864270693999575,
-	inviter_id : -6567508823325722586,
-	date : 71,
+	user_id : -5007556021868421337,
+	inviter_id : -1449326561856326546,
+	date : 64,
 );
 ```

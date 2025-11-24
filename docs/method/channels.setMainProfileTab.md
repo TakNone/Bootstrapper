@@ -37,7 +37,7 @@ channels.setMainProfileTab#3583fcb1 channel:InputChannel tab:ProfileTab = Bool;
 
 ```php
 $bool = $client->channels->setMainProfileTab(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	tab : $client->profileTabPosts(),
 );
 ```

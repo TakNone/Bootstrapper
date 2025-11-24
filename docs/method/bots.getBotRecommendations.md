@@ -36,6 +36,6 @@ bots.getBotRecommendations#a1b70815 bot:InputUser = users.Users;
 
 ```php
 $usersUsers = $client->bots->getBotRecommendations(
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 );
 ```

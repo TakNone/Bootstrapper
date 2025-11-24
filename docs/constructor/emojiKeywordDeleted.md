@@ -29,7 +29,7 @@ emojiKeywordDeleted#236df622 keyword:string emoticons:Vector<string> = EmojiKeyw
 
 ```php
 $emojiKeyword = $client->emojiKeywordDeleted(
-	keyword : 'LvYAKzlh8UdEc4Hy',
-	emoticons : array('g09sfMDaovtPb2IC'),
+	keyword : 'kYIpOXTVP5WCtcDj',
+	emoticons : array('KL541rO6bjnvtkQ9'),
 );
 ```

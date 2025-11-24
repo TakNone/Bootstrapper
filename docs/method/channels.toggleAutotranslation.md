@@ -37,7 +37,7 @@ channels.toggleAutotranslation#167fc0a1 channel:InputChannel enabled:Bool = Upda
 
 ```php
 $updates = $client->channels->toggleAutotranslation(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	enabled : false,
 );
 ```

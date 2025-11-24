@@ -28,6 +28,6 @@ jsonString#b71e767a value:string = JSONValue;
 
 ```php
 $jSONValue = $client->jsonString(
-	value : '4XKbEmfuV1pxUkIP',
+	value : 'vMeZFJQsGLf7Rq3S',
 );
 ```

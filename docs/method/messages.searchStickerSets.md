@@ -32,7 +32,7 @@ messages.searchStickerSets#35705b8a flags:# exclude_featured:flags.0?true q:stri
 ```php
 $messagesFoundStickerSets = $client->messages->searchStickerSets(
 	exclude_featured : true,
-	q : 'uRam4MvlnPy1xZTz',
+	q : '8Nz4Z7XKJ9rW1mTt',
 	hash : 0,
 );
 ```

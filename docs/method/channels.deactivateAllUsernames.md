@@ -36,6 +36,6 @@ channels.deactivateAllUsernames#a245dd3 channel:InputChannel = Bool;
 
 ```php
 $bool = $client->channels->deactivateAllUsernames(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

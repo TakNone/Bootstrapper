@@ -63,8 +63,8 @@ channels.editAdmin#d33c8902 channel:InputChannel user_id:InputUser admin_rights:
 
 ```php
 $updates = $client->channels->editAdmin(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -83,6 +83,6 @@ $updates = $client->channels->editAdmin(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : 'Y0l4HiEImQ2cONwy',
+	rank : 'psfzxYbP3t6THQX1',
 );
 ```

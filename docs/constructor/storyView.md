@@ -35,8 +35,8 @@ storyView#b0bdeac5 flags:# blocked:flags.0?true blocked_my_stories_from:flags.1?
 $storyView = $client->storyView(
 	blocked : true,
 	blocked_my_stories_from : true,
-	user_id : 7970389954844040881,
-	date : 41,
+	user_id : -7937014606984528828,
+	date : 25,
 	reaction : $client->reactionEmpty(),
 );
 ```

@@ -64,28 +64,28 @@ messages.search#29ee847a flags:# peer:InputPeer q:string from_id:flags.0?InputPe
 ```php
 $messagesMessages = $client->messages->search(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	q : 'vE6WdQ8XojhfPpi1',
+	q : 'I40JWVs5OBuFbAzc',
 	from_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	saved_reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'coAeiY7fmFBtx28Z',
+			emoticon : 'GKaiFXBwM3n47Z8V',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -3221087806943134505,
+			document_id : -4160251678434264767,
 		),
 		$client->reactionPaid(),
 	),
-	top_msg_id : 98,
+	top_msg_id : 48,
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 20,
-	max_date : 18,
+	min_date : 10,
+	max_date : 93,
 	offset_id : 0,
-	add_offset : 44,
-	limit : 52,
-	max_id : 95,
-	min_id : 51,
+	add_offset : 25,
+	limit : 49,
+	max_id : 82,
+	min_id : 43,
 	hash : 0,
 );
 ```

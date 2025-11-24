@@ -31,7 +31,7 @@ channelParticipantsMentions#e04b5ceb flags:# q:flags.0?string top_msg_id:flags.1
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsMentions(
-	q : 'f4CiejXrWb9EBOLo',
-	top_msg_id : 17,
+	q : '9ijnGScI42oQMWYT',
+	top_msg_id : 3,
 );
 ```

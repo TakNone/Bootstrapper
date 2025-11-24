@@ -30,6 +30,6 @@ account.sentEmailCode#811f854f email_pattern:string length:int = account.SentEma
 ```php
 $accountSentEmailCode = $client->account->sentEmailCode(
 	email_pattern : 'reply@liveproto.dev',
-	length : 61,
+	length : 26,
 );
 ```

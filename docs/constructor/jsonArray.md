@@ -31,13 +31,13 @@ $jSONValue = $client->jsonArray(
 	value : array(
 		$client->jsonNull(),
 		$client->jsonBool(
-			value : true,
+			value : false,
 		),
 		$client->jsonNumber(
-			value : 1156626.970703125,
+			value : -173008.705078125,
 		),
 		$client->jsonString(
-			value : 'zOwtS437Rk5uomPY',
+			value : 'OnENxeuc6hbG9DyA',
 		),
 		$client->jsonArray(
 			value : array(
@@ -46,10 +46,10 @@ $jSONValue = $client->jsonArray(
 					value : false,
 				),
 				$client->jsonNumber(
-					value : 735060.396484375,
+					value : -1915214.2373046875,
 				),
 				$client->jsonString(
-					value : '3PZ0pX8lucwvoWay',
+					value : 'zx3pebtuGwJls94n',
 				),
 				$client->jsonArray(
 					value : array(
@@ -58,10 +58,10 @@ $jSONValue = $client->jsonArray(
 							value : true,
 						),
 						$client->jsonNumber(
-							value : -1620793.8544921875,
+							value : 1846478.90234375,
 						),
 						$client->jsonString(
-							value : 'iBoxFHvgcpZTYhf5',
+							value : 'sEMROUhuNqyivTDS',
 						),
 						$client->jsonArray(
 							value : array(
@@ -83,7 +83,7 @@ $jSONValue = $client->jsonArray(
 				$client->jsonObject(
 					value : array(
 						$client->jsonObjectValue(
-							key : 'KesifFrxLapQVM5R',
+							key : 'w5ozhdgruis48DIY',
 							value : $client->jsonNull(...),
 						),
 					),
@@ -93,7 +93,7 @@ $jSONValue = $client->jsonArray(
 		$client->jsonObject(
 			value : array(
 				$client->jsonObjectValue(
-					key : 'PMIQWT5LqOXcDKyx',
+					key : 'n4rEIsB65NcL2HSh',
 					value : $client->jsonNull(),
 				),
 			),

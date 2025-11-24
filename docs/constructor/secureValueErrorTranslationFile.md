@@ -32,6 +32,6 @@ secureValueErrorTranslationFile#a1144770 type:SecureValueType file_hash:bytes te
 $secureValueError = $client->secureValueErrorTranslationFile(
 	type : $client->secureValueTypePersonalDetails(),
 	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	text : 'DXPM1iR2by4q5Ajm',
+	text : 'T4bDaKldc9L8sIv2',
 );
 ```

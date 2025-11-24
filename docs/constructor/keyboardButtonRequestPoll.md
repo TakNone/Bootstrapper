@@ -31,6 +31,6 @@ keyboardButtonRequestPoll#bbc7515d flags:# quiz:flags.0?Bool text:string = Keybo
 ```php
 $keyboardButton = $client->keyboardButtonRequestPoll(
 	quiz : true,
-	text : 'Ja8GDpQXE74HISbB',
+	text : 'ukLTHJsG6PSeVAKi',
 );
 ```

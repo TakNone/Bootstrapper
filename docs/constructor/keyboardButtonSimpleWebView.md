@@ -29,7 +29,7 @@ keyboardButtonSimpleWebView#a0c0505c text:string url:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonSimpleWebView(
-	text : 'JNBVKkLAXFor8eES',
+	text : 'PcyEoIhdmWOXleLw',
 	url : 'https://docs.liveproto.dev',
 );
 ```

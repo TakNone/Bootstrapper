@@ -33,12 +33,12 @@ peerColorCollectible#b9c0639a flags:# collectible_id:long gift_emoji_id:long bac
 
 ```php
 $peerColor = $client->peerColorCollectible(
-	collectible_id : -5902477548355688619,
-	gift_emoji_id : 3152610383329554320,
-	background_emoji_id : 6461517484132240210,
-	accent_color : 76,
-	colors : array(93),
-	dark_accent_color : 30,
-	dark_colors : array(21),
+	collectible_id : 7939053741420336969,
+	gift_emoji_id : -5200736072349892491,
+	background_emoji_id : 3639638122213663627,
+	accent_color : 9,
+	colors : array(88),
+	dark_accent_color : 70,
+	dark_colors : array(91),
 );
 ```

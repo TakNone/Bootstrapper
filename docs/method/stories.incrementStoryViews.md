@@ -39,6 +39,6 @@ stories.incrementStoryViews#b2028afb peer:InputPeer id:Vector<int> = Bool;
 ```php
 $bool = $client->stories->incrementStoryViews(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(98),
+	id : array(28),
 );
 ```

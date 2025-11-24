@@ -39,6 +39,6 @@ messages.getPollResults#73bb643b peer:InputPeer msg_id:int = Updates;
 ```php
 $updates = $client->messages->getPollResults(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 69,
+	msg_id : 63,
 );
 ```

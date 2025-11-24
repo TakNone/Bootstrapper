@@ -41,6 +41,6 @@ channels.convertToGigagroup#b290c69 channel:InputChannel = Updates;
 
 ```php
 $updates = $client->channels->convertToGigagroup(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

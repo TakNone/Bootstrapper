@@ -29,11 +29,11 @@ contactBirthday#1d998733 contact_id:long birthday:Birthday = ContactBirthday;
 
 ```php
 $contactBirthday = $client->contactBirthday(
-	contact_id : -876097508074367487,
+	contact_id : -2194534629181757146,
 	birthday : $client->birthday(
-		day : 99,
-		month : 99,
-		year : 34,
+		day : 14,
+		month : 15,
+		year : 2,
 	),
 );
 ```

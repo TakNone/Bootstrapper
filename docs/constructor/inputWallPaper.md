@@ -29,7 +29,7 @@ inputWallPaper#e630b979 id:long access_hash:long = InputWallPaper;
 
 ```php
 $inputWallPaper = $client->inputWallPaper(
-	id : -4801158959643786105,
-	access_hash : -8220038961662468196,
+	id : -1566470470665274333,
+	access_hash : 9140943890358916741,
 );
 ```

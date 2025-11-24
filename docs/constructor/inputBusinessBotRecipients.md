@@ -40,7 +40,7 @@ $inputBusinessBotRecipients = $client->inputBusinessBotRecipients(
 	contacts : true,
 	non_contacts : true,
 	exclude_selected : true,
-	users : array($client->get_input_user(peer : '@TakNone')),
-	exclude_users : array($client->get_input_user(peer : '@TakNone')),
+	users : array($client->get_input_user(user : '@TakNone')),
+	exclude_users : array($client->get_input_user(user : '@TakNone')),
 );
 ```

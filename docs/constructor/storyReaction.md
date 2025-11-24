@@ -31,9 +31,9 @@ storyReaction#6090d6d5 peer_id:Peer date:int reaction:Reaction = StoryReaction;
 ```php
 $storyReaction = $client->storyReaction(
 	peer_id : $client->peerUser(
-		user_id : 3820079667190530178,
+		user_id : -1114494028272917132,
 	),
-	date : 0,
+	date : 53,
 	reaction : $client->reactionEmpty(),
 );
 ```

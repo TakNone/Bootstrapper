@@ -28,6 +28,6 @@ updateWebViewResultSent#1592b79d query_id:long = Update;
 
 ```php
 $update = $client->updateWebViewResultSent(
-	query_id : 1854492511814904295,
+	query_id : 1896334993128604583,
 );
 ```

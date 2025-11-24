@@ -32,7 +32,7 @@ sendAsPeer#b81c7034 flags:# premium_required:flags.0?true peer:Peer = SendAsPeer
 $sendAsPeer = $client->sendAsPeer(
 	premium_required : true,
 	peer : $client->peerUser(
-		user_id : -4529446365250808429,
+		user_id : 5006900470022520106,
 	),
 );
 ```

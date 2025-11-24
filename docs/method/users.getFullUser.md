@@ -40,6 +40,6 @@ users.getFullUser#b60f5918 id:InputUser = users.UserFull;
 
 ```php
 $usersUserFull = $client->users->getFullUser(
-	id : $client->get_input_user(peer : '@TakNone'),
+	id : $client->get_input_user(user : '@TakNone'),
 );
 ```

@@ -39,6 +39,6 @@ messages.deleteRevokedExportedChatInvites#56987bd5 peer:InputPeer admin_id:Input
 ```php
 $bool = $client->messages->deleteRevokedExportedChatInvites(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	admin_id : $client->get_input_user(peer : '@TakNone'),
+	admin_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

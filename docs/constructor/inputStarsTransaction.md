@@ -31,6 +31,6 @@ inputStarsTransaction#206ae6d1 flags:# refund:flags.0?true id:string = InputStar
 ```php
 $inputStarsTransaction = $client->inputStarsTransaction(
 	refund : true,
-	id : '19nveJO0jKT6l5S4',
+	id : '3TLgA1Zm9YMvIx0t',
 );
 ```

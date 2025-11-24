@@ -32,11 +32,11 @@ requestedPeerChannel#8ba403e4 flags:# channel_id:long title:flags.0?string usern
 
 ```php
 $requestedPeer = $client->requestedPeerChannel(
-	channel_id : 1298690290977460266,
-	title : 'HOswUvXngefci1FC',
+	channel_id : 3978663063008917069,
+	title : '6k2QLS31ym9YPgtO',
 	username : 'TakNone',
 	photo : $client->photoEmpty(
-		id : 136532150028722771,
+		id : -2964931073199796261,
 	),
 );
 ```

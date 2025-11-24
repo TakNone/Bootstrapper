@@ -30,10 +30,10 @@ todoCompletion#221bb5e4 id:int completed_by:Peer date:int = TodoCompletion;
 
 ```php
 $todoCompletion = $client->todoCompletion(
-	id : 32,
+	id : 98,
 	completed_by : $client->peerUser(
-		user_id : 2090700157032440620,
+		user_id : 1106384157061297482,
 	),
-	date : 7,
+	date : 19,
 );
 ```

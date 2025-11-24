@@ -30,8 +30,8 @@ folderPeer#e9baa668 peer:Peer folder_id:int = FolderPeer;
 ```php
 $folderPeer = $client->folderPeer(
 	peer : $client->peerUser(
-		user_id : 4562921231791049927,
+		user_id : 4582841152192636708,
 	),
-	folder_id : 75,
+	folder_id : 54,
 );
 ```

@@ -30,6 +30,6 @@ messageEntityEmail#64e475c2 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityEmail(
 	offset : 0,
-	length : 11,
+	length : 79,
 );
 ```

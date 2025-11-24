@@ -33,12 +33,12 @@ starGiftAuctionUserState#2eeed1c4 flags:# returned:flags.1?true bid_amount:flags
 ```php
 $starGiftAuctionUserState = $client->starGiftAuctionUserState(
 	returned : true,
-	bid_amount : 7438169505649831132,
-	bid_date : 29,
-	min_bid_amount : 7561835168323714996,
+	bid_amount : 6670393074948212433,
+	bid_date : 46,
+	min_bid_amount : 5103991402567393463,
 	peer : $client->peerUser(
-		user_id : -7359035537829755635,
+		user_id : -7486390553322871487,
 	),
-	acquired_count : 36,
+	acquired_count : 82,
 );
 ```

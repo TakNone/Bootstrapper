@@ -41,8 +41,8 @@ chatlists.deleteExportedInvite#719c5c5e chatlist:InputChatlist slug:string = Boo
 ```php
 $bool = $client->chatlists->deleteExportedInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 41,
+		filter_id : 52,
 	),
-	slug : 'EXpb9fjhU8eDK3Gw',
+	slug : 'hGdE4jMOm1LVWsbg',
 );
 ```

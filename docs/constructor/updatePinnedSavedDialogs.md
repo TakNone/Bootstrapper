@@ -32,11 +32,11 @@ $update = $client->updatePinnedSavedDialogs(
 	order : array(
 		$client->dialogPeer(
 			peer : $client->peerUser(
-				user_id : -1285163494674621547,
+				user_id : -293845721305701989,
 			),
 		),
 		$client->dialogPeerFolder(
-			folder_id : 48,
+			folder_id : 37,
 		),
 	),
 );

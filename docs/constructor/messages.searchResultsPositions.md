@@ -29,11 +29,11 @@ messages.searchResultsPositions#53b22baf count:int positions:Vector<SearchResult
 
 ```php
 $messagesSearchResultsPositions = $client->messages->searchResultsPositions(
-	count : 69,
+	count : 43,
 	positions : array(
 		$client->searchResultPosition(
-			msg_id : 36,
-			date : 5,
+			msg_id : 88,
+			date : 30,
 			offset : 0,
 		),
 	),

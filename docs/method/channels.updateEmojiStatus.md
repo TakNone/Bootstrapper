@@ -37,7 +37,7 @@ channels.updateEmojiStatus#f0d3e6a8 channel:InputChannel emoji_status:EmojiStatu
 
 ```php
 $updates = $client->channels->updateEmojiStatus(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	emoji_status : $client->emojiStatusEmpty(),
 );
 ```

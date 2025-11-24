@@ -28,6 +28,6 @@ inputPrivacyValueDisallowUsers#90110467 users:Vector<InputUser> = InputPrivacyRu
 
 ```php
 $inputPrivacyRule = $client->inputPrivacyValueDisallowUsers(
-	users : array($client->get_input_user(peer : '@TakNone')),
+	users : array($client->get_input_user(user : '@TakNone')),
 );
 ```

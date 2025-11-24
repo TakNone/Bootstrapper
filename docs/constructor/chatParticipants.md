@@ -30,22 +30,22 @@ chatParticipants#3cbc93f8 chat_id:long participants:Vector<ChatParticipant> vers
 
 ```php
 $chatParticipants = $client->chatParticipants(
-	chat_id : -5928165134401967509,
+	chat_id : 4881789804046669361,
 	participants : array(
 		$client->chatParticipant(
-			user_id : -4754613927449144880,
-			inviter_id : -1643706612682998179,
-			date : 76,
+			user_id : -4810673181010397723,
+			inviter_id : -7013220388235432221,
+			date : 42,
 		),
 		$client->chatParticipantCreator(
-			user_id : -2709139444042893798,
+			user_id : 7803306869579996057,
 		),
 		$client->chatParticipantAdmin(
-			user_id : 2192089333149633266,
-			inviter_id : 9072908807529789200,
-			date : 49,
+			user_id : 1060490694168642175,
+			inviter_id : -4936583415932258321,
+			date : 100,
 		),
 	),
-	version : 39,
+	version : 66,
 );
 ```

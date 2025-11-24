@@ -34,6 +34,6 @@ $savedContact = $client->savedPhoneContact(
 	phone : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
-	date : 20,
+	date : 53,
 );
 ```

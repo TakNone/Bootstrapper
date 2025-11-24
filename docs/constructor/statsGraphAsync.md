@@ -28,6 +28,6 @@ statsGraphAsync#4a27eb2d token:string = StatsGraph;
 
 ```php
 $statsGraph = $client->statsGraphAsync(
-	token : 'OtrNPMQLqVv5sx7z',
+	token : 'qskaPgoeh6XOC85U',
 );
 ```

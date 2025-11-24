@@ -28,6 +28,6 @@ messages.savedDialogsNotModified#c01f6fe8 count:int = messages.SavedDialogs;
 
 ```php
 $messagesSavedDialogs = $client->messages->savedDialogsNotModified(
-	count : 64,
+	count : 16,
 );
 ```

@@ -29,7 +29,7 @@ inputInvoiceBusinessBotTransferStars#f4997e42 bot:InputUser stars:long = InputIn
 
 ```php
 $inputInvoice = $client->inputInvoiceBusinessBotTransferStars(
-	bot : $client->get_input_user(peer : '@TakNone'),
-	stars : -4714100563449077499,
+	bot : $client->get_input_user(user : '@TakNone'),
+	stars : 6405363404909373052,
 );
 ```

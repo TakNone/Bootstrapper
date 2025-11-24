@@ -36,9 +36,9 @@ chatInviteImporter#8c5adfd9 flags:# requested:flags.0?true via_chatlist:flags.3?
 $chatInviteImporter = $client->chatInviteImporter(
 	requested : true,
 	via_chatlist : true,
-	user_id : -1406195286282432052,
-	date : 62,
-	about : '2K0W5Ea8jilucgVw',
-	approved_by : -4739628984021224116,
+	user_id : 1195012247901047187,
+	date : 93,
+	about : '1XhnEuBRoT9ySVwN',
+	approved_by : 999119695502895997,
 );
 ```

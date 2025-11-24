@@ -29,7 +29,7 @@ videoSizeEmojiMarkup#f85c413c emoji_id:long background_colors:Vector<int> = Vide
 
 ```php
 $videoSize = $client->videoSizeEmojiMarkup(
-	emoji_id : -5375687799894983659,
-	background_colors : array(70),
+	emoji_id : -6606164909579857990,
+	background_colors : array(96),
 );
 ```

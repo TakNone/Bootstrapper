@@ -29,7 +29,7 @@ messageActionSuggestProfilePhoto#57de635e photo:Photo = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestProfilePhoto(
 	photo : $client->photoEmpty(
-		id : 5650758877164237505,
+		id : -3552293747783633877,
 	),
 );
 ```

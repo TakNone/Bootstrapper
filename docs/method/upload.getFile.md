@@ -57,12 +57,12 @@ $uploadFile = $client->upload->getFile(
 	precise : true,
 	cdn_supported : true,
 	location : $client->inputFileLocation(
-		volume_id : 4364245592750242109,
-		local_id : 7,
-		secret : -6286003390137795341,
+		volume_id : -1379042295557829374,
+		local_id : 75,
+		secret : 5608893444192295376,
 		file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	offset : 0,
-	limit : 33,
+	limit : 25,
 );
 ```

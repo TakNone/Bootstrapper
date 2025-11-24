@@ -31,7 +31,7 @@ messageEntityPre#73924be0 offset:int length:int language:string = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityPre(
 	offset : 0,
-	length : 30,
-	language : 'uGdo1iLeyBWAQh8s',
+	length : 4,
+	language : 'q61SCFVsAoZulerK',
 );
 ```

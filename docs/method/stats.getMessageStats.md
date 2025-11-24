@@ -43,7 +43,7 @@ stats.getMessageStats#b6e0a3f5 flags:# dark:flags.0?true channel:InputChannel ms
 ```php
 $statsMessageStats = $client->stats->getMessageStats(
 	dark : true,
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	msg_id : 39,
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	msg_id : 84,
 );
 ```

@@ -49,6 +49,6 @@ $accountTakeout = $client->account->initTakeoutSession(
 	message_megagroups : true,
 	message_channels : true,
 	files : true,
-	file_max_size : -1602676629216398926,
+	file_max_size : 2174189489287265337,
 );
 ```

@@ -41,6 +41,6 @@ messages.reportMessagesDelivery#5a6d7395 flags:# push:flags.0?true peer:InputPee
 $bool = $client->messages->reportMessagesDelivery(
 	push : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(46),
+	id : array(23),
 );
 ```

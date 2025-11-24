@@ -36,9 +36,9 @@ channelForbidden#17d493d5 flags:# broadcast:flags.5?true megagroup:flags.8?true 
 $chat = $client->channelForbidden(
 	broadcast : true,
 	megagroup : true,
-	id : -346403589974876047,
-	access_hash : -543285041016575047,
-	title : '10nHfULPgvxeAtWZ',
-	until_date : 0,
+	id : -8021014214481648071,
+	access_hash : -2957390061653529953,
+	title : 'mD3xLZtsYKdbNRXn',
+	until_date : 25,
 );
 ```

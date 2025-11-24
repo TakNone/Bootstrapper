@@ -37,12 +37,12 @@ users.getSavedMusicByID#7573a4e9 id:InputUser documents:Vector<InputDocument> = 
 
 ```php
 $usersSavedMusic = $client->users->getSavedMusicByID(
-	id : $client->get_input_user(peer : '@TakNone'),
+	id : $client->get_input_user(user : '@TakNone'),
 	documents : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : 6699258455844645433,
-			access_hash : -4015818319554341220,
+			id : 1985901177016090192,
+			access_hash : 8266027534170550085,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

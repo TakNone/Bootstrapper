@@ -42,7 +42,7 @@ $globalPrivacySettings = $client->globalPrivacySettings(
 	hide_read_marks : true,
 	new_noncontact_peers_require_premium : true,
 	display_gifts_button : true,
-	noncontact_peers_paid_stars : 4488474576909108346,
+	noncontact_peers_paid_stars : 6042178675650563376,
 	disallowed_gifts : $client->disallowedGiftsSettings(
 		disallow_unlimited_stargifts : true,
 		disallow_limited_stargifts : true,

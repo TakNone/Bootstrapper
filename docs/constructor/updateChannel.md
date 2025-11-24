@@ -28,6 +28,6 @@ updateChannel#635b4c09 channel_id:long = Update;
 
 ```php
 $update = $client->updateChannel(
-	channel_id : -5163466535018161087,
+	channel_id : 1842227998102203370,
 );
 ```

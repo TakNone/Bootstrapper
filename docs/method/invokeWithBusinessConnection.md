@@ -29,7 +29,7 @@ invokeWithBusinessConnection#dd289f8e {X:Type} connection_id:string query:!X = X
 
 ```php
 $x = $client->invokeWithBusinessConnection(
-	connection_id : 'kRaLmKcXgP2drlIs',
+	connection_id : 'CcGuH5PW76Kdehy1',
 	query : $client->help->getConfig(raw : true),
 );
 ```

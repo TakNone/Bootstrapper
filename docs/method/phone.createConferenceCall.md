@@ -38,11 +38,11 @@ $updates = $client->phone->createConferenceCall(
 	muted : true,
 	video_stopped : true,
 	join : true,
-	random_id : 20,
-	public_key : '80930120502291873192521193893187298308003224894929773790704506459250471051826',
+	random_id : 9,
+	public_key : '79910178739977641311947832938175904733245410935807808162997472547706713894285',
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	params : $client->dataJSON(
-		data : 'bRk5ayrI2qvh3uAm',
+		data : 'sTxL2HrUdl1Dvmap',
 	),
 );
 ```

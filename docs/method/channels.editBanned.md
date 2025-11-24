@@ -48,7 +48,7 @@ channels.editBanned#96e6cd81 channel:InputChannel participant:InputPeer banned_r
 
 ```php
 $updates = $client->channels->editBanned(
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 	banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -71,7 +71,7 @@ $updates = $client->channels->editBanned(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 56,
+		until_date : 16,
 	),
 );
 ```

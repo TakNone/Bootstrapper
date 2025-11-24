@@ -32,9 +32,9 @@ messageActionTopicEdit#c0944820 flags:# title:flags.0?string icon_emoji_id:flags
 
 ```php
 $messageAction = $client->messageActionTopicEdit(
-	title : '0PMrjdYESgTmeX6K',
-	icon_emoji_id : 5276031277707247081,
+	title : 'tUvGJxLmRjcMZ5be',
+	icon_emoji_id : -7079395026098617083,
 	closed : false,
-	hidden : true,
+	hidden : false,
 );
 ```

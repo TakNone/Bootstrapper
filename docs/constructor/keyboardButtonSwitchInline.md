@@ -33,8 +33,8 @@ keyboardButtonSwitchInline#93b9fbb5 flags:# same_peer:flags.0?true text:string q
 ```php
 $keyboardButton = $client->keyboardButtonSwitchInline(
 	same_peer : true,
-	text : 'QksbrIdMNOJu85ow',
-	query : 'obqFpZKS7zMtfcEX',
+	text : '7mLrFE0Ua4sRvNKh',
+	query : 'ojycTwN6WEhaQpJ2',
 	peer_types : array(
 		$client->inlineQueryPeerTypeSameBotPM(),
 		$client->inlineQueryPeerTypePM(),

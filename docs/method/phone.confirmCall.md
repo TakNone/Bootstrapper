@@ -41,17 +41,17 @@ phone.confirmCall#2efe1722 peer:InputPhoneCall g_a:bytes key_fingerprint:long pr
 ```php
 $phonePhoneCall = $client->phone->confirmCall(
 	peer : $client->inputPhoneCall(
-		id : 1702436936079211764,
-		access_hash : 453577119900257977,
+		id : -7379801351136496088,
+		access_hash : -2761350128169813840,
 	),
 	g_a : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	key_fingerprint : 1797931430161648562,
+	key_fingerprint : -2040205487041015280,
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 91,
-		max_layer : 70,
-		library_versions : array('1EcBZDX3OMlz96Yk'),
+		min_layer : 73,
+		max_layer : 46,
+		library_versions : array('MPuH8pxABebioIwO'),
 	),
 );
 ```

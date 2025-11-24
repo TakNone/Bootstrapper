@@ -40,8 +40,8 @@ messages.toggleTodoCompleted#d3e03124 peer:InputPeer msg_id:int completed:Vector
 ```php
 $updates = $client->messages->toggleTodoCompleted(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 64,
-	completed : array(70),
-	incompleted : array(48),
+	msg_id : 88,
+	completed : array(65),
+	incompleted : array(82),
 );
 ```

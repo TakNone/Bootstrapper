@@ -31,8 +31,8 @@ messages.deleteGroupCallParticipantMessages#1dbfeca0 flags:# report_spam:flags.0
 $updates = $client->messages->deleteGroupCallParticipantMessages(
 	report_spam : true,
 	call : $client->inputGroupCall(
-		id : 6492194981746703268,
-		access_hash : 9106090314094889653,
+		id : 2883408440094182200,
+		access_hash : 6319290150634733933,
 	),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

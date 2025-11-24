@@ -28,6 +28,6 @@ messages.getAllChats#875f74be except_ids:Vector<long> = messages.Chats;
 
 ```php
 $messagesChats = $client->messages->getAllChats(
-	except_ids : array(3288291647392171280),
+	except_ids : array(-7415048772424779237),
 );
 ```

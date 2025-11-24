@@ -28,6 +28,6 @@ users.getRequirementsToContact#d89a83a3 id:Vector<InputUser> = Vector<Requiremen
 
 ```php
 $requirementToContact = $client->users->getRequirementsToContact(
-	id : array($client->get_input_user(peer : '@TakNone')),
+	id : array($client->get_input_user(user : '@TakNone')),
 );
 ```

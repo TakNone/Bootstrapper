@@ -30,8 +30,8 @@ updateBotPurchasedPaidMedia#283bd312 user_id:long payload:string qts:int = Updat
 
 ```php
 $update = $client->updateBotPurchasedPaidMedia(
-	user_id : 6782035292034933009,
-	payload : 'PSWeNcsGkRgqTFEv',
-	qts : 22,
+	user_id : 1720448194348749086,
+	payload : 'ZlWykXGorp5IJbR8',
+	qts : 79,
 );
 ```

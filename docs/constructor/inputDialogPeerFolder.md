@@ -28,6 +28,6 @@ inputDialogPeerFolder#64600527 folder_id:int = InputDialogPeer;
 
 ```php
 $inputDialogPeer = $client->inputDialogPeerFolder(
-	folder_id : 9,
+	folder_id : 28,
 );
 ```

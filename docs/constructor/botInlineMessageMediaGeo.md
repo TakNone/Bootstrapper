@@ -34,9 +34,9 @@ botInlineMessageMediaGeo#51846fd flags:# geo:GeoPoint heading:flags.0?int period
 ```php
 $botInlineMessage = $client->botInlineMessageMediaGeo(
 	geo : $client->geoPointEmpty(),
-	heading : 63,
-	period : 43,
-	proximity_notification_radius : 35,
+	heading : 21,
+	period : 22,
+	proximity_notification_radius : 8,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

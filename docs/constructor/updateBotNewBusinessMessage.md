@@ -32,19 +32,19 @@ updateBotNewBusinessMessage#9ddb347c flags:# connection_id:string message:Messag
 
 ```php
 $update = $client->updateBotNewBusinessMessage(
-	connection_id : '9uUYhoGPiFqbM7LK',
+	connection_id : 'HLmw541d7leAq0cj',
 	message : $client->messageEmpty(
-		id : 83,
+		id : 91,
 		peer_id : $client->peerUser(
-			user_id : -3179583821519268033,
+			user_id : -339672911198201374,
 		),
 	),
 	reply_to_message : $client->messageEmpty(
-		id : 17,
+		id : 64,
 		peer_id : $client->peerUser(
-			user_id : 4832978682176034521,
+			user_id : -444262900987791601,
 		),
 	),
-	qts : 16,
+	qts : 45,
 );
 ```

@@ -28,6 +28,6 @@ inputWallPaperNoFile#967a462e id:long = InputWallPaper;
 
 ```php
 $inputWallPaper = $client->inputWallPaperNoFile(
-	id : 4480292158775843469,
+	id : -2004602929981987815,
 );
 ```

@@ -28,6 +28,6 @@ inputPeerChat#35a95cb9 chat_id:long = InputPeer;
 
 ```php
 $inputPeer = $client->inputPeerChat(
-	chat_id : -8934698132801212156,
+	chat_id : -1593545184887191709,
 );
 ```

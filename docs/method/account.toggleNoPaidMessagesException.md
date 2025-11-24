@@ -45,6 +45,6 @@ $bool = $client->account->toggleNoPaidMessagesException(
 	refund_charged : true,
 	require_payment : true,
 	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	user_id : $client->get_input_user(peer : '@TakNone'),
+	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

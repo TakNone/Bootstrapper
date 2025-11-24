@@ -42,6 +42,6 @@ stories.getPinnedStories#5821a5dc peer:InputPeer offset_id:int limit:int = stori
 $storiesStories = $client->stories->getPinnedStories(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	limit : 25,
+	limit : 81,
 );
 ```

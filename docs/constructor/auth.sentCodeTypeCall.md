@@ -28,6 +28,6 @@ auth.sentCodeTypeCall#5353e5a7 length:int = auth.SentCodeType;
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeCall(
-	length : 40,
+	length : 69,
 );
 ```

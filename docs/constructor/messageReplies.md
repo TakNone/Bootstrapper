@@ -36,21 +36,21 @@ messageReplies#83d60fc2 flags:# comments:flags.0?true replies:int replies_pts:in
 ```php
 $messageReplies = $client->messageReplies(
 	comments : true,
-	replies : 41,
-	replies_pts : 86,
+	replies : 67,
+	replies_pts : 27,
 	recent_repliers : array(
 		$client->peerUser(
-			user_id : 2512871958213943014,
+			user_id : 6081703839666959447,
 		),
 		$client->peerChat(
-			chat_id : -8979930959705306235,
+			chat_id : -3020257301967670425,
 		),
 		$client->peerChannel(
-			channel_id : 2653981244087456858,
+			channel_id : 444035360209993201,
 		),
 	),
-	channel_id : 4189845485506710494,
-	max_id : 58,
-	read_max_id : 7,
+	channel_id : -5014982267948776148,
+	max_id : 72,
+	read_max_id : 1,
 );
 ```

@@ -29,8 +29,8 @@ messageActionSuggestedPostSuccess#95ddcf69 price:StarsAmount = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestedPostSuccess(
 	price : $client->starsAmount(
-		amount : -8525146290359027377,
-		nanos : 72,
+		amount : -1778177683182976390,
+		nanos : 99,
 	),
 );
 ```

@@ -58,7 +58,7 @@ $contactsTopPeers = $client->contacts->getTopPeers(
 	channels : true,
 	bots_app : true,
 	offset : 0,
-	limit : 38,
+	limit : 40,
 	hash : 0,
 );
 ```

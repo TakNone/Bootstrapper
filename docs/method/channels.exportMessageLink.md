@@ -45,7 +45,7 @@ channels.exportMessageLink#e63fadeb flags:# grouped:flags.0?true thread:flags.1?
 $exportedMessageLink = $client->channels->exportMessageLink(
 	grouped : true,
 	thread : true,
-	channel : $client->get_input_channel(peer : '@LiveProto'),
-	id : 34,
+	channel : $client->get_input_channel(channel : '@LiveProto'),
+	id : 6,
 );
 ```

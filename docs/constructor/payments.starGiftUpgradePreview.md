@@ -32,128 +32,128 @@ payments.starGiftUpgradePreview#3de1dfed sample_attributes:Vector<StarGiftAttrib
 $paymentsStarGiftUpgradePreview = $client->payments->starGiftUpgradePreview(
 	sample_attributes : array(
 		$client->starGiftAttributeModel(
-			name : 'zCGTA4VqwiMWJaOQ',
+			name : 'QiWHlOBzUJuvkYay',
 			document : $client->documentEmpty(
-				id : -4529651309619809159,
+				id : -3609792597202707897,
 			),
-			rarity_permille : 10,
+			rarity_permille : 9,
 		),
 		$client->starGiftAttributePattern(
-			name : '1wHregbG7PY3Z094',
+			name : '7Vj62FDJaW50Ruw1',
 			document : $client->documentEmpty(
-				id : 3589184985062716419,
+				id : 306411704776757006,
 			),
-			rarity_permille : 20,
+			rarity_permille : 41,
 		),
 		$client->starGiftAttributeBackdrop(
-			name : 'db2tyuFLsgI1ejGB',
-			backdrop_id : 100,
-			center_color : 43,
-			edge_color : 67,
-			pattern_color : 62,
-			text_color : 70,
-			rarity_permille : 62,
+			name : 'yjNandESwYxIvf31',
+			backdrop_id : 48,
+			center_color : 70,
+			edge_color : 49,
+			pattern_color : 66,
+			text_color : 41,
+			rarity_permille : 32,
 		),
 		$client->starGiftAttributeOriginalDetails(
 			sender_id : $client->peerUser(
-				user_id : 571413555268476307,
+				user_id : -223249184890549500,
 			),
 			recipient_id : $client->peerUser(
-				user_id : 4682089628337132779,
+				user_id : -3146419500631582580,
 			),
-			date : 16,
+			date : 39,
 			message : $client->textWithEntities(
-				text : 'G8l4VAhtHaBFmZSv',
+				text : 'v8aD5yM9lbTpAhgL',
 				entities : array(
 					$client->messageEntityUnknown(
 						offset : 0,
-						length : 98,
+						length : 97,
 					),
 					$client->messageEntityMention(
 						offset : 0,
-						length : 60,
+						length : 41,
 					),
 					$client->messageEntityHashtag(
 						offset : 0,
-						length : 41,
+						length : 78,
 					),
 					$client->messageEntityBotCommand(
 						offset : 0,
-						length : 31,
+						length : 80,
 					),
 					$client->messageEntityUrl(
 						offset : 0,
-						length : 94,
+						length : 43,
 					),
 					$client->messageEntityEmail(
 						offset : 0,
-						length : 10,
+						length : 20,
 					),
 					$client->messageEntityBold(
 						offset : 0,
-						length : 75,
+						length : 68,
 					),
 					$client->messageEntityItalic(
 						offset : 0,
-						length : 14,
+						length : 24,
 					),
 					$client->messageEntityCode(
 						offset : 0,
-						length : 24,
+						length : 49,
 					),
 					$client->messageEntityPre(
 						offset : 0,
-						length : 38,
-						language : 'TrmfBk69zcgYvRlE',
+						length : 71,
+						language : 'TxNeLUW1k0BzSAmf',
 					),
 					$client->messageEntityTextUrl(
 						offset : 0,
-						length : 20,
+						length : 71,
 						url : 'https://docs.liveproto.dev',
 					),
 					$client->messageEntityMentionName(
 						offset : 0,
-						length : 9,
-						user_id : 7135422806304336326,
+						length : 46,
+						user_id : 6666145610423434333,
 					),
 					$client->inputMessageEntityMentionName(
 						offset : 0,
-						length : 46,
-						user_id : $client->get_input_user(peer : '@TakNone'),
+						length : 70,
+						user_id : $client->get_input_user(user : '@TakNone'),
 					),
 					$client->messageEntityPhone(
 						offset : 0,
-						length : 96,
+						length : 61,
 					),
 					$client->messageEntityCashtag(
 						offset : 0,
-						length : 49,
+						length : 79,
 					),
 					$client->messageEntityUnderline(
 						offset : 0,
-						length : 67,
+						length : 47,
 					),
 					$client->messageEntityStrike(
 						offset : 0,
-						length : 16,
+						length : 2,
 					),
 					$client->messageEntityBankCard(
 						offset : 0,
-						length : 61,
+						length : 46,
 					),
 					$client->messageEntitySpoiler(
 						offset : 0,
-						length : 85,
+						length : 39,
 					),
 					$client->messageEntityCustomEmoji(
 						offset : 0,
-						length : 62,
-						document_id : -7624477841077095614,
+						length : 94,
+						document_id : -3017580847503423220,
 					),
 					$client->messageEntityBlockquote(
 						collapsed : true,
 						offset : 0,
-						length : 86,
+						length : 16,
 					),
 				),
 			),
@@ -161,14 +161,14 @@ $paymentsStarGiftUpgradePreview = $client->payments->starGiftUpgradePreview(
 	),
 	prices : array(
 		$client->starGiftUpgradePrice(
-			date : 71,
-			upgrade_stars : -5814770945932593250,
+			date : 75,
+			upgrade_stars : -6354188632411112635,
 		),
 	),
 	next_prices : array(
 		$client->starGiftUpgradePrice(
-			date : 15,
-			upgrade_stars : 1666534619995198894,
+			date : 88,
+			upgrade_stars : 7520536834438054779,
 		),
 	),
 );

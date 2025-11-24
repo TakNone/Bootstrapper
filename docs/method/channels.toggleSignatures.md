@@ -44,6 +44,6 @@ channels.toggleSignatures#418d549c flags:# signatures_enabled:flags.0?true profi
 $updates = $client->channels->toggleSignatures(
 	signatures_enabled : true,
 	profiles_enabled : true,
-	channel : $client->get_input_channel(peer : '@LiveProto'),
+	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

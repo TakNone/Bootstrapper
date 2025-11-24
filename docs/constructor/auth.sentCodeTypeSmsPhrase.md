@@ -29,6 +29,6 @@ auth.sentCodeTypeSmsPhrase#b37794af flags:# beginning:flags.0?string = auth.Sent
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeSmsPhrase(
-	beginning : 'QeoUqMpz1rXIRGyw',
+	beginning : 'VpqwPu2cmL670fYU',
 );
 ```

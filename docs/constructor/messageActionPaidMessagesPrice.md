@@ -31,6 +31,6 @@ messageActionPaidMessagesPrice#84b88578 flags:# broadcast_messages_allowed:flags
 ```php
 $messageAction = $client->messageActionPaidMessagesPrice(
 	broadcast_messages_allowed : true,
-	stars : 1772048706529156811,
+	stars : -8082257292696484690,
 );
 ```

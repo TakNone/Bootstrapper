@@ -36,6 +36,6 @@ messages.getAttachMenuBot#77216192 bot:InputUser = AttachMenuBotsBot;
 
 ```php
 $attachMenuBotsBot = $client->messages->getAttachMenuBot(
-	bot : $client->get_input_user(peer : '@TakNone'),
+	bot : $client->get_input_user(user : '@TakNone'),
 );
 ```

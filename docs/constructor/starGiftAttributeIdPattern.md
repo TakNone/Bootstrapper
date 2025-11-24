@@ -28,6 +28,6 @@ starGiftAttributeIdPattern#4a162433 document_id:long = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdPattern(
-	document_id : 114107675653917408,
+	document_id : 6168592434415364514,
 );
 ```

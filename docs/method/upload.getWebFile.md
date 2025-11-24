@@ -41,9 +41,9 @@ upload.getWebFile#24e6818d location:InputWebFileLocation offset:int limit:int = 
 $uploadWebFile = $client->upload->getWebFile(
 	location : $client->inputWebFileLocation(
 		url : 'https://docs.liveproto.dev',
-		access_hash : -89996000542563530,
+		access_hash : 5684401992186273861,
 	),
 	offset : 0,
-	limit : 73,
+	limit : 42,
 );
 ```
