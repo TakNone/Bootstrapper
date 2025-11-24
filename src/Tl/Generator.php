@@ -97,7 +97,7 @@ abstract class Generator {
 				$args = array_filter($params,fn($arg) => ($arg['type']['flag_indicator'] === false));
 				usort($args,fn($a,$b) => $a['type']['is_flag'] <=> $b['type']['is_flag']);
 				$param = array_map(fn($arg) => ($arg['type']['is_vector'] ? 'Vector<'.$arg['type']['type'].'>' : $arg['type']['type']).chr(32).$arg['name'],$args);
-				$args = implode(',',array_map(fn($arg) => ($arg['type']['is_flag'] ? '? ' : null).self::findType($arg['type']).chr(32).chr(36).$arg['name'].($arg['type']['is_flag'] ? ' = null' : null),$args));
+				$args = implode(',',array_map(fn($arg) => ($arg['type']['is_flag'] ? 'null | ' : null).self::findType($arg['type']).chr(32).chr(36).$arg['name'].($arg['type']['is_flag'] ? ' = null' : null),$args));
 				$filename = $folder.DIRECTORY_SEPARATOR.$function.'.php';
 				$stream = new Builder($filename);
 				$stream->write(PHP_TAG_START);
@@ -173,7 +173,7 @@ abstract class Generator {
 				$args = array_filter($params,fn($arg) => ($arg['type']['flag_indicator'] === false));
 				usort($args,fn($a,$b) => $a['type']['is_flag'] <=> $b['type']['is_flag']);
 				$param = array_map(fn($arg) => ($arg['type']['is_vector'] ? 'Vector<'.$arg['type']['type'].'>' : $arg['type']['type']).chr(32).$arg['name'],$args);
-				$args = implode(',',array_map(fn($arg) => ($arg['type']['is_flag'] ? '? ' : null).self::findType($arg['type']).chr(32).chr(36).$arg['name'].($arg['type']['is_flag'] ? ' = null' : null),$args));
+				$args = implode(',',array_map(fn($arg) => ($arg['type']['is_flag'] ? 'null | ' : null).self::findType($arg['type']).chr(32).chr(36).$arg['name'].($arg['type']['is_flag'] ? ' = null' : null),$args));
 				$filename = $folder.DIRECTORY_SEPARATOR.$predicate.'.php';
 				$stream = new Builder($filename);
 				$stream->write(PHP_TAG_START);

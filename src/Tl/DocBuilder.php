@@ -168,7 +168,7 @@ abstract class DocBuilder {
 						$type = $param['type'];
 						$parsed = Tl::parseType($type,false);
 						$description = trim($info['params'][$name]['description'] ?? 'NOTHING',chr(46));
-						$stream->writeNewLine('| '.($parsed['is_flag'] ? '**'.$name.'**' : '<mark>'.$name.'</mark>').' | [`'.$type.'`](type/'.$parsed['type'].') | '.$description.' |');
+						$stream->writeNewLine('| '.($parsed['is_flag'] ? '**'.$name.'**' : ($parsed['flag_indicator'] ? '<del style = \'opacity : 0.4\'>'.$name.'</del>' : '<mark>'.$name.'</mark>')).' | [`'.$type.'`](type/'.$parsed['type'].') | '.$description.' |');
 					endforeach;
 				endif;
 				$stream->writeNewLine();
@@ -232,7 +232,7 @@ abstract class DocBuilder {
 						$type = $param['type'];
 						$parsed = Tl::parseType($type,false);
 						$description = trim($info['params'][$name]['description'] ?? 'NOTHING',chr(46));
-						$stream->writeNewLine('| '.($parsed['is_flag'] ? '**'.$name.'**' : '<mark>'.$name.'</mark>').' | [`'.$type.'`](type/'.$parsed['type'].') | '.$description.' |');
+						$stream->writeNewLine('| '.($parsed['is_flag'] ? '**'.$name.'**' : ($parsed['flag_indicator'] ? '<del style = \'opacity : 0.4\'>'.$name.'</del>' : '<mark>'.$name.'</mark>')).' | [`'.$type.'`](type/'.$parsed['type'].') | '.$description.' |');
 					endforeach;
 				endif;
 				$stream->writeNewLine();
