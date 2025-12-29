@@ -45,16 +45,16 @@ phone.acceptCall#3bd2b4a0 peer:InputPhoneCall g_b:bytes protocol:PhoneCallProtoc
 ```php
 $phonePhoneCall = $client->phone->acceptCall(
 	peer : $client->inputPhoneCall(
-		id : -3275709929904065344,
-		access_hash : 3803522641950701749,
+		id : -184901404884375140,
+		access_hash : 2129637862258120752,
 	),
 	g_b : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 23,
-		max_layer : 19,
-		library_versions : array('sl0kVgdT3OzZ1AMU'),
+		min_layer : 66,
+		max_layer : 6,
+		library_versions : array('Y0quvbNKjZf8tJIM'),
 	),
 );
 ```

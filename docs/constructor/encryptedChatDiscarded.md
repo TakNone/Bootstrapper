@@ -14,7 +14,7 @@ encryptedChatDiscarded#1e1c7c45 flags:# history_deleted:flags.0?true id:int = En
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **history_deleted** | [`flags.0?true`](type/true) | Whether both users of this secret chat should also remove all of its messages |
 | <mark>id</mark> | [`int`](type/int) | Chat ID |
 
@@ -31,6 +31,6 @@ encryptedChatDiscarded#1e1c7c45 flags:# history_deleted:flags.0?true id:int = En
 ```php
 $encryptedChat = $client->encryptedChatDiscarded(
 	history_deleted : true,
-	id : 21,
+	id : 98,
 );
 ```

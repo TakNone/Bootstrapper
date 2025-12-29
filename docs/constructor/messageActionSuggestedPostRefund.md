@@ -14,7 +14,7 @@ messageActionSuggestedPostRefund#69f916f8 flags:# payer_initiated:flags.0?true =
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **payer_initiated** | [`flags.0?true`](type/true) | If set, the user refunded the payment for the stars used to pay for the suggested post |
 
 ---

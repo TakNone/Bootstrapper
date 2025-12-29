@@ -14,7 +14,7 @@ inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?tru
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **only_new_subscribers** | [`flags.0?true`](type/true) | If set, only new subscribers starting from the giveaway creation date will be able to participate to the giveaway |
 | **winners_are_visible** | [`flags.3?true`](type/true) | If set, giveaway winners are public and will be listed in a messageMediaGiveawayResults message that will be automatically sent to the channel once the giveaway ends |
 | <mark>stars</mark> | [`long`](type/long) | Total number of Telegram Stars being given away (each user will receive stars/users stars) |
@@ -42,15 +42,15 @@ inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?tru
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	stars : 7438049345496438710,
+	stars : -157050046970964766,
 	boost_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	additional_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	countries_iso2 : array('HSr4qRVuk76YWZw1'),
-	prize_description : 'PNEJI2cTVKeBL5vD',
-	random_id : -5030994239499965714,
-	until_date : 66,
-	currency : 'vCYGqjhi7L8ORoVr',
-	amount : 7989566478337590272,
-	users : 2,
+	countries_iso2 : array('ibNewnVxmJ4kjqdC'),
+	prize_description : 'JZadxBUcWY6Cbh3w',
+	random_id : -2155420566639833155,
+	until_date : 68,
+	currency : 'DIVGmFZfaMwsqxrU',
+	amount : 7807003272904954924,
+	users : 44,
 );
 ```

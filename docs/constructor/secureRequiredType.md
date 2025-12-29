@@ -14,7 +14,7 @@ secureRequiredType#829d99da flags:# native_names:flags.0?true selfie_required:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **native_names** | [`flags.0?true`](type/true) | Native names |
 | **selfie_required** | [`flags.1?true`](type/true) | Is a selfie required |
 | **translation_required** | [`flags.2?true`](type/true) | Is a translation required |

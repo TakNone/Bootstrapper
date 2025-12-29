@@ -39,8 +39,8 @@ account.getAuthorizationForm#a929597a bot_id:long scope:string public_key:string
 
 ```php
 $accountAuthorizationForm = $client->account->getAuthorizationForm(
-	bot_id : -5804721880253573891,
-	scope : 'of0dsuPHTJE16Vr2',
-	public_key : 'oXn6i4tbQqM8EhLB',
+	bot_id : 4608214341129055862,
+	scope : 'ATWhHy0FscfgZCDB',
+	public_key : 'D8C9m6FAH7aLbRZc',
 );
 ```

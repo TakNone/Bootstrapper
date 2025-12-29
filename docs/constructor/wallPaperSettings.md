@@ -14,7 +14,7 @@ wallPaperSettings#372efcd0 flags:# blur:flags.1?true motion:flags.2?true backgro
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **blur** | [`flags.1?true`](type/true) | For image wallpapers »: if set, the JPEG must be downscaled to fit in 450x450 square and then box-blurred with radius 12 |
 | **motion** | [`flags.2?true`](type/true) | If set, the background needs to be slightly moved when the device is rotated |
 | **background_color** | [`flags.0?int`](type/int) | Used for solid », gradient » and freeform gradient » fills |
@@ -39,12 +39,12 @@ wallPaperSettings#372efcd0 flags:# blur:flags.1?true motion:flags.2?true backgro
 $wallPaperSettings = $client->wallPaperSettings(
 	blur : true,
 	motion : true,
-	background_color : 20,
-	second_background_color : 50,
-	third_background_color : 57,
-	fourth_background_color : 20,
-	intensity : 94,
-	rotation : 68,
-	emoticon : 'I4qVnSkWpNBYLPj0',
+	background_color : 4,
+	second_background_color : 57,
+	third_background_color : 15,
+	fourth_background_color : 6,
+	intensity : 41,
+	rotation : 12,
+	emoticon : 'tV29n8YrD06jENMs',
 );
 ```

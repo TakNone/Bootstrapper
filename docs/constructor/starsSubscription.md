@@ -14,7 +14,7 @@ starsSubscription#2e6eab1a flags:# canceled:flags.0?true can_refulfill:flags.1?t
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **canceled** | [`flags.0?true`](type/true) | Whether this subscription was cancelled |
 | **can_refulfill** | [`flags.1?true`](type/true) | Whether we left the associated private channel, but we can still rejoin it using payments.fulfillStarsSubscription because the current subscription period hasn't expired yet |
 | **missing_balance** | [`flags.2?true`](type/true) | Whether this subscription has expired because there are not enough stars on the user's balance to extend it |
@@ -44,69 +44,69 @@ $starsSubscription = $client->starsSubscription(
 	can_refulfill : true,
 	missing_balance : true,
 	bot_canceled : true,
-	id : 'TjOKVRPYua8nfiqF',
+	id : 'b1x5T20YNpQWVPZy',
 	peer : $client->peerUser(
-		user_id : -5164847277349298474,
+		user_id : 6353185349919139616,
 	),
-	until_date : 89,
+	until_date : 16,
 	pricing : $client->starsSubscriptionPricing(
-		period : 89,
-		amount : -1364977165062662621,
+		period : 1,
+		amount : 2787129823853398928,
 	),
-	chat_invite_hash : 'ZbqAofU9EiIL3tle',
-	title : 'cyOGravBmlCetnDj',
+	chat_invite_hash : 'l4FYytqOzQ0MxpKf',
+	title : '07r4wXlgqcukxFMp',
 	photo : $client->webDocument(
 		url : 'https://docs.liveproto.dev',
-		access_hash : 3308597575257731003,
-		size : 19,
-		mime_type : 'VuXaOzFDdTwiGoJY',
+		access_hash : -7344068849234328214,
+		size : 8,
+		mime_type : 'LSH5PE4nDQ8pMoyq',
 		attributes : array(
 			$client->documentAttributeImageSize(
-				w : 36,
-				h : 13,
+				w : 98,
+				h : 42,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : 'ToOuebAiGjL1SN7R',
+				alt : 'z79JO4K50yjaSXBT',
 				stickerset : $client->inputStickerSetEmpty(),
 				mask_coords : $client->maskCoords(
-					n : 39,
-					x : 1712578.685546875,
-					y : -975549.5791015625,
-					zoom : -871662.09765625,
+					n : 85,
+					x : 1351081.53125,
+					y : 1869065.888671875,
+					zoom : 1824001.7080078125,
 				),
 			),
 			$client->documentAttributeVideo(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : -910946.3515625,
-				w : 93,
-				h : 71,
-				preload_prefix_size : 70,
-				video_start_ts : 1359223.529296875,
-				video_codec : 'hJUZnBtvWlNbqGSi',
+				duration : 2079210.51171875,
+				w : 57,
+				h : 37,
+				preload_prefix_size : 4,
+				video_start_ts : 1830757.484375,
+				video_codec : 'x5Eaev60hCq9HBUw',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 74,
-				title : 'nbOg8NdqH0t6ICvE',
-				performer : 'LoFSrRx3inBNlDmV',
+				duration : 26,
+				title : 'BkzyKbJowvMadCpW',
+				performer : '0meoaDB17E2pdfrn',
 				waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->documentAttributeFilename(
-				file_name : 'EZ8AMxjTlHbz1JPg',
+				file_name : 'k1lTNEGt7QbBfOV2',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : '7ocCmdVIknfx9lq5',
+				alt : '0qp8do7yCP2lEJWh',
 				stickerset : $client->inputStickerSetEmpty(),
 			),
 		),
 	),
-	invoice_slug : 'ySnwMLeYTpidqA2b',
+	invoice_slug : 'YIAkF4JN9u65REtw',
 );
 ```

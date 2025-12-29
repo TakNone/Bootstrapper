@@ -14,7 +14,7 @@ geoPoint#b2a2f663 flags:# long:double lat:double access_hash:long accuracy_radiu
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>long</mark> | [`double`](type/double) | Longitude |
 | <mark>lat</mark> | [`double`](type/double) | Latitude |
 | <mark>access_hash</mark> | [`long`](type/long) | Access hash |
@@ -32,9 +32,9 @@ geoPoint#b2a2f663 flags:# long:double lat:double access_hash:long accuracy_radiu
 
 ```php
 $geoPoint = $client->geoPoint(
-	long : -1006231.8564453125,
-	lat : 1981865.447265625,
-	access_hash : -2252681785664576081,
-	accuracy_radius : 8,
+	long : -433276.3740234375,
+	lat : 1015801.734375,
+	access_hash : 7780806947565854010,
+	accuracy_radius : 58,
 );
 ```

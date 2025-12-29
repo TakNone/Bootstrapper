@@ -29,7 +29,7 @@ inputTheme#3c5693e9 id:long access_hash:long = InputTheme;
 
 ```php
 $inputTheme = $client->inputTheme(
-	id : -7908520061084765863,
-	access_hash : 4440467055393568758,
+	id : -7666449618620668061,
+	access_hash : 1133668044976239839,
 );
 ```

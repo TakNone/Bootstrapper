@@ -14,7 +14,7 @@ messageMediaStory#68cb6283 flags:# via_mention:flags.1?true peer:Peer id:int sto
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **via_mention** | [`flags.1?true`](type/true) | If set, indicates that this someone has mentioned us in this story (i.e. by tagging us in the description) or vice versa, we have mentioned the other peer (if the message is outgoing) |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer that posted the story |
 | <mark>id</mark> | [`int`](type/int) | Story ID |
@@ -34,11 +34,11 @@ messageMediaStory#68cb6283 flags:# via_mention:flags.1?true peer:Peer id:int sto
 $messageMedia = $client->messageMediaStory(
 	via_mention : true,
 	peer : $client->peerUser(
-		user_id : 8636564606738453423,
+		user_id : -3450102343855861528,
 	),
-	id : 19,
+	id : 29,
 	story : $client->storyItemDeleted(
-		id : 33,
+		id : 74,
 	),
 );
 ```

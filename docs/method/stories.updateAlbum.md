@@ -14,7 +14,7 @@ stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer where the album is posted |
 | <mark>album_id</mark> | [`int`](type/int) | Album ID |
 | **title** | [`flags.0?string`](type/string) | New album title |
@@ -43,10 +43,10 @@ stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?s
 ```php
 $storyAlbum = $client->stories->updateAlbum(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	album_id : 93,
-	title : 'o1LREBNnt3jYxXuJ',
-	delete_stories : array(41),
-	add_stories : array(45),
-	order : array(66),
+	album_id : 27,
+	title : 'oDZQMhRlzLudi9ct',
+	delete_stories : array(47),
+	add_stories : array(38),
+	order : array(62),
 );
 ```

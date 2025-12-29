@@ -12,7 +12,7 @@ messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGrou
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **rtmp_stream** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
 
@@ -30,8 +30,8 @@ messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGrou
 $messageMedia = $client->messageMediaVideoStream(
 	rtmp_stream : true,
 	call : $client->inputGroupCall(
-		id : 5830920252444367843,
-		access_hash : -3471722646677264287,
+		id : -6637613175336013742,
+		access_hash : 4386082807663047403,
 	),
 );
 ```

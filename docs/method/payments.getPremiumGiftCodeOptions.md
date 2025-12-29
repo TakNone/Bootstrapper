@@ -14,7 +14,7 @@ payments.getPremiumGiftCodeOptions#2757ba54 flags:# boost_peer:flags.0?InputPeer
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **boost_peer** | [`flags.0?InputPeer`](type/InputPeer) | The channel that will start the giveaway |
 
 ---

@@ -14,7 +14,7 @@ phoneCallProtocol#fc878fc8 flags:# udp_p2p:flags.0?true udp_reflector:flags.1?tr
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **udp_p2p** | [`flags.0?true`](type/true) | Whether to allow P2P connection to the other participant |
 | **udp_reflector** | [`flags.1?true`](type/true) | Whether to allow connection to the other participants through the reflector servers |
 | <mark>min_layer</mark> | [`int`](type/int) | Minimum layer for remote libtgvoip |
@@ -35,8 +35,8 @@ phoneCallProtocol#fc878fc8 flags:# udp_p2p:flags.0?true udp_reflector:flags.1?tr
 $phoneCallProtocol = $client->phoneCallProtocol(
 	udp_p2p : true,
 	udp_reflector : true,
-	min_layer : 67,
-	max_layer : 68,
-	library_versions : array('4WSX2yuvsJdMLc7w'),
+	min_layer : 78,
+	max_layer : 45,
+	library_versions : array('CDfv26hWVpc8JUOY'),
 );
 ```

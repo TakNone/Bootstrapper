@@ -14,7 +14,7 @@ messageActionPhoneCall#80e11a7f flags:# video:flags.2?true call_id:long reason:f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **video** | [`flags.2?true`](type/true) | Is this a video call? |
 | <mark>call_id</mark> | [`long`](type/long) | Call ID |
 | **reason** | [`flags.0?PhoneCallDiscardReason`](type/PhoneCallDiscardReason) | If the call has ended, the reason why it ended |
@@ -33,8 +33,8 @@ messageActionPhoneCall#80e11a7f flags:# video:flags.2?true call_id:long reason:f
 ```php
 $messageAction = $client->messageActionPhoneCall(
 	video : true,
-	call_id : 8454240742151423664,
+	call_id : -3616151316661151081,
 	reason : $client->phoneCallDiscardReasonMissed(),
-	duration : 65,
+	duration : 78,
 );
 ```

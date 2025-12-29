@@ -14,7 +14,7 @@ reportResultAddComment#6f09ac31 flags:# optional:flags.0?true option:bytes = Rep
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **optional** | [`flags.0?true`](type/true) | Whether this step can be skipped by the user, passing an empty message to messages.report, or if a non-empty message is mandatory |
 | <mark>option</mark> | [`bytes`](type/bytes) | The messages.report method must be re-invoked, passing this option to option |
 

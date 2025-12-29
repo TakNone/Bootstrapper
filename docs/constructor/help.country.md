@@ -14,7 +14,7 @@ help.country#c3878e23 flags:# hidden:flags.0?true iso2:string default_name:strin
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **hidden** | [`flags.0?true`](type/true) | Whether this country should not be shown in the list |
 | <mark>iso2</mark> | [`string`](type/string) | ISO code of country |
 | <mark>default_name</mark> | [`string`](type/string) | Name of the country in the country's language |
@@ -34,14 +34,14 @@ help.country#c3878e23 flags:# hidden:flags.0?true iso2:string default_name:strin
 ```php
 $helpCountry = $client->help->country(
 	hidden : true,
-	iso2 : 'Vv7WDyHTPwo6eR82',
-	default_name : '0w3jRXMOekpA8dKH',
-	name : 't3NKg6SnUYv7wEqG',
+	iso2 : 'EbflLH7y53Ce1wrQ',
+	default_name : 'F4fI2pgHUrRPmxWc',
+	name : 'vR7beJNgIiMZp9kd',
 	country_codes : array(
 		$client->help->countryCode(
-			country_code : 'NAlQBm0wichkGWrb',
-			prefixes : array('qlfzD3BEU9ZWe8Np'),
-			patterns : array('cmM4F7vYnUhliS5w'),
+			country_code : 'Vcszd57XYNADgrSJ',
+			prefixes : array('1gTOD83wtCVfAKdp'),
+			patterns : array('SH1bAC5u7pxIvMLw'),
 		),
 	),
 );

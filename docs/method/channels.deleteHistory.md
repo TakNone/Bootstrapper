@@ -14,7 +14,7 @@ channels.deleteHistory#9baa9647 flags:# for_everyone:flags.0?true channel:InputC
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **for_everyone** | [`flags.0?true`](type/true) | Whether the history should be deleted for everyone |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | Supergroup whose history must be deleted |
 | <mark>max_id</mark> | [`int`](type/int) | ID of message up to which the history must be deleted |
@@ -45,6 +45,6 @@ channels.deleteHistory#9baa9647 flags:# for_everyone:flags.0?true channel:InputC
 $updates = $client->channels->deleteHistory(
 	for_everyone : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	max_id : 41,
+	max_id : 84,
 );
 ```

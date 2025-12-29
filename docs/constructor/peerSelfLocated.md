@@ -28,6 +28,6 @@ peerSelfLocated#f8ec284b expires:int = PeerLocated;
 
 ```php
 $peerLocated = $client->peerSelfLocated(
-	expires : 89,
+	expires : 69,
 );
 ```

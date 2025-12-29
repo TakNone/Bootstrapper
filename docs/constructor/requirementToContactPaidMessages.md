@@ -28,6 +28,6 @@ requirementToContactPaidMessages#b4f67e93 stars_amount:long = RequirementToConta
 
 ```php
 $requirementToContact = $client->requirementToContactPaidMessages(
-	stars_amount : -7553455928952528175,
+	stars_amount : -712676863836957323,
 );
 ```

@@ -14,7 +14,7 @@ payments.getSuggestedStarRefBots#d6b48f7 flags:# order_by_revenue:flags.0?true o
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **order_by_revenue** | [`flags.0?true`](type/true) | If set, orders results by the expected revenue |
 | **order_by_date** | [`flags.1?true`](type/true) | If set, orders results by the creation date of the affiliate program |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The peer that will become the affiliate: star commissions will be transferred to this peer's star balance |
@@ -44,7 +44,7 @@ $paymentsSuggestedStarRefBots = $client->payments->getSuggestedStarRefBots(
 	order_by_revenue : true,
 	order_by_date : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'kFvYUzyScfeJVMQw',
-	limit : 15,
+	offset : 'DhZU5iIxlNP0e9n8',
+	limit : 87,
 );
 ```

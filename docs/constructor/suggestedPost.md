@@ -14,7 +14,7 @@ suggestedPost#e8e37e5 flags:# accepted:flags.1?true rejected:flags.2?true price:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **accepted** | [`flags.1?true`](type/true) | Whether the suggested post was accepted |
 | **rejected** | [`flags.2?true`](type/true) | Whether the suggested post was rejected |
 | **price** | [`flags.3?StarsAmount`](type/StarsAmount) | Price of the suggested post |
@@ -35,9 +35,9 @@ $suggestedPost = $client->suggestedPost(
 	accepted : true,
 	rejected : true,
 	price : $client->starsAmount(
-		amount : 8787556030355589553,
-		nanos : 95,
+		amount : 2410386225826793120,
+		nanos : 15,
 	),
-	schedule_date : 15,
+	schedule_date : 24,
 );
 ```

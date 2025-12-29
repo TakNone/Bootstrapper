@@ -12,7 +12,7 @@ messages.startLive#d069ccde flags:# pinned:flags.2?true noforwards:flags.4?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **pinned** | [`flags.2?true`](type/true) | NOTHING |
 | **noforwards** | [`flags.4?true`](type/true) | NOTHING |
 | **rtmp_stream** | [`flags.5?true`](type/true) | NOTHING |
@@ -40,99 +40,99 @@ $updates = $client->messages->startLive(
 	noforwards : true,
 	rtmp_stream : true,
 	messages_enabled : true,
-	send_paid_messages_stars : 600064404932626359,
+	send_paid_messages_stars : 6792697808335236045,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	caption : 'jYqMQ5lxuvAWB37Z',
+	caption : 'rYgesIqd5LT04a7l',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 11,
+			length : 67,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 22,
+			length : 5,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 20,
+			length : 88,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 16,
+			length : 72,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 77,
+			length : 2,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 82,
+			length : 37,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 79,
+			length : 1,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 42,
+			length : 11,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 30,
+			length : 45,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 71,
-			language : 'JfXRnUpwsGcKM69Z',
+			length : 34,
+			language : 'WGyuHrO6g5bfJvjN',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 67,
+			length : 50,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 26,
-			user_id : 2656494609512036893,
+			length : 94,
+			user_id : -618665873442719094,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 76,
+			length : 54,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 99,
+			length : 53,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 62,
+			length : 73,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 24,
+			length : 36,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 95,
+			length : 90,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 77,
+			length : 28,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 86,
+			length : 10,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 1,
-			document_id : -8765541171426819074,
+			length : 74,
+			document_id : 1945581072689949368,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 62,
+			length : 59,
 		),
 	),
 	privacy_rules : array(
@@ -147,16 +147,16 @@ $updates = $client->messages->startLive(
 			users : array($client->get_input_user(user : '@TakNone')),
 		),
 		$client->inputPrivacyValueAllowChatParticipants(
-			chats : array(5602531217973293887),
+			chats : array(3411404702587313085),
 		),
 		$client->inputPrivacyValueDisallowChatParticipants(
-			chats : array(-148905400421491281),
+			chats : array(-6542929422801192516),
 		),
 		$client->inputPrivacyValueAllowCloseFriends(),
 		$client->inputPrivacyValueAllowPremium(),
 		$client->inputPrivacyValueAllowBots(),
 		$client->inputPrivacyValueDisallowBots(),
 	),
-	random_id : -4381088158589552437,
+	random_id : -4223950235875063782,
 );
 ```

@@ -41,10 +41,10 @@ messages.acceptEncryption#3dbc0415 peer:InputEncryptedChat g_b:bytes key_fingerp
 ```php
 $encryptedChat = $client->messages->acceptEncryption(
 	peer : $client->inputEncryptedChat(
-		chat_id : 20,
-		access_hash : 3085348266471493496,
+		chat_id : 4,
+		access_hash : 4596249000738812538,
 	),
 	g_b : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	key_fingerprint : -8511214567143505290,
+	key_fingerprint : 8996508955913837954,
 );
 ```

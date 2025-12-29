@@ -14,7 +14,7 @@ messages.toggleSuggestedPostApproval#8107455c flags:# reject:flags.1?true peer:I
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **reject** | [`flags.1?true`](type/true) | Reject the suggested post |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Both for users and channels, must contain the ID of the direct messages monoforum » (for channels, the topic ID is extracted automatically from the msg_id) |
 | <mark>msg_id</mark> | [`int`](type/int) | ID of the suggestion message |
@@ -43,8 +43,8 @@ messages.toggleSuggestedPostApproval#8107455c flags:# reject:flags.1?true peer:I
 $updates = $client->messages->toggleSuggestedPostApproval(
 	reject : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 17,
-	schedule_date : 2,
-	reject_comment : 'ITlOJxZb14MyKPgG',
+	msg_id : 72,
+	schedule_date : 18,
+	reject_comment : 'oAChXHqYN4anviPj',
 );
 ```

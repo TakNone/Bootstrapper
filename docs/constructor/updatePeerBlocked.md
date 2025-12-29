@@ -14,7 +14,7 @@ updatePeerBlocked#ebe07752 flags:# blocked:flags.0?true blocked_my_stories_from:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **blocked** | [`flags.0?true`](type/true) | Whether the peer was blocked or unblocked |
 | **blocked_my_stories_from** | [`flags.1?true`](type/true) | Whether the peer was added/removed to/from the story blocklist; if not set, this update affects the main blocklist, see here » for more info |
 | <mark>peer_id</mark> | [`Peer`](type/Peer) | The (un)blocked peer |
@@ -34,7 +34,7 @@ $update = $client->updatePeerBlocked(
 	blocked : true,
 	blocked_my_stories_from : true,
 	peer_id : $client->peerUser(
-		user_id : 3342867794093920199,
+		user_id : 4930730454435698781,
 	),
 );
 ```

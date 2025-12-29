@@ -14,7 +14,7 @@ inputBotInlineMessageMediaGeo#96929a85 flags:# geo_point:InputGeoPoint heading:f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>geo_point</mark> | [`InputGeoPoint`](type/InputGeoPoint) | Geolocation |
 | **heading** | [`flags.0?int`](type/int) | For live locations, a direction in which the location moves, in degrees; 1-360 |
 | **period** | [`flags.1?int`](type/int) | Validity period |
@@ -34,9 +34,9 @@ inputBotInlineMessageMediaGeo#96929a85 flags:# geo_point:InputGeoPoint heading:f
 ```php
 $inputBotInlineMessage = $client->inputBotInlineMessageMediaGeo(
 	geo_point : $client->inputGeoPointEmpty(),
-	heading : 77,
-	period : 44,
-	proximity_notification_radius : 20,
+	heading : 60,
+	period : 78,
+	proximity_notification_radius : 23,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

@@ -49,6 +49,6 @@ messages.importChatInvite#6c50051c hash:string = Updates;
 
 ```php
 $updates = $client->messages->importChatInvite(
-	hash : 'G5Zxcy7ptmlqPeoA',
+	hash : '9PmOIxSev3t8gkYo',
 );
 ```

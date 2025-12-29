@@ -14,7 +14,7 @@ sendAsPeer#b81c7034 flags:# premium_required:flags.0?true peer:Peer = SendAsPeer
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **premium_required** | [`flags.0?true`](type/true) | Whether a Telegram Premium account is required to send messages as this peer |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer |
 
@@ -32,7 +32,7 @@ sendAsPeer#b81c7034 flags:# premium_required:flags.0?true peer:Peer = SendAsPeer
 $sendAsPeer = $client->sendAsPeer(
 	premium_required : true,
 	peer : $client->peerUser(
-		user_id : 5006900470022520106,
+		user_id : -3398323715814722746,
 	),
 );
 ```

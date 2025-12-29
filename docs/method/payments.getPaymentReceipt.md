@@ -38,6 +38,6 @@ payments.getPaymentReceipt#2478d1cc peer:InputPeer msg_id:int = payments.Payment
 ```php
 $paymentsPaymentReceipt = $client->payments->getPaymentReceipt(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 26,
+	msg_id : 40,
 );
 ```

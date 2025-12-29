@@ -14,7 +14,7 @@ messageExtendedMediaPreview#ad628cc8 flags:# w:flags.0?int h:flags.0?int thumb:f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **w** | [`flags.0?int`](type/int) | Width |
 | **h** | [`flags.0?int`](type/int) | Height |
 | **thumb** | [`flags.1?PhotoSize`](type/PhotoSize) | Extremely low resolution thumbnail |
@@ -32,11 +32,11 @@ messageExtendedMediaPreview#ad628cc8 flags:# w:flags.0?int h:flags.0?int thumb:f
 
 ```php
 $messageExtendedMedia = $client->messageExtendedMediaPreview(
-	w : 69,
-	h : 33,
+	w : 6,
+	h : 0,
 	thumb : $client->photoSizeEmpty(
-		type : 'PTV2QUMzKbuqIZxf',
+		type : '9dtb3Lc4WvVfKeCw',
 	),
-	video_duration : 94,
+	video_duration : 4,
 );
 ```

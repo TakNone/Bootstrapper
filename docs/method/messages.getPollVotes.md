@@ -14,7 +14,7 @@ messages.getPollVotes#b86e380e flags:# peer:InputPeer id:int option:flags.0?byte
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Chat where the poll was sent |
 | <mark>id</mark> | [`int`](type/int) | Message ID |
 | **option** | [`flags.0?bytes`](type/bytes) | Get only results for the specified poll option |
@@ -44,9 +44,9 @@ messages.getPollVotes#b86e380e flags:# peer:InputPeer id:int option:flags.0?byte
 ```php
 $messagesVotesList = $client->messages->getPollVotes(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 43,
+	id : 35,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	offset : 'ydl08qvLuzAVPGrb',
-	limit : 55,
+	offset : 'SyBeZXonl150Vwua',
+	limit : 3,
 );
 ```

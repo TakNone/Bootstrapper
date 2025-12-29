@@ -29,7 +29,7 @@ messages.updatePinnedForumTopic#175df251 peer:InputPeer topic_id:int pinned:Bool
 ```php
 $updates = $client->messages->updatePinnedForumTopic(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	topic_id : 76,
+	topic_id : 93,
 	pinned : false,
 );
 ```

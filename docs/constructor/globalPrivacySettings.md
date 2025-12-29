@@ -14,7 +14,7 @@ globalPrivacySettings#fe41b34f flags:# archive_and_mute_new_noncontact_peers:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **archive_and_mute_new_noncontact_peers** | [`flags.0?true`](type/true) | Whether to archive and mute new chats from non-contacts |
 | **keep_archived_unmuted** | [`flags.1?true`](type/true) | Whether unmuted chats will be kept in the Archive chat list when they get a new message |
 | **keep_archived_folders** | [`flags.2?true`](type/true) | Whether unmuted chats that are always included or pinned in a folder, will be kept in the Archive chat list when they get a new message. Ignored if keep_archived_unmuted is set |
@@ -42,7 +42,7 @@ $globalPrivacySettings = $client->globalPrivacySettings(
 	hide_read_marks : true,
 	new_noncontact_peers_require_premium : true,
 	display_gifts_button : true,
-	noncontact_peers_paid_stars : 6042178675650563376,
+	noncontact_peers_paid_stars : -8833966741491409970,
 	disallowed_gifts : $client->disallowedGiftsSettings(
 		disallow_unlimited_stargifts : true,
 		disallow_limited_stargifts : true,

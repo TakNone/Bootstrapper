@@ -28,6 +28,6 @@ accountDaysTTL#b8d0afdf days:int = AccountDaysTTL;
 
 ```php
 $accountDaysTTL = $client->accountDaysTTL(
-	days : 99,
+	days : 13,
 );
 ```

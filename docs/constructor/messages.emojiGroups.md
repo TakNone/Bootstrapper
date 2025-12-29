@@ -32,18 +32,18 @@ $messagesEmojiGroups = $client->messages->emojiGroups(
 	hash : 0,
 	groups : array(
 		$client->emojiGroup(
-			title : 'Y12V6kGQHBfxIiTg',
-			icon_emoji_id : 7871097559696172143,
-			emoticons : array('59xbnQN7J2VRBpqe'),
+			title : 'whCFGV3aOdpym7tL',
+			icon_emoji_id : -3825356949961020518,
+			emoticons : array('CHc60LBu1GeilSmt'),
 		),
 		$client->emojiGroupGreeting(
-			title : 'azG9cOorwZC1EfJQ',
-			icon_emoji_id : 1549792918865826101,
-			emoticons : array('pF6r8SqIAvJXYUBH'),
+			title : 'V1jnuA2GBJpFfkI7',
+			icon_emoji_id : -710065040174667147,
+			emoticons : array('1v0NnIUoK7xZs8cB'),
 		),
 		$client->emojiGroupPremium(
-			title : 'OBCNncWuhIXrdsJm',
-			icon_emoji_id : 7899166869023367257,
+			title : 'ElypTUtoHWLCfs7z',
+			icon_emoji_id : 8508145128178245610,
 		),
 	),
 );

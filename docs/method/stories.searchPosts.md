@@ -14,7 +14,7 @@ stories.searchPosts#d1810907 flags:# hashtag:flags.0?string area:flags.1?MediaAr
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **hashtag** | [`flags.0?string`](type/string) | Hashtag (without the #) |
 | **area** | [`flags.1?MediaArea`](type/MediaArea) | A mediaAreaGeoPoint or a mediaAreaVenue.  Note mediaAreaGeoPoint areas may be searched only if they have an associated address |
 | **peer** | [`flags.2?InputPeer`](type/InputPeer) | If set, returns only stories posted by this peer |
@@ -41,25 +41,25 @@ stories.searchPosts#d1810907 flags:# hashtag:flags.0?string area:flags.1?MediaAr
 
 ```php
 $storiesFoundStories = $client->stories->searchPosts(
-	hashtag : 'mAgsTU0v3Mq2X1Fc',
+	hashtag : 'poCkR2hYbJHOwqa6',
 	area : $client->mediaAreaVenue(
 		coordinates : $client->mediaAreaCoordinates(
-			x : -1943779.4873046875,
-			y : -1132759.3251953125,
-			w : -487010.2001953125,
-			h : -1299247.255859375,
-			rotation : 934783.5986328125,
-			radius : 2017090.51171875,
+			x : 368664.8271484375,
+			y : 1746985.51953125,
+			w : -1910026.2412109375,
+			h : 495765.841796875,
+			rotation : 299412.7470703125,
+			radius : 1266941.3603515625,
 		),
 		geo : $client->geoPointEmpty(),
-		title : '1MqcoBjUAfaz7sRl',
-		address : '8IzZAoWcGStaNsgL',
-		provider : '4Q0iFCHBscuLtJhv',
-		venue_id : 'ItD7g3ksKz5xPG8C',
-		venue_type : 'xLFEKUQka0Vig5qc',
+		title : 'bdOyLx1KrCqA8sRW',
+		address : 'jPR3v80qAkIpXSTL',
+		provider : 'vmCKfQB0c4xkyWeZ',
+		venue_id : 'DU4QvrVhJHunsZCt',
+		venue_type : 'YU6SpesKEa9N5HPJ',
 	),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'khsfmJNT0bEwK5jp',
-	limit : 46,
+	offset : 'FJATjcdE5IlOWK3f',
+	limit : 40,
 );
 ```

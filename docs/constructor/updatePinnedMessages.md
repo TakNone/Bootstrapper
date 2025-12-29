@@ -14,7 +14,7 @@ updatePinnedMessages#ed85eab5 flags:# pinned:flags.0?true peer:Peer messages:Vec
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pinned** | [`flags.0?true`](type/true) | Whether the messages were pinned or unpinned |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer |
 | <mark>messages</mark> | [`Vector<int>`](type/int) | Message IDs |
@@ -35,10 +35,10 @@ updatePinnedMessages#ed85eab5 flags:# pinned:flags.0?true peer:Peer messages:Vec
 $update = $client->updatePinnedMessages(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : 8793112336437096454,
+		user_id : 103364849841516839,
 	),
-	messages : array(30),
-	pts : 23,
-	pts_count : 8,
+	messages : array(41),
+	pts : 26,
+	pts_count : 25,
 );
 ```

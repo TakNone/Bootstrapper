@@ -14,7 +14,7 @@ pageBlockPhoto#1759c560 flags:# photo_id:long caption:PageCaption url:flags.0?st
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>photo_id</mark> | [`long`](type/long) | Photo ID |
 | <mark>caption</mark> | [`PageCaption`](type/PageCaption) | Caption |
 | **url** | [`flags.0?string`](type/string) | HTTP URL of page the photo leads to when clicked |
@@ -32,12 +32,12 @@ pageBlockPhoto#1759c560 flags:# photo_id:long caption:PageCaption url:flags.0?st
 
 ```php
 $pageBlock = $client->pageBlockPhoto(
-	photo_id : -6720623380309493226,
+	photo_id : 171681061054818504,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),
 	),
 	url : 'https://docs.liveproto.dev',
-	webpage_id : 2098520172186739386,
+	webpage_id : -8331281029850169935,
 );
 ```

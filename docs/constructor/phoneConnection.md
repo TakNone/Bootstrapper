@@ -14,7 +14,7 @@ phoneConnection#9cc123c7 flags:# tcp:flags.0?true id:long ip:string ipv6:string 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **tcp** | [`flags.0?true`](type/true) | Whether TCP should be used |
 | <mark>id</mark> | [`long`](type/long) | Endpoint ID |
 | <mark>ip</mark> | [`string`](type/string) | IP address of endpoint |
@@ -35,10 +35,10 @@ phoneConnection#9cc123c7 flags:# tcp:flags.0?true id:long ip:string ipv6:string 
 ```php
 $phoneConnection = $client->phoneConnection(
 	tcp : true,
-	id : -3941768802453829967,
+	id : -1128205595878131227,
 	ip : '127.0.0.1',
 	ipv6 : '127.0.0.1',
-	port : 29,
+	port : 8,
 	peer_tag : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

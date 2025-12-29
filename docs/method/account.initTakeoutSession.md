@@ -14,7 +14,7 @@ account.initTakeoutSession#8ef3eab0 flags:# contacts:flags.0?true message_users:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **contacts** | [`flags.0?true`](type/true) | Whether to export contacts |
 | **message_users** | [`flags.1?true`](type/true) | Whether to export messages in private chats |
 | **message_chats** | [`flags.2?true`](type/true) | Whether to export messages in basic groups |
@@ -49,6 +49,6 @@ $accountTakeout = $client->account->initTakeoutSession(
 	message_megagroups : true,
 	message_channels : true,
 	files : true,
-	file_max_size : 2174189489287265337,
+	file_max_size : -7350138414148101628,
 );
 ```

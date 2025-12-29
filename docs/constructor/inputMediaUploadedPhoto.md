@@ -14,7 +14,7 @@ inputMediaUploadedPhoto#1e287d04 flags:# spoiler:flags.2?true file:InputFile sti
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **spoiler** | [`flags.2?true`](type/true) | Whether this media should be hidden behind a spoiler warning |
 | <mark>file</mark> | [`InputFile`](type/InputFile) | The uploaded file |
 | **stickers** | [`flags.0?Vector<InputDocument>`](type/InputDocument) | Attached mask stickers |
@@ -37,11 +37,11 @@ $inputMedia = $client->inputMediaUploadedPhoto(
 	stickers : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : -3614324793728962025,
-			access_hash : 6743762753277229681,
+			id : 1460061242312680356,
+			access_hash : -7319530654346879063,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	ttl_seconds : 1,
+	ttl_seconds : 62,
 );
 ```

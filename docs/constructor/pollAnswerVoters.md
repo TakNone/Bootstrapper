@@ -14,7 +14,7 @@ pollAnswerVoters#3b6ddad2 flags:# chosen:flags.0?true correct:flags.1?true optio
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **chosen** | [`flags.0?true`](type/true) | Whether we have chosen this answer |
 | **correct** | [`flags.1?true`](type/true) | For quizzes, whether the option we have chosen is correct |
 | <mark>option</mark> | [`bytes`](type/bytes) | The param that has to be passed to messages.sendVote |
@@ -35,6 +35,6 @@ $pollAnswerVoters = $client->pollAnswerVoters(
 	chosen : true,
 	correct : true,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	voters : 20,
+	voters : 48,
 );
 ```

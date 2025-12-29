@@ -14,7 +14,7 @@ payments.getStarsStatus#4ea9b3bf flags:# ton:flags.0?true peer:InputPeer = payme
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **ton** | [`flags.0?true`](type/true) | If set, returns the channel/ad revenue balance in nanotons |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer of which to get the balance |
 

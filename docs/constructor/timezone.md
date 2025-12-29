@@ -30,8 +30,8 @@ timezone#ff9289f5 id:string name:string utc_offset:int = Timezone;
 
 ```php
 $timezone = $client->timezone(
-	id : 'O6KPFdU9pjfzS8yJ',
-	name : 'gdfDliu2ch76FTNL',
-	utc_offset : 24,
+	id : 'na3I7vN1EdKf6Ytz',
+	name : 'VsOEcNb0wviJTxAX',
+	utc_offset : 1,
 );
 ```

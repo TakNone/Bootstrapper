@@ -31,14 +31,14 @@ mediaAreaChannelPost#770416af coordinates:MediaAreaCoordinates channel_id:long m
 ```php
 $mediaArea = $client->mediaAreaChannelPost(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 443002.8564453125,
-		y : 1768634.0439453125,
-		w : -1050204.9833984375,
-		h : -1744585.935546875,
-		rotation : -1680962.138671875,
-		radius : 627204.3466796875,
+		x : 1456983.69921875,
+		y : -734309.8798828125,
+		w : -278394.8466796875,
+		h : 790030.9814453125,
+		rotation : -1198154.697265625,
+		radius : 300555.2060546875,
 	),
-	channel_id : 8087789710043388432,
-	msg_id : 72,
+	channel_id : 6126504600219068858,
+	msg_id : 58,
 );
 ```

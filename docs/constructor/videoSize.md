@@ -14,7 +14,7 @@ videoSize#de33b094 flags:# type:string w:int h:int size:int video_start_ts:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>type</mark> | [`string`](type/string) | u for animated profile pictures, and v for trimmed and downscaled video previews |
 | <mark>w</mark> | [`int`](type/int) | Video width |
 | <mark>h</mark> | [`int`](type/int) | Video height |
@@ -33,10 +33,10 @@ videoSize#de33b094 flags:# type:string w:int h:int size:int video_start_ts:flags
 
 ```php
 $videoSize = $client->videoSize(
-	type : 'odOMt3lmcjwV6uxY',
-	w : 74,
-	h : 71,
-	size : 2,
-	video_start_ts : 1337381.3984375,
+	type : 'trSI0YNuOGpnLdW2',
+	w : 90,
+	h : 64,
+	size : 53,
+	video_start_ts : -244900.0751953125,
 );
 ```

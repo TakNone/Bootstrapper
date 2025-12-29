@@ -30,10 +30,10 @@ foundStory#e87acbc0 peer:Peer story:StoryItem = FoundStory;
 ```php
 $foundStory = $client->foundStory(
 	peer : $client->peerUser(
-		user_id : 5282369364065894790,
+		user_id : -5267100996622662046,
 	),
 	story : $client->storyItemDeleted(
-		id : 48,
+		id : 31,
 	),
 );
 ```

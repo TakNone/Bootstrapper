@@ -14,7 +14,7 @@ account.updateBirthday#cc6e0c11 flags:# birthday:flags.0?Birthday = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **birthday** | [`flags.0?Birthday`](type/Birthday) | Birthday |
 
 ---
@@ -38,9 +38,9 @@ account.updateBirthday#cc6e0c11 flags:# birthday:flags.0?Birthday = Bool;
 ```php
 $bool = $client->account->updateBirthday(
 	birthday : $client->birthday(
-		day : 24,
-		month : 78,
-		year : 14,
+		day : 82,
+		month : 48,
+		year : 35,
 	),
 );
 ```

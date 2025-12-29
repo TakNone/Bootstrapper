@@ -14,7 +14,7 @@ messages.togglePeerTranslations#e47cb579 flags:# disabled:flags.0?true peer:Inpu
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **disabled** | [`flags.0?true`](type/true) | Whether to disable or enable the real-time chat translation popup |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The peer |
 

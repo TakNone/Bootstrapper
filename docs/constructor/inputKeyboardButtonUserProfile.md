@@ -29,7 +29,7 @@ inputKeyboardButtonUserProfile#e988037b text:string user_id:InputUser = Keyboard
 
 ```php
 $keyboardButton = $client->inputKeyboardButtonUserProfile(
-	text : 'SWonX0rLlTKmZHpF',
+	text : 'cwoCD4SXUy13aW6L',
 	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

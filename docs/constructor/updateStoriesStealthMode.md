@@ -29,8 +29,8 @@ updateStoriesStealthMode#2c084dc1 stealth_mode:StoriesStealthMode = Update;
 ```php
 $update = $client->updateStoriesStealthMode(
 	stealth_mode : $client->storiesStealthMode(
-		active_until_date : 75,
-		cooldown_until_date : 25,
+		active_until_date : 3,
+		cooldown_until_date : 83,
 	),
 );
 ```

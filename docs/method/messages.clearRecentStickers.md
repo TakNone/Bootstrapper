@@ -14,7 +14,7 @@ messages.clearRecentStickers#8999602d flags:# attached:flags.0?true = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **attached** | [`flags.0?true`](type/true) | Set this flag to clear the list of stickers recently attached to photo or video files |
 
 ---

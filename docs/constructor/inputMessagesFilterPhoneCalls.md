@@ -14,7 +14,7 @@ inputMessagesFilterPhoneCalls#80c99768 flags:# missed:flags.0?true = MessagesFil
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **missed** | [`flags.0?true`](type/true) | Return only missed phone calls |
 
 ---

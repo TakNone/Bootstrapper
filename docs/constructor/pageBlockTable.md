@@ -14,7 +14,7 @@ pageBlockTable#bf4dea82 flags:# bordered:flags.0?true striped:flags.1?true title
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **bordered** | [`flags.0?true`](type/true) | Does the table have a visible border? |
 | **striped** | [`flags.1?true`](type/true) | Is the table striped? |
 | <mark>title</mark> | [`RichText`](type/RichText) | Title |
@@ -45,8 +45,8 @@ $pageBlock = $client->pageBlockTable(
 					valign_middle : true,
 					valign_bottom : true,
 					text : $client->textEmpty(),
-					colspan : 9,
-					rowspan : 82,
+					colspan : 15,
+					rowspan : 1,
 				),
 			),
 		),

@@ -14,7 +14,7 @@ channels.getChannelRecommendations#25a71742 flags:# channel:flags.0?InputChannel
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **channel** | [`flags.0?InputChannel`](type/InputChannel) | The method will return channels related to the passed channel. If not set, the method will returns channels related to channels the user has joined |
 
 ---

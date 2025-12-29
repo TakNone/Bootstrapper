@@ -29,7 +29,7 @@ inputBotAppID#a920bd7a id:long access_hash:long = InputBotApp;
 
 ```php
 $inputBotApp = $client->inputBotAppID(
-	id : -1159765254463294080,
-	access_hash : -6681595231824759734,
+	id : -8573528154147292661,
+	access_hash : -7541489683705008105,
 );
 ```

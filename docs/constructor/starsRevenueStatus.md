@@ -14,7 +14,7 @@ starsRevenueStatus#febe5491 flags:# withdrawal_enabled:flags.0?true current_bala
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **withdrawal_enabled** | [`flags.0?true`](type/true) | If set, the user may withdraw up to available_balance stars |
 | <mark>current_balance</mark> | [`StarsAmount`](type/StarsAmount) | Amount of not-yet-withdrawn Telegram Stars |
 | <mark>available_balance</mark> | [`StarsAmount`](type/StarsAmount) | Amount of withdrawable Telegram Stars |
@@ -35,17 +35,17 @@ starsRevenueStatus#febe5491 flags:# withdrawal_enabled:flags.0?true current_bala
 $starsRevenueStatus = $client->starsRevenueStatus(
 	withdrawal_enabled : true,
 	current_balance : $client->starsAmount(
-		amount : 5590389285975296851,
-		nanos : 36,
+		amount : -467815344557716915,
+		nanos : 4,
 	),
 	available_balance : $client->starsAmount(
-		amount : -7959439731319100337,
-		nanos : 20,
+		amount : 5968846677078095380,
+		nanos : 63,
 	),
 	overall_revenue : $client->starsAmount(
-		amount : 5022473048446294151,
-		nanos : 1,
+		amount : 8345130875171949120,
+		nanos : 98,
 	),
-	next_withdrawal_at : 41,
+	next_withdrawal_at : 10,
 );
 ```

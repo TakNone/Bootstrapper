@@ -14,7 +14,7 @@ inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:I
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **ton** | [`flags.0?true`](type/true) | Buy the gift using TON |
 | <mark>slug</mark> | [`string`](type/string) | Slug of the gift to buy |
 | <mark>to_id</mark> | [`InputPeer`](type/InputPeer) | The receiver of the gift |
@@ -32,7 +32,7 @@ inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:I
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftResale(
 	ton : true,
-	slug : '685Q9GuNJaUqOeAn',
+	slug : '0Kyztuf6r3DNaZsi',
 	to_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

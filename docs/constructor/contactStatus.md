@@ -29,7 +29,7 @@ contactStatus#16d9703b user_id:long status:UserStatus = ContactStatus;
 
 ```php
 $contactStatus = $client->contactStatus(
-	user_id : 5659896055854788905,
+	user_id : -3802623193447141481,
 	status : $client->userStatusEmpty(),
 );
 ```

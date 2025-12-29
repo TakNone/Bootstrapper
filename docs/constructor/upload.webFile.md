@@ -32,10 +32,10 @@ upload.webFile#21e753bc size:int mime_type:string file_type:storage.FileType mti
 
 ```php
 $uploadWebFile = $client->upload->webFile(
-	size : 54,
-	mime_type : 'QDJ19qYNwpA7OS0B',
+	size : 68,
+	mime_type : 'RgkwAi8bTLN9qdJu',
 	file_type : $client->storage->fileUnknown(),
-	mtime : 37,
+	mtime : 72,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

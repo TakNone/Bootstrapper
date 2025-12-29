@@ -30,6 +30,6 @@ textAnchor#35553762 text:RichText name:string = RichText;
 ```php
 $richText = $client->textAnchor(
 	text : $client->textEmpty(),
-	name : 'pcWR14fUAtoOglKM',
+	name : 'jcRFSA168CKns0xG',
 );
 ```

@@ -14,7 +14,7 @@ exportedChatlistInvite#c5181ac flags:# revoked:flags.0?true title:string url:str
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoked** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>title</mark> | [`string`](type/string) | Name of the link |
 | <mark>url</mark> | [`string`](type/string) | The chat folder deep link » |
@@ -33,17 +33,17 @@ exportedChatlistInvite#c5181ac flags:# revoked:flags.0?true title:string url:str
 ```php
 $exportedChatlistInvite = $client->exportedChatlistInvite(
 	revoked : true,
-	title : 'wUHj7Y3W48d2aXsJ',
+	title : 'SnZEyIUjlfDYe4ou',
 	url : 'https://docs.liveproto.dev',
 	peers : array(
 		$client->peerUser(
-			user_id : -6439683717661854651,
+			user_id : 2982904712467487301,
 		),
 		$client->peerChat(
-			chat_id : 836135027497281042,
+			chat_id : -5459504465235945189,
 		),
 		$client->peerChannel(
-			channel_id : 7129054469051209105,
+			channel_id : 5290624430908113953,
 		),
 	),
 );

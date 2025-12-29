@@ -32,6 +32,6 @@ secureValueErrorFrontSide#be3dfa type:SecureValueType file_hash:bytes text:strin
 $secureValueError = $client->secureValueErrorFrontSide(
 	type : $client->secureValueTypePersonalDetails(),
 	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	text : 'j93aYXSb47EL85uZ',
+	text : 'VpSX9YfDO5zHZGL0',
 );
 ```

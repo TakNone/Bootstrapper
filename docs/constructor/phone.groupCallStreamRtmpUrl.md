@@ -30,6 +30,6 @@ phone.groupCallStreamRtmpUrl#2dbf3432 url:string key:string = phone.GroupCallStr
 ```php
 $phoneGroupCallStreamRtmpUrl = $client->phone->groupCallStreamRtmpUrl(
 	url : 'https://docs.liveproto.dev',
-	key : 'Cjbgh2oX6q7pcMAK',
+	key : 'HXTqv7YGk4imOtsR',
 );
 ```

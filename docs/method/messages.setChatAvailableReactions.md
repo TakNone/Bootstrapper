@@ -14,7 +14,7 @@ messages.setChatAvailableReactions#864b2581 flags:# peer:InputPeer available_rea
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Group where to apply changes |
 | <mark>available_reactions</mark> | [`ChatReactions`](type/ChatReactions) | Allowed reaction emojis |
 | **reactions_limit** | [`flags.0?int`](type/int) | This flag may be used to impose a custom limit of unique reactions (i.e. a customizable version of appConfig.reactions_uniq_max); this field and the other info set by the method will then be available to users in channelFull and chatFull. If this flag is not set, the previously configured reactions_limit will not be altered |
@@ -46,7 +46,7 @@ messages.setChatAvailableReactions#864b2581 flags:# peer:InputPeer available_rea
 $updates = $client->messages->setChatAvailableReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	available_reactions : $client->chatReactionsNone(),
-	reactions_limit : 99,
+	reactions_limit : 29,
 	paid_enabled : false,
 );
 ```

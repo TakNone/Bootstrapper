@@ -28,6 +28,6 @@ inputMediaDice#e66fbf7b emoticon:string = InputMedia;
 
 ```php
 $inputMedia = $client->inputMediaDice(
-	emoticon : 'RN1kPlSBQLmwxMbg',
+	emoticon : 'FtTSHivr5DmWKjXx',
 );
 ```

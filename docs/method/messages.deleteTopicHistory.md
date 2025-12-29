@@ -28,6 +28,6 @@ messages.deleteTopicHistory#d2816f10 peer:InputPeer top_msg_id:int = messages.Af
 ```php
 $messagesAffectedHistory = $client->messages->deleteTopicHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 87,
+	top_msg_id : 15,
 );
 ```

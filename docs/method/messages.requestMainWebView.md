@@ -14,7 +14,7 @@ messages.requestMainWebView#c9e01e7b flags:# compact:flags.7?true fullscreen:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **compact** | [`flags.7?true`](type/true) | If set, requests to open the mini app in compact mode (as opposed to normal or fullscreen mode). Must be set if the mode parameter of the Main Mini App link is equal to compact |
 | **fullscreen** | [`flags.8?true`](type/true) | If set, requests to open the mini app in fullscreen mode (as opposed to compact or normal mode). Must be set if the mode parameter of the Main Mini App link is equal to fullscreen |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Currently open chat, may be inputPeerEmpty if no chat is currently open |
@@ -47,10 +47,10 @@ $webViewResult = $client->messages->requestMainWebView(
 	fullscreen : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	bot : $client->get_input_user(user : '@TakNone'),
-	start_param : 'jWuIAknVhJrefyDK',
+	start_param : 'QrWDNo6IAscvmjB0',
 	theme_params : $client->dataJSON(
-		data : 'eO2ZKo4x0vpNrXW6',
+		data : 'Npa6Yx7L4q3PB09S',
 	),
-	platform : 'PtNREKsjdSpmYHqc',
+	platform : 'V9dhoqIcly8b32xY',
 );
 ```

@@ -34,10 +34,10 @@ inputWebFileGeoPointLocation#9f2221c9 geo_point:InputGeoPoint access_hash:long w
 ```php
 $inputWebFileLocation = $client->inputWebFileGeoPointLocation(
 	geo_point : $client->inputGeoPointEmpty(),
-	access_hash : 2884757255881976738,
-	w : 94,
-	h : 58,
-	zoom : 39,
-	scale : 71,
+	access_hash : 7475242558589314747,
+	w : 64,
+	h : 31,
+	zoom : 38,
+	scale : 36,
 );
 ```

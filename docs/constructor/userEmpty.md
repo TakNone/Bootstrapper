@@ -28,6 +28,6 @@ userEmpty#d3bc4b7a id:long = User;
 
 ```php
 $user = $client->userEmpty(
-	id : 7995038306569413853,
+	id : -6014692074744324955,
 );
 ```

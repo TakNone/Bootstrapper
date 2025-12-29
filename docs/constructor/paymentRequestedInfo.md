@@ -14,7 +14,7 @@ paymentRequestedInfo#909c3f94 flags:# name:flags.0?string phone:flags.1?string e
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **name** | [`flags.0?string`](type/string) | User's full name |
 | **phone** | [`flags.1?string`](type/string) | User's phone number |
 | **email** | [`flags.2?string`](type/string) | User's email address |
@@ -32,16 +32,16 @@ paymentRequestedInfo#909c3f94 flags:# name:flags.0?string phone:flags.1?string e
 
 ```php
 $paymentRequestedInfo = $client->paymentRequestedInfo(
-	name : '2u1W4QkRLYVAsq5h',
+	name : 'rxOweTV1J53cag6K',
 	phone : '+1234567890',
 	email : 'reply@liveproto.dev',
 	shipping_address : $client->postAddress(
-		street_line1 : 'FwJ7o0tQHmyApqbn',
-		street_line2 : 'w2SLZOJidbGIPgts',
-		city : 'us5hP4b7i2MgHrVO',
-		state : 'GCiwLb2ze94OjKSv',
-		country_iso2 : 'qMjgQPW9rVs2uKSF',
-		post_code : 'UQqE65tI0JbpVj7s',
+		street_line1 : 'SvjAQDg1RE80Z5n6',
+		street_line2 : '8jFoweQBt3ynsrV0',
+		city : 'prLjomaJqR2b7slh',
+		state : 'w9xSKZ4JHWreqFnf',
+		country_iso2 : 'CvGrMJ94jYDyHpN6',
+		post_code : 'S4nVIPtAzRB2Kmpl',
 	),
 );
 ```

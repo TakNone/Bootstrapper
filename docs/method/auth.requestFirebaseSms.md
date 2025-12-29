@@ -14,7 +14,7 @@ auth.requestFirebaseSms#8e39261e flags:# phone_number:string phone_code_hash:str
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>phone_number</mark> | [`string`](type/string) | Phone number |
 | <mark>phone_code_hash</mark> | [`string`](type/string) | Phone code hash returned by auth.sendCode |
 | **safety_net_token** | [`flags.0?string`](type/string) | On Android, a JWS object obtained as described in the auth documentation » |
@@ -44,8 +44,8 @@ auth.requestFirebaseSms#8e39261e flags:# phone_number:string phone_code_hash:str
 $bool = $client->auth->requestFirebaseSms(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	safety_net_token : 'EzI3xsCUOZiw2SXQ',
-	play_integrity_token : 'b5h3j6nJOXTimFE8',
-	ios_push_secret : 'MTUzAIogels0DO2d',
+	safety_net_token : 'gNQZROt7J1fGD2ov',
+	play_integrity_token : 'k6rFVHhfSxivO2lA',
+	ios_push_secret : 'QODHlujGKX3FPIYN',
 );
 ```

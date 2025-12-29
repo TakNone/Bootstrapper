@@ -14,7 +14,7 @@ inputPeerNotifySettings#cacb6ae2 flags:# show_previews:flags.0?Bool silent:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **show_previews** | [`flags.0?Bool`](type/Bool) | If the text of the message shall be displayed in notification |
 | **silent** | [`flags.1?Bool`](type/Bool) | Peer was muted? |
 | **mute_until** | [`flags.2?int`](type/int) | Date until which all notifications shall be switched off |
@@ -37,10 +37,10 @@ inputPeerNotifySettings#cacb6ae2 flags:# show_previews:flags.0?Bool silent:flags
 $inputPeerNotifySettings = $client->inputPeerNotifySettings(
 	show_previews : false,
 	silent : false,
-	mute_until : 41,
+	mute_until : 21,
 	sound : $client->notificationSoundDefault(),
 	stories_muted : true,
-	stories_hide_sender : true,
+	stories_hide_sender : false,
 	stories_sound : $client->notificationSoundDefault(),
 );
 ```

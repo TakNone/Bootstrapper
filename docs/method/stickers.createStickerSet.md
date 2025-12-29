@@ -14,7 +14,7 @@ stickers.createStickerSet#9021ab67 flags:# masks:flags.0?true emojis:flags.5?tru
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **masks** | [`flags.0?true`](type/true) | Whether this is a mask stickerset |
 | **emojis** | [`flags.5?true`](type/true) | Whether this is a custom emoji stickerset |
 | **text_color** | [`flags.6?true`](type/true) | Whether the color of TGS custom emojis contained in this set should be changed to the text color when used in messages, the accent color if used as emoji status, white on chat photos, or another appropriate color based on context. For custom emoji stickersets only |
@@ -67,22 +67,22 @@ $messagesStickerSet = $client->stickers->createStickerSet(
 	emojis : true,
 	text_color : true,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	title : '9f6IQNGJg8ioAO2X',
-	short_name : '7Mt9RS1WFYLqJg4Z',
+	title : 'vex5matUkP41sBjM',
+	short_name : 'sVZPb7Rhn1l4guf3',
 	thumb : $client->inputDocumentEmpty(),
 	stickers : array(
 		$client->inputStickerSetItem(
 			document : $client->inputDocumentEmpty(),
-			emoji : 'UijbTkKnqL0I3D8W',
+			emoji : 'S5UGtjKhfD0O4Lic',
 			mask_coords : $client->maskCoords(
-				n : 78,
-				x : -1157080.4794921875,
-				y : -486586.2021484375,
-				zoom : -289018.4189453125,
+				n : 79,
+				x : 1501460.587890625,
+				y : 1002752.1357421875,
+				zoom : 668980.5693359375,
 			),
-			keywords : '6HNWRtF3CeoIvJjX',
+			keywords : 'xN3m6bwIf1AdzJE5',
 		),
 	),
-	software : 'eTftmLdSQM0NJ7kp',
+	software : 'e5cqBKQSil6G4kd3',
 );
 ```

@@ -14,7 +14,7 @@ messages.setInlineGameScore#15ad9f64 flags:# edit_message:flags.0?true force:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **edit_message** | [`flags.0?true`](type/true) | Set this flag if the game message should be automatically edited to include the current scoreboard |
 | **force** | [`flags.1?true`](type/true) | Set this flag if the high score is allowed to decrease. This can be useful when fixing mistakes or banning cheaters |
 | <mark>id</mark> | [`InputBotInlineMessageID`](type/InputBotInlineMessageID) | ID of the inline message |
@@ -45,11 +45,11 @@ $bool = $client->messages->setInlineGameScore(
 	edit_message : true,
 	force : true,
 	id : $client->inputBotInlineMessageID(
-		dc_id : 68,
-		id : 1112178150069290954,
-		access_hash : 7015586295448989262,
+		dc_id : 40,
+		id : -6706604393706552915,
+		access_hash : 5842303767206657838,
 	),
 	user_id : $client->get_input_user(user : '@TakNone'),
-	score : 63,
+	score : 87,
 );
 ```

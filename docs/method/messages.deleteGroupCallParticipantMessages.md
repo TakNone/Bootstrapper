@@ -12,7 +12,7 @@ messages.deleteGroupCallParticipantMessages#1dbfeca0 flags:# report_spam:flags.0
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **report_spam** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
 | <mark>participant</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
@@ -31,8 +31,8 @@ messages.deleteGroupCallParticipantMessages#1dbfeca0 flags:# report_spam:flags.0
 $updates = $client->messages->deleteGroupCallParticipantMessages(
 	report_spam : true,
 	call : $client->inputGroupCall(
-		id : 2883408440094182200,
-		access_hash : 6319290150634733933,
+		id : -6874072499783630247,
+		access_hash : 7946175935633748962,
 	),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

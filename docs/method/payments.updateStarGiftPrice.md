@@ -39,11 +39,11 @@ payments.updateStarGiftPrice#edbe6ccb stargift:InputSavedStarGift resell_amount:
 ```php
 $updates = $client->payments->updateStarGiftPrice(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 62,
+		msg_id : 14,
 	),
 	resell_amount : $client->starsAmount(
-		amount : -175982867022907785,
-		nanos : 41,
+		amount : 3355984711270183622,
+		nanos : 43,
 	),
 );
 ```

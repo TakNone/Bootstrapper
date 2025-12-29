@@ -14,7 +14,7 @@ storyItemSkipped#ffadc913 flags:# close_friends:flags.8?true live:flags.9?true i
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **close_friends** | [`flags.8?true`](type/true) | Whether this story can only be viewed by our close friends, see here » for more info |
 | **live** | [`flags.9?true`](type/true) | NOTHING |
 | <mark>id</mark> | [`int`](type/int) | Story ID |
@@ -35,8 +35,8 @@ storyItemSkipped#ffadc913 flags:# close_friends:flags.8?true live:flags.9?true i
 $storyItem = $client->storyItemSkipped(
 	close_friends : true,
 	live : true,
-	id : 16,
-	date : 87,
-	expire_date : 30,
+	id : 3,
+	date : 94,
+	expire_date : 47,
 );
 ```

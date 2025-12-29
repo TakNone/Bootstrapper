@@ -29,15 +29,15 @@ messageMediaPaidMedia#a8852491 stars_amount:long extended_media:Vector<MessageEx
 
 ```php
 $messageMedia = $client->messageMediaPaidMedia(
-	stars_amount : 8368647400693771046,
+	stars_amount : 4013811123887435555,
 	extended_media : array(
 		$client->messageExtendedMediaPreview(
-			w : 12,
-			h : 19,
+			w : 83,
+			h : 98,
 			thumb : $client->photoSizeEmpty(
-				type : 'k7h9ZT1bPJEtAncG',
+				type : 'Zy5hrjpva3NGkSKz',
 			),
-			video_duration : 38,
+			video_duration : 85,
 		),
 		$client->messageExtendedMedia(
 			media : $client->messageMediaEmpty(),

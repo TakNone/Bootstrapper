@@ -14,7 +14,7 @@ messageActionGiftStars#45d5b021 flags:# currency:string amount:long stars:long c
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>currency</mark> | [`string`](type/string) | Three-letter ISO 4217 currency code |
 | <mark>amount</mark> | [`long`](type/long) | Price of the gift in the smallest units of the currency (integer, not float/double). For example, for a price of US$ 1.45 pass amount = 145. See the exp parameter in currencies.json, it shows the number of digits past the decimal point for each currency (2 for the majority of currencies) |
 | <mark>stars</mark> | [`long`](type/long) | Amount of gifted stars |
@@ -34,11 +34,11 @@ messageActionGiftStars#45d5b021 flags:# currency:string amount:long stars:long c
 
 ```php
 $messageAction = $client->messageActionGiftStars(
-	currency : 'xoLtWb7UDrc12n4g',
-	amount : 5389540541802191645,
-	stars : 2382313665420317991,
-	crypto_currency : 'HnTzh5s20yFEpL6w',
-	crypto_amount : -647941426221538030,
-	transaction_id : 'E4fnu1Ua9M6VLWiF',
+	currency : 'uLjl9XsNUd7KAOnh',
+	amount : -5292497507489430914,
+	stars : 1940728643715506582,
+	crypto_currency : 'ZdL6mc15RvDx0qjJ',
+	crypto_amount : -8105214355604116145,
+	transaction_id : '5v7S9JaFB1OCM0kb',
 );
 ```

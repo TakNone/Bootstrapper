@@ -14,7 +14,7 @@ authorization#ad01d61d flags:# current:flags.0?true official_app:flags.1?true pa
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **current** | [`flags.0?true`](type/true) | Whether this is the current session |
 | **official_app** | [`flags.1?true`](type/true) | Whether the session is from an official app |
 | **password_pending** | [`flags.2?true`](type/true) | Whether the session is still waiting for a 2FA password |
@@ -53,16 +53,16 @@ $authorization = $client->authorization(
 	call_requests_disabled : true,
 	unconfirmed : true,
 	hash : 0,
-	device_model : 'pSOyFq5WKtM4X9ZT',
-	platform : 'nlUHSWcpB15XvbjF',
-	system_version : '5sFq2rX3QJK9GWiV',
-	api_id : 46,
-	app_name : 'nhqMZlJj3ysB4mc9',
-	app_version : 'gWYkRtIZxSrvT7j0',
-	date_created : 37,
-	date_active : 84,
+	device_model : 'AvYKgE68ktapX7OL',
+	platform : 'fAS0Tpd6sjbxMYcW',
+	system_version : 'TxEzARwcgfnX9aL4',
+	api_id : 21,
+	app_name : 'XF3kyUziJbxj7Lhu',
+	app_version : 'E2cuw8ki4qy6MlDt',
+	date_created : 34,
+	date_active : 67,
 	ip : '127.0.0.1',
-	country : 'jksBVL03OZ4zMpa7',
-	region : 'vMfz9tXkHoUIp267',
+	country : 'CxGecsr5k8EyS1R7',
+	region : 'EgoA4zcfsOQ12TGb',
 );
 ```

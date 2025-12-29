@@ -29,7 +29,7 @@ starsAmount#bbb6b4a3 amount:long nanos:int = StarsAmount;
 
 ```php
 $starsAmount = $client->starsAmount(
-	amount : 4197546115777803760,
-	nanos : 79,
+	amount : 6326390169088015326,
+	nanos : 98,
 );
 ```

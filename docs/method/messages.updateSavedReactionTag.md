@@ -14,7 +14,7 @@ messages.updateSavedReactionTag#60297dec flags:# reaction:Reaction title:flags.0
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>reaction</mark> | [`Reaction`](type/Reaction) | Reaction associated to the tag |
 | **title** | [`flags.0?string`](type/string) | Tag description, max 12 UTF-8 characters; to remove the description call the method without setting this flag |
 
@@ -40,6 +40,6 @@ messages.updateSavedReactionTag#60297dec flags:# reaction:Reaction title:flags.0
 ```php
 $bool = $client->messages->updateSavedReactionTag(
 	reaction : $client->reactionEmpty(),
-	title : 'JXVigf27Sn83LjuQ',
+	title : 'IxtPEHgJCfn4F9bS',
 );
 ```

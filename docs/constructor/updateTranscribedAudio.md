@@ -14,7 +14,7 @@ updateTranscribedAudio#84cd5a flags:# pending:flags.0?true peer:Peer msg_id:int 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pending** | [`flags.0?true`](type/true) | Whether this transcription is still pending and further updateTranscribedAudio about it will be sent in the future |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer of the transcribed message |
 | <mark>msg_id</mark> | [`int`](type/int) | Transcribed message ID |
@@ -35,10 +35,10 @@ updateTranscribedAudio#84cd5a flags:# pending:flags.0?true peer:Peer msg_id:int 
 $update = $client->updateTranscribedAudio(
 	pending : true,
 	peer : $client->peerUser(
-		user_id : -2231147118384025152,
+		user_id : 4317653467021227952,
 	),
-	msg_id : 99,
-	transcription_id : 3980246931668955200,
-	text : 'MJ0Im5AGQLxYUaNR',
+	msg_id : 29,
+	transcription_id : 5616816756572943449,
+	text : 'GOlUWaEtV17Hsgbx',
 );
 ```

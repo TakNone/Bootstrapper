@@ -14,7 +14,7 @@ messages.getSearchCounters#1bbcf300 flags:# peer:InputPeer saved_peer_id:flags.2
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer where to search |
 | **saved_peer_id** | [`flags.2?InputPeer`](type/InputPeer) | Search within the saved message dialog » with this ID |
 | **top_msg_id** | [`flags.0?int`](type/int) | If set, consider only messages within the specified forum topic |
@@ -42,7 +42,7 @@ messages.getSearchCounters#1bbcf300 flags:# peer:InputPeer saved_peer_id:flags.2
 $messagesSearchCounter = $client->messages->getSearchCounters(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 93,
+	top_msg_id : 12,
 	filters : array(
 		$client->inputMessagesFilterEmpty(),
 		$client->inputMessagesFilterPhotos(),

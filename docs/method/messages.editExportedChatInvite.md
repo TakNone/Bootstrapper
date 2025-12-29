@@ -14,7 +14,7 @@ messages.editExportedChatInvite#bdca2f75 flags:# revoked:flags.2?true peer:Input
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoked** | [`flags.2?true`](type/true) | Whether to revoke the chat invite |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Chat |
 | <mark>link</mark> | [`string`](type/string) | Invite link |
@@ -52,10 +52,10 @@ messages.editExportedChatInvite#bdca2f75 flags:# revoked:flags.2?true peer:Input
 $messagesExportedChatInvite = $client->messages->editExportedChatInvite(
 	revoked : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	link : 'oRSLxJ0MiudWPCA4',
-	expire_date : 24,
-	usage_limit : 5,
-	request_needed : true,
-	title : 'uLzZMOapCIhQfsim',
+	link : 'NPsEViGbZ1yA9H5B',
+	expire_date : 77,
+	usage_limit : 37,
+	request_needed : false,
+	title : 'Tr9pxSbmYDHZiPc7',
 );
 ```

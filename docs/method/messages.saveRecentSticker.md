@@ -14,7 +14,7 @@ messages.saveRecentSticker#392718f8 flags:# attached:flags.0?true id:InputDocume
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **attached** | [`flags.0?true`](type/true) | Whether to add/remove stickers recently attached to photo or video files |
 | <mark>id</mark> | [`InputDocument`](type/InputDocument) | Sticker |
 | <mark>unsave</mark> | [`Bool`](type/Bool) | Whether to save or unsave the sticker |
@@ -41,6 +41,6 @@ messages.saveRecentSticker#392718f8 flags:# attached:flags.0?true id:InputDocume
 $bool = $client->messages->saveRecentSticker(
 	attached : true,
 	id : $client->inputDocumentEmpty(),
-	unsave : true,
+	unsave : false,
 );
 ```

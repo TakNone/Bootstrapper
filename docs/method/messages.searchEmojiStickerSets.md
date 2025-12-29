@@ -14,7 +14,7 @@ messages.searchEmojiStickerSets#92b4494c flags:# exclude_featured:flags.0?true q
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **exclude_featured** | [`flags.0?true`](type/true) | Exclude featured stickersets from results |
 | <mark>q</mark> | [`string`](type/string) | Query string |
 | <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
@@ -32,7 +32,7 @@ messages.searchEmojiStickerSets#92b4494c flags:# exclude_featured:flags.0?true q
 ```php
 $messagesFoundStickerSets = $client->messages->searchEmojiStickerSets(
 	exclude_featured : true,
-	q : 'CeLUBGsKoOwmDtIh',
+	q : 'Wt26jDf0lHXMaEQP',
 	hash : 0,
 );
 ```

@@ -14,7 +14,7 @@ messages.toggleBotInAttachMenu#69f59d69 flags:# write_allowed:flags.0?true bot:I
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **write_allowed** | [`flags.0?true`](type/true) | Whether the user authorizes the bot to write messages to them, if requested by attachMenuBot.request_write_access |
 | <mark>bot</mark> | [`InputUser`](type/InputUser) | Bot ID |
 | <mark>enabled</mark> | [`Bool`](type/Bool) | Toggle |

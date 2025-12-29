@@ -49,7 +49,7 @@ $authSentCode = $client->account->sendChangePhoneCode(
 		allow_firebase : true,
 		unknown_number : true,
 		logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-		token : '8UviMqu6O9wFxRpe',
+		token : '42Fkj1uXoYxSsM89',
 		app_sandbox : true,
 	),
 );

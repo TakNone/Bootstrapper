@@ -14,7 +14,7 @@ messages.toggleStickerSets#b5052fea flags:# uninstall:flags.0?true archive:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **uninstall** | [`flags.0?true`](type/true) | Uninstall the specified stickersets |
 | **archive** | [`flags.1?true`](type/true) | Archive the specified stickersets |
 | **unarchive** | [`flags.2?true`](type/true) | Unarchive the specified stickersets |
@@ -38,15 +38,15 @@ $bool = $client->messages->toggleStickerSets(
 	stickersets : array(
 		$client->inputStickerSetEmpty(),
 		$client->inputStickerSetID(
-			id : 8395328155499454656,
-			access_hash : -5455156106134034744,
+			id : 3323077795163066892,
+			access_hash : -5415053551538854301,
 		),
 		$client->inputStickerSetShortName(
-			short_name : 'aVhl7JeiY4cD8LOk',
+			short_name : 'QDj5AT70LdkbK2MU',
 		),
 		$client->inputStickerSetAnimatedEmoji(),
 		$client->inputStickerSetDice(
-			emoticon : 'ASm6CibkZUEoOYhg',
+			emoticon : 'InrH9lBmF7xv2MQs',
 		),
 		$client->inputStickerSetAnimatedEmojiAnimations(),
 		$client->inputStickerSetPremiumGifts(),

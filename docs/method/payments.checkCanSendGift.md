@@ -36,6 +36,6 @@ payments.checkCanSendGift#c0c4edc9 gift_id:long = payments.CheckCanSendGiftResul
 
 ```php
 $paymentsCheckCanSendGiftResult = $client->payments->checkCanSendGift(
-	gift_id : 8477308757783871772,
+	gift_id : 5333147050029545059,
 );
 ```

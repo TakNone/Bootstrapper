@@ -30,6 +30,6 @@ messageEntitySpoiler#32ca960f offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntitySpoiler(
 	offset : 0,
-	length : 37,
+	length : 97,
 );
 ```

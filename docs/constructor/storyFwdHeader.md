@@ -14,7 +14,7 @@ storyFwdHeader#b826e150 flags:# modified:flags.3?true from:flags.0?Peer from_nam
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **modified** | [`flags.3?true`](type/true) | Whether the story media was modified before reposting it (for example by overlaying a round video with a reaction) |
 | **from** | [`flags.0?Peer`](type/Peer) | Peer that originally posted the story; will be empty for stories forwarded from a user with forwards privacy enabled, in which case from_name will be set, instead |
 | **from_name** | [`flags.1?string`](type/string) | Will be set for stories forwarded from a user with forwards privacy enabled, in which case from will also be empty |
@@ -34,9 +34,9 @@ storyFwdHeader#b826e150 flags:# modified:flags.3?true from:flags.0?Peer from_nam
 $storyFwdHeader = $client->storyFwdHeader(
 	modified : true,
 	from : $client->peerUser(
-		user_id : -1356263901215138231,
+		user_id : -2134008775117917259,
 	),
-	from_name : 'Yev8fhVdCTWFXucN',
-	story_id : 18,
+	from_name : 'oINMGFnROdS5s7Zk',
+	story_id : 74,
 );
 ```

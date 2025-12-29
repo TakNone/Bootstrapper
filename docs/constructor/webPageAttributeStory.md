@@ -14,7 +14,7 @@ webPageAttributeStory#2e94c3e7 flags:# peer:Peer id:int story:flags.0?StoryItem 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer that posted the story |
 | <mark>id</mark> | [`int`](type/int) | Story ID |
 | **story** | [`flags.0?StoryItem`](type/StoryItem) | May contain the story, if not the story should be fetched when and if needed using stories.getStoriesByID with the above id and peer |
@@ -32,11 +32,11 @@ webPageAttributeStory#2e94c3e7 flags:# peer:Peer id:int story:flags.0?StoryItem 
 ```php
 $webPageAttribute = $client->webPageAttributeStory(
 	peer : $client->peerUser(
-		user_id : 807912013040305788,
+		user_id : -7880932539142615368,
 	),
-	id : 82,
+	id : 17,
 	story : $client->storyItemDeleted(
-		id : 8,
+		id : 61,
 	),
 );
 ```

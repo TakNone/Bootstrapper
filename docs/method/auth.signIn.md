@@ -14,7 +14,7 @@ auth.signIn#8d52a951 flags:# phone_number:string phone_code_hash:string phone_co
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>phone_number</mark> | [`string`](type/string) | Phone number in the international format |
 | <mark>phone_code_hash</mark> | [`string`](type/string) | SMS-message ID, obtained from auth.sendCode |
 | **phone_code** | [`flags.0?string`](type/string) | Valid numerical code from the SMS-message |
@@ -51,7 +51,7 @@ $authAuthorization = $client->auth->signIn(
 	phone_code_hash : '+1234567890',
 	phone_code : '+1234567890',
 	email_verification : $client->emailVerificationCode(
-		code : 'LUv0rZwI3xMuGCJb',
+		code : 'vUkxBnWSD4Xu18cG',
 	),
 );
 ```

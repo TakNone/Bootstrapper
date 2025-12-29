@@ -14,7 +14,7 @@ account.uploadTheme#1c3db333 flags:# file:InputFile thumb:flags.0?InputFile file
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>file</mark> | [`InputFile`](type/InputFile) | Previously uploaded theme file with platform-specific colors for UI components, can be left unset when creating themes that only modify the wallpaper or accent colors |
 | **thumb** | [`flags.0?InputFile`](type/InputFile) | Thumbnail |
 | <mark>file_name</mark> | [`string`](type/string) | File name |
@@ -43,7 +43,7 @@ account.uploadTheme#1c3db333 flags:# file:InputFile thumb:flags.0?InputFile file
 $document = $client->account->uploadTheme(
 	file : $client->upload_file(path : 'file.png'),
 	thumb : $client->upload_file(path : 'file.png'),
-	file_name : 'HecMAfzW9tuZUKS1',
-	mime_type : 'HSgzuq8vlTse3nIc',
+	file_name : 'fiLzFlSk9pQmJd7o',
+	mime_type : 'Fw2LpTxBsCZqYyWt',
 );
 ```

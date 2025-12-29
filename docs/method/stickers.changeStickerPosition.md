@@ -38,6 +38,6 @@ stickers.changeStickerPosition#ffb6d4ca sticker:InputDocument position:int = mes
 ```php
 $messagesStickerSet = $client->stickers->changeStickerPosition(
 	sticker : $client->inputDocumentEmpty(),
-	position : 17,
+	position : 21,
 );
 ```

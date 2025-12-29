@@ -45,10 +45,10 @@ messages.sendEncryptedService#32d439a4 peer:InputEncryptedChat random_id:long da
 ```php
 $messagesSentEncryptedMessage = $client->messages->sendEncryptedService(
 	peer : $client->inputEncryptedChat(
-		chat_id : 88,
-		access_hash : 4094656156065630697,
+		chat_id : 25,
+		access_hash : -7808461689563989562,
 	),
-	random_id : 3877479254409722000,
+	random_id : -2614500025538965097,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

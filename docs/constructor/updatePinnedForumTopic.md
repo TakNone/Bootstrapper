@@ -12,7 +12,7 @@ updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:i
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **pinned** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>peer</mark> | [`Peer`](type/Peer) | NOTHING |
 | <mark>topic_id</mark> | [`int`](type/int) | NOTHING |
@@ -31,8 +31,8 @@ updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:i
 $update = $client->updatePinnedForumTopic(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : 7205464993885820881,
+		user_id : -235344625240745368,
 	),
-	topic_id : 84,
+	topic_id : 65,
 );
 ```

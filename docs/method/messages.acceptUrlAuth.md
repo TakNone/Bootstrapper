@@ -14,7 +14,7 @@ messages.acceptUrlAuth#b12c7125 flags:# write_allowed:flags.0?true peer:flags.1?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **write_allowed** | [`flags.0?true`](type/true) | Set this flag to allow the bot to send messages to you (if requested) |
 | **peer** | [`flags.1?InputPeer`](type/InputPeer) | The location of the message |
 | **msg_id** | [`flags.1?int`](type/int) | Message ID of the message with the login button |
@@ -35,8 +35,8 @@ messages.acceptUrlAuth#b12c7125 flags:# write_allowed:flags.0?true peer:flags.1?
 $urlAuthResult = $client->messages->acceptUrlAuth(
 	write_allowed : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 95,
-	button_id : 9,
+	msg_id : 11,
+	button_id : 54,
 	url : 'https://docs.liveproto.dev',
 );
 ```

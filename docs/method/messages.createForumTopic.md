@@ -12,7 +12,7 @@ messages.createForumTopic#2f98c3d5 flags:# title_missing:flags.4?true peer:Input
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **title_missing** | [`flags.4?true`](type/true) | NOTHING |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
 | <mark>title</mark> | [`string`](type/string) | NOTHING |
@@ -35,10 +35,10 @@ messages.createForumTopic#2f98c3d5 flags:# title_missing:flags.4?true peer:Input
 $updates = $client->messages->createForumTopic(
 	title_missing : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	title : 'areIPmiq9RsnEA4d',
-	icon_color : 91,
-	icon_emoji_id : 6826535199188566680,
-	random_id : -4198636520571592292,
+	title : 'fXz1monGIreK27p4',
+	icon_color : 11,
+	icon_emoji_id : 8498775291265597520,
+	random_id : 2313856934516284927,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

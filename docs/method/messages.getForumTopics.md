@@ -12,7 +12,7 @@ messages.getForumTopics#3ba47bff flags:# peer:InputPeer q:flags.0?string offset_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
 | **q** | [`flags.0?string`](type/string) | NOTHING |
 | <mark>offset_date</mark> | [`int`](type/int) | NOTHING |
@@ -33,10 +33,10 @@ messages.getForumTopics#3ba47bff flags:# peer:InputPeer q:flags.0?string offset_
 ```php
 $messagesForumTopics = $client->messages->getForumTopics(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	q : 'fz0ygX9v5PpFmD4b',
+	q : 'Z5jhrvbtMedPaSsF',
 	offset_date : 0,
 	offset_id : 0,
 	offset_topic : 0,
-	limit : 38,
+	limit : 25,
 );
 ```

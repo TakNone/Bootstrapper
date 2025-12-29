@@ -31,21 +31,21 @@ updateBotChatBoost#904dd49c peer:Peer boost:Boost qts:int = Update;
 ```php
 $update = $client->updateBotChatBoost(
 	peer : $client->peerUser(
-		user_id : -8546341895594541645,
+		user_id : 1059153980413607545,
 	),
 	boost : $client->boost(
 		gift : true,
 		giveaway : true,
 		unclaimed : true,
-		id : 'WQlvjrEwDcXb5keT',
-		user_id : -4860798621146520219,
-		giveaway_msg_id : 36,
-		date : 85,
-		expires : 50,
-		used_gift_slug : 'sVx4dHr1Nv6UtQlY',
-		multiplier : 51,
-		stars : -5748513299061335495,
+		id : 'TnJVygQIiFaR9cft',
+		user_id : -1573127563108643407,
+		giveaway_msg_id : 33,
+		date : 30,
+		expires : 43,
+		used_gift_slug : '7iBN2DUMgakmlTwR',
+		multiplier : 18,
+		stars : 3837354932143710548,
 	),
-	qts : 14,
+	qts : 38,
 );
 ```

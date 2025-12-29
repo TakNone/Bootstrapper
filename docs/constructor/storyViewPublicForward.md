@@ -14,7 +14,7 @@ storyViewPublicForward#9083670b flags:# blocked:flags.0?true blocked_my_stories_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **blocked** | [`flags.0?true`](type/true) | Whether we have completely blocked this user, including from viewing more of our stories |
 | **blocked_my_stories_from** | [`flags.1?true`](type/true) | Whether we have blocked this user from viewing more of our stories |
 | <mark>message</mark> | [`Message`](type/Message) | The message with the forwarded story |
@@ -34,9 +34,9 @@ $storyView = $client->storyViewPublicForward(
 	blocked : true,
 	blocked_my_stories_from : true,
 	message : $client->messageEmpty(
-		id : 64,
+		id : 42,
 		peer_id : $client->peerUser(
-			user_id : 4101006977333099888,
+			user_id : -1406349448705212257,
 		),
 	),
 );

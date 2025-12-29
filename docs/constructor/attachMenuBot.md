@@ -14,7 +14,7 @@ attachMenuBot#d90d8dfe flags:# inactive:flags.0?true has_settings:flags.1?true r
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **inactive** | [`flags.0?true`](type/true) | If set, before launching the mini app the client should ask the user to add the mini app to the attachment/side menu, and only if the user accepts, after invoking messages.toggleBotInAttachMenu the app should be opened |
 | **has_settings** | [`flags.1?true`](type/true) | Deprecated flag, can be ignored |
 | **request_write_access** | [`flags.2?true`](type/true) | Whether the bot would like to send messages to the user |
@@ -44,8 +44,8 @@ $attachMenuBot = $client->attachMenuBot(
 	show_in_attach_menu : true,
 	show_in_side_menu : true,
 	side_menu_disclaimer_needed : true,
-	bot_id : -1239033977513587529,
-	short_name : 'jfVN7a4Y3lQ9R5uE',
+	bot_id : -6702770794389025433,
+	short_name : 'Vgx7zMH1ZSCrc6iY',
 	peer_types : array(
 		$client->attachMenuPeerTypeSameBotPM(),
 		$client->attachMenuPeerTypeBotPM(),
@@ -55,14 +55,14 @@ $attachMenuBot = $client->attachMenuBot(
 	),
 	icons : array(
 		$client->attachMenuBotIcon(
-			name : 'obMVJGUTYHOzLjra',
+			name : 'vgP7FhB4Cuork0WI',
 			icon : $client->documentEmpty(
-				id : -8493056772894828825,
+				id : -3766052974998341203,
 			),
 			colors : array(
 				$client->attachMenuBotIconColor(
-					name : 'kCw8GacpYinE5vmZ',
-					color : 25,
+					name : '7QRY0AzEZKlLmoU2',
+					color : 94,
 				),
 			),
 		),

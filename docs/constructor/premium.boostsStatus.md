@@ -14,7 +14,7 @@ premium.boostsStatus#4959427a flags:# my_boost:flags.2?true level:int current_le
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **my_boost** | [`flags.2?true`](type/true) | Whether we're currently boosting this channel/supergroup, my_boost_slots will also be set |
 | <mark>level</mark> | [`int`](type/int) | The current boost level of the channel/supergroup |
 | <mark>current_level_boosts</mark> | [`int`](type/int) | The number of boosts acquired so far in the current level |
@@ -39,31 +39,31 @@ premium.boostsStatus#4959427a flags:# my_boost:flags.2?true level:int current_le
 ```php
 $premiumBoostsStatus = $client->premium->boostsStatus(
 	my_boost : true,
-	level : 43,
-	current_level_boosts : 16,
-	boosts : 15,
-	gift_boosts : 41,
-	next_level_boosts : 70,
+	level : 65,
+	current_level_boosts : 95,
+	boosts : 42,
+	gift_boosts : 90,
+	next_level_boosts : 76,
 	premium_audience : $client->statsPercentValue(
-		part : 215296.1875,
-		total : -1255320.6904296875,
+		part : 423777.1767578125,
+		total : 1119820.2744140625,
 	),
 	boost_url : 'https://docs.liveproto.dev',
 	prepaid_giveaways : array(
 		$client->prepaidGiveaway(
-			id : -3508003276833335856,
-			months : 3,
-			quantity : 61,
-			date : 98,
+			id : 7233340844217479632,
+			months : 76,
+			quantity : 45,
+			date : 76,
 		),
 		$client->prepaidStarsGiveaway(
-			id : -4877639439331469840,
-			stars : 3181367134372286498,
-			quantity : 58,
-			boosts : 69,
-			date : 42,
+			id : 7691650783910163073,
+			stars : -7722649953673442456,
+			quantity : 68,
+			boosts : 24,
+			date : 23,
 		),
 	),
-	my_boost_slots : array(89),
+	my_boost_slots : array(13),
 );
 ```

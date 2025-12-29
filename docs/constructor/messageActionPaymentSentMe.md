@@ -14,7 +14,7 @@ messageActionPaymentSentMe#ffa00ccc flags:# recurring_init:flags.2?true recurrin
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **recurring_init** | [`flags.2?true`](type/true) | Whether this is the first payment of a recurring payment we just subscribed to |
 | **recurring_used** | [`flags.3?true`](type/true) | Whether this payment is part of a recurring payment |
 | <mark>currency</mark> | [`string`](type/string) | Three-letter ISO 4217 currency code, or XTR for Telegram Stars |
@@ -39,27 +39,27 @@ messageActionPaymentSentMe#ffa00ccc flags:# recurring_init:flags.2?true recurrin
 $messageAction = $client->messageActionPaymentSentMe(
 	recurring_init : true,
 	recurring_used : true,
-	currency : 'kyBoUJe6tLnr2mF1',
-	total_amount : 2151091312182974110,
+	currency : '48IbpJWGYLtsUalA',
+	total_amount : 823096899087755717,
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	info : $client->paymentRequestedInfo(
-		name : 'VUGoJb5A08glj6EB',
+		name : 'ljKChET1pgBGZD8u',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : 'i3zHsbgJ5EevSoqd',
-			street_line2 : 'scyAxKWEOwMUDVH8',
-			city : 'uEemlp4B92nPNYUQ',
-			state : 'esE1wyBWMuPmgQL3',
-			country_iso2 : 'AwI71TQE8aHMjdJc',
-			post_code : 'CXa0iYboDhdtk13g',
+			street_line1 : '6HCOU4S57AqlQb9K',
+			street_line2 : '8pZPsHInOdFKohTw',
+			city : 'yZBU68SQ3eTG5Ebi',
+			state : 'VUphGgMuNLHt2aYc',
+			country_iso2 : 'wku8ge5hNGLCYZmd',
+			post_code : 'oTLGb4Y5JcZhqWCx',
 		),
 	),
-	shipping_option_id : 'p7s9mTcGoU1zeudK',
+	shipping_option_id : 'KVIzUCMq5QNToEwj',
 	charge : $client->paymentCharge(
-		id : 'mKn0Frq5PbW27NsS',
-		provider_charge_id : 'ryjoOhVSsMg6xcmN',
+		id : 'GYJXbmj0CUzxMuvQ',
+		provider_charge_id : 'OX9U2gQACrp5Pw0F',
 	),
-	subscription_until_date : 48,
+	subscription_until_date : 85,
 );
 ```

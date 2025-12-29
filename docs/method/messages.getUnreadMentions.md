@@ -14,7 +14,7 @@ messages.getUnreadMentions#f107e790 flags:# peer:InputPeer top_msg_id:flags.0?in
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer where to look for mentions |
 | **top_msg_id** | [`flags.0?int`](type/int) | If set, considers only messages within the specified forum topic |
 | <mark>offset_id</mark> | [`int`](type/int) | Offsets for pagination, for more info click here |
@@ -47,11 +47,11 @@ messages.getUnreadMentions#f107e790 flags:# peer:InputPeer top_msg_id:flags.0?in
 ```php
 $messagesMessages = $client->messages->getUnreadMentions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 27,
+	top_msg_id : 65,
 	offset_id : 0,
-	add_offset : 55,
-	limit : 27,
-	max_id : 8,
-	min_id : 69,
+	add_offset : 79,
+	limit : 46,
+	max_id : 91,
+	min_id : 28,
 );
 ```

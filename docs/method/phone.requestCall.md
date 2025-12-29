@@ -14,7 +14,7 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **video** | [`flags.0?true`](type/true) | Whether to start a video call |
 | <mark>user_id</mark> | [`InputUser`](type/InputUser) | Destination of the phone call |
 | <mark>random_id</mark> | [`int`](type/int) | Random ID to avoid resending the same object |
@@ -49,14 +49,14 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 $phonePhoneCall = $client->phone->requestCall(
 	video : true,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	random_id : 8,
+	random_id : 32,
 	g_a_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 3,
-		max_layer : 93,
-		library_versions : array('oFuskpj5Y6lTJ3rv'),
+		min_layer : 59,
+		max_layer : 84,
+		library_versions : array('9nLJgvoEh8SUXdC2'),
 	),
 );
 ```

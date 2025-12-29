@@ -28,6 +28,6 @@ messageActionChatMigrateTo#e1037f92 channel_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatMigrateTo(
-	channel_id : -7763140084625635665,
+	channel_id : 4619602400006399811,
 );
 ```

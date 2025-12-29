@@ -15,7 +15,7 @@ messages.historyImportParsed#5e0fb7b9 flags:# pm:flags.0?true group:flags.1?true
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pm** | [`flags.0?true`](type/true) | The chat export file was generated from a private chat |
 | **group** | [`flags.1?true`](type/true) | The chat export file was generated from a group chat |
 | **title** | [`flags.2?string`](type/string) | Title of the chat |
@@ -34,6 +34,6 @@ messages.historyImportParsed#5e0fb7b9 flags:# pm:flags.0?true group:flags.1?true
 $messagesHistoryImportParsed = $client->messages->historyImportParsed(
 	pm : true,
 	group : true,
-	title : '9g3reFcz1oTKiYBv',
+	title : '1T0gxY7v8Li6WHat',
 );
 ```

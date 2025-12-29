@@ -12,7 +12,7 @@ messages.editForumTopic#cecc1134 flags:# peer:InputPeer topic_id:int title:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
 | <mark>topic_id</mark> | [`int`](type/int) | NOTHING |
 | **title** | [`flags.0?string`](type/string) | NOTHING |
@@ -33,9 +33,9 @@ messages.editForumTopic#cecc1134 flags:# peer:InputPeer topic_id:int title:flags
 ```php
 $updates = $client->messages->editForumTopic(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	topic_id : 46,
-	title : 'V4flXWeO9SLwqDz3',
-	icon_emoji_id : 1282068250343703602,
+	topic_id : 31,
+	title : 'r9WMY6jf1sNdpXZb',
+	icon_emoji_id : 2617313286242071340,
 	closed : true,
 	hidden : true,
 );

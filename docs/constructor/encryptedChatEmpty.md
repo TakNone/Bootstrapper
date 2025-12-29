@@ -28,6 +28,6 @@ encryptedChatEmpty#ab7ec0a0 id:int = EncryptedChat;
 
 ```php
 $encryptedChat = $client->encryptedChatEmpty(
-	id : 92,
+	id : 74,
 );
 ```

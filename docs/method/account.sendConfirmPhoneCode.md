@@ -37,7 +37,7 @@ account.sendConfirmPhoneCode#1b3faa88 hash:string settings:CodeSettings = auth.S
 
 ```php
 $authSentCode = $client->account->sendConfirmPhoneCode(
-	hash : 'Cag5HtFGwcXx728S',
+	hash : 'L0CWnJaVyZMq1gKP',
 	settings : $client->codeSettings(
 		allow_flashcall : true,
 		current_number : true,
@@ -46,8 +46,8 @@ $authSentCode = $client->account->sendConfirmPhoneCode(
 		allow_firebase : true,
 		unknown_number : true,
 		logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-		token : 'DIbsJuTrtcVphgQo',
-		app_sandbox : true,
+		token : 'd3PNCTSU1RGz2Mle',
+		app_sandbox : false,
 	),
 );
 ```

@@ -31,7 +31,7 @@ $richText = $client->textConcat(
 	texts : array(
 		$client->textEmpty(),
 		$client->textPlain(
-			text : 'wyZoRDtd8cvn5BLH',
+			text : 'R7lOIuvBmno2qc6y',
 		),
 		$client->textBold(
 			text : $client->textEmpty(),
@@ -51,7 +51,7 @@ $richText = $client->textConcat(
 		$client->textUrl(
 			text : $client->textEmpty(),
 			url : 'https://docs.liveproto.dev',
-			webpage_id : 2639089822354393579,
+			webpage_id : -7277939660199302157,
 		),
 		$client->textEmail(
 			text : $client->textEmpty(),
@@ -61,7 +61,7 @@ $richText = $client->textConcat(
 			texts : array(
 				$client->textEmpty(),
 				$client->textPlain(
-					text : 'bpHCP7N2MwKYc5D6',
+					text : 'SLuTZQ0JaFRqVC16',
 				),
 				$client->textBold(
 					text : $client->textEmpty(),
@@ -81,7 +81,7 @@ $richText = $client->textConcat(
 				$client->textUrl(
 					text : $client->textEmpty(),
 					url : 'https://docs.liveproto.dev',
-					webpage_id : 3217971394674878835,
+					webpage_id : 3989222654697432279,
 				),
 				$client->textEmail(
 					text : $client->textEmpty(),
@@ -91,7 +91,7 @@ $richText = $client->textConcat(
 					texts : array(
 						$client->textEmpty(),
 						$client->textPlain(
-							text : 'KcYwBT2QbWguHPtl',
+							text : 'HS1IFUrt5hCQfb69',
 						),
 						$client->textBold(
 							text : $client->textEmpty(...),
@@ -111,7 +111,7 @@ $richText = $client->textConcat(
 						$client->textUrl(
 							text : $client->textEmpty(...),
 							url : 'https://docs.liveproto.dev',
-							webpage_id : 410017175363330667,
+							webpage_id : -6757480473069334248,
 						),
 						$client->textEmail(
 							text : $client->textEmpty(...),
@@ -151,13 +151,13 @@ $richText = $client->textConcat(
 							phone : '+1234567890',
 						),
 						$client->textImage(
-							document_id : 5834050737311047376,
-							w : 62,
-							h : 29,
+							document_id : -2988683419146708906,
+							w : 63,
+							h : 36,
 						),
 						$client->textAnchor(
 							text : $client->textEmpty(...),
-							name : 'tcfmIRwAdLBKsYlj',
+							name : 'mpjbqPlVrzFhgKdo',
 						),
 					),
 				),
@@ -175,13 +175,13 @@ $richText = $client->textConcat(
 					phone : '+1234567890',
 				),
 				$client->textImage(
-					document_id : -2452688076486463207,
-					w : 42,
-					h : 4,
+					document_id : 6831261898389024058,
+					w : 10,
+					h : 34,
 				),
 				$client->textAnchor(
 					text : $client->textEmpty(),
-					name : 'g7PODpqL16AyCNdk',
+					name : 'XAzsF9dbqEgjn1Tr',
 				),
 			),
 		),
@@ -199,13 +199,13 @@ $richText = $client->textConcat(
 			phone : '+1234567890',
 		),
 		$client->textImage(
-			document_id : 5196518297672441878,
-			w : 42,
-			h : 62,
+			document_id : 3661885383032339556,
+			w : 66,
+			h : 17,
 		),
 		$client->textAnchor(
 			text : $client->textEmpty(),
-			name : 'wczHuNSt1gKlOMji',
+			name : 'qCv6eyurxTObBZXF',
 		),
 	),
 );

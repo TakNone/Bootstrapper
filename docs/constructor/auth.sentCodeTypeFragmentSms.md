@@ -30,6 +30,6 @@ auth.sentCodeTypeFragmentSms#d9565c39 url:string length:int = auth.SentCodeType;
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeFragmentSms(
 	url : 'https://docs.liveproto.dev',
-	length : 42,
+	length : 27,
 );
 ```

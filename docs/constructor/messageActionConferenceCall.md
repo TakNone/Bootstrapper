@@ -14,7 +14,7 @@ messageActionConferenceCall#2ffe2f7a flags:# missed:flags.0?true active:flags.1?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **missed** | [`flags.0?true`](type/true) | Whether the conference call has ended and the user hasn't joined |
 | **active** | [`flags.1?true`](type/true) | Whether the user is currently in the conference call |
 | **video** | [`flags.4?true`](type/true) | Whether this is a video conference call |
@@ -37,17 +37,17 @@ $messageAction = $client->messageActionConferenceCall(
 	missed : true,
 	active : true,
 	video : true,
-	call_id : -4575163938616923670,
-	duration : 24,
+	call_id : -776009455063725208,
+	duration : 18,
 	other_participants : array(
 		$client->peerUser(
-			user_id : -8592353759798021548,
+			user_id : -6381038778480023078,
 		),
 		$client->peerChat(
-			chat_id : 5719551257038589248,
+			chat_id : -150012499798762753,
 		),
 		$client->peerChannel(
-			channel_id : 8350012952807534886,
+			channel_id : -8281377513086451397,
 		),
 	),
 );

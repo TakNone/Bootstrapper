@@ -30,8 +30,8 @@ updateGeoLiveViewed#871fb939 peer:Peer msg_id:int = Update;
 ```php
 $update = $client->updateGeoLiveViewed(
 	peer : $client->peerUser(
-		user_id : 4671505755443669366,
+		user_id : -7749361978050187012,
 	),
-	msg_id : 32,
+	msg_id : 82,
 );
 ```

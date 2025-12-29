@@ -14,7 +14,7 @@ channels.updateColor#d8aa3671 flags:# for_profile:flags.1?true channel:InputChan
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **for_profile** | [`flags.1?true`](type/true) | Whether to change the accent color emoji pattern of the profile page; otherwise, the accent color and emoji pattern of messages will be changed. Channels can change both message and profile palettes; supergroups can only change the profile palette, of course after reaching the appropriate boost level |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | Channel whose accent color should be changed |
 | **color** | [`flags.2?int`](type/int) | ID of the accent color palette » to use (not RGB24, see here » for more info); if not set, the default palette is used |
@@ -43,7 +43,7 @@ channels.updateColor#d8aa3671 flags:# for_profile:flags.1?true channel:InputChan
 $updates = $client->channels->updateColor(
 	for_profile : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	color : 8,
-	background_emoji_id : 3490476497479853521,
+	color : 44,
+	background_emoji_id : 2513862097217021839,
 );
 ```

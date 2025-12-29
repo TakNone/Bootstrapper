@@ -15,7 +15,7 @@ channelParticipantsMentions#e04b5ceb flags:# q:flags.0?string top_msg_id:flags.1
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **q** | [`flags.0?string`](type/string) | Filter by user name or username |
 | **top_msg_id** | [`flags.1?int`](type/int) | Look only for users that posted in this thread |
 
@@ -31,7 +31,7 @@ channelParticipantsMentions#e04b5ceb flags:# q:flags.0?string top_msg_id:flags.1
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsMentions(
-	q : '9ijnGScI42oQMWYT',
-	top_msg_id : 3,
+	q : 'xqP9l7wTUVgXB8RI',
+	top_msg_id : 43,
 );
 ```

@@ -14,7 +14,7 @@ bots.updateStarRefProgram#778b5ab3 flags:# bot:InputUser commission_permille:int
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>bot</mark> | [`InputUser`](type/InputUser) | The bot |
 | <mark>commission_permille</mark> | [`int`](type/int) | The permille commission rate: it indicates the share of Telegram Stars received by affiliates for every transaction made by users they referred inside of the bot.    The minimum and maximum values for this parameter are contained in the starref_min_commission_permille and starref_max_commission_permille client configuration parameters.   Can be 0 to terminate the affiliate program.  Both the duration and the commission may only be raised after creation of the program: to lower them, the program must first be terminated and a new one created |
 | **duration_months** | [`flags.0?int`](type/int) | Indicates the duration of the affiliate program; if not set, there is no expiration date |
@@ -43,7 +43,7 @@ bots.updateStarRefProgram#778b5ab3 flags:# bot:InputUser commission_permille:int
 ```php
 $starRefProgram = $client->bots->updateStarRefProgram(
 	bot : $client->get_input_user(user : '@TakNone'),
-	commission_permille : 56,
-	duration_months : 63,
+	commission_permille : 16,
+	duration_months : 94,
 );
 ```

@@ -14,7 +14,7 @@ updatePinnedSavedDialogs#686c85a6 flags:# order:flags.0?Vector<DialogPeer> = Upd
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **order** | [`flags.0?Vector<DialogPeer>`](type/DialogPeer) | New order of pinned saved dialogs |
 
 ---
@@ -32,11 +32,11 @@ $update = $client->updatePinnedSavedDialogs(
 	order : array(
 		$client->dialogPeer(
 			peer : $client->peerUser(
-				user_id : -293845721305701989,
+				user_id : -1935702703947348594,
 			),
 		),
 		$client->dialogPeerFolder(
-			folder_id : 37,
+			folder_id : 7,
 		),
 	),
 );

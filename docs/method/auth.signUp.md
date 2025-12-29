@@ -14,7 +14,7 @@ auth.signUp#aac7b717 flags:# no_joined_notifications:flags.0?true phone_number:s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **no_joined_notifications** | [`flags.0?true`](type/true) | If set, users on Telegram that have already added phone_number to their contacts will not receive signup notifications about this user |
 | <mark>phone_number</mark> | [`string`](type/string) | Phone number in the international format |
 | <mark>phone_code_hash</mark> | [`string`](type/string) | SMS-message ID |

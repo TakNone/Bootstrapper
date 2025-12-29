@@ -14,7 +14,7 @@ inputBusinessBotRecipients#c4e5921e flags:# existing_chats:flags.0?true new_chat
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **existing_chats** | [`flags.0?true`](type/true) | Selects all existing private chats |
 | **new_chats** | [`flags.1?true`](type/true) | Selects all new private chats |
 | **contacts** | [`flags.2?true`](type/true) | Selects all private chats with contacts |

@@ -12,7 +12,7 @@ messages.sendGroupCallMessage#b1d11410 flags:# call:InputGroupCall random_id:lon
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
 | <mark>random_id</mark> | [`long`](type/long) | NOTHING |
 | <mark>message</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
@@ -32,106 +32,106 @@ messages.sendGroupCallMessage#b1d11410 flags:# call:InputGroupCall random_id:lon
 ```php
 $updates = $client->messages->sendGroupCallMessage(
 	call : $client->inputGroupCall(
-		id : -3656510607356265159,
-		access_hash : 7427504282863845379,
+		id : 3279533908133776768,
+		access_hash : -8213093910404867077,
 	),
-	random_id : -60184871113830811,
+	random_id : -50527950303006526,
 	message : $client->textWithEntities(
-		text : 'mIrJe3a8Yvhn5QlU',
+		text : 'EArub283PD7yjaS6',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 7,
+				length : 13,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 42,
+				length : 62,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 1,
+				length : 54,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 58,
+				length : 94,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 26,
+				length : 80,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 77,
+				length : 35,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 97,
+				length : 35,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 39,
+				length : 71,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 86,
+				length : 72,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 9,
-				language : 'BwJiaRseDvpQltcV',
+				length : 74,
+				language : 'EbjvIO1c4dCGDUYK',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 92,
+				length : 44,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 41,
-				user_id : 5999092860381214380,
+				length : 84,
+				user_id : -1062526132486016207,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 47,
+				length : 58,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 1,
+				length : 33,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 58,
+				length : 56,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 77,
+				length : 36,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 27,
+				length : 98,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 87,
+				length : 6,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 43,
+				length : 32,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 72,
-				document_id : 594149774329214929,
+				length : 17,
+				document_id : -1491241917350449402,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 70,
+				length : 47,
 			),
 		),
 	),
-	allow_paid_stars : 7127240051040806846,
+	allow_paid_stars : -4909363484508132560,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

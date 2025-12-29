@@ -44,6 +44,6 @@ channels.editLocation#58e63f6d channel:InputChannel geo_point:InputGeoPoint addr
 $bool = $client->channels->editLocation(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'KCzldIyhf4boP1NQ',
+	address : 'TGj2OiXBRvHqLboh',
 );
 ```

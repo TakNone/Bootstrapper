@@ -14,7 +14,7 @@ updateUserTyping#2a17bf5c flags:# user_id:long top_msg_id:flags.0?int action:Sen
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>user_id</mark> | [`long`](type/long) | User id |
 | **top_msg_id** | [`flags.0?int`](type/int) | NOTHING |
 | <mark>action</mark> | [`SendMessageAction`](type/SendMessageAction) | Action type |
@@ -31,8 +31,8 @@ updateUserTyping#2a17bf5c flags:# user_id:long top_msg_id:flags.0?int action:Sen
 
 ```php
 $update = $client->updateUserTyping(
-	user_id : -6165126814946157038,
-	top_msg_id : 73,
+	user_id : 1703399611089734241,
+	top_msg_id : 97,
 	action : $client->sendMessageTypingAction(),
 );
 ```

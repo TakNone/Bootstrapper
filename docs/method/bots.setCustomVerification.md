@@ -14,7 +14,7 @@ bots.setCustomVerification#8b89dfbd flags:# enabled:flags.1?true bot:flags.0?Inp
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **enabled** | [`flags.1?true`](type/true) | If set, adds the verification; otherwise removes verification |
 | **bot** | [`flags.0?InputUser`](type/InputUser) | Must not be set if invoked by a bot, must be set to the ID of an owned bot if invoked by a user |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The peer to verify |
@@ -45,6 +45,6 @@ $bool = $client->bots->setCustomVerification(
 	enabled : true,
 	bot : $client->get_input_user(user : '@TakNone'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	custom_description : 'MZy3uxG7z1ae2vFY',
+	custom_description : '20Hb3j9QOng4uxRL',
 );
 ```

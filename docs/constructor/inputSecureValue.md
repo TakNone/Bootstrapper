@@ -14,7 +14,7 @@ inputSecureValue#db21d0a7 flags:# type:SecureValueType data:flags.0?SecureData f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>type</mark> | [`SecureValueType`](type/SecureValueType) | Secure passport value type |
 | **data** | [`flags.0?SecureData`](type/SecureData) | Encrypted Telegram Passport element data |
 | **front_side** | [`flags.1?InputSecureFile`](type/InputSecureFile) | Encrypted passport file with the front side of the document |
@@ -43,50 +43,50 @@ $inputSecureValue = $client->inputSecureValue(
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	front_side : $client->inputSecureFileUploaded(
-		id : -6749475866245766545,
-		parts : 10,
+		id : 4808092822885792886,
+		parts : 82,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	reverse_side : $client->inputSecureFileUploaded(
-		id : 8458485545687034463,
-		parts : 80,
+		id : 5366006091498764856,
+		parts : 29,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	selfie : $client->inputSecureFileUploaded(
-		id : 5044539323773668411,
-		parts : 13,
+		id : 3605379334190505755,
+		parts : 9,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	translation : array(
 		$client->inputSecureFileUploaded(
-			id : -316025224299690843,
-			parts : 23,
+			id : 7256328873206226181,
+			parts : 45,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->inputSecureFile(
-			id : -3857772129292045621,
-			access_hash : 6264852870740604350,
+			id : 8572974042220902863,
+			access_hash : 7542633395824616260,
 		),
 	),
 	files : array(
 		$client->inputSecureFileUploaded(
-			id : 1326159036591770074,
-			parts : 62,
+			id : 5548686240398146092,
+			parts : 66,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->inputSecureFile(
-			id : 4556175963297493663,
-			access_hash : 1220880617605297728,
+			id : -1754480499381683281,
+			access_hash : -6716518342872668722,
 		),
 	),
 	plain_data : $client->securePlainPhone(

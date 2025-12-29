@@ -14,7 +14,7 @@ messages.setTyping#58943ee2 flags:# peer:InputPeer top_msg_id:flags.0?int action
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Target user or group |
 | **top_msg_id** | [`flags.0?int`](type/int) | Topic ID |
 | <mark>action</mark> | [`SendMessageAction`](type/SendMessageAction) | Type of action |
@@ -54,7 +54,7 @@ messages.setTyping#58943ee2 flags:# peer:InputPeer top_msg_id:flags.0?int action
 ```php
 $bool = $client->messages->setTyping(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 33,
+	top_msg_id : 20,
 	action : $client->sendMessageTypingAction(),
 );
 ```

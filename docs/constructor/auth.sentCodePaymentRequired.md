@@ -33,11 +33,11 @@ auth.sentCodePaymentRequired#e0955a3c store_product:string phone_code_hash:strin
 
 ```php
 $authSentCode = $client->auth->sentCodePaymentRequired(
-	store_product : '7DcuTzQKUx9sRA4j',
+	store_product : 'a5MHKelGku3fdS4j',
 	phone_code_hash : '+1234567890',
 	support_email_address : 'reply@liveproto.dev',
 	support_email_subject : 'reply@liveproto.dev',
-	currency : 't8usCxj0BVf91OAN',
-	amount : -3456732134824797489,
+	currency : 'RG0E1fTh2Z6dbvjX',
+	amount : 8924776807268679209,
 );
 ```

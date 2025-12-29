@@ -28,6 +28,6 @@ messages.readMessageContents#36a73f77 id:Vector<int> = messages.AffectedMessages
 
 ```php
 $messagesAffectedMessages = $client->messages->readMessageContents(
-	id : array(69),
+	id : array(11),
 );
 ```

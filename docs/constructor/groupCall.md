@@ -14,7 +14,7 @@ groupCall#efb2b617 flags:# join_muted:flags.1?true can_change_join_muted:flags.2
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **join_muted** | [`flags.1?true`](type/true) | Whether the user should be muted upon joining the call |
 | **can_change_join_muted** | [`flags.2?true`](type/true) | Whether the current user can change the value of the join_muted flag using phone.toggleGroupCallSettings |
 | **join_date_asc** | [`flags.6?true`](type/true) | Specifies the ordering to use when locally sorting by date and displaying in the UI group call participants |
@@ -67,20 +67,20 @@ $groupCall = $client->groupCall(
 	messages_enabled : true,
 	can_change_messages_enabled : true,
 	min : true,
-	id : 1809774444885276901,
-	access_hash : -1234295537133695203,
-	participants_count : 69,
-	title : 'lr43LFB15WcaYHhf',
-	stream_dc_id : 9,
-	record_start_date : 53,
-	schedule_date : 58,
-	unmuted_video_count : 49,
-	unmuted_video_limit : 98,
-	version : 90,
-	invite_link : 'w4Olvs3JnYh0bGzR',
-	send_paid_messages_stars : 2628088067240511956,
+	id : 5565512214618870974,
+	access_hash : 1486469305474643162,
+	participants_count : 87,
+	title : 'D0zCYsEvTgRbkaQn',
+	stream_dc_id : 33,
+	record_start_date : 10,
+	schedule_date : 9,
+	unmuted_video_count : 33,
+	unmuted_video_limit : 57,
+	version : 41,
+	invite_link : 'qnwabszg7yuK9XkB',
+	send_paid_messages_stars : -3902915705729856172,
 	default_send_as : $client->peerUser(
-		user_id : 98146727293315131,
+		user_id : -1833472284901914077,
 	),
 );
 ```

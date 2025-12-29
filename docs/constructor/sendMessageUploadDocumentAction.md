@@ -28,6 +28,6 @@ sendMessageUploadDocumentAction#aa0cd9e4 progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageUploadDocumentAction(
-	progress : 88,
+	progress : 12,
 );
 ```

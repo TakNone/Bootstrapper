@@ -14,7 +14,7 @@ messages.sendReaction#d30d78d4 flags:# big:flags.1?true add_to_recent:flags.2?tr
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **big** | [`flags.1?true`](type/true) | Whether a bigger and longer reaction should be shown |
 | **add_to_recent** | [`flags.2?true`](type/true) | Whether to add this reaction to the recent reactions list » |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer |
@@ -58,14 +58,14 @@ $updates = $client->messages->sendReaction(
 	big : true,
 	add_to_recent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 4,
+	msg_id : 39,
 	reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'QUIxgViOSK8Yd0tH',
+			emoticon : 'l10mQ9p5gbSPH2Rj',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -6257154365448234597,
+			document_id : -4857823669062761099,
 		),
 		$client->reactionPaid(),
 	),

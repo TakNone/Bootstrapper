@@ -15,7 +15,7 @@ wallPaper#a437c3ed id:long flags:# creator:flags.0?true default:flags.1?true pat
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>id</mark> | [`long`](type/long) | Identifier |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **creator** | [`flags.0?true`](type/true) | Whether we created this wallpaper |
 | **default** | [`flags.1?true`](type/true) | Whether this is the default wallpaper |
 | **pattern** | [`flags.3?true`](type/true) | Whether this is a pattern wallpaper » |
@@ -37,26 +37,26 @@ wallPaper#a437c3ed id:long flags:# creator:flags.0?true default:flags.1?true pat
 
 ```php
 $wallPaper = $client->wallPaper(
-	id : -3437512400677569194,
+	id : 999504553908704937,
 	creator : true,
 	default : true,
 	pattern : true,
 	dark : true,
-	access_hash : 7628487865199533060,
-	slug : 'gyrTsMXjb34Wt71F',
+	access_hash : 8457018895278096254,
+	slug : 'G1jgDlxHkBAqcU0Y',
 	document : $client->documentEmpty(
-		id : -4851590993644479477,
+		id : 8123557917270599503,
 	),
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 73,
-		second_background_color : 33,
-		third_background_color : 26,
-		fourth_background_color : 22,
-		intensity : 75,
-		rotation : 89,
-		emoticon : 'gkNWPMm8Y7fh9iBA',
+		background_color : 5,
+		second_background_color : 10,
+		third_background_color : 86,
+		fourth_background_color : 32,
+		intensity : 88,
+		rotation : 93,
+		emoticon : 'cIb7SY4t6jVCXKkR',
 	),
 );
 ```

@@ -30,6 +30,6 @@ messageEntityUnderline#9c4e7e8b offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityUnderline(
 	offset : 0,
-	length : 42,
+	length : 98,
 );
 ```

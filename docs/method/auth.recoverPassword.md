@@ -14,7 +14,7 @@ auth.recoverPassword#37096c70 flags:# code:string new_settings:flags.0?account.P
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>code</mark> | [`string`](type/string) | Code received via email |
 | **new_settings** | [`flags.0?account.PasswordInputSettings`](type/account.PasswordInputSettings) | New password |
 
@@ -39,16 +39,16 @@ auth.recoverPassword#37096c70 flags:# code:string new_settings:flags.0?account.P
 
 ```php
 $authAuthorization = $client->auth->recoverPassword(
-	code : '2EDtNdjRpOAVBrMh',
+	code : 'jWDR82g4XyZzskeK',
 	new_settings : $client->account->passwordInputSettings(
 		new_algo : $client->passwordKdfAlgoUnknown(),
 		new_password_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		hint : '9KaNlzMvqyLek7nW',
+		hint : 'QLKzyPCOAUuV907q',
 		email : 'reply@liveproto.dev',
 		new_secure_settings : $client->secureSecretSettings(
 			secure_algo : $client->securePasswordKdfAlgoUnknown(),
 			secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			secure_secret_id : -4864742801107673743,
+			secure_secret_id : 5130432481379784213,
 		),
 	),
 );

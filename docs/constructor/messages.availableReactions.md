@@ -34,28 +34,28 @@ $messagesAvailableReactions = $client->messages->availableReactions(
 		$client->availableReaction(
 			inactive : true,
 			premium : true,
-			reaction : 'ScGvOIHEfP2Jd0D5',
-			title : 'yxP9q4dAGcT1YeEC',
+			reaction : 'yNXhKdgBki1xMs0v',
+			title : 'PoIdKWc9LVuZsrbe',
 			static_icon : $client->documentEmpty(
-				id : 6744396153338229711,
+				id : -6363149393079083912,
 			),
 			appear_animation : $client->documentEmpty(
-				id : 1046799641416748372,
+				id : -3400394470744285751,
 			),
 			select_animation : $client->documentEmpty(
-				id : 4742559026189381337,
+				id : -6220263245339700737,
 			),
 			activate_animation : $client->documentEmpty(
-				id : 756124268698875226,
+				id : 8493534090111302699,
 			),
 			effect_animation : $client->documentEmpty(
-				id : -7398570003535571989,
+				id : -6906495407539541087,
 			),
 			around_animation : $client->documentEmpty(
-				id : -4668043785454162997,
+				id : 4996062805237912430,
 			),
 			center_icon : $client->documentEmpty(
-				id : 3213717480242344187,
+				id : -8543988115640101731,
 			),
 		),
 	),

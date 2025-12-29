@@ -14,7 +14,7 @@ account.updateColor#684d214e flags:# for_profile:flags.1?true color:flags.2?Peer
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **for_profile** | [`flags.1?true`](type/true) | Whether to change the accent color emoji pattern of the profile page; otherwise, the accent color and emoji pattern of messages will be changed |
 | **color** | [`flags.2?PeerColor`](type/PeerColor) | ID of the accent color palette » to use (not RGB24, see here » for more info) |
 
@@ -42,8 +42,8 @@ account.updateColor#684d214e flags:# for_profile:flags.1?true color:flags.2?Peer
 $bool = $client->account->updateColor(
 	for_profile : true,
 	color : $client->peerColor(
-		color : 61,
-		background_emoji_id : 2286188900663694454,
+		color : 58,
+		background_emoji_id : -5249224526987493752,
 	),
 );
 ```

@@ -40,8 +40,8 @@ stories.getAlbumStories#ac806d61 peer:InputPeer album_id:int offset:int limit:in
 ```php
 $storiesStories = $client->stories->getAlbumStories(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	album_id : 46,
+	album_id : 58,
 	offset : 0,
-	limit : 65,
+	limit : 87,
 );
 ```

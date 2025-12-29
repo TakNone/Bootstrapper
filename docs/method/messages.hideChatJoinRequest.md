@@ -14,7 +14,7 @@ messages.hideChatJoinRequest#7fe7e815 flags:# approved:flags.0?true peer:InputPe
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **approved** | [`flags.0?true`](type/true) | Whether to dismiss or approve the chat join request » |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The chat or channel |
 | <mark>user_id</mark> | [`InputUser`](type/InputUser) | The user whose join request » should be dismissed or approved |

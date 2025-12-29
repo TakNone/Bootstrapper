@@ -14,7 +14,7 @@ messageActionGiveawayLaunch#a80f51e4 flags:# stars:flags.0?long = MessageAction;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **stars** | [`flags.0?long`](type/long) | For Telegram Star giveaways, the total number of Telegram Stars being given away |
 
 ---
@@ -29,6 +29,6 @@ messageActionGiveawayLaunch#a80f51e4 flags:# stars:flags.0?long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionGiveawayLaunch(
-	stars : -7741713653264322535,
+	stars : -5886529873135524757,
 );
 ```

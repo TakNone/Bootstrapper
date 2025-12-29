@@ -14,7 +14,7 @@ stories.getStoryReactionsList#b9b2881f flags:# forwards_first:flags.2?true peer:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **forwards_first** | [`flags.2?true`](type/true) | If set, returns forwards and reposts first, then reactions, then other views; otherwise returns interactions sorted just by interaction date |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Channel |
 | <mark>id</mark> | [`int`](type/int) | Story ID |
@@ -44,9 +44,9 @@ stories.getStoryReactionsList#b9b2881f flags:# forwards_first:flags.2?true peer:
 $storiesStoryReactionsList = $client->stories->getStoryReactionsList(
 	forwards_first : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 34,
+	id : 24,
 	reaction : $client->reactionEmpty(),
-	offset : '8SYuPBU6TkiRvapN',
-	limit : 60,
+	offset : 'HhFG1b7VItl4Cqzy',
+	limit : 74,
 );
 ```

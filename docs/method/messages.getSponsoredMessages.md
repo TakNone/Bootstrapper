@@ -14,7 +14,7 @@ messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The currently open channel/bot |
 | **msg_id** | [`flags.0?int`](type/int) | Must be set when fetching sponsored messages to show on channel videos » |
 
@@ -40,6 +40,6 @@ messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int
 ```php
 $messagesSponsoredMessages = $client->messages->getSponsoredMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 58,
+	msg_id : 20,
 );
 ```

@@ -26,6 +26,6 @@ messageActionTTLChange#55555552 ttl:int = MessageAction;
 
 ```php
 $messageAction = $client->messageActionTTLChange(
-	ttl : 69,
+	ttl : 89,
 );
 ```

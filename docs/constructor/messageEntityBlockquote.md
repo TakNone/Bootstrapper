@@ -14,7 +14,7 @@ messageEntityBlockquote#f1ccaaac flags:# collapsed:flags.0?true offset:int lengt
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **collapsed** | [`flags.0?true`](type/true) | Whether the quote is collapsed by default |
 | <mark>offset</mark> | [`int`](type/int) | Offset of message entity within message (in UTF-16 code units) |
 | <mark>length</mark> | [`int`](type/int) | Length of message entity within message (in UTF-16 code units) |
@@ -33,6 +33,6 @@ messageEntityBlockquote#f1ccaaac flags:# collapsed:flags.0?true offset:int lengt
 $messageEntity = $client->messageEntityBlockquote(
 	collapsed : true,
 	offset : 0,
-	length : 53,
+	length : 34,
 );
 ```

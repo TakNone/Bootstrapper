@@ -30,8 +30,8 @@ peerBlocked#e8fd8014 peer_id:Peer date:int = PeerBlocked;
 ```php
 $peerBlocked = $client->peerBlocked(
 	peer_id : $client->peerUser(
-		user_id : 5282727346172779183,
+		user_id : -5485162368888105606,
 	),
-	date : 62,
+	date : 12,
 );
 ```

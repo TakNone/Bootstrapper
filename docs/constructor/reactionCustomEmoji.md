@@ -28,6 +28,6 @@ reactionCustomEmoji#8935fc73 document_id:long = Reaction;
 
 ```php
 $reaction = $client->reactionCustomEmoji(
-	document_id : 6046073008078669833,
+	document_id : -4824684320333302551,
 );
 ```

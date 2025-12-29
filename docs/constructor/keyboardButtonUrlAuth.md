@@ -14,7 +14,7 @@ keyboardButtonUrlAuth#10b78d29 flags:# text:string fwd_text:flags.0?string url:s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>text</mark> | [`string`](type/string) | Button label |
 | **fwd_text** | [`flags.0?string`](type/string) | New text of the button in forwarded messages |
 | <mark>url</mark> | [`string`](type/string) | An HTTP URL to be opened with user authorization data added to the query string when the button is pressed. If the user refuses to provide authorization data, the original URL without information about the user will be opened. The data added is the same as described in Receiving authorization data.NOTE: Services must always check the hash of the received data to verify the authentication and the integrity of the data as described in Checking authorization |
@@ -32,9 +32,9 @@ keyboardButtonUrlAuth#10b78d29 flags:# text:string fwd_text:flags.0?string url:s
 
 ```php
 $keyboardButton = $client->keyboardButtonUrlAuth(
-	text : 'iKTep3nLbXCyJU9l',
-	fwd_text : 'c9e3oTqXfQtN0Iz5',
+	text : 'zVbr4NtwvKa2ihLG',
+	fwd_text : '3R7dD2OF0CgGwKTj',
 	url : 'https://docs.liveproto.dev',
-	button_id : 57,
+	button_id : 30,
 );
 ```

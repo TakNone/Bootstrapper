@@ -30,8 +30,8 @@ inputDocument#1abfb575 id:long access_hash:long file_reference:bytes = InputDocu
 
 ```php
 $inputDocument = $client->inputDocument(
-	id : -8219330591482371599,
-	access_hash : -7007331131317761044,
+	id : -4137391714998260982,
+	access_hash : -1731339304034756403,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

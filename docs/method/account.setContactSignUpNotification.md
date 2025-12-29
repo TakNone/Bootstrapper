@@ -28,6 +28,6 @@ account.setContactSignUpNotification#cff43f61 silent:Bool = Bool;
 
 ```php
 $bool = $client->account->setContactSignUpNotification(
-	silent : true,
+	silent : false,
 );
 ```

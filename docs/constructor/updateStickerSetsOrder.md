@@ -14,7 +14,7 @@ updateStickerSetsOrder#bb2d201 flags:# masks:flags.0?true emojis:flags.1?true or
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **masks** | [`flags.0?true`](type/true) | Whether the updated stickers are mask stickers |
 | **emojis** | [`flags.1?true`](type/true) | Whether the updated stickers are custom emoji stickers |
 | <mark>order</mark> | [`Vector<long>`](type/long) | New sticker order by sticker ID |
@@ -33,6 +33,6 @@ updateStickerSetsOrder#bb2d201 flags:# masks:flags.0?true emojis:flags.1?true or
 $update = $client->updateStickerSetsOrder(
 	masks : true,
 	emojis : true,
-	order : array(-2545147293933066826),
+	order : array(-3500891885144553704),
 );
 ```

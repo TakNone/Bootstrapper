@@ -29,7 +29,7 @@ botMenuButton#c7b57ce6 text:string url:string = BotMenuButton;
 
 ```php
 $botMenuButton = $client->botMenuButton(
-	text : 'TG1hWi86f0vY7o3Q',
+	text : 'X684NebD9ALk3tcg',
 	url : 'https://docs.liveproto.dev',
 );
 ```

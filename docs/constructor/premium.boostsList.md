@@ -14,7 +14,7 @@ premium.boostsList#86f8613c flags:# count:int boosts:Vector<Boost> next_offset:f
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>count</mark> | [`int`](type/int) | Total number of results |
 | <mark>boosts</mark> | [`Vector<Boost>`](type/Boost) | Boosts |
 | **next_offset** | [`flags.0?string`](type/string) | Offset that can be used for pagination |
@@ -32,26 +32,26 @@ premium.boostsList#86f8613c flags:# count:int boosts:Vector<Boost> next_offset:f
 
 ```php
 $premiumBoostsList = $client->premium->boostsList(
-	count : 87,
+	count : 4,
 	boosts : array(
 		$client->boost(
 			gift : true,
 			giveaway : true,
 			unclaimed : true,
-			id : 'YOBtKlJipWES5k2V',
-			user_id : 7044695898913428524,
-			giveaway_msg_id : 86,
-			date : 67,
-			expires : 51,
-			used_gift_slug : 'eIAvmq1kwaxb6QOP',
-			multiplier : 72,
-			stars : 1406790391904603076,
+			id : 'yCwKmeHFnhQjER8D',
+			user_id : -4032958377699297276,
+			giveaway_msg_id : 5,
+			date : 50,
+			expires : 57,
+			used_gift_slug : 'jVuewKos65UFWQm3',
+			multiplier : 60,
+			stars : 4120815320561397890,
 		),
 	),
-	next_offset : 'MOtpaH9DxkJ3hU0R',
+	next_offset : '7kuZB249TVMmJKbD',
 	users : array(
 		$client->userEmpty(
-			id : 5823758744370238871,
+			id : 5360274861363813815,
 		),
 		$client->user(
 			self : true,
@@ -80,24 +80,24 @@ $premiumBoostsList = $client->premium->boostsList(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 3380916404753569630,
-			access_hash : -3900314698613867144,
+			id : -7239205722030222259,
+			access_hash : -3288923272043185182,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 75,
+			bot_info_version : 20,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'cIxXMmp4b8vaRdPi',
-					reason : 'vYcw07jnkMJdbZT6',
-					text : '52duNanv4YICF7wh',
+					platform : '0ehKVJZYLsXjzPp4',
+					reason : '9Ojk8AK3SwuhmsQZ',
+					text : '3BYfntud78xaSXcJ',
 				),
 			),
-			bot_inline_placeholder : '8ldTYeHct5bG1OPu',
-			lang_code : 'sSp39Heum2rgw58Z',
+			bot_inline_placeholder : 'DoyJPOZ7XAtxLWKv',
+			lang_code : 'Nh2zvJXYRnOdtlWy',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -108,19 +108,19 @@ $premiumBoostsList = $client->premium->boostsList(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 5,
+				max_id : 6,
 			),
 			color : $client->peerColor(
-				color : 53,
-				background_emoji_id : 5717621711419862517,
+				color : 70,
+				background_emoji_id : 4508830591026424185,
 			),
 			profile_color : $client->peerColor(
-				color : 35,
-				background_emoji_id : 2653130515764989620,
+				color : 87,
+				background_emoji_id : 6778285206031562889,
 			),
-			bot_active_users : 72,
-			bot_verification_icon : -8330972480020793263,
-			send_paid_messages_stars : 3924966290343758253,
+			bot_active_users : 74,
+			bot_verification_icon : -8885507853011232569,
+			send_paid_messages_stars : 1726719457050884449,
 		),
 	),
 );

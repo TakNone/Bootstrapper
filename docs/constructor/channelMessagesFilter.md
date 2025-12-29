@@ -14,7 +14,7 @@ channelMessagesFilter#cd77d957 flags:# exclude_new_messages:flags.1?true ranges:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **exclude_new_messages** | [`flags.1?true`](type/true) | Whether to exclude new messages from the search |
 | <mark>ranges</mark> | [`Vector<MessageRange>`](type/MessageRange) | A range of messages to fetch |
 
@@ -33,8 +33,8 @@ $channelMessagesFilter = $client->channelMessagesFilter(
 	exclude_new_messages : true,
 	ranges : array(
 		$client->messageRange(
-			min_id : 83,
-			max_id : 72,
+			min_id : 58,
+			max_id : 5,
 		),
 	),
 );

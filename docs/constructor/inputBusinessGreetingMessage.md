@@ -30,7 +30,7 @@ inputBusinessGreetingMessage#194cb3b shortcut_id:int recipients:InputBusinessRec
 
 ```php
 $inputBusinessGreetingMessage = $client->inputBusinessGreetingMessage(
-	shortcut_id : 41,
+	shortcut_id : 1,
 	recipients : $client->inputBusinessRecipients(
 		existing_chats : true,
 		new_chats : true,
@@ -39,6 +39,6 @@ $inputBusinessGreetingMessage = $client->inputBusinessGreetingMessage(
 		exclude_selected : true,
 		users : array($client->get_input_user(user : '@TakNone')),
 	),
-	no_activity_days : 33,
+	no_activity_days : 91,
 );
 ```

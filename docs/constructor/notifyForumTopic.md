@@ -30,8 +30,8 @@ notifyForumTopic#226e6308 peer:Peer top_msg_id:int = NotifyPeer;
 ```php
 $notifyPeer = $client->notifyForumTopic(
 	peer : $client->peerUser(
-		user_id : -2423070412906320531,
+		user_id : 1420749316320751904,
 	),
-	top_msg_id : 48,
+	top_msg_id : 29,
 );
 ```

@@ -29,10 +29,10 @@ updateNewQuickReply#f53da717 quick_reply:QuickReply = Update;
 ```php
 $update = $client->updateNewQuickReply(
 	quick_reply : $client->quickReply(
-		shortcut_id : 31,
-		shortcut : 'BlcbO4xuqZDvg78U',
-		top_message : 99,
-		count : 9,
+		shortcut_id : 5,
+		shortcut : 'YGVmjSIxTh8stQZD',
+		top_message : 71,
+		count : 23,
 	),
 );
 ```

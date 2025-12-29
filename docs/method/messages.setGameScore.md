@@ -14,7 +14,7 @@ messages.setGameScore#8ef8ecc0 flags:# edit_message:flags.0?true force:flags.1?t
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **edit_message** | [`flags.0?true`](type/true) | Set this flag if the game message should be automatically edited to include the current scoreboard |
 | **force** | [`flags.1?true`](type/true) | Set this flag if the high score is allowed to decrease. This can be useful when fixing mistakes or banning cheaters |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Unique identifier of target chat |
@@ -49,8 +49,8 @@ $updates = $client->messages->setGameScore(
 	edit_message : true,
 	force : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 55,
+	id : 31,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	score : 24,
+	score : 63,
 );
 ```

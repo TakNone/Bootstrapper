@@ -14,7 +14,7 @@ channelParticipantAdmin#34c3bb53 flags:# can_edit:flags.0?true self:flags.1?true
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **can_edit** | [`flags.0?true`](type/true) | Can this admin promote other admins with the same permissions? |
 | **self** | [`flags.1?true`](type/true) | Is this the current user |
 | <mark>user_id</mark> | [`long`](type/long) | Admin user ID |
@@ -38,10 +38,10 @@ channelParticipantAdmin#34c3bb53 flags:# can_edit:flags.0?true self:flags.1?true
 $channelParticipant = $client->channelParticipantAdmin(
 	can_edit : true,
 	self : true,
-	user_id : 9030774248102275371,
-	inviter_id : -4071531955444786283,
-	promoted_by : 952849397249795530,
-	date : 85,
+	user_id : -5625600833731809542,
+	inviter_id : 8305021579388278901,
+	promoted_by : 4801620458890354275,
+	date : 34,
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -60,6 +60,6 @@ $channelParticipant = $client->channelParticipantAdmin(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : 'UMIRGc5e67otJKaZ',
+	rank : 'odtaZQ07AL48SsCg',
 );
 ```

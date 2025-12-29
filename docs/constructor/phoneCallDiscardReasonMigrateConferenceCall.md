@@ -28,6 +28,6 @@ phoneCallDiscardReasonMigrateConferenceCall#9fbbf1f7 slug:string = PhoneCallDisc
 
 ```php
 $phoneCallDiscardReason = $client->phoneCallDiscardReasonMigrateConferenceCall(
-	slug : 'epBNnUzrY7XmuvgT',
+	slug : '1rAQw0dzGNMlK4s8',
 );
 ```

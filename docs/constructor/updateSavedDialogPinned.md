@@ -14,7 +14,7 @@ updateSavedDialogPinned#aeaf9e74 flags:# pinned:flags.0?true peer:DialogPeer = U
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pinned** | [`flags.0?true`](type/true) | Whether the dialog was pinned |
 | <mark>peer</mark> | [`DialogPeer`](type/DialogPeer) | The dialog |
 
@@ -33,7 +33,7 @@ $update = $client->updateSavedDialogPinned(
 	pinned : true,
 	peer : $client->dialogPeer(
 		peer : $client->peerUser(
-			user_id : 1991144191653721811,
+			user_id : -1464137687110896394,
 		),
 	),
 );

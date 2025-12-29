@@ -14,7 +14,7 @@ inputKeyboardButtonRequestPeer#c9662d05 flags:# name_requested:flags.0?true user
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **name_requested** | [`flags.0?true`](type/true) | Set this flag to request the peer's name |
 | **username_requested** | [`flags.1?true`](type/true) | Set this flag to request the peer's @username (if any) |
 | **photo_requested** | [`flags.2?true`](type/true) | Set this flag to request the peer's photo (if any) |
@@ -38,12 +38,12 @@ $keyboardButton = $client->inputKeyboardButtonRequestPeer(
 	name_requested : true,
 	username_requested : true,
 	photo_requested : true,
-	text : 'gTWMy0BlbQtUn7jd',
-	button_id : 62,
+	text : '2f9JS3xiZzTPRpy4',
+	button_id : 78,
 	peer_type : $client->requestPeerTypeUser(
 		bot : true,
 		premium : true,
 	),
-	max_quantity : 38,
+	max_quantity : 69,
 );
 ```

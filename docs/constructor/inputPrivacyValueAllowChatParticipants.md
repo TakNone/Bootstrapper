@@ -28,6 +28,6 @@ inputPrivacyValueAllowChatParticipants#840649cf chats:Vector<long> = InputPrivac
 
 ```php
 $inputPrivacyRule = $client->inputPrivacyValueAllowChatParticipants(
-	chats : array(-444431139712128941),
+	chats : array(-2402727299683594077),
 );
 ```

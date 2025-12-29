@@ -14,7 +14,7 @@ payments.validateRequestedInfo#b6c8f12b flags:# save:flags.0?true invoice:InputI
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **save** | [`flags.0?true`](type/true) | Save order information to re-use it for future orders |
 | <mark>invoice</mark> | [`InputInvoice`](type/InputInvoice) | Invoice |
 | <mark>info</mark> | [`PaymentRequestedInfo`](type/PaymentRequestedInfo) | Requested order information |
@@ -43,19 +43,19 @@ $paymentsValidatedRequestedInfo = $client->payments->validateRequestedInfo(
 	save : true,
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-		msg_id : 86,
+		msg_id : 85,
 	),
 	info : $client->paymentRequestedInfo(
-		name : 'EX7DJ409A5CuK1vz',
+		name : 'IjAaDUXWOG8lcbQe',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : 'eBhZYqlJKkm1pT3d',
-			street_line2 : 'hsWvbn7526qCt3U0',
-			city : 'MxU7iq9BEl6JHN5L',
-			state : 'uGy8mIxYCvNFJRZa',
-			country_iso2 : '0Tdhm8eWGsJHDKBq',
-			post_code : '15rRyhUJMGm4gzTb',
+			street_line1 : 'TkWf32Hv8EFiS0Cy',
+			street_line2 : 'W0uJk6jxqbEKDhrX',
+			city : 'LRvc9iPUADhVdlNW',
+			state : 'y9bHL5GlSscvk8N3',
+			country_iso2 : 'yjrDG1axNp9Aml40',
+			post_code : '5ulMdFRIALG2jaVr',
 		),
 	),
 );

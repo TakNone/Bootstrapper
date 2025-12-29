@@ -14,7 +14,7 @@ chatInviteImporter#8c5adfd9 flags:# requested:flags.0?true via_chatlist:flags.3?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **requested** | [`flags.0?true`](type/true) | Whether this user currently has a pending join request » |
 | **via_chatlist** | [`flags.3?true`](type/true) | The participant joined by importing a chat folder deep link » |
 | <mark>user_id</mark> | [`long`](type/long) | The user |
@@ -36,9 +36,9 @@ chatInviteImporter#8c5adfd9 flags:# requested:flags.0?true via_chatlist:flags.3?
 $chatInviteImporter = $client->chatInviteImporter(
 	requested : true,
 	via_chatlist : true,
-	user_id : 1195012247901047187,
-	date : 93,
-	about : '1XhnEuBRoT9ySVwN',
-	approved_by : 999119695502895997,
+	user_id : 2197584201934180744,
+	date : 48,
+	about : 'IbyVjZHWlxng9GB7',
+	approved_by : -4716628557974457115,
 );
 ```

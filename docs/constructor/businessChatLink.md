@@ -14,7 +14,7 @@ businessChatLink#b4ae666f flags:# link:string message:string entities:flags.0?Ve
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>link</mark> | [`string`](type/string) | Business chat deep link |
 | <mark>message</mark> | [`string`](type/string) | Message to pre-fill in the message input field |
 | **entities** | [`flags.0?Vector<MessageEntity>`](type/MessageEntity) | Message entities for styled text |
@@ -33,101 +33,101 @@ businessChatLink#b4ae666f flags:# link:string message:string entities:flags.0?Ve
 
 ```php
 $businessChatLink = $client->businessChatLink(
-	link : '9hwV4y5TLENQXi7t',
-	message : 'UW7Af8nihBNkQDC0',
+	link : 'CXmOfY743xoa0zqc',
+	message : 'vLyNi89zwtBFqxEH',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 78,
+			length : 0,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 43,
+			length : 95,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 81,
+			length : 45,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 53,
+			length : 35,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 59,
+			length : 8,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 46,
+			length : 49,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 46,
+			length : 67,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 69,
+			length : 33,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 89,
+			length : 6,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 12,
-			language : 'rMdBpm0NbKigeZFU',
+			length : 27,
+			language : 'XUFGJw68sqkZoijh',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 12,
+			length : 84,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 33,
-			user_id : 2044423828670561891,
+			length : 2,
+			user_id : -4314039998826901860,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 54,
+			length : 60,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 84,
+			length : 39,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 62,
+			length : 42,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 53,
+			length : 18,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 11,
+			length : 10,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 7,
+			length : 42,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 57,
+			length : 54,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 85,
-			document_id : 405610675192612385,
+			length : 75,
+			document_id : -837939119684418108,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 89,
+			length : 19,
 		),
 	),
-	title : 'uMbiQo7HFpqfTgRD',
-	views : 100,
+	title : '5xz0UDOVCdfT9HQb',
+	views : 35,
 );
 ```

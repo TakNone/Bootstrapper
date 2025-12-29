@@ -14,7 +14,7 @@ payments.clearSavedInfo#d83d70c1 flags:# credentials:flags.0?true info:flags.1?t
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **credentials** | [`flags.0?true`](type/true) | Remove saved payment credentials |
 | **info** | [`flags.1?true`](type/true) | Clear the last order settings saved by the user |
 

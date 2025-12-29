@@ -14,7 +14,7 @@ monoForumDialog#64407ea7 flags:# unread_mark:flags.3?true nopaid_messages_except
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **unread_mark** | [`flags.3?true`](type/true) | Whether this topic has a manually set (with messages.markDialogUnread) unread mark |
 | **nopaid_messages_exception** | [`flags.4?true`](type/true) | If set, an admin has exempted this peer from payment to send messages using account.toggleNoPaidMessagesException |
 | <mark>peer</mark> | [`Peer`](type/Peer) | The peer associated to the topic, AKA the topic ID |
@@ -40,15 +40,15 @@ $savedDialog = $client->monoForumDialog(
 	unread_mark : true,
 	nopaid_messages_exception : true,
 	peer : $client->peerUser(
-		user_id : -3370474386367088616,
+		user_id : 8070940620517499976,
 	),
-	top_message : 99,
-	read_inbox_max_id : 7,
-	read_outbox_max_id : 6,
-	unread_count : 96,
-	unread_reactions_count : 99,
+	top_message : 65,
+	read_inbox_max_id : 31,
+	read_outbox_max_id : 32,
+	unread_count : 67,
+	unread_reactions_count : 95,
 	draft : $client->draftMessageEmpty(
-		date : 20,
+		date : 98,
 	),
 );
 ```

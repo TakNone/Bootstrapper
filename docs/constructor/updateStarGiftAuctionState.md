@@ -27,24 +27,24 @@ updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Up
 
 ```php
 $update = $client->updateStarGiftAuctionState(
-	gift_id : 7960882622842467818,
+	gift_id : -5595925023709014983,
 	state : $client->starGiftAuctionState(
-		version : 82,
-		start_date : 10,
-		end_date : 0,
-		min_bid_amount : -966530733499416467,
+		version : 21,
+		start_date : 58,
+		end_date : 58,
+		min_bid_amount : -273105968999198972,
 		bid_levels : array(
 			$client->auctionBidLevel(
-				pos : 64,
-				amount : -356506865964484970,
-				date : 2,
+				pos : 90,
+				amount : -3328985678981745017,
+				date : 16,
 			),
 		),
-		top_bidders : array(5060076418317437496),
-		next_round_at : 10,
-		gifts_left : 93,
-		current_round : 88,
-		total_rounds : 10,
+		top_bidders : array(-7554920763656834843),
+		next_round_at : 47,
+		gifts_left : 0,
+		current_round : 93,
+		total_rounds : 13,
 	),
 );
 ```

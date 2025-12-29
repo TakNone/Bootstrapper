@@ -14,7 +14,7 @@ updateReadHistoryInbox#9e84bc99 flags:# folder_id:flags.0?int peer:Peer top_msg_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **folder_id** | [`flags.0?int`](type/int) | Peer folder ID, for more info click here |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer |
 | **top_msg_id** | [`flags.1?int`](type/int) | NOTHING |
@@ -35,14 +35,14 @@ updateReadHistoryInbox#9e84bc99 flags:# folder_id:flags.0?int peer:Peer top_msg_
 
 ```php
 $update = $client->updateReadHistoryInbox(
-	folder_id : 9,
+	folder_id : 49,
 	peer : $client->peerUser(
-		user_id : 7813614386412219277,
+		user_id : 757672566319730294,
 	),
-	top_msg_id : 42,
-	max_id : 100,
-	still_unread_count : 92,
-	pts : 95,
-	pts_count : 33,
+	top_msg_id : 83,
+	max_id : 51,
+	still_unread_count : 71,
+	pts : 2,
+	pts_count : 89,
 );
 ```

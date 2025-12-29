@@ -28,6 +28,6 @@ contacts.importCard#4fe196fe export_card:Vector<int> = User;
 
 ```php
 $user = $client->contacts->importCard(
-	export_card : array(63),
+	export_card : array(39),
 );
 ```

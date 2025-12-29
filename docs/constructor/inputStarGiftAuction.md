@@ -26,6 +26,6 @@ inputStarGiftAuction#2e16c98 gift_id:long = InputStarGiftAuction;
 
 ```php
 $inputStarGiftAuction = $client->inputStarGiftAuction(
-	gift_id : 8893438574810438132,
+	gift_id : 3726672737741169926,
 );
 ```

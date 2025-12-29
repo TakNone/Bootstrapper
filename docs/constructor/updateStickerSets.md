@@ -14,7 +14,7 @@ updateStickerSets#31c24808 flags:# masks:flags.0?true emojis:flags.1?true = Upda
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **masks** | [`flags.0?true`](type/true) | Whether mask stickersets have changed |
 | **emojis** | [`flags.1?true`](type/true) | Whether the list of installed custom emoji stickersets has changed |
 

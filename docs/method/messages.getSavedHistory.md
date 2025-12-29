@@ -14,7 +14,7 @@ messages.getSavedHistory#998ab009 flags:# parent_peer:flags.0?InputPeer peer:Inp
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **parent_peer** | [`flags.0?InputPeer`](type/InputPeer) | If set, fetches messages from the specified monoforum, otherwise fetches from saved messages |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Target peer (or topic) |
 | <mark>offset_id</mark> | [`int`](type/int) | Only return messages starting from the specified message ID |
@@ -49,10 +49,10 @@ $messagesMessages = $client->messages->getSavedHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 20,
-	limit : 71,
-	max_id : 81,
-	min_id : 14,
+	add_offset : 74,
+	limit : 31,
+	max_id : 14,
+	min_id : 42,
 	hash : 0,
 );
 ```

@@ -42,6 +42,6 @@ channels.toggleJoinRequest#4c2985b6 channel:InputChannel enabled:Bool = Updates;
 ```php
 $updates = $client->channels->toggleJoinRequest(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	enabled : true,
+	enabled : false,
 );
 ```

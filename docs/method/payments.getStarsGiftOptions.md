@@ -14,7 +14,7 @@ payments.getStarsGiftOptions#d3c96bc8 flags:# user_id:flags.0?InputUser = Vector
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **user_id** | [`flags.0?InputUser`](type/InputUser) | Receiver of the gift (optional) |
 
 ---

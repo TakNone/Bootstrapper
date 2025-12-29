@@ -14,7 +14,7 @@ channelAdminLogEventsFilter#ea107ae4 flags:# join:flags.0?true leave:flags.1?tru
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **join** | [`flags.0?true`](type/true) | Join events, including joins using invite links and join requests |
 | **leave** | [`flags.1?true`](type/true) | Leave events |
 | **invite** | [`flags.2?true`](type/true) | Invite events |

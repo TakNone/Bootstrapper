@@ -40,8 +40,8 @@ upload.saveFilePart#b304a621 file_id:long file_part:int bytes:bytes = Bool;
 
 ```php
 $bool = $client->upload->saveFilePart(
-	file_id : 3483770131586358436,
-	file_part : 26,
+	file_id : 5493467397874172936,
+	file_part : 59,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

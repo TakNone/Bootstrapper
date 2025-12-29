@@ -14,7 +14,7 @@ account.updateBusinessLocation#9e6b131a flags:# geo_point:flags.1?InputGeoPoint 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **geo_point** | [`flags.1?InputGeoPoint`](type/InputGeoPoint) | Optional, contains a set of geographical coordinates |
 | **address** | [`flags.0?string`](type/string) | Mandatory when setting/updating the location, contains a textual description of the address (max 96 UTF-8 chars) |
 
@@ -31,6 +31,6 @@ account.updateBusinessLocation#9e6b131a flags:# geo_point:flags.1?InputGeoPoint 
 ```php
 $bool = $client->account->updateBusinessLocation(
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'EThZSgmps73xY28A',
+	address : 'kyTZc5rnSCNQml0J',
 );
 ```

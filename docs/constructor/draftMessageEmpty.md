@@ -14,7 +14,7 @@ draftMessageEmpty#1b0c841a flags:# date:flags.0?int = DraftMessage;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **date** | [`flags.0?int`](type/int) | When was the draft last updated |
 
 ---
@@ -29,6 +29,6 @@ draftMessageEmpty#1b0c841a flags:# date:flags.0?int = DraftMessage;
 
 ```php
 $draftMessage = $client->draftMessageEmpty(
-	date : 48,
+	date : 2,
 );
 ```

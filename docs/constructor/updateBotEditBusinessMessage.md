@@ -14,7 +14,7 @@ updateBotEditBusinessMessage#7df587c flags:# connection_id:string message:Messag
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>connection_id</mark> | [`string`](type/string) | Business connection ID |
 | <mark>message</mark> | [`Message`](type/Message) | New message |
 | **reply_to_message** | [`flags.0?Message`](type/Message) | The message that message is replying to |
@@ -32,19 +32,19 @@ updateBotEditBusinessMessage#7df587c flags:# connection_id:string message:Messag
 
 ```php
 $update = $client->updateBotEditBusinessMessage(
-	connection_id : 'l7QzJAfPynbNGYFt',
+	connection_id : 'mLsTRSyJbwn0f7pZ',
 	message : $client->messageEmpty(
-		id : 39,
+		id : 41,
 		peer_id : $client->peerUser(
-			user_id : 1180073699208199491,
+			user_id : -503171352824922710,
 		),
 	),
 	reply_to_message : $client->messageEmpty(
-		id : 98,
+		id : 28,
 		peer_id : $client->peerUser(
-			user_id : -4456694002988583535,
+			user_id : -5460680685639090029,
 		),
 	),
-	qts : 61,
+	qts : 80,
 );
 ```

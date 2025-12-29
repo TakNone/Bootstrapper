@@ -14,7 +14,7 @@ inputMediaDocument#a8763ab5 flags:# spoiler:flags.2?true id:InputDocument video_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **spoiler** | [`flags.2?true`](type/true) | Whether this media should be hidden behind a spoiler warning |
 | <mark>id</mark> | [`InputDocument`](type/InputDocument) | The document to be forwarded |
 | **video_cover** | [`flags.3?InputPhoto`](type/InputPhoto) | Custom video cover |
@@ -37,8 +37,8 @@ $inputMedia = $client->inputMediaDocument(
 	spoiler : true,
 	id : $client->inputDocumentEmpty(),
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 31,
-	ttl_seconds : 44,
-	query : 'VakYQJcIeD1j4fZH',
+	video_timestamp : 83,
+	ttl_seconds : 67,
+	query : 'JuDrYN0p2VT3LRfm',
 );
 ```

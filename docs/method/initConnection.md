@@ -14,7 +14,7 @@ initConnection#c1cd5ea9 {X:Type} flags:# api_id:int device_model:string system_v
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>api_id</mark> | [`int`](type/int) | Application identifier (see. App configuration) |
 | <mark>device_model</mark> | [`string`](type/string) | Device model |
 | <mark>system_version</mark> | [`string`](type/string) | Operation system version |
@@ -46,16 +46,16 @@ initConnection#c1cd5ea9 {X:Type} flags:# api_id:int device_model:string system_v
 
 ```php
 $x = $client->initConnection(
-	api_id : 4,
-	device_model : 'YRqEuxohPm2bcHV4',
-	system_version : '7jJzIGtMaXP4qF60',
-	app_version : 'U1V2bj4RoGm7pXe8',
-	system_lang_code : 'bzuKhdw3DtTWv1iM',
-	lang_pack : 'VCaUQN4oGxzYcLXt',
-	lang_code : 'vPd14Rs7K20Cua8Q',
+	api_id : 56,
+	device_model : 'vf5tBcd2a9skzu3V',
+	system_version : 'kba3sRWGZXOgCQwn',
+	app_version : 'zipRNldf6rwDvKPa',
+	system_lang_code : 'h6bjd9QgiRVCTKeP',
+	lang_pack : 'dUMyH1aw975Gb2in',
+	lang_code : 'fX9xKAco7il5N6Jd',
 	proxy : $client->inputClientProxy(
-		address : 'OAoC94teVTbQdUkD',
-		port : 95,
+		address : 'AZiKbShJ4BpD2TOc',
+		port : 33,
 	),
 	params : $client->jsonNull(),
 	query : $client->help->getConfig(raw : true),

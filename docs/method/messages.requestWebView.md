@@ -14,7 +14,7 @@ messages.requestWebView#269dc2c1 flags:# from_bot_menu:flags.4?true silent:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **from_bot_menu** | [`flags.4?true`](type/true) | Whether the webview was opened by clicking on the bot's menu button » |
 | **silent** | [`flags.5?true`](type/true) | Whether the inline message that will be sent by the bot on behalf of the user once the web app interaction is terminated should be sent silently (no notifications for the receivers) |
 | **compact** | [`flags.7?true`](type/true) | If set, requests to open the mini app in compact mode (as opposed to normal or fullscreen mode). Must be set if the mode parameter of the attachment menu deep link is equal to compact |
@@ -65,111 +65,111 @@ $webViewResult = $client->messages->requestWebView(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	bot : $client->get_input_user(user : '@TakNone'),
 	url : 'https://docs.liveproto.dev',
-	start_param : 'XygEBniKcJShQP0m',
+	start_param : 'kaAlGvdRjXV25sNn',
 	theme_params : $client->dataJSON(
-		data : '5CvWBgqVZiPwy6XQ',
+		data : 'sv0m6xVX5qGhjUpL',
 	),
-	platform : 'T7SeKsQibnmP6ogk',
+	platform : 'GxCRWjB0AMfFZkQs',
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 88,
-		top_msg_id : 62,
+		reply_to_msg_id : 12,
+		top_msg_id : 55,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'esDqydbYuoIjLOgc',
+		quote_text : 'qe8oEP9YhLgRfU3c',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 0,
+				length : 91,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 85,
+				length : 65,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 37,
+				length : 60,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 84,
+				length : 74,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 91,
+				length : 69,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 18,
+				length : 33,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 25,
+				length : 33,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 6,
+				length : 67,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 97,
+				length : 75,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 97,
-				language : 'ZACFO6u7BUWwqbHE',
+				length : 33,
+				language : '7qEoAdTtfXZQecBk',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 39,
+				length : 85,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 8,
-				user_id : -8322766429930006890,
+				length : 55,
+				user_id : 4181760707360538229,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 5,
+				length : 10,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 58,
+				length : 53,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 13,
+				length : 67,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 61,
+				length : 34,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 53,
+				length : 78,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 78,
+				length : 95,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 36,
+				length : 20,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 24,
-				document_id : 1851420473143829977,
+				length : 93,
+				document_id : 6365175208231917480,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 88,
+				length : 27,
 			),
 		),
-		quote_offset : 78,
+		quote_offset : 97,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 71,
+		todo_item_id : 0,
 	),
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

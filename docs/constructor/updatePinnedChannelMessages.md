@@ -14,7 +14,7 @@ updatePinnedChannelMessages#5bb98608 flags:# pinned:flags.0?true channel_id:long
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pinned** | [`flags.0?true`](type/true) | Whether the messages were pinned or unpinned |
 | <mark>channel_id</mark> | [`long`](type/long) | Channel ID |
 | <mark>messages</mark> | [`Vector<int>`](type/int) | Messages |
@@ -34,9 +34,9 @@ updatePinnedChannelMessages#5bb98608 flags:# pinned:flags.0?true channel_id:long
 ```php
 $update = $client->updatePinnedChannelMessages(
 	pinned : true,
-	channel_id : -1724418325027578310,
-	messages : array(41),
-	pts : 52,
-	pts_count : 19,
+	channel_id : -5961864417690294901,
+	messages : array(68),
+	pts : 81,
+	pts_count : 67,
 );
 ```

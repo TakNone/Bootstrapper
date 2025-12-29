@@ -14,7 +14,7 @@ chatReactionsAll#52928bca flags:# allow_custom:flags.0?true = ChatReactions;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **allow_custom** | [`flags.0?true`](type/true) | Whether to allow custom reactions |
 
 ---

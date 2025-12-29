@@ -28,8 +28,8 @@ auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
 
 ```php
 $auctionBidLevel = $client->auctionBidLevel(
-	pos : 87,
-	amount : 3483096571303523485,
-	date : 42,
+	pos : 64,
+	amount : 6328819917915225770,
+	date : 35,
 );
 ```

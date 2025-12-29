@@ -14,7 +14,7 @@ messages.getSavedReactionTags#3637e05b flags:# peer:flags.0?InputPeer hash:long 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **peer** | [`flags.0?InputPeer`](type/InputPeer) | If set, returns tags only used in the specified saved message dialog |
 | <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
 

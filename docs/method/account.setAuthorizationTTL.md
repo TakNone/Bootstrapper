@@ -37,6 +37,6 @@ account.setAuthorizationTTL#bf899aa0 authorization_ttl_days:int = Bool;
 
 ```php
 $bool = $client->account->setAuthorizationTTL(
-	authorization_ttl_days : 4,
+	authorization_ttl_days : 72,
 );
 ```

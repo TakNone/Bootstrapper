@@ -14,7 +14,7 @@ messages.setChatWallPaper#8ffacae1 flags:# for_both:flags.3?true revert:flags.4?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **for_both** | [`flags.3?true`](type/true) | Only for Premium users, sets the specified wallpaper for both users of the chat, without requiring confirmation from the other user |
 | **revert** | [`flags.4?true`](type/true) | If we don't like the new wallpaper the other user of the chat has chosen for us using the for_both flag, we can re-set our previous wallpaper just on our side using this flag |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The private chat where the wallpaper will be set |
@@ -48,20 +48,20 @@ $updates = $client->messages->setChatWallPaper(
 	revert : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	wallpaper : $client->inputWallPaper(
-		id : 6915709810365229497,
-		access_hash : 1878133582295241515,
+		id : 8549691015379512975,
+		access_hash : -4841053595694242178,
 	),
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 80,
-		second_background_color : 72,
-		third_background_color : 32,
-		fourth_background_color : 85,
-		intensity : 52,
-		rotation : 59,
-		emoticon : 'ADUXs7gh8Q9Brca6',
+		background_color : 67,
+		second_background_color : 6,
+		third_background_color : 3,
+		fourth_background_color : 83,
+		intensity : 76,
+		rotation : 96,
+		emoticon : 'LAtRJmY2Ues95VHw',
 	),
-	id : 43,
+	id : 86,
 );
 ```

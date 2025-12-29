@@ -30,6 +30,6 @@ messages.getExtendedMedia#84f80814 peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->getExtendedMedia(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(48),
+	id : array(55),
 );
 ```

@@ -14,7 +14,7 @@ inputStorePaymentAuthCode#9bb2636d flags:# restore:flags.0?true phone_number:str
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **restore** | [`flags.0?true`](type/true) | Set this flag to restore a previously made purchase |
 | <mark>phone_number</mark> | [`string`](type/string) | Phone number |
 | <mark>phone_code_hash</mark> | [`string`](type/string) | phone_code_hash returned by auth.sendCode |
@@ -36,7 +36,7 @@ $inputStorePaymentPurpose = $client->inputStorePaymentAuthCode(
 	restore : true,
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	currency : 'V5eTfEMZXnOSCtAw',
-	amount : 2201901385641158971,
+	currency : '4LOChGxNFwkiMvQD',
+	amount : -1931448059364548402,
 );
 ```

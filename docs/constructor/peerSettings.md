@@ -14,7 +14,7 @@ peerSettings#f47741f7 flags:# report_spam:flags.0?true add_contact:flags.1?true 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **report_spam** | [`flags.0?true`](type/true) | Whether we can still report the user for spam |
 | **add_contact** | [`flags.1?true`](type/true) | Whether we can add the user as contact |
 | **block_contact** | [`flags.2?true`](type/true) | Whether we can block the user |
@@ -60,15 +60,15 @@ $peerSettings = $client->peerSettings(
 	request_chat_broadcast : true,
 	business_bot_paused : true,
 	business_bot_can_reply : true,
-	geo_distance : 46,
-	request_chat_title : 'tBLv6a0ls5IR74NU',
-	request_chat_date : 51,
-	business_bot_id : 674582518521501775,
+	geo_distance : 28,
+	request_chat_title : 'avCX3rbfHNKTWYzd',
+	request_chat_date : 0,
+	business_bot_id : -5674312685173063814,
 	business_bot_manage_url : 'https://docs.liveproto.dev',
-	charge_paid_message_stars : 1130693690753072218,
-	registration_month : 'udWRPkfD76HtpZYA',
+	charge_paid_message_stars : 3119829524690728551,
+	registration_month : 'qWN7M8pvRixr6mbD',
 	phone_country : '+1234567890',
-	name_change_date : 26,
-	photo_change_date : 3,
+	name_change_date : 65,
+	photo_change_date : 18,
 );
 ```

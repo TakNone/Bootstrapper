@@ -14,7 +14,7 @@ messages.toggleDialogPin#a731e257 flags:# pinned:flags.0?true peer:InputDialogPe
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pinned** | [`flags.0?true`](type/true) | Whether to pin or unpin the dialog |
 | <mark>peer</mark> | [`InputDialogPeer`](type/InputDialogPeer) | The dialog to pin |
 

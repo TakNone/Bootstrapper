@@ -38,6 +38,6 @@ messages.deleteChat#5bd0ee50 chat_id:long = Bool;
 
 ```php
 $bool = $client->messages->deleteChat(
-	chat_id : -4050328698504581449,
+	chat_id : -4092639738958063158,
 );
 ```

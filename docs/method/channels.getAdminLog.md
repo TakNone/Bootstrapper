@@ -14,7 +14,7 @@ channels.getAdminLog#33ddf480 flags:# channel:InputChannel q:string events_filte
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | Channel |
 | <mark>q</mark> | [`string`](type/string) | Search query, can be empty |
 | **events_filter** | [`flags.0?ChannelAdminLogEventsFilter`](type/ChannelAdminLogEventsFilter) | Event filter |
@@ -48,7 +48,7 @@ channels.getAdminLog#33ddf480 flags:# channel:InputChannel q:string events_filte
 ```php
 $channelsAdminLogResults = $client->channels->getAdminLog(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	q : 'EPtvO1aL8yRK3Ypo',
+	q : '6qwFWlONaSrdEhHL',
 	events_filter : $client->channelAdminLogEventsFilter(
 		join : true,
 		leave : true,
@@ -71,8 +71,8 @@ $channelsAdminLogResults = $client->channels->getAdminLog(
 		sub_extend : true,
 	),
 	admins : array($client->get_input_user(user : '@TakNone')),
-	max_id : -5062808755570514095,
-	min_id : 4374141721770019482,
-	limit : 72,
+	max_id : -6154387515832154778,
+	min_id : -4187626070565135451,
+	limit : 71,
 );
 ```

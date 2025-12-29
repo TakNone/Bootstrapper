@@ -14,7 +14,7 @@ secureValue#187fa0ca flags:# type:SecureValueType data:flags.0?SecureData front_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>type</mark> | [`SecureValueType`](type/SecureValueType) | Secure passport value type |
 | **data** | [`flags.0?SecureData`](type/SecureData) | Encrypted Telegram Passport element data |
 | **front_side** | [`flags.1?SecureFile`](type/SecureFile) | Encrypted passport file with the front side of the document |
@@ -49,11 +49,11 @@ $secureValue = $client->secureValue(
 	translation : array(
 		$client->secureFileEmpty(),
 		$client->secureFile(
-			id : -4172543952832711761,
-			access_hash : -4590852909206906980,
-			size : 6256427362264936040,
-			dc_id : 15,
-			date : 11,
+			id : 5674331855480860763,
+			access_hash : 6032342675788989885,
+			size : -2681051081045566988,
+			dc_id : 6,
+			date : 3,
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
@@ -61,11 +61,11 @@ $secureValue = $client->secureValue(
 	files : array(
 		$client->secureFileEmpty(),
 		$client->secureFile(
-			id : 5615259308189276062,
-			access_hash : 891116085312322107,
-			size : -8399321311844219489,
-			dc_id : 6,
-			date : 37,
+			id : -3295888840010437642,
+			access_hash : -7528714666651154825,
+			size : 247559004224977542,
+			dc_id : 78,
+			date : 41,
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),

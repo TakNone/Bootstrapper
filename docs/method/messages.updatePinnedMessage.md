@@ -14,7 +14,7 @@ messages.updatePinnedMessage#d2aaf7ec flags:# silent:flags.0?true unpin:flags.1?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **silent** | [`flags.0?true`](type/true) | Pin the message silently, without triggering a notification |
 | **unpin** | [`flags.1?true`](type/true) | Whether the message should unpinned or pinned |
 | **pm_oneside** | [`flags.2?true`](type/true) | Whether the message should only be pinned on the local side of a one-to-one chat |
@@ -57,6 +57,6 @@ $updates = $client->messages->updatePinnedMessage(
 	unpin : true,
 	pm_oneside : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 23,
+	id : 98,
 );
 ```

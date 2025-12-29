@@ -14,7 +14,7 @@ storyAlbum#9325705a flags:# album_id:int title:string icon_photo:flags.0?Photo i
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>album_id</mark> | [`int`](type/int) | ID of the album |
 | <mark>title</mark> | [`string`](type/string) | Name of the album |
 | **icon_photo** | [`flags.0?Photo`](type/Photo) | Photo from the first story of the album, if it's a photo |
@@ -32,13 +32,13 @@ storyAlbum#9325705a flags:# album_id:int title:string icon_photo:flags.0?Photo i
 
 ```php
 $storyAlbum = $client->storyAlbum(
-	album_id : 38,
-	title : 'T4dYAWibZcIPQnFe',
+	album_id : 96,
+	title : 'W3ywusUqoZvLgmTj',
 	icon_photo : $client->photoEmpty(
-		id : -8356739465139414752,
+		id : 4741731703685355343,
 	),
 	icon_video : $client->documentEmpty(
-		id : 5300009518357623344,
+		id : -9092594380073783914,
 	),
 );
 ```

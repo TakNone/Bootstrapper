@@ -14,7 +14,7 @@ requestedPeerChannel#8ba403e4 flags:# channel_id:long title:flags.0?string usern
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>channel_id</mark> | [`long`](type/long) | Channel/supergroup ID |
 | **title** | [`flags.0?string`](type/string) | Channel/supergroup title |
 | **username** | [`flags.1?string`](type/string) | Channel/supergroup username |
@@ -32,11 +32,11 @@ requestedPeerChannel#8ba403e4 flags:# channel_id:long title:flags.0?string usern
 
 ```php
 $requestedPeer = $client->requestedPeerChannel(
-	channel_id : 3978663063008917069,
-	title : '6k2QLS31ym9YPgtO',
+	channel_id : 7461753858708737373,
+	title : 'PVlcG2CvWX6xIah3',
 	username : 'TakNone',
 	photo : $client->photoEmpty(
-		id : -2964931073199796261,
+		id : 5546609343481560327,
 	),
 );
 ```

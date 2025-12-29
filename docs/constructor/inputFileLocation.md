@@ -31,9 +31,9 @@ inputFileLocation#dfdaabe1 volume_id:long local_id:int secret:long file_referenc
 
 ```php
 $inputFileLocation = $client->inputFileLocation(
-	volume_id : -7242401052819919570,
-	local_id : 35,
-	secret : -4072104386662222132,
+	volume_id : -2608896758284246726,
+	local_id : 88,
+	secret : 3208541001894311189,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

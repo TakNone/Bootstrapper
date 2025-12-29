@@ -28,6 +28,6 @@ messageActionChatAddUser#15cefd00 users:Vector<long> = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatAddUser(
-	users : array(-689154879179023732),
+	users : array(-5571992916033119657),
 );
 ```

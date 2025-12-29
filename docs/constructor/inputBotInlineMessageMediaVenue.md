@@ -14,7 +14,7 @@ inputBotInlineMessageMediaVenue#417bbf11 flags:# geo_point:InputGeoPoint title:s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>geo_point</mark> | [`InputGeoPoint`](type/InputGeoPoint) | Geolocation |
 | <mark>title</mark> | [`string`](type/string) | Venue name |
 | <mark>address</mark> | [`string`](type/string) | Address |
@@ -36,11 +36,11 @@ inputBotInlineMessageMediaVenue#417bbf11 flags:# geo_point:InputGeoPoint title:s
 ```php
 $inputBotInlineMessage = $client->inputBotInlineMessageMediaVenue(
 	geo_point : $client->inputGeoPointEmpty(),
-	title : 'HeBti2ox7PCOzW9p',
-	address : 'vCVGOxhkQIEZfbqz',
-	provider : '05BEhQI3tPGmofli',
-	venue_id : 'vy0sjoD7XFfLQr2O',
-	venue_type : 'MLAZwC4RxUymVflj',
+	title : 'N6uea3AEjv7HY1m8',
+	address : '32xvEgT1CB9N8Kdu',
+	provider : 'oMWFbD31hs5nmaqX',
+	venue_id : 'r5m3Z4t7NXsFwDTq',
+	venue_type : '3bNAU2DBdZF4ImCR',
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),

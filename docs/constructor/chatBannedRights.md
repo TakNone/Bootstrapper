@@ -14,7 +14,7 @@ chatBannedRights#9f120418 flags:# view_messages:flags.0?true send_messages:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **view_messages** | [`flags.0?true`](type/true) | If set, does not allow a user to view messages in a supergroup/channel/chat |
 | **send_messages** | [`flags.1?true`](type/true) | If set, does not allow a user to send messages in a supergroup/chat |
 | **send_media** | [`flags.2?true`](type/true) | If set, does not allow a user to send any media in a supergroup/chat |
@@ -69,6 +69,6 @@ $chatBannedRights = $client->chatBannedRights(
 	send_voices : true,
 	send_docs : true,
 	send_plain : true,
-	until_date : 40,
+	until_date : 77,
 );
 ```

@@ -39,7 +39,7 @@ chatlists.joinChatlistUpdates#e089f8f5 chatlist:InputChatlist peers:Vector<Input
 ```php
 $updates = $client->chatlists->joinChatlistUpdates(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 13,
+		filter_id : 73,
 	),
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );

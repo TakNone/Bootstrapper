@@ -14,7 +14,7 @@ messages.getStatsURL#812c2ae6 flags:# dark:flags.0?true peer:InputPeer params:st
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **dark** | [`flags.0?true`](type/true) | Pass true if a URL with the dark theme must be returned |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Chat identifier |
 | <mark>params</mark> | [`string`](type/string) | Parameters from tg://statsrefresh?params=****** link |
@@ -41,6 +41,6 @@ messages.getStatsURL#812c2ae6 flags:# dark:flags.0?true peer:InputPeer params:st
 $statsURL = $client->messages->getStatsURL(
 	dark : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	params : 'IC1ou8gWYQ5l9A63',
+	params : 'Au9K1NpsYVmC6FPW',
 );
 ```

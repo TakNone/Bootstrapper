@@ -12,7 +12,7 @@ peerColorCollectible#b9c0639a flags:# collectible_id:long gift_emoji_id:long bac
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>collectible_id</mark> | [`long`](type/long) | NOTHING |
 | <mark>gift_emoji_id</mark> | [`long`](type/long) | NOTHING |
 | <mark>background_emoji_id</mark> | [`long`](type/long) | NOTHING |
@@ -33,12 +33,12 @@ peerColorCollectible#b9c0639a flags:# collectible_id:long gift_emoji_id:long bac
 
 ```php
 $peerColor = $client->peerColorCollectible(
-	collectible_id : 7939053741420336969,
-	gift_emoji_id : -5200736072349892491,
-	background_emoji_id : 3639638122213663627,
-	accent_color : 9,
-	colors : array(88),
-	dark_accent_color : 70,
-	dark_colors : array(91),
+	collectible_id : -1344616943424238503,
+	gift_emoji_id : 253844497221284623,
+	background_emoji_id : 2534705544535622790,
+	accent_color : 74,
+	colors : array(69),
+	dark_accent_color : 89,
+	dark_colors : array(50),
 );
 ```

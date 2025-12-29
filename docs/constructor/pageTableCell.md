@@ -14,7 +14,7 @@ pageTableCell#34566b6a flags:# header:flags.0?true align_center:flags.3?true ali
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **header** | [`flags.0?true`](type/true) | Is this element part of the column header |
 | **align_center** | [`flags.3?true`](type/true) | Horizontally centered block |
 | **align_right** | [`flags.4?true`](type/true) | Right-aligned block |
@@ -42,7 +42,7 @@ $pageTableCell = $client->pageTableCell(
 	valign_middle : true,
 	valign_bottom : true,
 	text : $client->textEmpty(),
-	colspan : 64,
-	rowspan : 2,
+	colspan : 36,
+	rowspan : 42,
 );
 ```

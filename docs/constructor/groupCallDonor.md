@@ -12,7 +12,7 @@ groupCallDonor#ee430c85 flags:# top:flags.0?true my:flags.1?true anonymous:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **top** | [`flags.0?true`](type/true) | NOTHING |
 | **my** | [`flags.1?true`](type/true) | NOTHING |
 | **anonymous** | [`flags.2?true`](type/true) | NOTHING |
@@ -35,8 +35,8 @@ $groupCallDonor = $client->groupCallDonor(
 	my : true,
 	anonymous : true,
 	peer_id : $client->peerUser(
-		user_id : -3783640883443541295,
+		user_id : -1901731359536269536,
 	),
-	stars : 3666917615991046419,
+	stars : 6221784377400840945,
 );
 ```

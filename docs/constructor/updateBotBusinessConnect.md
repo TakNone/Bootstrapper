@@ -31,10 +31,10 @@ updateBotBusinessConnect#8ae5c97a connection:BotBusinessConnection qts:int = Upd
 $update = $client->updateBotBusinessConnect(
 	connection : $client->botBusinessConnection(
 		disabled : true,
-		connection_id : 'f9h2ZrLYjaFCl5Ee',
-		user_id : -2988933403272254887,
-		dc_id : 44,
-		date : 88,
+		connection_id : 'Rh9swOAk3eTQmxi5',
+		user_id : 4843055509902453749,
+		dc_id : 73,
+		date : 60,
 		rights : $client->businessBotRights(
 			reply : true,
 			read_messages : true,
@@ -52,6 +52,6 @@ $update = $client->updateBotBusinessConnect(
 			manage_stories : true,
 		),
 	),
-	qts : 5,
+	qts : 4,
 );
 ```

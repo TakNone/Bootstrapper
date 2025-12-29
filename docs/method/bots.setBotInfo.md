@@ -14,7 +14,7 @@ bots.setBotInfo#10cf3123 flags:# bot:flags.2?InputUser lang_code:string name:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **bot** | [`flags.2?InputUser`](type/InputUser) | If called by a user, must contain the peer of a bot we own |
 | <mark>lang_code</mark> | [`string`](type/string) | Language code, if left empty update the fallback about text and description |
 | **name** | [`flags.3?string`](type/string) | New bot name |
@@ -43,9 +43,9 @@ bots.setBotInfo#10cf3123 flags:# bot:flags.2?InputUser lang_code:string name:fla
 ```php
 $bool = $client->bots->setBotInfo(
 	bot : $client->get_input_user(user : '@TakNone'),
-	lang_code : 'ERTyXplZ1c64VYkW',
-	name : 'kZX0BwWo8yC2bF3R',
-	about : 'e8d3vDBzR01rbYOU',
-	description : 'gRjFSfplubnwTq5Z',
+	lang_code : '1fjnaG0MhFTmqWZV',
+	name : 'mLCqVgA6hTEaOp3U',
+	about : 'ixGSmMJo51T39DAr',
+	description : 'xY4lc71L23fhnCrJ',
 );
 ```

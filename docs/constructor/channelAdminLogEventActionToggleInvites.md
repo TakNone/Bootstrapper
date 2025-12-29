@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleInvites#1b7907ae new_value:Bool = ChannelAdminLo
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleInvites(
-	new_value : true,
+	new_value : false,
 );
 ```

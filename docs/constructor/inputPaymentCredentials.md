@@ -14,7 +14,7 @@ inputPaymentCredentials#3417d728 flags:# save:flags.0?true data:DataJSON = Input
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **save** | [`flags.0?true`](type/true) | Save payment credential for future use |
 | <mark>data</mark> | [`DataJSON`](type/DataJSON) | Payment credentials |
 
@@ -32,7 +32,7 @@ inputPaymentCredentials#3417d728 flags:# save:flags.0?true data:DataJSON = Input
 $inputPaymentCredentials = $client->inputPaymentCredentials(
 	save : true,
 	data : $client->dataJSON(
-		data : 'WFbuvpo8jeK4VPlG',
+		data : 'VryIGeChwZDlTHAq',
 	),
 );
 ```

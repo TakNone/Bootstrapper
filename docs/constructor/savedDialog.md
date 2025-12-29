@@ -14,7 +14,7 @@ savedDialog#bd87cb6c flags:# pinned:flags.2?true peer:Peer top_message:int = Sav
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **pinned** | [`flags.2?true`](type/true) | Is the dialog pinned |
 | <mark>peer</mark> | [`Peer`](type/Peer) | The dialog |
 | <mark>top_message</mark> | [`int`](type/int) | The latest message ID |
@@ -33,8 +33,8 @@ savedDialog#bd87cb6c flags:# pinned:flags.2?true peer:Peer top_message:int = Sav
 $savedDialog = $client->savedDialog(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : -700401064389966850,
+		user_id : 7738312081001341296,
 	),
-	top_message : 0,
+	top_message : 33,
 );
 ```

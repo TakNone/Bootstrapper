@@ -14,7 +14,7 @@ payments.getPaymentForm#37148dbb flags:# invoice:InputInvoice theme_params:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>invoice</mark> | [`InputInvoice`](type/InputInvoice) | Invoice |
 | **theme_params** | [`flags.0?DataJSON`](type/DataJSON) | Theme parameters » |
 
@@ -66,10 +66,10 @@ payments.getPaymentForm#37148dbb flags:# invoice:InputInvoice theme_params:flags
 $paymentsPaymentForm = $client->payments->getPaymentForm(
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-		msg_id : 92,
+		msg_id : 57,
 	),
 	theme_params : $client->dataJSON(
-		data : '70PK14Qs8zalIWvd',
+		data : 'kiIzQgxw4y01UZul',
 	),
 );
 ```

@@ -39,6 +39,6 @@ messages.deleteFactCheck#d1da940c peer:InputPeer msg_id:int = Updates;
 ```php
 $updates = $client->messages->deleteFactCheck(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 19,
+	msg_id : 75,
 );
 ```

@@ -14,7 +14,7 @@ updateBotCallbackQuery#b9cfc48d flags:# query_id:long user_id:long peer:Peer msg
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>query_id</mark> | [`long`](type/long) | Query ID |
 | <mark>user_id</mark> | [`long`](type/long) | ID of the user that pressed the button |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Chat where the inline keyboard was sent |
@@ -35,14 +35,14 @@ updateBotCallbackQuery#b9cfc48d flags:# query_id:long user_id:long peer:Peer msg
 
 ```php
 $update = $client->updateBotCallbackQuery(
-	query_id : -2192365412328876510,
-	user_id : 3697218184064528863,
+	query_id : 37219843851981782,
+	user_id : 8648762865106534984,
 	peer : $client->peerUser(
-		user_id : 2407135317633216363,
+		user_id : 4289204625554819551,
 	),
-	msg_id : 96,
-	chat_instance : 1130203167572371829,
+	msg_id : 17,
+	chat_instance : -6919435362153286746,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	game_short_name : 'dYFsaNmHIwA4rUfb',
+	game_short_name : 'TbDR0Ci16UgVJEhF',
 );
 ```

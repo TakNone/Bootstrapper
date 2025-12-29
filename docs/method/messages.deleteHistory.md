@@ -14,7 +14,7 @@ messages.deleteHistory#b08f922a flags:# just_clear:flags.0?true revoke:flags.1?t
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **just_clear** | [`flags.0?true`](type/true) | Just clear history for the current user, without actually removing messages for every chat user |
 | **revoke** | [`flags.1?true`](type/true) | Whether to delete the message history for all chat participants |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | User or chat, communication history of which will be deleted |
@@ -53,8 +53,8 @@ $messagesAffectedHistory = $client->messages->deleteHistory(
 	just_clear : true,
 	revoke : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	max_id : 80,
-	min_date : 88,
-	max_date : 2,
+	max_id : 3,
+	min_date : 55,
+	max_date : 83,
 );
 ```

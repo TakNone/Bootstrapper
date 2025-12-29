@@ -14,7 +14,7 @@ stats.getBroadcastStats#ab42441a flags:# dark:flags.0?true channel:InputChannel 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **dark** | [`flags.0?true`](type/true) | Whether to enable dark theme for graph colors |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | The channel |
 

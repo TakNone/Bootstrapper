@@ -30,9 +30,9 @@ phone.groupCallStreamChannels#d0e482b2 channels:Vector<GroupCallStreamChannel> =
 $phoneGroupCallStreamChannels = $client->phone->groupCallStreamChannels(
 	channels : array(
 		$client->groupCallStreamChannel(
-			channel : 33,
-			scale : 39,
-			last_timestamp_ms : -7894315748358315124,
+			channel : 13,
+			scale : 76,
+			last_timestamp_ms : -3440838396710903733,
 		),
 	),
 );

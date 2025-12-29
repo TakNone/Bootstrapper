@@ -14,7 +14,7 @@ phone.toggleGroupCallRecord#f128c708 flags:# start:flags.0?true video:flags.2?tr
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **start** | [`flags.0?true`](type/true) | Whether to start or stop recording |
 | **video** | [`flags.2?true`](type/true) | Whether to also record video streams |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call or livestream |
@@ -46,10 +46,10 @@ $updates = $client->phone->toggleGroupCallRecord(
 	start : true,
 	video : true,
 	call : $client->inputGroupCall(
-		id : -3333847172963726718,
-		access_hash : -6751776167977855065,
+		id : 4556383114539826266,
+		access_hash : 6705600304284572045,
 	),
-	title : 'R8lLmB67TusoqYy5',
-	video_portrait : false,
+	title : 'hpAQTEurZLbxGIe1',
+	video_portrait : true,
 );
 ```

@@ -14,7 +14,7 @@ messages.deleteMessages#e58e95d2 flags:# revoke:flags.0?true id:Vector<int> = me
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoke** | [`flags.0?true`](type/true) | Whether to delete messages for all participants of the chat |
 | <mark>id</mark> | [`Vector<int>`](type/int) | Message ID list |
 
@@ -43,6 +43,6 @@ messages.deleteMessages#e58e95d2 flags:# revoke:flags.0?true id:Vector<int> = me
 ```php
 $messagesAffectedMessages = $client->messages->deleteMessages(
 	revoke : true,
-	id : array(86),
+	id : array(6),
 );
 ```

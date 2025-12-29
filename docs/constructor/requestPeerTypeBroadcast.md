@@ -14,7 +14,7 @@ requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true user_admin_rights
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **creator** | [`flags.0?true`](type/true) | Whether to allow only choosing channels that were created by the current user |
 | **user_admin_rights** | [`flags.1?ChatAdminRights`](type/ChatAdminRights) | If specified, allows only choosing channels where the current user is an admin with at least the specified admin rights |
 | **has_username** | [`flags.3?Bool`](type/Bool) | If specified, allows only choosing channels with or without a username, according to the value of Bool |

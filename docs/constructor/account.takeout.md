@@ -28,6 +28,6 @@ account.takeout#4dba4501 id:long = account.Takeout;
 
 ```php
 $accountTakeout = $client->account->takeout(
-	id : -1031656231074331058,
+	id : -1354398974232389491,
 );
 ```

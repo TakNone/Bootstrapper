@@ -14,7 +14,7 @@ statsGraph#8ea464b6 flags:# json:DataJSON zoom_token:flags.0?string = StatsGraph
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>json</mark> | [`DataJSON`](type/DataJSON) | Statistics data |
 | **zoom_token** | [`flags.0?string`](type/string) | Zoom token |
 
@@ -31,8 +31,8 @@ statsGraph#8ea464b6 flags:# json:DataJSON zoom_token:flags.0?string = StatsGraph
 ```php
 $statsGraph = $client->statsGraph(
 	json : $client->dataJSON(
-		data : 'OSmwTKrbe6zYZ1dN',
+		data : 'eIoLwD3mrAvVsS0u',
 	),
-	zoom_token : 'XDzvKf2CQPRwkAqs',
+	zoom_token : 'sG9qHC063faMjNrc',
 );
 ```

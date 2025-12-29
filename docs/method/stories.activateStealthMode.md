@@ -14,7 +14,7 @@ stories.activateStealthMode#57bbd166 flags:# past:flags.0?true future:flags.1?tr
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **past** | [`flags.0?true`](type/true) | Whether to erase views from any stories opened in the past stories_stealth_past_period seconds », as specified by the client configuration |
 | **future** | [`flags.1?true`](type/true) | Whether to hide future story views for the next stories_stealth_future_period seconds », as specified by the client configuration |
 

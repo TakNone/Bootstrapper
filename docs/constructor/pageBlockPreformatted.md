@@ -30,6 +30,6 @@ pageBlockPreformatted#c070d93e text:RichText language:string = PageBlock;
 ```php
 $pageBlock = $client->pageBlockPreformatted(
 	text : $client->textEmpty(),
-	language : 'UaZ8NQFzeyH7v9bn',
+	language : 'hM7IgTJ3ZwL5xFKf',
 );
 ```

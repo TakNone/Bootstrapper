@@ -28,6 +28,6 @@ inputChatThemeUniqueGift#87e5dfe4 slug:string = InputChatTheme;
 
 ```php
 $inputChatTheme = $client->inputChatThemeUniqueGift(
-	slug : 'PpSy14KGVmLAwIqn',
+	slug : 'ucAkn5UsxheMTrI3',
 );
 ```

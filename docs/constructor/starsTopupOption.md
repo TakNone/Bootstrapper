@@ -14,7 +14,7 @@ starsTopupOption#bd915c0 flags:# extended:flags.1?true stars:long store_product:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **extended** | [`flags.1?true`](type/true) | If set, the option must only be shown in the full list of topup options |
 | <mark>stars</mark> | [`long`](type/long) | Amount of Telegram stars |
 | **store_product** | [`flags.0?string`](type/string) | Identifier of the store product associated with the option, official apps only |
@@ -34,9 +34,9 @@ starsTopupOption#bd915c0 flags:# extended:flags.1?true stars:long store_product:
 ```php
 $starsTopupOption = $client->starsTopupOption(
 	extended : true,
-	stars : 13901778968364342,
-	store_product : 'VAGNRpjYCszQc7DP',
-	currency : 'bVYqk6fD5jcRO3KJ',
-	amount : 3561236783076443714,
+	stars : 6285088703373094393,
+	store_product : 'KWtlO3mE0xCTbXML',
+	currency : 'aqEOhGunieyVDwb6',
+	amount : 895023398505538387,
 );
 ```

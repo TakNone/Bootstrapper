@@ -14,7 +14,7 @@ account.updateBusinessAwayMessage#a26a7fa5 flags:# message:flags.0?InputBusiness
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **message** | [`flags.0?InputBusinessAwayMessage`](type/InputBusinessAwayMessage) | Away message configuration and contents |
 
 ---
@@ -31,7 +31,7 @@ account.updateBusinessAwayMessage#a26a7fa5 flags:# message:flags.0?InputBusiness
 $bool = $client->account->updateBusinessAwayMessage(
 	message : $client->inputBusinessAwayMessage(
 		offline_only : true,
-		shortcut_id : 26,
+		shortcut_id : 52,
 		schedule : $client->businessAwayMessageScheduleAlways(),
 		recipients : $client->inputBusinessRecipients(
 			existing_chats : true,

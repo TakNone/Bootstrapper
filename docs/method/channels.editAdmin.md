@@ -83,6 +83,6 @@ $updates = $client->channels->editAdmin(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : 'psfzxYbP3t6THQX1',
+	rank : 'LluFVOHk5PrgeBqC',
 );
 ```

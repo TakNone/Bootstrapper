@@ -14,7 +14,7 @@ account.updateBusinessIntro#a614d034 flags:# intro:flags.0?InputBusinessIntro = 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **intro** | [`flags.0?InputBusinessIntro`](type/InputBusinessIntro) | Telegram Business introduction, to remove it call the method without setting this flag |
 
 ---
@@ -30,8 +30,8 @@ account.updateBusinessIntro#a614d034 flags:# intro:flags.0?InputBusinessIntro = 
 ```php
 $bool = $client->account->updateBusinessIntro(
 	intro : $client->inputBusinessIntro(
-		title : 'FWAgjzITufndX2Be',
-		description : 'k4bsKXnpRw89cTWI',
+		title : 'gUYepRcoXnKMmf6C',
+		description : 'pNwRYOcWX9zigrqv',
 		sticker : $client->inputDocumentEmpty(),
 	),
 );

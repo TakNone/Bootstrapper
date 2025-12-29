@@ -14,7 +14,7 @@ messages.setBotShippingResults#e5f672fa flags:# query_id:long error:flags.0?stri
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>query_id</mark> | [`long`](type/long) | Unique identifier for the query to be answered |
 | **error** | [`flags.0?string`](type/string) | Error message in human readable form that explains why it is impossible to complete the order (e.g. "Sorry, delivery to your desired address is unavailable"). Telegram will display this message to the user |
 | **shipping_options** | [`flags.1?Vector<ShippingOption>`](type/ShippingOption) | A vector of available shipping options |
@@ -40,16 +40,16 @@ messages.setBotShippingResults#e5f672fa flags:# query_id:long error:flags.0?stri
 
 ```php
 $bool = $client->messages->setBotShippingResults(
-	query_id : 8662876040730693092,
-	error : 'y6xofSl7Vh2YKv9p',
+	query_id : -5746152409128449419,
+	error : 'bARvhfIxjm47zuQl',
 	shipping_options : array(
 		$client->shippingOption(
-			id : 'UECvxVLi1qQ79Knf',
-			title : 'PkW0DYvH1b5ITgwc',
+			id : 'fAmwRya1qZ4McJIF',
+			title : 'NjwkKx4Wt01cFJYQ',
 			prices : array(
 				$client->labeledPrice(
-					label : 'D02QGI3h4xjJRlWf',
-					amount : -1216798313219588314,
+					label : 'nCzoVHwQbdrL29lN',
+					amount : 8840717511799116181,
 				),
 			),
 		),

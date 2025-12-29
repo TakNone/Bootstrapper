@@ -14,7 +14,7 @@ messages.markDialogUnread#8c5006f8 flags:# unread:flags.0?true parent_peer:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **unread** | [`flags.0?true`](type/true) | Mark as unread/read |
 | **parent_peer** | [`flags.1?InputPeer`](type/InputPeer) | If set, must be equal to the ID of a monoforum, and will affect the monoforum topic passed in peer |
 | <mark>peer</mark> | [`InputDialogPeer`](type/InputDialogPeer) | Dialog |

@@ -30,8 +30,8 @@ chatParticipant#c02d4007 user_id:long inviter_id:long date:int = ChatParticipant
 
 ```php
 $chatParticipant = $client->chatParticipant(
-	user_id : 2340451309730755546,
-	inviter_id : 4780947976566440641,
-	date : 82,
+	user_id : 3506945063299679130,
+	inviter_id : 1112573991874853541,
+	date : 40,
 );
 ```

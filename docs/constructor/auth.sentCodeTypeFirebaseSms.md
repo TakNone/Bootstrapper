@@ -14,7 +14,7 @@ auth.sentCodeTypeFirebaseSms#9fd736 flags:# nonce:flags.0?bytes play_integrity_p
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **nonce** | [`flags.0?bytes`](type/bytes) | On Android, the nonce to be used as described in the auth documentation » |
 | **play_integrity_project_id** | [`flags.2?long`](type/long) | Google Play Integrity project ID |
 | **play_integrity_nonce** | [`flags.2?bytes`](type/bytes) | Play Integrity API nonce |
@@ -35,10 +35,10 @@ auth.sentCodeTypeFirebaseSms#9fd736 flags:# nonce:flags.0?bytes play_integrity_p
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeFirebaseSms(
 	nonce : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	play_integrity_project_id : -5512259969232617484,
+	play_integrity_project_id : 4016478364577580057,
 	play_integrity_nonce : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	receipt : 'ZrOuPFJzW2Dg0dtk',
-	push_timeout : 84,
-	length : 30,
+	receipt : 'ATDRoEjx9zecLniJ',
+	push_timeout : 65,
+	length : 20,
 );
 ```

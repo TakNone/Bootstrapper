@@ -14,7 +14,7 @@ messages.sendEncryptedFile#5559481d flags:# silent:flags.0?true peer:InputEncryp
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **silent** | [`flags.0?true`](type/true) | Whether to send the file without triggering a notification |
 | <mark>peer</mark> | [`InputEncryptedChat`](type/InputEncryptedChat) | Secret chat ID |
 | <mark>random_id</mark> | [`long`](type/long) | Unique client message ID necessary to prevent message resending |
@@ -48,10 +48,10 @@ messages.sendEncryptedFile#5559481d flags:# silent:flags.0?true peer:InputEncryp
 $messagesSentEncryptedMessage = $client->messages->sendEncryptedFile(
 	silent : true,
 	peer : $client->inputEncryptedChat(
-		chat_id : 43,
-		access_hash : -2128316394071636024,
+		chat_id : 75,
+		access_hash : 6620708895980685384,
 	),
-	random_id : 5891972181920388294,
+	random_id : 7724610058400346879,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	file : $client->inputEncryptedFileEmpty(),
 );

@@ -14,7 +14,7 @@ smsjobs.updateSettings#93fa0bf flags:# allow_international:flags.0?true = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **allow_international** | [`flags.0?true`](type/true) | Allow international numbers? |
 
 ---

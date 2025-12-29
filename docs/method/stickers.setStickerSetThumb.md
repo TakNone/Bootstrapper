@@ -14,7 +14,7 @@ stickers.setStickerSetThumb#a76a5392 flags:# stickerset:InputStickerSet thumb:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>stickerset</mark> | [`InputStickerSet`](type/InputStickerSet) | Stickerset |
 | **thumb** | [`flags.0?InputDocument`](type/InputDocument) | Thumbnail (only for normal stickersets, not custom emoji stickersets) |
 | **thumb_document_id** | [`flags.1?long`](type/long) | Only for custom emoji stickersets, ID of a custom emoji present in the set to use as thumbnail; pass 0 to fallback to the first custom emoji of the set |
@@ -43,6 +43,6 @@ stickers.setStickerSetThumb#a76a5392 flags:# stickerset:InputStickerSet thumb:fl
 $messagesStickerSet = $client->stickers->setStickerSetThumb(
 	stickerset : $client->inputStickerSetEmpty(),
 	thumb : $client->inputDocumentEmpty(),
-	thumb_document_id : -4164012057411613996,
+	thumb_document_id : -4092424417227340831,
 );
 ```

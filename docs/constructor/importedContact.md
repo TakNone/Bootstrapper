@@ -29,7 +29,7 @@ importedContact#c13e3c50 user_id:long client_id:long = ImportedContact;
 
 ```php
 $importedContact = $client->importedContact(
-	user_id : 7581922408967005554,
-	client_id : 9147650127198180798,
+	user_id : -2378630211298869156,
+	client_id : 7875681684129784508,
 );
 ```

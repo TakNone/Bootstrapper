@@ -37,6 +37,6 @@ folders.deleteFolder#1c295881 folder_id:int = Updates;
 
 ```php
 $updates = $client->folders->deleteFolder(
-	folder_id : 33,
+	folder_id : 10,
 );
 ```

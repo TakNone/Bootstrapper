@@ -28,6 +28,6 @@ userStatusOffline#8c703f was_online:int = UserStatus;
 
 ```php
 $userStatus = $client->userStatusOffline(
-	was_online : 29,
+	was_online : 28,
 );
 ```

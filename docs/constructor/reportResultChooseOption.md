@@ -29,10 +29,10 @@ reportResultChooseOption#f0e4e0b6 title:string options:Vector<MessageReportOptio
 
 ```php
 $reportResult = $client->reportResultChooseOption(
-	title : 'ZXn7rMa6msSv0BTc',
+	title : 'JebQVO5AU8xEBd0s',
 	options : array(
 		$client->messageReportOption(
-			text : 'JC7r0UWlLjSgXbfB',
+			text : '3NUmPYL2idaujv8G',
 			option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

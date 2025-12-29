@@ -14,7 +14,7 @@ payments.upgradeStarGift#aed6e4f5 flags:# keep_original_details:flags.0?true sta
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **keep_original_details** | [`flags.0?true`](type/true) | Set this flag to keep the original gift text, sender and receiver in the upgraded gift as a starGiftAttributeOriginalDetails attribute |
 | <mark>stargift</mark> | [`InputSavedStarGift`](type/InputSavedStarGift) | The gift to upgrade |
 
@@ -46,7 +46,7 @@ payments.upgradeStarGift#aed6e4f5 flags:# keep_original_details:flags.0?true sta
 $updates = $client->payments->upgradeStarGift(
 	keep_original_details : true,
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 19,
+		msg_id : 27,
 	),
 );
 ```

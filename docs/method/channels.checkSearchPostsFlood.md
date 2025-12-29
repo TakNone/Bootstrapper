@@ -14,7 +14,7 @@ channels.checkSearchPostsFlood#22567115 flags:# query:flags.0?string = SearchPos
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **query** | [`flags.0?string`](type/string) | The query |
 
 ---
@@ -29,6 +29,6 @@ channels.checkSearchPostsFlood#22567115 flags:# query:flags.0?string = SearchPos
 
 ```php
 $searchPostsFlood = $client->channels->checkSearchPostsFlood(
-	query : 'lS18swOpKYADnFyN',
+	query : 'xeJSfu8OGUY5AR0c',
 );
 ```

@@ -14,7 +14,7 @@ payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **sort_by_price** | [`flags.1?true`](type/true) | Sort gifts by price (ascending) |
 | **sort_by_num** | [`flags.2?true`](type/true) | Sort gifts by number (ascending) |
 | **attributes_hash** | [`flags.0?long`](type/long) | If a previous call to the method was made and payments.resaleStarGifts.attributes_hash was set, pass it here to avoid returning any results if they haven't changed. Otherwise, set this flag and pass 0 to return payments.resaleStarGifts.attributes_hash and payments.resaleStarGifts.attributes, these two fields will not be set if this flag is not set |
@@ -45,20 +45,20 @@ payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_
 $paymentsResaleStarGifts = $client->payments->getResaleStarGifts(
 	sort_by_price : true,
 	sort_by_num : true,
-	attributes_hash : -8545861054021278867,
-	gift_id : 107563842200964037,
+	attributes_hash : -7584941777914417940,
+	gift_id : -4983909729438333959,
 	attributes : array(
 		$client->starGiftAttributeIdModel(
-			document_id : -6034817179786053141,
+			document_id : 4459512519130463548,
 		),
 		$client->starGiftAttributeIdPattern(
-			document_id : -990710652824381667,
+			document_id : -2345279721587637230,
 		),
 		$client->starGiftAttributeIdBackdrop(
-			backdrop_id : 31,
+			backdrop_id : 5,
 		),
 	),
-	offset : '7QWn82ZS1g4usDvC',
-	limit : 25,
+	offset : '98S35cVHRunogApW',
+	limit : 70,
 );
 ```

@@ -14,7 +14,7 @@ inputStickerSetItem#32da9e9c flags:# document:InputDocument emoji:string mask_co
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>document</mark> | [`InputDocument`](type/InputDocument) | The sticker |
 | <mark>emoji</mark> | [`string`](type/string) | Associated emoji |
 | **mask_coords** | [`flags.0?MaskCoords`](type/MaskCoords) | Coordinates for mask sticker |
@@ -33,13 +33,13 @@ inputStickerSetItem#32da9e9c flags:# document:InputDocument emoji:string mask_co
 ```php
 $inputStickerSetItem = $client->inputStickerSetItem(
 	document : $client->inputDocumentEmpty(),
-	emoji : 'FrTUgK0E4uDlIsny',
+	emoji : 'dsTxvyYlFOc6pmMi',
 	mask_coords : $client->maskCoords(
-		n : 63,
-		x : 586527.4248046875,
-		y : 1082062.83203125,
-		zoom : 1019662.8681640625,
+		n : 61,
+		x : 276317.9091796875,
+		y : -1535396.568359375,
+		zoom : 1287280.0048828125,
 	),
-	keywords : 'SUQ56fsoWDGAcC8u',
+	keywords : 'RsrBU4Ai2OTEuFN3',
 );
 ```

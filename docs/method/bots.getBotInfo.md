@@ -14,7 +14,7 @@ bots.getBotInfo#dcd914fd flags:# bot:flags.0?InputUser lang_code:string = bots.B
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **bot** | [`flags.0?InputUser`](type/InputUser) | If called by a user, must contain the peer of a bot we own |
 | <mark>lang_code</mark> | [`string`](type/string) | Language code, if left empty this method will return the fallback about text and description |
 
@@ -41,6 +41,6 @@ bots.getBotInfo#dcd914fd flags:# bot:flags.0?InputUser lang_code:string = bots.B
 ```php
 $botsBotInfo = $client->bots->getBotInfo(
 	bot : $client->get_input_user(user : '@TakNone'),
-	lang_code : 'ipVIRejScustEvAN',
+	lang_code : '7cpUks4CONVwSJM8',
 );
 ```

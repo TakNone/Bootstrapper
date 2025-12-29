@@ -14,7 +14,7 @@ updateReadChannelDiscussionInbox#d6b19546 flags:# channel_id:long top_msg_id:int
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>channel_id</mark> | [`long`](type/long) | Discussion group ID |
 | <mark>top_msg_id</mark> | [`int`](type/int) | ID of the group message that started the thread (message in linked discussion group) |
 | <mark>read_max_id</mark> | [`int`](type/int) | Message ID of latest read incoming message for this thread |
@@ -33,10 +33,10 @@ updateReadChannelDiscussionInbox#d6b19546 flags:# channel_id:long top_msg_id:int
 
 ```php
 $update = $client->updateReadChannelDiscussionInbox(
-	channel_id : -6669430363668423175,
-	top_msg_id : 80,
-	read_max_id : 47,
-	broadcast_id : -4029223098000243032,
-	broadcast_post : 58,
+	channel_id : -8607329517955994756,
+	top_msg_id : 90,
+	read_max_id : 35,
+	broadcast_id : -8992614517134353944,
+	broadcast_post : 0,
 );
 ```

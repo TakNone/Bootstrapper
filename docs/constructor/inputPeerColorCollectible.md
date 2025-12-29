@@ -26,6 +26,6 @@ inputPeerColorCollectible#b8ea86a9 collectible_id:long = PeerColor;
 
 ```php
 $peerColor = $client->inputPeerColorCollectible(
-	collectible_id : 8717268752280264009,
+	collectible_id : -3138901040915285017,
 );
 ```

@@ -30,6 +30,6 @@ recentMeUrlChat#b2da71d2 url:string chat_id:long = RecentMeUrl;
 ```php
 $recentMeUrl = $client->recentMeUrlChat(
 	url : 'https://docs.liveproto.dev',
-	chat_id : -1711510092318100090,
+	chat_id : 8045931656057756925,
 );
 ```

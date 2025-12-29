@@ -14,7 +14,7 @@ availableEffect#93c3e27e flags:# premium_required:flags.2?true id:long emoticon:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **premium_required** | [`flags.2?true`](type/true) | Whether a Premium subscription is required to use this effect |
 | <mark>id</mark> | [`long`](type/long) | Unique effect ID |
 | <mark>emoticon</mark> | [`string`](type/string) | Emoji corresponding to the effect, to be used as icon for the effect if static_icon_id is not set |
@@ -35,10 +35,10 @@ availableEffect#93c3e27e flags:# premium_required:flags.2?true id:long emoticon:
 ```php
 $availableEffect = $client->availableEffect(
 	premium_required : true,
-	id : -2777322294818077139,
-	emoticon : 'CQ7ZSukbvHzYR5lc',
-	static_icon_id : -562798701773620896,
-	effect_sticker_id : 3818744879908285558,
-	effect_animation_id : -7962466667044167009,
+	id : -4978063177039850194,
+	emoticon : 'rYRCLvq9tgT15iwQ',
+	static_icon_id : -3206213668373207397,
+	effect_sticker_id : -6488004021031234520,
+	effect_animation_id : 7458481318809811622,
 );
 ```

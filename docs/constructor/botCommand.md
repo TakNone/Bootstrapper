@@ -29,7 +29,7 @@ botCommand#c27ac8c7 command:string description:string = BotCommand;
 
 ```php
 $botCommand = $client->botCommand(
-	command : '3DRftkuOI7iPUJQ9',
-	description : 'tHDwibRZq7deJC8K',
+	command : 'WHTwDzCE1fmQ35uB',
+	description : 'X9YWl1BOHNkDaQfg',
 );
 ```

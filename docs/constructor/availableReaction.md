@@ -14,7 +14,7 @@ availableReaction#c077ec01 flags:# inactive:flags.0?true premium:flags.2?true re
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **inactive** | [`flags.0?true`](type/true) | If not set, the reaction can be added to new messages and enabled in chats |
 | **premium** | [`flags.2?true`](type/true) | Whether this reaction can only be used by Telegram Premium users |
 | <mark>reaction</mark> | [`string`](type/string) | Reaction emoji |
@@ -41,28 +41,28 @@ availableReaction#c077ec01 flags:# inactive:flags.0?true premium:flags.2?true re
 $availableReaction = $client->availableReaction(
 	inactive : true,
 	premium : true,
-	reaction : 'FjJIQOtPls2Bxfhc',
-	title : 'tZlh0gVsqkBPYyL4',
+	reaction : '58ge0x7PK2hoMlIv',
+	title : 'U1NpgG8cmhFk9inE',
 	static_icon : $client->documentEmpty(
-		id : 2242675222181738788,
+		id : -2252422169594408582,
 	),
 	appear_animation : $client->documentEmpty(
-		id : 9217551468375478155,
+		id : -1462568401400094611,
 	),
 	select_animation : $client->documentEmpty(
-		id : -5933502462151089431,
+		id : 4765890574973890943,
 	),
 	activate_animation : $client->documentEmpty(
-		id : -1682627840243316160,
+		id : 3872892582556430867,
 	),
 	effect_animation : $client->documentEmpty(
-		id : 8088778011711513077,
+		id : -5923010550772750217,
 	),
 	around_animation : $client->documentEmpty(
-		id : -4527883117862645304,
+		id : 7285392655394759149,
 	),
 	center_icon : $client->documentEmpty(
-		id : -772742717900760602,
+		id : -9193864587285717305,
 	),
 );
 ```

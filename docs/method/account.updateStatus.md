@@ -28,6 +28,6 @@ account.updateStatus#6628562c offline:Bool = Bool;
 
 ```php
 $bool = $client->account->updateStatus(
-	offline : false,
+	offline : true,
 );
 ```

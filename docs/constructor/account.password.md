@@ -14,7 +14,7 @@ account.password#957b50fb flags:# has_recovery:flags.0?true has_secure_values:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **has_recovery** | [`flags.0?true`](type/true) | Whether the user has a recovery method configured |
 | **has_secure_values** | [`flags.1?true`](type/true) | Whether telegram passport is enabled |
 | **has_password** | [`flags.2?true`](type/true) | Whether the user has a password |
@@ -46,13 +46,13 @@ $accountPassword = $client->account->password(
 	has_password : true,
 	current_algo : $client->passwordKdfAlgoUnknown(),
 	srp_B : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	srp_id : -2855538687889724427,
-	hint : 'HdSjxirhG3Zu5fMF',
+	srp_id : -9066679295535764595,
+	hint : 'A0PJkc42SR5G6Irn',
 	email_unconfirmed_pattern : 'reply@liveproto.dev',
 	new_algo : $client->passwordKdfAlgoUnknown(),
 	new_secure_algo : $client->securePasswordKdfAlgoUnknown(),
 	secure_random : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	pending_reset_date : 25,
+	pending_reset_date : 64,
 	login_email_pattern : 'reply@liveproto.dev',
 );
 ```

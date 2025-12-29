@@ -39,6 +39,6 @@ stories.togglePinnedToTop#b297e9b peer:InputPeer id:Vector<int> = Bool;
 ```php
 $bool = $client->stories->togglePinnedToTop(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(63),
+	id : array(41),
 );
 ```

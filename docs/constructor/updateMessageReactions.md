@@ -14,7 +14,7 @@ updateMessageReactions#1e297bfa flags:# peer:Peer msg_id:int top_msg_id:flags.0?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`Peer`](type/Peer) | Peer |
 | <mark>msg_id</mark> | [`int`](type/int) | Message ID |
 | **top_msg_id** | [`flags.0?int`](type/int) | Forum topic ID |
@@ -34,12 +34,12 @@ updateMessageReactions#1e297bfa flags:# peer:Peer msg_id:int top_msg_id:flags.0?
 ```php
 $update = $client->updateMessageReactions(
 	peer : $client->peerUser(
-		user_id : -3548434204295361596,
+		user_id : 520529794670483065,
 	),
-	msg_id : 41,
-	top_msg_id : 59,
+	msg_id : 11,
+	top_msg_id : 95,
 	saved_peer_id : $client->peerUser(
-		user_id : -8907696078159464758,
+		user_id : -1358787475485325429,
 	),
 	reactions : $client->messageReactions(
 		min : true,
@@ -47,9 +47,9 @@ $update = $client->updateMessageReactions(
 		reactions_as_tags : true,
 		results : array(
 			$client->reactionCount(
-				chosen_order : 93,
+				chosen_order : 12,
 				reaction : $client->reactionEmpty(),
-				count : 10,
+				count : 77,
 			),
 		),
 		recent_reactions : array(
@@ -58,9 +58,9 @@ $update = $client->updateMessageReactions(
 				unread : true,
 				my : true,
 				peer_id : $client->peerUser(
-					user_id : -1818688677357692430,
+					user_id : -9072898859712092937,
 				),
-				date : 38,
+				date : 41,
 				reaction : $client->reactionEmpty(),
 			),
 		),
@@ -70,9 +70,9 @@ $update = $client->updateMessageReactions(
 				my : true,
 				anonymous : true,
 				peer_id : $client->peerUser(
-					user_id : -2576127263380727163,
+					user_id : 3275897387951415042,
 				),
-				count : 63,
+				count : 78,
 			),
 		),
 	),

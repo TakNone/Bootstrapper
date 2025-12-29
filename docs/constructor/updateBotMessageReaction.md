@@ -35,33 +35,33 @@ updateBotMessageReaction#ac21d3ce peer:Peer msg_id:int date:int actor:Peer old_r
 ```php
 $update = $client->updateBotMessageReaction(
 	peer : $client->peerUser(
-		user_id : -6414191173291006320,
+		user_id : -8204744495121890917,
 	),
-	msg_id : 49,
-	date : 51,
+	msg_id : 39,
+	date : 66,
 	actor : $client->peerUser(
-		user_id : 7968428394849837262,
+		user_id : 5088575983986420223,
 	),
 	old_reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'zrPbwg2Jnx3ZKLA7',
+			emoticon : 'nCUPhD2vjARNWBK7',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 1018133020996564521,
+			document_id : 2582807557751775909,
 		),
 		$client->reactionPaid(),
 	),
 	new_reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'MGQKe8D56I2YsJha',
+			emoticon : 'O1uTvMHnLkoqxUIi',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 4875669302121419024,
+			document_id : -5775769808134658414,
 		),
 		$client->reactionPaid(),
 	),
-	qts : 16,
+	qts : 87,
 );
 ```

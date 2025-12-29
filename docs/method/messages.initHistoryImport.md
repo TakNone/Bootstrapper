@@ -45,6 +45,6 @@ messages.initHistoryImport#34090c3b peer:InputPeer file:InputFile media_count:in
 $messagesHistoryImport = $client->messages->initHistoryImport(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	file : $client->upload_file(path : 'file.png'),
-	media_count : 4,
+	media_count : 86,
 );
 ```

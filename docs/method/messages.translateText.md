@@ -14,7 +14,7 @@ messages.translateText#63183030 flags:# peer:flags.0?InputPeer id:flags.0?Vector
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **peer** | [`flags.0?InputPeer`](type/InputPeer) | If the text is a chat message, the peer ID |
 | **id** | [`flags.0?Vector<int>`](type/int) | A list of message IDs to translate |
 | **text** | [`flags.1?Vector<TextWithEntities>`](type/TextWithEntities) | A list of styled messages to translate |
@@ -49,104 +49,104 @@ messages.translateText#63183030 flags:# peer:flags.0?InputPeer id:flags.0?Vector
 ```php
 $messagesTranslatedText = $client->messages->translateText(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(52),
+	id : array(82),
 	text : array(
 		$client->textWithEntities(
-			text : 'u8TaXD4zLF7n3KEt',
+			text : '2ASBlNkGfW7YpZE6',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 9,
+					length : 5,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 29,
+					length : 2,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 90,
+					length : 86,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 100,
+					length : 79,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 29,
+					length : 11,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 45,
+					length : 21,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 68,
+					length : 13,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 31,
+					length : 20,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 29,
+					length : 57,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 61,
-					language : 'cBdb54zCKivlOZHf',
+					length : 19,
+					language : 'Wbrh3EDOo9qgCmcI',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 5,
+					length : 74,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 46,
-					user_id : 6590843677624030533,
+					length : 70,
+					user_id : 5762459659137404386,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 12,
+					length : 38,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 44,
+					length : 69,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 63,
+					length : 8,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 40,
+					length : 28,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 51,
+					length : 1,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 65,
+					length : 74,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 43,
+					length : 10,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 47,
-					document_id : 6243716488170758703,
+					length : 95,
+					document_id : 7789449428754057165,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 80,
+					length : 4,
 				),
 			),
 		),
 	),
-	to_lang : 'eoH95RuvW7DKSq6Y',
+	to_lang : 'bHyfTQ1Va6J3EYd0',
 );
 ```

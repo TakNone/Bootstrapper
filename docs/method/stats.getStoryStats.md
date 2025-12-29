@@ -14,7 +14,7 @@ stats.getStoryStats#374fef40 flags:# dark:flags.0?true peer:InputPeer id:int = s
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **dark** | [`flags.0?true`](type/true) | Whether to enable the dark theme for graph colors |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The peer that posted the story |
 | <mark>id</mark> | [`int`](type/int) | Story ID |
@@ -42,6 +42,6 @@ stats.getStoryStats#374fef40 flags:# dark:flags.0?true peer:InputPeer id:int = s
 $statsStoryStats = $client->stats->getStoryStats(
 	dark : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 85,
+	id : 90,
 );
 ```

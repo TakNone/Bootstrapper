@@ -14,7 +14,7 @@ account.registerDevice#ec86017a flags:# no_muted:flags.0?true token_type:int tok
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **no_muted** | [`flags.0?true`](type/true) | Avoid receiving (silent and invisible background) notifications. Useful to save battery |
 | <mark>token_type</mark> | [`int`](type/int) | Device token type, see PUSH updates for the possible values |
 | <mark>token</mark> | [`string`](type/string) | Device token, see PUSH updates for the possible values |
@@ -48,10 +48,10 @@ account.registerDevice#ec86017a flags:# no_muted:flags.0?true token_type:int tok
 ```php
 $bool = $client->account->registerDevice(
 	no_muted : true,
-	token_type : 56,
-	token : 'IUAkaP7WzGbmRjdx',
+	token_type : 61,
+	token : '4dhTwPSyGtc6JZmF',
 	app_sandbox : true,
 	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	other_uids : array(8907407088292490889),
+	other_uids : array(1046899217719374371),
 );
 ```

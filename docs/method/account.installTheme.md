@@ -14,7 +14,7 @@ account.installTheme#c727bb3b flags:# dark:flags.0?true theme:flags.1?InputTheme
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **dark** | [`flags.0?true`](type/true) | Whether to install the dark version |
 | **theme** | [`flags.1?InputTheme`](type/InputTheme) | Theme to install |
 | **format** | [`flags.2?string`](type/string) | Theme format, a string that identifies the theming engines supported by the client |
@@ -34,10 +34,10 @@ account.installTheme#c727bb3b flags:# dark:flags.0?true theme:flags.1?InputTheme
 $bool = $client->account->installTheme(
 	dark : true,
 	theme : $client->inputTheme(
-		id : -3360184029476830963,
-		access_hash : -3874022758202134930,
+		id : -8657565067877370737,
+		access_hash : 6025409037181025732,
 	),
-	format : 'dA0TkIsLqymDB8wp',
+	format : 'ceo4rPdjytJKgG2Y',
 	base_theme : $client->baseThemeClassic(),
 );
 ```

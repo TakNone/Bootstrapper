@@ -14,7 +14,7 @@ updates.getChannelDifference#3173d78 flags:# force:flags.0?true channel:InputCha
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **force** | [`flags.0?true`](type/true) | Set to true to skip some possibly unneeded updates and reduce server-side load |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | The channel |
 | <mark>filter</mark> | [`ChannelMessagesFilter`](type/ChannelMessagesFilter) | Messsage filter |
@@ -57,7 +57,7 @@ $updatesChannelDifference = $client->updates->getChannelDifference(
 	force : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	filter : $client->channelMessagesFilterEmpty(),
-	pts : 48,
-	limit : 84,
+	pts : 58,
+	limit : 17,
 );
 ```

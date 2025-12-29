@@ -39,7 +39,7 @@ langpack.getLangPack#f2f2330a lang_pack:string lang_code:string = LangPackDiffer
 
 ```php
 $langPackDifference = $client->langpack->getLangPack(
-	lang_pack : 'ytd8MoTv5bZi42Jh',
-	lang_code : 'VrlT6ai9ERDH3Jow',
+	lang_pack : 'yFDfTlKZw9iYqSs0',
+	lang_code : 'cIGZNVqU24TBdrjf',
 );
 ```

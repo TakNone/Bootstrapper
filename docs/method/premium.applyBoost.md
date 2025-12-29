@@ -14,7 +14,7 @@ premium.applyBoost#6b7da746 flags:# slots:flags.0?Vector<int> peer:InputPeer = p
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **slots** | [`flags.0?Vector<int>`](type/int) | Which boost slots to assign to this peer |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The peer to boost |
 
@@ -40,7 +40,7 @@ premium.applyBoost#6b7da746 flags:# slots:flags.0?Vector<int> peer:InputPeer = p
 
 ```php
 $premiumMyBoosts = $client->premium->applyBoost(
-	slots : array(32),
+	slots : array(62),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

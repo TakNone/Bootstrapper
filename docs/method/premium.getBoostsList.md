@@ -14,7 +14,7 @@ premium.getBoostsList#60f67660 flags:# gifts:flags.0?true peer:InputPeer offset:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **gifts** | [`flags.0?true`](type/true) | Whether to return only info about boosts received from gift codes and giveaways created by the channel/supergroup » |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The channel/supergroup |
 | <mark>offset</mark> | [`string`](type/string) | Offset for pagination, obtained from premium.boostsList.next_offset |
@@ -43,7 +43,7 @@ premium.getBoostsList#60f67660 flags:# gifts:flags.0?true peer:InputPeer offset:
 $premiumBoostsList = $client->premium->getBoostsList(
 	gifts : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'fqJEUy4jt8Prkp5G',
-	limit : 12,
+	offset : 'KsGhYcvfbDUA89dk',
+	limit : 92,
 );
 ```

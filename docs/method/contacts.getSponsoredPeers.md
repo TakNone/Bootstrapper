@@ -36,6 +36,6 @@ contacts.getSponsoredPeers#b6c8c393 q:string = contacts.SponsoredPeers;
 
 ```php
 $contactsSponsoredPeers = $client->contacts->getSponsoredPeers(
-	q : 'LfZEJ3ruTyUlXkab',
+	q : 'ByhYA5f80UDmwoSv',
 );
 ```

@@ -14,7 +14,7 @@ account.updateTheme#2bf40ccc flags:# format:string theme:InputTheme slug:flags.0
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>format</mark> | [`string`](type/string) | Theme format, a string that identifies the theming engines supported by the client |
 | <mark>theme</mark> | [`InputTheme`](type/InputTheme) | Theme to update |
 | **slug** | [`flags.0?string`](type/string) | Unique theme ID |
@@ -42,35 +42,35 @@ account.updateTheme#2bf40ccc flags:# format:string theme:InputTheme slug:flags.0
 
 ```php
 $theme = $client->account->updateTheme(
-	format : 'ZpRosQPnSxNiv9Ut',
+	format : 'yu8IeJt9frOqh3XA',
 	theme : $client->inputTheme(
-		id : 8754779485742984207,
-		access_hash : 6875201118075728900,
+		id : -5388931693011647562,
+		access_hash : -1590837408115996041,
 	),
-	slug : 'pC4NMglf7ZKrVmik',
-	title : 'xv6POHdYAMc8I3pD',
+	slug : 'FjMkzUut2NRZ1Wfl',
+	title : '8jrAIwEc6abWLdQY',
 	document : $client->inputDocumentEmpty(),
 	settings : array(
 		$client->inputThemeSettings(
 			message_colors_animated : true,
 			base_theme : $client->baseThemeClassic(),
-			accent_color : 35,
-			outbox_accent_color : 47,
-			message_colors : array(5),
+			accent_color : 71,
+			outbox_accent_color : 22,
+			message_colors : array(96),
 			wallpaper : $client->inputWallPaper(
-				id : 5883878846090574639,
-				access_hash : 8773411762611694576,
+				id : 4738762414445171614,
+				access_hash : 7540811384755810645,
 			),
 			wallpaper_settings : $client->wallPaperSettings(
 				blur : true,
 				motion : true,
-				background_color : 65,
-				second_background_color : 73,
-				third_background_color : 79,
-				fourth_background_color : 21,
-				intensity : 92,
-				rotation : 7,
-				emoticon : 'E62joHL9v1U7yu5f',
+				background_color : 7,
+				second_background_color : 50,
+				third_background_color : 25,
+				fourth_background_color : 77,
+				intensity : 57,
+				rotation : 84,
+				emoticon : 'Ty2nVK9NBmj0Iqpd',
 			),
 		),
 	),

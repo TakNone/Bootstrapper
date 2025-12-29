@@ -14,7 +14,7 @@ photos.uploadContactProfilePhoto#e14c4a71 flags:# suggest:flags.3?true save:flag
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **suggest** | [`flags.3?true`](type/true) | If set, will send a messageActionSuggestProfilePhoto service message to user_id, suggesting them to use the specified profile picture; otherwise, will set a personal profile picture for the user (only visible to the current user) |
 | **save** | [`flags.4?true`](type/true) | If set, removes a previously set personal profile picture (does not affect suggested profile pictures, to remove them simply delete the messageActionSuggestProfilePhoto service message with messages.deleteMessages) |
 | <mark>user_id</mark> | [`InputUser`](type/InputUser) | The contact |
@@ -49,13 +49,13 @@ $photosPhoto = $client->photos->uploadContactProfilePhoto(
 	user_id : $client->get_input_user(user : '@TakNone'),
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : 237044.515625,
+	video_start_ts : 862526.0576171875,
 	video_emoji_markup : $client->videoSize(
-		type : 'mMojKcG1Ih5SbDyp',
-		w : 30,
-		h : 7,
-		size : 45,
-		video_start_ts : -140833.3671875,
+		type : 'thfxop8N0G3rFc9K',
+		w : 91,
+		h : 33,
+		size : 22,
+		video_start_ts : 718276.654296875,
 	),
 );
 ```

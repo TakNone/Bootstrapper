@@ -14,7 +14,7 @@ documentAttributeCustomEmoji#fd149899 flags:# free:flags.0?true text_color:flags
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **free** | [`flags.0?true`](type/true) | Whether this custom emoji can be sent by non-Premium users |
 | **text_color** | [`flags.1?true`](type/true) | Whether the color of this TGS custom emoji should be changed to the text color when used in messages, the accent color if used as emoji status, white on chat photos, or another appropriate color based on context |
 | <mark>alt</mark> | [`string`](type/string) | The actual emoji |
@@ -34,7 +34,7 @@ documentAttributeCustomEmoji#fd149899 flags:# free:flags.0?true text_color:flags
 $documentAttribute = $client->documentAttributeCustomEmoji(
 	free : true,
 	text_color : true,
-	alt : 'yrzPSmNxJKbU2W7o',
+	alt : 'sR4xCUWK7MjvnDTr',
 	stickerset : $client->inputStickerSetEmpty(),
 );
 ```

@@ -14,7 +14,7 @@ messages.reorderStickerSets#78337739 flags:# masks:flags.0?true emojis:flags.1?t
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **masks** | [`flags.0?true`](type/true) | Reorder mask stickersets |
 | **emojis** | [`flags.1?true`](type/true) | Reorder custom emoji stickersets |
 | <mark>order</mark> | [`Vector<long>`](type/long) | New stickerset order by stickerset IDs |
@@ -33,6 +33,6 @@ messages.reorderStickerSets#78337739 flags:# masks:flags.0?true emojis:flags.1?t
 $bool = $client->messages->reorderStickerSets(
 	masks : true,
 	emojis : true,
-	order : array(7773328047216122182),
+	order : array(4726964321718304380),
 );
 ```

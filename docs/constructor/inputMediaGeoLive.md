@@ -14,7 +14,7 @@ inputMediaGeoLive#971fa843 flags:# stopped:flags.0?true geo_point:InputGeoPoint 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **stopped** | [`flags.0?true`](type/true) | Whether sending of the geolocation was stopped |
 | <mark>geo_point</mark> | [`InputGeoPoint`](type/InputGeoPoint) | Current geolocation |
 | **heading** | [`flags.2?int`](type/int) | For live locations, a direction in which the location moves, in degrees; 1-360 |
@@ -35,8 +35,8 @@ inputMediaGeoLive#971fa843 flags:# stopped:flags.0?true geo_point:InputGeoPoint 
 $inputMedia = $client->inputMediaGeoLive(
 	stopped : true,
 	geo_point : $client->inputGeoPointEmpty(),
-	heading : 69,
-	period : 0,
-	proximity_notification_radius : 100,
+	heading : 16,
+	period : 39,
+	proximity_notification_radius : 26,
 );
 ```

@@ -46,7 +46,7 @@ $messagesPeerDialogs = $client->messages->getPeerDialogs(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 		),
 		$client->inputDialogPeerFolder(
-			folder_id : 40,
+			folder_id : 7,
 		),
 	),
 );

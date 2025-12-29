@@ -14,7 +14,7 @@ phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:I
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **can_self_unmute** | [`flags.0?true`](type/true) | For livestreams or muted group chats, if set, users that join using this link will be able to speak without explicitly requesting permission by (for example by raising their hand) |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call |
 
@@ -41,8 +41,8 @@ phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:I
 $phoneExportedGroupCallInvite = $client->phone->exportGroupCallInvite(
 	can_self_unmute : true,
 	call : $client->inputGroupCall(
-		id : 6537443766475117142,
-		access_hash : -572261562212508811,
+		id : -1636946140818468922,
+		access_hash : -4167350829020666857,
 	),
 );
 ```

@@ -14,7 +14,7 @@ auth.sentCodeTypeEmailCode#f450f59b flags:# apple_signin_allowed:flags.0?true go
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **apple_signin_allowed** | [`flags.0?true`](type/true) | Whether authorization through Apple ID is allowed |
 | **google_signin_allowed** | [`flags.1?true`](type/true) | Whether authorization through Google ID is allowed |
 | <mark>email_pattern</mark> | [`string`](type/string) | Pattern of the email |
@@ -37,8 +37,8 @@ $authSentCodeType = $client->auth->sentCodeTypeEmailCode(
 	apple_signin_allowed : true,
 	google_signin_allowed : true,
 	email_pattern : 'reply@liveproto.dev',
-	length : 13,
-	reset_available_period : 72,
-	reset_pending_date : 96,
+	length : 17,
+	reset_available_period : 23,
+	reset_pending_date : 1,
 );
 ```

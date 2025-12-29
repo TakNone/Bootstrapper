@@ -14,7 +14,7 @@ updateChannelUserTyping#8c88c923 flags:# channel_id:long top_msg_id:flags.0?int 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>channel_id</mark> | [`long`](type/long) | Channel ID |
 | **top_msg_id** | [`flags.0?int`](type/int) | Thread ID |
 | <mark>from_id</mark> | [`Peer`](type/Peer) | The peer that is typing |
@@ -32,10 +32,10 @@ updateChannelUserTyping#8c88c923 flags:# channel_id:long top_msg_id:flags.0?int 
 
 ```php
 $update = $client->updateChannelUserTyping(
-	channel_id : -8205542468564810168,
-	top_msg_id : 54,
+	channel_id : -4621944582859362758,
+	top_msg_id : 85,
 	from_id : $client->peerUser(
-		user_id : -2820054727924471627,
+		user_id : 9047770425490303708,
 	),
 	action : $client->sendMessageTypingAction(),
 );

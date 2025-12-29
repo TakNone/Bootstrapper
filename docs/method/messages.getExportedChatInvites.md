@@ -14,7 +14,7 @@ messages.getExportedChatInvites#a2b5a3f6 flags:# revoked:flags.3?true peer:Input
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **revoked** | [`flags.3?true`](type/true) | Whether to fetch revoked chat invites |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Chat |
 | <mark>admin_id</mark> | [`InputUser`](type/InputUser) | Whether to only fetch chat invites from this admin |
@@ -52,7 +52,7 @@ $messagesExportedChatInvites = $client->messages->getExportedChatInvites(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	admin_id : $client->get_input_user(user : '@TakNone'),
 	offset_date : 0,
-	offset_link : 'mWBo2Xr40F6VAfJc',
-	limit : 26,
+	offset_link : 'SIdDbOqi07pTesX8',
+	limit : 19,
 );
 ```

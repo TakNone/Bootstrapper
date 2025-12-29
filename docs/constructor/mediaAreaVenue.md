@@ -35,18 +35,18 @@ mediaAreaVenue#be82db9c coordinates:MediaAreaCoordinates geo:GeoPoint title:stri
 ```php
 $mediaArea = $client->mediaAreaVenue(
 	coordinates : $client->mediaAreaCoordinates(
-		x : -1758381.5556640625,
-		y : 1805336.7333984375,
-		w : -286380.6240234375,
-		h : 511787.9267578125,
-		rotation : -1044416.388671875,
-		radius : -45787.171875,
+		x : -367906.1611328125,
+		y : 1348809.03515625,
+		w : -917507.5263671875,
+		h : 2064468.34765625,
+		rotation : -858396.1025390625,
+		radius : 1330260.57421875,
 	),
 	geo : $client->geoPointEmpty(),
-	title : '06jLpe2aDoHnbgyA',
-	address : '6mTj9gK0R7xpZBtJ',
-	provider : 'dYQFbzBsnZUH7pu8',
-	venue_id : 'v8YEwR7d6pIJHhFj',
-	venue_type : 'ukCFWr9RUjzKl7vV',
+	title : 'F6Y4uCoXtfaQTROc',
+	address : 'mC08hYEigZRBMnTk',
+	provider : 'a46GUq27R83hpHZC',
+	venue_id : 'bx0lcq93dMuAiTsX',
+	venue_type : 'qmdsKPVo4MwjzpI3',
 );
 ```

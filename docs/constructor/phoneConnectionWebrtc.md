@@ -14,7 +14,7 @@ phoneConnectionWebrtc#635fe375 flags:# turn:flags.0?true stun:flags.1?true id:lo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **turn** | [`flags.0?true`](type/true) | Whether this is a TURN endpoint |
 | **stun** | [`flags.1?true`](type/true) | Whether this is a STUN endpoint |
 | <mark>id</mark> | [`long`](type/long) | Endpoint ID |
@@ -38,11 +38,11 @@ phoneConnectionWebrtc#635fe375 flags:# turn:flags.0?true stun:flags.1?true id:lo
 $phoneConnection = $client->phoneConnectionWebrtc(
 	turn : true,
 	stun : true,
-	id : 2526514458842513445,
+	id : -4897518718174815388,
 	ip : '127.0.0.1',
 	ipv6 : '127.0.0.1',
-	port : 21,
+	port : 75,
 	username : 'TakNone',
-	password : 'b7YPToy4t18vgKhC',
+	password : 'ktGMzxCYqof3PLEW',
 );
 ```

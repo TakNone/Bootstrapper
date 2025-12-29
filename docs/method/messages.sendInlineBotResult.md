@@ -14,7 +14,7 @@ messages.sendInlineBotResult#c0cf7646 flags:# silent:flags.5?true background:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **silent** | [`flags.5?true`](type/true) | Whether to send the message silently (no notification will be triggered on the other client) |
 | **background** | [`flags.6?true`](type/true) | Whether to send the message in background |
 | **clear_draft** | [`flags.7?true`](type/true) | Whether to clear the draft |
@@ -94,114 +94,114 @@ $updates = $client->messages->sendInlineBotResult(
 	hide_via : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 52,
-		top_msg_id : 54,
+		reply_to_msg_id : 94,
+		top_msg_id : 92,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'mLtuC4U85TeiZDE9',
+		quote_text : '8tNGH3y4apEFjbSB',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 22,
+				length : 98,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 81,
+				length : 24,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 66,
+				length : 44,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 26,
+				length : 21,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 27,
+				length : 73,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 96,
+				length : 81,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 87,
+				length : 22,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 95,
+				length : 70,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 60,
+				length : 6,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 76,
-				language : 'WECqgedAIXmN62jc',
+				length : 44,
+				language : '5mhOHKPsowdfrXg6',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 45,
+				length : 68,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 99,
-				user_id : 6344355101945291276,
+				length : 63,
+				user_id : 5824734599487934471,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 94,
+				length : 60,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 13,
+				length : 79,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 54,
+				length : 45,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 99,
+				length : 96,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 94,
+				length : 2,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 83,
+				length : 7,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 66,
+				length : 25,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 66,
-				document_id : -5736115105400327289,
+				length : 23,
+				document_id : 5029486487956397913,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 61,
+				length : 36,
 			),
 		),
-		quote_offset : 24,
+		quote_offset : 3,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 69,
+		todo_item_id : 94,
 	),
-	random_id : 6236839903130359300,
-	query_id : 6502651806140671553,
-	id : '6C9UcqjQsiBWPtnx',
-	schedule_date : 33,
+	random_id : 7403724837862839635,
+	query_id : -7972502248618073083,
+	id : 'Ebca5ry8St1IYUnq',
+	schedule_date : 70,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'Jp0OY7MDjZUkGWi9',
+		shortcut : '3s0VnxgGMou7cih9',
 	),
-	allow_paid_stars : 1653208751529841161,
+	allow_paid_stars : -6872120630747568442,
 );
 ```

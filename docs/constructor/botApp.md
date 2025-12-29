@@ -14,7 +14,7 @@ botApp#95fcd1d6 flags:# id:long access_hash:long short_name:string title:string 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>id</mark> | [`long`](type/long) | bot mini app ID |
 | <mark>access_hash</mark> | [`long`](type/long) | bot mini app access hash |
 | <mark>short_name</mark> | [`string`](type/string) | bot mini app short name, used to generate Direct Mini App deep links |
@@ -36,16 +36,16 @@ botApp#95fcd1d6 flags:# id:long access_hash:long short_name:string title:string 
 
 ```php
 $botApp = $client->botApp(
-	id : -7951091973153419325,
-	access_hash : 7400701194144166828,
-	short_name : 'rp1HmQK0hO96oNCq',
-	title : 'MXmOpNqu5hFKDdLE',
-	description : 'CNpE14umgSxUZOqv',
+	id : -2466369665572998264,
+	access_hash : 6116809218480263857,
+	short_name : 'vfaeNSTB0EYQ7jil',
+	title : 'dcjyBgKSN95w6Xsn',
+	description : 'Xw2lM0VKbv5gx1QW',
 	photo : $client->photoEmpty(
-		id : -1853238249119982637,
+		id : 5766380139500167065,
 	),
 	document : $client->documentEmpty(
-		id : 5531358391195085580,
+		id : -1316360040083193607,
 	),
 	hash : 0,
 );

@@ -28,6 +28,6 @@ updates.differenceTooLong#4afe8f6d pts:int = updates.Difference;
 
 ```php
 $updatesDifference = $client->updates->differenceTooLong(
-	pts : 11,
+	pts : 36,
 );
 ```

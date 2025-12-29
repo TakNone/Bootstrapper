@@ -39,7 +39,7 @@ chatlists.getChatlistUpdates#89419521 chatlist:InputChatlist = chatlists.Chatlis
 ```php
 $chatlistsChatlistUpdates = $client->chatlists->getChatlistUpdates(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 6,
+		filter_id : 76,
 	),
 );
 ```

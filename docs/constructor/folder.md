@@ -14,7 +14,7 @@ folder#ff544e65 flags:# autofill_new_broadcasts:flags.0?true autofill_public_gro
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **autofill_new_broadcasts** | [`flags.0?true`](type/true) | Automatically add new channels to this folder |
 | **autofill_public_groups** | [`flags.1?true`](type/true) | Automatically add joined new public supergroups to this folder |
 | **autofill_new_correspondents** | [`flags.2?true`](type/true) | Automatically add new private chats to this folder |
@@ -37,8 +37,8 @@ $folder = $client->folder(
 	autofill_new_broadcasts : true,
 	autofill_public_groups : true,
 	autofill_new_correspondents : true,
-	id : 48,
-	title : '1z7e9Mlk8nbWCSoq',
+	id : 90,
+	title : 'ORgcsxqlmJpwEV1Q',
 	photo : $client->chatPhotoEmpty(),
 );
 ```

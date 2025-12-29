@@ -14,7 +14,7 @@ auth.resendCode#cae47523 flags:# phone_number:string phone_code_hash:string reas
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>phone_number</mark> | [`string`](type/string) | The phone number |
 | <mark>phone_code_hash</mark> | [`string`](type/string) | The phone code hash obtained from auth.sendCode |
 | **reason** | [`flags.0?string`](type/string) | Official clients only, used if the device integrity verification failed, and no secret could be obtained to invoke auth.requestFirebaseSms: in this case, the device integrity verification failure reason must be passed here |
@@ -45,6 +45,6 @@ auth.resendCode#cae47523 flags:# phone_number:string phone_code_hash:string reas
 $authSentCode = $client->auth->resendCode(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	reason : 'KB3lCT5f1gotcJDH',
+	reason : 'ZaxHsWCTkubBr84h',
 );
 ```

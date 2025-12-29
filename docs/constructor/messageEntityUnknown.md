@@ -30,6 +30,6 @@ messageEntityUnknown#bb92ba95 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityUnknown(
 	offset : 0,
-	length : 15,
+	length : 44,
 );
 ```

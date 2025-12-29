@@ -14,7 +14,7 @@ account.passwordInputSettings#c23727c9 flags:# new_algo:flags.0?PasswordKdfAlgo 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **new_algo** | [`flags.0?PasswordKdfAlgo`](type/PasswordKdfAlgo) | The SRP algorithm to use |
 | **new_password_hash** | [`flags.0?bytes`](type/bytes) | The computed password hash |
 | **hint** | [`flags.0?string`](type/string) | Text hint for the password |
@@ -35,12 +35,12 @@ account.passwordInputSettings#c23727c9 flags:# new_algo:flags.0?PasswordKdfAlgo 
 $accountPasswordInputSettings = $client->account->passwordInputSettings(
 	new_algo : $client->passwordKdfAlgoUnknown(),
 	new_password_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	hint : 'lESBrOYJfRkIbT1V',
+	hint : 'bgAhMalDsQINEr5m',
 	email : 'reply@liveproto.dev',
 	new_secure_settings : $client->secureSecretSettings(
 		secure_algo : $client->securePasswordKdfAlgoUnknown(),
 		secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		secure_secret_id : 6265117609636377602,
+		secure_secret_id : 9161836546435578034,
 	),
 );
 ```

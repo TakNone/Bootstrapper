@@ -14,7 +14,7 @@ webPageEmpty#211a1788 flags:# id:long url:flags.0?string = WebPage;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>id</mark> | [`long`](type/long) | Preview ID |
 | **url** | [`flags.0?string`](type/string) | URL of the webpage |
 
@@ -30,7 +30,7 @@ webPageEmpty#211a1788 flags:# id:long url:flags.0?string = WebPage;
 
 ```php
 $webPage = $client->webPageEmpty(
-	id : -9018942262565278020,
+	id : 350563617672570565,
 	url : 'https://docs.liveproto.dev',
 );
 ```

@@ -12,7 +12,7 @@ messages.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | **reset_invite_hash** | [`flags.1?true`](type/true) | NOTHING |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
 | **join_muted** | [`flags.0?Bool`](type/Bool) | NOTHING |
@@ -33,11 +33,11 @@ messages.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true
 $updates = $client->messages->toggleGroupCallSettings(
 	reset_invite_hash : true,
 	call : $client->inputGroupCall(
-		id : -3277002202987501896,
-		access_hash : 246969839626815776,
+		id : 5618960905038375595,
+		access_hash : -4573191036586701761,
 	),
 	join_muted : false,
 	messages_enabled : true,
-	send_paid_messages_stars : -9177801670448920029,
+	send_paid_messages_stars : 1750590671026863843,
 );
 ```

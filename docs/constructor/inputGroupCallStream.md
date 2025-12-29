@@ -14,7 +14,7 @@ inputGroupCallStream#598a92a flags:# call:InputGroupCall time_ms:long scale:int 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Livestream info |
 | <mark>time_ms</mark> | [`long`](type/long) | Timestamp in milliseconds |
 | <mark>scale</mark> | [`int`](type/int) | Specifies the duration of the video segment to fetch in milliseconds, by bitshifting 1000 to the right scale times: duration_ms := 1000 >> scale |
@@ -34,12 +34,12 @@ inputGroupCallStream#598a92a flags:# call:InputGroupCall time_ms:long scale:int 
 ```php
 $inputFileLocation = $client->inputGroupCallStream(
 	call : $client->inputGroupCall(
-		id : -1585859809408964068,
-		access_hash : -5343488475207787682,
+		id : 5732615754916524092,
+		access_hash : -1345054060067680035,
 	),
-	time_ms : -531679494536900148,
-	scale : 12,
-	video_channel : 97,
-	video_quality : 8,
+	time_ms : 3763862497435988023,
+	scale : 82,
+	video_channel : 47,
+	video_quality : 82,
 );
 ```

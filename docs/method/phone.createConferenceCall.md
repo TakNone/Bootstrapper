@@ -14,7 +14,7 @@ phone.createConferenceCall#7d0444bb flags:# muted:flags.0?true video_stopped:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **muted** | [`flags.0?true`](type/true) | If set, mute our microphone when joining the call (can only be used if join is set) |
 | **video_stopped** | [`flags.2?true`](type/true) | If set, our video stream is disabled (can only be used if join is set) |
 | **join** | [`flags.3?true`](type/true) | If set, also join the call, otherwise just create the call link |
@@ -38,11 +38,11 @@ $updates = $client->phone->createConferenceCall(
 	muted : true,
 	video_stopped : true,
 	join : true,
-	random_id : 9,
-	public_key : '79910178739977641311947832938175904733245410935807808162997472547706713894285',
+	random_id : 76,
+	public_key : '28021667692726791402580824516382207729575847697907203976820115122943317485901',
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	params : $client->dataJSON(
-		data : 'sTxL2HrUdl1Dvmap',
+		data : 'Cb70nGIAFJ3fYgVN',
 	),
 );
 ```

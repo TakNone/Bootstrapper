@@ -14,7 +14,7 @@ mediaAreaGeoPoint#cad5452d flags:# coordinates:MediaAreaCoordinates geo:GeoPoint
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>coordinates</mark> | [`MediaAreaCoordinates`](type/MediaAreaCoordinates) | The size and position of the media area corresponding to the location sticker on top of the story media |
 | <mark>geo</mark> | [`GeoPoint`](type/GeoPoint) | Coordinates of the geolocation tag |
 | **address** | [`flags.0?GeoPointAddress`](type/GeoPointAddress) | Optional textual representation of the address |
@@ -32,19 +32,19 @@ mediaAreaGeoPoint#cad5452d flags:# coordinates:MediaAreaCoordinates geo:GeoPoint
 ```php
 $mediaArea = $client->mediaAreaGeoPoint(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 116392.4658203125,
-		y : 1131581.0185546875,
-		w : -2012570.958984375,
-		h : -1650.1171875,
-		rotation : -1357769.3701171875,
-		radius : 1505065.44921875,
+		x : 1154901.8818359375,
+		y : -44744.9462890625,
+		w : -2022242.3447265625,
+		h : 1217424.9296875,
+		rotation : 574347.3505859375,
+		radius : 1207170.765625,
 	),
 	geo : $client->geoPointEmpty(),
 	address : $client->geoPointAddress(
-		country_iso2 : 'Jg7M4c50Dya2oFmX',
-		state : 'J5EyK8SHs2VWfthT',
-		city : 'kHlE6CrzUovLA0qc',
-		street : 'Bt3Tr0eZNEfPgJMk',
+		country_iso2 : 'QqJtMyK9HjEscVLN',
+		state : 'CkIcGoLA5t64Nwfp',
+		city : 'HdMaUrvhxJO6bXsR',
+		street : 's95p8GISgCLVPw1R',
 	),
 );
 ```

@@ -14,7 +14,7 @@ updateMoveStickerSetToTop#86fccf85 flags:# masks:flags.0?true emojis:flags.1?tru
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>flags</mark> | [`#`](type/#) | Flags, see TL conditional fields |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **masks** | [`flags.0?true`](type/true) | This update is referring to a mask stickerset |
 | **emojis** | [`flags.1?true`](type/true) | This update is referring to a custom emoji stickerset |
 | <mark>stickerset</mark> | [`long`](type/long) | Stickerset ID |
@@ -33,6 +33,6 @@ updateMoveStickerSetToTop#86fccf85 flags:# masks:flags.0?true emojis:flags.1?tru
 $update = $client->updateMoveStickerSetToTop(
 	masks : true,
 	emojis : true,
-	stickerset : -7391835990617678822,
+	stickerset : 5412456150133875566,
 );
 ```
