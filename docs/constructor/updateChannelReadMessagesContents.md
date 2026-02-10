@@ -2,7 +2,7 @@
 
 **Description** : *The specified channel/supergroup messages were read \(emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using channels\.readMessageContents\)*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateChannelReadMessagesContents#25f324f7 flags:# channel_id:long top_msg_id:flags.0?int saved_peer_id:flags.1?Peer messages:Vector<int> = Update;
@@ -32,11 +32,11 @@ updateChannelReadMessagesContents#25f324f7 flags:# channel_id:long top_msg_id:fl
 
 ```php
 $update = $client->updateChannelReadMessagesContents(
-	channel_id : 1977105899247389010,
-	top_msg_id : 15,
+	channel_id : -4990598362878705974,
+	top_msg_id : 98,
 	saved_peer_id : $client->peerUser(
-		user_id : 8563685502325937011,
+		user_id : 664675471037603890,
 	),
-	messages : array(61),
+	messages : array(57),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Validates a username and checks availability*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.checkUsername#2714d86c username:string = Bool;

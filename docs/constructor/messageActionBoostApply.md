@@ -2,7 +2,7 @@
 
 **Description** : *Some boosts &raquo; were applied to the channel or supergroup*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageActionBoostApply#cc02aa6d boosts:int = MessageAction;
@@ -28,6 +28,6 @@ messageActionBoostApply#cc02aa6d boosts:int = MessageAction;
 
 ```php
 $messageAction = $client->messageActionBoostApply(
-	boosts : 15,
+	boosts : 82,
 );
 ```

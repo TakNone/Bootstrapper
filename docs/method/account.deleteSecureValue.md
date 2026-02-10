@@ -2,7 +2,7 @@
 
 **Description** : *Delete stored Telegram Passport documents, for more info see the passport docs &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.deleteSecureValue#b880bc4b types:Vector<SecureValueType> = Bool;

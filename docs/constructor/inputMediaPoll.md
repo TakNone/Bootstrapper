@@ -2,7 +2,7 @@
 
 **Description** : *A poll*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputMediaPoll#f94e5f1 flags:# poll:Poll correct_answers:flags.0?Vector<bytes> solution:flags.1?string solution_entities:flags.1?Vector<MessageEntity> = InputMedia;
@@ -33,110 +33,110 @@ inputMediaPoll#f94e5f1 flags:# poll:Poll correct_answers:flags.0?Vector<bytes> s
 ```php
 $inputMedia = $client->inputMediaPoll(
 	poll : $client->poll(
-		id : 5269718132353191816,
+		id : -6111870618494334178,
 		closed : true,
 		public_voters : true,
 		multiple_choice : true,
 		quiz : true,
 		question : $client->textWithEntities(
-			text : 'tWDNCAcMkOeUq1wb',
+			text : 'Dp3XeYOzvEoZtGhq',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 24,
+					length : 28,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 31,
+					length : 61,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 30,
+					length : 70,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 72,
+					length : 98,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 92,
+					length : 7,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 31,
+					length : 89,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 64,
+					length : 87,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 45,
+					length : 64,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 73,
+					length : 31,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 8,
-					language : 'shZKOJ6vRPSnf52e',
+					length : 20,
+					language : 'qVlcmhnIQA2RZKOJ',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 68,
+					length : 56,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 92,
-					user_id : 2759780976168109832,
+					length : 35,
+					user_id : -5695382525383932853,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 30,
+					length : 12,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 64,
+					length : 88,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 46,
+					length : 65,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 16,
+					length : 95,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 77,
+					length : 17,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 5,
+					length : 50,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 11,
+					length : 99,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 31,
-					document_id : 4390673633362492530,
+					length : 0,
+					document_id : -8493721835153319721,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 60,
+					length : 49,
 				),
 			),
 		),
 		answers : array(
 			$client->pollAnswer(
 				text : $client->textWithEntities(
-					text : 'UWhwzTR3SO5tkHY4',
+					text : 'jZzxSBl1pgUv4WK7',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -164,101 +164,101 @@ $inputMedia = $client->inputMediaPoll(
 				option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),
-		close_period : 61,
-		close_date : 29,
+		close_period : 83,
+		close_date : 51,
 	),
 	correct_answers : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	solution : 'pDXC3lwHGuUQm1yj',
+	solution : 'GCJlMmkfF57YhLb8',
 	solution_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 6,
+			length : 98,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 74,
+			length : 91,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 76,
+			length : 31,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 53,
+			length : 51,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 98,
+			length : 4,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 71,
+			length : 22,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 86,
+			length : 5,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 45,
+			length : 94,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 41,
+			length : 36,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 44,
-			language : 'A7RmFb9l5TscuK2e',
+			length : 45,
+			language : 'MJbviouTjNHatnpL',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 10,
+			length : 54,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 73,
-			user_id : 9040507192672593425,
+			length : 70,
+			user_id : -6716921015166721571,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 71,
+			length : 65,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 41,
+			length : 89,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 61,
+			length : 66,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 77,
+			length : 52,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 84,
+			length : 100,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 91,
+			length : 96,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 20,
+			length : 56,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 40,
-			document_id : 5935959413335973371,
+			length : 42,
+			document_id : -5042884586979497099,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 23,
+			length : 37,
 		),
 	),
 );

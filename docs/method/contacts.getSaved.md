@@ -2,7 +2,7 @@
 
 **Description** : *Get all contacts, requires a takeout session, see here &raquo; for more info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 contacts.getSaved#82f1e39f = Vector<SavedContact>;

@@ -2,7 +2,7 @@
 
 **Description** : *The set of allowed message reactions &raquo; for this channel has changed*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channelAdminLogEventActionChangeAvailableReactions#be4e0ef8 prev_value:ChatReactions new_value:ChatReactions = ChannelAdminLogEventAction;

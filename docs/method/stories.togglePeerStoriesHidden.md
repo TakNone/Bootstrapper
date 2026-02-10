@@ -2,7 +2,7 @@
 
 **Description** : *Hide the active stories of a user, preventing them from being displayed on the action bar on the homescreen, see here &raquo; for more info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 stories.togglePeerStoriesHidden#bd0415c4 peer:InputPeer hidden:Bool = Bool;

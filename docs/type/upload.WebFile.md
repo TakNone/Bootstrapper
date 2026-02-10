@@ -2,7 +2,7 @@
 
 **Description** : *Remote file*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 upload.webFile#21e753bc size:int mime_type:string file_type:storage.FileType mtime:int bytes:bytes = upload.WebFile;

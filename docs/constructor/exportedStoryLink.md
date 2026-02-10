@@ -2,7 +2,7 @@
 
 **Description** : *Represents a story deep link*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 exportedStoryLink#3fc9053b link:string = ExportedStoryLink;
@@ -28,6 +28,6 @@ exportedStoryLink#3fc9053b link:string = ExportedStoryLink;
 
 ```php
 $exportedStoryLink = $client->exportedStoryLink(
-	link : 'vTGe8JZfN5E1IwW9',
+	link : 'IY1VHB9XaZskMpSJ',
 );
 ```

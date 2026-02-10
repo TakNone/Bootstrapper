@@ -2,7 +2,7 @@
 
 **Description** : *Report for pornography*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputReportReasonPornography#2e59d922 = ReportReason;

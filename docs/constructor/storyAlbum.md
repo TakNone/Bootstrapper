@@ -2,7 +2,7 @@
 
 **Description** : *Represents a story album &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 storyAlbum#9325705a flags:# album_id:int title:string icon_photo:flags.0?Photo icon_video:flags.1?Document = StoryAlbum;
@@ -32,13 +32,13 @@ storyAlbum#9325705a flags:# album_id:int title:string icon_photo:flags.0?Photo i
 
 ```php
 $storyAlbum = $client->storyAlbum(
-	album_id : 96,
-	title : 'W3ywusUqoZvLgmTj',
+	album_id : 89,
+	title : 'lHCUn95SfsGmBjXd',
 	icon_photo : $client->photoEmpty(
-		id : 4741731703685355343,
+		id : 6594319965162279982,
 	),
 	icon_video : $client->documentEmpty(
-		id : -9092594380073783914,
+		id : 826780096803182622,
 	),
 );
 ```

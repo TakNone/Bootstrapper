@@ -2,7 +2,7 @@
 
 **Description** : *The server\-side list of emoji statuses hasn&#039;t changed*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.emojiStatusesNotModified#d08ce645 = account.EmojiStatuses;

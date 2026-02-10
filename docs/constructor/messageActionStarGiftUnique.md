@@ -2,10 +2,10 @@
 
 **Description** : *A gift &raquo; was upgraded to a collectible gift &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-messageActionStarGiftUnique#95728543 flags:# upgrade:flags.0?true transferred:flags.1?true saved:flags.2?true refunded:flags.5?true prepaid_upgrade:flags.11?true assigned:flags.13?true gift:StarGift can_export_at:flags.3?int transfer_stars:flags.4?long from_id:flags.6?Peer peer:flags.7?Peer saved_id:flags.7?long resale_amount:flags.8?StarsAmount can_transfer_at:flags.9?int can_resell_at:flags.10?int drop_original_details_stars:flags.12?long = MessageAction;
+messageActionStarGiftUnique#e6c31522 flags:# upgrade:flags.0?true transferred:flags.1?true saved:flags.2?true refunded:flags.5?true prepaid_upgrade:flags.11?true assigned:flags.13?true from_offer:flags.14?true craft:flags.16?true gift:StarGift can_export_at:flags.3?int transfer_stars:flags.4?long from_id:flags.6?Peer peer:flags.7?Peer saved_id:flags.7?long resale_amount:flags.8?StarsAmount can_transfer_at:flags.9?int can_resell_at:flags.10?int drop_original_details_stars:flags.12?long can_craft_at:flags.15?int = MessageAction;
 ```
 
 ---
@@ -21,6 +21,8 @@ messageActionStarGiftUnique#95728543 flags:# upgrade:flags.0?true transferred:fl
 | **refunded** | [`flags.5?true`](type/true) | This gift was upgraded to a collectible gift » and then re-downgraded to a regular gift because a request to refund the payment related to the upgrade was made, and the money was returned |
 | **prepaid_upgrade** | [`flags.11?true`](type/true) | The sender has pre-paid for the upgrade of this gift to a collectible gift |
 | **assigned** | [`flags.13?true`](type/true) | NOTHING |
+| **from_offer** | [`flags.14?true`](type/true) | NOTHING |
+| **craft** | [`flags.16?true`](type/true) | NOTHING |
 | <mark>gift</mark> | [`StarGift`](type/StarGift) | The collectible gift |
 | **can_export_at** | [`flags.3?int`](type/int) | If set, indicates that the current gift can't be exported to the TON blockchain » yet: the owner will be able to export it at the specified unixtime |
 | **transfer_stars** | [`flags.4?long`](type/long) | If set, indicates that the gift can be transferred » to another user by paying the specified amount of stars |
@@ -31,6 +33,7 @@ messageActionStarGiftUnique#95728543 flags:# upgrade:flags.0?true transferred:fl
 | **can_transfer_at** | [`flags.9?int`](type/int) | If set, indicates that the current gift can't be transferred » yet: the owner will be able to transfer it at the specified unixtime |
 | **can_resell_at** | [`flags.10?int`](type/int) | If set, indicates that the current gift can't be resold » yet: the owner will be able to put it up for sale at the specified unixtime |
 | **drop_original_details_stars** | [`flags.12?long`](type/long) | NOTHING |
+| **can_craft_at** | [`flags.15?int`](type/int) | NOTHING |
 
 ---
 
@@ -50,53 +53,62 @@ $messageAction = $client->messageActionStarGiftUnique(
 	refunded : true,
 	prepaid_upgrade : true,
 	assigned : true,
+	from_offer : true,
+	craft : true,
 	gift : $client->starGift(
 		limited : true,
 		sold_out : true,
 		birthday : true,
-		can_upgrade : true,
 		require_premium : true,
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : -4939874407602394021,
+		id : -4237589720468214094,
 		sticker : $client->documentEmpty(
-			id : 1939667915278943390,
+			id : -5443867048298280694,
 		),
-		stars : -7032601507669666577,
-		availability_remains : 94,
-		availability_total : 58,
-		availability_resale : -2660786123199433368,
-		convert_stars : -3351927527119550057,
-		first_sale_date : 80,
-		last_sale_date : 38,
-		upgrade_stars : -2503200186799995382,
-		resell_min_stars : -6933429253950087412,
-		title : 'FRKDZxqPTO1owlIk',
+		stars : 4753456618331913422,
+		availability_remains : 40,
+		availability_total : 62,
+		availability_resale : -2006745690495079527,
+		convert_stars : 8747716201112797219,
+		first_sale_date : 51,
+		last_sale_date : 84,
+		upgrade_stars : 484896002497739399,
+		resell_min_stars : 6144556274740445220,
+		title : 'GsUkIHExucD7Bl8R',
 		released_by : $client->peerUser(
-			user_id : -3347685341312260963,
+			user_id : -4882476829939880288,
 		),
-		per_user_total : 33,
-		per_user_remains : 75,
-		locked_until_date : 22,
-		auction_slug : 'zEYgp7b32ZlTMS06',
-		gifts_per_round : 63,
+		per_user_total : 97,
+		per_user_remains : 22,
+		locked_until_date : 6,
+		auction_slug : 'ETLYDyCSfZNlehgM',
+		gifts_per_round : 36,
+		auction_start_date : 5,
+		upgrade_variants : 24,
+		background : $client->starGiftBackground(
+			center_color : 19,
+			edge_color : 12,
+			text_color : 44,
+		),
 	),
-	can_export_at : 56,
-	transfer_stars : 6928822832778977281,
+	can_export_at : 57,
+	transfer_stars : 1359791887001021257,
 	from_id : $client->peerUser(
-		user_id : 1002413411154305936,
+		user_id : 1098181588822039617,
 	),
 	peer : $client->peerUser(
-		user_id : 2556330946187676040,
+		user_id : 8129410390322119873,
 	),
-	saved_id : 4864680472932474762,
+	saved_id : 3397517634112478421,
 	resale_amount : $client->starsAmount(
-		amount : -7057681380527114293,
-		nanos : 38,
+		amount : 7817566103830440613,
+		nanos : 75,
 	),
-	can_transfer_at : 50,
-	can_resell_at : 52,
-	drop_original_details_stars : 6945756266106040886,
+	can_transfer_at : 37,
+	can_resell_at : 100,
+	drop_original_details_stars : -9193270347435529790,
+	can_craft_at : 58,
 );
 ```

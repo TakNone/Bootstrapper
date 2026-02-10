@@ -2,7 +2,7 @@
 
 **Description** : *Enable or disable forum functionality in a supergroup*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.toggleForum#3ff75734 channel:InputChannel enabled:Bool tabs:Bool = Updates;
@@ -42,6 +42,6 @@ channels.toggleForum#3ff75734 channel:InputChannel enabled:Bool tabs:Bool = Upda
 $updates = $client->channels->toggleForum(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	enabled : true,
-	tabs : false,
+	tabs : true,
 );
 ```

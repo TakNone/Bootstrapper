@@ -2,7 +2,7 @@
 
 **Description** : *Represents a Main Mini App preview media, see here &raquo; for more info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 botPreviewMedia#23e91ba3 date:int media:MessageMedia = BotPreviewMedia;

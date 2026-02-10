@@ -2,7 +2,7 @@
 
 **Description** : *Report a new incoming chat for spam, if the peer settings of the chat allow us to do that*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.reportSpam#cf1592db peer:InputPeer = Bool;

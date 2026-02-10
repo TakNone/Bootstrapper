@@ -2,7 +2,7 @@
 
 **Description** : *Peer type: chat*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inlineQueryPeerTypeChat#d766c50a = InlineQueryPeerType;

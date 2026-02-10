@@ -2,7 +2,7 @@
 
 **Description** : *Save a theme*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.saveTheme#f257106c theme:InputTheme unsave:Bool = Bool;
@@ -38,9 +38,9 @@ account.saveTheme#f257106c theme:InputTheme unsave:Bool = Bool;
 ```php
 $bool = $client->account->saveTheme(
 	theme : $client->inputTheme(
-		id : -2190047520813605449,
-		access_hash : -2628416603095595882,
+		id : 1045205379752090823,
+		access_hash : -2995300695615373052,
 	),
-	unsave : false,
+	unsave : true,
 );
 ```

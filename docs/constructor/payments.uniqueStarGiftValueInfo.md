@@ -2,7 +2,7 @@
 
 **Description** : *Information about the value of a collectible gift &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.uniqueStarGiftValueInfo#512fe446 flags:# last_sale_on_fragment:flags.1?true value_is_average:flags.6?true currency:string value:long initial_sale_date:int initial_sale_stars:long initial_sale_price:long last_sale_date:flags.0?int last_sale_price:flags.0?long floor_price:flags.2?long average_price:flags.3?long listed_count:flags.4?int fragment_listed_count:flags.5?int fragment_listed_url:flags.5?string = payments.UniqueStarGiftValueInfo;
@@ -44,17 +44,17 @@ payments.uniqueStarGiftValueInfo#512fe446 flags:# last_sale_on_fragment:flags.1?
 $paymentsUniqueStarGiftValueInfo = $client->payments->uniqueStarGiftValueInfo(
 	last_sale_on_fragment : true,
 	value_is_average : true,
-	currency : 'KYCdnrqRt63x4fVF',
-	value : 2093623974380781313,
-	initial_sale_date : 63,
-	initial_sale_stars : 813046626226988742,
-	initial_sale_price : -6155887986919224804,
-	last_sale_date : 13,
-	last_sale_price : 2731720333746441373,
-	floor_price : -7142024833073780295,
-	average_price : 1427147858578471617,
-	listed_count : 52,
-	fragment_listed_count : 19,
+	currency : 'kdIXUhwTC3LzeYbK',
+	value : 5141576493815544592,
+	initial_sale_date : 3,
+	initial_sale_stars : 6122999251444436646,
+	initial_sale_price : -5843447171567499499,
+	last_sale_date : 97,
+	last_sale_price : 1920105967097833549,
+	floor_price : 4677518603477864390,
+	average_price : -7665208301714266290,
+	listed_count : 62,
+	fragment_listed_count : 58,
 	fragment_listed_url : 'https://docs.liveproto.dev',
 );
 ```

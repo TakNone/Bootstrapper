@@ -2,7 +2,7 @@
 
 **Description** : *Description of an image and its content*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 photoCachedSize#21e1ad6 type:string w:int h:int bytes:bytes = PhotoSize;
@@ -31,9 +31,9 @@ photoCachedSize#21e1ad6 type:string w:int h:int bytes:bytes = PhotoSize;
 
 ```php
 $photoSize = $client->photoCachedSize(
-	type : 'i6Np3fkWCBD91ruz',
-	w : 86,
-	h : 9,
+	type : 'kMtAe1r7QWy2nmVl',
+	w : 49,
+	h : 72,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

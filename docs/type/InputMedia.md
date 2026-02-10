@@ -2,7 +2,7 @@
 
 **Description** : *Defines media content of a message*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputMediaEmpty#9664f57f = InputMedia;
@@ -24,6 +24,7 @@ inputMediaStory#89fdd778 peer:InputPeer id:int = InputMedia;
 inputMediaWebPage#c21b8849 flags:# force_large_media:flags.0?true force_small_media:flags.1?true optional:flags.2?true url:string = InputMedia;
 inputMediaPaidMedia#c4103386 flags:# stars_amount:long extended_media:Vector<InputMedia> payload:flags.0?string = InputMedia;
 inputMediaTodo#9fc55fde todo:TodoList = InputMedia;
+inputMediaStakeDice#f3a9244a game_hash:string ton_amount:long client_seed:bytes = InputMedia;
 ```
 
 ---
@@ -51,3 +52,4 @@ inputMediaTodo#9fc55fde todo:TodoList = InputMedia;
 | [**inputMediaWebPage**](constructor/inputMediaWebPage) | Specifies options that will be used to generate the link preview for the caption, or even a standalone link preview without an attached message |
 | [**inputMediaPaidMedia**](constructor/inputMediaPaidMedia) | Paid media, see here » for more info |
 | [**inputMediaTodo**](constructor/inputMediaTodo) | Creates a todo list » |
+| [**inputMediaStakeDice**](constructor/inputMediaStakeDice) | NOTHING |

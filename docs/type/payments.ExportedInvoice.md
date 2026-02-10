@@ -2,7 +2,7 @@
 
 **Description** : *Exported invoice*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.exportedInvoice#aed0cbd9 url:string = payments.ExportedInvoice;

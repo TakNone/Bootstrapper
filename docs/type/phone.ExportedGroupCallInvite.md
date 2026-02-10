@@ -2,7 +2,7 @@
 
 **Description** : *An exported group call invitation*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.exportedGroupCallInvite#204bd158 link:string = phone.ExportedGroupCallInvite;

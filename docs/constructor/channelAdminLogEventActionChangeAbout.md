@@ -2,7 +2,7 @@
 
 **Description** : *The description was changed*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channelAdminLogEventActionChangeAbout#55188a2e prev_value:string new_value:string = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeAbout#55188a2e prev_value:string new_value:strin
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeAbout(
-	prev_value : 'A73G9qS0Yvo6ema5',
-	new_value : 'z9xmBquN2D3oSVJd',
+	prev_value : 'VXoefJ4yOks1apt9',
+	new_value : 'cngMdvXG5OZx6oWL',
 );
 ```

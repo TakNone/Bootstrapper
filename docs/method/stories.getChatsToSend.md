@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of channels where the user can post stories*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 stories.getChatsToSend#a56a8b60 = messages.Chats;

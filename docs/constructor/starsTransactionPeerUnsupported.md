@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Star transaction that cannot be described using the current layer*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 starsTransactionPeerUnsupported#95f2bfe4 = StarsTransactionPeer;

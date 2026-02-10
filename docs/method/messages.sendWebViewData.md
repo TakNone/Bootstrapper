@@ -2,7 +2,7 @@
 
 **Description** : *Used by the user to relay data from an opened reply keyboard bot mini app to the bot that owns it*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.sendWebViewData#dc0242c8 bot:InputUser random_id:long button_text:string data:string = Updates;
@@ -40,8 +40,8 @@ messages.sendWebViewData#dc0242c8 bot:InputUser random_id:long button_text:strin
 ```php
 $updates = $client->messages->sendWebViewData(
 	bot : $client->get_input_user(user : '@TakNone'),
-	random_id : 7684351097004795785,
-	button_text : 'qXKrnM5cOC1uhabP',
-	data : 'aj4R25ZExo1h3MFW',
+	random_id : -4301298571295061132,
+	button_text : '6n5EDWyPRLbZmeYr',
+	data : 'UaKlqB5tAjmvZ9nE',
 );
 ```

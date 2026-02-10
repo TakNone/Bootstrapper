@@ -2,7 +2,7 @@
 
 **Description** : *Filter for messages containing photos or videos*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputMessagesFilterPhotoVideo#56e9f0e4 = MessagesFilter;

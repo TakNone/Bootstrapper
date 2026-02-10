@@ -2,7 +2,7 @@
 
 **Description** : *Popular Main Mini Apps, to be used in the apps tab of global search &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 bots.popularAppBots#1991b13b flags:# next_offset:flags.0?string users:Vector<User> = bots.PopularAppBots;
@@ -30,10 +30,10 @@ bots.popularAppBots#1991b13b flags:# next_offset:flags.0?string users:Vector<Use
 
 ```php
 $botsPopularAppBots = $client->bots->popularAppBots(
-	next_offset : 'S3suqzxWkh2BT4RH',
+	next_offset : 'uSyYizqJUsHMxfOD',
 	users : array(
 		$client->userEmpty(
-			id : 6979675758382279588,
+			id : 5085907669141055449,
 		),
 		$client->user(
 			self : true,
@@ -62,24 +62,25 @@ $botsPopularAppBots = $client->bots->popularAppBots(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 2009101256408819260,
-			access_hash : -5865237426331635086,
+			bot_forum_can_manage_topics : true,
+			id : -1602848123115482674,
+			access_hash : -4473870964135169088,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 36,
+			bot_info_version : 70,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'UBa4JSLbzgj5iNln',
-					reason : 'i02ov3FENCbHKPGm',
-					text : 'lbHec7gM4hzXp0sD',
+					platform : 'lNHgwL50STROaK9v',
+					reason : 'oeThWcFZwYH7rVdt',
+					text : 'ulIKdaYxznTVMptN',
 				),
 			),
-			bot_inline_placeholder : 'oFN7AManX5OHVZSj',
-			lang_code : 'PCBNt716iKMVkbDy',
+			bot_inline_placeholder : 'BIarCwp5G7tqivE9',
+			lang_code : 'i61BtxWYUsfAMQo9',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -90,19 +91,19 @@ $botsPopularAppBots = $client->bots->popularAppBots(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 50,
+				max_id : 0,
 			),
 			color : $client->peerColor(
-				color : 53,
-				background_emoji_id : -232901221952802602,
+				color : 19,
+				background_emoji_id : -4129411286484281882,
 			),
 			profile_color : $client->peerColor(
-				color : 24,
-				background_emoji_id : -4798866307584516122,
+				color : 35,
+				background_emoji_id : 5494513747226048038,
 			),
-			bot_active_users : 95,
-			bot_verification_icon : 4452772087148030605,
-			send_paid_messages_stars : 8255461062682758045,
+			bot_active_users : 85,
+			bot_verification_icon : -8213793312557105439,
+			send_paid_messages_stars : 7935235086707154038,
 		),
 	),
 );

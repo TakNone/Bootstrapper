@@ -2,7 +2,7 @@
 
 **Description** : *Enable or disable the native antispam system*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.toggleAntiSpam#68f3e4eb channel:InputChannel enabled:Bool = Updates;
@@ -39,6 +39,6 @@ channels.toggleAntiSpam#68f3e4eb channel:InputChannel enabled:Bool = Updates;
 ```php
 $updates = $client->channels->toggleAntiSpam(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	enabled : false,
+	enabled : true,
 );
 ```

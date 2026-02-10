@@ -2,10 +2,10 @@
 
 **Description** : *Represents a forum topic*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true title_missing:flags.7?true id:flags.7?int date:int peer:Peer title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
+forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true title_missing:flags.7?true id:int date:int peer:Peer title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
 ```
 
 ---
@@ -21,7 +21,7 @@ forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?t
 | **short** | [`flags.5?true`](type/true) | Whether this constructor is a reduced version of the full topic information. If set, only the my, closed, id, date, title, icon_color, icon_emoji_id and from_id parameters will contain valid information. Reduced info is usually only returned in topic-related admin log events » and in the messages.channelMessages constructor: if needed, full information can be fetched using channels.getForumTopicsByID |
 | **hidden** | [`flags.6?true`](type/true) | Whether the topic is hidden (only valid for the "General" topic, id=1) |
 | **title_missing** | [`flags.7?true`](type/true) | NOTHING |
-| **id** | [`flags.7?int`](type/int) | Topic ID |
+| <mark>id</mark> | [`int`](type/int) | Topic ID |
 | <mark>date</mark> | [`int`](type/int) | Topic creation date |
 | <mark>peer</mark> | [`Peer`](type/Peer) | NOTHING |
 | <mark>title</mark> | [`string`](type/string) | Topic title |
@@ -55,38 +55,38 @@ $forumTopic = $client->forumTopic(
 	short : true,
 	hidden : true,
 	title_missing : true,
-	id : 67,
-	date : 2,
+	id : 90,
+	date : 42,
 	peer : $client->peerUser(
-		user_id : 7109695411485383654,
+		user_id : 5669013180001264535,
 	),
-	title : 'fC56YIPvjQrVtuWb',
-	icon_color : 77,
-	icon_emoji_id : -703199536019279967,
-	top_message : 46,
-	read_inbox_max_id : 55,
-	read_outbox_max_id : 76,
-	unread_count : 25,
-	unread_mentions_count : 56,
-	unread_reactions_count : 74,
+	title : 'dwnxvDTVUhcZorpI',
+	icon_color : 42,
+	icon_emoji_id : -6759812496638771962,
+	top_message : 27,
+	read_inbox_max_id : 63,
+	read_outbox_max_id : 92,
+	unread_count : 1,
+	unread_mentions_count : 85,
+	unread_reactions_count : 84,
 	from_id : $client->peerUser(
-		user_id : 3143130668007785224,
+		user_id : 7915022999181246994,
 	),
 	notify_settings : $client->peerNotifySettings(
-		show_previews : false,
+		show_previews : true,
 		silent : true,
-		mute_until : 95,
+		mute_until : 69,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
 		stories_muted : true,
-		stories_hide_sender : true,
+		stories_hide_sender : false,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	draft : $client->draftMessageEmpty(
-		date : 82,
+		date : 57,
 	),
 );
 ```

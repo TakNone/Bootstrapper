@@ -2,7 +2,7 @@
 
 **Description** : *You were gifted some toncoins*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currency:string crypto_amount:long transaction_id:flags.0?string = MessageAction;
@@ -33,10 +33,10 @@ messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currenc
 
 ```php
 $messageAction = $client->messageActionGiftTon(
-	currency : 'kRwb0T4rynPD6oGM',
-	amount : 6949212363304619800,
-	crypto_currency : 'hOFbZulP6xedpMjr',
-	crypto_amount : 7837028021141173382,
-	transaction_id : 'ISZFbyJ8q1Viw2Qo',
+	currency : 'nDdul7kpSW2ULCTs',
+	amount : -9215141574147726621,
+	crypto_currency : 'c5fhS7NoGxEmvZer',
+	crypto_amount : -3749240413281409351,
+	transaction_id : 'xn9VwLgS5qWtuvzc',
 );
 ```

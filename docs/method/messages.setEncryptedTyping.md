@@ -2,7 +2,7 @@
 
 **Description** : *Send typing event by the current user to a secret chat*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.setEncryptedTyping#791451ed peer:InputEncryptedChat typing:Bool = Bool;
@@ -38,8 +38,8 @@ messages.setEncryptedTyping#791451ed peer:InputEncryptedChat typing:Bool = Bool;
 ```php
 $bool = $client->messages->setEncryptedTyping(
 	peer : $client->inputEncryptedChat(
-		chat_id : 70,
-		access_hash : 7144559826351727378,
+		chat_id : 65,
+		access_hash : -4701849939804548755,
 	),
 	typing : false,
 );

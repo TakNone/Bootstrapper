@@ -2,7 +2,7 @@
 
 **Description** : *Invoke a request without subscribing the used connection for updates \(this is enabled by default for file queries\)*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 invokeWithoutUpdates#bf9459b7 {X:Type} query:!X = X;

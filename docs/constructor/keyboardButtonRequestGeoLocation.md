@@ -2,10 +2,10 @@
 
 **Description** : *Button to request a user&#039;s geolocation*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-keyboardButtonRequestGeoLocation#fc796b3f text:string = KeyboardButton;
+keyboardButtonRequestGeoLocation#aa40f94d flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
 ```
 
 ---
@@ -14,6 +14,8 @@ keyboardButtonRequestGeoLocation#fc796b3f text:string = KeyboardButton;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **style** | [`flags.10?KeyboardButtonStyle`](type/KeyboardButtonStyle) | NOTHING |
 | <mark>text</mark> | [`string`](type/string) | Button text |
 
 ---
@@ -28,6 +30,12 @@ keyboardButtonRequestGeoLocation#fc796b3f text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestGeoLocation(
-	text : 'HUevS9zCuO3YqLtI',
+	style : $client->keyboardButtonStyle(
+		bg_primary : true,
+		bg_danger : true,
+		bg_success : true,
+		icon : 2876331176655733687,
+	),
+	text : 'i0MY9RbqeIWZGjEy',
 );
 ```

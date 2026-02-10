@@ -2,7 +2,7 @@
 
 **Description** : *Mark messages as read in a monoforum topic &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.readSavedHistory#ba4a3b5b parent_peer:InputPeer peer:InputPeer max_id:int = Bool;
@@ -41,6 +41,6 @@ messages.readSavedHistory#ba4a3b5b parent_peer:InputPeer peer:InputPeer max_id:i
 $bool = $client->messages->readSavedHistory(
 	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	max_id : 73,
+	max_id : 16,
 );
 ```

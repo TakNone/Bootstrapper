@@ -2,7 +2,7 @@
 
 **Description** : *Save phone call debug information*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.saveCallLog#41248786 peer:InputPhoneCall file:InputFile = Bool;
@@ -38,8 +38,8 @@ phone.saveCallLog#41248786 peer:InputPhoneCall file:InputFile = Bool;
 ```php
 $bool = $client->phone->saveCallLog(
 	peer : $client->inputPhoneCall(
-		id : 920523445490132611,
-		access_hash : -3567739483188435028,
+		id : -7234175713285201051,
+		access_hash : 1048329113062654012,
 	),
 	file : $client->upload_file(path : 'file.png'),
 );

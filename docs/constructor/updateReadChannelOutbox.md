@@ -2,7 +2,7 @@
 
 **Description** : *Outgoing messages in a channel/supergroup were read*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateReadChannelOutbox#b75f99a9 channel_id:long max_id:int = Update;
@@ -29,7 +29,7 @@ updateReadChannelOutbox#b75f99a9 channel_id:long max_id:int = Update;
 
 ```php
 $update = $client->updateReadChannelOutbox(
-	channel_id : -906650885852330943,
-	max_id : 81,
+	channel_id : 7578270235541954004,
+	max_id : 3,
 );
 ```

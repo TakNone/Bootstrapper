@@ -2,7 +2,7 @@
 
 **Description** : *Full list of blocked users*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 contacts.blocked#ade1591 blocked:Vector<PeerBlocked> chats:Vector<Chat> users:Vector<User> = contacts.Blocked;
@@ -33,29 +33,28 @@ $contactsBlocked = $client->contacts->blocked(
 	blocked : array(
 		$client->peerBlocked(
 			peer_id : $client->peerUser(
-				user_id : -4565344689832675147,
+				user_id : -3264899451080946403,
 			),
-			date : 85,
+			date : 14,
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 3551928387887335177,
+			id : -1106864911281595185,
 		),
 		$client->chat(
 			creator : true,
-			kicked : true,
 			left : true,
 			deactivated : true,
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -9124341260162058345,
-			title : 'dWjXmur6ph5Filb1',
+			id : -8976515955730475338,
+			title : 'V4oILN6mO1MS38QB',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 34,
-			date : 47,
-			version : 47,
+			participants_count : 60,
+			date : 26,
+			version : 44,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -96,12 +95,12 @@ $contactsBlocked = $client->contacts->blocked(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 42,
+				until_date : 34,
 			),
 		),
 		$client->chatForbidden(
-			id : 8095654564619081080,
-			title : 'RYMp4sbrSxDfFEOe',
+			id : 2888555192434304771,
+			title : 'k4CU063tQ9WS2luz',
 		),
 		$client->channel(
 			creator : true,
@@ -132,17 +131,17 @@ $contactsBlocked = $client->contacts->blocked(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 6993331598453827096,
-			access_hash : 2109918951217147124,
-			title : 'H4y1YAejr6uCz0Fo',
+			id : -8362481560562943005,
+			access_hash : -6397612281923817490,
+			title : 'HL98loDc4N7mfXPE',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 32,
+			date : 20,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '9qwZgA40UpKMGrE5',
-					reason : 'REmQtgsH4ODxcUZT',
-					text : 'miJ5TRDQPlaGy3Ss',
+					platform : 'EoGIksLUipXS1VTe',
+					reason : 'b2vKzyfiwc86QlHR',
+					text : 'PrgztoRAKGaZXBHY',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -184,7 +183,7 @@ $contactsBlocked = $client->contacts->blocked(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 27,
+				until_date : 1,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -207,9 +206,9 @@ $contactsBlocked = $client->contacts->blocked(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 65,
+				until_date : 84,
 			),
-			participants_count : 100,
+			participants_count : 93,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -219,35 +218,36 @@ $contactsBlocked = $client->contacts->blocked(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 80,
+				max_id : 8,
 			),
 			color : $client->peerColor(
-				color : 57,
-				background_emoji_id : -3761160977511748990,
+				color : 65,
+				background_emoji_id : 7114577772351448268,
 			),
 			profile_color : $client->peerColor(
 				color : 67,
-				background_emoji_id : 1807663758871656020,
+				background_emoji_id : -4807823085073699825,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 71,
-			subscription_until_date : 80,
-			bot_verification_icon : 1469812988775336615,
-			send_paid_messages_stars : 1422271197842741869,
-			linked_monoforum_id : 4371908455688290386,
+			level : 85,
+			subscription_until_date : 53,
+			bot_verification_icon : 4331899436099776833,
+			send_paid_messages_stars : -1004444553950705499,
+			linked_monoforum_id : 6423378328438930744,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -4104418673524992989,
-			access_hash : -2589257321955406453,
-			title : 'lmzF8ISs1WTXVYxM',
-			until_date : 14,
+			monoforum : true,
+			id : -3635909235778904387,
+			access_hash : -368434677960681389,
+			title : 'z4i5WehVm3LnlsCp',
+			until_date : 86,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -1970886593263011678,
+			id : 2095749306941254649,
 		),
 		$client->user(
 			self : true,
@@ -276,24 +276,25 @@ $contactsBlocked = $client->contacts->blocked(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -4329842687584674875,
-			access_hash : -966613337515912246,
+			bot_forum_can_manage_topics : true,
+			id : 385184029659216729,
+			access_hash : -1106145978574257429,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 51,
+			bot_info_version : 95,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'tSGJnMHYLcDPdZ60',
-					reason : 'AJBu04UP7NHhzREq',
-					text : 'IvnU4MPqA8jG5WNz',
+					platform : '85ySiQmaYVjPOuBv',
+					reason : 'IJ0i4ZEHryq2lMFe',
+					text : '3ftNgh4uTyUjLRse',
 				),
 			),
-			bot_inline_placeholder : 'G3NsxoVEkqTLpSmh',
-			lang_code : 'ZivkVlK9mhbWoeF6',
+			bot_inline_placeholder : 'qdWObZMXl3KSvAYt',
+			lang_code : 'p64WrPNC5YA8T9IS',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -304,19 +305,19 @@ $contactsBlocked = $client->contacts->blocked(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 61,
+				max_id : 13,
 			),
 			color : $client->peerColor(
-				color : 11,
-				background_emoji_id : 3368696362909191809,
+				color : 71,
+				background_emoji_id : -467548291584525234,
 			),
 			profile_color : $client->peerColor(
-				color : 51,
-				background_emoji_id : 7059045234775759682,
+				color : 30,
+				background_emoji_id : -6720951057286006184,
 			),
 			bot_active_users : 10,
-			bot_verification_icon : 7534981250225131397,
-			send_paid_messages_stars : 75599106681183091,
+			bot_verification_icon : 6785265334349790346,
+			send_paid_messages_stars : 4082699311877226610,
 		),
 	),
 );

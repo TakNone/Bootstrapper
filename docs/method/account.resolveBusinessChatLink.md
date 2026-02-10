@@ -2,7 +2,7 @@
 
 **Description** : *Resolve a business chat deep link &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.resolveBusinessChatLink#5492e5ee slug:string = account.ResolvedBusinessChatLinks;
@@ -37,6 +37,6 @@ account.resolveBusinessChatLink#5492e5ee slug:string = account.ResolvedBusinessC
 
 ```php
 $accountResolvedBusinessChatLinks = $client->account->resolveBusinessChatLink(
-	slug : 'sG9zPubS21NIm5Jx',
+	slug : 'xCJiWyKSjGZQ50Td',
 );
 ```

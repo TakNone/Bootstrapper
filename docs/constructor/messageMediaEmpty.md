@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageMediaEmpty#3ded6320 = MessageMedia;

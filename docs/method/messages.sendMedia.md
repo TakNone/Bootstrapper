@@ -2,7 +2,7 @@
 
 **Description** : *Send a media*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.sendMedia#330e77f flags:# silent:flags.5?true background:flags.6?true clear_draft:flags.7?true noforwards:flags.14?true update_stickersets_order:flags.15?true invert_media:flags.16?true allow_paid_floodskip:flags.19?true peer:InputPeer reply_to:flags.0?InputReplyTo media:InputMedia message:string random_id:long reply_markup:flags.2?ReplyMarkup entities:flags.3?Vector<MessageEntity> schedule_date:flags.10?int schedule_repeat_period:flags.24?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut effect:flags.18?long allow_paid_stars:flags.21?long suggested_post:flags.22?SuggestedPost = Updates;
@@ -170,220 +170,220 @@ $updates = $client->messages->sendMedia(
 	allow_paid_floodskip : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 81,
-		top_msg_id : 5,
+		reply_to_msg_id : 65,
+		top_msg_id : 91,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'o1z0TjXdf9ibNVDq',
+		quote_text : 'krsocHPJbzv8yQ9K',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 54,
+				length : 3,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 43,
+				length : 73,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 45,
+				length : 21,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 34,
+				length : 27,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 2,
+				length : 17,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 42,
+				length : 97,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 92,
+				length : 67,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 10,
+				length : 53,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 73,
+				length : 43,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 2,
-				language : 'SIWuO4UVX7s12Zba',
+				length : 17,
+				language : 'fKxudghan1es9oc7',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 19,
+				length : 54,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 53,
-				user_id : -2129644514219842422,
+				length : 17,
+				user_id : 688918959770279937,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 87,
+				length : 65,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 1,
+				length : 39,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 35,
+				length : 5,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 59,
+				length : 24,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 49,
+				length : 2,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 62,
+				length : 98,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 99,
+				length : 55,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 50,
-				document_id : 6567083864972717701,
+				length : 2,
+				document_id : 2920163641264912533,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 99,
+				length : 31,
 			),
 		),
-		quote_offset : 19,
+		quote_offset : 39,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 19,
+		todo_item_id : 46,
 	),
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
-	message : 'znuDUCr3s5qyhifO',
-	random_id : 8475749356687354213,
+	message : 'cwTklBipuPLsJ2vG',
+	random_id : -4438587600235708182,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 46,
+			length : 84,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 78,
+			length : 11,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 1,
+			length : 95,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 63,
+			length : 27,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 55,
+			length : 97,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 5,
+			length : 84,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 25,
+			length : 35,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 51,
+			length : 58,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 3,
+			length : 80,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 31,
-			language : 'mJAh7stDk1rOE43Z',
+			length : 43,
+			language : 'QDMGB6y87S5LElOe',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 68,
+			length : 95,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 5,
-			user_id : -4357210384003366263,
+			length : 44,
+			user_id : 6079438766584503457,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 20,
+			length : 49,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 84,
+			length : 74,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 3,
+			length : 44,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 99,
+			length : 69,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 95,
+			length : 3,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 94,
+			length : 68,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 1,
+			length : 93,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 15,
-			document_id : -4275344167333550586,
+			length : 68,
+			document_id : 2654061495634186727,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 65,
+			length : 56,
 		),
 	),
-	schedule_date : 27,
-	schedule_repeat_period : 38,
+	schedule_date : 84,
+	schedule_repeat_period : 74,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'UG8Sd0oKFpEPM2z3',
+		shortcut : 'QjIJBcqiTk4efbS0',
 	),
-	effect : -7233931341606045963,
-	allow_paid_stars : -2936444716776546513,
+	effect : 6546580335715746744,
+	allow_paid_stars : -4731465793879776500,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 5671840939822595420,
-			nanos : 36,
+			amount : -6996799722633678895,
+			nanos : 52,
 		),
-		schedule_date : 39,
+		schedule_date : 30,
 	),
 );
 ```

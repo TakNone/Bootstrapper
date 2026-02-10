@@ -2,7 +2,7 @@
 
 **Description** : *A callback button was pressed, and the button data was sent to the bot that created the button*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateBotCallbackQuery#b9cfc48d flags:# query_id:long user_id:long peer:Peer msg_id:int chat_instance:long data:flags.0?bytes game_short_name:flags.1?string = Update;
@@ -35,14 +35,14 @@ updateBotCallbackQuery#b9cfc48d flags:# query_id:long user_id:long peer:Peer msg
 
 ```php
 $update = $client->updateBotCallbackQuery(
-	query_id : 37219843851981782,
-	user_id : 8648762865106534984,
+	query_id : -792740785752899407,
+	user_id : -4207509163282842140,
 	peer : $client->peerUser(
-		user_id : 4289204625554819551,
+		user_id : -8867853515521527136,
 	),
-	msg_id : 17,
-	chat_instance : -6919435362153286746,
+	msg_id : 45,
+	chat_instance : -1968957603961468285,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	game_short_name : 'TbDR0Ci16UgVJEhF',
+	game_short_name : '5SAVgUKRks0duqNo',
 );
 ```

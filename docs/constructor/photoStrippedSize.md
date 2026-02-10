@@ -2,7 +2,7 @@
 
 **Description** : *A low\-resolution compressed JPG payload*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 photoStrippedSize#e0b0bc2e type:string bytes:bytes = PhotoSize;
@@ -29,7 +29,7 @@ photoStrippedSize#e0b0bc2e type:string bytes:bytes = PhotoSize;
 
 ```php
 $photoSize = $client->photoStrippedSize(
-	type : 'A3hCPK419vxgd5Nt',
+	type : 'zY8c70IgTbR6DZdh',
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Invokes a query after a successful completion of previous queries*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 invokeAfterMsgs#3dc4b4f0 {X:Type} msg_ids:Vector<long> query:!X = X;
@@ -29,7 +29,7 @@ invokeAfterMsgs#3dc4b4f0 {X:Type} msg_ids:Vector<long> query:!X = X;
 
 ```php
 $x = $client->invokeAfterMsgs(
-	msg_ids : array(8302524396978946298),
+	msg_ids : array(1716742623519605909),
 	query : $client->help->getConfig(raw : true),
 );
 ```

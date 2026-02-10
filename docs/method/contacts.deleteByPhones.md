@@ -2,7 +2,7 @@
 
 **Description** : *Delete contacts by phone number*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 contacts.deleteByPhones#1013fd9e phones:Vector<string> = Bool;

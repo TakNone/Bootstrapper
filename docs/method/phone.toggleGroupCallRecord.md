@@ -2,7 +2,7 @@
 
 **Description** : *Start or stop recording a group call: the recorded audio and video streams will be automatically sent to Saved messages \(the chat with ourselves\)*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.toggleGroupCallRecord#f128c708 flags:# start:flags.0?true video:flags.2?true call:InputGroupCall title:flags.1?string video_portrait:flags.2?Bool = Updates;
@@ -46,10 +46,10 @@ $updates = $client->phone->toggleGroupCallRecord(
 	start : true,
 	video : true,
 	call : $client->inputGroupCall(
-		id : 4556383114539826266,
-		access_hash : 6705600304284572045,
+		id : 969870260349622658,
+		access_hash : -6032276006088723108,
 	),
-	title : 'hpAQTEurZLbxGIe1',
+	title : '24BZwXEb8O7Fsfce',
 	video_portrait : true,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Banned/kicked user*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channelParticipantBanned#6df8014e flags:# left:flags.0?true peer:Peer kicked_by:long date:int banned_rights:ChatBannedRights = ChannelParticipant;
@@ -35,10 +35,10 @@ channelParticipantBanned#6df8014e flags:# left:flags.0?true peer:Peer kicked_by:
 $channelParticipant = $client->channelParticipantBanned(
 	left : true,
 	peer : $client->peerUser(
-		user_id : -2436870845020047814,
+		user_id : 1283919275347073299,
 	),
-	kicked_by : 9069783476974851675,
-	date : 96,
+	kicked_by : -3560038012586357501,
+	date : 18,
 	banned_rights : $client->chatBannedRights(
 		view_messages : true,
 		send_messages : true,
@@ -60,7 +60,7 @@ $channelParticipant = $client->channelParticipantBanned(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 63,
+		until_date : 41,
 	),
 );
 ```

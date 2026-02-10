@@ -2,7 +2,7 @@
 
 **Description** : *Mark new featured stickers as read*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.readFeaturedStickers#5b118126 id:Vector<long> = Bool;
@@ -28,6 +28,6 @@ messages.readFeaturedStickers#5b118126 id:Vector<long> = Bool;
 
 ```php
 $bool = $client->messages->readFeaturedStickers(
-	id : array(-1061981965665826604),
+	id : array(503886683921439129),
 );
 ```

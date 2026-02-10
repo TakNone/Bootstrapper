@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about multiple color palettes &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.peerColorsNotModified#2ba1f5ce = help.PeerColors;

@@ -99,6 +99,12 @@
 
 ---
 
+##### inputPhoneContact
+
+:link: [*Phone contact*](constructor/inputPhoneContact)
+
+---
+
 ##### inputFile
 
 :link: [*Defines a file saved in parts using the method upload\.saveFilePart*](constructor/inputFile)
@@ -228,6 +234,12 @@
 ##### inputMediaTodo
 
 :link: [*Creates a todo list &raquo;*](constructor/inputMediaTodo)
+
+---
+
+##### inputMediaStakeDice
+
+:link: [*NOTHING*](constructor/inputMediaStakeDice)
 
 ---
 
@@ -468,12 +480,6 @@
 ##### userStatusLastMonth
 
 :link: [*Online status: last seen last month*](constructor/userStatusLastMonth)
-
----
-
-##### userStatusHidden
-
-:link: [*NOTHING*](constructor/userStatusHidden)
 
 ---
 
@@ -1041,39 +1047,27 @@
 
 ---
 
-##### messageActionPhoneNumberRequest
+##### messageActionStarGiftPurchaseOffer
 
-:link: [*NOTHING*](constructor/messageActionPhoneNumberRequest)
-
----
-
-##### messageActionUserJoined
-
-:link: [*NOTHING*](constructor/messageActionUserJoined)
+:link: [*NOTHING*](constructor/messageActionStarGiftPurchaseOffer)
 
 ---
 
-##### messageActionUserUpdatedPhoto
+##### messageActionStarGiftPurchaseOfferDeclined
 
-:link: [*NOTHING*](constructor/messageActionUserUpdatedPhoto)
-
----
-
-##### messageActionTTLChange
-
-:link: [*NOTHING*](constructor/messageActionTTLChange)
+:link: [*NOTHING*](constructor/messageActionStarGiftPurchaseOfferDeclined)
 
 ---
 
-##### messageActionCreatedBroadcastList
+##### messageActionNewCreatorPending
 
-:link: [*NOTHING*](constructor/messageActionCreatedBroadcastList)
+:link: [*NOTHING*](constructor/messageActionNewCreatorPending)
 
 ---
 
-##### messageActionLoginUnknownLocation
+##### messageActionChangeCreator
 
-:link: [*NOTHING*](constructor/messageActionLoginUnknownLocation)
+:link: [*NOTHING*](constructor/messageActionChangeCreator)
 
 ---
 
@@ -1524,12 +1518,6 @@
 ##### inputMessagesFilterPinned
 
 :link: [*Fetch only pinned messages*](constructor/inputMessagesFilterPinned)
-
----
-
-##### inputMessagesFilterPhotoVideoDocuments
-
-:link: [*NOTHING*](constructor/inputMessagesFilterPhotoVideoDocuments)
 
 ---
 
@@ -2429,21 +2417,21 @@ This setting only affects the current account, and is synced to other logged in 
 
 ---
 
-##### updateTranscribeAudio
-
-:link: [*NOTHING*](constructor/updateTranscribeAudio)
-
----
-
-##### updateBotSubscriptionExpire
-
-:link: [*NOTHING*](constructor/updateBotSubscriptionExpire)
-
----
-
 ##### updateStarGiftAuctionUserState
 
 :link: [*NOTHING*](constructor/updateStarGiftAuctionUserState)
+
+---
+
+##### updateEmojiGameInfo
+
+:link: [*NOTHING*](constructor/updateEmojiGameInfo)
+
+---
+
+##### updateStarGiftCraftFail
+
+:link: [*NOTHING*](constructor/updateStarGiftCraftFail)
 
 ---
 
@@ -3303,12 +3291,6 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 ##### webPageNotModified
 
 :link: [*The preview of the webpage hasn&#039;t changed*](constructor/webPageNotModified)
-
----
-
-##### webPageUrlPending
-
-:link: [*NOTHING*](constructor/webPageUrlPending)
 
 ---
 
@@ -5322,12 +5304,6 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 ##### channelAdminLogEventActionToggleAutotranslation
 
 :link: [*Channel autotranslation was toggled &raquo;*](constructor/channelAdminLogEventActionToggleAutotranslation)
-
----
-
-##### channelAdminLogEventActionChangeTheme
-
-:link: [*The chat theme was changed*](constructor/channelAdminLogEventActionChangeTheme)
 
 ---
 
@@ -9053,21 +9029,21 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### inputStarGiftAuction
+##### groupCallDonor
 
-:link: [*NOTHING*](constructor/inputStarGiftAuction)
-
----
-
-##### inputStarGiftAuctionSlug
-
-:link: [*NOTHING*](constructor/inputStarGiftAuctionSlug)
+:link: [*NOTHING*](constructor/groupCallDonor)
 
 ---
 
-##### starGiftAuctionUserState
+##### phone groupCallStars
 
-:link: [*NOTHING*](constructor/starGiftAuctionUserState)
+:link: [*NOTHING*](constructor/phone.groupCallStars)
+
+---
+
+##### recentStory
+
+:link: [*NOTHING*](constructor/recentStory)
 
 ---
 
@@ -9077,9 +9053,9 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### messages messageEmpty
+##### starGiftAuctionStateNotModified
 
-:link: [*Empty constructor\. Can be used, for example, in case when an action did not require to create a service message*](constructor/messages.messageEmpty)
+:link: [*NOTHING*](constructor/starGiftAuctionStateNotModified)
 
 ---
 
@@ -9095,45 +9071,15 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### starGiftAuctionStateNotModified
+##### starGiftAuctionUserState
 
-:link: [*NOTHING*](constructor/starGiftAuctionStateNotModified)
-
----
-
-##### inputPhoneContact
-
-:link: [*Phone contact*](constructor/inputPhoneContact)
+:link: [*NOTHING*](constructor/starGiftAuctionUserState)
 
 ---
 
-##### recentStory
+##### payments starGiftAuctionState
 
-:link: [*NOTHING*](constructor/recentStory)
-
----
-
-##### premiumGiftOption
-
-:link: [*Telegram Premium gift option*](constructor/premiumGiftOption)
-
----
-
-##### starGiftActiveAuctions
-
-:link: [*NOTHING*](constructor/starGiftActiveAuctions)
-
----
-
-##### starGiftActiveAuctionsNotModified
-
-:link: [*NOTHING*](constructor/starGiftActiveAuctionsNotModified)
-
----
-
-##### messages webViewResult
-
-:link: [*NOTHING*](constructor/messages.webViewResult)
+:link: [*NOTHING*](constructor/payments.starGiftAuctionState)
 
 ---
 
@@ -9143,30 +9089,162 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### starGiftActiveAuctionState
-
-:link: [*NOTHING*](constructor/starGiftActiveAuctionState)
-
----
-
-##### groupCallDonor
-
-:link: [*NOTHING*](constructor/groupCallDonor)
-
----
-
 ##### payments starGiftAuctionAcquiredGifts
 
 :link: [*NOTHING*](constructor/payments.starGiftAuctionAcquiredGifts)
 
 ---
 
-##### phone groupCallStars
+##### starGiftActiveAuctionState
 
-:link: [*NOTHING*](constructor/phone.groupCallStars)
+:link: [*NOTHING*](constructor/starGiftActiveAuctionState)
 
 ---
 
-##### payments starGiftAuctionState
+##### payments starGiftActiveAuctionsNotModified
 
-:link: [*NOTHING*](constructor/payments.starGiftAuctionState)
+:link: [*NOTHING*](constructor/payments.starGiftActiveAuctionsNotModified)
+
+---
+
+##### payments starGiftActiveAuctions
+
+:link: [*NOTHING*](constructor/payments.starGiftActiveAuctions)
+
+---
+
+##### inputStarGiftAuction
+
+:link: [*NOTHING*](constructor/inputStarGiftAuction)
+
+---
+
+##### inputStarGiftAuctionSlug
+
+:link: [*NOTHING*](constructor/inputStarGiftAuctionSlug)
+
+---
+
+##### passkey
+
+:link: [*NOTHING*](constructor/passkey)
+
+---
+
+##### account passkeys
+
+:link: [*NOTHING*](constructor/account.passkeys)
+
+---
+
+##### account passkeyRegistrationOptions
+
+:link: [*NOTHING*](constructor/account.passkeyRegistrationOptions)
+
+---
+
+##### auth passkeyLoginOptions
+
+:link: [*NOTHING*](constructor/auth.passkeyLoginOptions)
+
+---
+
+##### inputPasskeyResponseRegister
+
+:link: [*NOTHING*](constructor/inputPasskeyResponseRegister)
+
+---
+
+##### inputPasskeyResponseLogin
+
+:link: [*NOTHING*](constructor/inputPasskeyResponseLogin)
+
+---
+
+##### inputPasskeyCredentialPublicKey
+
+:link: [*NOTHING*](constructor/inputPasskeyCredentialPublicKey)
+
+---
+
+##### inputPasskeyCredentialFirebasePNV
+
+:link: [*NOTHING*](constructor/inputPasskeyCredentialFirebasePNV)
+
+---
+
+##### starGiftBackground
+
+:link: [*NOTHING*](constructor/starGiftBackground)
+
+---
+
+##### starGiftAuctionRound
+
+:link: [*NOTHING*](constructor/starGiftAuctionRound)
+
+---
+
+##### starGiftAuctionRoundExtendable
+
+:link: [*NOTHING*](constructor/starGiftAuctionRoundExtendable)
+
+---
+
+##### payments starGiftUpgradeAttributes
+
+:link: [*NOTHING*](constructor/payments.starGiftUpgradeAttributes)
+
+---
+
+##### messages emojiGameOutcome
+
+:link: [*NOTHING*](constructor/messages.emojiGameOutcome)
+
+---
+
+##### messages emojiGameUnavailable
+
+:link: [*NOTHING*](constructor/messages.emojiGameUnavailable)
+
+---
+
+##### messages emojiGameDiceInfo
+
+:link: [*NOTHING*](constructor/messages.emojiGameDiceInfo)
+
+---
+
+##### starGiftAttributeRarity
+
+:link: [*NOTHING*](constructor/starGiftAttributeRarity)
+
+---
+
+##### starGiftAttributeRarityUncommon
+
+:link: [*NOTHING*](constructor/starGiftAttributeRarityUncommon)
+
+---
+
+##### starGiftAttributeRarityRare
+
+:link: [*NOTHING*](constructor/starGiftAttributeRarityRare)
+
+---
+
+##### starGiftAttributeRarityEpic
+
+:link: [*NOTHING*](constructor/starGiftAttributeRarityEpic)
+
+---
+
+##### starGiftAttributeRarityLegendary
+
+:link: [*NOTHING*](constructor/starGiftAttributeRarityLegendary)
+
+---
+
+##### keyboardButtonStyle
+
+:link: [*NOTHING*](constructor/keyboardButtonStyle)

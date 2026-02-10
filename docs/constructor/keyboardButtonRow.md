@@ -2,7 +2,7 @@
 
 **Description** : *Inline keyboard row*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 keyboardButtonRow#77608b83 buttons:Vector<KeyboardButton> = KeyboardButtonRow;
@@ -30,27 +30,63 @@ keyboardButtonRow#77608b83 buttons:Vector<KeyboardButton> = KeyboardButtonRow;
 $keyboardButtonRow = $client->keyboardButtonRow(
 	buttons : array(
 		$client->keyboardButton(
-			text : '4Q3HDqRsVKdjauJU',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 920964697199092199,
+			),
+			text : 'q1K8whlUDSaupYvy',
 		),
 		$client->keyboardButtonUrl(
-			text : 'FVkvrSpAMKoTbfOU',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : -2120539145241790738,
+			),
+			text : '5a1tmQr3M6nubWqY',
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->keyboardButtonCallback(
 			requires_password : true,
-			text : 'eTYH74pz8JuWLZMh',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 1138583346506366367,
+			),
+			text : '5Ak1bM7zFTWdVPms',
 			data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->keyboardButtonRequestPhone(
-			text : 'vLdtBIbWJ7wRrGFn',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : -6220653898311633273,
+			),
+			text : 'ejbfNoLyvHw6OWC9',
 		),
 		$client->keyboardButtonRequestGeoLocation(
-			text : 'rCSqYp9Nn2AdtZM1',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : -4524475787307483684,
+			),
+			text : '7H19g34RIjaKOFBx',
 		),
 		$client->keyboardButtonSwitchInline(
 			same_peer : true,
-			text : 'eyxB75bNsoq9z0k8',
-			query : 'pMYAorjEJcCxQf4u',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 125967546950529788,
+			),
+			text : 'eVFB72Yd0Z185IiK',
+			query : 'TNkplX6GSKvWEbCU',
 			peer_types : array(
 				$client->inlineQueryPeerTypeSameBotPM(),
 				$client->inlineQueryPeerTypePM(),
@@ -61,68 +97,140 @@ $keyboardButtonRow = $client->keyboardButtonRow(
 			),
 		),
 		$client->keyboardButtonGame(
-			text : 'YOjodkmsUziDgZ8J',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : -6141156889094373432,
+			),
+			text : 'GURtAbBiHD0KjVW5',
 		),
 		$client->keyboardButtonBuy(
-			text : 'EHpxsw0zRcbnYGjO',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : -6135566047083323704,
+			),
+			text : 'hFjoULTlZibaxkW9',
 		),
 		$client->keyboardButtonUrlAuth(
-			text : 'pYbCPVITHXztgu8a',
-			fwd_text : 'i5HM627OXnSKTk0y',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 4524875061847034706,
+			),
+			text : 'ZPB3uTSJnQ0Ua2fA',
+			fwd_text : '3SHzpuPXg4vDI5wE',
 			url : 'https://docs.liveproto.dev',
-			button_id : 77,
+			button_id : 75,
 		),
 		$client->inputKeyboardButtonUrlAuth(
 			request_write_access : true,
-			text : 'QEgARql2tXcoTbvy',
-			fwd_text : 'AMp3qteUxTzFkLuB',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 755203707738154262,
+			),
+			text : '5yMBtxLhOHwjiYJk',
+			fwd_text : 'YGQkKAtf1robCLUd',
 			url : 'https://docs.liveproto.dev',
 			bot : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->keyboardButtonRequestPoll(
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : -1410125039231698924,
+			),
 			quiz : true,
-			text : '0vsaQWt6P574m1hT',
+			text : 'XDVzCtPvMRdWFmy0',
 		),
 		$client->inputKeyboardButtonUserProfile(
-			text : 'mh1siIoZMXkrPenK',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : -6792137520077962969,
+			),
+			text : 'FAg8ZjzET5qHMNmC',
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->keyboardButtonUserProfile(
-			text : 'z2e6R0tDiVEWcaQn',
-			user_id : 7379246559978362841,
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 614218643181272697,
+			),
+			text : 'HoXe8UjiduQIx5Ma',
+			user_id : 4843685337979748174,
 		),
 		$client->keyboardButtonWebView(
-			text : 'IctKmTD1x3GWkJiA',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 2579850566764860412,
+			),
+			text : '6Xgb7L29vPOhjqWB',
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->keyboardButtonSimpleWebView(
-			text : 'Uhcqse9yYZP07XBx',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 5701065187218472419,
+			),
+			text : 'CyMAkVNGSDhRwd1p',
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->keyboardButtonRequestPeer(
-			text : 'Fo207dyvTPGu1Cb8',
-			button_id : 20,
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 8449935592657011334,
+			),
+			text : 'cze7A1uh5TmRCHsE',
+			button_id : 90,
 			peer_type : $client->requestPeerTypeUser(
 				bot : true,
 				premium : true,
 			),
-			max_quantity : 12,
+			max_quantity : 14,
 		),
 		$client->inputKeyboardButtonRequestPeer(
 			name_requested : true,
 			username_requested : true,
 			photo_requested : true,
-			text : 'cwFVS3UTJH7Xh4e2',
-			button_id : 39,
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 6606236052964688430,
+			),
+			text : '6mAgRHGQXTDKB2Jf',
+			button_id : 77,
 			peer_type : $client->requestPeerTypeUser(
 				bot : true,
 				premium : false,
 			),
-			max_quantity : 47,
+			max_quantity : 89,
 		),
 		$client->keyboardButtonCopy(
-			text : 'GyOphYemT5aXALN9',
-			copy_text : '2TZuW5wDI8UidJ6g',
+			style : $client->keyboardButtonStyle(
+				bg_primary : true,
+				bg_danger : true,
+				bg_success : true,
+				icon : 3456817324058885547,
+			),
+			text : 'CHLE7AMZPWiIRJl4',
+			copy_text : 'zIsUO23KwnlhP4gj',
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *A webpage preview of a link in a channel/supergroup message was generated*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateChannelWebPage#2f2ba99f channel_id:long webpage:WebPage pts:int pts_count:int = Update;
@@ -31,12 +31,12 @@ updateChannelWebPage#2f2ba99f channel_id:long webpage:WebPage pts:int pts_count:
 
 ```php
 $update = $client->updateChannelWebPage(
-	channel_id : 1523545323739224865,
+	channel_id : -1657334889171966629,
 	webpage : $client->webPageEmpty(
-		id : 2680014789299188508,
+		id : 5633682947089797856,
 		url : 'https://docs.liveproto.dev',
 	),
-	pts : 33,
-	pts_count : 70,
+	pts : 83,
+	pts_count : 57,
 );
 ```

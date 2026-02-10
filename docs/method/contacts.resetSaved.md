@@ -2,7 +2,7 @@
 
 **Description** : *Removes all contacts without an associated Telegram account*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 contacts.resetSaved#879537f1 = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Seta an encrypted file*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 encryptedFileEmpty#c21f497e = EncryptedFile;

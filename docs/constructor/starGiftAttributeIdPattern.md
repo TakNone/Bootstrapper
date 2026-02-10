@@ -2,7 +2,7 @@
 
 **Description** : *The ID of a pattern of a collectible gift &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 starGiftAttributeIdPattern#4a162433 document_id:long = StarGiftAttributeId;
@@ -28,6 +28,6 @@ starGiftAttributeIdPattern#4a162433 document_id:long = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdPattern(
-	document_id : -3148898223886807630,
+	document_id : 4563800283168303682,
 );
 ```

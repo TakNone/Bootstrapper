@@ -2,7 +2,7 @@
 
 **Description** : *Theme*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputTheme#3c5693e9 id:long access_hash:long = InputTheme;
@@ -29,7 +29,7 @@ inputTheme#3c5693e9 id:long access_hash:long = InputTheme;
 
 ```php
 $inputTheme = $client->inputTheme(
-	id : -7666449618620668061,
-	access_hash : 1133668044976239839,
+	id : 2974341766352001155,
+	access_hash : -2429661750412124281,
 );
 ```

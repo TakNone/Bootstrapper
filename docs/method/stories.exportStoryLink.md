@@ -2,7 +2,7 @@
 
 **Description** : *Generate a story deep link for a specific story*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 stories.exportStoryLink#7b8def20 peer:InputPeer id:int = ExportedStoryLink;
@@ -40,6 +40,6 @@ stories.exportStoryLink#7b8def20 peer:InputPeer id:int = ExportedStoryLink;
 ```php
 $exportedStoryLink = $client->stories->exportStoryLink(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 2,
+	id : 88,
 );
 ```

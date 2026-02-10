@@ -2,7 +2,7 @@
 
 **Description** : *Logged\-in sessions*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.authorizations#4bff8ea0 authorization_ttl_days:int authorizations:Vector<Authorization> = account.Authorizations;

@@ -2,7 +2,7 @@
 
 **Description** : *Delete a channel/supergroup*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.deleteChannel#c0111fe3 channel:InputChannel = Updates;

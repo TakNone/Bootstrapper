@@ -1,6 +1,6 @@
 # updateGroupCallEncryptedMessage
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateGroupCallEncryptedMessage#c957a766 call:InputGroupCall from_id:Peer encrypted_message:bytes = Update;
@@ -29,11 +29,11 @@ updateGroupCallEncryptedMessage#c957a766 call:InputGroupCall from_id:Peer encryp
 ```php
 $update = $client->updateGroupCallEncryptedMessage(
 	call : $client->inputGroupCall(
-		id : 7200228201970511895,
-		access_hash : -4361126546525385887,
+		id : -1021492146023990148,
+		access_hash : -8332229319936145069,
 	),
 	from_id : $client->peerUser(
-		user_id : 7013719679265336237,
+		user_id : -4280809337230481585,
 	),
 	encrypted_message : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

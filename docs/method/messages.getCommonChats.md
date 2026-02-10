@@ -2,7 +2,7 @@
 
 **Description** : *Get chats in common with a user*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.getCommonChats#e40ca104 user_id:InputUser max_id:long limit:int = messages.Chats;
@@ -40,7 +40,7 @@ messages.getCommonChats#e40ca104 user_id:InputUser max_id:long limit:int = messa
 ```php
 $messagesChats = $client->messages->getCommonChats(
 	user_id : $client->get_input_user(user : '@TakNone'),
-	max_id : -342882161194428708,
-	limit : 21,
+	max_id : -5981222875472134108,
+	limit : 20,
 );
 ```

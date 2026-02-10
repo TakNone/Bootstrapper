@@ -2,7 +2,7 @@
 
 **Description** : *Generates a temporary profile link for the currently logged\-in user*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 contacts.exportContactToken#f8654027 = ExportedContactToken;

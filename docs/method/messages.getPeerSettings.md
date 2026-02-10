@@ -2,7 +2,7 @@
 
 **Description** : *Get peer settings*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.getPeerSettings#efd9a6a2 peer:InputPeer = messages.PeerSettings;

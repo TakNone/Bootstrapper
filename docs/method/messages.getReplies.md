@@ -2,7 +2,7 @@
 
 **Description** : *Get messages in a reply thread*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.getReplies#22ddd30c peer:InputPeer msg_id:int offset_id:int offset_date:int add_offset:int limit:int max_id:int min_id:int hash:long = messages.Messages;
@@ -49,13 +49,13 @@ messages.getReplies#22ddd30c peer:InputPeer msg_id:int offset_id:int offset_date
 ```php
 $messagesMessages = $client->messages->getReplies(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 49,
+	msg_id : 52,
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 22,
-	limit : 6,
-	max_id : 92,
-	min_id : 49,
+	add_offset : 31,
+	limit : 56,
+	max_id : 49,
+	min_id : 50,
 	hash : 0,
 );
 ```

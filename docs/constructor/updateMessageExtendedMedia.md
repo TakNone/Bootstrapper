@@ -2,7 +2,7 @@
 
 **Description** : *You bought a paid media &raquo;: this update contains the revealed media*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateMessageExtendedMedia#d5a41724 peer:Peer msg_id:int extended_media:Vector<MessageExtendedMedia> = Update;
@@ -31,17 +31,17 @@ updateMessageExtendedMedia#d5a41724 peer:Peer msg_id:int extended_media:Vector<M
 ```php
 $update = $client->updateMessageExtendedMedia(
 	peer : $client->peerUser(
-		user_id : 9052014180659017337,
+		user_id : 2085462732564086171,
 	),
-	msg_id : 12,
+	msg_id : 28,
 	extended_media : array(
 		$client->messageExtendedMediaPreview(
-			w : 1,
-			h : 48,
+			w : 2,
+			h : 39,
 			thumb : $client->photoSizeEmpty(
-				type : 'xJnGdBalysp3NfiU',
+				type : 'WXcbnJZqLK3dkwf8',
 			),
-			video_duration : 97,
+			video_duration : 68,
 		),
 		$client->messageExtendedMedia(
 			media : $client->messageMediaEmpty(),

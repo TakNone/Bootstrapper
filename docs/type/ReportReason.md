@@ -2,7 +2,7 @@
 
 **Description** : *Report reason*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputReportReasonSpam#58dbcab8 = ReportReason;

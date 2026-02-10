@@ -2,7 +2,7 @@
 
 **Description** : *Allow a user to send us messages without paying if paid messages &raquo; are enabled*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.toggleNoPaidMessagesException#fe2eda76 flags:# refund_charged:flags.0?true require_payment:flags.2?true parent_peer:flags.1?InputPeer user_id:InputUser = Bool;

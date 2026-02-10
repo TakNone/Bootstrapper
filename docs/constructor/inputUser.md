@@ -2,7 +2,7 @@
 
 **Description** : *Defines a user for further interaction*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputUser#f21158c6 user_id:long access_hash:long = InputUser;
@@ -29,7 +29,7 @@ inputUser#f21158c6 user_id:long access_hash:long = InputUser;
 
 ```php
 $inputUser = $client->inputUser(
-	user_id : -5092673700123861032,
-	access_hash : -8130267996417569667,
+	user_id : -7851031017323879902,
+	access_hash : 1827915366316510677,
 );
 ```

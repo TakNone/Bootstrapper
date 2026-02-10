@@ -3,7 +3,7 @@
 **Description** : *Confirms receipt of messages in a secret chat by client, cancels push notifications\.
 The method returns a list of random\_ids of messages for which push notifications were cancelled*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.receivedQueue#55a5bb66 max_qts:int = Vector<long>;

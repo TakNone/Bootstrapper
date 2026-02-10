@@ -2,7 +2,7 @@
 
 **Description** : *Submit requested order information for validation*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.validateRequestedInfo#b6c8f12b flags:# save:flags.0?true invoice:InputInvoice info:PaymentRequestedInfo = payments.ValidatedRequestedInfo;
@@ -43,19 +43,19 @@ $paymentsValidatedRequestedInfo = $client->payments->validateRequestedInfo(
 	save : true,
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-		msg_id : 85,
+		msg_id : 70,
 	),
 	info : $client->paymentRequestedInfo(
-		name : 'IjAaDUXWOG8lcbQe',
+		name : '6QkwjhVeDfYELzPB',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : 'TkWf32Hv8EFiS0Cy',
-			street_line2 : 'W0uJk6jxqbEKDhrX',
-			city : 'LRvc9iPUADhVdlNW',
-			state : 'y9bHL5GlSscvk8N3',
-			country_iso2 : 'yjrDG1axNp9Aml40',
-			post_code : '5ulMdFRIALG2jaVr',
+			street_line1 : 'RzK2lw0M6FcJZA1k',
+			street_line2 : 'rJ4cApbVDUe170Ff',
+			city : 'oGhjue0p2t6gJTQA',
+			state : '1vCG4ThxtocafHdP',
+			country_iso2 : 'bTuXLDBMlH9AvIjZ',
+			post_code : 'jv2VDsM1ZBHPlbk7',
 		),
 	),
 );

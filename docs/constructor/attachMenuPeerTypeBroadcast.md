@@ -2,7 +2,7 @@
 
 **Description** : *The bot attachment menu entry is available in channels*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 attachMenuPeerTypeBroadcast#7bfbdefc = AttachMenuPeerType;

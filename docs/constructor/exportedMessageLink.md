@@ -2,7 +2,7 @@
 
 **Description** : *Link to a message in a supergroup/channel*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 exportedMessageLink#5dab1af4 link:string html:string = ExportedMessageLink;
@@ -29,7 +29,7 @@ exportedMessageLink#5dab1af4 link:string html:string = ExportedMessageLink;
 
 ```php
 $exportedMessageLink = $client->exportedMessageLink(
-	link : '4nYa5mSFxfNt0Xcg',
-	html : 'KjL5RqkXGN0479cr',
+	link : 'LRo61T5qJw8mzavF',
+	html : 'ZN9dGQsqU4lPJSpD',
 );
 ```

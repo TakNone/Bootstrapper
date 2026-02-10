@@ -2,7 +2,7 @@
 
 **Description** : *The current account&#039;s Telegram Stars balance &raquo; has changed*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateStarsBalance#4e80a379 balance:StarsAmount = Update;
@@ -29,8 +29,8 @@ updateStarsBalance#4e80a379 balance:StarsAmount = Update;
 ```php
 $update = $client->updateStarsBalance(
 	balance : $client->starsAmount(
-		amount : 4825864292747386082,
-		nanos : 13,
+		amount : 3144577587384596388,
+		nanos : 58,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *A list of emoji statuses*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.emojiStatuses#90c467d1 hash:long statuses:Vector<EmojiStatus> = account.EmojiStatuses;
@@ -33,24 +33,24 @@ $accountEmojiStatuses = $client->account->emojiStatuses(
 	statuses : array(
 		$client->emojiStatusEmpty(),
 		$client->emojiStatus(
-			document_id : 3708719683723298278,
-			until : 96,
+			document_id : 5009226711387979129,
+			until : 79,
 		),
 		$client->emojiStatusCollectible(
-			collectible_id : 2513739840763513445,
-			document_id : -3395560907313373,
-			title : 'IVlPb2DAhJRzGvQT',
-			slug : 'tICTFXAvBw3JfNjm',
-			pattern_document_id : -7340801704973638695,
-			center_color : 96,
-			edge_color : 46,
-			pattern_color : 59,
-			text_color : 67,
-			until : 73,
+			collectible_id : -193954841543803092,
+			document_id : 2981162045782111846,
+			title : 'LTdVeilsAXW5YM3y',
+			slug : 'WVGRNL5ScDPgHAin',
+			pattern_document_id : 7630369243788106890,
+			center_color : 92,
+			edge_color : 4,
+			pattern_color : 9,
+			text_color : 25,
+			until : 78,
 		),
 		$client->inputEmojiStatusCollectible(
-			collectible_id : -6120412106905196035,
-			until : 66,
+			collectible_id : -7477225843160626423,
+			until : 91,
 		),
 	),
 );

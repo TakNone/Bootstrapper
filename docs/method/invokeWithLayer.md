@@ -2,7 +2,7 @@
 
 **Description** : *Invoke the specified query using the specified API layer*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 invokeWithLayer#da9b0d0d {X:Type} layer:int query:!X = X;
@@ -41,7 +41,7 @@ invokeWithLayer#da9b0d0d {X:Type} layer:int query:!X = X;
 
 ```php
 $x = $client->invokeWithLayer(
-	layer : 26,
+	layer : 94,
 	query : $client->help->getConfig(raw : true),
 );
 ```

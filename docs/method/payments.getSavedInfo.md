@@ -2,7 +2,7 @@
 
 **Description** : *Get saved payment information*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.getSavedInfo#227d824b = payments.SavedInfo;

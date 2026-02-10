@@ -2,7 +2,7 @@
 
 **Description** : *The specified bot commands will be valid in all groups and supergroups*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 botCommandScopeChats#6fe1a881 = BotCommandScope;

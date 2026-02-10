@@ -2,10 +2,10 @@
 
 **Description** : *Choose a channel*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true user_admin_rights:flags.1?ChatAdminRights has_username:flags.3?Bool bot_admin_rights:flags.2?ChatAdminRights = RequestPeerType;
+requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true has_username:flags.3?Bool user_admin_rights:flags.1?ChatAdminRights bot_admin_rights:flags.2?ChatAdminRights = RequestPeerType;
 ```
 
 ---
@@ -16,8 +16,8 @@ requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true user_admin_rights
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **creator** | [`flags.0?true`](type/true) | Whether to allow only choosing channels that were created by the current user |
-| **user_admin_rights** | [`flags.1?ChatAdminRights`](type/ChatAdminRights) | If specified, allows only choosing channels where the current user is an admin with at least the specified admin rights |
 | **has_username** | [`flags.3?Bool`](type/Bool) | If specified, allows only choosing channels with or without a username, according to the value of Bool |
+| **user_admin_rights** | [`flags.1?ChatAdminRights`](type/ChatAdminRights) | If specified, allows only choosing channels where the current user is an admin with at least the specified admin rights |
 | **bot_admin_rights** | [`flags.2?ChatAdminRights`](type/ChatAdminRights) | If specified, allows only choosing channels where the bot is an admin with at least the specified admin rights |
 
 ---
@@ -33,6 +33,7 @@ requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true user_admin_rights
 ```php
 $requestPeerType = $client->requestPeerTypeBroadcast(
 	creator : true,
+	has_username : false,
 	user_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -51,7 +52,6 @@ $requestPeerType = $client->requestPeerTypeBroadcast(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	has_username : false,
 	bot_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,

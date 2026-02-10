@@ -2,7 +2,7 @@
 
 **Description** : *Info about a chat invite*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.exportedChatInvite#1871be50 invite:ExportedChatInvite users:Vector<User> = messages.ExportedChatInvite;
@@ -33,24 +33,24 @@ $messagesExportedChatInvite = $client->messages->exportedChatInvite(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'bu6Wd5rvjyqzGhf4',
-		admin_id : 8131909749520561342,
-		date : 100,
-		start_date : 21,
-		expire_date : 74,
-		usage_limit : 33,
+		link : 'vt5qCTPR8zfSO4sb',
+		admin_id : -310306813011749839,
+		date : 65,
+		start_date : 46,
+		expire_date : 91,
+		usage_limit : 21,
 		usage : 59,
-		requested : 1,
-		subscription_expired : 14,
-		title : 'NBYUXqoGcdA4CPvp',
+		requested : 67,
+		subscription_expired : 66,
+		title : 'X7cQ03JWV6e9BqlC',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 56,
-			amount : 5045937416980233007,
+			period : 32,
+			amount : 78387081041407557,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 1936269607453215937,
+			id : 5131397956982129704,
 		),
 		$client->user(
 			self : true,
@@ -79,24 +79,25 @@ $messagesExportedChatInvite = $client->messages->exportedChatInvite(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -494912859107311775,
-			access_hash : -7091553000582520044,
+			bot_forum_can_manage_topics : true,
+			id : -526321879234543020,
+			access_hash : 5587215909941550166,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 4,
+			bot_info_version : 20,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'a5QqFIKZ83bxCEvm',
-					reason : 'JndQFID73z0Wcutm',
-					text : 'A4vPUNjeFdXnGoRg',
+					platform : 'QSPrOzTRXAGE7fJF',
+					reason : 'CDopzuNShVa7TqBb',
+					text : 'yH2jZ9OSqetD0mca',
 				),
 			),
-			bot_inline_placeholder : 'wIei2dDvXpkLtJBC',
-			lang_code : 'S9T6nYlmHjhDirt1',
+			bot_inline_placeholder : 'FfLTOXrysMpRgNYi',
+			lang_code : 'KzpM8fLnaRuYFr9V',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -107,19 +108,19 @@ $messagesExportedChatInvite = $client->messages->exportedChatInvite(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 53,
+				max_id : 66,
 			),
 			color : $client->peerColor(
-				color : 33,
-				background_emoji_id : -8094786628764538016,
+				color : 84,
+				background_emoji_id : 6163446902206395429,
 			),
 			profile_color : $client->peerColor(
-				color : 89,
-				background_emoji_id : -7769515616590425949,
+				color : 33,
+				background_emoji_id : -2598406341803005089,
 			),
-			bot_active_users : 77,
-			bot_verification_icon : -8206433652478309251,
-			send_paid_messages_stars : 1153926754698916198,
+			bot_active_users : 22,
+			bot_verification_icon : 1507841618918472177,
+			send_paid_messages_stars : 1372721687814366305,
 		),
 	),
 );

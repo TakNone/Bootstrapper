@@ -2,7 +2,7 @@
 
 **Description** : *GIF image\. MIME type: image/gif*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 storage.fileGif#cae1aadf = storage.FileType;

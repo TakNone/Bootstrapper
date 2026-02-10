@@ -2,7 +2,7 @@
 
 **Description** : *Approve or reject a suggested post &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.toggleSuggestedPostApproval#8107455c flags:# reject:flags.1?true peer:InputPeer msg_id:int schedule_date:flags.0?int reject_comment:flags.2?string = Updates;
@@ -43,8 +43,8 @@ messages.toggleSuggestedPostApproval#8107455c flags:# reject:flags.1?true peer:I
 $updates = $client->messages->toggleSuggestedPostApproval(
 	reject : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 72,
-	schedule_date : 18,
-	reject_comment : 'oAChXHqYN4anviPj',
+	msg_id : 17,
+	schedule_date : 29,
+	reject_comment : '5pJLilymvdPq7NDb',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Notifies the sender about the recipient having listened a voice message or watched a video, emitting an updateReadMessagesContents*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.readMessageContents#36a73f77 id:Vector<int> = messages.AffectedMessages;
@@ -28,6 +28,6 @@ messages.readMessageContents#36a73f77 id:Vector<int> = messages.AffectedMessages
 
 ```php
 $messagesAffectedMessages = $client->messages->readMessageContents(
-	id : array(11),
+	id : array(35),
 );
 ```

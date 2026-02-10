@@ -2,7 +2,7 @@
 
 **Description** : *Edit message*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.editMessage#51e842e1 flags:# no_webpage:flags.1?true invert_media:flags.16?true peer:InputPeer id:int message:flags.11?string media:flags.14?InputMedia reply_markup:flags.2?ReplyMarkup entities:flags.3?Vector<MessageEntity> schedule_date:flags.15?int schedule_repeat_period:flags.18?int quick_reply_shortcut_id:flags.17?int = Updates;
@@ -96,8 +96,8 @@ $updates = $client->messages->editMessage(
 	no_webpage : true,
 	invert_media : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 87,
-	message : 'DqPwALGhoW49dX5I',
+	id : 37,
+	message : 'g3ftPlWyK4rLd0BM',
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
@@ -105,97 +105,97 @@ $updates = $client->messages->editMessage(
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 3,
+			length : 51,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 0,
+			length : 72,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 5,
+			length : 98,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 16,
+			length : 75,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 88,
+			length : 71,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 44,
+			length : 60,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 35,
+			length : 70,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 18,
+			length : 3,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 40,
+			length : 17,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 50,
-			language : '2N8J4KSojUDRzEqf',
+			length : 51,
+			language : 'phqW1i7YIdENxvPf',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 93,
+			length : 28,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 80,
-			user_id : -160033050952489458,
+			length : 92,
+			user_id : -5514528857944527721,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 29,
+			length : 34,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 62,
+			length : 95,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 68,
+			length : 87,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 18,
+			length : 25,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 95,
+			length : 100,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 49,
+			length : 53,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 37,
+			length : 76,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 58,
-			document_id : 2460718890684049078,
+			length : 10,
+			document_id : 840092932609731547,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 95,
+			length : 32,
 		),
 	),
-	schedule_date : 14,
-	schedule_repeat_period : 2,
-	quick_reply_shortcut_id : 56,
+	schedule_date : 84,
+	schedule_repeat_period : 60,
+	quick_reply_shortcut_id : 66,
 );
 ```

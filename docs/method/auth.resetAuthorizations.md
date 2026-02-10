@@ -2,7 +2,7 @@
 
 **Description** : *Terminates all user&#039;s authorized sessions except for the current one*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 auth.resetAuthorizations#9fab0d1a = Bool;

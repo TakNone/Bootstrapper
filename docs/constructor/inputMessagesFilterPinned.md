@@ -2,7 +2,7 @@
 
 **Description** : *Fetch only pinned messages*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputMessagesFilterPinned#1bb00451 = MessagesFilter;

@@ -2,10 +2,10 @@
 
 **Description** : *Button that links directly to a user profile*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-keyboardButtonUserProfile#308660c1 text:string user_id:long = KeyboardButton;
+keyboardButtonUserProfile#c0fd5d09 flags:# style:flags.10?KeyboardButtonStyle text:string user_id:long = KeyboardButton;
 ```
 
 ---
@@ -14,6 +14,8 @@ keyboardButtonUserProfile#308660c1 text:string user_id:long = KeyboardButton;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **style** | [`flags.10?KeyboardButtonStyle`](type/KeyboardButtonStyle) | NOTHING |
 | <mark>text</mark> | [`string`](type/string) | Button text |
 | <mark>user_id</mark> | [`long`](type/long) | User ID |
 
@@ -29,7 +31,13 @@ keyboardButtonUserProfile#308660c1 text:string user_id:long = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonUserProfile(
-	text : 'JPB65ioVULthcWsw',
-	user_id : -2069103605084331580,
+	style : $client->keyboardButtonStyle(
+		bg_primary : true,
+		bg_danger : true,
+		bg_success : true,
+		icon : 6914575317370871743,
+	),
+	text : 'GlqBFe0Wu85P3tpi',
+	user_id : -3219286203690699920,
 );
 ```

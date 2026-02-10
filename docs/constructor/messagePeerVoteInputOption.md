@@ -2,7 +2,7 @@
 
 **Description** : *How a peer voted in a poll \(reduced constructor, returned if an option was provided to messages\.getPollVotes\)*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messagePeerVoteInputOption#74cda504 peer:Peer date:int = MessagePeerVote;
@@ -30,8 +30,8 @@ messagePeerVoteInputOption#74cda504 peer:Peer date:int = MessagePeerVote;
 ```php
 $messagePeerVote = $client->messagePeerVoteInputOption(
 	peer : $client->peerUser(
-		user_id : -6254059080797623106,
+		user_id : -6116631020024921920,
 	),
-	date : 90,
+	date : 33,
 );
 ```

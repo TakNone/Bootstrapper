@@ -2,7 +2,7 @@
 
 **Description** : *Upload a custom profile picture for a contact, or suggest a new profile picture to a contact*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 photos.uploadContactProfilePhoto#e14c4a71 flags:# suggest:flags.3?true save:flags.4?true user_id:InputUser file:flags.0?InputFile video:flags.1?InputFile video_start_ts:flags.2?double video_emoji_markup:flags.5?VideoSize = photos.Photo;
@@ -49,13 +49,13 @@ $photosPhoto = $client->photos->uploadContactProfilePhoto(
 	user_id : $client->get_input_user(user : '@TakNone'),
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : 862526.0576171875,
+	video_start_ts : 687647.6376953125,
 	video_emoji_markup : $client->videoSize(
-		type : 'thfxop8N0G3rFc9K',
-		w : 91,
-		h : 33,
-		size : 22,
-		video_start_ts : 718276.654296875,
+		type : '1e4tVXxEpNUhOf5I',
+		w : 3,
+		h : 8,
+		size : 31,
+		video_start_ts : 765848.0830078125,
 	),
 );
 ```

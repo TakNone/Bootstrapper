@@ -2,7 +2,7 @@
 
 **Description** : *Sent message with random\_id client identifier was assigned an identifier*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateMessageID#4e90bfd6 id:int random_id:long = Update;
@@ -29,7 +29,7 @@ updateMessageID#4e90bfd6 id:int random_id:long = Update;
 
 ```php
 $update = $client->updateMessageID(
-	id : 48,
-	random_id : 127616800877133061,
+	id : 91,
+	random_id : 901896117981699899,
 );
 ```

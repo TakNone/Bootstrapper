@@ -2,7 +2,7 @@
 
 **Description** : *The bot attachment menu entry is available in private chats with other users \(not bots\)*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 attachMenuPeerTypePM#f146d31f = AttachMenuPeerType;

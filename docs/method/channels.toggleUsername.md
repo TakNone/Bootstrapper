@@ -2,7 +2,7 @@
 
 **Description** : *Activate or deactivate a purchased fragment\.com username associated to a supergroup or channel we own*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.toggleUsername#50f24105 channel:InputChannel username:string active:Bool = Bool;
@@ -46,6 +46,6 @@ channels.toggleUsername#50f24105 channel:InputChannel username:string active:Boo
 $bool = $client->channels->toggleUsername(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	username : 'TakNone',
-	active : false,
+	active : true,
 );
 ```

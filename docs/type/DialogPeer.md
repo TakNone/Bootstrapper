@@ -2,7 +2,7 @@
 
 **Description** : *Peer, or all peers in a folder*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 dialogPeer#e56dbf05 peer:Peer = DialogPeer;

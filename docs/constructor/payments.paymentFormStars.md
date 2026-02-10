@@ -2,10 +2,10 @@
 
 **Description** : *Represents a payment form, for payments to be using Telegram Stars, see here &raquo; for more info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-payments.paymentFormStars#7bf6b15c flags:# can_save_credentials:flags.2?true form_id:long password_missing:flags.3?true bot_id:long title:string description:string photo:flags.5?WebDocument invoice:Invoice users:Vector<User> = payments.PaymentForm;
+payments.paymentFormStars#7bf6b15c flags:# form_id:long bot_id:long title:string description:string photo:flags.5?WebDocument invoice:Invoice users:Vector<User> = payments.PaymentForm;
 ```
 
 ---
@@ -15,9 +15,7 @@ payments.paymentFormStars#7bf6b15c flags:# can_save_credentials:flags.2?true for
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| **can_save_credentials** | [`flags.2?true`](type/true) | NOTHING |
 | <mark>form_id</mark> | [`long`](type/long) | Form ID |
-| **password_missing** | [`flags.3?true`](type/true) | NOTHING |
 | <mark>bot_id</mark> | [`long`](type/long) | Bot ID |
 | <mark>title</mark> | [`string`](type/string) | Form title |
 | <mark>description</mark> | [`string`](type/string) | Description |
@@ -37,60 +35,58 @@ payments.paymentFormStars#7bf6b15c flags:# can_save_credentials:flags.2?true for
 
 ```php
 $paymentsPaymentForm = $client->payments->paymentFormStars(
-	can_save_credentials : true,
-	form_id : 9049780117637150202,
-	password_missing : true,
-	bot_id : 5164549835396584078,
-	title : 'Q2jrwbHCcATGs7WO',
-	description : 'ED0Ol3rcf7aJK45t',
+	form_id : -7742426608295375784,
+	bot_id : 3963470154064528864,
+	title : 's7CDjo4JeFMwEtQa',
+	description : 'l5uW10N3EYw4OvPs',
 	photo : $client->webDocument(
 		url : 'https://docs.liveproto.dev',
-		access_hash : 4424465047395952467,
-		size : 97,
-		mime_type : 'uxtLjw2qhZsKlXWy',
+		access_hash : 8807339679742325625,
+		size : 87,
+		mime_type : '72ZHmO9P86JdjtaD',
 		attributes : array(
 			$client->documentAttributeImageSize(
-				w : 15,
-				h : 96,
+				w : 38,
+				h : 36,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : 'QhwaOfXEdeV5boxF',
+				alt : 'ReK5ibmIkJ70qSch',
 				stickerset : $client->inputStickerSetEmpty(),
 				mask_coords : $client->maskCoords(
-					n : 4,
-					x : 1921070.072265625,
-					y : 348586.400390625,
-					zoom : 2015771.134765625,
+					n : 12,
+					x : -874195.8330078125,
+					y : -1824415.09765625,
+					zoom : 1593459.8603515625,
 				),
 			),
 			$client->documentAttributeVideo(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : -1722744.4912109375,
-				w : 83,
-				h : 67,
-				preload_prefix_size : 16,
-				video_start_ts : -1277726.7568359375,
-				video_codec : 'QNPHcVw3k687OlMn',
+				duration : 1840559.0341796875,
+				w : 44,
+				h : 51,
+				preload_prefix_size : 60,
+				video_start_ts : -428381.5439453125,
+				video_codec : 'hWPMT5Ac9OzNRQVE',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 66,
-				title : 'AUtBPpcarRNYhW9z',
-				performer : 'TsOPnDH53yuEiagU',
+				duration : 61,
+				title : 'zga5YFoA2hsUyTrZ',
+				performer : 'kxHb5qi4Sd8FLKjC',
 				waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->documentAttributeFilename(
-				file_name : 'ozfejKXnHuhCpr1B',
+				file_name : '5oCuRjyAlQK6m0nH',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : 'wd4AtOkNUxpQsf5r',
+				alt : 'ezohgATQRwPZ9qy0',
 				stickerset : $client->inputStickerSetEmpty(),
 			),
 		),
@@ -105,21 +101,21 @@ $paymentsPaymentForm = $client->payments->paymentFormStars(
 		phone_to_provider : true,
 		email_to_provider : true,
 		recurring : true,
-		currency : 'sX1OjFzMqYN0mRP4',
+		currency : 'fj3tOy8UmIzQo2VD',
 		prices : array(
 			$client->labeledPrice(
-				label : '7otVKDk9GZNrF01u',
-				amount : 5318150543473466902,
+				label : 'EypeUHtYlB2duZCr',
+				amount : 7079548129305876878,
 			),
 		),
-		max_tip_amount : 384673046072102602,
-		suggested_tip_amounts : array(43995417829902666),
+		max_tip_amount : 8450312568043465884,
+		suggested_tip_amounts : array(8012861937207218665),
 		terms_url : 'https://docs.liveproto.dev',
-		subscription_period : 80,
+		subscription_period : 33,
 	),
 	users : array(
 		$client->userEmpty(
-			id : 5590787465905288061,
+			id : 2738390282295576697,
 		),
 		$client->user(
 			self : true,
@@ -148,24 +144,25 @@ $paymentsPaymentForm = $client->payments->paymentFormStars(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -7448521943633733513,
-			access_hash : -25716288434099638,
+			bot_forum_can_manage_topics : true,
+			id : 8938112914111678583,
+			access_hash : -7730048771962417058,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 33,
+			bot_info_version : 21,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'OJUW4BF7VhdiIze9',
-					reason : 'hC5xNkKpnAU96fGO',
-					text : 'UM26poCWIqP7gSa0',
+					platform : 'ZsrkqVd4yNIDcp6e',
+					reason : 'ghdMSGcoICWk9Pat',
+					text : 'PysY8RLO5ZJhExzS',
 				),
 			),
-			bot_inline_placeholder : 'w1E4lFHdrOTy7mC3',
-			lang_code : 'ECFkTo4OubxVIRhn',
+			bot_inline_placeholder : 'XEm54DUr1vchxoqG',
+			lang_code : '4DCjR5TfBdlUuHLv',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -176,19 +173,19 @@ $paymentsPaymentForm = $client->payments->paymentFormStars(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 66,
+				max_id : 16,
 			),
 			color : $client->peerColor(
-				color : 1,
-				background_emoji_id : 7555908347087783387,
+				color : 66,
+				background_emoji_id : 1038787836976455064,
 			),
 			profile_color : $client->peerColor(
-				color : 66,
-				background_emoji_id : -355048087615441326,
+				color : 80,
+				background_emoji_id : 5080140850775079671,
 			),
-			bot_active_users : 91,
-			bot_verification_icon : 6821571423396893392,
-			send_paid_messages_stars : -8353457607311853590,
+			bot_active_users : 61,
+			bot_verification_icon : 6457429660096754830,
+			send_paid_messages_stars : -5843926734318794268,
 		),
 	),
 );

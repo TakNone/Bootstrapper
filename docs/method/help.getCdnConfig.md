@@ -2,7 +2,7 @@
 
 **Description** : *Get configuration for CDN file downloads*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.getCdnConfig#52029342 = CdnConfig;

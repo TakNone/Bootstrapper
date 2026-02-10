@@ -2,7 +2,7 @@
 
 **Description** : *Configuration for two\-factor authorization*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.password#957b50fb flags:# has_recovery:flags.0?true has_secure_values:flags.1?true has_password:flags.2?true current_algo:flags.2?PasswordKdfAlgo srp_B:flags.2?bytes srp_id:flags.2?long hint:flags.3?string email_unconfirmed_pattern:flags.4?string new_algo:PasswordKdfAlgo new_secure_algo:SecurePasswordKdfAlgo secure_random:bytes pending_reset_date:flags.5?int login_email_pattern:flags.6?string = account.Password;
@@ -46,13 +46,13 @@ $accountPassword = $client->account->password(
 	has_password : true,
 	current_algo : $client->passwordKdfAlgoUnknown(),
 	srp_B : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	srp_id : -9066679295535764595,
-	hint : 'A0PJkc42SR5G6Irn',
+	srp_id : -4529303725433457819,
+	hint : 'CzDn6sJNAeb5ow3x',
 	email_unconfirmed_pattern : 'reply@liveproto.dev',
 	new_algo : $client->passwordKdfAlgoUnknown(),
 	new_secure_algo : $client->securePasswordKdfAlgoUnknown(),
 	secure_random : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	pending_reset_date : 64,
+	pending_reset_date : 65,
 	login_email_pattern : 'reply@liveproto.dev',
 );
 ```

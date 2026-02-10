@@ -2,7 +2,7 @@
 
 **Description** : *Whether the user will receive notifications when contacts sign up*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.getContactSignUpNotification#9f07c728 = Bool;

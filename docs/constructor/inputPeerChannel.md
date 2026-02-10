@@ -2,7 +2,7 @@
 
 **Description** : *Defines a channel for further interaction*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputPeerChannel#27bcbbfc channel_id:long access_hash:long = InputPeer;
@@ -29,7 +29,7 @@ inputPeerChannel#27bcbbfc channel_id:long access_hash:long = InputPeer;
 
 ```php
 $inputPeer = $client->inputPeerChannel(
-	channel_id : 9072844222919795006,
-	access_hash : 7501689200638751458,
+	channel_id : -7481747980830131041,
+	access_hash : 6841821065876781865,
 );
 ```

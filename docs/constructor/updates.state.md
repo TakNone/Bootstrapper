@@ -2,7 +2,7 @@
 
 **Description** : *Updates state*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updates.state#a56c2a3e pts:int qts:int date:int seq:int unread_count:int = updates.State;
@@ -32,10 +32,10 @@ updates.state#a56c2a3e pts:int qts:int date:int seq:int unread_count:int = updat
 
 ```php
 $updatesState = $client->updates->state(
-	pts : 28,
-	qts : 3,
-	date : 84,
-	seq : 73,
-	unread_count : 78,
+	pts : 93,
+	qts : 35,
+	date : 98,
+	seq : 77,
+	unread_count : 83,
 );
 ```

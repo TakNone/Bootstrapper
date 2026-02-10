@@ -2,7 +2,7 @@
 
 **Description** : *A new groupcall was started*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateGroupCall#9d2216e0 flags:# live_story:flags.2?true peer:flags.1?Peer call:GroupCall = Update;
@@ -33,12 +33,12 @@ updateGroupCall#9d2216e0 flags:# live_story:flags.2?true peer:flags.1?Peer call:
 $update = $client->updateGroupCall(
 	live_story : true,
 	peer : $client->peerUser(
-		user_id : -5285027320954142350,
+		user_id : -2421889541532872268,
 	),
 	call : $client->groupCallDiscarded(
-		id : -6954476619065221723,
-		access_hash : 300793830636485798,
-		duration : 90,
+		id : 8553537656664856546,
+		access_hash : -4637364886186579466,
+		duration : 25,
 	),
 );
 ```

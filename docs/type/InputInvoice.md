@@ -2,7 +2,7 @@
 
 **Description** : *An invoice*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputInvoiceMessage#c5b56859 peer:InputPeer msg_id:int = InputInvoice;

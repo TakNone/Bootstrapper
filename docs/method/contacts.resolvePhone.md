@@ -2,7 +2,7 @@
 
 **Description** : *Resolve a phone number to get user info, if their privacy settings allow it*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 contacts.resolvePhone#8af94344 phone:string = contacts.ResolvedPeer;

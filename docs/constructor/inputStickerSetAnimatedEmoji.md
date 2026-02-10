@@ -2,7 +2,7 @@
 
 **Description** : *Animated emojis stickerset*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputStickerSetAnimatedEmoji#28703c8 = InputStickerSet;

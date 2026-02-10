@@ -2,7 +2,7 @@
 
 **Description** : *Get localized name of the telegram support user*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.getSupportName#d360e72c = help.SupportName;

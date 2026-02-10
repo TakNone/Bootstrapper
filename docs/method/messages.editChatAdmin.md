@@ -2,7 +2,7 @@
 
 **Description** : *Make a user admin in a basic group*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.editChatAdmin#a85bd1c2 chat_id:long user_id:InputUser is_admin:Bool = Bool;
@@ -41,7 +41,7 @@ messages.editChatAdmin#a85bd1c2 chat_id:long user_id:InputUser is_admin:Bool = B
 
 ```php
 $bool = $client->messages->editChatAdmin(
-	chat_id : 4917547273149552381,
+	chat_id : 4354364764003374488,
 	user_id : $client->get_input_user(user : '@TakNone'),
 	is_admin : false,
 );

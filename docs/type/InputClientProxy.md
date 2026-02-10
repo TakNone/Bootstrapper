@@ -2,7 +2,7 @@
 
 **Description** : *Info about an MTProxy used to connect*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputClientProxy#75588b3f address:string port:int = InputClientProxy;

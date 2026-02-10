@@ -2,7 +2,7 @@
 
 **Description** : *Set an emoji status for a channel or supergroup*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.updateEmojiStatus#f0d3e6a8 channel:InputChannel emoji_status:EmojiStatus = Updates;

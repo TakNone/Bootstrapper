@@ -2,7 +2,7 @@
 
 **Description** : *Rate transcribed voice message*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.rateTranscribedAudio#7f1d072f peer:InputPeer msg_id:int transcription_id:long good:Bool = Bool;
@@ -32,8 +32,8 @@ messages.rateTranscribedAudio#7f1d072f peer:InputPeer msg_id:int transcription_i
 ```php
 $bool = $client->messages->rateTranscribedAudio(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 86,
-	transcription_id : 9064790844324840188,
-	good : false,
+	msg_id : 6,
+	transcription_id : -7071864856413248365,
+	good : true,
 );
 ```

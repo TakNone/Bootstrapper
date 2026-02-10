@@ -2,7 +2,7 @@
 
 **Description** : *This user can be freely contacted*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 requirementToContactEmpty#50a9839 = RequirementToContact;

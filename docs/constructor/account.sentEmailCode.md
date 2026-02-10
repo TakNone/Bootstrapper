@@ -2,7 +2,7 @@
 
 **Description** : *The sent email code*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.sentEmailCode#811f854f email_pattern:string length:int = account.SentEmailCode;
@@ -30,6 +30,6 @@ account.sentEmailCode#811f854f email_pattern:string length:int = account.SentEma
 ```php
 $accountSentEmailCode = $client->account->sentEmailCode(
 	email_pattern : 'reply@liveproto.dev',
-	length : 34,
+	length : 62,
 );
 ```

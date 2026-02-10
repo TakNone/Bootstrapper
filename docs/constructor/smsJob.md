@@ -2,7 +2,7 @@
 
 **Description** : *Info about an SMS job*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 smsJob#e6a1eeb8 job_id:string phone_number:string text:string = SmsJob;
@@ -30,8 +30,8 @@ smsJob#e6a1eeb8 job_id:string phone_number:string text:string = SmsJob;
 
 ```php
 $smsJob = $client->smsJob(
-	job_id : 'XQ14BkyDer7ZpUVE',
+	job_id : '85oa2yv3Jg714xSR',
 	phone_number : '+1234567890',
-	text : 'eKEnw57bzXHG8OyI',
+	text : 'sL0mPXYkutoK4RSO',
 );
 ```

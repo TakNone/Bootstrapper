@@ -2,7 +2,7 @@
 
 **Description** : *Whether you will accept phone calls*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputPrivacyKeyPhoneCall#fabadc5f = InputPrivacyKey;

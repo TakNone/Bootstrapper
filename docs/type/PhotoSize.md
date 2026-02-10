@@ -2,7 +2,7 @@
 
 **Description** : *Location of a certain size of a picture*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 photoSizeEmpty#e17e23c type:string = PhotoSize;

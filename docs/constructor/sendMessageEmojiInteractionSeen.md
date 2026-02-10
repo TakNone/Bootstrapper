@@ -2,7 +2,7 @@
 
 **Description** : *User is watching an animated emoji reaction triggered by another user, click here for more info &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 sendMessageEmojiInteractionSeen#b665902e emoticon:string = SendMessageAction;
@@ -28,6 +28,6 @@ sendMessageEmojiInteractionSeen#b665902e emoticon:string = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageEmojiInteractionSeen(
-	emoticon : 'jQfZc2C4Yrb8tMSV',
+	emoticon : 'EcfMgtRr0K263buV',
 );
 ```

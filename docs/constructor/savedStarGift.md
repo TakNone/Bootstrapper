@@ -2,10 +2,10 @@
 
 **Description** : *Represents a gift owned by a peer*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-savedStarGift#8983a452 flags:# name_hidden:flags.0?true unsaved:flags.5?true refunded:flags.9?true can_upgrade:flags.10?true pinned_to_top:flags.12?true upgrade_separate:flags.17?true from_id:flags.1?Peer date:int gift:StarGift message:flags.2?TextWithEntities msg_id:flags.3?int saved_id:flags.11?long convert_stars:flags.4?long upgrade_stars:flags.6?long can_export_at:flags.7?int transfer_stars:flags.8?long can_transfer_at:flags.13?int can_resell_at:flags.14?int collection_id:flags.15?Vector<int> prepaid_upgrade_hash:flags.16?string drop_original_details_stars:flags.18?long = SavedStarGift;
+savedStarGift#41df43fc flags:# name_hidden:flags.0?true unsaved:flags.5?true refunded:flags.9?true can_upgrade:flags.10?true pinned_to_top:flags.12?true upgrade_separate:flags.17?true from_id:flags.1?Peer date:int gift:StarGift message:flags.2?TextWithEntities msg_id:flags.3?int saved_id:flags.11?long convert_stars:flags.4?long upgrade_stars:flags.6?long can_export_at:flags.7?int transfer_stars:flags.8?long can_transfer_at:flags.13?int can_resell_at:flags.14?int collection_id:flags.15?Vector<int> prepaid_upgrade_hash:flags.16?string drop_original_details_stars:flags.18?long gift_num:flags.19?int can_craft_at:flags.20?int = SavedStarGift;
 ```
 
 ---
@@ -36,6 +36,8 @@ savedStarGift#8983a452 flags:# name_hidden:flags.0?true unsaved:flags.5?true ref
 | **collection_id** | [`flags.15?Vector<int>`](type/int) | IDs of the collections » that this gift is a part of |
 | **prepaid_upgrade_hash** | [`flags.16?string`](type/string) | Hash to prepay for a gift upgrade separately » |
 | **drop_original_details_stars** | [`flags.18?long`](type/long) | NOTHING |
+| **gift_num** | [`flags.19?int`](type/int) | NOTHING |
+| **can_craft_at** | [`flags.20?int`](type/int) | NOTHING |
 
 ---
 
@@ -56,146 +58,154 @@ $savedStarGift = $client->savedStarGift(
 	pinned_to_top : true,
 	upgrade_separate : true,
 	from_id : $client->peerUser(
-		user_id : -3669054561818534647,
+		user_id : -669250155590600135,
 	),
-	date : 97,
+	date : 7,
 	gift : $client->starGift(
 		limited : true,
 		sold_out : true,
 		birthday : true,
-		can_upgrade : true,
 		require_premium : true,
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : 3025331985707786151,
+		id : -792023800350135656,
 		sticker : $client->documentEmpty(
-			id : -3908395837852114594,
+			id : -4687978898241508453,
 		),
-		stars : -2622021258196852817,
-		availability_remains : 26,
-		availability_total : 76,
-		availability_resale : -7277647394222729011,
-		convert_stars : 2225289590909149609,
-		first_sale_date : 55,
-		last_sale_date : 25,
-		upgrade_stars : -647835147092947553,
-		resell_min_stars : 5518215885328172686,
-		title : 'ki0Q7p9M2Rc1Yrsv',
+		stars : 109119091467501653,
+		availability_remains : 90,
+		availability_total : 63,
+		availability_resale : -2298948501222226114,
+		convert_stars : 4710801198622367995,
+		first_sale_date : 34,
+		last_sale_date : 18,
+		upgrade_stars : 2344313019328796493,
+		resell_min_stars : 3065509224269161951,
+		title : 'H5rsfUwTWZetIc3k',
 		released_by : $client->peerUser(
-			user_id : 6820595825573848590,
+			user_id : -919376731506809924,
 		),
-		per_user_total : 61,
-		per_user_remains : 39,
-		locked_until_date : 17,
-		auction_slug : 'UXy1NGm52Z08CFWd',
-		gifts_per_round : 79,
+		per_user_total : 97,
+		per_user_remains : 53,
+		locked_until_date : 46,
+		auction_slug : 'PyLo53txnzsfWgh9',
+		gifts_per_round : 51,
+		auction_start_date : 39,
+		upgrade_variants : 95,
+		background : $client->starGiftBackground(
+			center_color : 28,
+			edge_color : 9,
+			text_color : 14,
+		),
 	),
 	message : $client->textWithEntities(
-		text : 'lC8txqcVJfQ9PMEB',
+		text : 'QLjNAK4RYiGW31nT',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 45,
+				length : 38,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 65,
+				length : 44,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 84,
+				length : 77,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 85,
+				length : 69,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 5,
+				length : 77,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 50,
+				length : 84,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 51,
+				length : 36,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 26,
+				length : 98,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 41,
+				length : 9,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 50,
-				language : 'T6Vd2UDRZcCswPBp',
+				length : 19,
+				language : '2FeyL7wJ0p5B8qVz',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 97,
+				length : 61,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 89,
-				user_id : -3072457243549926459,
+				length : 20,
+				user_id : 6377938617369537163,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 21,
+				length : 3,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 79,
+				length : 29,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 78,
+				length : 77,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 44,
+				length : 72,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 85,
+				length : 100,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 20,
+				length : 80,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 44,
+				length : 59,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 48,
-				document_id : 4436930486012668143,
+				length : 56,
+				document_id : -8342203143339123111,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 93,
+				length : 97,
 			),
 		),
 	),
-	msg_id : 83,
-	saved_id : 5092356615823465683,
-	convert_stars : -4613427127554983552,
-	upgrade_stars : 8127724878106246795,
-	can_export_at : 58,
-	transfer_stars : 1538485501419706861,
-	can_transfer_at : 23,
-	can_resell_at : 36,
-	collection_id : array(98),
-	prepaid_upgrade_hash : 'HUzr0jYWpoIsQJXk',
-	drop_original_details_stars : 1843613996629822396,
+	msg_id : 43,
+	saved_id : 4365871521242136058,
+	convert_stars : 3131385479919866738,
+	upgrade_stars : 8536576075629191592,
+	can_export_at : 6,
+	transfer_stars : 18579157826184068,
+	can_transfer_at : 95,
+	can_resell_at : 98,
+	collection_id : array(55),
+	prepaid_upgrade_hash : '9KNIif0QLCpMRnrv',
+	drop_original_details_stars : 6150909279686937450,
+	gift_num : 12,
+	can_craft_at : 62,
 );
 ```

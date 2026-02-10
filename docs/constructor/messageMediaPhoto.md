@@ -2,7 +2,7 @@
 
 **Description** : *Attached photo*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageMediaPhoto#695150d7 flags:# spoiler:flags.3?true photo:flags.0?Photo ttl_seconds:flags.2?int = MessageMedia;
@@ -33,8 +33,8 @@ messageMediaPhoto#695150d7 flags:# spoiler:flags.3?true photo:flags.0?Photo ttl_
 $messageMedia = $client->messageMediaPhoto(
 	spoiler : true,
 	photo : $client->photoEmpty(
-		id : -1482084412986888599,
+		id : -8630860025062983405,
 	),
-	ttl_seconds : 26,
+	ttl_seconds : 63,
 );
 ```

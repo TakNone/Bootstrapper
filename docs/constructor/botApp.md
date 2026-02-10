@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about a direct link Mini App*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 botApp#95fcd1d6 flags:# id:long access_hash:long short_name:string title:string description:string photo:Photo document:flags.0?Document hash:long = BotApp;
@@ -36,16 +36,16 @@ botApp#95fcd1d6 flags:# id:long access_hash:long short_name:string title:string 
 
 ```php
 $botApp = $client->botApp(
-	id : -2466369665572998264,
-	access_hash : 6116809218480263857,
-	short_name : 'vfaeNSTB0EYQ7jil',
-	title : 'dcjyBgKSN95w6Xsn',
-	description : 'Xw2lM0VKbv5gx1QW',
+	id : 2343291217320386739,
+	access_hash : 2907643719896235751,
+	short_name : 'fzkRY3arQN7pjqsJ',
+	title : 'uTMB5nA4OqwR8cKk',
+	description : 'sB1HRKtfaqlDn3mV',
 	photo : $client->photoEmpty(
-		id : 5766380139500167065,
+		id : -765032813246324960,
 	),
 	document : $client->documentEmpty(
-		id : -1316360040083193607,
+		id : 1686644977989269540,
 	),
 	hash : 0,
 );

@@ -2,7 +2,7 @@
 
 **Description** : *PNG image\. MIME type: image/png*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 storage.filePng#a4f63c0 = storage.FileType;

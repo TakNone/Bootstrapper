@@ -2,7 +2,7 @@
 
 **Description** : *Change privacy settings of current account*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.setPrivacy#c9f81ce8 key:InputPrivacyKey rules:Vector<InputPrivacyRule> = account.PrivacyRules;
@@ -52,10 +52,10 @@ $accountPrivacyRules = $client->account->setPrivacy(
 			users : array($client->get_input_user(user : '@TakNone')),
 		),
 		$client->inputPrivacyValueAllowChatParticipants(
-			chats : array(379941986620606194),
+			chats : array(7566977280490889883),
 		),
 		$client->inputPrivacyValueDisallowChatParticipants(
-			chats : array(7070801388235157879),
+			chats : array(-453615795705103793),
 		),
 		$client->inputPrivacyValueAllowCloseFriends(),
 		$client->inputPrivacyValueAllowPremium(),

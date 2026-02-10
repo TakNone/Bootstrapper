@@ -2,7 +2,7 @@
 
 **Description** : *Slow mode setting for supergroups was changed*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channelAdminLogEventActionToggleSlowMode#53909779 prev_value:int new_value:int = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionToggleSlowMode#53909779 prev_value:int new_value:int =
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleSlowMode(
-	prev_value : 46,
-	new_value : 32,
+	prev_value : 42,
+	new_value : 96,
 );
 ```

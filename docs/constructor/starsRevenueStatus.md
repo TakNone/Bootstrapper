@@ -2,7 +2,7 @@
 
 **Description** : *Describes Telegram Star revenue balances &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 starsRevenueStatus#febe5491 flags:# withdrawal_enabled:flags.0?true current_balance:StarsAmount available_balance:StarsAmount overall_revenue:StarsAmount next_withdrawal_at:flags.1?int = StarsRevenueStatus;
@@ -35,17 +35,17 @@ starsRevenueStatus#febe5491 flags:# withdrawal_enabled:flags.0?true current_bala
 $starsRevenueStatus = $client->starsRevenueStatus(
 	withdrawal_enabled : true,
 	current_balance : $client->starsAmount(
-		amount : -467815344557716915,
-		nanos : 4,
+		amount : 6829712718711525626,
+		nanos : 92,
 	),
 	available_balance : $client->starsAmount(
-		amount : 5968846677078095380,
-		nanos : 63,
+		amount : -8907869119930219932,
+		nanos : 95,
 	),
 	overall_revenue : $client->starsAmount(
-		amount : 8345130875171949120,
-		nanos : 98,
+		amount : 3837611901830550514,
+		nanos : 90,
 	),
-	next_withdrawal_at : 10,
+	next_withdrawal_at : 1,
 );
 ```

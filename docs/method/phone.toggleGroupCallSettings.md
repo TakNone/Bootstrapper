@@ -2,10 +2,10 @@
 
 **Description** : *Change group call settings*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-phone.toggleGroupCallSettings#e9723804 flags:# reset_invite_hash:flags.1?true call:InputGroupCall join_muted:flags.0?Bool messages_enabled:flags.2?Bool = Updates;
+phone.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true call:InputGroupCall join_muted:flags.0?Bool messages_enabled:flags.2?Bool send_paid_messages_stars:flags.3?long = Updates;
 ```
 
 ---
@@ -19,6 +19,7 @@ phone.toggleGroupCallSettings#e9723804 flags:# reset_invite_hash:flags.1?true ca
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call |
 | **join_muted** | [`flags.0?Bool`](type/Bool) | Whether all users will that join this group call are muted by default upon joining the group call |
 | **messages_enabled** | [`flags.2?Bool`](type/Bool) | NOTHING |
+| **send_paid_messages_stars** | [`flags.3?long`](type/long) | NOTHING |
 
 ---
 
@@ -43,10 +44,11 @@ phone.toggleGroupCallSettings#e9723804 flags:# reset_invite_hash:flags.1?true ca
 $updates = $client->phone->toggleGroupCallSettings(
 	reset_invite_hash : true,
 	call : $client->inputGroupCall(
-		id : -3439630089802457375,
-		access_hash : -2304067687415120944,
+		id : 8645703409706736400,
+		access_hash : 6051200598396821432,
 	),
 	join_muted : false,
 	messages_enabled : true,
+	send_paid_messages_stars : -2993196248609794992,
 );
 ```

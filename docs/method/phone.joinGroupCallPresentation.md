@@ -2,7 +2,7 @@
 
 **Description** : *Start screen sharing in a call*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.joinGroupCallPresentation#cbea6bc4 call:InputGroupCall params:DataJSON = Updates;
@@ -39,11 +39,11 @@ phone.joinGroupCallPresentation#cbea6bc4 call:InputGroupCall params:DataJSON = U
 ```php
 $updates = $client->phone->joinGroupCallPresentation(
 	call : $client->inputGroupCall(
-		id : -6882746964849733589,
-		access_hash : 8962102897846291775,
+		id : -3559362768754907990,
+		access_hash : 5474720087506422415,
 	),
 	params : $client->dataJSON(
-		data : 'Rsgei8mUHrwhZdax',
+		data : 'VKcmiE2rwXLvsGkN',
 	),
 );
 ```

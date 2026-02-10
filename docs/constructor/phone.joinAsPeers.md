@@ -2,7 +2,7 @@
 
 **Description** : *A list of peers that can be used to join a group call, presenting yourself as a specific user/channel*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.joinAsPeers#afe5623f peers:Vector<Peer> chats:Vector<Chat> users:Vector<User> = phone.JoinAsPeers;
@@ -32,33 +32,32 @@ phone.joinAsPeers#afe5623f peers:Vector<Peer> chats:Vector<Chat> users:Vector<Us
 $phoneJoinAsPeers = $client->phone->joinAsPeers(
 	peers : array(
 		$client->peerUser(
-			user_id : -8973478162253805321,
+			user_id : 3500557634876042267,
 		),
 		$client->peerChat(
-			chat_id : -6858429633318924847,
+			chat_id : -6996119676844523952,
 		),
 		$client->peerChannel(
-			channel_id : -2127694261668869516,
+			channel_id : 6249570614898531839,
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : -4003763778019965176,
+			id : 3413377628200570353,
 		),
 		$client->chat(
 			creator : true,
-			kicked : true,
 			left : true,
 			deactivated : true,
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -4660824995755487427,
-			title : 'JebZflcChTP6sjko',
+			id : -3030326036410208432,
+			title : 'mVc2oeH3B4XaAftS',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 9,
-			date : 20,
-			version : 56,
+			participants_count : 49,
+			date : 60,
+			version : 51,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -99,12 +98,12 @@ $phoneJoinAsPeers = $client->phone->joinAsPeers(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 3,
+				until_date : 44,
 			),
 		),
 		$client->chatForbidden(
-			id : -1594168296596935589,
-			title : 'cErGpU1jRZxlPKay',
+			id : -2295614084548057240,
+			title : 'uWoSjUQi2wL3ql5t',
 		),
 		$client->channel(
 			creator : true,
@@ -135,17 +134,17 @@ $phoneJoinAsPeers = $client->phone->joinAsPeers(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -4077378794437918916,
-			access_hash : -4847452939208524230,
-			title : 'GH6VsDq2M7uThSnN',
+			id : -3742355529867257358,
+			access_hash : 8200493784928425122,
+			title : 'CmkFDoWVXqa7NSUJ',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 14,
+			date : 94,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '0wBCqL5jNUGHJ9bP',
-					reason : 'PiEmnbjUkavtY9sK',
-					text : 'eR54AO7NPksW6aLF',
+					platform : 'LhqGAbkuepzyUmR5',
+					reason : '2yGQHtbef7Y0nB6z',
+					text : 'jmuNSLMriO9VDlRI',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -187,7 +186,7 @@ $phoneJoinAsPeers = $client->phone->joinAsPeers(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 55,
+				until_date : 30,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -210,9 +209,9 @@ $phoneJoinAsPeers = $client->phone->joinAsPeers(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 42,
+				until_date : 52,
 			),
-			participants_count : 92,
+			participants_count : 56,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -222,35 +221,36 @@ $phoneJoinAsPeers = $client->phone->joinAsPeers(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 65,
+				max_id : 19,
 			),
 			color : $client->peerColor(
-				color : 33,
-				background_emoji_id : -5160605792525834576,
+				color : 48,
+				background_emoji_id : 4675994359044656622,
 			),
 			profile_color : $client->peerColor(
-				color : 39,
-				background_emoji_id : -6018019662577346147,
+				color : 75,
+				background_emoji_id : 2473691771161739434,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 80,
-			subscription_until_date : 27,
-			bot_verification_icon : -7285168752263809999,
-			send_paid_messages_stars : -1630248336060428994,
-			linked_monoforum_id : 1476629802556780421,
+			level : 94,
+			subscription_until_date : 35,
+			bot_verification_icon : -8105903684299472773,
+			send_paid_messages_stars : 8161230317285772846,
+			linked_monoforum_id : 8135142341934830931,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 6362258029434733574,
-			access_hash : -7149525787216709969,
-			title : '9ZJS46GulLFUHDYv',
-			until_date : 93,
+			monoforum : true,
+			id : -4470724537249531772,
+			access_hash : 3138068236086208898,
+			title : '4xuMIzT7JpnityCP',
+			until_date : 44,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -6890046199198857058,
+			id : 8459994592447984361,
 		),
 		$client->user(
 			self : true,
@@ -279,24 +279,25 @@ $phoneJoinAsPeers = $client->phone->joinAsPeers(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 759396336464562812,
-			access_hash : -2035961652731968461,
+			bot_forum_can_manage_topics : true,
+			id : 983335773010846496,
+			access_hash : -2014823065332840660,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 66,
+			bot_info_version : 21,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '8UdEkQ07e2zHcNX3',
-					reason : 'MaKUhBrOnod45lVF',
-					text : 'hiWQP374YMCZuxdG',
+					platform : 'XsAPMYrLnjdU0fOx',
+					reason : 'mncR8vFDhYVUyQWS',
+					text : 'Ly08kTwb72p4lg15',
 				),
 			),
-			bot_inline_placeholder : '2eDizqfmB7ZxCvnH',
-			lang_code : 'dHLfjcihA4kzP7Q2',
+			bot_inline_placeholder : 'BCNblR3fEDZYu0F1',
+			lang_code : '2QpBgjzv8qGJPufX',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -307,19 +308,19 @@ $phoneJoinAsPeers = $client->phone->joinAsPeers(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 13,
+				max_id : 17,
 			),
 			color : $client->peerColor(
-				color : 2,
-				background_emoji_id : 841030428708082277,
+				color : 99,
+				background_emoji_id : -2069010182874728090,
 			),
 			profile_color : $client->peerColor(
-				color : 51,
-				background_emoji_id : 7506112025814985028,
+				color : 90,
+				background_emoji_id : 8238455965361375359,
 			),
-			bot_active_users : 98,
-			bot_verification_icon : -2710870402377261900,
-			send_paid_messages_stars : -8587172998380356059,
+			bot_active_users : 58,
+			bot_verification_icon : -6819149336669846049,
+			send_paid_messages_stars : -367061217595429309,
 		),
 	),
 );

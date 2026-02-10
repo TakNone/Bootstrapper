@@ -2,7 +2,7 @@
 
 **Description** : *Chat*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 dialog#d58a08c6 flags:# pinned:flags.2?true unread_mark:flags.3?true view_forum_as_messages:flags.6?true peer:Peer top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int notify_settings:PeerNotifySettings pts:flags.0?int draft:flags.1?DraftMessage folder_id:flags.4?int ttl_period:flags.5?int = Dialog;
@@ -47,32 +47,32 @@ $dialog = $client->dialog(
 	unread_mark : true,
 	view_forum_as_messages : true,
 	peer : $client->peerUser(
-		user_id : -1243520732545808922,
+		user_id : 2739653590247266810,
 	),
-	top_message : 8,
+	top_message : 28,
 	read_inbox_max_id : 56,
-	read_outbox_max_id : 38,
-	unread_count : 47,
-	unread_mentions_count : 97,
-	unread_reactions_count : 99,
+	read_outbox_max_id : 91,
+	unread_count : 54,
+	unread_mentions_count : 85,
+	unread_reactions_count : 91,
 	notify_settings : $client->peerNotifySettings(
-		show_previews : false,
+		show_previews : true,
 		silent : true,
-		mute_until : 92,
+		mute_until : 79,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
-		stories_muted : false,
-		stories_hide_sender : false,
+		stories_muted : true,
+		stories_hide_sender : true,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
-	pts : 99,
+	pts : 27,
 	draft : $client->draftMessageEmpty(
-		date : 22,
+		date : 64,
 	),
-	folder_id : 69,
-	ttl_period : 25,
+	folder_id : 96,
+	ttl_period : 9,
 );
 ```

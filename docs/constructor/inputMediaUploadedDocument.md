@@ -2,7 +2,7 @@
 
 **Description** : *New document*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputMediaUploadedDocument#37c9330 flags:# nosound_video:flags.3?true force_file:flags.4?true spoiler:flags.5?true file:InputFile thumb:flags.2?InputFile mime_type:string attributes:Vector<DocumentAttribute> stickers:flags.0?Vector<InputDocument> video_cover:flags.6?InputPhoto video_timestamp:flags.7?int ttl_seconds:flags.1?int = InputMedia;
@@ -44,63 +44,63 @@ $inputMedia = $client->inputMediaUploadedDocument(
 	spoiler : true,
 	file : $client->upload_file(path : 'file.png'),
 	thumb : $client->upload_file(path : 'file.png'),
-	mime_type : '6731z0dXnDaAkCSw',
+	mime_type : 'UyWAMILhPfeYD6Sx',
 	attributes : array(
 		$client->documentAttributeImageSize(
-			w : 33,
-			h : 20,
+			w : 82,
+			h : 56,
 		),
 		$client->documentAttributeAnimated(),
 		$client->documentAttributeSticker(
 			mask : true,
-			alt : '5YZyJqfFtrK29Euk',
+			alt : '6FrTus7MNoBnXY9t',
 			stickerset : $client->inputStickerSetEmpty(),
 			mask_coords : $client->maskCoords(
-				n : 91,
-				x : 303351.9697265625,
-				y : 1846353.6767578125,
-				zoom : 1547636.2177734375,
+				n : 78,
+				x : -155816.275390625,
+				y : 2075492.1025390625,
+				zoom : -1066597.7568359375,
 			),
 		),
 		$client->documentAttributeVideo(
 			round_message : true,
 			supports_streaming : true,
 			nosound : true,
-			duration : 399582.4951171875,
-			w : 66,
-			h : 79,
-			preload_prefix_size : 56,
-			video_start_ts : -595874.4560546875,
-			video_codec : 'CEj8ct2q4PDlVSui',
+			duration : 1273240.7177734375,
+			w : 97,
+			h : 48,
+			preload_prefix_size : 28,
+			video_start_ts : -1391934.7021484375,
+			video_codec : 'Et6n01WHQbKmqwul',
 		),
 		$client->documentAttributeAudio(
 			voice : true,
-			duration : 64,
-			title : 'dRfVC7aMN2AG8ebK',
-			performer : 'jVSDxvsBtwru0l7L',
+			duration : 91,
+			title : 'BlIfXxp70hmY9H6t',
+			performer : '418cpkDYPXLGAI67',
 			waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->documentAttributeFilename(
-			file_name : 'K3xFJa4BrGbOhmNq',
+			file_name : 'o5Ppjgi1aMcBGIt9',
 		),
 		$client->documentAttributeHasStickers(),
 		$client->documentAttributeCustomEmoji(
 			free : true,
 			text_color : true,
-			alt : 'rXMb4JwSgkRWEZ2c',
+			alt : 'dYVGArulgXTjQ2m9',
 			stickerset : $client->inputStickerSetEmpty(),
 		),
 	),
 	stickers : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : 808556332014931039,
-			access_hash : -760474423959546069,
+			id : 3863549784110539035,
+			access_hash : -10363948845826495,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 55,
-	ttl_seconds : 70,
+	video_timestamp : 38,
+	ttl_seconds : 96,
 );
 ```

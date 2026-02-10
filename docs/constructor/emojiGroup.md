@@ -2,7 +2,7 @@
 
 **Description** : *Represents an emoji category*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 emojiGroup#7a9abda9 title:string icon_emoji_id:long emoticons:Vector<string> = EmojiGroup;
@@ -30,8 +30,8 @@ emojiGroup#7a9abda9 title:string icon_emoji_id:long emoticons:Vector<string> = E
 
 ```php
 $emojiGroup = $client->emojiGroup(
-	title : 'qbmwF2HXyelTvEnp',
-	icon_emoji_id : -2439596641801647043,
-	emoticons : array('xtsPc7LfT9E5YiSA'),
+	title : 'owpEkty7NYcz026h',
+	icon_emoji_id : -3955653309659857626,
+	emoticons : array('pNTF930RrXtkd7uI'),
 );
 ```

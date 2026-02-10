@@ -2,7 +2,7 @@
 
 **Description** : *A new incoming query; for bots only*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateBotWebhookJSONQuery#9b9240a6 query_id:long data:DataJSON timeout:int = Update;
@@ -30,10 +30,10 @@ updateBotWebhookJSONQuery#9b9240a6 query_id:long data:DataJSON timeout:int = Upd
 
 ```php
 $update = $client->updateBotWebhookJSONQuery(
-	query_id : 9002007389248931044,
+	query_id : 6655942971377905650,
 	data : $client->dataJSON(
-		data : 'ltFxzq3rPvHJNQMd',
+		data : 'm6GvFh1tDQJwI35B',
 	),
-	timeout : 46,
+	timeout : 17,
 );
 ```

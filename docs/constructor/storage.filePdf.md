@@ -2,7 +2,7 @@
 
 **Description** : *PDF document image\. MIME type: application/pdf*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 storage.filePdf#ae1e508d = storage.FileType;

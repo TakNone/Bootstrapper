@@ -2,7 +2,7 @@
 
 **Description** : *Location of remote file*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputWebFileLocation#c239d686 url:string access_hash:long = InputWebFileLocation;

@@ -2,7 +2,7 @@
 
 **Description** : *Describes a bot verification icon &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 botVerification#f93cd45c bot_id:long icon:long description:string = BotVerification;

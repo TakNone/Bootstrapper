@@ -2,7 +2,7 @@
 
 **Description** : *Send VoIP signaling data*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.sendSignalingData#ff7a9383 peer:InputPhoneCall data:bytes = Bool;
@@ -38,8 +38,8 @@ phone.sendSignalingData#ff7a9383 peer:InputPhoneCall data:bytes = Bool;
 ```php
 $bool = $client->phone->sendSignalingData(
 	peer : $client->inputPhoneCall(
-		id : 7525097999012680301,
-		access_hash : 2270906732885301245,
+		id : -1663838551014735691,
+		access_hash : -34354189730361601,
 	),
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

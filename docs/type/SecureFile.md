@@ -2,7 +2,7 @@
 
 **Description** : *Secure passport file, for more info see the passport docs &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 secureFileEmpty#64199744 = SecureFile;

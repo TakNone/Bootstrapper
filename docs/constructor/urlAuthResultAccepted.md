@@ -2,10 +2,10 @@
 
 **Description** : *Details about an accepted authorization request, for more info click here &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-urlAuthResultAccepted#8f8c0e4e url:string = UrlAuthResult;
+urlAuthResultAccepted#623a8fa0 flags:# url:flags.0?string = UrlAuthResult;
 ```
 
 ---
@@ -14,7 +14,8 @@ urlAuthResultAccepted#8f8c0e4e url:string = UrlAuthResult;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>url</mark> | [`string`](type/string) | The URL name of the website on which the user has logged in |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **url** | [`flags.0?string`](type/string) | The URL name of the website on which the user has logged in |
 
 ---
 

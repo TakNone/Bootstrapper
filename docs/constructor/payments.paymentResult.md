@@ -2,7 +2,7 @@
 
 **Description** : *Payment result*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.paymentResult#4e5f810d updates:Updates = payments.PaymentResult;

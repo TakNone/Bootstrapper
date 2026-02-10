@@ -2,7 +2,7 @@
 
 **Description** : *How a certain peer reacted to the message*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messagePeerReaction#8c79b63c flags:# big:flags.0?true unread:flags.1?true my:flags.2?true peer_id:Peer date:int reaction:Reaction = MessagePeerReaction;
@@ -38,9 +38,9 @@ $messagePeerReaction = $client->messagePeerReaction(
 	unread : true,
 	my : true,
 	peer_id : $client->peerUser(
-		user_id : 723080972167148620,
+		user_id : -4937121830059434089,
 	),
-	date : 44,
+	date : 84,
 	reaction : $client->reactionEmpty(),
 );
 ```

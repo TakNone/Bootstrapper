@@ -2,7 +2,7 @@
 
 **Description** : *A screenshot of the chat was taken*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageActionScreenshotTaken#4792929b = MessageAction;

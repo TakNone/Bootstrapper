@@ -2,7 +2,7 @@
 
 **Description** : *Restriction reason*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 restrictionReason#d072acb4 platform:string reason:string text:string = RestrictionReason;
@@ -30,8 +30,8 @@ restrictionReason#d072acb4 platform:string reason:string text:string = Restricti
 
 ```php
 $restrictionReason = $client->restrictionReason(
-	platform : '1dfbX3Z9e0UPmBNS',
-	reason : 'L1QEYtD9BaPUH34e',
-	text : 'tu6iKOo2AwVHXdkQ',
+	platform : 'D4aBWqo9UmsKvZzV',
+	reason : '8svhAQci59wLYZJb',
+	text : 'wAKFPivxXGCaDcuM',
 );
 ```

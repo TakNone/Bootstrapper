@@ -2,7 +2,7 @@
 
 **Description** : *Messages affected by changes*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.affectedMessages#84d19185 pts:int pts_count:int = messages.AffectedMessages;

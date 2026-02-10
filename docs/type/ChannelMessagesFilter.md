@@ -2,7 +2,7 @@
 
 **Description** : *Filter for fetching only certain types of channel messages*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channelMessagesFilterEmpty#94d42ee7 = ChannelMessagesFilter;

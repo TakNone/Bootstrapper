@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the full list of gifts owned by a peer*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.getSavedStarGifts#a319e569 flags:# exclude_unsaved:flags.0?true exclude_saved:flags.1?true exclude_unlimited:flags.2?true exclude_unique:flags.4?true sort_by_value:flags.5?true exclude_upgradable:flags.7?true exclude_unupgradable:flags.8?true peer_color_available:flags.9?true exclude_hosted:flags.10?true peer:InputPeer collection_id:flags.6?int offset:string limit:int = payments.SavedStarGifts;
@@ -60,8 +60,8 @@ $paymentsSavedStarGifts = $client->payments->getSavedStarGifts(
 	peer_color_available : true,
 	exclude_hosted : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	collection_id : 38,
-	offset : 'PfrT87nejJkwVX3C',
-	limit : 25,
+	collection_id : 40,
+	offset : 'KFjLRIyOYskrAaTC',
+	limit : 57,
 );
 ```

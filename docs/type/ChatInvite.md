@@ -2,7 +2,7 @@
 
 **Description** : *Chat invite*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 chatInviteAlready#5a686d7c chat:Chat = ChatInvite;

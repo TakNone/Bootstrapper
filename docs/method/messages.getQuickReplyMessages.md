@@ -2,7 +2,7 @@
 
 **Description** : *Fetch \(a subset or all\) messages in a quick reply shortcut &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.getQuickReplyMessages#94a495c3 flags:# shortcut_id:int id:flags.0?Vector<int> hash:long = messages.Messages;
@@ -39,8 +39,8 @@ messages.getQuickReplyMessages#94a495c3 flags:# shortcut_id:int id:flags.0?Vecto
 
 ```php
 $messagesMessages = $client->messages->getQuickReplyMessages(
-	shortcut_id : 57,
-	id : array(58),
+	shortcut_id : 81,
+	id : array(90),
 	hash : 0,
 );
 ```

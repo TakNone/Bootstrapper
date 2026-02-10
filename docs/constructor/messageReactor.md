@@ -2,7 +2,7 @@
 
 **Description** : *Info about a user in the paid Star reactions leaderboard for a message*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageReactor#4ba3a95a flags:# top:flags.0?true my:flags.1?true anonymous:flags.2?true peer_id:flags.3?Peer count:int = MessageReactor;
@@ -37,8 +37,8 @@ $messageReactor = $client->messageReactor(
 	my : true,
 	anonymous : true,
 	peer_id : $client->peerUser(
-		user_id : -857821967761938103,
+		user_id : 2809101800869557317,
 	),
-	count : 95,
+	count : 98,
 );
 ```

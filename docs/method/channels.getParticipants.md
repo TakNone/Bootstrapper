@@ -2,7 +2,7 @@
 
 **Description** : *Get the participants of a supergroup/channel*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.getParticipants#77ced9d0 channel:InputChannel filter:ChannelParticipantsFilter offset:int limit:int hash:long = channels.ChannelParticipants;

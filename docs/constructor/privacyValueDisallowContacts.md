@@ -2,7 +2,7 @@
 
 **Description** : *Disallow only contacts*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 privacyValueDisallowContacts#f888fa1a = PrivacyRule;

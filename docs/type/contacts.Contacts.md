@@ -2,7 +2,7 @@
 
 **Description** : *Info on the current user&#039;s contact list*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 contacts.contactsNotModified#b74ba9d2 = contacts.Contacts;

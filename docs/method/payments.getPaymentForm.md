@@ -2,7 +2,7 @@
 
 **Description** : *Get a payment form*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.getPaymentForm#37148dbb flags:# invoice:InputInvoice theme_params:flags.0?DataJSON = payments.PaymentForm;
@@ -66,10 +66,10 @@ payments.getPaymentForm#37148dbb flags:# invoice:InputInvoice theme_params:flags
 $paymentsPaymentForm = $client->payments->getPaymentForm(
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-		msg_id : 57,
+		msg_id : 17,
 	),
 	theme_params : $client->dataJSON(
-		data : 'kiIzQgxw4y01UZul',
+		data : 'ZzwH607Ia5jNlbxk',
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Re\-join a private channel associated to an active Telegram Star subscription &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.fulfillStarsSubscription#cc5bebb3 peer:InputPeer subscription_id:string = Bool;
@@ -38,6 +38,6 @@ payments.fulfillStarsSubscription#cc5bebb3 peer:InputPeer subscription_id:string
 ```php
 $bool = $client->payments->fulfillStarsSubscription(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	subscription_id : 'B7muUOfcwPKAi1G2',
+	subscription_id : 'k7cG9VaZQWmU8F5K',
 );
 ```

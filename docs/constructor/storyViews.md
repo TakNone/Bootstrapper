@@ -2,7 +2,7 @@
 
 **Description** : *Aggregated view and reaction information of a story*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 storyViews#8d595cd6 flags:# has_viewers:flags.1?true views_count:int forwards_count:flags.2?int reactions:flags.3?Vector<ReactionCount> reactions_count:flags.4?int recent_viewers:flags.0?Vector<long> = StoryViews;
@@ -35,16 +35,16 @@ storyViews#8d595cd6 flags:# has_viewers:flags.1?true views_count:int forwards_co
 ```php
 $storyViews = $client->storyViews(
 	has_viewers : true,
-	views_count : 52,
-	forwards_count : 85,
+	views_count : 11,
+	forwards_count : 20,
 	reactions : array(
 		$client->reactionCount(
-			chosen_order : 51,
+			chosen_order : 61,
 			reaction : $client->reactionEmpty(),
-			count : 45,
+			count : 34,
 		),
 	),
-	reactions_count : 93,
-	recent_viewers : array(-4585230206692710695),
+	reactions_count : 13,
+	recent_viewers : array(2034859299764944855),
 );
 ```

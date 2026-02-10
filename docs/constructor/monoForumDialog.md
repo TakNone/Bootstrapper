@@ -2,7 +2,7 @@
 
 **Description** : *Represents a monoforum topic &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 monoForumDialog#64407ea7 flags:# unread_mark:flags.3?true nopaid_messages_exception:flags.4?true peer:Peer top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_reactions_count:int draft:flags.1?DraftMessage = SavedDialog;
@@ -40,15 +40,15 @@ $savedDialog = $client->monoForumDialog(
 	unread_mark : true,
 	nopaid_messages_exception : true,
 	peer : $client->peerUser(
-		user_id : 8070940620517499976,
+		user_id : 4571708126185742700,
 	),
-	top_message : 65,
-	read_inbox_max_id : 31,
-	read_outbox_max_id : 32,
-	unread_count : 67,
-	unread_reactions_count : 95,
+	top_message : 6,
+	read_inbox_max_id : 84,
+	read_outbox_max_id : 65,
+	unread_count : 38,
+	unread_reactions_count : 43,
 	draft : $client->draftMessageEmpty(
-		date : 98,
+		date : 11,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Delete all temporary authorization keys except for the ones specified*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 auth.dropTempAuthKeys#8e48a188 except_auth_keys:Vector<long> = Bool;
@@ -28,6 +28,6 @@ auth.dropTempAuthKeys#8e48a188 except_auth_keys:Vector<long> = Bool;
 
 ```php
 $bool = $client->auth->dropTempAuthKeys(
-	except_auth_keys : array(-8512308284915241730),
+	except_auth_keys : array(2852149289572584353),
 );
 ```

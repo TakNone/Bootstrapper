@@ -1,6 +1,6 @@
 # payments.starGiftAuctionAcquiredGifts
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.starGiftAuctionAcquiredGifts#7d5bd1f0 gifts:Vector<StarGiftAuctionAcquiredGift> users:Vector<User> chats:Vector<Chat> = payments.StarGiftAuctionAcquiredGifts;
@@ -32,18 +32,18 @@ $paymentsStarGiftAuctionAcquiredGifts = $client->payments->starGiftAuctionAcquir
 		$client->starGiftAuctionAcquiredGift(
 			name_hidden : true,
 			peer : $client->peerUser(
-				user_id : 7360595063951014145,
+				user_id : -4028130853457165355,
 			),
-			date : 47,
-			bid_amount : -1607172797311219721,
-			round : 91,
-			pos : 59,
+			date : 13,
+			bid_amount : 7919479298220218150,
+			round : 16,
+			pos : 80,
 			message : $client->textWithEntities(
-				text : 'Ccos5vezaTgNF4w0',
+				text : 'vGQgLHCz5dmKaASb',
 				entities : array(
 					$client->messageEntityUnknown(
 						offset : 0,
-						length : 1,
+						length : 83,
 					),
 					$client->messageEntityMention(
 						offset : 0,
@@ -51,93 +51,94 @@ $paymentsStarGiftAuctionAcquiredGifts = $client->payments->starGiftAuctionAcquir
 					),
 					$client->messageEntityHashtag(
 						offset : 0,
-						length : 25,
+						length : 64,
 					),
 					$client->messageEntityBotCommand(
 						offset : 0,
-						length : 38,
+						length : 37,
 					),
 					$client->messageEntityUrl(
 						offset : 0,
-						length : 35,
+						length : 51,
 					),
 					$client->messageEntityEmail(
 						offset : 0,
-						length : 97,
+						length : 95,
 					),
 					$client->messageEntityBold(
 						offset : 0,
-						length : 89,
+						length : 32,
 					),
 					$client->messageEntityItalic(
 						offset : 0,
-						length : 40,
+						length : 57,
 					),
 					$client->messageEntityCode(
 						offset : 0,
-						length : 75,
+						length : 96,
 					),
 					$client->messageEntityPre(
 						offset : 0,
-						length : 10,
-						language : 'Mcem2GgTnh9zjUNd',
+						length : 69,
+						language : '5lvyAbHkVuCxPRzK',
 					),
 					$client->messageEntityTextUrl(
 						offset : 0,
-						length : 50,
+						length : 76,
 						url : 'https://docs.liveproto.dev',
 					),
 					$client->messageEntityMentionName(
 						offset : 0,
-						length : 23,
-						user_id : 7014066264470110814,
+						length : 74,
+						user_id : -8099726404981496063,
 					),
 					$client->inputMessageEntityMentionName(
 						offset : 0,
-						length : 32,
+						length : 49,
 						user_id : $client->get_input_user(user : '@TakNone'),
 					),
 					$client->messageEntityPhone(
 						offset : 0,
-						length : 57,
+						length : 13,
 					),
 					$client->messageEntityCashtag(
 						offset : 0,
-						length : 71,
+						length : 84,
 					),
 					$client->messageEntityUnderline(
 						offset : 0,
-						length : 72,
+						length : 46,
 					),
 					$client->messageEntityStrike(
 						offset : 0,
-						length : 90,
+						length : 100,
 					),
 					$client->messageEntityBankCard(
 						offset : 0,
-						length : 84,
+						length : 26,
 					),
 					$client->messageEntitySpoiler(
 						offset : 0,
-						length : 20,
+						length : 48,
 					),
 					$client->messageEntityCustomEmoji(
 						offset : 0,
-						length : 72,
-						document_id : 343102971422181151,
+						length : 78,
+						document_id : 1715497361413365851,
 					),
 					$client->messageEntityBlockquote(
 						collapsed : true,
 						offset : 0,
-						length : 87,
+						length : 90,
 					),
 				),
 			),
+			gift_num : 3,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 7700056073963148102,
+			id : -8120014083227528207,
 		),
 		$client->user(
 			self : true,
@@ -166,24 +167,25 @@ $paymentsStarGiftAuctionAcquiredGifts = $client->payments->starGiftAuctionAcquir
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 4669655173704345412,
-			access_hash : 4546902895327077068,
+			bot_forum_can_manage_topics : true,
+			id : -8144818877541009746,
+			access_hash : -8721667873686680347,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 60,
+			bot_info_version : 75,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '89bgfTwIDrOcRXZU',
-					reason : 'wdgp6nz9KuOTfV3B',
-					text : 'tnp0FEUhwN32AeBP',
+					platform : 'xjPHGBz7o9qwnbYX',
+					reason : 'UgVdXoGtQ8ckArP3',
+					text : 'ca9K3WCD5lr6U0ZL',
 				),
 			),
-			bot_inline_placeholder : 'fJAa0o9XL4nqKYOd',
-			lang_code : 'xNd0HO27tJrW5gnz',
+			bot_inline_placeholder : 'wxk3bOu2aMr0y9A1',
+			lang_code : '3RFhlo8OpfyeYNtG',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -194,39 +196,38 @@ $paymentsStarGiftAuctionAcquiredGifts = $client->payments->starGiftAuctionAcquir
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 43,
+				max_id : 98,
 			),
 			color : $client->peerColor(
-				color : 15,
-				background_emoji_id : 6630790506959190856,
+				color : 28,
+				background_emoji_id : 3455732839929024553,
 			),
 			profile_color : $client->peerColor(
-				color : 92,
-				background_emoji_id : -1692445413312272245,
+				color : 24,
+				background_emoji_id : 1011584422297650013,
 			),
-			bot_active_users : 8,
-			bot_verification_icon : 8302411096473636838,
-			send_paid_messages_stars : -5480041031321237117,
+			bot_active_users : 76,
+			bot_verification_icon : -3936505456690841983,
+			send_paid_messages_stars : -4151064355646114982,
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 5010629310520154913,
+			id : 4336724096385709518,
 		),
 		$client->chat(
 			creator : true,
-			kicked : true,
 			left : true,
 			deactivated : true,
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 4793121215311950753,
-			title : 'wbzZpHOCTcW6o0QM',
+			id : 1752037880327262956,
+			title : 'HtVbMr17d5TAOfWJ',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 18,
-			date : 95,
-			version : 1,
+			participants_count : 55,
+			date : 9,
+			version : 58,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -267,12 +268,12 @@ $paymentsStarGiftAuctionAcquiredGifts = $client->payments->starGiftAuctionAcquir
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 51,
+				until_date : 17,
 			),
 		),
 		$client->chatForbidden(
-			id : 1713243718294076814,
-			title : 'PnKbMIjCrXafULx3',
+			id : 3414407961802483266,
+			title : 'n9DX5HA4cfMZV8Sl',
 		),
 		$client->channel(
 			creator : true,
@@ -303,17 +304,17 @@ $paymentsStarGiftAuctionAcquiredGifts = $client->payments->starGiftAuctionAcquir
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 3345087943473287731,
-			access_hash : -4807181227044782757,
-			title : 'cJmLqds3tHnXDuY4',
+			id : -4267316155033393750,
+			access_hash : -5710389808336775486,
+			title : 'n6eBhbE7T3lfcA5K',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 17,
+			date : 18,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'fNImnM5G7vgwCP3W',
-					reason : 'KLjudxikM1nCY9wm',
-					text : 'GEVW8hBHTKsw261J',
+					platform : 'Hui8kdxj3Z4pMmgC',
+					reason : 'dQnpkt7AVlUyKS8E',
+					text : 'yzoG52ERmJteF7kP',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -355,7 +356,7 @@ $paymentsStarGiftAuctionAcquiredGifts = $client->payments->starGiftAuctionAcquir
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 13,
+				until_date : 83,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -378,9 +379,9 @@ $paymentsStarGiftAuctionAcquiredGifts = $client->payments->starGiftAuctionAcquir
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 4,
+				until_date : 60,
 			),
-			participants_count : 83,
+			participants_count : 90,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -390,30 +391,31 @@ $paymentsStarGiftAuctionAcquiredGifts = $client->payments->starGiftAuctionAcquir
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 24,
+				max_id : 27,
 			),
 			color : $client->peerColor(
-				color : 79,
-				background_emoji_id : -4252771596055603804,
+				color : 99,
+				background_emoji_id : -8918915528480409677,
 			),
 			profile_color : $client->peerColor(
-				color : 92,
-				background_emoji_id : -6978575908779851024,
+				color : 67,
+				background_emoji_id : 92270239166373125,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 3,
-			subscription_until_date : 7,
-			bot_verification_icon : -7148818980554663591,
-			send_paid_messages_stars : 5414033050486136157,
-			linked_monoforum_id : -6510014785833594245,
+			level : 60,
+			subscription_until_date : 63,
+			bot_verification_icon : -4755199360591182085,
+			send_paid_messages_stars : 6655808676320497580,
+			linked_monoforum_id : 7574870654679040669,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 7005384409065761775,
-			access_hash : -3197350299399543873,
-			title : 'yNpU84sE9ZCrniBM',
-			until_date : 16,
+			monoforum : true,
+			id : -7272000255607472801,
+			access_hash : -8149466920059263494,
+			title : 'FXl4c1DqWa0TofwI',
+			until_date : 23,
 		),
 	),
 );

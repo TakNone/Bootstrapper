@@ -2,7 +2,7 @@
 
 **Description** : *Get songs pinned to the user&#039;s profile, see here &raquo; for more info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 users.getSavedMusic#788d7fe3 id:InputUser offset:int limit:int hash:long = users.SavedMusic;
@@ -41,7 +41,7 @@ users.getSavedMusic#788d7fe3 id:InputUser offset:int limit:int hash:long = users
 $usersSavedMusic = $client->users->getSavedMusic(
 	id : $client->get_input_user(user : '@TakNone'),
 	offset : 0,
-	limit : 87,
+	limit : 3,
 	hash : 0,
 );
 ```

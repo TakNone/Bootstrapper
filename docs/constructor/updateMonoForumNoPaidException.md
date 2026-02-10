@@ -2,7 +2,7 @@
 
 **Description** : *An admin has \(un\)exempted this monoforum topic &raquo; from payment to send messages using account\.toggleNoPaidMessagesException*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_id:long saved_peer_id:Peer = Update;
@@ -32,9 +32,9 @@ updateMonoForumNoPaidException#9f812b08 flags:# exception:flags.0?true channel_i
 ```php
 $update = $client->updateMonoForumNoPaidException(
 	exception : true,
-	channel_id : 7149811699757390811,
+	channel_id : -1907758560829629887,
 	saved_peer_id : $client->peerUser(
-		user_id : -1294182804540665975,
+		user_id : -6907597682879854661,
 	),
 );
 ```

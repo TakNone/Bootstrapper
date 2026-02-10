@@ -2,7 +2,7 @@
 
 **Description** : *Leave a channel/supergroup*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.leaveChannel#f836aa95 channel:InputChannel = Updates;

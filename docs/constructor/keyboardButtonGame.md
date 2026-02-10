@@ -2,10 +2,10 @@
 
 **Description** : *Button to start a game*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-keyboardButtonGame#50f41ccf text:string = KeyboardButton;
+keyboardButtonGame#89c590f9 flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
 ```
 
 ---
@@ -14,6 +14,8 @@ keyboardButtonGame#50f41ccf text:string = KeyboardButton;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **style** | [`flags.10?KeyboardButtonStyle`](type/KeyboardButtonStyle) | NOTHING |
 | <mark>text</mark> | [`string`](type/string) | Button text |
 
 ---
@@ -28,6 +30,12 @@ keyboardButtonGame#50f41ccf text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonGame(
-	text : 'DGjMSukXtnb4q0lm',
+	style : $client->keyboardButtonStyle(
+		bg_primary : true,
+		bg_danger : true,
+		bg_success : true,
+		icon : 4737865932182017626,
+	),
+	text : 'Rpmwjb5Il73vrTKU',
 );
 ```

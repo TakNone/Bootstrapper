@@ -2,7 +2,7 @@
 
 **Description** : *Messages with animated stickers can have a compressed svg \(&lt; 300 bytes\) to show the outline of the sticker before fetching the actual lottie animation*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 photoPathSize#d8214d41 type:string bytes:bytes = PhotoSize;
@@ -29,7 +29,7 @@ photoPathSize#d8214d41 type:string bytes:bytes = PhotoSize;
 
 ```php
 $photoSize = $client->photoPathSize(
-	type : 'lA6ZrDBqKUi2oLTJ',
+	type : '2teVpA7uKscGDOBJ',
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

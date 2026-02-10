@@ -3,7 +3,7 @@
 **Description** : *Complete the history import process, importing all messages into the chat\.
 To be called only after initializing the import with messages\.initHistoryImport and uploading all files using messages\.uploadImportedMedia*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.startHistoryImport#b43df344 peer:InputPeer import_id:long = Bool;
@@ -39,6 +39,6 @@ messages.startHistoryImport#b43df344 peer:InputPeer import_id:long = Bool;
 ```php
 $bool = $client->messages->startHistoryImport(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	import_id : -6956926269103080994,
+	import_id : 2330365779263085234,
 );
 ```

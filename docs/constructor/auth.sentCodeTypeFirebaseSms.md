@@ -2,7 +2,7 @@
 
 **Description** : *An authentication code should be delivered via SMS after Firebase attestation, as described in the auth documentation &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 auth.sentCodeTypeFirebaseSms#9fd736 flags:# nonce:flags.0?bytes play_integrity_project_id:flags.2?long play_integrity_nonce:flags.2?bytes receipt:flags.1?string push_timeout:flags.1?int length:int = auth.SentCodeType;
@@ -35,10 +35,10 @@ auth.sentCodeTypeFirebaseSms#9fd736 flags:# nonce:flags.0?bytes play_integrity_p
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeFirebaseSms(
 	nonce : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	play_integrity_project_id : 4016478364577580057,
+	play_integrity_project_id : -5529814044734840499,
 	play_integrity_nonce : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	receipt : 'ATDRoEjx9zecLniJ',
-	push_timeout : 65,
-	length : 20,
+	receipt : 'm7NEcOZGg0bCwseL',
+	push_timeout : 81,
+	length : 98,
 );
 ```

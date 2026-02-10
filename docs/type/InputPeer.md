@@ -2,7 +2,7 @@
 
 **Description** : *Peer*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputPeerEmpty#7f3b18ea = InputPeer;

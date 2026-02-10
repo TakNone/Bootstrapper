@@ -2,7 +2,7 @@
 
 **Description** : *A suggested short name for a stickerpack*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 stickers.suggestedShortName#85fea03f short_name:string = stickers.SuggestedShortName;
@@ -28,6 +28,6 @@ stickers.suggestedShortName#85fea03f short_name:string = stickers.SuggestedShort
 
 ```php
 $stickersSuggestedShortName = $client->stickers->suggestedShortName(
-	short_name : 'e02nJsL8PUKQ9NXO',
+	short_name : 'MgCzqDx9m5pvtHwA',
 );
 ```

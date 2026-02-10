@@ -2,7 +2,7 @@
 
 **Description** : *Indicates if the specified global post search &raquo; requires payment*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 searchPostsFlood#3e0b5b6a flags:# query_is_free:flags.0?true total_daily:int remains:int wait_till:flags.1?int stars_amount:long = SearchPostsFlood;
@@ -34,9 +34,9 @@ searchPostsFlood#3e0b5b6a flags:# query_is_free:flags.0?true total_daily:int rem
 ```php
 $searchPostsFlood = $client->searchPostsFlood(
 	query_is_free : true,
-	total_daily : 20,
-	remains : 37,
-	wait_till : 69,
-	stars_amount : 6101198037087292956,
+	total_daily : 8,
+	remains : 90,
+	wait_till : 58,
+	stars_amount : -4043914027793592093,
 );
 ```

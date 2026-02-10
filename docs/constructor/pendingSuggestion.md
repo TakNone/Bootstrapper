@@ -2,7 +2,7 @@
 
 **Description** : *Represents a custom pending suggestion &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 pendingSuggestion#e7e82e12 suggestion:string title:TextWithEntities description:TextWithEntities url:string = PendingSuggestion;
@@ -31,194 +31,194 @@ pendingSuggestion#e7e82e12 suggestion:string title:TextWithEntities description:
 
 ```php
 $pendingSuggestion = $client->pendingSuggestion(
-	suggestion : 'kTjhDA4zCZQmyG89',
+	suggestion : 'ZS42weyLd1kJs7WR',
 	title : $client->textWithEntities(
-		text : '40r6L58cK2ARxpmo',
+		text : '67uTcN2PCoZU5n9M',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 60,
+				length : 79,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 2,
+				length : 89,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 28,
+				length : 36,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 37,
+				length : 53,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 24,
+				length : 29,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 2,
+				length : 80,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 4,
+				length : 53,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 14,
+				length : 63,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 56,
+				length : 68,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 44,
-				language : 'wAekSarTqWCHMvOd',
+				length : 56,
+				language : 'QvqeSuCyb1g6aTAc',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 37,
+				length : 87,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 15,
-				user_id : 6314416067045836225,
+				length : 81,
+				user_id : 5675736941437901718,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 78,
+				length : 83,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 92,
+				length : 88,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 40,
+				length : 65,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 57,
+				length : 72,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 78,
+				length : 0,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 18,
+				length : 7,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 26,
+				length : 50,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 93,
-				document_id : 6791761088606313050,
+				length : 43,
+				document_id : 2382299027436464329,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 54,
+				length : 18,
 			),
 		),
 	),
 	description : $client->textWithEntities(
-		text : 'tUAxnOw1SRZi0q43',
+		text : 'uMQ34r0cTgtUZloN',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 8,
+				length : 29,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 4,
+				length : 33,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 93,
+				length : 84,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 49,
+				length : 13,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 31,
+				length : 73,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 49,
+				length : 95,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 59,
+				length : 96,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 62,
+				length : 71,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 36,
+				length : 37,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 39,
-				language : 'JlG6H0kOsWmEx9g3',
+				length : 12,
+				language : 'f9Mkj3KBPTexZ2iG',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 9,
+				length : 92,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 44,
-				user_id : 5907426700764083675,
+				length : 56,
+				user_id : 4986098564840903890,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 67,
+				length : 83,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 5,
+				length : 77,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 100,
+				length : 85,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 45,
+				length : 74,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 75,
+				length : 82,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 5,
+				length : 23,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 43,
+				length : 85,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 28,
-				document_id : 1522550142518793441,
+				length : 62,
+				document_id : 8469269173950219284,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 71,
+				length : 78,
 			),
 		),
 	),

@@ -2,7 +2,7 @@
 
 **Description** : *Returns chat basic info on their IDs*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.getChats#49e9528f id:Vector<long> = messages.Chats;
@@ -37,6 +37,6 @@ messages.getChats#49e9528f id:Vector<long> = messages.Chats;
 
 ```php
 $messagesChats = $client->messages->getChats(
-	id : array(-3687598201309502299),
+	id : array(2954688927293591335),
 );
 ```

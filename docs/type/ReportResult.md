@@ -2,7 +2,7 @@
 
 **Description** : *Represents a report menu or result*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 reportResultChooseOption#f0e4e0b6 title:string options:Vector<MessageReportOption> = ReportResult;
