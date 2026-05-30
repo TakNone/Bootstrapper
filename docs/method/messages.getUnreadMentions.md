@@ -47,11 +47,11 @@ messages.getUnreadMentions#f107e790 flags:# peer:InputPeer top_msg_id:flags.0?in
 ```php
 $messagesMessages = $client->messages->getUnreadMentions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 81,
+	top_msg_id : 72,
 	offset_id : 0,
-	add_offset : 6,
-	limit : 82,
-	max_id : 58,
-	min_id : 7,
+	add_offset : 25,
+	limit : 54,
+	max_id : 2,
+	min_id : 53,
 );
 ```

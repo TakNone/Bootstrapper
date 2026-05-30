@@ -28,6 +28,6 @@ langPackStringDeleted#2979eeb2 key:string = LangPackString;
 
 ```php
 $langPackString = $client->langPackStringDeleted(
-	key : 'pKn5e4o0fOhQywbB',
+	key : 'SuKadZkW5ger9DQU',
 );
 ```

@@ -28,6 +28,6 @@ channelParticipantsContacts#bb6ae88d q:string = ChannelParticipantsFilter;
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsContacts(
-	q : 'd1sje4KTqQ2lcv7H',
+	q : '9QEj2L1kDyYsndV8',
 );
 ```

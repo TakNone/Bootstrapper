@@ -31,9 +31,9 @@ maskCoords#aed6dbb2 n:int x:double y:double zoom:double = MaskCoords;
 
 ```php
 $maskCoords = $client->maskCoords(
-	n : 45,
-	x : -494702.537109375,
-	y : 1074367.978515625,
-	zoom : -550382.9970703125,
+	n : 40,
+	x : 2082982.3017578125,
+	y : 206333.04296875,
+	zoom : -767856.828125,
 );
 ```

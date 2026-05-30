@@ -35,10 +35,10 @@ messages.createForumTopic#2f98c3d5 flags:# title_missing:flags.4?true peer:Input
 $updates = $client->messages->createForumTopic(
 	title_missing : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	title : 'Hkb0iRQJrvFU4YKx',
-	icon_color : 21,
-	icon_emoji_id : 3363184086438718405,
-	random_id : 9173426721185177816,
+	title : 'RS6N2i3MBsk1AcWx',
+	icon_color : 94,
+	icon_emoji_id : 8787246823997341313,
+	random_id : -6694068709328790362,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

@@ -34,9 +34,9 @@ starsGiftOption#5e0589f1 flags:# extended:flags.1?true stars:long store_product:
 ```php
 $starsGiftOption = $client->starsGiftOption(
 	extended : true,
-	stars : -58121738600171095,
-	store_product : 'nWsmi6ow4tSVFf1y',
-	currency : 'IJm4YP8LCOz2txlk',
-	amount : -7180628745373828542,
+	stars : 8212990572936796556,
+	store_product : 'zuOwdW75To8FxU3H',
+	currency : 'TLDv0y5IaSklrCPZ',
+	amount : 1229097388348395937,
 );
 ```

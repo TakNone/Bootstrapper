@@ -26,6 +26,6 @@ inputPasskeyCredentialFirebasePNV#5b1ccb28 pnv_token:string = InputPasskeyCreden
 
 ```php
 $inputPasskeyCredential = $client->inputPasskeyCredentialFirebasePNV(
-	pnv_token : 'oNEreODA6yUs9BxL',
+	pnv_token : '80k7vMycwatR9e6u',
 );
 ```

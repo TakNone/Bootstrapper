@@ -43,6 +43,6 @@ messages.deleteMessages#e58e95d2 flags:# revoke:flags.0?true id:Vector<int> = me
 ```php
 $messagesAffectedMessages = $client->messages->deleteMessages(
 	revoke : true,
-	id : array(43),
+	id : array(24),
 );
 ```

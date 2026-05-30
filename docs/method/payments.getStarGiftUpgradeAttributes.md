@@ -26,6 +26,6 @@ payments.getStarGiftUpgradeAttributes#6d038b58 gift_id:long = payments.StarGiftU
 
 ```php
 $paymentsStarGiftUpgradeAttributes = $client->payments->getStarGiftUpgradeAttributes(
-	gift_id : -2262766175188090010,
+	gift_id : -2768249600712196758,
 );
 ```

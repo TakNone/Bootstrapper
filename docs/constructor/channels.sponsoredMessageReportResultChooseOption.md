@@ -29,10 +29,10 @@ channels.sponsoredMessageReportResultChooseOption#846f9e42 title:string options:
 
 ```php
 $channelsSponsoredMessageReportResult = $client->channels->sponsoredMessageReportResultChooseOption(
-	title : 'qWE9QYGg1LiOzHmT',
+	title : 'Gfp4maUFcEeztiS0',
 	options : array(
 		$client->sponsoredMessageReportOption(
-			text : '9JRGzKE7eXOnhSHv',
+			text : 'fO7bLekAw8s0uPTY',
 			option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

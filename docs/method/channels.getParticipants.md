@@ -47,7 +47,7 @@ $channelsChannelParticipants = $client->channels->getParticipants(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	filter : $client->channelParticipantsRecent(),
 	offset : 0,
-	limit : 76,
+	limit : 44,
 	hash : 0,
 );
 ```

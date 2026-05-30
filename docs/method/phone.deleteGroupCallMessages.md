@@ -31,9 +31,9 @@ phone.deleteGroupCallMessages#f64f54f7 flags:# report_spam:flags.0?true call:Inp
 $updates = $client->phone->deleteGroupCallMessages(
 	report_spam : true,
 	call : $client->inputGroupCall(
-		id : -3501571553022515577,
-		access_hash : -3966932102546271858,
+		id : -5204138418264514005,
+		access_hash : 8485821038061584727,
 	),
-	messages : array(98),
+	messages : array(33),
 );
 ```

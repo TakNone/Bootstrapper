@@ -45,11 +45,11 @@ $bool = $client->messages->setInlineGameScore(
 	edit_message : true,
 	force : true,
 	id : $client->inputBotInlineMessageID(
-		dc_id : 58,
-		id : -416662123894580605,
-		access_hash : -8042984143703065831,
+		dc_id : 52,
+		id : -6771917310303855574,
+		access_hash : -8374450845459255516,
 	),
 	user_id : $client->get_input_user(user : '@TakNone'),
-	score : 5,
+	score : 87,
 );
 ```

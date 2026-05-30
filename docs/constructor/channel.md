@@ -106,17 +106,17 @@ $chat = $client->channel(
 	broadcast_messages_allowed : true,
 	monoforum : true,
 	forum_tabs : true,
-	id : -7234555320107360543,
-	access_hash : -5003939911037501282,
-	title : '9TPZ2peBwRlExMUu',
+	id : -7973308412936754623,
+	access_hash : -2756120773627960192,
+	title : 'efAzv63pMGn1XLlu',
 	username : 'TakNone',
 	photo : $client->chatPhotoEmpty(),
-	date : 89,
+	date : 24,
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : 'dyXrCbSExGJz4eiL',
-			reason : '1Aqok8XPGzLZOed5',
-			text : '1raUXbvuegpQmExW',
+			platform : 'MwK4gcyuo8avGpYJ',
+			reason : '1BY8WCyJgNc6i5UO',
+			text : 'umG6WpfDAKl1eoFT',
 		),
 	),
 	admin_rights : $client->chatAdminRights(
@@ -158,7 +158,7 @@ $chat = $client->channel(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 11,
+		until_date : 61,
 	),
 	default_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -181,9 +181,9 @@ $chat = $client->channel(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 23,
+		until_date : 65,
 	),
-	participants_count : 2,
+	participants_count : 42,
 	usernames : array(
 		$client->username(
 			editable : true,
@@ -193,21 +193,21 @@ $chat = $client->channel(
 	),
 	stories_max_id : $client->recentStory(
 		live : true,
-		max_id : 51,
+		max_id : 61,
 	),
 	color : $client->peerColor(
-		color : 90,
-		background_emoji_id : 256413054914044413,
+		color : 47,
+		background_emoji_id : -150378843459223887,
 	),
 	profile_color : $client->peerColor(
-		color : 86,
-		background_emoji_id : -3264755896015694104,
+		color : 5,
+		background_emoji_id : 5711359163506909290,
 	),
 	emoji_status : $client->emojiStatusEmpty(),
-	level : 66,
-	subscription_until_date : 49,
-	bot_verification_icon : -451426096719826930,
-	send_paid_messages_stars : -2835547174770470269,
-	linked_monoforum_id : 5599592594022667936,
+	level : 88,
+	subscription_until_date : 34,
+	bot_verification_icon : 3246320853343034404,
+	send_paid_messages_stars : 7026946424567708166,
+	linked_monoforum_id : -4368429138672578298,
 );
 ```

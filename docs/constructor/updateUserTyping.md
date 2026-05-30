@@ -31,8 +31,8 @@ updateUserTyping#2a17bf5c flags:# user_id:long top_msg_id:flags.0?int action:Sen
 
 ```php
 $update = $client->updateUserTyping(
-	user_id : -8245461602894767076,
-	top_msg_id : 42,
+	user_id : 7702547688661054578,
+	top_msg_id : 51,
 	action : $client->sendMessageTypingAction(),
 );
 ```

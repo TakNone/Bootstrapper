@@ -30,8 +30,8 @@ messageReplyStoryHeader#e5af939 peer:Peer story_id:int = MessageReplyHeader;
 ```php
 $messageReplyHeader = $client->messageReplyStoryHeader(
 	peer : $client->peerUser(
-		user_id : 2517019963171233513,
+		user_id : -937683138865078677,
 	),
-	story_id : 91,
+	story_id : 8,
 );
 ```

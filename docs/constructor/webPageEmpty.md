@@ -30,7 +30,7 @@ webPageEmpty#211a1788 flags:# id:long url:flags.0?string = WebPage;
 
 ```php
 $webPage = $client->webPageEmpty(
-	id : -5031167280506981245,
+	id : 8050739910181932203,
 	url : 'https://docs.liveproto.dev',
 );
 ```

@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeUsername#6a4afc38 prev_value:string new_value:st
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeUsername(
-	prev_value : 'MsArtzNDugbW3Rqo',
-	new_value : 'zSqY4JVBvUx2X8Oi',
+	prev_value : 'BLYiulEtdqWr23mp',
+	new_value : 'McUYgrwJ8Wx0nIep',
 );
 ```

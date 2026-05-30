@@ -33,7 +33,7 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionEditTopic(
 		id : 1,
 	),
 	new_topic : $client->forumTopicDeleted(
-		id : 49,
+		id : 39,
 	),
 );
 ```

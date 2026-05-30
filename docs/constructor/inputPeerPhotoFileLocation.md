@@ -33,6 +33,6 @@ inputPeerPhotoFileLocation#37257e99 flags:# big:flags.0?true peer:InputPeer phot
 $inputFileLocation = $client->inputPeerPhotoFileLocation(
 	big : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	photo_id : 5184345698858917784,
+	photo_id : -5186646345613857054,
 );
 ```

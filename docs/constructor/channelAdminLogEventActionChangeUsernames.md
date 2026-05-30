@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeUsernames#f04fb3a9 prev_value:Vector<string> new
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeUsernames(
-	prev_value : array('6qIMdg95KXzEHQYf'),
-	new_value : array('XAzliBGZtIDhemap'),
+	prev_value : array('clq4mGiUxBrTSJ59'),
+	new_value : array('5XlEAZVMLzop27gQ'),
 );
 ```

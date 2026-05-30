@@ -51,7 +51,7 @@ $authAuthorization = $client->auth->signIn(
 	phone_code_hash : '+1234567890',
 	phone_code : '+1234567890',
 	email_verification : $client->emailVerificationCode(
-		code : 'a7s6WL3Ne159ilAt',
+		code : 'QNDwi1f6rIqcgxut',
 	),
 );
 ```

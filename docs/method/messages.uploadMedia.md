@@ -57,7 +57,7 @@ messages.uploadMedia#14967978 flags:# business_connection_id:flags.0?string peer
 
 ```php
 $messageMedia = $client->messages->uploadMedia(
-	business_connection_id : 'jH04zKblw6Lfgc2T',
+	business_connection_id : 'LpB9nFlGc8qRm3kt',
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );

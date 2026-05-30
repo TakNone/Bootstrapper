@@ -45,7 +45,7 @@ $accountEmailVerified = $client->account->verifyEmail(
 		phone_code_hash : '+1234567890',
 	),
 	verification : $client->emailVerificationCode(
-		code : '0haZ8lXp54CqAbkz',
+		code : 'gJjN8ZlbxDrOn1dP',
 	),
 );
 ```

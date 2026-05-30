@@ -34,12 +34,12 @@ updateMessageReactions#1e297bfa flags:# peer:Peer msg_id:int top_msg_id:flags.0?
 ```php
 $update = $client->updateMessageReactions(
 	peer : $client->peerUser(
-		user_id : 1583071320381113637,
+		user_id : 4515373823428437826,
 	),
-	msg_id : 34,
-	top_msg_id : 86,
+	msg_id : 86,
+	top_msg_id : 90,
 	saved_peer_id : $client->peerUser(
-		user_id : -7776363657912131436,
+		user_id : -1336256888621279067,
 	),
 	reactions : $client->messageReactions(
 		min : true,
@@ -47,9 +47,9 @@ $update = $client->updateMessageReactions(
 		reactions_as_tags : true,
 		results : array(
 			$client->reactionCount(
-				chosen_order : 93,
+				chosen_order : 24,
 				reaction : $client->reactionEmpty(),
-				count : 89,
+				count : 84,
 			),
 		),
 		recent_reactions : array(
@@ -58,9 +58,9 @@ $update = $client->updateMessageReactions(
 				unread : true,
 				my : true,
 				peer_id : $client->peerUser(
-					user_id : 6411481299160291810,
+					user_id : 7256388781796725391,
 				),
-				date : 34,
+				date : 71,
 				reaction : $client->reactionEmpty(),
 			),
 		),
@@ -70,9 +70,9 @@ $update = $client->updateMessageReactions(
 				my : true,
 				anonymous : true,
 				peer_id : $client->peerUser(
-					user_id : 2184973837298888628,
+					user_id : -1120631549714656557,
 				),
-				count : 28,
+				count : 41,
 			),
 		),
 	),

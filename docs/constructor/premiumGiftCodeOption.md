@@ -34,11 +34,11 @@ premiumGiftCodeOption#257e962b flags:# users:int months:int store_product:flags.
 
 ```php
 $premiumGiftCodeOption = $client->premiumGiftCodeOption(
-	users : 35,
-	months : 63,
-	store_product : 'kZYNUowVHt5P3b1x',
-	store_quantity : 42,
-	currency : 'uhADGk85ab0Z4feK',
-	amount : -1195877870968413419,
+	users : 71,
+	months : 50,
+	store_product : '57C0dHJ6TrD3eMfY',
+	store_quantity : 82,
+	currency : 'WM9DBRQYK17sXbdv',
+	amount : 4274337847675821460,
 );
 ```

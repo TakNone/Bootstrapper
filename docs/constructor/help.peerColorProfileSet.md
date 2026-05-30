@@ -30,8 +30,8 @@ help.peerColorProfileSet#767d61eb palette_colors:Vector<int> bg_colors:Vector<in
 
 ```php
 $helpPeerColorSet = $client->help->peerColorProfileSet(
-	palette_colors : array(6),
-	bg_colors : array(37),
-	story_colors : array(39),
+	palette_colors : array(46),
+	bg_colors : array(55),
+	story_colors : array(1),
 );
 ```

@@ -30,12 +30,12 @@ mediaAreaUrl#37381085 coordinates:MediaAreaCoordinates url:string = MediaArea;
 ```php
 $mediaArea = $client->mediaAreaUrl(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 874882.978515625,
-		y : 298628.90234375,
-		w : 409188.2763671875,
-		h : 139741.9892578125,
-		rotation : -1684951.4560546875,
-		radius : -1996622.755859375,
+		x : -824642.1982421875,
+		y : 1594883.7685546875,
+		w : 176647.2666015625,
+		h : -286297.828125,
+		rotation : 1511693.6513671875,
+		radius : -1122258.5009765625,
 	),
 	url : 'https://docs.liveproto.dev',
 );

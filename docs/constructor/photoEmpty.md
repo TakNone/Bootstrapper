@@ -28,6 +28,6 @@ photoEmpty#2331b22d id:long = Photo;
 
 ```php
 $photo = $client->photoEmpty(
-	id : 3833392912185736272,
+	id : -4935242150965607270,
 );
 ```

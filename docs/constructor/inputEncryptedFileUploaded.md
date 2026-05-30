@@ -31,9 +31,9 @@ inputEncryptedFileUploaded#64bd0306 id:long parts:int md5_checksum:string key_fi
 
 ```php
 $inputEncryptedFile = $client->inputEncryptedFileUploaded(
-	id : 7975043056572129496,
-	parts : 29,
+	id : -2252111214463691505,
+	parts : 89,
 	md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
-	key_fingerprint : 54,
+	key_fingerprint : 44,
 );
 ```

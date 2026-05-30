@@ -50,9 +50,9 @@ messages.sendPaidReaction#58bbcb50 flags:# peer:InputPeer msg_id:int count:int r
 ```php
 $updates = $client->messages->sendPaidReaction(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 27,
-	count : 4,
-	random_id : -2908049980416608641,
+	msg_id : 88,
+	count : 99,
+	random_id : 7515317512987210058,
 	private : $client->paidReactionPrivacyDefault(),
 );
 ```

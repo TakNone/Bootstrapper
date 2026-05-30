@@ -30,6 +30,6 @@ inputSavedStarGiftChat#f101aa7f peer:InputPeer saved_id:long = InputSavedStarGif
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftChat(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	saved_id : -973033132113232985,
+	saved_id : -6374066069556732649,
 );
 ```

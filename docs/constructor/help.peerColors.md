@@ -33,15 +33,15 @@ $helpPeerColors = $client->help->peerColors(
 	colors : array(
 		$client->help->peerColorOption(
 			hidden : true,
-			color_id : 3,
+			color_id : 41,
 			colors : $client->help->peerColorSet(
-				colors : array(34),
+				colors : array(43),
 			),
 			dark_colors : $client->help->peerColorSet(
-				colors : array(21),
+				colors : array(69),
 			),
-			channel_min_level : 77,
-			group_min_level : 67,
+			channel_min_level : 83,
+			group_min_level : 75,
 		),
 	),
 );

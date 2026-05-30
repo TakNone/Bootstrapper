@@ -33,13 +33,13 @@ groupCallParticipantVideo#67753ac8 flags:# paused:flags.0?true endpoint:string s
 ```php
 $groupCallParticipantVideo = $client->groupCallParticipantVideo(
 	paused : true,
-	endpoint : 'cp4GgiNI8SF1zf90',
+	endpoint : '4q1MfYwAnBadNkR6',
 	source_groups : array(
 		$client->groupCallParticipantVideoSourceGroup(
-			semantics : 'JMU5KiLwTPXxcke6',
-			sources : array(68),
+			semantics : 'cPvYT0wnrk4QHNiF',
+			sources : array(2),
 		),
 	),
-	audio_source : 68,
+	audio_source : 40,
 );
 ```

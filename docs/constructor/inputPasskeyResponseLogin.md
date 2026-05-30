@@ -30,10 +30,10 @@ inputPasskeyResponseLogin#c31fc14a client_data:DataJSON authenticator_data:bytes
 ```php
 $inputPasskeyResponse = $client->inputPasskeyResponseLogin(
 	client_data : $client->dataJSON(
-		data : 'MsOU6jSxN0ihuk17',
+		data : 'UBDey68uz2mp1Joj',
 	),
 	authenticator_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	signature : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	user_handle : 'pZi3KLFn47xRMzWN',
+	user_handle : 'Ejfu9OYpHTPZi3xW',
 );
 ```

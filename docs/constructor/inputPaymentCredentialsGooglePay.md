@@ -29,7 +29,7 @@ inputPaymentCredentialsGooglePay#8ac32801 payment_token:DataJSON = InputPaymentC
 ```php
 $inputPaymentCredentials = $client->inputPaymentCredentialsGooglePay(
 	payment_token : $client->dataJSON(
-		data : 'DPkB2CxZzeYrT0Md',
+		data : 'ERWrXG8sTUvbPI16',
 	),
 );
 ```

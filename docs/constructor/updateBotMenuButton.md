@@ -29,7 +29,7 @@ updateBotMenuButton#14b85813 bot_id:long button:BotMenuButton = Update;
 
 ```php
 $update = $client->updateBotMenuButton(
-	bot_id : 4451613719760210970,
+	bot_id : 2730465986576210474,
 	button : $client->botMenuButtonDefault(),
 );
 ```

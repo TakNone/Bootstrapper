@@ -39,8 +39,8 @@ messages.getQuickReplyMessages#94a495c3 flags:# shortcut_id:int id:flags.0?Vecto
 
 ```php
 $messagesMessages = $client->messages->getQuickReplyMessages(
-	shortcut_id : 81,
-	id : array(90),
+	shortcut_id : 34,
+	id : array(29),
 	hash : 0,
 );
 ```

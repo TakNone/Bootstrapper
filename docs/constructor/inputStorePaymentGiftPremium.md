@@ -31,7 +31,7 @@ inputStorePaymentGiftPremium#616f7fe8 user_id:InputUser currency:string amount:l
 ```php
 $inputStorePaymentPurpose = $client->inputStorePaymentGiftPremium(
 	user_id : $client->get_input_user(user : '@TakNone'),
-	currency : 'ZRSoNH9P7JBIfOlX',
-	amount : 8814513005387510123,
+	currency : 'ajJqpHzfocxQPEVe',
+	amount : -9115717158120705191,
 );
 ```

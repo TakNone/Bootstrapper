@@ -36,7 +36,7 @@ $pageTableRow = $client->pageTableRow(
 			valign_middle : true,
 			valign_bottom : true,
 			text : $client->textEmpty(),
-			colspan : 54,
+			colspan : 67,
 			rowspan : 37,
 		),
 	),

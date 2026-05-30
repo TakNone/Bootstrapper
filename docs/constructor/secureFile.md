@@ -34,11 +34,11 @@ secureFile#7d09c27e id:long access_hash:long size:long dc_id:int date:int file_h
 
 ```php
 $secureFile = $client->secureFile(
-	id : 2105625909251267689,
-	access_hash : 3887171308214030835,
-	size : -6789954645174718681,
-	dc_id : 41,
-	date : 92,
+	id : -5389683054364547752,
+	access_hash : 4271269443366736550,
+	size : 9174384388960657706,
+	dc_id : 28,
+	date : 31,
 	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

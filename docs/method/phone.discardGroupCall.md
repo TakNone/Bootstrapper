@@ -39,8 +39,8 @@ phone.discardGroupCall#7a777135 call:InputGroupCall = Updates;
 ```php
 $updates = $client->phone->discardGroupCall(
 	call : $client->inputGroupCall(
-		id : 8103730539833464162,
-		access_hash : -2246456700711715980,
+		id : -245740657782286592,
+		access_hash : -2334646395822689450,
 	),
 );
 ```

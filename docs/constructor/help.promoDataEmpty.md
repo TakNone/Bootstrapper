@@ -28,6 +28,6 @@ help.promoDataEmpty#98f6ac75 expires:int = help.PromoData;
 
 ```php
 $helpPromoData = $client->help->promoDataEmpty(
-	expires : 18,
+	expires : 5,
 );
 ```

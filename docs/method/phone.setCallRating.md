@@ -42,10 +42,10 @@ phone.setCallRating#59ead627 flags:# user_initiative:flags.0?true peer:InputPhon
 $updates = $client->phone->setCallRating(
 	user_initiative : true,
 	peer : $client->inputPhoneCall(
-		id : 8858738015993580501,
-		access_hash : 5183723224407909044,
+		id : 7371668096944802246,
+		access_hash : 3514698017647322808,
 	),
-	rating : 51,
-	comment : '8ZUCriBoyf5LKSF3',
+	rating : 94,
+	comment : 'nk5rCc89AtdUDQif',
 );
 ```

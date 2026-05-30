@@ -38,15 +38,15 @@ emojiStatusCollectible#7184603b flags:# collectible_id:long document_id:long tit
 
 ```php
 $emojiStatus = $client->emojiStatusCollectible(
-	collectible_id : -1606475209704690387,
-	document_id : -6489453541180220719,
-	title : '6PjqW1dDNQAFfI7z',
-	slug : 'RP1Om0I3wTNhCiHF',
-	pattern_document_id : -1893862993195637844,
-	center_color : 59,
-	edge_color : 56,
-	pattern_color : 53,
-	text_color : 63,
-	until : 94,
+	collectible_id : -4989291546363923048,
+	document_id : -9210944275770339935,
+	title : 'GVTBfMSRhpK9AOae',
+	slug : 'dPZhxeQlaEGsp907',
+	pattern_document_id : -241273151027441799,
+	center_color : 0,
+	edge_color : 3,
+	pattern_color : 24,
+	text_color : 14,
+	until : 24,
 );
 ```

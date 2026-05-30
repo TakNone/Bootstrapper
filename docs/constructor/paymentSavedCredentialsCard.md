@@ -29,7 +29,7 @@ paymentSavedCredentialsCard#cdc27a1f id:string title:string = PaymentSavedCreden
 
 ```php
 $paymentSavedCredentials = $client->paymentSavedCredentialsCard(
-	id : 'RClUm0Odzkpsv6xf',
-	title : 'i8vaymGEpZMFTnRW',
+	id : 'nfePa3IDENJG0wQZ',
+	title : 'iRdKnA6js7h4VgmO',
 );
 ```

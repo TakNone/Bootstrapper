@@ -38,9 +38,9 @@ $chat = $client->channelForbidden(
 	broadcast : true,
 	megagroup : true,
 	monoforum : true,
-	id : -8050476580542898458,
-	access_hash : -2547717980080774574,
-	title : 'Bx0j42pMV7QYavJe',
-	until_date : 50,
+	id : 8486855810131752966,
+	access_hash : -8649252198602866140,
+	title : '90PbKuL2j6ENFAwW',
+	until_date : 79,
 );
 ```

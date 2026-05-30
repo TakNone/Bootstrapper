@@ -39,8 +39,8 @@ messages.searchSentMedia#107e31a0 q:string filter:MessagesFilter limit:int = mes
 
 ```php
 $messagesMessages = $client->messages->searchSentMedia(
-	q : 't1AgFlY5n6sHVd9U',
+	q : 'qv67FhJCAaGdzjWI',
 	filter : $client->inputMessagesFilterEmpty(),
-	limit : 49,
+	limit : 62,
 );
 ```

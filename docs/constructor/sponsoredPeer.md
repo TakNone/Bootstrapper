@@ -34,9 +34,9 @@ sponsoredPeer#c69708d3 flags:# random_id:bytes peer:Peer sponsor_info:flags.0?st
 $sponsoredPeer = $client->sponsoredPeer(
 	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	peer : $client->peerUser(
-		user_id : 6801331003761165079,
+		user_id : 3543146440292719437,
 	),
-	sponsor_info : 'ZaeEt4y3wfmHWiLS',
-	additional_info : 'kUF5SK0rCwXjBWO1',
+	sponsor_info : 'YlTgdnZIDp6wsGS2',
+	additional_info : 'paMfEiShYPcsWK1R',
 );
 ```

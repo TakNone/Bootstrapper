@@ -29,9 +29,9 @@ channelAdminLogEventActionParticipantInvite#e31c34d8 participant:ChannelParticip
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantInvite(
 	participant : $client->channelParticipant(
-		user_id : -6704693759077014732,
-		date : 37,
-		subscription_until_date : 8,
+		user_id : 8900476404419832863,
+		date : 57,
+		subscription_until_date : 25,
 	),
 );
 ```

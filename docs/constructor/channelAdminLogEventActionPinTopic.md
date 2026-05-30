@@ -31,10 +31,10 @@ channelAdminLogEventActionPinTopic#5d8d353b flags:# prev_topic:flags.0?ForumTopi
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionPinTopic(
 	prev_topic : $client->forumTopicDeleted(
-		id : 80,
+		id : 97,
 	),
 	new_topic : $client->forumTopicDeleted(
-		id : 70,
+		id : 26,
 	),
 );
 ```

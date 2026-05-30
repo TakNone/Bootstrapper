@@ -34,8 +34,8 @@ $keyboardButton = $client->keyboardButtonRequestGeoLocation(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 2876331176655733687,
+		icon : 8338573438562716712,
 	),
-	text : 'i0MY9RbqeIWZGjEy',
+	text : 'oAqdGzlPTcjfiveE',
 );
 ```

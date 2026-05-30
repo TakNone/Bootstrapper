@@ -28,6 +28,6 @@ updateChat#f89a6a4e chat_id:long = Update;
 
 ```php
 $update = $client->updateChat(
-	chat_id : 2453615411465563371,
+	chat_id : -2395285418878332170,
 );
 ```

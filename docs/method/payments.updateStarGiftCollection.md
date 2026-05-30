@@ -43,42 +43,42 @@ payments.updateStarGiftCollection#4fddbee7 flags:# peer:InputPeer collection_id:
 ```php
 $starGiftCollection = $client->payments->updateStarGiftCollection(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	collection_id : 22,
-	title : 'SZ3qiL6zD1MfxVWa',
+	collection_id : 74,
+	title : 'U2NK4raEn8v5dSAV',
 	delete_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 90,
+			msg_id : 20,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : 5470987797155026340,
+			saved_id : 6319985454461589895,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : '2vWYXBEbL7hwZpPa',
+			slug : 'B8bUMpjmuSa1Tv3I',
 		),
 	),
 	add_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 44,
+			msg_id : 78,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : -2577684541581483833,
+			saved_id : 8797672381164638141,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : '8SuF7RCfJ9zZU2BV',
+			slug : 'oSpwhblkzqG9VO7M',
 		),
 	),
 	order : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 82,
+			msg_id : 15,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : -851778375080602129,
+			saved_id : -495687722027717635,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'racQBTzePW2CjuXI',
+			slug : 'M21vFfQLZSjErK5s',
 		),
 	),
 );

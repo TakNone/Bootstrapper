@@ -39,9 +39,9 @@ phone.editGroupCallTitle#1ca6ac0a call:InputGroupCall title:string = Updates;
 ```php
 $updates = $client->phone->editGroupCallTitle(
 	call : $client->inputGroupCall(
-		id : -7284807377401528036,
-		access_hash : -2142377059697373161,
+		id : 3499355417988352531,
+		access_hash : 6636036709726864039,
 	),
-	title : 'V8v3bf7kYPhN4j5H',
+	title : 'Lq8dReVEWtogl0kh',
 );
 ```

@@ -38,6 +38,6 @@ messages.receivedQueue#55a5bb66 max_qts:int = Vector<long>;
 
 ```php
 $long = $client->messages->receivedQueue(
-	max_qts : 53,
+	max_qts : 95,
 );
 ```

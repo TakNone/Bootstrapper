@@ -31,17 +31,17 @@ exportedChatlistInvite#c5181ac flags:# title:string url:string peers:Vector<Peer
 
 ```php
 $exportedChatlistInvite = $client->exportedChatlistInvite(
-	title : 'YjLPyTsCatZhw4BE',
+	title : '7TqJzmwx8Ql6KVUD',
 	url : 'https://docs.liveproto.dev',
 	peers : array(
 		$client->peerUser(
-			user_id : 5711844710013247016,
+			user_id : 3822907592750660053,
 		),
 		$client->peerChat(
-			chat_id : -2527342024685981190,
+			chat_id : -4316805829486249747,
 		),
 		$client->peerChannel(
-			channel_id : -224500452503128822,
+			channel_id : -5189007725525179650,
 		),
 	),
 );

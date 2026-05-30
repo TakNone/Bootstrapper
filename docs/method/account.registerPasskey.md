@@ -27,11 +27,11 @@ account.registerPasskey#55b41fd6 credential:InputPasskeyCredential = Passkey;
 ```php
 $passkey = $client->account->registerPasskey(
 	credential : $client->inputPasskeyCredentialPublicKey(
-		id : 'uirkJCgatv0QGb7A',
-		raw_id : 'QauN7cwFkTvi5hZd',
+		id : 'RElKY9ZVraw6LTbX',
+		raw_id : 'X7uj3kReSz54a2Yd',
 		response : $client->inputPasskeyResponseRegister(
 			client_data : $client->dataJSON(
-				data : 'S3w7IM1GNsFo8gWQ',
+				data : 'OycAxSMvThKYQte6',
 			),
 			attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),

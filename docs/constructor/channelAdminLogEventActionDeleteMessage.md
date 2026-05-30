@@ -29,9 +29,9 @@ channelAdminLogEventActionDeleteMessage#42e047bb message:Message = ChannelAdminL
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionDeleteMessage(
 	message : $client->messageEmpty(
-		id : 11,
+		id : 85,
 		peer_id : $client->peerUser(
-			user_id : -1571829556633449224,
+			user_id : -2687022232978194877,
 		),
 	),
 );

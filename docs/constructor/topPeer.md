@@ -30,8 +30,8 @@ topPeer#edcdc05b peer:Peer rating:double = TopPeer;
 ```php
 $topPeer = $client->topPeer(
 	peer : $client->peerUser(
-		user_id : -3078917073304383769,
+		user_id : -2998615822183610056,
 	),
-	rating : 568620.6279296875,
+	rating : 148527.888671875,
 );
 ```

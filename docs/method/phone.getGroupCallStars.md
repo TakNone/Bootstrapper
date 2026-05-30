@@ -27,8 +27,8 @@ phone.getGroupCallStars#6f636302 call:InputGroupCall = phone.GroupCallStars;
 ```php
 $phoneGroupCallStars = $client->phone->getGroupCallStars(
 	call : $client->inputGroupCall(
-		id : -8522862626930624900,
-		access_hash : -2319912002910123351,
+		id : 8902253081513271586,
+		access_hash : 1791126674816939349,
 	),
 );
 ```

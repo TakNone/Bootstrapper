@@ -33,11 +33,11 @@ inputPhotoLegacyFileLocation#d83466f3 id:long access_hash:long file_reference:by
 
 ```php
 $inputFileLocation = $client->inputPhotoLegacyFileLocation(
-	id : 4396969025380299395,
-	access_hash : 8867196717086415615,
+	id : 348331584757861937,
+	access_hash : -3689401257027998957,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	volume_id : 7868091637894790909,
-	local_id : 87,
-	secret : -4910303310738726275,
+	volume_id : -3720301994184042807,
+	local_id : 46,
+	secret : -5705272960756294809,
 );
 ```

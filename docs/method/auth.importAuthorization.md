@@ -38,7 +38,7 @@ auth.importAuthorization#a57a7dad id:long bytes:bytes = auth.Authorization;
 
 ```php
 $authAuthorization = $client->auth->importAuthorization(
-	id : 7131278181219140410,
+	id : -4620287829874863125,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

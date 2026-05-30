@@ -30,11 +30,11 @@ auth.loginTokenSuccess#390d5c5e authorization:auth.Authorization = auth.LoginTok
 $authLoginToken = $client->auth->loginTokenSuccess(
 	authorization : $client->auth->authorization(
 		setup_password_required : true,
-		otherwise_relogin_days : 89,
-		tmp_sessions : 45,
+		otherwise_relogin_days : 35,
+		tmp_sessions : 62,
 		future_auth_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		user : $client->userEmpty(
-			id : -8611046716668990830,
+			id : 6277837785853907567,
 		),
 	),
 );

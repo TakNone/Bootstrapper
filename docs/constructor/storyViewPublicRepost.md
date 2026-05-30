@@ -35,10 +35,10 @@ $storyView = $client->storyViewPublicRepost(
 	blocked : true,
 	blocked_my_stories_from : true,
 	peer_id : $client->peerUser(
-		user_id : -2896496559504450720,
+		user_id : 4552483749534407791,
 	),
 	story : $client->storyItemDeleted(
-		id : 78,
+		id : 59,
 	),
 );
 ```

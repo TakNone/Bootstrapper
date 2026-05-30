@@ -33,10 +33,10 @@ videoSize#de33b094 flags:# type:string w:int h:int size:int video_start_ts:flags
 
 ```php
 $videoSize = $client->videoSize(
-	type : 'DhJ6Vq9ydrMifnTZ',
-	w : 95,
-	h : 99,
-	size : 81,
-	video_start_ts : 1183731.1015625,
+	type : 'ZCvHhFqp90Dj7Ltd',
+	w : 5,
+	h : 95,
+	size : 6,
+	video_start_ts : -1497404.40234375,
 );
 ```

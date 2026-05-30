@@ -48,7 +48,7 @@ channels.getAdminLog#33ddf480 flags:# channel:InputChannel q:string events_filte
 ```php
 $channelsAdminLogResults = $client->channels->getAdminLog(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	q : 'vgIicmy8S3rh4Txu',
+	q : 'wfeTaFulHCWV5SNh',
 	events_filter : $client->channelAdminLogEventsFilter(
 		join : true,
 		leave : true,
@@ -71,8 +71,8 @@ $channelsAdminLogResults = $client->channels->getAdminLog(
 		sub_extend : true,
 	),
 	admins : array($client->get_input_user(user : '@TakNone')),
-	max_id : 6790435562496300757,
-	min_id : 9063957922952522771,
-	limit : 89,
+	max_id : 8456125703754515436,
+	min_id : -1843194440208036564,
+	limit : 45,
 );
 ```

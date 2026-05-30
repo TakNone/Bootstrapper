@@ -39,12 +39,12 @@ $urlAuthResult = $client->urlAuthResultRequest(
 	request_write_access : true,
 	request_phone_number : true,
 	bot : $client->userEmpty(
-		id : 8461498801529139349,
+		id : -5232488966073965911,
 	),
-	domain : 'wIHup8ymdTRsL4vc',
-	browser : '5ws46GXlSA97YN3j',
-	platform : 'kPKHUo6NjVszqngm',
+	domain : 'xHgKcmE9dUbWPLCz',
+	browser : 'gHdla7pnUJGwyVxQ',
+	platform : 'JBndKz3Q0h7XMocO',
 	ip : '127.0.0.1',
-	region : 'dJxXAKhDB7LClTUI',
+	region : 'GZvxgX4zYWqOI6ul',
 );
 ```

@@ -37,33 +37,33 @@ starGiftAuctionState#771a4e66 version:int start_date:int end_date:int min_bid_am
 
 ```php
 $starGiftAuctionState = $client->starGiftAuctionState(
-	version : 99,
-	start_date : 92,
-	end_date : 24,
-	min_bid_amount : 5923073985520137242,
+	version : 72,
+	start_date : 55,
+	end_date : 26,
+	min_bid_amount : 4619261575269784767,
 	bid_levels : array(
 		$client->auctionBidLevel(
-			pos : 89,
-			amount : -630077716321271619,
-			date : 60,
+			pos : 45,
+			amount : 5349391481862329505,
+			date : 26,
 		),
 	),
-	top_bidders : array(-2660653791737069294),
-	next_round_at : 88,
-	last_gift_num : 79,
-	gifts_left : 74,
-	current_round : 13,
-	total_rounds : 83,
+	top_bidders : array(6375786413021237668),
+	next_round_at : 87,
+	last_gift_num : 65,
+	gifts_left : 76,
+	current_round : 26,
+	total_rounds : 45,
 	rounds : array(
 		$client->starGiftAuctionRound(
-			num : 29,
-			duration : 37,
+			num : 97,
+			duration : 59,
 		),
 		$client->starGiftAuctionRoundExtendable(
-			num : 91,
-			duration : 87,
-			extend_top : 65,
-			extend_window : 26,
+			num : 96,
+			duration : 17,
+			extend_top : 85,
+			extend_window : 24,
 		),
 	),
 );

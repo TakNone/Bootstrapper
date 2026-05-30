@@ -29,7 +29,7 @@ account.authorizations#4bff8ea0 authorization_ttl_days:int authorizations:Vector
 
 ```php
 $accountAuthorizations = $client->account->authorizations(
-	authorization_ttl_days : 67,
+	authorization_ttl_days : 30,
 	authorizations : array(
 		$client->authorization(
 			current : true,
@@ -39,17 +39,17 @@ $accountAuthorizations = $client->account->authorizations(
 			call_requests_disabled : true,
 			unconfirmed : true,
 			hash : 0,
-			device_model : 'WV0Z4baHYguCO5Af',
-			platform : 'X0Q7FxKoiNLRbIep',
-			system_version : 'Xn1r8e4U0dKDRfmt',
-			api_id : 9,
-			app_name : 'G9EDSOs2Brk43dQl',
-			app_version : 'OshF5DeVjqwRmUyJ',
-			date_created : 72,
-			date_active : 77,
+			device_model : 'EzYZDia5uXknbQPh',
+			platform : 'H6lhWertJzTiwqXZ',
+			system_version : 'BQS2rvnO4EfPKd7y',
+			api_id : 89,
+			app_name : 'yWZi1GplkbzaLKsg',
+			app_version : '3QcglSOIJX4yRZiE',
+			date_created : 77,
+			date_active : 6,
 			ip : '127.0.0.1',
-			country : 'wLkpH4r5Y8e0iXJf',
-			region : 'Ict6gSpLs1rnwzXo',
+			country : 'XDLTgwlIEQekurmG',
+			region : 'IBSbXgWx7Yj5lFT2',
 		),
 	),
 );

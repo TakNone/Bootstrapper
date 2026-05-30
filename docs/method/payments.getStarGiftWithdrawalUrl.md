@@ -40,7 +40,7 @@ payments.getStarGiftWithdrawalUrl#d06e93a8 stargift:InputSavedStarGift password:
 ```php
 $paymentsStarGiftWithdrawalUrl = $client->payments->getStarGiftWithdrawalUrl(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 36,
+		msg_id : 51,
 	),
 	password : $client->inputCheckPasswordEmpty(),
 );

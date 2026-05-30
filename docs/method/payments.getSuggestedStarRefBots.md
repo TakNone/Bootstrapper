@@ -44,7 +44,7 @@ $paymentsSuggestedStarRefBots = $client->payments->getSuggestedStarRefBots(
 	order_by_revenue : true,
 	order_by_date : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'KomMYAdh7jb6fG5B',
-	limit : 68,
+	offset : 'PXupZwF94DbjJMEg',
+	limit : 51,
 );
 ```

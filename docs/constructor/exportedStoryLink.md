@@ -28,6 +28,6 @@ exportedStoryLink#3fc9053b link:string = ExportedStoryLink;
 
 ```php
 $exportedStoryLink = $client->exportedStoryLink(
-	link : 'IY1VHB9XaZskMpSJ',
+	link : 'nrJUbo0Qce84xNdv',
 );
 ```

@@ -47,10 +47,10 @@ $webViewResult = $client->messages->requestMainWebView(
 	fullscreen : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	bot : $client->get_input_user(user : '@TakNone'),
-	start_param : '8oOuSZd1EqIfXPDx',
+	start_param : 'cxUyKW7ILpQGkzg0',
 	theme_params : $client->dataJSON(
-		data : 'cHqPbRXUTC6I7LFv',
+		data : 'xydNa9sot0XfmgbP',
 	),
-	platform : 'uFzC7JfkRWZmYKMX',
+	platform : '4GXIZu6xgk5frJHQ',
 );
 ```

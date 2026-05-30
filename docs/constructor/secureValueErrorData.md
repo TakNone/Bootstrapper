@@ -33,7 +33,7 @@ secureValueErrorData#e8a40bd9 type:SecureValueType data_hash:bytes field:string 
 $secureValueError = $client->secureValueErrorData(
 	type : $client->secureValueTypePersonalDetails(),
 	data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	field : '0LIbDSMpJPQvyUeO',
-	text : 'HLt7TNsiPl058VnJ',
+	field : 'L6xuphw2lVk9svYO',
+	text : 'eTFXDobV9jq1ghJB',
 );
 ```

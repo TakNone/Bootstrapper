@@ -51,15 +51,15 @@ $updates = $client->phone->joinGroupCall(
 	muted : true,
 	video_stopped : true,
 	call : $client->inputGroupCall(
-		id : 854912058540687852,
-		access_hash : -1689651626689011508,
+		id : 6303532233959585043,
+		access_hash : 6185006517747845490,
 	),
 	join_as : $client->get_input_peer(peer : '@LiveProtoChat'),
-	invite_hash : 'YTeZIVPkBqR85GKO',
-	public_key : '2642478875514344346305520069774642614881786255776327807442975491886891222078',
+	invite_hash : 'jq2W1mDE8MIaprcA',
+	public_key : '2339667724486904351388933832593607378856606236056799706015958847046148873983',
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	params : $client->dataJSON(
-		data : 'q5juTQzIvUnwSWKY',
+		data : '4xSjyLzTb279e0dH',
 	),
 );
 ```

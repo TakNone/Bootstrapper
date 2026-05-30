@@ -31,15 +31,15 @@ connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients right
 
 ```php
 $connectedBot = $client->connectedBot(
-	bot_id : -3228055953339081697,
+	bot_id : -970273966216798741,
 	recipients : $client->businessBotRecipients(
 		existing_chats : true,
 		new_chats : true,
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(-5767174921573899249),
-		exclude_users : array(-2625733667832997865),
+		users : array(-309485677971018063),
+		exclude_users : array(6247558751447612985),
 	),
 	rights : $client->businessBotRights(
 		reply : true,

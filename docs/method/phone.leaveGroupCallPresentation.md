@@ -37,8 +37,8 @@ phone.leaveGroupCallPresentation#1c50d144 call:InputGroupCall = Updates;
 ```php
 $updates = $client->phone->leaveGroupCallPresentation(
 	call : $client->inputGroupCall(
-		id : 5870090361685236475,
-		access_hash : 8305892459269755522,
+		id : 5634581944051362906,
+		access_hash : 5512507849732799405,
 	),
 );
 ```

@@ -29,7 +29,7 @@ labeledPrice#cb296bf8 label:string amount:long = LabeledPrice;
 
 ```php
 $labeledPrice = $client->labeledPrice(
-	label : 'mxJNzSRCGbpXYhDd',
-	amount : -2220882437127270323,
+	label : '8ywga72UMOCiSDNn',
+	amount : -1047791235419657592,
 );
 ```

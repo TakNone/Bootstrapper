@@ -35,9 +35,9 @@ $keyboardButton = $client->inputKeyboardButtonUserProfile(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -6710577688849942913,
+		icon : -9089743036538627473,
 	),
-	text : 'INqfrPEuUoxktGRT',
+	text : 'nHF8MyQCt0AdTXuZ',
 	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

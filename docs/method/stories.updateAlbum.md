@@ -43,10 +43,10 @@ stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?s
 ```php
 $storyAlbum = $client->stories->updateAlbum(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	album_id : 3,
-	title : 'dV8CiYcwQOXxnFG6',
-	delete_stories : array(3),
-	add_stories : array(65),
-	order : array(31),
+	album_id : 12,
+	title : 'GWZ7npBTmo1QbSFl',
+	delete_stories : array(87),
+	add_stories : array(54),
+	order : array(87),
 );
 ```

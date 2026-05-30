@@ -32,10 +32,10 @@ updateChatParticipantAdd#3dda5451 chat_id:long user_id:long inviter_id:long date
 
 ```php
 $update = $client->updateChatParticipantAdd(
-	chat_id : 184109683244805130,
-	user_id : -5045264754380173317,
-	inviter_id : 2673895028391904986,
-	date : 58,
-	version : 93,
+	chat_id : 54006155912110303,
+	user_id : -2840488778726524693,
+	inviter_id : -6506903184738988272,
+	date : 44,
+	version : 2,
 );
 ```

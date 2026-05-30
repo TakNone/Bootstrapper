@@ -31,10 +31,10 @@ messages.emojiGameDiceInfo#44e56023 flags:# game_hash:string prev_stake:long cur
 
 ```php
 $messagesEmojiGameInfo = $client->messages->emojiGameDiceInfo(
-	game_hash : '7uKGgvyo2TLwi6S5',
-	prev_stake : -4450760083164474598,
-	current_streak : 98,
-	params : array(43),
-	plays_left : 75,
+	game_hash : 'ycL7JM1Eoq0Rzdjn',
+	prev_stake : -8051793777436951884,
+	current_streak : 62,
+	params : array(89),
+	plays_left : 68,
 );
 ```

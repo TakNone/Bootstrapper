@@ -34,11 +34,11 @@ mediaAreaCoordinates#cfc9e002 flags:# x:double y:double w:double h:double rotati
 
 ```php
 $mediaAreaCoordinates = $client->mediaAreaCoordinates(
-	x : 1671940.130859375,
-	y : -849708.751953125,
-	w : 262359.6337890625,
-	h : -356677.0107421875,
-	rotation : -1409349.9658203125,
-	radius : 480393.26953125,
+	x : -214402.2880859375,
+	y : -1118502.509765625,
+	w : -1268933.1796875,
+	h : 853961.4287109375,
+	rotation : 1083182.162109375,
+	radius : -536378.4677734375,
 );
 ```

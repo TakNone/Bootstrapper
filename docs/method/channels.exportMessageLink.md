@@ -46,6 +46,6 @@ $exportedMessageLink = $client->channels->exportMessageLink(
 	grouped : true,
 	thread : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	id : 45,
+	id : 98,
 );
 ```

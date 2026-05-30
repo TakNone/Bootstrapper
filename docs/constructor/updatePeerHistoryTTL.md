@@ -31,8 +31,8 @@ updatePeerHistoryTTL#bb9bb9a5 flags:# peer:Peer ttl_period:flags.0?int = Update;
 ```php
 $update = $client->updatePeerHistoryTTL(
 	peer : $client->peerUser(
-		user_id : 2710583836775078170,
+		user_id : 7211074328270445523,
 	),
-	ttl_period : 30,
+	ttl_period : 10,
 );
 ```

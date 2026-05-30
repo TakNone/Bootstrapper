@@ -33,7 +33,7 @@ inputBusinessAwayMessage#832175e0 flags:# offline_only:flags.0?true shortcut_id:
 ```php
 $inputBusinessAwayMessage = $client->inputBusinessAwayMessage(
 	offline_only : true,
-	shortcut_id : 46,
+	shortcut_id : 42,
 	schedule : $client->businessAwayMessageScheduleAlways(),
 	recipients : $client->inputBusinessRecipients(
 		existing_chats : true,

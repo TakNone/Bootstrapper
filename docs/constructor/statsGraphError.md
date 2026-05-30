@@ -28,6 +28,6 @@ statsGraphError#bedc9822 error:string = StatsGraph;
 
 ```php
 $statsGraph = $client->statsGraphError(
-	error : 'Eiql53nDAaFO4RSM',
+	error : 'Oh0Yp5iTXz4EBSmV',
 );
 ```

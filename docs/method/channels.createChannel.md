@@ -56,10 +56,10 @@ $updates = $client->channels->createChannel(
 	megagroup : true,
 	for_import : true,
 	forum : true,
-	title : 'Uv0Io3riMT14wFL6',
-	about : 'sECGqlwWoj0ZuXnT',
+	title : '9hU4lG2zeRVXc3ns',
+	about : 'hD9kIW7GxLgAHOZd',
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'WHi3hSpIbDkm0eLZ',
-	ttl_period : 73,
+	address : 'rl0Z8jOVfJUDBWgu',
+	ttl_period : 8,
 );
 ```

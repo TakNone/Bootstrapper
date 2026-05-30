@@ -30,15 +30,15 @@ businessGreetingMessage#e519abab shortcut_id:int recipients:BusinessRecipients n
 
 ```php
 $businessGreetingMessage = $client->businessGreetingMessage(
-	shortcut_id : 30,
+	shortcut_id : 79,
 	recipients : $client->businessRecipients(
 		existing_chats : true,
 		new_chats : true,
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(6186286399114351402),
+		users : array(2769675741009508965),
 	),
-	no_activity_days : 7,
+	no_activity_days : 36,
 );
 ```

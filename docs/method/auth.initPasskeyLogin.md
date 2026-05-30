@@ -27,7 +27,7 @@ auth.initPasskeyLogin#518ad0b7 api_id:int api_hash:string = auth.PasskeyLoginOpt
 
 ```php
 $authPasskeyLoginOptions = $client->auth->initPasskeyLogin(
-	api_id : 86,
-	api_hash : 'xlDF0gSpzeQBmvNs',
+	api_id : 9,
+	api_hash : 'RZ1nYLa4hXblKyDv',
 );
 ```

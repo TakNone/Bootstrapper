@@ -33,8 +33,8 @@ messageActionPhoneCall#80e11a7f flags:# video:flags.2?true call_id:long reason:f
 ```php
 $messageAction = $client->messageActionPhoneCall(
 	video : true,
-	call_id : 5545311460601795743,
+	call_id : -3195452930632569937,
 	reason : $client->phoneCallDiscardReasonMissed(),
-	duration : 83,
+	duration : 100,
 );
 ```

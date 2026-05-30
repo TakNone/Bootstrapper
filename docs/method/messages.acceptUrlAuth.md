@@ -37,8 +37,8 @@ $urlAuthResult = $client->messages->acceptUrlAuth(
 	write_allowed : true,
 	share_phone_number : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 86,
-	button_id : 77,
+	msg_id : 39,
+	button_id : 4,
 	url : 'https://docs.liveproto.dev',
 );
 ```

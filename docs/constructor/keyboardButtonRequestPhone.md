@@ -34,8 +34,8 @@ $keyboardButton = $client->keyboardButtonRequestPhone(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -2448870879424863618,
+		icon : 4956039940076729850,
 	),
-	text : 'MusHkfipBUjmwv8T',
+	text : 'tdeuSF6vOskmVpoy',
 );
 ```

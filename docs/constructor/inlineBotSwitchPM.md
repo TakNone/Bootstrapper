@@ -29,7 +29,7 @@ inlineBotSwitchPM#3c20629f text:string start_param:string = InlineBotSwitchPM;
 
 ```php
 $inlineBotSwitchPM = $client->inlineBotSwitchPM(
-	text : 'fMAk4oHxnLsCjlgz',
-	start_param : '1fdVPDwuKJFQTZNX',
+	text : 'Ihoafi4Er8qD9u12',
+	start_param : 'bYCOkRpa92uiABWI',
 );
 ```

@@ -44,11 +44,11 @@ bots.setBotCommands#517165a scope:BotCommandScope lang_code:string commands:Vect
 ```php
 $bool = $client->bots->setBotCommands(
 	scope : $client->botCommandScopeDefault(),
-	lang_code : '6inDerkuTLZf4mzg',
+	lang_code : 'AuCOzPMJUSbg63Lo',
 	commands : array(
 		$client->botCommand(
-			command : 'ywf5jtzqpB1379PT',
-			description : 'tKQolgIvWbVD8Lr3',
+			command : 'PAx2ZE3KfWsuMzFq',
+			description : '9p1nJdEbw4siSacG',
 		),
 	),
 );

@@ -29,7 +29,7 @@ invokeAfterMsgs#3dc4b4f0 {X:Type} msg_ids:Vector<long> query:!X = X;
 
 ```php
 $x = $client->invokeAfterMsgs(
-	msg_ids : array(1716742623519605909),
+	msg_ids : array(89482363070022404),
 	query : $client->help->getConfig(raw : true),
 );
 ```

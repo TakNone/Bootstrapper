@@ -30,8 +30,8 @@ emojiGroup#7a9abda9 title:string icon_emoji_id:long emoticons:Vector<string> = E
 
 ```php
 $emojiGroup = $client->emojiGroup(
-	title : 'owpEkty7NYcz026h',
-	icon_emoji_id : -3955653309659857626,
-	emoticons : array('pNTF930RrXtkd7uI'),
+	title : 'cuGEx6jK0iy2YZ8q',
+	icon_emoji_id : -5356840585426854486,
+	emoticons : array('KhgpObYvc3WCG4tN'),
 );
 ```

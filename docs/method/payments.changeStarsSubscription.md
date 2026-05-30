@@ -40,7 +40,7 @@ payments.changeStarsSubscription#c7770878 flags:# peer:InputPeer subscription_id
 ```php
 $bool = $client->payments->changeStarsSubscription(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	subscription_id : 'YXq7VwhJjGprsgk5',
+	subscription_id : 'fFlKCt51k3VNX2Pv',
 	canceled : true,
 );
 ```

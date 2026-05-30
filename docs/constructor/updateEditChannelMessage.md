@@ -31,12 +31,12 @@ updateEditChannelMessage#1b3f4df7 message:Message pts:int pts_count:int = Update
 ```php
 $update = $client->updateEditChannelMessage(
 	message : $client->messageEmpty(
-		id : 1,
+		id : 26,
 		peer_id : $client->peerUser(
-			user_id : -2528555244307274693,
+			user_id : 4825267370035926791,
 		),
 	),
-	pts : 13,
-	pts_count : 24,
+	pts : 59,
+	pts_count : 58,
 );
 ```

@@ -38,9 +38,9 @@ account.updateBirthday#cc6e0c11 flags:# birthday:flags.0?Birthday = Bool;
 ```php
 $bool = $client->account->updateBirthday(
 	birthday : $client->birthday(
-		day : 21,
-		month : 8,
-		year : 7,
+		day : 57,
+		month : 17,
+		year : 94,
 	),
 );
 ```

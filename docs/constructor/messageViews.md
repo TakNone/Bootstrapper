@@ -31,26 +31,26 @@ messageViews#455b853d flags:# views:flags.0?int forwards:flags.1?int replies:fla
 
 ```php
 $messageViews = $client->messageViews(
-	views : 57,
-	forwards : 60,
+	views : 70,
+	forwards : 31,
 	replies : $client->messageReplies(
 		comments : true,
-		replies : 84,
-		replies_pts : 56,
+		replies : 90,
+		replies_pts : 65,
 		recent_repliers : array(
 			$client->peerUser(
-				user_id : -1789001194573018833,
+				user_id : 7526630426824910919,
 			),
 			$client->peerChat(
-				chat_id : -2465906933428855618,
+				chat_id : -7393587649551344109,
 			),
 			$client->peerChannel(
-				channel_id : 7715296148578050473,
+				channel_id : 6153131671066814442,
 			),
 		),
-		channel_id : 8110373963643365098,
-		max_id : 91,
-		read_max_id : 37,
+		channel_id : 4970678597835828561,
+		max_id : 69,
+		read_max_id : 90,
 	),
 );
 ```

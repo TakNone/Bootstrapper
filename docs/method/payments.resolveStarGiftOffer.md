@@ -29,6 +29,6 @@ payments.resolveStarGiftOffer#e9ce781c flags:# decline:flags.0?true offer_msg_id
 ```php
 $updates = $client->payments->resolveStarGiftOffer(
 	decline : true,
-	offer_msg_id : 56,
+	offer_msg_id : 98,
 );
 ```

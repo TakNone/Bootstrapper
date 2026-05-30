@@ -29,9 +29,9 @@ starGiftAuctionRoundExtendable#aa021e5 num:int duration:int extend_top:int exten
 
 ```php
 $starGiftAuctionRound = $client->starGiftAuctionRoundExtendable(
-	num : 92,
-	duration : 7,
-	extend_top : 11,
-	extend_window : 25,
+	num : 26,
+	duration : 67,
+	extend_top : 28,
+	extend_window : 10,
 );
 ```

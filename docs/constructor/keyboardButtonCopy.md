@@ -35,9 +35,9 @@ $keyboardButton = $client->keyboardButtonCopy(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 2544178215531820477,
+		icon : 2116425420451334289,
 	),
-	text : '74TAprwi9RLYmDQF',
-	copy_text : 'E7K4RuIrFMQjGaxB',
+	text : 'T3axihcVlbZS0AYU',
+	copy_text : 'Gdt4sjnMk9g8a76z',
 );
 ```
