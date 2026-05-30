@@ -51,15 +51,15 @@ phone.editGroupCallParticipant#a5273abf flags:# call:InputGroupCall participant:
 ```php
 $updates = $client->phone->editGroupCallParticipant(
 	call : $client->inputGroupCall(
-		id : -6693316962646893677,
-		access_hash : 6595821055457383520,
+		id : -4347585576777663501,
+		access_hash : 7591786188730948095,
 	),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 	muted : false,
-	volume : 94,
-	raise_hand : true,
-	video_stopped : true,
+	volume : 1,
+	raise_hand : false,
+	video_stopped : false,
 	video_paused : false,
-	presentation_paused : true,
+	presentation_paused : false,
 );
 ```

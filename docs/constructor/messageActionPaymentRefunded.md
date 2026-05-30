@@ -34,14 +34,14 @@ messageActionPaymentRefunded#41b3e202 flags:# peer:Peer currency:string total_am
 ```php
 $messageAction = $client->messageActionPaymentRefunded(
 	peer : $client->peerUser(
-		user_id : 4576969146019581985,
+		user_id : 7031692585855816051,
 	),
-	currency : 'zZ9vtqWFcS1XyiQk',
-	total_amount : 7121027903989017324,
+	currency : 'A2hkXHOt0jSdrgbi',
+	total_amount : -8509556932248862129,
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	charge : $client->paymentCharge(
-		id : 'E2u0TPNX3fvc86jI',
-		provider_charge_id : 'GuZY4IrEmb9ilfSA',
+		id : 'CGipBYJFRNHOb7D5',
+		provider_charge_id : 'KziyjZ53NMh1bPuw',
 	),
 );
 ```

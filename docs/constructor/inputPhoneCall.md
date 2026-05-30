@@ -29,7 +29,7 @@ inputPhoneCall#1e36fded id:long access_hash:long = InputPhoneCall;
 
 ```php
 $inputPhoneCall = $client->inputPhoneCall(
-	id : -7592160778279515237,
-	access_hash : 8193219261331551915,
+	id : 70016165856474681,
+	access_hash : -1805495907308319438,
 );
 ```

@@ -29,7 +29,7 @@ messages.affectedMessages#84d19185 pts:int pts_count:int = messages.AffectedMess
 
 ```php
 $messagesAffectedMessages = $client->messages->affectedMessages(
-	pts : 64,
-	pts_count : 57,
+	pts : 71,
+	pts_count : 41,
 );
 ```

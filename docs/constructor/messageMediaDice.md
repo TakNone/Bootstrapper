@@ -31,12 +31,12 @@ messageMediaDice#8cbec07 flags:# value:int emoticon:string game_outcome:flags.0?
 
 ```php
 $messageMedia = $client->messageMediaDice(
-	value : 54,
-	emoticon : '2YZsjdF3rnv1qc5X',
+	value : 28,
+	emoticon : 'M69S0yBiHslqcukO',
 	game_outcome : $client->messages->emojiGameOutcome(
 		seed : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		stake_ton_amount : 7145493134288061134,
-		ton_amount : -2191865227105521124,
+		stake_ton_amount : -8597862185910263820,
+		ton_amount : 6115808892970836043,
 	),
 );
 ```

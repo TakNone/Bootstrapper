@@ -27,7 +27,7 @@ starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;
 
 ```php
 $starGiftAuctionRound = $client->starGiftAuctionRound(
-	num : 53,
-	duration : 74,
+	num : 82,
+	duration : 47,
 );
 ```

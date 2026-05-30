@@ -30,8 +30,8 @@ updateDeleteMessages#a20db0e5 messages:Vector<int> pts:int pts_count:int = Updat
 
 ```php
 $update = $client->updateDeleteMessages(
-	messages : array(43),
-	pts : 37,
-	pts_count : 86,
+	messages : array(63),
+	pts : 10,
+	pts_count : 12,
 );
 ```

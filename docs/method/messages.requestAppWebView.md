@@ -53,13 +53,13 @@ $webViewResult = $client->messages->requestAppWebView(
 	fullscreen : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	app : $client->inputBotAppID(
-		id : -7000906577514100041,
-		access_hash : -8240069930715357795,
+		id : -2308669473570398148,
+		access_hash : -4055867820363406158,
 	),
-	start_param : 'o3e4AfxUWF5w1mNg',
+	start_param : 'uvredy62FZWXAsDY',
 	theme_params : $client->dataJSON(
-		data : 'SEiM2Im63t5gUYWs',
+		data : 'tlkvH4CmSnxsUo2j',
 	),
-	platform : 'OPx0kwYL83bMJfXi',
+	platform : 'psMefja3JW5d1ZcG',
 );
 ```

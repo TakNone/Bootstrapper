@@ -42,6 +42,6 @@ channels.toggleForum#3ff75734 channel:InputChannel enabled:Bool tabs:Bool = Upda
 $updates = $client->channels->toggleForum(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	enabled : true,
-	tabs : true,
+	tabs : false,
 );
 ```

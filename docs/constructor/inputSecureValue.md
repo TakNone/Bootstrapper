@@ -43,21 +43,21 @@ $inputSecureValue = $client->inputSecureValue(
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	front_side : $client->inputSecureFileUploaded(
-		id : 4213385054653530723,
-		parts : 61,
+		id : 2449376492758410328,
+		parts : 89,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	reverse_side : $client->inputSecureFileUploaded(
-		id : -8179474714623754244,
-		parts : 26,
+		id : 189323437176394782,
+		parts : 62,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	selfie : $client->inputSecureFileUploaded(
-		id : 6021578259294886856,
+		id : 8987740337566519761,
 		parts : 15,
 		md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 		file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
@@ -65,28 +65,28 @@ $inputSecureValue = $client->inputSecureValue(
 	),
 	translation : array(
 		$client->inputSecureFileUploaded(
-			id : -8774858279452483675,
-			parts : 54,
+			id : -7560934464415022690,
+			parts : 67,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->inputSecureFile(
-			id : 2671939895918892111,
-			access_hash : -884155203156238277,
+			id : 9201556742674692363,
+			access_hash : 8580535653713844468,
 		),
 	),
 	files : array(
 		$client->inputSecureFileUploaded(
-			id : 2842062748098928181,
-			parts : 4,
+			id : -6089351972958337963,
+			parts : 18,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->inputSecureFile(
-			id : -4307272960064680891,
-			access_hash : -5979719725643578663,
+			id : -4446026399292053255,
+			access_hash : -6987786648089607440,
 		),
 	),
 	plain_data : $client->securePlainPhone(

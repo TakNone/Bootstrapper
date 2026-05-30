@@ -28,6 +28,6 @@ contacts.editCloseFriends#ba6705f0 id:Vector<long> = Bool;
 
 ```php
 $bool = $client->contacts->editCloseFriends(
-	id : array(8765118519250677932),
+	id : array(-3297420990820420112),
 );
 ```

@@ -34,9 +34,9 @@ botAppSettings#c99b1950 flags:# placeholder_path:flags.0?bytes background_color:
 ```php
 $botAppSettings = $client->botAppSettings(
 	placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	background_color : 48,
-	background_dark_color : 68,
-	header_color : 42,
-	header_dark_color : 4,
+	background_color : 23,
+	background_dark_color : 60,
+	header_color : 49,
+	header_dark_color : 32,
 );
 ```

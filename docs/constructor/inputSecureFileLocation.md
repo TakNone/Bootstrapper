@@ -29,7 +29,7 @@ inputSecureFileLocation#cbc7ee28 id:long access_hash:long = InputFileLocation;
 
 ```php
 $inputFileLocation = $client->inputSecureFileLocation(
-	id : -3298813987527384982,
-	access_hash : -2982373332026934284,
+	id : -2657088104999236854,
+	access_hash : -5125573698242895114,
 );
 ```

@@ -30,6 +30,6 @@ exportedContactToken#41bf109b url:string expires:int = ExportedContactToken;
 ```php
 $exportedContactToken = $client->exportedContactToken(
 	url : 'https://docs.liveproto.dev',
-	expires : 28,
+	expires : 85,
 );
 ```

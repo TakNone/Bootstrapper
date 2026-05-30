@@ -30,8 +30,8 @@ searchResultPosition#7f648b67 msg_id:int date:int offset:int = SearchResultsPosi
 
 ```php
 $searchResultsPosition = $client->searchResultPosition(
-	msg_id : 90,
-	date : 78,
+	msg_id : 11,
+	date : 94,
 	offset : 0,
 );
 ```

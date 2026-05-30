@@ -40,6 +40,6 @@ messages.migrateChat#a2875319 chat_id:long = Updates;
 
 ```php
 $updates = $client->messages->migrateChat(
-	chat_id : -3501409837040272169,
+	chat_id : 3594759753707027956,
 );
 ```

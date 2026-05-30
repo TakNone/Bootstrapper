@@ -31,9 +31,9 @@ quickReply#697102b shortcut_id:int shortcut:string top_message:int count:int = Q
 
 ```php
 $quickReply = $client->quickReply(
-	shortcut_id : 69,
-	shortcut : 'mEgbKC8l1cZtXGUS',
-	top_message : 66,
-	count : 90,
+	shortcut_id : 86,
+	shortcut : 'sSxOPAw3NpGQ6aiM',
+	top_message : 53,
+	count : 77,
 );
 ```

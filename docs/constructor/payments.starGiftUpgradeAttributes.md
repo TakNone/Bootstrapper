@@ -29,134 +29,134 @@ $paymentsStarGiftUpgradeAttributes = $client->payments->starGiftUpgradeAttribute
 	attributes : array(
 		$client->starGiftAttributeModel(
 			crafted : true,
-			name : 'WYsle8DMGLgJczTr',
+			name : 'P1BplVukNoEKqX83',
 			document : $client->documentEmpty(
-				id : -3207058500683908738,
+				id : -8775881207430087252,
 			),
 			rarity : $client->starGiftAttributeRarity(
-				permille : 7,
+				permille : 37,
 			),
 		),
 		$client->starGiftAttributePattern(
-			name : 'q8VhypxajCvlsYku',
+			name : '0ThB7a6PpxD4joi8',
 			document : $client->documentEmpty(
-				id : -5527370007536573519,
+				id : 330646357485524159,
 			),
 			rarity : $client->starGiftAttributeRarity(
-				permille : 13,
+				permille : 60,
 			),
 		),
 		$client->starGiftAttributeBackdrop(
-			name : 'S0IdMewY37nprflU',
-			backdrop_id : 64,
-			center_color : 76,
-			edge_color : 100,
-			pattern_color : 81,
-			text_color : 1,
+			name : 'becyups1vJ6SPfUQ',
+			backdrop_id : 60,
+			center_color : 63,
+			edge_color : 22,
+			pattern_color : 11,
+			text_color : 0,
 			rarity : $client->starGiftAttributeRarity(
-				permille : 74,
+				permille : 66,
 			),
 		),
 		$client->starGiftAttributeOriginalDetails(
 			sender_id : $client->peerUser(
-				user_id : -7153880161972519373,
+				user_id : -7113509485916209621,
 			),
 			recipient_id : $client->peerUser(
-				user_id : -5870515678332544165,
+				user_id : 119604487087543777,
 			),
-			date : 46,
+			date : 10,
 			message : $client->textWithEntities(
-				text : 'SAshuXITlpfWzgBE',
+				text : 'nMKBPCgIFZ4c3q1L',
 				entities : array(
 					$client->messageEntityUnknown(
 						offset : 0,
-						length : 12,
+						length : 52,
 					),
 					$client->messageEntityMention(
 						offset : 0,
-						length : 91,
+						length : 57,
 					),
 					$client->messageEntityHashtag(
 						offset : 0,
-						length : 12,
+						length : 18,
 					),
 					$client->messageEntityBotCommand(
 						offset : 0,
-						length : 25,
+						length : 1,
 					),
 					$client->messageEntityUrl(
 						offset : 0,
-						length : 56,
+						length : 74,
 					),
 					$client->messageEntityEmail(
 						offset : 0,
-						length : 40,
+						length : 25,
 					),
 					$client->messageEntityBold(
 						offset : 0,
-						length : 25,
+						length : 83,
 					),
 					$client->messageEntityItalic(
 						offset : 0,
-						length : 30,
+						length : 12,
 					),
 					$client->messageEntityCode(
 						offset : 0,
-						length : 87,
+						length : 56,
 					),
 					$client->messageEntityPre(
 						offset : 0,
-						length : 35,
-						language : '4B0nQykaur39vtNK',
+						length : 74,
+						language : 'ZUR0ECyep5shAMcD',
 					),
 					$client->messageEntityTextUrl(
 						offset : 0,
-						length : 73,
+						length : 43,
 						url : 'https://docs.liveproto.dev',
 					),
 					$client->messageEntityMentionName(
 						offset : 0,
-						length : 68,
-						user_id : 3930623267853829410,
+						length : 70,
+						user_id : -1020624631539487282,
 					),
 					$client->inputMessageEntityMentionName(
 						offset : 0,
-						length : 66,
+						length : 60,
 						user_id : $client->get_input_user(user : '@TakNone'),
 					),
 					$client->messageEntityPhone(
 						offset : 0,
-						length : 80,
+						length : 45,
 					),
 					$client->messageEntityCashtag(
 						offset : 0,
-						length : 94,
+						length : 72,
 					),
 					$client->messageEntityUnderline(
 						offset : 0,
-						length : 35,
+						length : 78,
 					),
 					$client->messageEntityStrike(
 						offset : 0,
-						length : 32,
+						length : 59,
 					),
 					$client->messageEntityBankCard(
 						offset : 0,
-						length : 60,
+						length : 87,
 					),
 					$client->messageEntitySpoiler(
 						offset : 0,
-						length : 67,
+						length : 52,
 					),
 					$client->messageEntityCustomEmoji(
 						offset : 0,
-						length : 13,
-						document_id : -4695732662159059974,
+						length : 89,
+						document_id : 608663726918540794,
 					),
 					$client->messageEntityBlockquote(
 						collapsed : true,
 						offset : 0,
-						length : 6,
+						length : 87,
 					),
 				),
 			),

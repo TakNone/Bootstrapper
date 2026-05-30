@@ -33,13 +33,13 @@ documentAttributeSticker#6319d612 flags:# mask:flags.1?true alt:string stickerse
 ```php
 $documentAttribute = $client->documentAttributeSticker(
 	mask : true,
-	alt : 'YShlwX8KpcCO3sdR',
+	alt : '91xyArYSz4CNqQdJ',
 	stickerset : $client->inputStickerSetEmpty(),
 	mask_coords : $client->maskCoords(
-		n : 2,
-		x : -67756.0283203125,
-		y : -1047901.4716796875,
-		zoom : 937792.7724609375,
+		n : 33,
+		x : -1852907.984375,
+		y : -1362697.1474609375,
+		zoom : -273662.255859375,
 	),
 );
 ```

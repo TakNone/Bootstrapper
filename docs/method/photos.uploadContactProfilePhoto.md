@@ -49,13 +49,13 @@ $photosPhoto = $client->photos->uploadContactProfilePhoto(
 	user_id : $client->get_input_user(user : '@TakNone'),
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : 687647.6376953125,
+	video_start_ts : -1351561.513671875,
 	video_emoji_markup : $client->videoSize(
-		type : '1e4tVXxEpNUhOf5I',
-		w : 3,
-		h : 8,
-		size : 31,
-		video_start_ts : 765848.0830078125,
+		type : 'HWjPcMfZ48yERoLd',
+		w : 7,
+		h : 12,
+		size : 48,
+		video_start_ts : 126196.724609375,
 	),
 );
 ```

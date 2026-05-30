@@ -38,9 +38,9 @@ phone.leaveGroupCall#500377f9 call:InputGroupCall source:int = Updates;
 ```php
 $updates = $client->phone->leaveGroupCall(
 	call : $client->inputGroupCall(
-		id : -1237451044033643611,
-		access_hash : -101229649046994786,
+		id : 2405626472730657560,
+		access_hash : -6703714760026066795,
 	),
-	source : 11,
+	source : 56,
 );
 ```

@@ -30,12 +30,12 @@ payments.starGiftCollections#8a2932f3 collections:Vector<StarGiftCollection> = p
 $paymentsStarGiftCollections = $client->payments->starGiftCollections(
 	collections : array(
 		$client->starGiftCollection(
-			collection_id : 7,
-			title : 'iCORavoydVcxzwDH',
+			collection_id : 46,
+			title : 'W3zmefLN8xDUQlYF',
 			icon : $client->documentEmpty(
-				id : 6074086380873961413,
+				id : 8862944279799549419,
 			),
-			gifts_count : 0,
+			gifts_count : 31,
 			hash : 0,
 		),
 	),

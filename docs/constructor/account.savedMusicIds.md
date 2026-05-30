@@ -28,6 +28,6 @@ account.savedMusicIds#998d6636 ids:Vector<long> = account.SavedMusicIds;
 
 ```php
 $accountSavedMusicIds = $client->account->savedMusicIds(
-	ids : array(-5030122718452423782),
+	ids : array(1556377874793240750),
 );
 ```

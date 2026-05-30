@@ -31,7 +31,7 @@ messageEntityMentionName#dc7b1140 offset:int length:int user_id:long = MessageEn
 ```php
 $messageEntity = $client->messageEntityMentionName(
 	offset : 0,
-	length : 100,
-	user_id : 2431121614721820889,
+	length : 23,
+	user_id : -1720972106067690282,
 );
 ```

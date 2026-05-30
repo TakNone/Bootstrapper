@@ -38,8 +38,8 @@ phone.saveCallLog#41248786 peer:InputPhoneCall file:InputFile = Bool;
 ```php
 $bool = $client->phone->saveCallLog(
 	peer : $client->inputPhoneCall(
-		id : -7234175713285201051,
-		access_hash : 1048329113062654012,
+		id : 2049699077866413218,
+		access_hash : 5052430843375537312,
 	),
 	file : $client->upload_file(path : 'file.png'),
 );

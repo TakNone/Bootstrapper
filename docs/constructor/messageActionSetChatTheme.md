@@ -29,7 +29,7 @@ messageActionSetChatTheme#b91bbd3a theme:ChatTheme = MessageAction;
 ```php
 $messageAction = $client->messageActionSetChatTheme(
 	theme : $client->chatTheme(
-		emoticon : 'xlCaAbyu1BPDmc9z',
+		emoticon : 'gjduI0boVnT9yF2C',
 	),
 );
 ```

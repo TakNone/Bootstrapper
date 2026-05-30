@@ -49,8 +49,8 @@ $updates = $client->messages->setGameScore(
 	edit_message : true,
 	force : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 30,
+	id : 84,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	score : 1,
+	score : 87,
 );
 ```

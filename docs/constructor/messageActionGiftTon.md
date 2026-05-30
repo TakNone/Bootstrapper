@@ -33,10 +33,10 @@ messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currenc
 
 ```php
 $messageAction = $client->messageActionGiftTon(
-	currency : 'nDdul7kpSW2ULCTs',
-	amount : -9215141574147726621,
-	crypto_currency : 'c5fhS7NoGxEmvZer',
-	crypto_amount : -3749240413281409351,
-	transaction_id : 'xn9VwLgS5qWtuvzc',
+	currency : 'ucGQnAj810ewImRV',
+	amount : -198947570172425426,
+	crypto_currency : '4k0nEcxltvYM7Sjr',
+	crypto_amount : 5087685775153300054,
+	transaction_id : '2EsWHOmyzrpSkcKw',
 );
 ```

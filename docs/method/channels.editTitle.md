@@ -44,6 +44,6 @@ channels.editTitle#566decd0 channel:InputChannel title:string = Updates;
 ```php
 $updates = $client->channels->editTitle(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	title : '2NmJfZClMIWjp5vE',
+	title : 'gIKutzNd2xckA3Cp',
 );
 ```

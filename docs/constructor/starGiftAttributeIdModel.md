@@ -28,6 +28,6 @@ starGiftAttributeIdModel#48aaae3c document_id:long = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdModel(
-	document_id : -6776702733316195966,
+	document_id : -6879473773198954780,
 );
 ```

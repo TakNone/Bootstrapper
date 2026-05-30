@@ -30,8 +30,8 @@ messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGrou
 $messageMedia = $client->messageMediaVideoStream(
 	rtmp_stream : true,
 	call : $client->inputGroupCall(
-		id : 1674438544761232725,
-		access_hash : 15023830899408662,
+		id : -7294136850021146927,
+		access_hash : 1397434752929463250,
 	),
 );
 ```

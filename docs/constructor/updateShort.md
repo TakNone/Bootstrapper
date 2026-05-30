@@ -31,14 +31,14 @@ updateShort#78d4dec1 update:Update date:int = Updates;
 $updates = $client->updateShort(
 	update : $client->updateNewMessage(
 		message : $client->messageEmpty(
-			id : 66,
+			id : 94,
 			peer_id : $client->peerUser(
-				user_id : -2756357346549023285,
+				user_id : -3616163392701851474,
 			),
 		),
-		pts : 6,
-		pts_count : 56,
+		pts : 74,
+		pts_count : 61,
 	),
-	date : 94,
+	date : 17,
 );
 ```

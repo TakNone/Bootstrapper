@@ -28,6 +28,6 @@ starGiftAttributeIdBackdrop#1f01c757 backdrop_id:int = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdBackdrop(
-	backdrop_id : 55,
+	backdrop_id : 10,
 );
 ```

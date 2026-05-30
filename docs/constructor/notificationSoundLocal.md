@@ -29,7 +29,7 @@ notificationSoundLocal#830b9ae4 title:string data:string = NotificationSound;
 
 ```php
 $notificationSound = $client->notificationSoundLocal(
-	title : 'PCNnrbh8VmeFxYJ0',
-	data : 'ELouTP1zb7eOGWxH',
+	title : 'ACiqnvBGwTfko4EI',
+	data : 'XMvkuHUoKzJ10iGA',
 );
 ```

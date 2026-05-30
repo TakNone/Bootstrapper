@@ -38,6 +38,6 @@ payments.fulfillStarsSubscription#cc5bebb3 peer:InputPeer subscription_id:string
 ```php
 $bool = $client->payments->fulfillStarsSubscription(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	subscription_id : 'k7cG9VaZQWmU8F5K',
+	subscription_id : '9pG4JF3qTbDXURzL',
 );
 ```

@@ -47,20 +47,20 @@ $paymentsResaleStarGifts = $client->payments->getResaleStarGifts(
 	sort_by_price : true,
 	sort_by_num : true,
 	for_craft : true,
-	attributes_hash : -1738700958318527950,
-	gift_id : -6497626656399441688,
+	attributes_hash : 5318265785047020615,
+	gift_id : 5487493005062557305,
 	attributes : array(
 		$client->starGiftAttributeIdModel(
-			document_id : -5552038783732261226,
+			document_id : -6020544419889086061,
 		),
 		$client->starGiftAttributeIdPattern(
-			document_id : -5077100507093443879,
+			document_id : -3333566341026663209,
 		),
 		$client->starGiftAttributeIdBackdrop(
-			backdrop_id : 94,
+			backdrop_id : 36,
 		),
 	),
-	offset : 'uhnw810OEPiakeDZ',
-	limit : 77,
+	offset : 'agYvPq8rFk24SenU',
+	limit : 23,
 );
 ```

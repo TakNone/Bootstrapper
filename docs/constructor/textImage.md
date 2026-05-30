@@ -30,8 +30,8 @@ textImage#81ccf4f document_id:long w:int h:int = RichText;
 
 ```php
 $richText = $client->textImage(
-	document_id : -9106968577242714667,
-	w : 68,
-	h : 99,
+	document_id : 971730614869820715,
+	w : 65,
+	h : 10,
 );
 ```

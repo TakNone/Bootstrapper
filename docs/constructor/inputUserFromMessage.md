@@ -31,7 +31,7 @@ inputUserFromMessage#1da448e2 peer:InputPeer msg_id:int user_id:long = InputUser
 ```php
 $inputUser = $client->inputUserFromMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 65,
-	user_id : -8069952372684255857,
+	msg_id : 100,
+	user_id : -8435366738170730586,
 );
 ```

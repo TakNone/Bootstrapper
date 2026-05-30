@@ -45,6 +45,6 @@ $bool = $client->bots->setCustomVerification(
 	enabled : true,
 	bot : $client->get_input_user(user : '@TakNone'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	custom_description : 'YHnOa5FeGmyDoJS4',
+	custom_description : 'OjN2ixTvzVwEApXm',
 );
 ```

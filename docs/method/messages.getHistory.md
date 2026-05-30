@@ -53,10 +53,10 @@ $messagesMessages = $client->messages->getHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 68,
-	limit : 9,
-	max_id : 100,
-	min_id : 60,
+	add_offset : 99,
+	limit : 5,
+	max_id : 11,
+	min_id : 48,
 	hash : 0,
 );
 ```

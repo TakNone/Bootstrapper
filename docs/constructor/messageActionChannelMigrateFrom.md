@@ -29,7 +29,7 @@ messageActionChannelMigrateFrom#ea3948e9 title:string chat_id:long = MessageActi
 
 ```php
 $messageAction = $client->messageActionChannelMigrateFrom(
-	title : 'YitxaXyM3z0TcO9F',
-	chat_id : 5761418808921078997,
+	title : 'OMCZj9yv5HEzfXYi',
+	chat_id : 7872748854165560252,
 );
 ```

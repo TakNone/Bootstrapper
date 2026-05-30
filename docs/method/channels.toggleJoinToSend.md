@@ -41,6 +41,6 @@ channels.toggleJoinToSend#e4cb9580 channel:InputChannel enabled:Bool = Updates;
 ```php
 $updates = $client->channels->toggleJoinToSend(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	enabled : false,
+	enabled : true,
 );
 ```

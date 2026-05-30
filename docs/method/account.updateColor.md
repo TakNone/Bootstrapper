@@ -42,8 +42,8 @@ account.updateColor#684d214e flags:# for_profile:flags.1?true color:flags.2?Peer
 $bool = $client->account->updateColor(
 	for_profile : true,
 	color : $client->peerColor(
-		color : 73,
-		background_emoji_id : 1292669172309524485,
+		color : 74,
+		background_emoji_id : -708288260679313373,
 	),
 );
 ```

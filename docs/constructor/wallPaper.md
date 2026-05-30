@@ -37,26 +37,26 @@ wallPaper#a437c3ed id:long flags:# creator:flags.0?true default:flags.1?true pat
 
 ```php
 $wallPaper = $client->wallPaper(
-	id : -1569106891198026991,
+	id : 5586595058582587314,
 	creator : true,
 	default : true,
 	pattern : true,
 	dark : true,
-	access_hash : 5483292884348693226,
-	slug : 'uxKr7NLeGObTlj9B',
+	access_hash : -3254625231010731936,
+	slug : 'QVF94N2kO6fngbJe',
 	document : $client->documentEmpty(
-		id : -6747819706701629325,
+		id : 6533372388217188555,
 	),
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 89,
-		second_background_color : 3,
-		third_background_color : 35,
-		fourth_background_color : 11,
-		intensity : 40,
-		rotation : 2,
-		emoticon : 'DlNu09LYF41OoMXr',
+		background_color : 46,
+		second_background_color : 46,
+		third_background_color : 11,
+		fourth_background_color : 34,
+		intensity : 84,
+		rotation : 10,
+		emoticon : 'Ll5WMHKAtQOxiCFJ',
 	),
 );
 ```

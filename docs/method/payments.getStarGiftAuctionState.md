@@ -28,8 +28,8 @@ payments.getStarGiftAuctionState#5c9ff4d6 auction:InputStarGiftAuction version:i
 ```php
 $paymentsStarGiftAuctionState = $client->payments->getStarGiftAuctionState(
 	auction : $client->inputStarGiftAuction(
-		gift_id : -3420110167891855734,
+		gift_id : -9107642801849167108,
 	),
-	version : 9,
+	version : 70,
 );
 ```

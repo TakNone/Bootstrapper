@@ -52,10 +52,10 @@ messages.editExportedChatInvite#bdca2f75 flags:# revoked:flags.2?true peer:Input
 $messagesExportedChatInvite = $client->messages->editExportedChatInvite(
 	revoked : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	link : 'vSW5mzf7xKHyGOlg',
-	expire_date : 28,
-	usage_limit : 23,
+	link : 'TntudlKNEQprGehz',
+	expire_date : 39,
+	usage_limit : 81,
 	request_needed : true,
-	title : 'DnOXWLaAimTzocxy',
+	title : 'D0jsPCO9Rir1oyBv',
 );
 ```

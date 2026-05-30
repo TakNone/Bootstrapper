@@ -28,6 +28,6 @@ textPlain#744694e0 text:string = RichText;
 
 ```php
 $richText = $client->textPlain(
-	text : 'TJe1hOsyGtwogzB0',
+	text : 'ETaBRqUNo6FgGK5Y',
 );
 ```

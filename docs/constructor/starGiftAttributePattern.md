@@ -30,12 +30,12 @@ starGiftAttributePattern#4e7085ea name:string document:Document rarity:StarGiftA
 
 ```php
 $starGiftAttribute = $client->starGiftAttributePattern(
-	name : 'duP7emhjML4Zf8zq',
+	name : 'fgxlhizuFZ09754C',
 	document : $client->documentEmpty(
-		id : -4411537391392870566,
+		id : 3550210372222250126,
 	),
 	rarity : $client->starGiftAttributeRarity(
-		permille : 12,
+		permille : 93,
 	),
 );
 ```

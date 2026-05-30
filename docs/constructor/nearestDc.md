@@ -30,8 +30,8 @@ nearestDc#8e1a1775 country:string this_dc:int nearest_dc:int = NearestDc;
 
 ```php
 $nearestDc = $client->nearestDc(
-	country : 'D530cx4IoYFZgRUs',
-	this_dc : 54,
-	nearest_dc : 20,
+	country : 'jcBb7nPg9xoFNEHM',
+	this_dc : 64,
+	nearest_dc : 35,
 );
 ```

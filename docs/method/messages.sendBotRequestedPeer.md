@@ -41,8 +41,8 @@ messages.sendBotRequestedPeer#91b2d060 peer:InputPeer msg_id:int button_id:int r
 ```php
 $updates = $client->messages->sendBotRequestedPeer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 11,
-	button_id : 82,
+	msg_id : 66,
+	button_id : 70,
 	requested_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

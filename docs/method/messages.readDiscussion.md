@@ -41,7 +41,7 @@ messages.readDiscussion#f731a9f4 peer:InputPeer msg_id:int read_max_id:int = Boo
 ```php
 $bool = $client->messages->readDiscussion(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 100,
-	read_max_id : 81,
+	msg_id : 58,
+	read_max_id : 77,
 );
 ```

@@ -35,9 +35,9 @@ $keyboardButton = $client->keyboardButtonRequestPoll(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -7421173567107597236,
+		icon : -3479927019561814765,
 	),
 	quiz : true,
-	text : 'mCXWrO1ia0HFvML7',
+	text : 'g2EjRndV6SlCNwUm',
 );
 ```

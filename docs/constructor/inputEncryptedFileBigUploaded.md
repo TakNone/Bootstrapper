@@ -30,8 +30,8 @@ inputEncryptedFileBigUploaded#2dc173c8 id:long parts:int key_fingerprint:int = I
 
 ```php
 $inputEncryptedFile = $client->inputEncryptedFileBigUploaded(
-	id : -3259591797657255620,
-	parts : 82,
-	key_fingerprint : 20,
+	id : -3083395446893426642,
+	parts : 62,
+	key_fingerprint : 1,
 );
 ```

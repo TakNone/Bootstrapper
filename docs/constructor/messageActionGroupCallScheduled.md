@@ -30,9 +30,9 @@ messageActionGroupCallScheduled#b3a07661 call:InputGroupCall schedule_date:int =
 ```php
 $messageAction = $client->messageActionGroupCallScheduled(
 	call : $client->inputGroupCall(
-		id : -1901442297201604858,
-		access_hash : -2400660861732203980,
+		id : 1357195571288705202,
+		access_hash : 5697633299761582690,
 	),
-	schedule_date : 15,
+	schedule_date : 20,
 );
 ```

@@ -27,7 +27,7 @@ starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice
 
 ```php
 $starGiftUpgradePrice = $client->starGiftUpgradePrice(
-	date : 45,
-	upgrade_stars : -6080215537525997136,
+	date : 47,
+	upgrade_stars : 862651026140254709,
 );
 ```

@@ -30,7 +30,7 @@ inputEmojiStatusCollectible#7141dbf flags:# collectible_id:long until:flags.0?in
 
 ```php
 $emojiStatus = $client->inputEmojiStatusCollectible(
-	collectible_id : -4640870697895714442,
-	until : 15,
+	collectible_id : 345142122753620541,
+	until : 42,
 );
 ```

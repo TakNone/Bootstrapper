@@ -46,10 +46,10 @@ chatlists.editExportedInvite#653db63d flags:# chatlist:InputChatlist slug:string
 ```php
 $exportedChatlistInvite = $client->chatlists->editExportedInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 18,
+		filter_id : 73,
 	),
-	slug : 'jNz70pogFXQyVBmt',
-	title : 'Ix0iSd2HCmT6auEk',
+	slug : 'zKJd8ZY9noaxy7Cl',
+	title : 'vkKxYCDQNdc4oBGO',
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

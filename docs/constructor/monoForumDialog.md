@@ -40,15 +40,15 @@ $savedDialog = $client->monoForumDialog(
 	unread_mark : true,
 	nopaid_messages_exception : true,
 	peer : $client->peerUser(
-		user_id : 4571708126185742700,
+		user_id : -4804072447025400068,
 	),
-	top_message : 6,
-	read_inbox_max_id : 84,
-	read_outbox_max_id : 65,
-	unread_count : 38,
-	unread_reactions_count : 43,
+	top_message : 42,
+	read_inbox_max_id : 78,
+	read_outbox_max_id : 24,
+	unread_count : 59,
+	unread_reactions_count : 74,
 	draft : $client->draftMessageEmpty(
-		date : 11,
+		date : 34,
 	),
 );
 ```

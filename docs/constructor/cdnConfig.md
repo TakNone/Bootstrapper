@@ -30,8 +30,8 @@ cdnConfig#5725e40a public_keys:Vector<CdnPublicKey> = CdnConfig;
 $cdnConfig = $client->cdnConfig(
 	public_keys : array(
 		$client->cdnPublicKey(
-			dc_id : 0,
-			public_key : 'tnUlN12jb7ewMJ5c',
+			dc_id : 85,
+			public_key : 'Mg2cy5HvDxlCOeNp',
 		),
 	),
 );

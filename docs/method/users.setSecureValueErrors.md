@@ -45,48 +45,48 @@ $bool = $client->users->setSecureValueErrors(
 		$client->secureValueErrorData(
 			type : $client->secureValueTypePersonalDetails(),
 			data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			field : 'L6jqzpnd532M4SlG',
-			text : 'HbAL4S7cXR8yThd0',
+			field : 'kDMnYBdxrjivJoFN',
+			text : 'qbN0ixpar7jtEGWR',
 		),
 		$client->secureValueErrorFrontSide(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'maBt86ygRSTHupfV',
+			text : 'z9Hbf4S0BUXxqACP',
 		),
 		$client->secureValueErrorReverseSide(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'ZMKYvflTbmuQHBI8',
+			text : 'on8Us93DdjBSArbR',
 		),
 		$client->secureValueErrorSelfie(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'x6HPhj4A7kS9sUN0',
+			text : 'MT0jItr6saGK43RA',
 		),
 		$client->secureValueErrorFile(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : '9XV4iGHD6sh8SwfC',
+			text : 'sJqmKF7WiBRP4Edb',
 		),
 		$client->secureValueErrorFiles(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-			text : 'wjJ5X3FLHBgoUN7C',
+			text : 'BQ6eZtEbzXLSs4F7',
 		),
 		$client->secureValueError(
 			type : $client->secureValueTypePersonalDetails(),
 			hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'wiOfjsuE5p2X1NrF',
+			text : 'z2mkysrRcMN6Ut18',
 		),
 		$client->secureValueErrorTranslationFile(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'tfox2vA89CnHz5WM',
+			text : 'zuNH3Lj520WEAwsF',
 		),
 		$client->secureValueErrorTranslationFiles(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-			text : 'tpHzchBfXQmUVvAO',
+			text : 'e3gFYQT1WxMpbiwz',
 		),
 	),
 );

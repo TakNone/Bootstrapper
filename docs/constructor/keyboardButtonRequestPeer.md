@@ -37,14 +37,14 @@ $keyboardButton = $client->keyboardButtonRequestPeer(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -8547277907291812380,
+		icon : 8706342543713548372,
 	),
-	text : 'GiwAHPmLylJIcQx2',
-	button_id : 40,
+	text : 'hTWDYwRA9n4Qu0vi',
+	button_id : 12,
 	peer_type : $client->requestPeerTypeUser(
 		bot : false,
 		premium : false,
 	),
-	max_quantity : 47,
+	max_quantity : 24,
 );
 ```

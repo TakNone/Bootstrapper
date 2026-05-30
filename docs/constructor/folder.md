@@ -37,8 +37,8 @@ $folder = $client->folder(
 	autofill_new_broadcasts : true,
 	autofill_public_groups : true,
 	autofill_new_correspondents : true,
-	id : 57,
-	title : '43gNauiKMVsLIoRc',
+	id : 8,
+	title : '9g1ksvLZSj3ie54U',
 	photo : $client->chatPhotoEmpty(),
 );
 ```

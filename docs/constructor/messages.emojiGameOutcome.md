@@ -29,7 +29,7 @@ messages.emojiGameOutcome#da2ad647 seed:bytes stake_ton_amount:long ton_amount:l
 ```php
 $messagesEmojiGameOutcome = $client->messages->emojiGameOutcome(
 	seed : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	stake_ton_amount : -3822468489931334281,
-	ton_amount : -4087387446567123147,
+	stake_ton_amount : 6956153314103484820,
+	ton_amount : 6646958648479726249,
 );
 ```

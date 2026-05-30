@@ -30,8 +30,8 @@ starGiftAttributeCounter#2eb1b658 attribute:StarGiftAttributeId count:int = Star
 ```php
 $starGiftAttributeCounter = $client->starGiftAttributeCounter(
 	attribute : $client->starGiftAttributeIdModel(
-		document_id : 6812418125124211139,
+		document_id : 3549156429586482271,
 	),
-	count : 74,
+	count : 24,
 );
 ```

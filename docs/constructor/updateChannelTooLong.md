@@ -31,7 +31,7 @@ updateChannelTooLong#108d941f flags:# channel_id:long pts:flags.0?int = Update;
 
 ```php
 $update = $client->updateChannelTooLong(
-	channel_id : -4063805357389793225,
-	pts : 28,
+	channel_id : -2945319623176205316,
+	pts : 1,
 );
 ```

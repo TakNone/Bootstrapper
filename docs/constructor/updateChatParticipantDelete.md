@@ -30,8 +30,8 @@ updateChatParticipantDelete#e32f3d77 chat_id:long user_id:long version:int = Upd
 
 ```php
 $update = $client->updateChatParticipantDelete(
-	chat_id : 5666297101156529021,
-	user_id : -112779856175881174,
-	version : 85,
+	chat_id : -5212298324840252760,
+	user_id : -2346151362247194822,
+	version : 20,
 );
 ```

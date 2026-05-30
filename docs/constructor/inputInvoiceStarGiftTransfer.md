@@ -30,7 +30,7 @@ inputInvoiceStarGiftTransfer#4a5f5bd9 stargift:InputSavedStarGift to_id:InputPee
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftTransfer(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 47,
+		msg_id : 82,
 	),
 	to_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

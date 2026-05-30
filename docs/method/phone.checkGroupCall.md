@@ -40,9 +40,9 @@ phone.checkGroupCall#b59cf977 call:InputGroupCall sources:Vector<int> = Vector<i
 ```php
 $int = $client->phone->checkGroupCall(
 	call : $client->inputGroupCall(
-		id : -8220453418586345533,
-		access_hash : 1771011770240285202,
+		id : 4462807927378991578,
+		access_hash : -7881292460721794580,
 	),
-	sources : array(95),
+	sources : array(70),
 );
 ```

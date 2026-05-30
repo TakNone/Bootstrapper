@@ -29,7 +29,7 @@ inputUser#f21158c6 user_id:long access_hash:long = InputUser;
 
 ```php
 $inputUser = $client->inputUser(
-	user_id : -7851031017323879902,
-	access_hash : 1827915366316510677,
+	user_id : 7852769117118582382,
+	access_hash : -47840820448471832,
 );
 ```

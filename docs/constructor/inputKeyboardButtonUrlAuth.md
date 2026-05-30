@@ -39,10 +39,10 @@ $keyboardButton = $client->inputKeyboardButtonUrlAuth(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 121422998232573245,
+		icon : -4609298927632775723,
 	),
-	text : '4rPAhbVcj7XDNuYe',
-	fwd_text : 'gBhG5pvZeP38toLY',
+	text : '3tNAsH5FoUaJK8Pk',
+	fwd_text : 'DqREh2v19XBgWrdS',
 	url : 'https://docs.liveproto.dev',
 	bot : $client->get_input_user(user : '@TakNone'),
 );

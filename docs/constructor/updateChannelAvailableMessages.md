@@ -29,7 +29,7 @@ updateChannelAvailableMessages#b23fc698 channel_id:long available_min_id:int = U
 
 ```php
 $update = $client->updateChannelAvailableMessages(
-	channel_id : -3462724004017968145,
-	available_min_id : 97,
+	channel_id : -854031873516518147,
+	available_min_id : 65,
 );
 ```

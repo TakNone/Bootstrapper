@@ -30,9 +30,9 @@ help.saveAppLog#6f02f748 events:Vector<InputAppEvent> = Bool;
 $bool = $client->help->saveAppLog(
 	events : array(
 		$client->inputAppEvent(
-			time : 1489200.80859375,
-			type : 'HAaoVrntZwmEUI85',
-			peer : 2730918399146820889,
+			time : -660710.6318359375,
+			type : 'GTEozw6j3QksJiNF',
+			peer : -8528819535160605542,
 			data : $client->jsonNull(),
 		),
 	),

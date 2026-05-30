@@ -38,9 +38,9 @@ upload.getFileHashes#9156982a location:InputFileLocation offset:long = Vector<Fi
 ```php
 $fileHash = $client->upload->getFileHashes(
 	location : $client->inputFileLocation(
-		volume_id : -3180854535714030175,
-		local_id : 59,
-		secret : 6609037018060588862,
+		volume_id : 182882342294901408,
+		local_id : 96,
+		secret : 5973811539195662849,
 		file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	offset : 0,

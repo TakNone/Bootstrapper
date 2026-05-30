@@ -30,8 +30,8 @@ bots.botInfo#e8a775b0 name:string about:string description:string = bots.BotInfo
 
 ```php
 $botsBotInfo = $client->bots->botInfo(
-	name : 'oKSxswVHEk5rYimz',
-	about : 'rs4zAmql0X6d5Ixf',
-	description : 'grs8OJ3wLaR70ISD',
+	name : 'e4C0fdvb61KIpJBl',
+	about : 'FNn4sJO7QDf5MRXZ',
+	description : 'cjgCdwnRIG3x1EfX',
 );
 ```

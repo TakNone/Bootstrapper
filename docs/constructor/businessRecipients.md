@@ -39,6 +39,6 @@ $businessRecipients = $client->businessRecipients(
 	contacts : true,
 	non_contacts : true,
 	exclude_selected : true,
-	users : array(5087403096725650791),
+	users : array(6026447888312680193),
 );
 ```

@@ -28,6 +28,6 @@ messages.checkedHistoryImportPeer#a24de717 confirm_text:string = messages.Checke
 
 ```php
 $messagesCheckedHistoryImportPeer = $client->messages->checkedHistoryImportPeer(
-	confirm_text : 'tCknVUezPcSAim6a',
+	confirm_text : 'LzZcQjhqwPotyWbk',
 );
 ```

@@ -31,11 +31,11 @@ messageActionGeoProximityReached#98e0d697 from_id:Peer to_id:Peer distance:int =
 ```php
 $messageAction = $client->messageActionGeoProximityReached(
 	from_id : $client->peerUser(
-		user_id : 7999435273066117306,
+		user_id : -5631322446760885044,
 	),
 	to_id : $client->peerUser(
-		user_id : -4434506860516362715,
+		user_id : 5436113893610813790,
 	),
-	distance : 25,
+	distance : 71,
 );
 ```

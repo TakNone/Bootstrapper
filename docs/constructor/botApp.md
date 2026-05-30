@@ -36,16 +36,16 @@ botApp#95fcd1d6 flags:# id:long access_hash:long short_name:string title:string 
 
 ```php
 $botApp = $client->botApp(
-	id : 2343291217320386739,
-	access_hash : 2907643719896235751,
-	short_name : 'fzkRY3arQN7pjqsJ',
-	title : 'uTMB5nA4OqwR8cKk',
-	description : 'sB1HRKtfaqlDn3mV',
+	id : 1372763920268555851,
+	access_hash : -3131234242034513271,
+	short_name : 'Tl4Xh3crRwpa0mAD',
+	title : 'Xr73Ks801pOLEBCk',
+	description : '6hHPdT7YZQViUrGR',
 	photo : $client->photoEmpty(
-		id : -765032813246324960,
+		id : 5577475695720827552,
 	),
 	document : $client->documentEmpty(
-		id : 1686644977989269540,
+		id : -8207899360744483867,
 	),
 	hash : 0,
 );

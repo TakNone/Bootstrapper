@@ -42,9 +42,9 @@ auth.bindTempAuthKey#cdd42a05 perm_auth_key_id:long nonce:long expires_at:int en
 
 ```php
 $bool = $client->auth->bindTempAuthKey(
-	perm_auth_key_id : 7704188917088022001,
-	nonce : -6973140662702471208,
-	expires_at : 34,
+	perm_auth_key_id : -4329363461505334578,
+	nonce : -7530626885309700860,
+	expires_at : 39,
 	encrypted_message : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

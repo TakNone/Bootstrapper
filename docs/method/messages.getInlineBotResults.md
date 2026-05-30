@@ -51,7 +51,7 @@ $messagesBotResults = $client->messages->getInlineBotResults(
 	bot : $client->get_input_user(user : '@TakNone'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	geo_point : $client->inputGeoPointEmpty(),
-	query : 'fZOCLuU6STn29gpK',
-	offset : 'faVXdNnWQ2YeGsi5',
+	query : 'Hn51EJQRiGyxFLM9',
+	offset : 'c9wSnmkLM0VOCxQr',
 );
 ```

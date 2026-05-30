@@ -28,6 +28,6 @@ peerChannel#a2a5371e channel_id:long = Peer;
 
 ```php
 $peer = $client->peerChannel(
-	channel_id : -7096286462324775350,
+	channel_id : -7381972465735303108,
 );
 ```

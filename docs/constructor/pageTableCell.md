@@ -42,7 +42,7 @@ $pageTableCell = $client->pageTableCell(
 	valign_middle : true,
 	valign_bottom : true,
 	text : $client->textEmpty(),
-	colspan : 90,
-	rowspan : 29,
+	colspan : 28,
+	rowspan : 5,
 );
 ```

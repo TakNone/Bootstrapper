@@ -38,7 +38,7 @@ chatlists.getLeaveChatlistSuggestions#fdbcd714 chatlist:InputChatlist = Vector<P
 ```php
 $peer = $client->chatlists->getLeaveChatlistSuggestions(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 73,
+		filter_id : 36,
 	),
 );
 ```

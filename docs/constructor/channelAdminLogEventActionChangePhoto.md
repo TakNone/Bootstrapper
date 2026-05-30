@@ -30,10 +30,10 @@ channelAdminLogEventActionChangePhoto#434bd2af prev_photo:Photo new_photo:Photo 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangePhoto(
 	prev_photo : $client->photoEmpty(
-		id : -7645217369831247839,
+		id : -4088954710730384631,
 	),
 	new_photo : $client->photoEmpty(
-		id : 282945971720532157,
+		id : -2128940103679978206,
 	),
 );
 ```

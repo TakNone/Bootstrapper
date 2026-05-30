@@ -43,6 +43,6 @@ account.updateProfile#78515775 flags:# first_name:flags.0?string last_name:flags
 $user = $client->account->updateProfile(
 	first_name : 'Tak',
 	last_name : 'None',
-	about : 'ueIErvfxM4cRozy8',
+	about : 'C8Ye5UJcqAaWB1Iy',
 );
 ```

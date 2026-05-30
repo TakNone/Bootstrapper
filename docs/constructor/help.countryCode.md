@@ -31,8 +31,8 @@ help.countryCode#4203c5ef flags:# country_code:string prefixes:flags.0?Vector<st
 
 ```php
 $helpCountryCode = $client->help->countryCode(
-	country_code : '8loGxEYkeqPShQC9',
-	prefixes : array('KeQILoblxd0J8AMu'),
-	patterns : array('G8lJfI4wCQrzRmKP'),
+	country_code : 'nFEuLqhDI64Ox5Tb',
+	prefixes : array('jJ2xwPWtVfa1Cl3X'),
+	patterns : array('Qfm6JokVvNg7lZAc'),
 );
 ```

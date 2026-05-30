@@ -43,6 +43,6 @@ messages.getExportedChatInvite#73746f5c peer:InputPeer link:string = messages.Ex
 ```php
 $messagesExportedChatInvite = $client->messages->getExportedChatInvite(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	link : 'GlRJLyxE0AMQHuBi',
+	link : '6zmoluP0AqbrXQ2B',
 );
 ```

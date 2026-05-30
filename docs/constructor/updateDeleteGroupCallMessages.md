@@ -28,9 +28,9 @@ updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> 
 ```php
 $update = $client->updateDeleteGroupCallMessages(
 	call : $client->inputGroupCall(
-		id : -4389396221078456049,
-		access_hash : 4847659306741627252,
+		id : 2107293351177704408,
+		access_hash : -2856738450345928143,
 	),
-	messages : array(11),
+	messages : array(99),
 );
 ```

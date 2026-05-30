@@ -29,6 +29,6 @@ auth.sentCodeTypeSmsWord#a416ac81 flags:# beginning:flags.0?string = auth.SentCo
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeSmsWord(
-	beginning : 'Sujb7Blkx6NfVMhW',
+	beginning : 'W26CMNxUXuY7Pod0',
 );
 ```

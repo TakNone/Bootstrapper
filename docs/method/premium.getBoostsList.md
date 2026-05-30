@@ -43,7 +43,7 @@ premium.getBoostsList#60f67660 flags:# gifts:flags.0?true peer:InputPeer offset:
 $premiumBoostsList = $client->premium->getBoostsList(
 	gifts : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'Rr8siheUaG9A0mdI',
-	limit : 55,
+	offset : 'tjXefoNCgETy97J8',
+	limit : 66,
 );
 ```

@@ -33,12 +33,12 @@ $update = $client->updateFolderPeers(
 	folder_peers : array(
 		$client->folderPeer(
 			peer : $client->peerUser(
-				user_id : -158644542328188284,
+				user_id : 322554164836845499,
 			),
-			folder_id : 89,
+			folder_id : 5,
 		),
 	),
-	pts : 46,
-	pts_count : 90,
+	pts : 21,
+	pts_count : 17,
 );
 ```

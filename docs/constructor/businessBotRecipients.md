@@ -40,7 +40,7 @@ $businessBotRecipients = $client->businessBotRecipients(
 	contacts : true,
 	non_contacts : true,
 	exclude_selected : true,
-	users : array(2442602791694417459),
-	exclude_users : array(-5650783127936949989),
+	users : array(4011320189112368757),
+	exclude_users : array(883809022686638545),
 );
 ```

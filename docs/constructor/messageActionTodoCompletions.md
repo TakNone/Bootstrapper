@@ -29,7 +29,7 @@ messageActionTodoCompletions#cc7c5c89 completed:Vector<int> incompleted:Vector<i
 
 ```php
 $messageAction = $client->messageActionTodoCompletions(
-	completed : array(27),
-	incompleted : array(65),
+	completed : array(4),
+	incompleted : array(29),
 );
 ```

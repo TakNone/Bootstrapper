@@ -33,14 +33,14 @@ updateBotInlineSend#12f12a07 flags:# user_id:long query:string geo:flags.0?GeoPo
 
 ```php
 $update = $client->updateBotInlineSend(
-	user_id : 6679536264286514211,
-	query : 'rZAdsSMFPna6BVpK',
+	user_id : -5715587239754704278,
+	query : 'QtHKuqApYo3640Nb',
 	geo : $client->geoPointEmpty(),
-	id : 'i8Y7n3vHCEulodqK',
+	id : 'Y8NML7CrAQpmWdi5',
 	msg_id : $client->inputBotInlineMessageID(
-		dc_id : 69,
-		id : -4673408271468746168,
-		access_hash : -3885203609453831284,
+		dc_id : 16,
+		id : 3686074962125571432,
+		access_hash : 5565013404081372587,
 	),
 );
 ```

@@ -29,7 +29,7 @@ messageActionGameScore#92a72876 game_id:long score:int = MessageAction;
 
 ```php
 $messageAction = $client->messageActionGameScore(
-	game_id : -5305406975510400609,
-	score : 82,
+	game_id : 8741210448146211464,
+	score : 43,
 );
 ```

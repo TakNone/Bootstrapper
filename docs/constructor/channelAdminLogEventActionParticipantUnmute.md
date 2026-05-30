@@ -40,37 +40,37 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantUnmu
 		self : true,
 		video_joined : true,
 		peer : $client->peerUser(
-			user_id : -5358655220566012853,
+			user_id : 5915320349963256234,
 		),
-		date : 41,
-		active_date : 36,
-		source : 15,
-		volume : 25,
-		about : 'jQgniSG0FZAmtCxO',
-		raise_hand_rating : -2133885414255468140,
+		date : 43,
+		active_date : 37,
+		source : 11,
+		volume : 17,
+		about : 'RCWTOjYebUxkudVS',
+		raise_hand_rating : 1807721063172623694,
 		video : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : 'CKeRFPV4Hk2pjX9N',
+			endpoint : 'upjaQFBWc5IhqOLs',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(
-					semantics : 'KkZ2rAO3ULRPzSNt',
-					sources : array(93),
+					semantics : 'M4vonti2FTqVRBNe',
+					sources : array(4),
 				),
 			),
-			audio_source : 15,
+			audio_source : 52,
 		),
 		presentation : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : 'YPfVh0wDigv4pCct',
+			endpoint : 'heJMVzYrWD7QvoIf',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(
-					semantics : 'dB2jFQNZy4k0VU7E',
-					sources : array(83),
+					semantics : 'iaenMdNmf7wFT4E1',
+					sources : array(19),
 				),
 			),
-			audio_source : 10,
+			audio_source : 81,
 		),
-		paid_stars_total : -6419093636867760405,
+		paid_stars_total : -2605202390574526830,
 	),
 );
 ```

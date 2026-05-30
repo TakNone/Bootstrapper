@@ -37,7 +37,7 @@ help.acceptTermsOfService#ee72f79a id:DataJSON = Bool;
 ```php
 $bool = $client->help->acceptTermsOfService(
 	id : $client->dataJSON(
-		data : 'Xe1jRW2G7SbvDmig',
+		data : 'PomDgQ2iT1h5UIYt',
 	),
 );
 ```

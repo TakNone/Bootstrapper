@@ -37,7 +37,7 @@ $requestPeerType = $client->requestPeerTypeChat(
 	creator : true,
 	bot_participant : true,
 	has_username : false,
-	forum : false,
+	forum : true,
 	user_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,

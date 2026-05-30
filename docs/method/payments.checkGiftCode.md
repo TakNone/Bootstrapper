@@ -37,6 +37,6 @@ payments.checkGiftCode#8e51b4c1 slug:string = payments.CheckedGiftCode;
 
 ```php
 $paymentsCheckedGiftCode = $client->payments->checkGiftCode(
-	slug : 'YRQ63bitw7aA5nE2',
+	slug : '3RqU9rObBam5XnNi',
 );
 ```

@@ -31,99 +31,99 @@ inputBusinessChatLink#11679fa7 flags:# message:string entities:flags.0?Vector<Me
 
 ```php
 $inputBusinessChatLink = $client->inputBusinessChatLink(
-	message : 'a89d0JX6Ie3ozKrH',
+	message : 'MRZxjQCJX9esIKuA',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 19,
+			length : 98,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 25,
+			length : 43,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 62,
+			length : 15,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 53,
+			length : 99,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 4,
+			length : 74,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 0,
+			length : 20,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 65,
+			length : 57,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 65,
+			length : 41,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 72,
+			length : 9,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 69,
-			language : 'XuoPKSda2ExgpiFN',
+			length : 58,
+			language : 'QhpgkSOFYclGjsZy',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 64,
+			length : 90,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 72,
-			user_id : 8520652068798809330,
+			length : 17,
+			user_id : 6128369699733186758,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 20,
+			length : 65,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 80,
+			length : 53,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 78,
+			length : 11,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 24,
+			length : 12,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 70,
+			length : 29,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 13,
+			length : 42,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 14,
+			length : 71,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 5,
-			document_id : -5297387169814857441,
+			length : 83,
+			document_id : -7186773421072042355,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 12,
+			length : 91,
 		),
 	),
-	title : '6ueY4JXx2qHV8fir',
+	title : 'INgX7GJr9A8RWFbf',
 );
 ```

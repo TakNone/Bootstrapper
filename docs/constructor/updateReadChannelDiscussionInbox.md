@@ -33,10 +33,10 @@ updateReadChannelDiscussionInbox#d6b19546 flags:# channel_id:long top_msg_id:int
 
 ```php
 $update = $client->updateReadChannelDiscussionInbox(
-	channel_id : -6798586630658715022,
-	top_msg_id : 38,
-	read_max_id : 30,
-	broadcast_id : 3414134893484070569,
-	broadcast_post : 65,
+	channel_id : -3354798918367251514,
+	top_msg_id : 27,
+	read_max_id : 7,
+	broadcast_id : 1503028535534844543,
+	broadcast_post : 25,
 );
 ```

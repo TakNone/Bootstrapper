@@ -30,10 +30,10 @@ storyReactionPublicRepost#cfcd0f13 peer_id:Peer story:StoryItem = StoryReaction;
 ```php
 $storyReaction = $client->storyReactionPublicRepost(
 	peer_id : $client->peerUser(
-		user_id : 7667154690930364887,
+		user_id : 4469504043393315220,
 	),
 	story : $client->storyItemDeleted(
-		id : 87,
+		id : 47,
 	),
 );
 ```

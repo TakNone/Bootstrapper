@@ -34,6 +34,6 @@ $inputMedia = $client->inputMediaContact(
 	phone_number : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
-	vcard : '5Vg8f6cDI0YhE2nB',
+	vcard : 'aAngp1erH6tfUGzh',
 );
 ```

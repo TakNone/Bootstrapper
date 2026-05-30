@@ -30,15 +30,15 @@ payments.validatedRequestedInfo#d1451883 flags:# id:flags.0?string shipping_opti
 
 ```php
 $paymentsValidatedRequestedInfo = $client->payments->validatedRequestedInfo(
-	id : 'fNOKMdVzJG6TyuPb',
+	id : 'JAEBDY7hCXQ62epI',
 	shipping_options : array(
 		$client->shippingOption(
-			id : 'G0WTR6Z5xF4LyUct',
-			title : 'LEvBJ85yACpTi7jb',
+			id : 'iLf0nk8eGCzywqOU',
+			title : '2NRSmgQfk0VwW6yP',
 			prices : array(
 				$client->labeledPrice(
-					label : 'Xeg4DTc7L8KBFlpN',
-					amount : -4213331660966601154,
+					label : '287sRZUbNOAx4uyJ',
+					amount : 7983750586485921992,
 				),
 			),
 		),

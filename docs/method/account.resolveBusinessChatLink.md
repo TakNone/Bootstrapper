@@ -37,6 +37,6 @@ account.resolveBusinessChatLink#5492e5ee slug:string = account.ResolvedBusinessC
 
 ```php
 $accountResolvedBusinessChatLinks = $client->account->resolveBusinessChatLink(
-	slug : 'xCJiWyKSjGZQ50Td',
+	slug : '7xuDL3SMT5oazpeq',
 );
 ```

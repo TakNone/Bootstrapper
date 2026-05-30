@@ -28,6 +28,6 @@ inputThemeSlug#f5890df1 slug:string = InputTheme;
 
 ```php
 $inputTheme = $client->inputThemeSlug(
-	slug : 'wXQni1H8oytYmuVk',
+	slug : '4cHC8XtwLPfORZFS',
 );
 ```

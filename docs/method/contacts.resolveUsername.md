@@ -42,6 +42,6 @@ contacts.resolveUsername#725afbbc flags:# username:string referer:flags.0?string
 ```php
 $contactsResolvedPeer = $client->contacts->resolveUsername(
 	username : 'TakNone',
-	referer : 'akGQC2LXNRbO1qhj',
+	referer : 'WaZEQDk7pH3hmxcS',
 );
 ```

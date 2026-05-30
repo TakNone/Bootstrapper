@@ -29,7 +29,7 @@ exportedMessageLink#5dab1af4 link:string html:string = ExportedMessageLink;
 
 ```php
 $exportedMessageLink = $client->exportedMessageLink(
-	link : 'LRo61T5qJw8mzavF',
-	html : 'ZN9dGQsqU4lPJSpD',
+	link : 'OTxBVLJ6ht4Yzk5o',
+	html : 'GN9iPsSbFJu5DW4t',
 );
 ```

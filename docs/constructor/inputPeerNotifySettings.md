@@ -35,12 +35,12 @@ inputPeerNotifySettings#cacb6ae2 flags:# show_previews:flags.0?Bool silent:flags
 
 ```php
 $inputPeerNotifySettings = $client->inputPeerNotifySettings(
-	show_previews : false,
+	show_previews : true,
 	silent : true,
-	mute_until : 50,
+	mute_until : 60,
 	sound : $client->notificationSoundDefault(),
 	stories_muted : false,
-	stories_hide_sender : true,
+	stories_hide_sender : false,
 	stories_sound : $client->notificationSoundDefault(),
 );
 ```

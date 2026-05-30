@@ -28,6 +28,6 @@ phone.exportedGroupCallInvite#204bd158 link:string = phone.ExportedGroupCallInvi
 
 ```php
 $phoneExportedGroupCallInvite = $client->phone->exportedGroupCallInvite(
-	link : 't2zGAWmghJ8elRac',
+	link : 'y7cv1R4hqZklea5m',
 );
 ```

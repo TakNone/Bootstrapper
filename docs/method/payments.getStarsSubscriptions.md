@@ -41,6 +41,6 @@ payments.getStarsSubscriptions#32512c5 flags:# missing_balance:flags.0?true peer
 $paymentsStarsStatus = $client->payments->getStarsSubscriptions(
 	missing_balance : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : '72JpblMsnUw8aiOj',
+	offset : 'tNyI2k3KOchP18fg',
 );
 ```

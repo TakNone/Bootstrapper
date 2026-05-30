@@ -35,12 +35,12 @@ encryptedChatRequested#48f1d94c flags:# folder_id:flags.0?int id:int access_hash
 
 ```php
 $encryptedChat = $client->encryptedChatRequested(
-	folder_id : 20,
-	id : 6,
-	access_hash : -5317495372929182141,
-	date : 52,
-	admin_id : 5316869751776754368,
-	participant_id : -6585283076737100402,
+	folder_id : 56,
+	id : 89,
+	access_hash : 6809813318519104391,
+	date : 18,
+	admin_id : 3957205770978922081,
+	participant_id : 64502794156196695,
 	g_a : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

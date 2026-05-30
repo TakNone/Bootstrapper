@@ -35,9 +35,9 @@ $keyboardButton = $client->keyboardButtonWebView(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 2427530529566006884,
+		icon : 5797571011417061668,
 	),
-	text : '26PhrWNqZj1IFYl8',
+	text : '8t4nClvq0e6YArFO',
 	url : 'https://docs.liveproto.dev',
 );
 ```

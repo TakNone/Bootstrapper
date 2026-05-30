@@ -34,8 +34,8 @@ $keyboardButton = $client->keyboardButton(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -3355431061701146761,
+		icon : 6811491088263713320,
 	),
-	text : 'FJDyAHgj3TtdLRmn',
+	text : 'TXJGojwlM1dmUWxL',
 );
 ```

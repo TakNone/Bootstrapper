@@ -33,6 +33,6 @@ $keyboardButtonStyle = $client->keyboardButtonStyle(
 	bg_primary : true,
 	bg_danger : true,
 	bg_success : true,
-	icon : 8019650839516297572,
+	icon : -26774603973424369,
 );
 ```

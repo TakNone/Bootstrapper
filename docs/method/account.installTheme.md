@@ -34,10 +34,10 @@ account.installTheme#c727bb3b flags:# dark:flags.0?true theme:flags.1?InputTheme
 $bool = $client->account->installTheme(
 	dark : true,
 	theme : $client->inputTheme(
-		id : 6387553048516762613,
-		access_hash : -6709427363035434479,
+		id : -2115319008345751509,
+		access_hash : -5934530077620840322,
 	),
-	format : 'tDXTaFjhm1is7rcg',
+	format : 'OBldIGmh1KwrbQtf',
 	base_theme : $client->baseThemeClassic(),
 );
 ```

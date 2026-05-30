@@ -29,7 +29,7 @@ botPreviewMedia#23e91ba3 date:int media:MessageMedia = BotPreviewMedia;
 
 ```php
 $botPreviewMedia = $client->botPreviewMedia(
-	date : 84,
+	date : 15,
 	media : $client->messageMediaEmpty(),
 );
 ```

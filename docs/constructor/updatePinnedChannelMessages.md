@@ -34,9 +34,9 @@ updatePinnedChannelMessages#5bb98608 flags:# pinned:flags.0?true channel_id:long
 ```php
 $update = $client->updatePinnedChannelMessages(
 	pinned : true,
-	channel_id : 647699530862234332,
-	messages : array(17),
-	pts : 34,
-	pts_count : 41,
+	channel_id : 2034248394285922494,
+	messages : array(18),
+	pts : 94,
+	pts_count : 24,
 );
 ```

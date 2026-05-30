@@ -33,8 +33,8 @@ messageMediaGeoLive#b940c666 flags:# geo:GeoPoint heading:flags.0?int period:int
 ```php
 $messageMedia = $client->messageMediaGeoLive(
 	geo : $client->geoPointEmpty(),
-	heading : 79,
-	period : 38,
-	proximity_notification_radius : 57,
+	heading : 10,
+	period : 16,
+	proximity_notification_radius : 87,
 );
 ```

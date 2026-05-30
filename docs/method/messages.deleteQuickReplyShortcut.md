@@ -37,6 +37,6 @@ messages.deleteQuickReplyShortcut#3cc04740 shortcut_id:int = Bool;
 
 ```php
 $bool = $client->messages->deleteQuickReplyShortcut(
-	shortcut_id : 88,
+	shortcut_id : 94,
 );
 ```

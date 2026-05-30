@@ -38,6 +38,6 @@ channels.setBoostsToUnblockRestrictions#ad399cee channel:InputChannel boosts:int
 ```php
 $updates = $client->channels->setBoostsToUnblockRestrictions(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	boosts : 83,
+	boosts : 14,
 );
 ```

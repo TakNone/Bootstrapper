@@ -31,9 +31,9 @@ photoSize#75c78e60 type:string w:int h:int size:int = PhotoSize;
 
 ```php
 $photoSize = $client->photoSize(
-	type : 'XQACxYTke5yLsw2p',
-	w : 87,
-	h : 12,
-	size : 9,
+	type : 'VRnoEXjcKr79IWMw',
+	w : 12,
+	h : 73,
+	size : 40,
 );
 ```

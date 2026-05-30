@@ -40,7 +40,7 @@ $messagesSavedDialogs = $client->messages->getSavedDialogs(
 	offset_date : 0,
 	offset_id : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	limit : 55,
+	limit : 52,
 	hash : 0,
 );
 ```

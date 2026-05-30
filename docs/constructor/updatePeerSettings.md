@@ -30,7 +30,7 @@ updatePeerSettings#6a7e7366 peer:Peer settings:PeerSettings = Update;
 ```php
 $update = $client->updatePeerSettings(
 	peer : $client->peerUser(
-		user_id : -4024764619097785484,
+		user_id : 2270551278225342830,
 	),
 	settings : $client->peerSettings(
 		report_spam : true,
@@ -44,16 +44,16 @@ $update = $client->updatePeerSettings(
 		request_chat_broadcast : true,
 		business_bot_paused : true,
 		business_bot_can_reply : true,
-		geo_distance : 81,
-		request_chat_title : 'Kal2hzEfgSXOkMJ7',
-		request_chat_date : 25,
-		business_bot_id : 2298079928439153877,
+		geo_distance : 44,
+		request_chat_title : 'cGsMWQ4pEZgtukjF',
+		request_chat_date : 72,
+		business_bot_id : 1418303178532945337,
 		business_bot_manage_url : 'https://docs.liveproto.dev',
-		charge_paid_message_stars : 6448695725983916966,
-		registration_month : 'R3XWhKJauZQ5SpVF',
+		charge_paid_message_stars : -8699802355564685841,
+		registration_month : 'ZPy1KkHrbs6hjCpI',
 		phone_country : '+1234567890',
-		name_change_date : 5,
-		photo_change_date : 15,
+		name_change_date : 26,
+		photo_change_date : 92,
 	),
 );
 ```

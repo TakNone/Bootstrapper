@@ -44,10 +44,10 @@ $updates = $client->phone->deleteConferenceCallParticipants(
 	only_left : true,
 	kick : true,
 	call : $client->inputGroupCall(
-		id : 6097776110924870328,
-		access_hash : -4559665507204590751,
+		id : 1860786376578406414,
+		access_hash : -8645510283497236757,
 	),
-	ids : array(8937854551474547862),
+	ids : array(6010861381907183702),
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

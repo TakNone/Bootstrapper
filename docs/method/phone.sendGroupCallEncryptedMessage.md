@@ -28,8 +28,8 @@ phone.sendGroupCallEncryptedMessage#e5afa56d call:InputGroupCall encrypted_messa
 ```php
 $bool = $client->phone->sendGroupCallEncryptedMessage(
 	call : $client->inputGroupCall(
-		id : -234761560735826638,
-		access_hash : 7148732615050702169,
+		id : 9128700985762787811,
+		access_hash : 5204355592948673194,
 	),
 	encrypted_message : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
