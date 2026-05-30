@@ -8,12 +8,10 @@ use Tak\Liveproto\Tl\Generator;
 
 use Tak\Asyncio\Loop;
 
-use function Tak\Asyncio\async;
-
 use function Tak\Asyncio\File\write;
 
 function setup(string $path) : void {
-	async(function() use($path) : void {
+	Loop::queue(function() use($path) : void {
 		$src = realpath($path).DIRECTORY_SEPARATOR.'src';
 		$tlpath = $src.DIRECTORY_SEPARATOR.'Tl';
 		putenv('TLPATH='.$tlpath);
