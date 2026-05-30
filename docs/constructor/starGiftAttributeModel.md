@@ -2,10 +2,10 @@
 
 **Description** : *The model of a collectible gift &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-starGiftAttributeModel#39d99013 name:string document:Document rarity_permille:int = StarGiftAttribute;
+starGiftAttributeModel#565251e2 flags:# crafted:flags.0?true name:string document:Document rarity:StarGiftAttributeRarity = StarGiftAttribute;
 ```
 
 ---
@@ -14,9 +14,11 @@ starGiftAttributeModel#39d99013 name:string document:Document rarity_permille:in
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **crafted** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>name</mark> | [`string`](type/string) | Name of the model |
 | <mark>document</mark> | [`Document`](type/Document) | The sticker representing the upgraded gift |
-| <mark>rarity_permille</mark> | [`int`](type/int) | The number of upgraded gifts that receive this backdrop for each 1000 gifts upgraded |
+| <mark>rarity</mark> | [`StarGiftAttributeRarity`](type/StarGiftAttributeRarity) | NOTHING |
 
 ---
 
@@ -30,10 +32,13 @@ starGiftAttributeModel#39d99013 name:string document:Document rarity_permille:in
 
 ```php
 $starGiftAttribute = $client->starGiftAttributeModel(
-	name : 'r3Nn1PhsfiQI0GkL',
+	crafted : true,
+	name : 'nYyBSChj4aZIrqGD',
 	document : $client->documentEmpty(
-		id : 5035506819075847713,
+		id : 8302356848111898638,
 	),
-	rarity_permille : 11,
+	rarity : $client->starGiftAttributeRarity(
+		permille : 86,
+	),
 );
 ```

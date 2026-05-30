@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Premium promotion information*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.premiumPromo#5334759c status_text:string status_entities:Vector<MessageEntity> video_sections:Vector<string> videos:Vector<Document> period_options:Vector<PremiumSubscriptionOption> users:Vector<User> = help.PremiumPromo;
@@ -33,19 +33,19 @@ help.premiumPromo#5334759c status_text:string status_entities:Vector<MessageEnti
 
 ```php
 $helpPremiumPromo = $client->help->premiumPromo(
-	status_text : 'fYD1qsBKjdXybFkt',
+	status_text : 'hJRlbYc8ZeGqxOiu',
 	status_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 8,
+			length : 30,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 86,
+			length : 8,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 12,
+			length : 92,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
@@ -53,19 +53,19 @@ $helpPremiumPromo = $client->help->premiumPromo(
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 61,
+			length : 5,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 74,
+			length : 62,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 46,
+			length : 82,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 43,
+			length : 1,
 		),
 		$client->messageEntityCode(
 			offset : 0,
@@ -73,164 +73,164 @@ $helpPremiumPromo = $client->help->premiumPromo(
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 100,
-			language : 'UzqvRE5DA7WjHX1G',
+			length : 92,
+			language : '8oSH0yOJjgdYe39E',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 65,
+			length : 49,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 27,
-			user_id : 5437116079093758849,
+			length : 99,
+			user_id : -3726131702901252863,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 37,
+			length : 62,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 53,
+			length : 71,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 47,
+			length : 53,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 50,
+			length : 76,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 79,
+			length : 48,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 22,
+			length : 11,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 25,
+			length : 65,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
 			length : 6,
-			document_id : 3008438778319309184,
+			document_id : 6501725709851190439,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 74,
+			length : 5,
 		),
 	),
-	video_sections : array('a1dBulNfSJo2XKrx'),
+	video_sections : array('zHwMR9OIYKW5qPEB'),
 	videos : array(
 		$client->documentEmpty(
-			id : 1294116623100437690,
+			id : 6689089804135587014,
 		),
 		$client->document(
-			id : 7739927991913936455,
-			access_hash : 1645785024012283007,
+			id : -822373551916078927,
+			access_hash : 7360498557226544036,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			date : 7,
-			mime_type : 'IGqfTZgFYSaMWH1x',
-			size : 4456591839237562740,
+			date : 10,
+			mime_type : '5y9HudCwr0af1S2R',
+			size : 7080467156485819230,
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'px2IRkUVD5E1hFj9',
+					type : 'NVXCiOIkDKRg4JL7',
 				),
 				$client->photoSize(
-					type : 'Z5edqcrGLBh7Yg0y',
-					w : 100,
-					h : 39,
-					size : 75,
+					type : 'ctFy7Rr29VohJOaW',
+					w : 96,
+					h : 22,
+					size : 74,
 				),
 				$client->photoCachedSize(
-					type : 'zkaEZ6L9lqcRwj8M',
-					w : 96,
-					h : 96,
+					type : 'uTkPRChi5slXGdax',
+					w : 84,
+					h : 16,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'YGA0UCiNBz27IWux',
+					type : '6eJqxOfEbd3okBtn',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'jQOFADv3HM51UTW4',
-					w : 2,
-					h : 75,
-					sizes : array(93),
+					type : 'y4ZLcBd8YkRC2NOH',
+					w : 17,
+					h : 9,
+					sizes : array(8),
 				),
 				$client->photoPathSize(
-					type : 'lcxp1UF8rnYtWACa',
+					type : 'Jdnm4e9hQXAUZxE1',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_thumbs : array(
 				$client->videoSize(
-					type : '3IRg8jZokEmlXvbf',
-					w : 38,
-					h : 14,
-					size : 5,
-					video_start_ts : -433287.04296875,
+					type : 'MFeuUyR4omwthsC9',
+					w : 99,
+					h : 98,
+					size : 17,
+					video_start_ts : -1170115.6767578125,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : -6845555315368640544,
-					background_colors : array(60),
+					emoji_id : 3759734104847640817,
+					background_colors : array(79),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(),
-					sticker_id : -6871320621635330322,
-					background_colors : array(76),
+					sticker_id : -2484180380111839495,
+					background_colors : array(68),
 				),
 			),
-			dc_id : 53,
+			dc_id : 76,
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 25,
-					h : 72,
+					w : 48,
+					h : 65,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'dx52HeYl9qVL1krJ',
+					alt : 'KVJe19Pc5nyFHmWG',
 					stickerset : $client->inputStickerSetEmpty(),
 					mask_coords : $client->maskCoords(
-						n : 79,
-						x : 992553.1591796875,
-						y : -1905693.4150390625,
-						zoom : -2043382.0068359375,
+						n : 71,
+						x : 1497378.5126953125,
+						y : -1321053.8564453125,
+						zoom : -321268.091796875,
 					),
 				),
 				$client->documentAttributeVideo(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : -303420.119140625,
-					w : 60,
-					h : 21,
-					preload_prefix_size : 42,
-					video_start_ts : 166869.078125,
-					video_codec : 'n41qojIGvJ52Cark',
+					duration : -715238.9716796875,
+					w : 99,
+					h : 68,
+					preload_prefix_size : 78,
+					video_start_ts : 1462985.9541015625,
+					video_codec : 'GaJbYwhos3C0nKOm',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 48,
-					title : 'qHVpAYkQvI46jLWi',
-					performer : 'PbAoOcQEBI1UuHY4',
+					duration : 49,
+					title : 'hBAIYOdZtMR6CjKb',
+					performer : '0p9BnCyMh5NDw1bW',
 					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'WFC1UEBIcMxHRmAX',
+					file_name : 'IJarBCujQkKR9Ni0',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'vNbioqhL7Z4cJ19C',
+					alt : 'Arw6PMQSiU3smD1o',
 					stickerset : $client->inputStickerSetEmpty(),
 				),
 			),
@@ -240,17 +240,17 @@ $helpPremiumPromo = $client->help->premiumPromo(
 		$client->premiumSubscriptionOption(
 			current : true,
 			can_purchase_upgrade : true,
-			transaction : '9HvOUeZI1PCs4D6b',
-			months : 3,
-			currency : '8uNO2dkQzoLe6qEI',
-			amount : -1794365286272321487,
+			transaction : 'l19Fir8SGmw2K0fQ',
+			months : 14,
+			currency : 'myEzSPOJIljAnwKQ',
+			amount : -6691392926810644267,
 			bot_url : 'https://docs.liveproto.dev',
-			store_product : '2johvVRzqM570uNm',
+			store_product : '1Rsmh0XCv2MVcPDe',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -7926921070759195001,
+			id : -281300119427001121,
 		),
 		$client->user(
 			self : true,
@@ -279,24 +279,25 @@ $helpPremiumPromo = $client->help->premiumPromo(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -8423449268570132263,
-			access_hash : -6388778314885913429,
+			bot_forum_can_manage_topics : true,
+			id : -4704515226803157464,
+			access_hash : 1010196149483121995,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 34,
+			bot_info_version : 18,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '42vQjXZMOPflJogy',
-					reason : '9EY2GvKTFsp0NOhI',
-					text : 'j4A9tqVJ7frd2Xnl',
+					platform : 'P3CWI5u8V0v7n1Si',
+					reason : 'GlH5XvnapJe8mEiM',
+					text : 'jqIC5TagZ9P2YJlz',
 				),
 			),
-			bot_inline_placeholder : 'jcy1NsRVQgLAMliq',
-			lang_code : '0OnzJjX536toMFWd',
+			bot_inline_placeholder : '0Xi5cWyTNdGzg1Mt',
+			lang_code : 'EA9Ob8vKRl6SI1Gz',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -307,19 +308,19 @@ $helpPremiumPromo = $client->help->premiumPromo(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 21,
+				max_id : 89,
 			),
 			color : $client->peerColor(
-				color : 49,
-				background_emoji_id : -4601611822919153605,
+				color : 27,
+				background_emoji_id : -8516943086580354089,
 			),
 			profile_color : $client->peerColor(
-				color : 71,
-				background_emoji_id : -7326166763260017518,
+				color : 73,
+				background_emoji_id : 8154693613289482670,
 			),
-			bot_active_users : 56,
-			bot_verification_icon : 2573927972715351672,
-			send_paid_messages_stars : -7686787314538845309,
+			bot_active_users : 18,
+			bot_verification_icon : 3029887473785092944,
+			send_paid_messages_stars : 535633401762994953,
 		),
 	),
 );

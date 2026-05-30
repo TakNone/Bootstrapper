@@ -2,10 +2,10 @@
 
 **Description** : *A message*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-message#b92f76cf flags:# out:flags.1?true mentioned:flags.4?true media_unread:flags.5?true silent:flags.13?true post:flags.14?true from_scheduled:flags.18?true legacy:flags.19?true edit_hide:flags.21?true pinned:flags.24?true noforwards:flags.26?true invert_media:flags.27?true flags2:# offline:flags2.1?true video_processing_pending:flags2.4?true paid_suggested_post_stars:flags2.8?true paid_suggested_post_ton:flags2.9?true id:int from_id:flags.8?Peer from_boosts_applied:flags.29?int peer_id:Peer saved_peer_id:flags.28?Peer fwd_from:flags.2?MessageFwdHeader via_bot_id:flags.11?long via_business_bot_id:flags2.0?long reply_to:flags.3?MessageReplyHeader date:int message:string media:flags.9?MessageMedia reply_markup:flags.6?ReplyMarkup entities:flags.7?Vector<MessageEntity> views:flags.10?int forwards:flags.10?int replies:flags.23?MessageReplies edit_date:flags.15?int post_author:flags.16?string grouped_id:flags.17?long reactions:flags.20?MessageReactions restriction_reason:flags.22?Vector<RestrictionReason> ttl_period:flags.25?int quick_reply_shortcut_id:flags.30?int effect:flags2.2?long factcheck:flags2.3?FactCheck report_delivery_until_date:flags2.5?int paid_message_stars:flags2.6?long suggested_post:flags2.7?SuggestedPost schedule_repeat_period:flags2.10?int = Message;
+message#9cb490e9 flags:# out:flags.1?true mentioned:flags.4?true media_unread:flags.5?true silent:flags.13?true post:flags.14?true from_scheduled:flags.18?true legacy:flags.19?true edit_hide:flags.21?true pinned:flags.24?true noforwards:flags.26?true invert_media:flags.27?true flags2:# offline:flags2.1?true video_processing_pending:flags2.4?true paid_suggested_post_stars:flags2.8?true paid_suggested_post_ton:flags2.9?true id:int from_id:flags.8?Peer from_boosts_applied:flags.29?int peer_id:Peer saved_peer_id:flags.28?Peer fwd_from:flags.2?MessageFwdHeader via_bot_id:flags.11?long via_business_bot_id:flags2.0?long reply_to:flags.3?MessageReplyHeader date:int message:string media:flags.9?MessageMedia reply_markup:flags.6?ReplyMarkup entities:flags.7?Vector<MessageEntity> views:flags.10?int forwards:flags.10?int replies:flags.23?MessageReplies edit_date:flags.15?int post_author:flags.16?string grouped_id:flags.17?long reactions:flags.20?MessageReactions restriction_reason:flags.22?Vector<RestrictionReason> ttl_period:flags.25?int quick_reply_shortcut_id:flags.30?int effect:flags2.2?long factcheck:flags2.3?FactCheck report_delivery_until_date:flags2.5?int paid_message_stars:flags2.6?long suggested_post:flags2.7?SuggestedPost schedule_repeat_period:flags2.10?int summary_from_language:flags2.11?string = Message;
 ```
 
 ---
@@ -61,6 +61,7 @@ message#b92f76cf flags:# out:flags.1?true mentioned:flags.4?true media_unread:fl
 | **paid_message_stars** | [`flags2.6?long`](type/long) | The amount of stars the sender has paid to send the message, see here » for more info |
 | **suggested_post** | [`flags2.7?SuggestedPost`](type/SuggestedPost) | Used to suggest a post to a channel, see here » for more info on the full flow |
 | **schedule_repeat_period** | [`flags2.10?int`](type/int) | NOTHING |
+| **summary_from_language** | [`flags2.11?string`](type/string) | NOTHING |
 
 ---
 
@@ -89,169 +90,169 @@ $message = $client->message(
 	video_processing_pending : true,
 	paid_suggested_post_stars : true,
 	paid_suggested_post_ton : true,
-	id : 53,
+	id : 63,
 	from_id : $client->peerUser(
-		user_id : 2266995324839048437,
+		user_id : -9014754175150549912,
 	),
-	from_boosts_applied : 98,
+	from_boosts_applied : 39,
 	peer_id : $client->peerUser(
-		user_id : -2459942216414478029,
+		user_id : 4741129075868277217,
 	),
 	saved_peer_id : $client->peerUser(
-		user_id : 8887819611680700887,
+		user_id : 3267727193084790598,
 	),
 	fwd_from : $client->messageFwdHeader(
 		imported : true,
 		saved_out : true,
 		from_id : $client->peerUser(
-			user_id : -8630328221452081527,
+			user_id : 5239031662126901528,
 		),
-		from_name : 'TUMhmnbcJjSaE18p',
-		date : 55,
-		channel_post : 42,
-		post_author : 'YDCysBvSXdzaIWFE',
+		from_name : 'SlbceoG0UniBf7wh',
+		date : 81,
+		channel_post : 70,
+		post_author : 'xSk2puz3TZs9JFVU',
 		saved_from_peer : $client->peerUser(
-			user_id : -3517077280542435778,
+			user_id : 7541774797591346575,
 		),
-		saved_from_msg_id : 22,
+		saved_from_msg_id : 48,
 		saved_from_id : $client->peerUser(
-			user_id : -4468239853601482996,
+			user_id : 7061981558015085435,
 		),
-		saved_from_name : 'Rb4ef5vBU8lxcQNu',
-		saved_date : 9,
-		psa_type : 'aA7oyTUckY4EJV9P',
+		saved_from_name : 'VZipd1GFDurcAfjO',
+		saved_date : 7,
+		psa_type : 'idUWwGzfYvZaElCJ',
 	),
-	via_bot_id : -511911956674783423,
-	via_business_bot_id : -864679213263378324,
+	via_bot_id : -2896744186779499546,
+	via_business_bot_id : 6513199638651397146,
 	reply_to : $client->messageReplyHeader(
 		reply_to_scheduled : true,
 		forum_topic : true,
 		quote : true,
-		reply_to_msg_id : 49,
+		reply_to_msg_id : 32,
 		reply_to_peer_id : $client->peerUser(
-			user_id : 8922459195561024128,
+			user_id : 6583386634926988589,
 		),
 		reply_from : $client->messageFwdHeader(
 			imported : true,
 			saved_out : true,
 			from_id : $client->peerUser(
-				user_id : 1737583504767267069,
+				user_id : 7778876685738910466,
 			),
-			from_name : '3O7PFi0XNMYkQonL',
-			date : 55,
-			channel_post : 15,
-			post_author : 'NE9XbzZDOf8mjPw3',
+			from_name : 'Pgk9A1FHX0SCnvIe',
+			date : 79,
+			channel_post : 9,
+			post_author : 'EpIZnkRCs1GKmhFt',
 			saved_from_peer : $client->peerUser(
-				user_id : -5605317653913250378,
+				user_id : 5033622923662778643,
 			),
-			saved_from_msg_id : 84,
+			saved_from_msg_id : 70,
 			saved_from_id : $client->peerUser(
-				user_id : -6119866360717655401,
+				user_id : 7023671030652562910,
 			),
-			saved_from_name : 'QcSu6yRkgnLXw9d2',
-			saved_date : 18,
-			psa_type : 'ofEmeluUHswWtTMk',
+			saved_from_name : 'wxL8ip20vHNqbZJC',
+			saved_date : 0,
+			psa_type : 'VkcRt2sNudnoFA0E',
 		),
 		reply_media : $client->messageMediaEmpty(),
-		reply_to_top_id : 57,
-		quote_text : '3hpS5QusGxfKzN0X',
+		reply_to_top_id : 39,
+		quote_text : 'OmFx6DrXp2TYyA8P',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 6,
+				length : 57,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 31,
+				length : 72,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 0,
+				length : 49,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 12,
+				length : 96,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 46,
+				length : 24,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 18,
+				length : 64,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 65,
+				length : 70,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 24,
+				length : 90,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 30,
+				length : 92,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 27,
-				language : 'ZGeagiH1VTN0cub9',
+				length : 1,
+				language : 'lDHVAX4izMpxQU9q',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 3,
+				length : 25,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 54,
-				user_id : 6633412228134650177,
+				length : 69,
+				user_id : 8482693911902606638,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 60,
+				length : 25,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 13,
+				length : 42,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 96,
+				length : 71,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 29,
+				length : 82,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 70,
+				length : 75,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 91,
+				length : 87,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 49,
+				length : 99,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 43,
-				document_id : 517695561149116496,
+				length : 84,
+				document_id : -758102991165363058,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 49,
+				length : 65,
 			),
 		),
-		quote_offset : 24,
-		todo_item_id : 20,
+		quote_offset : 38,
+		todo_item_id : 14,
 	),
-	date : 66,
-	message : 'XJk3DroHuPTtFvIB',
+	date : 3,
+	message : 'IumLRafl1T9kACnq',
 	media : $client->messageMediaEmpty(),
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
@@ -259,128 +260,128 @@ $message = $client->message(
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 57,
+			length : 13,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 60,
+			length : 96,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 5,
+			length : 82,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 7,
+			length : 70,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 39,
+			length : 80,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 37,
+			length : 24,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 14,
+			length : 0,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 64,
+			length : 67,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 48,
+			length : 63,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 79,
-			language : 'fQKYktE8RBMVuS03',
+			length : 39,
+			language : 'RAQshNKMcmfloiXz',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 48,
+			length : 41,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 65,
-			user_id : -2971600739255108065,
+			length : 66,
+			user_id : -7104228107906238414,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 37,
+			length : 80,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 53,
+			length : 95,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 98,
+			length : 86,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 40,
+			length : 82,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 83,
+			length : 80,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 31,
+			length : 41,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 98,
+			length : 41,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 94,
-			document_id : -4973799312367633583,
+			length : 45,
+			document_id : 3931842588958993068,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 53,
+			length : 32,
 		),
 	),
-	views : 43,
-	forwards : 72,
+	views : 2,
+	forwards : 73,
 	replies : $client->messageReplies(
 		comments : true,
-		replies : 63,
-		replies_pts : 93,
+		replies : 92,
+		replies_pts : 57,
 		recent_repliers : array(
 			$client->peerUser(
-				user_id : -8950199010635697268,
+				user_id : 6548010699975910539,
 			),
 			$client->peerChat(
-				chat_id : 345171409527141162,
+				chat_id : 4210445529762606540,
 			),
 			$client->peerChannel(
-				channel_id : -1411343828976663131,
+				channel_id : -6762351511605300362,
 			),
 		),
-		channel_id : -1651140947812478649,
-		max_id : 97,
-		read_max_id : 40,
+		channel_id : 2780571886913363159,
+		max_id : 75,
+		read_max_id : 57,
 	),
 	edit_date : 11,
-	post_author : 'Qz03iDEMfCdA8HO1',
-	grouped_id : -8838655872913034916,
+	post_author : 'BlrFdqOtbTCIA34c',
+	grouped_id : 4995463765699074159,
 	reactions : $client->messageReactions(
 		min : true,
 		can_see_list : true,
 		reactions_as_tags : true,
 		results : array(
 			$client->reactionCount(
-				chosen_order : 64,
+				chosen_order : 45,
 				reaction : $client->reactionEmpty(),
-				count : 50,
+				count : 22,
 			),
 		),
 		recent_reactions : array(
@@ -389,9 +390,9 @@ $message = $client->message(
 				unread : true,
 				my : true,
 				peer_id : $client->peerUser(
-					user_id : -8505383723006008720,
+					user_id : -3002805199648745372,
 				),
-				date : 23,
+				date : 6,
 				reaction : $client->reactionEmpty(),
 			),
 		),
@@ -401,133 +402,134 @@ $message = $client->message(
 				my : true,
 				anonymous : true,
 				peer_id : $client->peerUser(
-					user_id : 4443608918334857408,
+					user_id : -8874824675798785305,
 				),
-				count : 92,
+				count : 55,
 			),
 		),
 	),
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : 'zgraOQkixt3w1omE',
-			reason : 'ngoZplLX8KEyBb7f',
-			text : 'M8U2izkRpHEt6Qqx',
+			platform : 'vQuAULW6GT5yF21d',
+			reason : 'gfdovKH7tj5BykLz',
+			text : 'PN6W0ZptmVbeRhSi',
 		),
 	),
-	ttl_period : 10,
-	quick_reply_shortcut_id : 99,
-	effect : 8578248550638446699,
+	ttl_period : 4,
+	quick_reply_shortcut_id : 30,
+	effect : -4473544842184109698,
 	factcheck : $client->factCheck(
 		need_check : true,
-		country : 'hB342L7HdtqZVTFk',
+		country : 'geiSvGnZlXTB92AL',
 		text : $client->textWithEntities(
-			text : 'gDHCKwfqOQUm4ZLu',
+			text : '7iGBSrY940HELp8m',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 50,
+					length : 66,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 13,
+					length : 26,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 90,
+					length : 82,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 25,
+					length : 7,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 0,
+					length : 82,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 34,
+					length : 67,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 32,
+					length : 57,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 87,
+					length : 48,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 79,
+					length : 43,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 7,
-					language : 'AColdz8ijKvq5Ipf',
+					length : 35,
+					language : 'zyD6rUGZ5aQFO02c',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 16,
+					length : 8,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 16,
-					user_id : 5576395915452993565,
+					length : 93,
+					user_id : 7595068357298099257,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 9,
+					length : 100,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 95,
+					length : 80,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 99,
+					length : 6,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 76,
+					length : 33,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 45,
+					length : 82,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 75,
+					length : 9,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 98,
+					length : 25,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 33,
-					document_id : 3463400153427503836,
+					length : 38,
+					document_id : -2651811142329569078,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 46,
+					length : 95,
 				),
 			),
 		),
 		hash : 0,
 	),
-	report_delivery_until_date : 19,
-	paid_message_stars : 5343536350932062645,
+	report_delivery_until_date : 53,
+	paid_message_stars : 3911489355342378264,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 4933558863882633698,
-			nanos : 11,
+			amount : 2210201823146031237,
+			nanos : 10,
 		),
-		schedule_date : 5,
+		schedule_date : 26,
 	),
-	schedule_repeat_period : 97,
+	schedule_repeat_period : 91,
+	summary_from_language : '0R4ImZKywWOSrxk8',
 );
 ```

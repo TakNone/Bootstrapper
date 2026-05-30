@@ -2,7 +2,7 @@
 
 **Description** : *Represents a quick reply shortcut &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputQuickReplyShortcut#24596d41 shortcut:string = InputQuickReplyShortcut;

@@ -2,7 +2,7 @@
 
 **Description** : *Report a secret chat for spam*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.reportEncryptedSpam#4b0c8c0f peer:InputEncryptedChat = Bool;
@@ -37,8 +37,8 @@ messages.reportEncryptedSpam#4b0c8c0f peer:InputEncryptedChat = Bool;
 ```php
 $bool = $client->messages->reportEncryptedSpam(
 	peer : $client->inputEncryptedChat(
-		chat_id : 11,
-		access_hash : 7213755592042545462,
+		chat_id : 21,
+		access_hash : 6970746739691922121,
 	),
 );
 ```

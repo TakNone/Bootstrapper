@@ -2,7 +2,7 @@
 
 **Description** : *Fetch info about a specific bot affiliation &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.getConnectedStarRefBot#b7d998f0 peer:InputPeer bot:InputUser = payments.ConnectedStarRefBots;

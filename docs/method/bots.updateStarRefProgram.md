@@ -2,7 +2,7 @@
 
 **Description** : *Create, edit or delete the affiliate program of a bot we own*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 bots.updateStarRefProgram#778b5ab3 flags:# bot:InputUser commission_permille:int duration_months:flags.0?int = StarRefProgram;
@@ -43,7 +43,7 @@ bots.updateStarRefProgram#778b5ab3 flags:# bot:InputUser commission_permille:int
 ```php
 $starRefProgram = $client->bots->updateStarRefProgram(
 	bot : $client->get_input_user(user : '@TakNone'),
-	commission_permille : 16,
-	duration_months : 94,
+	commission_permille : 84,
+	duration_months : 99,
 );
 ```

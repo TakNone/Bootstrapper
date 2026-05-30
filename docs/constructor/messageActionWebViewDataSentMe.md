@@ -2,7 +2,7 @@
 
 **Description** : *Data from an opened reply keyboard bot mini app was relayed to the bot that owns it \(bot side service message\)*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageActionWebViewDataSentMe#47dd8079 text:string data:string = MessageAction;
@@ -29,7 +29,7 @@ messageActionWebViewDataSentMe#47dd8079 text:string data:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionWebViewDataSentMe(
-	text : 'lyinjROFr7W83Jpe',
-	data : 'G593YpSy1qrzBDUc',
+	text : 'YvdXJRxs13FeHkKa',
+	data : 'oRjqnwW7ZHMCX6VN',
 );
 ```

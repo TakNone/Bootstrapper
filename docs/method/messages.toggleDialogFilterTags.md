@@ -2,7 +2,7 @@
 
 **Description** : *Enable or disable folder tags &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.toggleDialogFilterTags#fd2dda49 enabled:Bool = Bool;

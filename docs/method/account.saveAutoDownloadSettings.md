@@ -2,7 +2,7 @@
 
 **Description** : *Change media autodownload settings*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.saveAutoDownloadSettings#76f36233 flags:# low:flags.0?true high:flags.1?true settings:AutoDownloadSettings = Bool;
@@ -39,12 +39,12 @@ $bool = $client->account->saveAutoDownloadSettings(
 		audio_preload_next : true,
 		phonecalls_less_data : true,
 		stories_preload : true,
-		photo_size_max : 100,
-		video_size_max : -7590035257641872232,
-		file_size_max : -6590738440961040656,
-		video_upload_maxbitrate : 39,
-		small_queue_active_operations_max : 5,
-		large_queue_active_operations_max : 75,
+		photo_size_max : 12,
+		video_size_max : 2723910408572037230,
+		file_size_max : -1653733072413275418,
+		video_upload_maxbitrate : 52,
+		small_queue_active_operations_max : 75,
+		large_queue_active_operations_max : 46,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *The phone call was disconnected*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phoneCallDiscardReasonDisconnect#e095c1a0 = PhoneCallDiscardReason;

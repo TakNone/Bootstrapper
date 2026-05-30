@@ -2,7 +2,7 @@
 
 **Description** : *A user joined the chat via an invite link*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageActionChatJoinedByLink#31224c3 inviter_id:long = MessageAction;
@@ -28,6 +28,6 @@ messageActionChatJoinedByLink#31224c3 inviter_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatJoinedByLink(
-	inviter_id : 6958824216484611402,
+	inviter_id : -6935984520061608717,
 );
 ```

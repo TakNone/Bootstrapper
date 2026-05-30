@@ -2,7 +2,7 @@
 
 **Description** : *Used to fetch information about a direct link Mini App by its ID*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputBotAppID#a920bd7a id:long access_hash:long = InputBotApp;
@@ -29,7 +29,7 @@ inputBotAppID#a920bd7a id:long access_hash:long = InputBotApp;
 
 ```php
 $inputBotApp = $client->inputBotAppID(
-	id : -8573528154147292661,
-	access_hash : -7541489683705008105,
+	id : 7650399917589387761,
+	access_hash : -5896231585192331535,
 );
 ```

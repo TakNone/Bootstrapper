@@ -2,7 +2,7 @@
 
 **Description** : *No new stickers were found for the given query*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.stickersNotModified#f1749a22 = messages.Stickers;

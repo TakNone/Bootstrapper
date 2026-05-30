@@ -2,7 +2,7 @@
 
 **Description** : *Related articles*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 pageBlockRelatedArticles#16115a96 title:RichText articles:Vector<PageRelatedArticle> = PageBlock;
@@ -33,12 +33,12 @@ $pageBlock = $client->pageBlockRelatedArticles(
 	articles : array(
 		$client->pageRelatedArticle(
 			url : 'https://docs.liveproto.dev',
-			webpage_id : 6054593839379505641,
-			title : '9o1qif4kOmJDFs7S',
-			description : '8XfuReNdzBOKA53U',
-			photo_id : -1425209204005231022,
-			author : 'JjYLoXgH06Unb1NR',
-			published_date : 31,
+			webpage_id : -5305915124182527640,
+			title : '4cFkazgQAi0EWtsX',
+			description : 'ZrVymqc1Ak73a624',
+			photo_id : -488456513446485999,
+			author : '4hQy9NxKMXH62EAI',
+			published_date : 88,
 		),
 	),
 );

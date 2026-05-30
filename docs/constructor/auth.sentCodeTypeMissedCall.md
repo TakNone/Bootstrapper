@@ -2,7 +2,7 @@
 
 **Description** : *The code will be sent via a flash phone call, that will be closed immediately\. The last digits of the phone number that calls are the code that must be entered manually by the user*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 auth.sentCodeTypeMissedCall#82006484 prefix:string length:int = auth.SentCodeType;
@@ -29,7 +29,7 @@ auth.sentCodeTypeMissedCall#82006484 prefix:string length:int = auth.SentCodeTyp
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeMissedCall(
-	prefix : 'pq4vUIlQsBt86fLi',
-	length : 75,
+	prefix : 'DAeV4qoU3HYy1zZn',
+	length : 60,
 );
 ```

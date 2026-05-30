@@ -2,7 +2,7 @@
 
 **Description** : *User is recording a voice message*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 sendMessageRecordAudioAction#d52f73f7 = SendMessageAction;

@@ -2,10 +2,10 @@
 
 **Description** : *Button to buy a product*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-keyboardButtonBuy#afd93fbb text:string = KeyboardButton;
+keyboardButtonBuy#3fa53905 flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
 ```
 
 ---
@@ -14,6 +14,8 @@ keyboardButtonBuy#afd93fbb text:string = KeyboardButton;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **style** | [`flags.10?KeyboardButtonStyle`](type/KeyboardButtonStyle) | NOTHING |
 | <mark>text</mark> | [`string`](type/string) | Button text |
 
 ---
@@ -28,6 +30,12 @@ keyboardButtonBuy#afd93fbb text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonBuy(
-	text : 'C3LxSvmJ0ta81wlW',
+	style : $client->keyboardButtonStyle(
+		bg_primary : true,
+		bg_danger : true,
+		bg_success : true,
+		icon : -928593710452996679,
+	),
+	text : 'uZbVegTKX7wMxB3o',
 );
 ```

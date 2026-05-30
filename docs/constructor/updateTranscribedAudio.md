@@ -2,7 +2,7 @@
 
 **Description** : *A pending voice message transcription &raquo; initiated with messages\.transcribeAudio was updated*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateTranscribedAudio#84cd5a flags:# pending:flags.0?true peer:Peer msg_id:int transcription_id:long text:string = Update;
@@ -35,10 +35,10 @@ updateTranscribedAudio#84cd5a flags:# pending:flags.0?true peer:Peer msg_id:int 
 $update = $client->updateTranscribedAudio(
 	pending : true,
 	peer : $client->peerUser(
-		user_id : 4317653467021227952,
+		user_id : 6832391685152977137,
 	),
-	msg_id : 29,
-	transcription_id : 5616816756572943449,
-	text : 'GOlUWaEtV17Hsgbx',
+	msg_id : 90,
+	transcription_id : 3681388408137532254,
+	text : 'aNvk3sgKLxqfW4SZ',
 );
 ```

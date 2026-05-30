@@ -2,7 +2,7 @@
 
 **Description** : *Emoji keyword*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 emojiKeyword#d5b3b9f9 keyword:string emoticons:Vector<string> = EmojiKeyword;

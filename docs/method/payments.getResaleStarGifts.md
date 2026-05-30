@@ -2,10 +2,10 @@
 
 **Description** : *Get collectible gifts of a specific type currently on resale, see here &raquo; for more info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_num:flags.2?true attributes_hash:flags.0?long gift_id:long attributes:flags.3?Vector<StarGiftAttributeId> offset:string limit:int = payments.ResaleStarGifts;
+payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_num:flags.2?true for_craft:flags.4?true attributes_hash:flags.0?long gift_id:long attributes:flags.3?Vector<StarGiftAttributeId> offset:string limit:int = payments.ResaleStarGifts;
 ```
 
 ---
@@ -17,6 +17,7 @@ payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **sort_by_price** | [`flags.1?true`](type/true) | Sort gifts by price (ascending) |
 | **sort_by_num** | [`flags.2?true`](type/true) | Sort gifts by number (ascending) |
+| **for_craft** | [`flags.4?true`](type/true) | NOTHING |
 | **attributes_hash** | [`flags.0?long`](type/long) | If a previous call to the method was made and payments.resaleStarGifts.attributes_hash was set, pass it here to avoid returning any results if they haven't changed. Otherwise, set this flag and pass 0 to return payments.resaleStarGifts.attributes_hash and payments.resaleStarGifts.attributes, these two fields will not be set if this flag is not set |
 | <mark>gift_id</mark> | [`long`](type/long) | Mandatory identifier of the base gift from which the collectible gift was upgraded |
 | **attributes** | [`flags.3?Vector<StarGiftAttributeId>`](type/StarGiftAttributeId) | Optionally filter gifts with the specified attributes. If no attributes of a specific type are specified, all attributes of that type are allowed |
@@ -45,20 +46,21 @@ payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_
 $paymentsResaleStarGifts = $client->payments->getResaleStarGifts(
 	sort_by_price : true,
 	sort_by_num : true,
-	attributes_hash : -7584941777914417940,
-	gift_id : -4983909729438333959,
+	for_craft : true,
+	attributes_hash : -1738700958318527950,
+	gift_id : -6497626656399441688,
 	attributes : array(
 		$client->starGiftAttributeIdModel(
-			document_id : 4459512519130463548,
+			document_id : -5552038783732261226,
 		),
 		$client->starGiftAttributeIdPattern(
-			document_id : -2345279721587637230,
+			document_id : -5077100507093443879,
 		),
 		$client->starGiftAttributeIdBackdrop(
-			backdrop_id : 5,
+			backdrop_id : 94,
 		),
 	),
-	offset : '98S35cVHRunogApW',
-	limit : 70,
+	offset : 'uhnw810OEPiakeDZ',
+	limit : 77,
 );
 ```

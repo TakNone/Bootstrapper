@@ -2,7 +2,7 @@
 
 **Description** : *Email verification purpose*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 emailVerifyPurposeLoginSetup#4345be73 phone_number:string phone_code_hash:string = EmailVerifyPurpose;

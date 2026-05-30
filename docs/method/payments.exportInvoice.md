@@ -2,7 +2,7 @@
 
 **Description** : *Generate an invoice deep link*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.exportInvoice#f91b065 invoice_media:InputMedia = payments.ExportedInvoice;

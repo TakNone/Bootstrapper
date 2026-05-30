@@ -2,7 +2,7 @@
 
 **Description** : *Secure value*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 secureValue#187fa0ca flags:# type:SecureValueType data:flags.0?SecureData front_side:flags.1?SecureFile reverse_side:flags.2?SecureFile selfie:flags.3?SecureFile translation:flags.6?Vector<SecureFile> files:flags.4?Vector<SecureFile> plain_data:flags.5?SecurePlainData hash:bytes = SecureValue;
@@ -49,11 +49,11 @@ $secureValue = $client->secureValue(
 	translation : array(
 		$client->secureFileEmpty(),
 		$client->secureFile(
-			id : 5674331855480860763,
-			access_hash : 6032342675788989885,
-			size : -2681051081045566988,
-			dc_id : 6,
-			date : 3,
+			id : 1334668319220031965,
+			access_hash : 5351119926584972512,
+			size : -2485460640057519246,
+			dc_id : 61,
+			date : 34,
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
@@ -61,11 +61,11 @@ $secureValue = $client->secureValue(
 	files : array(
 		$client->secureFileEmpty(),
 		$client->secureFile(
-			id : -3295888840010437642,
-			access_hash : -7528714666651154825,
-			size : 247559004224977542,
-			dc_id : 78,
-			date : 41,
+			id : 179345583639578069,
+			access_hash : 7928461728699830003,
+			size : 3421778304399677306,
+			dc_id : 28,
+			date : 51,
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),

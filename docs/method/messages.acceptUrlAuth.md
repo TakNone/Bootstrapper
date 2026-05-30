@@ -2,10 +2,10 @@
 
 **Description** : *Use this to accept a Seamless Telegram Login authorization request, for more info click here &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-messages.acceptUrlAuth#b12c7125 flags:# write_allowed:flags.0?true peer:flags.1?InputPeer msg_id:flags.1?int button_id:flags.1?int url:flags.2?string = UrlAuthResult;
+messages.acceptUrlAuth#b12c7125 flags:# write_allowed:flags.0?true share_phone_number:flags.3?true peer:flags.1?InputPeer msg_id:flags.1?int button_id:flags.1?int url:flags.2?string = UrlAuthResult;
 ```
 
 ---
@@ -16,6 +16,7 @@ messages.acceptUrlAuth#b12c7125 flags:# write_allowed:flags.0?true peer:flags.1?
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **write_allowed** | [`flags.0?true`](type/true) | Set this flag to allow the bot to send messages to you (if requested) |
+| **share_phone_number** | [`flags.3?true`](type/true) | NOTHING |
 | **peer** | [`flags.1?InputPeer`](type/InputPeer) | The location of the message |
 | **msg_id** | [`flags.1?int`](type/int) | Message ID of the message with the login button |
 | **button_id** | [`flags.1?int`](type/int) | ID of the login button |
@@ -34,9 +35,10 @@ messages.acceptUrlAuth#b12c7125 flags:# write_allowed:flags.0?true peer:flags.1?
 ```php
 $urlAuthResult = $client->messages->acceptUrlAuth(
 	write_allowed : true,
+	share_phone_number : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 11,
-	button_id : 54,
+	msg_id : 86,
+	button_id : 77,
 	url : 'https://docs.liveproto.dev',
 );
 ```

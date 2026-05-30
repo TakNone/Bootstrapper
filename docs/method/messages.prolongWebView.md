@@ -2,7 +2,7 @@
 
 **Description** : *Indicate to the server \(from the user side\) that the user is still using a web app*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.prolongWebView#b0d81a83 flags:# silent:flags.5?true peer:InputPeer bot:InputUser query_id:long reply_to:flags.0?InputReplyTo send_as:flags.13?InputPeer = Bool;
@@ -45,107 +45,107 @@ $bool = $client->messages->prolongWebView(
 	silent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	bot : $client->get_input_user(user : '@TakNone'),
-	query_id : -6270221198188733940,
+	query_id : 9075694088023418609,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 55,
-		top_msg_id : 25,
+		reply_to_msg_id : 42,
+		top_msg_id : 71,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'iL62jfBrmozqUCl5',
+		quote_text : 'dMqhGky2KDJunNtv',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 55,
+				length : 2,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 74,
+				length : 96,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 17,
+				length : 99,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 0,
+				length : 76,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 62,
+				length : 37,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 80,
+				length : 81,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 89,
+				length : 79,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 74,
+				length : 23,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 12,
+				length : 14,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 71,
-				language : '3aPrO4BzihkGnSCl',
+				length : 98,
+				language : 'gCJ7YBecwx2SnO9y',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 84,
+				length : 10,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 5,
-				user_id : -2429541806287444448,
+				length : 28,
+				user_id : 5710420309831635791,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 16,
+				length : 8,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 32,
+				length : 76,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 99,
+				length : 97,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 10,
+				length : 57,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 93,
+				length : 92,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 32,
+				length : 92,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 12,
+				length : 20,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 95,
-				document_id : 169316544598476632,
+				length : 44,
+				document_id : -5483274098450548889,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 94,
+				length : 16,
 			),
 		),
-		quote_offset : 55,
+		quote_offset : 92,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 90,
+		todo_item_id : 79,
 	),
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

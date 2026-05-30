@@ -2,7 +2,7 @@
 
 **Description** : *No updates are available for the application*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.noAppUpdate#c45a6536 = help.AppUpdate;

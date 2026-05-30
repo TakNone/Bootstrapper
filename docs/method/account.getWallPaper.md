@@ -2,7 +2,7 @@
 
 **Description** : *Get info about a certain wallpaper*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.getWallPaper#fc8ddbea wallpaper:InputWallPaper = WallPaper;
@@ -37,8 +37,8 @@ account.getWallPaper#fc8ddbea wallpaper:InputWallPaper = WallPaper;
 ```php
 $wallPaper = $client->account->getWallPaper(
 	wallpaper : $client->inputWallPaper(
-		id : 495233846153814422,
-		access_hash : 3634790415875636036,
+		id : -6559294013613291751,
+		access_hash : 594421633809669201,
 	),
 );
 ```

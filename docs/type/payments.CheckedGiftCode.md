@@ -2,7 +2,7 @@
 
 **Description** : *Info about a Telegram Premium Giftcode*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.checkedGiftCode#eb983f8f flags:# via_giveaway:flags.2?true from_id:flags.4?Peer giveaway_msg_id:flags.3?int to_id:flags.0?long date:int days:int used_date:flags.1?int chats:Vector<Chat> users:Vector<User> = payments.CheckedGiftCode;

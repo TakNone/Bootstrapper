@@ -2,10 +2,10 @@
 
 **Description** : *Button to request a user&#039;s phone number*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-keyboardButtonRequestPhone#b16a6c29 text:string = KeyboardButton;
+keyboardButtonRequestPhone#417efd8f flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
 ```
 
 ---
@@ -14,6 +14,8 @@ keyboardButtonRequestPhone#b16a6c29 text:string = KeyboardButton;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **style** | [`flags.10?KeyboardButtonStyle`](type/KeyboardButtonStyle) | NOTHING |
 | <mark>text</mark> | [`string`](type/string) | Button text |
 
 ---
@@ -28,6 +30,12 @@ keyboardButtonRequestPhone#b16a6c29 text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButtonRequestPhone(
-	text : 'kHMpWsAFRVZIbLSm',
+	style : $client->keyboardButtonStyle(
+		bg_primary : true,
+		bg_danger : true,
+		bg_success : true,
+		icon : -2448870879424863618,
+	),
+	text : 'MusHkfipBUjmwv8T',
 );
 ```

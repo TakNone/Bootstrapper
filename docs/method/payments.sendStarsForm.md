@@ -2,7 +2,7 @@
 
 **Description** : *Make a payment using Telegram Stars, see here &raquo; for more info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.sendStarsForm#7998c914 form_id:long invoice:InputInvoice = payments.PaymentResult;
@@ -60,10 +60,10 @@ payments.sendStarsForm#7998c914 form_id:long invoice:InputInvoice = payments.Pay
 
 ```php
 $paymentsPaymentResult = $client->payments->sendStarsForm(
-	form_id : 8006655610704693386,
+	form_id : 8096335761149499125,
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-		msg_id : 56,
+		msg_id : 75,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Send phone call debug data to server*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.saveCallDebug#277add7e peer:InputPhoneCall debug:DataJSON = Bool;
@@ -39,11 +39,11 @@ phone.saveCallDebug#277add7e peer:InputPhoneCall debug:DataJSON = Bool;
 ```php
 $bool = $client->phone->saveCallDebug(
 	peer : $client->inputPhoneCall(
-		id : 2301504029709762055,
-		access_hash : 8777193701308400134,
+		id : -9005020693440671365,
+		access_hash : 2181552465978138644,
 	),
 	debug : $client->dataJSON(
-		data : 'yNMw7rzSaEWJKHPX',
+		data : '0VudUCqx4zHbksZJ',
 	),
 );
 ```

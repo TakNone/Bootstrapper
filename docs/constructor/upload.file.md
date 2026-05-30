@@ -2,7 +2,7 @@
 
 **Description** : *File content*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 upload.file#96a18d5 type:storage.FileType mtime:int bytes:bytes = upload.File;
@@ -31,7 +31,7 @@ upload.file#96a18d5 type:storage.FileType mtime:int bytes:bytes = upload.File;
 ```php
 $uploadFile = $client->upload->file(
 	type : $client->storage->fileUnknown(),
-	mtime : 42,
+	mtime : 34,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

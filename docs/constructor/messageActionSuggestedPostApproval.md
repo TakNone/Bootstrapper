@@ -2,7 +2,7 @@
 
 **Description** : *A suggested post &raquo; was approved or rejected*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageActionSuggestedPostApproval#ee7a1596 flags:# rejected:flags.0?true balance_too_low:flags.1?true reject_comment:flags.2?string schedule_date:flags.3?int price:flags.4?StarsAmount = MessageAction;
@@ -35,11 +35,11 @@ messageActionSuggestedPostApproval#ee7a1596 flags:# rejected:flags.0?true balanc
 $messageAction = $client->messageActionSuggestedPostApproval(
 	rejected : true,
 	balance_too_low : true,
-	reject_comment : 'K0icDs16znkPMqvo',
-	schedule_date : 75,
+	reject_comment : 'gnDwH7WhA2ulCNms',
+	schedule_date : 10,
 	price : $client->starsAmount(
-		amount : 1492837297824272932,
-		nanos : 71,
+		amount : -536654572323045968,
+		nanos : 43,
 	),
 );
 ```

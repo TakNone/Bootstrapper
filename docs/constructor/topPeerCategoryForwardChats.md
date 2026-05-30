@@ -2,7 +2,7 @@
 
 **Description** : *Chats to which the users often forwards messages to*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 topPeerCategoryForwardChats#fbeec0f0 = TopPeerCategory;

@@ -2,7 +2,7 @@
 
 **Description** : *Contains Diffie\-Hellman key generation protocol parameters*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.dhConfigNotModified#c0e24635 random:bytes = messages.DhConfig;

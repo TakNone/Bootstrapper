@@ -2,7 +2,7 @@
 
 **Description** : *Obtain all chat themes &raquo; associated to owned collectible gifts &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.getUniqueGiftChatThemes#e42ce9c9 offset:string limit:int hash:long = account.ChatThemes;
@@ -30,8 +30,8 @@ account.getUniqueGiftChatThemes#e42ce9c9 offset:string limit:int hash:long = acc
 
 ```php
 $accountChatThemes = $client->account->getUniqueGiftChatThemes(
-	offset : 'pFSaRc9iKY0BU4PJ',
-	limit : 13,
+	offset : 'ZROiglDG5paTVIKA',
+	limit : 25,
 	hash : 0,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Info about why a specific user could not be invited &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 missingInvitee#628c9224 flags:# premium_would_allow_invite:flags.0?true premium_required_for_pm:flags.1?true user_id:long = MissingInvitee;
@@ -33,6 +33,6 @@ missingInvitee#628c9224 flags:# premium_would_allow_invite:flags.0?true premium_
 $missingInvitee = $client->missingInvitee(
 	premium_would_allow_invite : true,
 	premium_required_for_pm : true,
-	user_id : 7454803131346082847,
+	user_id : 3099132865795283948,
 );
 ```

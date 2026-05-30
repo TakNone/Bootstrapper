@@ -2,7 +2,7 @@
 
 **Description** : *A peer*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputDialogPeer#fcaafeb7 peer:InputPeer = InputDialogPeer;

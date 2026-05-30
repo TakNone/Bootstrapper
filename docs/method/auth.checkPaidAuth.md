@@ -1,6 +1,6 @@
 # auth.checkPaidAuth
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 auth.checkPaidAuth#56e59f9c phone_number:string phone_code_hash:string form_id:long = auth.SentCode;
@@ -30,6 +30,6 @@ auth.checkPaidAuth#56e59f9c phone_number:string phone_code_hash:string form_id:l
 $authSentCode = $client->auth->checkPaidAuth(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	form_id : 4803409795336943739,
+	form_id : 8335555494403370970,
 );
 ```

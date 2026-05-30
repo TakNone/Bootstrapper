@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about the forwards of a story as a message to public chats and reposts by public channels*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 stats.publicForwards#93037e20 flags:# count:int forwards:Vector<PublicForward> next_offset:flags.0?string chats:Vector<Chat> users:Vector<User> = stats.PublicForwards;
@@ -33,44 +33,43 @@ stats.publicForwards#93037e20 flags:# count:int forwards:Vector<PublicForward> n
 
 ```php
 $statsPublicForwards = $client->stats->publicForwards(
-	count : 73,
+	count : 18,
 	forwards : array(
 		$client->publicForwardMessage(
 			message : $client->messageEmpty(
-				id : 38,
+				id : 20,
 				peer_id : $client->peerUser(
-					user_id : -2214348677071477406,
+					user_id : -4854892026822262696,
 				),
 			),
 		),
 		$client->publicForwardStory(
 			peer : $client->peerUser(
-				user_id : -7094809960404259884,
+				user_id : -1012511596341706204,
 			),
 			story : $client->storyItemDeleted(
-				id : 12,
+				id : 48,
 			),
 		),
 	),
-	next_offset : 'Li4lF8AR6DeNX2hH',
+	next_offset : '4pkZofsqAOCwVFbM',
 	chats : array(
 		$client->chatEmpty(
-			id : 9072129011588831378,
+			id : 2877592980884269105,
 		),
 		$client->chat(
 			creator : true,
-			kicked : true,
 			left : true,
 			deactivated : true,
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 4555113403370348906,
-			title : 'kAP7qeajZBMstmDr',
+			id : 7782687891689163295,
+			title : 'fBvlWA6I0HNgeoYp',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 70,
-			date : 14,
-			version : 61,
+			participants_count : 43,
+			date : 65,
+			version : 41,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -111,12 +110,12 @@ $statsPublicForwards = $client->stats->publicForwards(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 57,
+				until_date : 11,
 			),
 		),
 		$client->chatForbidden(
-			id : 6856361904747241920,
-			title : 'ralUVwQ9yHSJ4cvD',
+			id : -3216549222981870915,
+			title : 'Bf5dK3ZIi6uXrJwo',
 		),
 		$client->channel(
 			creator : true,
@@ -147,17 +146,17 @@ $statsPublicForwards = $client->stats->publicForwards(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -7463517112423564108,
-			access_hash : 1998412897817557567,
-			title : 'uKekaVXdC41bnGfp',
+			id : -7654872480130618748,
+			access_hash : -1463534888058749544,
+			title : 'I4kszQtWoS5CeV83',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 53,
+			date : 36,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'lxoRXVJIndev8ba7',
-					reason : 'xDc9VJFbuk17WtCU',
-					text : '2oBOq3TKGerzlLhY',
+					platform : 'PvIpZuT0GhN8MjD3',
+					reason : '0f7IZlurvwV2QzDo',
+					text : 'JB70VmALf8DxprNO',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -199,7 +198,7 @@ $statsPublicForwards = $client->stats->publicForwards(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 7,
+				until_date : 92,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -222,9 +221,9 @@ $statsPublicForwards = $client->stats->publicForwards(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 93,
+				until_date : 72,
 			),
-			participants_count : 99,
+			participants_count : 55,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -234,35 +233,36 @@ $statsPublicForwards = $client->stats->publicForwards(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 37,
+				max_id : 42,
 			),
 			color : $client->peerColor(
-				color : 53,
-				background_emoji_id : -525690451389943751,
+				color : 57,
+				background_emoji_id : -5168019350301163117,
 			),
 			profile_color : $client->peerColor(
-				color : 86,
-				background_emoji_id : -1874182688872496298,
+				color : 39,
+				background_emoji_id : -3063912272172916060,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 11,
-			subscription_until_date : 88,
-			bot_verification_icon : -8910950600194162920,
-			send_paid_messages_stars : -5003628554489764751,
-			linked_monoforum_id : 5934741298629227533,
+			level : 36,
+			subscription_until_date : 17,
+			bot_verification_icon : 7265238453105206645,
+			send_paid_messages_stars : 600020935016157019,
+			linked_monoforum_id : -306069787092043041,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : 5534177756439473739,
-			access_hash : 6324615914477780730,
-			title : 'EZb4DH09cVRkw2in',
-			until_date : 70,
+			monoforum : true,
+			id : -6693652230184200793,
+			access_hash : 6669000797935716328,
+			title : 'hNoqaTZnBQLtkzpH',
+			until_date : 95,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 6040003004122240126,
+			id : -3251835130802384543,
 		),
 		$client->user(
 			self : true,
@@ -291,24 +291,25 @@ $statsPublicForwards = $client->stats->publicForwards(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 4654825771605258923,
-			access_hash : -4898023904855752723,
+			bot_forum_can_manage_topics : true,
+			id : 7586283146148037314,
+			access_hash : -2946902610172208764,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 29,
+			bot_info_version : 40,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'dTvwDCAtSk7HrUOy',
-					reason : 'xIaQowKkdX5Ytql2',
-					text : 'LRDokSuvlHEPMI9V',
+					platform : 'J2iX9cH1WuTokMna',
+					reason : 'bo8Kdh6HwZJtTlF1',
+					text : 'JMDigYhmIfb2Bp51',
 				),
 			),
-			bot_inline_placeholder : 'Jx1O96GP8K0DFa5c',
-			lang_code : 'PI7CeQjBUg5cZzlY',
+			bot_inline_placeholder : 'cvjMu3rZVK60haN1',
+			lang_code : 'bDa3kunXd4pTHKR6',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -319,19 +320,19 @@ $statsPublicForwards = $client->stats->publicForwards(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 77,
+				max_id : 78,
 			),
 			color : $client->peerColor(
-				color : 0,
-				background_emoji_id : -6707457598978323351,
+				color : 43,
+				background_emoji_id : 754485771303268857,
 			),
 			profile_color : $client->peerColor(
-				color : 61,
-				background_emoji_id : 8050842010916378465,
+				color : 39,
+				background_emoji_id : 7079735008153172657,
 			),
-			bot_active_users : 32,
-			bot_verification_icon : -5873397263015873340,
-			send_paid_messages_stars : 9004312368228921635,
+			bot_active_users : 70,
+			bot_verification_icon : -3353999222898910478,
+			send_paid_messages_stars : 6760265163541771503,
 		),
 	),
 );

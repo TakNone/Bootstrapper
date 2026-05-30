@@ -1,6 +1,6 @@
 # recentStory
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;
@@ -29,6 +29,6 @@ recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;
 ```php
 $recentStory = $client->recentStory(
 	live : true,
-	max_id : 29,
+	max_id : 77,
 );
 ```

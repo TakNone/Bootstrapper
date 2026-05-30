@@ -2,7 +2,7 @@
 
 **Description** : *The hidden prehistory setting was changed*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channelAdminLogEventActionTogglePreHistoryHidden#5f5c95f1 new_value:Bool = ChannelAdminLogEventAction;

@@ -2,7 +2,7 @@
 
 **Description** : *Return only phone calls*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputMessagesFilterPhoneCalls#80c99768 flags:# missed:flags.0?true = MessagesFilter;

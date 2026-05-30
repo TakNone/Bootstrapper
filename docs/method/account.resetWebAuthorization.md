@@ -2,7 +2,7 @@
 
 **Description** : *Log out an active web telegram login session*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.resetWebAuthorization#2d01b9ef hash:long = Bool;

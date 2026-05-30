@@ -2,7 +2,7 @@
 
 **Description** : *Defines a user for further interaction*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputPeerUser#dde8a54c user_id:long access_hash:long = InputPeer;
@@ -29,7 +29,7 @@ inputPeerUser#dde8a54c user_id:long access_hash:long = InputPeer;
 
 ```php
 $inputPeer = $client->inputPeerUser(
-	user_id : 5667686593924689446,
-	access_hash : 4615020844371356701,
+	user_id : -7189641831996486290,
+	access_hash : -2619008165968483461,
 );
 ```

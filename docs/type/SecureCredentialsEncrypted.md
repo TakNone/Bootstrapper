@@ -2,7 +2,7 @@
 
 **Description** : *Encrypted secure credentials*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 secureCredentialsEncrypted#33f0ea47 data:bytes hash:bytes secret:bytes = SecureCredentialsEncrypted;

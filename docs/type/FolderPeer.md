@@ -2,7 +2,7 @@
 
 **Description** : *Peer associated to folder*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 folderPeer#e9baa668 peer:Peer folder_id:int = FolderPeer;

@@ -2,7 +2,7 @@
 
 **Description** : *Logs in a user using a key transmitted from his native data\-center*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 auth.importAuthorization#a57a7dad id:long bytes:bytes = auth.Authorization;
@@ -38,7 +38,7 @@ auth.importAuthorization#a57a7dad id:long bytes:bytes = auth.Authorization;
 
 ```php
 $authAuthorization = $client->auth->importAuthorization(
-	id : 3809341882620395484,
+	id : 7131278181219140410,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -1,6 +1,6 @@
 # phone.GroupCallStars
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.groupCallStars#9d1dbd26 total_stars:long top_donors:Vector<GroupCallDonor> chats:Vector<Chat> users:Vector<User> = phone.GroupCallStars;

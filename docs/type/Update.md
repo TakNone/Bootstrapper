@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on events occurred*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
@@ -154,9 +154,9 @@ updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:i
 updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = Update;
 updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> = Update;
 updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Update;
-updateTranscribeAudio#88617090 flags:# final:flags.0?true transcription_id:long text:string = Update;
-updateBotSubscriptionExpire#a8ae3eb1 user_id:long payload:string until_date:int qts:int = Update;
 updateStarGiftAuctionUserState#dc58f31e gift_id:long user_state:StarGiftAuctionUserState = Update;
+updateEmojiGameInfo#fb9c547a info:messages.EmojiGameInfo = Update;
+updateStarGiftCraftFail#ac072444 = Update;
 ```
 
 ---
@@ -314,6 +314,6 @@ updateStarGiftAuctionUserState#dc58f31e gift_id:long user_state:StarGiftAuctionU
 | [**updatePinnedForumTopics**](constructor/updatePinnedForumTopics) | NOTHING |
 | [**updateDeleteGroupCallMessages**](constructor/updateDeleteGroupCallMessages) | NOTHING |
 | [**updateStarGiftAuctionState**](constructor/updateStarGiftAuctionState) | NOTHING |
-| [**updateTranscribeAudio**](constructor/updateTranscribeAudio) | NOTHING |
-| [**updateBotSubscriptionExpire**](constructor/updateBotSubscriptionExpire) | NOTHING |
 | [**updateStarGiftAuctionUserState**](constructor/updateStarGiftAuctionUserState) | NOTHING |
+| [**updateEmojiGameInfo**](constructor/updateEmojiGameInfo) | NOTHING |
+| [**updateStarGiftCraftFail**](constructor/updateStarGiftCraftFail) | NOTHING |

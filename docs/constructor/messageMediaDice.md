@@ -2,10 +2,10 @@
 
 **Description** : *Dice\-based animated sticker*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-messageMediaDice#3f7ee58b value:int emoticon:string = MessageMedia;
+messageMediaDice#8cbec07 flags:# value:int emoticon:string game_outcome:flags.0?messages.EmojiGameOutcome = MessageMedia;
 ```
 
 ---
@@ -14,8 +14,10 @@ messageMediaDice#3f7ee58b value:int emoticon:string = MessageMedia;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>value</mark> | [`int`](type/int) | Dice value |
 | <mark>emoticon</mark> | [`string`](type/string) | The emoji, for now ,  and  are supported |
+| **game_outcome** | [`flags.0?messages.EmojiGameOutcome`](type/messages.EmojiGameOutcome) | NOTHING |
 
 ---
 
@@ -29,7 +31,12 @@ messageMediaDice#3f7ee58b value:int emoticon:string = MessageMedia;
 
 ```php
 $messageMedia = $client->messageMediaDice(
-	value : 57,
-	emoticon : 'x9izhtrcCAj5DGUM',
+	value : 54,
+	emoticon : '2YZsjdF3rnv1qc5X',
+	game_outcome : $client->messages->emojiGameOutcome(
+		seed : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		stake_ton_amount : 7145493134288061134,
+		ton_amount : -2191865227105521124,
+	),
 );
 ```

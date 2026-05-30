@@ -2,7 +2,7 @@
 
 **Description** : *An owned collectible gift &raquo; as emoji status: can only be used in account\.updateEmojiStatus, is never returned by the API*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputEmojiStatusCollectible#7141dbf flags:# collectible_id:long until:flags.0?int = EmojiStatus;
@@ -30,7 +30,7 @@ inputEmojiStatusCollectible#7141dbf flags:# collectible_id:long until:flags.0?in
 
 ```php
 $emojiStatus = $client->inputEmojiStatusCollectible(
-	collectible_id : 2655288569910078270,
-	until : 8,
+	collectible_id : -4640870697895714442,
+	until : 15,
 );
 ```

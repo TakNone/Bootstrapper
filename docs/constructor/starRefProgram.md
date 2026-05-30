@@ -2,7 +2,7 @@
 
 **Description** : *Indo about an affiliate program offered by a bot*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 starRefProgram#dd0c66f2 flags:# bot_id:long commission_permille:int duration_months:flags.0?int end_date:flags.1?int daily_revenue_per_user:flags.2?StarsAmount = StarRefProgram;
@@ -33,13 +33,13 @@ starRefProgram#dd0c66f2 flags:# bot_id:long commission_permille:int duration_mon
 
 ```php
 $starRefProgram = $client->starRefProgram(
-	bot_id : 4427991409146196151,
-	commission_permille : 38,
-	duration_months : 79,
-	end_date : 38,
+	bot_id : -5598883402088950717,
+	commission_permille : 77,
+	duration_months : 6,
+	end_date : 66,
 	daily_revenue_per_user : $client->starsAmount(
-		amount : 5378950769683128778,
-		nanos : 57,
+		amount : -8165341751358540341,
+		nanos : 66,
 	),
 );
 ```

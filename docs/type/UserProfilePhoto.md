@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on the user&#039;s profile photo*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 userProfilePhotoEmpty#4f11bae1 = UserProfilePhoto;

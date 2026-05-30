@@ -2,7 +2,7 @@
 
 **Description** : *The stickerset hasn&#039;t changed*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.stickerSetNotModified#d3f924eb = messages.StickerSet;

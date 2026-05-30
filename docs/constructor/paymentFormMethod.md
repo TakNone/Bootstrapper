@@ -2,7 +2,7 @@
 
 **Description** : *Represents an additional payment method*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 paymentFormMethod#88f8f21b url:string title:string = PaymentFormMethod;
@@ -30,6 +30,6 @@ paymentFormMethod#88f8f21b url:string title:string = PaymentFormMethod;
 ```php
 $paymentFormMethod = $client->paymentFormMethod(
 	url : 'https://docs.liveproto.dev',
-	title : 'tquC6h3KZoInpDvy',
+	title : '3o0xOuyg5j2QabdB',
 );
 ```

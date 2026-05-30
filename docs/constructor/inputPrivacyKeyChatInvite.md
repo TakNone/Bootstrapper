@@ -2,7 +2,7 @@
 
 **Description** : *Whether people will be able to invite you to chats*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputPrivacyKeyChatInvite#bdfb0426 = InputPrivacyKey;

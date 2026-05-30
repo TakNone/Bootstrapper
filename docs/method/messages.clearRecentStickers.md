@@ -2,7 +2,7 @@
 
 **Description** : *Clear recent stickers*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.clearRecentStickers#8999602d flags:# attached:flags.0?true = Bool;

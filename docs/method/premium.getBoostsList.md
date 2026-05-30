@@ -2,7 +2,7 @@
 
 **Description** : *Obtains info about the boosts that were applied to a certain channel or supergroup \(admins only\)*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 premium.getBoostsList#60f67660 flags:# gifts:flags.0?true peer:InputPeer offset:string limit:int = premium.BoostsList;
@@ -43,7 +43,7 @@ premium.getBoostsList#60f67660 flags:# gifts:flags.0?true peer:InputPeer offset:
 $premiumBoostsList = $client->premium->getBoostsList(
 	gifts : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'KsGhYcvfbDUA89dk',
-	limit : 92,
+	offset : 'Rr8siheUaG9A0mdI',
+	limit : 55,
 );
 ```

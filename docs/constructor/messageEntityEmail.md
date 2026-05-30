@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing an email@example\.com*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageEntityEmail#64e475c2 offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityEmail#64e475c2 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityEmail(
 	offset : 0,
-	length : 3,
+	length : 67,
 );
 ```

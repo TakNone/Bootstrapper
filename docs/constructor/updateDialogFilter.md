@@ -2,7 +2,7 @@
 
 **Description** : *A new folder was added*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateDialogFilter#26ffde7d flags:# id:int filter:flags.0?DialogFilter = Update;
@@ -30,7 +30,7 @@ updateDialogFilter#26ffde7d flags:# id:int filter:flags.0?DialogFilter = Update;
 
 ```php
 $update = $client->updateDialogFilter(
-	id : 40,
+	id : 34,
 	filter : $client->dialogFilter(
 		contacts : true,
 		non_contacts : true,
@@ -41,104 +41,104 @@ $update = $client->updateDialogFilter(
 		exclude_read : true,
 		exclude_archived : true,
 		title_noanimate : true,
-		id : 85,
+		id : 53,
 		title : $client->textWithEntities(
-			text : 'ruiGfD46xkB5NvTU',
+			text : 'MNEAVYv05C8BPabs',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 41,
+					length : 74,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 43,
+					length : 36,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 8,
+					length : 49,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 65,
+					length : 61,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 70,
+					length : 97,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 96,
+					length : 85,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 3,
+					length : 31,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 41,
+					length : 64,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 24,
+					length : 36,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 32,
-					language : 'sobZgUY97Rz2kMVa',
+					length : 54,
+					language : '9VfonheCjPzcBdTr',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 10,
+					length : 28,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 24,
-					user_id : 2766290455822094405,
+					length : 73,
+					user_id : 1412997754351398867,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 17,
+					length : 97,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 1,
+					length : 54,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 59,
+					length : 82,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 6,
+					length : 93,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 11,
+					length : 85,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 99,
+					length : 90,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 41,
+					length : 95,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 51,
-					document_id : 2405765267075841651,
+					length : 64,
+					document_id : 3687331872155173126,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 6,
+					length : 46,
 				),
 			),
 		),
-		emoticon : 'VEOFDIg9vzyRnhwC',
-		color : 18,
+		emoticon : 'wqUvnVhmXZxKNIcT',
+		color : 78,
 		pinned_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 		include_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 		exclude_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),

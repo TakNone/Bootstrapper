@@ -2,7 +2,7 @@
 
 **Description** : *Updated info about a chat folder deep link &raquo; we already imported*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 chatlists.chatlistInviteAlready#fa87f659 filter_id:int missing_peers:Vector<Peer> already_peers:Vector<Peer> chats:Vector<Chat> users:Vector<User> = chatlists.ChatlistInvite;
@@ -32,47 +32,46 @@ chatlists.chatlistInviteAlready#fa87f659 filter_id:int missing_peers:Vector<Peer
 
 ```php
 $chatlistsChatlistInvite = $client->chatlists->chatlistInviteAlready(
-	filter_id : 88,
+	filter_id : 13,
 	missing_peers : array(
 		$client->peerUser(
-			user_id : -1683522281327055491,
+			user_id : 4315064766067097833,
 		),
 		$client->peerChat(
-			chat_id : 6948613346786059914,
+			chat_id : -2934799690846118402,
 		),
 		$client->peerChannel(
-			channel_id : 8149596229736827447,
+			channel_id : 4899371901633948168,
 		),
 	),
 	already_peers : array(
 		$client->peerUser(
-			user_id : -1206057611528010107,
+			user_id : -5157073572492982850,
 		),
 		$client->peerChat(
-			chat_id : -4753209535510738350,
+			chat_id : -7428015883004024645,
 		),
 		$client->peerChannel(
-			channel_id : -6983867218140961927,
+			channel_id : 8770056598201400625,
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 8503896059536430110,
+			id : 6246661312484134177,
 		),
 		$client->chat(
 			creator : true,
-			kicked : true,
 			left : true,
 			deactivated : true,
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -2369676283264143815,
-			title : 'iA8PvN2nXgLYV6ZD',
+			id : -5669363881857121406,
+			title : 'v3JsghxwoMmzk6pP',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 97,
-			date : 4,
-			version : 14,
+			participants_count : 67,
+			date : 42,
+			version : 16,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -113,12 +112,12 @@ $chatlistsChatlistInvite = $client->chatlists->chatlistInviteAlready(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 66,
+				until_date : 16,
 			),
 		),
 		$client->chatForbidden(
-			id : 4729315901817064438,
-			title : 'Pmo9fkETNOxdUwvc',
+			id : -8412056052603965837,
+			title : '9vnizTeHBpuZPyEA',
 		),
 		$client->channel(
 			creator : true,
@@ -149,17 +148,17 @@ $chatlistsChatlistInvite = $client->chatlists->chatlistInviteAlready(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -7320569343405461737,
-			access_hash : -9043447998701243445,
-			title : 'hoC45t8qeL7k3Ylw',
+			id : -4018585268759186543,
+			access_hash : -2374558410165475935,
+			title : 'UBl0nt5F2TIVJ1hZ',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 22,
+			date : 42,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'rPgfNCq2McVzhyZT',
-					reason : 'QuEXM9eGKwIOPLhS',
-					text : 'FPLAaGEqtd9hn5zS',
+					platform : '8gJjNSMmKOhl6PE2',
+					reason : 'IB3XADyUglMNW2QC',
+					text : 'JMzls9qKxjAkhQa8',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -201,7 +200,7 @@ $chatlistsChatlistInvite = $client->chatlists->chatlistInviteAlready(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 89,
+				until_date : 45,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -224,9 +223,9 @@ $chatlistsChatlistInvite = $client->chatlists->chatlistInviteAlready(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 15,
+				until_date : 86,
 			),
-			participants_count : 99,
+			participants_count : 84,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -236,35 +235,36 @@ $chatlistsChatlistInvite = $client->chatlists->chatlistInviteAlready(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 100,
+				max_id : 82,
 			),
 			color : $client->peerColor(
-				color : 3,
-				background_emoji_id : -5515372033089662735,
+				color : 84,
+				background_emoji_id : -258286778136568387,
 			),
 			profile_color : $client->peerColor(
-				color : 72,
-				background_emoji_id : -4861065466912729057,
+				color : 40,
+				background_emoji_id : -7371205268843217032,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 68,
-			subscription_until_date : 78,
-			bot_verification_icon : -2288573203436794947,
-			send_paid_messages_stars : -5808443411508346145,
-			linked_monoforum_id : 8494904959924799766,
+			level : 58,
+			subscription_until_date : 97,
+			bot_verification_icon : -781089147390125455,
+			send_paid_messages_stars : -8056915549163776796,
+			linked_monoforum_id : -2677917239463934301,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
-			id : -9039588686883540396,
-			access_hash : -6495243861134968355,
-			title : 'AgCDNTVHo13v6E5q',
-			until_date : 66,
+			monoforum : true,
+			id : -7875400159803383561,
+			access_hash : -165383425576519739,
+			title : 'CVZGvd9N8BJStsfy',
+			until_date : 32,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -4236881629455713773,
+			id : -4145973204367395968,
 		),
 		$client->user(
 			self : true,
@@ -293,24 +293,25 @@ $chatlistsChatlistInvite = $client->chatlists->chatlistInviteAlready(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -1461888996660913866,
-			access_hash : -1881480184553851180,
+			bot_forum_can_manage_topics : true,
+			id : 1698946013423489236,
+			access_hash : 6847298773926754865,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 13,
+			bot_info_version : 58,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'cLo2g97N0OAXMher',
-					reason : 'L2Rq8moDF3Se7kaG',
-					text : 'K2ocwhMnz45SFVrl',
+					platform : 'IqNDpiudmUfP49MY',
+					reason : 'bHaEIOLQCDY3s69Z',
+					text : '2CB7wO5930KPWiSu',
 				),
 			),
-			bot_inline_placeholder : 'GfIxCp5BoqeEbltT',
-			lang_code : 'DkiF3cfs6G7vlUW8',
+			bot_inline_placeholder : 'q6iVN5a3Bp0HnJME',
+			lang_code : '3Ws9T8eoyjVqmw5t',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -321,19 +322,19 @@ $chatlistsChatlistInvite = $client->chatlists->chatlistInviteAlready(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 51,
+				max_id : 85,
 			),
 			color : $client->peerColor(
-				color : 10,
-				background_emoji_id : 2879287331944670358,
+				color : 51,
+				background_emoji_id : -6190072286256951479,
 			),
 			profile_color : $client->peerColor(
-				color : 90,
-				background_emoji_id : -2903569306793845728,
+				color : 65,
+				background_emoji_id : -8728334329284135805,
 			),
-			bot_active_users : 84,
-			bot_verification_icon : -4709260606966820421,
-			send_paid_messages_stars : -1809652366886535755,
+			bot_active_users : 90,
+			bot_verification_icon : 2127467305456378635,
+			send_paid_messages_stars : -3570623684350529890,
 		),
 	),
 );

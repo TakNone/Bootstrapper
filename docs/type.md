@@ -39,6 +39,12 @@
 
 ---
 
+##### InputContact
+
+:link: [*Object defines a contact from the user&#039;s phone book*](type/InputContact)
+
+---
+
 ##### InputFile
 
 :link: [*Defines a file uploaded by the client*](type/InputFile)
@@ -3351,87 +3357,9 @@
 
 ---
 
-##### InputStarGiftAuction
-
-:link: [*NOTHING*](type/InputStarGiftAuction)
-
----
-
-##### StarGiftAuctionUserState
-
-:link: [*NOTHING*](type/StarGiftAuctionUserState)
-
----
-
-##### AuctionBidLevel
-
-:link: [*NOTHING*](type/AuctionBidLevel)
-
----
-
-##### messages MessageEmpty
-
-:link: [*NOTHING*](type/messages.MessageEmpty)
-
----
-
-##### StarGiftAuctionState
-
-:link: [*NOTHING*](type/StarGiftAuctionState)
-
----
-
-##### InputPhoneContact
-
-:link: [*NOTHING*](type/InputPhoneContact)
-
----
-
-##### RecentStory
-
-:link: [*NOTHING*](type/RecentStory)
-
----
-
-##### PremiumGiftOption
-
-:link: [*Telegram Premium gift option*](type/PremiumGiftOption)
-
----
-
-##### StarGiftActiveAuctions
-
-:link: [*NOTHING*](type/StarGiftActiveAuctions)
-
----
-
-##### messages WebViewResult
-
-:link: [*NOTHING*](type/messages.WebViewResult)
-
----
-
-##### StarGiftAuctionAcquiredGift
-
-:link: [*NOTHING*](type/StarGiftAuctionAcquiredGift)
-
----
-
-##### StarGiftActiveAuctionState
-
-:link: [*NOTHING*](type/StarGiftActiveAuctionState)
-
----
-
 ##### GroupCallDonor
 
 :link: [*NOTHING*](type/GroupCallDonor)
-
----
-
-##### payments StarGiftAuctionAcquiredGifts
-
-:link: [*NOTHING*](type/payments.StarGiftAuctionAcquiredGifts)
 
 ---
 
@@ -3441,6 +3369,138 @@
 
 ---
 
+##### RecentStory
+
+:link: [*NOTHING*](type/RecentStory)
+
+---
+
+##### AuctionBidLevel
+
+:link: [*NOTHING*](type/AuctionBidLevel)
+
+---
+
+##### StarGiftAuctionState
+
+:link: [*NOTHING*](type/StarGiftAuctionState)
+
+---
+
+##### StarGiftAuctionUserState
+
+:link: [*NOTHING*](type/StarGiftAuctionUserState)
+
+---
+
 ##### payments StarGiftAuctionState
 
 :link: [*NOTHING*](type/payments.StarGiftAuctionState)
+
+---
+
+##### StarGiftAuctionAcquiredGift
+
+:link: [*NOTHING*](type/StarGiftAuctionAcquiredGift)
+
+---
+
+##### payments StarGiftAuctionAcquiredGifts
+
+:link: [*NOTHING*](type/payments.StarGiftAuctionAcquiredGifts)
+
+---
+
+##### StarGiftActiveAuctionState
+
+:link: [*NOTHING*](type/StarGiftActiveAuctionState)
+
+---
+
+##### payments StarGiftActiveAuctions
+
+:link: [*NOTHING*](type/payments.StarGiftActiveAuctions)
+
+---
+
+##### InputStarGiftAuction
+
+:link: [*NOTHING*](type/InputStarGiftAuction)
+
+---
+
+##### Passkey
+
+:link: [*NOTHING*](type/Passkey)
+
+---
+
+##### account Passkeys
+
+:link: [*NOTHING*](type/account.Passkeys)
+
+---
+
+##### account PasskeyRegistrationOptions
+
+:link: [*NOTHING*](type/account.PasskeyRegistrationOptions)
+
+---
+
+##### auth PasskeyLoginOptions
+
+:link: [*NOTHING*](type/auth.PasskeyLoginOptions)
+
+---
+
+##### InputPasskeyResponse
+
+:link: [*NOTHING*](type/InputPasskeyResponse)
+
+---
+
+##### InputPasskeyCredential
+
+:link: [*NOTHING*](type/InputPasskeyCredential)
+
+---
+
+##### StarGiftBackground
+
+:link: [*NOTHING*](type/StarGiftBackground)
+
+---
+
+##### StarGiftAuctionRound
+
+:link: [*NOTHING*](type/StarGiftAuctionRound)
+
+---
+
+##### payments StarGiftUpgradeAttributes
+
+:link: [*NOTHING*](type/payments.StarGiftUpgradeAttributes)
+
+---
+
+##### messages EmojiGameOutcome
+
+:link: [*NOTHING*](type/messages.EmojiGameOutcome)
+
+---
+
+##### messages EmojiGameInfo
+
+:link: [*NOTHING*](type/messages.EmojiGameInfo)
+
+---
+
+##### StarGiftAttributeRarity
+
+:link: [*NOTHING*](type/StarGiftAttributeRarity)
+
+---
+
+##### KeyboardButtonStyle
+
+:link: [*NOTHING*](type/KeyboardButtonStyle)

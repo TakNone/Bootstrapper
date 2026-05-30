@@ -2,7 +2,7 @@
 
 **Description** : *Invite a set of users to a group call*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.inviteToGroupCall#7b393160 call:InputGroupCall users:Vector<InputUser> = Updates;
@@ -43,8 +43,8 @@ phone.inviteToGroupCall#7b393160 call:InputGroupCall users:Vector<InputUser> = U
 ```php
 $updates = $client->phone->inviteToGroupCall(
 	call : $client->inputGroupCall(
-		id : 2594609255606012244,
-		access_hash : -230766038952137431,
+		id : -5666198081439771786,
+		access_hash : 4922725300116705812,
 	),
 	users : array($client->get_input_user(user : '@TakNone')),
 );

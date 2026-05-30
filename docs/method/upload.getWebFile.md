@@ -2,7 +2,7 @@
 
 **Description** : *Returns content of a web file, by proxying the request through telegram, see the webfile docs for more info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 upload.getWebFile#24e6818d location:InputWebFileLocation offset:int limit:int = upload.WebFile;
@@ -41,9 +41,9 @@ upload.getWebFile#24e6818d location:InputWebFileLocation offset:int limit:int = 
 $uploadWebFile = $client->upload->getWebFile(
 	location : $client->inputWebFileLocation(
 		url : 'https://docs.liveproto.dev',
-		access_hash : -4297338680226552473,
+		access_hash : -7523695714472567843,
 	),
 	offset : 0,
-	limit : 66,
+	limit : 82,
 );
 ```

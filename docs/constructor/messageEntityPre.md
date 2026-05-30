@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing a preformatted codeblock, allowing the user to specify a programming language for the codeblock*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageEntityPre#73924be0 offset:int length:int language:string = MessageEntity;
@@ -31,7 +31,7 @@ messageEntityPre#73924be0 offset:int length:int language:string = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityPre(
 	offset : 0,
-	length : 44,
-	language : 'kc7UnWgwN5Q0z3rH',
+	length : 94,
+	language : '6EWiJBZgP3LFeIKS',
 );
 ```

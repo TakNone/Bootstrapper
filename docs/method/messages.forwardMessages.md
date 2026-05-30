@@ -2,10 +2,10 @@
 
 **Description** : *Forwards messages by their IDs*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-messages.forwardMessages#41d41ade flags:# silent:flags.5?true background:flags.6?true with_my_score:flags.8?true drop_author:flags.11?true drop_media_captions:flags.12?true noforwards:flags.14?true allow_paid_floodskip:flags.19?true from_peer:InputPeer id:Vector<int> random_id:Vector<long> to_peer:InputPeer top_msg_id:flags.9?int reply_to:flags.22?InputReplyTo schedule_date:flags.10?int schedule_repeat_period:flags.24?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut video_timestamp:flags.20?int allow_paid_stars:flags.21?long suggested_post:flags.23?SuggestedPost = Updates;
+messages.forwardMessages#13704a7c flags:# silent:flags.5?true background:flags.6?true with_my_score:flags.8?true drop_author:flags.11?true drop_media_captions:flags.12?true noforwards:flags.14?true allow_paid_floodskip:flags.19?true from_peer:InputPeer id:Vector<int> random_id:Vector<long> to_peer:InputPeer top_msg_id:flags.9?int reply_to:flags.22?InputReplyTo schedule_date:flags.10?int schedule_repeat_period:flags.24?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut effect:flags.18?long video_timestamp:flags.20?int allow_paid_stars:flags.21?long suggested_post:flags.23?SuggestedPost = Updates;
 ```
 
 ---
@@ -32,6 +32,7 @@ messages.forwardMessages#41d41ade flags:# silent:flags.5?true background:flags.6
 | **schedule_repeat_period** | [`flags.24?int`](type/int) | NOTHING |
 | **send_as** | [`flags.13?InputPeer`](type/InputPeer) | Forward the messages as the specified peer |
 | **quick_reply_shortcut** | [`flags.17?InputQuickReplyShortcut`](type/InputQuickReplyShortcut) | Add the messages to the specified quick reply shortcut », instead |
+| **effect** | [`flags.18?long`](type/long) | NOTHING |
 | **video_timestamp** | [`flags.20?int`](type/int) | Start playing the video at the specified timestamp (seconds) |
 | **allow_paid_stars** | [`flags.21?long`](type/long) | For paid messages », specifies the amount of Telegram Stars the user has agreed to pay in order to send the message |
 | **suggested_post** | [`flags.23?SuggestedPost`](type/SuggestedPost) | Used to suggest a post to a channel, see here » for more info on the full flow |
@@ -118,127 +119,128 @@ $updates = $client->messages->forwardMessages(
 	noforwards : true,
 	allow_paid_floodskip : true,
 	from_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(89),
-	random_id : array(-8152672868155067451),
+	id : array(78),
+	random_id : array(-649875337252219763),
 	to_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 9,
+	top_msg_id : 24,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 76,
-		top_msg_id : 100,
+		reply_to_msg_id : 2,
+		top_msg_id : 53,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'r4jdNs5ACezMfcgT',
+		quote_text : 'GxTYeiQFMkWKZ5sv',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 29,
+				length : 27,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 78,
+				length : 47,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 0,
+				length : 27,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 35,
+				length : 61,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 75,
+				length : 66,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 100,
+				length : 45,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 0,
+				length : 40,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 36,
+				length : 42,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 31,
+				length : 7,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 6,
-				language : 'XDFxhGETW3gdc2Lz',
+				length : 23,
+				language : 'pSDj9tN85xYIaoQO',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 85,
+				length : 10,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 67,
-				user_id : 7723488918126654675,
+				length : 0,
+				user_id : 7894075261149381,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 62,
+				length : 15,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 22,
+				length : 35,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 67,
+				length : 59,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 57,
+				length : 98,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 68,
+				length : 12,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 19,
+				length : 24,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 100,
+				length : 72,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 21,
-				document_id : -8873152932521317510,
+				length : 7,
+				document_id : 417320372424791914,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 77,
+				length : 100,
 			),
 		),
-		quote_offset : 13,
+		quote_offset : 48,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 31,
+		todo_item_id : 57,
 	),
-	schedule_date : 40,
-	schedule_repeat_period : 58,
+	schedule_date : 21,
+	schedule_repeat_period : 44,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'JjrEX82o0OlQZfzV',
+		shortcut : 'Xht4r8M5S6f7yRKe',
 	),
-	video_timestamp : 87,
-	allow_paid_stars : -7724112867650681712,
+	effect : 1259686180420209405,
+	video_timestamp : 83,
+	allow_paid_stars : -442965360967813805,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 4913849415897643476,
-			nanos : 4,
+			amount : -5102849318244787362,
+			nanos : 70,
 		),
-		schedule_date : 32,
+		schedule_date : 82,
 	),
 );
 ```

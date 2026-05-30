@@ -2,7 +2,7 @@
 
 **Description** : *Forum functionality was enabled or disabled*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channelAdminLogEventActionToggleForum#2cc6383 new_value:Bool = ChannelAdminLogEventAction;
@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleForum#2cc6383 new_value:Bool = ChannelAdminLogEv
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleForum(
-	new_value : false,
+	new_value : true,
 );
 ```

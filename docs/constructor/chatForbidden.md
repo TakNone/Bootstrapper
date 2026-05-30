@@ -2,7 +2,7 @@
 
 **Description** : *A group to which the user has no access\. E\.g\., because the user was kicked from the group*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 chatForbidden#6592a1a7 id:long title:string = Chat;
@@ -29,7 +29,7 @@ chatForbidden#6592a1a7 id:long title:string = Chat;
 
 ```php
 $chat = $client->chatForbidden(
-	id : -3576533392693152569,
-	title : '41F9k7UKOINVQHep',
+	id : 785697934900241477,
+	title : 'BGhKvOda63Hr7ZN0',
 );
 ```

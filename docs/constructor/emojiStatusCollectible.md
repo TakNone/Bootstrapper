@@ -2,7 +2,7 @@
 
 **Description** : *An owned collectible gift &raquo; as emoji status*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 emojiStatusCollectible#7184603b flags:# collectible_id:long document_id:long title:string slug:string pattern_document_id:long center_color:int edge_color:int pattern_color:int text_color:int until:flags.0?int = EmojiStatus;
@@ -38,15 +38,15 @@ emojiStatusCollectible#7184603b flags:# collectible_id:long document_id:long tit
 
 ```php
 $emojiStatus = $client->emojiStatusCollectible(
-	collectible_id : -9138238405309194109,
-	document_id : -4066814959248407333,
-	title : 'G70dqhO3WgJZ6KlS',
-	slug : 'KVBOhYn6TxmR5bz4',
-	pattern_document_id : 4708794612098797179,
-	center_color : 14,
-	edge_color : 11,
-	pattern_color : 81,
-	text_color : 96,
-	until : 81,
+	collectible_id : -1606475209704690387,
+	document_id : -6489453541180220719,
+	title : '6PjqW1dDNQAFfI7z',
+	slug : 'RP1Om0I3wTNhCiHF',
+	pattern_document_id : -1893862993195637844,
+	center_color : 59,
+	edge_color : 56,
+	pattern_color : 53,
+	text_color : 63,
+	until : 94,
 );
 ```

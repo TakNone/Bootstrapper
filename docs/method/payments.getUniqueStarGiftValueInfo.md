@@ -2,7 +2,7 @@
 
 **Description** : *Get information about the value of a collectible gift &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.getUniqueStarGiftValueInfo#4365af6b slug:string = payments.UniqueStarGiftValueInfo;
@@ -36,6 +36,6 @@ payments.getUniqueStarGiftValueInfo#4365af6b slug:string = payments.UniqueStarGi
 
 ```php
 $paymentsUniqueStarGiftValueInfo = $client->payments->getUniqueStarGiftValueInfo(
-	slug : 'G8psPlFcja3mHBIK',
+	slug : 'CY0jodSQ25FxbgRy',
 );
 ```

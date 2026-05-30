@@ -2,10 +2,10 @@
 
 **Description** : *Button to request a user to authorize via URL using Seamless Telegram Login*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-inputKeyboardButtonUrlAuth#d02e7fd4 flags:# request_write_access:flags.0?true text:string fwd_text:flags.1?string url:string bot:InputUser = KeyboardButton;
+inputKeyboardButtonUrlAuth#68013e72 flags:# request_write_access:flags.0?true style:flags.10?KeyboardButtonStyle text:string fwd_text:flags.1?string url:string bot:InputUser = KeyboardButton;
 ```
 
 ---
@@ -16,6 +16,7 @@ inputKeyboardButtonUrlAuth#d02e7fd4 flags:# request_write_access:flags.0?true te
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **request_write_access** | [`flags.0?true`](type/true) | Set this flag to request the permission for your bot to send messages to the user |
+| **style** | [`flags.10?KeyboardButtonStyle`](type/KeyboardButtonStyle) | NOTHING |
 | <mark>text</mark> | [`string`](type/string) | Button text |
 | **fwd_text** | [`flags.1?string`](type/string) | New text of the button in forwarded messages |
 | <mark>url</mark> | [`string`](type/string) | An HTTP URL to be opened with user authorization data added to the query string when the button is pressed. If the user refuses to provide authorization data, the original URL without information about the user will be opened. The data added is the same as described in Receiving authorization data.NOTE: You must always check the hash of the received data to verify the authentication and the integrity of the data as described in Checking authorization |
@@ -34,8 +35,14 @@ inputKeyboardButtonUrlAuth#d02e7fd4 flags:# request_write_access:flags.0?true te
 ```php
 $keyboardButton = $client->inputKeyboardButtonUrlAuth(
 	request_write_access : true,
-	text : 'sipjLIwTQUFAhvgS',
-	fwd_text : 'cJCtGgjbEQP5m1wn',
+	style : $client->keyboardButtonStyle(
+		bg_primary : true,
+		bg_danger : true,
+		bg_success : true,
+		icon : 121422998232573245,
+	),
+	text : '4rPAhbVcj7XDNuYe',
+	fwd_text : 'gBhG5pvZeP38toLY',
 	url : 'https://docs.liveproto.dev',
 	bot : $client->get_input_user(user : '@TakNone'),
 );

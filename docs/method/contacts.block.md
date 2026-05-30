@@ -2,7 +2,7 @@
 
 **Description** : *Adds a peer to a blocklist, see here &raquo; for more info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 contacts.block#2e2e8734 flags:# my_stories_from:flags.0?true id:InputPeer = Bool;

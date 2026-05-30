@@ -2,7 +2,7 @@
 
 **Description** : *Temporary password*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.tmpPassword#db64fd34 tmp_password:bytes valid_until:int = account.TmpPassword;

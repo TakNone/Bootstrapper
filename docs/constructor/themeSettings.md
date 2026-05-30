@@ -2,7 +2,7 @@
 
 **Description** : *Theme settings*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 themeSettings#fa58b6d4 flags:# message_colors_animated:flags.2?true base_theme:BaseTheme accent_color:int outbox_accent_color:flags.3?int message_colors:flags.0?Vector<int> wallpaper:flags.1?WallPaper = ThemeSettings;
@@ -36,30 +36,30 @@ themeSettings#fa58b6d4 flags:# message_colors_animated:flags.2?true base_theme:B
 $themeSettings = $client->themeSettings(
 	message_colors_animated : true,
 	base_theme : $client->baseThemeClassic(),
-	accent_color : 93,
-	outbox_accent_color : 71,
-	message_colors : array(63),
+	accent_color : 75,
+	outbox_accent_color : 90,
+	message_colors : array(23),
 	wallpaper : $client->wallPaper(
-		id : -2178984523239758440,
+		id : 4119544016673079132,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : -4572921975109857724,
-		slug : '4758kF1wKQNEMGHr',
+		access_hash : -6929932961840980034,
+		slug : '3nG0oZw46YXICeyv',
 		document : $client->documentEmpty(
-			id : 6810439217145605604,
+			id : -8913295254627184735,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 63,
-			second_background_color : 31,
-			third_background_color : 85,
-			fourth_background_color : 34,
-			intensity : 87,
-			rotation : 63,
-			emoticon : 'E8BesXWCH7m5SpjM',
+			background_color : 90,
+			second_background_color : 12,
+			third_background_color : 71,
+			fourth_background_color : 12,
+			intensity : 46,
+			rotation : 5,
+			emoticon : '0C6U2sBgfPSa8jIR',
 		),
 	),
 );

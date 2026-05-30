@@ -2,7 +2,7 @@
 
 **Description** : *Set whether all users should request admin approval to join the group &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.toggleJoinRequest#4c2985b6 channel:InputChannel enabled:Bool = Updates;

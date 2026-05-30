@@ -2,7 +2,7 @@
 
 **Description** : *Represents a color palette that can be used in profile pages &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.peerColorProfileSet#767d61eb palette_colors:Vector<int> bg_colors:Vector<int> story_colors:Vector<int> = help.PeerColorSet;
@@ -30,8 +30,8 @@ help.peerColorProfileSet#767d61eb palette_colors:Vector<int> bg_colors:Vector<in
 
 ```php
 $helpPeerColorSet = $client->help->peerColorProfileSet(
-	palette_colors : array(79),
-	bg_colors : array(83),
-	story_colors : array(73),
+	palette_colors : array(6),
+	bg_colors : array(37),
+	story_colors : array(39),
 );
 ```

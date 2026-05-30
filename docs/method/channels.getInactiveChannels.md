@@ -2,7 +2,7 @@
 
 **Description** : *Get inactive channels and supergroups*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.getInactiveChannels#11e831ee = messages.InactiveChats;

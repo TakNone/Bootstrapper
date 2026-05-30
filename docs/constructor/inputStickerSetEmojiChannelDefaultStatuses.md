@@ -2,7 +2,7 @@
 
 **Description** : *Default custom emoji status stickerset for channel statuses*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputStickerSetEmojiChannelDefaultStatuses#49748553 = InputStickerSet;

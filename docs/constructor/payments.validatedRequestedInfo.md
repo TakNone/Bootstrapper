@@ -2,7 +2,7 @@
 
 **Description** : *Validated user\-provided info*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.validatedRequestedInfo#d1451883 flags:# id:flags.0?string shipping_options:flags.1?Vector<ShippingOption> = payments.ValidatedRequestedInfo;
@@ -30,15 +30,15 @@ payments.validatedRequestedInfo#d1451883 flags:# id:flags.0?string shipping_opti
 
 ```php
 $paymentsValidatedRequestedInfo = $client->payments->validatedRequestedInfo(
-	id : '390mo4sND6CfHrhy',
+	id : 'fNOKMdVzJG6TyuPb',
 	shipping_options : array(
 		$client->shippingOption(
-			id : 'sjBRpkzyaXYP4w3C',
-			title : 'aRhI6SQoembrWqDF',
+			id : 'G0WTR6Z5xF4LyUct',
+			title : 'LEvBJ85yACpTi7jb',
 			prices : array(
 				$client->labeledPrice(
-					label : 'YWrPpZ652euwTaHR',
-					amount : 824416884818731678,
+					label : 'Xeg4DTc7L8KBFlpN',
+					amount : -4213331660966601154,
 				),
 			),
 		),

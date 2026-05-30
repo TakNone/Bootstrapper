@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Passport authorization form*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.authorizationForm#ad2e1cd8 flags:# required_types:Vector<SecureRequiredType> values:Vector<SecureValue> errors:Vector<SecureValueError> users:Vector<User> privacy_policy_url:flags.0?string = account.AuthorizationForm;
@@ -81,11 +81,11 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 			translation : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : -5559755478653707310,
-					access_hash : 1405215317600639522,
-					size : -7578378586367040597,
-					dc_id : 4,
-					date : 8,
+					id : -105642208840377734,
+					access_hash : 4253411488800810184,
+					size : -8181641015890024583,
+					dc_id : 60,
+					date : 40,
 					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
@@ -93,11 +93,11 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 			files : array(
 				$client->secureFileEmpty(),
 				$client->secureFile(
-					id : -2936035636972197863,
-					access_hash : 7594181832506409734,
-					size : -4455757516383723017,
-					dc_id : 90,
-					date : 4,
+					id : -6120595394098425018,
+					access_hash : 2268369522303884122,
+					size : 7345387977447521745,
+					dc_id : 44,
+					date : 13,
 					file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 					secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
@@ -112,53 +112,53 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 		$client->secureValueErrorData(
 			type : $client->secureValueTypePersonalDetails(),
 			data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			field : 'fAwpjdml0zKgihvk',
-			text : 'kKRZ0x5zPhW3QETX',
+			field : '5q3Tj0NExQFpJB14',
+			text : 'C8Jz5QAsKHY6ImEp',
 		),
 		$client->secureValueErrorFrontSide(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : '5ta2OuYPXKMBNRhJ',
+			text : 'xansdA1u3RNGISlW',
 		),
 		$client->secureValueErrorReverseSide(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : '9rUNFq30Mp87QS5k',
+			text : 'tAU57eIDzck39ZgY',
 		),
 		$client->secureValueErrorSelfie(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'JTI75EBqWvbgsjYz',
+			text : '2asRTo9YKz56f0iy',
 		),
 		$client->secureValueErrorFile(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'xYf6eQkAqGFRPbwW',
+			text : 'HBGP0zesciZDX2Ex',
 		),
 		$client->secureValueErrorFiles(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-			text : 'FIOe9r8zqKit3EnQ',
+			text : 'RCar5uAn9N2wpIme',
 		),
 		$client->secureValueError(
 			type : $client->secureValueTypePersonalDetails(),
 			hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'Tsh1o9zO0UNQlHdI',
+			text : 'oNVrW3AdG1xkq874',
 		),
 		$client->secureValueErrorTranslationFile(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : '8WJlDFEULR3IkGO2',
+			text : 'vS1scIBfmGYntOiU',
 		),
 		$client->secureValueErrorTranslationFiles(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-			text : 'Bcpm9G2T0Z6fetWz',
+			text : 'aF3ZoRj0mfyzYH59',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 1744620062919642054,
+			id : 178969145084645924,
 		),
 		$client->user(
 			self : true,
@@ -187,24 +187,25 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : -3540800521367957612,
-			access_hash : -4060248147477273441,
+			bot_forum_can_manage_topics : true,
+			id : -4703015945914546326,
+			access_hash : -6639504661925462424,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 83,
+			bot_info_version : 32,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'ct6ZIm95oJuXdarp',
-					reason : 'I4gCNBcv52jRxGl9',
-					text : 'urCiB2maXDQN6dZV',
+					platform : 'WlQMbPmp90sG83cD',
+					reason : 'C2wo0OPYSLHKzGcv',
+					text : 'g0fVpXtASKkl3veO',
 				),
 			),
-			bot_inline_placeholder : 'AYDFH0uikPzTVhpf',
-			lang_code : 'vyWsYDiRckG1Qet0',
+			bot_inline_placeholder : 'T6iSDkwl4U1h5CAJ',
+			lang_code : 'iTKfE02gbM1RLGB4',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -215,19 +216,19 @@ $accountAuthorizationForm = $client->account->authorizationForm(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 82,
+				max_id : 42,
 			),
 			color : $client->peerColor(
-				color : 63,
-				background_emoji_id : -1401820886472724036,
+				color : 12,
+				background_emoji_id : 4398294637193405334,
 			),
 			profile_color : $client->peerColor(
-				color : 89,
-				background_emoji_id : 3834263160496646964,
+				color : 87,
+				background_emoji_id : -5069562122494192711,
 			),
-			bot_active_users : 38,
-			bot_verification_icon : -6344388372543511,
-			send_paid_messages_stars : -4392450232287220783,
+			bot_active_users : 66,
+			bot_verification_icon : 2539321719661932053,
+			send_paid_messages_stars : -5087708084253869074,
 		),
 	),
 	privacy_policy_url : 'https://docs.liveproto.dev',

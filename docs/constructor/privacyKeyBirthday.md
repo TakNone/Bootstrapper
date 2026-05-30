@@ -2,7 +2,7 @@
 
 **Description** : *Whether the user can see our birthday*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 privacyKeyBirthday#2000a518 = PrivacyKey;

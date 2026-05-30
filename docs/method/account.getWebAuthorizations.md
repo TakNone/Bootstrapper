@@ -2,7 +2,7 @@
 
 **Description** : *Get web login widget authorizations*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.getWebAuthorizations#182e6d6f = account.WebAuthorizations;

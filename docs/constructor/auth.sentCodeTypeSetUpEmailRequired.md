@@ -2,7 +2,7 @@
 
 **Description** : *The user should add and verify an email address in order to login as described here &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 auth.sentCodeTypeSetUpEmailRequired#a5491dea flags:# apple_signin_allowed:flags.0?true google_signin_allowed:flags.1?true = auth.SentCodeType;

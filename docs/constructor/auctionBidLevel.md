@@ -1,6 +1,6 @@
 # auctionBidLevel
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
@@ -28,8 +28,8 @@ auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
 
 ```php
 $auctionBidLevel = $client->auctionBidLevel(
-	pos : 64,
-	amount : 6328819917915225770,
-	date : 35,
+	pos : 18,
+	amount : -137346746965999318,
+	date : 21,
 );
 ```

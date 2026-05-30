@@ -2,7 +2,7 @@
 
 **Description** : *User is uploading a video*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 sendMessageUploadVideoAction#e9763aec progress:int = SendMessageAction;
@@ -28,6 +28,6 @@ sendMessageUploadVideoAction#e9763aec progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageUploadVideoAction(
-	progress : 43,
+	progress : 56,
 );
 ```

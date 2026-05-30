@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Star transaction with another peer*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 starsTransactionPeer#d80da15d peer:Peer = StarsTransactionPeer;
@@ -29,7 +29,7 @@ starsTransactionPeer#d80da15d peer:Peer = StarsTransactionPeer;
 ```php
 $starsTransactionPeer = $client->starsTransactionPeer(
 	peer : $client->peerUser(
-		user_id : -2570058760481693241,
+		user_id : -4205402558626808536,
 	),
 );
 ```

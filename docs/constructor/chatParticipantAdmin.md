@@ -2,7 +2,7 @@
 
 **Description** : *Chat admin*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 chatParticipantAdmin#a0933f5b user_id:long inviter_id:long date:int = ChatParticipant;
@@ -30,8 +30,8 @@ chatParticipantAdmin#a0933f5b user_id:long inviter_id:long date:int = ChatPartic
 
 ```php
 $chatParticipant = $client->chatParticipantAdmin(
-	user_id : -7580379910000260523,
-	inviter_id : -7964750139295092717,
-	date : 62,
+	user_id : -869106082925900689,
+	inviter_id : -719785278976905032,
+	date : 73,
 );
 ```

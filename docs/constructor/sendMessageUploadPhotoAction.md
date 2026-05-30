@@ -2,7 +2,7 @@
 
 **Description** : *User is uploading a photo*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 sendMessageUploadPhotoAction#d1d34a26 progress:int = SendMessageAction;
@@ -28,6 +28,6 @@ sendMessageUploadPhotoAction#d1d34a26 progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageUploadPhotoAction(
-	progress : 20,
+	progress : 98,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *The ID of a model of a collectible gift &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 starGiftAttributeIdModel#48aaae3c document_id:long = StarGiftAttributeId;
@@ -28,6 +28,6 @@ starGiftAttributeIdModel#48aaae3c document_id:long = StarGiftAttributeId;
 
 ```php
 $starGiftAttributeId = $client->starGiftAttributeIdModel(
-	document_id : 7181066459915357300,
+	document_id : -6776702733316195966,
 );
 ```

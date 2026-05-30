@@ -2,7 +2,7 @@
 
 **Description** : *Autodownload settings*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 autoDownloadSettings#baa57628 flags:# disabled:flags.0?true video_preload_large:flags.1?true audio_preload_next:flags.2?true phonecalls_less_data:flags.3?true stories_preload:flags.4?true photo_size_max:int video_size_max:long file_size_max:long video_upload_maxbitrate:int small_queue_active_operations_max:int large_queue_active_operations_max:int = AutoDownloadSettings;
@@ -44,11 +44,11 @@ $autoDownloadSettings = $client->autoDownloadSettings(
 	audio_preload_next : true,
 	phonecalls_less_data : true,
 	stories_preload : true,
-	photo_size_max : 93,
-	video_size_max : 7756626379449575103,
-	file_size_max : -5742441409675640798,
-	video_upload_maxbitrate : 71,
-	small_queue_active_operations_max : 46,
-	large_queue_active_operations_max : 23,
+	photo_size_max : 68,
+	video_size_max : -1941252741211033140,
+	file_size_max : 2373074468073524913,
+	video_upload_maxbitrate : 78,
+	small_queue_active_operations_max : 94,
+	large_queue_active_operations_max : 34,
 );
 ```

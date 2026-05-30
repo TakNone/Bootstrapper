@@ -2,7 +2,7 @@
 
 **Description** : *The phone call was discarded because the user is busy in another call*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phoneCallDiscardReasonBusy#faf7e8c9 = PhoneCallDiscardReason;

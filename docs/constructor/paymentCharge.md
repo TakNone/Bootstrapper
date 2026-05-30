@@ -2,7 +2,7 @@
 
 **Description** : *Payment identifier*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 paymentCharge#ea02c27e id:string provider_charge_id:string = PaymentCharge;
@@ -29,7 +29,7 @@ paymentCharge#ea02c27e id:string provider_charge_id:string = PaymentCharge;
 
 ```php
 $paymentCharge = $client->paymentCharge(
-	id : 'K0vuPzjHUO8lihbM',
-	provider_charge_id : 'eL9AdjSPpCIByr1K',
+	id : 'zgtSuDqcvO8Q7MZW',
+	provider_charge_id : 'mHpMJQSAZCnx6BDV',
 );
 ```

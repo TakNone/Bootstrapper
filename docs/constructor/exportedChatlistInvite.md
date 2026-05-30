@@ -2,10 +2,10 @@
 
 **Description** : *Exported chat folder deep link &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-exportedChatlistInvite#c5181ac flags:# revoked:flags.0?true title:string url:string peers:Vector<Peer> = ExportedChatlistInvite;
+exportedChatlistInvite#c5181ac flags:# title:string url:string peers:Vector<Peer> = ExportedChatlistInvite;
 ```
 
 ---
@@ -15,7 +15,6 @@ exportedChatlistInvite#c5181ac flags:# revoked:flags.0?true title:string url:str
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| **revoked** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>title</mark> | [`string`](type/string) | Name of the link |
 | <mark>url</mark> | [`string`](type/string) | The chat folder deep link » |
 | <mark>peers</mark> | [`Vector<Peer>`](type/Peer) | Peers to import |
@@ -32,18 +31,17 @@ exportedChatlistInvite#c5181ac flags:# revoked:flags.0?true title:string url:str
 
 ```php
 $exportedChatlistInvite = $client->exportedChatlistInvite(
-	revoked : true,
-	title : 'SnZEyIUjlfDYe4ou',
+	title : 'YjLPyTsCatZhw4BE',
 	url : 'https://docs.liveproto.dev',
 	peers : array(
 		$client->peerUser(
-			user_id : 2982904712467487301,
+			user_id : 5711844710013247016,
 		),
 		$client->peerChat(
-			chat_id : -5459504465235945189,
+			chat_id : -2527342024685981190,
 		),
 		$client->peerChannel(
-			channel_id : 5290624430908113953,
+			channel_id : -224500452503128822,
 		),
 	),
 );

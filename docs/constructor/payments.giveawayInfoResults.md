@@ -2,7 +2,7 @@
 
 **Description** : *A giveaway has ended*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.giveawayInfoResults#e175e66f flags:# winner:flags.0?true refunded:flags.1?true start_date:int gift_code_slug:flags.3?string stars_prize:flags.4?long finish_date:int winners_count:int activated_count:flags.2?int = payments.GiveawayInfo;
@@ -38,11 +38,11 @@ payments.giveawayInfoResults#e175e66f flags:# winner:flags.0?true refunded:flags
 $paymentsGiveawayInfo = $client->payments->giveawayInfoResults(
 	winner : true,
 	refunded : true,
-	start_date : 93,
-	gift_code_slug : '6JnbrWeovXjtDluh',
-	stars_prize : 3987630550770238875,
-	finish_date : 26,
-	winners_count : 100,
-	activated_count : 28,
+	start_date : 78,
+	gift_code_slug : 'aTWglw5NGHzUIQPS',
+	stars_prize : -6035424239186251925,
+	finish_date : 53,
+	winners_count : 61,
+	activated_count : 16,
 );
 ```

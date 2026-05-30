@@ -2,7 +2,7 @@
 
 **Description** : *Items were marked as completed or not completed in a todo list &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageActionTodoCompletions#cc7c5c89 completed:Vector<int> incompleted:Vector<int> = MessageAction;
@@ -29,7 +29,7 @@ messageActionTodoCompletions#cc7c5c89 completed:Vector<int> incompleted:Vector<i
 
 ```php
 $messageAction = $client->messageActionTodoCompletions(
-	completed : array(34),
-	incompleted : array(82),
+	completed : array(27),
+	incompleted : array(65),
 );
 ```

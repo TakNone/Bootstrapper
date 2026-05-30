@@ -2,7 +2,7 @@
 
 **Description** : *The user is preparing a message in a group; typing, recording, uploading, etc\. This update is valid for 6 seconds\. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateChatUserTyping#83487af0 chat_id:long from_id:Peer action:SendMessageAction = Update;
@@ -30,9 +30,9 @@ updateChatUserTyping#83487af0 chat_id:long from_id:Peer action:SendMessageAction
 
 ```php
 $update = $client->updateChatUserTyping(
-	chat_id : -630949995776749801,
+	chat_id : -8621262486490157651,
 	from_id : $client->peerUser(
-		user_id : 5205845876812313365,
+		user_id : 2139930527447903476,
 	),
 	action : $client->sendMessageTypingAction(),
 );

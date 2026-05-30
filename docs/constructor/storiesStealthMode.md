@@ -2,7 +2,7 @@
 
 **Description** : *Information about the current stealth mode session*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 storiesStealthMode#712e27fd flags:# active_until_date:flags.0?int cooldown_until_date:flags.1?int = StoriesStealthMode;
@@ -30,7 +30,7 @@ storiesStealthMode#712e27fd flags:# active_until_date:flags.0?int cooldown_until
 
 ```php
 $storiesStealthMode = $client->storiesStealthMode(
-	active_until_date : 23,
-	cooldown_until_date : 100,
+	active_until_date : 11,
+	cooldown_until_date : 12,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Forwarded document*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputMediaDocument#a8763ab5 flags:# spoiler:flags.2?true id:InputDocument video_cover:flags.3?InputPhoto video_timestamp:flags.4?int ttl_seconds:flags.0?int query:flags.1?string = InputMedia;
@@ -37,8 +37,8 @@ $inputMedia = $client->inputMediaDocument(
 	spoiler : true,
 	id : $client->inputDocumentEmpty(),
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 83,
-	ttl_seconds : 67,
-	query : 'JuDrYN0p2VT3LRfm',
+	video_timestamp : 6,
+	ttl_seconds : 41,
+	query : '74gNWyYKlepiBVJM',
 );
 ```

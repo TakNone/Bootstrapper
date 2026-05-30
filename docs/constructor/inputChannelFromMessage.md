@@ -2,7 +2,7 @@
 
 **Description** : *Defines a min channel that was seen in a certain message of a certain chat*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputChannelFromMessage#5b934f9d peer:InputPeer msg_id:int channel_id:long = InputChannel;
@@ -31,7 +31,7 @@ inputChannelFromMessage#5b934f9d peer:InputPeer msg_id:int channel_id:long = Inp
 ```php
 $inputChannel = $client->inputChannelFromMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 58,
-	channel_id : -7031800937009930842,
+	msg_id : 56,
+	channel_id : -1935733694106907845,
 );
 ```

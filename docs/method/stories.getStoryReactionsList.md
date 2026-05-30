@@ -2,7 +2,7 @@
 
 **Description** : *Get the reaction and interaction list of a story posted to a channel, along with the sender of each reaction*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 stories.getStoryReactionsList#b9b2881f flags:# forwards_first:flags.2?true peer:InputPeer id:int reaction:flags.0?Reaction offset:flags.1?string limit:int = stories.StoryReactionsList;
@@ -44,9 +44,9 @@ stories.getStoryReactionsList#b9b2881f flags:# forwards_first:flags.2?true peer:
 $storiesStoryReactionsList = $client->stories->getStoryReactionsList(
 	forwards_first : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 24,
+	id : 94,
 	reaction : $client->reactionEmpty(),
-	offset : 'HhFG1b7VItl4Cqzy',
-	limit : 74,
+	offset : 'raWsjqcx69uFCoLD',
+	limit : 52,
 );
 ```

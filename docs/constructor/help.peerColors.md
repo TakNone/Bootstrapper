@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about multiple color palettes &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.peerColors#f8ed08 hash:int colors:Vector<help.PeerColorOption> = help.PeerColors;
@@ -33,15 +33,15 @@ $helpPeerColors = $client->help->peerColors(
 	colors : array(
 		$client->help->peerColorOption(
 			hidden : true,
-			color_id : 99,
+			color_id : 3,
 			colors : $client->help->peerColorSet(
-				colors : array(8),
+				colors : array(34),
 			),
 			dark_colors : $client->help->peerColorSet(
-				colors : array(11),
+				colors : array(21),
 			),
-			channel_min_level : 92,
-			group_min_level : 60,
+			channel_min_level : 77,
+			group_min_level : 67,
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.reportSpam#f44a8315 channel:InputChannel participant:InputPeer id:Vector<int> = Bool;
@@ -44,6 +44,6 @@ channels.reportSpam#f44a8315 channel:InputChannel participant:InputPeer id:Vecto
 $bool = $client->channels->reportSpam(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(27),
+	id : array(18),
 );
 ```

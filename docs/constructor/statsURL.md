@@ -2,7 +2,7 @@
 
 **Description** : *URL with chat statistics*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 statsURL#47a971e0 url:string = StatsURL;

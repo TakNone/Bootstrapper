@@ -2,7 +2,7 @@
 
 **Description** : *Describes a list of users \(or bots\)*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 users.users#62d706b8 users:Vector<User> = users.Users;
@@ -30,7 +30,7 @@ users.users#62d706b8 users:Vector<User> = users.Users;
 $usersUsers = $client->users->users(
 	users : array(
 		$client->userEmpty(
-			id : 4398593061517390384,
+			id : 7826867073053568009,
 		),
 		$client->user(
 			self : true,
@@ -59,24 +59,25 @@ $usersUsers = $client->users->users(
 			bot_business : true,
 			bot_has_main_app : true,
 			bot_forum_view : true,
-			id : 3901593336407224726,
-			access_hash : 8659890606854072930,
+			bot_forum_can_manage_topics : true,
+			id : 515479873300726464,
+			access_hash : -1790086827005602483,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 88,
+			bot_info_version : 64,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'Kld41P2M9FTxOIuk',
-					reason : 'NL8puTxPX30MDiIG',
-					text : 'mXTLUrst4fzkpo0a',
+					platform : 'jXf5Z6Ssxy24PmeM',
+					reason : 'UcgPNKp6vYbl8nHG',
+					text : '8o9G0cB7AjaTtKHx',
 				),
 			),
-			bot_inline_placeholder : '7pWM1lB5I0qhKesf',
-			lang_code : '71yEhFMGOQ2m5aqB',
+			bot_inline_placeholder : '29B5s4elSmtxQAXd',
+			lang_code : 'YaHmDMzdrivLSQNT',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -87,19 +88,19 @@ $usersUsers = $client->users->users(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 6,
+				max_id : 2,
 			),
 			color : $client->peerColor(
-				color : 94,
-				background_emoji_id : 1186322042853788946,
+				color : 85,
+				background_emoji_id : 6705952983183782222,
 			),
 			profile_color : $client->peerColor(
-				color : 60,
-				background_emoji_id : 7784819780071674651,
+				color : 47,
+				background_emoji_id : -6781926398284813846,
 			),
-			bot_active_users : 58,
-			bot_verification_icon : -3746752137550848455,
-			send_paid_messages_stars : -128210679540028688,
+			bot_active_users : 78,
+			bot_verification_icon : -3158896415285759543,
+			send_paid_messages_stars : -1623750742998405305,
 		),
 	),
 );

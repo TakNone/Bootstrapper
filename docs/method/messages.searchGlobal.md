@@ -2,7 +2,7 @@
 
 **Description** : *Search for messages and peers globally*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.searchGlobal#4bc6589a flags:# broadcasts_only:flags.1?true groups_only:flags.2?true users_only:flags.3?true folder_id:flags.0?int q:string filter:MessagesFilter min_date:int max_date:int offset_rate:int offset_peer:InputPeer offset_id:int limit:int = messages.Messages;
@@ -53,14 +53,14 @@ $messagesMessages = $client->messages->searchGlobal(
 	broadcasts_only : true,
 	groups_only : true,
 	users_only : true,
-	folder_id : 78,
-	q : 'qrDuzN4mejRyQMSt',
+	folder_id : 100,
+	q : 'zENWIjtXD24RqO5H',
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 89,
-	max_date : 8,
+	min_date : 93,
+	max_date : 1,
 	offset_rate : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	limit : 65,
+	limit : 12,
 );
 ```

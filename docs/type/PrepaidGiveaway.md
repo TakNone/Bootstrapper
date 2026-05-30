@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a prepaid giveaway &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 prepaidGiveaway#b2539d54 id:long months:int quantity:int date:int = PrepaidGiveaway;

@@ -2,7 +2,7 @@
 
 **Description** : *An update is available for the application*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.appUpdate#ccbbce30 flags:# can_not_skip:flags.0?true id:int version:string text:string entities:Vector<MessageEntity> document:flags.1?Document url:flags.2?string sticker:flags.3?Document = help.AppUpdate;
@@ -37,64 +37,64 @@ help.appUpdate#ccbbce30 flags:# can_not_skip:flags.0?true id:int version:string 
 ```php
 $helpAppUpdate = $client->help->appUpdate(
 	can_not_skip : true,
-	id : 52,
-	version : 'ifTdZjhyrqzFWV80',
-	text : 'Vz0cR376vx54WqDu',
+	id : 78,
+	version : 'OFfN94BMZgUA1HqE',
+	text : 'MqglyHACRxu5VfTX',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 46,
+			length : 57,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 60,
+			length : 97,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 52,
+			length : 78,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 100,
+			length : 61,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 39,
+			length : 4,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 93,
+			length : 70,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 73,
+			length : 83,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 52,
+			length : 18,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 72,
+			length : 32,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 34,
-			language : 'XSFpEdhqLAP451CV',
+			length : 4,
+			language : 'uziVKnO0XdmQpRs2',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 76,
+			length : 36,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 93,
-			user_id : -4710547693622163893,
+			length : 36,
+			user_id : -1096689720618033292,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 91,
+			length : 51,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
@@ -103,41 +103,41 @@ $helpAppUpdate = $client->help->appUpdate(
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 56,
+			length : 68,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 72,
+			length : 14,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 76,
+			length : 31,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 21,
+			length : 100,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 77,
+			length : 64,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 93,
-			document_id : 5149961956058668288,
+			length : 22,
+			document_id : 109738682618266195,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 49,
+			length : 80,
 		),
 	),
 	document : $client->documentEmpty(
-		id : 7411918697653403103,
+		id : 1103452465190020045,
 	),
 	url : 'https://docs.liveproto.dev',
 	sticker : $client->documentEmpty(
-		id : 1677342453623177632,
+		id : -3182929740146912924,
 	),
 );
 ```

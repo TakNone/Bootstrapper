@@ -2,7 +2,7 @@
 
 **Description** : *Get featured stickers*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messages.getFeaturedStickers#64780b14 hash:long = messages.FeaturedStickers;

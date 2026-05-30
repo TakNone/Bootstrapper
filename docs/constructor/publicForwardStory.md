@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a forward of a story as a repost by a public channel*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 publicForwardStory#edf3add0 peer:Peer story:StoryItem = PublicForward;
@@ -30,10 +30,10 @@ publicForwardStory#edf3add0 peer:Peer story:StoryItem = PublicForward;
 ```php
 $publicForward = $client->publicForwardStory(
 	peer : $client->peerUser(
-		user_id : -6345011561537685183,
+		user_id : -7211639053408435159,
 	),
 	story : $client->storyItemDeleted(
-		id : 32,
+		id : 24,
 	),
 );
 ```

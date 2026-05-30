@@ -214,6 +214,18 @@ The generated login token should be encoded using base64url, then shown as a tg:
 
 ---
 
+##### auth initPasskeyLogin
+
+:link: [*NOTHING*](method/auth.initPasskeyLogin)
+
+---
+
+##### auth finishPasskeyLogin
+
+:link: [*NOTHING*](method/auth.finishPasskeyLogin)
+
+---
+
 ##### account registerDevice
 
 :link: [*Register device to receive PUSH notifications*](method/account.registerDevice)
@@ -932,6 +944,30 @@ This method can be used to fetch info about a not\-yet\-cached business connecti
 
 ---
 
+##### account initPasskeyRegistration
+
+:link: [*NOTHING*](method/account.initPasskeyRegistration)
+
+---
+
+##### account registerPasskey
+
+:link: [*NOTHING*](method/account.registerPasskey)
+
+---
+
+##### account getPasskeys
+
+:link: [*NOTHING*](method/account.getPasskeys)
+
+---
+
+##### account deletePasskey
+
+:link: [*NOTHING*](method/account.deletePasskey)
+
+---
+
 ##### users getUsers
 
 :link: [*Returns basic user info according to their identifiers*](method/users.getUsers)
@@ -1140,12 +1176,6 @@ Returns an array of Telegram user IDs for all contacts \(0 if a contact does not
 ##### contacts updateContactNote
 
 :link: [*NOTHING*](method/contacts.updateContactNote)
-
----
-
-##### contacts importCard
-
-:link: [*Returns general information on a user using his previously exported card as input\.The app may use it to open a conversation without knowing the user&#039;s phone number*](method/contacts.importCard)
 
 ---
 
@@ -2579,93 +2609,15 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
-##### messages deleteGroupCallParticipantMessages
+##### messages getEmojiGameInfo
 
-:link: [*NOTHING*](method/messages.deleteGroupCallParticipantMessages)
-
----
-
-##### messages getWebViewResult
-
-:link: [*NOTHING*](method/messages.getWebViewResult)
+:link: [*NOTHING*](method/messages.getEmojiGameInfo)
 
 ---
 
-##### messages forwardMessage
+##### messages summarizeText
 
-:link: [*Forwards single messages*](method/messages.forwardMessage)
-
----
-
-##### messages getGroupCallStreamRtmpUrl
-
-:link: [*NOTHING*](method/messages.getGroupCallStreamRtmpUrl)
-
----
-
-##### messages getStarGiftAuctionState
-
-:link: [*NOTHING*](method/messages.getStarGiftAuctionState)
-
----
-
-##### messages getStarGiftAuctionAcquiredGifts
-
-:link: [*NOTHING*](method/messages.getStarGiftAuctionAcquiredGifts)
-
----
-
-##### messages getGroupCallStars
-
-:link: [*NOTHING*](method/messages.getGroupCallStars)
-
----
-
-##### messages getStatsURL
-
-:link: [*Returns URL with the chat statistics\. Currently this method can be used only for channels*](method/messages.getStatsURL)
-
----
-
-##### messages getAllChats
-
-:link: [*Get all chats, channels and supergroups*](method/messages.getAllChats)
-
----
-
-##### messages toggleGroupCallSettings
-
-:link: [*NOTHING*](method/messages.toggleGroupCallSettings)
-
----
-
-##### messages getStarGiftActiveAuctions
-
-:link: [*NOTHING*](method/messages.getStarGiftActiveAuctions)
-
----
-
-##### messages sendGroupCallMessage
-
-:link: [*NOTHING*](method/messages.sendGroupCallMessage)
-
----
-
-##### messages startLive
-
-:link: [*NOTHING*](method/messages.startLive)
-
----
-
-##### messages setWebViewResult
-
-:link: [*NOTHING*](method/messages.setWebViewResult)
-
----
-
-##### messages deleteGroupCallMessages
-
-:link: [*NOTHING*](method/messages.deleteGroupCallMessages)
+:link: [*NOTHING*](method/messages.summarizeText)
 
 ---
 
@@ -3269,6 +3221,12 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
+##### channels getFutureCreatorAfterLeave
+
+:link: [*NOTHING*](method/channels.getFutureCreatorAfterLeave)
+
+---
+
 ##### bots sendCustomRequest
 
 :link: [*Sends a custom request; for bots only*](method/bots.sendCustomRequest)
@@ -3791,9 +3749,51 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
-##### payments requestRecurringPayment
+##### payments getStarGiftAuctionState
 
-:link: [*NOTHING*](method/payments.requestRecurringPayment)
+:link: [*NOTHING*](method/payments.getStarGiftAuctionState)
+
+---
+
+##### payments getStarGiftAuctionAcquiredGifts
+
+:link: [*NOTHING*](method/payments.getStarGiftAuctionAcquiredGifts)
+
+---
+
+##### payments getStarGiftActiveAuctions
+
+:link: [*NOTHING*](method/payments.getStarGiftActiveAuctions)
+
+---
+
+##### payments resolveStarGiftOffer
+
+:link: [*NOTHING*](method/payments.resolveStarGiftOffer)
+
+---
+
+##### payments sendStarGiftOffer
+
+:link: [*NOTHING*](method/payments.sendStarGiftOffer)
+
+---
+
+##### payments getStarGiftUpgradeAttributes
+
+:link: [*NOTHING*](method/payments.getStarGiftUpgradeAttributes)
+
+---
+
+##### payments getCraftStarGifts
+
+:link: [*NOTHING*](method/payments.getCraftStarGifts)
+
+---
+
+##### payments craftStarGift
+
+:link: [*NOTHING*](method/payments.craftStarGift)
 
 ---
 
@@ -4100,6 +4100,24 @@ As usual, the media DC is preferred, if available*](method/phone.getGroupCallStr
 
 ---
 
+##### phone deleteGroupCallMessages
+
+:link: [*NOTHING*](method/phone.deleteGroupCallMessages)
+
+---
+
+##### phone deleteGroupCallParticipantMessages
+
+:link: [*NOTHING*](method/phone.deleteGroupCallParticipantMessages)
+
+---
+
+##### phone getGroupCallStars
+
+:link: [*NOTHING*](method/phone.getGroupCallStars)
+
+---
+
 ##### phone saveDefaultSendAs
 
 :link: [*NOTHING*](method/phone.saveDefaultSendAs)
@@ -4139,12 +4157,6 @@ As usual, the media DC is preferred, if available*](method/phone.getGroupCallStr
 ##### folders editPeerFolders
 
 :link: [*Edit peers in peer folder*](method/folders.editPeerFolders)
-
----
-
-##### folders deleteFolder
-
-:link: [*Delete a peer folder*](method/folders.deleteFolder)
 
 ---
 
@@ -4446,6 +4458,12 @@ Will return a list of messages with peer\_id equal to the public channel to whic
 ##### stories getAlbumStories
 
 :link: [*Get stories in a story album &raquo;*](method/stories.getAlbumStories)
+
+---
+
+##### stories startLive
+
+:link: [*NOTHING*](method/stories.startLive)
 
 ---
 

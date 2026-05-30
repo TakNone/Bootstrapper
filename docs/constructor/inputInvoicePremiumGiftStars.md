@@ -2,7 +2,7 @@
 
 **Description** : *Used to gift a Telegram Premium subscription to another user, paying with Telegram Stars*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputInvoicePremiumGiftStars#dabab2ef flags:# user_id:InputUser months:int message:flags.0?TextWithEntities = InputInvoice;
@@ -32,60 +32,60 @@ inputInvoicePremiumGiftStars#dabab2ef flags:# user_id:InputUser months:int messa
 ```php
 $inputInvoice = $client->inputInvoicePremiumGiftStars(
 	user_id : $client->get_input_user(user : '@TakNone'),
-	months : 61,
+	months : 42,
 	message : $client->textWithEntities(
-		text : 'CYvMj9fKtU03RGhO',
+		text : '9h6CbyRqf8WsomTO',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 100,
+				length : 58,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 69,
+				length : 44,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 29,
+				length : 73,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 63,
+				length : 84,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 58,
+				length : 69,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 93,
+				length : 27,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 53,
+				length : 76,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 6,
+				length : 5,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 73,
+				length : 5,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 43,
-				language : 'yOCkI6sUZdL8zgjb',
+				length : 49,
+				language : 'jWFAp0t3uvMcq8gU',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 6,
+				length : 91,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 97,
-				user_id : -3056415174081387826,
+				length : 90,
+				user_id : -2546228438451681123,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
@@ -94,37 +94,37 @@ $inputInvoice = $client->inputInvoicePremiumGiftStars(
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 78,
+				length : 63,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 79,
+				length : 98,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 36,
+				length : 5,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 37,
+				length : 12,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 65,
+				length : 93,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 14,
+				length : 13,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 18,
-				document_id : -8395877771918420525,
+				length : 55,
+				document_id : -4982190576562421969,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 35,
+				length : 33,
 			),
 		),
 	),

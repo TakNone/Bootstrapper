@@ -2,7 +2,7 @@
 
 **Description** : *Check whether the given short name is available*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 stickers.checkShortName#284b3639 short_name:string = Bool;
@@ -37,6 +37,6 @@ stickers.checkShortName#284b3639 short_name:string = Bool;
 
 ```php
 $bool = $client->stickers->checkShortName(
-	short_name : 'QZNUM14Kdknl0q3A',
+	short_name : 'DPS9GbjT5EHv7uLF',
 );
 ```

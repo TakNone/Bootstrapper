@@ -2,7 +2,7 @@
 
 **Description** : *Message replies and thread information*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageReplyHeader#6917560b flags:# reply_to_scheduled:flags.2?true forum_topic:flags.3?true quote:flags.9?true reply_to_msg_id:flags.4?int reply_to_peer_id:flags.0?Peer reply_from:flags.5?MessageFwdHeader reply_media:flags.8?MessageMedia reply_to_top_id:flags.1?int quote_text:flags.6?string quote_entities:flags.7?Vector<MessageEntity> quote_offset:flags.10?int todo_item_id:flags.11?int = MessageReplyHeader;
@@ -43,127 +43,127 @@ $messageReplyHeader = $client->messageReplyHeader(
 	reply_to_scheduled : true,
 	forum_topic : true,
 	quote : true,
-	reply_to_msg_id : 9,
+	reply_to_msg_id : 54,
 	reply_to_peer_id : $client->peerUser(
-		user_id : -6090249133743165290,
+		user_id : 4967543071473852779,
 	),
 	reply_from : $client->messageFwdHeader(
 		imported : true,
 		saved_out : true,
 		from_id : $client->peerUser(
-			user_id : 1532880896245361509,
+			user_id : 6694166124023456259,
 		),
-		from_name : '8Iw3UZzhRDJjaFOe',
-		date : 19,
-		channel_post : 22,
-		post_author : 'iBndu3GrMeoP1ASh',
+		from_name : 'bkLJiSD5qE9Ch417',
+		date : 14,
+		channel_post : 70,
+		post_author : 'l9EDImhoRsuTZqzr',
 		saved_from_peer : $client->peerUser(
-			user_id : -8557082134266104437,
+			user_id : 4640427858915515370,
 		),
-		saved_from_msg_id : 38,
+		saved_from_msg_id : 50,
 		saved_from_id : $client->peerUser(
-			user_id : 2732178236305528834,
+			user_id : -539997939574034765,
 		),
-		saved_from_name : 'euncJNEt7RMfvD3r',
-		saved_date : 96,
-		psa_type : '0DNul3sSKh2Acrid',
+		saved_from_name : 'DqQ48mH5e3GTKMpI',
+		saved_date : 69,
+		psa_type : 'GpMTngcobeyCuOZL',
 	),
 	reply_media : $client->messageMediaEmpty(),
-	reply_to_top_id : 29,
-	quote_text : '2Z8oOuM3naqG4Ly7',
+	reply_to_top_id : 78,
+	quote_text : 'zxwBIegsltp0AEah',
 	quote_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 71,
+			length : 72,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 36,
+			length : 45,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 64,
+			length : 81,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 78,
+			length : 84,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 1,
+			length : 46,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 68,
+			length : 62,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 54,
+			length : 18,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 45,
+			length : 58,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 84,
+			length : 44,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 1,
-			language : 'rUNqTMoZLbYBQAvz',
+			length : 72,
+			language : 'cYWUAj17vfpTXgz9',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 92,
+			length : 68,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 33,
-			user_id : 8809547219388877842,
+			length : 12,
+			user_id : -3546585690191944423,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 0,
+			length : 20,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 10,
+			length : 75,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 0,
+			length : 30,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 23,
+			length : 94,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 16,
+			length : 25,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 65,
+			length : 27,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 29,
+			length : 95,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 23,
-			document_id : 230315259644581627,
+			length : 59,
+			document_id : -8043323168010052257,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 72,
+			length : 89,
 		),
 	),
-	quote_offset : 61,
-	todo_item_id : 86,
+	quote_offset : 89,
+	todo_item_id : 45,
 );
 ```

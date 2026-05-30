@@ -2,7 +2,7 @@
 
 **Description** : *Report for copyrighted content*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputReportReasonCopyright#9b89f93a = ReportReason;

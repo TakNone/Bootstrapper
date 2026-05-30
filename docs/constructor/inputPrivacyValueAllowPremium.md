@@ -2,7 +2,7 @@
 
 **Description** : *Allow only users with a Premium subscription &raquo;, currently only usable for inputPrivacyKeyChatInvite*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputPrivacyValueAllowPremium#77cdc9f1 = InputPrivacyRule;

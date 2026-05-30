@@ -2,7 +2,7 @@
 
 **Description** : *Fetch information about a fragment collectible, see here &raquo; for more info on the full flow*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 fragment.getCollectibleInfo#be1e85ba collectible:InputCollectible = fragment.CollectibleInfo;

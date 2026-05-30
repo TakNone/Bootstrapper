@@ -2,10 +2,10 @@
 
 **Description** : *Get the IDs of the maximum read stories for a set of peers*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-stories.getPeerMaxIDs#78499170 id:Vector<InputPeer> = Vector<int>;
+stories.getPeerMaxIDs#78499170 id:Vector<InputPeer> = Vector<RecentStory>;
 ```
 
 ---
@@ -20,14 +20,14 @@ stories.getPeerMaxIDs#78499170 id:Vector<InputPeer> = Vector<int>;
 
 ## Result
 
-[Vector<int>](type/int)
+[Vector<RecentStory>](type/RecentStory)
 
 ---
 
 ## Example
 
 ```php
-$int = $client->stories->getPeerMaxIDs(
+$recentStory = $client->stories->getPeerMaxIDs(
 	id : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

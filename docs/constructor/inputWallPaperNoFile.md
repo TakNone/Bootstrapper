@@ -2,7 +2,7 @@
 
 **Description** : *Wallpaper with no file access hash, used for example when deleting \(unsave=true\) wallpapers using account\.saveWallPaper, specifying just the wallpaper ID*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputWallPaperNoFile#967a462e id:long = InputWallPaper;
@@ -28,6 +28,6 @@ inputWallPaperNoFile#967a462e id:long = InputWallPaper;
 
 ```php
 $inputWallPaper = $client->inputWallPaperNoFile(
-	id : 5526714360924559296,
+	id : 7272600655434690920,
 );
 ```

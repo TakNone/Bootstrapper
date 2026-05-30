@@ -2,7 +2,7 @@
 
 **Description** : *Info about the latest telegram Terms Of Service*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.termsOfService#780a0310 flags:# popup:flags.0?true id:DataJSON text:string entities:Vector<MessageEntity> min_age_confirm:flags.1?int = help.TermsOfService;
@@ -35,101 +35,101 @@ help.termsOfService#780a0310 flags:# popup:flags.0?true id:DataJSON text:string 
 $helpTermsOfService = $client->help->termsOfService(
 	popup : true,
 	id : $client->dataJSON(
-		data : 'GvilNQuWrVn7s2Fo',
+		data : 'YEnzMKgRfdejxw92',
 	),
-	text : '7gIipEeMHkfN0Az2',
+	text : 'S0jXIc6eYZLVA7UJ',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 52,
+			length : 80,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 59,
+			length : 56,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 57,
+			length : 56,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 10,
+			length : 82,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 23,
+			length : 14,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 51,
+			length : 41,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 66,
+			length : 96,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 75,
+			length : 30,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 88,
+			length : 6,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 15,
-			language : 'eDXEO0dHGKyoIPZq',
+			length : 1,
+			language : 'F6WYnuTK1xmDj5wh',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 42,
+			length : 77,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 87,
-			user_id : -6723276061198699094,
+			length : 62,
+			user_id : 6041706649567077502,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 70,
+			length : 17,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 86,
+			length : 66,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 44,
+			length : 94,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 8,
+			length : 2,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 64,
+			length : 24,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 75,
+			length : 63,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 18,
+			length : 27,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 98,
-			document_id : -605132339193338779,
+			length : 36,
+			document_id : -457584893535755319,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 87,
+			length : 25,
 		),
 	),
-	min_age_confirm : 29,
+	min_age_confirm : 18,
 );
 ```

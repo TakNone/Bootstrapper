@@ -2,7 +2,7 @@
 
 **Description** : *Convert a collectible gift &raquo; to an NFT on the TON blockchain*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.getStarGiftWithdrawalUrl#d06e93a8 stargift:InputSavedStarGift password:InputCheckPasswordSRP = payments.StarGiftWithdrawalUrl;
@@ -40,7 +40,7 @@ payments.getStarGiftWithdrawalUrl#d06e93a8 stargift:InputSavedStarGift password:
 ```php
 $paymentsStarGiftWithdrawalUrl = $client->payments->getStarGiftWithdrawalUrl(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 38,
+		msg_id : 36,
 	),
 	password : $client->inputCheckPasswordEmpty(),
 );

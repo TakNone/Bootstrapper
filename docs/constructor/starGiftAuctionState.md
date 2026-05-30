@@ -1,9 +1,9 @@
 # starGiftAuctionState
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-starGiftAuctionState#5db04f4b version:int start_date:int end_date:int min_bid_amount:long bid_levels:Vector<AuctionBidLevel> top_bidders:Vector<long> next_round_at:int gifts_left:int current_round:int total_rounds:int = StarGiftAuctionState;
+starGiftAuctionState#771a4e66 version:int start_date:int end_date:int min_bid_amount:long bid_levels:Vector<AuctionBidLevel> top_bidders:Vector<long> next_round_at:int last_gift_num:int gifts_left:int current_round:int total_rounds:int rounds:Vector<StarGiftAuctionRound> = StarGiftAuctionState;
 ```
 
 ---
@@ -19,9 +19,11 @@ starGiftAuctionState#5db04f4b version:int start_date:int end_date:int min_bid_am
 | <mark>bid_levels</mark> | [`Vector<AuctionBidLevel>`](type/AuctionBidLevel) | NOTHING |
 | <mark>top_bidders</mark> | [`Vector<long>`](type/long) | NOTHING |
 | <mark>next_round_at</mark> | [`int`](type/int) | NOTHING |
+| <mark>last_gift_num</mark> | [`int`](type/int) | NOTHING |
 | <mark>gifts_left</mark> | [`int`](type/int) | NOTHING |
 | <mark>current_round</mark> | [`int`](type/int) | NOTHING |
 | <mark>total_rounds</mark> | [`int`](type/int) | NOTHING |
+| <mark>rounds</mark> | [`Vector<StarGiftAuctionRound>`](type/StarGiftAuctionRound) | NOTHING |
 
 ---
 
@@ -35,21 +37,34 @@ starGiftAuctionState#5db04f4b version:int start_date:int end_date:int min_bid_am
 
 ```php
 $starGiftAuctionState = $client->starGiftAuctionState(
-	version : 44,
-	start_date : 41,
-	end_date : 30,
-	min_bid_amount : -4443310604385340370,
+	version : 99,
+	start_date : 92,
+	end_date : 24,
+	min_bid_amount : 5923073985520137242,
 	bid_levels : array(
 		$client->auctionBidLevel(
-			pos : 13,
-			amount : 6417298480321316094,
-			date : 98,
+			pos : 89,
+			amount : -630077716321271619,
+			date : 60,
 		),
 	),
-	top_bidders : array(-7042159419762795064),
-	next_round_at : 2,
-	gifts_left : 37,
-	current_round : 19,
-	total_rounds : 26,
+	top_bidders : array(-2660653791737069294),
+	next_round_at : 88,
+	last_gift_num : 79,
+	gifts_left : 74,
+	current_round : 13,
+	total_rounds : 83,
+	rounds : array(
+		$client->starGiftAuctionRound(
+			num : 29,
+			duration : 37,
+		),
+		$client->starGiftAuctionRoundExtendable(
+			num : 91,
+			duration : 87,
+			extend_top : 65,
+			extend_window : 26,
+		),
+	),
 );
 ```

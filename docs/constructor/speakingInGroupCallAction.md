@@ -2,7 +2,7 @@
 
 **Description** : *User is currently speaking in the group call*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 speakingInGroupCallAction#d92c2285 = SendMessageAction;

@@ -1,6 +1,6 @@
 # phone.saveDefaultSendAs
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.saveDefaultSendAs#4167add1 call:InputGroupCall send_as:InputPeer = Bool;
@@ -28,8 +28,8 @@ phone.saveDefaultSendAs#4167add1 call:InputGroupCall send_as:InputPeer = Bool;
 ```php
 $bool = $client->phone->saveDefaultSendAs(
 	call : $client->inputGroupCall(
-		id : -5830581770972832411,
-		access_hash : 8675286194107933431,
+		id : -6742746215077687214,
+		access_hash : 45872028109299732,
 	),
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *User left the group*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 messageActionChatDeleteUser#a43f30cc user_id:long = MessageAction;
@@ -28,6 +28,6 @@ messageActionChatDeleteUser#a43f30cc user_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatDeleteUser(
-	user_id : 4028363539446219823,
+	user_id : -5455503140738634348,
 );
 ```

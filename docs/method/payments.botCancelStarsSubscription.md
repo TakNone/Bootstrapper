@@ -2,7 +2,7 @@
 
 **Description** : *Cancel a bot subscription*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 payments.botCancelStarsSubscription#6dfa0622 flags:# restore:flags.0?true user_id:InputUser charge_id:string = Bool;
@@ -42,6 +42,6 @@ payments.botCancelStarsSubscription#6dfa0622 flags:# restore:flags.0?true user_i
 $bool = $client->payments->botCancelStarsSubscription(
 	restore : true,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	charge_id : 'BHiTatjyzZdor73u',
+	charge_id : 'J5gUnOCZzXEpGrY8',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Reorder usernames associated to a bot we own*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 bots.reorderUsernames#9709b1c2 bot:InputUser order:Vector<string> = Bool;
@@ -39,6 +39,6 @@ bots.reorderUsernames#9709b1c2 bot:InputUser order:Vector<string> = Bool;
 ```php
 $bool = $client->bots->reorderUsernames(
 	bot : $client->get_input_user(user : '@TakNone'),
-	order : array('lLEIa7smcYgWM4BO'),
+	order : array('XmOtUEPjRdNiwyvb'),
 );
 ```

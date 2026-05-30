@@ -2,7 +2,7 @@
 
 **Description** : *Set a list of Telegram Business away messages*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.updateBusinessAwayMessage#a26a7fa5 flags:# message:flags.0?InputBusinessAwayMessage = Bool;
@@ -31,7 +31,7 @@ account.updateBusinessAwayMessage#a26a7fa5 flags:# message:flags.0?InputBusiness
 $bool = $client->account->updateBusinessAwayMessage(
 	message : $client->inputBusinessAwayMessage(
 		offline_only : true,
-		shortcut_id : 52,
+		shortcut_id : 43,
 		schedule : $client->businessAwayMessageScheduleAlways(),
 		recipients : $client->inputBusinessRecipients(
 			existing_chats : true,

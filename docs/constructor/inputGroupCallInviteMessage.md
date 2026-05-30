@@ -2,7 +2,7 @@
 
 **Description** : *Join a group call through a messageActionConferenceCall invitation message*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
@@ -28,6 +28,6 @@ inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallInviteMessage(
-	msg_id : 49,
+	msg_id : 74,
 );
 ```

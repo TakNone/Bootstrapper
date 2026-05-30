@@ -2,7 +2,7 @@
 
 **Description** : *A sponsored message*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 sponsoredMessage#7dbf8673 flags:# recommended:flags.5?true can_report:flags.12?true random_id:bytes url:string title:string message:string entities:flags.1?Vector<MessageEntity> photo:flags.6?Photo media:flags.14?MessageMedia color:flags.13?PeerColor button_text:string sponsor_info:flags.7?string additional_info:flags.8?string min_display_duration:flags.15?int max_display_duration:flags.15?int = SponsoredMessage;
@@ -47,112 +47,112 @@ $sponsoredMessage = $client->sponsoredMessage(
 	can_report : true,
 	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	url : 'https://docs.liveproto.dev',
-	title : 'yjms3C4oEdxcqwzU',
-	message : 'Gw4gIxNMqpLdSkYo',
+	title : 'rLaW2nt3zmDb0iHJ',
+	message : 'EGsVfq0hXtTMgIBv',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 66,
+			length : 50,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 63,
+			length : 50,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 76,
+			length : 98,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 1,
+			length : 75,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 77,
+			length : 78,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 25,
+			length : 67,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 60,
+			length : 37,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 63,
+			length : 9,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 11,
+			length : 97,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 13,
-			language : 'wIdHrCkYb4P2lREQ',
+			length : 83,
+			language : 'mSYOBeftQpl8PjKb',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 40,
+			length : 70,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 2,
-			user_id : -9099559265518029534,
+			length : 37,
+			user_id : 1593869144549229205,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 75,
+			length : 4,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 1,
+			length : 98,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 25,
+			length : 81,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 65,
+			length : 21,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 65,
+			length : 57,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 82,
+			length : 76,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 55,
+			length : 63,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 77,
-			document_id : 4245819459437134112,
+			length : 88,
+			document_id : 5164153313097410517,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 29,
+			length : 88,
 		),
 	),
 	photo : $client->photoEmpty(
-		id : -4183904315875514894,
+		id : -6628425988091198328,
 	),
 	media : $client->messageMediaEmpty(),
 	color : $client->peerColor(
-		color : 40,
-		background_emoji_id : -6813846437165522834,
+		color : 2,
+		background_emoji_id : -3413125657318287590,
 	),
-	button_text : 'FjVrXf0U5CN38L46',
-	sponsor_info : 'gJqaYAbmhOSR23Tx',
-	additional_info : 'Z19dMxWkRJfs25gn',
-	min_display_duration : 88,
-	max_display_duration : 15,
+	button_text : 'vKcy3QXHWzE4Brnq',
+	sponsor_info : '72VnpU6deoyEJPSu',
+	additional_info : 'GEMZkXNibfxB4ARY',
+	min_display_duration : 67,
+	max_display_duration : 37,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Popular contact*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 popularContact#5ce14175 client_id:long importers:int = PopularContact;
@@ -29,7 +29,7 @@ popularContact#5ce14175 client_id:long importers:int = PopularContact;
 
 ```php
 $popularContact = $client->popularContact(
-	client_id : -8454259203756703528,
-	importers : 6,
+	client_id : 9222255158152927464,
+	importers : 88,
 );
 ```

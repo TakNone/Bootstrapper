@@ -2,7 +2,7 @@
 
 **Description** : *Send confirmation code to cancel account deletion, for more info click here &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.sendConfirmPhoneCode#1b3faa88 hash:string settings:CodeSettings = auth.SentCode;
@@ -37,7 +37,7 @@ account.sendConfirmPhoneCode#1b3faa88 hash:string settings:CodeSettings = auth.S
 
 ```php
 $authSentCode = $client->account->sendConfirmPhoneCode(
-	hash : 'L0CWnJaVyZMq1gKP',
+	hash : 'rFMHWIXRixCk3f7Q',
 	settings : $client->codeSettings(
 		allow_flashcall : true,
 		current_number : true,
@@ -46,8 +46,8 @@ $authSentCode = $client->account->sendConfirmPhoneCode(
 		allow_firebase : true,
 		unknown_number : true,
 		logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-		token : 'd3PNCTSU1RGz2Mle',
-		app_sandbox : false,
+		token : '1438CtQXAaBxgEIF',
+		app_sandbox : true,
 	),
 );
 ```

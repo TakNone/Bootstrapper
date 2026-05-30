@@ -2,7 +2,7 @@
 
 **Description** : *Email*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 secureValueTypeEmail#8e3ca7ee = SecureValueType;

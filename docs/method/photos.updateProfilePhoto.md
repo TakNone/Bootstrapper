@@ -2,7 +2,7 @@
 
 **Description** : *Installs a previously uploaded photo as a profile photo*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 photos.updateProfilePhoto#9e82039 flags:# fallback:flags.0?true bot:flags.1?InputUser id:InputPhoto = photos.Photo;

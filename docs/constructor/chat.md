@@ -2,10 +2,10 @@
 
 **Description** : *Info about a group*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-chat#41cbf256 flags:# creator:flags.0?true kicked:flags.1?true left:flags.2?true deactivated:flags.5?true call_active:flags.23?true call_not_empty:flags.24?true noforwards:flags.25?true id:long title:string photo:ChatPhoto participants_count:int date:int version:int migrated_to:flags.6?InputChannel admin_rights:flags.14?ChatAdminRights default_banned_rights:flags.18?ChatBannedRights = Chat;
+chat#41cbf256 flags:# creator:flags.0?true left:flags.2?true deactivated:flags.5?true call_active:flags.23?true call_not_empty:flags.24?true noforwards:flags.25?true id:long title:string photo:ChatPhoto participants_count:int date:int version:int migrated_to:flags.6?InputChannel admin_rights:flags.14?ChatAdminRights default_banned_rights:flags.18?ChatBannedRights = Chat;
 ```
 
 ---
@@ -16,7 +16,6 @@ chat#41cbf256 flags:# creator:flags.0?true kicked:flags.1?true left:flags.2?true
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **creator** | [`flags.0?true`](type/true) | Whether the current user is the creator of the group |
-| **kicked** | [`flags.1?true`](type/true) | NOTHING |
 | **left** | [`flags.2?true`](type/true) | Whether the current user has left the group |
 | **deactivated** | [`flags.5?true`](type/true) | Whether the group was migrated |
 | **call_active** | [`flags.23?true`](type/true) | Whether a group call is currently active |
@@ -45,18 +44,17 @@ chat#41cbf256 flags:# creator:flags.0?true kicked:flags.1?true left:flags.2?true
 ```php
 $chat = $client->chat(
 	creator : true,
-	kicked : true,
 	left : true,
 	deactivated : true,
 	call_active : true,
 	call_not_empty : true,
 	noforwards : true,
-	id : 6987572925370895637,
-	title : 'sJOyAoc1I0rzpdBa',
+	id : -1301675102522216663,
+	title : 'oImF3BzA10chv4Yl',
 	photo : $client->chatPhotoEmpty(),
-	participants_count : 73,
-	date : 8,
-	version : 45,
+	participants_count : 9,
+	date : 57,
+	version : 83,
 	migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
@@ -97,7 +95,7 @@ $chat = $client->chat(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 27,
+		until_date : 77,
 	),
 );
 ```

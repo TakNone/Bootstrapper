@@ -2,7 +2,7 @@
 
 **Description** : *Represents a tab of a profile page &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 profileTabPosts#b98cd696 = ProfileTab;

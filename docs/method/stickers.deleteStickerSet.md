@@ -2,7 +2,7 @@
 
 **Description** : *Deletes a stickerset we created*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 stickers.deleteStickerSet#87704394 stickerset:InputStickerSet = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Send the verification code for login*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 auth.sendCode#a677244f phone_number:string api_id:int api_hash:string settings:CodeSettings = auth.SentCode;
@@ -51,8 +51,8 @@ auth.sendCode#a677244f phone_number:string api_id:int api_hash:string settings:C
 ```php
 $authSentCode = $client->auth->sendCode(
 	phone_number : '+1234567890',
-	api_id : 31,
-	api_hash : 'j4SZfaVFz2b6Weto',
+	api_id : 100,
+	api_hash : 'GhCRQbUKaqO04NJM',
 	settings : $client->codeSettings(
 		allow_flashcall : true,
 		current_number : true,
@@ -61,7 +61,7 @@ $authSentCode = $client->auth->sendCode(
 		allow_firebase : true,
 		unknown_number : true,
 		logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-		token : 'TfqAtZI2Fy705VxD',
+		token : 'G9omZiuU01KYVF2b',
 		app_sandbox : true,
 	),
 );

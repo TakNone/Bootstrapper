@@ -2,7 +2,7 @@
 
 **Description** : *The view counter of a message in a channel has changed*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateChannelMessageViews#f226ac08 channel_id:long id:int views:int = Update;
@@ -30,8 +30,8 @@ updateChannelMessageViews#f226ac08 channel_id:long id:int views:int = Update;
 
 ```php
 $update = $client->updateChannelMessageViews(
-	channel_id : 5999669415548224114,
-	id : 59,
-	views : 83,
+	channel_id : 2704523024470315067,
+	id : 76,
+	views : 53,
 );
 ```

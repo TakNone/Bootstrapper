@@ -2,7 +2,7 @@
 
 **Description** : *Channel/supergroup creator*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channelParticipantCreator#2fe601d3 flags:# user_id:long admin_rights:ChatAdminRights rank:flags.0?string = ChannelParticipant;
@@ -31,7 +31,7 @@ channelParticipantCreator#2fe601d3 flags:# user_id:long admin_rights:ChatAdminRi
 
 ```php
 $channelParticipant = $client->channelParticipantCreator(
-	user_id : 6043254410427104445,
+	user_id : -8353966686805406476,
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -50,6 +50,6 @@ $channelParticipant = $client->channelParticipantCreator(
 		delete_stories : true,
 		manage_direct_messages : true,
 	),
-	rank : 'iO7TQloU1R6sWce9',
+	rank : 'nuoI9SCk7wm40e5H',
 );
 ```

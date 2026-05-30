@@ -2,7 +2,7 @@
 
 **Description** : *Look for updates of telegram&#039;s terms of service*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 help.getTermsOfServiceUpdate#2ca51fd1 = help.TermsOfServiceUpdate;

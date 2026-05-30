@@ -2,7 +2,7 @@
 
 **Description** : *A chat invite was deleted*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channelAdminLogEventActionExportedInviteDelete#5a50fca4 invite:ExportedChatInvite = ChannelAdminLogEventAction;
@@ -32,19 +32,19 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionExportedInviteD
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'bVJGrPitRlqLYKuB',
-		admin_id : 9126105417423329933,
-		date : 42,
-		start_date : 46,
-		expire_date : 20,
+		link : 'GxW6Ztbj9L82Nklh',
+		admin_id : -3313431108791721668,
+		date : 44,
+		start_date : 35,
+		expire_date : 16,
 		usage_limit : 74,
-		usage : 56,
-		requested : 28,
-		subscription_expired : 30,
-		title : 'AXrRnsx147qfoyIN',
+		usage : 33,
+		requested : 20,
+		subscription_expired : 40,
+		title : '3jEGWfXCw2qPIhZu',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 39,
-			amount : 696701171054391938,
+			period : 92,
+			amount : 6358354003649873006,
 		),
 	),
 );

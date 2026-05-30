@@ -2,10 +2,10 @@
 
 **Description** : *Bot keyboard button*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
-keyboardButton#a2fa4880 text:string = KeyboardButton;
+keyboardButton#7d170cff flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
 ```
 
 ---
@@ -14,6 +14,8 @@ keyboardButton#a2fa4880 text:string = KeyboardButton;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **style** | [`flags.10?KeyboardButtonStyle`](type/KeyboardButtonStyle) | NOTHING |
 | <mark>text</mark> | [`string`](type/string) | Button text |
 
 ---
@@ -28,6 +30,12 @@ keyboardButton#a2fa4880 text:string = KeyboardButton;
 
 ```php
 $keyboardButton = $client->keyboardButton(
-	text : 'gIoTwj4zi3bQc27l',
+	style : $client->keyboardButtonStyle(
+		bg_primary : true,
+		bg_danger : true,
+		bg_success : true,
+		icon : -3355431061701146761,
+	),
+	text : 'FJDyAHgj3TtdLRmn',
 );
 ```

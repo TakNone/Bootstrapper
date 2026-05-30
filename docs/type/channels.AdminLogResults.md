@@ -2,7 +2,7 @@
 
 **Description** : *Admin log events*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 channels.adminLogResults#ed8af74d events:Vector<ChannelAdminLogEvent> chats:Vector<Chat> users:Vector<User> = channels.AdminLogResults;

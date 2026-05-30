@@ -2,7 +2,7 @@
 
 **Description** : *Web authorizations*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.webAuthorizations#ed56c9fc authorizations:Vector<WebAuthorization> users:Vector<User> = account.WebAuthorizations;

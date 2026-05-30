@@ -2,7 +2,7 @@
 
 **Description** : *Returns a Telegram Passport authorization form for sharing data with a service*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 account.getAuthorizationForm#a929597a bot_id:long scope:string public_key:string = account.AuthorizationForm;
@@ -39,8 +39,8 @@ account.getAuthorizationForm#a929597a bot_id:long scope:string public_key:string
 
 ```php
 $accountAuthorizationForm = $client->account->getAuthorizationForm(
-	bot_id : 4608214341129055862,
-	scope : 'ATWhHy0FscfgZCDB',
-	public_key : 'D8C9m6FAH7aLbRZc',
+	bot_id : -7144356253180935113,
+	scope : 'XpSU8r4ObC3ERgom',
+	public_key : 'sYF5Ov1d4Zh73wzD',
 );
 ```

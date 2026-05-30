@@ -2,7 +2,7 @@
 
 **Description** : *Create and optionally join a new conference call*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 phone.createConferenceCall#7d0444bb flags:# muted:flags.0?true video_stopped:flags.2?true join:flags.3?true random_id:int public_key:flags.3?int256 block:flags.3?bytes params:flags.3?DataJSON = Updates;
@@ -38,11 +38,11 @@ $updates = $client->phone->createConferenceCall(
 	muted : true,
 	video_stopped : true,
 	join : true,
-	random_id : 76,
-	public_key : '28021667692726791402580824516382207729575847697907203976820115122943317485901',
+	random_id : 31,
+	public_key : '98502491592424390525681770388026817438657074899983538349121829886395123090378',
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	params : $client->dataJSON(
-		data : 'Cb70nGIAFJ3fYgVN',
+		data : 'uC4U8DyhFHWL2aG0',
 	),
 );
 ```

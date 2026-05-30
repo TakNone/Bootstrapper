@@ -2,7 +2,7 @@
 
 **Description** : *A new message was added to a quick reply shortcut &raquo;*
 
-**Layer** : 218
+**Layer** : 222
 
 ```tl
 updateQuickReplyMessage#3e050d0f message:Message = Update;
@@ -29,9 +29,9 @@ updateQuickReplyMessage#3e050d0f message:Message = Update;
 ```php
 $update = $client->updateQuickReplyMessage(
 	message : $client->messageEmpty(
-		id : 93,
+		id : 100,
 		peer_id : $client->peerUser(
-			user_id : -3345891211036069257,
+			user_id : -6259797440572861629,
 		),
 	),
 );
