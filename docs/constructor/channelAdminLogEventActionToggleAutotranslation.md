@@ -2,7 +2,7 @@
 
 **Description** : *Channel autotranslation was toggled &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelAdminLogEventActionToggleAutotranslation#c517f77e new_value:Bool = ChannelAdminLogEventAction;

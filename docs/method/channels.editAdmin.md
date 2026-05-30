@@ -2,10 +2,10 @@
 
 **Description** : *Modify the admin rights of a user in a supergroup/channel*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-channels.editAdmin#d33c8902 channel:InputChannel user_id:InputUser admin_rights:ChatAdminRights rank:string = Updates;
+channels.editAdmin#9a98ad68 flags:# channel:InputChannel user_id:InputUser admin_rights:ChatAdminRights rank:flags.0?string = Updates;
 ```
 
 ---
@@ -14,10 +14,11 @@ channels.editAdmin#d33c8902 channel:InputChannel user_id:InputUser admin_rights:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | The supergroup/channel |
 | <mark>user_id</mark> | [`InputUser`](type/InputUser) | The ID of the user whose admin rights should be modified |
 | <mark>admin_rights</mark> | [`ChatAdminRights`](type/ChatAdminRights) | The admin rights |
-| <mark>rank</mark> | [`string`](type/string) | Indicates the role (rank) of the admin in the group: just an arbitrary string |
+| **rank** | [`flags.0?string`](type/string) | Indicates the role (rank) of the admin in the group: just an arbitrary string |
 
 ---
 
@@ -82,7 +83,8 @@ $updates = $client->channels->editAdmin(
 		edit_stories : true,
 		delete_stories : true,
 		manage_direct_messages : true,
+		manage_ranks : true,
 	),
-	rank : 'IUDswPrmq71CEMWN',
+	rank : 'GI7YDgaS6VTr5cq4',
 );
 ```

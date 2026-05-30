@@ -1,6 +1,6 @@
 # updatePinnedForumTopic
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:int = Update;
@@ -31,8 +31,8 @@ updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:i
 $update = $client->updatePinnedForumTopic(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : -3135048633073163191,
+		user_id : 1594509504994413509,
 	),
-	topic_id : 17,
+	topic_id : 18,
 );
 ```

@@ -2621,6 +2621,102 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
+##### messages editChatCreator
+
+:link: [*NOTHING*](method/messages.editChatCreator)
+
+---
+
+##### messages getFutureChatCreatorAfterLeave
+
+:link: [*NOTHING*](method/messages.getFutureChatCreatorAfterLeave)
+
+---
+
+##### messages editChatParticipantRank
+
+:link: [*NOTHING*](method/messages.editChatParticipantRank)
+
+---
+
+##### messages declineUrlAuth
+
+:link: [*NOTHING*](method/messages.declineUrlAuth)
+
+---
+
+##### messages checkUrlAuthMatchCode
+
+:link: [*NOTHING*](method/messages.checkUrlAuthMatchCode)
+
+---
+
+##### messages composeMessageWithAI
+
+:link: [*NOTHING*](method/messages.composeMessageWithAI)
+
+---
+
+##### messages reportReadMetrics
+
+:link: [*NOTHING*](method/messages.reportReadMetrics)
+
+---
+
+##### messages reportMusicListen
+
+:link: [*NOTHING*](method/messages.reportMusicListen)
+
+---
+
+##### messages addPollAnswer
+
+:link: [*NOTHING*](method/messages.addPollAnswer)
+
+---
+
+##### messages deletePollAnswer
+
+:link: [*NOTHING*](method/messages.deletePollAnswer)
+
+---
+
+##### messages getUnreadPollVotes
+
+:link: [*NOTHING*](method/messages.getUnreadPollVotes)
+
+---
+
+##### messages readPollVotes
+
+:link: [*NOTHING*](method/messages.readPollVotes)
+
+---
+
+##### messages setBotGuestChatResult
+
+:link: [*NOTHING*](method/messages.setBotGuestChatResult)
+
+---
+
+##### messages deleteParticipantReactions
+
+:link: [*NOTHING*](method/messages.deleteParticipantReactions)
+
+---
+
+##### messages deleteParticipantReaction
+
+:link: [*NOTHING*](method/messages.deleteParticipantReaction)
+
+---
+
+##### messages getPersonalChannelHistory
+
+:link: [*NOTHING*](method/messages.getPersonalChannelHistory)
+
+---
+
 ##### updates getState
 
 :link: [*Returns a current state of updates*](method/updates.getState)
@@ -3047,12 +3143,6 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
-##### channels editCreator
-
-:link: [*Transfer channel ownership*](method/channels.editCreator)
-
----
-
 ##### channels editLocation
 
 :link: [*Edit location of geogroup, see here &raquo; for more info on geogroups*](method/channels.editLocation)
@@ -3218,12 +3308,6 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 ##### channels setMainProfileTab
 
 :link: [*Changes the main profile tab of a channel, see here &raquo; for more info*](method/channels.setMainProfileTab)
-
----
-
-##### channels getFutureCreatorAfterLeave
-
-:link: [*NOTHING*](method/channels.getFutureCreatorAfterLeave)
 
 ---
 
@@ -3404,6 +3488,48 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 ##### bots getBotRecommendations
 
 :link: [*Obtain a list of similarly themed bots, selected based on similarities in their subscriber bases, see here &raquo; for more info*](method/bots.getBotRecommendations)
+
+---
+
+##### bots checkUsername
+
+:link: [*NOTHING*](method/bots.checkUsername)
+
+---
+
+##### bots createBot
+
+:link: [*NOTHING*](method/bots.createBot)
+
+---
+
+##### bots exportBotToken
+
+:link: [*NOTHING*](method/bots.exportBotToken)
+
+---
+
+##### bots requestWebViewButton
+
+:link: [*NOTHING*](method/bots.requestWebViewButton)
+
+---
+
+##### bots getRequestedWebViewButton
+
+:link: [*NOTHING*](method/bots.getRequestedWebViewButton)
+
+---
+
+##### bots getAccessSettings
+
+:link: [*NOTHING*](method/bots.getAccessSettings)
+
+---
+
+##### bots editAccessSettings
+
+:link: [*NOTHING*](method/bots.editAccessSettings)
 
 ---
 
@@ -4203,6 +4329,12 @@ Will return a list of messages with peer\_id equal to the public channel to whic
 
 ---
 
+##### stats getPollStats
+
+:link: [*NOTHING*](method/stats.getPollStats)
+
+---
+
 ##### chatlists exportChatlistInvite
 
 :link: [*Export a folder &raquo;, creating a chat folder deep link &raquo;*](method/chatlists.exportChatlistInvite)
@@ -4542,3 +4674,45 @@ Will return a list of messages with peer\_id equal to the public channel to whic
 ##### fragment getCollectibleInfo
 
 :link: [*Fetch information about a fragment collectible, see here &raquo; for more info on the full flow*](method/fragment.getCollectibleInfo)
+
+---
+
+##### aicompose createTone
+
+:link: [*NOTHING*](method/aicompose.createTone)
+
+---
+
+##### aicompose updateTone
+
+:link: [*NOTHING*](method/aicompose.updateTone)
+
+---
+
+##### aicompose saveTone
+
+:link: [*NOTHING*](method/aicompose.saveTone)
+
+---
+
+##### aicompose deleteTone
+
+:link: [*NOTHING*](method/aicompose.deleteTone)
+
+---
+
+##### aicompose getTone
+
+:link: [*NOTHING*](method/aicompose.getTone)
+
+---
+
+##### aicompose getTones
+
+:link: [*NOTHING*](method/aicompose.getTones)
+
+---
+
+##### aicompose getToneExample
+
+:link: [*NOTHING*](method/aicompose.getToneExample)

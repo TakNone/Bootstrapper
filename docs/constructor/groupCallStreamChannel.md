@@ -2,7 +2,7 @@
 
 **Description** : *Info about an RTMP stream in a group call or livestream*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 groupCallStreamChannel#80eb48af channel:int scale:int last_timestamp_ms:long = GroupCallStreamChannel;
@@ -30,8 +30,8 @@ groupCallStreamChannel#80eb48af channel:int scale:int last_timestamp_ms:long = G
 
 ```php
 $groupCallStreamChannel = $client->groupCallStreamChannel(
-	channel : 30,
-	scale : 8,
-	last_timestamp_ms : 2064684242411425155,
+	channel : 44,
+	scale : 87,
+	last_timestamp_ms : -9128493496884146123,
 );
 ```

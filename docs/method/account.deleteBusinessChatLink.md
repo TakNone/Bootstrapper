@@ -2,7 +2,7 @@
 
 **Description** : *Delete a business chat deep link &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.deleteBusinessChatLink#60073674 slug:string = Bool;
@@ -37,6 +37,6 @@ account.deleteBusinessChatLink#60073674 slug:string = Bool;
 
 ```php
 $bool = $client->account->deleteBusinessChatLink(
-	slug : 'TeM6Cv0n9Si1lOzD',
+	slug : 'Vwcmx0GHWiTej1n2',
 );
 ```

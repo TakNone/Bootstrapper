@@ -2,7 +2,7 @@
 
 **Description** : *Change settings related to a session*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.changeAuthorizationSettings#40f48462 flags:# confirmed:flags.3?true hash:long encrypted_requests_disabled:flags.0?Bool call_requests_disabled:flags.1?Bool = Bool;

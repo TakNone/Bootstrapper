@@ -2,7 +2,7 @@
 
 **Description** : *New member in the group*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionChatAddUser#15cefd00 users:Vector<long> = MessageAction;
@@ -28,6 +28,6 @@ messageActionChatAddUser#15cefd00 users:Vector<long> = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatAddUser(
-	users : array(-2639845263011289556),
+	users : array(-3809499999582671058),
 );
 ```

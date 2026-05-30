@@ -2,7 +2,7 @@
 
 **Description** : *The code was sent via SMS*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.sentCodeTypeSms#c000bba2 length:int = auth.SentCodeType;
@@ -28,6 +28,6 @@ auth.sentCodeTypeSms#c000bba2 length:int = auth.SentCodeType;
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeSms(
-	length : 83,
+	length : 16,
 );
 ```

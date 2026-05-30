@@ -2,7 +2,7 @@
 
 **Description** : *Return only messages containing contacts*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputMessagesFilterContacts#e062db83 = MessagesFilter;

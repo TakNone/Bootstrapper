@@ -2,7 +2,7 @@
 
 **Description** : *A group call*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 groupCallDiscarded#7780bcb4 id:long access_hash:long duration:int = GroupCall;

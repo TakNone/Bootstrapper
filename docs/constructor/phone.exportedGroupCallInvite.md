@@ -2,7 +2,7 @@
 
 **Description** : *An invite to a group call or livestream*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.exportedGroupCallInvite#204bd158 link:string = phone.ExportedGroupCallInvite;
@@ -28,6 +28,6 @@ phone.exportedGroupCallInvite#204bd158 link:string = phone.ExportedGroupCallInvi
 
 ```php
 $phoneExportedGroupCallInvite = $client->phone->exportedGroupCallInvite(
-	link : 'y7cv1R4hqZklea5m',
+	link : 'KLDBjWnyJ79hdVOt',
 );
 ```

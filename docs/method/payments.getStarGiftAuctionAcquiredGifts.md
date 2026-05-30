@@ -1,6 +1,6 @@
 # payments.getStarGiftAuctionAcquiredGifts
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.getStarGiftAuctionAcquiredGifts#6ba2cbec gift_id:long = payments.StarGiftAuctionAcquiredGifts;
@@ -26,6 +26,6 @@ payments.getStarGiftAuctionAcquiredGifts#6ba2cbec gift_id:long = payments.StarGi
 
 ```php
 $paymentsStarGiftAuctionAcquiredGifts = $client->payments->getStarGiftAuctionAcquiredGifts(
-	gift_id : -4534993238745271163,
+	gift_id : 6246909800553460654,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Join a channel/supergroup*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.joinChannel#24b524c5 channel:InputChannel = Updates;

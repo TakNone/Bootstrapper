@@ -2,7 +2,7 @@
 
 **Description** : *Recent t\.me invite link to a chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 recentMeUrlChatInvite#eb49081d url:string chat_invite:ChatInvite = RecentMeUrl;
@@ -32,7 +32,7 @@ $recentMeUrl = $client->recentMeUrlChatInvite(
 	url : 'https://docs.liveproto.dev',
 	chat_invite : $client->chatInviteAlready(
 		chat : $client->chatEmpty(
-			id : -2518508536746989409,
+			id : -1216900459077105087,
 		),
 	),
 );

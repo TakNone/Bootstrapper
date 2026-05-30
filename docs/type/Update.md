@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on events occurred*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
@@ -67,7 +67,7 @@ updateChannelReadMessagesContents#25f324f7 flags:# channel_id:long top_msg_id:fl
 updateContactsReset#7084a7be = Update;
 updateChannelAvailableMessages#b23fc698 channel_id:long available_min_id:int = Update;
 updateDialogUnreadMark#b658f23e flags:# unread:flags.0?true peer:DialogPeer saved_peer_id:flags.1?Peer = Update;
-updateMessagePoll#aca1657b flags:# poll_id:long poll:flags.0?Poll results:PollResults = Update;
+updateMessagePoll#d64c522b flags:# peer:flags.1?Peer msg_id:flags.1?int top_msg_id:flags.2?int poll_id:long poll:flags.0?Poll results:PollResults = Update;
 updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBannedRights version:int = Update;
 updateFolderPeers#19360dc0 folder_peers:Vector<FolderPeer> pts:int pts_count:int = Update;
 updatePeerSettings#6a7e7366 peer:Peer settings:PeerSettings = Update;
@@ -77,7 +77,7 @@ updateDeleteScheduledMessages#f2a71983 flags:# peer:Peer messages:Vector<int> se
 updateTheme#8216fba3 theme:Theme = Update;
 updateGeoLiveViewed#871fb939 peer:Peer msg_id:int = Update;
 updateLoginToken#564fe691 = Update;
-updateMessagePollVote#24f40e77 poll_id:long peer:Peer options:Vector<bytes> qts:int = Update;
+updateMessagePollVote#7699f014 poll_id:long peer:Peer options:Vector<bytes> positions:Vector<int> qts:int = Update;
 updateDialogFilter#26ffde7d flags:# id:int filter:flags.0?DialogFilter = Update;
 updateDialogFilterOrder#a5d72105 order:Vector<int> = Update;
 updateDialogFilters#3504914f = Update;
@@ -157,6 +157,10 @@ updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Up
 updateStarGiftAuctionUserState#dc58f31e gift_id:long user_state:StarGiftAuctionUserState = Update;
 updateEmojiGameInfo#fb9c547a info:messages.EmojiGameInfo = Update;
 updateStarGiftCraftFail#ac072444 = Update;
+updateChatParticipantRank#bd8367b9 chat_id:long user_id:long rank:string version:int = Update;
+updateManagedBot#4880ed9a user_id:long bot_id:long qts:int = Update;
+updateBotGuestChatQuery#cdd4093d flags:# query_id:long message:Message reference_messages:flags.0?Vector<Message> qts:int = Update;
+updateAiComposeTones#8c0f91fb = Update;
 ```
 
 ---
@@ -317,3 +321,7 @@ updateStarGiftCraftFail#ac072444 = Update;
 | [**updateStarGiftAuctionUserState**](constructor/updateStarGiftAuctionUserState) | NOTHING |
 | [**updateEmojiGameInfo**](constructor/updateEmojiGameInfo) | NOTHING |
 | [**updateStarGiftCraftFail**](constructor/updateStarGiftCraftFail) | NOTHING |
+| [**updateChatParticipantRank**](constructor/updateChatParticipantRank) | NOTHING |
+| [**updateManagedBot**](constructor/updateManagedBot) | NOTHING |
+| [**updateBotGuestChatQuery**](constructor/updateBotGuestChatQuery) | NOTHING |
+| [**updateAiComposeTones**](constructor/updateAiComposeTones) | NOTHING |

@@ -2,7 +2,7 @@
 
 **Description** : *High scores \(in games\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.highScores#9a3bfd99 scores:Vector<HighScore> users:Vector<User> = messages.HighScores;

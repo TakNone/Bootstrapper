@@ -2,7 +2,7 @@
 
 **Description** : *Disable or re\-enable Telegram ads for the current Premium account*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.toggleSponsoredMessages#b9d9a38d enabled:Bool = Bool;

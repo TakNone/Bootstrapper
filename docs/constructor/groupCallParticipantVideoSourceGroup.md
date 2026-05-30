@@ -2,7 +2,7 @@
 
 **Description** : *Describes a group of video synchronization source identifiers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 groupCallParticipantVideoSourceGroup#dcb118b7 semantics:string sources:Vector<int> = GroupCallParticipantVideoSourceGroup;
@@ -29,7 +29,7 @@ groupCallParticipantVideoSourceGroup#dcb118b7 semantics:string sources:Vector<in
 
 ```php
 $groupCallParticipantVideoSourceGroup = $client->groupCallParticipantVideoSourceGroup(
-	semantics : 'XDPOAhBYourKS5dg',
-	sources : array(74),
+	semantics : 'kRaTOwJmElFyuKiS',
+	sources : array(37),
 );
 ```

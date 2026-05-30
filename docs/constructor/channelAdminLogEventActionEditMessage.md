@@ -2,7 +2,7 @@
 
 **Description** : *A message was edited*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelAdminLogEventActionEditMessage#709b2405 prev_message:Message new_message:Message = ChannelAdminLogEventAction;
@@ -30,15 +30,15 @@ channelAdminLogEventActionEditMessage#709b2405 prev_message:Message new_message:
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionEditMessage(
 	prev_message : $client->messageEmpty(
-		id : 83,
+		id : 80,
 		peer_id : $client->peerUser(
-			user_id : 2426918490164649080,
+			user_id : 4136478724218297582,
 		),
 	),
 	new_message : $client->messageEmpty(
-		id : 8,
+		id : 98,
 		peer_id : $client->peerUser(
-			user_id : 8977118659412541689,
+			user_id : 6980951298822649540,
 		),
 	),
 );

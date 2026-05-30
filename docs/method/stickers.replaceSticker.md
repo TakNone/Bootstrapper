@@ -2,7 +2,7 @@
 
 **Description** : *Replace a sticker in a stickerset &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stickers.replaceSticker#4696459a sticker:InputDocument new_sticker:InputStickerSetItem = messages.StickerSet;
@@ -40,14 +40,14 @@ $messagesStickerSet = $client->stickers->replaceSticker(
 	sticker : $client->inputDocumentEmpty(),
 	new_sticker : $client->inputStickerSetItem(
 		document : $client->inputDocumentEmpty(),
-		emoji : 'R3DcG5CtspmEFXoV',
+		emoji : 'tJub83MyUohmKHvB',
 		mask_coords : $client->maskCoords(
-			n : 50,
-			x : -1854501.49609375,
-			y : -1945735.779296875,
-			zoom : -651076.18359375,
+			n : 18,
+			x : -621109.830078125,
+			y : -1278758.3037109375,
+			zoom : 894357.1474609375,
 		),
-		keywords : 'eiRJz9mOjA56kDyx',
+		keywords : 'Oufnym5xzR9jlSV6',
 	),
 );
 ```

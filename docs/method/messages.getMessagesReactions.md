@@ -2,7 +2,7 @@
 
 **Description** : *Get message reactions &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getMessagesReactions#8bba90e6 peer:InputPeer id:Vector<int> = Updates;
@@ -39,6 +39,6 @@ messages.getMessagesReactions#8bba90e6 peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->getMessagesReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(72),
+	id : array(99),
 );
 ```

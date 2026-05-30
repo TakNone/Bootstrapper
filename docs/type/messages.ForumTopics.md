@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about multiple forum topics*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.forumTopics#367617d3 flags:# order_by_create_date:flags.0?true count:int topics:Vector<ForumTopic> messages:Vector<Message> chats:Vector<Chat> users:Vector<User> pts:int = messages.ForumTopics;

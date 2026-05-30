@@ -2,7 +2,7 @@
 
 **Description** : *Remote document*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 webDocument#1c570ed1 url:string access_hash:long size:int mime_type:string attributes:Vector<DocumentAttribute> = WebDocument;
@@ -33,52 +33,52 @@ webDocument#1c570ed1 url:string access_hash:long size:int mime_type:string attri
 ```php
 $webDocument = $client->webDocument(
 	url : 'https://docs.liveproto.dev',
-	access_hash : 1989994407281976777,
-	size : 78,
-	mime_type : 'sv2VzDRot6LOAQby',
+	access_hash : 8591282186243226094,
+	size : 81,
+	mime_type : 'RYcN05JMplomPakn',
 	attributes : array(
 		$client->documentAttributeImageSize(
-			w : 30,
-			h : 53,
+			w : 18,
+			h : 73,
 		),
 		$client->documentAttributeAnimated(),
 		$client->documentAttributeSticker(
 			mask : true,
-			alt : 'ABySX7Rtpd8W602I',
+			alt : 'uPWv48ls6IAF0tV7',
 			stickerset : $client->inputStickerSetEmpty(),
 			mask_coords : $client->maskCoords(
-				n : 29,
-				x : 374386.9697265625,
-				y : 314355.9912109375,
-				zoom : 443169.2314453125,
+				n : 66,
+				x : 1019238.5703125,
+				y : -1252678.943359375,
+				zoom : 1031025.92578125,
 			),
 		),
 		$client->documentAttributeVideo(
 			round_message : true,
 			supports_streaming : true,
 			nosound : true,
-			duration : 643241.55078125,
-			w : 95,
-			h : 22,
-			preload_prefix_size : 56,
-			video_start_ts : -1686969.791015625,
-			video_codec : 'VasJ2WHwIXeGh0my',
+			duration : -80347.583984375,
+			w : 76,
+			h : 8,
+			preload_prefix_size : 72,
+			video_start_ts : 644082.9609375,
+			video_codec : 'ZyJjNBshSAwrvexM',
 		),
 		$client->documentAttributeAudio(
 			voice : true,
-			duration : 87,
-			title : '8ALnK0gGIsvOFTHD',
-			performer : 'ifvl2kgZErKTbBXy',
+			duration : 79,
+			title : 'IKEaSiebhVCnvmQk',
+			performer : 'ol9EG2JRqig4sPBv',
 			waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->documentAttributeFilename(
-			file_name : 'sHqd01mlEn8eW67v',
+			file_name : 'n5sp1kXZDe2QzPSt',
 		),
 		$client->documentAttributeHasStickers(),
 		$client->documentAttributeCustomEmoji(
 			free : true,
 			text_color : true,
-			alt : 'YENt6I5vuPc8jJRL',
+			alt : 'Pj8E4rAKgtiyYXHJ',
 			stickerset : $client->inputStickerSetEmpty(),
 		),
 	),

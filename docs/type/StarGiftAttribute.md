@@ -2,7 +2,7 @@
 
 **Description** : *An attribute of a collectible gift &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starGiftAttributeModel#565251e2 flags:# crafted:flags.0?true name:string document:Document rarity:StarGiftAttributeRarity = StarGiftAttribute;

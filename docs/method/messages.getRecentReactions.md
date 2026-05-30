@@ -2,7 +2,7 @@
 
 **Description** : *Get recently used message reactions*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getRecentReactions#39461db2 limit:int hash:long = messages.Reactions;
@@ -29,7 +29,7 @@ messages.getRecentReactions#39461db2 limit:int hash:long = messages.Reactions;
 
 ```php
 $messagesReactions = $client->messages->getRecentReactions(
-	limit : 10,
+	limit : 56,
 	hash : 0,
 );
 ```

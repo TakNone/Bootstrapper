@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about Main Mini App previews, see here &raquo; for more info*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 bots.previewInfo#ca71d64 media:Vector<BotPreviewMedia> lang_codes:Vector<string> = bots.PreviewInfo;
@@ -31,10 +31,10 @@ bots.previewInfo#ca71d64 media:Vector<BotPreviewMedia> lang_codes:Vector<string>
 $botsPreviewInfo = $client->bots->previewInfo(
 	media : array(
 		$client->botPreviewMedia(
-			date : 46,
+			date : 4,
 			media : $client->messageMediaEmpty(),
 		),
 	),
-	lang_codes : array('EBPhrjAd7iVcCeI2'),
+	lang_codes : array('zPyW1fYeOiloapMu'),
 );
 ```

@@ -2,10 +2,10 @@
 
 **Description** : *Enable or disable content protection on a channel or chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-messages.toggleNoForwards#b11eafa2 peer:InputPeer enabled:Bool = Updates;
+messages.toggleNoForwards#b2081a35 flags:# peer:InputPeer enabled:Bool request_msg_id:flags.0?int = Updates;
 ```
 
 ---
@@ -14,8 +14,10 @@ messages.toggleNoForwards#b11eafa2 peer:InputPeer enabled:Bool = Updates;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The chat or channel |
 | <mark>enabled</mark> | [`Bool`](type/Bool) | Enable or disable content protection |
+| **request_msg_id** | [`flags.0?int`](type/int) | NOTHING |
 
 ---
 
@@ -41,5 +43,6 @@ messages.toggleNoForwards#b11eafa2 peer:InputPeer enabled:Bool = Updates;
 $updates = $client->messages->toggleNoForwards(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	enabled : true,
+	request_msg_id : 83,
 );
 ```

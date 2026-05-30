@@ -2,7 +2,7 @@
 
 **Description** : *Change the reaction notification settings &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.setReactionsNotifySettings#316ce548 settings:ReactionsNotifySettings = ReactionsNotifySettings;
@@ -31,6 +31,7 @@ $reactionsNotifySettings = $client->account->setReactionsNotifySettings(
 	settings : $client->reactionsNotifySettings(
 		messages_notify_from : $client->reactionNotificationsFromContacts(),
 		stories_notify_from : $client->reactionNotificationsFromContacts(),
+		poll_votes_notify_from : $client->reactionNotificationsFromContacts(),
 		sound : $client->notificationSoundDefault(),
 		show_previews : false,
 	),

@@ -2,7 +2,7 @@
 
 **Description** : *An invoice slug taken from an invoice deep link or from the premium\_invoice\_slug app config parameter &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputInvoiceSlug#c326caef slug:string = InputInvoice;
@@ -28,6 +28,6 @@ inputInvoiceSlug#c326caef slug:string = InputInvoice;
 
 ```php
 $inputInvoice = $client->inputInvoiceSlug(
-	slug : 'GBepAaFuS8bPCJrf',
+	slug : 'fyopI5C6rlhFvSkt',
 );
 ```

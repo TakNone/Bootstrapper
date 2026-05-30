@@ -1,6 +1,6 @@
 # starGiftAttributeRarityUncommon
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starGiftAttributeRarityUncommon#dbce6389 = StarGiftAttributeRarity;

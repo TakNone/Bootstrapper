@@ -2,7 +2,7 @@
 
 **Description** : *Channel signatures were enabled/disabled*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelAdminLogEventActionToggleSignatures#26ae0971 new_value:Bool = ChannelAdminLogEventAction;
@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleSignatures#26ae0971 new_value:Bool = ChannelAdmi
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleSignatures(
-	new_value : true,
+	new_value : false,
 );
 ```

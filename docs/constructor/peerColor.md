@@ -2,7 +2,7 @@
 
 **Description** : *Represents a color palette &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 peerColor#b54b5acf flags:# color:flags.0?int background_emoji_id:flags.1?long = PeerColor;
@@ -30,7 +30,7 @@ peerColor#b54b5acf flags:# color:flags.0?int background_emoji_id:flags.1?long = 
 
 ```php
 $peerColor = $client->peerColor(
-	color : 9,
-	background_emoji_id : 7038167693224364876,
+	color : 7,
+	background_emoji_id : 7076719452838073979,
 );
 ```

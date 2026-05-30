@@ -2,7 +2,7 @@
 
 **Description** : *A message was pinned*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionPinMessage#94bd38ed = MessageAction;

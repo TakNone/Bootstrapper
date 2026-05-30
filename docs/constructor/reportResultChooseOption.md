@@ -2,7 +2,7 @@
 
 **Description** : *The user must choose one of the following options, and then messages\.report must be re\-invoked, passing the option&#039;s option identifier to messages\.report\.option*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 reportResultChooseOption#f0e4e0b6 title:string options:Vector<MessageReportOption> = ReportResult;
@@ -29,10 +29,10 @@ reportResultChooseOption#f0e4e0b6 title:string options:Vector<MessageReportOptio
 
 ```php
 $reportResult = $client->reportResultChooseOption(
-	title : 'GBN37E5aWhb9ZCk0',
+	title : 'J4Du6nUTleBCN9ta',
 	options : array(
 		$client->messageReportOption(
-			text : 'biKjXxmc0ZhqS8vP',
+			text : '3ypNt97KSklcZOsL',
 			option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

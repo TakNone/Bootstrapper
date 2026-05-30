@@ -2,7 +2,7 @@
 
 **Description** : *Available gifts &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.starGiftsNotModified#a388a368 = payments.StarGifts;

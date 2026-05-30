@@ -2,7 +2,7 @@
 
 **Description** : *Configuration for CDN file downloads*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 cdnConfig#5725e40a public_keys:Vector<CdnPublicKey> = CdnConfig;

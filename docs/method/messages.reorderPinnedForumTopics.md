@@ -1,6 +1,6 @@
 # messages.reorderPinnedForumTopics
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.reorderPinnedForumTopics#e7841f0 flags:# force:flags.0?true peer:InputPeer order:Vector<int> = Updates;
@@ -31,6 +31,6 @@ messages.reorderPinnedForumTopics#e7841f0 flags:# force:flags.0?true peer:InputP
 $updates = $client->messages->reorderPinnedForumTopics(
 	force : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	order : array(79),
+	order : array(23),
 );
 ```

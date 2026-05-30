@@ -2,7 +2,7 @@
 
 **Description** : *Info about all installed stickers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.allStickers#cdbbcebb hash:long sets:Vector<StickerSet> = messages.AllStickers;
@@ -39,46 +39,46 @@ $messagesAllStickers = $client->messages->allStickers(
 			text_color : true,
 			channel_emoji_status : true,
 			creator : true,
-			installed_date : 37,
-			id : 2546825805259590324,
-			access_hash : -1532644897415431027,
-			title : 'QqdJNsaS6MUPWKuE',
-			short_name : 'cUjV3ZvMzpeTabXJ',
+			installed_date : 39,
+			id : -4000376700418466093,
+			access_hash : -6568929190076825273,
+			title : 'MJi8QHgkWfR1ou0d',
+			short_name : 'fSAV0U4C6rIBZpFs',
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'WFs6MnA1wXgxlUuP',
+					type : 'd5TtvgA6El2JuILQ',
 				),
 				$client->photoSize(
-					type : 'yEeUK6iZHkl2ICgm',
-					w : 38,
-					h : 20,
-					size : 28,
+					type : '8vjcVgo0DPyzFU2R',
+					w : 9,
+					h : 88,
+					size : 50,
 				),
 				$client->photoCachedSize(
-					type : '7EYUhkewRH2NBWOf',
-					w : 80,
-					h : 4,
+					type : 'JE9jKln0XVLF8NrI',
+					w : 94,
+					h : 96,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : '9xGc0pugSv2JzPQy',
+					type : 'aqdEMrH728fycUVv',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'BoynubLfh2vxecdJ',
-					w : 20,
-					h : 44,
-					sizes : array(42),
+					type : 'OfVF01oJI76yDbUL',
+					w : 21,
+					h : 100,
+					sizes : array(25),
 				),
 				$client->photoPathSize(
-					type : 'Vbtm7RSgeucpx5jy',
+					type : 'pe7YOT64Ea81FhHu',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
-			thumb_dc_id : 15,
-			thumb_version : 40,
-			thumb_document_id : -4106601564502377374,
-			count : 78,
+			thumb_dc_id : 45,
+			thumb_version : 73,
+			thumb_document_id : 3335772667316835362,
+			count : 69,
 			hash : 0,
 		),
 	),

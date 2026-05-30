@@ -2,7 +2,7 @@
 
 **Description** : *The group call has ended*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionGroupCall#7a0d7f42 flags:# call:InputGroupCall duration:flags.0?int = MessageAction;
@@ -31,9 +31,9 @@ messageActionGroupCall#7a0d7f42 flags:# call:InputGroupCall duration:flags.0?int
 ```php
 $messageAction = $client->messageActionGroupCall(
 	call : $client->inputGroupCall(
-		id : 6092518254981451520,
-		access_hash : -1618717374322157032,
+		id : 198127842417818682,
+		access_hash : 788998903154744190,
 	),
-	duration : 99,
+	duration : 17,
 );
 ```

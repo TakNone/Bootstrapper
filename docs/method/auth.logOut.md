@@ -2,7 +2,7 @@
 
 **Description** : *Logs out the user*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.logOut#3e72ba19 = auth.LoggedOut;

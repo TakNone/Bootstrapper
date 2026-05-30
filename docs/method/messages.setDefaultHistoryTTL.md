@@ -2,7 +2,7 @@
 
 **Description** : *Changes the default value of the Time\-To\-Live setting, applied to all new chats*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.setDefaultHistoryTTL#9eb51445 period:int = Bool;
@@ -36,6 +36,6 @@ messages.setDefaultHistoryTTL#9eb51445 period:int = Bool;
 
 ```php
 $bool = $client->messages->setDefaultHistoryTTL(
-	period : 62,
+	period : 38,
 );
 ```

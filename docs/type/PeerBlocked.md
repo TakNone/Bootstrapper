@@ -2,7 +2,7 @@
 
 **Description** : *Info about a blocked user*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 peerBlocked#e8fd8014 peer_id:Peer date:int = PeerBlocked;

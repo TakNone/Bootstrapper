@@ -1,6 +1,6 @@
 # payments.StarGiftAuctionAcquiredGifts
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.starGiftAuctionAcquiredGifts#7d5bd1f0 gifts:Vector<StarGiftAuctionAcquiredGift> users:Vector<User> chats:Vector<Chat> = payments.StarGiftAuctionAcquiredGifts;

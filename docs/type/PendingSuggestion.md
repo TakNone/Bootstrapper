@@ -2,7 +2,7 @@
 
 **Description** : *Represents a custom pending suggestion &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 pendingSuggestion#e7e82e12 suggestion:string title:TextWithEntities description:TextWithEntities url:string = PendingSuggestion;

@@ -2,7 +2,7 @@
 
 **Description** : *The code was sent through the telegram app*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.sentCodeTypeApp#3dbb5986 length:int = auth.SentCodeType;
@@ -28,6 +28,6 @@ auth.sentCodeTypeApp#3dbb5986 length:int = auth.SentCodeType;
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeApp(
-	length : 62,
+	length : 75,
 );
 ```

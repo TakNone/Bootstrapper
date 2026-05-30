@@ -2,7 +2,7 @@
 
 **Description** : *An embedded webpage*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 pageBlockEmbed#a8718dc5 flags:# full_width:flags.0?true allow_scrolling:flags.3?true url:flags.1?string html:flags.2?string poster_photo_id:flags.4?long w:flags.5?int h:flags.5?int caption:PageCaption = PageBlock;
@@ -39,10 +39,10 @@ $pageBlock = $client->pageBlockEmbed(
 	full_width : true,
 	allow_scrolling : true,
 	url : 'https://docs.liveproto.dev',
-	html : 'GDCfyoiPgxAJkYrm',
-	poster_photo_id : 1401836002167192892,
-	w : 53,
-	h : 48,
+	html : 'Hh0B8ASYjZt5Uz6m',
+	poster_photo_id : -3066910409209549484,
+	w : 29,
+	h : 92,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

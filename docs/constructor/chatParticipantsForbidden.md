@@ -2,7 +2,7 @@
 
 **Description** : *Info on members is unavailable*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 chatParticipantsForbidden#8763d3e1 flags:# chat_id:long self_participant:flags.0?ChatParticipant = ChatParticipants;
@@ -30,11 +30,12 @@ chatParticipantsForbidden#8763d3e1 flags:# chat_id:long self_participant:flags.0
 
 ```php
 $chatParticipants = $client->chatParticipantsForbidden(
-	chat_id : -4134551148249131226,
+	chat_id : 1026151107148635260,
 	self_participant : $client->chatParticipant(
-		user_id : 5566650816424698149,
-		inviter_id : -7303294977982521922,
-		date : 100,
+		user_id : 554763026871665991,
+		inviter_id : 6440186431607335874,
+		date : 98,
+		rank : 'Ds0rJoQOngBjc3iC',
 	),
 );
 ```

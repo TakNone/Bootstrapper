@@ -2,7 +2,7 @@
 
 **Description** : *Peer in a folder*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 folderPeer#e9baa668 peer:Peer folder_id:int = FolderPeer;
@@ -30,8 +30,8 @@ folderPeer#e9baa668 peer:Peer folder_id:int = FolderPeer;
 ```php
 $folderPeer = $client->folderPeer(
 	peer : $client->peerUser(
-		user_id : 324559576639446077,
+		user_id : 2880778621561209916,
 	),
-	folder_id : 95,
+	folder_id : 35,
 );
 ```

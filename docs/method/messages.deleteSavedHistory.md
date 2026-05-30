@@ -2,7 +2,7 @@
 
 **Description** : *Deletes messages from a monoforum topic &raquo;, or deletes messages forwarded from a specific peer to saved messages &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:InputPeer max_id:int min_date:flags.2?int max_date:flags.3?int = messages.AffectedHistory;
@@ -43,8 +43,8 @@ messages.deleteSavedHistory#4dc5085f flags:# parent_peer:flags.0?InputPeer peer:
 $messagesAffectedHistory = $client->messages->deleteSavedHistory(
 	parent_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	max_id : 34,
-	min_date : 48,
-	max_date : 16,
+	max_id : 13,
+	min_date : 96,
+	max_date : 60,
 );
 ```

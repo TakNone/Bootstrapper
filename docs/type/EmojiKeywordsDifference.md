@@ -2,7 +2,7 @@
 
 **Description** : *New emoji keywords*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 emojiKeywordsDifference#5cc761bd lang_code:string from_version:int version:int keywords:Vector<EmojiKeyword> = EmojiKeywordsDifference;

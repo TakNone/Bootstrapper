@@ -2,10 +2,10 @@
 
 **Description** : *Represents a forum topic*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true title_missing:flags.7?true id:int date:int peer:Peer title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
+forumTopic#fcdad815 flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true title_missing:flags.7?true id:int date:int peer:Peer title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int unread_poll_votes_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
 ```
 
 ---
@@ -33,6 +33,7 @@ forumTopic#cdff0eca flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?t
 | <mark>unread_count</mark> | [`int`](type/int) | Number of unread messages |
 | <mark>unread_mentions_count</mark> | [`int`](type/int) | Number of unread mentions |
 | <mark>unread_reactions_count</mark> | [`int`](type/int) | Number of unread reactions to messages you sent |
+| <mark>unread_poll_votes_count</mark> | [`int`](type/int) | NOTHING |
 | <mark>from_id</mark> | [`Peer`](type/Peer) | ID of the peer that created the topic |
 | <mark>notify_settings</mark> | [`PeerNotifySettings`](type/PeerNotifySettings) | Notification settings |
 | **draft** | [`flags.4?DraftMessage`](type/DraftMessage) | Message draft |
@@ -55,38 +56,39 @@ $forumTopic = $client->forumTopic(
 	short : true,
 	hidden : true,
 	title_missing : true,
-	id : 14,
-	date : 15,
+	id : 25,
+	date : 29,
 	peer : $client->peerUser(
-		user_id : -1629414618893464256,
+		user_id : -1563073826899648379,
 	),
-	title : 'OrXqDcAJ4HapnZt6',
-	icon_color : 75,
-	icon_emoji_id : 6893975363921769400,
-	top_message : 44,
-	read_inbox_max_id : 39,
-	read_outbox_max_id : 86,
-	unread_count : 72,
-	unread_mentions_count : 66,
-	unread_reactions_count : 19,
+	title : '9hUbomaQvWkjdcDN',
+	icon_color : 30,
+	icon_emoji_id : 5381326168502995502,
+	top_message : 12,
+	read_inbox_max_id : 28,
+	read_outbox_max_id : 5,
+	unread_count : 73,
+	unread_mentions_count : 35,
+	unread_reactions_count : 79,
+	unread_poll_votes_count : 62,
 	from_id : $client->peerUser(
-		user_id : -8812567669457574544,
+		user_id : -4907247012853085871,
 	),
 	notify_settings : $client->peerNotifySettings(
-		show_previews : false,
+		show_previews : true,
 		silent : false,
-		mute_until : 36,
+		mute_until : 77,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
-		stories_muted : true,
-		stories_hide_sender : true,
+		stories_muted : false,
+		stories_hide_sender : false,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	draft : $client->draftMessageEmpty(
-		date : 14,
+		date : 72,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Fetch only admin participants*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelParticipantsAdmins#b4608969 = ChannelParticipantsFilter;

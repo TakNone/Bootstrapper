@@ -2,7 +2,7 @@
 
 **Description** : *Set or remove the Telegram Business introduction &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.updateBusinessIntro#a614d034 flags:# intro:flags.0?InputBusinessIntro = Bool;
@@ -30,8 +30,8 @@ account.updateBusinessIntro#a614d034 flags:# intro:flags.0?InputBusinessIntro = 
 ```php
 $bool = $client->account->updateBusinessIntro(
 	intro : $client->inputBusinessIntro(
-		title : 'wSoybiP9DQkxX8T4',
-		description : 'tZku5jBO7J9roLxS',
+		title : 'GzISpfJ2sWlrP03g',
+		description : 'LDvHuKAFonmgRI0C',
 		sticker : $client->inputDocumentEmpty(),
 	),
 );

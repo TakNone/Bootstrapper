@@ -2,7 +2,7 @@
 
 **Description** : *Rename a story albums &raquo;, or add, delete or reorder stories in it*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?string delete_stories:flags.1?Vector<int> add_stories:flags.2?Vector<int> order:flags.3?Vector<int> = StoryAlbum;
@@ -43,10 +43,10 @@ stories.updateAlbum#5e5259b6 flags:# peer:InputPeer album_id:int title:flags.0?s
 ```php
 $storyAlbum = $client->stories->updateAlbum(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	album_id : 12,
-	title : 'GWZ7npBTmo1QbSFl',
-	delete_stories : array(87),
-	add_stories : array(54),
-	order : array(87),
+	album_id : 67,
+	title : '5SqOCgcyMtEBupdA',
+	delete_stories : array(67),
+	add_stories : array(64),
+	order : array(86),
 );
 ```

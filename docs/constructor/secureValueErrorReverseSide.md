@@ -2,7 +2,7 @@
 
 **Description** : *Represents an issue with the reverse side of a document\. The error is considered resolved when the file with reverse side of the document changes*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 secureValueErrorReverseSide#868a2aa5 type:SecureValueType file_hash:bytes text:string = SecureValueError;
@@ -32,6 +32,6 @@ secureValueErrorReverseSide#868a2aa5 type:SecureValueType file_hash:bytes text:s
 $secureValueError = $client->secureValueErrorReverseSide(
 	type : $client->secureValueTypePersonalDetails(),
 	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	text : 'EWsZ8UCvJ3G7dmxM',
+	text : '6ucYvO1Z2PyriE8a',
 );
 ```

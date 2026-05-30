@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a suggested post &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 suggestedPost#e8e37e5 flags:# accepted:flags.1?true rejected:flags.2?true price:flags.3?StarsAmount schedule_date:flags.0?int = SuggestedPost;
@@ -35,9 +35,9 @@ $suggestedPost = $client->suggestedPost(
 	accepted : true,
 	rejected : true,
 	price : $client->starsAmount(
-		amount : 7058961096736120755,
-		nanos : 26,
+		amount : 609851962139772343,
+		nanos : 36,
 	),
-	schedule_date : 18,
+	schedule_date : 42,
 );
 ```

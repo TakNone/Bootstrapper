@@ -2,7 +2,7 @@
 
 **Description** : *Force the user to send a reply*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 replyKeyboardForceReply#86b40b08 flags:# single_use:flags.1?true selective:flags.2?true placeholder:flags.3?string = ReplyMarkup;
@@ -33,6 +33,6 @@ replyKeyboardForceReply#86b40b08 flags:# single_use:flags.1?true selective:flags
 $replyMarkup = $client->replyKeyboardForceReply(
 	single_use : true,
 	selective : true,
-	placeholder : 'g4D9LTR0ivrbGOxd',
+	placeholder : 'aonlzYJ6iQR4hjWp',
 );
 ```

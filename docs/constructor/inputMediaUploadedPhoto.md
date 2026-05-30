@@ -2,10 +2,10 @@
 
 **Description** : *Photo*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-inputMediaUploadedPhoto#1e287d04 flags:# spoiler:flags.2?true file:InputFile stickers:flags.0?Vector<InputDocument> ttl_seconds:flags.1?int = InputMedia;
+inputMediaUploadedPhoto#7d8375da flags:# spoiler:flags.2?true live_photo:flags.3?true file:InputFile stickers:flags.0?Vector<InputDocument> ttl_seconds:flags.1?int video:flags.3?InputDocument = InputMedia;
 ```
 
 ---
@@ -16,9 +16,11 @@ inputMediaUploadedPhoto#1e287d04 flags:# spoiler:flags.2?true file:InputFile sti
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **spoiler** | [`flags.2?true`](type/true) | Whether this media should be hidden behind a spoiler warning |
+| **live_photo** | [`flags.3?true`](type/true) | NOTHING |
 | <mark>file</mark> | [`InputFile`](type/InputFile) | The uploaded file |
 | **stickers** | [`flags.0?Vector<InputDocument>`](type/InputDocument) | Attached mask stickers |
 | **ttl_seconds** | [`flags.1?int`](type/int) | Time to live in seconds of self-destructing photo |
+| **video** | [`flags.3?InputDocument`](type/InputDocument) | NOTHING |
 
 ---
 
@@ -33,15 +35,17 @@ inputMediaUploadedPhoto#1e287d04 flags:# spoiler:flags.2?true file:InputFile sti
 ```php
 $inputMedia = $client->inputMediaUploadedPhoto(
 	spoiler : true,
+	live_photo : true,
 	file : $client->upload_file(path : 'file.png'),
 	stickers : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : 6895302378090038976,
-			access_hash : 5330456054740203676,
+			id : -8281877503526605687,
+			access_hash : 7690354931673516760,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	ttl_seconds : 76,
+	ttl_seconds : 88,
+	video : $client->inputDocumentEmpty(),
 );
 ```

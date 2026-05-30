@@ -2,7 +2,7 @@
 
 **Description** : *Message entities, representing styled text in a message*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageEntityUnknown#bb92ba95 offset:int length:int = MessageEntity;
@@ -26,6 +26,10 @@ messageEntityBankCard#761e6af4 offset:int length:int = MessageEntity;
 messageEntitySpoiler#32ca960f offset:int length:int = MessageEntity;
 messageEntityCustomEmoji#c8cf05f8 offset:int length:int document_id:long = MessageEntity;
 messageEntityBlockquote#f1ccaaac flags:# collapsed:flags.0?true offset:int length:int = MessageEntity;
+messageEntityFormattedDate#904ac7c7 flags:# relative:flags.0?true short_time:flags.1?true long_time:flags.2?true short_date:flags.3?true long_date:flags.4?true day_of_week:flags.5?true offset:int length:int date:int = MessageEntity;
+messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
+messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = MessageEntity;
+messageEntityDiffDelete#652c1c5 offset:int length:int = MessageEntity;
 ```
 
 ---
@@ -55,3 +59,7 @@ messageEntityBlockquote#f1ccaaac flags:# collapsed:flags.0?true offset:int lengt
 | [**messageEntitySpoiler**](constructor/messageEntitySpoiler) | Message entity representing a spoiler |
 | [**messageEntityCustomEmoji**](constructor/messageEntityCustomEmoji) | Represents a custom emoji.  Note that this entity must wrap exactly one regular emoji (the one contained in documentAttributeCustomEmoji.alt) in the related text, otherwise the server will ignore it |
 | [**messageEntityBlockquote**](constructor/messageEntityBlockquote) | Message entity representing a block quote |
+| [**messageEntityFormattedDate**](constructor/messageEntityFormattedDate) | NOTHING |
+| [**messageEntityDiffInsert**](constructor/messageEntityDiffInsert) | NOTHING |
+| [**messageEntityDiffReplace**](constructor/messageEntityDiffReplace) | NOTHING |
+| [**messageEntityDiffDelete**](constructor/messageEntityDiffDelete) | NOTHING |

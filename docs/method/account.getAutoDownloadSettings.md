@@ -2,7 +2,7 @@
 
 **Description** : *Get media autodownload settings*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.getAutoDownloadSettings#56da0b3f = account.AutoDownloadSettings;

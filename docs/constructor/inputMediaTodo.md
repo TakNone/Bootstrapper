@@ -2,7 +2,7 @@
 
 **Description** : *Creates a todo list &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputMediaTodo#9fc55fde todo:TodoList = InputMedia;
@@ -32,105 +32,129 @@ $inputMedia = $client->inputMediaTodo(
 		others_can_append : true,
 		others_can_complete : true,
 		title : $client->textWithEntities(
-			text : 'AB7ZzWm0tqehC6R8',
+			text : '6JuSkN9h1fPitCrX',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 85,
+					length : 54,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 37,
+					length : 75,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 96,
+					length : 20,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 28,
+					length : 72,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 75,
+					length : 94,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 96,
+					length : 40,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 46,
+					length : 98,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 66,
+					length : 52,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 16,
+					length : 74,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 42,
-					language : 'Bw3jtzg7N8MoJU0S',
+					length : 2,
+					language : '72O9CQMmZHpXBJwl',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 73,
+					length : 20,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 96,
-					user_id : 5014733782516396866,
+					length : 81,
+					user_id : 7746686910218786910,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 99,
+					length : 15,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 65,
+					length : 50,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 6,
+					length : 4,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 64,
+					length : 75,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 92,
+					length : 95,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 49,
+					length : 44,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 23,
+					length : 94,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 48,
-					document_id : -1770942104839237830,
+					length : 70,
+					document_id : -4648236530883028415,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 74,
+					length : 7,
+				),
+				$client->messageEntityFormattedDate(
+					relative : true,
+					short_time : true,
+					long_time : true,
+					short_date : true,
+					long_date : true,
+					day_of_week : true,
+					offset : 0,
+					length : 56,
+					date : 63,
+				),
+				$client->messageEntityDiffInsert(
+					offset : 0,
+					length : 50,
+				),
+				$client->messageEntityDiffReplace(
+					offset : 0,
+					length : 38,
+					old_text : 'ver7dt3sqCn2IDMw',
+				),
+				$client->messageEntityDiffDelete(
+					offset : 0,
+					length : 90,
 				),
 			),
 		),
 		list : array(
 			$client->todoItem(
-				id : 47,
+				id : 77,
 				title : $client->textWithEntities(
-					text : 'ArcKzfT7DmoeJZ9q',
+					text : 'xP1VOZFEdvuA7HlR',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -153,6 +177,10 @@ $inputMedia = $client->inputMediaTodo(
 						$client->messageEntitySpoiler(...),
 						$client->messageEntityCustomEmoji(...),
 						$client->messageEntityBlockquote(...),
+						$client->messageEntityFormattedDate(...),
+						$client->messageEntityDiffInsert(...),
+						$client->messageEntityDiffReplace(...),
+						$client->messageEntityDiffDelete(...),
 					),
 				),
 			),

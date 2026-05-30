@@ -2,7 +2,7 @@
 
 **Description** : *List of boosts that were applied to a peer by multiple users*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 premium.boostsList#86f8613c flags:# count:int boosts:Vector<Boost> next_offset:flags.0?string users:Vector<User> = premium.BoostsList;
@@ -38,20 +38,20 @@ $premiumBoostsList = $client->premium->boostsList(
 			gift : true,
 			giveaway : true,
 			unclaimed : true,
-			id : 'EXJOCw9vyusU6Axl',
-			user_id : -8877401538374484661,
-			giveaway_msg_id : 18,
-			date : 54,
-			expires : 34,
-			used_gift_slug : '5Nm9jspYWkBOD7uZ',
-			multiplier : 36,
-			stars : -1584586501776167309,
+			id : 'tvXOjWELY1CDi9om',
+			user_id : 4892549920049789045,
+			giveaway_msg_id : 57,
+			date : 0,
+			expires : 54,
+			used_gift_slug : 'dK0iaqWNstDX9HMR',
+			multiplier : 65,
+			stars : 1723555474772642589,
 		),
 	),
-	next_offset : 'ZQOtxRPmp7zfrIlk',
+	next_offset : '6EpJKqUAQtgny1Ch',
 	users : array(
 		$client->userEmpty(
-			id : -4513667292586800812,
+			id : 512297333468413977,
 		),
 		$client->user(
 			self : true,
@@ -81,24 +81,26 @@ $premiumBoostsList = $client->premium->boostsList(
 			bot_has_main_app : true,
 			bot_forum_view : true,
 			bot_forum_can_manage_topics : true,
-			id : 7040975442869833612,
-			access_hash : -634477267138557666,
+			bot_can_manage_bots : true,
+			bot_guestchat : true,
+			id : -8114897646539903734,
+			access_hash : -6934356269583131709,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 100,
+			bot_info_version : 66,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'asj9wJUWeGEXxDCN',
-					reason : 'FGVoMlqjXQJbPpRf',
-					text : '4aJekM0ZUNrRV26B',
+					platform : 'TQpZsvcOzlNiGuge',
+					reason : 'T3ISejaUknhAiXf2',
+					text : '0VsorKbqTeaLgmyh',
 				),
 			),
-			bot_inline_placeholder : 'VH6W2AUh1t9omylv',
-			lang_code : 'hFgsdDQ4pZbaNJnI',
+			bot_inline_placeholder : 'UBkY9T3e5jy6bKso',
+			lang_code : 'aHLQmMEZ8UxwqX5c',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -109,19 +111,19 @@ $premiumBoostsList = $client->premium->boostsList(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 80,
+				max_id : 13,
 			),
 			color : $client->peerColor(
-				color : 86,
-				background_emoji_id : -3341681762407281117,
+				color : 21,
+				background_emoji_id : 5403721849164259797,
 			),
 			profile_color : $client->peerColor(
-				color : 33,
-				background_emoji_id : 5011834951061108113,
+				color : 75,
+				background_emoji_id : -5805687665115911859,
 			),
-			bot_active_users : 69,
-			bot_verification_icon : -7550658894328725106,
-			send_paid_messages_stars : 8073591508137975896,
+			bot_active_users : 22,
+			bot_verification_icon : -1953684291957148763,
+			send_paid_messages_stars : 2659235284523801959,
 		),
 	),
 );

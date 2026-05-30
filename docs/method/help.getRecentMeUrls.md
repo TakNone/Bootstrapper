@@ -2,7 +2,7 @@
 
 **Description** : *Get recently used t\.me links*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 help.getRecentMeUrls#3dc0f114 referer:string = help.RecentMeUrls;
@@ -28,6 +28,6 @@ help.getRecentMeUrls#3dc0f114 referer:string = help.RecentMeUrls;
 
 ```php
 $helpRecentMeUrls = $client->help->getRecentMeUrls(
-	referer : 'RskTQIco2O1zvZEC',
+	referer : 'owk3g65zhdSxZPX0',
 );
 ```

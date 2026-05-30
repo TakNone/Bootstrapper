@@ -2,7 +2,7 @@
 
 **Description** : *Login via token \(QR code\) succeeded\!*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.loginTokenSuccess#390d5c5e authorization:auth.Authorization = auth.LoginToken;
@@ -30,11 +30,11 @@ auth.loginTokenSuccess#390d5c5e authorization:auth.Authorization = auth.LoginTok
 $authLoginToken = $client->auth->loginTokenSuccess(
 	authorization : $client->auth->authorization(
 		setup_password_required : true,
-		otherwise_relogin_days : 35,
-		tmp_sessions : 62,
+		otherwise_relogin_days : 30,
+		tmp_sessions : 6,
 		future_auth_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		user : $client->userEmpty(
-			id : 6277837785853907567,
+			id : -2624339185926014478,
 		),
 	),
 );

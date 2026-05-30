@@ -2,7 +2,7 @@
 
 **Description** : *Default custom emoji status stickerset*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputStickerSetEmojiDefaultStatuses#29d0f5ee = InputStickerSet;

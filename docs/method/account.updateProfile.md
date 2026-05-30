@@ -2,7 +2,7 @@
 
 **Description** : *Updates user profile*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.updateProfile#78515775 flags:# first_name:flags.0?string last_name:flags.1?string about:flags.2?string = User;
@@ -43,6 +43,6 @@ account.updateProfile#78515775 flags:# first_name:flags.0?string last_name:flags
 $user = $client->account->updateProfile(
 	first_name : 'Tak',
 	last_name : 'None',
-	about : 'C8Ye5UJcqAaWB1Iy',
+	about : 'IR9hq6AXWikonyNU',
 );
 ```

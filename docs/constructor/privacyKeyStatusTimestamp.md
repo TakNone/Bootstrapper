@@ -2,7 +2,7 @@
 
 **Description** : *Whether we can see the last online timestamp of this user*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 privacyKeyStatusTimestamp#bc2eab30 = PrivacyKey;

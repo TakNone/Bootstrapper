@@ -2,7 +2,7 @@
 
 **Description** : *Vote in a poll*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.sendVote#10ea6184 peer:InputPeer msg_id:int options:Vector<bytes> = Updates;
@@ -47,7 +47,7 @@ messages.sendVote#10ea6184 peer:InputPeer msg_id:int options:Vector<bytes> = Upd
 ```php
 $updates = $client->messages->sendVote(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 70,
+	msg_id : 32,
 	options : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
 );
 ```

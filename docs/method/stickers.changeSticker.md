@@ -2,7 +2,7 @@
 
 **Description** : *Update the keywords, emojis or mask coordinates of a sticker*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stickers.changeSticker#f5537ebc flags:# sticker:InputDocument emoji:flags.0?string mask_coords:flags.1?MaskCoords keywords:flags.2?string = messages.StickerSet;
@@ -41,13 +41,13 @@ stickers.changeSticker#f5537ebc flags:# sticker:InputDocument emoji:flags.0?stri
 ```php
 $messagesStickerSet = $client->stickers->changeSticker(
 	sticker : $client->inputDocumentEmpty(),
-	emoji : 'jde5q0snSOwNZ8zk',
+	emoji : 'lFyjpcuTJxnmXdg7',
 	mask_coords : $client->maskCoords(
-		n : 18,
-		x : 1221730.8134765625,
-		y : 425682.353515625,
-		zoom : -311271.16796875,
+		n : 1,
+		x : -997755.3251953125,
+		y : 68598.6552734375,
+		zoom : -1520388.6796875,
 	),
-	keywords : 'uB8lUXT1I4vxstjJ',
+	keywords : 'gZsaRIyX4Ptv8xOc',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat action bar &raquo;, see here &raquo; for more info*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 peerSettings#f47741f7 flags:# report_spam:flags.0?true add_contact:flags.1?true block_contact:flags.2?true share_contact:flags.3?true need_contacts_exception:flags.4?true report_geo:flags.5?true autoarchived:flags.7?true invite_members:flags.8?true request_chat_broadcast:flags.10?true business_bot_paused:flags.11?true business_bot_can_reply:flags.12?true geo_distance:flags.6?int request_chat_title:flags.9?string request_chat_date:flags.9?int business_bot_id:flags.13?long business_bot_manage_url:flags.13?string charge_paid_message_stars:flags.14?long registration_month:flags.15?string phone_country:flags.16?string name_change_date:flags.17?int photo_change_date:flags.18?int = PeerSettings;
@@ -60,15 +60,15 @@ $peerSettings = $client->peerSettings(
 	request_chat_broadcast : true,
 	business_bot_paused : true,
 	business_bot_can_reply : true,
-	geo_distance : 18,
-	request_chat_title : '0UDre2IgocmhETVy',
-	request_chat_date : 90,
-	business_bot_id : -1974697727288771331,
+	geo_distance : 3,
+	request_chat_title : 'WkoRKOQ5PlpqcrDN',
+	request_chat_date : 94,
+	business_bot_id : 8362936869929580027,
 	business_bot_manage_url : 'https://docs.liveproto.dev',
-	charge_paid_message_stars : 8578830373465684600,
-	registration_month : 'dzPisf5QeKTEHGF7',
+	charge_paid_message_stars : -7780170668701586562,
+	registration_month : 'JmFQ6S79IahwEuoO',
 	phone_country : '+1234567890',
-	name_change_date : 99,
-	photo_change_date : 92,
+	name_change_date : 37,
+	photo_change_date : 95,
 );
 ```

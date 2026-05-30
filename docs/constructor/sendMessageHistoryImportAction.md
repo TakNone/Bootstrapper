@@ -2,7 +2,7 @@
 
 **Description** : *Chat history is being imported*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 sendMessageHistoryImportAction#dbda9246 progress:int = SendMessageAction;
@@ -28,6 +28,6 @@ sendMessageHistoryImportAction#dbda9246 progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageHistoryImportAction(
-	progress : 12,
+	progress : 23,
 );
 ```

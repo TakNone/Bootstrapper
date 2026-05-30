@@ -2,7 +2,7 @@
 
 **Description** : *The order of stickersets was changed*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateStickerSetsOrder#bb2d201 flags:# masks:flags.0?true emojis:flags.1?true order:Vector<long> = Update;
@@ -33,6 +33,6 @@ updateStickerSetsOrder#bb2d201 flags:# masks:flags.0?true emojis:flags.1?true or
 $update = $client->updateStickerSetsOrder(
 	masks : true,
 	emojis : true,
-	order : array(50160673823113690),
+	order : array(-3240478851701951632),
 );
 ```

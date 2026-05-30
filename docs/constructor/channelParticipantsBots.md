@@ -2,7 +2,7 @@
 
 **Description** : *Fetch only bot participants*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelParticipantsBots#b0d1865b = ChannelParticipantsFilter;

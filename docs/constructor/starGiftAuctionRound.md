@@ -1,6 +1,6 @@
 # starGiftAuctionRound
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;
@@ -27,7 +27,7 @@ starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;
 
 ```php
 $starGiftAuctionRound = $client->starGiftAuctionRound(
-	num : 82,
-	duration : 47,
+	num : 16,
+	duration : 81,
 );
 ```

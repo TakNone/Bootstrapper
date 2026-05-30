@@ -1,6 +1,6 @@
 # starGiftAuctionRoundExtendable
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starGiftAuctionRoundExtendable#aa021e5 num:int duration:int extend_top:int extend_window:int = StarGiftAuctionRound;
@@ -29,9 +29,9 @@ starGiftAuctionRoundExtendable#aa021e5 num:int duration:int extend_top:int exten
 
 ```php
 $starGiftAuctionRound = $client->starGiftAuctionRoundExtendable(
-	num : 26,
-	duration : 67,
-	extend_top : 28,
-	extend_window : 10,
+	num : 46,
+	duration : 40,
+	extend_top : 32,
+	extend_window : 16,
 );
 ```

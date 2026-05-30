@@ -1,6 +1,6 @@
 # account.PasskeyRegistrationOptions
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.passkeyRegistrationOptions#e16b5ce1 options:DataJSON = account.PasskeyRegistrationOptions;

@@ -2,7 +2,7 @@
 
 **Description** : *Get new updates*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updates.getDifference#19c2f763 flags:# pts:int pts_limit:flags.1?int pts_total_limit:flags.0?int date:int qts:int qts_limit:flags.2?int = updates.Difference;
@@ -53,11 +53,11 @@ updates.getDifference#19c2f763 flags:# pts:int pts_limit:flags.1?int pts_total_l
 
 ```php
 $updatesDifference = $client->updates->getDifference(
-	pts : 38,
-	pts_limit : 17,
-	pts_total_limit : 43,
-	date : 74,
-	qts : 26,
-	qts_limit : 73,
+	pts : 80,
+	pts_limit : 8,
+	pts_total_limit : 29,
+	date : 4,
+	qts : 7,
+	qts_limit : 86,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing an in\-text url: https://google\.com; for text urls, use messageEntityTextUrl*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageEntityUrl#6ed02538 offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityUrl#6ed02538 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityUrl(
 	offset : 0,
-	length : 7,
+	length : 46,
 );
 ```

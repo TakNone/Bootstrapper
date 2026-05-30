@@ -2,7 +2,7 @@
 
 **Description** : *Clears list of recently used emoji statuses*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.clearRecentEmojiStatuses#18201aae = Bool;

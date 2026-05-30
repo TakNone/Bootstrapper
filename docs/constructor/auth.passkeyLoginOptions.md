@@ -1,6 +1,6 @@
 # auth.passkeyLoginOptions
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
@@ -27,7 +27,7 @@ auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
 ```php
 $authPasskeyLoginOptions = $client->auth->passkeyLoginOptions(
 	options : $client->dataJSON(
-		data : 'ctjAZpJ5TQKH9kVs',
+		data : '8zn4vHCdrB3P59TX',
 	),
 );
 ```

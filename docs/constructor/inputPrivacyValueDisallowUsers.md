@@ -2,7 +2,7 @@
 
 **Description** : *Disallow only certain users*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputPrivacyValueDisallowUsers#90110467 users:Vector<InputUser> = InputPrivacyRule;

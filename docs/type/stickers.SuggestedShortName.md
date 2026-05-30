@@ -2,7 +2,7 @@
 
 **Description** : *A suggested short name for the specified stickerpack*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stickers.suggestedShortName#85fea03f short_name:string = stickers.SuggestedShortName;

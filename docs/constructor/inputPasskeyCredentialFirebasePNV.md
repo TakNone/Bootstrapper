@@ -1,6 +1,6 @@
 # inputPasskeyCredentialFirebasePNV
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputPasskeyCredentialFirebasePNV#5b1ccb28 pnv_token:string = InputPasskeyCredential;
@@ -26,6 +26,6 @@ inputPasskeyCredentialFirebasePNV#5b1ccb28 pnv_token:string = InputPasskeyCreden
 
 ```php
 $inputPasskeyCredential = $client->inputPasskeyCredentialFirebasePNV(
-	pnv_token : '80k7vMycwatR9e6u',
+	pnv_token : 'NpOEJcFw70iCVTfX',
 );
 ```

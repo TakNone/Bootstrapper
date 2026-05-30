@@ -2,10 +2,10 @@
 
 **Description** : *Represents the creator of the group*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-chatParticipantCreator#e46bcee4 user_id:long = ChatParticipant;
+chatParticipantCreator#e1f867b8 flags:# user_id:long rank:flags.0?string = ChatParticipant;
 ```
 
 ---
@@ -14,7 +14,9 @@ chatParticipantCreator#e46bcee4 user_id:long = ChatParticipant;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>user_id</mark> | [`long`](type/long) | ID of the user that created the group |
+| **rank** | [`flags.0?string`](type/string) | NOTHING |
 
 ---
 
@@ -28,6 +30,7 @@ chatParticipantCreator#e46bcee4 user_id:long = ChatParticipant;
 
 ```php
 $chatParticipant = $client->chatParticipantCreator(
-	user_id : -1485693167934575295,
+	user_id : -6695632739667439536,
+	rank : 'CMKr0O5dITatxFXk',
 );
 ```

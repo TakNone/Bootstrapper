@@ -2,7 +2,7 @@
 
 **Description** : *List of IDs of songs \(document\.ids\) currently pinned on our profile, see here &raquo; for more info*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.savedMusicIds#998d6636 ids:Vector<long> = account.SavedMusicIds;
@@ -28,6 +28,6 @@ account.savedMusicIds#998d6636 ids:Vector<long> = account.SavedMusicIds;
 
 ```php
 $accountSavedMusicIds = $client->account->savedMusicIds(
-	ids : array(1556377874793240750),
+	ids : array(242614522937762589),
 );
 ```

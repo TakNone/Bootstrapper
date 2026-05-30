@@ -4,7 +4,7 @@
 Use this method to respond to such pre\-checkout queries\.
 Note: Telegram must receive an answer within 10 seconds after the pre\-checkout query was sent*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.setBotPrecheckoutResults#9c2dd95 flags:# success:flags.1?true query_id:long error:flags.0?string = Bool;
@@ -43,7 +43,7 @@ messages.setBotPrecheckoutResults#9c2dd95 flags:# success:flags.1?true query_id:
 ```php
 $bool = $client->messages->setBotPrecheckoutResults(
 	success : true,
-	query_id : 2010460556708513084,
-	error : 'eXgT3jOlhA8oVZNG',
+	query_id : -7641137377803822425,
+	error : 'JI0u7hd8aqWPYGNm',
 );
 ```

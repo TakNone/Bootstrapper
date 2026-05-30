@@ -2,7 +2,7 @@
 
 **Description** : *A chat invite was edited*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelAdminLogEventActionExportedInviteEdit#e90ebb59 prev_invite:ExportedChatInvite new_invite:ExportedChatInvite = ChannelAdminLogEventAction;
@@ -33,38 +33,38 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionExportedInviteE
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'NPur7QI9XbexJVjf',
-		admin_id : 607904323076357024,
-		date : 32,
-		start_date : 51,
-		expire_date : 84,
-		usage_limit : 73,
-		usage : 92,
-		requested : 16,
-		subscription_expired : 100,
-		title : 'oOeR1pyImJkY9Tqs',
+		link : 'y37QmilqzdCZKGES',
+		admin_id : 4277267438278291543,
+		date : 85,
+		start_date : 48,
+		expire_date : 40,
+		usage_limit : 75,
+		usage : 83,
+		requested : 3,
+		subscription_expired : 72,
+		title : 'nqJYT8Hg3KGMrbX1',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 70,
-			amount : 7224133369458065392,
+			period : 71,
+			amount : 6843656527971724663,
 		),
 	),
 	new_invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'HtqSn2YRohGz1DQW',
-		admin_id : 2856723895308302197,
-		date : 11,
-		start_date : 34,
-		expire_date : 32,
-		usage_limit : 8,
-		usage : 84,
-		requested : 78,
-		subscription_expired : 76,
-		title : 'bf2MExwRmanuHOTP',
+		link : 'GkjIVtSq48eyYsJA',
+		admin_id : -551934340221703123,
+		date : 60,
+		start_date : 2,
+		expire_date : 75,
+		usage_limit : 44,
+		usage : 73,
+		requested : 8,
+		subscription_expired : 71,
+		title : 'aNk7eL0migTUdn24',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 36,
-			amount : 7565485625812380588,
+			period : 29,
+			amount : 8257175404711778991,
 		),
 	),
 );

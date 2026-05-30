@@ -2,7 +2,7 @@
 
 **Description** : *A user just sent a payment to me \(a bot\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionPaymentSentMe#ffa00ccc flags:# recurring_init:flags.2?true recurring_used:flags.3?true currency:string total_amount:long payload:bytes info:flags.0?PaymentRequestedInfo shipping_option_id:flags.1?string charge:PaymentCharge subscription_until_date:flags.4?int = MessageAction;
@@ -39,27 +39,27 @@ messageActionPaymentSentMe#ffa00ccc flags:# recurring_init:flags.2?true recurrin
 $messageAction = $client->messageActionPaymentSentMe(
 	recurring_init : true,
 	recurring_used : true,
-	currency : '1QBK2N7aqbdW5CSk',
-	total_amount : 5549984530926501446,
+	currency : 'nPdfbp39WFOlV7La',
+	total_amount : 3223541662807470270,
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	info : $client->paymentRequestedInfo(
-		name : 'y6UbhtaVdGBr09Hj',
+		name : 'hcjTZb6V2i4ANnPf',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : 'KcV8vS3Gq6912ER4',
-			street_line2 : 'GxVTkQ2DC0MeJaqZ',
-			city : 'Cmw8hzMWtvB1gPas',
-			state : 'nPm1O8SN7liwCVrW',
-			country_iso2 : 'rLbwdUNpDSuGvm7V',
-			post_code : 'ZaPAkGhs9UKjruod',
+			street_line1 : 'ERXLstl9JNvHwTi5',
+			street_line2 : '0mSnpLAgWRjwrZvd',
+			city : 'mokg8tKXM2Hsqz9Y',
+			state : 'EdT6lNrfHocuyVbk',
+			country_iso2 : 'fHDMawrV5y4nIPlQ',
+			post_code : '1x4wqKgYVubL9CIF',
 		),
 	),
-	shipping_option_id : 'l3c0SORUM5uYCV2a',
+	shipping_option_id : 'uCG4JD5ahoYQ6ksT',
 	charge : $client->paymentCharge(
-		id : 'rB1eoGmpUR57zTkK',
-		provider_charge_id : 'AjUB3yHYkNtPeGTv',
+		id : '1GjSgF5XKLoED4RA',
+		provider_charge_id : 'mHfK79dlGQLJhORx',
 	),
-	subscription_until_date : 85,
+	subscription_until_date : 81,
 );
 ```

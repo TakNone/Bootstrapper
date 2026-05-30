@@ -2,7 +2,7 @@
 
 **Description** : *Describes a list of users \(or bots\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 users.users#62d706b8 users:Vector<User> = users.Users;

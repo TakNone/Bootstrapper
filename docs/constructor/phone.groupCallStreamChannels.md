@@ -2,7 +2,7 @@
 
 **Description** : *Info about RTMP streams in a group call or livestream*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.groupCallStreamChannels#d0e482b2 channels:Vector<GroupCallStreamChannel> = phone.GroupCallStreamChannels;
@@ -30,9 +30,9 @@ phone.groupCallStreamChannels#d0e482b2 channels:Vector<GroupCallStreamChannel> =
 $phoneGroupCallStreamChannels = $client->phone->groupCallStreamChannels(
 	channels : array(
 		$client->groupCallStreamChannel(
-			channel : 53,
-			scale : 83,
-			last_timestamp_ms : 3149071561582356072,
+			channel : 38,
+			scale : 29,
+			last_timestamp_ms : 4954495485451010415,
 		),
 	),
 );

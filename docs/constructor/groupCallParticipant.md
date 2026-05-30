@@ -2,7 +2,7 @@
 
 **Description** : *Info about a group call participant*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 groupCallParticipant#2a3dc7ac flags:# muted:flags.0?true left:flags.1?true can_self_unmute:flags.2?true just_joined:flags.4?true versioned:flags.5?true min:flags.8?true muted_by_you:flags.9?true volume_by_admin:flags.10?true self:flags.12?true video_joined:flags.15?true peer:Peer date:int active_date:flags.3?int source:int volume:flags.7?int about:flags.11?string raise_hand_rating:flags.13?long video:flags.6?GroupCallParticipantVideo presentation:flags.14?GroupCallParticipantVideo paid_stars_total:flags.16?long = GroupCallParticipant;
@@ -59,36 +59,36 @@ $groupCallParticipant = $client->groupCallParticipant(
 	self : true,
 	video_joined : true,
 	peer : $client->peerUser(
-		user_id : 6810663427056798157,
+		user_id : 1067102391461529624,
 	),
-	date : 92,
-	active_date : 15,
-	source : 53,
-	volume : 21,
-	about : '0HUZR4TsJPY8QKpI',
-	raise_hand_rating : 8231214713670055517,
+	date : 47,
+	active_date : 84,
+	source : 74,
+	volume : 41,
+	about : 'YS35iNbjTsV6Hf7X',
+	raise_hand_rating : 4888395439285620729,
 	video : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'SbR7vakTquCi3FHE',
+		endpoint : 'DwH3zc1CSyNPomLZ',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'eNE5igtKZVMvFD84',
-				sources : array(80),
+				semantics : 'QKNd2twm1HMWFRPC',
+				sources : array(12),
 			),
 		),
 		audio_source : 93,
 	),
 	presentation : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : '2bfInyLD0sUmujX7',
+		endpoint : 'mfGFdqkle5PZYUrs',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : '3B4euhA79zsFryWq',
-				sources : array(15),
+				semantics : 'mrliFhLIZPHcT04M',
+				sources : array(43),
 			),
 		),
-		audio_source : 16,
+		audio_source : 66,
 	),
-	paid_stars_total : 5680821899688565996,
+	paid_stars_total : 2915965122318464551,
 );
 ```

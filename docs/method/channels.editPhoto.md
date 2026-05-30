@@ -2,7 +2,7 @@
 
 **Description** : *Change the photo of a channel/supergroup*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.editPhoto#f12e57c9 channel:InputChannel photo:InputChatPhoto = Updates;

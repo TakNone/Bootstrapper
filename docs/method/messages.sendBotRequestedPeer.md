@@ -2,10 +2,10 @@
 
 **Description** : *Send one or more chosen peers, as requested by a keyboardButtonRequestPeer button*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-messages.sendBotRequestedPeer#91b2d060 peer:InputPeer msg_id:int button_id:int requested_peers:Vector<InputPeer> = Updates;
+messages.sendBotRequestedPeer#6c5cf2a7 flags:# peer:InputPeer msg_id:flags.0?int webapp_req_id:flags.1?string button_id:int requested_peers:Vector<InputPeer> = Updates;
 ```
 
 ---
@@ -14,8 +14,10 @@ messages.sendBotRequestedPeer#91b2d060 peer:InputPeer msg_id:int button_id:int r
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The bot that sent the keyboardButtonRequestPeer button |
-| <mark>msg_id</mark> | [`int`](type/int) | ID of the message that contained the reply keyboard with the keyboardButtonRequestPeer button |
+| **msg_id** | [`flags.0?int`](type/int) | ID of the message that contained the reply keyboard with the keyboardButtonRequestPeer button |
+| **webapp_req_id** | [`flags.1?string`](type/string) | NOTHING |
 | <mark>button_id</mark> | [`int`](type/int) | The button_id field from the keyboardButtonRequestPeer constructor |
 | <mark>requested_peers</mark> | [`Vector<InputPeer>`](type/InputPeer) | The chosen peers |
 
@@ -41,8 +43,9 @@ messages.sendBotRequestedPeer#91b2d060 peer:InputPeer msg_id:int button_id:int r
 ```php
 $updates = $client->messages->sendBotRequestedPeer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 66,
-	button_id : 70,
+	msg_id : 85,
+	webapp_req_id : 'zcVMjRAJ8wbekULB',
+	button_id : 19,
 	requested_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

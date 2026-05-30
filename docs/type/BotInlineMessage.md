@@ -2,7 +2,7 @@
 
 **Description** : *Inline message*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 botInlineMessageMediaAuto#764cf810 flags:# invert_media:flags.3?true message:string entities:flags.1?Vector<MessageEntity> reply_markup:flags.2?ReplyMarkup = BotInlineMessage;

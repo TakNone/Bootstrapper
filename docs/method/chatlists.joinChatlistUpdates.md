@@ -2,7 +2,7 @@
 
 **Description** : *Join channels and supergroups recently added to a chat folder deep link &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 chatlists.joinChatlistUpdates#e089f8f5 chatlist:InputChatlist peers:Vector<InputPeer> = Updates;
@@ -39,7 +39,7 @@ chatlists.joinChatlistUpdates#e089f8f5 chatlist:InputChatlist peers:Vector<Input
 ```php
 $updates = $client->chatlists->joinChatlistUpdates(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 34,
+		filter_id : 32,
 	),
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );

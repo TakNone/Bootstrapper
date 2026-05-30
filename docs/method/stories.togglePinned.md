@@ -2,7 +2,7 @@
 
 **Description** : *Pin or unpin one or more stories*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stories.togglePinned#9a75a1ef peer:InputPeer id:Vector<int> pinned:Bool = Vector<int>;
@@ -39,7 +39,7 @@ stories.togglePinned#9a75a1ef peer:InputPeer id:Vector<int> pinned:Bool = Vector
 ```php
 $int = $client->stories->togglePinned(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(98),
-	pinned : true,
+	id : array(81),
+	pinned : false,
 );
 ```

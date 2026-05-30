@@ -2,7 +2,7 @@
 
 **Description** : *Protocol info for libtgvoip*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phoneCallProtocol#fc878fc8 flags:# udp_p2p:flags.0?true udp_reflector:flags.1?true min_layer:int max_layer:int library_versions:Vector<string> = PhoneCallProtocol;
@@ -35,8 +35,8 @@ phoneCallProtocol#fc878fc8 flags:# udp_p2p:flags.0?true udp_reflector:flags.1?tr
 $phoneCallProtocol = $client->phoneCallProtocol(
 	udp_p2p : true,
 	udp_reflector : true,
-	min_layer : 31,
-	max_layer : 10,
-	library_versions : array('XgZv2wq6nr4cD0CB'),
+	min_layer : 18,
+	max_layer : 29,
+	library_versions : array('41z6vDaVlPypkbOe'),
 );
 ```

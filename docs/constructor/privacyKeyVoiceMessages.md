@@ -2,7 +2,7 @@
 
 **Description** : *Whether the user accepts voice messages*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 privacyKeyVoiceMessages#697f414 = PrivacyKey;

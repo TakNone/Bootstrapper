@@ -2,7 +2,7 @@
 
 **Description** : *Represents an attachment menu icon color for bot mini apps &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 attachMenuBotIconColor#4576f3f0 name:string color:int = AttachMenuBotIconColor;
@@ -29,7 +29,7 @@ attachMenuBotIconColor#4576f3f0 name:string color:int = AttachMenuBotIconColor;
 
 ```php
 $attachMenuBotIconColor = $client->attachMenuBotIconColor(
-	name : 'w26l3VrakRCdbxL5',
-	color : 22,
+	name : 'mzJWPSUtqOVwNCsI',
+	color : 77,
 );
 ```

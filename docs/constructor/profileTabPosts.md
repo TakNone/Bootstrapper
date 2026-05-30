@@ -2,7 +2,7 @@
 
 **Description** : *Represents the stories tab of a profile page*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 profileTabPosts#b98cd696 = ProfileTab;

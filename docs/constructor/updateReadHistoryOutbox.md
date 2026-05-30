@@ -2,7 +2,7 @@
 
 **Description** : *Outgoing messages were read*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateReadHistoryOutbox#2f2f21bf peer:Peer max_id:int pts:int pts_count:int = Update;
@@ -32,10 +32,10 @@ updateReadHistoryOutbox#2f2f21bf peer:Peer max_id:int pts:int pts_count:int = Up
 ```php
 $update = $client->updateReadHistoryOutbox(
 	peer : $client->peerUser(
-		user_id : 5362008740547477613,
+		user_id : 7564105816317585431,
 	),
-	max_id : 22,
-	pts : 3,
-	pts_count : 98,
+	max_id : 30,
+	pts : 61,
+	pts_count : 24,
 );
 ```

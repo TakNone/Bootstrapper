@@ -2,7 +2,7 @@
 
 **Description** : *Upload a media file associated with an imported chat, click here for more info &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.uploadImportedMedia#2a862092 peer:InputPeer import_id:long file_name:string media:InputMedia = MessageMedia;
@@ -42,8 +42,8 @@ messages.uploadImportedMedia#2a862092 peer:InputPeer import_id:long file_name:st
 ```php
 $messageMedia = $client->messages->uploadImportedMedia(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	import_id : -2658650845584708948,
-	file_name : 'xUyPqgA9vnpJrwau',
+	import_id : 4906472639674845687,
+	file_name : 'O5wDQjWihNGvC2tM',
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );
 ```

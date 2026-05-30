@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor, does not define a user*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputUserEmpty#b98886cf = InputUser;

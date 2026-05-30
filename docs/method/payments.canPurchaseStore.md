@@ -2,7 +2,7 @@
 
 **Description** : *Checks whether a purchase is possible\. Must be called before in\-store purchase, official apps only*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.canPurchaseStore#4fdc5ea7 purpose:InputStorePaymentPurpose = Bool;

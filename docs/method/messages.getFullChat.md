@@ -2,7 +2,7 @@
 
 **Description** : *Get full info about a basic group*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getFullChat#aeb00b34 chat_id:long = messages.ChatFull;
@@ -37,6 +37,6 @@ messages.getFullChat#aeb00b34 chat_id:long = messages.ChatFull;
 
 ```php
 $messagesChatFull = $client->messages->getFullChat(
-	chat_id : 8430692084790912458,
+	chat_id : -8538227247295810116,
 );
 ```

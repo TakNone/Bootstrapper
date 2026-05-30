@@ -2,7 +2,7 @@
 
 **Description** : *User is selecting a location to share*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 sendMessageGeoLocationAction#176f8ba1 = SendMessageAction;

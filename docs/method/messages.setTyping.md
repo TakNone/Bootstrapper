@@ -2,7 +2,7 @@
 
 **Description** : *Sends a current user typing event \(see SendMessageAction for all event types\) to a conversation partner or group*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.setTyping#58943ee2 flags:# peer:InputPeer top_msg_id:flags.0?int action:SendMessageAction = Bool;
@@ -54,7 +54,7 @@ messages.setTyping#58943ee2 flags:# peer:InputPeer top_msg_id:flags.0?int action
 ```php
 $bool = $client->messages->setTyping(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 17,
+	top_msg_id : 24,
 	action : $client->sendMessageTypingAction(),
 );
 ```

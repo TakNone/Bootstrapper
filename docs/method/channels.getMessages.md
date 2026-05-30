@@ -2,7 +2,7 @@
 
 **Description** : *Get channel/supergroup messages*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.getMessages#ad8c9a23 channel:InputChannel id:Vector<InputMessage> = messages.Messages;
@@ -46,15 +46,15 @@ $messagesMessages = $client->channels->getMessages(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	id : array(
 		$client->inputMessageID(
-			id : 80,
+			id : 62,
 		),
 		$client->inputMessageReplyTo(
-			id : 88,
+			id : 16,
 		),
 		$client->inputMessagePinned(),
 		$client->inputMessageCallbackQuery(
-			id : 15,
-			query_id : 4827360527620038906,
+			id : 51,
+			query_id : 5280991208066126245,
 		),
 	),
 );

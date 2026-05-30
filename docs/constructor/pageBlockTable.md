@@ -2,7 +2,7 @@
 
 **Description** : *Table*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 pageBlockTable#bf4dea82 flags:# bordered:flags.0?true striped:flags.1?true title:RichText rows:Vector<PageTableRow> = PageBlock;
@@ -45,8 +45,8 @@ $pageBlock = $client->pageBlockTable(
 					valign_middle : true,
 					valign_bottom : true,
 					text : $client->textEmpty(),
-					colspan : 28,
-					rowspan : 31,
+					colspan : 24,
+					rowspan : 13,
 				),
 			),
 		),

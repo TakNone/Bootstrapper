@@ -2,7 +2,7 @@
 
 **Description** : *Peer settings*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.peerSettings#6880b94d settings:PeerSettings chats:Vector<Chat> users:Vector<User> = messages.PeerSettings;

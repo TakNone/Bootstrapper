@@ -2,7 +2,7 @@
 
 **Description** : *Get unread messages where we were mentioned*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getUnreadMentions#f107e790 flags:# peer:InputPeer top_msg_id:flags.0?int offset_id:int add_offset:int limit:int max_id:int min_id:int = messages.Messages;
@@ -47,11 +47,11 @@ messages.getUnreadMentions#f107e790 flags:# peer:InputPeer top_msg_id:flags.0?in
 ```php
 $messagesMessages = $client->messages->getUnreadMentions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 72,
+	top_msg_id : 51,
 	offset_id : 0,
-	add_offset : 25,
-	limit : 54,
-	max_id : 2,
-	min_id : 53,
+	add_offset : 71,
+	limit : 78,
+	max_id : 50,
+	min_id : 40,
 );
 ```

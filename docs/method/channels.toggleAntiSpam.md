@@ -2,7 +2,7 @@
 
 **Description** : *Enable or disable the native antispam system*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.toggleAntiSpam#68f3e4eb channel:InputChannel enabled:Bool = Updates;

@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Star transaction used to pay for Telegram ads as specified here &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starsTransactionPeerAds#60682812 = StarsTransactionPeer;

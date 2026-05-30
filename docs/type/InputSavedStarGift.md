@@ -2,7 +2,7 @@
 
 **Description** : *Points to a gift &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputSavedStarGiftUser#69279795 msg_id:int = InputSavedStarGift;

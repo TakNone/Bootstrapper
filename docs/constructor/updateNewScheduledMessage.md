@@ -2,7 +2,7 @@
 
 **Description** : *A message was added to the schedule queue of a chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateNewScheduledMessage#39a51dfb message:Message = Update;
@@ -29,9 +29,9 @@ updateNewScheduledMessage#39a51dfb message:Message = Update;
 ```php
 $update = $client->updateNewScheduledMessage(
 	message : $client->messageEmpty(
-		id : 50,
+		id : 89,
 		peer_id : $client->peerUser(
-			user_id : 3711858360592264422,
+			user_id : 7964944360616578811,
 		),
 	),
 );

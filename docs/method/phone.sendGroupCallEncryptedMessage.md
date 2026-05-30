@@ -1,6 +1,6 @@
 # phone.sendGroupCallEncryptedMessage
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.sendGroupCallEncryptedMessage#e5afa56d call:InputGroupCall encrypted_message:bytes = Bool;
@@ -28,8 +28,8 @@ phone.sendGroupCallEncryptedMessage#e5afa56d call:InputGroupCall encrypted_messa
 ```php
 $bool = $client->phone->sendGroupCallEncryptedMessage(
 	call : $client->inputGroupCall(
-		id : 9128700985762787811,
-		access_hash : 5204355592948673194,
+		id : -5846475224967040889,
+		access_hash : -4038727803423587408,
 	),
 	encrypted_message : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

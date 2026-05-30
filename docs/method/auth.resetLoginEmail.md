@@ -2,7 +2,7 @@
 
 **Description** : *Reset the login email &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.resetLoginEmail#7e960193 phone_number:string phone_code_hash:string = auth.SentCode;

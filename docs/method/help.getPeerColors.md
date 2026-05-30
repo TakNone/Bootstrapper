@@ -2,7 +2,7 @@
 
 **Description** : *Get the set of accent color palettes &raquo; that can be used for message accents*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 help.getPeerColors#da80f42f hash:int = help.PeerColors;

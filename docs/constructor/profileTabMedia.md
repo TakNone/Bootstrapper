@@ -2,7 +2,7 @@
 
 **Description** : *Represents the media tab of a profile page*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 profileTabMedia#72c64955 = ProfileTab;

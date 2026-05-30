@@ -2,7 +2,7 @@
 
 **Description** : *URL button*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 keyboardButtonUrl#d80c25ec flags:# style:flags.10?KeyboardButtonStyle text:string url:string = KeyboardButton;
@@ -35,9 +35,9 @@ $keyboardButton = $client->keyboardButtonUrl(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 5971658348712137379,
+		icon : 5022682460753613664,
 	),
-	text : 'QYAp2vfhnZrEXlyO',
+	text : 'zVtmj30TCDMvXdFr',
 	url : 'https://docs.liveproto.dev',
 );
 ```

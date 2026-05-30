@@ -2,7 +2,7 @@
 
 **Description** : *Some reactions are allowed*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 chatReactionsSome#661d4037 reactions:Vector<Reaction> = ChatReactions;
@@ -31,10 +31,10 @@ $chatReactions = $client->chatReactionsSome(
 	reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'TZbk2wqiWURXeu7V',
+			emoticon : 'EFY82UO1tAi0qW6R',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -6126908693698320116,
+			document_id : 3357731203947062755,
 		),
 		$client->reactionPaid(),
 	),

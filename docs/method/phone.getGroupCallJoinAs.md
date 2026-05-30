@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.getGroupCallJoinAs#ef7c213a peer:InputPeer = phone.JoinAsPeers;

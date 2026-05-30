@@ -2,10 +2,10 @@
 
 **Description** : *Edit an uploaded story*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-stories.editStory#b583ba46 flags:# peer:InputPeer id:int media:flags.0?InputMedia media_areas:flags.3?Vector<MediaArea> caption:flags.1?string entities:flags.1?Vector<MessageEntity> privacy_rules:flags.2?Vector<InputPrivacyRule> = Updates;
+stories.editStory#2c63a72b flags:# peer:InputPeer id:int media:flags.0?InputMedia media_areas:flags.3?Vector<MediaArea> caption:flags.1?string entities:flags.1?Vector<MessageEntity> privacy_rules:flags.2?Vector<InputPrivacyRule> music:flags.4?InputDocument = Updates;
 ```
 
 ---
@@ -22,6 +22,7 @@ stories.editStory#b583ba46 flags:# peer:InputPeer id:int media:flags.0?InputMedi
 | **caption** | [`flags.1?string`](type/string) | If specified, replaces the story caption |
 | **entities** | [`flags.1?Vector<MessageEntity>`](type/MessageEntity) | Message entities for styled text in the caption, if allowed by the stories_entities client configuration parameter » |
 | **privacy_rules** | [`flags.2?Vector<InputPrivacyRule>`](type/InputPrivacyRule) | If specified, alters the privacy settings » of the story, changing who can or can't view the story |
+| **music** | [`flags.4?InputDocument`](type/InputDocument) | NOTHING |
 
 ---
 
@@ -45,179 +46,179 @@ stories.editStory#b583ba46 flags:# peer:InputPeer id:int media:flags.0?InputMedi
 ```php
 $updates = $client->stories->editStory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 26,
+	id : 87,
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 	media_areas : array(
 		$client->mediaAreaVenue(
 			coordinates : $client->mediaAreaCoordinates(
-				x : 1016132.845703125,
-				y : -642867.58984375,
-				w : 779685.84765625,
-				h : -1538041.087890625,
-				rotation : -1997971.947265625,
-				radius : -1283105.6064453125,
+				x : -2013965.7587890625,
+				y : -1079343.7060546875,
+				w : -1909040.603515625,
+				h : 1921303.26953125,
+				rotation : 833473.603515625,
+				radius : -346360.1552734375,
 			),
 			geo : $client->geoPointEmpty(),
-			title : 'LgQFKxuS90iAyDwk',
-			address : 'VjSQJIrkYo0diwMK',
-			provider : 'RSbqMgU1WJNldewG',
-			venue_id : 'opJfC9N8s3wKPMOg',
-			venue_type : 'jsXigbFADVOPwyIv',
+			title : 'YZrBSpcPQno1FX8m',
+			address : 'QdRk9z7oCWDp4UNi',
+			provider : 'sB9Av5bMrxpEoDXq',
+			venue_id : '7aPbcXNZ8BexRM4n',
+			venue_type : '3m0BA4r16WlTOtCV',
 		),
 		$client->inputMediaAreaVenue(
 			coordinates : $client->mediaAreaCoordinates(
-				x : -1508733.90625,
-				y : -482004.93359375,
-				w : -1643726.8427734375,
-				h : -1739465.822265625,
-				rotation : -185811.2470703125,
-				radius : 1908970.53125,
+				x : -1382349.48046875,
+				y : 526023.7197265625,
+				w : 457252.4560546875,
+				h : -1586102.42578125,
+				rotation : -65319.5673828125,
+				radius : -1964437.5,
 			),
-			query_id : -7033657210947260438,
-			result_id : '8j6l0EBU32f9yoIY',
+			query_id : 3277217020242373864,
+			result_id : 'OpegltFKAJ16nLms',
 		),
 		$client->mediaAreaGeoPoint(
 			coordinates : $client->mediaAreaCoordinates(
-				x : 1036584.7265625,
-				y : 1698290.8232421875,
-				w : -1932883.0712890625,
-				h : -1000108.7841796875,
-				rotation : -1759692.3251953125,
-				radius : -2045459.3828125,
+				x : 460922.4521484375,
+				y : 1051468.68359375,
+				w : 587066.646484375,
+				h : -694388.8994140625,
+				rotation : -683633.4287109375,
+				radius : -113012.34765625,
 			),
 			geo : $client->geoPointEmpty(),
 			address : $client->geoPointAddress(
-				country_iso2 : 'BLt17mfikjMOwars',
-				state : '8qWBNx9CYZv2anrb',
-				city : 'hiJEoz9dFYITf7AV',
-				street : 'LihA7UxOFYtHZPvs',
+				country_iso2 : 'S7AMcrbsvRiw2ylX',
+				state : 'S5u8ZFXb6CJpVLnA',
+				city : '6w0db2XEvSxgcPWq',
+				street : 'wg30ktH7dYhPsOoq',
 			),
 		),
 		$client->mediaAreaSuggestedReaction(
 			dark : true,
 			flipped : true,
 			coordinates : $client->mediaAreaCoordinates(
-				x : 1048465.919921875,
-				y : -441847.724609375,
-				w : 2065600.71875,
-				h : 1700167.833984375,
-				rotation : 1907485.150390625,
-				radius : 1285820.2578125,
+				x : 1940657.4599609375,
+				y : -1464660.5869140625,
+				w : 478870.2841796875,
+				h : 2018882.046875,
+				rotation : -1079072.083984375,
+				radius : 1896469.90234375,
 			),
 			reaction : $client->reactionEmpty(),
 		),
 		$client->mediaAreaChannelPost(
 			coordinates : $client->mediaAreaCoordinates(
-				x : 698807.283203125,
-				y : -1009871.9287109375,
-				w : -272872.271484375,
-				h : -369069.5341796875,
-				rotation : 928491.0693359375,
-				radius : -623770.935546875,
+				x : 1469843.8173828125,
+				y : -415075.1689453125,
+				w : 778053.5322265625,
+				h : 1273289.96875,
+				rotation : -988700.365234375,
+				radius : -1929721.646484375,
 			),
-			channel_id : 5761599657662270763,
-			msg_id : 79,
+			channel_id : 2417439822508044467,
+			msg_id : 18,
 		),
 		$client->inputMediaAreaChannelPost(
 			coordinates : $client->mediaAreaCoordinates(
-				x : -1276535.8564453125,
-				y : 430970.85546875,
-				w : 484415.48046875,
-				h : -1741718.66015625,
-				rotation : 1703650.265625,
-				radius : 606489.046875,
+				x : -1831752.6669921875,
+				y : 1873864.021484375,
+				w : 1997167.201171875,
+				h : 1725198.4033203125,
+				rotation : 1576161.0556640625,
+				radius : 263022.66015625,
 			),
 			channel : $client->get_input_channel(channel : '@LiveProto'),
-			msg_id : 84,
+			msg_id : 50,
 		),
 		$client->mediaAreaUrl(
 			coordinates : $client->mediaAreaCoordinates(
-				x : 1313401.107421875,
-				y : -844137.0751953125,
-				w : -1046779.1787109375,
-				h : -183031.3154296875,
-				rotation : 811391.703125,
-				radius : 612777.74609375,
+				x : -537931.462890625,
+				y : 478714.740234375,
+				w : 343215.0888671875,
+				h : 1266390.05859375,
+				rotation : 684818.8984375,
+				radius : -1646182.68359375,
 			),
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->mediaAreaWeather(
 			coordinates : $client->mediaAreaCoordinates(
-				x : -467303.94140625,
-				y : 295329.7646484375,
-				w : 877415.701171875,
-				h : 1516774.2890625,
-				rotation : -2010405.837890625,
-				radius : 1090301.5458984375,
+				x : 1186099.1015625,
+				y : 1384064.6748046875,
+				w : -782944.216796875,
+				h : -1467185.671875,
+				rotation : 1283707.1455078125,
+				radius : -1676307.5703125,
 			),
-			emoji : 'v83o7KnT4WsO5ZwV',
-			temperature_c : -1631399.404296875,
-			color : 41,
+			emoji : 'RtIN4uJEaBSnkwlz',
+			temperature_c : -371223.4697265625,
+			color : 74,
 		),
 		$client->mediaAreaStarGift(
 			coordinates : $client->mediaAreaCoordinates(
-				x : 459404.81640625,
-				y : -786351.5712890625,
-				w : -932360.427734375,
-				h : 415097.5146484375,
-				rotation : -1028493.986328125,
-				radius : -587884.0625,
+				x : -214780.4462890625,
+				y : -370000.1171875,
+				w : -627356.0908203125,
+				h : 1814459.1982421875,
+				rotation : 825096.4765625,
+				radius : 1032253.99609375,
 			),
-			slug : 'WH8SVseyo5gQKtD6',
+			slug : 'dg8PA5F3XSltRypi',
 		),
 	),
-	caption : 'zqb8UMpyKx9dW5NF',
+	caption : 'jv6KTLER5hqpfOdD',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 95,
+			length : 41,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 46,
+			length : 77,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 83,
+			length : 59,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 14,
+			length : 68,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 33,
+			length : 19,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 97,
+			length : 34,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 88,
+			length : 31,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 63,
+			length : 56,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 67,
+			length : 69,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 95,
-			language : 'wmiBXvfMN7cFAydZ',
+			length : 72,
+			language : 'wA6ErSbKu1dQ7qjp',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 72,
+			length : 55,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 60,
-			user_id : 1463428085712363277,
+			length : 57,
+			user_id : 8784004898340493598,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
@@ -226,37 +227,61 @@ $updates = $client->stories->editStory(
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 88,
+			length : 80,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 100,
+			length : 25,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 29,
+			length : 3,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 68,
+			length : 22,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 7,
+			length : 80,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 72,
+			length : 10,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 31,
-			document_id : -2688564114148499539,
+			length : 40,
+			document_id : -9127350412164318680,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 1,
+			length : 2,
+		),
+		$client->messageEntityFormattedDate(
+			relative : true,
+			short_time : true,
+			long_time : true,
+			short_date : true,
+			long_date : true,
+			day_of_week : true,
+			offset : 0,
+			length : 35,
+			date : 28,
+		),
+		$client->messageEntityDiffInsert(
+			offset : 0,
+			length : 59,
+		),
+		$client->messageEntityDiffReplace(
+			offset : 0,
+			length : 64,
+			old_text : 'xYLX1hwqUrB6Tutl',
+		),
+		$client->messageEntityDiffDelete(
+			offset : 0,
+			length : 70,
 		),
 	),
 	privacy_rules : array(
@@ -271,15 +296,16 @@ $updates = $client->stories->editStory(
 			users : array($client->get_input_user(user : '@TakNone')),
 		),
 		$client->inputPrivacyValueAllowChatParticipants(
-			chats : array(3107588300096568946),
+			chats : array(854765341243813426),
 		),
 		$client->inputPrivacyValueDisallowChatParticipants(
-			chats : array(6370581468361817489),
+			chats : array(7112684150680113717),
 		),
 		$client->inputPrivacyValueAllowCloseFriends(),
 		$client->inputPrivacyValueAllowPremium(),
 		$client->inputPrivacyValueAllowBots(),
 		$client->inputPrivacyValueDisallowBots(),
 	),
+	music : $client->inputDocumentEmpty(),
 );
 ```

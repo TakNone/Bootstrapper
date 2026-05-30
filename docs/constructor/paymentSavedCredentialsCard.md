@@ -2,7 +2,7 @@
 
 **Description** : *Saved credit card*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 paymentSavedCredentialsCard#cdc27a1f id:string title:string = PaymentSavedCredentials;
@@ -29,7 +29,7 @@ paymentSavedCredentialsCard#cdc27a1f id:string title:string = PaymentSavedCreden
 
 ```php
 $paymentSavedCredentials = $client->paymentSavedCredentialsCard(
-	id : 'nfePa3IDENJG0wQZ',
-	title : 'iRdKnA6js7h4VgmO',
+	id : 'SyPDRf06jKTXuzor',
+	title : '4UlTVXPDnzeK8xFR',
 );
 ```

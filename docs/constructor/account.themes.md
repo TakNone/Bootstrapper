@@ -2,7 +2,7 @@
 
 **Description** : *Installed themes*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.themes#9a3d8c6d hash:long themes:Vector<Theme> = account.Themes;
@@ -35,35 +35,35 @@ $accountThemes = $client->account->themes(
 			creator : true,
 			default : true,
 			for_chat : true,
-			id : 226236182819078124,
-			access_hash : 299789570463129678,
-			slug : 'u3aRWnIDFXpyH7t8',
-			title : 'MvDb7wesdZQEjpCq',
+			id : -4036503095995685696,
+			access_hash : -3231665219917405147,
+			slug : 'uAlLzWDH4vwEUdny',
+			title : 'V8O13dFKAWwEakgh',
 			document : $client->documentEmpty(
-				id : 2854784935767114951,
+				id : 6932544825816004883,
 			),
 			settings : array(
 				$client->themeSettings(
 					message_colors_animated : true,
 					base_theme : $client->baseThemeClassic(),
-					accent_color : 86,
-					outbox_accent_color : 18,
-					message_colors : array(71),
+					accent_color : 21,
+					outbox_accent_color : 71,
+					message_colors : array(64),
 					wallpaper : $client->wallPaper(
-						id : -6664265572233530150,
+						id : -7829106751414935879,
 						creator : true,
 						default : true,
 						pattern : true,
 						dark : true,
-						access_hash : -5445870387449548877,
-						slug : 'GDEP2H3uqeKjOiW9',
+						access_hash : 2753987596480112103,
+						slug : 'gADd7Sb5ihkUEp36',
 						document : $client->documentEmpty(...),
 						settings : $client->wallPaperSettings(...),
 					),
 				),
 			),
-			emoticon : '5uhxCbQ7LoEfpHrN',
-			installs_count : 65,
+			emoticon : 't9mCIXVrpQHE014L',
+			installs_count : 39,
 		),
 	),
 );

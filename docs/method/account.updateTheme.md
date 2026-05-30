@@ -2,7 +2,7 @@
 
 **Description** : *Update theme*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.updateTheme#2bf40ccc flags:# format:string theme:InputTheme slug:flags.0?string title:flags.1?string document:flags.2?InputDocument settings:flags.3?Vector<InputThemeSettings> = Theme;
@@ -42,35 +42,35 @@ account.updateTheme#2bf40ccc flags:# format:string theme:InputTheme slug:flags.0
 
 ```php
 $theme = $client->account->updateTheme(
-	format : 'jgnrW1vxckfBL3Js',
+	format : '71SKDWxu32dYHltf',
 	theme : $client->inputTheme(
-		id : 1482052830695080887,
-		access_hash : 3803450005598891007,
+		id : -7198431567132497093,
+		access_hash : -5962918378216558342,
 	),
-	slug : 'aWbPkVy1ohj7psJ0',
-	title : 'wkNi97PpDz8fuVBQ',
+	slug : '2HZEjOmgRQWM73kI',
+	title : 'gVUhLMD1lSp97Kr5',
 	document : $client->inputDocumentEmpty(),
 	settings : array(
 		$client->inputThemeSettings(
 			message_colors_animated : true,
 			base_theme : $client->baseThemeClassic(),
-			accent_color : 76,
-			outbox_accent_color : 22,
-			message_colors : array(95),
+			accent_color : 48,
+			outbox_accent_color : 9,
+			message_colors : array(22),
 			wallpaper : $client->inputWallPaper(
-				id : 2602451214350321168,
-				access_hash : -2250139097210809713,
+				id : -3582262429583739356,
+				access_hash : -8858471196673681731,
 			),
 			wallpaper_settings : $client->wallPaperSettings(
 				blur : true,
 				motion : true,
-				background_color : 53,
-				second_background_color : 28,
-				third_background_color : 86,
-				fourth_background_color : 84,
-				intensity : 85,
+				background_color : 75,
+				second_background_color : 38,
+				third_background_color : 54,
+				fourth_background_color : 90,
+				intensity : 93,
 				rotation : 45,
-				emoticon : 'K8Gasp5vxFMuT3Rn',
+				emoticon : 'sFok9KMrUq6YHc1A',
 			),
 		),
 	),

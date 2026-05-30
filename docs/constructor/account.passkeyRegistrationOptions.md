@@ -1,6 +1,6 @@
 # account.passkeyRegistrationOptions
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.passkeyRegistrationOptions#e16b5ce1 options:DataJSON = account.PasskeyRegistrationOptions;
@@ -27,7 +27,7 @@ account.passkeyRegistrationOptions#e16b5ce1 options:DataJSON = account.PasskeyRe
 ```php
 $accountPasskeyRegistrationOptions = $client->account->passkeyRegistrationOptions(
 	options : $client->dataJSON(
-		data : 'Dw5IqbzvtKNMYc0B',
+		data : 'xMFqLAIfUT4rw7Ng',
 	),
 );
 ```

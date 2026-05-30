@@ -2,7 +2,7 @@
 
 **Description** : *Hide the active stories of a user, preventing them from being displayed on the action bar on the homescreen, see here &raquo; for more info*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stories.togglePeerStoriesHidden#bd0415c4 peer:InputPeer hidden:Bool = Bool;
@@ -38,6 +38,6 @@ stories.togglePeerStoriesHidden#bd0415c4 peer:InputPeer hidden:Bool = Bool;
 ```php
 $bool = $client->stories->togglePeerStoriesHidden(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	hidden : false,
+	hidden : true,
 );
 ```

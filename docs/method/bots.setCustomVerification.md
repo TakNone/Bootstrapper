@@ -2,7 +2,7 @@
 
 **Description** : *Verify a user or chat on behalf of an organization &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 bots.setCustomVerification#8b89dfbd flags:# enabled:flags.1?true bot:flags.0?InputUser peer:InputPeer custom_description:flags.2?string = Bool;
@@ -45,6 +45,6 @@ $bool = $client->bots->setCustomVerification(
 	enabled : true,
 	bot : $client->get_input_user(user : '@TakNone'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	custom_description : 'OjN2ixTvzVwEApXm',
+	custom_description : 'zaLfo1R37C0SGnxc',
 );
 ```

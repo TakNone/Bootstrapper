@@ -2,7 +2,7 @@
 
 **Description** : *Recent t\.me stickerset installation URL*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 recentMeUrlStickerSet#bc0a57dc url:string set:StickerSetCovered = RecentMeUrl;
@@ -39,50 +39,50 @@ $recentMeUrl = $client->recentMeUrlStickerSet(
 			text_color : true,
 			channel_emoji_status : true,
 			creator : true,
-			installed_date : 17,
-			id : -2616737183650952035,
-			access_hash : 7701789874161728513,
-			title : 'yNIYKSUOp6s7o4XQ',
-			short_name : 'zjHgL2dmwBbYvFCV',
+			installed_date : 74,
+			id : 8820001693887910754,
+			access_hash : -6531261626516794909,
+			title : 'yvhl4m0SeQFBoH2K',
+			short_name : 'NeXJ1gShVDqfAmTc',
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'GiYnQhFMOxRDlJmg',
+					type : 'fACuH97JNywcshQR',
 				),
 				$client->photoSize(
-					type : 'R7PTLEvqZNKaADkl',
-					w : 69,
-					h : 11,
-					size : 97,
+					type : 'bLB3PrIxFeDvZMAS',
+					w : 38,
+					h : 84,
+					size : 26,
 				),
 				$client->photoCachedSize(
-					type : 'u9WqvIEk42OiLhyJ',
-					w : 79,
-					h : 3,
+					type : 'buRBhZApWKviode0',
+					w : 48,
+					h : 90,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'sHYAGrgqFQCZcfvL',
+					type : 'OQgd8Sl3EvY90eTt',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'YZiGDnsJ7gIWzrfb',
-					w : 85,
-					h : 31,
-					sizes : array(74),
+					type : 'fzdVp69DbvFOsQoP',
+					w : 60,
+					h : 16,
+					sizes : array(33),
 				),
 				$client->photoPathSize(
-					type : 'ixUrz3DNWhgd1cKn',
+					type : 'EOHNl46jswo9Dicu',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
-			thumb_dc_id : 33,
-			thumb_version : 39,
-			thumb_document_id : 4553337047235496170,
-			count : 22,
+			thumb_dc_id : 2,
+			thumb_version : 88,
+			thumb_document_id : 2359568007905365670,
+			count : 63,
 			hash : 0,
 		),
 		cover : $client->documentEmpty(
-			id : 1256553060479673447,
+			id : 6987988024505621153,
 		),
 	),
 );

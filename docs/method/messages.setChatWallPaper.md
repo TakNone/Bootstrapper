@@ -2,7 +2,7 @@
 
 **Description** : *Set a custom wallpaper &raquo; in a specific private chat with another user*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.setChatWallPaper#8ffacae1 flags:# for_both:flags.3?true revert:flags.4?true peer:InputPeer wallpaper:flags.0?InputWallPaper settings:flags.2?WallPaperSettings id:flags.1?int = Updates;
@@ -48,20 +48,20 @@ $updates = $client->messages->setChatWallPaper(
 	revert : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	wallpaper : $client->inputWallPaper(
-		id : 9135034780639919819,
-		access_hash : -9065760510459335748,
+		id : 6846042437205837467,
+		access_hash : 2150302526204428172,
 	),
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 82,
-		second_background_color : 74,
-		third_background_color : 82,
-		fourth_background_color : 92,
-		intensity : 5,
-		rotation : 86,
-		emoticon : 'kQRohWnq0rDT1ZXs',
+		background_color : 78,
+		second_background_color : 9,
+		third_background_color : 41,
+		fourth_background_color : 12,
+		intensity : 96,
+		rotation : 14,
+		emoticon : 'uVFNWeDRw7CYJ3BM',
 	),
-	id : 56,
+	id : 81,
 );
 ```

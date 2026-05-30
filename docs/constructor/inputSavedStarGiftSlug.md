@@ -2,7 +2,7 @@
 
 **Description** : *Points to a collectible gift obtained from a collectible gift link &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputSavedStarGiftSlug#2085c238 slug:string = InputSavedStarGift;
@@ -28,6 +28,6 @@ inputSavedStarGiftSlug#2085c238 slug:string = InputSavedStarGift;
 
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftSlug(
-	slug : 'pgrH6FE2mxwbXRJl',
+	slug : 'Lj2FT5OV69MYRpJW',
 );
 ```

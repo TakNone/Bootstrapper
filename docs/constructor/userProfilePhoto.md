@@ -2,7 +2,7 @@
 
 **Description** : *User profile photo*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 userProfilePhoto#82d1f706 flags:# has_video:flags.0?true personal:flags.2?true photo_id:long stripped_thumb:flags.1?bytes dc_id:int = UserProfilePhoto;
@@ -35,8 +35,8 @@ userProfilePhoto#82d1f706 flags:# has_video:flags.0?true personal:flags.2?true p
 $userProfilePhoto = $client->userProfilePhoto(
 	has_video : true,
 	personal : true,
-	photo_id : -3468541402388189885,
+	photo_id : 251811635269842018,
 	stripped_thumb : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	dc_id : 44,
+	dc_id : 42,
 );
 ```

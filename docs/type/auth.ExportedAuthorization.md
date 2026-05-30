@@ -2,7 +2,7 @@
 
 **Description** : *Exported authorization*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.exportedAuthorization#b434e2b8 id:long bytes:bytes = auth.ExportedAuthorization;

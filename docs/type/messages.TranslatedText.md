@@ -2,7 +2,7 @@
 
 **Description** : *Translated text with entities*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.translateResult#33db32f8 result:Vector<TextWithEntities> = messages.TranslatedText;

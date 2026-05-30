@@ -2,7 +2,7 @@
 
 **Description** : *One or more messages in a quick reply shortcut &raquo; were deleted*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateDeleteQuickReplyMessages#566fe7cd shortcut_id:int messages:Vector<int> = Update;
@@ -29,7 +29,7 @@ updateDeleteQuickReplyMessages#566fe7cd shortcut_id:int messages:Vector<int> = U
 
 ```php
 $update = $client->updateDeleteQuickReplyMessages(
-	shortcut_id : 30,
-	messages : array(81),
+	shortcut_id : 36,
+	messages : array(36),
 );
 ```

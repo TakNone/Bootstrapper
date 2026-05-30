@@ -2,7 +2,7 @@
 
 **Description** : *Whether the user accepts phone calls*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 privacyKeyPhoneCall#3d662b7b = PrivacyKey;

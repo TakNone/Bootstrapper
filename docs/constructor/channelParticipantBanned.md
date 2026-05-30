@@ -2,10 +2,10 @@
 
 **Description** : *Banned/kicked user*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-channelParticipantBanned#6df8014e flags:# left:flags.0?true peer:Peer kicked_by:long date:int banned_rights:ChatBannedRights = ChannelParticipant;
+channelParticipantBanned#d5f0ad91 flags:# left:flags.0?true peer:Peer kicked_by:long date:int banned_rights:ChatBannedRights rank:flags.2?string = ChannelParticipant;
 ```
 
 ---
@@ -20,6 +20,7 @@ channelParticipantBanned#6df8014e flags:# left:flags.0?true peer:Peer kicked_by:
 | <mark>kicked_by</mark> | [`long`](type/long) | User was kicked by the specified admin |
 | <mark>date</mark> | [`int`](type/int) | When did the user join the group |
 | <mark>banned_rights</mark> | [`ChatBannedRights`](type/ChatBannedRights) | Banned rights |
+| **rank** | [`flags.2?string`](type/string) | NOTHING |
 
 ---
 
@@ -35,10 +36,10 @@ channelParticipantBanned#6df8014e flags:# left:flags.0?true peer:Peer kicked_by:
 $channelParticipant = $client->channelParticipantBanned(
 	left : true,
 	peer : $client->peerUser(
-		user_id : 8444946247573853181,
+		user_id : -8684191591713172913,
 	),
-	kicked_by : 465278921823934822,
-	date : 90,
+	kicked_by : 5588563802849951127,
+	date : 39,
 	banned_rights : $client->chatBannedRights(
 		view_messages : true,
 		send_messages : true,
@@ -60,7 +61,10 @@ $channelParticipant = $client->channelParticipantBanned(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 72,
+		edit_rank : true,
+		send_reactions : true,
+		until_date : 59,
 	),
+	rank : 'lXPfw1jmZGCkUnu3',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Message with a file enclosure sent to a protected chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.sentEncryptedFile#9493ff32 date:int file:EncryptedFile = messages.SentEncryptedMessage;
@@ -29,7 +29,7 @@ messages.sentEncryptedFile#9493ff32 date:int file:EncryptedFile = messages.SentE
 
 ```php
 $messagesSentEncryptedMessage = $client->messages->sentEncryptedFile(
-	date : 79,
+	date : 96,
 	file : $client->encryptedFileEmpty(),
 );
 ```

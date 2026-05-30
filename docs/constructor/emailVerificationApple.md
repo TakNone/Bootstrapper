@@ -2,7 +2,7 @@
 
 **Description** : *Apple ID email verification token*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 emailVerificationApple#96d074fd token:string = EmailVerification;
@@ -28,6 +28,6 @@ emailVerificationApple#96d074fd token:string = EmailVerification;
 
 ```php
 $emailVerification = $client->emailVerificationApple(
-	token : 'kAeJF37I8LuW94M0',
+	token : 'nL2BjkUAqvr6KGuc',
 );
 ```

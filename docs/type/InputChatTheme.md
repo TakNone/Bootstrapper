@@ -2,7 +2,7 @@
 
 **Description** : *Specifies a chat theme &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputChatThemeEmpty#83268483 = InputChatTheme;

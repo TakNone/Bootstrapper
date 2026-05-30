@@ -2,7 +2,7 @@
 
 **Description** : *Returns basic user info according to their identifiers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 users.getUsers#d91a548 id:Vector<InputUser> = Vector<User>;

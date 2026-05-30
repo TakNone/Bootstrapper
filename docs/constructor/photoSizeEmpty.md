@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor\. Image with this thumbnail is unavailable*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 photoSizeEmpty#e17e23c type:string = PhotoSize;
@@ -28,6 +28,6 @@ photoSizeEmpty#e17e23c type:string = PhotoSize;
 
 ```php
 $photoSize = $client->photoSizeEmpty(
-	type : 'XQPfeY5CyHqlOR41',
+	type : 'Ql0u3Hf4TktBcjPd',
 );
 ```

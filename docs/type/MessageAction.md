@@ -2,7 +2,7 @@
 
 **Description** : *Object describing actions connected to a service message*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionEmpty#b6aef7b0 = MessageAction;
@@ -67,6 +67,11 @@ messageActionStarGiftPurchaseOffer#774278d4 flags:# accepted:flags.0?true declin
 messageActionStarGiftPurchaseOfferDeclined#73ada76b flags:# expired:flags.0?true gift:StarGift price:StarsAmount = MessageAction;
 messageActionNewCreatorPending#b07ed085 new_creator_id:long = MessageAction;
 messageActionChangeCreator#e188503b new_creator_id:long = MessageAction;
+messageActionNoForwardsToggle#bf7d6572 prev_value:Bool new_value:Bool = MessageAction;
+messageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true prev_value:Bool new_value:Bool = MessageAction;
+messageActionPollAppendAnswer#9da1cd6c answer:PollAnswer = MessageAction;
+messageActionPollDeleteAnswer#399674dc answer:PollAnswer = MessageAction;
+messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
 ```
 
 ---
@@ -137,3 +142,8 @@ messageActionChangeCreator#e188503b new_creator_id:long = MessageAction;
 | [**messageActionStarGiftPurchaseOfferDeclined**](constructor/messageActionStarGiftPurchaseOfferDeclined) | NOTHING |
 | [**messageActionNewCreatorPending**](constructor/messageActionNewCreatorPending) | NOTHING |
 | [**messageActionChangeCreator**](constructor/messageActionChangeCreator) | NOTHING |
+| [**messageActionNoForwardsToggle**](constructor/messageActionNoForwardsToggle) | NOTHING |
+| [**messageActionNoForwardsRequest**](constructor/messageActionNoForwardsRequest) | NOTHING |
+| [**messageActionPollAppendAnswer**](constructor/messageActionPollAppendAnswer) | NOTHING |
+| [**messageActionPollDeleteAnswer**](constructor/messageActionPollDeleteAnswer) | NOTHING |
+| [**messageActionManagedBotCreated**](constructor/messageActionManagedBotCreated) | NOTHING |

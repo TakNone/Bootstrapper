@@ -2,7 +2,7 @@
 
 **Description** : *Contains user authorization info*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.authorization#2ea2c0d4 flags:# setup_password_required:flags.1?true otherwise_relogin_days:flags.1?int tmp_sessions:flags.0?int future_auth_token:flags.2?bytes user:User = auth.Authorization;
@@ -34,11 +34,11 @@ auth.authorization#2ea2c0d4 flags:# setup_password_required:flags.1?true otherwi
 ```php
 $authAuthorization = $client->auth->authorization(
 	setup_password_required : true,
-	otherwise_relogin_days : 99,
-	tmp_sessions : 37,
+	otherwise_relogin_days : 92,
+	tmp_sessions : 21,
 	future_auth_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	user : $client->userEmpty(
-		id : 6524405639626631425,
+		id : -1841743383360675090,
 	),
 );
 ```

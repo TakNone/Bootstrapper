@@ -1,6 +1,6 @@
 # messages.editForumTopic
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.editForumTopic#cecc1134 flags:# peer:InputPeer topic_id:int title:flags.0?string icon_emoji_id:flags.1?long closed:flags.2?Bool hidden:flags.3?Bool = Updates;
@@ -33,10 +33,10 @@ messages.editForumTopic#cecc1134 flags:# peer:InputPeer topic_id:int title:flags
 ```php
 $updates = $client->messages->editForumTopic(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	topic_id : 56,
-	title : 'jxTQVgr9zXPOq1Md',
-	icon_emoji_id : -7914352472745919505,
+	topic_id : 42,
+	title : 'cFvgOmo9NGDUq7Ex',
+	icon_emoji_id : 5578885306209048353,
 	closed : false,
-	hidden : false,
+	hidden : true,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Allow or prevent a bot from changing our emoji status &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 bots.toggleUserEmojiStatusPermission#6de6392 bot:InputUser enabled:Bool = Bool;
@@ -38,6 +38,6 @@ bots.toggleUserEmojiStatusPermission#6de6392 bot:InputUser enabled:Bool = Bool;
 ```php
 $bool = $client->bots->toggleUserEmojiStatusPermission(
 	bot : $client->get_input_user(user : '@TakNone'),
-	enabled : true,
+	enabled : false,
 );
 ```

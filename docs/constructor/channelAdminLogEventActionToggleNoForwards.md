@@ -2,7 +2,7 @@
 
 **Description** : *Forwards were enabled or disabled*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelAdminLogEventActionToggleNoForwards#cb2ac766 new_value:Bool = ChannelAdminLogEventAction;
@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleNoForwards#cb2ac766 new_value:Bool = ChannelAdmi
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleNoForwards(
-	new_value : false,
+	new_value : true,
 );
 ```

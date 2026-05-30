@@ -1,6 +1,6 @@
 # starGiftAttributeRarity
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starGiftAttributeRarity#36437737 permille:int = StarGiftAttributeRarity;
@@ -26,6 +26,6 @@ starGiftAttributeRarity#36437737 permille:int = StarGiftAttributeRarity;
 
 ```php
 $starGiftAttributeRarity = $client->starGiftAttributeRarity(
-	permille : 15,
+	permille : 27,
 );
 ```

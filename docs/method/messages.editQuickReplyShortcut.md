@@ -3,7 +3,7 @@
 **Description** : *Rename a quick reply shortcut\.
 This will emit an updateQuickReplies update to other logged\-in sessions*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.editQuickReplyShortcut#5c003cef shortcut_id:int shortcut:string = Bool;
@@ -39,7 +39,7 @@ messages.editQuickReplyShortcut#5c003cef shortcut_id:int shortcut:string = Bool;
 
 ```php
 $bool = $client->messages->editQuickReplyShortcut(
-	shortcut_id : 31,
-	shortcut : 'txoDbjK81Wf37q0F',
+	shortcut_id : 54,
+	shortcut : '0w6eDYmS1xJvlNEy',
 );
 ```

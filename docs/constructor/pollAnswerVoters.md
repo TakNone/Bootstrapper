@@ -2,10 +2,10 @@
 
 **Description** : *A poll answer, and how users voted on it*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-pollAnswerVoters#3b6ddad2 flags:# chosen:flags.0?true correct:flags.1?true option:bytes voters:int = PollAnswerVoters;
+pollAnswerVoters#3645230a flags:# chosen:flags.0?true correct:flags.1?true option:bytes voters:flags.2?int recent_voters:flags.2?Vector<Peer> = PollAnswerVoters;
 ```
 
 ---
@@ -18,7 +18,8 @@ pollAnswerVoters#3b6ddad2 flags:# chosen:flags.0?true correct:flags.1?true optio
 | **chosen** | [`flags.0?true`](type/true) | Whether we have chosen this answer |
 | **correct** | [`flags.1?true`](type/true) | For quizzes, whether the option we have chosen is correct |
 | <mark>option</mark> | [`bytes`](type/bytes) | The param that has to be passed to messages.sendVote |
-| <mark>voters</mark> | [`int`](type/int) | How many users voted for this option |
+| **voters** | [`flags.2?int`](type/int) | How many users voted for this option |
+| **recent_voters** | [`flags.2?Vector<Peer>`](type/Peer) | NOTHING |
 
 ---
 
@@ -35,6 +36,17 @@ $pollAnswerVoters = $client->pollAnswerVoters(
 	chosen : true,
 	correct : true,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	voters : 74,
+	voters : 8,
+	recent_voters : array(
+		$client->peerUser(
+			user_id : 8189046739184884631,
+		),
+		$client->peerChat(
+			chat_id : 8869747748079824610,
+		),
+		$client->peerChannel(
+			channel_id : 8981612243318267565,
+		),
+	),
 );
 ```

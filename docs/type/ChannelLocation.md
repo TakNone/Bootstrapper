@@ -2,7 +2,7 @@
 
 **Description** : *Geographical location of supergroup \(geogroups\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelLocationEmpty#bfb5ad8b = ChannelLocation;

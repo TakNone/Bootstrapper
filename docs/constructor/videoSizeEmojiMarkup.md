@@ -2,7 +2,7 @@
 
 **Description** : *An animated profile picture based on a custom emoji sticker*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 videoSizeEmojiMarkup#f85c413c emoji_id:long background_colors:Vector<int> = VideoSize;
@@ -29,7 +29,7 @@ videoSizeEmojiMarkup#f85c413c emoji_id:long background_colors:Vector<int> = Vide
 
 ```php
 $videoSize = $client->videoSizeEmojiMarkup(
-	emoji_id : -8801439040337585215,
-	background_colors : array(67),
+	emoji_id : 4383888832037433290,
+	background_colors : array(50),
 );
 ```

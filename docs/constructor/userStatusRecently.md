@@ -2,7 +2,7 @@
 
 **Description** : *Online status: last seen recently*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 userStatusRecently#7b197dc8 flags:# by_me:flags.0?true = UserStatus;

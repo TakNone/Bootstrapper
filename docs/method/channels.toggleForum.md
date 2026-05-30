@@ -2,7 +2,7 @@
 
 **Description** : *Enable or disable forum functionality in a supergroup*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.toggleForum#3ff75734 channel:InputChannel enabled:Bool tabs:Bool = Updates;

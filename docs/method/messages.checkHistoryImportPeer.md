@@ -2,7 +2,7 @@
 
 **Description** : *Check whether chat history exported from another chat app can be imported into a specific Telegram chat, click here for more info &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.checkHistoryImportPeer#5dc60f03 peer:InputPeer = messages.CheckedHistoryImportPeer;

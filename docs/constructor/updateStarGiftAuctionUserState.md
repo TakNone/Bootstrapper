@@ -1,6 +1,6 @@
 # updateStarGiftAuctionUserState
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateStarGiftAuctionUserState#dc58f31e gift_id:long user_state:StarGiftAuctionUserState = Update;
@@ -27,16 +27,16 @@ updateStarGiftAuctionUserState#dc58f31e gift_id:long user_state:StarGiftAuctionU
 
 ```php
 $update = $client->updateStarGiftAuctionUserState(
-	gift_id : -4264377235542518246,
+	gift_id : 8719318604525483737,
 	user_state : $client->starGiftAuctionUserState(
 		returned : true,
-		bid_amount : 6630905723692766730,
-		bid_date : 78,
-		min_bid_amount : -6429687066885658556,
+		bid_amount : 7605482569883715027,
+		bid_date : 85,
+		min_bid_amount : -6865158604419402331,
 		bid_peer : $client->peerUser(
-			user_id : 6201489450259809443,
+			user_id : -6417682894727110292,
 		),
-		acquired_count : 25,
+		acquired_count : 58,
 	),
 );
 ```

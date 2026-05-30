@@ -2,7 +2,7 @@
 
 **Description** : *Activate or deactivate a purchased fragment\.com username associated to a bot we own*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 bots.toggleUsername#53ca973 bot:InputUser username:string active:Bool = Bool;

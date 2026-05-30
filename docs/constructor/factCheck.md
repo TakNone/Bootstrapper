@@ -2,7 +2,7 @@
 
 **Description** : *Represents a fact\-check &raquo; created by an independent fact\-checker*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 factCheck#b89bfccf flags:# need_check:flags.0?true country:flags.1?string text:flags.1?TextWithEntities hash:long = FactCheck;
@@ -33,99 +33,123 @@ factCheck#b89bfccf flags:# need_check:flags.0?true country:flags.1?string text:f
 ```php
 $factCheck = $client->factCheck(
 	need_check : true,
-	country : '9BCPNuQEGd8jX7rz',
+	country : 'U6G7rhudsxKDe1aO',
 	text : $client->textWithEntities(
-		text : 'vKI319nrOlMsXCZE',
+		text : 'CmO1KpDPkHQa6tx2',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 65,
+				length : 83,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 50,
+				length : 58,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 18,
+				length : 5,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 47,
+				length : 18,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 94,
+				length : 4,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 85,
+				length : 3,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 56,
+				length : 11,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 81,
+				length : 91,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 98,
+				length : 56,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 9,
-				language : 'zNqlnwxjFOdsyX87',
+				length : 49,
+				language : 'ceLw2Pn35kqmBC9v',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 96,
+				length : 64,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 83,
-				user_id : 4952973617610561767,
+				length : 82,
+				user_id : 7624544942726684743,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 72,
+				length : 19,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 83,
+				length : 61,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 21,
+				length : 58,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 20,
+				length : 95,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 18,
+				length : 68,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 92,
+				length : 7,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 81,
+				length : 100,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 39,
-				document_id : 414337942887842295,
+				length : 10,
+				document_id : -9165447959918073295,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 41,
+				length : 100,
+			),
+			$client->messageEntityFormattedDate(
+				relative : true,
+				short_time : true,
+				long_time : true,
+				short_date : true,
+				long_date : true,
+				day_of_week : true,
+				offset : 0,
+				length : 93,
+				date : 70,
+			),
+			$client->messageEntityDiffInsert(
+				offset : 0,
+				length : 80,
+			),
+			$client->messageEntityDiffReplace(
+				offset : 0,
+				length : 22,
+				old_text : 'EfXTDP6ra0C5S4dM',
+			),
+			$client->messageEntityDiffDelete(
+				offset : 0,
+				length : 93,
 			),
 		),
 	),

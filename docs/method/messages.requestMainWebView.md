@@ -2,7 +2,7 @@
 
 **Description** : *Open a Main Mini App*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.requestMainWebView#c9e01e7b flags:# compact:flags.7?true fullscreen:flags.8?true peer:InputPeer bot:InputUser start_param:flags.1?string theme_params:flags.0?DataJSON platform:string = WebViewResult;
@@ -47,10 +47,10 @@ $webViewResult = $client->messages->requestMainWebView(
 	fullscreen : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	bot : $client->get_input_user(user : '@TakNone'),
-	start_param : 'cxUyKW7ILpQGkzg0',
+	start_param : 'KMvpnNeFJb9TfC58',
 	theme_params : $client->dataJSON(
-		data : 'xydNa9sot0XfmgbP',
+		data : 'XxNp4wd3YC65ri7R',
 	),
-	platform : '4GXIZu6xgk5frJHQ',
+	platform : 'R9kTWE5MziKjcqAD',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Describes a payment refund \(service message received by both users and bots\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionPaymentRefunded#41b3e202 flags:# peer:Peer currency:string total_amount:long payload:flags.0?bytes charge:PaymentCharge = MessageAction;
@@ -34,14 +34,14 @@ messageActionPaymentRefunded#41b3e202 flags:# peer:Peer currency:string total_am
 ```php
 $messageAction = $client->messageActionPaymentRefunded(
 	peer : $client->peerUser(
-		user_id : 7031692585855816051,
+		user_id : 296311570259461491,
 	),
-	currency : 'A2hkXHOt0jSdrgbi',
-	total_amount : -8509556932248862129,
+	currency : 'OYEzeKHUP7tpVgkJ',
+	total_amount : 618036399997907318,
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	charge : $client->paymentCharge(
-		id : 'CGipBYJFRNHOb7D5',
-		provider_charge_id : 'KziyjZ53NMh1bPuw',
+		id : 'aVczhOZJ76sdur2T',
+		provider_charge_id : 'poUfPhaVQqX4xs9A',
 	),
 );
 ```

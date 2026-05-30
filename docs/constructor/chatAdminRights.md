@@ -2,10 +2,10 @@
 
 **Description** : *Represents the rights of an admin in a channel/supergroup*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-chatAdminRights#5fb224d5 flags:# change_info:flags.0?true post_messages:flags.1?true edit_messages:flags.2?true delete_messages:flags.3?true ban_users:flags.4?true invite_users:flags.5?true pin_messages:flags.7?true add_admins:flags.9?true anonymous:flags.10?true manage_call:flags.11?true other:flags.12?true manage_topics:flags.13?true post_stories:flags.14?true edit_stories:flags.15?true delete_stories:flags.16?true manage_direct_messages:flags.17?true = ChatAdminRights;
+chatAdminRights#5fb224d5 flags:# change_info:flags.0?true post_messages:flags.1?true edit_messages:flags.2?true delete_messages:flags.3?true ban_users:flags.4?true invite_users:flags.5?true pin_messages:flags.7?true add_admins:flags.9?true anonymous:flags.10?true manage_call:flags.11?true other:flags.12?true manage_topics:flags.13?true post_stories:flags.14?true edit_stories:flags.15?true delete_stories:flags.16?true manage_direct_messages:flags.17?true manage_ranks:flags.18?true = ChatAdminRights;
 ```
 
 ---
@@ -31,6 +31,7 @@ chatAdminRights#5fb224d5 flags:# change_info:flags.0?true post_messages:flags.1?
 | **edit_stories** | [`flags.15?true`](type/true) | If set, allows the admin to edit stories posted by the other admins of the channel |
 | **delete_stories** | [`flags.16?true`](type/true) | If set, allows the admin to delete stories posted by the other admins of the channel |
 | **manage_direct_messages** | [`flags.17?true`](type/true) | If set, allows the admin to manage the direct messages monoforum » and decline suggested posts » |
+| **manage_ranks** | [`flags.18?true`](type/true) | NOTHING |
 
 ---
 
@@ -60,5 +61,6 @@ $chatAdminRights = $client->chatAdminRights(
 	edit_stories : true,
 	delete_stories : true,
 	manage_direct_messages : true,
+	manage_ranks : true,
 );
 ```

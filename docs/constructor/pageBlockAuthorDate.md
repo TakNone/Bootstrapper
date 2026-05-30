@@ -2,7 +2,7 @@
 
 **Description** : *Author and date of creation of article*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 pageBlockAuthorDate#baafe5e0 author:RichText published_date:int = PageBlock;
@@ -30,6 +30,6 @@ pageBlockAuthorDate#baafe5e0 author:RichText published_date:int = PageBlock;
 ```php
 $pageBlock = $client->pageBlockAuthorDate(
 	author : $client->textEmpty(),
-	published_date : 13,
+	published_date : 38,
 );
 ```

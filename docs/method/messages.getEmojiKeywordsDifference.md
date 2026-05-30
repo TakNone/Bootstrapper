@@ -2,7 +2,7 @@
 
 **Description** : *Get changed emoji keywords &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getEmojiKeywordsDifference#1508b6af lang_code:string from_version:int = EmojiKeywordsDifference;
@@ -29,7 +29,7 @@ messages.getEmojiKeywordsDifference#1508b6af lang_code:string from_version:int =
 
 ```php
 $emojiKeywordsDifference = $client->messages->getEmojiKeywordsDifference(
-	lang_code : '2va6GE8AjmRnBCYb',
-	from_version : 58,
+	lang_code : 'QRmwfD5gZWja10Nb',
+	from_version : 89,
 );
 ```

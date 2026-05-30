@@ -2,7 +2,7 @@
 
 **Description** : *Represents a bot mini app that can be launched from the attachment menu &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 attachMenuBotsBot#93bf667f bot:AttachMenuBot users:Vector<User> = AttachMenuBotsBot;

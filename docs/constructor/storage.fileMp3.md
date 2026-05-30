@@ -2,7 +2,7 @@
 
 **Description** : *Mp3 audio\. MIME type: audio/mpeg*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 storage.fileMp3#528a0677 = storage.FileType;

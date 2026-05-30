@@ -2,7 +2,7 @@
 
 **Description** : *Get the admin log of a channel/supergroup*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.getAdminLog#33ddf480 flags:# channel:InputChannel q:string events_filter:flags.0?ChannelAdminLogEventsFilter admins:flags.1?Vector<InputUser> max_id:long min_id:long limit:int = channels.AdminLogResults;
@@ -48,7 +48,7 @@ channels.getAdminLog#33ddf480 flags:# channel:InputChannel q:string events_filte
 ```php
 $channelsAdminLogResults = $client->channels->getAdminLog(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	q : 'wfeTaFulHCWV5SNh',
+	q : 'ExazZTXLWqHb08os',
 	events_filter : $client->channelAdminLogEventsFilter(
 		join : true,
 		leave : true,
@@ -69,10 +69,11 @@ $channelsAdminLogResults = $client->channels->getAdminLog(
 		send : true,
 		forums : true,
 		sub_extend : true,
+		edit_rank : true,
 	),
 	admins : array($client->get_input_user(user : '@TakNone')),
-	max_id : 8456125703754515436,
-	min_id : -1843194440208036564,
-	limit : 45,
+	max_id : -9172841435360225231,
+	min_id : -5428308751988055977,
+	limit : 86,
 );
 ```

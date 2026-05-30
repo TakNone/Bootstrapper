@@ -2,7 +2,7 @@
 
 **Description** : *Allowed options for the number of giveaway winners*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starsGiveawayWinnersOption#54236209 flags:# default:flags.0?true users:int per_user_stars:long = StarsGiveawayWinnersOption;
@@ -32,7 +32,7 @@ starsGiveawayWinnersOption#54236209 flags:# default:flags.0?true users:int per_u
 ```php
 $starsGiveawayWinnersOption = $client->starsGiveawayWinnersOption(
 	default : true,
-	users : 50,
-	per_user_stars : -1215631085917022570,
+	users : 57,
+	per_user_stars : -5089945046221313463,
 );
 ```

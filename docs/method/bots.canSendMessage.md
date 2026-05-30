@@ -2,7 +2,7 @@
 
 **Description** : *Check whether the specified bot can send us messages*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 bots.canSendMessage#1359f4e6 bot:InputUser = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Creates a new chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.createChat#92ceddd4 flags:# users:Vector<InputUser> title:string ttl_period:flags.0?int = messages.InvitedUsers;
@@ -47,7 +47,7 @@ messages.createChat#92ceddd4 flags:# users:Vector<InputUser> title:string ttl_pe
 ```php
 $messagesInvitedUsers = $client->messages->createChat(
 	users : array($client->get_input_user(user : '@TakNone')),
-	title : 'tqSLwWA3mand5FiX',
-	ttl_period : 41,
+	title : 'SEXcg5M0wYKnoWu2',
+	ttl_period : 37,
 );
 ```

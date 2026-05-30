@@ -2,7 +2,7 @@
 
 **Description** : *Remote document*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 webDocument#1c570ed1 url:string access_hash:long size:int mime_type:string attributes:Vector<DocumentAttribute> = WebDocument;

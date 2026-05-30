@@ -2,7 +2,7 @@
 
 **Description** : *Top peer*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 topPeer#edcdc05b peer:Peer rating:double = TopPeer;

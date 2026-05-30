@@ -2,7 +2,7 @@
 
 **Description** : *Apply a Telegram Premium giftcode &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.applyGiftCode#f6e26854 slug:string = Updates;
@@ -38,6 +38,6 @@ payments.applyGiftCode#f6e26854 slug:string = Updates;
 
 ```php
 $updates = $client->payments->applyGiftCode(
-	slug : 'SN8u6ZrQXsvkHMDE',
+	slug : '4rs3g6ZmJ0whFOtB',
 );
 ```

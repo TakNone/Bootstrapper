@@ -2,7 +2,7 @@
 
 **Description** : *Represents a bot logged in using the Telegram login widget*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 webAuthorization#a6f8f452 hash:long bot_id:long domain:string browser:string platform:string date_created:int date_active:int ip:string region:string = WebAuthorization;
@@ -37,13 +37,13 @@ webAuthorization#a6f8f452 hash:long bot_id:long domain:string browser:string pla
 ```php
 $webAuthorization = $client->webAuthorization(
 	hash : 0,
-	bot_id : 8552290013946498047,
-	domain : 'APYwh87CKJBf2lQI',
-	browser : 'NB5H8u4jPZ3AmEvb',
-	platform : '8x5Hrmh6lnfzsQ1g',
-	date_created : 74,
-	date_active : 80,
+	bot_id : -955779290704235680,
+	domain : '8Kgk40qehYDNAyzT',
+	browser : 'vcjO09gLedQBoX6q',
+	platform : 'RjlCHF5vT9dD7qpw',
+	date_created : 97,
+	date_active : 21,
 	ip : '127.0.0.1',
-	region : '8GfEvJjo3SIgyTmL',
+	region : 'tsCczO8e6LS1IDE2',
 );
 ```

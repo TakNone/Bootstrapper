@@ -2,7 +2,7 @@
 
 **Description** : *Channel statistics date range*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 statsDateRangeDays#b637edaf min_date:int max_date:int = StatsDateRangeDays;

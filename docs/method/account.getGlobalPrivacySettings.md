@@ -2,7 +2,7 @@
 
 **Description** : *Get global privacy settings*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.getGlobalPrivacySettings#eb2b4cf6 = GlobalPrivacySettings;

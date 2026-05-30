@@ -1,6 +1,6 @@
 # messages.emojiGameOutcome
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.emojiGameOutcome#da2ad647 seed:bytes stake_ton_amount:long ton_amount:long = messages.EmojiGameOutcome;
@@ -29,7 +29,7 @@ messages.emojiGameOutcome#da2ad647 seed:bytes stake_ton_amount:long ton_amount:l
 ```php
 $messagesEmojiGameOutcome = $client->messages->emojiGameOutcome(
 	seed : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	stake_ton_amount : 6956153314103484820,
-	ton_amount : 6646958648479726249,
+	stake_ton_amount : -6657483553343578478,
+	ton_amount : 2183736083707990992,
 );
 ```

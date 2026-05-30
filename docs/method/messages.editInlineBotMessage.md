@@ -2,7 +2,7 @@
 
 **Description** : *Edit an inline bot message*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.editInlineBotMessage#83557dba flags:# no_webpage:flags.1?true invert_media:flags.16?true id:InputBotInlineMessageID message:flags.11?string media:flags.14?InputMedia reply_markup:flags.2?ReplyMarkup entities:flags.3?Vector<MessageEntity> = Bool;
@@ -49,11 +49,11 @@ $bool = $client->messages->editInlineBotMessage(
 	no_webpage : true,
 	invert_media : true,
 	id : $client->inputBotInlineMessageID(
-		dc_id : 38,
-		id : 7810604325337906760,
-		access_hash : 1451256652716512455,
+		dc_id : 50,
+		id : 656893000873708587,
+		access_hash : 6476534575528660759,
 	),
-	message : 'gxZUIOnW8w6S52ze',
+	message : 'OZE2gaToJ5m4Pnht',
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
@@ -61,93 +61,117 @@ $bool = $client->messages->editInlineBotMessage(
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 86,
+			length : 81,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 33,
+			length : 10,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 96,
+			length : 60,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 97,
+			length : 33,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 97,
+			length : 91,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 67,
+			length : 4,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 72,
+			length : 86,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 43,
+			length : 68,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 72,
+			length : 43,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 84,
-			language : 'ypotMALZ4xna7ugH',
+			length : 48,
+			language : 'fYsydvK6Skag5NCx',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 76,
+			length : 63,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 76,
-			user_id : -331354045182785581,
+			length : 33,
+			user_id : 5211297889860523524,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 74,
+			length : 6,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 5,
+			length : 69,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 9,
+			length : 87,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 69,
+			length : 58,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 67,
+			length : 84,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 1,
+			length : 73,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 100,
+			length : 37,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 0,
-			document_id : -4722465902252999211,
+			length : 7,
+			document_id : -4537112297060112520,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 35,
+			length : 51,
+		),
+		$client->messageEntityFormattedDate(
+			relative : true,
+			short_time : true,
+			long_time : true,
+			short_date : true,
+			long_date : true,
+			day_of_week : true,
+			offset : 0,
+			length : 9,
+			date : 84,
+		),
+		$client->messageEntityDiffInsert(
+			offset : 0,
+			length : 43,
+		),
+		$client->messageEntityDiffReplace(
+			offset : 0,
+			length : 48,
+			old_text : '6hJlFRasrLpQKeCG',
+		),
+		$client->messageEntityDiffDelete(
+			offset : 0,
+			length : 90,
 		),
 	),
 );

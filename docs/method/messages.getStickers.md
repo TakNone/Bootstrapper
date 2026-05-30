@@ -2,7 +2,7 @@
 
 **Description** : *Get stickers by emoji*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getStickers#d5a5d3a1 emoticon:string hash:long = messages.Stickers;
@@ -37,7 +37,7 @@ messages.getStickers#d5a5d3a1 emoticon:string hash:long = messages.Stickers;
 
 ```php
 $messagesStickers = $client->messages->getStickers(
-	emoticon : '4eIQ3XNqxmSbY2Kz',
+	emoticon : 'G5Df7gkHamuoVZlh',
 	hash : 0,
 );
 ```

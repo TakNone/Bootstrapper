@@ -2,7 +2,7 @@
 
 **Description** : *Most active admin in a supergroup*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 statsGroupTopAdmin#d7584c87 user_id:long deleted:int kicked:int banned:int = StatsGroupTopAdmin;

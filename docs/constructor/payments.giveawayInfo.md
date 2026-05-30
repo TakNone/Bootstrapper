@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about an ongoing giveaway*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.giveawayInfo#4367daa0 flags:# participating:flags.0?true preparing_results:flags.3?true start_date:int joined_too_early_date:flags.1?int admin_disallowed_chat_id:flags.2?long disallowed_country:flags.4?string = payments.GiveawayInfo;
@@ -36,9 +36,9 @@ payments.giveawayInfo#4367daa0 flags:# participating:flags.0?true preparing_resu
 $paymentsGiveawayInfo = $client->payments->giveawayInfo(
 	participating : true,
 	preparing_results : true,
-	start_date : 72,
-	joined_too_early_date : 27,
-	admin_disallowed_chat_id : -8812351070013340739,
-	disallowed_country : 'QSd2cxMtHR5EaTG9',
+	start_date : 63,
+	joined_too_early_date : 7,
+	admin_disallowed_chat_id : 2314120151258457080,
+	disallowed_country : 'Qfi2BCa0e4My8mJn',
 );
 ```

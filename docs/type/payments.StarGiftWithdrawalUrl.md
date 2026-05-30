@@ -2,7 +2,7 @@
 
 **Description** : *A URL that can be used to import the exported NFT on Fragment*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.starGiftWithdrawalUrl#84aa3a9c url:string = payments.StarGiftWithdrawalUrl;

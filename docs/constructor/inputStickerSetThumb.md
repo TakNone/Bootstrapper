@@ -2,7 +2,7 @@
 
 **Description** : *Location of stickerset thumbnail \(see files\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputStickerSetThumb#9d84f3db stickerset:InputStickerSet thumb_version:int = InputFileLocation;
@@ -30,6 +30,6 @@ inputStickerSetThumb#9d84f3db stickerset:InputStickerSet thumb_version:int = Inp
 ```php
 $inputFileLocation = $client->inputStickerSetThumb(
 	stickerset : $client->inputStickerSetEmpty(),
-	thumb_version : 36,
+	thumb_version : 45,
 );
 ```

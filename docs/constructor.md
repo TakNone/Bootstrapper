@@ -1071,6 +1071,36 @@
 
 ---
 
+##### messageActionNoForwardsToggle
+
+:link: [*NOTHING*](constructor/messageActionNoForwardsToggle)
+
+---
+
+##### messageActionNoForwardsRequest
+
+:link: [*NOTHING*](constructor/messageActionNoForwardsRequest)
+
+---
+
+##### messageActionPollAppendAnswer
+
+:link: [*NOTHING*](constructor/messageActionPollAppendAnswer)
+
+---
+
+##### messageActionPollDeleteAnswer
+
+:link: [*NOTHING*](constructor/messageActionPollDeleteAnswer)
+
+---
+
+##### messageActionManagedBotCreated
+
+:link: [*NOTHING*](constructor/messageActionManagedBotCreated)
+
+---
+
 ##### dialog
 
 :link: [*Chat*](constructor/dialog)
@@ -1518,6 +1548,12 @@
 ##### inputMessagesFilterPinned
 
 :link: [*Fetch only pinned messages*](constructor/inputMessagesFilterPinned)
+
+---
+
+##### inputMessagesFilterPoll
+
+:link: [*NOTHING*](constructor/inputMessagesFilterPoll)
 
 ---
 
@@ -2432,6 +2468,30 @@ This setting only affects the current account, and is synced to other logged in 
 ##### updateStarGiftCraftFail
 
 :link: [*NOTHING*](constructor/updateStarGiftCraftFail)
+
+---
+
+##### updateChatParticipantRank
+
+:link: [*NOTHING*](constructor/updateChatParticipantRank)
+
+---
+
+##### updateManagedBot
+
+:link: [*NOTHING*](constructor/updateManagedBot)
+
+---
+
+##### updateBotGuestChatQuery
+
+:link: [*NOTHING*](constructor/updateBotGuestChatQuery)
+
+---
+
+##### updateAiComposeTones
+
+:link: [*NOTHING*](constructor/updateAiComposeTones)
 
 ---
 
@@ -3733,6 +3793,30 @@ Note that this entity must wrap exactly one regular emoji \(the one contained in
 
 ---
 
+##### messageEntityFormattedDate
+
+:link: [*NOTHING*](constructor/messageEntityFormattedDate)
+
+---
+
+##### messageEntityDiffInsert
+
+:link: [*NOTHING*](constructor/messageEntityDiffInsert)
+
+---
+
+##### messageEntityDiffReplace
+
+:link: [*NOTHING*](constructor/messageEntityDiffReplace)
+
+---
+
+##### messageEntityDiffDelete
+
+:link: [*NOTHING*](constructor/messageEntityDiffDelete)
+
+---
+
 ##### inputChannelEmpty
 
 :link: [*Represents the absence of a channel*](constructor/inputChannelEmpty)
@@ -4247,6 +4331,12 @@ This filter will automatically remove anonymous admins, and return even non\-par
 ##### topPeerCategoryBotsApp
 
 :link: [*Most frequently used Main Mini Bot Apps*](constructor/topPeerCategoryBotsApp)
+
+---
+
+##### topPeerCategoryBotsGuestChat
+
+:link: [*NOTHING*](constructor/topPeerCategoryBotsGuestChat)
 
 ---
 
@@ -5307,6 +5397,12 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ---
 
+##### channelAdminLogEventActionParticipantEditRank
+
+:link: [*NOTHING*](constructor/channelAdminLogEventActionParticipantEditRank)
+
+---
+
 ##### channelAdminLogEvent
 
 :link: [*Admin log event*](constructor/channelAdminLogEvent)
@@ -5913,6 +6009,12 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ---
 
+##### inputPollAnswer
+
+:link: [*NOTHING*](constructor/inputPollAnswer)
+
+---
+
 ##### poll
 
 :link: [*Poll*](constructor/poll)
@@ -6246,6 +6348,12 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 ##### webPageAttributeStarGiftAuction
 
 :link: [*NOTHING*](constructor/webPageAttributeStarGiftAuction)
+
+---
+
+##### webPageAttributeAiComposeTone
+
+:link: [*NOTHING*](constructor/webPageAttributeAiComposeTone)
 
 ---
 
@@ -7382,6 +7490,12 @@ If neither the pm or group flags are set, the specified chat export was generate
 ##### requestPeerTypeBroadcast
 
 :link: [*Choose a channel*](constructor/requestPeerTypeBroadcast)
+
+---
+
+##### requestPeerTypeCreateBot
+
+:link: [*NOTHING*](constructor/requestPeerTypeCreateBot)
 
 ---
 
@@ -9248,3 +9362,87 @@ If neither the pm or group flags are set, the specified chat export was generate
 ##### keyboardButtonStyle
 
 :link: [*NOTHING*](constructor/keyboardButtonStyle)
+
+---
+
+##### inputMessageReadMetric
+
+:link: [*NOTHING*](constructor/inputMessageReadMetric)
+
+---
+
+##### bots exportedBotToken
+
+:link: [*NOTHING*](constructor/bots.exportedBotToken)
+
+---
+
+##### bots requestedButton
+
+:link: [*NOTHING*](constructor/bots.requestedButton)
+
+---
+
+##### messages composedMessageWithAI
+
+:link: [*NOTHING*](constructor/messages.composedMessageWithAI)
+
+---
+
+##### stats pollStats
+
+:link: [*NOTHING*](constructor/stats.pollStats)
+
+---
+
+##### inputAiComposeToneDefault
+
+:link: [*NOTHING*](constructor/inputAiComposeToneDefault)
+
+---
+
+##### inputAiComposeToneID
+
+:link: [*NOTHING*](constructor/inputAiComposeToneID)
+
+---
+
+##### inputAiComposeToneSlug
+
+:link: [*NOTHING*](constructor/inputAiComposeToneSlug)
+
+---
+
+##### aiComposeTone
+
+:link: [*NOTHING*](constructor/aiComposeTone)
+
+---
+
+##### aiComposeToneDefault
+
+:link: [*NOTHING*](constructor/aiComposeToneDefault)
+
+---
+
+##### aicompose tonesNotModified
+
+:link: [*NOTHING*](constructor/aicompose.tonesNotModified)
+
+---
+
+##### aicompose tones
+
+:link: [*NOTHING*](constructor/aicompose.tones)
+
+---
+
+##### aiComposeToneExample
+
+:link: [*NOTHING*](constructor/aiComposeToneExample)
+
+---
+
+##### bots accessSettings
+
+:link: [*NOTHING*](constructor/bots.accessSettings)

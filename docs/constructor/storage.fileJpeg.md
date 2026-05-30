@@ -2,7 +2,7 @@
 
 **Description** : *JPEG image\. MIME type: image/jpeg*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 storage.fileJpeg#7efe0e = storage.FileType;

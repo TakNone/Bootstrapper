@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a range of chat messages*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageRange#ae30253 min_id:int max_id:int = MessageRange;

@@ -2,7 +2,7 @@
 
 **Description** : *Used to top up the Telegram Stars balance of the current account*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputStorePaymentStarsTopup#f9a2a6cb flags:# stars:long currency:string amount:long spend_purpose_peer:flags.0?InputPeer = InputStorePaymentPurpose;
@@ -32,9 +32,9 @@ inputStorePaymentStarsTopup#f9a2a6cb flags:# stars:long currency:string amount:l
 
 ```php
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsTopup(
-	stars : 6971963324289325439,
-	currency : 'iNv4DW86yVcnXHTJ',
-	amount : 6913087537881301615,
+	stars : 2474254578031483185,
+	currency : 'eK6I4SU2n397MozZ',
+	amount : 769661986746480710,
 	spend_purpose_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```
