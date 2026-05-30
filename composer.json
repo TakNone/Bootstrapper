@@ -5,10 +5,10 @@
     "type": "composer-plugin",
     "license": "MIT",
     "require": {
-        "php": ">=8.2",
-        "taknone/liveproto": "*",
+        "php": ">=8.4",
+        "taknone/asyncio": "*",
         "taknone/attributes": "*",
-        "amphp/file": "^3.2.0",
+        "taknone/liveproto": "*",
         "composer-plugin-api": ">=2.5"
     },
     "autoload": {

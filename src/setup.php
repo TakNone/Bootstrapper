@@ -6,7 +6,7 @@ namespace Tak\Liveproto;
 
 use Tak\Liveproto\Tl\Generator;
 
-use function Amp\File\write;
+use function Tak\Asyncio\File\write;
 
 function setup(string $path) : void {
 	$src = realpath($path).DIRECTORY_SEPARATOR.'src';

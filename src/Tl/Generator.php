@@ -8,19 +8,19 @@ use Tak\Liveproto\Utils\Tools;
 
 use Tak\Liveproto\Parser\Tl;
 
-use function Amp\File\read;
+use function Tak\Asyncio\File\read;
 
-use function Amp\File\listFiles;
+use function Tak\Asyncio\File\listFiles;
 
-use function Amp\File\deleteFile;
+use function Tak\Asyncio\File\deleteFile;
 
-use function Amp\File\isFile;
+use function Tak\Asyncio\File\isFile;
 
-use function Amp\File\deleteDirectory;
+use function Tak\Asyncio\File\deleteDirectory;
 
-use function Amp\File\isDirectory;
+use function Tak\Asyncio\File\isDirectory;
 
-use function Amp\File\createDirectoryRecursively;
+use function Tak\Asyncio\File\createDirectory;
 
 defined('TLPATH') || define('TLPATH',getenv('TLPATH') ?: ($_ENV['TLPATH'] ?? __DIR__));
 
@@ -47,8 +47,8 @@ abstract class Generator {
 	}
 	static private function create(array | string ...$tls) : void {
 		self::cleanFiles();
-		createDirectoryRecursively(TLPATH.DIRECTORY_SEPARATOR.'Types');
-		createDirectoryRecursively(TLPATH.DIRECTORY_SEPARATOR.'Functions');
+		createDirectory(TLPATH.DIRECTORY_SEPARATOR.'Types');
+		createDirectory(TLPATH.DIRECTORY_SEPARATOR.'Functions');
 		$filename = TLPATH.DIRECTORY_SEPARATOR.'All.php';
 		$all = new Builder($filename);
 		$all->write(PHP_TAG_START);
@@ -83,7 +83,7 @@ abstract class Generator {
 		},array());
 		foreach($result as $space => $methods):
 			$folder = TLPATH.DIRECTORY_SEPARATOR.('Functions').DIRECTORY_SEPARATOR.$space;
-			createDirectoryRecursively($folder);
+			createDirectory($folder);
 			foreach($methods as $method):
 				$id = '0x'.($method['id'] < 0 ? substr(dechex(intval($method['id'])),8) : dechex(intval($method['id'])));
 				$function = $method['name'];
@@ -159,7 +159,7 @@ abstract class Generator {
 		},array());
 		foreach($result as $space => $constructors):
 			$folder = TLPATH.DIRECTORY_SEPARATOR.('Types').DIRECTORY_SEPARATOR.$space;
-			createDirectoryRecursively($folder);
+			createDirectory($folder);
 			foreach($constructors as $constructor):
 				$id = '0x'.($constructor['id'] < 0 ? substr(dechex(intval($constructor['id'])),8) : dechex(intval($constructor['id'])));
 				$predicate = $constructor['name'];

@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Tak\Liveproto\Tl;
 
-use function Amp\File\openFile;
+use function Tak\Asyncio\File\openFile;
 
 class Builder {
 	private int $indents;

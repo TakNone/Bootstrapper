@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 namespace Tak\Liveproto\Parser;
 
-use function Amp\File\read;
+use function Tak\Asyncio\File\read;
 
-use function Amp\File\write;
+use function Tak\Asyncio\File\write;
 
 readonly class Tl {
 	static public function parseFile(string $path,? string $json = null) : array {

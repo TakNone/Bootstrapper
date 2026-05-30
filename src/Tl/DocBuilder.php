@@ -10,9 +10,9 @@ use Tak\Liveproto\Utils\Helper;
 
 use Tak\Liveproto\Parser\Tl;
 
-use function Amp\File\createDirectoryRecursively;
+use function Tak\Asyncio\File\createDirectory;
 
-use function Amp\File\read;
+use function Tak\Asyncio\File\read;
 
 defined('DOCPATH') || define('DOCPATH',getenv('DOCPATH') ?: ($_ENV['DOCPATH'] ?? __DIR__));
 
@@ -73,11 +73,11 @@ abstract class DocBuilder {
 	}
 	static private function create(array $tls) : void {
 		$folderTypes = DOCPATH.DIRECTORY_SEPARATOR.'type';
-		createDirectoryRecursively($folderTypes);
+		createDirectory($folderTypes);
 		$folderConstructors = DOCPATH.DIRECTORY_SEPARATOR.'constructor';
-		createDirectoryRecursively($folderConstructors);
+		createDirectory($folderConstructors);
 		$folderMethods = DOCPATH.DIRECTORY_SEPARATOR.'method';
-		createDirectoryRecursively($folderMethods);
+		createDirectory($folderMethods);
 		$readme = DOCPATH.DIRECTORY_SEPARATOR.'README.md';
 		$all = new Builder($folderTypes.'.md');
 		$all->writeNewLine('# Types');
