@@ -10,10 +10,6 @@ use Tak\Liveproto\Parser\Tl;
 
 use function Tak\Asyncio\File\read;
 
-use function Tak\Asyncio\File\listFiles;
-
-use function Tak\Asyncio\File\deleteFile;
-
 use function Tak\Asyncio\File\isFile;
 
 use function Tak\Asyncio\File\deleteDirectory;
@@ -29,26 +25,13 @@ define('Tak\Liveproto\Tl\PHP_TAG_START',base64_decode('PD9waHA'));
 define('Tak\Liveproto\Tl\PHP_TAG_END',base64_decode('Pz4'));
 
 abstract class Generator {
-	static private function deleteFolder(string $directory) : void {
-		if(isDirectory($directory)):
-			foreach(listFiles($directory) as $path):
-				if(isFile($directory.DIRECTORY_SEPARATOR.$path)):
-					deleteFile($directory.DIRECTORY_SEPARATOR.$path);
-				else:
-					self::deleteFolder($directory.DIRECTORY_SEPARATOR.$path);
-				endif;
-			endforeach;
-			deleteDirectory($directory);
-		endif;
-	}
-	static private function cleanFiles() : void {
-		if(isDirectory(TLPATH.DIRECTORY_SEPARATOR.'Types')) self::deleteFolder(TLPATH.DIRECTORY_SEPARATOR.'Types');
-		if(isDirectory(TLPATH.DIRECTORY_SEPARATOR.'Functions')) self::deleteFolder(TLPATH.DIRECTORY_SEPARATOR.'Functions');
+	static private function cleanFiles(string $folder) : void {
+		if(isDirectory($folder)) deleteDirectory($folder);
+		createDirectory($folder);
 	}
 	static private function create(array | string ...$tls) : void {
-		self::cleanFiles();
-		createDirectory(TLPATH.DIRECTORY_SEPARATOR.'Types');
-		createDirectory(TLPATH.DIRECTORY_SEPARATOR.'Functions');
+		self::cleanFiles(TLPATH.DIRECTORY_SEPARATOR.'Types');
+		self::cleanFiles(TLPATH.DIRECTORY_SEPARATOR.'Functions');
 		$filename = TLPATH.DIRECTORY_SEPARATOR.'All.php';
 		$all = new Builder($filename);
 		$all->write(PHP_TAG_START);

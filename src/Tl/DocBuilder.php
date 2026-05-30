@@ -10,13 +10,21 @@ use Tak\Liveproto\Utils\Helper;
 
 use Tak\Liveproto\Parser\Tl;
 
-use function Tak\Asyncio\File\createDirectory;
-
 use function Tak\Asyncio\File\read;
+
+use function Tak\Asyncio\File\deleteDirectory;
+
+use function Tak\Asyncio\File\isDirectory;
+
+use function Tak\Asyncio\File\createDirectory;
 
 defined('DOCPATH') || define('DOCPATH',getenv('DOCPATH') ?: ($_ENV['DOCPATH'] ?? __DIR__));
 
 abstract class DocBuilder {
+	static private function cleanFiles(string $folder) : void {
+		if(isDirectory($folder)) deleteDirectory($folder);
+		createDirectory($folder);
+	}
 	static public function mdSafe(string $string) : string {
 		return htmlentities(preg_replace('/([\\\\`*_{}\[\]\(\)#\+\-\.!\|])/','\\\\$1',$string));
 	}
@@ -73,11 +81,11 @@ abstract class DocBuilder {
 	}
 	static private function create(array $tls) : void {
 		$folderTypes = DOCPATH.DIRECTORY_SEPARATOR.'type';
-		createDirectory($folderTypes);
+		self::cleanFiles($folderTypes);
 		$folderConstructors = DOCPATH.DIRECTORY_SEPARATOR.'constructor';
-		createDirectory($folderConstructors);
+		self::cleanFiles($folderConstructors);
 		$folderMethods = DOCPATH.DIRECTORY_SEPARATOR.'method';
-		createDirectory($folderMethods);
+		self::cleanFiles($folderMethods);
 		$readme = DOCPATH.DIRECTORY_SEPARATOR.'README.md';
 		$all = new Builder($folderTypes.'.md');
 		$all->writeNewLine('# Types');
