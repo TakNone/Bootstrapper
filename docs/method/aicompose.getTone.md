@@ -1,0 +1,33 @@
+# aicompose.getTone
+
+**Layer** : 225
+
+```tl
+aicompose.getTone#b2e8ba03 tone:InputAiComposeTone = aicompose.Tones;
+```
+
+---
+
+## Parameters
+
+| Name | Type | Description |
+| :---: | :---: | :--- |
+| <mark>tone</mark> | [`InputAiComposeTone`](type/InputAiComposeTone) | NOTHING |
+
+---
+
+## Result
+
+[aicompose.Tones](type/aicompose.Tones)
+
+---
+
+## Example
+
+```php
+$aicomposeTones = $client->aicompose->getTone(
+	tone : $client->inputAiComposeToneDefault(
+		tone : 'YI78ZyoDn4F2r5OH',
+	),
+);
+```

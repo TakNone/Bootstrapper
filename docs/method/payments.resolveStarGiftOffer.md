@@ -1,6 +1,6 @@
 # payments.resolveStarGiftOffer
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.resolveStarGiftOffer#e9ce781c flags:# decline:flags.0?true offer_msg_id:int = Updates;
@@ -29,6 +29,6 @@ payments.resolveStarGiftOffer#e9ce781c flags:# decline:flags.0?true offer_msg_id
 ```php
 $updates = $client->payments->resolveStarGiftOffer(
 	decline : true,
-	offer_msg_id : 98,
+	offer_msg_id : 24,
 );
 ```

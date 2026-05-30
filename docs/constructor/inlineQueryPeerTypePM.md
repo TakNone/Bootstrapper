@@ -2,7 +2,7 @@
 
 **Description** : *Peer type: private chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inlineQueryPeerTypePM#833c0fac = InlineQueryPeerType;

@@ -2,7 +2,7 @@
 
 **Description** : *A payment was sent*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionPaymentSent#c624b16e flags:# recurring_init:flags.2?true recurring_used:flags.3?true currency:string total_amount:long invoice_slug:flags.0?string subscription_until_date:flags.4?int = MessageAction;
@@ -36,9 +36,9 @@ messageActionPaymentSent#c624b16e flags:# recurring_init:flags.2?true recurring_
 $messageAction = $client->messageActionPaymentSent(
 	recurring_init : true,
 	recurring_used : true,
-	currency : 'sXF9YoSeqwOWHzVU',
-	total_amount : 8800313236512029523,
-	invoice_slug : 'DUAEsMyrWO82dfj5',
-	subscription_until_date : 57,
+	currency : 'Wzm4uOekQYhrqTI7',
+	total_amount : -4370963384524364390,
+	invoice_slug : 'JQmcdh1oBvYZSF0l',
+	subscription_until_date : 56,
 );
 ```

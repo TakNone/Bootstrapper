@@ -2,7 +2,7 @@
 
 **Description** : *Birthday information of our contacts*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 contacts.contactBirthdays#114ff30d contacts:Vector<ContactBirthday> users:Vector<User> = contacts.ContactBirthdays;

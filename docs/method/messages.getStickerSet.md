@@ -2,7 +2,7 @@
 
 **Description** : *Get info about a stickerset*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getStickerSet#c8a0ec74 stickerset:InputStickerSet hash:int = messages.StickerSet;

@@ -2,7 +2,7 @@
 
 **Description** : *Fetch basic info about all existing quick reply shortcuts*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getQuickReplies#d483f2a8 hash:long = messages.QuickReplies;

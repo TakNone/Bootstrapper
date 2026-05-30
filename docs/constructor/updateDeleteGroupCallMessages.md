@@ -1,6 +1,6 @@
 # updateDeleteGroupCallMessages
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> = Update;
@@ -28,9 +28,9 @@ updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> 
 ```php
 $update = $client->updateDeleteGroupCallMessages(
 	call : $client->inputGroupCall(
-		id : 2107293351177704408,
-		access_hash : -2856738450345928143,
+		id : 5043123323717670860,
+		access_hash : -8381651502255104974,
 	),
-	messages : array(99),
+	messages : array(49),
 );
 ```

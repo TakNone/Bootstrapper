@@ -2,7 +2,7 @@
 
 **Description** : *Represents an Instant View webpage*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.webPage#fd5e12bd webpage:WebPage chats:Vector<Chat> users:Vector<User> = messages.WebPage;
@@ -31,12 +31,12 @@ messages.webPage#fd5e12bd webpage:WebPage chats:Vector<Chat> users:Vector<User> 
 ```php
 $messagesWebPage = $client->messages->webPage(
 	webpage : $client->webPageEmpty(
-		id : -5754007952958441104,
+		id : -7933638217727914694,
 		url : 'https://docs.liveproto.dev',
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 2297518681548723967,
+			id : 6565059185955979755,
 		),
 		$client->chat(
 			creator : true,
@@ -45,12 +45,12 @@ $messagesWebPage = $client->messages->webPage(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 4758980627793418942,
-			title : 'jIeuCsWBpOSRLYd9',
+			id : -6936348393802449264,
+			title : 'uDmlq6NAbzVE5M2s',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 20,
-			date : 59,
-			version : 71,
+			participants_count : 3,
+			date : 68,
+			version : 61,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -69,6 +69,7 @@ $messagesWebPage = $client->messages->webPage(
 				edit_stories : true,
 				delete_stories : true,
 				manage_direct_messages : true,
+				manage_ranks : true,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -91,12 +92,14 @@ $messagesWebPage = $client->messages->webPage(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 6,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 39,
 			),
 		),
 		$client->chatForbidden(
-			id : 9173037170087937917,
-			title : 'iZosdu4r3Lh8nmkN',
+			id : -3483877783752336333,
+			title : 'eixt9vXkqKCsFfSG',
 		),
 		$client->channel(
 			creator : true,
@@ -127,17 +130,17 @@ $messagesWebPage = $client->messages->webPage(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 1821119004452112195,
-			access_hash : 1757286744525842382,
-			title : 'fLQraGN5kZ87HMCb',
+			id : 922199019357646443,
+			access_hash : 2879070563348526308,
+			title : 'wb9utrx3jnGYViCm',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 82,
+			date : 92,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '94IhQLfKPrxB6VY0',
-					reason : '3OfDRdztWEvp5uYM',
-					text : 'nWwreDL1lC9jONhK',
+					platform : 'JnuQtHWEMyRL3B9v',
+					reason : 'F5QBI31lzdCsijME',
+					text : 'fms97qjU0rJPQgxu',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -157,6 +160,7 @@ $messagesWebPage = $client->messages->webPage(
 				edit_stories : true,
 				delete_stories : true,
 				manage_direct_messages : true,
+				manage_ranks : true,
 			),
 			banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -179,7 +183,9 @@ $messagesWebPage = $client->messages->webPage(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 92,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 91,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -202,9 +208,11 @@ $messagesWebPage = $client->messages->webPage(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 73,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 23,
 			),
-			participants_count : 27,
+			participants_count : 40,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -214,36 +222,36 @@ $messagesWebPage = $client->messages->webPage(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 8,
+				max_id : 7,
 			),
 			color : $client->peerColor(
-				color : 36,
-				background_emoji_id : -4134353254770528960,
+				color : 35,
+				background_emoji_id : 2672011117402546045,
 			),
 			profile_color : $client->peerColor(
-				color : 72,
-				background_emoji_id : -6789586385717600944,
+				color : 26,
+				background_emoji_id : 1334820325333319233,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 94,
-			subscription_until_date : 25,
-			bot_verification_icon : 4181007072039669255,
-			send_paid_messages_stars : 8559834915684254915,
-			linked_monoforum_id : 5430043138353395149,
+			level : 11,
+			subscription_until_date : 71,
+			bot_verification_icon : -1103448777361449653,
+			send_paid_messages_stars : -403949508495786901,
+			linked_monoforum_id : 8918720657345225861,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
 			monoforum : true,
-			id : -8567624037477192629,
-			access_hash : 3133762416993852725,
-			title : 'PbzaqpM48gOyI7s9',
-			until_date : 29,
+			id : 8408982414771926955,
+			access_hash : -1846528526787531293,
+			title : 'QwrkBnu8qcEiUSLC',
+			until_date : 64,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -8424347805212273468,
+			id : 5920142611052694919,
 		),
 		$client->user(
 			self : true,
@@ -273,24 +281,26 @@ $messagesWebPage = $client->messages->webPage(
 			bot_has_main_app : true,
 			bot_forum_view : true,
 			bot_forum_can_manage_topics : true,
-			id : 6354774856749378016,
-			access_hash : -630696420527739612,
+			bot_can_manage_bots : true,
+			bot_guestchat : true,
+			id : -5527585864767308314,
+			access_hash : -3296788254199577875,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 39,
+			bot_info_version : 62,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'ZSYtROG5vH7dIqMx',
-					reason : 'FWSQt1Cki8PYncbX',
-					text : 'PgrDno2Obze1RWSl',
+					platform : 'dBERexG0SyUNJo1X',
+					reason : 'KTP9y2iQZFoMIh13',
+					text : '9ZoWzIRk5GDsJrcb',
 				),
 			),
-			bot_inline_placeholder : 'WLt0hrvkBQPHGFla',
-			lang_code : 'ix3K1MZhk29ryBFo',
+			bot_inline_placeholder : '1HcaSKgznlZ8t5EL',
+			lang_code : 'ie1Y9tCdDfpIsqEH',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -301,19 +311,19 @@ $messagesWebPage = $client->messages->webPage(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 9,
+				max_id : 64,
 			),
 			color : $client->peerColor(
-				color : 36,
-				background_emoji_id : 5552475924587237255,
+				color : 89,
+				background_emoji_id : -653062625916979459,
 			),
 			profile_color : $client->peerColor(
-				color : 75,
-				background_emoji_id : 7615365345798397864,
+				color : 46,
+				background_emoji_id : 2601171739259060663,
 			),
-			bot_active_users : 74,
-			bot_verification_icon : -6798592934974686859,
-			send_paid_messages_stars : 7755577156133516076,
+			bot_active_users : 55,
+			bot_verification_icon : -8143980604015100381,
+			send_paid_messages_stars : 5622002289025582086,
 		),
 	),
 );

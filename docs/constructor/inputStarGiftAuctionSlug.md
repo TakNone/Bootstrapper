@@ -1,6 +1,6 @@
 # inputStarGiftAuctionSlug
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputStarGiftAuctionSlug#7ab58308 slug:string = InputStarGiftAuction;
@@ -26,6 +26,6 @@ inputStarGiftAuctionSlug#7ab58308 slug:string = InputStarGiftAuction;
 
 ```php
 $inputStarGiftAuction = $client->inputStarGiftAuctionSlug(
-	slug : '7VPbDuyzUivNdMS0',
+	slug : 'vtAECX7Mnu8PIelQ',
 );
 ```

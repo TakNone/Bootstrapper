@@ -2,7 +2,7 @@
 
 **Description** : *JSON boolean value*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 jsonBool#c7345e6a value:Bool = JSONValue;

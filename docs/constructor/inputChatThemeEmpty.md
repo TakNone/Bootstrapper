@@ -2,7 +2,7 @@
 
 **Description** : *Remove any currently configured theme*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputChatThemeEmpty#83268483 = InputChatTheme;

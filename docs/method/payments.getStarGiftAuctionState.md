@@ -1,6 +1,6 @@
 # payments.getStarGiftAuctionState
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.getStarGiftAuctionState#5c9ff4d6 auction:InputStarGiftAuction version:int = payments.StarGiftAuctionState;
@@ -28,8 +28,8 @@ payments.getStarGiftAuctionState#5c9ff4d6 auction:InputStarGiftAuction version:i
 ```php
 $paymentsStarGiftAuctionState = $client->payments->getStarGiftAuctionState(
 	auction : $client->inputStarGiftAuction(
-		gift_id : -9107642801849167108,
+		gift_id : 4032801059740372140,
 	),
-	version : 70,
+	version : 91,
 );
 ```

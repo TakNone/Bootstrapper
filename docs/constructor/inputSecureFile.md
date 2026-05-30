@@ -2,7 +2,7 @@
 
 **Description** : *Pre\-uploaded passport file, for more info see the passport docs &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputSecureFile#5367e5be id:long access_hash:long = InputSecureFile;
@@ -29,7 +29,7 @@ inputSecureFile#5367e5be id:long access_hash:long = InputSecureFile;
 
 ```php
 $inputSecureFile = $client->inputSecureFile(
-	id : -7521460871193982643,
-	access_hash : -5606029983172653877,
+	id : 2990373599296414973,
+	access_hash : 8867717215128349050,
 );
 ```

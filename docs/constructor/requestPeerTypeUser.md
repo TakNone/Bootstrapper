@@ -2,7 +2,7 @@
 
 **Description** : *Choose a user*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 requestPeerTypeUser#5f3b8a00 flags:# bot:flags.0?Bool premium:flags.1?Bool = RequestPeerType;

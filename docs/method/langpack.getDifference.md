@@ -2,7 +2,7 @@
 
 **Description** : *Get new strings in language pack*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 langpack.getDifference#cd984aa5 lang_pack:string lang_code:string from_version:int = LangPackDifference;
@@ -38,8 +38,8 @@ langpack.getDifference#cd984aa5 lang_pack:string lang_code:string from_version:i
 
 ```php
 $langPackDifference = $client->langpack->getDifference(
-	lang_pack : 'DGNYQRlfihrZxEyB',
-	lang_code : 'U1MJlBKskj4wOzD6',
-	from_version : 78,
+	lang_pack : 'HJT2PfKXeptOro0V',
+	lang_code : '2hws8U0CdEKajfiY',
+	from_version : 9,
 );
 ```

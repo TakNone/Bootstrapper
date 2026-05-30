@@ -2,7 +2,7 @@
 
 **Description** : *Default banned rights in a normal chat were updated*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBannedRights version:int = Update;
@@ -31,7 +31,7 @@ updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBanne
 ```php
 $update = $client->updateChatDefaultBannedRights(
 	peer : $client->peerUser(
-		user_id : 6802146722757921182,
+		user_id : 3167219966233174639,
 	),
 	default_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -54,8 +54,10 @@ $update = $client->updateChatDefaultBannedRights(
 		send_voices : true,
 		send_docs : true,
 		send_plain : true,
-		until_date : 42,
+		edit_rank : true,
+		send_reactions : true,
+		until_date : 82,
 	),
-	version : 72,
+	version : 5,
 );
 ```

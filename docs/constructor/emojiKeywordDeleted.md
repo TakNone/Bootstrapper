@@ -2,7 +2,7 @@
 
 **Description** : *Deleted emoji keyword*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 emojiKeywordDeleted#236df622 keyword:string emoticons:Vector<string> = EmojiKeyword;
@@ -29,7 +29,7 @@ emojiKeywordDeleted#236df622 keyword:string emoticons:Vector<string> = EmojiKeyw
 
 ```php
 $emojiKeyword = $client->emojiKeywordDeleted(
-	keyword : 'i9DLOBema0CANy1n',
-	emoticons : array('zw1PIuT7Kk0VLi2X'),
+	keyword : '6ZGHREkd14QzjKSX',
+	emoticons : array('9Vm63OM15rJeHqPx'),
 );
 ```

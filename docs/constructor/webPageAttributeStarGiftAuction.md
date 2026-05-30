@@ -1,6 +1,6 @@
 # webPageAttributeStarGiftAuction
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 webPageAttributeStarGiftAuction#1c641c2 gift:StarGift end_date:int = WebPageAttribute;
@@ -35,36 +35,36 @@ $webPageAttribute = $client->webPageAttributeStarGiftAuction(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : -5481008453520275275,
+		id : 8225771464515928633,
 		sticker : $client->documentEmpty(
-			id : -731955806824596336,
+			id : 8478795022815935368,
 		),
-		stars : -6180777178483524610,
-		availability_remains : 97,
-		availability_total : 72,
-		availability_resale : -4731526635323739514,
-		convert_stars : -962389465506430737,
-		first_sale_date : 48,
-		last_sale_date : 2,
-		upgrade_stars : -8023402763389535450,
-		resell_min_stars : -1782033211930183189,
-		title : 'Kbe25xFwOlWNotca',
+		stars : 337539214312396819,
+		availability_remains : 9,
+		availability_total : 89,
+		availability_resale : 6878644588579710884,
+		convert_stars : 7902264459228411982,
+		first_sale_date : 81,
+		last_sale_date : 20,
+		upgrade_stars : 8590401523265720014,
+		resell_min_stars : 4447548706308642848,
+		title : 'SmEbPzH5RY6JpvNn',
 		released_by : $client->peerUser(
-			user_id : -6831475135005518655,
+			user_id : 6722734779475148064,
 		),
 		per_user_total : 82,
-		per_user_remains : 34,
-		locked_until_date : 72,
-		auction_slug : 'Tq4JaVXNj2IH5FfD',
-		gifts_per_round : 68,
-		auction_start_date : 18,
-		upgrade_variants : 13,
+		per_user_remains : 14,
+		locked_until_date : 92,
+		auction_slug : '5yHvlNKo4O8UAsFp',
+		gifts_per_round : 48,
+		auction_start_date : 53,
+		upgrade_variants : 47,
 		background : $client->starGiftBackground(
-			center_color : 61,
-			edge_color : 16,
-			text_color : 51,
+			center_color : 27,
+			edge_color : 25,
+			text_color : 28,
 		),
 	),
-	end_date : 15,
+	end_date : 62,
 );
 ```

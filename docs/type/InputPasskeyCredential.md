@@ -1,6 +1,6 @@
 # InputPasskeyCredential
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputPasskeyCredentialPublicKey#3c27b78f id:string raw_id:string response:InputPasskeyResponse = InputPasskeyCredential;

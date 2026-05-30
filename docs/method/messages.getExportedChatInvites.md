@@ -2,7 +2,7 @@
 
 **Description** : *Get info about the chat invites of a specific chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getExportedChatInvites#a2b5a3f6 flags:# revoked:flags.3?true peer:InputPeer admin_id:InputUser offset_date:flags.2?int offset_link:flags.2?string limit:int = messages.ExportedChatInvites;
@@ -52,7 +52,7 @@ $messagesExportedChatInvites = $client->messages->getExportedChatInvites(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	admin_id : $client->get_input_user(user : '@TakNone'),
 	offset_date : 0,
-	offset_link : 'THvmZjrnXziO5qeC',
-	limit : 15,
+	offset_link : 'xZpNcSwYXAnhQBts',
+	limit : 33,
 );
 ```

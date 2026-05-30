@@ -2,7 +2,7 @@
 
 **Description** : *Request a reupload of a certain file to a CDN DC*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 upload.reuploadCdnFile#9b2754a8 file_token:bytes request_token:bytes = Vector<FileHash>;

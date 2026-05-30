@@ -1,6 +1,6 @@
 # passkey
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 passkey#98613ebf flags:# id:string name:string date:int software_emoji_id:flags.0?long last_usage_date:flags.1?int = Passkey;
@@ -31,10 +31,10 @@ passkey#98613ebf flags:# id:string name:string date:int software_emoji_id:flags.
 
 ```php
 $passkey = $client->passkey(
-	id : 'waARn1uEhxNY7Ijf',
-	name : 'Uegmv1Vx4OX0pBPl',
-	date : 97,
-	software_emoji_id : -8898681929346552008,
-	last_usage_date : 34,
+	id : 'AzqOWU0Fd2R1LJcX',
+	name : 'Nvkbic4FSwYulta6',
+	date : 22,
+	software_emoji_id : -8084665833391663315,
+	last_usage_date : 54,
 );
 ```

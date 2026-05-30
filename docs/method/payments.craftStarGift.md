@@ -1,6 +1,6 @@
 # payments.craftStarGift
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.craftStarGift#b0f9684f stargift:Vector<InputSavedStarGift> = Updates;
@@ -28,14 +28,14 @@ payments.craftStarGift#b0f9684f stargift:Vector<InputSavedStarGift> = Updates;
 $updates = $client->payments->craftStarGift(
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 70,
+			msg_id : 83,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : 7675364261982664266,
+			saved_id : -3759195313378254847,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'nydgIaHsXQYNF3E2',
+			slug : 'j7f130KNYiu2vMTp',
 		),
 	),
 );

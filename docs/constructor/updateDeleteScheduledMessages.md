@@ -2,7 +2,7 @@
 
 **Description** : *Some scheduled messages were deleted \(or sent\) from the schedule queue of a chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateDeleteScheduledMessages#f2a71983 flags:# peer:Peer messages:Vector<int> sent_messages:flags.0?Vector<int> = Update;
@@ -32,9 +32,9 @@ updateDeleteScheduledMessages#f2a71983 flags:# peer:Peer messages:Vector<int> se
 ```php
 $update = $client->updateDeleteScheduledMessages(
 	peer : $client->peerUser(
-		user_id : 8083849817909099613,
+		user_id : -585331188842461194,
 	),
-	messages : array(74),
-	sent_messages : array(90),
+	messages : array(44),
+	sent_messages : array(50),
 );
 ```

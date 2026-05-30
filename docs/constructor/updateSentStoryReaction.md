@@ -2,7 +2,7 @@
 
 **Description** : *Indicates we reacted to a story &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateSentStoryReaction#7d627683 peer:Peer story_id:int reaction:Reaction = Update;
@@ -31,9 +31,9 @@ updateSentStoryReaction#7d627683 peer:Peer story_id:int reaction:Reaction = Upda
 ```php
 $update = $client->updateSentStoryReaction(
 	peer : $client->peerUser(
-		user_id : -5182306479518257317,
+		user_id : -7786644261329053361,
 	),
-	story_id : 11,
+	story_id : 42,
 	reaction : $client->reactionEmpty(),
 );
 ```

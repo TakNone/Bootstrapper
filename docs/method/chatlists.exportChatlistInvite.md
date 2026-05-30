@@ -2,7 +2,7 @@
 
 **Description** : *Export a folder &raquo;, creating a chat folder deep link &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 chatlists.exportChatlistInvite#8472478e chatlist:InputChatlist title:string peers:Vector<InputPeer> = chatlists.ExportedChatlistInvite;
@@ -46,9 +46,9 @@ chatlists.exportChatlistInvite#8472478e chatlist:InputChatlist title:string peer
 ```php
 $chatlistsExportedChatlistInvite = $client->chatlists->exportChatlistInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 16,
+		filter_id : 3,
 	),
-	title : 'gNtUlcibk9zJQ3YZ',
+	title : 'wh2i0gHf8ByRUjnQ',
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

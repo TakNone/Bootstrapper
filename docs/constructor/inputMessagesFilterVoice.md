@@ -2,7 +2,7 @@
 
 **Description** : *Return only messages containing voice notes*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputMessagesFilterVoice#50f5c392 = MessagesFilter;

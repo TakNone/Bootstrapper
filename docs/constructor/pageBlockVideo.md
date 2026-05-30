@@ -2,7 +2,7 @@
 
 **Description** : *Video*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true video_id:long caption:PageCaption = PageBlock;
@@ -34,7 +34,7 @@ pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true video_id
 $pageBlock = $client->pageBlockVideo(
 	autoplay : true,
 	loop : true,
-	video_id : -7308123243796552842,
+	video_id : -7073260196206309206,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

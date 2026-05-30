@@ -2,7 +2,7 @@
 
 **Description** : *Withdraw funds from a channel or bot&#039;s star balance &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.getStarsRevenueWithdrawalUrl#2433dc92 flags:# ton:flags.0?true peer:InputPeer amount:flags.1?long password:InputCheckPasswordSRP = payments.StarsRevenueWithdrawalUrl;
@@ -45,7 +45,7 @@ payments.getStarsRevenueWithdrawalUrl#2433dc92 flags:# ton:flags.0?true peer:Inp
 $paymentsStarsRevenueWithdrawalUrl = $client->payments->getStarsRevenueWithdrawalUrl(
 	ton : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	amount : -6388758465930979745,
+	amount : 2819139809504028336,
 	password : $client->inputCheckPasswordEmpty(),
 );
 ```

@@ -1,6 +1,6 @@
 # payments.sendStarGiftOffer
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.sendStarGiftOffer#8fb86b41 flags:# peer:InputPeer slug:string price:StarsAmount duration:int random_id:long allow_paid_stars:flags.0?long = Updates;
@@ -33,13 +33,13 @@ payments.sendStarGiftOffer#8fb86b41 flags:# peer:InputPeer slug:string price:Sta
 ```php
 $updates = $client->payments->sendStarGiftOffer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	slug : 'AGmgzlMnTsjKPdpv',
+	slug : '1ge9tsIx8aLijz0h',
 	price : $client->starsAmount(
-		amount : 2986536623518373132,
-		nanos : 27,
+		amount : -2111764084418206336,
+		nanos : 50,
 	),
-	duration : 30,
-	random_id : 5220202869159076412,
-	allow_paid_stars : -2146848918422758750,
+	duration : 50,
+	random_id : -741212571929212300,
+	allow_paid_stars : 8830264404289495103,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Defines the width and height of an image uploaded as document*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 documentAttributeImageSize#6c37c15c w:int h:int = DocumentAttribute;
@@ -29,7 +29,7 @@ documentAttributeImageSize#6c37c15c w:int h:int = DocumentAttribute;
 
 ```php
 $documentAttribute = $client->documentAttributeImageSize(
-	w : 30,
-	h : 52,
+	w : 15,
+	h : 82,
 );
 ```

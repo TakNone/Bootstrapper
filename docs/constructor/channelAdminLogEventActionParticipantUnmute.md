@@ -2,7 +2,7 @@
 
 **Description** : *A group call participant was unmuted*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelAdminLogEventActionParticipantUnmute#e64429c0 participant:GroupCallParticipant = ChannelAdminLogEventAction;
@@ -40,37 +40,37 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantUnmu
 		self : true,
 		video_joined : true,
 		peer : $client->peerUser(
-			user_id : 5915320349963256234,
+			user_id : 3001696546745367985,
 		),
-		date : 43,
-		active_date : 37,
-		source : 11,
+		date : 100,
+		active_date : 62,
+		source : 0,
 		volume : 17,
-		about : 'RCWTOjYebUxkudVS',
-		raise_hand_rating : 1807721063172623694,
+		about : 'RLQBAwaVqZCrzkX7',
+		raise_hand_rating : 6957781966546418073,
 		video : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : 'upjaQFBWc5IhqOLs',
+			endpoint : 'P4BVbIEOcfFHKZ90',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(
-					semantics : 'M4vonti2FTqVRBNe',
-					sources : array(4),
+					semantics : '81SxerP2YWLaEFi9',
+					sources : array(2),
 				),
 			),
-			audio_source : 52,
+			audio_source : 78,
 		),
 		presentation : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : 'heJMVzYrWD7QvoIf',
+			endpoint : '9zryoK5Vu6nQAmUI',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(
-					semantics : 'iaenMdNmf7wFT4E1',
-					sources : array(19),
+					semantics : 'XHvAtLdMPrgcKBTz',
+					sources : array(78),
 				),
 			),
-			audio_source : 81,
+			audio_source : 38,
 		),
-		paid_stars_total : -2605202390574526830,
+		paid_stars_total : 7051701334093149957,
 	),
 );
 ```

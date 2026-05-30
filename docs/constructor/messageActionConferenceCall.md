@@ -2,7 +2,7 @@
 
 **Description** : *Represents a conference call \(or an invitation to a conference call, if neither the missed nor active flags are set\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionConferenceCall#2ffe2f7a flags:# missed:flags.0?true active:flags.1?true video:flags.4?true call_id:long duration:flags.2?int other_participants:flags.3?Vector<Peer> = MessageAction;
@@ -37,17 +37,17 @@ $messageAction = $client->messageActionConferenceCall(
 	missed : true,
 	active : true,
 	video : true,
-	call_id : 4799170460656346322,
-	duration : 65,
+	call_id : -3411325858544491298,
+	duration : 39,
 	other_participants : array(
 		$client->peerUser(
-			user_id : 7206976083323101044,
+			user_id : 5877218363126178044,
 		),
 		$client->peerChat(
-			chat_id : 3636125024629866213,
+			chat_id : -28212643596677841,
 		),
 		$client->peerChannel(
-			channel_id : -3391843139364840853,
+			channel_id : -6316059725526666162,
 		),
 	),
 );

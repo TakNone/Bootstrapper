@@ -2,7 +2,7 @@
 
 **Description** : *Indicates an already sent game*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputGameID#32c3e77 id:long access_hash:long = InputGame;
@@ -29,7 +29,7 @@ inputGameID#32c3e77 id:long access_hash:long = InputGame;
 
 ```php
 $inputGame = $client->inputGameID(
-	id : -3652651767889679775,
-	access_hash : -2992563930990893254,
+	id : 3152352092695525568,
+	access_hash : -6864719429350638774,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Exact read date of a private message we sent to another user*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 outboxReadDate#3bb842ac date:int = OutboxReadDate;
@@ -28,6 +28,6 @@ outboxReadDate#3bb842ac date:int = OutboxReadDate;
 
 ```php
 $outboxReadDate = $client->outboxReadDate(
-	date : 92,
+	date : 98,
 );
 ```

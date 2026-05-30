@@ -2,7 +2,7 @@
 
 **Description** : *Report a story*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stories.report#19d8eb45 peer:InputPeer id:Vector<int> option:bytes message:string = ReportResult;
@@ -40,8 +40,8 @@ stories.report#19d8eb45 peer:InputPeer id:Vector<int> option:bytes message:strin
 ```php
 $reportResult = $client->stories->report(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(92),
+	id : array(70),
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	message : '1ZnWq6S0MR7VEhJd',
+	message : 'OM7TPCDpjK4GJWfc',
 );
 ```

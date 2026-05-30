@@ -2,7 +2,7 @@
 
 **Description** : *Get installed mask stickers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getMaskStickers#640f82b8 hash:long = messages.AllStickers;

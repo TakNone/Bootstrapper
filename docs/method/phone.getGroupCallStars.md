@@ -1,6 +1,6 @@
 # phone.getGroupCallStars
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.getGroupCallStars#6f636302 call:InputGroupCall = phone.GroupCallStars;
@@ -27,8 +27,8 @@ phone.getGroupCallStars#6f636302 call:InputGroupCall = phone.GroupCallStars;
 ```php
 $phoneGroupCallStars = $client->phone->getGroupCallStars(
 	call : $client->inputGroupCall(
-		id : 8902253081513271586,
-		access_hash : 1791126674816939349,
+		id : 3336670251113079719,
+		access_hash : 7641521487976076982,
 	),
 );
 ```

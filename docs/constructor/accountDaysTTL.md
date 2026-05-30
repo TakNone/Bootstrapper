@@ -2,7 +2,7 @@
 
 **Description** : *Time to live in days of the current account*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 accountDaysTTL#b8d0afdf days:int = AccountDaysTTL;
@@ -28,6 +28,6 @@ accountDaysTTL#b8d0afdf days:int = AccountDaysTTL;
 
 ```php
 $accountDaysTTL = $client->accountDaysTTL(
-	days : 28,
+	days : 88,
 );
 ```

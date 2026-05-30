@@ -2,7 +2,7 @@
 
 **Description** : *A giveaway has ended*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionGiveawayResults#87e2f155 flags:# stars:flags.0?true winners_count:int unclaimed_count:int = MessageAction;
@@ -32,7 +32,7 @@ messageActionGiveawayResults#87e2f155 flags:# stars:flags.0?true winners_count:i
 ```php
 $messageAction = $client->messageActionGiveawayResults(
 	stars : true,
-	winners_count : 72,
-	unclaimed_count : 43,
+	winners_count : 93,
+	unclaimed_count : 98,
 );
 ```

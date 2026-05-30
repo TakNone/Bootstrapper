@@ -2,7 +2,7 @@
 
 **Description** : *Information about an active admin in a supergroup*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 statsGroupTopAdmin#d7584c87 user_id:long deleted:int kicked:int banned:int = StatsGroupTopAdmin;
@@ -31,9 +31,9 @@ statsGroupTopAdmin#d7584c87 user_id:long deleted:int kicked:int banned:int = Sta
 
 ```php
 $statsGroupTopAdmin = $client->statsGroupTopAdmin(
-	user_id : 6841621469307739450,
-	deleted : 31,
-	kicked : 32,
-	banned : 65,
+	user_id : 7585513561600028360,
+	deleted : 59,
+	kicked : 91,
+	banned : 63,
 );
 ```

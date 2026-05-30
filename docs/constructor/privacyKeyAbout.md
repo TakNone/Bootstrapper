@@ -2,7 +2,7 @@
 
 **Description** : *Whether people can see your bio*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 privacyKeyAbout#a486b761 = PrivacyKey;

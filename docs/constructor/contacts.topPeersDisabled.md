@@ -2,7 +2,7 @@
 
 **Description** : *Top peers disabled*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 contacts.topPeersDisabled#b52c939d = contacts.TopPeers;

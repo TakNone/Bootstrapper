@@ -2,7 +2,7 @@
 
 **Description** : *Document that will be downloaded by the telegram servers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputMediaDocumentExternal#779600f9 flags:# spoiler:flags.1?true url:string ttl_seconds:flags.0?int video_cover:flags.2?InputPhoto video_timestamp:flags.3?int = InputMedia;
@@ -35,8 +35,8 @@ inputMediaDocumentExternal#779600f9 flags:# spoiler:flags.1?true url:string ttl_
 $inputMedia = $client->inputMediaDocumentExternal(
 	spoiler : true,
 	url : 'https://docs.liveproto.dev',
-	ttl_seconds : 47,
+	ttl_seconds : 13,
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 97,
+	video_timestamp : 17,
 );
 ```

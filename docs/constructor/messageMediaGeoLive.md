@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a live geolocation*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageMediaGeoLive#b940c666 flags:# geo:GeoPoint heading:flags.0?int period:int proximity_notification_radius:flags.1?int = MessageMedia;
@@ -33,8 +33,8 @@ messageMediaGeoLive#b940c666 flags:# geo:GeoPoint heading:flags.0?int period:int
 ```php
 $messageMedia = $client->messageMediaGeoLive(
 	geo : $client->geoPointEmpty(),
-	heading : 10,
-	period : 16,
-	proximity_notification_radius : 87,
+	heading : 60,
+	period : 44,
+	proximity_notification_radius : 9,
 );
 ```

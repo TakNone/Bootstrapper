@@ -2,7 +2,7 @@
 
 **Description** : *Dialogs haven&#039;t changed*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.dialogsNotModified#f0e3e596 count:int = messages.Dialogs;
@@ -28,6 +28,6 @@ messages.dialogsNotModified#f0e3e596 count:int = messages.Dialogs;
 
 ```php
 $messagesDialogs = $client->messages->dialogsNotModified(
-	count : 29,
+	count : 31,
 );
 ```

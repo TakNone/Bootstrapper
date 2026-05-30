@@ -2,7 +2,7 @@
 
 **Description** : *Change group call settings*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true call:InputGroupCall join_muted:flags.0?Bool messages_enabled:flags.2?Bool send_paid_messages_stars:flags.3?long = Updates;
@@ -44,11 +44,11 @@ phone.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true ca
 $updates = $client->phone->toggleGroupCallSettings(
 	reset_invite_hash : true,
 	call : $client->inputGroupCall(
-		id : 1086275717931685257,
-		access_hash : 5501700491482645424,
+		id : 5300598763824982692,
+		access_hash : 4294989304567825135,
 	),
 	join_muted : false,
 	messages_enabled : true,
-	send_paid_messages_stars : 5034629739474463333,
+	send_paid_messages_stars : -2529647595534453161,
 );
 ```

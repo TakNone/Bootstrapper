@@ -2,7 +2,7 @@
 
 **Description** : *Composition of chat participants changed*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateChatParticipants#7761198 participants:ChatParticipants = Update;
@@ -29,11 +29,12 @@ updateChatParticipants#7761198 participants:ChatParticipants = Update;
 ```php
 $update = $client->updateChatParticipants(
 	participants : $client->chatParticipantsForbidden(
-		chat_id : 6721483211458523901,
+		chat_id : -4240469740700113412,
 		self_participant : $client->chatParticipant(
-			user_id : 280217935578881376,
-			inviter_id : 1264108861502815313,
-			date : 60,
+			user_id : -3938085647488144099,
+			inviter_id : -2443809493599299528,
+			date : 99,
+			rank : 'WiqkSAs31U7M0brl',
 		),
 	),
 );

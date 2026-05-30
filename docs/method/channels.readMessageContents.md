@@ -2,7 +2,7 @@
 
 **Description** : *Mark channel/supergroup message contents as read, emitting an updateChannelReadMessagesContents*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.readMessageContents#eab5dc38 channel:InputChannel id:Vector<int> = Bool;
@@ -40,6 +40,6 @@ channels.readMessageContents#eab5dc38 channel:InputChannel id:Vector<int> = Bool
 ```php
 $bool = $client->channels->readMessageContents(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	id : array(100),
+	id : array(84),
 );
 ```

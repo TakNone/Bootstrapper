@@ -2,7 +2,7 @@
 
 **Description** : *A stickerset was just moved to top, see here for more info &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateMoveStickerSetToTop#86fccf85 flags:# masks:flags.0?true emojis:flags.1?true stickerset:long = Update;
@@ -33,6 +33,6 @@ updateMoveStickerSetToTop#86fccf85 flags:# masks:flags.0?true emojis:flags.1?tru
 $update = $client->updateMoveStickerSetToTop(
 	masks : true,
 	emojis : true,
-	stickerset : -452869500229589239,
+	stickerset : -5010697866353201422,
 );
 ```

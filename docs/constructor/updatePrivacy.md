@@ -2,7 +2,7 @@
 
 **Description** : *Privacy rules were changed*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updatePrivacy#ee3b272a key:PrivacyKey rules:Vector<PrivacyRule> = Update;
@@ -34,18 +34,18 @@ $update = $client->updatePrivacy(
 		$client->privacyValueAllowContacts(),
 		$client->privacyValueAllowAll(),
 		$client->privacyValueAllowUsers(
-			users : array(-7323918726313556984),
+			users : array(6694646717971715471),
 		),
 		$client->privacyValueDisallowContacts(),
 		$client->privacyValueDisallowAll(),
 		$client->privacyValueDisallowUsers(
-			users : array(-1872709822791106933),
+			users : array(-4011553046402240452),
 		),
 		$client->privacyValueAllowChatParticipants(
-			chats : array(-8855948153329253742),
+			chats : array(5782558352937079965),
 		),
 		$client->privacyValueDisallowChatParticipants(
-			chats : array(8230835892403980707),
+			chats : array(-8750280024056898937),
 		),
 		$client->privacyValueAllowCloseFriends(),
 		$client->privacyValueAllowPremium(),

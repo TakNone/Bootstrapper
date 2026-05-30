@@ -1,6 +1,6 @@
 # messageMediaVideoStream
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGroupCall = MessageMedia;
@@ -30,8 +30,8 @@ messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGrou
 $messageMedia = $client->messageMediaVideoStream(
 	rtmp_stream : true,
 	call : $client->inputGroupCall(
-		id : -7294136850021146927,
-		access_hash : 1397434752929463250,
+		id : 8065058002080561171,
+		access_hash : -9113950767657998274,
 	),
 );
 ```

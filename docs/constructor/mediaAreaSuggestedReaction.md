@@ -2,7 +2,7 @@
 
 **Description** : *Represents a reaction bubble*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 mediaAreaSuggestedReaction#14455871 flags:# dark:flags.0?true flipped:flags.1?true coordinates:MediaAreaCoordinates reaction:Reaction = MediaArea;
@@ -35,12 +35,12 @@ $mediaArea = $client->mediaAreaSuggestedReaction(
 	dark : true,
 	flipped : true,
 	coordinates : $client->mediaAreaCoordinates(
-		x : -1586510.5400390625,
-		y : -617221.2421875,
-		w : 1705232.0888671875,
-		h : 1708239.9609375,
-		rotation : 1476005.8203125,
-		radius : -1951230.3720703125,
+		x : -136700.5009765625,
+		y : 2054889.908203125,
+		w : -600067.8203125,
+		h : -1922988.3125,
+		rotation : 438725.298828125,
+		radius : -941034.9365234375,
 	),
 	reaction : $client->reactionEmpty(),
 );

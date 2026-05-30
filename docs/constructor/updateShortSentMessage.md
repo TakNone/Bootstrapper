@@ -2,7 +2,7 @@
 
 **Description** : *Shortened constructor containing info on one outgoing message to a contact \(the destination chat has to be extracted from the method call that returned this object\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateShortSentMessage#9015e101 flags:# out:flags.1?true id:int pts:int pts_count:int date:int media:flags.9?MessageMedia entities:flags.7?Vector<MessageEntity> ttl_period:flags.25?int = Updates;
@@ -37,75 +37,75 @@ updateShortSentMessage#9015e101 flags:# out:flags.1?true id:int pts:int pts_coun
 ```php
 $updates = $client->updateShortSentMessage(
 	out : true,
-	id : 6,
-	pts : 20,
-	pts_count : 49,
-	date : 62,
+	id : 69,
+	pts : 85,
+	pts_count : 19,
+	date : 65,
 	media : $client->messageMediaEmpty(),
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 46,
+			length : 93,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 47,
+			length : 31,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 63,
+			length : 60,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 57,
+			length : 31,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 83,
+			length : 62,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 54,
+			length : 42,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 33,
+			length : 58,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 33,
+			length : 37,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 21,
+			length : 23,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 35,
-			language : 'qoaKhn9cLyXpMJ1j',
+			length : 24,
+			language : '8GJf53XnjVo6DxAN',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 23,
+			length : 80,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 95,
-			user_id : 9132559111849603511,
+			length : 98,
+			user_id : -8119230047609509229,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 32,
+			length : 95,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 21,
+			length : 16,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 1,
+			length : 27,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
@@ -113,27 +113,51 @@ $updates = $client->updateShortSentMessage(
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 85,
+			length : 6,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 66,
+			length : 32,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 37,
+			length : 69,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 72,
-			document_id : -2217271486258078350,
+			length : 97,
+			document_id : -4765552631428729564,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 59,
+			length : 99,
+		),
+		$client->messageEntityFormattedDate(
+			relative : true,
+			short_time : true,
+			long_time : true,
+			short_date : true,
+			long_date : true,
+			day_of_week : true,
+			offset : 0,
+			length : 22,
+			date : 55,
+		),
+		$client->messageEntityDiffInsert(
+			offset : 0,
+			length : 62,
+		),
+		$client->messageEntityDiffReplace(
+			offset : 0,
+			length : 3,
+			old_text : 'yJRcxrbM6g4iWdK5',
+		),
+		$client->messageEntityDiffDelete(
+			offset : 0,
+			length : 99,
 		),
 	),
-	ttl_period : 4,
+	ttl_period : 60,
 );
 ```

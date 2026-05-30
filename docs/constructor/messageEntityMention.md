@@ -2,7 +2,7 @@
 
 **Description** : *Message entity mentioning a user by @username; messageEntityMentionName can also be used to mention users by their ID*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageEntityMention#fa04579d offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityMention#fa04579d offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityMention(
 	offset : 0,
-	length : 35,
+	length : 46,
 );
 ```

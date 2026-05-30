@@ -2,7 +2,7 @@
 
 **Description** : *Source of an incoming Telegram Star transaction, or its recipient for outgoing Telegram Star transactions*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starsTransactionPeerUnsupported#95f2bfe4 = StarsTransactionPeer;

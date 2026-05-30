@@ -1,6 +1,6 @@
 # messageActionNewCreatorPending
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionNewCreatorPending#b07ed085 new_creator_id:long = MessageAction;
@@ -26,6 +26,6 @@ messageActionNewCreatorPending#b07ed085 new_creator_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionNewCreatorPending(
-	new_creator_id : -1920248821053866306,
+	new_creator_id : 6246054212262006113,
 );
 ```

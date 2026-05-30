@@ -2,7 +2,7 @@
 
 **Description** : *Disallow only certain users*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 privacyValueDisallowUsers#e4621141 users:Vector<long> = PrivacyRule;
@@ -28,6 +28,6 @@ privacyValueDisallowUsers#e4621141 users:Vector<long> = PrivacyRule;
 
 ```php
 $privacyRule = $client->privacyValueDisallowUsers(
-	users : array(-7721658227878379437),
+	users : array(-3209017649743217347),
 );
 ```

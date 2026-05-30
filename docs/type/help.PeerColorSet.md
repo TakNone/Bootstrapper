@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a color palette &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 help.peerColorSet#26219a58 colors:Vector<int> = help.PeerColorSet;

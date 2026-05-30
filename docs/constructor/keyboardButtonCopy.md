@@ -2,7 +2,7 @@
 
 **Description** : *Clipboard button: when clicked, the attached text must be copied to the clipboard*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 keyboardButtonCopy#bcc4af10 flags:# style:flags.10?KeyboardButtonStyle text:string copy_text:string = KeyboardButton;
@@ -35,9 +35,9 @@ $keyboardButton = $client->keyboardButtonCopy(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 2116425420451334289,
+		icon : -1770059558247291850,
 	),
-	text : 'T3axihcVlbZS0AYU',
-	copy_text : 'Gdt4sjnMk9g8a76z',
+	text : 'uULXf2S1zTrxh9Ev',
+	copy_text : 'o38HRQ7cjxMY569m',
 );
 ```

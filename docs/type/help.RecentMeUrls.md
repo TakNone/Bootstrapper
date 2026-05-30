@@ -2,7 +2,7 @@
 
 **Description** : *Recent t\.me URLs*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 help.recentMeUrls#e0310d7 urls:Vector<RecentMeUrl> chats:Vector<Chat> users:Vector<User> = help.RecentMeUrls;

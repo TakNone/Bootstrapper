@@ -2,7 +2,7 @@
 
 **Description** : *Incoming messages in a channel/supergroup were read*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateReadChannelInbox#922e6e10 flags:# folder_id:flags.0?int channel_id:long max_id:int still_unread_count:int pts:int = Update;
@@ -33,10 +33,10 @@ updateReadChannelInbox#922e6e10 flags:# folder_id:flags.0?int channel_id:long ma
 
 ```php
 $update = $client->updateReadChannelInbox(
-	folder_id : 27,
-	channel_id : -8906455538088958260,
-	max_id : 100,
-	still_unread_count : 29,
-	pts : 13,
+	folder_id : 90,
+	channel_id : 4265660673065755622,
+	max_id : 41,
+	still_unread_count : 0,
+	pts : 23,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Send paid reactions as the specified peer, fetched using channels\.getSendAs*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 paidReactionPrivacyPeer#dc6cfcf0 peer:InputPeer = PaidReactionPrivacy;

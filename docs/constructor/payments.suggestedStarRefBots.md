@@ -2,7 +2,7 @@
 
 **Description** : *A list of suggested mini apps with available affiliate programs*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.suggestedStarRefBots#b4d5d859 flags:# count:int suggested_bots:Vector<StarRefProgram> users:Vector<User> next_offset:flags.0?string = payments.SuggestedStarRefBots;
@@ -32,22 +32,22 @@ payments.suggestedStarRefBots#b4d5d859 flags:# count:int suggested_bots:Vector<S
 
 ```php
 $paymentsSuggestedStarRefBots = $client->payments->suggestedStarRefBots(
-	count : 95,
+	count : 29,
 	suggested_bots : array(
 		$client->starRefProgram(
-			bot_id : -5703151096508151480,
-			commission_permille : 31,
-			duration_months : 66,
-			end_date : 26,
+			bot_id : 5297290143178059312,
+			commission_permille : 33,
+			duration_months : 39,
+			end_date : 82,
 			daily_revenue_per_user : $client->starsAmount(
-				amount : -7371060298719791935,
-				nanos : 47,
+				amount : -3568552136834305077,
+				nanos : 96,
 			),
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -3346057280564709847,
+			id : -3635738798629214846,
 		),
 		$client->user(
 			self : true,
@@ -77,24 +77,26 @@ $paymentsSuggestedStarRefBots = $client->payments->suggestedStarRefBots(
 			bot_has_main_app : true,
 			bot_forum_view : true,
 			bot_forum_can_manage_topics : true,
-			id : -7784949376319929694,
-			access_hash : -649447699244964046,
+			bot_can_manage_bots : true,
+			bot_guestchat : true,
+			id : -692621999502357529,
+			access_hash : -8291481816980787940,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 15,
+			bot_info_version : 29,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '7JdwQqi2U94r1cPG',
-					reason : 'u12qwZWPkH3s7M58',
-					text : 'ILA95uOUWaVXni2p',
+					platform : 'l38QyqWLZrtKaI19',
+					reason : 'rmxCTn0X6eGSoQMD',
+					text : 'umMD3q2lL79IXgyW',
 				),
 			),
-			bot_inline_placeholder : 'YSgKvbdMfV28DIan',
-			lang_code : 'E8PioMrh12gFLmbC',
+			bot_inline_placeholder : 'xl9Ruk2T6YAX4OiI',
+			lang_code : '4DIjU3P2EOom6LZH',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -105,21 +107,21 @@ $paymentsSuggestedStarRefBots = $client->payments->suggestedStarRefBots(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 76,
+				max_id : 84,
 			),
 			color : $client->peerColor(
-				color : 20,
-				background_emoji_id : -5861716016818209394,
+				color : 88,
+				background_emoji_id : -7994107788196916098,
 			),
 			profile_color : $client->peerColor(
-				color : 62,
-				background_emoji_id : -20238529850190853,
+				color : 17,
+				background_emoji_id : 7909082340248475121,
 			),
-			bot_active_users : 92,
-			bot_verification_icon : 766943924089795589,
-			send_paid_messages_stars : 1822381253092245331,
+			bot_active_users : 43,
+			bot_verification_icon : -6220644021726821850,
+			send_paid_messages_stars : -1448204769429128081,
 		),
 	),
-	next_offset : 'ZuYtEsPWHgnbGIOF',
+	next_offset : 'T1tb42PmO7LnjweD',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Events affected by operation*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.affectedMessages#84d19185 pts:int pts_count:int = messages.AffectedMessages;
@@ -29,7 +29,7 @@ messages.affectedMessages#84d19185 pts:int pts_count:int = messages.AffectedMess
 
 ```php
 $messagesAffectedMessages = $client->messages->affectedMessages(
-	pts : 71,
-	pts_count : 41,
+	pts : 79,
+	pts_count : 88,
 );
 ```

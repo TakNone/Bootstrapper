@@ -2,7 +2,7 @@
 
 **Description** : *DEPRECATED legacy photo file location*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputPhotoLegacyFileLocation#d83466f3 id:long access_hash:long file_reference:bytes volume_id:long local_id:int secret:long = InputFileLocation;
@@ -33,11 +33,11 @@ inputPhotoLegacyFileLocation#d83466f3 id:long access_hash:long file_reference:by
 
 ```php
 $inputFileLocation = $client->inputPhotoLegacyFileLocation(
-	id : 348331584757861937,
-	access_hash : -3689401257027998957,
+	id : -7537286097667461217,
+	access_hash : -5675306908791090258,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	volume_id : -3720301994184042807,
-	local_id : 46,
-	secret : -5705272960756294809,
+	volume_id : -1159298756254405640,
+	local_id : 44,
+	secret : 936374689046292008,
 );
 ```

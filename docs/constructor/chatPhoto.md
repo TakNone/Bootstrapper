@@ -2,7 +2,7 @@
 
 **Description** : *Group profile photo*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 chatPhoto#1c6e1c11 flags:# has_video:flags.0?true photo_id:long stripped_thumb:flags.1?bytes dc_id:int = ChatPhoto;
@@ -33,8 +33,8 @@ chatPhoto#1c6e1c11 flags:# has_video:flags.0?true photo_id:long stripped_thumb:f
 ```php
 $chatPhoto = $client->chatPhoto(
 	has_video : true,
-	photo_id : -7929687009670878288,
+	photo_id : -284832716632885199,
 	stripped_thumb : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	dc_id : 66,
+	dc_id : 85,
 );
 ```

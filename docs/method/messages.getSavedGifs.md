@@ -2,7 +2,7 @@
 
 **Description** : *Get saved GIFs*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getSavedGifs#5cf09635 hash:long = messages.SavedGifs;

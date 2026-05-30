@@ -3504,3 +3504,63 @@
 ##### KeyboardButtonStyle
 
 :link: [*NOTHING*](type/KeyboardButtonStyle)
+
+---
+
+##### InputMessageReadMetric
+
+:link: [*NOTHING*](type/InputMessageReadMetric)
+
+---
+
+##### bots ExportedBotToken
+
+:link: [*NOTHING*](type/bots.ExportedBotToken)
+
+---
+
+##### bots RequestedButton
+
+:link: [*NOTHING*](type/bots.RequestedButton)
+
+---
+
+##### messages ComposedMessageWithAI
+
+:link: [*NOTHING*](type/messages.ComposedMessageWithAI)
+
+---
+
+##### stats PollStats
+
+:link: [*NOTHING*](type/stats.PollStats)
+
+---
+
+##### InputAiComposeTone
+
+:link: [*NOTHING*](type/InputAiComposeTone)
+
+---
+
+##### AiComposeTone
+
+:link: [*NOTHING*](type/AiComposeTone)
+
+---
+
+##### aicompose Tones
+
+:link: [*NOTHING*](type/aicompose.Tones)
+
+---
+
+##### AiComposeToneExample
+
+:link: [*NOTHING*](type/AiComposeToneExample)
+
+---
+
+##### bots AccessSettings
+
+:link: [*NOTHING*](type/bots.AccessSettings)

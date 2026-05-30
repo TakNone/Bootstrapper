@@ -2,7 +2,7 @@
 
 **Description** : *Chunk of a livestream*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputGroupCallStream#598a92a flags:# call:InputGroupCall time_ms:long scale:int video_channel:flags.0?int video_quality:flags.0?int = InputFileLocation;
@@ -34,12 +34,12 @@ inputGroupCallStream#598a92a flags:# call:InputGroupCall time_ms:long scale:int 
 ```php
 $inputFileLocation = $client->inputGroupCallStream(
 	call : $client->inputGroupCall(
-		id : -6835411255860261246,
-		access_hash : 8819556165541456712,
+		id : -8948984616816458889,
+		access_hash : -4823463248876383618,
 	),
-	time_ms : 6703067062132999237,
-	scale : 30,
-	video_channel : 46,
-	video_quality : 75,
+	time_ms : 1313309508232682324,
+	scale : 39,
+	video_channel : 77,
+	video_quality : 58,
 );
 ```

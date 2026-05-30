@@ -2,7 +2,7 @@
 
 **Description** : *Localized name for telegram support*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 help.supportName#8c05f1c9 name:string = help.SupportName;
@@ -28,6 +28,6 @@ help.supportName#8c05f1c9 name:string = help.SupportName;
 
 ```php
 $helpSupportName = $client->help->supportName(
-	name : 'ayBgbPQks8dXD5lT',
+	name : 'ibkyR31IApKvBQ7W',
 );
 ```

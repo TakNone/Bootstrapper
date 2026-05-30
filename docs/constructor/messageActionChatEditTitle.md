@@ -2,7 +2,7 @@
 
 **Description** : *Group name changed*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messageActionChatEditTitle#b5a1ce5a title:string = MessageAction;
@@ -28,6 +28,6 @@ messageActionChatEditTitle#b5a1ce5a title:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatEditTitle(
-	title : 'drLh94go5WP8IwCV',
+	title : 'wnVeIvEsMC9Zhdaf',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Item in block list*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 pageListItemText#b92fb6cd text:RichText = PageListItem;

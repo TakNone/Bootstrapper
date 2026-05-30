@@ -2,7 +2,7 @@
 
 **Description** : *Accept QR code login token, logging in the app that generated it*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.acceptLoginToken#e894ad4d token:bytes = Authorization;

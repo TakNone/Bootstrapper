@@ -2,7 +2,7 @@
 
 **Description** : *A participant has left, joined, was banned or admined in a channel or supergroup*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:long date:int actor_id:long user_id:long prev_participant:flags.0?ChannelParticipant new_participant:flags.1?ChannelParticipant invite:flags.2?ExportedChatInvite qts:int = Update;
@@ -38,39 +38,41 @@ updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:l
 ```php
 $update = $client->updateChannelParticipant(
 	via_chatlist : true,
-	channel_id : -6106768046707152063,
-	date : 15,
-	actor_id : 1672671777802622584,
-	user_id : 42327301440723466,
+	channel_id : 3761939208707265064,
+	date : 89,
+	actor_id : 4435743234727178766,
+	user_id : 804401620767441608,
 	prev_participant : $client->channelParticipant(
-		user_id : -2504764621565556598,
-		date : 92,
-		subscription_until_date : 53,
+		user_id : -4183968817695571013,
+		date : 93,
+		subscription_until_date : 8,
+		rank : 'Re5G3vTjWZaY2gUh',
 	),
 	new_participant : $client->channelParticipant(
-		user_id : 5960355144362243186,
-		date : 4,
-		subscription_until_date : 71,
+		user_id : 3060154940670890483,
+		date : 46,
+		subscription_until_date : 74,
+		rank : 'hu0AnKyTYzwcvZ8I',
 	),
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : '6PiHumzWe5d1QsMq',
-		admin_id : -5466104948807965150,
-		date : 3,
-		start_date : 34,
-		expire_date : 48,
-		usage_limit : 55,
-		usage : 97,
-		requested : 7,
-		subscription_expired : 60,
-		title : 'Vm0QqS59zYFRxfGo',
+		link : 'aGPpLKrOXu3sYyN6',
+		admin_id : 4840708428209313489,
+		date : 91,
+		start_date : 5,
+		expire_date : 97,
+		usage_limit : 28,
+		usage : 3,
+		requested : 77,
+		subscription_expired : 71,
+		title : 'oWqmAGgbOzCRQ64a',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 63,
-			amount : 4637433633536559155,
+			period : 7,
+			amount : 378281159675745091,
 		),
 	),
-	qts : 98,
+	qts : 61,
 );
 ```

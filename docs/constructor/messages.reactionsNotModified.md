@@ -2,7 +2,7 @@
 
 **Description** : *The server\-side list of message reactions hasn&#039;t changed*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.reactionsNotModified#b06fdbdf = messages.Reactions;

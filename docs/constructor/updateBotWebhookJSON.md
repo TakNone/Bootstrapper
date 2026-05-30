@@ -2,7 +2,7 @@
 
 **Description** : *A new incoming event; for bots only*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateBotWebhookJSON#8317c0c3 data:DataJSON = Update;
@@ -29,7 +29,7 @@ updateBotWebhookJSON#8317c0c3 data:DataJSON = Update;
 ```php
 $update = $client->updateBotWebhookJSON(
 	data : $client->dataJSON(
-		data : 'fVn3MpuljEtc2G1a',
+		data : 'VoypDiNs89QcfHkJ',
 	),
 );
 ```

@@ -1,6 +1,6 @@
 # phone.deleteGroupCallMessages
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.deleteGroupCallMessages#f64f54f7 flags:# report_spam:flags.0?true call:InputGroupCall messages:Vector<int> = Updates;
@@ -31,9 +31,9 @@ phone.deleteGroupCallMessages#f64f54f7 flags:# report_spam:flags.0?true call:Inp
 $updates = $client->phone->deleteGroupCallMessages(
 	report_spam : true,
 	call : $client->inputGroupCall(
-		id : -5204138418264514005,
-		access_hash : 8485821038061584727,
+		id : 2882793476769759330,
+		access_hash : -7271725892850739543,
 	),
-	messages : array(33),
+	messages : array(93),
 );
 ```

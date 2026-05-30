@@ -2,7 +2,7 @@
 
 **Description** : *Full list of blocked users*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 contacts.blocked#ade1591 blocked:Vector<PeerBlocked> chats:Vector<Chat> users:Vector<User> = contacts.Blocked;
@@ -33,14 +33,14 @@ $contactsBlocked = $client->contacts->blocked(
 	blocked : array(
 		$client->peerBlocked(
 			peer_id : $client->peerUser(
-				user_id : -778605310378680511,
+				user_id : -3355952979505592026,
 			),
-			date : 73,
+			date : 14,
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 5723096651529649464,
+			id : 9025020853087385541,
 		),
 		$client->chat(
 			creator : true,
@@ -49,12 +49,12 @@ $contactsBlocked = $client->contacts->blocked(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 8612608990641966356,
-			title : 'UFrW8NKIn7JhPARH',
+			id : 6734715470075465421,
+			title : 'mzfHDsU3Tr4GExKp',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 99,
-			date : 90,
-			version : 58,
+			participants_count : 37,
+			date : 60,
+			version : 33,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -73,6 +73,7 @@ $contactsBlocked = $client->contacts->blocked(
 				edit_stories : true,
 				delete_stories : true,
 				manage_direct_messages : true,
+				manage_ranks : true,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -95,12 +96,14 @@ $contactsBlocked = $client->contacts->blocked(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 66,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 30,
 			),
 		),
 		$client->chatForbidden(
-			id : 2937069353080111032,
-			title : 'cHVs6NJgC1UlMnKj',
+			id : 5610795555243604038,
+			title : 'BrCIswcGEP1HiYXJ',
 		),
 		$client->channel(
 			creator : true,
@@ -131,17 +134,17 @@ $contactsBlocked = $client->contacts->blocked(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -5328611147545902154,
-			access_hash : 7846892779623882325,
-			title : 's5FA4pj136ZaTHfS',
+			id : -253986289764085020,
+			access_hash : -587087077143376769,
+			title : 'bBmR367uZ9wygDq5',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 0,
+			date : 99,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '9fWLYA5P0OMJm6hw',
-					reason : 'yLzB5q0G2Q1PJ9SR',
-					text : 'Hq0SrKJoI8dt3z1D',
+					platform : 'QmijPw8goGnu3Vfa',
+					reason : 'AJo6rFkIbvSCzP8O',
+					text : '9SVC7HTmuO5GLkFJ',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -161,6 +164,7 @@ $contactsBlocked = $client->contacts->blocked(
 				edit_stories : true,
 				delete_stories : true,
 				manage_direct_messages : true,
+				manage_ranks : true,
 			),
 			banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -183,7 +187,9 @@ $contactsBlocked = $client->contacts->blocked(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 94,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 37,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -206,9 +212,11 @@ $contactsBlocked = $client->contacts->blocked(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 88,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 41,
 			),
-			participants_count : 89,
+			participants_count : 92,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -218,36 +226,36 @@ $contactsBlocked = $client->contacts->blocked(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 83,
+				max_id : 48,
 			),
 			color : $client->peerColor(
-				color : 100,
-				background_emoji_id : -3115334032659277822,
+				color : 27,
+				background_emoji_id : 2508459467221346702,
 			),
 			profile_color : $client->peerColor(
-				color : 12,
-				background_emoji_id : -8217023825736908384,
+				color : 43,
+				background_emoji_id : -3028041212837865395,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 11,
-			subscription_until_date : 47,
-			bot_verification_icon : -4905832632480263890,
-			send_paid_messages_stars : -1007197963492626560,
-			linked_monoforum_id : 694512033817550562,
+			level : 37,
+			subscription_until_date : 39,
+			bot_verification_icon : 5191107203393869043,
+			send_paid_messages_stars : 3328847590667931293,
+			linked_monoforum_id : -4784745428674823519,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
 			monoforum : true,
-			id : -5427659339819687953,
-			access_hash : 4648809422166281035,
-			title : 'YFEjV3QGJ0vK8UHo',
-			until_date : 87,
+			id : -4815459313162768565,
+			access_hash : -3003095799003894280,
+			title : 'mx3GMrdwjJ7fD1Yc',
+			until_date : 80,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 6664180724584607002,
+			id : 3446722116156316476,
 		),
 		$client->user(
 			self : true,
@@ -277,24 +285,26 @@ $contactsBlocked = $client->contacts->blocked(
 			bot_has_main_app : true,
 			bot_forum_view : true,
 			bot_forum_can_manage_topics : true,
-			id : -8066195212472496151,
-			access_hash : -7585555337193825475,
+			bot_can_manage_bots : true,
+			bot_guestchat : true,
+			id : 9114181161160758725,
+			access_hash : -3042608422985441685,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 83,
+			bot_info_version : 71,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'Qf2tIpiP09Z8avqL',
-					reason : 'jnq8fBQVyvx649u0',
-					text : 'vazEMe0yPX321Fnw',
+					platform : 'ZCjMEJQsGWVqe5P0',
+					reason : 'iBO2QmSGultgH1h5',
+					text : 'ryCPv1cb7gsi4MOz',
 				),
 			),
-			bot_inline_placeholder : '6zc9fBhVX7OKiL1s',
-			lang_code : 'Lnj3XlReh5YHazPg',
+			bot_inline_placeholder : 'ZkVhaPfHMIKY0Ati',
+			lang_code : 'PXcJz87YIsuAx9me',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -305,19 +315,19 @@ $contactsBlocked = $client->contacts->blocked(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 71,
+				max_id : 40,
 			),
 			color : $client->peerColor(
-				color : 72,
-				background_emoji_id : -5456106590470458557,
+				color : 91,
+				background_emoji_id : -8528173975914332916,
 			),
 			profile_color : $client->peerColor(
-				color : 0,
-				background_emoji_id : -4261950533367649179,
+				color : 33,
+				background_emoji_id : 1421563601606857163,
 			),
-			bot_active_users : 88,
-			bot_verification_icon : 680033196737318079,
-			send_paid_messages_stars : -2749661030223434956,
+			bot_active_users : 53,
+			bot_verification_icon : -2604190777797714046,
+			send_paid_messages_stars : 7448565966679722245,
 		),
 	),
 );

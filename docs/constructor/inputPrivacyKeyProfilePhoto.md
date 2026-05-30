@@ -2,7 +2,7 @@
 
 **Description** : *Whether people will be able to see your profile picture*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputPrivacyKeyProfilePhoto#5719bacc = InputPrivacyKey;

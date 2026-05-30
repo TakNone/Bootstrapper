@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputStickerSetEmpty#ffb62b95 = InputStickerSet;

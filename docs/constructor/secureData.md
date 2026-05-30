@@ -2,7 +2,7 @@
 
 **Description** : *Secure passport data, for more info see the passport docs &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 secureData#8aeabec3 data:bytes data_hash:bytes secret:bytes = SecureData;

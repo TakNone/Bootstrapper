@@ -2,7 +2,7 @@
 
 **Description** : *Shipping options*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 shippingOption#b6213cdf id:string title:string prices:Vector<LabeledPrice> = ShippingOption;

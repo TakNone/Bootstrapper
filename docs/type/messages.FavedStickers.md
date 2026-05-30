@@ -2,7 +2,7 @@
 
 **Description** : *Favorited stickers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.favedStickersNotModified#9e8fa6d3 = messages.FavedStickers;

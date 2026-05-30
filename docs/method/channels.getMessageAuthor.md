@@ -2,7 +2,7 @@
 
 **Description** : *Can only be invoked by non\-bot admins of a monoforum &raquo;, obtains the original sender of a message sent by other monoforum admins to the monoforum, on behalf of the channel associated to the monoforum*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.getMessageAuthor#ece2a0e6 channel:InputChannel id:int = User;
@@ -38,6 +38,6 @@ channels.getMessageAuthor#ece2a0e6 channel:InputChannel id:int = User;
 ```php
 $user = $client->channels->getMessageAuthor(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	id : 62,
+	id : 70,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Emoji language*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 emojiLanguage#b3fb5361 lang_code:string = EmojiLanguage;
@@ -28,6 +28,6 @@ emojiLanguage#b3fb5361 lang_code:string = EmojiLanguage;
 
 ```php
 $emojiLanguage = $client->emojiLanguage(
-	lang_code : 'Lsa7XJNb84QcKMqR',
+	lang_code : '139O7bldYyfDwXur',
 );
 ```

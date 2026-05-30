@@ -1,6 +1,6 @@
 # StarGiftAttributeRarity
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starGiftAttributeRarity#36437737 permille:int = StarGiftAttributeRarity;

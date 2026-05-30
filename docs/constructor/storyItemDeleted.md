@@ -2,7 +2,7 @@
 
 **Description** : *Represents a previously active story, that was deleted*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 storyItemDeleted#51e6ee4f id:int = StoryItem;
@@ -28,6 +28,6 @@ storyItemDeleted#51e6ee4f id:int = StoryItem;
 
 ```php
 $storyItem = $client->storyItemDeleted(
-	id : 41,
+	id : 30,
 );
 ```

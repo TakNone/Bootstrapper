@@ -2,7 +2,7 @@
 
 **Description** : *Add GIF to saved gifs list*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.saveGif#327a30cb id:InputDocument unsave:Bool = Bool;
@@ -38,6 +38,6 @@ messages.saveGif#327a30cb id:InputDocument unsave:Bool = Bool;
 ```php
 $bool = $client->messages->saveGif(
 	id : $client->inputDocumentEmpty(),
-	unsave : true,
+	unsave : false,
 );
 ```

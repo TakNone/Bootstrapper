@@ -2,7 +2,7 @@
 
 **Description** : *Info about a chat, shared by a user with the currently logged in bot using messages\.sendBotRequestedPeer*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 requestedPeerChat#7307544f flags:# chat_id:long title:flags.0?string photo:flags.2?Photo = RequestedPeer;
@@ -31,10 +31,10 @@ requestedPeerChat#7307544f flags:# chat_id:long title:flags.0?string photo:flags
 
 ```php
 $requestedPeer = $client->requestedPeerChat(
-	chat_id : 886840103370814134,
-	title : 'nHjakeW51t0xzpBy',
+	chat_id : 8547588937739828290,
+	title : '1Cu6jK5lOrHyEsaD',
 	photo : $client->photoEmpty(
-		id : -4536019711901743017,
+		id : -2581896607934876902,
 	),
 );
 ```

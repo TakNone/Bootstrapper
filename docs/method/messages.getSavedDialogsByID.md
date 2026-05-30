@@ -2,7 +2,7 @@
 
 **Description** : *Obtain information about specific saved message dialogs &raquo; or monoforum topics &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getSavedDialogsByID#6f6f9c96 flags:# parent_peer:flags.1?InputPeer ids:Vector<InputPeer> = messages.SavedDialogs;

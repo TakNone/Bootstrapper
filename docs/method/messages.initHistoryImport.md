@@ -2,7 +2,7 @@
 
 **Description** : *Import chat history from a foreign chat app into a specific Telegram chat, click here for more info about imported chats &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.initHistoryImport#34090c3b peer:InputPeer file:InputFile media_count:int = messages.HistoryImport;
@@ -45,6 +45,6 @@ messages.initHistoryImport#34090c3b peer:InputPeer file:InputFile media_count:in
 $messagesHistoryImport = $client->messages->initHistoryImport(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	file : $client->upload_file(path : 'file.png'),
-	media_count : 58,
+	media_count : 84,
 );
 ```

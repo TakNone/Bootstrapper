@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a color palette &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 help.peerColorOption#adec6ebe flags:# hidden:flags.0?true color_id:int colors:flags.1?help.PeerColorSet dark_colors:flags.2?help.PeerColorSet channel_min_level:flags.3?int group_min_level:flags.4?int = help.PeerColorOption;
@@ -35,14 +35,14 @@ help.peerColorOption#adec6ebe flags:# hidden:flags.0?true color_id:int colors:fl
 ```php
 $helpPeerColorOption = $client->help->peerColorOption(
 	hidden : true,
-	color_id : 35,
+	color_id : 49,
 	colors : $client->help->peerColorSet(
-		colors : array(8),
+		colors : array(58),
 	),
 	dark_colors : $client->help->peerColorSet(
-		colors : array(37),
+		colors : array(8),
 	),
-	channel_min_level : 98,
-	group_min_level : 95,
+	channel_min_level : 73,
+	group_min_level : 73,
 );
 ```

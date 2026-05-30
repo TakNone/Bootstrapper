@@ -2,7 +2,7 @@
 
 **Description** : *Before offering the user the choice to add a message to a quick reply shortcut, to make sure that none of the limits specified here &raquo; were reached*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.checkQuickReplyShortcut#f1d0fbd3 shortcut:string = Bool;
@@ -36,6 +36,6 @@ messages.checkQuickReplyShortcut#f1d0fbd3 shortcut:string = Bool;
 
 ```php
 $bool = $client->messages->checkQuickReplyShortcut(
-	shortcut : '4N2bjVl6XFwJaD3I',
+	shortcut : 'bGWJHnF5VastK3U4',
 );
 ```

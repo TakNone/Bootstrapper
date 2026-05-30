@@ -2,7 +2,7 @@
 
 **Description** : *Bot or inline keyboard rows*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 keyboardButtonRow#77608b83 buttons:Vector<KeyboardButton> = KeyboardButtonRow;

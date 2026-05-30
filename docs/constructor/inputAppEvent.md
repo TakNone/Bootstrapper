@@ -2,7 +2,7 @@
 
 **Description** : *Event that occurred in the application*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputAppEvent#1d1b1245 time:double type:string peer:long data:JSONValue = InputAppEvent;
@@ -31,9 +31,9 @@ inputAppEvent#1d1b1245 time:double type:string peer:long data:JSONValue = InputA
 
 ```php
 $inputAppEvent = $client->inputAppEvent(
-	time : 14566.080078125,
-	type : '2ygjl3xWFYv8CbfZ',
-	peer : -5047300472459142495,
+	time : 1613053.6923828125,
+	type : '9wNMKQr7bOZGHlW5',
+	peer : -2182912235162328118,
 	data : $client->jsonNull(),
 );
 ```

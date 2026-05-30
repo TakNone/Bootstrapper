@@ -2,7 +2,7 @@
 
 **Description** : *Pinned message*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputMessagePinned#86872538 = InputMessage;

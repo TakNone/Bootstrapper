@@ -2,7 +2,7 @@
 
 **Description** : *The 2FA password was reset successfully*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.resetPasswordOk#e926d63e = account.ResetPasswordResult;

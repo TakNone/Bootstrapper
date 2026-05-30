@@ -2,7 +2,7 @@
 
 **Description** : *The user successfully authorized using future auth tokens*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.sentCodeSuccess#2390fe44 authorization:auth.Authorization = auth.SentCode;
@@ -30,11 +30,11 @@ auth.sentCodeSuccess#2390fe44 authorization:auth.Authorization = auth.SentCode;
 $authSentCode = $client->auth->sentCodeSuccess(
 	authorization : $client->auth->authorization(
 		setup_password_required : true,
-		otherwise_relogin_days : 23,
-		tmp_sessions : 57,
+		otherwise_relogin_days : 2,
+		tmp_sessions : 44,
 		future_auth_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		user : $client->userEmpty(
-			id : -3485053696908369880,
+			id : 557916974408355942,
 		),
 	),
 );

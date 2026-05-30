@@ -2,7 +2,7 @@
 
 **Description** : *Photo with auxiliary data*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 photos.photo#20212ca8 photo:Photo users:Vector<User> = photos.Photo;
@@ -30,11 +30,11 @@ photos.photo#20212ca8 photo:Photo users:Vector<User> = photos.Photo;
 ```php
 $photosPhoto = $client->photos->photo(
 	photo : $client->photoEmpty(
-		id : 2242891815707150575,
+		id : -429146655767853587,
 	),
 	users : array(
 		$client->userEmpty(
-			id : -5608718590162871318,
+			id : -2581747079393319650,
 		),
 		$client->user(
 			self : true,
@@ -64,24 +64,26 @@ $photosPhoto = $client->photos->photo(
 			bot_has_main_app : true,
 			bot_forum_view : true,
 			bot_forum_can_manage_topics : true,
-			id : 4338721436588982696,
-			access_hash : 685658105452767174,
+			bot_can_manage_bots : true,
+			bot_guestchat : true,
+			id : -8428596985731675528,
+			access_hash : -1892082319357147982,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 91,
+			bot_info_version : 60,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'hTapVg1RQNwsMAjf',
-					reason : '4Ugw01QByhjxIJ56',
-					text : 'qi5aOvR2KNTGdLX9',
+					platform : '2C1gv90brIcsDwSK',
+					reason : 'PsM8vcJpEr4nBWLN',
+					text : '4zgnoX6WutGDfZ2e',
 				),
 			),
-			bot_inline_placeholder : 'xwZ4FGrYROJkjEVh',
-			lang_code : 'cB3AI6f1XhpCniOj',
+			bot_inline_placeholder : 'UusQn7PR9jDkpc4w',
+			lang_code : 'ogBvt7ks4FZMbumK',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -92,19 +94,19 @@ $photosPhoto = $client->photos->photo(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 80,
+				max_id : 93,
 			),
 			color : $client->peerColor(
-				color : 26,
-				background_emoji_id : 4388661029969051140,
+				color : 95,
+				background_emoji_id : 6716613397791476203,
 			),
 			profile_color : $client->peerColor(
-				color : 29,
-				background_emoji_id : -8208549482878553980,
+				color : 70,
+				background_emoji_id : -545136105602754052,
 			),
-			bot_active_users : 18,
-			bot_verification_icon : 6505617201986804618,
-			send_paid_messages_stars : 821643104004238117,
+			bot_active_users : 98,
+			bot_verification_icon : -3536902849649777232,
+			send_paid_messages_stars : -8174488321428082743,
 		),
 	),
 );

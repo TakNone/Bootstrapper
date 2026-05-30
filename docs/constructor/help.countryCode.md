@@ -2,7 +2,7 @@
 
 **Description** : *Country code and phone number pattern of a specific country*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 help.countryCode#4203c5ef flags:# country_code:string prefixes:flags.0?Vector<string> patterns:flags.1?Vector<string> = help.CountryCode;
@@ -31,8 +31,8 @@ help.countryCode#4203c5ef flags:# country_code:string prefixes:flags.0?Vector<st
 
 ```php
 $helpCountryCode = $client->help->countryCode(
-	country_code : 'nFEuLqhDI64Ox5Tb',
-	prefixes : array('jJ2xwPWtVfa1Cl3X'),
-	patterns : array('Qfm6JokVvNg7lZAc'),
+	country_code : 'HNVGpqe4tRyPzUXb',
+	prefixes : array('J2cxUdEFqPjM3eA7'),
+	patterns : array('pW97Lyh5d6IeXiw8'),
 );
 ```

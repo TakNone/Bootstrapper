@@ -2,7 +2,7 @@
 
 **Description** : *Creates an encrypted chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;
@@ -29,7 +29,7 @@ inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;
 
 ```php
 $inputEncryptedChat = $client->inputEncryptedChat(
-	chat_id : 91,
-	access_hash : 5968426212394329316,
+	chat_id : 9,
+	access_hash : -8167254461821166981,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Outgoing messages in a monoforum were read*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateReadMonoForumOutbox#a4a79376 channel_id:long saved_peer_id:Peer read_max_id:int = Update;
@@ -30,10 +30,10 @@ updateReadMonoForumOutbox#a4a79376 channel_id:long saved_peer_id:Peer read_max_i
 
 ```php
 $update = $client->updateReadMonoForumOutbox(
-	channel_id : 234901535854731827,
+	channel_id : 3442595069737586281,
 	saved_peer_id : $client->peerUser(
-		user_id : 3119696579115629211,
+		user_id : 2546356959735704402,
 	),
-	read_max_id : 38,
+	read_max_id : 34,
 );
 ```

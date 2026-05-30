@@ -2,7 +2,7 @@
 
 **Description** : *Represents an attachment menu icon for bot mini apps &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 attachMenuBotIcon#b2a7386b flags:# name:string icon:Document colors:flags.0?Vector<AttachMenuBotIconColor> = AttachMenuBotIcon;
@@ -31,14 +31,14 @@ attachMenuBotIcon#b2a7386b flags:# name:string icon:Document colors:flags.0?Vect
 
 ```php
 $attachMenuBotIcon = $client->attachMenuBotIcon(
-	name : '7zBbwiW6M08cq3kI',
+	name : 'aRv2Zk6dIcAf1WUM',
 	icon : $client->documentEmpty(
-		id : -8650638943086870026,
+		id : 1045739662498189968,
 	),
 	colors : array(
 		$client->attachMenuBotIconColor(
-			name : '4nUSZ9mgLFbckOtG',
-			color : 41,
+			name : 'jwM0nNKzeVTqgkLZ',
+			color : 32,
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Get faved stickers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getFavedStickers#4f1aaa9 hash:long = messages.FavedStickers;

@@ -2,7 +2,7 @@
 
 **Description** : *Start a telegram phone call*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_id:int g_a_hash:bytes protocol:PhoneCallProtocol = phone.PhoneCall;
@@ -49,14 +49,14 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 $phonePhoneCall = $client->phone->requestCall(
 	video : true,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	random_id : 58,
+	random_id : 69,
 	g_a_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 84,
-		max_layer : 32,
-		library_versions : array('YbhPBoirlMtKvgc0'),
+		min_layer : 21,
+		max_layer : 89,
+		library_versions : array('htnzcJEdrVWKb05y'),
 	),
 );
 ```

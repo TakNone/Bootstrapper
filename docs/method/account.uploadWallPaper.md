@@ -2,7 +2,7 @@
 
 **Description** : *Create and upload a new wallpaper*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.uploadWallPaper#e39a8f03 flags:# for_chat:flags.0?true file:InputFile mime_type:string settings:WallPaperSettings = WallPaper;
@@ -43,17 +43,17 @@ account.uploadWallPaper#e39a8f03 flags:# for_chat:flags.0?true file:InputFile mi
 $wallPaper = $client->account->uploadWallPaper(
 	for_chat : true,
 	file : $client->upload_file(path : 'file.png'),
-	mime_type : 'VX7p6A409nsSGTxd',
+	mime_type : 'yjLV68Id5eFobQz1',
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 16,
-		second_background_color : 26,
-		third_background_color : 7,
-		fourth_background_color : 45,
-		intensity : 51,
-		rotation : 59,
-		emoticon : 'xUcbr6h8oIwOT3E7',
+		background_color : 0,
+		second_background_color : 36,
+		third_background_color : 55,
+		fourth_background_color : 92,
+		intensity : 22,
+		rotation : 82,
+		emoticon : 'yXnvk709iHJ4pSBD',
 	),
 );
 ```

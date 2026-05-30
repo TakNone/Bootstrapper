@@ -2,7 +2,7 @@
 
 **Description** : *Information about a message in a specific position*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 searchResultPosition#7f648b67 msg_id:int date:int offset:int = SearchResultsPosition;

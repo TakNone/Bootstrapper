@@ -2,7 +2,7 @@
 
 **Description** : *Get poll results for non\-anonymous polls*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getPollVotes#b86e380e flags:# peer:InputPeer id:int option:flags.0?bytes offset:flags.1?string limit:int = messages.VotesList;
@@ -44,9 +44,9 @@ messages.getPollVotes#b86e380e flags:# peer:InputPeer id:int option:flags.0?byte
 ```php
 $messagesVotesList = $client->messages->getPollVotes(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 34,
+	id : 85,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	offset : 'aE5HG9KWofqSdjBk',
-	limit : 70,
+	offset : 'Jf6rDc8oCtA4P921',
+	limit : 9,
 );
 ```

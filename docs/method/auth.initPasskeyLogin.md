@@ -1,6 +1,6 @@
 # auth.initPasskeyLogin
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 auth.initPasskeyLogin#518ad0b7 api_id:int api_hash:string = auth.PasskeyLoginOptions;
@@ -27,7 +27,7 @@ auth.initPasskeyLogin#518ad0b7 api_id:int api_hash:string = auth.PasskeyLoginOpt
 
 ```php
 $authPasskeyLoginOptions = $client->auth->initPasskeyLogin(
-	api_id : 9,
-	api_hash : 'RZ1nYLa4hXblKyDv',
+	api_id : 78,
+	api_hash : 'XxI2mK9sUf8ilHNr',
 );
 ```

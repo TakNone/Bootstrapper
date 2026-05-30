@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Star transaction made using @PremiumBot \(i\.e\. using the inputInvoiceStars flow described here &raquo;\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 starsTransactionPeerPremiumBot#250dbaf8 = StarsTransactionPeer;

@@ -2,7 +2,7 @@
 
 **Description** : *Channel admin log event*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channelAdminLogEventActionChangeTitle#e6dfb825 prev_value:string new_value:string = ChannelAdminLogEventAction;
@@ -56,6 +56,7 @@ channelAdminLogEventActionChangeEmojiStickerSet#46d840ab prev_stickerset:InputSt
 channelAdminLogEventActionToggleSignatureProfiles#60a79c79 new_value:Bool = ChannelAdminLogEventAction;
 channelAdminLogEventActionParticipantSubExtend#64642db3 prev_participant:ChannelParticipant new_participant:ChannelParticipant = ChannelAdminLogEventAction;
 channelAdminLogEventActionToggleAutotranslation#c517f77e new_value:Bool = ChannelAdminLogEventAction;
+channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:string new_rank:string = ChannelAdminLogEventAction;
 ```
 
 ---
@@ -115,3 +116,4 @@ channelAdminLogEventActionToggleAutotranslation#c517f77e new_value:Bool = Channe
 | [**channelAdminLogEventActionToggleSignatureProfiles**](constructor/channelAdminLogEventActionToggleSignatureProfiles) | Channel signature profiles were enabled/disabled |
 | [**channelAdminLogEventActionParticipantSubExtend**](constructor/channelAdminLogEventActionParticipantSubExtend) | A paid subscriber has extended their Telegram Star subscription » |
 | [**channelAdminLogEventActionToggleAutotranslation**](constructor/channelAdminLogEventActionToggleAutotranslation) | Channel autotranslation was toggled » |
+| [**channelAdminLogEventActionParticipantEditRank**](constructor/channelAdminLogEventActionParticipantEditRank) | NOTHING |

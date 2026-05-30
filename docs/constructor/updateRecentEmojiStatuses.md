@@ -2,7 +2,7 @@
 
 **Description** : *The list of recent emoji statuses has changed*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateRecentEmojiStatuses#30f443db = Update;

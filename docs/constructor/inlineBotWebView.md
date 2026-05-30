@@ -2,7 +2,7 @@
 
 **Description** : *Specifies an inline mode mini app button, shown on top of the inline query results list*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inlineBotWebView#b57295d5 text:string url:string = InlineBotWebView;
@@ -29,7 +29,7 @@ inlineBotWebView#b57295d5 text:string url:string = InlineBotWebView;
 
 ```php
 $inlineBotWebView = $client->inlineBotWebView(
-	text : 'RyfdJWO8eCZKNTU2',
+	text : 'oawSjsuAxFG7kb3f',
 	url : 'https://docs.liveproto.dev',
 );
 ```

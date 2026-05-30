@@ -2,7 +2,7 @@
 
 **Description** : *Whether people will be able to see our exact last online timestamp*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputPrivacyKeyStatusTimestamp#4f96cb18 = InputPrivacyKey;

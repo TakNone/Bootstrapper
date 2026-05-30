@@ -2,7 +2,7 @@
 
 **Description** : *Object defines the set of users and/or groups that generate notifications*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 notifyPeer#9fd40bd8 peer:Peer = NotifyPeer;

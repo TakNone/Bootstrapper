@@ -2,7 +2,7 @@
 
 **Description** : *Receipt for payment made using Telegram Stars*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.paymentReceiptStars#dabbf83a flags:# date:int bot_id:long title:string description:string photo:flags.2?WebDocument invoice:Invoice currency:string total_amount:long transaction_id:string users:Vector<User> = payments.PaymentReceipt;
@@ -38,58 +38,58 @@ payments.paymentReceiptStars#dabbf83a flags:# date:int bot_id:long title:string 
 
 ```php
 $paymentsPaymentReceipt = $client->payments->paymentReceiptStars(
-	date : 71,
-	bot_id : -3270977286228806367,
-	title : 'jt18BaxUb7qwi4zW',
-	description : '6FUwAmOYq1MDHTaW',
+	date : 15,
+	bot_id : -130522737883854362,
+	title : 'knzpsjBuDqN3Q8Yg',
+	description : 'QlAPUk6anBrC5HWi',
 	photo : $client->webDocument(
 		url : 'https://docs.liveproto.dev',
-		access_hash : -5825664877264549814,
-		size : 100,
-		mime_type : 'qDHJia9t526jnZV7',
+		access_hash : 49984796830031012,
+		size : 54,
+		mime_type : 'n7f0QLzFsNcSZYeW',
 		attributes : array(
 			$client->documentAttributeImageSize(
-				w : 22,
-				h : 78,
+				w : 62,
+				h : 35,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : 'F92baSsoBEYMZI4U',
+				alt : 'SP0yAfr6uBl7HzI9',
 				stickerset : $client->inputStickerSetEmpty(),
 				mask_coords : $client->maskCoords(
-					n : 24,
-					x : 99737.1552734375,
-					y : 393316.9140625,
-					zoom : 232467.0673828125,
+					n : 89,
+					x : 1542706.80078125,
+					y : -1635077.673828125,
+					zoom : -574170.544921875,
 				),
 			),
 			$client->documentAttributeVideo(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : 122366.091796875,
-				w : 73,
-				h : 45,
-				preload_prefix_size : 56,
-				video_start_ts : -1325768.2734375,
-				video_codec : 'vD0hIqE75OUrX8G2',
+				duration : -1097562.587890625,
+				w : 97,
+				h : 35,
+				preload_prefix_size : 4,
+				video_start_ts : 1009430.94140625,
+				video_codec : 'xh87fRFGEtDO2Js3',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 4,
-				title : 'SxK0feApQ8XkcVid',
-				performer : 'kjwJmKCPZgMTFIXi',
+				duration : 84,
+				title : 'EAGjS7LdN9oZfb32',
+				performer : '1btmBv98VIN2eJpX',
 				waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->documentAttributeFilename(
-				file_name : '28Umv7hoaA5VydRP',
+				file_name : 'JhTcZYf4PA7Hb6p3',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : 'UupPWJ975qz3KFcv',
+				alt : 'BGy1jq5Tka9Mn2OJ',
 				stickerset : $client->inputStickerSetEmpty(),
 			),
 		),
@@ -104,24 +104,24 @@ $paymentsPaymentReceipt = $client->payments->paymentReceiptStars(
 		phone_to_provider : true,
 		email_to_provider : true,
 		recurring : true,
-		currency : 'AySBGqmF76oXNdt4',
+		currency : '1R4aqutHYCDTBQ68',
 		prices : array(
 			$client->labeledPrice(
-				label : 'laGi2OWtpUIAmrjK',
-				amount : -289566579423530589,
+				label : 'y18sWEm2QCFpvtRM',
+				amount : 5715822777307684249,
 			),
 		),
-		max_tip_amount : 1145850895649695386,
-		suggested_tip_amounts : array(-3287607246895134573),
+		max_tip_amount : 1888225203903946586,
+		suggested_tip_amounts : array(-5182140519475063733),
 		terms_url : 'https://docs.liveproto.dev',
-		subscription_period : 43,
+		subscription_period : 18,
 	),
-	currency : 'h1ReUWr2szu8BpOZ',
-	total_amount : -2334124812355481107,
-	transaction_id : 'T6MBi3tsNSlpfU5C',
+	currency : '5FRpPaltnyvwIkMi',
+	total_amount : -7923319940216710460,
+	transaction_id : 'Y8d0N9HL5s6UAKjx',
 	users : array(
 		$client->userEmpty(
-			id : 7864349090631587436,
+			id : -7862388219416716062,
 		),
 		$client->user(
 			self : true,
@@ -151,24 +151,26 @@ $paymentsPaymentReceipt = $client->payments->paymentReceiptStars(
 			bot_has_main_app : true,
 			bot_forum_view : true,
 			bot_forum_can_manage_topics : true,
-			id : -9098515006098663793,
-			access_hash : -4132417090902136876,
+			bot_can_manage_bots : true,
+			bot_guestchat : true,
+			id : 2815364273642023954,
+			access_hash : -914990044012154318,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 4,
+			bot_info_version : 90,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'ERzr83LuqYKTPvD7',
-					reason : '0VLgXpBNTbk2DWMd',
-					text : 'E5vj9foJpbNg08zr',
+					platform : '5dIj6WeSZnqcHCka',
+					reason : 'TfZiFhHDeIr4GKtV',
+					text : '2PQ1vRUwMDZ0yHVY',
 				),
 			),
-			bot_inline_placeholder : 'nykPDjXao4fLGwpA',
-			lang_code : 'OXxj6lhcPE0ULt8d',
+			bot_inline_placeholder : 'LW51kBb2vqOQm9dK',
+			lang_code : '9qPnXLJuwf1mH3bj',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -179,19 +181,19 @@ $paymentsPaymentReceipt = $client->payments->paymentReceiptStars(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 67,
+				max_id : 93,
 			),
 			color : $client->peerColor(
-				color : 5,
-				background_emoji_id : 7106034925202060543,
+				color : 69,
+				background_emoji_id : -1640634000223376452,
 			),
 			profile_color : $client->peerColor(
-				color : 62,
-				background_emoji_id : -1043498841982865065,
+				color : 18,
+				background_emoji_id : 8286949207788139191,
 			),
-			bot_active_users : 65,
-			bot_verification_icon : -2695528511895805144,
-			send_paid_messages_stars : -1748317823269774063,
+			bot_active_users : 83,
+			bot_verification_icon : -4118649859180485728,
+			send_paid_messages_stars : -3254984391082469702,
 		),
 	),
 );

@@ -1,6 +1,6 @@
 # messages.getEmojiGameInfo
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getEmojiGameInfo#fb7e8ca7 = messages.EmojiGameInfo;

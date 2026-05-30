@@ -2,7 +2,7 @@
 
 **Description** : *Represents the location of a Telegram Business &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 businessLocation#ac5c1af7 flags:# geo_point:flags.0?GeoPoint address:string = BusinessLocation;

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a json\-encoded object*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 dataJSON#7d748d04 data:string = DataJSON;
@@ -28,6 +28,6 @@ dataJSON#7d748d04 data:string = DataJSON;
 
 ```php
 $dataJSON = $client->dataJSON(
-	data : '8tMBSuORC2gGX4JT',
+	data : 'y5712MZhcfDrlzva',
 );
 ```

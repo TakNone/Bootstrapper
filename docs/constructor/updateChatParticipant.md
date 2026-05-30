@@ -2,7 +2,7 @@
 
 **Description** : *A user has joined or left a specific chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateChatParticipant#d087663a flags:# chat_id:long date:int actor_id:long user_id:long prev_participant:flags.0?ChatParticipant new_participant:flags.1?ChatParticipant invite:flags.2?ExportedChatInvite qts:int = Update;
@@ -36,39 +36,41 @@ updateChatParticipant#d087663a flags:# chat_id:long date:int actor_id:long user_
 
 ```php
 $update = $client->updateChatParticipant(
-	chat_id : -3977462121065707992,
-	date : 76,
-	actor_id : 3230069631378478486,
-	user_id : -1494835026162620129,
+	chat_id : 6099334978207078808,
+	date : 43,
+	actor_id : -7481653357515937134,
+	user_id : -2831796164880394895,
 	prev_participant : $client->chatParticipant(
-		user_id : -981653167963129553,
-		inviter_id : 2130294404793901191,
-		date : 64,
+		user_id : 5283941072054870197,
+		inviter_id : 4643414026155314168,
+		date : 0,
+		rank : 'tQkxFBr7Pup0AcU1',
 	),
 	new_participant : $client->chatParticipant(
-		user_id : 101685268542753896,
-		inviter_id : 692712244355952377,
-		date : 2,
+		user_id : -7110124412673647220,
+		inviter_id : 7247226023541187254,
+		date : 43,
+		rank : 'walWJXfNT7Fz5qem',
 	),
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'DI2Ec5JR70orPB3u',
-		admin_id : -5971513986720416341,
-		date : 37,
-		start_date : 100,
-		expire_date : 63,
-		usage_limit : 5,
-		usage : 80,
-		requested : 6,
-		subscription_expired : 16,
-		title : 'hCbBViQdxfXK3DAw',
+		link : 'Y4jC6z7O8VPLB3iJ',
+		admin_id : 4891785876824477537,
+		date : 32,
+		start_date : 58,
+		expire_date : 2,
+		usage_limit : 72,
+		usage : 21,
+		requested : 79,
+		subscription_expired : 96,
+		title : '9yJHeANPgIDnm4uZ',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 41,
-			amount : -2804437492535919880,
+			period : 25,
+			amount : 2931508985835933374,
 		),
 	),
-	qts : 55,
+	qts : 93,
 );
 ```

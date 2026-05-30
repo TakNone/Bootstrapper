@@ -2,7 +2,7 @@
 
 **Description** : *Chat invite info*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 chatInvite#5c9d3702 flags:# channel:flags.0?true broadcast:flags.1?true public:flags.2?true megagroup:flags.3?true request_needed:flags.6?true verified:flags.7?true scam:flags.8?true fake:flags.9?true can_refulfill_subscription:flags.11?true title:string about:flags.5?string photo:Photo participants_count:int participants:flags.4?Vector<User> color:int subscription_pricing:flags.10?StarsSubscriptionPricing subscription_form_id:flags.12?long bot_verification:flags.13?BotVerification = ChatInvite;
@@ -55,15 +55,15 @@ $chatInvite = $client->chatInvite(
 	scam : true,
 	fake : true,
 	can_refulfill_subscription : true,
-	title : '3dZDzysa5X7gUGu0',
-	about : '5rO69z4wVZaHBLT0',
+	title : 'osOS2PwUjAhu6Heg',
+	about : '1E5RyAeuTJKSiUbM',
 	photo : $client->photoEmpty(
-		id : 5089187360818107201,
+		id : -6017703320861411578,
 	),
 	participants_count : 98,
 	participants : array(
 		$client->userEmpty(
-			id : 3754986919091569353,
+			id : 1422830257295809354,
 		),
 		$client->user(
 			self : true,
@@ -93,24 +93,26 @@ $chatInvite = $client->chatInvite(
 			bot_has_main_app : true,
 			bot_forum_view : true,
 			bot_forum_can_manage_topics : true,
-			id : -8875735364700359841,
-			access_hash : 4600228281691399318,
+			bot_can_manage_bots : true,
+			bot_guestchat : true,
+			id : 8255241016493593751,
+			access_hash : 1434241979739357454,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 66,
+			bot_info_version : 15,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'Ow9xkD56flhM3B42',
-					reason : 'IPTR8D1AhGpFVNHw',
-					text : '1D6LNGl4YpkUHJiq',
+					platform : 'fXB18YhHClOZcjoz',
+					reason : 'BHPCxKs3uhfXRTSE',
+					text : 'ikqFp2SEx1w5ZyUJ',
 				),
 			),
-			bot_inline_placeholder : 'viQxelmLDf7IYcnk',
-			lang_code : 'zfxojkgmiJOQP5F9',
+			bot_inline_placeholder : 'wKpTCJLDVIFY3qZj',
+			lang_code : 'STVsUxX5h4uWaBQ9',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -121,31 +123,31 @@ $chatInvite = $client->chatInvite(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 21,
+				max_id : 33,
 			),
 			color : $client->peerColor(
-				color : 83,
-				background_emoji_id : -4415395075854969308,
+				color : 29,
+				background_emoji_id : -304626324611852565,
 			),
 			profile_color : $client->peerColor(
-				color : 8,
-				background_emoji_id : 603302453422960724,
+				color : 42,
+				background_emoji_id : -3596538209203528923,
 			),
-			bot_active_users : 18,
-			bot_verification_icon : 7768070125804626577,
-			send_paid_messages_stars : 1099710850495942434,
+			bot_active_users : 15,
+			bot_verification_icon : -2658909558760482112,
+			send_paid_messages_stars : -3217172916335506486,
 		),
 	),
-	color : 79,
+	color : 90,
 	subscription_pricing : $client->starsSubscriptionPricing(
-		period : 89,
-		amount : 1527217122444306878,
+		period : 47,
+		amount : 8693464321890029830,
 	),
-	subscription_form_id : -52841713867130809,
+	subscription_form_id : 1851250003300334495,
 	bot_verification : $client->botVerification(
-		bot_id : 8834933222460773050,
-		icon : -6792645106437611486,
-		description : 'T2VdrtlFLpNHbKEG',
+		bot_id : -1176241639450630732,
+		icon : 9144105072232688927,
+		description : '2PlJvBfWziZ8MGy4',
 	),
 );
 ```

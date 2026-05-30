@@ -1,6 +1,6 @@
 # messages.createForumTopic
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.createForumTopic#2f98c3d5 flags:# title_missing:flags.4?true peer:InputPeer title:string icon_color:flags.0?int icon_emoji_id:flags.3?long random_id:long send_as:flags.2?InputPeer = Updates;
@@ -35,10 +35,10 @@ messages.createForumTopic#2f98c3d5 flags:# title_missing:flags.4?true peer:Input
 $updates = $client->messages->createForumTopic(
 	title_missing : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	title : 'RS6N2i3MBsk1AcWx',
-	icon_color : 94,
-	icon_emoji_id : 8787246823997341313,
-	random_id : -6694068709328790362,
+	title : '1KItzd8UJmY3x6FG',
+	icon_color : 57,
+	icon_emoji_id : 4469125563273636908,
+	random_id : -2211507902930088998,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Set account self\-destruction period*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.setAccountTTL#2442485e ttl:AccountDaysTTL = Bool;
@@ -37,7 +37,7 @@ account.setAccountTTL#2442485e ttl:AccountDaysTTL = Bool;
 ```php
 $bool = $client->account->setAccountTTL(
 	ttl : $client->accountDaysTTL(
-		days : 38,
+		days : 66,
 	),
 );
 ```

@@ -2,10 +2,10 @@
 
 **Description** : *Chat*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-dialog#d58a08c6 flags:# pinned:flags.2?true unread_mark:flags.3?true view_forum_as_messages:flags.6?true peer:Peer top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int notify_settings:PeerNotifySettings pts:flags.0?int draft:flags.1?DraftMessage folder_id:flags.4?int ttl_period:flags.5?int = Dialog;
+dialog#fc89f7f3 flags:# pinned:flags.2?true unread_mark:flags.3?true view_forum_as_messages:flags.6?true peer:Peer top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int unread_poll_votes_count:int notify_settings:PeerNotifySettings pts:flags.0?int draft:flags.1?DraftMessage folder_id:flags.4?int ttl_period:flags.5?int = Dialog;
 ```
 
 ---
@@ -25,6 +25,7 @@ dialog#d58a08c6 flags:# pinned:flags.2?true unread_mark:flags.3?true view_forum_
 | <mark>unread_count</mark> | [`int`](type/int) | Number of unread messages |
 | <mark>unread_mentions_count</mark> | [`int`](type/int) | Number of unread mentions |
 | <mark>unread_reactions_count</mark> | [`int`](type/int) | Number of unread reactions to messages you sent |
+| <mark>unread_poll_votes_count</mark> | [`int`](type/int) | NOTHING |
 | <mark>notify_settings</mark> | [`PeerNotifySettings`](type/PeerNotifySettings) | Notification settings |
 | **pts** | [`flags.0?int`](type/int) | PTS |
 | **draft** | [`flags.1?DraftMessage`](type/DraftMessage) | Message draft |
@@ -47,32 +48,33 @@ $dialog = $client->dialog(
 	unread_mark : true,
 	view_forum_as_messages : true,
 	peer : $client->peerUser(
-		user_id : 4865297894062061715,
+		user_id : 8146259713327028175,
 	),
-	top_message : 75,
-	read_inbox_max_id : 50,
-	read_outbox_max_id : 45,
-	unread_count : 21,
-	unread_mentions_count : 1,
-	unread_reactions_count : 2,
+	top_message : 63,
+	read_inbox_max_id : 82,
+	read_outbox_max_id : 76,
+	unread_count : 95,
+	unread_mentions_count : 82,
+	unread_reactions_count : 14,
+	unread_poll_votes_count : 65,
 	notify_settings : $client->peerNotifySettings(
 		show_previews : true,
 		silent : true,
-		mute_until : 30,
+		mute_until : 8,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
-		stories_muted : true,
-		stories_hide_sender : false,
+		stories_muted : false,
+		stories_hide_sender : true,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
-	pts : 32,
+	pts : 3,
 	draft : $client->draftMessageEmpty(
-		date : 21,
+		date : 10,
 	),
-	folder_id : 98,
-	ttl_period : 88,
+	folder_id : 70,
+	ttl_period : 20,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Resets all notification settings from users and groups*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.resetNotifySettings#db7e1747 = Bool;

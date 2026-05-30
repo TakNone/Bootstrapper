@@ -2,7 +2,7 @@
 
 **Description** : *Represents a channel*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputChannel#f35aec28 channel_id:long access_hash:long = InputChannel;
@@ -29,7 +29,7 @@ inputChannel#f35aec28 channel_id:long access_hash:long = InputChannel;
 
 ```php
 $inputChannel = $client->inputChannel(
-	channel_id : 3312824458725291350,
-	access_hash : 6753106562040675481,
+	channel_id : 1910742874701746902,
+	access_hash : 7633096446658998917,
 );
 ```

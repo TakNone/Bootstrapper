@@ -2,10 +2,10 @@
 
 **Description** : *Get most used peers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-contacts.getTopPeers#973478b6 flags:# correspondents:flags.0?true bots_pm:flags.1?true bots_inline:flags.2?true phone_calls:flags.3?true forward_users:flags.4?true forward_chats:flags.5?true groups:flags.10?true channels:flags.15?true bots_app:flags.16?true offset:int limit:int hash:long = contacts.TopPeers;
+contacts.getTopPeers#973478b6 flags:# correspondents:flags.0?true bots_pm:flags.1?true bots_inline:flags.2?true phone_calls:flags.3?true forward_users:flags.4?true forward_chats:flags.5?true groups:flags.10?true channels:flags.15?true bots_app:flags.16?true bots_guestchat:flags.17?true offset:int limit:int hash:long = contacts.TopPeers;
 ```
 
 ---
@@ -24,6 +24,7 @@ contacts.getTopPeers#973478b6 flags:# correspondents:flags.0?true bots_pm:flags.
 | **groups** | [`flags.10?true`](type/true) | Often-opened groups and supergroups |
 | **channels** | [`flags.15?true`](type/true) | Most frequently visited channels |
 | **bots_app** | [`flags.16?true`](type/true) | Most frequently used Main Mini Bot Apps |
+| **bots_guestchat** | [`flags.17?true`](type/true) | NOTHING |
 | <mark>offset</mark> | [`int`](type/int) | Offset for pagination |
 | <mark>limit</mark> | [`int`](type/int) | Maximum number of results to return, see pagination |
 | <mark>hash</mark> | [`long`](type/long) | Hash used for caching, for more info click here |
@@ -57,8 +58,9 @@ $contactsTopPeers = $client->contacts->getTopPeers(
 	groups : true,
 	channels : true,
 	bots_app : true,
+	bots_guestchat : true,
 	offset : 0,
-	limit : 8,
+	limit : 47,
 	hash : 0,
 );
 ```

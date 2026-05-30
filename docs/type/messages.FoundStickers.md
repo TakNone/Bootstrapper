@@ -2,7 +2,7 @@
 
 **Description** : *Found stickers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.foundStickersNotModified#6010c534 flags:# next_offset:flags.0?int = messages.FoundStickers;

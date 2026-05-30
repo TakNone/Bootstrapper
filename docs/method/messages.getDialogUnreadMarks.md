@@ -2,7 +2,7 @@
 
 **Description** : *Get dialogs manually marked as unread*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getDialogUnreadMarks#21202222 flags:# parent_peer:flags.0?InputPeer = Vector<DialogPeer>;

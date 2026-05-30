@@ -1,6 +1,6 @@
 # payments.getStarGiftActiveAuctions
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 payments.getStarGiftActiveAuctions#a5d0514d hash:long = payments.StarGiftActiveAuctions;

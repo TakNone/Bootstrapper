@@ -2,7 +2,7 @@
 
 **Description** : *Defines a GeoPoint*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputGeoPointEmpty#e4c123d6 = InputGeoPoint;

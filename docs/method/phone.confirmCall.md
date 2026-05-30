@@ -2,7 +2,7 @@
 
 **Description** : *Complete phone call E2E encryption key exchange &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.confirmCall#2efe1722 peer:InputPhoneCall g_a:bytes key_fingerprint:long protocol:PhoneCallProtocol = phone.PhoneCall;
@@ -41,17 +41,17 @@ phone.confirmCall#2efe1722 peer:InputPhoneCall g_a:bytes key_fingerprint:long pr
 ```php
 $phonePhoneCall = $client->phone->confirmCall(
 	peer : $client->inputPhoneCall(
-		id : 8733627235828010668,
-		access_hash : 5128305875694574596,
+		id : -1388330271397761025,
+		access_hash : -8999716013305542616,
 	),
 	g_a : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	key_fingerprint : 3164298939662808273,
+	key_fingerprint : -8439413751611256947,
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 61,
-		max_layer : 43,
-		library_versions : array('LGBbgUN4Y3cJEVWI'),
+		min_layer : 30,
+		max_layer : 9,
+		library_versions : array('HLKZsVOnWbASxa0B'),
 	),
 );
 ```

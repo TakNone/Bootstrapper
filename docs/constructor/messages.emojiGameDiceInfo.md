@@ -1,6 +1,6 @@
 # messages.emojiGameDiceInfo
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.emojiGameDiceInfo#44e56023 flags:# game_hash:string prev_stake:long current_streak:int params:Vector<int> plays_left:flags.0?int = messages.EmojiGameInfo;
@@ -31,10 +31,10 @@ messages.emojiGameDiceInfo#44e56023 flags:# game_hash:string prev_stake:long cur
 
 ```php
 $messagesEmojiGameInfo = $client->messages->emojiGameDiceInfo(
-	game_hash : 'ycL7JM1Eoq0Rzdjn',
-	prev_stake : -8051793777436951884,
-	current_streak : 62,
-	params : array(89),
-	plays_left : 68,
+	game_hash : 'XvWdHMNpx7I9q1e3',
+	prev_stake : -7493135790785599267,
+	current_streak : 64,
+	params : array(77),
+	plays_left : 45,
 );
 ```

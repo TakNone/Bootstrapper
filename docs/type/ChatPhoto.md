@@ -2,7 +2,7 @@
 
 **Description** : *Object defines a group profile photo*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 chatPhotoEmpty#37c1011c = ChatPhoto;

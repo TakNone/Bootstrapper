@@ -2,7 +2,7 @@
 
 **Description** : *Localized name, about text and description of a bot*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 bots.botInfo#e8a775b0 name:string about:string description:string = bots.BotInfo;

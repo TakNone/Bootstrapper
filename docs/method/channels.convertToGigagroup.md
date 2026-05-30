@@ -2,7 +2,7 @@
 
 **Description** : *Convert a supergroup to a gigagroup, when requested by channel suggestions*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.convertToGigagroup#b290c69 channel:InputChannel = Updates;

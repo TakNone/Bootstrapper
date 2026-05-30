@@ -3,7 +3,7 @@
 **Description** : *Obtains a list of messages, indicating to which other public channels was a channel message forwarded\.
 Will return a list of messages with peer\_id equal to the public channel to which this message was forwarded*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stats.getMessagePublicForwards#5f150144 channel:InputChannel msg_id:int offset:string limit:int = stats.PublicForwards;
@@ -44,8 +44,8 @@ stats.getMessagePublicForwards#5f150144 channel:InputChannel msg_id:int offset:s
 ```php
 $statsPublicForwards = $client->stats->getMessagePublicForwards(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	msg_id : 5,
-	offset : '1MLRWSfPsN0H4uoO',
-	limit : 21,
+	msg_id : 70,
+	offset : 'CrhmiTloKyVnxpjf',
+	limit : 5,
 );
 ```

@@ -2,12 +2,12 @@
 
 **Description** : *Details of a group member*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-chatParticipant#c02d4007 user_id:long inviter_id:long date:int = ChatParticipant;
-chatParticipantCreator#e46bcee4 user_id:long = ChatParticipant;
-chatParticipantAdmin#a0933f5b user_id:long inviter_id:long date:int = ChatParticipant;
+chatParticipant#38e79fde flags:# user_id:long inviter_id:long date:int rank:flags.0?string = ChatParticipant;
+chatParticipantCreator#e1f867b8 flags:# user_id:long rank:flags.0?string = ChatParticipant;
+chatParticipantAdmin#360d5d2 flags:# user_id:long inviter_id:long date:int rank:flags.0?string = ChatParticipant;
 ```
 
 ---

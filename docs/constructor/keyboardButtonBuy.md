@@ -2,7 +2,7 @@
 
 **Description** : *Button to buy a product*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 keyboardButtonBuy#3fa53905 flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
@@ -34,8 +34,8 @@ $keyboardButton = $client->keyboardButtonBuy(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 1642389950130452412,
+		icon : 4661231202170615124,
 	),
-	text : '9nvzLHouNIDdKkPf',
+	text : 'wnfyskjrMDzT6BlZ',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Notification settings*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 peerNotifySettings#99622c0c flags:# show_previews:flags.0?Bool silent:flags.1?Bool mute_until:flags.2?int ios_sound:flags.3?NotificationSound android_sound:flags.4?NotificationSound other_sound:flags.5?NotificationSound stories_muted:flags.6?Bool stories_hide_sender:flags.7?Bool stories_ios_sound:flags.8?NotificationSound stories_android_sound:flags.9?NotificationSound stories_other_sound:flags.10?NotificationSound = PeerNotifySettings;
@@ -41,12 +41,12 @@ peerNotifySettings#99622c0c flags:# show_previews:flags.0?Bool silent:flags.1?Bo
 $peerNotifySettings = $client->peerNotifySettings(
 	show_previews : false,
 	silent : true,
-	mute_until : 88,
+	mute_until : 9,
 	ios_sound : $client->notificationSoundDefault(),
 	android_sound : $client->notificationSoundDefault(),
 	other_sound : $client->notificationSoundDefault(),
 	stories_muted : false,
-	stories_hide_sender : true,
+	stories_hide_sender : false,
 	stories_ios_sound : $client->notificationSoundDefault(),
 	stories_android_sound : $client->notificationSoundDefault(),
 	stories_other_sound : $client->notificationSoundDefault(),

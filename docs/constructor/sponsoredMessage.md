@@ -2,7 +2,7 @@
 
 **Description** : *A sponsored message*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 sponsoredMessage#7dbf8673 flags:# recommended:flags.5?true can_report:flags.12?true random_id:bytes url:string title:string message:string entities:flags.1?Vector<MessageEntity> photo:flags.6?Photo media:flags.14?MessageMedia color:flags.13?PeerColor button_text:string sponsor_info:flags.7?string additional_info:flags.8?string min_display_duration:flags.15?int max_display_duration:flags.15?int = SponsoredMessage;
@@ -47,112 +47,136 @@ $sponsoredMessage = $client->sponsoredMessage(
 	can_report : true,
 	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	url : 'https://docs.liveproto.dev',
-	title : 'aJpOuRWE3KDzN0gd',
-	message : 'PlO4i6nhYre1VRsL',
+	title : '1SuE9B8eqzo54jQM',
+	message : 'ibgFO2zoGexVKPDX',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 74,
+			length : 15,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 13,
+			length : 22,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 83,
+			length : 21,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 79,
+			length : 12,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 14,
+			length : 89,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 6,
+			length : 20,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 77,
+			length : 34,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 10,
+			length : 48,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 71,
+			length : 53,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 93,
-			language : 'ecrKUohgA3ZGlVEF',
+			length : 13,
+			language : 'Gpr4H9n0E2Csxug3',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 72,
+			length : 16,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 45,
-			user_id : -474719347741577686,
+			length : 7,
+			user_id : -5406562259075629937,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 25,
+			length : 69,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 15,
+			length : 47,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 82,
+			length : 53,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 97,
+			length : 37,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 73,
+			length : 54,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 87,
+			length : 44,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 3,
+			length : 66,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 22,
-			document_id : 5488995124328314375,
+			length : 34,
+			document_id : -4686048620865686951,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 9,
+			length : 11,
+		),
+		$client->messageEntityFormattedDate(
+			relative : true,
+			short_time : true,
+			long_time : true,
+			short_date : true,
+			long_date : true,
+			day_of_week : true,
+			offset : 0,
+			length : 11,
+			date : 82,
+		),
+		$client->messageEntityDiffInsert(
+			offset : 0,
+			length : 64,
+		),
+		$client->messageEntityDiffReplace(
+			offset : 0,
+			length : 44,
+			old_text : 'oB2PpRbELfhzFXD5',
+		),
+		$client->messageEntityDiffDelete(
+			offset : 0,
+			length : 6,
 		),
 	),
 	photo : $client->photoEmpty(
-		id : 5964636938201342926,
+		id : 2710599689967777211,
 	),
 	media : $client->messageMediaEmpty(),
 	color : $client->peerColor(
-		color : 94,
-		background_emoji_id : 8863637036671575817,
+		color : 35,
+		background_emoji_id : -2406279874946523335,
 	),
-	button_text : '8QFL5yr10mnqdOWe',
-	sponsor_info : '5rlMpT7nR0C2N8ZE',
-	additional_info : 'M6JYhqXr9nUvj83e',
-	min_display_duration : 90,
-	max_display_duration : 10,
+	button_text : '7NQpqS9jklYTwuAG',
+	sponsor_info : 'RPf74Cc2nGH5Jz6V',
+	additional_info : 'DSok5pKEmc4YrUXT',
+	min_display_duration : 49,
+	max_display_duration : 14,
 );
 ```

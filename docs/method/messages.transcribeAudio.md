@@ -2,7 +2,7 @@
 
 **Description** : *Transcribe voice message*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.transcribeAudio#269e9a49 peer:InputPeer msg_id:int = messages.TranscribedAudio;
@@ -42,6 +42,6 @@ messages.transcribeAudio#269e9a49 peer:InputPeer msg_id:int = messages.Transcrib
 ```php
 $messagesTranscribedAudio = $client->messages->transcribeAudio(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 15,
+	msg_id : 23,
 );
 ```

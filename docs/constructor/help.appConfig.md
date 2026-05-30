@@ -2,7 +2,7 @@
 
 **Description** : *Contains various client configuration parameters*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 help.appConfig#dd18782e hash:int config:JSONValue = help.AppConfig;

@@ -2,7 +2,7 @@
 
 **Description** : *Refuse or end running call*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.discardCall#b2cbc1c0 flags:# video:flags.0?true peer:InputPhoneCall duration:int reason:PhoneCallDiscardReason connection_id:long = Updates;
@@ -45,11 +45,11 @@ phone.discardCall#b2cbc1c0 flags:# video:flags.0?true peer:InputPhoneCall durati
 $updates = $client->phone->discardCall(
 	video : true,
 	peer : $client->inputPhoneCall(
-		id : -1507830778567958512,
-		access_hash : 7914675763911530879,
+		id : 575060973249339773,
+		access_hash : -8613604200072374939,
 	),
-	duration : 21,
+	duration : 87,
 	reason : $client->phoneCallDiscardReasonMissed(),
-	connection_id : -4453599461589603686,
+	connection_id : 906333778713374503,
 );
 ```

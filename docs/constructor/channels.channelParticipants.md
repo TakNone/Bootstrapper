@@ -2,7 +2,7 @@
 
 **Description** : *Represents multiple channel participants*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 channels.channelParticipants#9ab0feaf count:int participants:Vector<ChannelParticipant> chats:Vector<Chat> users:Vector<User> = channels.ChannelParticipants;
@@ -31,22 +31,24 @@ channels.channelParticipants#9ab0feaf count:int participants:Vector<ChannelParti
 
 ```php
 $channelsChannelParticipants = $client->channels->channelParticipants(
-	count : 72,
+	count : 94,
 	participants : array(
 		$client->channelParticipant(
-			user_id : 3930891598454037506,
-			date : 79,
-			subscription_until_date : 34,
+			user_id : -988131633945467491,
+			date : 68,
+			subscription_until_date : 55,
+			rank : 'YtTJwMn01odyVeDg',
 		),
 		$client->channelParticipantSelf(
 			via_request : true,
-			user_id : 6408656786767676992,
-			inviter_id : -4194143211649041842,
-			date : 6,
-			subscription_until_date : 56,
+			user_id : -3698439720121100128,
+			inviter_id : 302245842041955430,
+			date : 70,
+			subscription_until_date : 72,
+			rank : 'kZ4cYt1d2RXHhBax',
 		),
 		$client->channelParticipantCreator(
-			user_id : 3416057003135121722,
+			user_id : -2067355922411708970,
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
 				post_messages : true,
@@ -64,16 +66,17 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 				edit_stories : true,
 				delete_stories : true,
 				manage_direct_messages : true,
+				manage_ranks : true,
 			),
-			rank : 'UmsVLkZBFGSacDQd',
+			rank : 'srjnLibwqCahT2uF',
 		),
 		$client->channelParticipantAdmin(
 			can_edit : true,
 			self : true,
-			user_id : 3413744761407185309,
-			inviter_id : 5133847123493061158,
-			promoted_by : 8944801823076097905,
-			date : 99,
+			user_id : -4942496893931086660,
+			inviter_id : 8449343784536357897,
+			promoted_by : -1008284831474369842,
+			date : 49,
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
 				post_messages : true,
@@ -91,16 +94,17 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 				edit_stories : true,
 				delete_stories : true,
 				manage_direct_messages : true,
+				manage_ranks : true,
 			),
-			rank : 'eyYlgW1m3FMv4Pc7',
+			rank : 'gztOqGYpofIHhrWs',
 		),
 		$client->channelParticipantBanned(
 			left : true,
 			peer : $client->peerUser(
-				user_id : -919752407437564281,
+				user_id : -1964988789646553896,
 			),
-			kicked_by : 2618824515678377214,
-			date : 39,
+			kicked_by : -1169132635517888912,
+			date : 32,
 			banned_rights : $client->chatBannedRights(
 				view_messages : true,
 				send_messages : true,
@@ -122,18 +126,21 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 23,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 89,
 			),
+			rank : 'u5vkBEa69s8bHXLw',
 		),
 		$client->channelParticipantLeft(
 			peer : $client->peerUser(
-				user_id : -2012288124687259797,
+				user_id : 7982931115938892678,
 			),
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 6077849465003966952,
+			id : 3831412531392760976,
 		),
 		$client->chat(
 			creator : true,
@@ -142,12 +149,12 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : 1963964598208321449,
-			title : 'ZIAwPl9DOh5f1rjx',
+			id : -6525606921641828836,
+			title : 'U0zcWgF9fJEOV728',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 22,
-			date : 70,
-			version : 28,
+			participants_count : 17,
+			date : 61,
+			version : 44,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -166,6 +173,7 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 				edit_stories : true,
 				delete_stories : true,
 				manage_direct_messages : true,
+				manage_ranks : true,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -188,12 +196,14 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 20,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 82,
 			),
 		),
 		$client->chatForbidden(
-			id : -2526588507778867396,
-			title : 'JDSbF7TYmXcC5w9V',
+			id : -1842843330657627688,
+			title : 'VJpQe9M573whWL8R',
 		),
 		$client->channel(
 			creator : true,
@@ -224,17 +234,17 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -1958493852914107112,
-			access_hash : 5204415156744084179,
-			title : 'd7p1NwqALbC5B9hj',
+			id : -8090717762226758780,
+			access_hash : 8383629283667305716,
+			title : 'G3uF4UDLkfbcv7NK',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 81,
+			date : 26,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'fqUR4FsiAeno2dBt',
-					reason : '9k2EVTXrZ6zFbUOG',
-					text : 'lCVOqY9gsFADj6T5',
+					platform : 'TGZiaNKL81DwJk53',
+					reason : 'zS3sd4QNVwoxhJFA',
+					text : 'T10Jp7Gsr6NdZgUM',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -254,6 +264,7 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 				edit_stories : true,
 				delete_stories : true,
 				manage_direct_messages : true,
+				manage_ranks : true,
 			),
 			banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -276,7 +287,9 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 38,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 97,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -299,9 +312,11 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 				send_voices : true,
 				send_docs : true,
 				send_plain : true,
-				until_date : 55,
+				edit_rank : true,
+				send_reactions : true,
+				until_date : 67,
 			),
-			participants_count : 22,
+			participants_count : 68,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -311,36 +326,36 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 11,
+				max_id : 62,
 			),
 			color : $client->peerColor(
 				color : 97,
-				background_emoji_id : 5131414704694985673,
+				background_emoji_id : 2108905188660714667,
 			),
 			profile_color : $client->peerColor(
-				color : 69,
-				background_emoji_id : 7427098485591090949,
+				color : 63,
+				background_emoji_id : -6155915959643072843,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 67,
-			subscription_until_date : 6,
-			bot_verification_icon : -7876220350801444565,
-			send_paid_messages_stars : 1389474514757992949,
-			linked_monoforum_id : -7870901402925882370,
+			level : 13,
+			subscription_until_date : 65,
+			bot_verification_icon : -8079090171341928659,
+			send_paid_messages_stars : 617950389473467599,
+			linked_monoforum_id : 2762057283691703837,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
 			monoforum : true,
-			id : -6467269570732865258,
-			access_hash : 998826271312550049,
-			title : 'vZnh5RcxSmHkLbia',
-			until_date : 82,
+			id : 8707697900899502643,
+			access_hash : 3003025273429531810,
+			title : 'UQGhDebO7HusxnPg',
+			until_date : 17,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -2972433793842853083,
+			id : 7381687699682659754,
 		),
 		$client->user(
 			self : true,
@@ -370,24 +385,26 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 			bot_has_main_app : true,
 			bot_forum_view : true,
 			bot_forum_can_manage_topics : true,
-			id : -1347123624630698386,
-			access_hash : -2457114075137958788,
+			bot_can_manage_bots : true,
+			bot_guestchat : true,
+			id : -1635866146451203449,
+			access_hash : 3139589559767499326,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 77,
+			bot_info_version : 42,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'wPv78g2ni5GTjfeV',
-					reason : 'xeT3C57RrUSnJopv',
-					text : 'FDETO9NWfgc6JtoM',
+					platform : 'Y6x0TV7R2WDeqN3K',
+					reason : 'AFLfOQ3TxinlEpbv',
+					text : 'dKU6Oq4Zgk5YuGex',
 				),
 			),
-			bot_inline_placeholder : 'lCf5AJQ3WNBeRwrk',
-			lang_code : '5mGC0WsSZOiQfwxI',
+			bot_inline_placeholder : 'QvnmfJX9zqiNjUCI',
+			lang_code : 'a6pkTt4bQ73jvEiF',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -398,19 +415,19 @@ $channelsChannelParticipants = $client->channels->channelParticipants(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 55,
+				max_id : 90,
 			),
 			color : $client->peerColor(
-				color : 73,
-				background_emoji_id : -8213423825882026446,
+				color : 62,
+				background_emoji_id : 3954813970285703149,
 			),
 			profile_color : $client->peerColor(
-				color : 13,
-				background_emoji_id : 2378482017542837102,
+				color : 53,
+				background_emoji_id : -4100915936562336116,
 			),
-			bot_active_users : 14,
-			bot_verification_icon : -2241165603718560013,
-			send_paid_messages_stars : 2659977436502982207,
+			bot_active_users : 97,
+			bot_verification_icon : 2564440120481084212,
+			send_paid_messages_stars : 1363632743392645726,
 		),
 	),
 );

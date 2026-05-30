@@ -2,7 +2,7 @@
 
 **Description** : *Toggle contact sign up notifications*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.setContactSignUpNotification#cff43f61 silent:Bool = Bool;
@@ -28,6 +28,6 @@ account.setContactSignUpNotification#cff43f61 silent:Bool = Bool;
 
 ```php
 $bool = $client->account->setContactSignUpNotification(
-	silent : false,
+	silent : true,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Button to open a bot mini app using messages\.requestWebView, sending over user information after user confirmation*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 keyboardButtonWebView#e846b1a0 flags:# style:flags.10?KeyboardButtonStyle text:string url:string = KeyboardButton;
@@ -35,9 +35,9 @@ $keyboardButton = $client->keyboardButtonWebView(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 5797571011417061668,
+		icon : 7555601669625734933,
 	),
-	text : '8t4nClvq0e6YArFO',
+	text : '4HMSseUrVl7FkAdx',
 	url : 'https://docs.liveproto.dev',
 );
 ```

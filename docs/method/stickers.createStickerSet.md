@@ -2,7 +2,7 @@
 
 **Description** : *Create a stickerset*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stickers.createStickerSet#9021ab67 flags:# masks:flags.0?true emojis:flags.5?true text_color:flags.6?true user_id:InputUser title:string short_name:string thumb:flags.2?InputDocument stickers:Vector<InputStickerSetItem> software:flags.3?string = messages.StickerSet;
@@ -67,22 +67,22 @@ $messagesStickerSet = $client->stickers->createStickerSet(
 	emojis : true,
 	text_color : true,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	title : 'up0VCg87JtLNU4DM',
-	short_name : '6xzHiU2lCrjA9Vd0',
+	title : 'OTMGok7zJahD5Qrs',
+	short_name : 'SsxOjqJeA91kzW8C',
 	thumb : $client->inputDocumentEmpty(),
 	stickers : array(
 		$client->inputStickerSetItem(
 			document : $client->inputDocumentEmpty(),
-			emoji : 'yNl4ZPIv7SGBapok',
+			emoji : 'SDALEVHuJbs1OnPm',
 			mask_coords : $client->maskCoords(
-				n : 44,
-				x : 905613.3203125,
-				y : 18322.111328125,
-				zoom : -209564.150390625,
+				n : 55,
+				x : 605213.17578125,
+				y : 2048194.4541015625,
+				zoom : -1552120.9130859375,
 			),
-			keywords : '5ZiCRGTlxefBpFSU',
+			keywords : 'HsxuyGJcP09lRA5o',
 		),
 	),
-	software : 'mpHC4WGfyjeXoZLK',
+	software : 'cNSMUyjRuLAIdeaF',
 );
 ```

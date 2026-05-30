@@ -2,10 +2,10 @@
 
 **Description** : *Official apps may receive this constructor, indicating that due to the high cost of SMS verification codes for the user&#039;s country/provider, the user must purchase a Telegram Premium subscription in order to proceed with the login/signup*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
-auth.sentCodePaymentRequired#e0955a3c store_product:string phone_code_hash:string support_email_address:string support_email_subject:string currency:string amount:long = auth.SentCode;
+auth.sentCodePaymentRequired#f8827ebf store_product:string phone_code_hash:string support_email_address:string support_email_subject:string premium_days:int currency:string amount:long = auth.SentCode;
 ```
 
 ---
@@ -18,6 +18,7 @@ auth.sentCodePaymentRequired#e0955a3c store_product:string phone_code_hash:strin
 | <mark>phone_code_hash</mark> | [`string`](type/string) | Phone code hash, to be stored and later re-used with auth.signIn |
 | <mark>support_email_address</mark> | [`string`](type/string) | An email address that can be contacted for more information about this request |
 | <mark>support_email_subject</mark> | [`string`](type/string) | The mandatory subject for the email |
+| <mark>premium_days</mark> | [`int`](type/int) | NOTHING |
 | <mark>currency</mark> | [`string`](type/string) | NOTHING |
 | <mark>amount</mark> | [`long`](type/long) | NOTHING |
 
@@ -33,11 +34,12 @@ auth.sentCodePaymentRequired#e0955a3c store_product:string phone_code_hash:strin
 
 ```php
 $authSentCode = $client->auth->sentCodePaymentRequired(
-	store_product : 'Y3Gt7m4BfkFj9OWd',
+	store_product : 'mhP9ojDuN1GEAse7',
 	phone_code_hash : '+1234567890',
 	support_email_address : 'reply@liveproto.dev',
 	support_email_subject : 'reply@liveproto.dev',
-	currency : 'ZHWt2XhlUdDpxbuT',
-	amount : 8956796847098672170,
+	premium_days : 17,
+	currency : 'GzljKV98ovPJ6IcA',
+	amount : 416408266016955218,
 );
 ```

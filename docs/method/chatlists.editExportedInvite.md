@@ -2,7 +2,7 @@
 
 **Description** : *Edit a chat folder deep link &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 chatlists.editExportedInvite#653db63d flags:# chatlist:InputChatlist slug:string title:flags.1?string peers:flags.2?Vector<InputPeer> = ExportedChatlistInvite;
@@ -46,10 +46,10 @@ chatlists.editExportedInvite#653db63d flags:# chatlist:InputChatlist slug:string
 ```php
 $exportedChatlistInvite = $client->chatlists->editExportedInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 73,
+		filter_id : 63,
 	),
-	slug : 'zKJd8ZY9noaxy7Cl',
-	title : 'vkKxYCDQNdc4oBGO',
+	slug : 'AE9bSk5HMgJ4y3Io',
+	title : 'IBR0qcNAuXmywTn5',
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

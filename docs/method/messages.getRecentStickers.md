@@ -2,7 +2,7 @@
 
 **Description** : *Get recent stickers*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.getRecentStickers#9da9403b flags:# attached:flags.0?true hash:long = messages.RecentStickers;

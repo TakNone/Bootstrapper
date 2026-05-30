@@ -2,7 +2,7 @@
 
 **Description** : *Update SMS job settings \(official clients only\)*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 smsjobs.updateSettings#93fa0bf flags:# allow_international:flags.0?true = Bool;

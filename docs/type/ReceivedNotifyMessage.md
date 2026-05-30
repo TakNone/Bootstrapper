@@ -2,7 +2,7 @@
 
 **Description** : *Confirmation of message receipt*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 receivedNotifyMessage#a384b779 id:int flags:int = ReceivedNotifyMessage;

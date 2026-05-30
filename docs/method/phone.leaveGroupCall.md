@@ -2,7 +2,7 @@
 
 **Description** : *Leave a group call*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 phone.leaveGroupCall#500377f9 call:InputGroupCall source:int = Updates;
@@ -38,9 +38,9 @@ phone.leaveGroupCall#500377f9 call:InputGroupCall source:int = Updates;
 ```php
 $updates = $client->phone->leaveGroupCall(
 	call : $client->inputGroupCall(
-		id : 2405626472730657560,
-		access_hash : -6703714760026066795,
+		id : -5462557225446544188,
+		access_hash : -4436424646255297244,
 	),
-	source : 56,
+	source : 34,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Deletes several contacts from the list*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 contacts.deleteContacts#96a0e00 id:Vector<InputUser> = Updates;

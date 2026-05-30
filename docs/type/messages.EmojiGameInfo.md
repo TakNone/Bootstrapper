@@ -1,6 +1,6 @@
 # messages.EmojiGameInfo
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.emojiGameUnavailable#59e65335 = messages.EmojiGameInfo;

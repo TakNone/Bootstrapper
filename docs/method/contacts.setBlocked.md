@@ -2,7 +2,7 @@
 
 **Description** : *Replace the contents of an entire blocklist, see here for more info &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 contacts.setBlocked#94c65c76 flags:# my_stories_from:flags.0?true id:Vector<InputPeer> limit:int = Bool;
@@ -33,6 +33,6 @@ contacts.setBlocked#94c65c76 flags:# my_stories_from:flags.0?true id:Vector<Inpu
 $bool = $client->contacts->setBlocked(
 	my_stories_from : true,
 	id : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	limit : 96,
+	limit : 86,
 );
 ```

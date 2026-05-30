@@ -2,7 +2,7 @@
 
 **Description** : *Join a conference call through an invitation link &raquo;*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 inputGroupCallSlug#fe06823f slug:string = InputGroupCall;
@@ -28,6 +28,6 @@ inputGroupCallSlug#fe06823f slug:string = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallSlug(
-	slug : 'vgTEVd7rmkjw5oJl',
+	slug : 'YOUpZLvVMe0EgDf4',
 );
 ```

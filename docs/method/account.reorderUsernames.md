@@ -2,7 +2,7 @@
 
 **Description** : *Reorder usernames associated with the currently logged\-in user*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 account.reorderUsernames#ef500eab order:Vector<string> = Bool;
@@ -37,6 +37,6 @@ account.reorderUsernames#ef500eab order:Vector<string> = Bool;
 
 ```php
 $bool = $client->account->reorderUsernames(
-	order : array('gIMbmWKSvs2jf0Xc'),
+	order : array('Hy9olMr2C7KeGJzD'),
 );
 ```

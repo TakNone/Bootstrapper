@@ -2,7 +2,7 @@
 
 **Description** : *React to a story*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stories.sendReaction#7fd736b2 flags:# add_to_recent:flags.0?true peer:InputPeer story_id:int reaction:Reaction = Updates;
@@ -45,7 +45,7 @@ stories.sendReaction#7fd736b2 flags:# add_to_recent:flags.0?true peer:InputPeer 
 $updates = $client->stories->sendReaction(
 	add_to_recent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	story_id : 3,
+	story_id : 9,
 	reaction : $client->reactionEmpty(),
 );
 ```

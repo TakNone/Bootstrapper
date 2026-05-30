@@ -2,7 +2,7 @@
 
 **Description** : *Info about a sent inline webview message*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 webViewMessageSent#c94511c flags:# msg_id:flags.0?InputBotInlineMessageID = WebViewMessageSent;
@@ -30,9 +30,9 @@ webViewMessageSent#c94511c flags:# msg_id:flags.0?InputBotInlineMessageID = WebV
 ```php
 $webViewMessageSent = $client->webViewMessageSent(
 	msg_id : $client->inputBotInlineMessageID(
-		dc_id : 98,
-		id : -2835926719012887903,
-		access_hash : -6314171653720974880,
+		dc_id : 47,
+		id : -1029168220504452656,
+		access_hash : -917589198570923239,
 	),
 );
 ```

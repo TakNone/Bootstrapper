@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the story archive &raquo; of a peer we control*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 stories.getStoriesArchive#b4352016 peer:InputPeer offset_id:int limit:int = stories.Stories;
@@ -41,6 +41,6 @@ stories.getStoriesArchive#b4352016 peer:InputPeer offset_id:int limit:int = stor
 $storiesStories = $client->stories->getStoriesArchive(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	limit : 29,
+	limit : 79,
 );
 ```

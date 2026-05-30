@@ -2,7 +2,7 @@
 
 **Description** : *Use this method to obtain the online statuses of all contacts with an accessible Telegram account*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 contacts.getStatuses#c4a353ee = Vector<ContactStatus>;

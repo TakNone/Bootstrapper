@@ -2,7 +2,7 @@
 
 **Description** : *An animated profile picture based on a sticker*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 videoSizeStickerMarkup#da082fe stickerset:InputStickerSet sticker_id:long background_colors:Vector<int> = VideoSize;
@@ -31,7 +31,7 @@ videoSizeStickerMarkup#da082fe stickerset:InputStickerSet sticker_id:long backgr
 ```php
 $videoSize = $client->videoSizeStickerMarkup(
 	stickerset : $client->inputStickerSetEmpty(),
-	sticker_id : -3387601897982491878,
-	background_colors : array(90),
+	sticker_id : 3264525778079061665,
+	background_colors : array(81),
 );
 ```

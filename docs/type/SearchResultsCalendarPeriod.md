@@ -2,7 +2,7 @@
 
 **Description** : *Information about found messages sent on a specific day, used to split the messages in messages\.searchResultsCalendar constructors by days*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 searchResultsCalendarPeriod#c9b0539f date:int min_msg_id:int max_msg_id:int count:int = SearchResultsCalendarPeriod;

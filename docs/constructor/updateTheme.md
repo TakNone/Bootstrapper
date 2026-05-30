@@ -2,7 +2,7 @@
 
 **Description** : *A cloud theme was updated*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 updateTheme#8216fba3 theme:Theme = Update;
@@ -32,35 +32,35 @@ $update = $client->updateTheme(
 		creator : true,
 		default : true,
 		for_chat : true,
-		id : 6386575020678025159,
-		access_hash : 7590418966152654453,
-		slug : 'sJZKDklIR4t5uTBS',
-		title : 'cC3n4H0g1hBzy7ad',
+		id : 8165811372010597097,
+		access_hash : 5101749969202455853,
+		slug : '2bKXzxSvFl7DI3jV',
+		title : 'wDTMr6q8Rck2lSFm',
 		document : $client->documentEmpty(
-			id : 5313884736482236078,
+			id : 2628733049775357238,
 		),
 		settings : array(
 			$client->themeSettings(
 				message_colors_animated : true,
 				base_theme : $client->baseThemeClassic(),
-				accent_color : 53,
-				outbox_accent_color : 31,
-				message_colors : array(4),
+				accent_color : 50,
+				outbox_accent_color : 51,
+				message_colors : array(94),
 				wallpaper : $client->wallPaper(
-					id : -3800541159661096937,
+					id : -470899475668525363,
 					creator : true,
 					default : true,
 					pattern : true,
 					dark : true,
-					access_hash : -660473546804505587,
-					slug : 'ONvA3inWGVH9ZQzr',
+					access_hash : -1728452407557648745,
+					slug : 'D8AmPzF3eUjBCbOt',
 					document : $client->documentEmpty(...),
 					settings : $client->wallPaperSettings(...),
 				),
 			),
 		),
-		emoticon : '36GAb8sUzHlrcNqw',
-		installs_count : 64,
+		emoticon : 'c4O9ZPrHIbCoFL5m',
+		installs_count : 91,
 	),
 );
 ```

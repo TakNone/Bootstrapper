@@ -2,7 +2,7 @@
 
 **Description** : *Check if the passed songs are still pinned to the user&#039;s profile, or refresh the file references of songs pinned on a user&#039;s profile see here &raquo; for more info*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 users.getSavedMusicByID#7573a4e9 id:InputUser documents:Vector<InputDocument> = users.SavedMusic;
@@ -41,8 +41,8 @@ $usersSavedMusic = $client->users->getSavedMusicByID(
 	documents : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : 3788223546620977266,
-			access_hash : 3087877923234080368,
+			id : -178662999516801670,
+			access_hash : -7192350737813816173,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

@@ -2,7 +2,7 @@
 
 **Description** : *Reorder folders*
 
-**Layer** : 222
+**Layer** : 225
 
 ```tl
 messages.updateDialogFiltersOrder#c563c1e4 order:Vector<int> = Bool;
@@ -28,6 +28,6 @@ messages.updateDialogFiltersOrder#c563c1e4 order:Vector<int> = Bool;
 
 ```php
 $bool = $client->messages->updateDialogFiltersOrder(
-	order : array(23),
+	order : array(12),
 );
 ```
