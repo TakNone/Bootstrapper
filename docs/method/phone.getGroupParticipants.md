@@ -2,7 +2,7 @@
 
 **Description** : *Get group call participants*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 phone.getGroupParticipants#c558d8ab call:InputGroupCall ids:Vector<InputPeer> sources:Vector<int> offset:string limit:int = phone.GroupParticipants;
@@ -41,12 +41,12 @@ phone.getGroupParticipants#c558d8ab call:InputGroupCall ids:Vector<InputPeer> so
 ```php
 $phoneGroupParticipants = $client->phone->getGroupParticipants(
 	call : $client->inputGroupCall(
-		id : 838971704690259654,
-		access_hash : 6529925586323461022,
+		id : 7786131621863057022,
+		access_hash : -7222738371538241962,
 	),
 	ids : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	sources : array(38),
-	offset : '8RfMQUn9T5BsxtPW',
-	limit : 37,
+	sources : array(13),
+	offset : 'u3csltDqg90xOX1e',
+	limit : 67,
 );
 ```

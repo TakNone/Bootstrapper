@@ -2,7 +2,7 @@
 
 **Description** : *The next time, the authentication code is to be delivered via an outgoing phone call*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.codeTypeCall#741cd3e3 = auth.CodeType;

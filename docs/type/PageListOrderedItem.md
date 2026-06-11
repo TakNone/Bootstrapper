@@ -2,11 +2,11 @@
 
 **Description** : *Represents an instant view ordered list*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-pageListOrderedItemText#5e068047 num:string text:RichText = PageListOrderedItem;
-pageListOrderedItemBlocks#98dd8936 num:string blocks:Vector<PageBlock> = PageListOrderedItem;
+pageListOrderedItemText#15031189 flags:# checkbox:flags.0?true checked:flags.1?true num:flags.2?string text:RichText value:flags.3?int type:flags.4?string = PageListOrderedItem;
+pageListOrderedItemBlocks#8ff2d5f0 flags:# checkbox:flags.0?true checked:flags.1?true num:flags.2?string blocks:Vector<PageBlock> value:flags.3?int type:flags.4?string = PageListOrderedItem;
 ```
 
 ---

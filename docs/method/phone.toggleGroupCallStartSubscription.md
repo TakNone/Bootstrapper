@@ -2,7 +2,7 @@
 
 **Description** : *Subscribe or unsubscribe to a scheduled group call*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 phone.toggleGroupCallStartSubscription#219c34e6 call:InputGroupCall subscribed:Bool = Updates;
@@ -39,9 +39,9 @@ phone.toggleGroupCallStartSubscription#219c34e6 call:InputGroupCall subscribed:B
 ```php
 $updates = $client->phone->toggleGroupCallStartSubscription(
 	call : $client->inputGroupCall(
-		id : 3038289047805964100,
-		access_hash : -173457449603045828,
+		id : -251788924842734037,
+		access_hash : -751608474639367847,
 	),
-	subscribed : true,
+	subscribed : false,
 );
 ```

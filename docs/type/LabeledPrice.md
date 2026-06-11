@@ -2,7 +2,7 @@
 
 **Description** : *Labeled pricetag*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 labeledPrice#cb296bf8 label:string amount:long = LabeledPrice;

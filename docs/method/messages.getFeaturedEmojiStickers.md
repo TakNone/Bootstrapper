@@ -2,7 +2,7 @@
 
 **Description** : *Gets featured custom emoji stickersets*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getFeaturedEmojiStickers#ecf6736 hash:long = messages.FeaturedStickers;

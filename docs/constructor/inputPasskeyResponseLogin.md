@@ -1,6 +1,6 @@
 # inputPasskeyResponseLogin
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPasskeyResponseLogin#c31fc14a client_data:DataJSON authenticator_data:bytes signature:bytes user_handle:string = InputPasskeyResponse;
@@ -30,10 +30,10 @@ inputPasskeyResponseLogin#c31fc14a client_data:DataJSON authenticator_data:bytes
 ```php
 $inputPasskeyResponse = $client->inputPasskeyResponseLogin(
 	client_data : $client->dataJSON(
-		data : 'uWD20bQPtJf8UkMa',
+		data : 'xDOEuFI1bzcZB8sm',
 	),
 	authenticator_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	signature : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	user_handle : 'h9dk5JOmAEQ8LuNn',
+	user_handle : 'Z82H4EBAquN13lho',
 );
 ```

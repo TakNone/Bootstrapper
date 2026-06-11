@@ -1,6 +1,6 @@
 # messageActionChangeCreator
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionChangeCreator#e188503b new_creator_id:long = MessageAction;
@@ -26,6 +26,6 @@ messageActionChangeCreator#e188503b new_creator_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChangeCreator(
-	new_creator_id : 6701003032141347071,
+	new_creator_id : 6169632914350881572,
 );
 ```

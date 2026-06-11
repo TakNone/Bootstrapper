@@ -2,7 +2,7 @@
 
 **Description** : *Saved server\-side order information*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.savedInfo#fb8fe43c flags:# has_saved_credentials:flags.1?true saved_info:flags.0?PaymentRequestedInfo = payments.SavedInfo;
@@ -32,16 +32,16 @@ payments.savedInfo#fb8fe43c flags:# has_saved_credentials:flags.1?true saved_inf
 $paymentsSavedInfo = $client->payments->savedInfo(
 	has_saved_credentials : true,
 	saved_info : $client->paymentRequestedInfo(
-		name : 'JbxcGkpVyKa218N6',
+		name : '3t9JTiezw4Eb5Ngq',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : 'FeJ4OlnH68mEdVzh',
-			street_line2 : 'j5lQL36Oqd0WGoYr',
-			city : 'rVj4CinbzlvSogEc',
-			state : 'hD2nwEVdbaSorNuH',
-			country_iso2 : 'eGnZdjpUmftcQBEO',
-			post_code : 'pgINzdYaPtw5c3xr',
+			street_line1 : 'RfkEi1gTlPKOYtwv',
+			street_line2 : 'lFr3HJAKmagRj1Q8',
+			city : 'rdfhnk8RjsVGIuto',
+			state : '9hGenMBiFWovSNcL',
+			country_iso2 : 'cGiMQaW73l0yrgoB',
+			post_code : 'G4irFcMptzY1EQvq',
 		),
 	),
 );

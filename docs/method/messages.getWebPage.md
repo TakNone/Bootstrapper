@@ -2,7 +2,7 @@
 
 **Description** : *Get instant view page*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getWebPage#8d9692a3 url:string hash:int = messages.WebPage;

@@ -1,6 +1,6 @@
 # updateManagedBot
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateManagedBot#4880ed9a user_id:long bot_id:long qts:int = Update;
@@ -28,8 +28,8 @@ updateManagedBot#4880ed9a user_id:long bot_id:long qts:int = Update;
 
 ```php
 $update = $client->updateManagedBot(
-	user_id : 6042553949643078050,
-	bot_id : 2599728234756710660,
-	qts : 84,
+	user_id : -7338046139934082242,
+	bot_id : 7910292720424708661,
+	qts : 42,
 );
 ```

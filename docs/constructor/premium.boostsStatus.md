@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about the current boost status of a peer*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 premium.boostsStatus#4959427a flags:# my_boost:flags.2?true level:int current_level_boosts:int boosts:int gift_boosts:flags.4?int next_level_boosts:flags.0?int premium_audience:flags.1?StatsPercentValue boost_url:string prepaid_giveaways:flags.3?Vector<PrepaidGiveaway> my_boost_slots:flags.2?Vector<int> = premium.BoostsStatus;
@@ -39,31 +39,31 @@ premium.boostsStatus#4959427a flags:# my_boost:flags.2?true level:int current_le
 ```php
 $premiumBoostsStatus = $client->premium->boostsStatus(
 	my_boost : true,
-	level : 9,
-	current_level_boosts : 54,
-	boosts : 59,
-	gift_boosts : 95,
-	next_level_boosts : 83,
+	level : 74,
+	current_level_boosts : 53,
+	boosts : 89,
+	gift_boosts : 19,
+	next_level_boosts : 62,
 	premium_audience : $client->statsPercentValue(
-		part : -1032108.9111328125,
-		total : 1346254.52734375,
+		part : -1488557.6845703125,
+		total : 493543.0419921875,
 	),
 	boost_url : 'https://docs.liveproto.dev',
 	prepaid_giveaways : array(
 		$client->prepaidGiveaway(
-			id : -1915686656165207167,
-			months : 65,
-			quantity : 91,
-			date : 24,
+			id : 5098624505455866070,
+			months : 81,
+			quantity : 23,
+			date : 97,
 		),
 		$client->prepaidStarsGiveaway(
-			id : 7924191428419764670,
-			stars : -238571118420235361,
-			quantity : 0,
-			boosts : 59,
-			date : 7,
+			id : 6031256828687886447,
+			stars : 7139543692235890998,
+			quantity : 20,
+			boosts : 17,
+			date : 72,
 		),
 	),
-	my_boost_slots : array(72),
+	my_boost_slots : array(53),
 );
 ```

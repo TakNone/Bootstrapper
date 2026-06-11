@@ -2,7 +2,7 @@
 
 **Description** : *A chat theme*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatTheme#c3dffc04 emoticon:string = ChatTheme;

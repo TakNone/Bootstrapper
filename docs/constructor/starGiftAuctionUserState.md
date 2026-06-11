@@ -1,6 +1,6 @@
 # starGiftAuctionUserState
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftAuctionUserState#2eeed1c4 flags:# returned:flags.1?true bid_amount:flags.0?long bid_date:flags.0?int min_bid_amount:flags.0?long bid_peer:flags.0?Peer acquired_count:int = StarGiftAuctionUserState;
@@ -33,12 +33,12 @@ starGiftAuctionUserState#2eeed1c4 flags:# returned:flags.1?true bid_amount:flags
 ```php
 $starGiftAuctionUserState = $client->starGiftAuctionUserState(
 	returned : true,
-	bid_amount : 2822754248337358565,
-	bid_date : 71,
-	min_bid_amount : -4192058956740695976,
+	bid_amount : -6632389885034143897,
+	bid_date : 98,
+	min_bid_amount : -7348073474873480221,
 	bid_peer : $client->peerUser(
-		user_id : 126631001023873053,
+		user_id : -2530424434288199150,
 	),
-	acquired_count : 96,
+	acquired_count : 57,
 );
 ```

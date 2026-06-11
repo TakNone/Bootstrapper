@@ -1,6 +1,6 @@
 # messageEntityDiffInsert
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
@@ -28,6 +28,6 @@ messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityDiffInsert(
 	offset : 0,
-	length : 61,
+	length : 78,
 );
 ```

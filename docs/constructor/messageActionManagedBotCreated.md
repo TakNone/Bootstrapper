@@ -1,6 +1,6 @@
 # messageActionManagedBotCreated
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
@@ -26,6 +26,6 @@ messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionManagedBotCreated(
-	bot_id : 755628419211090058,
+	bot_id : 2596074488964892445,
 );
 ```

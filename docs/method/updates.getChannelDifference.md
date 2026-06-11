@@ -2,7 +2,7 @@
 
 **Description** : *Returns the difference between the current state of updates of a certain channel and transmitted*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updates.getChannelDifference#3173d78 flags:# force:flags.0?true channel:InputChannel filter:ChannelMessagesFilter pts:int limit:int = updates.ChannelDifference;
@@ -57,7 +57,7 @@ $updatesChannelDifference = $client->updates->getChannelDifference(
 	force : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	filter : $client->channelMessagesFilterEmpty(),
-	pts : 62,
-	limit : 48,
+	pts : 4,
+	limit : 67,
 );
 ```

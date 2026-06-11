@@ -1,6 +1,6 @@
 # messageActionNoForwardsToggle
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionNoForwardsToggle#bf7d6572 prev_value:Bool new_value:Bool = MessageAction;
@@ -28,6 +28,6 @@ messageActionNoForwardsToggle#bf7d6572 prev_value:Bool new_value:Bool = MessageA
 ```php
 $messageAction = $client->messageActionNoForwardsToggle(
 	prev_value : true,
-	new_value : true,
+	new_value : false,
 );
 ```

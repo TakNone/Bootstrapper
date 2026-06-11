@@ -2,7 +2,7 @@
 
 **Description** : *Defines a sticker*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 documentAttributeSticker#6319d612 flags:# mask:flags.1?true alt:string stickerset:InputStickerSet mask_coords:flags.0?MaskCoords = DocumentAttribute;
@@ -33,13 +33,13 @@ documentAttributeSticker#6319d612 flags:# mask:flags.1?true alt:string stickerse
 ```php
 $documentAttribute = $client->documentAttributeSticker(
 	mask : true,
-	alt : 'e65fj3rGKM4C2A7F',
+	alt : 'FSjymZvBzNLH4nbc',
 	stickerset : $client->inputStickerSetEmpty(),
 	mask_coords : $client->maskCoords(
-		n : 48,
-		x : 667451.7646484375,
-		y : -1706733.7255859375,
-		zoom : -1012530.751953125,
+		n : 30,
+		x : 582727.2177734375,
+		y : -427162.20703125,
+		zoom : 577135.92578125,
 	),
 );
 ```

@@ -1,6 +1,6 @@
 # updateEmojiGameInfo
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateEmojiGameInfo#fb9c547a info:messages.EmojiGameInfo = Update;

@@ -2,7 +2,7 @@
 
 **Description** : *Set time\-to\-live of current session*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.setAuthorizationTTL#bf899aa0 authorization_ttl_days:int = Bool;
@@ -37,6 +37,6 @@ account.setAuthorizationTTL#bf899aa0 authorization_ttl_days:int = Bool;
 
 ```php
 $bool = $client->account->setAuthorizationTTL(
-	authorization_ttl_days : 43,
+	authorization_ttl_days : 23,
 );
 ```

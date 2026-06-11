@@ -2,7 +2,7 @@
 
 **Description** : *Animated emoji reaction stickerset \(contains animations to play when a user clicks on a given animated emoji\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputStickerSetAnimatedEmojiAnimations#cde3739 = InputStickerSet;

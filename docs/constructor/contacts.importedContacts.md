@@ -2,7 +2,7 @@
 
 **Description** : *Info on successfully imported contacts*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 contacts.importedContacts#77d01c3b imported:Vector<ImportedContact> popular_invites:Vector<PopularContact> retry_contacts:Vector<long> users:Vector<User> = contacts.ImportedContacts;
@@ -33,20 +33,20 @@ contacts.importedContacts#77d01c3b imported:Vector<ImportedContact> popular_invi
 $contactsImportedContacts = $client->contacts->importedContacts(
 	imported : array(
 		$client->importedContact(
-			user_id : -4013560592472349982,
-			client_id : 6987267755485176518,
+			user_id : 2402913893825898342,
+			client_id : -6270593904841968678,
 		),
 	),
 	popular_invites : array(
 		$client->popularContact(
-			client_id : -9123044721145507049,
-			importers : 16,
+			client_id : 1313603433552579839,
+			importers : 95,
 		),
 	),
-	retry_contacts : array(-7723024490296091692),
+	retry_contacts : array(4389096367019196412),
 	users : array(
 		$client->userEmpty(
-			id : 865160185466833763,
+			id : 3625452985595583172,
 		),
 		$client->user(
 			self : true,
@@ -78,24 +78,25 @@ $contactsImportedContacts = $client->contacts->importedContacts(
 			bot_forum_can_manage_topics : true,
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
-			id : 5365536554878349955,
-			access_hash : 1887554272189055839,
+			bot_guard : true,
+			id : -9090374258067753010,
+			access_hash : -4699863020141999285,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 11,
+			bot_info_version : 66,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'vQ5WKBx2Of4EULVs',
-					reason : 'JdKiNwbgaHDp4S51',
-					text : '4pgDT1KSxPs6Idal',
+					platform : 'chj490GOyg8zxUw1',
+					reason : 'FyxignvjZwTINHJD',
+					text : 'JM3gny5RtHh4A81a',
 				),
 			),
-			bot_inline_placeholder : 'PFsqHBrxNim42fUY',
-			lang_code : 'TqdbnOmFzHVYwyIJ',
+			bot_inline_placeholder : 'JZSqaUA7CrNEndLl',
+			lang_code : 'esZW2L6pE8wxzU3o',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -106,19 +107,19 @@ $contactsImportedContacts = $client->contacts->importedContacts(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 23,
+				max_id : 15,
 			),
 			color : $client->peerColor(
-				color : 93,
-				background_emoji_id : -1347084544422581126,
+				color : 4,
+				background_emoji_id : -6653088333445693614,
 			),
 			profile_color : $client->peerColor(
-				color : 94,
-				background_emoji_id : 230358814762680803,
+				color : 87,
+				background_emoji_id : 7756752448003020398,
 			),
-			bot_active_users : 100,
-			bot_verification_icon : -5434748533810974958,
-			send_paid_messages_stars : -5794419966036117583,
+			bot_active_users : 5,
+			bot_verification_icon : 3337811925085171704,
+			send_paid_messages_stars : 4028298179447383303,
 		),
 	),
 );

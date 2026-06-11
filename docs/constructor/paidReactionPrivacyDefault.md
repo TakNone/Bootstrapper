@@ -2,7 +2,7 @@
 
 **Description** : *Uses the default reaction privacy, set using messages\.togglePaidReactionPrivacy*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 paidReactionPrivacyDefault#206ad49e = PaidReactionPrivacy;

@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on an encrypted chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 encryptedChatEmpty#ab7ec0a0 id:int = EncryptedChat;

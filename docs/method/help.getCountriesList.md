@@ -2,7 +2,7 @@
 
 **Description** : *Get name, ISO code, localized name and phone codes/patterns of all available countries*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 help.getCountriesList#735787a8 lang_code:string hash:int = help.CountriesList;
@@ -29,7 +29,7 @@ help.getCountriesList#735787a8 lang_code:string hash:int = help.CountriesList;
 
 ```php
 $helpCountriesList = $client->help->getCountriesList(
-	lang_code : 'IFKcBZkMHRphX1mn',
+	lang_code : 'JNlk5pSnfUVeuyX8',
 	hash : 0,
 );
 ```

@@ -1,6 +1,6 @@
 # stats.PollStats
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;

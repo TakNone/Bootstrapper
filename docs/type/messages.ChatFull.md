@@ -2,7 +2,7 @@
 
 **Description** : *Full info about a channel, supergroup, gigagroup or basic group*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.chatFull#e5d7d19c full_chat:ChatFull chats:Vector<Chat> users:Vector<User> = messages.ChatFull;

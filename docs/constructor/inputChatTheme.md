@@ -2,7 +2,7 @@
 
 **Description** : *Set an emoji\-based chat theme, returned by account\.getChatThemes*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputChatTheme#c93de95c emoticon:string = InputChatTheme;
@@ -28,6 +28,6 @@ inputChatTheme#c93de95c emoticon:string = InputChatTheme;
 
 ```php
 $inputChatTheme = $client->inputChatTheme(
-	emoticon : 'H6NQzRF5cP3ShCyV',
+	emoticon : 'YEKUBCOeMlwNXPpg',
 );
 ```

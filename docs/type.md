@@ -3564,3 +3564,39 @@
 ##### bots AccessSettings
 
 :link: [*NOTHING*](type/bots.AccessSettings)
+
+---
+
+##### messages ChatInviteJoinResult
+
+:link: [*NOTHING*](type/messages.ChatInviteJoinResult)
+
+---
+
+##### JoinChatBotResult
+
+:link: [*NOTHING*](type/JoinChatBotResult)
+
+---
+
+##### WebDomainException
+
+:link: [*NOTHING*](type/WebDomainException)
+
+---
+
+##### account WebBrowserSettings
+
+:link: [*NOTHING*](type/account.WebBrowserSettings)
+
+---
+
+##### RichMessage
+
+:link: [*NOTHING*](type/RichMessage)
+
+---
+
+##### InputRichMessage
+
+:link: [*NOTHING*](type/InputRichMessage)

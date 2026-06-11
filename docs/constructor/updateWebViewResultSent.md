@@ -2,7 +2,7 @@
 
 **Description** : *Indicates to a bot that a webview was closed and an inline message was sent on behalf of the user using messages\.sendWebViewResultMessage*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateWebViewResultSent#1592b79d query_id:long = Update;
@@ -28,6 +28,6 @@ updateWebViewResultSent#1592b79d query_id:long = Update;
 
 ```php
 $update = $client->updateWebViewResultSent(
-	query_id : -7057132442596025708,
+	query_id : 7953765316120274982,
 );
 ```

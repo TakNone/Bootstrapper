@@ -2,7 +2,7 @@
 
 **Description** : *Used to fetch information about a direct link Mini App by its short name*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputBotAppShortName#908c0407 bot_id:InputUser short_name:string = InputBotApp;
@@ -30,6 +30,6 @@ inputBotAppShortName#908c0407 bot_id:InputUser short_name:string = InputBotApp;
 ```php
 $inputBotApp = $client->inputBotAppShortName(
 	bot_id : $client->get_input_user(user : '@TakNone'),
-	short_name : 'dZH5YJ0rmEXGkxgu',
+	short_name : '8MCSg2h6Ysj4DifB',
 );
 ```

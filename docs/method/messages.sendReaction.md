@@ -2,7 +2,7 @@
 
 **Description** : *React to message*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.sendReaction#d30d78d4 flags:# big:flags.1?true add_to_recent:flags.2?true peer:InputPeer msg_id:int reaction:flags.0?Vector<Reaction> = Updates;
@@ -58,14 +58,14 @@ $updates = $client->messages->sendReaction(
 	big : true,
 	add_to_recent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 6,
+	msg_id : 1,
 	reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'gAROVzIZQ6DJS0sm',
+			emoticon : 'pDVQAKeP7H9IBhvY',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 2525702216870248494,
+			document_id : -8477644168380855735,
 		),
 		$client->reactionPaid(),
 	),

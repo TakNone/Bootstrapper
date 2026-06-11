@@ -1,6 +1,6 @@
 # webPageAttributeAiComposeTone
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 webPageAttributeAiComposeTone#7781fe18 emoji_id:long = WebPageAttribute;
@@ -26,6 +26,6 @@ webPageAttributeAiComposeTone#7781fe18 emoji_id:long = WebPageAttribute;
 
 ```php
 $webPageAttribute = $client->webPageAttributeAiComposeTone(
-	emoji_id : -6626551636037594417,
+	emoji_id : 3868455700144485530,
 );
 ```

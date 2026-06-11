@@ -2,7 +2,7 @@
 
 **Description** : *Phone number to use in telegram passport: it must be verified, first &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 securePlainPhone#7d6099dd phone:string = SecurePlainData;

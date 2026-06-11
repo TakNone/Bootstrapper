@@ -2,7 +2,7 @@
 
 **Description** : *Show or hide the real\-time chat translation popup for a certain chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.togglePeerTranslations#e47cb579 flags:# disabled:flags.0?true peer:InputPeer = Bool;

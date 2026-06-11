@@ -2,7 +2,7 @@
 
 **Description** : *A quick reply shortcut*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 quickReply#697102b shortcut_id:int shortcut:string top_message:int count:int = QuickReply;

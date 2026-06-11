@@ -2,7 +2,7 @@
 
 **Description** : *Get live location history of a certain user*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getRecentLocations#702a40e0 peer:InputPeer limit:int hash:long = messages.Messages;
@@ -31,7 +31,7 @@ messages.getRecentLocations#702a40e0 peer:InputPeer limit:int hash:long = messag
 ```php
 $messagesMessages = $client->messages->getRecentLocations(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	limit : 89,
+	limit : 43,
 	hash : 0,
 );
 ```

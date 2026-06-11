@@ -1,6 +1,6 @@
 # aicompose.deleteTone
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 aicompose.deleteTone#dd39316a tone:InputAiComposeTone = Bool;
@@ -27,7 +27,7 @@ aicompose.deleteTone#dd39316a tone:InputAiComposeTone = Bool;
 ```php
 $bool = $client->aicompose->deleteTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : '8MniGsFIUSuZWetd',
+		tone : 'z9JBKoUuEv5PADwV',
 	),
 );
 ```

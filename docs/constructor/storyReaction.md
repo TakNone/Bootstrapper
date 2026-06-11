@@ -2,7 +2,7 @@
 
 **Description** : *How a certain peer reacted to a story*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 storyReaction#6090d6d5 peer_id:Peer date:int reaction:Reaction = StoryReaction;
@@ -31,9 +31,9 @@ storyReaction#6090d6d5 peer_id:Peer date:int reaction:Reaction = StoryReaction;
 ```php
 $storyReaction = $client->storyReaction(
 	peer_id : $client->peerUser(
-		user_id : -5010243112302757204,
+		user_id : -2388852976217949542,
 	),
-	date : 81,
+	date : 54,
 	reaction : $client->reactionEmpty(),
 );
 ```

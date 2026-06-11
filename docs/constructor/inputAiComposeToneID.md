@@ -1,6 +1,6 @@
 # inputAiComposeToneID
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputAiComposeToneID#773c080 id:long access_hash:long = InputAiComposeTone;
@@ -27,7 +27,7 @@ inputAiComposeToneID#773c080 id:long access_hash:long = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneID(
-	id : 7397074319449981641,
-	access_hash : -9109699230923842060,
+	id : 3823836738080586081,
+	access_hash : 2798824341464400938,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Join a bot&#039;s affiliate program, becoming an affiliate &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.connectStarRefBot#7ed5348a peer:InputPeer bot:InputUser = payments.ConnectedStarRefBots;

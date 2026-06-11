@@ -2,7 +2,7 @@
 
 **Description** : *Report menu option*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageReportOption#7903e3d9 text:string option:bytes = MessageReportOption;

@@ -1,6 +1,6 @@
 # inputPasskeyCredentialPublicKey
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPasskeyCredentialPublicKey#3c27b78f id:string raw_id:string response:InputPasskeyResponse = InputPasskeyCredential;
@@ -28,11 +28,11 @@ inputPasskeyCredentialPublicKey#3c27b78f id:string raw_id:string response:InputP
 
 ```php
 $inputPasskeyCredential = $client->inputPasskeyCredentialPublicKey(
-	id : 'yjNfoSEbvQBTulZp',
-	raw_id : 'ZbGtL45j2vVedUqs',
+	id : 'mC1Vkfs86Mgi9hcN',
+	raw_id : 'qHALr6FCwDkxPXQJ',
 	response : $client->inputPasskeyResponseRegister(
 		client_data : $client->dataJSON(
-			data : 'BFGD0SOHh27Mxo5J',
+			data : 'yAPCsNvbw5Kpe19l',
 		),
 		attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),

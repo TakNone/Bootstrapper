@@ -2,7 +2,7 @@
 
 **Description** : *Represents a sent inline message from the perspective of a bot*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputBotInlineMessageMediaAuto#3380c786 flags:# invert_media:flags.3?true message:string entities:flags.1?Vector<MessageEntity> reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
@@ -13,6 +13,7 @@ inputBotInlineMessageMediaContact#a6edbffd flags:# phone_number:string first_nam
 inputBotInlineMessageGame#4b425864 flags:# reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
 inputBotInlineMessageMediaInvoice#d7e78225 flags:# title:string description:string photo:flags.0?InputWebDocument invoice:Invoice payload:bytes provider:string provider_data:DataJSON reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
 inputBotInlineMessageMediaWebPage#bddcc510 flags:# invert_media:flags.3?true force_large_media:flags.4?true force_small_media:flags.5?true optional:flags.6?true message:string entities:flags.1?Vector<MessageEntity> url:string reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
+inputBotInlineMessageRichMessage#b43df56c flags:# reply_markup:flags.2?ReplyMarkup rich_message:InputRichMessage = InputBotInlineMessage;
 ```
 
 ---
@@ -29,3 +30,4 @@ inputBotInlineMessageMediaWebPage#bddcc510 flags:# invert_media:flags.3?true for
 | [**inputBotInlineMessageGame**](constructor/inputBotInlineMessageGame) | A game |
 | [**inputBotInlineMessageMediaInvoice**](constructor/inputBotInlineMessageMediaInvoice) | An invoice |
 | [**inputBotInlineMessageMediaWebPage**](constructor/inputBotInlineMessageMediaWebPage) | Specifies options that will be used to generate the link preview for the message, or even a standalone link preview without an attached message |
+| [**inputBotInlineMessageRichMessage**](constructor/inputBotInlineMessageRichMessage) | NOTHING |

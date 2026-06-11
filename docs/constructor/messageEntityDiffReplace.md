@@ -1,6 +1,6 @@
 # messageEntityDiffReplace
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = MessageEntity;
@@ -29,7 +29,7 @@ messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = Messag
 ```php
 $messageEntity = $client->messageEntityDiffReplace(
 	offset : 0,
-	length : 24,
-	old_text : 'keaODpNU8tAiduL9',
+	length : 31,
+	old_text : 'mEbTrdqjkSNuH1gZ',
 );
 ```

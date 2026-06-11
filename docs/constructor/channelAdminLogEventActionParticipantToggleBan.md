@@ -2,7 +2,7 @@
 
 **Description** : *The banned rights of a user were changed*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelAdminLogEventActionParticipantToggleBan#e6d83d7e prev_participant:ChannelParticipant new_participant:ChannelParticipant = ChannelAdminLogEventAction;
@@ -30,16 +30,16 @@ channelAdminLogEventActionParticipantToggleBan#e6d83d7e prev_participant:Channel
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantToggleBan(
 	prev_participant : $client->channelParticipant(
-		user_id : -6248980200777881148,
-		date : 41,
-		subscription_until_date : 64,
-		rank : 'OceE5HRh6WkmSZDV',
+		user_id : 7611142196661632105,
+		date : 53,
+		subscription_until_date : 62,
+		rank : '6ayphuURgsLE4Jrl',
 	),
 	new_participant : $client->channelParticipant(
-		user_id : -6168481782105728101,
-		date : 42,
-		subscription_until_date : 35,
-		rank : 'zdu5cT8fR9ayjsq6',
+		user_id : -2269149519362725619,
+		date : 55,
+		subscription_until_date : 8,
+		rank : 'dVa1o46UWj3Dt7wN',
 	),
 );
 ```

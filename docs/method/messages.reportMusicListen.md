@@ -1,6 +1,6 @@
 # messages.reportMusicListen
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.reportMusicListen#ddbcd819 id:InputDocument listened_duration:int = Bool;
@@ -28,6 +28,6 @@ messages.reportMusicListen#ddbcd819 id:InputDocument listened_duration:int = Boo
 ```php
 $bool = $client->messages->reportMusicListen(
 	id : $client->inputDocumentEmpty(),
-	listened_duration : 84,
+	listened_duration : 31,
 );
 ```

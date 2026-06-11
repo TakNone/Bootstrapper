@@ -1,6 +1,6 @@
 # topPeerCategoryBotsGuestChat
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 topPeerCategoryBotsGuestChat#6c24f3dd = TopPeerCategory;

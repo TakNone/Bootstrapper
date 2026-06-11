@@ -1,6 +1,6 @@
 # StarGiftAuctionRound
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;

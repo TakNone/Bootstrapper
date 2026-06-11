@@ -2,7 +2,7 @@
 
 **Description** : *A message was deleted in a connected business chat &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateBotDeleteBusinessMessage#a02a982e connection_id:string peer:Peer messages:Vector<int> qts:int = Update;
@@ -31,11 +31,11 @@ updateBotDeleteBusinessMessage#a02a982e connection_id:string peer:Peer messages:
 
 ```php
 $update = $client->updateBotDeleteBusinessMessage(
-	connection_id : 'rewGJ2dHioApfPNk',
+	connection_id : 'NbiOgGVm84ZfPx1W',
 	peer : $client->peerUser(
-		user_id : 6541364657094677478,
+		user_id : -2209631602814781457,
 	),
-	messages : array(30),
-	qts : 33,
+	messages : array(90),
+	qts : 42,
 );
 ```

@@ -1,6 +1,6 @@
 # auth.finishPasskeyLogin
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.finishPasskeyLogin#9857ad07 flags:# credential:InputPasskeyCredential from_dc_id:flags.0?int from_auth_key_id:flags.0?long = auth.Authorization;
@@ -30,16 +30,16 @@ auth.finishPasskeyLogin#9857ad07 flags:# credential:InputPasskeyCredential from_
 ```php
 $authAuthorization = $client->auth->finishPasskeyLogin(
 	credential : $client->inputPasskeyCredentialPublicKey(
-		id : 'ej8Qy9ExZf0FCBnl',
-		raw_id : '5pUTuHmxA3ZM0R6J',
+		id : '0rIPDOMK5huogiFR',
+		raw_id : 'tVxyIob7mj1L6N2M',
 		response : $client->inputPasskeyResponseRegister(
 			client_data : $client->dataJSON(
-				data : '7Pegyw3Silnu4qHO',
+				data : 'q2wJ9a5Itu6HpPe1',
 			),
 			attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	from_dc_id : 67,
-	from_auth_key_id : -8118019396774469247,
+	from_dc_id : 29,
+	from_auth_key_id : 7043991862194186662,
 );
 ```

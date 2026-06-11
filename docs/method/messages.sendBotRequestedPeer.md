@@ -2,7 +2,7 @@
 
 **Description** : *Send one or more chosen peers, as requested by a keyboardButtonRequestPeer button*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.sendBotRequestedPeer#6c5cf2a7 flags:# peer:InputPeer msg_id:flags.0?int webapp_req_id:flags.1?string button_id:int requested_peers:Vector<InputPeer> = Updates;
@@ -43,9 +43,9 @@ messages.sendBotRequestedPeer#6c5cf2a7 flags:# peer:InputPeer msg_id:flags.0?int
 ```php
 $updates = $client->messages->sendBotRequestedPeer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 85,
-	webapp_req_id : 'zcVMjRAJ8wbekULB',
-	button_id : 19,
+	msg_id : 75,
+	webapp_req_id : 'ZIvrBsVA5LStTM8i',
+	button_id : 44,
 	requested_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

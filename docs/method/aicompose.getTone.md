@@ -1,6 +1,6 @@
 # aicompose.getTone
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 aicompose.getTone#b2e8ba03 tone:InputAiComposeTone = aicompose.Tones;
@@ -27,7 +27,7 @@ aicompose.getTone#b2e8ba03 tone:InputAiComposeTone = aicompose.Tones;
 ```php
 $aicomposeTones = $client->aicompose->getTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'YI78ZyoDn4F2r5OH',
+		tone : 'JCU8NYTDB0AoLxdp',
 	),
 );
 ```

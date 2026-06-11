@@ -2,7 +2,7 @@
 
 **Description** : *You won some Telegram Stars in a Telegram Star giveaway &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionPrizeStars#b00c47a2 flags:# unclaimed:flags.0?true stars:long transaction_id:string boost_peer:Peer giveaway_msg_id:int = MessageAction;
@@ -34,11 +34,11 @@ messageActionPrizeStars#b00c47a2 flags:# unclaimed:flags.0?true stars:long trans
 ```php
 $messageAction = $client->messageActionPrizeStars(
 	unclaimed : true,
-	stars : 183666182890525768,
-	transaction_id : '7dlhBMI2HCw8breE',
+	stars : 3585840336926933324,
+	transaction_id : 'wlZJaiOyS41AYVpz',
 	boost_peer : $client->peerUser(
-		user_id : 1394930678086265069,
+		user_id : -8315054920656828464,
 	),
-	giveaway_msg_id : 44,
+	giveaway_msg_id : 54,
 );
 ```

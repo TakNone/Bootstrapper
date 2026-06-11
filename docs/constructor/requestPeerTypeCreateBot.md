@@ -1,6 +1,6 @@
 # requestPeerTypeCreateBot
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 requestPeerTypeCreateBot#3e81e078 flags:# bot_managed:flags.0?true suggested_name:flags.1?string suggested_username:flags.2?string = RequestPeerType;
@@ -30,7 +30,7 @@ requestPeerTypeCreateBot#3e81e078 flags:# bot_managed:flags.0?true suggested_nam
 ```php
 $requestPeerType = $client->requestPeerTypeCreateBot(
 	bot_managed : true,
-	suggested_name : 'icU5JCIFMupfg1L2',
+	suggested_name : 'mzGrsoZBiSAxVJRD',
 	suggested_username : 'TakNone',
 );
 ```

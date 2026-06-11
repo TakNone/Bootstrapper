@@ -2,7 +2,7 @@
 
 **Description** : *Represents a forum topic*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 forumTopic#fcdad815 flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true title_missing:flags.7?true id:int date:int peer:Peer title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int unread_poll_votes_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
@@ -56,28 +56,28 @@ $forumTopic = $client->forumTopic(
 	short : true,
 	hidden : true,
 	title_missing : true,
-	id : 25,
-	date : 29,
+	id : 6,
+	date : 78,
 	peer : $client->peerUser(
-		user_id : -1563073826899648379,
+		user_id : 8579041081703472971,
 	),
-	title : '9hUbomaQvWkjdcDN',
-	icon_color : 30,
-	icon_emoji_id : 5381326168502995502,
-	top_message : 12,
-	read_inbox_max_id : 28,
-	read_outbox_max_id : 5,
-	unread_count : 73,
-	unread_mentions_count : 35,
-	unread_reactions_count : 79,
-	unread_poll_votes_count : 62,
+	title : 'uJTlBFceo87ILQxa',
+	icon_color : 94,
+	icon_emoji_id : 7501498460226527782,
+	top_message : 94,
+	read_inbox_max_id : 27,
+	read_outbox_max_id : 37,
+	unread_count : 14,
+	unread_mentions_count : 32,
+	unread_reactions_count : 61,
+	unread_poll_votes_count : 46,
 	from_id : $client->peerUser(
-		user_id : -4907247012853085871,
+		user_id : -4934493661827660592,
 	),
 	notify_settings : $client->peerNotifySettings(
 		show_previews : true,
-		silent : false,
-		mute_until : 77,
+		silent : true,
+		mute_until : 1,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
@@ -88,7 +88,7 @@ $forumTopic = $client->forumTopic(
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	draft : $client->draftMessageEmpty(
-		date : 72,
+		date : 2,
 	),
 );
 ```

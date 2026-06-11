@@ -2,7 +2,7 @@
 
 **Description** : *JSON numeric value*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 jsonNumber#2be0dfa4 value:double = JSONValue;
@@ -28,6 +28,6 @@ jsonNumber#2be0dfa4 value:double = JSONValue;
 
 ```php
 $jSONValue = $client->jsonNumber(
-	value : 1960340.5302734375,
+	value : 127574.58984375,
 );
 ```

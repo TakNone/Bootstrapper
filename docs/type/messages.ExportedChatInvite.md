@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a chat invite, and eventually a pointer to the newest chat invite*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.exportedChatInvite#1871be50 invite:ExportedChatInvite users:Vector<User> = messages.ExportedChatInvite;

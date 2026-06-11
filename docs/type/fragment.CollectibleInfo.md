@@ -2,7 +2,7 @@
 
 **Description** : *Info about a fragment collectible*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 fragment.collectibleInfo#6ebdff91 purchase_date:int currency:string amount:long crypto_currency:string crypto_amount:long url:string = fragment.CollectibleInfo;

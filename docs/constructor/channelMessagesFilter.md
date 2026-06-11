@@ -2,7 +2,7 @@
 
 **Description** : *Filter for getting only certain types of channel messages*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelMessagesFilter#cd77d957 flags:# exclude_new_messages:flags.1?true ranges:Vector<MessageRange> = ChannelMessagesFilter;
@@ -33,8 +33,8 @@ $channelMessagesFilter = $client->channelMessagesFilter(
 	exclude_new_messages : true,
 	ranges : array(
 		$client->messageRange(
-			min_id : 6,
-			max_id : 69,
+			min_id : 50,
+			max_id : 35,
 		),
 	),
 );

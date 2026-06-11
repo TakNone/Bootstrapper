@@ -2,7 +2,7 @@
 
 **Description** : *Empty media content of a message*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputMediaEmpty#9664f57f = InputMedia;

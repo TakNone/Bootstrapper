@@ -2,7 +2,7 @@
 
 **Description** : *Allow only close friends &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPrivacyValueAllowCloseFriends#2f453e49 = InputPrivacyRule;

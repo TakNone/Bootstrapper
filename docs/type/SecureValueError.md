@@ -2,7 +2,7 @@
 
 **Description** : *Secure value error*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 secureValueErrorData#e8a40bd9 type:SecureValueType data_hash:bytes field:string text:string = SecureValueError;

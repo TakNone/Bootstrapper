@@ -2,7 +2,7 @@
 
 **Description** : *Channel participant*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelParticipant#1bd54456 flags:# user_id:long date:int subscription_until_date:flags.0?int rank:flags.2?string = ChannelParticipant;

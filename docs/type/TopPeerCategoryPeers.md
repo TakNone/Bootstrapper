@@ -2,7 +2,7 @@
 
 **Description** : *Top peers by top peer category*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 topPeerCategoryPeers#fb834291 category:TopPeerCategory count:int peers:Vector<TopPeer> = TopPeerCategoryPeers;

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a stickerset*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputStickerSetEmpty#ffb62b95 = InputStickerSet;

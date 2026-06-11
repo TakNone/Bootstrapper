@@ -2,7 +2,7 @@
 
 **Description** : *Finish an SMS job \(official clients only\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 smsjobs.finishJob#4f1ebf24 flags:# job_id:string error:flags.0?string = Bool;
@@ -38,7 +38,7 @@ smsjobs.finishJob#4f1ebf24 flags:# job_id:string error:flags.0?string = Bool;
 
 ```php
 $bool = $client->smsjobs->finishJob(
-	job_id : 'obGhnROXec9BtPgm',
-	error : 'pPAbSNUzQemB2KhL',
+	job_id : 'CTky8KbVQol7tmjs',
+	error : 'o18f0j7neVBawSbZ',
 );
 ```

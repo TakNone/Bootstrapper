@@ -2,7 +2,7 @@
 
 **Description** : *Export an invite link for a chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.exportChatInvite#a455de90 flags:# legacy_revoke_permanent:flags.2?true request_needed:flags.3?true peer:InputPeer expire_date:flags.0?int usage_limit:flags.1?int title:flags.4?string subscription_pricing:flags.5?StarsSubscriptionPricing = ExportedChatInvite;
@@ -57,12 +57,12 @@ $exportedChatInvite = $client->messages->exportChatInvite(
 	legacy_revoke_permanent : true,
 	request_needed : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	expire_date : 93,
-	usage_limit : 31,
-	title : 'AeLr1aupqXRJZgUM',
+	expire_date : 52,
+	usage_limit : 21,
+	title : 'KvziJGxEhuFWoMZO',
 	subscription_pricing : $client->starsSubscriptionPricing(
-		period : 4,
-		amount : -6674412649482629136,
+		period : 13,
+		amount : 5090349943995830554,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Changes username for the current user*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.updateUsername#3e0bdd7c username:string = User;

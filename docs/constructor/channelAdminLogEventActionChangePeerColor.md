@@ -2,7 +2,7 @@
 
 **Description** : *The message accent color was changed*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelAdminLogEventActionChangePeerColor#5796e780 prev_value:PeerColor new_value:PeerColor = ChannelAdminLogEventAction;
@@ -30,12 +30,12 @@ channelAdminLogEventActionChangePeerColor#5796e780 prev_value:PeerColor new_valu
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangePeerColor(
 	prev_value : $client->peerColor(
-		color : 46,
-		background_emoji_id : -8833775409278765264,
+		color : 2,
+		background_emoji_id : -1299097177118261986,
 	),
 	new_value : $client->peerColor(
-		color : 59,
-		background_emoji_id : -6826446835552343586,
+		color : 30,
+		background_emoji_id : 3333128336110716983,
 	),
 );
 ```

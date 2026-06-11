@@ -2,7 +2,7 @@
 
 **Description** : *Reorder story albums on a profile &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.reorderAlbums#8535fbd9 peer:InputPeer order:Vector<int> = Bool;
@@ -38,6 +38,6 @@ stories.reorderAlbums#8535fbd9 peer:InputPeer order:Vector<int> = Bool;
 ```php
 $bool = $client->stories->reorderAlbums(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	order : array(12),
+	order : array(28),
 );
 ```

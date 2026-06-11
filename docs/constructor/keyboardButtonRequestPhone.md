@@ -2,7 +2,7 @@
 
 **Description** : *Button to request a user&#039;s phone number*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 keyboardButtonRequestPhone#417efd8f flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
@@ -34,8 +34,8 @@ $keyboardButton = $client->keyboardButtonRequestPhone(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -1066592670138584516,
+		icon : -5254917168486046083,
 	),
-	text : 'j9E2WIngl3DNQXYy',
+	text : 'UcWOTJeKMovi2AG9',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Encrypted chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 encryptedChat#61f0d4c7 id:int access_hash:long date:int admin_id:long participant_id:long g_a_or_b:bytes key_fingerprint:long = EncryptedChat;
@@ -34,12 +34,12 @@ encryptedChat#61f0d4c7 id:int access_hash:long date:int admin_id:long participan
 
 ```php
 $encryptedChat = $client->encryptedChat(
-	id : 63,
-	access_hash : -6755371481342776607,
-	date : 84,
-	admin_id : -8422249191851826411,
-	participant_id : -8363062562340580114,
+	id : 66,
+	access_hash : -7581747801617548690,
+	date : 53,
+	admin_id : -9162679301582060670,
+	participant_id : 6583532236867193155,
 	g_a_or_b : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	key_fingerprint : -2892381409822165238,
+	key_fingerprint : 5392342031777601401,
 );
 ```

@@ -2,10 +2,10 @@
 
 **Description** : *A photo*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-pageBlockPhoto#1759c560 flags:# photo_id:long caption:PageCaption url:flags.0?string webpage_id:flags.0?long = PageBlock;
+pageBlockPhoto#1759c560 flags:# spoiler:flags.1?true photo_id:long caption:PageCaption url:flags.0?string webpage_id:flags.0?long = PageBlock;
 ```
 
 ---
@@ -15,6 +15,7 @@ pageBlockPhoto#1759c560 flags:# photo_id:long caption:PageCaption url:flags.0?st
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **spoiler** | [`flags.1?true`](type/true) | NOTHING |
 | <mark>photo_id</mark> | [`long`](type/long) | Photo ID |
 | <mark>caption</mark> | [`PageCaption`](type/PageCaption) | Caption |
 | **url** | [`flags.0?string`](type/string) | HTTP URL of page the photo leads to when clicked |
@@ -32,12 +33,13 @@ pageBlockPhoto#1759c560 flags:# photo_id:long caption:PageCaption url:flags.0?st
 
 ```php
 $pageBlock = $client->pageBlockPhoto(
-	photo_id : -7019417653187430946,
+	spoiler : true,
+	photo_id : -4399763398781353220,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),
 	),
 	url : 'https://docs.liveproto.dev',
-	webpage_id : 4825663857097468918,
+	webpage_id : 4909433953362584076,
 );
 ```

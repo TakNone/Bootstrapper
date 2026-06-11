@@ -2,7 +2,7 @@
 
 **Description** : *Geographical location of supergroup \(geogroups\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelLocation#209b82db geo_point:GeoPoint address:string = ChannelLocation;
@@ -30,6 +30,6 @@ channelLocation#209b82db geo_point:GeoPoint address:string = ChannelLocation;
 ```php
 $channelLocation = $client->channelLocation(
 	geo_point : $client->geoPointEmpty(),
-	address : 'pPLHgcOZdK9Rkn2N',
+	address : 'X7uA3c6O9xlPBmvg',
 );
 ```

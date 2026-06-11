@@ -2,7 +2,7 @@
 
 **Description** : *Button to request a user&#039;s geolocation*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 keyboardButtonRequestGeoLocation#aa40f94d flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
@@ -34,8 +34,8 @@ $keyboardButton = $client->keyboardButtonRequestGeoLocation(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -1018776719666379746,
+		icon : -8173902401207204562,
 	),
-	text : '2zYVDmNHIgwStG7L',
+	text : 'W4Chrk9lKFGVIyis',
 );
 ```

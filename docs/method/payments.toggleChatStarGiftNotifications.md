@@ -2,7 +2,7 @@
 
 **Description** : *Enables or disables the reception of notifications every time a gift &raquo; is received by the specified channel, can only be invoked by admins with post\_messages admin rights*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.toggleChatStarGiftNotifications#60eaefa1 flags:# enabled:flags.0?true peer:InputPeer = Bool;

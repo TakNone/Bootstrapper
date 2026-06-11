@@ -2,7 +2,7 @@
 
 **Description** : *Represents the gifs tab of a profile page*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 profileTabGifs#a2c0f695 = ProfileTab;

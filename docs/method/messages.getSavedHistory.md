@@ -2,7 +2,7 @@
 
 **Description** : *Fetch saved messages &raquo; forwarded from a specific peer, or fetch messages from a monoforum topic &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getSavedHistory#998ab009 flags:# parent_peer:flags.0?InputPeer peer:InputPeer offset_id:int offset_date:int add_offset:int limit:int max_id:int min_id:int hash:long = messages.Messages;
@@ -49,10 +49,10 @@ $messagesMessages = $client->messages->getSavedHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 28,
-	limit : 2,
-	max_id : 55,
-	min_id : 71,
+	add_offset : 56,
+	limit : 34,
+	max_id : 75,
+	min_id : 23,
 	hash : 0,
 );
 ```

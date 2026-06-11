@@ -2,7 +2,7 @@
 
 **Description** : *Enable or disable folder tags &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.toggleDialogFilterTags#fd2dda49 enabled:Bool = Bool;
@@ -36,6 +36,6 @@ messages.toggleDialogFilterTags#fd2dda49 enabled:Bool = Bool;
 
 ```php
 $bool = $client->messages->toggleDialogFilterTags(
-	enabled : true,
+	enabled : false,
 );
 ```

@@ -2,10 +2,10 @@
 
 **Description** : *Video*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true video_id:long caption:PageCaption = PageBlock;
+pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true spoiler:flags.2?true video_id:long caption:PageCaption = PageBlock;
 ```
 
 ---
@@ -17,6 +17,7 @@ pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true video_id
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **autoplay** | [`flags.0?true`](type/true) | Whether the video is set to autoplay |
 | **loop** | [`flags.1?true`](type/true) | Whether the video is set to loop |
+| **spoiler** | [`flags.2?true`](type/true) | NOTHING |
 | <mark>video_id</mark> | [`long`](type/long) | Video ID |
 | <mark>caption</mark> | [`PageCaption`](type/PageCaption) | Caption |
 
@@ -34,7 +35,8 @@ pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true video_id
 $pageBlock = $client->pageBlockVideo(
 	autoplay : true,
 	loop : true,
-	video_id : -7073260196206309206,
+	spoiler : true,
+	video_id : 2437643106425206420,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

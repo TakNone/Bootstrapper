@@ -1,6 +1,6 @@
 # stories.startLive
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.startLive#d069ccde flags:# pinned:flags.2?true noforwards:flags.4?true rtmp_stream:flags.5?true peer:InputPeer caption:flags.0?string entities:flags.1?Vector<MessageEntity> privacy_rules:Vector<InputPrivacyRule> random_id:long messages_enabled:flags.6?Bool send_paid_messages_stars:flags.7?long = Updates;
@@ -40,27 +40,27 @@ $updates = $client->stories->startLive(
 	noforwards : true,
 	rtmp_stream : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	caption : 'nOLFDkcWolf6C1ts',
+	caption : 'x9ygcvzlo5t4ish2',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 19,
+			length : 28,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 90,
+			length : 33,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 35,
+			length : 44,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 85,
+			length : 15,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 54,
+			length : 82,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
@@ -68,43 +68,43 @@ $updates = $client->stories->startLive(
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 85,
+			length : 36,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 77,
+			length : 29,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 17,
+			length : 11,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 33,
-			language : 'dsOyR3nfIp9tC2iA',
+			length : 99,
+			language : '3yK1caJxGofjhi5Q',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 52,
+			length : 35,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 22,
-			user_id : -2597306976646790226,
+			length : 87,
+			user_id : 4651689170115560391,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 10,
+			length : 53,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 24,
+			length : 56,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 53,
+			length : 12,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
@@ -112,25 +112,25 @@ $updates = $client->stories->startLive(
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 26,
+			length : 43,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 26,
+			length : 80,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 45,
+			length : 70,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 22,
-			document_id : 6629734331471916300,
+			length : 20,
+			document_id : -531972018626910592,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 1,
+			length : 99,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -140,21 +140,21 @@ $updates = $client->stories->startLive(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 67,
-			date : 61,
+			length : 14,
+			date : 71,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 0,
+			length : 80,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 68,
-			old_text : 'FjZmEd6CBUfv4Mpw',
+			length : 10,
+			old_text : 'SvRHQnDyIFqkeGf7',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 90,
+			length : 18,
 		),
 	),
 	privacy_rules : array(
@@ -169,18 +169,18 @@ $updates = $client->stories->startLive(
 			users : array($client->get_input_user(user : '@TakNone')),
 		),
 		$client->inputPrivacyValueAllowChatParticipants(
-			chats : array(-3599651616714673476),
+			chats : array(4422136656452752797),
 		),
 		$client->inputPrivacyValueDisallowChatParticipants(
-			chats : array(4646079982807061688),
+			chats : array(2623695843630543526),
 		),
 		$client->inputPrivacyValueAllowCloseFriends(),
 		$client->inputPrivacyValueAllowPremium(),
 		$client->inputPrivacyValueAllowBots(),
 		$client->inputPrivacyValueDisallowBots(),
 	),
-	random_id : -7255583275109454474,
+	random_id : 6674211207120334041,
 	messages_enabled : true,
-	send_paid_messages_stars : -65456727704223431,
+	send_paid_messages_stars : -8715025128109124863,
 );
 ```

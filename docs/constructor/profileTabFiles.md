@@ -2,7 +2,7 @@
 
 **Description** : *Represents the shared files tab of a profile*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 profileTabFiles#ab339c00 = ProfileTab;

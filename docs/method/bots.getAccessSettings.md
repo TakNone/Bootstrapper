@@ -1,6 +1,6 @@
 # bots.getAccessSettings
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.getAccessSettings#213853a3 bot:InputUser = bots.AccessSettings;

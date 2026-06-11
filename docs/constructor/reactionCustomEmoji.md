@@ -2,7 +2,7 @@
 
 **Description** : *Custom emoji message reaction*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 reactionCustomEmoji#8935fc73 document_id:long = Reaction;
@@ -28,6 +28,6 @@ reactionCustomEmoji#8935fc73 document_id:long = Reaction;
 
 ```php
 $reaction = $client->reactionCustomEmoji(
-	document_id : 4463566499017048644,
+	document_id : 2799091452872024461,
 );
 ```

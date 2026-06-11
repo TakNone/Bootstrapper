@@ -1,6 +1,6 @@
 # starGiftBackground
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = StarGiftBackground;
@@ -28,8 +28,8 @@ starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = Sta
 
 ```php
 $starGiftBackground = $client->starGiftBackground(
-	center_color : 46,
-	edge_color : 5,
-	text_color : 86,
+	center_color : 39,
+	edge_color : 8,
+	text_color : 2,
 );
 ```

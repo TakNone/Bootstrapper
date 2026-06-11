@@ -2,7 +2,7 @@
 
 **Description** : *Info about the current verifier bot &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 botVerifierSettings#b0cd6617 flags:# can_modify_custom_description:flags.1?true icon:long company:string custom_description:flags.0?string = BotVerifierSettings;
@@ -33,8 +33,8 @@ botVerifierSettings#b0cd6617 flags:# can_modify_custom_description:flags.1?true 
 ```php
 $botVerifierSettings = $client->botVerifierSettings(
 	can_modify_custom_description : true,
-	icon : -1928588448083419814,
-	company : 'lcurSVYKUqjzws59',
-	custom_description : '7hvDtLu3P2nMG8jf',
+	icon : -3757006620756048691,
+	company : 'txnmVzYBl0QeSKZh',
+	custom_description : 'WIXP7fLOaNpH6M9B',
 );
 ```

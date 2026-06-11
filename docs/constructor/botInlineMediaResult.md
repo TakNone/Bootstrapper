@@ -2,7 +2,7 @@
 
 **Description** : *Media result*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 botInlineMediaResult#17db940b flags:# id:string type:string photo:flags.0?Photo document:flags.1?Document title:flags.2?string description:flags.3?string send_message:BotInlineMessage = BotInlineResult;
@@ -35,109 +35,109 @@ botInlineMediaResult#17db940b flags:# id:string type:string photo:flags.0?Photo 
 
 ```php
 $botInlineResult = $client->botInlineMediaResult(
-	id : 'awujPKBXnAYo9pDs',
-	type : 'NlbhZWDyUwA3rHf2',
+	id : 'GI0V6UPbFmvHcYkT',
+	type : 'kqPAexVj5poSYOdh',
 	photo : $client->photoEmpty(
-		id : 2011761565360481524,
+		id : 8450067532632865833,
 	),
 	document : $client->documentEmpty(
-		id : -1869291977604696862,
+		id : 3317129737277164060,
 	),
-	title : 'hYlwXaS6Mxt5oKvn',
-	description : 'jg0KilwNyPEID6Ub',
+	title : 'VzsPK6yhU8eT0uwd',
+	description : '3XBpNgufFbjGLZYy',
 	send_message : $client->botInlineMessageMediaAuto(
 		invert_media : true,
-		message : '7sN1m6Vqlz54Yoxb',
+		message : 'R37w85LOEonAzCvb',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 64,
+				length : 92,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 8,
+				length : 74,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 67,
+				length : 0,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 25,
+				length : 99,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 4,
+				length : 54,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 4,
+				length : 54,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 89,
+				length : 4,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 12,
+				length : 11,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 39,
+				length : 75,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 25,
-				language : 'm08PjoLcXRgxnDJq',
+				length : 61,
+				language : 'VXz4i7jp8hecLPxy',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 43,
+				length : 89,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 94,
-				user_id : -6076735081382543349,
+				length : 49,
+				user_id : -4176780529029785832,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 52,
+				length : 59,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 17,
+				length : 64,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 32,
+				length : 19,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 74,
+				length : 6,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 97,
+				length : 57,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 92,
+				length : 45,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 22,
+				length : 41,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 34,
-				document_id : 4362699738451925329,
+				length : 0,
+				document_id : 6297929812692499018,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 62,
+				length : 20,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -147,21 +147,21 @@ $botInlineResult = $client->botInlineMediaResult(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 52,
-				date : 11,
+				length : 79,
+				date : 70,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 89,
+				length : 87,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 3,
-				old_text : 'rc8dO1HQUCEWZPNz',
+				length : 42,
+				old_text : 'qRBbWKSU5QP1gGup',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 65,
+				length : 60,
 			),
 		),
 		reply_markup : $client->replyKeyboardHide(

@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay to transfer a collectible gift to another peer, see the gifts &raquo; documentation for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputInvoiceStarGiftTransfer#4a5f5bd9 stargift:InputSavedStarGift to_id:InputPeer = InputInvoice;
@@ -30,7 +30,7 @@ inputInvoiceStarGiftTransfer#4a5f5bd9 stargift:InputSavedStarGift to_id:InputPee
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftTransfer(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 88,
+		msg_id : 69,
 	),
 	to_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *The Time\-To\-Live for messages sent by the current user in a specific chat has changed*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updatePeerHistoryTTL#bb9bb9a5 flags:# peer:Peer ttl_period:flags.0?int = Update;
@@ -31,8 +31,8 @@ updatePeerHistoryTTL#bb9bb9a5 flags:# peer:Peer ttl_period:flags.0?int = Update;
 ```php
 $update = $client->updatePeerHistoryTTL(
 	peer : $client->peerUser(
-		user_id : -2748221351324999310,
+		user_id : 8410962061903673474,
 	),
-	ttl_period : 91,
+	ttl_period : 48,
 );
 ```

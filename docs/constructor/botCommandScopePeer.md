@@ -2,7 +2,7 @@
 
 **Description** : *The specified bot commands will be valid only in a specific dialog*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 botCommandScopePeer#db9d897d peer:InputPeer = BotCommandScope;

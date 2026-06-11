@@ -2,7 +2,7 @@
 
 **Description** : *Disable ads on the specified channel, for all users*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channels.restrictSponsoredMessages#9ae91519 channel:InputChannel restricted:Bool = Updates;

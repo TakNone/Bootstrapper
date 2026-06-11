@@ -1,6 +1,6 @@
 # aicompose.tones
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 aicompose.tones#6c9d0efe hash:long tones:Vector<AiComposeTone> users:Vector<User> = aicompose.Tones;
@@ -32,17 +32,17 @@ $aicomposeTones = $client->aicompose->tones(
 	tones : array(
 		$client->aiComposeTone(
 			creator : true,
-			id : -9178102519239158250,
-			access_hash : -7428636823237341635,
-			slug : '9lTWE4brdxXny2Js',
-			title : 'w8EFcv0o9j2MYyA4',
-			emoji_id : -9019100442061679526,
-			prompt : 'y2xd5iJu8CgcQozO',
-			installs_count : 55,
-			author_id : 7856574067942913742,
+			id : -8888004379195480008,
+			access_hash : 9177532757647070303,
+			slug : 'Q1SY7cgyalkqLGzs',
+			title : '9npxk1eKLOHbstzq',
+			emoji_id : 7350029930285057863,
+			prompt : '8xt7Z5MNlzjd4PGh',
+			installs_count : 40,
+			author_id : -6290968102621571867,
 			example_english : $client->aiComposeToneExample(
 				from : $client->textWithEntities(
-					text : 'VKTGS9bvsk5FqdjE',
+					text : '7XcCj2PyTvdVB5aY',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -72,7 +72,7 @@ $aicomposeTones = $client->aicompose->tones(
 					),
 				),
 				to : $client->textWithEntities(
-					text : 'zMyiFZ3qDJhGblN8',
+					text : 'TmhYyIqXLKdic91f',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -104,14 +104,14 @@ $aicomposeTones = $client->aicompose->tones(
 			),
 		),
 		$client->aiComposeToneDefault(
-			tone : 'Df5ABvPYr7n3UHsX',
-			emoji_id : -5546501346514228605,
-			title : 'BX1l8D9HvU6wfE3N',
+			tone : '3KePUlnDmhqgYOpG',
+			emoji_id : -2470305915835025837,
+			title : '7lisxaCB0E8d3J4Z',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -6661369319667962959,
+			id : -2261368081016152117,
 		),
 		$client->user(
 			self : true,
@@ -143,24 +143,25 @@ $aicomposeTones = $client->aicompose->tones(
 			bot_forum_can_manage_topics : true,
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
-			id : 7410208968172350777,
-			access_hash : 1734712397296907278,
+			bot_guard : true,
+			id : 5889660650077844861,
+			access_hash : -5686452879047868030,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 44,
+			bot_info_version : 92,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'nNfZpMKvyJlRsUx6',
-					reason : 'lNFXU14evIgBkQPp',
-					text : 'D917VOKFWyXhc63s',
+					platform : 'mwq1ROMIZiYGJloD',
+					reason : 'nBJ4YKQs3F7trgOb',
+					text : 'pTRAqvYSGihrJjCO',
 				),
 			),
-			bot_inline_placeholder : '04uZvib1sCqy6aX7',
-			lang_code : 'Oy6USfvDzPFBglTJ',
+			bot_inline_placeholder : 'CbYkjI5dh7owfJSH',
+			lang_code : '12xPwfWzTV9lpeUE',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -171,19 +172,19 @@ $aicomposeTones = $client->aicompose->tones(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 86,
+				max_id : 82,
 			),
 			color : $client->peerColor(
-				color : 88,
-				background_emoji_id : -2503021751685829205,
+				color : 11,
+				background_emoji_id : -1560387163249433606,
 			),
 			profile_color : $client->peerColor(
-				color : 69,
-				background_emoji_id : -3880105293128719758,
+				color : 90,
+				background_emoji_id : -4590934304713816403,
 			),
-			bot_active_users : 34,
-			bot_verification_icon : -8378093072551051547,
-			send_paid_messages_stars : -8354211437206433282,
+			bot_active_users : 3,
+			bot_verification_icon : 5424889988543198249,
+			send_paid_messages_stars : 994086522257505036,
 		),
 	),
 );

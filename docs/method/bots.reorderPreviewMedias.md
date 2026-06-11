@@ -2,7 +2,7 @@
 
 **Description** : *Reorder a main mini app previews, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.reorderPreviewMedias#b627f3aa bot:InputUser lang_code:string order:Vector<InputMedia> = Bool;
@@ -39,7 +39,7 @@ bots.reorderPreviewMedias#b627f3aa bot:InputUser lang_code:string order:Vector<I
 ```php
 $bool = $client->bots->reorderPreviewMedias(
 	bot : $client->get_input_user(user : '@TakNone'),
-	lang_code : '973CROuIvlgzftML',
+	lang_code : 'gBOALJkZG6Yiyx51',
 	order : array($client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT)),
 );
 ```

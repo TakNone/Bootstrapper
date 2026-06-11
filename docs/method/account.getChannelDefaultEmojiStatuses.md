@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of default suggested channel emoji statuses*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.getChannelDefaultEmojiStatuses#7727a7d5 hash:long = account.EmojiStatuses;

@@ -2,7 +2,7 @@
 
 **Description** : *Object defines a group*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatEmpty#29562865 id:long = Chat;

@@ -2,7 +2,7 @@
 
 **Description** : *Info about a Telegram Premium purchase*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputStorePaymentPremiumSubscription#a6751e66 flags:# restore:flags.0?true upgrade:flags.1?true = InputStorePaymentPurpose;

@@ -1,6 +1,6 @@
 # phone.deleteGroupCallParticipantMessages
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 phone.deleteGroupCallParticipantMessages#1dbfeca0 flags:# report_spam:flags.0?true call:InputGroupCall participant:InputPeer = Updates;
@@ -31,8 +31,8 @@ phone.deleteGroupCallParticipantMessages#1dbfeca0 flags:# report_spam:flags.0?tr
 $updates = $client->phone->deleteGroupCallParticipantMessages(
 	report_spam : true,
 	call : $client->inputGroupCall(
-		id : 1757157544510721587,
-		access_hash : 8373840054087148784,
+		id : -2417013962955352895,
+		access_hash : -7641021664942740896,
 	),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

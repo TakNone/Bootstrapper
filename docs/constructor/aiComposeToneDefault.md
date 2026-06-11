@@ -1,6 +1,6 @@
 # aiComposeToneDefault
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 aiComposeToneDefault#9bad6414 tone:string emoji_id:long title:string = AiComposeTone;
@@ -28,8 +28,8 @@ aiComposeToneDefault#9bad6414 tone:string emoji_id:long title:string = AiCompose
 
 ```php
 $aiComposeTone = $client->aiComposeToneDefault(
-	tone : '6Gqr9jF5nUbfJVKy',
-	emoji_id : 6225916896559683451,
-	title : 'mi40j12gSGdOETlq',
+	tone : 'mw3aUok8TJvGbNei',
+	emoji_id : 3448349802800838080,
+	title : '5SRZjh6gfAJQM0mI',
 );
 ```

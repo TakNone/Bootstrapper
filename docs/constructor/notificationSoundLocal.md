@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a specific local notification sound should be used*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 notificationSoundLocal#830b9ae4 title:string data:string = NotificationSound;
@@ -29,7 +29,7 @@ notificationSoundLocal#830b9ae4 title:string data:string = NotificationSound;
 
 ```php
 $notificationSound = $client->notificationSoundLocal(
-	title : '28g963LPVb1vmkCr',
-	data : '0h3fYqBtplT7kNob',
+	title : 'YgOeN0vKrMuHqWid',
+	data : '6DzW3nYH0QfIyuiG',
 );
 ```

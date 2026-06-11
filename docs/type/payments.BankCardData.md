@@ -2,7 +2,7 @@
 
 **Description** : *Credit card info, provided by the card&#039;s bank\(s\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.bankCardData#3e24e573 title:string open_urls:Vector<BankCardOpenUrl> = payments.BankCardData;

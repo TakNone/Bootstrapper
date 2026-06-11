@@ -2,7 +2,7 @@
 
 **Description** : *Chat admin*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatParticipantAdmin#360d5d2 flags:# user_id:long inviter_id:long date:int rank:flags.0?string = ChatParticipant;
@@ -32,9 +32,9 @@ chatParticipantAdmin#360d5d2 flags:# user_id:long inviter_id:long date:int rank:
 
 ```php
 $chatParticipant = $client->chatParticipantAdmin(
-	user_id : -533792968720184037,
-	inviter_id : -5014449768677462156,
-	date : 46,
-	rank : 'CYb7ZmXl1j2kRaML',
+	user_id : 8056058643984875157,
+	inviter_id : 3279880996435672327,
+	date : 12,
+	rank : '8lm541Fbh3I6OT0G',
 );
 ```

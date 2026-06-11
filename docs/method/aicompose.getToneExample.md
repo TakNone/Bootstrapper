@@ -1,6 +1,6 @@
 # aicompose.getToneExample
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 aicompose.getToneExample#d1b4ab14 tone:InputAiComposeTone num:int = AiComposeToneExample;
@@ -28,8 +28,8 @@ aicompose.getToneExample#d1b4ab14 tone:InputAiComposeTone num:int = AiComposeTon
 ```php
 $aiComposeToneExample = $client->aicompose->getToneExample(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'GNulJ6Kb2Lhi19Xx',
+		tone : 'm340uyKUTeJfGQWN',
 	),
-	num : 89,
+	num : 67,
 );
 ```

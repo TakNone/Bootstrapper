@@ -1,6 +1,6 @@
 # inputPasskeyResponseRegister
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPasskeyResponseRegister#3e63935c client_data:DataJSON attestation_data:bytes = InputPasskeyResponse;
@@ -28,7 +28,7 @@ inputPasskeyResponseRegister#3e63935c client_data:DataJSON attestation_data:byte
 ```php
 $inputPasskeyResponse = $client->inputPasskeyResponseRegister(
 	client_data : $client->dataJSON(
-		data : 'mKwD5Q1ZV9oMheTC',
+		data : 'FBY3nGRXMgxU96i2',
 	),
 	attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

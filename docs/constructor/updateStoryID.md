@@ -2,7 +2,7 @@
 
 **Description** : *A story was successfully uploaded*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateStoryID#1bf335b9 id:int random_id:long = Update;
@@ -29,7 +29,7 @@ updateStoryID#1bf335b9 id:int random_id:long = Update;
 
 ```php
 $update = $client->updateStoryID(
-	id : 33,
-	random_id : -942156653729542594,
+	id : 18,
+	random_id : 5088990805284965860,
 );
 ```

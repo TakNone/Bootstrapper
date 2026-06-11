@@ -2,7 +2,7 @@
 
 **Description** : *Users we&#039;ve chatted most frequently with*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 topPeerCategoryCorrespondents#637b7ed = TopPeerCategory;

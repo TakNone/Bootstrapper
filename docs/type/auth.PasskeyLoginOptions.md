@@ -1,6 +1,6 @@
 # auth.PasskeyLoginOptions
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;

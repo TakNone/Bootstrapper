@@ -2,7 +2,7 @@
 
 **Description** : *Active affiliations*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.connectedStarRefBots#98d5ea1d count:int connected_bots:Vector<ConnectedBotStarRef> users:Vector<User> = payments.ConnectedStarRefBots;
@@ -30,22 +30,22 @@ payments.connectedStarRefBots#98d5ea1d count:int connected_bots:Vector<Connected
 
 ```php
 $paymentsConnectedStarRefBots = $client->payments->connectedStarRefBots(
-	count : 94,
+	count : 27,
 	connected_bots : array(
 		$client->connectedBotStarRef(
 			revoked : true,
 			url : 'https://docs.liveproto.dev',
-			date : 42,
-			bot_id : -4133608473003030932,
-			commission_permille : 35,
-			duration_months : 12,
-			participants : -4076128214221674751,
-			revenue : -5248179179328378180,
+			date : 65,
+			bot_id : -2126299313699977565,
+			commission_permille : 78,
+			duration_months : 8,
+			participants : -5395276615777990322,
+			revenue : 6710863139076695202,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -1803468266560421027,
+			id : 4190494391746665067,
 		),
 		$client->user(
 			self : true,
@@ -77,24 +77,25 @@ $paymentsConnectedStarRefBots = $client->payments->connectedStarRefBots(
 			bot_forum_can_manage_topics : true,
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
-			id : 4160576243575954514,
-			access_hash : -5178540639750998214,
+			bot_guard : true,
+			id : 7818651298567527671,
+			access_hash : 878735367111969357,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 19,
+			bot_info_version : 43,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'ZEP5BXgdJ3uMyrpe',
-					reason : 'YG4g17uLc8KsPkyF',
-					text : 'vMTG3ZQNP0265Dpg',
+					platform : 'bZwsJXMRC1eNd34t',
+					reason : 'Gw89qumWVp1Zsh2C',
+					text : 'vbdQ8hroHOKXZk2N',
 				),
 			),
-			bot_inline_placeholder : 'ap0mJEs59Bgxhuvw',
-			lang_code : 'mXAQc3FbT1OZpovK',
+			bot_inline_placeholder : 'TMoI06WUF8EXb9Gz',
+			lang_code : 'DXVfyhElIAp0GRko',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -105,19 +106,19 @@ $paymentsConnectedStarRefBots = $client->payments->connectedStarRefBots(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 8,
+				max_id : 75,
 			),
 			color : $client->peerColor(
-				color : 65,
-				background_emoji_id : 7628447629078950048,
+				color : 21,
+				background_emoji_id : -5091549053425540690,
 			),
 			profile_color : $client->peerColor(
-				color : 5,
-				background_emoji_id : 2535952433585973929,
+				color : 50,
+				background_emoji_id : 491145395209740219,
 			),
-			bot_active_users : 48,
-			bot_verification_icon : 7270186660567845494,
-			send_paid_messages_stars : 1071014268299511356,
+			bot_active_users : 9,
+			bot_verification_icon : -7891432776750790592,
+			send_paid_messages_stars : 1393686545725545188,
 		),
 	),
 );

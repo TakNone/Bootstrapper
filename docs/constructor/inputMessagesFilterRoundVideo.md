@@ -2,7 +2,7 @@
 
 **Description** : *Return only round videos*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputMessagesFilterRoundVideo#b549da53 = MessagesFilter;

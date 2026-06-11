@@ -2,7 +2,7 @@
 
 **Description** : *Set stickerset thumbnail*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stickers.setStickerSetThumb#a76a5392 flags:# stickerset:InputStickerSet thumb:flags.0?InputDocument thumb_document_id:flags.1?long = messages.StickerSet;
@@ -43,6 +43,6 @@ stickers.setStickerSetThumb#a76a5392 flags:# stickerset:InputStickerSet thumb:fl
 $messagesStickerSet = $client->stickers->setStickerSetThumb(
 	stickerset : $client->inputStickerSetEmpty(),
 	thumb : $client->inputDocumentEmpty(),
-	thumb_document_id : 9119547046853038148,
+	thumb_document_id : -2168216973654806045,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Object contains information on list of messages with auxiliary data*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.messages#1d73e7ea messages:Vector<Message> topics:Vector<ForumTopic> chats:Vector<Chat> users:Vector<User> = messages.Messages;

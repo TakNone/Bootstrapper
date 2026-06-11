@@ -2,7 +2,7 @@
 
 **Description** : *Cancel the login verification code*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.cancelCode#1f040578 phone_number:string phone_code_hash:string = Bool;

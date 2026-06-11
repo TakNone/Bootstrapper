@@ -2,7 +2,7 @@
 
 **Description** : *Message by ID*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputMessageID#a676a322 id:int = InputMessage;
@@ -28,6 +28,6 @@ inputMessageID#a676a322 id:int = InputMessage;
 
 ```php
 $inputMessage = $client->inputMessageID(
-	id : 88,
+	id : 39,
 );
 ```

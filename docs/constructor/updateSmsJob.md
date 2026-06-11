@@ -2,7 +2,7 @@
 
 **Description** : *A new SMS job was received*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateSmsJob#f16269d4 job_id:string = Update;
@@ -28,6 +28,6 @@ updateSmsJob#f16269d4 job_id:string = Update;
 
 ```php
 $update = $client->updateSmsJob(
-	job_id : 'GLbC2SKhaPDrQXc4',
+	job_id : 'FMJklY6g7RtsWboC',
 );
 ```

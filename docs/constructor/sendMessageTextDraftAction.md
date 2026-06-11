@@ -1,6 +1,6 @@
 # sendMessageTextDraftAction
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 sendMessageTextDraftAction#376d975c random_id:long text:TextWithEntities = SendMessageAction;
@@ -27,99 +27,99 @@ sendMessageTextDraftAction#376d975c random_id:long text:TextWithEntities = SendM
 
 ```php
 $sendMessageAction = $client->sendMessageTextDraftAction(
-	random_id : 4341867608634160265,
+	random_id : 6200025403523625483,
 	text : $client->textWithEntities(
-		text : 'SwRv3piIyFqYnuQD',
+		text : 'K84gDcit7NyFv0jA',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 94,
+				length : 28,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 89,
+				length : 73,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 9,
+				length : 87,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 73,
+				length : 40,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 76,
+				length : 48,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 26,
+				length : 95,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 95,
+				length : 6,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 98,
+				length : 65,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 82,
+				length : 88,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 60,
-				language : 'iBUkInolysYc018e',
+				length : 55,
+				language : 'tiUsq6ly3pH0M1hn',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 49,
+				length : 92,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 78,
-				user_id : 5112310976308229571,
+				length : 64,
+				user_id : -1372856477390553963,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 82,
+				length : 87,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 42,
+				length : 98,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 80,
+				length : 39,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 100,
+				length : 3,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 66,
+				length : 82,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 58,
+				length : 23,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 49,
+				length : 58,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 58,
-				document_id : 5085497766278309912,
+				length : 18,
+				document_id : 3914669141615129982,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 62,
+				length : 90,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -129,21 +129,21 @@ $sendMessageAction = $client->sendMessageTextDraftAction(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 35,
-				date : 89,
+				length : 75,
+				date : 37,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 25,
+				length : 77,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 86,
-				old_text : 'oLckUaDyQMvti7zd',
+				length : 81,
+				old_text : 'hYoedICOv8kLafKs',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 11,
+				length : 8,
 			),
 		),
 	),

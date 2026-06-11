@@ -2,7 +2,7 @@
 
 **Description** : *Returns information on update availability for the current application*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 help.getAppUpdate#522d5a7d source:string = help.AppUpdate;
@@ -28,6 +28,6 @@ help.getAppUpdate#522d5a7d source:string = help.AppUpdate;
 
 ```php
 $helpAppUpdate = $client->help->getAppUpdate(
-	source : 'RScVdmLZgIHuUEz1',
+	source : 'PcLbAdOQ48DxGZCm',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of custom emojis*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 emojiListNotModified#481eadfa = EmojiList;

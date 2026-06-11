@@ -2,7 +2,7 @@
 
 **Description** : *Incoming comments in a discussion thread were marked as read*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateReadChannelDiscussionInbox#d6b19546 flags:# channel_id:long top_msg_id:int read_max_id:int broadcast_id:flags.0?long broadcast_post:flags.0?int = Update;
@@ -33,10 +33,10 @@ updateReadChannelDiscussionInbox#d6b19546 flags:# channel_id:long top_msg_id:int
 
 ```php
 $update = $client->updateReadChannelDiscussionInbox(
-	channel_id : 4047992474789847574,
-	top_msg_id : 8,
-	read_max_id : 65,
-	broadcast_id : 3815645133487130255,
-	broadcast_post : 37,
+	channel_id : -8237815638690877714,
+	top_msg_id : 34,
+	read_max_id : 69,
+	broadcast_id : 7921553285543580924,
+	broadcast_post : 43,
 );
 ```

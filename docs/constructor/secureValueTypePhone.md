@@ -2,7 +2,7 @@
 
 **Description** : *Phone*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 secureValueTypePhone#b320aadb = SecureValueType;

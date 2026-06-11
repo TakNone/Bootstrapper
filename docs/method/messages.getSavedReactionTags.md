@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the full list of saved message tags created by the user*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getSavedReactionTags#3637e05b flags:# peer:flags.0?InputPeer hash:long = messages.SavedReactionTags;

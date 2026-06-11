@@ -2,7 +2,7 @@
 
 **Description** : *Chat history was cleared*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionHistoryClear#9fbab604 = MessageAction;

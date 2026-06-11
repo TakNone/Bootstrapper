@@ -2,7 +2,7 @@
 
 **Description** : *Use this to accept a Seamless Telegram Login authorization request, for more info click here &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.acceptUrlAuth#67a3f0de flags:# write_allowed:flags.0?true share_phone_number:flags.3?true peer:flags.1?InputPeer msg_id:flags.1?int button_id:flags.1?int url:flags.2?string match_code:flags.4?string = UrlAuthResult;
@@ -38,9 +38,9 @@ $urlAuthResult = $client->messages->acceptUrlAuth(
 	write_allowed : true,
 	share_phone_number : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 4,
-	button_id : 46,
+	msg_id : 59,
+	button_id : 40,
 	url : 'https://docs.liveproto.dev',
-	match_code : 's8laPKXzpLmEOSYV',
+	match_code : 'TMYPDwnJSQ7HBlrb',
 );
 ```

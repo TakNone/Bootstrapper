@@ -2,7 +2,7 @@
 
 **Description** : *We blocked a peer, see here &raquo; for more info on blocklists*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updatePeerBlocked#ebe07752 flags:# blocked:flags.0?true blocked_my_stories_from:flags.1?true peer_id:Peer = Update;
@@ -34,7 +34,7 @@ $update = $client->updatePeerBlocked(
 	blocked : true,
 	blocked_my_stories_from : true,
 	peer_id : $client->peerUser(
-		user_id : 5839823287123192440,
+		user_id : -6512463180315780734,
 	),
 );
 ```

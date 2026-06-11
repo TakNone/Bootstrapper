@@ -2,7 +2,7 @@
 
 **Description** : *Used to edit the thumbnail/static preview of a story, see here &raquo; for more info on the full flow*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputFileStoryDocument#62dc8b48 id:InputDocument = InputFile;

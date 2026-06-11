@@ -2,7 +2,7 @@
 
 **Description** : *All contacts were deleted*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateContactsReset#7084a7be = Update;

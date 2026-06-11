@@ -2,7 +2,7 @@
 
 **Description** : *Mini app &raquo; settings*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 botAppSettings#c99b1950 flags:# placeholder_path:flags.0?bytes background_color:flags.1?int background_dark_color:flags.2?int header_color:flags.3?int header_dark_color:flags.4?int = BotAppSettings;
@@ -34,9 +34,9 @@ botAppSettings#c99b1950 flags:# placeholder_path:flags.0?bytes background_color:
 ```php
 $botAppSettings = $client->botAppSettings(
 	placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	background_color : 16,
-	background_dark_color : 53,
-	header_color : 39,
-	header_dark_color : 4,
+	background_color : 10,
+	background_dark_color : 0,
+	header_color : 7,
+	header_dark_color : 53,
 );
 ```

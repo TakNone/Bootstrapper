@@ -2,7 +2,7 @@
 
 **Description** : *Obtain info about a collectible gift &raquo; using a slug obtained from a collectible gift link &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.getUniqueStarGift#a1974d72 slug:string = payments.UniqueStarGift;
@@ -36,6 +36,6 @@ payments.getUniqueStarGift#a1974d72 slug:string = payments.UniqueStarGift;
 
 ```php
 $paymentsUniqueStarGift = $client->payments->getUniqueStarGift(
-	slug : 'a5eXzKj8nI2HuAEq',
+	slug : 'VdYAhfGn7wPe9jWl',
 );
 ```

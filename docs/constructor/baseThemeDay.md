@@ -2,7 +2,7 @@
 
 **Description** : *Day theme*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 baseThemeDay#fbd81688 = BaseTheme;

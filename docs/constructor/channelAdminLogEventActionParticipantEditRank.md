@@ -1,6 +1,6 @@
 # channelAdminLogEventActionParticipantEditRank
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:string new_rank:string = ChannelAdminLogEventAction;
@@ -28,8 +28,8 @@ channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:st
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantEditRank(
-	user_id : 3757050369398812258,
-	prev_rank : 'clJpjHbBGDrRfz2u',
-	new_rank : '41KeBEL5uOgMtCcl',
+	user_id : 4832787010713028743,
+	prev_rank : 'LtEZRcVfFyv3YkeQ',
+	new_rank : 'kqoDLO7PQBWY96Mt',
 );
 ```

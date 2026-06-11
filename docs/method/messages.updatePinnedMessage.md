@@ -2,7 +2,7 @@
 
 **Description** : *Pin a message*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.updatePinnedMessage#d2aaf7ec flags:# silent:flags.0?true unpin:flags.1?true pm_oneside:flags.2?true peer:InputPeer id:int = Updates;
@@ -57,6 +57,6 @@ $updates = $client->messages->updatePinnedMessage(
 	unpin : true,
 	pm_oneside : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 3,
+	id : 64,
 );
 ```

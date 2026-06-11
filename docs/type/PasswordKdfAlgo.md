@@ -2,7 +2,7 @@
 
 **Description** : *Key derivation function to use when generating the password hash for SRP two\-factor authorization*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 passwordKdfAlgoUnknown#d45ab096 = PasswordKdfAlgo;

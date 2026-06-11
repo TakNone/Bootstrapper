@@ -2,7 +2,7 @@
 
 **Description** : *Cancels a request for creation and/or delete info on secret chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.discardEncryption#f393aea0 flags:# delete_history:flags.0?true chat_id:int = Bool;
@@ -42,6 +42,6 @@ messages.discardEncryption#f393aea0 flags:# delete_history:flags.0?true chat_id:
 ```php
 $bool = $client->messages->discardEncryption(
 	delete_history : true,
-	chat_id : 45,
+	chat_id : 51,
 );
 ```

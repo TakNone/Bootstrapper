@@ -2,7 +2,7 @@
 
 **Description** : *Some featured custom emoji stickers were marked as read*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateReadFeaturedEmojiStickers#fb4c496c = Update;

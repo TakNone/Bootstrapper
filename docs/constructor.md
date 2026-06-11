@@ -2495,6 +2495,30 @@ This setting only affects the current account, and is synced to other logged in 
 
 ---
 
+##### updateJoinChatWebViewDecision
+
+:link: [*NOTHING*](constructor/updateJoinChatWebViewDecision)
+
+---
+
+##### updateNewBotConnection
+
+:link: [*NOTHING*](constructor/updateNewBotConnection)
+
+---
+
+##### updateWebBrowserSettings
+
+:link: [*NOTHING*](constructor/updateWebBrowserSettings)
+
+---
+
+##### updateWebBrowserException
+
+:link: [*NOTHING*](constructor/updateWebBrowserException)
+
+---
+
 ##### updates state
 
 :link: [*Updates state*](constructor/updates.state)
@@ -2912,6 +2936,18 @@ This setting only affects the current account, and is synced to other logged in 
 ##### sendMessageTextDraftAction
 
 :link: [*NOTHING*](constructor/sendMessageTextDraftAction)
+
+---
+
+##### inputSendMessageRichMessageDraftAction
+
+:link: [*NOTHING*](constructor/inputSendMessageRichMessageDraftAction)
+
+---
+
+##### sendMessageRichMessageDraftAction
+
+:link: [*NOTHING*](constructor/sendMessageRichMessageDraftAction)
 
 ---
 
@@ -4046,6 +4082,12 @@ This filter will automatically remove anonymous admins, and return even non\-par
 
 ---
 
+##### inputBotInlineMessageRichMessage
+
+:link: [*NOTHING*](constructor/inputBotInlineMessageRichMessage)
+
+---
+
 ##### inputBotInlineResult
 
 :link: [*An inline bot result*](constructor/inputBotInlineResult)
@@ -4109,6 +4151,12 @@ This filter will automatically remove anonymous admins, and return even non\-par
 ##### botInlineMessageMediaWebPage
 
 :link: [*Specifies options that must be used to generate the link preview for the message, or even a standalone link preview without an attached message*](constructor/botInlineMessageMediaWebPage)
+
+---
+
+##### botInlineMessageRichMessage
+
+:link: [*NOTHING*](constructor/botInlineMessageRichMessage)
 
 ---
 
@@ -4587,6 +4635,84 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ---
 
+##### textMath
+
+:link: [*NOTHING*](constructor/textMath)
+
+---
+
+##### textCustomEmoji
+
+:link: [*NOTHING*](constructor/textCustomEmoji)
+
+---
+
+##### textSpoiler
+
+:link: [*NOTHING*](constructor/textSpoiler)
+
+---
+
+##### textMention
+
+:link: [*NOTHING*](constructor/textMention)
+
+---
+
+##### textHashtag
+
+:link: [*NOTHING*](constructor/textHashtag)
+
+---
+
+##### textBotCommand
+
+:link: [*NOTHING*](constructor/textBotCommand)
+
+---
+
+##### textCashtag
+
+:link: [*NOTHING*](constructor/textCashtag)
+
+---
+
+##### textAutoUrl
+
+:link: [*NOTHING*](constructor/textAutoUrl)
+
+---
+
+##### textAutoEmail
+
+:link: [*NOTHING*](constructor/textAutoEmail)
+
+---
+
+##### textAutoPhone
+
+:link: [*NOTHING*](constructor/textAutoPhone)
+
+---
+
+##### textBankCard
+
+:link: [*NOTHING*](constructor/textBankCard)
+
+---
+
+##### textMentionName
+
+:link: [*NOTHING*](constructor/textMentionName)
+
+---
+
+##### textDate
+
+:link: [*NOTHING*](constructor/textDate)
+
+---
+
 ##### pageBlockUnsupported
 
 :link: [*Unsupported IV element*](constructor/pageBlockUnsupported)
@@ -4758,6 +4884,66 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 ##### pageBlockMap
 
 :link: [*A map*](constructor/pageBlockMap)
+
+---
+
+##### pageBlockHeading1
+
+:link: [*NOTHING*](constructor/pageBlockHeading1)
+
+---
+
+##### pageBlockHeading2
+
+:link: [*NOTHING*](constructor/pageBlockHeading2)
+
+---
+
+##### pageBlockHeading3
+
+:link: [*NOTHING*](constructor/pageBlockHeading3)
+
+---
+
+##### pageBlockHeading4
+
+:link: [*NOTHING*](constructor/pageBlockHeading4)
+
+---
+
+##### pageBlockHeading5
+
+:link: [*NOTHING*](constructor/pageBlockHeading5)
+
+---
+
+##### pageBlockHeading6
+
+:link: [*NOTHING*](constructor/pageBlockHeading6)
+
+---
+
+##### pageBlockMath
+
+:link: [*NOTHING*](constructor/pageBlockMath)
+
+---
+
+##### pageBlockThinking
+
+:link: [*NOTHING*](constructor/pageBlockThinking)
+
+---
+
+##### inputPageBlockMap
+
+:link: [*NOTHING*](constructor/inputPageBlockMap)
+
+---
+
+##### pageBlockBlockquoteBlocks
+
+:link: [*NOTHING*](constructor/pageBlockBlockquoteBlocks)
 
 ---
 
@@ -9446,3 +9632,81 @@ If neither the pm or group flags are set, the specified chat export was generate
 ##### bots accessSettings
 
 :link: [*NOTHING*](constructor/bots.accessSettings)
+
+---
+
+##### messages chatInviteJoinResultOk
+
+:link: [*NOTHING*](constructor/messages.chatInviteJoinResultOk)
+
+---
+
+##### messages chatInviteJoinResultWebView
+
+:link: [*NOTHING*](constructor/messages.chatInviteJoinResultWebView)
+
+---
+
+##### joinChatBotResultApproved
+
+:link: [*NOTHING*](constructor/joinChatBotResultApproved)
+
+---
+
+##### joinChatBotResultDeclined
+
+:link: [*NOTHING*](constructor/joinChatBotResultDeclined)
+
+---
+
+##### joinChatBotResultQueued
+
+:link: [*NOTHING*](constructor/joinChatBotResultQueued)
+
+---
+
+##### joinChatBotResultWebView
+
+:link: [*NOTHING*](constructor/joinChatBotResultWebView)
+
+---
+
+##### webDomainException
+
+:link: [*NOTHING*](constructor/webDomainException)
+
+---
+
+##### account webBrowserSettingsNotModified
+
+:link: [*NOTHING*](constructor/account.webBrowserSettingsNotModified)
+
+---
+
+##### account webBrowserSettings
+
+:link: [*NOTHING*](constructor/account.webBrowserSettings)
+
+---
+
+##### richMessage
+
+:link: [*NOTHING*](constructor/richMessage)
+
+---
+
+##### inputRichMessage
+
+:link: [*NOTHING*](constructor/inputRichMessage)
+
+---
+
+##### inputRichMessageHTML
+
+:link: [*NOTHING*](constructor/inputRichMessageHTML)
+
+---
+
+##### inputRichMessageMarkdown
+
+:link: [*NOTHING*](constructor/inputRichMessageMarkdown)

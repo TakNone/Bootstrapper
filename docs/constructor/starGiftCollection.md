@@ -2,7 +2,7 @@
 
 **Description** : *Represents a star gift collection &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftCollection#9d6b13b0 flags:# collection_id:int title:string icon:flags.0?Document gifts_count:int hash:long = StarGiftCollection;
@@ -33,12 +33,12 @@ starGiftCollection#9d6b13b0 flags:# collection_id:int title:string icon:flags.0?
 
 ```php
 $starGiftCollection = $client->starGiftCollection(
-	collection_id : 31,
-	title : 'O6xFPHtzrXbW2udI',
+	collection_id : 94,
+	title : 'nbvR01FltxKgOPAJ',
 	icon : $client->documentEmpty(
-		id : -4220986984623203348,
+		id : -1005792408769102106,
 	),
-	gifts_count : 52,
+	gifts_count : 17,
 	hash : 0,
 );
 ```

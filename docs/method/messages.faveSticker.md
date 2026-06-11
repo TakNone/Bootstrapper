@@ -2,7 +2,7 @@
 
 **Description** : *Mark or unmark a sticker as favorite*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.faveSticker#b9ffc55b id:InputDocument unfave:Bool = Bool;

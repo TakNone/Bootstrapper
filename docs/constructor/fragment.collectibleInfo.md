@@ -2,7 +2,7 @@
 
 **Description** : *Info about a fragment collectible*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 fragment.collectibleInfo#6ebdff91 purchase_date:int currency:string amount:long crypto_currency:string crypto_amount:long url:string = fragment.CollectibleInfo;
@@ -33,11 +33,11 @@ fragment.collectibleInfo#6ebdff91 purchase_date:int currency:string amount:long 
 
 ```php
 $fragmentCollectibleInfo = $client->fragment->collectibleInfo(
-	purchase_date : 10,
-	currency : 'g0OuUN2Bp7mJCkRF',
-	amount : 5798784072890612664,
-	crypto_currency : 'XgHVKkGdIstcjEey',
-	crypto_amount : -4992040895892946396,
+	purchase_date : 75,
+	currency : 'HdsK0t7honUFYZ9B',
+	amount : -4669060784885485462,
+	crypto_currency : 'fDmTS20vZM3qQjhe',
+	crypto_amount : 8324034161819526559,
 	url : 'https://docs.liveproto.dev',
 );
 ```

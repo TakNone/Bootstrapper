@@ -2,7 +2,7 @@
 
 **Description** : *Most frequently called users*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 topPeerCategoryPhoneCalls#1e76a78c = TopPeerCategory;

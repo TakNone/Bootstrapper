@@ -1,6 +1,6 @@
 # aicompose.createTone
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 aicompose.createTone#4aa83913 flags:# display_author:flags.0?true emoji_id:long title:string prompt:string = AiComposeTone;
@@ -31,8 +31,8 @@ aicompose.createTone#4aa83913 flags:# display_author:flags.0?true emoji_id:long 
 ```php
 $aiComposeTone = $client->aicompose->createTone(
 	display_author : true,
-	emoji_id : -779177258905784126,
-	title : 'DfKHj9xrYiOTLtC7',
-	prompt : 'jidLuzZPFUQm7YJy',
+	emoji_id : -4896890956754174435,
+	title : 'B46d3XxtNDYRIsMa',
+	prompt : 'uOJGzSrnDAYQ2wal',
 );
 ```

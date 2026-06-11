@@ -2,7 +2,7 @@
 
 **Description** : *Create a theme*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.createTheme#652e4400 flags:# slug:string title:string document:flags.2?InputDocument settings:flags.3?Vector<InputThemeSettings> = Theme;
@@ -41,30 +41,30 @@ account.createTheme#652e4400 flags:# slug:string title:string document:flags.2?I
 
 ```php
 $theme = $client->account->createTheme(
-	slug : 'sht2PK3lQimOE5ZU',
-	title : 'DeM58IRkWntbNwY7',
+	slug : 'AiaQ3gB9jufEvDzL',
+	title : 'WFs8t10Uz2MLVQbe',
 	document : $client->inputDocumentEmpty(),
 	settings : array(
 		$client->inputThemeSettings(
 			message_colors_animated : true,
 			base_theme : $client->baseThemeClassic(),
-			accent_color : 15,
-			outbox_accent_color : 40,
-			message_colors : array(19),
+			accent_color : 44,
+			outbox_accent_color : 50,
+			message_colors : array(61),
 			wallpaper : $client->inputWallPaper(
-				id : -6441408892026938614,
-				access_hash : -879457231966773532,
+				id : 7845355120441105296,
+				access_hash : -8134671312798071921,
 			),
 			wallpaper_settings : $client->wallPaperSettings(
 				blur : true,
 				motion : true,
-				background_color : 58,
-				second_background_color : 58,
-				third_background_color : 56,
-				fourth_background_color : 37,
-				intensity : 10,
-				rotation : 7,
-				emoticon : 'KVwLJp30hfQ7kPxT',
+				background_color : 95,
+				second_background_color : 77,
+				third_background_color : 25,
+				fourth_background_color : 84,
+				intensity : 75,
+				rotation : 58,
+				emoticon : 'm2iJn6oIXx4zUANO',
 			),
 		),
 	),

@@ -2,7 +2,7 @@
 
 **Description** : *Button to request a user to authorize via URL using Seamless Telegram Login\. When the user clicks on such a button, messages\.requestUrlAuth should be called, providing the button\_id and the ID of the container message\. The returned urlAuthResultRequest object will contain more details about the authorization request \(request\_write\_access if the bot would like to send messages to the user along with the username of the bot which will be used for user authorization\)\. Finally, the user can choose to call messages\.acceptUrlAuth to get a urlAuthResultAccepted with the URL to open instead of the url of this constructor, or a urlAuthResultDefault, in which case the url of this constructor must be opened, instead\. If the user refuses the authorization request but still wants to open the link, the url of this constructor must be used*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 keyboardButtonUrlAuth#f51006f9 flags:# style:flags.10?KeyboardButtonStyle text:string fwd_text:flags.0?string url:string button_id:int = KeyboardButton;
@@ -37,11 +37,11 @@ $keyboardButton = $client->keyboardButtonUrlAuth(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 659303288940758310,
+		icon : -4799917760948376498,
 	),
-	text : 'JvNkGwszfjdAqg0p',
-	fwd_text : '6ZadFOPmC5QLfRhD',
+	text : 'bZMviFoV2PUInmfe',
+	fwd_text : 'l8rILzxHe6BuTpCh',
 	url : 'https://docs.liveproto.dev',
-	button_id : 53,
+	button_id : 33,
 );
 ```

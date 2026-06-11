@@ -1,6 +1,6 @@
 # messageEntityFormattedDate
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageEntityFormattedDate#904ac7c7 flags:# relative:flags.0?true short_time:flags.1?true long_time:flags.2?true short_date:flags.3?true long_date:flags.4?true day_of_week:flags.5?true offset:int length:int date:int = MessageEntity;
@@ -42,7 +42,7 @@ $messageEntity = $client->messageEntityFormattedDate(
 	long_date : true,
 	day_of_week : true,
 	offset : 0,
-	length : 60,
-	date : 71,
+	length : 16,
+	date : 98,
 );
 ```

@@ -1,6 +1,6 @@
 # inputAiComposeToneDefault
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputAiComposeToneDefault#1fe9a9bf tone:string = InputAiComposeTone;
@@ -26,6 +26,6 @@ inputAiComposeToneDefault#1fe9a9bf tone:string = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneDefault(
-	tone : 'qIJ4u1fNvniLaSQZ',
+	tone : 'HIaVfDMWEJASN3hj',
 );
 ```

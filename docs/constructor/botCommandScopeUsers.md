@@ -2,7 +2,7 @@
 
 **Description** : *The specified bot commands will only be valid in all private chats with users*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 botCommandScopeUsers#3c4f04d8 = BotCommandScope;

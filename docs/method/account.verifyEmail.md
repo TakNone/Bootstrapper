@@ -2,7 +2,7 @@
 
 **Description** : *Verify an email address*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.verifyEmail#32da4cf purpose:EmailVerifyPurpose verification:EmailVerification = account.EmailVerified;
@@ -45,7 +45,7 @@ $accountEmailVerified = $client->account->verifyEmail(
 		phone_code_hash : '+1234567890',
 	),
 	verification : $client->emailVerificationCode(
-		code : 'eEsXT2HZcQf4G9FD',
+		code : 'd1UoF6X2yjkTbm0p',
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Increment the view counter of one or more stories*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.incrementStoryViews#b2028afb peer:InputPeer id:Vector<int> = Bool;
@@ -39,6 +39,6 @@ stories.incrementStoryViews#b2028afb peer:InputPeer id:Vector<int> = Bool;
 ```php
 $bool = $client->stories->incrementStoryViews(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(16),
+	id : array(87),
 );
 ```

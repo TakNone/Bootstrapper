@@ -2,7 +2,7 @@
 
 **Description** : *Contents of messages in the common message box were read \(emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using messages\.readMessageContents\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateReadMessagesContents#f8227181 flags:# messages:Vector<int> pts:int pts_count:int date:flags.0?int = Update;
@@ -32,9 +32,9 @@ updateReadMessagesContents#f8227181 flags:# messages:Vector<int> pts:int pts_cou
 
 ```php
 $update = $client->updateReadMessagesContents(
-	messages : array(89),
-	pts : 71,
-	pts_count : 97,
-	date : 78,
+	messages : array(56),
+	pts : 25,
+	pts_count : 87,
+	date : 53,
 );
 ```

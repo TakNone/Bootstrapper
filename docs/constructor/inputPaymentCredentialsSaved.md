@@ -2,7 +2,7 @@
 
 **Description** : *Saved payment credentials*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPaymentCredentialsSaved#c10eb2cf id:string tmp_password:bytes = InputPaymentCredentials;
@@ -29,7 +29,7 @@ inputPaymentCredentialsSaved#c10eb2cf id:string tmp_password:bytes = InputPaymen
 
 ```php
 $inputPaymentCredentials = $client->inputPaymentCredentialsSaved(
-	id : 'YqDFWXV3Bxcz6Lpm',
+	id : 'W578DVfcgCY4odlj',
 	tmp_password : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

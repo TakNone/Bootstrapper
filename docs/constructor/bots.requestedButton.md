@@ -1,6 +1,6 @@
 # bots.requestedButton
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.requestedButton#f13bbcd7 webapp_req_id:string = bots.RequestedButton;
@@ -26,6 +26,6 @@ bots.requestedButton#f13bbcd7 webapp_req_id:string = bots.RequestedButton;
 
 ```php
 $botsRequestedButton = $client->bots->requestedButton(
-	webapp_req_id : 'lNI7qOAd39tmDe6v',
+	webapp_req_id : 'QpsWNPiFeRH0m1Ic',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Choose a channel*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true has_username:flags.3?Bool user_admin_rights:flags.1?ChatAdminRights bot_admin_rights:flags.2?ChatAdminRights = RequestPeerType;
@@ -33,7 +33,7 @@ requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true has_username:flag
 ```php
 $requestPeerType = $client->requestPeerTypeBroadcast(
 	creator : true,
-	has_username : true,
+	has_username : false,
 	user_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,

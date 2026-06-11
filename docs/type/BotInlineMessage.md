@@ -2,7 +2,7 @@
 
 **Description** : *Inline message*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 botInlineMessageMediaAuto#764cf810 flags:# invert_media:flags.3?true message:string entities:flags.1?Vector<MessageEntity> reply_markup:flags.2?ReplyMarkup = BotInlineMessage;
@@ -12,6 +12,7 @@ botInlineMessageMediaVenue#8a86659c flags:# geo:GeoPoint title:string address:st
 botInlineMessageMediaContact#18d1cdc2 flags:# phone_number:string first_name:string last_name:string vcard:string reply_markup:flags.2?ReplyMarkup = BotInlineMessage;
 botInlineMessageMediaInvoice#354a9b09 flags:# shipping_address_requested:flags.1?true test:flags.3?true title:string description:string photo:flags.0?WebDocument currency:string total_amount:long reply_markup:flags.2?ReplyMarkup = BotInlineMessage;
 botInlineMessageMediaWebPage#809ad9a6 flags:# invert_media:flags.3?true force_large_media:flags.4?true force_small_media:flags.5?true manual:flags.7?true safe:flags.8?true message:string entities:flags.1?Vector<MessageEntity> url:string reply_markup:flags.2?ReplyMarkup = BotInlineMessage;
+botInlineMessageRichMessage#a617e7b flags:# reply_markup:flags.2?ReplyMarkup rich_message:RichMessage = BotInlineMessage;
 ```
 
 ---
@@ -27,3 +28,4 @@ botInlineMessageMediaWebPage#809ad9a6 flags:# invert_media:flags.3?true force_la
 | [**botInlineMessageMediaContact**](constructor/botInlineMessageMediaContact) | Send a contact |
 | [**botInlineMessageMediaInvoice**](constructor/botInlineMessageMediaInvoice) | Send an invoice |
 | [**botInlineMessageMediaWebPage**](constructor/botInlineMessageMediaWebPage) | Specifies options that must be used to generate the link preview for the message, or even a standalone link preview without an attached message |
+| [**botInlineMessageRichMessage**](constructor/botInlineMessageRichMessage) | NOTHING |

@@ -2,7 +2,7 @@
 
 **Description** : *Login by importing an authorization token*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.importWebTokenAuthorization#2db873a9 api_id:int api_hash:string web_auth_token:string = auth.Authorization;
@@ -38,8 +38,8 @@ auth.importWebTokenAuthorization#2db873a9 api_id:int api_hash:string web_auth_to
 
 ```php
 $authAuthorization = $client->auth->importWebTokenAuthorization(
-	api_id : 72,
-	api_hash : 'TMJ0IibkhpXZdsxE',
-	web_auth_token : 'iU6LSz9gj3BfG0M2',
+	api_id : 100,
+	api_hash : 'AeryZwotxlkPW1LJ',
+	web_auth_token : 'fMx3sm1oI0nCcpzg',
 );
 ```

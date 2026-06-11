@@ -2,7 +2,7 @@
 
 **Description** : *Deletes a peer from a blocklist, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 contacts.unblock#b550d328 flags:# my_stories_from:flags.0?true id:InputPeer = Bool;

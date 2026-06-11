@@ -2,7 +2,7 @@
 
 **Description** : *Clear all peer\-specific autosave settings*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.deleteAutoSaveExceptions#53bc0020 = Bool;

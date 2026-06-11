@@ -2,7 +2,7 @@
 
 **Description** : *Venue*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageMediaVenue#2ec0533f geo:GeoPoint title:string address:string provider:string venue_id:string venue_type:string = MessageMedia;
@@ -34,10 +34,10 @@ messageMediaVenue#2ec0533f geo:GeoPoint title:string address:string provider:str
 ```php
 $messageMedia = $client->messageMediaVenue(
 	geo : $client->geoPointEmpty(),
-	title : '6LC0Uto3T1eMAXvK',
-	address : 'nJxBw1cagF35OLAf',
-	provider : 'E8rSCyXkRONvj2da',
-	venue_id : 'T5iKIYoX20VHDnrM',
-	venue_type : 'zxI8fws5au6U4Pk9',
+	title : 'vzM0AbLNl85wxjZr',
+	address : '1pwcLT4vGEXYqANu',
+	provider : 'fpbaxNTlGRWVUD91',
+	venue_id : 'itE4Cb5qcJVke7Da',
+	venue_type : '9uyZlGLKQwP6DRSg',
 );
 ```

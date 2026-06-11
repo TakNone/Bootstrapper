@@ -2,7 +2,7 @@
 
 **Description** : *Represents the creator of the group*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatParticipantCreator#e1f867b8 flags:# user_id:long rank:flags.0?string = ChatParticipant;
@@ -30,7 +30,7 @@ chatParticipantCreator#e1f867b8 flags:# user_id:long rank:flags.0?string = ChatP
 
 ```php
 $chatParticipant = $client->chatParticipantCreator(
-	user_id : -6695632739667439536,
-	rank : 'CMKr0O5dITatxFXk',
+	user_id : -8809545595561277535,
+	rank : 'yiGLveFknUaWbVKh',
 );
 ```

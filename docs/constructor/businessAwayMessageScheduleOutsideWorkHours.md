@@ -2,7 +2,7 @@
 
 **Description** : *Send Telegram Business away messages to users writing to us in private outside of the configured Telegram Business working hours*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 businessAwayMessageScheduleOutsideWorkHours#c3f2f501 = BusinessAwayMessageSchedule;

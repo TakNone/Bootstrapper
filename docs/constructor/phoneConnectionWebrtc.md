@@ -2,7 +2,7 @@
 
 **Description** : *WebRTC connection parameters*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 phoneConnectionWebrtc#635fe375 flags:# turn:flags.0?true stun:flags.1?true id:long ip:string ipv6:string port:int username:string password:string = PhoneConnection;
@@ -38,11 +38,11 @@ phoneConnectionWebrtc#635fe375 flags:# turn:flags.0?true stun:flags.1?true id:lo
 $phoneConnection = $client->phoneConnectionWebrtc(
 	turn : true,
 	stun : true,
-	id : 7966590184190712898,
+	id : -66109019782634614,
 	ip : '127.0.0.1',
 	ipv6 : '127.0.0.1',
-	port : 59,
+	port : 97,
 	username : 'TakNone',
-	password : 'rS8RdfY2TmNiUqxA',
+	password : '9pHoz1J8cAl70bGV',
 );
 ```

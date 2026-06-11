@@ -2,7 +2,7 @@
 
 **Description** : *Changes the main profile tab of the current user, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.setMainProfileTab#5dee78b0 tab:ProfileTab = Bool;

@@ -1,6 +1,6 @@
 # messageActionStarGiftPurchaseOffer
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionStarGiftPurchaseOffer#774278d4 flags:# accepted:flags.0?true declined:flags.1?true gift:StarGift price:StarsAmount expires_at:int = MessageAction;
@@ -41,40 +41,40 @@ $messageAction = $client->messageActionStarGiftPurchaseOffer(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : -6490500019645540061,
+		id : -8353956201240069860,
 		sticker : $client->documentEmpty(
-			id : -8928338096728269497,
+			id : 3382092624141033437,
 		),
-		stars : -5331963164659125813,
-		availability_remains : 66,
-		availability_total : 98,
-		availability_resale : -5960109834546934035,
-		convert_stars : 376783458180145566,
-		first_sale_date : 72,
-		last_sale_date : 42,
-		upgrade_stars : -4228530506225636073,
-		resell_min_stars : 32388270598643267,
-		title : 'wQ7fEbunB90jJdvi',
+		stars : -4571772996584190400,
+		availability_remains : 26,
+		availability_total : 58,
+		availability_resale : 3218907126482135015,
+		convert_stars : -6134712670707429350,
+		first_sale_date : 0,
+		last_sale_date : 38,
+		upgrade_stars : -437113174248802267,
+		resell_min_stars : 8021467629795535638,
+		title : 'KPktmlWx0zIuiXQs',
 		released_by : $client->peerUser(
-			user_id : -2932407452950544086,
+			user_id : -6740484305101291465,
 		),
-		per_user_total : 59,
-		per_user_remains : 65,
-		locked_until_date : 58,
-		auction_slug : 'wVaXszKhtOSl6y9A',
-		gifts_per_round : 21,
-		auction_start_date : 97,
-		upgrade_variants : 59,
+		per_user_total : 78,
+		per_user_remains : 5,
+		locked_until_date : 85,
+		auction_slug : 'SHFsfvyObk7Gwj9i',
+		gifts_per_round : 58,
+		auction_start_date : 82,
+		upgrade_variants : 25,
 		background : $client->starGiftBackground(
-			center_color : 47,
-			edge_color : 37,
-			text_color : 79,
+			center_color : 77,
+			edge_color : 33,
+			text_color : 41,
 		),
 	),
 	price : $client->starsAmount(
-		amount : 8459701871593322102,
-		nanos : 7,
+		amount : -2930216452646306176,
+		nanos : 13,
 	),
-	expires_at : 54,
+	expires_at : 58,
 );
 ```

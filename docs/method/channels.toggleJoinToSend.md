@@ -2,7 +2,7 @@
 
 **Description** : *Set whether all users should join a discussion group in order to comment on a post &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channels.toggleJoinToSend#e4cb9580 channel:InputChannel enabled:Bool = Updates;

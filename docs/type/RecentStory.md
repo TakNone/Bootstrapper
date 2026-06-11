@@ -1,6 +1,6 @@
 # RecentStory
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;

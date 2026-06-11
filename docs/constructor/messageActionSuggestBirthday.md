@@ -1,6 +1,6 @@
 # messageActionSuggestBirthday
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionSuggestBirthday#2c8f2a25 birthday:Birthday = MessageAction;
@@ -27,9 +27,9 @@ messageActionSuggestBirthday#2c8f2a25 birthday:Birthday = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestBirthday(
 	birthday : $client->birthday(
-		day : 76,
-		month : 100,
-		year : 11,
+		day : 52,
+		month : 25,
+		year : 29,
 	),
 );
 ```

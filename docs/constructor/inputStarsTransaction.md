@@ -2,7 +2,7 @@
 
 **Description** : *Used to fetch info about a Telegram Star transaction &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputStarsTransaction#206ae6d1 flags:# refund:flags.0?true id:string = InputStarsTransaction;
@@ -31,6 +31,6 @@ inputStarsTransaction#206ae6d1 flags:# refund:flags.0?true id:string = InputStar
 ```php
 $inputStarsTransaction = $client->inputStarsTransaction(
 	refund : true,
-	id : '8BHo9dEQSluAKwY0',
+	id : 'IodfgqWbG6acuySC',
 );
 ```

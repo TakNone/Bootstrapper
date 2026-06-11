@@ -1,6 +1,6 @@
 # starGiftUpgradePrice
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice;
@@ -27,7 +27,7 @@ starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice
 
 ```php
 $starGiftUpgradePrice = $client->starGiftUpgradePrice(
-	date : 35,
-	upgrade_stars : 4453867728798851252,
+	date : 96,
+	upgrade_stars : 708721078686171735,
 );
 ```

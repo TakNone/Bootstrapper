@@ -2,7 +2,7 @@
 
 **Description** : *Document location \(video, voice, audio, basically every type except photo\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputDocumentFileLocation#bad07584 id:long access_hash:long file_reference:bytes thumb_size:string = InputFileLocation;
@@ -31,9 +31,9 @@ inputDocumentFileLocation#bad07584 id:long access_hash:long file_reference:bytes
 
 ```php
 $inputFileLocation = $client->inputDocumentFileLocation(
-	id : -7981935591055534589,
-	access_hash : 7194321493380215331,
+	id : -2296025919449873880,
+	access_hash : -8565449825423056862,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	thumb_size : '0TcwfyLQgME3Rp6s',
+	thumb_size : 'CBld68APpnwYxbOV',
 );
 ```

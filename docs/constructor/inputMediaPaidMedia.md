@@ -2,7 +2,7 @@
 
 **Description** : *Paid media, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputMediaPaidMedia#c4103386 flags:# stars_amount:long extended_media:Vector<InputMedia> payload:flags.0?string = InputMedia;
@@ -31,8 +31,8 @@ inputMediaPaidMedia#c4103386 flags:# stars_amount:long extended_media:Vector<Inp
 
 ```php
 $inputMedia = $client->inputMediaPaidMedia(
-	stars_amount : -4412821941425865629,
+	stars_amount : -4958187519208436199,
 	extended_media : array($client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT)),
-	payload : 'QS3Jortxj0U4k7WV',
+	payload : 'hFBl8WMjg9YUrJbA',
 );
 ```

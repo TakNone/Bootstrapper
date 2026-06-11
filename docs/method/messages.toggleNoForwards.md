@@ -2,7 +2,7 @@
 
 **Description** : *Enable or disable content protection on a channel or chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.toggleNoForwards#b2081a35 flags:# peer:InputPeer enabled:Bool request_msg_id:flags.0?int = Updates;
@@ -43,6 +43,6 @@ messages.toggleNoForwards#b2081a35 flags:# peer:InputPeer enabled:Bool request_m
 $updates = $client->messages->toggleNoForwards(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	enabled : true,
-	request_msg_id : 83,
+	request_msg_id : 4,
 );
 ```

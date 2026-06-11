@@ -2,10 +2,10 @@
 
 **Description** : *Contains the webview URL with appropriate theme and user info parameters added*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-webViewResultUrl#4d22ff98 flags:# fullsize:flags.1?true fullscreen:flags.2?true query_id:flags.0?long url:string = WebViewResult;
+webViewResultUrl#4d22ff98 flags:# fullsize:flags.1?true fullscreen:flags.2?true same_origin:flags.3?true query_id:flags.0?long url:string = WebViewResult;
 ```
 
 ---
@@ -17,6 +17,7 @@ webViewResultUrl#4d22ff98 flags:# fullsize:flags.1?true fullscreen:flags.2?true 
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **fullsize** | [`flags.1?true`](type/true) | If set, the app must be opened in fullsize mode instead of compact mode |
 | **fullscreen** | [`flags.2?true`](type/true) | If set, the app must be opened in fullscreen |
+| **same_origin** | [`flags.3?true`](type/true) | NOTHING |
 | **query_id** | [`flags.0?long`](type/long) | Webview session ID (only returned by inline button mini apps, menu button mini apps, attachment menu mini apps) |
 | <mark>url</mark> | [`string`](type/string) | Webview URL to open |
 
@@ -34,7 +35,8 @@ webViewResultUrl#4d22ff98 flags:# fullsize:flags.1?true fullscreen:flags.2?true 
 $webViewResult = $client->webViewResultUrl(
 	fullsize : true,
 	fullscreen : true,
-	query_id : -5300632373483992248,
+	same_origin : true,
+	query_id : -6748789657749778774,
 	url : 'https://docs.liveproto.dev',
 );
 ```

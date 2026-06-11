@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of bot commands for the specified bot scope and language code*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.getBotCommands#e34c0dd6 scope:BotCommandScope lang_code:string = Vector<BotCommand>;
@@ -38,6 +38,6 @@ bots.getBotCommands#e34c0dd6 scope:BotCommandScope lang_code:string = Vector<Bot
 ```php
 $botCommand = $client->bots->getBotCommands(
 	scope : $client->botCommandScopeDefault(),
-	lang_code : 'iCjReoLfyzYPX3cV',
+	lang_code : '4Be1rzwoVGmUQScs',
 );
 ```

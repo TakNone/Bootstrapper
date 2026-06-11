@@ -2,7 +2,7 @@
 
 **Description** : *The wallpaper was changed*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelAdminLogEventActionChangeWallpaper#31bb5d52 prev_value:WallPaper new_value:WallPaper = ChannelAdminLogEventAction;
@@ -30,49 +30,49 @@ channelAdminLogEventActionChangeWallpaper#31bb5d52 prev_value:WallPaper new_valu
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeWallpaper(
 	prev_value : $client->wallPaper(
-		id : 3373461631367272279,
+		id : -1130372067825968497,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : 4432324939049923377,
-		slug : 'MX6ihnjHKJZTsIRE',
+		access_hash : -8430734380951011897,
+		slug : 'd6OAPxIbXi47h50a',
 		document : $client->documentEmpty(
-			id : -2633221958366293481,
+			id : -25509980368998447,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 40,
-			second_background_color : 51,
-			third_background_color : 66,
-			fourth_background_color : 38,
-			intensity : 32,
-			rotation : 85,
-			emoticon : 'notI1NRwzk4i3yOM',
+			background_color : 76,
+			second_background_color : 86,
+			third_background_color : 49,
+			fourth_background_color : 19,
+			intensity : 98,
+			rotation : 12,
+			emoticon : 'ex3zNUCBhSHVY6fK',
 		),
 	),
 	new_value : $client->wallPaper(
-		id : -8738778908056121756,
+		id : 2107815149889005190,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : 7276301248878487158,
-		slug : 'Gcx5qfpuSwJNAbmk',
+		access_hash : 2630112773686293684,
+		slug : '7hrSgBYcvNPfK3Lw',
 		document : $client->documentEmpty(
-			id : 2389904955637331000,
+			id : 3796083404717055600,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 77,
-			second_background_color : 78,
-			third_background_color : 95,
-			fourth_background_color : 98,
-			intensity : 74,
-			rotation : 64,
-			emoticon : '4QB7qcd5th6wagRb',
+			background_color : 69,
+			second_background_color : 16,
+			third_background_color : 64,
+			fourth_background_color : 40,
+			intensity : 77,
+			rotation : 18,
+			emoticon : '9UOWbJIpgfY6jB0M',
 		),
 	),
 );

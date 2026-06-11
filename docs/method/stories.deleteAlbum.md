@@ -2,7 +2,7 @@
 
 **Description** : *Delete a story album*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.deleteAlbum#8d3456d0 peer:InputPeer album_id:int = Bool;
@@ -38,6 +38,6 @@ stories.deleteAlbum#8d3456d0 peer:InputPeer album_id:int = Bool;
 ```php
 $bool = $client->stories->deleteAlbum(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	album_id : 40,
+	album_id : 64,
 );
 ```

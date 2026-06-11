@@ -2,7 +2,7 @@
 
 **Description** : *Report a peer for violation of telegram&#039;s Terms of Service*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.reportPeer#c5ba3d86 peer:InputPeer reason:ReportReason message:string = Bool;
@@ -41,6 +41,6 @@ account.reportPeer#c5ba3d86 peer:InputPeer reason:ReportReason message:string = 
 $bool = $client->account->reportPeer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reason : $client->inputReportReasonSpam(),
-	message : 'HzVIJOkZTm6pdRPa',
+	message : 'CuAit8DGn47K1dYo',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Defines an animated GIF*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 documentAttributeAnimated#11b58939 = DocumentAttribute;

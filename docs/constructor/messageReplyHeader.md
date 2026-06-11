@@ -2,10 +2,10 @@
 
 **Description** : *Message replies and thread information*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-messageReplyHeader#1b97dd66 flags:# reply_to_scheduled:flags.2?true forum_topic:flags.3?true quote:flags.9?true reply_to_msg_id:flags.4?int reply_to_peer_id:flags.0?Peer reply_from:flags.5?MessageFwdHeader reply_media:flags.8?MessageMedia reply_to_top_id:flags.1?int quote_text:flags.6?string quote_entities:flags.7?Vector<MessageEntity> quote_offset:flags.10?int todo_item_id:flags.11?int poll_option:flags.12?bytes = MessageReplyHeader;
+messageReplyHeader#1b97dd66 flags:# reply_to_scheduled:flags.2?true forum_topic:flags.3?true quote:flags.9?true reply_to_ephemeral:flags.13?true reply_to_msg_id:flags.4?int reply_to_peer_id:flags.0?Peer reply_from:flags.5?MessageFwdHeader reply_media:flags.8?MessageMedia reply_to_top_id:flags.1?int quote_text:flags.6?string quote_entities:flags.7?Vector<MessageEntity> quote_offset:flags.10?int todo_item_id:flags.11?int poll_option:flags.12?bytes = MessageReplyHeader;
 ```
 
 ---
@@ -18,6 +18,7 @@ messageReplyHeader#1b97dd66 flags:# reply_to_scheduled:flags.2?true forum_topic:
 | **reply_to_scheduled** | [`flags.2?true`](type/true) | This is a reply to a scheduled message |
 | **forum_topic** | [`flags.3?true`](type/true) | Whether this message was sent in a forum topic (except for the General topic) |
 | **quote** | [`flags.9?true`](type/true) | Whether this message is quoting a part of another message |
+| **reply_to_ephemeral** | [`flags.13?true`](type/true) | NOTHING |
 | **reply_to_msg_id** | [`flags.4?int`](type/int) | ID of message to which this message is replying |
 | **reply_to_peer_id** | [`flags.0?Peer`](type/Peer) | For replies sent in channel discussion threads of which the current user is not a member, the discussion group ID |
 | **reply_from** | [`flags.5?MessageFwdHeader`](type/MessageFwdHeader) | When replying to a message sent by a certain peer to another chat, contains info about the peer that originally sent the message to that other chat |
@@ -44,66 +45,67 @@ $messageReplyHeader = $client->messageReplyHeader(
 	reply_to_scheduled : true,
 	forum_topic : true,
 	quote : true,
-	reply_to_msg_id : 49,
+	reply_to_ephemeral : true,
+	reply_to_msg_id : 87,
 	reply_to_peer_id : $client->peerUser(
-		user_id : 9079210664073074009,
+		user_id : 7038637296673482875,
 	),
 	reply_from : $client->messageFwdHeader(
 		imported : true,
 		saved_out : true,
 		from_id : $client->peerUser(
-			user_id : 6128607305264981524,
+			user_id : 650902813360857325,
 		),
-		from_name : 'InfCBoO2tvFVMqZs',
-		date : 73,
-		channel_post : 54,
-		post_author : 'vKOmTLZ8YU3DCBti',
+		from_name : 'txYMIza1j5cwBuNo',
+		date : 13,
+		channel_post : 26,
+		post_author : 'b3Az2iJTmV4jUutC',
 		saved_from_peer : $client->peerUser(
-			user_id : 7485298409319689679,
+			user_id : -8308469395810361667,
 		),
-		saved_from_msg_id : 94,
+		saved_from_msg_id : 51,
 		saved_from_id : $client->peerUser(
-			user_id : 4129510882479566402,
+			user_id : -480312231384819218,
 		),
-		saved_from_name : 'uofCTWg3Q5Fph2Ln',
-		saved_date : 26,
-		psa_type : '0zy29pon1egPZStD',
+		saved_from_name : 'GcwYACjIl1WRioZB',
+		saved_date : 54,
+		psa_type : 'cteLhCWyQZ7Dpg3B',
 	),
 	reply_media : $client->messageMediaEmpty(),
-	reply_to_top_id : 29,
-	quote_text : 'FxVZu1mw9Ifpz608',
+	reply_to_top_id : 28,
+	quote_text : 'D5AMUPx8EpTjgyZk',
 	quote_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 86,
+			length : 17,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 85,
+			length : 9,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 66,
+			length : 56,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 89,
+			length : 3,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 15,
+			length : 97,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 66,
+			length : 61,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 34,
+			length : 8,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 1,
+			length : 89,
 		),
 		$client->messageEntityCode(
 			offset : 0,
@@ -111,57 +113,57 @@ $messageReplyHeader = $client->messageReplyHeader(
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 13,
-			language : '96D8maTsvSre4BUn',
+			length : 52,
+			language : 'nF4UEtfrSqoRy8DJ',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 10,
+			length : 19,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 47,
-			user_id : 1486844437681112120,
+			length : 33,
+			user_id : 4762632712993261197,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 55,
+			length : 75,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 53,
+			length : 98,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 41,
+			length : 57,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 63,
+			length : 38,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 51,
+			length : 42,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 58,
+			length : 47,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 84,
+			length : 20,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 11,
-			document_id : 6609061324134025233,
+			length : 5,
+			document_id : -4799814006457711252,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 86,
+			length : 63,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -171,25 +173,25 @@ $messageReplyHeader = $client->messageReplyHeader(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 95,
-			date : 78,
+			length : 49,
+			date : 1,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 55,
+			length : 90,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 42,
-			old_text : 'XW2edQySA8vM5YtU',
+			length : 30,
+			old_text : 'TJSYHZBRhAkc2WCl',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 25,
+			length : 43,
 		),
 	),
-	quote_offset : 2,
-	todo_item_id : 4,
+	quote_offset : 84,
+	todo_item_id : 27,
 	poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

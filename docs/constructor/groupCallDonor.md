@@ -1,6 +1,6 @@
 # groupCallDonor
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 groupCallDonor#ee430c85 flags:# top:flags.0?true my:flags.1?true peer_id:flags.3?Peer stars:long = GroupCallDonor;
@@ -33,8 +33,8 @@ $groupCallDonor = $client->groupCallDonor(
 	top : true,
 	my : true,
 	peer_id : $client->peerUser(
-		user_id : 8539623304846142037,
+		user_id : 3446417160724087083,
 	),
-	stars : 5746614870715402828,
+	stars : -2285631781474713891,
 );
 ```

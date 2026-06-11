@@ -2,7 +2,7 @@
 
 **Description** : *Button to start a game*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 keyboardButtonGame#89c590f9 flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
@@ -34,8 +34,8 @@ $keyboardButton = $client->keyboardButtonGame(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -1025999872748563833,
+		icon : 296827584804688398,
 	),
-	text : 'lu5r8fgUPFxL7zEi',
+	text : 'p0hQfq9nsMowKCvH',
 );
 ```

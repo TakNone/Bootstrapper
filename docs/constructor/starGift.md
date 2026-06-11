@@ -2,7 +2,7 @@
 
 **Description** : *Represents a star gift, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGift#313a9547 flags:# limited:flags.0?true sold_out:flags.1?true birthday:flags.2?true require_premium:flags.7?true limited_per_user:flags.8?true peer_color_available:flags.10?true auction:flags.11?true id:long sticker:Document stars:long availability_remains:flags.0?int availability_total:flags.0?int availability_resale:flags.4?long convert_stars:long first_sale_date:flags.1?int last_sale_date:flags.1?int upgrade_stars:flags.3?long resell_min_stars:flags.4?long title:flags.5?string released_by:flags.6?Peer per_user_total:flags.8?int per_user_remains:flags.8?int locked_until_date:flags.9?int auction_slug:flags.11?string gifts_per_round:flags.11?int auction_start_date:flags.11?int upgrade_variants:flags.12?int background:flags.13?StarGiftBackground = StarGift;
@@ -63,34 +63,34 @@ $starGift = $client->starGift(
 	limited_per_user : true,
 	peer_color_available : true,
 	auction : true,
-	id : 4037079965071384900,
+	id : -2596651339061370720,
 	sticker : $client->documentEmpty(
-		id : 4818894312802610026,
+		id : -6328231810138443064,
 	),
-	stars : 5151164701036230307,
+	stars : -3571976369431435011,
 	availability_remains : 42,
-	availability_total : 50,
-	availability_resale : -6370993780640826693,
-	convert_stars : 2710848426468195620,
-	first_sale_date : 90,
-	last_sale_date : 23,
-	upgrade_stars : -859149002137881443,
-	resell_min_stars : -6849979470210495441,
-	title : 'NZrKemB3iVSjwz9R',
+	availability_total : 12,
+	availability_resale : -8244497536886532880,
+	convert_stars : 2311942272415633286,
+	first_sale_date : 91,
+	last_sale_date : 2,
+	upgrade_stars : -9041592436705908380,
+	resell_min_stars : 6493423259675084292,
+	title : 'Z6QVK4S0ckG5h7qe',
 	released_by : $client->peerUser(
-		user_id : -3823119888629016018,
+		user_id : 349239264484321539,
 	),
-	per_user_total : 71,
-	per_user_remains : 56,
-	locked_until_date : 87,
-	auction_slug : 'InbWs8kPym79Ytz3',
-	gifts_per_round : 5,
-	auction_start_date : 42,
-	upgrade_variants : 74,
+	per_user_total : 6,
+	per_user_remains : 68,
+	locked_until_date : 65,
+	auction_slug : 'ioEy1bp2I8CLHNe0',
+	gifts_per_round : 57,
+	auction_start_date : 12,
+	upgrade_variants : 62,
 	background : $client->starGiftBackground(
-		center_color : 82,
-		edge_color : 93,
-		text_color : 20,
+		center_color : 98,
+		edge_color : 70,
+		text_color : 69,
 	),
 );
 ```

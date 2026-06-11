@@ -2,7 +2,7 @@
 
 **Description** : *Convert a received gift &raquo; into Telegram Stars: this will permanently destroy the gift, converting it into starGift\.convert\_stars Telegram Stars, added to the user&#039;s balance*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.convertStarGift#74bf076b stargift:InputSavedStarGift = Bool;
@@ -41,7 +41,7 @@ payments.convertStarGift#74bf076b stargift:InputSavedStarGift = Bool;
 ```php
 $bool = $client->payments->convertStarGift(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 18,
+		msg_id : 37,
 	),
 );
 ```

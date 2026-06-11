@@ -2,7 +2,7 @@
 
 **Description** : *A group call was scheduled*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionGroupCallScheduled#b3a07661 call:InputGroupCall schedule_date:int = MessageAction;
@@ -30,9 +30,9 @@ messageActionGroupCallScheduled#b3a07661 call:InputGroupCall schedule_date:int =
 ```php
 $messageAction = $client->messageActionGroupCallScheduled(
 	call : $client->inputGroupCall(
-		id : 1145423203518927200,
-		access_hash : -3537994897111401777,
+		id : -7550044745353278151,
+		access_hash : 4881109166776308014,
 	),
-	schedule_date : 51,
+	schedule_date : 83,
 );
 ```

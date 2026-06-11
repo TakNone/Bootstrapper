@@ -2,7 +2,7 @@
 
 **Description** : *Incoming phone call*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 phoneCallWaiting#c5226f17 flags:# video:flags.6?true id:long access_hash:long date:int admin_id:long participant_id:long protocol:PhoneCallProtocol receive_date:flags.0?int = PhoneCall;
@@ -37,18 +37,18 @@ phoneCallWaiting#c5226f17 flags:# video:flags.6?true id:long access_hash:long da
 ```php
 $phoneCall = $client->phoneCallWaiting(
 	video : true,
-	id : -8852160003901863372,
-	access_hash : 2273705576520036666,
-	date : 17,
-	admin_id : -21149048345342052,
-	participant_id : 7269502492028552853,
+	id : -1518345767043366918,
+	access_hash : -2470863118572406255,
+	date : 56,
+	admin_id : -257301295088011002,
+	participant_id : -4131099708737052720,
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 99,
-		max_layer : 91,
-		library_versions : array('Hl0or5AVYyZ3t498'),
+		min_layer : 30,
+		max_layer : 13,
+		library_versions : array('bDfLaF3EH7oCXuB1'),
 	),
-	receive_date : 38,
+	receive_date : 72,
 );
 ```

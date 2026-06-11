@@ -2,7 +2,7 @@
 
 **Description** : *Story albums &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.albums#c3987a3a hash:long albums:Vector<StoryAlbum> = stories.Albums;
@@ -32,13 +32,13 @@ $storiesAlbums = $client->stories->albums(
 	hash : 0,
 	albums : array(
 		$client->storyAlbum(
-			album_id : 78,
-			title : 'ZltoLsW8U26ScEuP',
+			album_id : 53,
+			title : 'y80QK12lbmJxM6SB',
 			icon_photo : $client->photoEmpty(
-				id : 5900323455227877424,
+				id : 4239641366417970711,
 			),
 			icon_video : $client->documentEmpty(
-				id : -2559893766148885040,
+				id : -4941925160074239298,
 			),
 		),
 	),

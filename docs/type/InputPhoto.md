@@ -2,7 +2,7 @@
 
 **Description** : *Defines a photo for further interaction*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPhotoEmpty#1cd7bf0d = InputPhoto;

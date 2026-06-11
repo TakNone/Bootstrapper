@@ -1,6 +1,6 @@
 # messageEntityDiffDelete
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageEntityDiffDelete#652c1c5 offset:int length:int = MessageEntity;
@@ -28,6 +28,6 @@ messageEntityDiffDelete#652c1c5 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityDiffDelete(
 	offset : 0,
-	length : 7,
+	length : 97,
 );
 ```

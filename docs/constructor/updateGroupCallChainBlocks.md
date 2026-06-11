@@ -2,7 +2,7 @@
 
 **Description** : *Contains updates to the blockchain of a conference call, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:Vector<bytes> next_offset:int = Update;
@@ -32,11 +32,11 @@ updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:
 ```php
 $update = $client->updateGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : 2284003557065939725,
-		access_hash : -7115145571211160639,
+		id : 3507956569971010519,
+		access_hash : 8273962660374317592,
 	),
-	sub_chain_id : 33,
+	sub_chain_id : 24,
 	blocks : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	next_offset : 69,
+	next_offset : 27,
 );
 ```

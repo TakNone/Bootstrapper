@@ -2,7 +2,7 @@
 
 **Description** : *Defines the current user*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPeerSelf#7da07ec9 = InputPeer;

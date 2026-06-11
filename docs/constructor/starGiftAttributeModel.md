@@ -2,7 +2,7 @@
 
 **Description** : *The model of a collectible gift &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftAttributeModel#565251e2 flags:# crafted:flags.0?true name:string document:Document rarity:StarGiftAttributeRarity = StarGiftAttribute;
@@ -33,12 +33,12 @@ starGiftAttributeModel#565251e2 flags:# crafted:flags.0?true name:string documen
 ```php
 $starGiftAttribute = $client->starGiftAttributeModel(
 	crafted : true,
-	name : '8mHgxcJzT09UIXnE',
+	name : 'gXh546sIfHMB0VtW',
 	document : $client->documentEmpty(
-		id : 4113936757563483481,
+		id : -5333076588785743434,
 	),
 	rarity : $client->starGiftAttributeRarity(
-		permille : 36,
+		permille : 44,
 	),
 );
 ```

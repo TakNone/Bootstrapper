@@ -2,7 +2,7 @@
 
 **Description** : *All channels*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputNotifyBroadcasts#b1db7c7e = InputNotifyPeer;

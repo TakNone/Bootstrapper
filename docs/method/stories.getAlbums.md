@@ -2,7 +2,7 @@
 
 **Description** : *Get story albums created by a peer*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.getAlbums#25b3eac7 peer:InputPeer hash:long = stories.Albums;

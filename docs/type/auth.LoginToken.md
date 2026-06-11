@@ -2,7 +2,7 @@
 
 **Description** : *Login token \(for QR code login\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.loginToken#629f1980 expires:int token:bytes = auth.LoginToken;

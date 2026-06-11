@@ -1,6 +1,6 @@
 # payments.StarGiftAuctionState
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.starGiftAuctionState#6b39f4ec gift:StarGift state:StarGiftAuctionState user_state:StarGiftAuctionUserState timeout:int users:Vector<User> chats:Vector<Chat> = payments.StarGiftAuctionState;

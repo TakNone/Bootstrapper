@@ -2,7 +2,7 @@
 
 **Description** : *Ban/unban/kick a user in a supergroup/channel*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channels.editBanned#96e6cd81 channel:InputChannel participant:InputPeer banned_rights:ChatBannedRights = Updates;
@@ -73,7 +73,7 @@ $updates = $client->channels->editBanned(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 70,
+		until_date : 53,
 	),
 );
 ```

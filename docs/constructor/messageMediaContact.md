@@ -2,7 +2,7 @@
 
 **Description** : *Attached contact*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageMediaContact#70322949 phone_number:string first_name:string last_name:string vcard:string user_id:long = MessageMedia;
@@ -35,7 +35,7 @@ $messageMedia = $client->messageMediaContact(
 	phone_number : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
-	vcard : 'L9Xdsl27SjpO6xT3',
-	user_id : 3417995049016224370,
+	vcard : 'mPUhgQxuYo0Ms7Ae',
+	user_id : -3462144082240828300,
 );
 ```

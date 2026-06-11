@@ -2,7 +2,7 @@
 
 **Description** : *The server\-side configuration has changed; the client should re\-fetch the config using help\.getConfig and help\.getAppConfig*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateConfig#a229dd06 = Update;

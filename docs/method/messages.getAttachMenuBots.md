@@ -2,7 +2,7 @@
 
 **Description** : *Returns installed attachment menu bot mini apps &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getAttachMenuBots#16fcc2cb hash:long = AttachMenuBots;

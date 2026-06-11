@@ -1,6 +1,6 @@
 # updateStarGiftAuctionState
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Update;
@@ -27,7 +27,7 @@ updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Up
 
 ```php
 $update = $client->updateStarGiftAuctionState(
-	gift_id : 5827381543307662424,
+	gift_id : 3695270737041727233,
 	state : $client->starGiftAuctionStateNotModified(),
 );
 ```

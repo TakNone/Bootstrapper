@@ -4,7 +4,7 @@
 This method should be invoked to the same group/channel\-related DC used for downloading livestream chunks\.
 As usual, the media DC is preferred, if available*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 phone.getGroupCallStreamChannels#1ab21940 call:InputGroupCall = phone.GroupCallStreamChannels;
@@ -40,8 +40,8 @@ phone.getGroupCallStreamChannels#1ab21940 call:InputGroupCall = phone.GroupCallS
 ```php
 $phoneGroupCallStreamChannels = $client->phone->getGroupCallStreamChannels(
 	call : $client->inputGroupCall(
-		id : 2896115840510133823,
-		access_hash : 6205834327288227881,
+		id : 3208231214232454651,
+		access_hash : 3770389431117643376,
 	),
 );
 ```

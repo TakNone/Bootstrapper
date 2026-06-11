@@ -2,7 +2,7 @@
 
 **Description** : *If the add contact action bar is active, add that user as contact*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 contacts.acceptContact#f831a20f id:InputUser = Updates;

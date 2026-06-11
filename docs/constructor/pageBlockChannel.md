@@ -2,7 +2,7 @@
 
 **Description** : *Reference to a telegram channel*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 pageBlockChannel#ef1751b5 channel:Chat = PageBlock;
@@ -29,7 +29,7 @@ pageBlockChannel#ef1751b5 channel:Chat = PageBlock;
 ```php
 $pageBlock = $client->pageBlockChannel(
 	channel : $client->chatEmpty(
-		id : 6537529242516812525,
+		id : -1705631465922966189,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Get full info about a supergroup, gigagroup or channel*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channels.getFullChannel#8736a09 channel:InputChannel = messages.ChatFull;

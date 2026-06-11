@@ -2,7 +2,7 @@
 
 **Description** : *Assigns a new big encrypted file \(over 10 MB in size\), saved in parts using the method upload\.saveBigFilePart*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputEncryptedFileBigUploaded#2dc173c8 id:long parts:int key_fingerprint:int = InputEncryptedFile;
@@ -30,8 +30,8 @@ inputEncryptedFileBigUploaded#2dc173c8 id:long parts:int key_fingerprint:int = I
 
 ```php
 $inputEncryptedFile = $client->inputEncryptedFileBigUploaded(
-	id : -2468976056323059868,
-	parts : 13,
-	key_fingerprint : 27,
+	id : -4155447639746209901,
+	parts : 62,
+	key_fingerprint : 100,
 );
 ```

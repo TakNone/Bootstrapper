@@ -2,7 +2,7 @@
 
 **Description** : *Details about the authorization request, for more info click here &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 urlAuthResultRequest#3cd623ec flags:# request_write_access:flags.0?true request_phone_number:flags.1?true match_codes_first:flags.5?true is_app:flags.6?true bot:User domain:string browser:flags.2?string platform:flags.2?string ip:flags.2?string region:flags.2?string match_codes:flags.3?Vector<string> user_id_hint:flags.4?long verified_app_name:flags.7?string = UrlAuthResult;
@@ -46,15 +46,15 @@ $urlAuthResult = $client->urlAuthResultRequest(
 	match_codes_first : true,
 	is_app : true,
 	bot : $client->userEmpty(
-		id : 8449647534453240795,
+		id : 2757982922142121970,
 	),
-	domain : 'DoYnyKR2xuOqEcBI',
-	browser : '4Hr20jfOCmdMUoza',
-	platform : 's059EmBDXxAwaP6H',
+	domain : '9mEdXTiL5cvBRPWF',
+	browser : 'ofajsSTel6XFBQIn',
+	platform : 'M20GkCQc6XB3UEiY',
 	ip : '127.0.0.1',
-	region : 'agmFP5G2t6wCX7QV',
-	match_codes : array('Bry1Ds9NLHZY5v2C'),
-	user_id_hint : 9122210914081569704,
-	verified_app_name : 'CduJHGwingkzDO2I',
+	region : 'pcf2hKwx4HqFIT7i',
+	match_codes : array('xHP2BAcJGVij96rN'),
+	user_id_hint : 3015768731946463066,
+	verified_app_name : 'zNy0W9U7j5CcKxV4',
 );
 ```

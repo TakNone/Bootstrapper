@@ -2,7 +2,7 @@
 
 **Description** : *Changes in the data center configuration options*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateDcOptions#8e5e9873 dc_options:Vector<DcOption> = Update;
@@ -36,9 +36,9 @@ $update = $client->updateDcOptions(
 			cdn : true,
 			static : true,
 			this_port_only : true,
-			id : 82,
+			id : 43,
 			ip_address : '127.0.0.1',
-			port : 22,
+			port : 40,
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

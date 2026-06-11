@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 geoPointEmpty#1117dd5f = GeoPoint;

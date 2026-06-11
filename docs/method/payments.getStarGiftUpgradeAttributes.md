@@ -1,6 +1,6 @@
 # payments.getStarGiftUpgradeAttributes
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.getStarGiftUpgradeAttributes#6d038b58 gift_id:long = payments.StarGiftUpgradeAttributes;
@@ -26,6 +26,6 @@ payments.getStarGiftUpgradeAttributes#6d038b58 gift_id:long = payments.StarGiftU
 
 ```php
 $paymentsStarGiftUpgradeAttributes = $client->payments->getStarGiftUpgradeAttributes(
-	gift_id : 5416186616800338253,
+	gift_id : 7071042732860511745,
 );
 ```

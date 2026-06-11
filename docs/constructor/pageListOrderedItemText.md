@@ -2,10 +2,10 @@
 
 **Description** : *Ordered list of text items*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-pageListOrderedItemText#5e068047 num:string text:RichText = PageListOrderedItem;
+pageListOrderedItemText#15031189 flags:# checkbox:flags.0?true checked:flags.1?true num:flags.2?string text:RichText value:flags.3?int type:flags.4?string = PageListOrderedItem;
 ```
 
 ---
@@ -14,8 +14,13 @@ pageListOrderedItemText#5e068047 num:string text:RichText = PageListOrderedItem;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>num</mark> | [`string`](type/string) | Number of element within ordered list |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **checkbox** | [`flags.0?true`](type/true) | NOTHING |
+| **checked** | [`flags.1?true`](type/true) | NOTHING |
+| **num** | [`flags.2?string`](type/string) | Number of element within ordered list |
 | <mark>text</mark> | [`RichText`](type/RichText) | Text |
+| **value** | [`flags.3?int`](type/int) | NOTHING |
+| **type** | [`flags.4?string`](type/string) | NOTHING |
 
 ---
 
@@ -29,7 +34,11 @@ pageListOrderedItemText#5e068047 num:string text:RichText = PageListOrderedItem;
 
 ```php
 $pageListOrderedItem = $client->pageListOrderedItemText(
-	num : 'uTlCbPYhptgjszF5',
+	checkbox : true,
+	checked : true,
+	num : 'pe6kZuEc31GbxaPr',
 	text : $client->textEmpty(),
+	value : 46,
+	type : '51nFTorjpMUhNzyZ',
 );
 ```

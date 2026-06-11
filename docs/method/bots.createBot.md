@@ -1,6 +1,6 @@
 # bots.createBot
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.createBot#e5b17f2b flags:# via_deeplink:flags.0?true name:string username:string manager_id:InputUser = User;
@@ -31,7 +31,7 @@ bots.createBot#e5b17f2b flags:# via_deeplink:flags.0?true name:string username:s
 ```php
 $user = $client->bots->createBot(
 	via_deeplink : true,
-	name : 'Fsu3EfezLKGAw0Nc',
+	name : 'avsWHgCdexq7jI1L',
 	username : 'TakNone',
 	manager_id : $client->get_input_user(user : '@TakNone'),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Timezone information*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 timezone#ff9289f5 id:string name:string utc_offset:int = Timezone;

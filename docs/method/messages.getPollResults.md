@@ -2,7 +2,7 @@
 
 **Description** : *Get poll results*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getPollResults#eda3e33b peer:InputPeer msg_id:int poll_hash:long = Updates;
@@ -40,7 +40,7 @@ messages.getPollResults#eda3e33b peer:InputPeer msg_id:int poll_hash:long = Upda
 ```php
 $updates = $client->messages->getPollResults(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 83,
-	poll_hash : -7781563957984336407,
+	msg_id : 37,
+	poll_hash : 3993630368534994586,
 );
 ```

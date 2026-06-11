@@ -2,7 +2,7 @@
 
 **Description** : *Get message ranges for saving the user&#039;s chat history*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getSplitRanges#1cff7e08 = Vector<MessageRange>;

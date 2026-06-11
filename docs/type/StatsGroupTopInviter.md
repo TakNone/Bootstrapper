@@ -2,7 +2,7 @@
 
 **Description** : *Most active inviter in a supergroup*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 statsGroupTopInviter#535f779d user_id:long invitations:int = StatsGroupTopInviter;
