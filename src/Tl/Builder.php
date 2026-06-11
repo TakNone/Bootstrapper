@@ -15,7 +15,7 @@ class Builder {
 	public function __construct(string $filename,int $indentSize = 1){
 		$this->indents = 0;
 		$this->indentSize = $indentSize;
-		$this->outStream = openFile($filename,'w+');
+		$this->outStream = openFile($filename,'wb');
 		$this->text = (string) null;
 	}
 	public function indent() : string {
