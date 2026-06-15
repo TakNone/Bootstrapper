@@ -34,15 +34,15 @@ updateInlineBotCallbackQuery#691e9052 flags:# query_id:long user_id:long msg_id:
 
 ```php
 $update = $client->updateInlineBotCallbackQuery(
-	query_id : -4460238970597954171,
-	user_id : 602511131043625110,
+	query_id : 6066967924776568673,
+	user_id : -1055735295953214291,
 	msg_id : $client->inputBotInlineMessageID(
-		dc_id : 20,
-		id : 5417091160073031463,
-		access_hash : -114778723894886159,
+		dc_id : 86,
+		id : 7669018818084350710,
+		access_hash : 1651259064578804430,
 	),
-	chat_instance : 3305152532101443876,
+	chat_instance : 2915319452179371832,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	game_short_name : 'nQWv4K5Liyl7Yk3N',
+	game_short_name : 'VU8vH10CwYu4Tyst',
 );
 ```

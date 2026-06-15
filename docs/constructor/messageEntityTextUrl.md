@@ -31,7 +31,7 @@ messageEntityTextUrl#76a6d327 offset:int length:int url:string = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityTextUrl(
 	offset : 0,
-	length : 53,
+	length : 77,
 	url : 'https://docs.liveproto.dev',
 );
 ```

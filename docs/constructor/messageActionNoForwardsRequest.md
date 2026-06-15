@@ -30,7 +30,7 @@ messageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true prev_value:
 ```php
 $messageAction = $client->messageActionNoForwardsRequest(
 	expired : true,
-	prev_value : false,
-	new_value : true,
+	prev_value : true,
+	new_value : false,
 );
 ```

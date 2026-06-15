@@ -29,7 +29,7 @@ messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = Messag
 ```php
 $messageEntity = $client->messageEntityDiffReplace(
 	offset : 0,
-	length : 31,
-	old_text : 'mEbTrdqjkSNuH1gZ',
+	length : 73,
+	old_text : 'orpjFcNQiAaGE31y',
 );
 ```

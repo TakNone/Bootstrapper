@@ -37,6 +37,6 @@ messages.getChats#49e9528f id:Vector<long> = messages.Chats;
 
 ```php
 $messagesChats = $client->messages->getChats(
-	id : array(-2273780503844671992),
+	id : array(-3919628558732485241),
 );
 ```

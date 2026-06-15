@@ -28,6 +28,6 @@ inputStickerSetDice#e67f520e emoticon:string = InputStickerSet;
 
 ```php
 $inputStickerSet = $client->inputStickerSetDice(
-	emoticon : 'MvoclS6AeqwN9tUJ',
+	emoticon : 'X71UYFOHrktJhBlD',
 );
 ```

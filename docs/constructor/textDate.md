@@ -41,6 +41,6 @@ $richText = $client->textDate(
 	long_date : true,
 	day_of_week : true,
 	text : $client->textEmpty(),
-	date : 73,
+	date : 54,
 );
 ```

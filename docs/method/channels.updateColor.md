@@ -43,7 +43,7 @@ channels.updateColor#d8aa3671 flags:# for_profile:flags.1?true channel:InputChan
 $updates = $client->channels->updateColor(
 	for_profile : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	color : 11,
-	background_emoji_id : -4984563836323227763,
+	color : 39,
+	background_emoji_id : -8365653932319937367,
 );
 ```

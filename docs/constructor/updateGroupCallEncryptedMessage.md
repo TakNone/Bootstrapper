@@ -29,11 +29,11 @@ updateGroupCallEncryptedMessage#c957a766 call:InputGroupCall from_id:Peer encryp
 ```php
 $update = $client->updateGroupCallEncryptedMessage(
 	call : $client->inputGroupCall(
-		id : -8882467294022873665,
-		access_hash : -6408969204481922367,
+		id : -8729700663437778636,
+		access_hash : 8009770965524854850,
 	),
 	from_id : $client->peerUser(
-		user_id : 2787523328465818684,
+		user_id : -4315381035216900492,
 	),
 	encrypted_message : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

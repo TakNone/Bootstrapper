@@ -31,7 +31,7 @@ videoSizeStickerMarkup#da082fe stickerset:InputStickerSet sticker_id:long backgr
 ```php
 $videoSize = $client->videoSizeStickerMarkup(
 	stickerset : $client->inputStickerSetEmpty(),
-	sticker_id : 8655361760894062026,
-	background_colors : array(28),
+	sticker_id : -2667544000594314009,
+	background_colors : array(90),
 );
 ```

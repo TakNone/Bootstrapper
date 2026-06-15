@@ -69,7 +69,7 @@ $updates = $client->messages->editChatDefaultBannedRights(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 54,
+		until_date : 48,
 	),
 );
 ```

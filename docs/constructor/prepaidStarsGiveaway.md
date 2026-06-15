@@ -32,10 +32,10 @@ prepaidStarsGiveaway#9a9d77e0 id:long stars:long quantity:int boosts:int date:in
 
 ```php
 $prepaidGiveaway = $client->prepaidStarsGiveaway(
-	id : 3702998918754500532,
-	stars : 4030659296057660675,
-	quantity : 2,
-	boosts : 95,
-	date : 88,
+	id : 7910986360945488644,
+	stars : -8680158704366446587,
+	quantity : 16,
+	boosts : 26,
+	date : 92,
 );
 ```

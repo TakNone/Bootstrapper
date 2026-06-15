@@ -39,9 +39,9 @@ bots.sendCustomRequest#aa2769ed custom_method:string params:DataJSON = DataJSON;
 
 ```php
 $dataJSON = $client->bots->sendCustomRequest(
-	custom_method : 'x4j2qPN0OrivtcXB',
+	custom_method : 'oTz5k1IAnFb7PLdV',
 	params : $client->dataJSON(
-		data : 'Rckd8uTP4pEDgjO1',
+		data : 'z3cup0STkAfXhYbJ',
 	),
 );
 ```

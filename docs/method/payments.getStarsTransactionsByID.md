@@ -45,7 +45,7 @@ $paymentsStarsStatus = $client->payments->getStarsTransactionsByID(
 	id : array(
 		$client->inputStarsTransaction(
 			refund : true,
-			id : 'V6KCUFWNnR8q7u9p',
+			id : 'p5In7NRejWvVMKrs',
 		),
 	),
 );

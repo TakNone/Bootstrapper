@@ -32,97 +32,97 @@ help.deepLinkInfo#6a4ee832 flags:# update_app:flags.0?true message:string entiti
 ```php
 $helpDeepLinkInfo = $client->help->deepLinkInfo(
 	update_app : true,
-	message : 'K4mCtvo9whZR6gSA',
+	message : 'aXlsoMUGuhypHOgR',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 17,
+			length : 46,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 57,
+			length : 71,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 53,
+			length : 13,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 55,
+			length : 73,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 15,
+			length : 11,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 93,
+			length : 77,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 1,
+			length : 37,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 37,
+			length : 39,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 40,
+			length : 67,
 		),
 		$client->messageEntityPre(
 			offset : 0,
 			length : 58,
-			language : 'IPUELDT6Hoqz8gbu',
+			language : 'RUs5wJj4cM9tzVBO',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 80,
+			length : 84,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 68,
-			user_id : -5324446426948626103,
+			length : 78,
+			user_id : -2908505509656667614,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 12,
+			length : 59,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 56,
+			length : 59,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 49,
+			length : 82,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 35,
+			length : 16,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 59,
+			length : 63,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 90,
+			length : 50,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 75,
+			length : 90,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 44,
-			document_id : 1325355052179270129,
+			length : 49,
+			document_id : 6201874977243666782,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 81,
+			length : 92,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -132,21 +132,21 @@ $helpDeepLinkInfo = $client->help->deepLinkInfo(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 0,
-			date : 32,
+			length : 54,
+			date : 24,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 36,
+			length : 73,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 25,
-			old_text : 'UJlrGtSF3cxuzyMo',
+			length : 90,
+			old_text : 'oevfMIrpgZwx46Jy',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 59,
+			length : 24,
 		),
 	),
 );

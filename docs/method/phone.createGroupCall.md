@@ -48,8 +48,8 @@ phone.createGroupCall#48cdc6d8 flags:# rtmp_stream:flags.2?true peer:InputPeer r
 $updates = $client->phone->createGroupCall(
 	rtmp_stream : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	random_id : 38,
-	title : 'pHDIblt3RXTBEaoy',
-	schedule_date : 11,
+	random_id : 63,
+	title : 'GtNevCSxYyfAMoFc',
+	schedule_date : 100,
 );
 ```

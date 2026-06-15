@@ -26,6 +26,6 @@ messageActionNewCreatorPending#b07ed085 new_creator_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionNewCreatorPending(
-	new_creator_id : -9183861331325691877,
+	new_creator_id : 7627169779592892257,
 );
 ```

@@ -28,7 +28,7 @@ aicompose.saveTone#1782cbb1 tone:InputAiComposeTone unsave:Bool = Bool;
 ```php
 $bool = $client->aicompose->saveTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'pjlL6omvy7JZckOM',
+		tone : 'j7DUpWOL2f03Y8n6',
 	),
 	unsave : false,
 );

@@ -26,6 +26,6 @@ inputAiComposeToneSlug#1fa01357 slug:string = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneSlug(
-	slug : 'WQeLFklgIr4nfp3x',
+	slug : 'ko8zQ5Z1JjuUqD6x',
 );
 ```

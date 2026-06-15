@@ -29,7 +29,7 @@ inputChannel#f35aec28 channel_id:long access_hash:long = InputChannel;
 
 ```php
 $inputChannel = $client->inputChannel(
-	channel_id : -3110533032939408665,
-	access_hash : 7373164479781187650,
+	channel_id : -1017986452762663691,
+	access_hash : -3608769085552111473,
 );
 ```

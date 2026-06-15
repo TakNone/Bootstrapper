@@ -31,15 +31,15 @@ account.connectedBots#17d7f87b connected_bots:Vector<ConnectedBot> users:Vector<
 $accountConnectedBots = $client->account->connectedBots(
 	connected_bots : array(
 		$client->connectedBot(
-			bot_id : 3171527657193029176,
+			bot_id : -6545817695997721352,
 			recipients : $client->businessBotRecipients(
 				existing_chats : true,
 				new_chats : true,
 				contacts : true,
 				non_contacts : true,
 				exclude_selected : true,
-				users : array(7349227444542928534),
-				exclude_users : array(4673039106771288404),
+				users : array(2865236336827093004),
+				exclude_users : array(7687160166765453324),
 			),
 			rights : $client->businessBotRights(
 				reply : true,
@@ -57,14 +57,14 @@ $accountConnectedBots = $client->account->connectedBots(
 				transfer_stars : true,
 				manage_stories : true,
 			),
-			device : 'MHRYr3PoabCLAGq2',
-			date : 34,
-			location : '2BURYW9iNbo4myaT',
+			device : 'mVfGLbFUOWrx4kZY',
+			date : 79,
+			location : 'ClQ2hOWVvs1DxRNt',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 5937193580161044489,
+			id : 506403816376552491,
 		),
 		$client->user(
 			self : true,
@@ -97,24 +97,24 @@ $accountConnectedBots = $client->account->connectedBots(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 4865681021624041180,
-			access_hash : -3080430930026630273,
+			id : 9042155016814231585,
+			access_hash : 7085362345639063317,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 86,
+			bot_info_version : 97,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '0BdJlWbQhVSxfXwP',
-					reason : 'xHPQLsolfJ45w8iW',
-					text : 'uhWMSJT0CcnVU2Gg',
+					platform : 'TarWGpDN0wy65Og8',
+					reason : 'nXEj0bf8O3aRFNip',
+					text : '81VLZjv9CpIcb75h',
 				),
 			),
-			bot_inline_placeholder : 'LM6JTO7ip3PYstZa',
-			lang_code : 'GDMyQHBqNfpezO0c',
+			bot_inline_placeholder : 'zBjQOUn5buSIRFEX',
+			lang_code : 'W6fMNDzmjphQJyLn',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -125,19 +125,19 @@ $accountConnectedBots = $client->account->connectedBots(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 85,
+				max_id : 78,
 			),
 			color : $client->peerColor(
-				color : 74,
-				background_emoji_id : -4701837971190726367,
+				color : 58,
+				background_emoji_id : 5575990878225529187,
 			),
 			profile_color : $client->peerColor(
-				color : 55,
-				background_emoji_id : -3718547654676156372,
+				color : 87,
+				background_emoji_id : -8635394632744636721,
 			),
-			bot_active_users : 18,
-			bot_verification_icon : -2805725480833492750,
-			send_paid_messages_stars : -3488583575719614688,
+			bot_active_users : 35,
+			bot_verification_icon : 8164978027071811516,
+			send_paid_messages_stars : 4807072098246244936,
 		),
 	),
 );

@@ -45,9 +45,9 @@ messages.setBotCallbackAnswer#d58f130a flags:# alert:flags.1?true query_id:long 
 ```php
 $bool = $client->messages->setBotCallbackAnswer(
 	alert : true,
-	query_id : -5011348980449566109,
-	message : '1fcjPvOlERBpU247',
+	query_id : -2524138686450288551,
+	message : 'woXOk2TDSUIn9cMW',
 	url : 'https://docs.liveproto.dev',
-	cache_time : 62,
+	cache_time : 27,
 );
 ```

@@ -33,7 +33,7 @@ $reactionsNotifySettings = $client->account->setReactionsNotifySettings(
 		stories_notify_from : $client->reactionNotificationsFromContacts(),
 		poll_votes_notify_from : $client->reactionNotificationsFromContacts(),
 		sound : $client->notificationSoundDefault(),
-		show_previews : false,
+		show_previews : true,
 	),
 );
 ```

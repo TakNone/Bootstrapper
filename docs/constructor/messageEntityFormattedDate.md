@@ -42,7 +42,7 @@ $messageEntity = $client->messageEntityFormattedDate(
 	long_date : true,
 	day_of_week : true,
 	offset : 0,
-	length : 16,
-	date : 98,
+	length : 91,
+	date : 53,
 );
 ```

@@ -29,97 +29,97 @@ messages.composedMessageWithAI#90d7adfa flags:# result_text:TextWithEntities dif
 ```php
 $messagesComposedMessageWithAI = $client->messages->composedMessageWithAI(
 	result_text : $client->textWithEntities(
-		text : 'kq9G3LUVlpvytTJS',
+		text : 'Uvh3fDO16esFC4Ap',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 90,
+				length : 46,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 46,
+				length : 96,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 67,
+				length : 69,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 28,
+				length : 3,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 6,
+				length : 95,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 55,
+				length : 41,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 30,
+				length : 78,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 50,
+				length : 15,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 13,
+				length : 43,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 64,
-				language : 'Mtu1nbqHTWSDoPZh',
+				length : 34,
+				language : '2x96WXe43Pd8rUVw',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 23,
+				length : 93,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 42,
-				user_id : 2021554509570361774,
+				length : 100,
+				user_id : 18663230131865116,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 89,
+				length : 34,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 50,
+				length : 0,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 39,
+				length : 91,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 45,
+				length : 19,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 52,
+				length : 18,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 99,
+				length : 53,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 50,
+				length : 24,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 59,
-				document_id : 6492728665370048731,
+				length : 78,
+				document_id : -1617045264900389413,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 51,
+				length : 98,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -129,116 +129,116 @@ $messagesComposedMessageWithAI = $client->messages->composedMessageWithAI(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 29,
-				date : 15,
+				length : 50,
+				date : 19,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 14,
+				length : 71,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 49,
-				old_text : 'VlZtT1GQfNS9R6Hi',
+				length : 75,
+				old_text : 'p7jkrvbLXUHQBsDm',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 43,
+				length : 16,
 			),
 		),
 	),
 	diff_text : $client->textWithEntities(
-		text : 'H7YzEs1t8XySMfhW',
+		text : 'xzDGhkiqOQ7PylTe',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 30,
+				length : 78,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 68,
+				length : 76,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 43,
+				length : 42,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 60,
+				length : 84,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 98,
+				length : 77,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 48,
+				length : 4,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 23,
+				length : 6,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 70,
+				length : 0,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 6,
+				length : 99,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 100,
-				language : '5TZiny2YLQO8wbKH',
+				length : 64,
+				language : 'aDIWC1J0Nr7OPd4s',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 30,
+				length : 86,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 19,
-				user_id : 836469301018722246,
+				length : 83,
+				user_id : 6993927221978845018,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 44,
+				length : 74,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 52,
+				length : 21,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 55,
+				length : 45,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 44,
+				length : 71,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 20,
+				length : 72,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 42,
+				length : 16,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 17,
+				length : 54,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 46,
-				document_id : 5846346429553572493,
+				length : 53,
+				document_id : -4545105963195249600,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 16,
+				length : 66,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -248,21 +248,21 @@ $messagesComposedMessageWithAI = $client->messages->composedMessageWithAI(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 6,
-				date : 62,
+				length : 68,
+				date : 5,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 53,
+				length : 1,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 34,
-				old_text : 'HvIyB13xMYCqrXjl',
+				length : 50,
+				old_text : '9wYy3nLRG5uHs4aU',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 54,
+				length : 34,
 			),
 		),
 	),

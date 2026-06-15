@@ -34,7 +34,7 @@ payments.getConnectedStarRefBots#5869a553 flags:# peer:InputPeer offset_date:fla
 $paymentsConnectedStarRefBots = $client->payments->getConnectedStarRefBots(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_date : 0,
-	offset_link : 'Hl79o3zq1FYrOxft',
+	offset_link : 'gJCAVczRt72WTZ3k',
 	limit : 8,
 );
 ```

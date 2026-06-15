@@ -32,9 +32,9 @@ updateReadMessagesContents#f8227181 flags:# messages:Vector<int> pts:int pts_cou
 
 ```php
 $update = $client->updateReadMessagesContents(
-	messages : array(56),
-	pts : 25,
-	pts_count : 87,
-	date : 53,
+	messages : array(98),
+	pts : 70,
+	pts_count : 88,
+	date : 14,
 );
 ```

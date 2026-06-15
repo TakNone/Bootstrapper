@@ -33,6 +33,6 @@ stories.getAllStories#eeb0d625 flags:# next:flags.1?true hidden:flags.2?true sta
 $storiesAllStories = $client->stories->getAllStories(
 	next : true,
 	hidden : true,
-	state : 'QrbMw9E53i0zmneU',
+	state : 'jWmfgF0LGoTthNE9',
 );
 ```

@@ -36,9 +36,9 @@ pageListOrderedItemText#15031189 flags:# checkbox:flags.0?true checked:flags.1?t
 $pageListOrderedItem = $client->pageListOrderedItemText(
 	checkbox : true,
 	checked : true,
-	num : 'pe6kZuEc31GbxaPr',
+	num : 'En7b29m8TM3Akxa4',
 	text : $client->textEmpty(),
-	value : 46,
-	type : '51nFTorjpMUhNzyZ',
+	value : 31,
+	type : 'EpTXyiDSHC41jL6A',
 );
 ```

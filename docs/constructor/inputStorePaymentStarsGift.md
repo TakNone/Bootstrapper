@@ -32,8 +32,8 @@ inputStorePaymentStarsGift#1d741ef7 user_id:InputUser stars:long currency:string
 ```php
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsGift(
 	user_id : $client->get_input_user(user : '@TakNone'),
-	stars : 4078398270013417362,
-	currency : 'nejQo9LFgEiqCykJ',
-	amount : -956441360551475857,
+	stars : 7043932295011355228,
+	currency : 'wSfPaecM9r1v7yKC',
+	amount : -8276837809107493435,
 );
 ```

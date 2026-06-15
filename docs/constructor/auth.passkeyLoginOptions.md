@@ -27,7 +27,7 @@ auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
 ```php
 $authPasskeyLoginOptions = $client->auth->passkeyLoginOptions(
 	options : $client->dataJSON(
-		data : 'LTAP8WJbfkdV1Biy',
+		data : 'hUo4AbemzvfPxqCE',
 	),
 );
 ```

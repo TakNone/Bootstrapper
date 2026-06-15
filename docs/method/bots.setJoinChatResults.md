@@ -27,7 +27,7 @@ bots.setJoinChatResults#e71a4810 query_id:long result:JoinChatBotResult = Bool;
 
 ```php
 $bool = $client->bots->setJoinChatResults(
-	query_id : 4443509386691904851,
+	query_id : 6210731039847081252,
 	result : $client->joinChatBotResultApproved(),
 );
 ```

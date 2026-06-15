@@ -36,16 +36,16 @@ $pollAnswerVoters = $client->pollAnswerVoters(
 	chosen : true,
 	correct : true,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	voters : 84,
+	voters : 0,
 	recent_voters : array(
 		$client->peerUser(
-			user_id : -7563859627642701665,
+			user_id : -1503826573794550682,
 		),
 		$client->peerChat(
-			chat_id : 8914935003395411688,
+			chat_id : -2842635568169063402,
 		),
 		$client->peerChannel(
-			channel_id : 1985490296280574144,
+			channel_id : 7497051195639269950,
 		),
 	),
 );

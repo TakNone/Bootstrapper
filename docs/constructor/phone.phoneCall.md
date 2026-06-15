@@ -30,11 +30,11 @@ phone.phoneCall#ec82e140 phone_call:PhoneCall users:Vector<User> = phone.PhoneCa
 ```php
 $phonePhoneCall = $client->phone->phoneCall(
 	phone_call : $client->phoneCallEmpty(
-		id : 1839247835472910632,
+		id : -1318087299015120252,
 	),
 	users : array(
 		$client->userEmpty(
-			id : 2874713000509938974,
+			id : -6172167202671156026,
 		),
 		$client->user(
 			self : true,
@@ -67,24 +67,24 @@ $phonePhoneCall = $client->phone->phoneCall(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 5211498936814127904,
-			access_hash : -8973409434423724935,
+			id : -6096048601199245045,
+			access_hash : -8255090204802862244,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 36,
+			bot_info_version : 70,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '4v6jYJlLdCaR3shW',
-					reason : 'ilqAVX9O8psyJWPr',
-					text : 'ox6Rp3NXdu8IgGBJ',
+					platform : 'JBD0qAQgFjVOZWcz',
+					reason : 'D6tkvuLMe3z2IPOm',
+					text : 'FGq0PnTr6aCRs5ZS',
 				),
 			),
-			bot_inline_placeholder : 'MTUC4uiaAfesOGPw',
-			lang_code : 'rkdqEWZOGaRMtvYh',
+			bot_inline_placeholder : 'uotY5n8y9PqUjcG3',
+			lang_code : 'eA30Ofp2dCtR6zs8',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -95,19 +95,19 @@ $phonePhoneCall = $client->phone->phoneCall(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 35,
+				max_id : 86,
 			),
 			color : $client->peerColor(
-				color : 7,
-				background_emoji_id : -843264130224337430,
+				color : 39,
+				background_emoji_id : 4205175777479930275,
 			),
 			profile_color : $client->peerColor(
-				color : 15,
-				background_emoji_id : -1366468674377423446,
+				color : 36,
+				background_emoji_id : -2971241322837776838,
 			),
-			bot_active_users : 54,
-			bot_verification_icon : 8430106596969145460,
-			send_paid_messages_stars : -8476763531723725349,
+			bot_active_users : 37,
+			bot_verification_icon : -6563507547237160070,
+			send_paid_messages_stars : 8718146751743564084,
 		),
 	),
 );

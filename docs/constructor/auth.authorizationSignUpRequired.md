@@ -32,99 +32,99 @@ $authAuthorization = $client->auth->authorizationSignUpRequired(
 	terms_of_service : $client->help->termsOfService(
 		popup : true,
 		id : $client->dataJSON(
-			data : 'XpEDcb6tnPGH5CLZ',
+			data : 'RU8ZblK3JHrC7cAv',
 		),
-		text : 'SkZcV6IRTgX3dKwB',
+		text : 'dX5qbnjZUM9m1aSB',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 9,
+				length : 87,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 4,
+				length : 38,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 23,
+				length : 91,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 7,
+				length : 83,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 43,
+				length : 56,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 6,
+				length : 38,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 59,
+				length : 97,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 51,
+				length : 0,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 29,
+				length : 66,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 89,
-				language : 'mvWlkjdu5JNTny3F',
+				length : 37,
+				language : 'qSLsFfUyVgZ9zJGp',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 50,
+				length : 18,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 87,
-				user_id : 5122808590641359427,
+				length : 46,
+				user_id : -8581474252968963161,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 11,
+				length : 50,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 67,
+				length : 20,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 13,
+				length : 58,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 82,
+				length : 56,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 84,
+				length : 45,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 99,
+				length : 26,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 78,
+				length : 45,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 78,
-				document_id : 3591276984159118958,
+				length : 40,
+				document_id : 7019373705356460566,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 87,
+				length : 86,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -134,8 +134,8 @@ $authAuthorization = $client->auth->authorizationSignUpRequired(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 48,
-				date : 53,
+				length : 81,
+				date : 90,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
@@ -143,15 +143,15 @@ $authAuthorization = $client->auth->authorizationSignUpRequired(
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 29,
-				old_text : 'E5IiNxpRUvjaloHK',
+				length : 73,
+				old_text : '8sK9aVUqp3gI1rOR',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 93,
+				length : 79,
 			),
 		),
-		min_age_confirm : 84,
+		min_age_confirm : 5,
 	),
 );
 ```

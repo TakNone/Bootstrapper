@@ -41,25 +41,25 @@ stories.searchPosts#d1810907 flags:# hashtag:flags.0?string area:flags.1?MediaAr
 
 ```php
 $storiesFoundStories = $client->stories->searchPosts(
-	hashtag : 'IYKfiQEMcRq4alh1',
+	hashtag : '4QhFK156tW0uobBn',
 	area : $client->mediaAreaVenue(
 		coordinates : $client->mediaAreaCoordinates(
-			x : -309332.1376953125,
-			y : -1567982.310546875,
-			w : 195648.876953125,
-			h : 414526.7412109375,
-			rotation : -666018.5068359375,
-			radius : -1258227.048828125,
+			x : 913061.3076171875,
+			y : -1045337.189453125,
+			w : -1306221.732421875,
+			h : 803914.720703125,
+			rotation : -1021803.9130859375,
+			radius : 503351.14453125,
 		),
 		geo : $client->geoPointEmpty(),
-		title : 'TKPkZo3Nb9JHWqMR',
-		address : 'zSn78YLcUAN1ZlTX',
-		provider : 'NWtXEQu3bHlZz6Vw',
-		venue_id : 'cuWB9XztMLNkCVdq',
-		venue_type : 'gPKyrcZuC4AsE3l6',
+		title : '5CJdgNEOAwFHVQix',
+		address : '8ZHBUI5sacpGlrRf',
+		provider : 'qz1rD3TSXQpm5YyK',
+		venue_id : 'u84G0vKcRnHw3UgM',
+		venue_type : 'jaOoJbwBXf3mut4l',
 	),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'jkGLieh37fRl9WB1',
-	limit : 99,
+	offset : 'JWqKPFYcAE8GRkdU',
+	limit : 85,
 );
 ```

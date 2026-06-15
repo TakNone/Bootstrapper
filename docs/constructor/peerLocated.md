@@ -31,9 +31,9 @@ peerLocated#ca461b5d peer:Peer expires:int distance:int = PeerLocated;
 ```php
 $peerLocated = $client->peerLocated(
 	peer : $client->peerUser(
-		user_id : -2763237801935974108,
+		user_id : -72155130530974417,
 	),
-	expires : 3,
+	expires : 30,
 	distance : 89,
 );
 ```

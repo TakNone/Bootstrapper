@@ -32,12 +32,12 @@ updateMessagePollVote#7699f014 poll_id:long peer:Peer options:Vector<bytes> posi
 
 ```php
 $update = $client->updateMessagePollVote(
-	poll_id : 1980419095660952020,
+	poll_id : 3641448861952079779,
 	peer : $client->peerUser(
-		user_id : 6723010307201336816,
+		user_id : 514366480977205805,
 	),
 	options : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	positions : array(38),
-	qts : 44,
+	positions : array(8),
+	qts : 53,
 );
 ```

@@ -33,10 +33,10 @@ messages.getForumTopics#3ba47bff flags:# peer:InputPeer q:flags.0?string offset_
 ```php
 $messagesForumTopics = $client->messages->getForumTopics(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	q : 'FHpOSraR1w0GiYk9',
+	q : 'PAil7xyYT0azLWIb',
 	offset_date : 0,
 	offset_id : 0,
 	offset_topic : 0,
-	limit : 55,
+	limit : 69,
 );
 ```

@@ -34,9 +34,9 @@ searchPostsFlood#3e0b5b6a flags:# query_is_free:flags.0?true total_daily:int rem
 ```php
 $searchPostsFlood = $client->searchPostsFlood(
 	query_is_free : true,
-	total_daily : 84,
-	remains : 96,
-	wait_till : 13,
-	stars_amount : -3543127150507654909,
+	total_daily : 87,
+	remains : 75,
+	wait_till : 54,
+	stars_amount : 7132424372740517706,
 );
 ```

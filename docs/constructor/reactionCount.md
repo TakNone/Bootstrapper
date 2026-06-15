@@ -31,8 +31,8 @@ reactionCount#a3d1cb80 flags:# chosen_order:flags.0?int reaction:Reaction count:
 
 ```php
 $reactionCount = $client->reactionCount(
-	chosen_order : 52,
+	chosen_order : 9,
 	reaction : $client->reactionEmpty(),
-	count : 29,
+	count : 10,
 );
 ```

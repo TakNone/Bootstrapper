@@ -41,9 +41,9 @@ bots.invokeWebViewCustomMethod#87fc5e7 bot:InputUser custom_method:string params
 ```php
 $dataJSON = $client->bots->invokeWebViewCustomMethod(
 	bot : $client->get_input_user(user : '@TakNone'),
-	custom_method : 'kBlVIcp4OH5isSjD',
+	custom_method : 'QM0XLvisWUm1O6Jc',
 	params : $client->dataJSON(
-		data : 'f1oCltSxgF7pLasb',
+		data : 'XuEaGS4crmPdohYR',
 	),
 );
 ```

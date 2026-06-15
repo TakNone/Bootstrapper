@@ -29,7 +29,7 @@ updates.differenceEmpty#5d75a138 date:int seq:int = updates.Difference;
 
 ```php
 $updatesDifference = $client->updates->differenceEmpty(
-	date : 9,
-	seq : 89,
+	date : 27,
+	seq : 72,
 );
 ```

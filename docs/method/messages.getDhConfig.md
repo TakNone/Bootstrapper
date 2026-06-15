@@ -37,7 +37,7 @@ messages.getDhConfig#26cf8950 version:int random_length:int = messages.DhConfig;
 
 ```php
 $messagesDhConfig = $client->messages->getDhConfig(
-	version : 75,
-	random_length : 97,
+	version : 36,
+	random_length : 60,
 );
 ```

@@ -28,6 +28,6 @@ emailVerificationApple#96d074fd token:string = EmailVerification;
 
 ```php
 $emailVerification = $client->emailVerificationApple(
-	token : 'LPsgcaqIJjOvCSU2',
+	token : 'NeLBDK4Y6jtvUlxJ',
 );
 ```

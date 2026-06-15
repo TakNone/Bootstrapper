@@ -31,8 +31,8 @@ updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<Gro
 ```php
 $update = $client->updateGroupCallParticipants(
 	call : $client->inputGroupCall(
-		id : 8081638728196743938,
-		access_hash : -1329394044576922779,
+		id : 3036973356037529561,
+		access_hash : -6897788795144347129,
 	),
 	participants : array(
 		$client->groupCallParticipant(
@@ -47,39 +47,39 @@ $update = $client->updateGroupCallParticipants(
 			self : true,
 			video_joined : true,
 			peer : $client->peerUser(
-				user_id : 7202997769163834225,
+				user_id : 5930899187924931173,
 			),
-			date : 34,
-			active_date : 79,
-			source : 25,
-			volume : 33,
-			about : 'BvuCV0P5RFrOW3mz',
-			raise_hand_rating : -258683569353678176,
+			date : 4,
+			active_date : 54,
+			source : 15,
+			volume : 8,
+			about : 'RiJoEt3DC967aLpu',
+			raise_hand_rating : -1714759727371851508,
 			video : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'zRFtNbwlYo89Bfy5',
+				endpoint : 'nMK3WXwFAVU0pbHS',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(
-						semantics : 'rEYWTqhaIJdSwsZl',
-						sources : array(88),
+						semantics : 'B9L6eZTlC7r8khmX',
+						sources : array(35),
 					),
 				),
-				audio_source : 5,
+				audio_source : 80,
 			),
 			presentation : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'yLglAHzhOGDXCaxe',
+				endpoint : 'PiU5eBdHWFXypYm8',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(
-						semantics : 'TJ2vfE4bN8WLaXxV',
-						sources : array(3),
+						semantics : 'OoIGSCH4bZgK0DAh',
+						sources : array(51),
 					),
 				),
-				audio_source : 21,
+				audio_source : 37,
 			),
-			paid_stars_total : 8503018821118391963,
+			paid_stars_total : 3313626490364827499,
 		),
 	),
-	version : 82,
+	version : 16,
 );
 ```

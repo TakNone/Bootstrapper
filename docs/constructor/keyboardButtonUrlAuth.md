@@ -37,11 +37,11 @@ $keyboardButton = $client->keyboardButtonUrlAuth(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -4799917760948376498,
+		icon : 1739928505850749038,
 	),
-	text : 'bZMviFoV2PUInmfe',
-	fwd_text : 'l8rILzxHe6BuTpCh',
+	text : 'UJlju4rqQ59gfRda',
+	fwd_text : 'nycfXDQIVma6SFp8',
 	url : 'https://docs.liveproto.dev',
-	button_id : 33,
+	button_id : 22,
 );
 ```

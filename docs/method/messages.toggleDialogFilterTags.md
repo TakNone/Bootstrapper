@@ -36,6 +36,6 @@ messages.toggleDialogFilterTags#fd2dda49 enabled:Bool = Bool;
 
 ```php
 $bool = $client->messages->toggleDialogFilterTags(
-	enabled : false,
+	enabled : true,
 );
 ```

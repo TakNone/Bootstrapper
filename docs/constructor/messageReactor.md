@@ -37,8 +37,8 @@ $messageReactor = $client->messageReactor(
 	my : true,
 	anonymous : true,
 	peer_id : $client->peerUser(
-		user_id : 2760844859334794938,
+		user_id : 9149755442947660116,
 	),
-	count : 11,
+	count : 30,
 );
 ```

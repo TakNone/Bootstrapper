@@ -31,10 +31,10 @@ updateWebPage#7f891213 webpage:WebPage pts:int pts_count:int = Update;
 ```php
 $update = $client->updateWebPage(
 	webpage : $client->webPageEmpty(
-		id : 2432550254365339615,
+		id : 8557787570975679302,
 		url : 'https://docs.liveproto.dev',
 	),
-	pts : 87,
-	pts_count : 40,
+	pts : 10,
+	pts_count : 33,
 );
 ```

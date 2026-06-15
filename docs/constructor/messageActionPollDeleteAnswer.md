@@ -28,97 +28,97 @@ messageActionPollDeleteAnswer#399674dc answer:PollAnswer = MessageAction;
 $messageAction = $client->messageActionPollDeleteAnswer(
 	answer : $client->pollAnswer(
 		text : $client->textWithEntities(
-			text : '1f432DBhFaxtTYLG',
+			text : 'E1mJsBzNqlY4Ke7T',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 91,
+					length : 29,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 22,
+					length : 95,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 5,
+					length : 8,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 80,
+					length : 67,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 84,
+					length : 75,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 10,
+					length : 98,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 5,
+					length : 67,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 24,
+					length : 14,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 4,
+					length : 6,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 22,
-					language : 'BGA2WINYRuwQintE',
+					length : 61,
+					language : 'QMP8koTwJcgFsZbA',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 47,
+					length : 9,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 88,
-					user_id : -8976731895777430709,
+					length : 38,
+					user_id : 5178397023576790390,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 68,
+					length : 73,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 15,
+					length : 25,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 1,
+					length : 3,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 30,
+					length : 3,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 69,
+					length : 56,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 33,
+					length : 16,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 29,
+					length : 0,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 99,
-					document_id : -9087408283412023854,
+					length : 94,
+					document_id : -5523669278553987137,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 71,
+					length : 39,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -128,30 +128,30 @@ $messageAction = $client->messageActionPollDeleteAnswer(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 83,
-					date : 68,
+					length : 9,
+					date : 9,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 60,
+					length : 74,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 83,
-					old_text : 'lf6tpoG8ZUNyKz2c',
+					length : 2,
+					old_text : 'BhoMpfNg5eFcnCu9',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 56,
+					length : 36,
 				),
 			),
 		),
 		option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		media : $client->messageMediaEmpty(),
 		added_by : $client->peerUser(
-			user_id : -5876308629817484544,
+			user_id : 8176253593716843399,
 		),
-		date : 85,
+		date : 41,
 	),
 );
 ```

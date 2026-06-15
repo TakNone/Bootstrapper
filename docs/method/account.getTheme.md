@@ -39,10 +39,10 @@ account.getTheme#3a5869ec format:string theme:InputTheme = Theme;
 
 ```php
 $theme = $client->account->getTheme(
-	format : '9zx1AHhnFfD50oGk',
+	format : 'sylOea0otIDf78WZ',
 	theme : $client->inputTheme(
-		id : 3472022063723737366,
-		access_hash : 5353337680075546943,
+		id : -7882182533917336608,
+		access_hash : -1831358506264702878,
 	),
 );
 ```

@@ -29,9 +29,9 @@ updateChatParticipantRank#bd8367b9 chat_id:long user_id:long rank:string version
 
 ```php
 $update = $client->updateChatParticipantRank(
-	chat_id : 7033733006757303713,
-	user_id : 8884859219940005249,
-	rank : 'G6BVmNECJ34pZczx',
-	version : 26,
+	chat_id : -1819827706099225036,
+	user_id : -6569772884316070545,
+	rank : '39V651RZMmvYLbpE',
+	version : 13,
 );
 ```

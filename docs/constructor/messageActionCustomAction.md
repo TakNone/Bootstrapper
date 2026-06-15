@@ -28,6 +28,6 @@ messageActionCustomAction#fae69f56 message:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionCustomAction(
-	message : 'tbiDHJe47qNGPXyd',
+	message : '1Q6PHqRNFO4Ljgwv',
 );
 ```

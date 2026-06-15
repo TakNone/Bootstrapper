@@ -28,6 +28,6 @@ channelParticipantsKicked#a3b54985 q:string = ChannelParticipantsFilter;
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsKicked(
-	q : '3i4PN8evuSIlyWd2',
+	q : 'jXTtfFw4Os9QKyY3',
 );
 ```

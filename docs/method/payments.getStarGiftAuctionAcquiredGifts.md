@@ -26,6 +26,6 @@ payments.getStarGiftAuctionAcquiredGifts#6ba2cbec gift_id:long = payments.StarGi
 
 ```php
 $paymentsStarGiftAuctionAcquiredGifts = $client->payments->getStarGiftAuctionAcquiredGifts(
-	gift_id : -6706587781255879393,
+	gift_id : -7769124077992139402,
 );
 ```

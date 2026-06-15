@@ -57,7 +57,7 @@ $updatesChannelDifference = $client->updates->getChannelDifference(
 	force : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	filter : $client->channelMessagesFilterEmpty(),
-	pts : 4,
-	limit : 67,
+	pts : 14,
+	limit : 97,
 );
 ```

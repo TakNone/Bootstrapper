@@ -39,12 +39,12 @@ messageMediaGiveaway#aa073beb flags:# only_new_subscribers:flags.0?true winners_
 $messageMedia = $client->messageMediaGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	channels : array(-8853980524615102451),
-	countries_iso2 : array('HO70cPoxUQ8uJ5Id'),
-	prize_description : 'TXp8jwKMJtVYRus0',
-	quantity : 17,
-	months : 36,
-	stars : -7879176936414936897,
-	until_date : 16,
+	channels : array(-728742469708189115),
+	countries_iso2 : array('XrPgLHN6aE5n8eui'),
+	prize_description : 'Q3DrUixR2v6TGP54',
+	quantity : 51,
+	months : 69,
+	stars : -8803935407813386067,
+	until_date : 38,
 );
 ```

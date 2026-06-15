@@ -34,15 +34,15 @@ connectedBot#33ed001 flags:# bot_id:long recipients:BusinessBotRecipients rights
 
 ```php
 $connectedBot = $client->connectedBot(
-	bot_id : 9146383116881423867,
+	bot_id : 3899425452804317847,
 	recipients : $client->businessBotRecipients(
 		existing_chats : true,
 		new_chats : true,
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(3193263964919944364),
-		exclude_users : array(-3907539845350031937),
+		users : array(-7879063442191054598),
+		exclude_users : array(-4482242831956719498),
 	),
 	rights : $client->businessBotRights(
 		reply : true,
@@ -60,8 +60,8 @@ $connectedBot = $client->connectedBot(
 		transfer_stars : true,
 		manage_stories : true,
 	),
-	device : 'sPRi7uvt2lYpyhVH',
-	date : 95,
-	location : 'XfQB8K0wWhD5I1lz',
+	device : 'nwcStkhy5usZ8zLH',
+	date : 37,
+	location : 'eAdbPW6rC4G893kq',
 );
 ```

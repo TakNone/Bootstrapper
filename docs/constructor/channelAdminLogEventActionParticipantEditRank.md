@@ -28,8 +28,8 @@ channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:st
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantEditRank(
-	user_id : 4832787010713028743,
-	prev_rank : 'LtEZRcVfFyv3YkeQ',
-	new_rank : 'kqoDLO7PQBWY96Mt',
+	user_id : -5056526540920810379,
+	prev_rank : 'tK7x5mOsyAB6GHIj',
+	new_rank : 'hHmjorw13X9R0nf5',
 );
 ```

@@ -26,6 +26,6 @@ inputAiComposeToneDefault#1fe9a9bf tone:string = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneDefault(
-	tone : 'HIaVfDMWEJASN3hj',
+	tone : 'q9IwGmvchx2tbZ1U',
 );
 ```

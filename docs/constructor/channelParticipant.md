@@ -32,9 +32,9 @@ channelParticipant#1bd54456 flags:# user_id:long date:int subscription_until_dat
 
 ```php
 $channelParticipant = $client->channelParticipant(
-	user_id : 8490167165093686061,
-	date : 27,
-	subscription_until_date : 56,
-	rank : 'MsmQj5kBCo6Lzhp1',
+	user_id : -8171673916258769003,
+	date : 88,
+	subscription_until_date : 57,
+	rank : 'gjnM2BrxvLYqhlQI',
 );
 ```

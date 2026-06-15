@@ -31,8 +31,8 @@ updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:i
 $update = $client->updatePinnedForumTopic(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : -1885835421692532248,
+		user_id : -5572788698626933080,
 	),
-	topic_id : 54,
+	topic_id : 76,
 );
 ```

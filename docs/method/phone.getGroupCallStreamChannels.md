@@ -40,8 +40,8 @@ phone.getGroupCallStreamChannels#1ab21940 call:InputGroupCall = phone.GroupCallS
 ```php
 $phoneGroupCallStreamChannels = $client->phone->getGroupCallStreamChannels(
 	call : $client->inputGroupCall(
-		id : 3208231214232454651,
-		access_hash : 3770389431117643376,
+		id : 6038162774592474011,
+		access_hash : -471079033450407433,
 	),
 );
 ```

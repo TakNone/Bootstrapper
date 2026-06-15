@@ -33,8 +33,8 @@ $groupCallDonor = $client->groupCallDonor(
 	top : true,
 	my : true,
 	peer_id : $client->peerUser(
-		user_id : 3446417160724087083,
+		user_id : 8201478260370324695,
 	),
-	stars : -2285631781474713891,
+	stars : -6155286531027549532,
 );
 ```

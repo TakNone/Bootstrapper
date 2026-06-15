@@ -31,7 +31,7 @@ $richText = $client->textConcat(
 	texts : array(
 		$client->textEmpty(),
 		$client->textPlain(
-			text : 'UJoRZAKEcpY18sM6',
+			text : 'VtBqUoWz8lLph0Qs',
 		),
 		$client->textBold(
 			text : $client->textEmpty(),
@@ -51,7 +51,7 @@ $richText = $client->textConcat(
 		$client->textUrl(
 			text : $client->textEmpty(),
 			url : 'https://docs.liveproto.dev',
-			webpage_id : 6111399314863500708,
+			webpage_id : -5026883100570770474,
 		),
 		$client->textEmail(
 			text : $client->textEmpty(),
@@ -61,7 +61,7 @@ $richText = $client->textConcat(
 			texts : array(
 				$client->textEmpty(),
 				$client->textPlain(
-					text : 'eyG6ztRCqHnPdp3J',
+					text : 'CuGNsm2zTFXZB6Ad',
 				),
 				$client->textBold(
 					text : $client->textEmpty(),
@@ -81,7 +81,7 @@ $richText = $client->textConcat(
 				$client->textUrl(
 					text : $client->textEmpty(),
 					url : 'https://docs.liveproto.dev',
-					webpage_id : -7661415247020521183,
+					webpage_id : -2580149193895146386,
 				),
 				$client->textEmail(
 					text : $client->textEmpty(),
@@ -91,7 +91,7 @@ $richText = $client->textConcat(
 					texts : array(
 						$client->textEmpty(),
 						$client->textPlain(
-							text : '5z6Qx8T3O4cgPbXn',
+							text : 'qgJwnp6E2874Mv3d',
 						),
 						$client->textBold(
 							text : $client->textEmpty(...),
@@ -111,7 +111,7 @@ $richText = $client->textConcat(
 						$client->textUrl(
 							text : $client->textEmpty(...),
 							url : 'https://docs.liveproto.dev',
-							webpage_id : 2787347168401432655,
+							webpage_id : -5966954359359594746,
 						),
 						$client->textEmail(
 							text : $client->textEmpty(...),
@@ -164,20 +164,20 @@ $richText = $client->textConcat(
 							phone : '+1234567890',
 						),
 						$client->textImage(
-							document_id : 5805679042744959960,
-							w : 29,
-							h : 15,
+							document_id : 1732814515659546786,
+							w : 63,
+							h : 16,
 						),
 						$client->textAnchor(
 							text : $client->textEmpty(...),
-							name : 'pBs6KX1ATQxnOzqS',
+							name : '0OSRTfCkLzEU51wQ',
 						),
 						$client->textMath(
-							source : 'LNKVEoDWq6xn3XPF',
+							source : '93dOlQokU5TDpGPy',
 						),
 						$client->textCustomEmoji(
-							document_id : -3567360535116980896,
-							alt : '3NU4vBme8hFPd6ID',
+							document_id : 6030050822151959875,
+							alt : '8UI16eFr4s2VlvR7',
 						),
 						$client->textSpoiler(
 							text : $client->textEmpty(...),
@@ -208,7 +208,7 @@ $richText = $client->textConcat(
 						),
 						$client->textMentionName(
 							text : $client->textEmpty(...),
-							user_id : -2371058360899490015,
+							user_id : -7738020249050512966,
 						),
 						$client->textDate(
 							relative : true,
@@ -218,7 +218,7 @@ $richText = $client->textConcat(
 							long_date : true,
 							day_of_week : true,
 							text : $client->textEmpty(...),
-							date : 57,
+							date : 63,
 						),
 					),
 				),
@@ -236,20 +236,20 @@ $richText = $client->textConcat(
 					phone : '+1234567890',
 				),
 				$client->textImage(
-					document_id : 8707555991075077157,
-					w : 8,
-					h : 15,
+					document_id : 4297080906726734924,
+					w : 56,
+					h : 68,
 				),
 				$client->textAnchor(
 					text : $client->textEmpty(),
-					name : 'whPJys1Klc5UO8jx',
+					name : '6DFnmzUrj8HTai32',
 				),
 				$client->textMath(
-					source : 'd0rFty3SGcIUDLxH',
+					source : 'VetTJnuhZ5LrH2jm',
 				),
 				$client->textCustomEmoji(
-					document_id : 2716060964678243839,
-					alt : '1PQReFdjgLJN8smx',
+					document_id : -2505909101523477333,
+					alt : 'cf7w4ZzuMJbxD9sU',
 				),
 				$client->textSpoiler(
 					text : $client->textEmpty(),
@@ -280,7 +280,7 @@ $richText = $client->textConcat(
 				),
 				$client->textMentionName(
 					text : $client->textEmpty(),
-					user_id : -8220095158164674459,
+					user_id : -2332574200245833724,
 				),
 				$client->textDate(
 					relative : true,
@@ -290,7 +290,7 @@ $richText = $client->textConcat(
 					long_date : true,
 					day_of_week : true,
 					text : $client->textEmpty(),
-					date : 42,
+					date : 46,
 				),
 			),
 		),
@@ -308,20 +308,20 @@ $richText = $client->textConcat(
 			phone : '+1234567890',
 		),
 		$client->textImage(
-			document_id : -9092010550631789098,
-			w : 17,
-			h : 61,
+			document_id : -4544645652807016455,
+			w : 5,
+			h : 1,
 		),
 		$client->textAnchor(
 			text : $client->textEmpty(),
-			name : '4zvhoKM5WGLdTS1Y',
+			name : 'rL84YmMfGag2qnph',
 		),
 		$client->textMath(
-			source : 'K4ZabdAGPtviJLpN',
+			source : '7wxsL89PndazKkFH',
 		),
 		$client->textCustomEmoji(
-			document_id : -9126805942280136307,
-			alt : 'Y0jCqsSE6lyNMDr4',
+			document_id : 3624294741651022194,
+			alt : 'SF65a2eHy9idQqhs',
 		),
 		$client->textSpoiler(
 			text : $client->textEmpty(),
@@ -352,7 +352,7 @@ $richText = $client->textConcat(
 		),
 		$client->textMentionName(
 			text : $client->textEmpty(),
-			user_id : 6745056002470240492,
+			user_id : 5952678588500356636,
 		),
 		$client->textDate(
 			relative : true,
@@ -362,7 +362,7 @@ $richText = $client->textConcat(
 			long_date : true,
 			day_of_week : true,
 			text : $client->textEmpty(),
-			date : 82,
+			date : 41,
 		),
 	),
 );

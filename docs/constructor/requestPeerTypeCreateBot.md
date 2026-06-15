@@ -30,7 +30,7 @@ requestPeerTypeCreateBot#3e81e078 flags:# bot_managed:flags.0?true suggested_nam
 ```php
 $requestPeerType = $client->requestPeerTypeCreateBot(
 	bot_managed : true,
-	suggested_name : 'mzGrsoZBiSAxVJRD',
+	suggested_name : 'rMeaF9Xm0clx46Rk',
 	suggested_username : 'TakNone',
 );
 ```

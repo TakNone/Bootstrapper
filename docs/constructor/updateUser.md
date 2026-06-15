@@ -28,6 +28,6 @@ updateUser#20529438 user_id:long = Update;
 
 ```php
 $update = $client->updateUser(
-	user_id : 927546945597935832,
+	user_id : 2122996131637331977,
 );
 ```

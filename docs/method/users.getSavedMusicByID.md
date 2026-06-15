@@ -41,8 +41,8 @@ $usersSavedMusic = $client->users->getSavedMusicByID(
 	documents : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : -3838736078343801267,
-			access_hash : -4315003124731612920,
+			id : -1836969703739917149,
+			access_hash : -8041958580587536713,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

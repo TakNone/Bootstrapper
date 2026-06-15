@@ -30,9 +30,9 @@ webDomainException#933ca597 flags:# domain:string url:string title:string favico
 
 ```php
 $webDomainException = $client->webDomainException(
-	domain : 'FvRreCdUaq8zo7wj',
+	domain : 'KDsNr7bY02RjWeGS',
 	url : 'https://docs.liveproto.dev',
-	title : 'AvHV1bs84aDcCEJ2',
-	favicon : 8989809777820895968,
+	title : 'hdYg7TELVotlrZz2',
+	favicon : 8828761571226739655,
 );
 ```

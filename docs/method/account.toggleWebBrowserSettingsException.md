@@ -30,7 +30,7 @@ account.toggleWebBrowserSettingsException#60ed4229 flags:# delete:flags.1?true o
 ```php
 $updates = $client->account->toggleWebBrowserSettingsException(
 	delete : true,
-	open_external_browser : false,
+	open_external_browser : true,
 	url : 'https://docs.liveproto.dev',
 );
 ```

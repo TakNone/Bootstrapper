@@ -37,18 +37,18 @@ phoneCallWaiting#c5226f17 flags:# video:flags.6?true id:long access_hash:long da
 ```php
 $phoneCall = $client->phoneCallWaiting(
 	video : true,
-	id : -1518345767043366918,
-	access_hash : -2470863118572406255,
-	date : 56,
-	admin_id : -257301295088011002,
-	participant_id : -4131099708737052720,
+	id : -94286199189472270,
+	access_hash : -752267194807227020,
+	date : 76,
+	admin_id : 3137426584704723841,
+	participant_id : -7920854303311390837,
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
 		min_layer : 30,
-		max_layer : 13,
-		library_versions : array('bDfLaF3EH7oCXuB1'),
+		max_layer : 26,
+		library_versions : array('dlJ1XcMgAx8rZLGh'),
 	),
-	receive_date : 72,
+	receive_date : 15,
 );
 ```

@@ -43,19 +43,19 @@ $paymentsValidatedRequestedInfo = $client->payments->validateRequestedInfo(
 	save : true,
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-		msg_id : 67,
+		msg_id : 87,
 	),
 	info : $client->paymentRequestedInfo(
-		name : 'FRO4LfEHl3b6dkqy',
+		name : 'smz2iDfQxnSvWy3P',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : '1X3BeEqfOZHD2ohw',
-			street_line2 : 'PJS3OzoTMHI2ZRuf',
-			city : 'jV9cieTpSIqK5zhG',
-			state : 'GKFvLSf3mrIiCxVT',
-			country_iso2 : 'o7PUKxn4r3gwf6yc',
-			post_code : 'OdWgSQBaAXN6l3tH',
+			street_line1 : 'OsH6zjgtlyQCqiIN',
+			street_line2 : 'BawiG0cSPXWdFQr6',
+			city : 'HRUrKlJ4TzPda5C2',
+			state : 'W6Nm1suiMGpZt07b',
+			country_iso2 : 'Lmi94tZkdW6X1JaG',
+			post_code : 'w3kmDb0RCpaqg2hy',
 		),
 	),
 );

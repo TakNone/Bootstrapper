@@ -34,18 +34,18 @@ $update = $client->updatePrivacy(
 		$client->privacyValueAllowContacts(),
 		$client->privacyValueAllowAll(),
 		$client->privacyValueAllowUsers(
-			users : array(2031658818454817837),
+			users : array(5144005947433537526),
 		),
 		$client->privacyValueDisallowContacts(),
 		$client->privacyValueDisallowAll(),
 		$client->privacyValueDisallowUsers(
-			users : array(-3091728119632092598),
+			users : array(6894364982141206822),
 		),
 		$client->privacyValueAllowChatParticipants(
-			chats : array(-5070463549313037623),
+			chats : array(4693804126508725610),
 		),
 		$client->privacyValueDisallowChatParticipants(
-			chats : array(2870724166776342317),
+			chats : array(3117479008936030615),
 		),
 		$client->privacyValueAllowCloseFriends(),
 		$client->privacyValueAllowPremium(),

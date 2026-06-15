@@ -28,6 +28,6 @@ users.savedMusicNotModified#e3878aa4 count:int = users.SavedMusic;
 
 ```php
 $usersSavedMusic = $client->users->savedMusicNotModified(
-	count : 15,
+	count : 44,
 );
 ```

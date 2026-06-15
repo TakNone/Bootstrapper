@@ -32,11 +32,11 @@ aicompose.updateTone#903bcf59 flags:# tone:InputAiComposeTone display_author:fla
 ```php
 $aiComposeTone = $client->aicompose->updateTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'TWlNiSmjBxzZocH4',
+		tone : 'rBgq08JC5Qmc4V3j',
 	),
 	display_author : false,
-	emoji_id : -1301407668982409460,
-	title : 'P2qbCRvaDjnMFp39',
-	prompt : 'S54BNbOpTM8fLVZg',
+	emoji_id : 6896786525097341901,
+	title : 'oIacDVY0H2tkeqXE',
+	prompt : 'MWVQZHLb4KCA3yUf',
 );
 ```

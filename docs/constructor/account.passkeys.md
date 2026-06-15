@@ -28,11 +28,11 @@ account.passkeys#f8e0aa1c passkeys:Vector<Passkey> = account.Passkeys;
 $accountPasskeys = $client->account->passkeys(
 	passkeys : array(
 		$client->passkey(
-			id : 'wHhCov30Gd7I9nxz',
-			name : 'vZh0sGaYVi1dLRmu',
-			date : 62,
-			software_emoji_id : 8122959544195627637,
-			last_usage_date : 47,
+			id : 'KPZ5M8SV2gQ6ufcq',
+			name : 'MGaoFlTfSOEnxtgr',
+			date : 58,
+			software_emoji_id : 8993073645148196095,
+			last_usage_date : 86,
 		),
 	),
 );

@@ -32,10 +32,10 @@ updates.state#a56c2a3e pts:int qts:int date:int seq:int unread_count:int = updat
 
 ```php
 $updatesState = $client->updates->state(
-	pts : 97,
-	qts : 61,
-	date : 42,
-	seq : 28,
-	unread_count : 12,
+	pts : 65,
+	qts : 79,
+	date : 81,
+	seq : 98,
+	unread_count : 67,
 );
 ```

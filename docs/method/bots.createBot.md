@@ -31,7 +31,7 @@ bots.createBot#e5b17f2b flags:# via_deeplink:flags.0?true name:string username:s
 ```php
 $user = $client->bots->createBot(
 	via_deeplink : true,
-	name : 'avsWHgCdexq7jI1L',
+	name : 'pexqiFotlhzgL1kE',
 	username : 'TakNone',
 	manager_id : $client->get_input_user(user : '@TakNone'),
 );

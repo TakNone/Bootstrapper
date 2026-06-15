@@ -52,10 +52,10 @@ $accountPrivacyRules = $client->account->setPrivacy(
 			users : array($client->get_input_user(user : '@TakNone')),
 		),
 		$client->inputPrivacyValueAllowChatParticipants(
-			chats : array(-6260882230044313252),
+			chats : array(6793434035114005914),
 		),
 		$client->inputPrivacyValueDisallowChatParticipants(
-			chats : array(7529279429137365018),
+			chats : array(3855697938708277934),
 		),
 		$client->inputPrivacyValueAllowCloseFriends(),
 		$client->inputPrivacyValueAllowPremium(),

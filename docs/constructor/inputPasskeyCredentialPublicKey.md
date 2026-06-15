@@ -28,11 +28,11 @@ inputPasskeyCredentialPublicKey#3c27b78f id:string raw_id:string response:InputP
 
 ```php
 $inputPasskeyCredential = $client->inputPasskeyCredentialPublicKey(
-	id : 'mC1Vkfs86Mgi9hcN',
-	raw_id : 'qHALr6FCwDkxPXQJ',
+	id : 'MOAQsBlwmcqI09GY',
+	raw_id : 'UJDy3VhvfRWYCkiI',
 	response : $client->inputPasskeyResponseRegister(
 		client_data : $client->dataJSON(
-			data : 'yAPCsNvbw5Kpe19l',
+			data : 'rtUIeCbZA2mGF0vl',
 		),
 		attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),

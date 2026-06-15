@@ -9689,9 +9689,15 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### richMessage
+##### inputRichFilePhoto
 
-:link: [*NOTHING*](constructor/richMessage)
+:link: [*NOTHING*](constructor/inputRichFilePhoto)
+
+---
+
+##### inputRichFileDocument
+
+:link: [*NOTHING*](constructor/inputRichFileDocument)
 
 ---
 
@@ -9710,3 +9716,9 @@ If neither the pm or group flags are set, the specified chat export was generate
 ##### inputRichMessageMarkdown
 
 :link: [*NOTHING*](constructor/inputRichMessageMarkdown)
+
+---
+
+##### richMessage
+
+:link: [*NOTHING*](constructor/richMessage)

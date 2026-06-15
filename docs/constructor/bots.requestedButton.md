@@ -26,6 +26,6 @@ bots.requestedButton#f13bbcd7 webapp_req_id:string = bots.RequestedButton;
 
 ```php
 $botsRequestedButton = $client->bots->requestedButton(
-	webapp_req_id : 'QpsWNPiFeRH0m1Ic',
+	webapp_req_id : 'fpzalikbtXYOv1FN',
 );
 ```

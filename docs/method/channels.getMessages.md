@@ -46,15 +46,15 @@ $messagesMessages = $client->channels->getMessages(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	id : array(
 		$client->inputMessageID(
-			id : 8,
+			id : 40,
 		),
 		$client->inputMessageReplyTo(
-			id : 65,
+			id : 42,
 		),
 		$client->inputMessagePinned(),
 		$client->inputMessageCallbackQuery(
-			id : 4,
-			query_id : 6882775722636142237,
+			id : 3,
+			query_id : 6196719767109183271,
 		),
 	),
 );

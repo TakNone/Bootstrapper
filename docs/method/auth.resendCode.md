@@ -45,6 +45,6 @@ auth.resendCode#cae47523 flags:# phone_number:string phone_code_hash:string reas
 $authSentCode = $client->auth->resendCode(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	reason : 'Vy2ca57OgvpQdz4o',
+	reason : 'JVfhaTA6M4ubN5tl',
 );
 ```

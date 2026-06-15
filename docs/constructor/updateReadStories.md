@@ -30,8 +30,8 @@ updateReadStories#f74e932b peer:Peer max_id:int = Update;
 ```php
 $update = $client->updateReadStories(
 	peer : $client->peerUser(
-		user_id : -8738146162080738602,
+		user_id : 5590369992520608013,
 	),
-	max_id : 63,
+	max_id : 21,
 );
 ```

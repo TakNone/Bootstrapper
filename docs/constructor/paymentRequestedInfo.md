@@ -32,16 +32,16 @@ paymentRequestedInfo#909c3f94 flags:# name:flags.0?string phone:flags.1?string e
 
 ```php
 $paymentRequestedInfo = $client->paymentRequestedInfo(
-	name : 'qync8EhaLHvxsKGw',
+	name : 'Kc7BdQEGnkZNgo1x',
 	phone : '+1234567890',
 	email : 'reply@liveproto.dev',
 	shipping_address : $client->postAddress(
-		street_line1 : 'LO1AoPN2lrgKbIjE',
-		street_line2 : 'H9zQC3yWAuG0SoI6',
-		city : 'KNkLcm7dMOA68QJB',
-		state : 'UDgdp3xfB258bCMQ',
-		country_iso2 : 'KzLmyeVd3ljhrNJI',
-		post_code : 'NghJXErvAIF7tV26',
+		street_line1 : 'QEWYRTzljFGuDi9J',
+		street_line2 : 'MBr2Can5oV6ZWgyv',
+		city : 'QOmJEPylIAXdBGqi',
+		state : 'yvmYJjGzoftnLaVO',
+		country_iso2 : 'ZKa5HgDkLhvBEfAq',
+		post_code : '8v5PRBqDfkSlncsh',
 	),
 );
 ```

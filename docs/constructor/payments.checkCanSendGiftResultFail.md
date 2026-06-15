@@ -29,97 +29,97 @@ payments.checkCanSendGiftResultFail#d5e58274 reason:TextWithEntities = payments.
 ```php
 $paymentsCheckCanSendGiftResult = $client->payments->checkCanSendGiftResultFail(
 	reason : $client->textWithEntities(
-		text : 'yCEq0sxZjI6r8lnA',
+		text : 'AjIp3dHBmGuMNb5U',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 66,
+				length : 77,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 23,
+				length : 81,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 11,
+				length : 71,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 47,
+				length : 56,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 71,
+				length : 46,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 86,
+				length : 99,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 98,
+				length : 80,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 51,
+				length : 65,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 45,
+				length : 39,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 40,
-				language : 'oacSVbiy3eJLWGTv',
+				length : 21,
+				language : '0a6v7QVTbeq2k8x1',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 16,
+				length : 60,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 87,
-				user_id : -1992039071783925124,
+				length : 98,
+				user_id : -8411976733776838431,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 24,
+				length : 74,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 53,
+				length : 31,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 71,
+				length : 54,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 81,
+				length : 73,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 22,
+				length : 87,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 84,
+				length : 47,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 25,
+				length : 28,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 5,
-				document_id : 7602660879346165482,
+				length : 12,
+				document_id : 1202285793863227524,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 31,
+				length : 99,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -129,21 +129,21 @@ $paymentsCheckCanSendGiftResult = $client->payments->checkCanSendGiftResultFail(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 66,
-				date : 42,
+				length : 17,
+				date : 97,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 67,
+				length : 20,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 47,
-				old_text : 'DQ2XP5LYaKihpBH8',
+				length : 45,
+				old_text : 'V1Je3UkXa4RtFQ9E',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 59,
+				length : 49,
 			),
 		),
 	),

@@ -40,11 +40,11 @@ $documentAttribute = $client->documentAttributeVideo(
 	round_message : true,
 	supports_streaming : true,
 	nosound : true,
-	duration : -2080715.541015625,
-	w : 18,
-	h : 53,
-	preload_prefix_size : 23,
-	video_start_ts : 708407.611328125,
-	video_codec : 'p26V5kQKTluqt8UO',
+	duration : 687459.5712890625,
+	w : 45,
+	h : 79,
+	preload_prefix_size : 63,
+	video_start_ts : -480541.6484375,
+	video_codec : 'L32xOGF8pWhcmkS0',
 );
 ```

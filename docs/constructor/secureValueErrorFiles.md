@@ -32,6 +32,6 @@ secureValueErrorFiles#666220e9 type:SecureValueType file_hash:Vector<bytes> text
 $secureValueError = $client->secureValueErrorFiles(
 	type : $client->secureValueTypePersonalDetails(),
 	file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	text : 'r3lf0uYwni4qKF71',
+	text : 'UzBw80j7oV5CPcri',
 );
 ```

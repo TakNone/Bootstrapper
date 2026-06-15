@@ -29,9 +29,9 @@ updateQuickReplyMessage#3e050d0f message:Message = Update;
 ```php
 $update = $client->updateQuickReplyMessage(
 	message : $client->messageEmpty(
-		id : 88,
+		id : 29,
 		peer_id : $client->peerUser(
-			user_id : 2038093958878787268,
+			user_id : -3671559137040173389,
 		),
 	),
 );

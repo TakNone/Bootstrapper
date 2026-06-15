@@ -27,7 +27,7 @@ aicompose.deleteTone#dd39316a tone:InputAiComposeTone = Bool;
 ```php
 $bool = $client->aicompose->deleteTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'z9JBKoUuEv5PADwV',
+		tone : 'eyGvR4rXAsM32PbN',
 	),
 );
 ```

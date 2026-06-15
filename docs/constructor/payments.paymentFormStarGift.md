@@ -29,7 +29,7 @@ payments.paymentFormStarGift#b425cfe1 form_id:long invoice:Invoice = payments.Pa
 
 ```php
 $paymentsPaymentForm = $client->payments->paymentFormStarGift(
-	form_id : -4953994437122749022,
+	form_id : 1284248407070077394,
 	invoice : $client->invoice(
 		test : true,
 		name_requested : true,
@@ -40,17 +40,17 @@ $paymentsPaymentForm = $client->payments->paymentFormStarGift(
 		phone_to_provider : true,
 		email_to_provider : true,
 		recurring : true,
-		currency : 'IP5XhWyZ0SwAYDup',
+		currency : 'CFZ5nN7zSJdE2rpX',
 		prices : array(
 			$client->labeledPrice(
-				label : 'Om3rcZiV0jMk95Ah',
-				amount : -8529810770151690237,
+				label : 'jaUEpWG0Khy8A1Dz',
+				amount : -2814189003537305332,
 			),
 		),
-		max_tip_amount : 3023586459776975977,
-		suggested_tip_amounts : array(3903294246711807130),
+		max_tip_amount : -312302824029548416,
+		suggested_tip_amounts : array(7410701177866591515),
 		terms_url : 'https://docs.liveproto.dev',
-		subscription_period : 93,
+		subscription_period : 16,
 	),
 );
 ```

@@ -26,6 +26,6 @@ textMath#9d2eac97 source:string = RichText;
 
 ```php
 $richText = $client->textMath(
-	source : 'Pa5MI9hz4SiV6cL1',
+	source : 'vp2OX5JRSxDBjwth',
 );
 ```

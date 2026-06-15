@@ -32,7 +32,7 @@ inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:I
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftResale(
 	ton : true,
-	slug : 'c7lBANn9VpZwvY1P',
+	slug : 'ayHNepTMSuVhWIcm',
 	to_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

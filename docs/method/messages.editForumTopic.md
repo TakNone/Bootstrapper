@@ -33,10 +33,10 @@ messages.editForumTopic#cecc1134 flags:# peer:InputPeer topic_id:int title:flags
 ```php
 $updates = $client->messages->editForumTopic(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	topic_id : 41,
-	title : 'V28jtBWThIcy4PRa',
-	icon_emoji_id : -1392682851936135285,
+	topic_id : 2,
+	title : 'OxZIJNC2ESKkcpb9',
+	icon_emoji_id : 1986599731035514688,
 	closed : false,
-	hidden : true,
+	hidden : false,
 );
 ```

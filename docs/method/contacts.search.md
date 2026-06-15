@@ -43,7 +43,7 @@ contacts.search#5f58d0f flags:# broadcasts:flags.0?true bots:flags.1?true q:stri
 $contactsFound = $client->contacts->search(
 	broadcasts : true,
 	bots : true,
-	q : 'kjL53evKlM2FacwT',
-	limit : 31,
+	q : 'OJC8maiP5znRIoN0',
+	limit : 15,
 );
 ```

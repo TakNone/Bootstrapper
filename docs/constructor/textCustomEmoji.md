@@ -27,7 +27,7 @@ textCustomEmoji#a26156c0 document_id:long alt:string = RichText;
 
 ```php
 $richText = $client->textCustomEmoji(
-	document_id : 3190671143310791337,
-	alt : 'OecxGAE2NLDtsVWr',
+	document_id : -5221186198223474616,
+	alt : 'hCYV8bei7O5gKwqG',
 );
 ```

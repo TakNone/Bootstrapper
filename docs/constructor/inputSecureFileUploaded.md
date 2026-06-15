@@ -32,8 +32,8 @@ inputSecureFileUploaded#3334b0f0 id:long parts:int md5_checksum:string file_hash
 
 ```php
 $inputSecureFile = $client->inputSecureFileUploaded(
-	id : 3084061280417863370,
-	parts : 94,
+	id : -3228107673403508911,
+	parts : 54,
 	md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",

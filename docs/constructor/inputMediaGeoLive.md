@@ -35,8 +35,8 @@ inputMediaGeoLive#971fa843 flags:# stopped:flags.0?true geo_point:InputGeoPoint 
 $inputMedia = $client->inputMediaGeoLive(
 	stopped : true,
 	geo_point : $client->inputGeoPointEmpty(),
-	heading : 23,
-	period : 70,
-	proximity_notification_radius : 74,
+	heading : 60,
+	period : 56,
+	proximity_notification_radius : 2,
 );
 ```

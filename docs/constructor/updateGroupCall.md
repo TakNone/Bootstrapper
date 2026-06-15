@@ -33,12 +33,12 @@ updateGroupCall#9d2216e0 flags:# live_story:flags.2?true peer:flags.1?Peer call:
 $update = $client->updateGroupCall(
 	live_story : true,
 	peer : $client->peerUser(
-		user_id : -7156414335417435856,
+		user_id : -5581053582800032219,
 	),
 	call : $client->groupCallDiscarded(
-		id : -7599563903843406128,
-		access_hash : 4991400441262979100,
-		duration : 59,
+		id : -2329451563168629221,
+		access_hash : 7545284718919123529,
+		duration : 85,
 	),
 );
 ```

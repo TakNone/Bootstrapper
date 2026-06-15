@@ -27,7 +27,7 @@ stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;
 ```php
 $statsPollStats = $client->stats->pollStats(
 	votes_graph : $client->statsGraphAsync(
-		token : 'T0jALX6qDSrZvka3',
+		token : '1sGqc5btHXWThMgV',
 	),
 );
 ```

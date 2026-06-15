@@ -43,7 +43,7 @@ account.uploadTheme#1c3db333 flags:# file:InputFile thumb:flags.0?InputFile file
 $document = $client->account->uploadTheme(
 	file : $client->upload_file(path : 'file.png'),
 	thumb : $client->upload_file(path : 'file.png'),
-	file_name : 'B5uVNGJtSqgP1iy9',
-	mime_type : 'GVSRvAJsIKy0Hxfc',
+	file_name : 'TNCmiwdxnjkJ2hIs',
+	mime_type : 'TjCXZhQmWV8NHkwG',
 );
 ```

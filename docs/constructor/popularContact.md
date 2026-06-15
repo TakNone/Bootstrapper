@@ -29,7 +29,7 @@ popularContact#5ce14175 client_id:long importers:int = PopularContact;
 
 ```php
 $popularContact = $client->popularContact(
-	client_id : -1428362727374633173,
-	importers : 96,
+	client_id : -8217344530285615729,
+	importers : 78,
 );
 ```

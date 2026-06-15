@@ -32,9 +32,9 @@ chatParticipant#38e79fde flags:# user_id:long inviter_id:long date:int rank:flag
 
 ```php
 $chatParticipant = $client->chatParticipant(
-	user_id : -4039807828652845582,
-	inviter_id : 1196910624329714160,
-	date : 33,
-	rank : 'JqBbHaXrnugCFDAc',
+	user_id : 3476598873699889907,
+	inviter_id : 7644882151810285276,
+	date : 78,
+	rank : 'tac1V6SJRDGkHhEB',
 );
 ```

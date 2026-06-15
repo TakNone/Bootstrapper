@@ -28,8 +28,8 @@ aiComposeToneDefault#9bad6414 tone:string emoji_id:long title:string = AiCompose
 
 ```php
 $aiComposeTone = $client->aiComposeToneDefault(
-	tone : 'mw3aUok8TJvGbNei',
-	emoji_id : 3448349802800838080,
-	title : '5SRZjh6gfAJQM0mI',
+	tone : 'FNlt8WZzTrc6iveK',
+	emoji_id : 8092605082122496573,
+	title : 'vSZ1gktdnx0q2Vyj',
 );
 ```

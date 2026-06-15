@@ -26,6 +26,6 @@ bots.exportedBotToken#3c60b621 token:string = bots.ExportedBotToken;
 
 ```php
 $botsExportedBotToken = $client->bots->exportedBotToken(
-	token : 'FlXjraRTUovCePgq',
+	token : 'TZNh1LbacjDuRwPx',
 );
 ```

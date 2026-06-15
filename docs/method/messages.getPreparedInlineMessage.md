@@ -39,6 +39,6 @@ messages.getPreparedInlineMessage#857ebdb8 bot:InputUser id:string = messages.Pr
 ```php
 $messagesPreparedInlineMessage = $client->messages->getPreparedInlineMessage(
 	bot : $client->get_input_user(user : '@TakNone'),
-	id : 'lYAVqRGf4Z0myzr6',
+	id : 'fcuCIyz4dKqRW0Qt',
 );
 ```

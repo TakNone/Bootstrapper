@@ -35,10 +35,10 @@ botBusinessConnection#8f34b2f5 flags:# disabled:flags.1?true connection_id:strin
 ```php
 $botBusinessConnection = $client->botBusinessConnection(
 	disabled : true,
-	connection_id : 'XVCaFIf8UO2bjstr',
-	user_id : -1969508733234428078,
-	dc_id : 21,
-	date : 1,
+	connection_id : 'MBcAGVJgKuTk2UIt',
+	user_id : 8714486514349732173,
+	dc_id : 89,
+	date : 59,
 	rights : $client->businessBotRights(
 		reply : true,
 		read_messages : true,

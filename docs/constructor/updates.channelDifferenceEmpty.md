@@ -32,7 +32,7 @@ updates.channelDifferenceEmpty#3e11affb flags:# final:flags.0?true pts:int timeo
 ```php
 $updatesChannelDifference = $client->updates->channelDifferenceEmpty(
 	final : true,
-	pts : 7,
-	timeout : 97,
+	pts : 20,
+	timeout : 14,
 );
 ```

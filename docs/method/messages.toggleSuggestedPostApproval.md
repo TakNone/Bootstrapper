@@ -43,8 +43,8 @@ messages.toggleSuggestedPostApproval#8107455c flags:# reject:flags.1?true peer:I
 $updates = $client->messages->toggleSuggestedPostApproval(
 	reject : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 78,
-	schedule_date : 57,
-	reject_comment : 'osNp4mizgcPeHuRC',
+	msg_id : 86,
+	schedule_date : 94,
+	reject_comment : 'ZUbQmAgfWjPRHvcq',
 );
 ```

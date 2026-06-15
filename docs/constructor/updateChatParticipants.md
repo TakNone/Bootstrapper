@@ -29,12 +29,12 @@ updateChatParticipants#7761198 participants:ChatParticipants = Update;
 ```php
 $update = $client->updateChatParticipants(
 	participants : $client->chatParticipantsForbidden(
-		chat_id : 8147941188185319405,
+		chat_id : -246884684855949533,
 		self_participant : $client->chatParticipant(
-			user_id : -8921143182826386611,
-			inviter_id : -4862385875038110382,
-			date : 26,
-			rank : 'rleFySYcmaDf74sQ',
+			user_id : -4124105567816947715,
+			inviter_id : 6188806883655026513,
+			date : 48,
+			rank : 'AL243tkbqnfF7Slm',
 		),
 	),
 );

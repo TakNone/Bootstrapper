@@ -31,9 +31,9 @@ inputAppEvent#1d1b1245 time:double type:string peer:long data:JSONValue = InputA
 
 ```php
 $inputAppEvent = $client->inputAppEvent(
-	time : 1710290.861328125,
-	type : 'SNXt7sjCOTMIAR03',
-	peer : 8921781217569326125,
+	time : 1616148.83984375,
+	type : 'JLmYTrgXVqNiS5cU',
+	peer : 8511747813844881102,
 	data : $client->jsonNull(),
 );
 ```

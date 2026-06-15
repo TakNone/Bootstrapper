@@ -30,7 +30,7 @@ emojiStatus#e7ff068a flags:# document_id:long until:flags.0?int = EmojiStatus;
 
 ```php
 $emojiStatus = $client->emojiStatus(
-	document_id : -8729335448450816382,
-	until : 63,
+	document_id : -4526489148266074007,
+	until : 1,
 );
 ```

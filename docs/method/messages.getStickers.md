@@ -37,7 +37,7 @@ messages.getStickers#d5a5d3a1 emoticon:string hash:long = messages.Stickers;
 
 ```php
 $messagesStickers = $client->messages->getStickers(
-	emoticon : 'yvUGdY2AHzrWpfDC',
+	emoticon : '7wFQEJTtZkhg6eUM',
 	hash : 0,
 );
 ```

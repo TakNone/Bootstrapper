@@ -38,19 +38,19 @@ account.installWallPaper#feed5769 wallpaper:InputWallPaper settings:WallPaperSet
 ```php
 $bool = $client->account->installWallPaper(
 	wallpaper : $client->inputWallPaper(
-		id : 8292779733268276829,
-		access_hash : 7278658582428180798,
+		id : 8866063089764577607,
+		access_hash : -2586131355493154783,
 	),
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 72,
-		second_background_color : 60,
-		third_background_color : 30,
-		fourth_background_color : 63,
-		intensity : 80,
-		rotation : 10,
-		emoticon : 'kfarixWKXJdBA4NR',
+		background_color : 74,
+		second_background_color : 49,
+		third_background_color : 10,
+		fourth_background_color : 93,
+		intensity : 74,
+		rotation : 41,
+		emoticon : 'Hv2xbuQCwYFIeWaS',
 	),
 );
 ```

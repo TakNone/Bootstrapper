@@ -35,10 +35,10 @@ updateTranscribedAudio#84cd5a flags:# pending:flags.0?true peer:Peer msg_id:int 
 $update = $client->updateTranscribedAudio(
 	pending : true,
 	peer : $client->peerUser(
-		user_id : 2194762714686642396,
+		user_id : 2741440526420361876,
 	),
-	msg_id : 100,
-	transcription_id : -5593117193807700719,
-	text : '9ARwbaf68erixpBF',
+	msg_id : 61,
+	transcription_id : -4748273739183784802,
+	text : 'NfwOQVLzUCS7Giyl',
 );
 ```

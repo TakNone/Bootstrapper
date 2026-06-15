@@ -28,6 +28,6 @@ help.peerColorSet#26219a58 colors:Vector<int> = help.PeerColorSet;
 
 ```php
 $helpPeerColorSet = $client->help->peerColorSet(
-	colors : array(30),
+	colors : array(63),
 );
 ```

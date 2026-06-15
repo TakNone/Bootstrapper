@@ -59,36 +59,36 @@ $groupCallParticipant = $client->groupCallParticipant(
 	self : true,
 	video_joined : true,
 	peer : $client->peerUser(
-		user_id : -707192921782789577,
+		user_id : 914815074040814062,
 	),
-	date : 1,
-	active_date : 74,
-	source : 56,
-	volume : 86,
-	about : 'qPUeX6C3JMmTspzt',
-	raise_hand_rating : 8403815616130215158,
+	date : 17,
+	active_date : 5,
+	source : 21,
+	volume : 78,
+	about : 'l9aDFfjG5LM3tHTA',
+	raise_hand_rating : 4105681214294573526,
 	video : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'v1okxheTcAE3X5fJ',
+		endpoint : 'PBZ3ow8I7LA4mt6u',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'cHyXKbwlJW7mOto4',
-				sources : array(7),
+				semantics : 'MPi5KugWbCcmjYls',
+				sources : array(52),
 			),
 		),
-		audio_source : 99,
+		audio_source : 27,
 	),
 	presentation : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'doF49lN5XSqTrZs1',
+		endpoint : 'DXoU9dSVtFOklpfG',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'VYS1KkTmJa9LBFsN',
-				sources : array(15),
+				semantics : 'MLj8fevP9rS70kTd',
+				sources : array(45),
 			),
 		),
-		audio_source : 72,
+		audio_source : 95,
 	),
-	paid_stars_total : -6786441110169389983,
+	paid_stars_total : -3806398225455832163,
 );
 ```

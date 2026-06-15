@@ -26,6 +26,6 @@ webPageAttributeAiComposeTone#7781fe18 emoji_id:long = WebPageAttribute;
 
 ```php
 $webPageAttribute = $client->webPageAttributeAiComposeTone(
-	emoji_id : 3868455700144485530,
+	emoji_id : -9208253251035125628,
 );
 ```

@@ -51,8 +51,8 @@ auth.sendCode#a677244f phone_number:string api_id:int api_hash:string settings:C
 ```php
 $authSentCode = $client->auth->sendCode(
 	phone_number : '+1234567890',
-	api_id : 64,
-	api_hash : '5VmJdLUajol0BiHh',
+	api_id : 69,
+	api_hash : 'krzd1YteJT52WMf4',
 	settings : $client->codeSettings(
 		allow_flashcall : true,
 		current_number : true,
@@ -61,8 +61,8 @@ $authSentCode = $client->auth->sendCode(
 		allow_firebase : true,
 		unknown_number : true,
 		logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-		token : '0Okrm3cMZQjAn2xi',
-		app_sandbox : true,
+		token : 'MBZJb8Dpwi5oaqrj',
+		app_sandbox : false,
 	),
 );
 ```

@@ -29,7 +29,7 @@ inputMessageCallbackQuery#acfa1a7e id:int query_id:long = InputMessage;
 
 ```php
 $inputMessage = $client->inputMessageCallbackQuery(
-	id : 75,
-	query_id : -8863019480959905135,
+	id : 19,
+	query_id : 2507445583836872636,
 );
 ```

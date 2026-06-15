@@ -30,6 +30,6 @@ messages.editChatParticipantRank#a00f32b0 peer:InputPeer participant:InputPeer r
 $updates = $client->messages->editChatParticipantRank(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
-	rank : 'iFhW81fneKvHZS0V',
+	rank : 'CY25k9uqyZagNG8f',
 );
 ```

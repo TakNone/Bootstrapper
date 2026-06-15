@@ -29,6 +29,6 @@ messages.readPollVotes#1720b4d8 flags:# peer:InputPeer top_msg_id:flags.0?int = 
 ```php
 $messagesAffectedHistory = $client->messages->readPollVotes(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 25,
+	top_msg_id : 35,
 );
 ```

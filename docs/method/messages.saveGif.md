@@ -38,6 +38,6 @@ messages.saveGif#327a30cb id:InputDocument unsave:Bool = Bool;
 ```php
 $bool = $client->messages->saveGif(
 	id : $client->inputDocumentEmpty(),
-	unsave : false,
+	unsave : true,
 );
 ```

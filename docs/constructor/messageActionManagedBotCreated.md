@@ -26,6 +26,6 @@ messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionManagedBotCreated(
-	bot_id : 2596074488964892445,
+	bot_id : -7159098477030283088,
 );
 ```

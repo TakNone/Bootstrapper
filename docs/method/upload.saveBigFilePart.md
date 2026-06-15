@@ -45,9 +45,9 @@ upload.saveBigFilePart#de7b673d file_id:long file_part:int file_total_parts:int 
 
 ```php
 $bool = $client->upload->saveBigFilePart(
-	file_id : 8241008198377274960,
-	file_part : 82,
-	file_total_parts : 43,
+	file_id : -1374682078458928568,
+	file_part : 11,
+	file_total_parts : 63,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -37,17 +37,17 @@ $messageAction = $client->messageActionConferenceCall(
 	missed : true,
 	active : true,
 	video : true,
-	call_id : 5898971275360462269,
-	duration : 67,
+	call_id : 2978327892921876324,
+	duration : 42,
 	other_participants : array(
 		$client->peerUser(
-			user_id : -3082480515745744161,
+			user_id : 4251486582388995407,
 		),
 		$client->peerChat(
-			chat_id : 4202250627744724850,
+			chat_id : 7478501018865067691,
 		),
 		$client->peerChannel(
-			channel_id : 8429139966911466796,
+			channel_id : -2624365616057085427,
 		),
 	),
 );

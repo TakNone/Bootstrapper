@@ -31,6 +31,6 @@ account.updateBusinessLocation#9e6b131a flags:# geo_point:flags.1?InputGeoPoint 
 ```php
 $bool = $client->account->updateBusinessLocation(
 	geo_point : $client->inputGeoPointEmpty(),
-	address : '7XDSbNPEwFt2onxa',
+	address : 'Rlz4UNI9pHDkbiWJ',
 );
 ```

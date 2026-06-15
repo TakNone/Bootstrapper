@@ -32,9 +32,9 @@ geoPointAddress#de4c5d93 flags:# country_iso2:string state:flags.0?string city:f
 
 ```php
 $geoPointAddress = $client->geoPointAddress(
-	country_iso2 : '3xMoC4ESLkzGKjpZ',
-	state : 'RJCK4QTMWagkfA79',
-	city : '0LwuRVbWspMk5gOD',
-	street : '62DstWwkGZyQnRcd',
+	country_iso2 : 'UPeDfwgWzJbv6xZS',
+	state : '3pDBV9x5zuQEN0o8',
+	city : 'uwayELDP7OVAI2Tr',
+	street : 'JXEcALKPbV5FtUkf',
 );
 ```

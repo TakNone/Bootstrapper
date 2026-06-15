@@ -31,8 +31,8 @@ messages.summarizeText#abbbd346 flags:# peer:InputPeer id:int to_lang:flags.0?st
 ```php
 $textWithEntities = $client->messages->summarizeText(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 25,
-	to_lang : 'NZakn25QAHXz3rj6',
-	tone : 'U2XbKlTy89xGJLAz',
+	id : 33,
+	to_lang : '9Ybv8TGSKAtN0mdI',
+	tone : 'CMubnh73lUiHyfJZ',
 );
 ```

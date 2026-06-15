@@ -50,9 +50,9 @@ $paymentsStarsStatus = $client->payments->getStarsTransactions(
 	outbound : true,
 	ascending : true,
 	ton : true,
-	subscription_id : 'F0DYTpqjPaO9Nt7s',
+	subscription_id : 'RNVU27XvWryb4i9q',
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'yJY4Rb16vxHK0i5V',
-	limit : 59,
+	offset : 'irQSeDJZUufswyK9',
+	limit : 81,
 );
 ```

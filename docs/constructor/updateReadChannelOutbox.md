@@ -29,7 +29,7 @@ updateReadChannelOutbox#b75f99a9 channel_id:long max_id:int = Update;
 
 ```php
 $update = $client->updateReadChannelOutbox(
-	channel_id : -8674712152396372063,
-	max_id : 98,
+	channel_id : -4500312131199492843,
+	max_id : 79,
 );
 ```

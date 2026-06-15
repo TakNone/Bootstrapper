@@ -57,13 +57,13 @@ $photosPhoto = $client->photos->uploadProfilePhoto(
 	bot : $client->get_input_user(user : '@TakNone'),
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : 258077.16796875,
+	video_start_ts : 1584585.0048828125,
 	video_emoji_markup : $client->videoSize(
-		type : 'h2TkVmNexf3wSI4l',
-		w : 57,
-		h : 43,
-		size : 99,
-		video_start_ts : -553296.376953125,
+		type : 'f4IF2MiCOG3tU9qX',
+		w : 79,
+		h : 18,
+		size : 4,
+		video_start_ts : -1181444.55078125,
 	),
 );
 ```

@@ -42,11 +42,11 @@ $inputStorePaymentPurpose = $client->inputStorePaymentPremiumGiveaway(
 	winners_are_visible : true,
 	boost_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	additional_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	countries_iso2 : array('FCpytEOH73RlqIP1'),
-	prize_description : 'bXpuONgaJ1foStCU',
-	random_id : -6743503685423878340,
-	until_date : 44,
-	currency : 'PlSeYidtc9FEx6aW',
-	amount : 2619166173223556661,
+	countries_iso2 : array('Pp6awe9jmdcu1Afk'),
+	prize_description : 'hB78DoapqQ0mzLH5',
+	random_id : -9190771067174599201,
+	until_date : 49,
+	currency : 'MJzodvUZEbuyAQ1Y',
+	amount : 244825689786610489,
 );
 ```

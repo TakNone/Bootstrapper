@@ -30,12 +30,12 @@ chatParticipantsForbidden#8763d3e1 flags:# chat_id:long self_participant:flags.0
 
 ```php
 $chatParticipants = $client->chatParticipantsForbidden(
-	chat_id : -8878885742860725046,
+	chat_id : -3743906177020494391,
 	self_participant : $client->chatParticipant(
-		user_id : -8042850282896228058,
-		inviter_id : -8737467505747622049,
-		date : 20,
-		rank : 'RkQb1LMWv2DsteT4',
+		user_id : 3795397776324248111,
+		inviter_id : 6800086880312284961,
+		date : 73,
+		rank : '2Qn5q1Pg89zWT4XH',
 	),
 );
 ```

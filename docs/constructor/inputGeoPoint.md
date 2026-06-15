@@ -31,8 +31,8 @@ inputGeoPoint#48222faf flags:# lat:double long:double accuracy_radius:flags.0?in
 
 ```php
 $inputGeoPoint = $client->inputGeoPoint(
-	lat : 1689211.712890625,
-	long : -1333184.8740234375,
-	accuracy_radius : 86,
+	lat : -1876638.9755859375,
+	long : 1047005.087890625,
+	accuracy_radius : 100,
 );
 ```

@@ -31,7 +31,7 @@ $botsAccessSettings = $client->bots->accessSettings(
 	restricted : true,
 	add_users : array(
 		$client->userEmpty(
-			id : 4967910454697212466,
+			id : -8701726846171107446,
 		),
 		$client->user(
 			self : true,
@@ -64,24 +64,24 @@ $botsAccessSettings = $client->bots->accessSettings(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : -2948925342895760282,
-			access_hash : 974141510853209509,
+			id : 2059474730194776511,
+			access_hash : -8142799936641922355,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 96,
+			bot_info_version : 25,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'InUdJwmB80hXgtG2',
-					reason : 'KISkNCwtd2frm79y',
-					text : 'QhcpJbSwrOBDP12F',
+					platform : 'o8QsI4WgVfDNFYB7',
+					reason : 'PBwN3muvIHFr0ife',
+					text : 'OcH9MsyeaUp8WXkK',
 				),
 			),
-			bot_inline_placeholder : 'IelULTgwRZjBDYyS',
-			lang_code : 'q8indWDctFHPQ5ga',
+			bot_inline_placeholder : 'vZcp5NLEfJTHKAYu',
+			lang_code : '0EJcTSKHxNZaFX8f',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -92,19 +92,19 @@ $botsAccessSettings = $client->bots->accessSettings(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 25,
+				max_id : 62,
 			),
 			color : $client->peerColor(
-				color : 94,
-				background_emoji_id : 3174147051220694827,
+				color : 56,
+				background_emoji_id : -4829845549191968680,
 			),
 			profile_color : $client->peerColor(
-				color : 69,
-				background_emoji_id : -5189679726113034031,
+				color : 93,
+				background_emoji_id : -4851796794023049896,
 			),
-			bot_active_users : 94,
-			bot_verification_icon : 3376877490306629189,
-			send_paid_messages_stars : 5486606713921343570,
+			bot_active_users : 12,
+			bot_verification_icon : -3788366099292144849,
+			send_paid_messages_stars : -6226370767270863154,
 		),
 	),
 );

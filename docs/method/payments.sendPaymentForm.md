@@ -47,17 +47,17 @@ payments.sendPaymentForm#2d03522f flags:# form_id:long invoice:InputInvoice requ
 
 ```php
 $paymentsPaymentResult = $client->payments->sendPaymentForm(
-	form_id : -7164777921752151736,
+	form_id : -5395144290410361558,
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-		msg_id : 79,
+		msg_id : 85,
 	),
-	requested_info_id : 'uPBfnyx8QbwUh7mD',
-	shipping_option_id : '1kIgzHw3RVjyv68e',
+	requested_info_id : 'LuzVfrhTswHE28dM',
+	shipping_option_id : 'O9lpX86fuheCxmP0',
 	credentials : $client->inputPaymentCredentialsSaved(
-		id : 'LtFb1xRByrpAQ39K',
+		id : 'ryt4f17iSw68GUWz',
 		tmp_password : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
-	tip_amount : 4560758779967526842,
+	tip_amount : -4166872993436584229,
 );
 ```

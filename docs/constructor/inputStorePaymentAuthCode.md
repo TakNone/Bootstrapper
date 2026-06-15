@@ -37,8 +37,8 @@ $inputStorePaymentPurpose = $client->inputStorePaymentAuthCode(
 	restore : true,
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	premium_days : 19,
-	currency : 'QDU2qRKozYlBML5O',
-	amount : -2019336165309243090,
+	premium_days : 96,
+	currency : 'hxQeXLR07JtrA6Gw',
+	amount : 5320659993717997770,
 );
 ```

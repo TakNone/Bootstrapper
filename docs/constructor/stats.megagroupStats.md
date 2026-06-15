@@ -45,73 +45,73 @@ stats.megagroupStats#ef7ff916 period:StatsDateRangeDays members:StatsAbsValueAnd
 ```php
 $statsMegagroupStats = $client->stats->megagroupStats(
 	period : $client->statsDateRangeDays(
-		min_date : 70,
-		max_date : 14,
+		min_date : 57,
+		max_date : 18,
 	),
 	members : $client->statsAbsValueAndPrev(
-		current : 578986.55078125,
-		previous : 75373.244140625,
+		current : 219127.0009765625,
+		previous : -1829439.1083984375,
 	),
 	messages : $client->statsAbsValueAndPrev(
-		current : 961695.525390625,
-		previous : 1247922.5576171875,
+		current : -1251778.6533203125,
+		previous : -327263.5234375,
 	),
 	viewers : $client->statsAbsValueAndPrev(
-		current : -1689711.943359375,
-		previous : -97191.46875,
+		current : -2053524.2080078125,
+		previous : 1737996.94921875,
 	),
 	posters : $client->statsAbsValueAndPrev(
-		current : -1185406.482421875,
-		previous : -1932082.291015625,
+		current : -1948700.53515625,
+		previous : 165444.4619140625,
 	),
 	growth_graph : $client->statsGraphAsync(
-		token : 'd8pnDiP1RebQBUhM',
+		token : 'X9ZhaeGk2nBMExWJ',
 	),
 	members_graph : $client->statsGraphAsync(
-		token : 'qkFaEBJtW5cHwIUV',
+		token : 'LwARiYpJXP3x2e9q',
 	),
 	new_members_by_source_graph : $client->statsGraphAsync(
-		token : '2hj9UV7QcMDYGWlF',
+		token : 'en60UgFMQ1ctkPH3',
 	),
 	languages_graph : $client->statsGraphAsync(
-		token : 'NUDty1GCPJ7oVl2S',
+		token : 'qz8DOuSd1v9BUCVe',
 	),
 	messages_graph : $client->statsGraphAsync(
-		token : 'KlzjWxdX5BoeStci',
+		token : 'mfDVXhU87BxyWbFH',
 	),
 	actions_graph : $client->statsGraphAsync(
-		token : 'ERxGsJq3N5ezTQiX',
+		token : 'Yz6DGuhCX8Ac5EyM',
 	),
 	top_hours_graph : $client->statsGraphAsync(
-		token : 'uBCEQhyxjkrZXi5H',
+		token : 'sRzYZjJ1rwP3ynUq',
 	),
 	weekdays_graph : $client->statsGraphAsync(
-		token : 'ELRZsNeSKfP8Yqkr',
+		token : '2b3C8BuIYzS6FrMQ',
 	),
 	top_posters : array(
 		$client->statsGroupTopPoster(
-			user_id : 1643690136307141479,
-			messages : 18,
-			avg_chars : 34,
+			user_id : -1017883779231956665,
+			messages : 1,
+			avg_chars : 19,
 		),
 	),
 	top_admins : array(
 		$client->statsGroupTopAdmin(
-			user_id : -1653096368816829535,
-			deleted : 96,
-			kicked : 62,
-			banned : 8,
+			user_id : -8567851740585647562,
+			deleted : 89,
+			kicked : 21,
+			banned : 17,
 		),
 	),
 	top_inviters : array(
 		$client->statsGroupTopInviter(
-			user_id : -1765982157033613704,
-			invitations : 55,
+			user_id : 8901846684166200824,
+			invitations : 31,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -8757866166268903517,
+			id : 1321885402482368125,
 		),
 		$client->user(
 			self : true,
@@ -144,24 +144,24 @@ $statsMegagroupStats = $client->stats->megagroupStats(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 6441763737816899691,
-			access_hash : 4629860547230858964,
+			id : -4001841036971004500,
+			access_hash : -7553682812934189376,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 12,
+			bot_info_version : 31,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'eCqKWDQJVyZ6IaY1',
-					reason : 'xY4cLsD68nXSKobM',
-					text : 'P2Ak38mqGuYnB0DI',
+					platform : '8T2z3PRLKXW7NGxt',
+					reason : '4z9qjn6Tv0dXBkxf',
+					text : 'lyEs7iugvQP5cOXh',
 				),
 			),
-			bot_inline_placeholder : 'UuVc613IJB2qSWPl',
-			lang_code : 'T1f2sULoPx37gwFM',
+			bot_inline_placeholder : 'ZxbgDJBrim8R7zK1',
+			lang_code : 'Qx1epK2CWIuw4DvG',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -172,19 +172,19 @@ $statsMegagroupStats = $client->stats->megagroupStats(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 53,
+				max_id : 34,
 			),
 			color : $client->peerColor(
-				color : 19,
-				background_emoji_id : 4010111443207709987,
+				color : 30,
+				background_emoji_id : -2555648195262341469,
 			),
 			profile_color : $client->peerColor(
-				color : 81,
-				background_emoji_id : 7705785845156252574,
+				color : 59,
+				background_emoji_id : 7345034647928635277,
 			),
-			bot_active_users : 80,
-			bot_verification_icon : 8409757187810599365,
-			send_paid_messages_stars : -150244595314883483,
+			bot_active_users : 35,
+			bot_verification_icon : -6641322236489087004,
+			send_paid_messages_stars : 8263950978043317324,
 		),
 	),
 );

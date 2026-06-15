@@ -29,9 +29,9 @@ users.suggestBirthday#fc533372 id:InputUser birthday:Birthday = Updates;
 $updates = $client->users->suggestBirthday(
 	id : $client->get_input_user(user : '@TakNone'),
 	birthday : $client->birthday(
-		day : 52,
-		month : 75,
-		year : 4,
+		day : 37,
+		month : 72,
+		year : 70,
 	),
 );
 ```

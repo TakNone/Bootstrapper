@@ -45,74 +45,74 @@ $pollResults = $client->pollResults(
 			chosen : true,
 			correct : true,
 			option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			voters : 100,
+			voters : 41,
 			recent_voters : array(
 				$client->peerUser(
-					user_id : 4297864711402804779,
+					user_id : -2985834436741538966,
 				),
 				$client->peerChat(
-					chat_id : 6584643738946438228,
+					chat_id : -5307197289969147435,
 				),
 				$client->peerChannel(
-					channel_id : -2760720476763525179,
+					channel_id : -8393426426479968524,
 				),
 			),
 		),
 	),
-	total_voters : 56,
+	total_voters : 97,
 	recent_voters : array(
 		$client->peerUser(
-			user_id : -8189604023834636448,
+			user_id : -5862748402547850394,
 		),
 		$client->peerChat(
-			chat_id : 2981933205963553832,
+			chat_id : 512045780095607890,
 		),
 		$client->peerChannel(
-			channel_id : -7669008122191514554,
+			channel_id : -508873555012056854,
 		),
 	),
-	solution : 'y8XnQaopKhs2L5Mw',
+	solution : '1PW0AyHrL7MUIRqK',
 	solution_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 92,
+			length : 16,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 23,
+			length : 62,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 46,
+			length : 42,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 20,
+			length : 85,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 58,
+			length : 27,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 74,
+			length : 79,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 62,
+			length : 23,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 94,
+			length : 37,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 55,
+			length : 49,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 74,
-			language : '2HgEoNR9eQTqsa5V',
+			length : 77,
+			language : 'EHm2yIRgSBjGNrqQ',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
@@ -121,47 +121,47 @@ $pollResults = $client->pollResults(
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 18,
-			user_id : -4658524720184672567,
+			length : 37,
+			user_id : 8971008083834216808,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 9,
+			length : 83,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 87,
+			length : 99,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 7,
+			length : 66,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 32,
+			length : 50,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 17,
+			length : 99,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 54,
+			length : 68,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 12,
+			length : 15,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 34,
-			document_id : 6353533825593452234,
+			length : 97,
+			document_id : -7721950728669651170,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 25,
+			length : 11,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -171,21 +171,21 @@ $pollResults = $client->pollResults(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 40,
-			date : 11,
+			length : 98,
+			date : 39,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 92,
+			length : 96,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 3,
-			old_text : 'fPlV7TON6AbyXi9j',
+			length : 62,
+			old_text : 'XN6itmjCLcQbOdEo',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 95,
+			length : 15,
 		),
 	),
 	solution_media : $client->messageMediaEmpty(),

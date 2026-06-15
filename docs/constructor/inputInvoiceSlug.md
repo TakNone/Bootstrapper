@@ -28,6 +28,6 @@ inputInvoiceSlug#c326caef slug:string = InputInvoice;
 
 ```php
 $inputInvoice = $client->inputInvoiceSlug(
-	slug : 'xpAI64mJj0c9rWoX',
+	slug : 'NF1vJf4oTaCjtREQ',
 );
 ```

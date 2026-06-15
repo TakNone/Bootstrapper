@@ -45,12 +45,12 @@ messages.getUnreadReactions#bd7f90ac flags:# peer:InputPeer top_msg_id:flags.0?i
 ```php
 $messagesMessages = $client->messages->getUnreadReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 36,
+	top_msg_id : 86,
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	add_offset : 84,
-	limit : 22,
-	max_id : 4,
-	min_id : 31,
+	add_offset : 18,
+	limit : 55,
+	max_id : 14,
+	min_id : 20,
 );
 ```

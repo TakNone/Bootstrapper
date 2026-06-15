@@ -31,9 +31,9 @@ searchResultsCalendarPeriod#c9b0539f date:int min_msg_id:int max_msg_id:int coun
 
 ```php
 $searchResultsCalendarPeriod = $client->searchResultsCalendarPeriod(
-	date : 98,
-	min_msg_id : 50,
-	max_msg_id : 78,
-	count : 19,
+	date : 26,
+	min_msg_id : 79,
+	max_msg_id : 52,
+	count : 25,
 );
 ```

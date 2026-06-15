@@ -30,10 +30,10 @@ channelAdminLogEventActionEditTopic#f06fe208 prev_topic:ForumTopic new_topic:For
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionEditTopic(
 	prev_topic : $client->forumTopicDeleted(
-		id : 32,
+		id : 20,
 	),
 	new_topic : $client->forumTopicDeleted(
-		id : 85,
+		id : 99,
 	),
 );
 ```

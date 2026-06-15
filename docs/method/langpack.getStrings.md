@@ -39,8 +39,8 @@ langpack.getStrings#efea3803 lang_pack:string lang_code:string keys:Vector<strin
 
 ```php
 $langPackString = $client->langpack->getStrings(
-	lang_pack : 'ub46sU8cLXdKHQzh',
-	lang_code : 'zTLe07svwNyIj8fk',
-	keys : array('caEeXb7PKuLBh4WC'),
+	lang_pack : 'dOJKjG3kY9QbDisu',
+	lang_code : 'nduUZmGw4j7DXLsI',
+	keys : array('w9aVgUDG8ZzJ3qOH'),
 );
 ```

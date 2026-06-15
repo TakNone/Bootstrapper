@@ -32,99 +32,99 @@ inputInvoicePremiumGiftStars#dabab2ef flags:# user_id:InputUser months:int messa
 ```php
 $inputInvoice = $client->inputInvoicePremiumGiftStars(
 	user_id : $client->get_input_user(user : '@TakNone'),
-	months : 16,
+	months : 58,
 	message : $client->textWithEntities(
-		text : 'H2sdf58XiV6K3F0N',
+		text : 'FCvMcukNHrTIXW0P',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 38,
+				length : 91,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 67,
+				length : 46,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 69,
+				length : 74,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 13,
+				length : 49,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 74,
+				length : 86,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 82,
+				length : 62,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 9,
+				length : 2,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 24,
+				length : 27,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 10,
+				length : 61,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 13,
-				language : 'G7eUKCHX8z0FDy6t',
+				length : 24,
+				language : '1PzKYyqiwSfxtOTn',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 32,
+				length : 41,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 13,
-				user_id : -7332600417642351172,
+				length : 79,
+				user_id : 9096326572931715212,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 76,
+				length : 40,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 32,
+				length : 94,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 98,
+				length : 29,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 37,
+				length : 44,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 4,
+				length : 86,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 38,
+				length : 95,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 60,
+				length : 15,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 60,
-				document_id : 4399111009038698505,
+				length : 7,
+				document_id : -8549437205162089184,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 80,
+				length : 69,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -134,21 +134,21 @@ $inputInvoice = $client->inputInvoicePremiumGiftStars(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 60,
-				date : 67,
+				length : 9,
+				date : 56,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 46,
+				length : 52,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 67,
-				old_text : 'snijlPIh6fEoH1VS',
+				length : 22,
+				old_text : 'RX974c5D8KrhVICO',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 61,
+				length : 89,
 			),
 		),
 	),

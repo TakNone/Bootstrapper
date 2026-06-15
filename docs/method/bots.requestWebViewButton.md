@@ -33,9 +33,9 @@ $botsRequestedButton = $client->bots->requestWebViewButton(
 			bg_primary : true,
 			bg_danger : true,
 			bg_success : true,
-			icon : -109234487237673783,
+			icon : 3490821903117604098,
 		),
-		text : 'lVRsTNm86EqKgWu9',
+		text : 'r2hKMxgBQ1UZPf5i',
 	),
 );
 ```

@@ -40,11 +40,11 @@ phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offs
 ```php
 $updates = $client->phone->getGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : -9149841177500472595,
-		access_hash : -6353430294158268947,
+		id : 122398770084462068,
+		access_hash : -1606804769658021537,
 	),
-	sub_chain_id : 81,
+	sub_chain_id : 93,
 	offset : 0,
-	limit : 22,
+	limit : 47,
 );
 ```

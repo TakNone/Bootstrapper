@@ -28,6 +28,6 @@ inputStickerSetShortName#861cc8a0 short_name:string = InputStickerSet;
 
 ```php
 $inputStickerSet = $client->inputStickerSetShortName(
-	short_name : 'LWbi7xS9yAkKtCI5',
+	short_name : 'teNL8I3OD49Cwj7X',
 );
 ```

@@ -31,14 +31,14 @@ inputMediaAreaChannelPost#2271f2bf coordinates:MediaAreaCoordinates channel:Inpu
 ```php
 $mediaArea = $client->inputMediaAreaChannelPost(
 	coordinates : $client->mediaAreaCoordinates(
-		x : -411567.2529296875,
-		y : -1152587.734375,
-		w : -453859.3974609375,
-		h : -74096.4453125,
-		rotation : -797273.8154296875,
-		radius : 1460845.9716796875,
+		x : 1781897.609375,
+		y : 405606.1064453125,
+		w : -1073542.1064453125,
+		h : -726513.00390625,
+		rotation : 500478.349609375,
+		radius : -189163.044921875,
 	),
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	msg_id : 34,
+	msg_id : 4,
 );
 ```

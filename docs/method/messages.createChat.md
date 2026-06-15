@@ -47,7 +47,7 @@ messages.createChat#92ceddd4 flags:# users:Vector<InputUser> title:string ttl_pe
 ```php
 $messagesInvitedUsers = $client->messages->createChat(
 	users : array($client->get_input_user(user : '@TakNone')),
-	title : '7ohV86e0WjyZUPHF',
-	ttl_period : 11,
+	title : 'ZpOqa7MyP8zkK5Xo',
+	ttl_period : 99,
 );
 ```

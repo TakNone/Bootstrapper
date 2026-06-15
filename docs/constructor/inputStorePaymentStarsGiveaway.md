@@ -42,15 +42,15 @@ inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?tru
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	stars : 900132352544011188,
+	stars : 3469572818483845702,
 	boost_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	additional_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	countries_iso2 : array('tg8bc2xJ1jQepYqz'),
-	prize_description : 'ylc0Ub3gHz6Ffd1Y',
-	random_id : 3992946949772049238,
-	until_date : 91,
-	currency : 'xSCWGsahZNAl08pf',
-	amount : -6311714189291566331,
-	users : 1,
+	countries_iso2 : array('69XDEyr1NLHOQKAb'),
+	prize_description : 'bTd2RSBX5Hzg8lmV',
+	random_id : 7604118517909663416,
+	until_date : 15,
+	currency : 'T1GVdJ4ebBLImHoK',
+	amount : 2601876142242270495,
+	users : 9,
 );
 ```

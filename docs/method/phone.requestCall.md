@@ -49,14 +49,14 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 $phonePhoneCall = $client->phone->requestCall(
 	video : true,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	random_id : 53,
+	random_id : 8,
 	g_a_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 5,
-		max_layer : 25,
-		library_versions : array('09kjaJYmg6drATz1'),
+		min_layer : 53,
+		max_layer : 39,
+		library_versions : array('HxItM9mDGvQYq6XJ'),
 	),
 );
 ```

@@ -85,6 +85,6 @@ $updates = $client->channels->editAdmin(
 		manage_direct_messages : true,
 		manage_ranks : true,
 	),
-	rank : 'aTgbZKBjP8sit42N',
+	rank : '7ECzhA63bMHD4WuX',
 );
 ```

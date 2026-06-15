@@ -33,12 +33,12 @@ starGiftAttributeModel#565251e2 flags:# crafted:flags.0?true name:string documen
 ```php
 $starGiftAttribute = $client->starGiftAttributeModel(
 	crafted : true,
-	name : 'gXh546sIfHMB0VtW',
+	name : '8ptgXZ69hwHzmPoC',
 	document : $client->documentEmpty(
-		id : -5333076588785743434,
+		id : -2907764290801782429,
 	),
 	rarity : $client->starGiftAttributeRarity(
-		permille : 44,
+		permille : 85,
 	),
 );
 ```

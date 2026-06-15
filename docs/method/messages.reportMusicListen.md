@@ -28,6 +28,6 @@ messages.reportMusicListen#ddbcd819 id:InputDocument listened_duration:int = Boo
 ```php
 $bool = $client->messages->reportMusicListen(
 	id : $client->inputDocumentEmpty(),
-	listened_duration : 31,
+	listened_duration : 69,
 );
 ```

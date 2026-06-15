@@ -30,7 +30,7 @@ messageActionSetMessagesTTL#3c134d7b flags:# period:int auto_setting_from:flags.
 
 ```php
 $messageAction = $client->messageActionSetMessagesTTL(
-	period : 45,
-	auto_setting_from : -7397801744427795858,
+	period : 80,
+	auto_setting_from : 5502659944477910257,
 );
 ```

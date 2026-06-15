@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleAntiSpam#64f36dfc new_value:Bool = ChannelAdminL
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleAntiSpam(
-	new_value : true,
+	new_value : false,
 );
 ```

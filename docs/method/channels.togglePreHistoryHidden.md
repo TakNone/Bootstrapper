@@ -44,6 +44,6 @@ channels.togglePreHistoryHidden#eabbb94c channel:InputChannel enabled:Bool = Upd
 ```php
 $updates = $client->channels->togglePreHistoryHidden(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	enabled : false,
+	enabled : true,
 );
 ```

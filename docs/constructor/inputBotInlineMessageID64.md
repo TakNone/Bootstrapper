@@ -31,9 +31,9 @@ inputBotInlineMessageID64#b6d915d7 dc_id:int owner_id:long id:int access_hash:lo
 
 ```php
 $inputBotInlineMessageID = $client->inputBotInlineMessageID64(
-	dc_id : 3,
-	owner_id : 2131865824731133835,
-	id : 95,
-	access_hash : -2149152100566230902,
+	dc_id : 55,
+	owner_id : -6340264895191100721,
+	id : 54,
+	access_hash : -2666154912432931623,
 );
 ```

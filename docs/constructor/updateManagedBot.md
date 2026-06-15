@@ -28,8 +28,8 @@ updateManagedBot#4880ed9a user_id:long bot_id:long qts:int = Update;
 
 ```php
 $update = $client->updateManagedBot(
-	user_id : -7338046139934082242,
-	bot_id : 7910292720424708661,
-	qts : 42,
+	user_id : 1939905257293832758,
+	bot_id : -2860181980961647465,
+	qts : 69,
 );
 ```

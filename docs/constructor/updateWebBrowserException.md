@@ -30,12 +30,12 @@ updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_bro
 ```php
 $update = $client->updateWebBrowserException(
 	delete : true,
-	open_external_browser : false,
+	open_external_browser : true,
 	exception : $client->webDomainException(
-		domain : '1E38U7iJ2jqlAew9',
+		domain : '2p7bXBfh5ixoLmrc',
 		url : 'https://docs.liveproto.dev',
-		title : 'h2V468wycFGCL3vi',
-		favicon : -7410747816697378309,
+		title : 'IoVp0m4CkFJLZNOM',
+		favicon : 8964594972900780436,
 	),
 );
 ```

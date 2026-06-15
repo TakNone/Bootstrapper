@@ -39,7 +39,7 @@ stories.createAlbum#a36396e5 peer:InputPeer title:string stories:Vector<int> = S
 ```php
 $storyAlbum = $client->stories->createAlbum(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	title : 'kGS1lPIFjYf3AJVZ',
-	stories : array(82),
+	title : 'vGZ9qdJ7VFMKxgUB',
+	stories : array(14),
 );
 ```

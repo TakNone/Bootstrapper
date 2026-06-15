@@ -43,9 +43,9 @@ bots.setBotInfo#10cf3123 flags:# bot:flags.2?InputUser lang_code:string name:fla
 ```php
 $bool = $client->bots->setBotInfo(
 	bot : $client->get_input_user(user : '@TakNone'),
-	lang_code : 'yWl5Vofnt0Lx78Pe',
-	name : 'lfCSucEwsArWV643',
-	about : '8CBP3QWckZ7eMbon',
-	description : 'e62iGjtIpbfLJqyc',
+	lang_code : 'hpoQ1yvGdFnLOcC3',
+	name : 'weT3xFSX79mVoEzZ',
+	about : 'vurCNEWe1DijtKTR',
+	description : 'qmJODa2Cj15rTW0K',
 );
 ```

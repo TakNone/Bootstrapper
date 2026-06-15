@@ -35,10 +35,10 @@ auth.sentCodeTypeFirebaseSms#9fd736 flags:# nonce:flags.0?bytes play_integrity_p
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeFirebaseSms(
 	nonce : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	play_integrity_project_id : -7667403513330943442,
+	play_integrity_project_id : -5890640952398026171,
 	play_integrity_nonce : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	receipt : 'w1Xyc2AaPGpWdZUt',
-	push_timeout : 76,
-	length : 59,
+	receipt : 'wIdeScyOYxg0LAo3',
+	push_timeout : 78,
+	length : 28,
 );
 ```

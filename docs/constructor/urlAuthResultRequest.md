@@ -46,15 +46,15 @@ $urlAuthResult = $client->urlAuthResultRequest(
 	match_codes_first : true,
 	is_app : true,
 	bot : $client->userEmpty(
-		id : 2757982922142121970,
+		id : -6130934347934679005,
 	),
-	domain : '9mEdXTiL5cvBRPWF',
-	browser : 'ofajsSTel6XFBQIn',
-	platform : 'M20GkCQc6XB3UEiY',
+	domain : '0KUNTJdx9k4shbSQ',
+	browser : '9GnuEb0pZQxyvT6M',
+	platform : 'Ba8uCEpTUhA4qwjt',
 	ip : '127.0.0.1',
-	region : 'pcf2hKwx4HqFIT7i',
-	match_codes : array('xHP2BAcJGVij96rN'),
-	user_id_hint : 3015768731946463066,
-	verified_app_name : 'zNy0W9U7j5CcKxV4',
+	region : '5z098MKiNjwDxsCE',
+	match_codes : array('kAG2IfunM1rPz6g8'),
+	user_id_hint : -8711279251744619991,
+	verified_app_name : 'vyLW7Okx5Tad8eRZ',
 );
 ```

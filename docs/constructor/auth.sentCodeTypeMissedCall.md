@@ -29,7 +29,7 @@ auth.sentCodeTypeMissedCall#82006484 prefix:string length:int = auth.SentCodeTyp
 
 ```php
 $authSentCodeType = $client->auth->sentCodeTypeMissedCall(
-	prefix : 'bDcnMAPYyk8oQUfr',
-	length : 23,
+	prefix : 'oP9wn0es8bEBfN7h',
+	length : 35,
 );
 ```

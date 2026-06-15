@@ -32,7 +32,7 @@ messageEntityCustomEmoji#c8cf05f8 offset:int length:int document_id:long = Messa
 ```php
 $messageEntity = $client->messageEntityCustomEmoji(
 	offset : 0,
-	length : 13,
-	document_id : -5032010846756545245,
+	length : 23,
+	document_id : 1111654722684819577,
 );
 ```

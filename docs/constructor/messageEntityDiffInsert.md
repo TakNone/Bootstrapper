@@ -28,6 +28,6 @@ messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityDiffInsert(
 	offset : 0,
-	length : 78,
+	length : 81,
 );
 ```

@@ -41,6 +41,6 @@ messages.toggleBotInAttachMenu#69f59d69 flags:# write_allowed:flags.0?true bot:I
 $bool = $client->messages->toggleBotInAttachMenu(
 	write_allowed : true,
 	bot : $client->get_input_user(user : '@TakNone'),
-	enabled : true,
+	enabled : false,
 );
 ```

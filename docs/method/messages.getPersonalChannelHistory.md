@@ -31,9 +31,9 @@ messages.getPersonalChannelHistory#55fb0996 user_id:InputUser limit:int max_id:i
 ```php
 $messagesMessages = $client->messages->getPersonalChannelHistory(
 	user_id : $client->get_input_user(user : '@TakNone'),
-	limit : 40,
-	max_id : 51,
-	min_id : 87,
+	limit : 81,
+	max_id : 88,
+	min_id : 9,
 	hash : 0,
 );
 ```

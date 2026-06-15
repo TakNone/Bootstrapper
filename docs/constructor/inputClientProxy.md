@@ -29,7 +29,7 @@ inputClientProxy#75588b3f address:string port:int = InputClientProxy;
 
 ```php
 $inputClientProxy = $client->inputClientProxy(
-	address : '0so9y6KaDYxpdmc5',
-	port : 80,
+	address : 'PaLXiwBF2Uz60vS8',
+	port : 85,
 );
 ```

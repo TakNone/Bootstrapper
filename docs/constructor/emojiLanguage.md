@@ -28,6 +28,6 @@ emojiLanguage#b3fb5361 lang_code:string = EmojiLanguage;
 
 ```php
 $emojiLanguage = $client->emojiLanguage(
-	lang_code : 'kRs2myQHXgpE3NcT',
+	lang_code : '2RszqUSN9r6C4Mfe',
 );
 ```

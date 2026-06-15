@@ -26,6 +26,6 @@ messageActionChangeCreator#e188503b new_creator_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChangeCreator(
-	new_creator_id : 6169632914350881572,
+	new_creator_id : -1304318994470438424,
 );
 ```

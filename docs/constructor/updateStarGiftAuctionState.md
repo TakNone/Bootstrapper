@@ -27,7 +27,7 @@ updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Up
 
 ```php
 $update = $client->updateStarGiftAuctionState(
-	gift_id : 3695270737041727233,
+	gift_id : -2013065686798331616,
 	state : $client->starGiftAuctionStateNotModified(),
 );
 ```

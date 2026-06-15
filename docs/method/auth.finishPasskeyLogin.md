@@ -30,16 +30,16 @@ auth.finishPasskeyLogin#9857ad07 flags:# credential:InputPasskeyCredential from_
 ```php
 $authAuthorization = $client->auth->finishPasskeyLogin(
 	credential : $client->inputPasskeyCredentialPublicKey(
-		id : '0rIPDOMK5huogiFR',
-		raw_id : 'tVxyIob7mj1L6N2M',
+		id : 'pLhEj0R9a6dD7A41',
+		raw_id : 'VX5kupiOwIo3b9Bl',
 		response : $client->inputPasskeyResponseRegister(
 			client_data : $client->dataJSON(
-				data : 'q2wJ9a5Itu6HpPe1',
+				data : 'YVlyLdHQpzJC048X',
 			),
 			attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	from_dc_id : 29,
-	from_auth_key_id : 7043991862194186662,
+	from_dc_id : 74,
+	from_auth_key_id : -262651686645975319,
 );
 ```

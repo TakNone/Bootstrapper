@@ -33,20 +33,20 @@ contacts.importedContacts#77d01c3b imported:Vector<ImportedContact> popular_invi
 $contactsImportedContacts = $client->contacts->importedContacts(
 	imported : array(
 		$client->importedContact(
-			user_id : 2402913893825898342,
-			client_id : -6270593904841968678,
+			user_id : -3354215528260634699,
+			client_id : 8563233884417403836,
 		),
 	),
 	popular_invites : array(
 		$client->popularContact(
-			client_id : 1313603433552579839,
-			importers : 95,
+			client_id : 5194885538642215230,
+			importers : 18,
 		),
 	),
-	retry_contacts : array(4389096367019196412),
+	retry_contacts : array(3575866773932829770),
 	users : array(
 		$client->userEmpty(
-			id : 3625452985595583172,
+			id : 1227416878099296826,
 		),
 		$client->user(
 			self : true,
@@ -79,24 +79,24 @@ $contactsImportedContacts = $client->contacts->importedContacts(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : -9090374258067753010,
-			access_hash : -4699863020141999285,
+			id : -925348503921831169,
+			access_hash : 1718493793315981107,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 66,
+			bot_info_version : 11,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'chj490GOyg8zxUw1',
-					reason : 'FyxignvjZwTINHJD',
-					text : 'JM3gny5RtHh4A81a',
+					platform : 'tGUoqinOV9PyuaHp',
+					reason : 'zetpBTyRNEQ7rP6f',
+					text : 'Un2qLG4W3HSsgp8c',
 				),
 			),
-			bot_inline_placeholder : 'JZSqaUA7CrNEndLl',
-			lang_code : 'esZW2L6pE8wxzU3o',
+			bot_inline_placeholder : 'RytgNO4lbWAqPu9v',
+			lang_code : 'QmeLynda2p6HYlJV',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -107,19 +107,19 @@ $contactsImportedContacts = $client->contacts->importedContacts(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 15,
+				max_id : 30,
 			),
 			color : $client->peerColor(
-				color : 4,
-				background_emoji_id : -6653088333445693614,
+				color : 15,
+				background_emoji_id : -1498848345853662600,
 			),
 			profile_color : $client->peerColor(
-				color : 87,
-				background_emoji_id : 7756752448003020398,
+				color : 97,
+				background_emoji_id : -8082506199871066436,
 			),
-			bot_active_users : 5,
-			bot_verification_icon : 3337811925085171704,
-			send_paid_messages_stars : 4028298179447383303,
+			bot_active_users : 46,
+			bot_verification_icon : 4543935456727723126,
+			send_paid_messages_stars : -6672193851019721210,
 		),
 	),
 );

@@ -32,11 +32,11 @@ updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:
 ```php
 $update = $client->updateGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : 3507956569971010519,
-		access_hash : 8273962660374317592,
+		id : 843209530654680112,
+		access_hash : -131802111267325261,
 	),
-	sub_chain_id : 24,
+	sub_chain_id : 65,
 	blocks : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	next_offset : 27,
+	next_offset : 13,
 );
 ```

@@ -40,7 +40,7 @@ messages.getCommonChats#e40ca104 user_id:InputUser max_id:long limit:int = messa
 ```php
 $messagesChats = $client->messages->getCommonChats(
 	user_id : $client->get_input_user(user : '@TakNone'),
-	max_id : -3206702774626683241,
-	limit : 0,
+	max_id : -7237653498492118059,
+	limit : 74,
 );
 ```

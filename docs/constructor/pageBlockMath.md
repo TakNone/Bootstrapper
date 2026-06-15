@@ -26,6 +26,6 @@ pageBlockMath#59080c20 source:string = PageBlock;
 
 ```php
 $pageBlock = $client->pageBlockMath(
-	source : 'icZLk9eIQ31YWqKA',
+	source : 'ULlXjMsmYZFBynPa',
 );
 ```

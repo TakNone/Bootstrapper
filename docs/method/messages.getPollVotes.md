@@ -44,9 +44,9 @@ messages.getPollVotes#b86e380e flags:# peer:InputPeer id:int option:flags.0?byte
 ```php
 $messagesVotesList = $client->messages->getPollVotes(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 48,
+	id : 96,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	offset : 'P4dRDNxtXelGScB3',
-	limit : 2,
+	offset : 'MFb0QhT5oqXVlxIE',
+	limit : 0,
 );
 ```

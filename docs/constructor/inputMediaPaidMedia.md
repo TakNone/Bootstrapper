@@ -31,8 +31,8 @@ inputMediaPaidMedia#c4103386 flags:# stars_amount:long extended_media:Vector<Inp
 
 ```php
 $inputMedia = $client->inputMediaPaidMedia(
-	stars_amount : -4958187519208436199,
+	stars_amount : -6564125277539495515,
 	extended_media : array($client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT)),
-	payload : 'hFBl8WMjg9YUrJbA',
+	payload : 'ScKu1MHQomJzjY96',
 );
 ```

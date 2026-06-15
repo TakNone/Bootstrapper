@@ -29,11 +29,11 @@ payments.bankCardData#3e24e573 title:string open_urls:Vector<BankCardOpenUrl> = 
 
 ```php
 $paymentsBankCardData = $client->payments->bankCardData(
-	title : 'RfN9MudglBLxFVQn',
+	title : 'PSBTy3JV5eE8IMaF',
 	open_urls : array(
 		$client->bankCardOpenUrl(
 			url : 'https://docs.liveproto.dev',
-			name : 'L6dnelxGZiPAXrNM',
+			name : 'x0Fn4vfSPku1woZV',
 		),
 	),
 );

@@ -28,8 +28,8 @@ payments.getCraftStarGifts#fd05dd00 gift_id:long offset:string limit:int = payme
 
 ```php
 $paymentsSavedStarGifts = $client->payments->getCraftStarGifts(
-	gift_id : 8155836727445615461,
-	offset : 'Y4BzR5kvXWlEaIAy',
+	gift_id : 7933810696398700939,
+	offset : 'cqGIOtDwrkjzuRdQ',
 	limit : 53,
 );
 ```

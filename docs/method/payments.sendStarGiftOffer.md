@@ -33,13 +33,13 @@ payments.sendStarGiftOffer#8fb86b41 flags:# peer:InputPeer slug:string price:Sta
 ```php
 $updates = $client->payments->sendStarGiftOffer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	slug : 'iBdrxTjSAaZ4U0hK',
+	slug : 'MGnVPpxRUB1JSay7',
 	price : $client->starsAmount(
-		amount : -8732624773276519287,
-		nanos : 48,
+		amount : 8621800313051585242,
+		nanos : 34,
 	),
-	duration : 35,
-	random_id : -4892998018158783007,
-	allow_paid_stars : 6158651266202352973,
+	duration : 60,
+	random_id : 5013615871235285956,
+	allow_paid_stars : -4237757647030355103,
 );
 ```

@@ -31,11 +31,11 @@ inputMessageReadMetric#402b4495 msg_id:int view_id:long time_in_view_ms:int acti
 
 ```php
 $inputMessageReadMetric = $client->inputMessageReadMetric(
-	msg_id : 10,
-	view_id : -2617848154256738420,
-	time_in_view_ms : 10,
-	active_time_in_view_ms : 50,
-	height_to_viewport_ratio_permille : 10,
-	seen_range_ratio_permille : 8,
+	msg_id : 22,
+	view_id : -7267153152523083025,
+	time_in_view_ms : 24,
+	active_time_in_view_ms : 78,
+	height_to_viewport_ratio_permille : 26,
+	seen_range_ratio_permille : 27,
 );
 ```

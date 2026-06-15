@@ -33,6 +33,6 @@ missingInvitee#628c9224 flags:# premium_would_allow_invite:flags.0?true premium_
 $missingInvitee = $client->missingInvitee(
 	premium_would_allow_invite : true,
 	premium_required_for_pm : true,
-	user_id : -7580323423847093816,
+	user_id : 4729341872882018759,
 );
 ```

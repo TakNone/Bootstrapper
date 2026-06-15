@@ -31,7 +31,7 @@ updateUserName#a7848924 user_id:long first_name:string last_name:string username
 
 ```php
 $update = $client->updateUserName(
-	user_id : 6617183844185520345,
+	user_id : -8992917023061501968,
 	first_name : 'Tak',
 	last_name : 'None',
 	usernames : array(

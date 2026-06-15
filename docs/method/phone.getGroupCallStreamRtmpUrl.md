@@ -42,6 +42,6 @@ phone.getGroupCallStreamRtmpUrl#5af4c73a flags:# live_story:flags.0?true peer:In
 $phoneGroupCallStreamRtmpUrl = $client->phone->getGroupCallStreamRtmpUrl(
 	live_story : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	revoke : false,
+	revoke : true,
 );
 ```

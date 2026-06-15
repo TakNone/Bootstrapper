@@ -43,9 +43,9 @@ messages.getMessageReactionsList#461b3f48 flags:# peer:InputPeer id:int reaction
 ```php
 $messagesMessageReactionsList = $client->messages->getMessageReactionsList(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 58,
+	id : 39,
 	reaction : $client->reactionEmpty(),
-	offset : 'Kn9EOvSjgIlDN0xz',
-	limit : 65,
+	offset : 'DhXbEIQqsrRpyxLo',
+	limit : 78,
 );
 ```

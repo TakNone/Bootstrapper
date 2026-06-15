@@ -34,11 +34,11 @@ auth.authorization#2ea2c0d4 flags:# setup_password_required:flags.1?true otherwi
 ```php
 $authAuthorization = $client->auth->authorization(
 	setup_password_required : true,
-	otherwise_relogin_days : 9,
-	tmp_sessions : 9,
+	otherwise_relogin_days : 19,
+	tmp_sessions : 3,
 	future_auth_token : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	user : $client->userEmpty(
-		id : -6335718959890653593,
+		id : -2843645586240078634,
 	),
 );
 ```

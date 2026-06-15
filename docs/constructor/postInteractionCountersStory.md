@@ -31,9 +31,9 @@ postInteractionCountersStory#8a480e27 story_id:int views:int forwards:int reacti
 
 ```php
 $postInteractionCounters = $client->postInteractionCountersStory(
-	story_id : 24,
-	views : 16,
-	forwards : 25,
-	reactions : 70,
+	story_id : 69,
+	views : 72,
+	forwards : 86,
+	reactions : 95,
 );
 ```

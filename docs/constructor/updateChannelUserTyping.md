@@ -32,10 +32,10 @@ updateChannelUserTyping#8c88c923 flags:# channel_id:long top_msg_id:flags.0?int 
 
 ```php
 $update = $client->updateChannelUserTyping(
-	channel_id : 8016358682652841947,
-	top_msg_id : 14,
+	channel_id : 7925133087297064495,
+	top_msg_id : 56,
 	from_id : $client->peerUser(
-		user_id : -356897978751694611,
+		user_id : 4045640286762397684,
 	),
 	action : $client->sendMessageTypingAction(),
 );

@@ -42,8 +42,8 @@ messages.uploadImportedMedia#2a862092 peer:InputPeer import_id:long file_name:st
 ```php
 $messageMedia = $client->messages->uploadImportedMedia(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	import_id : -6397419540878766706,
-	file_name : 'f7NBOIqE6K1poLXg',
+	import_id : -5683761438265347212,
+	file_name : 'HvWOV6htCR8XPxpB',
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );
 ```

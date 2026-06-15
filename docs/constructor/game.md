@@ -35,16 +35,16 @@ game#bdf9653b flags:# id:long access_hash:long short_name:string title:string de
 
 ```php
 $game = $client->game(
-	id : -953279141119263273,
-	access_hash : 8203519638290496578,
-	short_name : 'mUG7CTbOd30LohDf',
-	title : 'AQ186vhPwrkjMyln',
-	description : 'dUlmVbNGxjPMYSpg',
+	id : 1037326293068298404,
+	access_hash : 6083203196546271633,
+	short_name : '7XP8mjGbY2WN3pzC',
+	title : 'v2fhXIq4HsR8cu7Y',
+	description : '7rEjLc9ve8MamXRz',
 	photo : $client->photoEmpty(
-		id : 2627303410712271153,
+		id : -5679316586464612774,
 	),
 	document : $client->documentEmpty(
-		id : -6260043214031054235,
+		id : -6590082972457036667,
 	),
 );
 ```

@@ -28,8 +28,8 @@ phone.saveDefaultSendAs#4167add1 call:InputGroupCall send_as:InputPeer = Bool;
 ```php
 $bool = $client->phone->saveDefaultSendAs(
 	call : $client->inputGroupCall(
-		id : -6764880361746090673,
-		access_hash : 6638534974119666245,
+		id : -4810674629445194525,
+		access_hash : -148332293297027776,
 	),
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

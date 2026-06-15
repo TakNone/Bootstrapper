@@ -40,7 +40,7 @@ messages.getPollResults#eda3e33b peer:InputPeer msg_id:int poll_hash:long = Upda
 ```php
 $updates = $client->messages->getPollResults(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 37,
-	poll_hash : 3993630368534994586,
+	msg_id : 79,
+	poll_hash : -5957053614507858828,
 );
 ```

@@ -43,17 +43,17 @@ account.uploadWallPaper#e39a8f03 flags:# for_chat:flags.0?true file:InputFile mi
 $wallPaper = $client->account->uploadWallPaper(
 	for_chat : true,
 	file : $client->upload_file(path : 'file.png'),
-	mime_type : 'OdiKgQV2faSuDUZn',
+	mime_type : 'W92XiIUq7DEPYktZ',
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 86,
-		second_background_color : 0,
-		third_background_color : 85,
-		fourth_background_color : 63,
-		intensity : 97,
-		rotation : 12,
-		emoticon : 'xV2BjoLhdgTNkEAa',
+		background_color : 93,
+		second_background_color : 73,
+		third_background_color : 49,
+		fourth_background_color : 50,
+		intensity : 15,
+		rotation : 0,
+		emoticon : 'lFLNgzA0OG3QwbMU',
 	),
 );
 ```

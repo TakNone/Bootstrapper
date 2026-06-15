@@ -29,7 +29,7 @@ messageRange#ae30253 min_id:int max_id:int = MessageRange;
 
 ```php
 $messageRange = $client->messageRange(
-	min_id : 87,
-	max_id : 1,
+	min_id : 52,
+	max_id : 21,
 );
 ```

@@ -45,6 +45,6 @@ channels.deleteHistory#9baa9647 flags:# for_everyone:flags.0?true channel:InputC
 $updates = $client->channels->deleteHistory(
 	for_everyone : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	max_id : 4,
+	max_id : 13,
 );
 ```

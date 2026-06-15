@@ -30,7 +30,7 @@ chatParticipantCreator#e1f867b8 flags:# user_id:long rank:flags.0?string = ChatP
 
 ```php
 $chatParticipant = $client->chatParticipantCreator(
-	user_id : -8809545595561277535,
-	rank : 'yiGLveFknUaWbVKh',
+	user_id : 3219126745333387476,
+	rank : '8gvrlIniMzktNoSb',
 );
 ```

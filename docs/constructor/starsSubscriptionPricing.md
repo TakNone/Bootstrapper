@@ -29,7 +29,7 @@ starsSubscriptionPricing#5416d58 period:int amount:long = StarsSubscriptionPrici
 
 ```php
 $starsSubscriptionPricing = $client->starsSubscriptionPricing(
-	period : 10,
-	amount : -10713899811333807,
+	period : 27,
+	amount : 1992406434308315809,
 );
 ```

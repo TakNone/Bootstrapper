@@ -32,9 +32,9 @@ chatParticipantAdmin#360d5d2 flags:# user_id:long inviter_id:long date:int rank:
 
 ```php
 $chatParticipant = $client->chatParticipantAdmin(
-	user_id : 8056058643984875157,
-	inviter_id : 3279880996435672327,
-	date : 12,
-	rank : '8lm541Fbh3I6OT0G',
+	user_id : -2930199437548802159,
+	inviter_id : -1616022725626909599,
+	date : 94,
+	rank : '4HTEwgoUb7LCh51Z',
 );
 ```

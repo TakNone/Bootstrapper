@@ -31,9 +31,9 @@ updatePendingJoinRequests#7063c3db peer:Peer requests_pending:int recent_request
 ```php
 $update = $client->updatePendingJoinRequests(
 	peer : $client->peerUser(
-		user_id : -3933901641368121200,
+		user_id : 1665499234985476102,
 	),
-	requests_pending : 63,
-	recent_requesters : array(-2362362435069170857),
+	requests_pending : 95,
+	recent_requesters : array(4369060281859521330),
 );
 ```

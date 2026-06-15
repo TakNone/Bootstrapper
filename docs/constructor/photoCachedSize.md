@@ -31,9 +31,9 @@ photoCachedSize#21e1ad6 type:string w:int h:int bytes:bytes = PhotoSize;
 
 ```php
 $photoSize = $client->photoCachedSize(
-	type : 'sYV1JtGk7Duamg6O',
-	w : 3,
-	h : 89,
+	type : 'sLcEMfrqo5tZ17RQ',
+	w : 49,
+	h : 33,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

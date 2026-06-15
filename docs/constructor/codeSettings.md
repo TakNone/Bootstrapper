@@ -44,7 +44,7 @@ $codeSettings = $client->codeSettings(
 	allow_firebase : true,
 	unknown_number : true,
 	logout_tokens : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	token : 'g5XpGe40Csk7Yv9Q',
+	token : 'b9l7sgfxD3X8FE6K',
 	app_sandbox : true,
 );
 ```

@@ -46,9 +46,9 @@ chatlists.exportChatlistInvite#8472478e chatlist:InputChatlist title:string peer
 ```php
 $chatlistsExportedChatlistInvite = $client->chatlists->exportChatlistInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 79,
+		filter_id : 96,
 	),
-	title : 'Un6dYMpAsxRJur58',
+	title : 'qhEMVG4kpymn1IgN',
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

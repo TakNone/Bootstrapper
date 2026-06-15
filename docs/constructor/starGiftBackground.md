@@ -28,8 +28,8 @@ starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = Sta
 
 ```php
 $starGiftBackground = $client->starGiftBackground(
-	center_color : 39,
-	edge_color : 8,
-	text_color : 2,
+	center_color : 79,
+	edge_color : 75,
+	text_color : 28,
 );
 ```

@@ -27,7 +27,7 @@ aicompose.getTone#b2e8ba03 tone:InputAiComposeTone = aicompose.Tones;
 ```php
 $aicomposeTones = $client->aicompose->getTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'JCU8NYTDB0AoLxdp',
+		tone : 'ov0xDLiPwksrNb5H',
 	),
 );
 ```

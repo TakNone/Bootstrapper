@@ -31,7 +31,7 @@ inputPeerChannelFromMessage#bd2a0840 peer:InputPeer msg_id:int channel_id:long =
 ```php
 $inputPeer = $client->inputPeerChannelFromMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 13,
-	channel_id : 1409987059533341108,
+	msg_id : 94,
+	channel_id : -1523007993814644498,
 );
 ```

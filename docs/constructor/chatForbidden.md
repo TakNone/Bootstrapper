@@ -29,7 +29,7 @@ chatForbidden#6592a1a7 id:long title:string = Chat;
 
 ```php
 $chat = $client->chatForbidden(
-	id : -3877316037771807453,
-	title : 'Bu80MiqSZRn2EVJK',
+	id : 8888537677164382412,
+	title : 'MA6hFxQ9yCeKqfRP',
 );
 ```

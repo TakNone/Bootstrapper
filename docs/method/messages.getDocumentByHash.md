@@ -39,7 +39,7 @@ messages.getDocumentByHash#b1f2061f sha256:bytes size:long mime_type:string = Do
 ```php
 $document = $client->messages->getDocumentByHash(
 	sha256 : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	size : -3238762099281894886,
-	mime_type : 'ZVSrPozC75WkqBtU',
+	size : 3764866781142853043,
+	mime_type : 'Zs8iAbMRY5xJ1Phn',
 );
 ```

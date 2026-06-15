@@ -29,7 +29,7 @@ messages.deletePollAnswer#ac8505a5 peer:InputPeer msg_id:int option:bytes = Upda
 ```php
 $updates = $client->messages->deletePollAnswer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 44,
+	msg_id : 72,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

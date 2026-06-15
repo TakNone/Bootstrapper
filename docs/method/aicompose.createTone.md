@@ -31,8 +31,8 @@ aicompose.createTone#4aa83913 flags:# display_author:flags.0?true emoji_id:long 
 ```php
 $aiComposeTone = $client->aicompose->createTone(
 	display_author : true,
-	emoji_id : -4896890956754174435,
-	title : 'B46d3XxtNDYRIsMa',
-	prompt : 'uOJGzSrnDAYQ2wal',
+	emoji_id : -6918487077304162121,
+	title : 'KLo1H28SnykpJIq5',
+	prompt : 'q6EB4YTMlvwFGskt',
 );
 ```

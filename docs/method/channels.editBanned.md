@@ -73,7 +73,7 @@ $updates = $client->channels->editBanned(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 53,
+		until_date : 85,
 	),
 );
 ```

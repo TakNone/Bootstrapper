@@ -60,8 +60,8 @@ $paymentsSavedStarGifts = $client->payments->getSavedStarGifts(
 	peer_color_available : true,
 	exclude_hosted : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	collection_id : 60,
-	offset : 'vWGUKIfATNZl2Hna',
-	limit : 35,
+	collection_id : 53,
+	offset : 'wNJmv7sMDyV9K6eb',
+	limit : 42,
 );
 ```

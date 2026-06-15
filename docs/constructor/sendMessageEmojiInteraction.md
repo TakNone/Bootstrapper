@@ -30,10 +30,10 @@ sendMessageEmojiInteraction#25972bcb emoticon:string msg_id:int interaction:Data
 
 ```php
 $sendMessageAction = $client->sendMessageEmojiInteraction(
-	emoticon : 'LK1hdx6fBoj2JAvq',
-	msg_id : 70,
+	emoticon : 'KqjxX5p8Y3ihNluf',
+	msg_id : 74,
 	interaction : $client->dataJSON(
-		data : 'anObMBZkgFG5qwC1',
+		data : 'tjeky0aQ1T5uo6bN',
 	),
 );
 ```

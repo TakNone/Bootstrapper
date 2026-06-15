@@ -34,9 +34,9 @@ storyFwdHeader#b826e150 flags:# modified:flags.3?true from:flags.0?Peer from_nam
 $storyFwdHeader = $client->storyFwdHeader(
 	modified : true,
 	from : $client->peerUser(
-		user_id : 1712385286485004838,
+		user_id : 2921712472006381311,
 	),
-	from_name : 'Dm47sTByK5adiGVC',
-	story_id : 5,
+	from_name : 'EBhCr5TV4dgtxFv2',
+	story_id : 2,
 );
 ```

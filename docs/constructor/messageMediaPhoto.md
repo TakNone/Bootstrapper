@@ -36,11 +36,11 @@ $messageMedia = $client->messageMediaPhoto(
 	spoiler : true,
 	live_photo : true,
 	photo : $client->photoEmpty(
-		id : -376120136929907862,
+		id : -2400772257478901739,
 	),
-	ttl_seconds : 96,
+	ttl_seconds : 26,
 	video : $client->documentEmpty(
-		id : 3528220944623233978,
+		id : -6070315819998356976,
 	),
 );
 ```

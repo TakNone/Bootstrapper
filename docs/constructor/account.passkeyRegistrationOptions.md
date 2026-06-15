@@ -27,7 +27,7 @@ account.passkeyRegistrationOptions#e16b5ce1 options:DataJSON = account.PasskeyRe
 ```php
 $accountPasskeyRegistrationOptions = $client->account->passkeyRegistrationOptions(
 	options : $client->dataJSON(
-		data : 'y5eJZI3OC9gN2tHc',
+		data : '8LClFrD0XJu57zkd',
 	),
 );
 ```

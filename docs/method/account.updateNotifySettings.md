@@ -45,12 +45,12 @@ $bool = $client->account->updateNotifySettings(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	),
 	settings : $client->inputPeerNotifySettings(
-		show_previews : false,
+		show_previews : true,
 		silent : true,
-		mute_until : 86,
+		mute_until : 40,
 		sound : $client->notificationSoundDefault(),
 		stories_muted : false,
-		stories_hide_sender : true,
+		stories_hide_sender : false,
 		stories_sound : $client->notificationSoundDefault(),
 	),
 );

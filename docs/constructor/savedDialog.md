@@ -33,8 +33,8 @@ savedDialog#bd87cb6c flags:# pinned:flags.2?true peer:Peer top_message:int = Sav
 $savedDialog = $client->savedDialog(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : -8020987540652073766,
+		user_id : 1353828829806263116,
 	),
-	top_message : 26,
+	top_message : 2,
 );
 ```

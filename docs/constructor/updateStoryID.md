@@ -29,7 +29,7 @@ updateStoryID#1bf335b9 id:int random_id:long = Update;
 
 ```php
 $update = $client->updateStoryID(
-	id : 18,
-	random_id : 5088990805284965860,
+	id : 67,
+	random_id : -4423937882650362952,
 );
 ```

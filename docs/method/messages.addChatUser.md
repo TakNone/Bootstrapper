@@ -53,8 +53,8 @@ messages.addChatUser#cbc6d107 chat_id:long user_id:InputUser fwd_limit:int = mes
 
 ```php
 $messagesInvitedUsers = $client->messages->addChatUser(
-	chat_id : 6543230164249558621,
+	chat_id : -6825952295992407518,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	fwd_limit : 15,
+	fwd_limit : 100,
 );
 ```

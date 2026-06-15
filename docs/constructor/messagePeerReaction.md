@@ -38,9 +38,9 @@ $messagePeerReaction = $client->messagePeerReaction(
 	unread : true,
 	my : true,
 	peer_id : $client->peerUser(
-		user_id : -3688329383186803604,
+		user_id : 501634649402271897,
 	),
-	date : 65,
+	date : 55,
 	reaction : $client->reactionEmpty(),
 );
 ```

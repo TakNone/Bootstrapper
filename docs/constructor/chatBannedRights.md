@@ -73,6 +73,6 @@ $chatBannedRights = $client->chatBannedRights(
 	send_plain : true,
 	edit_rank : true,
 	send_reactions : true,
-	until_date : 8,
+	until_date : 75,
 );
 ```

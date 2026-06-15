@@ -32,17 +32,17 @@ $aicomposeTones = $client->aicompose->tones(
 	tones : array(
 		$client->aiComposeTone(
 			creator : true,
-			id : -8888004379195480008,
-			access_hash : 9177532757647070303,
-			slug : 'Q1SY7cgyalkqLGzs',
-			title : '9npxk1eKLOHbstzq',
-			emoji_id : 7350029930285057863,
-			prompt : '8xt7Z5MNlzjd4PGh',
-			installs_count : 40,
-			author_id : -6290968102621571867,
+			id : 2819428197757859304,
+			access_hash : 4670017916887886909,
+			slug : 'jr70Iv6of9Y1yiQ5',
+			title : 'zNGOxVjJDobRwdEK',
+			emoji_id : -3405667157636584656,
+			prompt : 'ZEqu98xLPOU6ts4a',
+			installs_count : 62,
+			author_id : -311479913574654364,
 			example_english : $client->aiComposeToneExample(
 				from : $client->textWithEntities(
-					text : '7XcCj2PyTvdVB5aY',
+					text : 'XH1aLoxWrVEnAhU0',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -72,7 +72,7 @@ $aicomposeTones = $client->aicompose->tones(
 					),
 				),
 				to : $client->textWithEntities(
-					text : 'TmhYyIqXLKdic91f',
+					text : 'RCrP2oD31S0U8upV',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -104,14 +104,14 @@ $aicomposeTones = $client->aicompose->tones(
 			),
 		),
 		$client->aiComposeToneDefault(
-			tone : '3KePUlnDmhqgYOpG',
-			emoji_id : -2470305915835025837,
-			title : '7lisxaCB0E8d3J4Z',
+			tone : 'sSWRrfNM9cpYFi3V',
+			emoji_id : -3279471349934721244,
+			title : 'Lj8TcvpZPYG590JR',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -2261368081016152117,
+			id : 2113176847147248107,
 		),
 		$client->user(
 			self : true,
@@ -144,24 +144,24 @@ $aicomposeTones = $client->aicompose->tones(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 5889660650077844861,
-			access_hash : -5686452879047868030,
+			id : 6387437860249848460,
+			access_hash : 8223974286153421744,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 92,
+			bot_info_version : 3,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'mwq1ROMIZiYGJloD',
-					reason : 'nBJ4YKQs3F7trgOb',
-					text : 'pTRAqvYSGihrJjCO',
+					platform : 'pT25SAaXbJWwEBR8',
+					reason : 'RD0ZKifEYFgole9q',
+					text : '1BvDHzUdG5at2MbY',
 				),
 			),
-			bot_inline_placeholder : 'CbYkjI5dh7owfJSH',
-			lang_code : '12xPwfWzTV9lpeUE',
+			bot_inline_placeholder : 'czOPFjmiYsohwEaU',
+			lang_code : 'ViLcfb0o3J5IrDE9',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -172,19 +172,19 @@ $aicomposeTones = $client->aicompose->tones(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 82,
+				max_id : 63,
 			),
 			color : $client->peerColor(
-				color : 11,
-				background_emoji_id : -1560387163249433606,
+				color : 7,
+				background_emoji_id : 1584454109527291770,
 			),
 			profile_color : $client->peerColor(
-				color : 90,
-				background_emoji_id : -4590934304713816403,
+				color : 61,
+				background_emoji_id : -4986212700248478149,
 			),
-			bot_active_users : 3,
-			bot_verification_icon : 5424889988543198249,
-			send_paid_messages_stars : 994086522257505036,
+			bot_active_users : 20,
+			bot_verification_icon : 2114669876635409234,
+			send_paid_messages_stars : -3277706001566738989,
 		),
 	),
 );

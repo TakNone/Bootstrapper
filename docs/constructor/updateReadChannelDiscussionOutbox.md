@@ -30,8 +30,8 @@ updateReadChannelDiscussionOutbox#695c9e7c channel_id:long top_msg_id:int read_m
 
 ```php
 $update = $client->updateReadChannelDiscussionOutbox(
-	channel_id : -3266144998657656520,
-	top_msg_id : 67,
-	read_max_id : 37,
+	channel_id : 792626578835992048,
+	top_msg_id : 40,
+	read_max_id : 76,
 );
 ```

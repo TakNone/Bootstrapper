@@ -29,7 +29,7 @@ messages.botPreparedInlineMessage#8ecf0511 id:string expire_date:int = messages.
 
 ```php
 $messagesBotPreparedInlineMessage = $client->messages->botPreparedInlineMessage(
-	id : 'NZeIm0fpDqHl8CLJ',
-	expire_date : 32,
+	id : 'AJLxjtG1ubhRKmTZ',
+	expire_date : 99,
 );
 ```

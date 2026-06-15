@@ -35,14 +35,14 @@ help.peerColorOption#adec6ebe flags:# hidden:flags.0?true color_id:int colors:fl
 ```php
 $helpPeerColorOption = $client->help->peerColorOption(
 	hidden : true,
-	color_id : 73,
+	color_id : 81,
 	colors : $client->help->peerColorSet(
-		colors : array(12),
+		colors : array(7),
 	),
 	dark_colors : $client->help->peerColorSet(
-		colors : array(39),
+		colors : array(13),
 	),
-	channel_min_level : 94,
-	group_min_level : 23,
+	channel_min_level : 38,
+	group_min_level : 41,
 );
 ```

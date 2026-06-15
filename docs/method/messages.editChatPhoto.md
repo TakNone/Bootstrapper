@@ -43,7 +43,7 @@ messages.editChatPhoto#35ddd674 chat_id:long photo:InputChatPhoto = Updates;
 
 ```php
 $updates = $client->messages->editChatPhoto(
-	chat_id : -4305879928896919624,
+	chat_id : 6693784147445293879,
 	photo : $client->inputChatPhotoEmpty(),
 );
 ```

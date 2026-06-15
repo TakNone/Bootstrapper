@@ -35,18 +35,18 @@ $accountWebBrowserSettings = $client->account->webBrowserSettings(
 	display_close_button : true,
 	external_exceptions : array(
 		$client->webDomainException(
-			domain : 'ruXqoZMyt5CW1INl',
+			domain : '08Pa9fwsmyLzXxFR',
 			url : 'https://docs.liveproto.dev',
-			title : 'UnKXHx120fZMIY3i',
-			favicon : -8227313773917697851,
+			title : 'eC0jVIAs8vhWf1B3',
+			favicon : -4923610541196769380,
 		),
 	),
 	inapp_exceptions : array(
 		$client->webDomainException(
-			domain : 'NXPTiKvgdEOb65q0',
+			domain : 'GukSs5vBNi01EQWq',
 			url : 'https://docs.liveproto.dev',
-			title : 'Gvk7wPzhcSmxnHD9',
-			favicon : 3240425451662751987,
+			title : 'uiC1BZSxM3kULAlz',
+			favicon : 8678203398910692362,
 		),
 	),
 	hash : 0,

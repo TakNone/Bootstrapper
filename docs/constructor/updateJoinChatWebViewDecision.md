@@ -29,9 +29,9 @@ updateJoinChatWebViewDecision#bdac7e70 peer:Peer query_id:long result:JoinChatBo
 ```php
 $update = $client->updateJoinChatWebViewDecision(
 	peer : $client->peerUser(
-		user_id : 1248312363167070031,
+		user_id : -6184854412138454887,
 	),
-	query_id : 1867446861259224399,
+	query_id : 2024008584487749882,
 	result : $client->joinChatBotResultApproved(),
 );
 ```

@@ -106,17 +106,17 @@ $chat = $client->channel(
 	broadcast_messages_allowed : true,
 	monoforum : true,
 	forum_tabs : true,
-	id : 849444064947054350,
-	access_hash : -370911224248338626,
-	title : 'aomtM5jP1T02HNgk',
+	id : 4979547288885247155,
+	access_hash : 6028406366042564067,
+	title : 'w4Rltj9pfiqAoMvX',
 	username : 'TakNone',
 	photo : $client->chatPhotoEmpty(),
-	date : 82,
+	date : 26,
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : '2woSbtfJWaEpmMiH',
-			reason : 'ODPLseczaUvHVWmY',
-			text : 'JPw1gCluOithVSUk',
+			platform : 'XvSxZ9gO8pd10G2L',
+			reason : 'oBejgymO9nXfUMSK',
+			text : 'stnm69vWycEX3z0o',
 		),
 	),
 	admin_rights : $client->chatAdminRights(
@@ -161,7 +161,7 @@ $chat = $client->channel(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 93,
+		until_date : 57,
 	),
 	default_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -186,9 +186,9 @@ $chat = $client->channel(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 49,
+		until_date : 55,
 	),
-	participants_count : 73,
+	participants_count : 94,
 	usernames : array(
 		$client->username(
 			editable : true,
@@ -198,21 +198,21 @@ $chat = $client->channel(
 	),
 	stories_max_id : $client->recentStory(
 		live : true,
-		max_id : 51,
+		max_id : 77,
 	),
 	color : $client->peerColor(
-		color : 7,
-		background_emoji_id : 4617352358001323238,
+		color : 10,
+		background_emoji_id : 4993485000619320030,
 	),
 	profile_color : $client->peerColor(
-		color : 99,
-		background_emoji_id : -1845671850452486429,
+		color : 91,
+		background_emoji_id : 1801624058770212210,
 	),
 	emoji_status : $client->emojiStatusEmpty(),
-	level : 95,
-	subscription_until_date : 70,
-	bot_verification_icon : 8715821482430916641,
-	send_paid_messages_stars : -5965797027986792582,
-	linked_monoforum_id : -730209061106768018,
+	level : 6,
+	subscription_until_date : 62,
+	bot_verification_icon : -2757488430994852762,
+	send_paid_messages_stars : 7374096372235518153,
+	linked_monoforum_id : -8950871412484021900,
 );
 ```

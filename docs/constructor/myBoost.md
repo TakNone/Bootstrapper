@@ -33,12 +33,12 @@ myBoost#c448415c flags:# slot:int peer:flags.0?Peer date:int expires:int cooldow
 
 ```php
 $myBoost = $client->myBoost(
-	slot : 41,
+	slot : 65,
 	peer : $client->peerUser(
-		user_id : -8864513312932087941,
+		user_id : -974742260393232434,
 	),
-	date : 68,
-	expires : 98,
-	cooldown_until_date : 0,
+	date : 28,
+	expires : 44,
+	cooldown_until_date : 73,
 );
 ```

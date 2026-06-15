@@ -32,10 +32,10 @@ updateDialogPinned#6e6fe51c flags:# pinned:flags.0?true folder_id:flags.1?int pe
 ```php
 $update = $client->updateDialogPinned(
 	pinned : true,
-	folder_id : 9,
+	folder_id : 14,
 	peer : $client->dialogPeer(
 		peer : $client->peerUser(
-			user_id : -3653468568090514833,
+			user_id : 9074097684293882113,
 		),
 	),
 );

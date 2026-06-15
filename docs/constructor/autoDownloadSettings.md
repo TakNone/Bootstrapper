@@ -44,11 +44,11 @@ $autoDownloadSettings = $client->autoDownloadSettings(
 	audio_preload_next : true,
 	phonecalls_less_data : true,
 	stories_preload : true,
-	photo_size_max : 50,
-	video_size_max : 8439351295522923481,
-	file_size_max : -6790222884390280424,
-	video_upload_maxbitrate : 24,
-	small_queue_active_operations_max : 56,
-	large_queue_active_operations_max : 56,
+	photo_size_max : 72,
+	video_size_max : 877139632858939522,
+	file_size_max : -863466382880128953,
+	video_upload_maxbitrate : 55,
+	small_queue_active_operations_max : 20,
+	large_queue_active_operations_max : 78,
 );
 ```

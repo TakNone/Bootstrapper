@@ -36,7 +36,7 @@ $inputMedia = $client->inputMediaPhoto(
 	spoiler : true,
 	live_photo : true,
 	id : $client->inputPhotoEmpty(),
-	ttl_seconds : 45,
+	ttl_seconds : 69,
 	video : $client->inputDocumentEmpty(),
 );
 ```

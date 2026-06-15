@@ -34,11 +34,11 @@ messageActionPrizeStars#b00c47a2 flags:# unclaimed:flags.0?true stars:long trans
 ```php
 $messageAction = $client->messageActionPrizeStars(
 	unclaimed : true,
-	stars : 3585840336926933324,
-	transaction_id : 'wlZJaiOyS41AYVpz',
+	stars : -6385846324105154015,
+	transaction_id : 'FpcUjEO532uaSYKW',
 	boost_peer : $client->peerUser(
-		user_id : -8315054920656828464,
+		user_id : 5386011810066649436,
 	),
-	giveaway_msg_id : 54,
+	giveaway_msg_id : 28,
 );
 ```

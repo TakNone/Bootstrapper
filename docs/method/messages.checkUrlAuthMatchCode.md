@@ -28,6 +28,6 @@ messages.checkUrlAuthMatchCode#c9a47b0b url:string match_code:string = Bool;
 ```php
 $bool = $client->messages->checkUrlAuthMatchCode(
 	url : 'https://docs.liveproto.dev',
-	match_code : 'FHcfp3rAMVtCxGQL',
+	match_code : 'KtNo57HhT40LwaPY',
 );
 ```

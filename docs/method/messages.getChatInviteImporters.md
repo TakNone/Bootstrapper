@@ -53,10 +53,10 @@ $messagesChatInviteImporters = $client->messages->getChatInviteImporters(
 	requested : true,
 	subscription_expired : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	link : 'fPe3CM9WOxv5iTqd',
-	q : 'farOx236AQhBWiyN',
+	link : 'aAebBmcM4KTYFw3i',
+	q : 'OQC9tGN5jmK8RuBE',
 	offset_date : 0,
 	offset_user : $client->get_input_user(user : '@TakNone'),
-	limit : 63,
+	limit : 78,
 );
 ```

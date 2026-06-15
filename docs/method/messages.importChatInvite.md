@@ -49,6 +49,6 @@ messages.importChatInvite#de91436e hash:string = messages.ChatInviteJoinResult;
 
 ```php
 $messagesChatInviteJoinResult = $client->messages->importChatInvite(
-	hash : '0U95zkvMemhC2NKP',
+	hash : 'uAeSclPBkm9bdag7',
 );
 ```

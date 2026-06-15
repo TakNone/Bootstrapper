@@ -39,11 +39,11 @@ phone.saveCallDebug#277add7e peer:InputPhoneCall debug:DataJSON = Bool;
 ```php
 $bool = $client->phone->saveCallDebug(
 	peer : $client->inputPhoneCall(
-		id : 1326595001371739572,
-		access_hash : 4148698380039053067,
+		id : -9066671066220030351,
+		access_hash : 8180224222676872028,
 	),
 	debug : $client->dataJSON(
-		data : 'EJyfYX9FVHedZzBs',
+		data : 'zZtHL0rPUR9DCxBg',
 	),
 );
 ```

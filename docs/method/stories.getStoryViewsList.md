@@ -49,9 +49,9 @@ $storiesStoryViewsList = $client->stories->getStoryViewsList(
 	reactions_first : true,
 	forwards_first : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	q : 'AM02SJ1XzNLcgoQp',
-	id : 6,
-	offset : 'V8RCygluxwDZPLNO',
-	limit : 27,
+	q : 'wfN0v19o2AzFbk4D',
+	id : 72,
+	offset : 'mjBpCJtf6WibgE7O',
+	limit : 94,
 );
 ```

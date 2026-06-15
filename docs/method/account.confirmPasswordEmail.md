@@ -37,6 +37,6 @@ account.confirmPasswordEmail#8fdf1920 code:string = Bool;
 
 ```php
 $bool = $client->account->confirmPasswordEmail(
-	code : 'nojAEFvi3tNwlDGX',
+	code : 'bSWB1zU3cO7ILmwp',
 );
 ```

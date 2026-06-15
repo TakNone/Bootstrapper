@@ -35,10 +35,10 @@ channelParticipantSelf#a9478a1a flags:# via_request:flags.0?true user_id:long in
 ```php
 $channelParticipant = $client->channelParticipantSelf(
 	via_request : true,
-	user_id : 5596226805935113842,
-	inviter_id : 6820097472672290325,
-	date : 98,
-	subscription_until_date : 52,
-	rank : 'kc3149U8OQuZetIH',
+	user_id : 3551201517875285497,
+	inviter_id : 3131760084818765216,
+	date : 40,
+	subscription_until_date : 16,
+	rank : 'cmdljInZDi9p7uvR',
 );
 ```

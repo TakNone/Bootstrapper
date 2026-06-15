@@ -40,16 +40,16 @@ messages.setBotShippingResults#e5f672fa flags:# query_id:long error:flags.0?stri
 
 ```php
 $bool = $client->messages->setBotShippingResults(
-	query_id : 8988219693401798175,
-	error : 'EGswg4xut6M3mAFo',
+	query_id : -6878132254661702281,
+	error : 'zjCWwG9VZ2pEfu6i',
 	shipping_options : array(
 		$client->shippingOption(
-			id : '0XZEkpfwsKxuTU3N',
-			title : 'lxDuvVoTPWmR2tGq',
+			id : 'wsBRoCpIF67K1VJO',
+			title : 'TMSndPvpQwBtN93x',
 			prices : array(
 				$client->labeledPrice(
-					label : 'n9d72uW84rGZmyaH',
-					amount : 6887587241190821163,
+					label : 'JAvN4BghYOF6VizK',
+					amount : 6839959637136492138,
 				),
 			),
 		),

@@ -34,11 +34,11 @@ messages.getUnreadPollVotes#43286cf2 flags:# peer:InputPeer top_msg_id:flags.0?i
 ```php
 $messagesMessages = $client->messages->getUnreadPollVotes(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 35,
+	top_msg_id : 34,
 	offset_id : 0,
-	add_offset : 16,
+	add_offset : 42,
 	limit : 95,
-	max_id : 67,
-	min_id : 62,
+	max_id : 6,
+	min_id : 50,
 );
 ```

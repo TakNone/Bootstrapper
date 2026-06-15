@@ -31,9 +31,9 @@ updateBotStopped#c4870a49 user_id:long date:int stopped:Bool qts:int = Update;
 
 ```php
 $update = $client->updateBotStopped(
-	user_id : -9014198259665344813,
-	date : 35,
-	stopped : true,
-	qts : 85,
+	user_id : -3696296047503467608,
+	date : 64,
+	stopped : false,
+	qts : 75,
 );
 ```

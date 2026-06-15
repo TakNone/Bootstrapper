@@ -26,6 +26,6 @@ starGiftAttributeRarity#36437737 permille:int = StarGiftAttributeRarity;
 
 ```php
 $starGiftAttributeRarity = $client->starGiftAttributeRarity(
-	permille : 18,
+	permille : 34,
 );
 ```

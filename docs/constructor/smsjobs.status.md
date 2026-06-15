@@ -37,12 +37,12 @@ smsjobs.status#2aee9191 flags:# allow_international:flags.0?true recent_sent:int
 ```php
 $smsjobsStatus = $client->smsjobs->status(
 	allow_international : true,
-	recent_sent : 65,
-	recent_since : 55,
-	recent_remains : 80,
-	total_sent : 64,
-	total_since : 19,
-	last_gift_slug : 'H7lWESxZvw0CMyiQ',
+	recent_sent : 8,
+	recent_since : 4,
+	recent_remains : 92,
+	total_sent : 34,
+	total_since : 47,
+	last_gift_slug : 'IKZcNtbSVDa2AfeG',
 	terms_url : 'https://docs.liveproto.dev',
 );
 ```

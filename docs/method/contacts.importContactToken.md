@@ -36,6 +36,6 @@ contacts.importContactToken#13005788 token:string = User;
 
 ```php
 $user = $client->contacts->importContactToken(
-	token : 'SY5FkEfhX7Hy6bV8',
+	token : 'lB1vU472dKM0egqR',
 );
 ```

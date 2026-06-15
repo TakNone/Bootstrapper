@@ -3591,12 +3591,18 @@
 
 ---
 
-##### RichMessage
+##### InputRichFile
 
-:link: [*NOTHING*](type/RichMessage)
+:link: [*NOTHING*](type/InputRichFile)
 
 ---
 
 ##### InputRichMessage
 
 :link: [*NOTHING*](type/InputRichMessage)
+
+---
+
+##### RichMessage
+
+:link: [*NOTHING*](type/RichMessage)

@@ -29,7 +29,7 @@ messageActionWebViewDataSentMe#47dd8079 text:string data:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionWebViewDataSentMe(
-	text : 'FjN9co02smqSnfLz',
-	data : 'EWyKSjxezlr1GsNt',
+	text : 'NSLamTQCk1JPd9HY',
+	data : 'vmKXSUZLVx40y9CD',
 );
 ```

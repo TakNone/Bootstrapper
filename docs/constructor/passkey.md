@@ -31,10 +31,10 @@ passkey#98613ebf flags:# id:string name:string date:int software_emoji_id:flags.
 
 ```php
 $passkey = $client->passkey(
-	id : 'FCjEYe0p1UyOHZgW',
-	name : '1JDqp04RcjA6MLeZ',
-	date : 80,
-	software_emoji_id : 5125983740570477773,
-	last_usage_date : 56,
+	id : 'rMwFlxjOmGE87CPq',
+	name : 'nUuAEYcLeBK7hRGf',
+	date : 2,
+	software_emoji_id : 6979626604265761052,
+	last_usage_date : 18,
 );
 ```

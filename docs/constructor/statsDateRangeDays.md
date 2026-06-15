@@ -29,7 +29,7 @@ statsDateRangeDays#b637edaf min_date:int max_date:int = StatsDateRangeDays;
 
 ```php
 $statsDateRangeDays = $client->statsDateRangeDays(
-	min_date : 11,
-	max_date : 24,
+	min_date : 97,
+	max_date : 77,
 );
 ```

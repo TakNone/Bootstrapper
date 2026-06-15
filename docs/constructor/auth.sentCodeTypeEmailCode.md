@@ -37,8 +37,8 @@ $authSentCodeType = $client->auth->sentCodeTypeEmailCode(
 	apple_signin_allowed : true,
 	google_signin_allowed : true,
 	email_pattern : 'reply@liveproto.dev',
-	length : 65,
-	reset_available_period : 50,
-	reset_pending_date : 92,
+	length : 81,
+	reset_available_period : 47,
+	reset_pending_date : 39,
 );
 ```

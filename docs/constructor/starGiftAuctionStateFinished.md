@@ -32,11 +32,11 @@ starGiftAuctionStateFinished#972dabbf flags:# start_date:int end_date:int averag
 
 ```php
 $starGiftAuctionState = $client->starGiftAuctionStateFinished(
-	start_date : 44,
-	end_date : 49,
-	average_price : 2283864876054932334,
-	listed_count : 40,
-	fragment_listed_count : 90,
+	start_date : 47,
+	end_date : 25,
+	average_price : -2242308443196510923,
+	listed_count : 67,
+	fragment_listed_count : 55,
 	fragment_listed_url : 'https://docs.liveproto.dev',
 );
 ```

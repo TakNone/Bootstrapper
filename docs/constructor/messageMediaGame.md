@@ -29,16 +29,16 @@ messageMediaGame#fdb19008 game:Game = MessageMedia;
 ```php
 $messageMedia = $client->messageMediaGame(
 	game : $client->game(
-		id : 4329053314887297175,
-		access_hash : -5977061940439492667,
-		short_name : 'PSidleWIMa56Uh8Y',
-		title : 'd82Hn5VgU9LFJ0XM',
-		description : 'RjdK3WOfV8bs6c1i',
+		id : -7973208419882852400,
+		access_hash : 1994482702858767637,
+		short_name : 'c2m94oTWHMGPh1bj',
+		title : 'UTlnIXvzipJ0tA94',
+		description : 'TtjNc8MPDnb1SU3f',
 		photo : $client->photoEmpty(
-			id : 6386213211783269370,
+			id : -2441168114509159951,
 		),
 		document : $client->documentEmpty(
-			id : 7144029929724612164,
+			id : -4340971619446803662,
 		),
 	),
 );

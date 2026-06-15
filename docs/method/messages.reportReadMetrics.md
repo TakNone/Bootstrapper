@@ -30,12 +30,12 @@ $bool = $client->messages->reportReadMetrics(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	metrics : array(
 		$client->inputMessageReadMetric(
-			msg_id : 3,
-			view_id : 6771399504891574564,
-			time_in_view_ms : 60,
-			active_time_in_view_ms : 51,
-			height_to_viewport_ratio_permille : 63,
-			seen_range_ratio_permille : 70,
+			msg_id : 95,
+			view_id : 8090797776152695449,
+			time_in_view_ms : 24,
+			active_time_in_view_ms : 94,
+			height_to_viewport_ratio_permille : 11,
+			seen_range_ratio_permille : 1,
 		),
 	),
 );

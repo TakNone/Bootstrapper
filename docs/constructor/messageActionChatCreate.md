@@ -29,7 +29,7 @@ messageActionChatCreate#bd47cbad title:string users:Vector<long> = MessageAction
 
 ```php
 $messageAction = $client->messageActionChatCreate(
-	title : '3UMVSFBhplQdJHZR',
-	users : array(-92428922184195944),
+	title : 'VjYKzJW8AIMHrPxy',
+	users : array(-4187814536251871941),
 );
 ```

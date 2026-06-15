@@ -39,12 +39,12 @@ wallPaperSettings#372efcd0 flags:# blur:flags.1?true motion:flags.2?true backgro
 $wallPaperSettings = $client->wallPaperSettings(
 	blur : true,
 	motion : true,
-	background_color : 48,
-	second_background_color : 50,
-	third_background_color : 45,
-	fourth_background_color : 88,
-	intensity : 11,
-	rotation : 69,
-	emoticon : 'rdvDyZAVStR1eIGw',
+	background_color : 47,
+	second_background_color : 19,
+	third_background_color : 90,
+	fourth_background_color : 90,
+	intensity : 78,
+	rotation : 66,
+	emoticon : 'lO7pf2kiMBFhD0Ty',
 );
 ```

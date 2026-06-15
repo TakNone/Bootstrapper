@@ -35,12 +35,12 @@ $mediaArea = $client->mediaAreaSuggestedReaction(
 	dark : true,
 	flipped : true,
 	coordinates : $client->mediaAreaCoordinates(
-		x : -975328.48828125,
-		y : -1011431.7451171875,
-		w : -352936.5478515625,
-		h : -1865236.8916015625,
-		rotation : 1035733.447265625,
-		radius : 900365.6201171875,
+		x : -1321423.9853515625,
+		y : -1136215.365234375,
+		w : -1884027.7900390625,
+		h : -1733935.904296875,
+		rotation : 1184230.6845703125,
+		radius : -704779.4638671875,
 	),
 	reaction : $client->reactionEmpty(),
 );

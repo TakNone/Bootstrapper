@@ -29,7 +29,7 @@ updateUserEmojiStatus#28373599 user_id:long emoji_status:EmojiStatus = Update;
 
 ```php
 $update = $client->updateUserEmojiStatus(
-	user_id : 4098931863934694347,
+	user_id : -1490470519072065221,
 	emoji_status : $client->emojiStatusEmpty(),
 );
 ```

@@ -29,7 +29,7 @@ messages.deleteParticipantReaction#e3b7f82c peer:InputPeer msg_id:int participan
 ```php
 $updates = $client->messages->deleteParticipantReaction(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 67,
+	msg_id : 98,
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

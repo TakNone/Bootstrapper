@@ -38,10 +38,10 @@ $keyboardButton = $client->keyboardButtonSwitchInline(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -9191560310164555334,
+		icon : -2719459778354924909,
 	),
-	text : 'GPEFm1jxgQ0eVUfb',
-	query : '2mBYVkta17nMs8TR',
+	text : 'Z4bYDkgtwJ3T5u1I',
+	query : 'MW6cSFx7YCPADibh',
 	peer_types : array(
 		$client->inlineQueryPeerTypeSameBotPM(),
 		$client->inlineQueryPeerTypePM(),

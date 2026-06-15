@@ -26,6 +26,6 @@ account.deletePasskey#f5b5563f id:string = Bool;
 
 ```php
 $bool = $client->account->deletePasskey(
-	id : 'CmnT5sez1ul4AEyX',
+	id : '4oheLYnfJ9D6qc3m',
 );
 ```

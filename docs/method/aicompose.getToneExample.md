@@ -28,8 +28,8 @@ aicompose.getToneExample#d1b4ab14 tone:InputAiComposeTone num:int = AiComposeTon
 ```php
 $aiComposeToneExample = $client->aicompose->getToneExample(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'm340uyKUTeJfGQWN',
+		tone : '1h0fnwRUY6lgEdMK',
 	),
-	num : 67,
+	num : 97,
 );
 ```

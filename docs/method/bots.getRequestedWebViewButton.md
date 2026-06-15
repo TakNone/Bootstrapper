@@ -28,6 +28,6 @@ bots.getRequestedWebViewButton#bf25b7f3 bot:InputUser webapp_req_id:string = Key
 ```php
 $keyboardButton = $client->bots->getRequestedWebViewButton(
 	bot : $client->get_input_user(user : '@TakNone'),
-	webapp_req_id : 'majCB3VNkIMJFDRy',
+	webapp_req_id : 'hQG3iW1V5IdkuHPO',
 );
 ```

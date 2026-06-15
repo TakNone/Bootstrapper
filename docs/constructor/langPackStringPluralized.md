@@ -35,12 +35,12 @@ langPackStringPluralized#6c47ac9f flags:# key:string zero_value:flags.0?string o
 
 ```php
 $langPackString = $client->langPackStringPluralized(
-	key : 'WSsGOyA975z3aYvq',
-	zero_value : '2QvaYXlOLgcHKtqJ',
-	one_value : 'ALw3VOqPesdynoMS',
-	two_value : 'nPkyGUZtlIRH3JSh',
-	few_value : 'lmgq9tGSVnNOAYdP',
-	many_value : 'hjuoqeJcwD4YyFgE',
-	other_value : 'VYeMnDSBsh5kNxUO',
+	key : '1A9OMDuVJgfSNmp2',
+	zero_value : 'vXhSfuDrYaqMdQyA',
+	one_value : 'S7uk1lH6NU9wyO8s',
+	two_value : 'GkZ9ilBHoETwqsOr',
+	few_value : 'P3NzJiCyQTuj9qEx',
+	many_value : 'ko7VQIaRxCLM1hcW',
+	other_value : 'GYeAlRxzrHm2VQD0',
 );
 ```

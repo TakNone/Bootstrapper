@@ -39,9 +39,9 @@ bots.answerWebhookJSONQuery#e6213f4d query_id:long data:DataJSON = Bool;
 
 ```php
 $bool = $client->bots->answerWebhookJSONQuery(
-	query_id : -6792883008912266725,
+	query_id : 3981528370334893143,
 	data : $client->dataJSON(
-		data : 'hw4INtpbOYlVMFCe',
+		data : 'lLFg4K3dtYyQE1Oi',
 	),
 );
 ```

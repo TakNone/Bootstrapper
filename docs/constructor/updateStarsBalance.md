@@ -29,8 +29,8 @@ updateStarsBalance#4e80a379 balance:StarsAmount = Update;
 ```php
 $update = $client->updateStarsBalance(
 	balance : $client->starsAmount(
-		amount : -6551052787850554228,
-		nanos : 1,
+		amount : -8502484292063913659,
+		nanos : 37,
 	),
 );
 ```

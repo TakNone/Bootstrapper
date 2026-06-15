@@ -28,6 +28,6 @@ messageEntityDiffDelete#652c1c5 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityDiffDelete(
 	offset : 0,
-	length : 97,
+	length : 41,
 );
 ```

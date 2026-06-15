@@ -32,14 +32,14 @@ contacts.contacts#eae87e42 contacts:Vector<Contact> saved_count:int users:Vector
 $contactsContacts = $client->contacts->contacts(
 	contacts : array(
 		$client->contact(
-			user_id : 6611931083123191138,
+			user_id : 221575010037470196,
 			mutual : true,
 		),
 	),
-	saved_count : 95,
+	saved_count : 64,
 	users : array(
 		$client->userEmpty(
-			id : 79765862702913196,
+			id : -7361178106658693617,
 		),
 		$client->user(
 			self : true,
@@ -72,24 +72,24 @@ $contactsContacts = $client->contacts->contacts(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : -938245868098621344,
-			access_hash : 1049361469311786007,
+			id : -3564730711124437113,
+			access_hash : -9008657227672350658,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 75,
+			bot_info_version : 98,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'orYUvMy1e30cgDOk',
-					reason : 'rAzQBDxO6ymdcl7e',
-					text : 'WnymsSrFLiz870MV',
+					platform : 'DJGXvVOr0jpZKuWk',
+					reason : 'xqcX6pI5ksyWTbCr',
+					text : 'VYEekM1mTdXj0Kpt',
 				),
 			),
-			bot_inline_placeholder : 'VNnd6AIxtEUeHYzp',
-			lang_code : 'c5gGKLIwdDV8UmqR',
+			bot_inline_placeholder : 'KwXfcBVS5zH1ZtNe',
+			lang_code : 'rwSe9Hfi2Yd1mhUs',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -100,19 +100,19 @@ $contactsContacts = $client->contacts->contacts(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 74,
+				max_id : 53,
 			),
 			color : $client->peerColor(
-				color : 13,
-				background_emoji_id : -6933057351156447295,
+				color : 97,
+				background_emoji_id : 8309390419274150727,
 			),
 			profile_color : $client->peerColor(
-				color : 46,
-				background_emoji_id : -3060303872280844620,
+				color : 4,
+				background_emoji_id : -6380895022084844278,
 			),
-			bot_active_users : 4,
-			bot_verification_icon : -6496104584134201802,
-			send_paid_messages_stars : -5668272530998378839,
+			bot_active_users : 67,
+			bot_verification_icon : 2645138278201034152,
+			send_paid_messages_stars : -1626474109924849346,
 		),
 	),
 );

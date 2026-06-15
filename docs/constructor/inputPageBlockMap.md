@@ -31,9 +31,9 @@ inputPageBlockMap#574b617f geo:InputGeoPoint zoom:int w:int h:int caption:PageCa
 ```php
 $pageBlock = $client->inputPageBlockMap(
 	geo : $client->inputGeoPointEmpty(),
-	zoom : 56,
-	w : 97,
-	h : 32,
+	zoom : 22,
+	w : 98,
+	h : 10,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

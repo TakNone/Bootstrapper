@@ -28,6 +28,6 @@ updateLangPackTooLong#46560264 lang_code:string = Update;
 
 ```php
 $update = $client->updateLangPackTooLong(
-	lang_code : 'o4c6wPCFhI8avinm',
+	lang_code : 'BCR6LgY4HkS3Kjto',
 );
 ```

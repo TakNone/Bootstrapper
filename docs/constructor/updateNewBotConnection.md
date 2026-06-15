@@ -32,9 +32,9 @@ updateNewBotConnection#b22083a6 flags:# confirmed:flags.0?true bot_id:long date:
 ```php
 $update = $client->updateNewBotConnection(
 	confirmed : true,
-	bot_id : -1571553301637543442,
-	date : 32,
-	device : 'iotcO9CPBY1zS4RE',
-	location : 'xL3DpaXcCl8VWioq',
+	bot_id : 9040813423819420944,
+	date : 95,
+	device : 'Q8HahEyBmfixus3N',
+	location : 'tH4TbwxyqpfaDN8K',
 );
 ```

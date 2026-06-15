@@ -52,16 +52,16 @@ $invoice = $client->invoice(
 	phone_to_provider : true,
 	email_to_provider : true,
 	recurring : true,
-	currency : '52AzOkcTEhZlMWya',
+	currency : 'xDzaASBs0Hw1GbYl',
 	prices : array(
 		$client->labeledPrice(
-			label : 'qxgLQOpCTJ3K1Blv',
-			amount : 5023754552250835442,
+			label : 'YCFoniqytvhQ9zH6',
+			amount : -6090847357985392602,
 		),
 	),
-	max_tip_amount : -8285195557668206307,
-	suggested_tip_amounts : array(15771745351382013),
+	max_tip_amount : -154633971586136447,
+	suggested_tip_amounts : array(2600496025658843641),
 	terms_url : 'https://docs.liveproto.dev',
-	subscription_period : 83,
+	subscription_period : 37,
 );
 ```

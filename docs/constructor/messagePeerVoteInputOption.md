@@ -30,8 +30,8 @@ messagePeerVoteInputOption#74cda504 peer:Peer date:int = MessagePeerVote;
 ```php
 $messagePeerVote = $client->messagePeerVoteInputOption(
 	peer : $client->peerUser(
-		user_id : 4897886129287751276,
+		user_id : 7022667703976716831,
 	),
-	date : 89,
+	date : 25,
 );
 ```

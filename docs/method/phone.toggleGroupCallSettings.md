@@ -44,11 +44,11 @@ phone.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true ca
 $updates = $client->phone->toggleGroupCallSettings(
 	reset_invite_hash : true,
 	call : $client->inputGroupCall(
-		id : -1749398333889204655,
-		access_hash : -7198089757199243772,
+		id : -193681825445020271,
+		access_hash : -5785014547579229378,
 	),
 	join_muted : false,
-	messages_enabled : true,
-	send_paid_messages_stars : 7563213182160441694,
+	messages_enabled : false,
+	send_paid_messages_stars : -2827488989127243741,
 );
 ```

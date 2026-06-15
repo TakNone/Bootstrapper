@@ -38,8 +38,8 @@ messages.uploadEncryptedFile#5057c497 peer:InputEncryptedChat file:InputEncrypte
 ```php
 $encryptedFile = $client->messages->uploadEncryptedFile(
 	peer : $client->inputEncryptedChat(
-		chat_id : 40,
-		access_hash : 1328736314909942434,
+		chat_id : 76,
+		access_hash : 839039510104460312,
 	),
 	file : $client->inputEncryptedFileEmpty(),
 );

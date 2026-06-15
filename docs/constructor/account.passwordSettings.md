@@ -34,7 +34,7 @@ $accountPasswordSettings = $client->account->passwordSettings(
 	secure_settings : $client->secureSecretSettings(
 		secure_algo : $client->securePasswordKdfAlgoUnknown(),
 		secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		secure_secret_id : 1264896120217807756,
+		secure_secret_id : -21375327898906456,
 	),
 );
 ```

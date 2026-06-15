@@ -28,6 +28,6 @@ channelAdminLogEventActionToggleGroupCallSetting#56d6a247 join_muted:Bool = Chan
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionToggleGroupCallSetting(
-	join_muted : true,
+	join_muted : false,
 );
 ```

@@ -30,6 +30,6 @@ bankCardOpenUrl#f568028a url:string name:string = BankCardOpenUrl;
 ```php
 $bankCardOpenUrl = $client->bankCardOpenUrl(
 	url : 'https://docs.liveproto.dev',
-	name : 'KkcUTaCSJFWIpHLu',
+	name : 'Yb0VRO5L1QBNPmux',
 );
 ```

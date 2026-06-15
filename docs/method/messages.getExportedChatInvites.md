@@ -52,7 +52,7 @@ $messagesExportedChatInvites = $client->messages->getExportedChatInvites(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	admin_id : $client->get_input_user(user : '@TakNone'),
 	offset_date : 0,
-	offset_link : 'GQcyOljpt6VCnI8E',
-	limit : 42,
+	offset_link : 'dvMDRrX2Q1bKx3Oh',
+	limit : 93,
 );
 ```
