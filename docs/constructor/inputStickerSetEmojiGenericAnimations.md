@@ -2,7 +2,7 @@
 
 **Description** : *Generic animation stickerset containing animations to play when reacting to messages using a normal emoji without a custom animation*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputStickerSetEmojiGenericAnimations#4c4d4ce = InputStickerSet;

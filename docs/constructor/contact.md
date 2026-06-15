@@ -2,7 +2,7 @@
 
 **Description** : *A contact of the current user that is registered in the system*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 contact#145ade0b user_id:long mutual:Bool = Contact;
@@ -29,7 +29,7 @@ contact#145ade0b user_id:long mutual:Bool = Contact;
 
 ```php
 $contact = $client->contact(
-	user_id : -2484502355084739684,
+	user_id : -7459027504729667044,
 	mutual : false,
 );
 ```

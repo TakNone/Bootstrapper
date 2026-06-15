@@ -2,7 +2,7 @@
 
 **Description** : *Edit the default banned rights of a channel/supergroup/group*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.editChatDefaultBannedRights#a5866b41 peer:InputPeer banned_rights:ChatBannedRights = Updates;
@@ -69,7 +69,7 @@ $updates = $client->messages->editChatDefaultBannedRights(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 59,
+		until_date : 54,
 	),
 );
 ```

@@ -2,10 +2,10 @@
 
 **Description** : *Import a chat invite and join a private chat/supergroup/channel*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-messages.importChatInvite#6c50051c hash:string = Updates;
+messages.importChatInvite#de91436e hash:string = messages.ChatInviteJoinResult;
 ```
 
 ---
@@ -20,7 +20,7 @@ messages.importChatInvite#6c50051c hash:string = Updates;
 
 ## Result
 
-[Updates](type/Updates)
+[messages.ChatInviteJoinResult](type/messages.ChatInviteJoinResult)
 
 ---
 
@@ -48,7 +48,7 @@ messages.importChatInvite#6c50051c hash:string = Updates;
 ## Example
 
 ```php
-$updates = $client->messages->importChatInvite(
-	hash : 'Tze7p1nNwIVtgqHZ',
+$messagesChatInviteJoinResult = $client->messages->importChatInvite(
+	hash : '0U95zkvMemhC2NKP',
 );
 ```

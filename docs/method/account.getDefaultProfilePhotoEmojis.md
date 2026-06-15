@@ -2,7 +2,7 @@
 
 **Description** : *Get a set of suggested custom emoji stickers that can be used as profile picture*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.getDefaultProfilePhotoEmojis#e2750328 hash:long = EmojiList;

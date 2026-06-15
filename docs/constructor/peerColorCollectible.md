@@ -1,6 +1,6 @@
 # peerColorCollectible
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 peerColorCollectible#b9c0639a flags:# collectible_id:long gift_emoji_id:long background_emoji_id:long accent_color:int colors:Vector<int> dark_accent_color:flags.0?int dark_colors:flags.1?Vector<int> = PeerColor;
@@ -33,12 +33,12 @@ peerColorCollectible#b9c0639a flags:# collectible_id:long gift_emoji_id:long bac
 
 ```php
 $peerColor = $client->peerColorCollectible(
-	collectible_id : 7469721664047470496,
-	gift_emoji_id : -529147723772310596,
-	background_emoji_id : -2137176658622156836,
-	accent_color : 7,
-	colors : array(14),
-	dark_accent_color : 64,
-	dark_colors : array(35),
+	collectible_id : -5260605260220655096,
+	gift_emoji_id : -3100008441040653883,
+	background_emoji_id : 1760821882977408168,
+	accent_color : 30,
+	colors : array(79),
+	dark_accent_color : 31,
+	dark_colors : array(20),
 );
 ```

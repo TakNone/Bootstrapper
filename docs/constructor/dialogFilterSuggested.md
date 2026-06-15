@@ -2,7 +2,7 @@
 
 **Description** : *Suggested folders*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 dialogFilterSuggested#77744d4a filter:DialogFilter description:string = DialogFilterSuggested;
@@ -39,77 +39,77 @@ $dialogFilterSuggested = $client->dialogFilterSuggested(
 		exclude_read : true,
 		exclude_archived : true,
 		title_noanimate : true,
-		id : 68,
+		id : 43,
 		title : $client->textWithEntities(
-			text : 'zXT4xUIWCgyad2A9',
+			text : 'WRUkjgcVozmDyKB3',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 2,
+					length : 36,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 40,
+					length : 53,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 80,
+					length : 58,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 56,
+					length : 67,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 87,
+					length : 91,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 66,
+					length : 14,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 57,
+					length : 52,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 54,
+					length : 26,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 93,
+					length : 65,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 55,
-					language : '2vAaiDXU7gOwJNST',
+					length : 86,
+					language : 'TvVBabEkyeuLfS2K',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 1,
+					length : 27,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 16,
-					user_id : 870248768942648687,
+					length : 54,
+					user_id : -4313755007520830595,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 8,
+					length : 56,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 93,
+					length : 29,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 94,
+					length : 38,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 86,
+					length : 71,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
@@ -117,21 +117,21 @@ $dialogFilterSuggested = $client->dialogFilterSuggested(
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 34,
+					length : 63,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 79,
+					length : 32,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 13,
-					document_id : -6918395193794597688,
+					length : 23,
+					document_id : -3781343398116825546,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 83,
+					length : 81,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -141,30 +141,30 @@ $dialogFilterSuggested = $client->dialogFilterSuggested(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 31,
-					date : 73,
+					length : 42,
+					date : 57,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 10,
+					length : 28,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 32,
-					old_text : 'PlR2Ty5YQIwH3vqn',
+					length : 25,
+					old_text : 'HZjdpqO9CWnb6Glg',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 49,
+					length : 8,
 				),
 			),
 		),
-		emoticon : 'HpnN1r2f7uhOjFlT',
-		color : 82,
+		emoticon : 'otprknKvHFlCwjBq',
+		color : 57,
 		pinned_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 		include_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 		exclude_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 	),
-	description : '5o94inbBaO83Mvuw',
+	description : 'Q65OzhAk79TBxsLG',
 );
 ```

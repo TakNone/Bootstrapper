@@ -2,7 +2,7 @@
 
 **Description** : *List all currently connected business bots &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.getConnectedBots#4ea4c80f = account.ConnectedBots;

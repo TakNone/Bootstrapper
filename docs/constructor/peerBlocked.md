@@ -2,7 +2,7 @@
 
 **Description** : *Information about a blocked peer*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 peerBlocked#e8fd8014 peer_id:Peer date:int = PeerBlocked;
@@ -30,8 +30,8 @@ peerBlocked#e8fd8014 peer_id:Peer date:int = PeerBlocked;
 ```php
 $peerBlocked = $client->peerBlocked(
 	peer_id : $client->peerUser(
-		user_id : 1509452966387241878,
+		user_id : 5790907276365822990,
 	),
-	date : 55,
+	date : 35,
 );
 ```

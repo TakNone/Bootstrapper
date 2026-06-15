@@ -2,7 +2,7 @@
 
 **Description** : *Notify the other user in a private chat that a screenshot of the chat was taken*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.sendScreenshotNotification#a1405817 peer:InputPeer reply_to:InputReplyTo random_id:long = Updates;
@@ -44,26 +44,26 @@ messages.sendScreenshotNotification#a1405817 peer:InputPeer reply_to:InputReplyT
 $updates = $client->messages->sendScreenshotNotification(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 43,
-		top_msg_id : 50,
+		reply_to_msg_id : 41,
+		top_msg_id : 5,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'wjuhAYJ7syPtaWQ6',
+		quote_text : 'FbPxDyOUdhvGwQNL',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 39,
+				length : 53,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 77,
+				length : 54,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 47,
+				length : 87,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 82,
+				length : 87,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
@@ -71,73 +71,73 @@ $updates = $client->messages->sendScreenshotNotification(
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 65,
+				length : 28,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 86,
+				length : 21,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 51,
+				length : 79,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 49,
+				length : 67,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 54,
-				language : '6LX0MQ1lbFIAH8pR',
+				length : 45,
+				language : '3AxbFlLz2QP5iRYw',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 24,
+				length : 10,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 84,
-				user_id : 1504424651494873305,
+				length : 0,
+				user_id : -75984421685039942,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 66,
+				length : 17,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 52,
+				length : 17,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 30,
+				length : 87,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 72,
+				length : 63,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 25,
+				length : 97,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 64,
+				length : 23,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 17,
+				length : 83,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 48,
-				document_id : -7247518132884928869,
+				length : 51,
+				document_id : -2357199405606681033,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 19,
+				length : 69,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -147,28 +147,28 @@ $updates = $client->messages->sendScreenshotNotification(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 58,
-				date : 76,
+				length : 19,
+				date : 97,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 29,
+				length : 91,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 80,
-				old_text : 'FjNmfdgH4TO6yUuA',
+				length : 43,
+				old_text : 'jhDG73rdcHINT60E',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 14,
+				length : 20,
 			),
 		),
-		quote_offset : 31,
+		quote_offset : 67,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 50,
+		todo_item_id : 27,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
-	random_id : 468214933164538156,
+	random_id : -95925830047725417,
 );
 ```

@@ -1,6 +1,6 @@
 # messages.summarizeText
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.summarizeText#abbbd346 flags:# peer:InputPeer id:int to_lang:flags.0?string tone:flags.2?string = TextWithEntities;
@@ -31,8 +31,8 @@ messages.summarizeText#abbbd346 flags:# peer:InputPeer id:int to_lang:flags.0?st
 ```php
 $textWithEntities = $client->messages->summarizeText(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 94,
-	to_lang : 'Ti5tELvKX8A7QnJa',
-	tone : 'bSgvm6TBolCH19dj',
+	id : 25,
+	to_lang : 'NZakn25QAHXz3rj6',
+	tone : 'U2XbKlTy89xGJLAz',
 );
 ```

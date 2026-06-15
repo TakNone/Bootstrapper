@@ -2,7 +2,7 @@
 
 **Description** : *Clear saved payment information*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.clearSavedInfo#d83d70c1 flags:# credentials:flags.0?true info:flags.1?true = Bool;

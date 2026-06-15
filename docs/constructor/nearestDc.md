@@ -2,7 +2,7 @@
 
 **Description** : *Nearest data center, according to geo\-ip*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 nearestDc#8e1a1775 country:string this_dc:int nearest_dc:int = NearestDc;
@@ -30,8 +30,8 @@ nearestDc#8e1a1775 country:string this_dc:int nearest_dc:int = NearestDc;
 
 ```php
 $nearestDc = $client->nearestDc(
-	country : 'qYH7NScTQBJIs0F4',
-	this_dc : 81,
-	nearest_dc : 3,
+	country : 'wHUeIuL2nBdXsOx5',
+	this_dc : 37,
+	nearest_dc : 11,
 );
 ```

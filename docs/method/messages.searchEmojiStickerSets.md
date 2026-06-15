@@ -2,7 +2,7 @@
 
 **Description** : *Search for custom emoji stickersets &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.searchEmojiStickerSets#92b4494c flags:# exclude_featured:flags.0?true q:string hash:long = messages.FoundStickerSets;
@@ -32,7 +32,7 @@ messages.searchEmojiStickerSets#92b4494c flags:# exclude_featured:flags.0?true q
 ```php
 $messagesFoundStickerSets = $client->messages->searchEmojiStickerSets(
 	exclude_featured : true,
-	q : 'rmGPuEeL6bVi2JXa',
+	q : 'sgoe7ztQFqmAYPa6',
 	hash : 0,
 );
 ```

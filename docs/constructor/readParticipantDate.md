@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about when a certain participant has read a message*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 readParticipantDate#4a4ff172 user_id:long date:int = ReadParticipantDate;
@@ -29,7 +29,7 @@ readParticipantDate#4a4ff172 user_id:long date:int = ReadParticipantDate;
 
 ```php
 $readParticipantDate = $client->readParticipantDate(
-	user_id : -5555143008319820523,
-	date : 75,
+	user_id : -7773197950590312239,
+	date : 7,
 );
 ```

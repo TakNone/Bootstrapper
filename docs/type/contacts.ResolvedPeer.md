@@ -2,7 +2,7 @@
 
 **Description** : *Peer returned after resolving a @username*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 contacts.resolvedPeer#7f077ad9 peer:Peer chats:Vector<Chat> users:Vector<User> = contacts.ResolvedPeer;

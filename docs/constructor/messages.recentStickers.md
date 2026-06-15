@@ -2,7 +2,7 @@
 
 **Description** : *Recently used stickers*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.recentStickers#88d37c56 hash:long packs:Vector<StickerPack> stickers:Vector<Document> dates:Vector<int> = messages.RecentStickers;
@@ -34,119 +34,119 @@ $messagesRecentStickers = $client->messages->recentStickers(
 	hash : 0,
 	packs : array(
 		$client->stickerPack(
-			emoticon : 'O9Jkzbcd2SXTCK7y',
-			documents : array(-7085341585583779378),
+			emoticon : 'Koyt1jmR6cAxVs30',
+			documents : array(-7816566831916800593),
 		),
 	),
 	stickers : array(
 		$client->documentEmpty(
-			id : 2805904666563796103,
+			id : -7319298840290578012,
 		),
 		$client->document(
-			id : 4280178644497039086,
-			access_hash : 4367474974607107493,
+			id : 6534735197246361809,
+			access_hash : 5989206135701047202,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			date : 16,
-			mime_type : 'wlZu8NvIO1rE4c9g',
-			size : 3958281717407474437,
+			date : 47,
+			mime_type : 'GkRxuMJNotYf3Kz6',
+			size : 4129540498216179952,
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'Ld7D2Ui3E895Cxk1',
+					type : '4p69Unhq0co5jmPx',
 				),
 				$client->photoSize(
-					type : 'FDI5sZqLO7UbyQS8',
-					w : 73,
-					h : 2,
-					size : 82,
+					type : 'E1AU4yZg52NYBhzf',
+					w : 56,
+					h : 3,
+					size : 35,
 				),
 				$client->photoCachedSize(
-					type : '3Ny8OswPLYaxIDRe',
-					w : 53,
-					h : 4,
+					type : 'mhIZOFxB8zHXTJ0L',
+					w : 57,
+					h : 78,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : '5N0yk8nmXeU3xoZz',
+					type : 'QeaHbnvumX1oCzTA',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'BFf28jsTWlLVIJYh',
-					w : 40,
-					h : 84,
-					sizes : array(17),
+					type : 'OHX4MQ8bY5xi0odU',
+					w : 91,
+					h : 48,
+					sizes : array(35),
 				),
 				$client->photoPathSize(
-					type : 'bxSCqMwiB4PunLQp',
+					type : 'Nu0sc3omvIzt4qJg',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_thumbs : array(
 				$client->videoSize(
-					type : '2Qda0ZVpoqhx1S5E',
+					type : 'agAj73oCLmQJqGTO',
 					w : 33,
-					h : 78,
-					size : 89,
-					video_start_ts : -1487634.3076171875,
+					h : 26,
+					size : 84,
+					video_start_ts : -1406780.7412109375,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : 91471209390384144,
-					background_colors : array(19),
+					emoji_id : -2628864754960833259,
+					background_colors : array(38),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(),
-					sticker_id : -7091658105433836285,
-					background_colors : array(27),
+					sticker_id : 913145542960498236,
+					background_colors : array(67),
 				),
 			),
-			dc_id : 88,
+			dc_id : 54,
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 20,
-					h : 61,
+					w : 45,
+					h : 27,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'NZ9xAVoDk2hqidXj',
+					alt : 'd9ErIsSBJx16bQF5',
 					stickerset : $client->inputStickerSetEmpty(),
 					mask_coords : $client->maskCoords(
-						n : 75,
-						x : -1342088.9404296875,
-						y : 696863.498046875,
-						zoom : 118280.017578125,
+						n : 5,
+						x : -487649.251953125,
+						y : -373279.572265625,
+						zoom : 1703261.8359375,
 					),
 				),
 				$client->documentAttributeVideo(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : -362069.71484375,
-					w : 86,
-					h : 1,
-					preload_prefix_size : 9,
-					video_start_ts : -1164538.1044921875,
-					video_codec : 'HudofwzFG5mkXrtC',
+					duration : -1639151.087890625,
+					w : 93,
+					h : 76,
+					preload_prefix_size : 73,
+					video_start_ts : -87484.6435546875,
+					video_codec : 'z4rJisctnXbOdIR3',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 1,
-					title : 'OXABTGynZlNS69Mk',
-					performer : 'gImRSzUQ7wpB6qoM',
+					duration : 23,
+					title : 'hlz3Mm2DEC5Fjb8Z',
+					performer : 'vly5S0Ic9Z4THeKg',
 					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'dQgnUfykoxPtCa1u',
+					file_name : 'ZFibsSrqNaYnTUHV',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'ra3nzQE6smAHkqGj',
+					alt : 'XeGtfK3nHd8mZkyV',
 					stickerset : $client->inputStickerSetEmpty(),
 				),
 			),
 		),
 	),
-	dates : array(21),
+	dates : array(75),
 );
 ```

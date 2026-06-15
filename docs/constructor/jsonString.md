@@ -2,7 +2,7 @@
 
 **Description** : *JSON string*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 jsonString#b71e767a value:string = JSONValue;
@@ -28,6 +28,6 @@ jsonString#b71e767a value:string = JSONValue;
 
 ```php
 $jSONValue = $client->jsonString(
-	value : 'RMkg4SofajXDA6l7',
+	value : '3mAjVuRCnKGb8Syp',
 );
 ```

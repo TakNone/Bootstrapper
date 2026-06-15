@@ -2,7 +2,7 @@
 
 **Description** : *Get stories in a story album &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.getAlbumStories#ac806d61 peer:InputPeer album_id:int offset:int limit:int = stories.Stories;
@@ -40,8 +40,8 @@ stories.getAlbumStories#ac806d61 peer:InputPeer album_id:int offset:int limit:in
 ```php
 $storiesStories = $client->stories->getAlbumStories(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	album_id : 15,
+	album_id : 28,
 	offset : 0,
-	limit : 53,
+	limit : 1,
 );
 ```

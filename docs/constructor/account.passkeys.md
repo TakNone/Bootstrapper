@@ -1,6 +1,6 @@
 # account.passkeys
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.passkeys#f8e0aa1c passkeys:Vector<Passkey> = account.Passkeys;
@@ -28,11 +28,11 @@ account.passkeys#f8e0aa1c passkeys:Vector<Passkey> = account.Passkeys;
 $accountPasskeys = $client->account->passkeys(
 	passkeys : array(
 		$client->passkey(
-			id : '8Wr9pGOf2sbTAlPd',
-			name : '4hKrw7okm26FxMvA',
-			date : 73,
-			software_emoji_id : -2711561138055829296,
-			last_usage_date : 72,
+			id : 'wHhCov30Gd7I9nxz',
+			name : 'vZh0sGaYVi1dLRmu',
+			date : 62,
+			software_emoji_id : 8122959544195627637,
+			last_usage_date : 47,
 		),
 	),
 );

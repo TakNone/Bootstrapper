@@ -1,6 +1,6 @@
 # bots.checkUsername
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.checkUsername#87f2219b username:string = Bool;

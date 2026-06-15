@@ -2,7 +2,7 @@
 
 **Description** : *Channel signature profiles were enabled/disabled*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelAdminLogEventActionToggleSignatureProfiles#60a79c79 new_value:Bool = ChannelAdminLogEventAction;

@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Star transaction with the App Store, used when purchasing Telegram Stars through the App Store*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starsTransactionPeerAppStore#b457b375 = StarsTransactionPeer;

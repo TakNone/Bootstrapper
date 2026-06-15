@@ -2,7 +2,7 @@
 
 **Description** : *Get installed themes*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.getThemes#7206e458 format:string hash:long = account.Themes;
@@ -29,7 +29,7 @@ account.getThemes#7206e458 format:string hash:long = account.Themes;
 
 ```php
 $accountThemes = $client->account->getThemes(
-	format : 'vFPOIw9xa61zrbtY',
+	format : 'Q1r5dZ6kyBu3lJGU',
 	hash : 0,
 );
 ```

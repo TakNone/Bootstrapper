@@ -2,7 +2,7 @@
 
 **Description** : *Temporary registration*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 secureValueTypeTemporaryRegistration#ea02ec33 = SecureValueType;

@@ -2,7 +2,7 @@
 
 **Description** : *A forum topic was deleted*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelAdminLogEventActionDeleteTopic#ae168909 topic:ForumTopic = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionDeleteTopic#ae168909 topic:ForumTopic = ChannelAdminLo
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionDeleteTopic(
 	topic : $client->forumTopicDeleted(
-		id : 54,
+		id : 32,
 	),
 );
 ```

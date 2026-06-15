@@ -2,7 +2,7 @@
 
 **Description** : *Successfully imported contact*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 importedContact#c13e3c50 user_id:long client_id:long = ImportedContact;
@@ -29,7 +29,7 @@ importedContact#c13e3c50 user_id:long client_id:long = ImportedContact;
 
 ```php
 $importedContact = $client->importedContact(
-	user_id : 7042914936576452246,
-	client_id : -7286806646690543681,
+	user_id : -3393691737395316046,
+	client_id : 2281765119441520324,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Turn a basic group into a supergroup*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.migrateChat#a2875319 chat_id:long = Updates;
@@ -40,6 +40,6 @@ messages.migrateChat#a2875319 chat_id:long = Updates;
 
 ```php
 $updates = $client->messages->migrateChat(
-	chat_id : 5159760546133933200,
+	chat_id : 2542507827970245227,
 );
 ```

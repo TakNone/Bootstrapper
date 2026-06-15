@@ -1,6 +1,6 @@
 # inputStarGiftAuction
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputStarGiftAuction#2e16c98 gift_id:long = InputStarGiftAuction;
@@ -26,6 +26,6 @@ inputStarGiftAuction#2e16c98 gift_id:long = InputStarGiftAuction;
 
 ```php
 $inputStarGiftAuction = $client->inputStarGiftAuction(
-	gift_id : 326717564699581968,
+	gift_id : 3106032694625096995,
 );
 ```

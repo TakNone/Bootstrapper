@@ -2,7 +2,7 @@
 
 **Description** : *User is selecting a contact to share*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 sendMessageChooseContactAction#628cbc6f = SendMessageAction;

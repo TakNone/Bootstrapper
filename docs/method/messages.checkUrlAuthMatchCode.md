@@ -1,6 +1,6 @@
 # messages.checkUrlAuthMatchCode
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.checkUrlAuthMatchCode#c9a47b0b url:string match_code:string = Bool;
@@ -28,6 +28,6 @@ messages.checkUrlAuthMatchCode#c9a47b0b url:string match_code:string = Bool;
 ```php
 $bool = $client->messages->checkUrlAuthMatchCode(
 	url : 'https://docs.liveproto.dev',
-	match_code : 'BIvWSEqPex2R74lL',
+	match_code : 'FHcfp3rAMVtCxGQL',
 );
 ```

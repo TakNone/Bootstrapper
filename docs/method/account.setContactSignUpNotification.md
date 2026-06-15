@@ -2,7 +2,7 @@
 
 **Description** : *Toggle contact sign up notifications*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.setContactSignUpNotification#cff43f61 silent:Bool = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Dismiss new pending peers recently added to a chat folder deep link &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatlists.hideChatlistUpdates#66e486fb chatlist:InputChatlist = Bool;

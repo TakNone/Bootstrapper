@@ -1,6 +1,6 @@
 # StarGiftUpgradePrice
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice;

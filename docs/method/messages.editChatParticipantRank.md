@@ -1,6 +1,6 @@
 # messages.editChatParticipantRank
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.editChatParticipantRank#a00f32b0 peer:InputPeer participant:InputPeer rank:string = Updates;
@@ -30,6 +30,6 @@ messages.editChatParticipantRank#a00f32b0 peer:InputPeer participant:InputPeer r
 $updates = $client->messages->editChatParticipantRank(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
-	rank : 'kgb9KR6FWrmcnHoJ',
+	rank : 'iFhW81fneKvHZS0V',
 );
 ```

@@ -1,6 +1,6 @@
 # starGiftActiveAuctionState
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftActiveAuctionState#d31bc45d gift:StarGift state:StarGiftAuctionState user_state:StarGiftAuctionUserState = StarGiftActiveAuctionState;
@@ -36,46 +36,46 @@ $starGiftActiveAuctionState = $client->starGiftActiveAuctionState(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : -1144202576947643689,
+		id : -2568971462832669163,
 		sticker : $client->documentEmpty(
-			id : 4977556542916974412,
+			id : 7820925408396856224,
 		),
-		stars : -2112598245593292659,
-		availability_remains : 1,
-		availability_total : 44,
-		availability_resale : 6153023330382134602,
-		convert_stars : -8072334174261247675,
-		first_sale_date : 61,
-		last_sale_date : 36,
-		upgrade_stars : -2199086026355000158,
-		resell_min_stars : 5898894332255353837,
-		title : 'NmhgKXu7bdLZH1YE',
+		stars : 1179114327600940440,
+		availability_remains : 33,
+		availability_total : 77,
+		availability_resale : -7868592574427382099,
+		convert_stars : 3069381737196850625,
+		first_sale_date : 59,
+		last_sale_date : 55,
+		upgrade_stars : 542653639825729559,
+		resell_min_stars : 4975946037665960067,
+		title : 'rRb7qSLyBiPEJMgd',
 		released_by : $client->peerUser(
-			user_id : -419115834801255160,
+			user_id : -8265993678734933392,
 		),
-		per_user_total : 73,
-		per_user_remains : 28,
+		per_user_total : 60,
+		per_user_remains : 16,
 		locked_until_date : 44,
-		auction_slug : 'yTXUQZp2Khvb68sS',
-		gifts_per_round : 45,
-		auction_start_date : 26,
-		upgrade_variants : 19,
+		auction_slug : 'F2npN3Qxaczbw0CS',
+		gifts_per_round : 31,
+		auction_start_date : 68,
+		upgrade_variants : 66,
 		background : $client->starGiftBackground(
-			center_color : 52,
-			edge_color : 27,
-			text_color : 30,
+			center_color : 14,
+			edge_color : 56,
+			text_color : 49,
 		),
 	),
 	state : $client->starGiftAuctionStateNotModified(),
 	user_state : $client->starGiftAuctionUserState(
 		returned : true,
-		bid_amount : 940402761024202427,
-		bid_date : 51,
-		min_bid_amount : -6204049539900369715,
+		bid_amount : -6380037749202919880,
+		bid_date : 87,
+		min_bid_amount : -2214354473681223975,
 		bid_peer : $client->peerUser(
-			user_id : -8345072095561381277,
+			user_id : 8828763400929070703,
 		),
-		acquired_count : 72,
+		acquired_count : 94,
 	),
 );
 ```

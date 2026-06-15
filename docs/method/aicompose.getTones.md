@@ -1,6 +1,6 @@
 # aicompose.getTones
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 aicompose.getTones#abd59201 hash:long = aicompose.Tones;

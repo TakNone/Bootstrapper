@@ -2,7 +2,7 @@
 
 **Description** : *Link to section within the page itself \(like &lt;a href=&quot;\#target&quot;&gt;anchor&lt;/a&gt;\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 pageBlockAnchor#ce0d37b0 name:string = PageBlock;
@@ -28,6 +28,6 @@ pageBlockAnchor#ce0d37b0 name:string = PageBlock;
 
 ```php
 $pageBlock = $client->pageBlockAnchor(
-	name : '9RYcjqNxf85OZnv3',
+	name : 'hX69wcAUE5bZPxoG',
 );
 ```

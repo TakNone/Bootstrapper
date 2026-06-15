@@ -2,7 +2,7 @@
 
 **Description** : *Object contains list of photos with auxiliary data*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 photos.photos#8dca6aa5 photos:Vector<Photo> users:Vector<User> = photos.Photos;

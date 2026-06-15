@@ -2,7 +2,7 @@
 
 **Description** : *Apply one or more boosts &raquo; to a peer*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 premium.applyBoost#6b7da746 flags:# slots:flags.0?Vector<int> peer:InputPeer = premium.MyBoosts;
@@ -40,7 +40,7 @@ premium.applyBoost#6b7da746 flags:# slots:flags.0?Vector<int> peer:InputPeer = p
 
 ```php
 $premiumMyBoosts = $client->premium->applyBoost(
-	slots : array(29),
+	slots : array(32),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

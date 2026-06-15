@@ -2,7 +2,7 @@
 
 **Description** : *Gets the default value of the Time\-To\-Live setting, applied to all new chats*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getDefaultHistoryTTL#658b7188 = DefaultHistoryTTL;

@@ -2,7 +2,7 @@
 
 **Description** : *Type of the verification code that was sent*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.sentCodeTypeApp#3dbb5986 length:int = auth.SentCodeType;

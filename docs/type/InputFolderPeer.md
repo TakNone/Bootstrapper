@@ -2,7 +2,7 @@
 
 **Description** : *Peer in a folder*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputFolderPeer#fbd2c296 peer:InputPeer folder_id:int = InputFolderPeer;

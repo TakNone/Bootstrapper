@@ -2,7 +2,7 @@
 
 **Description** : *List of songs \(document\.ids\) currently pinned on a user&#039;s profile, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 users.savedMusicNotModified#e3878aa4 count:int = users.SavedMusic;

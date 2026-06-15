@@ -3,7 +3,7 @@
 **Description** : *Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs\.
 Returns an intersection of the source IDs specified in sources, and the source IDs currently being forwarded by the SFU*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 phone.checkGroupCall#b59cf977 call:InputGroupCall sources:Vector<int> = Vector<int>;
@@ -40,9 +40,9 @@ phone.checkGroupCall#b59cf977 call:InputGroupCall sources:Vector<int> = Vector<i
 ```php
 $int = $client->phone->checkGroupCall(
 	call : $client->inputGroupCall(
-		id : 6954396710904513884,
-		access_hash : -18725162188925602,
+		id : -332052092394995175,
+		access_hash : -6556300867601417250,
 	),
-	sources : array(55),
+	sources : array(14),
 );
 ```

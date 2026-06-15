@@ -2,7 +2,7 @@
 
 **Description** : *Get autosave settings*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.getAutoSaveSettings#adcbbcda = account.AutoSaveSettings;

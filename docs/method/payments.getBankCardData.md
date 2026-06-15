@@ -2,7 +2,7 @@
 
 **Description** : *Get info about a credit card*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.getBankCardData#2e79d779 number:string = payments.BankCardData;
@@ -36,6 +36,6 @@ payments.getBankCardData#2e79d779 number:string = payments.BankCardData;
 
 ```php
 $paymentsBankCardData = $client->payments->getBankCardData(
-	number : 'NmuXvCs9e5hKPWVd',
+	number : 'djoc2DrO84UnI1uX',
 );
 ```

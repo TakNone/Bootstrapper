@@ -1,6 +1,6 @@
 # payments.StarGiftActiveAuctions
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.starGiftActiveAuctionsNotModified#db33dad0 = payments.StarGiftActiveAuctions;

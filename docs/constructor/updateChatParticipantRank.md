@@ -1,6 +1,6 @@
 # updateChatParticipantRank
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateChatParticipantRank#bd8367b9 chat_id:long user_id:long rank:string version:int = Update;
@@ -29,9 +29,9 @@ updateChatParticipantRank#bd8367b9 chat_id:long user_id:long rank:string version
 
 ```php
 $update = $client->updateChatParticipantRank(
-	chat_id : -7683974764731327371,
-	user_id : -3437068650056852085,
-	rank : 'CEGzhwKauBFUkOvR',
-	version : 75,
+	chat_id : 7033733006757303713,
+	user_id : 8884859219940005249,
+	rank : 'G6BVmNECJ34pZczx',
+	version : 26,
 );
 ```

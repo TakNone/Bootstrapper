@@ -2,7 +2,7 @@
 
 **Description** : *Get all installed stickers*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getAllStickers#b8a0a1a8 hash:long = messages.AllStickers;

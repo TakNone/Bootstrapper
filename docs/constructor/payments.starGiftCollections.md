@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of star gift collections &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.starGiftCollections#8a2932f3 collections:Vector<StarGiftCollection> = payments.StarGiftCollections;
@@ -30,12 +30,12 @@ payments.starGiftCollections#8a2932f3 collections:Vector<StarGiftCollection> = p
 $paymentsStarGiftCollections = $client->payments->starGiftCollections(
 	collections : array(
 		$client->starGiftCollection(
-			collection_id : 10,
-			title : 'YWIMrJE8T1cSyUCt',
+			collection_id : 92,
+			title : 'W9iUZQ8VBhaslwYy',
 			icon : $client->documentEmpty(
-				id : 3862045233409658818,
+				id : -5402824737130457261,
 			),
-			gifts_count : 74,
+			gifts_count : 35,
 			hash : 0,
 		),
 	),

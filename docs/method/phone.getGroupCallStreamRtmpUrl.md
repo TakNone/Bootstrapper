@@ -2,7 +2,7 @@
 
 **Description** : *Get RTMP URL and stream key for RTMP livestreams\. Can be used even before creating the actual RTMP livestream with phone\.createGroupCall \(the rtmp\_stream flag must be set\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 phone.getGroupCallStreamRtmpUrl#5af4c73a flags:# live_story:flags.0?true peer:InputPeer revoke:Bool = phone.GroupCallStreamRtmpUrl;

@@ -2,7 +2,7 @@
 
 **Description** : *Phone contact*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPhoneContact#6a1dc4be flags:# client_id:long phone:string first_name:string last_name:string note:flags.0?TextWithEntities = InputContact;
@@ -33,102 +33,102 @@ inputPhoneContact#6a1dc4be flags:# client_id:long phone:string first_name:string
 
 ```php
 $inputContact = $client->inputPhoneContact(
-	client_id : -22148746783148712,
+	client_id : 7898088285697016594,
 	phone : '+1234567890',
 	first_name : 'Tak',
 	last_name : 'None',
 	note : $client->textWithEntities(
-		text : '1BT2otzc9RrdyFmO',
+		text : 'QxyRIutMECljzvrs',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 64,
+				length : 56,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 58,
+				length : 56,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 80,
+				length : 29,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 14,
+				length : 71,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 24,
+				length : 12,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 84,
+				length : 67,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 54,
+				length : 2,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 94,
+				length : 66,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 31,
+				length : 88,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 53,
-				language : 'GTzk5QZU2ux96nW7',
+				length : 0,
+				language : 'VFGYfdu1D9mXogJk',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 70,
+				length : 72,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 3,
-				user_id : 871014569044134591,
+				length : 41,
+				user_id : -7886082245278551843,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 97,
+				length : 55,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 72,
+				length : 74,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 89,
+				length : 47,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 59,
+				length : 51,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 84,
+				length : 95,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 29,
+				length : 56,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 1,
+				length : 53,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 95,
-				document_id : 6354549275352906240,
+				length : 91,
+				document_id : -7649170066643008479,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 80,
+				length : 81,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -138,17 +138,17 @@ $inputContact = $client->inputPhoneContact(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 17,
-				date : 26,
+				length : 63,
+				date : 21,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 13,
+				length : 31,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 55,
-				old_text : 'pFaUsYwGfqJV2vN4',
+				length : 11,
+				old_text : 'dZoN8GTt36MFcJxs',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,

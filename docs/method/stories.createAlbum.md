@@ -2,7 +2,7 @@
 
 **Description** : *Creates a story album*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.createAlbum#a36396e5 peer:InputPeer title:string stories:Vector<int> = StoryAlbum;
@@ -39,7 +39,7 @@ stories.createAlbum#a36396e5 peer:InputPeer title:string stories:Vector<int> = S
 ```php
 $storyAlbum = $client->stories->createAlbum(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	title : 'KyCefgTDWvtSqpZU',
-	stories : array(93),
+	title : 'kGS1lPIFjYf3AJVZ',
+	stories : array(82),
 );
 ```

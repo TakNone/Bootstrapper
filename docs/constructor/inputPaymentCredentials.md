@@ -2,7 +2,7 @@
 
 **Description** : *Payment credentials*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPaymentCredentials#3417d728 flags:# save:flags.0?true data:DataJSON = InputPaymentCredentials;
@@ -32,7 +32,7 @@ inputPaymentCredentials#3417d728 flags:# save:flags.0?true data:DataJSON = Input
 $inputPaymentCredentials = $client->inputPaymentCredentials(
 	save : true,
 	data : $client->dataJSON(
-		data : '7hB8qeXa4HmtwPIG',
+		data : '8dHfzIJEiDlaLopu',
 	),
 );
 ```

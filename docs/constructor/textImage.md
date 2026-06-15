@@ -2,7 +2,7 @@
 
 **Description** : *Inline image*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 textImage#81ccf4f document_id:long w:int h:int = RichText;
@@ -30,8 +30,8 @@ textImage#81ccf4f document_id:long w:int h:int = RichText;
 
 ```php
 $richText = $client->textImage(
-	document_id : -1217603913662519442,
-	w : 92,
-	h : 51,
+	document_id : -8817225316518324170,
+	w : 37,
+	h : 19,
 );
 ```

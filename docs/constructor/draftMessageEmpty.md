@@ -2,7 +2,7 @@
 
 **Description** : *Empty draft*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 draftMessageEmpty#1b0c841a flags:# date:flags.0?int = DraftMessage;
@@ -29,6 +29,6 @@ draftMessageEmpty#1b0c841a flags:# date:flags.0?int = DraftMessage;
 
 ```php
 $draftMessage = $client->draftMessageEmpty(
-	date : 80,
+	date : 95,
 );
 ```

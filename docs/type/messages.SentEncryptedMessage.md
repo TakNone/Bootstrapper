@@ -2,7 +2,7 @@
 
 **Description** : *Contains info on message sent to an encrypted chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.sentEncryptedMessage#560f8935 date:int = messages.SentEncryptedMessage;

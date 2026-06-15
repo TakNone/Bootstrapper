@@ -1,6 +1,6 @@
 # bots.editAccessSettings
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.editAccessSettings#31813cd8 flags:# restricted:flags.0?true bot:InputUser add_users:flags.1?Vector<InputUser> = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a scope where the bot commands, specified using bots\.setBotCommands will be valid*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 botCommandScopeDefault#2f6cb2ab = BotCommandScope;

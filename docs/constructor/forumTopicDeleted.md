@@ -2,7 +2,7 @@
 
 **Description** : *Represents a deleted forum topic*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 forumTopicDeleted#23f109b id:int = ForumTopic;
@@ -28,6 +28,6 @@ forumTopicDeleted#23f109b id:int = ForumTopic;
 
 ```php
 $forumTopic = $client->forumTopicDeleted(
-	id : 86,
+	id : 94,
 );
 ```

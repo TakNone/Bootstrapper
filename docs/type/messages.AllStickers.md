@@ -2,7 +2,7 @@
 
 **Description** : *All stickers*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.allStickersNotModified#e86602c3 = messages.AllStickers;

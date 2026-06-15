@@ -2,7 +2,7 @@
 
 **Description** : *A gift received in a private chat with another user*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputSavedStarGiftUser#69279795 msg_id:int = InputSavedStarGift;
@@ -28,6 +28,6 @@ inputSavedStarGiftUser#69279795 msg_id:int = InputSavedStarGift;
 
 ```php
 $inputSavedStarGift = $client->inputSavedStarGiftUser(
-	msg_id : 4,
+	msg_id : 8,
 );
 ```

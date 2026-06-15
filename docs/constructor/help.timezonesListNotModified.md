@@ -2,7 +2,7 @@
 
 **Description** : *The timezone list has not changed*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 help.timezonesListNotModified#970708cc = help.TimezonesList;

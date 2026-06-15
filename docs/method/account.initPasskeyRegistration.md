@@ -1,6 +1,6 @@
 # account.initPasskeyRegistration
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.initPasskeyRegistration#429547e8 = account.PasskeyRegistrationOptions;

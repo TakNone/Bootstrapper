@@ -2,7 +2,7 @@
 
 **Description** : *Initiate a 2FA password reset: can only be used if the user is already logged\-in, see here for more info &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.resetPassword#9308ce1b = account.ResetPasswordResult;

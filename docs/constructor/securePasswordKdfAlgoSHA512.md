@@ -2,7 +2,7 @@
 
 **Description** : *SHA512 KDF algo*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 securePasswordKdfAlgoSHA512#86471d92 salt:bytes = SecurePasswordKdfAlgo;

@@ -2,10 +2,10 @@
 
 **Description** : *Join a channel/supergroup*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-channels.joinChannel#24b524c5 channel:InputChannel = Updates;
+channels.joinChannel#7f6a1e22 channel:InputChannel = messages.ChatInviteJoinResult;
 ```
 
 ---
@@ -20,7 +20,7 @@ channels.joinChannel#24b524c5 channel:InputChannel = Updates;
 
 ## Result
 
-[Updates](type/Updates)
+[messages.ChatInviteJoinResult](type/messages.ChatInviteJoinResult)
 
 ---
 
@@ -49,7 +49,7 @@ channels.joinChannel#24b524c5 channel:InputChannel = Updates;
 ## Example
 
 ```php
-$updates = $client->channels->joinChannel(
+$messagesChatInviteJoinResult = $client->channels->joinChannel(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 );
 ```

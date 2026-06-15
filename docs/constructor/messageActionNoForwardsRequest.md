@@ -1,6 +1,6 @@
 # messageActionNoForwardsRequest
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true prev_value:Bool new_value:Bool = MessageAction;
@@ -31,6 +31,6 @@ messageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true prev_value:
 $messageAction = $client->messageActionNoForwardsRequest(
 	expired : true,
 	prev_value : false,
-	new_value : false,
+	new_value : true,
 );
 ```

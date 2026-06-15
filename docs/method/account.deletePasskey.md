@@ -1,6 +1,6 @@
 # account.deletePasskey
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.deletePasskey#f5b5563f id:string = Bool;
@@ -26,6 +26,6 @@ account.deletePasskey#f5b5563f id:string = Bool;
 
 ```php
 $bool = $client->account->deletePasskey(
-	id : 'WTX5MgRq9Fv4AcEw',
+	id : 'CmnT5sez1ul4AEyX',
 );
 ```

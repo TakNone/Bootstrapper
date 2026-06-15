@@ -1,6 +1,6 @@
 # messages.deleteParticipantReactions
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.deleteParticipantReactions#a0b80cf8 peer:InputPeer participant:InputPeer = Bool;

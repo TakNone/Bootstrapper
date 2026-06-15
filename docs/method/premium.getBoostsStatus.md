@@ -2,7 +2,7 @@
 
 **Description** : *Gets the current number of boosts of a channel/supergroup*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 premium.getBoostsStatus#42f1f61 peer:InputPeer = premium.BoostsStatus;

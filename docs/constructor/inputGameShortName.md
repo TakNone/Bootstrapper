@@ -2,7 +2,7 @@
 
 **Description** : *Game by short name*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputGameShortName#c331e80a bot_id:InputUser short_name:string = InputGame;
@@ -30,6 +30,6 @@ inputGameShortName#c331e80a bot_id:InputUser short_name:string = InputGame;
 ```php
 $inputGame = $client->inputGameShortName(
 	bot_id : $client->get_input_user(user : '@TakNone'),
-	short_name : '7Otow6W2DKrL8xnd',
+	short_name : 'GMBOo4FTL3y1VHSa',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Information about found messages sent on a specific day, used to split the messages in messages\.searchResultsCalendar constructors by days*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 searchResultsCalendarPeriod#c9b0539f date:int min_msg_id:int max_msg_id:int count:int = SearchResultsCalendarPeriod;
@@ -32,8 +32,8 @@ searchResultsCalendarPeriod#c9b0539f date:int min_msg_id:int max_msg_id:int coun
 ```php
 $searchResultsCalendarPeriod = $client->searchResultsCalendarPeriod(
 	date : 98,
-	min_msg_id : 63,
-	max_msg_id : 27,
-	count : 65,
+	min_msg_id : 50,
+	max_msg_id : 78,
+	count : 19,
 );
 ```

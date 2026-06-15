@@ -2,7 +2,7 @@
 
 **Description** : *Photo*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputBotInlineResultPhoto#a8d864a7 id:string type:string photo:InputPhoto send_message:InputBotInlineMessage = InputBotInlineResult;
@@ -31,40 +31,40 @@ inputBotInlineResultPhoto#a8d864a7 id:string type:string photo:InputPhoto send_m
 
 ```php
 $inputBotInlineResult = $client->inputBotInlineResultPhoto(
-	id : 'qdD5WxQNHUePtfJT',
-	type : 'ZO4YCRJUGb8aHNB2',
+	id : 'zescwSjmXC4IGTWq',
+	type : 'NYP2zKVU9BF1Hvqw',
 	photo : $client->inputPhotoEmpty(),
 	send_message : $client->inputBotInlineMessageMediaAuto(
 		invert_media : true,
-		message : 'cvLieDI5TYbnZGFx',
+		message : 'eAGdrzIHEtjVLMpc',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 22,
+				length : 98,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 21,
+				length : 61,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 77,
+				length : 60,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 31,
+				length : 50,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 69,
+				length : 94,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 54,
+				length : 33,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 86,
+				length : 97,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
@@ -72,61 +72,61 @@ $inputBotInlineResult = $client->inputBotInlineResultPhoto(
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 74,
+				length : 5,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 31,
-				language : '1u8wPG5yBInXtAoE',
+				length : 16,
+				language : 'iluxJ8w3GepVR0mL',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 17,
+				length : 2,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 8,
-				user_id : -3232005983810980408,
+				length : 89,
+				user_id : -6862028876791533067,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 86,
+				length : 12,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 6,
+				length : 33,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 91,
+				length : 1,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 31,
+				length : 80,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 58,
+				length : 94,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 1,
+				length : 30,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 58,
+				length : 80,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 99,
-				document_id : -1606711551351191204,
+				length : 100,
+				document_id : -8820459660335731670,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 88,
+				length : 33,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -136,21 +136,21 @@ $inputBotInlineResult = $client->inputBotInlineResultPhoto(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 0,
-				date : 14,
+				length : 73,
+				date : 59,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 32,
+				length : 52,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 2,
-				old_text : 'KBhwILyf4vFP8Xnb',
+				length : 4,
+				old_text : '7MHV9ar2QRCk0NAE',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 1,
+				length : 16,
 			),
 		),
 		reply_markup : $client->replyKeyboardHide(

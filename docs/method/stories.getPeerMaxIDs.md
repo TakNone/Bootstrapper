@@ -2,7 +2,7 @@
 
 **Description** : *Get the IDs of the maximum read stories for a set of peers*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.getPeerMaxIDs#78499170 id:Vector<InputPeer> = Vector<RecentStory>;

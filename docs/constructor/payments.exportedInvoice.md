@@ -2,7 +2,7 @@
 
 **Description** : *Exported invoice deep link*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.exportedInvoice#aed0cbd9 url:string = payments.ExportedInvoice;

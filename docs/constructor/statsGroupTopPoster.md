@@ -2,7 +2,7 @@
 
 **Description** : *Information about an active user in a supergroup*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 statsGroupTopPoster#9d04af9b user_id:long messages:int avg_chars:int = StatsGroupTopPoster;
@@ -30,8 +30,8 @@ statsGroupTopPoster#9d04af9b user_id:long messages:int avg_chars:int = StatsGrou
 
 ```php
 $statsGroupTopPoster = $client->statsGroupTopPoster(
-	user_id : 3589445637096607227,
-	messages : 53,
-	avg_chars : 96,
+	user_id : 764981111473229642,
+	messages : 25,
+	avg_chars : 34,
 );
 ```

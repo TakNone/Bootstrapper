@@ -2,7 +2,7 @@
 
 **Description** : *Search for stickers using AI\-powered keyword search*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.searchStickers#29b1c66a flags:# emojis:flags.0?true q:string emoticon:string lang_code:Vector<string> offset:int limit:int hash:long = messages.FoundStickers;
@@ -36,11 +36,11 @@ messages.searchStickers#29b1c66a flags:# emojis:flags.0?true q:string emoticon:s
 ```php
 $messagesFoundStickers = $client->messages->searchStickers(
 	emojis : true,
-	q : 't8SpJCHGMDcFkWXw',
-	emoticon : '2RkhCXPZYq6AvOcj',
-	lang_code : array('apHNnQuICB2dk0mx'),
+	q : 'KrZlANFQBbVpiTH1',
+	emoticon : 'OYzWl1iFRjufP5pa',
+	lang_code : array('UZsM97vWwVF0h3Tr'),
 	offset : 0,
-	limit : 87,
+	limit : 100,
 	hash : 0,
 );
 ```

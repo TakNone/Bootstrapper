@@ -2,7 +2,7 @@
 
 **Description** : *Defines a video*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 documentAttributeVideo#43c57c48 flags:# round_message:flags.0?true supports_streaming:flags.1?true nosound:flags.3?true duration:double w:int h:int preload_prefix_size:flags.2?int video_start_ts:flags.4?double video_codec:flags.5?string = DocumentAttribute;
@@ -40,11 +40,11 @@ $documentAttribute = $client->documentAttributeVideo(
 	round_message : true,
 	supports_streaming : true,
 	nosound : true,
-	duration : 870581.8037109375,
-	w : 56,
-	h : 52,
-	preload_prefix_size : 42,
-	video_start_ts : -1248159.111328125,
-	video_codec : 'LQosm5vbW0tPxXcC',
+	duration : -2080715.541015625,
+	w : 18,
+	h : 53,
+	preload_prefix_size : 23,
+	video_start_ts : 708407.611328125,
+	video_codec : 'p26V5kQKTluqt8UO',
 );
 ```

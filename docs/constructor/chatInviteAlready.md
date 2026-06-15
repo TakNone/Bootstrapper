@@ -2,7 +2,7 @@
 
 **Description** : *The user has already joined this chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatInviteAlready#5a686d7c chat:Chat = ChatInvite;
@@ -29,7 +29,7 @@ chatInviteAlready#5a686d7c chat:Chat = ChatInvite;
 ```php
 $chatInvite = $client->chatInviteAlready(
 	chat : $client->chatEmpty(
-		id : 2363145343139424731,
+		id : -5700904591878196253,
 	),
 );
 ```

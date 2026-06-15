@@ -2,7 +2,7 @@
 
 **Description** : *Get preview of webpage*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getWebPagePreview#570d6f6f flags:# message:string entities:flags.3?Vector<MessageEntity> = messages.WebPagePreview;
@@ -39,67 +39,67 @@ messages.getWebPagePreview#570d6f6f flags:# message:string entities:flags.3?Vect
 
 ```php
 $messagesWebPagePreview = $client->messages->getWebPagePreview(
-	message : 'UebP16JgIOMilF4k',
+	message : 'MO4CTNnS0cKv6byl',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 55,
+			length : 37,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 50,
+			length : 36,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 3,
+			length : 66,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 31,
+			length : 54,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 8,
+			length : 21,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 82,
+			length : 97,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 34,
+			length : 38,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 47,
+			length : 29,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 21,
+			length : 30,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 12,
-			language : 'csN40IqtiMO2L3lA',
+			length : 22,
+			language : 'GBgCrpLxNdoMWwQ5',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 23,
+			length : 56,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 23,
-			user_id : -2831011329097131755,
+			length : 83,
+			user_id : 3956253006719161418,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 42,
+			length : 67,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 27,
+			length : 24,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
@@ -107,29 +107,29 @@ $messagesWebPagePreview = $client->messages->getWebPagePreview(
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 70,
+			length : 38,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 29,
+			length : 4,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 35,
+			length : 54,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 54,
+			length : 30,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 51,
-			document_id : -2233924813732229779,
+			length : 16,
+			document_id : -457522203193124075,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 95,
+			length : 62,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -139,21 +139,21 @@ $messagesWebPagePreview = $client->messages->getWebPagePreview(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 34,
-			date : 62,
+			length : 8,
+			date : 51,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 20,
+			length : 91,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 86,
-			old_text : 'sNARWLtS5qbmI0EC',
+			length : 33,
+			old_text : '56lkgEBXxuaU9CtZ',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 75,
+			length : 60,
 		),
 	),
 );

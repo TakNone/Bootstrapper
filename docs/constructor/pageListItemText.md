@@ -2,10 +2,10 @@
 
 **Description** : *List item*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-pageListItemText#b92fb6cd text:RichText = PageListItem;
+pageListItemText#2f58683c flags:# checkbox:flags.0?true checked:flags.1?true text:RichText = PageListItem;
 ```
 
 ---
@@ -14,6 +14,9 @@ pageListItemText#b92fb6cd text:RichText = PageListItem;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **checkbox** | [`flags.0?true`](type/true) | NOTHING |
+| **checked** | [`flags.1?true`](type/true) | NOTHING |
 | <mark>text</mark> | [`RichText`](type/RichText) | Text |
 
 ---
@@ -28,6 +31,8 @@ pageListItemText#b92fb6cd text:RichText = PageListItem;
 
 ```php
 $pageListItem = $client->pageListItemText(
+	checkbox : true,
+	checked : true,
 	text : $client->textEmpty(),
 );
 ```

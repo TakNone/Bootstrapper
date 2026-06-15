@@ -2,7 +2,7 @@
 
 **Description** : *Result of stickerset installation process*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.stickerSetInstallResultSuccess#38641628 = messages.StickerSetInstallResult;

@@ -1,6 +1,6 @@
 # messages.getUnreadPollVotes
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getUnreadPollVotes#43286cf2 flags:# peer:InputPeer top_msg_id:flags.0?int offset_id:int add_offset:int limit:int max_id:int min_id:int = messages.Messages;
@@ -34,11 +34,11 @@ messages.getUnreadPollVotes#43286cf2 flags:# peer:InputPeer top_msg_id:flags.0?i
 ```php
 $messagesMessages = $client->messages->getUnreadPollVotes(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 36,
+	top_msg_id : 35,
 	offset_id : 0,
-	add_offset : 23,
-	limit : 80,
-	max_id : 37,
-	min_id : 27,
+	add_offset : 16,
+	limit : 95,
+	max_id : 67,
+	min_id : 62,
 );
 ```

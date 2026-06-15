@@ -2,7 +2,7 @@
 
 **Description** : *Object describes a photo*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 photoEmpty#2331b22d id:long = Photo;

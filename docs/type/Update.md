@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on events occurred*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
@@ -99,7 +99,7 @@ updateBotStopped#c4870a49 user_id:long date:int stopped:Bool qts:int = Update;
 updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJSON = Update;
 updateBotCommands#4d712f2e peer:Peer bot_id:long commands:Vector<BotCommand> = Update;
 updatePendingJoinRequests#7063c3db peer:Peer requests_pending:int recent_requesters:Vector<long> = Update;
-updateBotChatInviteRequester#11dfa986 peer:Peer date:int user_id:long about:string invite:ExportedChatInvite qts:int = Update;
+updateBotChatInviteRequester#7cb34d79 flags:# peer:Peer date:int user_id:long about:string invite:ExportedChatInvite qts:int query_id:flags.0?long = Update;
 updateMessageReactions#1e297bfa flags:# peer:Peer msg_id:int top_msg_id:flags.0?int saved_peer_id:flags.1?Peer reactions:MessageReactions = Update;
 updateAttachMenuBots#17b7a20b = Update;
 updateWebViewResultSent#1592b79d query_id:long = Update;
@@ -161,6 +161,10 @@ updateChatParticipantRank#bd8367b9 chat_id:long user_id:long rank:string version
 updateManagedBot#4880ed9a user_id:long bot_id:long qts:int = Update;
 updateBotGuestChatQuery#cdd4093d flags:# query_id:long message:Message reference_messages:flags.0?Vector<Message> qts:int = Update;
 updateAiComposeTones#8c0f91fb = Update;
+updateJoinChatWebViewDecision#bdac7e70 peer:Peer query_id:long result:JoinChatBotResult = Update;
+updateNewBotConnection#b22083a6 flags:# confirmed:flags.0?true bot_id:long date:flags.1?int device:flags.1?string location:flags.1?string = Update;
+updateWebBrowserSettings#c39a2ade flags:# open_external_browser:flags.0?true display_close_button:flags.1?true = Update;
+updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_browser:flags.0?Bool exception:WebDomainException = Update;
 ```
 
 ---
@@ -325,3 +329,7 @@ updateAiComposeTones#8c0f91fb = Update;
 | [**updateManagedBot**](constructor/updateManagedBot) | NOTHING |
 | [**updateBotGuestChatQuery**](constructor/updateBotGuestChatQuery) | NOTHING |
 | [**updateAiComposeTones**](constructor/updateAiComposeTones) | NOTHING |
+| [**updateJoinChatWebViewDecision**](constructor/updateJoinChatWebViewDecision) | NOTHING |
+| [**updateNewBotConnection**](constructor/updateNewBotConnection) | NOTHING |
+| [**updateWebBrowserSettings**](constructor/updateWebBrowserSettings) | NOTHING |
+| [**updateWebBrowserException**](constructor/updateWebBrowserException) | NOTHING |

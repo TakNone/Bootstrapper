@@ -1,6 +1,6 @@
 # stats.getPollStats
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stats.getPollStats#c27dfa68 flags:# dark:flags.0?true peer:InputPeer msg_id:int = stats.PollStats;
@@ -31,6 +31,6 @@ stats.getPollStats#c27dfa68 flags:# dark:flags.0?true peer:InputPeer msg_id:int 
 $statsPollStats = $client->stats->getPollStats(
 	dark : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 4,
+	msg_id : 48,
 );
 ```

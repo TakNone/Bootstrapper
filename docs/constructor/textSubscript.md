@@ -2,7 +2,7 @@
 
 **Description** : *Subscript text*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 textSubscript#ed6a8504 text:RichText = RichText;

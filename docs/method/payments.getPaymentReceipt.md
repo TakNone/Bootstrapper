@@ -2,7 +2,7 @@
 
 **Description** : *Get payment receipt*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.getPaymentReceipt#2478d1cc peer:InputPeer msg_id:int = payments.PaymentReceipt;
@@ -38,6 +38,6 @@ payments.getPaymentReceipt#2478d1cc peer:InputPeer msg_id:int = payments.Payment
 ```php
 $paymentsPaymentReceipt = $client->payments->getPaymentReceipt(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 36,
+	msg_id : 10,
 );
 ```

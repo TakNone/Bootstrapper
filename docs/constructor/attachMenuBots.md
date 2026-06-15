@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of bot mini apps that can be launched from the attachment menu &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 attachMenuBots#3c4301c0 hash:long bots:Vector<AttachMenuBot> users:Vector<User> = AttachMenuBots;
@@ -39,8 +39,8 @@ $attachMenuBots = $client->attachMenuBots(
 			show_in_attach_menu : true,
 			show_in_side_menu : true,
 			side_menu_disclaimer_needed : true,
-			bot_id : 5753841948363841267,
-			short_name : 'YnTiH1ohdt3su0K6',
+			bot_id : -8070063280749959280,
+			short_name : 'aWR54MDu8meOp6vw',
 			peer_types : array(
 				$client->attachMenuPeerTypeSameBotPM(),
 				$client->attachMenuPeerTypeBotPM(),
@@ -50,14 +50,14 @@ $attachMenuBots = $client->attachMenuBots(
 			),
 			icons : array(
 				$client->attachMenuBotIcon(
-					name : 'B06lsoF9yOMETWbu',
+					name : 'LYNEHofdtv8W3nBM',
 					icon : $client->documentEmpty(
-						id : -8369118779525125899,
+						id : 917652407605720982,
 					),
 					colors : array(
 						$client->attachMenuBotIconColor(
-							name : 'nkY3gBCxOi8mcJv7',
-							color : 6,
+							name : 'lp49QEwNUVADMRCh',
+							color : 56,
 						),
 					),
 				),
@@ -66,7 +66,7 @@ $attachMenuBots = $client->attachMenuBots(
 	),
 	users : array(
 		$client->userEmpty(
-			id : -7471354291233678474,
+			id : 686951289159346028,
 		),
 		$client->user(
 			self : true,
@@ -98,24 +98,25 @@ $attachMenuBots = $client->attachMenuBots(
 			bot_forum_can_manage_topics : true,
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
-			id : -1245658585842247413,
-			access_hash : -7990556756188456098,
+			bot_guard : true,
+			id : 6199336953226356467,
+			access_hash : 2369217141475656236,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 19,
+			bot_info_version : 2,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'jRioVcLMK2lJAqym',
-					reason : 'J1hFP9M37VEsHNY8',
-					text : 'XFKMQntbzI9hRYiJ',
+					platform : 'Im5whOFMWpiBJ93g',
+					reason : 'tHMYnC7JPVEFQW82',
+					text : 'y3ftcBdFs2M7vLx1',
 				),
 			),
-			bot_inline_placeholder : 'aQYe1VvpkCUxBDfZ',
-			lang_code : 'bpHdSWLIev7oP0Dy',
+			bot_inline_placeholder : 'AWNM5mRCT78KcHwU',
+			lang_code : 'XMvF60QNDT1tU97y',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -126,19 +127,19 @@ $attachMenuBots = $client->attachMenuBots(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 37,
+				max_id : 61,
 			),
 			color : $client->peerColor(
-				color : 63,
-				background_emoji_id : 2912141340817915625,
+				color : 50,
+				background_emoji_id : -2647664265030982368,
 			),
 			profile_color : $client->peerColor(
-				color : 8,
-				background_emoji_id : -2047283495554330727,
+				color : 18,
+				background_emoji_id : 2381322415508178547,
 			),
-			bot_active_users : 48,
-			bot_verification_icon : -100074334502735790,
-			send_paid_messages_stars : -143957646654513816,
+			bot_active_users : 78,
+			bot_verification_icon : 1615231188137278761,
+			send_paid_messages_stars : 6650319184148732717,
 		),
 	),
 );

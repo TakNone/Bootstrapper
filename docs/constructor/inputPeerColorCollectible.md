@@ -1,6 +1,6 @@
 # inputPeerColorCollectible
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPeerColorCollectible#b8ea86a9 collectible_id:long = PeerColor;
@@ -26,6 +26,6 @@ inputPeerColorCollectible#b8ea86a9 collectible_id:long = PeerColor;
 
 ```php
 $peerColor = $client->inputPeerColorCollectible(
-	collectible_id : -4532071530818723984,
+	collectible_id : 6400488858569335497,
 );
 ```

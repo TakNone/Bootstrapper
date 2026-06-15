@@ -2,7 +2,7 @@
 
 **Description** : *How users voted on a certain poll answer*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 pollAnswerVoters#3645230a flags:# chosen:flags.0?true correct:flags.1?true option:bytes voters:flags.2?int recent_voters:flags.2?Vector<Peer> = PollAnswerVoters;

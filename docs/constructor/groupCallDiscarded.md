@@ -2,7 +2,7 @@
 
 **Description** : *An ended group call*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 groupCallDiscarded#7780bcb4 id:long access_hash:long duration:int = GroupCall;
@@ -30,8 +30,8 @@ groupCallDiscarded#7780bcb4 id:long access_hash:long duration:int = GroupCall;
 
 ```php
 $groupCall = $client->groupCallDiscarded(
-	id : 1404689977166260881,
-	access_hash : -2551523536920112128,
-	duration : 92,
+	id : -7508194028282344814,
+	access_hash : -4744047011860529319,
+	duration : 75,
 );
 ```

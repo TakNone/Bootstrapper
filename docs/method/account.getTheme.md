@@ -2,7 +2,7 @@
 
 **Description** : *Get theme information*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.getTheme#3a5869ec format:string theme:InputTheme = Theme;
@@ -39,10 +39,10 @@ account.getTheme#3a5869ec format:string theme:InputTheme = Theme;
 
 ```php
 $theme = $client->account->getTheme(
-	format : '2MXfAei64Ovl97Ho',
+	format : '9zx1AHhnFfD50oGk',
 	theme : $client->inputTheme(
-		id : -4975440295708661930,
-		access_hash : -6360292811356969795,
+		id : 3472022063723737366,
+		access_hash : 5353337680075546943,
 	),
 );
 ```

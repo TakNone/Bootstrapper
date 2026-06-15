@@ -2,7 +2,7 @@
 
 **Description** : *Unknown KDF \(most likely, the client is outdated and does not support the specified KDF algorithm\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 passwordKdfAlgoUnknown#d45ab096 = PasswordKdfAlgo;

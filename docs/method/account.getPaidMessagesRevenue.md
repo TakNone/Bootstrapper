@@ -2,7 +2,7 @@
 
 **Description** : *Get the number of stars we have received from the specified user thanks to paid messages &raquo;; the received amount will be equal to the sent amount multiplied by stars\_paid\_message\_commission\_permille divided by 1000*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.getPaidMessagesRevenue#19ba4a67 flags:# parent_peer:flags.0?InputPeer user_id:InputUser = account.PaidMessagesRevenue;

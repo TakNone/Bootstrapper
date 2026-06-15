@@ -2,10 +2,10 @@
 
 **Description** : *Contains info about a connected business bot &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients rights:BusinessBotRights = ConnectedBot;
+connectedBot#33ed001 flags:# bot_id:long recipients:BusinessBotRecipients rights:BusinessBotRights device:flags.0?string date:flags.1?int location:flags.2?string = ConnectedBot;
 ```
 
 ---
@@ -18,6 +18,9 @@ connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients right
 | <mark>bot_id</mark> | [`long`](type/long) | ID of the connected bot |
 | <mark>recipients</mark> | [`BusinessBotRecipients`](type/BusinessBotRecipients) | Specifies the private chats that a connected business bot » may receive messages and interact with |
 | <mark>rights</mark> | [`BusinessBotRights`](type/BusinessBotRights) | Business bot rights |
+| **device** | [`flags.0?string`](type/string) | NOTHING |
+| **date** | [`flags.1?int`](type/int) | NOTHING |
+| **location** | [`flags.2?string`](type/string) | NOTHING |
 
 ---
 
@@ -31,15 +34,15 @@ connectedBot#cd64636c flags:# bot_id:long recipients:BusinessBotRecipients right
 
 ```php
 $connectedBot = $client->connectedBot(
-	bot_id : 7186270743642091616,
+	bot_id : 9146383116881423867,
 	recipients : $client->businessBotRecipients(
 		existing_chats : true,
 		new_chats : true,
 		contacts : true,
 		non_contacts : true,
 		exclude_selected : true,
-		users : array(-3852958997192078928),
-		exclude_users : array(3388709343342020539),
+		users : array(3193263964919944364),
+		exclude_users : array(-3907539845350031937),
 	),
 	rights : $client->businessBotRights(
 		reply : true,
@@ -57,5 +60,8 @@ $connectedBot = $client->connectedBot(
 		transfer_stars : true,
 		manage_stories : true,
 	),
+	device : 'sPRi7uvt2lYpyhVH',
+	date : 95,
+	location : 'XfQB8K0wWhD5I1lz',
 );
 ```

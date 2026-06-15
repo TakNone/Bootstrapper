@@ -2,7 +2,7 @@
 
 **Description** : *Specifies options that will be used to generate the link preview for the message, or even a standalone link preview without an attached message*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputBotInlineMessageMediaWebPage#bddcc510 flags:# invert_media:flags.3?true force_large_media:flags.4?true force_small_media:flags.5?true optional:flags.6?true message:string entities:flags.1?Vector<MessageEntity> url:string reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
@@ -40,97 +40,97 @@ $inputBotInlineMessage = $client->inputBotInlineMessageMediaWebPage(
 	force_large_media : true,
 	force_small_media : true,
 	optional : true,
-	message : 'b3IyAOq9ofiY6UcD',
+	message : 'eQlfhbruPy9aOsVJ',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 50,
+			length : 88,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 0,
+			length : 92,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 11,
+			length : 77,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 84,
+			length : 42,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 35,
+			length : 100,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 35,
+			length : 25,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 86,
+			length : 73,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 2,
+			length : 98,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 6,
+			length : 16,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 22,
-			language : 'xzk5DfHY9ngtuVPQ',
+			length : 40,
+			language : '9g8ztOZTVuLinyfW',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 45,
+			length : 95,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 23,
-			user_id : 712389531277842190,
+			length : 12,
+			user_id : -8384967824424991806,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 35,
+			length : 31,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 77,
+			length : 73,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 10,
+			length : 18,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 29,
+			length : 57,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 69,
+			length : 13,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 16,
+			length : 53,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 61,
+			length : 39,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 15,
-			document_id : 5766658156541195136,
+			length : 72,
+			document_id : -7952761328061292145,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 54,
+			length : 58,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -140,21 +140,21 @@ $inputBotInlineMessage = $client->inputBotInlineMessageMediaWebPage(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 92,
-			date : 77,
+			length : 81,
+			date : 55,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 89,
+			length : 82,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 51,
-			old_text : 'fnMXQpIkHVqNbcrz',
+			length : 75,
+			old_text : '3dOJDYpRFzXZCoSV',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 39,
+			length : 95,
 		),
 	),
 	url : 'https://docs.liveproto.dev',

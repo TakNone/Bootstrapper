@@ -1,6 +1,6 @@
 # starGiftAttributeRarityLegendary
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftAttributeRarityLegendary#cef7e7a8 = StarGiftAttributeRarity;

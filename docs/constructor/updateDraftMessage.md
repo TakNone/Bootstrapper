@@ -2,7 +2,7 @@
 
 **Description** : *Notifies a change of a message draft*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateDraftMessage#edfc111e flags:# peer:Peer top_msg_id:flags.0?int saved_peer_id:flags.1?Peer draft:DraftMessage = Update;
@@ -33,14 +33,14 @@ updateDraftMessage#edfc111e flags:# peer:Peer top_msg_id:flags.0?int saved_peer_
 ```php
 $update = $client->updateDraftMessage(
 	peer : $client->peerUser(
-		user_id : 1476370704031315258,
+		user_id : -7272582063700094531,
 	),
-	top_msg_id : 32,
+	top_msg_id : 89,
 	saved_peer_id : $client->peerUser(
-		user_id : -784793106794315317,
+		user_id : -586567970787404484,
 	),
 	draft : $client->draftMessageEmpty(
-		date : 52,
+		date : 20,
 	),
 );
 ```

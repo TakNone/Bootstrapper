@@ -2,7 +2,7 @@
 
 **Description** : *JSON boolean value*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 jsonBool#c7345e6a value:Bool = JSONValue;
@@ -28,6 +28,6 @@ jsonBool#c7345e6a value:Bool = JSONValue;
 
 ```php
 $jSONValue = $client->jsonBool(
-	value : false,
+	value : true,
 );
 ```

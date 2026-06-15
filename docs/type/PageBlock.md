@@ -2,7 +2,7 @@
 
 **Description** : *Represents an instant view page element*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 pageBlockUnsupported#13567e8a = PageBlock;
@@ -19,8 +19,8 @@ pageBlockAnchor#ce0d37b0 name:string = PageBlock;
 pageBlockList#e4e88011 items:Vector<PageListItem> = PageBlock;
 pageBlockBlockquote#263d7c26 text:RichText caption:RichText = PageBlock;
 pageBlockPullquote#4f4456d3 text:RichText caption:RichText = PageBlock;
-pageBlockPhoto#1759c560 flags:# photo_id:long caption:PageCaption url:flags.0?string webpage_id:flags.0?long = PageBlock;
-pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true video_id:long caption:PageCaption = PageBlock;
+pageBlockPhoto#1759c560 flags:# spoiler:flags.1?true photo_id:long caption:PageCaption url:flags.0?string webpage_id:flags.0?long = PageBlock;
+pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true spoiler:flags.2?true video_id:long caption:PageCaption = PageBlock;
 pageBlockCover#39f23300 cover:PageBlock = PageBlock;
 pageBlockEmbed#a8718dc5 flags:# full_width:flags.0?true allow_scrolling:flags.3?true url:flags.1?string html:flags.2?string poster_photo_id:flags.4?long w:flags.5?int h:flags.5?int caption:PageCaption = PageBlock;
 pageBlockEmbedPost#f259a80b url:string webpage_id:long author_photo_id:long author:string date:int blocks:Vector<PageBlock> caption:PageCaption = PageBlock;
@@ -30,10 +30,20 @@ pageBlockChannel#ef1751b5 channel:Chat = PageBlock;
 pageBlockAudio#804361ea audio_id:long caption:PageCaption = PageBlock;
 pageBlockKicker#1e148390 text:RichText = PageBlock;
 pageBlockTable#bf4dea82 flags:# bordered:flags.0?true striped:flags.1?true title:RichText rows:Vector<PageTableRow> = PageBlock;
-pageBlockOrderedList#9a8ae1e1 items:Vector<PageListOrderedItem> = PageBlock;
+pageBlockOrderedList#1fd6f6c1 flags:# reversed:flags.2?true items:Vector<PageListOrderedItem> start:flags.0?int type:flags.1?string = PageBlock;
 pageBlockDetails#76768bed flags:# open:flags.0?true blocks:Vector<PageBlock> title:RichText = PageBlock;
 pageBlockRelatedArticles#16115a96 title:RichText articles:Vector<PageRelatedArticle> = PageBlock;
 pageBlockMap#a44f3ef6 geo:GeoPoint zoom:int w:int h:int caption:PageCaption = PageBlock;
+pageBlockHeading1#baff072f text:RichText = PageBlock;
+pageBlockHeading2#96b2aec text:RichText = PageBlock;
+pageBlockHeading3#67e731ad text:RichText = PageBlock;
+pageBlockHeading4#b532772b text:RichText = PageBlock;
+pageBlockHeading5#dbbe6c6a text:RichText = PageBlock;
+pageBlockHeading6#682a41a9 text:RichText = PageBlock;
+pageBlockMath#59080c20 source:string = PageBlock;
+pageBlockThinking#3c29a3e2 text:RichText = PageBlock;
+inputPageBlockMap#574b617f geo:InputGeoPoint zoom:int w:int h:int caption:PageCaption = PageBlock;
+pageBlockBlockquoteBlocks#e6e47c4 blocks:Vector<PageBlock> caption:RichText = PageBlock;
 ```
 
 ---
@@ -71,3 +81,13 @@ pageBlockMap#a44f3ef6 geo:GeoPoint zoom:int w:int h:int caption:PageCaption = Pa
 | [**pageBlockDetails**](constructor/pageBlockDetails) | A collapsible details block |
 | [**pageBlockRelatedArticles**](constructor/pageBlockRelatedArticles) | Related articles |
 | [**pageBlockMap**](constructor/pageBlockMap) | A map |
+| [**pageBlockHeading1**](constructor/pageBlockHeading1) | NOTHING |
+| [**pageBlockHeading2**](constructor/pageBlockHeading2) | NOTHING |
+| [**pageBlockHeading3**](constructor/pageBlockHeading3) | NOTHING |
+| [**pageBlockHeading4**](constructor/pageBlockHeading4) | NOTHING |
+| [**pageBlockHeading5**](constructor/pageBlockHeading5) | NOTHING |
+| [**pageBlockHeading6**](constructor/pageBlockHeading6) | NOTHING |
+| [**pageBlockMath**](constructor/pageBlockMath) | NOTHING |
+| [**pageBlockThinking**](constructor/pageBlockThinking) | NOTHING |
+| [**inputPageBlockMap**](constructor/inputPageBlockMap) | NOTHING |
+| [**pageBlockBlockquoteBlocks**](constructor/pageBlockBlockquoteBlocks) | NOTHING |

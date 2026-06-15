@@ -2,7 +2,7 @@
 
 **Description** : *Get the number of results that would be found by a messages\.search call with the same parameters*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getSearchCounters#1bbcf300 flags:# peer:InputPeer saved_peer_id:flags.2?InputPeer top_msg_id:flags.0?int filters:Vector<MessagesFilter> = Vector<messages.SearchCounter>;
@@ -42,7 +42,7 @@ messages.getSearchCounters#1bbcf300 flags:# peer:InputPeer saved_peer_id:flags.2
 $messagesSearchCounter = $client->messages->getSearchCounters(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 68,
+	top_msg_id : 5,
 	filters : array(
 		$client->inputMessagesFilterEmpty(),
 		$client->inputMessagesFilterPhotos(),

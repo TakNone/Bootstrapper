@@ -2,7 +2,7 @@
 
 **Description** : *Registers a validated phone number in the system*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.signUp#aac7b717 flags:# no_joined_notifications:flags.0?true phone_number:string phone_code_hash:string first_name:string last_name:string = auth.Authorization;

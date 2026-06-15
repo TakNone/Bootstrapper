@@ -2,7 +2,7 @@
 
 **Description** : *Some messages were pinned in a chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updatePinnedMessages#ed85eab5 flags:# pinned:flags.0?true peer:Peer messages:Vector<int> pts:int pts_count:int = Update;
@@ -35,10 +35,10 @@ updatePinnedMessages#ed85eab5 flags:# pinned:flags.0?true peer:Peer messages:Vec
 $update = $client->updatePinnedMessages(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : -9159844254507911925,
+		user_id : -4882711756532474948,
 	),
-	messages : array(65),
-	pts : 19,
-	pts_count : 64,
+	messages : array(19),
+	pts : 24,
+	pts_count : 32,
 );
 ```

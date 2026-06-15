@@ -2,7 +2,7 @@
 
 **Description** : *Keywords for a certain sticker*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stickerKeyword#fcfeb29c document_id:long keyword:Vector<string> = StickerKeyword;

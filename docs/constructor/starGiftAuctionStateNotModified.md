@@ -1,6 +1,6 @@
 # starGiftAuctionStateNotModified
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftAuctionStateNotModified#fe333952 = StarGiftAuctionState;

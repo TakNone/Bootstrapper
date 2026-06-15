@@ -2,7 +2,7 @@
 
 **Description** : *User is recording a video*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 sendMessageRecordVideoAction#a187d66f = SendMessageAction;

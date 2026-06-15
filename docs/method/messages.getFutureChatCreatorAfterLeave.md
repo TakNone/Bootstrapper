@@ -1,6 +1,6 @@
 # messages.getFutureChatCreatorAfterLeave
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getFutureChatCreatorAfterLeave#3b7d0ea6 peer:InputPeer = User;

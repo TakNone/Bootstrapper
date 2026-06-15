@@ -2,7 +2,7 @@
 
 **Description** : *No new reactions are available*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.availableReactionsNotModified#9f071957 = messages.AvailableReactions;

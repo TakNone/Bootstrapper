@@ -2,7 +2,7 @@
 
 **Description** : *Statistics value couple; initial and final value for period of time currently in consideration*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 statsAbsValueAndPrev#cb43acde current:double previous:double = StatsAbsValueAndPrev;
@@ -29,7 +29,7 @@ statsAbsValueAndPrev#cb43acde current:double previous:double = StatsAbsValueAndP
 
 ```php
 $statsAbsValueAndPrev = $client->statsAbsValueAndPrev(
-	current : 659747.6767578125,
-	previous : 976780.4208984375,
+	current : 1024794.41015625,
+	previous : -1547054.919921875,
 );
 ```

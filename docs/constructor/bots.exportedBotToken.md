@@ -1,6 +1,6 @@
 # bots.exportedBotToken
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.exportedBotToken#3c60b621 token:string = bots.ExportedBotToken;
@@ -26,6 +26,6 @@ bots.exportedBotToken#3c60b621 token:string = bots.ExportedBotToken;
 
 ```php
 $botsExportedBotToken = $client->bots->exportedBotToken(
-	token : 'fvhns0PXGHgtzmBc',
+	token : 'FlXjraRTUovCePgq',
 );
 ```

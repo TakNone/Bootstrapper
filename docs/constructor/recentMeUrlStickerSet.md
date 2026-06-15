@@ -2,7 +2,7 @@
 
 **Description** : *Recent t\.me stickerset installation URL*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 recentMeUrlStickerSet#bc0a57dc url:string set:StickerSetCovered = RecentMeUrl;
@@ -39,50 +39,50 @@ $recentMeUrl = $client->recentMeUrlStickerSet(
 			text_color : true,
 			channel_emoji_status : true,
 			creator : true,
-			installed_date : 74,
-			id : 8820001693887910754,
-			access_hash : -6531261626516794909,
-			title : 'yvhl4m0SeQFBoH2K',
-			short_name : 'NeXJ1gShVDqfAmTc',
+			installed_date : 35,
+			id : 271553476079648442,
+			access_hash : 4886689030992709414,
+			title : 'iRWHSMf0XY51mh3g',
+			short_name : 'qE2Ihs0RaLmAwlYu',
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'fACuH97JNywcshQR',
+					type : '3RKIos75jBGpQtlY',
 				),
 				$client->photoSize(
-					type : 'bLB3PrIxFeDvZMAS',
-					w : 38,
-					h : 84,
-					size : 26,
+					type : 'jDWgQ9mrSbdVu0Ba',
+					w : 61,
+					h : 100,
+					size : 12,
 				),
 				$client->photoCachedSize(
-					type : 'buRBhZApWKviode0',
-					w : 48,
-					h : 90,
+					type : 'U4FOfsrjiuHCRXqK',
+					w : 73,
+					h : 75,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'OQgd8Sl3EvY90eTt',
+					type : 'tgIZBA4jqk7o5Gcx',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'fzdVp69DbvFOsQoP',
-					w : 60,
-					h : 16,
-					sizes : array(33),
+					type : 'Fi48aNQkg1ZdyCsX',
+					w : 31,
+					h : 56,
+					sizes : array(0),
 				),
 				$client->photoPathSize(
-					type : 'EOHNl46jswo9Dicu',
+					type : 'lfxy1hFdk6UE4G83',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
-			thumb_dc_id : 2,
-			thumb_version : 88,
-			thumb_document_id : 2359568007905365670,
-			count : 63,
+			thumb_dc_id : 7,
+			thumb_version : 65,
+			thumb_document_id : -5154568813400850941,
+			count : 66,
 			hash : 0,
 		),
 		cover : $client->documentEmpty(
-			id : 6987988024505621153,
+			id : 8366723603726305335,
 		),
 	),
 );

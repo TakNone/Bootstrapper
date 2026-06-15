@@ -1,6 +1,6 @@
 # bots.ExportedBotToken
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.exportedBotToken#3c60b621 token:string = bots.ExportedBotToken;

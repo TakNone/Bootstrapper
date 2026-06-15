@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for a giveaway, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputStorePaymentPremiumGiveaway#160544ca flags:# only_new_subscribers:flags.0?true winners_are_visible:flags.3?true boost_peer:InputPeer additional_peers:flags.1?Vector<InputPeer> countries_iso2:flags.2?Vector<string> prize_description:flags.4?string random_id:long until_date:int currency:string amount:long = InputStorePaymentPurpose;
@@ -42,11 +42,11 @@ $inputStorePaymentPurpose = $client->inputStorePaymentPremiumGiveaway(
 	winners_are_visible : true,
 	boost_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	additional_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	countries_iso2 : array('uWrGxEah5Ztgp803'),
-	prize_description : 'JGz0nhWBFEd1uwD4',
-	random_id : -4216734464320239135,
-	until_date : 12,
-	currency : 'AEDR6N4xiom3U7Vd',
-	amount : -8529581478246536169,
+	countries_iso2 : array('FCpytEOH73RlqIP1'),
+	prize_description : 'bXpuONgaJ1foStCU',
+	random_id : -6743503685423878340,
+	until_date : 44,
+	currency : 'PlSeYidtc9FEx6aW',
+	amount : 2619166173223556661,
 );
 ```

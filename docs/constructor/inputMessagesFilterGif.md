@@ -2,7 +2,7 @@
 
 **Description** : *Return only messages containing gifs*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputMessagesFilterGif#ffc86587 = MessagesFilter;

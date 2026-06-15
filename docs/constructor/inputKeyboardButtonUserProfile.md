@@ -2,7 +2,7 @@
 
 **Description** : *Button that links directly to a user profile*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputKeyboardButtonUserProfile#7d5e07c7 flags:# style:flags.10?KeyboardButtonStyle text:string user_id:InputUser = KeyboardButton;
@@ -35,9 +35,9 @@ $keyboardButton = $client->inputKeyboardButtonUserProfile(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 6815164300111961252,
+		icon : 3632941391983081336,
 	),
-	text : '4B93K7WeblcCSHJ8',
+	text : 'TLvy89Bl5uEhKsF7',
 	user_id : $client->get_input_user(user : '@TakNone'),
 );
 ```

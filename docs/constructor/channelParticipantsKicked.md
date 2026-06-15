@@ -2,7 +2,7 @@
 
 **Description** : *Fetch only kicked participants*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelParticipantsKicked#a3b54985 q:string = ChannelParticipantsFilter;
@@ -28,6 +28,6 @@ channelParticipantsKicked#a3b54985 q:string = ChannelParticipantsFilter;
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsKicked(
-	q : 'a5Gk0WXZFOmNx14f',
+	q : '3i4PN8evuSIlyWd2',
 );
 ```

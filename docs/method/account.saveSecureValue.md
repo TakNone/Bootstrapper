@@ -2,7 +2,7 @@
 
 **Description** : *Securely save Telegram Passport document, for more info see the passport docs &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.saveSecureValue#899fe31d value:InputSecureValue secure_secret_id:long = SecureValue;
@@ -46,56 +46,56 @@ $secureValue = $client->account->saveSecureValue(
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		front_side : $client->inputSecureFileUploaded(
-			id : -4939629293375508786,
-			parts : 15,
+			id : 6883731170175228224,
+			parts : 70,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		reverse_side : $client->inputSecureFileUploaded(
-			id : 4031518241996768832,
-			parts : 48,
+			id : -4803629419626721832,
+			parts : 99,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		selfie : $client->inputSecureFileUploaded(
-			id : -540527063531108094,
-			parts : 83,
+			id : 2714496798224267470,
+			parts : 45,
 			md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		translation : array(
 			$client->inputSecureFileUploaded(
-				id : -7739541762479571101,
-				parts : 93,
+				id : -8026280968741065956,
+				parts : 31,
 				md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 				file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->inputSecureFile(
-				id : -7958672746150116548,
-				access_hash : -680527859138487681,
+				id : -5766342771231560348,
+				access_hash : -192980165803853787,
 			),
 		),
 		files : array(
 			$client->inputSecureFileUploaded(
-				id : 7691609348588430153,
-				parts : 88,
+				id : 5510107121547343226,
+				parts : 38,
 				md5_checksum : 'b362bee8a21feedcbd20d5b0bef421e4',
 				file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->inputSecureFile(
-				id : -8264516535599827229,
-				access_hash : 4458351190136567622,
+				id : 9128377544347991361,
+				access_hash : -7950620313061655418,
 			),
 		),
 		plain_data : $client->securePlainPhone(
 			phone : '+1234567890',
 		),
 	),
-	secure_secret_id : -7567415468363666640,
+	secure_secret_id : 2796326836934443334,
 );
 ```

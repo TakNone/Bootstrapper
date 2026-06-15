@@ -2,7 +2,7 @@
 
 **Description** : *Get unread reactions to messages you sent*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getUnreadReactions#bd7f90ac flags:# peer:InputPeer top_msg_id:flags.0?int saved_peer_id:flags.1?InputPeer offset_id:int add_offset:int limit:int max_id:int min_id:int = messages.Messages;
@@ -45,12 +45,12 @@ messages.getUnreadReactions#bd7f90ac flags:# peer:InputPeer top_msg_id:flags.0?i
 ```php
 $messagesMessages = $client->messages->getUnreadReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 84,
+	top_msg_id : 36,
 	saved_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	add_offset : 24,
-	limit : 78,
-	max_id : 9,
-	min_id : 29,
+	add_offset : 84,
+	limit : 22,
+	max_id : 4,
+	min_id : 31,
 );
 ```

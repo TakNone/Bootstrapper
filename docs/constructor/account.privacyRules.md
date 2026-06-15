@@ -2,7 +2,7 @@
 
 **Description** : *Privacy rules*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.privacyRules#50a04e45 rules:Vector<PrivacyRule> chats:Vector<Chat> users:Vector<User> = account.PrivacyRules;
@@ -34,18 +34,18 @@ $accountPrivacyRules = $client->account->privacyRules(
 		$client->privacyValueAllowContacts(),
 		$client->privacyValueAllowAll(),
 		$client->privacyValueAllowUsers(
-			users : array(-3663739531751808767),
+			users : array(3144354176093097563),
 		),
 		$client->privacyValueDisallowContacts(),
 		$client->privacyValueDisallowAll(),
 		$client->privacyValueDisallowUsers(
-			users : array(231809874343396944),
+			users : array(-6647130294017927437),
 		),
 		$client->privacyValueAllowChatParticipants(
-			chats : array(-907099124628565986),
+			chats : array(-5774082069274339921),
 		),
 		$client->privacyValueDisallowChatParticipants(
-			chats : array(-72095070757109715),
+			chats : array(-8266728751348775989),
 		),
 		$client->privacyValueAllowCloseFriends(),
 		$client->privacyValueAllowPremium(),
@@ -54,7 +54,7 @@ $accountPrivacyRules = $client->account->privacyRules(
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : 953678933799238310,
+			id : -3594861512687927054,
 		),
 		$client->chat(
 			creator : true,
@@ -63,12 +63,12 @@ $accountPrivacyRules = $client->account->privacyRules(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -1274071702046224503,
-			title : '3yOX2cnPxwITfMoj',
+			id : 8663081875697406913,
+			title : 'DQpwMFrGa7skXiOS',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 53,
-			date : 19,
-			version : 2,
+			participants_count : 66,
+			date : 20,
+			version : 50,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -112,12 +112,12 @@ $accountPrivacyRules = $client->account->privacyRules(
 				send_plain : true,
 				edit_rank : true,
 				send_reactions : true,
-				until_date : 70,
+				until_date : 46,
 			),
 		),
 		$client->chatForbidden(
-			id : 4716152297646719329,
-			title : 'tASdbG1jDToc5Vse',
+			id : -7453119698327769328,
+			title : 'n6l8e2i4rQSpEdsL',
 		),
 		$client->channel(
 			creator : true,
@@ -148,17 +148,17 @@ $accountPrivacyRules = $client->account->privacyRules(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 4467415891078344491,
-			access_hash : -1221415742305233173,
-			title : '2Vyu1Yc9Kf4O5eIQ',
+			id : -5421730894407147971,
+			access_hash : -35457649908086372,
+			title : 'vL0Kf1bWwHd5t3DY',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 91,
+			date : 76,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'Mdo6ROjl5B24zYGP',
-					reason : 'zqdcyFi9hEDv0kJj',
-					text : 'PLfi6dMtnJ8Br0bk',
+					platform : 'UsMzbVPAI12QTOjC',
+					reason : 'WVd2j8XPmk5MoIzh',
+					text : 'dsr4FABSveop91Km',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -203,7 +203,7 @@ $accountPrivacyRules = $client->account->privacyRules(
 				send_plain : true,
 				edit_rank : true,
 				send_reactions : true,
-				until_date : 18,
+				until_date : 82,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -228,9 +228,9 @@ $accountPrivacyRules = $client->account->privacyRules(
 				send_plain : true,
 				edit_rank : true,
 				send_reactions : true,
-				until_date : 94,
+				until_date : 14,
 			),
-			participants_count : 81,
+			participants_count : 29,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -240,36 +240,36 @@ $accountPrivacyRules = $client->account->privacyRules(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 23,
+				max_id : 84,
 			),
 			color : $client->peerColor(
-				color : 89,
-				background_emoji_id : 22851991622894361,
+				color : 40,
+				background_emoji_id : 7043290787104898708,
 			),
 			profile_color : $client->peerColor(
-				color : 66,
-				background_emoji_id : -2046996168115729020,
+				color : 21,
+				background_emoji_id : -5094028916507131170,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 46,
-			subscription_until_date : 99,
-			bot_verification_icon : 8515385389476722574,
-			send_paid_messages_stars : 8329292653863988150,
-			linked_monoforum_id : 7245230555633772562,
+			level : 44,
+			subscription_until_date : 7,
+			bot_verification_icon : -2545289915834610232,
+			send_paid_messages_stars : -4541459394955808248,
+			linked_monoforum_id : 9034904202221648462,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
 			monoforum : true,
-			id : 4507761509419113225,
-			access_hash : 1261166245364283092,
-			title : 'FCt2PvT6lVG7y0xU',
-			until_date : 18,
+			id : -8943059793120435545,
+			access_hash : 1395731447051016651,
+			title : 'mAqk7c8iW5DPsh9f',
+			until_date : 25,
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 7751025297689888131,
+			id : -5744339908927729351,
 		),
 		$client->user(
 			self : true,
@@ -301,24 +301,25 @@ $accountPrivacyRules = $client->account->privacyRules(
 			bot_forum_can_manage_topics : true,
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
-			id : 4708762228167590233,
-			access_hash : 1741908888820982054,
+			bot_guard : true,
+			id : -8427461507242164644,
+			access_hash : -2116028669464919366,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 69,
+			bot_info_version : 90,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'dngasiJovcR8x5tz',
-					reason : 'naJyHP6kWCEF8jOx',
-					text : 'kuDq52xQMKOnJpIv',
+					platform : '48uAJpLXw0hROZa5',
+					reason : 'xjeKUAH15znfR3uv',
+					text : '1RnbyZ4a73ArpViG',
 				),
 			),
-			bot_inline_placeholder : 'yM24pCPqEfFr8Dcj',
-			lang_code : 'PeZl6m5zS1IxJVT4',
+			bot_inline_placeholder : 'RCwcX4p1sDPiTf0x',
+			lang_code : '4WpVdLi8e6YctTB5',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -329,19 +330,19 @@ $accountPrivacyRules = $client->account->privacyRules(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 67,
+				max_id : 32,
 			),
 			color : $client->peerColor(
-				color : 24,
-				background_emoji_id : -3846162137817278758,
+				color : 91,
+				background_emoji_id : 7759983400579514342,
 			),
 			profile_color : $client->peerColor(
-				color : 10,
-				background_emoji_id : -4597293591778437665,
+				color : 79,
+				background_emoji_id : -7279073571652629820,
 			),
-			bot_active_users : 18,
-			bot_verification_icon : -4977978352917451949,
-			send_paid_messages_stars : -4851658411666623242,
+			bot_active_users : 64,
+			bot_verification_icon : 9163023992292955492,
+			send_paid_messages_stars : -8676782606853377391,
 		),
 	),
 );

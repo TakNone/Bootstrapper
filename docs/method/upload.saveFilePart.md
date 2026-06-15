@@ -2,7 +2,7 @@
 
 **Description** : *Saves a part of file for further sending to one of the methods*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 upload.saveFilePart#b304a621 file_id:long file_part:int bytes:bytes = Bool;
@@ -40,8 +40,8 @@ upload.saveFilePart#b304a621 file_id:long file_part:int bytes:bytes = Bool;
 
 ```php
 $bool = $client->upload->saveFilePart(
-	file_id : 5917336988827512306,
-	file_part : 76,
+	file_id : -5113721171422103941,
+	file_part : 100,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

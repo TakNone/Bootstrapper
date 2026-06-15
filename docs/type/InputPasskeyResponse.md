@@ -1,6 +1,6 @@
 # InputPasskeyResponse
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPasskeyResponseRegister#3e63935c client_data:DataJSON attestation_data:bytes = InputPasskeyResponse;

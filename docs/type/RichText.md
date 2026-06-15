@@ -2,7 +2,7 @@
 
 **Description** : *Rich text*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 textEmpty#dc3d824f = RichText;
@@ -21,6 +21,19 @@ textMarked#34b8621 text:RichText = RichText;
 textPhone#1ccb966a text:RichText phone:string = RichText;
 textImage#81ccf4f document_id:long w:int h:int = RichText;
 textAnchor#35553762 text:RichText name:string = RichText;
+textMath#9d2eac97 source:string = RichText;
+textCustomEmoji#a26156c0 document_id:long alt:string = RichText;
+textSpoiler#4c2a5d62 text:RichText = RichText;
+textMention#cd24cf44 text:RichText = RichText;
+textHashtag#519524ea text:RichText = RichText;
+textBotCommand#2ff29d3 text:RichText = RichText;
+textCashtag#7b9e1801 text:RichText = RichText;
+textAutoUrl#ac6a83aa text:RichText = RichText;
+textAutoEmail#c556a45d text:RichText = RichText;
+textAutoPhone#24c26789 text:RichText = RichText;
+textBankCard#b956812d text:RichText = RichText;
+textMentionName#1a9fbfc text:RichText user_id:long = RichText;
+textDate#a5b45e2b flags:# relative:flags.0?true short_time:flags.1?true long_time:flags.2?true short_date:flags.3?true long_date:flags.4?true day_of_week:flags.5?true text:RichText date:int = RichText;
 ```
 
 ---
@@ -45,3 +58,16 @@ textAnchor#35553762 text:RichText name:string = RichText;
 | [**textPhone**](constructor/textPhone) | Rich text linked to a phone number |
 | [**textImage**](constructor/textImage) | Inline image |
 | [**textAnchor**](constructor/textAnchor) | Text linking to another section of the page |
+| [**textMath**](constructor/textMath) | NOTHING |
+| [**textCustomEmoji**](constructor/textCustomEmoji) | NOTHING |
+| [**textSpoiler**](constructor/textSpoiler) | NOTHING |
+| [**textMention**](constructor/textMention) | NOTHING |
+| [**textHashtag**](constructor/textHashtag) | NOTHING |
+| [**textBotCommand**](constructor/textBotCommand) | NOTHING |
+| [**textCashtag**](constructor/textCashtag) | NOTHING |
+| [**textAutoUrl**](constructor/textAutoUrl) | NOTHING |
+| [**textAutoEmail**](constructor/textAutoEmail) | NOTHING |
+| [**textAutoPhone**](constructor/textAutoPhone) | NOTHING |
+| [**textBankCard**](constructor/textBankCard) | NOTHING |
+| [**textMentionName**](constructor/textMentionName) | NOTHING |
+| [**textDate**](constructor/textDate) | NOTHING |

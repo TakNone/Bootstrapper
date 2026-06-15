@@ -2,7 +2,7 @@
 
 **Description** : *Channel/supergroup \(channel and/or channelFull\) information was updated*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateChannel#635b4c09 channel_id:long = Update;
@@ -28,6 +28,6 @@ updateChannel#635b4c09 channel_id:long = Update;
 
 ```php
 $update = $client->updateChannel(
-	channel_id : -3596485864579748478,
+	channel_id : -481056211383870260,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *A participant that left the channel/supergroup*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelParticipantLeft#1b03f006 peer:Peer = ChannelParticipant;
@@ -29,7 +29,7 @@ channelParticipantLeft#1b03f006 peer:Peer = ChannelParticipant;
 ```php
 $channelParticipant = $client->channelParticipantLeft(
 	peer : $client->peerUser(
-		user_id : -5088852769570393518,
+		user_id : 9084921897227913168,
 	),
 );
 ```

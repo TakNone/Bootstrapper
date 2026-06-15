@@ -2,7 +2,7 @@
 
 **Description** : *Edit location of geogroup, see here &raquo; for more info on geogroups*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channels.editLocation#58e63f6d channel:InputChannel geo_point:InputGeoPoint address:string = Bool;
@@ -44,6 +44,6 @@ channels.editLocation#58e63f6d channel:InputChannel geo_point:InputGeoPoint addr
 $bool = $client->channels->editLocation(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'sciwhA3JH41yFgB8',
+	address : 'hIuS79LCdOAtQgpo',
 );
 ```

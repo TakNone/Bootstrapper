@@ -2,7 +2,7 @@
 
 **Description** : *Dialog filter AKA folder*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 dialogFilter#aa472651 flags:# contacts:flags.0?true non_contacts:flags.1?true groups:flags.2?true broadcasts:flags.3?true bots:flags.4?true exclude_muted:flags.11?true exclude_read:flags.12?true exclude_archived:flags.13?true title_noanimate:flags.28?true id:int title:TextWithEntities emoticon:flags.25?string color:flags.27?int pinned_peers:Vector<InputPeer> include_peers:Vector<InputPeer> exclude_peers:Vector<InputPeer> = DialogFilter;
@@ -53,99 +53,99 @@ $dialogFilter = $client->dialogFilter(
 	exclude_read : true,
 	exclude_archived : true,
 	title_noanimate : true,
-	id : 87,
+	id : 39,
 	title : $client->textWithEntities(
-		text : 'WVwSxABrlhJ73Nde',
+		text : 'vBgkx7D1FHtZRNpe',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 16,
+				length : 11,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 67,
+				length : 43,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 53,
+				length : 18,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 70,
+				length : 72,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 65,
+				length : 50,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 72,
+				length : 48,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 91,
+				length : 0,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 18,
+				length : 72,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 41,
+				length : 89,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 45,
-				language : '0mZgTqB5usy6jSde',
+				length : 87,
+				language : '0BLZQ4ndeWohCNX6',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 62,
+				length : 51,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 30,
-				user_id : -712766879831846091,
+				length : 20,
+				user_id : -4470367672780202991,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 88,
+				length : 69,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 63,
+				length : 16,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 99,
+				length : 41,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 60,
+				length : 7,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 65,
+				length : 89,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 79,
+				length : 16,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 46,
+				length : 71,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 80,
-				document_id : -7200072849286284820,
+				length : 0,
+				document_id : -8871799029325195491,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 21,
+				length : 10,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -155,26 +155,26 @@ $dialogFilter = $client->dialogFilter(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 89,
-				date : 1,
+				length : 59,
+				date : 2,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 67,
+				length : 92,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 98,
-				old_text : 'CHZ159goY7bkRGV3',
+				length : 95,
+				old_text : 'LTpzZa9XcolqQA6J',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 76,
+				length : 60,
 			),
 		),
 	),
-	emoticon : 'iCgpw6yFx5TUjcYR',
-	color : 35,
+	emoticon : 'zRO524btjfVsxlNK',
+	color : 94,
 	pinned_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 	include_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 	exclude_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),

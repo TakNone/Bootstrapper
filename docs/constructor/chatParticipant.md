@@ -2,7 +2,7 @@
 
 **Description** : *Group member*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatParticipant#38e79fde flags:# user_id:long inviter_id:long date:int rank:flags.0?string = ChatParticipant;
@@ -32,9 +32,9 @@ chatParticipant#38e79fde flags:# user_id:long inviter_id:long date:int rank:flag
 
 ```php
 $chatParticipant = $client->chatParticipant(
-	user_id : -8539473077750451658,
-	inviter_id : -769735974741592657,
-	date : 46,
-	rank : '2UWOPhkS96jG5ADZ',
+	user_id : -4039807828652845582,
+	inviter_id : 1196910624329714160,
+	date : 33,
+	rank : 'JqBbHaXrnugCFDAc',
 );
 ```

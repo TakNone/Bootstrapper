@@ -2,7 +2,7 @@
 
 **Description** : *User has clicked on an animated emoji triggering a reaction, click here for more info &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 sendMessageEmojiInteraction#25972bcb emoticon:string msg_id:int interaction:DataJSON = SendMessageAction;
@@ -30,10 +30,10 @@ sendMessageEmojiInteraction#25972bcb emoticon:string msg_id:int interaction:Data
 
 ```php
 $sendMessageAction = $client->sendMessageEmojiInteraction(
-	emoticon : 'bY96p7kX2qmyroNx',
-	msg_id : 45,
+	emoticon : 'LK1hdx6fBoj2JAvq',
+	msg_id : 70,
 	interaction : $client->dataJSON(
-		data : 'AL8e5sJfg1jSYQ02',
+		data : 'anObMBZkgFG5qwC1',
 	),
 );
 ```

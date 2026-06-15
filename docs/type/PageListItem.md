@@ -2,11 +2,11 @@
 
 **Description** : *Item in block list*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-pageListItemText#b92fb6cd text:RichText = PageListItem;
-pageListItemBlocks#25e073fc blocks:Vector<PageBlock> = PageListItem;
+pageListItemText#2f58683c flags:# checkbox:flags.0?true checked:flags.1?true text:RichText = PageListItem;
+pageListItemBlocks#63ca67aa flags:# checkbox:flags.0?true checked:flags.1?true blocks:Vector<PageBlock> = PageListItem;
 ```
 
 ---

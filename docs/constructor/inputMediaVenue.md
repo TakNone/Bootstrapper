@@ -2,7 +2,7 @@
 
 **Description** : *Can be used to send a venue geolocation*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputMediaVenue#c13d1c11 geo_point:InputGeoPoint title:string address:string provider:string venue_id:string venue_type:string = InputMedia;
@@ -34,10 +34,10 @@ inputMediaVenue#c13d1c11 geo_point:InputGeoPoint title:string address:string pro
 ```php
 $inputMedia = $client->inputMediaVenue(
 	geo_point : $client->inputGeoPointEmpty(),
-	title : 'rOL58RwJqEfjC7V3',
-	address : 'DYJEQkWIbyAf6xP8',
-	provider : 'iEYl7rRBQHGtIyCT',
-	venue_id : 'rMbQyzvalR6x8NkO',
-	venue_type : 'w7Pt2h1kJbminfFl',
+	title : 'Ez0LIUQsl1AuW2BF',
+	address : '81erYCdFgjbUPltI',
+	provider : '0TmYbNyOS94wL7vZ',
+	venue_id : 'yMUc4Q5pnmBSazgY',
+	venue_type : 'v3oJB7kzCO0LyAcK',
 );
 ```

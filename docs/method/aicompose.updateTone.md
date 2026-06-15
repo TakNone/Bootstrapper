@@ -1,6 +1,6 @@
 # aicompose.updateTone
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 aicompose.updateTone#903bcf59 flags:# tone:InputAiComposeTone display_author:flags.0?Bool emoji_id:flags.1?long title:flags.2?string prompt:flags.3?string = AiComposeTone;
@@ -32,11 +32,11 @@ aicompose.updateTone#903bcf59 flags:# tone:InputAiComposeTone display_author:fla
 ```php
 $aiComposeTone = $client->aicompose->updateTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'Zx1pNmalk0Bhub5J',
+		tone : 'TWlNiSmjBxzZocH4',
 	),
-	display_author : true,
-	emoji_id : 7226197502443562830,
-	title : 'nS0a5iZrWle8Q9C3',
-	prompt : 'nTWKbViHtk0lcfaC',
+	display_author : false,
+	emoji_id : -1301407668982409460,
+	title : 'P2qbCRvaDjnMFp39',
+	prompt : 'S54BNbOpTM8fLVZg',
 );
 ```

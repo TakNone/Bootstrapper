@@ -2,7 +2,7 @@
 
 **Description** : *The linked chat was changed*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelAdminLogEventActionChangeLinkedChat#50c7ac8 prev_value:long new_value:long = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeLinkedChat#50c7ac8 prev_value:long new_value:lon
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeLinkedChat(
-	prev_value : -4473886046597186159,
-	new_value : 2710415366682436885,
+	prev_value : -19018951396323136,
+	new_value : 659702349393666565,
 );
 ```

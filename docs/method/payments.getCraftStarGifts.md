@@ -1,6 +1,6 @@
 # payments.getCraftStarGifts
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.getCraftStarGifts#fd05dd00 gift_id:long offset:string limit:int = payments.SavedStarGifts;
@@ -28,8 +28,8 @@ payments.getCraftStarGifts#fd05dd00 gift_id:long offset:string limit:int = payme
 
 ```php
 $paymentsSavedStarGifts = $client->payments->getCraftStarGifts(
-	gift_id : 6996872907493215193,
-	offset : 'T36Uowt0MHR4dLrW',
-	limit : 65,
+	gift_id : 8155836727445615461,
+	offset : 'Y4BzR5kvXWlEaIAy',
+	limit : 53,
 );
 ```

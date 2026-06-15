@@ -2,7 +2,7 @@
 
 **Description** : *Remote document that can be downloaded without proxying through telegram*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 webDocumentNoProxy#f9c8bcc6 url:string size:int mime_type:string attributes:Vector<DocumentAttribute> = WebDocument;
@@ -32,51 +32,51 @@ webDocumentNoProxy#f9c8bcc6 url:string size:int mime_type:string attributes:Vect
 ```php
 $webDocument = $client->webDocumentNoProxy(
 	url : 'https://docs.liveproto.dev',
-	size : 60,
-	mime_type : '4NozSTX7tW1KyUZx',
+	size : 25,
+	mime_type : 'f0EZ8hCkBJAtV3KP',
 	attributes : array(
 		$client->documentAttributeImageSize(
-			w : 44,
-			h : 96,
+			w : 20,
+			h : 59,
 		),
 		$client->documentAttributeAnimated(),
 		$client->documentAttributeSticker(
 			mask : true,
-			alt : 'H98lFyxcQigUae5L',
+			alt : 'NEi078pF9vaCKqGZ',
 			stickerset : $client->inputStickerSetEmpty(),
 			mask_coords : $client->maskCoords(
-				n : 33,
-				x : -1043485.638671875,
-				y : 709108.8466796875,
-				zoom : 1193538.5087890625,
+				n : 68,
+				x : -1703327.439453125,
+				y : 915005.3671875,
+				zoom : 653475.3896484375,
 			),
 		),
 		$client->documentAttributeVideo(
 			round_message : true,
 			supports_streaming : true,
 			nosound : true,
-			duration : 1307665.15234375,
-			w : 32,
-			h : 73,
-			preload_prefix_size : 13,
-			video_start_ts : -1896373.267578125,
-			video_codec : 'Bn0H6juc8fJp7laA',
+			duration : 649871.4755859375,
+			w : 49,
+			h : 59,
+			preload_prefix_size : 15,
+			video_start_ts : -1419824.21484375,
+			video_codec : '0tcKERynOQ7jYAWH',
 		),
 		$client->documentAttributeAudio(
 			voice : true,
-			duration : 1,
-			title : 'WZHmTUJ57afSBlvY',
-			performer : 'PVynDeIzpfil6aqF',
+			duration : 24,
+			title : '8kpR0rdYSZyBtJCa',
+			performer : 'mvklstY3j1Ug0HQf',
 			waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->documentAttributeFilename(
-			file_name : 'VNnWzJXxIT8ohjq2',
+			file_name : 'GIE5pcbj0UveLWYS',
 		),
 		$client->documentAttributeHasStickers(),
 		$client->documentAttributeCustomEmoji(
 			free : true,
 			text_color : true,
-			alt : 'udH1eP0zIbnTWsQA',
+			alt : 'qIyDCaZX0NAOB5Ve',
 			stickerset : $client->inputStickerSetEmpty(),
 		),
 	),

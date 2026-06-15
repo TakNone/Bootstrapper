@@ -2,7 +2,7 @@
 
 **Description** : *Always send Telegram Business away messages to users writing to us in private*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 businessAwayMessageScheduleAlways#c9b9e2b9 = BusinessAwayMessageSchedule;

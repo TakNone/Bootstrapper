@@ -1,6 +1,6 @@
 # inputAiComposeToneSlug
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputAiComposeToneSlug#1fa01357 slug:string = InputAiComposeTone;
@@ -26,6 +26,6 @@ inputAiComposeToneSlug#1fa01357 slug:string = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneSlug(
-	slug : 'yAVxCrGvLq1thnYZ',
+	slug : 'WQeLFklgIr4nfp3x',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Fetch only participants that are also contacts*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelParticipantsContacts#bb6ae88d q:string = ChannelParticipantsFilter;
@@ -28,6 +28,6 @@ channelParticipantsContacts#bb6ae88d q:string = ChannelParticipantsFilter;
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsContacts(
-	q : 'pHi7L6dYIuXksaog',
+	q : 'leMfmrW0HcT1vuoG',
 );
 ```

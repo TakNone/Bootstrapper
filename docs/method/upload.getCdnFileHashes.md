@@ -2,7 +2,7 @@
 
 **Description** : *Get SHA256 hashes for verifying downloaded CDN files*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 upload.getCdnFileHashes#91dc3f31 file_token:bytes offset:long = Vector<FileHash>;

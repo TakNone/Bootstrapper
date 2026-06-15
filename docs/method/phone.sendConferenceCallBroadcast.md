@@ -2,7 +2,7 @@
 
 **Description** : *Broadcast a blockchain block to all members of a conference call, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Updates;
@@ -38,8 +38,8 @@ phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Upd
 ```php
 $updates = $client->phone->sendConferenceCallBroadcast(
 	call : $client->inputGroupCall(
-		id : 4538626899131995571,
-		access_hash : -5081269899605039809,
+		id : -4885483043702350302,
+		access_hash : 288430204357447125,
 	),
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

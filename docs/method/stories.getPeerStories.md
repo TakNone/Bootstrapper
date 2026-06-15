@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the full active story list of a specific peer*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.getPeerStories#2c4ada50 peer:InputPeer = stories.PeerStories;

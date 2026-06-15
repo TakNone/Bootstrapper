@@ -2,7 +2,7 @@
 
 **Description** : *A forum topic was created*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionTopicCreate#d999256 flags:# title_missing:flags.1?true title:string icon_color:int icon_emoji_id:flags.0?long = MessageAction;
@@ -33,8 +33,8 @@ messageActionTopicCreate#d999256 flags:# title_missing:flags.1?true title:string
 ```php
 $messageAction = $client->messageActionTopicCreate(
 	title_missing : true,
-	title : 'JczulLnaSgjtIyYN',
-	icon_color : 47,
-	icon_emoji_id : 4571267999820912493,
+	title : 'rVkgJhBjoxdalDum',
+	icon_color : 39,
+	icon_emoji_id : -3300499545893850988,
 );
 ```

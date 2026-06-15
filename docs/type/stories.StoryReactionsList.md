@@ -2,7 +2,7 @@
 
 **Description** : *List of peers that reacted to a specific story*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stories.storyReactionsList#aa5f789c flags:# count:int reactions:Vector<StoryReaction> chats:Vector<Chat> users:Vector<User> next_offset:flags.0?string = stories.StoryReactionsList;

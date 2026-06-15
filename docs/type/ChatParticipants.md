@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on group members*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatParticipantsForbidden#8763d3e1 flags:# chat_id:long self_participant:flags.0?ChatParticipant = ChatParticipants;

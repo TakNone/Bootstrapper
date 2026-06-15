@@ -2,7 +2,7 @@
 
 **Description** : *Whether people can send you voice messages or round videos \(Premium users only\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputPrivacyKeyVoiceMessages#aee69d68 = InputPrivacyKey;

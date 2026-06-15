@@ -1,6 +1,6 @@
 # messages.deleteTopicHistory
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.deleteTopicHistory#d2816f10 peer:InputPeer top_msg_id:int = messages.AffectedHistory;
@@ -28,6 +28,6 @@ messages.deleteTopicHistory#d2816f10 peer:InputPeer top_msg_id:int = messages.Af
 ```php
 $messagesAffectedHistory = $client->messages->deleteTopicHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 85,
+	top_msg_id : 3,
 );
 ```

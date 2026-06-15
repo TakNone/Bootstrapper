@@ -2,7 +2,7 @@
 
 **Description** : *Italic text*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 textItalic#d912a59c text:RichText = RichText;

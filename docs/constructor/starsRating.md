@@ -2,7 +2,7 @@
 
 **Description** : *Represents the profile&#039;s star rating, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starsRating#1b0e4f07 flags:# level:int current_level_stars:long stars:long next_level_stars:flags.0?long = StarsRating;
@@ -32,9 +32,9 @@ starsRating#1b0e4f07 flags:# level:int current_level_stars:long stars:long next_
 
 ```php
 $starsRating = $client->starsRating(
-	level : 17,
-	current_level_stars : -1018691167339214985,
-	stars : 992410411794017923,
-	next_level_stars : -5099729219499064795,
+	level : 15,
+	current_level_stars : 5626049035877457319,
+	stars : 281290414030696883,
+	next_level_stars : 1638611346471232448,
 );
 ```

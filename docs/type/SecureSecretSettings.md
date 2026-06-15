@@ -2,7 +2,7 @@
 
 **Description** : *Telegram passport settings*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 secureSecretSettings#1527bcac secure_algo:SecurePasswordKdfAlgo secure_secret:bytes secure_secret_id:long = SecureSecretSettings;

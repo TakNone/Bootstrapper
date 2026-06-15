@@ -2,7 +2,7 @@
 
 **Description** : *Get and increase the view counter of a message sent or forwarded from a channel*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getMessagesViews#5784d3e1 peer:InputPeer id:Vector<int> increment:Bool = messages.MessageViews;
@@ -44,7 +44,7 @@ messages.getMessagesViews#5784d3e1 peer:InputPeer id:Vector<int> increment:Bool 
 ```php
 $messagesMessageViews = $client->messages->getMessagesViews(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(24),
+	id : array(56),
 	increment : false,
 );
 ```

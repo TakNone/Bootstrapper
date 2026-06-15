@@ -2,7 +2,7 @@
 
 **Description** : *Represents a stickerset \(stickerpack\)*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stickerSet#2dd14edc flags:# archived:flags.1?true official:flags.2?true masks:flags.3?true emojis:flags.7?true text_color:flags.9?true channel_emoji_status:flags.10?true creator:flags.11?true installed_date:flags.0?int id:long access_hash:long title:string short_name:string thumbs:flags.4?Vector<PhotoSize> thumb_dc_id:flags.4?int thumb_version:flags.4?int thumb_document_id:flags.8?long count:int hash:int = StickerSet;
@@ -53,46 +53,46 @@ $stickerSet = $client->stickerSet(
 	text_color : true,
 	channel_emoji_status : true,
 	creator : true,
-	installed_date : 26,
-	id : -2576903227892714544,
-	access_hash : -1677729875680146429,
-	title : 'FycPspSZOAQHMkeI',
-	short_name : 'sA8wnrSI6BvqZ7ag',
+	installed_date : 94,
+	id : 7145043792800850128,
+	access_hash : 272410433588788464,
+	title : 'bPmsNOUYQwyjJGhk',
+	short_name : 'kcWEt65nrNmJQfwM',
 	thumbs : array(
 		$client->photoSizeEmpty(
-			type : 'v7ASmTrfWalCjD3N',
+			type : 'Q3o4OHBIUXwJAa97',
 		),
 		$client->photoSize(
-			type : 'lFd8eGr4ZpCJq9Us',
-			w : 68,
-			h : 81,
-			size : 40,
+			type : 'qXrKWIBDwu2txsHg',
+			w : 98,
+			h : 5,
+			size : 88,
 		),
 		$client->photoCachedSize(
-			type : 'LGWieuBCgjhOqamz',
-			w : 37,
-			h : 88,
+			type : 'sJzK6bdtrR5NmIpU',
+			w : 38,
+			h : 50,
 			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->photoStrippedSize(
-			type : 'c1xLWBdDhpjOZs2w',
+			type : 'KZsH4LQCpdTIyz9q',
 			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->photoSizeProgressive(
-			type : 'nMiBe74O3AJFayvq',
-			w : 53,
-			h : 48,
-			sizes : array(9),
+			type : '6peb7Mt0G1XdBsAf',
+			w : 45,
+			h : 62,
+			sizes : array(74),
 		),
 		$client->photoPathSize(
-			type : 'iqnKscPZfJQgao9H',
+			type : 'CuBzKO5M8jAWbxmP',
 			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	thumb_dc_id : 31,
-	thumb_version : 30,
-	thumb_document_id : 1997474547379955224,
-	count : 73,
+	thumb_version : 28,
+	thumb_document_id : 9223090491947238870,
+	count : 34,
 	hash : 0,
 );
 ```

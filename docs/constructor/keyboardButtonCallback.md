@@ -2,7 +2,7 @@
 
 **Description** : *Callback button*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 keyboardButtonCallback#e62bc960 flags:# requires_password:flags.0?true style:flags.10?KeyboardButtonStyle text:string data:bytes = KeyboardButton;
@@ -37,9 +37,9 @@ $keyboardButton = $client->keyboardButtonCallback(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -8103543789748240482,
+		icon : 6104953918766512331,
 	),
-	text : 'RkMLgcFC375yUN4h',
+	text : '8bQJVgGXA5K4auyd',
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

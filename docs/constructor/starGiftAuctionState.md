@@ -1,6 +1,6 @@
 # starGiftAuctionState
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftAuctionState#771a4e66 version:int start_date:int end_date:int min_bid_amount:long bid_levels:Vector<AuctionBidLevel> top_bidders:Vector<long> next_round_at:int last_gift_num:int gifts_left:int current_round:int total_rounds:int rounds:Vector<StarGiftAuctionRound> = StarGiftAuctionState;
@@ -37,33 +37,33 @@ starGiftAuctionState#771a4e66 version:int start_date:int end_date:int min_bid_am
 
 ```php
 $starGiftAuctionState = $client->starGiftAuctionState(
-	version : 48,
-	start_date : 38,
-	end_date : 44,
-	min_bid_amount : -8848125426709906735,
+	version : 94,
+	start_date : 58,
+	end_date : 3,
+	min_bid_amount : -4596466650062508420,
 	bid_levels : array(
 		$client->auctionBidLevel(
-			pos : 15,
-			amount : 6767517520153386330,
-			date : 84,
+			pos : 4,
+			amount : 2586243466607034526,
+			date : 15,
 		),
 	),
-	top_bidders : array(4540968682671391384),
-	next_round_at : 70,
-	last_gift_num : 7,
-	gifts_left : 64,
-	current_round : 27,
-	total_rounds : 95,
+	top_bidders : array(-5539603872579231241),
+	next_round_at : 51,
+	last_gift_num : 35,
+	gifts_left : 83,
+	current_round : 83,
+	total_rounds : 62,
 	rounds : array(
 		$client->starGiftAuctionRound(
-			num : 11,
-			duration : 6,
+			num : 100,
+			duration : 68,
 		),
 		$client->starGiftAuctionRoundExtendable(
-			num : 93,
-			duration : 35,
-			extend_top : 99,
-			extend_window : 2,
+			num : 80,
+			duration : 14,
+			extend_top : 87,
+			extend_window : 42,
 		),
 	),
 );

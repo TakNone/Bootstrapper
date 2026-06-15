@@ -2,7 +2,7 @@
 
 **Description** : *Most used bots*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 topPeerCategoryBotsPM#ab661b5b = TopPeerCategory;

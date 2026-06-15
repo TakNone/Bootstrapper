@@ -968,6 +968,36 @@ This method can be used to fetch info about a not\-yet\-cached business connecti
 
 ---
 
+##### account confirmBotConnection
+
+:link: [*NOTHING*](method/account.confirmBotConnection)
+
+---
+
+##### account getWebBrowserSettings
+
+:link: [*NOTHING*](method/account.getWebBrowserSettings)
+
+---
+
+##### account updateWebBrowserSettings
+
+:link: [*NOTHING*](method/account.updateWebBrowserSettings)
+
+---
+
+##### account toggleWebBrowserSettingsException
+
+:link: [*NOTHING*](method/account.toggleWebBrowserSettingsException)
+
+---
+
+##### account deleteWebBrowserSettingsExceptions
+
+:link: [*NOTHING*](method/account.deleteWebBrowserSettingsExceptions)
+
+---
+
 ##### users getUsers
 
 :link: [*Returns basic user info according to their identifiers*](method/users.getUsers)
@@ -2717,6 +2747,12 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
+##### messages getRichMessage
+
+:link: [*NOTHING*](method/messages.getRichMessage)
+
+---
+
 ##### updates getState
 
 :link: [*Returns a current state of updates*](method/updates.getState)
@@ -3530,6 +3566,12 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 ##### bots editAccessSettings
 
 :link: [*NOTHING*](method/bots.editAccessSettings)
+
+---
+
+##### bots setJoinChatResults
+
+:link: [*NOTHING*](method/bots.setJoinChatResults)
 
 ---
 

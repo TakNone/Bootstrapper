@@ -2,7 +2,7 @@
 
 **Description** : *No PSA/MTProxy info is available*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 help.promoDataEmpty#98f6ac75 expires:int = help.PromoData;
@@ -28,6 +28,6 @@ help.promoDataEmpty#98f6ac75 expires:int = help.PromoData;
 
 ```php
 $helpPromoData = $client->help->promoDataEmpty(
-	expires : 65,
+	expires : 99,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *A new profile picture was suggested using photos\.uploadContactProfilePhoto*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionSuggestProfilePhoto#57de635e photo:Photo = MessageAction;
@@ -29,7 +29,7 @@ messageActionSuggestProfilePhoto#57de635e photo:Photo = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestProfilePhoto(
 	photo : $client->photoEmpty(
-		id : -6028656507715944390,
+		id : -5293199261929368579,
 	),
 );
 ```

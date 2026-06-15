@@ -2,7 +2,7 @@
 
 **Description** : *Login using a redirected login token, generated in case of DC mismatch during QR code login*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.importLoginToken#95ac5ce4 token:bytes = auth.LoginToken;

@@ -2,7 +2,7 @@
 
 **Description** : *Associate a group to a channel as discussion group for that channel*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channels.setDiscussionGroup#40582bb2 broadcast:InputChannel group:InputChannel = Bool;

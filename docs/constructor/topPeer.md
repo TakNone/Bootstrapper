@@ -2,7 +2,7 @@
 
 **Description** : *Top peer*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 topPeer#edcdc05b peer:Peer rating:double = TopPeer;
@@ -30,8 +30,8 @@ topPeer#edcdc05b peer:Peer rating:double = TopPeer;
 ```php
 $topPeer = $client->topPeer(
 	peer : $client->peerUser(
-		user_id : 5914157009702562708,
+		user_id : -3274993545261064859,
 	),
-	rating : -1457722.2080078125,
+	rating : -208858.9599609375,
 );
 ```

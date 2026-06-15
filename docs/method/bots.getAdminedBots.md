@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of bots owned by the current user*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.getAdminedBots#b0711d83 = Vector<User>;

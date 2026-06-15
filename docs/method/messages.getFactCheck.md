@@ -2,7 +2,7 @@
 
 **Description** : *Fetch one or more factchecks, see here &raquo; for the full flow*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getFactCheck#b9cdc5ee peer:InputPeer msg_id:Vector<int> = Vector<FactCheck>;
@@ -38,6 +38,6 @@ messages.getFactCheck#b9cdc5ee peer:InputPeer msg_id:Vector<int> = Vector<FactCh
 ```php
 $factCheck = $client->messages->getFactCheck(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : array(54),
+	msg_id : array(26),
 );
 ```

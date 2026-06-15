@@ -2,7 +2,7 @@
 
 **Description** : *Sends one or more paid Telegram Star reactions &raquo;, transferring Telegram Stars &raquo; to a channel&#039;s balance*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.sendPaidReaction#58bbcb50 flags:# peer:InputPeer msg_id:int count:int random_id:long private:flags.0?PaidReactionPrivacy = Updates;
@@ -50,9 +50,9 @@ messages.sendPaidReaction#58bbcb50 flags:# peer:InputPeer msg_id:int count:int r
 ```php
 $updates = $client->messages->sendPaidReaction(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 92,
-	count : 68,
-	random_id : 4167808271151307819,
+	msg_id : 60,
+	count : 17,
+	random_id : -4521243973016569155,
 	private : $client->paidReactionPrivacyDefault(),
 );
 ```

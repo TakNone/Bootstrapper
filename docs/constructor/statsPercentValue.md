@@ -3,7 +3,7 @@
 **Description** : *Channel statistics percentage\.
 Compute the percentage simply by doing part \* total / 100*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 statsPercentValue#cbce2fe0 part:double total:double = StatsPercentValue;
@@ -30,7 +30,7 @@ statsPercentValue#cbce2fe0 part:double total:double = StatsPercentValue;
 
 ```php
 $statsPercentValue = $client->statsPercentValue(
-	part : -1769989.923828125,
-	total : -1711912.755859375,
+	part : -482302.109375,
+	total : -787098.9970703125,
 );
 ```

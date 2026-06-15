@@ -2,7 +2,7 @@
 
 **Description** : *Send a quick reply shortcut &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.sendQuickReplyMessages#6c750de1 peer:InputPeer shortcut_id:int id:Vector<int> random_id:Vector<long> = Updates;
@@ -41,8 +41,8 @@ messages.sendQuickReplyMessages#6c750de1 peer:InputPeer shortcut_id:int id:Vecto
 ```php
 $updates = $client->messages->sendQuickReplyMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	shortcut_id : 37,
-	id : array(28),
-	random_id : array(2592761830664411916),
+	shortcut_id : 0,
+	id : array(86),
+	random_id : array(-5637061375042027519),
 );
 ```

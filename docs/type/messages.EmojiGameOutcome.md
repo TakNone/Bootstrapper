@@ -1,6 +1,6 @@
 # messages.EmojiGameOutcome
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.emojiGameOutcome#da2ad647 seed:bytes stake_ton_amount:long ton_amount:long = messages.EmojiGameOutcome;

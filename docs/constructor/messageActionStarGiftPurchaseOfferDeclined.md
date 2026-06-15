@@ -1,6 +1,6 @@
 # messageActionStarGiftPurchaseOfferDeclined
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messageActionStarGiftPurchaseOfferDeclined#73ada76b flags:# expired:flags.0?true gift:StarGift price:StarsAmount = MessageAction;
@@ -38,39 +38,39 @@ $messageAction = $client->messageActionStarGiftPurchaseOfferDeclined(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : 7932937532026346088,
+		id : -5057667184166308372,
 		sticker : $client->documentEmpty(
-			id : 5173021656744802484,
+			id : 8475257860944342668,
 		),
-		stars : 5797501607148219178,
-		availability_remains : 15,
-		availability_total : 71,
-		availability_resale : -216587315545359066,
-		convert_stars : -4823483749604113499,
-		first_sale_date : 34,
-		last_sale_date : 4,
-		upgrade_stars : 334062199196117758,
-		resell_min_stars : -1681852100608870244,
-		title : 'm45EoUtaL6VHr2OF',
+		stars : 8354018693894713212,
+		availability_remains : 81,
+		availability_total : 91,
+		availability_resale : 1307210366731363264,
+		convert_stars : 8150017130568535248,
+		first_sale_date : 25,
+		last_sale_date : 43,
+		upgrade_stars : -5644718834802058926,
+		resell_min_stars : 4028885837874632469,
+		title : 'klE8Da6dZGi7qLxu',
 		released_by : $client->peerUser(
-			user_id : 1086394471436573438,
+			user_id : 4450361411698264506,
 		),
-		per_user_total : 65,
-		per_user_remains : 75,
-		locked_until_date : 62,
-		auction_slug : 'OGkZ0Vhnd6eK7N1z',
-		gifts_per_round : 47,
-		auction_start_date : 76,
-		upgrade_variants : 62,
+		per_user_total : 17,
+		per_user_remains : 15,
+		locked_until_date : 98,
+		auction_slug : 'RbXpOJZhuMd9tsTQ',
+		gifts_per_round : 55,
+		auction_start_date : 73,
+		upgrade_variants : 80,
 		background : $client->starGiftBackground(
-			center_color : 89,
-			edge_color : 83,
-			text_color : 36,
+			center_color : 16,
+			edge_color : 28,
+			text_color : 15,
 		),
 	),
 	price : $client->starsAmount(
-		amount : 2244355811971827484,
-		nanos : 97,
+		amount : -4853297472097962837,
+		nanos : 19,
 	),
 );
 ```

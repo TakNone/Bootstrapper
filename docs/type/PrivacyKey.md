@@ -2,7 +2,7 @@
 
 **Description** : *Privacy keys together with privacy rules &raquo; indicate what can or can&#039;t someone do and are specified by a PrivacyKey constructor, and its input counterpart InputPrivacyKey*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 privacyKeyStatusTimestamp#bc2eab30 = PrivacyKey;

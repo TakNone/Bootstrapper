@@ -1,6 +1,6 @@
 # bots.exportBotToken
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.exportBotToken#bd0d99eb bot:InputUser revoke:Bool = bots.ExportedBotToken;
@@ -28,6 +28,6 @@ bots.exportBotToken#bd0d99eb bot:InputUser revoke:Bool = bots.ExportedBotToken;
 ```php
 $botsExportedBotToken = $client->bots->exportBotToken(
 	bot : $client->get_input_user(user : '@TakNone'),
-	revoke : false,
+	revoke : true,
 );
 ```

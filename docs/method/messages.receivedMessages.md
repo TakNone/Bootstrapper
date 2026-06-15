@@ -2,7 +2,7 @@
 
 **Description** : *Confirms receipt of messages by a client, cancels PUSH\-notification sending*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.receivedMessages#5a954c0 max_id:int = Vector<ReceivedNotifyMessage>;
@@ -28,6 +28,6 @@ messages.receivedMessages#5a954c0 max_id:int = Vector<ReceivedNotifyMessage>;
 
 ```php
 $receivedNotifyMessage = $client->messages->receivedMessages(
-	max_id : 9,
+	max_id : 77,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Number of results that would be returned by a search*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.searchCounter#e844ebff flags:# inexact:flags.1?true filter:MessagesFilter count:int = messages.SearchCounter;

@@ -2,7 +2,7 @@
 
 **Description** : *Disallow the reception of specific gift types*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 disallowedGiftsSettings#71f276c4 flags:# disallow_unlimited_stargifts:flags.0?true disallow_limited_stargifts:flags.1?true disallow_unique_stargifts:flags.2?true disallow_premium_gifts:flags.3?true disallow_stargifts_from_channels:flags.4?true = DisallowedGiftsSettings;

@@ -1,6 +1,6 @@
 # StarGiftActiveAuctionState
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftActiveAuctionState#d31bc45d gift:StarGift state:StarGiftAuctionState user_state:StarGiftAuctionUserState = StarGiftActiveAuctionState;

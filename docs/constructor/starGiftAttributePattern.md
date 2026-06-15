@@ -2,7 +2,7 @@
 
 **Description** : *A sticker applied on the backdrop of a collectible gift &raquo; using a repeating pattern*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftAttributePattern#4e7085ea name:string document:Document rarity:StarGiftAttributeRarity = StarGiftAttribute;
@@ -30,12 +30,12 @@ starGiftAttributePattern#4e7085ea name:string document:Document rarity:StarGiftA
 
 ```php
 $starGiftAttribute = $client->starGiftAttributePattern(
-	name : '6hqujdLZbFaktB0y',
+	name : 'rAyIK5xbHR97S8GQ',
 	document : $client->documentEmpty(
-		id : 3250079235685369729,
+		id : -9138588544523281247,
 	),
 	rarity : $client->starGiftAttributeRarity(
-		permille : 27,
+		permille : 46,
 	),
 );
 ```

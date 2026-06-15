@@ -2,7 +2,7 @@
 
 **Description** : *Channel/supergroup info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channel#1c32b11c flags:# creator:flags.0?true left:flags.2?true broadcast:flags.5?true verified:flags.7?true megagroup:flags.8?true restricted:flags.9?true signatures:flags.11?true min:flags.12?true scam:flags.19?true has_link:flags.20?true has_geo:flags.21?true slowmode_enabled:flags.22?true call_active:flags.23?true call_not_empty:flags.24?true fake:flags.25?true gigagroup:flags.26?true noforwards:flags.27?true join_to_send:flags.28?true join_request:flags.29?true forum:flags.30?true flags2:# stories_hidden:flags2.1?true stories_hidden_min:flags2.2?true stories_unavailable:flags2.3?true signature_profiles:flags2.12?true autotranslation:flags2.15?true broadcast_messages_allowed:flags2.16?true monoforum:flags2.17?true forum_tabs:flags2.19?true id:long access_hash:flags.13?long title:string username:flags.6?string photo:ChatPhoto date:int restriction_reason:flags.9?Vector<RestrictionReason> admin_rights:flags.14?ChatAdminRights banned_rights:flags.15?ChatBannedRights default_banned_rights:flags.18?ChatBannedRights participants_count:flags.17?int usernames:flags2.0?Vector<Username> stories_max_id:flags2.4?RecentStory color:flags2.7?PeerColor profile_color:flags2.8?PeerColor emoji_status:flags2.9?EmojiStatus level:flags2.10?int subscription_until_date:flags2.11?int bot_verification_icon:flags2.13?long send_paid_messages_stars:flags2.14?long linked_monoforum_id:flags2.18?long = Chat;
@@ -106,17 +106,17 @@ $chat = $client->channel(
 	broadcast_messages_allowed : true,
 	monoforum : true,
 	forum_tabs : true,
-	id : 8374119112815077631,
-	access_hash : -460881583640405551,
-	title : 'C9iz8qPvNS4eHanQ',
+	id : 849444064947054350,
+	access_hash : -370911224248338626,
+	title : 'aomtM5jP1T02HNgk',
 	username : 'TakNone',
 	photo : $client->chatPhotoEmpty(),
-	date : 6,
+	date : 82,
 	restriction_reason : array(
 		$client->restrictionReason(
-			platform : 'xt5hkpwHf2gX6cV8',
-			reason : 'XyaODjBkuIcmovEd',
-			text : 'rsRE8cS7xQudl04L',
+			platform : '2woSbtfJWaEpmMiH',
+			reason : 'ODPLseczaUvHVWmY',
+			text : 'JPw1gCluOithVSUk',
 		),
 	),
 	admin_rights : $client->chatAdminRights(
@@ -161,7 +161,7 @@ $chat = $client->channel(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 82,
+		until_date : 93,
 	),
 	default_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -186,9 +186,9 @@ $chat = $client->channel(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 45,
+		until_date : 49,
 	),
-	participants_count : 60,
+	participants_count : 73,
 	usernames : array(
 		$client->username(
 			editable : true,
@@ -198,21 +198,21 @@ $chat = $client->channel(
 	),
 	stories_max_id : $client->recentStory(
 		live : true,
-		max_id : 94,
+		max_id : 51,
 	),
 	color : $client->peerColor(
-		color : 6,
-		background_emoji_id : 9134224700498386330,
+		color : 7,
+		background_emoji_id : 4617352358001323238,
 	),
 	profile_color : $client->peerColor(
-		color : 5,
-		background_emoji_id : 8707660077619457619,
+		color : 99,
+		background_emoji_id : -1845671850452486429,
 	),
 	emoji_status : $client->emojiStatusEmpty(),
-	level : 75,
-	subscription_until_date : 68,
-	bot_verification_icon : 6756193422475986729,
-	send_paid_messages_stars : 9034728985212548155,
-	linked_monoforum_id : 1937542435204983259,
+	level : 95,
+	subscription_until_date : 70,
+	bot_verification_icon : 8715821482430916641,
+	send_paid_messages_stars : -5965797027986792582,
+	linked_monoforum_id : -730209061106768018,
 );
 ```

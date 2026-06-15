@@ -2,7 +2,7 @@
 
 **Description** : *Connect a business bot &raquo; to the current account, or to change the current connection settings*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.updateConnectedBot#66a08c7e flags:# deleted:flags.1?true rights:flags.0?BusinessBotRights bot:InputUser recipients:InputBusinessBotRecipients = Updates;

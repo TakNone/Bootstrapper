@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of active, expired or cancelled Telegram Star subscriptions &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.getStarsSubscriptions#32512c5 flags:# missing_balance:flags.0?true peer:InputPeer offset:string = payments.StarsStatus;
@@ -41,6 +41,6 @@ payments.getStarsSubscriptions#32512c5 flags:# missing_balance:flags.0?true peer
 $paymentsStarsStatus = $client->payments->getStarsSubscriptions(
 	missing_balance : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'CTJWg9w4qVZLRmlF',
+	offset : '7OslEqwJC5RUhaBb',
 );
 ```

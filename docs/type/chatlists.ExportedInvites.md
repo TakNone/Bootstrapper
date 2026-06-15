@@ -2,7 +2,7 @@
 
 **Description** : *A list of exported chat folder deep links &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatlists.exportedInvites#10ab6dc7 invites:Vector<ExportedChatlistInvite> chats:Vector<Chat> users:Vector<User> = chatlists.ExportedInvites;

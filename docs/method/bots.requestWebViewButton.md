@@ -1,6 +1,6 @@
 # bots.requestWebViewButton
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.requestWebViewButton#31a2a35e user_id:InputUser button:KeyboardButton = bots.RequestedButton;
@@ -33,9 +33,9 @@ $botsRequestedButton = $client->bots->requestWebViewButton(
 			bg_primary : true,
 			bg_danger : true,
 			bg_success : true,
-			icon : -5558513170769180645,
+			icon : -109234487237673783,
 		),
-		text : 'kp93Mn7FOdevWr4A',
+		text : 'lVRsTNm86EqKgWu9',
 	),
 );
 ```

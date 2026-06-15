@@ -2,7 +2,7 @@
 
 **Description** : *New group member*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateChatParticipantAdd#3dda5451 chat_id:long user_id:long inviter_id:long date:int version:int = Update;
@@ -32,10 +32,10 @@ updateChatParticipantAdd#3dda5451 chat_id:long user_id:long inviter_id:long date
 
 ```php
 $update = $client->updateChatParticipantAdd(
-	chat_id : -2192072495456353107,
-	user_id : 8045375506515035720,
-	inviter_id : -8113871664885973465,
-	date : 28,
+	chat_id : 3522178418797814455,
+	user_id : 1638552193459967743,
+	inviter_id : -5675414342087275460,
+	date : 45,
 	version : 0,
 );
 ```

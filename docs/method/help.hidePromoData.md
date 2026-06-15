@@ -2,7 +2,7 @@
 
 **Description** : *Hide MTProxy/Public Service Announcement information*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 help.hidePromoData#1e251c95 peer:InputPeer = Bool;

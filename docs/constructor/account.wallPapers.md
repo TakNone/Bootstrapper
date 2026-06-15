@@ -2,7 +2,7 @@
 
 **Description** : *Installed wallpapers*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.wallPapers#cdc3858c hash:long wallpapers:Vector<WallPaper> = account.WallPapers;
@@ -32,42 +32,42 @@ $accountWallPapers = $client->account->wallPapers(
 	hash : 0,
 	wallpapers : array(
 		$client->wallPaper(
-			id : -2190707334802428936,
+			id : 3590302987779137237,
 			creator : true,
 			default : true,
 			pattern : true,
 			dark : true,
-			access_hash : 7905023045743414515,
-			slug : 'j35PMdhlS9spcHuw',
+			access_hash : -4633537772487172381,
+			slug : 'sX34m5w6TNKqxeck',
 			document : $client->documentEmpty(
-				id : 5524898659292240306,
+				id : -449436959731807090,
 			),
 			settings : $client->wallPaperSettings(
 				blur : true,
 				motion : true,
-				background_color : 100,
-				second_background_color : 70,
-				third_background_color : 26,
-				fourth_background_color : 93,
-				intensity : 1,
-				rotation : 44,
-				emoticon : 'LEFmjVKAsZyPvIoU',
+				background_color : 97,
+				second_background_color : 100,
+				third_background_color : 88,
+				fourth_background_color : 34,
+				intensity : 55,
+				rotation : 15,
+				emoticon : 'RYwf1zpsncUS7Wih',
 			),
 		),
 		$client->wallPaperNoFile(
-			id : -7881255735655402417,
+			id : -4091378619494310920,
 			default : true,
 			dark : true,
 			settings : $client->wallPaperSettings(
 				blur : true,
 				motion : true,
-				background_color : 34,
-				second_background_color : 4,
-				third_background_color : 25,
-				fourth_background_color : 25,
-				intensity : 61,
-				rotation : 34,
-				emoticon : 'FX3E7TgSc9td2sf1',
+				background_color : 66,
+				second_background_color : 86,
+				third_background_color : 38,
+				fourth_background_color : 71,
+				intensity : 19,
+				rotation : 84,
+				emoticon : 'WMRY0UzOu8QSVlaG',
 			),
 		),
 	),

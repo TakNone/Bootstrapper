@@ -2,7 +2,7 @@
 
 **Description** : *Send compiled payment form*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.sendPaymentForm#2d03522f flags:# form_id:long invoice:InputInvoice requested_info_id:flags.0?string shipping_option_id:flags.1?string credentials:InputPaymentCredentials tip_amount:flags.2?long = payments.PaymentResult;
@@ -47,17 +47,17 @@ payments.sendPaymentForm#2d03522f flags:# form_id:long invoice:InputInvoice requ
 
 ```php
 $paymentsPaymentResult = $client->payments->sendPaymentForm(
-	form_id : -3854012017785282313,
+	form_id : -7164777921752151736,
 	invoice : $client->inputInvoiceMessage(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-		msg_id : 67,
+		msg_id : 79,
 	),
-	requested_info_id : 'esaNcqXdJ53k4Cln',
-	shipping_option_id : 'wBr0yGQWxkNYqc39',
+	requested_info_id : 'uPBfnyx8QbwUh7mD',
+	shipping_option_id : '1kIgzHw3RVjyv68e',
 	credentials : $client->inputPaymentCredentialsSaved(
-		id : 't4F93pYZjW1LHQmE',
+		id : 'LtFb1xRByrpAQ39K',
 		tmp_password : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
-	tip_amount : -8270444047453851283,
+	tip_amount : 4560758779967526842,
 );
 ```

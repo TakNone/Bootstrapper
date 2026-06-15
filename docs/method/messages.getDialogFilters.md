@@ -2,7 +2,7 @@
 
 **Description** : *Get folders*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getDialogFilters#efd48c89 = messages.DialogFilters;

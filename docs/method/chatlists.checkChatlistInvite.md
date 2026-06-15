@@ -2,7 +2,7 @@
 
 **Description** : *Obtain information about a chat folder deep link &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatlists.checkChatlistInvite#41c10fff slug:string = chatlists.ChatlistInvite;
@@ -37,6 +37,6 @@ chatlists.checkChatlistInvite#41c10fff slug:string = chatlists.ChatlistInvite;
 
 ```php
 $chatlistsChatlistInvite = $client->chatlists->checkChatlistInvite(
-	slug : 'G2JT5bzFZRmXBd0t',
+	slug : 'WIucAdw1lGH7kgXa',
 );
 ```

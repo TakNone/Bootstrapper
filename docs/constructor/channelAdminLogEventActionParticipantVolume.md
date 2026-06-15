@@ -2,7 +2,7 @@
 
 **Description** : *channelAdminLogEvent\.user\_id has set the volume of participant\.peer to participant\.volume*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channelAdminLogEventActionParticipantVolume#3e7f6847 participant:GroupCallParticipant = ChannelAdminLogEventAction;
@@ -40,37 +40,37 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantVolu
 		self : true,
 		video_joined : true,
 		peer : $client->peerUser(
-			user_id : 1666259606050908219,
+			user_id : -2356802152982352650,
 		),
-		date : 68,
-		active_date : 29,
-		source : 64,
-		volume : 81,
-		about : 'hxz38JGvwVFL7qXQ',
-		raise_hand_rating : 8593355672459467330,
+		date : 9,
+		active_date : 16,
+		source : 39,
+		volume : 51,
+		about : 'VCBWFoQMEYA84ewG',
+		raise_hand_rating : 601411644357536340,
 		video : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : 'GWSAX3FguC8fDbMc',
+			endpoint : 'uBEPTQjYi9nI8h4q',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(
-					semantics : 'EqmAsR5YBzwkd0Kb',
-					sources : array(32),
+					semantics : 'OUM0fTAJzRFLxQYk',
+					sources : array(23),
 				),
 			),
-			audio_source : 48,
+			audio_source : 51,
 		),
 		presentation : $client->groupCallParticipantVideo(
 			paused : true,
-			endpoint : 'TwZn5hApaiBkxKX2',
+			endpoint : 'W61je2hUpJPqNYgi',
 			source_groups : array(
 				$client->groupCallParticipantVideoSourceGroup(
-					semantics : '1zg2YTqy7NEaX9lh',
-					sources : array(44),
+					semantics : 'J95pDztkcsPTRFm6',
+					sources : array(80),
 				),
 			),
-			audio_source : 52,
+			audio_source : 66,
 		),
-		paid_stars_total : 8598640969514166021,
+		paid_stars_total : 5577114258794202862,
 	),
 );
 ```

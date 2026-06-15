@@ -2,7 +2,7 @@
 
 **Description** : *Contains statistics about a story*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stats.storyStats#50cd067c views_graph:StatsGraph reactions_by_emotion_graph:StatsGraph = stats.StoryStats;

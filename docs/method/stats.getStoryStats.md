@@ -2,7 +2,7 @@
 
 **Description** : *Get statistics for a certain story*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stats.getStoryStats#374fef40 flags:# dark:flags.0?true peer:InputPeer id:int = stats.StoryStats;
@@ -42,6 +42,6 @@ stats.getStoryStats#374fef40 flags:# dark:flags.0?true peer:InputPeer id:int = s
 $statsStoryStats = $client->stats->getStoryStats(
 	dark : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 54,
+	id : 63,
 );
 ```

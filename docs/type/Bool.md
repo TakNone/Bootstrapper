@@ -2,7 +2,7 @@
 
 **Description** : *Boolean type*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 boolFalse#bc799737 = Bool;

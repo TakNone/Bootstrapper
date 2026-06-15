@@ -2,7 +2,7 @@
 
 **Description** : *An invoice*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputBotInlineMessageMediaInvoice#d7e78225 flags:# title:string description:string photo:flags.0?InputWebDocument invoice:Invoice payload:bytes provider:string provider_data:DataJSON reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
@@ -36,55 +36,55 @@ inputBotInlineMessageMediaInvoice#d7e78225 flags:# title:string description:stri
 
 ```php
 $inputBotInlineMessage = $client->inputBotInlineMessageMediaInvoice(
-	title : 'hdt7a03JlzQipmVw',
-	description : 'VIu6L8BQOWH4mfKr',
+	title : 'LCp5W2Rs9b4Jotjm',
+	description : 'abcgYofyEVde2LwD',
 	photo : $client->inputWebDocument(
 		url : 'https://docs.liveproto.dev',
-		size : 36,
-		mime_type : 's1SYQO2TX4derIw5',
+		size : 30,
+		mime_type : 'nV48qlbRfxWP0uot',
 		attributes : array(
 			$client->documentAttributeImageSize(
-				w : 74,
-				h : 67,
+				w : 69,
+				h : 82,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : 'kz8ZbNx2tiPKh3fq',
+				alt : 'baLed5IzXcuBxlGt',
 				stickerset : $client->inputStickerSetEmpty(),
 				mask_coords : $client->maskCoords(
-					n : 74,
-					x : 1717496.828125,
-					y : 83596.2431640625,
-					zoom : -726187.5302734375,
+					n : 25,
+					x : -58092.869140625,
+					y : -2006127.6181640625,
+					zoom : -1063053.3515625,
 				),
 			),
 			$client->documentAttributeVideo(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : -1034068.3408203125,
-				w : 44,
-				h : 98,
-				preload_prefix_size : 81,
-				video_start_ts : 1976017.2958984375,
-				video_codec : 'pdaPfbNE8JWyutwY',
+				duration : 1259407.2060546875,
+				w : 98,
+				h : 73,
+				preload_prefix_size : 20,
+				video_start_ts : -80908.7236328125,
+				video_codec : 'ULdm7X1abDR0OfSo',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 75,
-				title : 'Z7qQwrhXTUPlmB4b',
-				performer : 'RQrx6GUHuyvg0Nje',
+				duration : 18,
+				title : 'LW2p4wTZANm6u8rk',
+				performer : 'gFCdPA14pciezrqI',
 				waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->documentAttributeFilename(
-				file_name : 'nyN2JLsCARvKlDmo',
+				file_name : 'NkahUQ9VqPmSFc4G',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : 'yEopN1YD8QOtwcHn',
+				alt : 'lOjKrqb4PwpxfVv6',
 				stickerset : $client->inputStickerSetEmpty(),
 			),
 		),
@@ -99,22 +99,22 @@ $inputBotInlineMessage = $client->inputBotInlineMessageMediaInvoice(
 		phone_to_provider : true,
 		email_to_provider : true,
 		recurring : true,
-		currency : 'ZrchVoW1eQGE5wFb',
+		currency : 'AQbBTLy41VYdDlmn',
 		prices : array(
 			$client->labeledPrice(
-				label : 'BngElYXFOMy51Paq',
-				amount : 5414428319668343972,
+				label : 'jhngo7SOAepR2trc',
+				amount : -158011398960220241,
 			),
 		),
-		max_tip_amount : -6862872296770718074,
-		suggested_tip_amounts : array(3217797819879479751),
+		max_tip_amount : -6933397849831808477,
+		suggested_tip_amounts : array(-5879050114587274308),
 		terms_url : 'https://docs.liveproto.dev',
-		subscription_period : 56,
+		subscription_period : 62,
 	),
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	provider : 'mevzBPqGHJu9obIg',
+	provider : 'mFITyQfLqAbrJ0Rg',
 	provider_data : $client->dataJSON(
-		data : 'TqHS9vAMNiWR6lVw',
+		data : 'Zh8BC9JFeHG3lrYD',
 	),
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,

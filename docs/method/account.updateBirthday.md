@@ -2,7 +2,7 @@
 
 **Description** : *Update our birthday, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 account.updateBirthday#cc6e0c11 flags:# birthday:flags.0?Birthday = Bool;
@@ -38,9 +38,9 @@ account.updateBirthday#cc6e0c11 flags:# birthday:flags.0?Birthday = Bool;
 ```php
 $bool = $client->account->updateBirthday(
 	birthday : $client->birthday(
-		day : 9,
-		month : 66,
-		year : 62,
+		day : 20,
+		month : 6,
+		year : 89,
 	),
 );
 ```

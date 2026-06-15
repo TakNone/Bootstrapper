@@ -1,6 +1,6 @@
 # contacts.updateContactNote
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 contacts.updateContactNote#139f63fb id:InputUser note:TextWithEntities = Bool;
@@ -29,97 +29,97 @@ contacts.updateContactNote#139f63fb id:InputUser note:TextWithEntities = Bool;
 $bool = $client->contacts->updateContactNote(
 	id : $client->get_input_user(user : '@TakNone'),
 	note : $client->textWithEntities(
-		text : '5wduvK1ZbrPWG2L7',
+		text : 'BQWONaws95olv21m',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 29,
+				length : 95,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 62,
+				length : 49,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 86,
+				length : 22,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 72,
+				length : 50,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 48,
+				length : 76,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 11,
+				length : 48,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 3,
+				length : 1,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 8,
+				length : 97,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 95,
+				length : 55,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 52,
-				language : 'dBMazHg8wRAX9n2G',
+				length : 28,
+				language : 'ZepovET519HPwzMU',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 57,
+				length : 94,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 17,
-				user_id : 7260155731318385681,
+				length : 89,
+				user_id : 2736240064078808109,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 32,
+				length : 90,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 86,
+				length : 73,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 91,
+				length : 96,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 33,
+				length : 40,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 52,
+				length : 35,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 80,
+				length : 23,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 31,
+				length : 2,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 85,
-				document_id : 4301290406229163287,
+				length : 60,
+				document_id : 4164636591822119479,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 78,
+				length : 2,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -129,21 +129,21 @@ $bool = $client->contacts->updateContactNote(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 35,
-				date : 53,
+				length : 41,
+				date : 44,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 2,
+				length : 27,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 4,
-				old_text : 'u3ZxHzMTkBCYUcVj',
+				length : 87,
+				old_text : 'cHAj6gDMX1hEQoTd',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 32,
+				length : 45,
 			),
 		),
 	),

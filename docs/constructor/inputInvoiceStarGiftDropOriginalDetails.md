@@ -1,6 +1,6 @@
 # inputInvoiceStarGiftDropOriginalDetails
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputInvoiceStarGiftDropOriginalDetails#923d8d1 stargift:InputSavedStarGift = InputInvoice;
@@ -27,7 +27,7 @@ inputInvoiceStarGiftDropOriginalDetails#923d8d1 stargift:InputSavedStarGift = In
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftDropOriginalDetails(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 36,
+		msg_id : 77,
 	),
 );
 ```

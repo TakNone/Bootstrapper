@@ -2,7 +2,7 @@
 
 **Description** : *Describes a real \(i\.e\. possibly decimal\) amount of Telegram Stars*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starsAmount#bbb6b4a3 amount:long nanos:int = StarsAmount;

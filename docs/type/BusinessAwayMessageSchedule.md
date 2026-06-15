@@ -2,7 +2,7 @@
 
 **Description** : *Specifies when should the Telegram Business away messages be sent*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 businessAwayMessageScheduleAlways#c9b9e2b9 = BusinessAwayMessageSchedule;

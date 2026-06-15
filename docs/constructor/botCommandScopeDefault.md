@@ -2,7 +2,7 @@
 
 **Description** : *The commands will be valid in all dialogs*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 botCommandScopeDefault#2f6cb2ab = BotCommandScope;

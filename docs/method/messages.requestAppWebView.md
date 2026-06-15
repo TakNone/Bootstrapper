@@ -2,7 +2,7 @@
 
 **Description** : *Open a bot mini app from a direct Mini App deep link, sending over user information after user confirmation*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.requestAppWebView#53618bce flags:# write_allowed:flags.0?true compact:flags.7?true fullscreen:flags.8?true peer:InputPeer app:InputBotApp start_param:flags.1?string theme_params:flags.2?DataJSON platform:string = WebViewResult;
@@ -53,13 +53,13 @@ $webViewResult = $client->messages->requestAppWebView(
 	fullscreen : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	app : $client->inputBotAppID(
-		id : -8907949540706173178,
-		access_hash : -6086404330089212624,
+		id : 2704626864033495758,
+		access_hash : -597350501683161084,
 	),
-	start_param : 'LGYduDaewFW1JogS',
+	start_param : 'Bg6zHuZGkC5UJsTR',
 	theme_params : $client->dataJSON(
-		data : 'ERx6tXhPrO9Z2nqW',
+		data : 'DskwRfSxlQu90q8c',
 	),
-	platform : 'wg24ust9l6OYmF3v',
+	platform : 'AQsL6SXM7k4TecvP',
 );
 ```

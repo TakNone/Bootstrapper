@@ -2,10 +2,10 @@
 
 **Description** : *Returns users found by username substring*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
-contacts.search#11f812d8 q:string limit:int = contacts.Found;
+contacts.search#5f58d0f flags:# broadcasts:flags.0?true bots:flags.1?true q:string limit:int = contacts.Found;
 ```
 
 ---
@@ -14,6 +14,9 @@ contacts.search#11f812d8 q:string limit:int = contacts.Found;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **broadcasts** | [`flags.0?true`](type/true) | NOTHING |
+| **bots** | [`flags.1?true`](type/true) | NOTHING |
 | <mark>q</mark> | [`string`](type/string) | Target substring |
 | <mark>limit</mark> | [`int`](type/int) | Maximum number of users to be returned |
 
@@ -38,7 +41,9 @@ contacts.search#11f812d8 q:string limit:int = contacts.Found;
 
 ```php
 $contactsFound = $client->contacts->search(
-	q : 'fAzmDpjB9IZnC4QL',
-	limit : 1,
+	broadcasts : true,
+	bots : true,
+	q : 'kjL53evKlM2FacwT',
+	limit : 31,
 );
 ```

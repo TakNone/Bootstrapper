@@ -2,7 +2,7 @@
 
 **Description** : *Stickerset preview*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stickerSetCovered#6410a5d2 set:StickerSet cover:Document = StickerSetCovered;

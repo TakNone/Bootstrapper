@@ -2,7 +2,7 @@
 
 **Description** : *Defines a GeoPoint by its coordinates*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 inputGeoPoint#48222faf flags:# lat:double long:double accuracy_radius:flags.0?int = InputGeoPoint;
@@ -31,8 +31,8 @@ inputGeoPoint#48222faf flags:# lat:double long:double accuracy_radius:flags.0?in
 
 ```php
 $inputGeoPoint = $client->inputGeoPoint(
-	lat : -168262.3271484375,
-	long : 693715.8623046875,
-	accuracy_radius : 98,
+	lat : 1689211.712890625,
+	long : -1333184.8740234375,
+	accuracy_radius : 86,
 );
 ```

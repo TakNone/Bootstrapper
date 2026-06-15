@@ -2,7 +2,7 @@
 
 **Description** : *Future auth token &raquo; to be used on subsequent authorizations*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.loggedOut#c3a2835f flags:# future_auth_token:flags.0?bytes = auth.LoggedOut;

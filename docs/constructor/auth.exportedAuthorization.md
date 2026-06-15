@@ -2,7 +2,7 @@
 
 **Description** : *Data for copying of authorization between data centers*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 auth.exportedAuthorization#b434e2b8 id:long bytes:bytes = auth.ExportedAuthorization;
@@ -29,7 +29,7 @@ auth.exportedAuthorization#b434e2b8 id:long bytes:bytes = auth.ExportedAuthoriza
 
 ```php
 $authExportedAuthorization = $client->auth->exportedAuthorization(
-	id : -1825201549475138145,
+	id : 3332785300501074614,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

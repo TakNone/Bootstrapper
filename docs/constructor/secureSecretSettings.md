@@ -2,7 +2,7 @@
 
 **Description** : *Secure settings*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 secureSecretSettings#1527bcac secure_algo:SecurePasswordKdfAlgo secure_secret:bytes secure_secret_id:long = SecureSecretSettings;
@@ -32,6 +32,6 @@ secureSecretSettings#1527bcac secure_algo:SecurePasswordKdfAlgo secure_secret:by
 $secureSecretSettings = $client->secureSecretSettings(
 	secure_algo : $client->securePasswordKdfAlgoUnknown(),
 	secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	secure_secret_id : -4062549822399301141,
+	secure_secret_id : 4007315984447933855,
 );
 ```

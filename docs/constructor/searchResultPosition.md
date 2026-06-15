@@ -2,7 +2,7 @@
 
 **Description** : *Information about a message in a specific position*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 searchResultPosition#7f648b67 msg_id:int date:int offset:int = SearchResultsPosition;
@@ -30,8 +30,8 @@ searchResultPosition#7f648b67 msg_id:int date:int offset:int = SearchResultsPosi
 
 ```php
 $searchResultsPosition = $client->searchResultPosition(
-	msg_id : 58,
-	date : 39,
+	msg_id : 8,
+	date : 41,
 	offset : 0,
 );
 ```

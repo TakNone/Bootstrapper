@@ -2,7 +2,7 @@
 
 **Description** : *Indicates that stories stealth mode was activated*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateStoriesStealthMode#2c084dc1 stealth_mode:StoriesStealthMode = Update;
@@ -29,8 +29,8 @@ updateStoriesStealthMode#2c084dc1 stealth_mode:StoriesStealthMode = Update;
 ```php
 $update = $client->updateStoriesStealthMode(
 	stealth_mode : $client->storiesStealthMode(
-		active_until_date : 46,
-		cooldown_until_date : 15,
+		active_until_date : 66,
+		cooldown_until_date : 6,
 	),
 );
 ```

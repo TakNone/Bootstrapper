@@ -2,7 +2,7 @@
 
 **Description** : *Delete a previously created chat folder deep link &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 chatlists.deleteExportedInvite#719c5c5e chatlist:InputChatlist slug:string = Bool;
@@ -41,8 +41,8 @@ chatlists.deleteExportedInvite#719c5c5e chatlist:InputChatlist slug:string = Boo
 ```php
 $bool = $client->chatlists->deleteExportedInvite(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 74,
+		filter_id : 24,
 	),
-	slug : 'D8OCLrH2ZExFJwPQ',
+	slug : '9sjd5QJp4rDxCPqU',
 );
 ```

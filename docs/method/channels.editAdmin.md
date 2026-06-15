@@ -2,7 +2,7 @@
 
 **Description** : *Modify the admin rights of a user in a supergroup/channel*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 channels.editAdmin#9a98ad68 flags:# channel:InputChannel user_id:InputUser admin_rights:ChatAdminRights rank:flags.0?string = Updates;
@@ -85,6 +85,6 @@ $updates = $client->channels->editAdmin(
 		manage_direct_messages : true,
 		manage_ranks : true,
 	),
-	rank : 'GI7YDgaS6VTr5cq4',
+	rank : 'aTgbZKBjP8sit42N',
 );
 ```

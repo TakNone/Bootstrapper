@@ -2,7 +2,7 @@
 
 **Description** : *Delete a star gift collection &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.deleteStarGiftCollection#ad5648e8 peer:InputPeer collection_id:int = Bool;
@@ -38,6 +38,6 @@ payments.deleteStarGiftCollection#ad5648e8 peer:InputPeer collection_id:int = Bo
 ```php
 $bool = $client->payments->deleteStarGiftCollection(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	collection_id : 13,
+	collection_id : 79,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Kicker*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 pageBlockKicker#1e148390 text:RichText = PageBlock;

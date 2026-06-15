@@ -2,7 +2,7 @@
 
 **Description** : *Get count of online users in a chat*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getOnlines#6e2be050 peer:InputPeer = ChatOnlines;

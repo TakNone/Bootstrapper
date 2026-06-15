@@ -2,7 +2,7 @@
 
 **Description** : *Obtain available message reactions &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getAvailableReactions#18dea0ac hash:int = messages.AvailableReactions;

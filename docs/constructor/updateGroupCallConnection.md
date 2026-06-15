@@ -2,7 +2,7 @@
 
 **Description** : *New WebRTC parameters*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJSON = Update;
@@ -32,7 +32,7 @@ updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJ
 $update = $client->updateGroupCallConnection(
 	presentation : true,
 	params : $client->dataJSON(
-		data : 'HQyaE3JL2YAm4Ko0',
+		data : 'XBmM5tGxQ7s8cpbR',
 	),
 );
 ```

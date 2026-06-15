@@ -2,7 +2,7 @@
 
 **Description** : *Sets the menu button action &raquo; for a given user or for all users*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.setBotMenuButton#4504d54f user_id:InputUser button:BotMenuButton = Bool;

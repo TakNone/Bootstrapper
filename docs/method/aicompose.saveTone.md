@@ -1,6 +1,6 @@
 # aicompose.saveTone
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 aicompose.saveTone#1782cbb1 tone:InputAiComposeTone unsave:Bool = Bool;
@@ -28,7 +28,7 @@ aicompose.saveTone#1782cbb1 tone:InputAiComposeTone unsave:Bool = Bool;
 ```php
 $bool = $client->aicompose->saveTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : '48Ije5UMPzoq1QA3',
+		tone : 'pjlL6omvy7JZckOM',
 	),
 	unsave : false,
 );

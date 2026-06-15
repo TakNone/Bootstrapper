@@ -1,6 +1,6 @@
 # StarGiftBackground
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = StarGiftBackground;

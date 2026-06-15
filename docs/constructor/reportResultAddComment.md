@@ -2,7 +2,7 @@
 
 **Description** : *The user should enter an additional comment for the moderators, and then messages\.report must be re\-invoked, passing the comment to messages\.report\.message*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 reportResultAddComment#6f09ac31 flags:# optional:flags.0?true option:bytes = ReportResult;

@@ -2,7 +2,7 @@
 
 **Description** : *Paid reaction privacy settings &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 paidReactionPrivacyDefault#206ad49e = PaidReactionPrivacy;

@@ -2,7 +2,7 @@
 
 **Description** : *Specifies a set of Telegram Business opening hours*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 businessWorkHours#8c92b098 flags:# open_now:flags.0?true timezone_id:string weekly_open:Vector<BusinessWeeklyOpen> = BusinessWorkHours;

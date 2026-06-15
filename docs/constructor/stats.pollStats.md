@@ -1,6 +1,6 @@
 # stats.pollStats
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;
@@ -27,7 +27,7 @@ stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;
 ```php
 $statsPollStats = $client->stats->pollStats(
 	votes_graph : $client->statsGraphAsync(
-		token : '4q7VPdcFTEbHMv3n',
+		token : 'T0jALX6qDSrZvka3',
 	),
 );
 ```

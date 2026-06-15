@@ -2,7 +2,7 @@
 
 **Description** : *Check if a mini app can request the download of a specific file: called when handling web\_app\_request\_file\_download events &raquo;*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.checkDownloadFileParams#50077589 bot:InputUser file_name:string url:string = Bool;
@@ -39,7 +39,7 @@ bots.checkDownloadFileParams#50077589 bot:InputUser file_name:string url:string 
 ```php
 $bool = $client->bots->checkDownloadFileParams(
 	bot : $client->get_input_user(user : '@TakNone'),
-	file_name : 'jQYID9u0MZGdWFUT',
+	file_name : 'sG4HWoulvngZDMpC',
 	url : 'https://docs.liveproto.dev',
 );
 ```

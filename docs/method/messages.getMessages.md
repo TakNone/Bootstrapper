@@ -2,7 +2,7 @@
 
 **Description** : *Returns the list of messages by their IDs*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.getMessages#63c66506 id:Vector<InputMessage> = messages.Messages;
@@ -30,15 +30,15 @@ messages.getMessages#63c66506 id:Vector<InputMessage> = messages.Messages;
 $messagesMessages = $client->messages->getMessages(
 	id : array(
 		$client->inputMessageID(
-			id : 92,
+			id : 3,
 		),
 		$client->inputMessageReplyTo(
-			id : 50,
+			id : 1,
 		),
 		$client->inputMessagePinned(),
 		$client->inputMessageCallbackQuery(
-			id : 35,
-			query_id : 2409753518902520856,
+			id : 52,
+			query_id : -5983168812719230894,
 		),
 	),
 );

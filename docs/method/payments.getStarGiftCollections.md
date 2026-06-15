@@ -2,7 +2,7 @@
 
 **Description** : *Fetches all star gift collections &raquo; of a peer*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 payments.getStarGiftCollections#981b91dd peer:InputPeer hash:long = payments.StarGiftCollections;

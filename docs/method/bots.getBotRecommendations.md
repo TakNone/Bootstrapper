@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of similarly themed bots, selected based on similarities in their subscriber bases, see here &raquo; for more info*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 bots.getBotRecommendations#a1b70815 bot:InputUser = users.Users;

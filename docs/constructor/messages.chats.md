@@ -2,7 +2,7 @@
 
 **Description** : *List of chats with auxiliary data*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 messages.chats#64ff9fd5 chats:Vector<Chat> = messages.Chats;
@@ -30,7 +30,7 @@ messages.chats#64ff9fd5 chats:Vector<Chat> = messages.Chats;
 $messagesChats = $client->messages->chats(
 	chats : array(
 		$client->chatEmpty(
-			id : -3423676106236757170,
+			id : 7508220696457218410,
 		),
 		$client->chat(
 			creator : true,
@@ -39,12 +39,12 @@ $messagesChats = $client->messages->chats(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -8987953531422926213,
-			title : 'im2DcFtw7NqAQeRJ',
+			id : -727475915755784295,
+			title : 'c5DnwoHzXIkg7jS0',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 24,
-			date : 33,
-			version : 39,
+			participants_count : 57,
+			date : 39,
+			version : 17,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -88,12 +88,12 @@ $messagesChats = $client->messages->chats(
 				send_plain : true,
 				edit_rank : true,
 				send_reactions : true,
-				until_date : 65,
+				until_date : 49,
 			),
 		),
 		$client->chatForbidden(
-			id : -4645206190795666023,
-			title : 'XKIhFzkg8EBN1U5A',
+			id : -5350026844590263397,
+			title : 'RP9iq1IUF8MybZJm',
 		),
 		$client->channel(
 			creator : true,
@@ -124,17 +124,17 @@ $messagesChats = $client->messages->chats(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : -1170488364740915478,
-			access_hash : -8620818827651902026,
-			title : 'niCtjobqYh5g7LNw',
+			id : 2943357929727756064,
+			access_hash : 5792144798651266686,
+			title : 'np5AgGoavzVJhdIs',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 55,
+			date : 76,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '9yPMIFdvLe8rspoJ',
-					reason : 'CaeqxH5FWZ19bOGi',
-					text : 'dQekFsjhCDJPq8VA',
+					platform : 'R6TyAt8C4cpOseNM',
+					reason : 'UZJITv89dtjYgVAW',
+					text : 'DEhdGevpuHxg2XcU',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -179,7 +179,7 @@ $messagesChats = $client->messages->chats(
 				send_plain : true,
 				edit_rank : true,
 				send_reactions : true,
-				until_date : 71,
+				until_date : 41,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -204,9 +204,9 @@ $messagesChats = $client->messages->chats(
 				send_plain : true,
 				edit_rank : true,
 				send_reactions : true,
-				until_date : 40,
+				until_date : 21,
 			),
-			participants_count : 92,
+			participants_count : 4,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -216,31 +216,31 @@ $messagesChats = $client->messages->chats(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 68,
+				max_id : 5,
 			),
 			color : $client->peerColor(
-				color : 61,
-				background_emoji_id : 3568502766866884242,
+				color : 3,
+				background_emoji_id : 661209134179454091,
 			),
 			profile_color : $client->peerColor(
-				color : 10,
-				background_emoji_id : 6559393566759632412,
+				color : 95,
+				background_emoji_id : -493382943925917348,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 43,
-			subscription_until_date : 93,
-			bot_verification_icon : -3493681185663243559,
-			send_paid_messages_stars : 4979187372770493854,
-			linked_monoforum_id : 7845087404702220343,
+			level : 20,
+			subscription_until_date : 84,
+			bot_verification_icon : 367629838823666665,
+			send_paid_messages_stars : 8041679848870762482,
+			linked_monoforum_id : -1237623836511897275,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
 			monoforum : true,
-			id : 8442272482514370979,
-			access_hash : 6816974243151544876,
-			title : 'Eace1DqxZ05iyJdb',
-			until_date : 99,
+			id : -4032067146914178665,
+			access_hash : -672737776277070195,
+			title : 'ItRkhoiumvsJ84F1',
+			until_date : 5,
 		),
 	),
 );

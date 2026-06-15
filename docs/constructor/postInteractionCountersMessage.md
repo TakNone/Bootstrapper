@@ -2,7 +2,7 @@
 
 **Description** : *Interaction counters for a message*
 
-**Layer** : 225
+**Layer** : 227
 
 ```tl
 postInteractionCountersMessage#e7058e7f msg_id:int views:int forwards:int reactions:int = PostInteractionCounters;
@@ -31,9 +31,9 @@ postInteractionCountersMessage#e7058e7f msg_id:int views:int forwards:int reacti
 
 ```php
 $postInteractionCounters = $client->postInteractionCountersMessage(
-	msg_id : 82,
-	views : 7,
-	forwards : 5,
-	reactions : 36,
+	msg_id : 25,
+	views : 50,
+	forwards : 51,
+	reactions : 12,
 );
 ```
