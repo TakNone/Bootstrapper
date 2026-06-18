@@ -19,7 +19,17 @@ final class Util {
 		}
 		$vendorDir = $this->composer->getConfig()->get('vendor-dir');
 		$fallbackPath = $vendorDir.DIRECTORY_SEPARATOR.str_replace(chr(47),DIRECTORY_SEPARATOR,$packageName);
-		return file_exists($fallbackPath) ? $fallbackPath : null;
+		$rootAutoload = $vendorDir.DIRECTORY_SEPARATOR.'autoload.php';
+		if(file_exists($fallbackPath)){
+			if(file_exists($rootAutoload)){
+				require_once $rootAutoload;
+				return $fallbackPath;
+			} else {
+				return null;
+			}
+		} else {
+			return null;
+		}
 	}
 }
 
