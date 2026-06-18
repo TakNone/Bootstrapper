@@ -19,14 +19,14 @@ use Composer\Script\ScriptEvents;
 class Plugin implements PluginInterface , EventSubscriberInterface {
 	private Composer $composer;
 	private IOInterface $io;
-	private ? string $path = null;
+	private ? string $path {
+		get => isset($this->composer) ? new Util($this->composer)->findInstallPath('taknone/liveproto') : null;
+    }
 	protected bool $setuped = false;
 
 	public function activate(Composer $composer,IOInterface $io) : void {
 		$this->composer = $composer;
 		$this->io = $io;
-		$util = new Util($composer);
-		$this->path = $util->findInstallPath('taknone/liveproto');
 	}
 	public function deactivate(Composer $composer,IOInterface $io) : void {
 	}

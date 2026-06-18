@@ -17,7 +17,9 @@ final class Util {
 				return $this->composer->getInstallationManager()->getInstallPath($pkg);
 			}
 		}
-		return null;
+		$vendorDir = $this->composer->getConfig()->get('vendor-dir');
+		$fallbackPath = $vendorDir.DIRECTORY_SEPARATOR.str_replace(chr(47),DIRECTORY_SEPARATOR,$packageName);
+		return file_exists($fallbackPath) ? $fallbackPath : null;
 	}
 }
 
