@@ -10,26 +10,18 @@ final class Util {
 	public function __construct(private Composer $composer){
 	}
 	public function findInstallPath(string $packageName) : ? string {
+		$rootPackage = $this->composer->getPackage();
+		if($rootPackage and $rootPackage->getName() === $packageName){
+			return dirname($this->composer->getConfig()->get('vendor-dir'));
+		}
 		$localRepo = $this->composer->getRepositoryManager()->getLocalRepository();
-		$packages = $localRepo->getPackages();
-		foreach($packages as $pkg){
-			if($pkg->getName() === $packageName){
-				return $this->composer->getInstallationManager()->getInstallPath($pkg);
-			}
+		$pkg = $localRepo->findPackage($packageName,'*');
+		if($pkg){
+			return $this->composer->getInstallationManager()->getInstallPath($pkg);
 		}
 		$vendorDir = $this->composer->getConfig()->get('vendor-dir');
 		$fallbackPath = $vendorDir.DIRECTORY_SEPARATOR.str_replace(chr(47),DIRECTORY_SEPARATOR,$packageName);
-		$rootAutoload = $vendorDir.DIRECTORY_SEPARATOR.'autoload.php';
-		if(file_exists($fallbackPath)){
-			if(file_exists($rootAutoload)){
-				require_once $rootAutoload;
-				return $fallbackPath;
-			} else {
-				return null;
-			}
-		} else {
-			return null;
-		}
+		return file_exists($fallbackPath) ? $fallbackPath : null;
 	}
 }
 

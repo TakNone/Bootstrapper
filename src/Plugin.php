@@ -35,8 +35,9 @@ class Plugin implements PluginInterface , EventSubscriberInterface {
 	public static function getSubscribedEvents() : array {
 		return array(
 			ScriptEvents::POST_AUTOLOAD_DUMP=>'onPostAutoloadDump',
-			ScriptEvents::POST_INSTALL_CMD=>'onPostInstall',
-			ScriptEvents::POST_UPDATE_CMD =>'onPostUpdate',
+			// Listening to post-install/update alongside it causes duplicated loops on fresh builds //
+			// ScriptEvents::POST_INSTALL_CMD=>'onPostInstall', //
+			// ScriptEvents::POST_UPDATE_CMD =>'onPostUpdate', //
 		);
 	}
 	public function onPostAutoloadDump(Event $event) : void {
@@ -52,6 +53,7 @@ class Plugin implements PluginInterface , EventSubscriberInterface {
 			$this->io->write('<error>Package path `taknone/liveproto` not found</error>');
 		}
 	}
+	/*
 	public function onPostInstall(Event $event) : void {
 		$this->io->write('<comment>TLGenerator : post-install hook</comment>');
 		$this->onPostAutoloadDump($event);
@@ -60,6 +62,7 @@ class Plugin implements PluginInterface , EventSubscriberInterface {
 		$this->io->write('<comment>TLGenerator : post-update hook</comment>');
 		$this->onPostAutoloadDump($event);
 	}
+	*/
 }
 
 ?>
