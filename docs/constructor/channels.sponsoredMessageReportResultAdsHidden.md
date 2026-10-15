@@ -2,7 +2,7 @@
 
 **Description** : *Sponsored messages were hidden for the user in all chats*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.sponsoredMessageReportResultAdsHidden#3e3bcf2f = channels.SponsoredMessageReportResult;

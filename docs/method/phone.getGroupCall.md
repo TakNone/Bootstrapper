@@ -1,8 +1,8 @@
 # phone.getGroupCall
 
-**Description** : *Get info about a group call*
+**Description** : *Get info about a group call and its participants*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.getGroupCall#41845db call:InputGroupCall limit:int = phone.GroupCall;
@@ -14,8 +14,8 @@ phone.getGroupCall#41845db call:InputGroupCall limit:int = phone.GroupCall;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call |
-| <mark>limit</mark> | [`int`](type/int) | Maximum number of results to return, see pagination |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call of any type to fetch |
+| <mark>limit</mark> | [`int`](type/int) | Maximum number of participants to return in this call (0 to return a server-defined amount). If the number of returned participants is less than groupCall.participants_count, paginate through the remaining participants using phone.getGroupParticipants, passing to offset the phone.groupCall.participants_next_offset returned by this call. This parameter behaves in a different way compared to the limit of phone.getGroupParticipants, see here » for more info |
 
 ---
 
@@ -29,7 +29,7 @@ phone.getGroupCall#41845db call:InputGroupCall limit:int = phone.GroupCall;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
-| **GROUPCALL_FORBIDDEN** | `403` | The group call has already ended |
+| **GROUPCALL_FORBIDDEN** | `403` | The specified group call cannot be used in this context |
 | **GROUPCALL_INVALID** | `400` | The specified group call is invalid |
 
 ---
@@ -39,9 +39,9 @@ phone.getGroupCall#41845db call:InputGroupCall limit:int = phone.GroupCall;
 ```php
 $phoneGroupCall = $client->phone->getGroupCall(
 	call : $client->inputGroupCall(
-		id : -7640026357873496634,
-		access_hash : -7588737354357973691,
+		id : -8024395122590825362,
+		access_hash : -6881241544906882434,
 	),
-	limit : 19,
+	limit : 43,
 );
 ```

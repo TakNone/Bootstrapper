@@ -1,8 +1,8 @@
 # account.getCollectibleEmojiStatuses
 
-**Description** : *Obtain a list of emoji statuses &raquo; for owned collectible gifts*
+**Description** : *Obtain a list of emoji statuses &raquo; for owned or hosted collectible gifts &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.getCollectibleEmojiStatuses#2e7b4543 hash:long = account.EmojiStatuses;

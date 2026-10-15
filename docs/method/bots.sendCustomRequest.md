@@ -2,7 +2,7 @@
 
 **Description** : *Sends a custom request; for bots only*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 bots.sendCustomRequest#aa2769ed custom_method:string params:DataJSON = DataJSON;
@@ -39,9 +39,9 @@ bots.sendCustomRequest#aa2769ed custom_method:string params:DataJSON = DataJSON;
 
 ```php
 $dataJSON = $client->bots->sendCustomRequest(
-	custom_method : 'oTz5k1IAnFb7PLdV',
+	custom_method : 'djansvtAZgC1uDwO',
 	params : $client->dataJSON(
-		data : 'z3cup0STkAfXhYbJ',
+		data : '86HmFGRl7KoqgVOa',
 	),
 );
 ```

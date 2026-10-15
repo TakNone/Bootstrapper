@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a channel/supergroup we can&#039;t access because we were banned, or for some other reason*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelForbidden#17d493d5 flags:# broadcast:flags.5?true megagroup:flags.8?true monoforum:flags.10?true id:long access_hash:long title:string until_date:flags.16?int = Chat;
@@ -17,7 +17,7 @@ channelForbidden#17d493d5 flags:# broadcast:flags.5?true megagroup:flags.8?true 
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **broadcast** | [`flags.5?true`](type/true) | Is this a channel |
 | **megagroup** | [`flags.8?true`](type/true) | Is this a supergroup |
-| **monoforum** | [`flags.10?true`](type/true) | NOTHING |
+| **monoforum** | [`flags.10?true`](type/true) | If set, this is a monoforum » |
 | <mark>id</mark> | [`long`](type/long) | Channel ID |
 | <mark>access_hash</mark> | [`long`](type/long) | Access hash |
 | <mark>title</mark> | [`string`](type/string) | Title |
@@ -38,9 +38,9 @@ $chat = $client->channelForbidden(
 	broadcast : true,
 	megagroup : true,
 	monoforum : true,
-	id : 6766587082407317874,
-	access_hash : -5510033485888443284,
-	title : 'fE9WMLAHK7OBsXhw',
-	until_date : 98,
+	id : 5194604030914672340,
+	access_hash : -5310000728249270164,
+	title : 'KQ2EhDtiqWcTGVIF',
+	until_date : 73,
 );
 ```

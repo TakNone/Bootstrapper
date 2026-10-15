@@ -1,6 +1,8 @@
 # account.deletePasskey
 
-**Layer** : 227
+**Description** : *Delete a passkey associated to the current account, see here &raquo; for more info*
+
+**Layer** : 229
 
 ```tl
 account.deletePasskey#f5b5563f id:string = Bool;
@@ -12,7 +14,7 @@ account.deletePasskey#f5b5563f id:string = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>id</mark> | [`string`](type/string) | NOTHING |
+| <mark>id</mark> | [`string`](type/string) | Identifier of the passkey to delete, taken from passkey.id, usually obtained using account.getPasskeys |
 
 ---
 
@@ -26,6 +28,6 @@ account.deletePasskey#f5b5563f id:string = Bool;
 
 ```php
 $bool = $client->account->deletePasskey(
-	id : '4oheLYnfJ9D6qc3m',
+	id : '4GhgCDXxpRFjwT7e',
 );
 ```

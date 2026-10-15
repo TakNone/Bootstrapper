@@ -1,8 +1,8 @@
 # phone.discardGroupCall
 
-**Description** : *Terminate a group call*
+**Description** : *Terminate a group call, ending the room for all participants\. This method can be used with all group call types, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.discardGroupCall#7a777135 call:InputGroupCall = Updates;
@@ -29,7 +29,7 @@ phone.discardGroupCall#7a777135 call:InputGroupCall = Updates;
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **GROUPCALL_ALREADY_DISCARDED** | `400` | The group call was already discarded |
-| **GROUPCALL_FORBIDDEN** | `403` | The group call has already ended |
+| **GROUPCALL_FORBIDDEN** | `403` | The specified group call cannot be used in this context |
 | **GROUPCALL_INVALID** | `400` | The specified group call is invalid |
 
 ---
@@ -39,8 +39,8 @@ phone.discardGroupCall#7a777135 call:InputGroupCall = Updates;
 ```php
 $updates = $client->phone->discardGroupCall(
 	call : $client->inputGroupCall(
-		id : 4935505441708760446,
-		access_hash : 8884794523632641719,
+		id : 2138322838142944814,
+		access_hash : -966283522024933372,
 	),
 );
 ```

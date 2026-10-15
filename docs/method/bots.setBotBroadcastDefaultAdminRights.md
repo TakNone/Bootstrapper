@@ -2,7 +2,7 @@
 
 **Description** : *Set the default suggested admin rights for bots being added as admins to channels, see here for more info on how to handle them &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 bots.setBotBroadcastDefaultAdminRights#788464e1 admin_rights:ChatAdminRights = Bool;
@@ -55,6 +55,8 @@ $bool = $client->bots->setBotBroadcastDefaultAdminRights(
 		delete_stories : true,
 		manage_direct_messages : true,
 		manage_ranks : true,
+		manage_linked_peers : true,
+		manage_welcome_messages : true,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Whether people will be able to see your phone number*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPrivacyKeyPhoneNumber#352dafa = InputPrivacyKey;

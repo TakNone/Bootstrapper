@@ -1,8 +1,8 @@
 # phone.requestCall
 
-**Description** : *Start a telegram phone call*
+**Description** : *Start a telegram phone call, see here &raquo; for more info on the full flow*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_id:int g_a_hash:bytes protocol:PhoneCallProtocol = phone.PhoneCall;
@@ -17,7 +17,7 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **video** | [`flags.0?true`](type/true) | Whether to start a video call |
 | <mark>user_id</mark> | [`InputUser`](type/InputUser) | Destination of the phone call |
-| <mark>random_id</mark> | [`int`](type/int) | Random ID to avoid resending the same object |
+| <mark>random_id</mark> | [`int`](type/int) | Random ID to avoid resending the same object. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>g_a_hash</mark> | [`bytes`](type/bytes) | Parameter for E2E encryption key exchange » |
 | <mark>protocol</mark> | [`PhoneCallProtocol`](type/PhoneCallProtocol) | Phone call settings |
 
@@ -37,6 +37,7 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 | **CALL_PROTOCOL_LAYER_INVALID** | `400` | The specified protocol layer version range is invalid |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **PARTICIPANT_VERSION_OUTDATED** | `400` | The other participant does not use an up to date telegram client with support for calls |
+| **RANDOM_ID_DUPLICATE** | `500` | You provided a random ID that was already used |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 | **USER_IS_BLOCKED** | `403` | You were blocked by this user |
 | **USER_PRIVACY_RESTRICTED** | `403` | The user's privacy settings do not allow you to do this |
@@ -49,14 +50,14 @@ phone.requestCall#42ff96ed flags:# video:flags.0?true user_id:InputUser random_i
 $phonePhoneCall = $client->phone->requestCall(
 	video : true,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	random_id : 8,
+	random_id : 98,
 	g_a_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	protocol : $client->phoneCallProtocol(
 		udp_p2p : true,
 		udp_reflector : true,
-		min_layer : 53,
-		max_layer : 39,
-		library_versions : array('HxItM9mDGvQYq6XJ'),
+		min_layer : 46,
+		max_layer : 59,
+		library_versions : array('cnrwp6AlM8gksUTS'),
 	),
 );
 ```

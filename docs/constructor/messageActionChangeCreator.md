@@ -1,6 +1,8 @@
 # messageActionChangeCreator
 
-**Layer** : 227
+**Description** : *Service message: emitted to a supergroup when ownership transfer completes after the old owner left the group &raquo; \(7 days after the old owner left without rejoining\), indicating that ownership has been transferred to a new owner*
+
+**Layer** : 229
 
 ```tl
 messageActionChangeCreator#e188503b new_creator_id:long = MessageAction;
@@ -12,7 +14,7 @@ messageActionChangeCreator#e188503b new_creator_id:long = MessageAction;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>new_creator_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>new_creator_id</mark> | [`long`](type/long) | The ID of the user who became the new owner of the group/channel |
 
 ---
 
@@ -26,6 +28,6 @@ messageActionChangeCreator#e188503b new_creator_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChangeCreator(
-	new_creator_id : -1304318994470438424,
+	new_creator_id : -7778064912605043077,
 );
 ```

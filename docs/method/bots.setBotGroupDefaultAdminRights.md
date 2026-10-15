@@ -2,7 +2,7 @@
 
 **Description** : *Set the default suggested admin rights for bots being added as admins to groups, see here for more info on how to handle them &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 bots.setBotGroupDefaultAdminRights#925ec9ea admin_rights:ChatAdminRights = Bool;
@@ -55,6 +55,8 @@ $bool = $client->bots->setBotGroupDefaultAdminRights(
 		delete_stories : true,
 		manage_direct_messages : true,
 		manage_ranks : true,
+		manage_linked_peers : true,
+		manage_welcome_messages : true,
 	),
 );
 ```

@@ -1,6 +1,8 @@
 # passkey
 
-**Layer** : 227
+**Description** : *Human\-readable info about a passkey associated to an account, returned when creating a passkey &raquo; or listing passkeys &raquo;*
+
+**Layer** : 229
 
 ```tl
 passkey#98613ebf flags:# id:string name:string date:int software_emoji_id:flags.0?long last_usage_date:flags.1?int = Passkey;
@@ -12,12 +14,12 @@ passkey#98613ebf flags:# id:string name:string date:int software_emoji_id:flags.
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| <mark>id</mark> | [`string`](type/string) | NOTHING |
-| <mark>name</mark> | [`string`](type/string) | NOTHING |
-| <mark>date</mark> | [`int`](type/int) | NOTHING |
-| **software_emoji_id** | [`flags.0?long`](type/long) | NOTHING |
-| **last_usage_date** | [`flags.1?int`](type/int) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>id</mark> | [`string`](type/string) | Unique passkey ID, usable for example in account.deletePasskey |
+| <mark>name</mark> | [`string`](type/string) | Human-readable passkey name |
+| <mark>date</mark> | [`int`](type/int) | Creation date of the passkey |
+| **software_emoji_id** | [`flags.0?long`](type/long) | ID of the custom emoji used as icon for the software or password manager that created the passkey |
+| **last_usage_date** | [`flags.1?int`](type/int) | Date when the passkey was last used to log in |
 
 ---
 
@@ -31,10 +33,10 @@ passkey#98613ebf flags:# id:string name:string date:int software_emoji_id:flags.
 
 ```php
 $passkey = $client->passkey(
-	id : 'rMwFlxjOmGE87CPq',
-	name : 'nUuAEYcLeBK7hRGf',
-	date : 2,
-	software_emoji_id : 6979626604265761052,
-	last_usage_date : 18,
+	id : '63vDX1KigECNPfM2',
+	name : 'O1jDlyBTzpdK4IFc',
+	date : 40,
+	software_emoji_id : -2117870071240974159,
+	last_usage_date : 22,
 );
 ```

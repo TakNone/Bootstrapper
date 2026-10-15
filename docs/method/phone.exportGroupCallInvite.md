@@ -1,8 +1,8 @@
 # phone.exportGroupCallInvite
 
-**Description** : *Get an invite link for a group call or livestream*
+**Description** : *Get an invite link for a public video chat/livestream &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:InputGroupCall = phone.ExportedGroupCallInvite;
@@ -15,8 +15,8 @@ phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:I
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| **can_self_unmute** | [`flags.0?true`](type/true) | For livestreams or muted group chats, if set, users that join using this link will be able to speak without explicitly requesting permission by (for example by raising their hand) |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call |
+| **can_self_unmute** | [`flags.0?true`](type/true) | For public video chats/livestreams, group call admins only: allow users that join using this link to speak without explicitly requesting permission, for example by raising their hand |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The public video chat/livestream » |
 
 ---
 
@@ -41,8 +41,8 @@ phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:I
 $phoneExportedGroupCallInvite = $client->phone->exportGroupCallInvite(
 	can_self_unmute : true,
 	call : $client->inputGroupCall(
-		id : -3931453249054461376,
-		access_hash : -2581151667304296129,
+		id : -4062852322697495373,
+		access_hash : 5271853820462878921,
 	),
 );
 ```

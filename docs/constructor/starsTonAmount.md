@@ -1,8 +1,8 @@
 # starsTonAmount
 
-**Description** : *Describes an amount of toncoin in nanotons \(i\.e\. 1/1\_000\_000\_000 of a toncoin\)*
+**Description** : *Describes an amount of Gram in nanograms \(i\.e\. 1/1\_000\_000\_000 of a Gram\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 starsTonAmount#74aee3e0 amount:long = StarsAmount;
@@ -14,7 +14,7 @@ starsTonAmount#74aee3e0 amount:long = StarsAmount;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>amount</mark> | [`long`](type/long) | The amount in nanotons |
+| <mark>amount</mark> | [`long`](type/long) | The amount in nanograms |
 
 ---
 
@@ -28,6 +28,6 @@ starsTonAmount#74aee3e0 amount:long = StarsAmount;
 
 ```php
 $starsAmount = $client->starsTonAmount(
-	amount : 6423028774346801833,
+	amount : -5503844494755012028,
 );
 ```

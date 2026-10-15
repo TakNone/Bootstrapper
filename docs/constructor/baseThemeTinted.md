@@ -2,7 +2,7 @@
 
 **Description** : *Tinted theme*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 baseThemeTinted#6d5f77ee = BaseTheme;

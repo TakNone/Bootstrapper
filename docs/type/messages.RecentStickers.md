@@ -2,7 +2,7 @@
 
 **Description** : *Recent stickers*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.recentStickersNotModified#b17f890 = messages.RecentStickers;

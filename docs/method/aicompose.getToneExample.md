@@ -1,6 +1,8 @@
 # aicompose.getToneExample
 
-**Layer** : 227
+**Description** : *Fetch an example showing how an AI composer tone &raquo; rephrases a sample message, used as a preview in the tone picker*
+
+**Layer** : 229
 
 ```tl
 aicompose.getToneExample#d1b4ab14 tone:InputAiComposeTone num:int = AiComposeToneExample;
@@ -12,8 +14,8 @@ aicompose.getToneExample#d1b4ab14 tone:InputAiComposeTone num:int = AiComposeTon
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>tone</mark> | [`InputAiComposeTone`](type/InputAiComposeTone) | NOTHING |
-| <mark>num</mark> | [`int`](type/int) | NOTHING |
+| <mark>tone</mark> | [`InputAiComposeTone`](type/InputAiComposeTone) | The tone to preview |
+| <mark>num</mark> | [`int`](type/int) | 0-based index of the example to fetch, to cycle through the available examples (there are aicompose_tone_examples_num » examples per tone) |
 
 ---
 
@@ -23,13 +25,21 @@ aicompose.getToneExample#d1b4ab14 tone:InputAiComposeTone num:int = AiComposeTon
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **AICOMPOSE_TONE_INVALID** | `400` | The specified tone is invalid |
+
+---
+
 ## Example
 
 ```php
 $aiComposeToneExample = $client->aicompose->getToneExample(
 	tone : $client->inputAiComposeToneDefault(
-		tone : '1h0fnwRUY6lgEdMK',
+		tone : 'ZExTbS1DIawUrRVj',
 	),
-	num : 97,
+	num : 24,
 );
 ```

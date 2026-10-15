@@ -2,7 +2,7 @@
 
 **Description** : *Sticker in a stickerset*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputStickerSetItem#32da9e9c flags:# document:InputDocument emoji:string mask_coords:flags.0?MaskCoords keywords:flags.1?string = InputStickerSetItem;
@@ -33,13 +33,13 @@ inputStickerSetItem#32da9e9c flags:# document:InputDocument emoji:string mask_co
 ```php
 $inputStickerSetItem = $client->inputStickerSetItem(
 	document : $client->inputDocumentEmpty(),
-	emoji : 'pYG8CSiL92IqKoMB',
+	emoji : 'sn0Lro2Q4ijZ8kVb',
 	mask_coords : $client->maskCoords(
-		n : 10,
-		x : 1301318.279296875,
-		y : 1033322.4697265625,
-		zoom : -1836428.181640625,
+		n : 29,
+		x : 9165.5595703125,
+		y : 358122.818359375,
+		zoom : -1574382.2265625,
 	),
-	keywords : 'iRF9tYDJUvw2BhoQ',
+	keywords : 'ioTPQj219KywEGSV',
 );
 ```

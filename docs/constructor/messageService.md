@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a service message*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageService#7a800e0a flags:# out:flags.1?true mentioned:flags.4?true media_unread:flags.5?true reactions_are_possible:flags.9?true silent:flags.13?true post:flags.14?true legacy:flags.19?true id:int from_id:flags.8?Peer peer_id:Peer saved_peer_id:flags.28?Peer reply_to:flags.3?MessageReplyHeader date:int action:MessageAction reactions:flags.20?MessageReactions ttl_period:flags.25?int = Message;
@@ -51,139 +51,139 @@ $message = $client->messageService(
 	silent : true,
 	post : true,
 	legacy : true,
-	id : 94,
+	id : 48,
 	from_id : $client->peerUser(
-		user_id : 1380543158765926797,
+		user_id : -7942830450673001324,
 	),
 	peer_id : $client->peerUser(
-		user_id : 2675170751439069599,
+		user_id : 5217173246611682619,
 	),
 	saved_peer_id : $client->peerUser(
-		user_id : 6715951072964111521,
+		user_id : 6551521616192744659,
 	),
 	reply_to : $client->messageReplyHeader(
 		reply_to_scheduled : true,
 		forum_topic : true,
 		quote : true,
 		reply_to_ephemeral : true,
-		reply_to_msg_id : 99,
+		reply_to_msg_id : 100,
 		reply_to_peer_id : $client->peerUser(
-			user_id : 1495206765242497713,
+			user_id : -5200852419759170450,
 		),
 		reply_from : $client->messageFwdHeader(
 			imported : true,
 			saved_out : true,
 			from_id : $client->peerUser(
-				user_id : 9192954075966031314,
+				user_id : -4396279538338907838,
 			),
-			from_name : 'u1WRXBecH3zF5SPq',
-			date : 20,
-			channel_post : 14,
-			post_author : 'iZmoeWgRrOf7VdQY',
+			from_name : 'WSPiHY7DqUbyl6Jv',
+			date : 24,
+			channel_post : 1,
+			post_author : 'kvhQ1EueJAVH4Lxa',
 			saved_from_peer : $client->peerUser(
-				user_id : 6558731150500788750,
+				user_id : -1680476288774167189,
 			),
-			saved_from_msg_id : 13,
+			saved_from_msg_id : 83,
 			saved_from_id : $client->peerUser(
-				user_id : 6670593049122085190,
+				user_id : -1817820762190920047,
 			),
-			saved_from_name : 'Ne1J9345FZy2hS7Q',
-			saved_date : 10,
-			psa_type : 'zETBt4RIxwGfA3Do',
+			saved_from_name : 'S4zBP03Wu1tYHlsy',
+			saved_date : 99,
+			psa_type : 'mBry8thCbsoK3x5W',
 		),
 		reply_media : $client->messageMediaEmpty(),
-		reply_to_top_id : 89,
-		quote_text : 'KnaPTuvjU20BQbsM',
+		reply_to_top_id : 31,
+		quote_text : 'tv7GEgqFDBQhey40',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 99,
+				length : 94,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 88,
+				length : 40,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 77,
+				length : 23,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 100,
+				length : 9,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 83,
+				length : 10,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 67,
+				length : 23,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 98,
+				length : 27,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 99,
+				length : 89,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 64,
+				length : 95,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 89,
-				language : 'qdzaum726fxotAG3',
+				length : 67,
+				language : 'Z8vrQpuHGOMbLeTJ',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 37,
+				length : 32,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 5,
-				user_id : -5823371020391929301,
+				length : 59,
+				user_id : 2120385257854786825,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 75,
+				length : 14,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 50,
+				length : 11,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 7,
+				length : 35,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 15,
+				length : 36,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 30,
+				length : 73,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 48,
+				length : 20,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 36,
+				length : 94,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 91,
-				document_id : 7398559994631111191,
+				length : 65,
+				document_id : -6530759645910867557,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 69,
+				length : 29,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -193,28 +193,28 @@ $message = $client->messageService(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 71,
-				date : 23,
+				length : 62,
+				date : 72,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 76,
+				length : 82,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 48,
-				old_text : 'CDqLAGOwJm5aZrB1',
+				length : 100,
+				old_text : 'N24KGn3xcBZAMf87',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 46,
+				length : 2,
 			),
 		),
-		quote_offset : 4,
-		todo_item_id : 12,
+		quote_offset : 35,
+		todo_item_id : 64,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
-	date : 24,
+	date : 73,
 	action : $client->messageActionEmpty(),
 	reactions : $client->messageReactions(
 		min : true,
@@ -222,9 +222,9 @@ $message = $client->messageService(
 		reactions_as_tags : true,
 		results : array(
 			$client->reactionCount(
-				chosen_order : 42,
+				chosen_order : 0,
 				reaction : $client->reactionEmpty(),
-				count : 80,
+				count : 79,
 			),
 		),
 		recent_reactions : array(
@@ -233,9 +233,9 @@ $message = $client->messageService(
 				unread : true,
 				my : true,
 				peer_id : $client->peerUser(
-					user_id : -1098635988824020899,
+					user_id : -6798899815696454904,
 				),
-				date : 78,
+				date : 29,
 				reaction : $client->reactionEmpty(),
 			),
 		),
@@ -245,12 +245,12 @@ $message = $client->messageService(
 				my : true,
 				anonymous : true,
 				peer_id : $client->peerUser(
-					user_id : -7489037987788858578,
+					user_id : 1523606771459794503,
 				),
-				count : 3,
+				count : 76,
 			),
 		),
 	),
-	ttl_period : 92,
+	ttl_period : 61,
 );
 ```

@@ -2,10 +2,10 @@
 
 **Description** : *Describes a bot command that can be used in a chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
-botCommand#c27ac8c7 command:string description:string = BotCommand;
+botCommand#9852d6d2 flags:# ephemeral:flags.0?true command:string description:string = BotCommand;
 ```
 
 ---
@@ -14,6 +14,8 @@ botCommand#c27ac8c7 command:string description:string = BotCommand;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **ephemeral** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>command</mark> | [`string`](type/string) | /command name |
 | <mark>description</mark> | [`string`](type/string) | Description of the command |
 
@@ -29,7 +31,8 @@ botCommand#c27ac8c7 command:string description:string = BotCommand;
 
 ```php
 $botCommand = $client->botCommand(
-	command : '6oPAdwgHrxqkaiMy',
-	description : 'OX6BYiqyjgk9MmQn',
+	ephemeral : true,
+	command : 'AiJXU8Tj09bmHdPt',
+	description : 'P8GnjKauAkYlDgi5',
 );
 ```

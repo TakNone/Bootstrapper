@@ -2,7 +2,7 @@
 
 **Description** : *Custom action \(most likely not supported by the current layer, an upgrade might be needed\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageActionCustomAction#fae69f56 message:string = MessageAction;
@@ -28,6 +28,6 @@ messageActionCustomAction#fae69f56 message:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionCustomAction(
-	message : '1Q6PHqRNFO4Ljgwv',
+	message : 'xJBihF5nsmjqk0tU',
 );
 ```

@@ -1,8 +1,8 @@
 # updateChatParticipantDelete
 
-**Description** : *A member has left the group*
+**Description** : *A member has left the basic group*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateChatParticipantDelete#e32f3d77 chat_id:long user_id:long version:int = Update;
@@ -16,7 +16,7 @@ updateChatParticipantDelete#e32f3d77 chat_id:long user_id:long version:int = Upd
 | :---: | :---: | :--- |
 | <mark>chat_id</mark> | [`long`](type/long) | Group ID |
 | <mark>user_id</mark> | [`long`](type/long) | ID of the user |
-| <mark>version</mark> | [`int`](type/int) | Used in basic groups to reorder updates and make sure that all of them was received |
+| <mark>version</mark> | [`int`](type/int) | Used similarly to pts values to deduplicate/update outdated chat information as specified here » |
 
 ---
 
@@ -30,8 +30,8 @@ updateChatParticipantDelete#e32f3d77 chat_id:long user_id:long version:int = Upd
 
 ```php
 $update = $client->updateChatParticipantDelete(
-	chat_id : 7765503776932885239,
-	user_id : -1302513824706784041,
-	version : 35,
+	chat_id : -7629130037139162896,
+	user_id : -1002268265156423342,
+	version : 1,
 );
 ```

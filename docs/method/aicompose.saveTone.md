@@ -1,6 +1,8 @@
 # aicompose.saveTone
 
-**Layer** : 227
+**Description** : *Install or uninstall an AI composer tone &raquo;, adding it to or removing it from the list of saved tones of the current user*
+
+**Layer** : 229
 
 ```tl
 aicompose.saveTone#1782cbb1 tone:InputAiComposeTone unsave:Bool = Bool;
@@ -12,8 +14,8 @@ aicompose.saveTone#1782cbb1 tone:InputAiComposeTone unsave:Bool = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>tone</mark> | [`InputAiComposeTone`](type/InputAiComposeTone) | NOTHING |
-| <mark>unsave</mark> | [`Bool`](type/Bool) | NOTHING |
+| <mark>tone</mark> | [`InputAiComposeTone`](type/InputAiComposeTone) | The tone to save or unsave |
+| <mark>unsave</mark> | [`Bool`](type/Bool) | If false, installs (saves) the tone; if true, uninstalls (unsaves) it |
 
 ---
 
@@ -23,13 +25,21 @@ aicompose.saveTone#1782cbb1 tone:InputAiComposeTone unsave:Bool = Bool;
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **AICOMPOSE_TONE_INVALID** | `400` | The specified tone is invalid |
+
+---
+
 ## Example
 
 ```php
 $bool = $client->aicompose->saveTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'j7DUpWOL2f03Y8n6',
+		tone : 'uAmMlIGaeJvUdfj2',
 	),
-	unsave : false,
+	unsave : true,
 );
 ```

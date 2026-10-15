@@ -2,7 +2,7 @@
 
 **Description** : *Media*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageMediaEmpty#3ded6320 = MessageMedia;
@@ -50,4 +50,4 @@ messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGrou
 | [**messageMediaGiveawayResults**](constructor/messageMediaGiveawayResults) | A giveaway with public winners has finished, this constructor contains info about the winners |
 | [**messageMediaPaidMedia**](constructor/messageMediaPaidMedia) | Paid media, see here » for more info |
 | [**messageMediaToDo**](constructor/messageMediaToDo) | Represents a todo list » |
-| [**messageMediaVideoStream**](constructor/messageMediaVideoStream) | NOTHING |
+| [**messageMediaVideoStream**](constructor/messageMediaVideoStream) | Identifies the active group call associated with a live story » |

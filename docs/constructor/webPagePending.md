@@ -2,7 +2,7 @@
 
 **Description** : *A preview of the webpage is currently being generated*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 webPagePending#b0d13e47 flags:# id:long url:flags.0?string date:int = WebPage;
@@ -31,8 +31,8 @@ webPagePending#b0d13e47 flags:# id:long url:flags.0?string date:int = WebPage;
 
 ```php
 $webPage = $client->webPagePending(
-	id : 3136355109501259954,
+	id : -5092137998860278229,
 	url : 'https://docs.liveproto.dev',
-	date : 81,
+	date : 15,
 );
 ```

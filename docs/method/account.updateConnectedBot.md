@@ -2,7 +2,7 @@
 
 **Description** : *Connect a business bot &raquo; to the current account, or to change the current connection settings*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.updateConnectedBot#66a08c7e flags:# deleted:flags.1?true rights:flags.0?BusinessBotRights bot:InputUser recipients:InputBusinessBotRecipients = Updates;
@@ -34,7 +34,6 @@ account.updateConnectedBot#66a08c7e flags:# deleted:flags.1?true rights:flags.0?
 | :---: | :---: | :--- |
 | **BOT_BUSINESS_MISSING** | `400` | The specified bot is not a business bot (the user.bot_business flag is not set) |
 | **BUSINESS_RECIPIENTS_EMPTY** | `400` | You didn't set any flag in inputBusinessBotRecipients, thus the bot cannot work with any peer |
-| **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
 
 ---
 

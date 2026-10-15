@@ -1,8 +1,8 @@
 # phone.toggleGroupCallRecord
 
-**Description** : *Start or stop recording a group call: the recorded audio and video streams will be automatically sent to Saved messages \(the chat with ourselves\)*
+**Description** : *Start or stop recording a video chat/livestream, see here &raquo; for more info\. The recorded audio and video streams will be automatically sent to Saved Messages \(the chat with ourselves\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.toggleGroupCallRecord#f128c708 flags:# start:flags.0?true video:flags.2?true call:InputGroupCall title:flags.1?string video_portrait:flags.2?Bool = Updates;
@@ -17,7 +17,7 @@ phone.toggleGroupCallRecord#f128c708 flags:# start:flags.0?true video:flags.2?tr
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **start** | [`flags.0?true`](type/true) | Whether to start or stop recording |
 | **video** | [`flags.2?true`](type/true) | Whether to also record video streams |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call or livestream |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Video chat/livestream to record |
 | **title** | [`flags.1?string`](type/string) | Recording title |
 | **video_portrait** | [`flags.2?Bool`](type/Bool) | If video stream recording is enabled, whether to record in portrait or landscape mode |
 
@@ -33,7 +33,7 @@ phone.toggleGroupCallRecord#f128c708 flags:# start:flags.0?true video:flags.2?tr
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
-| **GROUPCALL_FORBIDDEN** | `403` | The group call has already ended |
+| **GROUPCALL_FORBIDDEN** | `403` | The specified group call cannot be used in this context |
 | **GROUPCALL_INVALID** | `400` | The specified group call is invalid |
 | **GROUPCALL_NOT_MODIFIED** | `400` | Group call settings weren't modified |
 
@@ -46,10 +46,10 @@ $updates = $client->phone->toggleGroupCallRecord(
 	start : true,
 	video : true,
 	call : $client->inputGroupCall(
-		id : -2432046686954850117,
-		access_hash : -8382896096881237384,
+		id : -4599017113816096460,
+		access_hash : 8961714533512852562,
 	),
-	title : 'JtDYFiKO12ljRuML',
-	video_portrait : false,
+	title : 'zwKMtxR7iUkuOP8J',
+	video_portrait : true,
 );
 ```

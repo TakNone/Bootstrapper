@@ -2,7 +2,7 @@
 
 **Description** : *A quick reply shortcut*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 quickReply#697102b shortcut_id:int shortcut:string top_message:int count:int = QuickReply;
@@ -31,9 +31,9 @@ quickReply#697102b shortcut_id:int shortcut:string top_message:int count:int = Q
 
 ```php
 $quickReply = $client->quickReply(
-	shortcut_id : 17,
-	shortcut : 'ROjaY0rWisnKFJTf',
-	top_message : 41,
-	count : 25,
+	shortcut_id : 32,
+	shortcut : 'ldoTUQHDvRrmb7pf',
+	top_message : 71,
+	count : 42,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Recent t\.me stickerset installation URL*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 recentMeUrlStickerSet#bc0a57dc url:string set:StickerSetCovered = RecentMeUrl;
@@ -39,50 +39,50 @@ $recentMeUrl = $client->recentMeUrlStickerSet(
 			text_color : true,
 			channel_emoji_status : true,
 			creator : true,
-			installed_date : 79,
-			id : -1808401147549879985,
-			access_hash : -491286703690754182,
-			title : 'eU2KJQIyMxflsk5G',
-			short_name : 'Onb6ZKeGkR72cj4d',
+			installed_date : 46,
+			id : -7385934849310232468,
+			access_hash : -576456956135368301,
+			title : 'su3BVdKaIbGMEtkx',
+			short_name : '5RzdxYEPTLaV8y9O',
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'nC1IfbySRO4ZAXJ2',
+					type : '0PSvsahIubp76yd3',
 				),
 				$client->photoSize(
-					type : 'Kdx9qt6n0OhksejZ',
-					w : 79,
-					h : 14,
-					size : 42,
+					type : '4EGfa6d50B3uXg7r',
+					w : 42,
+					h : 53,
+					size : 24,
 				),
 				$client->photoCachedSize(
-					type : 'dNJO6KfokrvpEIXj',
-					w : 60,
-					h : 21,
+					type : 'ExJeAvTMcDyNsriZ',
+					w : 33,
+					h : 87,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : '7AUoeD59MjG1sZ83',
+					type : 'nkGxt6MeWQKmpUOA',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'aire8NKYTLBFMwbm',
-					w : 98,
-					h : 81,
-					sizes : array(0),
+					type : '8mVovbLs1x79EMy6',
+					w : 13,
+					h : 26,
+					sizes : array(54),
 				),
 				$client->photoPathSize(
-					type : 'tiHTXo5WNCnJ8zh2',
+					type : '8kIxdQ46UNrMoyql',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
-			thumb_dc_id : 52,
-			thumb_version : 34,
-			thumb_document_id : 6325929718568339785,
-			count : 36,
+			thumb_dc_id : 22,
+			thumb_version : 64,
+			thumb_document_id : 8998250638375233684,
+			count : 26,
 			hash : 0,
 		),
 		cover : $client->documentEmpty(
-			id : 1726253005454649760,
+			id : -194633618365563137,
 		),
 	),
 );

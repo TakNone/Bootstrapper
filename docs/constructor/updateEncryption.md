@@ -2,7 +2,7 @@
 
 **Description** : *Change of state in an encrypted chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateEncryption#b4a2e88d chat:EncryptedChat date:int = Update;
@@ -30,8 +30,8 @@ updateEncryption#b4a2e88d chat:EncryptedChat date:int = Update;
 ```php
 $update = $client->updateEncryption(
 	chat : $client->encryptedChatEmpty(
-		id : 75,
+		id : 95,
 	),
-	date : 46,
+	date : 97,
 );
 ```

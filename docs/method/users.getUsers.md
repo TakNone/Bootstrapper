@@ -2,7 +2,7 @@
 
 **Description** : *Returns basic user info according to their identifiers*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 users.getUsers#d91a548 id:Vector<InputUser> = Vector<User>;
@@ -29,6 +29,7 @@ users.getUsers#d91a548 id:Vector<InputUser> = Vector<User>;
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_MONOFORUM_UNSUPPORTED** | `400` | Monoforums do not support this feature |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **FROM_MESSAGE_BOT_DISABLED** | `400` | Bots can't use fromMessage min constructors |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |

@@ -1,6 +1,8 @@
 # updatePinnedForumTopics
 
-**Layer** : 227
+**Description** : *The pinned topics of a forum have changed*
+
+**Layer** : 229
 
 ```tl
 updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = Update;
@@ -12,9 +14,9 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| <mark>peer</mark> | [`Peer`](type/Peer) | NOTHING |
-| **order** | [`flags.0?Vector<int>`](type/int) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>peer</mark> | [`Peer`](type/Peer) | The supergroup forum, private chat (for forum-enabled bots) or bot forum (for users) where the topic is located |
+| **order** | [`flags.0?Vector<int>`](type/int) | Ordered list containing the IDs of all pinned topics |
 
 ---
 
@@ -29,8 +31,8 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 ```php
 $update = $client->updatePinnedForumTopics(
 	peer : $client->peerUser(
-		user_id : -8278472177490606104,
+		user_id : -8339714088845382599,
 	),
-	order : array(66),
+	order : array(83),
 );
 ```

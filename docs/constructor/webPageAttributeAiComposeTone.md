@@ -1,6 +1,8 @@
 # webPageAttributeAiComposeTone
 
-**Layer** : 227
+**Description** : *Webpage attribute attached to a webPage of type telegram\_aicomposetone, generated when previewing a shared AI composer tone &raquo; via an AI compose tone link &raquo;*
+
+**Layer** : 229
 
 ```tl
 webPageAttributeAiComposeTone#7781fe18 emoji_id:long = WebPageAttribute;
@@ -12,7 +14,7 @@ webPageAttributeAiComposeTone#7781fe18 emoji_id:long = WebPageAttribute;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>emoji_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>emoji_id</mark> | [`long`](type/long) | Custom emoji ID of the tone's icon |
 
 ---
 
@@ -26,6 +28,6 @@ webPageAttributeAiComposeTone#7781fe18 emoji_id:long = WebPageAttribute;
 
 ```php
 $webPageAttribute = $client->webPageAttributeAiComposeTone(
-	emoji_id : -9208253251035125628,
+	emoji_id : 2035123615851259286,
 );
 ```

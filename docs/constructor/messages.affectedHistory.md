@@ -2,7 +2,7 @@
 
 **Description** : *Affected part of communication history with the user or in a chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.affectedHistory#b45c69d1 pts:int pts_count:int offset:int = messages.AffectedHistory;
@@ -30,8 +30,8 @@ messages.affectedHistory#b45c69d1 pts:int pts_count:int offset:int = messages.Af
 
 ```php
 $messagesAffectedHistory = $client->messages->affectedHistory(
-	pts : 25,
-	pts_count : 12,
+	pts : 75,
+	pts_count : 85,
 	offset : 0,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Returns users found by username substring*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 contacts.search#5f58d0f flags:# broadcasts:flags.0?true bots:flags.1?true q:string limit:int = contacts.Found;
@@ -43,7 +43,7 @@ contacts.search#5f58d0f flags:# broadcasts:flags.0?true bots:flags.1?true q:stri
 $contactsFound = $client->contacts->search(
 	broadcasts : true,
 	bots : true,
-	q : 'OJC8maiP5znRIoN0',
-	limit : 15,
+	q : 'fkOosMEdACU17rw4',
+	limit : 29,
 );
 ```

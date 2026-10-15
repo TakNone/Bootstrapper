@@ -2,7 +2,7 @@
 
 **Description** : *Informs the server about the number of pending bot updates if they haven&#039;t been processed for a long time; for bots only*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 help.setBotUpdatesStatus#ec22cfcd pending_updates_count:int message:string = Bool;
@@ -37,7 +37,7 @@ help.setBotUpdatesStatus#ec22cfcd pending_updates_count:int message:string = Boo
 
 ```php
 $bool = $client->help->setBotUpdatesStatus(
-	pending_updates_count : 10,
-	message : 'a9sNqTfJug4FmnVl',
+	pending_updates_count : 48,
+	message : 'kdHRfOlTamnVS4iJ',
 );
 ```

@@ -1,8 +1,8 @@
 # phoneConnectionWebrtc
 
-**Description** : *WebRTC connection parameters*
+**Description** : *WebRTC connection parameters for a phone call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phoneConnectionWebrtc#635fe375 flags:# turn:flags.0?true stun:flags.1?true id:long ip:string ipv6:string port:int username:string password:string = PhoneConnection;
@@ -38,11 +38,11 @@ phoneConnectionWebrtc#635fe375 flags:# turn:flags.0?true stun:flags.1?true id:lo
 $phoneConnection = $client->phoneConnectionWebrtc(
 	turn : true,
 	stun : true,
-	id : -2305295323569063622,
+	id : -6825858085413113449,
 	ip : '127.0.0.1',
 	ipv6 : '127.0.0.1',
-	port : 79,
+	port : 39,
 	username : 'TakNone',
-	password : 'jZpXIFhDnKMgftYq',
+	password : 'fu6m98jDcJMzOhXa',
 );
 ```

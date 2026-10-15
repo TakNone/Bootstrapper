@@ -2,10 +2,10 @@
 
 **Description** : *Represents the rights of a normal user in a supergroup/channel/chat\. In this case, the flags are inverted: if set, a flag does not allow a user to do X*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
-chatBannedRights#9f120418 flags:# view_messages:flags.0?true send_messages:flags.1?true send_media:flags.2?true send_stickers:flags.3?true send_gifs:flags.4?true send_games:flags.5?true send_inline:flags.6?true embed_links:flags.7?true send_polls:flags.8?true change_info:flags.10?true invite_users:flags.15?true pin_messages:flags.17?true manage_topics:flags.18?true send_photos:flags.19?true send_videos:flags.20?true send_roundvideos:flags.21?true send_audios:flags.22?true send_voices:flags.23?true send_docs:flags.24?true send_plain:flags.25?true edit_rank:flags.26?true send_reactions:flags.27?true until_date:int = ChatBannedRights;
+chatBannedRights#9f120418 flags:# view_messages:flags.0?true send_messages:flags.1?true send_media:flags.2?true send_stickers:flags.3?true send_gifs:flags.4?true send_games:flags.5?true send_inline:flags.6?true embed_links:flags.7?true send_polls:flags.8?true change_info:flags.10?true invite_users:flags.15?true pin_messages:flags.17?true manage_topics:flags.18?true send_photos:flags.19?true send_videos:flags.20?true send_roundvideos:flags.21?true send_audios:flags.22?true send_voices:flags.23?true send_docs:flags.24?true send_plain:flags.25?true edit_rank:flags.26?true send_reactions:flags.27?true manage_linked_peers:flags.28?true until_date:int = ChatBannedRights;
 ```
 
 ---
@@ -24,10 +24,10 @@ chatBannedRights#9f120418 flags:# view_messages:flags.0?true send_messages:flags
 | **send_inline** | [`flags.6?true`](type/true) | If set, does not allow a user to use inline bots in a supergroup/chat |
 | **embed_links** | [`flags.7?true`](type/true) | If set, does not allow a user to embed links in the messages of a supergroup/chat |
 | **send_polls** | [`flags.8?true`](type/true) | If set, does not allow a user to send polls in a supergroup/chat |
-| **change_info** | [`flags.10?true`](type/true) | If set, does not allow any user to change the description of a supergroup/chat |
-| **invite_users** | [`flags.15?true`](type/true) | If set, does not allow any user to invite users in a supergroup/chat |
-| **pin_messages** | [`flags.17?true`](type/true) | If set, does not allow any user to pin messages in a supergroup/chat |
-| **manage_topics** | [`flags.18?true`](type/true) | If set, does not allow any user to create, delete or modify forum topics » |
+| **change_info** | [`flags.10?true`](type/true) | If set, does not allow a user to change the description of a supergroup/chat |
+| **invite_users** | [`flags.15?true`](type/true) | If set, does not allow a user to invite users in a supergroup/chat |
+| **pin_messages** | [`flags.17?true`](type/true) | If set, does not allow a user to pin messages in a supergroup/chat |
+| **manage_topics** | [`flags.18?true`](type/true) | If set, does not allow a user to create, delete or modify forum topics » |
 | **send_photos** | [`flags.19?true`](type/true) | If set, does not allow a user to send photos in a supergroup/chat |
 | **send_videos** | [`flags.20?true`](type/true) | If set, does not allow a user to send videos in a supergroup/chat |
 | **send_roundvideos** | [`flags.21?true`](type/true) | If set, does not allow a user to send round videos in a supergroup/chat |
@@ -35,8 +35,9 @@ chatBannedRights#9f120418 flags:# view_messages:flags.0?true send_messages:flags
 | **send_voices** | [`flags.23?true`](type/true) | If set, does not allow a user to send voice messages in a supergroup/chat |
 | **send_docs** | [`flags.24?true`](type/true) | If set, does not allow a user to send documents in a supergroup/chat |
 | **send_plain** | [`flags.25?true`](type/true) | If set, does not allow a user to send text messages in a supergroup/chat |
-| **edit_rank** | [`flags.26?true`](type/true) | NOTHING |
-| **send_reactions** | [`flags.27?true`](type/true) | NOTHING |
+| **edit_rank** | [`flags.26?true`](type/true) | If set, does not allow a user to edit their own custom tag (rank) » in a supergroup/chat |
+| **send_reactions** | [`flags.27?true`](type/true) | If set, does not allow a user to react to messages in a chat |
+| **manage_linked_peers** | [`flags.28?true`](type/true) | NOTHING |
 | <mark>until_date</mark> | [`int`](type/int) | Validity of said permissions (it is considered forever any value less then 30 seconds or more then 366 days) |
 
 ---
@@ -73,6 +74,7 @@ $chatBannedRights = $client->chatBannedRights(
 	send_plain : true,
 	edit_rank : true,
 	send_reactions : true,
-	until_date : 75,
+	manage_linked_peers : true,
+	until_date : 65,
 );
 ```

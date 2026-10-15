@@ -2,7 +2,7 @@
 
 **Description** : *Indicate to the server \(from the user side\) that the user is still using a web app*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.prolongWebView#b0d81a83 flags:# silent:flags.5?true peer:InputPeer bot:InputUser query_id:long reply_to:flags.0?InputReplyTo send_as:flags.13?InputPeer = Bool;
@@ -45,102 +45,102 @@ $bool = $client->messages->prolongWebView(
 	silent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	bot : $client->get_input_user(user : '@TakNone'),
-	query_id : -39951115274060971,
+	query_id : 2975810293545809440,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 67,
-		top_msg_id : 71,
+		reply_to_msg_id : 28,
+		top_msg_id : 34,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'h0PV3Sn9CqZowFRs',
+		quote_text : '6USxe0gEl1oyKYGZ',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 88,
+				length : 17,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 98,
+				length : 64,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 94,
+				length : 86,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 0,
+				length : 73,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 25,
+				length : 38,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 56,
+				length : 13,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 41,
+				length : 52,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 29,
+				length : 39,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 53,
+				length : 35,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 52,
-				language : 'Hc2W6YLhlAxD0gnQ',
+				length : 20,
+				language : '3zreWKTYJj0QBv2N',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 67,
+				length : 63,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 79,
-				user_id : -1746308880084404441,
+				length : 27,
+				user_id : -5969871620123475147,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 3,
+				length : 35,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 11,
+				length : 90,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 65,
+				length : 52,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 54,
+				length : 69,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 85,
+				length : 12,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 36,
+				length : 25,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 91,
+				length : 67,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 34,
-				document_id : -3318045656502221611,
+				length : 41,
+				document_id : 1238897261495229355,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 78,
+				length : 46,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -150,26 +150,26 @@ $bool = $client->messages->prolongWebView(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 52,
-				date : 10,
+				length : 72,
+				date : 79,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 59,
+				length : 20,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 97,
-				old_text : 'NRXYB3EGW8gJ0Pxc',
+				length : 31,
+				old_text : 'o9wipjs4nmIGJdOQ',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 63,
+				length : 89,
 			),
 		),
-		quote_offset : 49,
+		quote_offset : 84,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 43,
+		todo_item_id : 84,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),

@@ -1,6 +1,6 @@
 # textMath
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 textMath#9d2eac97 source:string = RichText;
@@ -26,6 +26,6 @@ textMath#9d2eac97 source:string = RichText;
 
 ```php
 $richText = $client->textMath(
-	source : 'vp2OX5JRSxDBjwth',
+	source : 'e9T4Dl8FfLE2hoyJ',
 );
 ```

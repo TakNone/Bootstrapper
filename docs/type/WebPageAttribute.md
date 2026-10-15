@@ -2,7 +2,7 @@
 
 **Description** : *Webpage attributes*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 webPageAttributeTheme#54b56617 flags:# documents:flags.0?Vector<Document> settings:flags.1?ThemeSettings = WebPageAttribute;
@@ -25,5 +25,5 @@ webPageAttributeAiComposeTone#7781fe18 emoji_id:long = WebPageAttribute;
 | [**webPageAttributeStickerSet**](constructor/webPageAttributeStickerSet) | Contains info about a stickerset », for a webPage preview of a stickerset deep link » (the webPage will have a type of telegram_stickerset) |
 | [**webPageAttributeUniqueStarGift**](constructor/webPageAttributeUniqueStarGift) | Contains info about collectible gift » for a webPage preview of a collectible gift » (the webPage will have a type of telegram_nft) |
 | [**webPageAttributeStarGiftCollection**](constructor/webPageAttributeStarGiftCollection) | Contains info about a gift collection » for a webPage preview of a gift collection » (the webPage will have a type of telegram_collection) |
-| [**webPageAttributeStarGiftAuction**](constructor/webPageAttributeStarGiftAuction) | NOTHING |
-| [**webPageAttributeAiComposeTone**](constructor/webPageAttributeAiComposeTone) | NOTHING |
+| [**webPageAttributeStarGiftAuction**](constructor/webPageAttributeStarGiftAuction) | Contains info about a collectible gift auction » for a webPage preview of an auction » (the webPage will have a type of telegram_auction) |
+| [**webPageAttributeAiComposeTone**](constructor/webPageAttributeAiComposeTone) | Webpage attribute attached to a webPage of type telegram_aicomposetone, generated when previewing a shared AI composer tone » via an AI compose tone link » |

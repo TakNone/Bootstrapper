@@ -239,7 +239,7 @@
 
 ##### inputMediaStakeDice
 
-:link: [*NOTHING*](constructor/inputMediaStakeDice)
+:link: [*Dice game media*](constructor/inputMediaStakeDice)
 
 ---
 
@@ -341,7 +341,7 @@
 
 ##### inputGroupCallStream
 
-:link: [*Chunk of a livestream*](constructor/inputGroupCallStream)
+:link: [*Identifies a media chunk of an RTMP\-mode video chat, livestream or live story, see playing an RTMP livestream &raquo;*](constructor/inputGroupCallStream)
 
 ---
 
@@ -513,6 +513,18 @@
 
 ---
 
+##### communityForbidden
+
+:link: [*NOTHING*](constructor/communityForbidden)
+
+---
+
+##### community
+
+:link: [*NOTHING*](constructor/community)
+
+---
+
 ##### chatFull
 
 :link: [*Full info about a basic group*](constructor/chatFull)
@@ -525,33 +537,39 @@
 
 ---
 
+##### communityFull
+
+:link: [*NOTHING*](constructor/communityFull)
+
+---
+
 ##### chatParticipant
 
-:link: [*Group member*](constructor/chatParticipant)
+:link: [*Basic group member \(not usable by supergroups\)*](constructor/chatParticipant)
 
 ---
 
 ##### chatParticipantCreator
 
-:link: [*Represents the creator of the group*](constructor/chatParticipantCreator)
+:link: [*Represents the creator of the basic group &raquo;*](constructor/chatParticipantCreator)
 
 ---
 
 ##### chatParticipantAdmin
 
-:link: [*Chat admin*](constructor/chatParticipantAdmin)
+:link: [*Basic group admin \(not usable by supergroups\)*](constructor/chatParticipantAdmin)
 
 ---
 
 ##### chatParticipantsForbidden
 
-:link: [*Info on members is unavailable*](constructor/chatParticipantsForbidden)
+:link: [*The full list of members of basic groups &raquo; is not available to you, because you were banned*](constructor/chatParticipantsForbidden)
 
 ---
 
 ##### chatParticipants
 
-:link: [*Group members*](constructor/chatParticipants)
+:link: [*Contains the full list of members of basic groups &raquo;; is NOT usable for supergroups/channels*](constructor/chatParticipants)
 
 ---
 
@@ -695,7 +713,7 @@
 
 ##### messageMediaVideoStream
 
-:link: [*NOTHING*](constructor/messageMediaVideoStream)
+:link: [*Identifies the active group call associated with a live story &raquo;*](constructor/messageMediaVideoStream)
 
 ---
 
@@ -845,13 +863,13 @@
 
 ##### messageActionGroupCall
 
-:link: [*The group call has ended*](constructor/messageActionGroupCall)
+:link: [*A video chat/livestream was started or terminated*](constructor/messageActionGroupCall)
 
 ---
 
 ##### messageActionInviteToGroupCall
 
-:link: [*A set of users was invited to the group call*](constructor/messageActionInviteToGroupCall)
+:link: [*A set of users was invited to a video chat/livestream &raquo;*](constructor/messageActionInviteToGroupCall)
 
 ---
 
@@ -863,7 +881,7 @@
 
 ##### messageActionGroupCallScheduled
 
-:link: [*A group call was scheduled*](constructor/messageActionGroupCallScheduled)
+:link: [*A video chat/livestream was scheduled*](constructor/messageActionGroupCallScheduled)
 
 ---
 
@@ -1001,7 +1019,7 @@
 
 ##### messageActionConferenceCall
 
-:link: [*Represents a conference call \(or an invitation to a conference call, if neither the missed nor active flags are set\)*](constructor/messageActionConferenceCall)
+:link: [*Represents a conference call &raquo;, or an invitation to one if neither the missed nor active flags are set*](constructor/messageActionConferenceCall)
 
 ---
 
@@ -1037,67 +1055,79 @@
 
 ##### messageActionGiftTon
 
-:link: [*You were gifted some toncoins*](constructor/messageActionGiftTon)
+:link: [*You were gifted some Grams*](constructor/messageActionGiftTon)
 
 ---
 
 ##### messageActionSuggestBirthday
 
-:link: [*NOTHING*](constructor/messageActionSuggestBirthday)
+:link: [*A new birthday was suggested using users\.suggestBirthday, see here &raquo; for more info on birthdays in the API*](constructor/messageActionSuggestBirthday)
 
 ---
 
 ##### messageActionStarGiftPurchaseOffer
 
-:link: [*NOTHING*](constructor/messageActionStarGiftPurchaseOffer)
+:link: [*Contains an offer to purchase a collectible gift &raquo;, see here &raquo; for the full flow*](constructor/messageActionStarGiftPurchaseOffer)
 
 ---
 
 ##### messageActionStarGiftPurchaseOfferDeclined
 
-:link: [*NOTHING*](constructor/messageActionStarGiftPurchaseOfferDeclined)
+:link: [*A collectible gift purchase offer &raquo; was declined, or the offer expired, see here &raquo; for the full flow*](constructor/messageActionStarGiftPurchaseOfferDeclined)
 
 ---
 
 ##### messageActionNewCreatorPending
 
-:link: [*NOTHING*](constructor/messageActionNewCreatorPending)
+:link: [*Service message: emitted to a supergroup when the group/channel creator leaves the group &raquo;, indicating that ownership transfer is pending\. The new\_creator\_id user will become the new owner after 7 days if the old owner does not rejoin*](constructor/messageActionNewCreatorPending)
 
 ---
 
 ##### messageActionChangeCreator
 
-:link: [*NOTHING*](constructor/messageActionChangeCreator)
+:link: [*Service message: emitted to a supergroup when ownership transfer completes after the old owner left the group &raquo; \(7 days after the old owner left without rejoining\), indicating that ownership has been transferred to a new owner*](constructor/messageActionChangeCreator)
 
 ---
 
 ##### messageActionNoForwardsToggle
 
-:link: [*NOTHING*](constructor/messageActionNoForwardsToggle)
+:link: [*Emitted only in private chats when enabling or disabling content protection &raquo;*](constructor/messageActionNoForwardsToggle)
 
 ---
 
 ##### messageActionNoForwardsRequest
 
-:link: [*NOTHING*](constructor/messageActionNoForwardsRequest)
+:link: [*Emitted only in private chats if the other side requested to disable content protection &raquo;*](constructor/messageActionNoForwardsRequest)
 
 ---
 
 ##### messageActionPollAppendAnswer
 
-:link: [*NOTHING*](constructor/messageActionPollAppendAnswer)
+:link: [*A new answer option was added to an open\-answer poll &raquo;*](constructor/messageActionPollAppendAnswer)
 
 ---
 
 ##### messageActionPollDeleteAnswer
 
-:link: [*NOTHING*](constructor/messageActionPollDeleteAnswer)
+:link: [*An answer option was removed from an open\-answer poll &raquo;*](constructor/messageActionPollDeleteAnswer)
 
 ---
 
 ##### messageActionManagedBotCreated
 
-:link: [*NOTHING*](constructor/messageActionManagedBotCreated)
+:link: [*Service message sent by a user to a manager bot when a new managed bot &raquo; is created through it, by invoking messages\.sendBotRequestedPeer with a requestPeerTypeCreateBot, see here &raquo; for more info*](constructor/messageActionManagedBotCreated)
+
+---
+
+##### messageActionChangeCommunity
+
+:link: [*NOTHING*](constructor/messageActionChangeCommunity)
+
+---
+
+##### messageActionChatJoinedViaCommunity
+
+:link: [*NOTHING*](constructor/messageActionChatJoinedViaCommunity)
 
 ---
 
@@ -1110,6 +1140,12 @@
 ##### dialogFolder
 
 :link: [*Dialog in folder*](constructor/dialogFolder)
+
+---
+
+##### dialogCommunity
+
+:link: [*NOTHING*](constructor/dialogCommunity)
 
 ---
 
@@ -1187,7 +1223,7 @@
 
 ##### auth sentCodePaymentRequired
 
-:link: [*Official apps may receive this constructor, indicating that due to the high cost of SMS verification codes for the user&#039;s country/provider, the user must purchase a Telegram Premium subscription in order to proceed with the login/signup*](constructor/auth.sentCodePaymentRequired)
+:link: [*Official apps may receive this constructor, indicating that due to the high cost of SMS verification codes for the user&#039;s country/provider, the user must purchase a Telegram Premium subscription in order to proceed with the login/signup, see here &raquo; for more info*](constructor/auth.sentCodePaymentRequired)
 
 ---
 
@@ -1236,6 +1272,12 @@
 ##### inputNotifyForumTopic
 
 :link: [*Notifications generated by a topic in a forum*](constructor/inputNotifyForumTopic)
+
+---
+
+##### inputNotifyCommunity
+
+:link: [*NOTHING*](constructor/inputNotifyCommunity)
 
 ---
 
@@ -1553,7 +1595,7 @@
 
 ##### inputMessagesFilterPoll
 
-:link: [*NOTHING*](constructor/inputMessagesFilterPoll)
+:link: [*Filter for poll messages, see searching for polls &raquo;*](constructor/inputMessagesFilterPoll)
 
 ---
 
@@ -1589,7 +1631,7 @@
 
 ##### updateChatParticipants
 
-:link: [*Composition of chat participants changed*](constructor/updateChatParticipants)
+:link: [*The participants of a basic group &raquo; changed*](constructor/updateChatParticipants)
 
 ---
 
@@ -1643,7 +1685,7 @@
 
 ##### updateChatParticipantDelete
 
-:link: [*A member has left the group*](constructor/updateChatParticipantDelete)
+:link: [*A member has left the basic group*](constructor/updateChatParticipantDelete)
 
 ---
 
@@ -1703,8 +1745,7 @@
 
 ##### updateChannelTooLong
 
-:link: [*There are new updates in the specified channel, the client must fetch them\.
-If the difference is too long or if the channel isn&#039;t currently in the states, start fetching from the specified pts*](constructor/updateChannelTooLong)
+:link: [*There are new updates in the specified channel, the client must fetch them manually by invoking updates\.getChannelDifference as specified in the documentation &raquo;*](constructor/updateChannelTooLong)
 
 ---
 
@@ -1938,7 +1979,7 @@ If the difference is too long or if the channel isn&#039;t currently in the stat
 
 ##### updateChatDefaultBannedRights
 
-:link: [*Default banned rights in a normal chat were updated*](constructor/updateChatDefaultBannedRights)
+:link: [*Default banned rights in a basic group were updated*](constructor/updateChatDefaultBannedRights)
 
 ---
 
@@ -1992,7 +2033,7 @@ If the difference is too long or if the channel isn&#039;t currently in the stat
 
 ##### updateMessagePollVote
 
-:link: [*A specific peer has voted in a poll*](constructor/updateMessagePollVote)
+:link: [*A specific peer has voted in a poll \(this update can only be received by a bot\)*](constructor/updateMessagePollVote)
 
 ---
 
@@ -2070,13 +2111,13 @@ If the difference is too long or if the channel isn&#039;t currently in the stat
 
 ##### updateGroupCallParticipants
 
-:link: [*The participant list of a certain group call has changed*](constructor/updateGroupCallParticipants)
+:link: [*The participant list of a group call has changed*](constructor/updateGroupCallParticipants)
 
 ---
 
 ##### updateGroupCall
 
-:link: [*A new groupcall was started*](constructor/updateGroupCall)
+:link: [*Indicates that group call information changed, see applying group call updates &raquo;*](constructor/updateGroupCall)
 
 ---
 
@@ -2088,7 +2129,7 @@ If the difference is too long or if the channel isn&#039;t currently in the stat
 
 ##### updateChatParticipant
 
-:link: [*A user has joined or left a specific chat*](constructor/updateChatParticipant)
+:link: [*A user has joined or left a specific basic group &raquo;: this update can only be received by bots, see here &raquo; for the user version of this update*](constructor/updateChatParticipant)
 
 ---
 
@@ -2106,7 +2147,7 @@ If the difference is too long or if the channel isn&#039;t currently in the stat
 
 ##### updateGroupCallConnection
 
-:link: [*New WebRTC parameters*](constructor/updateGroupCallConnection)
+:link: [*Connection parameters returned after joining a group call, see presentations &raquo; and stream mode &raquo;*](constructor/updateGroupCallConnection)
 
 ---
 
@@ -2395,7 +2436,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### updateGroupCallChainBlocks
 
-:link: [*Contains updates to the blockchain of a conference call, see here &raquo; for more info*](constructor/updateGroupCallChainBlocks)
+:link: [*Contains conference call blockchain blocks, see handling E2E group call updates &raquo;*](constructor/updateGroupCallChainBlocks)
 
 ---
 
@@ -2419,79 +2460,79 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### updateGroupCallMessage
 
-:link: [*NOTHING*](constructor/updateGroupCallMessage)
+:link: [*A new message, reaction, paid comment or donation was received through the in\-call message overlay &raquo;*](constructor/updateGroupCallMessage)
 
 ---
 
 ##### updateGroupCallEncryptedMessage
 
-:link: [*NOTHING*](constructor/updateGroupCallEncryptedMessage)
+:link: [*A new E2E\-encrypted message or emoji reaction was received in a conference call, see here &raquo; for the decryption process*](constructor/updateGroupCallEncryptedMessage)
 
 ---
 
 ##### updatePinnedForumTopic
 
-:link: [*NOTHING*](constructor/updatePinnedForumTopic)
+:link: [*A forum topic &raquo; was pinned or unpinned*](constructor/updatePinnedForumTopic)
 
 ---
 
 ##### updatePinnedForumTopics
 
-:link: [*NOTHING*](constructor/updatePinnedForumTopics)
+:link: [*The pinned topics of a forum have changed*](constructor/updatePinnedForumTopics)
 
 ---
 
 ##### updateDeleteGroupCallMessages
 
-:link: [*NOTHING*](constructor/updateDeleteGroupCallMessages)
+:link: [*Indicates that messages were deleted from the in\-call message overlay &raquo; of a video chat/livestream or live story, including in RTMP mode*](constructor/updateDeleteGroupCallMessages)
 
 ---
 
 ##### updateStarGiftAuctionState
 
-:link: [*NOTHING*](constructor/updateStarGiftAuctionState)
+:link: [*Contains updates to auction state, see here &raquo; for more info on how to enable these updates*](constructor/updateStarGiftAuctionState)
 
 ---
 
 ##### updateStarGiftAuctionUserState
 
-:link: [*NOTHING*](constructor/updateStarGiftAuctionUserState)
+:link: [*Contains updates to auction state related to the current user, see here &raquo; for more info on how to enable these updates*](constructor/updateStarGiftAuctionUserState)
 
 ---
 
 ##### updateEmojiGameInfo
 
-:link: [*NOTHING*](constructor/updateEmojiGameInfo)
+:link: [*Dice game update*](constructor/updateEmojiGameInfo)
 
 ---
 
 ##### updateStarGiftCraftFail
 
-:link: [*NOTHING*](constructor/updateStarGiftCraftFail)
+:link: [*Indicates that a crafting &raquo; attempt did not produce a new collectible gift*](constructor/updateStarGiftCraftFail)
 
 ---
 
 ##### updateChatParticipantRank
 
-:link: [*NOTHING*](constructor/updateChatParticipantRank)
+:link: [*The tag &raquo; of a participant of a basic group &raquo; has changed*](constructor/updateChatParticipantRank)
 
 ---
 
 ##### updateManagedBot
 
-:link: [*NOTHING*](constructor/updateManagedBot)
+:link: [*Manager bots only: a bot managed by the currently logged in bot was created or updated*](constructor/updateManagedBot)
 
 ---
 
 ##### updateBotGuestChatQuery
 
-:link: [*NOTHING*](constructor/updateBotGuestChatQuery)
+:link: [*Sent to guest bots &raquo; when a user invokes the bot as a guest in a chat\. The bot should reply by invoking messages\.setBotGuestChatResult, see here &raquo; for more info*](constructor/updateBotGuestChatQuery)
 
 ---
 
 ##### updateAiComposeTones
 
-:link: [*NOTHING*](constructor/updateAiComposeTones)
+:link: [*The list of saved AI composer tones &raquo; of the current user has changed, and should be refetched using aicompose\.getTones*](constructor/updateAiComposeTones)
 
 ---
 
@@ -2516,6 +2557,36 @@ This setting only affects the current account, and is synced to other logged in 
 ##### updateWebBrowserException
 
 :link: [*NOTHING*](constructor/updateWebBrowserException)
+
+---
+
+##### updateNewEphemeralMessage
+
+:link: [*NOTHING*](constructor/updateNewEphemeralMessage)
+
+---
+
+##### updateDeleteEphemeralMessages
+
+:link: [*NOTHING*](constructor/updateDeleteEphemeralMessages)
+
+---
+
+##### updateEditEphemeralMessage
+
+:link: [*NOTHING*](constructor/updateEditEphemeralMessage)
+
+---
+
+##### updateEphemeralBotCallbackQuery
+
+:link: [*NOTHING*](constructor/updateEphemeralBotCallbackQuery)
+
+---
+
+##### updateBotStarsSubscription
+
+:link: [*NOTHING*](constructor/updateBotStarsSubscription)
 
 ---
 
@@ -2551,7 +2622,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### updatesTooLong
 
-:link: [*Too many updates, it is necessary to execute updates\.getDifference*](constructor/updatesTooLong)
+:link: [*The number of queued updates in the common message box is too large to be delivered passively through the socket, invoke updates\.getDifference to fetch the difference as specified in the documentation &raquo;*](constructor/updatesTooLong)
 
 ---
 
@@ -2689,7 +2760,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### inputEncryptedChat
 
-:link: [*Creates an encrypted chat*](constructor/inputEncryptedChat)
+:link: [*An e2e encrypted chat*](constructor/inputEncryptedChat)
 
 ---
 
@@ -2825,6 +2896,12 @@ This setting only affects the current account, and is synced to other logged in 
 
 ---
 
+##### notifyCommunity
+
+:link: [*NOTHING*](constructor/notifyCommunity)
+
+---
+
 ##### sendMessageTypingAction
 
 :link: [*User is typing*](constructor/sendMessageTypingAction)
@@ -2935,7 +3012,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### sendMessageTextDraftAction
 
-:link: [*NOTHING*](constructor/sendMessageTextDraftAction)
+:link: [*Used by bots to implement live message streaming &raquo;*](constructor/sendMessageTextDraftAction)
 
 ---
 
@@ -2948,6 +3025,12 @@ This setting only affects the current account, and is synced to other logged in 
 ##### sendMessageRichMessageDraftAction
 
 :link: [*NOTHING*](constructor/sendMessageRichMessageDraftAction)
+
+---
+
+##### sendMessageStopDraftAction
+
+:link: [*NOTHING*](constructor/sendMessageStopDraftAction)
 
 ---
 
@@ -3037,7 +3120,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### inputPrivacyKeySavedMusic
 
-:link: [*NOTHING*](constructor/inputPrivacyKeySavedMusic)
+:link: [*Whether the user can see the songs we pinned to our profile &raquo;*](constructor/inputPrivacyKeySavedMusic)
 
 ---
 
@@ -3121,7 +3204,7 @@ This setting only affects the current account, and is synced to other logged in 
 
 ##### privacyKeySavedMusic
 
-:link: [*NOTHING*](constructor/privacyKeySavedMusic)
+:link: [*Whether the user can see the songs we pinned to our profile &raquo;*](constructor/privacyKeySavedMusic)
 
 ---
 
@@ -3570,108 +3653,6 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ---
 
-##### keyboardButtonUrl
-
-:link: [*URL button*](constructor/keyboardButtonUrl)
-
----
-
-##### keyboardButtonCallback
-
-:link: [*Callback button*](constructor/keyboardButtonCallback)
-
----
-
-##### keyboardButtonRequestPhone
-
-:link: [*Button to request a user&#039;s phone number*](constructor/keyboardButtonRequestPhone)
-
----
-
-##### keyboardButtonRequestGeoLocation
-
-:link: [*Button to request a user&#039;s geolocation*](constructor/keyboardButtonRequestGeoLocation)
-
----
-
-##### keyboardButtonSwitchInline
-
-:link: [*Button to force a user to switch to inline mode: pressing the button will prompt the user to select one of their chats, open that chat and insert the bot&#039;s username and the specified inline query in the input field*](constructor/keyboardButtonSwitchInline)
-
----
-
-##### keyboardButtonGame
-
-:link: [*Button to start a game*](constructor/keyboardButtonGame)
-
----
-
-##### keyboardButtonBuy
-
-:link: [*Button to buy a product*](constructor/keyboardButtonBuy)
-
----
-
-##### keyboardButtonUrlAuth
-
-:link: [*Button to request a user to authorize via URL using Seamless Telegram Login\. When the user clicks on such a button, messages\.requestUrlAuth should be called, providing the button\_id and the ID of the container message\. The returned urlAuthResultRequest object will contain more details about the authorization request \(request\_write\_access if the bot would like to send messages to the user along with the username of the bot which will be used for user authorization\)\. Finally, the user can choose to call messages\.acceptUrlAuth to get a urlAuthResultAccepted with the URL to open instead of the url of this constructor, or a urlAuthResultDefault, in which case the url of this constructor must be opened, instead\. If the user refuses the authorization request but still wants to open the link, the url of this constructor must be used*](constructor/keyboardButtonUrlAuth)
-
----
-
-##### inputKeyboardButtonUrlAuth
-
-:link: [*Button to request a user to authorize via URL using Seamless Telegram Login*](constructor/inputKeyboardButtonUrlAuth)
-
----
-
-##### keyboardButtonRequestPoll
-
-:link: [*A button that allows the user to create and send a poll when pressed; available only in private*](constructor/keyboardButtonRequestPoll)
-
----
-
-##### inputKeyboardButtonUserProfile
-
-:link: [*Button that links directly to a user profile*](constructor/inputKeyboardButtonUserProfile)
-
----
-
-##### keyboardButtonUserProfile
-
-:link: [*Button that links directly to a user profile*](constructor/keyboardButtonUserProfile)
-
----
-
-##### keyboardButtonWebView
-
-:link: [*Button to open a bot mini app using messages\.requestWebView, sending over user information after user confirmation*](constructor/keyboardButtonWebView)
-
----
-
-##### keyboardButtonSimpleWebView
-
-:link: [*Button to open a bot mini app using messages\.requestSimpleWebView, without sending user information to the web app*](constructor/keyboardButtonSimpleWebView)
-
----
-
-##### keyboardButtonRequestPeer
-
-:link: [*Prompts the user to select and share one or more peers with the bot using messages\.sendBotRequestedPeer*](constructor/keyboardButtonRequestPeer)
-
----
-
-##### inputKeyboardButtonRequestPeer
-
-:link: [*Prompts the user to select and share one or more peers with the bot using messages\.sendBotRequestedPeer*](constructor/inputKeyboardButtonRequestPeer)
-
----
-
-##### keyboardButtonCopy
-
-:link: [*Clipboard button: when clicked, the attached text must be copied to the clipboard*](constructor/keyboardButtonCopy)
-
----
-
 ##### keyboardButtonRow
 
 :link: [*Inline keyboard row*](constructor/keyboardButtonRow)
@@ -3680,7 +3661,7 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ##### replyKeyboardHide
 
-:link: [*Hide sent bot keyboard*](constructor/replyKeyboardHide)
+:link: [*Hide sent reply keyboard*](constructor/replyKeyboardHide)
 
 ---
 
@@ -3692,13 +3673,13 @@ It is not a sticker pack the way it is usually intended, you may be looking for 
 
 ##### replyKeyboardMarkup
 
-:link: [*Bot keyboard*](constructor/replyKeyboardMarkup)
+:link: [*Represents a reply keyboard*](constructor/replyKeyboardMarkup)
 
 ---
 
 ##### replyInlineMarkup
 
-:link: [*Bot or inline keyboard*](constructor/replyInlineMarkup)
+:link: [*Represents an inline keyboard*](constructor/replyInlineMarkup)
 
 ---
 
@@ -3831,25 +3812,25 @@ Note that this entity must wrap exactly one regular emoji \(the one contained in
 
 ##### messageEntityFormattedDate
 
-:link: [*NOTHING*](constructor/messageEntityFormattedDate)
+:link: [*Represents a specific point in time, rendered as specified here &raquo;*](constructor/messageEntityFormattedDate)
 
 ---
 
 ##### messageEntityDiffInsert
 
-:link: [*NOTHING*](constructor/messageEntityDiffInsert)
+:link: [*Represents an diff addition: render it by simply underlining the specified section and coloring it in green, see here &raquo; for more info on how to render diff entities*](constructor/messageEntityDiffInsert)
 
 ---
 
 ##### messageEntityDiffReplace
 
-:link: [*NOTHING*](constructor/messageEntityDiffReplace)
+:link: [*Represents an diff replacement, render it as follows:*](constructor/messageEntityDiffReplace)
 
 ---
 
 ##### messageEntityDiffDelete
 
-:link: [*NOTHING*](constructor/messageEntityDiffDelete)
+:link: [*Represents an diff deletion: render it by simply underlining the specified section and coloring it in red, see here &raquo; for more info on how to render diff entities*](constructor/messageEntityDiffDelete)
 
 ---
 
@@ -3891,7 +3872,7 @@ Note that this entity must wrap exactly one regular emoji \(the one contained in
 
 ##### updates channelDifferenceTooLong
 
-:link: [*The provided pts \+ limit &lt; remote pts\. Simply, there are too many updates to be fetched \(more than limit\), the client has to resolve the update gap in one of the following ways \(assuming the existence of a persistent database to locally store messages\):*](constructor/updates.channelDifferenceTooLong)
+:link: [*The passed pts is too old: one or more updates starting from the specified PTS were deleted from the message box of this channel*](constructor/updates.channelDifferenceTooLong)
 
 ---
 
@@ -4384,7 +4365,7 @@ This filter will automatically remove anonymous admins, and return even non\-par
 
 ##### topPeerCategoryBotsGuestChat
 
-:link: [*NOTHING*](constructor/topPeerCategoryBotsGuestChat)
+:link: [*Top guest bots &raquo;, i\.e\. bots most frequently invoked as guests in chats*](constructor/topPeerCategoryBotsGuestChat)
 
 ---
 
@@ -4713,6 +4694,18 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ---
 
+##### textDiff
+
+:link: [*NOTHING*](constructor/textDiff)
+
+---
+
+##### textButton
+
+:link: [*NOTHING*](constructor/textButton)
+
+---
+
 ##### pageBlockUnsupported
 
 :link: [*Unsupported IV element*](constructor/pageBlockUnsupported)
@@ -4947,27 +4940,39 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ---
 
+##### pageBlockButtonRow
+
+:link: [*NOTHING*](constructor/pageBlockButtonRow)
+
+---
+
+##### pageBlockDocument
+
+:link: [*NOTHING*](constructor/pageBlockDocument)
+
+---
+
 ##### phoneCallDiscardReasonMissed
 
-:link: [*The phone call was missed*](constructor/phoneCallDiscardReasonMissed)
+:link: [*The phone call was missed, see here &raquo; for more info*](constructor/phoneCallDiscardReasonMissed)
 
 ---
 
 ##### phoneCallDiscardReasonDisconnect
 
-:link: [*The phone call was disconnected*](constructor/phoneCallDiscardReasonDisconnect)
+:link: [*The phone call was disconnected, see here &raquo; for more info*](constructor/phoneCallDiscardReasonDisconnect)
 
 ---
 
 ##### phoneCallDiscardReasonHangup
 
-:link: [*The phone call was ended normally*](constructor/phoneCallDiscardReasonHangup)
+:link: [*The phone call was ended normally, see here &raquo; for more info*](constructor/phoneCallDiscardReasonHangup)
 
 ---
 
 ##### phoneCallDiscardReasonBusy
 
-:link: [*The phone call was discarded because the user is busy in another call*](constructor/phoneCallDiscardReasonBusy)
+:link: [*The phone call was discarded because the user is busy in another call, see here &raquo; for more info*](constructor/phoneCallDiscardReasonBusy)
 
 ---
 
@@ -5159,7 +5164,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ##### inputPhoneCall
 
-:link: [*Phone call*](constructor/inputPhoneCall)
+:link: [*Identifies a phone call*](constructor/inputPhoneCall)
 
 ---
 
@@ -5171,49 +5176,49 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ##### phoneCallWaiting
 
-:link: [*Incoming phone call*](constructor/phoneCallWaiting)
+:link: [*Incoming phone call, see here &raquo; for more info on the full flow*](constructor/phoneCallWaiting)
 
 ---
 
 ##### phoneCallRequested
 
-:link: [*Requested phone call*](constructor/phoneCallRequested)
+:link: [*Requested phone call, see here &raquo; for more info on the full flow*](constructor/phoneCallRequested)
 
 ---
 
 ##### phoneCallAccepted
 
-:link: [*An accepted phone call*](constructor/phoneCallAccepted)
+:link: [*An accepted phone call, see here &raquo; for more info on the full flow*](constructor/phoneCallAccepted)
 
 ---
 
 ##### phoneCall
 
-:link: [*Phone call*](constructor/phoneCall)
+:link: [*Phone call, see here &raquo; for more info on the full flow*](constructor/phoneCall)
 
 ---
 
 ##### phoneCallDiscarded
 
-:link: [*Indicates a discarded phone call*](constructor/phoneCallDiscarded)
+:link: [*Indicates a discarded phone call, see here &raquo; for more info on the full flow*](constructor/phoneCallDiscarded)
 
 ---
 
 ##### phoneConnection
 
-:link: [*Identifies an endpoint that can be used to connect to the other user in a phone call*](constructor/phoneConnection)
+:link: [*DEPRECATED \(libtgvoip\): Identifies an endpoint that can be used to connect to the other user in a phone call*](constructor/phoneConnection)
 
 ---
 
 ##### phoneConnectionWebrtc
 
-:link: [*WebRTC connection parameters*](constructor/phoneConnectionWebrtc)
+:link: [*WebRTC connection parameters for a phone call*](constructor/phoneConnectionWebrtc)
 
 ---
 
 ##### phoneCallProtocol
 
-:link: [*Protocol info for libtgvoip*](constructor/phoneCallProtocol)
+:link: [*Protocol info for the VoIP library, see here &raquo; for details on how to populate it*](constructor/phoneCallProtocol)
 
 ---
 
@@ -5585,7 +5590,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ##### channelAdminLogEventActionParticipantEditRank
 
-:link: [*NOTHING*](constructor/channelAdminLogEventActionParticipantEditRank)
+:link: [*A participant&#039;s tag &raquo; was changed*](constructor/channelAdminLogEventActionParticipantEditRank)
 
 ---
 
@@ -5715,6 +5720,12 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ---
 
+##### inputDialogPeerCommunity
+
+:link: [*NOTHING*](constructor/inputDialogPeerCommunity)
+
+---
+
 ##### dialogPeer
 
 :link: [*Peer*](constructor/dialogPeer)
@@ -5724,6 +5735,12 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 ##### dialogPeerFolder
 
 :link: [*Peer folder*](constructor/dialogPeerFolder)
+
+---
+
+##### dialogPeerCommunity
+
+:link: [*NOTHING*](constructor/dialogPeerCommunity)
 
 ---
 
@@ -6197,7 +6214,7 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ##### inputPollAnswer
 
-:link: [*NOTHING*](constructor/inputPollAnswer)
+:link: [*An answer option to add to an open\-answer poll &raquo;*](constructor/inputPollAnswer)
 
 ---
 
@@ -6533,13 +6550,13 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 
 ##### webPageAttributeStarGiftAuction
 
-:link: [*NOTHING*](constructor/webPageAttributeStarGiftAuction)
+:link: [*Contains info about a collectible gift auction &raquo; for a webPage preview of an auction &raquo; \(the webPage will have a type of telegram\_auction\)*](constructor/webPageAttributeStarGiftAuction)
 
 ---
 
 ##### webPageAttributeAiComposeTone
 
-:link: [*NOTHING*](constructor/webPageAttributeAiComposeTone)
+:link: [*Webpage attribute attached to a webPage of type telegram\_aicomposetone, generated when previewing a shared AI composer tone &raquo; via an AI compose tone link &raquo;*](constructor/webPageAttributeAiComposeTone)
 
 ---
 
@@ -6762,13 +6779,13 @@ Compute the percentage simply by doing part \* total / 100*](constructor/statsPe
 
 ##### groupCallDiscarded
 
-:link: [*An ended group call*](constructor/groupCallDiscarded)
+:link: [*Describes an ended group call*](constructor/groupCallDiscarded)
 
 ---
 
 ##### groupCall
 
-:link: [*Info about a group call or livestream*](constructor/groupCall)
+:link: [*Describes a group call*](constructor/groupCall)
 
 ---
 
@@ -6780,31 +6797,31 @@ Compute the percentage simply by doing part \* total / 100*](constructor/statsPe
 
 ##### inputGroupCallSlug
 
-:link: [*Join a conference call through an invitation link &raquo;*](constructor/inputGroupCallSlug)
+:link: [*Identify a conference call &raquo; using the slug from its invitation link*](constructor/inputGroupCallSlug)
 
 ---
 
 ##### inputGroupCallInviteMessage
 
-:link: [*Join a group call through a messageActionConferenceCall invitation message*](constructor/inputGroupCallInviteMessage)
+:link: [*Identifies a conference call &raquo; using its messageActionConferenceCall invitation service message*](constructor/inputGroupCallInviteMessage)
 
 ---
 
 ##### groupCallParticipant
 
-:link: [*Info about a group call participant*](constructor/groupCallParticipant)
+:link: [*Describes a group call participant and their current state, see applying group call updates &raquo;*](constructor/groupCallParticipant)
 
 ---
 
 ##### phone groupCall
 
-:link: [*Contains info about a group call, and partial info about its participants*](constructor/phone.groupCall)
+:link: [*Contains group call information and an initial participant page, see getting info about a group call &raquo;*](constructor/phone.groupCall)
 
 ---
 
 ##### phone groupParticipants
 
-:link: [*Info about the participants of a group call or livestream*](constructor/phone.groupParticipants)
+:link: [*Contains a page of group call participants, see getting info about a group call &raquo;*](constructor/phone.groupParticipants)
 
 ---
 
@@ -6913,7 +6930,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### phone joinAsPeers
 
-:link: [*A list of peers that can be used to join a group call, presenting yourself as a specific user/channel*](constructor/phone.joinAsPeers)
+:link: [*Contains the peers that may be used to join a video chat/livestream, see joining on behalf of owned channels &raquo;*](constructor/phone.joinAsPeers)
 
 ---
 
@@ -7135,19 +7152,19 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### groupCallStreamChannel
 
-:link: [*Info about an RTMP stream in a group call or livestream*](constructor/groupCallStreamChannel)
+:link: [*Describes an available RTMP stream channel and its current playback timestamp, see playing an RTMP livestream &raquo;*](constructor/groupCallStreamChannel)
 
 ---
 
 ##### phone groupCallStreamChannels
 
-:link: [*Info about RTMP streams in a group call or livestream*](constructor/phone.groupCallStreamChannels)
+:link: [*Contains the available channels of an RTMP\-mode group call, see playing an RTMP livestream &raquo;*](constructor/phone.groupCallStreamChannels)
 
 ---
 
 ##### phone groupCallStreamRtmpUrl
 
-:link: [*RTMP URL and stream key to be used in streaming software*](constructor/phone.groupCallStreamRtmpUrl)
+:link: [*Contains the RTMP publishing URL and secret stream key, see creating and publishing an RTMP livestream &raquo;*](constructor/phone.groupCallStreamRtmpUrl)
 
 ---
 
@@ -7369,19 +7386,19 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### inputInvoicePremiumAuthCode
 
-:link: [*NOTHING*](constructor/inputInvoicePremiumAuthCode)
+:link: [*Used to pay for login codes, in case of high cost of SMS verification codes for the user&#039;s country/provider, see here &raquo; for more info*](constructor/inputInvoicePremiumAuthCode)
 
 ---
 
 ##### inputInvoiceStarGiftDropOriginalDetails
 
-:link: [*NOTHING*](constructor/inputInvoiceStarGiftDropOriginalDetails)
+:link: [*Used to pay for for the removal of the starGiftAttributeOriginalDetails attribute from a collectible gift, see here &raquo; for the full flow*](constructor/inputInvoiceStarGiftDropOriginalDetails)
 
 ---
 
 ##### inputInvoiceStarGiftAuctionBid
 
-:link: [*NOTHING*](constructor/inputInvoiceStarGiftAuctionBid)
+:link: [*Used to place a bid in a collectible gift auction &raquo;*](constructor/inputInvoiceStarGiftAuctionBid)
 
 ---
 
@@ -7471,13 +7488,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### emojiStatusCollectible
 
-:link: [*An owned collectible gift &raquo; as emoji status*](constructor/emojiStatusCollectible)
+:link: [*An owned or hosted collectible gift &raquo; as emoji status*](constructor/emojiStatusCollectible)
 
 ---
 
 ##### inputEmojiStatusCollectible
 
-:link: [*An owned collectible gift &raquo; as emoji status: can only be used in account\.updateEmojiStatus, is never returned by the API*](constructor/inputEmojiStatusCollectible)
+:link: [*An owned or hosted collectible gift &raquo; as emoji status: can only be used in account\.updateEmojiStatus, is never returned by the API*](constructor/inputEmojiStatusCollectible)
 
 ---
 
@@ -7681,7 +7698,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### requestPeerTypeCreateBot
 
-:link: [*NOTHING*](constructor/requestPeerTypeCreateBot)
+:link: [*Used in a keyboardButtonRequestPeer by a manager bot to ask a user to create a new managed bot &raquo;, see here &raquo; for more info*](constructor/requestPeerTypeCreateBot)
 
 ---
 
@@ -7967,6 +7984,12 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
+##### inputReplyToEphemeralMessage
+
+:link: [*NOTHING*](constructor/inputReplyToEphemeralMessage)
+
+---
+
 ##### exportedStoryLink
 
 :link: [*Represents a story deep link*](constructor/exportedStoryLink)
@@ -8173,13 +8196,13 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### peerColorCollectible
 
-:link: [*NOTHING*](constructor/peerColorCollectible)
+:link: [*Represents a color palette &raquo; associated to a collectible gift &raquo;, see here &raquo; for more info*](constructor/peerColorCollectible)
 
 ---
 
 ##### inputPeerColorCollectible
 
-:link: [*NOTHING*](constructor/inputPeerColorCollectible)
+:link: [*Represents a color palette &raquo; associated to a collectible gift &raquo;, see here &raquo; for more info*](constructor/inputPeerColorCollectible)
 
 ---
 
@@ -8581,7 +8604,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### channels sponsoredMessageReportResultChooseOption
 
-:link: [*The user must choose a report option from the localized options available in options, and after selection, channels\.reportSponsoredMessage must be invoked again, passing the option&#039;s option field to the option param of the method*](constructor/channels.sponsoredMessageReportResultChooseOption)
+:link: [*The user must choose a report option from the localized options available in options, and after selection, messages\.reportSponsoredMessage must be invoked again, passing the option&#039;s option field to the option param of the method*](constructor/channels.sponsoredMessageReportResultChooseOption)
 
 ---
 
@@ -8875,7 +8898,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### starRefProgram
 
-:link: [*Indo about an affiliate program offered by a bot*](constructor/starRefProgram)
+:link: [*Info about an affiliate program offered by a bot*](constructor/starRefProgram)
 
 ---
 
@@ -8905,7 +8928,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### starsTonAmount
 
-:link: [*Describes an amount of toncoin in nanotons \(i\.e\. 1/1\_000\_000\_000 of a toncoin\)*](constructor/starsTonAmount)
+:link: [*Describes an amount of Gram in nanograms \(i\.e\. 1/1\_000\_000\_000 of a Gram\)*](constructor/starsTonAmount)
 
 ---
 
@@ -9037,7 +9060,7 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### paidReactionPrivacyPeer
 
-:link: [*Send paid reactions as the specified peer, fetched using channels\.getSendAs*](constructor/paidReactionPrivacyPeer)
+:link: [*Send paid reactions as the specified peer, fetched using channels\.getSendAs with the for\_paid\_reactions flag set*](constructor/paidReactionPrivacyPeer)
 
 ---
 
@@ -9313,325 +9336,331 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ##### inputChatThemeUniqueGift
 
-:link: [*Set a theme based on an owned collectible gift &raquo;, returned by account\.getUniqueGiftChatThemes*](constructor/inputChatThemeUniqueGift)
+:link: [*Set a theme based on an owned or hosted collectible gift &raquo;, returned by account\.getUniqueGiftChatThemes*](constructor/inputChatThemeUniqueGift)
 
 ---
 
 ##### starGiftUpgradePrice
 
-:link: [*NOTHING*](constructor/starGiftUpgradePrice)
+:link: [*Indicates the price for a gift upgrade &raquo; starting from a specific point in time*](constructor/starGiftUpgradePrice)
 
 ---
 
 ##### groupCallMessage
 
-:link: [*NOTHING*](constructor/groupCallMessage)
+:link: [*Represents an in\-call message &raquo;, emoji reaction, paid live story comment or standalone paid live story donation*](constructor/groupCallMessage)
 
 ---
 
 ##### groupCallDonor
 
-:link: [*NOTHING*](constructor/groupCallDonor)
+:link: [*Describes a live story donor in the donation leaderboard &raquo;*](constructor/groupCallDonor)
 
 ---
 
 ##### phone groupCallStars
 
-:link: [*NOTHING*](constructor/phone.groupCallStars)
+:link: [*Contains a live story&#039;s total donations and top donors, see paid live story donations &raquo;*](constructor/phone.groupCallStars)
 
 ---
 
 ##### recentStory
 
-:link: [*NOTHING*](constructor/recentStory)
+:link: [*Summary of a peer&#039;s active stories &raquo;, embedded in user\.stories\_max\_id and channel\.stories\_max\_id and returned by stories\.getPeerMaxIDs*](constructor/recentStory)
 
 ---
 
 ##### auctionBidLevel
 
-:link: [*NOTHING*](constructor/auctionBidLevel)
+:link: [*Describes a bid in an auction*](constructor/auctionBidLevel)
 
 ---
 
 ##### starGiftAuctionStateNotModified
 
-:link: [*NOTHING*](constructor/starGiftAuctionStateNotModified)
+:link: [*Returned only by auction methods \(never by updates\) if the passed version is equal to the remote auction &raquo;\.version, meaning auction information hasn&#039;t changed over the locally cached version*](constructor/starGiftAuctionStateNotModified)
 
 ---
 
 ##### starGiftAuctionState
 
-:link: [*NOTHING*](constructor/starGiftAuctionState)
+:link: [*Represents an active or pending auction &raquo;*](constructor/starGiftAuctionState)
 
 ---
 
 ##### starGiftAuctionStateFinished
 
-:link: [*NOTHING*](constructor/starGiftAuctionStateFinished)
+:link: [*Represents a finished auction &raquo;*](constructor/starGiftAuctionStateFinished)
 
 ---
 
 ##### starGiftAuctionUserState
 
-:link: [*NOTHING*](constructor/starGiftAuctionUserState)
+:link: [*Contains information about the current user&#039;s state in an auction &raquo;*](constructor/starGiftAuctionUserState)
 
 ---
 
 ##### payments starGiftAuctionState
 
-:link: [*NOTHING*](constructor/payments.starGiftAuctionState)
+:link: [*Describes a collectible gift auction &raquo;*](constructor/payments.starGiftAuctionState)
 
 ---
 
 ##### starGiftAuctionAcquiredGift
 
-:link: [*NOTHING*](constructor/starGiftAuctionAcquiredGift)
+:link: [*Describes a gift that the current user won in an auction*](constructor/starGiftAuctionAcquiredGift)
 
 ---
 
 ##### payments starGiftAuctionAcquiredGifts
 
-:link: [*NOTHING*](constructor/payments.starGiftAuctionAcquiredGifts)
+:link: [*Describes all the gifts that the current user won in an auction*](constructor/payments.starGiftAuctionAcquiredGifts)
 
 ---
 
 ##### starGiftActiveAuctionState
 
-:link: [*NOTHING*](constructor/starGiftActiveAuctionState)
+:link: [*Contains info about an auction where the user has placed a bid &raquo;*](constructor/starGiftActiveAuctionState)
 
 ---
 
 ##### payments starGiftActiveAuctionsNotModified
 
-:link: [*NOTHING*](constructor/payments.starGiftActiveAuctionsNotModified)
+:link: [*The list of currently active gift auctions where the user has placed a bid hasn&#039;t changed*](constructor/payments.starGiftActiveAuctionsNotModified)
 
 ---
 
 ##### payments starGiftActiveAuctions
 
-:link: [*NOTHING*](constructor/payments.starGiftActiveAuctions)
+:link: [*Describes all currently active gift auctions where the user has placed a bid*](constructor/payments.starGiftActiveAuctions)
 
 ---
 
 ##### inputStarGiftAuction
 
-:link: [*NOTHING*](constructor/inputStarGiftAuction)
+:link: [*Used to fetch auctions using the ID of the linked collectible gift*](constructor/inputStarGiftAuction)
 
 ---
 
 ##### inputStarGiftAuctionSlug
 
-:link: [*NOTHING*](constructor/inputStarGiftAuctionSlug)
+:link: [*Used to fetch auctions using the slug of an auction deep link &raquo;*](constructor/inputStarGiftAuctionSlug)
 
 ---
 
 ##### passkey
 
-:link: [*NOTHING*](constructor/passkey)
+:link: [*Human\-readable info about a passkey associated to an account, returned when creating a passkey &raquo; or listing passkeys &raquo;*](constructor/passkey)
 
 ---
 
 ##### account passkeys
 
-:link: [*NOTHING*](constructor/account.passkeys)
+:link: [*List of passkeys &raquo; associated to the current account*](constructor/account.passkeys)
 
 ---
 
 ##### account passkeyRegistrationOptions
 
-:link: [*NOTHING*](constructor/account.passkeyRegistrationOptions)
+:link: [*Passkey registration options, see here &raquo; for more info on the full flow*](constructor/account.passkeyRegistrationOptions)
 
 ---
 
 ##### auth passkeyLoginOptions
 
-:link: [*NOTHING*](constructor/auth.passkeyLoginOptions)
+:link: [*Passkey login options, see here &raquo; for more info on the full flow*](constructor/auth.passkeyLoginOptions)
 
 ---
 
 ##### inputPasskeyResponseRegister
 
-:link: [*NOTHING*](constructor/inputPasskeyResponseRegister)
+:link: [*WebAuthn registration response used when registering a new passkey, see here &raquo; for more info on the full flow*](constructor/inputPasskeyResponseRegister)
 
 ---
 
 ##### inputPasskeyResponseLogin
 
-:link: [*NOTHING*](constructor/inputPasskeyResponseLogin)
+:link: [*WebAuthn authentication response used when logging in with a passkey, see here &raquo; for more info on the full flow*](constructor/inputPasskeyResponseLogin)
 
 ---
 
 ##### inputPasskeyCredentialPublicKey
 
-:link: [*NOTHING*](constructor/inputPasskeyCredentialPublicKey)
+:link: [*Public\-key passkey credential used both for registration and for login, see creating a passkey &raquo; and logging in with a passkey &raquo; for the full flows*](constructor/inputPasskeyCredentialPublicKey)
 
 ---
 
 ##### inputPasskeyCredentialFirebasePNV
 
-:link: [*NOTHING*](constructor/inputPasskeyCredentialFirebasePNV)
+:link: [*Alternative passkey credential that proves ownership of the account&#039;s phone number through a Firebase Phone Number Verification \(PNV\) token, used on official apps where a full WebAuthn public\-key passkey cannot be created, in a way similar to Firebase SMS authentication &raquo;*](constructor/inputPasskeyCredentialFirebasePNV)
 
 ---
 
 ##### starGiftBackground
 
-:link: [*NOTHING*](constructor/starGiftBackground)
+:link: [*Contains the default background palette of a gift type &raquo;*](constructor/starGiftBackground)
 
 ---
 
 ##### starGiftAuctionRound
 
-:link: [*NOTHING*](constructor/starGiftAuctionRound)
+:link: [*Describes one or more collectible gift auction rounds &raquo;*](constructor/starGiftAuctionRound)
 
 ---
 
 ##### starGiftAuctionRoundExtendable
 
-:link: [*NOTHING*](constructor/starGiftAuctionRoundExtendable)
+:link: [*Describes one or more extendable collectible gift auction rounds &raquo;*](constructor/starGiftAuctionRoundExtendable)
 
 ---
 
 ##### payments starGiftUpgradeAttributes
 
-:link: [*NOTHING*](constructor/payments.starGiftUpgradeAttributes)
+:link: [*List of just the collectible attributes that may appear for a gift type once it&#039;s upgraded to a collectible gift &raquo;*](constructor/payments.starGiftUpgradeAttributes)
 
 ---
 
 ##### messages emojiGameOutcome
 
-:link: [*NOTHING*](constructor/messages.emojiGameOutcome)
+:link: [*Dice game outcome*](constructor/messages.emojiGameOutcome)
 
 ---
 
 ##### messages emojiGameUnavailable
 
-:link: [*NOTHING*](constructor/messages.emojiGameUnavailable)
+:link: [*Dice game information*](constructor/messages.emojiGameUnavailable)
 
 ---
 
 ##### messages emojiGameDiceInfo
 
-:link: [*NOTHING*](constructor/messages.emojiGameDiceInfo)
+:link: [*Dice game information*](constructor/messages.emojiGameDiceInfo)
 
 ---
 
 ##### starGiftAttributeRarity
 
-:link: [*NOTHING*](constructor/starGiftAttributeRarity)
+:link: [*Exact rarity value for a collectible gift attribute*](constructor/starGiftAttributeRarity)
 
 ---
 
 ##### starGiftAttributeRarityUncommon
 
-:link: [*NOTHING*](constructor/starGiftAttributeRarityUncommon)
+:link: [*Represents uncommon collectible gift attribute rarity*](constructor/starGiftAttributeRarityUncommon)
 
 ---
 
 ##### starGiftAttributeRarityRare
 
-:link: [*NOTHING*](constructor/starGiftAttributeRarityRare)
+:link: [*Represents rare collectible gift attribute rarity*](constructor/starGiftAttributeRarityRare)
 
 ---
 
 ##### starGiftAttributeRarityEpic
 
-:link: [*NOTHING*](constructor/starGiftAttributeRarityEpic)
+:link: [*Represents epic collectible gift attribute rarity*](constructor/starGiftAttributeRarityEpic)
 
 ---
 
 ##### starGiftAttributeRarityLegendary
 
-:link: [*NOTHING*](constructor/starGiftAttributeRarityLegendary)
+:link: [*Represents legendary collectible gift attribute rarity*](constructor/starGiftAttributeRarityLegendary)
 
 ---
 
 ##### keyboardButtonStyle
 
-:link: [*NOTHING*](constructor/keyboardButtonStyle)
+:link: [*This constructor allows setting a custom background color and custom emoji label for a button, see here &raquo; for more info*](constructor/keyboardButtonStyle)
 
 ---
 
 ##### inputMessageReadMetric
 
-:link: [*NOTHING*](constructor/inputMessageReadMetric)
+:link: [*Read metric for a single message exposure, describing how long the message was visible in the chat viewport*](constructor/inputMessageReadMetric)
 
 ---
 
 ##### bots exportedBotToken
 
-:link: [*NOTHING*](constructor/bots.exportedBotToken)
+:link: [*The bot token of a managed bot &raquo;, exported by the manager bot*](constructor/bots.exportedBotToken)
 
 ---
 
 ##### bots requestedButton
 
-:link: [*NOTHING*](constructor/bots.requestedButton)
+:link: [*Contains the request ID a bot should pass to a Mini App after preparing a peer request button with bots\.requestWebViewButton, see here &raquo; for more info*](constructor/bots.requestedButton)
 
 ---
 
 ##### messages composedMessageWithAI
 
-:link: [*NOTHING*](constructor/messages.composedMessageWithAI)
+:link: [*Represents a message modified by AI*](constructor/messages.composedMessageWithAI)
 
 ---
 
 ##### stats pollStats
 
-:link: [*NOTHING*](constructor/stats.pollStats)
+:link: [*Statistics for a poll sent in a message*](constructor/stats.pollStats)
 
 ---
 
 ##### inputAiComposeToneDefault
 
-:link: [*NOTHING*](constructor/inputAiComposeToneDefault)
+:link: [*References a built\-in, default AI composer tone &raquo; by its string identifier*](constructor/inputAiComposeToneDefault)
 
 ---
 
 ##### inputAiComposeToneID
 
-:link: [*NOTHING*](constructor/inputAiComposeToneID)
+:link: [*References a custom AI composer tone &raquo; by its ID and access hash*](constructor/inputAiComposeToneID)
 
 ---
 
 ##### inputAiComposeToneSlug
 
-:link: [*NOTHING*](constructor/inputAiComposeToneSlug)
+:link: [*References a custom AI composer tone &raquo; by its public slug, used when opening an AI compose tone link &raquo;*](constructor/inputAiComposeToneSlug)
+
+---
+
+##### inputAiComposeToneSingleUse
+
+:link: [*NOTHING*](constructor/inputAiComposeToneSingleUse)
 
 ---
 
 ##### aiComposeTone
 
-:link: [*NOTHING*](constructor/aiComposeTone)
+:link: [*A custom AI composer tone &raquo;, used to rephrase messages in a specific style with the AI message composer*](constructor/aiComposeTone)
 
 ---
 
 ##### aiComposeToneDefault
 
-:link: [*NOTHING*](constructor/aiComposeToneDefault)
+:link: [*A built\-in, default AI composer tone &raquo;, identified by a string identifier rather than by a numeric ID*](constructor/aiComposeToneDefault)
 
 ---
 
 ##### aicompose tonesNotModified
 
-:link: [*NOTHING*](constructor/aicompose.tonesNotModified)
+:link: [*The list of saved AI composer tones &raquo; hasn&#039;t changed since the last time it was fetched \(i\.e\. the hash passed to aicompose\.getTones is still valid\)*](constructor/aicompose.tonesNotModified)
 
 ---
 
 ##### aicompose tones
 
-:link: [*NOTHING*](constructor/aicompose.tones)
+:link: [*The list of saved AI composer tones &raquo; of the current user*](constructor/aicompose.tones)
 
 ---
 
 ##### aiComposeToneExample
 
-:link: [*NOTHING*](constructor/aiComposeToneExample)
+:link: [*An example showing how an AI composer tone &raquo; rephrases a message, used as a preview in the tone picker*](constructor/aiComposeToneExample)
 
 ---
 
 ##### bots accessSettings
 
-:link: [*NOTHING*](constructor/bots.accessSettings)
+:link: [*Access restriction settings for a managed bot &raquo;*](constructor/bots.accessSettings)
 
 ---
 
@@ -9722,3 +9751,201 @@ If neither the pm or group flags are set, the specified chat export was generate
 ##### richMessage
 
 :link: [*NOTHING*](constructor/richMessage)
+
+---
+
+##### communityPeer
+
+:link: [*NOTHING*](constructor/communityPeer)
+
+---
+
+##### communityPeerRequest
+
+:link: [*NOTHING*](constructor/communityPeerRequest)
+
+---
+
+##### communities peerLinkRequests
+
+:link: [*NOTHING*](constructor/communities.peerLinkRequests)
+
+---
+
+##### ephemeralMessage
+
+:link: [*NOTHING*](constructor/ephemeralMessage)
+
+---
+
+##### communities participantJoinedChats
+
+:link: [*NOTHING*](constructor/communities.participantJoinedChats)
+
+---
+
+##### messages translatedRichMessage
+
+:link: [*NOTHING*](constructor/messages.translatedRichMessage)
+
+---
+
+##### messages composedRichMessageWithAI
+
+:link: [*NOTHING*](constructor/messages.composedRichMessageWithAI)
+
+---
+
+##### buttonTypeDefault
+
+:link: [*NOTHING*](constructor/buttonTypeDefault)
+
+---
+
+##### buttonTypeRequestPhone
+
+:link: [*NOTHING*](constructor/buttonTypeRequestPhone)
+
+---
+
+##### buttonTypeRequestGeoLocation
+
+:link: [*NOTHING*](constructor/buttonTypeRequestGeoLocation)
+
+---
+
+##### buttonTypeRequestPoll
+
+:link: [*NOTHING*](constructor/buttonTypeRequestPoll)
+
+---
+
+##### buttonTypeRequestPeer
+
+:link: [*NOTHING*](constructor/buttonTypeRequestPeer)
+
+---
+
+##### inputButtonTypeRequestPeer
+
+:link: [*NOTHING*](constructor/inputButtonTypeRequestPeer)
+
+---
+
+##### buttonTypeSimpleWebView
+
+:link: [*NOTHING*](constructor/buttonTypeSimpleWebView)
+
+---
+
+##### inlineButtonTypeUrl
+
+:link: [*NOTHING*](constructor/inlineButtonTypeUrl)
+
+---
+
+##### inlineButtonTypeUrlAuth
+
+:link: [*NOTHING*](constructor/inlineButtonTypeUrlAuth)
+
+---
+
+##### inputInlineButtonTypeUrlAuth
+
+:link: [*NOTHING*](constructor/inputInlineButtonTypeUrlAuth)
+
+---
+
+##### inlineButtonTypeWebView
+
+:link: [*NOTHING*](constructor/inlineButtonTypeWebView)
+
+---
+
+##### inlineButtonTypeCallback
+
+:link: [*NOTHING*](constructor/inlineButtonTypeCallback)
+
+---
+
+##### inlineButtonTypeGame
+
+:link: [*NOTHING*](constructor/inlineButtonTypeGame)
+
+---
+
+##### inlineButtonTypeBuy
+
+:link: [*NOTHING*](constructor/inlineButtonTypeBuy)
+
+---
+
+##### inlineButtonTypeSwitchInline
+
+:link: [*NOTHING*](constructor/inlineButtonTypeSwitchInline)
+
+---
+
+##### inlineButtonTypeUserProfile
+
+:link: [*NOTHING*](constructor/inlineButtonTypeUserProfile)
+
+---
+
+##### inputInlineButtonTypeUserProfile
+
+:link: [*NOTHING*](constructor/inputInlineButtonTypeUserProfile)
+
+---
+
+##### inlineButtonTypeCopy
+
+:link: [*NOTHING*](constructor/inlineButtonTypeCopy)
+
+---
+
+##### inlineButtonTypeDisabled
+
+:link: [*NOTHING*](constructor/inlineButtonTypeDisabled)
+
+---
+
+##### keyboardInlineButton
+
+:link: [*NOTHING*](constructor/keyboardInlineButton)
+
+---
+
+##### keyboardInlineButtonRow
+
+:link: [*NOTHING*](constructor/keyboardInlineButtonRow)
+
+---
+
+##### richButtonStyle
+
+:link: [*NOTHING*](constructor/richButtonStyle)
+
+---
+
+##### pageButton
+
+:link: [*NOTHING*](constructor/pageButton)
+
+---
+
+##### ephemeral welcomeMessagesNotModified
+
+:link: [*NOTHING*](constructor/ephemeral.welcomeMessagesNotModified)
+
+---
+
+##### ephemeral welcomeMessages
+
+:link: [*NOTHING*](constructor/ephemeral.welcomeMessages)
+
+---
+
+##### auth firebasePnvIntent
+
+:link: [*NOTHING*](constructor/auth.firebasePnvIntent)

@@ -1,6 +1,8 @@
 # inputMediaStakeDice
 
-**Layer** : 227
+**Description** : *Dice game media*
+
+**Layer** : 229
 
 ```tl
 inputMediaStakeDice#f3a9244a game_hash:string ton_amount:long client_seed:bytes = InputMedia;
@@ -12,9 +14,9 @@ inputMediaStakeDice#f3a9244a game_hash:string ton_amount:long client_seed:bytes 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>game_hash</mark> | [`string`](type/string) | NOTHING |
-| <mark>ton_amount</mark> | [`long`](type/long) | NOTHING |
-| <mark>client_seed</mark> | [`bytes`](type/bytes) | NOTHING |
+| <mark>game_hash</mark> | [`string`](type/string) | Game hash |
+| <mark>ton_amount</mark> | [`long`](type/long) | Amount |
+| <mark>client_seed</mark> | [`bytes`](type/bytes) | Client seed |
 
 ---
 
@@ -28,8 +30,8 @@ inputMediaStakeDice#f3a9244a game_hash:string ton_amount:long client_seed:bytes 
 
 ```php
 $inputMedia = $client->inputMediaStakeDice(
-	game_hash : 'gyO4uP10cpCXRv52',
-	ton_amount : -3738140162627314581,
+	game_hash : '7E6iZJmXPyqdpnhj',
+	ton_amount : 8797059870387221236,
 	client_seed : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

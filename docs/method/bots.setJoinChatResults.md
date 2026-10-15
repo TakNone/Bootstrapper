@@ -1,6 +1,6 @@
 # bots.setJoinChatResults
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 bots.setJoinChatResults#e71a4810 query_id:long result:JoinChatBotResult = Bool;
@@ -27,7 +27,7 @@ bots.setJoinChatResults#e71a4810 query_id:long result:JoinChatBotResult = Bool;
 
 ```php
 $bool = $client->bots->setJoinChatResults(
-	query_id : 6210731039847081252,
+	query_id : 1725950079204702227,
 	result : $client->joinChatBotResultApproved(),
 );
 ```

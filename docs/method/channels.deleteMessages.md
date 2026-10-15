@@ -2,7 +2,7 @@
 
 **Description** : *Delete messages in a channel/supergroup*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.deleteMessages#84c1fd4e channel:InputChannel id:Vector<int> = messages.AffectedMessages;
@@ -31,6 +31,7 @@ channels.deleteMessages#84c1fd4e channel:InputChannel id:Vector<int> = messages.
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `406` | You haven't joined this channel/supergroup |
+| **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
 | **FROZEN_METHOD_INVALID** | `420` | The current account is frozen, and thus cannot execute the specified action |
 | **MESSAGE_DELETE_FORBIDDEN** | `403` | You can't delete one of the messages you tried to delete, most likely because it is a service message |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
@@ -42,6 +43,6 @@ channels.deleteMessages#84c1fd4e channel:InputChannel id:Vector<int> = messages.
 ```php
 $messagesAffectedMessages = $client->channels->deleteMessages(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	id : array(48),
+	id : array(22),
 );
 ```

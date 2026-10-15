@@ -113,7 +113,7 @@
 
 ##### auth bindTempAuthKey
 
-:link: [*Binds a temporary authorization key temp\_auth\_key\_id to the permanent authorization key perm\_auth\_key\_id\. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one*](method/auth.bindTempAuthKey)
+:link: [*Binds a temporary authorization key temp\_auth\_key\_id to the permanent authorization key perm\_auth\_key\_id*](method/auth.bindTempAuthKey)
 
 ---
 
@@ -210,19 +210,37 @@ The generated login token should be encoded using base64url, then shown as a tg:
 
 ##### auth checkPaidAuth
 
-:link: [*NOTHING*](method/auth.checkPaidAuth)
+:link: [*Checks the status of a login payment*](method/auth.checkPaidAuth)
 
 ---
 
 ##### auth initPasskeyLogin
 
-:link: [*NOTHING*](method/auth.initPasskeyLogin)
+:link: [*Initialize login with a passkey over an unauthenticated connection, see here &raquo; for more info*](method/auth.initPasskeyLogin)
 
 ---
 
 ##### auth finishPasskeyLogin
 
-:link: [*NOTHING*](method/auth.finishPasskeyLogin)
+:link: [*Complete login with a passkey over an unauthenticated connection, see here &raquo; for more info*](method/auth.finishPasskeyLogin)
+
+---
+
+##### auth initFirebasePnvLogin
+
+:link: [*NOTHING*](method/auth.initFirebasePnvLogin)
+
+---
+
+##### auth finishFirebasePnvLogin
+
+:link: [*NOTHING*](method/auth.finishFirebasePnvLogin)
+
+---
+
+##### auth firebasePnvSignUp
+
+:link: [*NOTHING*](method/auth.firebasePnvSignUp)
 
 ---
 
@@ -904,7 +922,7 @@ This method can be used to fetch info about a not\-yet\-cached business connecti
 
 ##### account getCollectibleEmojiStatuses
 
-:link: [*Obtain a list of emoji statuses &raquo; for owned collectible gifts*](method/account.getCollectibleEmojiStatuses)
+:link: [*Obtain a list of emoji statuses &raquo; for owned or hosted collectible gifts &raquo;*](method/account.getCollectibleEmojiStatuses)
 
 ---
 
@@ -940,31 +958,31 @@ This method can be used to fetch info about a not\-yet\-cached business connecti
 
 ##### account getUniqueGiftChatThemes
 
-:link: [*Obtain all chat themes &raquo; associated to owned collectible gifts &raquo;*](method/account.getUniqueGiftChatThemes)
+:link: [*Obtain all chat themes &raquo; associated to owned or hosted collectible gifts &raquo;*](method/account.getUniqueGiftChatThemes)
 
 ---
 
 ##### account initPasskeyRegistration
 
-:link: [*NOTHING*](method/account.initPasskeyRegistration)
+:link: [*Initialize passkey registration for the current account, see here &raquo; for more info on the full flow*](method/account.initPasskeyRegistration)
 
 ---
 
 ##### account registerPasskey
 
-:link: [*NOTHING*](method/account.registerPasskey)
+:link: [*Complete passkey registration for the current account, see here &raquo; for more info on the full flow*](method/account.registerPasskey)
 
 ---
 
 ##### account getPasskeys
 
-:link: [*NOTHING*](method/account.getPasskeys)
+:link: [*List the passkeys associated to the current account that can be used to log in, see here &raquo; for more info on passkeys*](method/account.getPasskeys)
 
 ---
 
 ##### account deletePasskey
 
-:link: [*NOTHING*](method/account.deletePasskey)
+:link: [*Delete a passkey associated to the current account, see here &raquo; for more info*](method/account.deletePasskey)
 
 ---
 
@@ -1036,7 +1054,7 @@ This method can be used to fetch info about a not\-yet\-cached business connecti
 
 ##### users suggestBirthday
 
-:link: [*NOTHING*](method/users.suggestBirthday)
+:link: [*Suggest a birthday to another user, see here &raquo; for more info on birthdays in the API*](method/users.suggestBirthday)
 
 ---
 
@@ -1205,7 +1223,7 @@ Returns an array of Telegram user IDs for all contacts \(0 if a contact does not
 
 ##### contacts updateContactNote
 
-:link: [*NOTHING*](method/contacts.updateContactNote)
+:link: [*Update the private note associated to a contact; see here &raquo; for more info*](method/contacts.updateContactNote)
 
 ---
 
@@ -1223,7 +1241,7 @@ Returns an array of Telegram user IDs for all contacts \(0 if a contact does not
 
 ##### messages getHistory
 
-:link: [*Returns the conversation history with one interlocutor / within a chat*](method/messages.getHistory)
+:link: [*Returns the message history in a peer*](method/messages.getHistory)
 
 ---
 
@@ -1737,13 +1755,13 @@ Note: Telegram must receive an answer within 10 seconds after the pre\-checkout 
 
 ##### messages readMentions
 
-:link: [*Mark mentions as read*](method/messages.readMentions)
+:link: [*Mark mentions as read; can be used in forums but cannot be used in monoforums*](method/messages.readMentions)
 
 ---
 
 ##### messages getRecentLocations
 
-:link: [*Get live location history of a certain user*](method/messages.getRecentLocations)
+:link: [*Get all recent live locations sent to a specific chat: returns up to 1 location message \(messageMediaGeoLive\) per chat participant*](method/messages.getRecentLocations)
 
 ---
 
@@ -2092,7 +2110,7 @@ To be called only after initializing the import with messages\.initHistoryImport
 
 ##### messages toggleNoForwards
 
-:link: [*Enable or disable content protection on a channel or chat*](method/messages.toggleNoForwards)
+:link: [*Enable or disable content protection on a channel, group or private chat*](method/messages.toggleNoForwards)
 
 ---
 
@@ -2599,157 +2617,175 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### messages getForumTopics
 
-:link: [*NOTHING*](method/messages.getForumTopics)
+:link: [*Get topics of a forum*](method/messages.getForumTopics)
 
 ---
 
 ##### messages getForumTopicsByID
 
-:link: [*NOTHING*](method/messages.getForumTopicsByID)
+:link: [*Get forum topics by their ID*](method/messages.getForumTopicsByID)
 
 ---
 
 ##### messages editForumTopic
 
-:link: [*NOTHING*](method/messages.editForumTopic)
+:link: [*Edit forum topic*](method/messages.editForumTopic)
 
 ---
 
 ##### messages updatePinnedForumTopic
 
-:link: [*NOTHING*](method/messages.updatePinnedForumTopic)
+:link: [*Pin or unpin forum topics*](method/messages.updatePinnedForumTopic)
 
 ---
 
 ##### messages reorderPinnedForumTopics
 
-:link: [*NOTHING*](method/messages.reorderPinnedForumTopics)
+:link: [*Reorder pinned forum topics*](method/messages.reorderPinnedForumTopics)
 
 ---
 
 ##### messages createForumTopic
 
-:link: [*NOTHING*](method/messages.createForumTopic)
+:link: [*Create a forum topic*](method/messages.createForumTopic)
 
 ---
 
 ##### messages deleteTopicHistory
 
-:link: [*NOTHING*](method/messages.deleteTopicHistory)
+:link: [*Delete message history of a forum topic*](method/messages.deleteTopicHistory)
 
 ---
 
 ##### messages getEmojiGameInfo
 
-:link: [*NOTHING*](method/messages.getEmojiGameInfo)
+:link: [*Fetch dice game information*](method/messages.getEmojiGameInfo)
 
 ---
 
 ##### messages summarizeText
 
-:link: [*NOTHING*](method/messages.summarizeText)
+:link: [*Summarize the contents of a message with AI, see here &raquo; for more info*](method/messages.summarizeText)
 
 ---
 
 ##### messages editChatCreator
 
-:link: [*NOTHING*](method/messages.editChatCreator)
+:link: [*Transfer the ownership of a basic group, supergroup or channel to another user, see here &raquo; for the full flow*](method/messages.editChatCreator)
 
 ---
 
 ##### messages getFutureChatCreatorAfterLeave
 
-:link: [*NOTHING*](method/messages.getFutureChatCreatorAfterLeave)
+:link: [*Group/channel owners only: returns the ID of the user that will become the new owner of the group if we decide to leave the group, see here &raquo; for more info on the full flow*](method/messages.getFutureChatCreatorAfterLeave)
 
 ---
 
 ##### messages editChatParticipantRank
 
-:link: [*NOTHING*](method/messages.editChatParticipantRank)
+:link: [*Edit a group participant&#039;s tag &raquo;*](method/messages.editChatParticipantRank)
 
 ---
 
 ##### messages declineUrlAuth
 
-:link: [*NOTHING*](method/messages.declineUrlAuth)
+:link: [*Decline an incoming OAuth authorization request &raquo;, notifying the server that the user refused the login request*](method/messages.declineUrlAuth)
 
 ---
 
 ##### messages checkUrlAuthMatchCode
 
-:link: [*NOTHING*](method/messages.checkUrlAuthMatchCode)
+:link: [*Validate the match code selected by the user against the code shown on the login page, as part of the OAuth authorization flow &raquo;*](method/messages.checkUrlAuthMatchCode)
 
 ---
 
 ##### messages composeMessageWithAI
 
-:link: [*NOTHING*](method/messages.composeMessageWithAI)
+:link: [*Invokes telegram&#039;s AI Editor that can translate, transform, fixup and/or emojify your message in a number of different ways, privately powered by Cocoon, see here &raquo; for more info\!*](method/messages.composeMessageWithAI)
 
 ---
 
 ##### messages reportReadMetrics
 
-:link: [*NOTHING*](method/messages.reportReadMetrics)
+:link: [*Report viewport read metrics for visible messages, indicating how long each message stayed in the chat viewport, see here &raquo; for more info on the full flow*](method/messages.reportReadMetrics)
 
 ---
 
 ##### messages reportMusicListen
 
-:link: [*NOTHING*](method/messages.reportMusicListen)
+:link: [*Report the listening duration of a music track \(audio document without the voice flag\), see here &raquo; for more info on the full flow*](method/messages.reportMusicListen)
 
 ---
 
 ##### messages addPollAnswer
 
-:link: [*NOTHING*](method/messages.addPollAnswer)
+:link: [*Add an answer option to an open\-answer poll &raquo;*](method/messages.addPollAnswer)
 
 ---
 
 ##### messages deletePollAnswer
 
-:link: [*NOTHING*](method/messages.deletePollAnswer)
+:link: [*Remove an answer option from an open\-answer poll &raquo;*](method/messages.deletePollAnswer)
 
 ---
 
 ##### messages getUnreadPollVotes
 
-:link: [*NOTHING*](method/messages.getUnreadPollVotes)
+:link: [*Get messages containing polls with unread votes &raquo;*](method/messages.getUnreadPollVotes)
 
 ---
 
 ##### messages readPollVotes
 
-:link: [*NOTHING*](method/messages.readPollVotes)
+:link: [*Mark all unread poll votes &raquo; in a chat as read*](method/messages.readPollVotes)
 
 ---
 
 ##### messages setBotGuestChatResult
 
-:link: [*NOTHING*](method/messages.setBotGuestChatResult)
+:link: [*Bots may use this method to answer a guest mode &raquo; query received via an updateBotGuestChatQuery update, providing the message to post into the chat as a guest, see here &raquo; for more info*](method/messages.setBotGuestChatResult)
 
 ---
 
 ##### messages deleteParticipantReactions
 
-:link: [*NOTHING*](method/messages.deleteParticipantReactions)
+:link: [*As an admin, remove all of a specific participant&#039;s reactions from every message in a group or channel*](method/messages.deleteParticipantReactions)
 
 ---
 
 ##### messages deleteParticipantReaction
 
-:link: [*NOTHING*](method/messages.deleteParticipantReaction)
+:link: [*As an admin, remove all of a specific participant&#039;s reactions from a single message*](method/messages.deleteParticipantReaction)
 
 ---
 
 ##### messages getPersonalChannelHistory
 
-:link: [*NOTHING*](method/messages.getPersonalChannelHistory)
+:link: [*Fetch the message history of a user&#039;s personal channel &raquo;*](method/messages.getPersonalChannelHistory)
 
 ---
 
 ##### messages getRichMessage
 
 :link: [*NOTHING*](method/messages.getRichMessage)
+
+---
+
+##### messages translateRichMessage
+
+:link: [*NOTHING*](method/messages.translateRichMessage)
+
+---
+
+##### messages composeRichMessageWithAI
+
+:link: [*NOTHING*](method/messages.composeRichMessageWithAI)
+
+---
+
+##### messages requestChatJoinWebView
+
+:link: [*NOTHING*](method/messages.requestChatJoinWebView)
 
 ---
 
@@ -3205,7 +3241,7 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### channels getSendAs
 
-:link: [*Obtains a list of peers that can be used to send messages in a specific group*](method/channels.getSendAs)
+:link: [*Obtains a list of peers that can be displayed as the sender in a specific context\. With for\_live\_stories, returns peers that may author live story in\-call messages &raquo;*](method/channels.getSendAs)
 
 ---
 
@@ -3529,43 +3565,43 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### bots checkUsername
 
-:link: [*NOTHING*](method/bots.checkUsername)
+:link: [*Check whether a username is available and valid for use when creating a managed bot &raquo;*](method/bots.checkUsername)
 
 ---
 
 ##### bots createBot
 
-:link: [*NOTHING*](method/bots.createBot)
+:link: [*Create a managed bot &raquo; owned by the current user and controlled by the specified manager bot*](method/bots.createBot)
 
 ---
 
 ##### bots exportBotToken
 
-:link: [*NOTHING*](method/bots.exportBotToken)
+:link: [*Export the bot token of a managed bot &raquo;; can only be called by the manager bot*](method/bots.exportBotToken)
 
 ---
 
 ##### bots requestWebViewButton
 
-:link: [*NOTHING*](method/bots.requestWebViewButton)
+:link: [*Bots may use this method to prepare a peer request button for a Mini App, see here &raquo; for more info*](method/bots.requestWebViewButton)
 
 ---
 
 ##### bots getRequestedWebViewButton
 
-:link: [*NOTHING*](method/bots.getRequestedWebViewButton)
+:link: [*Fetch the peer request button a bot prepared for a Mini App with bots\.requestWebViewButton, invoked when the Mini App emits a web\_app\_request\_chat event, see here &raquo; for more info*](method/bots.getRequestedWebViewButton)
 
 ---
 
 ##### bots getAccessSettings
 
-:link: [*NOTHING*](method/bots.getAccessSettings)
+:link: [*Get the access restriction settings &raquo; of a managed bot; can only be called by the manager bot*](method/bots.getAccessSettings)
 
 ---
 
 ##### bots editAccessSettings
 
-:link: [*NOTHING*](method/bots.editAccessSettings)
+:link: [*Edit the access restriction settings &raquo; of a managed bot; can only be called by the manager bot*](method/bots.editAccessSettings)
 
 ---
 
@@ -3673,7 +3709,7 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### payments getStarsStatus
 
-:link: [*Get the current Telegram Stars balance of the current account \(with peer=inputPeerSelf\), or the stars balance of the bot specified in peer*](method/payments.getStarsStatus)
+:link: [*Get the current Telegram Stars balance of the current account \(with peer=inputPeerSelf\), or the stars balance of the bot or channel specified in peer*](method/payments.getStarsStatus)
 
 ---
 
@@ -3757,7 +3793,7 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### payments saveStarGift
 
-:link: [*Display or remove a received gift &raquo; from our profile*](method/payments.saveStarGift)
+:link: [*Display or remove a received or hosted gift &raquo; from our profile*](method/payments.saveStarGift)
 
 ---
 
@@ -3829,7 +3865,7 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### payments getSavedStarGifts
 
-:link: [*Fetch the full list of gifts owned by a peer*](method/payments.getSavedStarGifts)
+:link: [*Fetch the full list of gifts &raquo; owned, received or hosted &raquo; by a peer*](method/payments.getSavedStarGifts)
 
 ---
 
@@ -3919,49 +3955,49 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### payments getStarGiftAuctionState
 
-:link: [*NOTHING*](method/payments.getStarGiftAuctionState)
+:link: [*Returns info about a collectible gift auction &raquo;; also subscribes the user to auction updates, see here &raquo; for more info on the full flow*](method/payments.getStarGiftAuctionState)
 
 ---
 
 ##### payments getStarGiftAuctionAcquiredGifts
 
-:link: [*NOTHING*](method/payments.getStarGiftAuctionAcquiredGifts)
+:link: [*Fetches all the gifts that the current user won in an auction*](method/payments.getStarGiftAuctionAcquiredGifts)
 
 ---
 
 ##### payments getStarGiftActiveAuctions
 
-:link: [*NOTHING*](method/payments.getStarGiftActiveAuctions)
+:link: [*Fetches all currently active gift auctions the user has ever bid on \(including auctions where the user was outbid and their bid was returned\), as long as the auction hasn&#039;t ended yet*](method/payments.getStarGiftActiveAuctions)
 
 ---
 
 ##### payments resolveStarGiftOffer
 
-:link: [*NOTHING*](method/payments.resolveStarGiftOffer)
+:link: [*Accept or decline a previously received collectible gift purchase offer &raquo;, see here &raquo; for the full flow*](method/payments.resolveStarGiftOffer)
 
 ---
 
 ##### payments sendStarGiftOffer
 
-:link: [*NOTHING*](method/payments.sendStarGiftOffer)
+:link: [*Send an offer to purchase a collectible gift &raquo;, see here &raquo; for the full flow*](method/payments.sendStarGiftOffer)
 
 ---
 
 ##### payments getStarGiftUpgradeAttributes
 
-:link: [*NOTHING*](method/payments.getStarGiftUpgradeAttributes)
+:link: [*Obtains the full list of just the collectible attributes that may appear for a gift type once it&#039;s upgraded to a collectible gift &raquo;*](method/payments.getStarGiftUpgradeAttributes)
 
 ---
 
 ##### payments getCraftStarGifts
 
-:link: [*NOTHING*](method/payments.getCraftStarGifts)
+:link: [*Obtain owned collectible gifts &raquo; of a specific type that can be used for crafting &raquo;*](method/payments.getCraftStarGifts)
 
 ---
 
 ##### payments craftStarGift
 
-:link: [*NOTHING*](method/payments.craftStarGift)
+:link: [*Craft a new collectible gift &raquo; by combining 1 to 4 owned collectible gifts of the same base gift type*](method/payments.craftStarGift)
 
 ---
 
@@ -4033,43 +4069,43 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### phone getCallConfig
 
-:link: [*Get phone call configuration to be passed to libtgvoip&#039;s shared config*](method/phone.getCallConfig)
+:link: [*DEPRECATED: Get phone call configuration to be passed to the libtgvoip \(deprecated\) shared config*](method/phone.getCallConfig)
 
 ---
 
 ##### phone requestCall
 
-:link: [*Start a telegram phone call*](method/phone.requestCall)
+:link: [*Start a telegram phone call, see here &raquo; for more info on the full flow*](method/phone.requestCall)
 
 ---
 
 ##### phone acceptCall
 
-:link: [*Accept incoming call*](method/phone.acceptCall)
+:link: [*Accept incoming call, see here &raquo; for more info on the full flow*](method/phone.acceptCall)
 
 ---
 
 ##### phone confirmCall
 
-:link: [*Complete phone call E2E encryption key exchange &raquo;*](method/phone.confirmCall)
+:link: [*Complete phone call E2E encryption key exchange &raquo;, see here &raquo; for more info on the full flow*](method/phone.confirmCall)
 
 ---
 
 ##### phone receivedCall
 
-:link: [*Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended*](method/phone.receivedCall)
+:link: [*Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended, see here &raquo; for more info on the full flow*](method/phone.receivedCall)
 
 ---
 
 ##### phone discardCall
 
-:link: [*Refuse or end running call*](method/phone.discardCall)
+:link: [*Refuse or end running call, see here &raquo; for more info on the full flow*](method/phone.discardCall)
 
 ---
 
 ##### phone setCallRating
 
-:link: [*Rate a call, returns info about the rating message sent to the official VoIP bot*](method/phone.setCallRating)
+:link: [*Rate a call, returns info about the rating message sent to the official VoIP bot, see here &raquo; for more info on the full flow*](method/phone.setCallRating)
 
 ---
 
@@ -4081,49 +4117,49 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### phone sendSignalingData
 
-:link: [*Send VoIP signaling data*](method/phone.sendSignalingData)
+:link: [*Send VoIP signaling data for an ongoing phone call*](method/phone.sendSignalingData)
 
 ---
 
 ##### phone createGroupCall
 
-:link: [*Create a group call or livestream*](method/phone.createGroupCall)
+:link: [*Create a video chat or livestream, see here &raquo; for the full flow*](method/phone.createGroupCall)
 
 ---
 
 ##### phone joinGroupCall
 
-:link: [*Join a group call*](method/phone.joinGroupCall)
+:link: [*Join any group call type &raquo;\. Conference calls additionally require the E2E joining flow &raquo;*](method/phone.joinGroupCall)
 
 ---
 
 ##### phone leaveGroupCall
 
-:link: [*Leave a group call*](method/phone.leaveGroupCall)
+:link: [*Leave a group call without ending it for other participants\. This method can be used with all group call types, see here &raquo; for more info*](method/phone.leaveGroupCall)
 
 ---
 
 ##### phone inviteToGroupCall
 
-:link: [*Invite a set of users to a group call*](method/phone.inviteToGroupCall)
+:link: [*Invite a set of users to a video chat/livestream &raquo;; cannot be used for live stories &raquo; or conference calls &raquo;*](method/phone.inviteToGroupCall)
 
 ---
 
 ##### phone discardGroupCall
 
-:link: [*Terminate a group call*](method/phone.discardGroupCall)
+:link: [*Terminate a group call, ending the room for all participants\. This method can be used with all group call types, see here &raquo; for more info*](method/phone.discardGroupCall)
 
 ---
 
 ##### phone toggleGroupCallSettings
 
-:link: [*Change group call settings*](method/phone.toggleGroupCallSettings)
+:link: [*Change group call settings\. Each setting supports different group call types, see here &raquo; for more info*](method/phone.toggleGroupCallSettings)
 
 ---
 
 ##### phone getGroupCall
 
-:link: [*Get info about a group call*](method/phone.getGroupCall)
+:link: [*Get info about a group call and its participants*](method/phone.getGroupCall)
 
 ---
 
@@ -4135,38 +4171,37 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ##### phone checkGroupCall
 
-:link: [*Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs\.
-Returns an intersection of the source IDs specified in sources, and the source IDs currently being forwarded by the SFU*](method/phone.checkGroupCall)
+:link: [*Check which of the specified source IDs the server still recognizes as joined to a group call\. This method can be used with all group call types, see here &raquo; for more info*](method/phone.checkGroupCall)
 
 ---
 
 ##### phone toggleGroupCallRecord
 
-:link: [*Start or stop recording a group call: the recorded audio and video streams will be automatically sent to Saved messages \(the chat with ourselves\)*](method/phone.toggleGroupCallRecord)
+:link: [*Start or stop recording a video chat/livestream, see here &raquo; for more info\. The recorded audio and video streams will be automatically sent to Saved Messages \(the chat with ourselves\)*](method/phone.toggleGroupCallRecord)
 
 ---
 
 ##### phone editGroupCallParticipant
 
-:link: [*Edit information about a given group call participant*](method/phone.editGroupCallParticipant)
+:link: [*Edit information about a participant of a non\-RTMP video chat/livestream or conference\. The raise\_hand field is only supported in video chats/livestreams, see here &raquo; for more info*](method/phone.editGroupCallParticipant)
 
 ---
 
 ##### phone editGroupCallTitle
 
-:link: [*Edit the title of a group call or livestream*](method/phone.editGroupCallTitle)
+:link: [*Edit the title of a video chat or livestream\. This method cannot be used with live stories or conferences, see here &raquo; for more info*](method/phone.editGroupCallTitle)
 
 ---
 
 ##### phone getGroupCallJoinAs
 
-:link: [*Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel*](method/phone.getGroupCallJoinAs)
+:link: [*Get a list of peers that can be used to join a video chat or livestream &raquo;, presenting yourself as a specific user/channel*](method/phone.getGroupCallJoinAs)
 
 ---
 
 ##### phone exportGroupCallInvite
 
-:link: [*Get an invite link for a group call or livestream*](method/phone.exportGroupCallInvite)
+:link: [*Get an invite link for a public video chat/livestream &raquo;*](method/phone.exportGroupCallInvite)
 
 ---
 
@@ -4184,57 +4219,56 @@ Returns an intersection of the source IDs specified in sources, and the source I
 
 ##### phone saveDefaultGroupCallJoinAs
 
-:link: [*Set the default peer that will be used to join a group call in a specific dialog*](method/phone.saveDefaultGroupCallJoinAs)
+:link: [*Set the default peer used to join a video chat/livestream &raquo; associated with a specific dialog*](method/phone.saveDefaultGroupCallJoinAs)
 
 ---
 
 ##### phone joinGroupCallPresentation
 
-:link: [*Start screen sharing in a call*](method/phone.joinGroupCallPresentation)
+:link: [*Start screen sharing in a non\-RTMP video chat/livestream or conference\. Presentations are not supported in live stories or RTMP\-mode video chats/livestreams, see here &raquo; for more info*](method/phone.joinGroupCallPresentation)
 
 ---
 
 ##### phone leaveGroupCallPresentation
 
-:link: [*Stop screen sharing in a group call*](method/phone.leaveGroupCallPresentation)
+:link: [*Stop screen sharing in a non\-RTMP video chat/livestream or conference\. Presentations are not supported in live stories or RTMP\-mode video chats/livestreams, see here &raquo; for more info*](method/phone.leaveGroupCallPresentation)
 
 ---
 
 ##### phone getGroupCallStreamChannels
 
-:link: [*Get info about RTMP streams in a group call or livestream\.
-This method should be invoked to the same group/channel\-related DC used for downloading livestream chunks\.
-As usual, the media DC is preferred, if available*](method/phone.getGroupCallStreamChannels)
+:link: [*Get the available stream channels and current playback timestamp of an RTMP\-mode video chat, livestream or live story, see here &raquo; for the full flow\.
+The group call must be joined before invoking this method\. Send the request to the media DC specified by groupCall\.stream\_dc\_id*](method/phone.getGroupCallStreamChannels)
 
 ---
 
 ##### phone getGroupCallStreamRtmpUrl
 
-:link: [*Get RTMP URL and stream key for RTMP livestreams\. Can be used even before creating the actual RTMP livestream with phone\.createGroupCall \(the rtmp\_stream flag must be set\)*](method/phone.getGroupCallStreamRtmpUrl)
+:link: [*Get the RTMP URL and stream key used by the single external streamer that publishes all audio and video for an RTMP\-mode video chat, livestream or live story*](method/phone.getGroupCallStreamRtmpUrl)
 
 ---
 
 ##### phone saveCallLog
 
-:link: [*Save phone call debug information*](method/phone.saveCallLog)
+:link: [*Deprecated: send libtgvoip phone call debug information*](method/phone.saveCallLog)
 
 ---
 
 ##### phone createConferenceCall
 
-:link: [*Create and optionally join a new conference call*](method/phone.createConferenceCall)
+:link: [*Create and optionally join a new conference call &raquo;*](method/phone.createConferenceCall)
 
 ---
 
 ##### phone deleteConferenceCallParticipants
 
-:link: [*Remove participants from a conference call*](method/phone.deleteConferenceCallParticipants)
+:link: [*Remove participants from a conference call &raquo;*](method/phone.deleteConferenceCallParticipants)
 
 ---
 
 ##### phone sendConferenceCallBroadcast
 
-:link: [*Broadcast a blockchain block to all members of a conference call, see here &raquo; for more info*](method/phone.sendConferenceCallBroadcast)
+:link: [*Submit a verification message to conference call subchain 1, see subchains &raquo;*](method/phone.sendConferenceCallBroadcast)
 
 ---
 
@@ -4246,49 +4280,49 @@ As usual, the media DC is preferred, if available*](method/phone.getGroupCallStr
 
 ##### phone declineConferenceCallInvite
 
-:link: [*Declines a conference call invite*](method/phone.declineConferenceCallInvite)
+:link: [*Decline a conference call invite*](method/phone.declineConferenceCallInvite)
 
 ---
 
 ##### phone getGroupCallChainBlocks
 
-:link: [*Fetch the blocks of a conference blockchain &raquo;*](method/phone.getGroupCallChainBlocks)
+:link: [*Fetch blocks from a conference call subchain &raquo;; handle the returned updateGroupCallChainBlocks as specified here &raquo;*](method/phone.getGroupCallChainBlocks)
 
 ---
 
 ##### phone sendGroupCallMessage
 
-:link: [*NOTHING*](method/phone.sendGroupCallMessage)
+:link: [*Send an in\-call message to all participants of a video chat/livestream or live story, including in RTMP mode, see here &raquo; for more info*](method/phone.sendGroupCallMessage)
 
 ---
 
 ##### phone sendGroupCallEncryptedMessage
 
-:link: [*NOTHING*](method/phone.sendGroupCallEncryptedMessage)
+:link: [*Send an E2E\-encrypted message or emoji reaction to all participants of a conference call\. This method can only be used with conferences; see here &raquo; for the serialization and encryption process*](method/phone.sendGroupCallEncryptedMessage)
 
 ---
 
 ##### phone deleteGroupCallMessages
 
-:link: [*NOTHING*](method/phone.deleteGroupCallMessages)
+:link: [*Delete specific messages from the in\-call message overlay &raquo; of a video chat/livestream or live story, including in RTMP mode*](method/phone.deleteGroupCallMessages)
 
 ---
 
 ##### phone deleteGroupCallParticipantMessages
 
-:link: [*NOTHING*](method/phone.deleteGroupCallParticipantMessages)
+:link: [*As an admin, delete all messages from a specific participant in the in\-call message overlay &raquo; of a video chat/livestream or live story, including in RTMP mode*](method/phone.deleteGroupCallParticipantMessages)
 
 ---
 
 ##### phone getGroupCallStars
 
-:link: [*NOTHING*](method/phone.getGroupCallStars)
+:link: [*Fetch a live story&#039;s total donations and top donors, see paid live story donations &raquo;*](method/phone.getGroupCallStars)
 
 ---
 
 ##### phone saveDefaultSendAs
 
-:link: [*NOTHING*](method/phone.saveDefaultSendAs)
+:link: [*Save the default peer displayed as the author of live story comments and reactions, see in\-call messages &raquo;*](method/phone.saveDefaultSendAs)
 
 ---
 
@@ -4373,7 +4407,7 @@ Will return a list of messages with peer\_id equal to the public channel to whic
 
 ##### stats getPollStats
 
-:link: [*NOTHING*](method/stats.getPollStats)
+:link: [*Get statistics for a poll sent in a message*](method/stats.getPollStats)
 
 ---
 
@@ -4565,7 +4599,7 @@ Will return a list of messages with peer\_id equal to the public channel to whic
 
 ##### stories getPeerMaxIDs
 
-:link: [*Get the IDs of the maximum read stories for a set of peers*](method/stories.getPeerMaxIDs)
+:link: [*Get compact active story summaries &raquo; for a set of peers*](method/stories.getPeerMaxIDs)
 
 ---
 
@@ -4637,7 +4671,7 @@ Will return a list of messages with peer\_id equal to the public channel to whic
 
 ##### stories startLive
 
-:link: [*NOTHING*](method/stories.startLive)
+:link: [*Start a live story, optionally using RTMP livestream mode, see here &raquo; for the full flow*](method/stories.startLive)
 
 ---
 
@@ -4721,40 +4755,142 @@ Will return a list of messages with peer\_id equal to the public channel to whic
 
 ##### aicompose createTone
 
-:link: [*NOTHING*](method/aicompose.createTone)
+:link: [*Create a new custom AI composer tone &raquo;*](method/aicompose.createTone)
 
 ---
 
 ##### aicompose updateTone
 
-:link: [*NOTHING*](method/aicompose.updateTone)
+:link: [*Edit a custom AI composer tone &raquo; previously created by the current user\. Only the fields whose flag is set will be modified*](method/aicompose.updateTone)
 
 ---
 
 ##### aicompose saveTone
 
-:link: [*NOTHING*](method/aicompose.saveTone)
+:link: [*Install or uninstall an AI composer tone &raquo;, adding it to or removing it from the list of saved tones of the current user*](method/aicompose.saveTone)
 
 ---
 
 ##### aicompose deleteTone
 
-:link: [*NOTHING*](method/aicompose.deleteTone)
+:link: [*Permanently delete a custom AI composer tone &raquo; created by the current user*](method/aicompose.deleteTone)
 
 ---
 
 ##### aicompose getTone
 
-:link: [*NOTHING*](method/aicompose.getTone)
+:link: [*Fetch information about a single AI composer tone &raquo;, for example to resolve a shared tone deep link*](method/aicompose.getTone)
 
 ---
 
 ##### aicompose getTones
 
-:link: [*NOTHING*](method/aicompose.getTones)
+:link: [*Fetch the list of saved AI composer tones &raquo; of the current user*](method/aicompose.getTones)
 
 ---
 
 ##### aicompose getToneExample
 
-:link: [*NOTHING*](method/aicompose.getToneExample)
+:link: [*Fetch an example showing how an AI composer tone &raquo; rephrases a sample message, used as a preview in the tone picker*](method/aicompose.getToneExample)
+
+---
+
+##### communities create
+
+:link: [*NOTHING*](method/communities.create)
+
+---
+
+##### communities togglePeerLink
+
+:link: [*NOTHING*](method/communities.togglePeerLink)
+
+---
+
+##### communities getJoinedCommunities
+
+:link: [*NOTHING*](method/communities.getJoinedCommunities)
+
+---
+
+##### communities toggleCommunityCollapsedInDialogs
+
+:link: [*NOTHING*](method/communities.toggleCommunityCollapsedInDialogs)
+
+---
+
+##### communities getPeerLinkRequests
+
+:link: [*NOTHING*](method/communities.getPeerLinkRequests)
+
+---
+
+##### communities togglePeerLinkRequestApproval
+
+:link: [*NOTHING*](method/communities.togglePeerLinkRequestApproval)
+
+---
+
+##### communities toggleAllPeerLinkRequestApproval
+
+:link: [*NOTHING*](method/communities.toggleAllPeerLinkRequestApproval)
+
+---
+
+##### communities toggleParticipantBanned
+
+:link: [*NOTHING*](method/communities.toggleParticipantBanned)
+
+---
+
+##### communities getParticipantJoinedChats
+
+:link: [*NOTHING*](method/communities.getParticipantJoinedChats)
+
+---
+
+##### ephemeral sendMessage
+
+:link: [*NOTHING*](method/ephemeral.sendMessage)
+
+---
+
+##### ephemeral deleteMessage
+
+:link: [*NOTHING*](method/ephemeral.deleteMessage)
+
+---
+
+##### ephemeral reportMessage
+
+:link: [*NOTHING*](method/ephemeral.reportMessage)
+
+---
+
+##### ephemeral getCallbackAnswer
+
+:link: [*NOTHING*](method/ephemeral.getCallbackAnswer)
+
+---
+
+##### ephemeral editMessage
+
+:link: [*NOTHING*](method/ephemeral.editMessage)
+
+---
+
+##### ephemeral deleteWelcomeMessage
+
+:link: [*NOTHING*](method/ephemeral.deleteWelcomeMessage)
+
+---
+
+##### ephemeral deleteAllWelcomeMessages
+
+:link: [*NOTHING*](method/ephemeral.deleteAllWelcomeMessages)
+
+---
+
+##### ephemeral getWelcomeMessages
+
+:link: [*NOTHING*](method/ephemeral.getWelcomeMessages)

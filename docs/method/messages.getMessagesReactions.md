@@ -2,7 +2,7 @@
 
 **Description** : *Get message reactions &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.getMessagesReactions#8bba90e6 peer:InputPeer id:Vector<int> = Updates;
@@ -31,6 +31,7 @@ messages.getMessagesReactions#8bba90e6 peer:InputPeer id:Vector<int> = Updates;
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
+| **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 
 ---
 
@@ -39,6 +40,6 @@ messages.getMessagesReactions#8bba90e6 peer:InputPeer id:Vector<int> = Updates;
 ```php
 $updates = $client->messages->getMessagesReactions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(31),
+	id : array(8),
 );
 ```

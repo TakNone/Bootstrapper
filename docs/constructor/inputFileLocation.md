@@ -2,7 +2,7 @@
 
 **Description** : *DEPRECATED location of a photo*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputFileLocation#dfdaabe1 volume_id:long local_id:int secret:long file_reference:bytes = InputFileLocation;
@@ -31,9 +31,9 @@ inputFileLocation#dfdaabe1 volume_id:long local_id:int secret:long file_referenc
 
 ```php
 $inputFileLocation = $client->inputFileLocation(
-	volume_id : 259331795714917555,
-	local_id : 6,
-	secret : 2927669208890001809,
+	volume_id : 6506272626537624531,
+	local_id : 58,
+	secret : 6140049415223004488,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

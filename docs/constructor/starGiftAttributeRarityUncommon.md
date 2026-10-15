@@ -1,6 +1,8 @@
 # starGiftAttributeRarityUncommon
 
-**Layer** : 227
+**Description** : *Represents uncommon collectible gift attribute rarity*
+
+**Layer** : 229
 
 ```tl
 starGiftAttributeRarityUncommon#dbce6389 = StarGiftAttributeRarity;

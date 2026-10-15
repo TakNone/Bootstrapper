@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPhotoEmpty#1cd7bf0d = InputPhoto;

@@ -2,7 +2,7 @@
 
 **Description** : *Reset the login email &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 auth.resetLoginEmail#7e960193 phone_number:string phone_code_hash:string = auth.SentCode;
@@ -29,6 +29,7 @@ auth.resetLoginEmail#7e960193 phone_number:string phone_code_hash:string = auth.
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **EMAIL_INSTALL_MISSING** | `400` | Attempting to send a code to the recovery email, but no email is configured |
 | **PHONE_NUMBER_INVALID** | `400` | The phone number is invalid |
 | **TASK_ALREADY_EXISTS** | `400` | An email reset was already requested |
 

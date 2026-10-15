@@ -2,7 +2,7 @@
 
 **Description** : *Channel statistics graph*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 statsGraph#8ea464b6 flags:# json:DataJSON zoom_token:flags.0?string = StatsGraph;
@@ -31,8 +31,8 @@ statsGraph#8ea464b6 flags:# json:DataJSON zoom_token:flags.0?string = StatsGraph
 ```php
 $statsGraph = $client->statsGraph(
 	json : $client->dataJSON(
-		data : 'JBamcoMT2xvps9VF',
+		data : 'MQSCgfq1N9kvjr4m',
 	),
-	zoom_token : 'mSW8IQdJM61jRp75',
+	zoom_token : 'hX2c8wYfxJ4yeqOz',
 );
 ```

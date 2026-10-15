@@ -2,7 +2,7 @@
 
 **Description** : *Most frequently used Main Mini Bot Apps*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 topPeerCategoryBotsApp#fd9e7bec = TopPeerCategory;

@@ -2,7 +2,7 @@
 
 **Description** : *The wallpaper &raquo; of the current chat was changed*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageActionSetChatWallPaper#5060a3f4 flags:# same:flags.0?true for_both:flags.1?true wallpaper:WallPaper = MessageAction;
@@ -34,26 +34,26 @@ $messageAction = $client->messageActionSetChatWallPaper(
 	same : true,
 	for_both : true,
 	wallpaper : $client->wallPaper(
-		id : -2746378739177124693,
+		id : 6327418979157942323,
 		creator : true,
 		default : true,
 		pattern : true,
 		dark : true,
-		access_hash : 4037754792486639146,
-		slug : 'c3EXuSjFLiR5xAWq',
+		access_hash : 2837470687469958304,
+		slug : 'GtlrNLFVKXBbupcz',
 		document : $client->documentEmpty(
-			id : 8573878488360610543,
+			id : 4002176754283325880,
 		),
 		settings : $client->wallPaperSettings(
 			blur : true,
 			motion : true,
-			background_color : 6,
-			second_background_color : 14,
-			third_background_color : 80,
-			fourth_background_color : 51,
-			intensity : 50,
-			rotation : 59,
-			emoticon : 'D7jsKEePH3alckfZ',
+			background_color : 85,
+			second_background_color : 55,
+			third_background_color : 69,
+			fourth_background_color : 74,
+			intensity : 7,
+			rotation : 31,
+			emoticon : 'K1gPF8WtMIkSEXdr',
 		),
 	),
 );

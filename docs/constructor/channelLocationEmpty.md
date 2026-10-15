@@ -2,7 +2,7 @@
 
 **Description** : *No location \(normal supergroup\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelLocationEmpty#bfb5ad8b = ChannelLocation;

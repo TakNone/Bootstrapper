@@ -1,6 +1,8 @@
 # recentStory
 
-**Layer** : 227
+**Description** : *Summary of a peer&#039;s active stories &raquo;, embedded in user\.stories\_max\_id and channel\.stories\_max\_id and returned by stories\.getPeerMaxIDs*
+
+**Layer** : 229
 
 ```tl
 recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;
@@ -12,9 +14,9 @@ recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **live** | [`flags.0?true`](type/true) | NOTHING |
-| **max_id** | [`flags.1?int`](type/int) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **live** | [`flags.0?true`](type/true) | Whether the peer is currently broadcasting a live story » |
+| **max_id** | [`flags.1?int`](type/int) | If live is set, ID of the peer's active live story »; otherwise, ID of the peer's maximum active story |
 
 ---
 
@@ -29,6 +31,6 @@ recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;
 ```php
 $recentStory = $client->recentStory(
 	live : true,
-	max_id : 33,
+	max_id : 94,
 );
 ```

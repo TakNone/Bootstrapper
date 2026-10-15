@@ -2,7 +2,7 @@
 
 **Description** : *Location of encrypted telegram passport file*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputSecureFileLocation#cbc7ee28 id:long access_hash:long = InputFileLocation;
@@ -29,7 +29,7 @@ inputSecureFileLocation#cbc7ee28 id:long access_hash:long = InputFileLocation;
 
 ```php
 $inputFileLocation = $client->inputSecureFileLocation(
-	id : -7558580543235738529,
-	access_hash : 826767765791749294,
+	id : 6554950439088712427,
+	access_hash : 8322647357597091784,
 );
 ```

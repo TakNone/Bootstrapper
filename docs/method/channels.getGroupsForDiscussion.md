@@ -2,7 +2,7 @@
 
 **Description** : *Get all groups that can be used as discussion groups*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.getGroupsForDiscussion#f5dad378 = messages.Chats;

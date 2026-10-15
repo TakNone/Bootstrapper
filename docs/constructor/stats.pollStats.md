@@ -1,6 +1,8 @@
 # stats.pollStats
 
-**Layer** : 227
+**Description** : *Statistics for a poll sent in a message*
+
+**Layer** : 229
 
 ```tl
 stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;
@@ -12,7 +14,7 @@ stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>votes_graph</mark> | [`StatsGraph`](type/StatsGraph) | NOTHING |
+| <mark>votes_graph</mark> | [`StatsGraph`](type/StatsGraph) | A graph containing the number of votes cast in the poll over time |
 
 ---
 
@@ -27,7 +29,7 @@ stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;
 ```php
 $statsPollStats = $client->stats->pollStats(
 	votes_graph : $client->statsGraphAsync(
-		token : '1sGqc5btHXWThMgV',
+		token : 'ZpVxaPDorBG4t9O7',
 	),
 );
 ```

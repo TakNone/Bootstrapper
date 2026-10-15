@@ -2,7 +2,7 @@
 
 **Description** : *Saves a part of a large file \(over 10 MB in size\) to be later passed to one of the methods*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 upload.saveBigFilePart#de7b673d file_id:long file_part:int file_total_parts:int bytes:bytes = Bool;
@@ -45,9 +45,9 @@ upload.saveBigFilePart#de7b673d file_id:long file_part:int file_total_parts:int 
 
 ```php
 $bool = $client->upload->saveBigFilePart(
-	file_id : -1374682078458928568,
-	file_part : 11,
-	file_total_parts : 63,
+	file_id : 6674998638668785702,
+	file_part : 39,
+	file_total_parts : 95,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

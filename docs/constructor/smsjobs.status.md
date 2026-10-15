@@ -2,7 +2,7 @@
 
 **Description** : *Status*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 smsjobs.status#2aee9191 flags:# allow_international:flags.0?true recent_sent:int recent_since:int recent_remains:int total_sent:int total_since:int last_gift_slug:flags.1?string terms_url:string = smsjobs.Status;
@@ -37,12 +37,12 @@ smsjobs.status#2aee9191 flags:# allow_international:flags.0?true recent_sent:int
 ```php
 $smsjobsStatus = $client->smsjobs->status(
 	allow_international : true,
-	recent_sent : 8,
+	recent_sent : 59,
 	recent_since : 4,
-	recent_remains : 92,
-	total_sent : 34,
-	total_since : 47,
-	last_gift_slug : 'IKZcNtbSVDa2AfeG',
+	recent_remains : 58,
+	total_sent : 96,
+	total_since : 92,
+	last_gift_slug : 'Xm0eocQk9j7ItRED',
 	terms_url : 'https://docs.liveproto.dev',
 );
 ```

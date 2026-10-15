@@ -1,8 +1,8 @@
 # phone.setCallRating
 
-**Description** : *Rate a call, returns info about the rating message sent to the official VoIP bot*
+**Description** : *Rate a call, returns info about the rating message sent to the official VoIP bot, see here &raquo; for more info on the full flow*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.setCallRating#59ead627 flags:# user_initiative:flags.0?true peer:InputPhoneCall rating:int comment:string = Updates;
@@ -15,10 +15,10 @@ phone.setCallRating#59ead627 flags:# user_initiative:flags.0?true peer:InputPhon
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| **user_initiative** | [`flags.0?true`](type/true) | Whether the user decided on their own initiative to rate the call |
+| **user_initiative** | [`flags.0?true`](type/true) | Whether the user decided on their own initiative to rate the call, must NOT be set if rating was requested by the server with phoneCallDiscarded.need_rating |
 | <mark>peer</mark> | [`InputPhoneCall`](type/InputPhoneCall) | The call to rate |
 | <mark>rating</mark> | [`int`](type/int) | Rating in 1-5 stars |
-| <mark>comment</mark> | [`string`](type/string) | An additional comment |
+| <mark>comment</mark> | [`string`](type/string) | An additional comment with problem hashtags, see here » for more info on the full flow |
 
 ---
 
@@ -42,10 +42,10 @@ phone.setCallRating#59ead627 flags:# user_initiative:flags.0?true peer:InputPhon
 $updates = $client->phone->setCallRating(
 	user_initiative : true,
 	peer : $client->inputPhoneCall(
-		id : -95189738395228554,
-		access_hash : 8961760663436448225,
+		id : 1884755999130609559,
+		access_hash : -8967201328567787762,
 	),
-	rating : 28,
-	comment : 'YB13sIO6oy7Xwelp',
+	rating : 41,
+	comment : 'nCkpc1Z0hTMEJz8t',
 );
 ```

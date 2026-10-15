@@ -2,7 +2,7 @@
 
 **Description** : *Email verification code*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 emailVerificationCode#922e55a9 code:string = EmailVerification;
@@ -28,6 +28,6 @@ emailVerificationCode#922e55a9 code:string = EmailVerification;
 
 ```php
 $emailVerification = $client->emailVerificationCode(
-	code : '2i7eNbxETwklMgHI',
+	code : 'hGweWMSCD9fAIQ6H',
 );
 ```

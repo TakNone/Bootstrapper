@@ -2,7 +2,7 @@
 
 **Description** : *Upload a file and associate it to a chat \(without actually sending it to the chat\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.uploadMedia#14967978 flags:# business_connection_id:flags.0?string peer:InputPeer media:InputMedia = MessageMedia;
@@ -57,7 +57,7 @@ messages.uploadMedia#14967978 flags:# business_connection_id:flags.0?string peer
 
 ```php
 $messageMedia = $client->messages->uploadMedia(
-	business_connection_id : 'lozROPJWgX2BvaVb',
+	business_connection_id : 'x8tR41CMQdoGFZcB',
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
 );

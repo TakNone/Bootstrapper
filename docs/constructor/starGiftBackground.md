@@ -1,6 +1,8 @@
 # starGiftBackground
 
-**Layer** : 227
+**Description** : *Contains the default background palette of a gift type &raquo;*
+
+**Layer** : 229
 
 ```tl
 starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = StarGiftBackground;
@@ -12,9 +14,9 @@ starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = Sta
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>center_color</mark> | [`int`](type/int) | NOTHING |
-| <mark>edge_color</mark> | [`int`](type/int) | NOTHING |
-| <mark>text_color</mark> | [`int`](type/int) | NOTHING |
+| <mark>center_color</mark> | [`int`](type/int) | Center color of the background palette, in RGB24 format |
+| <mark>edge_color</mark> | [`int`](type/int) | Edge color of the background palette, in RGB24 format |
+| <mark>text_color</mark> | [`int`](type/int) | Text color to use on top of the background palette, in RGB24 format |
 
 ---
 
@@ -28,8 +30,8 @@ starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = Sta
 
 ```php
 $starGiftBackground = $client->starGiftBackground(
-	center_color : 79,
-	edge_color : 75,
-	text_color : 28,
+	center_color : 82,
+	edge_color : 4,
+	text_color : 15,
 );
 ```

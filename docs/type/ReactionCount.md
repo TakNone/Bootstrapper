@@ -2,7 +2,7 @@
 
 **Description** : *Number of users that reacted with a certain emoji*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 reactionCount#a3d1cb80 flags:# chosen_order:flags.0?int reaction:Reaction count:int = ReactionCount;

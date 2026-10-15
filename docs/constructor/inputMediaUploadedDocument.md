@@ -2,7 +2,7 @@
 
 **Description** : *New document*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputMediaUploadedDocument#37c9330 flags:# nosound_video:flags.3?true force_file:flags.4?true spoiler:flags.5?true file:InputFile thumb:flags.2?InputFile mime_type:string attributes:Vector<DocumentAttribute> stickers:flags.0?Vector<InputDocument> video_cover:flags.6?InputPhoto video_timestamp:flags.7?int ttl_seconds:flags.1?int = InputMedia;
@@ -25,7 +25,7 @@ inputMediaUploadedDocument#37c9330 flags:# nosound_video:flags.3?true force_file
 | **stickers** | [`flags.0?Vector<InputDocument>`](type/InputDocument) | Attached stickers |
 | **video_cover** | [`flags.6?InputPhoto`](type/InputPhoto) | Start playing the video at the specified timestamp (seconds) |
 | **video_timestamp** | [`flags.7?int`](type/int) | Start playing the video at the specified timestamp (seconds) |
-| **ttl_seconds** | [`flags.1?int`](type/int) | Time to live in seconds of self-destructing document |
+| **ttl_seconds** | [`flags.1?int`](type/int) | Time to live of self-destructing document, can be 0 to disable self-destruction, 0x7FFFFFFF to self-destruct the document immediately after it's played; otherwise self-destructs ttl_seconds after it's played |
 
 ---
 
@@ -44,63 +44,63 @@ $inputMedia = $client->inputMediaUploadedDocument(
 	spoiler : true,
 	file : $client->upload_file(path : 'file.png'),
 	thumb : $client->upload_file(path : 'file.png'),
-	mime_type : 'c1A0huIjSDrV3Jox',
+	mime_type : 'ZgOjGwRsF6CAo41v',
 	attributes : array(
 		$client->documentAttributeImageSize(
-			w : 57,
-			h : 39,
+			w : 28,
+			h : 72,
 		),
 		$client->documentAttributeAnimated(),
 		$client->documentAttributeSticker(
 			mask : true,
-			alt : 'lnWECMXYkGd8Lyem',
+			alt : 'd0H3loAKTaL2whiM',
 			stickerset : $client->inputStickerSetEmpty(),
 			mask_coords : $client->maskCoords(
-				n : 16,
-				x : -1306087.2275390625,
-				y : -244056.0947265625,
-				zoom : 1050410.4794921875,
+				n : 82,
+				x : 1860758.349609375,
+				y : -1385818.904296875,
+				zoom : -553779.7734375,
 			),
 		),
 		$client->documentAttributeVideo(
 			round_message : true,
 			supports_streaming : true,
 			nosound : true,
-			duration : -1276157.03515625,
-			w : 84,
-			h : 45,
-			preload_prefix_size : 62,
-			video_start_ts : 2092936.5791015625,
-			video_codec : 'gektMPO8zBK5b7dq',
+			duration : -1012809.4111328125,
+			w : 53,
+			h : 14,
+			preload_prefix_size : 72,
+			video_start_ts : 1620722.0703125,
+			video_codec : 'uSgsPKTGzaAtJFpI',
 		),
 		$client->documentAttributeAudio(
 			voice : true,
-			duration : 69,
-			title : 'E1WZ3LSpokGbV48X',
-			performer : 'NJiXce6qF3wB52l4',
+			duration : 74,
+			title : 'qE0zof8JrS7eFnPa',
+			performer : 'I2iypCqhXLkHwlrv',
 			waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->documentAttributeFilename(
-			file_name : 'uMKZwjR8eOULSFXP',
+			file_name : '90YAmKqL4RNyOMgV',
 		),
 		$client->documentAttributeHasStickers(),
 		$client->documentAttributeCustomEmoji(
 			free : true,
 			text_color : true,
-			alt : 'Zs2NDzFK6GgeTS37',
+			alt : 'vZfKalo3tgIdquOT',
 			stickerset : $client->inputStickerSetEmpty(),
 		),
 	),
 	stickers : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : 5329536388917523358,
-			access_hash : -2834735379803495592,
+			id : -6532201606355869301,
+			access_hash : 7864189045580195753,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 68,
-	ttl_seconds : 65,
+	video_timestamp : 55,
+	ttl_seconds : 6,
 );
 ```

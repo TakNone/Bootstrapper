@@ -1,10 +1,9 @@
 # phone.getGroupCallStreamChannels
 
-**Description** : *Get info about RTMP streams in a group call or livestream\.
-This method should be invoked to the same group/channel\-related DC used for downloading livestream chunks\.
-As usual, the media DC is preferred, if available*
+**Description** : *Get the available stream channels and current playback timestamp of an RTMP\-mode video chat, livestream or live story, see here &raquo; for the full flow\.
+The group call must be joined before invoking this method\. Send the request to the media DC specified by groupCall\.stream\_dc\_id*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.getGroupCallStreamChannels#1ab21940 call:InputGroupCall = phone.GroupCallStreamChannels;
@@ -16,7 +15,7 @@ phone.getGroupCallStreamChannels#1ab21940 call:InputGroupCall = phone.GroupCallS
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call or livestream |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | RTMP-mode video chat, livestream or live story |
 
 ---
 
@@ -40,8 +39,8 @@ phone.getGroupCallStreamChannels#1ab21940 call:InputGroupCall = phone.GroupCallS
 ```php
 $phoneGroupCallStreamChannels = $client->phone->getGroupCallStreamChannels(
 	call : $client->inputGroupCall(
-		id : 6038162774592474011,
-		access_hash : -471079033450407433,
+		id : 742756496405977850,
+		access_hash : 2551425221497036439,
 	),
 );
 ```

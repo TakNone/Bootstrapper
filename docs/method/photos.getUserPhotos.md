@@ -2,7 +2,7 @@
 
 **Description** : *Returns the list of user photos*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 photos.getUserPhotos#91cd32a8 user_id:InputUser offset:int max_id:long limit:int = photos.Photos;
@@ -31,6 +31,7 @@ photos.getUserPhotos#91cd32a8 user_id:InputUser offset:int max_id:long limit:int
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **MAX_ID_INVALID** | `400` | The provided max ID is invalid |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
@@ -43,7 +44,7 @@ photos.getUserPhotos#91cd32a8 user_id:InputUser offset:int max_id:long limit:int
 $photosPhotos = $client->photos->getUserPhotos(
 	user_id : $client->get_input_user(user : '@TakNone'),
 	offset : 0,
-	max_id : -9030103992246088470,
-	limit : 15,
+	max_id : 8901962292709908424,
+	limit : 99,
 );
 ```

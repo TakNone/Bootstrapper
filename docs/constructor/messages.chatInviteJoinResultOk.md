@@ -1,6 +1,6 @@
 # messages.chatInviteJoinResultOk
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.chatInviteJoinResultOk#445663a7 updates:Updates = messages.ChatInviteJoinResult;

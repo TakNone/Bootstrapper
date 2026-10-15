@@ -2,7 +2,7 @@
 
 **Description** : *A suggested post &raquo; was successfully posted, and payment for it was successfully received*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageActionSuggestedPostSuccess#95ddcf69 price:StarsAmount = MessageAction;
@@ -29,8 +29,8 @@ messageActionSuggestedPostSuccess#95ddcf69 price:StarsAmount = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestedPostSuccess(
 	price : $client->starsAmount(
-		amount : -8547936704343888014,
-		nanos : 26,
+		amount : -4633147685991430495,
+		nanos : 50,
 	),
 );
 ```

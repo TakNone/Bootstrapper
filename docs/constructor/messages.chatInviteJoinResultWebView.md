@@ -1,9 +1,9 @@
 # messages.chatInviteJoinResultWebView
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
-messages.chatInviteJoinResultWebView#2f51c337 bot_id:long webview:WebViewResult users:Vector<User> = messages.ChatInviteJoinResult;
+messages.chatInviteJoinResultWebView#61ca29d3 bot_id:long query_id:long users:Vector<User> = messages.ChatInviteJoinResult;
 ```
 
 ---
@@ -13,7 +13,7 @@ messages.chatInviteJoinResultWebView#2f51c337 bot_id:long webview:WebViewResult 
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>bot_id</mark> | [`long`](type/long) | NOTHING |
-| <mark>webview</mark> | [`WebViewResult`](type/WebViewResult) | NOTHING |
+| <mark>query_id</mark> | [`long`](type/long) | NOTHING |
 | <mark>users</mark> | [`Vector<User>`](type/User) | NOTHING |
 
 ---
@@ -28,17 +28,11 @@ messages.chatInviteJoinResultWebView#2f51c337 bot_id:long webview:WebViewResult 
 
 ```php
 $messagesChatInviteJoinResult = $client->messages->chatInviteJoinResultWebView(
-	bot_id : 6301832259370506731,
-	webview : $client->webViewResultUrl(
-		fullsize : true,
-		fullscreen : true,
-		same_origin : true,
-		query_id : -5699910755307257729,
-		url : 'https://docs.liveproto.dev',
-	),
+	bot_id : -8764182396851043163,
+	query_id : -1467759633881335105,
 	users : array(
 		$client->userEmpty(
-			id : 6236052002394483228,
+			id : -6932970734051422423,
 		),
 		$client->user(
 			self : true,
@@ -71,24 +65,24 @@ $messagesChatInviteJoinResult = $client->messages->chatInviteJoinResultWebView(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 8756079714905851037,
-			access_hash : -7355328455776439617,
+			id : 4373724765643011348,
+			access_hash : 770386470421994328,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 75,
+			bot_info_version : 47,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'hmTZI4u1Hi6UkdP7',
-					reason : 'GF081oYCNDuyU5Sm',
-					text : 'u2cNy9iAYgQ4jsor',
+					platform : 'tbTcVjeLnlUQJkNS',
+					reason : 'zDy0FPiTqdr2cV8a',
+					text : 'eiAGzHbTa5Q8DXNc',
 				),
 			),
-			bot_inline_placeholder : 'EPWjti21wZakODUK',
-			lang_code : '79NJEjOWYXUy2ish',
+			bot_inline_placeholder : 'XUC1pfmtWIDHwkdN',
+			lang_code : 'v8LVHi6FTIwJfPK4',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -99,19 +93,20 @@ $messagesChatInviteJoinResult = $client->messages->chatInviteJoinResultWebView(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 71,
+				max_id : 30,
 			),
 			color : $client->peerColor(
-				color : 45,
-				background_emoji_id : -6069338672807144428,
+				color : 95,
+				background_emoji_id : 6179101146155110195,
 			),
 			profile_color : $client->peerColor(
-				color : 41,
-				background_emoji_id : -5801378731532935014,
+				color : 7,
+				background_emoji_id : -4898165872604841184,
 			),
-			bot_active_users : 96,
-			bot_verification_icon : 8746740145626887542,
-			send_paid_messages_stars : 1022623366666760310,
+			bot_active_users : 47,
+			bot_verification_icon : 997817052453021611,
+			send_paid_messages_stars : 1049026085408967043,
+			linked_community_id : -6574552034793657423,
 		),
 	),
 );

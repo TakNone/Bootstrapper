@@ -1,8 +1,8 @@
 # messageActionGiftTon
 
-**Description** : *You were gifted some toncoins*
+**Description** : *You were gifted some Grams*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currency:string crypto_amount:long transaction_id:flags.0?string = MessageAction;
@@ -18,7 +18,7 @@ messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currenc
 | <mark>currency</mark> | [`string`](type/string) | Name of a localized FIAT currency |
 | <mark>amount</mark> | [`long`](type/long) | FIAT currency equivalent (in the currency specified in currency) of the amount specified in crypto_amount |
 | <mark>crypto_currency</mark> | [`string`](type/string) | Name of the cryptocurrency |
-| <mark>crypto_amount</mark> | [`long`](type/long) | Amount in the smallest unit of the cryptocurrency (for TONs, one billionth of a ton, AKA a nanoton) |
+| <mark>crypto_amount</mark> | [`long`](type/long) | Amount in the smallest unit of the cryptocurrency (for TONs, one billionth of a ton, AKA a nanogram) |
 | **transaction_id** | [`flags.0?string`](type/string) | Transaction ID |
 
 ---
@@ -33,10 +33,10 @@ messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currenc
 
 ```php
 $messageAction = $client->messageActionGiftTon(
-	currency : 'mQRcnjM5bXVHhqap',
-	amount : 4297723043012781787,
-	crypto_currency : 'vfhjC9XdziaOYNBF',
-	crypto_amount : -7983321365892774637,
-	transaction_id : 'JM1hx3RNGLBeswX2',
+	currency : '9MN3PSAxK1vemd5n',
+	amount : -982688322514912723,
+	crypto_currency : '4csexTEKUfdjYB6C',
+	crypto_amount : -483256751980050858,
+	transaction_id : 'xlUZ0F8ODEmVosbw',
 );
 ```

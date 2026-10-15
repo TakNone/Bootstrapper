@@ -2,7 +2,7 @@
 
 **Description** : *A channel/supergroup boost has changed \(bots only\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateBotChatBoost#904dd49c peer:Peer boost:Boost qts:int = Update;
@@ -31,21 +31,21 @@ updateBotChatBoost#904dd49c peer:Peer boost:Boost qts:int = Update;
 ```php
 $update = $client->updateBotChatBoost(
 	peer : $client->peerUser(
-		user_id : -7341956342907845728,
+		user_id : -598138983548245311,
 	),
 	boost : $client->boost(
 		gift : true,
 		giveaway : true,
 		unclaimed : true,
-		id : 'aFjXpNAQbeS0xmkH',
-		user_id : 6773744956986287461,
-		giveaway_msg_id : 41,
-		date : 9,
-		expires : 97,
-		used_gift_slug : 'NxoKjv3LBCOls1rP',
-		multiplier : 34,
-		stars : -8787462849897209611,
+		id : '6AJ8erogS0RkF5L7',
+		user_id : 5314962813365781239,
+		giveaway_msg_id : 20,
+		date : 89,
+		expires : 31,
+		used_gift_slug : 'jLkbH3h8eafwJIVQ',
+		multiplier : 29,
+		stars : -8278298328945993393,
 	),
-	qts : 2,
+	qts : 26,
 );
 ```

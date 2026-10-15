@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of sponsored messages for a peer, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int = messages.SponsoredMessages;
@@ -32,6 +32,8 @@ messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
+| **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
+| **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 
 ---
 
@@ -40,6 +42,6 @@ messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int
 ```php
 $messagesSponsoredMessages = $client->messages->getSponsoredMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 32,
+	msg_id : 89,
 );
 ```

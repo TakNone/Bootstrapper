@@ -2,7 +2,7 @@
 
 **Description** : *Available chat reactions*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 chatReactionsNone#eafc32bc = ChatReactions;

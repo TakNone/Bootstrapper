@@ -2,7 +2,7 @@
 
 **Description** : *Dice\-based animated sticker*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageMediaDice#8cbec07 flags:# value:int emoticon:string game_outcome:flags.0?messages.EmojiGameOutcome = MessageMedia;
@@ -14,10 +14,10 @@ messageMediaDice#8cbec07 flags:# value:int emoticon:string game_outcome:flags.0?
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>value</mark> | [`int`](type/int) | Dice value |
 | <mark>emoticon</mark> | [`string`](type/string) | The emoji, for now ,  and  are supported |
-| **game_outcome** | [`flags.0?messages.EmojiGameOutcome`](type/messages.EmojiGameOutcome) | NOTHING |
+| **game_outcome** | [`flags.0?messages.EmojiGameOutcome`](type/messages.EmojiGameOutcome) | Dice game outcome |
 
 ---
 
@@ -31,12 +31,12 @@ messageMediaDice#8cbec07 flags:# value:int emoticon:string game_outcome:flags.0?
 
 ```php
 $messageMedia = $client->messageMediaDice(
-	value : 42,
-	emoticon : 'P4QZkYaHl10xUeJc',
+	value : 50,
+	emoticon : 'NpZYJx2mHK19rGsQ',
 	game_outcome : $client->messages->emojiGameOutcome(
 		seed : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		stake_ton_amount : 6169683898126859420,
-		ton_amount : 2358492365274796596,
+		stake_ton_amount : -9192324763628775400,
+		ton_amount : 239548294659841373,
 	),
 );
 ```

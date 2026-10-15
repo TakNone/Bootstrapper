@@ -1,6 +1,8 @@
 # auctionBidLevel
 
-**Layer** : 227
+**Description** : *Describes a bid in an auction*
+
+**Layer** : 229
 
 ```tl
 auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
@@ -12,9 +14,9 @@ auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>pos</mark> | [`int`](type/int) | NOTHING |
-| <mark>amount</mark> | [`long`](type/long) | NOTHING |
-| <mark>date</mark> | [`int`](type/int) | NOTHING |
+| <mark>pos</mark> | [`int`](type/int) | Position of the bid |
+| <mark>amount</mark> | [`long`](type/long) | Amount of the bid in Telegram Stars |
+| <mark>date</mark> | [`int`](type/int) | Date when the bid was placed |
 
 ---
 
@@ -28,8 +30,8 @@ auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
 
 ```php
 $auctionBidLevel = $client->auctionBidLevel(
-	pos : 44,
-	amount : 627333644046784459,
-	date : 69,
+	pos : 39,
+	amount : -3216522888929683998,
+	date : 6,
 );
 ```

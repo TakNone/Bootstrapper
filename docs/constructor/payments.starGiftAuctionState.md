@@ -1,6 +1,8 @@
 # payments.starGiftAuctionState
 
-**Layer** : 227
+**Description** : *Describes a collectible gift auction &raquo;*
+
+**Layer** : 229
 
 ```tl
 payments.starGiftAuctionState#6b39f4ec gift:StarGift state:StarGiftAuctionState user_state:StarGiftAuctionUserState timeout:int users:Vector<User> chats:Vector<Chat> = payments.StarGiftAuctionState;
@@ -12,12 +14,12 @@ payments.starGiftAuctionState#6b39f4ec gift:StarGift state:StarGiftAuctionState 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>gift</mark> | [`StarGift`](type/StarGift) | NOTHING |
-| <mark>state</mark> | [`StarGiftAuctionState`](type/StarGiftAuctionState) | NOTHING |
-| <mark>user_state</mark> | [`StarGiftAuctionUserState`](type/StarGiftAuctionUserState) | NOTHING |
-| <mark>timeout</mark> | [`int`](type/int) | NOTHING |
-| <mark>users</mark> | [`Vector<User>`](type/User) | NOTHING |
-| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | NOTHING |
+| <mark>gift</mark> | [`StarGift`](type/StarGift) | The gift currently being distributed in the auction |
+| <mark>state</mark> | [`StarGiftAuctionState`](type/StarGiftAuctionState) | Auction state |
+| <mark>user_state</mark> | [`StarGiftAuctionUserState`](type/StarGiftAuctionUserState) | Auction state related to the current user (i.e. info about placed bids, won gifts, and so on) |
+| <mark>timeout</mark> | [`int`](type/int) | Re-invoke the payments.getStarGiftAuctionState method after timeout seconds to keep receiving auction updates, see here » for more info on the full flow |
+| <mark>users</mark> | [`Vector<User>`](type/User) | Mentioned users |
+| <mark>chats</mark> | [`Vector<Chat>`](type/Chat) | Mentioned chats |
 
 ---
 
@@ -39,51 +41,51 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : -6038317017667398538,
+		id : 4886111258538412524,
 		sticker : $client->documentEmpty(
-			id : -2631555518569737401,
+			id : -6264352107485840249,
 		),
-		stars : 1396933009496313648,
-		availability_remains : 16,
-		availability_total : 51,
-		availability_resale : -3858455987124241018,
-		convert_stars : 2869948900669097310,
-		first_sale_date : 30,
-		last_sale_date : 21,
-		upgrade_stars : -3301822403911500974,
-		resell_min_stars : -3287542696960368105,
-		title : 'EavOmHjhzLAG13c6',
+		stars : -8001238223829372305,
+		availability_remains : 30,
+		availability_total : 9,
+		availability_resale : 8349323906107559105,
+		convert_stars : -859318150033210297,
+		first_sale_date : 34,
+		last_sale_date : 60,
+		upgrade_stars : -7094850379744264061,
+		resell_min_stars : 737366618418749801,
+		title : 'pjeaIECJrFvW3UXm',
 		released_by : $client->peerUser(
-			user_id : 9099243662981318867,
+			user_id : 4117725145788561244,
 		),
-		per_user_total : 56,
-		per_user_remains : 17,
-		locked_until_date : 53,
-		auction_slug : '6MErB4fJXlvVuyoz',
-		gifts_per_round : 63,
-		auction_start_date : 73,
-		upgrade_variants : 83,
+		per_user_total : 59,
+		per_user_remains : 65,
+		locked_until_date : 91,
+		auction_slug : 'NOM9jkAl7QT580fs',
+		gifts_per_round : 93,
+		auction_start_date : 33,
+		upgrade_variants : 3,
 		background : $client->starGiftBackground(
-			center_color : 100,
-			edge_color : 80,
-			text_color : 37,
+			center_color : 18,
+			edge_color : 87,
+			text_color : 87,
 		),
 	),
 	state : $client->starGiftAuctionStateNotModified(),
 	user_state : $client->starGiftAuctionUserState(
 		returned : true,
-		bid_amount : -4243163104769769667,
-		bid_date : 92,
-		min_bid_amount : -4643897937907301669,
+		bid_amount : -7686021390928072974,
+		bid_date : 2,
+		min_bid_amount : 700673765009336258,
 		bid_peer : $client->peerUser(
-			user_id : 6521009222966813226,
+			user_id : 624164216800663209,
 		),
-		acquired_count : 99,
+		acquired_count : 39,
 	),
-	timeout : 17,
+	timeout : 35,
 	users : array(
 		$client->userEmpty(
-			id : 4510922161123693030,
+			id : -5462348332013505814,
 		),
 		$client->user(
 			self : true,
@@ -116,24 +118,24 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 1500756233925904575,
-			access_hash : -7667878828616757101,
+			id : 3201221413985364311,
+			access_hash : 2571071339246799247,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 60,
+			bot_info_version : 32,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'ldTOi6HKtuvULRZ4',
-					reason : 'gbQ9HvqWtYsNMOxR',
-					text : 'DydKMt419ajVoHPh',
+					platform : 'YSknfvANJ2BIF6mW',
+					reason : '5WzrLo2ipUYgucK3',
+					text : '5AzK8P6dWYmn2CIX',
 				),
 			),
-			bot_inline_placeholder : 'EsI6Ka5zBvbgOC47',
-			lang_code : 'hiU8YWuAVFwEv1Hz',
+			bot_inline_placeholder : 'x8t1Zouz2lUS5wFy',
+			lang_code : 'QbVsh6KWlA0jTD1N',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -144,24 +146,25 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 34,
+				max_id : 8,
 			),
 			color : $client->peerColor(
-				color : 27,
-				background_emoji_id : 2056549599105242673,
+				color : 30,
+				background_emoji_id : -4510699071681219722,
 			),
 			profile_color : $client->peerColor(
-				color : 77,
-				background_emoji_id : -4007852427387194446,
+				color : 2,
+				background_emoji_id : 7109305960180553465,
 			),
-			bot_active_users : 33,
-			bot_verification_icon : 5242419279791371994,
-			send_paid_messages_stars : 7605914490413465419,
+			bot_active_users : 47,
+			bot_verification_icon : -7145215714608723425,
+			send_paid_messages_stars : 5989575892760860306,
+			linked_community_id : 6647021524401493153,
 		),
 	),
 	chats : array(
 		$client->chatEmpty(
-			id : -2695319331695025253,
+			id : -3081872166687069652,
 		),
 		$client->chat(
 			creator : true,
@@ -170,12 +173,12 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -5407147563943787539,
-			title : 'iDfbZcOAyKMW3T9I',
+			id : -653847562790181541,
+			title : 'AV8d6sFPHOQYqzDy',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 100,
-			date : 7,
-			version : 68,
+			participants_count : 92,
+			date : 24,
+			version : 93,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -195,6 +198,8 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 				delete_stories : true,
 				manage_direct_messages : true,
 				manage_ranks : true,
+				manage_linked_peers : true,
+				manage_welcome_messages : true,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -219,12 +224,13 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 				send_plain : true,
 				edit_rank : true,
 				send_reactions : true,
-				until_date : 15,
+				manage_linked_peers : true,
+				until_date : 62,
 			),
 		),
 		$client->chatForbidden(
-			id : 8751987901221683530,
-			title : '3wxp9YfhmIjgdT7O',
+			id : -3321216860770333657,
+			title : 'nbt9Hk4mRzJBAfa7',
 		),
 		$client->channel(
 			creator : true,
@@ -255,17 +261,17 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 2485804498982696516,
-			access_hash : -4315866495438504228,
-			title : 'WP7ks1KZTMvwQBai',
+			id : -4592082948553266842,
+			access_hash : 1067773935339203208,
+			title : 'ZWCaBMohL8jyGNmt',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 85,
+			date : 96,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'cFPYuGvqXR4gNWJO',
-					reason : 'S2zFMkiPEG7rdCQ9',
-					text : 'HbDjWAa6x39OP8st',
+					platform : '4zd9irJWUec7DmvN',
+					reason : 'opIZqCDnr4Fflgsb',
+					text : 'ShRysYfvVHinZ1D2',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -286,6 +292,8 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 				delete_stories : true,
 				manage_direct_messages : true,
 				manage_ranks : true,
+				manage_linked_peers : true,
+				manage_welcome_messages : true,
 			),
 			banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -310,7 +318,8 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 				send_plain : true,
 				edit_rank : true,
 				send_reactions : true,
-				until_date : 19,
+				manage_linked_peers : true,
+				until_date : 34,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -335,9 +344,10 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 				send_plain : true,
 				edit_rank : true,
 				send_reactions : true,
-				until_date : 5,
+				manage_linked_peers : true,
+				until_date : 37,
 			),
-			participants_count : 58,
+			participants_count : 69,
 			usernames : array(
 				$client->username(
 					editable : true,
@@ -347,31 +357,95 @@ $paymentsStarGiftAuctionState = $client->payments->starGiftAuctionState(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 88,
+				max_id : 36,
 			),
 			color : $client->peerColor(
-				color : 87,
-				background_emoji_id : 2447346149172734097,
+				color : 9,
+				background_emoji_id : 94444780403197952,
 			),
 			profile_color : $client->peerColor(
-				color : 68,
-				background_emoji_id : 1753495485434225669,
+				color : 6,
+				background_emoji_id : 1348366317268564202,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 67,
-			subscription_until_date : 46,
-			bot_verification_icon : 4864388950138707370,
-			send_paid_messages_stars : -5861190986346536866,
-			linked_monoforum_id : -2272238266918558324,
+			level : 43,
+			subscription_until_date : 21,
+			bot_verification_icon : -2828367349581243366,
+			send_paid_messages_stars : 6824175745390769803,
+			linked_monoforum_id : 2349359458397903480,
+			linked_community_id : -8702880206612375337,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
 			monoforum : true,
-			id : -6889378310385985327,
-			access_hash : 6589410517421104179,
-			title : '8dSUT1HwCVDlkEYI',
-			until_date : 58,
+			id : -6572674984657313635,
+			access_hash : 2569326695204805023,
+			title : '7URZhY8fkbr5oVvi',
+			until_date : 88,
+		),
+		$client->communityForbidden(
+			id : -4282203625365701571,
+			access_hash : 3265046374574807972,
+			title : 'AkdsoDC7BXYNx1vJ',
+		),
+		$client->community(
+			creator : true,
+			left : true,
+			min : true,
+			collapsed_in_dialogs : true,
+			id : -1590305625282387686,
+			access_hash : 468975581110563044,
+			title : 'qHmzAUYDwd43t5Ig',
+			photo : $client->chatPhotoEmpty(),
+			date : 51,
+			admin_rights : $client->chatAdminRights(
+				change_info : true,
+				post_messages : true,
+				edit_messages : true,
+				delete_messages : true,
+				ban_users : true,
+				invite_users : true,
+				pin_messages : true,
+				add_admins : true,
+				anonymous : true,
+				manage_call : true,
+				other : true,
+				manage_topics : true,
+				post_stories : true,
+				edit_stories : true,
+				delete_stories : true,
+				manage_direct_messages : true,
+				manage_ranks : true,
+				manage_linked_peers : true,
+				manage_welcome_messages : true,
+			),
+			default_banned_rights : $client->chatBannedRights(
+				view_messages : true,
+				send_messages : true,
+				send_media : true,
+				send_stickers : true,
+				send_gifs : true,
+				send_games : true,
+				send_inline : true,
+				embed_links : true,
+				send_polls : true,
+				change_info : true,
+				invite_users : true,
+				pin_messages : true,
+				manage_topics : true,
+				send_photos : true,
+				send_videos : true,
+				send_roundvideos : true,
+				send_audios : true,
+				send_voices : true,
+				send_docs : true,
+				send_plain : true,
+				edit_rank : true,
+				send_reactions : true,
+				manage_linked_peers : true,
+				until_date : 79,
+			),
 		),
 	),
 );

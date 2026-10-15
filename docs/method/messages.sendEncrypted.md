@@ -2,7 +2,7 @@
 
 **Description** : *Sends a text message to a secret chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendEncrypted#44fa7a15 flags:# silent:flags.0?true peer:InputEncryptedChat random_id:long data:bytes = messages.SentEncryptedMessage;
@@ -17,7 +17,7 @@ messages.sendEncrypted#44fa7a15 flags:# silent:flags.0?true peer:InputEncryptedC
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **silent** | [`flags.0?true`](type/true) | Send encrypted message without a notification |
 | <mark>peer</mark> | [`InputEncryptedChat`](type/InputEncryptedChat) | Secret chat ID |
-| <mark>random_id</mark> | [`long`](type/long) | Unique client message ID, necessary to avoid message resending |
+| <mark>random_id</mark> | [`long`](type/long) | Unique client message ID, necessary to avoid message resending. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>data</mark> | [`bytes`](type/bytes) | TL-serialization of DecryptedMessage type, encrypted with a key that was created during chat initialization |
 
 ---
@@ -47,10 +47,10 @@ messages.sendEncrypted#44fa7a15 flags:# silent:flags.0?true peer:InputEncryptedC
 $messagesSentEncryptedMessage = $client->messages->sendEncrypted(
 	silent : true,
 	peer : $client->inputEncryptedChat(
-		chat_id : 77,
-		access_hash : 5002512816799007510,
+		chat_id : 78,
+		access_hash : -2198183244126633429,
 	),
-	random_id : 2011339470551734322,
+	random_id : 2974785714043743522,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

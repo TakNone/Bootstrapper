@@ -1,6 +1,6 @@
 # account.webBrowserSettings
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.webBrowserSettings#79eb8cb3 flags:# open_external_browser:flags.0?true display_close_button:flags.1?true external_exceptions:Vector<WebDomainException> inapp_exceptions:Vector<WebDomainException> hash:long = account.WebBrowserSettings;
@@ -35,18 +35,18 @@ $accountWebBrowserSettings = $client->account->webBrowserSettings(
 	display_close_button : true,
 	external_exceptions : array(
 		$client->webDomainException(
-			domain : '08Pa9fwsmyLzXxFR',
+			domain : 'sI5ZwhlUoXBSTHge',
 			url : 'https://docs.liveproto.dev',
-			title : 'eC0jVIAs8vhWf1B3',
-			favicon : -4923610541196769380,
+			title : 'WkuKtQPeis7adDXB',
+			favicon : 6749705767119098256,
 		),
 	),
 	inapp_exceptions : array(
 		$client->webDomainException(
-			domain : 'GukSs5vBNi01EQWq',
+			domain : 'YPtg9fox6WIS1F35',
 			url : 'https://docs.liveproto.dev',
-			title : 'uiC1BZSxM3kULAlz',
-			favicon : 8678203398910692362,
+			title : 'b3Egv4zJHB0XZait',
+			favicon : -4262358999972690015,
 		),
 	),
 	hash : 0,

@@ -1,6 +1,8 @@
 # auth.finishPasskeyLogin
 
-**Layer** : 227
+**Description** : *Complete login with a passkey over an unauthenticated connection, see here &raquo; for more info*
+
+**Layer** : 229
 
 ```tl
 auth.finishPasskeyLogin#9857ad07 flags:# credential:InputPasskeyCredential from_dc_id:flags.0?int from_auth_key_id:flags.0?long = auth.Authorization;
@@ -12,10 +14,10 @@ auth.finishPasskeyLogin#9857ad07 flags:# credential:InputPasskeyCredential from_
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| <mark>credential</mark> | [`InputPasskeyCredential`](type/InputPasskeyCredential) | NOTHING |
-| **from_dc_id** | [`flags.0?int`](type/int) | NOTHING |
-| **from_auth_key_id** | [`flags.0?long`](type/long) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>credential</mark> | [`InputPasskeyCredential`](type/InputPasskeyCredential) | Passkey assertion result |
+| **from_dc_id** | [`flags.0?int`](type/int) | DC ID used for the initial auth.initPasskeyLogin request; set only if the user's DC is different from the DC used for the initial auth.initPasskeyLogin |
+| **from_auth_key_id** | [`flags.0?long`](type/long) | Auth key ID for the connection to from_dc_id (use the permanent auth key ID if PFS is enabled); set only if the user's DC is different from the DC used for the initial auth.initPasskeyLogin |
 
 ---
 
@@ -25,21 +27,31 @@ auth.finishPasskeyLogin#9857ad07 flags:# credential:InputPasskeyCredential from_
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **AUTH_RESTART** | `500` | Restart the authorization process |
+| **CREDENTIAL_INVALID** | `400` | The specified credential is invalid |
+| **PASSKEY_ORIGIN_MISMATCH** | `400` | Third-party clients currently don't support passkeys even when changing the origin |
+
+---
+
 ## Example
 
 ```php
 $authAuthorization = $client->auth->finishPasskeyLogin(
 	credential : $client->inputPasskeyCredentialPublicKey(
-		id : 'pLhEj0R9a6dD7A41',
-		raw_id : 'VX5kupiOwIo3b9Bl',
+		id : 'aABkiFr0SLxtwOTj',
+		raw_id : 'ThLU1aXtH8rSPC49',
 		response : $client->inputPasskeyResponseRegister(
 			client_data : $client->dataJSON(
-				data : 'YVlyLdHQpzJC048X',
+				data : 'jeUmCKEqFxMOz51G',
 			),
 			attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	from_dc_id : 74,
-	from_auth_key_id : -262651686645975319,
+	from_dc_id : 32,
+	from_auth_key_id : 7311337375056086441,
 );
 ```

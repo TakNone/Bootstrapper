@@ -1,6 +1,8 @@
 # starGiftAttributeRarity
 
-**Layer** : 227
+**Description** : *Exact rarity value for a collectible gift attribute*
+
+**Layer** : 229
 
 ```tl
 starGiftAttributeRarity#36437737 permille:int = StarGiftAttributeRarity;
@@ -12,7 +14,7 @@ starGiftAttributeRarity#36437737 permille:int = StarGiftAttributeRarity;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>permille</mark> | [`int`](type/int) | NOTHING |
+| <mark>permille</mark> | [`int`](type/int) | Probability of this attribute, in permille |
 
 ---
 
@@ -26,6 +28,6 @@ starGiftAttributeRarity#36437737 permille:int = StarGiftAttributeRarity;
 
 ```php
 $starGiftAttributeRarity = $client->starGiftAttributeRarity(
-	permille : 34,
+	permille : 58,
 );
 ```

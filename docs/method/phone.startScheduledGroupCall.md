@@ -2,7 +2,7 @@
 
 **Description** : *Start a scheduled group call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.startScheduledGroupCall#5680e342 call:InputGroupCall = Updates;
@@ -14,7 +14,7 @@ phone.startScheduledGroupCall#5680e342 call:InputGroupCall = Updates;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The scheduled group call |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Scheduled video chat/livestream to start, before or after its scheduled date |
 
 ---
 
@@ -38,8 +38,8 @@ phone.startScheduledGroupCall#5680e342 call:InputGroupCall = Updates;
 ```php
 $updates = $client->phone->startScheduledGroupCall(
 	call : $client->inputGroupCall(
-		id : 4011364434966118239,
-		access_hash : 57935990581148066,
+		id : 2198644047748834444,
+		access_hash : -8648616291736559464,
 	),
 );
 ```

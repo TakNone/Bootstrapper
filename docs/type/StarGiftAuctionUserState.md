@@ -1,6 +1,8 @@
 # StarGiftAuctionUserState
 
-**Layer** : 227
+**Description** : *Contains information about the current user&#039;s state in an auction &raquo;*
+
+**Layer** : 229
 
 ```tl
 starGiftAuctionUserState#2eeed1c4 flags:# returned:flags.1?true bid_amount:flags.0?long bid_date:flags.0?int min_bid_amount:flags.0?long bid_peer:flags.0?Peer acquired_count:int = StarGiftAuctionUserState;
@@ -12,4 +14,4 @@ starGiftAuctionUserState#2eeed1c4 flags:# returned:flags.1?true bid_amount:flags
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starGiftAuctionUserState**](constructor/starGiftAuctionUserState) | NOTHING |
+| [**starGiftAuctionUserState**](constructor/starGiftAuctionUserState) | Contains information about the current user's state in an auction ».The bid_amount, bid_date, bid_peer and min_bid_amount flags of starGiftAuctionUserState will all be set if the user placed a bid in the auction |

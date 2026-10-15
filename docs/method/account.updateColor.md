@@ -2,7 +2,7 @@
 
 **Description** : *Update the accent color and background custom emoji &raquo; of the current account*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.updateColor#684d214e flags:# for_profile:flags.1?true color:flags.2?PeerColor = Bool;
@@ -42,8 +42,8 @@ account.updateColor#684d214e flags:# for_profile:flags.1?true color:flags.2?Peer
 $bool = $client->account->updateColor(
 	for_profile : true,
 	color : $client->peerColor(
-		color : 33,
-		background_emoji_id : 7162709604378980390,
+		color : 17,
+		background_emoji_id : -4954035075335180942,
 	),
 );
 ```

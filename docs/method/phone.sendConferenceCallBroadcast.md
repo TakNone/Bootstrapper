@@ -1,8 +1,8 @@
 # phone.sendConferenceCallBroadcast
 
-**Description** : *Broadcast a blockchain block to all members of a conference call, see here &raquo; for more info*
+**Description** : *Submit a verification message to conference call subchain 1, see subchains &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Updates;
@@ -14,8 +14,8 @@ phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Upd
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The conference where to broadcast the block |
-| <mark>block</mark> | [`bytes`](type/bytes) | The block to broadcast |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Conference whose verification subchain should receive the message |
+| <mark>block</mark> | [`bytes`](type/bytes) | Serialized e2e.chain.GroupBroadcast verification message |
 
 ---
 
@@ -38,8 +38,8 @@ phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Upd
 ```php
 $updates = $client->phone->sendConferenceCallBroadcast(
 	call : $client->inputGroupCall(
-		id : -8990577362310467543,
-		access_hash : 5611283108976123322,
+		id : 7124293941318069448,
+		access_hash : 923761018614148791,
 	),
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

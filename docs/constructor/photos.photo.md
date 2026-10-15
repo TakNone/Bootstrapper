@@ -2,7 +2,7 @@
 
 **Description** : *Photo with auxiliary data*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 photos.photo#20212ca8 photo:Photo users:Vector<User> = photos.Photo;
@@ -30,11 +30,11 @@ photos.photo#20212ca8 photo:Photo users:Vector<User> = photos.Photo;
 ```php
 $photosPhoto = $client->photos->photo(
 	photo : $client->photoEmpty(
-		id : 8170169146132071955,
+		id : 2424164633727484727,
 	),
 	users : array(
 		$client->userEmpty(
-			id : 5450637239343494728,
+			id : -7237844329910331104,
 		),
 		$client->user(
 			self : true,
@@ -67,24 +67,24 @@ $photosPhoto = $client->photos->photo(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 2380160554269439208,
-			access_hash : -192774430678002386,
+			id : 2798080162833489785,
+			access_hash : 8189089146373342275,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 24,
+			bot_info_version : 20,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'GvEByUX3bikR50uA',
-					reason : 'uowG8Y9DnJCZF23z',
-					text : 'YK0aZl1N4smWRQDp',
+					platform : 'f1PGBwYqr48T2JAe',
+					reason : 'N2lCMfupGEkJOH91',
+					text : 'XFWLyZc6adVSNOgE',
 				),
 			),
-			bot_inline_placeholder : 'uiIh1ZTz90brS6D3',
-			lang_code : 'oOwqreUTYc4JLfS7',
+			bot_inline_placeholder : 'jfAxR3vELVT9qSaC',
+			lang_code : 'iM8xNcpf1GOFYtEe',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -95,19 +95,20 @@ $photosPhoto = $client->photos->photo(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 99,
+				max_id : 37,
 			),
 			color : $client->peerColor(
-				color : 94,
-				background_emoji_id : -1111078113797722103,
+				color : 68,
+				background_emoji_id : -2847645477436398785,
 			),
 			profile_color : $client->peerColor(
-				color : 70,
-				background_emoji_id : 2492077310277552732,
+				color : 38,
+				background_emoji_id : 3256438997787129419,
 			),
-			bot_active_users : 44,
-			bot_verification_icon : -316974918144968683,
-			send_paid_messages_stars : 4796609669769117232,
+			bot_active_users : 85,
+			bot_verification_icon : -369450852135375452,
+			send_paid_messages_stars : 8078224504527356085,
+			linked_community_id : 9010050104725282486,
 		),
 	),
 );

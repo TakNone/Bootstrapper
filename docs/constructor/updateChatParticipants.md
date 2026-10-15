@@ -1,8 +1,8 @@
 # updateChatParticipants
 
-**Description** : *Composition of chat participants changed*
+**Description** : *The participants of a basic group &raquo; changed*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateChatParticipants#7761198 participants:ChatParticipants = Update;
@@ -14,7 +14,7 @@ updateChatParticipants#7761198 participants:ChatParticipants = Update;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>participants</mark> | [`ChatParticipants`](type/ChatParticipants) | Updated chat participants |
+| <mark>participants</mark> | [`ChatParticipants`](type/ChatParticipants) | Updated chat participants (also contains the version used to deduplicate/update outdated chat information as specified here ») |
 
 ---
 
@@ -29,12 +29,12 @@ updateChatParticipants#7761198 participants:ChatParticipants = Update;
 ```php
 $update = $client->updateChatParticipants(
 	participants : $client->chatParticipantsForbidden(
-		chat_id : -246884684855949533,
+		chat_id : -7396473657683915988,
 		self_participant : $client->chatParticipant(
-			user_id : -4124105567816947715,
-			inviter_id : 6188806883655026513,
-			date : 48,
-			rank : 'AL243tkbqnfF7Slm',
+			user_id : -9156928638676663189,
+			inviter_id : 547593344585007536,
+			date : 75,
+			rank : 'ciWdSeDrGmbpBhOH',
 		),
 	),
 );

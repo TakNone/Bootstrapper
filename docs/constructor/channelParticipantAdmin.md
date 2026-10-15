@@ -2,7 +2,7 @@
 
 **Description** : *Admin*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelParticipantAdmin#34c3bb53 flags:# can_edit:flags.0?true self:flags.1?true user_id:long inviter_id:flags.1?long promoted_by:long date:int admin_rights:ChatAdminRights rank:flags.2?string = ChannelParticipant;
@@ -22,7 +22,7 @@ channelParticipantAdmin#34c3bb53 flags:# can_edit:flags.0?true self:flags.1?true
 | <mark>promoted_by</mark> | [`long`](type/long) | User that promoted the user to admin |
 | <mark>date</mark> | [`int`](type/int) | When did the user join |
 | <mark>admin_rights</mark> | [`ChatAdminRights`](type/ChatAdminRights) | Admin rights |
-| **rank** | [`flags.2?string`](type/string) | The role (rank) of the admin in the group: just an arbitrary string, admin by default |
+| **rank** | [`flags.2?string`](type/string) | The participant's tag », defaults to "Admin" if not set |
 
 ---
 
@@ -38,10 +38,10 @@ channelParticipantAdmin#34c3bb53 flags:# can_edit:flags.0?true self:flags.1?true
 $channelParticipant = $client->channelParticipantAdmin(
 	can_edit : true,
 	self : true,
-	user_id : 4816072939035270509,
-	inviter_id : 604486764176901802,
-	promoted_by : -7492445081091840430,
-	date : 100,
+	user_id : 778382988187663072,
+	inviter_id : -6366705704097616133,
+	promoted_by : -7591223550558620003,
+	date : 61,
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -60,7 +60,9 @@ $channelParticipant = $client->channelParticipantAdmin(
 		delete_stories : true,
 		manage_direct_messages : true,
 		manage_ranks : true,
+		manage_linked_peers : true,
+		manage_welcome_messages : true,
 	),
-	rank : 'PJyqT0IzbEadhjZQ',
+	rank : 'Oh7PSX81qV3kr0TQ',
 );
 ```

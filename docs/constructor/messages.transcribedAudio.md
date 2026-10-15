@@ -2,7 +2,7 @@
 
 **Description** : *Transcribed text from a voice message &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.transcribedAudio#cfb9d957 flags:# pending:flags.0?true transcription_id:long text:string trial_remains_num:flags.1?int trial_remains_until_date:flags.1?int = messages.TranscribedAudio;
@@ -34,9 +34,9 @@ messages.transcribedAudio#cfb9d957 flags:# pending:flags.0?true transcription_id
 ```php
 $messagesTranscribedAudio = $client->messages->transcribedAudio(
 	pending : true,
-	transcription_id : 1308686676444468106,
-	text : '8pH6By2RmDvz3oPr',
-	trial_remains_num : 14,
-	trial_remains_until_date : 76,
+	transcription_id : -5150282476694983507,
+	text : '9JHfFxhEAgPjO0Xi',
+	trial_remains_num : 17,
+	trial_remains_until_date : 28,
 );
 ```

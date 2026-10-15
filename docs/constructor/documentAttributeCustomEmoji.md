@@ -2,7 +2,7 @@
 
 **Description** : *Info about a custom emoji*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 documentAttributeCustomEmoji#fd149899 flags:# free:flags.0?true text_color:flags.1?true alt:string stickerset:InputStickerSet = DocumentAttribute;
@@ -16,7 +16,7 @@ documentAttributeCustomEmoji#fd149899 flags:# free:flags.0?true text_color:flags
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **free** | [`flags.0?true`](type/true) | Whether this custom emoji can be sent by non-Premium users |
-| **text_color** | [`flags.1?true`](type/true) | Whether the color of this TGS custom emoji should be changed to the text color when used in messages, the accent color if used as emoji status, white on chat photos, or another appropriate color based on context |
+| **text_color** | [`flags.1?true`](type/true) | Whether the color of this custom emoji should be changed to the text color when used in messages, the accent color if used as emoji status, white on chat photos, or another appropriate color based on context |
 | <mark>alt</mark> | [`string`](type/string) | The actual emoji |
 | <mark>stickerset</mark> | [`InputStickerSet`](type/InputStickerSet) | The emoji stickerset to which this emoji belongs |
 
@@ -34,7 +34,7 @@ documentAttributeCustomEmoji#fd149899 flags:# free:flags.0?true text_color:flags
 $documentAttribute = $client->documentAttributeCustomEmoji(
 	free : true,
 	text_color : true,
-	alt : 'R7uEiWBFP45vZqkA',
+	alt : 'CmobaEf3YZqH5knt',
 	stickerset : $client->inputStickerSetEmpty(),
 );
 ```

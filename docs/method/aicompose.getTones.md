@@ -1,6 +1,8 @@
 # aicompose.getTones
 
-**Layer** : 227
+**Description** : *Fetch the list of saved AI composer tones &raquo; of the current user*
+
+**Layer** : 229
 
 ```tl
 aicompose.getTones#abd59201 hash:long = aicompose.Tones;
@@ -12,7 +14,7 @@ aicompose.getTones#abd59201 hash:long = aicompose.Tones;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>hash</mark> | [`long`](type/long) | NOTHING |
+| <mark>hash</mark> | [`long`](type/long) | Hash from a previously cached aicompose.tones.hash to avoid refetching the list if it hasn't changed; initially 0 |
 
 ---
 

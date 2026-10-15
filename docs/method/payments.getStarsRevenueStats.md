@@ -2,7 +2,7 @@
 
 **Description** : *Get Telegram Star revenue statistics &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.getStarsRevenueStats#d91ffad6 flags:# dark:flags.0?true ton:flags.1?true peer:InputPeer = payments.StarsRevenueStats;
@@ -31,6 +31,8 @@ payments.getStarsRevenueStats#d91ffad6 flags:# dark:flags.0?true ton:flags.1?tru
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---

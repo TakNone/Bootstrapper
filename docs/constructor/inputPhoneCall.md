@@ -1,8 +1,8 @@
 # inputPhoneCall
 
-**Description** : *Phone call*
+**Description** : *Identifies a phone call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPhoneCall#1e36fded id:long access_hash:long = InputPhoneCall;
@@ -29,7 +29,7 @@ inputPhoneCall#1e36fded id:long access_hash:long = InputPhoneCall;
 
 ```php
 $inputPhoneCall = $client->inputPhoneCall(
-	id : -1167011967944607715,
-	access_hash : 3430468480383652334,
+	id : 4163619829093691914,
+	access_hash : 3089434500287134394,
 );
 ```

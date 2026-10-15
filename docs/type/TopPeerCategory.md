@@ -2,7 +2,7 @@
 
 **Description** : *Top peer category*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 topPeerCategoryBotsPM#ab661b5b = TopPeerCategory;
@@ -32,4 +32,4 @@ topPeerCategoryBotsGuestChat#6c24f3dd = TopPeerCategory;
 | [**topPeerCategoryForwardUsers**](constructor/topPeerCategoryForwardUsers) | Users to which the users often forwards messages to |
 | [**topPeerCategoryForwardChats**](constructor/topPeerCategoryForwardChats) | Chats to which the users often forwards messages to |
 | [**topPeerCategoryBotsApp**](constructor/topPeerCategoryBotsApp) | Most frequently used Main Mini Bot Apps |
-| [**topPeerCategoryBotsGuestChat**](constructor/topPeerCategoryBotsGuestChat) | NOTHING |
+| [**topPeerCategoryBotsGuestChat**](constructor/topPeerCategoryBotsGuestChat) | Top guest bots », i.e. bots most frequently invoked as guests in chats |

@@ -1,6 +1,8 @@
 # AuctionBidLevel
 
-**Layer** : 227
+**Description** : *Describes a bid in an auction*
+
+**Layer** : 229
 
 ```tl
 auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
@@ -12,4 +14,4 @@ auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**auctionBidLevel**](constructor/auctionBidLevel) | NOTHING |
+| [**auctionBidLevel**](constructor/auctionBidLevel) | Describes a bid in an auction |

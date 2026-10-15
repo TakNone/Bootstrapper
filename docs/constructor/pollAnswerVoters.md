@@ -2,7 +2,7 @@
 
 **Description** : *A poll answer, and how users voted on it*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 pollAnswerVoters#3645230a flags:# chosen:flags.0?true correct:flags.1?true option:bytes voters:flags.2?int recent_voters:flags.2?Vector<Peer> = PollAnswerVoters;
@@ -19,7 +19,7 @@ pollAnswerVoters#3645230a flags:# chosen:flags.0?true correct:flags.1?true optio
 | **correct** | [`flags.1?true`](type/true) | For quizzes, whether the option we have chosen is correct |
 | <mark>option</mark> | [`bytes`](type/bytes) | The param that has to be passed to messages.sendVote |
 | **voters** | [`flags.2?int`](type/int) | How many users voted for this option |
-| **recent_voters** | [`flags.2?Vector<Peer>`](type/Peer) | NOTHING |
+| **recent_voters** | [`flags.2?Vector<Peer>`](type/Peer) | Peers of the most recent voters for this option; mutually exclusive with voters |
 
 ---
 
@@ -36,16 +36,16 @@ $pollAnswerVoters = $client->pollAnswerVoters(
 	chosen : true,
 	correct : true,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	voters : 0,
+	voters : 25,
 	recent_voters : array(
 		$client->peerUser(
-			user_id : -1503826573794550682,
+			user_id : -5653029308145965457,
 		),
 		$client->peerChat(
-			chat_id : -2842635568169063402,
+			chat_id : 2362584193627255281,
 		),
 		$client->peerChannel(
-			channel_id : 7497051195639269950,
+			channel_id : -1802084190913428734,
 		),
 	),
 );

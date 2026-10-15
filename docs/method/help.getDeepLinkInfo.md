@@ -2,7 +2,7 @@
 
 **Description** : *Get info about an unsupported deep link, see here for more info &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 help.getDeepLinkInfo#3fedc75f path:string = help.DeepLinkInfo;
@@ -28,6 +28,6 @@ help.getDeepLinkInfo#3fedc75f path:string = help.DeepLinkInfo;
 
 ```php
 $helpDeepLinkInfo = $client->help->getDeepLinkInfo(
-	path : '9dZaTyOzJemDGx2L',
+	path : 'FMtozOZW2RIvDESk',
 );
 ```

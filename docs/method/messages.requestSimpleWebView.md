@@ -2,7 +2,7 @@
 
 **Description** : *Open a bot mini app*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.requestSimpleWebView#413a3e73 flags:# from_switch_webview:flags.1?true from_side_menu:flags.2?true compact:flags.7?true fullscreen:flags.8?true bot:InputUser url:flags.3?string start_param:flags.4?string theme_params:flags.0?DataJSON platform:string = WebViewResult;
@@ -52,10 +52,10 @@ $webViewResult = $client->messages->requestSimpleWebView(
 	fullscreen : true,
 	bot : $client->get_input_user(user : '@TakNone'),
 	url : 'https://docs.liveproto.dev',
-	start_param : 'YaSUdTVh8QEi1cOp',
+	start_param : 'bVyXPTQ2gU9DJSG8',
 	theme_params : $client->dataJSON(
-		data : '3x5QRShXKT0AqPD4',
+		data : 'yknKcOShsjfuG4T7',
 	),
-	platform : 'Am3LUrFPnoI5Sdjt',
+	platform : 'fg0pqC3wAj9vWR8H',
 );
 ```

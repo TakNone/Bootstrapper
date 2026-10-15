@@ -2,7 +2,7 @@
 
 **Description** : *Report a message in a chat for violation of telegram&#039;s Terms of Service*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.report#fc78af9b peer:InputPeer id:Vector<int> option:bytes message:string = ReportResult;
@@ -33,6 +33,7 @@ messages.report#fc78af9b peer:InputPeer id:Vector<int> option:bytes message:stri
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
+| **MESSAGE_REQUIRED** | `400` | A non-empty list of IDs must be passed to id |
 | **OPTION_INVALID** | `400` | Invalid option selected |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
@@ -43,8 +44,8 @@ messages.report#fc78af9b peer:InputPeer id:Vector<int> option:bytes message:stri
 ```php
 $reportResult = $client->messages->report(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(73),
+	id : array(79),
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	message : 'oczqjDbuhWkVrwR5',
+	message : 'n7HAOf40Cw6qTxzX',
 );
 ```

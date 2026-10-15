@@ -2,7 +2,7 @@
 
 **Description** : *The saved gif list has changed, the client should refetch it using messages\.getSavedGifs*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateSavedGifs#9375341e = Update;

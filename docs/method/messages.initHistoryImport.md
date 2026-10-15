@@ -2,7 +2,7 @@
 
 **Description** : *Import chat history from a foreign chat app into a specific Telegram chat, click here for more info about imported chats &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.initHistoryImport#34090c3b peer:InputPeer file:InputFile media_count:int = messages.HistoryImport;
@@ -36,6 +36,7 @@ messages.initHistoryImport#34090c3b peer:InputPeer file:InputFile media_count:in
 | **IMPORT_FORMAT_UNRECOGNIZED** | `400` | The specified chat export file was exported from an unsupported chat app |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **PREVIOUS_CHAT_IMPORT_ACTIVE_WAIT_%dMIN** | `406` | Import for this chat is already in progress, wait %d minutes before starting a new one |
+| **USER_NOT_MUTUAL_CONTACT** | `400` | The provided user is not a mutual contact |
 
 ---
 
@@ -45,6 +46,6 @@ messages.initHistoryImport#34090c3b peer:InputPeer file:InputFile media_count:in
 $messagesHistoryImport = $client->messages->initHistoryImport(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	file : $client->upload_file(path : 'file.png'),
-	media_count : 4,
+	media_count : 20,
 );
 ```

@@ -2,10 +2,10 @@
 
 **Description** : *Represents the rights of an admin in a channel/supergroup*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
-chatAdminRights#5fb224d5 flags:# change_info:flags.0?true post_messages:flags.1?true edit_messages:flags.2?true delete_messages:flags.3?true ban_users:flags.4?true invite_users:flags.5?true pin_messages:flags.7?true add_admins:flags.9?true anonymous:flags.10?true manage_call:flags.11?true other:flags.12?true manage_topics:flags.13?true post_stories:flags.14?true edit_stories:flags.15?true delete_stories:flags.16?true manage_direct_messages:flags.17?true manage_ranks:flags.18?true = ChatAdminRights;
+chatAdminRights#5fb224d5 flags:# change_info:flags.0?true post_messages:flags.1?true edit_messages:flags.2?true delete_messages:flags.3?true ban_users:flags.4?true invite_users:flags.5?true pin_messages:flags.7?true add_admins:flags.9?true anonymous:flags.10?true manage_call:flags.11?true other:flags.12?true manage_topics:flags.13?true post_stories:flags.14?true edit_stories:flags.15?true delete_stories:flags.16?true manage_direct_messages:flags.17?true manage_ranks:flags.18?true manage_linked_peers:flags.19?true manage_welcome_messages:flags.20?true = ChatAdminRights;
 ```
 
 ---
@@ -24,14 +24,16 @@ chatAdminRights#5fb224d5 flags:# change_info:flags.0?true post_messages:flags.1?
 | **pin_messages** | [`flags.7?true`](type/true) | If set, allows the admin to pin messages in the channel/supergroup |
 | **add_admins** | [`flags.9?true`](type/true) | If set, allows the admin to add other admins with the same (or more limited) permissions in the channel/supergroup |
 | **anonymous** | [`flags.10?true`](type/true) | Whether this admin is anonymous |
-| **manage_call** | [`flags.11?true`](type/true) | If set, allows the admin to change group call/livestream settings |
+| **manage_call** | [`flags.11?true`](type/true) | If set, allows the admin to create and administer video chats/livestreams » |
 | **other** | [`flags.12?true`](type/true) | Set this flag if none of the other flags are set, but you still want the user to be an admin: if this or any of the other flags are set, the admin can get the chat admin log, get chat statistics, get message statistics in channels, get channel members, see anonymous administrators in supergroups and ignore slow mode |
 | **manage_topics** | [`flags.13?true`](type/true) | If set, allows the admin to create, delete or modify forum topics » |
 | **post_stories** | [`flags.14?true`](type/true) | If set, allows the admin to post stories as the channel |
 | **edit_stories** | [`flags.15?true`](type/true) | If set, allows the admin to edit stories posted by the other admins of the channel |
 | **delete_stories** | [`flags.16?true`](type/true) | If set, allows the admin to delete stories posted by the other admins of the channel |
 | **manage_direct_messages** | [`flags.17?true`](type/true) | If set, allows the admin to manage the direct messages monoforum » and decline suggested posts » |
-| **manage_ranks** | [`flags.18?true`](type/true) | NOTHING |
+| **manage_ranks** | [`flags.18?true`](type/true) | If set, allows the admin to modify the member tag » of any user |
+| **manage_linked_peers** | [`flags.19?true`](type/true) | NOTHING |
+| **manage_welcome_messages** | [`flags.20?true`](type/true) | NOTHING |
 
 ---
 
@@ -62,5 +64,7 @@ $chatAdminRights = $client->chatAdminRights(
 	delete_stories : true,
 	manage_direct_messages : true,
 	manage_ranks : true,
+	manage_linked_peers : true,
+	manage_welcome_messages : true,
 );
 ```

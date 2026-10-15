@@ -2,7 +2,7 @@
 
 **Description** : *Import a chat invite and join a private chat/supergroup/channel*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.importChatInvite#de91436e hash:string = messages.ChatInviteJoinResult;
@@ -49,6 +49,6 @@ messages.importChatInvite#de91436e hash:string = messages.ChatInviteJoinResult;
 
 ```php
 $messagesChatInviteJoinResult = $client->messages->importChatInvite(
-	hash : 'uAeSclPBkm9bdag7',
+	hash : 'qCLVnMA0PjF5iObo',
 );
 ```

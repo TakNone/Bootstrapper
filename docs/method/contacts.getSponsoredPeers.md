@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of sponsored peer search results for a given query*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 contacts.getSponsoredPeers#b6c8c393 q:string = contacts.SponsoredPeers;
@@ -36,6 +36,6 @@ contacts.getSponsoredPeers#b6c8c393 q:string = contacts.SponsoredPeers;
 
 ```php
 $contactsSponsoredPeers = $client->contacts->getSponsoredPeers(
-	q : 'nuewBb2o6UrDYt41',
+	q : 'sP4nReLjSqJZfkaT',
 );
 ```

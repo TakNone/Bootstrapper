@@ -2,7 +2,7 @@
 
 **Description** : *Rental agreement*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 secureValueTypeRentalAgreement#8b883488 = SecureValueType;

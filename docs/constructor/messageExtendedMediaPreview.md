@@ -2,7 +2,7 @@
 
 **Description** : *Paid media preview for not yet purchased paid media, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageExtendedMediaPreview#ad628cc8 flags:# w:flags.0?int h:flags.0?int thumb:flags.1?PhotoSize video_duration:flags.2?int = MessageExtendedMedia;
@@ -32,11 +32,11 @@ messageExtendedMediaPreview#ad628cc8 flags:# w:flags.0?int h:flags.0?int thumb:f
 
 ```php
 $messageExtendedMedia = $client->messageExtendedMediaPreview(
-	w : 11,
-	h : 30,
+	w : 42,
+	h : 74,
 	thumb : $client->photoSizeEmpty(
-		type : 'CitWfz5DuVlSyMGZ',
+		type : 'XcVz2SUaeCu3PFn6',
 	),
-	video_duration : 15,
+	video_duration : 21,
 );
 ```

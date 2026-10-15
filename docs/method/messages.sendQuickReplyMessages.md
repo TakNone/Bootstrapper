@@ -2,7 +2,7 @@
 
 **Description** : *Send a quick reply shortcut &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendQuickReplyMessages#6c750de1 peer:InputPeer shortcut_id:int id:Vector<int> random_id:Vector<long> = Updates;
@@ -17,7 +17,7 @@ messages.sendQuickReplyMessages#6c750de1 peer:InputPeer shortcut_id:int id:Vecto
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The peer where to send the shortcut (users only, for now) |
 | <mark>shortcut_id</mark> | [`int`](type/int) | The ID of the quick reply shortcut to send |
 | <mark>id</mark> | [`Vector<int>`](type/int) | Specify a subset of messages from the shortcut to send; if empty, defaults to all of them |
-| <mark>random_id</mark> | [`Vector<long>`](type/long) | Unique client IDs required to prevent message resending, one for each message we're sending, may be empty (but not recommended) |
+| <mark>random_id</mark> | [`Vector<long>`](type/long) | Unique client IDs required to prevent message resending, one for each message we're sending, may be empty (but not recommended). See here » for more info on random ID deduplication and updateMessageID mapping |
 
 ---
 
@@ -41,8 +41,8 @@ messages.sendQuickReplyMessages#6c750de1 peer:InputPeer shortcut_id:int id:Vecto
 ```php
 $updates = $client->messages->sendQuickReplyMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	shortcut_id : 75,
-	id : array(83),
-	random_id : array(8502959032198186941),
+	shortcut_id : 64,
+	id : array(67),
+	random_id : array(-2131457714376477194),
 );
 ```

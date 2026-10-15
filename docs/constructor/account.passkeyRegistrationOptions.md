@@ -1,6 +1,8 @@
 # account.passkeyRegistrationOptions
 
-**Layer** : 227
+**Description** : *Passkey registration options, see here &raquo; for more info on the full flow*
+
+**Layer** : 229
 
 ```tl
 account.passkeyRegistrationOptions#e16b5ce1 options:DataJSON = account.PasskeyRegistrationOptions;
@@ -12,7 +14,7 @@ account.passkeyRegistrationOptions#e16b5ce1 options:DataJSON = account.PasskeyRe
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>options</mark> | [`DataJSON`](type/DataJSON) | NOTHING |
+| <mark>options</mark> | [`DataJSON`](type/DataJSON) | JSON-encoded object whose publicKey field contains a PublicKeyCredentialCreationOptions object |
 
 ---
 
@@ -27,7 +29,7 @@ account.passkeyRegistrationOptions#e16b5ce1 options:DataJSON = account.PasskeyRe
 ```php
 $accountPasskeyRegistrationOptions = $client->account->passkeyRegistrationOptions(
 	options : $client->dataJSON(
-		data : '8LClFrD0XJu57zkd',
+		data : 'OpHNZdK2ADkP3ohU',
 	),
 );
 ```

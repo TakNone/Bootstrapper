@@ -2,7 +2,7 @@
 
 **Description** : *Info about a channel/supergroup, shared by a user with the currently logged in bot using messages\.sendBotRequestedPeer*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 requestedPeerChannel#8ba403e4 flags:# channel_id:long title:flags.0?string username:flags.1?string photo:flags.2?Photo = RequestedPeer;
@@ -32,11 +32,11 @@ requestedPeerChannel#8ba403e4 flags:# channel_id:long title:flags.0?string usern
 
 ```php
 $requestedPeer = $client->requestedPeerChannel(
-	channel_id : 6521121983361354079,
-	title : 'RTEK6wbQnkFJ8MuW',
+	channel_id : -5836537820570072436,
+	title : 'tJjBLTpc6zkx4neZ',
 	username : 'TakNone',
 	photo : $client->photoEmpty(
-		id : 2192738203818351231,
+		id : 9110966966513386216,
 	),
 );
 ```

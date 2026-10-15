@@ -2,7 +2,7 @@
 
 **Description** : *Delete a main mini app preview, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 bots.deletePreviewMedia#2d0135b3 bot:InputUser lang_code:string media:Vector<InputMedia> = Bool;
@@ -39,7 +39,7 @@ bots.deletePreviewMedia#2d0135b3 bot:InputUser lang_code:string media:Vector<Inp
 ```php
 $bool = $client->bots->deletePreviewMedia(
 	bot : $client->get_input_user(user : '@TakNone'),
-	lang_code : 'MVtarRgv6sZjGX4C',
+	lang_code : 'VUCvsTcW82jErQKz',
 	media : array($client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT)),
 );
 ```

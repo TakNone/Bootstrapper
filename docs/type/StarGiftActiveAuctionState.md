@@ -1,6 +1,8 @@
 # StarGiftActiveAuctionState
 
-**Layer** : 227
+**Description** : *Contains info about an auction where the user has placed a bid &raquo;*
+
+**Layer** : 229
 
 ```tl
 starGiftActiveAuctionState#d31bc45d gift:StarGift state:StarGiftAuctionState user_state:StarGiftAuctionUserState = StarGiftActiveAuctionState;
@@ -12,4 +14,4 @@ starGiftActiveAuctionState#d31bc45d gift:StarGift state:StarGiftAuctionState use
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starGiftActiveAuctionState**](constructor/starGiftActiveAuctionState) | NOTHING |
+| [**starGiftActiveAuctionState**](constructor/starGiftActiveAuctionState) | Contains info about an auction where the user has placed a bid » |

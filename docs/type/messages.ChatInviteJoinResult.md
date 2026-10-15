@@ -1,10 +1,10 @@
 # messages.ChatInviteJoinResult
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.chatInviteJoinResultOk#445663a7 updates:Updates = messages.ChatInviteJoinResult;
-messages.chatInviteJoinResultWebView#2f51c337 bot_id:long webview:WebViewResult users:Vector<User> = messages.ChatInviteJoinResult;
+messages.chatInviteJoinResultWebView#61ca29d3 bot_id:long query_id:long users:Vector<User> = messages.ChatInviteJoinResult;
 ```
 
 ---

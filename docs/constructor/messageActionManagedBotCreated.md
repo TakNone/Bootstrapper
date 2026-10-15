@@ -1,6 +1,8 @@
 # messageActionManagedBotCreated
 
-**Layer** : 227
+**Description** : *Service message sent by a user to a manager bot when a new managed bot &raquo; is created through it, by invoking messages\.sendBotRequestedPeer with a requestPeerTypeCreateBot, see here &raquo; for more info*
+
+**Layer** : 229
 
 ```tl
 messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
@@ -12,7 +14,7 @@ messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>bot_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>bot_id</mark> | [`long`](type/long) | ID of the newly created managed bot |
 
 ---
 
@@ -26,6 +28,6 @@ messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionManagedBotCreated(
-	bot_id : -7159098477030283088,
+	bot_id : -3575031842436841922,
 );
 ```

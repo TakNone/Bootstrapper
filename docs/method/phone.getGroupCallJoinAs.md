@@ -1,8 +1,8 @@
 # phone.getGroupCallJoinAs
 
-**Description** : *Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel*
+**Description** : *Get a list of peers that can be used to join a video chat or livestream &raquo;, presenting yourself as a specific user/channel*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.getGroupCallJoinAs#ef7c213a peer:InputPeer = phone.JoinAsPeers;
@@ -14,7 +14,7 @@ phone.getGroupCallJoinAs#ef7c213a peer:InputPeer = phone.JoinAsPeers;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The dialog whose group call or livestream we're trying to join |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The basic group, supergroup or channel whose video chat/livestream we're trying to join; cannot target a live story |
 
 ---
 

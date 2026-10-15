@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for a star giveaway, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?true winners_are_visible:flags.3?true stars:long boost_peer:InputPeer additional_peers:flags.1?Vector<InputPeer> countries_iso2:flags.2?Vector<string> prize_description:flags.4?string random_id:long until_date:int currency:string amount:long users:int = InputStorePaymentPurpose;
@@ -22,7 +22,7 @@ inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?tru
 | **additional_peers** | [`flags.1?Vector<InputPeer>`](type/InputPeer) | Additional channels that the user must join to participate to the giveaway can be specified here |
 | **countries_iso2** | [`flags.2?Vector<string>`](type/string) | The set of users that can participate to the giveaway can be restricted by passing here an explicit whitelist of up to giveaway_countries_max countries, specified as two-letter ISO 3166-1 alpha-2 country codes |
 | **prize_description** | [`flags.4?string`](type/string) | Can contain a textual description of additional giveaway prizes |
-| <mark>random_id</mark> | [`long`](type/long) | Random ID to avoid resending the giveaway |
+| <mark>random_id</mark> | [`long`](type/long) | Random ID to avoid resending the giveaway. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>until_date</mark> | [`int`](type/int) | The end date of the giveaway, must be at most giveaway_period_max seconds in the future; see here » for more info on giveaways |
 | <mark>currency</mark> | [`string`](type/string) | Three-letter ISO 4217 currency code |
 | <mark>amount</mark> | [`long`](type/long) | Total price in the smallest units of the currency (integer, not float/double). For example, for a price of US$ 1.45 pass amount = 145. See the exp parameter in currencies.json, it shows the number of digits past the decimal point for each currency (2 for the majority of currencies) |
@@ -42,15 +42,15 @@ inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?tru
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	stars : 3469572818483845702,
+	stars : 134963799890563114,
 	boost_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	additional_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	countries_iso2 : array('69XDEyr1NLHOQKAb'),
-	prize_description : 'bTd2RSBX5Hzg8lmV',
-	random_id : 7604118517909663416,
-	until_date : 15,
-	currency : 'T1GVdJ4ebBLImHoK',
-	amount : 2601876142242270495,
-	users : 9,
+	countries_iso2 : array('S4szM3hbPWAlwFQj'),
+	prize_description : 'IO1Do6cTKMQqvRsS',
+	random_id : -6004021394617311541,
+	until_date : 63,
+	currency : '6PVjRs9Y1qI0NXQn',
+	amount : 5400136440836839316,
+	users : 56,
 );
 ```

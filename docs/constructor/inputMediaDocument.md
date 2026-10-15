@@ -2,7 +2,7 @@
 
 **Description** : *Forwarded document*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputMediaDocument#a8763ab5 flags:# spoiler:flags.2?true id:InputDocument video_cover:flags.3?InputPhoto video_timestamp:flags.4?int ttl_seconds:flags.0?int query:flags.1?string = InputMedia;
@@ -19,7 +19,7 @@ inputMediaDocument#a8763ab5 flags:# spoiler:flags.2?true id:InputDocument video_
 | <mark>id</mark> | [`InputDocument`](type/InputDocument) | The document to be forwarded |
 | **video_cover** | [`flags.3?InputPhoto`](type/InputPhoto) | Custom video cover |
 | **video_timestamp** | [`flags.4?int`](type/int) | Start playing the video at the specified timestamp (seconds) |
-| **ttl_seconds** | [`flags.0?int`](type/int) | Time to live of self-destructing document |
+| **ttl_seconds** | [`flags.0?int`](type/int) | Time to live of self-destructing document, can be 0 to disable self-destruction, 0x7FFFFFFF to self-destruct the document immediately after it's played; otherwise self-destructs ttl_seconds after it's played |
 | **query** | [`flags.1?string`](type/string) | Text query or emoji that was used by the user to find this sticker or GIF: used to improve search result relevance |
 
 ---
@@ -37,8 +37,8 @@ $inputMedia = $client->inputMediaDocument(
 	spoiler : true,
 	id : $client->inputDocumentEmpty(),
 	video_cover : $client->inputPhotoEmpty(),
-	video_timestamp : 79,
-	ttl_seconds : 99,
-	query : '9qRMbxrk0euUp1QT',
+	video_timestamp : 54,
+	ttl_seconds : 68,
+	query : '9arTcfX0EIDgYFnz',
 );
 ```

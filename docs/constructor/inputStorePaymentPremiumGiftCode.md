@@ -2,7 +2,7 @@
 
 **Description** : *Used to gift Telegram Premium subscriptions only to some specific subscribers of a channel/supergroup or to some of our contacts, see here &raquo; for more info on giveaways and gifts*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputStorePaymentPremiumGiftCode#fb790393 flags:# users:Vector<InputUser> boost_peer:flags.0?InputPeer currency:string amount:long message:flags.1?TextWithEntities = InputStorePaymentPurpose;
@@ -35,100 +35,100 @@ inputStorePaymentPremiumGiftCode#fb790393 flags:# users:Vector<InputUser> boost_
 $inputStorePaymentPurpose = $client->inputStorePaymentPremiumGiftCode(
 	users : array($client->get_input_user(user : '@TakNone')),
 	boost_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	currency : '7Vspj1GMZHeaP9t3',
-	amount : -7680922426885698189,
+	currency : '3MJt1kDGwO6iVjye',
+	amount : -7662721637865673000,
 	message : $client->textWithEntities(
-		text : 'WdlDSORtn5Ty9LeM',
+		text : '826evK4FXqwMmty3',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 13,
+				length : 82,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 38,
+				length : 99,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 81,
+				length : 32,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 62,
+				length : 32,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 72,
+				length : 86,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 59,
+				length : 80,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 64,
+				length : 58,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 54,
+				length : 98,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 90,
+				length : 74,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 20,
-				language : '2YgicwH9QxKtCGe8',
+				length : 75,
+				language : 'dbBpDTx2CLWvI7Fo',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 30,
+				length : 66,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 16,
-				user_id : -7191655796480764122,
+				length : 22,
+				user_id : 4095532063046823814,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 42,
+				length : 29,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 18,
+				length : 83,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 40,
+				length : 47,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 7,
+				length : 19,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 78,
+				length : 61,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 87,
+				length : 4,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 42,
+				length : 67,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 49,
-				document_id : 1928420983366644881,
+				length : 40,
+				document_id : -789518989456446428,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 83,
+				length : 10,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -138,21 +138,21 @@ $inputStorePaymentPurpose = $client->inputStorePaymentPremiumGiftCode(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 97,
-				date : 35,
+				length : 64,
+				date : 65,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 46,
+				length : 67,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 75,
-				old_text : 'IlTySC9ciOV25ohZ',
+				length : 18,
+				old_text : '597P6NdsweiCjcMa',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 69,
+				length : 35,
 			),
 		),
 	),

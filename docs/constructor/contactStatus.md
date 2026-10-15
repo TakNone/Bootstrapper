@@ -2,7 +2,7 @@
 
 **Description** : *Contact status: online / offline*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 contactStatus#16d9703b user_id:long status:UserStatus = ContactStatus;
@@ -29,7 +29,7 @@ contactStatus#16d9703b user_id:long status:UserStatus = ContactStatus;
 
 ```php
 $contactStatus = $client->contactStatus(
-	user_id : -7164631147421275742,
+	user_id : -13455545893548776,
 	status : $client->userStatusEmpty(),
 );
 ```

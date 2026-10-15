@@ -2,7 +2,7 @@
 
 **Description** : *Change the default peer that should be used when sending messages, reactions, poll votes to a specific group*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.saveDefaultSendAs#ccfddf96 peer:InputPeer send_as:InputPeer = Bool;

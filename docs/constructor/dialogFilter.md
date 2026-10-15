@@ -2,7 +2,7 @@
 
 **Description** : *Dialog filter AKA folder*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 dialogFilter#aa472651 flags:# contacts:flags.0?true non_contacts:flags.1?true groups:flags.2?true broadcasts:flags.3?true bots:flags.4?true exclude_muted:flags.11?true exclude_read:flags.12?true exclude_archived:flags.13?true title_noanimate:flags.28?true id:int title:TextWithEntities emoticon:flags.25?string color:flags.27?int pinned_peers:Vector<InputPeer> include_peers:Vector<InputPeer> exclude_peers:Vector<InputPeer> = DialogFilter;
@@ -53,99 +53,99 @@ $dialogFilter = $client->dialogFilter(
 	exclude_read : true,
 	exclude_archived : true,
 	title_noanimate : true,
-	id : 9,
+	id : 47,
 	title : $client->textWithEntities(
-		text : 'sJlMautNkSF5U9DP',
+		text : 'MyioJtY4Twbr13vl',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 44,
+				length : 10,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 76,
+				length : 45,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 29,
+				length : 69,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 4,
+				length : 74,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 49,
+				length : 7,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 29,
+				length : 70,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 30,
+				length : 37,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 89,
+				length : 79,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 90,
+				length : 92,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 13,
-				language : 'J2NsCYrBIt1VFuEl',
+				length : 0,
+				language : 'JT5agyWUVp1u94xs',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 81,
+				length : 71,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 35,
-				user_id : -3509519108012236843,
+				length : 60,
+				user_id : -9221133110531778207,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 9,
+				length : 2,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 24,
+				length : 67,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 86,
+				length : 94,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 38,
+				length : 9,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 4,
+				length : 3,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 21,
+				length : 31,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 2,
+				length : 14,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 50,
-				document_id : 7337886489937235666,
+				length : 2,
+				document_id : -6686496927703701787,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 56,
+				length : 54,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -155,26 +155,26 @@ $dialogFilter = $client->dialogFilter(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 96,
+				length : 50,
 				date : 45,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 33,
+				length : 90,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 37,
-				old_text : 'o9s0vSXfiDB5P6le',
+				length : 93,
+				old_text : 'ow4tEbxTn2p1LhiR',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 10,
+				length : 40,
 			),
 		),
 	),
-	emoticon : '2JMVtW1xwH4qDPj8',
-	color : 63,
+	emoticon : 'VEjpky6ZCYibL0tI',
+	color : 3,
 	pinned_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 	include_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 	exclude_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),

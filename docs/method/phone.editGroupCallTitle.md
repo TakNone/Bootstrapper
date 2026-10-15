@@ -1,8 +1,8 @@
 # phone.editGroupCallTitle
 
-**Description** : *Edit the title of a group call or livestream*
+**Description** : *Edit the title of a video chat or livestream\. This method cannot be used with live stories or conferences, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.editGroupCallTitle#1ca6ac0a call:InputGroupCall title:string = Updates;
@@ -14,7 +14,7 @@ phone.editGroupCallTitle#1ca6ac0a call:InputGroupCall title:string = Updates;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Video chat or livestream whose title should be changed |
 | <mark>title</mark> | [`string`](type/string) | New title |
 
 ---
@@ -29,7 +29,7 @@ phone.editGroupCallTitle#1ca6ac0a call:InputGroupCall title:string = Updates;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
-| **GROUPCALL_FORBIDDEN** | `403` | The group call has already ended |
+| **GROUPCALL_FORBIDDEN** | `403` | The specified group call cannot be used in this context |
 | **GROUPCALL_INVALID** | `400` | The specified group call is invalid |
 
 ---
@@ -39,9 +39,9 @@ phone.editGroupCallTitle#1ca6ac0a call:InputGroupCall title:string = Updates;
 ```php
 $updates = $client->phone->editGroupCallTitle(
 	call : $client->inputGroupCall(
-		id : -23280256677080846,
-		access_hash : -8372271550690389260,
+		id : -4986012994488570493,
+		access_hash : -3690341104244070746,
 	),
-	title : '1JUeISt3xqgEYVb8',
+	title : '7t2SOWCFGrw4fpDV',
 );
 ```

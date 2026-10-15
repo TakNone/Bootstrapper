@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a prepaid giveaway &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 prepaidGiveaway#b2539d54 id:long months:int quantity:int date:int = PrepaidGiveaway;
@@ -31,9 +31,9 @@ prepaidGiveaway#b2539d54 id:long months:int quantity:int date:int = PrepaidGivea
 
 ```php
 $prepaidGiveaway = $client->prepaidGiveaway(
-	id : -4539429601590555934,
-	months : 42,
-	quantity : 49,
-	date : 42,
+	id : 4133495387836076683,
+	months : 98,
+	quantity : 11,
+	date : 97,
 );
 ```

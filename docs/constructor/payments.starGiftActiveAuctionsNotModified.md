@@ -1,6 +1,8 @@
 # payments.starGiftActiveAuctionsNotModified
 
-**Layer** : 227
+**Description** : *The list of currently active gift auctions where the user has placed a bid hasn&#039;t changed*
+
+**Layer** : 229
 
 ```tl
 payments.starGiftActiveAuctionsNotModified#db33dad0 = payments.StarGiftActiveAuctions;

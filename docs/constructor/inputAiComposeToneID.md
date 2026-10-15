@@ -1,6 +1,8 @@
 # inputAiComposeToneID
 
-**Layer** : 227
+**Description** : *References a custom AI composer tone &raquo; by its ID and access hash*
+
+**Layer** : 229
 
 ```tl
 inputAiComposeToneID#773c080 id:long access_hash:long = InputAiComposeTone;
@@ -12,8 +14,8 @@ inputAiComposeToneID#773c080 id:long access_hash:long = InputAiComposeTone;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>id</mark> | [`long`](type/long) | NOTHING |
-| <mark>access_hash</mark> | [`long`](type/long) | NOTHING |
+| <mark>id</mark> | [`long`](type/long) | Tone identifier, as returned in aiComposeTone.id |
+| <mark>access_hash</mark> | [`long`](type/long) | Tone access hash, as returned in aiComposeTone.access_hash |
 
 ---
 
@@ -27,7 +29,7 @@ inputAiComposeToneID#773c080 id:long access_hash:long = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneID(
-	id : 927103488066680243,
-	access_hash : 8183648598437187035,
+	id : 6657027808649906776,
+	access_hash : 6101969436393421269,
 );
 ```

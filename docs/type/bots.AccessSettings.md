@@ -1,6 +1,8 @@
 # bots.AccessSettings
 
-**Layer** : 227
+**Description** : *Access restriction settings for a managed bot*
+
+**Layer** : 229
 
 ```tl
 bots.accessSettings#dd1fbf93 flags:# restricted:flags.0?true add_users:flags.1?Vector<User> = bots.AccessSettings;
@@ -12,4 +14,4 @@ bots.accessSettings#dd1fbf93 flags:# restricted:flags.0?true add_users:flags.1?V
 
 | Constructor | Description |
 | :---: | :--- |
-| [**bots.accessSettings**](constructor/bots.accessSettings) | NOTHING |
+| [**bots.accessSettings**](constructor/bots.accessSettings) | Access restriction settings for a managed bot » |

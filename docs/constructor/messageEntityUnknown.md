@@ -2,7 +2,7 @@
 
 **Description** : *Unknown message entity*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageEntityUnknown#bb92ba95 offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityUnknown#bb92ba95 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityUnknown(
 	offset : 0,
-	length : 46,
+	length : 95,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Banned/kicked user*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelParticipantBanned#d5f0ad91 flags:# left:flags.0?true peer:Peer kicked_by:long date:int banned_rights:ChatBannedRights rank:flags.2?string = ChannelParticipant;
@@ -20,7 +20,7 @@ channelParticipantBanned#d5f0ad91 flags:# left:flags.0?true peer:Peer kicked_by:
 | <mark>kicked_by</mark> | [`long`](type/long) | User was kicked by the specified admin |
 | <mark>date</mark> | [`int`](type/int) | When did the user join the group |
 | <mark>banned_rights</mark> | [`ChatBannedRights`](type/ChatBannedRights) | Banned rights |
-| **rank** | [`flags.2?string`](type/string) | NOTHING |
+| **rank** | [`flags.2?string`](type/string) | The participant's tag » |
 
 ---
 
@@ -36,10 +36,10 @@ channelParticipantBanned#d5f0ad91 flags:# left:flags.0?true peer:Peer kicked_by:
 $channelParticipant = $client->channelParticipantBanned(
 	left : true,
 	peer : $client->peerUser(
-		user_id : -7828237041601230194,
+		user_id : 6980037468415229221,
 	),
-	kicked_by : 1730221068551730483,
-	date : 73,
+	kicked_by : -3114576071585820134,
+	date : 94,
 	banned_rights : $client->chatBannedRights(
 		view_messages : true,
 		send_messages : true,
@@ -63,8 +63,9 @@ $channelParticipant = $client->channelParticipantBanned(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 30,
+		manage_linked_peers : true,
+		until_date : 80,
 	),
-	rank : 'glFQ0uIectJ5Mvhq',
+	rank : 'sp7P0dZ5zC8YraGM',
 );
 ```

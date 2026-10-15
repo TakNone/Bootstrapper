@@ -1,6 +1,8 @@
 # StarGiftUpgradePrice
 
-**Layer** : 227
+**Description** : *Indicates the price for a gift upgrade &raquo; starting from a specific point in time*
+
+**Layer** : 229
 
 ```tl
 starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice;
@@ -12,4 +14,4 @@ starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starGiftUpgradePrice**](constructor/starGiftUpgradePrice) | NOTHING |
+| [**starGiftUpgradePrice**](constructor/starGiftUpgradePrice) | Indicates the price for a gift upgrade » starting from a specific point in time |

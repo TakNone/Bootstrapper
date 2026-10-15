@@ -2,7 +2,7 @@
 
 **Description** : *Set maximum Time\-To\-Live of all messages in the specified chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.setHistoryTTL#b80e5fe4 peer:InputPeer period:int = Updates;
@@ -29,6 +29,7 @@ messages.setHistoryTTL#b80e5fe4 peer:InputPeer period:int = Updates;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
 | **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **TTL_PERIOD_INVALID** | `400` | The specified TTL period is invalid |
@@ -40,6 +41,6 @@ messages.setHistoryTTL#b80e5fe4 peer:InputPeer period:int = Updates;
 ```php
 $updates = $client->messages->setHistoryTTL(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	period : 1,
+	period : 84,
 );
 ```

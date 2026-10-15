@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Premium subscription option*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 premiumSubscriptionOption#5f2d1df2 flags:# current:flags.1?true can_purchase_upgrade:flags.2?true transaction:flags.3?string months:int currency:string amount:long bot_url:string store_product:flags.0?string = PremiumSubscriptionOption;
@@ -38,11 +38,11 @@ premiumSubscriptionOption#5f2d1df2 flags:# current:flags.1?true can_purchase_upg
 $premiumSubscriptionOption = $client->premiumSubscriptionOption(
 	current : true,
 	can_purchase_upgrade : true,
-	transaction : '5klNpHaU4MWvRQOb',
-	months : 46,
-	currency : 'mJS3kt9wdqEa04bD',
-	amount : 7037076507563655306,
+	transaction : 'egt0RwSkcDOFqPl3',
+	months : 34,
+	currency : 'E9gN74SMWaP1oXiK',
+	amount : 6040139874524433078,
 	bot_url : 'https://docs.liveproto.dev',
-	store_product : 'vLfalwny2Q8ro5dA',
+	store_product : 'hEXlLQOF0z5eRtUk',
 );
 ```

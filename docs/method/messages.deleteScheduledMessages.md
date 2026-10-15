@@ -2,7 +2,7 @@
 
 **Description** : *Delete scheduled messages*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.deleteScheduledMessages#59ae2b16 peer:InputPeer id:Vector<int> = Updates;
@@ -29,6 +29,7 @@ messages.deleteScheduledMessages#59ae2b16 peer:InputPeer id:Vector<int> = Update
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **MESSAGE_DELETE_FORBIDDEN** | `403` | You can't delete one of the messages you tried to delete, most likely because it is a service message |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
@@ -39,6 +40,6 @@ messages.deleteScheduledMessages#59ae2b16 peer:InputPeer id:Vector<int> = Update
 ```php
 $updates = $client->messages->deleteScheduledMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(81),
+	id : array(8),
 );
 ```

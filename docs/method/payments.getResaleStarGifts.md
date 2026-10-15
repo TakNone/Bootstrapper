@@ -2,7 +2,7 @@
 
 **Description** : *Get collectible gifts of a specific type currently on resale, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_num:flags.2?true for_craft:flags.4?true stars_only:flags.5?true attributes_hash:flags.0?long gift_id:long attributes:flags.3?Vector<StarGiftAttributeId> offset:string limit:int = payments.ResaleStarGifts;
@@ -17,8 +17,8 @@ payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **sort_by_price** | [`flags.1?true`](type/true) | Sort gifts by price (ascending) |
 | **sort_by_num** | [`flags.2?true`](type/true) | Sort gifts by number (ascending) |
-| **for_craft** | [`flags.4?true`](type/true) | NOTHING |
-| **stars_only** | [`flags.5?true`](type/true) | NOTHING |
+| **for_craft** | [`flags.4?true`](type/true) | Only return collectible gifts that can be bought and used for crafting »; render each returned gift's starGiftUnique.craft_chance_permille as its crafting success contribution |
+| **stars_only** | [`flags.5?true`](type/true) | Only return gifts that can be bought using Stars |
 | **attributes_hash** | [`flags.0?long`](type/long) | If a previous call to the method was made and payments.resaleStarGifts.attributes_hash was set, pass it here to avoid returning any results if they haven't changed. Otherwise, set this flag and pass 0 to return payments.resaleStarGifts.attributes_hash and payments.resaleStarGifts.attributes, these two fields will not be set if this flag is not set |
 | <mark>gift_id</mark> | [`long`](type/long) | Mandatory identifier of the base gift from which the collectible gift was upgraded |
 | **attributes** | [`flags.3?Vector<StarGiftAttributeId>`](type/StarGiftAttributeId) | Optionally filter gifts with the specified attributes. If no attributes of a specific type are specified, all attributes of that type are allowed |
@@ -37,6 +37,7 @@ payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **STARGIFT_ATTRIBUTE_INVALID** | `400` | One of the specified star gift attributes is invalid |
 | **STARGIFT_INVALID** | `400` | The passed gift is invalid |
 
 ---
@@ -49,20 +50,20 @@ $paymentsResaleStarGifts = $client->payments->getResaleStarGifts(
 	sort_by_num : true,
 	for_craft : true,
 	stars_only : true,
-	attributes_hash : -5610954371399554881,
-	gift_id : 3031797126889036972,
+	attributes_hash : 1119203737803926004,
+	gift_id : 157064666979799370,
 	attributes : array(
 		$client->starGiftAttributeIdModel(
-			document_id : 110108069723553556,
+			document_id : 3646441322827312205,
 		),
 		$client->starGiftAttributeIdPattern(
-			document_id : 2842727961045193891,
+			document_id : 8866753623039402344,
 		),
 		$client->starGiftAttributeIdBackdrop(
-			backdrop_id : 29,
+			backdrop_id : 45,
 		),
 	),
-	offset : 'ezrZqUKm1TkfEVwC',
-	limit : 55,
+	offset : 'vEDSzJxIVePpK1FX',
+	limit : 83,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Get scheduled messages*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.getScheduledMessages#bdbb0464 peer:InputPeer id:Vector<int> = messages.Messages;
@@ -29,6 +29,7 @@ messages.getScheduledMessages#bdbb0464 peer:InputPeer id:Vector<int> = messages.
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
@@ -39,6 +40,6 @@ messages.getScheduledMessages#bdbb0464 peer:InputPeer id:Vector<int> = messages.
 ```php
 $messagesMessages = $client->messages->getScheduledMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(86),
+	id : array(40),
 );
 ```

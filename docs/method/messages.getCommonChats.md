@@ -2,7 +2,7 @@
 
 **Description** : *Get chats in common with a user*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.getCommonChats#e40ca104 user_id:InputUser max_id:long limit:int = messages.Chats;
@@ -30,6 +30,7 @@ messages.getCommonChats#e40ca104 user_id:InputUser max_id:long limit:int = messa
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 
@@ -40,7 +41,7 @@ messages.getCommonChats#e40ca104 user_id:InputUser max_id:long limit:int = messa
 ```php
 $messagesChats = $client->messages->getCommonChats(
 	user_id : $client->get_input_user(user : '@TakNone'),
-	max_id : -7237653498492118059,
-	limit : 74,
+	max_id : 1372719758726158339,
+	limit : 85,
 );
 ```

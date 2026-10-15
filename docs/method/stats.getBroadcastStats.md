@@ -2,7 +2,7 @@
 
 **Description** : *Get channel statistics*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 stats.getBroadcastStats#ab42441a flags:# dark:flags.0?true channel:InputChannel = stats.BroadcastStats;

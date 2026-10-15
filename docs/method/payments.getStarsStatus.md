@@ -1,8 +1,8 @@
 # payments.getStarsStatus
 
-**Description** : *Get the current Telegram Stars balance of the current account \(with peer=inputPeerSelf\), or the stars balance of the bot specified in peer*
+**Description** : *Get the current Telegram Stars balance of the current account \(with peer=inputPeerSelf\), or the stars balance of the bot or channel specified in peer*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.getStarsStatus#4ea9b3bf flags:# ton:flags.0?true peer:InputPeer = payments.StarsStatus;
@@ -15,7 +15,7 @@ payments.getStarsStatus#4ea9b3bf flags:# ton:flags.0?true peer:InputPeer = payme
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| **ton** | [`flags.0?true`](type/true) | If set, returns the channel/ad revenue balance in nanotons |
+| **ton** | [`flags.0?true`](type/true) | If set, returns the channel/ad revenue balance in nanograms |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer of which to get the balance |
 
 ---

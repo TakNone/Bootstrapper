@@ -1,8 +1,8 @@
 # updateChatDefaultBannedRights
 
-**Description** : *Default banned rights in a normal chat were updated*
+**Description** : *Default banned rights in a basic group were updated*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBannedRights version:int = Update;
@@ -16,7 +16,7 @@ updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBanne
 | :---: | :---: | :--- |
 | <mark>peer</mark> | [`Peer`](type/Peer) | The chat |
 | <mark>default_banned_rights</mark> | [`ChatBannedRights`](type/ChatBannedRights) | New default banned rights |
-| <mark>version</mark> | [`int`](type/int) | Version |
+| <mark>version</mark> | [`int`](type/int) | Used similarly to pts values to deduplicate/update outdated chat information as specified here » |
 
 ---
 
@@ -31,7 +31,7 @@ updateChatDefaultBannedRights#54c01850 peer:Peer default_banned_rights:ChatBanne
 ```php
 $update = $client->updateChatDefaultBannedRights(
 	peer : $client->peerUser(
-		user_id : 186525655468084895,
+		user_id : 6525992434094781664,
 	),
 	default_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -56,8 +56,9 @@ $update = $client->updateChatDefaultBannedRights(
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 52,
+		manage_linked_peers : true,
+		until_date : 7,
 	),
-	version : 97,
+	version : 2,
 );
 ```

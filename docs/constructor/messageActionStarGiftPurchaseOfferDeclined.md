@@ -1,6 +1,8 @@
 # messageActionStarGiftPurchaseOfferDeclined
 
-**Layer** : 227
+**Description** : *A collectible gift purchase offer &raquo; was declined, or the offer expired, see here &raquo; for the full flow*
+
+**Layer** : 229
 
 ```tl
 messageActionStarGiftPurchaseOfferDeclined#73ada76b flags:# expired:flags.0?true gift:StarGift price:StarsAmount = MessageAction;
@@ -12,10 +14,10 @@ messageActionStarGiftPurchaseOfferDeclined#73ada76b flags:# expired:flags.0?true
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **expired** | [`flags.0?true`](type/true) | NOTHING |
-| <mark>gift</mark> | [`StarGift`](type/StarGift) | NOTHING |
-| <mark>price</mark> | [`StarsAmount`](type/StarsAmount) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **expired** | [`flags.0?true`](type/true) | If set, the owner didn't act before the messageActionStarGiftPurchaseOffer.expires_at deadline and the offer expired automatically; otherwise, the owner explicitly declined the offer |
+| <mark>gift</mark> | [`StarGift`](type/StarGift) | The collectible gift the declined or expired offer was about |
+| <mark>price</mark> | [`StarsAmount`](type/StarsAmount) | Offered price that is refunded automatically to the buyer |
 
 ---
 
@@ -38,39 +40,39 @@ $messageAction = $client->messageActionStarGiftPurchaseOfferDeclined(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : -7626720467271853209,
+		id : 5410390947576701620,
 		sticker : $client->documentEmpty(
-			id : -6843951992601504336,
+			id : 8823482179613252831,
 		),
-		stars : -6529496782504444913,
-		availability_remains : 95,
-		availability_total : 3,
-		availability_resale : 395612270656838435,
-		convert_stars : -4549000230493533297,
-		first_sale_date : 64,
-		last_sale_date : 70,
-		upgrade_stars : -8884295439269566236,
-		resell_min_stars : 1569622499862602375,
-		title : 'O516BS8GbMRIW9yY',
+		stars : 3143779770434431846,
+		availability_remains : 72,
+		availability_total : 55,
+		availability_resale : 4061792682807651456,
+		convert_stars : 5759892961626358312,
+		first_sale_date : 85,
+		last_sale_date : 69,
+		upgrade_stars : 8578093832572327291,
+		resell_min_stars : 4481610907060870696,
+		title : 'Ku70CY3qtXxfVQv9',
 		released_by : $client->peerUser(
-			user_id : -289396395949484721,
+			user_id : -7708437727302698136,
 		),
-		per_user_total : 80,
-		per_user_remains : 97,
-		locked_until_date : 21,
-		auction_slug : 'FOroyKgtVMm1Z3je',
-		gifts_per_round : 64,
-		auction_start_date : 12,
-		upgrade_variants : 14,
+		per_user_total : 74,
+		per_user_remains : 63,
+		locked_until_date : 68,
+		auction_slug : 'B6leOkuz1LNW0mno',
+		gifts_per_round : 2,
+		auction_start_date : 11,
+		upgrade_variants : 4,
 		background : $client->starGiftBackground(
-			center_color : 49,
-			edge_color : 68,
-			text_color : 79,
+			center_color : 76,
+			edge_color : 64,
+			text_color : 2,
 		),
 	),
 	price : $client->starsAmount(
-		amount : 411276418963025969,
-		nanos : 63,
+		amount : 3624502957366511270,
+		nanos : 16,
 	),
 );
 ```

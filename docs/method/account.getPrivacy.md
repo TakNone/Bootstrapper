@@ -2,7 +2,7 @@
 
 **Description** : *Get privacy settings of current account*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.getPrivacy#dadbc950 key:InputPrivacyKey = account.PrivacyRules;

@@ -1,6 +1,8 @@
 # updateBotGuestChatQuery
 
-**Layer** : 227
+**Description** : *Sent to guest bots &raquo; when a user invokes the bot as a guest in a chat\. The bot should reply by invoking messages\.setBotGuestChatResult, see here &raquo; for more info*
+
+**Layer** : 229
 
 ```tl
 updateBotGuestChatQuery#cdd4093d flags:# query_id:long message:Message reference_messages:flags.0?Vector<Message> qts:int = Update;
@@ -12,11 +14,11 @@ updateBotGuestChatQuery#cdd4093d flags:# query_id:long message:Message reference
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| <mark>query_id</mark> | [`long`](type/long) | NOTHING |
-| <mark>message</mark> | [`Message`](type/Message) | NOTHING |
-| **reference_messages** | [`flags.0?Vector<Message>`](type/Message) | NOTHING |
-| <mark>qts</mark> | [`int`](type/int) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>query_id</mark> | [`long`](type/long) | Query identifier, to be passed to messages.setBotGuestChatResult when replying |
+| <mark>message</mark> | [`Message`](type/Message) | The message that triggered the query |
+| **reference_messages** | [`flags.0?Vector<Message>`](type/Message) | Additional context messages referenced by the triggering message (for example replied-to messages) |
+| <mark>qts</mark> | [`int`](type/int) | Persistent timestamp (qts) of the update, used by bots to receive updates of this type |
 
 ---
 
@@ -30,18 +32,18 @@ updateBotGuestChatQuery#cdd4093d flags:# query_id:long message:Message reference
 
 ```php
 $update = $client->updateBotGuestChatQuery(
-	query_id : -5789540309961754380,
+	query_id : -8112935877266078850,
 	message : $client->messageEmpty(
-		id : 94,
+		id : 18,
 		peer_id : $client->peerUser(
-			user_id : 1565918960768746248,
+			user_id : -4410808669716363213,
 		),
 	),
 	reference_messages : array(
 		$client->messageEmpty(
-			id : 69,
+			id : 82,
 			peer_id : $client->peerUser(
-				user_id : 6022033846122150930,
+				user_id : -910901433957904459,
 			),
 		),
 		$client->message(
@@ -60,161 +62,161 @@ $update = $client->updateBotGuestChatQuery(
 			video_processing_pending : true,
 			paid_suggested_post_stars : true,
 			paid_suggested_post_ton : true,
-			id : 12,
+			id : 92,
 			from_id : $client->peerUser(
-				user_id : 2578443933110187650,
+				user_id : 6834326752764114729,
 			),
-			from_boosts_applied : 29,
-			from_rank : '4KYPsINGMTHnRrES',
+			from_boosts_applied : 56,
+			from_rank : 'AQSKm3Ls9ujpoghO',
 			peer_id : $client->peerUser(
-				user_id : -3886622131782796315,
+				user_id : -8779999307576011977,
 			),
 			saved_peer_id : $client->peerUser(
-				user_id : 1508870918590731735,
+				user_id : 5320176656599525701,
 			),
 			fwd_from : $client->messageFwdHeader(
 				imported : true,
 				saved_out : true,
 				from_id : $client->peerUser(
-					user_id : 5240488327756704851,
+					user_id : -1422677922866892062,
 				),
-				from_name : 'UYjwFJ3INsk4Q67H',
-				date : 32,
-				channel_post : 46,
-				post_author : 'qcjfhv98a4M1pREd',
+				from_name : 'owVfeWDLQ64b21xY',
+				date : 42,
+				channel_post : 48,
+				post_author : 'UYd9fNiB6Q8tk5K1',
 				saved_from_peer : $client->peerUser(
-					user_id : 8407088312255919056,
+					user_id : 3801180395088596200,
 				),
-				saved_from_msg_id : 42,
+				saved_from_msg_id : 6,
 				saved_from_id : $client->peerUser(
-					user_id : 5926741476527688248,
+					user_id : -7563576722284165143,
 				),
-				saved_from_name : 'qOykgxDv6eXfjPYM',
-				saved_date : 12,
-				psa_type : 'DryClE97tnIhxdG5',
+				saved_from_name : 'H58IWsB6UNhVMcoC',
+				saved_date : 47,
+				psa_type : 'xwiyAGhNDupaq4nb',
 			),
-			via_bot_id : 4423575511493976259,
-			via_business_bot_id : -8373497732001892151,
+			via_bot_id : 8658139017673810610,
+			via_business_bot_id : -3768917888752426331,
 			guestchat_via_from : $client->peerUser(
-				user_id : -1752367230353389819,
+				user_id : 4596083682351732793,
 			),
 			reply_to : $client->messageReplyHeader(
 				reply_to_scheduled : true,
 				forum_topic : true,
 				quote : true,
 				reply_to_ephemeral : true,
-				reply_to_msg_id : 57,
+				reply_to_msg_id : 5,
 				reply_to_peer_id : $client->peerUser(
-					user_id : -2494211697650511984,
+					user_id : 8433156764833750626,
 				),
 				reply_from : $client->messageFwdHeader(
 					imported : true,
 					saved_out : true,
 					from_id : $client->peerUser(...),
-					from_name : 'mx5ilGrcpqFZhLsf',
-					date : 28,
-					channel_post : 78,
-					post_author : 'N9Irjnk0h4GYiyPv',
+					from_name : 'VvnILUHQgylMdK0t',
+					date : 53,
+					channel_post : 91,
+					post_author : 'VUIi0nNyLTsob4SY',
 					saved_from_peer : $client->peerUser(...),
-					saved_from_msg_id : 74,
+					saved_from_msg_id : 60,
 					saved_from_id : $client->peerUser(...),
-					saved_from_name : 'nOKZAkVL16qc8W5I',
-					saved_date : 10,
-					psa_type : 'YsduCLPpi4M9Ilhb',
+					saved_from_name : 'GpLxs6f1A9ZdQE4R',
+					saved_date : 46,
+					psa_type : 'VL3M4xowPYKsk8uc',
 				),
 				reply_media : $client->messageMediaEmpty(),
-				reply_to_top_id : 11,
-				quote_text : 'wAKzDMiYC1xy5tSq',
+				reply_to_top_id : 33,
+				quote_text : 'qwZ0XiM9B8bdYRcJ',
 				quote_entities : array(
 					$client->messageEntityUnknown(
 						offset : 0,
-						length : 0,
+						length : 64,
 					),
 					$client->messageEntityMention(
 						offset : 0,
-						length : 64,
+						length : 84,
 					),
 					$client->messageEntityHashtag(
 						offset : 0,
-						length : 66,
+						length : 38,
 					),
 					$client->messageEntityBotCommand(
 						offset : 0,
-						length : 55,
+						length : 4,
 					),
 					$client->messageEntityUrl(
 						offset : 0,
-						length : 44,
+						length : 35,
 					),
 					$client->messageEntityEmail(
 						offset : 0,
-						length : 94,
+						length : 23,
 					),
 					$client->messageEntityBold(
 						offset : 0,
-						length : 80,
+						length : 6,
 					),
 					$client->messageEntityItalic(
 						offset : 0,
-						length : 22,
+						length : 1,
 					),
 					$client->messageEntityCode(
 						offset : 0,
-						length : 50,
+						length : 96,
 					),
 					$client->messageEntityPre(
 						offset : 0,
-						length : 65,
-						language : 'x8nlaWU37uzI9QDt',
+						length : 39,
+						language : '0Tq6dzIDkyctGQOj',
 					),
 					$client->messageEntityTextUrl(
 						offset : 0,
-						length : 45,
+						length : 7,
 						url : 'https://docs.liveproto.dev',
 					),
 					$client->messageEntityMentionName(
 						offset : 0,
-						length : 35,
-						user_id : -319760878882847796,
+						length : 58,
+						user_id : -450338662922926622,
 					),
 					$client->inputMessageEntityMentionName(
 						offset : 0,
-						length : 12,
+						length : 94,
 						user_id : $client->get_input_user(user : '@TakNone'),
 					),
 					$client->messageEntityPhone(
 						offset : 0,
-						length : 30,
+						length : 95,
 					),
 					$client->messageEntityCashtag(
 						offset : 0,
-						length : 73,
+						length : 0,
 					),
 					$client->messageEntityUnderline(
 						offset : 0,
-						length : 43,
+						length : 63,
 					),
 					$client->messageEntityStrike(
 						offset : 0,
-						length : 79,
+						length : 55,
 					),
 					$client->messageEntityBankCard(
 						offset : 0,
-						length : 95,
+						length : 33,
 					),
 					$client->messageEntitySpoiler(
 						offset : 0,
-						length : 81,
+						length : 78,
 					),
 					$client->messageEntityCustomEmoji(
 						offset : 0,
-						length : 14,
-						document_id : -1101016744494248265,
+						length : 94,
+						document_id : -5390072278401021952,
 					),
 					$client->messageEntityBlockquote(
 						collapsed : true,
 						offset : 0,
-						length : 33,
+						length : 54,
 					),
 					$client->messageEntityFormattedDate(
 						relative : true,
@@ -224,29 +226,29 @@ $update = $client->updateBotGuestChatQuery(
 						long_date : true,
 						day_of_week : true,
 						offset : 0,
-						length : 53,
-						date : 51,
+						length : 84,
+						date : 7,
 					),
 					$client->messageEntityDiffInsert(
 						offset : 0,
-						length : 36,
+						length : 14,
 					),
 					$client->messageEntityDiffReplace(
 						offset : 0,
-						length : 29,
-						old_text : 'K2Vm9RdpSjAhizbM',
+						length : 60,
+						old_text : '3IYO1EMwSzsaq48v',
 					),
 					$client->messageEntityDiffDelete(
 						offset : 0,
-						length : 29,
+						length : 57,
 					),
 				),
-				quote_offset : 78,
-				todo_item_id : 92,
+				quote_offset : 74,
+				todo_item_id : 40,
 				poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
-			date : 88,
-			message : 'PFBOhbW50ZDcVokK',
+			date : 23,
+			message : 'FfomXaeVBPHr67Gz',
 			media : $client->messageMediaEmpty(),
 			reply_markup : $client->replyKeyboardHide(
 				selective : true,
@@ -254,93 +256,93 @@ $update = $client->updateBotGuestChatQuery(
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 30,
+					length : 19,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 71,
+					length : 26,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 46,
+					length : 79,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 69,
+					length : 23,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 47,
+					length : 70,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 71,
+					length : 56,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 64,
+					length : 87,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 35,
+					length : 3,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 90,
+					length : 36,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 45,
-					language : 'WXP5vHAyaBuEh8bo',
+					length : 29,
+					language : 'ROyuM9CtG7sDrn4l',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 56,
+					length : 87,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 62,
-					user_id : 3119973998673208746,
+					length : 60,
+					user_id : 7596673541283532106,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 66,
+					length : 30,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 76,
+					length : 73,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 86,
+					length : 99,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 96,
+					length : 41,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 13,
+					length : 35,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 81,
+					length : 44,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 51,
+					length : 100,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 52,
-					document_id : 4448760743776815537,
+					length : 85,
+					document_id : -8297917682407940163,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 45,
+					length : 62,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -350,56 +352,56 @@ $update = $client->updateBotGuestChatQuery(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 57,
-					date : 92,
+					length : 41,
+					date : 53,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 90,
+					length : 44,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 75,
-					old_text : 'E2fotM5ODdvb1wUK',
+					length : 76,
+					old_text : '7SWsbCgHyQOLxl5m',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 37,
+					length : 73,
 				),
 			),
-			views : 96,
-			forwards : 21,
+			views : 85,
+			forwards : 2,
 			replies : $client->messageReplies(
 				comments : true,
-				replies : 0,
-				replies_pts : 92,
+				replies : 8,
+				replies_pts : 11,
 				recent_repliers : array(
 					$client->peerUser(
-						user_id : -7454490804914833179,
+						user_id : -9065539561794076235,
 					),
 					$client->peerChat(
-						chat_id : -4499047300199077079,
+						chat_id : 7107423381440946804,
 					),
 					$client->peerChannel(
-						channel_id : 3029074408575263376,
+						channel_id : -3953296339504393123,
 					),
 				),
-				channel_id : 3227786678777133256,
-				max_id : 9,
-				read_max_id : 0,
+				channel_id : -2705656149558586458,
+				max_id : 40,
+				read_max_id : 97,
 			),
-			edit_date : 28,
-			post_author : 'cojsuxmDS4Zr2qtC',
-			grouped_id : -643274709058481646,
+			edit_date : 73,
+			post_author : 'e7lnCJDLmtQWYrzu',
+			grouped_id : 7605351798038733026,
 			reactions : $client->messageReactions(
 				min : true,
 				can_see_list : true,
 				reactions_as_tags : true,
 				results : array(
 					$client->reactionCount(
-						chosen_order : 32,
+						chosen_order : 37,
 						reaction : $client->reactionEmpty(...),
-						count : 36,
+						count : 18,
 					),
 				),
 				recent_reactions : array(
@@ -408,7 +410,7 @@ $update = $client->updateBotGuestChatQuery(
 						unread : true,
 						my : true,
 						peer_id : $client->peerUser(...),
-						date : 60,
+						date : 100,
 						reaction : $client->reactionEmpty(...),
 					),
 				),
@@ -418,25 +420,25 @@ $update = $client->updateBotGuestChatQuery(
 						my : true,
 						anonymous : true,
 						peer_id : $client->peerUser(...),
-						count : 90,
+						count : 79,
 					),
 				),
 			),
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '5aO2z4duv0BkYxMt',
-					reason : '25pMPU8WZntFIJSN',
-					text : 'pvd7wnR1MCEufHmT',
+					platform : 'wJjI3xdHbUqvl6Lk',
+					reason : 'vr9WeGx2J0mkItO6',
+					text : 'Lnhx4RPSV8WXuUJB',
 				),
 			),
-			ttl_period : 65,
-			quick_reply_shortcut_id : 24,
-			effect : -4789516392150500668,
+			ttl_period : 52,
+			quick_reply_shortcut_id : 92,
+			effect : 5098405599128072472,
 			factcheck : $client->factCheck(
 				need_check : true,
-				country : 'a4orl1h7vN6xqXIj',
+				country : 'iRHMu79Dc8eszpt1',
 				text : $client->textWithEntities(
-					text : 'QotOfY5mEXex0wCl',
+					text : '0n6fj57qlZVYaom3',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -467,19 +469,19 @@ $update = $client->updateBotGuestChatQuery(
 				),
 				hash : 0,
 			),
-			report_delivery_until_date : 90,
-			paid_message_stars : 6570783850914616133,
+			report_delivery_until_date : 94,
+			paid_message_stars : 2072518824585807334,
 			suggested_post : $client->suggestedPost(
 				accepted : true,
 				rejected : true,
 				price : $client->starsAmount(
-					amount : 7176003765539744271,
-					nanos : 56,
+					amount : 7023307949312068572,
+					nanos : 30,
 				),
-				schedule_date : 74,
+				schedule_date : 46,
 			),
-			schedule_repeat_period : 85,
-			summary_from_language : '0IV3onZbPamuNljq',
+			schedule_repeat_period : 7,
+			summary_from_language : '0xdb7JmZz5Olkniv',
 			rich_message : $client->richMessage(
 				rtl : true,
 				part : true,
@@ -493,7 +495,7 @@ $update = $client->updateBotGuestChatQuery(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 96,
+						published_date : 13,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -506,14 +508,14 @@ $update = $client->updateBotGuestChatQuery(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'Ze6rdJWRFOIPabzq',
+						language : 'w4E71jrd3BJWH5Se',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : '8QzhNe61rdoXuKIv',
+						name : 'uDCSbskZr82HO5Ke',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -522,6 +524,7 @@ $update = $client->updateBotGuestChatQuery(
 						),
 					),
 					$client->pageBlockBlockquote(
+						collapsed : true,
 						text : $client->textEmpty(...),
 						caption : $client->textEmpty(...),
 					),
@@ -531,16 +534,16 @@ $update = $client->updateBotGuestChatQuery(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 5620006351854783542,
+						photo_id : -5618570570715532788,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 2365206572815421428,
+						webpage_id : -7610987189071521449,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -3948276660620585227,
+						video_id : 2169486241906203151,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -550,18 +553,18 @@ $update = $client->updateBotGuestChatQuery(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'kvDS0LgQJ1yFAP8I',
-						poster_photo_id : 2915150792081347463,
-						w : 24,
-						h : 72,
+						html : '6TxwQIanBdOoUhFp',
+						poster_photo_id : 5983682030515766352,
+						w : 61,
+						h : 47,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -831066950846039510,
-						author_photo_id : -37633666664114009,
-						author : 'CKGWjR1zH69ayUQO',
-						date : 7,
+						webpage_id : -2303270211304578381,
+						author_photo_id : 6614667943479172089,
+						author : 'FP83hdc5NVfO6tCX',
+						date : 80,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -602,6 +605,8 @@ $update = $client->updateBotGuestChatQuery(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -646,6 +651,8 @@ $update = $client->updateBotGuestChatQuery(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -690,6 +697,8 @@ $update = $client->updateBotGuestChatQuery(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -697,7 +706,7 @@ $update = $client->updateBotGuestChatQuery(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 3552004258954125055,
+						audio_id : 3054406181119479786,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -706,6 +715,7 @@ $update = $client->updateBotGuestChatQuery(
 					$client->pageBlockTable(
 						bordered : true,
 						striped : true,
+						compact : true,
 						title : $client->textEmpty(...),
 						rows : array(
 							$client->pageTableRow(...),
@@ -717,8 +727,8 @@ $update = $client->updateBotGuestChatQuery(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 27,
-						type : 'yDUCLSqH703uimbz',
+						start : 7,
+						type : 'oJImF2pUbvWaRS4T',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -762,6 +772,8 @@ $update = $client->updateBotGuestChatQuery(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						title : $client->textEmpty(...),
 					),
@@ -773,9 +785,9 @@ $update = $client->updateBotGuestChatQuery(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 77,
-						w : 22,
-						h : 13,
+						zoom : 25,
+						w : 11,
+						h : 55,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -797,16 +809,16 @@ $update = $client->updateBotGuestChatQuery(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : '3nCGymHsLQE9auk2',
+						source : 'egCYzPmS21aWVj7U',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 53,
-						w : 1,
-						h : 73,
+						zoom : 59,
+						w : 77,
+						h : 9,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -850,20 +862,34 @@ $update = $client->updateBotGuestChatQuery(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->textEmpty(...),
+					),
+					$client->pageBlockButtonRow(
+						align_left : true,
+						align_center : true,
+						align_right : true,
+						buttons : array(
+							$client->pageButton(...),
+						),
+					),
+					$client->pageBlockDocument(
+						document_id : -4495864176290417547,
+						caption : $client->pageCaption(...),
 					),
 				),
 				photos : array(
 					$client->photoEmpty(
-						id : -500327777580015136,
+						id : 245786421644756881,
 					),
 					$client->photo(
 						has_stickers : true,
-						id : 6408466811859613575,
-						access_hash : 2442993198095290092,
+						id : -8708068286232066039,
+						access_hash : 1604239687762084295,
 						file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-						date : 73,
+						date : 16,
 						sizes : array(
 							$client->photoSizeEmpty(...),
 							$client->photoSize(...),
@@ -877,20 +903,20 @@ $update = $client->updateBotGuestChatQuery(
 							$client->videoSizeEmojiMarkup(...),
 							$client->videoSizeStickerMarkup(...),
 						),
-						dc_id : 3,
+						dc_id : 100,
 					),
 				),
 				documents : array(
 					$client->documentEmpty(
-						id : -784146109949005132,
+						id : -4397891913441083520,
 					),
 					$client->document(
-						id : 5640443984519312446,
-						access_hash : -7092707957812488,
+						id : -4624606866407158744,
+						access_hash : -420935542780765907,
 						file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-						date : 72,
-						mime_type : 'K7jeRwmMFGlobD3k',
-						size : -8194249396440596783,
+						date : 47,
+						mime_type : 'ZN4v6FSJzXBnp2w1',
+						size : 233326621185410423,
 						thumbs : array(
 							$client->photoSizeEmpty(...),
 							$client->photoSize(...),
@@ -904,7 +930,7 @@ $update = $client->updateBotGuestChatQuery(
 							$client->videoSizeEmojiMarkup(...),
 							$client->videoSizeStickerMarkup(...),
 						),
-						dc_id : 42,
+						dc_id : 7,
 						attributes : array(
 							$client->documentAttributeImageSize(...),
 							$client->documentAttributeAnimated(...),
@@ -927,133 +953,133 @@ $update = $client->updateBotGuestChatQuery(
 			silent : true,
 			post : true,
 			legacy : true,
-			id : 75,
+			id : 2,
 			from_id : $client->peerUser(
-				user_id : 7815591045800011965,
+				user_id : 7031445452781373866,
 			),
 			peer_id : $client->peerUser(
-				user_id : 1539157935016649302,
+				user_id : 2458791237636656452,
 			),
 			saved_peer_id : $client->peerUser(
-				user_id : 3979550673047102649,
+				user_id : 4093133971106496856,
 			),
 			reply_to : $client->messageReplyHeader(
 				reply_to_scheduled : true,
 				forum_topic : true,
 				quote : true,
 				reply_to_ephemeral : true,
-				reply_to_msg_id : 12,
+				reply_to_msg_id : 22,
 				reply_to_peer_id : $client->peerUser(
-					user_id : 1294287584504541036,
+					user_id : -4138163978178047149,
 				),
 				reply_from : $client->messageFwdHeader(
 					imported : true,
 					saved_out : true,
 					from_id : $client->peerUser(...),
-					from_name : '2lGfahxYOjriNqLZ',
-					date : 92,
+					from_name : 'HA0Ei5zTQnwhK7Lv',
+					date : 90,
 					channel_post : 18,
-					post_author : 'WI64BvHDrkoxCVeA',
+					post_author : 'GYy08OcZ6WFCpiXL',
 					saved_from_peer : $client->peerUser(...),
-					saved_from_msg_id : 64,
+					saved_from_msg_id : 46,
 					saved_from_id : $client->peerUser(...),
-					saved_from_name : 'XwVaKcDuAHRPe6lL',
-					saved_date : 49,
-					psa_type : 'Heq3uoJ2s6WSNitC',
+					saved_from_name : 'E7SPC6mzBXvywu9U',
+					saved_date : 52,
+					psa_type : 'lhkR1iALmyqIOtWp',
 				),
 				reply_media : $client->messageMediaEmpty(),
-				reply_to_top_id : 44,
-				quote_text : 'mV3UuFIrznJdPp8l',
+				reply_to_top_id : 52,
+				quote_text : '42Lmo1Kg3DyXN5ld',
 				quote_entities : array(
 					$client->messageEntityUnknown(
 						offset : 0,
-						length : 42,
+						length : 24,
 					),
 					$client->messageEntityMention(
 						offset : 0,
-						length : 13,
+						length : 47,
 					),
 					$client->messageEntityHashtag(
 						offset : 0,
-						length : 95,
+						length : 12,
 					),
 					$client->messageEntityBotCommand(
 						offset : 0,
-						length : 46,
+						length : 47,
 					),
 					$client->messageEntityUrl(
 						offset : 0,
-						length : 8,
+						length : 44,
 					),
 					$client->messageEntityEmail(
 						offset : 0,
-						length : 74,
+						length : 10,
 					),
 					$client->messageEntityBold(
 						offset : 0,
-						length : 44,
+						length : 58,
 					),
 					$client->messageEntityItalic(
 						offset : 0,
-						length : 65,
+						length : 18,
 					),
 					$client->messageEntityCode(
 						offset : 0,
-						length : 13,
+						length : 84,
 					),
 					$client->messageEntityPre(
 						offset : 0,
-						length : 77,
-						language : 'VXBWiN3ekJTUjYM6',
+						length : 8,
+						language : 'u5Z6nVQcAObali2B',
 					),
 					$client->messageEntityTextUrl(
 						offset : 0,
-						length : 68,
+						length : 41,
 						url : 'https://docs.liveproto.dev',
 					),
 					$client->messageEntityMentionName(
 						offset : 0,
-						length : 98,
-						user_id : 5222453619106808725,
+						length : 27,
+						user_id : 3332800299006817834,
 					),
 					$client->inputMessageEntityMentionName(
 						offset : 0,
-						length : 19,
+						length : 61,
 						user_id : $client->get_input_user(user : '@TakNone'),
 					),
 					$client->messageEntityPhone(
 						offset : 0,
-						length : 53,
+						length : 56,
 					),
 					$client->messageEntityCashtag(
 						offset : 0,
-						length : 48,
+						length : 68,
 					),
 					$client->messageEntityUnderline(
 						offset : 0,
-						length : 89,
+						length : 39,
 					),
 					$client->messageEntityStrike(
 						offset : 0,
-						length : 55,
+						length : 10,
 					),
 					$client->messageEntityBankCard(
 						offset : 0,
-						length : 35,
+						length : 8,
 					),
 					$client->messageEntitySpoiler(
 						offset : 0,
-						length : 87,
+						length : 2,
 					),
 					$client->messageEntityCustomEmoji(
 						offset : 0,
-						length : 26,
-						document_id : 6300689619848680939,
+						length : 81,
+						document_id : 1641474683432671388,
 					),
 					$client->messageEntityBlockquote(
 						collapsed : true,
 						offset : 0,
-						length : 72,
+						length : 24,
 					),
 					$client->messageEntityFormattedDate(
 						relative : true,
@@ -1063,28 +1089,28 @@ $update = $client->updateBotGuestChatQuery(
 						long_date : true,
 						day_of_week : true,
 						offset : 0,
-						length : 38,
-						date : 27,
+						length : 49,
+						date : 65,
 					),
 					$client->messageEntityDiffInsert(
 						offset : 0,
-						length : 74,
+						length : 69,
 					),
 					$client->messageEntityDiffReplace(
 						offset : 0,
 						length : 92,
-						old_text : 'WxDYbo1SiBVHnClu',
+						old_text : 'HbYMf8Aj9oinuDKU',
 					),
 					$client->messageEntityDiffDelete(
 						offset : 0,
-						length : 45,
+						length : 100,
 					),
 				),
-				quote_offset : 48,
-				todo_item_id : 37,
+				quote_offset : 90,
+				todo_item_id : 1,
 				poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
-			date : 33,
+			date : 88,
 			action : $client->messageActionEmpty(),
 			reactions : $client->messageReactions(
 				min : true,
@@ -1092,9 +1118,9 @@ $update = $client->updateBotGuestChatQuery(
 				reactions_as_tags : true,
 				results : array(
 					$client->reactionCount(
-						chosen_order : 48,
+						chosen_order : 6,
 						reaction : $client->reactionEmpty(...),
-						count : 71,
+						count : 66,
 					),
 				),
 				recent_reactions : array(
@@ -1103,7 +1129,7 @@ $update = $client->updateBotGuestChatQuery(
 						unread : true,
 						my : true,
 						peer_id : $client->peerUser(...),
-						date : 12,
+						date : 16,
 						reaction : $client->reactionEmpty(...),
 					),
 				),
@@ -1113,11 +1139,11 @@ $update = $client->updateBotGuestChatQuery(
 						my : true,
 						anonymous : true,
 						peer_id : $client->peerUser(...),
-						count : 80,
+						count : 84,
 					),
 				),
 			),
-			ttl_period : 87,
+			ttl_period : 21,
 		),
 	),
 	qts : 39,

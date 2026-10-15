@@ -2,7 +2,7 @@
 
 **Description** : *Used by the user to relay data from an opened reply keyboard bot mini app to the bot that owns it*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendWebViewData#dc0242c8 bot:InputUser random_id:long button_text:string data:string = Updates;
@@ -15,7 +15,7 @@ messages.sendWebViewData#dc0242c8 bot:InputUser random_id:long button_text:strin
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>bot</mark> | [`InputUser`](type/InputUser) | Bot that owns the web app |
-| <mark>random_id</mark> | [`long`](type/long) | Unique client message ID to prevent duplicate sending of the same event |
+| <mark>random_id</mark> | [`long`](type/long) | Unique client message ID to prevent duplicate sending of the same event. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>button_text</mark> | [`string`](type/string) | Text of the keyboardButtonSimpleWebView that was pressed to open the web app |
 | <mark>data</mark> | [`string`](type/string) | Data to relay to the bot, obtained from a web_app_data_send JS event |
 
@@ -40,8 +40,8 @@ messages.sendWebViewData#dc0242c8 bot:InputUser random_id:long button_text:strin
 ```php
 $updates = $client->messages->sendWebViewData(
 	bot : $client->get_input_user(user : '@TakNone'),
-	random_id : -5106148787316799095,
-	button_text : '0eGycU7gQSdFhpvR',
-	data : 'uUqnPOeMbDCahViI',
+	random_id : 7332125403135285653,
+	button_text : 'TR7Y9o5rUz4ZtS2a',
+	data : 'MHsAGr60LSNeJ9vD',
 );
 ```

@@ -1,8 +1,8 @@
 # groupCall
 
-**Description** : *Info about a group call or livestream*
+**Description** : *Describes a group call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 groupCall#efb2b617 flags:# join_muted:flags.1?true can_change_join_muted:flags.2?true join_date_asc:flags.6?true schedule_start_subscribed:flags.8?true can_start_video:flags.9?true record_video_active:flags.11?true rtmp_stream:flags.12?true listeners_hidden:flags.13?true conference:flags.14?true creator:flags.15?true messages_enabled:flags.17?true can_change_messages_enabled:flags.18?true min:flags.19?true id:long access_hash:long participants_count:int title:flags.3?string stream_dc_id:flags.4?int record_start_date:flags.5?int schedule_date:flags.7?int unmuted_video_count:flags.10?int unmuted_video_limit:int version:int invite_link:flags.16?string send_paid_messages_stars:flags.20?long default_send_as:flags.21?Peer = GroupCall;
@@ -15,32 +15,32 @@ groupCall#efb2b617 flags:# join_muted:flags.1?true can_change_join_muted:flags.2
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| **join_muted** | [`flags.1?true`](type/true) | Whether the user should be muted upon joining the call |
-| **can_change_join_muted** | [`flags.2?true`](type/true) | Whether the current user can change the value of the join_muted flag using phone.toggleGroupCallSettings |
-| **join_date_asc** | [`flags.6?true`](type/true) | Specifies the ordering to use when locally sorting by date and displaying in the UI group call participants |
-| **schedule_start_subscribed** | [`flags.8?true`](type/true) | Whether we subscribed to the scheduled call |
-| **can_start_video** | [`flags.9?true`](type/true) | Whether you can start streaming video into the call |
+| **join_muted** | [`flags.1?true`](type/true) | Whether the user should be muted upon joining the call. Must be ignored if the min flag is set |
+| **can_change_join_muted** | [`flags.2?true`](type/true) | Whether the current user can change the value of the join_muted flag using phone.toggleGroupCallSettings. Must be ignored if the min flag is set |
+| **join_date_asc** | [`flags.6?true`](type/true) | Specifies the ordering to use when locally sorting by date and displaying in the UI group call participants. Set only when the call is created and never changed afterwards, so it is not applied from a min constructor |
+| **schedule_start_subscribed** | [`flags.8?true`](type/true) | Whether we subscribed to the scheduled call. Must be ignored if the min flag is set |
+| **can_start_video** | [`flags.9?true`](type/true) | Whether you can start streaming video into the call. Must be ignored if the min flag is set |
 | **record_video_active** | [`flags.11?true`](type/true) | Whether the group call is currently being recorded |
-| **rtmp_stream** | [`flags.12?true`](type/true) | Whether RTMP streams are allowed |
+| **rtmp_stream** | [`flags.12?true`](type/true) | Whether this call uses RTMP livestream mode » |
 | **listeners_hidden** | [`flags.13?true`](type/true) | Whether the listeners list is hidden and cannot be fetched using phone.getGroupParticipants. The phone.groupParticipants.count and groupCall.participants_count counters will still include listeners |
 | **conference** | [`flags.14?true`](type/true) | Whether this is an E2E conference call |
-| **creator** | [`flags.15?true`](type/true) | Whether we're created this group call |
-| **messages_enabled** | [`flags.17?true`](type/true) | NOTHING |
-| **can_change_messages_enabled** | [`flags.18?true`](type/true) | NOTHING |
-| **min** | [`flags.19?true`](type/true) | NOTHING |
+| **creator** | [`flags.15?true`](type/true) | Whether the current user created this group call. Must be ignored if the min flag is set |
+| **messages_enabled** | [`flags.17?true`](type/true) | Whether the in-call message overlay » is enabled |
+| **can_change_messages_enabled** | [`flags.18?true`](type/true) | Whether the current user may enable or disable the in-call message overlay ». Must be ignored if the min flag is set |
+| **min** | [`flags.19?true`](type/true) | Whether this is a partial constructor that must be merged into a previously cached non-min constructor, following the rules described above |
 | <mark>id</mark> | [`long`](type/long) | Group call ID |
 | <mark>access_hash</mark> | [`long`](type/long) | Group call access hash |
 | <mark>participants_count</mark> | [`int`](type/int) | Participant count |
 | **title** | [`flags.3?string`](type/string) | Group call title |
-| **stream_dc_id** | [`flags.4?int`](type/int) | DC ID to be used for livestream chunks |
+| **stream_dc_id** | [`flags.4?int`](type/int) | Media DC ID to use for RTMP stream requests ». Must be ignored if the min flag is set |
 | **record_start_date** | [`flags.5?int`](type/int) | When was the recording started |
 | **schedule_date** | [`flags.7?int`](type/int) | When is the call scheduled to start |
-| **unmuted_video_count** | [`flags.10?int`](type/int) | Number of people currently streaming video into the call |
-| <mark>unmuted_video_limit</mark> | [`int`](type/int) | Maximum number of people allowed to stream video into the call |
-| <mark>version</mark> | [`int`](type/int) | Version |
-| **invite_link** | [`flags.16?string`](type/string) | Invitation link for the conference |
-| **send_paid_messages_stars** | [`flags.20?long`](type/long) | NOTHING |
-| **default_send_as** | [`flags.21?Peer`](type/Peer) | NOTHING |
+| **unmuted_video_count** | [`flags.10?int`](type/int) | Number of people currently streaming video into the call. Must be ignored if the min flag is set |
+| <mark>unmuted_video_limit</mark> | [`int`](type/int) | Maximum number of people allowed to stream video into the call. Must be ignored if the min flag is set |
+| <mark>version</mark> | [`int`](type/int) | Revision used to apply group call updates » |
+| **invite_link** | [`flags.16?string`](type/string) | Invitation link for a conference call ». Must be ignored if the min flag is set |
+| **send_paid_messages_stars** | [`flags.20?long`](type/long) | Minimum Stars donation required from users other than the live story owner to send a paid comment »; 0 or no value allows free comments |
+| **default_send_as** | [`flags.21?Peer`](type/Peer) | Default peer displayed as the author of live story comments and reactions ». Must be ignored if the min flag is set |
 
 ---
 
@@ -67,20 +67,20 @@ $groupCall = $client->groupCall(
 	messages_enabled : true,
 	can_change_messages_enabled : true,
 	min : true,
-	id : -108432591065637981,
-	access_hash : -2821288983635730953,
-	participants_count : 30,
-	title : '5y9tpFPceqfILvUD',
-	stream_dc_id : 34,
-	record_start_date : 39,
-	schedule_date : 25,
-	unmuted_video_count : 67,
-	unmuted_video_limit : 35,
-	version : 64,
-	invite_link : 'C87Muf4xPZjlLszt',
-	send_paid_messages_stars : -6563689539179127655,
+	id : 1353820669791568856,
+	access_hash : -2627422011267004627,
+	participants_count : 31,
+	title : 'TokI684FsGmxn2JE',
+	stream_dc_id : 23,
+	record_start_date : 89,
+	schedule_date : 37,
+	unmuted_video_count : 78,
+	unmuted_video_limit : 80,
+	version : 47,
+	invite_link : 'DSGdQWETeCvZI2M7',
+	send_paid_messages_stars : -2039611191143546835,
 	default_send_as : $client->peerUser(
-		user_id : -1179800605357575741,
+		user_id : -8414473381242312076,
 	),
 );
 ```

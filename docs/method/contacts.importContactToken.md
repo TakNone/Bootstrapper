@@ -2,7 +2,7 @@
 
 **Description** : *Obtain user info from a temporary profile link*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 contacts.importContactToken#13005788 token:string = User;
@@ -36,6 +36,6 @@ contacts.importContactToken#13005788 token:string = User;
 
 ```php
 $user = $client->contacts->importContactToken(
-	token : 'lB1vU472dKM0egqR',
+	token : 'hJCvBiYUu7sTa8Ar',
 );
 ```

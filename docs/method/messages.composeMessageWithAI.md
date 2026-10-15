@@ -1,6 +1,8 @@
 # messages.composeMessageWithAI
 
-**Layer** : 227
+**Description** : *Invokes telegram&#039;s AI Editor that can translate, transform, fixup and/or emojify your message in a number of different ways, privately powered by Cocoon, see here &raquo; for more info\!*
+
+**Layer** : 229
 
 ```tl
 messages.composeMessageWithAI#daecc589 flags:# proofread:flags.0?true emojify:flags.3?true text:TextWithEntities translate_to_lang:flags.1?string tone:flags.2?InputAiComposeTone = messages.ComposedMessageWithAI;
@@ -12,18 +14,29 @@ messages.composeMessageWithAI#daecc589 flags:# proofread:flags.0?true emojify:fl
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **proofread** | [`flags.0?true`](type/true) | NOTHING |
-| **emojify** | [`flags.3?true`](type/true) | NOTHING |
-| <mark>text</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
-| **translate_to_lang** | [`flags.1?string`](type/string) | NOTHING |
-| **tone** | [`flags.2?InputAiComposeTone`](type/InputAiComposeTone) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **proofread** | [`flags.0?true`](type/true) | If set, proofreads and fixes mistakes in the message |
+| **emojify** | [`flags.3?true`](type/true) | If set, adds emojis to the message |
+| <mark>text</mark> | [`TextWithEntities`](type/TextWithEntities) | The message |
+| **translate_to_lang** | [`flags.1?string`](type/string) | If set, translates the message to the specified language |
+| **tone** | [`flags.2?InputAiComposeTone`](type/InputAiComposeTone) | If set, rephrases the message using the specified AI composer tone » |
 
 ---
 
 ## Result
 
 [messages.ComposedMessageWithAI](type/messages.ComposedMessageWithAI)
+
+---
+
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **AICOMPOSE_FLOOD_PREMIUM** | `400` | You've reached the daily limit of AI text transformations, upgrade to Telegram Premium to get 50x times more AI text transformations per day! |
+| **AICOMPOSE_TIMEOUT** | `500` | A timeout occurred while composing the message |
+| **AI_COMPOSE_TASK_MISSING** | `400` | No AI task was specified. The caller must provide at least one of: proofread, translate (with a target language), tone, or emojify |
+| **MESSAGE_EMPTY** | `400` | The provided message is empty |
 
 ---
 
@@ -34,97 +47,97 @@ $messagesComposedMessageWithAI = $client->messages->composeMessageWithAI(
 	proofread : true,
 	emojify : true,
 	text : $client->textWithEntities(
-		text : 'xLqQDY3Wa6ecVfAm',
+		text : 'DlqY7EPGz2BHcxFk',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 26,
+				length : 78,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 31,
+				length : 89,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 71,
+				length : 75,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 67,
+				length : 40,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 92,
+				length : 35,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 69,
+				length : 34,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 94,
+				length : 91,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 66,
+				length : 73,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 19,
+				length : 86,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 9,
-				language : 'gh5a1dV4mf6LXbHJ',
+				length : 70,
+				language : 'hAibXdMIQawB1esu',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 33,
+				length : 21,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 63,
-				user_id : 2269361429647224610,
+				length : 92,
+				user_id : -3736257201772719802,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 86,
+				length : 58,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 46,
+				length : 15,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 29,
+				length : 42,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 30,
+				length : 38,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 62,
+				length : 93,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 63,
+				length : 86,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 97,
+				length : 47,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 69,
-				document_id : 1426078992119263780,
+				length : 75,
+				document_id : -8947755689097709460,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 59,
+				length : 16,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -134,27 +147,27 @@ $messagesComposedMessageWithAI = $client->messages->composeMessageWithAI(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 17,
-				date : 96,
+				length : 97,
+				date : 80,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 55,
+				length : 77,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 53,
-				old_text : 'U7vwI1CWxscgDkiG',
+				length : 81,
+				old_text : 'LNoGPAszUp7WCYRK',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 93,
+				length : 21,
 			),
 		),
 	),
-	translate_to_lang : 'ZTxcNBebqWY6kzU9',
+	translate_to_lang : '3GvHJO4LaMT0BrEu',
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'tlBH2WDb6QceNzrh',
+		tone : 'udrKx5hs8MFVTzaq',
 	),
 );
 ```

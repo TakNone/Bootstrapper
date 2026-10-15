@@ -1,6 +1,6 @@
 # updateWebBrowserException
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_browser:flags.0?Bool exception:WebDomainException = Update;
@@ -32,10 +32,10 @@ $update = $client->updateWebBrowserException(
 	delete : true,
 	open_external_browser : true,
 	exception : $client->webDomainException(
-		domain : '2p7bXBfh5ixoLmrc',
+		domain : 'K2p50B8Ts1mAUXSw',
 		url : 'https://docs.liveproto.dev',
-		title : 'IoVp0m4CkFJLZNOM',
-		favicon : 8964594972900780436,
+		title : 'amFLWl0koBed7pQf',
+		favicon : 9089346585676492158,
 	),
 );
 ```

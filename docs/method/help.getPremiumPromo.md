@@ -2,7 +2,7 @@
 
 **Description** : *Get Telegram Premium promotion information*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 help.getPremiumPromo#b81b93d4 = help.PremiumPromo;

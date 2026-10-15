@@ -2,7 +2,7 @@
 
 **Description** : *Send a result obtained using messages\.getInlineBotResults*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendInlineBotResult#c0cf7646 flags:# silent:flags.5?true background:flags.6?true clear_draft:flags.7?true hide_via:flags.11?true peer:InputPeer reply_to:flags.0?InputReplyTo random_id:long query_id:long id:string schedule_date:flags.10?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut allow_paid_stars:flags.21?long = Updates;
@@ -21,7 +21,7 @@ messages.sendInlineBotResult#c0cf7646 flags:# silent:flags.5?true background:fla
 | **hide_via** | [`flags.11?true`](type/true) | Whether to hide the via @botname in the resulting message (only for bot usernames encountered in the config) |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Destination |
 | **reply_to** | [`flags.0?InputReplyTo`](type/InputReplyTo) | If set, indicates that the message should be sent in reply to the specified message or story |
-| <mark>random_id</mark> | [`long`](type/long) | Random ID to avoid resending the same query |
+| <mark>random_id</mark> | [`long`](type/long) | Random ID to avoid resending the same query. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>query_id</mark> | [`long`](type/long) | Query ID from messages.getInlineBotResults |
 | <mark>id</mark> | [`string`](type/string) | Result ID from messages.getInlineBotResults |
 | **schedule_date** | [`flags.10?int`](type/int) | Scheduled message date for scheduled messages |
@@ -94,100 +94,100 @@ $updates = $client->messages->sendInlineBotResult(
 	hide_via : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 39,
-		top_msg_id : 86,
+		reply_to_msg_id : 42,
+		top_msg_id : 34,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'VriBqXPFhKx4Hfz1',
+		quote_text : 'c6ybxzsGIHQ3wXY2',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 6,
+				length : 36,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 28,
+				length : 38,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 4,
+				length : 75,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 100,
+				length : 95,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 90,
+				length : 94,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 90,
+				length : 59,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 41,
+				length : 26,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 37,
+				length : 7,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 15,
+				length : 75,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 69,
-				language : 'UiyfsXn17mA9QNtY',
+				length : 20,
+				language : 'WDISZkHh9MEx8iNF',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 43,
+				length : 9,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 87,
-				user_id : 2720582099280165542,
+				length : 42,
+				user_id : -8160262297583011393,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 20,
+				length : 57,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 69,
+				length : 33,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 37,
+				length : 54,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 22,
+				length : 39,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 97,
+				length : 39,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 65,
+				length : 4,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 67,
+				length : 99,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 7,
-				document_id : -3672505619929426406,
+				length : 50,
+				document_id : -3359771124569786221,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 93,
+				length : 91,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -197,36 +197,36 @@ $updates = $client->messages->sendInlineBotResult(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 58,
-				date : 75,
+				length : 30,
+				date : 40,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 1,
+				length : 50,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 38,
-				old_text : 'pErxcw6SfK5kOGWD',
+				length : 82,
+				old_text : 'kJTsWu4dSMjz2wDZ',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 54,
+				length : 27,
 			),
 		),
-		quote_offset : 61,
+		quote_offset : 4,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 69,
+		todo_item_id : 93,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
-	random_id : -4251056462801494217,
-	query_id : -452126076102014960,
-	id : '5PU8Z0g9pTynjmac',
-	schedule_date : 85,
+	random_id : 6725697296313691355,
+	query_id : 7509700142151152890,
+	id : '8wxaVPzCFj3eT10q',
+	schedule_date : 65,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'cA13uoJhW40vSYBj',
+		shortcut : 'yJuSwCU10lb9ZVR3',
 	),
-	allow_paid_stars : -6740105157539883061,
+	allow_paid_stars : 8003332392375209589,
 );
 ```

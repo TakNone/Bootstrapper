@@ -1,6 +1,8 @@
 # aicompose.tones
 
-**Layer** : 227
+**Description** : *The list of saved AI composer tones &raquo; of the current user*
+
+**Layer** : 229
 
 ```tl
 aicompose.tones#6c9d0efe hash:long tones:Vector<AiComposeTone> users:Vector<User> = aicompose.Tones;
@@ -12,9 +14,9 @@ aicompose.tones#6c9d0efe hash:long tones:Vector<AiComposeTone> users:Vector<User
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>hash</mark> | [`long`](type/long) | NOTHING |
-| <mark>tones</mark> | [`Vector<AiComposeTone>`](type/AiComposeTone) | NOTHING |
-| <mark>users</mark> | [`Vector<User>`](type/User) | NOTHING |
+| <mark>hash</mark> | [`long`](type/long) | Hash for pagination, for more info click here |
+| <mark>tones</mark> | [`Vector<AiComposeTone>`](type/AiComposeTone) | The saved AI composer tones |
+| <mark>users</mark> | [`Vector<User>`](type/User) | Mentioned users (i.e. the authors of the tones) |
 
 ---
 
@@ -32,17 +34,17 @@ $aicomposeTones = $client->aicompose->tones(
 	tones : array(
 		$client->aiComposeTone(
 			creator : true,
-			id : 2819428197757859304,
-			access_hash : 4670017916887886909,
-			slug : 'jr70Iv6of9Y1yiQ5',
-			title : 'zNGOxVjJDobRwdEK',
-			emoji_id : -3405667157636584656,
-			prompt : 'ZEqu98xLPOU6ts4a',
-			installs_count : 62,
-			author_id : -311479913574654364,
+			id : -4312141624357244373,
+			access_hash : -3068379329750611914,
+			slug : 'LJqMQpH3VsBYhmCG',
+			title : 'xgjD5bcvUiGpVzXq',
+			emoji_id : -4795788749922146023,
+			prompt : 'haZkJwegC30P5Fvi',
+			installs_count : 65,
+			author_id : -1821046467922258605,
 			example_english : $client->aiComposeToneExample(
 				from : $client->textWithEntities(
-					text : 'XH1aLoxWrVEnAhU0',
+					text : 'h0slxctNroM87TwE',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -72,7 +74,7 @@ $aicomposeTones = $client->aicompose->tones(
 					),
 				),
 				to : $client->textWithEntities(
-					text : 'RCrP2oD31S0U8upV',
+					text : 'i2IsSy78bTA6upFd',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -104,14 +106,14 @@ $aicomposeTones = $client->aicompose->tones(
 			),
 		),
 		$client->aiComposeToneDefault(
-			tone : 'sSWRrfNM9cpYFi3V',
-			emoji_id : -3279471349934721244,
-			title : 'Lj8TcvpZPYG590JR',
+			tone : 'hmOG8vIpflEgMXwn',
+			emoji_id : -7369446490241021245,
+			title : 'PFY2HpkT5WA6fgGl',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : 2113176847147248107,
+			id : -7296081267364373895,
 		),
 		$client->user(
 			self : true,
@@ -144,24 +146,24 @@ $aicomposeTones = $client->aicompose->tones(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 6387437860249848460,
-			access_hash : 8223974286153421744,
+			id : 1192311868588664658,
+			access_hash : 4390777679529498791,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 3,
+			bot_info_version : 45,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'pT25SAaXbJWwEBR8',
-					reason : 'RD0ZKifEYFgole9q',
-					text : '1BvDHzUdG5at2MbY',
+					platform : 'Hwtcx67pbamVLQUP',
+					reason : 'R6VvWSrzb9G0tpoO',
+					text : 'slqnBOWaHJxNUK4F',
 				),
 			),
-			bot_inline_placeholder : 'czOPFjmiYsohwEaU',
-			lang_code : 'ViLcfb0o3J5IrDE9',
+			bot_inline_placeholder : '6WKi2L1Bokx9cvCr',
+			lang_code : '8q7Y2FuIk6hWgOZp',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -172,19 +174,20 @@ $aicomposeTones = $client->aicompose->tones(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 63,
+				max_id : 61,
 			),
 			color : $client->peerColor(
-				color : 7,
-				background_emoji_id : 1584454109527291770,
+				color : 65,
+				background_emoji_id : 165603642170864275,
 			),
 			profile_color : $client->peerColor(
-				color : 61,
-				background_emoji_id : -4986212700248478149,
+				color : 48,
+				background_emoji_id : 2677897241153172940,
 			),
-			bot_active_users : 20,
-			bot_verification_icon : 2114669876635409234,
-			send_paid_messages_stars : -3277706001566738989,
+			bot_active_users : 37,
+			bot_verification_icon : 9201573159134800863,
+			send_paid_messages_stars : -4692416281718767935,
+			linked_community_id : -2122484855886708433,
 		),
 	),
 );

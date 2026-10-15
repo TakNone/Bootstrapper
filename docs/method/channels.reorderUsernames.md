@@ -2,7 +2,7 @@
 
 **Description** : *Reorder active usernames*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.reorderUsernames#b45ced1d channel:InputChannel order:Vector<string> = Bool;
@@ -39,6 +39,6 @@ channels.reorderUsernames#b45ced1d channel:InputChannel order:Vector<string> = B
 ```php
 $bool = $client->channels->reorderUsernames(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	order : array('Dtb7jHlGPWgMFIhr'),
+	order : array('SlyOwCbasAd8cW7n'),
 );
 ```

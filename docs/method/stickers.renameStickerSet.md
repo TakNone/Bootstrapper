@@ -2,7 +2,7 @@
 
 **Description** : *Renames a stickerset*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 stickers.renameStickerSet#124b1c00 stickerset:InputStickerSet title:string = messages.StickerSet;
@@ -38,6 +38,6 @@ stickers.renameStickerSet#124b1c00 stickerset:InputStickerSet title:string = mes
 ```php
 $messagesStickerSet = $client->stickers->renameStickerSet(
 	stickerset : $client->inputStickerSetEmpty(),
-	title : '2SklpPUumJNGB95F',
+	title : 'B4J9Ou2vr3Zhn5Gy',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Folder ID*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputChatlistDialogFilter#f3e0da33 filter_id:int = InputChatlist;

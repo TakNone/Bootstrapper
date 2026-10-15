@@ -2,7 +2,7 @@
 
 **Description** : *The constructor can be interpreted as a booleantrue value*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 boolTrue#997275b5 = Bool;

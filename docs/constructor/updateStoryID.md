@@ -2,7 +2,7 @@
 
 **Description** : *A story was successfully uploaded*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateStoryID#1bf335b9 id:int random_id:long = Update;
@@ -15,7 +15,7 @@ updateStoryID#1bf335b9 id:int random_id:long = Update;
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>id</mark> | [`int`](type/int) | The id that was attributed to the story |
-| <mark>random_id</mark> | [`long`](type/long) | The random_id that was passed to stories.sendStory |
+| <mark>random_id</mark> | [`long`](type/long) | The random_id that was passed to stories.sendStory. See here » for more info on random ID deduplication and updateMessageID mapping |
 
 ---
 
@@ -29,7 +29,7 @@ updateStoryID#1bf335b9 id:int random_id:long = Update;
 
 ```php
 $update = $client->updateStoryID(
-	id : 67,
-	random_id : -4423937882650362952,
+	id : 71,
+	random_id : -8813289675121179871,
 );
 ```

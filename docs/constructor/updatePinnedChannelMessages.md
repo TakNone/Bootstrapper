@@ -2,7 +2,7 @@
 
 **Description** : *Messages were pinned/unpinned in a channel/supergroup*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updatePinnedChannelMessages#5bb98608 flags:# pinned:flags.0?true channel_id:long messages:Vector<int> pts:int pts_count:int = Update;
@@ -34,9 +34,9 @@ updatePinnedChannelMessages#5bb98608 flags:# pinned:flags.0?true channel_id:long
 ```php
 $update = $client->updatePinnedChannelMessages(
 	pinned : true,
-	channel_id : 7395816235241783209,
-	messages : array(38),
-	pts : 9,
-	pts_count : 32,
+	channel_id : -354536374403623551,
+	messages : array(45),
+	pts : 6,
+	pts_count : 68,
 );
 ```

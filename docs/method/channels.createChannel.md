@@ -2,7 +2,7 @@
 
 **Description** : *Create a supergroup/channel*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.createChannel#91006707 flags:# broadcast:flags.0?true megagroup:flags.1?true for_import:flags.3?true forum:flags.5?true title:string about:string geo_point:flags.2?InputGeoPoint address:flags.2?string ttl_period:flags.4?int = Updates;
@@ -44,7 +44,7 @@ channels.createChannel#91006707 flags:# broadcast:flags.0?true megagroup:flags.1
 | **CHAT_INVALID** | `500` | Invalid chat |
 | **CHAT_TITLE_EMPTY** | `400` | No chat title provided |
 | **TTL_PERIOD_INVALID** | `400` | The specified TTL period is invalid |
-| **USER_RESTRICTED** | `403` | You're spamreported, you can't create channels or chats |
+| **USER_RESTRICTED** | `406` | You're spamreported, you can't create channels or chats |
 
 ---
 
@@ -56,10 +56,10 @@ $updates = $client->channels->createChannel(
 	megagroup : true,
 	for_import : true,
 	forum : true,
-	title : 'z5Y3EbVlIxWRTLHC',
-	about : 'YpVoghGNR46CXEZc',
+	title : 'HhbTUS6XtBqRL7sP',
+	about : '3ZdHYtoRWLQnMu6a',
 	geo_point : $client->inputGeoPointEmpty(),
-	address : 'ixgmJzEKrCUjatWL',
-	ttl_period : 59,
+	address : 'FKjJNapv9x1tlcH0',
+	ttl_period : 61,
 );
 ```

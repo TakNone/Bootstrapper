@@ -2,7 +2,7 @@
 
 **Description** : *RTMP URL and stream key to be used in streaming software*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.groupCallStreamRtmpUrl#2dbf3432 url:string key:string = phone.GroupCallStreamRtmpUrl;
@@ -14,4 +14,4 @@ phone.groupCallStreamRtmpUrl#2dbf3432 url:string key:string = phone.GroupCallStr
 
 | Constructor | Description |
 | :---: | :--- |
-| [**phone.groupCallStreamRtmpUrl**](constructor/phone.groupCallStreamRtmpUrl) | RTMP URL and stream key to be used in streaming software |
+| [**phone.groupCallStreamRtmpUrl**](constructor/phone.groupCallStreamRtmpUrl) | Contains the RTMP publishing URL and secret stream key, see creating and publishing an RTMP livestream » |

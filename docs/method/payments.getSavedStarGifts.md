@@ -1,8 +1,8 @@
 # payments.getSavedStarGifts
 
-**Description** : *Fetch the full list of gifts owned by a peer*
+**Description** : *Fetch the full list of gifts &raquo; owned, received or hosted &raquo; by a peer*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.getSavedStarGifts#a319e569 flags:# exclude_unsaved:flags.0?true exclude_saved:flags.1?true exclude_unlimited:flags.2?true exclude_unique:flags.4?true sort_by_value:flags.5?true exclude_upgradable:flags.7?true exclude_unupgradable:flags.8?true peer_color_available:flags.9?true exclude_hosted:flags.10?true peer:InputPeer collection_id:flags.6?int offset:string limit:int = payments.SavedStarGifts;
@@ -22,9 +22,9 @@ payments.getSavedStarGifts#a319e569 flags:# exclude_unsaved:flags.0?true exclude
 | **sort_by_value** | [`flags.5?true`](type/true) | If set, sorts the gifts by price instead of reception date |
 | **exclude_upgradable** | [`flags.7?true`](type/true) | Exclude gifts that can be upgraded to collectible gifts » |
 | **exclude_unupgradable** | [`flags.8?true`](type/true) | Exclude gifts that cannot be upgraded to collectible gifts » |
-| **peer_color_available** | [`flags.9?true`](type/true) | NOTHING |
-| **exclude_hosted** | [`flags.10?true`](type/true) | NOTHING |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Fetch only gifts owned by the specified peer, such as: a user, with peer=inputPeerUser; a channel, with peer=inputPeerChannel; a connected business user (when executing the method as a bot, over the business connection), with peer=inputPeerUser |
+| **peer_color_available** | [`flags.9?true`](type/true) | If set, only returns collectible gifts whose palette can be used as a collectible message palette » |
+| **exclude_hosted** | [`flags.10?true`](type/true) | If set, excludes hosted collectible gifts », returning only gifts owned or received by peer |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Fetch only gifts owned, received or hosted » by the specified peer, such as: a user, with peer=inputPeerUser; a channel, with peer=inputPeerChannel; a connected business user » (when executing the method as a bot, over the business connection), with peer=inputPeerUser |
 | **collection_id** | [`flags.6?int`](type/int) | Only returns gifts within the specified collection » |
 | <mark>offset</mark> | [`string`](type/string) | Offset for pagination |
 | <mark>limit</mark> | [`int`](type/int) | Maximum number of results to return, see pagination |
@@ -42,6 +42,8 @@ payments.getSavedStarGifts#a319e569 flags:# exclude_unsaved:flags.0?true exclude
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
+| **COLLECTION_ID_INVALID** | `400` | The specified collection ID is invalid |
+| **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---
@@ -60,8 +62,8 @@ $paymentsSavedStarGifts = $client->payments->getSavedStarGifts(
 	peer_color_available : true,
 	exclude_hosted : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	collection_id : 53,
-	offset : 'wNJmv7sMDyV9K6eb',
-	limit : 42,
+	collection_id : 8,
+	offset : 'kdt0FeBOHRSorQ28',
+	limit : 38,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Contact status: online / offline*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 contactStatus#16d9703b user_id:long status:UserStatus = ContactStatus;

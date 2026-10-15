@@ -1,6 +1,8 @@
 # messageEntityDiffInsert
 
-**Layer** : 227
+**Description** : *Represents an diff addition: render it by simply underlining the specified section and coloring it in green, see here &raquo; for more info on how to render diff entities*
+
+**Layer** : 229
 
 ```tl
 messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
@@ -12,8 +14,8 @@ messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>offset</mark> | [`int`](type/int) | NOTHING |
-| <mark>length</mark> | [`int`](type/int) | NOTHING |
+| <mark>offset</mark> | [`int`](type/int) | Offset of message entity within message (in UTF-16 code units) |
+| <mark>length</mark> | [`int`](type/int) | Length of message entity within message (in UTF-16 code units) |
 
 ---
 
@@ -28,6 +30,6 @@ messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityDiffInsert(
 	offset : 0,
-	length : 81,
+	length : 15,
 );
 ```

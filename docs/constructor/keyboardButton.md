@@ -2,10 +2,10 @@
 
 **Description** : *Bot keyboard button*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
-keyboardButton#7d170cff flags:# style:flags.10?KeyboardButtonStyle text:string = KeyboardButton;
+keyboardButton#2f67a72f flags:# style:flags.10?KeyboardButtonStyle text:string type:ButtonType = KeyboardButton;
 ```
 
 ---
@@ -14,9 +14,10 @@ keyboardButton#7d170cff flags:# style:flags.10?KeyboardButtonStyle text:string =
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **style** | [`flags.10?KeyboardButtonStyle`](type/KeyboardButtonStyle) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **style** | [`flags.10?KeyboardButtonStyle`](type/KeyboardButtonStyle) | Button style, see here » for more info on button styles |
 | <mark>text</mark> | [`string`](type/string) | Button text |
+| <mark>type</mark> | [`ButtonType`](type/ButtonType) | NOTHING |
 
 ---
 
@@ -34,8 +35,9 @@ $keyboardButton = $client->keyboardButton(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -6601307786219415147,
+		icon : 6072310235878834262,
 	),
-	text : 'qK4GQpzun8S6MwUd',
+	text : 'x890mgJnelwcdX5K',
+	type : $client->buttonTypeDefault(),
 );
 ```

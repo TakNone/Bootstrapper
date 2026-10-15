@@ -2,7 +2,7 @@
 
 **Description** : *Get statistics for a certain story*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 stats.getStoryStats#374fef40 flags:# dark:flags.0?true peer:InputPeer id:int = stats.StoryStats;
@@ -31,6 +31,7 @@ stats.getStoryStats#374fef40 flags:# dark:flags.0?true peer:InputPeer id:int = s
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **STORIES_NEVER_CREATED** | `400` | This peer hasn't ever posted any stories |
 
@@ -42,6 +43,6 @@ stats.getStoryStats#374fef40 flags:# dark:flags.0?true peer:InputPeer id:int = s
 $statsStoryStats = $client->stats->getStoryStats(
 	dark : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 96,
+	id : 48,
 );
 ```

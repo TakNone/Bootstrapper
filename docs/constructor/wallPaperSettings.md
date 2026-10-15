@@ -2,7 +2,7 @@
 
 **Description** : *Wallpaper rendering information*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 wallPaperSettings#372efcd0 flags:# blur:flags.1?true motion:flags.2?true background_color:flags.0?int second_background_color:flags.4?int third_background_color:flags.5?int fourth_background_color:flags.6?int intensity:flags.3?int rotation:flags.4?int emoticon:flags.7?string = WallPaperSettings;
@@ -39,12 +39,12 @@ wallPaperSettings#372efcd0 flags:# blur:flags.1?true motion:flags.2?true backgro
 $wallPaperSettings = $client->wallPaperSettings(
 	blur : true,
 	motion : true,
-	background_color : 47,
-	second_background_color : 19,
-	third_background_color : 90,
-	fourth_background_color : 90,
-	intensity : 78,
-	rotation : 66,
-	emoticon : 'lO7pf2kiMBFhD0Ty',
+	background_color : 94,
+	second_background_color : 43,
+	third_background_color : 4,
+	fourth_background_color : 56,
+	intensity : 57,
+	rotation : 55,
+	emoticon : 'h4Q2TFy5LfEw9ldo',
 );
 ```

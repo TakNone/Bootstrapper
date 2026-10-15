@@ -2,7 +2,7 @@
 
 **Description** : *Reset rating of top peer*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 contacts.resetTopPeerRating#1ae373ac category:TopPeerCategory peer:InputPeer = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Reply to a message*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputReplyToMessage#3bd4b7c2 flags:# reply_to_msg_id:int top_msg_id:flags.0?int reply_to_peer_id:flags.1?InputPeer quote_text:flags.2?string quote_entities:flags.3?Vector<MessageEntity> quote_offset:flags.4?int monoforum_peer_id:flags.5?InputPeer todo_item_id:flags.6?int poll_option:flags.7?bytes = InputReplyTo;
@@ -23,7 +23,7 @@ inputReplyToMessage#3bd4b7c2 flags:# reply_to_msg_id:int top_msg_id:flags.0?int 
 | **quote_offset** | [`flags.4?int`](type/int) | Offset of the message quote_text within the original message (in UTF-16 code units) |
 | **monoforum_peer_id** | [`flags.5?InputPeer`](type/InputPeer) | Must be set to the ID of the topic when replying to a message within a monoforum topic |
 | **todo_item_id** | [`flags.6?int`](type/int) | Can be set to reply to the specified item of a todo list » |
-| **poll_option** | [`flags.7?bytes`](type/bytes) | NOTHING |
+| **poll_option** | [`flags.7?bytes`](type/bytes) | If set, sends the message as a reply to a specific poll answer option », containing the option bytes of the desired answer |
 
 ---
 
@@ -37,100 +37,100 @@ inputReplyToMessage#3bd4b7c2 flags:# reply_to_msg_id:int top_msg_id:flags.0?int 
 
 ```php
 $inputReplyTo = $client->inputReplyToMessage(
-	reply_to_msg_id : 47,
-	top_msg_id : 88,
+	reply_to_msg_id : 41,
+	top_msg_id : 58,
 	reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-	quote_text : 'm1VJNhFvIYKsOjlk',
+	quote_text : 'Gf6OqbYB2e9swoAj',
 	quote_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 71,
+			length : 78,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 78,
+			length : 32,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 69,
+			length : 98,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 48,
+			length : 31,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 16,
+			length : 20,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 4,
+			length : 44,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 39,
+			length : 5,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 64,
+			length : 99,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 78,
+			length : 12,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 12,
-			language : 'klwSbzAvg6VCmiG2',
+			length : 45,
+			language : 'Z7yrsF2hatvMmORY',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 65,
+			length : 13,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 31,
-			user_id : -4447866736534899665,
+			length : 30,
+			user_id : 2678372362748738512,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 78,
+			length : 76,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 39,
+			length : 64,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 93,
+			length : 13,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 45,
+			length : 95,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 70,
+			length : 37,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 8,
+			length : 78,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 74,
+			length : 70,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 74,
-			document_id : -4532520199560537366,
+			length : 26,
+			document_id : 474014660042571877,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 25,
+			length : 16,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -140,26 +140,26 @@ $inputReplyTo = $client->inputReplyToMessage(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 99,
-			date : 11,
+			length : 67,
+			date : 29,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 36,
+			length : 58,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 44,
-			old_text : 'PsORxj34amNpU0Gn',
+			length : 55,
+			old_text : 'yRA62kKVuDeHMp0g',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 7,
+			length : 41,
 		),
 	),
-	quote_offset : 31,
+	quote_offset : 93,
 	monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-	todo_item_id : 14,
+	todo_item_id : 57,
 	poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of emoji categories*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.getEmojiGroups#7488ce5b hash:int = messages.EmojiGroups;

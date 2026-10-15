@@ -2,7 +2,7 @@
 
 **Description** : *Set whether all users should request admin approval to join the group &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.toggleJoinRequest#ecc2618 flags:# apply_to_invites:flags.1?true channel:InputChannel enabled:Bool guard_bot:flags.0?InputUser = Updates;
@@ -46,7 +46,7 @@ channels.toggleJoinRequest#ecc2618 flags:# apply_to_invites:flags.1?true channel
 $updates = $client->channels->toggleJoinRequest(
 	apply_to_invites : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	enabled : false,
+	enabled : true,
 	guard_bot : $client->get_input_user(user : '@TakNone'),
 );
 ```

@@ -1,6 +1,8 @@
 # updatePinnedForumTopic
 
-**Layer** : 227
+**Description** : *A forum topic &raquo; was pinned or unpinned*
+
+**Layer** : 229
 
 ```tl
 updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:int = Update;
@@ -12,10 +14,10 @@ updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:i
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **pinned** | [`flags.0?true`](type/true) | NOTHING |
-| <mark>peer</mark> | [`Peer`](type/Peer) | NOTHING |
-| <mark>topic_id</mark> | [`int`](type/int) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **pinned** | [`flags.0?true`](type/true) | Whether the topic was pinned or unpinned |
+| <mark>peer</mark> | [`Peer`](type/Peer) | The supergroup forum, private chat (for forum-enabled bots) or bot forum (for users) where the topic is located |
+| <mark>topic_id</mark> | [`int`](type/int) | The topic ID |
 
 ---
 
@@ -31,8 +33,8 @@ updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:i
 $update = $client->updatePinnedForumTopic(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : -5572788698626933080,
+		user_id : 5938972313271335628,
 	),
-	topic_id : 76,
+	topic_id : 87,
 );
 ```

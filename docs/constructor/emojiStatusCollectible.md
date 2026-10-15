@@ -1,8 +1,8 @@
 # emojiStatusCollectible
 
-**Description** : *An owned collectible gift &raquo; as emoji status*
+**Description** : *An owned or hosted collectible gift &raquo; as emoji status*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 emojiStatusCollectible#7184603b flags:# collectible_id:long document_id:long title:string slug:string pattern_document_id:long center_color:int edge_color:int pattern_color:int text_color:int until:flags.0?int = EmojiStatus;
@@ -38,15 +38,15 @@ emojiStatusCollectible#7184603b flags:# collectible_id:long document_id:long tit
 
 ```php
 $emojiStatus = $client->emojiStatusCollectible(
-	collectible_id : 1076541222297228104,
-	document_id : -3200116852186747082,
-	title : 'hrOs5KFELoNWanm6',
-	slug : 'rpcl0VfngiMuGHUE',
-	pattern_document_id : -6982896323578770822,
-	center_color : 37,
+	collectible_id : -7618525768422924981,
+	document_id : -299119481473173070,
+	title : 'cinBRge2X3C8z9Nr',
+	slug : 'O8kAQhYPSJ9LvpMa',
+	pattern_document_id : 8071080742631444848,
+	center_color : 88,
 	edge_color : 86,
-	pattern_color : 80,
-	text_color : 2,
-	until : 66,
+	pattern_color : 14,
+	text_color : 94,
+	until : 93,
 );
 ```

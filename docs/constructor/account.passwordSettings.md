@@ -2,7 +2,7 @@
 
 **Description** : *Private info associated to the password info \(recovery email, telegram passport info &amp; so on\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.passwordSettings#9a5c33e5 flags:# email:flags.0?string secure_settings:flags.1?SecureSecretSettings = account.PasswordSettings;
@@ -34,7 +34,7 @@ $accountPasswordSettings = $client->account->passwordSettings(
 	secure_settings : $client->secureSecretSettings(
 		secure_algo : $client->securePasswordKdfAlgoUnknown(),
 		secure_secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		secure_secret_id : -21375327898906456,
+		secure_secret_id : 257400947569218267,
 	),
 );
 ```

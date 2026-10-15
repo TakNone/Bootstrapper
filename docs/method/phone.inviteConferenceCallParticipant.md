@@ -2,7 +2,7 @@
 
 **Description** : *Invite a user to a conference call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.inviteConferenceCallParticipant#bcf22685 flags:# video:flags.0?true call:InputGroupCall user_id:InputUser = Updates;
@@ -15,7 +15,7 @@ phone.inviteConferenceCallParticipant#bcf22685 flags:# video:flags.0?true call:I
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| **video** | [`flags.0?true`](type/true) | Invite the user to also turn on their video feed |
+| **video** | [`flags.0?true`](type/true) | Whether this is a video conference invitation |
 | <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The conference call |
 | <mark>user_id</mark> | [`InputUser`](type/InputUser) | The user to invite |
 
@@ -41,8 +41,8 @@ phone.inviteConferenceCallParticipant#bcf22685 flags:# video:flags.0?true call:I
 $updates = $client->phone->inviteConferenceCallParticipant(
 	video : true,
 	call : $client->inputGroupCall(
-		id : -7395743704359889711,
-		access_hash : 1403152114942086230,
+		id : -1586170022061201643,
+		access_hash : 8600307663453734718,
 	),
 	user_id : $client->get_input_user(user : '@TakNone'),
 );

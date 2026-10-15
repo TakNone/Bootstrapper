@@ -2,7 +2,7 @@
 
 **Description** : *Change or remove the username of a supergroup/channel*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.updateUsername#3514b3de channel:InputChannel username:string = Bool;

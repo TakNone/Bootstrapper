@@ -2,7 +2,7 @@
 
 **Description** : *Channel admin log event*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelAdminLogEventActionChangeTitle#e6dfb825 prev_value:string new_value:string = ChannelAdminLogEventAction;
@@ -116,4 +116,4 @@ channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:st
 | [**channelAdminLogEventActionToggleSignatureProfiles**](constructor/channelAdminLogEventActionToggleSignatureProfiles) | Channel signature profiles were enabled/disabled |
 | [**channelAdminLogEventActionParticipantSubExtend**](constructor/channelAdminLogEventActionParticipantSubExtend) | A paid subscriber has extended their Telegram Star subscription » |
 | [**channelAdminLogEventActionToggleAutotranslation**](constructor/channelAdminLogEventActionToggleAutotranslation) | Channel autotranslation was toggled » |
-| [**channelAdminLogEventActionParticipantEditRank**](constructor/channelAdminLogEventActionParticipantEditRank) | NOTHING |
+| [**channelAdminLogEventActionParticipantEditRank**](constructor/channelAdminLogEventActionParticipantEditRank) | A participant's tag » was changed |

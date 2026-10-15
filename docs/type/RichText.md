@@ -2,7 +2,7 @@
 
 **Description** : *Rich text*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 textEmpty#dc3d824f = RichText;
@@ -34,6 +34,8 @@ textAutoPhone#24c26789 text:RichText = RichText;
 textBankCard#b956812d text:RichText = RichText;
 textMentionName#1a9fbfc text:RichText user_id:long = RichText;
 textDate#a5b45e2b flags:# relative:flags.0?true short_time:flags.1?true long_time:flags.2?true short_date:flags.3?true long_date:flags.4?true day_of_week:flags.5?true text:RichText date:int = RichText;
+textDiff#9686cb50 text:RichText old_text:RichText = RichText;
+textButton#afc79cd6 flags:# text:RichText type:InlineButtonType style:flags.0?RichButtonStyle = RichText;
 ```
 
 ---
@@ -71,3 +73,5 @@ textDate#a5b45e2b flags:# relative:flags.0?true short_time:flags.1?true long_tim
 | [**textBankCard**](constructor/textBankCard) | NOTHING |
 | [**textMentionName**](constructor/textMentionName) | NOTHING |
 | [**textDate**](constructor/textDate) | NOTHING |
+| [**textDiff**](constructor/textDiff) | NOTHING |
+| [**textButton**](constructor/textButton) | NOTHING |

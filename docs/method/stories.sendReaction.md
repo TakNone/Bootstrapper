@@ -2,7 +2,7 @@
 
 **Description** : *React to a story*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 stories.sendReaction#7fd736b2 flags:# add_to_recent:flags.0?true peer:InputPeer story_id:int reaction:Reaction = Updates;
@@ -34,6 +34,7 @@ stories.sendReaction#7fd736b2 flags:# add_to_recent:flags.0?true peer:InputPeer 
 | :---: | :---: | :--- |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **REACTION_INVALID** | `400` | The specified reaction is invalid |
+| **STORIES_NEVER_CREATED** | `400` | This peer hasn't ever posted any stories |
 | **STORY_ID_EMPTY** | `400` | You specified no story IDs |
 | **STORY_ID_INVALID** | `400` | The specified story ID is invalid |
 
@@ -45,7 +46,7 @@ stories.sendReaction#7fd736b2 flags:# add_to_recent:flags.0?true peer:InputPeer 
 $updates = $client->stories->sendReaction(
 	add_to_recent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	story_id : 8,
+	story_id : 15,
 	reaction : $client->reactionEmpty(),
 );
 ```

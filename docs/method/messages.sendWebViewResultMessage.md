@@ -2,7 +2,7 @@
 
 **Description** : *Terminate webview interaction started with messages\.requestWebView, sending the specified message to the chat on behalf of the user*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendWebViewResultMessage#a4314f5 bot_query_id:string result:InputBotInlineResult = WebViewMessageSent;
@@ -38,26 +38,26 @@ messages.sendWebViewResultMessage#a4314f5 bot_query_id:string result:InputBotInl
 
 ```php
 $webViewMessageSent = $client->messages->sendWebViewResultMessage(
-	bot_query_id : '98mdEiZgLbJIrVlj',
+	bot_query_id : 'ef71MywEOjcTx56J',
 	result : $client->inputBotInlineResult(
-		id : 'lRK7zwGj0SHQ1aEv',
-		type : 'EmWnVCFJxS3u50Hb',
-		title : 'gHpIFvk08Q2fEWx7',
-		description : 'pmHlCtYgoasbnEWz',
+		id : 'LoPSp7mZFDO8Usq2',
+		type : 'h8aTc49UznrYukfx',
+		title : 'ObU17NDd9Wcpv3Cy',
+		description : 'r5nph6Qq8ad0vPX4',
 		url : 'https://docs.liveproto.dev',
 		thumb : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 62,
-			mime_type : 'xhcEtPyNGIMR5D6i',
+			size : 43,
+			mime_type : 'YiP3qCwdTUBXe6zk',
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 48,
-					h : 3,
+					w : 49,
+					h : 63,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'jtErPcoJySX6wKfB',
+					alt : 'AlxKv14OUbqP6ETW',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -65,45 +65,45 @@ $webViewMessageSent = $client->messages->sendWebViewResultMessage(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : 598233.2919921875,
-					w : 34,
-					h : 11,
-					preload_prefix_size : 40,
-					video_start_ts : -535188.71484375,
-					video_codec : 'w2lJxaY9VXPSHKnO',
+					duration : -1315647.3076171875,
+					w : 25,
+					h : 22,
+					preload_prefix_size : 80,
+					video_start_ts : 1657945.9365234375,
+					video_codec : 's8OVCbcduFmMtwlY',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 53,
-					title : 'xUl6JvcAsFmdWirg',
-					performer : 'Ey0QDTYBvqoH5dkL',
+					duration : 17,
+					title : 'DyJfI3UPFtWuNCsb',
+					performer : 'vqjaQxcBPbMeY47Z',
 					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'yVH8Qhi0tv4wOjBc',
+					file_name : 'aEiA0pC28TyrwBJf',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'fcLlETet1xWZI5hM',
+					alt : '2oN1vW7AwMpHg5GU',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),
 		),
 		content : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 72,
-			mime_type : 'oDqnEp2T9rHSPgt7',
+			size : 63,
+			mime_type : 'RQ7EDMSHJcLXlVu1',
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 33,
-					h : 4,
+					w : 46,
+					h : 17,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'C8jqATLWgoKXDQOH',
+					alt : 'HGTUCAanzRxlIoXd',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -111,125 +111,125 @@ $webViewMessageSent = $client->messages->sendWebViewResultMessage(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : -1490661.341796875,
-					w : 27,
-					h : 53,
-					preload_prefix_size : 9,
-					video_start_ts : -159777.90625,
-					video_codec : '2Oz3vo8MYGeFCmN9',
+					duration : 714937.37890625,
+					w : 57,
+					h : 31,
+					preload_prefix_size : 44,
+					video_start_ts : 120168.974609375,
+					video_codec : 'cg9Sjx0WwurtslHi',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 28,
-					title : 'DIYMPc3VOBCAKRN2',
-					performer : 'xHYyZ8932phRUDnX',
+					duration : 61,
+					title : '5zVSbLw38N0p47rh',
+					performer : 'MbTK3V0JBtkXwWOn',
 					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'G8g3KEucDCqy6x1O',
+					file_name : 's5u48tn3YvljHT7b',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'jR3ANKvgXkPlUeQn',
+					alt : 'XzYsfIpRyJDO0m61',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),
 		),
 		send_message : $client->inputBotInlineMessageMediaAuto(
 			invert_media : true,
-			message : 'Lzt1xej6FMOVTvqk',
+			message : 'd23SYF7iXDGbq8xU',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 84,
+					length : 93,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 8,
+					length : 61,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 83,
+					length : 52,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 68,
+					length : 34,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 52,
+					length : 32,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 72,
+					length : 83,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 53,
+					length : 60,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 54,
+					length : 69,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 29,
+					length : 100,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 4,
-					language : 'TGi8wgRuU2keA94x',
+					length : 36,
+					language : '9WbO0j5AdNepH8z2',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 54,
+					length : 61,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 80,
-					user_id : 110963942929239802,
+					length : 74,
+					user_id : -8131104018767336218,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 53,
+					length : 82,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 69,
+					length : 75,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 39,
+					length : 95,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 36,
+					length : 50,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 9,
+					length : 72,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 89,
+					length : 74,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 99,
+					length : 7,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 42,
-					document_id : 3770233773328625314,
+					length : 35,
+					document_id : 4256293977651819045,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 56,
+					length : 86,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -239,21 +239,21 @@ $webViewMessageSent = $client->messages->sendWebViewResultMessage(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 99,
-					date : 70,
+					length : 67,
+					date : 18,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 59,
+					length : 87,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 11,
-					old_text : 'B47M25i9w6qckERx',
+					length : 71,
+					old_text : 'rWRHSzfnJhs3jZM2',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 89,
+					length : 33,
 				),
 			),
 			reply_markup : $client->replyKeyboardHide(

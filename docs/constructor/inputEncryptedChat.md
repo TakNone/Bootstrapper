@@ -1,8 +1,8 @@
 # inputEncryptedChat
 
-**Description** : *Creates an encrypted chat*
+**Description** : *An e2e encrypted chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;
@@ -15,7 +15,7 @@ inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>chat_id</mark> | [`int`](type/int) | Chat ID |
-| <mark>access_hash</mark> | [`long`](type/long) | Checking sum from constructor encryptedChat, encryptedChatWaiting or encryptedChatRequested |
+| <mark>access_hash</mark> | [`long`](type/long) | Access hash from encryptedChat, encryptedChatWaiting or encryptedChatRequested |
 
 ---
 
@@ -29,7 +29,7 @@ inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;
 
 ```php
 $inputEncryptedChat = $client->inputEncryptedChat(
-	chat_id : 22,
-	access_hash : -2037613214379956016,
+	chat_id : 86,
+	access_hash : -1798462945529526121,
 );
 ```

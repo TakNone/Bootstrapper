@@ -2,7 +2,7 @@
 
 **Description** : *Get poll results*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.getPollResults#eda3e33b peer:InputPeer msg_id:int poll_hash:long = Updates;
@@ -16,7 +16,7 @@ messages.getPollResults#eda3e33b peer:InputPeer msg_id:int poll_hash:long = Upda
 | :---: | :---: | :--- |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer where the poll was found |
 | <mark>msg_id</mark> | [`int`](type/int) | Message ID of poll message |
-| <mark>poll_hash</mark> | [`long`](type/long) | NOTHING |
+| <mark>poll_hash</mark> | [`long`](type/long) | Pass the poll.hash from the last received poll state; the server skips returning unchanged data |
 
 ---
 
@@ -40,7 +40,7 @@ messages.getPollResults#eda3e33b peer:InputPeer msg_id:int poll_hash:long = Upda
 ```php
 $updates = $client->messages->getPollResults(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 79,
-	poll_hash : -5957053614507858828,
+	msg_id : 8,
+	poll_hash : -5072250708067566162,
 );
 ```

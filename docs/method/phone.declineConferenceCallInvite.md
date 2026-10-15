@@ -1,8 +1,8 @@
 # phone.declineConferenceCallInvite
 
-**Description** : *Declines a conference call invite*
+**Description** : *Decline a conference call invite*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.declineConferenceCallInvite#3c479971 msg_id:int = Updates;
@@ -36,6 +36,6 @@ phone.declineConferenceCallInvite#3c479971 msg_id:int = Updates;
 
 ```php
 $updates = $client->phone->declineConferenceCallInvite(
-	msg_id : 76,
+	msg_id : 28,
 );
 ```

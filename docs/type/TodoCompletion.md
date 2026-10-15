@@ -2,7 +2,7 @@
 
 **Description** : *A completed todo list &raquo; item*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 todoCompletion#221bb5e4 id:int completed_by:Peer date:int = TodoCompletion;

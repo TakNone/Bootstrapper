@@ -1,8 +1,8 @@
 # stories.getPeerMaxIDs
 
-**Description** : *Get the IDs of the maximum read stories for a set of peers*
+**Description** : *Get compact active story summaries &raquo; for a set of peers*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 stories.getPeerMaxIDs#78499170 id:Vector<InputPeer> = Vector<RecentStory>;
@@ -14,7 +14,7 @@ stories.getPeerMaxIDs#78499170 id:Vector<InputPeer> = Vector<RecentStory>;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>id</mark> | [`Vector<InputPeer>`](type/InputPeer) | Peers |
+| <mark>id</mark> | [`Vector<InputPeer>`](type/InputPeer) | Peers whose active story summaries » should be fetched |
 
 ---
 

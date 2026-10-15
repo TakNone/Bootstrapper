@@ -2,7 +2,7 @@
 
 **Description** : *Allow all participants of certain chats*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 privacyValueAllowChatParticipants#6b134e8e chats:Vector<long> = PrivacyRule;
@@ -28,6 +28,6 @@ privacyValueAllowChatParticipants#6b134e8e chats:Vector<long> = PrivacyRule;
 
 ```php
 $privacyRule = $client->privacyValueAllowChatParticipants(
-	chats : array(922478956996292343),
+	chats : array(710468349712625590),
 );
 ```

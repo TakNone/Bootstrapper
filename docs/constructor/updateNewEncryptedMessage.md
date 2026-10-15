@@ -2,7 +2,7 @@
 
 **Description** : *New encrypted message*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateNewEncryptedMessage#12bcbd9a message:EncryptedMessage qts:int = Update;
@@ -30,12 +30,12 @@ updateNewEncryptedMessage#12bcbd9a message:EncryptedMessage qts:int = Update;
 ```php
 $update = $client->updateNewEncryptedMessage(
 	message : $client->encryptedMessage(
-		random_id : -3339685359067730240,
-		chat_id : 69,
-		date : 24,
+		random_id : 4476074425773862716,
+		chat_id : 44,
+		date : 48,
 		bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		file : $client->encryptedFileEmpty(),
 	),
-	qts : 60,
+	qts : 79,
 );
 ```

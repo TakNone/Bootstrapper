@@ -2,7 +2,7 @@
 
 **Description** : *Sends one or more paid Telegram Star reactions &raquo;, transferring Telegram Stars &raquo; to a channel&#039;s balance*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendPaidReaction#58bbcb50 flags:# peer:InputPeer msg_id:int count:int random_id:long private:flags.0?PaidReactionPrivacy = Updates;
@@ -18,7 +18,7 @@ messages.sendPaidReaction#58bbcb50 flags:# peer:InputPeer msg_id:int count:int r
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The channel |
 | <mark>msg_id</mark> | [`int`](type/int) | The message to react to |
 | <mark>count</mark> | [`int`](type/int) | The number of stars to send (each will increment the reaction counter by one) |
-| <mark>random_id</mark> | [`long`](type/long) | Unique client message ID required to prevent message resending. Note: this argument must be composed of a 64-bit integer where the lower 32 bits are random, and the higher 32 bits are equal to the current unixtime, i.e. uint64_t random_id = (time() << 32) | ((uint64_t)random_uint32_t()): this differs from the random_id format of all other methods in the API, which just take 64 random bits |
+| <mark>random_id</mark> | [`long`](type/long) | Unique client message ID required to prevent message resending. Note: this argument must be composed of a 64-bit integer where the lower 32 bits are random, and the higher 32 bits are equal to the current unixtime, i.e. `uint64_t random_id = (time() << 32). See here » for more info on random ID deduplication and updateMessageID mapping |
 | **private** | [`flags.0?PaidReactionPrivacy`](type/PaidReactionPrivacy) | Each post with star reactions has a leaderboard with the top senders, but users can opt out of appearing there if they prefer more privacy. Not populating this field will use the default reaction privacy, stored on the server and synced to clients using updatePaidReactionPrivacy (see here for more info) |
 
 ---
@@ -35,11 +35,12 @@ messages.sendPaidReaction#58bbcb50 flags:# peer:InputPeer msg_id:int count:int r
 | :---: | :---: | :--- |
 | **BALANCE_TOO_LOW** | `400` | The transaction cannot be completed because the current Telegram Stars balance is too low |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
+| **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **RANDOM_ID_EMPTY** | `400` | Random ID empty |
-| **RANDOM_ID_EXPIRED** | `400` | The specified random_id was expired (most likely it didn't follow the required uint64_t random_id = (time() << 32) | ((uint64_t)random_uint32_t()) format, or the specified time is too far in the past) |
+| **RANDOM_ID_EXPIRED** | `400` | The specified random_id was expired (most likely it didn't follow the required `uint64_t random_id = (time() << 32) |
 | **REACTIONS_COUNT_INVALID** | `400` | The specified number of reactions is invalid |
 | **SEND_AS_PEER_INVALID** | `400` | You can't send messages as the specified peer |
 
@@ -50,9 +51,9 @@ messages.sendPaidReaction#58bbcb50 flags:# peer:InputPeer msg_id:int count:int r
 ```php
 $updates = $client->messages->sendPaidReaction(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 16,
-	count : 52,
-	random_id : 596648760224370152,
+	msg_id : 94,
+	count : 70,
+	random_id : -4067795437149567956,
 	private : $client->paidReactionPrivacyDefault(),
 );
 ```

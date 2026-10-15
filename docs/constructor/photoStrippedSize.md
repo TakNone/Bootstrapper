@@ -2,7 +2,7 @@
 
 **Description** : *A low\-resolution compressed JPG payload*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 photoStrippedSize#e0b0bc2e type:string bytes:bytes = PhotoSize;
@@ -14,8 +14,8 @@ photoStrippedSize#e0b0bc2e type:string bytes:bytes = PhotoSize;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>type</mark> | [`string`](type/string) | Thumbnail type |
-| <mark>bytes</mark> | [`bytes`](type/bytes) | Thumbnail data, see here for more info on decompression » |
+| <mark>type</mark> | [`string`](type/string) | PhotoSize.type value » |
+| <mark>bytes</mark> | [`bytes`](type/bytes) | Thumbnail data, see stripped thumbnails » |
 
 ---
 
@@ -29,7 +29,7 @@ photoStrippedSize#e0b0bc2e type:string bytes:bytes = PhotoSize;
 
 ```php
 $photoSize = $client->photoStrippedSize(
-	type : '0giUI4jmDS8lser2',
+	type : 'WknbYHgjVP630KeD',
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

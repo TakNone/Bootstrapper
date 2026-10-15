@@ -1,6 +1,8 @@
 # contacts.updateContactNote
 
-**Layer** : 227
+**Description** : *Update the private note associated to a contact; see here &raquo; for more info*
+
+**Layer** : 229
 
 ```tl
 contacts.updateContactNote#139f63fb id:InputUser note:TextWithEntities = Bool;
@@ -12,8 +14,8 @@ contacts.updateContactNote#139f63fb id:InputUser note:TextWithEntities = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>id</mark> | [`InputUser`](type/InputUser) | NOTHING |
-| <mark>note</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
+| <mark>id</mark> | [`InputUser`](type/InputUser) | The contact |
+| <mark>note</mark> | [`TextWithEntities`](type/TextWithEntities) | The note |
 
 ---
 
@@ -23,103 +25,112 @@ contacts.updateContactNote#139f63fb id:InputUser note:TextWithEntities = Bool;
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **CONTACT_ID_INVALID** | `400` | The provided contact ID is invalid |
+| **CONTACT_MISSING** | `400` | The specified user is not a contact |
+
+---
+
 ## Example
 
 ```php
 $bool = $client->contacts->updateContactNote(
 	id : $client->get_input_user(user : '@TakNone'),
 	note : $client->textWithEntities(
-		text : 'oGep8x237FS1wI6M',
+		text : 'o7wRhELNJWyasUMI',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 52,
+				length : 2,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 67,
+				length : 73,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 27,
+				length : 3,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 1,
+				length : 50,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 19,
+				length : 13,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 88,
+				length : 43,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 91,
+				length : 27,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 66,
+				length : 44,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 25,
+				length : 74,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 80,
-				language : 'ceMtSTpGPFgly40o',
+				length : 91,
+				language : 'SlcHGCRsqZ5Vx0pv',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 23,
+				length : 5,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 42,
-				user_id : 3242467290217457993,
+				length : 85,
+				user_id : -6399423750523472500,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 43,
+				length : 0,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 91,
+				length : 79,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 8,
+				length : 56,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 50,
+				length : 54,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 33,
+				length : 23,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 25,
+				length : 80,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 22,
+				length : 32,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 13,
-				document_id : 6325016394184369094,
+				length : 11,
+				document_id : -980612718492893489,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 49,
+				length : 87,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -129,21 +140,21 @@ $bool = $client->contacts->updateContactNote(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 70,
-				date : 34,
+				length : 79,
+				date : 67,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 20,
+				length : 33,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 73,
-				old_text : 'ORlSNAcIVGkC641n',
+				length : 97,
+				old_text : 'MqLb6xuOkwsRFK1i',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 74,
+				length : 83,
 			),
 		),
 	),

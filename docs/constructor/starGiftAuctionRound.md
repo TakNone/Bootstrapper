@@ -1,6 +1,8 @@
 # starGiftAuctionRound
 
-**Layer** : 227
+**Description** : *Describes one or more collectible gift auction rounds &raquo;*
+
+**Layer** : 229
 
 ```tl
 starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;
@@ -12,8 +14,8 @@ starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>num</mark> | [`int`](type/int) | NOTHING |
-| <mark>duration</mark> | [`int`](type/int) | NOTHING |
+| <mark>num</mark> | [`int`](type/int) | This object describes all rounds starting from num up until next.num-1 inclusively (next is the next StarGiftAuctionRound) |
+| <mark>duration</mark> | [`int`](type/int) | Duration in seconds of the round(s) |
 
 ---
 
@@ -27,7 +29,7 @@ starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;
 
 ```php
 $starGiftAuctionRound = $client->starGiftAuctionRound(
-	num : 23,
-	duration : 33,
+	num : 12,
+	duration : 63,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Deletes a device by its token, stops sending PUSH\-notifications to it*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.unregisterDevice#6a0d3206 token_type:int token:string other_uids:Vector<long> = Bool;
@@ -38,8 +38,8 @@ account.unregisterDevice#6a0d3206 token_type:int token:string other_uids:Vector<
 
 ```php
 $bool = $client->account->unregisterDevice(
-	token_type : 89,
-	token : 'NvSYFkfwMx5L6abG',
-	other_uids : array(2019629543003732787),
+	token_type : 73,
+	token : 'BnFHMTldi6ztDEIY',
+	other_uids : array(-7486420976117475459),
 );
 ```

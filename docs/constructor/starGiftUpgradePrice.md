@@ -1,6 +1,8 @@
 # starGiftUpgradePrice
 
-**Layer** : 227
+**Description** : *Indicates the price for a gift upgrade &raquo; starting from a specific point in time*
+
+**Layer** : 229
 
 ```tl
 starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice;
@@ -12,8 +14,8 @@ starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>date</mark> | [`int`](type/int) | NOTHING |
-| <mark>upgrade_stars</mark> | [`long`](type/long) | NOTHING |
+| <mark>date</mark> | [`int`](type/int) | UNIX timestamp indicating when the price will be in effect |
+| <mark>upgrade_stars</mark> | [`long`](type/long) | Upgrade price |
 
 ---
 
@@ -27,7 +29,7 @@ starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice
 
 ```php
 $starGiftUpgradePrice = $client->starGiftUpgradePrice(
-	date : 74,
-	upgrade_stars : 9114433046491917337,
+	date : 75,
+	upgrade_stars : -3093511546241826680,
 );
 ```

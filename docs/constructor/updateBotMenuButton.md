@@ -2,7 +2,7 @@
 
 **Description** : *The menu button behavior for the specified bot has changed*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateBotMenuButton#14b85813 bot_id:long button:BotMenuButton = Update;
@@ -29,7 +29,7 @@ updateBotMenuButton#14b85813 bot_id:long button:BotMenuButton = Update;
 
 ```php
 $update = $client->updateBotMenuButton(
-	bot_id : -4317317531112029514,
+	bot_id : -4932333988637849827,
 	button : $client->botMenuButtonDefault(),
 );
 ```

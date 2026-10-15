@@ -2,7 +2,7 @@
 
 **Description** : *Channel statistics graph*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 statsGraphAsync#4a27eb2d token:string = StatsGraph;

@@ -2,7 +2,7 @@
 
 **Description** : *Animations and metadata associated with message reactions &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.availableReactionsNotModified#9f071957 = messages.AvailableReactions;

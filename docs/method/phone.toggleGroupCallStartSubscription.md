@@ -2,7 +2,7 @@
 
 **Description** : *Subscribe or unsubscribe to a scheduled group call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.toggleGroupCallStartSubscription#219c34e6 call:InputGroupCall subscribed:Bool = Updates;
@@ -14,8 +14,8 @@ phone.toggleGroupCallStartSubscription#219c34e6 call:InputGroupCall subscribed:B
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Scheduled group call |
-| <mark>subscribed</mark> | [`Bool`](type/Bool) | Enable or disable subscription |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Scheduled video chat/livestream that has not started yet |
+| <mark>subscribed</mark> | [`Bool`](type/Bool) | Whether to receive a service-notification message when the call starts |
 
 ---
 
@@ -30,6 +30,7 @@ phone.toggleGroupCallStartSubscription#219c34e6 call:InputGroupCall subscribed:B
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **GROUPCALL_ALREADY_STARTED** | `403` | The groupcall has already started, you can join directly using phone.joinGroupCall |
+| **GROUPCALL_FORBIDDEN** | `403` | The specified group call cannot be used in this context |
 | **GROUPCALL_INVALID** | `400` | The specified group call is invalid |
 
 ---
@@ -39,9 +40,9 @@ phone.toggleGroupCallStartSubscription#219c34e6 call:InputGroupCall subscribed:B
 ```php
 $updates = $client->phone->toggleGroupCallStartSubscription(
 	call : $client->inputGroupCall(
-		id : 3975422445196039696,
-		access_hash : -680842065665876437,
+		id : -862921261260325189,
+		access_hash : 2332235635166940864,
 	),
-	subscribed : false,
+	subscribed : true,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Notify the user that the sent passport data contains some errors The user will not be able to re\-submit their Passport data to you until the errors are fixed \(the contents of the field for which you returned the error must change\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 users.setSecureValueErrors#90c894b5 id:InputUser errors:Vector<SecureValueError> = Bool;
@@ -45,48 +45,48 @@ $bool = $client->users->setSecureValueErrors(
 		$client->secureValueErrorData(
 			type : $client->secureValueTypePersonalDetails(),
 			data_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			field : 'iyqxm170Dc2V8wgT',
-			text : 'pKFdSoswyTQ4YOZ3',
+			field : 'lGke3ws8zjcqm1QK',
+			text : 'JxhvB9CX7Fszd8R5',
 		),
 		$client->secureValueErrorFrontSide(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'ytHd6uVDe0Kbi4Jg',
+			text : '9IWnepGcEPd62uD3',
 		),
 		$client->secureValueErrorReverseSide(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'byOwUlM7EgtLQWXY',
+			text : '5P17YIGHDhR4vQjr',
 		),
 		$client->secureValueErrorSelfie(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : '0ovdVQNJKiSBjkwy',
+			text : 'lsLxd4eEBVbz1CgU',
 		),
 		$client->secureValueErrorFile(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'dwzq20H6cefXrViy',
+			text : 'aTIn0p3DCoj1W9cf',
 		),
 		$client->secureValueErrorFiles(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-			text : 'F7yjl19cGVIKRTJL',
+			text : 'dzbtJ3fvM9A4orsa',
 		),
 		$client->secureValueError(
 			type : $client->secureValueTypePersonalDetails(),
 			hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'WOyuwbon8ez9cJht',
+			text : 'P3BS5Z9JGi7AyKh2',
 		),
 		$client->secureValueErrorTranslationFile(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			text : 'DRmPIHB16sxUZuY8',
+			text : 'eFsAqD2LXBC71dKy',
 		),
 		$client->secureValueErrorTranslationFiles(
 			type : $client->secureValueTypePersonalDetails(),
 			file_hash : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-			text : '54kqx9FgoBde3E0m',
+			text : 'HUQdSiDu7ABsNhMn',
 		),
 	),
 );

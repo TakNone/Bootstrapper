@@ -2,7 +2,7 @@
 
 **Description** : *Represents a todo list &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageMediaToDo#8a53b014 flags:# todo:TodoList completions:flags.0?Vector<TodoCompletion> = MessageMedia;
@@ -34,97 +34,97 @@ $messageMedia = $client->messageMediaToDo(
 		others_can_append : true,
 		others_can_complete : true,
 		title : $client->textWithEntities(
-			text : 'xERzA9jG02POyqkJ',
+			text : 'UOFnRLPA4fVbuavY',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 51,
+					length : 38,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 36,
+					length : 85,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 65,
+					length : 75,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 32,
+					length : 87,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 40,
+					length : 30,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 90,
+					length : 77,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 30,
+					length : 88,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 93,
+					length : 74,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 36,
+					length : 75,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 58,
-					language : 'a1mlou92BX6PfhwY',
+					length : 14,
+					language : 'lBh1YDvSE32n4NZm',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 82,
+					length : 89,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 94,
-					user_id : 5780276964484484689,
+					length : 74,
+					user_id : -490771403095893067,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 81,
+					length : 27,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 50,
+					length : 48,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 29,
+					length : 51,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 44,
+					length : 26,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 98,
+					length : 92,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 0,
+					length : 38,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 3,
+					length : 89,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 84,
-					document_id : -222846562264578297,
+					length : 66,
+					document_id : -3039184586701375334,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 88,
+					length : 65,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -134,29 +134,29 @@ $messageMedia = $client->messageMediaToDo(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 83,
-					date : 14,
+					length : 7,
+					date : 93,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 78,
+					length : 35,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 14,
-					old_text : 'DFsJEalZKeqpv1bX',
+					length : 81,
+					old_text : '2MPxCbuVJ0lvmsiK',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 46,
+					length : 38,
 				),
 			),
 		),
 		list : array(
 			$client->todoItem(
-				id : 54,
+				id : 79,
 				title : $client->textWithEntities(
-					text : 'E7SX5p0DbytZGc4L',
+					text : 'ycXgJQTdHliZnq2B',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -190,11 +190,11 @@ $messageMedia = $client->messageMediaToDo(
 	),
 	completions : array(
 		$client->todoCompletion(
-			id : 44,
+			id : 18,
 			completed_by : $client->peerUser(
-				user_id : 7195455223976355925,
+				user_id : -2173939605293987650,
 			),
-			date : 60,
+			date : 48,
 		),
 	),
 );

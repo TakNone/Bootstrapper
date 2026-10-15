@@ -2,7 +2,7 @@
 
 **Description** : *Defines media content of a message*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputMediaEmpty#9664f57f = InputMedia;
@@ -52,4 +52,4 @@ inputMediaStakeDice#f3a9244a game_hash:string ton_amount:long client_seed:bytes 
 | [**inputMediaWebPage**](constructor/inputMediaWebPage) | Specifies options that will be used to generate the link preview for the caption, or even a standalone link preview without an attached message |
 | [**inputMediaPaidMedia**](constructor/inputMediaPaidMedia) | Paid media, see here » for more info |
 | [**inputMediaTodo**](constructor/inputMediaTodo) | Creates a todo list » |
-| [**inputMediaStakeDice**](constructor/inputMediaStakeDice) | NOTHING |
+| [**inputMediaStakeDice**](constructor/inputMediaStakeDice) | Dice game media |

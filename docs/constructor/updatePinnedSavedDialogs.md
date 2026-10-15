@@ -2,7 +2,7 @@
 
 **Description** : *Pinned saved dialogs &raquo; were updated*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updatePinnedSavedDialogs#686c85a6 flags:# order:flags.0?Vector<DialogPeer> = Update;
@@ -32,11 +32,14 @@ $update = $client->updatePinnedSavedDialogs(
 	order : array(
 		$client->dialogPeer(
 			peer : $client->peerUser(
-				user_id : 3100048374722569149,
+				user_id : -8752023976946918417,
 			),
 		),
 		$client->dialogPeerFolder(
-			folder_id : 22,
+			folder_id : 68,
+		),
+		$client->dialogPeerCommunity(
+			community_id : -2700139156311573234,
 		),
 	),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *The price of paid messages &raquo; in this chat was changed*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageActionPaidMessagesPrice#84b88578 flags:# broadcast_messages_allowed:flags.0?true stars:long = MessageAction;
@@ -31,6 +31,6 @@ messageActionPaidMessagesPrice#84b88578 flags:# broadcast_messages_allowed:flags
 ```php
 $messageAction = $client->messageActionPaidMessagesPrice(
 	broadcast_messages_allowed : true,
-	stars : -1102979318453742328,
+	stars : 6245140093289269983,
 );
 ```

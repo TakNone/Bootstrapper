@@ -1,6 +1,6 @@
 # textSpoiler
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 textSpoiler#4c2a5d62 text:RichText = RichText;

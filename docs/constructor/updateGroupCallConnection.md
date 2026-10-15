@@ -1,8 +1,8 @@
 # updateGroupCallConnection
 
-**Description** : *New WebRTC parameters*
+**Description** : *Connection parameters returned after joining a group call, see presentations &raquo; and stream mode &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJSON = Update;
@@ -15,8 +15,8 @@ updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJ
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| **presentation** | [`flags.0?true`](type/true) | Are these parameters related to the screen capture session currently in progress? |
-| <mark>params</mark> | [`DataJSON`](type/DataJSON) | WebRTC parameters |
+| **presentation** | [`flags.0?true`](type/true) | Whether these parameters belong to the separate presentation connection instead of the main connection |
+| <mark>params</mark> | [`DataJSON`](type/DataJSON) | RTC join response parameters or broadcast-stream metadata, as described above |
 
 ---
 
@@ -32,7 +32,7 @@ updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJ
 $update = $client->updateGroupCallConnection(
 	presentation : true,
 	params : $client->dataJSON(
-		data : 'FsjUxpOdSi20VGrP',
+		data : 'cfguYP8Aps9zJ1LD',
 	),
 );
 ```

@@ -1,6 +1,8 @@
 # messages.EmojiGameOutcome
 
-**Layer** : 227
+**Description** : *Dice game outcome*
+
+**Layer** : 229
 
 ```tl
 messages.emojiGameOutcome#da2ad647 seed:bytes stake_ton_amount:long ton_amount:long = messages.EmojiGameOutcome;
@@ -12,4 +14,4 @@ messages.emojiGameOutcome#da2ad647 seed:bytes stake_ton_amount:long ton_amount:l
 
 | Constructor | Description |
 | :---: | :--- |
-| [**messages.emojiGameOutcome**](constructor/messages.emojiGameOutcome) | NOTHING |
+| [**messages.emojiGameOutcome**](constructor/messages.emojiGameOutcome) | Dice game outcome |

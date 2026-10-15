@@ -1,6 +1,6 @@
 # textMentionName
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 textMentionName#1a9fbfc text:RichText user_id:long = RichText;
@@ -28,6 +28,6 @@ textMentionName#1a9fbfc text:RichText user_id:long = RichText;
 ```php
 $richText = $client->textMentionName(
 	text : $client->textEmpty(),
-	user_id : -4549323090711068156,
+	user_id : 1697510298704230626,
 );
 ```

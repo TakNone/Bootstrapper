@@ -1,6 +1,8 @@
 # auth.PasskeyLoginOptions
 
-**Layer** : 227
+**Description** : *Passkey login options, see here &raquo; for more info on the full flow*
+
+**Layer** : 229
 
 ```tl
 auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
@@ -12,4 +14,4 @@ auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**auth.passkeyLoginOptions**](constructor/auth.passkeyLoginOptions) | NOTHING |
+| [**auth.passkeyLoginOptions**](constructor/auth.passkeyLoginOptions) | Passkey login options, see here » for more info on the full flow |

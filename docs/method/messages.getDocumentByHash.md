@@ -2,7 +2,7 @@
 
 **Description** : *Get a document by its SHA256 hash, mainly used for gifs*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.getDocumentByHash#b1f2061f sha256:bytes size:long mime_type:string = Document;
@@ -39,7 +39,7 @@ messages.getDocumentByHash#b1f2061f sha256:bytes size:long mime_type:string = Do
 ```php
 $document = $client->messages->getDocumentByHash(
 	sha256 : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	size : 3764866781142853043,
-	mime_type : 'Zs8iAbMRY5xJ1Phn',
+	size : 4420838636736824123,
+	mime_type : 'o0D526WybPLS8eKM',
 );
 ```

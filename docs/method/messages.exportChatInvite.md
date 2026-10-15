@@ -2,7 +2,7 @@
 
 **Description** : *Export an invite link for a chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.exportChatInvite#a455de90 flags:# legacy_revoke_permanent:flags.2?true request_needed:flags.3?true peer:InputPeer expire_date:flags.0?int usage_limit:flags.1?int title:flags.4?string subscription_pricing:flags.5?StarsSubscriptionPricing = ExportedChatInvite;
@@ -42,6 +42,7 @@ messages.exportChatInvite#a455de90 flags:# legacy_revoke_permanent:flags.2?true 
 | **CHAT_ID_INVALID** | `400` | The provided chat id is invalid |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **EXPIRE_DATE_INVALID** | `400` | The specified expiration date is invalid |
+| **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **PRICING_CHAT_INVALID** | `400` | The pricing for the subscription is invalid, the maximum price is specified in the stars_subscription_amount_max config key » |
@@ -57,12 +58,12 @@ $exportedChatInvite = $client->messages->exportChatInvite(
 	legacy_revoke_permanent : true,
 	request_needed : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	expire_date : 78,
-	usage_limit : 47,
-	title : 'ker2l1nKB5pJh8M7',
+	expire_date : 86,
+	usage_limit : 43,
+	title : 'BczQ5hmAprGjwSWC',
 	subscription_pricing : $client->starsSubscriptionPricing(
-		period : 22,
-		amount : 1696999642178305615,
+		period : 44,
+		amount : -2625111597793621878,
 	),
 );
 ```

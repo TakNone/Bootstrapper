@@ -2,7 +2,7 @@
 
 **Description** : *Telegram passport configuration*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 help.passportConfigNotModified#bfb9f457 = help.PassportConfig;

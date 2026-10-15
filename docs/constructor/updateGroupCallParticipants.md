@@ -1,8 +1,8 @@
 # updateGroupCallParticipants
 
-**Description** : *The participant list of a certain group call has changed*
+**Description** : *The participant list of a group call has changed*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<GroupCallParticipant> version:int = Update;
@@ -14,9 +14,9 @@ updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<Gro
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call |
-| <mark>participants</mark> | [`Vector<GroupCallParticipant>`](type/GroupCallParticipant) | New participant list |
-| <mark>version</mark> | [`int`](type/int) | Version |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call whose participants changed |
+| <mark>participants</mark> | [`Vector<GroupCallParticipant>`](type/GroupCallParticipant) | Participants whose state changed |
+| <mark>version</mark> | [`int`](type/int) | Group call revision used by the update application rules » |
 
 ---
 
@@ -31,8 +31,8 @@ updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<Gro
 ```php
 $update = $client->updateGroupCallParticipants(
 	call : $client->inputGroupCall(
-		id : 3036973356037529561,
-		access_hash : -6897788795144347129,
+		id : 8091338783509177951,
+		access_hash : 7574364190359301412,
 	),
 	participants : array(
 		$client->groupCallParticipant(
@@ -47,39 +47,39 @@ $update = $client->updateGroupCallParticipants(
 			self : true,
 			video_joined : true,
 			peer : $client->peerUser(
-				user_id : 5930899187924931173,
+				user_id : 8790051803903859134,
 			),
-			date : 4,
-			active_date : 54,
-			source : 15,
-			volume : 8,
-			about : 'RiJoEt3DC967aLpu',
-			raise_hand_rating : -1714759727371851508,
+			date : 18,
+			active_date : 70,
+			source : 66,
+			volume : 91,
+			about : 'KkZSAUuf2p4y8RJo',
+			raise_hand_rating : -7332035122369130310,
 			video : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'nMK3WXwFAVU0pbHS',
+				endpoint : 'R6T9nvz8hPqSsYH1',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(
-						semantics : 'B9L6eZTlC7r8khmX',
-						sources : array(35),
+						semantics : 'O9BmUZ1Yg4zKAdMD',
+						sources : array(32),
 					),
 				),
-				audio_source : 80,
+				audio_source : 50,
 			),
 			presentation : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'PiU5eBdHWFXypYm8',
+				endpoint : 'dmOk2WRAJaMKQurN',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(
-						semantics : 'OoIGSCH4bZgK0DAh',
-						sources : array(51),
+						semantics : 'lJg7fxdza3DoTbQP',
+						sources : array(36),
 					),
 				),
-				audio_source : 37,
+				audio_source : 76,
 			),
-			paid_stars_total : 3313626490364827499,
+			paid_stars_total : 385756418534886394,
 		),
 	),
-	version : 16,
+	version : 76,
 );
 ```

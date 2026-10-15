@@ -2,7 +2,7 @@
 
 **Description** : *Apple pay payment credentials*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPaymentCredentialsApplePay#aa1c39f payment_data:DataJSON = InputPaymentCredentials;
@@ -29,7 +29,7 @@ inputPaymentCredentialsApplePay#aa1c39f payment_data:DataJSON = InputPaymentCred
 ```php
 $inputPaymentCredentials = $client->inputPaymentCredentialsApplePay(
 	payment_data : $client->dataJSON(
-		data : 'QRPZGt8KTvIg6mxM',
+		data : 'BGYJZTsCkiImWFbz',
 	),
 );
 ```
