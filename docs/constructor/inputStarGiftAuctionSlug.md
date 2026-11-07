@@ -2,7 +2,7 @@
 
 **Description** : *Used to fetch auctions using the slug of an auction deep link &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputStarGiftAuctionSlug#7ab58308 slug:string = InputStarGiftAuction;
@@ -28,6 +28,6 @@ inputStarGiftAuctionSlug#7ab58308 slug:string = InputStarGiftAuction;
 
 ```php
 $inputStarGiftAuction = $client->inputStarGiftAuctionSlug(
-	slug : '9NxBSoc3wtz7rVjI',
+	slug : '4Wr7OBZtUESD1Js3',
 );
 ```

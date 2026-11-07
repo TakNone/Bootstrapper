@@ -2,7 +2,7 @@
 
 **Description** : *Details of a group member*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 chatParticipant#38e79fde flags:# user_id:long inviter_id:long date:int rank:flags.0?string = ChatParticipant;

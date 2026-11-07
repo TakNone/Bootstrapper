@@ -2,7 +2,7 @@
 
 **Description** : *List of just the collectible attributes that may appear for a gift type once it&#039;s upgraded to a collectible gift &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.starGiftUpgradeAttributes#46c6e36f attributes:Vector<StarGiftAttribute> = payments.StarGiftUpgradeAttributes;

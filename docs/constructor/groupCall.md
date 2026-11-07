@@ -2,7 +2,7 @@
 
 **Description** : *Describes a group call*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 groupCall#efb2b617 flags:# join_muted:flags.1?true can_change_join_muted:flags.2?true join_date_asc:flags.6?true schedule_start_subscribed:flags.8?true can_start_video:flags.9?true record_video_active:flags.11?true rtmp_stream:flags.12?true listeners_hidden:flags.13?true conference:flags.14?true creator:flags.15?true messages_enabled:flags.17?true can_change_messages_enabled:flags.18?true min:flags.19?true id:long access_hash:long participants_count:int title:flags.3?string stream_dc_id:flags.4?int record_start_date:flags.5?int schedule_date:flags.7?int unmuted_video_count:flags.10?int unmuted_video_limit:int version:int invite_link:flags.16?string send_paid_messages_stars:flags.20?long default_send_as:flags.21?Peer = GroupCall;
@@ -67,20 +67,20 @@ $groupCall = $client->groupCall(
 	messages_enabled : true,
 	can_change_messages_enabled : true,
 	min : true,
-	id : 1353820669791568856,
-	access_hash : -2627422011267004627,
-	participants_count : 31,
-	title : 'TokI684FsGmxn2JE',
-	stream_dc_id : 23,
-	record_start_date : 89,
-	schedule_date : 37,
-	unmuted_video_count : 78,
-	unmuted_video_limit : 80,
-	version : 47,
-	invite_link : 'DSGdQWETeCvZI2M7',
-	send_paid_messages_stars : -2039611191143546835,
+	id : -5517832294564039309,
+	access_hash : 1046467813352171810,
+	participants_count : 47,
+	title : 'Xd9ajPN5coMrKJiy',
+	stream_dc_id : 8,
+	record_start_date : 18,
+	schedule_date : 52,
+	unmuted_video_count : 44,
+	unmuted_video_limit : 46,
+	version : 57,
+	invite_link : 'OrT2jpHmC37bt6ML',
+	send_paid_messages_stars : 2840326978781891913,
 	default_send_as : $client->peerUser(
-		user_id : -8414473381242312076,
+		user_id : -4509693362753933741,
 	),
 );
 ```

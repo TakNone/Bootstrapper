@@ -1,6 +1,6 @@
 # messages.TranslatedRichMessage
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.translatedRichMessage#4203998f result:Vector<RichMessage> = messages.TranslatedRichMessage;

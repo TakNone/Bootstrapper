@@ -2,7 +2,7 @@
 
 **Description** : *Existing photo to be set as a chat profile photo*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputChatPhoto#8953ad37 id:InputPhoto = InputChatPhoto;

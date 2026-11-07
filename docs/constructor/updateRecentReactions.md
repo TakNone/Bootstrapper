@@ -2,7 +2,7 @@
 
 **Description** : *The list of recent message reactions has changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateRecentReactions#6f7863f4 = Update;

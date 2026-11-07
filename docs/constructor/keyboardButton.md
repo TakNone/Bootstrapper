@@ -2,7 +2,7 @@
 
 **Description** : *Bot keyboard button*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 keyboardButton#2f67a72f flags:# style:flags.10?KeyboardButtonStyle text:string type:ButtonType = KeyboardButton;
@@ -35,9 +35,9 @@ $keyboardButton = $client->keyboardButton(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : 6072310235878834262,
+		icon : 3808904906818365019,
 	),
-	text : 'x890mgJnelwcdX5K',
+	text : 'Hi9UjfbJeXLRcuNv',
 	type : $client->buttonTypeDefault(),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *The document*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputWebDocument#9bed434d url:string size:int mime_type:string attributes:Vector<DocumentAttribute> = InputWebDocument;
@@ -32,51 +32,51 @@ inputWebDocument#9bed434d url:string size:int mime_type:string attributes:Vector
 ```php
 $inputWebDocument = $client->inputWebDocument(
 	url : 'https://docs.liveproto.dev',
-	size : 2,
-	mime_type : '1Mtbl3ZSEu9Q0rqx',
+	size : 80,
+	mime_type : 'wZzaycTextSn2RPv',
 	attributes : array(
 		$client->documentAttributeImageSize(
-			w : 48,
-			h : 48,
+			w : 17,
+			h : 20,
 		),
 		$client->documentAttributeAnimated(),
 		$client->documentAttributeSticker(
 			mask : true,
-			alt : 'fBQ56J9yVat4nlpZ',
+			alt : '6gbDKtdfOM2wESI1',
 			stickerset : $client->inputStickerSetEmpty(),
 			mask_coords : $client->maskCoords(
 				n : 100,
-				x : 1848672.5244140625,
-				y : 1696070.603515625,
-				zoom : 1889534.7705078125,
+				x : -1742178.2705078125,
+				y : 40766.5390625,
+				zoom : 1132064.5400390625,
 			),
 		),
 		$client->documentAttributeVideo(
 			round_message : true,
 			supports_streaming : true,
 			nosound : true,
-			duration : -1101394.7978515625,
-			w : 4,
-			h : 83,
-			preload_prefix_size : 38,
-			video_start_ts : 1356834.265625,
-			video_codec : '3LZQXnyohWVzCrak',
+			duration : 818186.8984375,
+			w : 50,
+			h : 1,
+			preload_prefix_size : 1,
+			video_start_ts : 1422734.6796875,
+			video_codec : 'CwUam7IzfpiFd20S',
 		),
 		$client->documentAttributeAudio(
 			voice : true,
-			duration : 77,
-			title : 'wYAMg6Ze5DhPaNd8',
-			performer : 'GeVwqskzu18DvAtB',
+			duration : 19,
+			title : 'du9Aoq7QM8iwFU5W',
+			performer : 'HDEyWkRrTuGXU9vd',
 			waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->documentAttributeFilename(
-			file_name : 'MIlWiAJ8B05uYhzd',
+			file_name : 'PDpscUe4do6tEWgb',
 		),
 		$client->documentAttributeHasStickers(),
 		$client->documentAttributeCustomEmoji(
 			free : true,
 			text_color : true,
-			alt : 'GDw9lubTNIXYPKk1',
+			alt : 'fYSaTZKqDxGVL25l',
 			stickerset : $client->inputStickerSetEmpty(),
 		),
 	),

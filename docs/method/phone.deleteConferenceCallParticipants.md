@@ -2,7 +2,7 @@
 
 **Description** : *Remove participants from a conference call &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.deleteConferenceCallParticipants#8ca60525 flags:# only_left:flags.0?true kick:flags.1?true call:InputGroupCall ids:Vector<long> block:bytes = Updates;
@@ -44,10 +44,10 @@ $updates = $client->phone->deleteConferenceCallParticipants(
 	only_left : true,
 	kick : true,
 	call : $client->inputGroupCall(
-		id : 3738137151964120775,
-		access_hash : -1704898916101849929,
+		id : 3505415905684189932,
+		access_hash : 3867805927541196101,
 	),
-	ids : array(-3075585278195029374),
+	ids : array(1463156696200075415),
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

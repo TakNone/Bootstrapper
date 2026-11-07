@@ -2,7 +2,7 @@
 
 **Description** : *Set bot command list*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.setBotCommands#517165a scope:BotCommandScope lang_code:string commands:Vector<BotCommand> = Bool;
@@ -44,12 +44,12 @@ bots.setBotCommands#517165a scope:BotCommandScope lang_code:string commands:Vect
 ```php
 $bool = $client->bots->setBotCommands(
 	scope : $client->botCommandScopeDefault(),
-	lang_code : 'tMR6HGc9ATjN2xmK',
+	lang_code : 'sObvkPrUWIqRGwlX',
 	commands : array(
 		$client->botCommand(
 			ephemeral : true,
-			command : 'ZufPRVsAImLUx3yJ',
-			description : 'k4ZjRMwazCrLJYbc',
+			command : 'LzZ23UYRfpFN6OID',
+			description : 'd5ZJVGHuxkjoTA0X',
 		),
 	),
 );

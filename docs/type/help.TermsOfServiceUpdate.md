@@ -2,7 +2,7 @@
 
 **Description** : *Update of Telegram&#039;s terms of service*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 help.termsOfServiceUpdateEmpty#e3309f7f expires:int = help.TermsOfServiceUpdate;

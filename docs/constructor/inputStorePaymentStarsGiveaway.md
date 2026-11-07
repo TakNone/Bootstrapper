@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for a star giveaway, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?true winners_are_visible:flags.3?true stars:long boost_peer:InputPeer additional_peers:flags.1?Vector<InputPeer> countries_iso2:flags.2?Vector<string> prize_description:flags.4?string random_id:long until_date:int currency:string amount:long users:int = InputStorePaymentPurpose;
@@ -42,15 +42,15 @@ inputStorePaymentStarsGiveaway#751f08fa flags:# only_new_subscribers:flags.0?tru
 $inputStorePaymentPurpose = $client->inputStorePaymentStarsGiveaway(
 	only_new_subscribers : true,
 	winners_are_visible : true,
-	stars : 134963799890563114,
+	stars : -643961584924464623,
 	boost_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	additional_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	countries_iso2 : array('S4szM3hbPWAlwFQj'),
-	prize_description : 'IO1Do6cTKMQqvRsS',
-	random_id : -6004021394617311541,
-	until_date : 63,
-	currency : '6PVjRs9Y1qI0NXQn',
-	amount : 5400136440836839316,
-	users : 56,
+	countries_iso2 : array('2yqMzYuXZiOxfnvB'),
+	prize_description : 'bw58nAGDTF3Zty9B',
+	random_id : -3766773231373211586,
+	until_date : 12,
+	currency : 'nEVrdsHbMU96Aof1',
+	amount : 6976387460185340152,
+	users : 94,
 );
 ```

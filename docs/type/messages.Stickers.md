@@ -2,7 +2,7 @@
 
 **Description** : *Stickers*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.stickersNotModified#f1749a22 = messages.Stickers;

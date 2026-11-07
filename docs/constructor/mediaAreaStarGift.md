@@ -2,7 +2,7 @@
 
 **Description** : *Represents a collectible gift &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 mediaAreaStarGift#5787686d coordinates:MediaAreaCoordinates slug:string = MediaArea;
@@ -30,13 +30,13 @@ mediaAreaStarGift#5787686d coordinates:MediaAreaCoordinates slug:string = MediaA
 ```php
 $mediaArea = $client->mediaAreaStarGift(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 1243443.859375,
-		y : 1647550.7412109375,
-		w : 3532.2099609375,
-		h : -2066519.5537109375,
-		rotation : -1745524.5576171875,
-		radius : 1129183.8310546875,
+		x : -1248367.587890625,
+		y : 102239.33984375,
+		w : 1540395.4990234375,
+		h : -115280.890625,
+		rotation : -422753.4296875,
+		radius : -49798.03125,
 	),
-	slug : 'EWCJVHptwUMgrTaO',
+	slug : '6rWfAM9XRsw50bzn',
 );
 ```

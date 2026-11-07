@@ -2,7 +2,7 @@
 
 **Description** : *Send a simple text message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 botInlineMessageText#8c7f65e2 flags:# no_webpage:flags.0?true invert_media:flags.3?true message:string entities:flags.1?Vector<MessageEntity> reply_markup:flags.2?ReplyMarkup = BotInlineMessage;
@@ -35,23 +35,23 @@ botInlineMessageText#8c7f65e2 flags:# no_webpage:flags.0?true invert_media:flags
 $botInlineMessage = $client->botInlineMessageText(
 	no_webpage : true,
 	invert_media : true,
-	message : 'aMUyPsq09crWKE4J',
+	message : 'pOue2ldfniMJN3ra',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 84,
+			length : 90,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 57,
+			length : 46,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 66,
+			length : 24,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 30,
+			length : 98,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
@@ -63,69 +63,69 @@ $botInlineMessage = $client->botInlineMessageText(
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 64,
+			length : 65,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 54,
+			length : 36,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 59,
+			length : 12,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 29,
-			language : '016ocLTUnC5aXPYD',
+			length : 76,
+			language : 'uEqn8Km6AT1fhvS5',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 64,
+			length : 71,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 62,
-			user_id : -8079342519399143684,
+			length : 29,
+			user_id : 1498096839243806251,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 48,
+			length : 55,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 66,
+			length : 58,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 1,
+			length : 38,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 75,
+			length : 60,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 59,
+			length : 83,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 41,
+			length : 35,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 79,
+			length : 10,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 87,
-			document_id : -5897895950119554825,
+			length : 32,
+			document_id : 440326734574801455,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 64,
+			length : 99,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -135,21 +135,25 @@ $botInlineMessage = $client->botInlineMessageText(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 18,
-			date : 59,
+			length : 4,
+			date : 97,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 44,
+			length : 80,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 76,
-			old_text : '5k3IutDyvixMLXsq',
+			length : 45,
+			old_text : '1RrPBEnwWvF4DVi3',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 8,
+			length : 99,
+		),
+		$client->messageEntityTonAddress(
+			offset : 0,
+			length : 77,
 		),
 	),
 	reply_markup : $client->replyKeyboardHide(

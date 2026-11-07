@@ -2,7 +2,7 @@
 
 **Description** : *Channel/supergroup title was changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channelAdminLogEventActionChangeTitle#e6dfb825 prev_value:string new_value:string = ChannelAdminLogEventAction;
@@ -29,7 +29,7 @@ channelAdminLogEventActionChangeTitle#e6dfb825 prev_value:string new_value:strin
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangeTitle(
-	prev_value : 'R4Qj0dGLkFEsIXuS',
-	new_value : 'negt7Gzy0Ff5hrlk',
+	prev_value : 'eX0av6b4x9LOBYrd',
+	new_value : 'tzQ5YunVyKMZdbfP',
 );
 ```

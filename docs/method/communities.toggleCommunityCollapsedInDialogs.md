@@ -1,6 +1,6 @@
 # communities.toggleCommunityCollapsedInDialogs
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communities.toggleCommunityCollapsedInDialogs#d766e3ea flags:# collapsed:flags.0?true community:InputChannel = Updates;

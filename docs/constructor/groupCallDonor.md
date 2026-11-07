@@ -2,7 +2,7 @@
 
 **Description** : *Describes a live story donor in the donation leaderboard &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 groupCallDonor#ee430c85 flags:# top:flags.0?true my:flags.1?true peer_id:flags.3?Peer stars:long = GroupCallDonor;
@@ -35,8 +35,8 @@ $groupCallDonor = $client->groupCallDonor(
 	top : true,
 	my : true,
 	peer_id : $client->peerUser(
-		user_id : 1325179286307599718,
+		user_id : 2049061208433354805,
 	),
-	stars : 340784433745265797,
+	stars : 7973185185391099651,
 );
 ```

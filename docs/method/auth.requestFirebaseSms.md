@@ -2,7 +2,7 @@
 
 **Description** : *Request an SMS code via Firebase*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.requestFirebaseSms#8e39261e flags:# phone_number:string phone_code_hash:string safety_net_token:flags.0?string play_integrity_token:flags.2?string ios_push_secret:flags.1?string = Bool;
@@ -44,8 +44,8 @@ auth.requestFirebaseSms#8e39261e flags:# phone_number:string phone_code_hash:str
 $bool = $client->auth->requestFirebaseSms(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	safety_net_token : 'qlpgctE0oezKQvSx',
-	play_integrity_token : 'AzTd76atq9ZBLplG',
-	ios_push_secret : 'ISfbeJT8Ungjcr1M',
+	safety_net_token : 'tQrhjIW6JzL9Fsyk',
+	play_integrity_token : 'L4jv5u7gBDk1zwpM',
+	ios_push_secret : 'r2ejNi7k6mx4FBWn',
 );
 ```

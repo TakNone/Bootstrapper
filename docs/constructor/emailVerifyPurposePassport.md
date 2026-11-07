@@ -2,7 +2,7 @@
 
 **Description** : *Verify an email for use in telegram passport*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 emailVerifyPurposePassport#bbf51685 = EmailVerifyPurpose;

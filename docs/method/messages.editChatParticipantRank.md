@@ -2,7 +2,7 @@
 
 **Description** : *Edit a group participant&#039;s tag &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.editChatParticipantRank#a00f32b0 peer:InputPeer participant:InputPeer rank:string = Updates;
@@ -40,6 +40,6 @@ messages.editChatParticipantRank#a00f32b0 peer:InputPeer participant:InputPeer r
 $updates = $client->messages->editChatParticipantRank(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
-	rank : 'iRS5qzTM9pCPwW2Q',
+	rank : 'SeFmkBvWacoNgdUq',
 );
 ```

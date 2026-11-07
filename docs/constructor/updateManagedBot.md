@@ -2,7 +2,7 @@
 
 **Description** : *Manager bots only: a bot managed by the currently logged in bot was created or updated*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateManagedBot#4880ed9a user_id:long bot_id:long qts:int = Update;
@@ -30,8 +30,8 @@ updateManagedBot#4880ed9a user_id:long bot_id:long qts:int = Update;
 
 ```php
 $update = $client->updateManagedBot(
-	user_id : -8781297043181039206,
-	bot_id : 2024788561578308213,
-	qts : 28,
+	user_id : -2660910474432239734,
+	bot_id : 1254406644810904174,
+	qts : 0,
 );
 ```

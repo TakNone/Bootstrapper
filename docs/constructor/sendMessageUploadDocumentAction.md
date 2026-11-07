@@ -2,7 +2,7 @@
 
 **Description** : *User is uploading a file*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 sendMessageUploadDocumentAction#aa0cd9e4 progress:int = SendMessageAction;
@@ -28,6 +28,6 @@ sendMessageUploadDocumentAction#aa0cd9e4 progress:int = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageUploadDocumentAction(
-	progress : 75,
+	progress : 4,
 );
 ```

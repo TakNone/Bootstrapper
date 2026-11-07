@@ -2,7 +2,7 @@
 
 **Description** : *Ordered list of text items*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pageListOrderedItemText#15031189 flags:# checkbox:flags.0?true checked:flags.1?true num:flags.2?string text:RichText value:flags.3?int type:flags.4?string = PageListOrderedItem;
@@ -36,9 +36,9 @@ pageListOrderedItemText#15031189 flags:# checkbox:flags.0?true checked:flags.1?t
 $pageListOrderedItem = $client->pageListOrderedItemText(
 	checkbox : true,
 	checked : true,
-	num : 'CD1rIn0a6lsm2wXO',
+	num : 'cO479xfyhnPAi2eH',
 	text : $client->textEmpty(),
-	value : 38,
-	type : 'PTIj0VZ731ftrmSq',
+	value : 66,
+	type : 'tHNrCDjki8nF6syq',
 );
 ```

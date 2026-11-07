@@ -2,7 +2,7 @@
 
 **Description** : *Link*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 textUrl#3c2884c1 text:RichText url:string webpage_id:long = RichText;
@@ -32,6 +32,6 @@ textUrl#3c2884c1 text:RichText url:string webpage_id:long = RichText;
 $richText = $client->textUrl(
 	text : $client->textEmpty(),
 	url : 'https://docs.liveproto.dev',
-	webpage_id : 6629633015471573444,
+	webpage_id : -56118269086809637,
 );
 ```

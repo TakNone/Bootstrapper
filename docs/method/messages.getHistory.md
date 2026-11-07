@@ -2,7 +2,7 @@
 
 **Description** : *Returns the message history in a peer*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getHistory#4423e6c5 peer:InputPeer offset_id:int offset_date:int add_offset:int limit:int max_id:int min_id:int hash:long = messages.Messages;
@@ -53,10 +53,10 @@ $messagesMessages = $client->messages->getHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 45,
-	limit : 37,
-	max_id : 95,
-	min_id : 89,
+	add_offset : 81,
+	limit : 1,
+	max_id : 33,
+	min_id : 99,
 	hash : 0,
 );
 ```

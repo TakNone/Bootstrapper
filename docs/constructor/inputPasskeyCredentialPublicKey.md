@@ -2,7 +2,7 @@
 
 **Description** : *Public\-key passkey credential used both for registration and for login, see creating a passkey &raquo; and logging in with a passkey &raquo; for the full flows*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputPasskeyCredentialPublicKey#3c27b78f id:string raw_id:string response:InputPasskeyResponse = InputPasskeyCredential;
@@ -30,11 +30,11 @@ inputPasskeyCredentialPublicKey#3c27b78f id:string raw_id:string response:InputP
 
 ```php
 $inputPasskeyCredential = $client->inputPasskeyCredentialPublicKey(
-	id : 'PIvXdcF4rtxy8mOl',
-	raw_id : '0Yb7aQesGylEoUFv',
+	id : 'L9fczvTOCUJp50A4',
+	raw_id : 'kbg5EMlP0nQKXz3R',
 	response : $client->inputPasskeyResponseRegister(
 		client_data : $client->dataJSON(
-			data : 'Fnrbh5PWIZiCfOx4',
+			data : 'WVU9BKyXunGgh7A1',
 		),
 		attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),

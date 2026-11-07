@@ -1,6 +1,6 @@
 # textButton
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 textButton#afc79cd6 flags:# text:RichText type:InlineButtonType style:flags.0?RichButtonStyle = RichText;

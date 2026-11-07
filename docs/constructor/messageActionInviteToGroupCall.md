@@ -2,7 +2,7 @@
 
 **Description** : *A set of users was invited to a video chat/livestream &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionInviteToGroupCall#502f92f7 call:InputGroupCall users:Vector<long> = MessageAction;
@@ -30,9 +30,9 @@ messageActionInviteToGroupCall#502f92f7 call:InputGroupCall users:Vector<long> =
 ```php
 $messageAction = $client->messageActionInviteToGroupCall(
 	call : $client->inputGroupCall(
-		id : 3605031786584732019,
-		access_hash : 1812287198405218769,
+		id : 479279159654883865,
+		access_hash : -2642145500282844058,
 	),
-	users : array(-2899527843756263128),
+	users : array(-7948039182795340086),
 );
 ```

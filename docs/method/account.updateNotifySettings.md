@@ -2,7 +2,7 @@
 
 **Description** : *Edits notification settings from a given user/group, from all users/all groups*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.updateNotifySettings#84be5b93 peer:InputNotifyPeer settings:InputPeerNotifySettings = Bool;
@@ -45,11 +45,11 @@ $bool = $client->account->updateNotifySettings(
 		peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	),
 	settings : $client->inputPeerNotifySettings(
-		show_previews : false,
-		silent : false,
-		mute_until : 79,
+		show_previews : true,
+		silent : true,
+		mute_until : 84,
 		sound : $client->notificationSoundDefault(),
-		stories_muted : true,
+		stories_muted : false,
 		stories_hide_sender : true,
 		stories_sound : $client->notificationSoundDefault(),
 	),

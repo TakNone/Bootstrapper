@@ -2,7 +2,7 @@
 
 **Description** : *Fetch a live story&#039;s total donations and top donors, see paid live story donations &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.getGroupCallStars#6f636302 call:InputGroupCall = phone.GroupCallStars;
@@ -37,8 +37,8 @@ phone.getGroupCallStars#6f636302 call:InputGroupCall = phone.GroupCallStars;
 ```php
 $phoneGroupCallStars = $client->phone->getGroupCallStars(
 	call : $client->inputGroupCall(
-		id : 7460316284079669963,
-		access_hash : 7935148257585335675,
+		id : -6149043819444220522,
+		access_hash : 856077990784309259,
 	),
 );
 ```

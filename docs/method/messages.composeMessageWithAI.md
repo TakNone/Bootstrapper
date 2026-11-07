@@ -2,7 +2,7 @@
 
 **Description** : *Invokes telegram&#039;s AI Editor that can translate, transform, fixup and/or emojify your message in a number of different ways, privately powered by Cocoon, see here &raquo; for more info\!*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.composeMessageWithAI#daecc589 flags:# proofread:flags.0?true emojify:flags.3?true text:TextWithEntities translate_to_lang:flags.1?string tone:flags.2?InputAiComposeTone = messages.ComposedMessageWithAI;
@@ -47,97 +47,97 @@ $messagesComposedMessageWithAI = $client->messages->composeMessageWithAI(
 	proofread : true,
 	emojify : true,
 	text : $client->textWithEntities(
-		text : 'DlqY7EPGz2BHcxFk',
+		text : 'RMsUvpwqyEKmlrGc',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 78,
+				length : 46,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 89,
+				length : 72,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 75,
+				length : 79,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 40,
+				length : 29,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 35,
+				length : 92,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 34,
+				length : 16,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 91,
+				length : 6,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 73,
+				length : 90,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 86,
+				length : 76,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 70,
-				language : 'hAibXdMIQawB1esu',
+				length : 62,
+				language : 'EbIDSwGUKCi52aFW',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 21,
+				length : 71,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 92,
-				user_id : -3736257201772719802,
+				length : 70,
+				user_id : 4456789497753794976,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 58,
+				length : 39,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 15,
+				length : 21,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 42,
+				length : 10,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 38,
+				length : 23,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 93,
+				length : 72,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 86,
+				length : 72,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 47,
+				length : 97,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 75,
-				document_id : -8947755689097709460,
+				length : 40,
+				document_id : -971957603055036054,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 16,
+				length : 18,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -147,27 +147,31 @@ $messagesComposedMessageWithAI = $client->messages->composeMessageWithAI(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 97,
-				date : 80,
+				length : 53,
+				date : 48,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 77,
+				length : 66,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 81,
-				old_text : 'LNoGPAszUp7WCYRK',
+				length : 11,
+				old_text : 'ntK9gav5JkBypRW6',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 21,
+				length : 75,
+			),
+			$client->messageEntityTonAddress(
+				offset : 0,
+				length : 43,
 			),
 		),
 	),
-	translate_to_lang : '3GvHJO4LaMT0BrEu',
+	translate_to_lang : 'UYFLS43QJjKNd9iH',
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'udrKx5hs8MFVTzaq',
+		tone : 'WYZ5hGkLXFEp0B8u',
 	),
 );
 ```

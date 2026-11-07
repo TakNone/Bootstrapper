@@ -2,7 +2,7 @@
 
 **Description** : *The list of saved AI composer tones &raquo; hasn&#039;t changed since the last time it was fetched \(i\.e\. the hash passed to aicompose\.getTones is still valid\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aicompose.tonesNotModified#c1f46103 = aicompose.Tones;

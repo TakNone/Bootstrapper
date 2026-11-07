@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about the original poster of a reposted story*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 storyFwdHeader#b826e150 flags:# modified:flags.3?true from:flags.0?Peer from_name:flags.1?string story_id:flags.2?int = StoryFwdHeader;
@@ -34,9 +34,9 @@ storyFwdHeader#b826e150 flags:# modified:flags.3?true from:flags.0?Peer from_nam
 $storyFwdHeader = $client->storyFwdHeader(
 	modified : true,
 	from : $client->peerUser(
-		user_id : 1588474931316754971,
+		user_id : -7608134430526073478,
 	),
-	from_name : 'VopSHewWk4RXqDNO',
-	story_id : 44,
+	from_name : 'DBPRgvfzhMoeSapt',
+	story_id : 6,
 );
 ```

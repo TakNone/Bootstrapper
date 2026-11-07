@@ -2,7 +2,7 @@
 
 **Description** : *The participants of a basic group &raquo; changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateChatParticipants#7761198 participants:ChatParticipants = Update;
@@ -29,12 +29,12 @@ updateChatParticipants#7761198 participants:ChatParticipants = Update;
 ```php
 $update = $client->updateChatParticipants(
 	participants : $client->chatParticipantsForbidden(
-		chat_id : -7396473657683915988,
+		chat_id : 7754480733475099377,
 		self_participant : $client->chatParticipant(
-			user_id : -9156928638676663189,
-			inviter_id : 547593344585007536,
-			date : 75,
-			rank : 'ciWdSeDrGmbpBhOH',
+			user_id : -286154607643698633,
+			inviter_id : -3952491051378623512,
+			date : 57,
+			rank : 'TKW9vV63CHaUmYXn',
 		),
 	),
 );

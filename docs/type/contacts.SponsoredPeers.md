@@ -2,7 +2,7 @@
 
 **Description** : *A list of sponsored peers*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 contacts.sponsoredPeersEmpty#ea32b4b1 = contacts.SponsoredPeers;

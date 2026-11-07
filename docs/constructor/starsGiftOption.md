@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Stars gift option*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starsGiftOption#5e0589f1 flags:# extended:flags.1?true stars:long store_product:flags.0?string currency:string amount:long = StarsGiftOption;
@@ -34,9 +34,9 @@ starsGiftOption#5e0589f1 flags:# extended:flags.1?true stars:long store_product:
 ```php
 $starsGiftOption = $client->starsGiftOption(
 	extended : true,
-	stars : 5859612307260397350,
-	store_product : 'k3JSdZoKOTDlHGbr',
-	currency : 'j9rKC6LBdV7lx8Io',
-	amount : 2288108220730452233,
+	stars : 8659174849900890444,
+	store_product : 'bV1gryStFRsU0pEL',
+	currency : 'VFnZY8CkNMzvuStP',
+	amount : 1361133194373092621,
 );
 ```

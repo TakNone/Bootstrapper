@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the message history of a user&#039;s personal channel &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getPersonalChannelHistory#55fb0996 user_id:InputUser limit:int max_id:int min_id:int hash:long = messages.Messages;
@@ -42,9 +42,9 @@ messages.getPersonalChannelHistory#55fb0996 user_id:InputUser limit:int max_id:i
 ```php
 $messagesMessages = $client->messages->getPersonalChannelHistory(
 	user_id : $client->get_input_user(user : '@TakNone'),
-	limit : 26,
-	max_id : 60,
-	min_id : 26,
+	limit : 50,
+	max_id : 57,
+	min_id : 47,
 	hash : 0,
 );
 ```

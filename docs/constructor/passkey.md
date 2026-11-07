@@ -2,7 +2,7 @@
 
 **Description** : *Human\-readable info about a passkey associated to an account, returned when creating a passkey &raquo; or listing passkeys &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 passkey#98613ebf flags:# id:string name:string date:int software_emoji_id:flags.0?long last_usage_date:flags.1?int = Passkey;
@@ -33,10 +33,10 @@ passkey#98613ebf flags:# id:string name:string date:int software_emoji_id:flags.
 
 ```php
 $passkey = $client->passkey(
-	id : '63vDX1KigECNPfM2',
-	name : 'O1jDlyBTzpdK4IFc',
-	date : 40,
-	software_emoji_id : -2117870071240974159,
-	last_usage_date : 22,
+	id : 'YezXOA7tnigqb8lK',
+	name : 'xyu5Fh1Z8mQIwNsM',
+	date : 50,
+	software_emoji_id : -8183307825648684261,
+	last_usage_date : 40,
 );
 ```

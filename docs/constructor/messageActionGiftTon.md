@@ -2,7 +2,7 @@
 
 **Description** : *You were gifted some Grams*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currency:string crypto_amount:long transaction_id:flags.0?string = MessageAction;
@@ -33,10 +33,10 @@ messageActionGiftTon#a8a3c699 flags:# currency:string amount:long crypto_currenc
 
 ```php
 $messageAction = $client->messageActionGiftTon(
-	currency : '9MN3PSAxK1vemd5n',
-	amount : -982688322514912723,
-	crypto_currency : '4csexTEKUfdjYB6C',
-	crypto_amount : -483256751980050858,
-	transaction_id : 'xlUZ0F8ODEmVosbw',
+	currency : 'SX5wc8Vhq3fobvkW',
+	amount : -5364881519539080474,
+	crypto_currency : 'LKsnyS9O7Xvz1iTV',
+	crypto_amount : 8071572219800738191,
+	transaction_id : 'V1UzOPBeSYyEqIHr',
 );
 ```

@@ -1,6 +1,6 @@
 # communities.create
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communities.create#a63859ec flags:# hidden:flags.1?true title:string about:flags.0?string peer:InputPeer = Updates;
@@ -31,8 +31,8 @@ communities.create#a63859ec flags:# hidden:flags.1?true title:string about:flags
 ```php
 $updates = $client->communities->create(
 	hidden : true,
-	title : 'CejUTwsdyNDY4Bqi',
-	about : 'sqr9EkQfOYB4LhNX',
+	title : 'SJoeV84PLTIldzmY',
+	about : 'E42MyLclJIisFKWO',
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

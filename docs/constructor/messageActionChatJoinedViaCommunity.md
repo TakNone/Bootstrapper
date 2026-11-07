@@ -1,6 +1,6 @@
 # messageActionChatJoinedViaCommunity
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionChatJoinedViaCommunity#4a8bfe80 community_id:long = MessageAction;
@@ -26,6 +26,6 @@ messageActionChatJoinedViaCommunity#4a8bfe80 community_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChatJoinedViaCommunity(
-	community_id : -9183696683773260990,
+	community_id : 6404166085392850031,
 );
 ```

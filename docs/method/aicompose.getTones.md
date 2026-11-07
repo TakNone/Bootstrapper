@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the list of saved AI composer tones &raquo; of the current user*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aicompose.getTones#abd59201 hash:long = aicompose.Tones;

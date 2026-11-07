@@ -2,7 +2,7 @@
 
 **Description** : *Fetch all affiliations we have created for a certain peer*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.getConnectedStarRefBots#5869a553 flags:# peer:InputPeer offset_date:flags.2?int offset_link:flags.2?string limit:int = payments.ConnectedStarRefBots;
@@ -34,7 +34,7 @@ payments.getConnectedStarRefBots#5869a553 flags:# peer:InputPeer offset_date:fla
 $paymentsConnectedStarRefBots = $client->payments->getConnectedStarRefBots(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_date : 0,
-	offset_link : 'rkM5JjAOdQDKH1zS',
-	limit : 35,
+	offset_link : 'Xv76JjhFdatpSw25',
+	limit : 8,
 );
 ```

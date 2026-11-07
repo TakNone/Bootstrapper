@@ -2,7 +2,7 @@
 
 **Description** : *Forwarded photo*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputMediaPhoto#e3af4434 flags:# spoiler:flags.1?true live_photo:flags.2?true id:InputPhoto ttl_seconds:flags.0?int video:flags.2?InputDocument = InputMedia;
@@ -36,7 +36,7 @@ $inputMedia = $client->inputMediaPhoto(
 	spoiler : true,
 	live_photo : true,
 	id : $client->inputPhotoEmpty(),
-	ttl_seconds : 5,
+	ttl_seconds : 99,
 	video : $client->inputDocumentEmpty(),
 );
 ```

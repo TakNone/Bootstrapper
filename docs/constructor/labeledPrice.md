@@ -2,7 +2,7 @@
 
 **Description** : *This object represents a portion of the price for goods or services*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 labeledPrice#cb296bf8 label:string amount:long = LabeledPrice;
@@ -29,7 +29,7 @@ labeledPrice#cb296bf8 label:string amount:long = LabeledPrice;
 
 ```php
 $labeledPrice = $client->labeledPrice(
-	label : 'O2vhu6Gbw0UI8KNB',
-	amount : 9112982300200017368,
+	label : 'WA5kg7JxKVYL3Dr6',
+	amount : -5607434913651559020,
 );
 ```

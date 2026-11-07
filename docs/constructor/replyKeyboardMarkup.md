@@ -2,7 +2,7 @@
 
 **Description** : *Represents a reply keyboard*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 replyKeyboardMarkup#85dd99d1 flags:# resize:flags.0?true single_use:flags.1?true selective:flags.2?true persistent:flags.4?true force_reply:flags.5?true rows:Vector<KeyboardButtonRow> placeholder:flags.3?string = ReplyMarkup;
@@ -48,14 +48,14 @@ $replyMarkup = $client->replyKeyboardMarkup(
 						bg_primary : true,
 						bg_danger : true,
 						bg_success : true,
-						icon : -6627808270315649176,
+						icon : 8165843061071677249,
 					),
-					text : '9azPYCRXTUJw8rH4',
+					text : 'Uhl0MoZj7XiLQFI9',
 					type : $client->buttonTypeDefault(),
 				),
 			),
 		),
 	),
-	placeholder : '6mNyDVSiJW3YOeEU',
+	placeholder : 'ZbDMl53RdHaLQ1wO',
 );
 ```

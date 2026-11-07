@@ -2,7 +2,7 @@
 
 **Description** : *Install or uninstall an AI composer tone &raquo;, adding it to or removing it from the list of saved tones of the current user*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aicompose.saveTone#1782cbb1 tone:InputAiComposeTone unsave:Bool = Bool;
@@ -38,7 +38,7 @@ aicompose.saveTone#1782cbb1 tone:InputAiComposeTone unsave:Bool = Bool;
 ```php
 $bool = $client->aicompose->saveTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'uAmMlIGaeJvUdfj2',
+		tone : '8gZoH2PEhbIrueGl',
 	),
 	unsave : true,
 );

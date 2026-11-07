@@ -2,7 +2,7 @@
 
 **Description** : *Logged\-in sessions*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.authorizations#4bff8ea0 authorization_ttl_days:int authorizations:Vector<Authorization> = account.Authorizations;
@@ -29,7 +29,7 @@ account.authorizations#4bff8ea0 authorization_ttl_days:int authorizations:Vector
 
 ```php
 $accountAuthorizations = $client->account->authorizations(
-	authorization_ttl_days : 32,
+	authorization_ttl_days : 77,
 	authorizations : array(
 		$client->authorization(
 			current : true,
@@ -39,17 +39,17 @@ $accountAuthorizations = $client->account->authorizations(
 			call_requests_disabled : true,
 			unconfirmed : true,
 			hash : 0,
-			device_model : 'qY60iZmC7EvzjIrh',
-			platform : 'hROFSL8X1IMYzuJo',
-			system_version : 'NvSe6Z3BLoc25EAb',
-			api_id : 93,
-			app_name : 'oSnatieFD1Rd7GZQ',
-			app_version : 'L3iUXmDaIR9qsc6M',
-			date_created : 84,
-			date_active : 91,
+			device_model : '71GYlabem2UJNhpx',
+			platform : 'tXVuzPREhoGdnJ3O',
+			system_version : 'RUgXh5zni1rIQD6E',
+			api_id : 86,
+			app_name : 'Ngx9bhYsMk1iwIuC',
+			app_version : 'BvhCYMTqnc2KrpEO',
+			date_created : 70,
+			date_active : 66,
 			ip : '127.0.0.1',
-			country : 'AvPnM6SVyQtbT9Xo',
-			region : 'Akfa5HhWnS4svFLj',
+			country : 'daveALxhGiIonsPj',
+			region : 'NzT43LuYUMbJQm7F',
 		),
 	),
 );

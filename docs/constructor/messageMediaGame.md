@@ -2,7 +2,7 @@
 
 **Description** : *Telegram game*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageMediaGame#fdb19008 game:Game = MessageMedia;
@@ -29,16 +29,16 @@ messageMediaGame#fdb19008 game:Game = MessageMedia;
 ```php
 $messageMedia = $client->messageMediaGame(
 	game : $client->game(
-		id : 1387994908356008092,
-		access_hash : 4318037692987146727,
-		short_name : 'DwbYi8dSuqm5OazJ',
-		title : 'vT5GW9xOlAQ6Ns7w',
-		description : 'zYZURpkOcjvhyLrM',
+		id : -7927102216113326392,
+		access_hash : -1159924376578935552,
+		short_name : 'amAQGPZqXtrKozEu',
+		title : 'mF70eby9IwAQUtpE',
+		description : 'B3J0bOujQWEsnCD9',
 		photo : $client->photoEmpty(
-			id : -4846163563321386053,
+			id : 1560703822095604930,
 		),
 		document : $client->documentEmpty(
-			id : -2604721210087421615,
+			id : -7701673184994985569,
 		),
 	),
 );

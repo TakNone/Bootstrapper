@@ -1,6 +1,6 @@
 # inputNotifyCommunity
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputNotifyCommunity#27bb1adc community:InputChannel = InputNotifyPeer;

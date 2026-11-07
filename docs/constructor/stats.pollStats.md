@@ -2,7 +2,7 @@
 
 **Description** : *Statistics for a poll sent in a message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;
@@ -29,7 +29,7 @@ stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;
 ```php
 $statsPollStats = $client->stats->pollStats(
 	votes_graph : $client->statsGraphAsync(
-		token : 'ZpVxaPDorBG4t9O7',
+		token : '185ahA4tYJcPZ3s9',
 	),
 );
 ```

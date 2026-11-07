@@ -2,7 +2,7 @@
 
 **Description** : *Shipping option*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 shippingOption#b6213cdf id:string title:string prices:Vector<LabeledPrice> = ShippingOption;
@@ -30,12 +30,12 @@ shippingOption#b6213cdf id:string title:string prices:Vector<LabeledPrice> = Shi
 
 ```php
 $shippingOption = $client->shippingOption(
-	id : 'l2uYIm5C7LXkBSti',
-	title : 'xPfOQNvhCl53ZpjJ',
+	id : 'qbzXL2PrhQEKfxCS',
+	title : 'dQf0rFuHUkeCapiE',
 	prices : array(
 		$client->labeledPrice(
-			label : 'YUhbRaP53x9yW1rV',
-			amount : 1895139353993878382,
+			label : 'tUf6DLKh3TYd4A2m',
+			amount : -458503149739936898,
 		),
 	),
 );

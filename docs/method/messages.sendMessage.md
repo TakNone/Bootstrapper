@@ -2,7 +2,7 @@
 
 **Description** : *Sends a message to a chat*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.sendMessage#fef48f62 flags:# no_webpage:flags.1?true silent:flags.5?true background:flags.6?true clear_draft:flags.7?true noforwards:flags.14?true update_stickersets_order:flags.15?true invert_media:flags.16?true allow_paid_floodskip:flags.19?true peer:InputPeer reply_to:flags.0?InputReplyTo message:string random_id:long reply_markup:flags.2?ReplyMarkup entities:flags.3?Vector<MessageEntity> schedule_date:flags.10?int schedule_repeat_period:flags.24?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut effect:flags.18?long allow_paid_stars:flags.21?long suggested_post:flags.22?SuggestedPost rich_message:flags.23?InputRichMessage = Updates;
@@ -145,100 +145,100 @@ $updates = $client->messages->sendMessage(
 	allow_paid_floodskip : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 68,
-		top_msg_id : 65,
+		reply_to_msg_id : 94,
+		top_msg_id : 38,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'eoMJnVQ8kKCDSmId',
+		quote_text : 'eAdlBUFO1WCw9jkK',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 100,
+				length : 71,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 70,
+				length : 98,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 0,
+				length : 68,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 70,
+				length : 53,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 67,
+				length : 64,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 85,
+				length : 94,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 66,
+				length : 96,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 15,
+				length : 6,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 66,
+				length : 31,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 47,
-				language : 'ix7dHwjyftlWP2ZL',
+				length : 27,
+				language : 'pfizRrA0KaCLHGvd',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 10,
+				length : 22,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 19,
-				user_id : 5967291100875163469,
+				length : 99,
+				user_id : -3364860097550294862,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 20,
+				length : 55,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 28,
+				length : 23,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 53,
+				length : 12,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 78,
+				length : 96,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 5,
+				length : 100,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 94,
+				length : 47,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 78,
+				length : 28,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 3,
-				document_id : -9145679189624036047,
+				length : 74,
+				document_id : 9203483831070780338,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 55,
+				length : 70,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -248,123 +248,396 @@ $updates = $client->messages->sendMessage(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 38,
-				date : 39,
+				length : 36,
+				date : 57,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 24,
+				length : 54,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 72,
-				old_text : 'Uem2ClSo0GHdisN7',
+				length : 44,
+				old_text : '5EkLcBwGdhQ9F6xl',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 97,
+				length : 36,
+			),
+			$client->messageEntityTonAddress(
+				offset : 0,
+				length : 58,
 			),
 		),
-		quote_offset : 57,
+		quote_offset : 45,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 65,
+		todo_item_id : 94,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		quote_rich : array(
+			$client->textEmpty(),
+			$client->textPlain(
+				text : 'VCoc2kZPIF03wlvu',
+			),
+			$client->textBold(
+				text : $client->textEmpty(),
+			),
+			$client->textItalic(
+				text : $client->textEmpty(),
+			),
+			$client->textUnderline(
+				text : $client->textEmpty(),
+			),
+			$client->textStrike(
+				text : $client->textEmpty(),
+			),
+			$client->textFixed(
+				text : $client->textEmpty(),
+			),
+			$client->textUrl(
+				text : $client->textEmpty(),
+				url : 'https://docs.liveproto.dev',
+				webpage_id : 2023169365514277931,
+			),
+			$client->textEmail(
+				text : $client->textEmpty(),
+				email : 'reply@liveproto.dev',
+			),
+			$client->textConcat(
+				texts : array(
+					$client->textEmpty(),
+					$client->textPlain(
+						text : 'NLOMoRKf1wGnXr0U',
+					),
+					$client->textBold(
+						text : $client->textEmpty(...),
+					),
+					$client->textItalic(
+						text : $client->textEmpty(...),
+					),
+					$client->textUnderline(
+						text : $client->textEmpty(...),
+					),
+					$client->textStrike(
+						text : $client->textEmpty(...),
+					),
+					$client->textFixed(
+						text : $client->textEmpty(...),
+					),
+					$client->textUrl(
+						text : $client->textEmpty(...),
+						url : 'https://docs.liveproto.dev',
+						webpage_id : 6305491305364040264,
+					),
+					$client->textEmail(
+						text : $client->textEmpty(...),
+						email : 'reply@liveproto.dev',
+					),
+					$client->textConcat(
+						texts : array(
+							$client->textEmpty(...),
+							$client->textPlain(...),
+							$client->textBold(...),
+							$client->textItalic(...),
+							$client->textUnderline(...),
+							$client->textStrike(...),
+							$client->textFixed(...),
+							$client->textUrl(...),
+							$client->textEmail(...),
+							$client->textConcat(...),
+							$client->textSubscript(...),
+							$client->textSuperscript(...),
+							$client->textMarked(...),
+							$client->textPhone(...),
+							$client->textImage(...),
+							$client->textAnchor(...),
+							$client->textMath(...),
+							$client->textCustomEmoji(...),
+							$client->textSpoiler(...),
+							$client->textMention(...),
+							$client->textHashtag(...),
+							$client->textBotCommand(...),
+							$client->textCashtag(...),
+							$client->textAutoUrl(...),
+							$client->textAutoEmail(...),
+							$client->textAutoPhone(...),
+							$client->textBankCard(...),
+							$client->textMentionName(...),
+							$client->textDate(...),
+							$client->textDiff(...),
+							$client->textButton(...),
+							$client->textTonAddress(...),
+						),
+					),
+					$client->textSubscript(
+						text : $client->textEmpty(...),
+					),
+					$client->textSuperscript(
+						text : $client->textEmpty(...),
+					),
+					$client->textMarked(
+						text : $client->textEmpty(...),
+					),
+					$client->textPhone(
+						text : $client->textEmpty(...),
+						phone : '+1234567890',
+					),
+					$client->textImage(
+						document_id : 1994770942929951121,
+						w : 55,
+						h : 66,
+					),
+					$client->textAnchor(
+						text : $client->textEmpty(...),
+						name : 'r0fanldDjuTAFNOL',
+					),
+					$client->textMath(
+						source : 'gbDe13kwanBEK0Rt',
+					),
+					$client->textCustomEmoji(
+						document_id : -3374425291905439838,
+						alt : 'uiZjPwcIY4KTVXMo',
+					),
+					$client->textSpoiler(
+						text : $client->textEmpty(...),
+					),
+					$client->textMention(
+						text : $client->textEmpty(...),
+					),
+					$client->textHashtag(
+						text : $client->textEmpty(...),
+					),
+					$client->textBotCommand(
+						text : $client->textEmpty(...),
+					),
+					$client->textCashtag(
+						text : $client->textEmpty(...),
+					),
+					$client->textAutoUrl(
+						text : $client->textEmpty(...),
+					),
+					$client->textAutoEmail(
+						text : $client->textEmpty(...),
+					),
+					$client->textAutoPhone(
+						text : $client->textEmpty(...),
+					),
+					$client->textBankCard(
+						text : $client->textEmpty(...),
+					),
+					$client->textMentionName(
+						text : $client->textEmpty(...),
+						user_id : -3813560873595090017,
+					),
+					$client->textDate(
+						relative : true,
+						short_time : true,
+						long_time : true,
+						short_date : true,
+						long_date : true,
+						day_of_week : true,
+						text : $client->textEmpty(...),
+						date : 37,
+					),
+					$client->textDiff(
+						text : $client->textEmpty(...),
+						old_text : $client->textEmpty(...),
+					),
+					$client->textButton(
+						text : $client->textEmpty(...),
+						type : $client->inlineButtonTypeUrl(...),
+						style : $client->richButtonStyle(...),
+					),
+					$client->textTonAddress(
+						text : $client->textEmpty(...),
+					),
+				),
+			),
+			$client->textSubscript(
+				text : $client->textEmpty(),
+			),
+			$client->textSuperscript(
+				text : $client->textEmpty(),
+			),
+			$client->textMarked(
+				text : $client->textEmpty(),
+			),
+			$client->textPhone(
+				text : $client->textEmpty(),
+				phone : '+1234567890',
+			),
+			$client->textImage(
+				document_id : -3452739773617386671,
+				w : 39,
+				h : 29,
+			),
+			$client->textAnchor(
+				text : $client->textEmpty(),
+				name : 'VxM5aqkPEwCNe67J',
+			),
+			$client->textMath(
+				source : 'vmwbQEl4y8W2xckM',
+			),
+			$client->textCustomEmoji(
+				document_id : -8763016480470173728,
+				alt : 'KwbJ8SrTnpE0LGla',
+			),
+			$client->textSpoiler(
+				text : $client->textEmpty(),
+			),
+			$client->textMention(
+				text : $client->textEmpty(),
+			),
+			$client->textHashtag(
+				text : $client->textEmpty(),
+			),
+			$client->textBotCommand(
+				text : $client->textEmpty(),
+			),
+			$client->textCashtag(
+				text : $client->textEmpty(),
+			),
+			$client->textAutoUrl(
+				text : $client->textEmpty(),
+			),
+			$client->textAutoEmail(
+				text : $client->textEmpty(),
+			),
+			$client->textAutoPhone(
+				text : $client->textEmpty(),
+			),
+			$client->textBankCard(
+				text : $client->textEmpty(),
+			),
+			$client->textMentionName(
+				text : $client->textEmpty(),
+				user_id : -3505465232759357170,
+			),
+			$client->textDate(
+				relative : true,
+				short_time : true,
+				long_time : true,
+				short_date : true,
+				long_date : true,
+				day_of_week : true,
+				text : $client->textEmpty(),
+				date : 62,
+			),
+			$client->textDiff(
+				text : $client->textEmpty(),
+				old_text : $client->textEmpty(),
+			),
+			$client->textButton(
+				text : $client->textEmpty(),
+				type : $client->inlineButtonTypeUrl(
+					url : 'https://docs.liveproto.dev',
+				),
+				style : $client->richButtonStyle(
+					bg_primary : true,
+					bg_danger : true,
+					bg_success : true,
+					link : true,
+				),
+			),
+			$client->textTonAddress(
+				text : $client->textEmpty(),
+			),
+		),
 	),
-	message : 'vQibl09ehy8Un5Xo',
-	random_id : -5564948959687528337,
+	message : '6QKpzyscU71CNngV',
+	random_id : 3599690546449748821,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 65,
+			length : 17,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 3,
+			length : 17,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 21,
+			length : 66,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 98,
+			length : 4,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 54,
+			length : 58,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 56,
+			length : 55,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 93,
+			length : 89,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 0,
+			length : 90,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 9,
+			length : 36,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 4,
-			language : 'reiBGp04olv8MR3A',
+			length : 57,
+			language : '6rQYFxLTdbAWiycn',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 52,
+			length : 58,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 42,
-			user_id : -7511605559757181121,
+			length : 9,
+			user_id : -7818256729274036266,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 100,
+			length : 83,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 68,
+			length : 23,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 36,
+			length : 31,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 79,
+			length : 11,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 44,
+			length : 97,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 60,
+			length : 42,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 35,
+			length : 49,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 79,
-			document_id : -1733896592439706705,
+			length : 56,
+			document_id : 8972351498007561345,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 1,
+			length : 6,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -374,39 +647,43 @@ $updates = $client->messages->sendMessage(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 30,
-			date : 77,
+			length : 8,
+			date : 38,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 46,
+			length : 37,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 52,
-			old_text : 'nSNgAK1Ysv7uUxo0',
+			length : 75,
+			old_text : '08M24kHcyPZz7ThY',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 6,
+			length : 66,
+		),
+		$client->messageEntityTonAddress(
+			offset : 0,
+			length : 4,
 		),
 	),
 	schedule_date : 0,
-	schedule_repeat_period : 38,
+	schedule_repeat_period : 62,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'hBMlsuYJo9RtI4iS',
+		shortcut : 'gNFA8rW4cpVto9dC',
 	),
-	effect : 7507446403712379105,
-	allow_paid_stars : -5550420845980011989,
+	effect : -896800778316979790,
+	allow_paid_stars : -159179281140507932,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 2522266241643554506,
-			nanos : 64,
+			amount : 478578069108526985,
+			nanos : 6,
 		),
-		schedule_date : 2,
+		schedule_date : 14,
 	),
 	rich_message : $client->inputRichMessage(
 		rtl : true,
@@ -421,7 +698,7 @@ $updates = $client->messages->sendMessage(
 			),
 			$client->pageBlockAuthorDate(
 				author : $client->textEmpty(),
-				published_date : 50,
+				published_date : 41,
 			),
 			$client->pageBlockHeader(
 				text : $client->textEmpty(),
@@ -434,14 +711,14 @@ $updates = $client->messages->sendMessage(
 			),
 			$client->pageBlockPreformatted(
 				text : $client->textEmpty(),
-				language : 'PYL7IWu2wKABObgH',
+				language : 'TMpH2GrPkfxEgU4C',
 			),
 			$client->pageBlockFooter(
 				text : $client->textEmpty(),
 			),
 			$client->pageBlockDivider(),
 			$client->pageBlockAnchor(
-				name : 'U6fhZt9oaT8jwqcn',
+				name : 'PgNEVAncqST4I6Gp',
 			),
 			$client->pageBlockList(
 				items : array(
@@ -510,19 +787,19 @@ $updates = $client->messages->sendMessage(
 			),
 			$client->pageBlockPhoto(
 				spoiler : true,
-				photo_id : -9043533685928309709,
+				photo_id : 8151714323371963794,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
 				),
 				url : 'https://docs.liveproto.dev',
-				webpage_id : -6295810424769873668,
+				webpage_id : -8765625716512784413,
 			),
 			$client->pageBlockVideo(
 				autoplay : true,
 				loop : true,
 				spoiler : true,
-				video_id : -8106330188122063808,
+				video_id : 8785642456378767964,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -535,10 +812,10 @@ $updates = $client->messages->sendMessage(
 				full_width : true,
 				allow_scrolling : true,
 				url : 'https://docs.liveproto.dev',
-				html : 'kSqUoCjb4rpY2ePm',
-				poster_photo_id : -7638543474848124785,
-				w : 21,
-				h : 51,
+				html : 'pkdPHmUef9aEGoAJ',
+				poster_photo_id : 8852575415363503306,
+				w : 95,
+				h : 95,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -546,10 +823,10 @@ $updates = $client->messages->sendMessage(
 			),
 			$client->pageBlockEmbedPost(
 				url : 'https://docs.liveproto.dev',
-				webpage_id : -263851004847047793,
-				author_photo_id : 5048073831778475028,
-				author : '47tO1x2orNyPXzTJ',
-				date : 6,
+				webpage_id : -6398092056357379300,
+				author_photo_id : 1746288874950954050,
+				author : 'rdQ5EoMaxLJIFkv6',
+				date : 86,
 				blocks : array(
 					$client->pageBlockUnsupported(),
 					$client->pageBlockTitle(
@@ -560,7 +837,7 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 54,
+						published_date : 15,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -573,14 +850,14 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'bpqUCg9z8cHLMhxP',
+						language : '6QJmqZHYlK7LvIub',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : '7pjoCzrBxKgFeywG',
+						name : 'g4JA7EVvyMfQcBDO',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -599,16 +876,16 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 1339385532054535845,
+						photo_id : 4733009045551777852,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 3653653899066783128,
+						webpage_id : -8584325109826902540,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -4265642495954835328,
+						video_id : -4797968492845185227,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -618,18 +895,18 @@ $updates = $client->messages->sendMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'AnEuofOYC3GgN4qV',
-						poster_photo_id : 5584932072355498684,
-						w : 30,
-						h : 13,
+						html : 'N20W5gVnMJkaOefv',
+						poster_photo_id : -7812884910315743557,
+						w : 80,
+						h : 24,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -8444357921480402251,
-						author_photo_id : -5175699565457736477,
-						author : 'SfJQhjCuw0oYanrK',
-						date : 7,
+						webpage_id : -6299382168097493426,
+						author_photo_id : 6475361866912971510,
+						author : '7vegOrISZACn4hkt',
+						date : 31,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -771,7 +1048,7 @@ $updates = $client->messages->sendMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 4391549334295498911,
+						audio_id : 6137408787898831992,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -792,8 +1069,8 @@ $updates = $client->messages->sendMessage(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 4,
-						type : 'dY8bN96XGy0mpcAz',
+						start : 21,
+						type : 'FSTpI29eHrGYw1f3',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -850,9 +1127,9 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 91,
-						w : 31,
-						h : 88,
+						zoom : 12,
+						w : 19,
+						h : 14,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -874,16 +1151,16 @@ $updates = $client->messages->sendMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'Bmb9v7IwsiYQ3dpJ',
+						source : 'EhrSkZ5CFb109sXV',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 93,
-						w : 1,
-						h : 24,
+						zoom : 94,
+						w : 41,
+						h : 46,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -941,7 +1218,7 @@ $updates = $client->messages->sendMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : -5337189120380772009,
+						document_id : 5824963719519789928,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -961,7 +1238,7 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 79,
+						published_date : 15,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -974,14 +1251,14 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : '3I9RzvZfhuey1PmC',
+						language : 'g7eNkFDp9bsTtnq8',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : '8ZR6M9T5S4Qrho1Y',
+						name : 'njRSbxCi64YZ2Tvs',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1000,16 +1277,16 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 9058732201000581041,
+						photo_id : 3735485371107769505,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -4833911177728998992,
+						webpage_id : -4497361055303524409,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : 8302912168679733159,
+						video_id : 6895739058463454438,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1019,18 +1296,18 @@ $updates = $client->messages->sendMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'Lmsq4TawG2gWFyEZ',
-						poster_photo_id : -5449893896553659912,
-						w : 8,
-						h : 78,
+						html : '726dDp1gqQanUHtx',
+						poster_photo_id : -5201064178209242556,
+						w : 86,
+						h : 36,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 1857928390203209125,
-						author_photo_id : -510462142496735358,
-						author : 'QmcVyF4opWNtfwOu',
-						date : 15,
+						webpage_id : -2478100063014888189,
+						author_photo_id : 3092325959002994474,
+						author : 'ycPBX3mhpCDVn12Q',
+						date : 20,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1172,7 +1449,7 @@ $updates = $client->messages->sendMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -647332541309083213,
+						audio_id : -4171288282111913314,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -1193,8 +1470,8 @@ $updates = $client->messages->sendMessage(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 70,
-						type : 'njtv19aRo7OAfDdh',
+						start : 91,
+						type : 'U1kYlFG2KcjVOCTM',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -1251,9 +1528,9 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 90,
-						w : 14,
-						h : 32,
+						zoom : 57,
+						w : 86,
+						h : 73,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -1275,16 +1552,16 @@ $updates = $client->messages->sendMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'DYLktJend9rhZxuH',
+						source : 'IF7GmnEpoyf6JRQH',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 13,
-						w : 70,
-						h : 86,
+						zoom : 37,
+						w : 77,
+						h : 81,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -1342,7 +1619,7 @@ $updates = $client->messages->sendMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 7099645050142154398,
+						document_id : -7036731891056126727,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -1362,7 +1639,7 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 9,
+						published_date : 41,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -1375,14 +1652,14 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'TgeHDioYmcNwUBIV',
+						language : '9zxX8WCFRskSghy4',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'QFvGXZzdHtfaqkYT',
+						name : 'chbqp0vBfSxHC71t',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1401,16 +1678,16 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -4338131443476011332,
+						photo_id : -3681168220384693305,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 6057648190015711106,
+						webpage_id : 8904293222485250065,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -8971197782167834384,
+						video_id : -349409523421134,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1420,18 +1697,18 @@ $updates = $client->messages->sendMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : '4W1h8mqCjpH0Uz3x',
-						poster_photo_id : 1919885845754647969,
-						w : 38,
-						h : 70,
+						html : 'nJz4eD7G3dFbSqOl',
+						poster_photo_id : 6718505775776424158,
+						w : 40,
+						h : 41,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 3733861407336187397,
-						author_photo_id : -889195329449297341,
-						author : '1a9Xe0IpZtki6Gdw',
-						date : 90,
+						webpage_id : -8050385962784282183,
+						author_photo_id : -4608180605100239971,
+						author : 'vXGu5ikqPUVxMcFY',
+						date : 57,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1573,7 +1850,7 @@ $updates = $client->messages->sendMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -358732391916736001,
+						audio_id : -7321639549490755583,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -1594,8 +1871,8 @@ $updates = $client->messages->sendMessage(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 83,
-						type : 'd52HfchXmaglSMKL',
+						start : 74,
+						type : 'WH2GklhJcA1rBO3R',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -1652,9 +1929,9 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 79,
-						w : 33,
-						h : 26,
+						zoom : 58,
+						w : 32,
+						h : 13,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -1676,16 +1953,16 @@ $updates = $client->messages->sendMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'HrPS4eslg1LchYyB',
+						source : 'YGoSAgB8zLNfjIxQ',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 45,
-						w : 11,
-						h : 48,
+						zoom : 90,
+						w : 31,
+						h : 65,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -1743,7 +2020,7 @@ $updates = $client->messages->sendMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 9069472625761295563,
+						document_id : 990750240732047034,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -1754,11 +2031,11 @@ $updates = $client->messages->sendMessage(
 			),
 			$client->pageBlockChannel(
 				channel : $client->chatEmpty(
-					id : -9070461863725977020,
+					id : 1856778690333811390,
 				),
 			),
 			$client->pageBlockAudio(
-				audio_id : -804497799059547300,
+				audio_id : 6388714156427649156,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -1786,15 +2063,15 @@ $updates = $client->messages->sendMessage(
 					$client->pageListOrderedItemText(
 						checkbox : true,
 						checked : true,
-						num : '1OBdkbYx5INMK4gL',
+						num : 'rmMC0YufHigLoPF9',
 						text : $client->textEmpty(...),
-						value : 94,
-						type : 'rGHea0pIUDL4kw6z',
+						value : 52,
+						type : 'HRLE1ClJjbAxdc2U',
 					),
 					$client->pageListOrderedItemBlocks(
 						checkbox : true,
 						checked : true,
-						num : 'nOuI5tLC67AisvRF',
+						num : 'BT3wzCFSyDOduv0G',
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1838,12 +2115,12 @@ $updates = $client->messages->sendMessage(
 							$client->pageBlockButtonRow(...),
 							$client->pageBlockDocument(...),
 						),
-						value : 59,
-						type : 'TzN5LFyYKOsWBJax',
+						value : 55,
+						type : 'DxMnCWHYIFQfrVql',
 					),
 				),
-				start : 42,
-				type : 'O7Z8ei4wfua0B23j',
+				start : 21,
+				type : 'LfU6FSxWGC4YK0Hj',
 			),
 			$client->pageBlockDetails(
 				open : true,
@@ -1857,7 +2134,7 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 51,
+						published_date : 9,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -1870,14 +2147,14 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'eBSJaitd3HIAZ25n',
+						language : 'BhpLvWKdSaqzmHGw',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'SGCrykaqW1BiKsJP',
+						name : 'fVd9RwXYupMgnSDr',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1896,16 +2173,16 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -3227564273182633355,
+						photo_id : 5319717170152800300,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 7823374146012442780,
+						webpage_id : -6564958548427968021,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -3863762181438174373,
+						video_id : 5333347137859582233,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1915,18 +2192,18 @@ $updates = $client->messages->sendMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'c4tLhCWpRxA5OGPy',
-						poster_photo_id : 5708629396303481734,
-						w : 96,
-						h : 16,
+						html : 'TcWrAD8UX3xwoFlS',
+						poster_photo_id : 2560917729206179195,
+						w : 94,
+						h : 11,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -8373570842060846777,
-						author_photo_id : -2000185745617938205,
-						author : 'vRlnGHjc5Y4BS10p',
-						date : 43,
+						webpage_id : -8251320962903178965,
+						author_photo_id : 5301642431682260510,
+						author : '2dlGQ57Usrq4eL0t',
+						date : 57,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -2068,7 +2345,7 @@ $updates = $client->messages->sendMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 5960757824258727463,
+						audio_id : 5815456978717431940,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -2089,8 +2366,8 @@ $updates = $client->messages->sendMessage(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 31,
-						type : 'Jf6rxMXVQFqhAzEg',
+						start : 56,
+						type : 'PmBwQj9xKzZ2dvpo',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -2148,8 +2425,8 @@ $updates = $client->messages->sendMessage(
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
 						zoom : 78,
-						w : 42,
-						h : 72,
+						w : 80,
+						h : 15,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -2171,16 +2448,16 @@ $updates = $client->messages->sendMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : '4qaJGBnVDhSbIiNZ',
+						source : '0arRNfXQiwdU8EyF',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 72,
-						w : 62,
-						h : 21,
+						zoom : 52,
+						w : 2,
+						h : 78,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -2238,7 +2515,7 @@ $updates = $client->messages->sendMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 1861533415149258048,
+						document_id : 190253779399823049,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -2249,20 +2526,20 @@ $updates = $client->messages->sendMessage(
 				articles : array(
 					$client->pageRelatedArticle(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 1848915564262425173,
-						title : 'JV0WZxg4seqoSy2z',
-						description : 'SGvKbmjEAUnioXdq',
-						photo_id : -5480473600629200308,
-						author : '37tx9n4vDLfhEdzc',
-						published_date : 16,
+						webpage_id : 5975630096904357456,
+						title : 'jxO0MutGalyiFKRP',
+						description : 'h3PJTb2mkKnaiDQL',
+						photo_id : -7619355897008819699,
+						author : 'CVZc3NF28RsPohmb',
+						published_date : 23,
 					),
 				),
 			),
 			$client->pageBlockMap(
 				geo : $client->geoPointEmpty(),
-				zoom : 93,
-				w : 34,
-				h : 45,
+				zoom : 4,
+				w : 3,
+				h : 49,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -2287,16 +2564,16 @@ $updates = $client->messages->sendMessage(
 				text : $client->textEmpty(),
 			),
 			$client->pageBlockMath(
-				source : 'eCdmOhlxt4fEzvHY',
+				source : 'sDo0Zr2NmE4H6bi1',
 			),
 			$client->pageBlockThinking(
 				text : $client->textEmpty(),
 			),
 			$client->inputPageBlockMap(
 				geo : $client->inputGeoPointEmpty(),
-				zoom : 63,
-				w : 25,
-				h : 53,
+				zoom : 29,
+				w : 23,
+				h : 43,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -2313,7 +2590,7 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 29,
+						published_date : 85,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -2326,14 +2603,14 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'XaUIYRWiSs7ef5N2',
+						language : 'pZCWe3fTx4lL0Enu',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'e4gk7EiLsjN6RV8P',
+						name : 'XzrFEcOJojpWwqn0',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -2352,16 +2629,16 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -8544315530681068520,
+						photo_id : -781803581684306984,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 8521139557792061146,
+						webpage_id : 7356178543368284662,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : 2846880980300362829,
+						video_id : -2199201577165180851,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -2371,18 +2648,18 @@ $updates = $client->messages->sendMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'CLDcsRa0P2NiyFEd',
-						poster_photo_id : -6448382159081105833,
-						w : 36,
-						h : 54,
+						html : 'NFKcyZ67YVtLgqvl',
+						poster_photo_id : -5746400495425364037,
+						w : 17,
+						h : 43,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -1741224887079578219,
-						author_photo_id : -8509281550092829082,
-						author : 'fFKdkH7INgZa6cz2',
-						date : 50,
+						webpage_id : -8309793072085316076,
+						author_photo_id : 6364900314478112256,
+						author : 'e0OshHT3LcyJktvQ',
+						date : 17,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -2524,7 +2801,7 @@ $updates = $client->messages->sendMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 6719834126652571380,
+						audio_id : 3585998190633077525,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -2545,8 +2822,8 @@ $updates = $client->messages->sendMessage(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 7,
-						type : '8hDrRKwojilOvxcS',
+						start : 69,
+						type : 'ibapmwflDM7NJdPv',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -2603,9 +2880,9 @@ $updates = $client->messages->sendMessage(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 43,
-						w : 96,
-						h : 49,
+						zoom : 20,
+						w : 49,
+						h : 97,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -2627,16 +2904,16 @@ $updates = $client->messages->sendMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'kAipogh9uwvTnsEt',
+						source : 'v29UWhnJTd1ezFql',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 54,
-						w : 16,
-						h : 68,
+						zoom : 59,
+						w : 86,
+						h : 39,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -2694,7 +2971,7 @@ $updates = $client->messages->sendMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 6654493849031375045,
+						document_id : -6922320664538667861,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -2713,7 +2990,7 @@ $updates = $client->messages->sendMessage(
 				),
 			),
 			$client->pageBlockDocument(
-				document_id : -507122095424235738,
+				document_id : -2988995434055375512,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -2723,16 +3000,16 @@ $updates = $client->messages->sendMessage(
 		photos : array(
 			$client->inputPhotoEmpty(),
 			$client->inputPhoto(
-				id : 2640727594691872446,
-				access_hash : -1500900138298249768,
+				id : -3341668508841731977,
+				access_hash : -5682734664113974230,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),
 		documents : array(
 			$client->inputDocumentEmpty(),
 			$client->inputDocument(
-				id : -2601138003830878578,
-				access_hash : 2792198178654288607,
+				id : 2669405337999770562,
+				access_hash : 7856789082668039833,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),

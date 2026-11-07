@@ -2,7 +2,7 @@
 
 **Description** : *Info on users from the current user&#039;s black list*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 contacts.blocked#ade1591 blocked:Vector<PeerBlocked> chats:Vector<Chat> users:Vector<User> = contacts.Blocked;

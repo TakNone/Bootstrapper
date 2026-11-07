@@ -2,7 +2,7 @@
 
 **Description** : *Contains the full list of members of basic groups &raquo;; is NOT usable for supergroups/channels*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 chatParticipants#3cbc93f8 chat_id:long participants:Vector<ChatParticipant> version:int = ChatParticipants;
@@ -30,25 +30,25 @@ chatParticipants#3cbc93f8 chat_id:long participants:Vector<ChatParticipant> vers
 
 ```php
 $chatParticipants = $client->chatParticipants(
-	chat_id : 3219457558242458571,
+	chat_id : 2999499629354321588,
 	participants : array(
 		$client->chatParticipant(
-			user_id : -7596792824093166851,
-			inviter_id : -8501478189519593837,
-			date : 34,
-			rank : '2NTZw8LbeX9dxmpV',
+			user_id : 1552659727889721089,
+			inviter_id : -3148951965841205194,
+			date : 83,
+			rank : 'pishdP5MfVb0L9xS',
 		),
 		$client->chatParticipantCreator(
-			user_id : -346958253246995375,
-			rank : 'YRkDq23OxUvn9WCP',
+			user_id : 6218365386590479168,
+			rank : '9G6vEco0VRKtuwkl',
 		),
 		$client->chatParticipantAdmin(
-			user_id : -1270768565805981393,
-			inviter_id : 8056573190427678666,
-			date : 30,
-			rank : 'aj7A3fZBbCyhn2wv',
+			user_id : 3208122579503807458,
+			inviter_id : 912170306503512548,
+			date : 52,
+			rank : 'FXifU9PxaTwYvRuo',
 		),
 	),
-	version : 100,
+	version : 42,
 );
 ```

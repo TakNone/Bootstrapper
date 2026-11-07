@@ -2,7 +2,7 @@
 
 **Description** : *Defines media content of a message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputMediaEmpty#9664f57f = InputMedia;
@@ -25,6 +25,8 @@ inputMediaWebPage#c21b8849 flags:# force_large_media:flags.0?true force_small_me
 inputMediaPaidMedia#c4103386 flags:# stars_amount:long extended_media:Vector<InputMedia> payload:flags.0?string = InputMedia;
 inputMediaTodo#9fc55fde todo:TodoList = InputMedia;
 inputMediaStakeDice#f3a9244a game_hash:string ton_amount:long client_seed:bytes = InputMedia;
+inputMediaWidget#44f6c04e flags:# allow_queries:flags.0?true shared_widget:flags.1?true width:int height:int html:string public_data:flags.2?string chat_data:flags.3?string = InputMedia;
+inputMediaWidgetId#7c855cb5 flags:# widget_id:long chat_data:flags.0?string = InputMedia;
 ```
 
 ---
@@ -53,3 +55,5 @@ inputMediaStakeDice#f3a9244a game_hash:string ton_amount:long client_seed:bytes 
 | [**inputMediaPaidMedia**](constructor/inputMediaPaidMedia) | Paid media, see here » for more info |
 | [**inputMediaTodo**](constructor/inputMediaTodo) | Creates a todo list » |
 | [**inputMediaStakeDice**](constructor/inputMediaStakeDice) | Dice game media |
+| [**inputMediaWidget**](constructor/inputMediaWidget) | NOTHING |
+| [**inputMediaWidgetId**](constructor/inputMediaWidgetId) | NOTHING |

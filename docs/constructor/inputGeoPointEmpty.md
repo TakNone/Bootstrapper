@@ -2,7 +2,7 @@
 
 **Description** : *Empty GeoPoint constructor*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputGeoPointEmpty#e4c123d6 = InputGeoPoint;

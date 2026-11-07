@@ -2,7 +2,7 @@
 
 **Description** : *Summary of a peer&#039;s active stories &raquo;, embedded in user\.stories\_max\_id and channel\.stories\_max\_id and returned by stories\.getPeerMaxIDs*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;
@@ -31,6 +31,6 @@ recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;
 ```php
 $recentStory = $client->recentStory(
 	live : true,
-	max_id : 94,
+	max_id : 71,
 );
 ```

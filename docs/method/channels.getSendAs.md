@@ -2,7 +2,7 @@
 
 **Description** : *Obtains a list of peers that can be displayed as the sender in a specific context\. With for\_live\_stories, returns peers that may author live story in\-call messages &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channels.getSendAs#e785a43f flags:# for_paid_reactions:flags.0?true for_live_stories:flags.1?true peer:InputPeer = channels.SendAsPeers;

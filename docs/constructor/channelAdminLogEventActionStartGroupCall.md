@@ -2,7 +2,7 @@
 
 **Description** : *A group call was started*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channelAdminLogEventActionStartGroupCall#23209745 call:InputGroupCall = ChannelAdminLogEventAction;
@@ -29,8 +29,8 @@ channelAdminLogEventActionStartGroupCall#23209745 call:InputGroupCall = ChannelA
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionStartGroupCall(
 	call : $client->inputGroupCall(
-		id : -5031956749476083650,
-		access_hash : -7452193892994396452,
+		id : 7294832406564865336,
+		access_hash : 5488533830020950977,
 	),
 );
 ```

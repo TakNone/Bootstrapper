@@ -2,7 +2,7 @@
 
 **Description** : *Create a video chat or livestream, see here &raquo; for the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.createGroupCall#48cdc6d8 flags:# rtmp_stream:flags.2?true peer:InputPeer random_id:int title:flags.0?string schedule_date:flags.1?int = Updates;
@@ -48,8 +48,8 @@ phone.createGroupCall#48cdc6d8 flags:# rtmp_stream:flags.2?true peer:InputPeer r
 $updates = $client->phone->createGroupCall(
 	rtmp_stream : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	random_id : 88,
-	title : '8MmJdY7cXVC3enKj',
-	schedule_date : 27,
+	random_id : 36,
+	title : 'xK7P4kbSdUGQMZLE',
+	schedule_date : 85,
 );
 ```

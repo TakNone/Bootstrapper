@@ -2,7 +2,7 @@
 
 **Description** : *Used to top up the Telegram Stars balance of the current account or someone else&#039;s account, or to start a Telegram Star giveaway &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputInvoiceStars#65f00ce3 purpose:InputStorePaymentPurpose = InputInvoice;

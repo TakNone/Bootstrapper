@@ -2,7 +2,7 @@
 
 **Description** : *Bots only: a user has changed their reactions on a message with public reactions*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateBotMessageReaction#ac21d3ce peer:Peer msg_id:int date:int actor:Peer old_reactions:Vector<Reaction> new_reactions:Vector<Reaction> qts:int = Update;
@@ -35,33 +35,33 @@ updateBotMessageReaction#ac21d3ce peer:Peer msg_id:int date:int actor:Peer old_r
 ```php
 $update = $client->updateBotMessageReaction(
 	peer : $client->peerUser(
-		user_id : 739775806159823105,
+		user_id : 8283880440464686486,
 	),
-	msg_id : 24,
-	date : 0,
+	msg_id : 28,
+	date : 50,
 	actor : $client->peerUser(
-		user_id : -342411524424853250,
+		user_id : 8556246671873570535,
 	),
 	old_reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'rF86oXOYcPJyEqSU',
+			emoticon : '6vDhm0H4apNUiISC',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 8172460311032457799,
+			document_id : 3798295104827184064,
 		),
 		$client->reactionPaid(),
 	),
 	new_reactions : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'aUibdGAJgkYXPZCe',
+			emoticon : 'YWazRgvtFd1KI3cu',
 		),
 		$client->reactionCustomEmoji(
-			document_id : 3712856155782121059,
+			document_id : 1746612112641949772,
 		),
 		$client->reactionPaid(),
 	),
-	qts : 42,
+	qts : 11,
 );
 ```

@@ -1,6 +1,6 @@
 # communities.togglePeerLink
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communities.togglePeerLink#736dcfea flags:# visible:flags.0?true hidden:flags.1?true deleted:flags.2?true community:InputChannel peer:InputPeer = Bool;

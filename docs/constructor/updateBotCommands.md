@@ -2,7 +2,7 @@
 
 **Description** : *The command set of a certain bot in a certain chat has changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateBotCommands#4d712f2e peer:Peer bot_id:long commands:Vector<BotCommand> = Update;
@@ -31,14 +31,14 @@ updateBotCommands#4d712f2e peer:Peer bot_id:long commands:Vector<BotCommand> = U
 ```php
 $update = $client->updateBotCommands(
 	peer : $client->peerUser(
-		user_id : 7985370863316671116,
+		user_id : 6573311814005595236,
 	),
-	bot_id : 7600420394222164168,
+	bot_id : -2780265015783673230,
 	commands : array(
 		$client->botCommand(
 			ephemeral : true,
-			command : 'Vn3pjemC9rRIScFM',
-			description : 'BcM6Zk4j1bqyJsi8',
+			command : 'NSxybmluOejYLqgd',
+			description : 'Wi89uRFjgdM2vlZh',
 		),
 	),
 );

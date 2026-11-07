@@ -1,6 +1,6 @@
 # inlineButtonTypeCallback
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inlineButtonTypeCallback#2955bc38 flags:# requires_password:flags.0?true data:bytes = InlineButtonType;

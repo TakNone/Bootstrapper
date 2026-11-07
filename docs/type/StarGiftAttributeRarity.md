@@ -2,7 +2,7 @@
 
 **Description** : *Rarity of a collectible gift &raquo; attribute, either as an exact permille value or as one of the named rarity tiers \(uncommon, rare, epic, legendary\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftAttributeRarity#36437737 permille:int = StarGiftAttributeRarity;

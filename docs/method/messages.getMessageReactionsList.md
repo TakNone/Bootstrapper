@@ -2,7 +2,7 @@
 
 **Description** : *Get message reaction list, along with the sender of each reaction*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getMessageReactionsList#461b3f48 flags:# peer:InputPeer id:int reaction:flags.0?Reaction offset:flags.1?string limit:int = messages.MessageReactionsList;
@@ -44,9 +44,9 @@ messages.getMessageReactionsList#461b3f48 flags:# peer:InputPeer id:int reaction
 ```php
 $messagesMessageReactionsList = $client->messages->getMessageReactionsList(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 85,
+	id : 91,
 	reaction : $client->reactionEmpty(),
-	offset : 'hc6OnmAojIbvNlZs',
-	limit : 5,
+	offset : 'MglKirT7ExZu2q3j',
+	limit : 24,
 );
 ```

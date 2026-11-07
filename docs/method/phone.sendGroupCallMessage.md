@@ -2,7 +2,7 @@
 
 **Description** : *Send an in\-call message to all participants of a video chat/livestream or live story, including in RTMP mode, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.sendGroupCallMessage#b1d11410 flags:# call:InputGroupCall random_id:long message:TextWithEntities allow_paid_stars:flags.0?long send_as:flags.1?InputPeer = Updates;
@@ -43,102 +43,102 @@ phone.sendGroupCallMessage#b1d11410 flags:# call:InputGroupCall random_id:long m
 ```php
 $updates = $client->phone->sendGroupCallMessage(
 	call : $client->inputGroupCall(
-		id : -4429806306844481649,
-		access_hash : 6449469187503701247,
+		id : -6492391942926048384,
+		access_hash : 6484914164451591578,
 	),
-	random_id : -6005560040297448123,
+	random_id : 5016689602410658003,
 	message : $client->textWithEntities(
-		text : 'bY41pm6AvKZqEahf',
+		text : 'nXxb7olJyEOgcsSu',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 53,
+				length : 46,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 52,
+				length : 67,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 55,
+				length : 43,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 48,
+				length : 0,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 77,
+				length : 51,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 1,
+				length : 33,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 35,
+				length : 55,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 58,
+				length : 76,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 23,
+				length : 45,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 9,
-				language : 'oxnpFaMPWrcK4Bie',
+				length : 44,
+				language : '7gyTRhsXK02c8xpm',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 70,
+				length : 92,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 100,
-				user_id : -4538150325217951505,
+				length : 59,
+				user_id : -1954461904701775474,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 68,
+				length : 6,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 20,
+				length : 70,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 56,
+				length : 74,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 67,
+				length : 84,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 32,
+				length : 94,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 26,
+				length : 34,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 7,
+				length : 92,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 89,
-				document_id : 5232396077838673149,
+				length : 35,
+				document_id : -2901017914107269587,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 33,
+				length : 58,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -148,25 +148,29 @@ $updates = $client->phone->sendGroupCallMessage(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 62,
-				date : 43,
+				length : 90,
+				date : 45,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 47,
+				length : 57,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 83,
-				old_text : '7vEtoS1gX4na6Gc8',
+				length : 59,
+				old_text : '7BfLhQq60FIV1WXx',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 3,
+				length : 57,
+			),
+			$client->messageEntityTonAddress(
+				offset : 0,
+				length : 15,
 			),
 		),
 	),
-	allow_paid_stars : -1673054560538271744,
+	allow_paid_stars : -8780544398813217066,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

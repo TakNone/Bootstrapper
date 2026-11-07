@@ -1,6 +1,6 @@
 # ephemeral.getCallbackAnswer
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 ephemeral.getCallbackAnswer#3fa464c8 flags:# peer:InputPeer id:int data:flags.1?bytes = messages.BotCallbackAnswer;
@@ -30,7 +30,7 @@ ephemeral.getCallbackAnswer#3fa464c8 flags:# peer:InputPeer id:int data:flags.1?
 ```php
 $messagesBotCallbackAnswer = $client->ephemeral->getCallbackAnswer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 35,
+	id : 77,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

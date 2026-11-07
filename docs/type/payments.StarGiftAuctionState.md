@@ -2,7 +2,7 @@
 
 **Description** : *Describes a collectible gift auction &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.starGiftAuctionState#6b39f4ec gift:StarGift state:StarGiftAuctionState user_state:StarGiftAuctionUserState timeout:int users:Vector<User> chats:Vector<Chat> = payments.StarGiftAuctionState;

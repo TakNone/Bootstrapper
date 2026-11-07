@@ -2,7 +2,7 @@
 
 **Description** : *Group photo is not set*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 chatPhotoEmpty#37c1011c = ChatPhoto;

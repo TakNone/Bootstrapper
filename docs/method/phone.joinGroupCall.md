@@ -2,7 +2,7 @@
 
 **Description** : *Join any group call type &raquo;\. Conference calls additionally require the E2E joining flow &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.joinGroupCall#8fb53057 flags:# muted:flags.0?true video_stopped:flags.2?true call:InputGroupCall join_as:InputPeer invite_hash:flags.1?string public_key:flags.3?int256 block:flags.3?bytes params:DataJSON = Updates;
@@ -54,15 +54,15 @@ $updates = $client->phone->joinGroupCall(
 	muted : true,
 	video_stopped : true,
 	call : $client->inputGroupCall(
-		id : -4429286063717214618,
-		access_hash : 5171669198382071479,
+		id : 8997056925668367921,
+		access_hash : 1397684144665931116,
 	),
 	join_as : $client->get_input_peer(peer : '@LiveProtoChat'),
-	invite_hash : 'wB4I5retzXWZR7aL',
-	public_key : '35290858605080414160674782696742031563978086926353269067637583515940606463602',
+	invite_hash : '1ca2ARJxivyFonek',
+	public_key : '110402632791006463640604917292660668134475729875141742342746888935839996150173',
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	params : $client->dataJSON(
-		data : 'YqIBhWGdpNA6UiKt',
+		data : '8H3YiGfMqBISgoC2',
 	),
 );
 ```

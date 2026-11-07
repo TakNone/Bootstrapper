@@ -2,7 +2,7 @@
 
 **Description** : *Set whether all users should request admin approval to join the group &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channels.toggleJoinRequest#ecc2618 flags:# apply_to_invites:flags.1?true channel:InputChannel enabled:Bool guard_bot:flags.0?InputUser = Updates;

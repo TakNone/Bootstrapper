@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of peers that can be used to join a video chat or livestream &raquo;, presenting yourself as a specific user/channel*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.getGroupCallJoinAs#ef7c213a peer:InputPeer = phone.JoinAsPeers;

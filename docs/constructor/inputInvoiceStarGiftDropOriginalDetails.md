@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for for the removal of the starGiftAttributeOriginalDetails attribute from a collectible gift, see here &raquo; for the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputInvoiceStarGiftDropOriginalDetails#923d8d1 stargift:InputSavedStarGift = InputInvoice;
@@ -29,7 +29,7 @@ inputInvoiceStarGiftDropOriginalDetails#923d8d1 stargift:InputSavedStarGift = In
 ```php
 $inputInvoice = $client->inputInvoiceStarGiftDropOriginalDetails(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 56,
+		msg_id : 55,
 	),
 );
 ```

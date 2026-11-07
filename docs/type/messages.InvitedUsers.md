@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about successfully or unsuccessfully invited &raquo; users*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.invitedUsers#7f5defa6 updates:Updates missing_invitees:Vector<MissingInvitee> = messages.InvitedUsers;

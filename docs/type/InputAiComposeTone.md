@@ -2,7 +2,7 @@
 
 **Description** : *References an AI composer tone &raquo;, either a built\-in default tone or a custom one \(by ID or slug\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputAiComposeToneDefault#1fe9a9bf tone:string = InputAiComposeTone;

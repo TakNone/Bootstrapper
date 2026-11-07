@@ -1,6 +1,6 @@
 # inlineButtonTypeSwitchInline
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inlineButtonTypeSwitchInline#93773ff5 flags:# same_peer:flags.0?true query:string peer_types:flags.1?Vector<InlineQueryPeerType> = InlineButtonType;
@@ -30,7 +30,7 @@ inlineButtonTypeSwitchInline#93773ff5 flags:# same_peer:flags.0?true query:strin
 ```php
 $inlineButtonType = $client->inlineButtonTypeSwitchInline(
 	same_peer : true,
-	query : 'uwoyD9Q4VmgjM1NA',
+	query : 'Pexc5yYkhuLjvbSm',
 	peer_types : array(
 		$client->inlineQueryPeerTypeSameBotPM(),
 		$client->inlineQueryPeerTypePM(),

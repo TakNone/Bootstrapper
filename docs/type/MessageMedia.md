@@ -2,7 +2,7 @@
 
 **Description** : *Media*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageMediaEmpty#3ded6320 = MessageMedia;
@@ -24,6 +24,7 @@ messageMediaGiveawayResults#ceaa3ea1 flags:# only_new_subscribers:flags.0?true r
 messageMediaPaidMedia#a8852491 stars_amount:long extended_media:Vector<MessageExtendedMedia> = MessageMedia;
 messageMediaToDo#8a53b014 flags:# todo:TodoList completions:flags.0?Vector<TodoCompletion> = MessageMedia;
 messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGroupCall = MessageMedia;
+messageMediaWidget#2238f214 flags:# is_copy:flags.0?true can_query:flags.1?true background_query:flags.2?true width:int height:int payload:bytes public_data:flags.3?string public_data_hash:flags.3?long chat_data:flags.4?string widget_id:flags.5?long = MessageMedia;
 ```
 
 ---
@@ -51,3 +52,4 @@ messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGrou
 | [**messageMediaPaidMedia**](constructor/messageMediaPaidMedia) | Paid media, see here » for more info |
 | [**messageMediaToDo**](constructor/messageMediaToDo) | Represents a todo list » |
 | [**messageMediaVideoStream**](constructor/messageMediaVideoStream) | Identifies the active group call associated with a live story » |
+| [**messageMediaWidget**](constructor/messageMediaWidget) | NOTHING |

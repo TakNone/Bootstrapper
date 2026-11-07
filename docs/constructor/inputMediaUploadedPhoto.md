@@ -2,7 +2,7 @@
 
 **Description** : *Photo*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputMediaUploadedPhoto#7d8375da flags:# spoiler:flags.2?true live_photo:flags.3?true file:InputFile stickers:flags.0?Vector<InputDocument> ttl_seconds:flags.1?int video:flags.3?InputDocument = InputMedia;
@@ -40,12 +40,12 @@ $inputMedia = $client->inputMediaUploadedPhoto(
 	stickers : array(
 		$client->inputDocumentEmpty(),
 		$client->inputDocument(
-			id : 8271402531471462806,
-			access_hash : -5766377117951299648,
+			id : 3243689624202089284,
+			access_hash : 4636009034654597313,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	ttl_seconds : 31,
+	ttl_seconds : 37,
 	video : $client->inputDocumentEmpty(),
 );
 ```

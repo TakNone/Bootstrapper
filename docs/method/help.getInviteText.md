@@ -2,7 +2,7 @@
 
 **Description** : *Returns localized text of a text message with an invitation*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 help.getInviteText#4d392343 = help.InviteText;

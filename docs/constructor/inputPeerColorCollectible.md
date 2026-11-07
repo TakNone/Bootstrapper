@@ -2,7 +2,7 @@
 
 **Description** : *Represents a color palette &raquo; associated to a collectible gift &raquo;, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputPeerColorCollectible#b8ea86a9 collectible_id:long = PeerColor;
@@ -28,6 +28,6 @@ inputPeerColorCollectible#b8ea86a9 collectible_id:long = PeerColor;
 
 ```php
 $peerColor = $client->inputPeerColorCollectible(
-	collectible_id : -2900938618035049136,
+	collectible_id : -8237471953349032922,
 );
 ```

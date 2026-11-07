@@ -2,7 +2,7 @@
 
 **Description** : *Allow only contacts*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputPrivacyValueAllowContacts#d09e07b = InputPrivacyRule;

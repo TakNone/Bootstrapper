@@ -2,7 +2,7 @@
 
 **Description** : *A video chat/livestream was scheduled*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionGroupCallScheduled#b3a07661 call:InputGroupCall schedule_date:int = MessageAction;
@@ -30,9 +30,9 @@ messageActionGroupCallScheduled#b3a07661 call:InputGroupCall schedule_date:int =
 ```php
 $messageAction = $client->messageActionGroupCallScheduled(
 	call : $client->inputGroupCall(
-		id : 248271142764531903,
-		access_hash : 6718925539831214062,
+		id : -2116631529448244180,
+		access_hash : -4068235953877903138,
 	),
-	schedule_date : 51,
+	schedule_date : 27,
 );
 ```

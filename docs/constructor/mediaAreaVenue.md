@@ -2,7 +2,7 @@
 
 **Description** : *Represents a location tag attached to a story, with additional venue information*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 mediaAreaVenue#be82db9c coordinates:MediaAreaCoordinates geo:GeoPoint title:string address:string provider:string venue_id:string venue_type:string = MediaArea;
@@ -35,18 +35,18 @@ mediaAreaVenue#be82db9c coordinates:MediaAreaCoordinates geo:GeoPoint title:stri
 ```php
 $mediaArea = $client->mediaAreaVenue(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 2082676.6943359375,
-		y : -1210440.98828125,
-		w : -877778.5048828125,
-		h : 534676.9716796875,
-		rotation : 1638375.3798828125,
-		radius : -1748410.357421875,
+		x : -1887912.59765625,
+		y : 508441.923828125,
+		w : 1415026.5126953125,
+		h : -2036287.6689453125,
+		rotation : 144236.2646484375,
+		radius : -2093351.98828125,
 	),
 	geo : $client->geoPointEmpty(),
-	title : 'AFMf8OD6I5Tn7cQ4',
-	address : 'vxEzkfQm93rOtiRP',
-	provider : '3ucwpgL9P4GzmOkB',
-	venue_id : 'b63mXOnlGujKvi9F',
-	venue_type : 'kh53Hx7ApF4PoEgB',
+	title : 'iOLT3YKsdveDgAra',
+	address : 'x1tV4AIFu6SdiaKY',
+	provider : '9vhQkFjq7OAWNcDI',
+	venue_id : 'uwqv7xj1iAHCsGKX',
+	venue_type : 'GX3R2miDIn987yu5',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Attached photo*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageMediaPhoto#e216eb63 flags:# spoiler:flags.3?true live_photo:flags.4?true photo:flags.0?Photo ttl_seconds:flags.2?int video:flags.4?Document = MessageMedia;
@@ -36,11 +36,11 @@ $messageMedia = $client->messageMediaPhoto(
 	spoiler : true,
 	live_photo : true,
 	photo : $client->photoEmpty(
-		id : -2625958029320476409,
+		id : -7873989914733734243,
 	),
-	ttl_seconds : 5,
+	ttl_seconds : 52,
 	video : $client->documentEmpty(
-		id : 4281889288567290893,
+		id : 5950880637981460900,
 	),
 );
 ```

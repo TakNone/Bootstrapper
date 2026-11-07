@@ -1,6 +1,6 @@
 # inlineButtonTypeGame
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inlineButtonTypeGame#5cd3709d = InlineButtonType;

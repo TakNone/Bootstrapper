@@ -2,7 +2,7 @@
 
 **Description** : *The participant list of a group call has changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<GroupCallParticipant> version:int = Update;
@@ -31,8 +31,8 @@ updateGroupCallParticipants#f2ebdb4e call:InputGroupCall participants:Vector<Gro
 ```php
 $update = $client->updateGroupCallParticipants(
 	call : $client->inputGroupCall(
-		id : 8091338783509177951,
-		access_hash : 7574364190359301412,
+		id : 4482009000294702694,
+		access_hash : 1554258479493157105,
 	),
 	participants : array(
 		$client->groupCallParticipant(
@@ -47,39 +47,39 @@ $update = $client->updateGroupCallParticipants(
 			self : true,
 			video_joined : true,
 			peer : $client->peerUser(
-				user_id : 8790051803903859134,
+				user_id : 2263793429746321102,
 			),
-			date : 18,
-			active_date : 70,
-			source : 66,
-			volume : 91,
-			about : 'KkZSAUuf2p4y8RJo',
-			raise_hand_rating : -7332035122369130310,
+			date : 89,
+			active_date : 9,
+			source : 81,
+			volume : 61,
+			about : 'mlnE0ROPVpogyLju',
+			raise_hand_rating : 655712062975862100,
 			video : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'R6T9nvz8hPqSsYH1',
+				endpoint : 'dLczrGeNB3vKpZMi',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(
-						semantics : 'O9BmUZ1Yg4zKAdMD',
-						sources : array(32),
+						semantics : '7gDY2Ale1GLIXiZq',
+						sources : array(48),
 					),
 				),
-				audio_source : 50,
+				audio_source : 29,
 			),
 			presentation : $client->groupCallParticipantVideo(
 				paused : true,
-				endpoint : 'dmOk2WRAJaMKQurN',
+				endpoint : 'X7jMUedCHSTBnWcR',
 				source_groups : array(
 					$client->groupCallParticipantVideoSourceGroup(
-						semantics : 'lJg7fxdza3DoTbQP',
-						sources : array(36),
+						semantics : 'AZBDbcg1y7NpkWo0',
+						sources : array(43),
 					),
 				),
-				audio_source : 76,
+				audio_source : 81,
 			),
-			paid_stars_total : 385756418534886394,
+			paid_stars_total : 7089594708170966134,
 		),
 	),
-	version : 76,
+	version : 60,
 );
 ```

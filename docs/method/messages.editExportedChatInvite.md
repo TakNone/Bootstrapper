@@ -2,7 +2,7 @@
 
 **Description** : *Edit an exported chat invite*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.editExportedChatInvite#bdca2f75 flags:# revoked:flags.2?true peer:InputPeer link:string expire_date:flags.0?int usage_limit:flags.1?int request_needed:flags.3?Bool title:flags.4?string = messages.ExportedChatInvite;
@@ -52,10 +52,10 @@ messages.editExportedChatInvite#bdca2f75 flags:# revoked:flags.2?true peer:Input
 $messagesExportedChatInvite = $client->messages->editExportedChatInvite(
 	revoked : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	link : 'Z9t2Y70pTunmOvKH',
-	expire_date : 94,
-	usage_limit : 28,
+	link : 'iHCmU3vhEWeVqNQX',
+	expire_date : 48,
+	usage_limit : 92,
 	request_needed : true,
-	title : 'gqOUnYExlv15N4Su',
+	title : 'gyac7RXElATOnDku',
 );
 ```

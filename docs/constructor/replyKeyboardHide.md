@@ -2,7 +2,7 @@
 
 **Description** : *Hide sent reply keyboard*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 replyKeyboardHide#a03e5b85 flags:# selective:flags.2?true = ReplyMarkup;

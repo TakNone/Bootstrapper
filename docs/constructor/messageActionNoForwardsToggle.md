@@ -2,7 +2,7 @@
 
 **Description** : *Emitted only in private chats when enabling or disabling content protection &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionNoForwardsToggle#bf7d6572 prev_value:Bool new_value:Bool = MessageAction;
@@ -30,6 +30,6 @@ messageActionNoForwardsToggle#bf7d6572 prev_value:Bool new_value:Bool = MessageA
 ```php
 $messageAction = $client->messageActionNoForwardsToggle(
 	prev_value : true,
-	new_value : true,
+	new_value : false,
 );
 ```

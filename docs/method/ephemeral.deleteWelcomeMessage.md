@@ -1,6 +1,6 @@
 # ephemeral.deleteWelcomeMessage
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 ephemeral.deleteWelcomeMessage#e882a9e1 peer:InputPeer id:int = Bool;
@@ -28,6 +28,6 @@ ephemeral.deleteWelcomeMessage#e882a9e1 peer:InputPeer id:int = Bool;
 ```php
 $bool = $client->ephemeral->deleteWelcomeMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 48,
+	id : 71,
 );
 ```

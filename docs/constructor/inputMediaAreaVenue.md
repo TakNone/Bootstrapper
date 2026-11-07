@@ -2,7 +2,7 @@
 
 **Description** : *Represents a location tag attached to a story, with additional venue information*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputMediaAreaVenue#b282217f coordinates:MediaAreaCoordinates query_id:long result_id:string = MediaArea;
@@ -31,14 +31,14 @@ inputMediaAreaVenue#b282217f coordinates:MediaAreaCoordinates query_id:long resu
 ```php
 $mediaArea = $client->inputMediaAreaVenue(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 2004819.9453125,
-		y : 313345.869140625,
-		w : 92833.751953125,
-		h : -797732.4365234375,
-		rotation : 38120.486328125,
-		radius : 169773.84375,
+		x : 264145.5146484375,
+		y : -408989.1787109375,
+		w : -985149.4931640625,
+		h : 109162.9609375,
+		rotation : 2043525.5068359375,
+		radius : 1044721.4189453125,
 	),
-	query_id : 8931479188629863163,
-	result_id : '98CkNUEJ4BgXwV05',
+	query_id : 3095721972302636656,
+	result_id : 'la81w3fc2tGWSiET',
 );
 ```

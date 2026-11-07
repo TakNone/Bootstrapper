@@ -2,7 +2,7 @@
 
 **Description** : *Returns info about a collectible gift auction &raquo;; also subscribes the user to auction updates, see here &raquo; for more info on the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.getStarGiftAuctionState#5c9ff4d6 auction:InputStarGiftAuction version:int = payments.StarGiftAuctionState;
@@ -38,8 +38,8 @@ payments.getStarGiftAuctionState#5c9ff4d6 auction:InputStarGiftAuction version:i
 ```php
 $paymentsStarGiftAuctionState = $client->payments->getStarGiftAuctionState(
 	auction : $client->inputStarGiftAuction(
-		gift_id : 4107978478718819750,
+		gift_id : -6601051744924125663,
 	),
-	version : 27,
+	version : 9,
 );
 ```

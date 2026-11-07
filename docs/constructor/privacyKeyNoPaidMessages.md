@@ -2,7 +2,7 @@
 
 **Description** : *Who can send you messages without paying, if paid messages &raquo; are enabled*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 privacyKeyNoPaidMessages#17d348d2 = PrivacyKey;

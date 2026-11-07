@@ -2,7 +2,7 @@
 
 **Description** : *Peer, or all peers in a certain folder*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputDialogPeer#fcaafeb7 peer:InputPeer = InputDialogPeer;

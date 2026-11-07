@@ -2,7 +2,7 @@
 
 **Description** : *Craft a new collectible gift &raquo; by combining 1 to 4 owned collectible gifts of the same base gift type*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.craftStarGift#b0f9684f stargift:Vector<InputSavedStarGift> = Updates;
@@ -38,14 +38,14 @@ payments.craftStarGift#b0f9684f stargift:Vector<InputSavedStarGift> = Updates;
 $updates = $client->payments->craftStarGift(
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 24,
+			msg_id : 92,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : 955790504016743053,
+			saved_id : -4559682305700013422,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'KutVchJCALmdy35E',
+			slug : 'oj2S9RW0qNDCYKLy',
 		),
 	),
 );

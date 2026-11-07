@@ -2,7 +2,7 @@
 
 **Description** : *Set the default peer used to join a video chat/livestream &raquo; associated with a specific dialog*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.saveDefaultGroupCallJoinAs#575e1f8c peer:InputPeer join_as:InputPeer = Bool;

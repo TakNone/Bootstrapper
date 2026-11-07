@@ -1,6 +1,6 @@
 # ephemeral.welcomeMessages
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 ephemeral.welcomeMessages#104fc872 hash:long messages:Vector<EphemeralMessage> = ephemeral.WelcomeMessages;
@@ -34,107 +34,107 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 			welcome_template : true,
 			invert_media : true,
 			noforwards : true,
-			id : 93,
+			id : 48,
 			from_id : $client->peerUser(
-				user_id : 5648156573809863213,
+				user_id : 7435172721400307156,
 			),
 			peer_id : $client->peerUser(
-				user_id : -4569152109577324337,
+				user_id : -804833148266088286,
 			),
-			receiver_id : 8652477841215458593,
-			top_msg_id : 34,
-			date : 86,
-			message : 'txbLTBS3IFaK0NQl',
+			receiver_id : -6016889026021454356,
+			top_msg_id : 65,
+			date : 79,
+			message : '8VtTxrSd0ME9X1Ub',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 16,
+					length : 25,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 93,
+					length : 32,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 4,
+					length : 62,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 76,
+					length : 20,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 63,
+					length : 68,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 7,
+					length : 96,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 46,
+					length : 70,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 23,
+					length : 53,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 92,
+					length : 9,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 96,
-					language : 'lXQyFUnPx36vaTLp',
+					length : 17,
+					language : 'T32xyjAMKGrpLBZk',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 76,
+					length : 1,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 100,
-					user_id : -1813614395241451304,
+					length : 67,
+					user_id : -64646116099325462,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 80,
+					length : 7,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 28,
+					length : 9,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 18,
+					length : 66,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 63,
+					length : 47,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 5,
+					length : 98,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 83,
+					length : 77,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 53,
+					length : 73,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 84,
-					document_id : -7876219369988456574,
+					length : 16,
+					document_id : 4794354677538995320,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 4,
+					length : 65,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -144,21 +144,25 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 32,
-					date : 77,
+					length : 30,
+					date : 24,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 21,
+					length : 2,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 23,
-					old_text : 'qJGSOMcfy4AR7p2m',
+					length : 19,
+					old_text : 'F243ZBJMwdLvK0Sg',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 89,
+					length : 76,
+				),
+				$client->messageEntityTonAddress(
+					offset : 0,
+					length : 60,
 				),
 			),
 			media : $client->messageMediaEmpty(),
@@ -170,118 +174,118 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 				forum_topic : true,
 				quote : true,
 				reply_to_ephemeral : true,
-				reply_to_msg_id : 72,
+				reply_to_msg_id : 53,
 				reply_to_peer_id : $client->peerUser(
-					user_id : -5731923663062365550,
+					user_id : -368527028632944946,
 				),
 				reply_from : $client->messageFwdHeader(
 					imported : true,
 					saved_out : true,
 					from_id : $client->peerUser(...),
-					from_name : 'd0t9oVWjJspTfPyE',
-					date : 46,
-					channel_post : 23,
-					post_author : 'icI5ZMUaFK3o0GA9',
+					from_name : 'KXHBoSh1YQJxgAmq',
+					date : 65,
+					channel_post : 44,
+					post_author : '4BrwmAZNJH0SGezl',
 					saved_from_peer : $client->peerUser(...),
-					saved_from_msg_id : 31,
+					saved_from_msg_id : 69,
 					saved_from_id : $client->peerUser(...),
-					saved_from_name : 'RAPMsqpwjKBD3i9Y',
-					saved_date : 47,
-					psa_type : 'rSxWwNyoMg12fBQZ',
+					saved_from_name : 'nxjLMluDiXvpm4c0',
+					saved_date : 29,
+					psa_type : 'NYk9jXqvD5aUeCtu',
 				),
 				reply_media : $client->messageMediaEmpty(),
-				reply_to_top_id : 48,
-				quote_text : 'cBtVqExSIGK86s50',
+				reply_to_top_id : 78,
+				quote_text : '6RAyTYfOtMgxFwmu',
 				quote_entities : array(
 					$client->messageEntityUnknown(
 						offset : 0,
-						length : 93,
+						length : 34,
 					),
 					$client->messageEntityMention(
 						offset : 0,
-						length : 4,
+						length : 88,
 					),
 					$client->messageEntityHashtag(
 						offset : 0,
-						length : 44,
+						length : 29,
 					),
 					$client->messageEntityBotCommand(
 						offset : 0,
-						length : 19,
+						length : 53,
 					),
 					$client->messageEntityUrl(
 						offset : 0,
-						length : 24,
+						length : 47,
 					),
 					$client->messageEntityEmail(
 						offset : 0,
-						length : 65,
+						length : 77,
 					),
 					$client->messageEntityBold(
 						offset : 0,
-						length : 2,
+						length : 79,
 					),
 					$client->messageEntityItalic(
 						offset : 0,
-						length : 31,
+						length : 40,
 					),
 					$client->messageEntityCode(
 						offset : 0,
-						length : 40,
+						length : 32,
 					),
 					$client->messageEntityPre(
 						offset : 0,
-						length : 95,
-						language : 'rxTVfSCzqJLIpWNA',
+						length : 19,
+						language : 'GnqPliwNhDQsYZdS',
 					),
 					$client->messageEntityTextUrl(
 						offset : 0,
-						length : 77,
+						length : 91,
 						url : 'https://docs.liveproto.dev',
 					),
 					$client->messageEntityMentionName(
 						offset : 0,
-						length : 44,
-						user_id : -8671556691072684301,
+						length : 16,
+						user_id : -6621585605016607329,
 					),
 					$client->inputMessageEntityMentionName(
 						offset : 0,
-						length : 14,
+						length : 92,
 						user_id : $client->get_input_user(user : '@TakNone'),
 					),
 					$client->messageEntityPhone(
 						offset : 0,
-						length : 1,
+						length : 20,
 					),
 					$client->messageEntityCashtag(
 						offset : 0,
-						length : 63,
+						length : 77,
 					),
 					$client->messageEntityUnderline(
 						offset : 0,
-						length : 80,
+						length : 77,
 					),
 					$client->messageEntityStrike(
 						offset : 0,
-						length : 25,
+						length : 95,
 					),
 					$client->messageEntityBankCard(
 						offset : 0,
-						length : 67,
+						length : 45,
 					),
 					$client->messageEntitySpoiler(
 						offset : 0,
-						length : 16,
+						length : 1,
 					),
 					$client->messageEntityCustomEmoji(
 						offset : 0,
-						length : 38,
-						document_id : 2814097253571340764,
+						length : 40,
+						document_id : 1992139821758406589,
 					),
 					$client->messageEntityBlockquote(
 						collapsed : true,
 						offset : 0,
-						length : 21,
+						length : 76,
 					),
 					$client->messageEntityFormattedDate(
 						relative : true,
@@ -291,26 +295,178 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 						long_date : true,
 						day_of_week : true,
 						offset : 0,
-						length : 31,
-						date : 89,
+						length : 32,
+						date : 51,
 					),
 					$client->messageEntityDiffInsert(
 						offset : 0,
-						length : 54,
+						length : 17,
 					),
 					$client->messageEntityDiffReplace(
 						offset : 0,
-						length : 28,
-						old_text : 'kznJRTq7HhtC8Aia',
+						length : 96,
+						old_text : 'EJc9ibYasxCV0hRz',
 					),
 					$client->messageEntityDiffDelete(
 						offset : 0,
-						length : 44,
+						length : 30,
+					),
+					$client->messageEntityTonAddress(
+						offset : 0,
+						length : 89,
 					),
 				),
-				quote_offset : 82,
-				todo_item_id : 61,
+				quote_offset : 90,
+				todo_item_id : 10,
 				poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+				quote_rich : array(
+					$client->textEmpty(),
+					$client->textPlain(
+						text : '7DPcoAaHwqOb3kvs',
+					),
+					$client->textBold(
+						text : $client->textEmpty(...),
+					),
+					$client->textItalic(
+						text : $client->textEmpty(...),
+					),
+					$client->textUnderline(
+						text : $client->textEmpty(...),
+					),
+					$client->textStrike(
+						text : $client->textEmpty(...),
+					),
+					$client->textFixed(
+						text : $client->textEmpty(...),
+					),
+					$client->textUrl(
+						text : $client->textEmpty(...),
+						url : 'https://docs.liveproto.dev',
+						webpage_id : 6657108215988209754,
+					),
+					$client->textEmail(
+						text : $client->textEmpty(...),
+						email : 'reply@liveproto.dev',
+					),
+					$client->textConcat(
+						texts : array(
+							$client->textEmpty(...),
+							$client->textPlain(...),
+							$client->textBold(...),
+							$client->textItalic(...),
+							$client->textUnderline(...),
+							$client->textStrike(...),
+							$client->textFixed(...),
+							$client->textUrl(...),
+							$client->textEmail(...),
+							$client->textConcat(...),
+							$client->textSubscript(...),
+							$client->textSuperscript(...),
+							$client->textMarked(...),
+							$client->textPhone(...),
+							$client->textImage(...),
+							$client->textAnchor(...),
+							$client->textMath(...),
+							$client->textCustomEmoji(...),
+							$client->textSpoiler(...),
+							$client->textMention(...),
+							$client->textHashtag(...),
+							$client->textBotCommand(...),
+							$client->textCashtag(...),
+							$client->textAutoUrl(...),
+							$client->textAutoEmail(...),
+							$client->textAutoPhone(...),
+							$client->textBankCard(...),
+							$client->textMentionName(...),
+							$client->textDate(...),
+							$client->textDiff(...),
+							$client->textButton(...),
+							$client->textTonAddress(...),
+						),
+					),
+					$client->textSubscript(
+						text : $client->textEmpty(...),
+					),
+					$client->textSuperscript(
+						text : $client->textEmpty(...),
+					),
+					$client->textMarked(
+						text : $client->textEmpty(...),
+					),
+					$client->textPhone(
+						text : $client->textEmpty(...),
+						phone : '+1234567890',
+					),
+					$client->textImage(
+						document_id : 6053827984771873108,
+						w : 5,
+						h : 60,
+					),
+					$client->textAnchor(
+						text : $client->textEmpty(...),
+						name : 'PhBeJQ7USnq3sg1u',
+					),
+					$client->textMath(
+						source : 'qu3BYdQMLnJWilXh',
+					),
+					$client->textCustomEmoji(
+						document_id : 2719144105304027406,
+						alt : 'DjNqvu80Z7ESA4g2',
+					),
+					$client->textSpoiler(
+						text : $client->textEmpty(...),
+					),
+					$client->textMention(
+						text : $client->textEmpty(...),
+					),
+					$client->textHashtag(
+						text : $client->textEmpty(...),
+					),
+					$client->textBotCommand(
+						text : $client->textEmpty(...),
+					),
+					$client->textCashtag(
+						text : $client->textEmpty(...),
+					),
+					$client->textAutoUrl(
+						text : $client->textEmpty(...),
+					),
+					$client->textAutoEmail(
+						text : $client->textEmpty(...),
+					),
+					$client->textAutoPhone(
+						text : $client->textEmpty(...),
+					),
+					$client->textBankCard(
+						text : $client->textEmpty(...),
+					),
+					$client->textMentionName(
+						text : $client->textEmpty(...),
+						user_id : -7846620406195794153,
+					),
+					$client->textDate(
+						relative : true,
+						short_time : true,
+						long_time : true,
+						short_date : true,
+						long_date : true,
+						day_of_week : true,
+						text : $client->textEmpty(...),
+						date : 23,
+					),
+					$client->textDiff(
+						text : $client->textEmpty(...),
+						old_text : $client->textEmpty(...),
+					),
+					$client->textButton(
+						text : $client->textEmpty(...),
+						type : $client->inlineButtonTypeUrl(...),
+						style : $client->richButtonStyle(...),
+					),
+					$client->textTonAddress(
+						text : $client->textEmpty(...),
+					),
+				),
 			),
 			rich_message : $client->richMessage(
 				rtl : true,
@@ -325,7 +481,7 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 71,
+						published_date : 69,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -338,14 +494,14 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : '65jIkKsRYu9yrcxl',
+						language : 'FfhpS6KmR8rDOyEC',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'yLP3R2Xh0kEurqSt',
+						name : 'FiJdlKmpMftPOjb3',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -364,16 +520,16 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 8634293853838031315,
+						photo_id : -4844430056304097643,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -3279549581645934768,
+						webpage_id : 845278875044443839,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -3850318098926977280,
+						video_id : -5127776894188194147,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -383,18 +539,18 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'q8z7sn2UovPdijag',
-						poster_photo_id : 115953979831925104,
-						w : 67,
-						h : 82,
+						html : 'p0dN8XfjlJBETbrq',
+						poster_photo_id : 612042935465520364,
+						w : 76,
+						h : 48,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -3183275439675374487,
-						author_photo_id : -6728478158357831900,
-						author : 'CUYRaBW8ZTNkxzc0',
-						date : 100,
+						webpage_id : -2831969573974286110,
+						author_photo_id : 5525787230064357792,
+						author : 'Mvx21aPFsCQhyYr6',
+						date : 80,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -536,7 +692,7 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -3745004814437938834,
+						audio_id : 2717209957120143133,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -557,8 +713,8 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 44,
-						type : 'Ut3b2VqDIkLAlzOo',
+						start : 17,
+						type : 'HonmbdC5cEF4f7yp',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -615,9 +771,9 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 72,
-						w : 48,
-						h : 42,
+						zoom : 18,
+						w : 82,
+						h : 43,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -639,16 +795,16 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'vN1wZhE6y5KanzD2',
+						source : '1c05GAa8It4hmXRn',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 45,
-						w : 18,
-						h : 35,
+						zoom : 24,
+						w : 96,
+						h : 83,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -706,20 +862,20 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 7364944300258945820,
+						document_id : 7030418358148546188,
 						caption : $client->pageCaption(...),
 					),
 				),
 				photos : array(
 					$client->photoEmpty(
-						id : 6252887461978740901,
+						id : -5829808026335383807,
 					),
 					$client->photo(
 						has_stickers : true,
-						id : -1874713798226150340,
-						access_hash : 3831427989323355814,
+						id : 3833228099997613729,
+						access_hash : 5042064411720323245,
 						file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-						date : 76,
+						date : 23,
 						sizes : array(
 							$client->photoSizeEmpty(...),
 							$client->photoSize(...),
@@ -733,20 +889,20 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 							$client->videoSizeEmojiMarkup(...),
 							$client->videoSizeStickerMarkup(...),
 						),
-						dc_id : 56,
+						dc_id : 1,
 					),
 				),
 				documents : array(
 					$client->documentEmpty(
-						id : 5040879824560383462,
+						id : -4405060516100116336,
 					),
 					$client->document(
-						id : -5354636207899704664,
-						access_hash : -3744943081942447703,
+						id : -6523137048922627974,
+						access_hash : 4393932796664591269,
 						file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-						date : 76,
-						mime_type : 'OIq0VigX73ZBMYdJ',
-						size : -1419042853157007005,
+						date : 33,
+						mime_type : 'cu8GLZvfwxAWSmzM',
+						size : 2522786280417939174,
 						thumbs : array(
 							$client->photoSizeEmpty(...),
 							$client->photoSize(...),
@@ -760,7 +916,7 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 							$client->videoSizeEmojiMarkup(...),
 							$client->videoSizeStickerMarkup(...),
 						),
-						dc_id : 13,
+						dc_id : 48,
 						attributes : array(
 							$client->documentAttributeImageSize(...),
 							$client->documentAttributeAnimated(...),
@@ -774,8 +930,8 @@ $ephemeralWelcomeMessages = $client->ephemeral->welcomeMessages(
 					),
 				),
 			),
-			chat_instance : -6687915768663029469,
-			anchor_msg_id : 0,
+			chat_instance : 4337072789044331035,
+			anchor_msg_id : 41,
 		),
 	),
 );

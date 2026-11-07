@@ -2,7 +2,7 @@
 
 **Description** : *A completed todo list &raquo; item*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 todoCompletion#221bb5e4 id:int completed_by:Peer date:int = TodoCompletion;
@@ -30,10 +30,10 @@ todoCompletion#221bb5e4 id:int completed_by:Peer date:int = TodoCompletion;
 
 ```php
 $todoCompletion = $client->todoCompletion(
-	id : 99,
+	id : 26,
 	completed_by : $client->peerUser(
-		user_id : -7641773220372624923,
+		user_id : 7124903066960618695,
 	),
-	date : 90,
+	date : 80,
 );
 ```

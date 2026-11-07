@@ -1,6 +1,6 @@
 # inlineButtonTypeUrlAuth
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inlineButtonTypeUrlAuth#bfd02da2 flags:# fwd_text:flags.0?string url:string button_id:int = InlineButtonType;
@@ -29,8 +29,8 @@ inlineButtonTypeUrlAuth#bfd02da2 flags:# fwd_text:flags.0?string url:string butt
 
 ```php
 $inlineButtonType = $client->inlineButtonTypeUrlAuth(
-	fwd_text : 'YH2QG9FjKoiWNc6y',
+	fwd_text : 'C1neEoFsIqZW69hU',
 	url : 'https://docs.liveproto.dev',
-	button_id : 70,
+	button_id : 99,
 );
 ```

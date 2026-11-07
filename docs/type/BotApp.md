@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about a direct link Mini App*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 botAppNotModified#5da674b7 = BotApp;

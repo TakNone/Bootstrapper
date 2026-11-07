@@ -2,7 +2,7 @@
 
 **Description** : *Official apps may receive this constructor, indicating that due to the high cost of SMS verification codes for the user&#039;s country/provider, the user must purchase a Telegram Premium subscription in order to proceed with the login/signup, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.sentCodePaymentRequired#f8827ebf store_product:string phone_code_hash:string support_email_address:string support_email_subject:string premium_days:int currency:string amount:long = auth.SentCode;
@@ -34,12 +34,12 @@ auth.sentCodePaymentRequired#f8827ebf store_product:string phone_code_hash:strin
 
 ```php
 $authSentCode = $client->auth->sentCodePaymentRequired(
-	store_product : 'nHhVTESZfivgkOKj',
+	store_product : 'ktDvLCERoN0spje7',
 	phone_code_hash : '+1234567890',
 	support_email_address : 'reply@liveproto.dev',
 	support_email_subject : 'reply@liveproto.dev',
-	premium_days : 81,
-	currency : '2N61UlGKjXbcVqPQ',
-	amount : -3731968415129362243,
+	premium_days : 87,
+	currency : 'GlUyzAaLCiNB4c9k',
+	amount : -3604545496250608338,
 );
 ```

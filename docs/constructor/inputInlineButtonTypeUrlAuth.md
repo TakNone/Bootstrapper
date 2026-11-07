@@ -1,6 +1,6 @@
 # inputInlineButtonTypeUrlAuth
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputInlineButtonTypeUrlAuth#9961bcb4 flags:# request_write_access:flags.0?true fwd_text:flags.1?string url:string bot:flags.2?InputUser = InlineButtonType;
@@ -31,7 +31,7 @@ inputInlineButtonTypeUrlAuth#9961bcb4 flags:# request_write_access:flags.0?true 
 ```php
 $inlineButtonType = $client->inputInlineButtonTypeUrlAuth(
 	request_write_access : true,
-	fwd_text : '2kSvcwp1fbXtAI3x',
+	fwd_text : 'Nawd2IOeYgMkXsJT',
 	url : 'https://docs.liveproto.dev',
 	bot : $client->get_input_user(user : '@TakNone'),
 );

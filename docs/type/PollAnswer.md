@@ -2,7 +2,7 @@
 
 **Description** : *Indicates a possible answer to a poll*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pollAnswer#4b7d786a flags:# text:TextWithEntities option:bytes media:flags.0?MessageMedia added_by:flags.1?Peer date:flags.1?int = PollAnswer;

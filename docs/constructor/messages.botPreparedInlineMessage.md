@@ -2,7 +2,7 @@
 
 **Description** : *Represents a prepared inline message saved by a bot, to be sent to the user via a web app &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.botPreparedInlineMessage#8ecf0511 id:string expire_date:int = messages.BotPreparedInlineMessage;
@@ -29,7 +29,7 @@ messages.botPreparedInlineMessage#8ecf0511 id:string expire_date:int = messages.
 
 ```php
 $messagesBotPreparedInlineMessage = $client->messages->botPreparedInlineMessage(
-	id : 'w3gJ7TblI6xtcCRE',
-	expire_date : 100,
+	id : '01ByJG53kAjl4RY9',
+	expire_date : 72,
 );
 ```

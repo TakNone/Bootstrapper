@@ -2,7 +2,7 @@
 
 **Description** : *Defines a document for subsequent interaction*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputDocument#1abfb575 id:long access_hash:long file_reference:bytes = InputDocument;
@@ -30,8 +30,8 @@ inputDocument#1abfb575 id:long access_hash:long file_reference:bytes = InputDocu
 
 ```php
 $inputDocument = $client->inputDocument(
-	id : 4538486562921441780,
-	access_hash : -4108725792094379743,
+	id : -5889954511758339200,
+	access_hash : -902163378775570707,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

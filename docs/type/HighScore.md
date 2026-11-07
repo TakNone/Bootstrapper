@@ -2,7 +2,7 @@
 
 **Description** : *Game high score*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 highScore#73a379eb pos:int user_id:long score:int = HighScore;

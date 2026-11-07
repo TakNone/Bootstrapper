@@ -2,7 +2,7 @@
 
 **Description** : *Used in a keyboardButtonRequestPeer by a manager bot to ask a user to create a new managed bot &raquo;, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 requestPeerTypeCreateBot#3e81e078 flags:# bot_managed:flags.0?true suggested_name:flags.1?string suggested_username:flags.2?string = RequestPeerType;
@@ -32,7 +32,7 @@ requestPeerTypeCreateBot#3e81e078 flags:# bot_managed:flags.0?true suggested_nam
 ```php
 $requestPeerType = $client->requestPeerTypeCreateBot(
 	bot_managed : true,
-	suggested_name : 'K2x7TbjJsO4pco5X',
+	suggested_name : 'JOpIGsrxhMZd1nt2',
 	suggested_username : 'TakNone',
 );
 ```

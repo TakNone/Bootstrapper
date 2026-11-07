@@ -2,7 +2,7 @@
 
 **Description** : *This object contains information about an incoming shipping query*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateBotShippingQuery#b5aefd7d query_id:long user_id:long payload:bytes shipping_address:PostAddress = Update;
@@ -31,16 +31,16 @@ updateBotShippingQuery#b5aefd7d query_id:long user_id:long payload:bytes shippin
 
 ```php
 $update = $client->updateBotShippingQuery(
-	query_id : -8227900892956685416,
-	user_id : -1817875755863342111,
+	query_id : -3526482583117527594,
+	user_id : 8416724863732444169,
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	shipping_address : $client->postAddress(
-		street_line1 : 'WKu84rDgm1qEMCXV',
-		street_line2 : 'qzuPFt9sjd7rZiAh',
-		city : 'UTRclVa3FjdqwHQ0',
-		state : 'MezkAfTuZvJYOHR3',
-		country_iso2 : 'OMxTnjUXGZA4lfg7',
-		post_code : 't1aw9JLRU0dlBfPz',
+		street_line1 : 'e7q5cwSBWPoihTmU',
+		street_line2 : 'EghF3qn8KVcOP960',
+		city : 'IgXPoLneJZaKM0OQ',
+		state : 'YzvSpaQeOrH1gC4X',
+		country_iso2 : 'BlL34ESUH96tiQYd',
+		post_code : 'EY8nTiMkLOwIpx9U',
 	),
 );
 ```

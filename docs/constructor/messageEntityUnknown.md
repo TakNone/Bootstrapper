@@ -2,7 +2,7 @@
 
 **Description** : *Unknown message entity*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageEntityUnknown#bb92ba95 offset:int length:int = MessageEntity;

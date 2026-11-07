@@ -1,6 +1,6 @@
 # keyboardInlineButton
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 keyboardInlineButton#11c1a322 flags:# style:flags.10?KeyboardButtonStyle text:string type:InlineButtonType = KeyboardInlineButton;
@@ -33,9 +33,9 @@ $keyboardInlineButton = $client->keyboardInlineButton(
 		bg_primary : true,
 		bg_danger : true,
 		bg_success : true,
-		icon : -2633283361046247079,
+		icon : 2007642805608240434,
 	),
-	text : 'ex4KEmC7QB6qURJo',
+	text : 'rMRlvNf5t7L3HP8F',
 	type : $client->inlineButtonTypeUrl(
 		url : 'https://docs.liveproto.dev',
 	),

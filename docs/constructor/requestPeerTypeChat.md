@@ -2,7 +2,7 @@
 
 **Description** : *Choose a chat or supergroup*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 requestPeerTypeChat#c9f06e1b flags:# creator:flags.0?true bot_participant:flags.5?true has_username:flags.3?Bool forum:flags.4?Bool user_admin_rights:flags.1?ChatAdminRights bot_admin_rights:flags.2?ChatAdminRights = RequestPeerType;
@@ -37,7 +37,7 @@ $requestPeerType = $client->requestPeerTypeChat(
 	creator : true,
 	bot_participant : true,
 	has_username : false,
-	forum : false,
+	forum : true,
 	user_admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,

@@ -2,7 +2,7 @@
 
 **Description** : *Service message sent by a user to a manager bot when a new managed bot &raquo; is created through it, by invoking messages\.sendBotRequestedPeer with a requestPeerTypeCreateBot, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
@@ -28,6 +28,6 @@ messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionManagedBotCreated(
-	bot_id : -3575031842436841922,
+	bot_id : -7284908461560784746,
 );
 ```

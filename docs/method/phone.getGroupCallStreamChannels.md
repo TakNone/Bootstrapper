@@ -3,7 +3,7 @@
 **Description** : *Get the available stream channels and current playback timestamp of an RTMP\-mode video chat, livestream or live story, see here &raquo; for the full flow\.
 The group call must be joined before invoking this method\. Send the request to the media DC specified by groupCall\.stream\_dc\_id*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.getGroupCallStreamChannels#1ab21940 call:InputGroupCall = phone.GroupCallStreamChannels;
@@ -39,8 +39,8 @@ phone.getGroupCallStreamChannels#1ab21940 call:InputGroupCall = phone.GroupCallS
 ```php
 $phoneGroupCallStreamChannels = $client->phone->getGroupCallStreamChannels(
 	call : $client->inputGroupCall(
-		id : 742756496405977850,
-		access_hash : 2551425221497036439,
+		id : 5241543167001030869,
+		access_hash : -7782688875315028181,
 	),
 );
 ```

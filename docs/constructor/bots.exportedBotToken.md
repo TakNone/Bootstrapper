@@ -2,7 +2,7 @@
 
 **Description** : *The bot token of a managed bot &raquo;, exported by the manager bot*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.exportedBotToken#3c60b621 token:string = bots.ExportedBotToken;
@@ -28,6 +28,6 @@ bots.exportedBotToken#3c60b621 token:string = bots.ExportedBotToken;
 
 ```php
 $botsExportedBotToken = $client->bots->exportedBotToken(
-	token : '9pNZAJhHQIcjibtL',
+	token : 'h4XVcBCPaEekD51S',
 );
 ```

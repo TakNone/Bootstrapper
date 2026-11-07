@@ -1,6 +1,6 @@
 # ephemeral.deleteAllWelcomeMessages
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 ephemeral.deleteAllWelcomeMessages#734f9721 peer:InputPeer = Bool;

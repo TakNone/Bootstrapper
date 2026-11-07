@@ -2,7 +2,7 @@
 
 **Description** : *Connection parameters returned after joining a group call, see presentations &raquo; and stream mode &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJSON = Update;
@@ -32,7 +32,7 @@ updateGroupCallConnection#b783982 flags:# presentation:flags.0?true params:DataJ
 $update = $client->updateGroupCallConnection(
 	presentation : true,
 	params : $client->dataJSON(
-		data : 'cfguYP8Aps9zJ1LD',
+		data : 'HB2WvPUmpE3Jb6FI',
 	),
 );
 ```

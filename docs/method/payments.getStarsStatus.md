@@ -2,7 +2,7 @@
 
 **Description** : *Get the current Telegram Stars balance of the current account \(with peer=inputPeerSelf\), or the stars balance of the bot or channel specified in peer*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.getStarsStatus#4ea9b3bf flags:# ton:flags.0?true peer:InputPeer = payments.StarsStatus;

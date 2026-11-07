@@ -1,6 +1,6 @@
 # communities.toggleParticipantBanned
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communities.toggleParticipantBanned#9967ad0f flags:# unban:flags.0?true community:InputChannel participant:InputPeer = Bool;

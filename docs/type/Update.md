@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on events occurred*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
@@ -170,6 +170,17 @@ updateDeleteEphemeralMessages#56dbfcf8 peer:Peer ids:Vector<int> = Update;
 updateEditEphemeralMessage#4bbb8f01 message:EphemeralMessage = Update;
 updateEphemeralBotCallbackQuery#7c1079d6 flags:# query_id:long user_id:long peer:flags.0?Peer msg_id:int data:bytes chat_instance:flags.1?long message:EphemeralMessage = Update;
 updateBotStarsSubscription#6c0d8e23 flags:# canceled:flags.0?true payment_failed:flags.1?true restored:flags.2?true user_id:long payload:bytes qts:int = Update;
+updateWalletState#6ac3f2aa state:WalletState = Update;
+updateSentWalletTransaction#b1434d4a flags:# gasless:flags.0?true msg_hash:string transaction:flags.1?WalletTransaction = Update;
+updateWalletGaslessInfo#a8ae1cac flags:# available:flags.0?true left:int reset_at:int min_amount:long relayer_address:string = Update;
+updateWalletTonConnectSession#50a38e0e session:TonConnectSession = Update;
+updateWalletTonConnectPendingDisconnect#d1ee8199 session_ids:Vector<long> = Update;
+updateEditForumTopic#2366665c flags:# peer:Peer topic_id:int title:flags.0?string icon_emoji_id:flags.1?long closed:flags.2?Bool hidden:flags.3?Bool = Update;
+updateBotWidgetQuery#b373fe68 flags:# query_id:long query_type:WidgetQueryType user_id:long peer:Peer msg_id:int chat_instance:long chat_type:string data:bytes widget_id:flags.0?long wallet_card:flags.1?wallet.Card = Update;
+updateInlineBotWidgetQuery#a5f07e08 flags:# query_id:long query_type:WidgetQueryType user_id:long inline_message_id:InputBotInlineMessageID chat_instance:long chat_type:string data:bytes widget_id:flags.0?long wallet_card:flags.1?wallet.Card = Update;
+updateBotWidgetCopyQuery#fa89bef7 flags:# query_id:long query_type:WidgetQueryType user_id:long data:bytes widget_id:long wallet_card:flags.1?wallet.Card = Update;
+updateMessageWidgetData#bbb078dd flags:# peer:Peer msg_id:int public_data:flags.0?string public_data_hash:flags.0?long chat_data:flags.1?string pts:int pts_count:int = Update;
+updateTranscribedAudioFile#734c2e7b flags:# pending:flags.0?true transcription_id:long text:string = Update;
 ```
 
 ---
@@ -343,3 +354,14 @@ updateBotStarsSubscription#6c0d8e23 flags:# canceled:flags.0?true payment_failed
 | [**updateEditEphemeralMessage**](constructor/updateEditEphemeralMessage) | NOTHING |
 | [**updateEphemeralBotCallbackQuery**](constructor/updateEphemeralBotCallbackQuery) | NOTHING |
 | [**updateBotStarsSubscription**](constructor/updateBotStarsSubscription) | NOTHING |
+| [**updateWalletState**](constructor/updateWalletState) | NOTHING |
+| [**updateSentWalletTransaction**](constructor/updateSentWalletTransaction) | NOTHING |
+| [**updateWalletGaslessInfo**](constructor/updateWalletGaslessInfo) | NOTHING |
+| [**updateWalletTonConnectSession**](constructor/updateWalletTonConnectSession) | NOTHING |
+| [**updateWalletTonConnectPendingDisconnect**](constructor/updateWalletTonConnectPendingDisconnect) | NOTHING |
+| [**updateEditForumTopic**](constructor/updateEditForumTopic) | NOTHING |
+| [**updateBotWidgetQuery**](constructor/updateBotWidgetQuery) | NOTHING |
+| [**updateInlineBotWidgetQuery**](constructor/updateInlineBotWidgetQuery) | NOTHING |
+| [**updateBotWidgetCopyQuery**](constructor/updateBotWidgetCopyQuery) | NOTHING |
+| [**updateMessageWidgetData**](constructor/updateMessageWidgetData) | NOTHING |
+| [**updateTranscribedAudioFile**](constructor/updateTranscribedAudioFile) | NOTHING |

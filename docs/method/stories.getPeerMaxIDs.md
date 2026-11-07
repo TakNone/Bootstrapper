@@ -2,7 +2,7 @@
 
 **Description** : *Get compact active story summaries &raquo; for a set of peers*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 stories.getPeerMaxIDs#78499170 id:Vector<InputPeer> = Vector<RecentStory>;

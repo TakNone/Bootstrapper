@@ -2,7 +2,7 @@
 
 **Description** : *Indicates the price for a gift upgrade &raquo; starting from a specific point in time*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice;
@@ -29,7 +29,7 @@ starGiftUpgradePrice#99ea331d date:int upgrade_stars:long = StarGiftUpgradePrice
 
 ```php
 $starGiftUpgradePrice = $client->starGiftUpgradePrice(
-	date : 75,
-	upgrade_stars : -3093511546241826680,
+	date : 49,
+	upgrade_stars : -3989558722405038985,
 );
 ```

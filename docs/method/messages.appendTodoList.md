@@ -2,7 +2,7 @@
 
 **Description** : *Appends one or more items to a todo list &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.appendTodoList#21a61057 peer:InputPeer msg_id:int list:Vector<TodoItem> = Updates;
@@ -42,102 +42,102 @@ messages.appendTodoList#21a61057 peer:InputPeer msg_id:int list:Vector<TodoItem>
 ```php
 $updates = $client->messages->appendTodoList(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 51,
+	msg_id : 50,
 	list : array(
 		$client->todoItem(
-			id : 65,
+			id : 3,
 			title : $client->textWithEntities(
-				text : 'Ih4MgudjTpHGytx2',
+				text : 'l21NEHdzZyM5T6Yi',
 				entities : array(
 					$client->messageEntityUnknown(
 						offset : 0,
-						length : 39,
+						length : 58,
 					),
 					$client->messageEntityMention(
 						offset : 0,
-						length : 74,
+						length : 35,
 					),
 					$client->messageEntityHashtag(
 						offset : 0,
-						length : 24,
+						length : 49,
 					),
 					$client->messageEntityBotCommand(
 						offset : 0,
-						length : 3,
+						length : 45,
 					),
 					$client->messageEntityUrl(
 						offset : 0,
-						length : 36,
+						length : 2,
 					),
 					$client->messageEntityEmail(
 						offset : 0,
-						length : 81,
+						length : 31,
 					),
 					$client->messageEntityBold(
 						offset : 0,
-						length : 45,
+						length : 50,
 					),
 					$client->messageEntityItalic(
 						offset : 0,
-						length : 7,
+						length : 62,
 					),
 					$client->messageEntityCode(
 						offset : 0,
-						length : 85,
+						length : 12,
 					),
 					$client->messageEntityPre(
 						offset : 0,
-						length : 7,
-						language : 'lqdTk9sZGofNA475',
+						length : 88,
+						language : 'mEK81LQhGx2j6Fs7',
 					),
 					$client->messageEntityTextUrl(
 						offset : 0,
-						length : 57,
+						length : 51,
 						url : 'https://docs.liveproto.dev',
 					),
 					$client->messageEntityMentionName(
 						offset : 0,
-						length : 44,
-						user_id : -6348249060085204386,
+						length : 95,
+						user_id : 3151281837943013256,
 					),
 					$client->inputMessageEntityMentionName(
 						offset : 0,
-						length : 4,
+						length : 22,
 						user_id : $client->get_input_user(user : '@TakNone'),
 					),
 					$client->messageEntityPhone(
 						offset : 0,
-						length : 62,
+						length : 37,
 					),
 					$client->messageEntityCashtag(
 						offset : 0,
-						length : 25,
+						length : 59,
 					),
 					$client->messageEntityUnderline(
 						offset : 0,
-						length : 93,
+						length : 82,
 					),
 					$client->messageEntityStrike(
 						offset : 0,
-						length : 31,
+						length : 65,
 					),
 					$client->messageEntityBankCard(
 						offset : 0,
-						length : 62,
+						length : 80,
 					),
 					$client->messageEntitySpoiler(
 						offset : 0,
-						length : 96,
+						length : 85,
 					),
 					$client->messageEntityCustomEmoji(
 						offset : 0,
-						length : 21,
-						document_id : -7132083212213493288,
+						length : 74,
+						document_id : 1474396946134248249,
 					),
 					$client->messageEntityBlockquote(
 						collapsed : true,
 						offset : 0,
-						length : 24,
+						length : 74,
 					),
 					$client->messageEntityFormattedDate(
 						relative : true,
@@ -147,21 +147,25 @@ $updates = $client->messages->appendTodoList(
 						long_date : true,
 						day_of_week : true,
 						offset : 0,
-						length : 38,
-						date : 95,
+						length : 28,
+						date : 38,
 					),
 					$client->messageEntityDiffInsert(
 						offset : 0,
-						length : 59,
+						length : 55,
 					),
 					$client->messageEntityDiffReplace(
 						offset : 0,
-						length : 34,
-						old_text : 'a6rICklMeSYdHbtD',
+						length : 93,
+						old_text : 'L62tCnrJT3SmGUjH',
 					),
 					$client->messageEntityDiffDelete(
 						offset : 0,
-						length : 20,
+						length : 93,
+					),
+					$client->messageEntityTonAddress(
+						offset : 0,
+						length : 10,
 					),
 				),
 			),

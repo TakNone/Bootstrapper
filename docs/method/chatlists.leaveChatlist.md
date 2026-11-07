@@ -2,7 +2,7 @@
 
 **Description** : *Delete a folder imported using a chat folder deep link &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 chatlists.leaveChatlist#74fae13a chatlist:InputChatlist peers:Vector<InputPeer> = Updates;
@@ -38,7 +38,7 @@ chatlists.leaveChatlist#74fae13a chatlist:InputChatlist peers:Vector<InputPeer> 
 ```php
 $updates = $client->chatlists->leaveChatlist(
 	chatlist : $client->inputChatlistDialogFilter(
-		filter_id : 48,
+		filter_id : 3,
 	),
 	peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );

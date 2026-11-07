@@ -3693,6 +3693,282 @@
 
 ---
 
+##### CurrencyRate
+
+:link: [*NOTHING*](type/CurrencyRate)
+
+---
+
+##### payments CurrencyRates
+
+:link: [*NOTHING*](type/payments.CurrencyRates)
+
+---
+
+##### toncenter ApiResponse
+
+:link: [*NOTHING*](type/toncenter.ApiResponse)
+
+---
+
+##### toncenter StreamingUrl
+
+:link: [*NOTHING*](type/toncenter.StreamingUrl)
+
+---
+
+##### OnrampMethodAvailability
+
+:link: [*NOTHING*](type/OnrampMethodAvailability)
+
+---
+
+##### OnrampProviderInfo
+
+:link: [*NOTHING*](type/OnrampProviderInfo)
+
+---
+
+##### OnrampAvailability
+
+:link: [*NOTHING*](type/OnrampAvailability)
+
+---
+
+##### OnrampLimits
+
+:link: [*NOTHING*](type/OnrampLimits)
+
+---
+
+##### OnrampQuote
+
+:link: [*NOTHING*](type/OnrampQuote)
+
+---
+
+##### OnrampSession
+
+:link: [*NOTHING*](type/OnrampSession)
+
+---
+
+##### WalletState
+
+:link: [*NOTHING*](type/WalletState)
+
+---
+
+##### WalletUserAddress
+
+:link: [*NOTHING*](type/WalletUserAddress)
+
+---
+
+##### wallet UserAddresses
+
+:link: [*NOTHING*](type/wallet.UserAddresses)
+
+---
+
+##### WalletTransactionPeer
+
+:link: [*NOTHING*](type/WalletTransactionPeer)
+
+---
+
+##### WalletTransaction
+
+:link: [*NOTHING*](type/WalletTransaction)
+
+---
+
+##### wallet Transactions
+
+:link: [*NOTHING*](type/wallet.Transactions)
+
+---
+
+##### wallet SecretPhraseParts
+
+:link: [*NOTHING*](type/wallet.SecretPhraseParts)
+
+---
+
+##### wallet EncryptedSecretPhrasePart
+
+:link: [*NOTHING*](type/wallet.EncryptedSecretPhrasePart)
+
+---
+
+##### wallet HolderDc
+
+:link: [*NOTHING*](type/wallet.HolderDc)
+
+---
+
+##### wallet ProofChallenge
+
+:link: [*NOTHING*](type/wallet.ProofChallenge)
+
+---
+
+##### WalletOwnershipProof
+
+:link: [*NOTHING*](type/WalletOwnershipProof)
+
+---
+
+##### InputWalletReplacement
+
+:link: [*NOTHING*](type/InputWalletReplacement)
+
+---
+
+##### TonConnectManifest
+
+:link: [*NOTHING*](type/TonConnectManifest)
+
+---
+
+##### TonConnectSession
+
+:link: [*NOTHING*](type/TonConnectSession)
+
+---
+
+##### wallet TonConnectChallenge
+
+:link: [*NOTHING*](type/wallet.TonConnectChallenge)
+
+---
+
+##### TonConnectNextEventId
+
+:link: [*NOTHING*](type/TonConnectNextEventId)
+
+---
+
+##### TonConnectRequest
+
+:link: [*NOTHING*](type/TonConnectRequest)
+
+---
+
+##### wallet TonConnectPending
+
+:link: [*NOTHING*](type/wallet.TonConnectPending)
+
+---
+
+##### wallet TonConnectSessions
+
+:link: [*NOTHING*](type/wallet.TonConnectSessions)
+
+---
+
+##### wallet ExistingBalance
+
+:link: [*NOTHING*](type/wallet.ExistingBalance)
+
+---
+
+##### wallet NftAttribute
+
+:link: [*NOTHING*](type/wallet.NftAttribute)
+
+---
+
+##### wallet NftItem
+
+:link: [*NOTHING*](type/wallet.NftItem)
+
+---
+
+##### wallet NftItems
+
+:link: [*NOTHING*](type/wallet.NftItems)
+
+---
+
 ##### auth FirebasePnvIntent
 
 :link: [*NOTHING*](type/auth.FirebasePnvIntent)
+
+---
+
+##### InputTonConnectOauthSession
+
+:link: [*NOTHING*](type/InputTonConnectOauthSession)
+
+---
+
+##### ExportedNoPaidMessagesToken
+
+:link: [*NOTHING*](type/ExportedNoPaidMessagesToken)
+
+---
+
+##### ShareTheme
+
+:link: [*NOTHING*](type/ShareTheme)
+
+---
+
+##### ShareThemeBackdropOption
+
+:link: [*NOTHING*](type/ShareThemeBackdropOption)
+
+---
+
+##### ShareThemeBackdrops
+
+:link: [*NOTHING*](type/ShareThemeBackdrops)
+
+---
+
+##### InputWalletCardSticker
+
+:link: [*NOTHING*](type/InputWalletCardSticker)
+
+---
+
+##### wallet CardSticker
+
+:link: [*NOTHING*](type/wallet.CardSticker)
+
+---
+
+##### wallet Card
+
+:link: [*NOTHING*](type/wallet.Card)
+
+---
+
+##### payments StarGiftDepositPayload
+
+:link: [*NOTHING*](type/payments.StarGiftDepositPayload)
+
+---
+
+##### UserWallet
+
+:link: [*NOTHING*](type/UserWallet)
+
+---
+
+##### WidgetQueryType
+
+:link: [*NOTHING*](type/WidgetQueryType)
+
+---
+
+##### messages BotWidgetQueryAnswer
+
+:link: [*NOTHING*](type/messages.BotWidgetQueryAnswer)
+
+---
+
+##### messages WidgetPublicData
+
+:link: [*NOTHING*](type/messages.WidgetPublicData)

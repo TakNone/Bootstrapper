@@ -2,7 +2,7 @@
 
 **Description** : *Describes one or more rounds of a collectible gift auction &raquo;, optionally extendable*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;

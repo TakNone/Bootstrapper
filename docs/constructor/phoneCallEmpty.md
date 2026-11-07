@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phoneCallEmpty#5366c915 id:long = PhoneCall;
@@ -28,6 +28,6 @@ phoneCallEmpty#5366c915 id:long = PhoneCall;
 
 ```php
 $phoneCall = $client->phoneCallEmpty(
-	id : -998965656424731078,
+	id : -38874060475071542,
 );
 ```

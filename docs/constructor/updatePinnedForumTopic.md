@@ -2,7 +2,7 @@
 
 **Description** : *A forum topic &raquo; was pinned or unpinned*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:int = Update;
@@ -33,8 +33,8 @@ updatePinnedForumTopic#683b2c52 flags:# pinned:flags.0?true peer:Peer topic_id:i
 $update = $client->updatePinnedForumTopic(
 	pinned : true,
 	peer : $client->peerUser(
-		user_id : 5938972313271335628,
+		user_id : -2120722926668113368,
 	),
-	topic_id : 87,
+	topic_id : 64,
 );
 ```

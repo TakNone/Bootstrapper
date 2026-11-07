@@ -1,6 +1,6 @@
 # notifyCommunity
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 notifyCommunity#be376999 community_id:long = NotifyPeer;
@@ -26,6 +26,6 @@ notifyCommunity#be376999 community_id:long = NotifyPeer;
 
 ```php
 $notifyPeer = $client->notifyCommunity(
-	community_id : 5146561048465939331,
+	community_id : -4779110317093990685,
 );
 ```

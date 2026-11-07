@@ -2,7 +2,7 @@
 
 **Description** : *Represents a weather widget &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 mediaAreaWeather#49a6549c coordinates:MediaAreaCoordinates emoji:string temperature_c:double color:int = MediaArea;
@@ -32,15 +32,15 @@ mediaAreaWeather#49a6549c coordinates:MediaAreaCoordinates emoji:string temperat
 ```php
 $mediaArea = $client->mediaAreaWeather(
 	coordinates : $client->mediaAreaCoordinates(
-		x : -90643.4130859375,
-		y : -763281.876953125,
-		w : 780373.7587890625,
-		h : 1399085.92578125,
-		rotation : 369349.10546875,
-		radius : 1755225.1171875,
+		x : 1751283.65625,
+		y : 437951.1923828125,
+		w : -286785.0234375,
+		h : -352032.9404296875,
+		rotation : 1364655.916015625,
+		radius : -20925.5498046875,
 	),
-	emoji : '8le6GiUWm3IkhVDc',
-	temperature_c : 162615.4052734375,
-	color : 56,
+	emoji : 'qewLoF2TfsjDJrMk',
+	temperature_c : 1725275.09765625,
+	color : 4,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Get pinned saved dialogs, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getPinnedSavedDialogs#d63d94e0 = messages.SavedDialogs;

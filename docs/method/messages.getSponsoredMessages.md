@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of sponsored messages for a peer, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int = messages.SponsoredMessages;
@@ -42,6 +42,6 @@ messages.getSponsoredMessages#3d6ce850 flags:# peer:InputPeer msg_id:flags.0?int
 ```php
 $messagesSponsoredMessages = $client->messages->getSponsoredMessages(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 89,
+	msg_id : 36,
 );
 ```

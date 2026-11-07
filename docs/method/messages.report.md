@@ -2,7 +2,7 @@
 
 **Description** : *Report a message in a chat for violation of telegram&#039;s Terms of Service*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.report#fc78af9b peer:InputPeer id:Vector<int> option:bytes message:string = ReportResult;
@@ -44,8 +44,8 @@ messages.report#fc78af9b peer:InputPeer id:Vector<int> option:bytes message:stri
 ```php
 $reportResult = $client->messages->report(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(79),
+	id : array(42),
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	message : 'n7HAOf40Cw6qTxzX',
+	message : 'tj0v16xaCJeVfTK7',
 );
 ```

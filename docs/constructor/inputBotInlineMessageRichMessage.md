@@ -1,6 +1,6 @@
 # inputBotInlineMessageRichMessage
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputBotInlineMessageRichMessage#b43df56c flags:# reply_markup:flags.2?ReplyMarkup rich_message:InputRichMessage = InputBotInlineMessage;
@@ -44,7 +44,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 			),
 			$client->pageBlockAuthorDate(
 				author : $client->textEmpty(),
-				published_date : 10,
+				published_date : 84,
 			),
 			$client->pageBlockHeader(
 				text : $client->textEmpty(),
@@ -57,14 +57,14 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 			),
 			$client->pageBlockPreformatted(
 				text : $client->textEmpty(),
-				language : 'sz4Vn81ESUb0vi9t',
+				language : 'n3CfKPXE2JW154ki',
 			),
 			$client->pageBlockFooter(
 				text : $client->textEmpty(),
 			),
 			$client->pageBlockDivider(),
 			$client->pageBlockAnchor(
-				name : 'iAMh4mBj3pEGRrta',
+				name : 'oHhT20irOYwq3D8A',
 			),
 			$client->pageBlockList(
 				items : array(
@@ -133,19 +133,19 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 			),
 			$client->pageBlockPhoto(
 				spoiler : true,
-				photo_id : 5489265805311310741,
+				photo_id : 2398406178233399488,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
 				),
 				url : 'https://docs.liveproto.dev',
-				webpage_id : 581003929643368337,
+				webpage_id : 959891618460002696,
 			),
 			$client->pageBlockVideo(
 				autoplay : true,
 				loop : true,
 				spoiler : true,
-				video_id : 8268989140744898505,
+				video_id : -1378423586947718591,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -158,10 +158,10 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 				full_width : true,
 				allow_scrolling : true,
 				url : 'https://docs.liveproto.dev',
-				html : 'gNF3h8YeQqW6xiZL',
-				poster_photo_id : -688791860127396201,
-				w : 10,
-				h : 74,
+				html : 'DatAjKfN6g1MywO4',
+				poster_photo_id : 1569880538835495320,
+				w : 62,
+				h : 98,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -169,10 +169,10 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 			),
 			$client->pageBlockEmbedPost(
 				url : 'https://docs.liveproto.dev',
-				webpage_id : 7313104405863505034,
-				author_photo_id : -6587789635424883888,
-				author : 'iqbjp9NFzgG8aoYd',
-				date : 3,
+				webpage_id : 9177529247577874128,
+				author_photo_id : -2503364160973488664,
+				author : 'GjO1iPHdD0rm23ZK',
+				date : 81,
 				blocks : array(
 					$client->pageBlockUnsupported(),
 					$client->pageBlockTitle(
@@ -183,7 +183,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 53,
+						published_date : 27,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -196,14 +196,14 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'NufG3FBwPjvRLOce',
+						language : '0M47JShNVd6qAwjs',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'uzk6EKWBiMSbvoLh',
+						name : 'IE1zQ7XpVrk03aAf',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -222,16 +222,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -6328632960271590872,
+						photo_id : -2309212416068150968,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 1555524484088049168,
+						webpage_id : 5596228805311626160,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -5045558307348955935,
+						video_id : -7861515613303416363,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -241,18 +241,18 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'v8GQUFWe2kJsg7Kn',
-						poster_photo_id : -883717071807993913,
-						w : 43,
-						h : 48,
+						html : 'HuhAWirLTUIboxZ3',
+						poster_photo_id : -868137723409905484,
+						w : 13,
+						h : 63,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 2916626558853280139,
-						author_photo_id : 193430933584185252,
-						author : 'pz870ij16rYVBakc',
-						date : 94,
+						webpage_id : 7827056263145455367,
+						author_photo_id : 6936004632196673934,
+						author : 'zbtRgQXLhWqS1eVA',
+						date : 12,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -394,7 +394,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -2991891400215464301,
+						audio_id : 1549645927190231480,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -415,8 +415,8 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 21,
-						type : 'KCOXyptB4GqYZ0j8',
+						start : 43,
+						type : 'm8UZWReM6oPgQSjJ',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -473,9 +473,9 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 21,
-						w : 45,
-						h : 6,
+						zoom : 18,
+						w : 88,
+						h : 73,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -497,16 +497,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'BDyAg6Rj179ur0sE',
+						source : 'OY8ECrI3psqD2lu7',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 67,
-						w : 87,
-						h : 82,
+						zoom : 89,
+						w : 74,
+						h : 35,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -564,7 +564,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 2286813934721486839,
+						document_id : 8269078780397934261,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -584,7 +584,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 61,
+						published_date : 87,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -597,14 +597,14 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'bOwoka9ITgp3thCe',
+						language : 'tbjAG02dcq9Bn1se',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'DRW5he6tAK1XIT0J',
+						name : 'Ko0s1SI9tp65LWaw',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -623,16 +623,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -6772257976758801581,
+						photo_id : -5619476720394640426,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 779487228222019119,
+						webpage_id : -645215628025711084,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : 731465174128188672,
+						video_id : 1914116342458457416,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -642,18 +642,18 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'kINzbuCY42Urgnds',
-						poster_photo_id : 4811122634119921466,
-						w : 87,
-						h : 41,
+						html : '8BJvFwY4eXHGDhPs',
+						poster_photo_id : 3390526449062851855,
+						w : 62,
+						h : 2,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -6390148549470275603,
-						author_photo_id : 8519412803513683356,
-						author : 'pmCEzIJ7DTG1HkyZ',
-						date : 73,
+						webpage_id : -1201151554698037529,
+						author_photo_id : 1285425090109237050,
+						author : 'N8f1YznVmaoZ6c9U',
+						date : 14,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -795,7 +795,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -7042598568622961215,
+						audio_id : -5961500480466852205,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -816,8 +816,8 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 7,
-						type : 'KGSM6FnDk5WA38TL',
+						start : 72,
+						type : 'DYpL7ldnt1XUJfzP',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -874,9 +874,9 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 37,
-						w : 57,
-						h : 60,
+						zoom : 34,
+						w : 34,
+						h : 0,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -898,16 +898,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'D5Jwcny01vFIl2sP',
+						source : 'Zj6fImStsnT9Vq3a',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 32,
-						w : 13,
-						h : 60,
+						zoom : 23,
+						w : 67,
+						h : 21,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -965,7 +965,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 6489247031103275949,
+						document_id : 446450961192057368,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -985,7 +985,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 68,
+						published_date : 44,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -998,14 +998,14 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'B5QnOmlxapD0y31e',
+						language : 'CeTFKiJwRDU1aAjW',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'FgTWhjzYftwnIPpK',
+						name : 'P5cx8iYzfl0JZyb3',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1024,16 +1024,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -6830289697625987889,
+						photo_id : -2219548284363406244,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -5670224914246423359,
+						webpage_id : 7567483507838471203,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -6726183232835085633,
+						video_id : 5393626094667322365,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1043,18 +1043,18 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : '5ib2pcn1P9dEwsIO',
-						poster_photo_id : 3804227935408221234,
-						w : 62,
-						h : 69,
+						html : 'Od6gRHvU9PhXrBoc',
+						poster_photo_id : 8486117809177623182,
+						w : 40,
+						h : 28,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 2819549920933425772,
-						author_photo_id : -4047706997300621678,
-						author : 'sJ1W6xm2yPZiOGeL',
-						date : 34,
+						webpage_id : -9086143647833864295,
+						author_photo_id : 5983299544696289359,
+						author : 'r8NGlOfR3dLsgEjX',
+						date : 90,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1196,7 +1196,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 434691430651958421,
+						audio_id : -6737778686227321651,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -1217,8 +1217,8 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 41,
-						type : 'CzPwqEUtljQoWFiJ',
+						start : 35,
+						type : '9wpnjYkeqVRWMUQ5',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -1275,9 +1275,9 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 63,
-						w : 61,
-						h : 81,
+						zoom : 39,
+						w : 46,
+						h : 86,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -1299,16 +1299,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'Ipyj4ft9THqLmOEu',
+						source : 'cijD607PGZzVYaBt',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 100,
-						w : 82,
-						h : 45,
+						zoom : 10,
+						w : 89,
+						h : 66,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -1366,7 +1366,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 7918890670042829371,
+						document_id : 6012514753493227708,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -1377,11 +1377,11 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 			),
 			$client->pageBlockChannel(
 				channel : $client->chatEmpty(
-					id : -369783415045411358,
+					id : 3307717039651040208,
 				),
 			),
 			$client->pageBlockAudio(
-				audio_id : -6450343391265229934,
+				audio_id : 3044969799181712663,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -1409,15 +1409,15 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					$client->pageListOrderedItemText(
 						checkbox : true,
 						checked : true,
-						num : 'snHKOemM5oTADqxU',
+						num : '4GSiAtnml9C5xJj7',
 						text : $client->textEmpty(...),
-						value : 64,
-						type : 'RLiNPCgZVn5fIH4U',
+						value : 2,
+						type : 'bYHnO7XBCP6GWVR2',
 					),
 					$client->pageListOrderedItemBlocks(
 						checkbox : true,
 						checked : true,
-						num : 's4WKQ5NI8TuOagA3',
+						num : 'DkHq4hEIWT6MeLsY',
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1461,12 +1461,12 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 							$client->pageBlockButtonRow(...),
 							$client->pageBlockDocument(...),
 						),
-						value : 92,
-						type : 'uYLf0xGNpdmKq7ws',
+						value : 100,
+						type : 'inCvTjgx5QJ4M3AF',
 					),
 				),
-				start : 58,
-				type : 'uX8mzhsWijSFeoBw',
+				start : 11,
+				type : 'eyTAjiDrp78BkIFn',
 			),
 			$client->pageBlockDetails(
 				open : true,
@@ -1480,7 +1480,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 74,
+						published_date : 2,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -1493,14 +1493,14 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'O3MkFw9tnpPZ0YBd',
+						language : 'TrDu1Q69lzPj4keB',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'SH5OX8p6ksyBg4aT',
+						name : '0ygRdXb23iaPWU9l',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1519,16 +1519,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 2334161146667924767,
+						photo_id : 3731025662157202082,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -420178364427148648,
+						webpage_id : -996044835879721210,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : 253708493519322234,
+						video_id : 2524466348099022014,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1538,18 +1538,18 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'a9TcIU5fX7p4q6Yy',
-						poster_photo_id : -988666145427097506,
-						w : 58,
-						h : 36,
+						html : 'H4YKmZuJcbL5sx6W',
+						poster_photo_id : -7557774732224101151,
+						w : 25,
+						h : 35,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -3887021662946056499,
-						author_photo_id : -7100912512342153693,
-						author : 'AM0YVhi4ysSLHkwo',
-						date : 70,
+						webpage_id : -4430897512533180028,
+						author_photo_id : -2993395741860949437,
+						author : '2vsMynZ0b8NmAhk1',
+						date : 15,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1691,7 +1691,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -1731717551869956415,
+						audio_id : 1224808592033278810,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -1712,8 +1712,8 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 65,
-						type : 'WhBL0QgSueq6RAHs',
+						start : 99,
+						type : 'H8wDWgi6Em3tU97j',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -1770,9 +1770,9 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 0,
-						w : 96,
-						h : 67,
+						zoom : 57,
+						w : 98,
+						h : 26,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -1794,16 +1794,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'dCBNIRj56bxOceLo',
+						source : 'dP2wkICqmoeSAYNW',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 4,
-						w : 70,
-						h : 30,
+						zoom : 57,
+						w : 97,
+						h : 85,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -1861,7 +1861,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 5518754270798083104,
+						document_id : -8831568325123763250,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -1872,20 +1872,20 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 				articles : array(
 					$client->pageRelatedArticle(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -2058657820659268445,
-						title : '8YFoHUyTt5793Rv2',
-						description : 'M5QyHpOAa3rhN1I6',
-						photo_id : 963146807657513602,
-						author : 'trGQ2I8PzeBvdZns',
-						published_date : 28,
+						webpage_id : -5818788831757470454,
+						title : 'sJkX7o8S4fQdZBOn',
+						description : 'DL9XRFNf5WjBwmzt',
+						photo_id : -5399154841500198785,
+						author : 'lROh1vSeBUEPdLi4',
+						published_date : 11,
 					),
 				),
 			),
 			$client->pageBlockMap(
 				geo : $client->geoPointEmpty(),
-				zoom : 57,
-				w : 51,
-				h : 0,
+				zoom : 94,
+				w : 29,
+				h : 66,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -1910,16 +1910,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 				text : $client->textEmpty(),
 			),
 			$client->pageBlockMath(
-				source : 'Evlc68M2ZemY1L3a',
+				source : 'dPk0Gqu7DoI6jpi2',
 			),
 			$client->pageBlockThinking(
 				text : $client->textEmpty(),
 			),
 			$client->inputPageBlockMap(
 				geo : $client->inputGeoPointEmpty(),
-				zoom : 88,
-				w : 74,
-				h : 94,
+				zoom : 95,
+				w : 14,
+				h : 42,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -1936,7 +1936,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 17,
+						published_date : 37,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -1949,14 +1949,14 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'yGjEamSI9kKXA4bx',
+						language : 'wtAn9kRUohcVY4Kv',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'bY6VT5Zoc397jxNr',
+						name : 'Vma69MkBlFjZQ3Pv',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1975,16 +1975,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 5452460674059554042,
+						photo_id : 1388963212674386587,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 3885393672469348248,
+						webpage_id : 1918312049314399217,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : 4592384048410489534,
+						video_id : 7241210864084668662,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1994,18 +1994,18 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'gCZsLVhHqtwS6IuE',
-						poster_photo_id : 1213718367922015814,
-						w : 6,
-						h : 65,
+						html : '3zxRVus8rtHFInYv',
+						poster_photo_id : -2519725556880023549,
+						w : 3,
+						h : 22,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -1215880522465450079,
-						author_photo_id : -8437332200900770120,
-						author : 'D6latu7vUzprqcFg',
-						date : 53,
+						webpage_id : 622205545399473849,
+						author_photo_id : 3694257421532839798,
+						author : 'ag9D3cfUySv6LsbP',
+						date : 49,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -2147,7 +2147,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 9195789630798274783,
+						audio_id : 940511841893491648,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -2169,7 +2169,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 							$client->pageListOrderedItemBlocks(...),
 						),
 						start : 100,
-						type : '4Hw51qFE9PXWjKgV',
+						type : 'lb9urSFfqYhdOxZK',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -2226,9 +2226,9 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 9,
-						w : 8,
-						h : 33,
+						zoom : 7,
+						w : 22,
+						h : 99,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -2250,16 +2250,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'JFdkhn42Y6wgzqX8',
+						source : 'V80efh9bKdDjNFMG',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 61,
-						w : 83,
-						h : 28,
+						zoom : 73,
+						w : 43,
+						h : 24,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -2317,7 +2317,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : -6559089430947370174,
+						document_id : 2582174841525973588,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -2336,7 +2336,7 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 				),
 			),
 			$client->pageBlockDocument(
-				document_id : 684060723953470051,
+				document_id : 5044348560703201639,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -2346,16 +2346,16 @@ $inputBotInlineMessage = $client->inputBotInlineMessageRichMessage(
 		photos : array(
 			$client->inputPhotoEmpty(),
 			$client->inputPhoto(
-				id : 987135027956804999,
-				access_hash : 7624909794006039749,
+				id : -1770174948648226282,
+				access_hash : 2118397075567021688,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),
 		documents : array(
 			$client->inputDocumentEmpty(),
 			$client->inputDocument(
-				id : 7823273207749724699,
-				access_hash : 4299169495743168095,
+				id : 7211203136664142922,
+				access_hash : -4003416345695997373,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),

@@ -2,7 +2,7 @@
 
 **Description** : *Install wallpaper*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.installWallPaper#feed5769 wallpaper:InputWallPaper settings:WallPaperSettings = Bool;
@@ -38,19 +38,19 @@ account.installWallPaper#feed5769 wallpaper:InputWallPaper settings:WallPaperSet
 ```php
 $bool = $client->account->installWallPaper(
 	wallpaper : $client->inputWallPaper(
-		id : -6256596028579367221,
-		access_hash : -901255008875992984,
+		id : 1027497607693077354,
+		access_hash : 6802449993125511267,
 	),
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 26,
-		second_background_color : 39,
-		third_background_color : 8,
-		fourth_background_color : 62,
-		intensity : 37,
-		rotation : 68,
-		emoticon : 'GRNTjb963ABW5U1H',
+		background_color : 45,
+		second_background_color : 98,
+		third_background_color : 36,
+		fourth_background_color : 91,
+		intensity : 41,
+		rotation : 97,
+		emoticon : '4EmlqTLvM5nwIyoe',
 	),
 );
 ```

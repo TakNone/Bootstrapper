@@ -2,7 +2,7 @@
 
 **Description** : *Pin or unpin forum topics*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.updatePinnedForumTopic#175df251 peer:InputPeer topic_id:int pinned:Bool = Updates;
@@ -39,7 +39,7 @@ messages.updatePinnedForumTopic#175df251 peer:InputPeer topic_id:int pinned:Bool
 ```php
 $updates = $client->messages->updatePinnedForumTopic(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	topic_id : 97,
+	topic_id : 74,
 	pinned : false,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Dice game media*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputMediaStakeDice#f3a9244a game_hash:string ton_amount:long client_seed:bytes = InputMedia;
@@ -30,8 +30,8 @@ inputMediaStakeDice#f3a9244a game_hash:string ton_amount:long client_seed:bytes 
 
 ```php
 $inputMedia = $client->inputMediaStakeDice(
-	game_hash : '7E6iZJmXPyqdpnhj',
-	ton_amount : 8797059870387221236,
+	game_hash : '0gsQclJh9Emyd6tD',
+	ton_amount : -1673590033696214443,
 	client_seed : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

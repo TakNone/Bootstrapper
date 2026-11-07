@@ -1,6 +1,6 @@
 # inlineButtonTypeBuy
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inlineButtonTypeBuy#48bad7a5 = InlineButtonType;

@@ -2,7 +2,7 @@
 
 **Description** : *Changes the main profile tab of a channel, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channels.setMainProfileTab#3583fcb1 channel:InputChannel tab:ProfileTab = Bool;

@@ -1,6 +1,6 @@
 # inputRichMessageHTML
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputRichMessageHTML#dacb836a flags:# rtl:flags.0?true noautolink:flags.1?true html:string files:flags.2?Vector<InputRichFile> = InputRichMessage;
@@ -32,14 +32,14 @@ inputRichMessageHTML#dacb836a flags:# rtl:flags.0?true noautolink:flags.1?true h
 $inputRichMessage = $client->inputRichMessageHTML(
 	rtl : true,
 	noautolink : true,
-	html : 'hOxq0NPirXZCntT9',
+	html : 'K8N9ZfeECYldOzc6',
 	files : array(
 		$client->inputRichFilePhoto(
-			id : 'EvtL5bT3ZxDdmgaB',
+			id : 'cWAxVfKuvs9RXDkl',
 			photo : $client->inputPhotoEmpty(),
 		),
 		$client->inputRichFileDocument(
-			id : 'eqh6JpV89vgXSAsy',
+			id : 'CVPwS8ZaOszft40v',
 			document : $client->inputDocumentEmpty(),
 		),
 	),

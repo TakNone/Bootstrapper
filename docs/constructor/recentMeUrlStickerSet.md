@@ -2,7 +2,7 @@
 
 **Description** : *Recent t\.me stickerset installation URL*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 recentMeUrlStickerSet#bc0a57dc url:string set:StickerSetCovered = RecentMeUrl;
@@ -39,50 +39,50 @@ $recentMeUrl = $client->recentMeUrlStickerSet(
 			text_color : true,
 			channel_emoji_status : true,
 			creator : true,
-			installed_date : 46,
-			id : -7385934849310232468,
-			access_hash : -576456956135368301,
-			title : 'su3BVdKaIbGMEtkx',
-			short_name : '5RzdxYEPTLaV8y9O',
+			installed_date : 19,
+			id : 3961497861778608229,
+			access_hash : -8676292307757285492,
+			title : 'CVAfnBrJMZ46yNdI',
+			short_name : 'gkp6isT3qU4eZ7Xh',
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : '0PSvsahIubp76yd3',
+					type : 'DWkHXxYdsmGbhrCR',
 				),
 				$client->photoSize(
-					type : '4EGfa6d50B3uXg7r',
-					w : 42,
-					h : 53,
-					size : 24,
+					type : 'QkW7Y8Nnrh1iRM9j',
+					w : 7,
+					h : 88,
+					size : 97,
 				),
 				$client->photoCachedSize(
-					type : 'ExJeAvTMcDyNsriZ',
-					w : 33,
-					h : 87,
+					type : 'FCAW96dwYaKSrftL',
+					w : 23,
+					h : 85,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'nkGxt6MeWQKmpUOA',
+					type : 'g4fMn10QVt6hF9UG',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : '8mVovbLs1x79EMy6',
-					w : 13,
-					h : 26,
-					sizes : array(54),
+					type : '7kDESPuJo9stcUh1',
+					w : 97,
+					h : 51,
+					sizes : array(84),
 				),
 				$client->photoPathSize(
-					type : '8kIxdQ46UNrMoyql',
+					type : 'RcI4aiZm2e1f76BJ',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
-			thumb_dc_id : 22,
-			thumb_version : 64,
-			thumb_document_id : 8998250638375233684,
-			count : 26,
+			thumb_dc_id : 62,
+			thumb_version : 65,
+			thumb_document_id : -7137191925465935235,
+			count : 14,
 			hash : 0,
 		),
 		cover : $client->documentEmpty(
-			id : -194633618365563137,
+			id : 7492803123225978354,
 		),
 	),
 );

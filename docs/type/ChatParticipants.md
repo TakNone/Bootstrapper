@@ -2,7 +2,7 @@
 
 **Description** : *Contains the full list of members of basic groups &raquo;; is NOT usable for supergroups/channels*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 chatParticipantsForbidden#8763d3e1 flags:# chat_id:long self_participant:flags.0?ChatParticipant = ChatParticipants;

@@ -2,7 +2,7 @@
 
 **Description** : *Delete specific messages from the in\-call message overlay &raquo; of a video chat/livestream or live story, including in RTMP mode*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.deleteGroupCallMessages#f64f54f7 flags:# report_spam:flags.0?true call:InputGroupCall messages:Vector<int> = Updates;
@@ -41,9 +41,9 @@ phone.deleteGroupCallMessages#f64f54f7 flags:# report_spam:flags.0?true call:Inp
 $updates = $client->phone->deleteGroupCallMessages(
 	report_spam : true,
 	call : $client->inputGroupCall(
-		id : 4256124494194563732,
-		access_hash : 915853122669651271,
+		id : 3615618791592285840,
+		access_hash : -4801667068457738034,
 	),
-	messages : array(16),
+	messages : array(33),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor, non\-existent message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageEmpty#90a6ca84 flags:# id:int peer_id:flags.0?Peer = Message;
@@ -30,9 +30,9 @@ messageEmpty#90a6ca84 flags:# id:int peer_id:flags.0?Peer = Message;
 
 ```php
 $message = $client->messageEmpty(
-	id : 68,
+	id : 44,
 	peer_id : $client->peerUser(
-		user_id : -8609086859813178326,
+		user_id : -5594775477869973006,
 	),
 );
 ```

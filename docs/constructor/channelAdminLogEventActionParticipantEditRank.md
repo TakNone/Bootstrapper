@@ -2,7 +2,7 @@
 
 **Description** : *A participant&#039;s tag &raquo; was changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:string new_rank:string = ChannelAdminLogEventAction;
@@ -30,8 +30,8 @@ channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:st
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantEditRank(
-	user_id : -905354266190209290,
-	prev_rank : 'CA5TliRHdXMG1mFB',
-	new_rank : 'NMcsPlt5iFSqph4j',
+	user_id : 5401317546837795629,
+	prev_rank : 'x5ZI0FHJSnNGvDzb',
+	new_rank : 'fSzjwIgoalZd2sBx',
 );
 ```

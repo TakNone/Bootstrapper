@@ -2,7 +2,7 @@
 
 **Description** : *Describes one or more collectible gift auction rounds &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;
@@ -29,7 +29,7 @@ starGiftAuctionRound#3aae0528 num:int duration:int = StarGiftAuctionRound;
 
 ```php
 $starGiftAuctionRound = $client->starGiftAuctionRound(
-	num : 12,
-	duration : 63,
+	num : 85,
+	duration : 78,
 );
 ```

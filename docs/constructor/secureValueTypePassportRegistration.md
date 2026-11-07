@@ -2,7 +2,7 @@
 
 **Description** : *Internal registration passport*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 secureValueTypePassportRegistration#99e3806a = SecureValueType;

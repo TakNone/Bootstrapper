@@ -1,6 +1,6 @@
 # updateNewBotConnection
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateNewBotConnection#b22083a6 flags:# confirmed:flags.0?true bot_id:long date:flags.1?int device:flags.1?string location:flags.1?string = Update;
@@ -32,9 +32,9 @@ updateNewBotConnection#b22083a6 flags:# confirmed:flags.0?true bot_id:long date:
 ```php
 $update = $client->updateNewBotConnection(
 	confirmed : true,
-	bot_id : -1567082421425719791,
-	date : 95,
-	device : '0F81MpZmOanfz4NG',
-	location : 'cy1WlQUqk478XVb5',
+	bot_id : -8268923195682762338,
+	date : 29,
+	device : 'GoUExpDzeLAcFBHS',
+	location : 'mpIdxF3iz6G8UQau',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Send an E2E\-encrypted message or emoji reaction to all participants of a conference call\. This method can only be used with conferences; see here &raquo; for the serialization and encryption process*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.sendGroupCallEncryptedMessage#e5afa56d call:InputGroupCall encrypted_message:bytes = Bool;
@@ -38,8 +38,8 @@ phone.sendGroupCallEncryptedMessage#e5afa56d call:InputGroupCall encrypted_messa
 ```php
 $bool = $client->phone->sendGroupCallEncryptedMessage(
 	call : $client->inputGroupCall(
-		id : 5805163801621949370,
-		access_hash : -5147348140960747207,
+		id : -325333720047261545,
+		access_hash : 6909352832708384871,
 	),
 	encrypted_message : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

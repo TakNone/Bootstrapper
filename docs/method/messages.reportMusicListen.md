@@ -2,7 +2,7 @@
 
 **Description** : *Report the listening duration of a music track \(audio document without the voice flag\), see here &raquo; for more info on the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.reportMusicListen#ddbcd819 id:InputDocument listened_duration:int = Bool;
@@ -30,6 +30,6 @@ messages.reportMusicListen#ddbcd819 id:InputDocument listened_duration:int = Boo
 ```php
 $bool = $client->messages->reportMusicListen(
 	id : $client->inputDocumentEmpty(),
-	listened_duration : 44,
+	listened_duration : 94,
 );
 ```

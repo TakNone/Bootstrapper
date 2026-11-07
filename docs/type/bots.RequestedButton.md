@@ -2,7 +2,7 @@
 
 **Description** : *Contains the Mini App request ID generated when a bot prepares a peer request button, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.requestedButton#f13bbcd7 webapp_req_id:string = bots.RequestedButton;

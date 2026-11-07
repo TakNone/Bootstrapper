@@ -2,7 +2,7 @@
 
 **Description** : *Rich text linked to a phone number*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 textPhone#1ccb966a text:RichText phone:string = RichText;

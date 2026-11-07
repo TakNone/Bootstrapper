@@ -2,7 +2,7 @@
 
 **Description** : *A paragraph*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pageBlockParagraph#467a0766 text:RichText = PageBlock;

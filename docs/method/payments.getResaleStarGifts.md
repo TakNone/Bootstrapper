@@ -2,7 +2,7 @@
 
 **Description** : *Get collectible gifts of a specific type currently on resale, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.getResaleStarGifts#7a5fa236 flags:# sort_by_price:flags.1?true sort_by_num:flags.2?true for_craft:flags.4?true stars_only:flags.5?true attributes_hash:flags.0?long gift_id:long attributes:flags.3?Vector<StarGiftAttributeId> offset:string limit:int = payments.ResaleStarGifts;
@@ -50,20 +50,20 @@ $paymentsResaleStarGifts = $client->payments->getResaleStarGifts(
 	sort_by_num : true,
 	for_craft : true,
 	stars_only : true,
-	attributes_hash : 1119203737803926004,
-	gift_id : 157064666979799370,
+	attributes_hash : 567685768271864761,
+	gift_id : 6085638890613013927,
 	attributes : array(
 		$client->starGiftAttributeIdModel(
-			document_id : 3646441322827312205,
+			document_id : -4503078666280415669,
 		),
 		$client->starGiftAttributeIdPattern(
-			document_id : 8866753623039402344,
+			document_id : -1292972098603579332,
 		),
 		$client->starGiftAttributeIdBackdrop(
-			backdrop_id : 45,
+			backdrop_id : 29,
 		),
 	),
-	offset : 'vEDSzJxIVePpK1FX',
-	limit : 83,
+	offset : 'XLVd4l5y7uwgiR92',
+	limit : 80,
 );
 ```

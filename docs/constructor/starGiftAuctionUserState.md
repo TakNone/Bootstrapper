@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about the current user&#039;s state in an auction &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftAuctionUserState#2eeed1c4 flags:# returned:flags.1?true bid_amount:flags.0?long bid_date:flags.0?int min_bid_amount:flags.0?long bid_peer:flags.0?Peer acquired_count:int = StarGiftAuctionUserState;
@@ -35,12 +35,12 @@ starGiftAuctionUserState#2eeed1c4 flags:# returned:flags.1?true bid_amount:flags
 ```php
 $starGiftAuctionUserState = $client->starGiftAuctionUserState(
 	returned : true,
-	bid_amount : 5398873050986024029,
-	bid_date : 89,
-	min_bid_amount : -7230651635266936074,
+	bid_amount : -8719702120008610741,
+	bid_date : 56,
+	min_bid_amount : -1630894022454233316,
 	bid_peer : $client->peerUser(
-		user_id : -3483086338743008566,
+		user_id : -4337556844843743349,
 	),
-	acquired_count : 74,
+	acquired_count : 77,
 );
 ```

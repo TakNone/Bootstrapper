@@ -2,7 +2,7 @@
 
 **Description** : *Object contains encrypted message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 encryptedMessage#ed18c118 random_id:long chat_id:int date:int bytes:bytes file:EncryptedFile = EncryptedMessage;

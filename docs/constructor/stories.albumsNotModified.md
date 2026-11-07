@@ -2,7 +2,7 @@
 
 **Description** : *The story album list &raquo; hasn&#039;t changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 stories.albumsNotModified#564edaeb = stories.Albums;

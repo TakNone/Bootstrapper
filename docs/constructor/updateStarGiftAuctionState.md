@@ -2,7 +2,7 @@
 
 **Description** : *Contains updates to auction state, see here &raquo; for more info on how to enable these updates*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Update;
@@ -29,7 +29,7 @@ updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Up
 
 ```php
 $update = $client->updateStarGiftAuctionState(
-	gift_id : 8787922256042170754,
+	gift_id : 479366099279076175,
 	state : $client->starGiftAuctionStateNotModified(),
 );
 ```

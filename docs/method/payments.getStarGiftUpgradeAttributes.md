@@ -2,7 +2,7 @@
 
 **Description** : *Obtains the full list of just the collectible attributes that may appear for a gift type once it&#039;s upgraded to a collectible gift &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.getStarGiftUpgradeAttributes#6d038b58 gift_id:long = payments.StarGiftUpgradeAttributes;
@@ -36,6 +36,6 @@ payments.getStarGiftUpgradeAttributes#6d038b58 gift_id:long = payments.StarGiftU
 
 ```php
 $paymentsStarGiftUpgradeAttributes = $client->payments->getStarGiftUpgradeAttributes(
-	gift_id : -6090572381500247911,
+	gift_id : 4486633750436083504,
 );
 ```

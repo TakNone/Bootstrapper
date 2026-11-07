@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a collectible gift auction &raquo; for a webPage preview of an auction &raquo; \(the webPage will have a type of telegram\_auction\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 webPageAttributeStarGiftAuction#1c641c2 gift:StarGift end_date:int = WebPageAttribute;
@@ -37,36 +37,36 @@ $webPageAttribute = $client->webPageAttributeStarGiftAuction(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : -8773340143238540441,
+		id : 5408851638759616946,
 		sticker : $client->documentEmpty(
-			id : 4138031171163998821,
+			id : -6717287586796647594,
 		),
-		stars : -3204141535456067901,
-		availability_remains : 28,
-		availability_total : 12,
-		availability_resale : -4306211780060527132,
-		convert_stars : -7841422115766606804,
-		first_sale_date : 78,
-		last_sale_date : 18,
-		upgrade_stars : -5734723578104738664,
-		resell_min_stars : 3341428500945887155,
-		title : 'z46dW5SNHetvyFAJ',
+		stars : 2340001093908626175,
+		availability_remains : 64,
+		availability_total : 84,
+		availability_resale : -4793588112151606237,
+		convert_stars : 8674709409523408563,
+		first_sale_date : 53,
+		last_sale_date : 23,
+		upgrade_stars : -8451808036766554034,
+		resell_min_stars : 721705347942537882,
+		title : 'psxDYmPJ8ZIrXeKC',
 		released_by : $client->peerUser(
-			user_id : 6825617383691606269,
+			user_id : -493992232471894828,
 		),
-		per_user_total : 32,
-		per_user_remains : 35,
-		locked_until_date : 59,
-		auction_slug : 'uNQpSbCiYqVoTkfX',
-		gifts_per_round : 15,
-		auction_start_date : 52,
-		upgrade_variants : 82,
+		per_user_total : 47,
+		per_user_remains : 55,
+		locked_until_date : 30,
+		auction_slug : 'uMhVOw6E1BeHZFfp',
+		gifts_per_round : 27,
+		auction_start_date : 28,
+		upgrade_variants : 36,
 		background : $client->starGiftBackground(
-			center_color : 84,
-			edge_color : 82,
-			text_color : 96,
+			center_color : 88,
+			edge_color : 46,
+			text_color : 52,
 		),
 	),
-	end_date : 100,
+	end_date : 10,
 );
 ```

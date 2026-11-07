@@ -2,10 +2,10 @@
 
 **Description** : *Check whether a username is available and valid for use when creating a managed bot &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
-bots.checkUsername#87f2219b username:string = Bool;
+bots.checkUsername#e3ac4c61 flags:# additional:flags.0?true username:string = Bool;
 ```
 
 ---
@@ -14,6 +14,8 @@ bots.checkUsername#87f2219b username:string = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| **additional** | [`flags.0?true`](type/true) | NOTHING |
 | <mark>username</mark> | [`string`](type/string) | Username to check; only letters, digits and underscores are allowed, must end in bot, and the full username must be 5–32 characters long |
 
 ---
@@ -38,6 +40,7 @@ bots.checkUsername#87f2219b username:string = Bool;
 
 ```php
 $bool = $client->bots->checkUsername(
+	additional : true,
 	username : 'TakNone',
 );
 ```

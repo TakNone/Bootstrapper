@@ -2,7 +2,7 @@
 
 **Description** : *Globally search for posts from public channels &raquo; \(including those we aren&#039;t a member of\) containing either a specific hashtag, or a full text query*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?string offset_rate:int offset_peer:InputPeer offset_id:int limit:int allow_paid_stars:flags.2?long = messages.Messages;
@@ -45,12 +45,12 @@ channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?strin
 
 ```php
 $messagesMessages = $client->channels->searchPosts(
-	hashtag : 'nJIZpHhrkDTK0iaf',
-	query : 'oeGDIg0pxaSBO9bJ',
+	hashtag : 'LiBnph0ky8m6KlWQ',
+	query : 'pkcY30DnqeVWEoiI',
 	offset_rate : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	limit : 48,
-	allow_paid_stars : -608894339314627429,
+	limit : 80,
+	allow_paid_stars : -3581437853144869073,
 );
 ```

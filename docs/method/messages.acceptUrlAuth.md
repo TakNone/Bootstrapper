@@ -2,10 +2,10 @@
 
 **Description** : *Use this to accept a Seamless Telegram Login authorization request, for more info click here &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
-messages.acceptUrlAuth#67a3f0de flags:# write_allowed:flags.0?true share_phone_number:flags.3?true peer:flags.1?InputPeer msg_id:flags.1?int button_id:flags.1?int url:flags.2?string match_code:flags.4?string = UrlAuthResult;
+messages.acceptUrlAuth#18dd4e92 flags:# write_allowed:flags.0?true share_phone_number:flags.3?true peer:flags.1?InputPeer msg_id:flags.1?int button_id:flags.1?int url:flags.2?string match_code:flags.4?string tonconnect_session:flags.5?InputTonConnectOauthSession = UrlAuthResult;
 ```
 
 ---
@@ -22,6 +22,7 @@ messages.acceptUrlAuth#67a3f0de flags:# write_allowed:flags.0?true share_phone_n
 | **button_id** | [`flags.1?int`](type/int) | ID of the login button |
 | **url** | [`flags.2?string`](type/string) | URL used for link URL authorization, click here for more info » |
 | **match_code** | [`flags.4?string`](type/string) | If urlAuthResultRequest.match_codes was set, the emoji or code selected by the user from the provided list; must always be provided when match_codes is set, even if match_codes_first was set and the code was already validated via messages.checkUrlAuthMatchCode |
+| **tonconnect_session** | [`flags.5?InputTonConnectOauthSession`](type/InputTonConnectOauthSession) | NOTHING |
 
 ---
 
@@ -38,9 +39,18 @@ $urlAuthResult = $client->messages->acceptUrlAuth(
 	write_allowed : true,
 	share_phone_number : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 47,
-	button_id : 68,
+	msg_id : 21,
+	button_id : 40,
 	url : 'https://docs.liveproto.dev',
-	match_code : 'QSXAxjwaHv17V6Y0',
+	match_code : 'aoSMrtyGZIN642BO',
+	tonconnect_session : $client->inputTonConnectOauthSession(
+		session_id : -3522478974136521258,
+		challenge_answer : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		body : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		proof : $client->walletOwnershipProof(
+			timestamp : 69,
+			signature : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
+		),
+	),
 );
 ```

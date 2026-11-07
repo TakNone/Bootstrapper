@@ -2,7 +2,7 @@
 
 **Description** : *An e2e encrypted chat*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;

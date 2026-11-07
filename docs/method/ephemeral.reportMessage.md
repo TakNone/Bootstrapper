@@ -1,6 +1,6 @@
 # ephemeral.reportMessage
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 ephemeral.reportMessage#8704f2bf peer:InputPeer id:int option:bytes message:string = ReportResult;
@@ -30,8 +30,8 @@ ephemeral.reportMessage#8704f2bf peer:InputPeer id:int option:bytes message:stri
 ```php
 $reportResult = $client->ephemeral->reportMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 24,
+	id : 92,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	message : 'L1eCVTYoEaJHBx6g',
+	message : 'QZhaLY0l7IyigvKm',
 );
 ```

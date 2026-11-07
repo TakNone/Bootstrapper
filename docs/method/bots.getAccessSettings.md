@@ -2,7 +2,7 @@
 
 **Description** : *Get the access restriction settings &raquo; of a managed bot; can only be called by the manager bot*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.getAccessSettings#213853a3 bot:InputUser = bots.AccessSettings;

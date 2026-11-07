@@ -2,7 +2,7 @@
 
 **Description** : *Represents a channel*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputChannelEmpty#ee8c1e86 = InputChannel;

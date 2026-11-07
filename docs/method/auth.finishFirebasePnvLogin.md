@@ -1,6 +1,6 @@
 # auth.finishFirebasePnvLogin
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.finishFirebasePnvLogin#2c85094c google_token:string = auth.Authorization;
@@ -26,6 +26,6 @@ auth.finishFirebasePnvLogin#2c85094c google_token:string = auth.Authorization;
 
 ```php
 $authAuthorization = $client->auth->finishFirebasePnvLogin(
-	google_token : '6WGT89bENHSw0PAM',
+	google_token : 'ofeWgwsV06abcRkt',
 );
 ```

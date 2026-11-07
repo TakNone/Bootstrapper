@@ -2,7 +2,7 @@
 
 **Description** : *Statistics for a poll sent in a message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 stats.pollStats#2999beed votes_graph:StatsGraph = stats.PollStats;

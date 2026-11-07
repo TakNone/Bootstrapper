@@ -2,7 +2,7 @@
 
 **Description** : *List of chats with auxiliary data*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.chats#64ff9fd5 chats:Vector<Chat> = messages.Chats;
@@ -30,7 +30,7 @@ messages.chats#64ff9fd5 chats:Vector<Chat> = messages.Chats;
 $messagesChats = $client->messages->chats(
 	chats : array(
 		$client->chatEmpty(
-			id : -2869653997651230621,
+			id : 3264170938073032340,
 		),
 		$client->chat(
 			creator : true,
@@ -39,12 +39,12 @@ $messagesChats = $client->messages->chats(
 			call_active : true,
 			call_not_empty : true,
 			noforwards : true,
-			id : -7263827197842689224,
-			title : '3k1Ch5cfaTpO0gBA',
+			id : -5062839205514750384,
+			title : 'O4k6YBdnDo98Pr0f',
 			photo : $client->chatPhotoEmpty(),
-			participants_count : 64,
-			date : 33,
-			version : 61,
+			participants_count : 86,
+			date : 80,
+			version : 58,
 			migrated_to : $client->get_input_channel(channel : '@LiveProto'),
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
@@ -91,12 +91,12 @@ $messagesChats = $client->messages->chats(
 				edit_rank : true,
 				send_reactions : true,
 				manage_linked_peers : true,
-				until_date : 87,
+				until_date : 11,
 			),
 		),
 		$client->chatForbidden(
-			id : -9119568583174305596,
-			title : '8kRX0yGQgmnhYiEf',
+			id : -5877252773378647183,
+			title : 'AiVNMFSerT9gXha3',
 		),
 		$client->channel(
 			creator : true,
@@ -127,17 +127,19 @@ $messagesChats = $client->messages->chats(
 			broadcast_messages_allowed : true,
 			monoforum : true,
 			forum_tabs : true,
-			id : 5012679624005027345,
-			access_hash : 7630783038019364790,
-			title : '8b62LwDcRlapvWU7',
+			in_news : true,
+			forum_sidebar : true,
+			id : 6817287511939223482,
+			access_hash : 8970658724919080520,
+			title : 'FX5EcKpqWHiBkT7v',
 			username : 'TakNone',
 			photo : $client->chatPhotoEmpty(),
-			date : 42,
+			date : 91,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'bCWF4rBJvnakuZ7y',
-					reason : 'Yo5aus0EUGSkegFf',
-					text : 'rlGYf0emzS45BQEp',
+					platform : 'NkGdqlscge8Fnpi9',
+					reason : 'f3iu5YCIO1FkMLsT',
+					text : 'vbG6qRjWQHayLMp9',
 				),
 			),
 			admin_rights : $client->chatAdminRights(
@@ -185,7 +187,7 @@ $messagesChats = $client->messages->chats(
 				edit_rank : true,
 				send_reactions : true,
 				manage_linked_peers : true,
-				until_date : 49,
+				until_date : 43,
 			),
 			default_banned_rights : $client->chatBannedRights(
 				view_messages : true,
@@ -211,60 +213,63 @@ $messagesChats = $client->messages->chats(
 				edit_rank : true,
 				send_reactions : true,
 				manage_linked_peers : true,
-				until_date : 22,
+				until_date : 53,
 			),
 			participants_count : 26,
 			usernames : array(
 				$client->username(
 					editable : true,
 					active : true,
+					deletable : true,
+					expired : true,
 					username : 'TakNone',
 				),
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 9,
+				max_id : 67,
 			),
 			color : $client->peerColor(
-				color : 33,
-				background_emoji_id : 5100556168784259842,
+				color : 75,
+				background_emoji_id : 6764344837903692602,
 			),
 			profile_color : $client->peerColor(
-				color : 85,
-				background_emoji_id : -963927438464286973,
+				color : 34,
+				background_emoji_id : -7377911421328052248,
 			),
 			emoji_status : $client->emojiStatusEmpty(),
-			level : 93,
-			subscription_until_date : 64,
-			bot_verification_icon : -3047423181848628841,
-			send_paid_messages_stars : -8421904032557603778,
-			linked_monoforum_id : -3962637603125488311,
-			linked_community_id : -4524514310073695482,
+			level : 95,
+			subscription_until_date : 66,
+			bot_verification_icon : -6458127172880749009,
+			send_paid_messages_stars : -5494803020918257780,
+			linked_monoforum_id : 3051327985675039960,
+			linked_community_id : -7827179041733487661,
+			pinned_msg_id : 44,
 		),
 		$client->channelForbidden(
 			broadcast : true,
 			megagroup : true,
 			monoforum : true,
-			id : 7405691202932210936,
-			access_hash : -4335115948540388599,
-			title : '7z4mn6LHl3Bbsxha',
-			until_date : 44,
+			id : 6183861176838639876,
+			access_hash : -3186752327441485825,
+			title : '03YACHKbwheVyGDx',
+			until_date : 5,
 		),
 		$client->communityForbidden(
-			id : 1373165924290441697,
-			access_hash : 5168915689598217009,
-			title : 'mH5GKutDblyAiOUT',
+			id : 792334836290469729,
+			access_hash : 1087929857966460784,
+			title : 'rx5QDsfRjoZpTtUN',
 		),
 		$client->community(
 			creator : true,
 			left : true,
 			min : true,
 			collapsed_in_dialogs : true,
-			id : -1105194027627227494,
-			access_hash : -7268721632878190387,
-			title : 'QWoCJFzljbM5GRi8',
+			id : 8202777839367301810,
+			access_hash : 6675814520933199804,
+			title : 'LgwKXi4QGbxJpsre',
 			photo : $client->chatPhotoEmpty(),
-			date : 10,
+			date : 91,
 			admin_rights : $client->chatAdminRights(
 				change_info : true,
 				post_messages : true,
@@ -310,7 +315,7 @@ $messagesChats = $client->messages->chats(
 				edit_rank : true,
 				send_reactions : true,
 				manage_linked_peers : true,
-				until_date : 97,
+				until_date : 12,
 			),
 		),
 	),

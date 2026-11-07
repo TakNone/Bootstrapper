@@ -2,7 +2,7 @@
 
 **Description** : *Represents an in\-call message, emoji reaction &raquo;, paid live story comment or standalone paid live story donation*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 groupCallMessage#1a8afc7e flags:# from_admin:flags.1?true id:int from_id:Peer date:int message:TextWithEntities paid_message_stars:flags.0?long = GroupCallMessage;

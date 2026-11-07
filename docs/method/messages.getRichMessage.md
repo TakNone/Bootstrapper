@@ -1,6 +1,6 @@
 # messages.getRichMessage
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getRichMessage#501569cf peer:InputPeer id:int = messages.Messages;
@@ -28,6 +28,6 @@ messages.getRichMessage#501569cf peer:InputPeer id:int = messages.Messages;
 ```php
 $messagesMessages = $client->messages->getRichMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 58,
+	id : 32,
 );
 ```

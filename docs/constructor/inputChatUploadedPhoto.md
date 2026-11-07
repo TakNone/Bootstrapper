@@ -2,7 +2,7 @@
 
 **Description** : *New photo to be set as group profile photo*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputChatUploadedPhoto#bdcdaec0 flags:# file:flags.0?InputFile video:flags.1?InputFile video_start_ts:flags.2?double video_emoji_markup:flags.3?VideoSize = InputChatPhoto;
@@ -34,13 +34,13 @@ inputChatUploadedPhoto#bdcdaec0 flags:# file:flags.0?InputFile video:flags.1?Inp
 $inputChatPhoto = $client->inputChatUploadedPhoto(
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : 1235917.5986328125,
+	video_start_ts : -881397.6220703125,
 	video_emoji_markup : $client->videoSize(
-		type : '9EghzUVTwepxQY5K',
-		w : 3,
-		h : 42,
-		size : 16,
-		video_start_ts : 33672.2919921875,
+		type : 'E0FGBUHmXvPqAS5y',
+		w : 46,
+		h : 90,
+		size : 76,
+		video_start_ts : 1591310.7587890625,
 	),
 );
 ```

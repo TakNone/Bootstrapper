@@ -2,7 +2,7 @@
 
 **Description** : *Stickerset by ID*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputStickerSetID#9de7a269 id:long access_hash:long = InputStickerSet;
@@ -29,7 +29,7 @@ inputStickerSetID#9de7a269 id:long access_hash:long = InputStickerSet;
 
 ```php
 $inputStickerSet = $client->inputStickerSetID(
-	id : 7264518478043198325,
-	access_hash : -4227444332968396997,
+	id : 8785542857341018723,
+	access_hash : -3440151613078544249,
 );
 ```

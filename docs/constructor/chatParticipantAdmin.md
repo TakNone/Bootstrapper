@@ -2,7 +2,7 @@
 
 **Description** : *Basic group admin \(not usable by supergroups\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 chatParticipantAdmin#360d5d2 flags:# user_id:long inviter_id:long date:int rank:flags.0?string = ChatParticipant;
@@ -32,9 +32,9 @@ chatParticipantAdmin#360d5d2 flags:# user_id:long inviter_id:long date:int rank:
 
 ```php
 $chatParticipant = $client->chatParticipantAdmin(
-	user_id : -8434473294975116322,
-	inviter_id : 5861540119395171642,
-	date : 99,
-	rank : 'OUknaZpu15QoqsJB',
+	user_id : 7925869715743395587,
+	inviter_id : 77721600611888026,
+	date : 49,
+	rank : 'wHBhXEfSsvdD5YoP',
 );
 ```

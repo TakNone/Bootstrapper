@@ -2,7 +2,7 @@
 
 **Description** : *Sent from peer A to B, indicates that A refunded all stars B previously paid to send messages to A, see here &raquo; for more info on paid messages*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionPaidMessagesRefunded#ac1f1fcd count:int stars:long = MessageAction;
@@ -29,7 +29,7 @@ messageActionPaidMessagesRefunded#ac1f1fcd count:int stars:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionPaidMessagesRefunded(
-	count : 46,
-	stars : 393509382836808197,
+	count : 33,
+	stars : 27119197086422826,
 );
 ```

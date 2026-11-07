@@ -2,7 +2,7 @@
 
 **Description** : *An incoming phone call*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updatePhoneCall#ab0f6b1e phone_call:PhoneCall = Update;
@@ -29,7 +29,7 @@ updatePhoneCall#ab0f6b1e phone_call:PhoneCall = Update;
 ```php
 $update = $client->updatePhoneCall(
 	phone_call : $client->phoneCallEmpty(
-		id : -2241622276295015939,
+		id : 4832833647758640497,
 	),
 );
 ```

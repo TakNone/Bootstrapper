@@ -2,7 +2,7 @@
 
 **Description** : *A sponsored peer*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 sponsoredPeer#c69708d3 flags:# random_id:bytes peer:Peer sponsor_info:flags.0?string additional_info:flags.1?string = SponsoredPeer;
@@ -34,9 +34,9 @@ sponsoredPeer#c69708d3 flags:# random_id:bytes peer:Peer sponsor_info:flags.0?st
 $sponsoredPeer = $client->sponsoredPeer(
 	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	peer : $client->peerUser(
-		user_id : -7812886128615592539,
+		user_id : -1166473688939918395,
 	),
-	sponsor_info : '60laxwRkve8dNmJp',
-	additional_info : '91ntwXpRi2fUAEsy',
+	sponsor_info : 'dHKPwjG9SNIu42Rl',
+	additional_info : '1B6tZlkpAhFsWHza',
 );
 ```

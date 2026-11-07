@@ -2,7 +2,7 @@
 
 **Description** : *An empty constructor, no user or chat is defined*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputPeerEmpty#7f3b18ea = InputPeer;

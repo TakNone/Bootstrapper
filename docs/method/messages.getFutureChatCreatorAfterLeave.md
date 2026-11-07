@@ -2,7 +2,7 @@
 
 **Description** : *Group/channel owners only: returns the ID of the user that will become the new owner of the group if we decide to leave the group, see here &raquo; for more info on the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getFutureChatCreatorAfterLeave#3b7d0ea6 peer:InputPeer = User;

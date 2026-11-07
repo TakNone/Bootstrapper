@@ -2,7 +2,7 @@
 
 **Description** : *A story found using global story search &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 foundStory#e87acbc0 peer:Peer story:StoryItem = FoundStory;
@@ -30,10 +30,10 @@ foundStory#e87acbc0 peer:Peer story:StoryItem = FoundStory;
 ```php
 $foundStory = $client->foundStory(
 	peer : $client->peerUser(
-		user_id : -4438583728543075809,
+		user_id : -5426150671847435173,
 	),
 	story : $client->storyItemDeleted(
-		id : 72,
+		id : 19,
 	),
 );
 ```

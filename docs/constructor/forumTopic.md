@@ -2,7 +2,7 @@
 
 **Description** : *Represents a forum topic*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 forumTopic#fcdad815 flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?true short:flags.5?true hidden:flags.6?true title_missing:flags.7?true id:int date:int peer:Peer title:string icon_color:int icon_emoji_id:flags.0?long top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int unread_poll_votes_count:int from_id:Peer notify_settings:PeerNotifySettings draft:flags.4?DraftMessage = ForumTopic;
@@ -56,39 +56,39 @@ $forumTopic = $client->forumTopic(
 	short : true,
 	hidden : true,
 	title_missing : true,
-	id : 91,
-	date : 75,
+	id : 63,
+	date : 0,
 	peer : $client->peerUser(
-		user_id : -8898648754464222508,
+		user_id : 464554291106691251,
 	),
-	title : 'm6LNQyUrkalDC1cK',
-	icon_color : 84,
-	icon_emoji_id : -2097490417482632348,
-	top_message : 60,
-	read_inbox_max_id : 7,
-	read_outbox_max_id : 68,
-	unread_count : 1,
-	unread_mentions_count : 28,
-	unread_reactions_count : 63,
-	unread_poll_votes_count : 70,
+	title : 'HCfA7kKpVo14EYXQ',
+	icon_color : 32,
+	icon_emoji_id : 3545469225090115652,
+	top_message : 33,
+	read_inbox_max_id : 77,
+	read_outbox_max_id : 32,
+	unread_count : 90,
+	unread_mentions_count : 64,
+	unread_reactions_count : 48,
+	unread_poll_votes_count : 51,
 	from_id : $client->peerUser(
-		user_id : 432391573380424065,
+		user_id : 4948473083989338428,
 	),
 	notify_settings : $client->peerNotifySettings(
 		show_previews : true,
 		silent : true,
-		mute_until : 18,
+		mute_until : 87,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
 		stories_muted : true,
-		stories_hide_sender : true,
+		stories_hide_sender : false,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
 	draft : $client->draftMessageEmpty(
-		date : 42,
+		date : 49,
 	),
 );
 ```

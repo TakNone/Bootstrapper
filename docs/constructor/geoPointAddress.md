@@ -2,7 +2,7 @@
 
 **Description** : *Address optionally associated to a geoPoint*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 geoPointAddress#de4c5d93 flags:# country_iso2:string state:flags.0?string city:flags.1?string street:flags.2?string = GeoPointAddress;
@@ -32,9 +32,9 @@ geoPointAddress#de4c5d93 flags:# country_iso2:string state:flags.0?string city:f
 
 ```php
 $geoPointAddress = $client->geoPointAddress(
-	country_iso2 : 'GrzSIAUTkXQLOK80',
-	state : 'nYjiqrzNQVReHkGJ',
-	city : 'r5gkI7CmWnj4u2Fe',
-	street : 'mfTW9bFL3Q48oylu',
+	country_iso2 : 'jOtRgv1FAfQmCDla',
+	state : 'qcleAH4jsgwNPF65',
+	city : 'MO89GQD6mJvREYgX',
+	street : '397ftOAPWjLnhZKS',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Object describing a message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageEmpty#90a6ca84 flags:# id:int peer_id:flags.0?Peer = Message;

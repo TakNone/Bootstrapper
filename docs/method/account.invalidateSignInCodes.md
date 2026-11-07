@@ -2,7 +2,7 @@
 
 **Description** : *Invalidate the specified login codes, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.invalidateSignInCodes#ca8ae8ba codes:Vector<string> = Bool;
@@ -28,6 +28,6 @@ account.invalidateSignInCodes#ca8ae8ba codes:Vector<string> = Bool;
 
 ```php
 $bool = $client->account->invalidateSignInCodes(
-	codes : array('ULbuq0xJN32IdsKO'),
+	codes : array('bHklgOJMh1U3Pr0n'),
 );
 ```

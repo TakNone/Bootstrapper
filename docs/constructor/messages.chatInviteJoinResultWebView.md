@@ -1,6 +1,6 @@
 # messages.chatInviteJoinResultWebView
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.chatInviteJoinResultWebView#61ca29d3 bot_id:long query_id:long users:Vector<User> = messages.ChatInviteJoinResult;
@@ -28,11 +28,11 @@ messages.chatInviteJoinResultWebView#61ca29d3 bot_id:long query_id:long users:Ve
 
 ```php
 $messagesChatInviteJoinResult = $client->messages->chatInviteJoinResultWebView(
-	bot_id : -8764182396851043163,
-	query_id : -1467759633881335105,
+	bot_id : 72552276056453808,
+	query_id : 7171950426550251180,
 	users : array(
 		$client->userEmpty(
-			id : -6932970734051422423,
+			id : -1942054226876449748,
 		),
 		$client->user(
 			self : true,
@@ -65,48 +65,51 @@ $messagesChatInviteJoinResult = $client->messages->chatInviteJoinResultWebView(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 4373724765643011348,
-			access_hash : 770386470421994328,
+			bot_forum_sidebar : true,
+			id : -1124826574997551289,
+			access_hash : 352908995320460924,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 47,
+			bot_info_version : 65,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'tbTcVjeLnlUQJkNS',
-					reason : 'zDy0FPiTqdr2cV8a',
-					text : 'eiAGzHbTa5Q8DXNc',
+					platform : 'nct7RLswHaYiJvND',
+					reason : 'CXzfthku5DVpwUOi',
+					text : 'GPrJUenkXop45fyg',
 				),
 			),
-			bot_inline_placeholder : 'XUC1pfmtWIDHwkdN',
-			lang_code : 'v8LVHi6FTIwJfPK4',
+			bot_inline_placeholder : 'JBL6vx17qEwsfZYd',
+			lang_code : 'w1pmRPd6XLtIJWzQ',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
 					editable : true,
 					active : true,
+					deletable : true,
+					expired : true,
 					username : 'TakNone',
 				),
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 30,
+				max_id : 77,
 			),
 			color : $client->peerColor(
-				color : 95,
-				background_emoji_id : 6179101146155110195,
+				color : 94,
+				background_emoji_id : 2730355156445415133,
 			),
 			profile_color : $client->peerColor(
-				color : 7,
-				background_emoji_id : -4898165872604841184,
+				color : 64,
+				background_emoji_id : -5538308185612641702,
 			),
-			bot_active_users : 47,
-			bot_verification_icon : 997817052453021611,
-			send_paid_messages_stars : 1049026085408967043,
-			linked_community_id : -6574552034793657423,
+			bot_active_users : 83,
+			bot_verification_icon : -5072765608299026031,
+			send_paid_messages_stars : -8276639062183324951,
+			linked_community_id : -5880218510260820339,
 		),
 	),
 );

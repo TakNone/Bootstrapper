@@ -2,7 +2,7 @@
 
 **Description** : *A VoIP phone call*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.phoneCall#ec82e140 phone_call:PhoneCall users:Vector<User> = phone.PhoneCall;
@@ -30,11 +30,11 @@ phone.phoneCall#ec82e140 phone_call:PhoneCall users:Vector<User> = phone.PhoneCa
 ```php
 $phonePhoneCall = $client->phone->phoneCall(
 	phone_call : $client->phoneCallEmpty(
-		id : -2523981113642738519,
+		id : 970349794263603282,
 	),
 	users : array(
 		$client->userEmpty(
-			id : 7301017250410625385,
+			id : -6405859803226116871,
 		),
 		$client->user(
 			self : true,
@@ -67,48 +67,51 @@ $phonePhoneCall = $client->phone->phoneCall(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : -7945370287727050836,
-			access_hash : -8474274250606333929,
+			bot_forum_sidebar : true,
+			id : 1295932107489355177,
+			access_hash : -3655271152576395731,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 90,
+			bot_info_version : 71,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'HVkteFlvBEq4Ihzo',
-					reason : '7xRflTYhorytg8EB',
-					text : 'ykXKNbI0mxVCPYnu',
+					platform : 'FkZs1gGnbH2Npz7v',
+					reason : 'NMOx8EcK197TJkma',
+					text : 'K7JeNSndolHbYTGD',
 				),
 			),
-			bot_inline_placeholder : '4O2GDwVdtN6ovb19',
-			lang_code : '6iqgfkhLRKUVNzCZ',
+			bot_inline_placeholder : 'uB5b4Vphi3wEeL0v',
+			lang_code : 'grPyx7TNz8k10AjW',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
 					editable : true,
 					active : true,
+					deletable : true,
+					expired : true,
 					username : 'TakNone',
 				),
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 31,
+				max_id : 45,
 			),
 			color : $client->peerColor(
 				color : 25,
-				background_emoji_id : -2310950897528676836,
+				background_emoji_id : 5981486775573295066,
 			),
 			profile_color : $client->peerColor(
-				color : 49,
-				background_emoji_id : 1074118146465930186,
+				color : 57,
+				background_emoji_id : 7681385109487098533,
 			),
-			bot_active_users : 12,
-			bot_verification_icon : 4616399054555361526,
-			send_paid_messages_stars : -5882879300539472552,
-			linked_community_id : 1647276801822255202,
+			bot_active_users : 44,
+			bot_verification_icon : -1569563373804182816,
+			send_paid_messages_stars : -593912934641181248,
+			linked_community_id : -5519119893741301143,
 		),
 	),
 );

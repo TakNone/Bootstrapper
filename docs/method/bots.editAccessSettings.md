@@ -2,7 +2,7 @@
 
 **Description** : *Edit the access restriction settings &raquo; of a managed bot; can only be called by the manager bot*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.editAccessSettings#31813cd8 flags:# restricted:flags.0?true bot:InputUser add_users:flags.1?Vector<InputUser> = Bool;

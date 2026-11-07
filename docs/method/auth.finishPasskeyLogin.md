@@ -2,7 +2,7 @@
 
 **Description** : *Complete login with a passkey over an unauthenticated connection, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.finishPasskeyLogin#9857ad07 flags:# credential:InputPasskeyCredential from_dc_id:flags.0?int from_auth_key_id:flags.0?long = auth.Authorization;
@@ -42,16 +42,16 @@ auth.finishPasskeyLogin#9857ad07 flags:# credential:InputPasskeyCredential from_
 ```php
 $authAuthorization = $client->auth->finishPasskeyLogin(
 	credential : $client->inputPasskeyCredentialPublicKey(
-		id : 'aABkiFr0SLxtwOTj',
-		raw_id : 'ThLU1aXtH8rSPC49',
+		id : 'KX7bwjyGqtofUACi',
+		raw_id : 'vFRmxWhQOL5BIg9l',
 		response : $client->inputPasskeyResponseRegister(
 			client_data : $client->dataJSON(
-				data : 'jeUmCKEqFxMOz51G',
+				data : 'SEB9IaRDZY5bUH2W',
 			),
 			attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	from_dc_id : 32,
-	from_auth_key_id : 7311337375056086441,
+	from_dc_id : 70,
+	from_auth_key_id : -3038294458518208838,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Summary of a peer&#039;s active stories &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 recentStory#711d692d flags:# live:flags.0?true max_id:flags.1?int = RecentStory;

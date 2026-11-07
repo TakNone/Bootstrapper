@@ -2,7 +2,7 @@
 
 **Description** : *Bot or inline keyboard buttons*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 keyboardButton#2f67a72f flags:# style:flags.10?KeyboardButtonStyle text:string type:ButtonType = KeyboardButton;

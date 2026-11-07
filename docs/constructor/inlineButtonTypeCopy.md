@@ -1,6 +1,6 @@
 # inlineButtonTypeCopy
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inlineButtonTypeCopy#b41d3272 copy_text:string = InlineButtonType;
@@ -26,6 +26,6 @@ inlineButtonTypeCopy#b41d3272 copy_text:string = InlineButtonType;
 
 ```php
 $inlineButtonType = $client->inlineButtonTypeCopy(
-	copy_text : 'XJcUzDNnhpkV6evr',
+	copy_text : '0PcW2I9rgX5doVye',
 );
 ```

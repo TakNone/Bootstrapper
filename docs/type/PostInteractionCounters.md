@@ -2,7 +2,7 @@
 
 **Description** : *Interaction counters*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 postInteractionCountersMessage#e7058e7f msg_id:int views:int forwards:int reactions:int = PostInteractionCounters;

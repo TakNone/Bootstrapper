@@ -2,7 +2,7 @@
 
 **Description** : *Indicates the channel was migrated from the specified chat*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionChannelMigrateFrom#ea3948e9 title:string chat_id:long = MessageAction;
@@ -29,7 +29,7 @@ messageActionChannelMigrateFrom#ea3948e9 title:string chat_id:long = MessageActi
 
 ```php
 $messageAction = $client->messageActionChannelMigrateFrom(
-	title : 'ejGSHNJlyYTQgZuL',
-	chat_id : -1268514990571307172,
+	title : 'SiAajMdUsOf9PLKD',
+	chat_id : -5952234996046806382,
 );
 ```

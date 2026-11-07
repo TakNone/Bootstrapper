@@ -2,7 +2,7 @@
 
 **Description** : *As an admin, remove all of a specific participant&#039;s reactions from a single message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.deleteParticipantReaction#e3b7f82c peer:InputPeer msg_id:int participant:InputPeer = Updates;
@@ -39,7 +39,7 @@ messages.deleteParticipantReaction#e3b7f82c peer:InputPeer msg_id:int participan
 ```php
 $updates = $client->messages->deleteParticipantReaction(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 42,
+	msg_id : 13,
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );
 ```

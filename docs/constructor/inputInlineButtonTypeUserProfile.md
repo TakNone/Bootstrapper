@@ -1,6 +1,6 @@
 # inputInlineButtonTypeUserProfile
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputInlineButtonTypeUserProfile#53f3ce5a user_id:InputUser = InlineButtonType;

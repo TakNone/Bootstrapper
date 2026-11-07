@@ -2,7 +2,7 @@
 
 **Description** : *Get all recent live locations sent to a specific chat: returns up to 1 location message \(messageMediaGeoLive\) per chat participant*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getRecentLocations#702a40e0 peer:InputPeer limit:int hash:long = messages.Messages;
@@ -31,7 +31,7 @@ messages.getRecentLocations#702a40e0 peer:InputPeer limit:int hash:long = messag
 ```php
 $messagesMessages = $client->messages->getRecentLocations(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	limit : 35,
+	limit : 69,
 	hash : 0,
 );
 ```

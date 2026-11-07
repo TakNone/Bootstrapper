@@ -2,7 +2,7 @@
 
 **Description** : *Channel statistics percentage*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 statsPercentValue#cbce2fe0 part:double total:double = StatsPercentValue;

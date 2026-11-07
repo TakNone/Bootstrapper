@@ -2,7 +2,7 @@
 
 **Description** : *Identifies the active group call associated with a live story &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGroupCall = MessageMedia;
@@ -32,8 +32,8 @@ messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGrou
 $messageMedia = $client->messageMediaVideoStream(
 	rtmp_stream : true,
 	call : $client->inputGroupCall(
-		id : -3632942075149282512,
-		access_hash : 6189898506766176439,
+		id : 380344184183266118,
+		access_hash : 953372186468392205,
 	),
 );
 ```

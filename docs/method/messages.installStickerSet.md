@@ -2,7 +2,7 @@
 
 **Description** : *Install a stickerset*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.installStickerSet#c78fe460 stickerset:InputStickerSet archived:Bool = messages.StickerSetInstallResult;

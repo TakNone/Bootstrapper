@@ -2,7 +2,7 @@
 
 **Description** : *Get forum topics by their ID*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getForumTopicsByID#af0a4a08 peer:InputPeer topics:Vector<int> = messages.ForumTopics;
@@ -39,6 +39,6 @@ messages.getForumTopicsByID#af0a4a08 peer:InputPeer topics:Vector<int> = message
 ```php
 $messagesForumTopics = $client->messages->getForumTopicsByID(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	topics : array(51),
+	topics : array(98),
 );
 ```

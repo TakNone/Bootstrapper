@@ -2,7 +2,7 @@
 
 **Description** : *Answers a custom query; for bots only*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.answerWebhookJSONQuery#e6213f4d query_id:long data:DataJSON = Bool;
@@ -39,9 +39,9 @@ bots.answerWebhookJSONQuery#e6213f4d query_id:long data:DataJSON = Bool;
 
 ```php
 $bool = $client->bots->answerWebhookJSONQuery(
-	query_id : -4032661878286158900,
+	query_id : 135366080858098656,
 	data : $client->dataJSON(
-		data : 'ciVtzf16F0AkynM7',
+		data : '9SgnjJmrADWt5zQI',
 	),
 );
 ```

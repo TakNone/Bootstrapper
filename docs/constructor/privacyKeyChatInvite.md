@@ -2,7 +2,7 @@
 
 **Description** : *Whether the user can be invited to chats*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 privacyKeyChatInvite#500e6dfa = PrivacyKey;

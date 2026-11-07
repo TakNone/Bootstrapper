@@ -2,7 +2,7 @@
 
 **Description** : *Contains the default background palette of a gift type &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = StarGiftBackground;

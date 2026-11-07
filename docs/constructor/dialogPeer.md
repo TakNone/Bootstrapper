@@ -2,7 +2,7 @@
 
 **Description** : *Peer*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 dialogPeer#e56dbf05 peer:Peer = DialogPeer;
@@ -29,7 +29,7 @@ dialogPeer#e56dbf05 peer:Peer = DialogPeer;
 ```php
 $dialogPeer = $client->dialogPeer(
 	peer : $client->peerUser(
-		user_id : 1975279566792458818,
+		user_id : -7677460562705499114,
 	),
 );
 ```

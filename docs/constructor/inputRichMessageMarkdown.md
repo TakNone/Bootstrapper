@@ -1,6 +1,6 @@
 # inputRichMessageMarkdown
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputRichMessageMarkdown#4b572c flags:# rtl:flags.0?true noautolink:flags.1?true markdown:string files:flags.2?Vector<InputRichFile> = InputRichMessage;
@@ -32,14 +32,14 @@ inputRichMessageMarkdown#4b572c flags:# rtl:flags.0?true noautolink:flags.1?true
 $inputRichMessage = $client->inputRichMessageMarkdown(
 	rtl : true,
 	noautolink : true,
-	markdown : 'WJGbpxDZR1gnAu4m',
+	markdown : 'NO2SRlaMe3zYwmEb',
 	files : array(
 		$client->inputRichFilePhoto(
-			id : 'gJ9yRavTbwcnZF10',
+			id : 'zvc6uTpnN7W103XV',
 			photo : $client->inputPhotoEmpty(),
 		),
 		$client->inputRichFileDocument(
-			id : 'rGVk8HOjgo5h4CpK',
+			id : 'WUfTtS0XJqpINDnO',
 			document : $client->inputDocumentEmpty(),
 		),
 	),

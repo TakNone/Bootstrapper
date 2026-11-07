@@ -2,7 +2,7 @@
 
 **Description** : *List of passkeys &raquo; associated to the current account*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.passkeys#f8e0aa1c passkeys:Vector<Passkey> = account.Passkeys;
@@ -30,11 +30,11 @@ account.passkeys#f8e0aa1c passkeys:Vector<Passkey> = account.Passkeys;
 $accountPasskeys = $client->account->passkeys(
 	passkeys : array(
 		$client->passkey(
-			id : 'GAXW4ainqxp7jhPb',
-			name : '3qtxcLMmdFulgNIZ',
-			date : 7,
-			software_emoji_id : 2951068051796941659,
-			last_usage_date : 94,
+			id : 'iMIqHWnzmyedVUkb',
+			name : 'oTGxkMIhB4KmjVUL',
+			date : 58,
+			software_emoji_id : 8979996605554845694,
+			last_usage_date : 9,
 		),
 	),
 );

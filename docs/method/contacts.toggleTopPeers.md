@@ -2,7 +2,7 @@
 
 **Description** : *Enable/disable top peers*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 contacts.toggleTopPeers#8514bdda enabled:Bool = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *A member has left the basic group*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateChatParticipantDelete#e32f3d77 chat_id:long user_id:long version:int = Update;
@@ -30,8 +30,8 @@ updateChatParticipantDelete#e32f3d77 chat_id:long user_id:long version:int = Upd
 
 ```php
 $update = $client->updateChatParticipantDelete(
-	chat_id : -7629130037139162896,
-	user_id : -1002268265156423342,
-	version : 1,
+	chat_id : 3517458787941091860,
+	user_id : 1177241749244348335,
+	version : 34,
 );
 ```

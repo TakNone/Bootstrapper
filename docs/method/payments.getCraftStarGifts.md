@@ -2,7 +2,7 @@
 
 **Description** : *Obtain owned collectible gifts &raquo; of a specific type that can be used for crafting &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.getCraftStarGifts#fd05dd00 gift_id:long offset:string limit:int = payments.SavedStarGifts;
@@ -38,8 +38,8 @@ payments.getCraftStarGifts#fd05dd00 gift_id:long offset:string limit:int = payme
 
 ```php
 $paymentsSavedStarGifts = $client->payments->getCraftStarGifts(
-	gift_id : -456159811692494063,
-	offset : 'szURBdKrS4Tfoqkn',
-	limit : 19,
+	gift_id : 1090097493086777694,
+	offset : 'wHnPFWCUxqeLltYb',
+	limit : 12,
 );
 ```

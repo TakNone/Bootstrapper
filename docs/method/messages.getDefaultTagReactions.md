@@ -2,7 +2,7 @@
 
 **Description** : *Fetch a default recommended list of saved message tag reactions*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getDefaultTagReactions#bdf93428 hash:long = messages.Reactions;

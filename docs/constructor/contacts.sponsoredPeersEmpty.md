@@ -2,7 +2,7 @@
 
 **Description** : *There are no sponsored peers for this query*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 contacts.sponsoredPeersEmpty#ea32b4b1 = contacts.SponsoredPeers;

@@ -1,6 +1,6 @@
 # inlineButtonTypeUserProfile
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inlineButtonTypeUserProfile#3fa33fcf user_id:long = InlineButtonType;
@@ -26,6 +26,6 @@ inlineButtonTypeUserProfile#3fa33fcf user_id:long = InlineButtonType;
 
 ```php
 $inlineButtonType = $client->inlineButtonTypeUserProfile(
-	user_id : -6845767224206693121,
+	user_id : -672038259088301261,
 );
 ```

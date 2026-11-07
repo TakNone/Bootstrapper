@@ -2,7 +2,7 @@
 
 **Description** : *Fetch blocks from a conference call subchain &raquo;; handle the returned updateGroupCallChainBlocks as specified here &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offset:int limit:int = Updates;
@@ -40,11 +40,11 @@ phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offs
 ```php
 $updates = $client->phone->getGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : -954944796107454371,
-		access_hash : 6150139128700340339,
+		id : -3337817927715613396,
+		access_hash : 1681597235741923011,
 	),
-	sub_chain_id : 65,
+	sub_chain_id : 81,
 	offset : 0,
-	limit : 69,
+	limit : 96,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *No new participant info could be found*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channels.channelParticipantsNotModified#f0173fe9 = channels.ChannelParticipants;

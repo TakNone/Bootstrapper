@@ -1,6 +1,6 @@
 # account.getWebBrowserSettings
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.getWebBrowserSettings#56655768 hash:long = account.WebBrowserSettings;

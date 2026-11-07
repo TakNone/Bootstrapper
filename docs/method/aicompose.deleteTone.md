@@ -2,7 +2,7 @@
 
 **Description** : *Permanently delete a custom AI composer tone &raquo; created by the current user*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aicompose.deleteTone#dd39316a tone:InputAiComposeTone = Bool;
@@ -37,7 +37,7 @@ aicompose.deleteTone#dd39316a tone:InputAiComposeTone = Bool;
 ```php
 $bool = $client->aicompose->deleteTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'z3H1F7TlRPJrUCOc',
+		tone : 'UWqb7c1SCD9hoa54',
 	),
 );
 ```

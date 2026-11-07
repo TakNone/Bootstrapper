@@ -2,7 +2,7 @@
 
 **Description** : *Edit a custom AI composer tone &raquo; previously created by the current user\. Only the fields whose flag is set will be modified*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aicompose.updateTone#903bcf59 flags:# tone:InputAiComposeTone display_author:flags.0?Bool emoji_id:flags.1?long title:flags.2?string prompt:flags.3?string = AiComposeTone;
@@ -42,11 +42,11 @@ aicompose.updateTone#903bcf59 flags:# tone:InputAiComposeTone display_author:fla
 ```php
 $aiComposeTone = $client->aicompose->updateTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'DoFjl7sq23AxCZ1f',
+		tone : '12CcndPLab9yHqMN',
 	),
 	display_author : false,
-	emoji_id : 3783027853810883300,
-	title : 'u3a4CyUW8YIivZlF',
-	prompt : 'CZ0SRVce5mdpBkbP',
+	emoji_id : -4259031122209039760,
+	title : 'BFuK30rVo1Gmx7wL',
+	prompt : 'AV8kSY9t5oZbhfdw',
 );
 ```

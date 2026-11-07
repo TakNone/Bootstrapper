@@ -2,7 +2,7 @@
 
 **Description** : *Initialize login with a passkey over an unauthenticated connection, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.initPasskeyLogin#518ad0b7 api_id:int api_hash:string = auth.PasskeyLoginOptions;
@@ -38,7 +38,7 @@ auth.initPasskeyLogin#518ad0b7 api_id:int api_hash:string = auth.PasskeyLoginOpt
 
 ```php
 $authPasskeyLoginOptions = $client->auth->initPasskeyLogin(
-	api_id : 63,
-	api_hash : 'WfQs169e8ct7SYPD',
+	api_id : 55,
+	api_hash : 'ifrD4ZAjV1ymC8ph',
 );
 ```

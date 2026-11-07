@@ -2,7 +2,7 @@
 
 **Description** : *Disallow all*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputPrivacyValueDisallowAll#d66b66c9 = InputPrivacyRule;

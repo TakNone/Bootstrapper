@@ -2,7 +2,7 @@
 
 **Description** : *Accept or decline a previously received collectible gift purchase offer &raquo;, see here &raquo; for the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.resolveStarGiftOffer#e9ce781c flags:# decline:flags.0?true offer_msg_id:int = Updates;
@@ -39,6 +39,6 @@ payments.resolveStarGiftOffer#e9ce781c flags:# decline:flags.0?true offer_msg_id
 ```php
 $updates = $client->payments->resolveStarGiftOffer(
 	decline : true,
-	offer_msg_id : 5,
+	offer_msg_id : 43,
 );
 ```

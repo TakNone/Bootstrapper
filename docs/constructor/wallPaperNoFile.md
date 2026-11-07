@@ -2,7 +2,7 @@
 
 **Description** : *Represents a wallpaper only based on colors/gradients*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 wallPaperNoFile#e0804116 id:long flags:# default:flags.1?true dark:flags.4?true settings:flags.2?WallPaperSettings = WallPaper;
@@ -32,19 +32,19 @@ wallPaperNoFile#e0804116 id:long flags:# default:flags.1?true dark:flags.4?true 
 
 ```php
 $wallPaper = $client->wallPaperNoFile(
-	id : -5775117272624331654,
+	id : -8201126775787694399,
 	default : true,
 	dark : true,
 	settings : $client->wallPaperSettings(
 		blur : true,
 		motion : true,
-		background_color : 38,
-		second_background_color : 11,
-		third_background_color : 99,
-		fourth_background_color : 43,
-		intensity : 49,
-		rotation : 47,
-		emoticon : 'Ugv5pKsNorQ8DOHt',
+		background_color : 43,
+		second_background_color : 60,
+		third_background_color : 72,
+		fourth_background_color : 93,
+		intensity : 92,
+		rotation : 22,
+		emoticon : 'IlnXwNQZq70crTsW',
 	),
 );
 ```

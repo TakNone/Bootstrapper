@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a list of Telegram Premium giveaway/gift code &raquo; options*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.getPremiumGiftCodeOptions#2757ba54 flags:# boost_peer:flags.0?InputPeer = Vector<PremiumGiftCodeOption>;

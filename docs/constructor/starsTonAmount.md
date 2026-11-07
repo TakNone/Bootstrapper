@@ -2,7 +2,7 @@
 
 **Description** : *Describes an amount of Gram in nanograms \(i\.e\. 1/1\_000\_000\_000 of a Gram\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starsTonAmount#74aee3e0 amount:long = StarsAmount;
@@ -28,6 +28,6 @@ starsTonAmount#74aee3e0 amount:long = StarsAmount;
 
 ```php
 $starsAmount = $client->starsTonAmount(
-	amount : -5503844494755012028,
+	amount : -1102795698264483511,
 );
 ```

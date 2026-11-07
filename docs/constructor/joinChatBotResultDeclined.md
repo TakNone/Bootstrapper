@@ -1,6 +1,6 @@
 # joinChatBotResultDeclined
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 joinChatBotResultDeclined#efa0194 = JoinChatBotResult;

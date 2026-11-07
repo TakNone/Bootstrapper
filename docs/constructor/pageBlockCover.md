@@ -2,7 +2,7 @@
 
 **Description** : *A page cover*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pageBlockCover#39f23300 cover:PageBlock = PageBlock;

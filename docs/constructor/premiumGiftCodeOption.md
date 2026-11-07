@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about a giveaway/gift option*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 premiumGiftCodeOption#257e962b flags:# users:int months:int store_product:flags.0?string store_quantity:flags.1?int currency:string amount:long = PremiumGiftCodeOption;
@@ -34,11 +34,11 @@ premiumGiftCodeOption#257e962b flags:# users:int months:int store_product:flags.
 
 ```php
 $premiumGiftCodeOption = $client->premiumGiftCodeOption(
-	users : 33,
-	months : 70,
-	store_product : 'XoA4Rl27KUu8iPQq',
-	store_quantity : 53,
-	currency : '2fHbN8GtIL0jpgMr',
-	amount : -6707157799676514744,
+	users : 47,
+	months : 24,
+	store_product : 'QR8enLMYDr307Ecb',
+	store_quantity : 3,
+	currency : 'zcjNm1Ro7Lfqw9Xn',
+	amount : -3275698359364879653,
 );
 ```

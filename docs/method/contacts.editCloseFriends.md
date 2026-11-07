@@ -2,7 +2,7 @@
 
 **Description** : *Edit the close friends list, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 contacts.editCloseFriends#ba6705f0 id:Vector<long> = Bool;
@@ -28,6 +28,6 @@ contacts.editCloseFriends#ba6705f0 id:Vector<long> = Bool;
 
 ```php
 $bool = $client->contacts->editCloseFriends(
-	id : array(6689863635272668959),
+	id : array(4907658610094241429),
 );
 ```

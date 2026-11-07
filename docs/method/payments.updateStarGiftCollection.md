@@ -2,7 +2,7 @@
 
 **Description** : *Add or remove gifts from a star gift collection &raquo;, or rename the collection*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.updateStarGiftCollection#4fddbee7 flags:# peer:InputPeer collection_id:int title:flags.0?string delete_stargift:flags.1?Vector<InputSavedStarGift> add_stargift:flags.2?Vector<InputSavedStarGift> order:flags.3?Vector<InputSavedStarGift> = StarGiftCollection;
@@ -43,42 +43,42 @@ payments.updateStarGiftCollection#4fddbee7 flags:# peer:InputPeer collection_id:
 ```php
 $starGiftCollection = $client->payments->updateStarGiftCollection(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	collection_id : 42,
-	title : 'VxiB5YMzoTJLtXHN',
+	collection_id : 53,
+	title : '2zLplyFC46ohD3Rj',
 	delete_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 95,
+			msg_id : 69,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : -4483059292772051488,
+			saved_id : 7346152186868107023,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'MIrtBaXEqb8x2Qu3',
+			slug : 'y7D9S6cN8flzFsOW',
 		),
 	),
 	add_stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 11,
+			msg_id : 17,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : 4192317816893875173,
+			saved_id : -1533022355849545891,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'tzqCvRlmLYJxH76p',
+			slug : 'qtP2DCIBcLSj94AF',
 		),
 	),
 	order : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 41,
+			msg_id : 4,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : 4818409798434584542,
+			saved_id : 862726397082239885,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : '0JZvWL95ySxfRput',
+			slug : 'QRf1hFACw3I0t7Pr',
 		),
 	),
 );

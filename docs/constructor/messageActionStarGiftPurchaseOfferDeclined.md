@@ -2,7 +2,7 @@
 
 **Description** : *A collectible gift purchase offer &raquo; was declined, or the offer expired, see here &raquo; for the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionStarGiftPurchaseOfferDeclined#73ada76b flags:# expired:flags.0?true gift:StarGift price:StarsAmount = MessageAction;
@@ -40,39 +40,39 @@ $messageAction = $client->messageActionStarGiftPurchaseOfferDeclined(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : 5410390947576701620,
+		id : -6494457176140158917,
 		sticker : $client->documentEmpty(
-			id : 8823482179613252831,
+			id : -8865867172551282807,
 		),
-		stars : 3143779770434431846,
-		availability_remains : 72,
-		availability_total : 55,
-		availability_resale : 4061792682807651456,
-		convert_stars : 5759892961626358312,
-		first_sale_date : 85,
-		last_sale_date : 69,
-		upgrade_stars : 8578093832572327291,
-		resell_min_stars : 4481610907060870696,
-		title : 'Ku70CY3qtXxfVQv9',
+		stars : -2731139547182345641,
+		availability_remains : 19,
+		availability_total : 56,
+		availability_resale : -7056929747394309697,
+		convert_stars : 7500945729300900297,
+		first_sale_date : 66,
+		last_sale_date : 89,
+		upgrade_stars : -7096535125454461299,
+		resell_min_stars : -5679097054639128094,
+		title : 'hcMmHNikA2GBEl7P',
 		released_by : $client->peerUser(
-			user_id : -7708437727302698136,
+			user_id : -6122209526232187441,
 		),
-		per_user_total : 74,
-		per_user_remains : 63,
-		locked_until_date : 68,
-		auction_slug : 'B6leOkuz1LNW0mno',
-		gifts_per_round : 2,
+		per_user_total : 6,
+		per_user_remains : 52,
+		locked_until_date : 16,
+		auction_slug : 'JrRGW5cfDme4SjIY',
+		gifts_per_round : 12,
 		auction_start_date : 11,
-		upgrade_variants : 4,
+		upgrade_variants : 17,
 		background : $client->starGiftBackground(
-			center_color : 76,
-			edge_color : 64,
-			text_color : 2,
+			center_color : 98,
+			edge_color : 62,
+			text_color : 8,
 		),
 	),
 	price : $client->starsAmount(
-		amount : 3624502957366511270,
-		nanos : 16,
+		amount : -3603401909285788542,
+		nanos : 19,
 	),
 );
 ```

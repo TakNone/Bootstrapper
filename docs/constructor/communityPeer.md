@@ -1,6 +1,6 @@
 # communityPeer
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communityPeer#76141ebd flags:# can_view_history:flags.2?true visible:flags.0?Bool peer:Peer = CommunityPeer;
@@ -30,9 +30,9 @@ communityPeer#76141ebd flags:# can_view_history:flags.2?true visible:flags.0?Boo
 ```php
 $communityPeer = $client->communityPeer(
 	can_view_history : true,
-	visible : false,
+	visible : true,
 	peer : $client->peerUser(
-		user_id : 8747006888895873030,
+		user_id : 3042528451601805341,
 	),
 );
 ```

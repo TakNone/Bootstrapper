@@ -1,6 +1,6 @@
 # inputRichFileDocument
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputRichFileDocument#83281dbd id:string document:InputDocument = InputRichFile;
@@ -27,7 +27,7 @@ inputRichFileDocument#83281dbd id:string document:InputDocument = InputRichFile;
 
 ```php
 $inputRichFile = $client->inputRichFileDocument(
-	id : 'SvmCZETaFXMk1Nb4',
+	id : 'wOIlyuNCKZf1mBXG',
 	document : $client->inputDocumentEmpty(),
 );
 ```

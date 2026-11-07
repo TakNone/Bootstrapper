@@ -2,7 +2,7 @@
 
 **Description** : *Suggested dialog filters \(folder &raquo;\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 dialogFilterSuggested#77744d4a filter:DialogFilter description:string = DialogFilterSuggested;

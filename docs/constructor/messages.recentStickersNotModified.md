@@ -2,7 +2,7 @@
 
 **Description** : *No new recent sticker was found*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.recentStickersNotModified#b17f890 = messages.RecentStickers;

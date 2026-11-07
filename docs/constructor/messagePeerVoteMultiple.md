@@ -2,7 +2,7 @@
 
 **Description** : *How a peer voted in a multiple\-choice poll*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messagePeerVoteMultiple#4628f6e6 peer:Peer options:Vector<bytes> date:int = MessagePeerVote;
@@ -31,9 +31,9 @@ messagePeerVoteMultiple#4628f6e6 peer:Peer options:Vector<bytes> date:int = Mess
 ```php
 $messagePeerVote = $client->messagePeerVoteMultiple(
 	peer : $client->peerUser(
-		user_id : -6182515224085121536,
+		user_id : 4459448901823991952,
 	),
 	options : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	date : 72,
+	date : 20,
 );
 ```

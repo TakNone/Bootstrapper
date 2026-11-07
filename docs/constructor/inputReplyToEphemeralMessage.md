@@ -1,6 +1,6 @@
 # inputReplyToEphemeralMessage
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputReplyToEphemeralMessage#4119b95e id:int = InputReplyTo;
@@ -26,6 +26,6 @@ inputReplyToEphemeralMessage#4119b95e id:int = InputReplyTo;
 
 ```php
 $inputReplyTo = $client->inputReplyToEphemeralMessage(
-	id : 41,
+	id : 21,
 );
 ```

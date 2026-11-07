@@ -2,7 +2,7 @@
 
 **Description** : *Encrypted credentials required to decrypt telegram passport data*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 secureCredentialsEncrypted#33f0ea47 data:bytes hash:bytes secret:bytes = SecureCredentialsEncrypted;

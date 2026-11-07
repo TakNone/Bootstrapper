@@ -2,7 +2,7 @@
 
 **Description** : *Create a new custom AI composer tone &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aicompose.createTone#4aa83913 flags:# display_author:flags.0?true emoji_id:long title:string prompt:string = AiComposeTone;
@@ -41,8 +41,8 @@ aicompose.createTone#4aa83913 flags:# display_author:flags.0?true emoji_id:long 
 ```php
 $aiComposeTone = $client->aicompose->createTone(
 	display_author : true,
-	emoji_id : 364374178038954476,
-	title : 'lLPzdX7GtuJY1i4r',
-	prompt : '1VUxXqKBiIQEJHc6',
+	emoji_id : 7250010928558711019,
+	title : 'TRHYAvkn9p8gKOZ7',
+	prompt : 'psTeADa3CEK2RJLm',
 );
 ```

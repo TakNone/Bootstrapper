@@ -2,7 +2,7 @@
 
 **Description** : *A new birthday was suggested using users\.suggestBirthday, see here &raquo; for more info on birthdays in the API*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionSuggestBirthday#2c8f2a25 birthday:Birthday = MessageAction;
@@ -29,9 +29,9 @@ messageActionSuggestBirthday#2c8f2a25 birthday:Birthday = MessageAction;
 ```php
 $messageAction = $client->messageActionSuggestBirthday(
 	birthday : $client->birthday(
-		day : 99,
-		month : 58,
-		year : 26,
+		day : 48,
+		month : 55,
+		year : 25,
 	),
 );
 ```

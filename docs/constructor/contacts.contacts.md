@@ -2,7 +2,7 @@
 
 **Description** : *The current user&#039;s contact list and info on users*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 contacts.contacts#eae87e42 contacts:Vector<Contact> saved_count:int users:Vector<User> = contacts.Contacts;
@@ -32,14 +32,14 @@ contacts.contacts#eae87e42 contacts:Vector<Contact> saved_count:int users:Vector
 $contactsContacts = $client->contacts->contacts(
 	contacts : array(
 		$client->contact(
-			user_id : -8109343288827157200,
-			mutual : true,
+			user_id : -7121406904356999736,
+			mutual : false,
 		),
 	),
-	saved_count : 54,
+	saved_count : 87,
 	users : array(
 		$client->userEmpty(
-			id : -3597080465881301781,
+			id : -3090745402800765021,
 		),
 		$client->user(
 			self : true,
@@ -72,48 +72,51 @@ $contactsContacts = $client->contacts->contacts(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 5344127992080291163,
-			access_hash : -3076296903676170058,
+			bot_forum_sidebar : true,
+			id : -8710641536991013748,
+			access_hash : 8453418215662043624,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 12,
+			bot_info_version : 62,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'VJ5eLEgq2KdwlhGR',
-					reason : 'tSC73glGynQpTcvs',
-					text : '8jF9UYH5IVduqBQ7',
+					platform : '9aljGIfTODK8Y6ix',
+					reason : 'q3pFkSX7Mus5t8Kf',
+					text : 'RGyzLUvrIcfuSekQ',
 				),
 			),
-			bot_inline_placeholder : 'aeupBS58g1tiYhmQ',
-			lang_code : 'lNW46qTiaIH7z03n',
+			bot_inline_placeholder : 'B45ALWCHtf6g23Ep',
+			lang_code : 'xwBF0V4l7XhCtQT3',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
 					editable : true,
 					active : true,
+					deletable : true,
+					expired : true,
 					username : 'TakNone',
 				),
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 8,
+				max_id : 81,
 			),
 			color : $client->peerColor(
-				color : 41,
-				background_emoji_id : 8521436740742529679,
+				color : 67,
+				background_emoji_id : 2161350560409792405,
 			),
 			profile_color : $client->peerColor(
-				color : 74,
-				background_emoji_id : -4507928189767767103,
+				color : 16,
+				background_emoji_id : 3701524682675073122,
 			),
-			bot_active_users : 75,
-			bot_verification_icon : 8180434456988687074,
-			send_paid_messages_stars : -2736246853433535450,
-			linked_community_id : 1601579659507166057,
+			bot_active_users : 97,
+			bot_verification_icon : 7637284719936617829,
+			send_paid_messages_stars : -5463690267140362804,
+			linked_community_id : -6919160433958771947,
 		),
 	),
 );

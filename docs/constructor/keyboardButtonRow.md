@@ -2,7 +2,7 @@
 
 **Description** : *Inline keyboard row*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 keyboardButtonRow#77608b83 buttons:Vector<KeyboardButton> = KeyboardButtonRow;
@@ -34,9 +34,9 @@ $keyboardButtonRow = $client->keyboardButtonRow(
 				bg_primary : true,
 				bg_danger : true,
 				bg_success : true,
-				icon : -6889018741652314470,
+				icon : -4362673001463298160,
 			),
-			text : 'rSl0MPcfAd2u9pNQ',
+			text : 'LWMknrDsP9KHZN8R',
 			type : $client->buttonTypeDefault(),
 		),
 	),

@@ -2,7 +2,7 @@
 
 **Description** : *Represents a chunk of an HTTP webfile downloaded through telegram&#039;s secure MTProto servers*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 upload.webFile#21e753bc size:int mime_type:string file_type:storage.FileType mtime:int bytes:bytes = upload.WebFile;
@@ -33,9 +33,9 @@ upload.webFile#21e753bc size:int mime_type:string file_type:storage.FileType mti
 ```php
 $uploadWebFile = $client->upload->webFile(
 	size : 38,
-	mime_type : 'mH3JCgnkEcGjS2Ru',
+	mime_type : 'Pqy1c2wz7DfhV9CB',
 	file_type : $client->storage->fileUnknown(),
-	mtime : 34,
+	mtime : 30,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

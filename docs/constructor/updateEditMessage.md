@@ -2,7 +2,7 @@
 
 **Description** : *A message was edited*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateEditMessage#e40370a3 message:Message pts:int pts_count:int = Update;
@@ -31,12 +31,12 @@ updateEditMessage#e40370a3 message:Message pts:int pts_count:int = Update;
 ```php
 $update = $client->updateEditMessage(
 	message : $client->messageEmpty(
-		id : 6,
+		id : 95,
 		peer_id : $client->peerUser(
-			user_id : -6015082149591425074,
+			user_id : 7434830022456332112,
 		),
 	),
-	pts : 13,
-	pts_count : 15,
+	pts : 73,
+	pts_count : 98,
 );
 ```

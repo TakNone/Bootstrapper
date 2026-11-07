@@ -1,6 +1,6 @@
 # pageButton
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pageButton#692a5488 flags:# text:RichText type:InlineButtonType style:flags.0?RichButtonStyle = PageButton;

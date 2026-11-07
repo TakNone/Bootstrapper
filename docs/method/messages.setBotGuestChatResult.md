@@ -2,7 +2,7 @@
 
 **Description** : *Bots may use this method to answer a guest mode &raquo; query received via an updateBotGuestChatQuery update, providing the message to post into the chat as a guest, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.setBotGuestChatResult#b8f106e3 query_id:long result:InputBotInlineResult = InputBotInlineMessageID;
@@ -38,26 +38,26 @@ messages.setBotGuestChatResult#b8f106e3 query_id:long result:InputBotInlineResul
 
 ```php
 $inputBotInlineMessageID = $client->messages->setBotGuestChatResult(
-	query_id : -1198390767048659489,
+	query_id : -3503577657879989494,
 	result : $client->inputBotInlineResult(
-		id : 'm27FXyx5QdjTkGwe',
-		type : 'fPOiR31gjNFWBYqe',
-		title : 'MLHlaYGV9zJb036j',
-		description : 'Ca7jNyEGODu4gHfS',
+		id : '6HcWI3qOnpdgNvtk',
+		type : 'qQcTzEGjHWFmkt4i',
+		title : 'kLUNlavRBj9yGoMu',
+		description : 'SHCm713UiWTeXof0',
 		url : 'https://docs.liveproto.dev',
 		thumb : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 66,
-			mime_type : 'QX9BLedWik7FRTDN',
+			size : 44,
+			mime_type : 'AULk6ixlgQKPhZWr',
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 73,
-					h : 44,
+					w : 95,
+					h : 50,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'jGebnL380ip5C4NJ',
+					alt : 'ofEIqTmLdDl5v0H9',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -65,45 +65,45 @@ $inputBotInlineMessageID = $client->messages->setBotGuestChatResult(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : 831982.576171875,
-					w : 74,
-					h : 87,
-					preload_prefix_size : 87,
-					video_start_ts : 844237.6845703125,
-					video_codec : 'rgOAItNCsJ6ef89Y',
+					duration : -901814.41015625,
+					w : 85,
+					h : 0,
+					preload_prefix_size : 99,
+					video_start_ts : -1041293.8310546875,
+					video_codec : 'YKRxGqZFWEPc1ga9',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 18,
-					title : 'Tk5E9hs64QY1xBFb',
-					performer : 'eltYyQRj29G7dwBu',
+					duration : 52,
+					title : 'ql2QYZsbzPDpKUiJ',
+					performer : 's8Jdu4jOW9bPHiyG',
 					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'K1OU4Zq6YGEzlfru',
+					file_name : 'IGrjeyn8wlT3YZBb',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : '0JuBLZUCeo7PIr3a',
+					alt : 'jxDXSELpbtlIvT3h',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),
 		),
 		content : $client->inputWebDocument(
 			url : 'https://docs.liveproto.dev',
-			size : 23,
-			mime_type : 'RnDFH3kZuQ4e8i1m',
+			size : 78,
+			mime_type : 'DPvf71q2jwGCNOQn',
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 40,
-					h : 98,
+					w : 30,
+					h : 56,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'n40CGIF2DtRVZs6i',
+					alt : 'vyTJN1MS7j8EIP23',
 					stickerset : $client->inputStickerSetEmpty(...),
 					mask_coords : $client->maskCoords(...),
 				),
@@ -111,125 +111,125 @@ $inputBotInlineMessageID = $client->messages->setBotGuestChatResult(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : -2031985.412109375,
-					w : 46,
-					h : 74,
-					preload_prefix_size : 27,
-					video_start_ts : -1001029.421875,
-					video_codec : '01jMpwhLdPHnkEyT',
+					duration : 1762563.744140625,
+					w : 82,
+					h : 10,
+					preload_prefix_size : 77,
+					video_start_ts : 836342.990234375,
+					video_codec : 'u6YMjZPidcHgyp0h',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 98,
-					title : 'RJsGikCny8raOdNh',
-					performer : 'fqisDLX6COExZkYc',
+					duration : 30,
+					title : '6I5qhtAmVTnkzvju',
+					performer : 'vLSIi0aUur25OhDV',
 					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : '8qnmKlA01tJP7pi5',
+					file_name : 'ayrD0EdekqsZOcbt',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'eTGB3dRK4su1tpZq',
+					alt : '8tkfRDhv2OmuVz7i',
 					stickerset : $client->inputStickerSetEmpty(...),
 				),
 			),
 		),
 		send_message : $client->inputBotInlineMessageMediaAuto(
 			invert_media : true,
-			message : 'heTg2p5NMyu3Kv01',
+			message : '1drJoRta2j6MNmsz',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 15,
+					length : 58,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 74,
+					length : 13,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 78,
+					length : 25,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 65,
+					length : 57,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 77,
+					length : 3,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 61,
+					length : 39,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 90,
+					length : 89,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 50,
+					length : 36,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 36,
+					length : 16,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 71,
-					language : 'HQEynRTBJOcma4Ip',
+					length : 24,
+					language : 'YLuOqgnF0Uj3GtbZ',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 18,
+					length : 53,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 97,
-					user_id : 6928014988450848375,
+					length : 36,
+					user_id : -5133711924663685886,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 95,
+					length : 19,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 95,
+					length : 25,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 93,
+					length : 6,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 89,
+					length : 95,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 0,
+					length : 85,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 72,
+					length : 41,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 66,
+					length : 25,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 18,
-					document_id : 6430484231514421827,
+					length : 29,
+					document_id : -2754646240054278635,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 14,
+					length : 64,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -239,21 +239,25 @@ $inputBotInlineMessageID = $client->messages->setBotGuestChatResult(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 94,
-					date : 71,
+					length : 58,
+					date : 11,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 19,
+					length : 53,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 13,
-					old_text : 'kv2wRnX1olJ5PquA',
+					length : 42,
+					old_text : 'kOtFonwgy1A2z4NG',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 66,
+					length : 14,
+				),
+				$client->messageEntityTonAddress(
+					offset : 0,
+					length : 91,
 				),
 			),
 			reply_markup : $client->replyKeyboardHide(

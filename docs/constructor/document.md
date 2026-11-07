@@ -2,7 +2,7 @@
 
 **Description** : *Document*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 document#8fd4c4d8 flags:# id:long access_hash:long file_reference:bytes date:int mime_type:string size:long thumbs:flags.0?Vector<PhotoSize> video_thumbs:flags.1?Vector<VideoSize> dc_id:int attributes:Vector<DocumentAttribute> = Document;
@@ -38,105 +38,105 @@ document#8fd4c4d8 flags:# id:long access_hash:long file_reference:bytes date:int
 
 ```php
 $document = $client->document(
-	id : -8317906386389502843,
-	access_hash : -152157038930473849,
+	id : 1058717359930375588,
+	access_hash : 4071933442022208791,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	date : 47,
-	mime_type : 'xAt7vsKqD0pFaBrY',
-	size : -6805180963081834353,
+	date : 55,
+	mime_type : 'YEuLIBrqTSzi87bp',
+	size : -1988022318441866104,
 	thumbs : array(
 		$client->photoSizeEmpty(
-			type : 'xzpFs2ydJn0bQi1c',
+			type : 'IanqNZuvR2Q91xP8',
 		),
 		$client->photoSize(
-			type : 'GWvZoY6J0z92trEh',
-			w : 15,
-			h : 53,
-			size : 60,
+			type : 'IcWXRfa8CLsKvY3Z',
+			w : 33,
+			h : 16,
+			size : 65,
 		),
 		$client->photoCachedSize(
-			type : 'm6jqcMzdrEwBU2Xk',
-			w : 48,
-			h : 28,
+			type : 'yR4jYrPGi7L0AzpT',
+			w : 10,
+			h : 1,
 			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->photoStrippedSize(
-			type : 'Jtjw61PqrEfb7ncl',
+			type : 'LEbRZgvFInC8w6WX',
 			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->photoSizeProgressive(
-			type : 'GVcLSxyjfzTmdoW6',
-			w : 38,
-			h : 73,
-			sizes : array(81),
+			type : 'X3eVG0zDO4wuUdn1',
+			w : 96,
+			h : 25,
+			sizes : array(97),
 		),
 		$client->photoPathSize(
-			type : 'QwJy2sGeRvUXktuE',
+			type : '0YNygfWRIJCd96GK',
 			bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
 	video_thumbs : array(
 		$client->videoSize(
-			type : '8qaDEyrKUjnI5fH6',
-			w : 69,
-			h : 92,
-			size : 96,
-			video_start_ts : -461967.4111328125,
+			type : '0eoC2ztgYkpB4sIL',
+			w : 64,
+			h : 10,
+			size : 98,
+			video_start_ts : -1037217.1923828125,
 		),
 		$client->videoSizeEmojiMarkup(
-			emoji_id : 2318256722516724695,
-			background_colors : array(20),
+			emoji_id : -8272463663386721227,
+			background_colors : array(86),
 		),
 		$client->videoSizeStickerMarkup(
 			stickerset : $client->inputStickerSetEmpty(),
-			sticker_id : 7752137319695600809,
-			background_colors : array(1),
+			sticker_id : -5783189102615540574,
+			background_colors : array(85),
 		),
 	),
-	dc_id : 4,
+	dc_id : 59,
 	attributes : array(
 		$client->documentAttributeImageSize(
-			w : 22,
-			h : 88,
+			w : 32,
+			h : 83,
 		),
 		$client->documentAttributeAnimated(),
 		$client->documentAttributeSticker(
 			mask : true,
-			alt : 'jN8PYuLsdGA1gcHK',
+			alt : 'kf8VgNIjUOLlyToH',
 			stickerset : $client->inputStickerSetEmpty(),
 			mask_coords : $client->maskCoords(
-				n : 16,
-				x : -1827685.7177734375,
-				y : 1489071.3193359375,
-				zoom : -1837432.0244140625,
+				n : 2,
+				x : 244703.767578125,
+				y : -182080.75,
+				zoom : -1747003.23046875,
 			),
 		),
 		$client->documentAttributeVideo(
 			round_message : true,
 			supports_streaming : true,
 			nosound : true,
-			duration : -704082.5751953125,
-			w : 95,
-			h : 71,
-			preload_prefix_size : 16,
-			video_start_ts : 1564442.0087890625,
-			video_codec : 'CjOYrGKJ7PbWuHF5',
+			duration : 331740.271484375,
+			w : 7,
+			h : 8,
+			preload_prefix_size : 85,
+			video_start_ts : 1021787.0146484375,
+			video_codec : 'Uhr9WZQgXIn5b78f',
 		),
 		$client->documentAttributeAudio(
 			voice : true,
-			duration : 6,
-			title : 'HW3bwoYZv0lLx6sU',
-			performer : 'JwYxL2MSIigopcyC',
+			duration : 18,
+			title : 'gG4LxUZfnFrAkYEC',
+			performer : 'Fg0xX7pTDIVCJUl6',
 			waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 		$client->documentAttributeFilename(
-			file_name : 'Q0dYJWo5u8Vg9XMA',
+			file_name : 'KO8jy6EWwi02sCqU',
 		),
 		$client->documentAttributeHasStickers(),
 		$client->documentAttributeCustomEmoji(
 			free : true,
 			text_color : true,
-			alt : 'Q7qraiYbGO0RNPJc',
+			alt : 'JP8jtOiNqXb0wWnd',
 			stickerset : $client->inputStickerSetEmpty(),
 		),
 	),

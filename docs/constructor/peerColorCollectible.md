@@ -2,7 +2,7 @@
 
 **Description** : *Represents a color palette &raquo; associated to a collectible gift &raquo;, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 peerColorCollectible#b9c0639a flags:# collectible_id:long gift_emoji_id:long background_emoji_id:long accent_color:int colors:Vector<int> dark_accent_color:flags.0?int dark_colors:flags.1?Vector<int> = PeerColor;
@@ -35,12 +35,12 @@ peerColorCollectible#b9c0639a flags:# collectible_id:long gift_emoji_id:long bac
 
 ```php
 $peerColor = $client->peerColorCollectible(
-	collectible_id : -2914228861151887120,
-	gift_emoji_id : -7727610980173172325,
-	background_emoji_id : 6456026987150421147,
-	accent_color : 91,
-	colors : array(7),
+	collectible_id : 8981554766326764195,
+	gift_emoji_id : 5037792145128680975,
+	background_emoji_id : 6176459085062546519,
+	accent_color : 56,
+	colors : array(57),
 	dark_accent_color : 94,
-	dark_colors : array(84),
+	dark_colors : array(66),
 );
 ```

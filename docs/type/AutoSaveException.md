@@ -2,7 +2,7 @@
 
 **Description** : *Peer\-specific autosave settings*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 autoSaveException#81602d47 peer:Peer settings:AutoSaveSettings = AutoSaveException;

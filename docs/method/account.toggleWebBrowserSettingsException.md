@@ -1,6 +1,6 @@
 # account.toggleWebBrowserSettingsException
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.toggleWebBrowserSettingsException#60ed4229 flags:# delete:flags.1?true open_external_browser:flags.0?Bool url:string = Updates;
@@ -30,7 +30,7 @@ account.toggleWebBrowserSettingsException#60ed4229 flags:# delete:flags.1?true o
 ```php
 $updates = $client->account->toggleWebBrowserSettingsException(
 	delete : true,
-	open_external_browser : false,
+	open_external_browser : true,
 	url : 'https://docs.liveproto.dev',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *The peer list of a peer folder was updated*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateFolderPeers#19360dc0 folder_peers:Vector<FolderPeer> pts:int pts_count:int = Update;
@@ -33,12 +33,12 @@ $update = $client->updateFolderPeers(
 	folder_peers : array(
 		$client->folderPeer(
 			peer : $client->peerUser(
-				user_id : 6517911611789437371,
+				user_id : -804622161514646155,
 			),
-			folder_id : 17,
+			folder_id : 21,
 		),
 	),
-	pts : 58,
-	pts_count : 33,
+	pts : 8,
+	pts_count : 81,
 );
 ```

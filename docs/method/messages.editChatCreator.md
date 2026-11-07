@@ -2,7 +2,7 @@
 
 **Description** : *Transfer the ownership of a basic group, supergroup or channel to another user, see here &raquo; for the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.editChatCreator#f743b857 peer:InputPeer user_id:InputUser password:InputCheckPasswordSRP = Updates;

@@ -2,7 +2,7 @@
 
 **Description** : *As an admin, remove all of a specific participant&#039;s reactions from every message in a group or channel*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.deleteParticipantReactions#a0b80cf8 peer:InputPeer participant:InputPeer = Bool;

@@ -2,7 +2,7 @@
 
 **Description** : *Passkey login options, see here &raquo; for more info on the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
@@ -29,7 +29,7 @@ auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
 ```php
 $authPasskeyLoginOptions = $client->auth->passkeyLoginOptions(
 	options : $client->dataJSON(
-		data : 'A1pZY8RhWSwUEiV2',
+		data : 'PVgSXwUvGHEk7RrJ',
 	),
 );
 ```

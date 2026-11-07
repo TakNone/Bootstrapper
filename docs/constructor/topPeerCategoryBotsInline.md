@@ -2,7 +2,7 @@
 
 **Description** : *Most used inline bots*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 topPeerCategoryBotsInline#148677e2 = TopPeerCategory;

@@ -2,7 +2,7 @@
 
 **Description** : *The tag &raquo; of a participant of a basic group &raquo; has changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateChatParticipantRank#bd8367b9 chat_id:long user_id:long rank:string version:int = Update;
@@ -31,9 +31,9 @@ updateChatParticipantRank#bd8367b9 chat_id:long user_id:long rank:string version
 
 ```php
 $update = $client->updateChatParticipantRank(
-	chat_id : 3768854719558879980,
-	user_id : -6306662162840126964,
-	rank : 'mLjr8sY9VaJT0RCy',
-	version : 61,
+	chat_id : 8825606933714084138,
+	user_id : -3569181148120893679,
+	rank : 'tmJpwBhA359n2NoD',
+	version : 34,
 );
 ```

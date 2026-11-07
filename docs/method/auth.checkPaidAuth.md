@@ -2,7 +2,7 @@
 
 **Description** : *Checks the status of a login payment*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.checkPaidAuth#56e59f9c phone_number:string phone_code_hash:string form_id:long = auth.SentCode;
@@ -40,6 +40,6 @@ auth.checkPaidAuth#56e59f9c phone_number:string phone_code_hash:string form_id:l
 $authSentCode = $client->auth->checkPaidAuth(
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	form_id : 5469182796033698747,
+	form_id : -6614604034524551628,
 );
 ```

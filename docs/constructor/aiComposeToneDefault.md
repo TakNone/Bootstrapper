@@ -2,7 +2,7 @@
 
 **Description** : *A built\-in, default AI composer tone &raquo;, identified by a string identifier rather than by a numeric ID*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aiComposeToneDefault#9bad6414 tone:string emoji_id:long title:string = AiComposeTone;
@@ -30,8 +30,8 @@ aiComposeToneDefault#9bad6414 tone:string emoji_id:long title:string = AiCompose
 
 ```php
 $aiComposeTone = $client->aiComposeToneDefault(
-	tone : 'KEnwVeqO64S5x2rG',
-	emoji_id : 4752002888303349325,
-	title : 'rNz1oX3KtgCVDeOA',
+	tone : '3oPtXzqZrJjm4OCv',
+	emoji_id : -1632551395181095442,
+	title : 'dxyQekPmMwVLJ3li',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *A collectible gift we own &raquo; can be put up for sale on the gift marketplace &raquo; with this method, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.updateStarGiftPrice#edbe6ccb stargift:InputSavedStarGift resell_amount:StarsAmount = Updates;
@@ -39,11 +39,11 @@ payments.updateStarGiftPrice#edbe6ccb stargift:InputSavedStarGift resell_amount:
 ```php
 $updates = $client->payments->updateStarGiftPrice(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 92,
+		msg_id : 37,
 	),
 	resell_amount : $client->starsAmount(
-		amount : 9092695172164480499,
-		nanos : 50,
+		amount : -7497206790736722635,
+		nanos : 67,
 	),
 );
 ```

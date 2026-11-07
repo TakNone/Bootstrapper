@@ -2,7 +2,7 @@
 
 **Description** : *Subtitle*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pageBlockSubtitle#8ffa9a1f text:RichText = PageBlock;

@@ -2,7 +2,7 @@
 
 **Description** : *Fetch information about a single AI composer tone &raquo;, for example to resolve a shared tone deep link*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aicompose.getTone#b2e8ba03 tone:InputAiComposeTone = aicompose.Tones;
@@ -37,7 +37,7 @@ aicompose.getTone#b2e8ba03 tone:InputAiComposeTone = aicompose.Tones;
 ```php
 $aicomposeTones = $client->aicompose->getTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'O41SyRvfhP7tm2Z6',
+		tone : 'PFRBaCbqIuc562Tm',
 	),
 );
 ```

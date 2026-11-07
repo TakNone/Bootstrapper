@@ -2,7 +2,7 @@
 
 **Description** : *Contains the default background palette of a gift type &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = StarGiftBackground;
@@ -30,8 +30,8 @@ starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = Sta
 
 ```php
 $starGiftBackground = $client->starGiftBackground(
-	center_color : 82,
-	edge_color : 4,
-	text_color : 15,
+	center_color : 66,
+	edge_color : 90,
+	text_color : 17,
 );
 ```

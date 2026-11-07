@@ -2,7 +2,7 @@
 
 **Description** : *Identity card*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 secureValueTypeIdentityCard#a0d0744b = SecureValueType;

@@ -1,6 +1,6 @@
 # keyboardInlineButtonRow
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 keyboardInlineButtonRow#19420af6 buttons:Vector<KeyboardInlineButton> = KeyboardInlineButtonRow;
@@ -32,9 +32,9 @@ $keyboardInlineButtonRow = $client->keyboardInlineButtonRow(
 				bg_primary : true,
 				bg_danger : true,
 				bg_success : true,
-				icon : -7627790660102297928,
+				icon : -5196341652805865280,
 			),
-			text : 'vG817qAKUYcJ2IHx',
+			text : 'UQBe5hRZkuysFNwc',
 			type : $client->inlineButtonTypeUrl(
 				url : 'https://docs.liveproto.dev',
 			),

@@ -2,7 +2,7 @@
 
 **Description** : *Whether the profile picture of the user is visible*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 privacyKeyProfilePhoto#96151fed = PrivacyKey;

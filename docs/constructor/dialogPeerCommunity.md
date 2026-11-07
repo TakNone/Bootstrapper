@@ -1,6 +1,6 @@
 # dialogPeerCommunity
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 dialogPeerCommunity#2f65c8e4 community_id:long = DialogPeer;
@@ -26,6 +26,6 @@ dialogPeerCommunity#2f65c8e4 community_id:long = DialogPeer;
 
 ```php
 $dialogPeer = $client->dialogPeerCommunity(
-	community_id : -7341035784627220876,
+	community_id : 1873677971257912079,
 );
 ```

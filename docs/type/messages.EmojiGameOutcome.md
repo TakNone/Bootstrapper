@@ -2,7 +2,7 @@
 
 **Description** : *Dice game outcome*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.emojiGameOutcome#da2ad647 seed:bytes stake_ton_amount:long ton_amount:long = messages.EmojiGameOutcome;

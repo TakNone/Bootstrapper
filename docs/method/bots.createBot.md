@@ -2,7 +2,7 @@
 
 **Description** : *Create a managed bot &raquo; owned by the current user and controlled by the specified manager bot*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.createBot#e5b17f2b flags:# via_deeplink:flags.0?true name:string username:string manager_id:InputUser = User;
@@ -47,7 +47,7 @@ bots.createBot#e5b17f2b flags:# via_deeplink:flags.0?true name:string username:s
 ```php
 $user = $client->bots->createBot(
 	via_deeplink : true,
-	name : 'BLVMQruJHSX0UCqm',
+	name : 'CyTnuv7dRHcZKYlz',
 	username : 'TakNone',
 	manager_id : $client->get_input_user(user : '@TakNone'),
 );

@@ -2,7 +2,7 @@
 
 **Description** : *Mark all unread poll votes &raquo; in a chat as read*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.readPollVotes#1720b4d8 flags:# peer:InputPeer top_msg_id:flags.0?int = messages.AffectedHistory;
@@ -39,6 +39,6 @@ messages.readPollVotes#1720b4d8 flags:# peer:InputPeer top_msg_id:flags.0?int = 
 ```php
 $messagesAffectedHistory = $client->messages->readPollVotes(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 16,
+	top_msg_id : 50,
 );
 ```

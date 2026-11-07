@@ -2,7 +2,7 @@
 
 **Description** : *Represents a finished auction &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftAuctionStateFinished#972dabbf flags:# start_date:int end_date:int average_price:long listed_count:flags.0?int fragment_listed_count:flags.1?int fragment_listed_url:flags.1?string = StarGiftAuctionState;
@@ -34,11 +34,11 @@ starGiftAuctionStateFinished#972dabbf flags:# start_date:int end_date:int averag
 
 ```php
 $starGiftAuctionState = $client->starGiftAuctionStateFinished(
-	start_date : 28,
-	end_date : 44,
-	average_price : -8445349941503248029,
-	listed_count : 66,
-	fragment_listed_count : 100,
+	start_date : 74,
+	end_date : 35,
+	average_price : 994086938879860399,
+	listed_count : 67,
+	fragment_listed_count : 83,
 	fragment_listed_url : 'https://docs.liveproto.dev',
 );
 ```

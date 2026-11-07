@@ -2,7 +2,7 @@
 
 **Description** : *Used to send messages to a monoforum topic*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputReplyToMonoForum#69d66c45 monoforum_peer_id:InputPeer = InputReplyTo;

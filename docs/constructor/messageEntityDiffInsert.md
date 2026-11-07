@@ -2,7 +2,7 @@
 
 **Description** : *Represents an diff addition: render it by simply underlining the specified section and coloring it in green, see here &raquo; for more info on how to render diff entities*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityDiffInsert(
 	offset : 0,
-	length : 15,
+	length : 1,
 );
 ```

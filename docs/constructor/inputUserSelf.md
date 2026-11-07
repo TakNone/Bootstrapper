@@ -2,7 +2,7 @@
 
 **Description** : *Defines the current user*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputUserSelf#f7c1b13f = InputUser;

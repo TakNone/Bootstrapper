@@ -2,7 +2,7 @@
 
 **Description** : *Page header*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pageBlockHeader#bfd064ec text:RichText = PageBlock;

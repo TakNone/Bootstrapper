@@ -1,6 +1,6 @@
 # communityPeerRequest
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communityPeerRequest#7beafa85 flags:# visible:flags.0?true peer:Peer requested_by:long date:int = CommunityPeerRequest;
@@ -32,9 +32,9 @@ communityPeerRequest#7beafa85 flags:# visible:flags.0?true peer:Peer requested_b
 $communityPeerRequest = $client->communityPeerRequest(
 	visible : true,
 	peer : $client->peerUser(
-		user_id : 6338875633095630519,
+		user_id : -3474787366726379544,
 	),
-	requested_by : 5635155940403897436,
-	date : 62,
+	requested_by : -1705904147990635230,
+	date : 95,
 );
 ```

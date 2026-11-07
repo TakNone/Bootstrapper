@@ -2,7 +2,7 @@
 
 **Description** : *Delete message history of a forum topic*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.deleteTopicHistory#d2816f10 peer:InputPeer top_msg_id:int = messages.AffectedHistory;
@@ -38,6 +38,6 @@ messages.deleteTopicHistory#d2816f10 peer:InputPeer top_msg_id:int = messages.Af
 ```php
 $messagesAffectedHistory = $client->messages->deleteTopicHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 59,
+	top_msg_id : 42,
 );
 ```

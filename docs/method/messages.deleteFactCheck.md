@@ -2,7 +2,7 @@
 
 **Description** : *Delete a fact\-check from a message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.deleteFactCheck#d1da940c peer:InputPeer msg_id:int = Updates;
@@ -39,6 +39,6 @@ messages.deleteFactCheck#d1da940c peer:InputPeer msg_id:int = Updates;
 ```php
 $updates = $client->messages->deleteFactCheck(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 92,
+	msg_id : 90,
 );
 ```

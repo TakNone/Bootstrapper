@@ -1,6 +1,6 @@
 # sendMessageStopDraftAction
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 sendMessageStopDraftAction#fbf902b0 random_id:long = SendMessageAction;
@@ -26,6 +26,6 @@ sendMessageStopDraftAction#fbf902b0 random_id:long = SendMessageAction;
 
 ```php
 $sendMessageAction = $client->sendMessageStopDraftAction(
-	random_id : 4848978218109902149,
+	random_id : 1996862593794183710,
 );
 ```

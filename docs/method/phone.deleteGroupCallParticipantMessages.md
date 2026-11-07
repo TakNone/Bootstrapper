@@ -2,7 +2,7 @@
 
 **Description** : *As an admin, delete all messages from a specific participant in the in\-call message overlay &raquo; of a video chat/livestream or live story, including in RTMP mode*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.deleteGroupCallParticipantMessages#1dbfeca0 flags:# report_spam:flags.0?true call:InputGroupCall participant:InputPeer = Updates;
@@ -41,8 +41,8 @@ phone.deleteGroupCallParticipantMessages#1dbfeca0 flags:# report_spam:flags.0?tr
 $updates = $client->phone->deleteGroupCallParticipantMessages(
 	report_spam : true,
 	call : $client->inputGroupCall(
-		id : 7794710672491028251,
-		access_hash : -3837507783551348677,
+		id : 5993163011752672025,
+		access_hash : -2656142522451827810,
 	),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

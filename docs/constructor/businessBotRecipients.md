@@ -2,7 +2,7 @@
 
 **Description** : *Specifies the private chats that a connected business bot &raquo; may receive messages and interact with*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 businessBotRecipients#b88cf373 flags:# existing_chats:flags.0?true new_chats:flags.1?true contacts:flags.2?true non_contacts:flags.3?true exclude_selected:flags.5?true users:flags.4?Vector<long> exclude_users:flags.6?Vector<long> = BusinessBotRecipients;
@@ -40,7 +40,7 @@ $businessBotRecipients = $client->businessBotRecipients(
 	contacts : true,
 	non_contacts : true,
 	exclude_selected : true,
-	users : array(683733887468273543),
-	exclude_users : array(9010479363440754709),
+	users : array(5657066447782308663),
+	exclude_users : array(2637786671039562294),
 );
 ```

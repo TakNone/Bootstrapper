@@ -2,7 +2,7 @@
 
 **Description** : *A login token \(for login via QR code\) was accepted*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateLoginToken#564fe691 = Update;

@@ -2,7 +2,7 @@
 
 **Description** : *Quote \(equivalent to the HTML &lt;blockquote&gt;\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pageBlockBlockquote#66d1670b flags:# collapsed:flags.0?true text:RichText caption:RichText = PageBlock;

@@ -2,7 +2,7 @@
 
 **Description** : *References a custom AI composer tone &raquo; by its public slug, used when opening an AI compose tone link &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputAiComposeToneSlug#1fa01357 slug:string = InputAiComposeTone;
@@ -28,6 +28,6 @@ inputAiComposeToneSlug#1fa01357 slug:string = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneSlug(
-	slug : 'OfJUCe9PjNdEiQgv',
+	slug : '9RkziWMXZFtOphN8',
 );
 ```

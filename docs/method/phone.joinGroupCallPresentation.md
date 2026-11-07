@@ -2,7 +2,7 @@
 
 **Description** : *Start screen sharing in a non\-RTMP video chat/livestream or conference\. Presentations are not supported in live stories or RTMP\-mode video chats/livestreams, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.joinGroupCallPresentation#cbea6bc4 call:InputGroupCall params:DataJSON = Updates;
@@ -39,11 +39,11 @@ phone.joinGroupCallPresentation#cbea6bc4 call:InputGroupCall params:DataJSON = U
 ```php
 $updates = $client->phone->joinGroupCallPresentation(
 	call : $client->inputGroupCall(
-		id : -3474954267760425159,
-		access_hash : -4835240450644358839,
+		id : 8421621642159868514,
+		access_hash : -2411054720172362922,
 	),
 	params : $client->dataJSON(
-		data : 'yFTCkWRSbJxqiHse',
+		data : 'VYb3Qsrk7JTUtvPj',
 	),
 );
 ```

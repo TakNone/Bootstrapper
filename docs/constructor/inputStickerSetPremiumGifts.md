@@ -2,7 +2,7 @@
 
 **Description** : *Stickers to show when receiving a gifted Telegram Premium subscription*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputStickerSetPremiumGifts#c88b3b02 = InputStickerSet;

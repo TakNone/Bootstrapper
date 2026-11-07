@@ -2,7 +2,7 @@
 
 **Description** : *No events*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updates.differenceEmpty#5d75a138 date:int seq:int = updates.Difference;
@@ -29,7 +29,7 @@ updates.differenceEmpty#5d75a138 date:int seq:int = updates.Difference;
 
 ```php
 $updatesDifference = $client->updates->differenceEmpty(
-	date : 33,
-	seq : 77,
+	date : 76,
+	seq : 93,
 );
 ```

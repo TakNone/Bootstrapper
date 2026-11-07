@@ -2,7 +2,7 @@
 
 **Description** : *Validate the match code selected by the user against the code shown on the login page, as part of the OAuth authorization flow &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.checkUrlAuthMatchCode#c9a47b0b url:string match_code:string = Bool;
@@ -38,6 +38,6 @@ messages.checkUrlAuthMatchCode#c9a47b0b url:string match_code:string = Bool;
 ```php
 $bool = $client->messages->checkUrlAuthMatchCode(
 	url : 'https://docs.liveproto.dev',
-	match_code : 'kQf9OBJ1i2FcI085',
+	match_code : 'v9Eaj3h6wMzdXNRQ',
 );
 ```

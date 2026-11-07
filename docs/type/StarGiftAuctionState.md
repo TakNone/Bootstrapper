@@ -2,7 +2,7 @@
 
 **Description** : *State of a collectible gift auction &raquo;: active/pending, finished, or unchanged with respect to a locally cached version*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftAuctionStateNotModified#fe333952 = StarGiftAuctionState;

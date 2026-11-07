@@ -2,7 +2,7 @@
 
 **Description** : *Already purchased paid media, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageExtendedMedia#ee479c64 media:MessageMedia = MessageExtendedMedia;

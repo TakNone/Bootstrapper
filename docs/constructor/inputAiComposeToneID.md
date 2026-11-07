@@ -2,7 +2,7 @@
 
 **Description** : *References a custom AI composer tone &raquo; by its ID and access hash*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputAiComposeToneID#773c080 id:long access_hash:long = InputAiComposeTone;
@@ -29,7 +29,7 @@ inputAiComposeToneID#773c080 id:long access_hash:long = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneID(
-	id : 6657027808649906776,
-	access_hash : 6101969436393421269,
+	id : 3208656140723216379,
+	access_hash : 7622681447240682218,
 );
 ```

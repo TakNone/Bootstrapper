@@ -2,7 +2,7 @@
 
 **Description** : *An example showing how an AI composer tone &raquo; rephrases a message, used as a preview in the tone picker*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aiComposeToneExample#f1d628ec from:TextWithEntities to:TextWithEntities = AiComposeToneExample;

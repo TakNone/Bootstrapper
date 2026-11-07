@@ -2,7 +2,7 @@
 
 **Description** : *Utility bill*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 secureValueTypeUtilityBill#fc36954e = SecureValueType;

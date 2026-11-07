@@ -1,6 +1,6 @@
 # buttonTypeRequestGeoLocation
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 buttonTypeRequestGeoLocation#9beee140 = ButtonType;

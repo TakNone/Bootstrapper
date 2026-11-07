@@ -2,7 +2,7 @@
 
 **Description** : *Basic group member \(not usable by supergroups\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 chatParticipant#38e79fde flags:# user_id:long inviter_id:long date:int rank:flags.0?string = ChatParticipant;
@@ -32,9 +32,9 @@ chatParticipant#38e79fde flags:# user_id:long inviter_id:long date:int rank:flag
 
 ```php
 $chatParticipant = $client->chatParticipant(
-	user_id : -1028461548771173020,
-	inviter_id : -7954404212075357532,
-	date : 22,
-	rank : 'I9tOyw5EDxS7FXlA',
+	user_id : -841535374333781839,
+	inviter_id : 6332207007173754735,
+	date : 31,
+	rank : 'BJiIRWFgy4U5rsMZ',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Object sets encrypted file for attachment*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputEncryptedFileEmpty#1837c364 = InputEncryptedFile;

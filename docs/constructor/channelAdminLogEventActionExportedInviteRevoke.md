@@ -2,7 +2,7 @@
 
 **Description** : *A specific invite link was revoked*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channelAdminLogEventActionExportedInviteRevoke#410a134e invite:ExportedChatInvite = ChannelAdminLogEventAction;
@@ -32,19 +32,19 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionExportedInviteR
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'OJV5fcF8zoGXkU03',
-		admin_id : 6376984876356108090,
-		date : 27,
-		start_date : 55,
-		expire_date : 5,
-		usage_limit : 76,
-		usage : 66,
-		requested : 60,
-		subscription_expired : 93,
-		title : 'MyQ9qVRWOXb43nhs',
+		link : 'QtuPNhf2pXYazKLq',
+		admin_id : 1873243155376891088,
+		date : 61,
+		start_date : 98,
+		expire_date : 99,
+		usage_limit : 82,
+		usage : 25,
+		requested : 10,
+		subscription_expired : 43,
+		title : 'XQURAD6YWPKeuqmv',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 1,
-			amount : 6887129039533619058,
+			period : 33,
+			amount : 913348651847651741,
 		),
 	),
 );

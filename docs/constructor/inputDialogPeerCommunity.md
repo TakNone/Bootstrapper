@@ -1,6 +1,6 @@
 # inputDialogPeerCommunity
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputDialogPeerCommunity#69ef72c4 community:InputChannel = InputDialogPeer;

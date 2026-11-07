@@ -2,7 +2,7 @@
 
 **Description** : *Deprecated: send libtgvoip phone call debug information*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.saveCallLog#41248786 peer:InputPhoneCall file:InputFile = Bool;
@@ -38,8 +38,8 @@ phone.saveCallLog#41248786 peer:InputPhoneCall file:InputFile = Bool;
 ```php
 $bool = $client->phone->saveCallLog(
 	peer : $client->inputPhoneCall(
-		id : -322218383540526992,
-		access_hash : -696426550544359240,
+		id : 899175745797256177,
+		access_hash : -6704629745645981339,
 	),
 	file : $client->upload_file(path : 'file.png'),
 );

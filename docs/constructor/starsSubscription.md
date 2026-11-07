@@ -2,7 +2,7 @@
 
 **Description** : *Represents a Telegram Star subscription &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starsSubscription#2e6eab1a flags:# canceled:flags.0?true can_refulfill:flags.1?true missing_balance:flags.2?true bot_canceled:flags.7?true id:string peer:Peer until_date:int pricing:StarsSubscriptionPricing chat_invite_hash:flags.3?string title:flags.4?string photo:flags.5?WebDocument invoice_slug:flags.6?string = StarsSubscription;
@@ -44,69 +44,69 @@ $starsSubscription = $client->starsSubscription(
 	can_refulfill : true,
 	missing_balance : true,
 	bot_canceled : true,
-	id : 'mQyegbGrpB8VODi2',
+	id : 'kPNAosFbMtq4XS2O',
 	peer : $client->peerUser(
-		user_id : 8776553732280035973,
+		user_id : -50528232855081801,
 	),
-	until_date : 88,
+	until_date : 97,
 	pricing : $client->starsSubscriptionPricing(
-		period : 43,
-		amount : 7164607211653706735,
+		period : 9,
+		amount : -8829510617430595085,
 	),
-	chat_invite_hash : 'pmHTWC5DGUxXhduk',
-	title : '27wosf9cUz8WGX4S',
+	chat_invite_hash : '85kIEViYQMl2DvHz',
+	title : '7biZLD86nT4xNRHF',
 	photo : $client->webDocument(
 		url : 'https://docs.liveproto.dev',
-		access_hash : -6305156320132473549,
-		size : 95,
-		mime_type : '6yP5EASMtK3bfsem',
+		access_hash : -7348483144564432183,
+		size : 74,
+		mime_type : 'uFNRfexVv3i47aOH',
 		attributes : array(
 			$client->documentAttributeImageSize(
-				w : 95,
-				h : 32,
+				w : 39,
+				h : 80,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : 'bihQsxWEkMcGmueP',
+				alt : '4o65M8EYa2WLOqSe',
 				stickerset : $client->inputStickerSetEmpty(),
 				mask_coords : $client->maskCoords(
-					n : 6,
-					x : 1907440.572265625,
-					y : -1750325.095703125,
-					zoom : -1617310.263671875,
+					n : 78,
+					x : -1194667.9951171875,
+					y : 1202865.2822265625,
+					zoom : 2063006.8212890625,
 				),
 			),
 			$client->documentAttributeVideo(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : 364665.1845703125,
-				w : 96,
-				h : 59,
-				preload_prefix_size : 45,
-				video_start_ts : 1132906.14453125,
-				video_codec : '7hwHg6AdJUPtDuoF',
+				duration : -1265138.9873046875,
+				w : 74,
+				h : 75,
+				preload_prefix_size : 34,
+				video_start_ts : 1720316.568359375,
+				video_codec : 'T6bAQxBraefFOYvq',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 89,
-				title : 'QnqNz7EeFl4cPS6T',
-				performer : '5sR2Io0S1N4A6FaV',
+				duration : 57,
+				title : 'xC6hMiBluOV2Jtg0',
+				performer : 'kOrvo5EFcKSym7jf',
 				waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->documentAttributeFilename(
-				file_name : '5fIVZqKarXzDTFJb',
+				file_name : 'yMVQxrSAaz0RLtqB',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : 'NiGqDyuwL1foS4eA',
+				alt : 'ILkXoFCzYxGghPl8',
 				stickerset : $client->inputStickerSetEmpty(),
 			),
 		),
 	),
-	invoice_slug : 'wUR8j9cXSGB2Lefs',
+	invoice_slug : 'pYjcTG5XvKdRFfD3',
 );
 ```

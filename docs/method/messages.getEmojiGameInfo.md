@@ -2,7 +2,7 @@
 
 **Description** : *Fetch dice game information*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getEmojiGameInfo#fb7e8ca7 = messages.EmojiGameInfo;

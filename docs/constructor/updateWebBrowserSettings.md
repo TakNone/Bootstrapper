@@ -1,6 +1,6 @@
 # updateWebBrowserSettings
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateWebBrowserSettings#c39a2ade flags:# open_external_browser:flags.0?true display_close_button:flags.1?true = Update;

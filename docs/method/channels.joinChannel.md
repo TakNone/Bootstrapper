@@ -2,7 +2,7 @@
 
 **Description** : *Join a channel/supergroup*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channels.joinChannel#7f6a1e22 channel:InputChannel = messages.ChatInviteJoinResult;

@@ -2,7 +2,7 @@
 
 **Description** : *Represents the voice messages tab of a profile page*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 profileTabVoice#e477092e = ProfileTab;

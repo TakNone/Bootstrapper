@@ -243,6 +243,18 @@
 
 ---
 
+##### inputMediaWidget
+
+:link: [*NOTHING*](constructor/inputMediaWidget)
+
+---
+
+##### inputMediaWidgetId
+
+:link: [*NOTHING*](constructor/inputMediaWidgetId)
+
+---
+
 ##### inputChatPhotoEmpty
 
 :link: [*Empty constructor, remove group photo*](constructor/inputChatPhotoEmpty)
@@ -717,6 +729,12 @@
 
 ---
 
+##### messageMediaWidget
+
+:link: [*NOTHING*](constructor/messageMediaWidget)
+
+---
+
 ##### messageActionEmpty
 
 :link: [*Empty constructor*](constructor/messageActionEmpty)
@@ -1128,6 +1146,24 @@
 ##### messageActionChatJoinedViaCommunity
 
 :link: [*NOTHING*](constructor/messageActionChatJoinedViaCommunity)
+
+---
+
+##### messageActionGramTransfer
+
+:link: [*NOTHING*](constructor/messageActionGramTransfer)
+
+---
+
+##### messageActionWalletTonConnectRequest
+
+:link: [*NOTHING*](constructor/messageActionWalletTonConnectRequest)
+
+---
+
+##### messageActionNoPaidMessagesTokenUsed
+
+:link: [*NOTHING*](constructor/messageActionNoPaidMessagesTokenUsed)
 
 ---
 
@@ -2590,6 +2626,72 @@ This setting only affects the current account, and is synced to other logged in 
 
 ---
 
+##### updateWalletState
+
+:link: [*NOTHING*](constructor/updateWalletState)
+
+---
+
+##### updateSentWalletTransaction
+
+:link: [*NOTHING*](constructor/updateSentWalletTransaction)
+
+---
+
+##### updateWalletGaslessInfo
+
+:link: [*NOTHING*](constructor/updateWalletGaslessInfo)
+
+---
+
+##### updateWalletTonConnectSession
+
+:link: [*NOTHING*](constructor/updateWalletTonConnectSession)
+
+---
+
+##### updateWalletTonConnectPendingDisconnect
+
+:link: [*NOTHING*](constructor/updateWalletTonConnectPendingDisconnect)
+
+---
+
+##### updateEditForumTopic
+
+:link: [*NOTHING*](constructor/updateEditForumTopic)
+
+---
+
+##### updateBotWidgetQuery
+
+:link: [*NOTHING*](constructor/updateBotWidgetQuery)
+
+---
+
+##### updateInlineBotWidgetQuery
+
+:link: [*NOTHING*](constructor/updateInlineBotWidgetQuery)
+
+---
+
+##### updateBotWidgetCopyQuery
+
+:link: [*NOTHING*](constructor/updateBotWidgetCopyQuery)
+
+---
+
+##### updateMessageWidgetData
+
+:link: [*NOTHING*](constructor/updateMessageWidgetData)
+
+---
+
+##### updateTranscribedAudioFile
+
+:link: [*NOTHING*](constructor/updateTranscribedAudioFile)
+
+---
+
 ##### updates state
 
 :link: [*Updates state*](constructor/updates.state)
@@ -3834,6 +3936,12 @@ Note that this entity must wrap exactly one regular emoji \(the one contained in
 
 ---
 
+##### messageEntityTonAddress
+
+:link: [*NOTHING*](constructor/messageEntityTonAddress)
+
+---
+
 ##### inputChannelEmpty
 
 :link: [*Represents the absence of a channel*](constructor/inputChannelEmpty)
@@ -4069,6 +4177,18 @@ This filter will automatically remove anonymous admins, and return even non\-par
 
 ---
 
+##### inputBotInlineMessageWidget
+
+:link: [*NOTHING*](constructor/inputBotInlineMessageWidget)
+
+---
+
+##### inputBotInlineMessageWidgetId
+
+:link: [*NOTHING*](constructor/inputBotInlineMessageWidgetId)
+
+---
+
 ##### inputBotInlineResult
 
 :link: [*An inline bot result*](constructor/inputBotInlineResult)
@@ -4138,6 +4258,12 @@ This filter will automatically remove anonymous admins, and return even non\-par
 ##### botInlineMessageRichMessage
 
 :link: [*NOTHING*](constructor/botInlineMessageRichMessage)
+
+---
+
+##### botInlineMessageWidget
+
+:link: [*NOTHING*](constructor/botInlineMessageWidget)
 
 ---
 
@@ -4703,6 +4829,12 @@ Currently used only for custom emoji stickersets, to avoid a further call to mes
 ##### textButton
 
 :link: [*NOTHING*](constructor/textButton)
+
+---
+
+##### textTonAddress
+
+:link: [*NOTHING*](constructor/textTonAddress)
 
 ---
 
@@ -9490,12 +9622,6 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
-##### inputPasskeyCredentialFirebasePNV
-
-:link: [*Alternative passkey credential that proves ownership of the account&#039;s phone number through a Firebase Phone Number Verification \(PNV\) token, used on official apps where a full WebAuthn public\-key passkey cannot be created, in a way similar to Firebase SMS authentication &raquo;*](constructor/inputPasskeyCredentialFirebasePNV)
-
----
-
 ##### starGiftBackground
 
 :link: [*Contains the default background palette of a gift type &raquo;*](constructor/starGiftBackground)
@@ -9946,6 +10072,366 @@ If neither the pm or group flags are set, the specified chat export was generate
 
 ---
 
+##### currencyRate
+
+:link: [*NOTHING*](constructor/currencyRate)
+
+---
+
+##### payments currencyRates
+
+:link: [*NOTHING*](constructor/payments.currencyRates)
+
+---
+
+##### toncenter apiResponse
+
+:link: [*NOTHING*](constructor/toncenter.apiResponse)
+
+---
+
+##### toncenter streamingUrl
+
+:link: [*NOTHING*](constructor/toncenter.streamingUrl)
+
+---
+
+##### onrampMethodAvailability
+
+:link: [*NOTHING*](constructor/onrampMethodAvailability)
+
+---
+
+##### onrampProviderInfo
+
+:link: [*NOTHING*](constructor/onrampProviderInfo)
+
+---
+
+##### onrampAvailability
+
+:link: [*NOTHING*](constructor/onrampAvailability)
+
+---
+
+##### onrampLimits
+
+:link: [*NOTHING*](constructor/onrampLimits)
+
+---
+
+##### onrampQuote
+
+:link: [*NOTHING*](constructor/onrampQuote)
+
+---
+
+##### onrampSession
+
+:link: [*NOTHING*](constructor/onrampSession)
+
+---
+
+##### walletStateEmpty
+
+:link: [*NOTHING*](constructor/walletStateEmpty)
+
+---
+
+##### walletState
+
+:link: [*NOTHING*](constructor/walletState)
+
+---
+
+##### walletUserAddress
+
+:link: [*NOTHING*](constructor/walletUserAddress)
+
+---
+
+##### wallet userAddresses
+
+:link: [*NOTHING*](constructor/wallet.userAddresses)
+
+---
+
+##### walletTransactionPeerUser
+
+:link: [*NOTHING*](constructor/walletTransactionPeerUser)
+
+---
+
+##### walletTransactionPeerAddress
+
+:link: [*NOTHING*](constructor/walletTransactionPeerAddress)
+
+---
+
+##### walletTransactionPeerOnramp
+
+:link: [*NOTHING*](constructor/walletTransactionPeerOnramp)
+
+---
+
+##### walletTransactionPeerUnsupported
+
+:link: [*NOTHING*](constructor/walletTransactionPeerUnsupported)
+
+---
+
+##### walletTransactionPeerChannel
+
+:link: [*NOTHING*](constructor/walletTransactionPeerChannel)
+
+---
+
+##### walletTransactionPeerTelegramGift
+
+:link: [*NOTHING*](constructor/walletTransactionPeerTelegramGift)
+
+---
+
+##### walletTransaction
+
+:link: [*NOTHING*](constructor/walletTransaction)
+
+---
+
+##### wallet transactions
+
+:link: [*NOTHING*](constructor/wallet.transactions)
+
+---
+
+##### wallet secretPhraseParts
+
+:link: [*NOTHING*](constructor/wallet.secretPhraseParts)
+
+---
+
+##### wallet encryptedSecretPhrasePart
+
+:link: [*NOTHING*](constructor/wallet.encryptedSecretPhrasePart)
+
+---
+
+##### wallet holderDc
+
+:link: [*NOTHING*](constructor/wallet.holderDc)
+
+---
+
+##### wallet proofChallenge
+
+:link: [*NOTHING*](constructor/wallet.proofChallenge)
+
+---
+
+##### walletOwnershipProof
+
+:link: [*NOTHING*](constructor/walletOwnershipProof)
+
+---
+
+##### inputWalletNew
+
+:link: [*NOTHING*](constructor/inputWalletNew)
+
+---
+
+##### inputWalletImported
+
+:link: [*NOTHING*](constructor/inputWalletImported)
+
+---
+
+##### tonConnectManifest
+
+:link: [*NOTHING*](constructor/tonConnectManifest)
+
+---
+
+##### tonConnectSession
+
+:link: [*NOTHING*](constructor/tonConnectSession)
+
+---
+
+##### wallet tonConnectChallenge
+
+:link: [*NOTHING*](constructor/wallet.tonConnectChallenge)
+
+---
+
+##### tonConnectNextEventId
+
+:link: [*NOTHING*](constructor/tonConnectNextEventId)
+
+---
+
+##### tonConnectRequest
+
+:link: [*NOTHING*](constructor/tonConnectRequest)
+
+---
+
+##### wallet tonConnectPending
+
+:link: [*NOTHING*](constructor/wallet.tonConnectPending)
+
+---
+
+##### wallet tonConnectSessions
+
+:link: [*NOTHING*](constructor/wallet.tonConnectSessions)
+
+---
+
+##### wallet existingBalance
+
+:link: [*NOTHING*](constructor/wallet.existingBalance)
+
+---
+
+##### wallet nftAttribute
+
+:link: [*NOTHING*](constructor/wallet.nftAttribute)
+
+---
+
+##### wallet nftItem
+
+:link: [*NOTHING*](constructor/wallet.nftItem)
+
+---
+
+##### wallet nftItems
+
+:link: [*NOTHING*](constructor/wallet.nftItems)
+
+---
+
 ##### auth firebasePnvIntent
 
 :link: [*NOTHING*](constructor/auth.firebasePnvIntent)
+
+---
+
+##### inputTonConnectOauthSession
+
+:link: [*NOTHING*](constructor/inputTonConnectOauthSession)
+
+---
+
+##### exportedNoPaidMessagesToken
+
+:link: [*NOTHING*](constructor/exportedNoPaidMessagesToken)
+
+---
+
+##### shareThemeDefault
+
+:link: [*NOTHING*](constructor/shareThemeDefault)
+
+---
+
+##### shareThemeEmojiBackdrop
+
+:link: [*NOTHING*](constructor/shareThemeEmojiBackdrop)
+
+---
+
+##### shareThemeGift
+
+:link: [*NOTHING*](constructor/shareThemeGift)
+
+---
+
+##### inputShareThemeGift
+
+:link: [*NOTHING*](constructor/inputShareThemeGift)
+
+---
+
+##### shareThemeBackdropOption
+
+:link: [*NOTHING*](constructor/shareThemeBackdropOption)
+
+---
+
+##### shareThemeBackdropsNotModified
+
+:link: [*NOTHING*](constructor/shareThemeBackdropsNotModified)
+
+---
+
+##### shareThemeBackdrops
+
+:link: [*NOTHING*](constructor/shareThemeBackdrops)
+
+---
+
+##### inputWalletCardSticker
+
+:link: [*NOTHING*](constructor/inputWalletCardSticker)
+
+---
+
+##### wallet cardSticker
+
+:link: [*NOTHING*](constructor/wallet.cardSticker)
+
+---
+
+##### wallet card
+
+:link: [*NOTHING*](constructor/wallet.card)
+
+---
+
+##### payments starGiftDepositPayload
+
+:link: [*NOTHING*](constructor/payments.starGiftDepositPayload)
+
+---
+
+##### userWallet
+
+:link: [*NOTHING*](constructor/userWallet)
+
+---
+
+##### widgetQueryTypeData
+
+:link: [*NOTHING*](constructor/widgetQueryTypeData)
+
+---
+
+##### widgetQueryTypeSignData
+
+:link: [*NOTHING*](constructor/widgetQueryTypeSignData)
+
+---
+
+##### widgetQueryTypeSentTransaction
+
+:link: [*NOTHING*](constructor/widgetQueryTypeSentTransaction)
+
+---
+
+##### messages botWidgetQueryAnswer
+
+:link: [*NOTHING*](constructor/messages.botWidgetQueryAnswer)
+
+---
+
+##### messages widgetPublicDataNotModified
+
+:link: [*NOTHING*](constructor/messages.widgetPublicDataNotModified)
+
+---
+
+##### messages widgetPublicData
+
+:link: [*NOTHING*](constructor/messages.widgetPublicData)

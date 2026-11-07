@@ -2,7 +2,7 @@
 
 **Description** : *No further results were found*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.foundStickerSetsNotModified#d54b65d = messages.FoundStickerSets;

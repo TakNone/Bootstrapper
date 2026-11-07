@@ -1,6 +1,6 @@
 # ephemeral.getWelcomeMessages
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 ephemeral.getWelcomeMessages#db9ac18d peer:InputPeer hash:long = ephemeral.WelcomeMessages;

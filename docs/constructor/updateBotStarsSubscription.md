@@ -1,6 +1,6 @@
 # updateBotStarsSubscription
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateBotStarsSubscription#6c0d8e23 flags:# canceled:flags.0?true payment_failed:flags.1?true restored:flags.2?true user_id:long payload:bytes qts:int = Update;
@@ -35,8 +35,8 @@ $update = $client->updateBotStarsSubscription(
 	canceled : true,
 	payment_failed : true,
 	restored : true,
-	user_id : 7214756976397414885,
+	user_id : 4410100119403440927,
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	qts : 65,
+	qts : 46,
 );
 ```

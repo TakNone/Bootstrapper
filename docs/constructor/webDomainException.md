@@ -1,6 +1,6 @@
 # webDomainException
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 webDomainException#933ca597 flags:# domain:string url:string title:string favicon:flags.0?long = WebDomainException;
@@ -30,9 +30,9 @@ webDomainException#933ca597 flags:# domain:string url:string title:string favico
 
 ```php
 $webDomainException = $client->webDomainException(
-	domain : 'L6QjM4xfzmq2TIwr',
+	domain : 'AxQzlw6mdkiuFVoN',
 	url : 'https://docs.liveproto.dev',
-	title : 'vzUbsG1Xtp5uCcfg',
-	favicon : -2138086679379200002,
+	title : 'KZbBDh9rd715s0yF',
+	favicon : -7535335022916437605,
 );
 ```

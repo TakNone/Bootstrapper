@@ -2,7 +2,7 @@
 
 **Description** : *Represents a specific point in time, rendered as specified here &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageEntityFormattedDate#904ac7c7 flags:# relative:flags.0?true short_time:flags.1?true long_time:flags.2?true short_date:flags.3?true long_date:flags.4?true day_of_week:flags.5?true offset:int length:int date:int = MessageEntity;
@@ -44,7 +44,7 @@ $messageEntity = $client->messageEntityFormattedDate(
 	long_date : true,
 	day_of_week : true,
 	offset : 0,
-	length : 72,
-	date : 51,
+	length : 97,
+	date : 53,
 );
 ```

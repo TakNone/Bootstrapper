@@ -2,7 +2,7 @@
 
 **Description** : *Contains a Telegram Premium giftcode link*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionGiftCode#31c48347 flags:# via_giveaway:flags.0?true unclaimed:flags.5?true boost_peer:flags.1?Peer days:int slug:string currency:flags.2?string amount:flags.2?long crypto_currency:flags.3?string crypto_amount:flags.3?long message:flags.4?TextWithEntities = MessageAction;
@@ -41,106 +41,106 @@ $messageAction = $client->messageActionGiftCode(
 	via_giveaway : true,
 	unclaimed : true,
 	boost_peer : $client->peerUser(
-		user_id : 5779124711823734957,
+		user_id : -3116015249079563960,
 	),
-	days : 9,
-	slug : 'OzWsIhaEwjJigmZL',
-	currency : 'aPEU4p2JLnrKxDvk',
-	amount : -4906804102722513365,
-	crypto_currency : 'mrK1UIv2WYDnGJHf',
-	crypto_amount : -2556795251654767252,
+	days : 23,
+	slug : 'HRhnUkAv2NgzB7c4',
+	currency : 'T2do7wu0ZMVapzeW',
+	amount : -872961741718461871,
+	crypto_currency : 'sTrH4v9dinCbaGBU',
+	crypto_amount : 6239680079330554758,
 	message : $client->textWithEntities(
-		text : '3AbJg68heLSxz4NE',
+		text : 'xenDjtWqyuEo7IRA',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 21,
+				length : 36,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 4,
+				length : 96,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 86,
+				length : 73,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 89,
+				length : 22,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 10,
+				length : 15,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 31,
+				length : 18,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 69,
+				length : 39,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 83,
+				length : 80,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 75,
+				length : 17,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 32,
-				language : 'Gpd1cbAuJPEomR94',
+				length : 43,
+				language : '1fVFtsU68eCIEoRy',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 16,
+				length : 31,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 68,
-				user_id : -1924536258384119516,
+				length : 76,
+				user_id : -7231631139589930215,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 31,
+				length : 33,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 84,
+				length : 78,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 15,
+				length : 32,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 48,
+				length : 10,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 42,
+				length : 62,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 95,
+				length : 12,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 78,
+				length : 70,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 97,
-				document_id : 6809686828179942981,
+				length : 41,
+				document_id : 914961064025784433,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 88,
+				length : 28,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -150,21 +150,25 @@ $messageAction = $client->messageActionGiftCode(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 9,
-				date : 47,
+				length : 36,
+				date : 15,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 96,
+				length : 27,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 43,
-				old_text : 'scQe53HD7PtWqSGo',
+				length : 24,
+				old_text : 'PclXSNFTn4q3DABf',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 62,
+				length : 51,
+			),
+			$client->messageEntityTonAddress(
+				offset : 0,
+				length : 10,
 			),
 		),
 	),

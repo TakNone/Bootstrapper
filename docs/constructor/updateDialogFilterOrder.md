@@ -2,7 +2,7 @@
 
 **Description** : *New folder order*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateDialogFilterOrder#a5d72105 order:Vector<int> = Update;
@@ -28,6 +28,6 @@ updateDialogFilterOrder#a5d72105 order:Vector<int> = Update;
 
 ```php
 $update = $client->updateDialogFilterOrder(
-	order : array(43),
+	order : array(52),
 );
 ```

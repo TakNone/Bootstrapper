@@ -1,6 +1,6 @@
 # communities.toggleAllPeerLinkRequestApproval
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communities.toggleAllPeerLinkRequestApproval#bfe3dd3d flags:# reject:flags.0?true community:InputChannel = Bool;

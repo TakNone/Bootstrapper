@@ -2,7 +2,7 @@
 
 **Description** : *Dice game update*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateEmojiGameInfo#fb9c547a info:messages.EmojiGameInfo = Update;

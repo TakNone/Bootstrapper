@@ -2,7 +2,7 @@
 
 **Description** : *Emitted only in private chats if the other side requested to disable content protection &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true prev_value:Bool new_value:Bool = MessageAction;
@@ -32,7 +32,7 @@ messageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true prev_value:
 ```php
 $messageAction = $client->messageActionNoForwardsRequest(
 	expired : true,
-	prev_value : true,
-	new_value : false,
+	prev_value : false,
+	new_value : true,
 );
 ```

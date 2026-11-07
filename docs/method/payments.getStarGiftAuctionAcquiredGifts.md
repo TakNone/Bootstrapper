@@ -2,7 +2,7 @@
 
 **Description** : *Fetches all the gifts that the current user won in an auction*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.getStarGiftAuctionAcquiredGifts#6ba2cbec gift_id:long = payments.StarGiftAuctionAcquiredGifts;
@@ -36,6 +36,6 @@ payments.getStarGiftAuctionAcquiredGifts#6ba2cbec gift_id:long = payments.StarGi
 
 ```php
 $paymentsStarGiftAuctionAcquiredGifts = $client->payments->getStarGiftAuctionAcquiredGifts(
-	gift_id : 2543025112543149371,
+	gift_id : -2293026351588139667,
 );
 ```

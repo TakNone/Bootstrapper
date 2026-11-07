@@ -2,7 +2,7 @@
 
 **Description** : *Object describing actions connected to a service message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionEmpty#b6aef7b0 = MessageAction;
@@ -74,6 +74,9 @@ messageActionPollDeleteAnswer#399674dc answer:PollAnswer = MessageAction;
 messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
 messageActionChangeCommunity#5d20bae8 flags:# community_id:flags.0?long = MessageAction;
 messageActionChatJoinedViaCommunity#4a8bfe80 community_id:long = MessageAction;
+messageActionGramTransfer#9329ea33 flags:# comment_encrypted:flags.1?true amount:long peer_address:string transaction_id:string comment:flags.0?string = MessageAction;
+messageActionWalletTonConnectRequest#69b8c4bf flags:# accepted:flags.2?true declined:flags.3?true session_id:long expires:int topic:flags.0?string trace_id:flags.1?string dapp_name:flags.4?string = MessageAction;
+messageActionNoPaidMessagesTokenUsed#c1d2f1c6 = MessageAction;
 ```
 
 ---
@@ -151,3 +154,6 @@ messageActionChatJoinedViaCommunity#4a8bfe80 community_id:long = MessageAction;
 | [**messageActionManagedBotCreated**](constructor/messageActionManagedBotCreated) | Service message sent by a user to a manager bot when a new managed bot » is created through it, by invoking messages.sendBotRequestedPeer with a requestPeerTypeCreateBot, see here » for more info |
 | [**messageActionChangeCommunity**](constructor/messageActionChangeCommunity) | NOTHING |
 | [**messageActionChatJoinedViaCommunity**](constructor/messageActionChatJoinedViaCommunity) | NOTHING |
+| [**messageActionGramTransfer**](constructor/messageActionGramTransfer) | NOTHING |
+| [**messageActionWalletTonConnectRequest**](constructor/messageActionWalletTonConnectRequest) | NOTHING |
+| [**messageActionNoPaidMessagesTokenUsed**](constructor/messageActionNoPaidMessagesTokenUsed) | NOTHING |

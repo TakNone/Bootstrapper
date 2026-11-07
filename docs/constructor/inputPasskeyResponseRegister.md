@@ -2,7 +2,7 @@
 
 **Description** : *WebAuthn registration response used when registering a new passkey, see here &raquo; for more info on the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputPasskeyResponseRegister#3e63935c client_data:DataJSON attestation_data:bytes = InputPasskeyResponse;
@@ -30,7 +30,7 @@ inputPasskeyResponseRegister#3e63935c client_data:DataJSON attestation_data:byte
 ```php
 $inputPasskeyResponse = $client->inputPasskeyResponseRegister(
 	client_data : $client->dataJSON(
-		data : 'SgtafiH1eZu3bCKd',
+		data : 'pTWnA2sqt1bU6ZMi',
 	),
 	attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

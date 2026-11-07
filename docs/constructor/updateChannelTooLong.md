@@ -2,7 +2,7 @@
 
 **Description** : *There are new updates in the specified channel, the client must fetch them manually by invoking updates\.getChannelDifference as specified in the documentation &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateChannelTooLong#108d941f flags:# channel_id:long pts:flags.0?int = Update;
@@ -30,7 +30,7 @@ updateChannelTooLong#108d941f flags:# channel_id:long pts:flags.0?int = Update;
 
 ```php
 $update = $client->updateChannelTooLong(
-	channel_id : -8917874260545232450,
-	pts : 52,
+	channel_id : -9093701641334641635,
+	pts : 12,
 );
 ```

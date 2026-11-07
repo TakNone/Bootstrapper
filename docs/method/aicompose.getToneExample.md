@@ -2,7 +2,7 @@
 
 **Description** : *Fetch an example showing how an AI composer tone &raquo; rephrases a sample message, used as a preview in the tone picker*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aicompose.getToneExample#d1b4ab14 tone:InputAiComposeTone num:int = AiComposeToneExample;
@@ -38,8 +38,8 @@ aicompose.getToneExample#d1b4ab14 tone:InputAiComposeTone num:int = AiComposeTon
 ```php
 $aiComposeToneExample = $client->aicompose->getToneExample(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'ZExTbS1DIawUrRVj',
+		tone : 'QuU24blicmHhYwXn',
 	),
-	num : 24,
+	num : 95,
 );
 ```

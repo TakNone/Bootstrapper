@@ -2,7 +2,7 @@
 
 **Description** : *Represents an diff deletion: render it by simply underlining the specified section and coloring it in red, see here &raquo; for more info on how to render diff entities*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageEntityDiffDelete#652c1c5 offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityDiffDelete#652c1c5 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityDiffDelete(
 	offset : 0,
-	length : 57,
+	length : 37,
 );
 ```

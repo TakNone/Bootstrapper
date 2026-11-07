@@ -2,7 +2,7 @@
 
 **Description** : *Edit information about a participant of a non\-RTMP video chat/livestream or conference\. The raise\_hand field is only supported in video chats/livestreams, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.editGroupCallParticipant#a5273abf flags:# call:InputGroupCall participant:InputPeer muted:flags.0?Bool volume:flags.1?int raise_hand:flags.2?Bool video_stopped:flags.3?Bool video_paused:flags.4?Bool presentation_paused:flags.5?Bool = Updates;
@@ -52,15 +52,15 @@ phone.editGroupCallParticipant#a5273abf flags:# call:InputGroupCall participant:
 ```php
 $updates = $client->phone->editGroupCallParticipant(
 	call : $client->inputGroupCall(
-		id : 5732448177947014925,
-		access_hash : 3285214085936060099,
+		id : -3113445423681411388,
+		access_hash : 1760255671577594189,
 	),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
-	muted : false,
-	volume : 22,
+	muted : true,
+	volume : 20,
 	raise_hand : false,
 	video_stopped : false,
-	video_paused : false,
+	video_paused : true,
 	presentation_paused : true,
 );
 ```

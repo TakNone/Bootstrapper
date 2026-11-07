@@ -2,7 +2,7 @@
 
 **Description** : *An item of a todo list &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 todoItem#cba9a52f id:int title:TextWithEntities = TodoItem;
@@ -29,69 +29,69 @@ todoItem#cba9a52f id:int title:TextWithEntities = TodoItem;
 
 ```php
 $todoItem = $client->todoItem(
-	id : 6,
+	id : 55,
 	title : $client->textWithEntities(
-		text : 'IbDTGuEP21UrHvqC',
+		text : 'BAoEa4rk9WRvL3Of',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 57,
+				length : 84,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 44,
+				length : 29,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 68,
+				length : 42,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 54,
+				length : 53,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 1,
+				length : 24,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 3,
+				length : 66,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 79,
+				length : 50,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 50,
+				length : 60,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 14,
+				length : 97,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 25,
-				language : '2cfpsmudKilAnhMO',
+				length : 94,
+				language : 'hJkxEm8Bsb21d5cR',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 11,
+				length : 80,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 21,
-				user_id : 6428376893113664638,
+				length : 83,
+				user_id : -8700675606068155092,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 24,
+				length : 41,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 2,
+				length : 10,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
@@ -99,29 +99,29 @@ $todoItem = $client->todoItem(
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 7,
+				length : 13,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 21,
+				length : 54,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 80,
+				length : 8,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 25,
+				length : 40,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 4,
-				document_id : 6810635888587182269,
+				length : 26,
+				document_id : -1987289190240569786,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 24,
+				length : 25,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -131,21 +131,25 @@ $todoItem = $client->todoItem(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 34,
-				date : 62,
+				length : 68,
+				date : 58,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 12,
+				length : 59,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 37,
-				old_text : 'LVXkySr8nF9jb6qP',
+				length : 73,
+				old_text : 'j5VJ3BOsD9ZfcTvQ',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 90,
+				length : 16,
+			),
+			$client->messageEntityTonAddress(
+				offset : 0,
+				length : 25,
 			),
 		),
 	),

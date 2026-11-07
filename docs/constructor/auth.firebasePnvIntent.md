@@ -1,6 +1,6 @@
 # auth.firebasePnvIntent
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.firebasePnvIntent#df5ac00c nonce:string digital_credential_payload:string = auth.FirebasePnvIntent;
@@ -27,7 +27,7 @@ auth.firebasePnvIntent#df5ac00c nonce:string digital_credential_payload:string =
 
 ```php
 $authFirebasePnvIntent = $client->auth->firebasePnvIntent(
-	nonce : 'hnM7qlGvirP0fFCk',
-	digital_credential_payload : 'K2cAGNHs0U4QpbDY',
+	nonce : 'lH5xDfb7iy3UScFQ',
+	digital_credential_payload : '7gGQ1ychWxBITqbR',
 );
 ```

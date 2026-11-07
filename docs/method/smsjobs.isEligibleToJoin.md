@@ -2,7 +2,7 @@
 
 **Description** : *Check if we can process SMS jobs \(official clients only\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 smsjobs.isEligibleToJoin#edc39d0 = smsjobs.EligibilityToJoin;

@@ -2,7 +2,7 @@
 
 **Description** : *Type of verification code that will be sent next if you call the resendCode method*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.codeTypeSms#72a3158c = auth.CodeType;

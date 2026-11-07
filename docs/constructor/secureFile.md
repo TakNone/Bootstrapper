@@ -2,7 +2,7 @@
 
 **Description** : *Secure passport file, for more info see the passport docs &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 secureFile#7d09c27e id:long access_hash:long size:long dc_id:int date:int file_hash:bytes secret:bytes = SecureFile;
@@ -34,11 +34,11 @@ secureFile#7d09c27e id:long access_hash:long size:long dc_id:int date:int file_h
 
 ```php
 $secureFile = $client->secureFile(
-	id : -5248925491476080227,
-	access_hash : 2575713993153849157,
-	size : -7478095976435630030,
-	dc_id : 46,
-	date : 32,
+	id : -849673056728803325,
+	access_hash : -8096648188687602834,
+	size : -3999293426024842292,
+	dc_id : 17,
+	date : 77,
 	file_hash : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

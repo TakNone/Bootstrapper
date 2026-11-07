@@ -2,7 +2,7 @@
 
 **Description** : *The channel was created*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionChannelCreate#95d2ac92 title:string = MessageAction;
@@ -28,6 +28,6 @@ messageActionChannelCreate#95d2ac92 title:string = MessageAction;
 
 ```php
 $messageAction = $client->messageActionChannelCreate(
-	title : 'mTwXjBWl2IfcQFUr',
+	title : 'ne5kjTG0fZqDUCup',
 );
 ```

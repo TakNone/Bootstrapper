@@ -2,7 +2,7 @@
 
 **Description** : *Send paid reactions anonymously*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 paidReactionPrivacyAnonymous#1f0c1ad9 = PaidReactionPrivacy;

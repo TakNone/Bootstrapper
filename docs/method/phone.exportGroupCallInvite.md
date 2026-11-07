@@ -2,7 +2,7 @@
 
 **Description** : *Get an invite link for a public video chat/livestream &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:InputGroupCall = phone.ExportedGroupCallInvite;
@@ -41,8 +41,8 @@ phone.exportGroupCallInvite#e6aa647f flags:# can_self_unmute:flags.0?true call:I
 $phoneExportedGroupCallInvite = $client->phone->exportGroupCallInvite(
 	can_self_unmute : true,
 	call : $client->inputGroupCall(
-		id : -4062852322697495373,
-		access_hash : 5271853820462878921,
+		id : 2615951345474234727,
+		access_hash : -1298062494159560443,
 	),
 );
 ```

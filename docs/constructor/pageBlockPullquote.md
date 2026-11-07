@@ -2,7 +2,7 @@
 
 **Description** : *Pullquote*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pageBlockPullquote#4f4456d3 text:RichText caption:RichText = PageBlock;

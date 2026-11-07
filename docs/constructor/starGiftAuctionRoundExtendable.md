@@ -2,7 +2,7 @@
 
 **Description** : *Describes one or more extendable collectible gift auction rounds &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftAuctionRoundExtendable#aa021e5 num:int duration:int extend_top:int extend_window:int = StarGiftAuctionRound;
@@ -31,9 +31,9 @@ starGiftAuctionRoundExtendable#aa021e5 num:int duration:int extend_top:int exten
 
 ```php
 $starGiftAuctionRound = $client->starGiftAuctionRoundExtendable(
-	num : 93,
-	duration : 16,
-	extend_top : 43,
-	extend_window : 38,
+	num : 90,
+	duration : 45,
+	extend_top : 50,
+	extend_window : 7,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Bots may use this method to prepare a peer request button for a Mini App, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.requestWebViewButton#31a2a35e user_id:InputUser button:KeyboardButton = bots.RequestedButton;
@@ -45,9 +45,9 @@ $botsRequestedButton = $client->bots->requestWebViewButton(
 			bg_primary : true,
 			bg_danger : true,
 			bg_success : true,
-			icon : 7167657765690098019,
+			icon : -948400690652174523,
 		),
-		text : 'z43CENBotnVr2exf',
+		text : 'vtl1BbAzwk6m3sNd',
 		type : $client->buttonTypeDefault(),
 	),
 );

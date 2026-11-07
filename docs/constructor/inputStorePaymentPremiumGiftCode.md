@@ -2,7 +2,7 @@
 
 **Description** : *Used to gift Telegram Premium subscriptions only to some specific subscribers of a channel/supergroup or to some of our contacts, see here &raquo; for more info on giveaways and gifts*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputStorePaymentPremiumGiftCode#fb790393 flags:# users:Vector<InputUser> boost_peer:flags.0?InputPeer currency:string amount:long message:flags.1?TextWithEntities = InputStorePaymentPurpose;
@@ -35,100 +35,100 @@ inputStorePaymentPremiumGiftCode#fb790393 flags:# users:Vector<InputUser> boost_
 $inputStorePaymentPurpose = $client->inputStorePaymentPremiumGiftCode(
 	users : array($client->get_input_user(user : '@TakNone')),
 	boost_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	currency : '3MJt1kDGwO6iVjye',
-	amount : -7662721637865673000,
+	currency : 'nwSeAaFv4WBJTcPX',
+	amount : -1406252050166074680,
 	message : $client->textWithEntities(
-		text : '826evK4FXqwMmty3',
+		text : 'aS4cvqyeJo0mTB6d',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 82,
+				length : 99,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 99,
+				length : 100,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 32,
+				length : 44,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 32,
+				length : 6,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 86,
+				length : 80,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 80,
+				length : 36,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 58,
+				length : 61,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 98,
+				length : 23,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 74,
+				length : 88,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 75,
-				language : 'dbBpDTx2CLWvI7Fo',
+				length : 84,
+				language : '0pniKOs864JcAyXa',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 66,
+				length : 34,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 22,
-				user_id : 4095532063046823814,
+				length : 46,
+				user_id : -1814853922246010482,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 29,
+				length : 43,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 83,
+				length : 69,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 47,
+				length : 67,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 19,
+				length : 81,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 61,
+				length : 24,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 4,
+				length : 44,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 67,
+				length : 34,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 40,
-				document_id : -789518989456446428,
+				length : 8,
+				document_id : -7793989549483700181,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 10,
+				length : 8,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -138,21 +138,25 @@ $inputStorePaymentPurpose = $client->inputStorePaymentPremiumGiftCode(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 64,
-				date : 65,
+				length : 95,
+				date : 80,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 67,
+				length : 53,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 18,
-				old_text : '597P6NdsweiCjcMa',
+				length : 87,
+				old_text : 'zbcfGqmJejhMLKgR',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 35,
+				length : 52,
+			),
+			$client->messageEntityTonAddress(
+				offset : 0,
+				length : 85,
 			),
 		),
 	),

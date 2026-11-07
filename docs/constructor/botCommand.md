@@ -2,7 +2,7 @@
 
 **Description** : *Describes a bot command that can be used in a chat*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 botCommand#9852d6d2 flags:# ephemeral:flags.0?true command:string description:string = BotCommand;
@@ -32,7 +32,7 @@ botCommand#9852d6d2 flags:# ephemeral:flags.0?true command:string description:st
 ```php
 $botCommand = $client->botCommand(
 	ephemeral : true,
-	command : 'AiJXU8Tj09bmHdPt',
-	description : 'P8GnjKauAkYlDgi5',
+	command : 'xYS17oWnaFrVkmDG',
+	description : 'XOq90Zm3ehYS2bdL',
 );
 ```

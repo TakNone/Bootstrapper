@@ -2,7 +2,7 @@
 
 **Description** : *Identifies a conference call &raquo; using its messageActionConferenceCall invitation service message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
@@ -28,6 +28,6 @@ inputGroupCallInviteMessage#8c10603f msg_id:int = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallInviteMessage(
-	msg_id : 80,
+	msg_id : 53,
 );
 ```

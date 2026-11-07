@@ -2,7 +2,7 @@
 
 **Description** : *Gets current notification settings for a given user/group, from all users/all groups*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.getNotifySettings#12b3ad31 peer:InputNotifyPeer = PeerNotifySettings;

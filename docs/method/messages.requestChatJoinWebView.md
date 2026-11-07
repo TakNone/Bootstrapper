@@ -1,6 +1,6 @@
 # messages.requestChatJoinWebView
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.requestChatJoinWebView#ba9ee679 flags:# query_id:long theme_params:flags.0?DataJSON platform:string = WebViewResult;
@@ -29,10 +29,10 @@ messages.requestChatJoinWebView#ba9ee679 flags:# query_id:long theme_params:flag
 
 ```php
 $webViewResult = $client->messages->requestChatJoinWebView(
-	query_id : 2612058638061220757,
+	query_id : 3681341973699862826,
 	theme_params : $client->dataJSON(
-		data : 'nOv63Pd1XS84D7HJ',
+		data : '1nUFaLwJXSlofKPq',
 	),
-	platform : 'fQet1i6TRp2LFrBP',
+	platform : 'lCwY3nuaA78qd1DJ',
 );
 ```

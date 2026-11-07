@@ -2,7 +2,7 @@
 
 **Description** : *Summarize the contents of a message with AI, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.summarizeText#abbbd346 flags:# peer:InputPeer id:int to_lang:flags.0?string tone:flags.2?string = TextWithEntities;
@@ -43,8 +43,8 @@ messages.summarizeText#abbbd346 flags:# peer:InputPeer id:int to_lang:flags.0?st
 ```php
 $textWithEntities = $client->messages->summarizeText(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 5,
-	to_lang : '21ofg8LjHZ4FCBtN',
-	tone : 'DetnNwvk1fiBFIH3',
+	id : 2,
+	to_lang : '2NlStwxhnv8digKy',
+	tone : 'R5IFmZOVzuK0jb3l',
 );
 ```

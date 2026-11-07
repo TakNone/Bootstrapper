@@ -2,7 +2,7 @@
 
 **Description** : *A new E2E\-encrypted message or emoji reaction was received in a conference call, see here &raquo; for the decryption process*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateGroupCallEncryptedMessage#c957a766 call:InputGroupCall from_id:Peer encrypted_message:bytes = Update;
@@ -31,11 +31,11 @@ updateGroupCallEncryptedMessage#c957a766 call:InputGroupCall from_id:Peer encryp
 ```php
 $update = $client->updateGroupCallEncryptedMessage(
 	call : $client->inputGroupCall(
-		id : -3731815707220929360,
-		access_hash : -6567847897083836313,
+		id : 4485680495513561041,
+		access_hash : -6477340224260811187,
 	),
 	from_id : $client->peerUser(
-		user_id : -3672450679407424512,
+		user_id : 4739038623841514000,
 	),
 	encrypted_message : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

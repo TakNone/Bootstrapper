@@ -2,7 +2,7 @@
 
 **Description** : *Initialize passkey registration for the current account, see here &raquo; for more info on the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.initPasskeyRegistration#429547e8 = account.PasskeyRegistrationOptions;

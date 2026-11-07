@@ -2,7 +2,7 @@
 
 **Description** : *Indicates an already sent game*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 game#bdf9653b flags:# id:long access_hash:long short_name:string title:string description:string photo:Photo document:flags.0?Document = Game;
@@ -35,16 +35,16 @@ game#bdf9653b flags:# id:long access_hash:long short_name:string title:string de
 
 ```php
 $game = $client->game(
-	id : 6478187972065347723,
-	access_hash : 2709582191015708838,
-	short_name : 'tiHwF06ReXodGCnP',
-	title : 'tv9GDP2E8QUfqsKO',
-	description : 'CLJXQVOHqIuDATMf',
+	id : -3057705720151688770,
+	access_hash : 4383635179812793507,
+	short_name : 'B7kTsPanYtGFhSKl',
+	title : 'uITfUnJ4zYhPxFQN',
+	description : '4kMsDjAvQcFtXPqW',
 	photo : $client->photoEmpty(
-		id : -8326873050812707172,
+		id : 583352988449980565,
 	),
 	document : $client->documentEmpty(
-		id : 4995563499289224936,
+		id : -861662670019960875,
 	),
 );
 ```

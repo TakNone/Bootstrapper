@@ -2,7 +2,7 @@
 
 **Description** : *Contains an offer to purchase a collectible gift &raquo;, see here &raquo; for the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionStarGiftPurchaseOffer#774278d4 flags:# accepted:flags.0?true declined:flags.1?true gift:StarGift price:StarsAmount expires_at:int = MessageAction;
@@ -43,40 +43,40 @@ $messageAction = $client->messageActionStarGiftPurchaseOffer(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : 5948187627072583506,
+		id : -3792125372355006283,
 		sticker : $client->documentEmpty(
-			id : -1534113982575568736,
+			id : -2903024036967287023,
 		),
-		stars : 4514390251017748728,
-		availability_remains : 58,
-		availability_total : 66,
-		availability_resale : 7341116122223438052,
-		convert_stars : 8381826906278564455,
-		first_sale_date : 96,
-		last_sale_date : 81,
-		upgrade_stars : -6815140020280799998,
-		resell_min_stars : -4208614152840854510,
-		title : 'M4kagF1YpubrRD2n',
+		stars : -7594553822657984867,
+		availability_remains : 85,
+		availability_total : 67,
+		availability_resale : 1810605474569470077,
+		convert_stars : 8499943596113788471,
+		first_sale_date : 76,
+		last_sale_date : 11,
+		upgrade_stars : -586984371551530761,
+		resell_min_stars : -7303036783640238603,
+		title : 'YjLpNmf8zZFCoSJM',
 		released_by : $client->peerUser(
-			user_id : -2818919392595154844,
+			user_id : 5558380904563661814,
 		),
-		per_user_total : 41,
-		per_user_remains : 69,
-		locked_until_date : 50,
-		auction_slug : 'LmMk2cTvguqxaJzt',
-		gifts_per_round : 94,
-		auction_start_date : 47,
-		upgrade_variants : 69,
+		per_user_total : 15,
+		per_user_remains : 91,
+		locked_until_date : 14,
+		auction_slug : 'PB8pSeRWyHuqEJrx',
+		gifts_per_round : 35,
+		auction_start_date : 16,
+		upgrade_variants : 95,
 		background : $client->starGiftBackground(
-			center_color : 52,
-			edge_color : 5,
-			text_color : 38,
+			center_color : 54,
+			edge_color : 88,
+			text_color : 14,
 		),
 	),
 	price : $client->starsAmount(
-		amount : -1298628441163805727,
-		nanos : 7,
+		amount : 1510984666572154817,
+		nanos : 19,
 	),
-	expires_at : 79,
+	expires_at : 68,
 );
 ```

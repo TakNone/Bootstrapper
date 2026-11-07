@@ -1,6 +1,6 @@
 # ephemeral.deleteMessage
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 ephemeral.deleteMessage#92f6e797 flags:# peer:flags.0?InputPeer receiver_id:InputUser id:int = Bool;
@@ -31,6 +31,6 @@ ephemeral.deleteMessage#92f6e797 flags:# peer:flags.0?InputPeer receiver_id:Inpu
 $bool = $client->ephemeral->deleteMessage(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	receiver_id : $client->get_input_user(user : '@TakNone'),
-	id : 60,
+	id : 13,
 );
 ```

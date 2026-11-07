@@ -2,7 +2,7 @@
 
 **Description** : *Represents some saved message dialogs &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.savedDialogs#f83ae221 dialogs:Vector<SavedDialog> messages:Vector<Message> chats:Vector<Chat> users:Vector<User> = messages.SavedDialogs;

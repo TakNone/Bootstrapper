@@ -2,7 +2,7 @@
 
 **Description** : *Get the participants of a supergroup/channel*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channels.getParticipants#77ced9d0 channel:InputChannel filter:ChannelParticipantsFilter offset:int limit:int hash:long = channels.ChannelParticipants;
@@ -47,7 +47,7 @@ $channelsChannelParticipants = $client->channels->getParticipants(
 	channel : $client->get_input_channel(channel : '@LiveProto'),
 	filter : $client->channelParticipantsRecent(),
 	offset : 0,
-	limit : 27,
+	limit : 83,
 	hash : 0,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Used to pay for login codes, in case of high cost of SMS verification codes for the user&#039;s country/provider, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputInvoicePremiumAuthCode#3e77f614 purpose:InputStorePaymentPurpose = InputInvoice;

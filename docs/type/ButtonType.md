@@ -1,6 +1,6 @@
 # ButtonType
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 buttonTypeDefault#c9dd90e9 = ButtonType;

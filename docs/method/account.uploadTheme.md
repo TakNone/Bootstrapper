@@ -2,7 +2,7 @@
 
 **Description** : *Upload theme*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.uploadTheme#1c3db333 flags:# file:InputFile thumb:flags.0?InputFile file_name:string mime_type:string = Document;
@@ -43,7 +43,7 @@ account.uploadTheme#1c3db333 flags:# file:InputFile thumb:flags.0?InputFile file
 $document = $client->account->uploadTheme(
 	file : $client->upload_file(path : 'file.png'),
 	thumb : $client->upload_file(path : 'file.png'),
-	file_name : 'tkcr5KsEC1S2RYfD',
-	mime_type : 'exFqOS0B6sWacRtD',
+	file_name : '016FnemBYpaTtZvy',
+	mime_type : 'vlK7EakARU9TYpFo',
 );
 ```

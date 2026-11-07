@@ -2,7 +2,7 @@
 
 **Description** : *Indicates that group call information changed, see applying group call updates &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateGroupCall#9d2216e0 flags:# live_story:flags.2?true peer:flags.1?Peer call:GroupCall = Update;
@@ -33,12 +33,12 @@ updateGroupCall#9d2216e0 flags:# live_story:flags.2?true peer:flags.1?Peer call:
 $update = $client->updateGroupCall(
 	live_story : true,
 	peer : $client->peerUser(
-		user_id : -1889432837202814798,
+		user_id : 4533255942917321382,
 	),
 	call : $client->groupCallDiscarded(
-		id : 4568874030144669519,
-		access_hash : 8367077260839983984,
-		duration : 92,
+		id : 8595004402942536362,
+		access_hash : -6169621006699713102,
+		duration : 5,
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Clients should update folder info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateDialogFilters#3504914f = Update;

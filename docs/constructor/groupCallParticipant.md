@@ -2,7 +2,7 @@
 
 **Description** : *Describes a group call participant and their current state, see applying group call updates &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 groupCallParticipant#2a3dc7ac flags:# muted:flags.0?true left:flags.1?true can_self_unmute:flags.2?true just_joined:flags.4?true versioned:flags.5?true min:flags.8?true muted_by_you:flags.9?true volume_by_admin:flags.10?true self:flags.12?true video_joined:flags.15?true peer:Peer date:int active_date:flags.3?int source:int volume:flags.7?int about:flags.11?string raise_hand_rating:flags.13?long video:flags.6?GroupCallParticipantVideo presentation:flags.14?GroupCallParticipantVideo paid_stars_total:flags.16?long = GroupCallParticipant;
@@ -59,36 +59,36 @@ $groupCallParticipant = $client->groupCallParticipant(
 	self : true,
 	video_joined : true,
 	peer : $client->peerUser(
-		user_id : 236101587726045610,
+		user_id : -8544551338581455854,
 	),
-	date : 72,
-	active_date : 32,
-	source : 65,
-	volume : 54,
-	about : 'c6Ahae39vis0EQmB',
-	raise_hand_rating : 7846076781079360536,
+	date : 5,
+	active_date : 23,
+	source : 79,
+	volume : 33,
+	about : 'psSzd7RJvrqQoVIH',
+	raise_hand_rating : -4587265705334793109,
 	video : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'Zyz7isP4YovuLF9M',
+		endpoint : 'svqrkUa4O96QX3cf',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : 'T5D4pN1fhZeMvwmn',
-				sources : array(30),
+				semantics : 'cEO62G5qFsRZ7hDv',
+				sources : array(79),
 			),
 		),
-		audio_source : 2,
+		audio_source : 69,
 	),
 	presentation : $client->groupCallParticipantVideo(
 		paused : true,
-		endpoint : 'p61nb70wzx3WTy2l',
+		endpoint : 'u5H2ctRdATPUsKDW',
 		source_groups : array(
 			$client->groupCallParticipantVideoSourceGroup(
-				semantics : '4HzNpTxUwaJER56X',
-				sources : array(57),
+				semantics : 'zRyADZB7dgr0YkWb',
+				sources : array(62),
 			),
 		),
-		audio_source : 79,
+		audio_source : 84,
 	),
-	paid_stars_total : -2870000932194749471,
+	paid_stars_total : -1519393479087079404,
 );
 ```

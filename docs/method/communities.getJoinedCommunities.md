@@ -1,6 +1,6 @@
 # communities.getJoinedCommunities
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communities.getJoinedCommunities#a663e830 = messages.Chats;

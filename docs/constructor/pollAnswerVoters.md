@@ -2,7 +2,7 @@
 
 **Description** : *A poll answer, and how users voted on it*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pollAnswerVoters#3645230a flags:# chosen:flags.0?true correct:flags.1?true option:bytes voters:flags.2?int recent_voters:flags.2?Vector<Peer> = PollAnswerVoters;
@@ -36,16 +36,16 @@ $pollAnswerVoters = $client->pollAnswerVoters(
 	chosen : true,
 	correct : true,
 	option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	voters : 25,
+	voters : 13,
 	recent_voters : array(
 		$client->peerUser(
-			user_id : -5653029308145965457,
+			user_id : -4532667343300526348,
 		),
 		$client->peerChat(
-			chat_id : 2362584193627255281,
+			chat_id : 5492673320900270475,
 		),
 		$client->peerChannel(
-			channel_id : -1802084190913428734,
+			channel_id : 9037379991766051335,
 		),
 	),
 );

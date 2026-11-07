@@ -226,6 +226,12 @@ The generated login token should be encoded using base64url, then shown as a tg:
 
 ---
 
+##### auth cancelWebTokenAuthorization
+
+:link: [*NOTHING*](method/auth.cancelWebTokenAuthorization)
+
+---
+
 ##### auth initFirebasePnvLogin
 
 :link: [*NOTHING*](method/auth.initFirebasePnvLogin)
@@ -1224,6 +1230,18 @@ Returns an array of Telegram user IDs for all contacts \(0 if a contact does not
 ##### contacts updateContactNote
 
 :link: [*Update the private note associated to a contact; see here &raquo; for more info*](method/contacts.updateContactNote)
+
+---
+
+##### contacts exportNoPaidMessagesToken
+
+:link: [*NOTHING*](method/contacts.exportNoPaidMessagesToken)
+
+---
+
+##### contacts importNoPaidMessagesToken
+
+:link: [*NOTHING*](method/contacts.importNoPaidMessagesToken)
 
 ---
 
@@ -2789,6 +2807,66 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
+##### messages setShareTheme
+
+:link: [*NOTHING*](method/messages.setShareTheme)
+
+---
+
+##### messages getShareThemeBackdrops
+
+:link: [*NOTHING*](method/messages.getShareThemeBackdrops)
+
+---
+
+##### messages getBotWidgetQueryAnswer
+
+:link: [*NOTHING*](method/messages.getBotWidgetQueryAnswer)
+
+---
+
+##### messages setBotWidgetQueryAnswer
+
+:link: [*NOTHING*](method/messages.setBotWidgetQueryAnswer)
+
+---
+
+##### messages editMessageWidgetData
+
+:link: [*NOTHING*](method/messages.editMessageWidgetData)
+
+---
+
+##### messages editInlineBotMessageWidgetData
+
+:link: [*NOTHING*](method/messages.editInlineBotMessageWidgetData)
+
+---
+
+##### messages editWidgetData
+
+:link: [*NOTHING*](method/messages.editWidgetData)
+
+---
+
+##### messages getWidgetPublicData
+
+:link: [*NOTHING*](method/messages.getWidgetPublicData)
+
+---
+
+##### messages transcribeAudioFile
+
+:link: [*NOTHING*](method/messages.transcribeAudioFile)
+
+---
+
+##### messages getTranscriptionLangs
+
+:link: [*NOTHING*](method/messages.getTranscriptionLangs)
+
+---
+
 ##### updates getState
 
 :link: [*Returns a current state of updates*](method/updates.getState)
@@ -3611,6 +3689,18 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 
 ---
 
+##### bots addUsername
+
+:link: [*NOTHING*](method/bots.addUsername)
+
+---
+
+##### bots removeUsername
+
+:link: [*NOTHING*](method/bots.removeUsername)
+
+---
+
 ##### payments getPaymentForm
 
 :link: [*Get a payment form*](method/payments.getPaymentForm)
@@ -3998,6 +4088,72 @@ This will also emit an updateDeleteQuickReply update to other logged\-in session
 ##### payments craftStarGift
 
 :link: [*Craft a new collectible gift &raquo; by combining 1 to 4 owned collectible gifts of the same base gift type*](method/payments.craftStarGift)
+
+---
+
+##### payments getCurrencyRates
+
+:link: [*NOTHING*](method/payments.getCurrencyRates)
+
+---
+
+##### payments getOnrampProviders
+
+:link: [*NOTHING*](method/payments.getOnrampProviders)
+
+---
+
+##### payments getOnrampBaseCurrencies
+
+:link: [*NOTHING*](method/payments.getOnrampBaseCurrencies)
+
+---
+
+##### payments getOnrampAvailability
+
+:link: [*NOTHING*](method/payments.getOnrampAvailability)
+
+---
+
+##### payments getOnrampLimits
+
+:link: [*NOTHING*](method/payments.getOnrampLimits)
+
+---
+
+##### payments getOnrampQuote
+
+:link: [*NOTHING*](method/payments.getOnrampQuote)
+
+---
+
+##### payments createOnrampSession
+
+:link: [*NOTHING*](method/payments.createOnrampSession)
+
+---
+
+##### payments withdrawStarGift
+
+:link: [*NOTHING*](method/payments.withdrawStarGift)
+
+---
+
+##### payments depositStarGift
+
+:link: [*NOTHING*](method/payments.depositStarGift)
+
+---
+
+##### payments displayStarGift
+
+:link: [*NOTHING*](method/payments.displayStarGift)
+
+---
+
+##### payments deleteStarGift
+
+:link: [*NOTHING*](method/payments.deleteStarGift)
 
 ---
 
@@ -4894,3 +5050,171 @@ Will return a list of messages with peer\_id equal to the public channel to whic
 ##### ephemeral getWelcomeMessages
 
 :link: [*NOTHING*](method/ephemeral.getWelcomeMessages)
+
+---
+
+##### toncenter performApiRequest
+
+:link: [*NOTHING*](method/toncenter.performApiRequest)
+
+---
+
+##### toncenter getStreamingUrl
+
+:link: [*NOTHING*](method/toncenter.getStreamingUrl)
+
+---
+
+##### wallet getState
+
+:link: [*NOTHING*](method/wallet.getState)
+
+---
+
+##### wallet getUserAddresses
+
+:link: [*NOTHING*](method/wallet.getUserAddresses)
+
+---
+
+##### wallet getTransactions
+
+:link: [*NOTHING*](method/wallet.getTransactions)
+
+---
+
+##### wallet getTransactionsByIDs
+
+:link: [*NOTHING*](method/wallet.getTransactionsByIDs)
+
+---
+
+##### wallet getTransactionsByMsgHash
+
+:link: [*NOTHING*](method/wallet.getTransactionsByMsgHash)
+
+---
+
+##### wallet exportSecretPhrase
+
+:link: [*NOTHING*](method/wallet.exportSecretPhrase)
+
+---
+
+##### wallet fetchEncryptedSecretPhrasePart
+
+:link: [*NOTHING*](method/wallet.fetchEncryptedSecretPhrasePart)
+
+---
+
+##### wallet replaceWallet
+
+:link: [*NOTHING*](method/wallet.replaceWallet)
+
+---
+
+##### wallet disableBackup
+
+:link: [*NOTHING*](method/wallet.disableBackup)
+
+---
+
+##### wallet getBackupHolderDcs
+
+:link: [*NOTHING*](method/wallet.getBackupHolderDcs)
+
+---
+
+##### wallet enableBackup
+
+:link: [*NOTHING*](method/wallet.enableBackup)
+
+---
+
+##### wallet getProofChallenge
+
+:link: [*NOTHING*](method/wallet.getProofChallenge)
+
+---
+
+##### wallet sendTransfer
+
+:link: [*NOTHING*](method/wallet.sendTransfer)
+
+---
+
+##### wallet getGaslessInfo
+
+:link: [*NOTHING*](method/wallet.getGaslessInfo)
+
+---
+
+##### wallet getExistingWaltBalance
+
+:link: [*NOTHING*](method/wallet.getExistingWaltBalance)
+
+---
+
+##### wallet getNfts
+
+:link: [*NOTHING*](method/wallet.getNfts)
+
+---
+
+##### wallet tonConnectCreateSession
+
+:link: [*NOTHING*](method/wallet.tonConnectCreateSession)
+
+---
+
+##### wallet tonConnectRegisterKey
+
+:link: [*NOTHING*](method/wallet.tonConnectRegisterKey)
+
+---
+
+##### wallet tonConnectSubmitConnectResult
+
+:link: [*NOTHING*](method/wallet.tonConnectSubmitConnectResult)
+
+---
+
+##### wallet tonConnectGetPending
+
+:link: [*NOTHING*](method/wallet.tonConnectGetPending)
+
+---
+
+##### wallet tonConnectClaimRequest
+
+:link: [*NOTHING*](method/wallet.tonConnectClaimRequest)
+
+---
+
+##### wallet tonConnectSubmitResponse
+
+:link: [*NOTHING*](method/wallet.tonConnectSubmitResponse)
+
+---
+
+##### wallet tonConnectNextEventId
+
+:link: [*NOTHING*](method/wallet.tonConnectNextEventId)
+
+---
+
+##### wallet tonConnectCloseSession
+
+:link: [*NOTHING*](method/wallet.tonConnectCloseSession)
+
+---
+
+##### wallet tonConnectGetSessions
+
+:link: [*NOTHING*](method/wallet.tonConnectGetSessions)
+
+---
+
+##### wallet setCardStickers
+
+:link: [*NOTHING*](method/wallet.setCardStickers)

@@ -2,7 +2,7 @@
 
 **Description** : *Results of poll*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 pollResults#ba7bb15e flags:# min:flags.0?true has_unread_votes:flags.6?true can_view_stats:flags.7?true results:flags.1?Vector<PollAnswerVoters> total_voters:flags.2?int recent_voters:flags.3?Vector<Peer> solution:flags.4?string solution_entities:flags.4?Vector<MessageEntity> solution_media:flags.5?MessageMedia = PollResults;
@@ -45,123 +45,123 @@ $pollResults = $client->pollResults(
 			chosen : true,
 			correct : true,
 			option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			voters : 64,
+			voters : 15,
 			recent_voters : array(
 				$client->peerUser(
-					user_id : -1419832632061866360,
+					user_id : 8247003023008890396,
 				),
 				$client->peerChat(
-					chat_id : -2885474533875389040,
+					chat_id : 8924202258906962818,
 				),
 				$client->peerChannel(
-					channel_id : 406867280770451049,
+					channel_id : -3699054995062058424,
 				),
 			),
 		),
 	),
-	total_voters : 35,
+	total_voters : 98,
 	recent_voters : array(
 		$client->peerUser(
-			user_id : -862334132572171886,
+			user_id : 8457190698552442637,
 		),
 		$client->peerChat(
-			chat_id : 2220711096062412155,
+			chat_id : -6269969183830040473,
 		),
 		$client->peerChannel(
-			channel_id : -8297041581625833717,
+			channel_id : -1254561004690510636,
 		),
 	),
-	solution : 'mPh40UsTcIzwiud7',
+	solution : 'JABDzHYr6aZF8gkf',
 	solution_entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 8,
+			length : 99,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 42,
+			length : 55,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 79,
+			length : 89,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 84,
+			length : 14,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 69,
+			length : 62,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 78,
+			length : 23,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 24,
+			length : 22,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 63,
+			length : 80,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 20,
+			length : 2,
 		),
 		$client->messageEntityPre(
 			offset : 0,
 			length : 98,
-			language : 'wJqhVI4Q07rupGlO',
+			language : 'zYnKJvgP4fHGcw1U',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 54,
+			length : 87,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 66,
-			user_id : 8031788748448684169,
+			length : 31,
+			user_id : -7926658408747915479,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 58,
+			length : 90,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 11,
+			length : 14,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 57,
+			length : 47,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 88,
+			length : 42,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 95,
+			length : 76,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 96,
+			length : 48,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 30,
+			length : 76,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 6,
-			document_id : -5785177516385802795,
+			length : 75,
+			document_id : 490407535434833997,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 34,
+			length : 24,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -171,21 +171,25 @@ $pollResults = $client->pollResults(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 78,
-			date : 80,
+			length : 14,
+			date : 62,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 37,
+			length : 23,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 79,
-			old_text : 'Bc0VHLJh2IGzOEeP',
+			length : 47,
+			old_text : '2ptXCUAonlcxQbPy',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 26,
+			length : 57,
+		),
+		$client->messageEntityTonAddress(
+			offset : 0,
+			length : 7,
 		),
 	),
 	solution_media : $client->messageMediaEmpty(),

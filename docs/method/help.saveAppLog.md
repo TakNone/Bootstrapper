@@ -2,7 +2,7 @@
 
 **Description** : *Saves logs of application on the server*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 help.saveAppLog#6f02f748 events:Vector<InputAppEvent> = Bool;
@@ -30,9 +30,9 @@ help.saveAppLog#6f02f748 events:Vector<InputAppEvent> = Bool;
 $bool = $client->help->saveAppLog(
 	events : array(
 		$client->inputAppEvent(
-			time : -58289.2021484375,
-			type : 'aQzs94cLHliWtZ0V',
-			peer : -4906868921297037237,
+			time : -1487565.841796875,
+			type : 'SaWHC4tknv8db1YG',
+			peer : 3403558131714323725,
 			data : $client->jsonNull(),
 		),
 	),

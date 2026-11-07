@@ -2,7 +2,7 @@
 
 **Description** : *Edit forum topic*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.editForumTopic#cecc1134 flags:# peer:InputPeer topic_id:int title:flags.0?string icon_emoji_id:flags.1?long closed:flags.2?Bool hidden:flags.3?Bool = Updates;
@@ -45,9 +45,9 @@ messages.editForumTopic#cecc1134 flags:# peer:InputPeer topic_id:int title:flags
 ```php
 $updates = $client->messages->editForumTopic(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	topic_id : 37,
-	title : 'wcdYmrkVeR4ML5zS',
-	icon_emoji_id : -1914540370653110542,
+	topic_id : 81,
+	title : 'nXlYM95utT41NhQS',
+	icon_emoji_id : -7891554379159157261,
 	closed : true,
 	hidden : true,
 );

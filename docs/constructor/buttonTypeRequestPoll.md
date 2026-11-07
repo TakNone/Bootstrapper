@@ -1,6 +1,6 @@
 # buttonTypeRequestPoll
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 buttonTypeRequestPoll#aacfff84 flags:# quiz:flags.0?Bool = ButtonType;

@@ -2,7 +2,7 @@
 
 **Description** : *Used to fetch auctions using the ID of the linked collectible gift*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputStarGiftAuction#2e16c98 gift_id:long = InputStarGiftAuction;
@@ -28,6 +28,6 @@ inputStarGiftAuction#2e16c98 gift_id:long = InputStarGiftAuction;
 
 ```php
 $inputStarGiftAuction = $client->inputStarGiftAuction(
-	gift_id : -754203200620395436,
+	gift_id : 3550959294418498725,
 );
 ```

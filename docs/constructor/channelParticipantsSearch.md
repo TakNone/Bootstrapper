@@ -2,7 +2,7 @@
 
 **Description** : *Query participants by name*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 channelParticipantsSearch#656ac4b q:string = ChannelParticipantsFilter;
@@ -28,6 +28,6 @@ channelParticipantsSearch#656ac4b q:string = ChannelParticipantsFilter;
 
 ```php
 $channelParticipantsFilter = $client->channelParticipantsSearch(
-	q : 'zoatvR291ruWM7Zk',
+	q : 'mL3to4lvHwXRADeW',
 );
 ```

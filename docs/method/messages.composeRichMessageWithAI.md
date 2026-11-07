@@ -1,6 +1,6 @@
 # messages.composeRichMessageWithAI
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.composeRichMessageWithAI#8d7ae6af flags:# proofread:flags.0?true emojify:flags.3?true text:flags.4?InputRichMessage translate_to_lang:flags.1?string tone:flags.2?InputAiComposeTone = messages.ComposedRichMessageWithAI;
@@ -46,7 +46,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 			),
 			$client->pageBlockAuthorDate(
 				author : $client->textEmpty(),
-				published_date : 30,
+				published_date : 88,
 			),
 			$client->pageBlockHeader(
 				text : $client->textEmpty(),
@@ -59,14 +59,14 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 			),
 			$client->pageBlockPreformatted(
 				text : $client->textEmpty(),
-				language : 'xcIkAMnrmF7o6Tjp',
+				language : '5Bfmwpb1MRczHQFT',
 			),
 			$client->pageBlockFooter(
 				text : $client->textEmpty(),
 			),
 			$client->pageBlockDivider(),
 			$client->pageBlockAnchor(
-				name : 'lB407Qrao5xMJYNj',
+				name : 'LZaE3kXBRyGOfwMP',
 			),
 			$client->pageBlockList(
 				items : array(
@@ -135,19 +135,19 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 			),
 			$client->pageBlockPhoto(
 				spoiler : true,
-				photo_id : -898907287007863311,
+				photo_id : -4746510161166542075,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
 				),
 				url : 'https://docs.liveproto.dev',
-				webpage_id : -6729407902609421020,
+				webpage_id : 4462961815942196612,
 			),
 			$client->pageBlockVideo(
 				autoplay : true,
 				loop : true,
 				spoiler : true,
-				video_id : -5046080073829575983,
+				video_id : 2904877264609136689,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -160,10 +160,10 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 				full_width : true,
 				allow_scrolling : true,
 				url : 'https://docs.liveproto.dev',
-				html : '4fI5hVuBqCZao2rH',
-				poster_photo_id : 7346557656941187628,
-				w : 78,
-				h : 35,
+				html : 'gY8rBLuezdi7Uxbt',
+				poster_photo_id : 221980511528277843,
+				w : 86,
+				h : 15,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -171,10 +171,10 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 			),
 			$client->pageBlockEmbedPost(
 				url : 'https://docs.liveproto.dev',
-				webpage_id : 8556054992134038085,
-				author_photo_id : -8624590680109189507,
-				author : 'oMfNRhXEp0dW5YaF',
-				date : 71,
+				webpage_id : 215870496015499700,
+				author_photo_id : -1823831825087006153,
+				author : 'enFW83Rc7yXflzoP',
+				date : 15,
 				blocks : array(
 					$client->pageBlockUnsupported(),
 					$client->pageBlockTitle(
@@ -185,7 +185,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 43,
+						published_date : 50,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -198,14 +198,14 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'VD2sPcUCJA3qkmr7',
+						language : '4vEFHRpoyieYrIbW',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'vuSmPHkweWrROJTX',
+						name : '5c4yz8RJdM61BoOG',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -224,16 +224,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -6591278332883951795,
+						photo_id : 954041021584395479,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -1890565530018579445,
+						webpage_id : 4357174260034432590,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : 7151170870499008726,
+						video_id : 8550801422040819031,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -243,18 +243,18 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'MOzr76fWv0YQTGio',
-						poster_photo_id : -9067968328270091647,
-						w : 16,
-						h : 24,
+						html : 'nurGJhLEcHozPdqT',
+						poster_photo_id : -6715113203546312144,
+						w : 68,
+						h : 96,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 8729365895238646465,
-						author_photo_id : -3106703098240037370,
-						author : 'tMS5B9nZuQiGpHN0',
-						date : 76,
+						webpage_id : 4256406588243416527,
+						author_photo_id : 5954536832366837002,
+						author : 'Dx2A7j4UrPYGiZup',
+						date : 100,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -396,7 +396,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -4965789147205990460,
+						audio_id : 943795318649209189,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -417,8 +417,8 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 16,
-						type : 'AjLYhaRVtIo08bkd',
+						start : 1,
+						type : 'ycpQ4ft8oCevszUR',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -475,9 +475,9 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 85,
-						w : 24,
-						h : 41,
+						zoom : 87,
+						w : 80,
+						h : 10,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -499,16 +499,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'YEcW7h3iy5Jgmpz4',
+						source : '6BsRY8yHb3lo2hUG',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 67,
-						w : 57,
-						h : 90,
+						zoom : 22,
+						w : 48,
+						h : 79,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -566,7 +566,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : -2080459987040530009,
+						document_id : -2326798314423147859,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -586,7 +586,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 46,
+						published_date : 19,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -599,14 +599,14 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'MqSsYjCWJRx31Na8',
+						language : 'naS5zXYfLWO4T1mM',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : '1qRVyAIi7fawWQgK',
+						name : 't9yQwNEJreWOuUFb',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -625,16 +625,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 1220939750177517500,
+						photo_id : 6576896535788643542,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -5159210667285393689,
+						webpage_id : -451383866950319591,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : 5295971245042785268,
+						video_id : 1071902089185988634,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -644,18 +644,18 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'r5HTEaeWSDjuC3b2',
-						poster_photo_id : 4127953425344109982,
-						w : 51,
-						h : 95,
+						html : 'AeG9WwCq7lEMsSfb',
+						poster_photo_id : -7786516979332783166,
+						w : 28,
+						h : 62,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -8208167135540851381,
-						author_photo_id : -1424035878266653741,
-						author : '0TstZ3MCSh8qaUQY',
-						date : 32,
+						webpage_id : 4903366231942337983,
+						author_photo_id : 3299684111953702184,
+						author : 'pfuYXP85sqZ9yATD',
+						date : 89,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -797,7 +797,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 2152161403669517861,
+						audio_id : -4805319028925329836,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -818,8 +818,8 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 44,
-						type : 'Ppg3BFDH8jkxb2qy',
+						start : 36,
+						type : 'HeX4fW8VCZ1SomRA',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -876,9 +876,9 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 96,
-						w : 82,
-						h : 38,
+						zoom : 20,
+						w : 56,
+						h : 31,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -900,16 +900,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : '0HT5vUdzAWycIYpo',
+						source : 'UL3HJVjxDFmh89Sl',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 53,
-						w : 60,
-						h : 33,
+						zoom : 20,
+						w : 10,
+						h : 43,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -967,7 +967,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : 2725333630488942831,
+						document_id : -3962955042574413245,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -987,7 +987,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 29,
+						published_date : 54,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -1000,14 +1000,14 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : '2UmK5cAYxWfbsJ3i',
+						language : 'bvReQxY12wUCI8TP',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'tILYGW4qm7fb5hoU',
+						name : '3IKSAisv4bydBR8Y',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1026,16 +1026,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -7665901528487211095,
+						photo_id : -559528304367575723,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -2989950505565922176,
+						webpage_id : -2618059376045861796,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : 2647370812699861483,
+						video_id : 461776128874537618,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1045,18 +1045,18 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'GOiuIJmULedXo19y',
-						poster_photo_id : -2240050542320889194,
-						w : 14,
-						h : 72,
+						html : 'Lm9nTWjqEiw0YHl8',
+						poster_photo_id : 6539578378017258433,
+						w : 27,
+						h : 71,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -7789485246510225877,
-						author_photo_id : 7781925709355417299,
-						author : 'zaKC8RZJ9bft3LYI',
-						date : 98,
+						webpage_id : -5341976412376132741,
+						author_photo_id : 8088968660308948897,
+						author : 'uIhMYkUrjVPGNozO',
+						date : 38,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1198,7 +1198,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 8819469361926384122,
+						audio_id : 7415904581584414195,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -1219,8 +1219,8 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 34,
-						type : 'B8Xq3UEetPcdjLnZ',
+						start : 67,
+						type : 'wrshatSJ3YRLoONy',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -1277,9 +1277,9 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 7,
-						w : 55,
-						h : 54,
+						zoom : 25,
+						w : 10,
+						h : 26,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -1301,16 +1301,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'ePCnrJWRy4qMYBd0',
+						source : 'MoCeP6AvIfrnGF3J',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 49,
-						w : 0,
-						h : 54,
+						zoom : 15,
+						w : 39,
+						h : 28,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -1368,7 +1368,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : -7317420448644918181,
+						document_id : -4154157500848707459,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -1379,11 +1379,11 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 			),
 			$client->pageBlockChannel(
 				channel : $client->chatEmpty(
-					id : -461809498680947264,
+					id : 5664271311850196756,
 				),
 			),
 			$client->pageBlockAudio(
-				audio_id : 1097672091576929289,
+				audio_id : -997449147974041096,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -1411,15 +1411,15 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					$client->pageListOrderedItemText(
 						checkbox : true,
 						checked : true,
-						num : 'hHTi8tJmqso9ygFn',
+						num : 'tY2Ppze3ZQTCr4EL',
 						text : $client->textEmpty(...),
-						value : 68,
-						type : 'BSdIZn7uj241iEoP',
+						value : 86,
+						type : 'UBwznK7D1Mlio0WL',
 					),
 					$client->pageListOrderedItemBlocks(
 						checkbox : true,
 						checked : true,
-						num : 'nHugY8r5sGSNWDwL',
+						num : 'mcSCF9vxNRudWUen',
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1463,12 +1463,12 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 							$client->pageBlockButtonRow(...),
 							$client->pageBlockDocument(...),
 						),
-						value : 32,
-						type : '0cEjpO8vZLsRgl4u',
+						value : 66,
+						type : '0bZsEmra4hGX9tSN',
 					),
 				),
-				start : 69,
-				type : 'uD2wm9kexdr0p61N',
+				start : 17,
+				type : 'fmCwvuQPze8KL39H',
 			),
 			$client->pageBlockDetails(
 				open : true,
@@ -1482,7 +1482,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 82,
+						published_date : 50,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -1495,14 +1495,14 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'aGXVzvT2hJnBdIFx',
+						language : '7OITKMQlE9iGt4hf',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'kw3PJvjSbOqlVHIa',
+						name : 'YvilzDRcdxOfGw6E',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1521,16 +1521,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 9039030443469313962,
+						photo_id : -3196610519404801245,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -9033164128593531307,
+						webpage_id : 3477351393669826897,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -3200242405481356588,
+						video_id : 907258119482977659,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1540,18 +1540,18 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : '0A7GLjfWaqwXovJ4',
-						poster_photo_id : -7282542991709737756,
-						w : 24,
-						h : 33,
+						html : 'jlE5Xnk1TFme98tz',
+						poster_photo_id : 2573146285242885635,
+						w : 10,
+						h : 11,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -7894134396079109478,
-						author_photo_id : 8293174421800000029,
-						author : '12RsqdrzwBNcyDgP',
-						date : 41,
+						webpage_id : 7593576198136336320,
+						author_photo_id : -3056232908380696810,
+						author : 'PurFOU2aMDh6bQHk',
+						date : 68,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1693,7 +1693,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -2757226439572752131,
+						audio_id : 5532247486851699040,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -1714,8 +1714,8 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 82,
-						type : 's1M4Twe3JRjogEVq',
+						start : 62,
+						type : 'VpPegfs9c0Hx8GhK',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -1772,9 +1772,9 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 27,
-						w : 85,
-						h : 87,
+						zoom : 97,
+						w : 5,
+						h : 49,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -1796,16 +1796,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'GFK83caufDTCvyrj',
+						source : 'L8KmkNOMwsXz3yob',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 86,
-						w : 83,
-						h : 86,
+						zoom : 89,
+						w : 30,
+						h : 93,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -1863,7 +1863,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : -2670180105508563811,
+						document_id : -175822660990149947,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -1874,20 +1874,20 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 				articles : array(
 					$client->pageRelatedArticle(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 6261159804425637546,
-						title : 'JUSieQwhzGXKWdLE',
-						description : '2feBrQV7uNLXt0gY',
-						photo_id : -8163402062827719979,
-						author : 'Mvk1stiKyZDh3gWJ',
-						published_date : 18,
+						webpage_id : -384654052408813311,
+						title : 'cDqMhURWXP5Tprkl',
+						description : 'thEAHL4RvjXyG2f6',
+						photo_id : 485830933841025580,
+						author : 'lz7MviXN0HfjRZas',
+						published_date : 33,
 					),
 				),
 			),
 			$client->pageBlockMap(
 				geo : $client->geoPointEmpty(),
-				zoom : 63,
-				w : 29,
-				h : 21,
+				zoom : 43,
+				w : 70,
+				h : 25,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -1912,16 +1912,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 				text : $client->textEmpty(),
 			),
 			$client->pageBlockMath(
-				source : 'oGThlxFJDIW7pcBK',
+				source : 'jbFEUqMtyYTQWuhx',
 			),
 			$client->pageBlockThinking(
 				text : $client->textEmpty(),
 			),
 			$client->inputPageBlockMap(
 				geo : $client->inputGeoPointEmpty(),
-				zoom : 40,
-				w : 11,
-				h : 60,
+				zoom : 98,
+				w : 90,
+				h : 99,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -1938,7 +1938,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 33,
+						published_date : 34,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -1951,14 +1951,14 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'L4Vj3kQflRJqSFXb',
+						language : '4mF0Iy6QAqUnC7bM',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'sOWQiLZzTcP9k1Av',
+						name : 'lxqTcKwCZ1X89hP7',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1977,16 +1977,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 4028365069218219443,
+						photo_id : -7961602053631928425,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 7039227109547252844,
+						webpage_id : -4188798474976592063,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -7182979258899876445,
+						video_id : -3718654514266150824,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1996,18 +1996,18 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'Hpls4kMUdwuCQ58z',
-						poster_photo_id : -4675909404346154308,
-						w : 86,
-						h : 93,
+						html : 'H3a872zvG4DRupLm',
+						poster_photo_id : 4453182297310489926,
+						w : 15,
+						h : 66,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -7886518743898230773,
-						author_photo_id : 4840745145171291232,
-						author : 'WDkMyre1BPXV6nK0',
-						date : 82,
+						webpage_id : -8931340997536780127,
+						author_photo_id : 7287783474779800797,
+						author : 'FjNwyKBZsAr6m2fa',
+						date : 90,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -2149,7 +2149,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 3978706750899057049,
+						audio_id : -1942362970989648224,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -2170,8 +2170,8 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 33,
-						type : 'JjcdM1BtPuw0f5W7',
+						start : 82,
+						type : 'CK6QUYpafwN9gFHc',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -2228,9 +2228,9 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 92,
-						w : 29,
-						h : 71,
+						zoom : 49,
+						w : 19,
+						h : 52,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -2252,16 +2252,16 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'Ytmyc3i2DNJWTV6q',
+						source : 'sZPLU3z2OQYlI0nB',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 5,
-						w : 32,
-						h : 74,
+						zoom : 93,
+						w : 73,
+						h : 75,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -2319,7 +2319,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 						),
 					),
 					$client->pageBlockDocument(
-						document_id : -7825750978125430239,
+						document_id : -3755929439331429327,
 						caption : $client->pageCaption(...),
 					),
 				),
@@ -2338,7 +2338,7 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 				),
 			),
 			$client->pageBlockDocument(
-				document_id : 3701680984142832258,
+				document_id : -9194031944462567157,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -2348,24 +2348,24 @@ $messagesComposedRichMessageWithAI = $client->messages->composeRichMessageWithAI
 		photos : array(
 			$client->inputPhotoEmpty(),
 			$client->inputPhoto(
-				id : -7269946066266738095,
-				access_hash : 9010510468116182233,
+				id : -795216216401630088,
+				access_hash : 4584183402330993997,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),
 		documents : array(
 			$client->inputDocumentEmpty(),
 			$client->inputDocument(
-				id : -8226443972507597682,
-				access_hash : 2003490137119003542,
+				id : 7159383823855033944,
+				access_hash : -5477358379440357462,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),
 		users : array($client->get_input_user(user : '@TakNone')),
 	),
-	translate_to_lang : 'Blp9W3bX78ZRxzky',
+	translate_to_lang : 'wzkphyobUJNg24LX',
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'p2s6L03gt1PneXOM',
+		tone : 'HoGymf86jqRY9ChA',
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Describes a partial list of users*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 users.usersSlice#315a4974 count:int users:Vector<User> = users.Users;
@@ -29,10 +29,10 @@ users.usersSlice#315a4974 count:int users:Vector<User> = users.Users;
 
 ```php
 $usersUsers = $client->users->usersSlice(
-	count : 51,
+	count : 26,
 	users : array(
 		$client->userEmpty(
-			id : 1939134978268333702,
+			id : -2311833623034223553,
 		),
 		$client->user(
 			self : true,
@@ -65,48 +65,51 @@ $usersUsers = $client->users->usersSlice(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 8364198254790916210,
-			access_hash : 2049049034049517720,
+			bot_forum_sidebar : true,
+			id : 606763587347336961,
+			access_hash : -1663816113219894843,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 42,
+			bot_info_version : 33,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'hxrAvyoG8WNK0eUI',
-					reason : 'urqNjMDJo5HdU7lS',
-					text : 'CUB4RsGkHyY7tVJQ',
+					platform : 'KwdGY94oIbqSOxQE',
+					reason : 'XA1f8wSGI5JaoLcV',
+					text : 'Kw1pqsGl3QTaxeNO',
 				),
 			),
-			bot_inline_placeholder : 'Xuv1Qzi9cIMl0aZ3',
-			lang_code : 'v7eYJSL2GXsHpDVI',
+			bot_inline_placeholder : 'ClsRJayA0bh7uUM1',
+			lang_code : 'dXs4ehlITonw9SjM',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
 					editable : true,
 					active : true,
+					deletable : true,
+					expired : true,
 					username : 'TakNone',
 				),
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 27,
+				max_id : 33,
 			),
 			color : $client->peerColor(
-				color : 24,
-				background_emoji_id : -3035601620035169617,
+				color : 62,
+				background_emoji_id : 3954255114186996518,
 			),
 			profile_color : $client->peerColor(
-				color : 74,
-				background_emoji_id : -3237543132973374467,
+				color : 62,
+				background_emoji_id : 4114222845652854040,
 			),
-			bot_active_users : 49,
-			bot_verification_icon : -7191201612798717900,
-			send_paid_messages_stars : 2348257861799888789,
-			linked_community_id : -2212272220332964675,
+			bot_active_users : 45,
+			bot_verification_icon : -7631008463574726941,
+			send_paid_messages_stars : 1901202606603123506,
+			linked_community_id : -1650503963580251932,
 		),
 	),
 );

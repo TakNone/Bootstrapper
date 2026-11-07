@@ -2,7 +2,7 @@
 
 **Description** : *Obtain configuration for two\-factor authorization with password*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.getPassword#548a30f5 = account.Password;

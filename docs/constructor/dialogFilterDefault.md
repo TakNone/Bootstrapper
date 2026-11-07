@@ -2,7 +2,7 @@
 
 **Description** : *Used only when reordering folders to indicate the default \(all chats\) folder*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 dialogFilterDefault#363293ae = DialogFilter;

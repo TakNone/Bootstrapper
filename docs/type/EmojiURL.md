@@ -2,7 +2,7 @@
 
 **Description** : *Emoji URL*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 emojiURL#a575739d url:string = EmojiURL;

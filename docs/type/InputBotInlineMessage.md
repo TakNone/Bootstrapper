@@ -2,7 +2,7 @@
 
 **Description** : *Represents a sent inline message from the perspective of a bot*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputBotInlineMessageMediaAuto#3380c786 flags:# invert_media:flags.3?true message:string entities:flags.1?Vector<MessageEntity> reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
@@ -14,6 +14,8 @@ inputBotInlineMessageGame#4b425864 flags:# reply_markup:flags.2?ReplyMarkup = In
 inputBotInlineMessageMediaInvoice#d7e78225 flags:# title:string description:string photo:flags.0?InputWebDocument invoice:Invoice payload:bytes provider:string provider_data:DataJSON reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
 inputBotInlineMessageMediaWebPage#bddcc510 flags:# invert_media:flags.3?true force_large_media:flags.4?true force_small_media:flags.5?true optional:flags.6?true message:string entities:flags.1?Vector<MessageEntity> url:string reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;
 inputBotInlineMessageRichMessage#b43df56c flags:# reply_markup:flags.2?ReplyMarkup rich_message:InputRichMessage = InputBotInlineMessage;
+inputBotInlineMessageWidget#f597a3f0 flags:# allow_queries:flags.0?true shared_widget:flags.1?true invert_media:flags.6?true width:int height:int html:string public_data:flags.2?string chat_data:flags.3?string reply_markup:flags.4?ReplyMarkup message:string entities:flags.5?Vector<MessageEntity> = InputBotInlineMessage;
+inputBotInlineMessageWidgetId#fe8b792b flags:# invert_media:flags.3?true widget_id:long chat_data:flags.0?string reply_markup:flags.1?ReplyMarkup message:string entities:flags.2?Vector<MessageEntity> = InputBotInlineMessage;
 ```
 
 ---
@@ -31,3 +33,5 @@ inputBotInlineMessageRichMessage#b43df56c flags:# reply_markup:flags.2?ReplyMark
 | [**inputBotInlineMessageMediaInvoice**](constructor/inputBotInlineMessageMediaInvoice) | An invoice |
 | [**inputBotInlineMessageMediaWebPage**](constructor/inputBotInlineMessageMediaWebPage) | Specifies options that will be used to generate the link preview for the message, or even a standalone link preview without an attached message |
 | [**inputBotInlineMessageRichMessage**](constructor/inputBotInlineMessageRichMessage) | NOTHING |
+| [**inputBotInlineMessageWidget**](constructor/inputBotInlineMessageWidget) | NOTHING |
+| [**inputBotInlineMessageWidgetId**](constructor/inputBotInlineMessageWidgetId) | NOTHING |

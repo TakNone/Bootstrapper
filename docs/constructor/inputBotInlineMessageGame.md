@@ -2,7 +2,7 @@
 
 **Description** : *A game*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputBotInlineMessageGame#4b425864 flags:# reply_markup:flags.2?ReplyMarkup = InputBotInlineMessage;

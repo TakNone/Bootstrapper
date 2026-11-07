@@ -2,7 +2,7 @@
 
 **Description** : *Indicates that messages were deleted from the in\-call message overlay &raquo; of a video chat/livestream or live story, including in RTMP mode*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> = Update;
@@ -30,9 +30,9 @@ updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> 
 ```php
 $update = $client->updateDeleteGroupCallMessages(
 	call : $client->inputGroupCall(
-		id : 6659464446505275752,
-		access_hash : 6383911056479017872,
+		id : 4679660915672615841,
+		access_hash : -1563596366610859532,
 	),
-	messages : array(59),
+	messages : array(94),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Send an offer to purchase a collectible gift &raquo;, see here &raquo; for the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.sendStarGiftOffer#8fb86b41 flags:# peer:InputPeer slug:string price:StarsAmount duration:int random_id:long allow_paid_stars:flags.0?long = Updates;
@@ -51,13 +51,13 @@ payments.sendStarGiftOffer#8fb86b41 flags:# peer:InputPeer slug:string price:Sta
 ```php
 $updates = $client->payments->sendStarGiftOffer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	slug : '5QhzuW0BiORc9Tjd',
+	slug : 'DLWwRB7AfV9ldHP6',
 	price : $client->starsAmount(
-		amount : 2562799896284250298,
-		nanos : 23,
+		amount : -585189521636611216,
+		nanos : 66,
 	),
-	duration : 92,
-	random_id : 9095590208585726984,
-	allow_paid_stars : -5369586636258290503,
+	duration : 4,
+	random_id : -1205550623672086981,
+	allow_paid_stars : -5140785177731056528,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *TON gifts stickerset*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputStickerSetTonGifts#1cf671a0 = InputStickerSet;

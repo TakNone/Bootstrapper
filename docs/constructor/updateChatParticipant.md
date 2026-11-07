@@ -2,7 +2,7 @@
 
 **Description** : *A user has joined or left a specific basic group &raquo;: this update can only be received by bots, see here &raquo; for the user version of this update*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateChatParticipant#d087663a flags:# chat_id:long date:int actor_id:long user_id:long prev_participant:flags.0?ChatParticipant new_participant:flags.1?ChatParticipant invite:flags.2?ExportedChatInvite qts:int = Update;
@@ -36,41 +36,41 @@ updateChatParticipant#d087663a flags:# chat_id:long date:int actor_id:long user_
 
 ```php
 $update = $client->updateChatParticipant(
-	chat_id : -7779725869429901285,
-	date : 80,
-	actor_id : 7715090192558284890,
-	user_id : 5506207720645273901,
+	chat_id : 5183734272283347064,
+	date : 85,
+	actor_id : -8807418972672999229,
+	user_id : -2071325970579058102,
 	prev_participant : $client->chatParticipant(
-		user_id : 1385734588448325932,
-		inviter_id : 3833760038868632075,
-		date : 23,
-		rank : 'sgtO9ZVnJByivN0Y',
+		user_id : 3631054672972638532,
+		inviter_id : 1825344351759146959,
+		date : 51,
+		rank : 'SF6MnovX7PrhmEsL',
 	),
 	new_participant : $client->chatParticipant(
-		user_id : 1028443483061738256,
-		inviter_id : -5484691866234835002,
-		date : 76,
-		rank : 'KFch2CeHgqQzPlnR',
+		user_id : -7555958426344177552,
+		inviter_id : -975876811121112873,
+		date : 5,
+		rank : 'W4SdfPVTKRbMHtya',
 	),
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'HjqIiyv1kg06TBpX',
-		admin_id : 3827246322995313220,
-		date : 62,
-		start_date : 16,
-		expire_date : 45,
-		usage_limit : 60,
-		usage : 79,
-		requested : 80,
-		subscription_expired : 12,
-		title : 'huTvlXekNLzB9O3s',
+		link : 'vWs71e0cwzD84ApC',
+		admin_id : -6398478521654669378,
+		date : 14,
+		start_date : 20,
+		expire_date : 30,
+		usage_limit : 99,
+		usage : 51,
+		requested : 92,
+		subscription_expired : 43,
+		title : 'r5MU7eH4aRQ8wc9O',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 77,
-			amount : 7986485567991442376,
+			period : 22,
+			amount : 8184020108422912337,
 		),
 	),
-	qts : 14,
+	qts : 29,
 );
 ```

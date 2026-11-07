@@ -2,7 +2,7 @@
 
 **Description** : *Info about the support user, relevant to the current user*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 help.support#17c6b5f6 phone_number:string user:User = help.Support;

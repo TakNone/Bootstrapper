@@ -1,6 +1,6 @@
 # communityFull
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communityFull#cbb7a507 flags:# id:long about:string chat_photo:Photo linked_peers:Vector<CommunityPeer> admins_count:flags.1?int kicked_count:flags.2?int peer_link_requests_pending:flags.0?int = ChatFull;
@@ -33,22 +33,22 @@ communityFull#cbb7a507 flags:# id:long about:string chat_photo:Photo linked_peer
 
 ```php
 $chatFull = $client->communityFull(
-	id : 1903314138633303239,
-	about : 'kfDJXMcwUeQVnb0p',
+	id : 6634772042465730297,
+	about : 'FVHerAlIz2p6OqSU',
 	chat_photo : $client->photoEmpty(
-		id : -1553948671341453792,
+		id : -2406320332739750185,
 	),
 	linked_peers : array(
 		$client->communityPeer(
 			can_view_history : true,
-			visible : true,
+			visible : false,
 			peer : $client->peerUser(
-				user_id : 6924663671737766489,
+				user_id : 6412048022670441041,
 			),
 		),
 	),
-	admins_count : 93,
-	kicked_count : 4,
-	peer_link_requests_pending : 7,
+	admins_count : 61,
+	kicked_count : 64,
+	peer_link_requests_pending : 87,
 );
 ```

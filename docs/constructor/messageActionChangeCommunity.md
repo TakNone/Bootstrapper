@@ -1,6 +1,6 @@
 # messageActionChangeCommunity
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageActionChangeCommunity#5d20bae8 flags:# community_id:flags.0?long = MessageAction;
@@ -27,6 +27,6 @@ messageActionChangeCommunity#5d20bae8 flags:# community_id:flags.0?long = Messag
 
 ```php
 $messageAction = $client->messageActionChangeCommunity(
-	community_id : -4290100325668382442,
+	community_id : -5072896462711600647,
 );
 ```

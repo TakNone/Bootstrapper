@@ -2,7 +2,7 @@
 
 **Description** : *Access restriction settings for a managed bot &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.accessSettings#dd1fbf93 flags:# restricted:flags.0?true add_users:flags.1?Vector<User> = bots.AccessSettings;
@@ -33,7 +33,7 @@ $botsAccessSettings = $client->bots->accessSettings(
 	restricted : true,
 	add_users : array(
 		$client->userEmpty(
-			id : 8058013161853697329,
+			id : 1777563640123338659,
 		),
 		$client->user(
 			self : true,
@@ -66,48 +66,51 @@ $botsAccessSettings = $client->bots->accessSettings(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 6111992117720415821,
-			access_hash : 3424402372809296500,
+			bot_forum_sidebar : true,
+			id : 1506565114234514104,
+			access_hash : 2790656901767785950,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 82,
+			bot_info_version : 33,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : '0xiwvG6eV1fuZIyU',
-					reason : 'tLlodJrvZW3e6C8R',
-					text : 'gvbHZl3KAkUpfJB6',
+					platform : 'QtNBqiXaOhr1mgw8',
+					reason : 'dIn753bZrcYqAzWu',
+					text : 'Q4RvEYmZ7XlVdib3',
 				),
 			),
-			bot_inline_placeholder : 'PjYadNMAZ8KQzweG',
-			lang_code : 'UKIrecnxwB5VS7sv',
+			bot_inline_placeholder : 'JZ6NsTuKREYzki5y',
+			lang_code : 'Jwx96tTg1HubUB53',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
 					editable : true,
 					active : true,
+					deletable : true,
+					expired : true,
 					username : 'TakNone',
 				),
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 17,
+				max_id : 20,
 			),
 			color : $client->peerColor(
-				color : 98,
-				background_emoji_id : 6473679309966414300,
+				color : 96,
+				background_emoji_id : -8559371364434512160,
 			),
 			profile_color : $client->peerColor(
-				color : 12,
-				background_emoji_id : -3572483205165022852,
+				color : 61,
+				background_emoji_id : -7324242441509329652,
 			),
-			bot_active_users : 6,
-			bot_verification_icon : -3379725639083655651,
-			send_paid_messages_stars : -7904921370509998524,
-			linked_community_id : 2460082809728236528,
+			bot_active_users : 59,
+			bot_verification_icon : -3660340806863383117,
+			send_paid_messages_stars : 801111359982202622,
+			linked_community_id : -2710674591826432647,
 		),
 	),
 );

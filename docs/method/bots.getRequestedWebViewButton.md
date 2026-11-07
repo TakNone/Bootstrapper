@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the peer request button a bot prepared for a Mini App with bots\.requestWebViewButton, invoked when the Mini App emits a web\_app\_request\_chat event, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.getRequestedWebViewButton#bf25b7f3 bot:InputUser webapp_req_id:string = KeyboardButton;
@@ -39,6 +39,6 @@ bots.getRequestedWebViewButton#bf25b7f3 bot:InputUser webapp_req_id:string = Key
 ```php
 $keyboardButton = $client->bots->getRequestedWebViewButton(
 	bot : $client->get_input_user(user : '@TakNone'),
-	webapp_req_id : 'rS7ENYxOWo0Ct59d',
+	webapp_req_id : 'cDtbPsoSAx8H60Ca',
 );
 ```

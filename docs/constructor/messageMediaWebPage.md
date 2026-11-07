@@ -2,7 +2,7 @@
 
 **Description** : *Preview of webpage*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageMediaWebPage#ddf10c3b flags:# force_large_media:flags.0?true force_small_media:flags.1?true manual:flags.3?true safe:flags.4?true webpage:WebPage = MessageMedia;
@@ -38,7 +38,7 @@ $messageMedia = $client->messageMediaWebPage(
 	manual : true,
 	safe : true,
 	webpage : $client->webPageEmpty(
-		id : 1261250869203340230,
+		id : -5823255842640495075,
 		url : 'https://docs.liveproto.dev',
 	),
 );

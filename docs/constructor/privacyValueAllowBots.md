@@ -2,7 +2,7 @@
 
 **Description** : *Allow bots and mini apps*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 privacyValueAllowBots#21461b5d = PrivacyRule;

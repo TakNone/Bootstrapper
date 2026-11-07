@@ -2,7 +2,7 @@
 
 **Description** : *The pinned topics of a forum have changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = Update;
@@ -31,8 +31,8 @@ updatePinnedForumTopics#def143d0 flags:# peer:Peer order:flags.0?Vector<int> = U
 ```php
 $update = $client->updatePinnedForumTopics(
 	peer : $client->peerUser(
-		user_id : -8339714088845382599,
+		user_id : -939729057627704702,
 	),
-	order : array(83),
+	order : array(79),
 );
 ```

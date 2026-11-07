@@ -2,7 +2,7 @@
 
 **Description** : *Describes a bid in an auction*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
@@ -30,8 +30,8 @@ auctionBidLevel#310240cc pos:int amount:long date:int = AuctionBidLevel;
 
 ```php
 $auctionBidLevel = $client->auctionBidLevel(
-	pos : 39,
-	amount : -3216522888929683998,
-	date : 6,
+	pos : 30,
+	amount : -702355221705737372,
+	date : 82,
 );
 ```

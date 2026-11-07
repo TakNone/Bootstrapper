@@ -2,7 +2,7 @@
 
 **Description** : *Decline an incoming OAuth authorization request &raquo;, notifying the server that the user refused the login request*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.declineUrlAuth#35436bbc url:string = Bool;

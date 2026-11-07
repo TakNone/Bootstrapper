@@ -2,7 +2,7 @@
 
 **Description** : *Dice\-based animated sticker*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageMediaDice#8cbec07 flags:# value:int emoticon:string game_outcome:flags.0?messages.EmojiGameOutcome = MessageMedia;
@@ -31,12 +31,12 @@ messageMediaDice#8cbec07 flags:# value:int emoticon:string game_outcome:flags.0?
 
 ```php
 $messageMedia = $client->messageMediaDice(
-	value : 50,
-	emoticon : 'NpZYJx2mHK19rGsQ',
+	value : 45,
+	emoticon : 'olAUExShDnaKOPz9',
 	game_outcome : $client->messages->emojiGameOutcome(
 		seed : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		stake_ton_amount : -9192324763628775400,
-		ton_amount : 239548294659841373,
+		stake_ton_amount : -7265684087148633930,
+		ton_amount : 7725874472739552305,
 	),
 );
 ```

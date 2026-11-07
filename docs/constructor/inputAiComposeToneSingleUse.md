@@ -1,6 +1,6 @@
 # inputAiComposeToneSingleUse
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputAiComposeToneSingleUse#e0c35af custom_prompt:string = InputAiComposeTone;
@@ -26,6 +26,6 @@ inputAiComposeToneSingleUse#e0c35af custom_prompt:string = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneSingleUse(
-	custom_prompt : 'HfUaPWVRYspzEjX9',
+	custom_prompt : 'Lu60wpQAI3r2FsO7',
 );
 ```

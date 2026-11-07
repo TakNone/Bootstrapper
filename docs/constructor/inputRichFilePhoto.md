@@ -1,6 +1,6 @@
 # inputRichFilePhoto
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputRichFilePhoto#9b00622b id:string photo:InputPhoto = InputRichFile;
@@ -27,7 +27,7 @@ inputRichFilePhoto#9b00622b id:string photo:InputPhoto = InputRichFile;
 
 ```php
 $inputRichFile = $client->inputRichFilePhoto(
-	id : '9qike3vEjsrYxP8n',
+	id : '9dJnZNkLpoYW1IxT',
 	photo : $client->inputPhotoEmpty(),
 );
 ```

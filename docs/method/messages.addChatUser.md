@@ -2,7 +2,7 @@
 
 **Description** : *Adds a user to a chat and sends a service message on it*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.addChatUser#cbc6d107 chat_id:long user_id:InputUser fwd_limit:int = messages.InvitedUsers;
@@ -53,8 +53,8 @@ messages.addChatUser#cbc6d107 chat_id:long user_id:InputUser fwd_limit:int = mes
 
 ```php
 $messagesInvitedUsers = $client->messages->addChatUser(
-	chat_id : 6877520406876349914,
+	chat_id : 7184505202941978394,
 	user_id : $client->get_input_user(user : '@TakNone'),
-	fwd_limit : 34,
+	fwd_limit : 95,
 );
 ```

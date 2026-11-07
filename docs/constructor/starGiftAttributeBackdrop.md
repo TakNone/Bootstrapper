@@ -2,7 +2,7 @@
 
 **Description** : *The backdrop of a collectible gift &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftAttributeBackdrop#9f2504e4 name:string backdrop_id:int center_color:int edge_color:int pattern_color:int text_color:int rarity:StarGiftAttributeRarity = StarGiftAttribute;
@@ -34,14 +34,14 @@ starGiftAttributeBackdrop#9f2504e4 name:string backdrop_id:int center_color:int 
 
 ```php
 $starGiftAttribute = $client->starGiftAttributeBackdrop(
-	name : 'wHrjzuN5LZDemkKp',
-	backdrop_id : 69,
-	center_color : 26,
-	edge_color : 50,
-	pattern_color : 3,
-	text_color : 11,
+	name : '351N97xysOcAUzWQ',
+	backdrop_id : 12,
+	center_color : 50,
+	edge_color : 60,
+	pattern_color : 24,
+	text_color : 34,
 	rarity : $client->starGiftAttributeRarity(
-		permille : 88,
+		permille : 32,
 	),
 );
 ```

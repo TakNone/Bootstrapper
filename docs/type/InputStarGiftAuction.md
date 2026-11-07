@@ -2,7 +2,7 @@
 
 **Description** : *Identifies a collectible gift auction &raquo;, either by the ID of the linked collectible gift or by an auction deep link slug*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputStarGiftAuction#2e16c98 gift_id:long = InputStarGiftAuction;

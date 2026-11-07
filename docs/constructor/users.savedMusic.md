@@ -2,7 +2,7 @@
 
 **Description** : *List of songs currently pinned on a user&#039;s profile, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 users.savedMusic#34a2f297 count:int documents:Vector<Document> = users.SavedMusic;
@@ -29,111 +29,111 @@ users.savedMusic#34a2f297 count:int documents:Vector<Document> = users.SavedMusi
 
 ```php
 $usersSavedMusic = $client->users->savedMusic(
-	count : 18,
+	count : 100,
 	documents : array(
 		$client->documentEmpty(
-			id : -994280060095632404,
+			id : -1347251139775209022,
 		),
 		$client->document(
-			id : -6014498475796019645,
-			access_hash : 1921185328335974481,
+			id : -3070628982679445427,
+			access_hash : -2580961786404384129,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-			date : 39,
-			mime_type : 'rvE3z7QgBhD2m560',
-			size : 8458779442861745132,
+			date : 7,
+			mime_type : 'Y9x7noeWC0Gd1VBa',
+			size : 3874250849448726264,
 			thumbs : array(
 				$client->photoSizeEmpty(
-					type : 'NiL4YFjaVs5Cznw9',
+					type : 'rlP8tEnCVu73gQkj',
 				),
 				$client->photoSize(
-					type : 'afLxMd0qcSTEnGYu',
-					w : 15,
-					h : 80,
-					size : 2,
+					type : 'ox9u78X6dEZzDYSJ',
+					w : 26,
+					h : 83,
+					size : 42,
 				),
 				$client->photoCachedSize(
-					type : 'N1TM5ejYagFtQ6iu',
-					w : 78,
-					h : 88,
+					type : 'bwBSFsQ75kZmUHr4',
+					w : 39,
+					h : 10,
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoStrippedSize(
-					type : 'uM6amXloAvdspTFx',
+					type : 'EZL9Chq5ynpXObkw',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->photoSizeProgressive(
-					type : 'sF7h3fu8zy29Kpon',
-					w : 14,
-					h : 92,
-					sizes : array(77),
+					type : '2tuAFQwpbR1ZL3oG',
+					w : 31,
+					h : 87,
+					sizes : array(90),
 				),
 				$client->photoPathSize(
-					type : 'MaoGlDECnv35czSd',
+					type : '0y5SYzMd14OLKnIN',
 					bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 			),
 			video_thumbs : array(
 				$client->videoSize(
-					type : 'wXIT3RPenWgYjKHo',
-					w : 36,
-					h : 65,
+					type : '8XqtsnIfw0DRuT4c',
+					w : 88,
+					h : 83,
 					size : 49,
-					video_start_ts : -540886.2451171875,
+					video_start_ts : 71146.2958984375,
 				),
 				$client->videoSizeEmojiMarkup(
-					emoji_id : -5247864066989892279,
-					background_colors : array(67),
+					emoji_id : -333097623928246188,
+					background_colors : array(76),
 				),
 				$client->videoSizeStickerMarkup(
 					stickerset : $client->inputStickerSetEmpty(),
-					sticker_id : 5657424981385742759,
-					background_colors : array(34),
+					sticker_id : 497594877684121932,
+					background_colors : array(95),
 				),
 			),
-			dc_id : 64,
+			dc_id : 70,
 			attributes : array(
 				$client->documentAttributeImageSize(
-					w : 83,
-					h : 23,
+					w : 0,
+					h : 86,
 				),
 				$client->documentAttributeAnimated(),
 				$client->documentAttributeSticker(
 					mask : true,
-					alt : 'bHQyF3cuITCE8rW0',
+					alt : 'jh5R6SNTLwEmXleP',
 					stickerset : $client->inputStickerSetEmpty(),
 					mask_coords : $client->maskCoords(
-						n : 88,
-						x : 1807689.013671875,
-						y : 693459.818359375,
-						zoom : 1491196.6298828125,
+						n : 83,
+						x : 1222709.876953125,
+						y : -1796370.2548828125,
+						zoom : 104482.259765625,
 					),
 				),
 				$client->documentAttributeVideo(
 					round_message : true,
 					supports_streaming : true,
 					nosound : true,
-					duration : -701622.5234375,
-					w : 21,
-					h : 94,
-					preload_prefix_size : 51,
-					video_start_ts : 394658.9716796875,
-					video_codec : 'AxJifIwTBq2bcLPH',
+					duration : 1165540.71484375,
+					w : 37,
+					h : 39,
+					preload_prefix_size : 98,
+					video_start_ts : 1558506.9052734375,
+					video_codec : 'jCyd6ucDn2mgeNzs',
 				),
 				$client->documentAttributeAudio(
 					voice : true,
-					duration : 3,
-					title : 'ytbZ83nuDTRKhUvA',
-					performer : 'BekGtKHzgC4vWcUI',
+					duration : 67,
+					title : 'jtoJ8zduCVp6YZLe',
+					performer : 'ONAoeRbLDvJhwzKQ',
 					waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 				),
 				$client->documentAttributeFilename(
-					file_name : 'smTJdXyLHD9W4OhN',
+					file_name : 'g6p183bCEdUesHOD',
 				),
 				$client->documentAttributeHasStickers(),
 				$client->documentAttributeCustomEmoji(
 					free : true,
 					text_color : true,
-					alt : 'F9h10yRGENj4VeJa',
+					alt : 'wWAgbYuSyJnpK790',
 					stickerset : $client->inputStickerSetEmpty(),
 				),
 			),

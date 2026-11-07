@@ -2,7 +2,7 @@
 
 **Description** : *Delete a passkey associated to the current account, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.deletePasskey#f5b5563f id:string = Bool;
@@ -28,6 +28,6 @@ account.deletePasskey#f5b5563f id:string = Bool;
 
 ```php
 $bool = $client->account->deletePasskey(
-	id : '4GhgCDXxpRFjwT7e',
+	id : 'kZQxbtNfHgnvUocF',
 );
 ```

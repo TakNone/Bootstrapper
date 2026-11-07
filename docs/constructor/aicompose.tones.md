@@ -2,7 +2,7 @@
 
 **Description** : *The list of saved AI composer tones &raquo; of the current user*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 aicompose.tones#6c9d0efe hash:long tones:Vector<AiComposeTone> users:Vector<User> = aicompose.Tones;
@@ -34,17 +34,17 @@ $aicomposeTones = $client->aicompose->tones(
 	tones : array(
 		$client->aiComposeTone(
 			creator : true,
-			id : -4312141624357244373,
-			access_hash : -3068379329750611914,
-			slug : 'LJqMQpH3VsBYhmCG',
-			title : 'xgjD5bcvUiGpVzXq',
-			emoji_id : -4795788749922146023,
-			prompt : 'haZkJwegC30P5Fvi',
-			installs_count : 65,
-			author_id : -1821046467922258605,
+			id : -4639159752076818052,
+			access_hash : -5076263667809674774,
+			slug : 'UsWn05RiqPIDjvHx',
+			title : 'Mx29TbliN4dLfpEv',
+			emoji_id : -2468680664166934707,
+			prompt : '8FoA3H0n4XMG5gZd',
+			installs_count : 53,
+			author_id : 8411880072608884881,
 			example_english : $client->aiComposeToneExample(
 				from : $client->textWithEntities(
-					text : 'h0slxctNroM87TwE',
+					text : 'BuzhSdOerRCsJpHw',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -71,10 +71,11 @@ $aicomposeTones = $client->aicompose->tones(
 						$client->messageEntityDiffInsert(...),
 						$client->messageEntityDiffReplace(...),
 						$client->messageEntityDiffDelete(...),
+						$client->messageEntityTonAddress(...),
 					),
 				),
 				to : $client->textWithEntities(
-					text : 'i2IsSy78bTA6upFd',
+					text : '8EtcNYorV197nzhK',
 					entities : array(
 						$client->messageEntityUnknown(...),
 						$client->messageEntityMention(...),
@@ -101,19 +102,20 @@ $aicomposeTones = $client->aicompose->tones(
 						$client->messageEntityDiffInsert(...),
 						$client->messageEntityDiffReplace(...),
 						$client->messageEntityDiffDelete(...),
+						$client->messageEntityTonAddress(...),
 					),
 				),
 			),
 		),
 		$client->aiComposeToneDefault(
-			tone : 'hmOG8vIpflEgMXwn',
-			emoji_id : -7369446490241021245,
-			title : 'PFY2HpkT5WA6fgGl',
+			tone : 'MP6w9oUmb2rfDVYH',
+			emoji_id : 116721219022036588,
+			title : 'UtZ6YHVXQorgJIDf',
 		),
 	),
 	users : array(
 		$client->userEmpty(
-			id : -7296081267364373895,
+			id : 5031888047757603592,
 		),
 		$client->user(
 			self : true,
@@ -146,48 +148,51 @@ $aicomposeTones = $client->aicompose->tones(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 1192311868588664658,
-			access_hash : 4390777679529498791,
+			bot_forum_sidebar : true,
+			id : 7769535292867861867,
+			access_hash : -6991657805566804823,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 45,
+			bot_info_version : 0,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'Hwtcx67pbamVLQUP',
-					reason : 'R6VvWSrzb9G0tpoO',
-					text : 'slqnBOWaHJxNUK4F',
+					platform : 'm7oMQVE1zF5XDqwe',
+					reason : 'V5ys3XW4ifxRz0pq',
+					text : 'f7q60jghuPd5abKD',
 				),
 			),
-			bot_inline_placeholder : '6WKi2L1Bokx9cvCr',
-			lang_code : '8q7Y2FuIk6hWgOZp',
+			bot_inline_placeholder : 'aGqbrCIS8OD7QKFN',
+			lang_code : 'jMtEHqhg6JDs5A70',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
 					editable : true,
 					active : true,
+					deletable : true,
+					expired : true,
 					username : 'TakNone',
 				),
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 61,
+				max_id : 19,
 			),
 			color : $client->peerColor(
-				color : 65,
-				background_emoji_id : 165603642170864275,
+				color : 70,
+				background_emoji_id : -8215915873984557365,
 			),
 			profile_color : $client->peerColor(
-				color : 48,
-				background_emoji_id : 2677897241153172940,
+				color : 83,
+				background_emoji_id : -978881111749998968,
 			),
-			bot_active_users : 37,
-			bot_verification_icon : 9201573159134800863,
-			send_paid_messages_stars : -4692416281718767935,
-			linked_community_id : -2122484855886708433,
+			bot_active_users : 34,
+			bot_verification_icon : -1534408829227784694,
+			send_paid_messages_stars : 7117919741406715377,
+			linked_community_id : 979963368259251953,
 		),
 	),
 );

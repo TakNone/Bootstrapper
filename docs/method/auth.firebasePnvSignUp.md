@@ -1,6 +1,6 @@
 # auth.firebasePnvSignUp
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 auth.firebasePnvSignUp#783f6b56 flags:# no_joined_notifications:flags.0?true first_name:string last_name:string = auth.Authorization;

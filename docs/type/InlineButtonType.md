@@ -1,6 +1,6 @@
 # InlineButtonType
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inlineButtonTypeUrl#eca4f8d4 url:string = InlineButtonType;

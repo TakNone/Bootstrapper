@@ -2,7 +2,7 @@
 
 **Description** : *Represents an diff replacement, render it as follows:*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = MessageEntity;
@@ -31,7 +31,7 @@ messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = Messag
 ```php
 $messageEntity = $client->messageEntityDiffReplace(
 	offset : 0,
-	length : 29,
-	old_text : '0ERx64dvOAl53jMX',
+	length : 93,
+	old_text : 'y4noi0cH6KSzAl5d',
 );
 ```

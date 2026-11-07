@@ -2,7 +2,7 @@
 
 **Description** : *Use this method to set the score of the specified user in a game sent as an inline message \(bots only\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.setInlineGameScore#15ad9f64 flags:# edit_message:flags.0?true force:flags.1?true id:InputBotInlineMessageID user_id:InputUser score:int = Bool;
@@ -45,11 +45,11 @@ $bool = $client->messages->setInlineGameScore(
 	edit_message : true,
 	force : true,
 	id : $client->inputBotInlineMessageID(
-		dc_id : 82,
-		id : 8132455418162817756,
-		access_hash : -1060585028491632109,
+		dc_id : 40,
+		id : -4065579445127383589,
+		access_hash : 9188511094921340194,
 	),
 	user_id : $client->get_input_user(user : '@TakNone'),
-	score : 7,
+	score : 21,
 );
 ```

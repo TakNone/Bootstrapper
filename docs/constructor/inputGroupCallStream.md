@@ -2,7 +2,7 @@
 
 **Description** : *Identifies a media chunk of an RTMP\-mode video chat, livestream or live story, see playing an RTMP livestream &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputGroupCallStream#598a92a flags:# call:InputGroupCall time_ms:long scale:int video_channel:flags.0?int video_quality:flags.0?int = InputFileLocation;
@@ -34,12 +34,12 @@ inputGroupCallStream#598a92a flags:# call:InputGroupCall time_ms:long scale:int 
 ```php
 $inputFileLocation = $client->inputGroupCallStream(
 	call : $client->inputGroupCall(
-		id : -1971266411250823355,
-		access_hash : 9137178903419087723,
+		id : 4551051642405894599,
+		access_hash : 990934724543993404,
 	),
-	time_ms : -1422139443706822541,
-	scale : 81,
-	video_channel : 38,
-	video_quality : 63,
+	time_ms : 8389702380078028798,
+	scale : 34,
+	video_channel : 6,
+	video_quality : 100,
 );
 ```

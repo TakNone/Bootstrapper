@@ -2,7 +2,7 @@
 
 **Description** : *References a built\-in, default AI composer tone &raquo; by its string identifier*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputAiComposeToneDefault#1fe9a9bf tone:string = InputAiComposeTone;
@@ -28,6 +28,6 @@ inputAiComposeToneDefault#1fe9a9bf tone:string = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneDefault(
-	tone : 'SJBNr8h2XCzwxLaY',
+	tone : 'ARFiWr9osLxPMGef',
 );
 ```

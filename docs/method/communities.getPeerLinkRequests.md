@@ -1,6 +1,6 @@
 # communities.getPeerLinkRequests
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communities.getPeerLinkRequests#93773344 community:InputChannel offset:string limit:int = communities.PeerLinkRequests;
@@ -29,7 +29,7 @@ communities.getPeerLinkRequests#93773344 community:InputChannel offset:string li
 ```php
 $communitiesPeerLinkRequests = $client->communities->getPeerLinkRequests(
 	community : $client->get_input_channel(channel : '@LiveProto'),
-	offset : 'utH1lsPmCGwVy2ZI',
-	limit : 39,
+	offset : 'J20rMPUXYnca8mwf',
+	limit : 4,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Dice game information*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.emojiGameUnavailable#59e65335 = messages.EmojiGameInfo;

@@ -2,7 +2,7 @@
 
 **Description** : *No new stickers were found for the specified query*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.foundStickersNotModified#6010c534 flags:# next_offset:flags.0?int = messages.FoundStickers;
@@ -29,6 +29,6 @@ messages.foundStickersNotModified#6010c534 flags:# next_offset:flags.0?int = mes
 
 ```php
 $messagesFoundStickers = $client->messages->foundStickersNotModified(
-	next_offset : 95,
+	next_offset : 93,
 );
 ```

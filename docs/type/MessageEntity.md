@@ -2,7 +2,7 @@
 
 **Description** : *Message entities, representing styled text in a message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageEntityUnknown#bb92ba95 offset:int length:int = MessageEntity;
@@ -30,6 +30,7 @@ messageEntityFormattedDate#904ac7c7 flags:# relative:flags.0?true short_time:fla
 messageEntityDiffInsert#71777116 offset:int length:int = MessageEntity;
 messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = MessageEntity;
 messageEntityDiffDelete#652c1c5 offset:int length:int = MessageEntity;
+messageEntityTonAddress#fdabbfcd offset:int length:int = MessageEntity;
 ```
 
 ---
@@ -63,3 +64,4 @@ messageEntityDiffDelete#652c1c5 offset:int length:int = MessageEntity;
 | [**messageEntityDiffInsert**](constructor/messageEntityDiffInsert) | Represents an diff addition: render it by simply underlining the specified section and coloring it in green, see here » for more info on how to render diff entities |
 | [**messageEntityDiffReplace**](constructor/messageEntityDiffReplace) | Represents an diff replacement, render it as follows:- Insert old_text into the text at offset offset, underline it and color it in red: note that this insertion does not affect the offsets of entities that come after it.- underline the section delimited by offset and limit and color it in green.See here » for more info on how to render diff entities |
 | [**messageEntityDiffDelete**](constructor/messageEntityDiffDelete) | Represents an diff deletion: render it by simply underlining the specified section and coloring it in red, see here » for more info on how to render diff entities |
+| [**messageEntityTonAddress**](constructor/messageEntityTonAddress) | NOTHING |

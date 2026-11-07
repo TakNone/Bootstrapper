@@ -2,7 +2,7 @@
 
 **Description** : *Fetch main mini app previews, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 bots.getPreviewMedias#a2a5594d bot:InputUser = Vector<BotPreviewMedia>;

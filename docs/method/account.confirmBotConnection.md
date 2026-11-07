@@ -1,6 +1,6 @@
 # account.confirmBotConnection
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.confirmBotConnection#67ed1f68 bot_id:InputUser = Bool;

@@ -1,6 +1,6 @@
 # community
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 community#65efe954 flags:# creator:flags.0?true left:flags.2?true min:flags.12?true flags2:# collapsed_in_dialogs:flags2.20?true id:long access_hash:flags.13?long title:string photo:ChatPhoto date:int admin_rights:flags.14?ChatAdminRights default_banned_rights:flags.18?ChatBannedRights = Chat;
@@ -42,11 +42,11 @@ $chat = $client->community(
 	left : true,
 	min : true,
 	collapsed_in_dialogs : true,
-	id : -8954553718794043845,
-	access_hash : 5515509725299602571,
-	title : 'AlVK9tcDzMCP8WEv',
+	id : -1297952594058595839,
+	access_hash : 5621445837425228778,
+	title : 'N9nSvGIWXYQzpbsJ',
 	photo : $client->chatPhotoEmpty(),
-	date : 32,
+	date : 52,
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -92,7 +92,7 @@ $chat = $client->community(
 		edit_rank : true,
 		send_reactions : true,
 		manage_linked_peers : true,
-		until_date : 45,
+		until_date : 22,
 	),
 );
 ```

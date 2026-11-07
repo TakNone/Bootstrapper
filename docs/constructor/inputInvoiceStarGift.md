@@ -2,7 +2,7 @@
 
 **Description** : *Used to buy a Telegram Star Gift, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputInvoiceStarGift#e8625e92 flags:# hide_name:flags.0?true include_upgrade:flags.2?true peer:InputPeer gift_id:long message:flags.1?TextWithEntities = InputInvoice;
@@ -36,99 +36,99 @@ $inputInvoice = $client->inputInvoiceStarGift(
 	hide_name : true,
 	include_upgrade : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	gift_id : -3722869831103338992,
+	gift_id : -8796819620969017129,
 	message : $client->textWithEntities(
-		text : 'TYnVcFgzydLEqK4r',
+		text : 'zNmxruTOJYEV5qsv',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 58,
+				length : 37,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 10,
+				length : 88,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 55,
+				length : 81,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 57,
+				length : 54,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 29,
+				length : 39,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 70,
+				length : 75,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 99,
+				length : 8,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 50,
+				length : 36,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 39,
+				length : 99,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 74,
-				language : 'pDLc7va1NOgjPJUI',
+				length : 94,
+				language : '1fFrCTGBwPyp0t5Y',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 38,
+				length : 58,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 44,
-				user_id : -61456766529366133,
+				length : 45,
+				user_id : 3065929731525669182,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 97,
+				length : 18,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 64,
+				length : 17,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 49,
+				length : 54,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 17,
+				length : 25,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 43,
+				length : 19,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 75,
+				length : 40,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 21,
+				length : 30,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 26,
-				document_id : -3994728868411405636,
+				length : 92,
+				document_id : 2801015940328687926,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 7,
+				length : 65,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -138,21 +138,25 @@ $inputInvoice = $client->inputInvoiceStarGift(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 18,
-				date : 16,
+				length : 0,
+				date : 91,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 66,
+				length : 40,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 86,
-				old_text : 'Odnuz0mtasHVrYEy',
+				length : 11,
+				old_text : 'mV8teoWgGhauC20H',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 92,
+				length : 86,
+			),
+			$client->messageEntityTonAddress(
+				offset : 0,
+				length : 79,
 			),
 		),
 	),

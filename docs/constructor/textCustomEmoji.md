@@ -1,6 +1,6 @@
 # textCustomEmoji
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 textCustomEmoji#a26156c0 document_id:long alt:string = RichText;
@@ -27,7 +27,7 @@ textCustomEmoji#a26156c0 document_id:long alt:string = RichText;
 
 ```php
 $richText = $client->textCustomEmoji(
-	document_id : -1276813165164354425,
-	alt : '1A5WDrtds4xClOzI',
+	document_id : -436338774328560761,
+	alt : 'ayDSiGjsRvJ2uXN9',
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Filter for poll messages, see searching for polls &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputMessagesFilterPoll#fa2bc90a = MessagesFilter;

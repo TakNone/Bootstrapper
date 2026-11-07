@@ -2,7 +2,7 @@
 
 **Description** : *Submit a verification message to conference call subchain 1, see subchains &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Updates;
@@ -38,8 +38,8 @@ phone.sendConferenceCallBroadcast#c6701900 call:InputGroupCall block:bytes = Upd
 ```php
 $updates = $client->phone->sendConferenceCallBroadcast(
 	call : $client->inputGroupCall(
-		id : 7124293941318069448,
-		access_hash : 923761018614148791,
+		id : 312342678866177178,
+		access_hash : 6123162130756232268,
 	),
 	block : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

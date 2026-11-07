@@ -2,7 +2,7 @@
 
 **Description** : *The available chat themes were not modified*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.chatThemesNotModified#e011e1c4 = account.ChatThemes;

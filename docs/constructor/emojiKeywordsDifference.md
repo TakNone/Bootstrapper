@@ -2,7 +2,7 @@
 
 **Description** : *Changes to emoji keywords*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 emojiKeywordsDifference#5cc761bd lang_code:string from_version:int version:int keywords:Vector<EmojiKeyword> = EmojiKeywordsDifference;
@@ -31,17 +31,17 @@ emojiKeywordsDifference#5cc761bd lang_code:string from_version:int version:int k
 
 ```php
 $emojiKeywordsDifference = $client->emojiKeywordsDifference(
-	lang_code : 'xo0XdC2MwPc4NQ1S',
-	from_version : 44,
-	version : 86,
+	lang_code : 'i9EO8rtLVKjZoCaY',
+	from_version : 20,
+	version : 93,
 	keywords : array(
 		$client->emojiKeyword(
-			keyword : 'K0SyLeVONRgaMHtE',
-			emoticons : array('sSzU68HFqX24aGtV'),
+			keyword : 'TmafFQMY2AP0Ug7s',
+			emoticons : array('MbLt2HkRc5s74TyG'),
 		),
 		$client->emojiKeywordDeleted(
-			keyword : 'o3f7D2uRmkOGnVg4',
-			emoticons : array('pOkuiv38b7t5FhlX'),
+			keyword : 'WtCI3lLhRcTbHouG',
+			emoticons : array('1X0dhlnikOKTcDNM'),
 		),
 	),
 );

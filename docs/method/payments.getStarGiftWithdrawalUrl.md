@@ -2,10 +2,10 @@
 
 **Description** : *Convert a collectible gift &raquo; to an NFT on the TON blockchain*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
-payments.getStarGiftWithdrawalUrl#d06e93a8 stargift:InputSavedStarGift password:InputCheckPasswordSRP = payments.StarGiftWithdrawalUrl;
+payments.getStarGiftWithdrawalUrl#c8ca817b flags:# stargift:InputSavedStarGift tmp_password:bytes = payments.StarGiftWithdrawalUrl;
 ```
 
 ---
@@ -14,8 +14,9 @@ payments.getStarGiftWithdrawalUrl#d06e93a8 stargift:InputSavedStarGift password:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
 | <mark>stargift</mark> | [`InputSavedStarGift`](type/InputSavedStarGift) | The collectible gift to export |
-| <mark>password</mark> | [`InputCheckPasswordSRP`](type/InputCheckPasswordSRP) | The current user's 2FA password, passed as specified here » |
+| <mark>tmp_password</mark> | [`bytes`](type/bytes) | NOTHING |
 
 ---
 
@@ -40,8 +41,8 @@ payments.getStarGiftWithdrawalUrl#d06e93a8 stargift:InputSavedStarGift password:
 ```php
 $paymentsStarGiftWithdrawalUrl = $client->payments->getStarGiftWithdrawalUrl(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 79,
+		msg_id : 28,
 	),
-	password : $client->inputCheckPasswordEmpty(),
+	tmp_password : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

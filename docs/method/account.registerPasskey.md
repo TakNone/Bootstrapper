@@ -2,7 +2,7 @@
 
 **Description** : *Complete passkey registration for the current account, see here &raquo; for more info on the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 account.registerPasskey#55b41fd6 credential:InputPasskeyCredential = Passkey;
@@ -38,11 +38,11 @@ account.registerPasskey#55b41fd6 credential:InputPasskeyCredential = Passkey;
 ```php
 $passkey = $client->account->registerPasskey(
 	credential : $client->inputPasskeyCredentialPublicKey(
-		id : 'WIeMKj2zBUTqxYC3',
-		raw_id : 'ZYtbDj5R2vux8KnB',
+		id : 'FM67pA312QaH8Z90',
+		raw_id : 'vlGzpCai7Yk8SdZH',
 		response : $client->inputPasskeyResponseRegister(
 			client_data : $client->dataJSON(
-				data : 'hJZ2WSVfH8vAKLC6',
+				data : 'FLiXJqU1ud6rvwcD',
 			),
 			attestation_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),

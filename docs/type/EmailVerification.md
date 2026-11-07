@@ -2,7 +2,7 @@
 
 **Description** : *Email verification code or token*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 emailVerificationCode#922e55a9 code:string = EmailVerification;

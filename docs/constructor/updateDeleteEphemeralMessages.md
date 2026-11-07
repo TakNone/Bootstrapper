@@ -1,6 +1,6 @@
 # updateDeleteEphemeralMessages
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateDeleteEphemeralMessages#56dbfcf8 peer:Peer ids:Vector<int> = Update;
@@ -28,8 +28,8 @@ updateDeleteEphemeralMessages#56dbfcf8 peer:Peer ids:Vector<int> = Update;
 ```php
 $update = $client->updateDeleteEphemeralMessages(
 	peer : $client->peerUser(
-		user_id : -8082174298326363080,
+		user_id : 3033790847424238638,
 	),
-	ids : array(77),
+	ids : array(91),
 );
 ```

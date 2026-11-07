@@ -1,6 +1,6 @@
 # buttonTypeRequestPeer
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 buttonTypeRequestPeer#4f58a237 flags:# button_id:int peer_type:RequestPeerType max_quantity:int = ButtonType;
@@ -29,11 +29,11 @@ buttonTypeRequestPeer#4f58a237 flags:# button_id:int peer_type:RequestPeerType m
 
 ```php
 $buttonType = $client->buttonTypeRequestPeer(
-	button_id : 30,
+	button_id : 69,
 	peer_type : $client->requestPeerTypeUser(
 		bot : true,
 		premium : false,
 	),
-	max_quantity : 35,
+	max_quantity : 11,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Message entity representing a bot /command*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messageEntityBotCommand#6cef8ac7 offset:int length:int = MessageEntity;
@@ -30,6 +30,6 @@ messageEntityBotCommand#6cef8ac7 offset:int length:int = MessageEntity;
 ```php
 $messageEntity = $client->messageEntityBotCommand(
 	offset : 0,
-	length : 28,
+	length : 10,
 );
 ```

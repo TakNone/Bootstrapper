@@ -2,7 +2,7 @@
 
 **Description** : *Represents legendary collectible gift attribute rarity*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 starGiftAttributeRarityLegendary#cef7e7a8 = StarGiftAttributeRarity;

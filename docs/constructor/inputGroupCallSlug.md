@@ -2,7 +2,7 @@
 
 **Description** : *Identify a conference call &raquo; using the slug from its invitation link*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputGroupCallSlug#fe06823f slug:string = InputGroupCall;
@@ -28,6 +28,6 @@ inputGroupCallSlug#fe06823f slug:string = InputGroupCall;
 
 ```php
 $inputGroupCall = $client->inputGroupCallSlug(
-	slug : 'ex6AFTb8kmiVfO73',
+	slug : 'azj7LpkvRUJidWFe',
 );
 ```

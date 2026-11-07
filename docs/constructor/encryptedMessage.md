@@ -2,7 +2,7 @@
 
 **Description** : *Encrypted message*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 encryptedMessage#ed18c118 random_id:long chat_id:int date:int bytes:bytes file:EncryptedFile = EncryptedMessage;
@@ -32,9 +32,9 @@ encryptedMessage#ed18c118 random_id:long chat_id:int date:int bytes:bytes file:E
 
 ```php
 $encryptedMessage = $client->encryptedMessage(
-	random_id : 2614426238410676546,
-	chat_id : 94,
-	date : 20,
+	random_id : -7556484799846118324,
+	chat_id : 72,
+	date : 88,
 	bytes : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	file : $client->encryptedFileEmpty(),
 );

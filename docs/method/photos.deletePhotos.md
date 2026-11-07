@@ -2,7 +2,7 @@
 
 **Description** : *Deletes profile photos\. The method returns a list of successfully deleted photo IDs*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 photos.deletePhotos#87cf7f2f id:Vector<InputPhoto> = Vector<long>;
@@ -31,8 +31,8 @@ $long = $client->photos->deletePhotos(
 	id : array(
 		$client->inputPhotoEmpty(),
 		$client->inputPhoto(
-			id : -7101891277050126563,
-			access_hash : -2785307130512160603,
+			id : 8694086389561044459,
+			access_hash : 6800907661465261633,
 			file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),

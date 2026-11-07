@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about collectible gift &raquo; for a webPage preview of a collectible gift &raquo; \(the webPage will have a type of telegram\_nft\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 webPageAttributeUniqueStarGift#cf6f6db8 gift:StarGift = WebPageAttribute;
@@ -36,34 +36,34 @@ $webPageAttribute = $client->webPageAttributeUniqueStarGift(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : -5441891100226119010,
+		id : 651322479341582837,
 		sticker : $client->documentEmpty(
-			id : 3590730665653593601,
+			id : -2502823949287315410,
 		),
-		stars : 2699309598694726035,
-		availability_remains : 53,
-		availability_total : 77,
-		availability_resale : 5520581032707967127,
-		convert_stars : -7043285019820913884,
-		first_sale_date : 58,
-		last_sale_date : 72,
-		upgrade_stars : -1963883318056412280,
-		resell_min_stars : -6707659928800665732,
-		title : 'Iai7tP2FnTLK3kpG',
+		stars : 5501198628934760583,
+		availability_remains : 42,
+		availability_total : 62,
+		availability_resale : 3431482150565023242,
+		convert_stars : 413662271441432960,
+		first_sale_date : 55,
+		last_sale_date : 62,
+		upgrade_stars : 2466014046943872171,
+		resell_min_stars : 6205192936655612985,
+		title : 'TtrdOuzfUj2XpxZy',
 		released_by : $client->peerUser(
-			user_id : -8228562402761937056,
+			user_id : 547544887040798348,
 		),
-		per_user_total : 7,
-		per_user_remains : 63,
-		locked_until_date : 93,
-		auction_slug : 'zf3Ra7BKWpGVSoIn',
-		gifts_per_round : 67,
-		auction_start_date : 19,
-		upgrade_variants : 67,
+		per_user_total : 12,
+		per_user_remains : 14,
+		locked_until_date : 62,
+		auction_slug : 'xTshLZP6v8SfgdnJ',
+		gifts_per_round : 9,
+		auction_start_date : 2,
+		upgrade_variants : 83,
 		background : $client->starGiftBackground(
-			center_color : 69,
-			edge_color : 53,
-			text_color : 15,
+			center_color : 36,
+			edge_color : 73,
+			text_color : 56,
 		),
 	),
 );

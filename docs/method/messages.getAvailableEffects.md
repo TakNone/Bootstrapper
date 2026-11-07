@@ -2,7 +2,7 @@
 
 **Description** : *Fetch the full list of usable animated message effects &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 messages.getAvailableEffects#dea20a39 hash:int = messages.AvailableEffects;

@@ -2,7 +2,7 @@
 
 **Description** : *Changes in notification settings*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateNotifySettings#bec268ef peer:NotifyPeer notify_settings:PeerNotifySettings = Update;
@@ -31,13 +31,13 @@ updateNotifySettings#bec268ef peer:NotifyPeer notify_settings:PeerNotifySettings
 $update = $client->updateNotifySettings(
 	peer : $client->notifyPeer(
 		peer : $client->peerUser(
-			user_id : 2764152877536794005,
+			user_id : -6026378193212391318,
 		),
 	),
 	notify_settings : $client->peerNotifySettings(
 		show_previews : true,
 		silent : true,
-		mute_until : 87,
+		mute_until : 94,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),

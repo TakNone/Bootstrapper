@@ -2,7 +2,7 @@
 
 **Description** : *List of currently active gift auctions &raquo; where the user has placed a bid, or an indication that the locally cached list hasn&#039;t changed*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.starGiftActiveAuctionsNotModified#db33dad0 = payments.StarGiftActiveAuctions;

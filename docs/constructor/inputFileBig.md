@@ -2,7 +2,7 @@
 
 **Description** : *Assigns a big file \(over 10 MB in size\), saved in part using the method upload\.saveBigFilePart*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputFileBig#fa4f0bb5 id:long parts:int name:string = InputFile;
@@ -30,8 +30,8 @@ inputFileBig#fa4f0bb5 id:long parts:int name:string = InputFile;
 
 ```php
 $inputFile = $client->inputFileBig(
-	id : 1232540945445373656,
-	parts : 31,
-	name : 'omJWjOTLEI9NP1zd',
+	id : 8538160102851232851,
+	parts : 11,
+	name : 'FfOyEYDsPXS1cHRi',
 );
 ```

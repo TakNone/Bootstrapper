@@ -2,7 +2,7 @@
 
 **Description** : *Forwarded story*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputMediaStory#89fdd778 peer:InputPeer id:int = InputMedia;
@@ -30,6 +30,6 @@ inputMediaStory#89fdd778 peer:InputPeer id:int = InputMedia;
 ```php
 $inputMedia = $client->inputMediaStory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : 91,
+	id : 39,
 );
 ```

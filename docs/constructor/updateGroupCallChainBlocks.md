@@ -2,7 +2,7 @@
 
 **Description** : *Contains conference call blockchain blocks, see handling E2E group call updates &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:Vector<bytes> next_offset:int = Update;
@@ -32,11 +32,11 @@ updateGroupCallChainBlocks#a477288f call:InputGroupCall sub_chain_id:int blocks:
 ```php
 $update = $client->updateGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : -1153484330562998193,
-		access_hash : 3570637115490255361,
+		id : 8578829382910248936,
+		access_hash : -4389604536621970739,
 	),
-	sub_chain_id : 7,
+	sub_chain_id : 65,
 	blocks : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
-	next_offset : 16,
+	next_offset : 53,
 );
 ```

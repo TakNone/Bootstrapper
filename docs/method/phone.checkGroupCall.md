@@ -2,7 +2,7 @@
 
 **Description** : *Check which of the specified source IDs the server still recognizes as joined to a group call\. This method can be used with all group call types, see here &raquo; for more info*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.checkGroupCall#b59cf977 call:InputGroupCall sources:Vector<int> = Vector<int>;
@@ -39,9 +39,9 @@ phone.checkGroupCall#b59cf977 call:InputGroupCall sources:Vector<int> = Vector<i
 ```php
 $int = $client->phone->checkGroupCall(
 	call : $client->inputGroupCall(
-		id : -8431910752821714479,
-		access_hash : -163482684952900241,
+		id : 2056891258824897964,
+		access_hash : 1160181540904343988,
 	),
-	sources : array(73),
+	sources : array(75),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Get the RTMP URL and stream key used by the single external streamer that publishes all audio and video for an RTMP\-mode video chat, livestream or live story*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.getGroupCallStreamRtmpUrl#5af4c73a flags:# live_story:flags.0?true peer:InputPeer revoke:Bool = phone.GroupCallStreamRtmpUrl;

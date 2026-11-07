@@ -2,7 +2,7 @@
 
 **Description** : *The user is preparing a message; typing, recording, uploading, etc\. This update is valid for 6 seconds\. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 updateUserTyping#2a17bf5c flags:# user_id:long top_msg_id:flags.0?int action:SendMessageAction = Update;
@@ -31,8 +31,8 @@ updateUserTyping#2a17bf5c flags:# user_id:long top_msg_id:flags.0?int action:Sen
 
 ```php
 $update = $client->updateUserTyping(
-	user_id : 3463720886361818843,
-	top_msg_id : 95,
+	user_id : 7689150375518595584,
+	top_msg_id : 25,
 	action : $client->sendMessageTypingAction(),
 );
 ```

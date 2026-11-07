@@ -2,7 +2,7 @@
 
 **Description** : *WebAuthn authentication response used when logging in with a passkey, see here &raquo; for more info on the full flow*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inputPasskeyResponseLogin#c31fc14a client_data:DataJSON authenticator_data:bytes signature:bytes user_handle:string = InputPasskeyResponse;
@@ -32,10 +32,10 @@ inputPasskeyResponseLogin#c31fc14a client_data:DataJSON authenticator_data:bytes
 ```php
 $inputPasskeyResponse = $client->inputPasskeyResponseLogin(
 	client_data : $client->dataJSON(
-		data : 'zE7yKraeJsMkbYwA',
+		data : '3nP2TdZMQRj1SuEp',
 	),
 	authenticator_data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	signature : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	user_handle : 'm2t3iPGeOn8sHF9v',
+	user_handle : 'IgsbeOK6DtH3Bcma',
 );
 ```

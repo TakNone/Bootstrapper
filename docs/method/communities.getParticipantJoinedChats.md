@@ -1,6 +1,6 @@
 # communities.getParticipantJoinedChats
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 communities.getParticipantJoinedChats#f87eabab community:InputChannel participant:InputPeer = communities.ParticipantJoinedChats;

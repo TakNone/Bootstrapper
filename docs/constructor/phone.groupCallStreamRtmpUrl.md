@@ -2,7 +2,7 @@
 
 **Description** : *Contains the RTMP publishing URL and secret stream key, see creating and publishing an RTMP livestream &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.groupCallStreamRtmpUrl#2dbf3432 url:string key:string = phone.GroupCallStreamRtmpUrl;
@@ -30,6 +30,6 @@ phone.groupCallStreamRtmpUrl#2dbf3432 url:string key:string = phone.GroupCallStr
 ```php
 $phoneGroupCallStreamRtmpUrl = $client->phone->groupCallStreamRtmpUrl(
 	url : 'https://docs.liveproto.dev',
-	key : 'Wnrxjm8EfXDA03Uv',
+	key : 'Hlv7wmZtQ8NdMI4p',
 );
 ```

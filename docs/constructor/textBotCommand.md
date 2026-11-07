@@ -1,6 +1,6 @@
 # textBotCommand
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 textBotCommand#2ff29d3 text:RichText = RichText;

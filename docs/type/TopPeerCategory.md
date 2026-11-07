@@ -2,7 +2,7 @@
 
 **Description** : *Top peer category*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 topPeerCategoryBotsPM#ab661b5b = TopPeerCategory;

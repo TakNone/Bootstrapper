@@ -2,7 +2,7 @@
 
 **Description** : *Pins a received gift on top of the profile of the user or owned channels by using payments\.toggleStarGiftsPinnedToTop*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 payments.toggleStarGiftsPinnedToTop#1513e7b0 peer:InputPeer stargift:Vector<InputSavedStarGift> = Bool;
@@ -40,14 +40,14 @@ $bool = $client->payments->toggleStarGiftsPinnedToTop(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 39,
+			msg_id : 5,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : -7427093035959767208,
+			saved_id : 4486807583267612135,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : 'wkol9xAz4JyZ08W5',
+			slug : 'u3iTB9faHECAhlZb',
 		),
 	),
 );

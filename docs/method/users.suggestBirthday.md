@@ -2,7 +2,7 @@
 
 **Description** : *Suggest a birthday to another user, see here &raquo; for more info on birthdays in the API*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 users.suggestBirthday#fc533372 id:InputUser birthday:Birthday = Updates;
@@ -40,9 +40,9 @@ users.suggestBirthday#fc533372 id:InputUser birthday:Birthday = Updates;
 $updates = $client->users->suggestBirthday(
 	id : $client->get_input_user(user : '@TakNone'),
 	birthday : $client->birthday(
-		day : 81,
-		month : 8,
-		year : 9,
+		day : 78,
+		month : 35,
+		year : 85,
 	),
 );
 ```

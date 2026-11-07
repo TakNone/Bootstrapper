@@ -1,6 +1,6 @@
 # inlineButtonTypeDisabled
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 inlineButtonTypeDisabled#a438619d = InlineButtonType;

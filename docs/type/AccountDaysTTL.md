@@ -2,7 +2,7 @@
 
 **Description** : *Time\-to\-live of current account*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 accountDaysTTL#b8d0afdf days:int = AccountDaysTTL;

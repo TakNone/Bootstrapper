@@ -2,7 +2,7 @@
 
 **Description** : *Info about bots \(available bot commands, etc\)*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 botInfo#4d8a0299 flags:# has_preview_medias:flags.6?true user_id:flags.0?long description:flags.1?string description_photo:flags.4?Photo description_document:flags.5?Document commands:flags.2?Vector<BotCommand> menu_button:flags.3?BotMenuButton privacy_policy_url:flags.7?string app_settings:flags.8?BotAppSettings verifier_settings:flags.9?BotVerifierSettings = BotInfo;
@@ -39,35 +39,157 @@ botInfo#4d8a0299 flags:# has_preview_medias:flags.6?true user_id:flags.0?long de
 ```php
 $botInfo = $client->botInfo(
 	has_preview_medias : true,
-	user_id : 5727980349554220537,
-	description : 'oWcgIijsTN7FvVqy',
+	user_id : 2845430748305604475,
+	description : 'hQAnl04o89yJ7EDf',
 	description_photo : $client->photoEmpty(
-		id : 8688779655626974561,
+		id : -1454543394050695889,
 	),
 	description_document : $client->documentEmpty(
-		id : 4195021137467387879,
+		id : 5021579894276591523,
 	),
 	commands : array(
 		$client->botCommand(
 			ephemeral : true,
-			command : '0ptJFN9Cjr1z6wMy',
-			description : 'PRdjx0Z6m7ewFpXI',
+			command : 'BYTunXtHvfFl9Uw3',
+			description : 'R8OdieDwMWSGgA3h',
 		),
 	),
 	menu_button : $client->botMenuButtonDefault(),
 	privacy_policy_url : 'https://docs.liveproto.dev',
 	app_settings : $client->botAppSettings(
 		placeholder_path : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-		background_color : 16,
-		background_dark_color : 93,
-		header_color : 57,
-		header_dark_color : 40,
+		background_color : 80,
+		background_dark_color : 18,
+		header_color : 31,
+		header_dark_color : 78,
 	),
 	verifier_settings : $client->botVerifierSettings(
 		can_modify_custom_description : true,
-		icon : -4618038438506299631,
-		company : 'iDcw4QsMzP5A3h1q',
-		custom_description : 'KZw43uJHVpYi6olk',
+		icon : -1239270351805623011,
+		company : 'zo9C2fPFKxJYZIeD',
+		custom_description : $client->textWithEntities(
+			text : 'Llhbs9GEuH6vqazp',
+			entities : array(
+				$client->messageEntityUnknown(
+					offset : 0,
+					length : 95,
+				),
+				$client->messageEntityMention(
+					offset : 0,
+					length : 93,
+				),
+				$client->messageEntityHashtag(
+					offset : 0,
+					length : 85,
+				),
+				$client->messageEntityBotCommand(
+					offset : 0,
+					length : 53,
+				),
+				$client->messageEntityUrl(
+					offset : 0,
+					length : 99,
+				),
+				$client->messageEntityEmail(
+					offset : 0,
+					length : 90,
+				),
+				$client->messageEntityBold(
+					offset : 0,
+					length : 98,
+				),
+				$client->messageEntityItalic(
+					offset : 0,
+					length : 42,
+				),
+				$client->messageEntityCode(
+					offset : 0,
+					length : 29,
+				),
+				$client->messageEntityPre(
+					offset : 0,
+					length : 48,
+					language : 'HJXz7nuOeGZTVl5A',
+				),
+				$client->messageEntityTextUrl(
+					offset : 0,
+					length : 59,
+					url : 'https://docs.liveproto.dev',
+				),
+				$client->messageEntityMentionName(
+					offset : 0,
+					length : 20,
+					user_id : 5608262048777071865,
+				),
+				$client->inputMessageEntityMentionName(
+					offset : 0,
+					length : 17,
+					user_id : $client->get_input_user(user : '@TakNone'),
+				),
+				$client->messageEntityPhone(
+					offset : 0,
+					length : 74,
+				),
+				$client->messageEntityCashtag(
+					offset : 0,
+					length : 2,
+				),
+				$client->messageEntityUnderline(
+					offset : 0,
+					length : 100,
+				),
+				$client->messageEntityStrike(
+					offset : 0,
+					length : 84,
+				),
+				$client->messageEntityBankCard(
+					offset : 0,
+					length : 40,
+				),
+				$client->messageEntitySpoiler(
+					offset : 0,
+					length : 99,
+				),
+				$client->messageEntityCustomEmoji(
+					offset : 0,
+					length : 99,
+					document_id : -5775686137419089034,
+				),
+				$client->messageEntityBlockquote(
+					collapsed : true,
+					offset : 0,
+					length : 91,
+				),
+				$client->messageEntityFormattedDate(
+					relative : true,
+					short_time : true,
+					long_time : true,
+					short_date : true,
+					long_date : true,
+					day_of_week : true,
+					offset : 0,
+					length : 43,
+					date : 36,
+				),
+				$client->messageEntityDiffInsert(
+					offset : 0,
+					length : 46,
+				),
+				$client->messageEntityDiffReplace(
+					offset : 0,
+					length : 14,
+					old_text : 'NWFJjwZ8IOVPlS2z',
+				),
+				$client->messageEntityDiffDelete(
+					offset : 0,
+					length : 17,
+				),
+				$client->messageEntityTonAddress(
+					offset : 0,
+					length : 98,
+				),
+			),
+		),
 	),
 );
 ```

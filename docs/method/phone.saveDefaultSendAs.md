@@ -2,7 +2,7 @@
 
 **Description** : *Save the default peer displayed as the author of live story comments and reactions, see in\-call messages &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.saveDefaultSendAs#4167add1 call:InputGroupCall send_as:InputPeer = Bool;
@@ -38,8 +38,8 @@ phone.saveDefaultSendAs#4167add1 call:InputGroupCall send_as:InputPeer = Bool;
 ```php
 $bool = $client->phone->saveDefaultSendAs(
 	call : $client->inputGroupCall(
-		id : -6997925361159435391,
-		access_hash : 5082149203293409712,
+		id : 1555194502746908530,
+		access_hash : -6446548109951557799,
 	),
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

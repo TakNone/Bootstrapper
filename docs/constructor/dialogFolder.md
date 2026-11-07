@@ -2,7 +2,7 @@
 
 **Description** : *Dialog in folder*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 dialogFolder#71bd134c flags:# pinned:flags.2?true folder:Folder peer:Peer top_message:int unread_muted_peers_count:int unread_unmuted_peers_count:int unread_muted_messages_count:int unread_unmuted_messages_count:int = Dialog;
@@ -41,17 +41,17 @@ $dialog = $client->dialogFolder(
 		autofill_new_broadcasts : true,
 		autofill_public_groups : true,
 		autofill_new_correspondents : true,
-		id : 29,
-		title : '4prS6g5dnkFmI9Hx',
+		id : 88,
+		title : 'pSOKnoPq2zYlAekJ',
 		photo : $client->chatPhotoEmpty(),
 	),
 	peer : $client->peerUser(
-		user_id : 2584566942039995756,
+		user_id : -1394245883684873188,
 	),
-	top_message : 26,
-	unread_muted_peers_count : 98,
-	unread_unmuted_peers_count : 74,
-	unread_muted_messages_count : 30,
-	unread_unmuted_messages_count : 19,
+	top_message : 78,
+	unread_muted_peers_count : 35,
+	unread_unmuted_peers_count : 13,
+	unread_muted_messages_count : 75,
+	unread_unmuted_messages_count : 28,
 );
 ```

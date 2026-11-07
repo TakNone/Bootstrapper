@@ -2,7 +2,7 @@
 
 **Description** : *Invite a set of users to a video chat/livestream &raquo;; cannot be used for live stories &raquo; or conference calls &raquo;*
 
-**Layer** : 229
+**Layer** : 233
 
 ```tl
 phone.inviteToGroupCall#7b393160 call:InputGroupCall users:Vector<InputUser> = Updates;
@@ -43,8 +43,8 @@ phone.inviteToGroupCall#7b393160 call:InputGroupCall users:Vector<InputUser> = U
 ```php
 $updates = $client->phone->inviteToGroupCall(
 	call : $client->inputGroupCall(
-		id : 1782174331832456117,
-		access_hash : -3682644887064877859,
+		id : -1056748941560697001,
+		access_hash : 3113476995735996375,
 	),
 	users : array($client->get_input_user(user : '@TakNone')),
 );
