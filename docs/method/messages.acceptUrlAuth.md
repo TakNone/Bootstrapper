@@ -2,7 +2,7 @@
 
 **Description** : *Use this to accept a Seamless Telegram Login authorization request, for more info click here &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.acceptUrlAuth#67a3f0de flags:# write_allowed:flags.0?true share_phone_number:flags.3?true peer:flags.1?InputPeer msg_id:flags.1?int button_id:flags.1?int url:flags.2?string match_code:flags.4?string = UrlAuthResult;
@@ -16,12 +16,12 @@ messages.acceptUrlAuth#67a3f0de flags:# write_allowed:flags.0?true share_phone_n
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **write_allowed** | [`flags.0?true`](type/true) | Set this flag to allow the bot to send messages to you (if requested) |
-| **share_phone_number** | [`flags.3?true`](type/true) | NOTHING |
+| **share_phone_number** | [`flags.3?true`](type/true) | Set this flag to share the user's phone number with the bot (if requested via urlAuthResultRequest.request_phone_number and consented to by the user) |
 | **peer** | [`flags.1?InputPeer`](type/InputPeer) | The location of the message |
 | **msg_id** | [`flags.1?int`](type/int) | Message ID of the message with the login button |
 | **button_id** | [`flags.1?int`](type/int) | ID of the login button |
 | **url** | [`flags.2?string`](type/string) | URL used for link URL authorization, click here for more info » |
-| **match_code** | [`flags.4?string`](type/string) | NOTHING |
+| **match_code** | [`flags.4?string`](type/string) | If urlAuthResultRequest.match_codes was set, the emoji or code selected by the user from the provided list; must always be provided when match_codes is set, even if match_codes_first was set and the code was already validated via messages.checkUrlAuthMatchCode |
 
 ---
 
@@ -38,9 +38,9 @@ $urlAuthResult = $client->messages->acceptUrlAuth(
 	write_allowed : true,
 	share_phone_number : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 1,
-	button_id : 75,
+	msg_id : 47,
+	button_id : 68,
 	url : 'https://docs.liveproto.dev',
-	match_code : 'OWE4eZRoMyXtD21K',
+	match_code : 'QSXAxjwaHv17V6Y0',
 );
 ```

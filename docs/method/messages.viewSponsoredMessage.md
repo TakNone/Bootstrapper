@@ -2,7 +2,7 @@
 
 **Description** : *Mark a specific sponsored message &raquo; as read*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.viewSponsoredMessage#269e3643 random_id:bytes = Bool;
@@ -14,7 +14,7 @@ messages.viewSponsoredMessage#269e3643 random_id:bytes = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>random_id</mark> | [`bytes`](type/bytes) | The ad's unique ID |
+| <mark>random_id</mark> | [`bytes`](type/bytes) | The ad's unique ID. See here » for more info on random ID deduplication and updateMessageID mapping |
 
 ---
 

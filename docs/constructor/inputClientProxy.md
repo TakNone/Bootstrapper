@@ -2,7 +2,7 @@
 
 **Description** : *Info about an MTProxy used to connect*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputClientProxy#75588b3f address:string port:int = InputClientProxy;
@@ -29,7 +29,7 @@ inputClientProxy#75588b3f address:string port:int = InputClientProxy;
 
 ```php
 $inputClientProxy = $client->inputClientProxy(
-	address : 'PaLXiwBF2Uz60vS8',
-	port : 85,
+	address : '9wNqbG2PMQgWmnty',
+	port : 71,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Object describing actions connected to a service message*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageActionEmpty#b6aef7b0 = MessageAction;
@@ -52,7 +52,7 @@ messageActionPaymentRefunded#41b3e202 flags:# peer:Peer currency:string total_am
 messageActionGiftStars#45d5b021 flags:# currency:string amount:long stars:long crypto_currency:flags.0?string crypto_amount:flags.0?long transaction_id:flags.1?string = MessageAction;
 messageActionPrizeStars#b00c47a2 flags:# unclaimed:flags.0?true stars:long transaction_id:string boost_peer:Peer giveaway_msg_id:int = MessageAction;
 messageActionStarGift#ea2c31d3 flags:# name_hidden:flags.0?true saved:flags.2?true converted:flags.3?true upgraded:flags.5?true refunded:flags.9?true can_upgrade:flags.10?true prepaid_upgrade:flags.13?true upgrade_separate:flags.16?true auction_acquired:flags.17?true gift:StarGift message:flags.1?TextWithEntities convert_stars:flags.4?long upgrade_msg_id:flags.5?int upgrade_stars:flags.8?long from_id:flags.11?Peer peer:flags.12?Peer saved_id:flags.12?long prepaid_upgrade_hash:flags.14?string gift_msg_id:flags.15?int to_id:flags.18?Peer gift_num:flags.19?int = MessageAction;
-messageActionStarGiftUnique#e6c31522 flags:# upgrade:flags.0?true transferred:flags.1?true saved:flags.2?true refunded:flags.5?true prepaid_upgrade:flags.11?true assigned:flags.13?true from_offer:flags.14?true craft:flags.16?true gift:StarGift can_export_at:flags.3?int transfer_stars:flags.4?long from_id:flags.6?Peer peer:flags.7?Peer saved_id:flags.7?long resale_amount:flags.8?StarsAmount can_transfer_at:flags.9?int can_resell_at:flags.10?int drop_original_details_stars:flags.12?long can_craft_at:flags.15?int = MessageAction;
+messageActionStarGiftUnique#7e1c1187 flags:# upgrade:flags.0?true transferred:flags.1?true saved:flags.2?true refunded:flags.5?true prepaid_upgrade:flags.11?true assigned:flags.13?true from_offer:flags.14?true craft:flags.16?true name_hidden:flags.17?true gift:StarGift can_export_at:flags.3?int transfer_stars:flags.4?long from_id:flags.6?Peer peer:flags.7?Peer saved_id:flags.7?long resale_amount:flags.8?StarsAmount can_transfer_at:flags.9?int can_resell_at:flags.10?int drop_original_details_stars:flags.12?long can_craft_at:flags.15?int message:flags.18?TextWithEntities = MessageAction;
 messageActionPaidMessagesRefunded#ac1f1fcd count:int stars:long = MessageAction;
 messageActionPaidMessagesPrice#84b88578 flags:# broadcast_messages_allowed:flags.0?true stars:long = MessageAction;
 messageActionConferenceCall#2ffe2f7a flags:# missed:flags.0?true active:flags.1?true video:flags.4?true call_id:long duration:flags.2?int other_participants:flags.3?Vector<Peer> = MessageAction;
@@ -72,6 +72,8 @@ messageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true prev_value:
 messageActionPollAppendAnswer#9da1cd6c answer:PollAnswer = MessageAction;
 messageActionPollDeleteAnswer#399674dc answer:PollAnswer = MessageAction;
 messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
+messageActionChangeCommunity#5d20bae8 flags:# community_id:flags.0?long = MessageAction;
+messageActionChatJoinedViaCommunity#4a8bfe80 community_id:long = MessageAction;
 ```
 
 ---
@@ -104,10 +106,10 @@ messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
 | [**messageActionSecureValuesSent**](constructor/messageActionSecureValuesSent) | Request for secure telegram passport values was sent |
 | [**messageActionContactSignUp**](constructor/messageActionContactSignUp) | A contact just signed up to telegram |
 | [**messageActionGeoProximityReached**](constructor/messageActionGeoProximityReached) | A user of the chat is now in proximity of another user |
-| [**messageActionGroupCall**](constructor/messageActionGroupCall) | The group call has ended |
-| [**messageActionInviteToGroupCall**](constructor/messageActionInviteToGroupCall) | A set of users was invited to the group call |
+| [**messageActionGroupCall**](constructor/messageActionGroupCall) | A video chat/livestream was started or terminated |
+| [**messageActionInviteToGroupCall**](constructor/messageActionInviteToGroupCall) | A set of users was invited to a video chat/livestream » |
 | [**messageActionSetMessagesTTL**](constructor/messageActionSetMessagesTTL) | The Time-To-Live of messages in this chat was changed |
-| [**messageActionGroupCallScheduled**](constructor/messageActionGroupCallScheduled) | A group call was scheduled |
+| [**messageActionGroupCallScheduled**](constructor/messageActionGroupCallScheduled) | A video chat/livestream was scheduled |
 | [**messageActionSetChatTheme**](constructor/messageActionSetChatTheme) | The chat theme was changed |
 | [**messageActionChatJoinedByRequest**](constructor/messageActionChatJoinedByRequest) | A user was accepted into the group by an admin |
 | [**messageActionWebViewDataSentMe**](constructor/messageActionWebViewDataSentMe) | Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (bot side service message) |
@@ -130,20 +132,22 @@ messageActionManagedBotCreated#16605e3e bot_id:long = MessageAction;
 | [**messageActionStarGiftUnique**](constructor/messageActionStarGiftUnique) | A gift » was upgraded to a collectible gift » |
 | [**messageActionPaidMessagesRefunded**](constructor/messageActionPaidMessagesRefunded) | Sent from peer A to B, indicates that A refunded all stars B previously paid to send messages to A, see here » for more info on paid messages |
 | [**messageActionPaidMessagesPrice**](constructor/messageActionPaidMessagesPrice) | The price of paid messages » in this chat was changed |
-| [**messageActionConferenceCall**](constructor/messageActionConferenceCall) | Represents a conference call (or an invitation to a conference call, if neither the missed nor active flags are set).If call_requests_disabled is not set or false, an incoming messageActionConferenceCall with the missed and active flags not set should trigger ringing and an incoming call screen, just like for one-on-one calls |
+| [**messageActionConferenceCall**](constructor/messageActionConferenceCall) | Represents a conference call », or an invitation to one if neither the missed nor active flags are set.If call_requests_disabled is not set or false, an incoming messageActionConferenceCall with the missed and active flags not set should trigger ringing and an incoming call screen, just like for one-on-one calls |
 | [**messageActionTodoCompletions**](constructor/messageActionTodoCompletions) | Items were marked as completed or not completed in a todo list » |
 | [**messageActionTodoAppendTasks**](constructor/messageActionTodoAppendTasks) | Items were appended to the todo list » |
 | [**messageActionSuggestedPostApproval**](constructor/messageActionSuggestedPostApproval) | A suggested post » was approved or rejected |
 | [**messageActionSuggestedPostSuccess**](constructor/messageActionSuggestedPostSuccess) | A suggested post » was successfully posted, and payment for it was successfully received |
 | [**messageActionSuggestedPostRefund**](constructor/messageActionSuggestedPostRefund) | A suggested post » was accepted and posted or scheduled, but either the channel deleted the posted/scheduled post before stars_suggested_post_age_min seconds have elapsed, or the user refunded the payment for the stars used to pay for the suggested post |
-| [**messageActionGiftTon**](constructor/messageActionGiftTon) | You were gifted some toncoins.This service message should be displayed below the appropriate sticker from the inputStickerSetTonGifts » stickerset »:- If crypto_amount <= 10_000_000_000, choose the sticker with emoji equal to ""- If crypto_amount <= 50_000_000_000, choose the sticker with emoji equal to ""- Otherwise, choose the sticker with emoji equal to "" |
-| [**messageActionSuggestBirthday**](constructor/messageActionSuggestBirthday) | NOTHING |
-| [**messageActionStarGiftPurchaseOffer**](constructor/messageActionStarGiftPurchaseOffer) | NOTHING |
-| [**messageActionStarGiftPurchaseOfferDeclined**](constructor/messageActionStarGiftPurchaseOfferDeclined) | NOTHING |
-| [**messageActionNewCreatorPending**](constructor/messageActionNewCreatorPending) | NOTHING |
-| [**messageActionChangeCreator**](constructor/messageActionChangeCreator) | NOTHING |
-| [**messageActionNoForwardsToggle**](constructor/messageActionNoForwardsToggle) | NOTHING |
-| [**messageActionNoForwardsRequest**](constructor/messageActionNoForwardsRequest) | NOTHING |
-| [**messageActionPollAppendAnswer**](constructor/messageActionPollAppendAnswer) | NOTHING |
-| [**messageActionPollDeleteAnswer**](constructor/messageActionPollDeleteAnswer) | NOTHING |
-| [**messageActionManagedBotCreated**](constructor/messageActionManagedBotCreated) | NOTHING |
+| [**messageActionGiftTon**](constructor/messageActionGiftTon) | You were gifted some Grams.This service message should be displayed below the appropriate sticker from the inputStickerSetTonGifts » stickerset »:- If crypto_amount <= 10_000_000_000, choose the sticker with emoji equal to ""- If crypto_amount <= 50_000_000_000, choose the sticker with emoji equal to ""- Otherwise, choose the sticker with emoji equal to "" |
+| [**messageActionSuggestBirthday**](constructor/messageActionSuggestBirthday) | A new birthday was suggested using users.suggestBirthday, see here » for more info on birthdays in the API |
+| [**messageActionStarGiftPurchaseOffer**](constructor/messageActionStarGiftPurchaseOffer) | Contains an offer to purchase a collectible gift », see here » for the full flow |
+| [**messageActionStarGiftPurchaseOfferDeclined**](constructor/messageActionStarGiftPurchaseOfferDeclined) | A collectible gift purchase offer » was declined, or the offer expired, see here » for the full flow |
+| [**messageActionNewCreatorPending**](constructor/messageActionNewCreatorPending) | Service message: emitted to a supergroup when the group/channel creator leaves the group », indicating that ownership transfer is pending. The new_creator_id user will become the new owner after 7 days if the old owner does not rejoin.Sent from the user ID of the old owner |
+| [**messageActionChangeCreator**](constructor/messageActionChangeCreator) | Service message: emitted to a supergroup when ownership transfer completes after the old owner left the group » (7 days after the old owner left without rejoining), indicating that ownership has been transferred to a new owner.Sent from the user ID of the old owner |
+| [**messageActionNoForwardsToggle**](constructor/messageActionNoForwardsToggle) | Emitted only in private chats when enabling or disabling content protection » |
+| [**messageActionNoForwardsRequest**](constructor/messageActionNoForwardsRequest) | Emitted only in private chats if the other side requested to disable content protection » |
+| [**messageActionPollAppendAnswer**](constructor/messageActionPollAppendAnswer) | A new answer option was added to an open-answer poll » |
+| [**messageActionPollDeleteAnswer**](constructor/messageActionPollDeleteAnswer) | An answer option was removed from an open-answer poll » |
+| [**messageActionManagedBotCreated**](constructor/messageActionManagedBotCreated) | Service message sent by a user to a manager bot when a new managed bot » is created through it, by invoking messages.sendBotRequestedPeer with a requestPeerTypeCreateBot, see here » for more info |
+| [**messageActionChangeCommunity**](constructor/messageActionChangeCommunity) | NOTHING |
+| [**messageActionChatJoinedViaCommunity**](constructor/messageActionChatJoinedViaCommunity) | NOTHING |

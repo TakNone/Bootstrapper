@@ -1,8 +1,8 @@
 # phone.toggleGroupCallSettings
 
-**Description** : *Change group call settings*
+**Description** : *Change group call settings\. Each setting supports different group call types, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true call:InputGroupCall join_muted:flags.0?Bool messages_enabled:flags.2?Bool send_paid_messages_stars:flags.3?long = Updates;
@@ -15,11 +15,11 @@ phone.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true ca
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| **reset_invite_hash** | [`flags.1?true`](type/true) | Invalidate existing invite links |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call |
-| **join_muted** | [`flags.0?Bool`](type/Bool) | Whether all users will that join this group call are muted by default upon joining the group call |
-| **messages_enabled** | [`flags.2?Bool`](type/Bool) | NOTHING |
-| **send_paid_messages_stars** | [`flags.3?long`](type/long) | NOTHING |
+| **reset_invite_hash** | [`flags.1?true`](type/true) | Invalidate existing invite links for video chats, livestreams and conferences |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call whose settings should be changed |
+| **join_muted** | [`flags.0?Bool`](type/Bool) | Whether users joining a non-RTMP video chat/livestream should be muted by default |
+| **messages_enabled** | [`flags.2?Bool`](type/Bool) | Enable or disable the in-call message overlay in video chats/livestreams, conferences and live stories, including in RTMP mode |
+| **send_paid_messages_stars** | [`flags.3?long`](type/long) | Set the minimum Telegram Stars donation required from users other than the live story owner for each comment; the owner may always comment without donating, and 0 allows free comments for everyone |
 
 ---
 
@@ -33,6 +33,8 @@ phone.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true ca
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **GROUPCALL_CHANGE_FORBIDDEN** | `403` | You cannot change this group call setting |
+| **GROUPCALL_FORBIDDEN** | `403` | The specified group call cannot be used in this context |
 | **GROUPCALL_INVALID** | `400` | The specified group call is invalid |
 | **GROUPCALL_NOT_MODIFIED** | `400` | Group call settings weren't modified |
 
@@ -44,11 +46,11 @@ phone.toggleGroupCallSettings#974392f2 flags:# reset_invite_hash:flags.1?true ca
 $updates = $client->phone->toggleGroupCallSettings(
 	reset_invite_hash : true,
 	call : $client->inputGroupCall(
-		id : -193681825445020271,
-		access_hash : -5785014547579229378,
+		id : 4420514768942046045,
+		access_hash : -1164546215532640052,
 	),
-	join_muted : false,
+	join_muted : true,
 	messages_enabled : false,
-	send_paid_messages_stars : -2827488989127243741,
+	send_paid_messages_stars : 7805050890135914234,
 );
 ```

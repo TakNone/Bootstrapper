@@ -2,7 +2,7 @@
 
 **Description** : *Join a channel/supergroup*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.joinChannel#7f6a1e22 channel:InputChannel = messages.ChatInviteJoinResult;
@@ -42,6 +42,7 @@ channels.joinChannel#7f6a1e22 channel:InputChannel = messages.ChatInviteJoinResu
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **USERS_TOO_MUCH** | `400` | The maximum number of users has been exceeded (to create a chat, for example) |
 | **USER_ALREADY_PARTICIPANT** | `400` | The user is already in the group |
+| **USER_BANNED_IN_CHANNEL** | `400` | You're banned from sending messages in supergroups/channels |
 | **USER_CHANNELS_TOO_MUCH** | `400` | One of the users you tried to add is already in too many channels/supergroups |
 
 ---

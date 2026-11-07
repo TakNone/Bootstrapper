@@ -1,6 +1,8 @@
 # phone.saveDefaultSendAs
 
-**Layer** : 227
+**Description** : *Save the default peer displayed as the author of live story comments and reactions, see in\-call messages &raquo;*
+
+**Layer** : 229
 
 ```tl
 phone.saveDefaultSendAs#4167add1 call:InputGroupCall send_as:InputPeer = Bool;
@@ -12,8 +14,8 @@ phone.saveDefaultSendAs#4167add1 call:InputGroupCall send_as:InputPeer = Bool;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
-| <mark>send_as</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Live story group call |
+| <mark>send_as</mark> | [`InputPeer`](type/InputPeer) | Peer to display as the author of subsequent comments and reactions |
 
 ---
 
@@ -23,13 +25,21 @@ phone.saveDefaultSendAs#4167add1 call:InputGroupCall send_as:InputPeer = Bool;
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **GROUPCALL_INVALID** | `400` | The specified group call is invalid |
+
+---
+
 ## Example
 
 ```php
 $bool = $client->phone->saveDefaultSendAs(
 	call : $client->inputGroupCall(
-		id : -4810674629445194525,
-		access_hash : -148332293297027776,
+		id : -6997925361159435391,
+		access_hash : 5082149203293409712,
 	),
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

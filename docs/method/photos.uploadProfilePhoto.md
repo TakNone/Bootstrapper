@@ -2,7 +2,7 @@
 
 **Description** : *Updates current user profile photo*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 photos.uploadProfilePhoto#388a3b5 flags:# fallback:flags.3?true bot:flags.5?InputUser file:flags.0?InputFile video:flags.1?InputFile video_start_ts:flags.2?double video_emoji_markup:flags.4?VideoSize = photos.Photo;
@@ -57,13 +57,13 @@ $photosPhoto = $client->photos->uploadProfilePhoto(
 	bot : $client->get_input_user(user : '@TakNone'),
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : 1584585.0048828125,
+	video_start_ts : 886094.232421875,
 	video_emoji_markup : $client->videoSize(
-		type : 'f4IF2MiCOG3tU9qX',
-		w : 79,
-		h : 18,
-		size : 4,
-		video_start_ts : -1181444.55078125,
+		type : 'sbqpgjyAEG1BKVDL',
+		w : 34,
+		h : 86,
+		size : 80,
+		video_start_ts : 1085827.828125,
 	),
 );
 ```

@@ -1,6 +1,6 @@
 # InputRichFile
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputRichFilePhoto#9b00622b id:string photo:InputPhoto = InputRichFile;

@@ -1,6 +1,8 @@
 # messageMediaVideoStream
 
-**Layer** : 227
+**Description** : *Identifies the active group call associated with a live story &raquo;*
+
+**Layer** : 229
 
 ```tl
 messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGroupCall = MessageMedia;
@@ -12,9 +14,9 @@ messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGrou
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **rtmp_stream** | [`flags.0?true`](type/true) | NOTHING |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **rtmp_stream** | [`flags.0?true`](type/true) | Whether the live story uses RTMP livestream mode » |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Active live story group call |
 
 ---
 
@@ -30,8 +32,8 @@ messageMediaVideoStream#ca5cab89 flags:# rtmp_stream:flags.0?true call:InputGrou
 $messageMedia = $client->messageMediaVideoStream(
 	rtmp_stream : true,
 	call : $client->inputGroupCall(
-		id : -1015981571482532894,
-		access_hash : 1016991249748817621,
+		id : -3632942075149282512,
+		access_hash : 6189898506766176439,
 	),
 );
 ```

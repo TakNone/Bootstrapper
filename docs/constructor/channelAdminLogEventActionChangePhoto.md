@@ -2,7 +2,7 @@
 
 **Description** : *The channel/supergroup&#039;s picture was changed*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelAdminLogEventActionChangePhoto#434bd2af prev_photo:Photo new_photo:Photo = ChannelAdminLogEventAction;
@@ -30,10 +30,10 @@ channelAdminLogEventActionChangePhoto#434bd2af prev_photo:Photo new_photo:Photo 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionChangePhoto(
 	prev_photo : $client->photoEmpty(
-		id : -5624855170358862129,
+		id : 8864663200217850839,
 	),
 	new_photo : $client->photoEmpty(
-		id : -7675274384139617558,
+		id : 3828899632019695395,
 	),
 );
 ```

@@ -1,8 +1,8 @@
 # phoneConnection
 
-**Description** : *Identifies an endpoint that can be used to connect to the other user in a phone call*
+**Description** : *DEPRECATED \(libtgvoip\): Identifies an endpoint that can be used to connect to the other user in a phone call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phoneConnection#9cc123c7 flags:# tcp:flags.0?true id:long ip:string ipv6:string port:int peer_tag:bytes = PhoneConnection;
@@ -35,10 +35,10 @@ phoneConnection#9cc123c7 flags:# tcp:flags.0?true id:long ip:string ipv6:string 
 ```php
 $phoneConnection = $client->phoneConnection(
 	tcp : true,
-	id : 5535348001370893560,
+	id : 6203364239201458630,
 	ip : '127.0.0.1',
 	ipv6 : '127.0.0.1',
-	port : 43,
+	port : 12,
 	peer_tag : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

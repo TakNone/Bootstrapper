@@ -2,7 +2,7 @@
 
 **Description** : *Upload a custom profile picture for a contact, or suggest a new profile picture to a contact*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 photos.uploadContactProfilePhoto#e14c4a71 flags:# suggest:flags.3?true save:flags.4?true user_id:InputUser file:flags.0?InputFile video:flags.1?InputFile video_start_ts:flags.2?double video_emoji_markup:flags.5?VideoSize = photos.Photo;
@@ -36,6 +36,7 @@ photos.uploadContactProfilePhoto#e14c4a71 flags:# suggest:flags.3?true save:flag
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **CONTACT_MISSING** | `400` | The specified user is not a contact |
+| **NEED_ACTION_MISSING** | `400` | The caller didn't specify a valid action (either save or suggest) for the contact profile photo upload |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
 
 ---
@@ -49,13 +50,13 @@ $photosPhoto = $client->photos->uploadContactProfilePhoto(
 	user_id : $client->get_input_user(user : '@TakNone'),
 	file : $client->upload_file(path : 'file.png'),
 	video : $client->upload_file(path : 'file.png'),
-	video_start_ts : -1970540.677734375,
+	video_start_ts : -1694120.12890625,
 	video_emoji_markup : $client->videoSize(
-		type : 'zpN6KkBg9tSM3HIu',
-		w : 85,
-		h : 11,
-		size : 37,
-		video_start_ts : 1013047.2509765625,
+		type : 'rBIaqpzVMQRjktbl',
+		w : 4,
+		h : 6,
+		size : 48,
+		video_start_ts : 1274295.5556640625,
 	),
 );
 ```

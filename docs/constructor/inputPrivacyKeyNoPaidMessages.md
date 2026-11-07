@@ -2,7 +2,7 @@
 
 **Description** : *Who can send you messages without paying, if paid messages &raquo; are enabled*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPrivacyKeyNoPaidMessages#bdc597b4 = InputPrivacyKey;

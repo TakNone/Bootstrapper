@@ -2,7 +2,7 @@
 
 **Description** : *Encrypted file*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 encryptedFile#a8008cd8 id:long access_hash:long size:long dc_id:int key_fingerprint:int = EncryptedFile;
@@ -32,10 +32,10 @@ encryptedFile#a8008cd8 id:long access_hash:long size:long dc_id:int key_fingerpr
 
 ```php
 $encryptedFile = $client->encryptedFile(
-	id : -3022362792769355615,
-	access_hash : 8925818669711561721,
-	size : -7862298097889755318,
-	dc_id : 38,
-	key_fingerprint : 47,
+	id : -3128706218693359396,
+	access_hash : -8421767066269941132,
+	size : -8003010262629606278,
+	dc_id : 32,
+	key_fingerprint : 26,
 );
 ```

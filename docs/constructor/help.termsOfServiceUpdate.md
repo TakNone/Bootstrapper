@@ -2,7 +2,7 @@
 
 **Description** : *Info about an update of telegram&#039;s terms of service\. If the terms of service are declined, then the account\.deleteAccount method should be called with the reason &quot;Decline ToS update&quot;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 help.termsOfServiceUpdate#28ecf961 expires:int terms_of_service:help.TermsOfService = help.TermsOfServiceUpdate;
@@ -29,37 +29,37 @@ help.termsOfServiceUpdate#28ecf961 expires:int terms_of_service:help.TermsOfServ
 
 ```php
 $helpTermsOfServiceUpdate = $client->help->termsOfServiceUpdate(
-	expires : 20,
+	expires : 97,
 	terms_of_service : $client->help->termsOfService(
 		popup : true,
 		id : $client->dataJSON(
-			data : 'zxDV80rwBtX5dCgS',
+			data : 'diB4DqsuGI0NTJZv',
 		),
-		text : 'h3Z9oQgfEXVpYaTP',
+		text : 'jIGfU5OY0cN16xAF',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 85,
+				length : 14,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 41,
+				length : 77,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 61,
+				length : 31,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 21,
+				length : 73,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 77,
+				length : 86,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 67,
+				length : 20,
 			),
 			$client->messageEntityBold(
 				offset : 0,
@@ -67,65 +67,65 @@ $helpTermsOfServiceUpdate = $client->help->termsOfServiceUpdate(
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 43,
+				length : 47,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 57,
+				length : 37,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 47,
-				language : 'L8NXTm2ugjYIdyUv',
+				length : 65,
+				language : 'rYFiehjOBUsXwkGd',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 47,
+				length : 89,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 7,
-				user_id : 2920116827306126782,
+				length : 43,
+				user_id : -2252121160886879850,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 26,
+				length : 38,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 20,
+				length : 14,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 83,
+				length : 0,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 32,
+				length : 38,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 61,
+				length : 62,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 79,
+				length : 18,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 68,
+				length : 91,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 5,
-				document_id : 2972445806338381547,
+				length : 22,
+				document_id : 3637458966909211396,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 89,
+				length : 74,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -135,24 +135,24 @@ $helpTermsOfServiceUpdate = $client->help->termsOfServiceUpdate(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 48,
-				date : 0,
+				length : 8,
+				date : 65,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 32,
+				length : 75,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 6,
-				old_text : 'lCwa1IAsOZyzENbY',
+				length : 42,
+				old_text : '1cy7OIXojKALeVzD',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 10,
+				length : 90,
 			),
 		),
-		min_age_confirm : 50,
+		min_age_confirm : 94,
 	),
 );
 ```

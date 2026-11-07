@@ -2,7 +2,7 @@
 
 **Description** : *Describes a Telegram Star transaction with Fragment, used when purchasing Telegram Stars through Fragment*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 starsTransactionPeerFragment#e92fd902 = StarsTransactionPeer;

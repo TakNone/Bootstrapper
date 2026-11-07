@@ -1,6 +1,8 @@
 # messageActionNewCreatorPending
 
-**Layer** : 227
+**Description** : *Service message: emitted to a supergroup when the group/channel creator leaves the group &raquo;, indicating that ownership transfer is pending\. The new\_creator\_id user will become the new owner after 7 days if the old owner does not rejoin*
+
+**Layer** : 229
 
 ```tl
 messageActionNewCreatorPending#b07ed085 new_creator_id:long = MessageAction;
@@ -12,7 +14,7 @@ messageActionNewCreatorPending#b07ed085 new_creator_id:long = MessageAction;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>new_creator_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>new_creator_id</mark> | [`long`](type/long) | The ID of the user who will become the new owner of the group/channel after 7 days if the old owner does not rejoin |
 
 ---
 
@@ -26,6 +28,6 @@ messageActionNewCreatorPending#b07ed085 new_creator_id:long = MessageAction;
 
 ```php
 $messageAction = $client->messageActionNewCreatorPending(
-	new_creator_id : 7627169779592892257,
+	new_creator_id : -711206774611637876,
 );
 ```

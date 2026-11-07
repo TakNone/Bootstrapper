@@ -2,7 +2,7 @@
 
 **Description** : *Globally search for posts from public channels &raquo; \(including those we aren&#039;t a member of\) containing either a specific hashtag, or a full text query*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?string offset_rate:int offset_peer:InputPeer offset_id:int limit:int allow_paid_stars:flags.2?long = messages.Messages;
@@ -36,6 +36,8 @@ channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?strin
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **FROZEN_METHOD_INVALID** | `420` | The current account is frozen, and thus cannot execute the specified action |
+| **OFFSET_PEER_ID_INVALID** | `400` | The provided offset peer is invalid |
+| **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
 
 ---
 
@@ -43,12 +45,12 @@ channels.searchPosts#f2c4f24d flags:# hashtag:flags.0?string query:flags.1?strin
 
 ```php
 $messagesMessages = $client->channels->searchPosts(
-	hashtag : '3yD8c4txOMXCIipR',
-	query : 'j3YWZEFn7VRwPTKk',
+	hashtag : 'nJIZpHhrkDTK0iaf',
+	query : 'oeGDIg0pxaSBO9bJ',
 	offset_rate : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	limit : 82,
-	allow_paid_stars : -3750111050018703732,
+	limit : 48,
+	allow_paid_stars : -608894339314627429,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Reaction and view counters for a list of stories*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 stories.storyViews#de9eed1d views:Vector<StoryViews> users:Vector<User> = stories.StoryViews;

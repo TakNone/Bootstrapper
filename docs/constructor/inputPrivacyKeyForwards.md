@@ -2,7 +2,7 @@
 
 **Description** : *Whether messages forwarded from you will be anonymous*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPrivacyKeyForwards#a4dd4c08 = InputPrivacyKey;

@@ -1,6 +1,6 @@
 # textBankCard
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 textBankCard#b956812d text:RichText = RichText;

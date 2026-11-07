@@ -1,6 +1,8 @@
 # updateEmojiGameInfo
 
-**Layer** : 227
+**Description** : *Dice game update*
+
+**Layer** : 229
 
 ```tl
 updateEmojiGameInfo#fb9c547a info:messages.EmojiGameInfo = Update;
@@ -12,7 +14,7 @@ updateEmojiGameInfo#fb9c547a info:messages.EmojiGameInfo = Update;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>info</mark> | [`messages.EmojiGameInfo`](type/messages.EmojiGameInfo) | NOTHING |
+| <mark>info</mark> | [`messages.EmojiGameInfo`](type/messages.EmojiGameInfo) | Dice game information |
 
 ---
 

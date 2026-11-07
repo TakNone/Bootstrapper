@@ -2,7 +2,7 @@
 
 **Description** : *Transfer a collectible gift to another user or channel: can only be used if transfer is free \(i\.e\. messageActionStarGiftUnique\.transfer\_stars is not set\); see here &raquo; for more info on the full flow \(including the different flow to use in case the transfer isn&#039;t free\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.transferStarGift#7f18176a stargift:InputSavedStarGift to_id:InputPeer = Updates;
@@ -35,8 +35,11 @@ payments.transferStarGift#7f18176a stargift:InputSavedStarGift to_id:InputPeer =
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **SAVED_ID_EMPTY** | `400` | The passed inputSavedStarGiftChat.saved_id is empty |
 | **STARGIFT_NOT_FOUND** | `400` | The specified gift was not found |
+| **STARGIFT_NOT_OWNER** | `400` | You're not the owner of the gift you trying to transfer |
+| **STARGIFT_NOT_UNIQUE** | `400` | You can't transfer a non-collectible gift |
 | **STARGIFT_OWNER_INVALID** | `400` | You cannot transfer or sell a gift owned by another user |
 | **STARGIFT_PEER_INVALID** | `400` | The specified inputSavedStarGiftChat.peer is invalid |
+| **STARGIFT_TRANSFER_TOO_EARLY_%d** | `400` | You cannot transfer this gift yet, wait %d seconds |
 
 ---
 
@@ -45,7 +48,7 @@ payments.transferStarGift#7f18176a stargift:InputSavedStarGift to_id:InputPeer =
 ```php
 $updates = $client->payments->transferStarGift(
 	stargift : $client->inputSavedStarGiftUser(
-		msg_id : 1,
+		msg_id : 40,
 	),
 	to_id : $client->get_input_peer(peer : '@LiveProtoChat'),
 );

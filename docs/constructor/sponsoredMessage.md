@@ -2,7 +2,7 @@
 
 **Description** : *A sponsored message*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 sponsoredMessage#7dbf8673 flags:# recommended:flags.5?true can_report:flags.12?true random_id:bytes url:string title:string message:string entities:flags.1?Vector<MessageEntity> photo:flags.6?Photo media:flags.14?MessageMedia color:flags.13?PeerColor button_text:string sponsor_info:flags.7?string additional_info:flags.8?string min_display_duration:flags.15?int max_display_duration:flags.15?int = SponsoredMessage;
@@ -17,7 +17,7 @@ sponsoredMessage#7dbf8673 flags:# recommended:flags.5?true can_report:flags.12?t
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **recommended** | [`flags.5?true`](type/true) | Whether the message needs to be labeled as "recommended" instead of "sponsored" |
 | **can_report** | [`flags.12?true`](type/true) | Whether this message can be reported as specified here » |
-| <mark>random_id</mark> | [`bytes`](type/bytes) | Message ID |
+| <mark>random_id</mark> | [`bytes`](type/bytes) | Message ID. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>url</mark> | [`string`](type/string) | Contains the URL to open when the user clicks on the sponsored message |
 | <mark>title</mark> | [`string`](type/string) | Contains the title of the sponsored message |
 | <mark>message</mark> | [`string`](type/string) | Sponsored message |
@@ -47,98 +47,98 @@ $sponsoredMessage = $client->sponsoredMessage(
 	can_report : true,
 	random_id : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	url : 'https://docs.liveproto.dev',
-	title : 'Xojl6P4ORLfSH21e',
-	message : 'scRO9DTKmdGbMjHL',
+	title : '5KDsxlj869AGMYTb',
+	message : '4qKsUTjZYnO5WaNQ',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 76,
+			length : 35,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 26,
+			length : 72,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 2,
+			length : 29,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 60,
+			length : 81,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 82,
+			length : 53,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 82,
+			length : 19,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 16,
+			length : 36,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 23,
+			length : 22,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 42,
+			length : 13,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 67,
-			language : '0pxOyPz5Jcb2U38o',
+			length : 57,
+			language : 'R8FkzeXDpEKdNCP1',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 30,
+			length : 18,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 100,
-			user_id : 5671476881699051257,
+			length : 44,
+			user_id : -4496462779711086193,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 51,
+			length : 5,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 86,
+			length : 5,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 87,
+			length : 89,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 45,
+			length : 49,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 62,
+			length : 37,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 72,
+			length : 97,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 48,
+			length : 63,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 94,
-			document_id : 2952469327401633430,
+			length : 45,
+			document_id : 721000570214058900,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 24,
+			length : 35,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -148,35 +148,35 @@ $sponsoredMessage = $client->sponsoredMessage(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 35,
-			date : 5,
+			length : 45,
+			date : 28,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 70,
+			length : 48,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 31,
-			old_text : 'iM0s5brTAGHqFIaL',
+			length : 3,
+			old_text : 'NHzr28naxgdsG1fI',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 77,
+			length : 87,
 		),
 	),
 	photo : $client->photoEmpty(
-		id : 3404786797545459718,
+		id : 2719037728825864865,
 	),
 	media : $client->messageMediaEmpty(),
 	color : $client->peerColor(
-		color : 38,
-		background_emoji_id : 6154085510255860581,
+		color : 90,
+		background_emoji_id : -1615787323431631914,
 	),
-	button_text : 'FLJu4lKrZcN89QpS',
-	sponsor_info : 'nSI6kWb0XQtw1RVr',
-	additional_info : '3yxMluhUZzFgwHDR',
-	min_display_duration : 20,
-	max_display_duration : 39,
+	button_text : 'W1nuGEcB9ZHsbz5P',
+	sponsor_info : 'D78CxVYaAGuWynoK',
+	additional_info : 'BLvxq63wkbFeSlJA',
+	min_display_duration : 17,
+	max_display_duration : 11,
 );
 ```

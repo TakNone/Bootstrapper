@@ -1,8 +1,8 @@
 # updateChatParticipant
 
-**Description** : *A user has joined or left a specific chat*
+**Description** : *A user has joined or left a specific basic group &raquo;: this update can only be received by bots, see here &raquo; for the user version of this update*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateChatParticipant#d087663a flags:# chat_id:long date:int actor_id:long user_id:long prev_participant:flags.0?ChatParticipant new_participant:flags.1?ChatParticipant invite:flags.2?ExportedChatInvite qts:int = Update;
@@ -36,41 +36,41 @@ updateChatParticipant#d087663a flags:# chat_id:long date:int actor_id:long user_
 
 ```php
 $update = $client->updateChatParticipant(
-	chat_id : 1876647891556051986,
-	date : 22,
-	actor_id : 3543045854092843090,
-	user_id : -8961235139034646250,
+	chat_id : -7779725869429901285,
+	date : 80,
+	actor_id : 7715090192558284890,
+	user_id : 5506207720645273901,
 	prev_participant : $client->chatParticipant(
-		user_id : -6033330057129771278,
-		inviter_id : -4143000382685523756,
-		date : 26,
-		rank : 'EZ7FjIfBHk3Y6uo8',
+		user_id : 1385734588448325932,
+		inviter_id : 3833760038868632075,
+		date : 23,
+		rank : 'sgtO9ZVnJByivN0Y',
 	),
 	new_participant : $client->chatParticipant(
-		user_id : -4031667597372830913,
-		inviter_id : 505948553637253452,
-		date : 44,
-		rank : 'nreCDmAbThUQqK8y',
+		user_id : 1028443483061738256,
+		inviter_id : -5484691866234835002,
+		date : 76,
+		rank : 'KFch2CeHgqQzPlnR',
 	),
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : '3KUAEBzl0i2Cev5H',
-		admin_id : 1105756197148624677,
-		date : 14,
-		start_date : 99,
-		expire_date : 91,
-		usage_limit : 17,
-		usage : 6,
-		requested : 82,
-		subscription_expired : 54,
-		title : '5KPGp4CRoBwdTvlY',
+		link : 'HjqIiyv1kg06TBpX',
+		admin_id : 3827246322995313220,
+		date : 62,
+		start_date : 16,
+		expire_date : 45,
+		usage_limit : 60,
+		usage : 79,
+		requested : 80,
+		subscription_expired : 12,
+		title : 'huTvlXekNLzB9O3s',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 78,
-			amount : -5790598190360699442,
+			period : 77,
+			amount : 7986485567991442376,
 		),
 	),
-	qts : 86,
+	qts : 14,
 );
 ```

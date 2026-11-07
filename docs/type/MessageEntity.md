@@ -2,7 +2,7 @@
 
 **Description** : *Message entities, representing styled text in a message*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageEntityUnknown#bb92ba95 offset:int length:int = MessageEntity;
@@ -59,7 +59,7 @@ messageEntityDiffDelete#652c1c5 offset:int length:int = MessageEntity;
 | [**messageEntitySpoiler**](constructor/messageEntitySpoiler) | Message entity representing a spoiler |
 | [**messageEntityCustomEmoji**](constructor/messageEntityCustomEmoji) | Represents a custom emoji.  Note that this entity must wrap exactly one regular emoji (the one contained in documentAttributeCustomEmoji.alt) in the related text, otherwise the server will ignore it |
 | [**messageEntityBlockquote**](constructor/messageEntityBlockquote) | Message entity representing a block quote |
-| [**messageEntityFormattedDate**](constructor/messageEntityFormattedDate) | NOTHING |
-| [**messageEntityDiffInsert**](constructor/messageEntityDiffInsert) | NOTHING |
-| [**messageEntityDiffReplace**](constructor/messageEntityDiffReplace) | NOTHING |
-| [**messageEntityDiffDelete**](constructor/messageEntityDiffDelete) | NOTHING |
+| [**messageEntityFormattedDate**](constructor/messageEntityFormattedDate) | Represents a specific point in time, rendered as specified here »All flags are optional, with the following limitations:- relative cannot combined with any other flag- short_time and long_time cannot be combined with each other- short_date and long_date cannot be combined with each otherIf any of the flags are combined, their rendering order in the text is the following:- day_of_week- short_time/long_time- short_date/long_date |
+| [**messageEntityDiffInsert**](constructor/messageEntityDiffInsert) | Represents an diff addition: render it by simply underlining the specified section and coloring it in green, see here » for more info on how to render diff entities |
+| [**messageEntityDiffReplace**](constructor/messageEntityDiffReplace) | Represents an diff replacement, render it as follows:- Insert old_text into the text at offset offset, underline it and color it in red: note that this insertion does not affect the offsets of entities that come after it.- underline the section delimited by offset and limit and color it in green.See here » for more info on how to render diff entities |
+| [**messageEntityDiffDelete**](constructor/messageEntityDiffDelete) | Represents an diff deletion: render it by simply underlining the specified section and coloring it in red, see here » for more info on how to render diff entities |

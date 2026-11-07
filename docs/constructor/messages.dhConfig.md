@@ -2,7 +2,7 @@
 
 **Description** : *New set of configuring parameters*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.dhConfig#2c221edd g:int p:bytes version:int random:bytes = messages.DhConfig;
@@ -14,8 +14,8 @@ messages.dhConfig#2c221edd g:int p:bytes version:int random:bytes = messages.DhC
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>g</mark> | [`int`](type/int) | New value prime, see Wikipedia |
-| <mark>p</mark> | [`bytes`](type/bytes) | New value primitive root, see Wikipedia |
+| <mark>g</mark> | [`int`](type/int) | New value primitive root, see Wikipedia |
+| <mark>p</mark> | [`bytes`](type/bytes) | New value prime, see Wikipedia |
 | <mark>version</mark> | [`int`](type/int) | Version of set of parameters |
 | <mark>random</mark> | [`bytes`](type/bytes) | Random sequence of bytes of assigned length |
 
@@ -31,9 +31,9 @@ messages.dhConfig#2c221edd g:int p:bytes version:int random:bytes = messages.DhC
 
 ```php
 $messagesDhConfig = $client->messages->dhConfig(
-	g : 22,
+	g : 16,
 	p : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	version : 74,
+	version : 82,
 	random : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

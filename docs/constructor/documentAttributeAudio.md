@@ -2,7 +2,7 @@
 
 **Description** : *Represents an audio file*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 documentAttributeAudio#9852f9c6 flags:# voice:flags.10?true duration:int title:flags.0?string performer:flags.1?string waveform:flags.2?bytes = DocumentAttribute;
@@ -34,9 +34,9 @@ documentAttributeAudio#9852f9c6 flags:# voice:flags.10?true duration:int title:f
 ```php
 $documentAttribute = $client->documentAttributeAudio(
 	voice : true,
-	duration : 0,
-	title : 'Nzd5J3esYfMmubKG',
-	performer : 'iY5leRAMca9pVEvt',
+	duration : 52,
+	title : 'g1uYKrCNGha4nsdL',
+	performer : 'U1WkafBoYSFp0QtI',
 	waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
 ```

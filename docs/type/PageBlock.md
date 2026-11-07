@@ -2,7 +2,7 @@
 
 **Description** : *Represents an instant view page element*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 pageBlockUnsupported#13567e8a = PageBlock;
@@ -17,7 +17,7 @@ pageBlockFooter#48870999 text:RichText = PageBlock;
 pageBlockDivider#db20b188 = PageBlock;
 pageBlockAnchor#ce0d37b0 name:string = PageBlock;
 pageBlockList#e4e88011 items:Vector<PageListItem> = PageBlock;
-pageBlockBlockquote#263d7c26 text:RichText caption:RichText = PageBlock;
+pageBlockBlockquote#66d1670b flags:# collapsed:flags.0?true text:RichText caption:RichText = PageBlock;
 pageBlockPullquote#4f4456d3 text:RichText caption:RichText = PageBlock;
 pageBlockPhoto#1759c560 flags:# spoiler:flags.1?true photo_id:long caption:PageCaption url:flags.0?string webpage_id:flags.0?long = PageBlock;
 pageBlockVideo#7c8fe7b6 flags:# autoplay:flags.0?true loop:flags.1?true spoiler:flags.2?true video_id:long caption:PageCaption = PageBlock;
@@ -29,7 +29,7 @@ pageBlockSlideshow#31f9590 items:Vector<PageBlock> caption:PageCaption = PageBlo
 pageBlockChannel#ef1751b5 channel:Chat = PageBlock;
 pageBlockAudio#804361ea audio_id:long caption:PageCaption = PageBlock;
 pageBlockKicker#1e148390 text:RichText = PageBlock;
-pageBlockTable#bf4dea82 flags:# bordered:flags.0?true striped:flags.1?true title:RichText rows:Vector<PageTableRow> = PageBlock;
+pageBlockTable#bf4dea82 flags:# bordered:flags.0?true striped:flags.1?true compact:flags.2?true title:RichText rows:Vector<PageTableRow> = PageBlock;
 pageBlockOrderedList#1fd6f6c1 flags:# reversed:flags.2?true items:Vector<PageListOrderedItem> start:flags.0?int type:flags.1?string = PageBlock;
 pageBlockDetails#76768bed flags:# open:flags.0?true blocks:Vector<PageBlock> title:RichText = PageBlock;
 pageBlockRelatedArticles#16115a96 title:RichText articles:Vector<PageRelatedArticle> = PageBlock;
@@ -44,6 +44,8 @@ pageBlockMath#59080c20 source:string = PageBlock;
 pageBlockThinking#3c29a3e2 text:RichText = PageBlock;
 inputPageBlockMap#574b617f geo:InputGeoPoint zoom:int w:int h:int caption:PageCaption = PageBlock;
 pageBlockBlockquoteBlocks#e6e47c4 blocks:Vector<PageBlock> caption:RichText = PageBlock;
+pageBlockButtonRow#6d640318 flags:# align_left:flags.0?true align_center:flags.1?true align_right:flags.2?true buttons:Vector<PageButton> = PageBlock;
+pageBlockDocument#38fa3ba3 document_id:long caption:PageCaption = PageBlock;
 ```
 
 ---
@@ -91,3 +93,5 @@ pageBlockBlockquoteBlocks#e6e47c4 blocks:Vector<PageBlock> caption:RichText = Pa
 | [**pageBlockThinking**](constructor/pageBlockThinking) | NOTHING |
 | [**inputPageBlockMap**](constructor/inputPageBlockMap) | NOTHING |
 | [**pageBlockBlockquoteBlocks**](constructor/pageBlockBlockquoteBlocks) | NOTHING |
+| [**pageBlockButtonRow**](constructor/pageBlockButtonRow) | NOTHING |
+| [**pageBlockDocument**](constructor/pageBlockDocument) | NOTHING |

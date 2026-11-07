@@ -1,6 +1,8 @@
 # account.PasskeyRegistrationOptions
 
-**Layer** : 227
+**Description** : *Passkey registration options, see here &raquo; for more info on the full flow*
+
+**Layer** : 229
 
 ```tl
 account.passkeyRegistrationOptions#e16b5ce1 options:DataJSON = account.PasskeyRegistrationOptions;
@@ -12,4 +14,4 @@ account.passkeyRegistrationOptions#e16b5ce1 options:DataJSON = account.PasskeyRe
 
 | Constructor | Description |
 | :---: | :--- |
-| [**account.passkeyRegistrationOptions**](constructor/account.passkeyRegistrationOptions) | NOTHING |
+| [**account.passkeyRegistrationOptions**](constructor/account.passkeyRegistrationOptions) | Passkey registration options, see here » for more info on the full flow |

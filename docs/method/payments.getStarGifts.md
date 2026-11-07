@@ -2,7 +2,7 @@
 
 **Description** : *Get a list of available gifts, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.getStarGifts#c4563590 hash:int = payments.StarGifts;

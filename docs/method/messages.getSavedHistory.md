@@ -2,7 +2,7 @@
 
 **Description** : *Fetch saved messages &raquo; forwarded from a specific peer, or fetch messages from a monoforum topic &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.getSavedHistory#998ab009 flags:# parent_peer:flags.0?InputPeer peer:InputPeer offset_id:int offset_date:int add_offset:int limit:int max_id:int min_id:int hash:long = messages.Messages;
@@ -37,6 +37,8 @@ messages.getSavedHistory#998ab009 flags:# parent_peer:flags.0?InputPeer peer:Inp
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
+| **PARENT_PEER_INVALID** | `400` | The specified parent_peer is invalid |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---
@@ -49,10 +51,10 @@ $messagesMessages = $client->messages->getSavedHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
 	offset_date : 0,
-	add_offset : 37,
-	limit : 33,
-	max_id : 88,
-	min_id : 48,
+	add_offset : 82,
+	limit : 99,
+	max_id : 26,
+	min_id : 98,
 	hash : 0,
 );
 ```

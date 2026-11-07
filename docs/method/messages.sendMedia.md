@@ -2,7 +2,7 @@
 
 **Description** : *Send a media*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendMedia#330e77f flags:# silent:flags.5?true background:flags.6?true clear_draft:flags.7?true noforwards:flags.14?true update_stickersets_order:flags.15?true invert_media:flags.16?true allow_paid_floodskip:flags.19?true peer:InputPeer reply_to:flags.0?InputReplyTo media:InputMedia message:string random_id:long reply_markup:flags.2?ReplyMarkup entities:flags.3?Vector<MessageEntity> schedule_date:flags.10?int schedule_repeat_period:flags.24?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut effect:flags.18?long allow_paid_stars:flags.21?long suggested_post:flags.22?SuggestedPost = Updates;
@@ -26,11 +26,11 @@ messages.sendMedia#330e77f flags:# silent:flags.5?true background:flags.6?true c
 | **reply_to** | [`flags.0?InputReplyTo`](type/InputReplyTo) | If set, indicates that the message should be sent in reply to the specified message or story |
 | <mark>media</mark> | [`InputMedia`](type/InputMedia) | Attached media |
 | <mark>message</mark> | [`string`](type/string) | Caption |
-| <mark>random_id</mark> | [`long`](type/long) | Random ID to avoid resending the same message |
+| <mark>random_id</mark> | [`long`](type/long) | Random ID to avoid resending the same message. See here » for more info on random ID deduplication and updateMessageID mapping |
 | **reply_markup** | [`flags.2?ReplyMarkup`](type/ReplyMarkup) | Reply markup for bot keyboards |
 | **entities** | [`flags.3?Vector<MessageEntity>`](type/MessageEntity) | Message entities for styled text |
 | **schedule_date** | [`flags.10?int`](type/int) | Scheduled message date for scheduled messages |
-| **schedule_repeat_period** | [`flags.24?int`](type/int) | NOTHING |
+| **schedule_repeat_period** | [`flags.24?int`](type/int) | Once sent, this message will be automatically re-scheduled to be re-sent again this many seconds in the future, see here » for more info on repeating scheduled messages |
 | **send_as** | [`flags.13?InputPeer`](type/InputPeer) | Send this message as the specified peer |
 | **quick_reply_shortcut** | [`flags.17?InputQuickReplyShortcut`](type/InputQuickReplyShortcut) | Add the message to the specified quick reply shortcut », instead |
 | **effect** | [`flags.18?long`](type/long) | Specifies a message effect » to use for the message |
@@ -56,6 +56,7 @@ messages.sendMedia#330e77f flags:# silent:flags.5?true background:flags.6?true c
 | **BROADCAST_PUBLIC_VOTERS_FORBIDDEN** | `400` | You can't forward polls with public voters |
 | **BUSINESS_CONNECTION_INVALID** | `400` | The connection_id passed to the wrapping invokeWithBusinessConnection call is invalid |
 | **BUSINESS_PEER_INVALID** | `400` | Messages can't be set to the specified peer through the current business connection |
+| **BUSINESS_PEER_USAGE_MISSING** | `400` | You cannot send a message to a user through a business connection if the user hasn't recently contacted us |
 | **BUTTON_COPY_TEXT_INVALID** | `400` | The specified keyboardButtonCopy.copy_text is invalid |
 | **BUTTON_DATA_INVALID** | `400` | The data of one or more of the buttons you provided is invalid |
 | **BUTTON_POS_INVALID** | `400` | The position of one of the keyboard buttons is invalid (i.e. a Game or Pay button not in the first position, and so on...) |
@@ -82,11 +83,14 @@ messages.sendMedia#330e77f flags:# silent:flags.5?true background:flags.6?true c
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **CURRENCY_TOTAL_AMOUNT_INVALID** | `400` | The total amount of all prices is invalid |
 | **DOCUMENT_INVALID** | `400` | The specified document is invalid |
+| **EFFECT_CHAT_INVALID** | `400` | Message effects can only be used in private 1-on-1 chats, but the caller tried to send a message with an effect to a group or channel |
 | **EFFECT_ID_INVALID** | `400` | The specified effect ID is invalid |
 | **EMOTICON_INVALID** | `400` | The specified emoji is invalid |
 | **ENTITY_BOUNDS_INVALID** | `400` | A specified entity offset or length is invalid, see here » for info on how to properly compute the entity offset/length |
 | **EXTENDED_MEDIA_AMOUNT_INVALID** | `400` | The specified stars_amount of the passed inputMediaPaidMedia is invalid |
+| **EXTENDED_MEDIA_EMPTY** | `400` | The specified extended media is empty |
 | **EXTENDED_MEDIA_INVALID** | `400` | The specified paid media is invalid |
+| **EXTENDED_MEDIA_PEER_INVALID** | `400` | Paid media is not allowed for the target peer |
 | **EXTERNAL_URL_INVALID** | `400` | External URL invalid |
 | **FILE_PARTS_INVALID** | `400` | The number of file parts is invalid |
 | **FILE_PART_LENGTH_INVALID** | `400` | The length of a file part is invalid |
@@ -100,8 +104,10 @@ messages.sendMedia#330e77f flags:# silent:flags.5?true background:flags.6?true c
 | **MD5_CHECKSUM_INVALID** | `400` | The MD5 checksums do not match |
 | **MEDIA_CAPTION_TOO_LONG** | `400` | The caption is too long |
 | **MEDIA_EMPTY** | `400` | The provided media object is invalid |
+| **MEDIA_FILE_INVALID** | `400` | The specified media file is invalid |
 | **MEDIA_INVALID** | `400` | Media invalid |
 | **MESSAGE_EMPTY** | `400` | The provided message is empty |
+| **MESSAGE_TOO_LONG** | `400` | The provided message is too long |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PAYMENT_PROVIDER_INVALID** | `400` | The specified payment provider is invalid |
 | **PEER_ID_INVALID** | `406` | The provided peer id is invalid |
@@ -128,6 +134,7 @@ messages.sendMedia#330e77f flags:# silent:flags.5?true background:flags.6?true c
 | **REPLY_MARKUP_TOO_LONG** | `400` | The specified reply_markup is too long |
 | **REPLY_MESSAGES_TOO_MUCH** | `400` | Each shortcut can contain a maximum of appConfig.quick_reply_messages_limit messages, the limit was reached |
 | **REPLY_MESSAGE_ID_INVALID** | `400` | The specified reply-to message ID is invalid |
+| **REPLY_TO_MONOFORUM_PEER_INVALID** | `400` | The specified inputReplyToMonoForum.monoforum_peer_id is invalid |
 | **SCHEDULE_BOT_NOT_ALLOWED** | `400` | Bots cannot schedule messages |
 | **SCHEDULE_DATE_TOO_LATE** | `400` | You can't schedule a message this far in the future |
 | **SCHEDULE_TOO_MUCH** | `400` | There are too many scheduled messages |
@@ -139,11 +146,13 @@ messages.sendMedia#330e77f flags:# silent:flags.5?true background:flags.6?true c
 | **SUGGESTED_POST_PEER_INVALID** | `400` | You cannot send suggested posts to non-monoforum peers |
 | **TERMS_URL_INVALID** | `400` | The specified invoice.terms_url is invalid |
 | **TODO_ITEMS_EMPTY** | `400` | A checklist was specified, but no checklist items were passed |
+| **TODO_ITEMS_TOO_MUCH** | `400` | You specified too many todo list items |
 | **TODO_ITEM_DUPLICATE** | `400` | Duplicate checklist items detected |
 | **TOPIC_CLOSED** | `406` | This topic was closed, you can't send messages to it anymore |
 | **TOPIC_DELETED** | `406` | The specified topic was deleted |
 | **TTL_MEDIA_INVALID** | `400` | Invalid media Time To Live was provided |
 | **USER_BANNED_IN_CHANNEL** | `400` | You're banned from sending messages in supergroups/channels |
+| **USER_BOT_TO_BOT_DISABLED** | `400` | Bot-to-bot messaging is disabled because one of the two bots hasn't enabled the Bot to Bot setting in @BotFather |
 | **USER_IS_BLOCKED** | `403` | You were blocked by this user |
 | **USER_IS_BOT** | `400` | Bots can't send messages to other bots |
 | **VIDEO_CONTENT_TYPE_INVALID** | `400` | The video's content type is invalid |
@@ -170,26 +179,26 @@ $updates = $client->messages->sendMedia(
 	allow_paid_floodskip : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 66,
-		top_msg_id : 72,
+		reply_to_msg_id : 33,
+		top_msg_id : 14,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : '31YfR8PgiV9mlEhd',
+		quote_text : 'LFBytCArwNQ36U5k',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 84,
+				length : 47,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 76,
+				length : 24,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 92,
+				length : 37,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 96,
+				length : 17,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
@@ -197,73 +206,73 @@ $updates = $client->messages->sendMedia(
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 98,
+				length : 58,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 9,
+				length : 29,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 79,
+				length : 22,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 100,
+				length : 28,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 59,
-				language : '4xNbsDPFv1iMJRuK',
+				length : 97,
+				language : '8iWNHxDGZUSb2dYE',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 20,
+				length : 73,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 77,
-				user_id : -5988254461613201767,
+				length : 86,
+				user_id : -2993023893628957151,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 22,
+				length : 31,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 62,
+				length : 93,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 79,
+				length : 94,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 98,
+				length : 17,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 32,
+				length : 28,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 83,
+				length : 8,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 94,
+				length : 86,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 30,
-				document_id : -3670826007253820541,
+				length : 96,
+				document_id : 3858944918081575868,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 37,
+				length : 10,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -273,124 +282,124 @@ $updates = $client->messages->sendMedia(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 61,
-				date : 21,
+				length : 72,
+				date : 61,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 52,
+				length : 39,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 85,
-				old_text : 'ekEBpumHsz8QhLTy',
+				length : 93,
+				old_text : 'WcBpGilu21ahIrwy',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 14,
+				length : 68,
 			),
 		),
-		quote_offset : 46,
+		quote_offset : 10,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 1,
+		todo_item_id : 42,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
-	message : 'yehucVm9qXlN2zFK',
-	random_id : 4553089858001044219,
+	message : 'NbHznugSG3lThwMY',
+	random_id : 778313417379123003,
 	reply_markup : $client->replyKeyboardHide(
 		selective : true,
 	),
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 42,
+			length : 93,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 4,
+			length : 3,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 15,
+			length : 33,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 6,
+			length : 29,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 97,
+			length : 76,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 97,
+			length : 95,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 95,
+			length : 84,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 95,
+			length : 63,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 84,
+			length : 65,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 42,
-			language : 'A48PyBI1TRjMWqdH',
+			length : 44,
+			language : 'wd9VlIcRDm5Ggt1L',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 89,
+			length : 34,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 79,
-			user_id : 2731327491944845022,
+			length : 92,
+			user_id : -8985216265513918827,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 13,
+			length : 39,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 95,
+			length : 39,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 18,
+			length : 19,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 22,
+			length : 46,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 26,
+			length : 85,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 50,
+			length : 28,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 71,
+			length : 58,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 57,
-			document_id : 945873169420593705,
+			length : 92,
+			document_id : 4949951232426048151,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 18,
+			length : 12,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -400,39 +409,39 @@ $updates = $client->messages->sendMedia(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 94,
-			date : 93,
+			length : 93,
+			date : 30,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 41,
+			length : 64,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 32,
-			old_text : 'QW1nOTPhcLvqsRxl',
+			length : 35,
+			old_text : 'xDMglJSCO5uUXWYv',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 82,
+			length : 68,
 		),
 	),
-	schedule_date : 30,
-	schedule_repeat_period : 31,
+	schedule_date : 82,
+	schedule_repeat_period : 41,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'SPq2MTHVUvLnh08g',
+		shortcut : 'RO6PhSg0u2Ax47NY',
 	),
-	effect : 3106259841452149386,
-	allow_paid_stars : 5396319226589597440,
+	effect : 7483426488955284409,
+	allow_paid_stars : -7471240973008615430,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 4814555277898145082,
-			nanos : 43,
+			amount : 6903525891340613953,
+			nanos : 93,
 		),
-		schedule_date : 17,
+		schedule_date : 69,
 	),
 );
 ```

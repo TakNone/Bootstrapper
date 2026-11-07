@@ -2,7 +2,7 @@
 
 **Description** : *Suggested folders*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 dialogFilterSuggested#77744d4a filter:DialogFilter description:string = DialogFilterSuggested;
@@ -39,25 +39,25 @@ $dialogFilterSuggested = $client->dialogFilterSuggested(
 		exclude_read : true,
 		exclude_archived : true,
 		title_noanimate : true,
-		id : 47,
+		id : 55,
 		title : $client->textWithEntities(
-			text : 'qOJozDhZrSuMQ6iU',
+			text : 'cKRoSwY1ArzkCJT0',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 26,
+					length : 32,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 59,
+					length : 57,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 100,
+					length : 90,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 5,
+					length : 93,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
@@ -65,73 +65,73 @@ $dialogFilterSuggested = $client->dialogFilterSuggested(
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 43,
+					length : 58,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 87,
+					length : 99,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 91,
+					length : 23,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 41,
+					length : 27,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 65,
-					language : 'Ta7GfV1509tcgSb8',
+					length : 80,
+					language : '8rAiFMmtuL62Ea3I',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 51,
+					length : 12,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 81,
-					user_id : -5750525662199147014,
+					length : 68,
+					user_id : -4831460319090773407,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 36,
+					length : 33,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 90,
+					length : 19,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 44,
+					length : 48,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 76,
+					length : 45,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 2,
+					length : 49,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 4,
+					length : 25,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 24,
+					length : 75,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 39,
-					document_id : 1068409193548762148,
+					length : 61,
+					document_id : -9063486864665202103,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 97,
+					length : 49,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -141,8 +141,8 @@ $dialogFilterSuggested = $client->dialogFilterSuggested(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 67,
-					date : 1,
+					length : 6,
+					date : 13,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
@@ -150,21 +150,21 @@ $dialogFilterSuggested = $client->dialogFilterSuggested(
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 29,
-					old_text : '3fJFwXt9qYv4uGdj',
+					length : 0,
+					old_text : '6XYb84VZBOWM1HhF',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 44,
+					length : 72,
 				),
 			),
 		),
-		emoticon : 'QXTAPH85f7ut3z1v',
-		color : 7,
+		emoticon : 'nk4xAElrXVdThDJL',
+		color : 67,
 		pinned_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 		include_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 		exclude_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 	),
-	description : 'IadzuSTmhNtiwEkn',
+	description : 'Nv1xO07tr8yYoIfi',
 );
 ```

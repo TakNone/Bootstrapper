@@ -2,7 +2,7 @@
 
 **Description** : *User is uploading a photo*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 sendMessageUploadPhotoAction#d1d34a26 progress:int = SendMessageAction;

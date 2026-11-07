@@ -2,7 +2,7 @@
 
 **Description** : *Change the photo of a channel/supergroup*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.editPhoto#f12e57c9 channel:InputChannel photo:InputChatPhoto = Updates;
@@ -32,11 +32,13 @@ channels.editPhoto#f12e57c9 channel:InputChannel photo:InputChatPhoto = Updates;
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_ADMIN_REQUIRED** | `403` | You must be an admin in this chat to do this |
+| **CHAT_INVALID** | `400` | Invalid chat |
 | **CHAT_NOT_MODIFIED** | `400` | No changes were made to chat information because the new information you passed is identical to the current information |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **FILE_PARTS_INVALID** | `400` | The number of file parts is invalid |
 | **FILE_REFERENCE_INVALID** | `400` | The specified file reference is invalid |
 | **IMAGE_PROCESS_FAILED** | `400` | Failure while processing image |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **PHOTO_CROP_SIZE_SMALL** | `400` | Photo is too small |
 | **PHOTO_EXT_INVALID** | `400` | The extension of the photo is invalid |
 | **PHOTO_FILE_MISSING** | `400` | Profile photo file missing |

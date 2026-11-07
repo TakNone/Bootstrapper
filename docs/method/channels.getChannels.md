@@ -2,7 +2,7 @@
 
 **Description** : *Get info about channels/supergroups*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.getChannels#a7f6bbb id:Vector<InputChannel> = messages.Chats;

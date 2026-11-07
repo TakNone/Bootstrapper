@@ -2,7 +2,7 @@
 
 **Description** : *Bank statement*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 secureValueTypeBankStatement#89137c0d = SecureValueType;

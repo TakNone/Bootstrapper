@@ -1,8 +1,8 @@
 # InputEncryptedChat
 
-**Description** : *Object sets an encrypted chat ID*
+**Description** : *An e2e encrypted chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;
@@ -14,4 +14,4 @@ inputEncryptedChat#f141b5e1 chat_id:int access_hash:long = InputEncryptedChat;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**inputEncryptedChat**](constructor/inputEncryptedChat) | Creates an encrypted chat |
+| [**inputEncryptedChat**](constructor/inputEncryptedChat) | An e2e encrypted chat |

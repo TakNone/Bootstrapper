@@ -1,8 +1,8 @@
 # messageActionInviteToGroupCall
 
-**Description** : *A set of users was invited to the group call*
+**Description** : *A set of users was invited to a video chat/livestream &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageActionInviteToGroupCall#502f92f7 call:InputGroupCall users:Vector<long> = MessageAction;
@@ -14,7 +14,7 @@ messageActionInviteToGroupCall#502f92f7 call:InputGroupCall users:Vector<long> =
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Video chat/livestream to which the users were invited |
 | <mark>users</mark> | [`Vector<long>`](type/long) | The invited users |
 
 ---
@@ -30,9 +30,9 @@ messageActionInviteToGroupCall#502f92f7 call:InputGroupCall users:Vector<long> =
 ```php
 $messageAction = $client->messageActionInviteToGroupCall(
 	call : $client->inputGroupCall(
-		id : -2468278308932185293,
-		access_hash : -1325464024672925832,
+		id : 3605031786584732019,
+		access_hash : 1812287198405218769,
 	),
-	users : array(-601802670800054398),
+	users : array(-2899527843756263128),
 );
 ```

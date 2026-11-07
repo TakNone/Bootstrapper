@@ -2,7 +2,7 @@
 
 **Description** : *Transcribe voice message*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.transcribeAudio#269e9a49 peer:InputPeer msg_id:int = messages.TranscribedAudio;
@@ -31,6 +31,7 @@ messages.transcribeAudio#269e9a49 peer:InputPeer msg_id:int = messages.Transcrib
 | :---: | :---: | :--- |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **MSG_VOICE_MISSING** | `400` | The specified message is not a voice message |
+| **MSG_VOICE_TOO_LONG** | `400` | The specified voice message is too long to be transcribed |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
 | **TRANSCRIPTION_FAILED** | `400` | Audio transcription failed |
@@ -42,6 +43,6 @@ messages.transcribeAudio#269e9a49 peer:InputPeer msg_id:int = messages.Transcrib
 ```php
 $messagesTranscribedAudio = $client->messages->transcribeAudio(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 25,
+	msg_id : 59,
 );
 ```

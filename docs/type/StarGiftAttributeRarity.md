@@ -1,6 +1,8 @@
 # StarGiftAttributeRarity
 
-**Layer** : 227
+**Description** : *Rarity of a collectible gift &raquo; attribute, either as an exact permille value or as one of the named rarity tiers \(uncommon, rare, epic, legendary\)*
+
+**Layer** : 229
 
 ```tl
 starGiftAttributeRarity#36437737 permille:int = StarGiftAttributeRarity;
@@ -16,8 +18,8 @@ starGiftAttributeRarityLegendary#cef7e7a8 = StarGiftAttributeRarity;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starGiftAttributeRarity**](constructor/starGiftAttributeRarity) | NOTHING |
-| [**starGiftAttributeRarityUncommon**](constructor/starGiftAttributeRarityUncommon) | NOTHING |
-| [**starGiftAttributeRarityRare**](constructor/starGiftAttributeRarityRare) | NOTHING |
-| [**starGiftAttributeRarityEpic**](constructor/starGiftAttributeRarityEpic) | NOTHING |
-| [**starGiftAttributeRarityLegendary**](constructor/starGiftAttributeRarityLegendary) | NOTHING |
+| [**starGiftAttributeRarity**](constructor/starGiftAttributeRarity) | Exact rarity value for a collectible gift attribute |
+| [**starGiftAttributeRarityUncommon**](constructor/starGiftAttributeRarityUncommon) | Represents uncommon collectible gift attribute rarity |
+| [**starGiftAttributeRarityRare**](constructor/starGiftAttributeRarityRare) | Represents rare collectible gift attribute rarity |
+| [**starGiftAttributeRarityEpic**](constructor/starGiftAttributeRarityEpic) | Represents epic collectible gift attribute rarity |
+| [**starGiftAttributeRarityLegendary**](constructor/starGiftAttributeRarityLegendary) | Represents legendary collectible gift attribute rarity |

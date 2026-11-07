@@ -1,8 +1,8 @@
 # phone.leaveGroupCallPresentation
 
-**Description** : *Stop screen sharing in a group call*
+**Description** : *Stop screen sharing in a non\-RTMP video chat/livestream or conference\. Presentations are not supported in live stories or RTMP\-mode video chats/livestreams, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.leaveGroupCallPresentation#1c50d144 call:InputGroupCall = Updates;
@@ -14,7 +14,7 @@ phone.leaveGroupCallPresentation#1c50d144 call:InputGroupCall = Updates;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call whose presentation connection should be stopped |
 
 ---
 
@@ -37,8 +37,8 @@ phone.leaveGroupCallPresentation#1c50d144 call:InputGroupCall = Updates;
 ```php
 $updates = $client->phone->leaveGroupCallPresentation(
 	call : $client->inputGroupCall(
-		id : 3111799249606454322,
-		access_hash : 3802508518126186766,
+		id : 3780360466633738079,
+		access_hash : 8307603471910239989,
 	),
 );
 ```

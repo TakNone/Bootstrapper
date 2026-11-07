@@ -2,7 +2,7 @@
 
 **Description** : *The backdrop of a collectible gift &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 starGiftAttributeBackdrop#9f2504e4 name:string backdrop_id:int center_color:int edge_color:int pattern_color:int text_color:int rarity:StarGiftAttributeRarity = StarGiftAttribute;
@@ -20,7 +20,7 @@ starGiftAttributeBackdrop#9f2504e4 name:string backdrop_id:int center_color:int 
 | <mark>edge_color</mark> | [`int`](type/int) | Color of the edges of the backdrop in RGB24 format |
 | <mark>pattern_color</mark> | [`int`](type/int) | Color of the starGiftAttributePattern applied on the backdrop in RGB24 format |
 | <mark>text_color</mark> | [`int`](type/int) | Color of the text on the backdrop in RGB24 format |
-| <mark>rarity</mark> | [`StarGiftAttributeRarity`](type/StarGiftAttributeRarity) | NOTHING |
+| <mark>rarity</mark> | [`StarGiftAttributeRarity`](type/StarGiftAttributeRarity) | Rarity of this backdrop |
 
 ---
 
@@ -34,14 +34,14 @@ starGiftAttributeBackdrop#9f2504e4 name:string backdrop_id:int center_color:int 
 
 ```php
 $starGiftAttribute = $client->starGiftAttributeBackdrop(
-	name : 'qsjveb5UDtcJxVK8',
-	backdrop_id : 66,
-	center_color : 60,
-	edge_color : 19,
-	pattern_color : 66,
-	text_color : 70,
+	name : 'wHrjzuN5LZDemkKp',
+	backdrop_id : 69,
+	center_color : 26,
+	edge_color : 50,
+	pattern_color : 3,
+	text_color : 11,
 	rarity : $client->starGiftAttributeRarity(
-		permille : 4,
+		permille : 88,
 	),
 );
 ```

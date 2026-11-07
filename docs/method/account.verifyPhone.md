@@ -2,7 +2,7 @@
 
 **Description** : *Verify a phone number for telegram passport*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.verifyPhone#4dd3a7f6 phone_number:string phone_code_hash:string phone_code:string = Bool;

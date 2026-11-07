@@ -2,7 +2,7 @@
 
 **Description** : *Pricing of a Telegram Star subscription &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 starsSubscriptionPricing#5416d58 period:int amount:long = StarsSubscriptionPricing;
@@ -29,7 +29,7 @@ starsSubscriptionPricing#5416d58 period:int amount:long = StarsSubscriptionPrici
 
 ```php
 $starsSubscriptionPricing = $client->starsSubscriptionPricing(
-	period : 27,
-	amount : 1992406434308315809,
+	period : 17,
+	amount : -2810464078789149033,
 );
 ```

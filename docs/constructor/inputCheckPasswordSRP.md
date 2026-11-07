@@ -2,7 +2,7 @@
 
 **Description** : *Constructor for checking the validity of a 2FA SRP password \(see SRP\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputCheckPasswordSRP#d27ff082 srp_id:long A:bytes M1:bytes = InputCheckPasswordSRP;
@@ -30,7 +30,7 @@ inputCheckPasswordSRP#d27ff082 srp_id:long A:bytes M1:bytes = InputCheckPassword
 
 ```php
 $inputCheckPasswordSRP = $client->inputCheckPasswordSRP(
-	srp_id : -8316610009689249989,
+	srp_id : 4244848932780248418,
 	A : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	M1 : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );

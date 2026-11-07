@@ -1,8 +1,8 @@
 # phone.getGroupCallChainBlocks
 
-**Description** : *Fetch the blocks of a conference blockchain &raquo;*
+**Description** : *Fetch blocks from a conference call subchain &raquo;; handle the returned updateGroupCallChainBlocks as specified here &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offset:int limit:int = Updates;
@@ -14,10 +14,10 @@ phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offs
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The conference |
-| <mark>sub_chain_id</mark> | [`int`](type/int) | Subchain ID |
-| <mark>offset</mark> | [`int`](type/int) | Offset for pagination |
-| <mark>limit</mark> | [`int`](type/int) | Maximum number of blocks to return in this call, see pagination |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Conference whose subchain blocks should be fetched |
+| <mark>sub_chain_id</mark> | [`int`](type/int) | 0 for the main state blockchain, 1 for the call verification subchain |
+| <mark>offset</mark> | [`int`](type/int) | Fetch blocks starting from this height; pass -1 to fetch the latest block |
+| <mark>limit</mark> | [`int`](type/int) | Maximum number of blocks to return in this call, see pagination, max 100 |
 
 ---
 
@@ -40,11 +40,11 @@ phone.getGroupCallChainBlocks#ee9f88a6 call:InputGroupCall sub_chain_id:int offs
 ```php
 $updates = $client->phone->getGroupCallChainBlocks(
 	call : $client->inputGroupCall(
-		id : 122398770084462068,
-		access_hash : -1606804769658021537,
+		id : -954944796107454371,
+		access_hash : 6150139128700340339,
 	),
-	sub_chain_id : 93,
+	sub_chain_id : 65,
 	offset : 0,
-	limit : 47,
+	limit : 69,
 );
 ```

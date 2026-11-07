@@ -2,7 +2,7 @@
 
 **Description** : *List all created business chat deep links &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.getBusinessChatLinks#6f70dde1 = account.BusinessChatLinks;

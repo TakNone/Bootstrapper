@@ -2,7 +2,7 @@
 
 **Description** : *Official clients only, invoke with Apple push verification*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 invokeWithApnsSecret#0dae54f8 {X:Type} nonce:string secret:string query:!X = X;
@@ -30,8 +30,8 @@ invokeWithApnsSecret#0dae54f8 {X:Type} nonce:string secret:string query:!X = X;
 
 ```php
 $x = $client->invokeWithApnsSecret(
-	nonce : 'cE5bpuj6NtlSo1Fh',
-	secret : 'bDZ92S4ntyNciuaU',
+	nonce : 'KezQI09XwvnBbr5U',
+	secret : 'ZGJCd6w5r3WMHYqt',
 	query : $client->help->getConfig(raw : true),
 );
 ```

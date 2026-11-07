@@ -1,8 +1,8 @@
 # messages.readMentions
 
-**Description** : *Mark mentions as read*
+**Description** : *Mark mentions as read; can be used in forums but cannot be used in monoforums*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.readMentions#36e5bf4d flags:# peer:InputPeer top_msg_id:flags.0?int = messages.AffectedHistory;
@@ -16,7 +16,7 @@ messages.readMentions#36e5bf4d flags:# peer:InputPeer top_msg_id:flags.0?int = m
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Dialog |
-| **top_msg_id** | [`flags.0?int`](type/int) | Mark as read only mentions within the specified forum topic |
+| **top_msg_id** | [`flags.0?int`](type/int) | Mark as read only mentions within the specified forum topic (except for monoforums) |
 
 ---
 
@@ -42,6 +42,6 @@ messages.readMentions#36e5bf4d flags:# peer:InputPeer top_msg_id:flags.0?int = m
 ```php
 $messagesAffectedHistory = $client->messages->readMentions(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 63,
+	top_msg_id : 65,
 );
 ```

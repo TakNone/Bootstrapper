@@ -2,7 +2,7 @@
 
 **Description** : *Someone has requested to join a chat or channel \(bots only, users will receive an updatePendingJoinRequests, instead\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateBotChatInviteRequester#7cb34d79 flags:# peer:Peer date:int user_id:long about:string invite:ExportedChatInvite qts:int query_id:flags.0?long = Update;
@@ -36,31 +36,31 @@ updateBotChatInviteRequester#7cb34d79 flags:# peer:Peer date:int user_id:long ab
 ```php
 $update = $client->updateBotChatInviteRequester(
 	peer : $client->peerUser(
-		user_id : -7451544856698608188,
+		user_id : -3086832580269106270,
 	),
-	date : 29,
-	user_id : 8523252819237905695,
-	about : 'Ny6h0ilJ5FcBejx9',
+	date : 69,
+	user_id : -1134954329941602547,
+	about : 'VEsFe4QlgbojG3mW',
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'OtzDVyWgfwMFldC7',
-		admin_id : -2622605563890167121,
-		date : 33,
-		start_date : 44,
-		expire_date : 42,
-		usage_limit : 95,
-		usage : 90,
-		requested : 94,
-		subscription_expired : 8,
-		title : 'R1UlWxzJQd3gvNjh',
+		link : 'aXFkpV2Os07HLudr',
+		admin_id : -1371108281025391,
+		date : 77,
+		start_date : 86,
+		expire_date : 57,
+		usage_limit : 51,
+		usage : 0,
+		requested : 18,
+		subscription_expired : 77,
+		title : 'H2AQ9bNJOUz7F3cW',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 28,
-			amount : 6186732652033669250,
+			period : 58,
+			amount : 7111010690522830836,
 		),
 	),
-	qts : 28,
-	query_id : 4670491961001802014,
+	qts : 23,
+	query_id : 2419976168132465300,
 );
 ```

@@ -1,8 +1,8 @@
 # messageActionGroupCallScheduled
 
-**Description** : *A group call was scheduled*
+**Description** : *A video chat/livestream was scheduled*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageActionGroupCallScheduled#b3a07661 call:InputGroupCall schedule_date:int = MessageAction;
@@ -14,8 +14,8 @@ messageActionGroupCallScheduled#b3a07661 call:InputGroupCall schedule_date:int =
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call |
-| <mark>schedule_date</mark> | [`int`](type/int) | When is this group call scheduled to start |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Scheduled video chat/livestream |
+| <mark>schedule_date</mark> | [`int`](type/int) | When is the group call scheduled to start |
 
 ---
 
@@ -30,9 +30,9 @@ messageActionGroupCallScheduled#b3a07661 call:InputGroupCall schedule_date:int =
 ```php
 $messageAction = $client->messageActionGroupCallScheduled(
 	call : $client->inputGroupCall(
-		id : 6363643090350404563,
-		access_hash : -163579931795756307,
+		id : 248271142764531903,
+		access_hash : 6718925539831214062,
 	),
-	schedule_date : 24,
+	schedule_date : 51,
 );
 ```

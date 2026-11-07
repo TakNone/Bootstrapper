@@ -1,6 +1,8 @@
 # messages.getEmojiGameInfo
 
-**Layer** : 227
+**Description** : *Fetch dice game information*
+
+**Layer** : 229
 
 ```tl
 messages.getEmojiGameInfo#fb7e8ca7 = messages.EmojiGameInfo;

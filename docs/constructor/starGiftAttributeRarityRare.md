@@ -1,6 +1,8 @@
 # starGiftAttributeRarityRare
 
-**Layer** : 227
+**Description** : *Represents rare collectible gift attribute rarity*
+
+**Layer** : 229
 
 ```tl
 starGiftAttributeRarityRare#f08d516b = StarGiftAttributeRarity;

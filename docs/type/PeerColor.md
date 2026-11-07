@@ -2,7 +2,7 @@
 
 **Description** : *Represents a color palette &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 peerColor#b54b5acf flags:# color:flags.0?int background_emoji_id:flags.1?long = PeerColor;
@@ -17,5 +17,5 @@ inputPeerColorCollectible#b8ea86a9 collectible_id:long = PeerColor;
 | Constructor | Description |
 | :---: | :--- |
 | [**peerColor**](constructor/peerColor) | Represents a color palette » |
-| [**peerColorCollectible**](constructor/peerColorCollectible) | NOTHING |
-| [**inputPeerColorCollectible**](constructor/inputPeerColorCollectible) | NOTHING |
+| [**peerColorCollectible**](constructor/peerColorCollectible) | Represents a color palette » associated to a collectible gift », see here » for more info |
+| [**inputPeerColorCollectible**](constructor/inputPeerColorCollectible) | Represents a color palette » associated to a collectible gift », see here » for more info |

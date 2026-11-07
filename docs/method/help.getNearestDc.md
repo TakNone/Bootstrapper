@@ -2,7 +2,7 @@
 
 **Description** : *Returns info on data center nearest to the user*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 help.getNearestDc#1fb33026 = NearestDc;

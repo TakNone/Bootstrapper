@@ -2,7 +2,7 @@
 
 **Description** : *Object describes message filter*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputMessagesFilterEmpty#57e2f66c = MessagesFilter;
@@ -48,4 +48,4 @@ inputMessagesFilterPoll#fa2bc90a = MessagesFilter;
 | [**inputMessagesFilterGeo**](constructor/inputMessagesFilterGeo) | Return only messages containing geolocations |
 | [**inputMessagesFilterContacts**](constructor/inputMessagesFilterContacts) | Return only messages containing contacts |
 | [**inputMessagesFilterPinned**](constructor/inputMessagesFilterPinned) | Fetch only pinned messages |
-| [**inputMessagesFilterPoll**](constructor/inputMessagesFilterPoll) | NOTHING |
+| [**inputMessagesFilterPoll**](constructor/inputMessagesFilterPoll) | Filter for poll messages, see searching for polls » |

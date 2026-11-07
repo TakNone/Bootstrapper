@@ -1,8 +1,8 @@
 # chatParticipantAdmin
 
-**Description** : *Chat admin*
+**Description** : *Basic group admin \(not usable by supergroups\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 chatParticipantAdmin#360d5d2 flags:# user_id:long inviter_id:long date:int rank:flags.0?string = ChatParticipant;
@@ -14,11 +14,11 @@ chatParticipantAdmin#360d5d2 flags:# user_id:long inviter_id:long date:int rank:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>user_id</mark> | [`long`](type/long) | ID of a group member that is admin |
 | <mark>inviter_id</mark> | [`long`](type/long) | ID of the user that added the member to the group |
 | <mark>date</mark> | [`int`](type/int) | Date when the user was added |
-| **rank** | [`flags.0?string`](type/string) | NOTHING |
+| **rank** | [`flags.0?string`](type/string) | The participant's tag » |
 
 ---
 
@@ -32,9 +32,9 @@ chatParticipantAdmin#360d5d2 flags:# user_id:long inviter_id:long date:int rank:
 
 ```php
 $chatParticipant = $client->chatParticipantAdmin(
-	user_id : -2930199437548802159,
-	inviter_id : -1616022725626909599,
-	date : 94,
-	rank : '4HTEwgoUb7LCh51Z',
+	user_id : -8434473294975116322,
+	inviter_id : 5861540119395171642,
+	date : 99,
+	rank : 'OUknaZpu15QoqsJB',
 );
 ```

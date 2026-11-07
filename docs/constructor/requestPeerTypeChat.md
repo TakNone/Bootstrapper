@@ -2,7 +2,7 @@
 
 **Description** : *Choose a chat or supergroup*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 requestPeerTypeChat#c9f06e1b flags:# creator:flags.0?true bot_participant:flags.5?true has_username:flags.3?Bool forum:flags.4?Bool user_admin_rights:flags.1?ChatAdminRights bot_admin_rights:flags.2?ChatAdminRights = RequestPeerType;
@@ -56,6 +56,8 @@ $requestPeerType = $client->requestPeerTypeChat(
 		delete_stories : true,
 		manage_direct_messages : true,
 		manage_ranks : true,
+		manage_linked_peers : true,
+		manage_welcome_messages : true,
 	),
 	bot_admin_rights : $client->chatAdminRights(
 		change_info : true,
@@ -75,6 +77,8 @@ $requestPeerType = $client->requestPeerTypeChat(
 		delete_stories : true,
 		manage_direct_messages : true,
 		manage_ranks : true,
+		manage_linked_peers : true,
+		manage_welcome_messages : true,
 	),
 );
 ```

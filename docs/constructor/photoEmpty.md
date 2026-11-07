@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor, non\-existent photo*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 photoEmpty#2331b22d id:long = Photo;
@@ -28,6 +28,6 @@ photoEmpty#2331b22d id:long = Photo;
 
 ```php
 $photo = $client->photoEmpty(
-	id : 4527427332013868956,
+	id : -3349903094298251172,
 );
 ```

@@ -1,6 +1,8 @@
 # messages.editChatParticipantRank
 
-**Layer** : 227
+**Description** : *Edit a group participant&#039;s tag &raquo;*
+
+**Layer** : 229
 
 ```tl
 messages.editChatParticipantRank#a00f32b0 peer:InputPeer participant:InputPeer rank:string = Updates;
@@ -12,9 +14,9 @@ messages.editChatParticipantRank#a00f32b0 peer:InputPeer participant:InputPeer r
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>participant</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>rank</mark> | [`string`](type/string) | NOTHING |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The basic group/supergroup |
+| <mark>participant</mark> | [`InputPeer`](type/InputPeer) | The participant |
+| <mark>rank</mark> | [`string`](type/string) | The new tag |
 
 ---
 
@@ -24,12 +26,20 @@ messages.editChatParticipantRank#a00f32b0 peer:InputPeer participant:InputPeer r
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+
+---
+
 ## Example
 
 ```php
 $updates = $client->messages->editChatParticipantRank(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	participant : $client->get_input_peer(peer : '@LiveProtoChat'),
-	rank : 'CY25k9uqyZagNG8f',
+	rank : 'iRS5qzTM9pCPwW2Q',
 );
 ```

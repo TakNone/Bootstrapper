@@ -1,6 +1,8 @@
 # updateStarGiftCraftFail
 
-**Layer** : 227
+**Description** : *Indicates that a crafting &raquo; attempt did not produce a new collectible gift*
+
+**Layer** : 229
 
 ```tl
 updateStarGiftCraftFail#ac072444 = Update;

@@ -2,7 +2,7 @@
 
 **Description** : *No new wallpapers were found*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.wallPapersNotModified#1c199183 = account.WallPapers;

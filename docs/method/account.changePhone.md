@@ -2,7 +2,7 @@
 
 **Description** : *Change the phone number of the current account*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.changePhone#70c32edb phone_number:string phone_code_hash:string phone_code:string = User;
@@ -32,6 +32,7 @@ account.changePhone#70c32edb phone_number:string phone_code_hash:string phone_co
 | :---: | :---: | :--- |
 | **PHONE_CODE_EMPTY** | `400` | phone_code is missing |
 | **PHONE_CODE_EXPIRED** | `400` | The phone code you provided has expired |
+| **PHONE_CODE_INVALID** | `400` | The provided phone code is invalid |
 | **PHONE_NUMBER_INVALID** | `406` | The phone number is invalid |
 | **PHONE_NUMBER_OCCUPIED** | `400` | The phone number is already in use |
 

@@ -2,7 +2,7 @@
 
 **Description** : *Check if the specified gift &raquo; can be sent*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.checkCanSendGift#c0c4edc9 gift_id:long = payments.CheckCanSendGiftResult;
@@ -36,6 +36,6 @@ payments.checkCanSendGift#c0c4edc9 gift_id:long = payments.CheckCanSendGiftResul
 
 ```php
 $paymentsCheckCanSendGiftResult = $client->payments->checkCanSendGift(
-	gift_id : 8988745211062204382,
+	gift_id : -1061422643322050568,
 );
 ```

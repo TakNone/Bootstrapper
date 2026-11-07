@@ -1,8 +1,8 @@
 # paidReactionPrivacyPeer
 
-**Description** : *Send paid reactions as the specified peer, fetched using channels\.getSendAs*
+**Description** : *Send paid reactions as the specified peer, fetched using channels\.getSendAs with the for\_paid\_reactions flag set*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 paidReactionPrivacyPeer#dc6cfcf0 peer:InputPeer = PaidReactionPrivacy;

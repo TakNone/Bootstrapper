@@ -2,7 +2,7 @@
 
 **Description** : *Subheader*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 pageBlockSubheader#f12bb6e1 text:RichText = PageBlock;

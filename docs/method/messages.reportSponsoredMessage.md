@@ -2,7 +2,7 @@
 
 **Description** : *Report a sponsored message &raquo;, see here &raquo; for more info on the full flow*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.reportSponsoredMessage#12cbf0c4 random_id:bytes option:bytes = channels.SponsoredMessageReportResult;
@@ -14,7 +14,7 @@ messages.reportSponsoredMessage#12cbf0c4 random_id:bytes option:bytes = channels
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>random_id</mark> | [`bytes`](type/bytes) | The ad's unique ID |
+| <mark>random_id</mark> | [`bytes`](type/bytes) | The ad's unique ID. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>option</mark> | [`bytes`](type/bytes) | Chosen report option, initially an empty string, see here » for more info on the full flow |
 
 ---

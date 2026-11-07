@@ -2,7 +2,7 @@
 
 **Description** : *Returns content of a whole file or its part*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 upload.getFile#be5335be flags:# precise:flags.0?true cdn_supported:flags.1?true location:InputFileLocation offset:long limit:int = upload.File;
@@ -57,12 +57,12 @@ $uploadFile = $client->upload->getFile(
 	precise : true,
 	cdn_supported : true,
 	location : $client->inputFileLocation(
-		volume_id : -2583628557546902771,
-		local_id : 35,
-		secret : 3002080230980981417,
+		volume_id : 1541045019668376221,
+		local_id : 17,
+		secret : -6482342139295897101,
 		file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	offset : 0,
-	limit : 22,
+	limit : 93,
 );
 ```

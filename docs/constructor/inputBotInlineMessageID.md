@@ -2,7 +2,7 @@
 
 **Description** : *Represents a sent inline message from the perspective of a bot \(legacy constructor\)*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputBotInlineMessageID#890c3d89 dc_id:int id:long access_hash:long = InputBotInlineMessageID;
@@ -30,8 +30,8 @@ inputBotInlineMessageID#890c3d89 dc_id:int id:long access_hash:long = InputBotIn
 
 ```php
 $inputBotInlineMessageID = $client->inputBotInlineMessageID(
-	dc_id : 87,
-	id : -2333208646298412886,
-	access_hash : 1247883840437102993,
+	dc_id : 93,
+	id : -5581793890539901585,
+	access_hash : 6070300241287062392,
 );
 ```

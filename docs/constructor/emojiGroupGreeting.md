@@ -2,7 +2,7 @@
 
 **Description** : *Represents an emoji category, that should be moved to the top of the list when choosing a sticker for a business introduction*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 emojiGroupGreeting#80d26cc7 title:string icon_emoji_id:long emoticons:Vector<string> = EmojiGroup;
@@ -30,8 +30,8 @@ emojiGroupGreeting#80d26cc7 title:string icon_emoji_id:long emoticons:Vector<str
 
 ```php
 $emojiGroup = $client->emojiGroupGreeting(
-	title : 'TErDo4WGL0UZ7pwB',
-	icon_emoji_id : 5448041034830879895,
-	emoticons : array('lPCpb96Njeo7a8t4'),
+	title : 'jM10KXl6eRqVQbDA',
+	icon_emoji_id : 2336209061727060946,
+	emoticons : array('eoIFAiMNJvsfmBKr'),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Defines the location of a file for download*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputFileLocation#dfdaabe1 volume_id:long local_id:int secret:long file_reference:bytes = InputFileLocation;
@@ -32,4 +32,4 @@ inputGroupCallStream#598a92a flags:# call:InputGroupCall time_ms:long scale:int 
 | [**inputPhotoLegacyFileLocation**](constructor/inputPhotoLegacyFileLocation) | DEPRECATED legacy photo file location |
 | [**inputPeerPhotoFileLocation**](constructor/inputPeerPhotoFileLocation) | Location of profile photo of channel/group/supergroup/user |
 | [**inputStickerSetThumb**](constructor/inputStickerSetThumb) | Location of stickerset thumbnail (see files) |
-| [**inputGroupCallStream**](constructor/inputGroupCallStream) | Chunk of a livestream |
+| [**inputGroupCallStream**](constructor/inputGroupCallStream) | Identifies a media chunk of an RTMP-mode video chat, livestream or live story, see playing an RTMP livestream » |

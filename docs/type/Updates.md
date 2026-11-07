@@ -2,7 +2,7 @@
 
 **Description** : *Object which is perceived by the client without a call on its part when an event occurs*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updatesTooLong#e317af7e = Updates;
@@ -20,7 +20,7 @@ updateShortSentMessage#9015e101 flags:# out:flags.1?true id:int pts:int pts_coun
 
 | Constructor | Description |
 | :---: | :--- |
-| [**updatesTooLong**](constructor/updatesTooLong) | Too many updates, it is necessary to execute updates.getDifference |
+| [**updatesTooLong**](constructor/updatesTooLong) | The number of queued updates in the common message box is too large to be delivered passively through the socket, invoke updates.getDifference to fetch the difference as specified in the documentation ».Does not necessarily indicate the message box size limit was reached, it simply indicates that the number of queued updates in a message box is too large to be delivered passively through the socket |
 | [**updateShortMessage**](constructor/updateShortMessage) | Info about a message sent to (received from) another user |
 | [**updateShortChatMessage**](constructor/updateShortChatMessage) | Shortened constructor containing info on one new incoming text message from a chat |
 | [**updateShort**](constructor/updateShort) | Shortened constructor containing info on one update not requiring auxiliary data |

@@ -2,7 +2,7 @@
 
 **Description** : *Indo about an affiliate program offered by a bot*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 starRefProgram#dd0c66f2 flags:# bot_id:long commission_permille:int duration_months:flags.0?int end_date:flags.1?int daily_revenue_per_user:flags.2?StarsAmount = StarRefProgram;
@@ -14,4 +14,4 @@ starRefProgram#dd0c66f2 flags:# bot_id:long commission_permille:int duration_mon
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starRefProgram**](constructor/starRefProgram) | Indo about an affiliate program offered by a bot |
+| [**starRefProgram**](constructor/starRefProgram) | Info about an affiliate program offered by a bot |

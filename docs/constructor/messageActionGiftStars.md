@@ -2,7 +2,7 @@
 
 **Description** : *You gifted or were gifted some Telegram Stars*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageActionGiftStars#45d5b021 flags:# currency:string amount:long stars:long crypto_currency:flags.0?string crypto_amount:flags.0?long transaction_id:flags.1?string = MessageAction;
@@ -34,11 +34,11 @@ messageActionGiftStars#45d5b021 flags:# currency:string amount:long stars:long c
 
 ```php
 $messageAction = $client->messageActionGiftStars(
-	currency : 'KYdiJZLzkIluhWqw',
-	amount : 4749713930275438667,
-	stars : -917957327286605881,
-	crypto_currency : 't2mAUwKiJODYfVH7',
-	crypto_amount : -5066904801919061409,
-	transaction_id : 'pEdPg753MiFyweX0',
+	currency : 'teDawlBvGxgXd6yL',
+	amount : -3568793860888756448,
+	stars : 6639106098441490035,
+	crypto_currency : 'HFaQNGqgbAyuE5tr',
+	crypto_amount : -6741227240221721854,
+	transaction_id : 'lCsxi6mzpt9VQfr2',
 );
 ```

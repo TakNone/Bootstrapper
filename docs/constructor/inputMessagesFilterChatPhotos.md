@@ -2,7 +2,7 @@
 
 **Description** : *Return only chat photo changes*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputMessagesFilterChatPhotos#3a20ecb8 = MessagesFilter;

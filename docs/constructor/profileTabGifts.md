@@ -2,7 +2,7 @@
 
 **Description** : *Represents the gifts tab of a profile page*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 profileTabGifts#4d4bd46a = ProfileTab;

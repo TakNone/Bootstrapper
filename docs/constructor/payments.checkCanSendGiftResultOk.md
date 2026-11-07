@@ -2,7 +2,7 @@
 
 **Description** : *The specified gift can be sent*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.checkCanSendGiftResultOk#374fa7ad = payments.CheckCanSendGiftResult;

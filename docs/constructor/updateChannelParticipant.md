@@ -2,7 +2,7 @@
 
 **Description** : *A participant has left, joined, was banned or admined in a channel or supergroup*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:long date:int actor_id:long user_id:long prev_participant:flags.0?ChannelParticipant new_participant:flags.1?ChannelParticipant invite:flags.2?ExportedChatInvite qts:int = Update;
@@ -38,41 +38,41 @@ updateChannelParticipant#985d3abb flags:# via_chatlist:flags.3?true channel_id:l
 ```php
 $update = $client->updateChannelParticipant(
 	via_chatlist : true,
-	channel_id : 4224569484798238456,
-	date : 77,
-	actor_id : -4395504510259649264,
-	user_id : -5329220943022597404,
+	channel_id : -6467411626779462721,
+	date : 58,
+	actor_id : 7120704896822106790,
+	user_id : -4079740263110127873,
 	prev_participant : $client->channelParticipant(
-		user_id : -5572716784730027390,
-		date : 61,
-		subscription_until_date : 27,
-		rank : 'gHezi2juSRVbDl0Q',
+		user_id : 8767428828483011226,
+		date : 11,
+		subscription_until_date : 9,
+		rank : 'sFl6iqwcrWMKkVtb',
 	),
 	new_participant : $client->channelParticipant(
-		user_id : 4777410597983031673,
-		date : 88,
-		subscription_until_date : 13,
-		rank : 'sVHNLRCvT79j8dqx',
+		user_id : 424523377340888141,
+		date : 46,
+		subscription_until_date : 89,
+		rank : 'jbWyqEhQnsadH78P',
 	),
 	invite : $client->chatInviteExported(
 		revoked : true,
 		permanent : true,
 		request_needed : true,
-		link : 'SkOTXjufEvUsartC',
-		admin_id : -2180408601983696552,
-		date : 80,
-		start_date : 62,
-		expire_date : 88,
-		usage_limit : 15,
-		usage : 11,
-		requested : 10,
-		subscription_expired : 93,
-		title : 'dswozK7hRTknyfvE',
+		link : 'vg3zCnMbw2V9NGy6',
+		admin_id : -1200629497680759982,
+		date : 28,
+		start_date : 66,
+		expire_date : 0,
+		usage_limit : 52,
+		usage : 75,
+		requested : 55,
+		subscription_expired : 13,
+		title : 'iSo0ILupkKczGWgV',
 		subscription_pricing : $client->starsSubscriptionPricing(
-			period : 81,
-			amount : 4840325909088704852,
+			period : 94,
+			amount : -1823651877824228901,
 		),
 	),
-	qts : 82,
+	qts : 18,
 );
 ```

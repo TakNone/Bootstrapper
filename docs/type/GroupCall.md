@@ -2,7 +2,7 @@
 
 **Description** : *A group call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 groupCallDiscarded#7780bcb4 id:long access_hash:long duration:int = GroupCall;
@@ -15,5 +15,5 @@ groupCall#efb2b617 flags:# join_muted:flags.1?true can_change_join_muted:flags.2
 
 | Constructor | Description |
 | :---: | :--- |
-| [**groupCallDiscarded**](constructor/groupCallDiscarded) | An ended group call |
-| [**groupCall**](constructor/groupCall) | Info about a group call or livestream |
+| [**groupCallDiscarded**](constructor/groupCallDiscarded) | Describes an ended group call |
+| [**groupCall**](constructor/groupCall) | Describes a group call.If the min flag is set, this is a partial (min) constructor: only a subset of its fields contains up-to-date information, and it must be merged into a previously cached non-min constructor as described below. If no full (non-min) constructor for this call was cached previously, the min constructor must be discarded.When min is set, the following mandatory fields may be used: id, access_hash, participants_count and version. In addition, only the following conditional fields may be used if present, subject to the usual version check:- conference- rtmp_stream- listeners_hidden- title- messages_enabled- record_start_date and record_video_active- schedule_date- send_paid_messages_starsWhen min is set, the following fields must be ignored, keeping the values from the previously cached non-min constructor:- join_muted- can_change_join_muted- schedule_start_subscribed- can_start_video- creator- can_change_messages_enabled- unmuted_video_count- unmuted_video_limit- stream_dc_id- invite_link- default_send_asThe join_date_asc flag is set only when the call is created and never changes afterwards, so it too is not applied from a min constructor |

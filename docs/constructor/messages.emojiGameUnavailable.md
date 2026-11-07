@@ -1,6 +1,8 @@
 # messages.emojiGameUnavailable
 
-**Layer** : 227
+**Description** : *Dice game information*
+
+**Layer** : 229
 
 ```tl
 messages.emojiGameUnavailable#59e65335 = messages.EmojiGameInfo;

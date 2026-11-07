@@ -2,7 +2,7 @@
 
 **Description** : *Info about one or more boosts applied by a specific user*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 boost#4b3e14d6 flags:# gift:flags.1?true giveaway:flags.2?true unclaimed:flags.3?true id:string user_id:flags.0?long giveaway_msg_id:flags.2?int date:int expires:int used_gift_slug:flags.4?string multiplier:flags.5?int stars:flags.6?long = Boost;
@@ -42,13 +42,13 @@ $boost = $client->boost(
 	gift : true,
 	giveaway : true,
 	unclaimed : true,
-	id : 'CDHraKQlZid8ItAU',
-	user_id : 1544571069587009112,
-	giveaway_msg_id : 69,
-	date : 72,
-	expires : 94,
-	used_gift_slug : 'TyhOEQ4FJxkWd6iI',
-	multiplier : 29,
-	stars : 6277180352254613412,
+	id : 'WqENwTg8j0HolKIY',
+	user_id : 8656854593282942034,
+	giveaway_msg_id : 67,
+	date : 87,
+	expires : 92,
+	used_gift_slug : '3wfY5Tild6D08jEb',
+	multiplier : 49,
+	stars : -1493318051685539736,
 );
 ```

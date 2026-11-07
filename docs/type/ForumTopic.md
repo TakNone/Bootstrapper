@@ -2,7 +2,7 @@
 
 **Description** : *Contains information about a forum topic*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 forumTopicDeleted#23f109b id:int = ForumTopic;
@@ -15,5 +15,5 @@ forumTopic#fcdad815 flags:# my:flags.1?true closed:flags.2?true pinned:flags.3?t
 
 | Constructor | Description |
 | :---: | :--- |
-| [**forumTopicDeleted**](constructor/forumTopicDeleted) | Represents a deleted forum topic |
+| [**forumTopicDeleted**](constructor/forumTopicDeleted) | Represents a deleted forum topic.This constructor is returned in place of a forumTopic by messages.getForumTopicsByID (and the other topic-fetching methods) when a topic no longer exists, allowing clients and bots to confirm that a topic was deleted |
 | [**forumTopic**](constructor/forumTopic) | Represents a forum topic |

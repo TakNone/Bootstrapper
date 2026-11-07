@@ -1,6 +1,8 @@
 # messages.reportReadMetrics
 
-**Layer** : 227
+**Description** : *Report viewport read metrics for visible messages, indicating how long each message stayed in the chat viewport, see here &raquo; for more info on the full flow*
+
+**Layer** : 229
 
 ```tl
 messages.reportReadMetrics#4067c5e6 peer:InputPeer metrics:Vector<InputMessageReadMetric> = Bool;
@@ -12,8 +14,8 @@ messages.reportReadMetrics#4067c5e6 peer:InputPeer metrics:Vector<InputMessageRe
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>metrics</mark> | [`Vector<InputMessageReadMetric>`](type/InputMessageReadMetric) | NOTHING |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer where the messages are located |
+| <mark>metrics</mark> | [`Vector<InputMessageReadMetric>`](type/InputMessageReadMetric) | List of read metrics for individual messages |
 
 ---
 
@@ -30,12 +32,12 @@ $bool = $client->messages->reportReadMetrics(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	metrics : array(
 		$client->inputMessageReadMetric(
-			msg_id : 95,
-			view_id : 8090797776152695449,
-			time_in_view_ms : 24,
-			active_time_in_view_ms : 94,
-			height_to_viewport_ratio_permille : 11,
-			seen_range_ratio_permille : 1,
+			msg_id : 60,
+			view_id : 1456249370838195396,
+			time_in_view_ms : 58,
+			active_time_in_view_ms : 58,
+			height_to_viewport_ratio_permille : 13,
+			seen_range_ratio_permille : 86,
 		),
 	),
 );

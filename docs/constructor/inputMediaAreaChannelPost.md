@@ -2,7 +2,7 @@
 
 **Description** : *Represents a channel post*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputMediaAreaChannelPost#2271f2bf coordinates:MediaAreaCoordinates channel:InputChannel msg_id:int = MediaArea;
@@ -31,14 +31,14 @@ inputMediaAreaChannelPost#2271f2bf coordinates:MediaAreaCoordinates channel:Inpu
 ```php
 $mediaArea = $client->inputMediaAreaChannelPost(
 	coordinates : $client->mediaAreaCoordinates(
-		x : 1781897.609375,
-		y : 405606.1064453125,
-		w : -1073542.1064453125,
-		h : -726513.00390625,
-		rotation : 500478.349609375,
-		radius : -189163.044921875,
+		x : 1229270.123046875,
+		y : -1103712.470703125,
+		w : -1557844.4453125,
+		h : 90617.2822265625,
+		rotation : 962651.74609375,
+		radius : 1345196.0126953125,
 	),
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	msg_id : 4,
+	msg_id : 95,
 );
 ```

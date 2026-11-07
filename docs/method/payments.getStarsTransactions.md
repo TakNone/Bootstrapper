@@ -2,7 +2,7 @@
 
 **Description** : *Fetch Telegram Stars transactions*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.getStarsTransactions#69da4557 flags:# inbound:flags.0?true outbound:flags.1?true ascending:flags.2?true ton:flags.4?true subscription_id:flags.3?string peer:InputPeer offset:string limit:int = payments.StarsStatus;
@@ -18,7 +18,7 @@ payments.getStarsTransactions#69da4557 flags:# inbound:flags.0?true outbound:fla
 | **inbound** | [`flags.0?true`](type/true) | If set, fetches only incoming transactions |
 | **outbound** | [`flags.1?true`](type/true) | If set, fetches only outgoing transactions |
 | **ascending** | [`flags.2?true`](type/true) | Return transactions in ascending order by date (instead of descending order by date) |
-| **ton** | [`flags.4?true`](type/true) | If set, returns the channel/ad revenue transactions in nanotons, instead |
+| **ton** | [`flags.4?true`](type/true) | If set, returns the channel/ad revenue transactions in nanograms, instead |
 | **subscription_id** | [`flags.3?string`](type/string) | If set, fetches only transactions for the specified Telegram Star subscription » |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Fetch the transaction history of the peer (inputPeerSelf or a bot we own) |
 | <mark>offset</mark> | [`string`](type/string) | Offset for pagination, obtained from the returned next_offset, initially an empty string » |
@@ -50,9 +50,9 @@ $paymentsStarsStatus = $client->payments->getStarsTransactions(
 	outbound : true,
 	ascending : true,
 	ton : true,
-	subscription_id : 'RNVU27XvWryb4i9q',
+	subscription_id : '0nywImr7KOchMGLF',
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	offset : 'irQSeDJZUufswyK9',
-	limit : 81,
+	offset : 'Pk6ba5wZ0DjQFfX1',
+	limit : 35,
 );
 ```

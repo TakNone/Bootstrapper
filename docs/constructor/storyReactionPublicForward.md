@@ -2,7 +2,7 @@
 
 **Description** : *A certain peer has forwarded the story as a message to a public chat or channel*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 storyReactionPublicForward#bbab2643 message:Message = StoryReaction;
@@ -29,9 +29,9 @@ storyReactionPublicForward#bbab2643 message:Message = StoryReaction;
 ```php
 $storyReaction = $client->storyReactionPublicForward(
 	message : $client->messageEmpty(
-		id : 10,
+		id : 17,
 		peer_id : $client->peerUser(
-			user_id : 975775539032728766,
+			user_id : -47099880837602727,
 		),
 	),
 );

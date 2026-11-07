@@ -2,7 +2,7 @@
 
 **Description** : *Open a bot mini app, sending over user information after user confirmation*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.requestWebView#269dc2c1 flags:# from_bot_menu:flags.4?true silent:flags.5?true compact:flags.7?true fullscreen:flags.8?true peer:InputPeer bot:InputUser url:flags.1?string start_param:flags.3?string theme_params:flags.2?DataJSON platform:string reply_to:flags.0?InputReplyTo send_as:flags.13?InputPeer = WebViewResult;
@@ -65,106 +65,106 @@ $webViewResult = $client->messages->requestWebView(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	bot : $client->get_input_user(user : '@TakNone'),
 	url : 'https://docs.liveproto.dev',
-	start_param : 'FYIWXK7mMDpnH8Pq',
+	start_param : 'kFLlwZy9PvEcpGSI',
 	theme_params : $client->dataJSON(
-		data : '1Rru4UDTZsewGWLO',
+		data : 'JNIbpHS4rznkc6Tt',
 	),
-	platform : 'w0Go4ZQSx5Ual8iu',
+	platform : 'IjkJtBW0fQNZHqwY',
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 78,
-		top_msg_id : 53,
+		reply_to_msg_id : 53,
+		top_msg_id : 91,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'RYBljgp25CQVLDmd',
+		quote_text : 'Ks9xrbm5eLJvQEnC',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 54,
+				length : 13,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 40,
+				length : 89,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 26,
+				length : 48,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 32,
+				length : 81,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 50,
+				length : 0,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 95,
+				length : 61,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 77,
+				length : 1,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 52,
+				length : 81,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 46,
+				length : 40,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 10,
-				language : 'hR7oxa205Yn136FV',
+				length : 74,
+				language : 'YM2Ck6ELxWjV3sqS',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 23,
+				length : 18,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 0,
-				user_id : -3679748030529742943,
+				length : 46,
+				user_id : -1020540534325654685,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 61,
+				length : 64,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 21,
+				length : 46,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 81,
+				length : 91,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 43,
+				length : 1,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 52,
+				length : 50,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 87,
+				length : 31,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 24,
+				length : 35,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 54,
-				document_id : 653549231502492374,
+				length : 3,
+				document_id : 3919824053324022113,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 68,
+				length : 96,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -174,26 +174,26 @@ $webViewResult = $client->messages->requestWebView(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 57,
-				date : 81,
+				length : 13,
+				date : 50,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 26,
+				length : 1,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 72,
-				old_text : 'fXSFDEcr5z137sbB',
+				length : 19,
+				old_text : '1JxEVyqt6UPChGni',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 26,
+				length : 35,
 			),
 		),
-		quote_offset : 73,
+		quote_offset : 15,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 41,
+		todo_item_id : 79,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),

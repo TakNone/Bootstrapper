@@ -2,7 +2,7 @@
 
 **Description** : *A map*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 pageBlockMap#a44f3ef6 geo:GeoPoint zoom:int w:int h:int caption:PageCaption = PageBlock;
@@ -33,9 +33,9 @@ pageBlockMap#a44f3ef6 geo:GeoPoint zoom:int w:int h:int caption:PageCaption = Pa
 ```php
 $pageBlock = $client->pageBlockMap(
 	geo : $client->geoPointEmpty(),
-	zoom : 69,
-	w : 89,
-	h : 74,
+	zoom : 32,
+	w : 100,
+	h : 12,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

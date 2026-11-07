@@ -2,7 +2,7 @@
 
 **Description** : *Set an emoji status*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.updateEmojiStatus#fbd3de6b emoji_status:EmojiStatus = Bool;
@@ -30,6 +30,7 @@ account.updateEmojiStatus#fbd3de6b emoji_status:EmojiStatus = Bool;
 | :---: | :---: | :--- |
 | **COLLECTIBLE_INVALID** | `400` | The specified collectible is invalid |
 | **DOCUMENT_INVALID** | `400` | The specified document is invalid |
+| **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
 
 ---
 

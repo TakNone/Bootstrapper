@@ -2,7 +2,7 @@
 
 **Description** : *Used to fetch information about a direct link Mini App*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputBotAppID#a920bd7a id:long access_hash:long = InputBotApp;

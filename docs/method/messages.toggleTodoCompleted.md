@@ -2,7 +2,7 @@
 
 **Description** : *Mark one or more items of a todo list &raquo; as completed or not completed*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.toggleTodoCompleted#d3e03124 peer:InputPeer msg_id:int completed:Vector<int> incompleted:Vector<int> = Updates;
@@ -40,8 +40,8 @@ messages.toggleTodoCompleted#d3e03124 peer:InputPeer msg_id:int completed:Vector
 ```php
 $updates = $client->messages->toggleTodoCompleted(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 55,
-	completed : array(13),
-	incompleted : array(39),
+	msg_id : 15,
+	completed : array(83),
+	incompleted : array(31),
 );
 ```

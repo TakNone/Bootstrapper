@@ -2,7 +2,7 @@
 
 **Description** : *Telegram Business introduction &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 businessIntro#5a0a066d flags:# title:string description:string sticker:flags.0?Document = BusinessIntro;

@@ -1,6 +1,8 @@
 # aiComposeToneDefault
 
-**Layer** : 227
+**Description** : *A built\-in, default AI composer tone &raquo;, identified by a string identifier rather than by a numeric ID*
+
+**Layer** : 229
 
 ```tl
 aiComposeToneDefault#9bad6414 tone:string emoji_id:long title:string = AiComposeTone;
@@ -12,9 +14,9 @@ aiComposeToneDefault#9bad6414 tone:string emoji_id:long title:string = AiCompose
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>tone</mark> | [`string`](type/string) | NOTHING |
-| <mark>emoji_id</mark> | [`long`](type/long) | NOTHING |
-| <mark>title</mark> | [`string`](type/string) | NOTHING |
+| <mark>tone</mark> | [`string`](type/string) | String identifier of the built-in tone, to be passed to inputAiComposeToneDefault |
+| <mark>emoji_id</mark> | [`long`](type/long) | Custom emoji ID of the tone's icon |
+| <mark>title</mark> | [`string`](type/string) | Localized, human-readable name of the tone |
 
 ---
 
@@ -28,8 +30,8 @@ aiComposeToneDefault#9bad6414 tone:string emoji_id:long title:string = AiCompose
 
 ```php
 $aiComposeTone = $client->aiComposeToneDefault(
-	tone : 'FNlt8WZzTrc6iveK',
-	emoji_id : 8092605082122496573,
-	title : 'vSZ1gktdnx0q2Vyj',
+	tone : 'KEnwVeqO64S5x2rG',
+	emoji_id : 4752002888303349325,
+	title : 'rNz1oX3KtgCVDeOA',
 );
 ```

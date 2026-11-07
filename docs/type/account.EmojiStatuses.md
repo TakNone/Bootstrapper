@@ -2,7 +2,7 @@
 
 **Description** : *A list of emoji statuses*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.emojiStatusesNotModified#d08ce645 = account.EmojiStatuses;

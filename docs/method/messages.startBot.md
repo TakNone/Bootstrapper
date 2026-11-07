@@ -2,7 +2,7 @@
 
 **Description** : *Start a conversation with a bot using a deep linking parameter*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.startBot#e6df7378 bot:InputUser peer:InputPeer random_id:long start_param:string = Updates;
@@ -16,7 +16,7 @@ messages.startBot#e6df7378 bot:InputUser peer:InputPeer random_id:long start_par
 | :---: | :---: | :--- |
 | <mark>bot</mark> | [`InputUser`](type/InputUser) | The bot |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The chat where to start the bot, can be the bot's private chat or a group |
-| <mark>random_id</mark> | [`long`](type/long) | Random ID to avoid resending the same message |
+| <mark>random_id</mark> | [`long`](type/long) | Random ID to avoid resending the same message. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>start_param</mark> | [`string`](type/string) | Deep linking parameter |
 
 ---
@@ -50,7 +50,7 @@ messages.startBot#e6df7378 bot:InputUser peer:InputPeer random_id:long start_par
 $updates = $client->messages->startBot(
 	bot : $client->get_input_user(user : '@TakNone'),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	random_id : 6918888386079311711,
-	start_param : 'UwqGCtQsYAgPZIoS',
+	random_id : -2530256712567435645,
+	start_param : '1CfyWzJlhtSTaVKr',
 );
 ```

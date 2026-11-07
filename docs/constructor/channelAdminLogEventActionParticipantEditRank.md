@@ -1,6 +1,8 @@
 # channelAdminLogEventActionParticipantEditRank
 
-**Layer** : 227
+**Description** : *A participant&#039;s tag &raquo; was changed*
+
+**Layer** : 229
 
 ```tl
 channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:string new_rank:string = ChannelAdminLogEventAction;
@@ -12,9 +14,9 @@ channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:st
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>user_id</mark> | [`long`](type/long) | NOTHING |
-| <mark>prev_rank</mark> | [`string`](type/string) | NOTHING |
-| <mark>new_rank</mark> | [`string`](type/string) | NOTHING |
+| <mark>user_id</mark> | [`long`](type/long) | The user ID |
+| <mark>prev_rank</mark> | [`string`](type/string) | The previous tag |
+| <mark>new_rank</mark> | [`string`](type/string) | The new tag |
 
 ---
 
@@ -28,8 +30,8 @@ channelAdminLogEventActionParticipantEditRank#5806b4ec user_id:long prev_rank:st
 
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionParticipantEditRank(
-	user_id : -5056526540920810379,
-	prev_rank : 'tK7x5mOsyAB6GHIj',
-	new_rank : 'hHmjorw13X9R0nf5',
+	user_id : -905354266190209290,
+	prev_rank : 'CA5TliRHdXMG1mFB',
+	new_rank : 'NMcsPlt5iFSqph4j',
 );
 ```

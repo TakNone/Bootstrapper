@@ -1,6 +1,8 @@
 # messages.deleteParticipantReactions
 
-**Layer** : 227
+**Description** : *As an admin, remove all of a specific participant&#039;s reactions from every message in a group or channel*
+
+**Layer** : 229
 
 ```tl
 messages.deleteParticipantReactions#a0b80cf8 peer:InputPeer participant:InputPeer = Bool;
@@ -12,14 +14,22 @@ messages.deleteParticipantReactions#a0b80cf8 peer:InputPeer participant:InputPee
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>participant</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The group or channel where the participant's reactions should be removed |
+| <mark>participant</mark> | [`InputPeer`](type/InputPeer) | The participant whose reactions should be removed |
 
 ---
 
 ## Result
 
 [Bool](type/Bool)
+
+---
+
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 
 ---
 

@@ -1,6 +1,8 @@
 # messageActionNoForwardsRequest
 
-**Layer** : 227
+**Description** : *Emitted only in private chats if the other side requested to disable content protection &raquo;*
+
+**Layer** : 229
 
 ```tl
 messageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true prev_value:Bool new_value:Bool = MessageAction;
@@ -12,10 +14,10 @@ messageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true prev_value:
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **expired** | [`flags.0?true`](type/true) | NOTHING |
-| <mark>prev_value</mark> | [`Bool`](type/Bool) | NOTHING |
-| <mark>new_value</mark> | [`Bool`](type/Bool) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **expired** | [`flags.0?true`](type/true) | If set, this request was accepted or rejected by the other user and thus cannot be used anymore |
+| <mark>prev_value</mark> | [`Bool`](type/Bool) | Previous protection status |
+| <mark>new_value</mark> | [`Bool`](type/Bool) | New requested protection status |
 
 ---
 

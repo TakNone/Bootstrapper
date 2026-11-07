@@ -2,7 +2,7 @@
 
 **Description** : *User actions\. Use this to provide users with detailed info about their chat partner&#039;s actions: typing or sending attachments of all kinds*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 sendMessageTypingAction#16bf744e = SendMessageAction;
@@ -23,9 +23,10 @@ sendMessageHistoryImportAction#dbda9246 progress:int = SendMessageAction;
 sendMessageChooseStickerAction#b05ac6b1 = SendMessageAction;
 sendMessageEmojiInteraction#25972bcb emoticon:string msg_id:int interaction:DataJSON = SendMessageAction;
 sendMessageEmojiInteractionSeen#b665902e emoticon:string = SendMessageAction;
-sendMessageTextDraftAction#376d975c random_id:long text:TextWithEntities = SendMessageAction;
-inputSendMessageRichMessageDraftAction#e2b23b51 random_id:long rich_message:InputRichMessage = SendMessageAction;
-sendMessageRichMessageDraftAction#a2cb24f9 random_id:long rich_message:RichMessage = SendMessageAction;
+sendMessageTextDraftAction#3630b85a flags:# can_stop:flags.0?true keep_on_stop:flags.1?true random_id:long text:TextWithEntities = SendMessageAction;
+inputSendMessageRichMessageDraftAction#a937c7be flags:# can_stop:flags.0?true keep_on_stop:flags.1?true random_id:long rich_message:InputRichMessage = SendMessageAction;
+sendMessageRichMessageDraftAction#52564893 flags:# can_stop:flags.0?true keep_on_stop:flags.1?true random_id:long rich_message:RichMessage = SendMessageAction;
+sendMessageStopDraftAction#fbf902b0 random_id:long = SendMessageAction;
 ```
 
 ---
@@ -52,6 +53,7 @@ sendMessageRichMessageDraftAction#a2cb24f9 random_id:long rich_message:RichMessa
 | [**sendMessageChooseStickerAction**](constructor/sendMessageChooseStickerAction) | User is choosing a sticker |
 | [**sendMessageEmojiInteraction**](constructor/sendMessageEmojiInteraction) | User has clicked on an animated emoji triggering a reaction, click here for more info » |
 | [**sendMessageEmojiInteractionSeen**](constructor/sendMessageEmojiInteractionSeen) | User is watching an animated emoji reaction triggered by another user, click here for more info » |
-| [**sendMessageTextDraftAction**](constructor/sendMessageTextDraftAction) | NOTHING |
+| [**sendMessageTextDraftAction**](constructor/sendMessageTextDraftAction) | Used by bots to implement live message streaming » |
 | [**inputSendMessageRichMessageDraftAction**](constructor/inputSendMessageRichMessageDraftAction) | NOTHING |
 | [**sendMessageRichMessageDraftAction**](constructor/sendMessageRichMessageDraftAction) | NOTHING |
+| [**sendMessageStopDraftAction**](constructor/sendMessageStopDraftAction) | NOTHING |

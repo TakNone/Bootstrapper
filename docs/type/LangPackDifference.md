@@ -2,7 +2,7 @@
 
 **Description** : *Language pack changes*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 langPackDifference#f385c1f6 lang_code:string from_version:int version:int strings:Vector<LangPackString> = LangPackDifference;

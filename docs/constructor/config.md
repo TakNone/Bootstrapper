@@ -2,7 +2,7 @@
 
 **Description** : *Current configuration*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 config#cc1a241e flags:# default_p2p_contacts:flags.3?true preload_featured_stickers:flags.4?true revoke_pm_inbox:flags.6?true blocked_mode:flags.8?true force_try_ipv6:flags.14?true date:int expires:int test_mode:Bool this_dc:int dc_options:Vector<DcOption> dc_txt_domain_name:string chat_size_max:int megagroup_size_max:int forwarded_count_max:int online_update_period_ms:int offline_blur_timeout_ms:int offline_idle_timeout_ms:int online_cloud_timeout_ms:int notify_cloud_delay_ms:int notify_default_delay_ms:int push_chat_period_ms:int push_chat_limit:int edit_time_limit:int revoke_time_limit:int revoke_pm_time_limit:int rating_e_decay:int stickers_recent_limit:int channels_read_media_period:int tmp_sessions:flags.0?int call_receive_timeout_ms:int call_ring_timeout_ms:int call_connect_timeout_ms:int call_packet_timeout_ms:int me_url_prefix:string autoupdate_url_prefix:flags.7?string gif_search_username:flags.9?string venue_search_username:flags.10?string img_search_username:flags.11?string static_maps_provider:flags.12?string caption_length_max:int message_length_max:int webfile_dc_id:int suggested_lang_code:flags.2?string lang_pack_version:flags.2?int base_lang_pack_version:flags.2?int reactions_default:flags.15?Reaction autologin_token:flags.16?string = Config;
@@ -37,13 +37,13 @@ config#cc1a241e flags:# default_p2p_contacts:flags.3?true preload_featured_stick
 | <mark>notify_default_delay_ms</mark> | [`int`](type/int) | If some other client is online, then delay notification for notification_default_delay_ms milliseconds |
 | <mark>push_chat_period_ms</mark> | [`int`](type/int) | Not for client use |
 | <mark>push_chat_limit</mark> | [`int`](type/int) | Not for client use |
-| <mark>edit_time_limit</mark> | [`int`](type/int) | Only messages with age smaller than the one specified can be edited |
+| <mark>edit_time_limit</mark> | [`int`](type/int) | Only messages with age (in seconds) smaller than the one specified in this field can be edited |
 | <mark>revoke_time_limit</mark> | [`int`](type/int) | Only channel/supergroup messages with age smaller than the specified can be deleted |
 | <mark>revoke_pm_time_limit</mark> | [`int`](type/int) | Only private messages with age smaller than the specified can be deleted |
 | <mark>rating_e_decay</mark> | [`int`](type/int) | Exponential decay rate for computing top peer rating |
 | <mark>stickers_recent_limit</mark> | [`int`](type/int) | Maximum number of recent stickers |
 | <mark>channels_read_media_period</mark> | [`int`](type/int) | Indicates that round videos (video notes) and voice messages sent in channels and older than the specified period must be marked as read |
-| **tmp_sessions** | [`flags.0?int`](type/int) | Temporary passport sessions |
+| **tmp_sessions** | [`flags.0?int`](type/int) | Number of parallel sessions the client may open to the main connection of its home DC to increase throughput; if absent or ≤ 1, a single main session must be used |
 | <mark>call_receive_timeout_ms</mark> | [`int`](type/int) | Maximum allowed outgoing ring time in VoIP calls: if the user we're calling doesn't reply within the specified time (in milliseconds), we should hang up the call |
 | <mark>call_ring_timeout_ms</mark> | [`int`](type/int) | Maximum allowed incoming ring time in VoIP calls: if the current user doesn't reply within the specified time (in milliseconds), the call will be automatically refused |
 | <mark>call_connect_timeout_ms</mark> | [`int`](type/int) | VoIP connection timeout: if the instance of libtgvoip on the other side of the call doesn't connect to our instance of libtgvoip within the specified time (in milliseconds), the call must be aborted |
@@ -80,10 +80,10 @@ $config = $client->config(
 	revoke_pm_inbox : true,
 	blocked_mode : true,
 	force_try_ipv6 : true,
-	date : 32,
-	expires : 0,
-	test_mode : true,
-	this_dc : 7,
+	date : 48,
+	expires : 47,
+	test_mode : false,
+	this_dc : 17,
 	dc_options : array(
 		$client->dcOption(
 			ipv6 : true,
@@ -92,48 +92,48 @@ $config = $client->config(
 			cdn : true,
 			static : true,
 			this_port_only : true,
-			id : 31,
+			id : 63,
 			ip_address : '127.0.0.1',
-			port : 19,
+			port : 8,
 			secret : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		),
 	),
-	dc_txt_domain_name : '7DM5eaxqWdJOp1CF',
-	chat_size_max : 92,
-	megagroup_size_max : 37,
-	forwarded_count_max : 0,
-	online_update_period_ms : 4,
-	offline_blur_timeout_ms : 67,
-	offline_idle_timeout_ms : 57,
-	online_cloud_timeout_ms : 85,
-	notify_cloud_delay_ms : 77,
-	notify_default_delay_ms : 82,
-	push_chat_period_ms : 50,
-	push_chat_limit : 31,
-	edit_time_limit : 49,
-	revoke_time_limit : 22,
-	revoke_pm_time_limit : 76,
-	rating_e_decay : 13,
-	stickers_recent_limit : 23,
-	channels_read_media_period : 53,
-	tmp_sessions : 57,
-	call_receive_timeout_ms : 73,
-	call_ring_timeout_ms : 22,
-	call_connect_timeout_ms : 36,
-	call_packet_timeout_ms : 38,
+	dc_txt_domain_name : 'GMWZt3b20g7eacsh',
+	chat_size_max : 96,
+	megagroup_size_max : 62,
+	forwarded_count_max : 21,
+	online_update_period_ms : 95,
+	offline_blur_timeout_ms : 22,
+	offline_idle_timeout_ms : 93,
+	online_cloud_timeout_ms : 2,
+	notify_cloud_delay_ms : 63,
+	notify_default_delay_ms : 35,
+	push_chat_period_ms : 16,
+	push_chat_limit : 94,
+	edit_time_limit : 85,
+	revoke_time_limit : 21,
+	revoke_pm_time_limit : 17,
+	rating_e_decay : 72,
+	stickers_recent_limit : 46,
+	channels_read_media_period : 14,
+	tmp_sessions : 99,
+	call_receive_timeout_ms : 33,
+	call_ring_timeout_ms : 97,
+	call_connect_timeout_ms : 67,
+	call_packet_timeout_ms : 61,
 	me_url_prefix : 'https://docs.liveproto.dev',
 	autoupdate_url_prefix : 'https://docs.liveproto.dev',
 	gif_search_username : 'TakNone',
 	venue_search_username : 'TakNone',
 	img_search_username : 'TakNone',
-	static_maps_provider : 'ARdrT5EkihtabPpq',
-	caption_length_max : 26,
-	message_length_max : 23,
-	webfile_dc_id : 87,
-	suggested_lang_code : 'HKCPnMLiZmuzjGxX',
-	lang_pack_version : 74,
-	base_lang_pack_version : 62,
+	static_maps_provider : 'NDeIdFKQvJamAwBZ',
+	caption_length_max : 59,
+	message_length_max : 73,
+	webfile_dc_id : 2,
+	suggested_lang_code : 'ncwvTY0SBIqelto1',
+	lang_pack_version : 35,
+	base_lang_pack_version : 51,
 	reactions_default : $client->reactionEmpty(),
-	autologin_token : 'Mxeto5B1a9FXvIwy',
+	autologin_token : '7HLzBFOo6XvheWAr',
 );
 ```

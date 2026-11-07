@@ -1,6 +1,6 @@
 # textDate
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 textDate#a5b45e2b flags:# relative:flags.0?true short_time:flags.1?true long_time:flags.2?true short_date:flags.3?true long_date:flags.4?true day_of_week:flags.5?true text:RichText date:int = RichText;
@@ -41,6 +41,6 @@ $richText = $client->textDate(
 	long_date : true,
 	day_of_week : true,
 	text : $client->textEmpty(),
-	date : 54,
+	date : 72,
 );
 ```

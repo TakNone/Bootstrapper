@@ -1,8 +1,8 @@
 # phone.leaveGroupCall
 
-**Description** : *Leave a group call*
+**Description** : *Leave a group call without ending it for other participants\. This method can be used with all group call types, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.leaveGroupCall#500377f9 call:InputGroupCall source:int = Updates;
@@ -14,8 +14,8 @@ phone.leaveGroupCall#500377f9 call:InputGroupCall source:int = Updates;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | The group call |
-| <mark>source</mark> | [`int`](type/int) | Your source ID |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call to leave |
+| <mark>source</mark> | [`int`](type/int) | Source ID of the main group call stream |
 
 ---
 
@@ -38,9 +38,9 @@ phone.leaveGroupCall#500377f9 call:InputGroupCall source:int = Updates;
 ```php
 $updates = $client->phone->leaveGroupCall(
 	call : $client->inputGroupCall(
-		id : -8758541068781982881,
-		access_hash : 4433959088977888659,
+		id : 4867119892737081173,
+		access_hash : -6526057096506592095,
 	),
-	source : 67,
+	source : 83,
 );
 ```

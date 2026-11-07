@@ -2,7 +2,7 @@
 
 **Description** : *Theme by theme ID*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputThemeSlug#f5890df1 slug:string = InputTheme;
@@ -28,6 +28,6 @@ inputThemeSlug#f5890df1 slug:string = InputTheme;
 
 ```php
 $inputTheme = $client->inputThemeSlug(
-	slug : 'xMQ6nwbXEfd3tLsC',
+	slug : 'v87bCczGhTLfSor0',
 );
 ```

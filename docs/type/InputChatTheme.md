@@ -2,7 +2,7 @@
 
 **Description** : *Specifies a chat theme &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputChatThemeEmpty#83268483 = InputChatTheme;
@@ -18,4 +18,4 @@ inputChatThemeUniqueGift#87e5dfe4 slug:string = InputChatTheme;
 | :---: | :--- |
 | [**inputChatThemeEmpty**](constructor/inputChatThemeEmpty) | Remove any currently configured theme |
 | [**inputChatTheme**](constructor/inputChatTheme) | Set an emoji-based chat theme, returned by account.getChatThemes |
-| [**inputChatThemeUniqueGift**](constructor/inputChatThemeUniqueGift) | Set a theme based on an owned collectible gift », returned by account.getUniqueGiftChatThemes |
+| [**inputChatThemeUniqueGift**](constructor/inputChatThemeUniqueGift) | Set a theme based on an owned or hosted collectible gift », returned by account.getUniqueGiftChatThemes |

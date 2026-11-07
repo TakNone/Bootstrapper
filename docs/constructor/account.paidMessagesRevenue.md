@@ -2,7 +2,7 @@
 
 **Description** : *Total number of non\-refunded Telegram Stars a user has spent on sending us messages either directly or through a channel, see here &raquo; for more info on paid messages*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.paidMessagesRevenue#1e109708 stars_amount:long = account.PaidMessagesRevenue;
@@ -28,6 +28,6 @@ account.paidMessagesRevenue#1e109708 stars_amount:long = account.PaidMessagesRev
 
 ```php
 $accountPaidMessagesRevenue = $client->account->paidMessagesRevenue(
-	stars_amount : 6426100898432313185,
+	stars_amount : 4283422416909368053,
 );
 ```

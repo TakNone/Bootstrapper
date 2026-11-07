@@ -1,6 +1,8 @@
 # account.passkeys
 
-**Layer** : 227
+**Description** : *List of passkeys &raquo; associated to the current account*
+
+**Layer** : 229
 
 ```tl
 account.passkeys#f8e0aa1c passkeys:Vector<Passkey> = account.Passkeys;
@@ -12,7 +14,7 @@ account.passkeys#f8e0aa1c passkeys:Vector<Passkey> = account.Passkeys;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>passkeys</mark> | [`Vector<Passkey>`](type/Passkey) | NOTHING |
+| <mark>passkeys</mark> | [`Vector<Passkey>`](type/Passkey) | List of passkeys that can be used to log into the current account |
 
 ---
 
@@ -28,11 +30,11 @@ account.passkeys#f8e0aa1c passkeys:Vector<Passkey> = account.Passkeys;
 $accountPasskeys = $client->account->passkeys(
 	passkeys : array(
 		$client->passkey(
-			id : 'KPZ5M8SV2gQ6ufcq',
-			name : 'MGaoFlTfSOEnxtgr',
-			date : 58,
-			software_emoji_id : 8993073645148196095,
-			last_usage_date : 86,
+			id : 'GAXW4ainqxp7jhPb',
+			name : '3qtxcLMmdFulgNIZ',
+			date : 7,
+			software_emoji_id : 2951068051796941659,
+			last_usage_date : 94,
 		),
 	),
 );

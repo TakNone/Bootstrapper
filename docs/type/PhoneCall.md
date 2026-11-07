@@ -2,7 +2,7 @@
 
 **Description** : *Phone call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phoneCallEmpty#5366c915 id:long = PhoneCall;
@@ -20,8 +20,8 @@ phoneCallDiscarded#50ca4de1 flags:# need_rating:flags.2?true need_debug:flags.3?
 | Constructor | Description |
 | :---: | :--- |
 | [**phoneCallEmpty**](constructor/phoneCallEmpty) | Empty constructor |
-| [**phoneCallWaiting**](constructor/phoneCallWaiting) | Incoming phone call |
-| [**phoneCallRequested**](constructor/phoneCallRequested) | Requested phone call |
-| [**phoneCallAccepted**](constructor/phoneCallAccepted) | An accepted phone call |
-| [**phoneCall**](constructor/phoneCall) | Phone call |
-| [**phoneCallDiscarded**](constructor/phoneCallDiscarded) | Indicates a discarded phone call |
+| [**phoneCallWaiting**](constructor/phoneCallWaiting) | Incoming phone call, see here » for more info on the full flow |
+| [**phoneCallRequested**](constructor/phoneCallRequested) | Requested phone call, see here » for more info on the full flow |
+| [**phoneCallAccepted**](constructor/phoneCallAccepted) | An accepted phone call, see here » for more info on the full flow |
+| [**phoneCall**](constructor/phoneCall) | Phone call, see here » for more info on the full flow |
+| [**phoneCallDiscarded**](constructor/phoneCallDiscarded) | Indicates a discarded phone call, see here » for more info on the full flow |

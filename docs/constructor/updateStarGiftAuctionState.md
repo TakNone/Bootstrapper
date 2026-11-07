@@ -1,6 +1,8 @@
 # updateStarGiftAuctionState
 
-**Layer** : 227
+**Description** : *Contains updates to auction state, see here &raquo; for more info on how to enable these updates*
+
+**Layer** : 229
 
 ```tl
 updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Update;
@@ -12,8 +14,8 @@ updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Up
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>gift_id</mark> | [`long`](type/long) | NOTHING |
-| <mark>state</mark> | [`StarGiftAuctionState`](type/StarGiftAuctionState) | NOTHING |
+| <mark>gift_id</mark> | [`long`](type/long) | ID of the collectible gift » currently being distributed in the auction |
+| <mark>state</mark> | [`StarGiftAuctionState`](type/StarGiftAuctionState) | Auction state |
 
 ---
 
@@ -27,7 +29,7 @@ updateStarGiftAuctionState#48e246c2 gift_id:long state:StarGiftAuctionState = Up
 
 ```php
 $update = $client->updateStarGiftAuctionState(
-	gift_id : -2013065686798331616,
+	gift_id : 8787922256042170754,
 	state : $client->starGiftAuctionStateNotModified(),
 );
 ```

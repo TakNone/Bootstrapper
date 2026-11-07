@@ -1,6 +1,8 @@
 # phone.getGroupCallStars
 
-**Layer** : 227
+**Description** : *Fetch a live story&#039;s total donations and top donors, see paid live story donations &raquo;*
+
+**Layer** : 229
 
 ```tl
 phone.getGroupCallStars#6f636302 call:InputGroupCall = phone.GroupCallStars;
@@ -12,7 +14,7 @@ phone.getGroupCallStars#6f636302 call:InputGroupCall = phone.GroupCallStars;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Live story group call |
 
 ---
 
@@ -22,13 +24,21 @@ phone.getGroupCallStars#6f636302 call:InputGroupCall = phone.GroupCallStars;
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **GROUPCALL_INVALID** | `400` | The specified group call is invalid |
+
+---
+
 ## Example
 
 ```php
 $phoneGroupCallStars = $client->phone->getGroupCallStars(
 	call : $client->inputGroupCall(
-		id : 5137154936706215562,
-		access_hash : 5248248101557890156,
+		id : 7460316284079669963,
+		access_hash : 7935148257585335675,
 	),
 );
 ```

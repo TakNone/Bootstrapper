@@ -2,7 +2,7 @@
 
 **Description** : *Creates a new chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.createChat#92ceddd4 flags:# users:Vector<InputUser> title:string ttl_period:flags.0?int = messages.InvitedUsers;
@@ -38,7 +38,7 @@ messages.createChat#92ceddd4 flags:# users:Vector<InputUser> title:string ttl_pe
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **TTL_PERIOD_INVALID** | `400` | The specified TTL period is invalid |
 | **USERS_TOO_FEW** | `400` | Not enough users (to create a chat, for example) |
-| **USER_RESTRICTED** | `403` | You're spamreported, you can't create channels or chats |
+| **USER_RESTRICTED** | `406` | You're spamreported, you can't create channels or chats |
 
 ---
 
@@ -47,7 +47,7 @@ messages.createChat#92ceddd4 flags:# users:Vector<InputUser> title:string ttl_pe
 ```php
 $messagesInvitedUsers = $client->messages->createChat(
 	users : array($client->get_input_user(user : '@TakNone')),
-	title : 'ZpOqa7MyP8zkK5Xo',
-	ttl_period : 99,
+	title : 'l6J5y3Dz1beKaFCW',
+	ttl_period : 81,
 );
 ```

@@ -1,6 +1,6 @@
 # inputPageBlockMap
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPageBlockMap#574b617f geo:InputGeoPoint zoom:int w:int h:int caption:PageCaption = PageBlock;
@@ -31,9 +31,9 @@ inputPageBlockMap#574b617f geo:InputGeoPoint zoom:int w:int h:int caption:PageCa
 ```php
 $pageBlock = $client->inputPageBlockMap(
 	geo : $client->inputGeoPointEmpty(),
-	zoom : 22,
-	w : 98,
-	h : 10,
+	zoom : 13,
+	w : 76,
+	h : 17,
 	caption : $client->pageCaption(
 		text : $client->textEmpty(),
 		credit : $client->textEmpty(),

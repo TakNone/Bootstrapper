@@ -1,6 +1,6 @@
 # pageBlockHeading3
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 pageBlockHeading3#67e731ad text:RichText = PageBlock;

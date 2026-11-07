@@ -1,6 +1,8 @@
 # inputAiComposeToneDefault
 
-**Layer** : 227
+**Description** : *References a built\-in, default AI composer tone &raquo; by its string identifier*
+
+**Layer** : 229
 
 ```tl
 inputAiComposeToneDefault#1fe9a9bf tone:string = InputAiComposeTone;
@@ -12,7 +14,7 @@ inputAiComposeToneDefault#1fe9a9bf tone:string = InputAiComposeTone;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>tone</mark> | [`string`](type/string) | NOTHING |
+| <mark>tone</mark> | [`string`](type/string) | String identifier of the built-in tone, as returned in aiComposeToneDefault.tone |
 
 ---
 
@@ -26,6 +28,6 @@ inputAiComposeToneDefault#1fe9a9bf tone:string = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneDefault(
-	tone : 'q9IwGmvchx2tbZ1U',
+	tone : 'SJBNr8h2XCzwxLaY',
 );
 ```

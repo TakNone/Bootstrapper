@@ -2,7 +2,7 @@
 
 **Description** : *Birthday information of a contact*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 contactBirthday#1d998733 contact_id:long birthday:Birthday = ContactBirthday;

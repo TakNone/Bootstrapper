@@ -2,7 +2,7 @@
 
 **Description** : *Phone call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPhoneCall#1e36fded id:long access_hash:long = InputPhoneCall;
@@ -14,4 +14,4 @@ inputPhoneCall#1e36fded id:long access_hash:long = InputPhoneCall;
 
 | Constructor | Description |
 | :---: | :--- |
-| [**inputPhoneCall**](constructor/inputPhoneCall) | Phone call |
+| [**inputPhoneCall**](constructor/inputPhoneCall) | Identifies a phone call |

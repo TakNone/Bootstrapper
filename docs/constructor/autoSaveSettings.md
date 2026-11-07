@@ -2,7 +2,7 @@
 
 **Description** : *Media autosave settings*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 autoSaveSettings#c84834ce flags:# photos:flags.0?true videos:flags.1?true video_max_size:flags.2?long = AutoSaveSettings;
@@ -33,6 +33,6 @@ autoSaveSettings#c84834ce flags:# photos:flags.0?true videos:flags.1?true video_
 $autoSaveSettings = $client->autoSaveSettings(
 	photos : true,
 	videos : true,
-	video_max_size : -7914998013549487889,
+	video_max_size : 90041150702268462,
 );
 ```

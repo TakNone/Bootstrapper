@@ -1,6 +1,8 @@
 # messageActionNoForwardsToggle
 
-**Layer** : 227
+**Description** : *Emitted only in private chats when enabling or disabling content protection &raquo;*
+
+**Layer** : 229
 
 ```tl
 messageActionNoForwardsToggle#bf7d6572 prev_value:Bool new_value:Bool = MessageAction;
@@ -12,8 +14,8 @@ messageActionNoForwardsToggle#bf7d6572 prev_value:Bool new_value:Bool = MessageA
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>prev_value</mark> | [`Bool`](type/Bool) | NOTHING |
-| <mark>new_value</mark> | [`Bool`](type/Bool) | NOTHING |
+| <mark>prev_value</mark> | [`Bool`](type/Bool) | Previous protection status (if true, the chat was protected). May be equal to new_value when replying to requests, see here » for more info on the full flow |
+| <mark>new_value</mark> | [`Bool`](type/Bool) | New protection status |
 
 ---
 

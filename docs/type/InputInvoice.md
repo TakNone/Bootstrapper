@@ -2,7 +2,7 @@
 
 **Description** : *An invoice*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputInvoiceMessage#c5b56859 peer:InputPeer msg_id:int = InputInvoice;
@@ -15,7 +15,7 @@ inputInvoiceStarGiftUpgrade#4d818d5d flags:# keep_original_details:flags.0?true 
 inputInvoiceStarGiftTransfer#4a5f5bd9 stargift:InputSavedStarGift to_id:InputPeer = InputInvoice;
 inputInvoicePremiumGiftStars#dabab2ef flags:# user_id:InputUser months:int message:flags.0?TextWithEntities = InputInvoice;
 inputInvoiceBusinessBotTransferStars#f4997e42 bot:InputUser stars:long = InputInvoice;
-inputInvoiceStarGiftResale#c39f5324 flags:# ton:flags.0?true slug:string to_id:InputPeer = InputInvoice;
+inputInvoiceStarGiftResale#e9b0c658 flags:# ton:flags.0?true show_name:flags.2?true slug:string to_id:InputPeer message:flags.1?TextWithEntities = InputInvoice;
 inputInvoiceStarGiftPrepaidUpgrade#9a0b48b8 peer:InputPeer hash:string = InputInvoice;
 inputInvoicePremiumAuthCode#3e77f614 purpose:InputStorePaymentPurpose = InputInvoice;
 inputInvoiceStarGiftDropOriginalDetails#923d8d1 stargift:InputSavedStarGift = InputInvoice;
@@ -40,6 +40,6 @@ inputInvoiceStarGiftAuctionBid#1ecafa10 flags:# hide_name:flags.0?true update_bi
 | [**inputInvoiceBusinessBotTransferStars**](constructor/inputInvoiceBusinessBotTransferStars) | Transfer stars from the balance of a user account connected to a business bot, to the balance of the business bot, see here » for more info on the full flow |
 | [**inputInvoiceStarGiftResale**](constructor/inputInvoiceStarGiftResale) | Used to buy a collectible gift currently up on resale, see here for more info on the full flow |
 | [**inputInvoiceStarGiftPrepaidUpgrade**](constructor/inputInvoiceStarGiftPrepaidUpgrade) | Separately prepay for the upgrade of a gift » |
-| [**inputInvoicePremiumAuthCode**](constructor/inputInvoicePremiumAuthCode) | NOTHING |
-| [**inputInvoiceStarGiftDropOriginalDetails**](constructor/inputInvoiceStarGiftDropOriginalDetails) | NOTHING |
-| [**inputInvoiceStarGiftAuctionBid**](constructor/inputInvoiceStarGiftAuctionBid) | NOTHING |
+| [**inputInvoicePremiumAuthCode**](constructor/inputInvoicePremiumAuthCode) | Used to pay for login codes, in case of high cost of SMS verification codes for the user's country/provider, see here » for more info |
+| [**inputInvoiceStarGiftDropOriginalDetails**](constructor/inputInvoiceStarGiftDropOriginalDetails) | Used to pay for for the removal of the starGiftAttributeOriginalDetails attribute from a collectible gift, see here » for the full flow |
+| [**inputInvoiceStarGiftAuctionBid**](constructor/inputInvoiceStarGiftAuctionBid) | Used to place a bid in a collectible gift auction » |

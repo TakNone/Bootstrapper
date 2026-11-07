@@ -2,7 +2,7 @@
 
 **Description** : *Filtering criteria to use for the peer selection list shown to the user*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 requestPeerTypeUser#5f3b8a00 flags:# bot:flags.0?Bool premium:flags.1?Bool = RequestPeerType;
@@ -20,4 +20,4 @@ requestPeerTypeCreateBot#3e81e078 flags:# bot_managed:flags.0?true suggested_nam
 | [**requestPeerTypeUser**](constructor/requestPeerTypeUser) | Choose a user |
 | [**requestPeerTypeChat**](constructor/requestPeerTypeChat) | Choose a chat or supergroup |
 | [**requestPeerTypeBroadcast**](constructor/requestPeerTypeBroadcast) | Choose a channel |
-| [**requestPeerTypeCreateBot**](constructor/requestPeerTypeCreateBot) | NOTHING |
+| [**requestPeerTypeCreateBot**](constructor/requestPeerTypeCreateBot) | Used in a keyboardButtonRequestPeer by a manager bot to ask a user to create a new managed bot », see here » for more info |

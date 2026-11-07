@@ -1,6 +1,8 @@
 # inputStarGiftAuction
 
-**Layer** : 227
+**Description** : *Used to fetch auctions using the ID of the linked collectible gift*
+
+**Layer** : 229
 
 ```tl
 inputStarGiftAuction#2e16c98 gift_id:long = InputStarGiftAuction;
@@ -12,7 +14,7 @@ inputStarGiftAuction#2e16c98 gift_id:long = InputStarGiftAuction;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>gift_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>gift_id</mark> | [`long`](type/long) | Collectible gift ID |
 
 ---
 
@@ -26,6 +28,6 @@ inputStarGiftAuction#2e16c98 gift_id:long = InputStarGiftAuction;
 
 ```php
 $inputStarGiftAuction = $client->inputStarGiftAuction(
-	gift_id : 6353710569943073544,
+	gift_id : -754203200620395436,
 );
 ```

@@ -1,6 +1,8 @@
 # starGiftActiveAuctionState
 
-**Layer** : 227
+**Description** : *Contains info about an auction where the user has placed a bid &raquo;*
+
+**Layer** : 229
 
 ```tl
 starGiftActiveAuctionState#d31bc45d gift:StarGift state:StarGiftAuctionState user_state:StarGiftAuctionUserState = StarGiftActiveAuctionState;
@@ -12,9 +14,9 @@ starGiftActiveAuctionState#d31bc45d gift:StarGift state:StarGiftAuctionState use
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>gift</mark> | [`StarGift`](type/StarGift) | NOTHING |
-| <mark>state</mark> | [`StarGiftAuctionState`](type/StarGiftAuctionState) | NOTHING |
-| <mark>user_state</mark> | [`StarGiftAuctionUserState`](type/StarGiftAuctionUserState) | NOTHING |
+| <mark>gift</mark> | [`StarGift`](type/StarGift) | The collectible gift » currently being distributed in the auction |
+| <mark>state</mark> | [`StarGiftAuctionState`](type/StarGiftAuctionState) | Auction state |
+| <mark>user_state</mark> | [`StarGiftAuctionUserState`](type/StarGiftAuctionUserState) | Auction state related to the current user (i.e. info about placed bids, won gifts and so on) |
 
 ---
 
@@ -36,46 +38,46 @@ $starGiftActiveAuctionState = $client->starGiftActiveAuctionState(
 		limited_per_user : true,
 		peer_color_available : true,
 		auction : true,
-		id : -5178891617842678375,
+		id : 3005356544601233041,
 		sticker : $client->documentEmpty(
-			id : -5001772654351474,
+			id : -6020452185189613918,
 		),
-		stars : -730961223493056223,
-		availability_remains : 41,
-		availability_total : 94,
-		availability_resale : -4738782667667933582,
-		convert_stars : 8224163929024322423,
-		first_sale_date : 65,
-		last_sale_date : 30,
-		upgrade_stars : -4028097389886584813,
-		resell_min_stars : -366703139529254822,
-		title : 'sK0dkn2TM4cG5QXP',
+		stars : 1802879905288545646,
+		availability_remains : 78,
+		availability_total : 29,
+		availability_resale : 5089416931424052582,
+		convert_stars : -4040312659791936467,
+		first_sale_date : 53,
+		last_sale_date : 47,
+		upgrade_stars : 436007699755020486,
+		resell_min_stars : -6477199113015011568,
+		title : 'Oil6ckdKv5eoJaTV',
 		released_by : $client->peerUser(
-			user_id : -851977659010234318,
+			user_id : 134884344479634153,
 		),
 		per_user_total : 63,
-		per_user_remains : 3,
-		locked_until_date : 12,
-		auction_slug : 'pYFrUawimyZ5lNbq',
-		gifts_per_round : 0,
-		auction_start_date : 28,
-		upgrade_variants : 2,
+		per_user_remains : 54,
+		locked_until_date : 32,
+		auction_slug : 'pP7C20WwzuGkLoVi',
+		gifts_per_round : 3,
+		auction_start_date : 82,
+		upgrade_variants : 59,
 		background : $client->starGiftBackground(
-			center_color : 74,
-			edge_color : 58,
-			text_color : 67,
+			center_color : 21,
+			edge_color : 63,
+			text_color : 92,
 		),
 	),
 	state : $client->starGiftAuctionStateNotModified(),
 	user_state : $client->starGiftAuctionUserState(
 		returned : true,
-		bid_amount : -4980684050966413827,
-		bid_date : 13,
-		min_bid_amount : 5452473981161769422,
+		bid_amount : -6771827185647658825,
+		bid_date : 26,
+		min_bid_amount : -5592483051727461597,
 		bid_peer : $client->peerUser(
-			user_id : -4849281740917087791,
+			user_id : 2360235373282487222,
 		),
-		acquired_count : 46,
+		acquired_count : 37,
 	),
 );
 ```

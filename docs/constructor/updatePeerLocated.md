@@ -2,7 +2,7 @@
 
 **Description** : *List of peers near you was updated*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updatePeerLocated#b4afcfb0 peers:Vector<PeerLocated> = Update;
@@ -31,13 +31,13 @@ $update = $client->updatePeerLocated(
 	peers : array(
 		$client->peerLocated(
 			peer : $client->peerUser(
-				user_id : 6380159200762210967,
+				user_id : 1303857845774135413,
 			),
-			expires : 42,
-			distance : 15,
+			expires : 47,
+			distance : 30,
 		),
 		$client->peerSelfLocated(
-			expires : 71,
+			expires : 41,
 		),
 	),
 );

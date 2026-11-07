@@ -2,10 +2,10 @@
 
 **Description** : *Forwards messages by their IDs*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
-messages.forwardMessages#13704a7c flags:# silent:flags.5?true background:flags.6?true with_my_score:flags.8?true drop_author:flags.11?true drop_media_captions:flags.12?true noforwards:flags.14?true allow_paid_floodskip:flags.19?true from_peer:InputPeer id:Vector<int> random_id:Vector<long> to_peer:InputPeer top_msg_id:flags.9?int reply_to:flags.22?InputReplyTo schedule_date:flags.10?int schedule_repeat_period:flags.24?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut effect:flags.18?long video_timestamp:flags.20?int allow_paid_stars:flags.21?long suggested_post:flags.23?SuggestedPost = Updates;
+messages.forwardMessages#13704a7c flags:# silent:flags.5?true background:flags.6?true with_my_score:flags.8?true drop_author:flags.11?true drop_media_captions:flags.12?true noforwards:flags.14?true allow_paid_floodskip:flags.19?true from_ephemeral:flags.25?true from_peer:InputPeer id:Vector<int> random_id:Vector<long> to_peer:InputPeer top_msg_id:flags.9?int reply_to:flags.22?InputReplyTo schedule_date:flags.10?int schedule_repeat_period:flags.24?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut effect:flags.18?long video_timestamp:flags.20?int allow_paid_stars:flags.21?long suggested_post:flags.23?SuggestedPost = Updates;
 ```
 
 ---
@@ -22,17 +22,18 @@ messages.forwardMessages#13704a7c flags:# silent:flags.5?true background:flags.6
 | **drop_media_captions** | [`flags.12?true`](type/true) | Whether to strip captions from media |
 | **noforwards** | [`flags.14?true`](type/true) | Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn't have content protection enabled |
 | **allow_paid_floodskip** | [`flags.19?true`](type/true) | Bots only: if set, allows sending up to 1000 messages per second, ignoring broadcasting limits for a fee of 0.1 Telegram Stars per message. The relevant Stars will be withdrawn from the bot's balance |
+| **from_ephemeral** | [`flags.25?true`](type/true) | NOTHING |
 | <mark>from_peer</mark> | [`InputPeer`](type/InputPeer) | Source of messages |
 | <mark>id</mark> | [`Vector<int>`](type/int) | IDs of messages |
-| <mark>random_id</mark> | [`Vector<long>`](type/long) | Random ID to prevent resending of messages |
+| <mark>random_id</mark> | [`Vector<long>`](type/long) | Random ID to prevent resending of messages. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>to_peer</mark> | [`InputPeer`](type/InputPeer) | Destination peer |
 | **top_msg_id** | [`flags.9?int`](type/int) | Destination forum topic |
 | **reply_to** | [`flags.22?InputReplyTo`](type/InputReplyTo) | Can only contain an inputReplyToMonoForum, to forward messages to a monoforum topic (mutually exclusive with top_msg_id) |
 | **schedule_date** | [`flags.10?int`](type/int) | Scheduled message date for scheduled messages |
-| **schedule_repeat_period** | [`flags.24?int`](type/int) | NOTHING |
+| **schedule_repeat_period** | [`flags.24?int`](type/int) | Once sent, this message will be automatically re-scheduled to be re-sent again this many seconds in the future, see here » for more info on repeating scheduled messages |
 | **send_as** | [`flags.13?InputPeer`](type/InputPeer) | Forward the messages as the specified peer |
 | **quick_reply_shortcut** | [`flags.17?InputQuickReplyShortcut`](type/InputQuickReplyShortcut) | Add the messages to the specified quick reply shortcut », instead |
-| **effect** | [`flags.18?long`](type/long) | NOTHING |
+| **effect** | [`flags.18?long`](type/long) | Specifies a message effect » to use for the message |
 | **video_timestamp** | [`flags.20?int`](type/int) | Start playing the video at the specified timestamp (seconds) |
 | **allow_paid_stars** | [`flags.21?long`](type/long) | For paid messages », specifies the amount of Telegram Stars the user has agreed to pay in order to send the message |
 | **suggested_post** | [`flags.23?SuggestedPost`](type/SuggestedPost) | Used to suggest a post to a channel, see here » for more info on the full flow |
@@ -76,13 +77,14 @@ messages.forwardMessages#13704a7c flags:# silent:flags.5?true background:flags.6
 | **GROUPED_MEDIA_INVALID** | `400` | Invalid grouped media |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **MEDIA_EMPTY** | `400` | The provided media object is invalid |
+| **MEDIA_FILE_INVALID** | `400` | The specified media file is invalid |
 | **MESSAGE_IDS_EMPTY** | `400` | No message ids were provided |
 | **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PAYMENT_UNSUPPORTED** | `406` | A detailed description of the error will be received separately as described here » |
 | **PEER_ID_INVALID** | `406` | The provided peer id is invalid |
 | **PREMIUM_ACCOUNT_REQUIRED** | `403` | A premium account is required to execute this action |
-| **PRIVACY_PREMIUM_REQUIRED** | `403` | You need a Telegram Premium subscription to send a message to this user |
+| **PRIVACY_PREMIUM_REQUIRED** | `406` | You need a Telegram Premium subscription to send a message to this user |
 | **QUICK_REPLIES_BOT_NOT_ALLOWED** | `400` | Quick replies cannot be used by bots |
 | **QUICK_REPLIES_TOO_MUCH** | `400` | A maximum of appConfig.quick_replies_limit shortcuts may be created, the limit was reached |
 | **QUIZ_ANSWER_MISSING** | `400` | You can forward a quiz while hiding the original author only after choosing an option in the quiz |
@@ -100,6 +102,7 @@ messages.forwardMessages#13704a7c flags:# silent:flags.5?true background:flags.6
 | **TOPIC_CLOSED** | `406` | This topic was closed, you can't send messages to it anymore |
 | **TOPIC_DELETED** | `406` | The specified topic was deleted |
 | **USER_BANNED_IN_CHANNEL** | `400` | You're banned from sending messages in supergroups/channels |
+| **USER_BOT_TO_BOT_DISABLED** | `400` | Bot-to-bot messaging is disabled because one of the two bots hasn't enabled the Bot to Bot setting in @BotFather |
 | **USER_IS_BLOCKED** | `403` | You were blocked by this user |
 | **USER_IS_BOT** | `400` | Bots can't send messages to other bots |
 | **VOICE_MESSAGES_FORBIDDEN** | `403` | This user's privacy settings forbid you from sending voice messages |
@@ -118,48 +121,49 @@ $updates = $client->messages->forwardMessages(
 	drop_media_captions : true,
 	noforwards : true,
 	allow_paid_floodskip : true,
+	from_ephemeral : true,
 	from_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(37),
-	random_id : array(-1088739577040753596),
+	id : array(85),
+	random_id : array(6360342370658132042),
 	to_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	top_msg_id : 29,
+	top_msg_id : 37,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 3,
-		top_msg_id : 40,
+		reply_to_msg_id : 69,
+		top_msg_id : 86,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'NkSqi8OQERy0HjFP',
+		quote_text : 'TuWJAKLI68wVPZ0E',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 13,
+				length : 36,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 94,
+				length : 72,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 53,
+				length : 94,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 68,
+				length : 53,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 80,
+				length : 11,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 75,
+				length : 13,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 0,
+				length : 37,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 17,
+				length : 53,
 			),
 			$client->messageEntityCode(
 				offset : 0,
@@ -167,57 +171,57 @@ $updates = $client->messages->forwardMessages(
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 88,
-				language : 'RStNZKf3cJeF41aI',
+				length : 2,
+				language : 'rYEbxg80CKnUe5IO',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 71,
+				length : 10,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 16,
-				user_id : 4651376866736695045,
+				length : 64,
+				user_id : 1150418571002628368,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 33,
+				length : 73,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 27,
+				length : 2,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 22,
+				length : 98,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 3,
+				length : 36,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 25,
+				length : 18,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 50,
+				length : 35,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 8,
+				length : 84,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 94,
-				document_id : -5404518985068145631,
+				length : 20,
+				document_id : -1727224134991996119,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 63,
+				length : 70,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -227,45 +231,45 @@ $updates = $client->messages->forwardMessages(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 1,
-				date : 69,
+				length : 38,
+				date : 79,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 2,
+				length : 1,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 76,
-				old_text : 'tfU5MLcWXSxgkhKp',
+				length : 32,
+				old_text : 'bEtAXqY83ief5rLk',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 99,
+				length : 61,
 			),
 		),
-		quote_offset : 56,
+		quote_offset : 63,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 22,
+		todo_item_id : 17,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
-	schedule_date : 32,
-	schedule_repeat_period : 57,
+	schedule_date : 34,
+	schedule_repeat_period : 17,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'yBx9z8mC1Qwsli4q',
+		shortcut : 'NvmnCkqWXtiQcIBS',
 	),
-	effect : -5925900555039994527,
-	video_timestamp : 48,
-	allow_paid_stars : 7018929598009037743,
+	effect : 2801322219773182464,
+	video_timestamp : 46,
+	allow_paid_stars : 8609425786605595288,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 1683883180050787984,
-			nanos : 58,
+			amount : -4784169551827150747,
+			nanos : 67,
 		),
-		schedule_date : 42,
+		schedule_date : 27,
 	),
 );
 ```

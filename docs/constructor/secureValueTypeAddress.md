@@ -2,7 +2,7 @@
 
 **Description** : *Address*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 secureValueTypeAddress#cbe31e26 = SecureValueType;

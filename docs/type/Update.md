@@ -2,7 +2,7 @@
 
 **Description** : *Object contains info on events occurred*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateNewMessage#1f2b0afd message:Message pts:int pts_count:int = Update;
@@ -165,6 +165,11 @@ updateJoinChatWebViewDecision#bdac7e70 peer:Peer query_id:long result:JoinChatBo
 updateNewBotConnection#b22083a6 flags:# confirmed:flags.0?true bot_id:long date:flags.1?int device:flags.1?string location:flags.1?string = Update;
 updateWebBrowserSettings#c39a2ade flags:# open_external_browser:flags.0?true display_close_button:flags.1?true = Update;
 updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_browser:flags.0?Bool exception:WebDomainException = Update;
+updateNewEphemeralMessage#20bcbba1 message:EphemeralMessage = Update;
+updateDeleteEphemeralMessages#56dbfcf8 peer:Peer ids:Vector<int> = Update;
+updateEditEphemeralMessage#4bbb8f01 message:EphemeralMessage = Update;
+updateEphemeralBotCallbackQuery#7c1079d6 flags:# query_id:long user_id:long peer:flags.0?Peer msg_id:int data:bytes chat_instance:flags.1?long message:EphemeralMessage = Update;
+updateBotStarsSubscription#6c0d8e23 flags:# canceled:flags.0?true payment_failed:flags.1?true restored:flags.2?true user_id:long payload:bytes qts:int = Update;
 ```
 
 ---
@@ -178,7 +183,7 @@ updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_bro
 | [**updateDeleteMessages**](constructor/updateDeleteMessages) | Messages were deleted |
 | [**updateUserTyping**](constructor/updateUserTyping) | The user is preparing a message; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing |
 | [**updateChatUserTyping**](constructor/updateChatUserTyping) | The user is preparing a message in a group; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing |
-| [**updateChatParticipants**](constructor/updateChatParticipants) | Composition of chat participants changed |
+| [**updateChatParticipants**](constructor/updateChatParticipants) | The participants of a basic group » changed |
 | [**updateUserStatus**](constructor/updateUserStatus) | Contact status update |
 | [**updateUserName**](constructor/updateUserName) | Changes the user's first name, last name and username |
 | [**updateNewAuthorization**](constructor/updateNewAuthorization) | A new session logged into the current user's account through an unknown device |
@@ -187,7 +192,7 @@ updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_bro
 | [**updateEncryption**](constructor/updateEncryption) | Change of state in an encrypted chat |
 | [**updateEncryptedMessagesRead**](constructor/updateEncryptedMessagesRead) | Communication history in an encrypted chat was marked as read |
 | [**updateChatParticipantAdd**](constructor/updateChatParticipantAdd) | New group member |
-| [**updateChatParticipantDelete**](constructor/updateChatParticipantDelete) | A member has left the group |
+| [**updateChatParticipantDelete**](constructor/updateChatParticipantDelete) | A member has left the basic group |
 | [**updateDcOptions**](constructor/updateDcOptions) | Changes in the data center configuration options |
 | [**updateNotifySettings**](constructor/updateNotifySettings) | Changes in notification settings |
 | [**updateServiceNotification**](constructor/updateServiceNotification) | A service message for the user.The app must show the message to the user upon receiving this update. In case the popup parameter was passed, the text message must be displayed in a popup alert immediately upon receipt. It is recommended to handle the text as you would an ordinary message in terms of highlighting links, etc. The message must also be stored locally as part of the message history with the user id 777000 (Telegram Notifications) |
@@ -197,7 +202,7 @@ updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_bro
 | [**updateReadHistoryOutbox**](constructor/updateReadHistoryOutbox) | Outgoing messages were read |
 | [**updateWebPage**](constructor/updateWebPage) | An instant view webpage preview was generated |
 | [**updateReadMessagesContents**](constructor/updateReadMessagesContents) | Contents of messages in the common message box were read (emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using messages.readMessageContents) |
-| [**updateChannelTooLong**](constructor/updateChannelTooLong) | There are new updates in the specified channel, the client must fetch them.  If the difference is too long or if the channel isn't currently in the states, start fetching from the specified pts |
+| [**updateChannelTooLong**](constructor/updateChannelTooLong) | There are new updates in the specified channel, the client must fetch them manually by invoking updates.getChannelDifference as specified in the documentation ».If the channel's PTS isn't currently stored in the database (i.e. we joined this channel on another client while the current client was offline), start fetching from the specified pts.Does not necessarily indicate the channel message box size limit was reached, it simply indicates that the number of queued updates in a message box is too large to be delivered passively through the socket |
 | [**updateChannel**](constructor/updateChannel) | Channel/supergroup (channel and/or channelFull) information was updated.This update can only be received through getDifference or in updates/updatesCombined constructors, so it will always come bundled with the updated channel, that should be applied as usual », without re-fetching the info manually.However, full peer information will not come bundled in updates, so the full peer cache (channelFull) must be invalidated for channel_id when receiving this update |
 | [**updateNewChannelMessage**](constructor/updateNewChannelMessage) | A new message was sent in a channel/supergroup |
 | [**updateReadChannelInbox**](constructor/updateReadChannelInbox) | Incoming messages in a channel/supergroup were read |
@@ -236,7 +241,7 @@ updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_bro
 | [**updateChannelAvailableMessages**](constructor/updateChannelAvailableMessages) | The history of a channel/supergroup was hidden |
 | [**updateDialogUnreadMark**](constructor/updateDialogUnreadMark) | The manual unread mark of a chat was changed |
 | [**updateMessagePoll**](constructor/updateMessagePoll) | The results of a poll have changed |
-| [**updateChatDefaultBannedRights**](constructor/updateChatDefaultBannedRights) | Default banned rights in a normal chat were updated |
+| [**updateChatDefaultBannedRights**](constructor/updateChatDefaultBannedRights) | Default banned rights in a basic group were updated |
 | [**updateFolderPeers**](constructor/updateFolderPeers) | The peer list of a peer folder was updated |
 | [**updatePeerSettings**](constructor/updatePeerSettings) | Settings of a certain peer have changed |
 | [**updatePeerLocated**](constructor/updatePeerLocated) | List of peers near you was updated |
@@ -245,7 +250,7 @@ updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_bro
 | [**updateTheme**](constructor/updateTheme) | A cloud theme was updated |
 | [**updateGeoLiveViewed**](constructor/updateGeoLiveViewed) | Live geoposition message was viewed |
 | [**updateLoginToken**](constructor/updateLoginToken) | A login token (for login via QR code) was accepted |
-| [**updateMessagePollVote**](constructor/updateMessagePollVote) | A specific peer has voted in a poll |
+| [**updateMessagePollVote**](constructor/updateMessagePollVote) | A specific peer has voted in a poll (this update can only be received by a bot) |
 | [**updateDialogFilter**](constructor/updateDialogFilter) | A new folder was added |
 | [**updateDialogFilterOrder**](constructor/updateDialogFilterOrder) | New folder order |
 | [**updateDialogFilters**](constructor/updateDialogFilters) | Clients should update folder info |
@@ -258,13 +263,13 @@ updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_bro
 | [**updatePinnedMessages**](constructor/updatePinnedMessages) | Some messages were pinned in a chat |
 | [**updatePinnedChannelMessages**](constructor/updatePinnedChannelMessages) | Messages were pinned/unpinned in a channel/supergroup |
 | [**updateChat**](constructor/updateChat) | Chat (chat and/or chatFull) information was updated.This update can only be received through getDifference or in updates/updatesCombined constructors, so it will always come bundled with the updated chat, that should be applied as usual », without re-fetching the info manually.However, full peer information will not come bundled in updates, so the full peer cache (chatFull) must be invalidated for chat_id when receiving this update |
-| [**updateGroupCallParticipants**](constructor/updateGroupCallParticipants) | The participant list of a certain group call has changed |
-| [**updateGroupCall**](constructor/updateGroupCall) | A new groupcall was started |
+| [**updateGroupCallParticipants**](constructor/updateGroupCallParticipants) | The participant list of a group call has changed |
+| [**updateGroupCall**](constructor/updateGroupCall) | Indicates that group call information changed, see applying group call updates » |
 | [**updatePeerHistoryTTL**](constructor/updatePeerHistoryTTL) | The Time-To-Live for messages sent by the current user in a specific chat has changed |
-| [**updateChatParticipant**](constructor/updateChatParticipant) | A user has joined or left a specific chat |
+| [**updateChatParticipant**](constructor/updateChatParticipant) | A user has joined or left a specific basic group »: this update can only be received by bots, see here » for the user version of this update |
 | [**updateChannelParticipant**](constructor/updateChannelParticipant) | A participant has left, joined, was banned or admined in a channel or supergroup |
 | [**updateBotStopped**](constructor/updateBotStopped) | A bot was stopped or re-started |
-| [**updateGroupCallConnection**](constructor/updateGroupCallConnection) | New WebRTC parameters |
+| [**updateGroupCallConnection**](constructor/updateGroupCallConnection) | Connection parameters returned after joining a group call, see presentations » and stream mode ».If presentation is set, the parameters belong to the separate presentation connection; otherwise they belong to the main connection.For a normal WebRTC connection, pass params to the local tgcalls group-call engine as its join response payload.For stream-mode calls, where the client plays the call by downloading media chunks » instead of using WebRTC, params instead has one of the following shapes:json<br>{<br>  "stream": true<br>}<br>for a call that entered stream mode, orjson<br>{<br>  "stream": true,<br>  "rtmp": true<br>}<br>for an RTMP-mode call |
 | [**updateBotCommands**](constructor/updateBotCommands) | The command set of a certain bot in a certain chat has changed |
 | [**updatePendingJoinRequests**](constructor/updatePendingJoinRequests) | Someone has requested to join a chat or channel |
 | [**updateBotChatInviteRequester**](constructor/updateBotChatInviteRequester) | Someone has requested to join a chat or channel (bots only, users will receive an updatePendingJoinRequests, instead) |
@@ -312,24 +317,29 @@ updateWebBrowserException#140502d1 flags:# delete:flags.1?true open_external_bro
 | [**updateBotPurchasedPaidMedia**](constructor/updateBotPurchasedPaidMedia) | Bots only: a user has purchased a paid media |
 | [**updatePaidReactionPrivacy**](constructor/updatePaidReactionPrivacy) | Contains the current default paid reaction privacy, see here » for more info.Clients should invoke messages.getPaidReactionPrivacy on startup to fetch the current default reaction privacy because this update is only sent to currently online sessions and cannot be fetched using getDifference on client startup |
 | [**updateSentPhoneCode**](constructor/updateSentPhoneCode) | A paid login SMS code was successfully sent |
-| [**updateGroupCallChainBlocks**](constructor/updateGroupCallChainBlocks) | Contains updates to the blockchain of a conference call, see here » for more info |
+| [**updateGroupCallChainBlocks**](constructor/updateGroupCallChainBlocks) | Contains conference call blockchain blocks, see handling E2E group call updates » |
 | [**updateReadMonoForumInbox**](constructor/updateReadMonoForumInbox) | Incoming messages in a monoforum topic were read |
 | [**updateReadMonoForumOutbox**](constructor/updateReadMonoForumOutbox) | Outgoing messages in a monoforum were read |
 | [**updateMonoForumNoPaidException**](constructor/updateMonoForumNoPaidException) | An admin has (un)exempted this monoforum topic » from payment to send messages using account.toggleNoPaidMessagesException |
-| [**updateGroupCallMessage**](constructor/updateGroupCallMessage) | NOTHING |
-| [**updateGroupCallEncryptedMessage**](constructor/updateGroupCallEncryptedMessage) | NOTHING |
-| [**updatePinnedForumTopic**](constructor/updatePinnedForumTopic) | NOTHING |
-| [**updatePinnedForumTopics**](constructor/updatePinnedForumTopics) | NOTHING |
-| [**updateDeleteGroupCallMessages**](constructor/updateDeleteGroupCallMessages) | NOTHING |
-| [**updateStarGiftAuctionState**](constructor/updateStarGiftAuctionState) | NOTHING |
-| [**updateStarGiftAuctionUserState**](constructor/updateStarGiftAuctionUserState) | NOTHING |
-| [**updateEmojiGameInfo**](constructor/updateEmojiGameInfo) | NOTHING |
-| [**updateStarGiftCraftFail**](constructor/updateStarGiftCraftFail) | NOTHING |
-| [**updateChatParticipantRank**](constructor/updateChatParticipantRank) | NOTHING |
-| [**updateManagedBot**](constructor/updateManagedBot) | NOTHING |
-| [**updateBotGuestChatQuery**](constructor/updateBotGuestChatQuery) | NOTHING |
-| [**updateAiComposeTones**](constructor/updateAiComposeTones) | NOTHING |
+| [**updateGroupCallMessage**](constructor/updateGroupCallMessage) | A new message, reaction, paid comment or donation was received through the in-call message overlay » |
+| [**updateGroupCallEncryptedMessage**](constructor/updateGroupCallEncryptedMessage) | A new E2E-encrypted message or emoji reaction was received in a conference call, see here » for the decryption process |
+| [**updatePinnedForumTopic**](constructor/updatePinnedForumTopic) | A forum topic » was pinned or unpinned |
+| [**updatePinnedForumTopics**](constructor/updatePinnedForumTopics) | The pinned topics of a forum have changed |
+| [**updateDeleteGroupCallMessages**](constructor/updateDeleteGroupCallMessages) | Indicates that messages were deleted from the in-call message overlay » of a video chat/livestream or live story, including in RTMP mode |
+| [**updateStarGiftAuctionState**](constructor/updateStarGiftAuctionState) | Contains updates to auction state, see here » for more info on how to enable these updates |
+| [**updateStarGiftAuctionUserState**](constructor/updateStarGiftAuctionUserState) | Contains updates to auction state related to the current user, see here » for more info on how to enable these updates |
+| [**updateEmojiGameInfo**](constructor/updateEmojiGameInfo) | Dice game update |
+| [**updateStarGiftCraftFail**](constructor/updateStarGiftCraftFail) | Indicates that a crafting » attempt did not produce a new collectible gift |
+| [**updateChatParticipantRank**](constructor/updateChatParticipantRank) | The tag » of a participant of a basic group » has changed |
+| [**updateManagedBot**](constructor/updateManagedBot) | Manager bots only: a bot managed by the currently logged in bot was created or updated |
+| [**updateBotGuestChatQuery**](constructor/updateBotGuestChatQuery) | Sent to guest bots » when a user invokes the bot as a guest in a chat. The bot should reply by invoking messages.setBotGuestChatResult, see here » for more info |
+| [**updateAiComposeTones**](constructor/updateAiComposeTones) | The list of saved AI composer tones » of the current user has changed, and should be refetched using aicompose.getTones |
 | [**updateJoinChatWebViewDecision**](constructor/updateJoinChatWebViewDecision) | NOTHING |
 | [**updateNewBotConnection**](constructor/updateNewBotConnection) | NOTHING |
 | [**updateWebBrowserSettings**](constructor/updateWebBrowserSettings) | NOTHING |
 | [**updateWebBrowserException**](constructor/updateWebBrowserException) | NOTHING |
+| [**updateNewEphemeralMessage**](constructor/updateNewEphemeralMessage) | NOTHING |
+| [**updateDeleteEphemeralMessages**](constructor/updateDeleteEphemeralMessages) | NOTHING |
+| [**updateEditEphemeralMessage**](constructor/updateEditEphemeralMessage) | NOTHING |
+| [**updateEphemeralBotCallbackQuery**](constructor/updateEphemeralBotCallbackQuery) | NOTHING |
+| [**updateBotStarsSubscription**](constructor/updateBotStarsSubscription) | NOTHING |

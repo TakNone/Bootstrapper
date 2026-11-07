@@ -2,7 +2,7 @@
 
 **Description** : *Choose a channel*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 requestPeerTypeBroadcast#339bef6c flags:# creator:flags.0?true has_username:flags.3?Bool user_admin_rights:flags.1?ChatAdminRights bot_admin_rights:flags.2?ChatAdminRights = RequestPeerType;
@@ -52,6 +52,8 @@ $requestPeerType = $client->requestPeerTypeBroadcast(
 		delete_stories : true,
 		manage_direct_messages : true,
 		manage_ranks : true,
+		manage_linked_peers : true,
+		manage_welcome_messages : true,
 	),
 	bot_admin_rights : $client->chatAdminRights(
 		change_info : true,
@@ -71,6 +73,8 @@ $requestPeerType = $client->requestPeerTypeBroadcast(
 		delete_stories : true,
 		manage_direct_messages : true,
 		manage_ranks : true,
+		manage_linked_peers : true,
+		manage_welcome_messages : true,
 	),
 );
 ```

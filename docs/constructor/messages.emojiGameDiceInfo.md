@@ -1,6 +1,8 @@
 # messages.emojiGameDiceInfo
 
-**Layer** : 227
+**Description** : *Dice game information*
+
+**Layer** : 229
 
 ```tl
 messages.emojiGameDiceInfo#44e56023 flags:# game_hash:string prev_stake:long current_streak:int params:Vector<int> plays_left:flags.0?int = messages.EmojiGameInfo;
@@ -12,12 +14,12 @@ messages.emojiGameDiceInfo#44e56023 flags:# game_hash:string prev_stake:long cur
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| <mark>game_hash</mark> | [`string`](type/string) | NOTHING |
-| <mark>prev_stake</mark> | [`long`](type/long) | NOTHING |
-| <mark>current_streak</mark> | [`int`](type/int) | NOTHING |
-| <mark>params</mark> | [`Vector<int>`](type/int) | NOTHING |
-| **plays_left** | [`flags.0?int`](type/int) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>game_hash</mark> | [`string`](type/string) | Game hash |
+| <mark>prev_stake</mark> | [`long`](type/long) | Previous stake |
+| <mark>current_streak</mark> | [`int`](type/int) | Current streak |
+| <mark>params</mark> | [`Vector<int>`](type/int) | Parameters |
+| **plays_left** | [`flags.0?int`](type/int) | Plays left |
 
 ---
 
@@ -31,10 +33,10 @@ messages.emojiGameDiceInfo#44e56023 flags:# game_hash:string prev_stake:long cur
 
 ```php
 $messagesEmojiGameInfo = $client->messages->emojiGameDiceInfo(
-	game_hash : '1o0y7sFmaI5TUCSx',
-	prev_stake : -4898868251358242314,
-	current_streak : 35,
-	params : array(28),
-	plays_left : 76,
+	game_hash : 'NCJEf6Hy9zpPLXUM',
+	prev_stake : 545637045167445393,
+	current_streak : 8,
+	params : array(33),
+	plays_left : 31,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Obtain full info about a set of stories by their IDs*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 stories.getStoriesByID#5774ca74 peer:InputPeer id:Vector<int> = stories.Stories;
@@ -31,6 +31,7 @@ stories.getStoriesByID#5774ca74 peer:InputPeer id:Vector<int> = stories.Stories;
 | :---: | :---: | :--- |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
+| **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **STORIES_NEVER_CREATED** | `400` | This peer hasn't ever posted any stories |
 | **STORY_ID_EMPTY** | `400` | You specified no story IDs |
@@ -42,6 +43,6 @@ stories.getStoriesByID#5774ca74 peer:InputPeer id:Vector<int> = stories.Stories;
 ```php
 $storiesStories = $client->stories->getStoriesByID(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	id : array(76),
+	id : array(98),
 );
 ```

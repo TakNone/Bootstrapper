@@ -2,7 +2,7 @@
 
 **Description** : *Save a message draft associated to a chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.saveDraft#ad0fa15c flags:# no_webpage:flags.1?true invert_media:flags.6?true reply_to:flags.4?InputReplyTo peer:InputPeer message:string entities:flags.3?Vector<MessageEntity> media:flags.5?InputMedia effect:flags.7?long suggested_post:flags.8?SuggestedPost rich_message:flags.9?InputRichMessage = Bool;
@@ -38,6 +38,8 @@ messages.saveDraft#ad0fa15c flags:# no_webpage:flags.1?true invert_media:flags.6
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CHAT_ADMIN_REQUIRED** | `400` | You must be an admin in this chat to do this |
+| **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **ENTITY_BOUNDS_INVALID** | `400` | A specified entity offset or length is invalid, see here » for info on how to properly compute the entity offset/length |
 | **INPUT_USER_DEACTIVATED** | `400` | The specified user was deleted |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
@@ -52,100 +54,100 @@ $bool = $client->messages->saveDraft(
 	no_webpage : true,
 	invert_media : true,
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 47,
-		top_msg_id : 62,
+		reply_to_msg_id : 82,
+		top_msg_id : 58,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'PRfbtYL56hJsVzu0',
+		quote_text : 'wauJ9r85sN6nPcoh',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 6,
+				length : 12,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 61,
+				length : 94,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 2,
+				length : 90,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 57,
+				length : 24,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 86,
+				length : 19,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 76,
+				length : 25,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 70,
+				length : 79,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 56,
+				length : 4,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 89,
+				length : 79,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 49,
-				language : 'REh4MujWULzXcYig',
+				length : 39,
+				language : 'I4Fd8H5EfevypBKb',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 28,
+				length : 69,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 25,
-				user_id : -3878187799441214272,
+				length : 48,
+				user_id : -4261315442710823329,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 80,
+				length : 64,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 53,
+				length : 16,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 19,
+				length : 31,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 69,
+				length : 38,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 84,
+				length : 13,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 0,
+				length : 55,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 89,
+				length : 31,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 44,
-				document_id : -5779515015563949610,
+				length : 90,
+				document_id : 5621311949205348978,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 26,
+				length : 1,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -155,120 +157,120 @@ $bool = $client->messages->saveDraft(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 33,
-				date : 16,
+				length : 53,
+				date : 92,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 25,
+				length : 89,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 20,
-				old_text : 'fAbkq2WzhR5wiVcp',
+				length : 31,
+				old_text : '70MBflVDxibYPg2e',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 35,
+				length : 58,
 			),
 		),
-		quote_offset : 70,
+		quote_offset : 64,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 95,
+		todo_item_id : 43,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	message : '9FszAIuJY68ih2Ll',
+	message : '7DB5FsOwrX6baKze',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 0,
+			length : 81,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 25,
+			length : 10,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 72,
+			length : 2,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 67,
+			length : 0,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 76,
+			length : 55,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 26,
+			length : 89,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 43,
+			length : 11,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 26,
+			length : 57,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 32,
+			length : 57,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 14,
-			language : 'QsR9Ge5kiYPjTAZ1',
+			length : 95,
+			language : 'b3gJr6Gwj9XE1I8y',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 29,
+			length : 82,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 66,
-			user_id : -7857500545090317445,
+			length : 91,
+			user_id : -5788170626630409826,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 64,
+			length : 19,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 63,
+			length : 11,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 70,
+			length : 83,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 83,
+			length : 67,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 56,
+			length : 68,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 1,
+			length : 85,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 37,
+			length : 56,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 98,
-			document_id : -8255343649677198403,
+			length : 90,
+			document_id : -1118370345776129590,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 92,
+			length : 69,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -278,33 +280,33 @@ $bool = $client->messages->saveDraft(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 65,
-			date : 16,
+			length : 33,
+			date : 11,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 28,
+			length : 59,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 86,
-			old_text : 'eqTitE2jSLORlQ7g',
+			length : 81,
+			old_text : 'sSDB74NpZYyQIvo5',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 44,
+			length : 6,
 		),
 	),
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
-	effect : -3161113331430637590,
+	effect : 2219029650630649605,
 	suggested_post : $client->suggestedPost(
 		accepted : true,
 		rejected : true,
 		price : $client->starsAmount(
-			amount : 7124126270164621374,
-			nanos : 55,
+			amount : 7841395556034010288,
+			nanos : 76,
 		),
-		schedule_date : 60,
+		schedule_date : 62,
 	),
 	rich_message : $client->inputRichMessage(
 		rtl : true,
@@ -319,7 +321,7 @@ $bool = $client->messages->saveDraft(
 			),
 			$client->pageBlockAuthorDate(
 				author : $client->textEmpty(),
-				published_date : 39,
+				published_date : 83,
 			),
 			$client->pageBlockHeader(
 				text : $client->textEmpty(),
@@ -332,14 +334,14 @@ $bool = $client->messages->saveDraft(
 			),
 			$client->pageBlockPreformatted(
 				text : $client->textEmpty(),
-				language : 'vQ4e9hotdpKcq8DW',
+				language : 'iHm7raR1MBluUxbw',
 			),
 			$client->pageBlockFooter(
 				text : $client->textEmpty(),
 			),
 			$client->pageBlockDivider(),
 			$client->pageBlockAnchor(
-				name : 'MZe47AfpWkgInrXK',
+				name : 'DKVruLnIY0RElOmk',
 			),
 			$client->pageBlockList(
 				items : array(
@@ -391,11 +393,14 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 					),
 				),
 			),
 			$client->pageBlockBlockquote(
+				collapsed : true,
 				text : $client->textEmpty(),
 				caption : $client->textEmpty(),
 			),
@@ -405,19 +410,19 @@ $bool = $client->messages->saveDraft(
 			),
 			$client->pageBlockPhoto(
 				spoiler : true,
-				photo_id : -1750304221855529689,
+				photo_id : -9002569749845937025,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
 				),
 				url : 'https://docs.liveproto.dev',
-				webpage_id : -7913732382996988956,
+				webpage_id : 547312876348797143,
 			),
 			$client->pageBlockVideo(
 				autoplay : true,
 				loop : true,
 				spoiler : true,
-				video_id : -6789214402093658908,
+				video_id : -4062488202181076724,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -430,9 +435,9 @@ $bool = $client->messages->saveDraft(
 				full_width : true,
 				allow_scrolling : true,
 				url : 'https://docs.liveproto.dev',
-				html : 'pY7RWGKhCEvesH8V',
-				poster_photo_id : -7106326960082432547,
-				w : 14,
+				html : 'o7MmJAiPThSYKD0v',
+				poster_photo_id : 7999946294440040151,
+				w : 96,
 				h : 59,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
@@ -441,10 +446,10 @@ $bool = $client->messages->saveDraft(
 			),
 			$client->pageBlockEmbedPost(
 				url : 'https://docs.liveproto.dev',
-				webpage_id : -9102099684031974770,
-				author_photo_id : 8320199142738058811,
-				author : 'cQBpg1nsXmWYo0Hd',
-				date : 55,
+				webpage_id : -495381642441705488,
+				author_photo_id : 4417677400033167252,
+				author : 'MDEV9Losxn7KkIQa',
+				date : 15,
 				blocks : array(
 					$client->pageBlockUnsupported(),
 					$client->pageBlockTitle(
@@ -455,7 +460,7 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 41,
+						published_date : 63,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -468,14 +473,14 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'XJS6ePUgrD3Vxl2O',
+						language : 'n6UXFwMe5RABHD4s',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'yomvEUIl7FSOxWqQ',
+						name : '3wGIDMmYAJZEts75',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -484,6 +489,7 @@ $bool = $client->messages->saveDraft(
 						),
 					),
 					$client->pageBlockBlockquote(
+						collapsed : true,
 						text : $client->textEmpty(...),
 						caption : $client->textEmpty(...),
 					),
@@ -493,16 +499,16 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -7450729728254086991,
+						photo_id : 2756984987649111268,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -2206251101959870432,
+						webpage_id : 4701870331376142103,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -5062671648717759449,
+						video_id : 250645679436711760,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -512,18 +518,18 @@ $bool = $client->messages->saveDraft(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'LMdSaGFjznKgvxEX',
-						poster_photo_id : 2504671936480293192,
-						w : 29,
-						h : 10,
+						html : 'GY1KXF7vwDm5odPz',
+						poster_photo_id : -1897472715864747030,
+						w : 93,
+						h : 43,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -1878291624517251805,
-						author_photo_id : 5473512583981783686,
-						author : 'Zsc3SV8q2dvJwj5b',
-						date : 77,
+						webpage_id : 3944717748062788468,
+						author_photo_id : -4768516877251342351,
+						author : 'jP5pQdtFrYzyoXGU',
+						date : 66,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -564,6 +570,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -608,6 +616,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -652,6 +662,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -659,7 +671,7 @@ $bool = $client->messages->saveDraft(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -9001766635254983708,
+						audio_id : -3593670841453718332,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -668,6 +680,7 @@ $bool = $client->messages->saveDraft(
 					$client->pageBlockTable(
 						bordered : true,
 						striped : true,
+						compact : true,
 						title : $client->textEmpty(...),
 						rows : array(
 							$client->pageTableRow(...),
@@ -679,8 +692,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 59,
-						type : 'riPz47CoKgm35tap',
+						start : 15,
+						type : 'VMbDrRFw1cCBzaE6',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -724,6 +737,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						title : $client->textEmpty(...),
 					),
@@ -735,9 +750,9 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 54,
-						w : 7,
-						h : 30,
+						zoom : 91,
+						w : 12,
+						h : 81,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -759,16 +774,16 @@ $bool = $client->messages->saveDraft(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'QD0PSVMYzTev8p1m',
+						source : 'jYN6QzadxHFmibeX',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 28,
-						w : 6,
-						h : 81,
+						zoom : 54,
+						w : 42,
+						h : 76,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -812,8 +827,22 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->textEmpty(...),
+					),
+					$client->pageBlockButtonRow(
+						align_left : true,
+						align_center : true,
+						align_right : true,
+						buttons : array(
+							$client->pageButton(...),
+						),
+					),
+					$client->pageBlockDocument(
+						document_id : -5384448967709191683,
+						caption : $client->pageCaption(...),
 					),
 				),
 				caption : $client->pageCaption(
@@ -832,7 +861,7 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 68,
+						published_date : 0,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -845,14 +874,14 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'estouh4J0IzVRZ9q',
+						language : '9CsaXx8zUWHpEgL3',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'uQ86yeDHnOfMBPxL',
+						name : 'DUQ5btHeZJocYyRC',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -861,6 +890,7 @@ $bool = $client->messages->saveDraft(
 						),
 					),
 					$client->pageBlockBlockquote(
+						collapsed : true,
 						text : $client->textEmpty(...),
 						caption : $client->textEmpty(...),
 					),
@@ -870,16 +900,16 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 1658323144435819948,
+						photo_id : 1689583966890018166,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 4427628136409361949,
+						webpage_id : 8930405568944177520,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -3951187875647831353,
+						video_id : -8242461995477541584,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -889,18 +919,18 @@ $bool = $client->messages->saveDraft(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'tBEIj8Zu9GvW70Ps',
-						poster_photo_id : 9139368684740675039,
-						w : 21,
-						h : 78,
+						html : 'bzW5KSluH7jNvRFO',
+						poster_photo_id : 1961170949138206006,
+						w : 98,
+						h : 74,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 5102428206381236453,
-						author_photo_id : 7826850990793039914,
-						author : '418TqFcJuiwLOVlj',
-						date : 37,
+						webpage_id : -3525427848289944735,
+						author_photo_id : -8083401043566718475,
+						author : '5oNj1ZAGI67Y8BPn',
+						date : 94,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -941,6 +971,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -985,6 +1017,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -1029,6 +1063,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -1036,7 +1072,7 @@ $bool = $client->messages->saveDraft(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -3418385576982597517,
+						audio_id : 6616711825473403199,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -1045,6 +1081,7 @@ $bool = $client->messages->saveDraft(
 					$client->pageBlockTable(
 						bordered : true,
 						striped : true,
+						compact : true,
 						title : $client->textEmpty(...),
 						rows : array(
 							$client->pageTableRow(...),
@@ -1056,8 +1093,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 15,
-						type : 'nAI6TLeJBq07PgCw',
+						start : 72,
+						type : '4oTdJ5UzhyPnDZvA',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -1101,6 +1138,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						title : $client->textEmpty(...),
 					),
@@ -1112,9 +1151,9 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 20,
-						w : 19,
-						h : 88,
+						zoom : 98,
+						w : 1,
+						h : 75,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -1136,16 +1175,16 @@ $bool = $client->messages->saveDraft(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'Z1Dv6o2kVXlxAtbh',
+						source : '047kXjIg1vyQBGKA',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 14,
-						w : 92,
-						h : 33,
+						zoom : 56,
+						w : 49,
+						h : 92,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -1189,8 +1228,22 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->textEmpty(...),
+					),
+					$client->pageBlockButtonRow(
+						align_left : true,
+						align_center : true,
+						align_right : true,
+						buttons : array(
+							$client->pageButton(...),
+						),
+					),
+					$client->pageBlockDocument(
+						document_id : 9036091505200194188,
+						caption : $client->pageCaption(...),
 					),
 				),
 				caption : $client->pageCaption(
@@ -1209,7 +1262,7 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 42,
+						published_date : 56,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -1222,14 +1275,14 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'eFzmlZRbc2qDGx3T',
+						language : 'x8it5hO3jAulyTLa',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : '1Ovpd7lCVsgywJSu',
+						name : 'uyeNaUTFGM82ZkIK',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1238,6 +1291,7 @@ $bool = $client->messages->saveDraft(
 						),
 					),
 					$client->pageBlockBlockquote(
+						collapsed : true,
 						text : $client->textEmpty(...),
 						caption : $client->textEmpty(...),
 					),
@@ -1247,16 +1301,16 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -4471642812923438750,
+						photo_id : 203137408367475157,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -5039762399342593963,
+						webpage_id : 9186132295109814707,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -199350449400317460,
+						video_id : -6349980632462890052,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1266,18 +1320,18 @@ $bool = $client->messages->saveDraft(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'lY3hHpcfej8dMixN',
-						poster_photo_id : 7472002597487367983,
-						w : 90,
-						h : 93,
+						html : '7QBzFlEhw03Yvx2p',
+						poster_photo_id : 1393209161555902936,
+						w : 82,
+						h : 28,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -6631052208187121332,
-						author_photo_id : -1146385823243496917,
-						author : 'Sx0NLp1zlOuTFB8D',
-						date : 6,
+						webpage_id : -1882238062771578736,
+						author_photo_id : -6633392927332500479,
+						author : 'Yj6ms5DgtWd17oJy',
+						date : 1,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1318,6 +1372,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -1362,6 +1418,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -1406,6 +1464,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -1413,7 +1473,7 @@ $bool = $client->messages->saveDraft(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 8475634668365847598,
+						audio_id : -5935059552202172691,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -1422,6 +1482,7 @@ $bool = $client->messages->saveDraft(
 					$client->pageBlockTable(
 						bordered : true,
 						striped : true,
+						compact : true,
 						title : $client->textEmpty(...),
 						rows : array(
 							$client->pageTableRow(...),
@@ -1433,8 +1494,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 9,
-						type : 'f7RYmjDuOvErhgeF',
+						start : 72,
+						type : 'lqCt7VR5MojwasmT',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -1478,6 +1539,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						title : $client->textEmpty(...),
 					),
@@ -1489,9 +1552,9 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 88,
-						w : 49,
-						h : 15,
+						zoom : 41,
+						w : 3,
+						h : 61,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -1513,16 +1576,16 @@ $bool = $client->messages->saveDraft(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'qhaw0xoJWeXupmZL',
+						source : 'mDx1lSZKPBI2CQdU',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 31,
-						w : 42,
-						h : 5,
+						zoom : 95,
+						w : 54,
+						h : 39,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -1566,8 +1629,22 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->textEmpty(...),
+					),
+					$client->pageBlockButtonRow(
+						align_left : true,
+						align_center : true,
+						align_right : true,
+						buttons : array(
+							$client->pageButton(...),
+						),
+					),
+					$client->pageBlockDocument(
+						document_id : -1220010511610020312,
+						caption : $client->pageCaption(...),
 					),
 				),
 				caption : $client->pageCaption(
@@ -1577,11 +1654,11 @@ $bool = $client->messages->saveDraft(
 			),
 			$client->pageBlockChannel(
 				channel : $client->chatEmpty(
-					id : -5707367287637113609,
+					id : -7136222257260680427,
 				),
 			),
 			$client->pageBlockAudio(
-				audio_id : -5196126332794893613,
+				audio_id : -116403961193234811,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -1593,6 +1670,7 @@ $bool = $client->messages->saveDraft(
 			$client->pageBlockTable(
 				bordered : true,
 				striped : true,
+				compact : true,
 				title : $client->textEmpty(),
 				rows : array(
 					$client->pageTableRow(
@@ -1608,15 +1686,15 @@ $bool = $client->messages->saveDraft(
 					$client->pageListOrderedItemText(
 						checkbox : true,
 						checked : true,
-						num : '9LkTSV4jGEvwB7oc',
+						num : 'NmziT4KDSqYIehQd',
 						text : $client->textEmpty(...),
-						value : 48,
-						type : 'm95xaYBoupIPkSeW',
+						value : 100,
+						type : 'npVXRtcmuA96BsoH',
 					),
 					$client->pageListOrderedItemBlocks(
 						checkbox : true,
 						checked : true,
-						num : 'LWn1X5w48BeZvoJq',
+						num : 'BloiYqfhenaQDM7K',
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1657,13 +1735,15 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
-						value : 11,
-						type : 'sUGEgl6hcm7xFo2q',
+						value : 47,
+						type : 'ey8crVWUqhXi45NS',
 					),
 				),
-				start : 94,
-				type : 'FkDuWVLjqTzd2EAx',
+				start : 47,
+				type : 'f19nIQM6BlAwb5KG',
 			),
 			$client->pageBlockDetails(
 				open : true,
@@ -1677,7 +1757,7 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 91,
+						published_date : 78,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -1690,14 +1770,14 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'eV6ZUQ4nkymAd02h',
+						language : 'jmgsOCif2xYMTEoc',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'Wz4v2V9S8upteINi',
+						name : '6KULZNucyr3GJ9fa',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -1706,6 +1786,7 @@ $bool = $client->messages->saveDraft(
 						),
 					),
 					$client->pageBlockBlockquote(
+						collapsed : true,
 						text : $client->textEmpty(...),
 						caption : $client->textEmpty(...),
 					),
@@ -1715,16 +1796,16 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : -412494822798967106,
+						photo_id : 3016433468375955235,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -4049611078154638998,
+						webpage_id : 4686452748361087107,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -5548456964479385070,
+						video_id : -5489260751260372575,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -1734,18 +1815,18 @@ $bool = $client->messages->saveDraft(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'CTvRqUdQ6K5g3jBE',
-						poster_photo_id : -7395355282732947799,
-						w : 46,
-						h : 89,
+						html : 'BQFesOANXDdqbljc',
+						poster_photo_id : -2739672067983998934,
+						w : 31,
+						h : 34,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -4684299374244633790,
-						author_photo_id : 1750772530630657514,
-						author : 'JtfdcPCYBnuXMmks',
-						date : 86,
+						webpage_id : -286904232303937729,
+						author_photo_id : 4187839712975768104,
+						author : 'pPlNx20IY3iCoTXd',
+						date : 13,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -1786,6 +1867,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -1830,6 +1913,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -1874,6 +1959,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -1881,7 +1968,7 @@ $bool = $client->messages->saveDraft(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : -239528783818792410,
+						audio_id : -1430222691204040733,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -1890,6 +1977,7 @@ $bool = $client->messages->saveDraft(
 					$client->pageBlockTable(
 						bordered : true,
 						striped : true,
+						compact : true,
 						title : $client->textEmpty(...),
 						rows : array(
 							$client->pageTableRow(...),
@@ -1901,8 +1989,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 13,
-						type : 'rWmfqbA5BnlUKD3O',
+						start : 98,
+						type : 'vLIFYSGx4OUXJwN0',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -1946,6 +2034,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						title : $client->textEmpty(...),
 					),
@@ -1957,9 +2047,9 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 15,
-						w : 20,
-						h : 28,
+						zoom : 24,
+						w : 4,
+						h : 3,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -1981,16 +2071,16 @@ $bool = $client->messages->saveDraft(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'tyrupksOqHl7W4c0',
+						source : 'KghxCE1Nlb4Ourf9',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 77,
-						w : 11,
-						h : 25,
+						zoom : 97,
+						w : 8,
+						h : 18,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -2034,8 +2124,22 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->textEmpty(...),
+					),
+					$client->pageBlockButtonRow(
+						align_left : true,
+						align_center : true,
+						align_right : true,
+						buttons : array(
+							$client->pageButton(...),
+						),
+					),
+					$client->pageBlockDocument(
+						document_id : 3276309306681626001,
+						caption : $client->pageCaption(...),
 					),
 				),
 				title : $client->textEmpty(),
@@ -2045,20 +2149,20 @@ $bool = $client->messages->saveDraft(
 				articles : array(
 					$client->pageRelatedArticle(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : 4053941471009951211,
-						title : 'JH6Entu0ZGeBUaCT',
-						description : '1JtewcnY5PE0VFjp',
-						photo_id : 4897223095836297248,
-						author : 'FXzIUVyqjCO3EbHA',
-						published_date : 38,
+						webpage_id : 2414992565540167673,
+						title : 'm6f9GXLDq4xJa1ic',
+						description : '9DrBjZ7yWwgQfcSR',
+						photo_id : 8772686618489216724,
+						author : 'Iuri2L8dXF7emGKs',
+						published_date : 35,
 					),
 				),
 			),
 			$client->pageBlockMap(
 				geo : $client->geoPointEmpty(),
-				zoom : 56,
-				w : 97,
-				h : 29,
+				zoom : 46,
+				w : 73,
+				h : 49,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -2083,16 +2187,16 @@ $bool = $client->messages->saveDraft(
 				text : $client->textEmpty(),
 			),
 			$client->pageBlockMath(
-				source : 'W5BH1Gb0fzMLhOpD',
+				source : 'IvVzUm6TCheW3kEt',
 			),
 			$client->pageBlockThinking(
 				text : $client->textEmpty(),
 			),
 			$client->inputPageBlockMap(
 				geo : $client->inputGeoPointEmpty(),
-				zoom : 75,
-				w : 51,
-				h : 7,
+				zoom : 13,
+				w : 10,
+				h : 44,
 				caption : $client->pageCaption(
 					text : $client->textEmpty(...),
 					credit : $client->textEmpty(...),
@@ -2109,7 +2213,7 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockAuthorDate(
 						author : $client->textEmpty(...),
-						published_date : 96,
+						published_date : 26,
 					),
 					$client->pageBlockHeader(
 						text : $client->textEmpty(...),
@@ -2122,14 +2226,14 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPreformatted(
 						text : $client->textEmpty(...),
-						language : 'TGXtaexbUQLVWuPZ',
+						language : 'PwF7ibJ48m9Qa65W',
 					),
 					$client->pageBlockFooter(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockDivider(),
 					$client->pageBlockAnchor(
-						name : 'gr4jwXlYBdu8D6ZN',
+						name : 'sfPtGAYpcUoh37Oy',
 					),
 					$client->pageBlockList(
 						items : array(
@@ -2138,6 +2242,7 @@ $bool = $client->messages->saveDraft(
 						),
 					),
 					$client->pageBlockBlockquote(
+						collapsed : true,
 						text : $client->textEmpty(...),
 						caption : $client->textEmpty(...),
 					),
@@ -2147,16 +2252,16 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockPhoto(
 						spoiler : true,
-						photo_id : 8917889732707183379,
+						photo_id : -2114860374653579659,
 						caption : $client->pageCaption(...),
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -5837454796854488758,
+						webpage_id : 810061376676271439,
 					),
 					$client->pageBlockVideo(
 						autoplay : true,
 						loop : true,
 						spoiler : true,
-						video_id : -2720286843189462823,
+						video_id : 7406138059068220875,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockCover(
@@ -2166,18 +2271,18 @@ $bool = $client->messages->saveDraft(
 						full_width : true,
 						allow_scrolling : true,
 						url : 'https://docs.liveproto.dev',
-						html : 'w5NQV8jU0dkRsXMp',
-						poster_photo_id : -1494815467985637389,
-						w : 65,
-						h : 53,
+						html : '9fp8X3Hkmqe4OvKn',
+						poster_photo_id : 6508951846929739841,
+						w : 36,
+						h : 16,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockEmbedPost(
 						url : 'https://docs.liveproto.dev',
-						webpage_id : -7711147371950687627,
-						author_photo_id : 14402288696686619,
-						author : 'zYmqIc1FgkrR2PyQ',
-						date : 81,
+						webpage_id : -6732538024958198627,
+						author_photo_id : -3639543725175622988,
+						author : 'm51soeDR4x32blNT',
+						date : 78,
 						blocks : array(
 							$client->pageBlockUnsupported(...),
 							$client->pageBlockTitle(...),
@@ -2218,6 +2323,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -2262,6 +2369,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -2306,6 +2415,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->pageCaption(...),
 					),
@@ -2313,7 +2424,7 @@ $bool = $client->messages->saveDraft(
 						channel : $client->chatEmpty(...),
 					),
 					$client->pageBlockAudio(
-						audio_id : 3075146712251394905,
+						audio_id : 7137149436311189592,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockKicker(
@@ -2322,6 +2433,7 @@ $bool = $client->messages->saveDraft(
 					$client->pageBlockTable(
 						bordered : true,
 						striped : true,
+						compact : true,
 						title : $client->textEmpty(...),
 						rows : array(
 							$client->pageTableRow(...),
@@ -2333,8 +2445,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageListOrderedItemText(...),
 							$client->pageListOrderedItemBlocks(...),
 						),
-						start : 19,
-						type : 'Kie9bSv3kETXzHJt',
+						start : 20,
+						type : 'OsX8U3Ctkm2RLFSn',
 					),
 					$client->pageBlockDetails(
 						open : true,
@@ -2378,6 +2490,8 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						title : $client->textEmpty(...),
 					),
@@ -2389,9 +2503,9 @@ $bool = $client->messages->saveDraft(
 					),
 					$client->pageBlockMap(
 						geo : $client->geoPointEmpty(...),
-						zoom : 97,
-						w : 87,
-						h : 76,
+						zoom : 66,
+						w : 82,
+						h : 43,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockHeading1(
@@ -2413,16 +2527,16 @@ $bool = $client->messages->saveDraft(
 						text : $client->textEmpty(...),
 					),
 					$client->pageBlockMath(
-						source : 'Yzvlye9qj0F4DW56',
+						source : 'yaAtPfh3oBck0j6S',
 					),
 					$client->pageBlockThinking(
 						text : $client->textEmpty(...),
 					),
 					$client->inputPageBlockMap(
 						geo : $client->inputGeoPointEmpty(...),
-						zoom : 31,
-						w : 80,
-						h : 67,
+						zoom : 73,
+						w : 45,
+						h : 93,
 						caption : $client->pageCaption(...),
 					),
 					$client->pageBlockBlockquoteBlocks(
@@ -2466,26 +2580,59 @@ $bool = $client->messages->saveDraft(
 							$client->pageBlockThinking(...),
 							$client->inputPageBlockMap(...),
 							$client->pageBlockBlockquoteBlocks(...),
+							$client->pageBlockButtonRow(...),
+							$client->pageBlockDocument(...),
 						),
 						caption : $client->textEmpty(...),
 					),
+					$client->pageBlockButtonRow(
+						align_left : true,
+						align_center : true,
+						align_right : true,
+						buttons : array(
+							$client->pageButton(...),
+						),
+					),
+					$client->pageBlockDocument(
+						document_id : -1695311444988526476,
+						caption : $client->pageCaption(...),
+					),
 				),
 				caption : $client->textEmpty(),
+			),
+			$client->pageBlockButtonRow(
+				align_left : true,
+				align_center : true,
+				align_right : true,
+				buttons : array(
+					$client->pageButton(
+						text : $client->textEmpty(...),
+						type : $client->inlineButtonTypeUrl(...),
+						style : $client->richButtonStyle(...),
+					),
+				),
+			),
+			$client->pageBlockDocument(
+				document_id : 8226044034880171280,
+				caption : $client->pageCaption(
+					text : $client->textEmpty(...),
+					credit : $client->textEmpty(...),
+				),
 			),
 		),
 		photos : array(
 			$client->inputPhotoEmpty(),
 			$client->inputPhoto(
-				id : -6873426555855660854,
-				access_hash : 5320874124057927343,
+				id : -995202308665571714,
+				access_hash : 3789717652662405642,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),
 		documents : array(
 			$client->inputDocumentEmpty(),
 			$client->inputDocument(
-				id : -1358434129077480257,
-				access_hash : 5752816000998182225,
+				id : -5033303607219287527,
+				access_hash : -594482526336314486,
 				file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 		),

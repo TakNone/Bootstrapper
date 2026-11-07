@@ -2,7 +2,7 @@
 
 **Description** : *Secure value hash*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 secureValueHash#ed1ecdb0 type:SecureValueType hash:bytes = SecureValueHash;

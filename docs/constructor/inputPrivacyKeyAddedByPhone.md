@@ -2,7 +2,7 @@
 
 **Description** : *Whether people can add you to their contact list by your phone number*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPrivacyKeyAddedByPhone#d1219bdd = InputPrivacyKey;

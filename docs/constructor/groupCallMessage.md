@@ -1,6 +1,8 @@
 # groupCallMessage
 
-**Layer** : 227
+**Description** : *Represents an in\-call message &raquo;, emoji reaction, paid live story comment or standalone paid live story donation*
+
+**Layer** : 229
 
 ```tl
 groupCallMessage#1a8afc7e flags:# from_admin:flags.1?true id:int from_id:Peer date:int message:TextWithEntities paid_message_stars:flags.0?long = GroupCallMessage;
@@ -12,13 +14,13 @@ groupCallMessage#1a8afc7e flags:# from_admin:flags.1?true id:int from_id:Peer da
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **from_admin** | [`flags.1?true`](type/true) | NOTHING |
-| <mark>id</mark> | [`int`](type/int) | NOTHING |
-| <mark>from_id</mark> | [`Peer`](type/Peer) | NOTHING |
-| <mark>date</mark> | [`int`](type/int) | NOTHING |
-| <mark>message</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
-| **paid_message_stars** | [`flags.0?long`](type/long) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **from_admin** | [`flags.1?true`](type/true) | Whether the message was sent by a group call admin |
+| <mark>id</mark> | [`int`](type/int) | Message ID |
+| <mark>from_id</mark> | [`Peer`](type/Peer) | Displayed message author |
+| <mark>date</mark> | [`int`](type/int) | Message date |
+| <mark>message</mark> | [`TextWithEntities`](type/TextWithEntities) | Message text or emoji reaction; empty for standalone paid live story donations. Must be at most group_call_message_length_limit » UTF-8 characters long. For paid chats, use stars_groupcall_message_limits » to source limits according to the passed value of paid_message_stars, instead |
+| **paid_message_stars** | [`flags.0?long`](type/long) | Number of Telegram Stars donated with the message or standalone donation |
 
 ---
 
@@ -33,103 +35,103 @@ groupCallMessage#1a8afc7e flags:# from_admin:flags.1?true id:int from_id:Peer da
 ```php
 $groupCallMessage = $client->groupCallMessage(
 	from_admin : true,
-	id : 31,
+	id : 33,
 	from_id : $client->peerUser(
-		user_id : 6168869271521839759,
+		user_id : -3471612648511638065,
 	),
-	date : 97,
+	date : 17,
 	message : $client->textWithEntities(
-		text : 'THD5wNJQ1r0sWkLI',
+		text : 'oI19EYt0LfrznFuK',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 78,
+				length : 99,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 14,
+				length : 55,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 10,
+				length : 84,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 98,
+				length : 72,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 18,
+				length : 19,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 17,
+				length : 42,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 92,
+				length : 39,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 27,
+				length : 37,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 37,
+				length : 13,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 30,
-				language : 'MRQ98sJ3dIjZ7nWm',
+				length : 42,
+				language : 'XsjTaMtigNU4L3Im',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 31,
+				length : 24,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 7,
-				user_id : 1718973087578840633,
+				length : 67,
+				user_id : 8773076679093089956,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 3,
+				length : 54,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 10,
+				length : 99,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 43,
+				length : 96,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 6,
+				length : 11,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 58,
+				length : 50,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 56,
+				length : 57,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 69,
+				length : 9,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 38,
-				document_id : 3402167605803385695,
+				length : 36,
+				document_id : 2167589459556679091,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 71,
+				length : 45,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -139,24 +141,24 @@ $groupCallMessage = $client->groupCallMessage(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 36,
-				date : 58,
+				length : 25,
+				date : 14,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 46,
+				length : 43,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 29,
-				old_text : 'GL3OBAIstv5CRpMk',
+				length : 5,
+				old_text : 'qIhXdNf4PU7onjiw',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 92,
+				length : 15,
 			),
 		),
 	),
-	paid_message_stars : -7028957609986259176,
+	paid_message_stars : 8618051977069991380,
 );
 ```

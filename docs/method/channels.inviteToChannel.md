@@ -2,7 +2,7 @@
 
 **Description** : *Invite users to a channel/supergroup*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.inviteToChannel#c9e33d54 channel:InputChannel users:Vector<InputUser> = messages.InvitedUsers;

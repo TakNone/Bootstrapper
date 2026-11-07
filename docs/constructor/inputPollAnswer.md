@@ -1,6 +1,8 @@
 # inputPollAnswer
 
-**Layer** : 227
+**Description** : *An answer option to add to an open\-answer poll &raquo;*
+
+**Layer** : 229
 
 ```tl
 inputPollAnswer#199fed96 flags:# text:TextWithEntities media:flags.0?InputMedia = PollAnswer;
@@ -12,9 +14,9 @@ inputPollAnswer#199fed96 flags:# text:TextWithEntities media:flags.0?InputMedia 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| <mark>text</mark> | [`TextWithEntities`](type/TextWithEntities) | NOTHING |
-| **media** | [`flags.0?InputMedia`](type/InputMedia) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>text</mark> | [`TextWithEntities`](type/TextWithEntities) | The answer text |
+| **media** | [`flags.0?InputMedia`](type/InputMedia) | Optional media attachment to display alongside the answer |
 
 ---
 
@@ -29,27 +31,27 @@ inputPollAnswer#199fed96 flags:# text:TextWithEntities media:flags.0?InputMedia 
 ```php
 $pollAnswer = $client->inputPollAnswer(
 	text : $client->textWithEntities(
-		text : 'ACH4E3c7q6DZmzxQ',
+		text : 'QsF2rEMRmWlovNx1',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 80,
+				length : 45,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 33,
+				length : 17,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 84,
+				length : 99,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 72,
+				length : 83,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 68,
+				length : 56,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
@@ -57,69 +59,69 @@ $pollAnswer = $client->inputPollAnswer(
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 80,
+				length : 93,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 2,
+				length : 11,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 17,
+				length : 31,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 87,
-				language : 'ftSnRuzhclspxdoN',
+				length : 10,
+				language : 'ufMRW0KwFBzDyb2g',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 7,
+				length : 78,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 75,
-				user_id : -2413673047083671370,
+				length : 71,
+				user_id : 4782407508822495017,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 43,
+				length : 11,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 99,
+				length : 75,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 34,
+				length : 40,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 48,
+				length : 57,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 0,
+				length : 57,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 97,
+				length : 96,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 8,
+				length : 77,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 15,
-				document_id : 6012644563466616673,
+				length : 41,
+				document_id : 9123935323657848526,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 88,
+				length : 12,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -129,21 +131,21 @@ $pollAnswer = $client->inputPollAnswer(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 94,
-				date : 83,
+				length : 74,
+				date : 89,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 52,
+				length : 49,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 99,
-				old_text : 'LmrKk94hS1CjuwiU',
+				length : 56,
+				old_text : 'cNnf4rWqhywa25V8',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 94,
+				length : 93,
 			),
 		),
 	),

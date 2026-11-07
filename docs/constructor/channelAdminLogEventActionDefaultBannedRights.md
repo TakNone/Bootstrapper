@@ -2,7 +2,7 @@
 
 **Description** : *The default banned rights were modified*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelAdminLogEventActionDefaultBannedRights#2df5fc0a prev_banned_rights:ChatBannedRights new_banned_rights:ChatBannedRights = ChannelAdminLogEventAction;
@@ -52,7 +52,8 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionDefaultBannedRi
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 50,
+		manage_linked_peers : true,
+		until_date : 31,
 	),
 	new_banned_rights : $client->chatBannedRights(
 		view_messages : true,
@@ -77,7 +78,8 @@ $channelAdminLogEventAction = $client->channelAdminLogEventActionDefaultBannedRi
 		send_plain : true,
 		edit_rank : true,
 		send_reactions : true,
-		until_date : 69,
+		manage_linked_peers : true,
+		until_date : 47,
 	),
 );
 ```

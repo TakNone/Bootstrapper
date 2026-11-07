@@ -1,6 +1,6 @@
 # account.deleteWebBrowserSettingsExceptions
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.deleteWebBrowserSettingsExceptions#86a0765d = account.WebBrowserSettings;

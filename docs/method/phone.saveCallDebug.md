@@ -2,7 +2,7 @@
 
 **Description** : *Send phone call debug data to server*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.saveCallDebug#277add7e peer:InputPhoneCall debug:DataJSON = Bool;
@@ -15,7 +15,7 @@ phone.saveCallDebug#277add7e peer:InputPhoneCall debug:DataJSON = Bool;
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>peer</mark> | [`InputPhoneCall`](type/InputPhoneCall) | Phone call |
-| <mark>debug</mark> | [`DataJSON`](type/DataJSON) | Debug statistics obtained from libtgvoip |
+| <mark>debug</mark> | [`DataJSON`](type/DataJSON) | Debug statistics obtained from tgcalls |
 
 ---
 
@@ -39,11 +39,11 @@ phone.saveCallDebug#277add7e peer:InputPhoneCall debug:DataJSON = Bool;
 ```php
 $bool = $client->phone->saveCallDebug(
 	peer : $client->inputPhoneCall(
-		id : -9066671066220030351,
-		access_hash : 8180224222676872028,
+		id : 132965586790075714,
+		access_hash : -9063337153884003800,
 	),
 	debug : $client->dataJSON(
-		data : 'zZtHL0rPUR9DCxBg',
+		data : 'ukf2mHJTOZlj6EhL',
 	),
 );
 ```

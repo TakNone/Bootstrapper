@@ -1,6 +1,8 @@
 # payments.getStarGiftAuctionAcquiredGifts
 
-**Layer** : 227
+**Description** : *Fetches all the gifts that the current user won in an auction*
+
+**Layer** : 229
 
 ```tl
 payments.getStarGiftAuctionAcquiredGifts#6ba2cbec gift_id:long = payments.StarGiftAuctionAcquiredGifts;
@@ -12,7 +14,7 @@ payments.getStarGiftAuctionAcquiredGifts#6ba2cbec gift_id:long = payments.StarGi
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>gift_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>gift_id</mark> | [`long`](type/long) | The gift ID linked to the auction |
 
 ---
 
@@ -22,10 +24,18 @@ payments.getStarGiftAuctionAcquiredGifts#6ba2cbec gift_id:long = payments.StarGi
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **STARGIFT_INVALID** | `400` | The passed gift is invalid |
+
+---
+
 ## Example
 
 ```php
 $paymentsStarGiftAuctionAcquiredGifts = $client->payments->getStarGiftAuctionAcquiredGifts(
-	gift_id : -7769124077992139402,
+	gift_id : 2543025112543149371,
 );
 ```

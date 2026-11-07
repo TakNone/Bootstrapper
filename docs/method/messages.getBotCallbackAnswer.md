@@ -2,7 +2,7 @@
 
 **Description** : *Press an inline callback button and get a callback answer from the bot*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.getBotCallbackAnswer#9342ca07 flags:# game:flags.1?true peer:InputPeer msg_id:int data:flags.0?bytes password:flags.2?InputCheckPasswordSRP = messages.BotCallbackAnswer;
@@ -38,6 +38,7 @@ messages.getBotCallbackAnswer#9342ca07 flags:# game:flags.1?true peer:InputPeer 
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **DATA_INVALID** | `400` | Encrypted data invalid |
 | **MESSAGE_ID_INVALID** | `400` | The provided message id is invalid |
+| **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **PASSWORD_MISSING** | `400` | You must enable 2FA before executing this operation |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
 | **Timeout** | `-503` | Timeout while fetching data |
@@ -50,7 +51,7 @@ messages.getBotCallbackAnswer#9342ca07 flags:# game:flags.1?true peer:InputPeer 
 $messagesBotCallbackAnswer = $client->messages->getBotCallbackAnswer(
 	game : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 24,
+	msg_id : 96,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	password : $client->inputCheckPasswordEmpty(),
 );

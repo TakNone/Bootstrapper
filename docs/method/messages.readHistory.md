@@ -2,7 +2,7 @@
 
 **Description** : *Marks message history as read*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessages;
@@ -15,7 +15,7 @@ messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessag
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Target user or group |
-| <mark>max_id</mark> | [`int`](type/int) | If a positive value is passed, only messages with identifiers less or equal than the given one will be read |
+| <mark>max_id</mark> | [`int`](type/int) | If a positive value is passed, only messages with identifiers less than or equal to the given one will be read |
 
 ---
 
@@ -42,6 +42,6 @@ messages.readHistory#e306d3a peer:InputPeer max_id:int = messages.AffectedMessag
 ```php
 $messagesAffectedMessages = $client->messages->readHistory(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	max_id : 94,
+	max_id : 40,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Indicates payment for a login code*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputStorePaymentAuthCode#3fc18057 flags:# restore:flags.0?true phone_number:string phone_code_hash:string premium_days:int currency:string amount:long = InputStorePaymentPurpose;
@@ -18,7 +18,7 @@ inputStorePaymentAuthCode#3fc18057 flags:# restore:flags.0?true phone_number:str
 | **restore** | [`flags.0?true`](type/true) | Set this flag to restore a previously made purchase |
 | <mark>phone_number</mark> | [`string`](type/string) | Phone number |
 | <mark>phone_code_hash</mark> | [`string`](type/string) | phone_code_hash returned by auth.sendCode |
-| <mark>premium_days</mark> | [`int`](type/int) | NOTHING |
+| <mark>premium_days</mark> | [`int`](type/int) | Duration in days of the Telegram Premium subscription granted by this purchase, as indicated in auth.sentCodePaymentRequired.premium_days |
 | <mark>currency</mark> | [`string`](type/string) | Three-letter ISO 4217 currency code |
 | <mark>amount</mark> | [`long`](type/long) | Price of the product in the smallest units of the currency (integer, not float/double). For example, for a price of US$ 1.45 pass amount = 145. See the exp parameter in currencies.json, it shows the number of digits past the decimal point for each currency (2 for the majority of currencies) |
 
@@ -37,8 +37,8 @@ $inputStorePaymentPurpose = $client->inputStorePaymentAuthCode(
 	restore : true,
 	phone_number : '+1234567890',
 	phone_code_hash : '+1234567890',
-	premium_days : 96,
-	currency : 'hxQeXLR07JtrA6Gw',
-	amount : 5320659993717997770,
+	premium_days : 34,
+	currency : 'xbsK0PVrFdXUhYaS',
+	amount : -6154575335904229675,
 );
 ```

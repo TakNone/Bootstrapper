@@ -2,7 +2,7 @@
 
 **Description** : *Sends a message with a file attachment to a secret chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendEncryptedFile#5559481d flags:# silent:flags.0?true peer:InputEncryptedChat random_id:long data:bytes file:InputEncryptedFile = messages.SentEncryptedMessage;
@@ -17,7 +17,7 @@ messages.sendEncryptedFile#5559481d flags:# silent:flags.0?true peer:InputEncryp
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **silent** | [`flags.0?true`](type/true) | Whether to send the file without triggering a notification |
 | <mark>peer</mark> | [`InputEncryptedChat`](type/InputEncryptedChat) | Secret chat ID |
-| <mark>random_id</mark> | [`long`](type/long) | Unique client message ID necessary to prevent message resending |
+| <mark>random_id</mark> | [`long`](type/long) | Unique client message ID necessary to prevent message resending. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>data</mark> | [`bytes`](type/bytes) | TL-serialization of DecryptedMessage type, encrypted with a key generated during chat initialization |
 | <mark>file</mark> | [`InputEncryptedFile`](type/InputEncryptedFile) | File attachment for the secret chat |
 
@@ -48,10 +48,10 @@ messages.sendEncryptedFile#5559481d flags:# silent:flags.0?true peer:InputEncryp
 $messagesSentEncryptedMessage = $client->messages->sendEncryptedFile(
 	silent : true,
 	peer : $client->inputEncryptedChat(
-		chat_id : 16,
-		access_hash : -4842809275640205421,
+		chat_id : 85,
+		access_hash : 3015219450489950832,
 	),
-	random_id : -1131432684115652524,
+	random_id : -63881096198378167,
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	file : $client->inputEncryptedFileEmpty(),
 );

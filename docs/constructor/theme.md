@@ -2,7 +2,7 @@
 
 **Description** : *Theme*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 theme#a00e67d6 flags:# creator:flags.0?true default:flags.1?true for_chat:flags.5?true id:long access_hash:long slug:string title:string document:flags.2?Document settings:flags.3?Vector<ThemeSettings> emoticon:flags.6?string installs_count:flags.4?int = Theme;
@@ -42,46 +42,46 @@ $theme = $client->theme(
 	creator : true,
 	default : true,
 	for_chat : true,
-	id : 6213973786807259743,
-	access_hash : 8023045091161314431,
-	slug : 'zZwtMoScWj182BGD',
-	title : 'XN2gMIV0QdxuWJUl',
+	id : 8041245968957241556,
+	access_hash : 8368348806983228145,
+	slug : 'aJinFBDu6E20h7rM',
+	title : 'v0sIQBNfZh57DYVJ',
 	document : $client->documentEmpty(
-		id : -335224164259631528,
+		id : -2758184774813075386,
 	),
 	settings : array(
 		$client->themeSettings(
 			message_colors_animated : true,
 			base_theme : $client->baseThemeClassic(),
-			accent_color : 82,
-			outbox_accent_color : 80,
-			message_colors : array(9),
+			accent_color : 56,
+			outbox_accent_color : 71,
+			message_colors : array(26),
 			wallpaper : $client->wallPaper(
-				id : 928205654429644219,
+				id : 3243433147870801357,
 				creator : true,
 				default : true,
 				pattern : true,
 				dark : true,
-				access_hash : -3933116465456660341,
-				slug : 'urW1RLOvmChq2Und',
+				access_hash : -8491835121499937925,
+				slug : 'ryjHkUmP6tQaizKX',
 				document : $client->documentEmpty(
-					id : -962976985386370324,
+					id : 3385064623958397489,
 				),
 				settings : $client->wallPaperSettings(
 					blur : true,
 					motion : true,
-					background_color : 77,
-					second_background_color : 88,
-					third_background_color : 58,
-					fourth_background_color : 33,
-					intensity : 96,
-					rotation : 21,
-					emoticon : 'arjM8X30LZEkVpo1',
+					background_color : 12,
+					second_background_color : 5,
+					third_background_color : 41,
+					fourth_background_color : 42,
+					intensity : 50,
+					rotation : 61,
+					emoticon : 'tO3rqdabEDy4vXJQ',
 				),
 			),
 		),
 	),
-	emoticon : 'g3ZmK0pw2WFOa9Bc',
-	installs_count : 4,
+	emoticon : 'Y9zWySPjtUweCkEM',
+	installs_count : 27,
 );
 ```

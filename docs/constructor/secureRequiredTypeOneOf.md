@@ -2,7 +2,7 @@
 
 **Description** : *One of*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 secureRequiredTypeOneOf#27477b4 types:Vector<SecureRequiredType> = SecureRequiredType;

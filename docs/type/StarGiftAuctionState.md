@@ -1,6 +1,8 @@
 # StarGiftAuctionState
 
-**Layer** : 227
+**Description** : *State of a collectible gift auction &raquo;: active/pending, finished, or unchanged with respect to a locally cached version*
+
+**Layer** : 229
 
 ```tl
 starGiftAuctionStateNotModified#fe333952 = StarGiftAuctionState;
@@ -14,6 +16,6 @@ starGiftAuctionStateFinished#972dabbf flags:# start_date:int end_date:int averag
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starGiftAuctionStateNotModified**](constructor/starGiftAuctionStateNotModified) | NOTHING |
-| [**starGiftAuctionState**](constructor/starGiftAuctionState) | NOTHING |
-| [**starGiftAuctionStateFinished**](constructor/starGiftAuctionStateFinished) | NOTHING |
+| [**starGiftAuctionStateNotModified**](constructor/starGiftAuctionStateNotModified) | Returned only by auction methods (never by updates) if the passed version is equal to the remote auction ».version, meaning auction information hasn't changed over the locally cached version |
+| [**starGiftAuctionState**](constructor/starGiftAuctionState) | Represents an active or pending auction » |
+| [**starGiftAuctionStateFinished**](constructor/starGiftAuctionStateFinished) | Represents a finished auction » |

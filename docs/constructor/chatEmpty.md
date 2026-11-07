@@ -2,7 +2,7 @@
 
 **Description** : *Empty constructor, group doesn&#039;t exist*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 chatEmpty#29562865 id:long = Chat;
@@ -28,6 +28,6 @@ chatEmpty#29562865 id:long = Chat;
 
 ```php
 $chat = $client->chatEmpty(
-	id : -3959643239807247175,
+	id : 879929652842991660,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Update the accent color and background custom emoji &raquo; of a channel*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.updateColor#d8aa3671 flags:# for_profile:flags.1?true channel:InputChannel color:flags.2?int background_emoji_id:flags.0?long = Updates;
@@ -43,7 +43,7 @@ channels.updateColor#d8aa3671 flags:# for_profile:flags.1?true channel:InputChan
 $updates = $client->channels->updateColor(
 	for_profile : true,
 	channel : $client->get_input_channel(channel : '@LiveProto'),
-	color : 39,
-	background_emoji_id : -8365653932319937367,
+	color : 50,
+	background_emoji_id : -6555415886939482870,
 );
 ```

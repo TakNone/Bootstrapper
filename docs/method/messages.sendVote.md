@@ -2,7 +2,7 @@
 
 **Description** : *Vote in a poll*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendVote#10ea6184 peer:InputPeer msg_id:int options:Vector<bytes> = Updates;
@@ -38,6 +38,8 @@ messages.sendVote#10ea6184 peer:InputPeer msg_id:int options:Vector<bytes> = Upd
 | **OPTIONS_TOO_MUCH** | `400` | Too many options provided |
 | **OPTION_INVALID** | `400` | Invalid option selected |
 | **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+| **POLL_COUNTRY_RESTRICTED** | `406` | Users from the current user's country cannot vote in this country-restricted poll » |
+| **POLL_MEMBER_RESTRICTED** | `406` | Only channel subscribers can vote in this poll |
 | **REVOTE_NOT_ALLOWED** | `400` | You cannot change your vote |
 
 ---
@@ -47,7 +49,7 @@ messages.sendVote#10ea6184 peer:InputPeer msg_id:int options:Vector<bytes> = Upd
 ```php
 $updates = $client->messages->sendVote(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 12,
+	msg_id : 59,
 	options : array("\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f"),
 );
 ```

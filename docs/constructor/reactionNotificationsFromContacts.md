@@ -2,7 +2,7 @@
 
 **Description** : *Receive notifications about reactions made only by our contacts*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 reactionNotificationsFromContacts#bac3a61a = ReactionNotificationsFrom;

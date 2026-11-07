@@ -1,6 +1,8 @@
 # StarGiftBackground
 
-**Layer** : 227
+**Description** : *Contains the default background palette of a gift type &raquo;*
+
+**Layer** : 229
 
 ```tl
 starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = StarGiftBackground;
@@ -12,4 +14,4 @@ starGiftBackground#aff56398 center_color:int edge_color:int text_color:int = Sta
 
 | Constructor | Description |
 | :---: | :--- |
-| [**starGiftBackground**](constructor/starGiftBackground) | NOTHING |
+| [**starGiftBackground**](constructor/starGiftBackground) | Contains the default background palette of a gift type » |

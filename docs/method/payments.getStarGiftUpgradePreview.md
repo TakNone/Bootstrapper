@@ -2,7 +2,7 @@
 
 **Description** : *Obtain a preview of the possible attributes \(chosen randomly\) a gift &raquo; can receive after upgrading it to a collectible gift &raquo;, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.getStarGiftUpgradePreview#9c9abcb1 gift_id:long = payments.StarGiftUpgradePreview;
@@ -29,6 +29,7 @@ payments.getStarGiftUpgradePreview#9c9abcb1 gift_id:long = payments.StarGiftUpgr
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **STARGIFT_INVALID** | `400` | The passed gift is invalid |
+| **STARGIFT_UPGRADE_UNAVAILABLE** | `400` | A received gift can only be upgraded to a collectible gift if the messageActionStarGift/savedStarGift.can_upgrade flag is set |
 
 ---
 
@@ -36,6 +37,6 @@ payments.getStarGiftUpgradePreview#9c9abcb1 gift_id:long = payments.StarGiftUpgr
 
 ```php
 $paymentsStarGiftUpgradePreview = $client->payments->getStarGiftUpgradePreview(
-	gift_id : -2044922206243677473,
+	gift_id : 7499682320748499768,
 );
 ```

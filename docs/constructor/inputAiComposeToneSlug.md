@@ -1,6 +1,8 @@
 # inputAiComposeToneSlug
 
-**Layer** : 227
+**Description** : *References a custom AI composer tone &raquo; by its public slug, used when opening an AI compose tone link &raquo;*
+
+**Layer** : 229
 
 ```tl
 inputAiComposeToneSlug#1fa01357 slug:string = InputAiComposeTone;
@@ -12,7 +14,7 @@ inputAiComposeToneSlug#1fa01357 slug:string = InputAiComposeTone;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>slug</mark> | [`string`](type/string) | NOTHING |
+| <mark>slug</mark> | [`string`](type/string) | Public tone slug, as returned in aiComposeTone.slug |
 
 ---
 
@@ -26,6 +28,6 @@ inputAiComposeToneSlug#1fa01357 slug:string = InputAiComposeTone;
 
 ```php
 $inputAiComposeTone = $client->inputAiComposeToneSlug(
-	slug : 'ko8zQ5Z1JjuUqD6x',
+	slug : 'OfJUCe9PjNdEiQgv',
 );
 ```

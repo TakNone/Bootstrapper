@@ -2,7 +2,7 @@
 
 **Description** : *Official clients only, invoke with Google Play Integrity token*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 invokeWithGooglePlayIntegrity#1df92984 {X:Type} nonce:string token:string query:!X = X;
@@ -30,8 +30,8 @@ invokeWithGooglePlayIntegrity#1df92984 {X:Type} nonce:string token:string query:
 
 ```php
 $x = $client->invokeWithGooglePlayIntegrity(
-	nonce : '7H40zBTcyPYGoS8r',
-	token : '5o8CP7YK2yMRgGEU',
+	nonce : 'tVy9JgTHQ4apsKib',
+	token : 'iqBaRTHLv4ChYtnK',
 	query : $client->help->getConfig(raw : true),
 );
 ```

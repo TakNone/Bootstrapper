@@ -1,6 +1,8 @@
 # aicompose.updateTone
 
-**Layer** : 227
+**Description** : *Edit a custom AI composer tone &raquo; previously created by the current user\. Only the fields whose flag is set will be modified*
+
+**Layer** : 229
 
 ```tl
 aicompose.updateTone#903bcf59 flags:# tone:InputAiComposeTone display_author:flags.0?Bool emoji_id:flags.1?long title:flags.2?string prompt:flags.3?string = AiComposeTone;
@@ -12,12 +14,12 @@ aicompose.updateTone#903bcf59 flags:# tone:InputAiComposeTone display_author:fla
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| <mark>tone</mark> | [`InputAiComposeTone`](type/InputAiComposeTone) | NOTHING |
-| **display_author** | [`flags.0?Bool`](type/Bool) | NOTHING |
-| **emoji_id** | [`flags.1?long`](type/long) | NOTHING |
-| **title** | [`flags.2?string`](type/string) | NOTHING |
-| **prompt** | [`flags.3?string`](type/string) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| <mark>tone</mark> | [`InputAiComposeTone`](type/InputAiComposeTone) | The tone to edit |
+| **display_author** | [`flags.0?Bool`](type/Bool) | If set, changes whether the current user is publicly credited as the author of the tone (ternary value, can be not set, set and true, set and false) |
+| **emoji_id** | [`flags.1?long`](type/long) | If set, the new custom emoji ID of the tone's icon |
+| **title** | [`flags.2?string`](type/string) | If set, the new human-readable tone name, up to aicompose_tone_title_length_max » UTF-8 characters long |
+| **prompt** | [`flags.3?string`](type/string) | If set, the new prompt that describes how the AI should rephrase messages using this tone, up to aicompose_tone_prompt_length_max » UTF-8 characters long |
 
 ---
 
@@ -27,16 +29,24 @@ aicompose.updateTone#903bcf59 flags:# tone:InputAiComposeTone display_author:fla
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **AICOMPOSE_TONE_INVALID** | `400` | The specified tone is invalid |
+
+---
+
 ## Example
 
 ```php
 $aiComposeTone = $client->aicompose->updateTone(
 	tone : $client->inputAiComposeToneDefault(
-		tone : 'rBgq08JC5Qmc4V3j',
+		tone : 'DoFjl7sq23AxCZ1f',
 	),
 	display_author : false,
-	emoji_id : 6896786525097341901,
-	title : 'oIacDVY0H2tkeqXE',
-	prompt : 'MWVQZHLb4KCA3yUf',
+	emoji_id : 3783027853810883300,
+	title : 'u3a4CyUW8YIivZlF',
+	prompt : 'CZ0SRVce5mdpBkbP',
 );
 ```

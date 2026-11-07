@@ -2,7 +2,7 @@
 
 **Description** : *Send one or more chosen peers, as requested by a keyboardButtonRequestPeer button*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendBotRequestedPeer#6c5cf2a7 flags:# peer:InputPeer msg_id:flags.0?int webapp_req_id:flags.1?string button_id:int requested_peers:Vector<InputPeer> = Updates;
@@ -14,10 +14,10 @@ messages.sendBotRequestedPeer#6c5cf2a7 flags:# peer:InputPeer msg_id:flags.0?int
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The bot that sent the keyboardButtonRequestPeer button |
 | **msg_id** | [`flags.0?int`](type/int) | ID of the message that contained the reply keyboard with the keyboardButtonRequestPeer button |
-| **webapp_req_id** | [`flags.1?string`](type/string) | NOTHING |
+| **webapp_req_id** | [`flags.1?string`](type/string) | If the button was prepared for a Mini App », the Mini App request ID returned by bots.requestWebViewButton |
 | <mark>button_id</mark> | [`int`](type/int) | The button_id field from the keyboardButtonRequestPeer constructor |
 | <mark>requested_peers</mark> | [`Vector<InputPeer>`](type/InputPeer) | The chosen peers |
 
@@ -43,9 +43,9 @@ messages.sendBotRequestedPeer#6c5cf2a7 flags:# peer:InputPeer msg_id:flags.0?int
 ```php
 $updates = $client->messages->sendBotRequestedPeer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 80,
-	webapp_req_id : 'AxVPF0dZinpgHsDQ',
-	button_id : 19,
+	msg_id : 26,
+	webapp_req_id : 'aQR3bmT4hKdzLues',
+	button_id : 60,
 	requested_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 );
 ```

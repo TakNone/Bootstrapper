@@ -2,7 +2,7 @@
 
 **Description** : *Clear recently used message reactions*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.clearRecentReactions#9dfeefb4 = Bool;

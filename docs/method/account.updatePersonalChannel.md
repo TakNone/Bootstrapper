@@ -2,7 +2,7 @@
 
 **Description** : *Associate \(or remove\) a personal channel &raquo;, that will be listed on our personal profile page &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.updatePersonalChannel#d94305e0 channel:InputChannel = Bool;
@@ -21,6 +21,14 @@ account.updatePersonalChannel#d94305e0 channel:InputChannel = Bool;
 ## Result
 
 [Bool](type/Bool)
+
+---
+
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PUBLIC_BROADCAST_EXPECTED** | `400` | channel only accepts a channel, but a supergroup was passed |
 
 ---
 

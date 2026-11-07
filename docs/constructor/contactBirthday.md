@@ -2,7 +2,7 @@
 
 **Description** : *Birthday information of a contact*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 contactBirthday#1d998733 contact_id:long birthday:Birthday = ContactBirthday;
@@ -29,11 +29,11 @@ contactBirthday#1d998733 contact_id:long birthday:Birthday = ContactBirthday;
 
 ```php
 $contactBirthday = $client->contactBirthday(
-	contact_id : -3649853588481709320,
+	contact_id : 2724800445364064776,
 	birthday : $client->birthday(
-		day : 89,
-		month : 61,
-		year : 10,
+		day : 95,
+		month : 77,
+		year : 12,
 	),
 );
 ```

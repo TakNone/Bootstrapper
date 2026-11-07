@@ -1,8 +1,8 @@
 # groupCallStreamChannel
 
-**Description** : *Info about an RTMP stream in a group call or livestream*
+**Description** : *Describes an available RTMP stream channel and its current playback timestamp, see playing an RTMP livestream &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 groupCallStreamChannel#80eb48af channel:int scale:int last_timestamp_ms:long = GroupCallStreamChannel;
@@ -14,8 +14,8 @@ groupCallStreamChannel#80eb48af channel:int scale:int last_timestamp_ms:long = G
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>channel</mark> | [`int`](type/int) | Channel ID |
-| <mark>scale</mark> | [`int`](type/int) | Specifies the duration of the video segment to fetch in milliseconds, by bitshifting 1000 to the right scale times: duration_ms := 1000 >> scale |
+| <mark>channel</mark> | [`int`](type/int) | Stream channel ID, used as a source of the synthetic unified video source group and as inputGroupCallStream.video_channel when fetching the corresponding video segment |
+| <mark>scale</mark> | [`int`](type/int) | Deprecated, ignored by clients »: use the media segment duration hardcoded in clients (1000 milliseconds, i.e. scale = 0) instead. Historically, it specified the duration of the media segment to fetch, obtained in milliseconds by bitshifting 1000 to the right scale times: duration_ms := 1000 >> scale |
 | <mark>last_timestamp_ms</mark> | [`long`](type/long) | Last seen timestamp to easily start fetching livestream chunks using inputGroupCallStream |
 
 ---
@@ -30,8 +30,8 @@ groupCallStreamChannel#80eb48af channel:int scale:int last_timestamp_ms:long = G
 
 ```php
 $groupCallStreamChannel = $client->groupCallStreamChannel(
-	channel : 61,
-	scale : 86,
-	last_timestamp_ms : 1148823213215300946,
+	channel : 94,
+	scale : 40,
+	last_timestamp_ms : 8780035307266389093,
 );
 ```

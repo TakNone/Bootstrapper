@@ -1,8 +1,8 @@
 # phoneCallDiscardReasonHangup
 
-**Description** : *The phone call was ended normally*
+**Description** : *The phone call was ended normally, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phoneCallDiscardReasonHangup#57adc690 = PhoneCallDiscardReason;

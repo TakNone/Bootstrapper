@@ -2,7 +2,7 @@
 
 **Description** : *Channel/supergroup creator*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelParticipantCreator#2fe601d3 flags:# user_id:long admin_rights:ChatAdminRights rank:flags.0?string = ChannelParticipant;
@@ -17,7 +17,7 @@ channelParticipantCreator#2fe601d3 flags:# user_id:long admin_rights:ChatAdminRi
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>user_id</mark> | [`long`](type/long) | User ID |
 | <mark>admin_rights</mark> | [`ChatAdminRights`](type/ChatAdminRights) | Creator admin rights |
-| **rank** | [`flags.0?string`](type/string) | The role (rank) of the group creator in the group: just an arbitrary string, admin by default |
+| **rank** | [`flags.0?string`](type/string) | The participant's tag », defaults to "Owner" if not set |
 
 ---
 
@@ -31,7 +31,7 @@ channelParticipantCreator#2fe601d3 flags:# user_id:long admin_rights:ChatAdminRi
 
 ```php
 $channelParticipant = $client->channelParticipantCreator(
-	user_id : 8935431515401569328,
+	user_id : -6669231046922452230,
 	admin_rights : $client->chatAdminRights(
 		change_info : true,
 		post_messages : true,
@@ -50,7 +50,9 @@ $channelParticipant = $client->channelParticipantCreator(
 		delete_stories : true,
 		manage_direct_messages : true,
 		manage_ranks : true,
+		manage_linked_peers : true,
+		manage_welcome_messages : true,
 	),
-	rank : 'uno745WrCIjRcVmd',
+	rank : 'xFbw0TkzCL1y4lDs',
 );
 ```

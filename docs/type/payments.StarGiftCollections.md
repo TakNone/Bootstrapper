@@ -2,7 +2,7 @@
 
 **Description** : *Represents a list of star gift collections &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.starGiftCollectionsNotModified#a0ba4f17 = payments.StarGiftCollections;

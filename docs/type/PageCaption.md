@@ -2,7 +2,7 @@
 
 **Description** : *Page caption*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 pageCaption#6f747657 text:RichText credit:RichText = PageCaption;

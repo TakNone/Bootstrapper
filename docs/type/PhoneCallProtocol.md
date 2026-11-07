@@ -2,7 +2,7 @@
 
 **Description** : *Phone call protocol*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phoneCallProtocol#fc878fc8 flags:# udp_p2p:flags.0?true udp_reflector:flags.1?true min_layer:int max_layer:int library_versions:Vector<string> = PhoneCallProtocol;
@@ -14,4 +14,4 @@ phoneCallProtocol#fc878fc8 flags:# udp_p2p:flags.0?true udp_reflector:flags.1?tr
 
 | Constructor | Description |
 | :---: | :--- |
-| [**phoneCallProtocol**](constructor/phoneCallProtocol) | Protocol info for libtgvoip |
+| [**phoneCallProtocol**](constructor/phoneCallProtocol) | Protocol info for the VoIP library, see here » for details on how to populate it |

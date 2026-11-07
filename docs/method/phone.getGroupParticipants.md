@@ -2,7 +2,7 @@
 
 **Description** : *Get group call participants*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.getGroupParticipants#c558d8ab call:InputGroupCall ids:Vector<InputPeer> sources:Vector<int> offset:string limit:int = phone.GroupParticipants;
@@ -14,10 +14,10 @@ phone.getGroupParticipants#c558d8ab call:InputGroupCall ids:Vector<InputPeer> so
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Group call whose participants should be fetched |
 | <mark>ids</mark> | [`Vector<InputPeer>`](type/InputPeer) | If specified, will fetch group participant info about the specified peers |
 | <mark>sources</mark> | [`Vector<int>`](type/int) | If specified, will fetch group participant info about the specified WebRTC source IDs |
-| <mark>offset</mark> | [`string`](type/string) | Offset for results, taken from the next_offset field of phone.groupParticipants, initially an empty string. Note: if no more results are available, the method call will return an empty next_offset; thus, avoid providing the next_offset returned in phone.groupParticipants if it is empty, to avoid an infinite loop |
+| <mark>offset</mark> | [`string`](type/string) | Offset for results, taken from the next_offset field of phone.groupParticipants or the participants_next_offset field of phone.groupCall, initially an empty string. Note: if no more results are available, the method call will return an empty next_offset; thus, avoid providing the next_offset returned in phone.groupParticipants if it is empty, to avoid an infinite loop |
 | <mark>limit</mark> | [`int`](type/int) | Maximum number of results to return, see pagination |
 
 ---
@@ -41,12 +41,12 @@ phone.getGroupParticipants#c558d8ab call:InputGroupCall ids:Vector<InputPeer> so
 ```php
 $phoneGroupParticipants = $client->phone->getGroupParticipants(
 	call : $client->inputGroupCall(
-		id : 6542308414434801863,
-		access_hash : -5318573212663704164,
+		id : 1767895799647729842,
+		access_hash : 1390646841623410359,
 	),
 	ids : array($client->get_input_peer(peer : '@LiveProtoChat')),
-	sources : array(48),
-	offset : 'siHW2vJdVA4QlLpx',
-	limit : 3,
+	sources : array(87),
+	offset : 'dOk0TLjveu7fPBly',
+	limit : 79,
 );
 ```

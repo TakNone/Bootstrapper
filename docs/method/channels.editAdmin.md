@@ -2,7 +2,7 @@
 
 **Description** : *Modify the admin rights of a user in a supergroup/channel*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.editAdmin#9a98ad68 flags:# channel:InputChannel user_id:InputUser admin_rights:ChatAdminRights rank:flags.0?string = Updates;
@@ -14,11 +14,11 @@ channels.editAdmin#9a98ad68 flags:# channel:InputChannel user_id:InputUser admin
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>channel</mark> | [`InputChannel`](type/InputChannel) | The supergroup/channel |
 | <mark>user_id</mark> | [`InputUser`](type/InputUser) | The ID of the user whose admin rights should be modified |
 | <mark>admin_rights</mark> | [`ChatAdminRights`](type/ChatAdminRights) | The admin rights |
-| **rank** | [`flags.0?string`](type/string) | Indicates the role (rank) of the admin in the group: just an arbitrary string |
+| **rank** | [`flags.0?string`](type/string) | Indicates the role (rank) of the admin in the group: just an arbitrary string. If the flag is not set, the rank is left unchanged |
 
 ---
 
@@ -54,6 +54,7 @@ channels.editAdmin#9a98ad68 flags:# channel:InputChannel user_id:InputUser admin
 | **USER_CHANNELS_TOO_MUCH** | `403` | One of the users you tried to add is already in too many channels/supergroups |
 | **USER_CREATOR** | `400` | For channels.editAdmin: you've tried to edit the admin rights of the owner, but you're not the owner; for channels.leaveChannel: you can't leave this channel, because you're its creator |
 | **USER_ID_INVALID** | `400` | The provided user ID is invalid |
+| **USER_KICKED** | `400` | This user was kicked from this supergroup/channel |
 | **USER_NOT_MUTUAL_CONTACT** | `403` | The provided user is not a mutual contact |
 | **USER_PRIVACY_RESTRICTED** | `403` | The user's privacy settings do not allow you to do this |
 | **USER_RESTRICTED** | `403` | You're spamreported, you can't create channels or chats |
@@ -84,7 +85,9 @@ $updates = $client->channels->editAdmin(
 		delete_stories : true,
 		manage_direct_messages : true,
 		manage_ranks : true,
+		manage_linked_peers : true,
+		manage_welcome_messages : true,
 	),
-	rank : '7ECzhA63bMHD4WuX',
+	rank : 'Xiq1skF8y2SlgRjY',
 );
 ```

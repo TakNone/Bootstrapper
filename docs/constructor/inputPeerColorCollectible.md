@@ -1,6 +1,8 @@
 # inputPeerColorCollectible
 
-**Layer** : 227
+**Description** : *Represents a color palette &raquo; associated to a collectible gift &raquo;, see here &raquo; for more info*
+
+**Layer** : 229
 
 ```tl
 inputPeerColorCollectible#b8ea86a9 collectible_id:long = PeerColor;
@@ -12,7 +14,7 @@ inputPeerColorCollectible#b8ea86a9 collectible_id:long = PeerColor;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>collectible_id</mark> | [`long`](type/long) | NOTHING |
+| <mark>collectible_id</mark> | [`long`](type/long) | ID of the collectible gift » |
 
 ---
 
@@ -26,6 +28,6 @@ inputPeerColorCollectible#b8ea86a9 collectible_id:long = PeerColor;
 
 ```php
 $peerColor = $client->inputPeerColorCollectible(
-	collectible_id : 4387939652055337276,
+	collectible_id : -2900938618035049136,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Peer\-specific media autosave settings*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 autoSaveException#81602d47 peer:Peer settings:AutoSaveSettings = AutoSaveException;
@@ -30,12 +30,12 @@ autoSaveException#81602d47 peer:Peer settings:AutoSaveSettings = AutoSaveExcepti
 ```php
 $autoSaveException = $client->autoSaveException(
 	peer : $client->peerUser(
-		user_id : -3517930569007838967,
+		user_id : 4358443165517422134,
 	),
 	settings : $client->autoSaveSettings(
 		photos : true,
 		videos : true,
-		video_max_size : -8035826014244386494,
+		video_max_size : 366217492959535592,
 	),
 );
 ```

@@ -1,6 +1,8 @@
 # inputMessagesFilterPoll
 
-**Layer** : 227
+**Description** : *Filter for poll messages, see searching for polls &raquo;*
+
+**Layer** : 229
 
 ```tl
 inputMessagesFilterPoll#fa2bc90a = MessagesFilter;

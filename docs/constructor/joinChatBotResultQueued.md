@@ -1,6 +1,6 @@
 # joinChatBotResultQueued
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 joinChatBotResultQueued#98a3a840 = JoinChatBotResult;

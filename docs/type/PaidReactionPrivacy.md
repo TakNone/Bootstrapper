@@ -2,7 +2,7 @@
 
 **Description** : *Paid reaction privacy settings &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 paidReactionPrivacyDefault#206ad49e = PaidReactionPrivacy;
@@ -18,4 +18,4 @@ paidReactionPrivacyPeer#dc6cfcf0 peer:InputPeer = PaidReactionPrivacy;
 | :---: | :--- |
 | [**paidReactionPrivacyDefault**](constructor/paidReactionPrivacyDefault) | Uses the default reaction privacy, set using messages.togglePaidReactionPrivacy |
 | [**paidReactionPrivacyAnonymous**](constructor/paidReactionPrivacyAnonymous) | Send paid reactions anonymously |
-| [**paidReactionPrivacyPeer**](constructor/paidReactionPrivacyPeer) | Send paid reactions as the specified peer, fetched using channels.getSendAs |
+| [**paidReactionPrivacyPeer**](constructor/paidReactionPrivacyPeer) | Send paid reactions as the specified peer, fetched using channels.getSendAs with the for_paid_reactions flag set |

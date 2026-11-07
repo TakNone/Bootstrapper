@@ -2,7 +2,7 @@
 
 **Description** : *React to message*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendReaction#d30d78d4 flags:# big:flags.1?true add_to_recent:flags.2?true peer:InputPeer msg_id:int reaction:flags.0?Vector<Reaction> = Updates;
@@ -33,7 +33,6 @@ messages.sendReaction#d30d78d4 flags:# big:flags.1?true add_to_recent:flags.2?tr
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
-| **ANONYMOUS_REACTIONS_DISABLED** | `403` | Sorry, anonymous administrators cannot leave reactions or participate in polls |
 | **CHANNEL_INVALID** | `400` | The provided channel is invalid |
 | **CHANNEL_PRIVATE** | `400` | You haven't joined this channel/supergroup |
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
@@ -47,7 +46,7 @@ messages.sendReaction#d30d78d4 flags:# big:flags.1?true add_to_recent:flags.2?tr
 | **REACTIONS_TOO_MANY** | `400` | The message already has exactly reactions_uniq_max reaction emojis, you can't react with a new emoji, see the docs for more info » |
 | **REACTION_EMPTY** | `400` | Empty reaction provided |
 | **REACTION_INVALID** | `400` | The specified reaction is invalid |
-| **USER_BANNED_IN_CHANNEL** | `400` | You're banned from sending messages in supergroups/channels |
+| **USER_BANNED_IN_CHANNEL** | `403` | You're banned from sending messages in supergroups/channels |
 
 ---
 
@@ -58,14 +57,14 @@ $updates = $client->messages->sendReaction(
 	big : true,
 	add_to_recent : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 76,
+	msg_id : 48,
 	reaction : array(
 		$client->reactionEmpty(),
 		$client->reactionEmoji(
-			emoticon : 'zvJdWhD1gwKlHBpa',
+			emoticon : 'SeWrH6pXzQhKRUIc',
 		),
 		$client->reactionCustomEmoji(
-			document_id : -2484104892979257646,
+			document_id : -5168535735477713121,
 		),
 		$client->reactionPaid(),
 	),

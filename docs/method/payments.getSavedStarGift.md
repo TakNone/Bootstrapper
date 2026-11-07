@@ -2,7 +2,7 @@
 
 **Description** : *Fetch info about specific gifts owned by a peer we control*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.getSavedStarGift#b455a106 stargift:Vector<InputSavedStarGift> = payments.SavedStarGifts;
@@ -29,6 +29,7 @@ payments.getSavedStarGift#b455a106 stargift:Vector<InputSavedStarGift> = payment
 | Type | Code | Description |
 | :---: | :---: | :--- |
 | **SAVED_ID_EMPTY** | `400` | The passed inputSavedStarGiftChat.saved_id is empty |
+| **STARGIFT_OWNER_INVALID** | `400` | You cannot transfer or sell a gift owned by another user |
 | **STARGIFT_SLUG_INVALID** | `400` | The specified gift slug is invalid |
 
 ---
@@ -39,14 +40,14 @@ payments.getSavedStarGift#b455a106 stargift:Vector<InputSavedStarGift> = payment
 $paymentsSavedStarGifts = $client->payments->getSavedStarGift(
 	stargift : array(
 		$client->inputSavedStarGiftUser(
-			msg_id : 100,
+			msg_id : 42,
 		),
 		$client->inputSavedStarGiftChat(
 			peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-			saved_id : 8724101778252577192,
+			saved_id : 4719604237836393658,
 		),
 		$client->inputSavedStarGiftSlug(
-			slug : '0m7t1N9e6SkYMXZF',
+			slug : 'usqONXhjynWg6LGA',
 		),
 	),
 );

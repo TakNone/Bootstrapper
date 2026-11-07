@@ -2,7 +2,7 @@
 
 **Description** : *You recently requested a password reset that was canceled, please wait until the specified date before requesting another reset*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.resetPasswordFailedWait#e3779861 retry_date:int = account.ResetPasswordResult;
@@ -28,6 +28,6 @@ account.resetPasswordFailedWait#e3779861 retry_date:int = account.ResetPasswordR
 
 ```php
 $accountResetPasswordResult = $client->account->resetPasswordFailedWait(
-	retry_date : 85,
+	retry_date : 54,
 );
 ```

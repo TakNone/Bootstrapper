@@ -1,6 +1,8 @@
 # inputStarGiftAuctionSlug
 
-**Layer** : 227
+**Description** : *Used to fetch auctions using the slug of an auction deep link &raquo;*
+
+**Layer** : 229
 
 ```tl
 inputStarGiftAuctionSlug#7ab58308 slug:string = InputStarGiftAuction;
@@ -12,7 +14,7 @@ inputStarGiftAuctionSlug#7ab58308 slug:string = InputStarGiftAuction;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>slug</mark> | [`string`](type/string) | NOTHING |
+| <mark>slug</mark> | [`string`](type/string) | Auction deep link slug » |
 
 ---
 
@@ -26,6 +28,6 @@ inputStarGiftAuctionSlug#7ab58308 slug:string = InputStarGiftAuction;
 
 ```php
 $inputStarGiftAuction = $client->inputStarGiftAuctionSlug(
-	slug : 'x2jecZIkuhVCoYpE',
+	slug : '9NxBSoc3wtz7rVjI',
 );
 ```

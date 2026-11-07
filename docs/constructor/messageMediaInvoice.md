@@ -2,7 +2,7 @@
 
 **Description** : *Invoice*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageMediaInvoice#f6a548d3 flags:# shipping_address_requested:flags.1?true test:flags.3?true title:string description:string photo:flags.0?WebDocument receipt_msg_id:flags.2?int currency:string total_amount:long start_param:string extended_media:flags.4?MessageExtendedMedia = MessageMedia;
@@ -40,71 +40,71 @@ messageMediaInvoice#f6a548d3 flags:# shipping_address_requested:flags.1?true tes
 $messageMedia = $client->messageMediaInvoice(
 	shipping_address_requested : true,
 	test : true,
-	title : 'KkE9t0JU4Iw12nro',
-	description : 'wIL8unoDC6TWm2yi',
+	title : 'c5RplEN1dI09Wf7F',
+	description : 'Bg6e7bFHLVo1c4rd',
 	photo : $client->webDocument(
 		url : 'https://docs.liveproto.dev',
-		access_hash : -9089753186398005245,
-		size : 3,
-		mime_type : 'QLvrD1buVTlWhzMS',
+		access_hash : -686871720669318679,
+		size : 27,
+		mime_type : 'RQgs1GvqAMCDBuhf',
 		attributes : array(
 			$client->documentAttributeImageSize(
-				w : 47,
-				h : 82,
+				w : 35,
+				h : 42,
 			),
 			$client->documentAttributeAnimated(),
 			$client->documentAttributeSticker(
 				mask : true,
-				alt : 'QYsf5owg7ZhCPNXR',
+				alt : 'jDEMnSkBhipKqXPw',
 				stickerset : $client->inputStickerSetEmpty(),
 				mask_coords : $client->maskCoords(
-					n : 35,
-					x : 1943174.431640625,
-					y : -1512067.533203125,
-					zoom : 1764607.6123046875,
+					n : 56,
+					x : -135597.95703125,
+					y : 938592.767578125,
+					zoom : 333270.966796875,
 				),
 			),
 			$client->documentAttributeVideo(
 				round_message : true,
 				supports_streaming : true,
 				nosound : true,
-				duration : -1827085.8359375,
-				w : 52,
-				h : 37,
-				preload_prefix_size : 83,
-				video_start_ts : -914721.671875,
-				video_codec : 'cqu974fyCoOUsMFn',
+				duration : 678399.8125,
+				w : 39,
+				h : 89,
+				preload_prefix_size : 42,
+				video_start_ts : -351968.287109375,
+				video_codec : 'KN5FJYg3yIrZ9VdM',
 			),
 			$client->documentAttributeAudio(
 				voice : true,
-				duration : 36,
-				title : 'j41AfJvbkYcg785m',
-				performer : 'grHTQ5KI2xCSdoZy',
+				duration : 13,
+				title : 'QDsT150pV9hwvUdi',
+				performer : 'uwYTtZXCOkoL3F2g',
 				waveform : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 			),
 			$client->documentAttributeFilename(
-				file_name : 'IYPcpsOn7mdyiwVo',
+				file_name : 'S5RJTtwFyQPcjBn2',
 			),
 			$client->documentAttributeHasStickers(),
 			$client->documentAttributeCustomEmoji(
 				free : true,
 				text_color : true,
-				alt : 'TZ1FbLACYSGoiq2c',
+				alt : 'JbGce0Bsl8pqIidk',
 				stickerset : $client->inputStickerSetEmpty(),
 			),
 		),
 	),
-	receipt_msg_id : 36,
-	currency : '1aUtm8sPhxMW5k0D',
-	total_amount : -3948783891558848247,
-	start_param : 'gY6D2i10AMHoPbTm',
+	receipt_msg_id : 86,
+	currency : 'bY9sjpfvzLNxGiK2',
+	total_amount : 5712809842864405087,
+	start_param : 'rwPosLaT2fDUqHl6',
 	extended_media : $client->messageExtendedMediaPreview(
-		w : 25,
-		h : 88,
+		w : 43,
+		h : 79,
 		thumb : $client->photoSizeEmpty(
-			type : '0xAGHOuMKI47skDg',
+			type : 'cwJ5HniALhk17jvb',
 		),
-		video_duration : 78,
+		video_duration : 62,
 	),
 );
 ```

@@ -2,10 +2,10 @@
 
 **Description** : *Search for messages and peers globally*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
-messages.searchGlobal#4bc6589a flags:# broadcasts_only:flags.1?true groups_only:flags.2?true users_only:flags.3?true folder_id:flags.0?int q:string filter:MessagesFilter min_date:int max_date:int offset_rate:int offset_peer:InputPeer offset_id:int limit:int = messages.Messages;
+messages.searchGlobal#6126a43c flags:# broadcasts_only:flags.1?true groups_only:flags.2?true users_only:flags.3?true folder_id:flags.0?int community:flags.4?InputChannel q:string filter:MessagesFilter min_date:int max_date:int offset_rate:int offset_peer:InputPeer offset_id:int limit:int = messages.Messages;
 ```
 
 ---
@@ -19,6 +19,7 @@ messages.searchGlobal#4bc6589a flags:# broadcasts_only:flags.1?true groups_only:
 | **groups_only** | [`flags.2?true`](type/true) | Whether to search only in groups |
 | **users_only** | [`flags.3?true`](type/true) | Whether to search only in private chats |
 | **folder_id** | [`flags.0?int`](type/int) | Peer folder ID, for more info click here |
+| **community** | [`flags.4?InputChannel`](type/InputChannel) | NOTHING |
 | <mark>q</mark> | [`string`](type/string) | Query |
 | <mark>filter</mark> | [`MessagesFilter`](type/MessagesFilter) | Global search filter |
 | <mark>min_date</mark> | [`int`](type/int) | If a positive value was specified, the method will return only messages with date bigger than min_date |
@@ -53,14 +54,15 @@ $messagesMessages = $client->messages->searchGlobal(
 	broadcasts_only : true,
 	groups_only : true,
 	users_only : true,
-	folder_id : 16,
-	q : 'xyCE3lnpMtuN1LHK',
+	folder_id : 99,
+	community : $client->get_input_channel(channel : '@LiveProto'),
+	q : 'cQZSBPhmdzF8qtTD',
 	filter : $client->inputMessagesFilterEmpty(),
-	min_date : 60,
-	max_date : 38,
+	min_date : 40,
+	max_date : 23,
 	offset_rate : 0,
 	offset_peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	offset_id : 0,
-	limit : 77,
+	limit : 43,
 );
 ```

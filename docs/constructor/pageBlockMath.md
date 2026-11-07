@@ -1,6 +1,6 @@
 # pageBlockMath
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 pageBlockMath#59080c20 source:string = PageBlock;
@@ -26,6 +26,6 @@ pageBlockMath#59080c20 source:string = PageBlock;
 
 ```php
 $pageBlock = $client->pageBlockMath(
-	source : 'ULlXjMsmYZFBynPa',
+	source : 'ZASJKEojIwdM8Yp5',
 );
 ```

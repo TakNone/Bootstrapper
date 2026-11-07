@@ -1,6 +1,8 @@
 # messages.addPollAnswer
 
-**Layer** : 227
+**Description** : *Add an answer option to an open\-answer poll &raquo;*
+
+**Layer** : 229
 
 ```tl
 messages.addPollAnswer#19bc4b6d peer:InputPeer msg_id:int answer:PollAnswer = Updates;
@@ -12,9 +14,9 @@ messages.addPollAnswer#19bc4b6d peer:InputPeer msg_id:int answer:PollAnswer = Up
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | NOTHING |
-| <mark>msg_id</mark> | [`int`](type/int) | NOTHING |
-| <mark>answer</mark> | [`PollAnswer`](type/PollAnswer) | NOTHING |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Peer where the poll is located |
+| <mark>msg_id</mark> | [`int`](type/int) | Message ID of the poll |
+| <mark>answer</mark> | [`PollAnswer`](type/PollAnswer) | The new answer option to add, use inputPollAnswer |
 
 ---
 
@@ -24,47 +26,55 @@ messages.addPollAnswer#19bc4b6d peer:InputPeer msg_id:int answer:PollAnswer = Up
 
 ---
 
+## Possible Errors
+
+| Type | Code | Description |
+| :---: | :---: | :--- |
+| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+
+---
+
 ## Example
 
 ```php
 $updates = $client->messages->addPollAnswer(
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
-	msg_id : 43,
+	msg_id : 70,
 	answer : $client->pollAnswer(
 		text : $client->textWithEntities(
-			text : 'QdjYDhSp5wrFstVm',
+			text : 'o5gy3iqJGsxZLzN7',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 9,
+					length : 88,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 22,
+					length : 85,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 0,
+					length : 91,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 25,
+					length : 50,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 69,
+					length : 75,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 59,
+					length : 86,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 41,
+					length : 100,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 99,
+					length : 7,
 				),
 				$client->messageEntityCode(
 					offset : 0,
@@ -72,57 +82,57 @@ $updates = $client->messages->addPollAnswer(
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 29,
-					language : 'VlZYxp2cmEbLaroO',
+					length : 36,
+					language : '0kaqYhrxZ3jAMsS8',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 38,
+					length : 46,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 4,
-					user_id : 725849983627542492,
+					length : 59,
+					user_id : 7224822734040927790,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 86,
+					length : 39,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 62,
+					length : 50,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 34,
+					length : 22,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 27,
+					length : 77,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 57,
+					length : 86,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 87,
+					length : 56,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 89,
+					length : 18,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 87,
-					document_id : -6212627848072937926,
+					length : 46,
+					document_id : -1149621015436645936,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 19,
+					length : 79,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -132,30 +142,30 @@ $updates = $client->messages->addPollAnswer(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 40,
-					date : 61,
+					length : 1,
+					date : 50,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 41,
+					length : 31,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 5,
-					old_text : 'UscfWHu6LAmIGZvP',
+					length : 58,
+					old_text : 'zSxiOLVdMWuAtJm9',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 98,
+					length : 81,
 				),
 			),
 		),
 		option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 		media : $client->messageMediaEmpty(),
 		added_by : $client->peerUser(
-			user_id : -6284088778242777479,
+			user_id : 4425517633145263064,
 		),
-		date : 42,
+		date : 90,
 	),
 );
 ```

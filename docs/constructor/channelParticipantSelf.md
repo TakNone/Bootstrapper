@@ -2,7 +2,7 @@
 
 **Description** : *Myself*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelParticipantSelf#a9478a1a flags:# via_request:flags.0?true user_id:long inviter_id:long date:int subscription_until_date:flags.1?int rank:flags.2?string = ChannelParticipant;
@@ -20,7 +20,7 @@ channelParticipantSelf#a9478a1a flags:# via_request:flags.0?true user_id:long in
 | <mark>inviter_id</mark> | [`long`](type/long) | User that invited me to the channel/supergroup |
 | <mark>date</mark> | [`int`](type/int) | When did I join the channel/supergroup |
 | **subscription_until_date** | [`flags.1?int`](type/int) | If set, contains the expiration date of the current Telegram Star subscription period » for the specified participant |
-| **rank** | [`flags.2?string`](type/string) | NOTHING |
+| **rank** | [`flags.2?string`](type/string) | The participant's tag » |
 
 ---
 
@@ -35,10 +35,10 @@ channelParticipantSelf#a9478a1a flags:# via_request:flags.0?true user_id:long in
 ```php
 $channelParticipant = $client->channelParticipantSelf(
 	via_request : true,
-	user_id : 3551201517875285497,
-	inviter_id : 3131760084818765216,
-	date : 40,
-	subscription_until_date : 16,
-	rank : 'cmdljInZDi9p7uvR',
+	user_id : 2343875552060821731,
+	inviter_id : -1730025323901552184,
+	date : 47,
+	subscription_until_date : 100,
+	rank : '4RKO0gjBHJkoDbFP',
 );
 ```

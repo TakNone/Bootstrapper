@@ -1,6 +1,8 @@
 # aicompose.Tones
 
-**Layer** : 227
+**Description** : *The list of saved AI composer tones &raquo; of the current user*
+
+**Layer** : 229
 
 ```tl
 aicompose.tonesNotModified#c1f46103 = aicompose.Tones;
@@ -13,5 +15,5 @@ aicompose.tones#6c9d0efe hash:long tones:Vector<AiComposeTone> users:Vector<User
 
 | Constructor | Description |
 | :---: | :--- |
-| [**aicompose.tonesNotModified**](constructor/aicompose.tonesNotModified) | NOTHING |
-| [**aicompose.tones**](constructor/aicompose.tones) | NOTHING |
+| [**aicompose.tonesNotModified**](constructor/aicompose.tonesNotModified) | The list of saved AI composer tones » hasn't changed since the last time it was fetched (i.e. the hash passed to aicompose.getTones is still valid) |
+| [**aicompose.tones**](constructor/aicompose.tones) | The list of saved AI composer tones » of the current user |

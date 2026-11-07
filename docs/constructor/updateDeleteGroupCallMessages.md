@@ -1,6 +1,8 @@
 # updateDeleteGroupCallMessages
 
-**Layer** : 227
+**Description** : *Indicates that messages were deleted from the in\-call message overlay &raquo; of a video chat/livestream or live story, including in RTMP mode*
+
+**Layer** : 229
 
 ```tl
 updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> = Update;
@@ -12,8 +14,8 @@ updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> 
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | NOTHING |
-| <mark>messages</mark> | [`Vector<int>`](type/int) | NOTHING |
+| <mark>call</mark> | [`InputGroupCall`](type/InputGroupCall) | Video chat/livestream or live story from which the messages were deleted |
+| <mark>messages</mark> | [`Vector<int>`](type/int) | IDs of the deleted in-call messages |
 
 ---
 
@@ -28,9 +30,9 @@ updateDeleteGroupCallMessages#3e85e92c call:InputGroupCall messages:Vector<int> 
 ```php
 $update = $client->updateDeleteGroupCallMessages(
 	call : $client->inputGroupCall(
-		id : -3991520564046464392,
-		access_hash : 9126717020022346435,
+		id : 6659464446505275752,
+		access_hash : 6383911056479017872,
 	),
-	messages : array(16),
+	messages : array(59),
 );
 ```

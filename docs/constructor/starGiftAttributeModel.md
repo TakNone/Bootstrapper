@@ -2,7 +2,7 @@
 
 **Description** : *The model of a collectible gift &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 starGiftAttributeModel#565251e2 flags:# crafted:flags.0?true name:string document:Document rarity:StarGiftAttributeRarity = StarGiftAttribute;
@@ -14,11 +14,11 @@ starGiftAttributeModel#565251e2 flags:# crafted:flags.0?true name:string documen
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **crafted** | [`flags.0?true`](type/true) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **crafted** | [`flags.0?true`](type/true) | This model is reserved for crafting », and should be filtered out from regular upgrade previews |
 | <mark>name</mark> | [`string`](type/string) | Name of the model |
 | <mark>document</mark> | [`Document`](type/Document) | The sticker representing the upgraded gift |
-| <mark>rarity</mark> | [`StarGiftAttributeRarity`](type/StarGiftAttributeRarity) | NOTHING |
+| <mark>rarity</mark> | [`StarGiftAttributeRarity`](type/StarGiftAttributeRarity) | Rarity of this model |
 
 ---
 
@@ -33,12 +33,12 @@ starGiftAttributeModel#565251e2 flags:# crafted:flags.0?true name:string documen
 ```php
 $starGiftAttribute = $client->starGiftAttributeModel(
 	crafted : true,
-	name : '8ptgXZ69hwHzmPoC',
+	name : '9uHlh3scVfaPjnMy',
 	document : $client->documentEmpty(
-		id : -2907764290801782429,
+		id : -2447236141376795509,
 	),
 	rarity : $client->starGiftAttributeRarity(
-		permille : 85,
+		permille : 44,
 	),
 );
 ```

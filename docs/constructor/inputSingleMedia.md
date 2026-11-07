@@ -2,7 +2,7 @@
 
 **Description** : *A single media in an album or grouped media sent with messages\.sendMultiMedia*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputSingleMedia#1cc6e91f flags:# media:InputMedia random_id:long message:string entities:flags.0?Vector<MessageEntity> = InputSingleMedia;
@@ -16,7 +16,7 @@ inputSingleMedia#1cc6e91f flags:# media:InputMedia random_id:long message:string
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | <mark>media</mark> | [`InputMedia`](type/InputMedia) | The media |
-| <mark>random_id</mark> | [`long`](type/long) | Unique client media ID required to prevent message resending |
+| <mark>random_id</mark> | [`long`](type/long) | Unique client media ID required to prevent message resending. See here » for more info on random ID deduplication and updateMessageID mapping |
 | <mark>message</mark> | [`string`](type/string) | A caption for the media |
 | **entities** | [`flags.0?Vector<MessageEntity>`](type/MessageEntity) | Message entities for styled text |
 
@@ -33,98 +33,98 @@ inputSingleMedia#1cc6e91f flags:# media:InputMedia random_id:long message:string
 ```php
 $inputSingleMedia = $client->inputSingleMedia(
 	media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
-	random_id : -4453602715264102406,
-	message : 'd3e9A7xunlCZbfim',
+	random_id : 987343442059500092,
+	message : 'qMp4DrO08tvLm2cW',
 	entities : array(
 		$client->messageEntityUnknown(
 			offset : 0,
-			length : 11,
+			length : 35,
 		),
 		$client->messageEntityMention(
 			offset : 0,
-			length : 53,
+			length : 90,
 		),
 		$client->messageEntityHashtag(
 			offset : 0,
-			length : 93,
+			length : 41,
 		),
 		$client->messageEntityBotCommand(
 			offset : 0,
-			length : 57,
+			length : 80,
 		),
 		$client->messageEntityUrl(
 			offset : 0,
-			length : 74,
+			length : 26,
 		),
 		$client->messageEntityEmail(
 			offset : 0,
-			length : 26,
+			length : 31,
 		),
 		$client->messageEntityBold(
 			offset : 0,
-			length : 75,
+			length : 48,
 		),
 		$client->messageEntityItalic(
 			offset : 0,
-			length : 85,
+			length : 6,
 		),
 		$client->messageEntityCode(
 			offset : 0,
-			length : 86,
+			length : 21,
 		),
 		$client->messageEntityPre(
 			offset : 0,
-			length : 33,
-			language : 'horOPUpA706x1jT9',
+			length : 30,
+			language : 'cSQ3lbAtuDyIZ4FB',
 		),
 		$client->messageEntityTextUrl(
 			offset : 0,
-			length : 40,
+			length : 3,
 			url : 'https://docs.liveproto.dev',
 		),
 		$client->messageEntityMentionName(
 			offset : 0,
-			length : 28,
-			user_id : 1509371298289780885,
+			length : 78,
+			user_id : 3203973108838232345,
 		),
 		$client->inputMessageEntityMentionName(
 			offset : 0,
-			length : 45,
+			length : 43,
 			user_id : $client->get_input_user(user : '@TakNone'),
 		),
 		$client->messageEntityPhone(
 			offset : 0,
-			length : 7,
+			length : 98,
 		),
 		$client->messageEntityCashtag(
 			offset : 0,
-			length : 66,
+			length : 84,
 		),
 		$client->messageEntityUnderline(
 			offset : 0,
-			length : 74,
+			length : 71,
 		),
 		$client->messageEntityStrike(
 			offset : 0,
-			length : 74,
+			length : 86,
 		),
 		$client->messageEntityBankCard(
 			offset : 0,
-			length : 44,
+			length : 57,
 		),
 		$client->messageEntitySpoiler(
 			offset : 0,
-			length : 77,
+			length : 17,
 		),
 		$client->messageEntityCustomEmoji(
 			offset : 0,
-			length : 77,
-			document_id : -4336005564465017227,
+			length : 78,
+			document_id : 7414831374753231397,
 		),
 		$client->messageEntityBlockquote(
 			collapsed : true,
 			offset : 0,
-			length : 25,
+			length : 91,
 		),
 		$client->messageEntityFormattedDate(
 			relative : true,
@@ -134,21 +134,21 @@ $inputSingleMedia = $client->inputSingleMedia(
 			long_date : true,
 			day_of_week : true,
 			offset : 0,
-			length : 57,
-			date : 1,
+			length : 33,
+			date : 62,
 		),
 		$client->messageEntityDiffInsert(
 			offset : 0,
-			length : 79,
+			length : 86,
 		),
 		$client->messageEntityDiffReplace(
 			offset : 0,
-			length : 78,
-			old_text : 'TGDzCwQrENZ5adnV',
+			length : 12,
+			old_text : 'uNM4mlicWj5xTnUD',
 		),
 		$client->messageEntityDiffDelete(
 			offset : 0,
-			length : 86,
+			length : 85,
 		),
 	),
 );

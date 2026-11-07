@@ -2,7 +2,7 @@
 
 **Description** : *Get supergroup statistics*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 stats.getMegagroupStats#dcdf8607 flags:# dark:flags.0?true channel:InputChannel = stats.MegagroupStats;

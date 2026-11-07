@@ -2,7 +2,7 @@
 
 **Description** : *Use this object to download a photo with upload\.getFile method*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPhotoFileLocation#40181ffe id:long access_hash:long file_reference:bytes thumb_size:string = InputFileLocation;
@@ -31,9 +31,9 @@ inputPhotoFileLocation#40181ffe id:long access_hash:long file_reference:bytes th
 
 ```php
 $inputFileLocation = $client->inputPhotoFileLocation(
-	id : 3027722671106998081,
-	access_hash : -1497960315732852554,
+	id : 58695666749398934,
+	access_hash : 425376254942416575,
 	file_reference : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
-	thumb_size : 'wIZKRJ298BXzkfY4',
+	thumb_size : '6n7CPNdzrh1G5KE4',
 );
 ```

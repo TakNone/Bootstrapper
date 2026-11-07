@@ -1,6 +1,8 @@
 # bots.accessSettings
 
-**Layer** : 227
+**Description** : *Access restriction settings for a managed bot &raquo;*
+
+**Layer** : 229
 
 ```tl
 bots.accessSettings#dd1fbf93 flags:# restricted:flags.0?true add_users:flags.1?Vector<User> = bots.AccessSettings;
@@ -12,9 +14,9 @@ bots.accessSettings#dd1fbf93 flags:# restricted:flags.0?true add_users:flags.1?V
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **restricted** | [`flags.0?true`](type/true) | NOTHING |
-| **add_users** | [`flags.1?Vector<User>`](type/User) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **restricted** | [`flags.0?true`](type/true) | If set, only the owner and the users in add_users can access the managed bot |
+| **add_users** | [`flags.1?Vector<User>`](type/User) | Additional users (max 10, excluding the owner) who can access the managed bot; only present when restricted is set |
 
 ---
 
@@ -31,7 +33,7 @@ $botsAccessSettings = $client->bots->accessSettings(
 	restricted : true,
 	add_users : array(
 		$client->userEmpty(
-			id : -8701726846171107446,
+			id : 8058013161853697329,
 		),
 		$client->user(
 			self : true,
@@ -64,24 +66,24 @@ $botsAccessSettings = $client->bots->accessSettings(
 			bot_can_manage_bots : true,
 			bot_guestchat : true,
 			bot_guard : true,
-			id : 2059474730194776511,
-			access_hash : -8142799936641922355,
+			id : 6111992117720415821,
+			access_hash : 3424402372809296500,
 			first_name : 'Tak',
 			last_name : 'None',
 			username : 'TakNone',
 			phone : '+1234567890',
 			photo : $client->userProfilePhotoEmpty(),
 			status : $client->userStatusEmpty(),
-			bot_info_version : 25,
+			bot_info_version : 82,
 			restriction_reason : array(
 				$client->restrictionReason(
-					platform : 'o8QsI4WgVfDNFYB7',
-					reason : 'PBwN3muvIHFr0ife',
-					text : 'OcH9MsyeaUp8WXkK',
+					platform : '0xiwvG6eV1fuZIyU',
+					reason : 'tLlodJrvZW3e6C8R',
+					text : 'gvbHZl3KAkUpfJB6',
 				),
 			),
-			bot_inline_placeholder : 'vZcp5NLEfJTHKAYu',
-			lang_code : '0EJcTSKHxNZaFX8f',
+			bot_inline_placeholder : 'PjYadNMAZ8KQzweG',
+			lang_code : 'UKIrecnxwB5VS7sv',
 			emoji_status : $client->emojiStatusEmpty(),
 			usernames : array(
 				$client->username(
@@ -92,19 +94,20 @@ $botsAccessSettings = $client->bots->accessSettings(
 			),
 			stories_max_id : $client->recentStory(
 				live : true,
-				max_id : 62,
+				max_id : 17,
 			),
 			color : $client->peerColor(
-				color : 56,
-				background_emoji_id : -4829845549191968680,
+				color : 98,
+				background_emoji_id : 6473679309966414300,
 			),
 			profile_color : $client->peerColor(
-				color : 93,
-				background_emoji_id : -4851796794023049896,
+				color : 12,
+				background_emoji_id : -3572483205165022852,
 			),
-			bot_active_users : 12,
-			bot_verification_icon : -3788366099292144849,
-			send_paid_messages_stars : -6226370767270863154,
+			bot_active_users : 6,
+			bot_verification_icon : -3379725639083655651,
+			send_paid_messages_stars : -7904921370509998524,
+			linked_community_id : 2460082809728236528,
 		),
 	),
 );

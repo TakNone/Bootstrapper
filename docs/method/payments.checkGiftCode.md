@@ -2,7 +2,7 @@
 
 **Description** : *Obtain information about a Telegram Premium giftcode &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 payments.checkGiftCode#8e51b4c1 slug:string = payments.CheckedGiftCode;
@@ -37,6 +37,6 @@ payments.checkGiftCode#8e51b4c1 slug:string = payments.CheckedGiftCode;
 
 ```php
 $paymentsCheckedGiftCode = $client->payments->checkGiftCode(
-	slug : 'HdKTSpXbO70ykgEi',
+	slug : 'dyPj5DwFBxJLfgia',
 );
 ```

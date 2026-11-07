@@ -2,7 +2,7 @@
 
 **Description** : *Info about an exported chat folder deep link &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 chatlists.exportedChatlistInvite#10e6e3a6 filter:DialogFilter invite:ExportedChatlistInvite = chatlists.ExportedChatlistInvite;
@@ -39,99 +39,99 @@ $chatlistsExportedChatlistInvite = $client->chatlists->exportedChatlistInvite(
 		exclude_read : true,
 		exclude_archived : true,
 		title_noanimate : true,
-		id : 3,
+		id : 21,
 		title : $client->textWithEntities(
-			text : 'nkFOxXQgeqoCbmaM',
+			text : '0MqZnao23DJu8mTV',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 49,
+					length : 15,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 16,
+					length : 9,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 27,
+					length : 68,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 29,
+					length : 75,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 59,
+					length : 53,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 71,
+					length : 29,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 78,
+					length : 16,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 37,
+					length : 46,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 10,
+					length : 65,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 71,
-					language : 'iznbEwhlHm8UjMYt',
+					length : 70,
+					language : 'UYtSd9kiP21xNqjH',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 76,
+					length : 29,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 37,
-					user_id : 1108740241356825218,
+					length : 95,
+					user_id : -5658938423712333465,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 44,
+					length : 93,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 0,
+					length : 38,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 76,
+					length : 81,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 43,
+					length : 61,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 67,
+					length : 88,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 62,
+					length : 59,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 61,
+					length : 17,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 50,
-					document_id : 3355606382060731405,
+					length : 45,
+					document_id : -9167830926157610629,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 13,
+					length : 8,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -141,42 +141,42 @@ $chatlistsExportedChatlistInvite = $client->chatlists->exportedChatlistInvite(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 99,
-					date : 0,
+					length : 4,
+					date : 27,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 18,
+					length : 5,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 46,
-					old_text : '0MFlAXioZCSUuJ6G',
+					length : 61,
+					old_text : 'e1u7V6BScGX9TRdF',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 55,
+					length : 29,
 				),
 			),
 		),
-		emoticon : 'rV8n2bh0DdHk9MGJ',
-		color : 84,
+		emoticon : 'nli0a364QWeyfbFN',
+		color : 93,
 		pinned_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 		include_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 		exclude_peers : array($client->get_input_peer(peer : '@LiveProtoChat')),
 	),
 	invite : $client->exportedChatlistInvite(
-		title : 'AnIKmSs7z1tCN54v',
+		title : 'ACvotSJy03B79kc5',
 		url : 'https://docs.liveproto.dev',
 		peers : array(
 			$client->peerUser(
-				user_id : -2878299121759496840,
+				user_id : -1292903426272823555,
 			),
 			$client->peerChat(
-				chat_id : -6107085670274209989,
+				chat_id : -1727542363142003362,
 			),
 			$client->peerChannel(
-				channel_id : -8830565820007131419,
+				channel_id : 7812282197653796655,
 			),
 		),
 	),

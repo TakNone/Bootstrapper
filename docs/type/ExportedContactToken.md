@@ -2,7 +2,7 @@
 
 **Description** : *Describes a temporary profile link*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 exportedContactToken#41bf109b url:string expires:int = ExportedContactToken;

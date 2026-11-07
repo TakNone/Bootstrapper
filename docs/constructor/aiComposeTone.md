@@ -1,6 +1,8 @@
 # aiComposeTone
 
-**Layer** : 227
+**Description** : *A custom AI composer tone &raquo;, used to rephrase messages in a specific style with the AI message composer*
+
+**Layer** : 229
 
 ```tl
 aiComposeTone#cff63ea9 flags:# creator:flags.0?true id:long access_hash:long slug:string title:string emoji_id:flags.1?long prompt:flags.4?string installs_count:flags.2?int author_id:flags.3?long example_english:flags.5?AiComposeToneExample = AiComposeTone;
@@ -12,17 +14,17 @@ aiComposeTone#cff63ea9 flags:# creator:flags.0?true id:long access_hash:long slu
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | NOTHING |
-| **creator** | [`flags.0?true`](type/true) | NOTHING |
-| <mark>id</mark> | [`long`](type/long) | NOTHING |
-| <mark>access_hash</mark> | [`long`](type/long) | NOTHING |
-| <mark>slug</mark> | [`string`](type/string) | NOTHING |
-| <mark>title</mark> | [`string`](type/string) | NOTHING |
-| **emoji_id** | [`flags.1?long`](type/long) | NOTHING |
-| **prompt** | [`flags.4?string`](type/string) | NOTHING |
-| **installs_count** | [`flags.2?int`](type/int) | NOTHING |
-| **author_id** | [`flags.3?long`](type/long) | NOTHING |
-| **example_english** | [`flags.5?AiComposeToneExample`](type/AiComposeToneExample) | NOTHING |
+| <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
+| **creator** | [`flags.0?true`](type/true) | Whether the current user is the creator of this tone |
+| <mark>id</mark> | [`long`](type/long) | Tone identifier |
+| <mark>access_hash</mark> | [`long`](type/long) | Tone access hash |
+| <mark>slug</mark> | [`string`](type/string) | Unique tone slug, used to share and install the tone via AI compose tone links » |
+| <mark>title</mark> | [`string`](type/string) | Human-readable tone name, up to aicompose_tone_title_length_max » UTF-8 characters long |
+| **emoji_id** | [`flags.1?long`](type/long) | Custom emoji ID of the tone's icon |
+| **prompt** | [`flags.4?string`](type/string) | The prompt that describes how the AI should rephrase messages using this tone, up to aicompose_tone_prompt_length_max » UTF-8 characters long; only present for tones created by the current user |
+| **installs_count** | [`flags.2?int`](type/int) | Number of users that have installed this tone |
+| **author_id** | [`flags.3?long`](type/long) | ID of the user that created this tone, if made public by the author |
+| **example_english** | [`flags.5?AiComposeToneExample`](type/AiComposeToneExample) | An example showing how a sample English message is rephrased by this tone; use aicompose.getToneExample to fetch more examples |
 
 ---
 
@@ -37,107 +39,107 @@ aiComposeTone#cff63ea9 flags:# creator:flags.0?true id:long access_hash:long slu
 ```php
 $aiComposeTone = $client->aiComposeTone(
 	creator : true,
-	id : -571726088903337940,
-	access_hash : -341484808513479963,
-	slug : 'vMjoTICUegVyQRDF',
-	title : 'WNHDCoyz3sJwdaI5',
-	emoji_id : 7489822137416384874,
-	prompt : 'MgeJ7D63qL9fZ1s8',
-	installs_count : 20,
-	author_id : -148788948113376642,
+	id : 9221212256375720237,
+	access_hash : -6812596926071587479,
+	slug : 'Au143MwzyHpjrY8D',
+	title : 'aRBw3vVe2EFoiqSu',
+	emoji_id : 6645528467182029624,
+	prompt : 'loJ2vGfQ3dDP0kK5',
+	installs_count : 82,
+	author_id : 7696436038050240496,
 	example_english : $client->aiComposeToneExample(
 		from : $client->textWithEntities(
-			text : 'I2Kh0BEm1l4CLd8Q',
+			text : 'g6qpwFsfhdyU39vX',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 71,
+					length : 21,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 32,
+					length : 58,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 71,
+					length : 54,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 60,
+					length : 81,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 46,
+					length : 54,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 6,
+					length : 65,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 5,
+					length : 79,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 92,
+					length : 86,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 31,
+					length : 55,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 22,
-					language : '4x5eOHPDUQziawkf',
+					length : 88,
+					language : 'K8yNlPteRsIruOxX',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 27,
+					length : 82,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 39,
-					user_id : 3941712213977538707,
+					length : 53,
+					user_id : -4486013025608643458,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 95,
+					length : 33,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 64,
+					length : 100,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 67,
+					length : 61,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 80,
+					length : 66,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 77,
+					length : 83,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 12,
+					length : 95,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 30,
+					length : 74,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 46,
-					document_id : -3192556644409036854,
+					length : 33,
+					document_id : 3774631152312379747,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 69,
+					length : 58,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -147,116 +149,116 @@ $aiComposeTone = $client->aiComposeTone(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 29,
-					date : 29,
+					length : 74,
+					date : 72,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 54,
+					length : 24,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 61,
-					old_text : 'AUomRLQza5scEYk0',
+					length : 55,
+					old_text : 'd1BxuaDwQjgfeFsp',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 96,
+					length : 24,
 				),
 			),
 		),
 		to : $client->textWithEntities(
-			text : 'a1iukNOj3KDHhXL8',
+			text : 'ekBVzg2Qx57vAh16',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 72,
+					length : 65,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 45,
+					length : 26,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 40,
+					length : 67,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 21,
+					length : 56,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 11,
+					length : 85,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 75,
+					length : 36,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 73,
+					length : 56,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 50,
+					length : 64,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 85,
+					length : 16,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 19,
-					language : 'iuY4Hc9SRjPfBTl3',
+					length : 48,
+					language : 'M7K8yEsaZ4AjIQgB',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 40,
+					length : 29,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 65,
-					user_id : 3610259529580832264,
+					length : 60,
+					user_id : 1350871592953877065,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 39,
+					length : 17,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 86,
+					length : 75,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 74,
+					length : 70,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 49,
+					length : 41,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 8,
+					length : 82,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 78,
+					length : 26,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 86,
+					length : 14,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 78,
-					document_id : 459868180299845657,
+					length : 85,
+					document_id : 4149683735085516615,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 24,
+					length : 74,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -266,21 +268,21 @@ $aiComposeTone = $client->aiComposeTone(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 12,
-					date : 97,
+					length : 68,
+					date : 35,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 53,
+					length : 42,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 48,
-					old_text : 'fgDMzZbKBPlL9Wy4',
+					length : 49,
+					old_text : 'BFoMsvDbtie9EcUh',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 67,
+					length : 22,
 				),
 			),
 		),

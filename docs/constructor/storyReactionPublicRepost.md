@@ -2,7 +2,7 @@
 
 **Description** : *A certain peer has reposted the story*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 storyReactionPublicRepost#cfcd0f13 peer_id:Peer story:StoryItem = StoryReaction;
@@ -30,10 +30,10 @@ storyReactionPublicRepost#cfcd0f13 peer_id:Peer story:StoryItem = StoryReaction;
 ```php
 $storyReaction = $client->storyReactionPublicRepost(
 	peer_id : $client->peerUser(
-		user_id : 6049750791969375855,
+		user_id : 2135146327639911437,
 	),
 	story : $client->storyItemDeleted(
-		id : 26,
+		id : 50,
 	),
 );
 ```

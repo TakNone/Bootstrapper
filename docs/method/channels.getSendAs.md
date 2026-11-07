@@ -1,8 +1,8 @@
 # channels.getSendAs
 
-**Description** : *Obtains a list of peers that can be used to send messages in a specific group*
+**Description** : *Obtains a list of peers that can be displayed as the sender in a specific context\. With for\_live\_stories, returns peers that may author live story in\-call messages &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channels.getSendAs#e785a43f flags:# for_paid_reactions:flags.0?true for_live_stories:flags.1?true peer:InputPeer = channels.SendAsPeers;
@@ -16,8 +16,8 @@ channels.getSendAs#e785a43f flags:# for_paid_reactions:flags.0?true for_live_sto
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
 | **for_paid_reactions** | [`flags.0?true`](type/true) | If set, fetches the list of peers that can be used to send paid reactions to messages of a specific peer |
-| **for_live_stories** | [`flags.1?true`](type/true) | NOTHING |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The group where we intend to send messages |
+| **for_live_stories** | [`flags.1?true`](type/true) | Fetch the peers that may be passed to phone.sendGroupCallMessage.send_as to comment or react in a live story » |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The target peer; when for_live_stories is set, the peer that owns the live story |
 
 ---
 

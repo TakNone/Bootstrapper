@@ -2,10 +2,10 @@
 
 **Description** : *Describes a bot command that can be used in a chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
-botCommand#c27ac8c7 command:string description:string = BotCommand;
+botCommand#9852d6d2 flags:# ephemeral:flags.0?true command:string description:string = BotCommand;
 ```
 
 ---

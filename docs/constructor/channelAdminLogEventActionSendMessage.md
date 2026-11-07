@@ -2,7 +2,7 @@
 
 **Description** : *A message was posted in a channel*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 channelAdminLogEventActionSendMessage#278f2868 message:Message = ChannelAdminLogEventAction;
@@ -29,9 +29,9 @@ channelAdminLogEventActionSendMessage#278f2868 message:Message = ChannelAdminLog
 ```php
 $channelAdminLogEventAction = $client->channelAdminLogEventActionSendMessage(
 	message : $client->messageEmpty(
-		id : 62,
+		id : 60,
 		peer_id : $client->peerUser(
-			user_id : 473513949381381398,
+			user_id : -8098270270491033211,
 		),
 	),
 );

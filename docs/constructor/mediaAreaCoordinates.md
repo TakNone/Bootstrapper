@@ -2,7 +2,7 @@
 
 **Description** : *Coordinates and size of a clickable rectangular area on top of a story*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 mediaAreaCoordinates#cfc9e002 flags:# x:double y:double w:double h:double rotation:double radius:flags.0?double = MediaAreaCoordinates;
@@ -34,11 +34,11 @@ mediaAreaCoordinates#cfc9e002 flags:# x:double y:double w:double h:double rotati
 
 ```php
 $mediaAreaCoordinates = $client->mediaAreaCoordinates(
-	x : 877755.486328125,
-	y : 936258.8916015625,
-	w : -992344.8798828125,
-	h : 526309.96875,
-	rotation : -1497112.0419921875,
-	radius : 2084257.998046875,
+	x : -1809569.669921875,
+	y : -1766366.98828125,
+	w : -445692.6455078125,
+	h : -589305.212890625,
+	rotation : -540256.009765625,
+	radius : -2061655.1962890625,
 );
 ```

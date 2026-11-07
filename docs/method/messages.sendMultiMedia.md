@@ -2,7 +2,7 @@
 
 **Description** : *Send an album or grouped media*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messages.sendMultiMedia#1bf89d74 flags:# silent:flags.5?true background:flags.6?true clear_draft:flags.7?true noforwards:flags.14?true update_stickersets_order:flags.15?true invert_media:flags.16?true allow_paid_floodskip:flags.19?true peer:InputPeer reply_to:flags.0?InputReplyTo multi_media:Vector<InputSingleMedia> schedule_date:flags.10?int send_as:flags.13?InputPeer quick_reply_shortcut:flags.17?InputQuickReplyShortcut effect:flags.18?long allow_paid_stars:flags.21?long = Updates;
@@ -56,6 +56,7 @@ messages.sendMultiMedia#1bf89d74 flags:# silent:flags.5?true background:flags.6?
 | **CHAT_WRITE_FORBIDDEN** | `403` | You can't write in this chat |
 | **EFFECT_ID_INVALID** | `400` | The specified effect ID is invalid |
 | **ENTITY_BOUNDS_INVALID** | `400` | A specified entity offset or length is invalid, see here » for info on how to properly compute the entity offset/length |
+| **FILE_REFERENCE_%d_EMPTY** | `400` | The file reference of the media file at offset %d in the multi_media array is invalid |
 | **FILE_REFERENCE_%d_EXPIRED** | `400` | The file reference of the media file at index %d in the passed media array expired, it must be refreshed as specified in the documentation.  |
 | **FILE_REFERENCE_%d_INVALID** | `400` | The file reference of the media file at index %d in the passed media array is invalid |
 | **MEDIA_CAPTION_TOO_LONG** | `400` | The caption is too long |
@@ -63,7 +64,8 @@ messages.sendMultiMedia#1bf89d74 flags:# silent:flags.5?true background:flags.6?
 | **MEDIA_INVALID** | `400` | Media invalid |
 | **MSG_ID_INVALID** | `400` | Invalid message ID provided |
 | **MULTI_MEDIA_TOO_LONG** | `400` | Too many media files for album |
-| **PEER_ID_INVALID** | `400` | The provided peer id is invalid |
+| **PEER_ID_INVALID** | `406` | The provided peer id is invalid |
+| **PRIVACY_PREMIUM_REQUIRED** | `403` | You need a Telegram Premium subscription to send a message to this user |
 | **QUICK_REPLIES_BOT_NOT_ALLOWED** | `400` | Quick replies cannot be used by bots |
 | **QUICK_REPLIES_TOO_MUCH** | `400` | A maximum of appConfig.quick_replies_limit shortcuts may be created, the limit was reached |
 | **RANDOM_ID_DUPLICATE** | `500` | You provided a random ID that was already used |
@@ -77,6 +79,7 @@ messages.sendMultiMedia#1bf89d74 flags:# silent:flags.5?true background:flags.6?
 | **TOPIC_CLOSED** | `400` | This topic was closed, you can't send messages to it anymore |
 | **TOPIC_DELETED** | `400` | The specified topic was deleted |
 | **USER_BANNED_IN_CHANNEL** | `400` | You're banned from sending messages in supergroups/channels |
+| **USER_IS_BLOCKED** | `400` | You were blocked by this user |
 
 ---
 
@@ -93,100 +96,100 @@ $updates = $client->messages->sendMultiMedia(
 	allow_paid_floodskip : true,
 	peer : $client->get_input_peer(peer : '@LiveProtoChat'),
 	reply_to : $client->inputReplyToMessage(
-		reply_to_msg_id : 5,
-		top_msg_id : 88,
+		reply_to_msg_id : 0,
+		top_msg_id : 60,
 		reply_to_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		quote_text : 'P4hStONng3sC9BEl',
+		quote_text : 'zHrLx64Pg5GkOBlW',
 		quote_entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 30,
+				length : 5,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 46,
+				length : 45,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 8,
+				length : 45,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 92,
+				length : 48,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 34,
+				length : 89,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 20,
+				length : 47,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 18,
+				length : 85,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 74,
+				length : 34,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 61,
+				length : 42,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 70,
-				language : '8hVu0TnvIwkpdJ4Y',
+				length : 47,
+				language : '72hdyrR0ljxGaHEm',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 96,
+				length : 18,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 54,
-				user_id : -1630329031639633098,
+				length : 74,
+				user_id : 3939982546442870852,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 95,
+				length : 15,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 3,
+				length : 35,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 41,
+				length : 27,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 26,
+				length : 66,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 19,
+				length : 38,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 95,
+				length : 55,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 94,
+				length : 99,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 10,
-				document_id : 3423490757932901263,
+				length : 89,
+				document_id : -3694955826104720102,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 88,
+				length : 73,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -196,123 +199,123 @@ $updates = $client->messages->sendMultiMedia(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 49,
-				date : 53,
+				length : 13,
+				date : 37,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 61,
+				length : 71,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 80,
-				old_text : 'fOoke4xPQ8ZNplAS',
+				length : 36,
+				old_text : 'F97Ns1aWOAX2DpTv',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 18,
+				length : 48,
 			),
 		),
-		quote_offset : 21,
+		quote_offset : 11,
 		monoforum_peer_id : $client->get_input_peer(peer : '@LiveProtoChat'),
-		todo_item_id : 43,
+		todo_item_id : 97,
 		poll_option : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	),
 	multi_media : array(
 		$client->inputSingleMedia(
 			media : $client->get_input_media_uploaded(path : 'file.mp4',file_type : Tak\Liveproto\Enums\FileType::DOCUMENT),
-			random_id : -7958182097221195779,
-			message : 'dbsfEqrZRiMGm0OF',
+			random_id : 7725328194179200302,
+			message : 'NrFn2hCB3LVQ5fvx',
 			entities : array(
 				$client->messageEntityUnknown(
 					offset : 0,
-					length : 52,
+					length : 10,
 				),
 				$client->messageEntityMention(
 					offset : 0,
-					length : 73,
+					length : 64,
 				),
 				$client->messageEntityHashtag(
 					offset : 0,
-					length : 33,
+					length : 61,
 				),
 				$client->messageEntityBotCommand(
 					offset : 0,
-					length : 72,
+					length : 60,
 				),
 				$client->messageEntityUrl(
 					offset : 0,
-					length : 20,
+					length : 79,
 				),
 				$client->messageEntityEmail(
 					offset : 0,
-					length : 51,
+					length : 77,
 				),
 				$client->messageEntityBold(
 					offset : 0,
-					length : 90,
+					length : 49,
 				),
 				$client->messageEntityItalic(
 					offset : 0,
-					length : 55,
+					length : 58,
 				),
 				$client->messageEntityCode(
 					offset : 0,
-					length : 78,
+					length : 3,
 				),
 				$client->messageEntityPre(
 					offset : 0,
-					length : 79,
-					language : 'oAnrYNjCahsGftT4',
+					length : 26,
+					language : 'qBiDmHVY3uRGO5Tw',
 				),
 				$client->messageEntityTextUrl(
 					offset : 0,
-					length : 71,
+					length : 75,
 					url : 'https://docs.liveproto.dev',
 				),
 				$client->messageEntityMentionName(
 					offset : 0,
-					length : 19,
-					user_id : -2710808752593509992,
+					length : 18,
+					user_id : -5483813317718400430,
 				),
 				$client->inputMessageEntityMentionName(
 					offset : 0,
-					length : 0,
+					length : 20,
 					user_id : $client->get_input_user(user : '@TakNone'),
 				),
 				$client->messageEntityPhone(
 					offset : 0,
-					length : 91,
+					length : 46,
 				),
 				$client->messageEntityCashtag(
 					offset : 0,
-					length : 100,
+					length : 1,
 				),
 				$client->messageEntityUnderline(
 					offset : 0,
-					length : 34,
+					length : 69,
 				),
 				$client->messageEntityStrike(
 					offset : 0,
-					length : 54,
+					length : 32,
 				),
 				$client->messageEntityBankCard(
 					offset : 0,
-					length : 82,
+					length : 8,
 				),
 				$client->messageEntitySpoiler(
 					offset : 0,
-					length : 59,
+					length : 17,
 				),
 				$client->messageEntityCustomEmoji(
 					offset : 0,
-					length : 7,
-					document_id : 3477875812221076269,
+					length : 68,
+					document_id : -3752092664847380595,
 				),
 				$client->messageEntityBlockquote(
 					collapsed : true,
 					offset : 0,
-					length : 46,
+					length : 22,
 				),
 				$client->messageEntityFormattedDate(
 					relative : true,
@@ -322,31 +325,31 @@ $updates = $client->messages->sendMultiMedia(
 					long_date : true,
 					day_of_week : true,
 					offset : 0,
-					length : 30,
-					date : 4,
+					length : 88,
+					date : 74,
 				),
 				$client->messageEntityDiffInsert(
 					offset : 0,
-					length : 88,
+					length : 22,
 				),
 				$client->messageEntityDiffReplace(
 					offset : 0,
-					length : 1,
-					old_text : 'cIdQVf0YJ6r3bLUE',
+					length : 9,
+					old_text : 'xCDc2zjPG9Jbt7TF',
 				),
 				$client->messageEntityDiffDelete(
 					offset : 0,
-					length : 75,
+					length : 79,
 				),
 			),
 		),
 	),
-	schedule_date : 1,
+	schedule_date : 42,
 	send_as : $client->get_input_peer(peer : '@LiveProtoChat'),
 	quick_reply_shortcut : $client->inputQuickReplyShortcut(
-		shortcut : 'K0FqH3fO2bTM8WID',
+		shortcut : 'myfgc5KBTUQ9a8nh',
 	),
-	effect : 6628326098732893778,
-	allow_paid_stars : 1168163231555134410,
+	effect : -1439572971849089800,
+	allow_paid_stars : 8764565118690171934,
 );
 ```

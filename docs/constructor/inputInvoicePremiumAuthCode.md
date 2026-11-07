@@ -1,6 +1,8 @@
 # inputInvoicePremiumAuthCode
 
-**Layer** : 227
+**Description** : *Used to pay for login codes, in case of high cost of SMS verification codes for the user&#039;s country/provider, see here &raquo; for more info*
+
+**Layer** : 229
 
 ```tl
 inputInvoicePremiumAuthCode#3e77f614 purpose:InputStorePaymentPurpose = InputInvoice;
@@ -12,7 +14,7 @@ inputInvoicePremiumAuthCode#3e77f614 purpose:InputStorePaymentPurpose = InputInv
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>purpose</mark> | [`InputStorePaymentPurpose`](type/InputStorePaymentPurpose) | NOTHING |
+| <mark>purpose</mark> | [`InputStorePaymentPurpose`](type/InputStorePaymentPurpose) | Must contain an inputStorePaymentAuthCode |
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Description** : *Info about a saved message reaction tag &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 savedReactionTag#cb6ff828 flags:# reaction:Reaction title:flags.0?string count:int = SavedReactionTag;

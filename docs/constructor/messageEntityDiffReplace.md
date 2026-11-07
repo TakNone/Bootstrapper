@@ -1,6 +1,8 @@
 # messageEntityDiffReplace
 
-**Layer** : 227
+**Description** : *Represents an diff replacement, render it as follows:*
+
+**Layer** : 229
 
 ```tl
 messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = MessageEntity;
@@ -12,9 +14,9 @@ messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = Messag
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>offset</mark> | [`int`](type/int) | NOTHING |
-| <mark>length</mark> | [`int`](type/int) | NOTHING |
-| <mark>old_text</mark> | [`string`](type/string) | NOTHING |
+| <mark>offset</mark> | [`int`](type/int) | Offset of message entity within message (in UTF-16 code units) |
+| <mark>length</mark> | [`int`](type/int) | Length of message entity within message (in UTF-16 code units) |
+| <mark>old_text</mark> | [`string`](type/string) | The chunk of text that was removed |
 
 ---
 
@@ -29,7 +31,7 @@ messageEntityDiffReplace#c6c1e5a7 offset:int length:int old_text:string = Messag
 ```php
 $messageEntity = $client->messageEntityDiffReplace(
 	offset : 0,
-	length : 73,
-	old_text : 'orpjFcNQiAaGE31y',
+	length : 29,
+	old_text : '0ERx64dvOAl53jMX',
 );
 ```

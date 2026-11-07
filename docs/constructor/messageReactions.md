@@ -2,7 +2,7 @@
 
 **Description** : *Message reactions &raquo;*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 messageReactions#a339f0b flags:# min:flags.0?true can_see_list:flags.2?true reactions_as_tags:flags.3?true results:Vector<ReactionCount> recent_reactions:flags.1?Vector<MessagePeerReaction> top_reactors:flags.4?Vector<MessageReactor> = MessageReactions;
@@ -39,9 +39,9 @@ $messageReactions = $client->messageReactions(
 	reactions_as_tags : true,
 	results : array(
 		$client->reactionCount(
-			chosen_order : 9,
+			chosen_order : 84,
 			reaction : $client->reactionEmpty(),
-			count : 4,
+			count : 41,
 		),
 	),
 	recent_reactions : array(
@@ -50,9 +50,9 @@ $messageReactions = $client->messageReactions(
 			unread : true,
 			my : true,
 			peer_id : $client->peerUser(
-				user_id : 482723395004815909,
+				user_id : 5758811870632470366,
 			),
-			date : 45,
+			date : 91,
 			reaction : $client->reactionEmpty(),
 		),
 	),
@@ -62,9 +62,9 @@ $messageReactions = $client->messageReactions(
 			my : true,
 			anonymous : true,
 			peer_id : $client->peerUser(
-				user_id : 4718676329719596781,
+				user_id : -5592362315560553701,
 			),
-			count : 21,
+			count : 81,
 		),
 	),
 );

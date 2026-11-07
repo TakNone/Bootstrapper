@@ -1,8 +1,8 @@
 # chatParticipantsForbidden
 
-**Description** : *Info on members is unavailable*
+**Description** : *The full list of members of basic groups &raquo; is not available to you, because you were banned*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 chatParticipantsForbidden#8763d3e1 flags:# chat_id:long self_participant:flags.0?ChatParticipant = ChatParticipants;
@@ -30,12 +30,12 @@ chatParticipantsForbidden#8763d3e1 flags:# chat_id:long self_participant:flags.0
 
 ```php
 $chatParticipants = $client->chatParticipantsForbidden(
-	chat_id : -3743906177020494391,
+	chat_id : 356871581234270284,
 	self_participant : $client->chatParticipant(
-		user_id : 3795397776324248111,
-		inviter_id : 6800086880312284961,
-		date : 73,
-		rank : '2Qn5q1Pg89zWT4XH',
+		user_id : 3835783357620324897,
+		inviter_id : 5942896146620609312,
+		date : 16,
+		rank : 'UhY7VraNMuDo5Ofk',
 	),
 );
 ```

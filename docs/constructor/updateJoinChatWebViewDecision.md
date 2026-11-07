@@ -1,6 +1,6 @@
 # updateJoinChatWebViewDecision
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateJoinChatWebViewDecision#bdac7e70 peer:Peer query_id:long result:JoinChatBotResult = Update;
@@ -29,9 +29,9 @@ updateJoinChatWebViewDecision#bdac7e70 peer:Peer query_id:long result:JoinChatBo
 ```php
 $update = $client->updateJoinChatWebViewDecision(
 	peer : $client->peerUser(
-		user_id : -6184854412138454887,
+		user_id : -5346309012739318007,
 	),
-	query_id : 2024008584487749882,
+	query_id : -3811749832303479368,
 	result : $client->joinChatBotResultApproved(),
 );
 ```

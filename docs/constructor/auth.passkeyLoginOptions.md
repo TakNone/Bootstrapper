@@ -1,6 +1,8 @@
 # auth.passkeyLoginOptions
 
-**Layer** : 227
+**Description** : *Passkey login options, see here &raquo; for more info on the full flow*
+
+**Layer** : 229
 
 ```tl
 auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
@@ -12,7 +14,7 @@ auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>options</mark> | [`DataJSON`](type/DataJSON) | NOTHING |
+| <mark>options</mark> | [`DataJSON`](type/DataJSON) | JSON-encoded object whose publicKey field contains a PublicKeyCredentialRequestOptions object |
 
 ---
 
@@ -27,7 +29,7 @@ auth.passkeyLoginOptions#e2037789 options:DataJSON = auth.PasskeyLoginOptions;
 ```php
 $authPasskeyLoginOptions = $client->auth->passkeyLoginOptions(
 	options : $client->dataJSON(
-		data : 'hUo4AbemzvfPxqCE',
+		data : 'A1pZY8RhWSwUEiV2',
 	),
 );
 ```

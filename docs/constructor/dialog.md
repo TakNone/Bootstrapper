@@ -2,7 +2,7 @@
 
 **Description** : *Chat*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 dialog#fc89f7f3 flags:# pinned:flags.2?true unread_mark:flags.3?true view_forum_as_messages:flags.6?true peer:Peer top_message:int read_inbox_max_id:int read_outbox_max_id:int unread_count:int unread_mentions_count:int unread_reactions_count:int unread_poll_votes_count:int notify_settings:PeerNotifySettings pts:flags.0?int draft:flags.1?DraftMessage folder_id:flags.4?int ttl_period:flags.5?int = Dialog;
@@ -25,7 +25,7 @@ dialog#fc89f7f3 flags:# pinned:flags.2?true unread_mark:flags.3?true view_forum_
 | <mark>unread_count</mark> | [`int`](type/int) | Number of unread messages |
 | <mark>unread_mentions_count</mark> | [`int`](type/int) | Number of unread mentions |
 | <mark>unread_reactions_count</mark> | [`int`](type/int) | Number of unread reactions to messages you sent |
-| <mark>unread_poll_votes_count</mark> | [`int`](type/int) | NOTHING |
+| <mark>unread_poll_votes_count</mark> | [`int`](type/int) | Number of unread votes cast in non-anonymous polls » owned by the user in this dialog |
 | <mark>notify_settings</mark> | [`PeerNotifySettings`](type/PeerNotifySettings) | Notification settings |
 | **pts** | [`flags.0?int`](type/int) | PTS |
 | **draft** | [`flags.1?DraftMessage`](type/DraftMessage) | Message draft |
@@ -48,33 +48,33 @@ $dialog = $client->dialog(
 	unread_mark : true,
 	view_forum_as_messages : true,
 	peer : $client->peerUser(
-		user_id : -2192572801557511712,
+		user_id : 7967895428069394428,
 	),
-	top_message : 78,
-	read_inbox_max_id : 95,
-	read_outbox_max_id : 93,
-	unread_count : 61,
-	unread_mentions_count : 55,
-	unread_reactions_count : 34,
-	unread_poll_votes_count : 31,
+	top_message : 51,
+	read_inbox_max_id : 7,
+	read_outbox_max_id : 67,
+	unread_count : 69,
+	unread_mentions_count : 42,
+	unread_reactions_count : 82,
+	unread_poll_votes_count : 13,
 	notify_settings : $client->peerNotifySettings(
 		show_previews : false,
-		silent : true,
-		mute_until : 31,
+		silent : false,
+		mute_until : 14,
 		ios_sound : $client->notificationSoundDefault(),
 		android_sound : $client->notificationSoundDefault(),
 		other_sound : $client->notificationSoundDefault(),
 		stories_muted : true,
-		stories_hide_sender : true,
+		stories_hide_sender : false,
 		stories_ios_sound : $client->notificationSoundDefault(),
 		stories_android_sound : $client->notificationSoundDefault(),
 		stories_other_sound : $client->notificationSoundDefault(),
 	),
-	pts : 0,
+	pts : 13,
 	draft : $client->draftMessageEmpty(
-		date : 27,
+		date : 97,
 	),
-	folder_id : 67,
-	ttl_period : 53,
+	folder_id : 87,
+	ttl_period : 47,
 );
 ```

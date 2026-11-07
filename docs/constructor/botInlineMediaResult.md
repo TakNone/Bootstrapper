@@ -2,7 +2,7 @@
 
 **Description** : *Media result*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 botInlineMediaResult#17db940b flags:# id:string type:string photo:flags.0?Photo document:flags.1?Document title:flags.2?string description:flags.3?string send_message:BotInlineMessage = BotInlineResult;
@@ -35,109 +35,109 @@ botInlineMediaResult#17db940b flags:# id:string type:string photo:flags.0?Photo 
 
 ```php
 $botInlineResult = $client->botInlineMediaResult(
-	id : 'F6KzEis0mec8uAvX',
-	type : 'hNoHrb5gUO1wcLvz',
+	id : '38i4udFLrfzSv2jZ',
+	type : 'f1Ni6Y5XyVRWkopC',
 	photo : $client->photoEmpty(
-		id : -2007409875384609864,
+		id : -5667651446615378645,
 	),
 	document : $client->documentEmpty(
-		id : -7323497912599905457,
+		id : 2429554656037029430,
 	),
-	title : 'cMxOVC2igXD6wjSZ',
-	description : 'wI6UxBVn34YMWZei',
+	title : 'YaLRmIWFuGPxV635',
+	description : 'Xn7MpbIk6F20qc8P',
 	send_message : $client->botInlineMessageMediaAuto(
 		invert_media : true,
-		message : 'GF6iuoe8VXgHvnsr',
+		message : 'Y5uztqnF2OHWfaR0',
 		entities : array(
 			$client->messageEntityUnknown(
 				offset : 0,
-				length : 15,
+				length : 74,
 			),
 			$client->messageEntityMention(
 				offset : 0,
-				length : 75,
+				length : 30,
 			),
 			$client->messageEntityHashtag(
 				offset : 0,
-				length : 8,
+				length : 42,
 			),
 			$client->messageEntityBotCommand(
 				offset : 0,
-				length : 78,
+				length : 76,
 			),
 			$client->messageEntityUrl(
 				offset : 0,
-				length : 61,
+				length : 37,
 			),
 			$client->messageEntityEmail(
 				offset : 0,
-				length : 35,
+				length : 71,
 			),
 			$client->messageEntityBold(
 				offset : 0,
-				length : 27,
+				length : 37,
 			),
 			$client->messageEntityItalic(
 				offset : 0,
-				length : 3,
+				length : 2,
 			),
 			$client->messageEntityCode(
 				offset : 0,
-				length : 17,
+				length : 91,
 			),
 			$client->messageEntityPre(
 				offset : 0,
-				length : 2,
-				language : 'OP5VaX6H1dqGASoN',
+				length : 74,
+				language : 'TFIrVpoxyNkA3buh',
 			),
 			$client->messageEntityTextUrl(
 				offset : 0,
-				length : 13,
+				length : 38,
 				url : 'https://docs.liveproto.dev',
 			),
 			$client->messageEntityMentionName(
 				offset : 0,
-				length : 77,
-				user_id : 85026898174350937,
+				length : 2,
+				user_id : -1764481155479069957,
 			),
 			$client->inputMessageEntityMentionName(
 				offset : 0,
-				length : 47,
+				length : 21,
 				user_id : $client->get_input_user(user : '@TakNone'),
 			),
 			$client->messageEntityPhone(
 				offset : 0,
-				length : 69,
+				length : 78,
 			),
 			$client->messageEntityCashtag(
 				offset : 0,
-				length : 37,
+				length : 50,
 			),
 			$client->messageEntityUnderline(
 				offset : 0,
-				length : 17,
+				length : 29,
 			),
 			$client->messageEntityStrike(
 				offset : 0,
-				length : 4,
+				length : 11,
 			),
 			$client->messageEntityBankCard(
 				offset : 0,
-				length : 10,
+				length : 17,
 			),
 			$client->messageEntitySpoiler(
 				offset : 0,
-				length : 100,
+				length : 1,
 			),
 			$client->messageEntityCustomEmoji(
 				offset : 0,
-				length : 82,
-				document_id : 3304151372725256288,
+				length : 19,
+				document_id : -4927002985076752407,
 			),
 			$client->messageEntityBlockquote(
 				collapsed : true,
 				offset : 0,
-				length : 81,
+				length : 53,
 			),
 			$client->messageEntityFormattedDate(
 				relative : true,
@@ -147,21 +147,21 @@ $botInlineResult = $client->botInlineMediaResult(
 				long_date : true,
 				day_of_week : true,
 				offset : 0,
-				length : 96,
-				date : 71,
+				length : 13,
+				date : 37,
 			),
 			$client->messageEntityDiffInsert(
 				offset : 0,
-				length : 2,
+				length : 32,
 			),
 			$client->messageEntityDiffReplace(
 				offset : 0,
-				length : 19,
-				old_text : 'KXSkJw0yiO35WnCp',
+				length : 81,
+				old_text : 'klYMqBfF1LRXgCAN',
 			),
 			$client->messageEntityDiffDelete(
 				offset : 0,
-				length : 29,
+				length : 33,
 			),
 		),
 		reply_markup : $client->replyKeyboardHide(

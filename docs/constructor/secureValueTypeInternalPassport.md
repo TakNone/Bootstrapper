@@ -2,7 +2,7 @@
 
 **Description** : *Internal passport*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 secureValueTypeInternalPassport#99a48f23 = SecureValueType;

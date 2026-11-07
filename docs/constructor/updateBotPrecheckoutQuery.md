@@ -2,7 +2,7 @@
 
 **Description** : *This object contains information about an incoming pre\-checkout query*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 updateBotPrecheckoutQuery#8caa9a96 flags:# query_id:long user_id:long payload:bytes info:flags.0?PaymentRequestedInfo shipping_option_id:flags.1?string currency:string total_amount:long = Update;
@@ -35,24 +35,24 @@ updateBotPrecheckoutQuery#8caa9a96 flags:# query_id:long user_id:long payload:by
 
 ```php
 $update = $client->updateBotPrecheckoutQuery(
-	query_id : -6248453688006248965,
-	user_id : 4227883200556049418,
+	query_id : 7547378859106279372,
+	user_id : -9058077718259530893,
 	payload : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 	info : $client->paymentRequestedInfo(
-		name : 'bJku7We8cRnVv5ai',
+		name : 'p7DM9FZT4SakRqrf',
 		phone : '+1234567890',
 		email : 'reply@liveproto.dev',
 		shipping_address : $client->postAddress(
-			street_line1 : 'lRHVrPmG7QZigsep',
-			street_line2 : 'uj12MhlGARsdFWLK',
-			city : 'IiktaqJD67o3Fyfl',
-			state : 'ScN1KOCe6Znasm5l',
-			country_iso2 : 'rlMk3Zt2e6pIAHC4',
-			post_code : 'CHtgcoN0fF8wdD4I',
+			street_line1 : '6jcyid8mIYZAV597',
+			street_line2 : 'Wgl92TMsfCNtE6wr',
+			city : 'MaQTsj4YJ1okxKEm',
+			state : 'OxUAy3asKcC75Hlk',
+			country_iso2 : 'MU1YFwKL6drO8gBX',
+			post_code : 'l6cJGYRWMvbez97T',
 		),
 	),
-	shipping_option_id : 'yQ1cjrIFCmPT8Ev9',
-	currency : 'nT01xVIdJskDSUaP',
-	total_amount : 6224745906669138750,
+	shipping_option_id : 'MIh8mxd0RyNf51j7',
+	currency : '8YZr5afF4QCwSbPd',
+	total_amount : -2534636281714019133,
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Contains info about Main Mini App previews, see here &raquo; for more info*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 bots.previewInfo#ca71d64 media:Vector<BotPreviewMedia> lang_codes:Vector<string> = bots.PreviewInfo;

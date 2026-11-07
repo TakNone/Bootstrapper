@@ -2,7 +2,7 @@
 
 **Description** : *Verify an email address*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 account.verifyEmail#32da4cf purpose:EmailVerifyPurpose verification:EmailVerification = account.EmailVerified;
@@ -29,9 +29,11 @@ account.verifyEmail#32da4cf purpose:EmailVerifyPurpose verification:EmailVerific
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CODE_INVALID** | `400` | Code invalid |
 | **EMAIL_INVALID** | `400` | The specified email is invalid |
 | **EMAIL_NOT_ALLOWED** | `400` | The specified email cannot be used to complete the operation |
 | **EMAIL_VERIFY_EXPIRED** | `400` | The verification email has expired |
+| **PHONE_CODE_EXPIRED** | `400` | The phone code you provided has expired |
 | **PHONE_NUMBER_INVALID** | `400` | The phone number is invalid |
 
 ---
@@ -45,7 +47,7 @@ $accountEmailVerified = $client->account->verifyEmail(
 		phone_code_hash : '+1234567890',
 	),
 	verification : $client->emailVerificationCode(
-		code : 'uRsCheSr1f5wT6km',
+		code : 'JXsD3MePEwmGOW4g',
 	),
 );
 ```

@@ -2,7 +2,7 @@
 
 **Description** : *Logged\-in session*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 authorization#ad01d61d flags:# current:flags.0?true official_app:flags.1?true password_pending:flags.2?true encrypted_requests_disabled:flags.3?true call_requests_disabled:flags.4?true unconfirmed:flags.5?true hash:long device_model:string platform:string system_version:string api_id:int app_name:string app_version:string date_created:int date_active:int ip:string country:string region:string = Authorization;
@@ -53,16 +53,16 @@ $authorization = $client->authorization(
 	call_requests_disabled : true,
 	unconfirmed : true,
 	hash : 0,
-	device_model : 'q2rMSRPCbO4lEiUy',
-	platform : 'AqRJ74EofWc8LbUn',
-	system_version : 'JMtRKbflm9uXYrDV',
-	api_id : 27,
-	app_name : 'dR4MzUrDHBWh2s10',
-	app_version : 'FjX27DCZo8OW0JBY',
-	date_created : 38,
-	date_active : 32,
+	device_model : 'X2wvs7TZgahJdB6R',
+	platform : '4CTdnQYHMVaeGSwp',
+	system_version : '97InjrW32g4GQFoz',
+	api_id : 18,
+	app_name : 'bmdljgfP1RQs4FMt',
+	app_version : 'MZuVgvjDCX57EOfF',
+	date_created : 17,
+	date_active : 15,
 	ip : '127.0.0.1',
-	country : '0bj9LGOEPrQiXC1H',
-	region : '651yqF8JABthLMv4',
+	country : 'rBd0HW67FN9ehTGX',
+	region : 'YxvcWaf8kbElT7N3',
 );
 ```

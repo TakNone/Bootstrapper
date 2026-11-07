@@ -1,6 +1,6 @@
 # JoinChatBotResult
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 joinChatBotResultApproved#ae152a69 = JoinChatBotResult;

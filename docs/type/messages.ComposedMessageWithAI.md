@@ -1,6 +1,8 @@
 # messages.ComposedMessageWithAI
 
-**Layer** : 227
+**Description** : *Represents a message modified by AI*
+
+**Layer** : 229
 
 ```tl
 messages.composedMessageWithAI#90d7adfa flags:# result_text:TextWithEntities diff_text:flags.0?TextWithEntities = messages.ComposedMessageWithAI;
@@ -12,4 +14,4 @@ messages.composedMessageWithAI#90d7adfa flags:# result_text:TextWithEntities dif
 
 | Constructor | Description |
 | :---: | :--- |
-| [**messages.composedMessageWithAI**](constructor/messages.composedMessageWithAI) | NOTHING |
+| [**messages.composedMessageWithAI**](constructor/messages.composedMessageWithAI) | Represents a message modified by AI |

@@ -1,8 +1,8 @@
 # phone.getCallConfig
 
-**Description** : *Get phone call configuration to be passed to libtgvoip&#039;s shared config*
+**Description** : *DEPRECATED: Get phone call configuration to be passed to the libtgvoip \(deprecated\) shared config*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.getCallConfig#55451fa9 = DataJSON;

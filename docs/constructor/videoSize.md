@@ -2,7 +2,7 @@
 
 **Description** : *An animated profile picture in MPEG4 format*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 videoSize#de33b094 flags:# type:string w:int h:int size:int video_start_ts:flags.0?double = VideoSize;
@@ -15,7 +15,7 @@ videoSize#de33b094 flags:# type:string w:int h:int size:int video_start_ts:flags
 | Name | Type | Description |
 | :---: | :---: | :--- |
 | <del style = 'opacity : 0.4'>flags</del> | [`#`](type/#) | Flags, see TL conditional fields |
-| <mark>type</mark> | [`string`](type/string) | u for animated profile pictures, and v for trimmed and downscaled video previews |
+| <mark>type</mark> | [`string`](type/string) | videoSize.type value » |
 | <mark>w</mark> | [`int`](type/int) | Video width |
 | <mark>h</mark> | [`int`](type/int) | Video height |
 | <mark>size</mark> | [`int`](type/int) | File size |
@@ -33,10 +33,10 @@ videoSize#de33b094 flags:# type:string w:int h:int size:int video_start_ts:flags
 
 ```php
 $videoSize = $client->videoSize(
-	type : 'pE8uYgTy1Cz9icPM',
-	w : 41,
-	h : 21,
-	size : 36,
-	video_start_ts : -246614.7265625,
+	type : '4YbGthT1xSrqI0ez',
+	w : 45,
+	h : 5,
+	size : 38,
+	video_start_ts : -1612840.9931640625,
 );
 ```

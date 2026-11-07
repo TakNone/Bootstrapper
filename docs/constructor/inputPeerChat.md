@@ -2,7 +2,7 @@
 
 **Description** : *Defines a chat for further interaction*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 inputPeerChat#35a95cb9 chat_id:long = InputPeer;
@@ -28,6 +28,6 @@ inputPeerChat#35a95cb9 chat_id:long = InputPeer;
 
 ```php
 $inputPeer = $client->inputPeerChat(
-	chat_id : 6863082133171941218,
+	chat_id : -6930369581451915298,
 );
 ```

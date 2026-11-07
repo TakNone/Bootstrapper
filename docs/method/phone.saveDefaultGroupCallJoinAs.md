@@ -1,8 +1,8 @@
 # phone.saveDefaultGroupCallJoinAs
 
-**Description** : *Set the default peer that will be used to join a group call in a specific dialog*
+**Description** : *Set the default peer used to join a video chat/livestream &raquo; associated with a specific dialog*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.saveDefaultGroupCallJoinAs#575e1f8c peer:InputPeer join_as:InputPeer = Bool;
@@ -14,8 +14,8 @@ phone.saveDefaultGroupCallJoinAs#575e1f8c peer:InputPeer join_as:InputPeer = Boo
 
 | Name | Type | Description |
 | :---: | :---: | :--- |
-| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | The dialog |
-| <mark>join_as</mark> | [`InputPeer`](type/InputPeer) | The default peer that will be used to join group calls in this dialog, presenting yourself as a specific user/channel |
+| <mark>peer</mark> | [`InputPeer`](type/InputPeer) | Basic group, supergroup or channel whose video chat/livestream default should be changed |
+| <mark>join_as</mark> | [`InputPeer`](type/InputPeer) | Eligible peer to use by default when joining the dialog's video chats/livestreams, selected from phone.getGroupCallJoinAs |
 
 ---
 

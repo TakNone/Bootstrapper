@@ -1,6 +1,8 @@
 # messages.EmojiGameInfo
 
-**Layer** : 227
+**Description** : *Dice game information*
+
+**Layer** : 229
 
 ```tl
 messages.emojiGameUnavailable#59e65335 = messages.EmojiGameInfo;
@@ -13,5 +15,5 @@ messages.emojiGameDiceInfo#44e56023 flags:# game_hash:string prev_stake:long cur
 
 | Constructor | Description |
 | :---: | :--- |
-| [**messages.emojiGameUnavailable**](constructor/messages.emojiGameUnavailable) | NOTHING |
-| [**messages.emojiGameDiceInfo**](constructor/messages.emojiGameDiceInfo) | NOTHING |
+| [**messages.emojiGameUnavailable**](constructor/messages.emojiGameUnavailable) | Dice game information |
+| [**messages.emojiGameDiceInfo**](constructor/messages.emojiGameDiceInfo) | Dice game information |

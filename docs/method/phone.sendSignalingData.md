@@ -1,8 +1,8 @@
 # phone.sendSignalingData
 
-**Description** : *Send VoIP signaling data*
+**Description** : *Send VoIP signaling data for an ongoing phone call*
 
-**Layer** : 227
+**Layer** : 229
 
 ```tl
 phone.sendSignalingData#ff7a9383 peer:InputPhoneCall data:bytes = Bool;
@@ -29,6 +29,7 @@ phone.sendSignalingData#ff7a9383 peer:InputPhoneCall data:bytes = Bool;
 
 | Type | Code | Description |
 | :---: | :---: | :--- |
+| **CALL_NOT_ACTIVE** | `400` | The specified call is not active |
 | **CALL_PEER_INVALID** | `400` | The provided call peer object is invalid |
 
 ---
@@ -38,8 +39,8 @@ phone.sendSignalingData#ff7a9383 peer:InputPhoneCall data:bytes = Bool;
 ```php
 $bool = $client->phone->sendSignalingData(
 	peer : $client->inputPhoneCall(
-		id : -7266401909690240480,
-		access_hash : 2679618562721493352,
+		id : 5037757791946291900,
+		access_hash : -2793670221082141974,
 	),
 	data : "\x4c\x69\x76\x65\x50\x72\x6f\x74\x6f",
 );
